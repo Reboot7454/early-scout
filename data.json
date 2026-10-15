@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-16 03:50 CST",
+    "updated": "2026-10-16 03:56 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early crypto scout rounds 1–26",
-    "lastScout": "2026-10-16T03:50:05.562096+08:00",
+    "lastScout": "2026-10-16T03:56:17.107032+08:00",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -245,6 +245,14 @@
       "hoodpals-pandy",
       "holdingtime",
       "afterimage-ink"
+    ],
+    "round27Added": [
+      "pumpgo",
+      "stokn"
+    ],
+    "watchStyles": [
+      "定位/AR 抓币与地图掉点（PumpGO 类）",
+      "极早期 Solana 社交玩法发射盘"
     ]
   },
   "candidates": [
@@ -9228,6 +9236,113 @@
         "actionable": 70,
         "overall": 66
       }
+    },
+    {
+      "id": "pumpgo",
+      "name": "PumpGO",
+      "category": "Meme",
+      "chain": "Solana",
+      "round": 27,
+      "status": "live",
+      "earlyness": 9,
+      "actionable": 8,
+      "novelty": 9,
+      "risk": "Bot/作弊已现；代币与合约需自验；定位玩法运营与合规不确定性高；极早期可归零。",
+      "overall": 8.5,
+      "scores": {
+        "early": 9,
+        "actionable": 8,
+        "novelty": 9,
+        "risk": 8,
+        "overall": 8.5
+      },
+      "tags": [
+        "定位抓币",
+        "GO玩法",
+        "Solana",
+        "极早期",
+        "AR/地图",
+        "pump.fun生态"
+      ],
+      "whyWatch": "走路地图抓 $PUMP 直打钱包，官推约 450 粉、9/30 建号，典型极早期社交/定位发射盘。",
+      "background": "pumpgo.world：持 $GO 开地图，到定点用相机抓币，奖励直进 Solana 钱包。官宣称已 walk 881km、抓 1945 币、累计派发约 $9k+ $PUMP。",
+      "highlights": [
+        "官推 @PumpGOWorld ~450 粉，9/30 建号，极早期注意力窗",
+        "玩法清晰：地图定点 + 相机抓币，奖励直打 Solana 钱包",
+        "今日仍在高频掉点（地铁/地标），互动在涨"
+      ],
+      "drawbacks": [
+        "官宣已见作弊账号，反作弊刚上线，公平性未定",
+        "合约/代币地址需自行核对，防假站与假 mint",
+        "定位+发放玩法运营与合规风险高，可归零"
+      ],
+      "whatsNew": "本轮新：纳入雷达关注；同类「定位/GO/抓币」发射盘纳入例行标准",
+      "links": {
+        "x": "https://x.com/PumpGOWorld",
+        "site": "https://pumpgo.world"
+      },
+      "schedule": {
+        "status": "live",
+        "note": "Web 已 live，持续掉点；无固定 mint 窗"
+      },
+      "onchain": {
+        "status": "watch",
+        "note": "持 $GO 参与；官方推文偶提 CA，以官网/官推为准自验"
+      },
+      "flag": null
+    },
+    {
+      "id": "stokn",
+      "name": "Stokn",
+      "category": "Meme",
+      "chain": "Solana",
+      "round": 27,
+      "status": "live",
+      "earlyness": 7,
+      "actionable": 6,
+      "novelty": 8,
+      "risk": "代币与金库透明度需自验；走路玩法易被刷；极早期可归零。",
+      "overall": 7.0,
+      "scores": {
+        "early": 7,
+        "actionable": 6,
+        "novelty": 8,
+        "risk": 8,
+        "overall": 7.0
+      },
+      "tags": [
+        "定位抓币",
+        "GO玩法",
+        "走路挖矿",
+        "Solana",
+        "股票映射"
+      ],
+      "whyWatch": "走路地图抓股票/Sol 空投玩法，与 PumpGO 同类；官推 @stoknapp，交易费拆分买股+烧 $GO。",
+      "background": "Stokn.fun：交易 $GO 抽成，一部分买真实股票进金库掉落地图、一部分回购销毁。Android 已上线，定位抓股/币。",
+      "highlights": [
+        "与 PumpGO 同属定位/GO 玩法赛道，可交叉对比",
+        "机制写清：交易费 50% 买股入金库 / 40% 烧 $GO / 10% 团队",
+        "Android 已 live，地图掉点叙事仍在扩"
+      ],
+      "drawbacks": [
+        "粉与声量已高于极早期顶档，信息差变薄",
+        "金库持股与链上烧毁需自行核对",
+        "定位刷量与合规风险高"
+      ],
+      "whatsNew": "本轮新：作为 PumpGO 同类样例纳入关注",
+      "links": {
+        "x": "https://x.com/stoknapp",
+        "site": "https://stokn.fun"
+      },
+      "schedule": {
+        "status": "live",
+        "note": "App 已 live，持续地图掉点"
+      },
+      "onchain": {
+        "status": "watch",
+        "note": "以官推/官网 CA 为准自验"
+      },
+      "flag": null
     }
   ]
 }
