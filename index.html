@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#07090f" />
   <meta http-equiv="refresh" content="600" />
   <title>早期打新雷达 · Early Scout</title>
-  <meta name="description" content="高风险·非投资建议。早期加密打新候选雷达：新台 / Meme / NFT。含开售日程与链上 mint 盯盘。" />
+  <meta name="description" content="高风险·非投资建议。早期加密雷达四栏：打新 / 挖矿 / 台子·Meme / GO盘。含开售日程与链上 mint 盯盘。" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet" />
@@ -23,12 +23,13 @@
     <header class="header">
       <div class="brand">
         <h1>早期打新雷达</h1>
-        <p class="sub">Early Crypto Scout · 新台 / Meme / NFT / 挖矿 · <span class="lz-inline">LayerZero</span></p>
+        <p class="sub">Early Crypto Scout · 打新 / 挖矿 / 台子·Meme / GO盘 · <span class="lz-inline">LayerZero</span></p>
       </div>
       <div class="meta-pills">
         <span class="pill">候选 <strong id="count">—</strong></span>
-        <span class="pill">更新 <strong id="updated">—</strong> CST</span>
-        <span class="pill pill-mining" id="mining-pill" title="挖矿独立区">挖矿区</span>
+        <span class="pill">更新 <strong id="updated">—</strong></span>
+        <button type="button" class="pill pill-mining" id="mining-pill" data-jump-zone="mining-panel" title="跳到挖矿列">挖矿</button>
+        <button type="button" class="pill pill-go" id="go-pill" data-jump-zone="go-panel" title="跳到 GO盘">GO盘</button>
         <span class="pill pill-lz" id="lz-pill" title="LayerZero 监控已开启">LayerZero 监控中</span>
         <span class="pill">多轮合并</span>
       </div>
@@ -62,7 +63,8 @@
         <div class="select-wrap">
           <label for="sort" class="visually-hidden" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">排序</label>
           <select id="sort" aria-label="排序">
-            <option value="earlyness" selected>排序：早期程度</option>
+            <option value="newest" selected>排序：最新信号</option>
+            <option value="earlyness">排序：早期程度</option>
             <option value="overall">排序：综合评分</option>
             <option value="schedule">排序：开售时间（近→远）</option>
             <option value="risk">排序：风险（高→低）</option>
@@ -78,25 +80,44 @@
       <div class="stats-bar" id="stats"></div>
     </section>
 
-    <div class="split-board">
-    <section class="main-scout" aria-label="打新候选">
-      <div class="zone-head scout-zone-head">
-        <span class="zone-title scout-zone-title">打新</span>
-        <span class="zone-sub">新台 / Meme / NFT</span>
+    <div class="board" id="board">
+    <section class="zone zone-scout" id="scout-panel" aria-label="打新">
+      <div class="zone-head">
+        <span class="zone-title">打新</span>
+        <span class="zone-count" id="scout-count">—</span>
+        <span class="zone-sub">NFT · 其他早期</span>
       </div>
-      <main class="grid" id="grid" aria-live="polite">
-      <div class="empty">加载中…</div>
-    </main>
+      <div class="grid zone-cards" id="grid" aria-live="polite">
+        <div class="empty">加载中…</div>
+      </div>
     </section>
 
-    <section class="mining-zone" id="mining-panel" aria-label="挖矿区">
+    <section class="zone zone-mining" id="mining-panel" aria-label="挖矿">
       <div class="zone-head">
-        <span class="zone-title">挖矿区</span>
+        <span class="zone-title">挖矿</span>
         <span class="zone-count" id="mining-count">—</span>
         <span class="zone-sub" id="mining-desc">GPU PoW · NFT 变异 / Miner</span>
         <div class="chips mining-type-chips" id="mining-type-chips" aria-label="挖矿子类"></div>
       </div>
       <div class="mining-list" id="mining-grid"></div>
+    </section>
+
+    <section class="zone zone-meme" id="meme-panel" aria-label="台子与 Meme">
+      <div class="zone-head">
+        <span class="zone-title">台子 / Meme</span>
+        <span class="zone-count" id="meme-count">—</span>
+        <span class="zone-sub">新台 · Meme · Launchpad</span>
+      </div>
+      <div class="grid zone-cards" id="meme-grid"></div>
+    </section>
+
+    <section class="zone zone-go" id="go-panel" aria-label="GO盘">
+      <div class="zone-head">
+        <span class="zone-title">GO盘</span>
+        <span class="zone-count" id="go-count">—</span>
+        <span class="zone-sub">定位 · AR · 走路</span>
+      </div>
+      <div class="grid zone-cards" id="go-grid"></div>
     </section>
     </div>
 

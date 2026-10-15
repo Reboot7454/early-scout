@@ -9,7 +9,7 @@
     miningTypeFilter: "all", // all | gpu-pow | nft-mutation | nft-miner | other
     scheduleFilter: "all", // all | soon24 | hasSchedule | onchain
     query: "",
-    sort: "earlyness",
+    sort: "newest",
     nowMs: Date.now(),
   };
 
@@ -144,6 +144,33 @@
     }
     if (c.miningType) return true;
     return false;
+  }
+
+  /** Location / AR / walk-to-earn launches. Mining is decided first, so this never steals a mining row. */
+  function isGoPlay(c) {
+    if (!c) return false;
+    if (String(c.playStyle || "").toLowerCase() === "go") return true;
+    const idn = `${c.id || ""} ${c.name || ""}`.toLowerCase().replace(/[^a-z0-9]+/g, "");
+    if (idn.includes("pumpgo") || idn.includes("stokn")) return true;
+    for (const raw of c.tags || []) {
+      const s = String(raw);
+      const low = s.toLowerCase();
+      if (s.includes("定位") || low.includes("go玩法") || s.includes("地图") || s.includes("走路挖矿")) {
+        return true;
+      }
+      if (/(^|[^a-z])ar([^a-z]|$)/i.test(s)) return true;
+    }
+    return false;
+  }
+
+  const PLATFORM_CATS = new Set(["新台", "Meme", "Launchpad"]);
+
+  /** Exactly one column: mining > GO > 台子/Meme > 打新. */
+  function zoneOf(c) {
+    if (isMining(c)) return "mining";
+    if (isGoPlay(c)) return "go";
+    if (PLATFORM_CATS.has(c.category)) return "meme";
+    return "scout";
   }
 
 
@@ -321,11 +348,12 @@
       <article class="card ${riskClass} ${flagClass} ${lzClass}" data-id="${escapeHtml(c.id)}">
         <div class="card-top ${hasFlag ? "" : "has-no-flag"}">
           <div>
-            <div class="name">${escapeHtml(c.name)}${lz ? '<span class="lz-chip" title="LayerZero 相关">LZ</span>' : ""}${sched}${newBadge}</div>
+            <div class="name">${escapeHtml(c.name)}${lz ? '<span class="lz-chip" title="LayerZero 相关">LZ</span>' : ""}${isGoPlay(c) ? '<span class="go-chip" title="GO盘">GO</span>' : ""}${sched}${newBadge}</div>
             <div class="tags">
               <span class="tag tag-cat-${escapeHtml(c.category)}">${escapeHtml(c.category)}</span>
               <span class="tag tag-chain">${escapeHtml(c.chain)}</span>
               ${lz ? '<span class="tag tag-lz">LayerZero</span>' : ""}
+              ${isGoPlay(c) ? '<span class="tag tag-go">GO</span>' : ""}
               ${isMining(c) ? '<span class="tag tag-mining">挖矿</span>' : ""}
               ${extraTags}
             </div>
@@ -376,90 +404,133 @@
     return Boolean(o && (o.contract || o.explorer));
   }
 
-  function filtered() {
-    const q = state.query.trim().toLowerCase();
-    let list = state.data.candidates.slice();
+  function matchesQuery(c, q) {
+    if (!q) return true;
+    const blob = [
+      c.name,
+      c.id,
+      c.category,
+      c.chain,
+      c.whyWatch,
+      c.background,
+      c.risk,
+      c.flag,
+      c.playStyle,
+      c.schedule?.note,
+      c.onchain?.note,
+      c.whatsNew,
+      ...(c.highlights || []),
+      ...(c.drawbacks || []),
+      ...(c.tags || []),
+    ]
+      .join(" ")
+      .toLowerCase();
+    return blob.includes(q);
+  }
 
-    // 挖矿独立框：主列表默认排除挖矿候选（品类=挖矿 时仅用于跳转到挖矿区）
-    if (state.category === "挖矿") {
-      list = [];
-    } else {
-      list = list.filter((c) => !isMining(c));
+  function passesShared(c) {
+    if (state.category !== "all" && state.category !== "挖矿" && c.category !== state.category) {
+      return false;
     }
+    if (state.chain !== "all" && c.chain !== state.chain) return false;
+    if (state.round !== "all" && String(c.round) !== String(state.round)) return false;
+    if (state.layerzero === "on" && !isLayerZero(c)) return false;
+    if (state.scheduleFilter === "soon24" && !within24h(c)) return false;
+    if (state.scheduleFilter === "hasSchedule" && !hasSchedule(c)) return false;
+    if (state.scheduleFilter === "onchain" && !hasOnchainWatch(c)) return false;
+    return matchesQuery(c, state.query.trim().toLowerCase());
+  }
 
-    if (state.category !== "all" && state.category !== "挖矿") {
-      list = list.filter((c) => c.category === state.category);
-    }
-    if (state.chain !== "all") {
-      list = list.filter((c) => c.chain === state.chain);
-    }
-    if (state.round !== "all") {
-      list = list.filter((c) => String(c.round) === String(state.round));
-    }
-    if (state.layerzero === "on") {
-      list = list.filter(isLayerZero);
-    }
-    if (state.scheduleFilter === "soon24") {
-      list = list.filter(within24h);
-    } else if (state.scheduleFilter === "hasSchedule") {
-      list = list.filter(hasSchedule);
-    } else if (state.scheduleFilter === "onchain") {
-      list = list.filter(hasOnchainWatch);
-    }
-    if (q) {
-      list = list.filter((c) => {
-        const blob = [
-          c.name,
-          c.category,
-          c.chain,
-          c.whyWatch,
-          c.background,
-          c.risk,
-          c.flag,
-          c.schedule?.note,
-          c.onchain?.note,
-          c.whatsNew,
-          ...(c.highlights || []),
-          ...(c.drawbacks || []),
-          ...(c.tags || []),
-        ]
-          .join(" ")
-          .toLowerCase();
-        return blob.includes(q);
-      });
-    }
+  function updatedLabel() {
+    const u = String(state.data?.meta?.updated || "");
+    if (!u) return "—";
+    return /CST|UTC|\+\d{2}/.test(u) ? u : `${u} CST`;
+  }
 
-    if (state.sort === "risk") {
-      list.sort(
+  function discoveredMs(c) {
+    return parseTime(c.firstSeen) ?? parseTime(c.addedAt);
+  }
+
+  /** Newest discovered signal first. Timestamp wins; otherwise higher round is newer. */
+  function compareNewest(a, b) {
+    const ta = discoveredMs(a);
+    const tb = discoveredMs(b);
+    if (ta != null && tb != null && ta !== tb) return tb - ta;
+    if ((ta != null) !== (tb != null)) return ta != null ? -1 : 1;
+    const rd = (Number(b.round) || 0) - (Number(a.round) || 0);
+    if (rd) return rd;
+    const wn =
+      ((b.whatsNew || "").trim() ? 1 : 0) - ((a.whatsNew || "").trim() ? 1 : 0);
+    if (wn) return wn;
+    const ob = b.scores?.overall ?? b.earlyScore ?? 0;
+    const oa = a.scores?.overall ?? a.earlyScore ?? 0;
+    if (ob !== oa) return ob - oa;
+    return String(a.name || "").localeCompare(String(b.name || ""), "zh");
+  }
+
+  function sortList(list) {
+    const arr = list.slice();
+    const mode = state.sort || "newest";
+    if (mode === "risk") {
+      arr.sort(
         (a, b) =>
           (b.riskScore ?? RISK_RANK[b.riskLevel] * 20) -
             (a.riskScore ?? RISK_RANK[a.riskLevel] * 20) ||
-          b.earlyScore - a.earlyScore
+          (b.earlyScore ?? 0) - (a.earlyScore ?? 0)
       );
-    } else if (state.sort === "overall") {
-      list.sort(
+    } else if (mode === "overall") {
+      arr.sort(
         (a, b) =>
           (b.scores?.overall ?? 0) - (a.scores?.overall ?? 0) ||
           (b.earlyScore ?? 0) - (a.earlyScore ?? 0)
       );
-    } else if (state.sort === "name") {
-      list.sort((a, b) => a.name.localeCompare(b.name, "zh"));
-    } else if (state.sort === "schedule") {
-      list.sort((a, b) => {
+    } else if (mode === "name") {
+      arr.sort((a, b) => a.name.localeCompare(b.name, "zh"));
+    } else if (mode === "schedule") {
+      arr.sort((a, b) => {
         const sa = scheduleStartMs(a);
         const sb = scheduleStartMs(b);
         const fa = sa == null ? Number.POSITIVE_INFINITY : sa;
         const fb = sb == null ? Number.POSITIVE_INFINITY : sb;
         return fa - fb || (b.earlyScore ?? 0) - (a.earlyScore ?? 0);
       });
-    } else {
-      list.sort(
+    } else if (mode === "earlyness") {
+      arr.sort(
         (a, b) =>
-          (b.earlyScore ?? 0) - (a.earlyScore ?? 0) ||
+          (b.earlyScore ?? b.scores?.early ?? 0) - (a.earlyScore ?? a.scores?.early ?? 0) ||
           (b.riskScore ?? 0) - (a.riskScore ?? 0)
       );
+    } else {
+      arr.sort(compareNewest);
     }
-    return list;
+    return arr;
+  }
+
+  function matchesMiningType(c, typ) {
+    if (!typ || typ === "all") return true;
+    const mt = c.miningType || "";
+    const tags = c.tags || [];
+    if (typ === "nft-miner") {
+      return mt === "nft-miner" || tags.some((x) => String(x).toLowerCase().includes("miner"));
+    }
+    if (typ === "nft-mutation") {
+      return mt === "nft-mutation" || tags.some((x) => String(x).includes("变异"));
+    }
+    if (typ === "gpu-pow") {
+      return (
+        mt === "gpu-pow" ||
+        tags.some((x) =>
+          ["pow", "gpu", "prl-like", "qtc-like", "noid-like"].includes(String(x).toLowerCase())
+        )
+      );
+    }
+    return mt === typ || mt === "" || mt === "other";
+  }
+
+  function columnItems(zone) {
+    let list = state.data.candidates.filter((c) => zoneOf(c) === zone && passesShared(c));
+    if (zone === "mining") list = list.filter((c) => matchesMiningType(c, state.miningTypeFilter));
+    return sortList(list);
   }
 
   function uniqueChains(candidates) {
@@ -531,12 +602,15 @@
       { id: "挖矿", label: "挖矿", cls: "cat-mining" },
       { id: "Launchpad", label: "Launchpad", cls: "cat-platform" },
     ];
-    catHost.innerHTML = cats
-      .map(
-        (c) =>
-          `<button type="button" class="chip ${c.cls} ${state.category === c.id ? "active" : ""}" data-group="category" data-value="${c.id}">${c.label}</button>`
-      )
-      .join("");
+    catHost.innerHTML =
+      cats
+        .map(
+          (c) =>
+            `<button type="button" class="chip ${c.cls} ${state.category === c.id ? "active" : ""}" data-group="category" data-value="${c.id}">${c.label}</button>`
+        )
+        .join("") +
+      `<button type="button" class="chip cat-go" data-group="zoneJump" data-value="go-panel">GO盘</button>` +
+      `<button type="button" class="chip cat-meme-jump" data-group="zoneJump" data-value="meme-panel">台子/Meme</button>`;
 
     const chains = [
       { id: "all", label: "全部链" },
@@ -637,37 +711,6 @@
     }
   }
 
-  function miningList() {
-    let list = state.data.candidates.filter(isMining);
-    const typ = state.miningTypeFilter;
-    if (typ && typ !== "all") {
-      list = list.filter((c) => {
-        const mt = c.miningType || "";
-        if (typ === "nft-miner") {
-          return mt === "nft-miner" || (c.tags || []).some((x) => String(x).toLowerCase().includes("miner"));
-        }
-        if (typ === "nft-mutation") {
-          return mt === "nft-mutation" || (c.tags || []).some((x) => String(x).includes("变异"));
-        }
-        if (typ === "gpu-pow") {
-          return mt === "gpu-pow" || (c.tags || []).some((x) => ["pow", "gpu", "prl-like", "qtc-like", "noid-like"].includes(String(x).toLowerCase()));
-        }
-        return mt === typ || mt === "" || mt === "other";
-      });
-    }
-    const q = state.query.trim().toLowerCase();
-    if (q) {
-      list = list.filter((c) => {
-        const blob = [c.name, c.chain, c.whyWatch, c.background, ...(c.tags || [])].join(" ").toLowerCase();
-        return blob.includes(q);
-      });
-    }
-    return list.sort(
-      (a, b) =>
-        (b.scores?.overall ?? b.earlyScore ?? 0) - (a.scores?.overall ?? a.earlyScore ?? 0)
-    );
-  }
-
   function miningTypeLabel(c) {
     const mt = c.miningType || "";
     if (mt === "gpu-pow") return "GPU PoW";
@@ -697,57 +740,63 @@
     </div>`;
   }
 
-  function renderMiningPanel() {
-    const grid = $("#mining-grid");
-    const countEl = $("#mining-count");
-    const desc = $("#mining-desc");
-    const pill = $("#mining-pill");
-    const panel = $("#mining-panel");
-    if (!grid || !state.data) return;
-    const allM = state.data.candidates.filter(isMining);
-    const list = miningList();
-    if (countEl) countEl.textContent = `${list.length}/${allM.length}`;
-    if (pill) pill.textContent = `挖矿 · ${allM.length}`;
-    if (desc) {
-      desc.textContent = "GPU PoW · NFT 变异 / Miner · 列表区";
+  const ZONES = [
+    { id: "scout", grid: "#grid", count: "#scout-count", label: "打新", cards: true },
+    { id: "mining", grid: "#mining-grid", count: "#mining-count", label: "挖矿", cards: false },
+    { id: "meme", grid: "#meme-grid", count: "#meme-count", label: "台子 / Meme", cards: true },
+    { id: "go", grid: "#go-grid", count: "#go-count", label: "GO盘", cards: true },
+  ];
+
+  function emptyColumnHtml(label) {
+    if (state.layerzero === "on") {
+      return `<div class="empty empty-lz"><div class="lz-badge-lg">LZ</div><div>当前筛选下暂无${escapeHtml(label)}</div></div>`;
     }
-    if (!list.length) {
-      grid.innerHTML = `<div class="empty-mining">挖矿区暂无匹配项</div>`;
-    } else {
-      grid.innerHTML = list.map(miningRowHtml).join("");
-    }
-    if (panel) panel.hidden = allM.length === 0;
+    return `<div class="empty">暂无匹配的${escapeHtml(label)}</div>`;
   }
 
+  function renderColumn(zone) {
+    const host = $(zone.grid);
+    const countEl = $(zone.count);
+    const all = state.data.candidates.filter((c) => zoneOf(c) === zone.id);
+    const list = columnItems(zone.id);
+    if (host) {
+      if (!list.length) {
+        host.innerHTML =
+          zone.id === "mining"
+            ? `<div class="empty-mining">挖矿暂无匹配项</div>`
+            : emptyColumnHtml(zone.label);
+      } else {
+        host.innerHTML = zone.cards ? list.map(cardHtml).join("") : list.map(miningRowHtml).join("");
+      }
+    }
+    if (countEl) {
+      countEl.textContent = list.length === all.length ? String(list.length) : `${list.length}/${all.length}`;
+    }
+    return { shown: list.length, total: all.length };
+  }
 
   function render() {
     state.nowMs = Date.now();
     renderSchedSoon();
-    renderMiningPanel();
-    const list = filtered();
-    const grid = $("#grid");
-    if (!list.length) {
-      const emptyLz =
-        state.layerzero === "on"
-          ? `<div class="empty empty-lz"><div class="lz-badge-lg">LZ</div><div><b>LayerZero 监控已开启</b><br/>当前筛选下暂无匹配项。开链/新台信号出现后会自动入库；可点「显示全部候选」或清空筛选。</div></div>`
-          : `<div class="empty">没有匹配的候选。试试清空筛选或换个关键词。</div>`;
-      grid.innerHTML = emptyLz;
-    } else {
-      grid.innerHTML = list.map(cardHtml).join("");
-    }
+    const counts = {};
+    for (const zone of ZONES) counts[zone.id] = renderColumn(zone);
 
     const total = state.data.candidates.length;
     const lzN = state.data.candidates.filter(isLayerZero).length;
-    const mineN = state.data.candidates.filter(isMining).length;
     const soonN = state.data.candidates.filter(within24h).length;
-    const schedN = state.data.candidates.filter(hasSchedule).length;
+    const minePill = $("#mining-pill");
+    const goPill = $("#go-pill");
+    if (minePill) minePill.textContent = `挖矿 · ${counts.mining.total}`;
+    if (goPill) goPill.textContent = `GO盘 · ${counts.go.total}`;
     $("#stats").innerHTML = `
-      打新 <b>${list.length}</b> ·
-      挖矿区 <b>${mineN}</b> ·
+      打新 <b>${counts.scout.shown}</b> ·
+      挖矿 <b>${counts.mining.shown}</b> ·
+      台子/Meme <b>${counts.meme.shown}</b> ·
+      GO盘 <b>${counts.go.shown}</b> ·
       共 <b>${total}</b> ·
       即将开售 <b>${soonN}</b> ·
       LayerZero <b>${lzN}</b> ·
-      更新 <b>${escapeHtml(state.data.meta.updated)}</b> CST
+      更新 <b>${escapeHtml(updatedLabel())}</b>
     `;
   }
 
@@ -797,11 +846,25 @@
         return;
       }
 
+      const zoneBtn = e.target.closest("[data-jump-zone]");
+      if (zoneBtn) {
+        const panel = document.getElementById(zoneBtn.dataset.jumpZone);
+        if (panel) panel.scrollIntoView({ behavior: "instant", block: "start" });
+        return;
+      }
+
       const chip = e.target.closest(".chip, .lz-filter-btn");
       if (!chip) return;
       const group = chip.dataset.group;
       let value = chip.dataset.value;
       if (!group) return;
+
+      if (group === "zoneJump" || (group === "category" && value === "挖矿")) {
+        const id = group === "zoneJump" ? value : "mining-panel";
+        const panel = document.getElementById(id);
+        if (panel) panel.scrollIntoView({ behavior: "instant", block: "start" });
+        return;
+      }
 
       if (group === "layerzero" && chip.id === "lz-filter-btn") {
         state.layerzero = state.layerzero === "on" ? "all" : "on";
@@ -810,13 +873,6 @@
       }
       renderChips();
       render();
-      if (group === "category" && value === "挖矿") {
-        const panel = $("#mining-panel");
-        if (panel) panel.scrollIntoView({ behavior: "smooth", block: "start" });
-        state.category = "all";
-        renderChips();
-        render();
-      }
     });
 
     // refresh countdown labels every 30s
@@ -832,7 +888,7 @@
       if (!res.ok) throw new Error("data.json load failed");
       state.data = await res.json();
       state.nowMs = Date.now();
-      $("#updated").textContent = state.data.meta.updated;
+      $("#updated").textContent = updatedLabel();
       $("#count").textContent = String(state.data.candidates.length);
       renderLzWatch();
       renderChips();

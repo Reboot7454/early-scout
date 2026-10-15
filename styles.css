@@ -41,7 +41,7 @@ body {
 a { color: inherit; text-decoration: none; }
 
 .app {
-  max-width: 1280px;
+  max-width: 1760px;
   margin: 0 auto;
   padding: 20px 16px 64px;
 }
@@ -116,6 +116,11 @@ a { color: inherit; text-decoration: none; }
   border-radius: 999px;
   font-size: 0.78rem;
   font-weight: 600;
+}
+
+button.pill {
+  font-family: inherit;
+  cursor: pointer;
 }
 
 .pill strong { color: var(--text); font-weight: 700; }
@@ -224,6 +229,14 @@ a { color: inherit; text-decoration: none; }
 .chip[data-group="category"].active.cat-nft { background: linear-gradient(120deg, #34d399, #22d3ee); }
 .chip[data-group="category"].active.cat-mining { background: linear-gradient(120deg, #fbbf24, #fb923c); }
 .chip.chip-mining.active { background: linear-gradient(120deg, #fbbf24, #f59e0b); color: #111; border-color: transparent; }
+.chip.cat-go {
+  border-color: rgba(52, 211, 153, 0.4);
+  color: #a7f3d0;
+}
+.chip.cat-meme-jump {
+  border-color: rgba(244, 114, 182, 0.4);
+  color: #fbcfe8;
+}
 
 .stats-bar {
   display: flex;
@@ -341,6 +354,7 @@ a { color: inherit; text-decoration: none; }
 .tag-cat-NFT { background: rgba(52,211,153,0.16); color: #a7f3d0; }
 .tag-cat-挖矿 { background: rgba(251,191,36,0.18); color: #fde68a; }
 .tag-mining { background: rgba(251,146,60,0.2); color: #fdba74; }
+.tag-go { background: rgba(52, 211, 153, 0.18); color: #a7f3d0; }
 
 .tag-chain {
   background: rgba(34,211,238,0.12);
@@ -553,6 +567,19 @@ a { color: inherit; text-decoration: none; }
   border-radius: 5px;
   color: #0b1020;
   background: linear-gradient(120deg, #818cf8, #22d3ee);
+}
+
+.go-chip {
+  display: inline-block;
+  margin-left: 8px;
+  vertical-align: middle;
+  font-size: 0.62rem;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  padding: 2px 6px;
+  border-radius: 5px;
+  color: #052e1a;
+  background: linear-gradient(120deg, #34d399, #22d3ee);
 }
 
 .card.card-lz {
@@ -800,46 +827,83 @@ a { color: inherit; text-decoration: none; }
   line-height: 1.35;
 }
 
-/* Two columns on wide screens: 打新 left, compact 挖矿 list right */
-.split-board {
+/* Four zones. Narrow screens stack 打新 → 挖矿 → 台子/Meme → GO盘. */
+.board {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 14px;
 }
 
-.scout-zone-title { color: var(--text); }
+.zone {
+  min-width: 0;
+  padding: 0 12px 12px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: rgba(13, 18, 28, 0.55);
+}
 
-/* Mining zone (compact list; stacked under 打新 on narrow screens) */
-.mining-zone {
-  margin: 18px 0 8px;
-  padding-top: 16px;
-  border-top: 1px solid rgba(251, 191, 36, 0.22);
+.zone-scout { border-color: rgba(129, 140, 248, 0.32); }
+.zone-mining { border-color: rgba(251, 191, 36, 0.34); }
+.zone-meme { border-color: rgba(244, 114, 182, 0.34); }
+.zone-go { border-color: rgba(52, 211, 153, 0.36); }
+
+.zone-scout .zone-title { color: #c7d2fe; }
+.zone-mining .zone-title { color: #fde68a; }
+.zone-meme .zone-title { color: #fbcfe8; }
+.zone-go .zone-title { color: #a7f3d0; }
+
+.zone-meme .card::before {
+  background: linear-gradient(90deg, transparent, #f472b6, #fb923c, transparent);
+}
+.zone-go .card::before {
+  background: linear-gradient(90deg, transparent, #34d399, #22d3ee, transparent);
+  opacity: 0.9;
+}
+
+.zone .card,
+.zone .mining-row,
+.zone .field .value,
+.zone .name {
+  overflow-wrap: anywhere;
+}
+
+.zone .empty {
+  padding: 28px 12px;
 }
 
 .zone-head {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  gap: 8px 12px;
-  margin-bottom: 10px;
+  align-items: baseline;
+  gap: 6px 10px;
+  margin: 0 -12px 10px;
+  padding: 10px 12px 8px;
+  border-bottom: 1px solid var(--border);
+  border-radius: 14px 14px 0 0;
+  background: rgba(13, 18, 28, 0.94);
 }
 
 .zone-title {
   font-weight: 800;
-  font-size: 0.92rem;
-  color: #fde68a;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
 }
 
 .zone-count {
-  font-size: 0.8rem;
-  color: #fdba74;
-  font-weight: 600;
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 1px 8px;
+  font-variant-numeric: tabular-nums;
 }
 
 .zone-sub {
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   color: var(--faint);
-  flex: 1 1 auto;
+  flex: 1 1 8rem;
 }
 
 .mining-type-chips {
@@ -878,6 +942,7 @@ a { color: inherit; text-decoration: none; }
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  overflow-wrap: normal;
 }
 
 .mining-row-meta {
@@ -931,6 +996,12 @@ a { color: inherit; text-decoration: none; }
   background: rgba(251,191,36,0.12);
 }
 
+.pill-go {
+  border-color: rgba(52, 211, 153, 0.4);
+  color: #a7f3d0;
+  background: rgba(52, 211, 153, 0.12);
+}
+
 @media (max-width: 640px) {
   .mining-row {
     grid-template-columns: minmax(0, 1fr) auto;
@@ -941,45 +1012,27 @@ a { color: inherit; text-decoration: none; }
 @media (min-width: 960px) {
   .controls { position: static; }
 
-  .split-board {
-    display: grid;
-    grid-template-columns: minmax(0, 1.7fr) minmax(280px, 1fr);
-    gap: 18px;
-    align-items: start;
-  }
-
-  .mining-zone {
-    margin: 0;
-    padding: 12px;
-    border-top: none;
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    background: rgba(13, 18, 28, 0.55);
+  .zone-head {
     position: sticky;
-    top: 12px;
-    max-height: calc(100vh - 24px);
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
+    top: 0;
+    z-index: 4;
+  }
+}
+
+/* Wide board: 打新 | 挖矿 | 台子/Meme | GO盘. Mining stays the compact column. */
+@media (min-width: 1280px) {
+  .board {
+    display: grid;
+    grid-template-columns: minmax(0, 1.22fr) minmax(0, 0.78fr) minmax(0, 1.12fr) minmax(0, 1fr);
+    gap: 12px;
+    align-items: stretch;
   }
 
-  .mining-zone .zone-head { flex-shrink: 0; }
-
-  .mining-list {
-    overflow-y: auto;
-    overscroll-behavior: contain;
-    min-height: 0;
-    flex: 1 1 auto;
-    padding-right: 2px;
+  .board .zone-cards {
+    grid-template-columns: 1fr;
   }
 
-  .mining-list::-webkit-scrollbar { width: 8px; }
-  .mining-list::-webkit-scrollbar-thumb {
-    background: rgba(148, 163, 184, 0.28);
-    border-radius: 99px;
-  }
-
-  .mining-zone .mining-row {
+  .zone-mining .mining-row {
     grid-template-columns: minmax(0, 1fr) auto auto;
     grid-template-areas:
       "name type score"
@@ -989,11 +1042,13 @@ a { color: inherit; text-decoration: none; }
     padding: 8px 10px;
   }
 
-  .mining-zone .mining-row-name { grid-area: name; }
-  .mining-zone .mining-row-meta { grid-area: meta; }
-  .mining-zone .mining-row-type { grid-area: type; }
-  .mining-zone .mining-row-score { grid-area: score; }
-  .mining-zone .mining-row-links { grid-area: links; }
-}
+  .zone-mining .mining-row-name { grid-area: name; }
+  .zone-mining .mining-row-meta { grid-area: meta; display: block; }
+  .zone-mining .mining-row-type { grid-area: type; }
+  .zone-mining .mining-row-score { grid-area: score; }
+  .zone-mining .mining-row-links { grid-area: links; }
 
-.main-scout { margin-top: 4px; min-width: 0; }
+  .zone .card { padding: 12px; }
+  .zone .name { font-size: 1rem; }
+  .zone .score-mini { min-width: 52px; max-width: 78px; }
+}
