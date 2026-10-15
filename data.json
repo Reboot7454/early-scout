@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-16 02:33 CST",
+    "updated": "2026-10-16 02:43 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early crypto scout rounds 1–19",
-    "lastScout": "2026-10-16T02:32:51.431982+08:00",
+    "lastScout": "2026-10-16T02:43:00.882042+08:00",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -45,7 +45,7 @@
         "sushi-oft-rh",
         "zeromeme-fun"
       ],
-      "note": "本轮无 Zero 开链或 ATLAS venue 消费端 mint/发射台官宣。ATLAS 仍为 Zero 上 headless 交易所基建（匹配/清算/结算），官方称稍后推出；继续盯 Zero/ATLAS/OFT，不编造 mint 卡。"
+      "note": "Round20：仍无 Zero 开链或 ATLAS venue 消费端 mint/发射台官宣；Omnisea/OFT 仅为跨链发射讨论。继续盯 Zero/ATLAS/OFT，不编造 mint 卡。"
     },
     "round5Added": [
       "farming-season",
@@ -166,23 +166,32 @@
         "GPU PoW",
         "PRL/QTC/NOID 风格",
         "NFT 变异盘",
-        "Miner NFT"
+        "Miner NFT",
+        "browser-PoW"
       ],
       "candidateIds": [
-        "farming-season",
         "minehood",
         "pearl-prl",
         "quantus-qtc",
         "parano1d-noid",
-        "nacre-nacr",
-        "common-foundry-cmfd",
         "vela-vela",
         "vearl",
         "dendra-dndr",
-        "keryx-krx"
+        "keryx-krx",
+        "common-foundry",
+        "nacre",
+        "ink-miners-encryption",
+        "blox-miners",
+        "hatch-s2",
+        "hashwood"
       ],
-      "note": "本轮新增挖矿品类；PRL/QTC/NOID 为风格锚点，优先盯更早的 Nacre/Vela/Vearl/Dendra 等。"
-    }
+      "note": "Round20 新：blox-miners（今晚 GTD）、hatch-s2（Demo 浏览器挖蛋）、hashwood（RH 浏览器 PoW S2）。HATCH 合约未部署风险已标。"
+    },
+    "round20Added": [
+      "blox-miners",
+      "hatch-s2",
+      "hashwood"
+    ]
   },
   "candidates": [
     {
@@ -488,7 +497,7 @@
         "risk": 72,
         "novelty": 70,
         "actionable": 55,
-        "overall": 62
+        "overall": 61
       },
       "flag": "更新",
       "tags": [
@@ -580,7 +589,7 @@
         "risk": 50,
         "novelty": 45,
         "actionable": 40,
-        "overall": 55
+        "overall": 54
       }
     },
     {
@@ -1166,7 +1175,7 @@
       "name": "Orcs on Ink",
       "category": "NFT",
       "chain": "Ink",
-      "round": 2,
+      "round": 20,
       "riskLevel": "medium",
       "riskScore": 54,
       "earlyScore": 70,
@@ -1178,19 +1187,34 @@
         "site": "https://orcs.ink"
       },
       "schedule": {
-        "status": "tentative",
+        "status": "live",
         "timezone": "Asia/Shanghai",
-        "startsAt": "2026-10-15T00:00:00+08:00",
-        "endsAt": null,
+        "startsAt": "2026-10-15T18:00:00Z",
+        "endsAt": "2026-10-15T22:01:00Z",
         "phases": [
           {
-            "name": "WL→Public",
-            "startsAt": "2026-10-15T00:00:00+08:00",
-            "note": "约 Oct 15"
+            "name": "WL Phase 2",
+            "startsAt": "2026-10-15T18:00:00Z",
+            "endsAt": "2026-10-15T20:00:00Z",
+            "price": "FREE",
+            "perWallet": 2
+          },
+          {
+            "name": "WL Phase 3",
+            "startsAt": "2026-10-15T20:00:00Z",
+            "endsAt": "2026-10-15T22:00:00Z",
+            "price": "FREE",
+            "perWallet": 2
+          },
+          {
+            "name": "PUBLIC",
+            "startsAt": "2026-10-15T22:00:00Z",
+            "endsAt": "2026-10-15T22:01:00Z",
+            "price": "FREE"
           }
         ],
-        "source": "inferred",
-        "note": "约 Oct 15 WL→Public；精确时刻未锁"
+        "source": "neverfuckingtrade.com + @OrcsOnINK",
+        "note": "WL Phase2 起 live；合约 0x1caf…ed106；短窗 public"
       },
       "highlights": [
         "EtherOrcs 致敬免费 mint（约 Oct 15 WL→Public）",
@@ -1201,13 +1225,25 @@
         "fan 项目二次销售弱",
         "过今日窗口即变二手博弈，核 OS 官方 collection"
       ],
-      "whatsNew": "",
+      "whatsNew": "日程刷新：Orcs on Ink WL/公售窗 live（~766/1550）。",
       "scores": {
         "early": 70,
         "risk": 54,
         "novelty": 46,
         "actionable": 66,
         "overall": 59
+      },
+      "onchain": {
+        "chainId": "ink",
+        "contract": "0x1caf206358ccf6f4afb2ccc0fdbd275cdc8ed106",
+        "standard": "ERC721",
+        "mintStatus": "open",
+        "minted": 766,
+        "maxSupply": 1550,
+        "totalSupply": 766,
+        "explorer": "https://opensea.io/collection/orcsonink",
+        "lastCheckedAt": "2026-10-16T02:43:06.318765+08:00",
+        "note": "Trencher 板 minted≈766/1550；将跑 check_onchain 复核"
       }
     },
     {
@@ -2704,7 +2740,7 @@
         "totalSupply": 0,
         "maxSupply": 2000,
         "minted": 0,
-        "lastCheckedAt": "2026-10-16T02:32:54.345635+08:00",
+        "lastCheckedAt": "2026-10-16T02:43:09.278134+08:00",
         "explorer": "https://explorer.inkonchain.com/address/0x40aca2e71150a1b7d5212643f247ba25a4fa7fbe",
         "note": "OpenSea collection/inkterminal"
       },
@@ -3036,7 +3072,7 @@
         "totalSupply": null,
         "maxSupply": 4444,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T02:32:54.777039+08:00",
+        "lastCheckedAt": "2026-10-16T02:43:09.636617+08:00",
         "explorer": "https://opensea.io/collection/tickertapes-signal-worlds",
         "note": "Signal Worlds 合约"
       },
@@ -3117,7 +3153,7 @@
         "totalSupply": null,
         "maxSupply": 666,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T02:32:55.227128+08:00",
+        "lastCheckedAt": "2026-10-16T02:43:10.031501+08:00",
         "explorer": "https://opensea.io/collection/glocks-onchain",
         "note": ""
       },
@@ -3300,7 +3336,7 @@
         "totalSupply": null,
         "maxSupply": 7777,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T02:32:55.655628+08:00",
+        "lastCheckedAt": "2026-10-16T02:43:10.265067+08:00",
         "explorer": "https://opensea.io/collection/hoodpoker",
         "note": ""
       },
@@ -4260,7 +4296,7 @@
         "totalSupply": null,
         "maxSupply": null,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T02:32:55.919811+08:00",
+        "lastCheckedAt": "2026-10-16T02:43:10.528536+08:00",
         "explorer": null,
         "note": "官推 bio 自称 CA；待核验是否为平台币/发射合约"
       },
@@ -4280,7 +4316,7 @@
         "risk": 78,
         "novelty": 82,
         "actionable": 60,
-        "overall": 68
+        "overall": 67
       },
       "round": 15
     },
@@ -4338,7 +4374,7 @@
         "risk": 70,
         "novelty": 68,
         "actionable": 78,
-        "overall": 72
+        "overall": 69
       },
       "round": 15
     },
@@ -4396,7 +4432,7 @@
         "risk": 80,
         "novelty": 75,
         "actionable": 70,
-        "overall": 70
+        "overall": 68
       },
       "round": 15
     },
@@ -4442,7 +4478,7 @@
         "risk": 86,
         "novelty": 70,
         "actionable": 45,
-        "overall": 62
+        "overall": 60
       }
     },
     {
@@ -4488,7 +4524,7 @@
         "totalSupply": null,
         "maxSupply": 6666,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T02:32:56.170713+08:00",
+        "lastCheckedAt": "2026-10-16T02:43:10.801059+08:00",
         "explorer": null,
         "note": "官推自称 SURFBOARD token CA；NFT 合集另见 OpenSea，待链上交叉"
       },
@@ -4508,7 +4544,7 @@
         "risk": 68,
         "novelty": 72,
         "actionable": 80,
-        "overall": 70
+        "overall": 68
       }
     },
     {
@@ -4628,7 +4664,7 @@
         "risk": 70,
         "novelty": 58,
         "actionable": 88,
-        "overall": 62
+        "overall": 59
       }
     },
     {
@@ -4673,7 +4709,7 @@
         "risk": 92,
         "novelty": 65,
         "actionable": 20,
-        "overall": 48
+        "overall": 53
       }
     },
     {
@@ -4729,7 +4765,7 @@
         "risk": 72,
         "novelty": 78,
         "actionable": 90,
-        "overall": 82
+        "overall": 74
       }
     },
     {
@@ -4774,7 +4810,7 @@
         "risk": 68,
         "novelty": 80,
         "actionable": 55,
-        "overall": 74
+        "overall": 68
       }
     },
     {
@@ -4825,7 +4861,7 @@
         "risk": 88,
         "novelty": 85,
         "actionable": 40,
-        "overall": 58
+        "overall": 63
       }
     },
     {
@@ -4868,7 +4904,7 @@
         "totalSupply": null,
         "maxSupply": null,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T02:32:56.457235+08:00",
+        "lastCheckedAt": "2026-10-16T02:43:11.106570+08:00",
         "explorer": null,
         "note": "官推自称官方币 CA；待 RH RPC 交叉"
       },
@@ -4888,7 +4924,7 @@
         "risk": 86,
         "novelty": 82,
         "actionable": 70,
-        "overall": 66
+        "overall": 71
       }
     },
     {
@@ -4933,7 +4969,7 @@
         "risk": 74,
         "novelty": 60,
         "actionable": 50,
-        "overall": 62
+        "overall": 59
       }
     },
     {
@@ -4982,7 +5018,7 @@
         "totalSupply": 0,
         "maxSupply": 10000,
         "minted": 0,
-        "lastCheckedAt": "2026-10-16T02:32:56.736593+08:00",
+        "lastCheckedAt": "2026-10-16T02:43:11.362470+08:00",
         "explorer": "https://opensea.io/collection/pixelpunks-865451217",
         "note": "OpenSea 显示 RH 合约；supply 仍为 0"
       },
@@ -5002,7 +5038,7 @@
         "risk": 78,
         "novelty": 45,
         "actionable": 92,
-        "overall": 72
+        "overall": 67
       }
     },
     {
@@ -5102,7 +5138,7 @@
         "totalSupply": 48,
         "maxSupply": 3000,
         "minted": 48,
-        "lastCheckedAt": "2026-10-16T02:32:59.743693+08:00",
+        "lastCheckedAt": "2026-10-16T02:43:14.102382+08:00",
         "explorer": "https://opensea.io/collection/inkblots-nft",
         "note": "链上 totalSupply≈35；mint open"
       },
@@ -5122,7 +5158,7 @@
         "risk": 85,
         "novelty": 68,
         "actionable": 88,
-        "overall": 70
+        "overall": 73
       }
     },
     {
@@ -5773,7 +5809,7 @@
         "minted": 0,
         "maxSupply": 1500,
         "explorer": null,
-        "lastCheckedAt": "2026-10-16T02:33:02.752119+08:00",
+        "lastCheckedAt": "2026-10-16T02:43:16.534698+08:00",
         "totalSupply": 0
       },
       "highlights": [
@@ -5837,6 +5873,227 @@
         "novelty": 70,
         "actionable": 60,
         "overall": 62
+      }
+    },
+    {
+      "id": "blox-miners",
+      "name": "BLOX Miners",
+      "category": "挖矿",
+      "chain": "Robinhood Chain",
+      "round": 20,
+      "riskLevel": "high",
+      "riskScore": 78,
+      "earlyScore": 88,
+      "whyWatch": "RH 上砖块 Miner NFT：2222 供；持有即挖 $BLOX；官站已锁 GTD/FCFS/Public 时刻（16 Oct 16:00 UTC 起），GTD 名单可查。",
+      "background": "@blox_imd · bloximd.fun。2222 brick miners，支付 $IMD mint；矿工功率 1×/2×（Overclocked），可锁仓 7/14/30 天获 1×/2×/4× 功率；mint 收入宣称 80%→BLOX LP、20% 金库。GTD 抽奖/名单已推进，官帖称 GTD 新报名已关。",
+      "risk": "非免费（0.8–1 IMD）；FCFS/Public 售完即止；新链 Miner NFT+代币排放叙事高风险；只认 bloximd.fun/mint，防钓鱼 DM。非投资建议。",
+      "links": {
+        "x": "https://x.com/blox_imd",
+        "site": "https://bloximd.fun/",
+        "mint": "https://bloximd.fun/mint"
+      },
+      "tags": [
+        "挖矿",
+        "mining",
+        "nft-miner",
+        "Robinhood",
+        "IMD",
+        "BLOX"
+      ],
+      "miningType": "nft-miner",
+      "schedule": {
+        "status": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-16T16:00:00Z",
+        "endsAt": "2026-10-17T18:00:00Z",
+        "phases": [
+          {
+            "name": "GTD",
+            "startsAt": "2026-10-16T16:00:00Z",
+            "endsAt": "2026-10-16T17:00:00Z",
+            "price": "0.8 IMD",
+            "perWallet": null,
+            "note": "Guaranteed list；名单 checker 已开"
+          },
+          {
+            "name": "FCFS",
+            "startsAt": "2026-10-16T17:00:00Z",
+            "endsAt": "2026-10-16T18:00:00Z",
+            "price": "1 IMD",
+            "note": "list + 售完即止"
+          },
+          {
+            "name": "Public",
+            "startsAt": "2026-10-16T18:00:00Z",
+            "endsAt": "2026-10-17T18:00:00Z",
+            "price": "1 IMD",
+            "note": "人人可 mint，售完即止"
+          }
+        ],
+        "source": "official mint page bloximd.fun/mint",
+        "note": "GTD 16:00 UTC=次日 00:00 CST；只认官站 mint 页"
+      },
+      "highlights": [
+        "官站已锁三相时刻：GTD 0.8 IMD → FCFS/Public 1 IMD",
+        "持有矿工挖 $BLOX；功率/锁仓倍数叙事清晰",
+        "80% mint→LP 公开规则；钱包 checker 可查 GTD/FCFS"
+      ],
+      "drawbacks": [
+        "需付 IMD，非免费 mint",
+        "FCFS/Public 售完即止，名单不等于必中",
+        "新 RH Miner NFT+代币高风险，防假站假 DM"
+      ],
+      "whatsNew": "本轮新·BLOX Miners：2222 砖块矿工，GTD 今晚 00:00 CST（16:00 UTC）开售。",
+      "scores": {
+        "early": 88,
+        "risk": 78,
+        "novelty": 72,
+        "actionable": 85,
+        "overall": 71
+      }
+    },
+    {
+      "id": "hatch-s2",
+      "name": "HATCH Season 2",
+      "category": "挖矿",
+      "chain": "Robinhood Chain",
+      "round": 20,
+      "riskLevel": "extreme",
+      "riskScore": 88,
+      "earlyScore": 90,
+      "whyWatch": "浏览器哈希抢蛋（无经典 mint 按钮）：4444 eggs on RH；官推宣称 Season 2 mining LIVE；前 88 免费后 0.0005→0.01 Ξ。",
+      "background": "@hatchminexyz · hatchmine.xyz。机制：浏览器挖 keccak 抢下一枚蛋→巢穴保温约 60 分钟孵化→稀有度由下一枚蛋哈希决定。页面配置 chainId 4663；hatch=0xF3ACA662…Dd9d nest=0xa213BD21…CCB4。页脚明确 contracts not deployed yet / Demo simulated。",
+      "risk": "官站写明 Demo、合约尚未部署；UI 进度可能是模拟。另：合约可 sweep ETH（金库/头奖/租金）。极高风险，仅作早期观察。非投资建议。",
+      "links": {
+        "x": "https://x.com/hatchminexyz",
+        "site": "https://hatchmine.xyz/",
+        "post": "https://x.com/hatchminexyz/status/2110801116829290806"
+      },
+      "tags": [
+        "挖矿",
+        "mining",
+        "nft-mutation",
+        "browser-mine",
+        "Robinhood",
+        "demo"
+      ],
+      "miningType": "nft-mutation",
+      "schedule": {
+        "status": "tentative",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "endsAt": null,
+        "phases": [
+          {
+            "name": "Browser mine (demo)",
+            "startsAt": null,
+            "price": "FREE #1-88 then 0.0005→0.01 Ξ",
+            "note": "官推称 LIVE；官站称 Demo until contracts live"
+          }
+        ],
+        "source": "official X + hatchmine.xyz",
+        "note": "UI 可玩但是 Demo；真链上部署前勿当真金 mint"
+      },
+      "onchain": {
+        "chainId": "robinhood",
+        "contract": "0xF3ACA6624180cf1115f4EDf8B698F7AfcDe3Dd9d",
+        "standard": "ERC721",
+        "mintStatus": "unknown",
+        "minted": null,
+        "maxSupply": 4444,
+        "explorer": null,
+        "lastCheckedAt": "2026-10-16T02:43:16.870394+08:00",
+        "note": "页面配置 hatch 合约；官站称尚未部署，勿信 UI 1288/4444"
+      },
+      "highlights": [
+        "无 mint 按钮：浏览器抢哈希抢下一枚蛋",
+        "前 88 免费，其后价格爬升；巢穴保温孵化叙事",
+        "官推刚发 Season 2 mining LIVE（极早信号）"
+      ],
+      "drawbacks": [
+        "官站：Demo / contracts not deployed yet，进度可能是假的",
+        "owner 可 sweep 合约内 ETH；需频繁领租金叙事",
+        "极高风险浏览器挖矿 NFT，合约未证伪前勿重仓"
+      ],
+      "whatsNew": "本轮新·HATCH S2：浏览器挖蛋官推 LIVE，但官站标明 Demo/合约未部署。",
+      "scores": {
+        "early": 90,
+        "risk": 88,
+        "novelty": 85,
+        "actionable": 55,
+        "overall": 65
+      }
+    },
+    {
+      "id": "hashwood",
+      "name": "HashWood",
+      "category": "挖矿",
+      "chain": "Robinhood Chain",
+      "round": 20,
+      "riskLevel": "high",
+      "riskScore": 72,
+      "earlyScore": 75,
+      "whyWatch": "RH 首个浏览器 PoW 代币叙事：keccak256 JS worker 挖 HASH；Season 2 LIVE；无预挖公平发射。",
+      "background": "wood.hash256.biz。每挖一次付 0.00005 ETH→永久锁进 LP；难度约每 128 mines 调整；页示 Season 2、已挖约 67% 总量。合约页上截断为 0x651F3357…c3e0cc（完整地址待链上核对）。",
+      "risk": "浏览器/脚本矿工需连钱包发 mint(nonce)；合约地址页面截断需自行核对；无预挖≠无风险。非投资建议。",
+      "links": {
+        "site": "https://wood.hash256.biz/",
+        "x": null
+      },
+      "tags": [
+        "挖矿",
+        "mining",
+        "PoW",
+        "browser-PoW",
+        "Robinhood",
+        "HASH"
+      ],
+      "miningType": "other",
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "endsAt": null,
+        "phases": [
+          {
+            "name": "Season 2 browser mine",
+            "startsAt": null,
+            "price": "0.00005 ETH/mine",
+            "note": "页示 LIVE；一 mine / L2 block"
+          }
+        ],
+        "source": "wood.hash256.biz",
+        "note": "Season 2 进行中；非传统 NFT mint 窗"
+      },
+      "onchain": {
+        "chainId": "robinhood",
+        "contract": null,
+        "contractHint": "0x651F3357…c3e0cc",
+        "standard": "ERC20",
+        "mintStatus": "open",
+        "minted": null,
+        "maxSupply": null,
+        "explorer": null,
+        "lastCheckedAt": "2026-10-16T02:43:00.882042+08:00",
+        "note": "页面合约截断；Robinhood RPC 常不可用，未完整核验"
+      },
+      "highlights": [
+        "浏览器 keccak PoW：challenge‖wallet‖nonce",
+        "挖矿费锁进 LP，宣称无预挖/无团队预留",
+        "Season 2 已开，可立即连钱包挖"
+      ],
+      "drawbacks": [
+        "合约地址页面截断，需自行核对防假站",
+        "赛季已进行过半，早期窗口变窄",
+        "浏览器挖矿体验/成本与收益不确定"
+      ],
+      "whatsNew": "本轮新·HashWood：RH 浏览器 PoW Season 2 LIVE（0.00005 ETH/mine）。",
+      "scores": {
+        "early": 75,
+        "risk": 72,
+        "novelty": 80,
+        "actionable": 78,
+        "overall": 67
       }
     }
   ]
