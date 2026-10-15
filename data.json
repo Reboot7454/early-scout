@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-16 01:43 CST",
+    "updated": "2026-10-16 02:01 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "early crypto scout rounds 1–16",
-    "lastScout": "2026-10-16T01:43:53.015223+08:00",
+    "source": "early crypto scout rounds 1–17",
+    "lastScout": "2026-10-16T02:01:01.862934+08:00",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -45,7 +45,7 @@
         "sushi-oft-rh",
         "zeromeme-fun"
       ],
-      "note": "本轮 @LayerZero_Core 仍推 USDG OFT 案例（Arbitrum 纳入），无 Zero/ATLAS 官方开链或发射台日程。社区 @0xmeto_ 继续喊 Zero Chain testnet 并推非官方 TG；@omnisea 继续 Shared OFT/ONFT-as-a-service；第三方继续复读 ATLAS/fall 2026。继续盯 Zero/ATLAS/OFT。"
+      "note": "本轮 @LayerZero_Core 仍仅 USDG OFT 案例（Arbitrum），无 Zero/ATLAS 官方开链或发射台日程。@omnisea 继续推 Shared OFT/ONFT-as-a-service；无新开链官宣。继续盯 Zero/ATLAS/OFT。"
     },
     "round5Added": [
       "farming-season",
@@ -130,6 +130,13 @@
       "parc",
       "hazels",
       "cascade-rh"
+    ],
+    "round17Added": [
+      "0ops",
+      "gamapad",
+      "morphpad",
+      "bellpit",
+      "anthood"
     ]
   },
   "candidates": [
@@ -2642,7 +2649,7 @@
         "totalSupply": 0,
         "maxSupply": 2000,
         "minted": 0,
-        "lastCheckedAt": "2026-10-16T01:43:56.043153+08:00",
+        "lastCheckedAt": "2026-10-16T02:01:04.797900+08:00",
         "explorer": "https://explorer.inkonchain.com/address/0x40aca2e71150a1b7d5212643f247ba25a4fa7fbe",
         "note": "OpenSea collection/inkterminal"
       },
@@ -2974,7 +2981,7 @@
         "totalSupply": null,
         "maxSupply": 4444,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T01:43:56.394286+08:00",
+        "lastCheckedAt": "2026-10-16T02:01:05.066623+08:00",
         "explorer": "https://opensea.io/collection/tickertapes-signal-worlds",
         "note": "Signal Worlds 合约"
       },
@@ -3055,7 +3062,7 @@
         "totalSupply": null,
         "maxSupply": 666,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T01:43:56.749033+08:00",
+        "lastCheckedAt": "2026-10-16T02:01:05.452884+08:00",
         "explorer": "https://opensea.io/collection/glocks-onchain",
         "note": ""
       },
@@ -3238,7 +3245,7 @@
         "totalSupply": null,
         "maxSupply": 7777,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T01:43:57.119237+08:00",
+        "lastCheckedAt": "2026-10-16T02:01:05.769678+08:00",
         "explorer": "https://opensea.io/collection/hoodpoker",
         "note": ""
       },
@@ -4198,7 +4205,7 @@
         "totalSupply": null,
         "maxSupply": null,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T01:43:57.396157+08:00",
+        "lastCheckedAt": "2026-10-16T02:01:06.057558+08:00",
         "explorer": null,
         "note": "官推 bio 自称 CA；待核验是否为平台币/发射合约"
       },
@@ -4426,7 +4433,7 @@
         "totalSupply": null,
         "maxSupply": 6666,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T01:43:57.671002+08:00",
+        "lastCheckedAt": "2026-10-16T02:01:06.320745+08:00",
         "explorer": null,
         "note": "官推自称 SURFBOARD token CA；NFT 合集另见 OpenSea，待链上交叉"
       },
@@ -4535,7 +4542,7 @@
           }
         ],
         "source": "official",
-        "note": "Public live；官称 Oct 15 21:00 UTC 关闭，未售 burn"
+        "note": "Public live；官称 Oct 15 21:00 UTC 关闭，未售 burn；距关窗约 3h（本轮）"
       },
       "onchain": {
         "chainId": "ethereum",
@@ -4560,7 +4567,7 @@
         "公售已进行约一天，bot 与 gas 战",
         "合约地址需自行从 OpenSea 核对"
       ],
-      "whatsNew": "本轮新收录：Hazels 公售仍开，官称约 21:00 UTC（北京 05:00）关窗并 burn 未售。",
+      "whatsNew": "公售仍开；官称约 21:00 UTC（北京 05:00）关窗并 burn 未售，距关窗约 3 小时。",
       "scores": {
         "early": 55,
         "risk": 70,
@@ -4612,6 +4619,266 @@
         "novelty": 65,
         "actionable": 20,
         "overall": 48
+      }
+    },
+    {
+      "id": "0ops",
+      "name": "0ops",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "round": 17,
+      "riskLevel": "high",
+      "riskScore": 72,
+      "earlyScore": 88,
+      "whyWatch": "RH 上 999 张 fat-finger 故事卡；官宣 Fri 16 Oct 开售，GTD/公售时刻已锁，WL 已关 3000+。",
+      "background": "@0ops_trade · 2026-09-28 建号 · ~512 粉。叙事：真实交易 fat-finger 事故做成可「按下」的互动 NFT。站 0ops.trade 有 checker / GTD / public invite。",
+      "risk": "新账号、供应小易被刷；合约尚未在官帖直接贴出，需 OpenSea 核对。",
+      "links": {
+        "x": "https://x.com/0ops_trade",
+        "site": "https://0ops.trade",
+        "signal": "https://x.com/0ops_trade/status/2110667816617857148"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-16T13:00:00Z",
+        "endsAt": null,
+        "phases": [
+          {
+            "name": "GTD",
+            "startsAt": "2026-10-16T13:00:00Z",
+            "note": "1/钱包 · invite 页"
+          },
+          {
+            "name": "Public",
+            "startsAt": "2026-10-16T15:00:00Z",
+            "note": "至多 3/钱包 · OpenSea"
+          }
+        ],
+        "source": "official",
+        "note": "官站 invite 页：GTD 16 Oct 13:00 UTC；Public 15:00 UTC；供应 999"
+      },
+      "highlights": [
+        "开售时刻已锁（GTD 21:00 / 公售 23:00 北京）",
+        "供应仅 999，WL 宣称 3000+",
+        "站内 wallet checker 可用，非纯空气帖"
+      ],
+      "drawbacks": [
+        "官推仍偏新，信誉未验证",
+        "合约地址本轮未从官帖直接摘到",
+        "互动玩法是否骗局需链上自证"
+      ],
+      "whatsNew": "本轮新收录：0ops 官宣 Fri 16 Oct GTD 13:00 / Public 15:00 UTC。",
+      "scores": {
+        "early": 88,
+        "risk": 72,
+        "novelty": 78,
+        "actionable": 90,
+        "overall": 82
+      }
+    },
+    {
+      "id": "gamapad",
+      "name": "Gamapad",
+      "category": "Launchpad",
+      "chain": "GIWA",
+      "round": 17,
+      "riskLevel": "high",
+      "riskScore": 68,
+      "earlyScore": 90,
+      "whyWatch": "自称 GIWA（Upbit L2）Day 1 发射台；testnet 已可发币，主网 waitlist 开。",
+      "background": "@gamapadcom · 2026-09-26 建号 · ~1325 粉。宣称 testnet 已发 130–150+ meme，主网未开。站点 gamapad.com waitlist。",
+      "risk": "依附尚未主网的新 L2；竞品发射台多；主网时间未锁。",
+      "links": {
+        "x": "https://x.com/gamapadcom",
+        "site": "https://gamapad.com",
+        "signal": "https://x.com/gamapadcom/status/2110640967644524649"
+      },
+      "schedule": {
+        "status": "tba",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "endsAt": null,
+        "phases": [],
+        "source": "inferred",
+        "note": "GIWA testnet live；主网 Day 1 自称，精确开板未官宣"
+      },
+      "highlights": [
+        "Upbit 系 GIWA L2 叙事早期入口",
+        "testnet 已可实操发币（chainId 91342）",
+        "官推粉量尚可，非纯一天号"
+      ],
+      "drawbacks": [
+        "主网日程未锁，可能空等",
+        "同赛道 GIWA 发射台拥挤",
+        "平台币/积分规则未透明"
+      ],
+      "whatsNew": "本轮新收录：Gamapad GIWA Day 1 发射台，testnet + 主网 waitlist。",
+      "scores": {
+        "early": 90,
+        "risk": 68,
+        "novelty": 80,
+        "actionable": 55,
+        "overall": 74
+      }
+    },
+    {
+      "id": "morphpad",
+      "name": "MorphPad",
+      "category": "Launchpad",
+      "chain": "Solana",
+      "round": 17,
+      "riskLevel": "extreme",
+      "riskScore": 88,
+      "earlyScore": 96,
+      "whyWatch": "官推约 36 粉、10/14 建号；Solana 上可事后改名/ticker/logo 的发射台，自称 Day1 已有成交。",
+      "background": "@MorphPadSol · 2026-10-14 建号。叙事：叙事死后同一 CA 可变皮；另推 AI 自动跟趋势改名。自称 Day1 >10 币 / ~$100K volume。",
+      "risk": "极新号、无审计、改名机制可被滥用洗量；默认高骗局敞口。",
+      "links": {
+        "x": "https://x.com/MorphPadSol",
+        "site": null,
+        "signal": "https://x.com/MorphPadSol/status/2110609156423954697"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-14T13:21:57Z",
+        "endsAt": null,
+        "phases": [
+          {
+            "name": "Pad live",
+            "startsAt": "2026-10-14T13:21:57Z",
+            "note": "自称 Day1 live"
+          }
+        ],
+        "source": "inferred",
+        "note": "发射台自称已 live；独立站 URL 本轮未在官帖确认"
+      },
+      "highlights": [
+        "官推粉量极低，符合「尽量早期」",
+        "可变皮叙事相对差异化",
+        "自称已有 Day1 成交可交叉验证"
+      ],
+      "drawbacks": [
+        "建号仅约 2 天，信誉为零",
+        "无明确合约/站链上交叉",
+        "改名机制易成割韭菜工具"
+      ],
+      "whatsNew": "本轮新收录：MorphPad 极早期 Solana 可变皮发射台。",
+      "scores": {
+        "early": 96,
+        "risk": 88,
+        "novelty": 85,
+        "actionable": 40,
+        "overall": 58
+      }
+    },
+    {
+      "id": "bellpit",
+      "name": "Bellpit",
+      "category": "Launchpad",
+      "chain": "Robinhood Chain",
+      "round": 17,
+      "riskLevel": "extreme",
+      "riskScore": 86,
+      "earlyScore": 97,
+      "whyWatch": "官推约 12 粉；RH 上一键 Uniswap v4 + 锁 LP 的「响铃」发射台，本轮刚贴官方币 CA。",
+      "background": "@bellpitonline · 2026-09-30 建号 · ~12 粉。站 bellpit.online。本轮官宣官方币 CA 0xF8F86Eb0654356aBde3fA0395B00772d606020cc，称币与 v4 pool hook 同合约。",
+      "risk": "粉量极低、自推官方币像自拉自唱；需自证锁 LP / 无提款。",
+      "links": {
+        "x": "https://x.com/bellpitonline",
+        "site": "https://bellpit.online",
+        "signal": "https://x.com/bellpitonline/status/2110791884646003086"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-15T17:56:16Z",
+        "endsAt": null,
+        "phases": [
+          {
+            "name": "Official coin live",
+            "startsAt": "2026-10-15T17:56:16Z"
+          }
+        ],
+        "source": "official",
+        "note": "官方币本轮官宣 live；发射台板面此前已宣传"
+      },
+      "onchain": {
+        "chainId": "robinhood",
+        "rpcHint": null,
+        "contract": "0xF8F86Eb0654356aBde3fA0395B00772d606020cc",
+        "standard": "erc20",
+        "mintStatus": "unknown",
+        "totalSupply": null,
+        "maxSupply": null,
+        "minted": null,
+        "lastCheckedAt": "2026-10-16T02:01:06.592978+08:00",
+        "explorer": null,
+        "note": "官推自称官方币 CA；待 RH RPC 交叉"
+      },
+      "highlights": [
+        "粉量约 12，极早期信号",
+        "v4 + 锁 LP 一笔上板叙事清晰",
+        "本轮直接给出可核验 CA"
+      ],
+      "drawbacks": [
+        "几乎无社区，流动/接盘存疑",
+        "官方币自发行易被视作拉盘",
+        "RH 公共 RPC 不稳定，链上难即时核"
+      ],
+      "whatsNew": "本轮新收录：Bellpit 官方币 CA 刚挂，RH v4 发射台极早期。",
+      "scores": {
+        "early": 97,
+        "risk": 86,
+        "novelty": 82,
+        "actionable": 70,
+        "overall": 66
+      }
+    },
+    {
+      "id": "anthood",
+      "name": "AntHood Genesis",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "round": 17,
+      "riskLevel": "high",
+      "riskScore": 74,
+      "earlyScore": 84,
+      "whyWatch": "KingAnt 系 RH 免费 1111；名单主要靠 Space，mint 日 TBA，仍偏早期窗口。",
+      "background": "社区以 @KingAnt 为中心推 AntHood Genesis：1111 免费、WL only。未见独立官推合约；多为 Spaces/转发获客。",
+      "risk": "无独立官宣合约；WL 发放不透明；大 V 引流型常见延迟或取消。",
+      "links": {
+        "x": "https://x.com/KingAnt",
+        "site": null,
+        "signal": "https://x.com/JxJibon440/status/2110785729177813209"
+      },
+      "schedule": {
+        "status": "tba",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "endsAt": null,
+        "phases": [],
+        "source": "inferred",
+        "note": "Free mint · WL only；精确开售未官宣"
+      },
+      "highlights": [
+        "供应 1111 免费，RH NFT 短线注意力",
+        "创作者 KingAnt 有存量粉丝",
+        "仍处名单阶段，未开售"
+      ],
+      "drawbacks": [
+        "缺独立官推/合约证据",
+        "WL 靠 Space，信息不对等",
+        "开售可能反复延期"
+      ],
+      "whatsNew": "本轮新收录：AntHood Genesis RH 1111 免费 WL 窗口。",
+      "scores": {
+        "early": 84,
+        "risk": 74,
+        "novelty": 60,
+        "actionable": 50,
+        "overall": 62
       }
     }
   ]
