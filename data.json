@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-16 01:25 CST",
+    "updated": "2026-10-16 01:32 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "early crypto scout rounds 1–14",
-    "lastScout": "2026-10-16T01:21:53.577639+08:00",
+    "source": "early crypto scout rounds 1–15",
+    "lastScout": "2026-10-16T01:32:32.827523+08:00",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -45,7 +45,7 @@
         "sushi-oft-rh",
         "zeromeme-fun"
       ],
-      "note": "本轮 @LayerZero_Core 仍推 USDG OFT 案例（Arbitrum 纳入），无 Zero/ATLAS 官方开链或发射台日程。社区 @0xmeto_ 继续喊 Zero Chain testnet 并推非官方 TG；另有帖称 ATLAS testnet 限合作方。@omnisea 继续推 Shared OFT/ONFT-as-a-service。继续盯 Zero/ATLAS/OFT。"
+      "note": "本轮 @LayerZero_Core 仍推 USDG OFT 案例（Arbitrum 纳入），无 Zero/ATLAS 官方开链或发射台日程。社区 @0xmeto_ 继续喊 Zero Chain testnet 并推非官方 TG；@omnisea 继续 Shared OFT/ONFT-as-a-service。继续盯 Zero/ATLAS/OFT。"
     },
     "round5Added": [
       "farming-season",
@@ -118,6 +118,11 @@
       "onchain",
       "scores",
       "highlights"
+    ],
+    "round15Added": [
+      "vectis",
+      "sons-family",
+      "agent-wormhole"
     ]
   },
   "candidates": [
@@ -386,17 +391,17 @@
       "id": "cabal",
       "name": "Cabal",
       "category": "NFT",
-      "chain": "Ethereum",
+      "chain": "Robinhood Chain",
       "round": 1,
-      "riskLevel": "medium",
-      "riskScore": 58,
-      "earlyScore": 65,
-      "whyWatch": "Hushpuppies 创世 1000 枚绑定 cabal 社交交易；$CABAL 周赛分润叙事，适合蹲 genesis mint/流动性锁细节。",
-      "background": "cabal.cooking：WL 0.1 ETH，公开荷兰拍；mint ETH 用于锁 $CABAL 流动性。",
+      "riskLevel": "high",
+      "riskScore": 72,
+      "earlyScore": 78,
+      "whyWatch": "Hushpuppies 绑开群资格，$CABAL 公平发射叙事；蹲 genesis mint/合约与流动性锁细节。",
+      "background": "@cabaldotcooking · Robinhood Chain 私密社交交易；Hushpuppies NFT 开群资格；创世 1000、WL 0.1 ETH、之后荷兰拍；ZK 隐私池 + $CABAL 周赛分润。",
       "risk": "机制复杂（拍卖/周赛/衰减费率）；需核合约与死地址销毁是否真实。",
       "links": {
-        "x": "https://x.com/CabalNFT",
-        "site": "https://cabal.cooking/token"
+        "x": "https://x.com/cabaldotcooking",
+        "site": "https://cabal.cooking"
       },
       "schedule": {
         "status": "tba",
@@ -408,23 +413,31 @@
         "note": "WL 0.1 ETH / 公开荷兰拍；精确时间未锁"
       },
       "highlights": [
-        "Hushpuppies 创世 1000 枚绑定 cabal 社交交易",
-        "$CABAL 周赛分润叙事，适合蹲 genesis mint/流动性锁细节",
-        "cabal.cooking：WL 0.1 ETH，公开荷兰拍",
-        "mint ETH 用于锁 $CABAL 流动性"
+        "RH 私密交易群 + ZK 隐私池叙事清晰",
+        "Hushpuppies 创世 1000：WL 0.1 ETH / 公开荷兰拍",
+        "$CABAL 0% 团队、周赛分润",
+        "本轮 @zenyield 等中文 alpha 已点名"
       ],
       "drawbacks": [
+        "精确 mint 时刻仍未锁",
         "机制复杂（拍卖/周赛/衰减费率）",
-        "需核合约与死地址销毁是否真实"
+        "勿跟仿盘 @CabalNFT 以外的假号"
       ],
-      "whatsNew": "",
+      "whatsNew": "本轮：官推实为 @cabaldotcooking；首发 App/Hushpuppies/$CABAL 预览；@zenyield 与中文圈转发。时间仍 TBA。",
       "scores": {
-        "early": 65,
-        "risk": 58,
-        "novelty": 45,
-        "actionable": 38,
-        "overall": 50
-      }
+        "early": 78,
+        "risk": 72,
+        "novelty": 70,
+        "actionable": 55,
+        "overall": 62
+      },
+      "flag": "更新",
+      "tags": [
+        "NFT",
+        "Robinhood",
+        "隐私",
+        "社交交易"
+      ]
     },
     {
       "id": "inkbots",
@@ -491,24 +504,24 @@
         "endsAt": null,
         "phases": [],
         "source": "inferred",
-        "note": "WL 申请中；mint 前才绑钱包"
+        "note": "WL 已关（约 500）；正式 mint 时刻未锁"
       },
       "highlights": [
         "Zama FHE 加密 NFT 创世：3232 枚、500 免费 WL",
-        "WL 用 X 申请、mint 前才绑钱包"
+        "社区反馈 WL 已关闭，进入 mint 等待"
       ],
       "drawbacks": [
         "售卖细节未全公开",
         "风险档 medium，默认可归零",
         "只认官推入口，防假站/假 mint"
       ],
-      "whatsNew": "",
+      "whatsNew": "本轮：社区称 FungoLabs 白名单已关（约 500 席），进入 mint 日等待窗。",
       "scores": {
         "early": 72,
         "risk": 50,
         "novelty": 45,
-        "actionable": 46,
-        "overall": 56
+        "actionable": 40,
+        "overall": 55
       }
     },
     {
@@ -2622,7 +2635,7 @@
         "totalSupply": 0,
         "maxSupply": 2000,
         "minted": 0,
-        "lastCheckedAt": "2026-10-16T01:25:20.003337+08:00",
+        "lastCheckedAt": "2026-10-16T01:32:35.584180+08:00",
         "explorer": "https://explorer.inkonchain.com/address/0x40aca2e71150a1b7d5212643f247ba25a4fa7fbe",
         "note": "OpenSea collection/inkterminal"
       },
@@ -2954,7 +2967,7 @@
         "totalSupply": null,
         "maxSupply": 4444,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T01:25:20.369436+08:00",
+        "lastCheckedAt": "2026-10-16T01:32:36.015527+08:00",
         "explorer": "https://opensea.io/collection/tickertapes-signal-worlds",
         "note": "Signal Worlds 合约"
       },
@@ -3035,7 +3048,7 @@
         "totalSupply": null,
         "maxSupply": 666,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T01:25:20.670011+08:00",
+        "lastCheckedAt": "2026-10-16T01:32:36.442075+08:00",
         "explorer": "https://opensea.io/collection/glocks-onchain",
         "note": ""
       },
@@ -3218,7 +3231,7 @@
         "totalSupply": null,
         "maxSupply": 7777,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T01:25:20.943668+08:00",
+        "lastCheckedAt": "2026-10-16T01:32:36.768390+08:00",
         "explorer": "https://opensea.io/collection/hoodpoker",
         "note": ""
       },
@@ -3989,7 +4002,7 @@
         "当日新号，仿盘/假站风险极高",
         "勿提前授权或打款，只跟官推"
       ],
-      "whatsNew": "本轮新收录：当日新建官推、站点尚未上线的 Solana 配对发射预告。",
+      "whatsNew": "",
       "scores": {
         "early": 97,
         "risk": 90,
@@ -4034,7 +4047,7 @@
         "粉极少，执行与仿盘风险高",
         "勿重仓平台币，先小额测交互"
       ],
-      "whatsNew": "本轮新收录：多链赛跑发射台，站已 live、粉极少。",
+      "whatsNew": "",
       "scores": {
         "early": 91,
         "risk": 82,
@@ -4085,7 +4098,7 @@
         "allowlist 钓鱼站多，只走官推域名",
         "正式 mint 日程未锁"
       ],
-      "whatsNew": "本轮新收录：@zenyield 点名的卡牌 allowlist，申请流已开。",
+      "whatsNew": "",
       "scores": {
         "early": 89,
         "risk": 76,
@@ -4128,7 +4141,7 @@
         "Colosseum 关联需自证",
         "新叙事台易炒概念，勿 FOMO 平台币"
       ],
-      "whatsNew": "本轮新收录：Solana robotics/实体 AI 融资板，站已 live。",
+      "whatsNew": "",
       "scores": {
         "early": 86,
         "risk": 74,
@@ -4136,6 +4149,187 @@
         "actionable": 38,
         "overall": 62
       }
+    },
+    {
+      "id": "vectis",
+      "name": "VECTIS",
+      "category": "新台",
+      "chain": "Robinhood Chain",
+      "riskLevel": "high",
+      "riskScore": 78,
+      "earlyScore": 88,
+      "flag": "极新",
+      "tags": [
+        "launchpad",
+        "Robinhood",
+        "杠杆",
+        "Colosseum"
+      ],
+      "whyWatch": "自称 RH 首个杠杆发射台：币与杠杆 pToken 配对，买卖 3% 分给持有人、流动性即锁；已交 Colosseum hackathon 申请，官推 CA 在 bio。",
+      "background": "@vectisfamily · 账号 2026-09 建、约 1.5k 粉；站 vectis.family 已上「Every trade pays holders」；bio CA 0x7f129314373451f54a9edbda701d4475745f95d3；2026-10-14 官宣 Colosseum Crypto World's Fair 申请。",
+      "risk": "杠杆发射+新链叙事风险极高；CA 需自核；hackathon 申请≠产品可用。只认官推与官站，勿提前授权。",
+      "links": {
+        "x": "https://x.com/vectisfamily",
+        "site": "https://vectis.family",
+        "signal": "https://x.com/vectisfamily/status/2110418225095962629"
+      },
+      "schedule": {
+        "status": "tba",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "endsAt": null,
+        "phases": [],
+        "source": "inferred",
+        "note": "产品页已开；正式公开发射日程未锁"
+      },
+      "onchain": {
+        "chainId": "robinhood",
+        "rpcHint": null,
+        "contract": "0x7f129314373451f54a9edbda701d4475745f95d3",
+        "standard": "erc20",
+        "mintStatus": "unknown",
+        "totalSupply": null,
+        "maxSupply": null,
+        "minted": null,
+        "lastCheckedAt": "2026-10-16T01:32:37.128689+08:00",
+        "explorer": null,
+        "note": "官推 bio 自称 CA；待核验是否为平台币/发射合约"
+      },
+      "highlights": [
+        "RH 杠杆发射 + 持有人分成叙事差异化",
+        "官推 bio 已挂 CA，站已可开",
+        "刚交 Colosseum hackathon，曝光窗口在开"
+      ],
+      "drawbacks": [
+        "杠杆产品风险极高，可归零",
+        "CA 来源仅为 bio，尚未链上交叉验证",
+        "hackathon 申请不等于主网可打"
+      ],
+      "whatsNew": "本轮新收录：RH 杠杆发射台 VECTIS，站已开、Colosseum 申请刚交。",
+      "scores": {
+        "early": 88,
+        "risk": 78,
+        "novelty": 82,
+        "actionable": 60,
+        "overall": 68
+      },
+      "round": 15
+    },
+    {
+      "id": "sons-family",
+      "name": "SONS",
+      "category": "新台",
+      "chain": "Multi (Solana / RH / BNB)",
+      "riskLevel": "high",
+      "riskScore": 70,
+      "earlyScore": 86,
+      "flag": "极新",
+      "tags": [
+        "launchpad",
+        "aggregator",
+        "Solana",
+        "Robinhood",
+        "BNB"
+      ],
+      "whyWatch": "本轮官宣 New SONS live：一张板聚合 pump.fun / stonk.fun / Pons / four.meme / flap.sh，覆盖 Solana、RH、BNB；自带发币与 holder 奖励叙事。",
+      "background": "@sons_family · 2026-09 建号、约 0.8k 粉；站 sonsfamily.fun 今日重开 Explore；官帖给 Solana CA solana:3ZW6jfWG3KZPYdtjra5CHuaRkwBDFLDA9YQMZLn3sons。",
+      "risk": "聚合盘信息噪声大；平台币 CA 需自核；多链 UI 易混仿站。只认官推链接。",
+      "links": {
+        "x": "https://x.com/sons_family",
+        "site": "https://sonsfamily.fun/explore",
+        "signal": "https://x.com/sons_family/status/2110784946566734216"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-15T17:28:00Z",
+        "endsAt": null,
+        "phases": [
+          {
+            "name": "New SONS live",
+            "startsAt": "2026-10-15T17:28:00Z"
+          }
+        ],
+        "source": "inferred",
+        "note": "本轮官宣新版 Explore 已 live"
+      },
+      "highlights": [
+        "今日官宣新版 live，信息差窗口仍在",
+        "多链发射板聚合，可扫早期上下架",
+        "官帖自挂 Solana CA，可交叉核对"
+      ],
+      "drawbacks": [
+        "聚合盘假币/捆绑噪声高",
+        "粉量与品牌仍早期，仿站风险",
+        "平台币≠发射机会，勿盲目追 CA"
+      ],
+      "whatsNew": "本轮新收录：SONS 新版多链发射板刚官宣 live。",
+      "scores": {
+        "early": 86,
+        "risk": 70,
+        "novelty": 68,
+        "actionable": 78,
+        "overall": 72
+      },
+      "round": 15
+    },
+    {
+      "id": "agent-wormhole",
+      "name": "Agent Wormhole",
+      "category": "新台",
+      "chain": "Robinhood Chain",
+      "riskLevel": "high",
+      "riskScore": 80,
+      "earlyScore": 90,
+      "flag": "极新",
+      "tags": [
+        "launchpad",
+        "Robinhood",
+        "agent",
+        "Day1"
+      ],
+      "whyWatch": "RH 上 agentic 发射/交易层：本轮自称 Day one 流量打爆、站短暂宕机又恢复；社区已在跟新币，处上线首日窗口。",
+      "background": "@agentwormhole · 2026-07 建号、约 3.5k 粉；叙事为 Robinhood 上的 agentic finance 安全层/发射；2026-10-15 官帖称 day-one traffic 超预期。",
+      "risk": "首日流量叙事易炒作；站点曾宕；合约与真实发射机制未充分验证。只认官推，防假 CA。",
+      "links": {
+        "x": "https://x.com/agentwormhole",
+        "site": null,
+        "signal": "https://x.com/agentwormhole/status/2110757968128131120"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-15T15:00:00Z",
+        "endsAt": null,
+        "phases": [
+          {
+            "name": "Day-one live",
+            "startsAt": "2026-10-15T15:00:00Z",
+            "note": "流量致短暂宕机后恢复"
+          }
+        ],
+        "source": "inferred",
+        "note": "自称 Day one 已 live；精确开板时刻未锁"
+      },
+      "highlights": [
+        "RH Day-one 窗口，早期可观察真实流量",
+        "agentic finance + 发射叙事叠热",
+        "官帖承认流量冲击，产品至少已有人用"
+      ],
+      "drawbacks": [
+        "站点曾宕，稳定性未知",
+        "合约/发射规则证据不足",
+        "首日炒作退潮风险高"
+      ],
+      "whatsNew": "本轮新收录：RH Agent Wormhole Day-one 流量冲击上线。",
+      "scores": {
+        "early": 90,
+        "risk": 80,
+        "novelty": 75,
+        "actionable": 70,
+        "overall": 70
+      },
+      "round": 15
     }
   ]
 }
