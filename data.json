@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-16 02:31 CST",
+    "updated": "2026-10-16 02:33 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "early crypto scout rounds 1–19 + mining category",
-    "lastScout": "2026-10-16T02:31:55.729267+08:00",
+    "source": "early crypto scout rounds 1–19",
+    "lastScout": "2026-10-16T02:32:51.431982+08:00",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -45,7 +45,7 @@
         "sushi-oft-rh",
         "zeromeme-fun"
       ],
-      "note": "本轮 @LayerZero_Core 仍推 USDG OFT 案例（Arbitrum / GDN），无 Zero 开链或 ATLAS venue 官宣。@omnisea 继续 OFT/ONFT-as-a-service（含 $DRB→OFT）。继续盯 Zero/ATLAS/OFT。"
+      "note": "本轮无 Zero 开链或 ATLAS venue 消费端 mint/发射台官宣。ATLAS 仍为 Zero 上 headless 交易所基建（匹配/清算/结算），官方称稍后推出；继续盯 Zero/ATLAS/OFT，不编造 mint 卡。"
     },
     "round5Added": [
       "farming-season",
@@ -117,7 +117,8 @@
       "schedule",
       "onchain",
       "scores",
-      "highlights"
+      "highlights",
+      "mining"
     ],
     "round15Added": [
       "vectis",
@@ -146,15 +147,17 @@
       "pc-genesis"
     ],
     "round19Added": [
+      "common-foundry",
+      "dendra-dndr",
+      "ink-miners-encryption",
+      "keryx-krx",
+      "nacre",
+      "openlaunch",
+      "parano1d-noid",
       "pearl-prl",
       "quantus-qtc",
-      "parano1d-noid",
-      "nacre-nacr",
-      "common-foundry-cmfd",
-      "vela-vela",
       "vearl",
-      "dendra-dndr",
-      "keryx-krx"
+      "vela-vela"
     ],
     "miningWatch": {
       "active": true,
@@ -1965,8 +1968,10 @@
       },
       "tags": [
         "挖矿",
-        "mining"
-      ]
+        "mining",
+        "nft-miner"
+      ],
+      "miningType": "nft-miner"
     },
     {
       "id": "toll-xyz",
@@ -2699,7 +2704,7 @@
         "totalSupply": 0,
         "maxSupply": 2000,
         "minted": 0,
-        "lastCheckedAt": "2026-10-16T02:13:16.970028+08:00",
+        "lastCheckedAt": "2026-10-16T02:32:54.345635+08:00",
         "explorer": "https://explorer.inkonchain.com/address/0x40aca2e71150a1b7d5212643f247ba25a4fa7fbe",
         "note": "OpenSea collection/inkterminal"
       },
@@ -3031,7 +3036,7 @@
         "totalSupply": null,
         "maxSupply": 4444,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T02:13:17.363967+08:00",
+        "lastCheckedAt": "2026-10-16T02:32:54.777039+08:00",
         "explorer": "https://opensea.io/collection/tickertapes-signal-worlds",
         "note": "Signal Worlds 合约"
       },
@@ -3112,7 +3117,7 @@
         "totalSupply": null,
         "maxSupply": 666,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T02:13:17.735858+08:00",
+        "lastCheckedAt": "2026-10-16T02:32:55.227128+08:00",
         "explorer": "https://opensea.io/collection/glocks-onchain",
         "note": ""
       },
@@ -3295,7 +3300,7 @@
         "totalSupply": null,
         "maxSupply": 7777,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T02:13:17.995330+08:00",
+        "lastCheckedAt": "2026-10-16T02:32:55.655628+08:00",
         "explorer": "https://opensea.io/collection/hoodpoker",
         "note": ""
       },
@@ -4255,7 +4260,7 @@
         "totalSupply": null,
         "maxSupply": null,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T02:13:18.252668+08:00",
+        "lastCheckedAt": "2026-10-16T02:32:55.919811+08:00",
         "explorer": null,
         "note": "官推 bio 自称 CA；待核验是否为平台币/发射合约"
       },
@@ -4483,7 +4488,7 @@
         "totalSupply": null,
         "maxSupply": 6666,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T02:13:18.514965+08:00",
+        "lastCheckedAt": "2026-10-16T02:32:56.170713+08:00",
         "explorer": null,
         "note": "官推自称 SURFBOARD token CA；NFT 合集另见 OpenSea，待链上交叉"
       },
@@ -4863,7 +4868,7 @@
         "totalSupply": null,
         "maxSupply": null,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T02:13:18.780412+08:00",
+        "lastCheckedAt": "2026-10-16T02:32:56.457235+08:00",
         "explorer": null,
         "note": "官推自称官方币 CA；待 RH RPC 交叉"
       },
@@ -4977,7 +4982,7 @@
         "totalSupply": 0,
         "maxSupply": 10000,
         "minted": 0,
-        "lastCheckedAt": "2026-10-16T02:13:19.001261+08:00",
+        "lastCheckedAt": "2026-10-16T02:32:56.736593+08:00",
         "explorer": "https://opensea.io/collection/pixelpunks-865451217",
         "note": "OpenSea 显示 RH 合约；supply 仍为 0"
       },
@@ -5094,10 +5099,10 @@
         "contract": "0x5de061a9e7a83bd727a5cd74fadbd3decf70f415",
         "standard": "erc721",
         "mintStatus": "open",
-        "totalSupply": 35,
+        "totalSupply": 48,
         "maxSupply": 3000,
-        "minted": 35,
-        "lastCheckedAt": "2026-10-16T02:13:21.992028+08:00",
+        "minted": 48,
+        "lastCheckedAt": "2026-10-16T02:32:59.743693+08:00",
         "explorer": "https://opensea.io/collection/inkblots-nft",
         "note": "链上 totalSupply≈35；mint open"
       },
@@ -5383,125 +5388,6 @@
       }
     },
     {
-      "id": "nacre-nacr",
-      "name": "NACRE (NACR)",
-      "category": "挖矿",
-      "chain": "NACRE",
-      "round": 19,
-      "riskLevel": "high",
-      "riskScore": 72,
-      "earlyScore": 88,
-      "whyWatch": "2026-10-11 16:00 UTC 主网、与 Pearl AuxPoW 合并挖：挖 Pearl 同算力可附带出 NACR，无第二套哈希——对已有 PRL 矿工极低增量成本。",
-      "background": "nacre.network · 无预挖/无预售叙事；最大供应 21M NACR；块奖 10、约 120s、ASERT。官方池 pool.nacre.network:3333（pearlhash + nacr1 地址）。Bitcointalk ANN 与 HiveOS 贴可交叉验证。未见独立官推账号（以官网为准）。",
-      "risk": "极新链+合并挖依赖 Pearl 生态；文档强调无独立 X 时勿信仿冒。3% 开发基金至第一次减半。合并挖配置错误可能只出一边。",
-      "links": {
-        "x": null,
-        "site": "https://nacre.network/"
-      },
-      "tags": [
-        "挖矿",
-        "PoW",
-        "GPU",
-        "PRL-like",
-        "合并挖",
-        "AuxPoW",
-        "AI"
-      ],
-      "miningType": "gpu-pow",
-      "schedule": {
-        "status": "live",
-        "timezone": "Asia/Shanghai",
-        "startsAt": "2026-10-12T00:00:00+08:00",
-        "endsAt": null,
-        "phases": [
-          {
-            "name": "mainnet",
-            "note": "2026-10-11 16:00 UTC ≈ 10-12 00:00 CST"
-          }
-        ],
-        "source": "official",
-        "note": "主网已按 ANN 时间启动；合并挖 pearlhash"
-      },
-      "highlights": [
-        "与 Pearl 合并挖，同算力双出",
-        "主网仅数日级（相对研究日）",
-        "无预挖叙事 + 公开 genesis/Bitcoin 锚定",
-        "SRBMiner pearlhash 指向官方池即可试"
-      ],
-      "drawbacks": [
-        "新链流动性与钱包生态未验证",
-        "无独立官推时钓鱼风险更高",
-        "完全绑定 Pearl 矿工生态兴衰"
-      ],
-      "whatsNew": "本轮新·挖矿：NACR 10/11 UTC 主网合并挖 Pearl——已有 PRL 矿工几乎零成本加挂。",
-      "scores": {
-        "early": 88,
-        "risk": 72,
-        "novelty": 80,
-        "actionable": 82,
-        "overall": 73
-      }
-    },
-    {
-      "id": "common-foundry-cmfd",
-      "name": "Common Foundry (CMFD)",
-      "category": "挖矿",
-      "chain": "Common Foundry",
-      "round": 19,
-      "riskLevel": "high",
-      "riskScore": 74,
-      "earlyScore": 82,
-      "whyWatch": "官站称主网 2026-10-03 启动，ForgeMatrix GPU 矩阵计算作可验证 PoW；无预挖、仅挖矿发行。刚两周级窗口，第三方矿池已出现。",
-      "background": "commonfoundry.ai · GitHub 组织 Common-Foundry-1。推理付费层仍开发中。未见稳定官推账号（以官网/Discord/GitHub 为准）。AriaPool 等第三方池宣传 NVIDIA ≥8GB。",
-      "risk": "官站「Mainnet Live」与仓库 SECURITY 文仍大量 RC/研究网措辞并存——务必自行核对当前链是否已是有价值主网。新币+第三方池钓鱼高发。无官推时勿跟私信。",
-      "links": {
-        "x": null,
-        "site": "https://commonfoundry.ai/"
-      },
-      "tags": [
-        "挖矿",
-        "PoW",
-        "GPU",
-        "PRL-like",
-        "ForgeMatrix",
-        "AI"
-      ],
-      "miningType": "gpu-pow",
-      "schedule": {
-        "status": "live",
-        "timezone": "Asia/Shanghai",
-        "startsAt": "2026-10-03T17:00:00+08:00",
-        "endsAt": null,
-        "phases": [
-          {
-            "name": "mainnet",
-            "note": "官站：2026-10-03 17:00 UTC 起挖"
-          }
-        ],
-        "source": "official",
-        "note": "以 commonfoundry.ai 发布说明为准；交叉核对 GitHub release checksum"
-      },
-      "highlights": [
-        "ForgeMatrix GPU 可验证矩阵 PoW",
-        "官宣无预挖、仅挖矿发行",
-        "主网约两周内（相对研究日）",
-        "节点验证可 CPU，挖矿需 GPU"
-      ],
-      "drawbacks": [
-        "文档成熟度与营销「主网」表述需交叉验证",
-        "无明确官推，社交入口易被仿冒",
-        "客户付费推理层未上线＝叙事未兑现"
-      ],
-      "whatsNew": "本轮新·挖矿：CMFD 官宣 10/3 主网 ForgeMatrix——核对校验和后再挂池，慎信私聊矿工。",
-      "scores": {
-        "early": 82,
-        "risk": 74,
-        "novelty": 76,
-        "actionable": 78,
-        "overall": 69
-      }
-    },
-    {
       "id": "vela-vela",
       "name": "Vela (VELA)",
       "category": "挖矿",
@@ -5737,6 +5623,220 @@
         "novelty": 86,
         "actionable": 68,
         "overall": 55
+      }
+    },
+    {
+      "id": "common-foundry",
+      "name": "Common Foundry (CMFD)",
+      "category": "挖矿",
+      "chain": "Common Foundry",
+      "round": 19,
+      "riskLevel": "high",
+      "riskScore": 74,
+      "earlyScore": 68,
+      "whyWatch": "2026-10-03 主网 GPU ForgeMatrix 矿：无预挖/无公售，CMFD 只靠挖出；比 PRL 更新，盯矿池与算力爬升窗口。",
+      "background": "commonfoundry.ai · ForgeMatrix 把 GPU 矩阵运算做成可验证 PoW；CPU 节点验证明。主网约 2026-10-03 17:00 UTC 出块；explorer.commonfoundry.ai；第三方池 AriaPool/cmfd-pool 需自验。",
+      "risk": "上线约两周，难度与卡型军备上升快；无官方「唯一矿池」表述时假池风险；流动性/上所未稳。",
+      "links": {
+        "x": null,
+        "site": "https://commonfoundry.ai/",
+        "explorer": "https://explorer.commonfoundry.ai/"
+      },
+      "tags": [
+        "挖矿",
+        "PoW",
+        "GPU",
+        "CMFD",
+        "PRL-like",
+        "ForgeMatrix",
+        "AI"
+      ],
+      "miningType": "gpu-pow",
+      "highlights": [
+        "无预挖无公售，纯挖出发行",
+        "ForgeMatrix GPU 矩阵证明 + CPU 验证明",
+        "主网约 10/03，仍属较新 GPU 矿对照盘",
+        "ForgeMatrix GPU 可验证矩阵 PoW"
+      ],
+      "drawbacks": [
+        "已过 day-0，算力会继续挤散户",
+        "第三方矿池需自验防假",
+        "AI 推理服务层仍在开发，非现成收益",
+        "文档成熟度与营销「主网」表述需交叉验证"
+      ],
+      "whatsNew": "本轮新·挖矿：CMFD 官宣 10/3 主网 ForgeMatrix——核对校验和后再挂池，慎信私聊矿工。",
+      "scores": {
+        "early": 68,
+        "risk": 74,
+        "novelty": 72,
+        "actionable": 48,
+        "overall": 55
+      }
+    },
+    {
+      "id": "nacre",
+      "name": "NACRE (NACR)",
+      "category": "挖矿",
+      "chain": "NACRE",
+      "round": 19,
+      "riskLevel": "high",
+      "riskScore": 70,
+      "earlyScore": 78,
+      "whyWatch": "2026-10-11 16:00 UTC 主网：与 Pearl AuxPoW 合并挖，同一 GPU 有用功可同时出 PRL+NACR，本周新鲜。",
+      "background": "nacre.network · 无预挖；创世锚定此前比特币块。官池叙述含 pool.nacre.network:3333 / Himpool·AlphaPool·K1Pool 等第三方。开发基金协议内 3% 至第一次减半。",
+      "risk": "依赖 Pearl 算力与池子合并挖配置；小体量流动性；假池/错误 worker 格式丢奖励。",
+      "links": {
+        "x": "https://x.com/nacrenetwork",
+        "site": "https://nacre.network/"
+      },
+      "tags": [
+        "挖矿",
+        "PoW",
+        "GPU",
+        "AuxPoW",
+        "Pearl",
+        "merge-mine",
+        "PRL-like",
+        "合并挖",
+        "AI"
+      ],
+      "miningType": "gpu-pow",
+      "highlights": [
+        "本周主网（10/11），早期性明显高于 PRL 锚点",
+        "AuxPoW：Pearl GPU 工可兼得 NACR",
+        "官站写明无预挖、合并挖已在主网出块",
+        "与 Pearl 合并挖，同算力双出"
+      ],
+      "drawbacks": [
+        "仍绑 Pearl 生态与池子配置",
+        "算力与难度已快速抬升（社区更新）",
+        "退出流动性需自查",
+        "新链流动性与钱包生态未验证"
+      ],
+      "whatsNew": "本轮新·挖矿：NACR 10/11 UTC 主网合并挖 Pearl——已有 PRL 矿工几乎零成本加挂。",
+      "scores": {
+        "early": 78,
+        "risk": 70,
+        "novelty": 76,
+        "actionable": 55,
+        "overall": 62
+      }
+    },
+    {
+      "id": "ink-miners-encryption",
+      "name": "Ink Miners Encryption",
+      "category": "挖矿",
+      "chain": "Ink",
+      "round": 19,
+      "riskLevel": "high",
+      "riskScore": 86,
+      "earlyScore": 70,
+      "whyWatch": "Ink 链 free mint · 供应 1500 · 公开时段约 2026-10-16 10:10 UTC（18:10 CST）；名义 Miner NFT，但声量主要来自给号盘。",
+      "background": "NFT Trencher 列出合约 0x5b2f391fa770ea0cdbfb6c01b5b7594d44e7685a；OpenSea collection/inkminersencryption。X 上 @SmartAzuki 等发 GTD 抽奖，未见清晰官方项目号。",
+      "risk": "高：疑似给号/镜像号推流；无独立官网与可信官推时，合约与 mint 页需极谨慎核对。非投资建议。",
+      "links": {
+        "x": "https://x.com/SmartAzuki",
+        "site": "https://opensea.io/collection/inkminersencryption",
+        "opensea": "https://opensea.io/collection/inkminersencryption"
+      },
+      "tags": [
+        "挖矿",
+        "mining",
+        "nft-miner",
+        "Ink",
+        "free-mint",
+        "高风险"
+      ],
+      "miningType": "nft-miner",
+      "schedule": {
+        "status": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-16T10:10:00Z",
+        "endsAt": "2026-10-17T10:10:00Z",
+        "phases": [
+          {
+            "name": "PUBLIC",
+            "startsAt": "2026-10-16T10:10:00Z",
+            "endsAt": "2026-10-17T10:10:00Z",
+            "price": "FREE",
+            "perWallet": 1
+          }
+        ],
+        "source": "neverfuckingtrade.com + OpenSea listing",
+        "note": "免费公售；推文多为 GTD 抽奖，官方身份未核实"
+      },
+      "onchain": {
+        "chainId": "ink",
+        "contract": "0x5b2f391fa770ea0cdbfb6c01b5b7594d44e7685a",
+        "standard": "ERC721",
+        "mintStatus": "not_open",
+        "minted": 0,
+        "maxSupply": 1500,
+        "explorer": null,
+        "lastCheckedAt": "2026-10-16T02:33:02.752119+08:00",
+        "totalSupply": 0
+      },
+      "highlights": [
+        "供应仅 1500、公售 FREE、1/钱包",
+        "Trencher 已挂合约与 10:10 UTC 窗口",
+        "名义 Miner NFT，可作 Ink 挖矿皮对照"
+      ],
+      "drawbacks": [
+        "主要靠给号盘传播，官方身份不清",
+        "无独立官网，钓鱼/假站风险极高",
+        "「挖矿」玩法未证实，可能只是命名"
+      ],
+      "whatsNew": "本轮新·Ink Miner NFT（高风险）",
+      "scores": {
+        "early": 70,
+        "risk": 86,
+        "novelty": 58,
+        "actionable": 42,
+        "overall": 49
+      }
+    },
+    {
+      "id": "openlaunch",
+      "name": "OpenLaunch",
+      "category": "新台",
+      "chain": "Base / Robinhood / Arc",
+      "round": 19,
+      "riskLevel": "medium-high",
+      "riskScore": 62,
+      "earlyScore": 74,
+      "whyWatch": "开源免费发射台：一笔交易发币+Uniswap v4 池+永久锁仓；平台费 $0；覆盖 Base / Robinhood / Arc。",
+      "background": "openlaunch.lol · @twigpine（已验证账号）。MIT；已有大量上线代币与成交统计；报价资产含 ETH/TWIG/USDC 等依链而定。",
+      "risk": "发射台本身无费不代表代币安全；假站/假路由；Robinhood/Arc 流动性与退出风险自担。",
+      "links": {
+        "x": "https://x.com/twigpine",
+        "site": "https://openlaunch.lol/"
+      },
+      "tags": [
+        "新台",
+        "Launchpad",
+        "Base",
+        "Robinhood",
+        "Arc",
+        "Uniswap-v4",
+        "free"
+      ],
+      "highlights": [
+        "平台费 $0，100% 供应进池并永久锁仓",
+        "多链 Base + Robinhood + Arc 已实盘",
+        "合约开源可核对 factory/locker"
+      ],
+      "drawbacks": [
+        "已上线代币很多，首发赔率不均",
+        "仍是土狗发射场，归零常态",
+        "Boost 用 TWIG 烧币，不等于质量"
+      ],
+      "whatsNew": "本轮新·免费开源发射台",
+      "scores": {
+        "early": 74,
+        "risk": 62,
+        "novelty": 70,
+        "actionable": 60,
+        "overall": 62
       }
     }
   ]
