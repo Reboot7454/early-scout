@@ -5,6 +5,7 @@
     chain: "all",
     round: "all",
     layerzero: "all",
+    miningFilter: "all", // all | on
     scheduleFilter: "all", // all | soon24 | hasSchedule | onchain
     query: "",
     sort: "earlyness",
@@ -132,6 +133,18 @@
     const blob = `${c.name} ${c.whyWatch || ""} ${c.background || ""}`.toLowerCase();
     return blob.includes("layerzero") || blob.includes("layer zero");
   }
+
+  function isMining(c) {
+    if (!c) return false;
+    if (c.category === "挖矿") return true;
+    const tags = (c.tags || []).map((x) => String(x).toLowerCase());
+    if (tags.some((x) => ["挖矿", "mining", "pow", "gpu-pow", "nft变异", "变异盘", "miner"].includes(x) || x.includes("mining") || x.includes("pow"))) {
+      return true;
+    }
+    if (c.miningType) return true;
+    return false;
+  }
+
 
   function parseTime(iso) {
     if (!iso) return null;
@@ -312,6 +325,7 @@
               <span class="tag tag-cat-${escapeHtml(c.category)}">${escapeHtml(c.category)}</span>
               <span class="tag tag-chain">${escapeHtml(c.chain)}</span>
               ${lz ? '<span class="tag tag-lz">LayerZero</span>' : ""}
+              ${isMining(c) ? '<span class="tag tag-mining">挖矿</span>' : ""}
               ${extraTags}
             </div>
           </div>
@@ -376,6 +390,9 @@
     }
     if (state.layerzero === "on") {
       list = list.filter(isLayerZero);
+    }
+    if (state.miningFilter === "on") {
+      list = list.filter(isMining);
     }
     if (state.scheduleFilter === "soon24") {
       list = list.filter(within24h);
@@ -506,6 +523,8 @@
       { id: "新台", label: "新台", cls: "cat-platform" },
       { id: "Meme", label: "Meme", cls: "cat-meme" },
       { id: "NFT", label: "NFT", cls: "cat-nft" },
+      { id: "挖矿", label: "挖矿", cls: "cat-mining" },
+      { id: "Launchpad", label: "Launchpad", cls: "cat-platform" },
     ];
     catHost.innerHTML = cats
       .map(
@@ -569,6 +588,15 @@
       lzHost.innerHTML = `
         <button type="button" class="chip chip-lz ${state.layerzero === "all" ? "active" : ""}" data-group="layerzero" data-value="all">全部（含非 LZ）</button>
         <button type="button" class="chip chip-lz ${state.layerzero === "on" ? "active" : ""}" data-group="layerzero" data-value="on">LayerZero 监控 · ${lzCount}</button>
+      `;
+    }
+
+    const miningHost = $("#mining-chips");
+    if (miningHost) {
+      const mCount = state.data.candidates.filter(isMining).length;
+      miningHost.innerHTML = `
+        <button type="button" class="chip chip-mining ${state.miningFilter === "all" ? "active" : ""}" data-group="miningFilter" data-value="all">全部（含非挖矿）</button>
+        <button type="button" class="chip chip-mining ${state.miningFilter === "on" ? "active" : ""}" data-group="miningFilter" data-value="on">挖矿监控 · ${mCount}</button>
       `;
     }
 
@@ -647,6 +675,7 @@
           // clear filters that may hide it, then jump
           state.scheduleFilter = "all";
           state.category = "all";
+          state.miningFilter = "all";
           state.chain = "all";
           state.round = "all";
           state.layerzero = "all";

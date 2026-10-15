@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-16 02:13 CST",
+    "updated": "2026-10-16 02:31 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "early crypto scout rounds 1–18",
-    "lastScout": "2026-10-16T02:13:13.965837+08:00",
+    "source": "early crypto scout rounds 1–19 + mining category",
+    "lastScout": "2026-10-16T02:31:55.729267+08:00",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -144,7 +144,42 @@
       "ink-blots",
       "temrush",
       "pc-genesis"
-    ]
+    ],
+    "round19Added": [
+      "pearl-prl",
+      "quantus-qtc",
+      "parano1d-noid",
+      "nacre-nacr",
+      "common-foundry-cmfd",
+      "vela-vela",
+      "vearl",
+      "dendra-dndr",
+      "keryx-krx"
+    ],
+    "miningWatch": {
+      "active": true,
+      "label": "挖矿监控",
+      "focus": [
+        "GPU PoW",
+        "PRL/QTC/NOID 风格",
+        "NFT 变异盘",
+        "Miner NFT"
+      ],
+      "candidateIds": [
+        "farming-season",
+        "minehood",
+        "pearl-prl",
+        "quantus-qtc",
+        "parano1d-noid",
+        "nacre-nacr",
+        "common-foundry-cmfd",
+        "vela-vela",
+        "vearl",
+        "dendra-dndr",
+        "keryx-krx"
+      ],
+      "note": "本轮新增挖矿品类；PRL/QTC/NOID 为风格锚点，优先盯更早的 Nacre/Vela/Vearl/Dendra 等。"
+    }
   },
   "candidates": [
     {
@@ -1880,7 +1915,11 @@
         "novelty": 68,
         "actionable": 46,
         "overall": 61
-      }
+      },
+      "tags": [
+        "挖矿",
+        "mining"
+      ]
     },
     {
       "id": "minehood",
@@ -1923,7 +1962,11 @@
         "novelty": 68,
         "actionable": 38,
         "overall": 59
-      }
+      },
+      "tags": [
+        "挖矿",
+        "mining"
+      ]
     },
     {
       "id": "toll-xyz",
@@ -5165,6 +5208,535 @@
         "novelty": 72,
         "actionable": 40,
         "overall": 58
+      }
+    },
+    {
+      "id": "pearl-prl",
+      "name": "Pearl (PRL)",
+      "category": "挖矿",
+      "chain": "Pearl L1",
+      "round": 19,
+      "riskLevel": "medium",
+      "riskScore": 58,
+      "earlyScore": 48,
+      "whyWatch": "GPU PoUW（矩阵乘=挖矿）已有成熟矿池/桥；本轮盯 FP8 硬分叉（PIP-3 Draft）——Hopper/Blackwell/RTX50 路线与旧卡淘汰窗口，是哈希格局重构机会。",
+      "background": "@prlnet · pearlresearch.ai · PoUW INT 方案已上线；FP8 证书协议公开评审中，截至约 2026-10 初仍无激活高度。pearlhash 等矿池可挖；PearlBridge 支持 PRL↔WPRL。总供应约 21 亿 PRL。",
+      "risk": "网络已非「隐形启动」；FP8 无官宣激活日，旧卡（RTX30/40 等）可能被踢出挖矿。只认官推/官站与校验过的矿工程序，防假池假矿工。非投资建议。",
+      "links": {
+        "x": "https://x.com/prlnet",
+        "site": "https://pearlresearch.ai/"
+      },
+      "tags": [
+        "挖矿",
+        "PoW",
+        "GPU",
+        "PoUW",
+        "PRL-like",
+        "AI"
+      ],
+      "miningType": "gpu-pow",
+      "schedule": {
+        "status": "tba",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "endsAt": null,
+        "phases": [],
+        "source": "inferred",
+        "note": "FP8/PIP-3 仍为 Draft，无官方激活块高/日期；以 PIPs 与 AMA 为准"
+      },
+      "highlights": [
+        "PoUW：GPU AI 矩阵乘同时出块",
+        "FP8 分叉公开代码/白皮书，方向 H100/B200/RTX50",
+        "pearlhash 等矿池 + PearlBridge WPRL 可参与/桥接",
+        "PIP-3 仍 Draft＝关注分叉窗口而非追涨"
+      ],
+      "drawbacks": [
+        "主网已运行多轮分叉，早期赔率变薄",
+        "FP8 激活时间未锁，硬件兼容名单仍可能变",
+        "矿工/节点版本需紧跟，错误版本=白挖"
+      ],
+      "whatsNew": "本轮新·挖矿：盯 Pearl FP8（PIP-3）硬分叉与 H100/B200/RTX50 兼容名单，无锁死激活日。",
+      "scores": {
+        "early": 48,
+        "risk": 58,
+        "novelty": 72,
+        "actionable": 70,
+        "overall": 57
+      }
+    },
+    {
+      "id": "quantus-qtc",
+      "name": "Quantus (QTC)",
+      "category": "挖矿",
+      "chain": "Quantus",
+      "round": 19,
+      "riskLevel": "medium-high",
+      "riskScore": 62,
+      "earlyScore": 55,
+      "whyWatch": "主网 2026-09-09 上线，QPoW=Poseidon2 GPU 挖；启动时「只能挖」叙事已破——近已出现 NEAR Intents / BigONE 等交易渠道，挖矿+二级并存窗口仍短。",
+      "background": "@QuantusNetwork · quantus.com · 最大供应 2100 万 QTC；官方 quantus-miner 支持 CUDA/wgpu。启动首日数千 GPU、难度急升。文档：docs.quantus.com。",
+      "risk": "难度与租卡成本已高；交易上线后矿币抛压与二级波动并存。节点/矿工版本必须匹配，勿用陌生 mining.conf。后量子叙事≠价格保证。",
+      "links": {
+        "x": "https://x.com/QuantusNetwork",
+        "site": "https://www.quantus.com/"
+      },
+      "tags": [
+        "挖矿",
+        "PoW",
+        "GPU",
+        "QTC-like",
+        "Poseidon2",
+        "后量子"
+      ],
+      "miningType": "gpu-pow",
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-09-09T00:00:00+08:00",
+        "endsAt": null,
+        "phases": [
+          {
+            "name": "mainnet",
+            "note": "genesis 2026-09-09"
+          }
+        ],
+        "source": "official",
+        "note": "主网已活；交易渠道以官推为准（NEAR Intents / 部分 CEX 报道）"
+      },
+      "highlights": [
+        "QPoW Poseidon2 + 官方外部 GPU miner",
+        "主网约一个多月，仍可跟挖/跟节点",
+        "供应上限 21M、无预挖叙事（以白皮书为准）",
+        "交易已开始出现＝流动性与抛压同到"
+      ],
+      "drawbacks": [
+        "启动难度暴涨后小算力边际变差",
+        "已有二级市场，纯「只挖不卖」窗口缩短",
+        "后量子/ZK 复杂度高，运维门槛不低"
+      ],
+      "whatsNew": "本轮新·挖矿：QTC 主网已活且出现交易入口，挖矿与二级并存——核对官方 listing 再动手。",
+      "scores": {
+        "early": 55,
+        "risk": 62,
+        "novelty": 78,
+        "actionable": 75,
+        "overall": 61
+      }
+    },
+    {
+      "id": "parano1d-noid",
+      "name": "Parano1d (NOID)",
+      "category": "挖矿",
+      "chain": "Parano1d",
+      "round": 19,
+      "riskLevel": "medium-high",
+      "riskScore": 68,
+      "earlyScore": 38,
+      "whyWatch": "GPU Poseidon2b 主网约 2026-08-21 起已跑约 2 个月；算力与矿池较集中，早期性下降，仍作 Poseidon2b/证明原生 L1 参考标的与矿池费率对比。",
+      "background": "官站 parano1d.org · docs.parano1d.org · 开发者侧 @ignotus_nemo（聚合站/开发者档案交叉提及）。newblock.app/coin/noid 跟踪矿池。SafeTrade/Cexius 等有低量交易报道。",
+      "risk": "已活约 2 月，算力/矿池集中度高；第三方矿工常带开发者费（如公开 miner 披露 5%）。流动性极薄。勿混淆同名项目。",
+      "links": {
+        "x": "https://x.com/ignotus_nemo",
+        "site": "https://parano1d.org/"
+      },
+      "tags": [
+        "挖矿",
+        "PoW",
+        "GPU",
+        "NOID-like",
+        "Poseidon2b",
+        "后量子"
+      ],
+      "miningType": "gpu-pow",
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-08-21T00:00:00+08:00",
+        "endsAt": null,
+        "phases": [
+          {
+            "name": "mainnet",
+            "note": "约 Aug 21 2026 起"
+          }
+        ],
+        "source": "aggregator",
+        "note": "主网已活约 2 个月；早期性偏低，作观察/参考"
+      },
+      "highlights": [
+        "Poseidon2b GPU PoW + 证明原生 L1 叙事",
+        "多矿池可挖（newblock 跟踪）",
+        "可作为 NOID-like / Poseidon2 族参照",
+        "链上参数与减半表有公开文档"
+      ],
+      "drawbacks": [
+        "已过「刚开」窗口，earlyScore 刻意压低",
+        "矿池集中与矿工开发者费侵蚀收益",
+        "交易量极低，退出困难"
+      ],
+      "whatsNew": "本轮新·挖矿：NOID 已活约 2 个月——降权观察，重点对比矿池费率与 Poseidon2b 族新币。",
+      "scores": {
+        "early": 38,
+        "risk": 68,
+        "novelty": 70,
+        "actionable": 65,
+        "overall": 50
+      }
+    },
+    {
+      "id": "nacre-nacr",
+      "name": "NACRE (NACR)",
+      "category": "挖矿",
+      "chain": "NACRE",
+      "round": 19,
+      "riskLevel": "high",
+      "riskScore": 72,
+      "earlyScore": 88,
+      "whyWatch": "2026-10-11 16:00 UTC 主网、与 Pearl AuxPoW 合并挖：挖 Pearl 同算力可附带出 NACR，无第二套哈希——对已有 PRL 矿工极低增量成本。",
+      "background": "nacre.network · 无预挖/无预售叙事；最大供应 21M NACR；块奖 10、约 120s、ASERT。官方池 pool.nacre.network:3333（pearlhash + nacr1 地址）。Bitcointalk ANN 与 HiveOS 贴可交叉验证。未见独立官推账号（以官网为准）。",
+      "risk": "极新链+合并挖依赖 Pearl 生态；文档强调无独立 X 时勿信仿冒。3% 开发基金至第一次减半。合并挖配置错误可能只出一边。",
+      "links": {
+        "x": null,
+        "site": "https://nacre.network/"
+      },
+      "tags": [
+        "挖矿",
+        "PoW",
+        "GPU",
+        "PRL-like",
+        "合并挖",
+        "AuxPoW",
+        "AI"
+      ],
+      "miningType": "gpu-pow",
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-12T00:00:00+08:00",
+        "endsAt": null,
+        "phases": [
+          {
+            "name": "mainnet",
+            "note": "2026-10-11 16:00 UTC ≈ 10-12 00:00 CST"
+          }
+        ],
+        "source": "official",
+        "note": "主网已按 ANN 时间启动；合并挖 pearlhash"
+      },
+      "highlights": [
+        "与 Pearl 合并挖，同算力双出",
+        "主网仅数日级（相对研究日）",
+        "无预挖叙事 + 公开 genesis/Bitcoin 锚定",
+        "SRBMiner pearlhash 指向官方池即可试"
+      ],
+      "drawbacks": [
+        "新链流动性与钱包生态未验证",
+        "无独立官推时钓鱼风险更高",
+        "完全绑定 Pearl 矿工生态兴衰"
+      ],
+      "whatsNew": "本轮新·挖矿：NACR 10/11 UTC 主网合并挖 Pearl——已有 PRL 矿工几乎零成本加挂。",
+      "scores": {
+        "early": 88,
+        "risk": 72,
+        "novelty": 80,
+        "actionable": 82,
+        "overall": 73
+      }
+    },
+    {
+      "id": "common-foundry-cmfd",
+      "name": "Common Foundry (CMFD)",
+      "category": "挖矿",
+      "chain": "Common Foundry",
+      "round": 19,
+      "riskLevel": "high",
+      "riskScore": 74,
+      "earlyScore": 82,
+      "whyWatch": "官站称主网 2026-10-03 启动，ForgeMatrix GPU 矩阵计算作可验证 PoW；无预挖、仅挖矿发行。刚两周级窗口，第三方矿池已出现。",
+      "background": "commonfoundry.ai · GitHub 组织 Common-Foundry-1。推理付费层仍开发中。未见稳定官推账号（以官网/Discord/GitHub 为准）。AriaPool 等第三方池宣传 NVIDIA ≥8GB。",
+      "risk": "官站「Mainnet Live」与仓库 SECURITY 文仍大量 RC/研究网措辞并存——务必自行核对当前链是否已是有价值主网。新币+第三方池钓鱼高发。无官推时勿跟私信。",
+      "links": {
+        "x": null,
+        "site": "https://commonfoundry.ai/"
+      },
+      "tags": [
+        "挖矿",
+        "PoW",
+        "GPU",
+        "PRL-like",
+        "ForgeMatrix",
+        "AI"
+      ],
+      "miningType": "gpu-pow",
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-03T17:00:00+08:00",
+        "endsAt": null,
+        "phases": [
+          {
+            "name": "mainnet",
+            "note": "官站：2026-10-03 17:00 UTC 起挖"
+          }
+        ],
+        "source": "official",
+        "note": "以 commonfoundry.ai 发布说明为准；交叉核对 GitHub release checksum"
+      },
+      "highlights": [
+        "ForgeMatrix GPU 可验证矩阵 PoW",
+        "官宣无预挖、仅挖矿发行",
+        "主网约两周内（相对研究日）",
+        "节点验证可 CPU，挖矿需 GPU"
+      ],
+      "drawbacks": [
+        "文档成熟度与营销「主网」表述需交叉验证",
+        "无明确官推，社交入口易被仿冒",
+        "客户付费推理层未上线＝叙事未兑现"
+      ],
+      "whatsNew": "本轮新·挖矿：CMFD 官宣 10/3 主网 ForgeMatrix——核对校验和后再挂池，慎信私聊矿工。",
+      "scores": {
+        "early": 82,
+        "risk": 74,
+        "novelty": 76,
+        "actionable": 78,
+        "overall": 69
+      }
+    },
+    {
+      "id": "vela-vela",
+      "name": "Vela (VELA)",
+      "category": "挖矿",
+      "chain": "Vela",
+      "round": 19,
+      "riskLevel": "high",
+      "riskScore": 76,
+      "earlyScore": 90,
+      "whyWatch": "Proof-of-Inference：每次 PoW 尝试跑确定性文生图（整数 sd-turbo）；主网约 2026-10-14 14:00 UTC 上线，几乎是「本周级」最早 GPU 有用功挖矿之一。",
+      "background": "@velaresearch_ai · velaresearch.ai · explorer.velaresearch.ai。Bitcoin Core 分叉；供应叙事 21M；开发基金约 10% 补贴前四年。需下载约 1.19GB 模型；CUDA miner ~数秒/次尝试（消费级卡量级）。",
+      "risk": "极新主网、验证耗 CPU、模型许可（Stability AI Community）需自查。开发基金与慢启动规则影响早期抛压结构。只认 git.velaresearch.ai 发布包与 SHA256。",
+      "links": {
+        "x": "https://x.com/velaresearch_ai",
+        "site": "https://velaresearch.ai/"
+      },
+      "tags": [
+        "挖矿",
+        "PoW",
+        "GPU",
+        "PoI",
+        "AI",
+        "PRL-like",
+        "文生图"
+      ],
+      "miningType": "gpu-pow",
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-14T22:00:00+08:00",
+        "endsAt": null,
+        "phases": [
+          {
+            "name": "mainnet",
+            "note": "genesis 2026-10-14 14:00 UTC"
+          }
+        ],
+        "source": "official",
+        "note": "主网默认；另有 testnet4。用 v0.1.5+ mainnet 包"
+      },
+      "highlights": [
+        "主网仅约 2 天（相对研究日）",
+        "PoW=可验证文生图推理，块上带图像",
+        "公开文档/矿工/浏览器齐全",
+        "无预挖 genesis 叙事"
+      ],
+      "drawbacks": [
+        "同步需逐块重算推理，入门门槛高",
+        "1.19GB 模型+CUDA 环境配置易踩坑",
+        "极新币流动性与钱包生态未验证"
+      ],
+      "whatsNew": "本轮新·挖矿：VELA 10/14 UTC 主网 Proof-of-Inference——文生图即出块，窗口极早。",
+      "scores": {
+        "early": 90,
+        "risk": 76,
+        "novelty": 92,
+        "actionable": 80,
+        "overall": 75
+      }
+    },
+    {
+      "id": "vearl",
+      "name": "Vearl",
+      "category": "挖矿",
+      "chain": "Vearl",
+      "round": 19,
+      "riskLevel": "high",
+      "riskScore": 78,
+      "earlyScore": 94,
+      "whyWatch": "闭测已跑、公开测试网计划 2026-10-23：GPU 挖整数矩阵/可验证 AI，测试网贡献可计主网份额（官站称五期测试网共 7% 上限、首期 0.7%）。主网日未公布——典型「更早」信号。",
+      "background": "@vearl_org · vearl.org · 创始人公开署名；声明非 Pearl 官方项目。需 NVIDIA CC≥8.0（Ampere+）。测试网币无价值。Bitcointalk ANN 可交叉。",
+      "risk": "无主网日、无外部审计；测试网积分规则以官站为准且可能调整。勿把测试网代币当投资品。与 Pearl/Vela 名称相近，防假站。",
+      "links": {
+        "x": "https://x.com/vearl_org",
+        "site": "https://vearl.org/"
+      },
+      "tags": [
+        "挖矿",
+        "PoW",
+        "GPU",
+        "PoUW",
+        "测试网",
+        "AI",
+        "PRL-like"
+      ],
+      "miningType": "gpu-pow",
+      "schedule": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-23T00:00:00+08:00",
+        "endsAt": null,
+        "phases": [
+          {
+            "name": "public-testnet",
+            "note": "计划 2026-10-23；主网 TBA"
+          }
+        ],
+        "source": "official",
+        "note": "公开测试网计划日；精确时刻以官站/官推为准，可能滑动"
+      },
+      "highlights": [
+        "公开测试网窗口临近（计划 10/23）",
+        "测试网挖矿可计主网贡献份额（官宣比例）",
+        "PoUW 矩阵乘 + 欺诈证明叙事",
+        "硬件门槛写明 Ampere+"
+      ],
+      "drawbacks": [
+        "主网时间未定，投入可能空转",
+        "无第三方审计",
+        "测试网规则/重置风险"
+      ],
+      "whatsNew": "本轮新·挖矿：Vearl 计划 10/23 公开测试网——预装 Ampere+ GPU 与官站清单，等入口。",
+      "scores": {
+        "early": 94,
+        "risk": 78,
+        "novelty": 88,
+        "actionable": 70,
+        "overall": 72
+      }
+    },
+    {
+      "id": "dendra-dndr",
+      "name": "Dendra (DNDR)",
+      "category": "挖矿",
+      "chain": "Dendra",
+      "round": 19,
+      "riskLevel": "high",
+      "riskScore": 75,
+      "earlyScore": 91,
+      "whyWatch": "Final Testnet Season 进行中，截止约 2026-11-07 23:59 UTC：GPU/CPU 跑开源模型答推理并上链抽检；赛季奖励按规则映射主网 DNDR 点数——可行动窗口明确。",
+      "background": "dendranetwork.com · GitHub DendraNetwork/dendra-network。供应上限叙事 10M、无 mint 模块。未见稳定官推（以官网/GitHub 为准）。测试网 DNDR 无货币价值。",
+      "risk": "研究/测试网属性强，可能重置；GitHub 亦提示注册矿工不足时任务可能拒收。切勿导入真金私钥。主网上线后规则以最终创世为准。",
+      "links": {
+        "x": null,
+        "site": "https://dendranetwork.com/"
+      },
+      "tags": [
+        "挖矿",
+        "GPU",
+        "AI",
+        "测试网",
+        "可验证推理",
+        "QTC-like"
+      ],
+      "miningType": "other",
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "endsAt": "2026-11-08T07:59:00+08:00",
+        "phases": [
+          {
+            "name": "final-testnet-season",
+            "note": "ends 2026-11-07 23:59 UTC"
+          }
+        ],
+        "source": "official",
+        "note": "赛季结束时间以链上块时/官站为准；主网在赛季后"
+      },
+      "highlights": [
+        "赛季截止日清晰（约 11/7 UTC）",
+        "消费级 NVIDIA GPU 可参与",
+        "赛季奖励→主网点数映射叙事",
+        "开源模型 + 链上抽检/罚没"
+      ],
+      "drawbacks": [
+        "测试网币无价值，主网未上",
+        "矿工数量不足时体验差",
+        "无官推时钓鱼风险"
+      ],
+      "whatsNew": "本轮新·挖矿：Dendra Final Testnet Season 至约 11/7 UTC——赶在截止前挂 GPU 赚赛季点。",
+      "scores": {
+        "early": 91,
+        "risk": 75,
+        "novelty": 85,
+        "actionable": 85,
+        "overall": 75
+      }
+    },
+    {
+      "id": "keryx-krx",
+      "name": "Keryx (KRX)",
+      "category": "挖矿",
+      "chain": "Keryx",
+      "round": 19,
+      "riskLevel": "medium-high",
+      "riskScore": 70,
+      "earlyScore": 42,
+      "whyWatch": "Proof-of-Model：挖矿需模型权重驻留 VRAM，按显存档位定奖励档；链上加密推理已上线。主网较早，但 H14（约 2026-10-09）硬分叉后矿工/节点版本门槛刷新，仍有「版本窗口」可观察。",
+      "background": "keryx-labs.com · GitHub Keryx-Labs。rusty-kaspa 系 BlockDAG。多档开源模型（约 8–32GB+）。早期性低于本周新币，作 PoM 品类参照。",
+      "risk": "已运行较久，算力/抛压结构成熟；错误版本矿工在分叉后无效。Bond/罚没机制复杂。只认官方 release。",
+      "links": {
+        "x": null,
+        "site": "https://www.keryx-labs.com/"
+      },
+      "tags": [
+        "挖矿",
+        "PoW",
+        "GPU",
+        "PoM",
+        "AI",
+        "加密推理"
+      ],
+      "miningType": "gpu-pow",
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "endsAt": null,
+        "phases": [
+          {
+            "name": "H14",
+            "note": "约 2026-10-09 激活；需新版 miner/node"
+          }
+        ],
+        "source": "official",
+        "note": "主网已久；H14 后请核对 miner≥官方要求版本"
+      },
+      "highlights": [
+        "PoM：模型在显存里才是算力",
+        "加密推理请求/应答上链",
+        "显存分档奖励，消费卡可入门",
+        "H14 后版本刷新可作短观察点"
+      ],
+      "drawbacks": [
+        "早期性明显低于 Oct 新发链",
+        "运维与 bond 规则复杂",
+        "官推未在本轮检索中确认"
+      ],
+      "whatsNew": "本轮新·挖矿：Keryx H14 后 PoM 版本窗口——降权观察，核对官方 miner 再决定是否跟。",
+      "scores": {
+        "early": 42,
+        "risk": 70,
+        "novelty": 86,
+        "actionable": 68,
+        "overall": 55
       }
     }
   ]

@@ -37,3 +37,10 @@
 | `scripts/check_onchain.py` | 公共 RPC 探测并写回 mint 状态 |
 
 改完后：校验 JSON → 同步到 `early-scout-pages/` → 父 agent push `Reboot7454/early-scout` main。
+
+## 4) 挖矿品类（GPU PoW / NFT 变异盘）
+
+- 新品类 `category: "挖矿"`：GPU/PoW 币（PRL / QTC / NOID 风格）与 NFT 挖矿/变异盘。
+- 可选字段 `miningType`：`gpu-pow` | `nft-mutation` | `nft-miner` | `other`；`tags` 含 `挖矿`/`PoW`/`变异盘`。
+- 面板：品类 chip「挖矿」+ 顶栏「挖矿监控」筛选（同 LayerZero 监控逻辑）；卡片打「挖矿」徽章。
+- 例行搜刮需同时扫：新 GPU 矿币、AI-PoW、NFT 变异盘 / Miner NFT 早期信号。
