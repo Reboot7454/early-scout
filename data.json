@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-16 07:03 CST",
+    "updated": "2026-10-16 07:11 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "rounds 1–41 · Trencher/OS/X/DeepSeek",
-    "lastScout": "2026-10-16T07:02:56.347591+08:00",
+    "lastScout": "2026-10-16T07:11:35.991432+08:00",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -45,7 +45,7 @@
         "sushi-oft-rh",
         "zeromeme-fun"
       ],
-      "note": "Round41：近1–2h 仍未见 Zero Chain / ATLAS venue 消费端 mint 实质进展；Onchain Atlas 称当日 app 未过生产检查、不复用旧 launch；ProgrammableHQ 暂停新发射约12h（防狙击）仍在窗口内；继续盯 Omnisea / OFT / 生态发射台。"
+      "note": "Round42：近1–2h 仍未见 Zero Chain / ATLAS venue 消费端 mint；Onchain Atlas 称当日 app 未过生产检查、不复用旧 launch；ProgrammableHQ 暂停新发射约12h（自22:34 UTC，约至18:34 CST）仍在；继续盯 Omnisea / OFT / 生态发射台。"
     },
     "round5Added": [
       "farming-season",
@@ -188,8 +188,8 @@
         "miner-corp-rh",
         "hashlings"
       ],
-      "note": "Round38：无新 GPU-PoW/变异盘达收录线。既有 PRL/QTC/NOID/Hashlings/BLOX 等维持；Ink Miners Encryption Public FREE 今日约 18:10 CST；BLOX GTD 今晚 00:00 CST。",
-      "lastChecked": "2026-10-16T06:28:14.389186+08:00"
+      "note": "Round42：无新 GPU-PoW/变异盘达收录线。Ink Miners Encryption Public FREE≈18:10 CST；BLOX GTD≈今晚00:00 CST；既有 PRL/QTC/NOID/Hashlings 等维持。",
+      "lastChecked": "2026-10-16T07:11:35.991432+08:00"
     },
     "round20Added": [
       "blox-miners",
@@ -308,6 +308,11 @@
     "round41Added": [
       "digital-humans",
       "agents-hoood"
+    ],
+    "round42Added": [
+      "void-hoodies",
+      "fwtr",
+      "swarmcore"
     ]
   },
   "candidates": [
@@ -546,7 +551,7 @@
         "risk": 88,
         "overall": 84
       },
-      "flag": "开售",
+      "flag": "续更",
       "tags": [
         "AI发射",
         "Programmable",
@@ -565,7 +570,7 @@
         "Meme 无审计，流动性与撤池风险极高",
         "刚开盘滑点与狙击严重"
       ],
-      "whatsNew": "续更：Qubitensor 仍 LIVE（CA 0x0E2D…90A7）；ProgrammableHQ 暂停新发射约12h窗口仍在（防狙击）。",
+      "whatsNew": "续更：Qubitensor仍LIVE（CA 0x0E2D…90A7）；官推更新站/Dex；ProgrammableHQ 12h暂停发射仍有效（约至18:34 CST）。",
       "links": {
         "x": "https://x.com/Qubitensor",
         "site": "https://qubitensor.xyz",
@@ -586,7 +591,7 @@
           }
         ],
         "source": "@Qubitensor",
-        "note": "续更：Qubitensor 仍 LIVE（CA 0x0E2D…90A7）；ProgrammableHQ 暂停新发射约12h窗口仍在（防狙击）。"
+        "note": "续更：Qubitensor LIVE；ProgrammableHQ暂停新发射约至18:34 CST。"
       },
       "onchain": {
         "chainId": "ethereum",
@@ -2440,7 +2445,7 @@
       "whyWatch": "5555 LED 机器人免费 mint，名单约 Oct 16 截止；称 UNITS holder 拿 5% $REIGN——时间窗很短，适合今晚/明早核对名单规则。",
       "background": "@xreign_app · 粉量很大（约 17 万）；项目本身不「隐形」，但名单截止在即，错过=无票。",
       "risk": "母项目热度高≠ mint 公平；大量刷名单机器人。只走官宣链接，防假 apply。",
-      "flag": "time_sensitive",
+      "flag": "提醒",
       "links": {
         "x": "https://x.com/xreign_app",
         "site": "https://xreign.app"
@@ -3894,7 +3899,7 @@
       "riskLevel": "high",
       "riskScore": 80,
       "earlyScore": 82,
-      "flag": "续更",
+      "flag": "临近",
       "tags": [
         "RH",
         "赌场Pass",
@@ -3953,7 +3958,7 @@
           }
         ],
         "source": "neverfuckingtrade.com + OpenSea",
-        "note": "供应：HoodPoker ~1804→1808/7777；下一窗 WL≈07:30 CST（Trencher）。"
+        "note": "临近：HoodPoker ~1844/7777；下一窗 WL≈07:30 CST FREE（Trencher）。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -3961,12 +3966,12 @@
         "contract": "0x8bea43c58da13587fef26bb7344660d6c5909336",
         "standard": "erc721",
         "mintStatus": "open",
-        "totalSupply": 1808,
+        "totalSupply": 1844,
         "maxSupply": 7777,
-        "minted": 1808,
-        "lastCheckedAt": "2026-10-16T07:03:13.174623+08:00",
+        "minted": 1844,
+        "lastCheckedAt": "2026-10-16T07:11:35.991432+08:00",
         "explorer": "https://opensea.io/collection/hoodpoker",
-        "note": "CCFF00 FREE 窗 ~1746/7777"
+        "note": "Trencher ~1844/7777；HOLDER→WL≈07:30 CST"
       },
       "highlights": [
         "House Pass 供应仅约1746/7777，仍处早期",
@@ -3976,7 +3981,7 @@
         "匿名项目，合约与团队信息不透明",
         "免费铸造易吸引脚本，二级流动性存疑"
       ],
-      "whatsNew": "供应：HoodPoker ~1804→1808/7777；下一窗 WL≈07:30 CST（Trencher）。",
+      "whatsNew": "临近：HoodPoker ~1844/7777；HOLDER→WL 窗≈07:30 CST（FREE）；Public≈11:30 CST 0.001777 ETH。",
       "scores": {
         "early": 82,
         "actionable": 85,
@@ -6640,7 +6645,7 @@
         "未开铸",
         "只认官站防假页"
       ],
-      "whatsNew": "提醒：BLOX Miners GTD 今晚00:00 CST（16:00 UTC）开，2222。",
+      "whatsNew": "提醒：BLOX Miners GTD≈今晚00:00 CST（16:00 UTC），2222。",
       "scores": {
         "early": 88,
         "risk": 78,
@@ -6653,7 +6658,8 @@
         "mintStatus": "not_open",
         "lastCheckedAt": "2026-10-16T06:38:17.747674+08:00",
         "note": "GTD 今晚 00:00 CST（16:00 UTC）；只认官站 mint"
-      }
+      },
+      "flag": "提醒"
     },
     {
       "id": "hatch-s2",
@@ -7350,7 +7356,7 @@
       "riskLevel": "high",
       "riskScore": 84,
       "earlyScore": 90,
-      "flag": "time_sensitive",
+      "flag": "供应",
       "tags": [
         "RH",
         "free mint",
@@ -7394,17 +7400,17 @@
           }
         ],
         "source": "neverfuckingtrade.com",
-        "note": "续更：Crimson Ronin 仍 ~982/4444；WL FREE 进行中。"
+        "note": "供应：Crimson Ronin ~993/4444。"
       },
       "onchain": {
         "chainId": "robinhood",
         "contract": "0x9710afb34efcd23007a7c66e1af396ae43c2f1cf",
         "standard": "erc721",
         "mintStatus": "open",
-        "minted": 982,
-        "totalSupply": 982,
+        "minted": 993,
+        "totalSupply": 993,
         "maxSupply": 4444,
-        "lastCheckedAt": "2026-10-16T07:03:24.371317+08:00",
+        "lastCheckedAt": "2026-10-16T07:11:35.991432+08:00",
         "explorer": "https://opensea.io/collection/crimson-ronin-831462114",
         "note": "续更：Crimson Ronin 仍 ~982/4444；WL FREE 进行中。"
       },
@@ -7415,7 +7421,7 @@
       "drawbacks": [
         "粉/背书弱，风险高"
       ],
-      "whatsNew": "续更：Crimson Ronin 仍 ~982/4444；WL FREE 进行中。",
+      "whatsNew": "供应：Crimson Ronin ~982→993/4444；WL STAGE1仍LIVE（Trencher）。",
       "scores": {
         "early": 90,
         "risk": 84,
@@ -7435,7 +7441,7 @@
       "riskLevel": "extreme",
       "riskScore": 85,
       "earlyScore": 90,
-      "flag": "临开",
+      "flag": "续更",
       "tags": [
         "RH",
         "free mint",
@@ -7482,7 +7488,7 @@
           }
         ],
         "source": "neverfuckingtrade.com",
-        "note": "开售：MINI ROBOTS GTD FREE 已开（约07:00–08:00 CST，限3）；OS仍~98/5555；随后FCFS FREE≈08:00、Public 0.000004 ETH≈09:00 CST。"
+        "note": "续更：MINI ROBOTS GTD仍LIVE至≈08:00 CST；~98/5555。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -7492,9 +7498,9 @@
         "minted": 98,
         "totalSupply": 98,
         "maxSupply": 5555,
-        "lastCheckedAt": "2026-10-16T07:03:24.599594+08:00",
+        "lastCheckedAt": "2026-10-16T07:11:35.991432+08:00",
         "explorer": "https://opensea.io/collection/mini-robots",
-        "note": "GTD FREE live；OS~98/5555（预铸为主，开售后OS或有延迟）"
+        "note": "GTD LIVE ~98/5555"
       },
       "highlights": [
         "GTD FREE 已开约07:00 CST（限3/钱包），OS仍约98/5555，窗短可抢",
@@ -7504,7 +7510,7 @@
         "官推仅约54粉，Trencher dust/hype低，匿名风险高",
         "开售后机器人与抢跑常见，注意合约与钓鱼站"
       ],
-      "whatsNew": "开售：MINI ROBOTS GTD FREE 已开（约07:00–08:00 CST，限3）；OS仍~98/5555；随后FCFS FREE≈08:00、Public 0.000004 ETH≈09:00 CST。",
+      "whatsNew": "续更：MINI ROBOTS GTD FREE仍LIVE至≈08:00 CST；OS~98/5555；FCFS FREE≈08:00 / Public 0.000004≈09:00 CST。",
       "scores": {
         "early": 90,
         "actionable": 92,
@@ -7721,7 +7727,7 @@
       "category": "NFT",
       "chain": "Robinhood Chain",
       "riskLevel": "high",
-      "flag": "time_sensitive",
+      "flag": "供应",
       "tags": [
         "RH",
         "free mint",
@@ -7767,10 +7773,10 @@
         "contract": "0xdf72054d517527460961791fe67c2bd0e5056121",
         "standard": "erc721",
         "mintStatus": "open",
-        "minted": 322,
-        "totalSupply": 322,
+        "minted": 323,
+        "totalSupply": 323,
         "maxSupply": 3333,
-        "lastCheckedAt": "2026-10-16T07:03:25.127848+08:00",
+        "lastCheckedAt": "2026-10-16T07:11:35.991432+08:00",
         "explorer": "https://opensea.io/collection/reliquialegacy",
         "note": "供应：Reliquia LEGACY ~322/3333；GTD FREE 进行中。"
       },
@@ -7785,7 +7791,7 @@
         "Public 价/资格以官帖为准",
         "onchain 生成玩法不等于保值"
       ],
-      "whatsNew": "供应：Reliquia LEGACY ~322/3333；GTD FREE 进行中。",
+      "whatsNew": "供应：Reliquia: LEGACY ~322→323/3333（Trencher live）。",
       "scores": {
         "early": 78,
         "risk": 72,
@@ -7805,7 +7811,7 @@
       "category": "NFT",
       "chain": "Robinhood Chain",
       "riskLevel": "extreme",
-      "flag": "time_sensitive",
+      "flag": "供应",
       "tags": [
         "RH",
         "free mint",
@@ -7842,17 +7848,17 @@
           }
         ],
         "source": "neverfuckingtrade.com",
-        "note": "续更：Wandering Sages 仍 ~966/3333；OG/WL FREE 窗。"
+        "note": "供应：Wandering Sages ~981/3333。"
       },
       "onchain": {
         "chainId": "robinhood",
         "contract": "0xd0a6b28c8f63778b4c3affcb598f864f3eeae4e4",
         "standard": "erc721",
         "mintStatus": "open",
-        "minted": 966,
-        "totalSupply": 966,
+        "minted": 981,
+        "totalSupply": 981,
         "maxSupply": 3333,
-        "lastCheckedAt": "2026-10-16T07:03:25.388406+08:00",
+        "lastCheckedAt": "2026-10-16T07:11:35.991432+08:00",
         "explorer": "https://opensea.io/collection/wandering-sages",
         "note": "续更：Wandering Sages 仍 ~966/3333；OG/WL FREE 窗。"
       },
@@ -7865,7 +7871,7 @@
         "极高：社媒弱、供给已过半 WL",
         "Public 付费"
       ],
-      "whatsNew": "续更：Wandering Sages 仍 ~966/3333；OG/WL FREE 窗。",
+      "whatsNew": "供应：Wandering Sages ~966→981/3333；OG窗仍LIVE（Trencher）。",
       "scores": {
         "early": 70,
         "risk": 88,
@@ -8912,7 +8918,7 @@
       "category": "NFT",
       "chain": "Robinhood Chain",
       "riskLevel": "high",
-      "flag": "time_sensitive",
+      "flag": "供应",
       "tags": [
         "RH",
         "free mint",
@@ -8957,10 +8963,10 @@
         "contract": "0x5d3efeb99b48ce29745280ac5c72c7c8dcd5bb0e",
         "standard": "erc721",
         "mintStatus": "open",
-        "minted": 195,
-        "totalSupply": 190,
+        "minted": 198,
+        "totalSupply": 198,
         "maxSupply": 11111,
-        "lastCheckedAt": "2026-10-16T07:03:28.079870+08:00",
+        "lastCheckedAt": "2026-10-16T07:11:35.991432+08:00",
         "explorer": "https://opensea.io/collection/keysnfts",
         "note": "供应：Keys/DON'T MINT ~190（上轮~183）；WL FREE 进行中。"
       },
@@ -8972,7 +8978,7 @@
         "合集名 DON'T MINT，疑似陷阱/玩笑",
         "极高风险"
       ],
-      "whatsNew": "供应：Keys/DON'T MINT ~190→195；WL FREE 进行中。",
+      "whatsNew": "供应：Keys the NFT ~195→198/11111（Trencher live）。",
       "scores": {
         "early": 80,
         "risk": 82,
@@ -9631,7 +9637,7 @@
       "riskLevel": "high",
       "riskScore": 75,
       "earlyScore": 88,
-      "flag": "upcoming",
+      "flag": "续更",
       "tags": [
         "RH",
         "free mint",
@@ -9682,7 +9688,7 @@
         "minted": 0,
         "totalSupply": 0,
         "maxSupply": 1000,
-        "lastCheckedAt": "2026-10-16T07:03:32.764802+08:00",
+        "lastCheckedAt": "2026-10-16T07:11:35.991432+08:00",
         "explorer": "https://opensea.io/collection/holdingtime",
         "note": "OpenSea supply 0；RH/Ink RPC 可能不可用，以 OS/Trencher 为准"
       },
@@ -9696,7 +9702,7 @@
         "热度未验证",
         "全 FREE 临场 bot 风险"
       ],
-      "whatsNew": "",
+      "whatsNew": "续更：HoldingTime GTD FREE仍约10-23 01:00 CST，0/1000（Trencher upcoming）。",
       "scores": {
         "early": 88,
         "risk": 75,
@@ -9832,14 +9838,14 @@
       },
       "schedule": {
         "status": "live",
-        "note": "续更：PumpGO GO玩法仍关注；本轮无新开售证据。"
+        "note": "续更：PumpGO 本轮无新开售证据。"
       },
       "onchain": {
         "status": "watch",
         "note": "881km / 1945 coins / ~$9107 $PUMP；反作弊审核中",
         "lastCheckedAt": "2026-10-16T07:02:56.347591+08:00"
       },
-      "flag": null,
+      "flag": "续更",
       "playStyle": "go",
       "earlyScore": 78,
       "riskScore": 75
@@ -9888,14 +9894,14 @@
       },
       "schedule": {
         "status": "live",
-        "note": "续更：Stokn GO玩法仍关注；本轮无新开售证据。"
+        "note": "续更：Stokn 本轮无新开售证据。"
       },
       "onchain": {
         "status": "watch",
         "note": "GO 玩法观望",
         "lastCheckedAt": "2026-10-16T07:02:56.347591+08:00"
       },
-      "flag": null
+      "flag": "续更"
     },
     {
       "id": "baby-seals-crc",
@@ -10234,7 +10240,7 @@
         "团队匿名且偏免费铸造模式，尽调信息有限",
         "核心 Hook 尚未过审，功能与代币经济仍不确定"
       ],
-      "whatsNew": "续更：KEYLESS 仍早期；ProgrammableHQ 暂停新发射要求仍有效。",
+      "whatsNew": "续更：KEYLESS仍早期；ProgrammableHQ暂停新发射约至18:34 CST（防狙击）。",
       "links": {
         "x": "https://x.com/keylesseth",
         "site": "https://keylesseth.xyz",
@@ -10254,7 +10260,7 @@
           }
         ],
         "source": "@keylesseth",
-        "note": "续更：KEYLESS 仍早期；ProgrammableHQ 暂停新发射要求仍有效。"
+        "note": "续更：KEYLESS仍早期；HQ暂停窗口仍在。"
       },
       "onchain": {
         "chainId": "ethereum",
@@ -10266,7 +10272,7 @@
         "lastCheckedAt": "2026-10-16T07:03:36.639915+08:00",
         "note": "2 module live；custom hook 仍等 Programmable 审核"
       },
-      "flag": "early_signal",
+      "flag": "续更",
       "firstSeen": "2026-10-16T04:38:27.499417+08:00",
       "addedAt": "2026-10-16T04:38:27.499417+08:00",
       "round": 30,
@@ -10383,7 +10389,7 @@
         "hype dust、同质化 PFP",
         "二级深度极浅，机器人多"
       ],
-      "whatsNew": "供应：Billionaire Child ~706/6000；FCFS FREE 进行中。",
+      "whatsNew": "供应：Billionaire Child ~706→737/6000（Trencher live）。",
       "links": {
         "x": null,
         "opensea": "https://opensea.io/collection/billionaire-child",
@@ -10420,14 +10426,14 @@
         "contract": "0xc25d6518fe167c2e5c410a41438641f03ae3a643",
         "standard": "erc721",
         "mintStatus": "open",
-        "minted": 706,
-        "totalSupply": 706,
+        "minted": 737,
+        "totalSupply": 737,
         "maxSupply": 6000,
         "explorer": "https://opensea.io/collection/billionaire-child",
-        "lastCheckedAt": "2026-10-16T07:03:39.648164+08:00",
+        "lastCheckedAt": "2026-10-16T07:11:35.991432+08:00",
         "note": "供应：Billionaire Child ~706/6000；FCFS FREE 进行中。"
       },
-      "flag": "time_sensitive",
+      "flag": "供应",
       "firstSeen": "2026-10-16T04:46:46.649748+08:00",
       "addedAt": "2026-10-16T04:46:46.649748+08:00",
       "round": 30,
@@ -10692,7 +10698,7 @@
         "risk": 76,
         "overall": 79
       },
-      "flag": "early_signal",
+      "flag": "续更",
       "tags": [
         "AI发射",
         "Programmable",
@@ -10712,7 +10718,7 @@
         "v4 hooks 与 AI 结合的实现复杂度高，存在技术落地风险",
         "KEYLESS 同类竞争加剧，差异化尚不清晰"
       ],
-      "whatsNew": "续更：$RIVET 仍 LIVE；Programmable 暂停新发射窗口中。",
+      "whatsNew": "续更：$RIVET仍LIVE；ProgrammableHQ暂停新发射窗口中。",
       "links": {
         "x": "https://x.com/RivetETH",
         "site": null,
@@ -10914,7 +10920,7 @@
         "极早期",
         "今晚"
       ],
-      "flag": null,
+      "flag": "供应",
       "links": {
         "mint": "https://opensea.io/collection/pixel-error-810016359",
         "site": "https://opensea.io/collection/pixel-error-810016359",
@@ -10955,10 +10961,10 @@
         "contract": "0x33ba44a8e22b0e2b56106a1e903d56014b0fabaa",
         "standard": "erc721",
         "mintStatus": "open",
-        "minted": 447,
-        "totalSupply": 447,
+        "minted": 463,
+        "totalSupply": 463,
         "maxSupply": 2222,
-        "lastCheckedAt": "2026-10-16T07:03:41.203257+08:00",
+        "lastCheckedAt": "2026-10-16T07:11:35.991432+08:00",
         "explorer": "https://opensea.io/collection/pixel-error-810016359",
         "note": "续更：Pixel Error WL FREE 仍 ~447/2222。"
       },
@@ -10987,7 +10993,7 @@
       "riskLevel": "medium-high",
       "firstSeen": "2026-10-16T06:14:16.232257+08:00",
       "addedAt": "2026-10-16T06:14:16.232257+08:00",
-      "whatsNew": "续更：Pixel Error WL FREE 仍 ~447/2222。"
+      "whatsNew": "供应：Pixel Error ~447→463/2222（Trencher live）。"
     },
     {
       "id": "tortoise-rh",
@@ -11003,7 +11009,7 @@
         "极早期",
         "今晚"
       ],
-      "flag": null,
+      "flag": "供应",
       "links": {
         "mint": "https://opensea.io/collection/tortoise-rh-303792327",
         "site": "https://opensea.io/collection/tortoise-rh-303792327",
@@ -11044,10 +11050,10 @@
         "contract": "0xff6dedf77c15c953450f96ddbc3d7d25dac09e81",
         "standard": "erc721",
         "mintStatus": "open",
-        "minted": 561,
-        "totalSupply": 560,
+        "minted": 575,
+        "totalSupply": 575,
         "maxSupply": 4444,
-        "lastCheckedAt": "2026-10-16T07:03:41.410302+08:00",
+        "lastCheckedAt": "2026-10-16T07:11:35.991432+08:00",
         "explorer": "https://opensea.io/collection/tortoise-rh-303792327",
         "note": "续更：Tortoise RH WL Zoo1 FREE 仍 ~560/4444。"
       },
@@ -11076,7 +11082,7 @@
       "riskLevel": "medium",
       "firstSeen": "2026-10-16T06:14:16.232257+08:00",
       "addedAt": "2026-10-16T06:14:16.232257+08:00",
-      "whatsNew": "供应：Tortoise RH ~560→561/4444；WL Zoo 窗。"
+      "whatsNew": "供应：Tortoise RH ~561→575/4444（Trencher live）。"
     },
     {
       "id": "boys-in-hood",
@@ -11092,7 +11098,7 @@
         "今晚",
         "LIVE"
       ],
-      "flag": "续更",
+      "flag": "供应",
       "links": {
         "mint": "https://opensea.io/collection/boys-in-hood",
         "site": "https://opensea.io/collection/boys-in-hood",
@@ -11113,19 +11119,19 @@
           }
         ],
         "source": "neverfuckingtrade.com",
-        "note": "供应：BOYS IN HOOD PUBLIC FREE 仍~464/5555（OS未变）。"
+        "note": "供应：BOYS IN HOOD ~488/5555。"
       },
       "onchain": {
         "chainId": "robinhood",
         "contract": "0x69538b305120999382ec244977346e9c22771c2c",
         "standard": "erc721",
         "mintStatus": "live",
-        "minted": 464,
-        "totalSupply": 464,
+        "minted": 488,
+        "totalSupply": 488,
         "maxSupply": 5555,
-        "lastCheckedAt": "2026-10-16T07:03:41.670511+08:00",
+        "lastCheckedAt": "2026-10-16T07:11:35.991432+08:00",
         "explorer": "https://opensea.io/collection/boys-in-hood",
-        "note": "PUBLIC FREE live；OS~269/5555"
+        "note": "OS~488/5555"
       },
       "round": 38,
       "scores": {
@@ -11149,7 +11155,7 @@
       "riskLevel": "extreme",
       "firstSeen": "2026-10-16T06:26:02.747727+08:00",
       "addedAt": "2026-10-16T06:26:02.747727+08:00",
-      "whatsNew": "供应：BOYS IN HOOD PUBLIC FREE 仍~464/5555（OS未变）。",
+      "whatsNew": "供应：BOYS IN HOOD OS~464→488/5555；Trencher本轮未列live卡。",
       "background": "Robinhood Chain 免费 Public mint（Trencher 信号），受众为 Hood 题材跟风盘。",
       "whyWatch": "尽量早期：FREE Public 临开/刚开且 0 minted。"
     },
@@ -11165,9 +11171,10 @@
         "free mint",
         "AI",
         "极早期",
-        "今晚"
+        "今晚",
+        "临近"
       ],
-      "flag": "续更",
+      "flag": "临近",
       "links": {
         "x": "https://x.com/OwlCultNFT",
         "mint": "https://opensea.io/collection/owlcult",
@@ -11195,7 +11202,7 @@
           }
         ],
         "source": "neverfuckingtrade.com + @OwlCultNFT",
-        "note": "续更：OwlCult Freelist仍~376/1111；Public≈07:30 CST（Trencher 窗极短，约2分钟）价约0.000055 ETH。"
+        "note": "临近开售：OwlCult PUBLIC≈07:30 CST 仅约2分钟（Trencher）。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -11205,17 +11212,17 @@
         "minted": 376,
         "totalSupply": 376,
         "maxSupply": 1111,
-        "lastCheckedAt": "2026-10-16T07:03:41.896124+08:00",
+        "lastCheckedAt": "2026-10-16T07:11:35.991432+08:00",
         "explorer": "https://opensea.io/collection/owlcult",
-        "note": "Freelist FREE ~374/1111"
+        "note": "Freelist~376/1111；Public≤20min"
       },
       "round": 38,
       "scores": {
-        "early": 88,
-        "actionable": 92,
+        "early": 90,
+        "actionable": 95,
         "novelty": 70,
-        "risk": 82,
-        "overall": 78
+        "risk": 85,
+        "overall": 72
       },
       "highlights": [
         "Freelist FREE 仍进行，~374/1111，窗口至约 07:30 CST",
@@ -11226,12 +11233,12 @@
         "免费 mint 常见机器人抢铸与上线抛压风险"
       ],
       "risk": "匿名免费铸造缺乏团队与审计背书，存在合约漏洞、机器人抢铸及上线后抛售风险。",
-      "earlyScore": 88,
-      "riskScore": 82,
+      "earlyScore": 90,
+      "riskScore": 85,
       "riskLevel": "high",
       "firstSeen": "2026-10-16T06:26:02.747727+08:00",
       "addedAt": "2026-10-16T06:26:02.747727+08:00",
-      "whatsNew": "续更：OwlCult Freelist仍~376/1111；Public≈07:30 CST（Trencher 窗极短，约2分钟）价约0.000055 ETH。",
+      "whatsNew": "临近开售：OwlCult Freelist仍~376/1111；PUBLIC≈07:30 CST 仅约2分钟（0.000055 ETH×20）——极短窗。",
       "background": "Robinhood Chain 上的 Autonomous AI Agents NFT（OwlCult）。",
       "whyWatch": "AI+RH 免费 Freelist 仍 live，且供应量未过半。"
     },
@@ -11248,7 +11255,7 @@
         "极早期",
         "今晚"
       ],
-      "flag": null,
+      "flag": "提醒",
       "links": {
         "x": "https://x.com/TheRCPTS",
         "mint": "https://opensea.io/collection/prntrs",
@@ -11298,7 +11305,7 @@
           }
         ],
         "source": "neverfuckingtrade.com",
-        "note": "提醒：PRINTERS 官推称约15h后开（Team FREE≈21:30 CST / GTD≈22:00 CST）；OS仍0/6000。"
+        "note": "提醒：PRINTERS Team FREE≈21:30 / GTD≈22:00 CST；0/6000。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -11308,7 +11315,7 @@
         "minted": 0,
         "totalSupply": 0,
         "maxSupply": 6000,
-        "lastCheckedAt": "2026-10-16T07:03:42.156109+08:00",
+        "lastCheckedAt": "2026-10-16T07:11:35.991432+08:00",
         "explorer": "https://opensea.io/collection/prntrs",
         "note": "Team FREE ~21:30 CST；GTD FREE ~22:00 CST"
       },
@@ -11334,7 +11341,7 @@
       "riskLevel": "high",
       "firstSeen": "2026-10-16T06:38:17.747674+08:00",
       "addedAt": "2026-10-16T06:38:17.747674+08:00",
-      "whatsNew": "提醒：PRINTERS 官推称约15h后开（Team FREE≈21:30 CST / GTD≈22:00 CST）；OS仍0/6000。",
+      "whatsNew": "提醒：PRINTERS Team FREE≈21:30 CST / GTD≈22:00 CST；Trencher仍0/6000。",
       "background": "Robinhood Chain FREE Team/GTD mint（Trencher warm），与 RECEIPTS/$RCPTS 持有者联动。",
       "whyWatch": "尽量早期：今晚 FREE Team/GTD 窗，6000 供应且尚未开铸。"
     },
@@ -11375,7 +11382,7 @@
           }
         ],
         "source": "neverfuckingtrade.com",
-        "note": "续更：Scarecrow Public 仍 live，OS~30/150（0.00003 ETH）；Trencher 本轮未见该卡，供应未变。"
+        "note": "续更：Scarecrow仍~30/150。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -11385,7 +11392,7 @@
         "minted": 30,
         "totalSupply": 30,
         "maxSupply": 150,
-        "lastCheckedAt": "2026-10-16T07:03:42.408590+08:00",
+        "lastCheckedAt": "2026-10-16T07:11:35.991432+08:00",
         "explorer": "https://opensea.io/collection/scarecrow-448109478",
         "note": "OS~30/150；owners极少"
       },
@@ -11411,7 +11418,7 @@
       "riskLevel": "high",
       "firstSeen": "2026-10-16T06:52:25.511359+08:00",
       "addedAt": "2026-10-16T06:52:25.511359+08:00",
-      "whatsNew": "续更：Scarecrow Public 仍 live，OS~30/150（0.00003 ETH）；Trencher 本轮未见该卡，供应未变。",
+      "whatsNew": "续更：Scarecrow Public仍~30/150（0.00003 ETH）；Trencher本轮未见；OS未变。",
       "background": "Trencher Live 新出现的 RH 小盘 Public mint（0.00003 ETH）。",
       "whyWatch": "尽量早期：150 总供、铸出约两成，Public 仍开。"
     },
@@ -11426,10 +11433,9 @@
         "RH",
         "free mint",
         "极早期",
-        "本轮新",
         "GTD"
       ],
-      "flag": "本轮新",
+      "flag": "续更",
       "links": {
         "x": "https://x.com/SoulsClubInc",
         "mint": "https://opensea.io/collection/digitalhumans",
@@ -11459,7 +11465,7 @@
           }
         ],
         "source": "neverfuckingtrade.com",
-        "note": "本轮新：Digital humans GTD FREE约10-23 00:00 CST（Trencher legendary/hype83）；已铸0/10000。"
+        "note": "续更：Digital humans GTD FREE约10-23 00:00 CST，0/10000。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -11469,7 +11475,7 @@
         "minted": 0,
         "totalSupply": 0,
         "maxSupply": 10000,
-        "lastCheckedAt": "2026-10-16T07:03:42.667273+08:00",
+        "lastCheckedAt": "2026-10-16T07:11:35.991432+08:00",
         "explorer": "https://opensea.io/collection/digitalhumans",
         "note": "OS~0/10000；GTD尚未开"
       },
@@ -11497,7 +11503,7 @@
       "riskLevel": "medium",
       "firstSeen": "2026-10-16T07:02:56.347591+08:00",
       "addedAt": "2026-10-16T07:02:56.347591+08:00",
-      "whatsNew": "本轮新：Digital humans（SoulsClub）GTD FREE约10-23 00:00 CST，0/10000，Trencher legendary/hype83。"
+      "whatsNew": "续更：Digital humans GTD FREE仍约10-23 00:00 CST，0/10000；Trencher upcoming 仍列。"
     },
     {
       "id": "agents-hoood",
@@ -11510,10 +11516,10 @@
         "RH",
         "free mint",
         "极早期",
-        "本轮新",
+        "LIVE",
         "LIVE"
       ],
-      "flag": "本轮新",
+      "flag": "供应",
       "links": {
         "x": "https://x.com/ThePrymatory",
         "mint": "https://opensea.io/collection/agents-hoood",
@@ -11536,19 +11542,19 @@
           }
         ],
         "source": "neverfuckingtrade.com",
-        "note": "本轮新：AGENTS HOOOD Public FREE 刚开（约07:00 CST），0/4444；OS标@ThePrymatory。"
+        "note": "供应：AGENTS HOOOD OS~669/4444；Trencher本轮未列。"
       },
       "onchain": {
         "chainId": "robinhood",
         "contract": "0x0c1db6c66cce4a21b06d2bc1e8a8d5895a501d9e",
         "standard": "erc721",
-        "mintStatus": "live",
-        "minted": 0,
-        "totalSupply": 0,
+        "mintStatus": "open",
+        "minted": 669,
+        "totalSupply": 669,
         "maxSupply": 4444,
-        "lastCheckedAt": "2026-10-16T07:03:42.914722+08:00",
+        "lastCheckedAt": "2026-10-16T07:11:35.991432+08:00",
         "explorer": "https://opensea.io/collection/agents-hoood",
-        "note": "Public FREE live；OS~0/4444"
+        "note": "OS totalSupply~669/4444"
       },
       "round": 41,
       "scores": {
@@ -11574,7 +11580,238 @@
       "riskLevel": "extreme",
       "firstSeen": "2026-10-16T07:02:56.347591+08:00",
       "addedAt": "2026-10-16T07:02:56.347591+08:00",
-      "whatsNew": "本轮新：AGENTS HOOOD Public FREE LIVE 0/4444（约07:00 CST开）；同@ThePrymatory。"
+      "whatsNew": "供应：AGENTS HOOOD OS~0→669/4444（Public FREE仍可能在）；Trencher本轮未列live卡。"
+    },
+    {
+      "id": "void-hoodies",
+      "name": "Void Hoodies",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "status": "upcoming",
+      "mintStatus": "not_open",
+      "tags": [
+        "RH",
+        "free mint",
+        "极早期",
+        "本轮新",
+        "WL"
+      ],
+      "flag": "本轮新",
+      "links": {
+        "mint": "https://opensea.io/collection/void-hoodies-925332167",
+        "opensea": "https://opensea.io/collection/void-hoodies-925332167",
+        "signal": "https://neverfuckingtrade.com/"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-16T07:00:00Z",
+        "endsAt": "2026-10-16T19:00:00Z",
+        "phases": [
+          {
+            "name": "WL Allowlist",
+            "startsAt": "2026-10-16T07:00:00Z",
+            "endsAt": "2026-10-16T13:00:00Z",
+            "price": "FREE",
+            "perWallet": 3
+          },
+          {
+            "name": "PUBLIC",
+            "startsAt": "2026-10-16T13:00:00Z",
+            "endsAt": "2026-10-16T19:00:00Z",
+            "price": "FREE",
+            "perWallet": 3
+          }
+        ],
+        "source": "neverfuckingtrade.com",
+        "note": "本轮新：Void Hoodies WL FREE≈15:00 CST / Public FREE≈21:00 CST；0/3333，Trencher hype dust。"
+      },
+      "onchain": {
+        "chainId": "robinhood",
+        "contract": "0xc3397ca6888bb30d780cd728d10918cead1736c4",
+        "standard": "erc721",
+        "mintStatus": "not_open",
+        "minted": 0,
+        "totalSupply": 0,
+        "maxSupply": 3333,
+        "lastCheckedAt": "2026-10-16T07:11:35.991432+08:00",
+        "explorer": "https://opensea.io/collection/void-hoodies-925332167",
+        "note": "OS~0/3333；WL尚未开（≈15:00 CST）"
+      },
+      "round": 42,
+      "scores": {
+        "early": 85,
+        "actionable": 76,
+        "novelty": 55,
+        "risk": 72,
+        "overall": 65
+      },
+      "highlights": [
+        "RH 3333，当前 minted 0；WL/Public 均为 FREE（3/wallet）",
+        "WL≈今日15:00–21:00 CST，Public≈21:00–次日03:00 CST（Trencher）",
+        "合约与 OS 已公开，同日窗口可操作"
+      ],
+      "drawbacks": [
+        "尚无官推确认，缺粉数/团队信息",
+        "Trencher hype=dust，热度未验证",
+        "全 FREE 临场 bot/钓鱼风险，需自核合约"
+      ],
+      "risk": "无官推背书的 RH 免费盘；核验合约与防钓鱼。",
+      "earlyScore": 85,
+      "riskScore": 72,
+      "riskLevel": "high",
+      "firstSeen": "2026-10-16T07:11:35.991432+08:00",
+      "addedAt": "2026-10-16T07:11:35.991432+08:00",
+      "whatsNew": "本轮新：Void Hoodies（RH）WL FREE≈15:00 CST / Public FREE≈21:00 CST，0/3333，Trencher dust。"
+    },
+    {
+      "id": "fwtr",
+      "name": "FIREWATER ($FWTR)",
+      "category": "Meme",
+      "chain": "Ethereum",
+      "status": "watch",
+      "mintStatus": "not_open",
+      "tags": [
+        "Programmable",
+        "AI发射",
+        "Uniswap v4 hooks",
+        "极早期",
+        "本轮新",
+        "tentative"
+      ],
+      "flag": "本轮新",
+      "links": {
+        "x": "https://x.com/fwtrhook",
+        "programmable": "https://x.com/ProgrammableHQ",
+        "signal": "https://x.com/fwtrhook/status/2110857259890688205"
+      },
+      "schedule": {
+        "status": "tentative",
+        "timezone": "Asia/Shanghai",
+        "phases": [
+          {
+            "name": "Token launch (claimed)",
+            "startsAt": "2026-10-16T00:00:00Z",
+            "note": "@fwtrhook 称 tomorrow on ProgrammableHQ；受 HQ 12h 暂停窗口约束"
+          }
+        ],
+        "source": "@fwtrhook + @ProgrammableHQ",
+        "note": "本轮新：FWTR 自称明日 Programmable 发射；HQ 暂停新发射约至 10-16 18:34 CST；无 CA。"
+      },
+      "onchain": {
+        "mintStatus": "not_open",
+        "lastCheckedAt": "2026-10-16T07:11:35.991432+08:00",
+        "note": "tentative；无 CA"
+      },
+      "round": 42,
+      "scores": {
+        "early": 88,
+        "actionable": 52,
+        "novelty": 68,
+        "risk": 85,
+        "overall": 60
+      },
+      "highlights": [
+        "@fwtrhook（~15粉）称 FWTR 明日在 @ProgrammableHQ 发射",
+        "叙事贴 Programmable / Uniswap v4 hooks / AI发射 关注线",
+        "ProgrammableHQ 已见提交但要求 12h 内勿发射（防狙击）"
+      ],
+      "drawbacks": [
+        "未上线、无 CA，不可交互；状态 tentative",
+        "账号极新低粉，可信度有限",
+        "受暂停窗口影响，时间可能延后或跳票"
+      ],
+      "risk": "极早期公告盘，无合约；Programmable 暂停窗口内发射不确定。",
+      "earlyScore": 88,
+      "riskScore": 85,
+      "riskLevel": "high",
+      "firstSeen": "2026-10-16T07:11:35.991432+08:00",
+      "addedAt": "2026-10-16T07:11:35.991432+08:00",
+      "whatsNew": "本轮新：FIREWATER($FWTR) 自称明日 Programmable 发射；HQ 12h 暂停防狙击仍有效；暂无 CA。"
+    },
+    {
+      "id": "swarmcore",
+      "name": "SwarmCore",
+      "category": "NFT",
+      "chain": "Ethereum",
+      "status": "upcoming",
+      "mintStatus": "not_open",
+      "tags": [
+        "ETH",
+        "极早期",
+        "本轮新",
+        "小盘",
+        "WL"
+      ],
+      "flag": "本轮新",
+      "links": {
+        "x": "https://x.com/SwarmCoreIMD",
+        "site": "https://swarmcoreimd.xyz",
+        "mint": "https://opensea.io/collection/swarmcore",
+        "opensea": "https://opensea.io/collection/swarmcore",
+        "signal": "https://neverfuckingtrade.com/"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-16T14:00:00Z",
+        "endsAt": "2026-10-17T14:30:00Z",
+        "phases": [
+          {
+            "name": "WL",
+            "startsAt": "2026-10-16T14:00:00Z",
+            "endsAt": "2026-10-16T14:30:00Z",
+            "price": "0.0005 ETH",
+            "perWallet": 1
+          },
+          {
+            "name": "PUBLIC",
+            "startsAt": "2026-10-16T14:30:00Z",
+            "endsAt": "2026-10-17T14:30:00Z",
+            "price": "0.001 ETH",
+            "perWallet": 3
+          }
+        ],
+        "source": "neverfuckingtrade.com",
+        "note": "本轮新：SwarmCore ETH 555；WL 0.0005≈22:00 CST（仅30min）/ Public 0.001≈22:30 CST。"
+      },
+      "onchain": {
+        "chainId": "ethereum",
+        "contract": "0x68ee535f54d428ae8bf8d56f3de7076681526f86",
+        "standard": "erc721",
+        "mintStatus": "not_open",
+        "minted": 0,
+        "totalSupply": 0,
+        "maxSupply": 555,
+        "lastCheckedAt": "2026-10-16T07:11:35.991432+08:00",
+        "explorer": "https://opensea.io/collection/swarmcore",
+        "note": "0/555；WL尚未开"
+      },
+      "round": 42,
+      "scores": {
+        "early": 82,
+        "actionable": 74,
+        "novelty": 50,
+        "risk": 62,
+        "overall": 65
+      },
+      "highlights": [
+        "ETH 小盘 555，Trencher warm，当前 0 minted",
+        "WL 0.0005 ETH≈今日22:00–22:30 CST（30min）；Public 0.001 ETH≈22:30 CST",
+        "官链 x/官网/OS/合约已列"
+      ],
+      "drawbacks": [
+        "WL 仅30分钟，容错低",
+        "付费 mint，热度除 Trencher warm 外有限",
+        "团队背书信息有限，需自核"
+      ],
+      "risk": "小盘付费 ETH mint；WL 极短窗；核验合约。",
+      "earlyScore": 82,
+      "riskScore": 62,
+      "riskLevel": "medium",
+      "firstSeen": "2026-10-16T07:11:35.991432+08:00",
+      "addedAt": "2026-10-16T07:11:35.991432+08:00",
+      "whatsNew": "本轮新：SwarmCore（ETH）555 盘，WL 0.0005≈22:00 CST（30min）/ Public 0.001≈22:30 CST，0 minted。"
     }
   ]
 }
