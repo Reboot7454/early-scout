@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-16 01:03 CST",
+    "updated": "2026-10-16 01:11 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "early crypto scout rounds 1–12",
-    "lastScout": "2026-10-16T01:03:05.731846+08:00",
+    "source": "early crypto scout rounds 1–13",
+    "lastScout": "2026-10-16T01:11:16.160158+08:00",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -45,7 +45,7 @@
         "sushi-oft-rh",
         "zeromeme-fun"
       ],
-      "note": "本轮 @LayerZero_Core 仍推 USDG OFT 案例（Arbitrum 纳入）与此前 Blockaid Bridge Sentinel；无 Zero/ATLAS 官方开链或发射台日程。社区 @0xmeto_ 继续喊 Zero Chain testnet 并开非官方 TG。@omnisea 推 OFT/ONFT-as-a-service（含 $DRB）；@StargateFinance 上线 MemeCore $M OFT；@jumperapp 主推 perps 候补与 Base/Aave 活动。继续盯 Zero/ATLAS/OFT。"
+      "note": "本轮 @LayerZero_Core 仍只发 USDG OFT 案例（Arbitrum 纳入），无 Zero/ATLAS 官方开链或发射台日程。社区 @0xmeto_ 继续喊 Zero Chain testnet 并推非官方 TG。@omnisea 继续推 Shared OFT/ONFT-as-a-service（零部署跨链）。继续盯 Zero/ATLAS/OFT。"
     },
     "round5Added": [
       "farming-season",
@@ -99,6 +99,13 @@
       "robinlab",
       "unbuy-fun",
       "beacon-genesis"
+    ],
+    "round13Added": [
+      "pumpx",
+      "vampme-fun",
+      "fobo-fun",
+      "robinfinite",
+      "cracker-fun"
     ]
   },
   "candidates": [
@@ -1753,6 +1760,126 @@
         "early",
         "genesis"
       ]
+    },
+    {
+      "id": "pumpx",
+      "name": "PumpX",
+      "category": "新台",
+      "chain": "Solana",
+      "round": 13,
+      "riskLevel": "high",
+      "riskScore": 88,
+      "earlyScore": 96,
+      "flag": "极新",
+      "tags": [
+        "launchpad",
+        "Solana",
+        "social meme",
+        "day-zero"
+      ],
+      "whyWatch": "官推 @_PumpX_ 今日新建（约 16h 内）、仅 ~2 粉：自述 Solana 社交 meme 发射台（造梗→社区→铸币），仍停留预告帖、无独立站——极早期信息差。",
+      "background": "@_PumpX_ · 账号 2026-10-15 07:56 UTC 建；首发帖讲 Create/share memes → Launch/trade social coins → MemeChi。站点尚未解析到正式域名。",
+      "risk": "当日新号、零产品可验；同名仿盘与假站风险极高。只认官推后续 CA/站，勿提前授权。",
+      "links": {
+        "x": "https://x.com/_PumpX_",
+        "signal": "https://x.com/_PumpX_/status/2110777071408669039"
+      }
+    },
+    {
+      "id": "vampme-fun",
+      "name": "vampme",
+      "category": "新台",
+      "chain": "Solana",
+      "round": 13,
+      "riskLevel": "high",
+      "riskScore": 86,
+      "earlyScore": 93,
+      "flag": "极新",
+      "tags": [
+        "launchpad",
+        "Solana",
+        "vamp",
+        "pump"
+      ],
+      "whyWatch": "粘贴任意 Solana CA 生成「吸血孪生」副本（CA 以 vamp 结尾），创作者费叙事 70%；官推 ~21 粉、10-09 建号，站已 live——工具层极早期。",
+      "background": "@vampmefun · https://www.vampme.fun/ · 官推自挂平台 CA QdTQ6Kpx1Bpy1DPzrZ6zCVMBJG2t9PBAWJ9zas8pump；流量页链到 pump.fun。",
+      "risk": "极新产品、审计不明；「吸血」玩法易出同名诈骗与假站。先核验站与 CA 一致，勿重仓平台币。",
+      "links": {
+        "x": "https://x.com/vampmefun",
+        "site": "https://www.vampme.fun/",
+        "signal": "https://x.com/vampmefun/status/2110776311190831191"
+      }
+    },
+    {
+      "id": "fobo-fun",
+      "name": "FOBO",
+      "category": "新台",
+      "chain": "Robinhood Chain",
+      "round": 13,
+      "riskLevel": "high",
+      "riskScore": 78,
+      "earlyScore": 90,
+      "tags": [
+        "launchpad",
+        "RH",
+        "rising-floor",
+        "即将上线"
+      ],
+      "whyWatch": "RH 上 rising-floor 发射台仍写 Launching soon：官站 fobo.fun live、官推 ~412 粉（10-05 建号），社区开始推尚无正式开板——适合蹲首批发射。",
+      "background": "@fobodotfun · https://fobo.fun/ · TG t.me/fobodotfun；叙事 Fear of being obsolete / rising-floor，仍处开发预热。",
+      "risk": "未正式开板、机制未链上核验；RH 新台仿盘多。只认官推与 fobo.fun，勿提前打款。",
+      "links": {
+        "x": "https://x.com/fobodotfun",
+        "site": "https://fobo.fun/",
+        "signal": "https://x.com/cujanonchain/status/2110779924256567354"
+      }
+    },
+    {
+      "id": "robinfinite",
+      "name": "RobinFinite",
+      "category": "新台",
+      "chain": "Robinhood Chain",
+      "round": 13,
+      "riskLevel": "high",
+      "riskScore": 80,
+      "earlyScore": 88,
+      "tags": [
+        "launchpad",
+        "RH",
+        "permanent-curve",
+        "meme"
+      ],
+      "whyWatch": "RH 永久曲线 meme 发射台+DEX：官推仅 ~29 粉，站 robinfinite.com 已开；今日自推 100% Permanent Curve——粉极少、板面可早蹲。",
+      "background": "@RobinFinite0 · https://robinfinite.com/ · TG t.me/RobinInfinite；自述纯 bonding curve、无平台币叙事未核验。",
+      "risk": "粉丝极少、审计/锁仓未公开核验。先小额测交互与合约，勿把平台币当必涨。",
+      "links": {
+        "x": "https://x.com/RobinFinite0",
+        "site": "https://robinfinite.com/"
+      }
+    },
+    {
+      "id": "cracker-fun",
+      "name": "Cracker.Fun",
+      "category": "新台",
+      "chain": "Multi-chain",
+      "round": 13,
+      "riskLevel": "medium-high",
+      "riskScore": 68,
+      "earlyScore": 84,
+      "tags": [
+        "launchpad",
+        "US LLC",
+        "audit",
+        "no platform token"
+      ],
+      "whyWatch": "自称美国 LLC + Quill 审计、无平台币的发射台；@Crackerfun ~426 粉、站 cracker.fun / cracker.global live，今日仍在对标 Monad 式社区叙事——相对少见的合规向新台。",
+      "background": "@Crackerfun / @Cracker_Global · https://cracker.fun/ · 公示 US LLC ID 2026-002038811、退役空军创始人叙事；多链。",
+      "risk": "「合规/审计」需自核 Quill 报告与实体；粉不算隐形。勿因叙事降风险，仍高归零可能。",
+      "links": {
+        "x": "https://x.com/Crackerfun",
+        "site": "https://cracker.fun/",
+        "signal": "https://x.com/Cracker_Global/status/2110779391236014297"
+      }
     }
   ]
 }
