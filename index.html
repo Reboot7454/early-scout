@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#07090f" />
   <meta http-equiv="refresh" content="600" />
   <title>早期打新雷达 · Early Scout</title>
-  <meta name="description" content="高风险·非投资建议。早期加密打新候选雷达：新台 / Meme / NFT。" />
+  <meta name="description" content="高风险·非投资建议。早期加密打新候选雷达：新台 / Meme / NFT。含开售日程与链上 mint 盯盘。" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet" />
@@ -17,13 +17,13 @@
   <div class="app">
     <div class="disclaimer" role="status">
       <span class="ico">!</span>
-      <span>高风险·非投资建议 — 极早期默认可归零；仅作信息整理，不构成任何买卖建议。</span>
+      <span>高风险·非投资建议 — 极早期默认可归零；仅作信息整理，不构成任何买卖建议。DYOR。</span>
     </div>
 
     <header class="header">
       <div class="brand">
         <h1>早期打新雷达</h1>
-        <p class="sub">Early Crypto Scout · 新台 / Meme / NFT / <span class="lz-inline">LayerZero</span> 开链监控</p>
+        <p class="sub">Early Crypto Scout · 新台 / Meme / NFT / <span class="lz-inline">LayerZero</span> · 日程 / 链上盯盘</p>
       </div>
       <div class="meta-pills">
         <span class="pill">候选 <strong id="count">—</strong></span>
@@ -44,6 +44,14 @@
       </div>
     </section>
 
+    <section class="sched-soon" id="sched-soon" aria-label="即将开售" hidden>
+      <div class="sched-soon-head">
+        <span class="sched-soon-title">日程</span>
+        <span class="sched-soon-sub">最近确认 / 暂定开售</span>
+      </div>
+      <div class="sched-soon-list" id="sched-soon-list"></div>
+    </section>
+
     <section class="controls" aria-label="筛选与排序">
       <div class="controls-row">
         <div class="search-wrap">
@@ -54,11 +62,14 @@
           <label for="sort" class="visually-hidden" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">排序</label>
           <select id="sort" aria-label="排序">
             <option value="earlyness" selected>排序：早期程度</option>
+            <option value="overall">排序：综合评分</option>
+            <option value="schedule">排序：开售时间（近→远）</option>
             <option value="risk">排序：风险（高→低）</option>
             <option value="name">排序：名称</option>
           </select>
         </div>
       </div>
+      <div class="chips" id="sched-chips" aria-label="日程筛选"></div>
       <div class="chips" id="cat-chips" aria-label="品类筛选"></div>
       <div class="chips" id="chain-chips" aria-label="链筛选"></div>
       <div class="chips" id="round-chips" aria-label="轮次筛选"></div>
@@ -71,7 +82,7 @@
     </main>
 
     <footer class="footer">
-      Scout date 2026-10-15 · 数据来自 <code>data.json</code>（约每 10 分钟更新；刷新页面获取最新） · DYOR
+      Scout date 2026-10-15 · 数据来自 <code>data.json</code>（约每 10 分钟更新；刷新页面获取最新） · DYOR · 高风险
     </footer>
   </div>
   <script src="./app.js"></script>

@@ -570,3 +570,228 @@ a { color: inherit; text-decoration: none; }
   gap: 14px;
   text-align: left;
 }
+
+/* —— Schedule / onchain / scores —— */
+.sched-chip {
+  display: inline-block;
+  margin-left: 8px;
+  vertical-align: middle;
+  font-size: 0.68rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 999px;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+.sched-soon { background: rgba(251, 191, 36, 0.22); color: #fde68a; border: 1px solid rgba(251,191,36,0.45); }
+.sched-live { background: rgba(52, 211, 153, 0.2); color: #a7f3d0; border: 1px solid rgba(52,211,153,0.4); }
+.sched-ok { background: rgba(129, 140, 248, 0.16); color: #c7d2fe; border: 1px solid rgba(129,140,248,0.3); }
+.sched-tent { background: rgba(148, 163, 184, 0.14); color: #cbd5e1; border: 1px solid rgba(148,163,184,0.25); }
+.sched-tba { background: rgba(100, 116, 139, 0.2); color: #94a3b8; border: 1px solid rgba(100,116,139,0.3); }
+.sched-ended { background: rgba(71, 85, 105, 0.25); color: #64748b; border: 1px solid rgba(71,85,105,0.35); }
+
+.onchain-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  font-size: 0.78rem;
+  font-weight: 650;
+  color: #a5f3fc;
+  background: rgba(34, 211, 238, 0.08);
+  border: 1px solid rgba(34, 211, 238, 0.22);
+  border-radius: 10px;
+  padding: 6px 10px;
+}
+.onchain-line.status-open { color: #a7f3d0; border-color: rgba(52,211,153,0.35); background: rgba(52,211,153,0.08); }
+.onchain-line.status-sold_out { color: #fca5a5; border-color: rgba(248,113,113,0.35); background: rgba(248,113,113,0.08); }
+.onchain-line.status-not_open { color: #cbd5e1; }
+.onchain-dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: currentColor;
+  box-shadow: 0 0 8px currentColor;
+  flex-shrink: 0;
+}
+.onchain-link {
+  color: var(--accent-2);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.onchain-addr { color: var(--muted); font-family: ui-monospace, monospace; font-size: 0.72rem; }
+
+.chip.chip-sched.active {
+  background: linear-gradient(120deg, #fbbf24, #fb923c);
+  color: #0b1020;
+}
+
+.sched-soon {
+  margin-bottom: 14px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid rgba(251, 191, 36, 0.28);
+  background: linear-gradient(105deg, rgba(251,191,36,0.1), rgba(13,18,28,0.9));
+}
+.sched-soon-head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.sched-soon-title {
+  font-weight: 850;
+  font-size: 0.92rem;
+  color: #fde68a;
+}
+.sched-soon-sub { font-size: 0.75rem; color: var(--muted); }
+.sched-soon-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.sched-soon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  padding: 8px 11px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: rgba(17, 24, 39, 0.85);
+  color: var(--text);
+  cursor: pointer;
+  min-width: 120px;
+  max-width: 180px;
+  text-align: left;
+  transition: border-color 0.15s, transform 0.15s;
+}
+.sched-soon-item:hover {
+  border-color: rgba(251, 191, 36, 0.5);
+  transform: translateY(-1px);
+}
+.sched-soon-item.soon-alert {
+  border-color: rgba(248, 113, 113, 0.55);
+  box-shadow: 0 0 0 1px rgba(248, 113, 113, 0.25);
+}
+.ssi-name { font-size: 0.78rem; font-weight: 750; line-height: 1.25; }
+.ssi-when { font-size: 0.72rem; font-weight: 800; color: #fbbf24; }
+.ssi-status { font-size: 0.65rem; color: var(--faint); text-transform: uppercase; letter-spacing: 0.04em; }
+
+.card-flash {
+  outline: 2px solid rgba(251, 191, 36, 0.7);
+  box-shadow: 0 0 0 4px rgba(251, 191, 36, 0.2);
+}
+
+/* Score row */
+.score-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.score-overall {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  font-weight: 900;
+  font-size: 0.95rem;
+  color: #0b1020;
+  background: linear-gradient(135deg, #818cf8, #22d3ee);
+  flex-shrink: 0;
+}
+.score-overall.hi { background: linear-gradient(135deg, #34d399, #22d3ee); }
+.score-overall.mid { background: linear-gradient(135deg, #fbbf24, #fb923c); }
+.score-overall.lo { background: linear-gradient(135deg, #f87171, #fb923c); }
+.score-minis {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  flex: 1;
+}
+.score-mini {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 64px;
+  flex: 1 1 64px;
+  max-width: 90px;
+}
+.score-mini-label {
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: var(--faint);
+  letter-spacing: 0.04em;
+  display: flex;
+  justify-content: space-between;
+}
+.score-mini-bar {
+  height: 4px;
+  border-radius: 99px;
+  background: rgba(148, 163, 184, 0.18);
+  overflow: hidden;
+}
+.score-mini-fill {
+  height: 100%;
+  border-radius: 99px;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+}
+
+.whats-new {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  font-size: 0.8rem;
+  color: #e0e7ff;
+  background: rgba(99, 102, 241, 0.12);
+  border: 1px solid rgba(129, 140, 248, 0.3);
+  border-radius: 10px;
+  padding: 7px 10px;
+}
+.whats-new-badge {
+  flex-shrink: 0;
+  font-size: 0.65rem;
+  font-weight: 900;
+  padding: 2px 6px;
+  border-radius: 5px;
+  color: #0b1020;
+  background: linear-gradient(120deg, #818cf8, #f472b6);
+  letter-spacing: 0.02em;
+}
+
+.pros-cons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+@media (max-width: 520px) {
+  .pros-cons { grid-template-columns: 1fr; }
+}
+.pc-col {
+  border-radius: 10px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  background: rgba(0,0,0,0.18);
+}
+.pc-col.hi { border-color: rgba(52, 211, 153, 0.28); }
+.pc-col.lo { border-color: rgba(248, 113, 113, 0.28); }
+.pc-title {
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  margin-bottom: 4px;
+}
+.pc-col.hi .pc-title { color: #6ee7b7; }
+.pc-col.lo .pc-title { color: #fca5a5; }
+.pc-col ul {
+  margin: 0;
+  padding-left: 1.05em;
+  display: grid;
+  gap: 3px;
+}
+.pc-col li {
+  font-size: 0.78rem;
+  color: #cbd5e1;
+  line-height: 1.35;
+}
