@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#07090f" />
+  <meta http-equiv="refresh" content="600" />
+  <title>早期打新雷达 · Early Scout</title>
+  <meta name="description" content="高风险·非投资建议。早期加密打新候选雷达：新台 / Meme / NFT。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app">
+    <div class="disclaimer" role="status">
+      <span class="ico">!</span>
+      <span>高风险·非投资建议 — 极早期默认可归零；仅作信息整理，不构成任何买卖建议。</span>
+    </div>
+
+    <header class="header">
+      <div class="brand">
+        <h1>早期打新雷达</h1>
+        <p class="sub">Early Crypto Scout · 新台 / Meme / NFT / <span class="lz-inline">LayerZero</span> 开链监控</p>
+      </div>
+      <div class="meta-pills">
+        <span class="pill">候选 <strong id="count">—</strong></span>
+        <span class="pill">更新 <strong id="updated">—</strong> CST</span>
+        <span class="pill pill-lz" id="lz-pill" title="LayerZero 监控已开启">LayerZero 监控中</span>
+        <span class="pill">多轮合并</span>
+      </div>
+    </header>
+
+    <section class="lz-watch" id="lz-watch" aria-label="LayerZero 监控">
+      <div class="lz-watch-inner">
+        <div class="lz-badge-lg">LZ</div>
+        <div class="lz-watch-copy">
+          <div class="lz-watch-title">LayerZero 监控已开启</div>
+          <div class="lz-watch-desc" id="lz-watch-desc">盯 Zero 开链 · ATLAS venue · OFT 发射工具 · 生态 mint/积分（早期优先）</div>
+        </div>
+        <button type="button" class="lz-filter-btn" id="lz-filter-btn" data-group="layerzero" data-value="on">只看 LayerZero</button>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="筛选与排序">
+      <div class="controls-row">
+        <div class="search-wrap">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#94a3b8" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+          <input id="search" type="search" placeholder="搜索名称 / 链 / 关键词…" autocomplete="off" />
+        </div>
+        <div class="select-wrap">
+          <label for="sort" class="visually-hidden" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">排序</label>
+          <select id="sort" aria-label="排序">
+            <option value="earlyness" selected>排序：早期程度</option>
+            <option value="risk">排序：风险（高→低）</option>
+            <option value="name">排序：名称</option>
+          </select>
+        </div>
+      </div>
+      <div class="chips" id="cat-chips" aria-label="品类筛选"></div>
+      <div class="chips" id="chain-chips" aria-label="链筛选"></div>
+      <div class="chips" id="round-chips" aria-label="轮次筛选"></div>
+      <div class="chips" id="lz-chips" aria-label="LayerZero 筛选"></div>
+      <div class="stats-bar" id="stats"></div>
+    </section>
+
+    <main class="grid" id="grid" aria-live="polite">
+      <div class="empty">加载中…</div>
+    </main>
+
+    <footer class="footer">
+      Scout date 2026-10-15 · 数据来自 <code>data.json</code>（约每 10 分钟更新；刷新页面获取最新） · DYOR
+    </footer>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>

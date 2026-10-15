@@ -1,0 +1,1233 @@
+{
+  "meta": {
+    "title": "早期打新雷达",
+    "updated": "2026-10-16 00:21 CST",
+    "timezone": "Asia/Shanghai",
+    "disclaimer": "高风险·非投资建议",
+    "source": "early crypto scout rounds 1–8",
+    "lastScout": "2026-10-16T00:21:57.569010+08:00",
+    "round3Added": [
+      "standard-launchpad",
+      "standyfun",
+      "vaultstreet",
+      "the-squad"
+    ],
+    "round4Added": [
+      "tzero-launchpad",
+      "000-fun",
+      "0zero-fun",
+      "0z0-fun",
+      "howl-fi",
+      "1edge",
+      "bakeru",
+      "units-xreign"
+    ],
+    "layerZeroWatch": {
+      "active": true,
+      "label": "LayerZero 监控中",
+      "accounts": [
+        "@LayerZero_Core",
+        "@omnisea",
+        "@jumperapp",
+        "@StargateFinance"
+      ],
+      "focus": [
+        "Zero 开链",
+        "ATLAS venue",
+        "OFT 发射台",
+        "生态 mint/积分"
+      ],
+      "candidateIds": [
+        "omnisea",
+        "zero-chain",
+        "atlas-lz",
+        "jumper-jump",
+        "sushi-oft-rh",
+        "zeromeme-fun"
+      ],
+      "note": "过滤优先早期；非必须关注名单。开链/新台/OFT 工具优先于已成熟积分盘。"
+    },
+    "round5Added": [
+      "farming-season",
+      "minehood",
+      "toll-xyz"
+    ],
+    "round6Added": [
+      "zeromeme-fun",
+      "liquid-orion",
+      "topfloor-fun",
+      "esccap"
+    ],
+    "round7Added": [
+      "kindly-family",
+      "cool-punks",
+      "computers-rh",
+      "ink-bubble-cats"
+    ],
+    "round8Added": [
+      "streamoors",
+      "ghosts-among-us",
+      "ink-pirates",
+      "ink-sigil",
+      "ink-terminal",
+      "chroma-launch"
+    ]
+  },
+  "candidates": [
+    {
+      "id": "deep-launchondl",
+      "name": "DEEP / LaunchOnDL",
+      "category": "新台",
+      "chain": "Solana",
+      "round": 1,
+      "riskLevel": "medium",
+      "riskScore": 55,
+      "earlyScore": 62,
+      "whyWatch": "Solana 主网发射台+DeepSwap 已上线，持有者奖励与告警机器人齐全；早期平台积分/首发窗口仍在。",
+      "background": "2026-10-08 起 Launchpad 与 DeepSwap 上线主网，官推 @LaunchOnDL。",
+      "risk": "已有平台币与主网产品，热度上升后赔率变薄；审计仍规划中。",
+      "links": {
+        "x": "https://x.com/LaunchOnDL",
+        "site": "https://deepliquidity.fun/roadmap"
+      }
+    },
+    {
+      "id": "hookit",
+      "name": "Hookit",
+      "category": "新台",
+      "chain": "Ink",
+      "round": 1,
+      "riskLevel": "medium",
+      "riskScore": 52,
+      "earlyScore": 70,
+      "whyWatch": "Ink 上 Uniswap v4 可编程 hooks 发射台，可对股票代币/USDG 报价；机制差异化强，适合蹲首波自定义 hook 发射。",
+      "background": "双轨 Master/Classic 发射，LP 锁定、quote-only 手续费，文档与工厂合约已公开。",
+      "risk": "Ink 流量与 hook 复杂度并存；需核对工厂合约与模块冻结规则。",
+      "links": {
+        "x": "https://x.com/hookitfun",
+        "site": "https://www.hookit.fun/docs"
+      }
+    },
+    {
+      "id": "flipit-flipt",
+      "name": "Flipit / Flipt",
+      "category": "新台",
+      "chain": "Arc",
+      "round": 1,
+      "riskLevel": "medium",
+      "riskScore": 58,
+      "earlyScore": 68,
+      "whyWatch": "Arc 公平联合曲线：曲线买家成为 bonder，毕业后分池子手续费；Phase Ø NFT 已绑定测试网排名，主网叙事刚起。",
+      "background": "flipt.fun 主网可用；测试网曾拉 15 万+钱包，Phase Ø Gold/Silver/Bronze 灵魂绑定。",
+      "risk": "Arc 生态仍新；bonder 解绑有延迟但仍可砸盘，注意真实流动性与激励可持续性。",
+      "links": {
+        "x": "https://x.com/Fliptfun",
+        "site": "https://flipt.fun/"
+      }
+    },
+    {
+      "id": "gorz",
+      "name": "GORZ",
+      "category": "新台",
+      "chain": "Solana",
+      "round": 1,
+      "riskLevel": "high",
+      "riskScore": 72,
+      "earlyScore": 85,
+      "whyWatch": "从发射雷达做到自建发射台：bonding→毕业→Raydium→LP 锁路径已在 Devnet 跑通；多链路线图含 RH/BNB，极早期基建叙事。",
+      "background": "官推 @Gorzapp，强调 Shield 反狙击与生命周期取证；仍以 Devnet/本地验证为主。",
+      "risk": "产品未完全主网开台；执行与冷启动风险高，勿把 Devnet 演示当已上线。",
+      "links": {
+        "x": "https://x.com/Gorzapp",
+        "site": null
+      }
+    },
+    {
+      "id": "litpump",
+      "name": "LitPump",
+      "category": "新台",
+      "chain": "LitVM",
+      "round": 1,
+      "riskLevel": "high",
+      "riskScore": 78,
+      "earlyScore": 88,
+      "whyWatch": "Litecoin L2（LitVM）上许可less bonding curve，反狙击+85 zkLTC 毕业；台子几乎零数据=最大信息差窗口。",
+      "background": "litpump.fun 可创建代币；创作者分 50% 交易费，当前发射量/成交近乎为零。",
+      "risk": "流动性与用户几乎为空；L2/跨链资产路径需自验，默认高归零概率。",
+      "links": {
+        "x": null,
+        "site": "https://www.litpump.fun/"
+      }
+    },
+    {
+      "id": "donk",
+      "name": "$DONK",
+      "category": "Meme",
+      "chain": "Solana",
+      "round": 1,
+      "riskLevel": "high",
+      "riskScore": 80,
+      "earlyScore": 82,
+      "whyWatch": "自称 2026-11-01 Pump.fun 公平发射，CA 未开；无预售/无团队仓叙事+自带 CA Verify 工具，适合蹲开盘瞬间。",
+      "background": "donkofficial.com 倒计时与 DONK 15 社区招募中；多生态页（发射/验合约）偏营销完整。",
+      "risk": "仿盘/同名币极多；只认官宣 CA，默认土狗高 rug；开盘即博弈。",
+      "links": {
+        "x": "https://x.com/DonkOnSol",
+        "site": "https://donkofficial.com/"
+      }
+    },
+    {
+      "id": "embervale",
+      "name": "Embervale",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "round": 1,
+      "riskLevel": "medium",
+      "riskScore": 60,
+      "earlyScore": 74,
+      "whyWatch": "RH 像素农耕游戏 NFT，白名单可发帖申请免费 mint；$EMBER/游戏未开=纯早期蹲点。",
+      "background": "embervalegame.com，官推 @Embervale_；玩法含种田/钓鱼/战斗与销毁通缩叙事。",
+      "risk": "游戏与代币均 SOON；WL 交互注意假站，链上收益未验证。",
+      "links": {
+        "x": "https://x.com/Embervale_",
+        "site": "https://www.embervalegame.com/"
+      }
+    },
+    {
+      "id": "cabal",
+      "name": "Cabal",
+      "category": "NFT",
+      "chain": "Ethereum",
+      "round": 1,
+      "riskLevel": "medium",
+      "riskScore": 58,
+      "earlyScore": 65,
+      "whyWatch": "Hushpuppies 创世 1000 枚绑定 cabal 社交交易；$CABAL 周赛分润叙事，适合蹲 genesis mint/流动性锁细节。",
+      "background": "cabal.cooking：WL 0.1 ETH，公开荷兰拍；mint ETH 用于锁 $CABAL 流动性。",
+      "risk": "机制复杂（拍卖/周赛/衰减费率）；需核合约与死地址销毁是否真实。",
+      "links": {
+        "x": "https://x.com/CabalNFT",
+        "site": "https://cabal.cooking/token"
+      }
+    },
+    {
+      "id": "inkbots",
+      "name": "Inkbots",
+      "category": "NFT",
+      "chain": "Ink",
+      "round": 1,
+      "riskLevel": "medium",
+      "riskScore": 62,
+      "earlyScore": 78,
+      "whyWatch": "Ink 链限量 888 涂鸦/亚文化角色 NFT，GTD 名额开放中；小供给+链注意力上升，mint 前窗口短。",
+      "background": "@InkbotsNFT 称即将上线 Ink；主打街头喷漆风格而非模板 PFP。",
+      "risk": "仅认官推置顶 mint 链接；小盘易被刷量/假 GTD 表单钓鱼。",
+      "links": {
+        "x": "https://x.com/InkbotsNFT",
+        "site": null
+      }
+    },
+    {
+      "id": "fungolabs",
+      "name": "FungoLabs",
+      "category": "NFT",
+      "chain": "Ethereum",
+      "round": 1,
+      "riskLevel": "medium",
+      "riskScore": 50,
+      "earlyScore": 72,
+      "whyWatch": "Zama FHE 加密 NFT 创世：3232 枚、500 免费 WL；本质属性链上加密仅 holder 可见，叙事稀缺。",
+      "background": "fungolabs.org；WL 用 X 申请、mint 前才绑钱包；付费档用 cZAMA。",
+      "risk": "技术门槛高；勿提前连钱包；售卖细节未全公开。",
+      "links": {
+        "x": "https://x.com/FungoLabs",
+        "site": "https://fungolabs.org/"
+      }
+    },
+    {
+      "id": "fomies",
+      "name": "Fomies",
+      "category": "NFT",
+      "chain": "TBA",
+      "round": 1,
+      "riskLevel": "high",
+      "riskScore": 70,
+      "earlyScore": 76,
+      "whyWatch": "「Department of Fomo」互动型预热，免费 mint  waitlist/活动活跃；官推互动极高，适合盯突然官宣链+时间。",
+      "background": "@FomiesNFT（认证）；社区任务与 Grok 互动拉新，合约/链尚未钉死。",
+      "risk": "信息偏营销；无链无合约时参与表单需防钓鱼，默认高不确定性。",
+      "links": {
+        "x": "https://x.com/FomiesNFT",
+        "site": null
+      }
+    },
+    {
+      "id": "afterflow",
+      "name": "Afterflow",
+      "category": "NFT",
+      "chain": "Ethereum",
+      "round": 1,
+      "riskLevel": "medium",
+      "riskScore": 48,
+      "earlyScore": 60,
+      "whyWatch": "disorderly 几何生成艺术免费 mint（+gas），2026-10-26 开放；可烧 5 换更稀有 Afterimage，预 mint 日历清晰。",
+      "background": "afterflow.disorderly.ai；AL 11:00 EDT / Public 13:00 EDT，供给 1 万、每钱包限 5。",
+      "risk": "艺术向二次流动性不确定；只等官宣合约，防假 mint 页。",
+      "links": {
+        "x": "https://x.com/disorderly_AI",
+        "site": "https://afterflow.disorderly.ai/mint.html"
+      }
+    },
+    {
+      "id": "liquid-apes",
+      "name": "Liquid Apes",
+      "category": "NFT",
+      "chain": "Ethereum",
+      "round": 1,
+      "riskLevel": "extreme",
+      "riskScore": 92,
+      "earlyScore": 55,
+      "whyWatch": "「流动性内置」叙事+免费「NOT THE LIQUID APES」引流 WL；若真 mint 有短线博弈，但域名/仿盘风险被重点标记。",
+      "background": "@LiquidApeNFTs；宣称 10k×0.08 ETH、部分 LP 锁；另有大量同名/混淆 OpenSea 活动。",
+      "risk": "⚠️ 高域名风险：假站/撞名/引流 mint 极多；仅官推核对，默认当高危。",
+      "flag": "high_domain_risk",
+      "links": {
+        "x": "https://x.com/LiquidApeNFTs",
+        "site": null
+      }
+    },
+    {
+      "id": "playonmint",
+      "name": "PlayOnMint",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "round": 1,
+      "riskLevel": "medium-high",
+      "riskScore": 68,
+      "earlyScore": 58,
+      "whyWatch": "RH 免费 Bear mint + $MNTD 空投/盲盒叙事；有一定热度但信息混杂，列入边缘观察。",
+      "background": "@PlayOnMint；WL/FCFS 指向 nft.getminted.io 等页面。",
+      "risk": "边缘档：域名与空投话术需严格核验；可能已过最佳「极早期」窗口。",
+      "flag": "borderline",
+      "links": {
+        "x": "https://x.com/PlayOnMint",
+        "site": "https://nft.getminted.io"
+      }
+    },
+    {
+      "id": "fairhatch",
+      "name": "FairHatch",
+      "category": "新台",
+      "chain": "Robinhood Chain",
+      "round": 2,
+      "riskLevel": "high",
+      "riskScore": 74,
+      "earlyScore": 86,
+      "whyWatch": "粉极低、仍在公开建设的 RH「反机器人」公平发射台；RH 叙事热时新台常有首发/白名单红利。",
+      "background": "@FairHatch · ~42 粉 · 账号约 2026-09-12；强调 anti-bot、透明、管理员不先私信。",
+      "risk": "可能永远不点火；无审计。看官网/合约是否开源与 testnet 实盘。",
+      "links": {
+        "x": "https://x.com/FairHatch",
+        "site": null
+      }
+    },
+    {
+      "id": "lumyth",
+      "name": "Lumyth",
+      "category": "新台",
+      "chain": "Robinhood Chain",
+      "round": 2,
+      "riskLevel": "extreme",
+      "riskScore": 90,
+      "earlyScore": 95,
+      "whyWatch": "账号约 2 天、十余粉，刚发 RH 发射合约部署帖——典型「合约先于产品」极早期，UI 上线或有首波试发。",
+      "background": "@Lumyth_；自称 Blockscout 部分验证，下一步接 launch flow / 交易界面。",
+      "risk": "极高归零/跑路风险；先核合约 owner/可升级性，勿 FOMO 大仓。",
+      "links": {
+        "x": "https://x.com/Lumyth_",
+        "site": null
+      }
+    },
+    {
+      "id": "socialfy",
+      "name": "Socialfy",
+      "category": "新台",
+      "chain": "Robinhood Chain",
+      "round": 2,
+      "riskLevel": "high",
+      "riskScore": 76,
+      "earlyScore": 84,
+      "whyWatch": "社交影响力发射台，bio 明确 CA not live yet；社交+发射契合 RH/代理经济预热画像。",
+      "background": "@socialdotfun_ · ~581 粉 · 约 2026-10-03；Powered by X 叙事。",
+      "risk": "产品/合约未充分公开；CA 公布时防预埋与假冒。",
+      "links": {
+        "x": "https://x.com/socialdotfun_",
+        "site": null
+      }
+    },
+    {
+      "id": "merryforge",
+      "name": "MerryForge",
+      "category": "新台",
+      "chain": "Robinhood Chain",
+      "round": 2,
+      "riskLevel": "high",
+      "riskScore": 70,
+      "earlyScore": 80,
+      "whyWatch": "固定供应+bonding curve+毕业锁 LP，且创建者交可退 USDG bond 约束 rug；台子仍极冷=蹲早期发射更便宜。",
+      "background": "@MerryForge · merryforge.app；站内总筹集约 $13k 级、发射次数极少。",
+      "risk": "冷启动可能失败；核 LP 锁与 bond 是否真可退。",
+      "links": {
+        "x": "https://x.com/MerryForge",
+        "site": "https://www.merryforge.app/"
+      }
+    },
+    {
+      "id": "raisehood",
+      "name": "RaiseHood",
+      "category": "新台",
+      "chain": "Robinhood Chain",
+      "round": 2,
+      "riskLevel": "medium-high",
+      "riskScore": 66,
+      "earlyScore": 75,
+      "whyWatch": "固定价 raise，可用 ETH/USDG/TSLA·AAPL 等股票代币认购；未达标全额退款，适合蹲即将开盘名单。",
+      "background": "@RaiseHood · raisehood.xyz；称无平台币，成功则锁 LP ~69 年。",
+      "risk": "固定价易被机器人抢额；只参与有明确 soft/hard cap 与退款路径的场次。",
+      "links": {
+        "x": "https://x.com/RaiseHood",
+        "site": "https://raisehood.xyz/"
+      }
+    },
+    {
+      "id": "robinseed",
+      "name": "RobinSeed",
+      "category": "新台",
+      "chain": "Robinhood Chain",
+      "round": 2,
+      "riskLevel": "extreme",
+      "riskScore": 88,
+      "earlyScore": 93,
+      "whyWatch": "粉丝近乎为零的 RH 全栈预售/公平发射；$SEED 与 stake/burn/bridge 套件叙事，信息差最大。",
+      "background": "@robinseedxyz · robinseed.xyz；站点称多合约已验证，材料仍可能混 testnet。",
+      "risk": "极高执行风险；用 Blockscout 核对是否真 mainnet，勿轻信预售软顶。",
+      "links": {
+        "x": "https://x.com/robinseedxyz",
+        "site": "https://robinseed.xyz/"
+      }
+    },
+    {
+      "id": "wormbook",
+      "name": "Wormbook / Agent Wormhole",
+      "category": "新台",
+      "chain": "Robinhood Chain",
+      "round": 2,
+      "riskLevel": "medium-high",
+      "riskScore": 64,
+      "earlyScore": 77,
+      "whyWatch": "今日宣布 Wormbook live：AI agent+人类发射/交易层，发射时扫描隐藏指令防 prompt injection——独特 infra 叙事。",
+      "background": "@agentwormhole · ~3.4k 粉；定位 agentic finance 安全层。",
+      "risk": "刚上线需验证扫描是否可绕过；agent 叙事过热后可能冷却。",
+      "links": {
+        "x": "https://x.com/agentwormhole",
+        "site": null
+      }
+    },
+    {
+      "id": "bitbt-pump",
+      "name": "BitBT Pump",
+      "category": "新台",
+      "chain": "BNB Chain",
+      "round": 2,
+      "riskLevel": "high",
+      "riskScore": 82,
+      "earlyScore": 79,
+      "whyWatch": "BNB 全生命周期 meme 台（反狙击+曲线+毕业锁 LP+永续叙事）；中文区推种子/空投表单，积分窗口需盯。",
+      "background": "推广多指向 @0xCryptolin（BitBT Ventures）；KOL 集中转发呈营销战役特征。",
+      "risk": "付费宣发风险高；核官网与可发射产品，种子表单防钓鱼。",
+      "links": {
+        "x": "https://x.com/0xCryptolin",
+        "site": null
+      }
+    },
+    {
+      "id": "sky-island",
+      "name": "SKY ISLAND",
+      "category": "Meme",
+      "chain": "Solana",
+      "round": 2,
+      "riskLevel": "extreme",
+      "riskScore": 95,
+      "earlyScore": 98,
+      "whyWatch": "零粉+当日新建号+Website/CA coming soon；自称 Fly-to-Earn ~98%，最「早」档 game-meme。",
+      "background": "@PlaySkyIsland · 2026-10-15 当日号；受 CryptoPlanes 启发，赚 $SKY。",
+      "risk": "极像赶工土狗/仿盘；等官网、demo、CA、锁仓再定，默认高 rug。",
+      "links": {
+        "x": "https://x.com/PlaySkyIsland",
+        "site": null
+      }
+    },
+    {
+      "id": "rorschach-ink",
+      "name": "Rorschach on Ink",
+      "category": "NFT",
+      "chain": "Ink",
+      "round": 2,
+      "riskLevel": "medium-high",
+      "riskScore": 65,
+      "earlyScore": 87,
+      "whyWatch": "账号约 2 天、444 枚墨迹测验生成 NFT，mint TBA；Ink NFT 日历薄，早期 mint 溢价空间更大。",
+      "background": "@RorschachonINK · ~581 粉；心理/代码生成艺术向。",
+      "risk": "艺术向无实用；确认 mint 合约与官推一致，防假 mint。",
+      "links": {
+        "x": "https://x.com/RorschachonINK",
+        "site": null
+      }
+    },
+    {
+      "id": "unpaid-nft",
+      "name": "Unpaid NFT",
+      "category": "NFT",
+      "chain": "TBA",
+      "round": 2,
+      "riskLevel": "extreme",
+      "riskScore": 88,
+      "earlyScore": 90,
+      "whyWatch": "极简 stealth free mint，信息真空本身是玩法；粉低，若突然官宣链+时间，跟得上的人少。",
+      "background": "@Unpaid_NFT · ~280 粉；bio: Free Mint. Soon. 「Those That Bet On Nothing」。",
+      "risk": "无产品=纯博傻；只盯官推，默认可能永远不 mint。",
+      "links": {
+        "x": "https://x.com/Unpaid_NFT",
+        "site": null
+      }
+    },
+    {
+      "id": "orcs-on-ink",
+      "name": "Orcs on Ink",
+      "category": "NFT",
+      "chain": "Ink",
+      "round": 2,
+      "riskLevel": "medium",
+      "riskScore": 54,
+      "earlyScore": 70,
+      "whyWatch": "EtherOrcs 致敬免费 mint（约 Oct 15 WL→Public），Ink 注意力日+情怀；明确无代币降预期。",
+      "background": "@OrcsOnINK · orcs.ink · ~612 粉；供给约 1550。",
+      "risk": "fan 项目二次销售弱；过今日窗口即变二手博弈，核 OS 官方 collection。",
+      "links": {
+        "x": "https://x.com/OrcsOnINK",
+        "site": "https://orcs.ink"
+      }
+    },
+    {
+      "id": "standard-launchpad",
+      "name": "Standard Reserve Launchpad",
+      "category": "新台",
+      "chain": "Robinhood Chain",
+      "round": 3,
+      "riskLevel": "medium-high",
+      "riskScore": 68,
+      "earlyScore": 72,
+      "whyWatch": "今日确认股票代币配对发射台已上线：可配 $SPCX/$BABA/$SKHY；约 22h 内发 1402 币、仅约 16 毕业——信息差在「扫毕业前」与 Charter 空投规则。",
+      "background": "@standard_rsv 主站发射模块；美股/A股/韩股链上股配对是 RH 独特叙事。粉约 3.4 万，台子本身不「隐形」，但首日洪水期仍可蹲早期毕业币。",
+      "risk": "已 live、发射量极高=捆绑盘/串发开发者多；毕业率极低，勿盲目跟曲线，核 LP/持仓集中度。",
+      "links": {
+        "x": "https://x.com/standard_rsv",
+        "site": null
+      }
+    },
+    {
+      "id": "standyfun",
+      "name": "standy.fun",
+      "category": "新台",
+      "chain": "Robinhood Chain",
+      "round": 3,
+      "riskLevel": "extreme",
+      "riskScore": 88,
+      "earlyScore": 94,
+      "whyWatch": "账号约 1 天、~40 粉：在 Standard 股票配对发射之上叠 7 个 AI agent（研究/建站/运营）——典型「工具层极早期」，产品一开可能有首发积分/试用窗口。",
+      "background": "@standyfun · standy.fun；叙事为 launch stock-paired token → 配 AI 运营团队。",
+      "risk": "极高执行/归零风险；可能只是概念页。等可交互产品与真实发射案例再加仓级参与。",
+      "links": {
+        "x": "https://x.com/standyfun",
+        "site": "https://standy.fun"
+      }
+    },
+    {
+      "id": "vaultstreet",
+      "name": "Vault Street",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "round": 3,
+      "riskLevel": "medium-high",
+      "riskScore": 66,
+      "earlyScore": 78,
+      "whyWatch": "RH 银行大亨 idle 游戏，1000 枚免费 mint 收藏品尚未开 mint；早鸟申请/WL 开放，称 6500+ 已报名，top 50 推荐人拿免费 mint——适合蹲官宣合约瞬间。",
+      "background": "@VaultStreet_rh · vaultstreet.fun · 约 Oct 10 号、~7.4k 粉；玩法含开分行/资产/银行等级。",
+      "risk": "互动拉新猛、粉涨快，窗口在缩；只认官推确认的 mint 合约，防假 apply 页盗钱包。",
+      "links": {
+        "x": "https://x.com/VaultStreet_rh",
+        "site": "https://vaultstreet.fun/"
+      }
+    },
+    {
+      "id": "the-squad",
+      "name": "The Squad",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "round": 3,
+      "riskLevel": "high",
+      "riskScore": 74,
+      "earlyScore": 81,
+      "whyWatch": "今日刚开 FCFS 申请，mint 时间仍 TBA；角色向小队 PFP，粉约 4.6k、信息仍偏预热——适合盯突然官宣链上 mint。",
+      "background": "@TheSquadNFT · 约 2026-09-27；GTD/FCFS 表单轮流开，给过小额 GTD 抽奖。",
+      "risk": "艺术品/实用未钉死；表单钓鱼常见，勿提前授权；默认高不确定性。",
+      "links": {
+        "x": "https://x.com/TheSquadNFT",
+        "site": null
+      }
+    },
+    {
+      "id": "omnisea",
+      "name": "Omnisea",
+      "category": "新台",
+      "chain": "LayerZero",
+      "tags": [
+        "LayerZero",
+        "OFT",
+        "ONFT",
+        "发射工具"
+      ],
+      "round": 4,
+      "riskLevel": "medium-high",
+      "riskScore": 64,
+      "earlyScore": 83,
+      "whyWatch": "LayerZero OFT/ONFT 一键发射层：把任意既有代币变成全链 OFT，零部署 Shared OFT Network；刚支持 Agent（Bankr）从 X 创建桥接，并点名即将接 Zero / Abstract / RH。打新窗口在「首批用它上链的 meme/RWA」而非平台币本身。",
+      "background": "@omnisea · omnisea.io · ~12.7万粉；从 NFT Launchpad 转成 permissionless OFT-as-a-Service。近几日推 $DRB→OFT、RH 转账示例、xStocks RWA 叙事；文档含 LayerZero 路由与 DVN 配置。",
+      "risk": "工具层≠保证赚钱；假桥/钓鱼页多。先核官方 UI 与合约路由，勿把「可跨链」当安全性。平台已有一定体量，赔率在早期用户发射币。",
+      "links": {
+        "x": "https://x.com/omnisea",
+        "site": "https://www.omnisea.io/"
+      }
+    },
+    {
+      "id": "zero-chain",
+      "name": "Zero Chain",
+      "category": "新台",
+      "chain": "Zero",
+      "tags": [
+        "LayerZero",
+        "新链",
+        "ZRO",
+        "开链"
+      ],
+      "round": 4,
+      "riskLevel": "medium",
+      "riskScore": 58,
+      "earlyScore": 88,
+      "whyWatch": "LayerZero 自建高性能 L1「Zero」：与 Citadel Securities / DTCC / ARK / ICE 叙事绑定，ZRO 作 gas/质押。开链前后通常有生态首发台、测试网积分、OFT 资产迁入窗口——当前仍未公开主网开闸，是最该盯的 LayerZero 链级事件。",
+      "background": "2026-02 官宣 Zero；官推 @LayerZero_Core。社区与研究帖持续讨论 Zero Zone、后量子/高性能架构；主网日期仍 TBA。",
+      "risk": "大叙事≠立刻有可打新台；假「Zero 测试网」钓鱼极多。只跟 @LayerZero_Core / layerzero.network 官宣，勿交测试币到陌生桥。",
+      "links": {
+        "x": "https://x.com/LayerZero_Core",
+        "site": "https://layerzero.network/"
+      }
+    },
+    {
+      "id": "atlas-lz",
+      "name": "ATLAS",
+      "category": "新台",
+      "chain": "Zero",
+      "tags": [
+        "LayerZero",
+        "ATLAS",
+        "交易所基建",
+        "开链"
+      ],
+      "round": 4,
+      "riskLevel": "medium",
+      "riskScore": 55,
+      "earlyScore": 80,
+      "whyWatch": "跑在 Zero 上的无头交易所基建（撮合/清算/结算/风控一体），官宣「今年稍后」上线；真正打新点是第一批挂接 ATLAS 的交易前端/venue，而不是自己当 CEX。开链+开市双事件值得提前建关注清单。",
+      "background": "2026-08-25 LayerZero 发布 ATLAS；无自有前端，venue 自建入口并抽成。宣称亚毫秒延迟、启动约 20 万 TPS，75% 交易费回购销毁 ZRO。",
+      "risk": "基建层上线节奏可能延后；早期 venue 质量参差。等可验证的 venue 名单与合约，再谈参与激励/积分。",
+      "links": {
+        "x": "https://x.com/LayerZero_Core",
+        "site": "https://layerzero.network/atlas"
+      }
+    },
+    {
+      "id": "jumper-jump",
+      "name": "Jumper / $JUMP",
+      "category": "新台",
+      "chain": "LayerZero",
+      "tags": [
+        "LayerZero",
+        "Jumper",
+        "空投",
+        "Perps"
+      ],
+      "round": 4,
+      "riskLevel": "medium-high",
+      "riskScore": 62,
+      "earlyScore": 58,
+      "flag": "borderline",
+      "whyWatch": "LayerZero 生态跨链超级应用：今日前后开 Jumper Perps 候补（2.5k WL + 2.5k Pass），打出 $JUMP 激励与周奖池；XP/积分与 TGE 传闻仍在发酵。偏「中后期积分」但仍有可操作窗口。",
+      "background": "@jumperapp · ~21.8万粉；桥+Earn+即将 Perps。社区热议 XP cutoff 与 $JUMP；官推未钉死空投规则。",
+      "risk": "用户量已大、Sybil 严重；CEO 曾淡化空投预期。默认积分贬值，只小成本交互，核官方 perps 入口防假站。",
+      "links": {
+        "x": "https://x.com/jumperapp",
+        "site": "https://jumper.exchange/"
+      }
+    },
+    {
+      "id": "sushi-oft-rh",
+      "name": "Sushi × LayerZero (RH)",
+      "category": "新台",
+      "chain": "Robinhood Chain",
+      "tags": [
+        "LayerZero",
+        "OFT",
+        "Sushi",
+        "RH"
+      ],
+      "round": 4,
+      "riskLevel": "medium",
+      "riskScore": 52,
+      "earlyScore": 66,
+      "whyWatch": "Sushi 用 LayerZero OFT 把资产逐个迁入 Robinhood Chain（已从 $HYPE 起步），并开放 Sushi Launch 在 RH 建池发射。盯「下一只 OFT 资产」与 Launch 首发名单，比追已上线 HYPE 更早。",
+      "background": "2026-10-08 @LayerZero_Core / @SushiSwap 官宣；$HYPE 已可在 RH 交易/加池。叙事是多资产 OFT 管道，非单次活动。",
+      "risk": "管道已公开=信息差变薄；发射币仍可能是土狗。只跟 Sushi/LayerZero 官推资产列表，防假 OFT 合约。",
+      "links": {
+        "x": "https://x.com/SushiSwap",
+        "site": "https://www.sushi.com/"
+      }
+    },
+    {
+      "id": "tzero-launchpad",
+      "name": "Tzero",
+      "category": "新台",
+      "chain": "Zero (LayerZero)",
+      "round": 4,
+      "riskLevel": "high",
+      "riskScore": 72,
+      "earlyScore": 92,
+      "whyWatch": "自称 Zero Chain（LayerZero）首个发射台且「Live on Zero mainnet」：单笔一键发币+首买防狙击，bonding→TzeroSwap 毕业、LP 烧死地址；平台币 $T0=Mission 000。正好踩用户单独盯的 LayerZero 开链窗口。",
+      "background": "@T0dotfun · ~502 粉 · 约 2026-10-05；10-13 发过完整 mission 机制帖。手续费硬编码 1%（团队50/质押30/创作者20）。",
+      "risk": "Zero 主网/产品成熟度需自验；官方叙事「live」≠可大规模打新。假站与仿盘会多，只认官推。",
+      "links": {
+        "x": "https://x.com/T0dotfun",
+        "site": null
+      }
+    },
+    {
+      "id": "000-fun",
+      "name": "000.fun",
+      "category": "新台",
+      "chain": "LayerZero / Zero",
+      "round": 4,
+      "riskLevel": "extreme",
+      "riskScore": 86,
+      "earlyScore": 96,
+      "whyWatch": "账号约 1 天、站上写 Coming soon / 0 发射 0 成交——LayerZero 叙事发射台里最「早」的密封页之一，适合蹲解封与首波积分/试发。",
+      "background": "@000dotfun · ~254 粉 · 约 2026-10-14；站点 000.fun 自称 built on LayerZero，三文件密封至 launch。",
+      "risk": "无产品无合约；可能永远不点火。解封时防假镜像域名。",
+      "links": {
+        "x": "https://x.com/000dotfun",
+        "site": "https://000.fun"
+      }
+    },
+    {
+      "id": "0zero-fun",
+      "name": "0Zero",
+      "category": "新台",
+      "chain": "Zero (LayerZero)",
+      "round": 4,
+      "riskLevel": "extreme",
+      "riskScore": 88,
+      "earlyScore": 94,
+      "whyWatch": "Zero 生态 meme 发射台预热页，粉约百级、发射日 TBA；LayerZero/Zero 开链前后这类台子常有首发窗口。",
+      "background": "@0Zero_Fun · ~137 粉 · 约 2026-10-10；0zero.fun 明确「upcoming meme launchpad for the Zero ecosystem」。",
+      "risk": "纯预热；社区频道未开。默认高归零/不交付风险。",
+      "links": {
+        "x": "https://x.com/0Zero_Fun",
+        "site": "https://0zero.fun"
+      }
+    },
+    {
+      "id": "0z0-fun",
+      "name": "0z0",
+      "category": "新台",
+      "chain": "LayerZero",
+      "round": 4,
+      "riskLevel": "extreme",
+      "riskScore": 90,
+      "earlyScore": 93,
+      "whyWatch": "极简「A launchpad on LayerZero」落地页+零推文账号，粉约 300；信息真空本身是早期信号，开台瞬间跟的人少。",
+      "background": "@0z0_Fun · ~303 粉 · 约 2026-10-11；站点 0z0.fun 几乎无内容。",
+      "risk": "可能只是占坑号；无审计无机制说明。等可交互产品再参与。",
+      "links": {
+        "x": "https://x.com/0z0_Fun",
+        "site": "https://0z0.fun/"
+      }
+    },
+    {
+      "id": "howl-fi",
+      "name": "Howl",
+      "category": "新台",
+      "chain": "Robinhood Chain",
+      "round": 4,
+      "riskLevel": "medium-high",
+      "riskScore": 64,
+      "earlyScore": 76,
+      "whyWatch": "今日路线图确认 Launchpad 已 live，并在建 RH 池子收益/气泡图；偏交易终端+发射，适合蹲站内首发与 Season 费用池。",
+      "background": "@howldotfi · ~581 粉 · 约 2026-09-26；howl.fi；$HOWL CA 已在 Blockscout 验证（官推公布）。",
+      "risk": "产品面广不等于发射赔率高；核 CA 与假扩展。平台币已出=部分热度前置。",
+      "links": {
+        "x": "https://x.com/howldotfi",
+        "site": "https://howl.fi"
+      }
+    },
+    {
+      "id": "1edge",
+      "name": "1EDGE",
+      "category": "新台",
+      "chain": "Multi / Robinhood Chain",
+      "round": 4,
+      "riskLevel": "high",
+      "riskScore": 70,
+      "earlyScore": 78,
+      "whyWatch": "Human-first 反抽取发射台，另规划 EDGEstocks（RH 股票挂钩币模式）；多链+赛季奖 $1EDGE，适合盯股票币发射窗口。",
+      "background": "@1EdgeHQ · ~861 粉 · 1edge.app 可开；叙事 anti-extraction / social-fi。",
+      "risk": "竞品多、执行不确定；确认 EDGEstocks 是否真上 RH 再加大仓位预期。",
+      "links": {
+        "x": "https://x.com/1EdgeHQ",
+        "site": "https://1edge.app"
+      }
+    },
+    {
+      "id": "bakeru",
+      "name": "BAKERU / Not Human Club",
+      "category": "NFT",
+      "chain": "Solana",
+      "round": 4,
+      "riskLevel": "medium-high",
+      "riskScore": 62,
+      "earlyScore": 80,
+      "whyWatch": "今日中文区开始推：免费 mint 申请刚开、mint 日 TBA；挂在动画工作室叙事下，适合蹲官宣合约瞬间。",
+      "background": "@bakeruip · ~1.3 万粉；bakeruip.com 显示 Free Mint / NFT / TGE 均为 Solana、日期 TBA。需 DC 交地址。",
+      "risk": "粉不算隐形；表单/DC 钓鱼常见。只认官推与官网，勿提前授权。",
+      "links": {
+        "x": "https://x.com/bakeruip",
+        "site": "https://bakeruip.com"
+      }
+    },
+    {
+      "id": "units-xreign",
+      "name": "UNITS (XREIGN)",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "round": 4,
+      "riskLevel": "medium-high",
+      "riskScore": 68,
+      "earlyScore": 71,
+      "whyWatch": "5555 LED 机器人免费 mint，名单约 Oct 16 截止；称 UNITS holder 拿 5% $REIGN——时间窗很短，适合今晚/明早核对名单规则。",
+      "background": "@xreign_app · 粉量很大（约 17 万）；项目本身不「隐形」，但名单截止在即，错过=无票。",
+      "risk": "母项目热度高≠ mint 公平；大量刷名单机器人。只走官宣链接，防假 apply。",
+      "flag": "time_sensitive",
+      "links": {
+        "x": "https://x.com/xreign_app",
+        "site": "https://xreign.app"
+      }
+    },
+    {
+      "id": "farming-season",
+      "name": "Farming Season",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "round": 5,
+      "riskLevel": "medium-high",
+      "riskScore": 66,
+      "earlyScore": 84,
+      "whyWatch": "RH 首个 RWA 定价农耕游戏：金银油跟真实市场价；waitlist 已过 2k、Season 1/战斗模式预热中，CA Soon——适合蹲白名单/免费 mint 官宣瞬间。",
+      "background": "@farmingseasonio · 约 2026-10-10 · ~2.9k 粉；今日仍在推 waitlist 与每日战斗预告。中文区 free mint 名单提过约 1,111 供给，以官推为准。",
+      "risk": "拉新刷 waitlist 严重；游戏未上线、代币未出。只认官推链接，勿提前授权陌生合约。",
+      "links": {
+        "x": "https://x.com/farmingseasonio",
+        "site": null
+      }
+    },
+    {
+      "id": "minehood",
+      "name": "Minehood",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "round": 5,
+      "riskLevel": "medium-high",
+      "riskScore": 64,
+      "earlyScore": 82,
+      "whyWatch": "今日官宣 4,444 像素 Miner NFT upcoming：六矿六 Boss 玩法已有实机预告；waitlist+任务榜仍开放，细节未全出=短早期窗口。",
+      "background": "@minehood_rh · minehood.io · 约 2026-09-30 · ~6.3k 粉；创始人叙事被中文区点名。粉涨快但仍未开 mint。",
+      "risk": "粉/互动已不「隐形」；任务页防钓鱼。只等官宣合约与 mint 规则再动手。",
+      "links": {
+        "x": "https://x.com/minehood_rh",
+        "site": "https://minehood.io/"
+      }
+    },
+    {
+      "id": "toll-xyz",
+      "name": "Toll",
+      "category": "新台",
+      "chain": "Multi / Robinhood Chain",
+      "round": 5,
+      "riskLevel": "high",
+      "riskScore": 74,
+      "earlyScore": 88,
+      "whyWatch": "粉约 60 的 RH/BSC/SOL/Arc 扫币扩展+发射台基建：今日已在跟 Standard 股票配对洪水发射做 Toll check——典型工具层极早期，适合盯扩展/首发积分。",
+      "background": "@Tollxyz_ · 约 2026-10-04；自称 Chrome extension、launchpad、holder rewards；已公布 CA。",
+      "risk": "极早期执行不确定；平台币 CA 需自验是否可升级/控盘。扩展权限勿乱装。",
+      "links": {
+        "x": "https://x.com/Tollxyz_",
+        "site": null
+      }
+    },
+    {
+      "id": "zeromeme-fun",
+      "name": "ZeroMeme",
+      "category": "新台",
+      "chain": "Zero (LayerZero)",
+      "round": 6,
+      "riskLevel": "extreme",
+      "riskScore": 92,
+      "earlyScore": 97,
+      "flag": "layerzero",
+      "tags": [
+        "LayerZero",
+        "Zero",
+        "meme发射台",
+        "开链"
+      ],
+      "whyWatch": "自称 Zero（LayerZero）首个 meme 发射台，官推 @ZeromemeFun 约 10-14 建号、粉≈1、首帖刚发「Coming soon」——比已收录的 000/0Zero/0z0 更早的密封信号，适合蹲解封与首发。",
+      "background": "2026-10-15 首帖宣告；落地页 https://zeromeme.fun/；无 LayerZero 官方背书。",
+      "risk": "账号极新、无产品/合约/审计，可能是蹭开链叙事的空壳或仿盘；与 Tzero/000.fun 等同类台子互为竞争。",
+      "links": {
+        "x": "https://x.com/ZeromemeFun",
+        "site": "https://zeromeme.fun/",
+        "signal": "https://x.com/ZeromemeFun/status/2110762206950519201"
+      }
+    },
+    {
+      "id": "liquid-orion",
+      "name": "Orion",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "round": 6,
+      "riskLevel": "high",
+      "riskScore": 72,
+      "earlyScore": 84,
+      "tags": [
+        "RH",
+        "liquid NFT",
+        "testnet"
+      ],
+      "whyWatch": "RH 上「NFT 背后有可赎回 ETH 底仓」叙事：mint/赎回/借贷/出租/质押；今日官宣 testnet soon，UGC 社群 GTD 仍在填——主网前可蹲测试网交互与 WL。",
+      "background": "@LiquidOrion · 站 https://oriongqgc.space/ · 2026-10-15 发 testnet 预告；此前已有多轮社群 collab（约 16 社群×5 GTD）。",
+      "risk": "未开主网、合约未验证；liquid backing 依赖底仓与预言机设计，rug/脱锚与假 waitlist 风险高。",
+      "links": {
+        "x": "https://x.com/LiquidOrion",
+        "site": "https://oriongqgc.space/",
+        "signal": "https://x.com/LiquidOrion/status/2110762634308194583"
+      }
+    },
+    {
+      "id": "topfloor-fun",
+      "name": "Top Floor",
+      "category": "NFT",
+      "chain": "未知 / TBA",
+      "round": 6,
+      "riskLevel": "high",
+      "riskScore": 78,
+      "earlyScore": 68,
+      "flag": "borderline",
+      "tags": [
+        "free mint",
+        "1/1",
+        "guest list"
+      ],
+      "whyWatch": "888 枚免费 1/1，guest list 72h 窗已关、协作申请仍开；尚未见 mint 合约——可蹲官宣链/时间，但热度已不小（开名单帖互动数万级）。",
+      "background": "@TopFloorFun · list.topfloor.fun · 叙事「traders become markets / $TOPFLOOR」。",
+      "risk": "链未明、已过热；guest list 关闭后 FUD/假 mint 链接多，务必只跟官推。",
+      "links": {
+        "x": "https://x.com/TopFloorFun",
+        "site": "https://list.topfloor.fun/",
+        "signal": "https://x.com/TopFloorFun/status/2110751898294681846"
+      }
+    },
+    {
+      "id": "esccap",
+      "name": "Esc Cap",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "round": 6,
+      "riskLevel": "medium-high",
+      "riskScore": 65,
+      "earlyScore": 80,
+      "tags": [
+        "RH",
+        "Genesis",
+        "WL"
+      ],
+      "whyWatch": "复古键盘主题 Genesis 3333 计划 mint on RH（路线图写 Q4）；正在跑 referral 榜与字谜 GTD WL（截止约 10-16 07:30 UTC）——mint 前窗口可蹲。",
+      "background": "@esccapHQ · https://esccap.xyz/ · 与 W3AB 等有联动；creator/referral：esccap.xyz/creator。",
+      "risk": "mint 日未定；硬件赞助叙事偏营销，注意假 WL 与钓鱼站。",
+      "links": {
+        "x": "https://x.com/esccapHQ",
+        "site": "https://esccap.xyz/",
+        "roadmap": "https://esccap.xyz/roadmap"
+      }
+    },
+    {
+      "id": "kindly-family",
+      "name": "Kindly",
+      "category": "新台",
+      "chain": "Robinhood Chain",
+      "round": 7,
+      "riskLevel": "extreme",
+      "riskScore": 86,
+      "earlyScore": 96,
+      "tags": [
+        "RH",
+        "慈善发射",
+        "Pons",
+        "GoFundMe"
+      ],
+      "whyWatch": "今日刚官宣 live：在 RH/Pons 上为真实 GoFundMe 活动一键发币，创作者费 100% 进活动金库、平台抽成 0%。账号约 1 粉、站内发射量仍近空——典型工具层极早期。",
+      "background": "@kindly_family · kindlyfamily.love · 约 2026-10-05 建号；首帖 10-15 16:09 UTC。自称 Launch token → Fund campaign，不隶属 GoFundMe。另发过平台相关 CA，需自验。",
+      "risk": "极新空壳风险高；「慈善」叙事易被仿盘利用。先核合约是否真自动打款、Pons 路由与提现权限，勿 FOMO 平台币。",
+      "links": {
+        "x": "https://x.com/kindly_family",
+        "site": "https://kindlyfamily.love/",
+        "signal": "https://x.com/kindly_family/status/2110765114425294958"
+      }
+    },
+    {
+      "id": "cool-punks",
+      "name": "Cool Punks",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "round": 7,
+      "riskLevel": "high",
+      "riskScore": 74,
+      "earlyScore": 88,
+      "tags": [
+        "RH",
+        "free mint",
+        "1111"
+      ],
+      "whyWatch": "1,111 手绘街头 Punks，FREE MINT on RH，mint 日仍 TBA；官推约 456 粉、10-05 建号，互动仍偏预热——适合蹲官宣合约瞬间。",
+      "background": "@Coolpunksxyz；今日仍在拉「I'M IN」互动，无官网/合约。",
+      "risk": "无产品页与合约；拉新话术常见。只认官推 mint 链接，默认高不确定性。",
+      "links": {
+        "x": "https://x.com/Coolpunksxyz",
+        "site": null,
+        "signal": "https://x.com/Coolpunksxyz/status/2110741695705035052"
+      }
+    },
+    {
+      "id": "computers-rh",
+      "name": "ComputersRH NFT",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "round": 7,
+      "riskLevel": "medium-high",
+      "riskScore": 62,
+      "earlyScore": 70,
+      "flag": "time_sensitive",
+      "tags": [
+        "RH",
+        "free mint",
+        "游戏",
+        "今日"
+      ],
+      "whyWatch": "免费 3,333 像素 PC NFT，今日 mint：GTD 已开→持有者 FCFS 约 7PM UTC→Public 约 10PM UTC（max 2）。有游戏内 hashrate/合成叙事；粉已不小，但公开窗未到=短线可操作。",
+      "background": "@ComputersRh · computersrh.xyz · ~2.2万粉；OpenSea collection 已开。Reveal 售罄后，交易约 1h 后开。",
+      "risk": "热度前置、Sybil/刷 WL 多；只走官推 OpenSea 入口。过 Public 即变二手博弈。",
+      "links": {
+        "x": "https://x.com/ComputersRh",
+        "site": "https://www.computersrh.xyz/",
+        "mint": "https://opensea.io/collection/computersrh-nft",
+        "signal": "https://x.com/ComputersRh/status/2110762625680150889"
+      }
+    },
+    {
+      "id": "ink-bubble-cats",
+      "name": "Ink Bubble Cats",
+      "category": "NFT",
+      "chain": "Ink",
+      "round": 7,
+      "riskLevel": "high",
+      "riskScore": 72,
+      "earlyScore": 82,
+      "tags": [
+        "Ink",
+        "free mint",
+        "3333",
+        "WL"
+      ],
+      "whyWatch": "Ink 上 3,333 收藏品，官推约 10-13 建号、~2k 粉；大量社区 GTD/FCFS 抽奖进行中，官方细节/合约仍 Coming Soon——mint 前窗口可蹲。",
+      "background": "@InkBubbleCats · bio: Official Details Coming Soon；今日多 DAO/KOL 协作发 WL。",
+      "risk": "协作抽奖钓鱼多；无官网/合约时勿交私钥。粉涨快，窗口在缩。",
+      "links": {
+        "x": "https://x.com/InkBubbleCats",
+        "site": null,
+        "signal": "https://x.com/InkBubbleCats/status/2110732794540540359"
+      }
+    },
+    {
+      "id": "streamoors",
+      "name": "streamoors",
+      "category": "新台",
+      "chain": "Solana",
+      "round": 8,
+      "riskLevel": "high",
+      "riskScore": 70,
+      "earlyScore": 86,
+      "flag": "time_sensitive",
+      "tags": [
+        "AI streamer",
+        "pumpfun",
+        "刚上线"
+      ],
+      "whyWatch": "今日刚 live：AI 虚拟主播发射台，给角色铸币并上 Twitch/Kick/YouTube 等实时互动；$STREAM CA 已出（Diy4Q5…pump）。账号约 10-06 建、~5.2k 粉、rarelist 孵化——台子首发窗口可蹲创作者币与平台币博弈。",
+      "background": "@streamoors · https://streamoors.fun/ · 首发帖约 2026-10-15 16:05 UTC 互动已过万印象；Larpcheck 评 waitlist/假主播风险中等。",
+      "risk": "极新产品、合约/审计不明；假主播与抽成叙事难验。只认官推 CA，平台币已上 pump 后赔率变薄。",
+      "links": {
+        "x": "https://x.com/streamoors",
+        "site": "https://streamoors.fun/",
+        "signal": "https://x.com/streamoors/status/2110763920051048467"
+      }
+    },
+    {
+      "id": "ghosts-among-us",
+      "name": "Ghosts Among Us",
+      "category": "NFT",
+      "chain": "Ethereum",
+      "round": 8,
+      "riskLevel": "high",
+      "riskScore": 76,
+      "earlyScore": 92,
+      "tags": [
+        "ETH",
+        "444",
+        "allowlist",
+        "极早期"
+      ],
+      "whyWatch": "444 幽灵主题（439 editions + 5 1/1），官推 @HiGhostHere 约 10-02 建号、~250 粉；AL 抽奖仍在跑，团队点名 Oct 31 mint——大号尚未覆盖的典型早期信号。",
+      "background": "OpenSea 集已开：ghosts-among-us；晚间 AL 帖互动尚在千级印象。",
+      "risk": "账号极新、无官网/合约审计；钓鱼回复钱包常见。只跟官推 OpenSea，默认高不确定性。",
+      "links": {
+        "x": "https://x.com/HiGhostHere",
+        "site": "https://opensea.io/collection/ghosts-among-us",
+        "mint": "https://opensea.io/collection/ghosts-among-us",
+        "signal": "https://x.com/HiGhostHere/status/2110591968179061087"
+      }
+    },
+    {
+      "id": "ink-pirates",
+      "name": "Ink Pirates",
+      "category": "NFT",
+      "chain": "Ink",
+      "round": 8,
+      "riskLevel": "high",
+      "riskScore": 68,
+      "earlyScore": 84,
+      "tags": [
+        "Ink",
+        "free mint",
+        "5000",
+        "WL"
+      ],
+      "whyWatch": "Ink 上 5,000 像素海盗（宣称 3,500 free），官推约 10-11 建号、~2.6k 粉；mint 日 TBA，社区 GTD 抽奖密集——合约未热前可蹲 WL。",
+      "background": "@inkpirates · https://inkpirates.xyz/ · OpenSea 入口待官宣；叙事「crew a ship / real loot」。",
+      "risk": "协作抽奖钓鱼多；无已验证 mint 合约时勿交私钥。粉涨快，窗口在缩。",
+      "links": {
+        "x": "https://x.com/inkpirates",
+        "site": "https://inkpirates.xyz/",
+        "signal": "https://x.com/0xkingsmans/status/2110732632460050436"
+      }
+    },
+    {
+      "id": "ink-sigil",
+      "name": "INK SIGIL Genesis",
+      "category": "NFT",
+      "chain": "Ink",
+      "round": 8,
+      "riskLevel": "medium-high",
+      "riskScore": 64,
+      "earlyScore": 78,
+      "tags": [
+        "Ink",
+        "Genesis",
+        "4440",
+        "free GTD"
+      ],
+      "whyWatch": "Ink 上 4,440 Genesis sigil，「保值标记」叙事；官推约 10-08 建、~4.1k 粉。正给外站 Genesis 持有者锁 20 FREE GTD（总 FREE GTD 仅 111）——持仓/协作窗可蹲。",
+      "background": "@INKSIGIL · https://inksigilgenesis.com/ · 多社区 collab 进行中。",
+      "risk": "免费额度极紧、Sybil 多；核验 collab 是否官推亲自转。",
+      "links": {
+        "x": "https://x.com/INKSIGIL",
+        "site": "https://inksigilgenesis.com/",
+        "signal": "https://x.com/INKSIGIL/status/2110738070303584406"
+      }
+    },
+    {
+      "id": "ink-terminal",
+      "name": "Ink Terminal",
+      "category": "NFT",
+      "chain": "Ink",
+      "round": 8,
+      "riskLevel": "high",
+      "riskScore": 72,
+      "earlyScore": 80,
+      "flag": "time_sensitive",
+      "tags": [
+        "Ink",
+        "free mint",
+        "2000",
+        "明日"
+      ],
+      "whyWatch": "Ink free public mint：供应 2,000，约 2026-10-16 10:00 UTC（北京 18:00）开；合约已上 OpenSea collection/inkterminal——短线时效窗。",
+      "background": "NFT Trencher / 社区日历列出；官推信号分散（多账号转发），优先认 OpenSea 合约 0x40aca2e71150a1b7d5212643f247ba25a4fa7fbe。",
+      "risk": "官推主体不清晰、假 mint 链接多；务必对链上合约与 OpenSea 合集一致后再打。",
+      "links": {
+        "x": null,
+        "site": "https://opensea.io/collection/inkterminal",
+        "mint": "https://opensea.io/collection/inkterminal",
+        "signal": "https://x.com/eth_2017_/status/2110759907087757684"
+      }
+    },
+    {
+      "id": "chroma-launch",
+      "name": "Chroma Launch",
+      "category": "新台",
+      "chain": "Solana",
+      "round": 8,
+      "riskLevel": "extreme",
+      "riskScore": 84,
+      "earlyScore": 90,
+      "tags": [
+        "Solana",
+        "Meteora",
+        "创作者分成",
+        "极早期"
+      ],
+      "whyWatch": "Solana meme 发射台：自称创作者拿每笔交易费 40% + 单币现金奖励；官推 @ChromaLaunch 仅 ~76 粉、9 月下旬建号，落地 chromalaunch.fun——工具层极早期，适合蹲首波真实发射。",
+      "background": "Built on @MeteoraAG；另推 $CHROMA 周回购叙事，需自验收入是否闭环。",
+      "risk": "粉极少、无审计；平台币与「X 内买币」话术易仿盘。先小额测路由与权限，勿重仓平台币。",
+      "links": {
+        "x": "https://x.com/ChromaLaunch",
+        "site": "https://chromalaunch.fun/",
+        "signal": "https://x.com/ChromaLaunch/status/2110762163338105167"
+      }
+    }
+  ]
+}
