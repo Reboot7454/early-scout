@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-16 02:01 CST",
+    "updated": "2026-10-16 02:13 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "early crypto scout rounds 1–17",
-    "lastScout": "2026-10-16T02:01:01.862934+08:00",
+    "source": "early crypto scout rounds 1–18",
+    "lastScout": "2026-10-16T02:13:13.965837+08:00",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -45,7 +45,7 @@
         "sushi-oft-rh",
         "zeromeme-fun"
       ],
-      "note": "本轮 @LayerZero_Core 仍仅 USDG OFT 案例（Arbitrum），无 Zero/ATLAS 官方开链或发射台日程。@omnisea 继续推 Shared OFT/ONFT-as-a-service；无新开链官宣。继续盯 Zero/ATLAS/OFT。"
+      "note": "本轮 @LayerZero_Core 仍推 USDG OFT 案例（Arbitrum / GDN），无 Zero 开链或 ATLAS venue 官宣。@omnisea 继续 OFT/ONFT-as-a-service（含 $DRB→OFT）。继续盯 Zero/ATLAS/OFT。"
     },
     "round5Added": [
       "farming-season",
@@ -137,6 +137,13 @@
       "morphpad",
       "bellpit",
       "anthood"
+    ],
+    "round18Added": [
+      "pixelpunks",
+      "unruly",
+      "ink-blots",
+      "temrush",
+      "pc-genesis"
     ]
   },
   "candidates": [
@@ -2649,7 +2656,7 @@
         "totalSupply": 0,
         "maxSupply": 2000,
         "minted": 0,
-        "lastCheckedAt": "2026-10-16T02:01:04.797900+08:00",
+        "lastCheckedAt": "2026-10-16T02:13:16.970028+08:00",
         "explorer": "https://explorer.inkonchain.com/address/0x40aca2e71150a1b7d5212643f247ba25a4fa7fbe",
         "note": "OpenSea collection/inkterminal"
       },
@@ -2981,7 +2988,7 @@
         "totalSupply": null,
         "maxSupply": 4444,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T02:01:05.066623+08:00",
+        "lastCheckedAt": "2026-10-16T02:13:17.363967+08:00",
         "explorer": "https://opensea.io/collection/tickertapes-signal-worlds",
         "note": "Signal Worlds 合约"
       },
@@ -3062,7 +3069,7 @@
         "totalSupply": null,
         "maxSupply": 666,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T02:01:05.452884+08:00",
+        "lastCheckedAt": "2026-10-16T02:13:17.735858+08:00",
         "explorer": "https://opensea.io/collection/glocks-onchain",
         "note": ""
       },
@@ -3245,7 +3252,7 @@
         "totalSupply": null,
         "maxSupply": 7777,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T02:01:05.769678+08:00",
+        "lastCheckedAt": "2026-10-16T02:13:17.995330+08:00",
         "explorer": "https://opensea.io/collection/hoodpoker",
         "note": ""
       },
@@ -4205,7 +4212,7 @@
         "totalSupply": null,
         "maxSupply": null,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T02:01:06.057558+08:00",
+        "lastCheckedAt": "2026-10-16T02:13:18.252668+08:00",
         "explorer": null,
         "note": "官推 bio 自称 CA；待核验是否为平台币/发射合约"
       },
@@ -4433,7 +4440,7 @@
         "totalSupply": null,
         "maxSupply": 6666,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T02:01:06.320745+08:00",
+        "lastCheckedAt": "2026-10-16T02:13:18.514965+08:00",
         "explorer": null,
         "note": "官推自称 SURFBOARD token CA；NFT 合集另见 OpenSea，待链上交叉"
       },
@@ -4813,7 +4820,7 @@
         "totalSupply": null,
         "maxSupply": null,
         "minted": null,
-        "lastCheckedAt": "2026-10-16T02:01:06.592978+08:00",
+        "lastCheckedAt": "2026-10-16T02:13:18.780412+08:00",
         "explorer": null,
         "note": "官推自称官方币 CA；待 RH RPC 交叉"
       },
@@ -4879,6 +4886,285 @@
         "novelty": 60,
         "actionable": 50,
         "overall": 62
+      }
+    },
+    {
+      "id": "pixelpunks",
+      "name": "PixelPunks",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "round": 18,
+      "riskLevel": "high",
+      "riskScore": 78,
+      "earlyScore": 88,
+      "whyWatch": "官推约 2.1k 粉；RH 上 10000 Punks，WL checker 已开，官宣约 50 分钟内开 mint（首批 free / 公售 $0.5）。",
+      "background": "@pixellpunks · 2026-08-03 建号。OpenSea 集合 pixelpunks-865451217，合约 0xcca952d4e5a81ca67ed2ec2da71c623183f0d945（RH）。本轮官帖：WL checker LIVE，Mint start in 50 min（帖时 2026-10-15T18:10:13Z → 约 19:00Z）。Top Robinhood NFT holders 可申。社区有人质疑反复刷钱包名单。",
+      "risk": "名单发放透明度争议；公售价已给但链上未开；仿 Punks 叙事同质化。",
+      "links": {
+        "x": "https://x.com/pixellpunks",
+        "site": "https://opensea.io/collection/pixelpunks-865451217",
+        "signal": "https://x.com/pixellpunks/status/2110795395940896814"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-15T19:00:00Z",
+        "endsAt": null,
+        "phases": [
+          {
+            "name": "Free / WL",
+            "startsAt": "2026-10-15T19:00:00Z",
+            "note": "官帖 Mint start in 50 min；首 300 free 曾宣"
+          },
+          {
+            "name": "Public",
+            "startsAt": null,
+            "note": "官宣 Public 0.5$；精确公售时刻未锁"
+          }
+        ],
+        "source": "official",
+        "note": "从 18:10Z「50 min」倒推约 19:00Z；以官推为准"
+      },
+      "onchain": {
+        "chainId": "robinhood",
+        "rpcHint": null,
+        "contract": "0xcca952d4e5a81ca67ed2ec2da71c623183f0d945",
+        "standard": "erc721",
+        "mintStatus": "not_open",
+        "totalSupply": 0,
+        "maxSupply": 10000,
+        "minted": 0,
+        "lastCheckedAt": "2026-10-16T02:13:19.001261+08:00",
+        "explorer": "https://opensea.io/collection/pixelpunks-865451217",
+        "note": "OpenSea 显示 RH 合约；supply 仍为 0"
+      },
+      "highlights": [
+        "开售进入约 1 小时内，可操作窗口紧",
+        "OpenSea 已挂 RH 合约可交叉",
+        "供应 10000 + free/公售分层清晰"
+      ],
+      "drawbacks": [
+        "名单真实性遭社区质疑",
+        "仿 CryptoPunks 叙事拥挤",
+        "RH RPC 不稳，链上难实时核"
+      ],
+      "whatsNew": "本轮新收录：PixelPunks 官宣约 19:00Z 开 mint，WL checker 已 live。",
+      "scores": {
+        "early": 88,
+        "risk": 78,
+        "novelty": 45,
+        "actionable": 92,
+        "overall": 72
+      }
+    },
+    {
+      "id": "unruly",
+      "name": "UNRULY",
+      "category": "NFT",
+      "chain": "Ink",
+      "round": 18,
+      "riskLevel": "high",
+      "riskScore": 72,
+      "earlyScore": 93,
+      "whyWatch": "官推 10/13 建号、约 790 粉；INK 上 999 cult PFP，WL 申请倒计时约 24h，mint 价 TBD。",
+      "background": "@UnrulyHQ · 2026-10-13 建号。叙事：can't be controlled kids on @inkonchain。申请站 unruly.ink/apply；本轮官宣 WL Applications close in 24 HOURS（帖 16:59Z）。协作转发称 token airdrops + revenue share，官推未给合约。",
+      "risk": "无合约；mint 价未定；新号协作刷量常见。",
+      "links": {
+        "x": "https://x.com/UnrulyHQ",
+        "site": "https://unruly.ink/apply",
+        "signal": "https://x.com/UnrulyHQ/status/2110777683303088639"
+      },
+      "schedule": {
+        "status": "tentative",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "endsAt": "2026-10-16T16:59:50Z",
+        "phases": [
+          {
+            "name": "WL apply closes",
+            "startsAt": "2026-10-16T16:59:50Z",
+            "note": "官帖 close in 24 HOURS from 16:59Z"
+          }
+        ],
+        "source": "official",
+        "note": "名单窗约 24h；正式 mint 时刻未官宣"
+      },
+      "highlights": [
+        "建号仅约 2 天，粉量仍低，偏早期",
+        "供应 999 小盘 + INK 热点链",
+        "WL 截止有明确倒计时"
+      ],
+      "drawbacks": [
+        "无合约/无 mint 价",
+        "收益分成叙事缺链上证据",
+        "协作转发易掺水军"
+      ],
+      "whatsNew": "本轮新收录：UNRULY INK 999，WL 申请约 24h 截止。",
+      "scores": {
+        "early": 93,
+        "risk": 72,
+        "novelty": 70,
+        "actionable": 75,
+        "overall": 71
+      }
+    },
+    {
+      "id": "ink-blots",
+      "name": "Ink Blots",
+      "category": "NFT",
+      "chain": "Ink",
+      "round": 18,
+      "riskLevel": "extreme",
+      "riskScore": 85,
+      "earlyScore": 98,
+      "whyWatch": "官推今日建号、约 6 粉；INK 3000 free Blots，社区 allowlist mint 已 live，OpenSea 已出合约。",
+      "background": "@InkBlotsNFT · 2026-10-15 建号。OpenSea inkblots-nft，合约 0x5de061a9e7a83bd727a5cd74fadbd3decf70f415（ink）。本轮：Community free mint phase live；OpenSea 显示 33/3000、allowlist live、public $0.59。",
+      "risk": "极新号几乎零信誉；allowlist 社区白名单不透明；早期地板极薄。",
+      "links": {
+        "x": "https://x.com/InkBlotsNFT",
+        "site": "https://opensea.io/collection/inkblots-nft",
+        "signal": "https://x.com/InkBlotsNFT/status/2110794531411034328"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-15T18:15:00Z",
+        "endsAt": null,
+        "phases": [
+          {
+            "name": "Allowlist free",
+            "startsAt": "2026-10-15T18:15:00Z",
+            "note": "官帖 17:15Z 称 1 hour until mint；社区 free live"
+          },
+          {
+            "name": "Public",
+            "startsAt": null,
+            "note": "OpenSea 标 $0.59 · limit 5；精确开公售未锁"
+          }
+        ],
+        "source": "official",
+        "note": "allowlist free 已 live；公售时刻以 OpenSea 为准"
+      },
+      "onchain": {
+        "chainId": "ink",
+        "rpcHint": null,
+        "contract": "0x5de061a9e7a83bd727a5cd74fadbd3decf70f415",
+        "standard": "erc721",
+        "mintStatus": "open",
+        "totalSupply": 35,
+        "maxSupply": 3000,
+        "minted": 35,
+        "lastCheckedAt": "2026-10-16T02:13:21.992028+08:00",
+        "explorer": "https://opensea.io/collection/inkblots-nft",
+        "note": "链上 totalSupply≈35；mint open"
+      },
+      "highlights": [
+        "建号当日、粉量个位数，符合尽量早期",
+        "合约已上链且 mint 状态 open",
+        "供应 3000 + free 阶段可核验"
+      ],
+      "drawbacks": [
+        "零历史项目，跑路/弃坑概率高",
+        "WL 社区门槛不透明",
+        "流动性极差，接盘难"
+      ],
+      "whatsNew": "本轮新收录：Ink Blots 当日号，INK free mint 已 open（链上约 35/3000）。",
+      "scores": {
+        "early": 98,
+        "risk": 85,
+        "novelty": 68,
+        "actionable": 88,
+        "overall": 70
+      }
+    },
+    {
+      "id": "temrush",
+      "name": "Temrush",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "round": 18,
+      "riskLevel": "high",
+      "riskScore": 76,
+      "earlyScore": 80,
+      "whyWatch": "RH 4444 free mint；官推仍在猜 mint 日互动，精确开售未锁，名单/角色站已开。",
+      "background": "@TemrushNFTs · 2026-09-27 建号 · ~3.2k 粉。站 temrush.xyz。官宣 FULL FREE MINT，猜日期赢 2x airdrop；先批 EVM 0.008 ETH 可自动 WL。无合约。",
+      "risk": "开售日反复猜谜；付费抢 WL 像预售；无合约难核。",
+      "links": {
+        "x": "https://x.com/TemrushNFTs",
+        "site": "https://www.temrush.xyz/",
+        "signal": "https://x.com/TemrushNFTs/status/2110023437628387404"
+      },
+      "schedule": {
+        "status": "tba",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "endsAt": null,
+        "phases": [],
+        "source": "official",
+        "note": "官推仍问 Wen mint；精确日未锁"
+      },
+      "highlights": [
+        "FREE MINT + 4444 供应明确",
+        "独立站与角色申请已上线",
+        "仍处开售前窗口"
+      ],
+      "drawbacks": [
+        "开售日长期 TBA",
+        "0.008 ETH 自动 WL 像预收费",
+        "无合约交叉"
+      ],
+      "whatsNew": "本轮新收录：Temrush RH 4444 free，mint 日仍 TBA。",
+      "scores": {
+        "early": 80,
+        "risk": 76,
+        "novelty": 55,
+        "actionable": 55,
+        "overall": 58
+      }
+    },
+    {
+      "id": "pc-genesis",
+      "name": "PC Genesis",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "round": 18,
+      "riskLevel": "high",
+      "riskScore": 74,
+      "earlyScore": 82,
+      "whyWatch": "官推约 1.2k 粉；RH 999 PC 硬件主题，叙事 NFT+Token 持仓领奖，仍偏早期曝光。",
+      "background": "@pcgenesis_ · 2026-09-19 建号。硬顶 999，描述 HOLD (NFT+Token) & Claim Reward。本轮被聚合号点名为 RH Unique Finds；官推近期无明确 mint 时刻/合约帖。",
+      "risk": "奖励机制未证实；无合约；叙事依赖后续 token。",
+      "links": {
+        "x": "https://x.com/pcgenesis_",
+        "site": null,
+        "signal": "https://x.com/phazeeconcepts/status/2110795637063139538"
+      },
+      "schedule": {
+        "status": "tba",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "endsAt": null,
+        "phases": [],
+        "source": "inferred",
+        "note": "未见官宣精确 mint 时刻"
+      },
+      "highlights": [
+        "供应仅 999，偏小盘",
+        "硬件生成艺术差异化",
+        "粉量仍不算大"
+      ],
+      "drawbacks": [
+        "无合约/无开售证据",
+        "Token 奖励口号缺细节",
+        "信号多为二手转发"
+      ],
+      "whatsNew": "本轮新收录：PC Genesis RH 999，NFT+Token 奖励叙事。",
+      "scores": {
+        "early": 82,
+        "risk": 74,
+        "novelty": 72,
+        "actionable": 40,
+        "overall": 58
       }
     }
   ]
