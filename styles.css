@@ -41,7 +41,7 @@ body {
 a { color: inherit; text-decoration: none; }
 
 .app {
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 20px 16px 64px;
 }
@@ -239,7 +239,7 @@ a { color: inherit; text-decoration: none; }
 /* Grid */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
   gap: 14px;
 }
 
@@ -800,9 +800,18 @@ a { color: inherit; text-decoration: none; }
   line-height: 1.35;
 }
 
-/* Mining zone (compact, below scout grid) */
+/* Two columns on wide screens: 打新 left, compact 挖矿 list right */
+.split-board {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.scout-zone-title { color: var(--text); }
+
+/* Mining zone (compact list; stacked under 打新 on narrow screens) */
 .mining-zone {
-  margin: 28px 0 8px;
+  margin: 18px 0 8px;
   padding-top: 16px;
   border-top: 1px solid rgba(251, 191, 36, 0.22);
 }
@@ -929,4 +938,62 @@ a { color: inherit; text-decoration: none; }
   .mining-row-meta { display: none; }
 }
 
-.main-scout { margin-top: 4px; }
+@media (min-width: 960px) {
+  .controls { position: static; }
+
+  .split-board {
+    display: grid;
+    grid-template-columns: minmax(0, 1.7fr) minmax(280px, 1fr);
+    gap: 18px;
+    align-items: start;
+  }
+
+  .mining-zone {
+    margin: 0;
+    padding: 12px;
+    border-top: none;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: rgba(13, 18, 28, 0.55);
+    position: sticky;
+    top: 12px;
+    max-height: calc(100vh - 24px);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .mining-zone .zone-head { flex-shrink: 0; }
+
+  .mining-list {
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    min-height: 0;
+    flex: 1 1 auto;
+    padding-right: 2px;
+  }
+
+  .mining-list::-webkit-scrollbar { width: 8px; }
+  .mining-list::-webkit-scrollbar-thumb {
+    background: rgba(148, 163, 184, 0.28);
+    border-radius: 99px;
+  }
+
+  .mining-zone .mining-row {
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    grid-template-areas:
+      "name type score"
+      "meta meta meta"
+      "links links links";
+    gap: 2px 8px;
+    padding: 8px 10px;
+  }
+
+  .mining-zone .mining-row-name { grid-area: name; }
+  .mining-zone .mining-row-meta { grid-area: meta; }
+  .mining-zone .mining-row-type { grid-area: type; }
+  .mining-zone .mining-row-score { grid-area: score; }
+  .mining-zone .mining-row-links { grid-area: links; }
+}
+
+.main-scout { margin-top: 4px; min-width: 0; }

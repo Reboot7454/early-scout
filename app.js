@@ -765,16 +765,24 @@
       const jump = e.target.closest("[data-jump]");
       if (jump) {
         const id = jump.dataset.jump;
-        const card = document.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
+        const findTarget = () =>
+          document.querySelector(
+            `.card[data-id="${CSS.escape(id)}"], .mining-row[data-id="${CSS.escape(id)}"]`
+          );
+        const flash = (el) => {
+          el.scrollIntoView({ behavior: "smooth", block: "center" });
+          el.classList.add("card-flash");
+          setTimeout(() => el.classList.remove("card-flash"), 1200);
+        };
+        const card = findTarget();
         if (card) {
-          card.scrollIntoView({ behavior: "smooth", block: "center" });
-          card.classList.add("card-flash");
-          setTimeout(() => card.classList.remove("card-flash"), 1200);
+          flash(card);
         } else {
           // clear filters that may hide it, then jump
           state.scheduleFilter = "all";
           state.category = "all";
           state.miningFilter = "all";
+          state.miningTypeFilter = "all";
           state.chain = "all";
           state.round = "all";
           state.layerzero = "all";
@@ -783,12 +791,8 @@
           if (search) search.value = "";
           renderChips();
           render();
-          const card2 = document.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
-          if (card2) {
-            card2.scrollIntoView({ behavior: "smooth", block: "center" });
-            card2.classList.add("card-flash");
-            setTimeout(() => card2.classList.remove("card-flash"), 1200);
-          }
+          const card2 = findTarget();
+          if (card2) flash(card2);
         }
         return;
       }
