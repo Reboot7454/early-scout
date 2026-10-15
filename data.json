@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-16 01:11 CST",
+    "updated": "2026-10-16 01:17 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "early crypto scout rounds 1–13",
-    "lastScout": "2026-10-16T01:11:16.160158+08:00",
+    "source": "early crypto scout rounds 1–14",
+    "lastScout": "2026-10-16T01:17:19.773483+08:00",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -45,7 +45,7 @@
         "sushi-oft-rh",
         "zeromeme-fun"
       ],
-      "note": "本轮 @LayerZero_Core 仍只发 USDG OFT 案例（Arbitrum 纳入），无 Zero/ATLAS 官方开链或发射台日程。社区 @0xmeto_ 继续喊 Zero Chain testnet 并推非官方 TG。@omnisea 继续推 Shared OFT/ONFT-as-a-service（零部署跨链）。继续盯 Zero/ATLAS/OFT。"
+      "note": "本轮 @LayerZero_Core 仍推 USDG OFT 案例（Arbitrum 纳入），无 Zero/ATLAS 官方开链或发射台日程。社区 @0xmeto_ 继续喊 Zero Chain testnet 并推非官方 TG；另有帖称 ATLAS testnet 限合作方。@omnisea 继续推 Shared OFT/ONFT-as-a-service。继续盯 Zero/ATLAS/OFT。"
     },
     "round5Added": [
       "farming-season",
@@ -106,6 +106,12 @@
       "fobo-fun",
       "robinfinite",
       "cracker-fun"
+    ],
+    "round14Added": [
+      "swarmpad",
+      "sasa-pad",
+      "torpor",
+      "robocap"
     ]
   },
   "candidates": [
@@ -1879,6 +1885,107 @@
         "x": "https://x.com/Crackerfun",
         "site": "https://cracker.fun/",
         "signal": "https://x.com/Cracker_Global/status/2110779391236014297"
+      }
+    },
+    {
+      "id": "swarmpad",
+      "name": "SwarmPad",
+      "category": "新台",
+      "chain": "Solana",
+      "round": 14,
+      "riskLevel": "high",
+      "riskScore": 90,
+      "earlyScore": 97,
+      "flag": "极新",
+      "tags": [
+        "launchpad",
+        "Solana",
+        "SWARM",
+        "极早期"
+      ],
+      "whyWatch": "官推 @swarmpadrun 今日新建、0 粉：每发币与 $SWARM 配对、毕业锁 LP、费率衰减+国库燃烧叙事——站 swarmpad.run 仍 404，处极早期预告窗。",
+      "background": "@swarmpadrun · 账号 2026-10-15 16:35 UTC 建；首发帖讲 one-wallet 上币、$SWARM 先发再开板、Meteora 分费。站点尚未可用。",
+      "risk": "当日新号、站未上线；同名仿盘与假站风险极高。只认官推后续正式域名/CA，勿提前授权或打款。",
+      "links": {
+        "x": "https://x.com/swarmpadrun",
+        "site": "https://swarmpad.run/",
+        "signal": "https://x.com/swarmpadrun/status/2110775211306213524"
+      }
+    },
+    {
+      "id": "sasa-pad",
+      "name": "sasa",
+      "category": "新台",
+      "chain": "Multi-chain",
+      "round": 14,
+      "riskLevel": "high",
+      "riskScore": 82,
+      "earlyScore": 91,
+      "flag": "极新",
+      "tags": [
+        "launchpad",
+        "multi-chain",
+        "race",
+        "Base",
+        "BNB",
+        "RH"
+      ],
+      "whyWatch": "差异化：同币四链 5 分钟赛跑、赢家留币；官推仅 ~101 粉，站 sasapad.fun 已 200——粉极少、机制可辨的新台。",
+      "background": "@sasapadfun · https://sasapad.fun/ · 自述 multi-chain launch、流动性锁、AI creator；覆盖 Base/BNB/Robinhood 等叙事。",
+      "risk": "粉丝极少、跨链竞赛规则与锁仓需链上自核；多链仿盘多。先小额测交互，勿重仓平台币。",
+      "links": {
+        "x": "https://x.com/sasapadfun",
+        "site": "https://sasapad.fun/",
+        "signal": "https://x.com/sasapadfun/status/2110777044883709992"
+      }
+    },
+    {
+      "id": "torpor",
+      "name": "Torpor",
+      "category": "NFT",
+      "chain": "TBD",
+      "round": 14,
+      "riskLevel": "high",
+      "riskScore": 76,
+      "earlyScore": 89,
+      "tags": [
+        "NFT",
+        "allowlist",
+        "cards",
+        "zenyield"
+      ],
+      "whyWatch": "@zenyield 今日点名：青蛙卡牌 allowlist——申请拿 codes→开 boxes→A 卡保 mint；官推 ~1.1k 粉、站 torpor.net/apply 开放，仍属名单窗。",
+      "background": "@torpornet · https://torpor.net/ · 「Built to sit. Born to croak.」；申请流与分享卡牌裂变已开，正式 mint 日程未锁。",
+      "risk": "链/供应量/价格未全公示；allowlist 钓鱼站多。只走官推链出的 torpor.net，勿连陌生 mint。",
+      "links": {
+        "x": "https://x.com/torpornet",
+        "site": "https://torpor.net/apply",
+        "signal": "https://x.com/zenyield/status/2110598573297647674"
+      }
+    },
+    {
+      "id": "robocap",
+      "name": "RoboCap",
+      "category": "新台",
+      "chain": "Solana",
+      "round": 14,
+      "riskLevel": "high",
+      "riskScore": 74,
+      "earlyScore": 86,
+      "tags": [
+        "launchpad",
+        "Solana",
+        "robotics",
+        "physical-AI",
+        "Colosseum"
+      ],
+      "whyWatch": "Solana 上 robotics / physical AI 向发射台（RoboCap.fun），团队自述刚结束 Colosseum 四周；站已 live、叙事新鲜、粉约 1.1k——适合蹲首批 robotics 币。",
+      "background": "@robocapfun · https://robocap.fun/ · 社区帖称 Ribh Finance 团队相关；「Back what moves next」定位实体 AI/机器人融资板。",
+      "risk": "新叙事台、审计与上币规则未充分核验；Colosseum 关联需自证。先核合约与费用，勿 FOMO 平台币。",
+      "links": {
+        "x": "https://x.com/robocapfun",
+        "site": "https://robocap.fun/",
+        "signal": "https://x.com/Afro_Play/status/2110779736448451019"
       }
     }
   ]
