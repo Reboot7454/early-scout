@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-16 00:21 CST",
+    "updated": "2026-10-16 00:32 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "early crypto scout rounds 1–8",
-    "lastScout": "2026-10-16T00:21:57.569010+08:00",
+    "source": "early crypto scout rounds 1–9",
+    "lastScout": "2026-10-16T00:32:57.848212+08:00",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -45,7 +45,7 @@
         "sushi-oft-rh",
         "zeromeme-fun"
       ],
-      "note": "过滤优先早期；非必须关注名单。开链/新台/OFT 工具优先于已成熟积分盘。"
+      "note": "本轮 LZ 官推为 USDG OFT 案例，无新开链/台子信号；继续盯 Zero/ATLAS/OFT 发射台。"
     },
     "round5Added": [
       "farming-season",
@@ -71,6 +71,12 @@
       "ink-sigil",
       "ink-terminal",
       "chroma-launch"
+    ],
+    "round9Added": [
+      "motif",
+      "pump-v2",
+      "ordfellaz",
+      "mutual-fun"
     ]
   },
   "candidates": [
@@ -1227,6 +1233,105 @@
         "x": "https://x.com/ChromaLaunch",
         "site": "https://chromalaunch.fun/",
         "signal": "https://x.com/ChromaLaunch/status/2110762163338105167"
+      }
+    },
+    {
+      "id": "motif",
+      "name": "Motif",
+      "category": "NFT",
+      "chain": "Ethereum",
+      "round": 9,
+      "riskLevel": "medium",
+      "riskScore": 48,
+      "earlyScore": 88,
+      "flag": "time_sensitive",
+      "tags": [
+        "ETH",
+        "0.03 ETH",
+        "First Chair",
+        "Oct20"
+      ],
+      "whyWatch": "合约生成网格艺术 NFT（上限 2048），10-20 17:00 UTC mint：First Chair→Ensemble→Public 19:00 UTC；10-17 22:00 UTC 抽 100 个 First Chair。Ensemble 已封，仍可查钱包资格与抽签——艺术向 ETH mint 窗口清晰。",
+      "background": "@TheMotifArt · https://themotif.art/ · ~6.4k 粉；价格 0.03 ETH；Goblynz 持有者/抽签进 First Chair。",
+      "risk": "艺术盘流动性薄；假 mint 页多。只认 themotif.art 与官推合约地址（部署日公布）。",
+      "links": {
+        "x": "https://x.com/TheMotifArt",
+        "site": "https://themotif.art/",
+        "mint": "https://themotif.art/mint",
+        "signal": "https://x.com/TheMotifArt/status/2110770174332674546"
+      }
+    },
+    {
+      "id": "pump-v2",
+      "name": "Pump V2 / Feeback",
+      "category": "新台",
+      "chain": "Solana",
+      "round": 9,
+      "riskLevel": "high",
+      "riskScore": 78,
+      "earlyScore": 91,
+      "tags": [
+        "Solana",
+        "pump.fun",
+        "Feeback",
+        "极早期"
+      ],
+      "whyWatch": "在 pump.fun 上叠加 Feeback：创作者费可拆到创作者/持有人/回购销毁/加池；官推仅 ~214 粉，发射台已 live——工具层极早期，可蹲首波真实发射与平台币博弈。",
+      "background": "@PumpV2xyz · https://pumpv2.xyz/ · 自述非官方，走 pump 轨道；协议自持 Meteora LP + 自动回购叙事。",
+      "risk": "粉极少、无审计；仿盘同名多。先核验 CA 与站点一致，勿重仓平台币。",
+      "links": {
+        "x": "https://x.com/PumpV2xyz",
+        "site": "https://pumpv2.xyz/",
+        "signal": "https://x.com/PumpV2xyz/status/2110769818865684691"
+      }
+    },
+    {
+      "id": "ordfellaz",
+      "name": "OrdFellaz",
+      "category": "NFT",
+      "chain": "Bitcoin",
+      "round": 9,
+      "riskLevel": "high",
+      "riskScore": 70,
+      "earlyScore": 85,
+      "tags": [
+        "Ordinals",
+        "WL",
+        "BTC",
+        "极早期"
+      ],
+      "whyWatch": "Ordinals 社区 NFT，官推约 8 月建、~2.5k 粉；持续 GTD/FCFS WL 抽奖与 Omega 链上 raffle——mint 前窗口可蹲，风格账号也有人点了眼。",
+      "background": "@ordfellaz · https://ordfellaz.fun · bio: Ordinals cult；与 BitFoots 等协作抽奖进行中。",
+      "risk": "BTC/Ordinals 打新门槛与钓鱼链接多；无官宣 mint 日与合约前勿交私钥。",
+      "links": {
+        "x": "https://x.com/ordfellaz",
+        "site": "https://ordfellaz.fun",
+        "signal": "https://x.com/ordfellaz/status/2110722318502650322"
+      }
+    },
+    {
+      "id": "mutual-fun",
+      "name": "The Mutual Fun",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "round": 9,
+      "riskLevel": "medium-high",
+      "riskScore": 62,
+      "earlyScore": 80,
+      "flag": "time_sensitive",
+      "tags": [
+        "RH",
+        "$TMF",
+        "Seat",
+        "Oct22"
+      ],
+      "whyWatch": "Robinhood Chain 上链上共同基金叙事：Pass 治理已跑完（~7.2 万票）；$TMF + Seat mint 约 10-22 19:00 UTC（美东 3PM）。无 Pass 仍可用 Smart Launch/DEX/AMM 拿座位——短线可排日历。",
+      "background": "@themutualfun · links.themutual.fun · ~1.28 万粉；自称 RH 首个 permissionless on-chain mutual funds。",
+      "risk": "叙事偏社区/基金、合规与流动性不确定；Pass 二级与假 mint 页需自验。只跟官推入口。",
+      "links": {
+        "x": "https://x.com/themutualfun",
+        "site": "https://links.themutual.fun",
+        "signal": "https://x.com/Thailapino/status/2110550673989251482"
       }
     }
   ]
