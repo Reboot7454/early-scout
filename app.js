@@ -668,6 +668,35 @@
     );
   }
 
+  function miningTypeLabel(c) {
+    const mt = c.miningType || "";
+    if (mt === "gpu-pow") return "GPU PoW";
+    if (mt === "nft-mutation") return "NFT 变异";
+    if (mt === "nft-miner") return "Miner NFT";
+    if ((c.tags || []).some((x) => String(x).includes("变异"))) return "NFT 变异";
+    if ((c.tags || []).some((x) => String(x).toLowerCase().includes("miner"))) return "Miner NFT";
+    if ((c.tags || []).some((x) => ["pow", "gpu"].includes(String(x).toLowerCase()))) return "GPU PoW";
+    return "挖矿";
+  }
+
+  function miningRowHtml(c) {
+    const score = c.scores?.overall ?? c.earlyScore ?? "—";
+    const x = c.links?.x
+      ? `<a href="${escapeHtml(c.links.x)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">X</a>`
+      : "";
+    const site = c.links?.site
+      ? `<a href="${escapeHtml(c.links.site)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">站点</a>`
+      : "";
+    const why = escapeHtml((c.whyWatch || "").slice(0, 72));
+    return `<div class="mining-row" data-id="${escapeHtml(c.id)}" title="${why}">
+      <div class="mining-row-name">${escapeHtml(c.name)}</div>
+      <div class="mining-row-meta">${escapeHtml(c.chain || "")}</div>
+      <span class="mining-row-type">${escapeHtml(miningTypeLabel(c))}</span>
+      <span class="mining-row-score">${escapeHtml(String(score))}</span>
+      <div class="mining-row-links">${x}${site}</div>
+    </div>`;
+  }
+
   function renderMiningPanel() {
     const grid = $("#mining-grid");
     const countEl = $("#mining-count");
@@ -677,20 +706,19 @@
     if (!grid || !state.data) return;
     const allM = state.data.candidates.filter(isMining);
     const list = miningList();
-    if (countEl) countEl.textContent = `· ${list.length}/${allM.length}`;
-    if (pill) pill.textContent = `挖矿区 · ${allM.length}`;
-    const watch = state.data.meta?.miningWatch;
-    if (desc && watch) {
-      const focus = (watch.focus || []).join(" · ");
-      desc.textContent = `${focus || "GPU PoW · NFT 变异盘"} · 与打新列表分开展示`;
+    if (countEl) countEl.textContent = `${list.length}/${allM.length}`;
+    if (pill) pill.textContent = `挖矿 · ${allM.length}`;
+    if (desc) {
+      desc.textContent = "GPU PoW · NFT 变异 / Miner · 列表区";
     }
     if (!list.length) {
-      grid.innerHTML = `<div class="empty-mining">挖矿区暂无匹配项。可切子类或清空搜索。</div>`;
+      grid.innerHTML = `<div class="empty-mining">挖矿区暂无匹配项</div>`;
     } else {
-      grid.innerHTML = list.map(cardHtml).join("");
+      grid.innerHTML = list.map(miningRowHtml).join("");
     }
     if (panel) panel.hidden = allM.length === 0;
   }
+
 
   function render() {
     state.nowMs = Date.now();

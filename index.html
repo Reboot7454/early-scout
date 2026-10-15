@@ -23,7 +23,7 @@
     <header class="header">
       <div class="brand">
         <h1>早期打新雷达</h1>
-        <p class="sub">Early Crypto Scout · 新台 / Meme / NFT · <span class="mining-inline">挖矿独立区</span> · <span class="lz-inline">LayerZero</span></p>
+        <p class="sub">Early Crypto Scout · 新台 / Meme / NFT / 挖矿 · <span class="lz-inline">LayerZero</span></p>
       </div>
       <div class="meta-pills">
         <span class="pill">候选 <strong id="count">—</strong></span>
@@ -43,18 +43,6 @@
         </div>
         <button type="button" class="lz-filter-btn" id="lz-filter-btn" data-group="layerzero" data-value="on">只看 LayerZero</button>
       </div>
-    </section>
-
-    <section class="mining-panel" id="mining-panel" aria-label="挖矿独立区">
-      <div class="mining-panel-head">
-        <div class="mining-badge-lg">矿</div>
-        <div class="mining-panel-copy">
-          <div class="mining-panel-title">挖矿雷达 <span class="mining-panel-count" id="mining-count">—</span></div>
-          <div class="mining-panel-desc" id="mining-desc">GPU PoW（PRL / QTC / NOID 风格）· NFT 变异盘 / Miner · 与上方打新列表分开</div>
-        </div>
-        <div class="chips mining-type-chips" id="mining-type-chips" aria-label="挖矿子类"></div>
-      </div>
-      <div class="mining-grid" id="mining-grid"></div>
     </section>
 
     <section class="sched-soon" id="sched-soon" aria-label="即将开售" hidden>
@@ -91,10 +79,21 @@
     </section>
 
     <section class="main-scout" aria-label="打新候选">
-      <div class="main-scout-head"><span class="main-scout-title">打新候选</span><span class="main-scout-sub">新台 / Meme / NFT · 不含挖矿区</span></div>
+      
       <main class="grid" id="grid" aria-live="polite">
       <div class="empty">加载中…</div>
     </main>
+    </section>
+
+
+    <section class="mining-zone" id="mining-panel" aria-label="挖矿区">
+      <div class="zone-head">
+        <span class="zone-title">挖矿区</span>
+        <span class="zone-count" id="mining-count">—</span>
+        <span class="zone-sub" id="mining-desc">GPU PoW · NFT 变异 / Miner</span>
+        <div class="chips mining-type-chips" id="mining-type-chips" aria-label="挖矿子类"></div>
+      </div>
+      <div class="mining-list" id="mining-grid"></div>
     </section>
 
     <footer class="footer">
