@@ -23,11 +23,12 @@
     <header class="header">
       <div class="brand">
         <h1>早期打新雷达</h1>
-        <p class="sub">Early Crypto Scout · 新台 / Meme / NFT / <span class="lz-inline">LayerZero</span> · 日程 / 链上盯盘</p>
+        <p class="sub">Early Crypto Scout · 新台 / Meme / NFT · <span class="mining-inline">挖矿独立区</span> · <span class="lz-inline">LayerZero</span></p>
       </div>
       <div class="meta-pills">
         <span class="pill">候选 <strong id="count">—</strong></span>
         <span class="pill">更新 <strong id="updated">—</strong> CST</span>
+        <span class="pill pill-mining" id="mining-pill" title="挖矿独立区">挖矿区</span>
         <span class="pill pill-lz" id="lz-pill" title="LayerZero 监控已开启">LayerZero 监控中</span>
         <span class="pill">多轮合并</span>
       </div>
@@ -42,6 +43,18 @@
         </div>
         <button type="button" class="lz-filter-btn" id="lz-filter-btn" data-group="layerzero" data-value="on">只看 LayerZero</button>
       </div>
+    </section>
+
+    <section class="mining-panel" id="mining-panel" aria-label="挖矿独立区">
+      <div class="mining-panel-head">
+        <div class="mining-badge-lg">矿</div>
+        <div class="mining-panel-copy">
+          <div class="mining-panel-title">挖矿雷达 <span class="mining-panel-count" id="mining-count">—</span></div>
+          <div class="mining-panel-desc" id="mining-desc">GPU PoW（PRL / QTC / NOID 风格）· NFT 变异盘 / Miner · 与上方打新列表分开</div>
+        </div>
+        <div class="chips mining-type-chips" id="mining-type-chips" aria-label="挖矿子类"></div>
+      </div>
+      <div class="mining-grid" id="mining-grid"></div>
     </section>
 
     <section class="sched-soon" id="sched-soon" aria-label="即将开售" hidden>
@@ -74,13 +87,15 @@
       <div class="chips" id="chain-chips" aria-label="链筛选"></div>
       <div class="chips" id="round-chips" aria-label="轮次筛选"></div>
       <div class="chips" id="lz-chips" aria-label="LayerZero 筛选"></div>
-      <div class="chips" id="mining-chips" aria-label="挖矿筛选"></div>
       <div class="stats-bar" id="stats"></div>
     </section>
 
-    <main class="grid" id="grid" aria-live="polite">
+    <section class="main-scout" aria-label="打新候选">
+      <div class="main-scout-head"><span class="main-scout-title">打新候选</span><span class="main-scout-sub">新台 / Meme / NFT · 不含挖矿区</span></div>
+      <main class="grid" id="grid" aria-live="polite">
       <div class="empty">加载中…</div>
     </main>
+    </section>
 
     <footer class="footer">
       Scout date 2026-10-15 · 数据来自 <code>data.json</code>（约每 10 分钟更新；刷新页面获取最新） · DYOR · 高风险

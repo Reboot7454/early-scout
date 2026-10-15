@@ -5,7 +5,8 @@
     chain: "all",
     round: "all",
     layerzero: "all",
-    miningFilter: "all", // all | on
+    miningFilter: "all", // unused for main; mining lives in panel
+    miningTypeFilter: "all", // all | gpu-pow | nft-mutation | nft-miner | other
     scheduleFilter: "all", // all | soon24 | hasSchedule | onchain
     query: "",
     sort: "earlyness",
@@ -379,7 +380,14 @@
     const q = state.query.trim().toLowerCase();
     let list = state.data.candidates.slice();
 
-    if (state.category !== "all") {
+    // 挖矿独立框：主列表默认排除挖矿候选（品类=挖矿 时仅用于跳转到挖矿区）
+    if (state.category === "挖矿") {
+      list = [];
+    } else {
+      list = list.filter((c) => !isMining(c));
+    }
+
+    if (state.category !== "all" && state.category !== "挖矿") {
       list = list.filter((c) => c.category === state.category);
     }
     if (state.chain !== "all") {
@@ -390,9 +398,6 @@
     }
     if (state.layerzero === "on") {
       list = list.filter(isLayerZero);
-    }
-    if (state.miningFilter === "on") {
-      list = list.filter(isMining);
     }
     if (state.scheduleFilter === "soon24") {
       list = list.filter(within24h);
@@ -591,13 +596,21 @@
       `;
     }
 
-    const miningHost = $("#mining-chips");
-    if (miningHost) {
-      const mCount = state.data.candidates.filter(isMining).length;
-      miningHost.innerHTML = `
-        <button type="button" class="chip chip-mining ${state.miningFilter === "all" ? "active" : ""}" data-group="miningFilter" data-value="all">全部（含非挖矿）</button>
-        <button type="button" class="chip chip-mining ${state.miningFilter === "on" ? "active" : ""}" data-group="miningFilter" data-value="on">挖矿监控 · ${mCount}</button>
-      `;
+    const miningTypeHost = $("#mining-type-chips");
+    if (miningTypeHost) {
+      const types = [
+        { id: "all", label: "全部挖矿" },
+        { id: "gpu-pow", label: "GPU PoW" },
+        { id: "nft-mutation", label: "NFT 变异盘" },
+        { id: "nft-miner", label: "Miner NFT" },
+        { id: "other", label: "其他" },
+      ];
+      miningTypeHost.innerHTML = types
+        .map(
+          (c) =>
+            `<button type="button" class="chip chip-mining ${state.miningTypeFilter === c.id ? "active" : ""}" data-group="miningTypeFilter" data-value="${c.id}">${c.label}</button>`
+        )
+        .join("");
     }
 
     const btn = $("#lz-filter-btn");
@@ -624,9 +637,65 @@
     }
   }
 
+  function miningList() {
+    let list = state.data.candidates.filter(isMining);
+    const typ = state.miningTypeFilter;
+    if (typ && typ !== "all") {
+      list = list.filter((c) => {
+        const mt = c.miningType || "";
+        if (typ === "nft-miner") {
+          return mt === "nft-miner" || (c.tags || []).some((x) => String(x).toLowerCase().includes("miner"));
+        }
+        if (typ === "nft-mutation") {
+          return mt === "nft-mutation" || (c.tags || []).some((x) => String(x).includes("变异"));
+        }
+        if (typ === "gpu-pow") {
+          return mt === "gpu-pow" || (c.tags || []).some((x) => ["pow", "gpu", "prl-like", "qtc-like", "noid-like"].includes(String(x).toLowerCase()));
+        }
+        return mt === typ || mt === "" || mt === "other";
+      });
+    }
+    const q = state.query.trim().toLowerCase();
+    if (q) {
+      list = list.filter((c) => {
+        const blob = [c.name, c.chain, c.whyWatch, c.background, ...(c.tags || [])].join(" ").toLowerCase();
+        return blob.includes(q);
+      });
+    }
+    return list.sort(
+      (a, b) =>
+        (b.scores?.overall ?? b.earlyScore ?? 0) - (a.scores?.overall ?? a.earlyScore ?? 0)
+    );
+  }
+
+  function renderMiningPanel() {
+    const grid = $("#mining-grid");
+    const countEl = $("#mining-count");
+    const desc = $("#mining-desc");
+    const pill = $("#mining-pill");
+    const panel = $("#mining-panel");
+    if (!grid || !state.data) return;
+    const allM = state.data.candidates.filter(isMining);
+    const list = miningList();
+    if (countEl) countEl.textContent = `· ${list.length}/${allM.length}`;
+    if (pill) pill.textContent = `挖矿区 · ${allM.length}`;
+    const watch = state.data.meta?.miningWatch;
+    if (desc && watch) {
+      const focus = (watch.focus || []).join(" · ");
+      desc.textContent = `${focus || "GPU PoW · NFT 变异盘"} · 与打新列表分开展示`;
+    }
+    if (!list.length) {
+      grid.innerHTML = `<div class="empty-mining">挖矿区暂无匹配项。可切子类或清空搜索。</div>`;
+    } else {
+      grid.innerHTML = list.map(cardHtml).join("");
+    }
+    if (panel) panel.hidden = allM.length === 0;
+  }
+
   function render() {
     state.nowMs = Date.now();
     renderSchedSoon();
+    renderMiningPanel();
     const list = filtered();
     const grid = $("#grid");
     if (!list.length) {
@@ -641,14 +710,16 @@
 
     const total = state.data.candidates.length;
     const lzN = state.data.candidates.filter(isLayerZero).length;
+    const mineN = state.data.candidates.filter(isMining).length;
     const soonN = state.data.candidates.filter(within24h).length;
     const schedN = state.data.candidates.filter(hasSchedule).length;
     $("#stats").innerHTML = `
-      显示 <b>${list.length}</b> / ${total} ·
+      打新 <b>${list.length}</b> ·
+      挖矿区 <b>${mineN}</b> ·
+      共 <b>${total}</b> ·
       即将开售 <b>${soonN}</b> ·
-      有日程 <b>${schedN}</b> ·
       LayerZero <b>${lzN}</b> ·
-      更新日期 <b>${escapeHtml(state.data.meta.updated)}</b> CST
+      更新 <b>${escapeHtml(state.data.meta.updated)}</b> CST
     `;
   }
 
@@ -707,6 +778,13 @@
       }
       renderChips();
       render();
+      if (group === "category" && value === "挖矿") {
+        const panel = $("#mining-panel");
+        if (panel) panel.scrollIntoView({ behavior: "smooth", block: "start" });
+        state.category = "all";
+        renderChips();
+        render();
+      }
     });
 
     // refresh countdown labels every 30s

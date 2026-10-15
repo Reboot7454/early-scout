@@ -42,5 +42,5 @@
 
 - 新品类 `category: "挖矿"`：GPU/PoW 币（PRL / QTC / NOID 风格）与 NFT 挖矿/变异盘。
 - 可选字段 `miningType`：`gpu-pow` | `nft-mutation` | `nft-miner` | `other`；`tags` 含 `挖矿`/`PoW`/`变异盘`。
-- 面板：品类 chip「挖矿」+ 顶栏「挖矿监控」筛选（同 LayerZero 监控逻辑）；卡片打「挖矿」徽章。
+- 面板：**挖矿独立框**（`#mining-panel`）与打新主列表分开展示；框内可筛 GPU PoW / NFT 变异盘 / Miner NFT；主列表默认排除挖矿候选。
 - 例行搜刮需同时扫：新 GPU 矿币、AI-PoW、NFT 变异盘 / Miner NFT 早期信号。
