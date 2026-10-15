@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-16 00:50 CST",
+    "updated": "2026-10-16 01:03 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "early crypto scout rounds 1–11",
-    "lastScout": "2026-10-16T00:50:11.268583+08:00",
+    "source": "early crypto scout rounds 1–12",
+    "lastScout": "2026-10-16T01:03:05.731846+08:00",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -45,7 +45,7 @@
         "sushi-oft-rh",
         "zeromeme-fun"
       ],
-      "note": "本轮 LZ 官推仍为 USDG OFT 案例研究与 Blockaid Bridge Sentinel；无 Zero/ATLAS 开链或发射台官宣。社区继续讨论 Zero Chain testnet 群，非官方日程。ATLAS 仍为后期 2026 头无交易所叙事。继续盯 Zero/ATLAS/OFT。"
+      "note": "本轮 @LayerZero_Core 仍推 USDG OFT 案例（Arbitrum 纳入）与此前 Blockaid Bridge Sentinel；无 Zero/ATLAS 官方开链或发射台日程。社区 @0xmeto_ 继续喊 Zero Chain testnet 并开非官方 TG。@omnisea 推 OFT/ONFT-as-a-service（含 $DRB）；@StargateFinance 上线 MemeCore $M OFT；@jumperapp 主推 perps 候补与 Base/Aave 活动。继续盯 Zero/ATLAS/OFT。"
     },
     "round5Added": [
       "farming-season",
@@ -92,6 +92,13 @@
       "pmav",
       "robinpad-xyz",
       "enter-the-anime"
+    ],
+    "round12Added": [
+      "orbit-launchpad",
+      "orbitpad-fun",
+      "robinlab",
+      "unbuy-fun",
+      "beacon-genesis"
     ]
   },
   "candidates": [
@@ -1618,6 +1625,133 @@
         "free-mint",
         "Robinhood",
         "anime"
+      ]
+    },
+    {
+      "id": "orbit-launchpad",
+      "name": "Orbit Launchpad",
+      "category": "新台",
+      "chain": "Robinhood",
+      "round": 12,
+      "riskLevel": "high",
+      "riskScore": 78,
+      "earlyScore": 93,
+      "whyWatch": "RH 链 bonding-curve→Uniswap V4 锁仓毕业的非托管发射台；站上 indexer 仍在追块、Fresh launches 为空，属空板早期窗口。",
+      "background": "orbiterlabs.app / docs 明确仅支持 Robinhood Chain (4663)；Curve V2 factory 0x7eD598BcEf8bd9Edd8C97A195C6d13f40801EC7e；无强官推账号，以站点与 docs 为准。",
+      "risk": "indexer 不可用时期板面空白；合约为共享 factory、界面不托管但发射代币仍高归零；团队社交公开度低。",
+      "links": {
+        "x": null,
+        "site": "https://orbiterlabs.app/",
+        "docs": "https://orbiterlabs.app/docs"
+      },
+      "flag": "空板",
+      "tags": [
+        "launchpad",
+        "Robinhood",
+        "bonding-curve",
+        "early",
+        "empty-board"
+      ]
+    },
+    {
+      "id": "orbitpad-fun",
+      "name": "Orbitpad (Pons V2)",
+      "category": "新台",
+      "chain": "Robinhood",
+      "round": 12,
+      "riskLevel": "high",
+      "riskScore": 76,
+      "earlyScore": 91,
+      "whyWatch": "RH 上基于 Pons V2 的 Launch·Trade·Graduate 前端；板面计数仍空、毕业阈值 4.2 ETH，适合盯首批发射。",
+      "background": "orbitpad.fun 可访问；1B 固定供应、1% 交易费多数给创作者、满额后迁 Uniswap v4 并永久锁 LP。",
+      "risk": "与 orbiterlabs 名称易混；依赖 Pons 合约层；零历史发射数据。",
+      "links": {
+        "x": null,
+        "site": "https://orbitpad.fun/"
+      },
+      "flag": "空板",
+      "tags": [
+        "launchpad",
+        "Robinhood",
+        "Pons",
+        "early",
+        "empty-board"
+      ]
+    },
+    {
+      "id": "robinlab",
+      "name": "Robin Labs Pad V4",
+      "category": "新台",
+      "chain": "Robinhood",
+      "round": 12,
+      "riskLevel": "high",
+      "riskScore": 77,
+      "earlyScore": 92,
+      "whyWatch": "RH 无曲线直开 Uniswap v4/USDG 池发射台；站上 Total launches 仍为空占位，创作者可自定开盘市值与税。",
+      "background": "robinlab.io：开盘市值 $100–$1M、税 0–10%、80% 税以 USDG 返创作者、LP 永久锁；Featured 全为占位。",
+      "risk": "全新空板；Dev/treasury 地址需上链自核；税收模型易催生垃圾币。",
+      "links": {
+        "x": null,
+        "site": "https://www.robinlab.io/"
+      },
+      "flag": "空板",
+      "tags": [
+        "launchpad",
+        "Robinhood",
+        "Uniswap-v4",
+        "USDG",
+        "early"
+      ]
+    },
+    {
+      "id": "unbuy-fun",
+      "name": "Unbuy",
+      "category": "新台",
+      "chain": "Solana",
+      "round": 12,
+      "riskLevel": "high",
+      "riskScore": 84,
+      "earlyScore": 94,
+      "whyWatch": "Solana「买单可撤销」发射台今日刚开：买时可设 15m–24h undo 窗口，SOL 先托管再进曲线；站与官推同日上线。",
+      "background": "unbuy.fun / @Unbuyfun；官宣 $UNBUY CA 2XJTEyYAtrU4K4UBAzJY2cjr4BM29WWaofmPMjPbpump（pump 曲线）；毕业约 $20K 后迁 Meteora/PumpSwap 锁 LP。",
+      "risk": "账号当日新建、粉丝极少；Larpcheck ~50：undo 程序部分可验证但 burn/refund 声明未全核、$UNBUY 本身在 pump；极高归零与假站风险。",
+      "links": {
+        "x": "https://x.com/Unbuyfun",
+        "site": "https://unbuy.fun/"
+      },
+      "flag": "极新",
+      "tags": [
+        "launchpad",
+        "Solana",
+        "undo",
+        "meme",
+        "day-zero"
+      ]
+    },
+    {
+      "id": "beacon-genesis",
+      "name": "BEACON GENESIS (LinkersBeacon)",
+      "category": "NFT",
+      "chain": "InterLink",
+      "round": 12,
+      "riskLevel": "high",
+      "riskScore": 73,
+      "earlyScore": 85,
+      "whyWatch": "InterLink 生态 LinkersBeacon 刚官宣 BEACON GENESIS：面向 Discord 贡献者的专属 mint，细节未开、仍处预热。",
+      "background": "@LinkersBeacon 10/15 官宣将上自家 NFT Launchpad；福利含 Mainnet WL / Beacon XP；项目已在 InterLink testnet 有交易与 Pass mint 历史。",
+      "risk": "mint 价/链上合约未出；资格绑定 Discord/XP 易 FOMO；InterLink 主网进度不确定。",
+      "links": {
+        "x": "https://x.com/LinkersBeacon",
+        "site": null,
+        "announce": "https://x.com/LinkersBeacon/status/2110649557969248266"
+      },
+      "flag": "预热",
+      "tags": [
+        "NFT",
+        "InterLink",
+        "whitelist",
+        "early",
+        "genesis"
       ]
     }
   ]
