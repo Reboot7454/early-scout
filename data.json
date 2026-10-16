@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-16 08:40 CST",
+    "updated": "2026-10-16 08:58 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "rounds 1–48 · Trencher/OS/X/DeepSeek",
-    "lastScout": "2026-10-16T08:40:00+08:00",
+    "source": "rounds 1–49 · Trencher/OS/X/DeepSeek",
+    "lastScout": "2026-10-16T08:58:13+08:00",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -341,7 +341,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 48,
+    "round": 49,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -351,9 +351,577 @@
       "rhcomputers",
       "orcz-on-ink",
       "gon-legend"
+    ],
+    "round49Added": [
+      "the-surfboard",
+      "retro-wheels",
+      "axii",
+      "bakerup",
+      "derek-mercer-2006",
+      "kitty-cat",
+      "blackwaterfleet",
+      "distortface"
     ]
   },
   "candidates": [
+    {
+      "id": "the-surfboard",
+      "name": "The SurfBoard",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "status": "live",
+      "mintStatus": "open",
+      "tags": [
+        "RH",
+        "极早期",
+        "本轮新",
+        "FREE",
+        "PUBLIC",
+        "短窗",
+        "≤2h"
+      ],
+      "links": {
+        "mint": "https://opensea.io/collection/the-surfboard",
+        "opensea": "https://opensea.io/collection/the-surfboard",
+        "x": "https://x.com/jabrailywud",
+        "site": "https://nft.asksurf.ai",
+        "signal": "https://neverfuckingtrade.com/"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-16T00:45:00Z",
+        "endsAt": "2026-10-16T01:00:00Z",
+        "phases": [
+          {
+            "name": "PUBLIC",
+            "startsAt": "2026-10-16T00:45:00Z",
+            "endsAt": "2026-10-16T01:00:00Z",
+            "price": "FREE",
+            "perWallet": null
+          }
+        ],
+        "source": "neverfuckingtrade.com + OpenSea",
+        "note": "本轮新：PUBLIC FREE≈08:45–09:00 CST短窗；Trencher~360/OS~439 /5555；异于surfboard-genesis(SurfAIHQ/6666 claim)。"
+      },
+      "onchain": {
+        "chainId": "robinhood",
+        "contract": null,
+        "standard": "erc721",
+        "mintStatus": "open",
+        "minted": 439,
+        "totalSupply": 439,
+        "maxSupply": 5555,
+        "explorer": "https://opensea.io/collection/the-surfboard",
+        "note": "Trencher~360/5555；OS supply~439；短窗至≈09:00 CST",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00"
+      },
+      "flag": "本轮新",
+      "scores": {
+        "early": 88,
+        "actionable": 92,
+        "novelty": 58,
+        "risk": 70,
+        "overall": 71
+      },
+      "highlights": [
+        "RH PUBLIC FREE短窗≈08:45–09:00 CST，Trencher/OS约360–439/5555",
+        "窗口≤2h可操作，免费参与门槛低",
+        "OpenSea slug the-surfboard，与已收录surfboard-genesis不同合集"
+      ],
+      "drawbacks": [
+        "窗口约15分钟，极易错过或gas拥堵",
+        "站点nft.asksurf.ai与Surf生态相关，需防混淆/仿盘",
+        "铸造进度已数百，热度竞争中"
+      ],
+      "whatsNew": "本轮新：The SurfBoard PUBLIC FREE短窗≈08:45–09:00 CST；~439/5555；异于surfboard-genesis。",
+      "risk": "高风险·非投资建议；免费/低价铸造仍有合约/钓鱼/仿盘与破发风险",
+      "riskLevel": "high",
+      "firstSeen": "2026-10-16T08:58:13+08:00",
+      "addedAt": "2026-10-16T08:58:13+08:00",
+      "round": 49,
+      "earlyScore": 88,
+      "riskScore": 70
+    },
+    {
+      "id": "retro-wheels",
+      "name": "Retro Wheels",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "status": "upcoming",
+      "mintStatus": "upcoming",
+      "tags": [
+        "RH",
+        "极早期",
+        "本轮新",
+        "FREE",
+        "PUBLIC",
+        "短窗",
+        "mint_soon",
+        "≤2h"
+      ],
+      "links": {
+        "mint": "https://opensea.io/collection/retro-wheels",
+        "opensea": "https://opensea.io/collection/retro-wheels",
+        "signal": "https://neverfuckingtrade.com/"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-16T01:00:00Z",
+        "endsAt": "2026-10-16T01:05:00Z",
+        "phases": [
+          {
+            "name": "PUBLIC",
+            "startsAt": "2026-10-16T01:00:00Z",
+            "endsAt": "2026-10-16T01:05:00Z",
+            "price": "FREE",
+            "perWallet": null
+          }
+        ],
+        "source": "neverfuckingtrade.com",
+        "note": "本轮新：PUBLIC FREE≈09:00–09:05 CST仅5分钟；Trencher/OS仍0/1500。"
+      },
+      "onchain": {
+        "chainId": "robinhood",
+        "contract": null,
+        "standard": "erc721",
+        "mintStatus": "upcoming",
+        "minted": 0,
+        "totalSupply": 0,
+        "maxSupply": 1500,
+        "explorer": "https://opensea.io/collection/retro-wheels",
+        "note": "Trencher upcoming 0/1500；5分钟极短窗",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00"
+      },
+      "flag": "本轮新",
+      "scores": {
+        "early": 96,
+        "actionable": 95,
+        "novelty": 65,
+        "risk": 78,
+        "overall": 75
+      },
+      "highlights": [
+        "即将PUBLIC FREE≈09:00–09:05 CST，仅5分钟极短窗",
+        "供应1500仍0铸造，极早期可排队",
+        "RH链免费公铸，成本接近零"
+      ],
+      "drawbacks": [
+        "5分钟窗极难手动赶上，bot/拥堵风险高",
+        "项目信息少，合约/团队待核验",
+        "短窗免费盘常见秒空与破发"
+      ],
+      "whatsNew": "本轮新：Retro Wheels PUBLIC FREE≈09:00–09:05 CST仅5分钟；0/1500。",
+      "risk": "高风险·非投资建议；免费/低价铸造仍有合约/钓鱼/仿盘与破发风险",
+      "riskLevel": "high",
+      "firstSeen": "2026-10-16T08:58:13+08:00",
+      "addedAt": "2026-10-16T08:58:13+08:00",
+      "round": 49,
+      "earlyScore": 96,
+      "riskScore": 78
+    },
+    {
+      "id": "axii",
+      "name": "axii",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "status": "live",
+      "mintStatus": "open",
+      "tags": [
+        "RH",
+        "极早期",
+        "本轮新",
+        "FREE",
+        "PUBLIC",
+        "无限供应风险"
+      ],
+      "links": {
+        "mint": "https://opensea.io/collection/axii-777559558",
+        "opensea": "https://opensea.io/collection/axii-777559558",
+        "signal": "https://neverfuckingtrade.com/"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-16T00:00:00Z",
+        "phases": [
+          {
+            "name": "PUBLIC",
+            "startsAt": "2026-10-16T00:00:00Z",
+            "price": "FREE",
+            "perWallet": null
+          }
+        ],
+        "source": "neverfuckingtrade.com + OpenSea",
+        "note": "本轮新：PUBLIC FREE LIVE；Trencher~272/OS~280 /1e8级供应。"
+      },
+      "onchain": {
+        "chainId": "robinhood",
+        "contract": "0x3f7ce4a3d4a7c0044603fd76f1618f9cbf8504be",
+        "standard": "erc721",
+        "mintStatus": "open",
+        "minted": 280,
+        "totalSupply": 280,
+        "maxSupply": 100000000,
+        "explorer": "https://opensea.io/collection/axii-777559558",
+        "note": "CA 0x3f7ce4…504be；OS~280；供应极大",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00"
+      },
+      "flag": "本轮新",
+      "scores": {
+        "early": 82,
+        "actionable": 88,
+        "novelty": 48,
+        "risk": 82,
+        "overall": 64
+      },
+      "highlights": [
+        "RH PUBLIC FREE正在LIVE，可立即打",
+        "合约0x3f7ce4…504be已标，OS约280枚",
+        "低门槛试水RH新合集"
+      ],
+      "drawbacks": [
+        "标称供应约1亿级，稀缺性极弱",
+        "无限/超大供应易稀释与破发",
+        "项目背景不明，仿盘/跑路风险高"
+      ],
+      "whatsNew": "本轮新：axii PUBLIC FREE LIVE；~280/1e8；CA 0x3f7ce4…504be。",
+      "risk": "高风险·非投资建议；免费/低价铸造仍有合约/钓鱼/仿盘与破发风险",
+      "riskLevel": "high",
+      "firstSeen": "2026-10-16T08:58:13+08:00",
+      "addedAt": "2026-10-16T08:58:13+08:00",
+      "round": 49,
+      "earlyScore": 82,
+      "riskScore": 82
+    },
+    {
+      "id": "bakerup",
+      "name": "BAKERUP",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "status": "live",
+      "mintStatus": "open",
+      "tags": [
+        "RH",
+        "本轮新",
+        "PUBLIC",
+        "付费"
+      ],
+      "links": {
+        "mint": "https://opensea.io/collection/bakerup",
+        "opensea": "https://opensea.io/collection/bakerup",
+        "signal": "https://neverfuckingtrade.com/"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "phases": [
+          {
+            "name": "PUBLIC",
+            "price": "0.095 ETH",
+            "perWallet": null
+          }
+        ],
+        "source": "neverfuckingtrade.com",
+        "note": "本轮新：PUBLIC@0.095 ETH LIVE；Trencher/OS~306/1165。"
+      },
+      "onchain": {
+        "chainId": "robinhood",
+        "contract": null,
+        "standard": "erc721",
+        "mintStatus": "open",
+        "minted": 306,
+        "totalSupply": 306,
+        "maxSupply": 1165,
+        "explorer": "https://opensea.io/collection/bakerup",
+        "note": "~306/1165 @0.095 ETH",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00"
+      },
+      "flag": "本轮新",
+      "scores": {
+        "early": 70,
+        "actionable": 62,
+        "novelty": 50,
+        "risk": 75,
+        "overall": 55
+      },
+      "highlights": [
+        "RH合集LIVE，供应1165进度~306",
+        "OpenSea可成交，地板可见",
+        "体量不大相对可控"
+      ],
+      "drawbacks": [
+        "公铸价0.095 ETH偏高，性价比弱",
+        "早期信息少，付费风险大",
+        "非免费盘，不符合极低成本优先"
+      ],
+      "whatsNew": "本轮新：BAKERUP PUBLIC@0.095 ETH；~306/1165。",
+      "risk": "高风险·非投资建议；免费/低价铸造仍有合约/钓鱼/仿盘与破发风险",
+      "riskLevel": "high",
+      "firstSeen": "2026-10-16T08:58:13+08:00",
+      "addedAt": "2026-10-16T08:58:13+08:00",
+      "round": 49,
+      "earlyScore": 70,
+      "riskScore": 75
+    },
+    {
+      "id": "derek-mercer-2006",
+      "name": "Derek Mercer 2006",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "status": "upcoming",
+      "mintStatus": "upcoming",
+      "tags": [
+        "RH",
+        "本轮新",
+        "FREE",
+        "upcoming"
+      ],
+      "links": {
+        "signal": "https://neverfuckingtrade.com/"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-16T19:00:00Z",
+        "phases": [
+          {
+            "name": "FREE tiers",
+            "startsAt": "2026-10-16T19:00:00Z",
+            "price": "FREE"
+          }
+        ],
+        "source": "neverfuckingtrade.com",
+        "note": "本轮新：FREE多档自≈19:00 UTC（次日03:00 CST）。"
+      },
+      "onchain": {
+        "chainId": "robinhood",
+        "mintStatus": "upcoming",
+        "minted": 0,
+        "maxSupply": null,
+        "note": "Trencher upcoming FREE tiers",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00"
+      },
+      "flag": "本轮新",
+      "scores": {
+        "early": 78,
+        "actionable": 55,
+        "novelty": 60,
+        "risk": 72,
+        "overall": 59
+      },
+      "highlights": [
+        "RH FREE多档排期自19:00 UTC",
+        "仍为upcoming，可提前备单",
+        "免费档符合低成本早期偏好"
+      ],
+      "drawbacks": [
+        "具体供应/合集链接待补",
+        "距开铸仍数小时，排期可能变",
+        "信息主要来自Trencher看板"
+      ],
+      "whatsNew": "本轮新：Derek Mercer 2006 FREE多档自≈19:00 UTC（次日03:00 CST）。",
+      "risk": "高风险·非投资建议；免费/低价铸造仍有合约/钓鱼/仿盘与破发风险",
+      "riskLevel": "high",
+      "firstSeen": "2026-10-16T08:58:13+08:00",
+      "addedAt": "2026-10-16T08:58:13+08:00",
+      "round": 49,
+      "earlyScore": 78,
+      "riskScore": 72
+    },
+    {
+      "id": "kitty-cat",
+      "name": "Kitty Cat",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "status": "upcoming",
+      "mintStatus": "upcoming",
+      "tags": [
+        "RH",
+        "本轮新",
+        "upcoming",
+        "hype"
+      ],
+      "links": {
+        "site": "https://thekittycat.xyz",
+        "signal": "https://neverfuckingtrade.com/"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-18T00:00:00Z",
+        "phases": [
+          {
+            "name": "TBA",
+            "startsAt": "2026-10-18T00:00:00Z"
+          }
+        ],
+        "source": "neverfuckingtrade.com",
+        "note": "本轮新：排期约10-18；站点thekittycat.xyz；Trencher标记hype。"
+      },
+      "onchain": {
+        "chainId": "robinhood",
+        "mintStatus": "upcoming",
+        "minted": 0,
+        "note": "upcoming 10-18",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00"
+      },
+      "flag": "本轮新",
+      "scores": {
+        "early": 72,
+        "actionable": 40,
+        "novelty": 58,
+        "risk": 68,
+        "overall": 53
+      },
+      "highlights": [
+        "RH项目官站thekittycat.xyz已露",
+        "Trencher标hype，关注度在升温",
+        "距10-18仍有窗口可跟踪WL"
+      ],
+      "drawbacks": [
+        "具体mint阶段/价格未定",
+        "距开铸约2天，非即时可打",
+        "hype项目易假链接"
+      ],
+      "whatsNew": "本轮新：Kitty Cat约10-18开；thekittycat.xyz；Trencher hype。",
+      "risk": "高风险·非投资建议；免费/低价铸造仍有合约/钓鱼/仿盘与破发风险",
+      "riskLevel": "high",
+      "firstSeen": "2026-10-16T08:58:13+08:00",
+      "addedAt": "2026-10-16T08:58:13+08:00",
+      "round": 49,
+      "earlyScore": 72,
+      "riskScore": 68
+    },
+    {
+      "id": "blackwaterfleet",
+      "name": "BlackWaterFleet",
+      "category": "NFT",
+      "chain": "Ethereum",
+      "status": "upcoming",
+      "mintStatus": "upcoming",
+      "tags": [
+        "ETH",
+        "本轮新",
+        "upcoming"
+      ],
+      "links": {
+        "signal": "https://neverfuckingtrade.com/"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-16T17:00:00Z",
+        "phases": [
+          {
+            "name": "mint",
+            "startsAt": "2026-10-16T17:00:00Z"
+          }
+        ],
+        "source": "neverfuckingtrade.com",
+        "note": "本轮新：约17:00 UTC（次日01:00 CST）开铸。"
+      },
+      "onchain": {
+        "chainId": "ethereum",
+        "mintStatus": "upcoming",
+        "minted": 0,
+        "note": "Trencher tonight 17:00 UTC",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00"
+      },
+      "flag": "本轮新",
+      "scores": {
+        "early": 74,
+        "actionable": 48,
+        "novelty": 55,
+        "risk": 76,
+        "overall": 54
+      },
+      "highlights": [
+        "ETH盘约今晚17:00 UTC开铸，日历可排",
+        "Trencher新上板，信息新鲜",
+        "主网关注度通常高于山寨链"
+      ],
+      "drawbacks": [
+        "ETH gas贵，小资金不友好",
+        "合集/合约链接待核验",
+        "晚上时段易错过"
+      ],
+      "whatsNew": "本轮新：BlackWaterFleet ETH约17:00 UTC（次日01:00 CST）。",
+      "risk": "高风险·非投资建议；免费/低价铸造仍有合约/钓鱼/仿盘与破发风险",
+      "riskLevel": "high",
+      "firstSeen": "2026-10-16T08:58:13+08:00",
+      "addedAt": "2026-10-16T08:58:13+08:00",
+      "round": 49,
+      "earlyScore": 74,
+      "riskScore": 76
+    },
+    {
+      "id": "distortface",
+      "name": "DISTORTFACE",
+      "category": "NFT",
+      "chain": "Ethereum",
+      "status": "upcoming",
+      "mintStatus": "upcoming",
+      "tags": [
+        "ETH",
+        "本轮新",
+        "PUBLIC",
+        "高价",
+        "hype"
+      ],
+      "links": {
+        "signal": "https://neverfuckingtrade.com/"
+      },
+      "schedule": {
+        "status": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-16T06:20:00Z",
+        "phases": [
+          {
+            "name": "PUBLIC",
+            "startsAt": "2026-10-16T06:20:00Z",
+            "price": "1 ETH"
+          }
+        ],
+        "source": "neverfuckingtrade.com",
+        "note": "本轮新：PUBLIC@1 ETH自06:20 UTC；已有~8/5000；Trencher hype hot。"
+      },
+      "onchain": {
+        "chainId": "ethereum",
+        "mintStatus": "upcoming",
+        "minted": 8,
+        "maxSupply": 5000,
+        "note": "~8/5000 @1 ETH hype",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00"
+      },
+      "flag": "本轮新",
+      "scores": {
+        "early": 65,
+        "actionable": 35,
+        "novelty": 62,
+        "risk": 85,
+        "overall": 47
+      },
+      "highlights": [
+        "Trencher标hype hot，热度信号强",
+        "供应5000已有少量预铸/早鸟",
+        "主网项目曝光度高"
+      ],
+      "drawbacks": [
+        "公铸1 ETH极贵，风险收益比差",
+        "已过06:20 UTC节点，窗口/阶段需再核",
+        "高价盘破发与套牢风险大"
+      ],
+      "whatsNew": "本轮新：DISTORTFACE PUBLIC@1 ETH；~8/5000；Trencher hype。",
+      "risk": "高风险·非投资建议；免费/低价铸造仍有合约/钓鱼/仿盘与破发风险",
+      "riskLevel": "high",
+      "firstSeen": "2026-10-16T08:58:13+08:00",
+      "addedAt": "2026-10-16T08:58:13+08:00",
+      "round": 49,
+      "earlyScore": 65,
+      "riskScore": 85
+    },
     {
       "id": "computerrh",
       "name": "ComputerRH",
@@ -387,21 +955,21 @@
           }
         ],
         "source": "neverfuckingtrade.com",
-        "note": "PUBLIC FREE已开；Trencher~12/OS~10 /4444。"
+        "note": "PUBLIC FREE已开；Trencher~227/4444。"
       },
       "onchain": {
         "chainId": "robinhood",
         "contract": "0x70575456572b57d424006f2bb2ef40ff756f914e",
         "standard": "erc721",
         "mintStatus": "open",
-        "minted": 12,
-        "totalSupply": 12,
+        "minted": 227,
+        "totalSupply": 227,
         "maxSupply": 4444,
         "explorer": "https://opensea.io/collection/computerrh",
-        "note": "PUBLIC FREE已开；Trencher~12/OS~10 /4444。",
-        "lastCheckedAt": "2026-10-16T08:40:00+08:00"
+        "note": "PUBLIC FREE已开；Trencher~12/OS~10 /4444。；R49 Trencher/OS refresh ~227",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00"
       },
-      "flag": null,
+      "flag": "续更",
       "scores": {
         "early": 100,
         "actionable": 80,
@@ -419,7 +987,7 @@
         "新项目缺乏历史数据与社区验证",
         "免费铸造可能吸引大量刷量地址"
       ],
-      "whatsNew": "续更：ComputerRH PUBLIC FREE已开；~12/4444。",
+      "whatsNew": "续更：ComputerRH PUBLIC FREE；~227/4444（↑自~12）。",
       "risk": "新项目合约未经审计风险；名称易与旧项目混淆，需仔细核对官方渠道，避免误铸假合约",
       "riskLevel": "medium",
       "firstSeen": "2026-10-16T08:20:13.104062+08:00",
@@ -555,10 +1123,10 @@
         "totalSupply": 389,
         "maxSupply": 1111,
         "explorer": "https://opensea.io/collection/hell-demons-219853693",
-        "note": "WL FREE仍LIVE至≈13:09 CST；Trencher~389/1111。",
-        "lastCheckedAt": "2026-10-16T08:40:00+08:00"
+        "note": "WL FREE仍LIVE至≈13:09 CST；Trencher~389/1111。；R49 Trencher/OS refresh ~389",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00"
       },
-      "flag": null,
+      "flag": "续更",
       "scores": {
         "early": 80,
         "actionable": 90,
@@ -2572,7 +3140,7 @@
         "今晚",
         "临近"
       ],
-      "flag": "续更",
+      "flag": "临近",
       "links": {
         "x": "https://x.com/OwlCultNFT",
         "mint": "https://opensea.io/collection/owlcult",
@@ -2610,9 +3178,9 @@
         "minted": 379,
         "totalSupply": 379,
         "maxSupply": 1111,
-        "lastCheckedAt": "2026-10-16T08:40:00+08:00",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00",
         "explorer": "https://opensea.io/collection/owlcult",
-        "note": "Freelist FREE仍LIVE至≈09:30 CST；Trencher/OS~379/1111；Public≈09:30短窗。"
+        "note": "Freelist FREE仍LIVE至≈09:30 CST；Trencher/OS~379/1111；Public≈09:30短窗。；R49 Trencher/OS refresh ~379"
       },
       "round": 38,
       "scores": {
@@ -2638,7 +3206,7 @@
       "riskLevel": "medium",
       "firstSeen": "2026-10-16T06:26:02.747727+08:00",
       "addedAt": "2026-10-16T06:26:02.747727+08:00",
-      "whatsNew": "阶段续开：OwlCult Freelist至≈09:30 CST；~379/1111。",
+      "whatsNew": "临近：OwlCult Freelist至≈09:30 CST；~379/1111；Public短窗≈09:30。",
       "background": "Robinhood Chain 上的 Autonomous AI Agents NFT（OwlCult）。",
       "whyWatch": "AI+RH 免费 Freelist 仍 live，且供应量未过半。"
     },
@@ -2731,7 +3299,7 @@
         "极早期",
         "今晚"
       ],
-      "flag": "临近",
+      "flag": "续更",
       "links": {
         "mint": "https://opensea.io/collection/pixel-error-810016359",
         "site": "https://opensea.io/collection/pixel-error-810016359",
@@ -2768,9 +3336,9 @@
         "minted": 480,
         "totalSupply": 480,
         "maxSupply": 2222,
-        "lastCheckedAt": "2026-10-16T08:40:00+08:00",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00",
         "explorer": "https://opensea.io/collection/pixel-error-810016359",
-        "note": "FCFS FREE仍LIVE至≈11:22 CST；Trencher~480/2222。"
+        "note": "FCFS FREE仍LIVE至≈11:22 CST；Trencher~480/2222。；R49 Trencher/OS refresh ~480"
       },
       "background": "RH Pixel Error：WL/FCFS FREE → Public 0.00223；合约 0x33ba44a8…；Trencher dust。",
       "round": 37,
@@ -2813,7 +3381,7 @@
         "极早期",
         "今晚"
       ],
-      "flag": "临近",
+      "flag": "续更",
       "links": {
         "mint": "https://opensea.io/collection/tortoise-rh-303792327",
         "site": "https://opensea.io/collection/tortoise-rh-303792327",
@@ -2847,19 +3415,19 @@
           }
         ],
         "source": "neverfuckingtrade.com",
-        "note": "阶段变化：ZOO1至≈08:39结束→ZOO2 FREE至≈11:39 CST；Trencher~617/4444。"
+        "note": "ZOO2 FREE至≈11:39 CST；Trencher~622/4444。"
       },
       "onchain": {
         "chainId": "robinhood",
         "contract": "0xff6dedf77c15c953450f96ddbc3d7d25dac09e81",
         "standard": "erc721",
         "mintStatus": "open",
-        "minted": 617,
-        "totalSupply": 617,
+        "minted": 622,
+        "totalSupply": 622,
         "maxSupply": 4444,
-        "lastCheckedAt": "2026-10-16T08:40:00+08:00",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00",
         "explorer": "https://opensea.io/collection/tortoise-rh-303792327",
-        "note": "阶段变化：ZOO1至≈08:39结束→ZOO2 FREE至≈11:39 CST；Trencher~617/4444。"
+        "note": "阶段变化：ZOO1至≈08:39结束→ZOO2 FREE至≈11:39 CST；Trencher~617/4444。；R49 Trencher/OS refresh ~622"
       },
       "background": "RH Tortoise：Zoo1/Zoo2 FREE WL → Public 0.0027；合约 0xff6dedf7…；Trencher dust。",
       "round": 37,
@@ -2886,7 +3454,7 @@
       "riskLevel": "medium",
       "firstSeen": "2026-10-16T06:14:16.232257+08:00",
       "addedAt": "2026-10-16T06:14:16.232257+08:00",
-      "whatsNew": "阶段变化：Tortoise ZOO1→ZOO2（≈08:39）；~617/4444。"
+      "whatsNew": "续更：Tortoise ZOO2至≈11:39 CST；~622/4444。"
     },
     {
       "id": "ascii-dogs",
@@ -3498,9 +4066,9 @@
         "minted": 1136,
         "totalSupply": 1136,
         "maxSupply": 2000,
-        "lastCheckedAt": "2026-10-16T08:40:00+08:00",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00",
         "explorer": "https://opensea.io/collection/fuck-the-bears",
-        "note": "GTD FREE仍LIVE；Trencher~1136/2000。"
+        "note": "GTD FREE仍LIVE；Trencher~1136/2000。；R49 Trencher/OS refresh ~1136"
       }
     },
     {
@@ -3763,7 +4331,7 @@
         "hype dust、同质化 PFP",
         "二级深度极浅，机器人多"
       ],
-      "whatsNew": "续更：Billionaire Child FCFS~737至≈09:38 CST。",
+      "whatsNew": "续更：Billionaire FCFS~737/6000至≈09:38 CST；其后PUBLIC 0.0035。",
       "links": {
         "x": null,
         "opensea": "https://opensea.io/collection/billionaire-child",
@@ -3804,8 +4372,8 @@
         "totalSupply": 737,
         "maxSupply": 6000,
         "explorer": "https://opensea.io/collection/billionaire-child",
-        "lastCheckedAt": "2026-10-16T08:40:00+08:00",
-        "note": "FCFS FREE仍LIVE至≈09:38 CST；Trencher~737/6000；其后PUBLIC 0.0035。"
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00",
+        "note": "FCFS FREE仍LIVE至≈09:38 CST；Trencher~737/6000；其后PUBLIC 0.0035。；R49 Trencher/OS refresh ~737"
       },
       "flag": "供应",
       "firstSeen": "2026-10-16T04:46:46.649748+08:00",
@@ -3847,7 +4415,7 @@
         "猫系 NFT 同质化",
         "二级深度未知，机器人多"
       ],
-      "whatsNew": "续更：SHINNOBI CATZ WL~199/1111至≈18:06 CST。",
+      "whatsNew": "续更：SHINNOBI CATZ WL~199/1111。",
       "links": {
         "x": null,
         "opensea": "https://opensea.io/collection/shinnobi-catz",
@@ -3888,10 +4456,10 @@
         "totalSupply": 199,
         "maxSupply": 1111,
         "explorer": "https://opensea.io/collection/shinnobi-catz",
-        "lastCheckedAt": "2026-10-16T08:40:00+08:00",
-        "note": "WL FREE LIVE至≈18:06 CST；Trencher~199/1111。"
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00",
+        "note": "WL FREE LIVE至≈18:06 CST；Trencher~199/1111。；R49 Trencher/OS refresh ~199"
       },
-      "flag": "time_sensitive",
+      "flag": "续更",
       "firstSeen": "2026-10-16T04:38:27.499417+08:00",
       "addedAt": "2026-10-16T04:38:27.499417+08:00",
       "round": 30,
@@ -7444,7 +8012,7 @@
           }
         ],
         "source": "neverfuckingtrade.com + OpenSea",
-        "note": "WL FREE仍LIVE至≈09:30 CST；Trencher~2348/7777（↑自~2331）。"
+        "note": "WL FREE仍LIVE至≈09:30 CST；Trencher~2369/7777；其后HoodFI Name Owners 01:30–03:30 UTC。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -7452,12 +8020,12 @@
         "contract": "0x8bea43c58da13587fef26bb7344660d6c5909336",
         "standard": "erc721",
         "mintStatus": "open",
-        "totalSupply": 2348,
+        "totalSupply": 2369,
         "maxSupply": 7777,
-        "minted": 2348,
-        "lastCheckedAt": "2026-10-16T08:40:00+08:00",
+        "minted": 2369,
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00",
         "explorer": "https://opensea.io/collection/hoodpoker",
-        "note": "WL FREE仍LIVE至≈09:30 CST；Trencher~2348/7777（↑自~2331）。"
+        "note": "WL FREE仍LIVE至≈09:30 CST；Trencher~2348/7777（↑自~2331）。；R49 Trencher/OS refresh ~2369"
       },
       "highlights": [
         "1856/7777，WL FREE临近",
@@ -7469,7 +8037,7 @@
         "FREE项目质量参差",
         "已铸1856占比不低"
       ],
-      "whatsNew": "续更：HoodPoker WL~2348/7777至≈09:30 CST。",
+      "whatsNew": "续更：HoodPoker WL~2369/7777至≈09:30 CST；其后HoodFI Name 01:30–03:30 UTC。",
       "scores": {
         "early": 85,
         "actionable": 90,
@@ -8662,7 +9230,7 @@
         "仿盘多，只在官站买卖",
         "CA 需自行链上核对"
       ],
-      "whatsNew": "",
+      "whatsNew": "提醒：异于本轮新the-surfboard（OS the-surfboard/5555短窗）；本合集为SurfAIHQ claim向6666。",
       "scores": {
         "early": 78,
         "risk": 68,
@@ -10422,9 +10990,9 @@
         "minted": 711,
         "totalSupply": 711,
         "maxSupply": 1234,
-        "lastCheckedAt": "2026-10-16T08:40:00+08:00",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00",
         "explorer": "https://opensea.io/collection/dogbyte-126799736",
-        "note": "PUBLIC LIVE；Trencher~711/1234 @0.000033。"
+        "note": "PUBLIC LIVE；Trencher~711/1234 @0.000033。；R49 Trencher/OS refresh ~711"
       },
       "highlights": [
         "Public 进行中",
@@ -10441,7 +11009,7 @@
         "actionable": 100,
         "overall": 70
       },
-      "flag": "time_sensitive",
+      "flag": "续更",
       "mintStatus": "open",
       "status": "live",
       "tags": []
@@ -10845,7 +11413,7 @@
       "riskLevel": "high",
       "riskScore": 84,
       "earlyScore": 90,
-      "flag": "临近",
+      "flag": "续更",
       "tags": [
         "RH",
         "free mint",
@@ -10892,9 +11460,9 @@
         "minted": 1031,
         "totalSupply": 1031,
         "maxSupply": 4444,
-        "lastCheckedAt": "2026-10-16T08:40:00+08:00",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00",
         "explorer": "https://opensea.io/collection/crimson-ronin-831462114",
-        "note": "STAGE2 FREE仍LIVE至≈11:23 CST；Trencher~1031/4444。"
+        "note": "STAGE2 FREE仍LIVE至≈11:23 CST；Trencher~1031/4444。；R49 Trencher/OS refresh ~1031"
       },
       "highlights": [
         "仍在铸造",
@@ -10973,9 +11541,9 @@
         "minted": 98,
         "totalSupply": 98,
         "maxSupply": 5555,
-        "lastCheckedAt": "2026-10-16T08:40:00+08:00",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00",
         "explorer": "https://opensea.io/collection/mini-robots",
-        "note": "FCFS FREE仍LIVE至≈09:00 CST；其后PUBLIC 0.000004；Trencher~98/5555。"
+        "note": "FCFS FREE仍LIVE至≈09:00 CST；其后PUBLIC 0.000004；Trencher~98/5555。；R49 Trencher/OS refresh ~98"
       },
       "highlights": [
         "GTD仍LIVE至≈08:00CST",
@@ -10987,7 +11555,7 @@
         "铸造率低或需求不足",
         "续更项目热度需观察"
       ],
-      "whatsNew": "续更：MINI ROBOTS FCFS至≈09:00 CST；~98/5555。",
+      "whatsNew": "临近：MINI ROBOTS FCFS至≈09:00 CST；~98/5555；其后PUBLIC 0.000004。",
       "scores": {
         "early": 80,
         "actionable": 85,
@@ -11139,7 +11707,8 @@
         "novelty": 57,
         "actionable": 84,
         "overall": 67
-      }
+      },
+      "flag": "提醒"
     },
     {
       "id": "sack-of-chaos",
@@ -11253,9 +11822,9 @@
         "minted": 323,
         "totalSupply": 323,
         "maxSupply": 3333,
-        "lastCheckedAt": "2026-10-16T08:40:00+08:00",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00",
         "explorer": "https://opensea.io/collection/reliquialegacy",
-        "note": "GTD FREE仍LIVE至≈09:00 CST；Trencher~323/3333。"
+        "note": "GTD FREE仍LIVE至≈09:00 CST；Trencher~323/3333。；R49 Trencher/OS refresh ~323"
       },
       "highlights": [
         "全 onchain 遗物：mint 后五天逐渐「成形」",
@@ -11268,7 +11837,7 @@
         "Public 价/资格以官帖为准",
         "onchain 生成玩法不等于保值"
       ],
-      "whatsNew": "续更：Reliquia GTD至≈09:00 CST；~323/3333。",
+      "whatsNew": "临近：Reliquia GTD至≈09:00 CST；~323/3333。",
       "scores": {
         "early": 78,
         "risk": 72,
@@ -11288,7 +11857,7 @@
       "category": "NFT",
       "chain": "Robinhood Chain",
       "riskLevel": "extreme",
-      "flag": "临近",
+      "flag": "续更",
       "tags": [
         "RH",
         "free mint",
@@ -11335,9 +11904,9 @@
         "minted": 983,
         "totalSupply": 983,
         "maxSupply": 3333,
-        "lastCheckedAt": "2026-10-16T08:40:00+08:00",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00",
         "explorer": "https://opensea.io/collection/wandering-sages",
-        "note": "WL FREE仍LIVE至≈11:21 CST；Trencher~983/3333。"
+        "note": "WL FREE仍LIVE至≈11:21 CST；Trencher~983/3333。；R49 Trencher/OS refresh ~983"
       },
       "highlights": [
         "RH FREE WL 短窗约至 04:03 CST，随后 Public 0.003",
@@ -11348,7 +11917,7 @@
         "极高：社媒弱、供给已过半 WL",
         "Public 付费"
       ],
-      "whatsNew": "续更：Wandering Sages WL~983/3333至≈11:21 CST。",
+      "whatsNew": "续更：Wandering Sages WL~983至≈11:21 CST。",
       "scores": {
         "early": 70,
         "risk": 88,
@@ -11368,7 +11937,7 @@
       "category": "NFT",
       "chain": "Robinhood Chain",
       "riskLevel": "extreme",
-      "flag": "临近",
+      "flag": "续更",
       "tags": [
         "RH",
         "free mint",
@@ -11411,12 +11980,12 @@
         "contract": "0xe24e952b4166a1a1d6d4dd7fca10898b12024106",
         "standard": "erc721",
         "mintStatus": "open",
-        "minted": 214,
-        "totalSupply": 214,
+        "minted": 225,
+        "totalSupply": 225,
         "maxSupply": 1111,
-        "lastCheckedAt": "2026-10-16T08:40:00+08:00",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00",
         "explorer": "https://opensea.io/collection/tuff-wizards-952710975",
-        "note": "FCFS FREE仍LIVE至≈18:16 CST；Trencher~214/1111。"
+        "note": "FCFS FREE仍LIVE至≈18:16 CST；Trencher~214/1111。；R49 Trencher/OS refresh ~225"
       },
       "highlights": [
         "RH GTD FREE LIVE 至约 08:16 CST，1111 供应",
@@ -11427,7 +11996,7 @@
         "极高：名称土、无官推核对",
         "1111/钱包额度像扫货盘"
       ],
-      "whatsNew": "续更：TUFF WIZARDS FCFS FREE~214/1111至≈18:16 CST。",
+      "whatsNew": "续更：Tuff Wizards FCFS~225。",
       "scores": {
         "early": 75,
         "risk": 92,
@@ -12437,12 +13006,12 @@
         "contract": "0x5d3efeb99b48ce29745280ac5c72c7c8dcd5bb0e",
         "standard": "erc721",
         "mintStatus": "open",
-        "minted": 255,
-        "totalSupply": 255,
+        "minted": 267,
+        "totalSupply": 267,
         "maxSupply": 11111,
-        "lastCheckedAt": "2026-10-16T08:40:00+08:00",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00",
         "explorer": "https://opensea.io/collection/keysnfts",
-        "note": "WL FREE仍LIVE（DON'T MINT/Keys）；Trencher~255/11111至≈次日03:29 CST。"
+        "note": "WL FREE仍LIVE（DON'T MINT/Keys）；Trencher~255/11111至≈次日03:29 CST。；R49 Trencher/OS refresh ~267"
       },
       "highlights": [
         "仍有铸造进度",
@@ -12452,7 +13021,7 @@
         "合集名 DON'T MINT，疑似陷阱/玩笑",
         "极高风险"
       ],
-      "whatsNew": "续更：Keys/DON'T MINT WL~255/11111。",
+      "whatsNew": "续更：Keys/DON'T MINT WL~267/11111。",
       "scores": {
         "early": 80,
         "risk": 82,
@@ -12520,9 +13089,9 @@
         "minted": 234,
         "totalSupply": 234,
         "maxSupply": 1000,
-        "lastCheckedAt": "2026-10-16T08:40:00+08:00",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00",
         "explorer": "https://opensea.io/collection/astral-lotus",
-        "note": "GTD FREE仍LIVE至≈09:41 CST；Trencher~234/1000。"
+        "note": "GTD FREE仍LIVE至≈09:41 CST；Trencher~234/1000。；R49 Trencher/OS refresh ~234"
       },
       "highlights": [
         "GTD FREE LIVE，供应 1000",
@@ -12534,7 +13103,7 @@
         "给号盘风险高",
         "小盘易被刷空"
       ],
-      "whatsNew": "续更：Astral Lotus GTD至≈09:41 CST；~234/1000。",
+      "whatsNew": "临近：Astral GTD至≈09:41 CST；~234/1000。",
       "scores": {
         "early": 86,
         "risk": 84,
@@ -12799,7 +13368,7 @@
       "riskLevel": "extreme",
       "riskScore": 92,
       "earlyScore": 95,
-      "flag": "time_sensitive",
+      "flag": "提醒",
       "tags": [
         "Ink",
         "free mint",
@@ -13382,15 +13951,15 @@
       "name": "RHComputers",
       "category": "NFT",
       "chain": "Robinhood Chain",
-      "status": "live",
-      "mintStatus": "open",
+      "status": "ended",
+      "mintStatus": "ended",
       "tags": [
         "RH",
         "极早期",
-        "本轮新",
         "FREE",
         "PUBLIC",
-        "短窗"
+        "短窗",
+        "已结束"
       ],
       "links": {
         "mint": "https://opensea.io/collection/rhcomputers-449269636",
@@ -13398,7 +13967,7 @@
         "signal": "https://neverfuckingtrade.com/"
       },
       "schedule": {
-        "status": "live",
+        "status": "ended",
         "timezone": "Asia/Shanghai",
         "startsAt": "2026-10-16T00:40:00Z",
         "endsAt": "2026-10-16T00:51:00Z",
@@ -13412,21 +13981,21 @@
           }
         ],
         "source": "neverfuckingtrade.com",
-        "note": "本轮新：PUBLIC FREE≈08:40–08:51 CST极短窗；0/5555；异于computers-rh与computerrh。"
+        "note": "PUBLIC FREE短窗≈08:40–08:51 CST已结束。"
       },
       "onchain": {
         "chainId": "robinhood",
         "contract": "0xa27882f27cd422084488c0863b2d9510b7c24eb9",
         "standard": "erc721",
-        "mintStatus": "open",
+        "mintStatus": "ended",
         "minted": 0,
         "totalSupply": 0,
         "maxSupply": 5555,
         "explorer": "https://opensea.io/collection/rhcomputers-449269636",
-        "note": "Trencher upcoming→LIVE短窗；OS~0；异于computers-rh/computerrh",
-        "lastCheckedAt": "2026-10-16T08:40:00+08:00"
+        "note": "短窗已结束（≈08:51 CST）；R49归档",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00"
       },
-      "flag": "本轮新",
+      "flag": "归档",
       "scores": {
         "early": 95,
         "actionable": 90,
@@ -13444,7 +14013,7 @@
         "当前铸造量为0，热度与需求未验证",
         "RH生态同类项目已有售罄与已开先例，分流风险高"
       ],
-      "whatsNew": "本轮新：RH公链新合约rhcomputers开启极短免费公铸窗口，区别于已售罄的computers-rh与已开的computerrh。",
+      "whatsNew": "归档：RHComputers PUBLIC FREE短窗≈08:40–08:51 CST已结束；异于computers-rh/computerrh。",
       "risk": "高风险·非投资建议；免费/低价铸造仍有合约/钓鱼/仿盘与破发风险",
       "riskLevel": "high",
       "firstSeen": "2026-10-16T08:40:00+08:00",
@@ -13463,7 +14032,7 @@
       "tags": [
         "Ink",
         "极早期",
-        "本轮新",
+        "续更",
         "FREE",
         "WL",
         "LIVE"
@@ -13510,7 +14079,7 @@
           }
         ],
         "source": "neverfuckingtrade.com",
-        "note": "本轮新：WL FREE至≈10:30 CST；Trencher/OS~200/989；异于已收录orcs-on-ink。"
+        "note": "WL phase1 FREE至≈11:45 CST；Trencher~200/989；异于orcs-on-ink。"
       },
       "onchain": {
         "chainId": "ink",
@@ -13521,10 +14090,10 @@
         "totalSupply": 200,
         "maxSupply": 989,
         "explorer": "https://opensea.io/collection/orcz-on-ink",
-        "note": "异于orcs-on-ink(0x1caf…)；Trencher~200/989",
-        "lastCheckedAt": "2026-10-16T08:40:00+08:00"
+        "note": "异于orcs-on-ink(0x1caf…)；Trencher~200/989；R49 Trencher/OS refresh ~200",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00"
       },
-      "flag": "本轮新",
+      "flag": "续更",
       "scores": {
         "early": 82,
         "actionable": 85,
@@ -13542,7 +14111,7 @@
         "Ink链生态热度与流动性相对有限",
         "白名单资格与免费铸造规则需进一步确认"
       ],
-      "whatsNew": "本轮新：Ink链新项目ORCZ开启白名单免费铸造，合约与已收录的orcs-on-ink不同。",
+      "whatsNew": "续更：ORCZ WL phase1至≈11:45 CST；~200/989。",
       "risk": "高风险·非投资建议；免费/低价铸造仍有合约/钓鱼/仿盘与破发风险",
       "riskLevel": "medium",
       "firstSeen": "2026-10-16T08:40:00+08:00",
@@ -13561,7 +14130,7 @@
       "tags": [
         "RH",
         "极早期",
-        "本轮新",
+        "续更",
         "PUBLIC",
         "低价"
       ],
@@ -13585,21 +14154,21 @@
           }
         ],
         "source": "neverfuckingtrade.com",
-        "note": "本轮新：PUBLIC@0.000004 LIVE；Trencher~38/2000。"
+        "note": "PUBLIC@0.000004 LIVE；Trencher~51/2000。"
       },
       "onchain": {
         "chainId": "robinhood",
         "contract": "0x533d188af8a53f4f0a660fb0ffc64a6c705012af",
         "standard": "erc721",
         "mintStatus": "open",
-        "minted": 38,
-        "totalSupply": 38,
+        "minted": 51,
+        "totalSupply": 51,
         "maxSupply": 2000,
         "explorer": "https://opensea.io/collection/gon-legend",
-        "note": "Trencher~38/2000 PUBLIC@0.000004",
-        "lastCheckedAt": "2026-10-16T08:40:00+08:00"
+        "note": "Trencher~38/2000 PUBLIC@0.000004；R49 Trencher/OS refresh ~51",
+        "lastCheckedAt": "2026-10-16T08:58:13+08:00"
       },
-      "flag": "本轮新",
+      "flag": "续更",
       "scores": {
         "early": 80,
         "actionable": 75,
@@ -13617,7 +14186,7 @@
         "当前铸造量低，热度与社区关注度不足",
         "项目背景与团队信息有限，需自行尽调"
       ],
-      "whatsNew": "本轮新：RH公链项目gon-legend以0.000004价格开启公铸，当前约38/2000。",
+      "whatsNew": "续更：GON LEGEND PUBLIC@0.000004；~51/2000（↑自~38）。",
       "risk": "高风险·非投资建议；免费/低价铸造仍有合约/钓鱼/仿盘与破发风险",
       "riskLevel": "medium",
       "firstSeen": "2026-10-16T08:40:00+08:00",
