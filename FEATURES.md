@@ -23,7 +23,9 @@
 ## 3) 亮点 / 缺点 / 本轮新 / 评分
 
 - `highlights[]`、`drawbacks[]`：各 2–4 条短中文要点（具体机制/窗口/风险，避免空话）。
-- `whatsNew`：本轮 `roundNAdded`（当前 round14）候选有「本轮新」徽章 + 一句说明。
+- `whatsNew`：续更说明文案；**仅** `newThisRound: true`（= 当前 `roundNAdded`）显示「本轮新」徽章，其余有文案时显示「续更」。
+- `round`：首次收录轮次（discovery），例行续更**不得**改写成当前 round；轮次筛选靠此字段。
+- 例行交接：新收录写 `newThisRound:true` + `flag:"本轮新"` + `meta.roundNAdded`；上一轮新收录清 `newThisRound`/`本轮新`，可留 whatsNew 续更句。
 - `scores`：`early` / `risk`（镜像 earlyScore/riskScore）、`novelty`、`actionable`、`overall`  
   - `overall = early*0.35 + actionable*0.25 + novelty*0.2 + (100-risk)*0.2`
 - 面板：综合分大号 + 四条迷你条；亮点/缺点双列；排序「综合评分」。

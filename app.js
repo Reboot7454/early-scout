@@ -103,11 +103,26 @@
     );
   }
 
+  /** True only for candidates newly admitted this scout round (not mere whatsNew updates). */
+  function isNewThisRound(c) {
+    if (c && c.newThisRound === true) return true;
+    const meta = state.data && state.data.meta;
+    if (!meta || !c) return false;
+    const r = Number(meta.round) || 0;
+    const added = meta[`round${r}Added`];
+    return Array.isArray(added) && added.includes(c.id);
+  }
+
   function whatsNewBlock(c) {
     const t = (c.whatsNew || "").trim();
     if (!t) return "";
+    const badge = isNewThisRound(c)
+      ? '<span class="whats-new-badge">本轮新</span>'
+      : '<span class="whats-new-badge whats-new-update">续更</span>';
     return (
-      '<div class="whats-new"><span class="whats-new-badge">本轮新</span><span>' +
+      '<div class="whats-new">' +
+      badge +
+      "<span>" +
       escapeHtml(t) +
       "</span></div>"
     );
@@ -474,7 +489,7 @@
     const scores = scoreRow(c);
     const pc = prosCons(c);
     const wn = whatsNewBlock(c);
-    const newBadge = (c.whatsNew || "").trim()
+    const newBadge = isNewThisRound(c)
       ? '<span class="whats-new-badge" style="margin-left:6px;vertical-align:middle">本轮新</span>'
       : "";
 
@@ -600,6 +615,8 @@
     if ((ta != null) !== (tb != null)) return ta != null ? -1 : 1;
     const rd = (Number(b.round) || 0) - (Number(a.round) || 0);
     if (rd) return rd;
+    const ntr = (isNewThisRound(b) ? 1 : 0) - (isNewThisRound(a) ? 1 : 0);
+    if (ntr) return ntr;
     const wn =
       ((b.whatsNew || "").trim() ? 1 : 0) - ((a.whatsNew || "").trim() ? 1 : 0);
     if (wn) return wn;
