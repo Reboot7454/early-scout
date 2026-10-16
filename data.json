@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-17 00:25 CST",
+    "updated": "2026-10-17 00:28 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "Round104 2026-10-17 00:25 CST：新收录 spuds,grey-circ,trufflop；清 pixel-cores/lil-dudes/makepad 本轮新；热单 BLOX LIVE OS→127；H00DEXE PUBLIC≈00:30；Hoodbags $HBAGS≈00:30；TICKAPOGEE≈02:00；Xstok LIVE livestream；Midnight sold out→3333；oftpad仍台子不进LZ；Playground projectCount=0。",
@@ -189,10 +189,11 @@
         "mining-systems-rh",
         "miner-corp-rh",
         "hashlings",
-        "gpu-game"
+        "gpu-game",
+        "midstate-mds"
       ],
-      "note": "Round82：Ink Miners Public FREE≈59/1500；H00DEXE TEAM≈22；Midnight≈1609；BLOX 站仍被标记。",
-      "lastChecked": "2026-10-16 19:41 CST"
+      "note": "Round82：Ink Miners Public FREE≈59/1500；H00DEXE TEAM≈22；Midnight≈1609；BLOX 站仍被标记。；手动补录 midstate-mds（MDS GPU BLAKE3）2026-10-17 00:28 CST。",
+      "lastChecked": "2026-10-17 00:28 CST"
     },
     "round20Added": [
       "blox-miners",
@@ -422,7 +423,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 266,
+    "candidateCount": 267,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -681,10 +682,81 @@
     "round104Added": [
       "spuds",
       "grey-circ",
-      "trufflop"
+      "trufflop",
+      "midstate-mds"
     ]
   },
   "candidates": [
+    {
+      "id": "midstate-mds",
+      "name": "Midstate (MDS)",
+      "category": "挖矿",
+      "miningType": "gpu-pow",
+      "chain": "Midstate",
+      "status": "live",
+      "flag": null,
+      "newThisRound": true,
+      "round": 104,
+      "addedAt": "2026-10-17T00:28:16+08:00",
+      "firstSeen": "2026-10-17T00:28:16+08:00",
+      "tags": [
+        "挖矿",
+        "PoW",
+        "GPU",
+        "BLAKE3",
+        "后量子",
+        "极早期"
+      ],
+      "scores": {
+        "early": 78,
+        "actionable": 85,
+        "novelty": 82,
+        "risk": 72,
+        "overall": 74
+      },
+      "earlyScore": 8,
+      "riskScore": 7,
+      "riskLevel": "high",
+      "highlights": [
+        "GPU PoW：每 nonce 连续 100 万次 BLAKE3；消费级 GPU 挖，无 ASIC",
+        "主网已跑（官站日志 height≈29k）、LuckyPool stratum、SafeTrade 有 MDS/USDT",
+        "后量子：零 ECC，WOTS+/MSS；自称 fair launch（BTC 锚点烧创世币）",
+        "@cypherpunkgold≈193 粉；官号自称创始人"
+      ],
+      "drawbacks": [
+        "官站仍链到已死 @midstate_dev，实际官推为 @cypherpunkgold",
+        "粉少、流动性薄（SafeTrade）；单人开发者主导",
+        "协议自承 BLAKE3 链核易做 ASIC，价值起来后硬件格局可能变",
+        "Midwimble 侧链/合并挖仍「soon」，需质押 128 gMDS"
+      ],
+      "whatsNew": "新收录：GPU BLAKE3 PoW L1；LuckyPool 可挖；@cypherpunkgold≈193",
+      "whyWatch": "与 QTC/NOID 同属「后量子 GPU PoW L1」赛道，但算法是顺序 BLAKE3（非 Poseidon）；hobbyist/GPU 窗口仍在，且有 LuckyPool+钱包+交易所入口，适合盯算力与抛压。",
+      "background": "Midstate（$MDS）· midstate.cash · 独立 L1：顺序 BLAKE3 PoW、60s ASERT、power-of-2 UTXO、commit-reveal mempool。创世锚定 BTC #938708（2026-02-24）。源码 ciphernom/midstate；浏览器 rpc.cypherpunk.gold；矿池 midstate.luckypool.io（lpminer CUDA）。官推 @cypherpunkgold（主页 midstate.cash；站内 @midstate_dev 404）。",
+      "risk": "极早期单人项目；交易所深度浅；假池/假矿工与死链官推链接并存。只认 midstate.cash / @cypherpunkgold / LuckyPool 官方包。非投资建议。",
+      "links": {
+        "x": "https://x.com/cypherpunkgold",
+        "site": "https://midstate.cash",
+        "pool": "https://midstate.luckypool.io/how-to-mine",
+        "signal": "https://x.com/cypherpunkgold/status/2111048302959722518"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "phases": [
+          {
+            "name": "主网挖矿",
+            "note": "GPU/CPU 可挖；LuckyPool stratum :8960"
+          },
+          {
+            "name": "Midwimble 侧链",
+            "note": "官推称 soon；合并挖需 bond 128 gMDS"
+          }
+        ],
+        "source": "@cypherpunkgold + midstate.cash + luckypool",
+        "note": "链已 live；侧链窗口未锁。"
+      }
+    },
     {
       "id": "vaultlings",
       "name": "Vaultlings",
