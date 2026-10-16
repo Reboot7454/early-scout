@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-16 16:36 CST",
+    "updated": "2026-10-16 16:53 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "Round65：robin-xp upcoming/live + X MCP（SmartAzuki/h00dexe/ProgrammableHQ/PayphoneNFT/OrcsOnINK/BITM/Praxen/burrowpad/ASCII/TERMINL/LayerZero/blox_imd）+ DeepSeek-chat 文案；新增 terminl-rh；清 bitm-crc20/payphone 本轮新；Ink Miners FREE≈18:10CST≤2h；例行推送 data.json→GitHub Pages。",
-    "lastScout": "2026-10-16T16:36:18+08:00",
+    "source": "Round66：NFT Trencher/robin-xp + X MCP（MidnightPuppets/SmartAzuki/h00dexe/ProgrammableHQ/BITM/Payphone/TERMINL等）+ DeepSeek-chat 文案；新增 midnight-puppets；清 terminl-rh 本轮新；Ink Miners FREE≈18:10CST≤2h；Programmable 暂停至≈18:34CST；例行推送 data.json→GitHub Pages。",
+    "lastScout": "2026-10-16T16:53:42+08:00",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -45,8 +45,8 @@
         "sushi-oft-rh",
         "zeromeme-fun"
       ],
-      "note": "Round65：@LayerZero_Core 近帖仍为生态更新/$USDG OFT 与案例，无新的消费级 Zero 开链/ATLAS mint 窗；继续盯。",
-      "lastChecked": "2026-10-16 16:35 CST"
+      "note": "Round66：@LayerZero_Labs/@LayerZero_Core 仍无新的消费级 Zero 开链/ATLAS mint 窗；继续盯。",
+      "lastChecked": "2026-10-16 16:53 CST"
     },
     "round5Added": [
       "farming-season",
@@ -342,7 +342,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 65,
+    "round": 66,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -419,7 +419,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 198,
+    "candidateCount": 199,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -434,6 +434,83 @@
     ]
   },
   "candidates": [
+    {
+      "id": "midnight-puppets",
+      "name": "Midnight Puppets",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "status": "live",
+      "riskLevel": "high",
+      "scores": {
+        "early": 90,
+        "actionable": 78,
+        "novelty": 62,
+        "risk": 58,
+        "overall": 78,
+        "composite": 78
+      },
+      "earlyScore": 90,
+      "riskScore": 58,
+      "tags": [
+        "RH",
+        "LIVE",
+        "FREE",
+        "PFP",
+        "极早期"
+      ],
+      "highlights": [
+        "RH LIVE：OG FREE 进行中（至 16:00 UTC）",
+        "PUBLIC FREE 自 16:00 UTC（00:00 CST+1）；supply 3333 · minted≈175",
+        "@MidnightPuppets≈3653粉 + 官网",
+        "Trencher 标 warm，窗口可交叉核验"
+      ],
+      "drawbacks": [
+        "Puppets 题材同质化偏高",
+        "FREE 易 bot/多号刷量",
+        "PUBLIC 后地板不确定",
+        "二级流动性待验证"
+      ],
+      "whyWatch": "RH LIVE FREE Puppets：minted≈175/3333，@MidnightPuppets≈3653；OG→PUBLIC 两段 FREE。",
+      "whatsNew": "本轮新收录：RH LIVE，OG FREE 将尽，PUBLIC FREE 16:00 UTC（00:00 CST+1）；minted≈175/3333；@MidnightPuppets≈3653。",
+      "background": "Midnight Puppets：手缝卡通木偶主题合集，Robinhood Chain，supply 3333；OG FREE（8/wallet）→ PUBLIC FREE（2/wallet）；官网 midnightpuppets.com。",
+      "links": {
+        "x": "https://x.com/MidnightPuppets",
+        "site": "https://midnightpuppets.com",
+        "opensea": "https://opensea.io/collection/midnightpuppets"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-15T18:00:00Z",
+        "endsAt": "2026-10-17T16:00:00Z",
+        "phases": [
+          {
+            "name": "OG FREE",
+            "startsAt": "2026-10-15T18:00:00Z",
+            "endsAt": "2026-10-16T16:00:00Z",
+            "price": "FREE",
+            "perWallet": 8,
+            "note": "LIVE"
+          },
+          {
+            "name": "PUBLIC FREE",
+            "startsAt": "2026-10-16T16:00:00Z",
+            "endsAt": "2026-10-17T16:00:00Z",
+            "price": "FREE",
+            "perWallet": 2
+          }
+        ],
+        "source": "neverfuckingtrade.com + @MidnightPuppets",
+        "note": "本轮新收录：OG LIVE，PUBLIC 16:00 UTC；minted≈175/3333。"
+      },
+      "mintStatus": "OG LIVE·PUBLIC待开",
+      "flag": "本轮新",
+      "newThisRound": true,
+      "round": 66,
+      "addedAt": "2026-10-16T16:53:42+08:00",
+      "firstSeen": "2026-10-16T16:53:42+08:00",
+      "risk": "高：FREE mint bot 风险、题材同质、RH 二级流动性待验证。非投资建议。"
+    },
     {
       "id": "payphone-rh",
       "name": "Payphone",
@@ -458,7 +535,7 @@
           }
         ],
         "source": "官方 X @PayphoneNFT",
-        "note": "续更R65：Allowlist仍开放并续公布FREE spots；@PayphoneNFT≈656。"
+        "note": "续更R66：Allowlist仍开放并续公布FREE spots；@PayphoneNFT≈658。"
       },
       "highlights": [
         "AL 开放中",
@@ -471,7 +548,7 @@
         "信息有限，项目细节不明",
         "AL 开放但可能门槛低"
       ],
-      "whatsNew": "续更R65：AL仍开并续公布FREE spots；已清本轮新；@PayphoneNFT≈656。",
+      "whatsNew": "续更R66：AL仍开并续公布 FREE spots；@PayphoneNFT≈658。",
       "scores": {
         "early": 70,
         "actionable": 60,
@@ -488,7 +565,7 @@
       "mintStatus": "AL开放中",
       "flag": "AL开",
       "newThisRound": false,
-      "round": 65,
+      "round": 66,
       "addedAt": "2026-10-16T16:15:46+08:00",
       "firstSeen": "2026-10-16T16:15:46+08:00",
       "riskScore": 80,
@@ -532,32 +609,31 @@
           }
         ],
         "source": "@ProgrammableHQ",
-        "note": "续更R65：反狙击暂停至约18:34 CST；@ProgrammableHQ≈7868。"
+        "note": "续更R66：反狙击暂停至约18:34 CST；@ProgrammableHQ≈7869。"
       },
       "highlights": [
-        "暂停至约 18:34 CST（约2小时后）",
-        "@ProgrammableHQ 约7868粉丝",
-        "项目暂停，可能即将恢复",
-        "中等粉丝基数"
+        "Uniswap v4 hooks 发射基建",
+        "暂停窗≈18:34 CST 将结束",
+        "官粉≈7869"
       ],
       "drawbacks": [
-        "暂停原因不明，存在不确定性",
-        "恢复后可能竞争激烈",
-        "信息更新有限"
+        "暂停期间勿盲目发射",
+        "狙击/MEV 风险仍在",
+        "恢复后节奏待官宣"
       ],
-      "whatsNew": "续更R65：反狙击暂停至≈18:34 CST（~2.0h）；@ProgrammableHQ≈7868。",
+      "whatsNew": "续更R66：反狙击暂停至≈18:34 CST（~1.7h）；@ProgrammableHQ≈7869。",
       "scores": {
-        "early": 60,
-        "actionable": 50,
-        "novelty": 50,
-        "risk": 60,
-        "overall": 50,
-        "composite": 50
+        "early": 85,
+        "actionable": 80,
+        "novelty": 88,
+        "risk": 65,
+        "overall": 80,
+        "composite": 80
       },
-      "earlyScore": 60,
-      "riskScore": 60,
+      "earlyScore": 85,
+      "riskScore": 65,
       "risk": 75,
-      "round": 65,
+      "round": 66,
       "status": "pause",
       "mintStatus": "暂停中",
       "firstSeen": "2026-10-16T14:04:59+08:00",
@@ -611,7 +687,7 @@
           }
         ],
         "source": "@RGBHorse",
-        "note": "续更R63：Blog/钱包续更，暂无新mint窗口，RGBHorse约28898。"
+        "note": "续更R66：暂无新mint窗口；@RGBHorse≈28920。"
       },
       "highlights": [
         "BTC RGB 生态早期 Launchpad & Swap 叙事",
@@ -625,7 +701,7 @@
         "Genesis Partners 规则、额度与最终权益缺少细节",
         "钱包更新 #02 可能仍有兼容或安全问题"
       ],
-      "whatsNew": "续更R65：日程未变，续盯。",
+      "whatsNew": "续更R66：暂无新mint窗，续盯；@RGBHorse≈28920。",
       "scores": {
         "early": 88,
         "actionable": 82,
@@ -636,7 +712,7 @@
       "earlyScore": 88,
       "riskScore": 68,
       "risk": 68,
-      "round": 65,
+      "round": 66,
       "status": "watch",
       "mintStatus": "无新窗",
       "firstSeen": "2026-10-16T14:03:07+08:00",
@@ -1522,7 +1598,7 @@
           }
         ],
         "source": "@PraxenProtocoI",
-        "note": "续更R65：Launchpad约23:00 CST；$PRAX上pons；@PraxenProtocoI≈5。"
+        "note": "续更R66：Launchpad约23:00 CST；$PRAX上pons；@PraxenProtocoI≈5。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -1542,7 +1618,7 @@
         "高风险，可能为骗局",
         "Launchpad 项目不确定性高"
       ],
-      "whatsNew": "续更R65：Launchpad今日15:00 UTC（23:00 CST），$PRAX已在pons；@PraxenProtocoI≈5粉，高风险。",
+      "whatsNew": "续更R66：Launchpad约23:00 CST；$PRAX上pons；@PraxenProtocoI≈5。",
       "scores": {
         "early": 50,
         "actionable": 50,
@@ -1551,7 +1627,7 @@
         "overall": 40,
         "composite": 40
       },
-      "round": 65,
+      "round": 66,
       "earlyScore": 50,
       "riskScore": 100,
       "status": "upcoming",
@@ -1850,7 +1926,7 @@
           }
         ],
         "source": "neverfuckingtrade.com + @TreeofLifeCS",
-        "note": "续更R64：团队FREE约21:45；@TreeofLifeCS≈99。"
+        "note": "续更R66：TEAM≈21:45 CST；@TreeofLifeCS≈99。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -1872,7 +1948,7 @@
         "推特粉丝仅 96，社区热度与传播不足",
         "免费轮需抢跑，公开轮仍要付费且 RH 生态流动性待观察"
       ],
-      "whatsNew": "续更R65：TEAM≈21:45 CST / PUBLIC≈22:00 CST 续盯。",
+      "whatsNew": "续更R66：TEAM≈21:45 / PUBLIC≈22:00 CST；@TreeofLifeCS≈99。",
       "scores": {
         "early": 92,
         "actionable": 88,
@@ -1880,7 +1956,7 @@
         "risk": 68,
         "overall": 78
       },
-      "round": 65,
+      "round": 66,
       "earlyScore": 92,
       "riskScore": 68,
       "status": "upcoming",
@@ -3268,7 +3344,7 @@
           }
         ],
         "source": "neverfuckingtrade.com",
-        "note": "续更R64：WL约22:00；@SwarmCoreIMD≈1006。"
+        "note": "续更R66：WL约22:00；@SwarmCoreIMD≈1009。"
       },
       "onchain": {
         "chainId": "ethereum",
@@ -3282,7 +3358,7 @@
         "explorer": "https://opensea.io/collection/swarmcore",
         "note": "仍0/555；WL 0.0005≈22:00 CST（30min）/ Public≈22:30 CST。"
       },
-      "round": 65,
+      "round": 66,
       "scores": {
         "early": 72,
         "actionable": 58,
@@ -3306,7 +3382,7 @@
       "riskLevel": "medium",
       "firstSeen": "2026-10-16T07:11:35.991432+08:00",
       "addedAt": "2026-10-16T07:11:35.991432+08:00",
-      "whatsNew": "续更R65：WL≈22:00 CST 续盯。"
+      "whatsNew": "续更R66：WL≈22:00 CST；@SwarmCoreIMD≈1009。"
     },
     {
       "id": "digital-humans",
@@ -3532,7 +3608,7 @@
           }
         ],
         "source": "neverfuckingtrade.com",
-        "note": "续更R64：团队FREE约21:30；@TheRCPTS≈3444。"
+        "note": "续更R66：TEAM≈21:30 CST起；@TheRCPTS≈3447。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -3546,7 +3622,7 @@
         "explorer": "https://opensea.io/collection/prntrs",
         "note": "Team FREE≈21:30 / GTD≈22:00 CST；仍0/6000。"
       },
-      "round": 65,
+      "round": 66,
       "scores": {
         "early": 78,
         "actionable": 75,
@@ -3570,7 +3646,7 @@
       "riskLevel": "medium",
       "firstSeen": "2026-10-16T06:38:17.747674+08:00",
       "addedAt": "2026-10-16T06:38:17.747674+08:00",
-      "whatsNew": "续更R65：TEAM≈21:30 CST起多轮FREE；@TheRCPTS≈3444。",
+      "whatsNew": "续更R66：TEAM≈21:30 CST起多轮；@TheRCPTS≈3447。",
       "background": "Robinhood Chain FREE Team/GTD mint（Trencher warm），与 RECEIPTS/$RCPTS 持有者联动。",
       "whyWatch": "尽量早期：今晚 FREE Team/GTD 窗，6000 供应且尚未开铸。"
     },
@@ -5415,7 +5491,7 @@
       "name": "Orcs on Ink",
       "category": "NFT",
       "chain": "Ink",
-      "round": 65,
+      "round": 66,
       "riskLevel": "medium",
       "riskScore": 70,
       "earlyScore": 60,
@@ -5454,7 +5530,7 @@
           }
         ],
         "source": "neverfuckingtrade.com + @OrcsOnINK",
-        "note": "续更R64：Portal已关，游戏live，Mine明日22:00 UTC；优先官帖；@OrcsOnINK≈735。"
+        "note": "续更R66：minted≈200/989；优先官帖；@OrcsOnINK≈735。"
       },
       "highlights": [
         "游戏已上线",
@@ -5467,7 +5543,7 @@
         "游戏类项目回报不确定",
         "信息有限，玩法不明"
       ],
-      "whatsNew": "续更R65：官帖游戏/训练已推进，farm与royalties叙事；优先官帖；@OrcsOnINK≈734。",
+      "whatsNew": "续更R66：ORCZ minted≈200/989，WL phase3/PUBLIC 推进；@OrcsOnINK≈735。",
       "scores": {
         "early": 60,
         "actionable": 60,
@@ -6113,7 +6189,7 @@
       "name": "UNITS (XREIGN)",
       "category": "NFT",
       "chain": "Robinhood Chain",
-      "round": 65,
+      "round": 66,
       "riskLevel": "medium-high",
       "riskScore": 68,
       "earlyScore": 71,
@@ -6138,7 +6214,7 @@
           }
         ],
         "source": "@xreign_app",
-        "note": "续更R64：名单已关；Priority后FCFS；尚无开mint官宣；@xreign_app≈172811。"
+        "note": "续更R66：名单已关；@xreign_app≈172827。"
       },
       "highlights": [
         "5555 LED 机器人免费 mint，名单约今日截止",
@@ -6150,7 +6226,7 @@
         "规则以官推为准，防假报名页",
         "正式 mint 时刻未在文案中锁死"
       ],
-      "whatsNew": "续更R65：名单已关；Priority后FCFS；尚无开mint官宣；@xreign_app≈172815。",
+      "whatsNew": "续更R66：名单已关；Priority后FCFS；尚无开mint官宣；@xreign_app≈172827。",
       "scores": {
         "early": 71,
         "risk": 68,
@@ -8744,7 +8820,7 @@
       "name": "0ops",
       "category": "NFT",
       "chain": "Robinhood Chain",
-      "round": 65,
+      "round": 66,
       "riskLevel": "high",
       "riskScore": 72,
       "earlyScore": 88,
@@ -8786,7 +8862,7 @@
           }
         ],
         "source": "neverfuckingtrade.com + official",
-        "note": "续更R64：GTD约21:00；@0ops_trade≈507。"
+        "note": "续更R66：GTD约21:00 CST；@0ops_trade≈507。"
       },
       "highlights": [
         "RH 上 999 张 fat-finger 故事卡",
@@ -8798,7 +8874,7 @@
         "新账号、供应小易被刷",
         "合约尚未在官帖直接贴出，需 OpenSea 核对"
       ],
-      "whatsNew": "续更R65：robin-xp Signed≈13:00 UTC（21:00 CST）；@0ops_trade≈507。",
+      "whatsNew": "续更R66：GTD约21:00 CST；@0ops_trade≈507。",
       "scores": {
         "early": 88,
         "risk": 72,
@@ -9686,10 +9762,10 @@
       "name": "Ink Miners Encryption",
       "category": "挖矿",
       "chain": "Ink",
-      "round": 65,
+      "round": 66,
       "riskLevel": "high",
-      "riskScore": 90,
-      "earlyScore": 70,
+      "riskScore": 78,
+      "earlyScore": 88,
       "whyWatch": "免费铸造且临近开始，Ink 链上项目，但缺乏官方渠道，需谨慎评估风险。",
       "background": "NFT Trencher 列出合约 0x5b2f391fa770ea0cdbfb6c01b5b7594d44e7685a；OpenSea collection/inkminersencryption。X 上 @SmartAzuki 等发 GTD 抽奖，未见清晰官方项目号。",
       "risk": "高：疑似给号/镜像号推流；无独立官网与可信官推时，合约与 mint 页需极谨慎核对。非投资建议。",
@@ -9722,7 +9798,7 @@
           }
         ],
         "source": "信号 X @SmartAzuki",
-        "note": "续更R65：公开FREE约18:10 CST；官信确认1500；@SmartAzuki≈7934。"
+        "note": "续更R66：公开FREE约18:10 CST；仍0/1500；@SmartAzuki≈7939。"
       },
       "onchain": {
         "chainId": "ink",
@@ -9737,24 +9813,23 @@
         "note": "Public FREE≈18:10 CST（10:10UTC）；1500；R65≈1.6h内。"
       },
       "highlights": [
-        "Public 免费铸造，约 18:10 CST 开始（约1.6小时后）",
-        "1500 个 Ink 链上名额",
-        "@SmartAzuki 约7934粉丝",
-        "无官方 X，高风险"
+        "公开 FREE≈18:10 CST（≤2h）",
+        "supply 1500 · 1/wallet · Ink",
+        "信号号 @SmartAzuki≈7939"
       ],
       "drawbacks": [
-        "无官方 X 账号，信息源单一",
-        "高风险，可能为仿盘或骗局",
-        "免费铸造可能引发大量机器人"
+        "无独立官推，仅信号号",
+        "FREE 易 bot/多号",
+        "合约与真实性需自核"
       ],
-      "whatsNew": "续更R65：公开FREE≈18:10 CST（~1.6h），supply 1500 Ink；@SmartAzuki≈7934；无独立官推高风险。",
+      "whatsNew": "续更R66：公开 FREE≈18:10 CST（~1.2h），仍 0/1500；@SmartAzuki≈7939；无独立官推高风险。",
       "scores": {
-        "early": 70,
-        "actionable": 80,
-        "novelty": 50,
-        "risk": 90,
-        "overall": 60,
-        "composite": 60
+        "early": 88,
+        "actionable": 92,
+        "novelty": 70,
+        "risk": 78,
+        "overall": 78,
+        "composite": 78
       },
       "status": "upcoming",
       "mintStatus": "FREE待开",
@@ -9807,7 +9882,7 @@
       "name": "BLOX Miners",
       "category": "挖矿",
       "chain": "Robinhood Chain",
-      "round": 65,
+      "round": 66,
       "riskLevel": "high",
       "riskScore": 70,
       "earlyScore": 60,
@@ -9858,7 +9933,7 @@
           }
         ],
         "source": "official mint page bloximd.fun/mint",
-        "note": "续更R65：GTD约00:00 CST（16:00 UTC），0.8 IMD；@blox_imd≈3446。"
+        "note": "续更R66：GTD约00:00 CST（16:00 UTC）0.8 IMD；@blox_imd≈3452。"
       },
       "highlights": [
         "GTD 约 00:00 CST，价格 0.8 IMD",
@@ -9871,7 +9946,7 @@
         "信息有限，项目细节不明",
         "GTD 可能门槛较高"
       ],
-      "whatsNew": "续更R65：GTD约00:00 CST（16:00 UTC）0.8 IMD；Public 24h；@blox_imd≈3446。",
+      "whatsNew": "续更R66：GTD约00:00 CST 0.8 IMD；@blox_imd≈3452。",
       "scores": {
         "early": 60,
         "actionable": 60,
@@ -10445,10 +10520,10 @@
       "name": "H00DEXE",
       "category": "NFT",
       "chain": "Robinhood Chain",
-      "round": 65,
+      "round": 66,
       "riskLevel": "high",
       "riskScore": 70,
-      "earlyScore": 60,
+      "earlyScore": 82,
       "tags": [
         "RH",
         "OG",
@@ -10495,7 +10570,7 @@
           }
         ],
         "source": "neverfuckingtrade.com + official",
-        "note": "续更R65：Trencher TEAM≈18:30（参考）；官帖OG FREE 23:30 CST、Public 0.002@00:30 CST；@h00dexe≈1030。"
+        "note": "续更R66：Trencher TEAM≈18:30（参考）；官帖OG FREE 23:30 CST、Public 0.002@00:30 CST；@h00dexe≈1031。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -10510,24 +10585,23 @@
         "note": "TEAM FREE≈18:30 CST；OG≈23:30；Public 0.002≈次日00:30。"
       },
       "highlights": [
-        "OG 免费铸造 23:30 CST",
-        "Public 铸造 0.002 ETH 于 00:30 CST",
-        "@h00dexe 约1030粉丝",
-        "分阶段铸造"
+        "官帖确认今日多轮 mint",
+        "OG FREE 23:30 CST",
+        "Public 0.002 ETH@00:30 CST"
       ],
       "drawbacks": [
-        "粉丝数较少，社区规模小",
-        "Public 需付费，OG 免费但可能门槛高",
-        "信息有限，项目背景不明"
+        "Trencher TEAM 时刻仅参考",
+        "官粉约1031仍小",
+        "新项目二级流动性未知"
       ],
-      "whatsNew": "续更R65：官帖OG FREE 23:30 CST、Public 0.002 ETH@00:30 CST；Trencher TEAM≈18:30仅参考；@h00dexe≈1030。",
+      "whatsNew": "续更R66：官帖 OG FREE 23:30 CST / Public 0.002@00:30 CST；Trencher TEAM≈18:30 仅参考；@h00dexe≈1031。",
       "scores": {
-        "early": 60,
-        "actionable": 70,
-        "novelty": 50,
+        "early": 82,
+        "actionable": 75,
+        "novelty": 72,
         "risk": 70,
-        "overall": 60,
-        "composite": 60
+        "overall": 74,
+        "composite": 74
       },
       "flag": "今晚",
       "status": "upcoming",
@@ -10725,7 +10799,7 @@
           }
         ],
         "source": "neverfuckingtrade.com + @RuneCraftWorld",
-        "note": "续更R65：签名FREE约20:00、付费约21:00；@RuneCraftWorld≈4886。"
+        "note": "续更R66：签名FREE约20:00、付费约21:00；@RuneCraftWorld≈4886。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -10750,7 +10824,7 @@
         "信息有限，项目细节不明",
         "Signed 机制可能复杂"
       ],
-      "whatsNew": "续更R65：Signed FREE约20:00 CST（robin-xp 12:00 UTC）；@RuneCraftWorld≈4886。",
+      "whatsNew": "续更R66：Signed FREE约20:00 CST；@RuneCraftWorld≈4886。",
       "scores": {
         "early": 60,
         "actionable": 70,
@@ -10761,7 +10835,7 @@
       },
       "earlyScore": 60,
       "riskScore": 60,
-      "round": 65,
+      "round": 66,
       "status": "upcoming",
       "mintStatus": "FREE/付费待开"
     },
@@ -10830,7 +10904,7 @@
           }
         ],
         "source": "neverfuckingtrade.com + @TheRCPTS",
-        "note": "续更R63：同PRINTERS关联项目，继续盯后续开放信息。"
+        "note": "续更R66：同PRINTERS关联；@TheRCPTS≈3447。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -10853,7 +10927,7 @@
         "风险档 high，默认可归零",
         "只认官推入口，防假站/假 mint"
       ],
-      "whatsNew": "续更R65：与PRINTERS同窗续盯；@TheRCPTS≈3444。",
+      "whatsNew": "续更R66：与PRINTERS同窗续盯；@TheRCPTS≈3447。",
       "scores": {
         "early": 74,
         "risk": 74,
@@ -10863,7 +10937,7 @@
       },
       "earlyScore": 74,
       "riskScore": 74,
-      "round": 65,
+      "round": 66,
       "status": "upcoming",
       "mintStatus": "续盯"
     },
@@ -10916,7 +10990,7 @@
           }
         ],
         "source": "neverfuckingtrade.com",
-        "note": "续更R64：GTD约23:00；@Voidkid_hood≈1783。"
+        "note": "续更R66：GTD约23:00；@Voidkid_hood≈1785。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -10938,7 +11012,7 @@
         "账号较新需防钓鱼站",
         "风险档 high，默认可归零"
       ],
-      "whatsNew": "续更R65：GTD≈23:00 CST；@Voidkid_hood≈1783。",
+      "whatsNew": "续更R66：GTD≈23:00 CST；@Voidkid_hood≈1785。",
       "scores": {
         "early": 76,
         "risk": 78,
@@ -10948,7 +11022,7 @@
       },
       "earlyScore": 76,
       "riskScore": 78,
-      "round": 65,
+      "round": 66,
       "status": "upcoming",
       "mintStatus": "GTD待开"
     },
@@ -11016,7 +11090,7 @@
           }
         ],
         "source": "neverfuckingtrade.com + @robinfrens_art",
-        "note": "续更R63：团队FREE约01:00 CST，0/4455，robinfrens约2309。"
+        "note": "续更R66：日程未变；@robinfrens_art≈2297。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -11040,7 +11114,7 @@
         "风险档 high，默认可归零",
         "只认官推入口，防假站/假 mint"
       ],
-      "whatsNew": "续更R65：日程未变，续盯。",
+      "whatsNew": "续更R66：TEAM/GTD约01:00 CST+1 续盯；@robinfrens_art≈2297。",
       "scores": {
         "early": 80,
         "risk": 76,
@@ -11050,7 +11124,7 @@
       },
       "earlyScore": 80,
       "riskScore": 76,
-      "round": 65,
+      "round": 66,
       "status": "upcoming",
       "mintStatus": "FREE待开"
     },
@@ -11173,7 +11247,7 @@
           }
         ],
         "source": "robin-xp.com/upcoming-mints + northbound.cc/mints",
-        "note": "续更R65：WL注册开，mint 12PM GMT（20:00 CST）；@ASCIIPUNKSRH≈3454。"
+        "note": "续更R66：mint 12PM GMT（20:00 CST）；@ASCIIPUNKSRH≈3455。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -11198,7 +11272,7 @@
         "信息有限，项目细节不明",
         "竞争可能激烈"
       ],
-      "whatsNew": "续更R65：WL注册开，mint约20:00 CST（12PM GMT）；@ASCIIPUNKSRH≈3454。",
+      "whatsNew": "续更R66：mint约20:00 CST；@ASCIIPUNKSRH≈3455。",
       "scores": {
         "early": 60,
         "actionable": 70,
@@ -11207,7 +11281,7 @@
         "overall": 60,
         "composite": 60
       },
-      "round": 65,
+      "round": 66,
       "earlyScore": 60,
       "riskScore": 60,
       "status": "upcoming",
@@ -11270,7 +11344,7 @@
           }
         ],
         "source": "@ReefersRH + neverfuckingtrade.com",
-        "note": "续更R63：FREE约03:00 CST，当前0/555。"
+        "note": "续更R66：日程未变；@ReefersRH≈1400。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -11292,7 +11366,7 @@
         "Mint 约明日凌晨（Team ~03:00 CST Oct17）",
         "漏表无法补救，资格已封死"
       ],
-      "whatsNew": "续更R65：日程未变，续盯。",
+      "whatsNew": "续更R66：TEAM FREE约03:00 CST+1；@ReefersRH≈1400。",
       "scores": {
         "early": 88,
         "actionable": 70,
@@ -11300,7 +11374,7 @@
         "risk": 80,
         "overall": 72
       },
-      "round": 65,
+      "round": 66,
       "earlyScore": 88,
       "riskScore": 80,
       "mintStatus": "FREE待开",
@@ -11349,7 +11423,7 @@
           }
         ],
         "source": "neverfuckingtrade.com + northbound.cc",
-        "note": "续更R63：签名FREE约02:00 CST，当前0/6666。"
+        "note": "续更R66：Signed≈18:00 UTC；@TheCrayonsXyz≈96。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -11371,7 +11445,7 @@
         "FREE WL 后仍有付费 Public",
         "艺术向流动性未知"
       ],
-      "whatsNew": "续更R65：robin-xp Signed free≈18:00 UTC（02:00+1 CST）；@TheCrayonsXyz≈96。",
+      "whatsNew": "续更R66：Signed free≈02:00 CST+1；@TheCrayonsXyz≈96。",
       "scores": {
         "early": 76,
         "risk": 70,
@@ -11379,7 +11453,7 @@
         "actionable": 92,
         "overall": 67
       },
-      "round": 65,
+      "round": 66,
       "earlyScore": 76,
       "riskScore": 70,
       "status": "upcoming",
@@ -12389,7 +12463,7 @@
           }
         ],
         "source": "@burrowpad",
-        "note": "续更R64：.burrow names + MCP live；@burrowpad≈147。"
+        "note": "续更R66：.burrow names + MCP live；@burrowpad≈151。"
       },
       "highlights": [
         ".burrow 域名 + MCP",
@@ -12402,7 +12476,7 @@
         "信息有限，项目细节不明",
         "域名类项目竞争激烈"
       ],
-      "whatsNew": "续更R65：.burrow names上线（烧20万$BURROW）+ MCP live；hour4数据；@burrowpad≈149。",
+      "whatsNew": "续更R66：.burrow names + MCP live；@burrowpad≈151。",
       "scores": {
         "early": 60,
         "actionable": 50,
@@ -12414,7 +12488,7 @@
       "earlyScore": 60,
       "riskScore": 80,
       "risk": 82,
-      "round": 65,
+      "round": 66,
       "status": "live",
       "mintStatus": "功能上线",
       "firstSeen": "2026-10-16T13:53:20+08:00",
@@ -12456,7 +12530,7 @@
           }
         ],
         "source": "官方 X @TheVault_Rh",
-        "note": "续更R63：继续盯GTD First300 Phase2约10-20，TheVault_Rh约580，清本轮新。"
+        "note": "续更R66：继续盯GTD Phase2约10-20；@TheVault_Rh≈603。"
       },
       "highlights": [
         "2222 FREE mint 名额",
@@ -12470,7 +12544,7 @@
         "曾错报 Phase2 时间，信息准确性存疑",
         "整体风险偏高"
       ],
-      "whatsNew": "续更R65：日程未变，续盯。",
+      "whatsNew": "续更R66：续盯 GTD First300 / Phase2≈10-20；@TheVault_Rh≈603。",
       "scores": {
         "early": 85,
         "actionable": 60,
@@ -12486,7 +12560,7 @@
       "mintStatus": "GTD续盯",
       "flag": "续盯",
       "newThisRound": false,
-      "round": 65,
+      "round": 66,
       "addedAt": "2026-10-16T15:56:36+08:00",
       "firstSeen": "2026-10-16T15:56:36+08:00",
       "riskScore": 75,
@@ -12499,12 +12573,12 @@
       "chain": "Bitcoin",
       "status": "upcoming",
       "scores": {
-        "early": 70,
+        "early": 90,
         "actionable": 70,
-        "novelty": 60,
-        "risk": 80,
-        "overall": 60,
-        "composite": 60
+        "novelty": 85,
+        "risk": 82,
+        "overall": 78,
+        "composite": 78
       },
       "tags": [
         "BTC",
@@ -12514,17 +12588,16 @@
         "Meme"
       ],
       "highlights": [
-        "本轮新项目，CRC20 代币",
-        "22:00 CST 铸造",
-        "@BONSonBTC 和 $BITM 相关",
-        "@BitcoinITMoney 约665粉丝"
+        "CRC20 / BTC 发射玩法",
+        "今晚 22:00 CST @BONSonBTC",
+        "官帖确认准备就绪"
       ],
       "drawbacks": [
-        "粉丝数较少，社区规模小",
-        "CRC20 代币风险较高",
-        "信息有限，项目背景不明"
+        "粉约667体量小",
+        "CRC20 流动性与工具链弱",
+        "发射即波动极高"
       ],
-      "whatsNew": "续更R65：清本轮新；仍确认今日2PM UTC（22:00 CST）于 BONSonBTC 发射 $BITM；@BitcoinITMoney≈665。",
+      "whatsNew": "续更R66：官帖确认今日 2PM UTC（22:00 CST）于 @BONSonBTC 发射 $BITM；@BitcoinITMoney≈667。",
       "whyWatch": "CRC20 代币项目，与 BONSonBTC 相关，可能具有比特币生态叙事，但需注意风险。",
       "background": "Bitcoin Internet Money 自称首个 CTO Launch（CRC-20）；官帖确认 Today 2PM UTC on @BONSonBTC。",
       "links": {
@@ -12543,7 +12616,7 @@
           }
         ],
         "source": "官方 X @BitcoinITMoney",
-        "note": "续更R65：2PM UTC（22:00 CST）于 BONSonBTC 发射 $BITM；已清本轮新标签。"
+        "note": "续更R66：2PM UTC（22:00 CST）于 BONSonBTC 发射 $BITM；官帖“Everything is ready”。"
       },
       "onchain": {
         "chainId": "bitcoin",
@@ -12553,12 +12626,12 @@
         "lastCheckedAt": "2026-10-16T16:28:41+08:00"
       },
       "newThisRound": false,
-      "round": 65,
+      "round": 66,
       "addedAt": "2026-10-16T16:28:41+08:00",
       "firstSeen": "2026-10-16T16:28:41+08:00",
       "riskLevel": "high",
-      "earlyScore": 70,
-      "riskScore": 80,
+      "earlyScore": 90,
+      "riskScore": 82,
       "mintStatus": "待发射",
       "flag": "今晚"
     },
@@ -12599,7 +12672,7 @@
         "新链二级流动性待验证"
       ],
       "whyWatch": "RH 街机 NFT：先玩后 mint，10/29 发射；@TERMINLnet≈802，pixelord 联动。",
-      "whatsNew": "本轮新收录：Mint 10/29 RH；街机 LIVE 可玩赚 FCFS；@TERMINLnet≈802。",
+      "whatsNew": "续更R66：清本轮新；街机仍 LIVE，Mint 10/29；@TERMINLnet≈806。",
       "background": "TERMINL：150 original crypto degens + 2048 collectible TERMINLs；5 款街机已上线；官帖确认 Minting 10/29 on Robinhood Chain。",
       "links": {
         "x": "https://x.com/TERMINLnet",
@@ -12624,9 +12697,9 @@
         "note": "本轮新收录：Mint 10/29；街机已 LIVE。"
       },
       "mintStatus": "街机LIVE·Mint10/29",
-      "flag": "本轮新",
-      "newThisRound": true,
-      "round": 65,
+      "flag": null,
+      "newThisRound": false,
+      "round": 66,
       "addedAt": "2026-10-16T16:35:50+08:00",
       "firstSeen": "2026-10-16T16:35:50+08:00",
       "risk": "高：新项目、mint日远、RH生态流动性与最终价格待验证。非投资建议。"
