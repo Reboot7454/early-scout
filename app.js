@@ -124,13 +124,95 @@
       .replace(/"/g, "&quot;");
   }
 
+  /** Display / filter canonical chain labels (merge case + synonym variants). */
+  const CHAIN_CANON_MAP = {
+    layerzero: "LayerZero",
+    zero: "LayerZero",
+    "layerzero / zero": "LayerZero",
+    "layerzero/zero": "LayerZero",
+    "zero (layerzero)": "LayerZero",
+    "zero(layerzero)": "LayerZero",
+    tba: "TBA",
+    tbd: "TBA",
+    "未知 / tba": "TBA",
+    "未知/tba": "TBA",
+    未知: "TBA",
+    robinhood: "Robinhood",
+    "robinhood chain": "Robinhood",
+    solana: "Solana",
+    injective: "Injective",
+    multi: "Multi",
+    "multi-chain": "Multi",
+    multichain: "Multi",
+    "solana/multi": "Multi",
+    "multi (solana / rh / bnb)": "Multi",
+    "multi / robinhood chain": "Multi",
+    "robinhood/solana": "Robinhood / Solana",
+    "base / robinhood / arc": "Base / Robinhood / Arc",
+    "ethereum / base": "Ethereum / Base",
+    "bnb chain": "BNB Chain",
+    ethereum: "Ethereum",
+    base: "Base",
+    bitcoin: "Bitcoin",
+    monero: "Monero",
+    ink: "Ink",
+    arc: "Arc",
+    giwa: "GIWA",
+    icp: "ICP",
+    canton: "Canton",
+    interlink: "InterLink",
+    nacre: "NACRE",
+    omnichain: "Omnichain",
+    "pearl l1": "Pearl L1",
+    quantus: "Quantus",
+    vearl: "Vearl",
+    vela: "Vela",
+    parano1d: "Parano1d",
+  };
+
+  function chainKey(ch) {
+    return String(ch || "")
+      .trim()
+      .toLowerCase()
+      .replace(/\s+/g, " ");
+  }
+
+  function canonicalChain(ch) {
+    const raw = String(ch || "").trim();
+    if (!raw) return "TBA";
+    const key = chainKey(raw);
+    if (CHAIN_CANON_MAP[key]) return CHAIN_CANON_MAP[key];
+    // Title-case simple tokens; keep known separators
+    return raw
+      .split(/(\s*\/\s*|\s+)/)
+      .map((part) => {
+        if (/^\s*\/\s*$/.test(part) || /^\s+$/.test(part)) return part.replace(/\s*\/\s*/, " / ").replace(/^\s+$/, " ");
+        if (!part) return part;
+        if (/^[A-Z0-9]{2,}$/.test(part)) return part; // acronyms like ICP, GIWA, NACRE
+        return part.charAt(0).toUpperCase() + part.slice(1);
+      })
+      .join("")
+      .replace(/\s*\/\s*/g, " / ")
+      .trim();
+  }
+
+  function chainsMatch(candidateChain, selectedCanon) {
+    if (!selectedCanon || selectedCanon === "all") return true;
+    return canonicalChain(candidateChain) === selectedCanon;
+  }
+
+  /** True only with clear LayerZero / Zero ecosystem evidence — not merely OFT/Omnichain in the name. */
   function isLayerZero(c) {
     const tags = (c.tags || []).map((t) => String(t).toLowerCase());
-    if (tags.some((t) => t.includes("layerzero") || t === "lz" || t === "oft" || t === "zro")) {
+    // Require explicit layerzero / lz tag; do NOT treat oft / zro / omnichain alone as LZ.
+    if (tags.some((t) => t.includes("layerzero") || t === "lz" || t === "layer-zero")) {
       return true;
     }
+    const canon = canonicalChain(c.chain);
+    if (canon === "LayerZero") return true;
     const chain = String(c.chain || "").toLowerCase();
     if (chain === "layerzero" || chain === "zero" || chain.includes("layerzero")) return true;
+    // Explicit LayerZero / official-ecosystem wording in core copy (not drawbacks alone).
     const blob = `${c.name} ${c.whyWatch || ""} ${c.background || ""}`.toLowerCase();
     return blob.includes("layerzero") || blob.includes("layer zero");
   }
@@ -380,7 +462,7 @@
             <div class="name">${escapeHtml(c.name)}${lz ? '<span class="lz-chip" title="LayerZero 相关">LZ</span>' : ""}${isGoPlay(c) ? '<span class="go-chip" title="GO盘">GO</span>' : ""}${sched}${newBadge}</div>
             <div class="tags">
               <span class="tag tag-cat-${escapeHtml(c.category)}">${escapeHtml(c.category)}</span>
-              <span class="tag tag-chain">${escapeHtml(c.chain)}</span>
+              <span class="tag tag-chain">${escapeHtml(canonicalChain(c.chain))}</span>
               ${lz ? '<span class="tag tag-lz">LayerZero</span>' : ""}
               ${isGoPlay(c) ? '<span class="tag tag-go">GO</span>' : ""}
               ${isMining(c) ? '<span class="tag tag-mining">挖矿</span>' : ""}
@@ -467,7 +549,7 @@
     if (state.category !== "all" && state.category !== "挖矿" && c.category !== state.category) {
       return false;
     }
-    if (state.chain !== "all" && c.chain !== state.chain) return false;
+    if (state.chain !== "all" && !chainsMatch(c.chain, state.chain)) return false;
     if (state.round !== "all" && String(c.round) !== String(state.round)) return false;
     if (state.layerzero === "on" && !isLayerZero(c)) return false;
     if (state.scheduleFilter === "soon24" && !within24h(c)) return false;
@@ -570,8 +652,8 @@
   }
 
   function uniqueChains(candidates) {
-    return [...new Set(candidates.map((c) => c.chain))].sort((a, b) => {
-      const rank = (ch) => (ch === "LayerZero" ? 0 : ch === "Zero" ? 1 : 2);
+    return [...new Set(candidates.map((c) => canonicalChain(c.chain)))].sort((a, b) => {
+      const rank = (ch) => (ch === "LayerZero" ? 0 : 1);
       return rank(a) - rank(b) || a.localeCompare(b);
     });
   }
@@ -688,7 +770,7 @@
     chainHost.innerHTML = chains
       .map(
         (c) =>
-          `<button type="button" class="chip ${c.id === "LayerZero" || c.id === "Zero" ? "chip-lz" : ""} ${state.chain === c.id ? "active" : ""}" data-group="chain" data-value="${escapeHtml(c.id)}">${escapeHtml(c.label)}</button>`
+          `<button type="button" class="chip ${c.id === "LayerZero" ? "chip-lz" : ""} ${state.chain === c.id ? "active" : ""}" data-group="chain" data-value="${escapeHtml(c.id)}">${escapeHtml(c.label)}</button>`
       )
       .join("");
 
@@ -799,7 +881,7 @@
     const why = escapeHtml((c.whyWatch || "").slice(0, 72));
     return `<div class="mining-row" data-id="${escapeHtml(c.id)}" title="${why}">
       <div class="mining-row-name">${escapeHtml(c.name)}</div>
-      <div class="mining-row-meta">${escapeHtml(c.chain || "")}</div>
+      <div class="mining-row-meta">${escapeHtml(canonicalChain(c.chain))}</div>
       <span class="mining-row-type">${escapeHtml(miningTypeLabel(c))}</span>
       <span class="mining-row-score">${escapeHtml(String(score))}</span>
       <div class="mining-row-links">${x}${site}</div>

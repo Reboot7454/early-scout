@@ -16619,14 +16619,13 @@
     {
       "id": "oftpad",
       "name": "OFT",
-      "category": "新台",
+      "category": "Launchpad",
       "tags": [
-        "LayerZero",
-        "OFT",
         "新台",
         "Launchpad",
         "omnichain",
-        "极早期"
+        "极早期",
+        "高风险"
       ],
       "status": "live",
       "newThisRound": true,
@@ -16662,13 +16661,13 @@
           }
         ],
         "source": "@OFTpad",
-        "note": "本轮新；LZ/OFT叙事"
+        "note": "本轮新；自称OFT发射台，官方接入未核验"
       },
       "onchain": {
         "chainId": "solana",
         "mintStatus": "live",
         "lastCheckedAt": "2026-10-16T22:28:46.013256+08:00",
-        "note": "pump.fun CA自报；LayerZero官方接入未核验"
+        "note": "pump.fun CA自报；是否真接LZ官方未核验"
       },
       "social": {
         "xFollowers": 20,
@@ -16680,16 +16679,16 @@
         "今日新建号，极早期 OFT/跨链发射台卡位"
       ],
       "drawbacks": [
-        "是否真正接入 LayerZero 官方未核验，极高风险",
+        "未核验是否真接 LayerZero 官方，极高风险",
         "仅官帖自述+pump.fun CA，无审计/无外部背书",
         "仿盘与Rug风险极高，需自核合约与路由"
       ],
-      "whatsNew": "新收录OFT pad；官帖已上线并贴pump.fun CA；今日新建≈20粉；LZ官方接入未核验；@OFTpad。",
-      "whyWatch": "极早期自称 OFT/omnichain 发射台；LayerZero 栏优先盯，但须先核验是否真接官方协议。",
+      "whatsNew": "新收录OFT pad；官帖已上线并贴pump.fun CA；今日新建≈20粉；未核验是否真接LZ官方→台子/Meme栏；@OFTpad。",
+      "whyWatch": "极早期自称 Omnichain Fungible Token 发射台（@OFTpad）；仅官帖自述+pump.fun CA，是否真接跨链协议未核验，归入台子/Meme 栏盯盘。",
       "flag": "本轮新",
       "riskLevel": "critical",
-      "risk": "今日新建号；LZ官方接入未核验；pump.fun自报CA，Rug/仿盘风险极高。",
-      "background": "Round94 侦测：@OFTpad 2026-10-16 建号，官帖宣称 Omnichain Fungible Token Launchpad 上线，可跨多链统一供给；贴 pump.fun CA 与 buyback 帖。面板分流 LayerZero。",
+      "risk": "今日新建号；官方跨链协议接入未核验；pump.fun自报CA，Rug/仿盘风险极高。",
+      "background": "Round94 侦测：@OFTpad 2026-10-16 建号，官帖宣称 Omnichain Fungible Token Launchpad 上线，可跨多链统一供给；贴 pump.fun CA 与 buyback 帖。官方协议接入未核验，故归入台子/Meme 栏而非跨链官方生态栏。",
       "chain": "multi",
       "mintStatus": "live"
     }
