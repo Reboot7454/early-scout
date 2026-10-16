@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-16 23:20 CST",
+    "updated": "2026-10-16 23:35 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "Round99 2026-10-16 23:20 CST：清 flying-cars/pixemaps 本轮新；新收录 cathereum/@CathereumTech、crawlhive/@crawlhivexyz；热更 PRINTERS OS→3033、Midnight→2165（翻倍至00:00后Public）、H00DEXE OG≈23:30未开、BLOX GTD≈00:02、Praxen LIVE确认；oftpad仍台子非LZ；Playground projectCount=0。",
-    "lastScout": "2026-10-16 23:20 CST",
+    "source": "Round100 @ 2026-10-16 23:35 CST：清 cathereum/crawlhive 本轮新；新收录 vaultlings、hoodbags；热单 OS/X 续更（H00DEXE OG已开22→422；Midnight→2218；PRINTERS→3045；BLOX GTD≈00:00；oftpad仍台子不进LZ；Playground projectCount=0）。",
+    "lastScout": "2026-10-16 23:35 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -46,8 +46,8 @@
         "zeromeme-fun",
         "oftpad"
       ],
-      "note": "Round99：无新的 Zero 开链/ATLAS mint；oftpad 仍台子/Meme——自称 OFT/omnichain live+CA pump，未核验官方 LayerZero 接入，不得进 LZ 栏；不得仅因 OFT/Omnichain 名或 oft/zro tag 进 LZ。",
-      "lastChecked": "2026-10-16 23:20 CST"
+      "note": "Round100：无新的 Zero 开链/ATLAS mint；oftpad 仍台子/Meme——自称 OFT/omnichain，未核验官方接入，不得进 LZ；不得仅因 OFT/Omnichain 名或 oft/zro tag 进 LZ。",
+      "lastChecked": "2026-10-16 23:35 CST"
     },
     "round5Added": [
       "farming-season",
@@ -345,7 +345,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 99,
+    "round": 100,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -422,7 +422,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 256,
+    "candidateCount": 258,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -649,8 +649,8 @@
         "public factory deploys",
         "fee split / S02"
       ],
-      "note": "R99：API /api/playgrounds 仍 projectCount=0；factories launchesEnabled=false / playgroundCreationEnabled=false；@Rhynotic≈27099。",
-      "lastChecked": "2026-10-16 23:20 CST"
+      "note": "R100：API /api/playgrounds 仍 projectCount=0；launchesEnabled未见开启；@Rhynotic≈27099。",
+      "lastChecked": "2026-10-16 23:35 CST"
     },
     "round97Added": [
       "evrynth"
@@ -662,9 +662,168 @@
     "round99Added": [
       "cathereum",
       "crawlhive"
+    ],
+    "round100Added": [
+      "vaultlings",
+      "hoodbags"
     ]
   },
   "candidates": [
+    {
+      "id": "vaultlings",
+      "name": "Vaultlings",
+      "category": "NFT",
+      "tags": [
+        "Robinhood",
+        "FREE",
+        "BankFi",
+        "GTD",
+        "极早期",
+        "高风险"
+      ],
+      "chain": "Robinhood",
+      "flag": "本轮新",
+      "newThisRound": true,
+      "round": 100,
+      "addedAt": "2026-10-16T23:35:05.105233+08:00",
+      "firstSeen": "2026-10-16T23:35:05.105233+08:00",
+      "scores": {
+        "early": 9,
+        "actionable": 5,
+        "novelty": 6,
+        "risk": 7,
+        "composite": 7.2,
+        "overall": 7.0
+      },
+      "highlights": [
+        "RH Chain FREE mint；BankFi(Cardano)同团队",
+        "结构 Team + GTD(BankFi holders) + FCFS + Public余量",
+        "2026-09-28建号≈280粉；networking阶段"
+      ],
+      "drawbacks": [
+        "日期与配额均未锁",
+        "粉量小，mint日TBA",
+        "与已有 vaultlingse(@vaultpunkss)不同项目，勿混淆"
+      ],
+      "whatsNew": "新收录：@VaultlingsNFT RH FREE mint；BankFi同团队；GTD/FCFS/Public结构已宣；日期TBA；≈280粉。",
+      "links": {
+        "x": "https://x.com/VaultlingsNFT",
+        "signal": "https://x.com/BankFiOfficial/status/2110768562478412144"
+      },
+      "schedule": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "phases": [
+          {
+            "name": "Team",
+            "note": "Reserved"
+          },
+          {
+            "name": "GTD WL",
+            "note": "BankFi holders + partners TBA"
+          },
+          {
+            "name": "FCFS WL",
+            "note": "社区FCFS"
+          },
+          {
+            "name": "Public",
+            "note": "余量开放"
+          }
+        ],
+        "source": "@VaultlingsNFT / @BankFiOfficial",
+        "note": "本轮新；日期TBA"
+      },
+      "onchain": {
+        "chainId": "robinhood",
+        "contract": null,
+        "standard": "ERC721",
+        "mintStatus": "watching",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
+        "note": "无CA；FREE mint结构已宣"
+      },
+      "social": {
+        "xFollowers": 280,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
+      },
+      "status": "upcoming",
+      "mintStatus": "watching",
+      "riskLevel": "high"
+    },
+    {
+      "id": "hoodbags",
+      "name": "Hoodbags",
+      "category": "Meme",
+      "tags": [
+        "Solana",
+        "pump.fun",
+        "Meme",
+        "今晚",
+        "极早期",
+        "高风险"
+      ],
+      "chain": "Solana",
+      "flag": "本轮新",
+      "newThisRound": true,
+      "round": 100,
+      "addedAt": "2026-10-16T23:35:05.105233+08:00",
+      "firstSeen": "2026-10-16T23:35:05.105233+08:00",
+      "scores": {
+        "early": 8,
+        "actionable": 9,
+        "novelty": 5,
+        "risk": 8,
+        "composite": 7.0,
+        "overall": 6.5
+      },
+      "highlights": [
+        "$HBAGS≈今晚18:30CET≈00:30CST via pump.fun",
+        "娱乐/游戏生态叙事；TG已有",
+        "@HoodbagsHQ≈559粉；倒计时官帖密集"
+      ],
+      "drawbacks": [
+        "纯Meme高风险；经济模型不透明",
+        "粉量中低，易被淹没",
+        "游戏仍开发中，落地不确定"
+      ],
+      "whatsNew": "新收录：@HoodbagsHQ $HBAGS Solana≈00:30CST via pump.fun；催备SOL钱包；≈559粉。",
+      "links": {
+        "x": "https://x.com/HoodbagsHQ",
+        "site": "https://t.me/HOODBAGS",
+        "mint": "https://pump.fun/",
+        "signal": "https://x.com/HoodbagsHQ/status/2111113011171614898"
+      },
+      "schedule": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-16T16:30:00Z",
+        "phases": [
+          {
+            "name": "$HBAGS launch",
+            "startsAt": "2026-10-16T16:30:00Z",
+            "note": "18:30 CET / ≈00:30CST via pump.fun"
+          }
+        ],
+        "source": "@HoodbagsHQ",
+        "note": "本轮新；≈00:30CST"
+      },
+      "onchain": {
+        "chainId": "solana",
+        "contract": null,
+        "standard": "spl",
+        "mintStatus": "upcoming",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
+        "note": "pump.fun即将发；CA待宣"
+      },
+      "social": {
+        "xFollowers": 559,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
+      },
+      "status": "upcoming",
+      "mintStatus": "upcoming",
+      "riskLevel": "high"
+    },
     {
       "id": "cathereum",
       "name": "Cathereum",
@@ -678,8 +837,7 @@
         "高风险"
       ],
       "chain": "Ethereum",
-      "flag": "本轮新",
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 99,
       "addedAt": "2026-10-16T23:20:02.566497+08:00",
       "firstSeen": "2026-10-16T23:20:02.566497+08:00",
@@ -701,7 +859,7 @@
         "尚无CA，无法核验合约",
         "粉量小，社区与热度待验证"
       ],
-      "whatsNew": "新收录：@CathereumTech 8888 DN404猫；WL/GTD/FCFS登记中（>2350）；Mint TBA；≈318粉。",
+      "whatsNew": "清本轮新；WL/GTD/FCFS登记中；Mint TBA；粉→318；@CathereumTech",
       "links": {
         "x": "https://x.com/CathereumTech",
         "site": "https://cathereum.tech",
@@ -722,19 +880,19 @@
           }
         ],
         "source": "@CathereumTech",
-        "note": "本轮新；Mint TBA"
+        "note": "Mint TBA；登记中"
       },
       "onchain": {
         "chainId": "ethereum",
         "contract": null,
         "standard": "DN404",
         "mintStatus": "watching",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "无CA；DN404自称"
       },
       "social": {
-        "xFollowers": 318,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 320,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "status": "upcoming",
       "mintStatus": "watching",
@@ -754,8 +912,7 @@
         "高风险"
       ],
       "chain": "Solana",
-      "flag": "本轮新",
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 99,
       "addedAt": "2026-10-16T23:20:02.566497+08:00",
       "firstSeen": "2026-10-16T23:20:02.566497+08:00",
@@ -777,7 +934,7 @@
         "浏览器内生钥信任与安全风险",
         "≈259粉，实际使用数据未披露"
       ],
-      "whatsNew": "新收录：@crawlhivexyz Clean Launch LIVE；站内直发pump.fun（0%费）；CA已宣；≈259粉。",
+      "whatsNew": "清本轮新；Clean Launch仍LIVE；CA已宣；粉→259；@crawlhivexyz",
       "links": {
         "x": "https://x.com/crawlhivexyz",
         "signal": "https://x.com/crawlhivexyz/status/2111111989959291121"
@@ -793,19 +950,19 @@
           }
         ],
         "source": "@crawlhivexyz",
-        "note": "本轮新；功能LIVE"
+        "note": "Clean Launch LIVE"
       },
       "onchain": {
         "chainId": "solana",
         "contract": "D4jNDQa3Cu4v8VMCAc2z7pgGGo7aGqzjXmwGR9wapump",
         "standard": "spl",
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "$CRAWLHIVE CA；Clean Launch LIVE"
       },
       "social": {
         "xFollowers": 259,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "status": "live",
       "mintStatus": "live",
@@ -886,12 +1043,12 @@
         "contract": "0xdd4a83daf532778c55f8806c9adf9a0f0ebb62de",
         "standard": "playground",
         "mintStatus": "watching",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
-        "note": "playgrounds projectCount=0；launchesEnabled=false"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
+        "note": "API projectCount=0；launchesEnabled=false"
       },
       "social": {
         "xFollowers": 27099,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "newThisRound": false,
       "addedAt": "2026-10-16T22:44:26.241781+08:00",
@@ -1111,12 +1268,12 @@
         "contract": "0x72D30216Aca893e3D4F54B35bcBf0d24EB483089",
         "standard": null,
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "RH bonding-curve LIVE；CA 0x72D30216Aca893e3D4F54B35bcBf0d24EB483089"
       },
       "social": {
         "xFollowers": 34,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "chain": "robinhood",
       "status": "live",
@@ -1151,7 +1308,7 @@
       "drawbacks": [
         "距 mint 仍约一周"
       ],
-      "whatsNew": "OS仍≈0；@PharaohGodMob≈2969",
+      "whatsNew": "OS仍≈0；@PharaohGodMob≈2972",
       "whyWatch": "FREE 且白名单分层明确，10k generative 体量下首日 mint 速度与二级地板是主要观察点。",
       "background": "10k generative · FREE · OpenSea · @PharaohGodMob",
       "risk": "FREE 刷量风险；合约与名单以官推/OpenSea 为准。",
@@ -1195,15 +1352,15 @@
         "standard": "ERC721",
         "mintStatus": "upcoming",
         "maxSupply": 10000,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "OS≈0",
         "totalSupply": 0,
         "minted": 0,
         "owners": 0
       },
       "social": {
-        "xFollowers": 2969,
-        "lastCheckedAt": "2026-10-16T23:09:48.426210+08:00"
+        "xFollowers": 2972,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "chain": "robinhood",
       "status": "upcoming",
@@ -1279,7 +1436,7 @@
         "standard": "ERC721",
         "mintStatus": "live",
         "maxSupply": 4444,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "OS≈59",
         "minted": 59,
         "totalSupply": 59,
@@ -1287,7 +1444,7 @@
       },
       "social": {
         "xFollowers": 566,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "chain": "robinhood",
       "status": "live",
@@ -1359,7 +1516,7 @@
         "contract": "0x232b6aa1b9fc6821e3a3183a51ea0f1b7c25970c",
         "standard": "ERC721",
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "OS≈399 owners≈339",
         "minted": 399,
         "totalSupply": 399,
@@ -1368,7 +1525,7 @@
       },
       "social": {
         "xFollowers": 91,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "chain": "robinhood",
       "status": "live",
@@ -1409,7 +1566,7 @@
       "drawbacks": [
         "粉少；无代币叙事需注意"
       ],
-      "whatsNew": "续更；@Uprallyhq≈35",
+      "whatsNew": "续更；@Uprallyhq≈37",
       "risk": "极早期工具；假站/授权风险；只认官推 @Uprallyhq 与 uprally.co。",
       "riskLevel": "high",
       "riskScore": 8,
@@ -1441,12 +1598,12 @@
         "chainId": "robinhood",
         "contract": null,
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "交易终端无铸造；只认官站"
       },
       "social": {
-        "xFollowers": 35,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 37,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "flag": "本轮新",
       "round": 79,
@@ -1517,12 +1674,12 @@
         "standard": "ERC721",
         "mintStatus": "upcoming",
         "maxSupply": 3000,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "合约未出；只认官推"
       },
       "social": {
         "xFollowers": 2449,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "flag": "本轮新",
       "round": 79,
@@ -1590,12 +1747,12 @@
         "contract": "B42aaQ93cxdWVhpGy6LBbsc25eaHtTaPhBE736Yxpump",
         "standard": null,
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "官帖贴 Solana pump CA；与站关联未充分核验"
       },
       "social": {
         "xFollowers": 2,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "flag": "本轮新",
       "round": 79,
@@ -1662,12 +1819,12 @@
         "chainId": null,
         "contract": null,
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "合约未核验；只认官推；仍 live"
       },
       "social": {
         "xFollowers": 10,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "round": 78,
       "firstSeen": "2026-10-16T19:02:12.271195+08:00",
@@ -1709,7 +1866,7 @@
         "增幅有限",
         "需自核资格"
       ],
-      "whatsNew": "mint窗仍开；OS仍≈619 owners≈83；@Codex_robinhood≈2128",
+      "whatsNew": "mint窗仍开；OS619→627 owners≈85；@Codex_robinhood≈2159",
       "whyWatch": "Mint 倒计时短且空投分配规则相对明确，适合盯早期铸造。",
       "background": "Codex 面向开发者叙事的 RH NFT+代币；$CODEX 总供10亿、70%空投；OS 合集 rarecodexfriends。",
       "risk": "账号新、信息少，存在跑路或空投不兑现高风险；只认官推与 OS 合约。",
@@ -1736,23 +1893,23 @@
           }
         ],
         "source": "@Codex_robinhood",
-        "note": "mint窗仍开；OS≈617"
+        "note": "mint窗仍开；OS→627"
       },
       "onchain": {
         "chainId": "robinhood",
         "contract": "0x0f9a70701a771c8fb4aef05e3680ba4a3f807e92",
         "standard": "ERC721",
         "mintStatus": "live",
-        "totalSupply": 619,
-        "minted": 619,
+        "totalSupply": 627,
+        "minted": 627,
         "maxSupply": null,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
-        "note": "OS≈617 owners≈81",
-        "owners": 83
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
+        "note": "mint窗；OS→627",
+        "owners": 85
       },
       "social": {
-        "xFollowers": 2128,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 2159,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "newThisRound": false,
       "round": 75,
@@ -1798,7 +1955,7 @@
       "drawbacks": [
         "正式 mint 时间未锁"
       ],
-      "whatsNew": "续更；@mirrorimd≈605",
+      "whatsNew": "续更；@mirrorimd≈604",
       "whyWatch": "免费 mint + 链上身份叙事，GTD 资格刚开放可查。",
       "background": "MIRROR // $IMD 主打 $IMD 链上身份，共 3228 张 MIRROR CARDS，走免费 mint GTD WL 路线。",
       "risk": "mint 时间未官宣、粉丝基数小，属极早期项目，参与前需自行核实资格与合约。",
@@ -1831,12 +1988,12 @@
         "standard": null,
         "mintStatus": "upcoming",
         "maxSupply": 3228,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "合约未核验；GTD checker仍live"
       },
       "social": {
-        "xFollowers": 605,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 604,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "newThisRound": false,
       "round": 74,
@@ -1906,12 +2063,12 @@
         "contract": "0x9d783133a3ff9ba27fa1605547368cf9a316341e",
         "standard": null,
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "官帖声称 V2 launchpad live"
       },
       "social": {
         "xFollowers": 1182,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "newThisRound": false,
       "round": 73,
@@ -1952,7 +2109,7 @@
       "drawbacks": [
         "开矿时间仍 TBA"
       ],
-      "whatsNew": "续更；@WSMCO_≈289",
+      "whatsNew": "续更；@WSMCO_≈290",
       "whyWatch": "RH 上 GlazeCorp 风格早期基金/挖矿发射；盯开矿窗、$WSM 与合约。",
       "background": "WALL STREET MINING CO（@WSMCO_）自称 Professional Bag Diggers，First @glaze_corp token；GlazeCorp 为 Robinhood Chain fund launchpad。近期帖称 The mine is almost open / Miners assemble，并有 NFT giveaway 与 $WSM 叙事。",
       "risk": "极早期、粉少、开矿与代币细节未明；可能存在关联号/改期/空叙事风险。",
@@ -1984,12 +2141,12 @@
         "contract": null,
         "standard": null,
         "mintStatus": "upcoming",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "无公开合约；开矿TBA"
       },
       "social": {
-        "xFollowers": 289,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 290,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "newThisRound": false,
       "round": 72,
@@ -2032,7 +2189,7 @@
         "主网上线前仍不可用",
         "竞争台多"
       ],
-      "whatsNew": "主网仍 10-17 16:00UTC；@yorefun≈735",
+      "whatsNew": "主网仍 10-17 16:00UTC；@yorefun≈739",
       "whyWatch": "同类极早期链上发射台（Injective/Ink 风格 bonding fair-launch）；盯主网开台与首批发射。",
       "background": "yore.fun（@yorefun）自称 Injective 上 fair-launch bonding-curve 发射台：无预售、无团队配额，售罄毕业到 swap.yore.fun；已完成 testnet beta，官帖宣布周六 10-17 16:00 UTC 正式上线。",
       "risk": "极早期台子，合约/团队/LP毕业路径未充分核验；粉丝少，钓鱼号与改期风险高。",
@@ -2061,12 +2218,12 @@
         "contract": null,
         "standard": null,
         "mintStatus": "upcoming",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "Injective fair-launch pad；主网 10-17 16:00UTC"
       },
       "social": {
-        "xFollowers": 735,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 739,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "newThisRound": false,
       "round": 72,
@@ -2265,7 +2422,7 @@
         "供给随铸封顶"
       ],
       "whyWatch": "RH LIVE FREE Puppets：minted≈209/3333，@MidnightPuppets≈3653；OG→PUBLIC 两段 FREE。",
-      "whatsNew": "官帖「1h before public」→翻倍FREE至00:00CST后Public FREE；OS2120→2165 owners892→904；@MidnightPuppets≈3637",
+      "whatsNew": "官帖「1h before public」→翻倍FREE至00:00CST后Public FREE；OS2165→2218；@MidnightPuppets≈3634",
       "background": "Midnight Puppets：手缝卡通木偶主题合集，Robinhood Chain，supply 3333；OG FREE（8/wallet）→ PUBLIC FREE（2/wallet）；官网 midnightpuppets.com。",
       "links": {
         "x": "https://x.com/MidnightPuppets",
@@ -2289,7 +2446,7 @@
           }
         ],
         "source": "@MidnightPuppets",
-        "note": "翻倍窗至00:00后转Public"
+        "note": "翻倍FREE至00:00CST后Public FREE"
       },
       "mintStatus": "live",
       "flag": "LIVE",
@@ -2303,16 +2460,16 @@
         "contract": "0xa7331dc25ee52f96d560f4c9f30823086a4f793d",
         "standard": "ERC721",
         "mintStatus": "live",
-        "totalSupply": 2165,
-        "minted": 2165,
+        "totalSupply": 2218,
+        "minted": 2218,
         "maxSupply": 3333,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
-        "note": "OS≈2165 owners≈904",
-        "owners": 892
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
+        "note": "OS→2218；翻倍至00:00后Public",
+        "owners": 920
       },
       "social": {
-        "xFollowers": 3637,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 3634,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "schedule_note": true,
       "osSupply": 2120,
@@ -2450,12 +2607,12 @@
         "contract": null,
         "standard": null,
         "mintStatus": "paused",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "暂停已过仍无恢复帖"
       },
       "social": {
         "xFollowers": 7884,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       }
     },
     {
@@ -3416,7 +3573,7 @@
         "chainId": "robinhood",
         "contract": "0x0ae86967dfac39bf6dbc15b7e436a8c498c40937",
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "$PRAX via pons LIVE"
       },
       "highlights": [
@@ -3429,7 +3586,7 @@
         "发射台依赖 pons",
         "需自核合约/流动性"
       ],
-      "whatsNew": "官帖确认LIVE；$PRAX CA 0x0ae86967…c40937 via pons；@PraxenProtocol≈326",
+      "whatsNew": "官帖确认LIVE；$PRAX CA via pons；@PraxenProtocol≈326",
       "scores": {
         "early": 8,
         "actionable": 9,
@@ -3448,7 +3605,7 @@
       "newThisRound": false,
       "social": {
         "xFollowers": 326,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       }
     },
     {
@@ -5398,19 +5555,19 @@
           }
         ],
         "source": "@TheRCPTS",
-        "note": "GTD WL FREE LIVE（holder FREE stage完成）"
+        "note": "GTD WL FREE LIVE"
       },
       "onchain": {
         "chainId": "robinhood",
         "contract": "0xd5c758f4de7a3fca601a895afeed0d3061ad5e53",
         "standard": "ERC721",
         "mintStatus": "live",
-        "totalSupply": 3033,
-        "minted": 3033,
+        "totalSupply": 3045,
+        "minted": 3045,
         "maxSupply": 6000,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
-        "note": "OS(prntrs)≈3033 owners≈1013",
-        "owners": 1002
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
+        "note": "GTD WL LIVE；OS(prntrs)→3045",
+        "owners": 1020
       },
       "round": 66,
       "scores": {
@@ -5436,12 +5593,12 @@
       "riskLevel": "medium",
       "firstSeen": "2026-10-16T06:38:17.747674+08:00",
       "addedAt": "2026-10-16T06:38:17.747674+08:00",
-      "whatsNew": "GTD WL仍LIVE（官帖FREE stage完成）；OS(prntrs)3015→3033 owners1002→1013；@TheRCPTS≈3419",
+      "whatsNew": "GTD WL仍LIVE；官帖谈Machine Bay下一阶段；OS(prntrs)3033→3045；@TheRCPTS≈3418",
       "background": "Robinhood Chain FREE Team/GTD mint（Trencher warm），与 RECEIPTS/$RCPTS 持有者联动。",
       "whyWatch": "团队轮次即将开始，粉丝数较多，可能有较高参与度",
       "social": {
-        "xFollowers": 3419,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 3418,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "osSupply": 3015,
       "osOwners": 1002,
@@ -6561,7 +6718,7 @@
         "mint时间未定，不确定性高",
         "竞争可能非常激烈"
       ],
-      "whatsNew": "续更；@Embervale_≈11519",
+      "whatsNew": "社区喊下周NFT+$EMBER；FREE2000 WL热；mint日未官宣锁死；@Embervale_≈11528",
       "scores": {
         "early": 7,
         "actionable": 5,
@@ -6571,14 +6728,14 @@
         "overall": 5.8
       },
       "social": {
-        "xFollowers": 11519,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 11528,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "mintStatus": "WL/Early Access; FREE 2000 TBA",
       "flag": "续更",
       "status": "upcoming",
       "onchain": {
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       }
     },
     {
@@ -6677,7 +6834,7 @@
       "drawbacks": [
         "OS仍≈1，未见实质开卖"
       ],
-      "whatsNew": "续更；@InkbotsNFT≈5023",
+      "whatsNew": "续更；@InkbotsNFT≈5045",
       "scores": {
         "early": 7,
         "actionable": 6,
@@ -6689,8 +6846,8 @@
       "status": "upcoming",
       "mintStatus": "GTD open; OS links drop today; supply 888",
       "social": {
-        "xFollowers": 5023,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 5045,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "onchain": {
         "chainId": "ink",
@@ -6698,7 +6855,7 @@
         "standard": "ERC721",
         "mintStatus": "upcoming",
         "maxSupply": 888,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "OS inkbots≈1；官帖OS Links drop today",
         "minted": 1,
         "totalSupply": 1,
@@ -8070,7 +8227,7 @@
         "规则以官推为准，防假报名页",
         "正式 mint 时刻未在文案中锁死"
       ],
-      "whatsNew": "续更；@xreign_app≈172870",
+      "whatsNew": "续更；@xreign_app≈172866",
       "scores": {
         "early": 71,
         "risk": 68,
@@ -8079,13 +8236,13 @@
         "overall": 59
       },
       "onchain": {
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "status": "upcoming",
       "mintStatus": "名单截止",
       "social": {
-        "xFollowers": 172870,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 172866,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       }
     },
     {
@@ -10704,7 +10861,7 @@
         "供给仅999规模小",
         "需自核OS合集"
       ],
-      "whatsNew": "Public LIVE；OS仍≈100 owners≈10；@0ops_trade≈496",
+      "whatsNew": "Public LIVE；OS仍≈100 owners≈10；@0ops_trade≈495",
       "scores": {
         "early": 8,
         "actionable": 9,
@@ -10721,7 +10878,7 @@
         "totalSupply": 100,
         "minted": 100,
         "maxSupply": 999,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "OS≈100 owners≈10",
         "owners": 10
       },
@@ -10729,8 +10886,8 @@
       "mintStatus": "live",
       "flag": "LIVE",
       "social": {
-        "xFollowers": 496,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 495,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "osSupply": 100,
       "osOwners": 10,
@@ -11076,7 +11233,7 @@
         "mint价/时刻未锁",
         "WL窗已基本结束"
       ],
-      "whatsNew": "WL申请窗约已过；mint details soon；@UnrulyHQ≈3295",
+      "whatsNew": "WL申请窗约已过；mint details soon；@UnrulyHQ≈3336",
       "scores": {
         "early": 93,
         "risk": 72,
@@ -11085,12 +11242,12 @@
         "overall": 64
       },
       "social": {
-        "xFollowers": 3295,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 3336,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "status": "upcoming",
       "onchain": {
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       }
     },
     {
@@ -11654,8 +11811,8 @@
         "totalSupply": 105,
         "minted": 105,
         "maxSupply": 1500,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
-        "note": "OS≈105 owners≈35；无独立官推",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
+        "note": "Public FREE；OS≈105；无独立官推高风险",
         "owners": 35
       },
       "highlights": [
@@ -11680,8 +11837,8 @@
       "mintStatus": "live",
       "flag": "LIVE",
       "social": {
-        "xFollowers": 7967,
-        "lastCheckedAt": "2026-10-16T23:09:48.426210+08:00"
+        "xFollowers": 7968,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "osSupply": 105,
       "osOwners": 35,
@@ -11758,16 +11915,16 @@
       "schedule": {
         "status": "upcoming",
         "timezone": "Asia/Shanghai",
-        "startsAt": "2026-10-16T16:02:00Z",
+        "startsAt": "2026-10-16T16:00:00Z",
         "phases": [
           {
             "name": "GTD",
-            "startsAt": "2026-10-16T16:02:00Z",
-            "note": "需$IMD；≤2h"
+            "startsAt": "2026-10-16T16:00:00Z",
+            "note": "需$IMD；官帖30min倒计时"
           }
         ],
         "source": "@blox_imd",
-        "note": "GTD≈00:02CST"
+        "note": "GTD≈00:00CST（16:00UTC）"
       },
       "highlights": [
         "GTD≈00:02CST即将开",
@@ -11779,7 +11936,7 @@
         "需先桥/换IMD",
         "假站风险"
       ],
-      "whatsNew": "GTD≈00:02CST（社区称16:00UTC）；需$IMD；官号忙答桥/Gas；MetaMask/Blockaid警告仍在；@blox_imd≈3476",
+      "whatsNew": "官帖「30 minutes to mint」GTD≈00:00CST（16:00UTC）；需$IMD；MetaMask/Blockaid警告仍在；@blox_imd≈3479",
       "scores": {
         "early": 8,
         "actionable": 6,
@@ -11793,15 +11950,15 @@
         "contract": null,
         "standard": null,
         "mintStatus": "upcoming",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
-        "note": "GTD≈00:02CST；需$IMD；MetaMask/Blockaid警告"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
+        "note": "GTD≈00:00CST；需$IMD；MetaMask/Blockaid警告"
       },
       "flag": "≤2h",
       "status": "upcoming",
       "mintStatus": "upcoming",
       "social": {
-        "xFollowers": 3476,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 3479,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       }
     },
     {
@@ -12336,7 +12493,7 @@
         "note": "R93 WL V1开"
       },
       "onchain": {
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "highlights": [
         "WL V1已开",
@@ -12346,7 +12503,7 @@
         "mint日TBA",
         "供给10k偏大"
       ],
-      "whatsNew": "WL V1已开；10k GTD FREE；mint日TBA；@CaravanRH≈923",
+      "whatsNew": "WL V1已开；10k GTD FREE；mint日TBA；@CaravanRH≈933",
       "scores": {
         "early": 92,
         "risk": 80,
@@ -12355,8 +12512,8 @@
         "overall": 59
       },
       "social": {
-        "xFollowers": 923,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 933,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "status": "upcoming"
     },
@@ -12385,7 +12542,7 @@
         "opensea": "https://opensea.io/collection/h00dexe"
       },
       "schedule": {
-        "status": "upcoming",
+        "status": "live",
         "timezone": "Asia/Shanghai",
         "startsAt": "2026-10-16T15:30:00Z",
         "phases": [
@@ -12402,44 +12559,44 @@
           }
         ],
         "source": "@h00dexe",
-        "note": "OG≈23:30CST 计入≤2h"
+        "note": "OG FREE LIVE≈23:30–00:30CST；PUBLIC≈00:30"
       },
       "onchain": {
         "chainId": "robinhood",
         "contract": "0x685e1e383e758b49b3f3413b5c5281c225b2ce1a",
         "standard": "ERC721",
-        "mintStatus": "upcoming",
-        "totalSupply": 22,
-        "minted": 22,
+        "mintStatus": "live",
+        "totalSupply": 422,
+        "minted": 422,
         "maxSupply": 2222,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
-        "note": "OS仍≈22 owners≈6 TEAM；OG未开",
-        "owners": 6
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
+        "note": "OG已开；OS22→422",
+        "owners": 400
       },
       "highlights": [
-        "OG FREE≈23:30CST FCFS 400个",
+        "OG FREE已开 OS→422",
         "PUBLIC≈00:30 0.002ETH max2",
-        "OS仍TEAM≈22"
+        "FCFS allowlist不保证铸到"
       ],
       "drawbacks": [
         "allowlist不保证铸到",
         "链上仍TEAM供给"
       ],
-      "whatsNew": "OG FREE 23:30–00:30CST 仍未开（OS仍≈22/6 TEAM）；PUBLIC 00:30 0.002ETH；@h00dexe≈1046",
+      "whatsNew": "OG FREE已开（OS22→422）；窗至00:30CST；PUBLIC≈00:30 0.002ETH；@h00dexe≈1046",
       "scores": {
         "early": 8,
-        "actionable": 9,
+        "actionable": 10,
         "novelty": 7,
         "risk": 6,
-        "composite": 8.0,
-        "overall": 8.0
+        "composite": 8.5,
+        "overall": 8.5
       },
       "flag": "≤2h",
-      "status": "upcoming",
+      "status": "live",
       "mintStatus": "upcoming",
       "social": {
         "xFollowers": 1046,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "osSupply": 22,
       "osOwners": 6,
@@ -12627,12 +12784,12 @@
         "contract": "0x138cc437c8c4bc7486c7c45b72c5e431772401a4",
         "standard": "ERC721",
         "mintStatus": "live",
-        "totalSupply": 210,
-        "minted": 210,
+        "totalSupply": 211,
+        "minted": 211,
         "maxSupply": 1337,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
-        "note": "OS≈208 owners≈100",
-        "owners": 101
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
+        "note": "LIVE；OS→211",
+        "owners": 102
       },
       "highlights": [
         "mint LIVE",
@@ -12642,7 +12799,7 @@
         "增幅极小",
         "付费档竞争"
       ],
-      "whatsNew": "OS仍≈210 owners≈101；@RuneCraftWorld≈4854",
+      "whatsNew": "OS210→211 owners≈102；@RuneCraftWorld≈4850",
       "scores": {
         "early": 7,
         "actionable": 8,
@@ -12657,8 +12814,8 @@
       "status": "live",
       "mintStatus": "live",
       "social": {
-        "xFollowers": 4854,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 4850,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "osSupply": 210,
       "osOwners": 101,
@@ -13089,7 +13246,7 @@
         "totalSupply": 1,
         "minted": 1,
         "maxSupply": 4444,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "OS≈1 owners≈1",
         "owners": 1
       },
@@ -13117,7 +13274,7 @@
       "mintStatus": "live",
       "social": {
         "xFollowers": 3467,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "osSupply": 1,
       "osOwners": 1,
@@ -13191,7 +13348,7 @@
         "minted": 1,
         "totalSupply": 1,
         "maxSupply": 555,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "explorer": "https://opensea.io/collection/reefersrh",
         "note": "OS≈1；FREE≈03:00CST+1",
         "owners": 1
@@ -13204,7 +13361,7 @@
         "时间较晚",
         "供应量有限"
       ],
-      "whatsNew": "FREE≈03:00CST；OS仍≈1；@ReefersRH≈1404",
+      "whatsNew": "FREE≈03:00CST；OS仍≈1；@ReefersRH≈1403",
       "scores": {
         "early": 6,
         "actionable": 7,
@@ -13219,8 +13376,8 @@
       "mintStatus": "团队FREE即将开始",
       "status": "upcoming",
       "social": {
-        "xFollowers": 1404,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 1403,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "osSupply": 1,
       "osOwners": 1,
@@ -14451,7 +14608,7 @@
         "发射窗取消节奏乱",
         "流动/募资风险待解"
       ],
-      "whatsNew": "假币警告+主发射仍延期；@BitcoinITMoney≈681",
+      "whatsNew": "BONS再要求延期+假ticker警告；官号澄清非诈骗；主发射仍延期；@BitcoinITMoney≈683",
       "whyWatch": "即将在BONSonBTC发射，但需评估平台可靠性",
       "background": "Bitcoin Internet Money 自称首个 CTO Launch（CRC-20）；官帖确认 Today 2PM UTC on @BONSonBTC。",
       "links": {
@@ -14476,7 +14633,7 @@
         "standard": "crc-20",
         "mintStatus": "live",
         "note": "CRC20 @BONSonBTC ≈22:00CST 发射窗",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "newThisRound": false,
       "round": 66,
@@ -14488,8 +14645,8 @@
       "mintStatus": "delayed",
       "flag": "WARN",
       "social": {
-        "xFollowers": 681,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 683,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       }
     },
     {
@@ -14956,7 +15113,7 @@
         "website": "https://tickapogee.xyz",
         "signal": "https://x.com/tickapogee/status/2111011765219901805"
       },
-      "whatsNew": "Token≈今天18:00UTC≈02:00CST；粉→310；@tickapogee",
+      "whatsNew": "Token≈今天18:00UTC≈02:00CST；粉→309；@tickapogee",
       "whyWatch": "对标盘后/休市期间 SPCX 与发射事件的链上对齐；极早期独立账本+代币窗口。",
       "background": "SpaceX launch ledger on Robinhood Chain · tickapogee.xyz · @tickapogee",
       "risk": "极早期高风险；账本未审计；代币 CA 未出前勿跟仿盘。",
@@ -14998,12 +15155,12 @@
         "contract": "0x1B54e85975281aBdB1a3DB3f12722b947b2aC0E7",
         "standard": "ledger",
         "mintStatus": "ledger_live_token_pending",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "LaunchLedger LIVE；代币 CA 待 18:00UTC 官宣"
       },
       "social": {
-        "xFollowers": 310,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 309,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "status": "upcoming",
       "mintStatus": "upcoming",
@@ -15030,7 +15187,7 @@
         "mint": "https://opensea.io",
         "signal": "https://x.com/_Degenerate_101/status/2110413496370286667"
       },
-      "whatsNew": "续更R97：@_Degenerate_101≈829。",
+      "whatsNew": "续更；@_Degenerate_101≈830",
       "whyWatch": "极小供 101 + 低价全阶段，适合盯官宣 mint 日与 OS 上线。",
       "background": "101 unique 320-cell pixel art on Robinhood · @_Degenerate_101",
       "risk": "高风险；第三方抽奖多，只认官推；合约未出。",
@@ -15077,12 +15234,12 @@
         "maxSupply": 101,
         "minted": 0,
         "totalSupply": 0,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "合约未出；只认官推"
       },
       "social": {
-        "xFollowers": 829,
-        "lastCheckedAt": "2026-10-16T23:09:48.426210+08:00"
+        "xFollowers": 830,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "status": "watching",
       "mintStatus": "upcoming",
@@ -15127,7 +15284,7 @@
         "产品深度待自验",
         "Canton/Solana叙事需分清"
       ],
-      "whatsNew": "official launch today 仍有效；@xstokfun≈3663",
+      "whatsNew": "official launch today 仍有效（股票配对发币）；@xstokfun≈3677",
       "whyWatch": "股票代币配对发射台今日开板；极早期可观察首批池与规则。",
       "background": "Launch & trade tokens paired with stocks on Solana · xstok.fun · @xstokfun",
       "risk": "极早期高风险；只认官推/官站；合约与 LP 需自验，DYOR。",
@@ -15155,12 +15312,12 @@
         "contract": null,
         "standard": null,
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "Canton/Solana stock-pair launchpad；今日再确认launch"
       },
       "social": {
-        "xFollowers": 3663,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 3677,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "flag": "LIVE",
       "round": 83,
@@ -15226,12 +15383,12 @@
         "contract": null,
         "standard": null,
         "mintStatus": "n/a_wallet",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "钱包产品；非 mint；只认 consolewallet.io"
       },
       "social": {
         "xFollowers": 12994,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "flag": null,
       "round": 83,
@@ -15273,7 +15430,7 @@
       "drawbacks": [
         "需甄别具体发射质量"
       ],
-      "whatsNew": "续更；@flaunchgg≈24756",
+      "whatsNew": "续更；@flaunchgg≈24773",
       "whyWatch": "用户指定收录的同类发射台；Play-to-Buy 玩法可持续观察。",
       "background": "Flaunch（@flaunchgg）由 @FlayerLabs 构建的 Base 代币发射协议，主打 Play to Buy、固定价公平发射与 ETH 创作者收入。",
       "risk": "已上线协议仍高风险；只认官推/官站；智能合约与玩法需自验，DYOR。",
@@ -15301,12 +15458,12 @@
         "contract": null,
         "standard": null,
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "Base launch protocol；具体币以官推为准"
       },
       "social": {
-        "xFollowers": 24756,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 24773,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "flag": null,
       "round": 83,
@@ -15348,7 +15505,7 @@
       "drawbacks": [
         "开板 TBA"
       ],
-      "whatsNew": "续更；@onepumpcc≈1462",
+      "whatsNew": "续更；@onepumpcc≈1468",
       "whyWatch": "Canton meme 发射台候补；与 Console/Xstok 同品类扩展。",
       "background": "OnePump（@onepumpcc）自称 The first memecoin launchpad on Canton Network，Built by @OneSwapCC；bonding-curve 后毕业锁定流动性到 OneSwap。",
       "risk": "极早期 waitlist；未充分审计；只认官推/waitlist 站，DYOR。",
@@ -15375,12 +15532,12 @@
         "contract": null,
         "standard": null,
         "mintStatus": "waitlist",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "waitlist；合约未核验"
       },
       "social": {
-        "xFollowers": 1462,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 1468,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "flag": null,
       "round": 83,
@@ -15404,7 +15561,7 @@
         "x": "https://x.com/IGNITION_RH",
         "signal": "https://x.com/IGNITION_RH/status/2110911424457515118"
       },
-      "whatsNew": "续更；@IGNITION_RH≈855",
+      "whatsNew": "续更；@IGNITION_RH≈856",
       "whyWatch": "RH 上可热切换股票交易对的 hook 发射玩法；对标 Programmable 风格极早期。",
       "background": "Rename / re-tier / switch pair anytime on Robinhood Chain · @IGNITION_RH",
       "risk": "极早期；未审计；CA 与仿盘需严格只认官推。",
@@ -15447,12 +15604,12 @@
         "chainId": "robinhood",
         "contract": "0x01e6301bc1118be90cc6bc2d1b5c0c44bb883111",
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "官推 CA；未做字节码核验"
       },
       "social": {
-        "xFollowers": 855,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 856,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "status": "live",
       "mintStatus": "live",
@@ -15519,12 +15676,12 @@
         "contract": "Hf3rEfh9DxsMhv44bq4y9kveZn8mKSo2hppJURYrpump",
         "standard": "spl",
         "mintStatus": "watching",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "bio pump.fun CA；未逐笔核验"
       },
       "social": {
         "xFollowers": 30,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "status": "watching",
       "mintStatus": "watching",
@@ -15554,7 +15711,7 @@
         "XMR NFT 工具链/二级市场极不成熟",
         "正式 mint 时间与合约细节待官宣"
       ],
-      "whatsNew": "续更；@nuloraio≈2672",
+      "whatsNew": "续更；@nuloraio≈2678",
       "scores": {
         "early": 9,
         "actionable": 6,
@@ -15592,12 +15749,12 @@
         "standard": "xmr-nft",
         "mintStatus": "upcoming",
         "maxSupply": 2500,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "合约/铸造通道待官宣"
       },
       "social": {
-        "xFollowers": 2672,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 2678,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "tags": [
         "NFT",
@@ -15664,12 +15821,12 @@
         "contract": null,
         "standard": "spl",
         "mintStatus": "watching",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "未见可靠 CA；只认官推"
       },
       "social": {
         "xFollowers": 0,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "tags": [
         "新台",
@@ -15704,7 +15861,7 @@
         "账号 2026-10-12 新建；正式 mint 时刻 TBA",
         "合约地址待官宣；需自验 Ink 合约"
       ],
-      "whatsNew": "续更；@Codeinknft≈1060",
+      "whatsNew": "续更；@Codeinknft≈1073",
       "scores": {
         "early": 9,
         "actionable": 7,
@@ -15742,12 +15899,12 @@
         "standard": "erc721",
         "mintStatus": "upcoming",
         "maxSupply": 1000,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "合约待官宣"
       },
       "social": {
-        "xFollowers": 1060,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 1073,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "tags": [
         "NFT",
@@ -15782,7 +15939,7 @@
         "代币已流通，非零点发射；机制复杂需自研",
         "RH 流动性与 hook 组合风险自负"
       ],
-      "whatsNew": "续更；@Hookrfun≈6894",
+      "whatsNew": "续更；@Hookrfun≈6895",
       "scores": {
         "early": 6,
         "actionable": 7,
@@ -15815,12 +15972,12 @@
         "contract": "0x18e674231a58c239dc7daedcffe15ec3a24cff5c",
         "standard": "erc20",
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "社区提及 RH CA；未逐笔核验"
       },
       "social": {
-        "xFollowers": 6894,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 6895,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "tags": [
         "新台",
@@ -16934,12 +17091,12 @@
       "onchain": {
         "chainId": "solana",
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "LARP bot：仅签消息无部署；是否真接LZ官方未核验"
       },
       "social": {
         "xFollowers": 20,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "highlights": [
         "官帖称 Omnichain Fungible Token Launchpad 已上线",
@@ -16987,7 +17144,7 @@
         "安全分/锁LP需自核",
         "仿盘/Rug风险高"
       ],
-      "whatsNew": "Solana mainnet LIVE；CA 6vu2upyG…pump；@CurvoPad≈20",
+      "whatsNew": "Solana mainnet LIVE；CA官宣；@CurvoPad≈20",
       "whyWatch": "若 CA 落地且 fair bonding 与锁 LP 兑现，可能成为 Solana meme 打新新入口。",
       "background": "Solana memecoin launchpad：fair bonding curve、毕业锁LP、安全分；Coming soon；@CurvoPad",
       "chain": "Solana",
@@ -17025,12 +17182,12 @@
         "contract": "6vu2upyGgDmVso73zQTdmJsrEB5Z6Sp7xns2JAjYpump",
         "standard": "spl",
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "官宣 mainnet LIVE CA"
       },
       "social": {
         "xFollowers": 20,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "newThisRound": false,
       "addedAt": "2026-10-16T22:41:45.640925+08:00",
@@ -17100,12 +17257,12 @@
         "contract": "0xe1838f0dff03a9327dea87b2a2285850791297ec",
         "standard": "unknown",
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "bio 合约；未逐笔核验"
       },
       "social": {
         "xFollowers": 1500,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "newThisRound": false,
       "addedAt": "2026-10-16T22:41:45.640925+08:00",
@@ -17182,12 +17339,12 @@
         "contract": "9m5hwLG4brTyZkEhtKvkzgFAbA7YxVvwPY1XuSpupump",
         "standard": "spl",
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "$EVYN CA 自报 pump；launchpad 主网宣称 LIVE"
       },
       "social": {
         "xFollowers": 179,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "newThisRound": false,
       "addedAt": "2026-10-16T22:51:54.473536+08:00",
@@ -17220,7 +17377,7 @@
         "无AL+极早粉，信息与执行风险高",
         "$TSLA 效用仅为自述"
       ],
-      "whatsNew": "清本轮新；粉29→34；Mint仍TBA；@FlyingCarsNFT",
+      "whatsNew": "粉34→39；Mint仍TBA；@FlyingCarsNFT",
       "whyWatch": "当日新号+RH FREE首铸叙事，适合极早期雷达盯窗。",
       "background": "Kickflip Motors / @FlyingCarsNFT：Robinhood Chain 上 3000 pixel stunt cars；verification pending；Mint TBA。",
       "chain": "Robinhood",
@@ -17260,12 +17417,12 @@
         "chainId": "robinhood",
         "contract": null,
         "mintStatus": "watching",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "Mint TBA；无CA"
       },
       "social": {
-        "xFollowers": 34,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 39,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "newThisRound": false,
       "addedAt": "2026-10-16T23:09:48.426210+08:00",
@@ -17298,7 +17455,7 @@
         "Programmable 主站仍反狙击暂停未恢复",
         "粉极少，落地不确定"
       ],
-      "whatsNew": "清本轮新；粉18→21；仍无CA；盯Programmable恢复；@pixemaps",
+      "whatsNew": "粉21→23；仍无CA；盯Programmable恢复；@pixemaps",
       "whyWatch": "Programmable/v4 hooks 关注品类下的极早期旁系信号。",
       "background": "Pixel Map @pixemaps：自称基于 @ProgrammableHQ 的 112 maps / custom hook；账号今日创建。",
       "chain": "TBA",
@@ -17334,12 +17491,12 @@
         "chainId": null,
         "contract": null,
         "mintStatus": "watching",
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00",
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00",
         "note": "无CA"
       },
       "social": {
-        "xFollowers": 21,
-        "lastCheckedAt": "2026-10-16T23:20:02.566497+08:00"
+        "xFollowers": 23,
+        "lastCheckedAt": "2026-10-16T23:35:05.105233+08:00"
       },
       "newThisRound": false,
       "addedAt": "2026-10-16T23:09:48.426210+08:00",
