@@ -678,8 +678,10 @@
     return list;
   }
 
+  /** Focus strip is global: all focus:true / isFocus items, independent of round (and other chip filters).
+   *  Round/category/chain/LZ/schedule filters apply only to the five daily columns via passesShared. */
   function focusItems() {
-    let list = state.data.candidates.filter((c) => isFocus(c) && passesShared(c) && hasTwitter(c));
+    let list = state.data.candidates.filter((c) => isFocus(c) && hasTwitter(c));
     list = sortList(list);
     const focusIds = (state.data.meta && state.data.meta.focusIds) || [];
     if (focusIds.length) {
