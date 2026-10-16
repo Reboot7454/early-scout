@@ -65,6 +65,6 @@
 
 
 ## DeepSeek 省用量
-- 例行打分/筛选/亮点缺点/whatsNew/alert → `deepseek-flash`（thinking 关闭）。
+- 例行打分/筛选/亮点缺点/whatsNew/alert → `deepseek-flash`（thinking 开启，勿强制关闭）。
 - 脚本：`scripts/deepseek_chat.py`、`scripts/ds_batch_score.py`。
 - 执行端只拉信号+推送，避免用 SuperGrok 做长推理。
