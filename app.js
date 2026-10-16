@@ -207,8 +207,10 @@
 
   /** True only with clear LayerZero / Zero ecosystem evidence — not merely OFT/Omnichain in the name. */
   function isLayerZero(c) {
+    // Self-claimed OFT/bridge without verification must NOT land here (→ 台子/Meme).
+    if (c && c.lzVerified === false) return false;
     const tags = (c.tags || []).map((t) => String(t).toLowerCase());
-    // Require explicit layerzero / lz tag; do NOT treat oft / zro / omnichain alone as LZ.
+    // Explicit layerzero / lz tag only when not marked unverified.
     if (tags.some((t) => t.includes("layerzero") || t === "lz" || t === "layer-zero")) {
       return true;
     }
@@ -216,9 +218,12 @@
     if (canon === "LayerZero") return true;
     const chain = String(c.chain || "").toLowerCase();
     if (chain === "layerzero" || chain === "zero" || chain.includes("layerzero")) return true;
-    // Explicit LayerZero / official-ecosystem wording in core copy (not drawbacks alone).
-    const blob = `${c.name} ${c.whyWatch || ""} ${c.background || ""}`.toLowerCase();
-    return blob.includes("layerzero") || blob.includes("layer zero");
+    // Official-ecosystem wording only if lzVerified === true (avoid self-claim in background).
+    if (c && c.lzVerified === true) {
+      const blob = `${c.name} ${c.whyWatch || ""} ${c.background || ""}`.toLowerCase();
+      return blob.includes("layerzero") || blob.includes("layer zero");
+    }
+    return false;
   }
 
   function isMining(c) {
@@ -251,8 +256,20 @@
 
   const PLATFORM_CATS = new Set(["新台", "Meme", "Launchpad"]);
 
-  /** Exactly one column: LayerZero > mining > GO > 台子/Meme > 打新. */
+  /** Focus/重点 overrides every other zone (including LZ). */
+  function isFocus(c) {
+    if (!c) return false;
+    if (c.focus === true) return true;
+    const focusIds = (state.data && state.data.meta && state.data.meta.focusIds) || [];
+    if (focusIds.includes(c.id)) return true;
+    const tags = c.tags || [];
+    if (tags.some((t) => String(t) === "重点" || String(t).toLowerCase() === "focus")) return true;
+    return false;
+  }
+
+  /** Exactly one column: focus > LayerZero > mining > GO > 台子/Meme > 打新. */
   function zoneOf(c) {
+    if (isFocus(c)) return "focus";
     if (isLayerZero(c)) return "lz";
     if (isMining(c)) return "mining";
     if (isGoPlay(c)) return "go";
@@ -440,13 +457,15 @@
           : "";
     const riskClass = c.riskLevel === "extreme" ? "risk-extreme" : "";
     const lz = isLayerZero(c);
+    const focus = isFocus(c);
     const lzClass = lz ? "card-lz" : "";
+    const focusClass = focus ? "card-focus" : "";
     const hasFlag = Boolean(flagClass);
     const x = c.links?.x;
     const site = c.links?.site;
     const riskLevelKey = String(c.riskLevel || "medium");
     const extraTags = (c.tags || [])
-      .filter((t) => !["LayerZero"].includes(t))
+      .filter((t) => !["LayerZero", "重点", "focus"].includes(t))
       .slice(0, 3)
       .map((t) => `<span class="tag tag-extra">${escapeHtml(t)}</span>`)
       .join("");
@@ -460,13 +479,14 @@
       : "";
 
     return `
-      <article class="card ${riskClass} ${flagClass} ${lzClass}" data-id="${escapeHtml(c.id)}">
+      <article class="card ${riskClass} ${flagClass} ${lzClass} ${focusClass}" data-id="${escapeHtml(c.id)}">
         <div class="card-top ${hasFlag ? "" : "has-no-flag"}">
           <div>
-            <div class="name">${escapeHtml(c.name)}${lz ? '<span class="lz-chip" title="LayerZero 相关">LZ</span>' : ""}${isGoPlay(c) ? '<span class="go-chip" title="GO盘">GO</span>' : ""}${sched}${newBadge}</div>
+            <div class="name">${escapeHtml(c.name)}${focus ? '<span class="focus-chip" title="重点关注">重点</span>' : ""}${lz ? '<span class="lz-chip" title="LayerZero 相关">LZ</span>' : ""}${isGoPlay(c) ? '<span class="go-chip" title="GO盘">GO</span>' : ""}${sched}${newBadge}</div>
             <div class="tags">
               <span class="tag tag-cat-${escapeHtml(c.category)}">${escapeHtml(c.category)}</span>
               <span class="tag tag-chain">${escapeHtml(canonicalChain(c.chain))}</span>
+              ${focus ? '<span class="tag tag-focus">重点</span>' : ""}
               ${lz ? '<span class="tag tag-lz">LayerZero</span>' : ""}
               ${isGoPlay(c) ? '<span class="tag tag-go">GO</span>' : ""}
               ${isMining(c) ? '<span class="tag tag-mining">挖矿</span>' : ""}
@@ -652,7 +672,18 @@
     let list = state.data.candidates.filter((c) => zoneOf(c) === zone && passesShared(c));
     if (zone === "mining") list = list.filter((c) => matchesMiningType(c, state.miningTypeFilter));
     list = list.filter(hasTwitter);
-    return sortList(list);
+    list = sortList(list);
+    if (zone === "focus") {
+      const focusIds = (state.data.meta && state.data.meta.focusIds) || [];
+      if (focusIds.length) {
+        const rank = (id) => {
+          const i = focusIds.indexOf(id);
+          return i >= 0 ? i : focusIds.length + 50;
+        };
+        list = [...list].sort((a, b) => rank(a.id) - rank(b.id));
+      }
+    }
+    return list;
   }
 
   function uniqueChains(candidates) {
@@ -818,6 +849,7 @@
             `<button type="button" class="chip ${c.cls} ${state.category === c.id ? "active" : ""}" data-group="category" data-value="${c.id}">${c.label}</button>`
         )
         .join("") +
+      `<button type="button" class="chip chip-focus" data-group="zoneJump" data-value="focus-panel">重点</button>` +
       `<button type="button" class="chip cat-go" data-group="zoneJump" data-value="go-panel">GO盘</button>` +
       `<button type="button" class="chip cat-meme-jump" data-group="zoneJump" data-value="meme-panel">台子/Meme</button>` +
       `<button type="button" class="chip chip-lz" data-group="zoneJump" data-value="lz-panel">LayerZero</button>`;
@@ -976,6 +1008,7 @@
   }
 
   const ZONES = [
+    { id: "focus", grid: "#focus-grid", count: "#focus-count", label: "重点", cards: true },
     { id: "scout", grid: "#grid", count: "#scout-count", label: "打新", cards: true },
     { id: "mining", grid: "#mining-grid", count: "#mining-count", label: "挖矿", cards: false },
     { id: "meme", grid: "#meme-grid", count: "#meme-count", label: "台子 / Meme", cards: true },
@@ -984,6 +1017,9 @@
   ];
 
   function emptyColumnHtml(label, zoneId) {
+    if (zoneId === "focus") {
+      return `<div class="empty empty-focus"><div class="focus-badge-lg">重点</div><div>暂无重点候选</div><div class="empty-sub">仓鼠/实体 PoW 玩具链 · 硬件矿机实验 · 预发币测试网</div></div>`;
+    }
     if (zoneId === "lz") {
       return `<div class="empty empty-lz"><div class="lz-badge-lg">LZ</div><div>暂无 LayerZero 相关候选</div><div class="empty-sub">盯 Zero 开链 · ATLAS · OFT 发射 · 生态极早期</div></div>`;
     }
@@ -1023,13 +1059,16 @@
     const pool = state.data.candidates.filter(hasTwitter);
     const total = pool.length;
     const soonN = pool.filter(within24h).length;
+    const focusPill = $("#focus-pill");
     const minePill = $("#mining-pill");
     const goPill = $("#go-pill");
     const lzPill = $("#lz-pill");
+    if (focusPill) focusPill.textContent = `重点 · ${counts.focus.total}`;
     if (minePill) minePill.textContent = `挖矿 · ${counts.mining.total}`;
     if (goPill) goPill.textContent = `GO盘 · ${counts.go.total}`;
     if (lzPill) lzPill.textContent = `LayerZero · ${counts.lz.total}`;
     $("#stats").innerHTML = `
+      重点 <b>${counts.focus.shown}</b> ·
       打新 <b>${counts.scout.shown}</b> ·
       挖矿 <b>${counts.mining.shown}</b> ·
       台子/Meme <b>${counts.meme.shown}</b> ·

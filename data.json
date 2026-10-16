@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-17 02:09 CST",
+    "updated": "2026-10-17 02:13 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "R112例行：清grove-rh/hashmind-fun/oreon-fun本轮新；新收录real-hood-people,armoreum,ape-blitz；热更tickapogee CA LIVE / reefers TEAM≈03:00CST / pill-go LIVE / yorefun主网10-17 16:00UTC；oftpad仍台子不进LZ；Armoreum进LZ栏（tag layerzero）；五栏已扫。",
-    "lastScout": "2026-10-17 02:09 CST",
+    "source": "R113：新「重点」栏（左起第一）；收录 squeekchain（重点首位）+ hamster-hour；清 real-hood-people/armoreum/ape-blitz 本轮新；standing watch 扩到实体+链上玩具/动物PoW/硬件矿机实验/预发币测试网同类；六栏已扫。；2026-10-17 02:13 CST 修正 armoreum：自称LZ未核验→台子/Meme，移出第五栏",
+    "lastScout": "2026-10-17 02:15 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -120,7 +120,9 @@
       "onchain",
       "scores",
       "highlights",
-      "mining"
+      "mining",
+      "focusZone",
+      "focusWatch"
     ],
     "round15Added": [
       "vectis",
@@ -347,7 +349,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 112,
+    "round": 113,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -726,9 +728,185 @@
       ],
       "lastChecked": "2026-10-17 01:45 CST",
       "note": "R111续扫；Midstate/MDS 仍挖矿栏"
-    }
+    },
+    "round112Added": [
+      "real-hood-people",
+      "armoreum",
+      "ape-blitz"
+    ],
+    "round113Added": [
+      "squeekchain",
+      "hamster-hour"
+    ],
+    "focusIds": [
+      "squeekchain",
+      "hamster-hour"
+    ],
+    "focusWatch": {
+      "active": true,
+      "label": "重点栏 · 实验玩具链监视",
+      "lastChecked": "2026-10-17 02:15 CST",
+      "seedFirst": "squeekchain",
+      "accounts": [
+        "@squeekchain",
+        "@squeektoshi",
+        "@pillheadddd",
+        "@hamsterhourgame"
+      ],
+      "candidateIds": [
+        "squeekchain",
+        "hamster-hour"
+      ],
+      "categoryScan": [
+        "experimental physical+onchain toys",
+        "hamster/animal PoW toychains",
+        "hardware-miner novelty chains",
+        "fair-distribution experimental L1/L2 toys still pre-token / testnet"
+      ],
+      "focus": [
+        "仓鼠/动物 PoW toychain",
+        "实体硬件矿机 + 上链验证",
+        "预发币 / 测试网实验 L1·L2 玩具",
+        "公平分配叙事的极早期 peer"
+      ],
+      "admitRule": "有 Twitter 的清晰早期 peer → focus:true 进重点栏（或至少 tags 含 重点 + 写入 focusWatch）；squeekchain 保持重点首位",
+      "note": "例行每轮扫本类，非整账号时间线监控。相关但不单独成盘：@squeektoshi（WHEELY9000 运营）、@pillheadddd（docs/API）。本轮未发现独立于 squeek 生态的清晰同类 peer；Hamster Hour 作生态首批应用收入。"
+    },
+    "armoreumNote": "2026-10-17: self-claimed LZ bridge unverified → 台子/Meme not LayerZero column"
   },
   "candidates": [
+    {
+      "id": "squeekchain",
+      "name": "Squeekchain",
+      "category": "挖矿",
+      "focus": true,
+      "miningType": "other",
+      "chain": "Ethereum",
+      "tags": [
+        "重点",
+        "挖矿",
+        "PoW",
+        "toychain",
+        "hamster",
+        "极早期",
+        "Sepolia"
+      ],
+      "links": {
+        "x": "https://x.com/squeekchain",
+        "signal": "https://x.com/pillheadddd/status/2111108026086093191"
+      },
+      "scores": {
+        "early": 9.2,
+        "actionable": 5.5,
+        "novelty": 8.8,
+        "risk": 7.8,
+        "overall": 7.4,
+        "composite": 7.4
+      },
+      "highlights": [
+        "仓鼠 PoW toychain：实体轮子 WHEELY9000 验证后上链",
+        "币未发（bio 明确 token has NOT launched yet）",
+        "Sepolia 测试网，已有 docs/API 可建",
+        "极早期社区信号（约10-13起，无重KOL矩阵）"
+      ],
+      "drawbacks": [
+        "官推几乎无原创帖，信息主要靠周边账号",
+        "实验玩具链，实用价值与可持续性存疑",
+        "未发币节奏不明，TGE/空投路径不清",
+        "撸毛/叙事风险高，易被短期热度带偏"
+      ],
+      "whatsNew": "本轮新·重点栏首位：仓鼠PoW toychain；币未发；Sepolia；粉≈1157；@squeekchain",
+      "background": "Hamster-powered proof-of-work toychain on Ethereum (Sepolia). Physical hamster wheel (WHEELY9000) activity verified and settled on-chain. Token has NOT launched yet.",
+      "whyWatch": "重点：实体仓鼠+PoW玩具链+预发币测试网，小七点名盯盘；同类实验叙事标杆。",
+      "status": "early",
+      "mintStatus": "tba",
+      "risk": "极高·实验玩具链·未发币节奏不明",
+      "riskLevel": "extreme",
+      "schedule": {
+        "status": "tba",
+        "timezone": "Asia/Shanghai",
+        "source": "@squeekchain bio",
+        "note": "Token 未发；测试网阶段；盯发币/主网节奏"
+      },
+      "onchain": {
+        "chainId": 11155111,
+        "note": "Sepolia testnet；docs/API 已出（via @pillheadddd）；主币未发"
+      },
+      "social": {
+        "lastCheckedAt": "2026-10-17T02:15:00+08:00",
+        "xFollowers": 1157,
+        "xId": "2088367393638596608"
+      },
+      "newThisRound": true,
+      "flag": "本轮新",
+      "round": 113,
+      "addedAt": "2026-10-17 02:15 CST",
+      "firstSeen": "2026-10-17 02:15 CST"
+    },
+    {
+      "id": "hamster-hour",
+      "name": "Hamster Hour",
+      "category": "挖矿",
+      "focus": true,
+      "miningType": "other",
+      "chain": "Ethereum",
+      "tags": [
+        "重点",
+        "挖矿",
+        "toychain",
+        "hamster",
+        "betting",
+        "极早期",
+        "squeekchain"
+      ],
+      "links": {
+        "x": "https://x.com/hamsterhourgame",
+        "signal": "https://x.com/pillheadddd/status/2111041356479230045"
+      },
+      "scores": {
+        "early": 9.5,
+        "actionable": 4.5,
+        "novelty": 7.2,
+        "risk": 8.2,
+        "overall": 6.6,
+        "composite": 6.6
+      },
+      "highlights": [
+        "squeekchain 生态首批应用之一（Hamster Hour 下注）",
+        "用 $IMD 赌仓鼠一小时跑距，前三分池",
+        "账号 10-16 新建，粉≈15，极早期",
+        "与仓鼠 PoW 玩具链同叙事圈"
+      ],
+      "drawbacks": [
+        "粉丝极少，几乎无独立社区",
+        "强依赖 squeekchain，母项目仍测试网未发币",
+        "玩法未验证，信息极少",
+        "叙事/投机风险高"
+      ],
+      "whatsNew": "本轮新·重点：squeek生态首批应用；$IMD赌仓鼠跑距；粉≈15；@hamsterhourgame",
+      "background": "First swarm-built app on squeekchain: bet $IMD on how far the hamster runs in an hour; top 3 split the pot.",
+      "whyWatch": "重点类：squeekchain 生态极早期应用 peer；同属实体+链上玩具叙事。",
+      "status": "early",
+      "mintStatus": "tba",
+      "risk": "极高·粉极少·依附未发币母项目",
+      "riskLevel": "extreme",
+      "schedule": {
+        "status": "tba",
+        "timezone": "Asia/Shanghai",
+        "source": "@pillheadddd / @hamsterhourgame",
+        "note": "下注玩法刚起；盯是否可交互与奖励真实性"
+      },
+      "social": {
+        "lastCheckedAt": "2026-10-17T02:15:00+08:00",
+        "xFollowers": 15,
+        "xId": "2111063008218652672"
+      },
+      "newThisRound": true,
+      "flag": "本轮新",
+      "round": 113,
+      "addedAt": "2026-10-17 02:15 CST",
+      "firstSeen": "2026-10-17 02:15 CST"
+    },
     {
       "id": "ape-blitz",
       "name": "ApeBlitz",
@@ -796,7 +974,7 @@
         "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00",
         "note": "devnet only"
       },
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "round": 112,
       "addedAt": "2026-10-17 02:09 CST",
@@ -816,8 +994,8 @@
       },
       "highlights": [
         "今日新建，极早期",
-        "自称 LayerZero 驱动 RH↔ETH 双向桥",
         "Launchpad 已上线，$ARMOR 双链部署",
+        "自称 RH↔ETH 桥（未核验）",
         "creator 私钥 hash 防护叙事有话题性"
       ],
       "drawbacks": [
@@ -829,8 +1007,6 @@
       "whatsNew": "本轮新：Launchpad+$ARMOR LIVE；自称@LayerZero_Core桥 RH↔ETH；粉≈14；@Armoreum",
       "chain": "Robinhood",
       "tags": [
-        "LayerZero",
-        "lz",
         "launchpad",
         "Robinhood",
         "bridge",
@@ -851,21 +1027,21 @@
           },
           {
             "name": "Bridge live",
-            "note": "RH↔ETH via LayerZero_Core（未独立核验）"
+            "note": "RH↔ETH via 自称跨链（未核验）（未独立核验）"
           }
         ],
         "source": "@Armoreum",
-        "note": "LIVE；LZ相关进第五栏观察"
+        "note": "LIVE；自称桥接未核验→台子/Meme，不进 LayerZero"
       },
       "social": {
         "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00",
         "xFollowers": 14
       },
-      "background": "Armoreum LayerZero-powered bridge + hash-based launchpad on Robinhood/ETH. Creator keys published by design.",
-      "whyWatch": "极早期自称 LayerZero 桥+发射台；需核验官方接入。",
+      "background": "Armoreum：RH/ETH 发射台+$ARMOR，自称跨链桥（未独立核验官方接入）。Creator 私钥 hash 防护叙事。",
+      "whyWatch": "极早期双链发射台；桥接声称待核验，先按台子观察。",
       "status": "watching",
       "mintStatus": "live",
-      "risk": "极高·未核验LZ合约/发私钥叙事",
+      "risk": "极高·桥接未核验/发私钥叙事",
       "riskLevel": "high",
       "onchain": {
         "chainId": "robinhood",
@@ -874,11 +1050,12 @@
         "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00",
         "note": "RH CA + ETH 0x6a967dBea60Ca2050eB629551EEF63d21CaCf5D5；桥储备已贴"
       },
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "round": 112,
       "addedAt": "2026-10-17 02:09 CST",
-      "firstSeen": "2026-10-17 02:09 CST"
+      "firstSeen": "2026-10-17 02:09 CST",
+      "lzVerified": false
     },
     {
       "id": "real-hood-people",
@@ -962,7 +1139,7 @@
         "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00",
         "note": "站内mint；合约自称verified"
       },
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "round": 112,
       "addedAt": "2026-10-17 02:09 CST",
