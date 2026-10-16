@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-16 22:41 CST",
+    "updated": "2026-10-16 22:44 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "R95：新收录 curvopad、surplus-rh；清 oftpad 本轮新（保持台子/Meme，OFT未核验不进LZ）；热单 OS/X 续更（PRINTERS prntrs→2671、Midnight→2073、H00DEXE OG≈23:30、Praxen≈23:00、BLOX GTD≈00:02；BITM假币警告+BONS锁账户；Programmable仍无恢复帖）；DeepSeek-chat 文案；推送 data.json→GitHub Pages。",
-    "lastScout": "2026-10-16 22:41 CST",
+    "source": "R96专项：新收录 tokenworks-playground（@Rhynotic / playground.token.works）；归台子/Meme，非LZ；ETH+RH双链playground已部署但发射开关关；扩展监视非全量X监控；DeepSeek-chat文案；推送data.json→GitHub Pages。",
+    "lastScout": "2026-10-16 22:44 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -626,9 +626,122 @@
     "round95Added": [
       "curvopad",
       "surplus-rh"
-    ]
+    ],
+    "round96Added": [
+      "tokenworks-playground"
+    ],
+    "tokenWorksPlaygroundWatch": {
+      "active": true,
+      "label": "TokenWorks Playground 扩展关注",
+      "accounts": [
+        "@Rhynotic",
+        "@token_works"
+      ],
+      "sites": [
+        "https://playground.token.works/"
+      ],
+      "candidateIds": [
+        "tokenworks-playground"
+      ],
+      "focus": [
+        "launchesEnabled",
+        "first idea / FWA pair",
+        "public factory deploys",
+        "fee split / S02"
+      ],
+      "note": "R96：早期打新雷达扩展关注，非全量 X 账号监控。盯 @Rhynotic 官帖与 playground.token.works 工厂开启发射。",
+      "lastChecked": "2026-10-16 22:44 CST"
+    }
   },
   "candidates": [
+    {
+      "id": "tokenworks-playground",
+      "name": "TokenWorks Playground",
+      "category": "新台",
+      "tags": [
+        "新台",
+        "Launchpad",
+        "Playground",
+        "IMD",
+        "Ethereum",
+        "Robinhood",
+        "TokenWorks",
+        "极早期",
+        "高风险"
+      ],
+      "links": {
+        "x": "https://x.com/Rhynotic",
+        "site": "https://playground.token.works/",
+        "signal": "https://x.com/Rhynotic/status/2110747712723575181"
+      },
+      "highlights": [
+        "费用拆分明确：提交者50%/成员30%/TokenWorks15%/S02 NFT 5%",
+        "ETH 与 Robinhood(4663) 各已部署 1 个 playground，member≈9–10",
+        "官帖称下周起往 playground 丢想法，首个与 FWA 配对"
+      ],
+      "drawbacks": [
+        "API 显示 projectCount=0，尚无实际发射记录",
+        "factories launchesEnabled=false、playgroundCreationEnabled=false",
+        "「任何人可开自己的 Playground」目前仅自称，公开部署未开"
+      ],
+      "whatsNew": "新收录：@Rhynotic 官宣 TokenWorks×IMD Playgrounds；ETH/RH 双链已部署但发射开关仍关。",
+      "whyWatch": "策展小组链上共建+收益分账的可复用发射单元，已双链部署合约；盯工厂开启发射与首批 FWA 配对想法。",
+      "background": "TokenWorks（@token_works≈35678粉）由 Adam/@Rhynotic（≈27098粉，bio=@token_works）主导，与 IMD 合作推出 Playgrounds。2026-10-15 官帖线：策展小组链上共建，任何人可从 playground 发想法并分账；用 IMD 小费驱动 agents 构建审计部署。站 playground.token.works，页脚 Ethereum·Robinhood。",
+      "chain": "Ethereum / Robinhood",
+      "flag": "本轮新",
+      "status": "upcoming",
+      "mintStatus": "watching",
+      "risk": "工厂未开放、零发射记录；分账依赖 IMD/S02；合约与流动性均早期未验证。",
+      "riskLevel": "high",
+      "riskScore": 7,
+      "earlyScore": 8,
+      "scores": {
+        "early": 8,
+        "actionable": 4,
+        "novelty": 7,
+        "risk": 7,
+        "composite": 5.8,
+        "overall": 5.8
+      },
+      "schedule": {
+        "status": "tentative",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "phases": [
+          {
+            "name": "Playground live (site)",
+            "note": "站已上；ETH/RH 各 1 playground；launchesEnabled=false"
+          },
+          {
+            "name": "Ideas next week",
+            "note": "官帖：下周往 playground 丢随机想法，首个与 FWA 配对"
+          },
+          {
+            "name": "Public factory deploys",
+            "note": "自称若想法起飞则开启公开部署；当前 creationEnabled=false"
+          }
+        ],
+        "source": "@Rhynotic",
+        "note": "本轮新；台子/Meme；无 LZ 证据"
+      },
+      "onchain": {
+        "chainId": "ethereum/robinhood",
+        "contract": "0xdd4a83daf532778c55f8806c9adf9a0f0ebb62de",
+        "standard": "playground",
+        "mintStatus": "watching",
+        "lastCheckedAt": "2026-10-16T22:44:26.241781+08:00",
+        "note": "ETH playground 0xdd4a…62de；RH(4663) 0xe7db…035e；factory ETH 0xccfe…37a7 / RH 0xa0cb…d060；launchesEnabled=false"
+      },
+      "social": {
+        "xFollowers": 27098,
+        "lastCheckedAt": "2026-10-16T22:44:26.241781+08:00",
+        "note": "@Rhynotic≈27098；@token_works≈35678"
+      },
+      "newThisRound": true,
+      "addedAt": "2026-10-16T22:44:26.241781+08:00",
+      "firstSeen": "2026-10-16T22:44:26.241781+08:00",
+      "round": 96
+    },
     {
       "id": "roast-ink",
       "name": "ROASTArt",
@@ -16708,7 +16821,7 @@
       "whyWatch": "若 CA 落地且 fair bonding 与锁 LP 兑现，可能成为 Solana meme 打新新入口。",
       "background": "Solana memecoin launchpad：fair bonding curve、毕业锁LP、安全分；Coming soon；@CurvoPad",
       "chain": "Solana",
-      "flag": "本轮新",
+      "flag": "WATCH",
       "status": "upcoming",
       "mintStatus": "coming_soon",
       "risk": "极早期未出CA；自述安全机制未链上核验；仿盘/Rug风险高。",
@@ -16751,7 +16864,7 @@
         "xFollowers": 17,
         "lastCheckedAt": "2026-10-16T22:41:45.640925+08:00"
       },
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-16T22:41:45.640925+08:00",
       "firstSeen": "2026-10-16T22:41:45.640925+08:00",
       "round": 95
@@ -16786,7 +16899,7 @@
       "whyWatch": "若多模型 API 与 USDG 结算能吸引真实 AI 项目，或成 Robinhood Chain 特色发射入口。",
       "background": "Onchain inference on Robinhood Chain；LLM launchpad；USDG 结算；与 @AskSurplus(Base) 不同团队；@SurplusRH",
       "chain": "Robinhood",
-      "flag": "本轮新",
+      "flag": "WATCH",
       "status": "live",
       "mintStatus": "live",
       "risk": "RH 生态新；AI 发射台分化与可持续分成未验证；勿与 Base AskSurplus 混淆。",
@@ -16826,7 +16939,7 @@
         "xFollowers": 1498,
         "lastCheckedAt": "2026-10-16T22:41:45.640925+08:00"
       },
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-16T22:41:45.640925+08:00",
       "firstSeen": "2026-10-16T22:41:45.640925+08:00",
       "round": 95
