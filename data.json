@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-16 17:58 CST",
+    "updated": "2026-10-16 18:00 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "Round70：X MCP（MidnightPuppets/SmartAzuki/ProgrammableHQ/h00dexe/BITM/ASCII/RuneKai/Fireworks/Praxen等） + Trencher + DeepSeek-chat 文案；新增 fireworks-ctlg；Midnight minted≈843；Ink Miners FREE≈18:10CST、Programmable暂停≈18:34CST、H00DEXE TEAM≈18:30 计入≤2h；例行推送 data.json→GitHub Pages。",
-    "lastScout": "2026-10-16T17:58:26+08:00",
+    "lastScout": "2026-10-16T18:00:12+08:00",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -255,7 +255,8 @@
     "watchStyles": [
       "定位/AR 抓币与地图掉点（PumpGO 类）",
       "极早期 Solana 社交玩法发射盘",
-      "Injective/同类极早期 fair-launch 发射台（样例 @yorefun / yore.fun）；同类 INJ/Ink 风格 bonding 发射应收录"
+      "Injective/同类极早期 fair-launch 发射台（样例 @yorefun / yore.fun）；同类 INJ/Ink 风格 bonding 发射应收录",
+      "GlazeCorp / RH 基金·挖矿首发类（样例 @WSMCO_ $WSM）；同类极早期应收录"
     ],
     "round28Added": [
       "baby-seals-crc",
@@ -420,7 +421,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 205,
+    "candidateCount": 206,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -447,7 +448,8 @@
     ],
     "round71Added": [],
     "round72Added": [
-      "yorefun"
+      "yorefun",
+      "wsmco"
     ],
     "injectiveLaunchWatch": {
       "active": true,
@@ -465,9 +467,109 @@
       ],
       "note": "用户点名 @yorefun；主网≈10-17 16:00 UTC；同类早期台应收录（非全量 X 监控）",
       "lastChecked": "2026-10-16 17:58 CST"
+    },
+    "glazeWatch": {
+      "active": true,
+      "label": "GlazeCorp/RH 早期基金·挖矿",
+      "accounts": [
+        "@WSMCO_",
+        "@glaze_corp"
+      ],
+      "candidateIds": [
+        "wsmco"
+      ],
+      "focus": [
+        "$WSM",
+        "mine open",
+        "GlazeCorp first token"
+      ],
+      "note": "用户点名 @WSMCO_；关联 GlazeCorp RH fund launchpad；非全量 X 监控",
+      "lastChecked": "2026-10-16 18:00 CST"
     }
   },
   "candidates": [
+    {
+      "id": "wsmco",
+      "name": "WALL STREET MINING CO",
+      "category": "挖矿",
+      "chain": "Robinhood",
+      "status": "upcoming",
+      "mintStatus": "upcoming",
+      "riskLevel": "high",
+      "flag": "本轮新",
+      "tags": [
+        "挖矿",
+        "RH",
+        "GlazeCorp",
+        "$WSM",
+        "极早期",
+        "Mining",
+        "fund"
+      ],
+      "scores": {
+        "early": 9,
+        "actionable": 7,
+        "novelty": 7,
+        "risk": 8,
+        "composite": 7.5,
+        "overall": 7.5
+      },
+      "earlyScore": 9,
+      "riskScore": 8,
+      "highlights": [
+        "自称 GlazeCorp（RH 链 fund launchpad）首个 token $WSM",
+        "挖矿叙事 + NFT giveaway 在跑；官帖称 mine almost open",
+        "用户点名盯盘，极早期信号"
+      ],
+      "drawbacks": [
+        "官推仅约267粉，合约/开矿时间未官宣落地",
+        "与 @glaze_corp 关系及实际权益路径未核验",
+        "挖矿/代币经济细节空白，高风险"
+      ],
+      "whatsNew": "本轮新：用户点名 @WSMCO_；GlazeCorp 首个 token / 挖矿盘，mine nearly open。",
+      "whyWatch": "RH 上 GlazeCorp 风格早期基金/挖矿发射；盯开矿窗、$WSM 与合约。",
+      "background": "WALL STREET MINING CO（@WSMCO_）自称 Professional Bag Diggers，First @glaze_corp token；GlazeCorp 为 Robinhood Chain fund launchpad。近期帖称 The mine is almost open / Miners assemble，并有 NFT giveaway 与 $WSM 叙事。",
+      "risk": "极早期、粉少、开矿与代币细节未明；可能存在关联号/改期/空叙事风险。",
+      "links": {
+        "x": "https://x.com/WSMCO_",
+        "site": null,
+        "mint": null,
+        "signal": "https://x.com/WSMCO_/status/2110482002671734855"
+      },
+      "schedule": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "phases": [
+          {
+            "name": "Mine open",
+            "note": "官帖 The mine is almost open；具体时间 TBA"
+          },
+          {
+            "name": "NFT giveaway",
+            "note": "社群在跑 EVM 地址征集；非主路径"
+          }
+        ],
+        "source": "@WSMCO_",
+        "note": "开矿窗 TBA；@WSMCO_≈267；关联 @glaze_corp"
+      },
+      "onchain": {
+        "chainId": "robinhood",
+        "contract": null,
+        "standard": null,
+        "mintStatus": "upcoming",
+        "lastCheckedAt": "2026-10-16T18:00:12+08:00",
+        "note": "无公开合约；等官宣"
+      },
+      "social": {
+        "xFollowers": 267,
+        "lastCheckedAt": "2026-10-16T18:00:12+08:00"
+      },
+      "newThisRound": true,
+      "round": 72,
+      "addedAt": "2026-10-16T18:00:12+08:00",
+      "firstSeen": "2026-10-16T18:00:12+08:00"
+    },
     {
       "id": "yorefun",
       "name": "yore.fun",
@@ -546,7 +648,7 @@
         "xFollowers": 591,
         "lastCheckedAt": "2026-10-16T17:58:26+08:00"
       },
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 72,
       "addedAt": "2026-10-16T17:58:26+08:00",
       "firstSeen": "2026-10-16T17:58:26+08:00"
