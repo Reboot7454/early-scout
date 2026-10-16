@@ -662,38 +662,91 @@
     });
   }
 
+  /** Sort key for top-bar日程: pause→resume, live无时刻→now, else startsAt. */
+  function schedBarSortMs(c) {
+    const s = c.schedule;
+    if (!s) return Number.POSITIVE_INFINITY;
+    if (s.status === "pause") return scheduleResumeMs(c) ?? Number.POSITIVE_INFINITY;
+    const t = scheduleStartMs(c);
+    if (t != null) return t;
+    if (s.status === "live" && PLATFORM_CATS.has(c.category)) return state.nowMs;
+    return Number.POSITIVE_INFINITY;
+  }
+
+  /**
+   * 顶栏「日程」选条（不排除台子/Meme）：
+   * - 状态 confirmed/tentative/upcoming/live/pause
+   * - 主窗口：[now−6h, now+72h]（有 startsAt / pause resume）
+   * - 台子/Meme 加宽：live 且开台在 now−24h～now−6h，或 live 无时刻（进行中）— 仅作余量填充
+   * - upcoming/confirmed/tentative 且 ≤72h 的台子/Meme **保底入栏**（挤掉最远的非保底项）
+   * - 近→远排序，上限 12；点击仍开推特
+   */
+  function qualifiesSchedBarPrimary(c) {
+    if (!hasTwitter(c)) return false;
+    const s = c.schedule;
+    if (!s) return false;
+    if (!["confirmed", "tentative", "live", "upcoming", "pause"].includes(s.status)) return false;
+    const horizon = 72 * 3600 * 1000;
+    const lookback = 6 * 3600 * 1000;
+    if (s.status === "pause") {
+      const resume = scheduleResumeMs(c);
+      return resume != null && resume >= state.nowMs - lookback && resume <= state.nowMs + horizon;
+    }
+    const t = scheduleStartMs(c);
+    if (t == null) return false;
+    return t >= state.nowMs - lookback && t <= state.nowMs + horizon;
+  }
+
+  function qualifiesSchedBarPlatformExtra(c) {
+    if (!PLATFORM_CATS.has(c.category)) return false;
+    if (!hasTwitter(c)) return false;
+    const s = c.schedule;
+    if (!s || s.status !== "live") return false;
+    const t = scheduleStartMs(c);
+    if (t == null) return true; // live 台子无精确时刻 → 进行中
+    const horizonBack = 24 * 3600 * 1000;
+    const primaryBack = 6 * 3600 * 1000;
+    // 仅 6h～24h 前开台的 live 台子（主窗口已覆盖近 6h）
+    return t >= state.nowMs - horizonBack && t < state.nowMs - primaryBack;
+  }
+
+  function isMustPlatformSched(c) {
+    if (!PLATFORM_CATS.has(c.category)) return false;
+    const s = c.schedule;
+    if (!s) return false;
+    if (!["confirmed", "tentative", "upcoming"].includes(s.status)) return false;
+    const t = scheduleStartMs(c);
+    if (t == null) return false;
+    return t > state.nowMs && t <= state.nowMs + 72 * 3600 * 1000;
+  }
+
   function renderSchedSoon() {
     const host = $("#sched-soon");
     const listHost = $("#sched-soon-list");
     if (!host || !listHost) return;
 
-    const items = state.data.candidates
-      .filter((c) => {
-        if (!hasTwitter(c)) return false;
-        const s = c.schedule;
-        if (!s) return false;
-        if (!["confirmed", "tentative", "live", "upcoming", "pause"].includes(s.status)) return false;
-        if (s.status === "pause") {
-          const resume = scheduleResumeMs(c);
-          return resume != null && resume >= state.nowMs - 6 * 3600 * 1000;
-        }
-        const t = scheduleStartMs(c);
-        if (t == null) return false;
-        // show upcoming or recently live
-        return t >= state.nowMs - 6 * 3600 * 1000;
-      })
-      .sort((a, b) => {
-        const ta =
-          a.schedule?.status === "pause"
-            ? scheduleResumeMs(a) ?? Number.POSITIVE_INFINITY
-            : scheduleStartMs(a) ?? Number.POSITIVE_INFINITY;
-        const tb =
-          b.schedule?.status === "pause"
-            ? scheduleResumeMs(b) ?? Number.POSITIVE_INFINITY
-            : scheduleStartMs(b) ?? Number.POSITIVE_INFINITY;
-        return ta - tb;
-      })
-      .slice(0, 10);
+    const MAX = 12;
+    const primary = state.data.candidates.filter(qualifiesSchedBarPrimary);
+    const extraPlat = state.data.candidates.filter(
+      (c) => qualifiesSchedBarPlatformExtra(c) && !primary.some((p) => p.id === c.id)
+    );
+    const must = primary.filter(isMustPlatformSched);
+    const mustIds = new Set(must.map((c) => c.id));
+
+    const byTime = (a, b) => schedBarSortMs(a) - schedBarSortMs(b);
+    const byProximity = (a, b) => {
+      const da = Math.abs(schedBarSortMs(a) - state.nowMs);
+      const db = Math.abs(schedBarSortMs(b) - state.nowMs);
+      return da - db || byTime(a, b);
+    };
+    // 占位：主窗口非保底项按距现在近→远取；余量再填 6h～24h live 台子
+    const restPrimary = primary.filter((c) => !mustIds.has(c.id)).sort(byProximity);
+    const extras = extraPlat.sort(byProximity);
+    const fillN = Math.max(0, MAX - must.length);
+    const fillers = [...restPrimary, ...extras]
+      .filter((c, i, arr) => arr.findIndex((x) => x.id === c.id) === i)
+      .slice(0, fillN);
+    let items = [...must, ...fillers].sort(byTime);
 
     if (!items.length) {
       host.hidden = true;
@@ -713,16 +766,21 @@
           when = delta > 0 ? `暂停 ${formatCountdown(delta)}` : "暂停结束";
         } else {
           const t = scheduleStartMs(c);
-          delta = t - state.nowMs;
-          const startIso = s.startsAt || (s.phases || []).find((p) => p.startsAt)?.startsAt;
-          when =
-            s.status === "live" && delta <= 0
-              ? "进行中"
-              : delta <= 0
-                ? "已到点"
-                : delta <= 72 * 3600 * 1000
-                  ? `倒计时 ${formatCountdown(delta)}`
-                  : formatShanghai(startIso);
+          if (t == null && s.status === "live") {
+            delta = 0;
+            when = "进行中";
+          } else {
+            delta = t - state.nowMs;
+            const startIso = s.startsAt || (s.phases || []).find((p) => p.startsAt)?.startsAt;
+            when =
+              s.status === "live" && delta <= 0
+                ? "进行中"
+                : delta <= 0
+                  ? "已到点"
+                  : delta <= 72 * 3600 * 1000
+                    ? `倒计时 ${formatCountdown(delta)}`
+                    : formatShanghai(startIso);
+          }
         }
         const warn = delta > 0 && delta <= 2 * 3600 * 1000 ? "soon-alert" : "";
         const tip = [s.note, xUrl ? "点击打开推特" : "无推特·点击定位卡片"].filter(Boolean).join(" · ");
