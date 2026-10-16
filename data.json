@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-16 17:55 CST",
+    "updated": "2026-10-16 17:58 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "Round70：X MCP（MidnightPuppets/SmartAzuki/ProgrammableHQ/h00dexe/BITM/ASCII/RuneKai/Fireworks/Praxen等） + Trencher + DeepSeek-chat 文案；新增 fireworks-ctlg；Midnight minted≈843；Ink Miners FREE≈18:10CST、Programmable暂停≈18:34CST、H00DEXE TEAM≈18:30 计入≤2h；例行推送 data.json→GitHub Pages。",
-    "lastScout": "2026-10-16T17:55:45+08:00",
+    "lastScout": "2026-10-16T17:58:26+08:00",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -254,7 +254,8 @@
     ],
     "watchStyles": [
       "定位/AR 抓币与地图掉点（PumpGO 类）",
-      "极早期 Solana 社交玩法发射盘"
+      "极早期 Solana 社交玩法发射盘",
+      "Injective/同类极早期 fair-launch 发射台（样例 @yorefun / yore.fun）；同类 INJ/Ink 风格 bonding 发射应收录"
     ],
     "round28Added": [
       "baby-seals-crc",
@@ -342,7 +343,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 71,
+    "round": 72,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -419,7 +420,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 204,
+    "candidateCount": 205,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -444,9 +445,112 @@
     "round70Added": [
       "fireworks-ctlg"
     ],
-    "round71Added": []
+    "round71Added": [],
+    "round72Added": [
+      "yorefun"
+    ],
+    "injectiveLaunchWatch": {
+      "active": true,
+      "label": "Injective/同类早期发射台",
+      "accounts": [
+        "@yorefun"
+      ],
+      "focus": [
+        "fair-launch bonding",
+        "Injective 新台",
+        "首批发射"
+      ],
+      "candidateIds": [
+        "yorefun"
+      ],
+      "note": "用户点名 @yorefun；主网≈10-17 16:00 UTC；同类早期台应收录（非全量 X 监控）",
+      "lastChecked": "2026-10-16 17:58 CST"
+    }
   },
   "candidates": [
+    {
+      "id": "yorefun",
+      "name": "yore.fun",
+      "category": "新台",
+      "chain": "Injective",
+      "status": "upcoming",
+      "mintStatus": "upcoming",
+      "riskLevel": "high",
+      "flag": "本轮新",
+      "tags": [
+        "新台",
+        "Launchpad",
+        "Injective",
+        "bonding-curve",
+        "fair-launch",
+        "极早期",
+        "INJ"
+      ],
+      "scores": {
+        "early": 9,
+        "actionable": 8,
+        "novelty": 8,
+        "risk": 7,
+        "composite": 8.0,
+        "overall": 8.0
+      },
+      "earlyScore": 9,
+      "riskScore": 7,
+      "highlights": [
+        "Injective fair-launch bonding-curve 发射台，官宣主网上线窗明确",
+        "无预售/无团队配额叙事；毕业去 swap.yore.fun",
+        "测试网/Genesis badge 已跑过，主网时间：10-17 16:00 UTC"
+      ],
+      "drawbacks": [
+        "官推仅约591粉，极早期信息与合约审计仍薄",
+        "Injective 生态流动性与钱包门槛相对小众",
+        "主网未开前一切以官帖为准，时间可能漂移"
+      ],
+      "whatsNew": "本轮新：用户点名盯 @yorefun；官宣主网 10-17 4PM UTC≈10-18 00:00 CST 于 Injective。",
+      "whyWatch": "同类极早期链上发射台（Injective/Ink 风格 bonding fair-launch）；盯主网开台与首批发射。",
+      "background": "yore.fun（@yorefun）自称 Injective 上 fair-launch bonding-curve 发射台：无预售、无团队配额，售罄毕业到 swap.yore.fun；已完成 testnet beta，官帖宣布周六 10-17 16:00 UTC 正式上线。",
+      "risk": "极早期台子，合约/团队/LP毕业路径未充分核验；粉丝少，钓鱼号与改期风险高。",
+      "links": {
+        "x": "https://x.com/yorefun",
+        "site": "https://yore.fun",
+        "mint": "https://beta.yore.fun/",
+        "signal": "https://x.com/yorefun/status/2110823122417115160"
+      },
+      "schedule": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-17T16:00:00Z",
+        "phases": [
+          {
+            "name": "Official mainnet launch",
+            "startsAt": "2026-10-17T16:00:00Z",
+            "note": "官帖 Saturday Oct 17 · 4 PM UTC ≈ 10-18 00:00 CST"
+          },
+          {
+            "name": "Genesis Tester badge",
+            "note": "测试网徽章已发；主网权益以官宣为准"
+          }
+        ],
+        "source": "@yorefun",
+        "note": "主网上线≈10-18 00:00 CST；@yorefun≈591粉"
+      },
+      "onchain": {
+        "chainId": "injective",
+        "contract": null,
+        "standard": null,
+        "mintStatus": "upcoming",
+        "lastCheckedAt": "2026-10-16T17:58:26+08:00",
+        "note": "主网未开；站点 yore.fun / beta.yore.fun"
+      },
+      "social": {
+        "xFollowers": 591,
+        "lastCheckedAt": "2026-10-16T17:58:26+08:00"
+      },
+      "newThisRound": true,
+      "round": 72,
+      "addedAt": "2026-10-16T17:58:26+08:00",
+      "firstSeen": "2026-10-16T17:58:26+08:00"
+    },
     {
       "id": "fireworks-ctlg",
       "name": "Fireworks Catalog",
