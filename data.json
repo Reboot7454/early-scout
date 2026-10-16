@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-17 04:13 CST",
+    "updated": "2026-10-17 04:34 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "R118：Trencher/NorthBound/Web/docs；X MCP日限额至08:00CST改web；DS deepseek-flash admit+score+alert",
-    "lastScout": "2026-10-17 04:13 CST",
+    "lastScout": "2026-10-17 04:34 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -46,8 +46,8 @@
         "zeromeme-fun",
         "oftpad"
       ],
-      "note": "R118：无新 Zero 开链/官方 ATLAS mint 证据；主网仍 Q4；oftpad/armoreum 自称未核验保持台子/Meme；lzVerified 规则不变",
-      "lastChecked": "2026-10-17 04:12 CST"
+      "note": "R119：无新 Zero/ATLAS 开链证据；armoreum/oftpad 保持 lzVerified=false 台子/Meme",
+      "lastChecked": "2026-10-17 04:34 CST"
     },
     "round5Added": [
       "farming-season",
@@ -195,8 +195,8 @@
         "midstate-mds",
         "minera-mnra"
       ],
-      "note": "R118：新增 Equium($EQM) Solana Equihash PoW；Midstate/MinePad 续盯",
-      "lastChecked": "2026-10-17 04:12 CST"
+      "note": "R119：新收录 agent-apow + pumpmine；Midstate/Equium/MinePad 续盯；Equium站404、Pumpmine站522",
+      "lastChecked": "2026-10-17 04:34 CST"
     },
     "round20Added": [
       "blox-miners",
@@ -349,7 +349,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 118,
+    "round": 119,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -749,7 +749,7 @@
     "focusWatch": {
       "active": true,
       "label": "重点栏 · 实验玩具链监视",
-      "lastChecked": "2026-10-17 04:12 CST",
+      "lastChecked": "2026-10-17 04:34 CST",
       "seedFirst": "squeekchain",
       "accounts": [
         "@squeekchain",
@@ -774,8 +774,8 @@
         "公平分配叙事的极早期 peer"
       ],
       "admitRule": "有 Twitter 的清晰早期 peer → focus:true 进重点栏（或至少 tags 含 重点 + 写入 focusWatch）；squeekchain 保持重点首位",
-      "note": "R118：未发现独立于 squeek 生态的清晰同类 peer。Excited Hamsters 仍 GO 不进重点。官站 Coming soon；链上自称 SQUEEK 假盘需核验。",
-      "xApiNote": "R118：X MCP 日限额仍满（至 08:00 CST）；改 web/Trencher/NorthBound/docs"
+      "note": "R119：squeekchain.com 仍 Coming soon；无独立于 squeek 生态的清晰同类 peer。Excited Hamsters 仍 GO。假盘 SQUEEK 需核验。",
+      "xApiNote": "R119：X MCP 日限额仍满（至 08:00 CST）；改 Trencher/Web/docs"
     },
     "armoreumNote": "armoreum 保持 lzVerified=false、无 LayerZero/lz tag，归台子/Meme",
     "round114Added": [
@@ -802,9 +802,161 @@
       "furrbit",
       "hellbrats",
       "equium"
+    ],
+    "round119Added": [
+      "agent-apow",
+      "pumpmine"
     ]
   },
   "candidates": [
+    {
+      "id": "agent-apow",
+      "name": "$AGENT Agentic PoW",
+      "category": "挖矿",
+      "miningType": "gpu-pow",
+      "chain": "Base",
+      "tags": [
+        "挖矿",
+        "PoW",
+        "Base",
+        "AI-agent",
+        "GPU",
+        "ERC-918",
+        "极早期"
+      ],
+      "links": {
+        "x": "https://x.com/AgenticPoW",
+        "site": "https://apow.io/",
+        "docs": "https://docs.apow.io/",
+        "github": "https://github.com/Agentoshi/apow-core"
+      },
+      "background": "$AGENT / APoW（@AgenticPoW）：Base 上 AI-native PoW。先 mint ERC-721 Mining Rig（LLM SMHL 20s 门），再提交 SMHL+Keccak 挖矿（ERC-918）。21M cap、约90%可挖、10%/era 衰变；Rig 定价 0.002→0.0002 ETH；mint 费积至 5 ETH 永久锁 LP。合约 Basescan 已开（AgentCoin 0x1257…13b3 等）。",
+      "risk": "极早期；LP 未达阈值前转账可能受限；AI/PoW 叙事需核验真实算力与代理门槛；合约/权限仍需自查。",
+      "riskLevel": "high",
+      "mintStatus": "live",
+      "status": "watching",
+      "whyWatch": "覆盖 Base GPU/CPU+AI-agent PoW 挖矿窗口，补 Midstate/Equium 之外的 AI-PoW 品类。",
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "phases": [
+          {
+            "name": "Mining Rig mint",
+            "note": "SMHL 20s 门；逆定价至 0.0002 ETH 地板"
+          },
+          {
+            "name": "主网挖矿",
+            "note": "mine(nonce,smhl,tokenId)；每块一挖；CPU/GPU"
+          }
+        ],
+        "source": "@AgenticPoW + apow.io + docs.apow.io",
+        "note": "挖矿/矿机 mint 宣称 LIVE；盯 LP 阈值与转账开关"
+      },
+      "onchain": {
+        "note": "Base；AgentCoin 0x12577CF0D8a07363224D6909c54C056A183e13b3；MiningAgent 0xB7caD3ca5F2BD8aEC2Eb67d6E8D448099B3bC03D"
+      },
+      "flag": "本轮新",
+      "newThisRound": true,
+      "round": 119,
+      "addedAt": "2026-10-17 04:34 CST",
+      "firstSeen": "2026-10-17 04:34 CST",
+      "scores": {
+        "early": 8.8,
+        "actionable": 7.2,
+        "novelty": 8.0,
+        "risk": 6.2,
+        "overall": 7.6,
+        "composite": 7.6
+      },
+      "highlights": [
+        "Base 上 AI-native PoW 概念，叙事较新",
+        "ERC-721 Mining Rig + Keccak/ERC-918 挖矿机制",
+        "21M 总量、90% 可挖，代币分配偏挖矿",
+        "LP 达 5ETH 永久锁，合约已上 Basescan"
+      ],
+      "drawbacks": [
+        "极早期，流动性与深度未知",
+        "PoW+AI 叙事需验证真实算力需求",
+        "Rig 递减定价可能抬高后期参与成本",
+        "Base 上同类挖矿项目竞争激烈"
+      ],
+      "whatsNew": "本轮新：Base AI-agent PoW $AGENT；Rig+SMHL/Keccak 挖矿 LIVE；@AgenticPoW",
+      "earlyScore": 9,
+      "riskScore": 6
+    },
+    {
+      "id": "pumpmine",
+      "name": "Pumpmine",
+      "category": "新台",
+      "chain": "Base",
+      "tags": [
+        "launchpad",
+        "挖矿",
+        "PoW",
+        "Base",
+        "keccak",
+        "台子/Meme",
+        "极早期"
+      ],
+      "links": {
+        "x": "https://x.com/pumpminenet",
+        "site": "https://pumpmine.net/",
+        "github": "https://github.com/pumpmine/pumpmine-miner"
+      },
+      "background": "Pumpmine（@pumpminenet）：Base 一键部署可挖 ERC-20 发射台；矿工 GPU keccak 分发；叙事反 bundle、LP 烧毁。$PMPM 为平台币（宣称更早发售）。平台页本轮 Cloudflare 522，以 X/GitHub 为准。",
+      "risk": "官站 522 不可达；发射台低质币洪水；平台币捕获不明；PoW 发射台同质化。",
+      "riskLevel": "extreme",
+      "mintStatus": "live",
+      "status": "watching",
+      "whyWatch": "Base PoW 发射台品类；与 MinePad/Equium 互补，覆盖 GPU 挖新币窗口。",
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "phases": [
+          {
+            "name": "Launchpad",
+            "note": "部署 mineable ERC-20"
+          },
+          {
+            "name": "站点",
+            "note": "pumpmine.net 本轮 522；以 X/GitHub 为准"
+          }
+        ],
+        "source": "@pumpminenet + GitHub pumpmine/pumpmine-miner",
+        "note": "平台宣称 LIVE；官站 522 需核验"
+      },
+      "onchain": {
+        "note": "Base；$PMPM 宣称 CA 需以官推/站为准（站本轮不可达）"
+      },
+      "flag": "本轮新",
+      "newThisRound": true,
+      "round": 119,
+      "addedAt": "2026-10-17 04:34 CST",
+      "firstSeen": "2026-10-17 04:34 CST",
+      "scores": {
+        "early": 8.2,
+        "actionable": 6.8,
+        "novelty": 7.0,
+        "risk": 7.0,
+        "overall": 7.0,
+        "composite": 7.0
+      },
+      "highlights": [
+        "Base 上一键部署 PoW 代币的发射台",
+        "平台已 live，有 $PMPM 平台币",
+        "反 bundle、锁 LP 叙事对散户友好",
+        "GPU keccak 挖矿降低发币门槛"
+      ],
+      "drawbacks": [
+        "发射台模式易产生大量低质 Meme 币",
+        "平台币价值捕获路径不清晰",
+        "PoW 发射台赛道同质化风险高",
+        "早期数据与真实使用量待观察"
+      ],
+      "whatsNew": "本轮新：Base PoW 发射台 Pumpmine；站522需核验；@pumpminenet",
+      "earlyScore": 8,
+      "riskScore": 7
+    },
     {
       "id": "teddy-london-crew",
       "name": "The Crew (Teddy London)",
@@ -937,27 +1089,29 @@
       "addedAt": "2026-10-17 03:51 CST",
       "firstSeen": "2026-10-17 03:51 CST",
       "scores": {
-        "early": 8.0,
-        "actionable": 7.5,
-        "novelty": 7.2,
-        "risk": 6.5,
-        "overall": 7.0,
-        "composite": 7.0
+        "early": 7.6,
+        "actionable": 7.0,
+        "novelty": 6.8,
+        "risk": 6.2,
+        "overall": 6.8,
+        "composite": 6.8
       },
       "highlights": [
-        "Solana 可挖代币发射台",
-        "已 LIVE 无预售",
-        "grid/stake/burn 机制",
-        "官网可直接参与"
+        "Solana链launchpad",
+        "mineable概念差异化",
+        "已LIVE可参与",
+        "Solana生态活跃"
       ],
       "drawbacks": [
-        "Solana 发射台赛道拥挤",
-        "无预售意味无早期折扣",
-        "代币经济未详述",
-        "团队背景不明"
+        "mineable launchpad模式未验证",
+        "Solana竞争激烈",
+        "项目质量未知",
+        "流动性待观察"
       ],
-      "whatsNew": "R118：Solana Mine Pad 续LIVE；grid/stake/burn；@MinePadOrg",
-      "flag": "LIVE"
+      "whatsNew": "R119：Solana链mineable launchpad Mine Pad已上线。",
+      "flag": "LIVE",
+      "earlyScore": 8,
+      "riskScore": 6
     },
     {
       "id": "excited-hamsters",
@@ -1002,26 +1156,29 @@
       "addedAt": "2026-10-17 03:51 CST",
       "firstSeen": "2026-10-17 03:51 CST",
       "scores": {
-        "early": 7.0,
-        "actionable": 4.5,
-        "novelty": 5.5,
-        "risk": 8.0,
-        "overall": 5.5,
-        "composite": 5.5
+        "early": 6.5,
+        "actionable": 5.5,
+        "novelty": 4.8,
+        "risk": 7.2,
+        "overall": 5.2,
+        "composite": 5.2
       },
       "highlights": [
-        "XR/AR 仓鼠 NFT",
-        "mint 约 10/19",
-        "250 供应量小"
+        "XR/AR仓鼠mint约10/19",
+        "GO盘模式",
+        "有明确mint日期",
+        "仓鼠叙事"
       ],
       "drawbacks": [
-        "链未定 TBA",
-        "非 PoW 玩具链",
-        "信息极少",
-        "风险偏高"
+        "非重点PoW",
+        "GO盘风险高",
+        "链未定TBA",
+        "团队背景不明"
       ],
-      "whatsNew": "R118：XR/AR仓鼠NFT续盯；mint约10/19；非重点PoW peer；@XcitedHamsters",
-      "playStyle": "go"
+      "whatsNew": "R119：XR/AR仓鼠GO盘mint约10/19。",
+      "playStyle": "go",
+      "earlyScore": 6,
+      "riskScore": 7
     },
     {
       "id": "canhav",
@@ -1180,25 +1337,25 @@
       },
       "scores": {
         "early": 8.8,
-        "actionable": 6.0,
-        "novelty": 7.5,
-        "risk": 7.8,
-        "overall": 6.8,
-        "composite": 6.8
+        "actionable": 5.5,
+        "novelty": 7.2,
+        "risk": 6.5,
+        "overall": 7.0,
+        "composite": 7.0
       },
       "highlights": [
-        "仓鼠 PoW 玩具链重点",
-        "币尚未官发",
-        "早期挖矿机会",
-        "生态应用已现"
+        "重点仓鼠PoW项目",
+        "Token未发",
+        "早期埋伏机会",
+        "PoW叙事差异化"
       ],
       "drawbacks": [
-        "假盘需核验",
-        "玩具链风险高",
-        "代币未发行",
-        "流动性未知"
+        "官网仍Coming soon",
+        "无法立即参与",
+        "PoW赛道竞争激烈",
+        "进度不确定"
       ],
-      "whatsNew": "R118重点：仓鼠PoW toychain续盯；官站Coming soon；链上假盘SQUEEK需核验；@squeekchain",
+      "whatsNew": "R119：仓鼠PoW项目持续预热，Token未发。",
       "background": "Hamster-powered proof-of-work toychain on Ethereum (Sepolia). Physical hamster wheel (WHEELY9000) activity verified and settled on-chain. Token has NOT launched yet.",
       "whyWatch": "重点：实体仓鼠+PoW玩具链+预发币测试网，小七点名盯盘；同类实验叙事标杆。",
       "status": "early",
@@ -1209,7 +1366,7 @@
         "status": "tba",
         "timezone": "Asia/Shanghai",
         "source": "@squeekchain bio",
-        "note": "Token官方未发；官站Coming soon；假盘需核验；盯发币/主网"
+        "note": "Token官方未发；squeekchain.com 仍 Coming soon；假盘需核验；盯发币/主网"
       },
       "onchain": {
         "chainId": 11155111,
@@ -1224,7 +1381,9 @@
       "flag": "WATCH",
       "round": 113,
       "addedAt": "2026-10-17 02:15 CST",
-      "firstSeen": "2026-10-17 02:15 CST"
+      "firstSeen": "2026-10-17 02:15 CST",
+      "earlyScore": 9,
+      "riskScore": 6
     },
     {
       "id": "hamster-hour",
@@ -1248,24 +1407,25 @@
       },
       "scores": {
         "early": 8.0,
-        "actionable": 6.2,
-        "novelty": 6.5,
-        "risk": 7.2,
-        "overall": 6.4,
-        "composite": 6.4
+        "actionable": 5.0,
+        "novelty": 6.0,
+        "risk": 6.8,
+        "overall": 6.2,
+        "composite": 6.2
       },
       "highlights": [
-        "squeek 生态应用",
-        "$IMD 赌跑距玩法",
-        "早期生态位"
+        "squeek生态应用",
+        "重点续盯",
+        "早期阶段",
+        "生态协同潜力"
       ],
       "drawbacks": [
-        "依赖 squeek 生态",
-        "玩法单一",
-        "代币经济不明",
-        "风险偏高"
+        "无具体玩法信息",
+        "依赖squeek主网",
+        "无法立即参与",
+        "不确定性高"
       ],
-      "whatsNew": "R118重点：squeek生态应用续盯；IMD Hamster Hour 合约有活动；$HAMSTER需核验；@hamsterhourgame",
+      "whatsNew": "R119：squeek生态应用Hamster Hour持续跟进。",
       "background": "First swarm-built app on squeekchain: bet $IMD on how far the hamster runs in an hour; top 3 split the pot.",
       "whyWatch": "重点类：squeekchain 生态极早期应用 peer；同属实体+链上玩具叙事。",
       "status": "early",
@@ -1276,7 +1436,7 @@
         "status": "tba",
         "timezone": "Asia/Shanghai",
         "source": "@pillheadddd / @hamsterhourgame",
-        "note": "下注玩法刚起；盯是否可交互与奖励真实性"
+        "note": "下注玩法续盯；是否可交互与奖励真实性；非独立于 squeek 的新 peer"
       },
       "social": {
         "lastCheckedAt": "2026-10-17T02:15:00+08:00",
@@ -1287,7 +1447,9 @@
       "flag": "WATCH",
       "round": 113,
       "addedAt": "2026-10-17 02:15 CST",
-      "firstSeen": "2026-10-17 02:15 CST"
+      "firstSeen": "2026-10-17 02:15 CST",
+      "earlyScore": 8,
+      "riskScore": 7
     },
     {
       "id": "ape-blitz",
@@ -1367,24 +1529,26 @@
       "name": "Armoreum",
       "category": "新台",
       "scores": {
-        "early": 6.0,
+        "early": 5.8,
         "actionable": 4.0,
-        "novelty": 5.5,
-        "risk": 8.2,
-        "overall": 4.8,
-        "composite": 4.8
+        "novelty": 5.0,
+        "risk": 7.5,
+        "overall": 4.5,
+        "composite": 4.5
       },
       "highlights": [
-        "自称桥项目",
-        "RH 链"
+        "多链台子",
+        "自称桥",
+        "早期阶段",
+        "潜在LZ相关"
       ],
       "drawbacks": [
         "桥未核验",
         "lzVerified=false",
-        "风险极高",
-        "信息不可信"
+        "信息不透明",
+        "风险高"
       ],
-      "whatsNew": "R118：自称桥接未核验→台子/Meme lzVerified=false；不进LZ",
+      "whatsNew": "R119：Armoreum自称桥但未核验，LZ验证为false。",
       "chain": "Robinhood",
       "tags": [
         "launchpad",
@@ -1437,7 +1601,9 @@
       "round": 112,
       "addedAt": "2026-10-17 02:09 CST",
       "firstSeen": "2026-10-17 02:09 CST",
-      "lzVerified": false
+      "lzVerified": false,
+      "earlyScore": 6,
+      "riskScore": 8
     },
     {
       "id": "real-hood-people",
@@ -2617,26 +2783,27 @@
       "scores": {
         "early": 7.8,
         "actionable": 7.2,
-        "novelty": 6.0,
-        "risk": 6.8,
-        "overall": 6.6,
-        "composite": 6.6
+        "novelty": 6.5,
+        "risk": 6.2,
+        "overall": 6.8,
+        "composite": 6.8
       },
       "earlyScore": 8,
-      "riskScore": 7,
+      "riskScore": 6,
       "riskLevel": "high",
       "highlights": [
-        "GPU PoW 已 LIVE",
-        "Midwimble 即将上线",
-        "早期挖矿机会"
+        "主网挖矿LIVE",
+        "Midwimble即将上线",
+        "独立链挖矿",
+        "可立即参与"
       ],
       "drawbacks": [
-        "链知名度低",
-        "代币经济不明",
+        "独立链生态小",
         "流动性未知",
-        "风险偏高"
+        "团队背景不明",
+        "代币经济未明"
       ],
-      "whatsNew": "R118：主网挖矿仍LIVE；Midwimble soon；@cypherpunkgold",
+      "whatsNew": "R119：Midstate主网挖矿已上线，Midwimble即将推出。",
       "whyWatch": "与 QTC/NOID 同属「后量子 GPU PoW L1」赛道，但算法是顺序 BLAKE3（非 Poseidon）；hobbyist/GPU 窗口仍在，且有 LuckyPool+钱包+交易所入口，适合盯算力与抛压。",
       "background": "Midstate（$MDS）· midstate.cash · 独立 L1：顺序 BLAKE3 PoW、60s ASERT、power-of-2 UTXO、commit-reveal mempool。创世锚定 BTC #938708（2026-02-24）。源码 ciphernom/midstate；浏览器 rpc.cypherpunk.gold；矿池 midstate.luckypool.io（lpminer CUDA）。官推 @cypherpunkgold（主页 midstate.cash；站内 @midstate_dev 404）。",
       "risk": "极早期单人项目；交易所深度浅；假池/假矿工与死链官推链接并存。只认 midstate.cash / @cypherpunkgold / LuckyPool 官方包。非投资建议。",
@@ -4173,28 +4340,28 @@
         "INJ"
       ],
       "scores": {
-        "early": 8.2,
-        "actionable": 7.0,
+        "early": 8.5,
+        "actionable": 7.5,
         "novelty": 6.2,
         "risk": 6.0,
-        "overall": 6.8,
-        "composite": 6.8
+        "overall": 7.2,
+        "composite": 7.2
       },
-      "earlyScore": 9,
-      "riskScore": 5,
+      "earlyScore": 8,
+      "riskScore": 6,
       "highlights": [
-        "Injective 链发射台",
-        "主网约 12h 后解锁",
+        "Injective链launchpad",
+        "主网约10-17 16:00UTC",
         "官网倒计时",
-        "早期布局机会"
+        "约19h后上线"
       ],
       "drawbacks": [
-        "尚未开放",
-        "Injective 生态较小",
-        "机制未详述",
-        "竞争不确定"
+        "Injective生态较新",
+        "launchpad竞争激烈",
+        "首期项目质量未知",
+        "流动性待验证"
       ],
-      "whatsNew": "R118：主网锁 10-17 16:00UTC（≈00:00CST 10-18，约20h）；官站倒计时；@yorefun",
+      "whatsNew": "R119：Injective链launchpad yore.fun即将主网上线。",
       "whyWatch": "同类极早期链上发射台（Injective/Ink 风格 bonding fair-launch）；盯主网开台与首批发射。",
       "background": "yore.fun（@yorefun）自称 Injective 上 fair-launch bonding-curve 发射台：无预售、无团队配额，售罄毕业到 swap.yore.fun；已完成 testnet beta，官帖宣布周六 10-17 16:00 UTC 正式上线。",
       "risk": "极早期台子，合约/团队/LP毕业路径未充分核验；粉丝少，钓鱼号与改期风险高。",
@@ -4216,7 +4383,7 @@
           }
         ],
         "source": "@yorefun + yore.fun",
-        "note": "主网10-17 16:00UTC（≈20h→00:00CST 10-18）；官站倒计时；顶栏日程"
+        "note": "主网10-17 16:00UTC（≈00:00CST 10-18，约19h）；官站倒计时确认；@yorefun"
       },
       "onchain": {
         "chainId": "injective",
@@ -7206,15 +7373,15 @@
             "perWallet": 50
           }
         ],
-        "source": "neverfuckingtrade.com + @Punkt_art",
-        "note": "PUBLIC≈06:00CST 0.00005ETH；0/2222；@Punkt_art"
+        "source": "neverfuckingtrade.com + @Punkt_art + Trencher R119",
+        "note": "PUBLIC≈06:00CST 0.00005ETH；OS≈0/2222；@Punkt_art"
       },
       "onchain": {
         "chainId": "robinhood",
         "contract": "0xa40352d02717fcdba8ef76e3874b619073293434",
         "standard": "erc721",
         "mintStatus": "not_open",
-        "minted": 0,
+        "minted": "0/2222",
         "totalSupply": 0,
         "maxSupply": 2222,
         "lastCheckedAt": "2026-10-17T04:11:11.830301+08:00",
@@ -7222,34 +7389,35 @@
         "note": "PUBLIC 0.00005≈06:00 CST(+1=10-17)；0/2222；~14粉。"
       },
       "scores": {
-        "early": 8.8,
-        "actionable": 7.5,
-        "novelty": 5.8,
-        "risk": 5.5,
+        "early": 8.2,
+        "actionable": 7.8,
+        "novelty": 5.5,
+        "risk": 6.0,
         "overall": 7.2,
         "composite": 7.2
       },
-      "earlyScore": 92,
-      "riskScore": 75,
+      "earlyScore": 8,
+      "riskScore": 6,
       "riskLevel": "high",
       "highlights": [
-        "PUBLIC 22:00UTC 开启",
-        "超低价 0.00005ETH",
-        "0/2222 全新",
-        "RH 链项目"
+        "RH链NFT打新",
+        "公售约06:00CST",
+        "供应量仅2222",
+        "价格0.00005ETH低门槛"
       ],
       "drawbacks": [
-        "RH 链流动性低",
-        "艺术性未知",
-        "无长期规划",
-        "定价过低或质量存疑"
+        "OS≈0/2222信息不透明",
+        "RH生态流动性待验证",
+        "无明确团队背景",
+        "窗口≤2h较紧"
       ],
-      "whatsNew": "R118：PUBLIC≈06:00CST 0.00005ETH；OS≈0/2222；@Punkt_art",
+      "whatsNew": "R119：RH链上小供应量低价NFT即将公售。",
       "flag": "upcoming",
       "risk": "dust级项目，流动性和二级承接力弱。",
       "firstSeen": "2026-10-16T07:22:08.020389+08:00",
       "addedAt": "2026-10-16T07:22:08.020389+08:00",
-      "round": 43
+      "round": 43,
+      "newThisRound": false
     },
     {
       "id": "fwtr",
@@ -9863,8 +10031,8 @@
       ],
       "round": 4,
       "riskLevel": "medium",
-      "riskScore": 58,
-      "earlyScore": 88,
+      "riskScore": 7,
+      "earlyScore": 6,
       "whyWatch": "LayerZero 自建高性能 L1「Zero」：与 Citadel Securities / DTCC / ARK / ICE 叙事绑定，ZRO 作 gas/质押。开链前后通常有生态首发台、测试网积分、OFT 资产迁入窗口——当前仍未公开主网开闸，是最该盯的 LayerZero 链级事件。",
       "background": "2026-02 官宣 Zero；官推 @LayerZero_Core。社区与研究帖持续讨论 Zero Zone、后量子/高性能架构；主网日期仍 TBA。",
       "risk": "大叙事≠立刻有可打新台；假「Zero 测试网」钓鱼极多。只跟 @LayerZero_Core / layerzero.network 官宣，勿交测试币到陌生桥。",
@@ -9873,24 +10041,27 @@
         "site": "https://layerzero.network/"
       },
       "highlights": [
-        "LayerZero 生态",
-        "主网 Q4 目标"
+        "LayerZero生态",
+        "Q4目标新开链",
+        "早期概念阶段",
+        "LZ叙事相关"
       ],
       "drawbacks": [
-        "无新开链日",
-        "信息陈旧",
-        "无具体动作",
-        "时效性差"
+        "无推特",
+        "无具体开链日期",
+        "仅Q4目标模糊",
+        "无法参与"
       ],
-      "whatsNew": "R118：无新的Zero开链日；主网仍Q4目标；继续监控",
+      "whatsNew": "R119：LayerZero生态Zero链Q4目标，无具体日期。",
       "scores": {
-        "early": 5.5,
+        "early": 6.0,
         "actionable": 3.0,
-        "novelty": 5.0,
+        "novelty": 5.5,
         "risk": 7.0,
-        "overall": 4.5,
-        "composite": 4.5
-      }
+        "overall": 4.8,
+        "composite": 4.8
+      },
+      "newThisRound": false
     },
     {
       "id": "atlas-lz",
@@ -9905,8 +10076,8 @@
       ],
       "round": 4,
       "riskLevel": "medium",
-      "riskScore": 55,
-      "earlyScore": 80,
+      "riskScore": 7,
+      "earlyScore": 6,
       "whyWatch": "跑在 Zero 上的无头交易所基建（撮合/清算/结算/风控一体），官宣「今年稍后」上线；真正打新点是第一批挂接 ATLAS 的交易前端/venue，而不是自己当 CEX。开链+开市双事件值得提前建关注清单。",
       "background": "2026-08-25 LayerZero 发布 ATLAS；无自有前端，venue 自建入口并抽成。宣称亚毫秒延迟、启动约 20 万 TPS，75% 交易费回购销毁 ZRO。",
       "risk": "基建层上线节奏可能延后；早期 venue 质量参差。等可验证的 venue 名单与合约，再谈参与激励/积分。",
@@ -9915,24 +10086,27 @@
         "site": "https://layerzero.network/atlas"
       },
       "highlights": [
-        "LayerZero 生态",
-        "官方账号关联"
+        "LayerZero生态",
+        "早期阶段",
+        "LZ叙事相关",
+        "潜在空投预期"
       ],
       "drawbacks": [
-        "无官方 mint 证据",
-        "信息不可核验",
-        "无具体动作",
-        "时效性差"
+        "无推特",
+        "无官方mint证据",
+        "信息严重不足",
+        "无法参与"
       ],
-      "whatsNew": "R118：无新的官方ATLAS mint证据；继续监控",
+      "whatsNew": "R119：ATLAS无新官方mint证据，信息停滞。",
       "scores": {
-        "early": 5.0,
+        "early": 5.5,
         "actionable": 2.5,
-        "novelty": 4.5,
+        "novelty": 5.0,
         "risk": 7.2,
         "overall": 4.2,
         "composite": 4.2
-      }
+      },
+      "newThisRound": false
     },
     {
       "id": "jumper-jump",
@@ -15191,7 +15365,7 @@
           }
         ],
         "source": "neverfuckingtrade.com + @robinfrens_art",
-        "note": "FCFS2→PUBLIC≈05:30CST FREE；@robinfrens_art"
+        "note": "FCFS2→PUBLIC≈05:30CST FREE；日程续盯；@robinfrens_art"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -15206,31 +15380,32 @@
         "note": "Team≈01:00(+1) / GTD FREE≈01:05 CST(+1)；仍0/4455。"
       },
       "highlights": [
-        "FCFS2 LIVE 转公开",
-        "PUBLIC 免费",
-        "已 mint 约 3278/4455",
-        "21:30UTC 公开"
+        "RH链FREE mint",
+        "FCFS2→PUBLIC约05:30CST",
+        "已mint约3278/4455",
+        "零成本参与"
       ],
       "drawbacks": [
-        "进度已过半",
-        "免费盘竞争大",
-        "RH 链生态早期",
-        "无差异化亮点"
+        "免费盘竞争激烈",
+        "剩余量约1/4",
+        "RH生态尚早期",
+        "无稀缺性设计"
       ],
-      "whatsNew": "R118：FCFS2→PUBLIC≈05:30CST FREE；日程仍有效；@robinfrens_art",
+      "whatsNew": "R119：RH链免费mint进入公售阶段。",
       "scores": {
-        "early": 6.8,
-        "actionable": 7.8,
-        "novelty": 4.8,
-        "risk": 5.8,
-        "overall": 6.3,
-        "composite": 6.3
+        "early": 7.5,
+        "actionable": 8.0,
+        "novelty": 5.0,
+        "risk": 5.5,
+        "overall": 7.0,
+        "composite": 7.0
       },
-      "earlyScore": 6,
+      "earlyScore": 8,
       "riskScore": 6,
       "round": 23,
       "status": "live",
-      "mintStatus": "live"
+      "mintStatus": "live",
+      "newThisRound": false
     },
     {
       "id": "miner-corp-rh",
@@ -15427,13 +15602,6 @@
         "endsAt": "2026-10-17T02:30:00Z",
         "phases": [
           {
-            "name": "TEAM",
-            "startsAt": "2026-10-16T19:00:00Z",
-            "endsAt": "2026-10-16T19:30:00Z",
-            "price": "FREE",
-            "perWallet": 10
-          },
-          {
             "name": "GTD",
             "startsAt": "2026-10-16T19:30:00Z",
             "endsAt": "2026-10-16T22:30:00Z",
@@ -15455,15 +15623,15 @@
             "perWallet": 1
           }
         ],
-        "source": "@ReefersRH + neverfuckingtrade.com",
-        "note": "GTD FREE LIVE；minted≈397/555；FCFS≈06:30CST；@ReefersRH"
+        "source": "@ReefersRH + neverfuckingtrade.com + Trencher R119",
+        "note": "FCFS≈06:30CST FREE；PUBLIC≈08:30CST FREE；Trencher≈411/555"
       },
       "onchain": {
         "chainId": "robinhood",
         "contract": "0x9816dafa1fecf52087714a29e7d9762eeebdacb4",
         "standard": "erc721",
         "mintStatus": "upcoming",
-        "minted": "397/555",
+        "minted": "411/555",
         "totalSupply": 0,
         "maxSupply": 555,
         "lastCheckedAt": "2026-10-17T04:11:29.201686+08:00",
@@ -15472,29 +15640,29 @@
         "owners": 1
       },
       "highlights": [
-        "GTD 免费档 LIVE",
-        "供应仅 555 稀缺",
-        "FCFS 22:30UTC",
-        "已 mint 约 363/555"
+        "RH链FREE mint",
+        "FCFS约06:30CST",
+        "PUBLIC约08:30CST",
+        "minted约411/555"
       ],
       "drawbacks": [
-        "总量小易被抢",
-        "RH 链流动性低",
-        "无长期规划披露",
-        "艺术风格普通"
+        "供应量小仅555",
+        "免费盘竞争大",
+        "RH生态流动性弱",
+        "无稀缺设计"
       ],
-      "whatsNew": "R118：GTD FREE LIVE；OS≈397/555；FCFS≈06:30CST；@ReefersRH",
+      "whatsNew": "R119：RH链免费mint即将FCFS。",
       "scores": {
-        "early": 8.2,
-        "actionable": 8.5,
+        "early": 7.2,
+        "actionable": 7.0,
         "novelty": 5.0,
-        "risk": 5.5,
-        "overall": 7.2,
-        "composite": 7.2
+        "risk": 5.8,
+        "overall": 6.4,
+        "composite": 6.4
       },
       "round": 24,
-      "earlyScore": 6,
-      "riskScore": 7,
+      "earlyScore": 7,
+      "riskScore": 6,
       "mintStatus": "live",
       "status": "live",
       "social": {
@@ -15503,7 +15671,8 @@
       },
       "osSupply": 1,
       "osOwners": 1,
-      "minted": 1
+      "minted": 1,
+      "newThisRound": false
     },
     {
       "id": "the-crayons",
@@ -15617,13 +15786,6 @@
         "endsAt": "2026-10-20T00:30:00Z",
         "phases": [
           {
-            "name": "TEAM",
-            "startsAt": "2026-10-16T17:30:00Z",
-            "endsAt": "2026-10-16T19:30:00Z",
-            "price": "FREE",
-            "perWallet": 5
-          },
-          {
             "name": "GTD",
             "startsAt": "2026-10-16T19:30:00Z",
             "endsAt": "2026-10-16T21:30:00Z",
@@ -15645,46 +15807,47 @@
             "perWallet": 2
           }
         ],
-        "source": "neverfuckingtrade.com",
-        "note": "GTD→FCFS≈05:30CST FREE；minted≈86/111；@glyf82"
+        "source": "neverfuckingtrade.com + Trencher R119",
+        "note": "GTD→FCFS≈05:30CST FREE；PUBLIC≈08:30CST 0.002ETH；Trencher≈94/111"
       },
       "onchain": {
         "chainId": "robinhood",
         "contract": "0xa1cdbff98fbae47f3d6d35058124c238e296e433",
         "standard": "erc721",
         "mintStatus": "not_open",
-        "minted": "68/111",
+        "minted": "94/111",
         "totalSupply": 0,
         "maxSupply": 111,
         "lastCheckedAt": "2026-10-17T04:11:29.656992+08:00",
         "explorer": "https://opensea.io/collection/0xa1cdbff98fbae47f3d6d35058124c238e296e433"
       },
       "highlights": [
-        "GTD LIVE 转 FCFS",
-        "免费 mint",
-        "供应仅 111 极稀缺",
-        "已 mint 约 68/111"
+        "RH链FREE mint",
+        "GTD→FCFS约05:30CST",
+        "Trencher约94/111",
+        "早期阶段"
       ],
       "drawbacks": [
-        "总量极小易秒光",
-        "RH 链流动性低",
-        "信息有限",
-        "无路线图"
+        "信息量少",
+        "无公开供应总量",
+        "RH生态流动性弱",
+        "团队背景不明"
       ],
-      "whatsNew": "R118：GTD→FCFS≈05:30CST FREE；Trencher minted≈86/111；@glyf82",
+      "whatsNew": "R119：RH链免费mint进入FCFS阶段。",
       "scores": {
-        "early": 8.5,
-        "actionable": 8.0,
+        "early": 7.8,
+        "actionable": 7.2,
         "novelty": 5.2,
-        "risk": 6.0,
-        "overall": 7.0,
-        "composite": 7.0
+        "risk": 5.8,
+        "overall": 6.8,
+        "composite": 6.8
       },
       "round": 24,
-      "earlyScore": 6,
-      "riskScore": 7,
+      "earlyScore": 8,
+      "riskScore": 6,
       "status": "live",
-      "mintStatus": "live"
+      "mintStatus": "live",
+      "newThisRound": false
     },
     {
       "id": "mining-systems-rh",
@@ -19196,15 +19359,15 @@
       "addedAt": "2026-10-16T22:28:46.013256+08:00",
       "firstSeen": "2026-10-16T22:28:46.013256+08:00",
       "round": 94,
-      "earlyScore": 9,
-      "riskScore": 9,
+      "earlyScore": 6,
+      "riskScore": 8,
       "scores": {
-        "early": 9,
-        "actionable": 7,
-        "novelty": 9,
-        "risk": 9,
-        "composite": 6.9,
-        "overall": 6.9
+        "early": 5.5,
+        "actionable": 3.8,
+        "novelty": 4.8,
+        "risk": 7.6,
+        "overall": 4.2,
+        "composite": 4.2
       },
       "links": {
         "x": "https://x.com/OFTpad",
@@ -19238,16 +19401,18 @@
         "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00"
       },
       "highlights": [
-        "官帖称 Omnichain Fungible Token Launchpad 已上线",
-        "叙事：跨 Solana/ETH/Base 统一供给发币",
-        "今日新建号，极早期 OFT/跨链发射台卡位"
+        "多链台子",
+        "自称OFT",
+        "早期阶段",
+        "潜在LZ相关"
       ],
       "drawbacks": [
-        "未核验是否真接 LayerZero 官方，极高风险",
-        "仅官帖自述+pump.fun CA，无审计/无外部背书",
-        "仿盘与Rug风险极高，需自核合约与路由"
+        "未核验LZ",
+        "仅名字含OFT",
+        "信息不透明",
+        "风险高"
       ],
-      "whatsNew": "R118：自称OFT台未核验LZ；保持台子/Meme；@OFTpad",
+      "whatsNew": "R119：OFTpad自称OFT但未核验LZ生态。",
       "whyWatch": "极早期自称 Omnichain Fungible Token 发射台（@OFTpad）；仅官帖自述+pump.fun CA，是否真接跨链协议未核验，归入台子/Meme 栏盯盘。",
       "flag": "WATCH",
       "riskLevel": "critical",
@@ -20812,25 +20977,25 @@
       },
       "background": "Robinhood Chain NFT · supply 888 · 合约 0xc217295ed84ba65364cca8fbf8d7f4710caffb5a。Trencher：Diamond hands WL FREE → ccff00+ → PUBLIC。",
       "highlights": [
-        "WL 低价 0.00021",
-        "已 mint 约 419/888",
-        "21:20UTC 截止 WL",
-        "后续转公开"
+        "RH链NFT",
+        "WL至约05:20CST",
+        "minted约449/888",
+        "供应量888适中"
       ],
       "drawbacks": [
-        "WL 即将截止",
-        "RH 链流动性低",
-        "艺术性普通",
-        "无长期规划"
+        "需付费mint",
+        "WL窗口临近",
+        "RH生态早期",
+        "无差异化亮点"
       ],
-      "whatsNew": "R118：WL ccff00+ 0.00021至≈05:20CST（≤2h）；OS≈436/888；@OCEvrydaypeople",
+      "whatsNew": "R119：RH链888供应量NFT进入WL阶段。",
       "scores": {
-        "early": 7.5,
-        "actionable": 7.2,
+        "early": 7.0,
+        "actionable": 6.8,
         "novelty": 5.0,
-        "risk": 6.0,
-        "overall": 6.4,
-        "composite": 6.4
+        "risk": 6.2,
+        "overall": 6.2,
+        "composite": 6.2
       },
       "risk": "极新官推；匿名 RH free mint；合约与二级风险高。",
       "riskLevel": "extreme",
@@ -20842,13 +21007,6 @@
         "startsAt": "2026-10-16T17:20:00Z",
         "endsAt": "2026-10-24T21:20:00Z",
         "phases": [
-          {
-            "name": "WL Diamond hands",
-            "startsAt": "2026-10-16T17:20:00Z",
-            "endsAt": "2026-10-16T19:20:00Z",
-            "price": "FREE",
-            "perWallet": 1
-          },
           {
             "name": "WL ccff00+",
             "startsAt": "2026-10-16T19:20:00Z",
@@ -20864,18 +21022,20 @@
             "perWallet": 3
           }
         ],
-        "source": "neverfuckingtrade.com + @OCEvrydaypeople",
-        "note": "WL ccff00+至≈05:20CST；0.00021ETH；minted≈436/888；@OCEvrydaypeople"
+        "source": "neverfuckingtrade.com + @OCEvrydaypeople + Trencher R119",
+        "note": "WL ccff00+至≈05:20CST；PUBLIC≈05:20CST 0.00041ETH；Trencher minted≈449/888"
       },
       "onchain": {
         "contract": "0xc217295ed84ba65364cca8fbf8d7f4710caffb5a",
-        "minted": "436/888"
+        "minted": "449/888"
       },
       "flag": null,
       "newThisRound": false,
       "round": 115,
       "addedAt": "2026-10-17 02:55 CST",
-      "firstSeen": "2026-10-17 02:55 CST"
+      "firstSeen": "2026-10-17 02:55 CST",
+      "earlyScore": 7,
+      "riskScore": 6
     },
     {
       "id": "robinhood-stone",
@@ -21133,8 +21293,8 @@
       "onchain": {
         "note": "Base via Flaunch；官币 0xeB65911f1070706FB8b8776155BfB3AD84302110"
       },
-      "flag": "本轮新",
-      "newThisRound": true,
+      "flag": null,
+      "newThisRound": false,
       "round": 118,
       "addedAt": "2026-10-17 04:12 CST",
       "firstSeen": "2026-10-17 04:12 CST",
@@ -21210,8 +21370,8 @@
       "onchain": {
         "note": "RH；supply 5000；OS furrbit-525479624"
       },
-      "flag": "本轮新",
-      "newThisRound": true,
+      "flag": null,
+      "newThisRound": false,
       "round": 118,
       "addedAt": "2026-10-17 04:12 CST",
       "firstSeen": "2026-10-17 04:12 CST",
@@ -21306,8 +21466,8 @@
         "contract": "0x236303e588a1425b45b19761502187b9ba46bba8",
         "note": "supply 3333"
       },
-      "flag": "本轮新",
-      "newThisRound": true,
+      "flag": null,
+      "newThisRound": false,
       "round": 118,
       "addedAt": "2026-10-17 04:12 CST",
       "firstSeen": "2026-10-17 04:12 CST",
@@ -21375,38 +21535,38 @@
           }
         ],
         "source": "@EquiumEQM + GitHub HannaPrints/equium",
-        "note": "挖矿宣称 LIVE；官网 404 需核验"
+        "note": "挖矿宣称 LIVE；equium.xyz 本轮仍404；以 GitHub/X 为准"
       },
       "onchain": {
         "note": "program ZKGMUfxiRCXFPnqz9zgqAnuqJy15jk7fKbR4o6FuEQM；mint 1MhvZzEe8gQ8Rb9CrT3Dn26Gkn9QRErzLMGkkTwveqm"
       },
-      "flag": "本轮新",
-      "newThisRound": true,
+      "flag": null,
+      "newThisRound": false,
       "round": 118,
       "addedAt": "2026-10-17 04:12 CST",
       "firstSeen": "2026-10-17 04:12 CST",
       "scores": {
-        "early": 7.5,
-        "actionable": 5.5,
+        "early": 8.0,
+        "actionable": 4.5,
         "novelty": 7.0,
-        "risk": 7.5,
+        "risk": 6.8,
         "overall": 6.2,
         "composite": 6.2
       },
       "highlights": [
-        "Solana Equihash PoW 少见",
-        "CPU/GPU 可挖",
-        "21M 减半机制",
-        "GitHub 开源"
+        "Solana链Equihash PoW",
+        "差异化PoW算法",
+        "早期阶段",
+        "挖矿叙事"
       ],
       "drawbacks": [
-        "官网 equium.xyz 404",
-        "流动性不明",
-        "Solana PoW 边缘",
-        "收益未验证"
+        "官网曾404",
+        "需续核验",
+        "无法确认可参与",
+        "Solana上PoW少见"
       ],
-      "whatsNew": "本轮新：Solana Equium $EQM PoW 挖矿；站404需核验；@EquiumEQM",
-      "earlyScore": 7,
+      "whatsNew": "R119：Equium Equihash PoW官网曾404，需续核验。",
+      "earlyScore": 8,
       "riskScore": 7
     }
   ]
