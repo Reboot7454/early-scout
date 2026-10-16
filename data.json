@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-16 19:41 CST",
+    "updated": "2026-10-16 19:50 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "Round82：X MCP（热单+新候选）+ OpenSea HTML/Ink RPC + DeepSeek-chat；新收录 tickapogee/degenerate-art；清 ontrench/pharaoh-god-mob 本轮新；Codex OS 558→564；Midnight 1596→1609；ASCII/RuneKai/0ops/PRINTERS≤2h；Praxen 改认 @PraxenProtocol；例行推送 data.json→GitHub Pages。",
-    "lastScout": "2026-10-16 19:41 CST",
+    "source": "Mid-R82 手动收录：用户点名 @xstokfun/@ConsoleWallet/@flaunchgg/@onepumpcc → 卡片+品类监视扩展（非全量 X 监控）；清 tickapogee,degenerate-art 本轮新；DeepSeek-chat 文案；推送 data.json→GitHub Pages。",
+    "lastScout": "2026-10-16 19:50 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -421,7 +421,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 221,
+    "candidateCount": 225,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -516,7 +516,61 @@
     "round82Added": [
       "tickapogee",
       "degenerate-art"
-    ]
+    ],
+    "manualAdmitMid82": {
+      "added": [
+        "xstokfun",
+        "consolewallet",
+        "flaunchgg",
+        "onepumpcc"
+      ],
+      "clearedNewThisRound": [
+        "tickapogee",
+        "degenerate-art"
+      ],
+      "at": "2026-10-16 19:50 CST",
+      "note": "用户要求小七纳入监测；非完整 scout round"
+    },
+    "cantonPadWatch": {
+      "active": true,
+      "label": "Canton 发射台/钱包品类",
+      "accounts": [
+        "@xstokfun",
+        "@onepumpcc",
+        "@ConsoleWallet"
+      ],
+      "candidateIds": [
+        "xstokfun",
+        "onepumpcc",
+        "consolewallet"
+      ],
+      "focus": [
+        "launch day",
+        "waitlist open",
+        "meme pad",
+        "wallet gateway"
+      ],
+      "note": "Mid-R82：品类扩展监视，非全量时间线监控。",
+      "lastChecked": "2026-10-16 19:50 CST"
+    },
+    "flaunchWatch": {
+      "active": true,
+      "label": "Base Play-to-Buy 发射",
+      "accounts": [
+        "@flaunchgg"
+      ],
+      "candidateIds": [
+        "flaunchgg"
+      ],
+      "focus": [
+        "Play to Buy",
+        "fair launch",
+        "$FLAY",
+        "new token window"
+      ],
+      "note": "Mid-R82：品类扩展监视，非全量时间线监控。",
+      "lastChecked": "2026-10-16 19:50 CST"
+    }
   },
   "candidates": [
     {
@@ -14436,8 +14490,8 @@
       },
       "status": "watching",
       "mintStatus": "upcoming",
-      "flag": "本轮新",
-      "newThisRound": true,
+      "flag": null,
+      "newThisRound": false,
       "addedAt": "2026-10-16T19:41:04.577435+08:00",
       "firstSeen": "2026-10-16T19:41:04.577435+08:00",
       "round": 82,
@@ -14517,12 +14571,315 @@
       },
       "status": "watching",
       "mintStatus": "upcoming",
-      "flag": "本轮新",
-      "newThisRound": true,
+      "flag": null,
+      "newThisRound": false,
       "addedAt": "2026-10-16T19:41:04.577435+08:00",
       "firstSeen": "2026-10-16T19:41:04.577435+08:00",
       "round": 82,
       "chain": "robinhood"
+    },
+    {
+      "id": "xstokfun",
+      "name": "Xstok",
+      "category": "新台",
+      "chain": "Canton",
+      "status": "live",
+      "mintStatus": "launch_day",
+      "riskLevel": "critical",
+      "tags": [
+        "新台",
+        "Launchpad",
+        "Canton",
+        "stocks",
+        "paired-tokens",
+        "极早期"
+      ],
+      "scores": {
+        "early": 9,
+        "actionable": 8,
+        "novelty": 9,
+        "risk": 9,
+        "composite": 8.6,
+        "overall": 8.6
+      },
+      "earlyScore": 9,
+      "riskScore": 9,
+      "highlights": [
+        "Canton 上配对股票/加密/稳定币的发射交易台",
+        "官称正式 launch≈10-16（今）",
+        "@xstokfun≈3452，站 xstok.fun"
+      ],
+      "drawbacks": [
+        "首日极早期，合约/审计与真实流动性未充分核验",
+        "Canton 生态仍早，仿盘与改期风险高"
+      ],
+      "whatsNew": "手动收录：官称 Thu Oct 16 正式 launch；站 xstok.fun；@xstokfun≈3452。",
+      "whyWatch": "Canton 股票/资产配对发射台首日窗口，盯首批池与真实买盘。",
+      "background": "Xstok（@xstokfun）自称 Launch and trade tokens paired with stocks, crypto, stablecoins & more；官站 xstok.fun，官帖指向 10-16 正式上线。",
+      "risk": "极早期高风险；只认官推/官站；合约与 LP 需自验，DYOR。",
+      "links": {
+        "x": "https://x.com/xstokfun",
+        "site": "https://xstok.fun/",
+        "website": "https://xstok.fun/"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-16T00:00:00Z",
+        "phases": [
+          {
+            "name": "Official launch",
+            "note": "官称 Thu Oct 16 launch；具体时点以官推为准"
+          }
+        ],
+        "source": "@xstokfun",
+        "note": "手动收录 mid-R82：launch day"
+      },
+      "onchain": {
+        "chainId": "canton",
+        "contract": null,
+        "standard": null,
+        "mintStatus": "launch_day",
+        "lastCheckedAt": "2026-10-16T19:50:31+08:00",
+        "note": "Canton launchpad；合约未核验；只认 xstok.fun"
+      },
+      "social": {
+        "xFollowers": 3452,
+        "lastCheckedAt": "2026-10-16T19:50:31+08:00"
+      },
+      "flag": "本轮新",
+      "round": 82,
+      "firstSeen": "2026-10-16T19:50:31+08:00",
+      "addedAt": "2026-10-16T19:50:31+08:00",
+      "newThisRound": true
+    },
+    {
+      "id": "consolewallet",
+      "name": "Console Wallet",
+      "category": "基建",
+      "chain": "Canton",
+      "status": "live",
+      "mintStatus": "n/a_wallet",
+      "riskLevel": "high",
+      "tags": [
+        "基建",
+        "Wallet",
+        "Canton",
+        "EVM",
+        "self-custody",
+        "极早期"
+      ],
+      "scores": {
+        "early": 7,
+        "actionable": 6,
+        "novelty": 8,
+        "risk": 7,
+        "composite": 7.0,
+        "overall": 7.0
+      },
+      "earlyScore": 7,
+      "riskScore": 7,
+      "highlights": [
+        "Canton 自托管浏览器钱包，兼 EVM（ETH/Base）",
+        "clear signing / offer-based transfers / 内置风控",
+        "@ConsoleWallet≈12987；站 consolewallet.io"
+      ],
+      "drawbacks": [
+        "钱包基建非发射台，无直接 mint 窗口",
+        "Canton 日注册上限≈100，采用率与代币预期不明"
+      ],
+      "whatsNew": "手动收录：Canton 自托管钱包 live；@ConsoleWallet≈12987；站 consolewallet.io。",
+      "whyWatch": "Canton 生态入口钱包，盯与 OnePump/Xstok 等台子的联动与开放节奏。",
+      "background": "Console Wallet（@ConsoleWallet）自称 Canton Network finance gateway：自托管、clear signing、offer-based transfers，并扩展 ETH/Base；开源、含移动端。",
+      "risk": "基建类；无投资承诺；钓鱼扩展与假站风险，只认官推/官站，DYOR。",
+      "links": {
+        "x": "https://x.com/ConsoleWallet",
+        "site": "https://consolewallet.io/",
+        "website": "https://consolewallet.io/"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "phases": [
+          {
+            "name": "Wallet live",
+            "note": "浏览器/移动端已上；预注册 pre.consolewallet.io"
+          }
+        ],
+        "source": "@ConsoleWallet",
+        "note": "手动收录 mid-R82：钱包基建→打新栏"
+      },
+      "onchain": {
+        "chainId": "canton",
+        "contract": null,
+        "standard": null,
+        "mintStatus": "n/a_wallet",
+        "lastCheckedAt": "2026-10-16T19:50:31+08:00",
+        "note": "钱包产品；非 mint；只认 consolewallet.io"
+      },
+      "social": {
+        "xFollowers": 12987,
+        "lastCheckedAt": "2026-10-16T19:50:31+08:00"
+      },
+      "flag": "本轮新",
+      "round": 82,
+      "firstSeen": "2026-10-16T19:50:31+08:00",
+      "addedAt": "2026-10-16T19:50:31+08:00",
+      "newThisRound": true
+    },
+    {
+      "id": "flaunchgg",
+      "name": "Flaunch",
+      "category": "新台",
+      "chain": "Base",
+      "status": "live",
+      "mintStatus": "live",
+      "riskLevel": "high",
+      "tags": [
+        "新台",
+        "Launchpad",
+        "Base",
+        "Play-to-Buy",
+        "FlayerLabs",
+        "$FLAY",
+        "fair-launch"
+      ],
+      "scores": {
+        "early": 6,
+        "actionable": 7,
+        "novelty": 8,
+        "risk": 6,
+        "composite": 6.8,
+        "overall": 6.8
+      },
+      "earlyScore": 6,
+      "riskScore": 6,
+      "highlights": [
+        "Base Play to Buy 发射协议（FlayerLabs / $FLAY）",
+        "固定价公平发射 + ETH 创作者分成/回购选项",
+        "@flaunchgg≈24706 verified；站 flaunch.gg"
+      ],
+      "drawbacks": [
+        "已相对成熟于极早期新台，新鲜度低于 Canton 新台",
+        "Base 发射台拥挤，玩法真实性需自验"
+      ],
+      "whatsNew": "手动收录：Base Play-to-Buy launchpad live；docs.flaunch.gg；@flaunchgg≈24706。",
+      "whyWatch": "Base 差异化发射机制（Play to Buy），盯新币窗与创作者分成路径。",
+      "background": "Flaunch（@flaunchgg）由 @FlayerLabs 构建的 Base 代币发射协议，主打 Play to Buy、固定价公平发射与 ETH 创作者收入。",
+      "risk": "已上线协议仍高风险；只认官推/官站；智能合约与玩法需自验，DYOR。",
+      "links": {
+        "x": "https://x.com/flaunchgg",
+        "site": "https://flaunch.gg",
+        "website": "https://flaunch.gg",
+        "docs": "https://docs.flaunch.gg/"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "phases": [
+          {
+            "name": "Launchpad live",
+            "note": "协议已上；持续发射"
+          }
+        ],
+        "source": "@flaunchgg",
+        "note": "手动收录 mid-R82"
+      },
+      "onchain": {
+        "chainId": "base",
+        "contract": null,
+        "standard": null,
+        "mintStatus": "live",
+        "lastCheckedAt": "2026-10-16T19:50:31+08:00",
+        "note": "Base launch protocol；具体币以官推为准"
+      },
+      "social": {
+        "xFollowers": 24706,
+        "lastCheckedAt": "2026-10-16T19:50:31+08:00"
+      },
+      "flag": "本轮新",
+      "round": 82,
+      "firstSeen": "2026-10-16T19:50:31+08:00",
+      "addedAt": "2026-10-16T19:50:31+08:00",
+      "newThisRound": true
+    },
+    {
+      "id": "onepumpcc",
+      "name": "OnePump",
+      "category": "新台",
+      "chain": "Canton",
+      "status": "upcoming",
+      "mintStatus": "waitlist",
+      "riskLevel": "critical",
+      "tags": [
+        "新台",
+        "Launchpad",
+        "Meme",
+        "Canton",
+        "OneSwap",
+        "anti-snipe",
+        "极早期"
+      ],
+      "scores": {
+        "early": 9,
+        "actionable": 7,
+        "novelty": 9,
+        "risk": 9,
+        "composite": 8.5,
+        "overall": 8.5
+      },
+      "earlyScore": 9,
+      "riskScore": 9,
+      "highlights": [
+        "自称 Canton 首个 meme launchpad（OneSwap 团队）",
+        "无 mempool 反狙击 + LP 锁定毕业到 OneSwap",
+        "@onepumpcc≈1453；waitlist.oneswap.cc"
+      ],
+      "drawbacks": [
+        "仍 waitlist，主网开板时间未锁",
+        "极早期粉少，文档/法律披露有限"
+      ],
+      "whatsNew": "手动收录：Canton meme launchpad waitlist；@onepumpcc≈1453；站 waitlist.oneswap.cc。",
+      "whyWatch": "Canton 首个 meme 台叙事 + 协议级反 rug/反狙击，盯开板与首发。",
+      "background": "OnePump（@onepumpcc）自称 The first memecoin launchpad on Canton Network，Built by @OneSwapCC；bonding-curve 后毕业锁定流动性到 OneSwap。",
+      "risk": "极早期 waitlist；未充分审计；只认官推/waitlist 站，DYOR。",
+      "links": {
+        "x": "https://x.com/onepumpcc",
+        "site": "http://waitlist.oneswap.cc",
+        "website": "http://waitlist.oneswap.cc"
+      },
+      "schedule": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "phases": [
+          {
+            "name": "Waitlist",
+            "note": "waitlist.oneswap.cc；开板 TBA"
+          }
+        ],
+        "source": "@onepumpcc",
+        "note": "手动收录 mid-R82：waitlist"
+      },
+      "onchain": {
+        "chainId": "canton",
+        "contract": null,
+        "standard": null,
+        "mintStatus": "waitlist",
+        "lastCheckedAt": "2026-10-16T19:50:31+08:00",
+        "note": "waitlist；合约未核验"
+      },
+      "social": {
+        "xFollowers": 1453,
+        "lastCheckedAt": "2026-10-16T19:50:31+08:00"
+      },
+      "flag": "本轮新",
+      "round": 82,
+      "firstSeen": "2026-10-16T19:50:31+08:00",
+      "addedAt": "2026-10-16T19:50:31+08:00",
+      "newThisRound": true
     }
   ]
 }
