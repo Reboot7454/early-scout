@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-16 11:53 CST",
+    "updated": "2026-10-16 12:04 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "rounds 1–51 · Trencher/OS/X/DeepSeek",
-    "lastScout": "2026-10-16T11:53:32+08:00",
+    "source": "rounds 1–52 · Trencher/OS/X/DeepSeek",
+    "lastScout": "2026-10-16T12:04:45+08:00",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -45,7 +45,7 @@
         "sushi-oft-rh",
         "zeromeme-fun"
       ],
-      "note": "Round51：近窗仍未见Zero/ATLAS消费端新mint；ProgrammableHQ@22:34Z暂停新发射约12h至≈18:34 CST仍有效（未见解除发帖）；本轮新收录odd-in-game,vaultlingse,astropaws。"
+      "note": "Round52：近窗仍未见Zero/ATLAS消费端新mint；ProgrammableHQ@22:34Z暂停新发射约12h至≈18:34 CST仍有效（未见解除发帖）；本轮新收录yawuin-beads,cue-agents,mood-pig。"
     },
     "round5Added": [
       "farming-season",
@@ -189,8 +189,8 @@
         "hashlings",
         "gpu-game"
       ],
-      "note": "Round51：挖矿栏例行点检；ink-miners≈18:10 FREE窗提醒；无新GPU矿币信号。",
-      "lastChecked": "2026-10-16T11:53:32+08:00"
+      "note": "Round52：挖矿栏例行点检；ink-miners≈18:10 FREE窗提醒；mining-systems closes≈19:26 CST；无新GPU矿币信号。",
+      "lastChecked": "2026-10-16T12:04:45+08:00"
     },
     "round20Added": [
       "blox-miners",
@@ -341,7 +341,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 51,
+    "round": 52,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -374,9 +374,212 @@
       "odd-in-game",
       "vaultlingse",
       "astropaws"
+    ],
+    "round52Added": [
+      "yawuin-beads",
+      "cue-agents",
+      "mood-pig"
     ]
   },
   "candidates": [
+    {
+      "id": "mood-pig",
+      "name": "Mood Pig",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "riskLevel": "high",
+      "flag": "本轮新",
+      "tags": [
+        "RH",
+        "LIVE",
+        "本轮新"
+      ],
+      "whyWatch": "中等填充率的RH链Meme NFT，适合作为组合中的中风险早期观察标的。",
+      "background": "中等填充率的RH链Meme NFT，适合作为组合中的中风险早期观察标的。",
+      "risk": "粉丝958规模偏小，社区热度一般；Meme类NFT同质化严重，缺乏差异化亮点",
+      "links": {
+        "x": "https://x.com/MoodPig22",
+        "mint": "https://opensea.io/collection/mood-pig",
+        "site": "https://opensea.io/collection/mood-pig",
+        "signal": "https://robin-xp.com/live-mints"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "endsAt": "2026-11-04T03:20:00Z",
+        "phases": [],
+        "source": "robin-xp.com/live-mints",
+        "note": "LIVE ~$0.27；~882/2200；至11-04；@MoodPig22。"
+      },
+      "onchain": {
+        "chainId": "robinhood",
+        "standard": "erc721",
+        "mintStatus": "open",
+        "minted": 882,
+        "maxSupply": 2200,
+        "lastCheckedAt": "2026-10-16T12:04:45+08:00",
+        "explorer": "https://opensea.io/collection/mood-pig",
+        "note": "LIVE ~$0.27；~882/2200。"
+      },
+      "highlights": [
+        "RH链NFT，40%填充仍处早期区间",
+        "价格约$0.268适中，截止2026-11-04窗口长",
+        "官方X已验证，官帖活跃"
+      ],
+      "drawbacks": [
+        "粉丝958规模偏小，社区热度一般",
+        "Meme类NFT同质化严重，缺乏差异化亮点"
+      ],
+      "whatsNew": "本轮新进入雷达视野，填充率约40%仍具早期参与空间。",
+      "scores": {
+        "early": 72,
+        "actionable": 78,
+        "novelty": 55,
+        "risk": 62,
+        "overall": 66
+      },
+      "round": 52,
+      "earlyScore": 72,
+      "riskScore": 62,
+      "status": "live",
+      "mintStatus": "open",
+      "firstSeen": "2026-10-16T12:04:45+08:00",
+      "addedAt": "2026-10-16T12:04:45+08:00",
+      "newThisRound": true
+    },
+    {
+      "id": "cue-agents",
+      "name": "Cue Agents",
+      "category": "新台",
+      "chain": "Robinhood Chain",
+      "riskLevel": "high",
+      "flag": "本轮新",
+      "tags": [
+        "AI发射",
+        "Robinhood",
+        "Agent",
+        "本轮新",
+        "新台"
+      ],
+      "whyWatch": "AI agent+Robinhood链组合叙事，若官方进一步确认代币进展可能快速升温。",
+      "background": "AI agent+Robinhood链组合叙事，若官方进一步确认代币进展可能快速升温。",
+      "risk": "代币信息主要来自第三方，官方确认度不足；AI agent赛道竞争激烈，落地与持续性存疑",
+      "links": {
+        "x": "https://x.com/CueAgents",
+        "site": "https://x.com/CueAgents",
+        "signal": "https://x.com/CueAgents/status/2110940421916401830"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "phases": [
+          {
+            "name": "Agents on Robinhood",
+            "note": "官帖 2026-10-16：可将 Cue agents 带进 Robinhood"
+          }
+        ],
+        "source": "@CueAgents",
+        "note": "AI agent；官帖宣布可进 Robinhood；$CUE 第三方称 pons 毕业（未作官方确认）。"
+      },
+      "onchain": {
+        "chainId": "robinhood",
+        "mintStatus": "n/a",
+        "lastCheckedAt": "2026-10-16T12:04:45+08:00",
+        "note": "代币进展以官推为准；第三方提及 pons/$CUE。"
+      },
+      "highlights": [
+        "AI agent叙事结合Robinhood链，概念新颖",
+        "官方X粉丝9680，社区基础相对扎实",
+        "第三方称$CUE已在pons launchpad毕业进入v4池，具阶段性里程碑"
+      ],
+      "drawbacks": [
+        "代币信息主要来自第三方，官方确认度不足",
+        "AI agent赛道竞争激烈，落地与持续性存疑"
+      ],
+      "whatsNew": "本轮新出现$CUE在pons launchpad毕业并进入v4池的第三方消息。",
+      "scores": {
+        "early": 82,
+        "actionable": 70,
+        "novelty": 80,
+        "risk": 68,
+        "overall": 74
+      },
+      "round": 52,
+      "earlyScore": 82,
+      "riskScore": 68,
+      "status": "live",
+      "mintStatus": "n/a",
+      "firstSeen": "2026-10-16T12:04:45+08:00",
+      "addedAt": "2026-10-16T12:04:45+08:00",
+      "newThisRound": true
+    },
+    {
+      "id": "yawuin-beads",
+      "name": "Yawuin Beads",
+      "category": "NFT",
+      "chain": "Robinhood Chain",
+      "riskLevel": "high",
+      "flag": "本轮新",
+      "tags": [
+        "RH",
+        "低价",
+        "LIVE",
+        "极早期",
+        "本轮新"
+      ],
+      "whyWatch": "极低单价+低填充率的RH链NFT，适合作为早期打新雷达的低成本埋伏标的。",
+      "background": "极低单价+低填充率的RH链NFT，适合作为早期打新雷达的低成本埋伏标的。",
+      "risk": "粉丝仅209，社区规模小，热度与传播力有限；NFT项目同质化较高，缺乏明确长期效用叙事",
+      "links": {
+        "x": "https://x.com/yawuinbeadsNFT",
+        "mint": "https://opensea.io/collection/yawuin-beads",
+        "site": "https://opensea.io/collection/yawuin-beads",
+        "signal": "https://robin-xp.com/live-mints"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "endsAt": "2026-10-21T18:00:00Z",
+        "phases": [],
+        "source": "robin-xp.com/live-mints + @yawuinbeadsNFT",
+        "note": "LIVE ~$0.0097；~938/5000；至10-21 18:00 UTC；@yawuinbeadsNFT。"
+      },
+      "onchain": {
+        "chainId": "robinhood",
+        "standard": "erc721",
+        "mintStatus": "open",
+        "minted": 938,
+        "maxSupply": 5000,
+        "lastCheckedAt": "2026-10-16T12:04:45+08:00",
+        "explorer": "https://opensea.io/collection/yawuin-beads",
+        "note": "LIVE ~$0.0097；~938/5000。"
+      },
+      "highlights": [
+        "RH链上极早期mint，仅19%填充，价格约$0.0097极低",
+        "官方X已验证且官帖确认mint live again public",
+        "距截止2026-10-21仍有充足窗口，可从容参与"
+      ],
+      "drawbacks": [
+        "粉丝仅209，社区规模小，热度与传播力有限",
+        "NFT项目同质化较高，缺乏明确长期效用叙事"
+      ],
+      "whatsNew": "本轮新确认官方再次开放public mint，填充率仍处19%低位。",
+      "scores": {
+        "early": 88,
+        "actionable": 90,
+        "novelty": 62,
+        "risk": 55,
+        "overall": 78
+      },
+      "round": 52,
+      "earlyScore": 88,
+      "riskScore": 55,
+      "status": "live",
+      "mintStatus": "open",
+      "firstSeen": "2026-10-16T12:04:45+08:00",
+      "addedAt": "2026-10-16T12:04:45+08:00",
+      "newThisRound": true
+    },
     {
       "id": "mythics",
       "name": "Mythics",
@@ -407,7 +610,7 @@
         "endsAt": null,
         "phases": [],
         "source": "robin-xp.com/live-mints",
-        "note": "LIVE ~$7.32；仅~2/100极早；至11-14；@mythicsnfts~1.8k粉。"
+        "note": "续更：LIVE ~$7.32；仅~2/100极早；至11-14；@mythicsnfts。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -417,7 +620,7 @@
         "minted": 2,
         "totalSupply": 2,
         "maxSupply": 100,
-        "lastCheckedAt": "2026-10-16T11:53:32+08:00",
+        "lastCheckedAt": "2026-10-16T12:04:45+08:00",
         "explorer": "https://opensea.io/collection/mythics",
         "note": "Mythics仍LIVE ~$7；仅~2/100。"
       },
@@ -432,7 +635,7 @@
         "非FREE",
         "AI生成同质风险"
       ],
-      "whatsNew": "续更：Mythics仍LIVE ~$7；仅~2/100。",
+      "whatsNew": "续更：LIVE ~$7.32；仅~2/100极早；至11-14；@mythicsnfts。",
       "scores": {
         "early": 92,
         "actionable": 55,
@@ -479,7 +682,7 @@
         "endsAt": null,
         "phases": [],
         "source": "robin-xp.com/live-mints",
-        "note": "LIVE ~$0.11；~24/800极早期；至10-24；@OddlingsNFT_~1.3k粉。"
+        "note": "续更：LIVE ~$0.11；~24/800极早期；至10-24；@OddlingsNFT_。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -489,7 +692,7 @@
         "minted": 24,
         "totalSupply": 24,
         "maxSupply": 800,
-        "lastCheckedAt": "2026-10-16T11:53:32+08:00",
+        "lastCheckedAt": "2026-10-16T12:04:45+08:00",
         "explorer": "https://opensea.io/collection/oddlings-cats",
         "note": "Oddlings Cats仍LIVE ~$0.11；~24/800极早期。"
       },
@@ -504,7 +707,7 @@
         "品牌辨识度一般",
         "粉量中等"
       ],
-      "whatsNew": "续更：Oddlings Cats仍LIVE ~$0.11；~24/800极早期。",
+      "whatsNew": "续更：LIVE ~$0.11；~24/800极早期；至10-24；@OddlingsNFT_。",
       "scores": {
         "early": 88,
         "actionable": 82,
@@ -551,7 +754,7 @@
         "endsAt": null,
         "phases": [],
         "source": "robin-xp.com/live-mints",
-        "note": "LIVE ~$0.24；~144/333；至10-17 15:00 UTC；@pumpynft~1.9k粉。"
+        "note": "续更：LIVE ~$0.24；~144/333；至10-17 15:00 UTC；@pumpynft。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -561,7 +764,7 @@
         "minted": 144,
         "totalSupply": 144,
         "maxSupply": 333,
-        "lastCheckedAt": "2026-10-16T11:53:32+08:00",
+        "lastCheckedAt": "2026-10-16T12:04:45+08:00",
         "explorer": "https://opensea.io/collection/goblinz-286657148",
         "note": "Goblinz仍LIVE ~$0.24；~144/333。"
       },
@@ -576,7 +779,7 @@
         "Goblin题材同质化",
         "阶段关闭时间以OS为准"
       ],
-      "whatsNew": "续更：Goblinz仍LIVE ~$0.24；~144/333。",
+      "whatsNew": "续更：LIVE ~$0.24；~144/333；至10-17 15:00 UTC；@pumpynft。",
       "scores": {
         "early": 78,
         "actionable": 80,
@@ -2441,7 +2644,7 @@
         "SI Agent 叙事模糊，实际效用与需求未经验证",
         "极低流动性易导致滑点巨大与退出困难"
       ],
-      "whatsNew": "续更：RUBBY SI ~7/777。",
+      "whatsNew": "续更：RUBBY SI ~7/777 @~$0.93 仍极早期。",
       "links": {
         "x": "https://x.com/siidentity",
         "opensea": "https://opensea.io/collection/rubby-si",
@@ -2461,7 +2664,7 @@
           }
         ],
         "source": "@siidentity + OpenSea",
-        "note": "续更：RUBBY SI FCFS ~7/777（0.00038 ETH）仍极早期。"
+        "note": "续更：RUBBY SI ~7/777 @~$0.93 仍极早期。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -2471,7 +2674,7 @@
         "minted": 7,
         "totalSupply": 7,
         "maxSupply": 777,
-        "lastCheckedAt": "2026-10-16T11:53:32+08:00",
+        "lastCheckedAt": "2026-10-16T12:04:45+08:00",
         "explorer": "https://opensea.io/collection/rubby-si",
         "note": "RUBBY SI ~7/777。"
       }
@@ -2580,7 +2783,7 @@
         "团队匿名且偏免费铸造模式，尽调信息有限",
         "核心 Hook 尚未过审，功能与代币经济仍不确定"
       ],
-      "whatsNew": "续更：KEYLESS；ProgrammableHQ暂停新发射约至18:34 CST（10-15 22:34Z+12h）；未见解除发帖。",
+      "whatsNew": "续更：KEYLESS；ProgrammableHQ暂停仍至≈18:34 CST；未见解除发帖。",
       "links": {
         "x": "https://x.com/keylesseth",
         "site": "https://keylesseth.xyz",
@@ -2600,7 +2803,7 @@
           }
         ],
         "source": "@keylesseth",
-        "note": "ProgrammableHQ暂停新发射约至18:34 CST（10-15 22:34Z+12h）；未见解除发帖。"
+        "note": "ProgrammableHQ暂停新发射约至≈18:34 CST（10-15 22:34Z+12h）；未见解除发帖。"
       },
       "onchain": {
         "chainId": "ethereum",
@@ -4438,7 +4641,7 @@
         "规则以官推为准，防假报名页",
         "正式 mint 时刻未在文案中锁死"
       ],
-      "whatsNew": "提醒：UNITS 名单今日截止（官帖 Oct 16）；刷票多，只走官链。",
+      "whatsNew": "续更：UNITS名单今日截止提醒仍有效；刷票多，只走官链。",
       "scores": {
         "early": 71,
         "risk": 68,
@@ -5546,7 +5749,7 @@
           }
         ],
         "source": "neverfuckingtrade.com",
-        "note": "PUBLIC FREE仍LIVE；~887/4444。"
+        "note": "续更：PUBLIC FREE仍LIVE；~889/4444。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -5557,7 +5760,7 @@
         "totalSupply": 889,
         "maxSupply": 4444,
         "minted": 889,
-        "lastCheckedAt": "2026-10-16T11:53:32+08:00",
+        "lastCheckedAt": "2026-10-16T12:04:45+08:00",
         "explorer": "https://opensea.io/collection/tickertapes-signal-worlds",
         "note": "TickerTapes FREE ~889/4444。"
       },
@@ -5571,7 +5774,7 @@
         "仿盘/假 mint 多，只认官站合约",
         "RH 新合集流动性可能极薄"
       ],
-      "whatsNew": "续更：TickerTapes FREE ~889/4444。",
+      "whatsNew": "续更：PUBLIC FREE仍LIVE；~889/4444。",
       "scores": {
         "early": 90,
         "risk": 68,
@@ -5834,7 +6037,7 @@
           }
         ],
         "source": "neverfuckingtrade.com + OpenSea",
-        "note": "WL窗已过；PUBLIC仍LIVE ~2500/7777 @0.001777 ETH。"
+        "note": "续更：PUBLIC仍LIVE ~2500/7777 @0.001777 ETH。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -5845,7 +6048,7 @@
         "totalSupply": 2500,
         "maxSupply": 7777,
         "minted": 2500,
-        "lastCheckedAt": "2026-10-16T11:53:32+08:00",
+        "lastCheckedAt": "2026-10-16T12:04:45+08:00",
         "explorer": "https://opensea.io/collection/hoodpoker",
         "note": "HoodPoker ~2.5K/7.8K。"
       },
@@ -5859,7 +6062,7 @@
         "FREE项目质量参差",
         "已铸1856占比不低"
       ],
-      "whatsNew": "续更：HoodPoker ~2.5K/7.8K。",
+      "whatsNew": "续更：PUBLIC仍LIVE ~2500/7777 @0.001777 ETH。",
       "scores": {
         "early": 85,
         "actionable": 90,
@@ -7366,7 +7569,7 @@
           }
         ],
         "source": "neverfuckingtrade.com + @pixellpunks",
-        "note": "供应：PixelPunks ~6710/10000（上轮~6668）。"
+        "note": "续更：PixelPunks ~7100/10000（上轮~7100）。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -7377,7 +7580,7 @@
         "totalSupply": 7100,
         "maxSupply": 10000,
         "minted": 7100,
-        "lastCheckedAt": "2026-10-16T11:53:32+08:00",
+        "lastCheckedAt": "2026-10-16T12:04:45+08:00",
         "explorer": "https://opensea.io/collection/pixelpunks-865451217",
         "note": "PixelPunks ~7.1K/10K。"
       },
@@ -7390,7 +7593,7 @@
         "供应大稀释",
         "质量/官推需自验"
       ],
-      "whatsNew": "续更：PixelPunks ~7.1K/10K。",
+      "whatsNew": "续更：PixelPunks ~7100/10000（上轮~7100）。",
       "scores": {
         "early": 72,
         "risk": 75,
@@ -8357,7 +8560,7 @@
           }
         ],
         "source": "neverfuckingtrade.com + @DogByte_Hood",
-        "note": "PUBLIC LIVE；Trencher~711/1234 @0.000033。"
+        "note": "续更：PUBLIC LIVE；~716/1234。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -8367,7 +8570,7 @@
         "minted": 716,
         "totalSupply": 716,
         "maxSupply": 1234,
-        "lastCheckedAt": "2026-10-16T11:53:32+08:00",
+        "lastCheckedAt": "2026-10-16T12:04:45+08:00",
         "explorer": "https://opensea.io/collection/dogbyte-126799736",
         "note": "DogByte ~716/1234。"
       },
@@ -8378,7 +8581,7 @@
       "drawbacks": [
         "粉量极低，风险高"
       ],
-      "whatsNew": "续更：DogByte ~716/1234。",
+      "whatsNew": "续更：PUBLIC LIVE；~716/1234。",
       "scores": {
         "early": 82,
         "risk": 78,
@@ -9776,7 +9979,7 @@
           }
         ],
         "source": "@0xMiningSystems + robin-xp.com/live-mints",
-        "note": "CHARGE CELLS仍LIVE；closes≈19:26 CST；~1100/4000。"
+        "note": "续更：CHARGE CELLS仍LIVE；closes≈19:26 CST；~1100/4000。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -9785,7 +9988,7 @@
         "mintStatus": "open",
         "minted": 1100,
         "maxSupply": 4000,
-        "lastCheckedAt": "2026-10-16T11:53:32+08:00",
+        "lastCheckedAt": "2026-10-16T12:04:45+08:00",
         "note": "MINING SYSTEMS ~1.1K/4K；阶段约至今日19:26 CST。",
         "totalSupply": 1100
       },
@@ -9801,7 +10004,7 @@
         "需自验奖池与合约",
         "土狗矿机叙事极高风险"
       ],
-      "whatsNew": "续更：MINING SYSTEMS ~1.1K/4K；阶段约至今日19:26 CST。",
+      "whatsNew": "续更：CHARGE CELLS仍LIVE；closes≈19:26 CST；~1100/4000。",
       "scores": {
         "early": 55,
         "risk": 85,
@@ -10177,14 +10380,14 @@
         "反作弊审核中，误伤/延迟提现可能",
         "依赖 GPS 与地图活跃度，可玩性波动大"
       ],
-      "whatsNew": "续更：PumpGO监控中；官推仍披露881km/1945币/~$9107 $PUMP；无新mint窗。",
+      "whatsNew": "续更：PumpGO仍在处理作弊/GPS审核；本轮无新开售证据。",
       "links": {
         "x": "https://x.com/PumpGOWorld",
         "site": "https://pumpgo.world"
       },
       "schedule": {
         "status": "live",
-        "note": "PumpGO本轮无新开售证据；仍在处理作弊/GPS审核。"
+        "note": "续更：PumpGO仍在处理作弊/GPS审核；本轮无新开售证据。"
       },
       "onchain": {
         "status": "watch",
@@ -10233,7 +10436,7 @@
         "美股代币化与监管不确定性",
         "$GO 波动大；需自验 CA HXQ66…391"
       ],
-      "whatsNew": "续更：Stokn监控中，本轮无新开售证据。",
+      "whatsNew": "续更：Stokn本轮无新开售证据。",
       "links": {
         "x": "https://x.com/stoknapp",
         "site": "https://stokn.fun"
@@ -10255,14 +10458,13 @@
       "category": "NFT",
       "chain": "Robinhood Chain",
       "riskLevel": "high",
-      "flag": "本轮新",
+      "flag": null,
       "tags": [
         "RH",
         "低价",
         "小盘",
         "LIVE",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "whyWatch": "游戏角色品牌加Robinhood低价mint，若社区发酵可能快速售罄。",
       "background": "游戏角色品牌加Robinhood低价mint，若社区发酵可能快速售罄。",
@@ -10280,7 +10482,7 @@
         "endsAt": "2026-11-14T03:20:00Z",
         "phases": [],
         "source": "robin-xp.com/live-mints",
-        "note": "LIVE ~$0.15；~92/888；至11-14；@ODD_SYNDICATE。"
+        "note": "续更：LIVE ~$0.15；~92/888；至11-14；@ODD_SYNDICATE。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -10290,7 +10492,7 @@
         "minted": 92,
         "totalSupply": 92,
         "maxSupply": 888,
-        "lastCheckedAt": "2026-10-16T11:53:32+08:00",
+        "lastCheckedAt": "2026-10-16T12:04:45+08:00",
         "explorer": "https://opensea.io/collection/odd-in-game",
         "note": "LIVE ~$0.15；~92/888；至11-14；@ODD_SYNDICATE。"
       },
@@ -10303,7 +10505,7 @@
         "付费mint降低可操作性",
         "官方粉丝仅2.6k，热度有限"
       ],
-      "whatsNew": "本轮新：Robinhood LIVE低价mint，888总量已mint约10%，11月14日截止。",
+      "whatsNew": "续更：LIVE ~$0.15；~92/888；至11-14；@ODD_SYNDICATE。",
       "scores": {
         "early": 88,
         "actionable": 62,
@@ -10318,7 +10520,7 @@
       "mintStatus": "open",
       "firstSeen": "2026-10-16T11:53:32+08:00",
       "addedAt": "2026-10-16T11:53:32+08:00",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "vaultlingse",
@@ -10326,14 +10528,13 @@
       "category": "NFT",
       "chain": "Robinhood Chain",
       "riskLevel": "high",
-      "flag": "本轮新",
+      "flag": null,
       "tags": [
         "RH",
         "低价",
         "小盘",
         "LIVE",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "whyWatch": "总量适中且截止较早，若短期mint加速可能有波段机会。",
       "background": "总量适中且截止较早，若短期mint加速可能有波段机会。",
@@ -10351,7 +10552,7 @@
         "endsAt": "2026-10-21T11:00:00Z",
         "phases": [],
         "source": "robin-xp.com/live-mints",
-        "note": "LIVE ~$0.24；~250/1100；至10-21；@vaultpunkss。"
+        "note": "续更：LIVE ~$0.24；~250/1100；至10-21；@vaultpunkss。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -10361,7 +10562,7 @@
         "minted": 250,
         "totalSupply": 250,
         "maxSupply": 1100,
-        "lastCheckedAt": "2026-10-16T11:53:32+08:00",
+        "lastCheckedAt": "2026-10-16T12:04:45+08:00",
         "explorer": "https://opensea.io/collection/vaultlingse",
         "note": "LIVE ~$0.24；~250/1100；至10-21；@vaultpunkss。"
       },
@@ -10374,7 +10575,7 @@
         "官方粉丝仅335，社区基础薄弱",
         "付费mint且单价偏高，行动性一般"
       ],
-      "whatsNew": "本轮新：Robinhood LIVE街头角色mint，1100总量已mint约23%，10月21日截止。",
+      "whatsNew": "续更：LIVE ~$0.24；~250/1100；至10-21；@vaultpunkss。",
       "scores": {
         "early": 72,
         "actionable": 58,
@@ -10389,7 +10590,7 @@
       "mintStatus": "open",
       "firstSeen": "2026-10-16T11:53:32+08:00",
       "addedAt": "2026-10-16T11:53:32+08:00",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "astropaws",
@@ -10397,13 +10598,12 @@
       "category": "NFT",
       "chain": "Robinhood Chain",
       "riskLevel": "high",
-      "flag": "本轮新",
+      "flag": null,
       "tags": [
         "RH",
         "低价",
         "LIVE",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "whyWatch": "太空猫题材加Robinhood低价mint，截止临近可能带来冲刺mint。",
       "background": "太空猫题材加Robinhood低价mint，截止临近可能带来冲刺mint。",
@@ -10421,7 +10621,7 @@
         "endsAt": "2026-10-16T17:00:00Z",
         "phases": [],
         "source": "robin-xp.com/live-mints",
-        "note": "LIVE ~$0.20；~184/5000；阶段约至10-16 17:00 UTC；@AstroPAWsNFT。"
+        "note": "续更：LIVE ~$0.20；~184/5000；阶段约至10-16 17:00 UTC；@AstroPAWsNFT。"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -10431,7 +10631,7 @@
         "minted": 184,
         "totalSupply": 184,
         "maxSupply": 5000,
-        "lastCheckedAt": "2026-10-16T11:53:32+08:00",
+        "lastCheckedAt": "2026-10-16T12:04:45+08:00",
         "explorer": "https://opensea.io/collection/astropaws-nft",
         "note": "LIVE ~$0.20；~184/5000；阶段约至10-16 17:00 UTC；@AstroPAWsNFT。"
       },
@@ -10444,7 +10644,7 @@
         "总量5000偏大，稀缺性较弱",
         "付费mint且截止临近，操作窗口短"
       ],
-      "whatsNew": "本轮新：Robinhood LIVE太空猫mint，5000总量已mint约3.7%，约10月16日17:00 UTC截止。",
+      "whatsNew": "续更：LIVE ~$0.20；~184/5000；阶段约至10-16 17:00 UTC；@AstroPAWsNFT。",
       "scores": {
         "early": 80,
         "actionable": 60,
@@ -10459,7 +10659,7 @@
       "mintStatus": "open",
       "firstSeen": "2026-10-16T11:53:32+08:00",
       "addedAt": "2026-10-16T11:53:32+08:00",
-      "newThisRound": true
+      "newThisRound": false
     }
   ]
 }
