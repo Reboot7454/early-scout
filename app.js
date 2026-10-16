@@ -4,6 +4,7 @@
     category: "all",
     chain: "all",
     round: "all",
+    roundPage: null, // 0-based; null = auto (prefer newest page)
     layerzero: "all",
     miningFilter: "all", // unused for main; mining lives in panel
     miningTypeFilter: "all", // all | gpu-pow | nft-mutation | nft-miner | other
@@ -15,6 +16,9 @@
 
   const $ = (sel) => document.querySelector(sel);
   const $$ = (sel) => [...document.querySelectorAll(sel)];
+
+  /** Round filter chips per page (~1–1.5 rows; keeps vertical space down). */
+  const ROUND_PAGE_SIZE = 16;
 
   const RISK_RANK = {
     extreme: 4,
@@ -785,12 +789,37 @@
         label: `轮次 ${i + 1}`,
       })),
     ];
-    roundHost.innerHTML = rounds
+    const totalRoundPages = Math.max(1, Math.ceil(rounds.length / ROUND_PAGE_SIZE));
+    if (state.roundPage == null) {
+      // Prefer page that shows the selected round; otherwise newest rounds (last page).
+      if (state.round !== "all") {
+        const idx = rounds.findIndex((r) => r.id === String(state.round));
+        state.roundPage =
+          idx >= 0 ? Math.floor(idx / ROUND_PAGE_SIZE) : totalRoundPages - 1;
+      } else {
+        state.roundPage = totalRoundPages - 1;
+      }
+    }
+    state.roundPage = Math.max(0, Math.min(state.roundPage, totalRoundPages - 1));
+    const roundStart = state.roundPage * ROUND_PAGE_SIZE;
+    const pageRounds = rounds.slice(roundStart, roundStart + ROUND_PAGE_SIZE);
+    roundHost.innerHTML = pageRounds
       .map(
         (c) =>
           `<button type="button" class="chip ${state.round === c.id ? "active" : ""}" data-group="round" data-value="${c.id}">${c.label}</button>`
       )
       .join("");
+    const pager = $("#round-pager");
+    const prevBtn = $("#round-prev");
+    const nextBtn = $("#round-next");
+    const pageLabel = $("#round-page-label");
+    if (pager && prevBtn && nextBtn && pageLabel) {
+      const showPager = totalRoundPages > 1;
+      pager.hidden = !showPager;
+      pageLabel.textContent = `${state.roundPage + 1}/${totalRoundPages}`;
+      prevBtn.disabled = state.roundPage <= 0;
+      nextBtn.disabled = state.roundPage >= totalRoundPages - 1;
+    }
 
     if (schedHost) {
       const soonN = state.data.candidates.filter((c) => hasTwitter(c) && within24h(c)).length;
@@ -1011,6 +1040,15 @@
       if (zoneBtn) {
         const panel = document.getElementById(zoneBtn.dataset.jumpZone);
         if (panel) panel.scrollIntoView({ behavior: "instant", block: "start" });
+        return;
+      }
+
+      const pageBtn = e.target.closest("[data-round-page]");
+      if (pageBtn) {
+        const dir = pageBtn.dataset.roundPage;
+        if (dir === "prev" && !pageBtn.disabled) state.roundPage = (state.roundPage || 0) - 1;
+        if (dir === "next" && !pageBtn.disabled) state.roundPage = (state.roundPage || 0) + 1;
+        renderChips();
         return;
       }
 

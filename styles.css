@@ -202,6 +202,57 @@ button.pill {
   margin-top: 12px;
 }
 
+.round-chips-wrap {
+  margin-top: 12px;
+}
+
+.round-chips-wrap > .chips {
+  margin-top: 0;
+  /* Cap to ~1.5–2 rows so narrow screens do not stack into many rows */
+  max-height: 5.5rem;
+  overflow: hidden;
+}
+
+.round-pager {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.round-page-btn {
+  border: 1px solid var(--border);
+  background: var(--chip);
+  color: var(--muted);
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  font-family: inherit;
+}
+
+.round-page-btn:hover:not(:disabled) {
+  color: var(--text);
+  border-color: rgba(148, 163, 184, 0.35);
+}
+
+.round-page-btn:disabled {
+  opacity: 0.38;
+  cursor: not-allowed;
+}
+
+.round-page-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--muted);
+  min-width: 2.75em;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
 .chip {
   border: 1px solid var(--border);
   background: var(--chip);

@@ -75,7 +75,14 @@
       <div class="chips" id="sched-chips" aria-label="日程筛选"></div>
       <div class="chips" id="cat-chips" aria-label="品类筛选"></div>
       <div class="chips" id="chain-chips" aria-label="链筛选"></div>
-      <div class="chips" id="round-chips" aria-label="轮次筛选"></div>
+      <div class="round-chips-wrap">
+        <div class="chips round-chips" id="round-chips" aria-label="轮次筛选"></div>
+        <div class="round-pager" id="round-pager" hidden>
+          <button type="button" class="round-page-btn" id="round-prev" data-round-page="prev">上一页</button>
+          <span class="round-page-label" id="round-page-label">1/1</span>
+          <button type="button" class="round-page-btn" id="round-next" data-round-page="next">下一页</button>
+        </div>
+      </div>
       <div class="chips" id="lz-chips" aria-label="LayerZero 筛选"></div>
       <p class="twitter-gate">筛选：至少有推特</p>
       <div class="stats-bar" id="stats"></div>
