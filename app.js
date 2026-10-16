@@ -1066,11 +1066,11 @@
       }
     }
     if (countEl) {
-      countEl.textContent = list.length === all.length ? String(list.length) : `${list.length}/${all.length}`;
+      countEl.textContent = String(list.length);
     }
     if (panel) {
-      // Hide strip entirely when dataset has no focus candidates; otherwise show empty hint under filters.
-      panel.hidden = all.length === 0;
+      // Always keep strip visible under search (user-requested placement); empty state if no focus items.
+      panel.hidden = false;
     }
     return { shown: list.length, total: all.length };
   }
