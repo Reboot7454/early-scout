@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-17 01:45 CST",
+    "updated": "2026-10-17 02:09 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "R111例行：清 evolut-fun 本轮新；新收录 grove-rh, hashmind-fun, oreon-fun；热单续更 tickapogee CA≈02:00CST / reefers TEAM≈03:00CST / pill-go LIVE / yorefun主网10-17 16:00UTC；oftpad仍台子不进LZ；Orbit Atlas RH NFT非LZ；五栏已扫。",
-    "lastScout": "2026-10-17 01:45 CST",
+    "source": "R112例行：清grove-rh/hashmind-fun/oreon-fun本轮新；新收录real-hood-people,armoreum,ape-blitz；热更tickapogee CA LIVE / reefers TEAM≈03:00CST / pill-go LIVE / yorefun主网10-17 16:00UTC；oftpad仍台子不进LZ；Armoreum进LZ栏（tag layerzero）；五栏已扫。",
+    "lastScout": "2026-10-17 02:09 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -347,7 +347,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 111,
+    "round": 112,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -730,6 +730,245 @@
   },
   "candidates": [
     {
+      "id": "ape-blitz",
+      "name": "ApeBlitz",
+      "category": "新台",
+      "scores": {
+        "early": 8.0,
+        "actionable": 3.0,
+        "novelty": 5.8,
+        "risk": 7.0,
+        "overall": 4.8,
+        "composite": 4.8
+      },
+      "highlights": [
+        "Solana 防 rug 发射台概念",
+        "bonding curve 毕业自动进 Raydium/Meteora",
+        "dev 不持池，机制设计偏安全",
+        "极早期，仅 devnet/testnet"
+      ],
+      "drawbacks": [
+        "仅测试网 live，主网未上线",
+        "粉丝仅约 16，几乎无关注度",
+        "发射台赛道竞争激烈",
+        "无代币或空投明确预期"
+      ],
+      "whatsNew": "本轮新：Solana防rug发射台；bonding→Raydium/Meteora；仅devnet；粉≈16；@ApeBlitz",
+      "chain": "Solana",
+      "tags": [
+        "launchpad",
+        "Solana",
+        "bonding-curve",
+        "testnet",
+        "新台",
+        "防rug"
+      ],
+      "links": {
+        "x": "https://x.com/ApeBlitz",
+        "website": "https://apeblitz.com",
+        "signal": "https://x.com/ApeBlitz/status/2111156889551790385"
+      },
+      "schedule": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "phases": [
+          {
+            "name": "Devnet live",
+            "note": "主网TBA；testnet可玩"
+          }
+        ],
+        "source": "@ApeBlitz",
+        "note": "仅测试网；盯主网窗口"
+      },
+      "social": {
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00",
+        "xFollowers": 16
+      },
+      "background": "Solana launchpad: buys fund on-chain curve; graduation auto-moves LP to Raydium/Meteora; verified/locked profiles.",
+      "whyWatch": "防rug曲线台极早期；目前仅devnet。",
+      "status": "watching",
+      "mintStatus": "upcoming",
+      "risk": "高·仅测试网/粉极少",
+      "riskLevel": "high",
+      "onchain": {
+        "chainId": "solana-devnet",
+        "mintStatus": "testnet",
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00",
+        "note": "devnet only"
+      },
+      "newThisRound": true,
+      "flag": "本轮新",
+      "round": 112,
+      "addedAt": "2026-10-17 02:09 CST",
+      "firstSeen": "2026-10-17 02:09 CST"
+    },
+    {
+      "id": "armoreum",
+      "name": "Armoreum",
+      "category": "新台",
+      "scores": {
+        "early": 8.8,
+        "actionable": 4.5,
+        "novelty": 6.0,
+        "risk": 8.2,
+        "overall": 5.2,
+        "composite": 5.2
+      },
+      "highlights": [
+        "今日新建，极早期",
+        "自称 LayerZero 驱动 RH↔ETH 双向桥",
+        "Launchpad 已上线，$ARMOR 双链部署",
+        "creator 私钥 hash 防护叙事有话题性"
+      ],
+      "drawbacks": [
+        "未独立核验 LZ 官方合约，真实性存疑",
+        "粉丝仅约 14，几乎无社区",
+        "发布 creator 私钥 hash 叙事风险极高",
+        "双链桥接安全性未经验证"
+      ],
+      "whatsNew": "本轮新：Launchpad+$ARMOR LIVE；自称@LayerZero_Core桥 RH↔ETH；粉≈14；@Armoreum",
+      "chain": "Robinhood",
+      "tags": [
+        "LayerZero",
+        "lz",
+        "launchpad",
+        "Robinhood",
+        "bridge",
+        "ARMOR",
+        "极早期"
+      ],
+      "links": {
+        "x": "https://x.com/Armoreum",
+        "signal": "https://x.com/Armoreum/status/2111154059277471927"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "phases": [
+          {
+            "name": "Launchpad live",
+            "note": "$ARMOR RH+ETH；桥自称LayerZero"
+          },
+          {
+            "name": "Bridge live",
+            "note": "RH↔ETH via LayerZero_Core（未独立核验）"
+          }
+        ],
+        "source": "@Armoreum",
+        "note": "LIVE；LZ相关进第五栏观察"
+      },
+      "social": {
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00",
+        "xFollowers": 14
+      },
+      "background": "Armoreum LayerZero-powered bridge + hash-based launchpad on Robinhood/ETH. Creator keys published by design.",
+      "whyWatch": "极早期自称 LayerZero 桥+发射台；需核验官方接入。",
+      "status": "watching",
+      "mintStatus": "live",
+      "risk": "极高·未核验LZ合约/发私钥叙事",
+      "riskLevel": "high",
+      "onchain": {
+        "chainId": "robinhood",
+        "contract": "0x0594692Ea1C2421b37DE06a5966084AC9aAd4eA9",
+        "mintStatus": "live",
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00",
+        "note": "RH CA + ETH 0x6a967dBea60Ca2050eB629551EEF63d21CaCf5D5；桥储备已贴"
+      },
+      "newThisRound": true,
+      "flag": "本轮新",
+      "round": 112,
+      "addedAt": "2026-10-17 02:09 CST",
+      "firstSeen": "2026-10-17 02:09 CST"
+    },
+    {
+      "id": "real-hood-people",
+      "name": "Real Hood People",
+      "category": "NFT",
+      "scores": {
+        "early": 7.2,
+        "actionable": 8.5,
+        "novelty": 5.5,
+        "risk": 6.0,
+        "overall": 7.0,
+        "composite": 7.0
+      },
+      "highlights": [
+        "Robinhood 生态 NFT，免费 Mint 门槛低",
+        "WL 持有人每钱包 4 张免费，成本可控",
+        "Mint 已开，站内 eligibility 可直接查",
+        "另有 2 USDG / 1 USDG 付费档位"
+      ],
+      "drawbacks": [
+        "粉丝仅约 247，社区体量极小",
+        "Robinhood NFT 生态流动性未知",
+        "免费 Mint 易被脚本刷量",
+        "缺乏后续赋能与路线图信息"
+      ],
+      "whatsNew": "本轮新：RH NFT Mint≈02:00CST已开；WL每钱包4张FREE；站内eligibility；粉≈247；@RealHoodPeople",
+      "chain": "Robinhood",
+      "tags": [
+        "NFT",
+        "Robinhood",
+        "free-mint",
+        "WL",
+        "打新",
+        "BRASS"
+      ],
+      "links": {
+        "x": "https://x.com/RealHoodPeople",
+        "website": "https://realhoodpeople.xyz",
+        "mint": "https://realhoodpeople.xyz",
+        "signal": "https://x.com/RealHoodPeople/status/2111125112208683326"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-16T18:00:00Z",
+        "phases": [
+          {
+            "name": "WL free mint",
+            "startsAt": "2026-10-16T18:00:00Z",
+            "price": "FREE",
+            "perWallet": 4,
+            "note": "持有指定RH合集"
+          },
+          {
+            "name": "Addresses",
+            "price": "2 USDG",
+            "note": "work for $BRASS"
+          },
+          {
+            "name": "The Fourth Bell",
+            "price": "1 USDG",
+            "note": "Staking Booster"
+          }
+        ],
+        "source": "@RealHoodPeople",
+        "note": "Mint LIVE≈02:00CST；顶栏日程"
+      },
+      "social": {
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00",
+        "xFollowers": 247
+      },
+      "background": "District 8888 on Robinhood Chain. Real Hood People mint + lore. Still here.",
+      "whyWatch": "RH 免费WL mint刚开；合集持有人每钱包4张。",
+      "status": "live",
+      "mintStatus": "live",
+      "risk": "高·粉丝小/免费mint刷量风险",
+      "riskLevel": "high",
+      "onchain": {
+        "chainId": "robinhood",
+        "mintStatus": "live",
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00",
+        "note": "站内mint；合约自称verified"
+      },
+      "newThisRound": true,
+      "flag": "本轮新",
+      "round": 112,
+      "addedAt": "2026-10-17 02:09 CST",
+      "firstSeen": "2026-10-17 02:09 CST"
+    },
+    {
       "id": "oreon-fun",
       "name": "OREON",
       "category": "挖矿",
@@ -793,7 +1032,7 @@
       "onchain": {
         "note": "CA in bio: 5vmJ9Pt1GuRNyRc7fZzpgE1nGpiL4dLA4kTzqNAr3RiY"
       },
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "round": 111,
       "addedAt": "2026-10-17 01:45 CST",
@@ -865,7 +1104,7 @@
       "onchain": {
         "note": "pad report: 8 agents, ~202 holders, 0.77 ETH creators paid"
       },
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "round": 111,
       "addedAt": "2026-10-17 01:45 CST",
@@ -936,7 +1175,7 @@
       "onchain": {
         "note": "CA 0xbbc699de2d3d8d97396de6708b7dd5b1bf0fb6ef (RH)"
       },
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "round": 111,
       "addedAt": "2026-10-17 01:45 CST",
@@ -1111,7 +1350,7 @@
       "firstSeen": "2026-10-17 01:15 CST",
       "links": {
         "x": "https://x.com/pillgoio",
-        "signal": "https://x.com/pillgoio/status/2111138906427343062"
+        "signal": "https://x.com/pillgoio/status/2111156906131914974"
       },
       "scores": {
         "early": 10,
@@ -1131,7 +1370,7 @@
         "链、合约、代币信息全部缺失，无法执行任何操作",
         "概念偏抽象，落地难度高，易沦为纯炒作"
       ],
-      "whatsNew": "官帖：pGO LIVE，地图已开；可钉币或走访44地标发射；自注80 SOL；粉→17；@pillgoio",
+      "whatsNew": "pGO地图仍LIVE；44地标/Legendary包；Proof of Walk；粉→41；@pillgoio",
       "whyWatch": "地图+发射台的玩法若真能落地，可能衍生出新的Meme发行范式，值得观察后续动作。",
       "risk": "零粉丝、单帖、无链无合约，信息极度匮乏，几乎无法验证真实性。",
       "riskLevel": "高",
@@ -1142,19 +1381,19 @@
         "phases": [
           {
             "name": "pGO live",
-            "note": "地图开放；pin / walk-to-launch"
+            "note": "地图开放；pin / walk-to-launch / Legendary packs"
           }
         ],
         "source": "@pillgoio",
         "note": "LIVE；GO盘可操作"
       },
       "social": {
-        "lastCheckedAt": "2026-10-17T01:45:56.390731+08:00",
-        "xFollowers": 17
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00",
+        "xFollowers": 41
       },
       "onchain": {
-        "lastCheckedAt": "2026-10-17T01:15:01.469407+08:00",
-        "note": "R109新收录"
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00",
+        "note": "地图LIVE续更"
       }
     },
     {
@@ -1647,7 +1886,7 @@
         "contract": "0x211c44e16928d46853356dd4b3448467a9f19959",
         "standard": "ERC20",
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-17T00:43:39.893320+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:46.235313+08:00",
         "note": "preMIRROR on PONS; verify via @Mirrortop_ only"
       }
     },
@@ -1838,7 +2077,7 @@
         "协议自承 BLAKE3 链核易做 ASIC，价值起来后硬件格局可能变",
         "Midwimble 侧链/合并挖仍「soon」，需质押 128 gMDS"
       ],
-      "whatsNew": "主网挖矿仍LIVE；Midwimble soon；粉→198；@cypherpunkgold",
+      "whatsNew": "社区：v4.2.0 native bond；下步RC SafeWord；主网目标10-31；粉→206；@cypherpunkgold",
       "whyWatch": "与 QTC/NOID 同属「后量子 GPU PoW L1」赛道，但算法是顺序 BLAKE3（非 Poseidon）；hobbyist/GPU 窗口仍在，且有 LuckyPool+钱包+交易所入口，适合盯算力与抛压。",
       "background": "Midstate（$MDS）· midstate.cash · 独立 L1：顺序 BLAKE3 PoW、60s ASERT、power-of-2 UTXO、commit-reveal mempool。创世锚定 BTC #938708（2026-02-24）。源码 ciphernom/midstate；浏览器 rpc.cypherpunk.gold；矿池 midstate.luckypool.io（lpminer CUDA）。官推 @cypherpunkgold（主页 midstate.cash；站内 @midstate_dev 404）。",
       "risk": "极早期单人项目；交易所深度浅；假池/假矿工与死链官推链接并存。只认 midstate.cash / @cypherpunkgold / LuckyPool 官方包。非投资建议。",
@@ -1866,8 +2105,8 @@
         "note": "链已 live；Midwimble soon（需bond 128gMDS）"
       },
       "social": {
-        "xFollowers": 201,
-        "lastCheckedAt": "2026-10-17T01:45:56.390731+08:00"
+        "xFollowers": 206,
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00"
       }
     },
     {
@@ -2471,7 +2710,7 @@
         "contract": "0x72D30216Aca893e3D4F54B35bcBf0d24EB483089",
         "standard": null,
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-17T00:31:21.836209+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:46.489719+08:00",
         "note": "RH bonding-curve LIVE；CA 0x72D30216Aca893e3D4F54B35bcBf0d24EB483089"
       },
       "social": {
@@ -2555,7 +2794,7 @@
         "standard": "ERC721",
         "mintStatus": "upcoming",
         "maxSupply": 10000,
-        "lastCheckedAt": "2026-10-17T00:31:22.136822+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:46.701870+08:00",
         "note": "OS≈0",
         "totalSupply": 0,
         "minted": 0,
@@ -2639,7 +2878,7 @@
         "standard": "ERC721",
         "mintStatus": "live",
         "maxSupply": 4444,
-        "lastCheckedAt": "2026-10-17T01:15:01.469407+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:46.913877+08:00",
         "note": "OS≈59; PoW NFT mint",
         "minted": 59,
         "totalSupply": 59,
@@ -2719,7 +2958,7 @@
         "contract": "0x232b6aa1b9fc6821e3a3183a51ea0f1b7c25970c",
         "standard": "ERC721",
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-17T01:15:01.469407+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:47.159816+08:00",
         "note": "OS≈399; WL mint LIVE",
         "minted": 399,
         "totalSupply": 399,
@@ -3106,7 +3345,7 @@
         "totalSupply": 678,
         "minted": 705,
         "maxSupply": null,
-        "lastCheckedAt": "2026-10-17T01:15:01.469407+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:47.416855+08:00",
         "note": "OS→705; mint窗",
         "owners": 93
       },
@@ -3266,7 +3505,7 @@
         "contract": "0x9d783133a3ff9ba27fa1605547368cf9a316341e",
         "standard": null,
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-17T00:31:23.283718+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:47.667200+08:00",
         "note": "官帖声称 V2 launchpad live"
       },
       "social": {
@@ -3348,8 +3587,8 @@
         "note": "无公开合约；开矿TBA"
       },
       "social": {
-        "xFollowers": 298,
-        "lastCheckedAt": "2026-10-17T01:45:56.390731+08:00"
+        "xFollowers": 299,
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00"
       },
       "newThisRound": false,
       "round": 111,
@@ -3392,7 +3631,7 @@
         "主网上线前仍不可用",
         "竞争台多"
       ],
-      "whatsNew": "官帖24h倒计时确认：主网仍10-17 16:00UTC；Get INJ ready；粉→784；@yorefun",
+      "whatsNew": "官帖24h倒计时：主网仍10-17 16:00UTC；Get INJ ready；粉→791；@yorefun",
       "whyWatch": "同类极早期链上发射台（Injective/Ink 风格 bonding fair-launch）；盯主网开台与首批发射。",
       "background": "yore.fun（@yorefun）自称 Injective 上 fair-launch bonding-curve 发射台：无预售、无团队配额，售罄毕业到 swap.yore.fun；已完成 testnet beta，官帖宣布周六 10-17 16:00 UTC 正式上线。",
       "risk": "极早期台子，合约/团队/LP毕业路径未充分核验；粉丝少，钓鱼号与改期风险高。",
@@ -3400,7 +3639,7 @@
         "x": "https://x.com/yorefun",
         "site": "https://yore.fun",
         "mint": "https://beta.yore.fun/",
-        "signal": "https://x.com/yorefun/status/2110823122417115160"
+        "signal": "https://x.com/yorefun/status/2111125080810070330"
       },
       "schedule": {
         "status": "upcoming",
@@ -3421,12 +3660,12 @@
         "contract": null,
         "standard": null,
         "mintStatus": "upcoming",
-        "lastCheckedAt": "2026-10-17T00:16:15.830695+08:00",
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00",
         "note": "Injective fair-launch pad；主网 10-17 16:00UTC"
       },
       "social": {
-        "xFollowers": 784,
-        "lastCheckedAt": "2026-10-17T01:45:56.390731+08:00"
+        "xFollowers": 791,
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00"
       },
       "newThisRound": false,
       "round": 111,
@@ -3666,7 +3905,7 @@
         "totalSupply": 3333,
         "minted": 3333,
         "maxSupply": 3333,
-        "lastCheckedAt": "2026-10-17T01:15:01.469407+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:47.926605+08:00",
         "note": "OS≈3333; Public FREE sold out",
         "owners": 1329
       },
@@ -3814,8 +4053,8 @@
         "note": "暂停已过仍无恢复帖"
       },
       "social": {
-        "xFollowers": 7889,
-        "lastCheckedAt": "2026-10-17T01:45:56.390731+08:00"
+        "xFollowers": 7890,
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00"
       }
     },
     {
@@ -4051,7 +4290,7 @@
         "mintStatus": "not_open",
         "minted": 0,
         "maxSupply": 3333,
-        "lastCheckedAt": "2026-10-17T00:31:23.980971+08:00"
+        "lastCheckedAt": "2026-10-17T02:07:48.171761+08:00"
       }
     },
     {
@@ -4776,7 +5015,7 @@
         "chainId": "robinhood",
         "contract": "0x0ae86967dfac39bf6dbc15b7e436a8c498c40937",
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-17T00:31:24.238572+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:48.419775+08:00",
         "note": "$PRAX via pons LIVE"
       },
       "highlights": [
@@ -4870,7 +5109,7 @@
         "mintStatus": "upcoming",
         "minted": 0,
         "maxSupply": 1000,
-        "lastCheckedAt": "2026-10-17T00:31:24.500761+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:48.664976+08:00",
         "explorer": "https://opensea.io/collection/holdingtime",
         "note": "仍0/1000。"
       },
@@ -4959,7 +5198,7 @@
         "mintStatus": "open",
         "minted": 0,
         "maxSupply": 2222,
-        "lastCheckedAt": "2026-10-17T00:31:27.597410+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:51.750401+08:00",
         "explorer": "https://opensea.io/collection/afterimage-ink",
         "note": "仍0/2222。",
         "totalSupply": 0
@@ -5110,7 +5349,7 @@
         "mintStatus": "upcoming",
         "minted": 0,
         "maxSupply": 2222,
-        "lastCheckedAt": "2026-10-17T00:31:27.876262+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:52.000441+08:00",
         "explorer": "https://opensea.io/collection/tree-of-life-595957485",
         "note": "仍0/2222。"
       },
@@ -5521,7 +5760,7 @@
         "minted": 144,
         "totalSupply": 144,
         "maxSupply": 333,
-        "lastCheckedAt": "2026-10-17T00:31:28.135410+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:52.255195+08:00",
         "explorer": "https://opensea.io/collection/goblinz-286657148",
         "note": "LIVE ~$0.24；144/333"
       },
@@ -5769,7 +6008,7 @@
         "maxSupply": 1111,
         "explorer": "https://opensea.io/collection/vorakel",
         "note": "Trencher 0/1111 warm",
-        "lastCheckedAt": "2026-10-17T00:31:28.452605+08:00"
+        "lastCheckedAt": "2026-10-17T02:07:52.502187+08:00"
       },
       "scores": {
         "early": 6,
@@ -5848,7 +6087,7 @@
         "maxSupply": 3333,
         "explorer": "https://opensea.io/collection/traveling-takoyaki",
         "note": "Trencher 0/3333 warm FREE",
-        "lastCheckedAt": "2026-10-17T00:31:28.662948+08:00"
+        "lastCheckedAt": "2026-10-17T02:07:52.750549+08:00"
       },
       "scores": {
         "early": 88,
@@ -6098,7 +6337,7 @@
         "maxSupply": 555,
         "explorer": "https://opensea.io/collection/cropz",
         "note": "Trencher 0/555；@CropzRH~83粉",
-        "lastCheckedAt": "2026-10-17T00:31:29.003318+08:00"
+        "lastCheckedAt": "2026-10-17T02:07:52.951086+08:00"
       },
       "scores": {
         "early": 94,
@@ -6227,7 +6466,7 @@
         "minted": 0,
         "totalSupply": 0,
         "maxSupply": 5555,
-        "lastCheckedAt": "2026-10-17T00:31:29.262976+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:53.196538+08:00",
         "explorer": "https://opensea.io/collection/arcade-hood",
         "note": "OS/Trencher 0/5555"
       },
@@ -6310,7 +6549,7 @@
         "minted": 0,
         "totalSupply": 0,
         "maxSupply": 555,
-        "lastCheckedAt": "2026-10-17T00:31:29.536014+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:53.441454+08:00",
         "explorer": "https://opensea.io/collection/hoodnutts",
         "note": "Trencher 0/555；开铸约10-20"
       },
@@ -6384,7 +6623,7 @@
         "minted": 0,
         "totalSupply": 0,
         "maxSupply": 2222,
-        "lastCheckedAt": "2026-10-17T00:31:29.794832+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:53.697171+08:00",
         "explorer": "https://opensea.io/collection/punkt",
         "note": "PUBLIC 0.00005≈06:00 CST(+1=10-17)；0/2222；~14粉。"
       },
@@ -6532,7 +6771,7 @@
         "minted": 555,
         "totalSupply": 555,
         "maxSupply": 555,
-        "lastCheckedAt": "2026-10-17T00:31:30.274187+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:54.167398+08:00",
         "explorer": "https://opensea.io/collection/swarmcore",
         "note": "仍0/555；WL 0.0005≈22:00 CST（30min）/ Public≈22:30 CST。"
       },
@@ -6617,7 +6856,7 @@
         "minted": 0,
         "totalSupply": 0,
         "maxSupply": 10000,
-        "lastCheckedAt": "2026-10-17T00:31:30.537355+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:54.425711+08:00",
         "explorer": "https://opensea.io/collection/digitalhumans",
         "note": "OS~0/10000；GTD尚未开"
       },
@@ -6695,7 +6934,7 @@
         "minted": 4444,
         "totalSupply": 4444,
         "maxSupply": 4444,
-        "lastCheckedAt": "2026-10-17T00:31:30.787730+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:54.682443+08:00",
         "explorer": "https://opensea.io/collection/agents-hoood",
         "note": "OpenSea total_supply 669→4444，疑似售罄"
       },
@@ -6768,7 +7007,7 @@
         "totalSupply": 5934,
         "minted": 6000,
         "maxSupply": 6000,
-        "lastCheckedAt": "2026-10-17T01:15:01.469407+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:54.939830+08:00",
         "note": "OS→6000; GTD WL LIVE",
         "owners": 1003
       },
@@ -6860,7 +7099,7 @@
         "minted": 451,
         "totalSupply": 379,
         "maxSupply": 1111,
-        "lastCheckedAt": "2026-10-17T00:31:31.290456+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:55.146344+08:00",
         "explorer": "https://opensea.io/collection/owlcult",
         "note": "Freelist/Public短窗≈09:30已过；上次~379/1111；需复核是否仍可mint。"
       },
@@ -7259,7 +7498,7 @@
         "minted": null,
         "totalSupply": null,
         "maxSupply": null,
-        "lastCheckedAt": "2026-10-17T00:31:31.799592+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:55.625977+08:00",
         "explorer": "https://etherscan.io/address/0x0E2D39c62dd3A3BDc05D1d151Ff92fC5C9dF90A7",
         "note": "CA LIVE via Programmable ~06:31 CST；R50 ProgrammableHQ暂停新发射约至18:34 CST（10-15 22:34Z+12h）；未见新开启发帖。"
       }
@@ -7336,7 +7575,7 @@
         "minted": 1111,
         "totalSupply": 1111,
         "maxSupply": 1111,
-        "lastCheckedAt": "2026-10-17T00:31:32.052760+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:55.871295+08:00",
         "explorer": "https://opensea.io/collection/candle-souls",
         "note": "售罄维持 1111/1111"
       }
@@ -7412,7 +7651,7 @@
         "minted": 7,
         "totalSupply": 7,
         "maxSupply": 777,
-        "lastCheckedAt": "2026-10-17T00:31:32.319488+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:56.129139+08:00",
         "explorer": "https://opensea.io/collection/rubby-si",
         "note": "LIVE ~$0.93；7/777"
       }
@@ -7484,7 +7723,7 @@
         "mintStatus": "open",
         "minted": null,
         "maxSupply": null,
-        "lastCheckedAt": "2026-10-17T00:31:32.769180+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:56.616636+08:00",
         "note": "Token CA from @RivetETH; verify before buy"
       }
     },
@@ -7550,7 +7789,7 @@
         "mintStatus": "open",
         "minted": null,
         "maxSupply": null,
-        "lastCheckedAt": "2026-10-17T00:31:33.231088+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:57.091808+08:00",
         "note": "2 module live；custom hook 仍等 Programmable 审核；R51 ProgrammableHQ暂停仍有效至≈18:34 CST。"
       },
       "flag": "续更",
@@ -8788,7 +9027,7 @@
         "maxSupply": 989,
         "totalSupply": 989,
         "explorer": "https://opensea.io/collection/orcsonink",
-        "lastCheckedAt": "2026-10-17T00:31:36.349077+08:00",
+        "lastCheckedAt": "2026-10-17T02:07:59.826800+08:00",
         "note": "OS collection≈979/989近满；链上原合约曾≈202",
         "chain": "Ink",
         "supply": 989
@@ -9974,7 +10213,7 @@
         "totalSupply": 3333,
         "maxSupply": 3333,
         "minted": 3333,
-        "lastCheckedAt": "2026-10-17T00:31:36.620031+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:00.080147+08:00",
         "explorer": "https://opensea.io/collection/computersrh-nft",
         "note": "官推宣布 SOLD OUT 3333；Reveal 已宣；交易约 23:02 UTC 开"
       },
@@ -10596,7 +10835,7 @@
         "totalSupply": 889,
         "maxSupply": 4444,
         "minted": 889,
-        "lastCheckedAt": "2026-10-17T00:31:36.875547+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:00.347641+08:00",
         "explorer": "https://opensea.io/collection/tickertapes-signal-worlds",
         "note": "LIVE free；889/4444"
       },
@@ -10687,7 +10926,7 @@
         "totalSupply": 666,
         "maxSupply": 666,
         "minted": 666,
-        "lastCheckedAt": "2026-10-17T00:31:37.131105+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:00.606548+08:00",
         "explorer": "https://opensea.io/collection/glocks-onchain",
         "note": "OS 666/666 售罄；X称约3分钟铸完；floor~0.0002 ETH"
       },
@@ -10884,7 +11123,7 @@
         "totalSupply": 2500,
         "maxSupply": 7777,
         "minted": 2500,
-        "lastCheckedAt": "2026-10-17T00:31:37.435105+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:00.886638+08:00",
         "explorer": "https://opensea.io/collection/hoodpoker",
         "note": "LIVE ~$4.33；~2.5K/7.8K"
       },
@@ -11645,7 +11884,7 @@
         "totalSupply": null,
         "maxSupply": null,
         "minted": null,
-        "lastCheckedAt": "2026-10-17T00:31:37.693038+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:01.143669+08:00",
         "explorer": null,
         "note": "官推 bio 自称 CA；待核验是否为平台币/发射合约"
       },
@@ -11875,7 +12114,7 @@
         "totalSupply": null,
         "maxSupply": 6666,
         "minted": null,
-        "lastCheckedAt": "2026-10-17T00:31:37.951430+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:01.402652+08:00",
         "explorer": null,
         "note": "官推自称 SURFBOARD token CA；NFT 合集另见 OpenSea，待链上交叉"
       },
@@ -12128,7 +12367,7 @@
         "totalSupply": 100,
         "minted": 100,
         "maxSupply": 999,
-        "lastCheckedAt": "2026-10-17T01:15:01.469407+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:01.655969+08:00",
         "note": "OS≈100; Public LIVE",
         "owners": 10
       },
@@ -12281,7 +12520,7 @@
         "totalSupply": null,
         "maxSupply": null,
         "minted": null,
-        "lastCheckedAt": "2026-10-17T00:31:38.474186+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:01.915764+08:00",
         "explorer": null,
         "note": "官推自称官方币 CA；待 RH RPC 交叉"
       },
@@ -12413,7 +12652,7 @@
         "totalSupply": 7100,
         "maxSupply": 10000,
         "minted": 7100,
-        "lastCheckedAt": "2026-10-17T00:31:38.735665+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:02.183087+08:00",
         "explorer": "https://opensea.io/collection/pixelpunks-865451217",
         "note": "LIVE ~$0.10；~7.1K/10K"
       },
@@ -12548,7 +12787,7 @@
         "totalSupply": 51,
         "maxSupply": 3000,
         "minted": 51,
-        "lastCheckedAt": "2026-10-17T00:31:41.085293+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:04.583306+08:00",
         "explorer": "https://opensea.io/collection/inkblots-nft",
         "note": "链上 totalSupply≈35；mint open | R28：Trencher 未列/OS 未证实新供应，维持上轮数"
       },
@@ -13068,7 +13307,7 @@
         "totalSupply": 115,
         "minted": 115,
         "maxSupply": 1500,
-        "lastCheckedAt": "2026-10-17T00:31:43.933396+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:07.312119+08:00",
         "note": "Public FREE；OS≈105；无独立官推高风险",
         "owners": 36
       },
@@ -13272,7 +13511,7 @@
         "minted": null,
         "maxSupply": 4444,
         "explorer": null,
-        "lastCheckedAt": "2026-10-17T00:31:44.279875+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:07.563660+08:00",
         "note": "页面配置 hatch 合约；官站称尚未部署，勿信 UI 1288/4444"
       },
       "highlights": [
@@ -13351,7 +13590,7 @@
         "minted": 160,
         "totalSupply": 160,
         "maxSupply": 5000,
-        "lastCheckedAt": "2026-10-17T00:31:44.496265+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:07.777584+08:00",
         "explorer": "https://opensea.io/collection/brodies-green-131048966",
         "note": "Trencher Public FREE LIVE | R28：Trencher 未列/OS 未证实新供应，维持上轮数"
       },
@@ -13423,7 +13662,7 @@
         "minted": 716,
         "totalSupply": 716,
         "maxSupply": 1234,
-        "lastCheckedAt": "2026-10-17T00:31:44.747623+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:08.034010+08:00",
         "explorer": "https://opensea.io/collection/dogbyte-126799736",
         "note": "LIVE ~$0.08；716/1234"
       },
@@ -13606,7 +13845,7 @@
         "minted": 1568,
         "totalSupply": 1568,
         "maxSupply": 1968,
-        "lastCheckedAt": "2026-10-17T00:31:45.022391+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:08.293105+08:00",
         "explorer": "https://opensea.io/collection/zombegotchi",
         "note": "Official: phase sold out quickly; check secondary"
       },
@@ -13688,7 +13927,7 @@
         "minted": 98,
         "totalSupply": 98,
         "maxSupply": 5555,
-        "lastCheckedAt": "2026-10-17T00:31:45.225479+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:08.542321+08:00",
         "explorer": "https://opensea.io/collection/mini-robots",
         "note": "FCFS至≈09:00已过；其后PUBLIC 0.000004；上次~98/5555。"
       },
@@ -13832,7 +14071,7 @@
         "totalSupply": 435,
         "minted": 435,
         "maxSupply": 2222,
-        "lastCheckedAt": "2026-10-17T01:15:01.469407+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:08.793094+08:00",
         "note": "OS≈435; PUBLIC LIVE 0.002ETH",
         "owners": 396
       },
@@ -13977,7 +14216,7 @@
         "minted": 323,
         "totalSupply": 323,
         "maxSupply": 3333,
-        "lastCheckedAt": "2026-10-17T00:31:45.731076+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:09.062561+08:00",
         "explorer": "https://opensea.io/collection/reliquialegacy",
         "note": "GTD至≈09:00已过；上次~323/3333。"
       },
@@ -14050,7 +14289,7 @@
         "totalSupply": 217,
         "minted": 218,
         "maxSupply": 1337,
-        "lastCheckedAt": "2026-10-17T01:15:01.469407+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:09.312772+08:00",
         "note": "OS→218; 续盯OS",
         "owners": 104
       },
@@ -14159,7 +14398,7 @@
         "minted": 0,
         "totalSupply": 0,
         "maxSupply": 6000,
-        "lastCheckedAt": "2026-10-17T00:31:46.251229+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:09.577205+08:00",
         "explorer": "https://opensea.io/collection/prntrs"
       },
       "highlights": [
@@ -14249,7 +14488,7 @@
         "minted": 0,
         "totalSupply": 0,
         "maxSupply": 1888,
-        "lastCheckedAt": "2026-10-17T00:31:46.454335+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:09.798230+08:00",
         "explorer": "https://opensea.io/collection/v0idkid",
         "note": "GTD 0.00071≈23:00 CST；仍0/1888。"
       },
@@ -14352,7 +14591,7 @@
         "minted": 0,
         "totalSupply": 0,
         "maxSupply": 4455,
-        "lastCheckedAt": "2026-10-17T00:31:46.700796+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:10.042247+08:00",
         "explorer": "https://opensea.io/collection/robinfrens-art",
         "note": "Team≈01:00(+1) / GTD FREE≈01:05 CST(+1)；仍0/4455。"
       },
@@ -14513,7 +14752,7 @@
         "totalSupply": 1,
         "minted": 1,
         "maxSupply": 4444,
-        "lastCheckedAt": "2026-10-17T01:15:01.469407+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:10.291475+08:00",
         "note": "OS≈1; OS仍≈1",
         "owners": 1
       },
@@ -14605,7 +14844,7 @@
           }
         ],
         "source": "@ReefersRH + neverfuckingtrade.com",
-        "note": "FREE mint day；TEAM≈03:00CST；官方链接 only"
+        "note": "FREE mint day；TEAM≈03:00CST；≤2h"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -14615,7 +14854,7 @@
         "minted": 1,
         "totalSupply": 0,
         "maxSupply": 555,
-        "lastCheckedAt": "2026-10-17T01:15:01.469407+08:00",
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00",
         "explorer": "https://opensea.io/collection/reefersrh",
         "note": "OS→1; TEAM FREE≈03:00CST；Prepare for takeoff",
         "owners": 1
@@ -14628,7 +14867,7 @@
         "时间较晚",
         "供应量有限"
       ],
-      "whatsNew": "FREE mint day 临近；社区 Space/GTD 预热；TEAM≈03:00CST；粉→1406；@ReefersRH",
+      "whatsNew": "FREE mint day；Space预热；TEAM≈03:00CST仍≤2h；粉→1407；@ReefersRH",
       "scores": {
         "early": 6,
         "actionable": 7,
@@ -14643,8 +14882,8 @@
       "mintStatus": "upcoming",
       "status": "upcoming",
       "social": {
-        "xFollowers": 1406,
-        "lastCheckedAt": "2026-10-17T01:45:56.390731+08:00"
+        "xFollowers": 1407,
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00"
       },
       "osSupply": 1,
       "osOwners": 1,
@@ -14703,7 +14942,7 @@
         "minted": 0,
         "totalSupply": 0,
         "maxSupply": 6666,
-        "lastCheckedAt": "2026-10-17T00:31:47.435659+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:10.752837+08:00",
         "explorer": "https://opensea.io/collection/the-crayons",
         "note": "WL FREE≈02:00 CST(+1)；Public 0.00042≈03:00(+1)；~55粉。"
       },
@@ -14799,7 +15038,7 @@
         "minted": 0,
         "totalSupply": 0,
         "maxSupply": 111,
-        "lastCheckedAt": "2026-10-17T00:31:47.691205+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:11.013013+08:00",
         "explorer": "https://opensea.io/collection/0xa1cdbff98fbae47f3d6d35058124c238e296e433"
       },
       "highlights": [
@@ -14962,7 +15201,7 @@
         "minted": 1111,
         "totalSupply": 1111,
         "maxSupply": 1111,
-        "lastCheckedAt": "2026-10-17T00:31:47.953658+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:11.267480+08:00",
         "explorer": "https://opensea.io/collection/gobz-org",
         "note": "续更：Gobz 仍 SOLD OUT 1111；reveal live，$GOBZ 数日内。"
       },
@@ -15043,7 +15282,7 @@
         "minted": 528,
         "totalSupply": 267,
         "maxSupply": 11111,
-        "lastCheckedAt": "2026-10-17T00:31:48.205721+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:11.526516+08:00",
         "explorer": "https://opensea.io/collection/keysnfts",
         "note": "WL FREE仍LIVE（DON'T MINT/Keys）；Trencher~255/11111至≈次日03:29 CST。；R49 Trencher/OS refresh ~267"
       },
@@ -15202,7 +15441,7 @@
         "minted": 0,
         "totalSupply": 0,
         "maxSupply": 666,
-        "lastCheckedAt": "2026-10-17T00:31:48.461841+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:11.780576+08:00",
         "explorer": "https://opensea.io/collection/nullmaskio",
         "note": "OpenSea 0；极早期空壳号"
       },
@@ -15382,7 +15621,7 @@
         "minted": 92,
         "totalSupply": 92,
         "maxSupply": 888,
-        "lastCheckedAt": "2026-10-17T00:31:48.708520+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:12.043046+08:00",
         "explorer": "https://opensea.io/collection/odd-in-game",
         "note": "LIVE ~$0.15；92/888"
       },
@@ -15452,7 +15691,7 @@
         "minted": 250,
         "totalSupply": 250,
         "maxSupply": 1100,
-        "lastCheckedAt": "2026-10-17T00:31:48.973267+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:12.284038+08:00",
         "explorer": "https://opensea.io/collection/vaultlingse",
         "note": "LIVE ~$0.24；250/1100"
       },
@@ -15521,7 +15760,7 @@
         "minted": 184,
         "totalSupply": 184,
         "maxSupply": 5000,
-        "lastCheckedAt": "2026-10-17T00:31:49.232160+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:12.543712+08:00",
         "explorer": "https://opensea.io/collection/astropaws-nft",
         "note": "LIVE ~$0.20；184/5000；关窗≈今日17:00 UTC"
       },
@@ -15917,7 +16156,7 @@
       "flag": "DELAY",
       "social": {
         "xFollowers": 685,
-        "lastCheckedAt": "2026-10-17T01:45:56.390731+08:00"
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00"
       }
     },
     {
@@ -16382,9 +16621,10 @@
       "links": {
         "x": "https://x.com/tickapogee",
         "website": "https://tickapogee.xyz",
-        "signal": "https://x.com/tickapogee/status/2111011765219901805"
+        "signal": "https://x.com/tickapogee/status/2111155529532014854",
+        "buy": "https://www.ponsfamily.com/launchpad/0x35BfFa192f1b39c481D0bbE6a3FC26005C3ccb8C"
       },
-      "whatsNew": "官帖再确认：下一帖即 CA（18:00UTC/02:00CST）；仅官推+站内；粉→316；@tickapogee",
+      "whatsNew": "CA已落：0x35BfFa192f1b39c481D0bbE6a3FC26005C3ccb8C；$TICKA Pons LIVE；粉→318；@tickapogee",
       "whyWatch": "对标盘后/休市期间 SPCX 与发射事件的链上对齐；极早期独立账本+代币窗口。",
       "background": "SpaceX launch ledger on Robinhood Chain · tickapogee.xyz · @tickapogee",
       "risk": "极早期高风险；账本未审计；代币 CA 未出前勿跟仿盘。",
@@ -16408,33 +16648,34 @@
         "需等待确认"
       ],
       "schedule": {
-        "status": "upcoming",
+        "status": "live",
         "timezone": "Asia/Shanghai",
-        "startsAt": "2026-10-16T18:00:00Z",
+        "startsAt": "2026-10-16T18:01:00Z",
         "phases": [
           {
-            "name": "Token CA drop",
-            "startsAt": "2026-10-16T18:00:00Z",
-            "note": "18:00 UTC / 02:00 CST；下一帖即CA"
+            "name": "$TICKA live",
+            "startsAt": "2026-10-16T18:01:00Z",
+            "note": "CA drop完成；Pons可买"
           }
         ],
         "source": "@tickapogee",
-        "note": "Token CA≈02:00CST；≤2h"
+        "note": "LIVE；CA已官宣"
       },
       "onchain": {
         "chainId": "robinhood",
-        "contract": "0x1B54e85975281aBdB1a3DB3f12722b947b2aC0E7",
-        "standard": "ledger",
-        "mintStatus": "ledger_live_token_pending",
-        "lastCheckedAt": "2026-10-17T00:53:16.211599+08:00",
-        "note": "LaunchLedger LIVE；代币 CA 待 18:00UTC 官宣"
+        "contract": "0x35BfFa192f1b39c481D0bbE6a3FC26005C3ccb8C",
+        "standard": "erc20",
+        "mintStatus": "live",
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00",
+        "note": "Token CA LIVE on Pons；ledger仍0x1B54…",
+        "explorer": "https://www.ponsfamily.com/launchpad/0x35BfFa192f1b39c481D0bbE6a3FC26005C3ccb8C"
       },
       "social": {
-        "xFollowers": 316,
-        "lastCheckedAt": "2026-10-17T01:45:56.390731+08:00"
+        "xFollowers": 318,
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00"
       },
-      "status": "upcoming",
-      "mintStatus": "upcoming",
+      "status": "live",
+      "mintStatus": "live",
       "flag": "≤2h",
       "newThisRound": false,
       "addedAt": "2026-10-16T19:41:04.577435+08:00",
@@ -16875,7 +17116,7 @@
         "chainId": "robinhood",
         "contract": "0x01e6301bc1118be90cc6bc2d1b5c0c44bb883111",
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-17T00:31:49.749559+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:13.070215+08:00",
         "note": "官推 CA；未做字节码核验"
       },
       "social": {
@@ -17246,7 +17487,7 @@
         "contract": "0x18e674231a58c239dc7daedcffe15ec3a24cff5c",
         "standard": "erc20",
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-17T00:31:50.090032+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:13.278101+08:00",
         "note": "社区提及 RH CA；未逐笔核验"
       },
       "social": {
@@ -17633,7 +17874,7 @@
         "contract": "0x8a166Fb41Cd659a0a43396272FF73973Ce29F817",
         "standard": "erc20",
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-17T00:31:50.340220+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:13.527423+08:00",
         "note": "RH CA在bio；未做字节码核验"
       },
       "social": {
@@ -17934,7 +18175,7 @@
         "contract": "0xd2d0cd009896549cc6bcb1d33fdb2db01fb0a95f",
         "standard": "ERC721",
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-17T00:31:50.593221+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:13.733739+08:00",
         "note": "官帖≈350；OS mythical-guardians≈2",
         "minted": 2,
         "totalSupply": 2,
@@ -18159,7 +18400,7 @@
         "contract": "0x171d9de1d28bccb624cf20ba61a1f39b021720cc",
         "standard": null,
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-17T00:31:50.847194+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:13.983965+08:00",
         "note": "官帖 CA；launchpad 未上"
       },
       "social": {
@@ -18372,7 +18613,7 @@
       },
       "social": {
         "xFollowers": 20,
-        "lastCheckedAt": "2026-10-17T01:45:56.390731+08:00"
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00"
       },
       "highlights": [
         "官帖称 Omnichain Fungible Token Launchpad 已上线",
@@ -18384,7 +18625,7 @@
         "仅官帖自述+pump.fun CA，无审计/无外部背书",
         "仿盘与Rug风险极高，需自核合约与路由"
       ],
-      "whatsNew": "自称 Omnichain Fungible Token Launchpad；未核验官方 LZ；保持台子/Meme；粉→20；@OFTpad",
+      "whatsNew": "自称Omnichain Fungible Token Launchpad；未核验官方LZ；保持台子/Meme；粉→20；@OFTpad",
       "whyWatch": "极早期自称 Omnichain Fungible Token 发射台（@OFTpad）；仅官帖自述+pump.fun CA，是否真接跨链协议未核验，归入台子/Meme 栏盯盘。",
       "flag": "WATCH",
       "riskLevel": "critical",
@@ -18533,7 +18774,7 @@
         "contract": "0xe1838f0dff03a9327dea87b2a2285850791297ec",
         "standard": "unknown",
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-17T00:31:51.109868+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:14.245570+08:00",
         "note": "bio 合约；未逐笔核验"
       },
       "social": {
@@ -18838,7 +19079,7 @@
         "contract": "0xb4bb188e2d0e82ef9dba8b31ffe41855a2feac0f",
         "standard": null,
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-17T00:31:51.364666+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:14.449168+08:00",
         "note": "自称 live；另有 Solana 路径"
       },
       "social": {
@@ -19329,7 +19570,7 @@
         "contract": "0x828164e299b8601e9fa8B0f5f84a9a685690a0CC",
         "standard": "ERC20+v4hook",
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-17T00:31:51.613697+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:14.706940+08:00",
         "note": "官方币CA；自助挖币TBA"
       },
       "social": {
@@ -19377,7 +19618,7 @@
         "Robinhood Chain 流动性与生态仍浅",
         "挖矿收益与代币模型未充分验证；仅认官方 CA"
       ],
-      "whatsNew": "GPU挖矿网 mainnet LIVE；粉→175；@Mineragpu",
+      "whatsNew": "社区再提GPU mining基础设施；$MNRA RH；续观察；@cypherpunkgold风格挖矿栏已有",
       "whyWatch": "GPU/PoW 与 NFT-miner 之外的「插卡做工」挖矿入口；与 BLOX/ComputersRH 同链，可盯算力与回购。",
       "background": "Minera · mineragpu.tech · @Mineragpu。Deploy a GPU like you'd launch a token。RH mainnet chainId 4663；$MNRA CA 0x811e6953bcdee5277de0f194e6e2fb1018ce33b4（2026-10-08）；GitHub mineragpu/minera；Pons 可交易。",
       "risk": "极早期；假CA/假池风险高；只认 mineragpu.tech / @Mineragpu / 官方GitHub。非投资建议。",
@@ -19409,12 +19650,12 @@
         "contract": "0x811e6953bcdee5277de0f194e6e2fb1018ce33b4",
         "standard": "ERC20",
         "mintStatus": "live",
-        "lastCheckedAt": "2026-10-17T00:43:39.893320+08:00",
+        "lastCheckedAt": "2026-10-17T02:08:14.945191+08:00",
         "note": "MNRA on RH; trade via Pons"
       },
       "social": {
         "xFollowers": 175,
-        "lastCheckedAt": "2026-10-17T01:15:01.469407+08:00"
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00"
       },
       "flag": "LIVE"
     },
