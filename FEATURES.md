@@ -42,13 +42,27 @@
 
 - 新品类 `category: "挖矿"`：GPU/PoW 币（PRL / QTC / NOID 风格）与 NFT 挖矿/变异盘。
 - 可选字段 `miningType`：`gpu-pow` | `nft-mutation` | `nft-miner` | `other`；`tags` 含 `挖矿`/`PoW`/`变异盘`。
-- 面板：宽屏（≥1280px）五列 `.board`，顺序 **打新 | 挖矿 | 台子/Meme | GO盘 | LayerZero**；1280–1679 可横向滚动（列 min≈220px），≥1680 五列均分不挤死。窄屏纵向堆叠，顺序相同。
-- 互斥归类（一条只进一列）：**LayerZero 最优先**（`tags` 含 layerzero/lz/oft/zro，或 `chain` 为 LayerZero/Zero / 含 layerzero，或文案含 LayerZero）→ 挖矿（`category: 挖矿` / `miningType` / 挖矿 tags）→ GO盘（`playStyle === "go"`，或 id/名称匹配 pumpgo/stokn，或 tags 含 定位 / GO玩法 / AR / 地图 / 走路挖矿）→ 台子/Meme（`category` ∈ 新台、Meme、Launchpad）→ 其余进打新（当前主要为 NFT）。同时是 NFT/台子 等也进 LayerZero 栏，不重复出现在其他栏。
-- 默认排序「最新信号」：有 `firstSeen` 或 `addedAt` 则新的在前，否则 `round` 降序；同轮 `whatsNew` 非空优先，再按 `scores.overall` / `earlyScore`。五列共用；下拉仍可改早期程度 / 综合 / 日程 / 风险 / 名称。
-- 挖矿列保持紧凑 `.mining-row` + GPU PoW / NFT 变异 / Miner NFT / 其他。打新、台子/Meme、GO盘、LayerZero 用完整卡片。点品类「挖矿」或顶栏药丸跳到对应列；LayerZero 监控顶栏/芯片可跳第五栏。
+- 面板：宽屏（≥1280px）六列 `.board`，顺序 **重点 | 打新 | 挖矿 | 台子/Meme | GO盘 | LayerZero**；1280–1679 可横向滚动（列 min≈200px），≥1680 六列均分。窄屏纵向堆叠，顺序相同。
+- 互斥归类（一条只进一列）：**重点最优先**（`focus: true` / `meta.focusIds` / tags 含 `重点`）→ LayerZero（显式 lz/layerzero tag 或 chain/文案）→ 挖矿 → GO盘 → 台子/Meme → 其余打新。重点项**只出现在重点栏**，不重复。
+- 默认排序「最新信号」：有 `firstSeen` 或 `addedAt` 则新的在前，否则 `round` 降序；同轮 `whatsNew` 非空优先，再按 `scores.overall` / `earlyScore`。六列共用；下拉仍可改早期程度 / 综合 / 日程 / 风险 / 名称。
+- 挖矿列保持紧凑 `.mining-row` + GPU PoW / NFT 变异 / Miner NFT / 其他。打新、台子/Meme、GO盘、LayerZero 用完整卡片。点品类「挖矿」或顶栏药丸跳到对应列；LayerZero 监控顶栏/芯片可跳 LayerZero 栏。
 - 例行搜刮需同时扫：新 GPU 矿币、AI-PoW、NFT 变异盘 / Miner NFT 早期信号。
 
-## 5) 例行扩展关注（非全量 X 监控）
+## 5) 重点栏（focus）
+
+- 新列 **重点**（zone id `focus`），视觉强调（玫粉/琥珀描边 + 「重点」chip），**左起第一列**。
+- 归入条件（任一即可，且优先于 LZ/挖矿等）：`focus: true` · `id ∈ meta.focusIds` · `tags` 含 `重点`。
+- 种子：`squeekchain`（首位）· `hamster-hour`。例行可把清晰早期 peer 以 `focus: true` 收入，或至少打 `重点` tag 并记入 `meta.focusWatch`。
+- `meta.focusWatch`：accounts + categoryScan + admitRule；**每轮例行扫描本类**（非整账号时间线监控）。
+
+## 6) 例行扩展关注（非全量 X 监控）
 
 - **TokenWorks Playground**：盯 `@Rhynotic`（兼 `@token_works`）与站 https://playground.token.works/ ——策展小组发射/分账台（ETH+Robinhood）；关注 `launchesEnabled`、首批想法（FWA 配对）、工厂公开部署。归台子/Meme，勿因跨链字样进 LayerZero。
+- **实验玩具链 / 实体+链上（重点栏 standing watch）**：每轮扫同类信号——仓鼠/动物 PoW toychain、硬件矿机 novelty 链、实体物理装置上链验证、公平分配实验 L1/L2 且仍预发币/测试网。种子账号 `@squeekchain` `@squeektoshi` `@pillheadddd` `@hamsterhourgame`；同类有推特的清晰早期 peer → 重点栏（`squeekchain` 保持首位）。
 - 此类为品类扩展监视，**不是**恢复全量 X 账号时间线监控。
+
+
+## DeepSeek 省用量
+- 例行打分/筛选/亮点缺点/whatsNew/alert → `deepseek-flash`（thinking 关闭）。
+- 脚本：`scripts/deepseek_chat.py`、`scripts/ds_batch_score.py`。
+- 执行端只拉信号+推送，避免用 SuperGrok 做长推理。
