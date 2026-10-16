@@ -256,7 +256,7 @@
 
   const PLATFORM_CATS = new Set(["新台", "Meme", "Launchpad"]);
 
-  /** Focus/重点 overrides every other zone (including LZ). */
+  /** Focus/重点 strip membership (not a board column). */
   function isFocus(c) {
     if (!c) return false;
     if (c.focus === true) return true;
@@ -267,9 +267,9 @@
     return false;
   }
 
-  /** Exactly one column: focus > LayerZero > mining > GO > 台子/Meme > 打新. */
+  /** Five board columns only: LayerZero > mining > GO > 台子/Meme > 打新.
+   *  Focus candidates are strip-only (excluded from columns via isFocus). */
   function zoneOf(c) {
-    if (isFocus(c)) return "focus";
     if (isLayerZero(c)) return "lz";
     if (isMining(c)) return "mining";
     if (isGoPlay(c)) return "go";
@@ -669,21 +669,48 @@
   }
 
   function columnItems(zone) {
-    let list = state.data.candidates.filter((c) => zoneOf(c) === zone && passesShared(c));
+    let list = state.data.candidates.filter(
+      (c) => zoneOf(c) === zone && !isFocus(c) && passesShared(c)
+    );
     if (zone === "mining") list = list.filter((c) => matchesMiningType(c, state.miningTypeFilter));
     list = list.filter(hasTwitter);
     list = sortList(list);
-    if (zone === "focus") {
-      const focusIds = (state.data.meta && state.data.meta.focusIds) || [];
-      if (focusIds.length) {
-        const rank = (id) => {
-          const i = focusIds.indexOf(id);
-          return i >= 0 ? i : focusIds.length + 50;
-        };
-        list = [...list].sort((a, b) => rank(a.id) - rank(b.id));
-      }
+    return list;
+  }
+
+  function focusItems() {
+    let list = state.data.candidates.filter((c) => isFocus(c) && passesShared(c) && hasTwitter(c));
+    list = sortList(list);
+    const focusIds = (state.data.meta && state.data.meta.focusIds) || [];
+    if (focusIds.length) {
+      const rank = (id) => {
+        const i = focusIds.indexOf(id);
+        return i >= 0 ? i : focusIds.length + 50;
+      };
+      list = [...list].sort((a, b) => rank(a.id) - rank(b.id));
     }
     return list;
+  }
+
+  function focusMiniHtml(c) {
+    const why = escapeHtml((c.whyWatch || c.oneLiner || "").slice(0, 90));
+    const chain = escapeHtml(canonicalChain(c.chain) || "—");
+    const xUrl = (c.links && (c.links.twitter || c.links.x)) || "";
+    const site = (c.links && (c.links.website || c.links.site)) || "";
+    const x = xUrl
+      ? `<a href="${escapeHtml(xUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">X</a>`
+      : "";
+    const web = site
+      ? `<a href="${escapeHtml(site)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">站</a>`
+      : "";
+    return `<article class="focus-mini card-focus" data-id="${escapeHtml(c.id)}" data-x="${escapeHtml(xUrl || "")}">
+      <div class="focus-mini-top">
+        <div class="focus-mini-name">${escapeHtml(c.name)}<span class="focus-chip" title="重点关注">重点</span></div>
+      </div>
+      <div class="focus-mini-meta">${chain}${c.category ? " · " + escapeHtml(c.category) : ""}</div>
+      ${why ? `<div class="focus-mini-why">${why}</div>` : ""}
+      <div class="focus-mini-links">${x}${web}</div>
+    </article>`;
   }
 
   function uniqueChains(candidates) {
@@ -1008,7 +1035,6 @@
   }
 
   const ZONES = [
-    { id: "focus", grid: "#focus-grid", count: "#focus-count", label: "重点", cards: true },
     { id: "scout", grid: "#grid", count: "#scout-count", label: "打新", cards: true },
     { id: "mining", grid: "#mining-grid", count: "#mining-count", label: "挖矿", cards: false },
     { id: "meme", grid: "#meme-grid", count: "#meme-count", label: "台子 / Meme", cards: true },
@@ -1017,9 +1043,6 @@
   ];
 
   function emptyColumnHtml(label, zoneId) {
-    if (zoneId === "focus") {
-      return `<div class="empty empty-focus"><div class="focus-badge-lg">重点</div><div>暂无重点候选</div><div class="empty-sub">仓鼠/实体 PoW 玩具链 · 硬件矿机实验 · 预发币测试网</div></div>`;
-    }
     if (zoneId === "lz") {
       return `<div class="empty empty-lz"><div class="lz-badge-lg">LZ</div><div>暂无 LayerZero 相关候选</div><div class="empty-sub">盯 Zero 开链 · ATLAS · OFT 发射 · 生态极早期</div></div>`;
     }
@@ -1029,10 +1052,35 @@
     return `<div class="empty">暂无匹配的${escapeHtml(label)}</div>`;
   }
 
+  function renderFocusStrip() {
+    const host = $("#focus-grid");
+    const countEl = $("#focus-count");
+    const panel = $("#focus-panel");
+    const all = state.data.candidates.filter((c) => isFocus(c) && hasTwitter(c));
+    const list = focusItems();
+    if (host) {
+      if (!list.length) {
+        host.innerHTML = `<div class="focus-strip-empty">暂无重点候选 · 仓鼠/实体 PoW 玩具链 · 预发币测试网</div>`;
+      } else {
+        host.innerHTML = list.map(focusMiniHtml).join("");
+      }
+    }
+    if (countEl) {
+      countEl.textContent = list.length === all.length ? String(list.length) : `${list.length}/${all.length}`;
+    }
+    if (panel) {
+      // Hide strip entirely when dataset has no focus candidates; otherwise show empty hint under filters.
+      panel.hidden = all.length === 0;
+    }
+    return { shown: list.length, total: all.length };
+  }
+
   function renderColumn(zone) {
     const host = $(zone.grid);
     const countEl = $(zone.count);
-    const all = state.data.candidates.filter((c) => zoneOf(c) === zone.id && hasTwitter(c));
+    const all = state.data.candidates.filter(
+      (c) => zoneOf(c) === zone.id && !isFocus(c) && hasTwitter(c)
+    );
     const list = columnItems(zone.id);
     if (host) {
       if (!list.length) {
@@ -1054,6 +1102,7 @@
     state.nowMs = Date.now();
     renderSchedSoon();
     const counts = {};
+    counts.focus = renderFocusStrip();
     for (const zone of ZONES) counts[zone.id] = renderColumn(zone);
 
     const pool = state.data.candidates.filter(hasTwitter);
@@ -1103,7 +1152,7 @@
         const id = jump.dataset.jump;
         const findTarget = () =>
           document.querySelector(
-            `.card[data-id="${CSS.escape(id)}"], .mining-row[data-id="${CSS.escape(id)}"]`
+            `.card[data-id="${CSS.escape(id)}"], .mining-row[data-id="${CSS.escape(id)}"], .focus-mini[data-id="${CSS.escape(id)}"]`
           );
         const flash = (el) => {
           el.scrollIntoView({ behavior: "smooth", block: "center" });

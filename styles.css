@@ -946,7 +946,122 @@ button.pill {
   line-height: 1.35;
 }
 
-/* Six zones. Narrow: stack 重点 → 打新 → 挖矿 → 台子/Meme → GO盘 → LayerZero. */
+
+/* 重点 horizontal strip — below controls, above five-column board */
+.focus-strip {
+  margin-bottom: 14px;
+  padding: 10px 12px 12px;
+  border: 1px solid rgba(251, 113, 133, 0.45);
+  border-radius: 14px;
+  background: linear-gradient(105deg, rgba(251,113,133,0.12), rgba(251,191,36,0.06) 55%, rgba(13,18,28,0.75));
+  box-shadow: 0 0 0 1px rgba(251, 113, 133, 0.08), 0 10px 28px rgba(251, 113, 133, 0.06);
+}
+
+.focus-strip-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 10px;
+  margin-bottom: 8px;
+}
+
+.focus-strip-title {
+  font-weight: 800;
+  font-size: 0.95rem;
+  letter-spacing: -0.01em;
+  color: #fecdd3;
+}
+
+.focus-strip-sub {
+  font-size: 0.72rem;
+  color: var(--faint);
+  flex: 1 1 8rem;
+}
+
+.focus-strip-track {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: stretch;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 2px;
+}
+
+.focus-strip-empty {
+  width: 100%;
+  padding: 10px 4px;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.focus-mini {
+  flex: 0 0 auto;
+  width: min(240px, 78vw);
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(251, 113, 133, 0.35);
+  background: rgba(17, 24, 39, 0.82);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s, transform 0.12s;
+}
+
+.focus-mini:hover {
+  border-color: rgba(251, 113, 133, 0.65);
+  background: rgba(251, 113, 133, 0.1);
+  transform: translateY(-1px);
+}
+
+.focus-mini-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.focus-mini-name {
+  font-weight: 750;
+  font-size: 0.9rem;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.focus-mini-meta {
+  font-size: 0.72rem;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.focus-mini-why {
+  margin-top: 4px;
+  font-size: 0.72rem;
+  color: #cbd5e1;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.focus-mini-links {
+  margin-top: 6px;
+  display: flex;
+  gap: 8px;
+  font-size: 0.7rem;
+}
+
+.focus-mini-links a {
+  color: var(--accent-2);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Focus strip (above board) + five column zones. Narrow: stack 打新 → 挖矿 → 台子/Meme → GO盘 → LayerZero. */
 .board {
   display: flex;
   flex-direction: column;
@@ -1164,12 +1279,11 @@ button.pill {
   }
 }
 
-/* Wide board: 重点 | 打新 | 挖矿 | 台子/Meme | GO盘 | LayerZero.
-   Mid-wide: horizontal scroll so six columns are not crushed. */
+/* Wide board: 打新 | 挖矿 | 台子/Meme | GO盘 | LayerZero (five columns). */
 @media (min-width: 1280px) {
   .board {
     display: grid;
-    grid-template-columns: repeat(6, minmax(200px, 1fr));
+    grid-template-columns: repeat(5, minmax(200px, 1fr));
     gap: 10px;
     align-items: stretch;
     overflow-x: auto;
@@ -1208,7 +1322,7 @@ button.pill {
 
 @media (min-width: 1680px) {
   .board {
-    grid-template-columns: minmax(0, 1.05fr) minmax(0, 1.1fr) minmax(0, 0.65fr) minmax(0, 1fr) minmax(0, 0.88fr) minmax(0, 0.95fr);
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.7fr) minmax(0, 1.05fr) minmax(0, 0.95fr) minmax(0, 1fr);
     gap: 12px;
     overflow-x: visible;
   }

@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#07090f" />
   <meta http-equiv="refresh" content="600" />
   <title>早期打新雷达 · Early Scout</title>
-  <meta name="description" content="高风险·非投资建议。早期加密雷达六栏：重点 / 打新 / 挖矿 / 台子·Meme / GO盘 / LayerZero。含开售日程与链上 mint 盯盘。" />
+  <meta name="description" content="高风险·非投资建议。早期加密雷达：重点横条 + 五栏打新 / 挖矿 / 台子·Meme / GO盘 / LayerZero。含开售日程与链上 mint 盯盘。" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet" />
@@ -23,12 +23,12 @@
     <header class="header">
       <div class="brand">
         <h1>早期打新雷达</h1>
-        <p class="sub">Early Crypto Scout · <span class="focus-inline">重点</span> / 打新 / 挖矿 / 台子·Meme / GO盘 / <span class="lz-inline">LayerZero</span></p>
+        <p class="sub">Early Crypto Scout · <span class="focus-inline">重点</span>横条 · 打新 / 挖矿 / 台子·Meme / GO盘 / <span class="lz-inline">LayerZero</span></p>
       </div>
       <div class="meta-pills">
         <span class="pill">候选 <strong id="count">—</strong></span>
         <span class="pill">更新 <strong id="updated">—</strong></span>
-        <button type="button" class="pill pill-focus" id="focus-pill" data-jump-zone="focus-panel" title="跳到重点列">重点</button>
+        <button type="button" class="pill pill-focus" id="focus-pill" data-jump-zone="focus-panel" title="跳到重点条">重点</button>
         <button type="button" class="pill pill-mining" id="mining-pill" data-jump-zone="mining-panel" title="跳到挖矿列">挖矿</button>
         <button type="button" class="pill pill-go" id="go-pill" data-jump-zone="go-panel" title="跳到 GO盘">GO盘</button>
         <button type="button" class="pill pill-lz" id="lz-pill" data-jump-zone="lz-panel" title="跳到 LayerZero 列">LayerZero 监控中</button>
@@ -89,18 +89,18 @@
       <div class="stats-bar" id="stats"></div>
     </section>
 
-    <div class="board" id="board">
-    <section class="zone zone-focus" id="focus-panel" aria-label="重点">
-      <div class="zone-head">
-        <span class="zone-title">重点</span>
+    <section class="focus-strip" id="focus-panel" aria-label="重点">
+      <div class="focus-strip-head">
+        <span class="focus-strip-title">重点</span>
         <span class="zone-count" id="focus-count">—</span>
-        <span class="zone-sub">仓鼠/实体 PoW · 玩具链 · 预发币</span>
+        <span class="focus-strip-sub">仓鼠/实体 PoW · 玩具链 · 预发币</span>
       </div>
-      <div class="grid zone-cards" id="focus-grid" aria-live="polite">
-        <div class="empty">加载中…</div>
+      <div class="focus-strip-track" id="focus-grid" aria-live="polite">
+        <div class="focus-strip-empty">加载中…</div>
       </div>
     </section>
 
+    <div class="board" id="board">
     <section class="zone zone-scout" id="scout-panel" aria-label="打新">
       <div class="zone-head">
         <span class="zone-title">打新</span>
