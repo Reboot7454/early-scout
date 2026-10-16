@@ -428,6 +428,12 @@
     return blob.includes(q);
   }
 
+  /** Hard gate: a card is visible only with a real X/Twitter profile URL. */
+  function hasTwitter(c) {
+    const x = c.links && c.links.x;
+    return typeof x === "string" && x.length > 0 && /x\.com\/|twitter\.com\//i.test(x);
+  }
+
   function passesShared(c) {
     if (state.category !== "all" && state.category !== "挖矿" && c.category !== state.category) {
       return false;
@@ -530,6 +536,7 @@
   function columnItems(zone) {
     let list = state.data.candidates.filter((c) => zoneOf(c) === zone && passesShared(c));
     if (zone === "mining") list = list.filter((c) => matchesMiningType(c, state.miningTypeFilter));
+    list = list.filter(hasTwitter);
     return sortList(list);
   }
 
@@ -547,6 +554,7 @@
 
     const items = state.data.candidates
       .filter((c) => {
+        if (!hasTwitter(c)) return false;
         const s = c.schedule;
         if (!s || !s.startsAt) return false;
         if (!["confirmed", "tentative", "live"].includes(s.status)) return false;
@@ -614,7 +622,7 @@
 
     const chains = [
       { id: "all", label: "全部链" },
-      ...uniqueChains(state.data.candidates).map((ch) => ({
+      ...uniqueChains(state.data.candidates.filter(hasTwitter)).map((ch) => ({
         id: ch,
         label: ch,
       })),
@@ -645,9 +653,9 @@
       .join("");
 
     if (schedHost) {
-      const soonN = state.data.candidates.filter(within24h).length;
-      const schedN = state.data.candidates.filter(hasSchedule).length;
-      const onN = state.data.candidates.filter(hasOnchainWatch).length;
+      const soonN = state.data.candidates.filter((c) => hasTwitter(c) && within24h(c)).length;
+      const schedN = state.data.candidates.filter((c) => hasTwitter(c) && hasSchedule(c)).length;
+      const onN = state.data.candidates.filter((c) => hasTwitter(c) && hasOnchainWatch(c)).length;
       const opts = [
         { id: "all", label: "全部日程" },
         { id: "soon24", label: `即将开售（24h）· ${soonN}` },
@@ -663,7 +671,7 @@
     }
 
     if (lzHost) {
-      const lzCount = state.data.candidates.filter(isLayerZero).length;
+      const lzCount = state.data.candidates.filter((c) => hasTwitter(c) && isLayerZero(c)).length;
       lzHost.innerHTML = `
         <button type="button" class="chip chip-lz ${state.layerzero === "all" ? "active" : ""}" data-group="layerzero" data-value="all">全部（含非 LZ）</button>
         <button type="button" class="chip chip-lz ${state.layerzero === "on" ? "active" : ""}" data-group="layerzero" data-value="on">LayerZero 监控 · ${lzCount}</button>
@@ -700,7 +708,7 @@
     const desc = $("#lz-watch-desc");
     const pill = $("#lz-pill");
     if (!watch) return;
-    const n = state.data.candidates.filter(isLayerZero).length;
+    const n = state.data.candidates.filter((c) => hasTwitter(c) && isLayerZero(c)).length;
     if (desc) {
       const focus = (watch.focus || []).join(" · ");
       desc.textContent = `${watch.label || "LayerZero 监控中"} · ${n} 条相关 · ${focus}`;
@@ -757,7 +765,7 @@
   function renderColumn(zone) {
     const host = $(zone.grid);
     const countEl = $(zone.count);
-    const all = state.data.candidates.filter((c) => zoneOf(c) === zone.id);
+    const all = state.data.candidates.filter((c) => zoneOf(c) === zone.id && hasTwitter(c));
     const list = columnItems(zone.id);
     if (host) {
       if (!list.length) {
@@ -781,9 +789,10 @@
     const counts = {};
     for (const zone of ZONES) counts[zone.id] = renderColumn(zone);
 
-    const total = state.data.candidates.length;
-    const lzN = state.data.candidates.filter(isLayerZero).length;
-    const soonN = state.data.candidates.filter(within24h).length;
+    const pool = state.data.candidates.filter(hasTwitter);
+    const total = pool.length;
+    const lzN = pool.filter(isLayerZero).length;
+    const soonN = pool.filter(within24h).length;
     const minePill = $("#mining-pill");
     const goPill = $("#go-pill");
     if (minePill) minePill.textContent = `挖矿 · ${counts.mining.total}`;
@@ -796,6 +805,7 @@
       共 <b>${total}</b> ·
       即将开售 <b>${soonN}</b> ·
       LayerZero <b>${lzN}</b> ·
+      <b>仅显示有推特</b> ·
       更新 <b>${escapeHtml(updatedLabel())}</b>
     `;
   }
@@ -889,7 +899,7 @@
       state.data = await res.json();
       state.nowMs = Date.now();
       $("#updated").textContent = updatedLabel();
-      $("#count").textContent = String(state.data.candidates.length);
+      $("#count").textContent = String(state.data.candidates.filter(hasTwitter).length);
       renderLzWatch();
       renderChips();
       bind();
