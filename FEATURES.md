@@ -42,8 +42,8 @@
 
 - 新品类 `category: "挖矿"`：GPU/PoW 币（PRL / QTC / NOID 风格）与 NFT 挖矿/变异盘。
 - 可选字段 `miningType`：`gpu-pow` | `nft-mutation` | `nft-miner` | `other`；`tags` 含 `挖矿`/`PoW`/`变异盘`。
-- 面板：宽屏（≥1280px）四列 `.board`，顺序 **打新 | 挖矿 | 台子/Meme | GO盘**（约 1.22 / 0.78 / 1.12 / 1fr）。窄屏纵向堆叠，顺序相同。
-- 互斥归类（一条只进一列）：挖矿优先（`category: 挖矿` / `miningType` / 挖矿 tags）→ GO盘（`playStyle === "go"`，或 id/名称匹配 pumpgo/stokn，或 tags 含 定位 / GO玩法 / AR / 地图 / 走路挖矿）→ 台子/Meme（`category` ∈ 新台、Meme、Launchpad）→ 其余进打新（当前主要为 NFT）。
-- 默认排序「最新信号」：有 `firstSeen` 或 `addedAt` 则新的在前，否则 `round` 降序；同轮 `whatsNew` 非空优先，再按 `scores.overall` / `earlyScore`。四列共用；下拉仍可改早期程度 / 综合 / 日程 / 风险 / 名称。
-- 挖矿列保持紧凑 `.mining-row` + GPU PoW / NFT 变异 / Miner NFT / 其他。打新、台子/Meme、GO盘用完整卡片。点品类「挖矿」或顶栏药丸跳到对应列。
+- 面板：宽屏（≥1280px）五列 `.board`，顺序 **打新 | 挖矿 | 台子/Meme | GO盘 | LayerZero**；1280–1679 可横向滚动（列 min≈220px），≥1680 五列均分不挤死。窄屏纵向堆叠，顺序相同。
+- 互斥归类（一条只进一列）：**LayerZero 最优先**（`tags` 含 layerzero/lz/oft/zro，或 `chain` 为 LayerZero/Zero / 含 layerzero，或文案含 LayerZero）→ 挖矿（`category: 挖矿` / `miningType` / 挖矿 tags）→ GO盘（`playStyle === "go"`，或 id/名称匹配 pumpgo/stokn，或 tags 含 定位 / GO玩法 / AR / 地图 / 走路挖矿）→ 台子/Meme（`category` ∈ 新台、Meme、Launchpad）→ 其余进打新（当前主要为 NFT）。同时是 NFT/台子 等也进 LayerZero 栏，不重复出现在其他栏。
+- 默认排序「最新信号」：有 `firstSeen` 或 `addedAt` 则新的在前，否则 `round` 降序；同轮 `whatsNew` 非空优先，再按 `scores.overall` / `earlyScore`。五列共用；下拉仍可改早期程度 / 综合 / 日程 / 风险 / 名称。
+- 挖矿列保持紧凑 `.mining-row` + GPU PoW / NFT 变异 / Miner NFT / 其他。打新、台子/Meme、GO盘、LayerZero 用完整卡片。点品类「挖矿」或顶栏药丸跳到对应列；LayerZero 监控顶栏/芯片可跳第五栏。
 - 例行搜刮需同时扫：新 GPU 矿币、AI-PoW、NFT 变异盘 / Miner NFT 早期信号。

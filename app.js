@@ -130,7 +130,7 @@
       return true;
     }
     const chain = String(c.chain || "").toLowerCase();
-    if (chain === "layerzero" || chain === "zero") return true;
+    if (chain === "layerzero" || chain === "zero" || chain.includes("layerzero")) return true;
     const blob = `${c.name} ${c.whyWatch || ""} ${c.background || ""}`.toLowerCase();
     return blob.includes("layerzero") || blob.includes("layer zero");
   }
@@ -165,8 +165,9 @@
 
   const PLATFORM_CATS = new Set(["新台", "Meme", "Launchpad"]);
 
-  /** Exactly one column: mining > GO > 台子/Meme > 打新. */
+  /** Exactly one column: LayerZero > mining > GO > 台子/Meme > 打新. */
   function zoneOf(c) {
+    if (isLayerZero(c)) return "lz";
     if (isMining(c)) return "mining";
     if (isGoPlay(c)) return "go";
     if (PLATFORM_CATS.has(c.category)) return "meme";
@@ -674,7 +675,8 @@
         )
         .join("") +
       `<button type="button" class="chip cat-go" data-group="zoneJump" data-value="go-panel">GO盘</button>` +
-      `<button type="button" class="chip cat-meme-jump" data-group="zoneJump" data-value="meme-panel">台子/Meme</button>`;
+      `<button type="button" class="chip cat-meme-jump" data-group="zoneJump" data-value="meme-panel">台子/Meme</button>` +
+      `<button type="button" class="chip chip-lz" data-group="zoneJump" data-value="lz-panel">LayerZero</button>`;
 
     const chains = [
       { id: "all", label: "全部链" },
@@ -809,9 +811,13 @@
     { id: "mining", grid: "#mining-grid", count: "#mining-count", label: "挖矿", cards: false },
     { id: "meme", grid: "#meme-grid", count: "#meme-count", label: "台子 / Meme", cards: true },
     { id: "go", grid: "#go-grid", count: "#go-count", label: "GO盘", cards: true },
+    { id: "lz", grid: "#lz-grid", count: "#lz-count", label: "LayerZero", cards: true },
   ];
 
-  function emptyColumnHtml(label) {
+  function emptyColumnHtml(label, zoneId) {
+    if (zoneId === "lz") {
+      return `<div class="empty empty-lz"><div class="lz-badge-lg">LZ</div><div>暂无 LayerZero 相关候选</div><div class="empty-sub">盯 Zero 开链 · ATLAS · OFT 发射 · 生态极早期</div></div>`;
+    }
     if (state.layerzero === "on") {
       return `<div class="empty empty-lz"><div class="lz-badge-lg">LZ</div><div>当前筛选下暂无${escapeHtml(label)}</div></div>`;
     }
@@ -828,7 +834,7 @@
         host.innerHTML =
           zone.id === "mining"
             ? `<div class="empty-mining">挖矿暂无匹配项</div>`
-            : emptyColumnHtml(zone.label);
+            : emptyColumnHtml(zone.label, zone.id);
       } else {
         host.innerHTML = zone.cards ? list.map(cardHtml).join("") : list.map(miningRowHtml).join("");
       }
@@ -847,20 +853,21 @@
 
     const pool = state.data.candidates.filter(hasTwitter);
     const total = pool.length;
-    const lzN = pool.filter(isLayerZero).length;
     const soonN = pool.filter(within24h).length;
     const minePill = $("#mining-pill");
     const goPill = $("#go-pill");
+    const lzPill = $("#lz-pill");
     if (minePill) minePill.textContent = `挖矿 · ${counts.mining.total}`;
     if (goPill) goPill.textContent = `GO盘 · ${counts.go.total}`;
+    if (lzPill) lzPill.textContent = `LayerZero · ${counts.lz.total}`;
     $("#stats").innerHTML = `
       打新 <b>${counts.scout.shown}</b> ·
       挖矿 <b>${counts.mining.shown}</b> ·
       台子/Meme <b>${counts.meme.shown}</b> ·
       GO盘 <b>${counts.go.shown}</b> ·
+      LayerZero <b>${counts.lz.shown}</b> ·
       共 <b>${total}</b> ·
       即将开售 <b>${soonN}</b> ·
-      LayerZero <b>${lzN}</b> ·
       <b>仅显示有推特</b> ·
       更新 <b>${escapeHtml(updatedLabel())}</b>
     `;
