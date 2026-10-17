@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-18 00:42 CST",
+    "updated": "2026-10-18 00:44 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "R177: Elysium panel UI + ecosystem admit (Enter_Elysium/Speculate + tag existing)",
-    "lastScout": "2026-10-18 00:40 CST",
+    "source": "R178: Elysium watchlist fill — +pindar-finance,purrcade-games,neuriio; AscendLaunch focus★5; Eloscape score↑★4",
+    "lastScout": "2026-10-18 00:44 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -331,7 +331,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 177,
+    "round": 178,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -408,7 +408,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 467,
+    "candidateCount": 470,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -725,6 +725,7 @@
       "hamster-hour"
     ],
     "focusIds": [
+      "ascendlaunch",
       "squeekchain",
       "hamster-hour",
       "enter-elysium"
@@ -813,8 +814,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "enter-elysium",
-      "speculate"
+      "pindar-finance",
+      "purrcade-games",
+      "neuriio"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1086,21 +1088,27 @@
         "@Enter_Elysium",
         "@AscendLaunch",
         "@eloscapeHQ",
-        "@speculatexyz",
         "@MontraXYZ",
+        "@Pantheonindex",
+        "@Pindar_finance",
         "@aegis_hedge",
-        "@kalosfun",
-        "@Pantheonindex"
+        "@speculatexyz",
+        "@PurrCadeGames",
+        "@Neuriio",
+        "@kalosfun"
       ],
       "candidateIds": [
         "enter-elysium",
         "ascendlaunch",
         "eloscape",
-        "speculate",
         "montra",
+        "pantheonindex",
+        "pindar-finance",
         "aegis-hedge",
-        "kalosfun",
-        "pantheonindex"
+        "speculate",
+        "purrcade-games",
+        "neuriio",
+        "kalosfun"
       ],
       "focus": [
         "Elysium / Orbit L2 本体",
@@ -1115,7 +1123,7 @@
         "Hyperliquid-adjacent L2 toy ecosystems (Elysium-class)"
       ],
       "admitRule": "有推特的清晰 Elysium / Enter_Elysium 生态子项目 → ecosystem:Elysium + tags 含 Elysium生态；互斥进第六栏「Elysium 生态」。同类新生态（非仅链名撞车）也应持续扫并扩 watch。",
-      "note": "R177：面板新增第六栏与「Elysium 生态」链筛；收录 enter-elysium / speculate，并标既有成员。Elysium 仅为加栏加盯一例——例行须对打新/挖矿/台子/GO/LZ/其它生态同等努力，不得收缩为只扫 Elysium。 另：pantheonindex 已有 Elysium 链，一并纳入第六栏。",
+      "note": "R178：按用户关注榜补录 Pindar / PurrCade / Neuriio；AscendLaunch 标 focus；Eloscape 提高 early/actionable。",
       "lastChecked": "2026-10-18 00:40 CST",
       "scope": "additive",
       "equalEffortWith": [
@@ -1130,9 +1138,209 @@
     "round177Added": [
       "enter-elysium",
       "speculate"
+    ],
+    "round178Added": [
+      "pindar-finance",
+      "purrcade-games",
+      "neuriio"
     ]
   },
   "candidates": [
+    {
+      "id": "neuriio",
+      "name": "Neuriio",
+      "category": "打新",
+      "chain": "Elysium",
+      "links": {
+        "x": "https://x.com/Neuriio",
+        "signal": "https://x.com/Neuriio"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "tags": [
+        "Elysium生态",
+        "Elysium",
+        "社交市场",
+        "SocialFi",
+        "极早期",
+        "本轮新"
+      ],
+      "status": "early",
+      "riskLevel": "high",
+      "ecosystem": "Elysium",
+      "source": "Manual+DS R178 Elysium watchlist fill",
+      "scores": {
+        "early": 88,
+        "actionable": 48,
+        "novelty": 74,
+        "risk": 78,
+        "overall": 68,
+        "composite": 6.8,
+        "raw100": {
+          "early": 88,
+          "actionable": 48,
+          "novelty": 74,
+          "risk": 78,
+          "overall": 68
+        }
+      },
+      "highlights": [
+        "把账号代币化，构建社交市场",
+        "基于 Elysium 构建，切入社交资产赛道",
+        "相对同批项目粉丝更多（约 586）"
+      ],
+      "drawbacks": [
+        "账号代币化涉及合规与平台政策风险",
+        "社交市场冷启动依赖头部账号入驻",
+        "产品细节与代币机制尚未公开"
+      ],
+      "whatsNew": "提出账号代币化加社交市场的组合玩法。",
+      "whyWatch": "社交资产代币化若落地，可能为 Elysium 带来非 DeFi 类用户。",
+      "background": "Neuriio（https://x.com/Neuriio）：Elysium 社交市场/账号代币化；R178 关注榜补录。",
+      "newThisRound": true,
+      "round": 178,
+      "round178Added": true,
+      "addedAt": "2026-10-18 00:44 CST",
+      "firstSeen": "2026-10-18 00:44 CST",
+      "alert": null,
+      "mintStatus": "unknown",
+      "earlyScore": 88,
+      "riskScore": 78,
+      "risk": 78,
+      "social": {
+        "xFollowers": 586
+      }
+    },
+    {
+      "id": "purrcade-games",
+      "name": "PurrCade",
+      "category": "打新",
+      "chain": "Elysium",
+      "links": {
+        "x": "https://x.com/PurrCadeGames",
+        "signal": "https://x.com/PurrCadeGames"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "tags": [
+        "Elysium生态",
+        "Elysium",
+        "链上游戏",
+        "GameFi",
+        "极早期",
+        "本轮新"
+      ],
+      "status": "early",
+      "riskLevel": "high",
+      "ecosystem": "Elysium",
+      "source": "Manual+DS R178 Elysium watchlist fill",
+      "scores": {
+        "early": 90,
+        "actionable": 42,
+        "novelty": 70,
+        "risk": 82,
+        "overall": 66,
+        "composite": 6.6,
+        "raw100": {
+          "early": 90,
+          "actionable": 42,
+          "novelty": 70,
+          "risk": 82,
+          "overall": 66
+        }
+      },
+      "highlights": [
+        "Elysium 上的移动端街机游戏，测试网已上线",
+        "4 小时排行榜机制，前四名分走每局 50% 入场费",
+        "玩法轻量，适合链上高频互动"
+      ],
+      "drawbacks": [
+        "2026-10 建号，粉丝仅 18，几乎无社区基础",
+        "排行榜抽成模式依赖持续玩家流入",
+        "游戏深度有限，留存能力待验证"
+      ],
+      "whatsNew": "Elysium 测试网已上线 4 小时排行榜街机玩法。",
+      "whyWatch": "小额入场费加排行榜分成的模式，是观察 Elysium 游戏侧真实需求的样本。",
+      "background": "PurrCade（https://x.com/PurrCadeGames）：Elysium 链上街机游戏；R178 关注榜补录。",
+      "newThisRound": true,
+      "round": 178,
+      "round178Added": true,
+      "addedAt": "2026-10-18 00:44 CST",
+      "firstSeen": "2026-10-18 00:44 CST",
+      "alert": null,
+      "mintStatus": "unknown",
+      "earlyScore": 90,
+      "riskScore": 82,
+      "risk": 82,
+      "social": {
+        "xFollowers": 18
+      }
+    },
+    {
+      "id": "pindar-finance",
+      "name": "Pindar",
+      "category": "打新",
+      "chain": "Elysium",
+      "links": {
+        "x": "https://x.com/Pindar_finance",
+        "signal": "https://x.com/Pindar_finance"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "tags": [
+        "Elysium生态",
+        "Elysium",
+        "资金费率",
+        "DeFi",
+        "极早期",
+        "本轮新"
+      ],
+      "status": "early",
+      "riskLevel": "high",
+      "ecosystem": "Elysium",
+      "source": "Manual+DS R178 Elysium watchlist fill",
+      "scores": {
+        "early": 86,
+        "actionable": 52,
+        "novelty": 72,
+        "risk": 76,
+        "overall": 70,
+        "composite": 7.0,
+        "raw100": {
+          "early": 86,
+          "actionable": 52,
+          "novelty": 72,
+          "risk": 76,
+          "overall": 70
+        }
+      },
+      "highlights": [
+        "把 HyperliquidX 资金费率拆成固定稳定与浮动波动两部分",
+        "产品方向直击永续交易者费率对冲痛点",
+        "背靠 Elysium 生态扩张叙事"
+      ],
+      "drawbacks": [
+        "2026-09 才建号，粉丝仅 129，社区几乎为零",
+        "资金费率拆分机制复杂，早期流动性存疑",
+        "尚无公开产品数据或审计信息"
+      ],
+      "whatsNew": "首次将 HyperliquidX 资金费率结构化为固定与浮动两层产品。",
+      "whyWatch": "若资金费率拆分跑通，可能成为 Elysium 上费率对冲的基础设施。",
+      "background": "Pindar（https://x.com/Pindar_finance）：Elysium 生态资金费率拆分项目；R178 关注榜补录。",
+      "newThisRound": true,
+      "round": 178,
+      "round178Added": true,
+      "addedAt": "2026-10-18 00:44 CST",
+      "firstSeen": "2026-10-18 00:44 CST",
+      "alert": null,
+      "mintStatus": "unknown",
+      "earlyScore": 86,
+      "riskScore": 76,
+      "risk": 76,
+      "social": {
+        "xFollowers": 129
+      }
+    },
     {
       "id": "speculate",
       "name": "Speculate",
@@ -1148,8 +1356,7 @@
         "Elysium生态",
         "Elysium",
         "预测市场",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "status": "early",
       "riskLevel": "high",
@@ -1183,7 +1390,7 @@
       "whatsNew": "Elysium 生态内预测市场项目 Speculate 极早期亮相。",
       "whyWatch": "预测市场若跑通可为 Elysium 生态带来真实需求与打新机会。",
       "background": "Speculate（https://x.com/speculatexyz）：Elysium 生态项目；R177 面板收录。",
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 177,
       "round177Added": true,
       "addedAt": "2026-10-18 00:40 CST",
@@ -1213,8 +1420,7 @@
         "Elysium",
         "生态本体",
         "重点",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "status": "early",
       "riskLevel": "high",
@@ -1248,7 +1454,7 @@
       "whatsNew": "Elysium 生态本体作为 Hyperliquid 相关 L2 极早期进入视野。",
       "whyWatch": "作为生态母体，其动向决定 AscendLaunch 等子项目打新节奏。",
       "background": "Elysium（https://x.com/Enter_Elysium）：Elysium 生态项目；R177 面板收录。",
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 177,
       "round177Added": true,
       "addedAt": "2026-10-18 00:40 CST",
@@ -32080,18 +32286,18 @@
         "signal": "https://x.com/detaaqua/status/2111436887583871065"
       },
       "scores": {
-        "early": 80,
-        "actionable": 65,
-        "novelty": 66,
-        "risk": 65,
-        "overall": 64,
-        "composite": 6.4,
+        "early": 88,
+        "actionable": 70,
+        "novelty": 68,
+        "risk": 68,
+        "overall": 74,
+        "composite": 7.4,
         "raw100": {
-          "early": 80,
-          "actionable": 65,
-          "novelty": 66,
-          "risk": 65,
-          "overall": 64
+          "early": 88,
+          "actionable": 70,
+          "novelty": 68,
+          "risk": 68,
+          "overall": 74
         }
       },
       "highlights": [
@@ -32133,15 +32339,16 @@
       "lastRefreshedAt": "2026-10-17T21:11:12+08:00",
       "round": 166,
       "newThisRound": false,
-      "earlyScore": 80,
-      "riskScore": 65,
-      "risk": 65,
+      "earlyScore": 88,
+      "riskScore": 68,
+      "risk": 68,
       "riskLevel": "中",
       "flag": "new",
       "miningType": "other",
       "background": "Eloscape（@eloscapeHQ）：Virtual mining protocol on Enter_Elysium；No token live yet。",
       "whyWatch": "Elysium 测试网虚拟挖矿；未发币；粉≈975。",
-      "ecosystem": "Elysium"
+      "ecosystem": "Elysium",
+      "focus": false
     },
     {
       "id": "citrus-dunkers",
@@ -32725,7 +32932,8 @@
         "极早期",
         "Elysium生态",
         "Elysium",
-        "启动平台"
+        "启动平台",
+        "重点"
       ],
       "chain": "Elysium",
       "links": {
@@ -32745,23 +32953,23 @@
         "source": "X+DS R174",
         "note": "等待主网、审计结果与首期 launch 公告"
       },
-      "focus": false,
+      "focus": true,
       "lzVerified": false,
       "alert": null,
       "source": "X+DS R174",
       "scores": {
-        "early": 80,
-        "actionable": 58,
-        "novelty": 55,
-        "risk": 75,
-        "overall": 59,
-        "composite": 5.9,
+        "early": 93,
+        "actionable": 72,
+        "novelty": 68,
+        "risk": 72,
+        "overall": 80,
+        "composite": 8.0,
         "raw100": {
-          "early": 80,
-          "actionable": 58,
-          "novelty": 55,
-          "risk": 75,
-          "overall": 59
+          "early": 93,
+          "actionable": 72,
+          "novelty": 68,
+          "risk": 72,
+          "overall": 80
         }
       },
       "highlights": [
@@ -32780,7 +32988,11 @@
       "round174Added": true,
       "addedAt": "2026-10-17 23:33 CST",
       "firstSeen": "2026-10-17 23:33 CST",
-      "ecosystem": "Elysium"
+      "ecosystem": "Elysium",
+      "earlyScore": 93,
+      "riskScore": 72,
+      "risk": 72,
+      "status": "early"
     },
     {
       "id": "kalosfun",
