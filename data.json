@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-18 00:08 CST",
+    "updated": "2026-10-18 00:12 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "R175: Trencher+RobinXP+NorthBound+X MCP+Web(yore/playground)+DS admit/score",
-    "lastScout": "2026-10-17 23:33 CST",
+    "lastScout": "2026-10-18 00:12 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -46,8 +46,8 @@
         "zeromeme-fun",
         "oftpad"
       ],
-      "note": "本轮无新核验 LZ；自称 OFT/omnichain 未独立核验→不进 LayerZero。",
-      "lastChecked": "2026-10-18 00:08 CST"
+      "note": "无新 Zero/ATLAS；oftpad/armoreum 仍台子/Meme lzVerified=false；Aerie成熟层跳过；本轮无新 LZ。",
+      "lastChecked": "2026-10-18 00:12 CST"
     },
     "round5Added": [
       "farming-season",
@@ -165,7 +165,7 @@
     ],
     "miningWatch": {
       "active": true,
-      "lastChecked": "2026-10-18 00:08 CST",
+      "lastChecked": "2026-10-18 00:12 CST",
       "note": "续盯 Midstate/MineGPU/Common Foundry/Toadex；本轮无新 GPU PoW。",
       "candidateIds": [
         "midstate-mds",
@@ -403,7 +403,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 459,
+    "candidateCount": 461,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -635,7 +635,7 @@
         "fee split / S02"
       ],
       "note": "playground.token.works 可访；本轮无新 public factory 信号。",
-      "lastChecked": "2026-10-18 00:08 CST"
+      "lastChecked": "2026-10-18 00:12 CST"
     },
     "round97Added": [
       "evrynth"
@@ -726,7 +726,7 @@
     "focusWatch": {
       "active": true,
       "label": "重点栏 · 实验玩具链监视",
-      "lastChecked": "2026-10-18 00:08 CST",
+      "lastChecked": "2026-10-18 00:12 CST",
       "seedFirst": "squeekchain",
       "accounts": [
         "@squeekchain",
@@ -751,8 +751,8 @@
         "公平分配叙事的极早期 peer"
       ],
       "admitRule": "有 Twitter 的清晰早期 peer → focus:true 进重点栏（或至少 tags 含 重点 + 写入 focusWatch）；squeekchain 保持重点首位",
-      "note": "squeekchain 仍 Coming soon·0推文；hamster-hour 续；本轮无新 toychain 重点。",
-      "xApiNote": "R175：X MCP get_users/search_posts_all/get_users_posts。",
+      "note": "squeekchain 官站仍 Coming soon；hamster-hour 续；本轮无新 toychain 重点。",
+      "xApiNote": "R175：X MCP可用；并行scout合并。",
       "ids": [
         "squeekchain",
         "hamster-hour"
@@ -811,7 +811,9 @@
       "moonbase",
       "homelesshood-rh",
       "bloomfun",
-      "frontonauts"
+      "frontonauts",
+      "buypurps",
+      "thestrainlab"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1065,11 +1067,148 @@
       "moonbase",
       "homelesshood-rh",
       "bloomfun",
-      "frontonauts"
+      "frontonauts",
+      "buypurps",
+      "thestrainlab"
     ],
     "peekLearnNote": "R175：对照 NorthBound 早期 call / Trencher 盲区补录 ink-pebble、rage-baiter 等；未照搬热度榜；跳过无推特 HyperBOT/INKBOX 等。"
   },
   "candidates": [
+    {
+      "id": "buypurps",
+      "name": "Purps",
+      "category": "新台",
+      "tags": [
+        "新台",
+        "Launchpad",
+        "Solana",
+        "perps",
+        "meme",
+        "极早期",
+        "本轮新",
+        "台子/Meme"
+      ],
+      "chain": "Solana",
+      "links": {
+        "x": "https://x.com/buypurps",
+        "signal": "https://x.com/buypurps"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "live",
+        "phases": [
+          {
+            "name": "Pad live",
+            "note": "perps抵押/任意配对发币；$PURPS 已交易"
+          }
+        ],
+        "source": "X+DS R175",
+        "note": "Solana pad LIVE；$PURPS 已流动"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "alert": null,
+      "source": "X+DS R175",
+      "scores": {
+        "early": 60,
+        "actionable": 82,
+        "novelty": 66,
+        "risk": 44,
+        "overall": 64,
+        "composite": 6.4,
+        "raw100": {
+          "early": 60,
+          "actionable": 82,
+          "novelty": 66,
+          "risk": 44,
+          "overall": 64
+        }
+      },
+      "highlights": [
+        "perps 抵押或任意配对发币，模式有差异化",
+        "$PURPS 已上线交易，24h 约 +55%",
+        "约 2.2k 关注，仍属早期发射台"
+      ],
+      "drawbacks": [
+        "代币已拉升，最早期红利部分兑现",
+        "发射台赛道拥挤，洗盘与 rug 风险高",
+        "团队、审计与费用模型信息不足"
+      ],
+      "whatsNew": "$PURPS 代币已进入实盘交易，发射台从概念走向可用阶段。",
+      "newThisRound": true,
+      "round": 175,
+      "round175Added": true,
+      "addedAt": "2026-10-18 00:12 CST",
+      "firstSeen": "2026-10-18 00:12 CST"
+    },
+    {
+      "id": "thestrainlab",
+      "name": "TheStrainLab (TSL)",
+      "category": "打新",
+      "tags": [
+        "打新",
+        "NFT",
+        "实验",
+        "Free Mint",
+        "极早期",
+        "本轮新"
+      ],
+      "chain": "TBA",
+      "links": {
+        "x": "https://x.com/TheStrainLab",
+        "web": "https://thestrainlab.com/",
+        "signal": "https://x.com/TheStrainLab"
+      },
+      "schedule": {
+        "status": "watch",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "watch",
+        "phases": [
+          {
+            "name": "Location anomaly free mint",
+            "note": "位置异常解锁免费 mint；链 TBA"
+          }
+        ],
+        "source": "X+DS R175",
+        "note": "实验艺术 NFT；粉≈488"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "alert": null,
+      "source": "X+DS R175",
+      "scores": {
+        "early": 78,
+        "actionable": 44,
+        "novelty": 74,
+        "risk": 34,
+        "overall": 61,
+        "composite": 6.1,
+        "raw100": {
+          "early": 78,
+          "actionable": 44,
+          "novelty": 74,
+          "risk": 34,
+          "overall": 61
+        }
+      },
+      "highlights": [
+        "免费 mint，通过地理位置异常解锁",
+        "实验艺术/NFT 注册表气质，玩法少见",
+        "2025 年老号但仅约 488 关注，仍小众"
+      ],
+      "drawbacks": [
+        "所在链未公布，机制细节模糊",
+        "无明确 mint 时间、分配与总量",
+        "实验类项目留存与流动性通常较差"
+      ],
+      "whatsNew": "以位置异常解锁免费 mint 的实验艺术 NFT 项目。",
+      "newThisRound": true,
+      "round": 175,
+      "round175Added": true,
+      "addedAt": "2026-10-18 00:12 CST",
+      "firstSeen": "2026-10-18 00:12 CST"
+    },
     {
       "id": "ink-pebble",
       "name": "Ink Pebble",
@@ -1736,7 +1875,7 @@
             "note": "3%税·每3分钟回购销毁·泵币配对"
           }
         ],
-        "source": "X R174",
+        "source": "R175 refresh",
         "note": "Solana pad LIVE 税回购"
       },
       "focus": false,
@@ -1805,7 +1944,7 @@
             "note": "Base/ETH/RH/Arc"
           }
         ],
-        "source": "RX/X R174",
+        "source": "R175 refresh",
         "note": "pad LIVE"
       },
       "focus": false,
@@ -2562,7 +2701,7 @@
             "note": "同日"
           }
         ],
-        "source": "RX/X R174",
+        "source": "R175 refresh",
         "note": "GTD LIVE；粉≈214"
       },
       "risk": 66,
@@ -3632,8 +3771,8 @@
             "note": "supply555·3/wallet"
           }
         ],
-        "source": "X+NB R174",
-        "note": "≈23:22CST FREE PUBLIC LIVE",
+        "source": "X R175",
+        "note": "FREE PUBLIC LIVE 续",
         "mintStatus": "live"
       },
       "id": "glitch-gang",
@@ -5157,7 +5296,7 @@
             "note": "LIVE"
           }
         ],
-        "source": "X+NB R174",
+        "source": "R175 refresh",
         "note": "Vault FREE LIVE 延时"
       },
       "onchain": {
@@ -8561,7 +8700,7 @@
             "note": "Injective 主网已开；bonding+graduated 可见"
           }
         ],
-        "source": "Web+DS R175",
+        "source": "R175 refresh",
         "note": "主网已 live（本轮核验 yore.fun）",
         "mintStatus": "live"
       },
@@ -13220,8 +13359,8 @@
             "note": "supply 888；GTD LIVE"
           }
         ],
-        "source": "X+NB R174",
-        "note": "≈23:00CST 起 GTD/PUBLIC LIVE",
+        "source": "X R175",
+        "note": "PUBLIC PHASE LIVE",
         "mintStatus": "live"
       },
       "highlights": [
@@ -22593,7 +22732,7 @@
             "note": "≈23:00CST 窗口"
           }
         ],
-        "source": "X R174",
+        "source": "R175 refresh",
         "note": "RH SocialFi 合约 LIVE",
         "mintStatus": "live"
       },
@@ -24681,8 +24820,8 @@
             "note": "ETH"
           }
         ],
-        "source": "NB R174",
-        "note": "≈00:30CST FREE ETH",
+        "source": "X+NB R175",
+        "note": "≈00:30CST FREE ETH；官推已放 OS mint link",
         "mintStatus": "upcoming",
         "startsAt": "2026-10-17T16:30:00Z"
       },
@@ -25874,7 +26013,7 @@
             "price": "$2"
           }
         ],
-        "source": "X+NB R174",
+        "source": "X+NB R175",
         "note": "≈01:00CST ETH OpenSea GTD$1",
         "mintStatus": "upcoming"
       },
@@ -30835,7 +30974,7 @@
             "note": "500 · LIVE"
           }
         ],
-        "source": "X R174",
+        "source": "R175 refresh",
         "note": "PUBLIC FREE LIVE 约剩30"
       },
       "mintStatus": "live",
@@ -31744,7 +31883,7 @@
             "note": "LIVE 续"
           }
         ],
-        "source": "RX/X R174",
+        "source": "R175 refresh",
         "note": "PUBLIC FREE LIVE；粉≈3080"
       },
       "risk": 52,
