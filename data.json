@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-18 03:32 CST",
+    "updated": "2026-10-18 03:47 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "R186: +elypact,ink-futuristic; Trencher public board+X+dailyalpha+Web; Peek NFT/新台/AI/Elysium盲区; skip perppit/getfoodfi/darwin/ptsdshow; ≤2h Whale Traders≈03:30 / Pixel Deck PUBLIC≈04:50",
-    "lastScout": "2026-10-18T03:32:42.687809+08:00",
+    "lastScout": "2026-10-18T03:47:00.742651+08:00",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -291,7 +291,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 186,
+    "round": 187,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -368,7 +368,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 519,
+    "candidateCount": 521,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -746,8 +746,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "elypact",
-      "ink-futuristic"
+      "mosaic-elysium",
+      "qbtc"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1123,13 +1123,183 @@
       "ink-futuristic"
     ],
     "watches": {
-      "squeekchain": "PSA: launch end of October; mint only via @squeekchain",
-      "enter_elysium": "testnet live; ecosystem projects expanding",
+      "squeekchain": "PSA: launch end of October; mint only via @squeekchain; Sepolia test mint live",
+      "enter_elysium": "testnet live; mainnet ~Oct 20 rumor; eco expanding (Mosaic testnet)",
       "ascendlaunch": "staking audit submitted; mainnet prep",
-      "elypact": "new R186 Elysium OTC testnet"
-    }
+      "elypact": "new R186 Elysium OTC testnet",
+      "mosaic-elysium": "Elysium orderbook testnet live; tessera positions",
+      "qbtc": "local testnet PoW; public mining TBA"
+    },
+    "round187Added": [
+      "mosaic-elysium",
+      "qbtc"
+    ]
   },
   "candidates": [
+    {
+      "id": "mosaic-elysium",
+      "name": "Mosaic",
+      "category": "台子/Meme",
+      "chain": "Elysium",
+      "links": {
+        "x": "https://x.com/Mosaic_Elysium",
+        "signal": "https://x.com/Mosaic_Elysium"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "tags": [
+        "Elysium生态",
+        "Elysium",
+        "台子/Meme",
+        "DEX",
+        "订单簿",
+        "testnet",
+        "极早期",
+        "本轮新"
+      ],
+      "status": "early",
+      "riskLevel": "high",
+      "ecosystem": "Elysium",
+      "source": "X+dailyalpha+DS R187",
+      "social": {
+        "followers": 99
+      },
+      "mintStatus": "live",
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "live",
+        "phases": [
+          {
+            "name": "Elysium testnet",
+            "note": "faucet mETH/mUSD in-app；book 0xe3A3553c07539a98e8b1995c4a5068432e8d7942"
+          }
+        ],
+        "source": "X @Mosaic_Elysium R187",
+        "note": "测试网可交互；主网未定"
+      },
+      "background": "Elysium 可组合订单簿：挂单仓位铸成可转让 tessera token；taker 按 tick pro-rata 成交；测试网已开放，app 内 faucet 领 mETH/mUSD；book 合约 0xe3A3553c…7942。2026-10-03 建号，约 99 粉。",
+      "whyWatch": "进测试网领 faucet、挂/撤单体验 tessera；观察 Elysium 主网上线与激励。",
+      "alert": null,
+      "scores": {
+        "early": 88,
+        "actionable": 80,
+        "novelty": 78,
+        "risk": 68,
+        "overall": 79,
+        "composite": 7.9,
+        "raw100": {
+          "early": 88,
+          "actionable": 80,
+          "novelty": 78,
+          "risk": 68,
+          "overall": 79
+        }
+      },
+      "highlights": [
+        "Elysium 上可组合订单簿，挂单仓位铸成可转让 tessera",
+        "pro-rata 按比例成交，机制区别于常见 AMM",
+        "测试网已开放 mETH/mUSD faucet，可立即上手",
+        "仅约99粉、2026-10 建号，属极早期"
+      ],
+      "drawbacks": [
+        "仅测试网，代币与激励未披露",
+        "团队、融资背景未公开",
+        "粉丝基数极小，存在弃坑风险",
+        "Elysium 生态整体流动性与关注度未知"
+      ],
+      "whatsNew": "Elysium 上的可组合订单簿测试网上线，挂单即可铸成可转让 tessera。",
+      "earlyScore": 88,
+      "riskScore": 68,
+      "risk": 68,
+      "round": 187,
+      "newThisRound": true,
+      "addedAt": "2026-10-18 03:47 CST",
+      "firstSeen": "2026-10-18 03:47 CST"
+    },
+    {
+      "id": "qbtc",
+      "name": "QBTC",
+      "category": "挖矿",
+      "chain": "独立L1",
+      "links": {
+        "x": "https://x.com/QbtcTech",
+        "signal": "https://x.com/QbtcTech"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "tags": [
+        "挖矿",
+        "PoW",
+        "后量子",
+        "L1",
+        "极早期",
+        "本轮新"
+      ],
+      "status": "early",
+      "riskLevel": "high",
+      "ecosystem": null,
+      "source": "X+DS R187",
+      "social": {
+        "followers": 69
+      },
+      "mintStatus": "tba",
+      "schedule": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "tba",
+        "phases": [
+          {
+            "name": "Local testnet",
+            "note": "Phase 6.8E security hardening"
+          },
+          {
+            "name": "Public mining",
+            "note": "TBA"
+          }
+        ],
+        "source": "X @QbtcTech R187",
+        "note": "仅本地 testnet；外部挖矿未开放"
+      },
+      "background": "量子安全 PoW L1：SLH-DSA 签名 + Argon2d PoW；Phase 6.8E 安全加固中；本地 testnet。约 69 粉极早期，外部矿池/代币分配未公开。",
+      "whyWatch": "跟踪开源与公开 testnet/矿池；勿投入真金，仅作 PoW 叙事观察。",
+      "alert": null,
+      "scores": {
+        "early": 85,
+        "actionable": 38,
+        "novelty": 72,
+        "risk": 78,
+        "overall": 58,
+        "composite": 5.8,
+        "raw100": {
+          "early": 85,
+          "actionable": 38,
+          "novelty": 72,
+          "risk": 78,
+          "overall": 58
+        }
+      },
+      "highlights": [
+        "后量子路线：SLH-DSA 签名 + Argon2d PoW",
+        "已推进至 Phase 6.8E 安全加固",
+        "约69粉，属极早期 PoW L1",
+        "叙事切中量子威胁热点"
+      ],
+      "drawbacks": [
+        "仅本地 testnet，外部矿工无法参与",
+        "无公开矿池、算力与代币分配细节",
+        "团队匿名，缺文档与审计",
+        "后量子 PoW 概念大于实证"
+      ],
+      "whatsNew": "量子安全 PoW 链推进 Phase 6.8E，但仍停留在本地测试网阶段。",
+      "earlyScore": 85,
+      "riskScore": 78,
+      "risk": 78,
+      "round": 187,
+      "newThisRound": true,
+      "addedAt": "2026-10-18 03:47 CST",
+      "firstSeen": "2026-10-18 03:47 CST"
+    },
     {
       "id": "zk-skulls",
       "name": "zkSkulls",
@@ -36445,7 +36615,6 @@
         "OTC",
         "testnet",
         "极早期",
-        "本轮新",
         "Ascend"
       ],
       "status": "early",
@@ -36508,7 +36677,7 @@
       "riskScore": 55,
       "risk": 55,
       "round": 186,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-18 03:32 CST",
       "firstSeen": "2026-10-18 03:32 CST"
     },
@@ -36528,7 +36697,6 @@
         "Ink",
         "FREE",
         "极早期",
-        "本轮新",
         "NFT"
       ],
       "status": "early",
@@ -36590,7 +36758,7 @@
       "riskScore": 82,
       "risk": 82,
       "round": 186,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-18 03:32 CST",
       "firstSeen": "2026-10-18 03:32 CST"
     }
