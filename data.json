@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-17 18:50 CST",
+    "updated": "2026-10-17 19:16 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "R160: X MCP + RobinXP robin-xp.com/api/live + OpenSea stats + squeek/yore/midstate/playground/pantheon/etalabs/minegpu/jetburn/deathbox/sealedpunk.com + GitHub midwimble；Peek/NorthBound落地页不可用未照搬。",
-    "lastScout": "2026-10-17 18:50 CST",
+    "source": "R161: X MCP + RobinXP robin-xp.com/api/live + OpenSea collection pages + squeek/yore/midstate/playground/minegpu/etalabs/jetburn/deathbox/sealedpunk/idle/zoo/repo + DS admit/score；Peek样例漏项已在库未照搬热榜。",
+    "lastScout": "2026-10-17 19:16 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -46,8 +46,8 @@
         "zeromeme-fun",
         "oftpad"
       ],
-      "note": "无新 Zero/ATLAS 开链证据（仅见Aerie后量子签名研究新闻）；armoreum/oftpad 保持台子/Meme lzVerified=false；本轮无新 LZ。",
-      "lastChecked": "2026-10-17 18:50 CST"
+      "note": "无新 Zero/ATLAS 开链证据；MemeCore接LZ属成熟生态不收；armoreum/oftpad 保持台子/Meme lzVerified=false；本轮无新 LZ。",
+      "lastChecked": "2026-10-17 19:16 CST"
     },
     "round5Added": [
       "farming-season",
@@ -349,7 +349,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 160,
+    "round": 161,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -426,7 +426,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 415,
+    "candidateCount": 416,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -658,7 +658,7 @@
         "fee split / S02"
       ],
       "note": "playground.token.works 仍可访；@Rhynotic 续盯。",
-      "lastChecked": "2026-10-17 18:50 CST"
+      "lastChecked": "2026-10-17 19:16 CST"
     },
     "round97Added": [
       "evrynth"
@@ -749,7 +749,7 @@
     "focusWatch": {
       "active": true,
       "label": "重点栏 · 实验玩具链监视",
-      "lastChecked": "2026-10-17 18:50 CST",
+      "lastChecked": "2026-10-17 19:16 CST",
       "seedFirst": "squeekchain",
       "accounts": [
         "@squeekchain",
@@ -774,8 +774,8 @@
         "公平分配叙事的极早期 peer"
       ],
       "admitRule": "有 Twitter 的清晰早期 peer → focus:true 进重点栏（或至少 tags 含 重点 + 写入 focusWatch）；squeekchain 保持重点首位",
-      "note": "squeekchain仍Sepolia（≈1229粉·0推文·站Coming soon）；hamster-hour early access续（≈22粉）；无新独立 peer（midwimble属Midstate挖矿延伸，未标重点）。",
-      "xApiNote": "R160：X MCP可用；search_posts_all + get_users_by_usernames/posts。",
+      "note": "squeekchain仍Coming soon/Sepolia（≈1230粉·0推文）；hamster-hour early access续（≈22粉）；无新独立 peer 进重点。",
+      "xApiNote": "R161：X MCP可用；get_users + search_posts_all + get_users_posts。",
       "ids": [
         "squeekchain",
         "hamster-hour"
@@ -827,8 +827,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "midwimble",
-      "sealedpunk"
+      "idle-dungeon"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1009,6 +1008,9 @@
     "round160Added": [
       "midwimble",
       "sealedpunk"
+    ],
+    "round161Added": [
+      "idle-dungeon"
     ]
   },
   "candidates": [
@@ -1197,23 +1199,23 @@
         "phases": [
           {
             "name": "P2P board",
-            "note": "LIVE"
+            "note": "TRADE LIVE"
           }
         ],
-        "source": "Web R160",
-        "note": "P2P board LIVE",
+        "source": "Web R161",
+        "note": "P2P board LIVE；≈1211粉",
         "mintStatus": "live"
       },
       "social": {
-        "followers": 1177,
-        "xFollowers": 1205,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "followers": 1211,
+        "xFollowers": 1211,
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00"
       },
       "round": 155,
       "newThisRound": false,
       "addedAt": "2026-10-17T17:14:07+08:00",
       "firstSeen": "2026-10-17T17:14:07+08:00",
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00",
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00",
       "earlyScore": 88,
       "riskScore": 32,
       "highlights": [
@@ -1348,12 +1350,12 @@
         "phases": [
           {
             "name": "PUBLIC",
-            "price": "floor≈0.008",
-            "note": "OS≈243"
+            "price": "floor≈0.008 ETH",
+            "note": "OS≈248"
           }
         ],
-        "source": "OpenSea R160",
-        "note": "PUBLIC LIVE OS≈243",
+        "source": "OpenSea R161",
+        "note": "PUBLIC LIVE OS≈248",
         "mintStatus": "live"
       },
       "onchain": {
@@ -1367,16 +1369,17 @@
         "note": "R154 新收录；RobinXP/OS≈247/2K。"
       },
       "social": {
-        "xFollowers": null,
+        "xFollowers": 1376,
         "verified": false,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00",
-        "xId": "2093460824111136768"
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "xId": "2093460824111136768",
+        "followers": 1376
       },
       "round": 154,
       "newThisRound": false,
       "addedAt": "2026-10-17T16:49:43+08:00",
       "firstSeen": "2026-10-17T16:49:43+08:00",
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00",
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00",
       "earlyScore": 62,
       "riskScore": 38,
       "highlights": [
@@ -1442,12 +1445,13 @@
             "note": "站 HOW IT WORKS PRE-LAUNCH"
           }
         ],
-        "source": "Web+X R148|R157",
-        "note": "Nomination/Lights续盯"
+        "source": "X R161",
+        "note": "Ritual AI发射；≈5430粉"
       },
       "social": {
-        "xFollowers": 5432,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "xFollowers": 5430,
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 5430
       },
       "round": 148,
       "newThisRound": false,
@@ -1475,7 +1479,7 @@
         "属台子博弈而非直接资产打新"
       ],
       "whatsNew": "【R160续更】Nomination/Lights续盯；≈5432粉。",
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "id": "pantheonindex",
@@ -1511,13 +1515,14 @@
             "note": "$PNTH篮筐live；1100 stakers"
           }
         ],
-        "source": "X+Web R160",
-        "note": "testnet篮筐live；mainnet随Ascend",
+        "source": "X R161",
+        "note": "Ascend day-one；$PNTH；≈198粉",
         "mintStatus": "upcoming"
       },
       "social": {
-        "xFollowers": 196,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "xFollowers": 198,
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 198
       },
       "round": 148,
       "newThisRound": false,
@@ -1545,7 +1550,7 @@
         "主网时间与代币经济仍待发射验证"
       ],
       "whatsNew": "【R160续更】官帖：1100钱包在Elysium testnet质押；mainnet next w/ AscendLaunch；≈196粉。",
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "id": "aegis-hedge",
@@ -1583,12 +1588,13 @@
             "note": "launching on AscendLaunch；docs/litepaper live"
           }
         ],
-        "source": "X+GitBook R148|R157",
-        "note": "AscendLaunch窗口续盯"
+        "source": "X R161",
+        "note": "AscendLaunch；≈266粉"
       },
       "social": {
-        "xFollowers": 265,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "xFollowers": 266,
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 266
       },
       "round": 148,
       "newThisRound": false,
@@ -1616,7 +1622,7 @@
         "依赖 Elysium/HyperCore 生态与 Ascend 发射节奏"
       ],
       "whatsNew": "【R160续更】AscendLaunch窗口续盯；≈265粉。",
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "id": "minegpu",
@@ -1648,16 +1654,17 @@
         "phases": [
           {
             "name": "Pool",
-            "note": "live"
+            "note": "pool live · $MINEGPU on PONS"
           }
         ],
-        "source": "Web R160",
-        "note": "池live；$MINEGPU on PONS",
+        "source": "Web R161",
+        "note": "GPU池 live；≈29粉",
         "mintStatus": "live"
       },
       "social": {
         "xFollowers": 29,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 29
       },
       "round": 148,
       "newThisRound": false,
@@ -1687,7 +1694,7 @@
         "Robinhood Chain生态与RPC稳定性尚不成熟"
       ],
       "whatsNew": "【R160续更】Robinhood池live；$MINEGPU on PONS；≈29粉。",
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "id": "printerotc",
@@ -2684,10 +2691,11 @@
         "phases": [
           {
             "name": "PUBLIC",
+            "price": "floor~0.0048 ETH",
             "note": "≈527"
           }
         ],
-        "source": "RobinXP+OS R160",
+        "source": "OpenSea+RobinXP R161",
         "note": "PUBLIC LIVE≈527",
         "mintStatus": "live"
       },
@@ -2720,9 +2728,10 @@
       },
       "social": {
         "xFollowers": 646,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 646
       },
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "id": "new-gen-society",
@@ -2752,11 +2761,11 @@
         "phases": [
           {
             "name": "PUBLIC",
-            "note": "≈108"
+            "note": "RX≈108"
           }
         ],
-        "source": "RobinXP R160",
-        "note": "PUBLIC LIVE≈108",
+        "source": "RobinXP R161",
+        "note": "PUBLIC LIVE RX≈108",
         "mintStatus": "live"
       },
       "round": 136,
@@ -2788,9 +2797,10 @@
       },
       "social": {
         "xFollowers": 3511,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 3511
       },
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "id": "balam-fun",
@@ -3389,7 +3399,7 @@
             "note": "1977 Base"
           }
         ],
-        "source": "X R160",
+        "source": "X R161",
         "note": "≈21:19CST量级；1977 Base",
         "mintStatus": "upcoming"
       },
@@ -3421,9 +3431,10 @@
       "whatsNew": "【R160续更】官帖≈10:19UTC称3h倒计时→约21:19CST量级；供应1977 Base。",
       "social": {
         "xFollowers": 1066,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 1066
       },
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "id": "minepad",
@@ -3526,11 +3537,11 @@
         "phases": [
           {
             "name": "Mint",
-            "note": "10/19"
+            "note": "≈10-19"
           }
         ],
-        "source": "X R160",
-        "note": "mint≈10-19；今日直播已过",
+        "source": "X R161",
+        "note": "mint≈10-19",
         "mintStatus": "upcoming"
       },
       "onchain": {
@@ -3565,10 +3576,11 @@
       "playStyle": "go",
       "earlyScore": 7.0,
       "riskScore": 8.0,
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00",
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00",
       "social": {
         "xFollowers": 454,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 454
       },
       "flag": "≤2h"
     },
@@ -3755,8 +3767,9 @@
       "schedule": {
         "status": "watch",
         "timezone": "Asia/Shanghai",
-        "source": "Web+X R160",
-        "note": "仍Sepolia-only；站Coming soon；≈1229粉0推文"
+        "source": "Web+X R161",
+        "note": "仍Sepolia/Coming soon；≈1230粉·0推文；社区提testnet传闻未改站",
+        "mintStatus": "watch"
       },
       "onchain": {
         "chainId": 11155111,
@@ -3764,9 +3777,9 @@
         "lastCheckedAt": "2026-10-17T07:51:44.165084+08:00"
       },
       "social": {
-        "followers": 1226,
-        "xFollowers": 1229,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "followers": 1230,
+        "xFollowers": 1230,
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00"
       },
       "newThisRound": false,
       "flag": "WATCH",
@@ -3775,7 +3788,7 @@
       "firstSeen": "2026-10-17 02:15 CST",
       "earlyScore": 8.8,
       "riskScore": 8.5,
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "id": "hamster-hour",
@@ -3825,13 +3838,14 @@
       "schedule": {
         "status": "watch",
         "timezone": "Asia/Shanghai",
-        "source": "X R160",
-        "note": "early access续；≈22粉"
+        "source": "X R161",
+        "note": "early access续；≈22粉",
+        "mintStatus": "watch"
       },
       "social": {
         "followers": 22,
         "xFollowers": 22,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00"
       },
       "newThisRound": false,
       "flag": "WATCH",
@@ -3843,7 +3857,7 @@
       "onchain": {
         "lastCheckedAt": "2026-10-17T07:51:44.165084+08:00"
       },
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "id": "ape-blitz",
@@ -3998,7 +4012,7 @@
       "lzVerified": false,
       "earlyScore": 4.0,
       "riskScore": 8.5,
-      "lastRefreshedAt": "2026-10-17T15:33:37+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "id": "real-hood-people",
@@ -5214,21 +5228,23 @@
         "phases": [
           {
             "name": "主网挖矿",
-            "note": "GPU/CPU可挖；≈276粉"
+            "note": "midstate.cash续"
           }
         ],
-        "source": "Web+X R160",
-        "note": "挖矿live"
+        "source": "Web R161",
+        "note": "主网挖矿续；≈280粉",
+        "mintStatus": "live"
       },
       "social": {
-        "xFollowers": 276,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "xFollowers": 280,
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 280
       },
       "onchain": {
         "lastCheckedAt": "2026-10-17T07:51:44.165084+08:00"
       },
       "mintStatus": "live",
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "id": "vaultlings",
@@ -5589,8 +5605,8 @@
             "note": "playground.token.works 可访"
           }
         ],
-        "source": "Web R157",
-        "note": "站live"
+        "source": "Web R161",
+        "note": "playground.token.works 可访；@Rhynotic续"
       },
       "onchain": {
         "chainId": "ethereum/robinhood",
@@ -5608,7 +5624,7 @@
       "addedAt": "2026-10-16T22:44:26.241781+08:00",
       "firstSeen": "2026-10-16T22:44:26.241781+08:00",
       "round": 96,
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "id": "roast-ink",
@@ -6763,11 +6779,11 @@
         "phases": [
           {
             "name": "Mainnet launch",
-            "note": "Oct 17 16:00 UTC = 10-18 00:00CST"
+            "note": "Oct 17 4PM UTC = 10-18 00:00CST"
           }
         ],
-        "source": "Web+X R160",
-        "note": "主网≈10-18 00:00CST",
+        "source": "Web+X R161",
+        "note": "主网≈10-18 00:00CST；≈951粉",
         "mintStatus": "upcoming"
       },
       "onchain": {
@@ -6779,15 +6795,16 @@
         "note": "Injective fair-launch pad；主网 10-17 16:00UTC"
       },
       "social": {
-        "xFollowers": 948,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "xFollowers": 951,
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 951
       },
       "newThisRound": false,
       "round": 72,
       "addedAt": "2026-10-16T17:58:26+08:00",
       "firstSeen": "2026-10-16T17:58:26+08:00",
       "flag": "T-11h",
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "id": "fireworks-ctlg",
@@ -7744,10 +7761,10 @@
           {
             "name": "HOLDER",
             "price": "FREE→0.0004",
-            "note": "HOLDER窗"
+            "note": "窗续"
           }
         ],
-        "source": "R160",
+        "source": "OpenSea+X R161",
         "note": "HOLDER窗续",
         "mintStatus": "live"
       },
@@ -7788,9 +7805,11 @@
       "firstSeen": "2026-10-16T12:39:17+08:00",
       "addedAt": "2026-10-16T12:39:17+08:00",
       "newThisRound": false,
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00",
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00",
       "social": {
-        "xFollowers": 53
+        "xFollowers": 53,
+        "followers": 53,
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00"
       }
     },
     {
@@ -7833,8 +7852,8 @@
             "note": "≈20:00CST"
           }
         ],
-        "source": "OpenSea+X R160",
-        "note": "WL live；PUBLIC≈20:00CST；OS≈366/2222",
+        "source": "OpenSea+X+RobinXP R161",
+        "note": "WL live OS≈366/2222；PUBLIC≈20:00CST",
         "mintStatus": "live"
       },
       "onchain": {
@@ -7878,10 +7897,11 @@
       "addedAt": "2026-10-16T12:39:17+08:00",
       "newThisRound": false,
       "social": {
-        "xFollowers": 632,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "xFollowers": 633,
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 633
       },
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "id": "synthesis-eth",
@@ -8881,10 +8901,10 @@
         "phases": [
           {
             "name": "PUBLIC",
-            "note": "≈144"
+            "note": "RX/OS≈144"
           }
         ],
-        "source": "RobinXP R160",
+        "source": "OpenSea+RobinXP R161",
         "note": "PUBLIC LIVE≈144",
         "mintStatus": "live"
       },
@@ -8929,9 +8949,10 @@
       "newThisRound": false,
       "social": {
         "xFollowers": 1884,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 1884
       },
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "id": "the-surfboard",
@@ -15499,11 +15520,11 @@
         "phases": [
           {
             "name": "PUBLIC",
-            "note": "低进度"
+            "note": "RX≈26 / OS≈100 低进度"
           }
         ],
-        "source": "RobinXP R160",
-        "note": "PUBLIC LIVE 低进度",
+        "source": "OpenSea+RobinXP R161",
+        "note": "PUBLIC 低进度 RX≈26",
         "mintStatus": "live"
       },
       "highlights": [
@@ -15540,12 +15561,13 @@
       "flag": "≤2h",
       "social": {
         "xFollowers": 479,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 479
       },
       "osSupply": 100,
       "osOwners": 10,
       "minted": 100,
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00",
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00",
       "newThisRound": false
     },
     {
@@ -16587,8 +16609,8 @@
             "note": "需$IMD on RH；MetaMask/Blockaid警告"
           }
         ],
-        "source": "@blox_imd R125 R127 R128 R129 R130 · R134轻扫",
-        "note": "RH IMD矿机NFT玩法续盯"
+        "source": "X R161",
+        "note": "mint a blox.mine；≈3176粉续"
       },
       "highlights": [
         "bloximd.fun/mint 已 live",
@@ -16624,10 +16646,11 @@
       "status": "live",
       "mintStatus": "live",
       "social": {
-        "xFollowers": 3352,
-        "lastCheckedAt": "2026-10-17T01:45:56.390731+08:00"
+        "xFollowers": 3176,
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 3176
       },
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00",
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00",
       "newThisRound": false
     },
     {
@@ -17627,11 +17650,11 @@
         "phases": [
           {
             "name": "PUBLIC",
-            "note": "live"
+            "note": "多集合进度不一"
           }
         ],
-        "source": "RobinXP R160",
-        "note": "PUBLIC LIVE",
+        "source": "RobinXP+OpenSea R161",
+        "note": "PUBLIC LIVE（多slug）",
         "mintStatus": "live"
       },
       "onchain": {
@@ -17674,10 +17697,11 @@
       "status": "live",
       "mintStatus": "live",
       "social": {
-        "xFollowers": 1656,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "xFollowers": 1655,
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 1655
       },
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00",
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00",
       "newThisRound": false
     },
     {
@@ -21794,7 +21818,7 @@
       "chain": "multi",
       "mintStatus": "live",
       "lzVerified": false,
-      "lastRefreshedAt": "2026-10-17T15:33:37+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "id": "curvopad",
@@ -23994,7 +24018,7 @@
             "note": "≈381"
           }
         ],
-        "source": "RobinXP R160",
+        "source": "OpenSea+RobinXP R161",
         "note": "PUBLIC LIVE≈381",
         "mintStatus": "live"
       },
@@ -24032,9 +24056,10 @@
       "flag": "≤2h",
       "social": {
         "xFollowers": 274,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 274
       },
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "id": "requiem-hardware",
@@ -24073,7 +24098,7 @@
             "price": "$2"
           }
         ],
-        "source": "X R160",
+        "source": "X R161",
         "note": "≈10-18 01:00CST OpenSea ETH；999",
         "mintStatus": "upcoming"
       },
@@ -24111,10 +24136,11 @@
       "onchain": {
         "lastCheckedAt": "2026-10-17T07:51:44.165084+08:00"
       },
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00",
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00",
       "social": {
-        "xFollowers": 1081,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "xFollowers": 1084,
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 1084
       }
     },
     {
@@ -24319,11 +24345,11 @@
         "phases": [
           {
             "name": "PUBLIC",
-            "note": "RX续"
+            "note": "续盯"
           }
         ],
-        "source": "R160",
-        "note": "PUBLIC LIVE",
+        "source": "R161 carry",
+        "note": "PUBLIC 续",
         "mintStatus": "live"
       },
       "scores": {
@@ -24361,7 +24387,7 @@
         "xFollowers": 1900,
         "lastCheckedAt": "2026-10-17T14:56:08+08:00"
       },
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "id": "hoodtrons",
@@ -26108,12 +26134,12 @@
         "phases": [
           {
             "name": "OG",
-            "price": "~0.00005–0.0003",
+            "price": "~0.00005–0.0003 ETH",
             "note": "≈295/1333"
           }
         ],
-        "source": "RobinXP R160",
-        "note": "OG LIVE≈295/1333",
+        "source": "OpenSea+RobinXP R161",
+        "note": "OG LIVE OS/RX≈295/1333",
         "mintStatus": "live"
       },
       "id": "zany-apes",
@@ -26147,9 +26173,10 @@
       },
       "social": {
         "xFollowers": 172,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 172
       },
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "name": "LuckDrop",
@@ -26348,8 +26375,8 @@
             "note": "98/999至10-23"
           }
         ],
-        "source": "RobinXP R160",
-        "note": "PUBLIC LIVE 98/999 至10-23",
+        "source": "OpenSea+RobinXP R161",
+        "note": "PUBLIC LIVE OS/RX≈98/999",
         "mintStatus": "live"
       },
       "round": 140,
@@ -26381,9 +26408,10 @@
       },
       "social": {
         "xFollowers": 23,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 23
       },
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "id": "smart-cases",
@@ -28403,17 +28431,15 @@
         "phases": [
           {
             "name": "Whitelist",
-            "price": "TBA",
             "note": "jetburn.fun/whitelist"
           },
           {
             "name": "NFT mint",
-            "price": "TBA",
             "note": "2222 jets TBA"
           }
         ],
-        "source": "X+Web R160",
-        "note": "WL开放；mint TBA；≈58粉",
+        "source": "Web+X R161",
+        "note": "WL开放；mint TBA；≈59粉",
         "mintStatus": "upcoming"
       },
       "highlights": [
@@ -28439,15 +28465,15 @@
       "riskLevel": "高",
       "addedAt": "2026-10-17T18:31:26+08:00",
       "firstSeen": "2026-10-17T18:31:26+08:00",
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00",
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00",
       "status": "watch",
       "mintStatus": "upcoming",
       "flag": "本轮新",
       "social": {
-        "followers": 58,
+        "followers": 59,
         "handle": "@PlayJetburn",
-        "xFollowers": 58,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "xFollowers": 59,
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00"
       },
       "whyWatch": "RH arcade flyer 极早期；可飞 NFT 2222；WL 已开",
       "background": "Browser arcade + ownable flying jets on Robinhood Chain"
@@ -28482,11 +28508,11 @@
           {
             "name": "Operators mint",
             "price": "varies",
-            "note": "lvl10后RH mint LIVE"
+            "note": "deathbox.live 可玩；Operators mint续"
           }
         ],
-        "source": "X+Web R160",
-        "note": "Operators mint LIVE（lvl10）；≈125粉",
+        "source": "Web+X R161",
+        "note": "Operators/Play LIVE；≈125粉",
         "mintStatus": "live"
       },
       "highlights": [
@@ -28512,7 +28538,7 @@
       "riskLevel": "中",
       "addedAt": "2026-10-17T18:31:26+08:00",
       "firstSeen": "2026-10-17T18:31:26+08:00",
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00",
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00",
       "status": "watch",
       "mintStatus": "live",
       "flag": "本轮新",
@@ -28520,7 +28546,7 @@
         "followers": 125,
         "handle": "@DeathboxLive",
         "xFollowers": 125,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00"
       },
       "whyWatch": "浏览器 FPS + RH Operators mint 今日 live",
       "background": "Browser FPS; mintable Operators on Robinhood after lvl 10"
@@ -28533,7 +28559,7 @@
       "chain": "Midwimble",
       "status": "early",
       "flag": "TESTNET",
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 160,
       "addedAt": "2026-10-17T18:50:08+08:00",
       "firstSeen": "2026-10-17T18:50:08+08:00",
@@ -28545,8 +28571,7 @@
         "MimbleWimble",
         "Midstate",
         "testnet",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "scores": {
         "early": 9.2,
@@ -28592,20 +28617,21 @@
         "timezone": "Asia/Shanghai",
         "phases": [
           {
-            "name": "Testnet V3 mining",
-            "note": "MIDWIMBLE_TESTNET_V3；python3 scripts/join_testnet.py --mine"
+            "name": "Testnet V3",
+            "note": "可挖；Midstate姊妹"
           }
         ],
-        "source": "X+GitHub R160",
-        "note": "testnet挖矿live；≈66粉；主网TBA",
-        "mintStatus": "testnet"
+        "source": "Web+X R161",
+        "note": "testnet V3可挖；≈66粉",
+        "mintStatus": "live"
       },
       "social": {
         "xFollowers": 66,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 66
       },
       "mintStatus": "testnet",
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     },
     {
       "id": "sealedpunk",
@@ -28614,7 +28640,7 @@
       "chain": "Robinhood",
       "status": "live",
       "flag": "LIVE",
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 160,
       "addedAt": "2026-10-17T18:50:08+08:00",
       "firstSeen": "2026-10-17T18:50:08+08:00",
@@ -28625,8 +28651,7 @@
         "打新",
         "encrypted-art",
         "Robinhood",
-        "mint",
-        "本轮新"
+        "mint"
       ],
       "scores": {
         "early": 5.8,
@@ -28673,26 +28698,110 @@
         "timezone": "Asia/Shanghai",
         "phases": [
           {
-            "name": "WL",
-            "price": "FREE",
-            "note": "spots claimed；社区collab仍可申请"
-          },
-          {
-            "name": "PUBLIC mint",
-            "price": "TBA",
-            "note": "Oct 17；RobinXP≈181 live"
+            "name": "PUBLIC",
+            "note": "RX sealedpunk-hood≈181 live"
           }
         ],
-        "source": "X+RobinXP+Web R160",
-        "note": "今日mint LIVE；RX≈181；≈3816粉",
+        "source": "RobinXP+X R161",
+        "note": "PUBLIC LIVE RX≈181；≈3819粉",
         "mintStatus": "live"
       },
       "social": {
-        "xFollowers": 3816,
-        "lastCheckedAt": "2026-10-17T18:50:08+08:00"
+        "xFollowers": 3819,
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00",
+        "followers": 3819
       },
       "mintStatus": "live",
-      "lastRefreshedAt": "2026-10-17T18:50:08+08:00"
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
+    },
+    {
+      "id": "idle-dungeon",
+      "name": "Idle Dungeon",
+      "category": "GO盘",
+      "chain": "Solana",
+      "status": "watch",
+      "flag": "本轮新",
+      "newThisRound": true,
+      "round": 161,
+      "addedAt": "2026-10-17T19:16:48+08:00",
+      "firstSeen": "2026-10-17T19:16:48+08:00",
+      "focus": false,
+      "lzVerified": false,
+      "tags": [
+        "GameFi",
+        "idle",
+        "Solana",
+        "GO盘",
+        "NFT",
+        "genesis",
+        "极早期",
+        "本轮新"
+      ],
+      "scores": {
+        "early": 88,
+        "actionable": 72,
+        "novelty": 55,
+        "risk": 62,
+        "overall": 70,
+        "composite": 7.0,
+        "raw100": {
+          "early": 88,
+          "actionable": 72,
+          "novelty": 55,
+          "risk": 62,
+          "overall": 70
+        }
+      },
+      "earlyScore": 88,
+      "riskScore": 62,
+      "riskLevel": "high",
+      "highlights": [
+        "Solana 上的 idle/AFK GameFi，定位轻量挂机RPG",
+        "日签与 early access 已开放，可先参与",
+        "Genesis NFT mint 临近，有阶段性催化",
+        "有官推与官网，非 pump CA"
+      ],
+      "drawbacks": [
+        "官推约254粉，社区基础偏弱",
+        "建号日期标注异常，需核实真实性",
+        "idle GameFi 同质化较高，novelty一般",
+        "仍处 refining 阶段，上线时间不确定"
+      ],
+      "whatsNew": "【R161新】官网与官推已开放 early access/日签，Genesis NFT mint 正在预热。",
+      "whyWatch": "Solana idle RPG；日签/early access已开，Genesis NFT mint临近。",
+      "background": "Idle Dungeon · @IdleDungeonxyz · idledungeon.xyz。Solana idle/AFK GameFi；官帖 refining for seamless launch；日签 live。",
+      "risk": "粉丝少；上线时间未定；GameFi同质化与合约风险。非投资建议。",
+      "links": {
+        "x": "https://x.com/IdleDungeonxyz",
+        "site": "https://www.idledungeon.xyz/",
+        "signal": "https://x.com/IdleDungeonxyz/status/2110930884274843799"
+      },
+      "social": {
+        "xFollowers": 254,
+        "followers": 254,
+        "handle": "@IdleDungeonxyz",
+        "lastCheckedAt": "2026-10-17T19:16:48+08:00"
+      },
+      "schedule": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "upcoming",
+        "phases": [
+          {
+            "name": "Daily check-in / early access",
+            "note": "已开"
+          },
+          {
+            "name": "Genesis NFT mint",
+            "note": "TBA soon"
+          }
+        ],
+        "source": "X+Web R161",
+        "note": "日签/early access LIVE；Genesis mint TBA；≈254粉"
+      },
+      "mintStatus": "upcoming",
+      "playStyle": "go",
+      "lastRefreshedAt": "2026-10-17T19:16:48+08:00"
     }
   ]
 }
