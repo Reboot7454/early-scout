@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-17 10:17 CST",
+    "updated": "2026-10-17 10:28 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "R135例行：Trencher/RobinXP/Web/OpenSea + X MCP补核；新收录Balam.fun/Ananke/BadgeStonks/RobinhoodPals；清R134本轮新；squeekchain仍Sepolia-only主网下周；yore.fun仍今晚UTC16:00；X日限额可用。",
-    "lastScout": "2026-10-17 10:17 CST",
+    "source": "R136例行：RobinXP/OpenSea/NorthBound/Web + X MCP补核；新收录AMM.fun/HFT Launch/deuslaunch/TrenchChimps/NewGenSociety；清R135本轮新；squeekchain仍Sepolia-only主网下周；yore.fun仍今晚UTC16:00；无新LZ开链；X日限额可用。",
+    "lastScout": "2026-10-17 10:28 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -46,8 +46,8 @@
         "zeromeme-fun",
         "oftpad"
       ],
-      "note": "无新Zero/ATLAS开链证据；外媒传LayerZero Aerie后量子签名聚合（非开链）；armoreum/oftpad保持台子/Meme lzVerified=false；本轮无新LZ收录。",
-      "lastChecked": "2026-10-17 10:17 CST"
+      "note": "无新Zero/ATLAS开链证据；外媒续传LayerZero Aerie后量子签名聚合（非开链）；armoreum/oftpad保持台子/Meme lzVerified=false；koal自称OFT未核验跳过；本轮无新LZ收录。",
+      "lastChecked": "2026-10-17 10:28 CST"
     },
     "round5Added": [
       "farming-season",
@@ -349,7 +349,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 135,
+    "round": 136,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -426,7 +426,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 353,
+    "candidateCount": 358,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -657,8 +657,8 @@
         "public factory deploys",
         "fee split / S02"
       ],
-      "note": "Playground续盯；launchesEnabled未新证（R135）。",
-      "lastChecked": "2026-10-17 10:17 CST"
+      "note": "Playground续盯；launchesEnabled未新证（R136）。",
+      "lastChecked": "2026-10-17 10:28 CST"
     },
     "round97Added": [
       "evrynth"
@@ -749,7 +749,7 @@
     "focusWatch": {
       "active": true,
       "label": "重点栏 · 实验玩具链监视",
-      "lastChecked": "2026-10-17 10:17 CST",
+      "lastChecked": "2026-10-17 10:28 CST",
       "seedFirst": "squeekchain",
       "accounts": [
         "@squeekchain",
@@ -774,7 +774,7 @@
         "公平分配叙事的极早期 peer"
       ],
       "admitRule": "有 Twitter 的清晰早期 peer → focus:true 进重点栏（或至少 tags 含 重点 + 写入 focusWatch）；squeekchain 保持重点首位",
-      "note": "squeekchain：@pillheadddd再确认仅Sepolia，主网mint细节下周；站Coming soon；X≈1200粉0帖。hamster-hour窗口TBA。Excited Hamsters Decentraland party今日17-21CST。无新独立peer。",
+      "note": "squeekchain：@pillheadddd再确认仅Sepolia、主网mint细节下周；白纸草稿求反馈；仓鼠Sepolia live；站Coming soon；X≈1202粉0帖。hamster-hour窗口TBA。Excited Hamsters Decentraland party今日17-21CST。无新独立peer。",
       "xApiNote": "R132：X MCP日限额已重置；谨慎用 get_users/search_posts/get_users_posts；优先Trencher/OpenSea/Web。",
       "ids": [
         "squeekchain",
@@ -827,10 +827,11 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "balam-fun",
-      "ananke",
-      "badge-stonks",
-      "robinhood-pals"
+      "amm-dotfun",
+      "hft-launch",
+      "deuslaunch",
+      "trench-chimps",
+      "new-gen-society"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -890,9 +891,298 @@
       "ananke",
       "badge-stonks",
       "robinhood-pals"
+    ],
+    "round136Added": [
+      "amm-dotfun",
+      "hft-launch",
+      "deuslaunch",
+      "trench-chimps",
+      "new-gen-society"
     ]
   },
   "candidates": [
+    {
+      "id": "amm-dotfun",
+      "name": "AMM.fun",
+      "chain": "Solana",
+      "category": "新台",
+      "links": {
+        "x": "https://x.com/AMMdotfun",
+        "site": "https://www.automatedmarketmaker.fun/"
+      },
+      "tags": [
+        "新台",
+        "Solana",
+        "极早期",
+        "台子/Meme",
+        "AMM",
+        "本轮新"
+      ],
+      "status": "live",
+      "background": "Solana发射台：发币同时部署自有AMM，提供流动性、收交易费，利润可回购。",
+      "whyWatch": "账号与站点均极新（≈21粉），产品形态把发射与做市绑定，值得小仓跟踪。",
+      "flag": "台子/Meme",
+      "mintStatus": "live",
+      "lzVerified": null,
+      "focus": false,
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "source": "site+X R136",
+        "note": "站live；发币即建AMM；@AMMdotfun≈21粉"
+      },
+      "round": 136,
+      "newThisRound": true,
+      "addedAt": "2026-10-17T10:28:04+08:00",
+      "firstSeen": "2026-10-17T10:28:04+08:00",
+      "scores": {
+        "early": 9.2,
+        "actionable": 5.5,
+        "novelty": 6.2,
+        "risk": 3.0,
+        "overall": 6.0,
+        "composite": 6.0
+      },
+      "highlights": [
+        "发币即建池，自带AMM与手续费回购闭环",
+        "官网已上线，可早期体验产品",
+        "X仅1帖、约21粉，处于无人关注的阶段"
+      ],
+      "drawbacks": [
+        "账号2026-10-15新建，几乎没有可信历史",
+        "回购与费用分配无公开合约验证",
+        "Solana发射台竞争极度拥挤，同质化高"
+      ],
+      "whatsNew": "Solana上把发射台与自有AMM绑定、用交易费回购的新台子刚上线。"
+    },
+    {
+      "id": "hft-launch",
+      "name": "HFT Launch",
+      "chain": "Solana",
+      "category": "新台",
+      "links": {
+        "x": "https://x.com/HFTlaunch",
+        "site": "https://www.hftlaunch.fun/"
+      },
+      "tags": [
+        "新台",
+        "Solana",
+        "极早期",
+        "台子/Meme",
+        "HFT",
+        "本轮新"
+      ],
+      "status": "live",
+      "background": "Solana HFT发射台：发币并部署自治交易机器人，比拼成交与利润回购。",
+      "whyWatch": "v0.1刚上线、X≈27粉，概念较新，适合极早期观察。",
+      "flag": "台子/Meme",
+      "mintStatus": "live",
+      "lzVerified": null,
+      "focus": false,
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "source": "site+X R136",
+        "note": "站v0.1 live；@HFTlaunch≈27粉"
+      },
+      "round": 136,
+      "newThisRound": true,
+      "addedAt": "2026-10-17T10:28:04+08:00",
+      "firstSeen": "2026-10-17T10:28:04+08:00",
+      "scores": {
+        "early": 9.2,
+        "actionable": 5.5,
+        "novelty": 6.5,
+        "risk": 2.8,
+        "overall": 5.8,
+        "composite": 5.8
+      },
+      "highlights": [
+        "发币+部署自治交易机器人比拼成交利润回购",
+        "官网v0.1已live，可看到雏形",
+        "X约27粉4帖，几乎无社区噪音"
+      ],
+      "drawbacks": [
+        "账号2026-10-16新建，无任何背书",
+        "机器人利润回购机制缺少可验证数据",
+        "团队匿名、无审计信息"
+      ],
+      "whatsNew": "用HFT机器人实盘利润做回购的Solana发射台放出v0.1。"
+    },
+    {
+      "id": "deuslaunch",
+      "name": "deuslaunch",
+      "chain": "GIWA",
+      "category": "新台",
+      "links": {
+        "x": "https://x.com/deuslaunch",
+        "site": "https://testnet.deuslaunch.com/"
+      },
+      "tags": [
+        "新台",
+        "GIWA",
+        "极早期",
+        "台子/Meme",
+        "testnet",
+        "本轮新"
+      ],
+      "status": "early",
+      "background": "GIWA（Upbit关联叙事）发射台：固定供给、启动锁LP、钱包签名交易；现GIWA Sepolia测试网。",
+      "whyWatch": "测试网已可交互且主打Mainnet day1，属可提前交互的早期台子。",
+      "flag": "台子/Meme",
+      "mintStatus": "testnet",
+      "lzVerified": null,
+      "focus": false,
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "source": "testnet.deuslaunch.com+X R136",
+        "note": "GIWA Sepolia live；Mainnet day1叙事；@deuslaunch"
+      },
+      "round": 136,
+      "newThisRound": true,
+      "addedAt": "2026-10-17T10:28:04+08:00",
+      "firstSeen": "2026-10-17T10:28:04+08:00",
+      "scores": {
+        "early": 7.8,
+        "actionable": 7.2,
+        "novelty": 6.0,
+        "risk": 4.5,
+        "overall": 6.6,
+        "composite": 6.6
+      },
+      "highlights": [
+        "与Upbit关联的GIWA链，主网day1叙事明确",
+        "测试网已live，可提前参与交互",
+        "固定供给+启动锁LP+钱包签名，机制相对完整"
+      ],
+      "drawbacks": [
+        "Upbit关联仅为社区叙事，未见官方确认",
+        "主网时间未定，存在长期空转可能",
+        "约3.5K粉含较多空投猎人，真实需求待验"
+      ],
+      "whatsNew": "GIWA测试网上线同步开放的发射台，主打主网首日叙事。"
+    },
+    {
+      "id": "trench-chimps",
+      "name": "Trench Chimps",
+      "chain": "Robinhood",
+      "category": "NFT",
+      "links": {
+        "x": "https://x.com/TrenchChimps",
+        "opensea": "https://opensea.io/collection/trench-chimps"
+      },
+      "tags": [
+        "RH",
+        "NFT",
+        "极早期",
+        "打新",
+        "本轮新"
+      ],
+      "status": "live",
+      "background": "Robinhood Chain PFP：3,333 Chimps，Your Chimp Your IP。",
+      "whyWatch": "独立官推、mint仍早期（≈16%），可小额参与。",
+      "flag": "打新",
+      "mintStatus": "live",
+      "lzVerified": null,
+      "focus": false,
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "phases": [
+          {
+            "name": "PUBLIC",
+            "price": "~$7.99",
+            "note": "≈527/3.3K"
+          }
+        ],
+        "source": "RobinXP R136",
+        "note": "PUBLIC LIVE ≈527/3.3K · ~$7.99；@TrenchChimps"
+      },
+      "round": 136,
+      "newThisRound": true,
+      "addedAt": "2026-10-17T10:28:04+08:00",
+      "firstSeen": "2026-10-17T10:28:04+08:00",
+      "scores": {
+        "early": 6.8,
+        "actionable": 7.5,
+        "novelty": 4.5,
+        "risk": 4.5,
+        "overall": 6.0,
+        "composite": 6.0
+      },
+      "highlights": [
+        "RobinXP上LIVE，mint进度约16%仍可参与",
+        "单价约$7.99，门槛低",
+        "OpenSea已可查合约页面"
+      ],
+      "drawbacks": [
+        "Robinhood链NFT流动性与二级深度存疑",
+        "独立X仅约646粉，社区偏薄",
+        "纯PFP叙事，缺乏长期效用设计"
+      ],
+      "whatsNew": "RobinXP上3333个Chimps正在mint，进度约16%。"
+    },
+    {
+      "id": "new-gen-society",
+      "name": "The New Gen Society",
+      "chain": "Robinhood",
+      "category": "NFT",
+      "links": {
+        "x": "https://x.com/gensociety_rh",
+        "opensea": "https://opensea.io/collection/the-new-gen-society"
+      },
+      "tags": [
+        "RH",
+        "NFT",
+        "极早期",
+        "打新",
+        "本轮新"
+      ],
+      "status": "live",
+      "background": "Robinhood Chain NFT；叙事关联$TNGS。",
+      "whyWatch": "mint进度仅约4%、单价低，仍处极早期窗口。",
+      "flag": "打新",
+      "mintStatus": "live",
+      "lzVerified": null,
+      "focus": false,
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "phases": [
+          {
+            "name": "PUBLIC",
+            "price": "~$2.18",
+            "note": "≈108/2.7K"
+          }
+        ],
+        "source": "RobinXP R136",
+        "note": "PUBLIC LIVE ≈108/2.7K · ~$2.18；@gensociety_rh"
+      },
+      "round": 136,
+      "newThisRound": true,
+      "addedAt": "2026-10-17T10:28:04+08:00",
+      "firstSeen": "2026-10-17T10:28:04+08:00",
+      "scores": {
+        "early": 7.2,
+        "actionable": 7.8,
+        "novelty": 4.2,
+        "risk": 4.8,
+        "overall": 6.1,
+        "composite": 6.1
+      },
+      "highlights": [
+        "mint进度仅约4%，处于极早期",
+        "单价约$2.18，试错成本很低",
+        "X约3.5K粉，有一定基础关注度"
+      ],
+      "drawbacks": [
+        "粉丝量与mint参与度不匹配，疑似刷粉",
+        "$TNGS代币叙事尚无落地细节",
+        "Robinhood链生态整体尚不成熟"
+      ],
+      "whatsNew": "RobinXP上进度仅4%的低价NFT mint，挂$TNGS叙事。"
+    },
     {
       "id": "balam-fun",
       "name": "Balam.fun",
@@ -906,8 +1196,7 @@
         "新台",
         "Solana",
         "极早期",
-        "台子/Meme",
-        "本轮新"
+        "台子/Meme"
       ],
       "status": "live",
       "background": "Solana meme发射台：免费发射，创作者交易fee分成，毕业上Balam Swap且LP永久锁。",
@@ -923,7 +1212,7 @@
         "note": "站live；免费发射；@BalamFun"
       },
       "round": 135,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-17T10:17:05.820920+08:00",
       "firstSeen": "2026-10-17T10:17:05.820920+08:00",
       "scores": {
@@ -960,8 +1249,7 @@
         "新台",
         "Solana",
         "极早期",
-        "台子/Meme",
-        "本轮新"
+        "台子/Meme"
       ],
       "status": "early",
       "background": "From coin to card：选卡→发币玩法发射台；X极新≈189粉仅3帖。",
@@ -977,7 +1265,7 @@
         "note": "选卡发币概念刚公开；@useananke"
       },
       "round": 135,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-17T10:17:05.820920+08:00",
       "firstSeen": "2026-10-17T10:17:05.820920+08:00",
       "scores": {
@@ -1013,8 +1301,7 @@
         "NFT",
         "Robinhood",
         "极早期",
-        "打新",
-        "本轮新"
+        "打新"
       ],
       "status": "live",
       "background": "Robinhood Chain NFT Badge Stonks；RobinXP≈788/2.2K · ~$2.90。",
@@ -1026,8 +1313,8 @@
       "schedule": {
         "status": "live",
         "timezone": "Asia/Shanghai",
-        "source": "RobinXP R135",
-        "note": "PUBLIC LIVE ≈788/2.2K · ~$2.90；@BadgeStonks",
+        "source": "RobinXP R136",
+        "note": "PUBLIC LIVE ≈788/2.2K · ~$2.91；@BadgeStonks",
         "phases": [
           {
             "name": "PUBLIC",
@@ -1037,7 +1324,7 @@
         ]
       },
       "round": 135,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-17T10:17:05.820920+08:00",
       "firstSeen": "2026-10-17T10:17:05.820920+08:00",
       "scores": {
@@ -1058,7 +1345,7 @@
         "Robinhood NFT流动性与退出路径待观察",
         "PFP/徽章类差异化有限"
       ],
-      "whatsNew": "Badge Stonks作为Robinhood NFT项目推进XP进度，当前单价约$2.90。"
+      "whatsNew": "仍LIVE；RobinXP≈788/2.2K · ~$2.91（R136续更）。"
     },
     {
       "id": "robinhood-pals",
@@ -1073,8 +1360,7 @@
         "NFT",
         "Robinhood",
         "极早期",
-        "打新",
-        "本轮新"
+        "打新"
       ],
       "status": "live",
       "background": "Robinhood Chain Yeti Pals NFT；RobinXP≈1.2K/4.4K · ~$0.15。",
@@ -1086,7 +1372,7 @@
       "schedule": {
         "status": "live",
         "timezone": "Asia/Shanghai",
-        "source": "RobinXP R135",
+        "source": "RobinXP R136",
         "note": "PUBLIC LIVE ≈1.2K/4.4K · ~$0.15；@RobinhoodPals",
         "phases": [
           {
@@ -1097,7 +1383,7 @@
         ]
       },
       "round": 135,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-17T10:17:05.820920+08:00",
       "firstSeen": "2026-10-17T10:17:05.820920+08:00",
       "scores": {
@@ -1118,7 +1404,7 @@
         "PFP同质化，叙事普通",
         "Robinhood NFT二级流动性未知"
       ],
-      "whatsNew": "Robinhood Yeti Pals以低单价和XP进度推进，处于较早阶段。"
+      "whatsNew": "仍LIVE；RobinXP≈1.2K/4.4K · ~$0.15（R136续更）。"
     },
     {
       "id": "farm-launchpad",
@@ -1276,7 +1562,7 @@
             "perWallet": 55
           }
         ],
-        "source": "Trencher+OpenSea R130 · R132",
+        "source": "OpenSea R136",
         "note": "PUBLIC LIVE；≈1576/5555；0.00041 ETH；@jabrailywud"
       },
       "round": 130,
@@ -1301,7 +1587,7 @@
         "NFT打新流动性与退出不确定",
         "项目方历史连续性存疑"
       ],
-      "whatsNew": "PUBLIC仍LIVE续盯；≈1576/5555 · 0.00041ETH（R135轻量续，RobinXP首屏未列）。"
+      "whatsNew": "PUBLIC仍LIVE；OS≈1576/5555 · 0.00041ETH（R136续更）。"
     },
     {
       "id": "agent-apow",
@@ -1846,7 +2132,7 @@
         "toychain 长期价值不确定",
         "PoW 挖矿收益与代币模型未公开"
       ],
-      "whatsNew": "@pillheadddd再确认：仅Sepolia测试网，主网未发；mint细节下周公布；站仍Coming soon；X≈1200粉0帖（R135）。",
+      "whatsNew": "@pillheadddd再确认：仅Sepolia；主网未发；mint细节下周；白纸草稿求反馈；仓鼠已在Sepolia live；X≈1202粉0帖（R136）。",
       "background": "Hamster-powered proof-of-work toychain on Ethereum (Sepolia). Physical hamster wheel (WHEELY9000) activity verified and settled on-chain. Token has NOT launched yet.",
       "whyWatch": "重点：实体仓鼠+PoW玩具链+预发币测试网，小七点名盯盘；同类实验叙事标杆。",
       "status": "early",
@@ -1856,8 +2142,8 @@
       "schedule": {
         "status": "tba",
         "timezone": "Asia/Shanghai",
-        "source": "X @pillheadddd R135",
-        "note": "Sepolia testnet only；mainnet mint details next week；站Coming soon；@squeekchain"
+        "source": "X @pillheadddd R136",
+        "note": "Sepolia-only；主网mint细节下周；站Coming soon；@squeekchain≈1202粉"
       },
       "onchain": {
         "chainId": 11155111,
@@ -4855,7 +5141,7 @@
         "fair-launch 竞争可能激烈",
         "Injective 生态 meme 流动性待验证"
       ],
-      "whatsNew": "主网仍今晚UTC16:00（10-18 00:00CST）；站倒计时live（R135）。",
+      "whatsNew": "主网仍今晚UTC16:00（10-18 00:00CST）；站倒计时live（R136续更）。",
       "whyWatch": "同类极早期链上发射台（Injective/Ink 风格 bonding fair-launch）；盯主网开台与首批发射。",
       "background": "yore.fun（@yorefun）自称 Injective 上 fair-launch bonding-curve 发射台：无预售、无团队配额，售罄毕业到 swap.yore.fun；已完成 testnet beta，官帖宣布周六 10-17 16:00 UTC 正式上线。",
       "risk": "med",
@@ -4876,7 +5162,7 @@
             "note": "Injective fair-launch"
           }
         ],
-        "source": "yore.fun R135",
+        "source": "yore.fun R136",
         "note": "主网≈10-17 16:00 UTC（10-18 00:00 CST）；@yorefun"
       },
       "onchain": {
@@ -7867,8 +8153,8 @@
             "perWallet": 50
           }
         ],
-        "source": "OpenSea R135",
-        "note": "PUBLIC LIVE；OS≈226；0.00005 ETH；@Punkt_art"
+        "source": "OpenSea R136",
+        "note": "PUBLIC LIVE；OS≈234；0.00005 ETH；@Punkt_art"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -7906,7 +8192,7 @@
         "二级流动性尚未验证",
         "公售阶段非白名单早期窗口"
       ],
-      "whatsNew": "PUBLIC仍LIVE；OpenSea totalSupply≈226；0.00005ETH（R135续）。",
+      "whatsNew": "PUBLIC仍LIVE；OpenSea totalSupply≈234；0.00005ETH（R136续更）。",
       "flag": "≤2h",
       "risk": "med",
       "firstSeen": "2026-10-16T07:22:08.020389+08:00",
@@ -15756,8 +16042,8 @@
             "perWallet": 20
           }
         ],
-        "source": "RobinXP+OpenSea R135",
-        "note": "PUBLIC LIVE；OS≈22/1888；~$1.72；@Voidkid_hood"
+        "source": "RobinXP R136",
+        "note": "PUBLIC LIVE；≈25/1K；~$1.72；@Voidkid_hood"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -15784,7 +16070,7 @@
         "团队与项目信息较少",
         "二级退出路径尚不明确"
       ],
-      "whatsNew": "PUBLIC仍LIVE；OS≈22/1888 · ~$1.72（RobinXP R135）。",
+      "whatsNew": "PUBLIC仍LIVE；RobinXP≈25/1K · ~$1.72（R136续更；OS口径或异）。",
       "scores": {
         "early": 8.8,
         "actionable": 9.0,
@@ -21565,7 +21851,7 @@
         "艺术性普通",
         "无路线图"
       ],
-      "whatsNew": "PUBLIC仍LIVE至17:50CST；0.0004ETH ≈112/999（Trencher R135）。",
+      "whatsNew": "PUBLIC窗口≈11:40–17:50CST；OS≈112/999 · 0.0004ETH（R136续更，即将开Public）。",
       "scores": {
         "early": 8.5,
         "actionable": 7.2,
@@ -21576,10 +21862,10 @@
       },
       "risk": "匿名 RH free mint；叙事弱；合约与二级风险。",
       "riskLevel": "extreme",
-      "mintStatus": "live",
-      "status": "live",
+      "mintStatus": "upcoming",
+      "status": "upcoming",
       "schedule": {
-        "status": "live",
+        "status": "upcoming",
         "timezone": "Asia/Shanghai",
         "startsAt": "2026-10-17T03:40:00Z",
         "endsAt": "2026-10-17T09:50:00Z",
@@ -21593,8 +21879,8 @@
             "note": "≈112/999"
           }
         ],
-        "source": "Trencher+RobinXP R135",
-        "note": "PUBLIC LIVE至≈17:50CST；0.0004ETH · OS≈112/999；@hoodstone__"
+        "source": "Trencher+OpenSea+RobinXP R136",
+        "note": "PUBLIC≈11:40–17:50CST；0.0004ETH · OS≈112/999；@hoodstone__"
       },
       "onchain": {
         "contract": "0xcd7a73d98637cfb95b9968dddffc8e130da754c3",
@@ -22107,13 +22393,13 @@
             "name": "PUBLIC",
             "startsAt": "2026-10-17T02:30:00Z",
             "endsAt": "2026-10-20T02:30:00Z",
-            "price": "0.000022 ETH",
+            "price": "free / ~0.00003 ETH",
             "perWallet": 22,
             "note": "≈380/2222"
           }
         ],
-        "source": "Trencher+RobinXP R135",
-        "note": "PUBLIC LIVE 0.000022ETH · ≈380/2222；@MonkiHood"
+        "source": "RobinXP R136",
+        "note": "PUBLIC LIVE free/低价 · ≈380/2222；@MonkiHood"
       },
       "scores": {
         "early": 7.8,
@@ -22139,7 +22425,7 @@
         "团队与长期需求信息不足",
         "跨链及二级退出路径不明确"
       ],
-      "whatsNew": "PUBLIC仍LIVE：Trencher价0.000022ETH · RobinXP显示free · ≈380/2222（R135续）。",
+      "whatsNew": "PUBLIC仍LIVE：RobinXP显示free · ≈380/2222（R136续更）。",
       "whyWatch": "极早期低价 RH PUBLIC，供应仍大半未 mint",
       "background": "Robinhood Chain 像素猴主题 NFT，Trencher/OpenSea 可见日程与合约。",
       "addedAt": "2026-10-17 05:25 CST",
@@ -22425,7 +22711,7 @@
             "note": "RobinXP LIVE；约67/700"
           }
         ],
-        "source": "RobinXP R135",
+        "source": "RobinXP R136",
         "note": "PUBLIC LIVE至≈23:48CST；≈67/700；~$0.46；@BoochiNFT"
       },
       "scores": {
@@ -22452,7 +22738,7 @@
         "团队与路线图信息不足",
         "小供给也可能面临低流动性"
       ],
-      "whatsNew": "PUBLIC仍LIVE至23:48CST；≈67/700 · ~$0.46（RobinXP R135）。",
+      "whatsNew": "PUBLIC仍LIVE至23:48CST；≈67/700 · ~$0.46（RobinXP R136续更）。",
       "whyWatch": "RH NFT LIVE 仅约67/700；有官推；窗口至约今晚23:48CST",
       "addedAt": "2026-10-17 06:18 CST",
       "firstSeen": "2026-10-17 06:18 CST",
