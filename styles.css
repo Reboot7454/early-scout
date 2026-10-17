@@ -41,7 +41,7 @@ body {
 a { color: inherit; text-decoration: none; }
 
 .app {
-  max-width: 1760px;
+  max-width: 1920px;
   margin: 0 auto;
   padding: 20px 16px 64px;
 }
@@ -601,6 +601,46 @@ button.pill {
   background: linear-gradient(120deg, #818cf8, #22d3ee);
   color: #0b1020;
 }
+
+
+/* Elysium ecosystem */
+.ely-inline {
+  color: #67e8f9;
+  font-weight: 700;
+}
+
+.pill-ely {
+  color: #a5f3fc !important;
+  border-color: rgba(34, 211, 238, 0.45) !important;
+  background: linear-gradient(120deg, rgba(6,182,212,0.22), rgba(167,139,250,0.12)) !important;
+}
+
+.chip.chip-ely.active {
+  background: linear-gradient(120deg, #22d3ee, #a78bfa);
+  color: #0b1020;
+}
+
+.ely-badge-lg {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  font-weight: 900;
+  font-size: 0.72rem;
+  letter-spacing: 0.04em;
+  color: #0b1020;
+  background: linear-gradient(135deg, #22d3ee, #a78bfa);
+  flex-shrink: 0;
+  margin: 0 auto 8px;
+}
+
+.empty-ely .empty-sub {
+  margin-top: 6px;
+  font-size: 0.75rem;
+  color: var(--faint);
+}
+
 
 .tag-lz {
   background: rgba(99, 102, 241, 0.28);
@@ -1282,7 +1322,7 @@ button.pill {
   font-size: 0.95rem;
 }
 
-/* Focus strip (above board) + five column zones. Narrow: stack 打新 → 挖矿 → 台子/Meme → GO盘 → LayerZero. */
+/* Focus strip (above board) + six column zones. Narrow: stack 打新 → 挖矿 → 台子/Meme → GO盘 → LayerZero → Elysium. */
 .board {
   display: flex;
   flex-direction: column;
@@ -1308,6 +1348,7 @@ button.pill {
 .zone-meme { border-color: rgba(244, 114, 182, 0.34); }
 .zone-go { border-color: rgba(52, 211, 153, 0.36); }
 .zone-lz { border-color: rgba(167, 139, 250, 0.42); }
+.zone-ely { border-color: rgba(34, 211, 238, 0.42); }
 
 .zone-focus .zone-title { color: #fecdd3; }
 .zone-scout .zone-title { color: #c7d2fe; }
@@ -1315,6 +1356,7 @@ button.pill {
 .zone-meme .zone-title { color: #fbcfe8; }
 .zone-go .zone-title { color: #a7f3d0; }
 .zone-lz .zone-title { color: #ddd6fe; }
+.zone-ely .zone-title { color: #a5f3fc; }
 
 .zone-focus .zone-head {
   background: linear-gradient(105deg, rgba(251,113,133,0.18), rgba(251,191,36,0.08) 55%, rgba(13,18,28,0.94));
@@ -1330,6 +1372,10 @@ button.pill {
 }
 .zone-lz .card::before {
   background: linear-gradient(90deg, transparent, #a78bfa, #818cf8, transparent);
+  opacity: 0.95;
+}
+.zone-ely .card::before {
+  background: linear-gradient(90deg, transparent, #22d3ee, #a78bfa, transparent);
   opacity: 0.95;
 }
 .zone-focus .card::before {
@@ -1502,11 +1548,11 @@ button.pill {
   }
 }
 
-/* Wide board: 打新 | 挖矿 | 台子/Meme | GO盘 | LayerZero (five columns). */
+/* Wide board: 打新 | 挖矿 | 台子/Meme | GO盘 | LayerZero | Elysium (six columns). */
 @media (min-width: 1280px) {
   .board {
     display: grid;
-    grid-template-columns: repeat(5, minmax(200px, 1fr));
+    grid-template-columns: repeat(6, minmax(180px, 1fr));
     gap: 10px;
     align-items: stretch;
     overflow-x: auto;
@@ -1515,7 +1561,7 @@ button.pill {
   }
 
   .board .zone {
-    min-width: 200px;
+    min-width: 180px;
   }
 
   .board .zone-cards {
@@ -1545,7 +1591,7 @@ button.pill {
 
 @media (min-width: 1680px) {
   .board {
-    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.7fr) minmax(0, 1.05fr) minmax(0, 0.95fr) minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.65fr) minmax(0, 1fr) minmax(0, 0.9fr) minmax(0, 0.95fr) minmax(0, 1fr);
     gap: 12px;
     overflow-x: visible;
   }

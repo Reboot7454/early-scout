@@ -44,11 +44,12 @@
 
 - 新品类 `category: "挖矿"`：GPU/PoW 币（PRL / QTC / NOID 风格）与 NFT 挖矿/变异盘。
 - 可选字段 `miningType`：`gpu-pow` | `nft-mutation` | `nft-miner` | `other`；`tags` 含 `挖矿`/`PoW`/`变异盘`。
-- 面板：宽屏（≥1280px）六列 `.board`，顺序 **重点 | 打新 | 挖矿 | 台子/Meme | GO盘 | LayerZero**；1280–1679 可横向滚动（列 min≈200px），≥1680 六列均分。窄屏纵向堆叠，顺序相同。
-- 互斥归类（一条只进一列）：**重点最优先**（`focus: true` / `meta.focusIds` / tags 含 `重点`）→ LayerZero（显式 lz/layerzero tag 或 chain/文案）→ 挖矿 → GO盘 → 台子/Meme → 其余打新。重点项**只出现在重点栏**，不重复。
+- 面板：重点/收藏为顶部横条；宽屏（≥1280px）六列 `.board`，顺序 **打新 | 挖矿 | 台子/Meme | GO盘 | LayerZero | Elysium 生态**；1280–1679 可横向滚动（列 min≈180px），≥1680 六列均分。窄屏纵向堆叠，顺序相同。
+- 互斥归类（一条只进一列）：**Elysium 生态优先**（`ecosystem:"Elysium"` / tags 含 `Elysium生态` / chain 含 Elysium）→ LayerZero（显式 lz/layerzero tag 或 chain/文案）→ 挖矿 → GO盘 → 台子/Meme → 其余打新。重点横条（`focus: true` / `meta.focusIds` / tags 含 `重点`）默认不进其它列；**Elysium 栏例外**可与重点条重复展示生态本体。
+- 「全部链」筛区有独立芯片 **Elysium 生态**（按 `isElysium`，不只看单链名）。
 - 默认排序「最新信号」：有 `firstSeen` 或 `addedAt` 则新的在前，否则 `round` 降序；同轮 `whatsNew` 非空优先，再按 `scores.overall` / `earlyScore`。六列共用；下拉仍可改早期程度 / 综合 / 日程 / 风险 / 名称。
-- 挖矿列保持紧凑 `.mining-row` + GPU PoW / NFT 变异 / Miner NFT / 其他。打新、台子/Meme、GO盘、LayerZero 用完整卡片。点品类「挖矿」或顶栏药丸跳到对应列；LayerZero 监控顶栏/芯片可跳 LayerZero 栏。
-- 例行搜刮需同时扫：新 GPU 矿币、AI-PoW、NFT 变异盘 / Miner NFT 早期信号。
+- 挖矿列保持紧凑 `.mining-row` + GPU PoW / NFT 变异 / Miner NFT / 其他。打新、台子/Meme、GO盘、LayerZero、Elysium 用完整卡片。点品类「挖矿」或顶栏药丸跳到对应列；LayerZero / Elysium 监控顶栏/芯片可跳对应栏。
+- 例行搜刮需同时扫：新 GPU 矿币、AI-PoW、NFT 变异盘 / Miner NFT 早期信号、**Elysium 类生态**（见下）。
 
 ## 5) 重点栏（focus）
 
@@ -71,6 +72,7 @@
 
 - **TokenWorks Playground**：盯 `@Rhynotic`（兼 `@token_works`）与站 https://playground.token.works/ ——策展小组发射/分账台（ETH+Robinhood）；关注 `launchesEnabled`、首批想法（FWA 配对）、工厂公开部署。归台子/Meme，勿因跨链字样进 LayerZero。
 - **实验玩具链 / 实体+链上（重点栏 standing watch）**：每轮扫同类信号——仓鼠/动物 PoW toychain、硬件矿机 novelty 链、实体物理装置上链验证、公平分配实验 L1/L2 且仍预发币/测试网。种子账号 `@squeekchain` `@squeektoshi` `@pillheadddd` `@hamsterhourgame`；同类有推特的清晰早期 peer → 重点栏（`squeekchain` 保持首位）。
+- **Elysium 类生态（第六栏 · `meta.elysiumWatch`）**：每轮持续扫 `@Enter_Elysium` 及 AscendLaunch / Eloscape / Speculate / Montra / Aegis / kalos 等子项目，以及**同类新生态**（Hyperliquid 旁路 L2 / Orbit 玩具生态、发射台+挖矿+预测组合）。有推特的清晰成员 → `ecosystem:"Elysium"` + tag `Elysium生态`，互斥进「Elysium 生态」栏；链筛「Elysium 生态」只显示该生态。
 - 此类为品类扩展监视，**不是**恢复全量 X 账号时间线监控。
 
 

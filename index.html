@@ -7,11 +7,11 @@
   <meta name="theme-color" content="#07090f" />
   <meta http-equiv="refresh" content="600" />
   <title>早期打新雷达 · Early Scout</title>
-  <meta name="description" content="高风险·非投资建议。早期加密雷达：重点横条 + 五栏打新 / 挖矿 / 台子·Meme / GO盘 / LayerZero。含开售日程与链上 mint 盯盘。" />
+  <meta name="description" content="高风险·非投资建议。早期加密雷达：重点横条 + 五栏打新 / 挖矿 / 台子·Meme / GO盘 / LayerZero。含开售日程与链上 mint 盯盘 · Elysium 生态。" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./styles.css?v=fav1" />
+  <link rel="stylesheet" href="./styles.css?v=ely1" />
 </head>
 <body>
   <div class="app">
@@ -23,7 +23,7 @@
     <header class="header">
       <div class="brand">
         <h1>早期打新雷达</h1>
-        <p class="sub">Early Crypto Scout · <span class="focus-inline">重点</span> · <span class="fav-inline">收藏</span> · 打新 / 挖矿 / 台子·Meme / GO盘 / <span class="lz-inline">LayerZero</span></p>
+        <p class="sub">Early Crypto Scout · <span class="focus-inline">重点</span> · <span class="fav-inline">收藏</span> · 打新 / 挖矿 / 台子·Meme / GO盘 / <span class="lz-inline">LayerZero</span> / <span class="ely-inline">Elysium</span></p>
       </div>
       <div class="meta-pills">
         <span class="pill">候选 <strong id="count">—</strong></span>
@@ -33,6 +33,7 @@
         <button type="button" class="pill pill-mining" id="mining-pill" data-jump-zone="mining-panel" title="跳到挖矿列">挖矿</button>
         <button type="button" class="pill pill-go" id="go-pill" data-jump-zone="go-panel" title="跳到 GO盘">GO盘</button>
         <button type="button" class="pill pill-lz" id="lz-pill" data-jump-zone="lz-panel" title="跳到 LayerZero 列">LayerZero 监控中</button>
+        <button type="button" class="pill pill-ely" id="ely-pill" data-jump-zone="ely-panel" title="跳到 Elysium 生态列">Elysium 生态</button>
         <span class="pill">多轮合并</span>
       </div>
     </header>
@@ -161,12 +162,21 @@
       </div>
       <div class="grid zone-cards" id="lz-grid"></div>
     </section>
+
+    <section class="zone zone-ely" id="ely-panel" aria-label="Elysium 生态">
+      <div class="zone-head">
+        <span class="zone-title">Elysium 生态</span>
+        <span class="zone-count" id="ely-count">—</span>
+        <span class="zone-sub">Enter_Elysium · Ascend · 挖矿/台子/预测</span>
+      </div>
+      <div class="grid zone-cards" id="ely-grid"></div>
+    </section>
     </div>
 
     <footer class="footer">
-      Scout date 2026-10-15 · 数据来自 <code>data.json</code>（约每 10 分钟更新；刷新页面获取最新） · DYOR · 高风险
+      Scout date 2026-10-18 · 数据来自 <code>data.json</code>（约每 10 分钟更新；刷新页面获取最新） · DYOR · 高风险
     </footer>
   </div>
-  <script src="./app.js?v=fav1"></script>
+  <script src="./app.js?v=ely1"></script>
 </body>
 </html>

@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-18 00:27 CST",
+    "updated": "2026-10-18 00:40 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "R175: Trencher+RobinXP+NorthBound+X MCP+Web(yore/playground)+DS admit/score",
-    "lastScout": "2026-10-18 00:27 CST",
+    "source": "R177: Elysium panel UI + ecosystem admit (Enter_Elysium/Speculate + tag existing)",
+    "lastScout": "2026-10-18 00:40 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -116,13 +116,16 @@
       "robocap"
     ],
     "features": [
-      "schedule",
-      "onchain",
-      "scores",
+      "ecosystem",
+      "elysiumWatch",
+      "elysiumZone",
+      "focusWatch",
+      "focusZone",
       "highlights",
       "mining",
-      "focusZone",
-      "focusWatch"
+      "onchain",
+      "schedule",
+      "scores"
     ],
     "round15Added": [
       "vectis",
@@ -239,7 +242,8 @@
       "定位/AR 抓币与地图掉点（PumpGO 类）",
       "极早期 Solana 社交玩法发射盘",
       "Injective/同类极早期 fair-launch 发射台（样例 @yorefun / yore.fun）；同类 INJ/Ink 风格 bonding 发射应收录",
-      "GlazeCorp / RH 基金·挖矿首发类（样例 @WSMCO_ $WSM）；同类极早期应收录"
+      "GlazeCorp / RH 基金·挖矿首发类（样例 @WSMCO_ $WSM）；同类极早期应收录",
+      "Elysium 类生态（Enter_Elysium / Orbit L2 子项目与同类新生态）"
     ],
     "round28Added": [
       "baby-seals-crc",
@@ -327,7 +331,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 176,
+    "round": 177,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -404,7 +408,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 465,
+    "candidateCount": 467,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -722,22 +726,25 @@
     ],
     "focusIds": [
       "squeekchain",
-      "hamster-hour"
+      "hamster-hour",
+      "enter-elysium"
     ],
     "focusWatch": {
       "active": true,
       "label": "重点栏 · 实验玩具链监视",
-      "lastChecked": "2026-10-18 00:27 CST",
+      "lastChecked": "2026-10-18 00:40 CST",
       "seedFirst": "squeekchain",
       "accounts": [
         "@squeekchain",
         "@squeektoshi",
         "@pillheadddd",
-        "@hamsterhourgame"
+        "@hamsterhourgame",
+        "@Enter_Elysium"
       ],
       "candidateIds": [
         "squeekchain",
-        "hamster-hour"
+        "hamster-hour",
+        "enter-elysium"
       ],
       "categoryScan": [
         "experimental physical+onchain toys",
@@ -752,11 +759,12 @@
         "公平分配叙事的极早期 peer"
       ],
       "admitRule": "有 Twitter 的清晰早期 peer → focus:true 进重点栏（或至少 tags 含 重点 + 写入 focusWatch）；squeekchain 保持重点首位",
-      "note": "squeekchain Sepolia 挖矿可测；hamster-hour 续盯；本轮无新增同类 toychain。",
+      "note": "squeekchain Sepolia 挖矿可测；hamster-hour 续盯；本轮无新增同类 toychain。 R177：enter-elysium 生态本体列入重点。",
       "xApiNote": "R175：X MCP可用；并行scout合并。",
       "ids": [
         "squeekchain",
-        "hamster-hour"
+        "hamster-hour",
+        "enter-elysium"
       ]
     },
     "armoreumNote": "armoreum 保持 lzVerified=false、无 LayerZero/lz tag，归台子/Meme",
@@ -805,10 +813,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "hatch-fun",
-      "mintegra",
-      "sid-capital",
-      "brainfarts"
+      "enter-elysium",
+      "speculate"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1072,9 +1078,181 @@
       "mintegra",
       "sid-capital",
       "brainfarts"
+    ],
+    "elysiumWatch": {
+      "active": true,
+      "label": "Elysium 生态监控",
+      "accounts": [
+        "@Enter_Elysium",
+        "@AscendLaunch",
+        "@eloscapeHQ",
+        "@speculatexyz",
+        "@MontraXYZ",
+        "@aegis_hedge",
+        "@kalosfun",
+        "@Pantheonindex"
+      ],
+      "candidateIds": [
+        "enter-elysium",
+        "ascendlaunch",
+        "eloscape",
+        "speculate",
+        "montra",
+        "aegis-hedge",
+        "kalosfun",
+        "pantheonindex"
+      ],
+      "focus": [
+        "Elysium / Orbit L2 本体",
+        "AscendLaunch 发射",
+        "生态内挖矿/台子/预测/对冲",
+        "同类新生态与子项目"
+      ],
+      "categoryScan": [
+        "Elysium ecosystem apps",
+        "Enter_Elysium / Orbit L2 peers",
+        "AscendLaunch launches",
+        "Hyperliquid-adjacent L2 toy ecosystems (Elysium-class)"
+      ],
+      "admitRule": "有推特的清晰 Elysium / Enter_Elysium 生态子项目 → ecosystem:Elysium + tags 含 Elysium生态；互斥进第六栏「Elysium 生态」。同类新生态（非仅链名撞车）也应持续扫并扩 watch。",
+      "note": "R177：面板新增第六栏与「Elysium 生态」链筛；收录 enter-elysium / speculate，并标 ascendlaunch/eloscape/montra/aegis-hedge/kalosfun。 另：pantheonindex 已有 Elysium 链，一并纳入第六栏。",
+      "lastChecked": "2026-10-18 00:40 CST"
+    },
+    "round177Added": [
+      "enter-elysium",
+      "speculate"
     ]
   },
   "candidates": [
+    {
+      "id": "speculate",
+      "name": "Speculate",
+      "category": "打新",
+      "chain": "Elysium",
+      "links": {
+        "x": "https://x.com/speculatexyz",
+        "signal": "https://x.com/speculatexyz"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "tags": [
+        "Elysium生态",
+        "Elysium",
+        "预测市场",
+        "极早期",
+        "本轮新"
+      ],
+      "status": "early",
+      "riskLevel": "high",
+      "ecosystem": "Elysium",
+      "source": "Manual+DS R177 Elysium panel",
+      "scores": {
+        "early": 92,
+        "actionable": 55,
+        "novelty": 65,
+        "risk": 78,
+        "overall": 72,
+        "composite": 7.2,
+        "raw100": {
+          "early": 92,
+          "actionable": 55,
+          "novelty": 65,
+          "risk": 78,
+          "overall": 72
+        }
+      },
+      "highlights": [
+        "Elysium 生态预测市场，赛道清晰",
+        "极早期，潜在空投窗口",
+        "背靠生态本体资源"
+      ],
+      "drawbacks": [
+        "预测市场赛道竞争激烈",
+        "产品与代币机制未明",
+        "流动性早期薄弱"
+      ],
+      "whatsNew": "Elysium 生态内预测市场项目 Speculate 极早期亮相。",
+      "whyWatch": "预测市场若跑通可为 Elysium 生态带来真实需求与打新机会。",
+      "background": "Speculate（https://x.com/speculatexyz）：Elysium 生态项目；R177 面板收录。",
+      "newThisRound": true,
+      "round": 177,
+      "round177Added": true,
+      "addedAt": "2026-10-18 00:40 CST",
+      "firstSeen": "2026-10-18 00:40 CST",
+      "alert": null,
+      "mintStatus": "unknown",
+      "earlyScore": 92,
+      "riskScore": 78,
+      "risk": 78,
+      "social": {
+        "xFollowers": null
+      }
+    },
+    {
+      "id": "enter-elysium",
+      "name": "Elysium",
+      "category": "打新",
+      "chain": "Elysium",
+      "links": {
+        "x": "https://x.com/Enter_Elysium",
+        "signal": "https://x.com/Enter_Elysium"
+      },
+      "focus": true,
+      "lzVerified": false,
+      "tags": [
+        "Elysium生态",
+        "Elysium",
+        "生态本体",
+        "重点",
+        "极早期",
+        "本轮新"
+      ],
+      "status": "early",
+      "riskLevel": "high",
+      "ecosystem": "Elysium",
+      "source": "Manual+DS R177 Elysium panel",
+      "scores": {
+        "early": 95,
+        "actionable": 60,
+        "novelty": 70,
+        "risk": 75,
+        "overall": 78,
+        "composite": 7.8,
+        "raw100": {
+          "early": 95,
+          "actionable": 60,
+          "novelty": 70,
+          "risk": 75,
+          "overall": 78
+        }
+      },
+      "highlights": [
+        "Elysium 生态本体，极早期布局窗口",
+        "Hyperliquid 相关 L2·Orbit 叙事",
+        "AscendLaunch 等子项目孵化母体"
+      ],
+      "drawbacks": [
+        "生态本体交互路径尚不清晰",
+        "子项目质量与落地待验证",
+        "早期信息稀缺，噪音较多"
+      ],
+      "whatsNew": "Elysium 生态本体作为 Hyperliquid 相关 L2 极早期进入视野。",
+      "whyWatch": "作为生态母体，其动向决定 AscendLaunch 等子项目打新节奏。",
+      "background": "Elysium（https://x.com/Enter_Elysium）：Elysium 生态项目；R177 面板收录。",
+      "newThisRound": true,
+      "round": 177,
+      "round177Added": true,
+      "addedAt": "2026-10-18 00:40 CST",
+      "firstSeen": "2026-10-18 00:40 CST",
+      "alert": null,
+      "mintStatus": "unknown",
+      "earlyScore": 95,
+      "riskScore": 75,
+      "risk": 75,
+      "social": {
+        "xFollowers": null
+      }
+    },
     {
       "id": "brainfarts",
       "name": "brainfarts",
@@ -1084,8 +1262,7 @@
         "NFT",
         "Ethereum",
         "onchain",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "chain": "Ethereum",
       "links": {
@@ -1135,7 +1312,7 @@
         "ETH 主网参与成本较高"
       ],
       "whatsNew": "brainfarts 开放 Founding100 白名单，截止约 10/22。",
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 176,
       "round176Added": true,
       "addedAt": "2026-10-18 00:27 CST",
@@ -1162,8 +1339,7 @@
         "NFT",
         "Robinhood",
         "Trencher",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "chain": "Robinhood",
       "links": {
@@ -1207,7 +1383,7 @@
         "dust tier 风险较高"
       ],
       "whatsNew": "Robinhood NFT 项目 SID CAPITAL 预热 Trencher，总量 88、价格 0.0001。",
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 176,
       "round176Added": true,
       "addedAt": "2026-10-18 00:27 CST",
@@ -1234,8 +1410,7 @@
         "PoW",
         "Robinhood",
         "gem",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "chain": "Robinhood",
       "links": {
@@ -1279,7 +1454,7 @@
         "Robinhood 生态仍偏早期"
       ],
       "whatsNew": "Robinhood 链 PoW 项目 Mintegra 进入 epoch2，强调只挖不铸。",
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 176,
       "round176Added": true,
       "addedAt": "2026-10-18 00:27 CST",
@@ -1308,7 +1483,6 @@
         "Solana",
         "Meteora",
         "极早期",
-        "本轮新",
         "台子/Meme"
       ],
       "chain": "Solana",
@@ -1353,7 +1527,7 @@
         "Solana 发射台赛道竞争激烈"
       ],
       "whatsNew": "Solana 公平发射台 Hatch 预热，主打 Meteora 与低比例钱包绑定。",
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 176,
       "round176Added": true,
       "addedAt": "2026-10-18 00:27 CST",
@@ -3681,7 +3855,8 @@
         "Ascend",
         "Elysium",
         "PNTH",
-        "极早期"
+        "极早期",
+        "Elysium生态"
       ],
       "status": "upcoming",
       "mintStatus": "upcoming",
@@ -3734,7 +3909,8 @@
         "主网时间与代币经济仍待发射验证"
       ],
       "whatsNew": "【续更】Elysium testnet；$PNTH；站可访；粉≈205。",
-      "lastRefreshedAt": "2026-10-17T21:47:03+08:00"
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00",
+      "ecosystem": "Elysium"
     },
     {
       "id": "aegis-hedge",
@@ -3754,7 +3930,9 @@
         "AscendLaunch",
         "Hedge",
         "HyperCore",
-        "极早期"
+        "极早期",
+        "Elysium生态",
+        "对冲"
       ],
       "status": "upcoming",
       "mintStatus": "upcoming",
@@ -3805,8 +3983,9 @@
         "尚未主网发射，产品兑现与时间表不确定",
         "依赖 Elysium/HyperCore 生态与 Ascend 发射节奏"
       ],
-      "whatsNew": "【续更】AscendLaunch窗口续盯。",
-      "lastRefreshedAt": "2026-10-17T21:47:03+08:00"
+      "whatsNew": "【续更】AscendLaunch窗口续盯。 · 标为 Elysium 生态（R177）。",
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00",
+      "ecosystem": "Elysium"
     },
     {
       "id": "minegpu",
@@ -30168,9 +30347,12 @@
         "Launchpad",
         "社区台",
         "台子/Meme",
-        "极早期"
+        "极早期",
+        "Elysium生态",
+        "Elysium",
+        "发射台"
       ],
-      "chain": "Multi",
+      "chain": "Elysium",
       "round": 156,
       "newThisRound": false,
       "focus": false,
@@ -30206,12 +30388,13 @@
         "合约、代币模型完全无法核验",
         "粉丝基数小，真实性难判断"
       ],
-      "whatsNew": "【R158补录】Peek真漏恢复：一个低粉丝量、高频发推的新社区发射台刚出现。",
+      "whatsNew": "【R158补录】Peek真漏恢复：一个低粉丝量、高频发推的新社区发射台刚出现。 · 标为 Elysium 生态（R177）。",
       "whyWatch": "社区 launchpad，粉量低账号新；Peek 漏点，作早期台观察。",
       "background": "Community launchpad; early X account @MontraXYZ; product/site still thin.",
       "addedAt": "2026-10-17T18:15:11+08:00",
       "firstSeen": "2026-10-17T17:51:58+08:00",
-      "lastRefreshedAt": "2026-10-17T18:15:11+08:00"
+      "lastRefreshedAt": "2026-10-17T18:15:11+08:00",
+      "ecosystem": "Elysium"
     },
     {
       "id": "flywheel",
@@ -31872,13 +32055,15 @@
       "id": "eloscape",
       "name": "Eloscape",
       "category": "挖矿",
-      "chain": "HyperEVM",
+      "chain": "Elysium",
       "tags": [
         "挖矿",
         "testnet",
         "HyperEVM",
         "Elysium",
-        "极早期"
+        "极早期",
+        "Elysium生态",
+        "虚拟挖矿"
       ],
       "links": {
         "x": "https://x.com/eloscapeHQ",
@@ -31946,7 +32131,8 @@
       "flag": "new",
       "miningType": "other",
       "background": "Eloscape（@eloscapeHQ）：Virtual mining protocol on Enter_Elysium；No token live yet。",
-      "whyWatch": "Elysium 测试网虚拟挖矿；未发币；粉≈975。"
+      "whyWatch": "Elysium 测试网虚拟挖矿；未发币；粉≈975。",
+      "ecosystem": "Elysium"
     },
     {
       "id": "citrus-dunkers",
@@ -32527,9 +32713,12 @@
         "Pre-mainnet",
         "Audit",
         "Early",
-        "极早期"
+        "极早期",
+        "Elysium生态",
+        "Elysium",
+        "启动平台"
       ],
-      "chain": "Hyperliquid L2 / Enter_Elysium",
+      "chain": "Elysium",
       "links": {
         "x": "https://x.com/AscendLaunch",
         "signal": "https://x.com/AscendLaunch"
@@ -32581,7 +32770,8 @@
       "round": 174,
       "round174Added": true,
       "addedAt": "2026-10-17 23:33 CST",
-      "firstSeen": "2026-10-17 23:33 CST"
+      "firstSeen": "2026-10-17 23:33 CST",
+      "ecosystem": "Elysium"
     },
     {
       "id": "kalosfun",
@@ -32590,9 +32780,12 @@
       "tags": [
         "新台",
         "极早期",
-        "NFT/token交易"
+        "NFT/token交易",
+        "Elysium生态",
+        "Elysium",
+        "综合交易"
       ],
-      "chain": "Elysium/HL",
+      "chain": "Elysium",
       "links": {
         "x": "https://x.com/kalosfun",
         "signal": "https://x.com/kalosfun"
@@ -32644,7 +32837,8 @@
       "round": 174,
       "round174Added": true,
       "addedAt": "2026-10-17 23:33 CST",
-      "firstSeen": "2026-10-17 23:33 CST"
+      "firstSeen": "2026-10-17 23:33 CST",
+      "ecosystem": "Elysium"
     }
   ]
 }

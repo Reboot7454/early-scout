@@ -6,6 +6,7 @@
     round: "all",
     roundPage: null, // 0-based; null = auto (prefer newest page)
     layerzero: "all",
+    elysium: "all",
     miningFilter: "all", // unused for main; mining lives in panel
     miningTypeFilter: "all", // all | gpu-pow | nft-mutation | nft-miner | other
     scheduleFilter: "all", // all | soon24 | hasSchedule | onchain
@@ -188,6 +189,13 @@
   /** Display / filter canonical chain labels (merge case + synonym variants). */
   const CHAIN_CANON_MAP = {
     layerzero: "LayerZero",
+    elysium: "Elysium",
+    "elysium/hl": "Elysium",
+    "elysium·hl": "Elysium",
+    "elysium · hl": "Elysium",
+    enter_elysium: "Elysium",
+    "enter_elysium": "Elysium",
+    "hyperliquid l2 / enter_elysium": "Elysium",
     zero: "LayerZero",
     "layerzero / zero": "LayerZero",
     "layerzero/zero": "LayerZero",
@@ -324,9 +332,29 @@
     return false;
   }
 
-  /** Five board columns only: LayerZero > mining > GO > 台子/Meme > 打新.
-   *  Focus candidates are strip-only (excluded from columns via isFocus). */
+  /** Elysium / Enter_Elysium ecosystem — mutual-exclusive 6th column (like LayerZero). */
+  function isElysium(c) {
+    if (!c) return false;
+    const eco = String(c.ecosystem || "").toLowerCase();
+    if (eco === "elysium") return true;
+    const tags = (c.tags || []).map((t) => String(t).toLowerCase().replace(/\s+/g, ""));
+    if (tags.some((t) => t === "elysium生态" || t === "elysiumeco" || t.includes("elysium生态"))) {
+      return true;
+    }
+    const canon = canonicalChain(c.chain);
+    if (canon === "Elysium") return true;
+    const chain = String(c.chain || "").toLowerCase();
+    if (chain.includes("elysium") || chain.includes("enter_elysium")) return true;
+    const idn = String(c.id || "").toLowerCase();
+    if (idn === "enter-elysium" || idn === "elysium") return true;
+    return false;
+  }
+
+  /** Six board columns: Elysium > LayerZero > mining > GO > 台子/Meme > 打新.
+   *  Focus candidates are strip-only (excluded from columns via isFocus),
+   *  except Elysium hub may also show in the Elysium column. */
   function zoneOf(c) {
+    if (isElysium(c)) return "elysium";
     if (isLayerZero(c)) return "lz";
     if (isMining(c)) return "mining";
     if (isGoPlay(c)) return "go";
@@ -634,9 +662,14 @@
     if (state.category !== "all" && state.category !== "挖矿" && c.category !== state.category) {
       return false;
     }
-    if (state.chain !== "all" && !chainsMatch(c.chain, state.chain)) return false;
+    if (state.chain === "Elysium 生态") {
+      if (!isElysium(c)) return false;
+    } else if (state.chain !== "all" && !chainsMatch(c.chain, state.chain)) {
+      return false;
+    }
     if (state.round !== "all" && String(c.round) !== String(state.round)) return false;
     if (state.layerzero === "on" && !isLayerZero(c)) return false;
+    if (state.elysium === "on" && !isElysium(c)) return false;
     if (state.scheduleFilter === "soon24" && !within24h(c)) return false;
     if (state.scheduleFilter === "hasSchedule" && !hasSchedule(c)) return false;
     if (state.scheduleFilter === "onchain" && !hasOnchainWatch(c)) return false;
@@ -733,7 +766,10 @@
 
   function columnItems(zone) {
     let list = state.data.candidates.filter(
-      (c) => zoneOf(c) === zone && !isFocus(c) && passesShared(c)
+      (c) =>
+        zoneOf(c) === zone &&
+        (zone === "elysium" || !isFocus(c)) &&
+        passesShared(c)
     );
     if (zone === "mining") list = list.filter((c) => matchesMiningType(c, state.miningTypeFilter));
     list = list.filter(hasTwitter);
@@ -976,19 +1012,26 @@
       `<button type="button" class="chip chip-focus" data-group="zoneJump" data-value="focus-panel">重点</button>` +
       `<button type="button" class="chip cat-go" data-group="zoneJump" data-value="go-panel">GO盘</button>` +
       `<button type="button" class="chip cat-meme-jump" data-group="zoneJump" data-value="meme-panel">台子/Meme</button>` +
-      `<button type="button" class="chip chip-lz" data-group="zoneJump" data-value="lz-panel">LayerZero</button>`;
+      `<button type="button" class="chip chip-lz" data-group="zoneJump" data-value="lz-panel">LayerZero</button>` +
+      `<button type="button" class="chip chip-ely" data-group="zoneJump" data-value="ely-panel">Elysium 生态</button>`;
 
+    const elyCount = state.data.candidates.filter((c) => hasTwitter(c) && isElysium(c)).length;
+    const rawChains = uniqueChains(state.data.candidates.filter(hasTwitter)).filter(
+      (ch) => ch !== "Elysium 生态"
+    );
     const chains = [
       { id: "all", label: "全部链" },
-      ...uniqueChains(state.data.candidates.filter(hasTwitter)).map((ch) => ({
+      { id: "Elysium 生态", label: `Elysium 生态 · ${elyCount}`, cls: "chip-ely" },
+      ...rawChains.map((ch) => ({
         id: ch,
         label: ch,
+        cls: ch === "LayerZero" ? "chip-lz" : ch === "Elysium" ? "chip-ely" : "",
       })),
     ];
     chainHost.innerHTML = chains
       .map(
         (c) =>
-          `<button type="button" class="chip ${c.id === "LayerZero" ? "chip-lz" : ""} ${state.chain === c.id ? "active" : ""}" data-group="chain" data-value="${escapeHtml(c.id)}">${escapeHtml(c.label)}</button>`
+          `<button type="button" class="chip ${c.cls || ""} ${state.chain === c.id ? "active" : ""}" data-group="chain" data-value="${escapeHtml(c.id)}">${escapeHtml(c.label)}</button>`
       )
       .join("");
 
@@ -1090,15 +1133,24 @@
     const watch = state.data.meta?.layerZeroWatch;
     const desc = $("#lz-watch-desc");
     const pill = $("#lz-pill");
-    if (!watch) return;
-    const n = state.data.candidates.filter((c) => hasTwitter(c) && isLayerZero(c)).length;
-    if (desc) {
-      const focus = (watch.focus || []).join(" · ");
-      desc.textContent = `${watch.label || "LayerZero 监控中"} · ${n} 条相关 · ${focus}`;
+    if (watch) {
+      const n = state.data.candidates.filter((c) => hasTwitter(c) && isLayerZero(c)).length;
+      if (desc) {
+        const focus = (watch.focus || []).join(" · ");
+        desc.textContent = `${watch.label || "LayerZero 监控中"} · ${n} 条相关 · ${focus}`;
+      }
+      if (pill) {
+        pill.textContent = `LayerZero 监控 · ${n}`;
+        pill.classList.add("pill-lz");
+      }
     }
-    if (pill) {
-      pill.textContent = `LayerZero 监控 · ${n}`;
-      pill.classList.add("pill-lz");
+    const elyWatch = state.data.meta?.elysiumWatch;
+    const elyPill = $("#ely-pill");
+    if (elyWatch && elyPill) {
+      const en = state.data.candidates.filter((c) => hasTwitter(c) && isElysium(c)).length;
+      elyPill.textContent = `Elysium 生态 · ${en}`;
+      elyPill.classList.add("pill-ely");
+      elyPill.title = (elyWatch.focus || []).join(" · ") || "跳到 Elysium 生态列";
     }
   }
 
@@ -1138,14 +1190,21 @@
     { id: "meme", grid: "#meme-grid", count: "#meme-count", label: "台子 / Meme", cards: true },
     { id: "go", grid: "#go-grid", count: "#go-count", label: "GO盘", cards: true },
     { id: "lz", grid: "#lz-grid", count: "#lz-count", label: "LayerZero", cards: true },
+    { id: "elysium", grid: "#ely-grid", count: "#ely-count", label: "Elysium 生态", cards: true },
   ];
 
   function emptyColumnHtml(label, zoneId) {
     if (zoneId === "lz") {
       return `<div class="empty empty-lz"><div class="lz-badge-lg">LZ</div><div>暂无 LayerZero 相关候选</div><div class="empty-sub">盯 Zero 开链 · ATLAS · OFT 发射 · 生态极早期</div></div>`;
     }
+    if (zoneId === "elysium") {
+      return `<div class="empty empty-ely"><div class="ely-badge-lg">ELY</div><div>暂无 Elysium 生态候选</div><div class="empty-sub">盯 Enter_Elysium · Ascend · 挖矿/台子/预测</div></div>`;
+    }
     if (state.layerzero === "on") {
       return `<div class="empty empty-lz"><div class="lz-badge-lg">LZ</div><div>当前筛选下暂无${escapeHtml(label)}</div></div>`;
+    }
+    if (state.elysium === "on" || state.chain === "Elysium 生态") {
+      return `<div class="empty empty-ely"><div class="ely-badge-lg">ELY</div><div>当前筛选下暂无${escapeHtml(label)}</div></div>`;
     }
     return `<div class="empty">暂无匹配的${escapeHtml(label)}</div>`;
   }
@@ -1194,7 +1253,10 @@
     const host = $(zone.grid);
     const countEl = $(zone.count);
     const all = state.data.candidates.filter(
-      (c) => zoneOf(c) === zone.id && !isFocus(c) && hasTwitter(c)
+      (c) =>
+        zoneOf(c) === zone.id &&
+        (zone.id === "elysium" || !isFocus(c)) &&
+        hasTwitter(c)
     );
     const list = columnItems(zone.id);
     if (host) {
@@ -1229,11 +1291,13 @@
     const minePill = $("#mining-pill");
     const goPill = $("#go-pill");
     const lzPill = $("#lz-pill");
+    const elyPill = $("#ely-pill");
     if (favPill) favPill.textContent = `收藏 · ${counts.fav.shown}`;
     if (focusPill) focusPill.textContent = `重点 · ${counts.focus.total}`;
     if (minePill) minePill.textContent = `挖矿 · ${counts.mining.total}`;
     if (goPill) goPill.textContent = `GO盘 · ${counts.go.total}`;
     if (lzPill) lzPill.textContent = `LayerZero · ${counts.lz.total}`;
+    if (elyPill) elyPill.textContent = `Elysium · ${counts.elysium.total}`;
     $("#stats").innerHTML = `
       重点 <b>${counts.focus.shown}</b> ·
       收藏 <b>${counts.fav.shown}</b> ·
@@ -1242,6 +1306,7 @@
       台子/Meme <b>${counts.meme.shown}</b> ·
       GO盘 <b>${counts.go.shown}</b> ·
       LayerZero <b>${counts.lz.shown}</b> ·
+      Elysium <b>${counts.elysium.shown}</b> ·
       共 <b>${total}</b> ·
       即将开售 <b>${soonN}</b> ·
       <b>仅显示有推特</b> ·
@@ -1304,6 +1369,7 @@
           state.chain = "all";
           state.round = "all";
           state.layerzero = "all";
+          state.elysium = "all";
           state.query = "";
           const search = $("#search");
           if (search) search.value = "";
