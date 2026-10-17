@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-18 01:47 CST",
+    "updated": "2026-10-18 02:10 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "R181: +simd-launchpad,parabolic,crashwif,oddzy,iram-solana,nullnet,orpheus-hl; Trencher+X equal-effort 打新/挖矿/台子/GO/LZ/Elysium; ≤2h crayons PUBLIC≈01:59 / pixel-cores≈02:00",
-    "lastScout": "2026-10-18 01:47 CST",
+    "lastScout": "2026-10-18 02:10 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -23,31 +23,8 @@
       "units-xreign"
     ],
     "layerZeroWatch": {
-      "active": true,
-      "label": "LayerZero 监控中",
-      "accounts": [
-        "@LayerZero_Core",
-        "@omnisea",
-        "@jumperapp",
-        "@StargateFinance"
-      ],
-      "focus": [
-        "Zero 开链",
-        "ATLAS venue",
-        "OFT 发射台",
-        "生态 mint/积分"
-      ],
-      "candidateIds": [
-        "omnisea",
-        "zero-chain",
-        "atlas-lz",
-        "jumper-jump",
-        "sushi-oft-rh",
-        "zeromeme-fun",
-        "oftpad"
-      ],
-      "note": "本轮无新 Zero/ATLAS/OFT 核验信号；OFTpad 仍 lzVerified=false。",
-      "lastChecked": "2026-10-18 01:33 CST"
+      "lastChecked": "2026-10-18 02:10 CST",
+      "note": "R182：OFTpad 续监；自称仍 lzVerified=false"
     },
     "round5Added": [
       "farming-season",
@@ -167,18 +144,8 @@
       "vela-vela"
     ],
     "miningWatch": {
-      "active": true,
-      "lastChecked": "2026-10-18 01:33 CST",
-      "note": "续盯 Midstate/MineGPU/Common Foundry/Toadex/Mintegra/YSKAR；TensorCash 主网已成熟跳过；本轮无新 PoW admit。",
-      "candidateIds": [
-        "midstate-mds",
-        "minegpu",
-        "common-foundry",
-        "toadex",
-        "agent-apow",
-        "mintegra",
-        "yskar"
-      ]
+      "lastChecked": "2026-10-18 02:10 CST",
+      "note": "R182：PoW/hamster/gpu 扫；无新极早期有推特矿池"
     },
     "round20Added": [
       "blox-miners",
@@ -332,7 +299,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 181,
+    "round": 182,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -409,7 +376,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 497,
+    "candidateCount": 502,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -732,42 +699,14 @@
       "enter-elysium"
     ],
     "focusWatch": {
-      "active": true,
-      "label": "重点栏 · 实验玩具链监视",
-      "lastChecked": "2026-10-18 01:33 CST",
-      "seedFirst": "squeekchain",
-      "accounts": [
-        "@squeekchain",
-        "@squeektoshi",
-        "@pillheadddd",
-        "@hamsterhourgame",
-        "@Enter_Elysium"
-      ],
-      "candidateIds": [
-        "squeekchain",
-        "hamster-hour",
-        "enter-elysium"
-      ],
-      "categoryScan": [
-        "experimental physical+onchain toys",
-        "hamster/animal PoW toychains",
-        "hardware-miner novelty chains",
-        "fair-distribution experimental L1/L2 toys still pre-token / testnet"
-      ],
-      "focus": [
-        "仓鼠/动物 PoW toychain",
-        "实体硬件矿机 + 上链验证",
-        "预发币 / 测试网实验 L1·L2 玩具",
-        "公平分配叙事的极早期 peer"
-      ],
-      "admitRule": "有 Twitter 的清晰早期 peer → focus:true 进重点栏（或至少 tags 含 重点 + 写入 focusWatch）；squeekchain 保持重点首位",
-      "note": "squeekchain 仍 Sepolia；主网 mint 下周细节；hamster-hour 续盯；本轮无新增同类 toychain。Elysium 本体仍在重点。",
-      "xApiNote": "R175：X MCP可用；并行scout合并。",
+      "lastChecked": "2026-10-18 02:10 CST",
       "ids": [
+        "ascendlaunch",
         "squeekchain",
         "hamster-hour",
         "enter-elysium"
-      ]
+      ],
+      "note": "squeekchain/hamster-hour/ascend/enter-elysium 续盯"
     },
     "armoreumNote": "armoreum 保持 lzVerified=false、无 LayerZero/lz tag，归台子/Meme",
     "round114Added": [
@@ -815,13 +754,11 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "simd-launchpad",
-      "parabolic",
-      "crashwif",
-      "oddzy",
-      "iram-solana",
-      "nullnet",
-      "orpheus-hl"
+      "pixel-deck",
+      "pump100",
+      "lipitoes",
+      "nopad",
+      "routr-network"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1079,7 +1016,7 @@
       "buypurps",
       "thestrainlab"
     ],
-    "peekLearnNote": "R179 Peek对账：补 aulus/oaken/umbra-inference/hoods-held-high/neo-edo-2099；跳过 Daisy/Zeroset/Daria非链上、Pushin空壳、INJ Pass/BitMonkees偏中后、CAT.jpg→2027、VEIN@VeinAgent_解析失败/coming-soon、Nymra/Krunkout/ThePandons窗口不明；热榜不照搬。",
+    "peekLearnNote": "R182 Peek：Trencher+X 对账 NFT/新台/AI发射/极早期；不照搬热榜；补 pixel-deck/nopad/pump100/routr + Elysium lipitoes。",
     "round176Added": [
       "hatch-fun",
       "mintegra",
@@ -1087,58 +1024,8 @@
       "brainfarts"
     ],
     "elysiumWatch": {
-      "active": true,
-      "label": "Elysium 生态监控",
-      "accounts": [
-        "@Enter_Elysium",
-        "@AscendLaunch",
-        "@eloscapeHQ",
-        "@MontraXYZ",
-        "@Pantheonindex",
-        "@Pindar_finance",
-        "@aegis_hedge",
-        "@speculatexyz",
-        "@PurrCadeGames",
-        "@Neuriio",
-        "@kalosfun"
-      ],
-      "candidateIds": [
-        "enter-elysium",
-        "ascendlaunch",
-        "eloscape",
-        "montra",
-        "pantheonindex",
-        "pindar-finance",
-        "aegis-hedge",
-        "speculate",
-        "purrcade-games",
-        "neuriio",
-        "kalosfun"
-      ],
-      "focus": [
-        "Elysium / Orbit L2 本体",
-        "AscendLaunch 发射",
-        "生态内挖矿/台子/预测/对冲",
-        "同类新生态与子项目"
-      ],
-      "categoryScan": [
-        "Elysium ecosystem apps",
-        "Enter_Elysium / Orbit L2 peers",
-        "AscendLaunch launches",
-        "Hyperliquid-adjacent L2 toy ecosystems (Elysium-class)"
-      ],
-      "admitRule": "有推特的清晰 Elysium / Enter_Elysium 生态子项目 → ecosystem:Elysium + tags 含 Elysium生态；互斥进第六栏「Elysium 生态」。同类新生态（非仅链名撞车）也应持续扫并扩 watch。",
-      "note": "R180：无新增达标本批 admit 的 Elysium 子项目；NestExchange 过热跳过；Project Sphere 非确认子项目跳过；Ascend/kalos/speculate 续观察。",
-      "lastChecked": "2026-10-18 01:33 CST",
-      "scope": "additive",
-      "equalEffortWith": [
-        "打新",
-        "挖矿",
-        "台子/Meme",
-        "GO盘",
-        "LayerZero",
-        "其它生态"
-      ]
+      "lastChecked": "2026-10-18 02:10 CST",
+      "note": "R182：扫 Ascend/Enter_Elysium；新收 lipitoes；zensweep 无独立推特跳过"
     },
     "round177Added": [
       "enter-elysium",
@@ -1212,7 +1099,15 @@
       "iram-solana",
       "nullnet",
       "orpheus-hl"
-    ]
+    ],
+    "round182Added": [
+      "pixel-deck",
+      "pump100",
+      "lipitoes",
+      "nopad",
+      "routr-network"
+    ],
+    "previousRound": 181
   },
   "candidates": [
     {
@@ -2141,7 +2036,7 @@
         "子项目质量与落地待验证",
         "早期信息稀缺，噪音较多"
       ],
-      "whatsNew": "Elysium 生态本体作为 Hyperliquid 相关 L2 极早期进入视野。",
+      "whatsNew": "R182：生态母体续盯；Ascend 子项目$LPTX等冒头；≈5800粉。",
       "whyWatch": "作为生态母体，其动向决定 AscendLaunch 等子项目打新节奏。",
       "background": "Elysium（https://x.com/Enter_Elysium）：Elysium 生态项目；R177 面板收录。",
       "newThisRound": false,
@@ -7030,7 +6925,7 @@
         "toychain 长期价值不确定",
         "PoW 挖矿收益与代币模型未公开"
       ],
-      "whatsNew": "R181：仍 Sepolia 测试；token 未发；hamster PoW toychain 续盯 @squeekchain。",
+      "whatsNew": "R182：仍 Sepolia 测试；token 未发；≈1261粉；hamster PoW toychain 续盯 @squeekchain。",
       "background": "Hamster-powered proof-of-work toychain on Ethereum (Sepolia). Physical hamster wheel (WHEELY9000) activity verified and settled on-chain. Token has NOT launched yet.",
       "whyWatch": "重点：实体仓鼠+PoW玩具链+预发币测试网，小七点名盯盘；同类实验叙事标杆。",
       "status": "early",
@@ -7105,7 +7000,7 @@
         "无法评估真实参与方式",
         "同类仓鼠项目多，竞争与淘汰风险高"
       ],
-      "whatsNew": "【续更】重点同类仓鼠叙事续盯；early access 窗口仍在。",
+      "whatsNew": "R182：early access续；≈32粉·15帖；仓鼠叙事同类续盯。",
       "background": "First swarm-built app on squeekchain: bet $IMD on how far the hamster runs in an hour; top 3 split the pot.",
       "whyWatch": "重点类：squeekchain 生态极早期应用 peer；同属实体+链上玩具叙事。",
       "status": "early",
@@ -21440,7 +21335,7 @@
         "免费盘竞争大",
         "PUBLIC价仍有供给压力"
       ],
-      "whatsNew": "R181：PUBLIC People Of Crayons 约01:59CST 已开/进行中 0.00042 ETH；@TheCrayonsXyz",
+      "whatsNew": "R182：PUBLIC People Of Crayons 约01:59CST 已开/进行中 0.00042 ETH；@TheCrayonsXyz",
       "scores": {
         "early": 6.0,
         "actionable": 5.5,
@@ -25112,7 +25007,7 @@
         "无明确产品与时间线",
         "蹭LayerZero嫌疑大"
       ],
-      "whatsNew": "【续更】自称 OFT launchpad live；仍 lzVerified=false 台子/Meme；粉≈21。",
+      "whatsNew": "R182：自称 OFT launchpad；仍 lzVerified=false 台子/Meme；粉≈20。",
       "whyWatch": "极早期自称 Omnichain Fungible Token 发射台（@OFTpad）；仅官帖自述+pump.fun CA，是否真接跨链协议未核验，归入台子/Meme 栏盯盘。",
       "flag": "WATCH",
       "riskLevel": "critical",
@@ -25667,7 +25562,7 @@
       "addedAt": "2026-10-17T00:16:15.830695+08:00",
       "firstSeen": "2026-10-17T00:16:15.830695+08:00",
       "status": "upcoming",
-      "mintStatus": "upcoming",
+      "mintStatus": "live",
       "riskLevel": "high",
       "scores": {
         "early": 9,
@@ -25687,13 +25582,13 @@
         "合约/团队未核验",
         "RH 生态流动性与关注度存疑"
       ],
-      "whatsNew": "R181：Mint 约02:00CST / 18:00UTC RH 将开；首200钱包；LITE700/TURBO300/ULTRA111；@PixelCoresHQ",
+      "whatsNew": "R182：Mint 约02:00CST / 18:00UTC RH 已开/首200钱包；LITE700/TURBO300/ULTRA111；@PixelCoresHQ",
       "links": {
         "x": "https://x.com/PixelCoresHQ",
         "signal": "https://x.com/PixelCoresHQ/status/2111125547191529782"
       },
       "schedule": {
-        "status": "upcoming",
+        "status": "live",
         "timezone": "Asia/Shanghai",
         "startsAt": "2026-10-17T18:00:00Z",
         "endsAt": null,
@@ -25705,7 +25600,7 @@
           }
         ],
         "source": "X @PixelCoresHQ R178",
-        "note": "Mint≈02:00CST / 18:00UTC；First 200 Wallet；≤2h窗口"
+        "note": "Mint LIVE≈02:00CST；First 200 Wallet；≤2h窗口"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -28343,7 +28238,7 @@
         "Meme属性重，短期炒作风险",
         "mint细节与权益披露少"
       ],
-      "whatsNew": "【续更】Whale Traders NB≈03:30CST+1 Hedera TBA。",
+      "whatsNew": "R182：Whale Traders mint 约03:30CST / 19:30UTC Hedera（≤2h）；@amnt_io",
       "addedAt": "2026-10-17T07:39:09.452760+08:00",
       "firstSeen": "2026-10-17T07:39:09.452760+08:00",
       "chain": "Hedera/Base/Solana",
@@ -28371,7 +28266,7 @@
           }
         ],
         "source": "X @Amnt_io R178",
-        "note": "Whale Traders 03:30CST / 19:30UTC Hedera"
+        "note": "Whale Traders ≈03:30CST / 19:30UTC Hedera；≤2h"
       },
       "links": {
         "x": "https://x.com/amnt_io",
@@ -33697,7 +33592,7 @@
         "主网和首期项目均无明确时间表",
         "账号新、历史短，存在营销或刷粉噪音"
       ],
-      "whatsNew": "【续更】Ascend Launch 以 Enter_Elysium 上的预主网 launchpad 身份出现，质押合约已送审。",
+      "whatsNew": "R182：主网前 launchpad 续；出现 Lipitoes/$LPTX、zensweep 等预发射叙事。",
       "newThisRound": false,
       "round": 174,
       "round174Added": true,
@@ -34553,7 +34448,6 @@
         "台子/Meme",
         "新台",
         "极早期",
-        "本轮新",
         "AI",
         "Robinhood",
         "Solana",
@@ -34592,7 +34486,7 @@
       "whyWatch": "多链 AI launchpad 今日全量上线；$SIMD 迁 RH。",
       "background": "Superintelligent Identity.md（@SuperIMD_eth）：一键发币 ETH/RH/Sol/Pons/BNB + AI 建站。",
       "round": 181,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-18 01:47 CST",
       "firstSeen": "2026-10-18 01:47 CST",
       "mintStatus": "live",
@@ -34635,7 +34529,6 @@
         "台子/Meme",
         "新台",
         "极早期",
-        "本轮新",
         "Robinhood",
         "Arc",
         "Solana",
@@ -34674,7 +34567,7 @@
       "whyWatch": "一表单多链发射；RH 已有曲线成交数据。",
       "background": "Parabolic（@Parabolicfamily）：Create once → RH/Arc/Pumpfun/clanker/zora/flaunch。",
       "round": 181,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-18 01:47 CST",
       "firstSeen": "2026-10-18 01:47 CST",
       "mintStatus": "live",
@@ -34716,7 +34609,6 @@
         "GameFi",
         "Solana",
         "极早期",
-        "本轮新",
         "Beta"
       ],
       "status": "early",
@@ -34752,7 +34644,7 @@
       "whyWatch": "创作者币解锁 crash 游戏；Beta + $TOASTY 联动。",
       "background": "Crashwif（@CrashWif）：creator-coin unlock crash rooms on Solana。",
       "round": 181,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-18 01:47 CST",
       "firstSeen": "2026-10-18 01:47 CST",
       "mintStatus": "live",
@@ -34793,8 +34685,7 @@
         "go玩法",
         "地图",
         "预测市场",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "status": "early",
       "riskLevel": "extreme",
@@ -34829,7 +34720,7 @@
       "whyWatch": "预测市场赔率全球地图+Chrome 扩展，5粉极早期。",
       "background": "Oddzy（@Oddzy_xyz）：61国预测市场赔率地图。",
       "round": 181,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-18 01:47 CST",
       "firstSeen": "2026-10-18 01:47 CST",
       "mintStatus": "live",
@@ -34858,8 +34749,7 @@
         "台子/Meme",
         "Meme",
         "Solana",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "status": "upcoming",
       "riskLevel": "extreme",
@@ -34894,7 +34784,7 @@
       "whyWatch": "$IRAM 自称 10/18 CA SOON。",
       "background": "iRAM（@iRAM_solana）：RAM meme；CA SOON Oct 18。",
       "round": 181,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-18 01:47 CST",
       "firstSeen": "2026-10-18 01:47 CST",
       "mintStatus": "upcoming",
@@ -34933,7 +34823,6 @@
         "挖矿",
         "PoW",
         "极早期",
-        "本轮新",
         "fair-launch",
         "Equihash"
       ],
@@ -34970,7 +34859,7 @@
       "whyWatch": "Equihash PoW 21M fair-launch 参数已发，1粉极早期。",
       "background": "NullNet（@NullNetProtocol）：21M cap · 9.7/block/120s · Equihash 144,5 · 3% dev fund。",
       "round": 181,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-18 01:47 CST",
       "firstSeen": "2026-10-18 01:47 CST",
       "mintStatus": "tba",
@@ -35005,7 +34894,6 @@
         "Elysium",
         "打新",
         "极早期",
-        "本轮新",
         "Ascend"
       ],
       "status": "early",
@@ -35041,7 +34929,7 @@
       "whyWatch": "Elysium Golden Dragon 角色叙事；Ascend 路径。",
       "background": "Orpheus（@OrpheusHL）：Elysium 生态原创角色，自称经 AscendLaunch 升 Hypercore。",
       "round": 181,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-18 01:47 CST",
       "firstSeen": "2026-10-18 01:47 CST",
       "mintStatus": "unknown",
@@ -35053,6 +34941,376 @@
       "riskScore": 75,
       "risk": 75,
       "schedule": null
+    },
+    {
+      "id": "pixel-deck",
+      "name": "Pixel Deck",
+      "category": "打新",
+      "chain": "Ink",
+      "links": {
+        "x": "https://x.com/pixeldeck_ink",
+        "signal": "https://neverfuckingtrade.com/",
+        "opensea": "https://opensea.io/collection/pixel-deck-124337259"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "tags": [
+        "打新",
+        "Ink",
+        "NFT",
+        "极早期",
+        "本轮新",
+        "FREE"
+      ],
+      "status": "early",
+      "riskLevel": "high",
+      "ecosystem": null,
+      "source": "Trencher+X+DS R182",
+      "scores": {
+        "early": 88,
+        "actionable": 80,
+        "novelty": 62,
+        "risk": 45,
+        "overall": 76,
+        "composite": 7.6,
+        "raw100": {
+          "early": 88,
+          "actionable": 80,
+          "novelty": 62,
+          "risk": 45,
+          "overall": 76
+        }
+      },
+      "highlights": [
+        "Ink 链上 3333 张 NFT，WL 与公售都免费",
+        "推特 35 粉，属于极早期 Access Pass 阶段",
+        "Ink 由 Kraken 推出，生态处于早期且仍有补贴预期"
+      ],
+      "drawbacks": [
+        "粉丝基数太小，项目方背景无法核实",
+        "NFT 二级流动性不确定，容易有价无市",
+        "暂未见合约审计或团队披露"
+      ],
+      "whatsNew": "Ink 链上刚开放免费 WL 的 3333 张 NFT。",
+      "whyWatch": "免费铸造、链上生态新、粉丝数极低的典型早期打新标的。",
+      "background": "Ink 上 3,333 Pixel Decks / Access Pass；Trencher 显示 WL→PUBLIC FREE。",
+      "round": 182,
+      "newThisRound": true,
+      "addedAt": "2026-10-18 02:10 CST",
+      "firstSeen": "2026-10-18 02:10 CST",
+      "mintStatus": "live",
+      "alert": null,
+      "social": {
+        "followers": 35
+      },
+      "earlyScore": 88,
+      "riskScore": 45,
+      "risk": 45,
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-17T17:50:00Z",
+        "phases": [
+          {
+            "name": "WL Ink Community",
+            "startsAt": "2026-10-17T17:50:00Z",
+            "endsAt": "2026-10-17T20:50:00Z",
+            "price": "FREE",
+            "perWallet": 3
+          },
+          {
+            "name": "PUBLIC",
+            "startsAt": "2026-10-17T20:50:00Z",
+            "endsAt": "2026-10-20T20:50:00Z",
+            "price": "FREE",
+            "perWallet": 3
+          }
+        ],
+        "source": "neverfuckingtrade.com + @pixeldeck_ink",
+        "note": "WL LIVE≈01:50CST FREE；PUBLIC≈04:50CST"
+      }
+    },
+    {
+      "id": "pump100",
+      "name": "pump100",
+      "category": "台子/Meme",
+      "chain": "Solana",
+      "links": {
+        "x": "https://x.com/pump100fun",
+        "signal": "https://x.com/pump100fun"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "tags": [
+        "台子/Meme",
+        "Solana",
+        "pumpfun",
+        "referral",
+        "极早期",
+        "本轮新"
+      ],
+      "status": "early",
+      "riskLevel": "high",
+      "ecosystem": null,
+      "source": "Trencher+X+DS R182",
+      "scores": {
+        "early": 88,
+        "actionable": 40,
+        "novelty": 30,
+        "risk": 30,
+        "overall": 42,
+        "composite": 4.2,
+        "raw100": {
+          "early": 88,
+          "actionable": 40,
+          "novelty": 30,
+          "risk": 30,
+          "overall": 42
+        }
+      },
+      "highlights": [
+        "10-16 才建号，47 粉，确实极早期",
+        "主打 pump.fun 推荐返佣 100% 返还",
+        "Solana Meme 流量入口，玩法轻"
+      ],
+      "drawbacks": [
+        "本质是返佣分发页，没有自有产品或代币",
+        "返佣模式易被复制，也很难持续",
+        "无审计、无团队信息，存在跑路风险"
+      ],
+      "whatsNew": "新开的 pump.fun 返佣 100% 分发站。",
+      "whyWatch": "虽然早期，但只是返佣中间层，可参与价值低，仅作观察。",
+      "background": "宣称把 pump.fun 推荐奖励 100% 返还给用户的极早期分发页。",
+      "round": 182,
+      "newThisRound": true,
+      "addedAt": "2026-10-18 02:10 CST",
+      "firstSeen": "2026-10-18 02:10 CST",
+      "mintStatus": "live",
+      "alert": null,
+      "social": {
+        "followers": 47
+      },
+      "earlyScore": 88,
+      "riskScore": 30,
+      "risk": 30,
+      "schedule": null
+    },
+    {
+      "id": "lipitoes",
+      "name": "Lipitoes",
+      "category": "打新",
+      "chain": "Elysium",
+      "links": {
+        "x": "https://x.com/lipitoes_",
+        "signal": "https://x.com/lipitoes_"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "tags": [
+        "Elysium生态",
+        "Elysium",
+        "打新",
+        "极早期",
+        "本轮新",
+        "Ascend"
+      ],
+      "status": "early",
+      "riskLevel": "high",
+      "ecosystem": "Elysium",
+      "source": "X+DS R182",
+      "scores": {
+        "early": 95,
+        "actionable": 55,
+        "novelty": 55,
+        "risk": 35,
+        "overall": 60,
+        "composite": 6.0,
+        "raw100": {
+          "early": 95,
+          "actionable": 55,
+          "novelty": 55,
+          "risk": 35,
+          "overall": 60
+        }
+      },
+      "highlights": [
+        "$LPTX 通过 AscendLaunch 登陆 Elysium",
+        "推特仅 5 粉，属于子项目级别的极早期",
+        "Elysium 生态空投和积分预期尚在"
+      ],
+      "drawbacks": [
+        "5 粉，几乎无社区，真实性需要验证",
+        "AscendLaunch 平台本身知名度低",
+        "代币经济与解锁规则未公开"
+      ],
+      "whatsNew": "Elysium 上新出现的 Ascend 发射项目 $LPTX。",
+      "whyWatch": "极早期且发行路径明确，但信息量少，只适合小仓位试探。",
+      "background": "$LPT/$LPTX 自称将经 AscendLaunch 在 Enter_Elysium 发射的极早期子项目。",
+      "round": 182,
+      "newThisRound": true,
+      "addedAt": "2026-10-18 02:10 CST",
+      "firstSeen": "2026-10-18 02:10 CST",
+      "mintStatus": "watch",
+      "alert": null,
+      "social": {
+        "followers": 5
+      },
+      "earlyScore": 95,
+      "riskScore": 35,
+      "risk": 35,
+      "schedule": {
+        "status": "watch",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "watch",
+        "phases": [
+          {
+            "name": "Ascend 预发射",
+            "note": "经 AscendLaunch 上 Elysium；细则未出"
+          }
+        ],
+        "source": "X @lipitoes_ R182",
+        "note": "等待 Ascend/主网发射公告"
+      }
+    },
+    {
+      "id": "nopad",
+      "name": "nopad",
+      "category": "台子/Meme",
+      "chain": "Solana",
+      "links": {
+        "x": "https://x.com/nopadfun",
+        "signal": "https://x.com/nopadfun"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "tags": [
+        "台子/Meme",
+        "Solana",
+        "launchpad",
+        "meme",
+        "极早期",
+        "本轮新"
+      ],
+      "status": "early",
+      "riskLevel": "high",
+      "ecosystem": null,
+      "source": "Trencher+X+DS R182",
+      "scores": {
+        "early": 82,
+        "actionable": 60,
+        "novelty": 38,
+        "risk": 32,
+        "overall": 50,
+        "composite": 5.0,
+        "raw100": {
+          "early": 82,
+          "actionable": 60,
+          "novelty": 38,
+          "risk": 32,
+          "overall": 50
+        }
+      },
+      "highlights": [
+        "10-08 建号，61 粉，处于早期窗口",
+        "免费发射，参与成本几乎为零",
+        "明确的“无用型”Meme 定位，话题容易传播"
+      ],
+      "drawbacks": [
+        "Solana 发射台赛道极度饱和，差异化弱",
+        "无代币经济说明，激励机制不明",
+        "无背书，容易被当作短期噪音"
+      ],
+      "whatsNew": "Solana 上新出的免费发射台 nopad。",
+      "whyWatch": "免费发射加早期账号，试错成本低，但同质化严重。",
+      "background": "自称 the most pointless useless launchpad；免费发射/免费玩 SOL。",
+      "round": 182,
+      "newThisRound": true,
+      "addedAt": "2026-10-18 02:10 CST",
+      "firstSeen": "2026-10-18 02:10 CST",
+      "mintStatus": "live",
+      "alert": null,
+      "social": {
+        "followers": 61
+      },
+      "earlyScore": 82,
+      "riskScore": 32,
+      "risk": 32,
+      "schedule": null
+    },
+    {
+      "id": "routr-network",
+      "name": "Routr",
+      "category": "台子/Meme",
+      "chain": "Multi",
+      "links": {
+        "x": "https://x.com/routr_network",
+        "signal": "https://x.com/routr_network"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "tags": [
+        "台子/Meme",
+        "fair-launch",
+        "极早期",
+        "本轮新",
+        "Multi"
+      ],
+      "status": "early",
+      "riskLevel": "high",
+      "ecosystem": null,
+      "source": "Trencher+X+DS R182",
+      "scores": {
+        "early": 70,
+        "actionable": 35,
+        "novelty": 40,
+        "risk": 28,
+        "overall": 42,
+        "composite": 4.2,
+        "raw100": {
+          "early": 70,
+          "actionable": 35,
+          "novelty": 40,
+          "risk": 28,
+          "overall": 42
+        }
+      },
+      "highlights": [
+        "预告一周内进行 fair launch",
+        "1700 粉，已有一定的关注度基础",
+        "fair launch 叙事对早期参与者友好"
+      ],
+      "drawbacks": [
+        "建号后仅 1 帖，内容空洞，疑似靠买粉",
+        "没有正式代币，也没有规则，无从下手",
+        "信息极少，无法验证团队与合约"
+      ],
+      "whatsNew": "预告一周内 fair launch，但目前没有代币、也没有细则。",
+      "whyWatch": "只有预告没有实质，粉丝数也存疑，先放进观察名单，不急着行动。",
+      "background": "预告一周内 fair launch、尚无正式代币；账号新建关注度偏高需警惕买粉。",
+      "round": 182,
+      "newThisRound": true,
+      "addedAt": "2026-10-18 02:10 CST",
+      "firstSeen": "2026-10-18 02:10 CST",
+      "mintStatus": "watch",
+      "alert": null,
+      "social": {
+        "followers": 1700
+      },
+      "earlyScore": 70,
+      "riskScore": 28,
+      "risk": 28,
+      "schedule": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "phases": [
+          {
+            "name": "Fair launch 预告",
+            "note": "约一周内；细则未出"
+          }
+        ],
+        "source": "X @routr_network / satyaXBT R182",
+        "note": "fair launch 预告期"
+      }
     }
   ]
 }
