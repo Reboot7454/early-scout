@@ -74,6 +74,15 @@
 - 此类为品类扩展监视，**不是**恢复全量 X 账号时间线监控。
 
 
+## 7) Peek/潜力榜对账（学习规则 · 非照搬）
+
+每轮例行增加一次 **Peek / 潜力榜对账**，目的是**发现信源盲区并改进搜刮**，不是把榜单当收录清单。
+
+- **只对照**：NFT·新台·AI 发射·极早期 DeFi/GameFi（Ink 算法艺术、Solana·HL 早期台、AI agent 盘等品类监视可扩）。
+- **可补录条件**：有可核验推特 + 仍处极早期可观察/可操作窗口 + 我们主信源（Trencher/NorthBound/RobinXP/OpenSea/Web）漏掉。
+- **禁止**：把 Peek 热度榜整表入库；收成熟协议 / Infra 空壳 / 疑似刷量 / 中后期 DeFi；为「对账完成」而扩容。
+- **仍非**全量 X 账号时间线监控；对账是品类学习扫描，执行端只拉信号/改 json/push，文案与打分走 deepseek-flash（thinking on）。
+
 ## DeepSeek 省用量（硬卸载 · 2026-10-17）
 - **必须**用 `deepseek-flash`（thinking **ON**，勿关闭）做全部判断类工作：admit / score / zone 文案草稿 / highlights / whatsNew / alert / summary / dedupe。
 - **执行端只做**：拉信号、跑脚本、改 `data.json`、push、写 RESULT、notify 布尔；不做雷达文案或批量打分推理。
