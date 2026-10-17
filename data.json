@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-18 01:07 CST",
+    "updated": "2026-10-18 01:12 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "R178 cont: +stonkrobbers；日程核验 ULTON/Inkbots/Influence/Glitch/yore/STASH/Requiem→live，PixelCores≈02:00CST，AMNT≈03:30CST，FairHatch 22:00CST，WOME 10-20；HD .stock 约10-18无精确时刻",
-    "lastScout": "2026-10-18 01:07 CST",
+    "source": "R179: +neo-edo-2099,hoods-held-high,umbra-inference,oaken,aulus,freepad,mandate,yskar,hush-agents; Peek gap(neo-edo/hoods-held-high/umbra/oaken/aulus) + X scan(freepad/mandate/yskar/hush); equal-effort 打新/挖矿/台子/GO/LZ/Elysium",
+    "lastScout": "2026-10-18 01:12 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -46,8 +46,8 @@
         "zeromeme-fun",
         "oftpad"
       ],
-      "note": "本轮无新 Zero/ATLAS/OFT 核验信号。",
-      "lastChecked": "2026-10-18 00:27 CST"
+      "note": "本轮无新 Zero/ATLAS/OFT 核验信号；OFTpad 仍 lzVerified=false。",
+      "lastChecked": "2026-10-18 01:12 CST"
     },
     "round5Added": [
       "farming-season",
@@ -168,15 +168,16 @@
     ],
     "miningWatch": {
       "active": true,
-      "lastChecked": "2026-10-18 00:27 CST",
-      "note": "续盯 Midstate/MineGPU/Common Foundry/Toadex；本轮新收录 Mintegra（RH PoW gem mine）。",
+      "lastChecked": "2026-10-18 01:12 CST",
+      "note": "续盯 Midstate/MineGPU/Common Foundry/Toadex/Mintegra；本轮新收录 YSKAR（独立 SHA-256d PoW，主网极早期）。",
       "candidateIds": [
         "midstate-mds",
         "minegpu",
         "common-foundry",
         "toadex",
         "agent-apow",
-        "mintegra"
+        "mintegra",
+        "yskar"
       ]
     },
     "round20Added": [
@@ -331,7 +332,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 178,
+    "round": 179,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -408,7 +409,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 475,
+    "candidateCount": 484,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -457,7 +458,7 @@
         "runupdotfun"
       ],
       "note": "yore.fun 主网 live；GenesisOnINJ 等首发续观察。",
-      "lastChecked": "2026-10-18 00:27 CST"
+      "lastChecked": "2026-10-18 01:12 CST"
     },
     "glazeWatch": {
       "active": true,
@@ -475,7 +476,7 @@
         "GlazeCorp first token"
       ],
       "note": "Round82：@WSMCO_≈274；开矿 TBA；@glaze_corp 跟踪。非全量 X 监控。",
-      "lastChecked": "2026-10-17 09:47 CST"
+      "lastChecked": "2026-10-18 01:12 CST"
     },
     "round73Added": [
       "equifold"
@@ -542,7 +543,7 @@
         "wallet gateway"
       ],
       "note": "Mid-R82：品类扩展监视，非全量时间线监控。",
-      "lastChecked": "2026-10-17 09:47 CST"
+      "lastChecked": "2026-10-18 01:11 CST"
     },
     "flaunchWatch": {
       "active": true,
@@ -560,7 +561,7 @@
         "new token window"
       ],
       "note": "Mid-R82：品类扩展监视，非全量时间线监控。",
-      "lastChecked": "2026-10-17 09:47 CST"
+      "lastChecked": "2026-10-18 01:11 CST"
     },
     "round83Added": [
       "xstokfun",
@@ -640,7 +641,7 @@
         "fee split / S02"
       ],
       "note": "playground.token.works 可访；本轮无新 public factory 信号。",
-      "lastChecked": "2026-10-18 00:27 CST"
+      "lastChecked": "2026-10-18 01:12 CST"
     },
     "round97Added": [
       "evrynth"
@@ -712,7 +713,7 @@
       "accounts": [
         "@cypherpunkgold"
       ],
-      "lastChecked": "2026-10-17 17:31 CST",
+      "lastChecked": "2026-10-18 01:11 CST",
       "note": "midstate.cash 可访；挖矿仍live。"
     },
     "round112Added": [
@@ -733,7 +734,7 @@
     "focusWatch": {
       "active": true,
       "label": "重点栏 · 实验玩具链监视",
-      "lastChecked": "2026-10-18 00:40 CST",
+      "lastChecked": "2026-10-18 01:12 CST",
       "seedFirst": "squeekchain",
       "accounts": [
         "@squeekchain",
@@ -760,7 +761,7 @@
         "公平分配叙事的极早期 peer"
       ],
       "admitRule": "有 Twitter 的清晰早期 peer → focus:true 进重点栏（或至少 tags 含 重点 + 写入 focusWatch）；squeekchain 保持重点首位",
-      "note": "squeekchain Sepolia 挖矿可测；hamster-hour 续盯；本轮无新增同类 toychain。 R177：enter-elysium 生态本体列入重点。",
+      "note": "squeekchain Sepolia 挖矿可测；hamster-hour 续盯；本轮无新增同类 toychain。Elysium 生态本体仍在重点。",
       "xApiNote": "R175：X MCP可用；并行scout合并。",
       "ids": [
         "squeekchain",
@@ -814,7 +815,15 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "stonkrobbers"
+      "neo-edo-2099",
+      "hoods-held-high",
+      "umbra-inference",
+      "oaken",
+      "aulus",
+      "freepad",
+      "mandate",
+      "yskar",
+      "hush-agents"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1072,7 +1081,7 @@
       "buypurps",
       "thestrainlab"
     ],
-    "peekLearnNote": "R175：对照 NorthBound 早期 call / Trencher 盲区补录 ink-pebble、rage-baiter 等；未照搬热度榜；跳过无推特 HyperBOT/INKBOX 等。",
+    "peekLearnNote": "R179 Peek对账：补 aulus/oaken/umbra-inference/hoods-held-high/neo-edo-2099；跳过 Daisy/Zeroset/Daria非链上、Pushin空壳、INJ Pass/BitMonkees偏中后、CAT.jpg→2027、VEIN@VeinAgent_解析失败/coming-soon、Nymra/Krunkout/ThePandons窗口不明；热榜不照搬。",
     "round176Added": [
       "hatch-fun",
       "mintegra",
@@ -1121,8 +1130,8 @@
         "Hyperliquid-adjacent L2 toy ecosystems (Elysium-class)"
       ],
       "admitRule": "有推特的清晰 Elysium / Enter_Elysium 生态子项目 → ecosystem:Elysium + tags 含 Elysium生态；互斥进第六栏「Elysium 生态」。同类新生态（非仅链名撞车）也应持续扫并扩 watch。",
-      "note": "R178：按用户关注榜补录 Pindar / PurrCade / Neuriio；AscendLaunch 标 focus；Eloscape 提高 early/actionable。",
-      "lastChecked": "2026-10-18 00:46 CST",
+      "note": "R179：无新增达标本批 admit 的 Elysium 子项目；ElysiumEco 仍为社区枢纽跳过；Ascend/kalos/speculate 续观察。",
+      "lastChecked": "2026-10-18 01:12 CST",
       "scope": "additive",
       "equalEffortWith": [
         "打新",
@@ -1146,9 +1155,382 @@
       "rhhoods",
       "ponperp",
       "stonkrobbers"
+    ],
+    "round179Added": [
+      "neo-edo-2099",
+      "hoods-held-high",
+      "umbra-inference",
+      "oaken",
+      "aulus",
+      "freepad",
+      "mandate",
+      "yskar",
+      "hush-agents"
+    ],
+    "peekGapAdded": [
+      "aulus",
+      "oaken",
+      "umbra-inference",
+      "hoods-held-high",
+      "neo-edo-2099"
     ]
   },
   "candidates": [
+    {
+      "id": "neo-edo-2099",
+      "name": "Neo Edo 2099",
+      "category": "打新",
+      "chain": "EVM",
+      "links": {
+        "x": "https://x.com/NeoEdo2099",
+        "signal": "https://x.com/NeoEdo2099/status/2111322997869158776"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "tags": [
+        "打新",
+        "极早期",
+        "本轮新",
+        "NFT",
+        "WL",
+        "GTD"
+      ],
+      "status": "upcoming",
+      "riskLevel": "high",
+      "ecosystem": null,
+      "source": "Peek+X+DS gap R179",
+      "scores": {
+        "early": 72,
+        "actionable": 78,
+        "novelty": 55,
+        "risk": 68,
+        "overall": 64,
+        "composite": 6.4,
+        "raw100": {
+          "early": 72,
+          "actionable": 78,
+          "novelty": 55,
+          "risk": 68,
+          "overall": 64
+        }
+      },
+      "highlights": [
+        "Cyberpunk NFT+Satoshi Card叙事",
+        "GTD giveaway进行中，约48h窗口",
+        "133粉，早期社区"
+      ],
+      "drawbacks": [
+        "EVM具体链与合约未明",
+        "赠品GTD转化和稀有度不明",
+        "NFT赛道拥挤，差异有限"
+      ],
+      "whatsNew": "Neo Edo 2099开启约48小时GTD抽奖。",
+      "whyWatch": "GTD giveaway+约48h gates；先占WL/GTD，链与合约待核。",
+      "background": "Neo Edo 2099（@NeoEdo2099）：cyberpunk world；hunt for the Satoshi Card；GTD collab进行中。",
+      "round": 179,
+      "newThisRound": true,
+      "addedAt": "2026-10-18 01:11 CST",
+      "firstSeen": "2026-10-18 01:11 CST",
+      "mintStatus": "wl",
+      "alert": null,
+      "social": {
+        "handle": "@NeoEdo2099",
+        "followers": 133
+      },
+      "earlyScore": 72,
+      "riskScore": 68,
+      "risk": "high",
+      "schedule": {
+        "status": "wl",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "endsAt": null,
+        "phases": [
+          {
+            "name": "GTD giveaway",
+            "note": "官宣gates约48h（约10-18窗）"
+          }
+        ],
+        "source": "Peek+X+DS",
+        "note": "具体链/合约未官宣"
+      }
+    },
+    {
+      "id": "hoods-held-high",
+      "name": "Hoods Held High",
+      "category": "打新",
+      "chain": "Robinhood",
+      "links": {
+        "x": "https://x.com/HoodsHeldHigh",
+        "signal": "https://x.com/HoodsHeldHigh/status/2111434997165150383"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "tags": [
+        "打新",
+        "极早期",
+        "本轮新",
+        "NFT",
+        "Robinhood",
+        "WL",
+        "FreeMint"
+      ],
+      "status": "upcoming",
+      "riskLevel": "high",
+      "ecosystem": null,
+      "source": "Peek+X+DS gap R179",
+      "scores": {
+        "early": 78,
+        "actionable": 80,
+        "novelty": 62,
+        "risk": 65,
+        "overall": 70,
+        "composite": 7.0,
+        "raw100": {
+          "early": 78,
+          "actionable": 80,
+          "novelty": 62,
+          "risk": 65,
+          "overall": 70
+        }
+      },
+      "highlights": [
+        "3333件Hoodies，Robinhood链NFT",
+        "333个Free mint GTD WL正在放",
+        "133粉，社区尚小但可行动"
+      ],
+      "drawbacks": [
+        "WL门槛与截止未明",
+        "NFT流动性与Robinhood生态待验证",
+        "免费mint也有gas和合约风险"
+      ],
+      "whatsNew": "Hoods Held High开放333个Free mint GTD白名单。",
+      "whyWatch": "333 Free mint GTD WL live（Follow/Like/RT/Drop wallet）。",
+      "background": "Hoods Held High（@HoodsHeldHigh）：3333 Hoodies on Robinhood crypto / OpenSea；WL 刷屏收钱包。",
+      "round": 179,
+      "newThisRound": true,
+      "addedAt": "2026-10-18 01:11 CST",
+      "firstSeen": "2026-10-18 01:11 CST",
+      "mintStatus": "wl",
+      "alert": null,
+      "social": {
+        "handle": "@HoodsHeldHigh",
+        "followers": 133
+      },
+      "earlyScore": 78,
+      "riskScore": 65,
+      "risk": "high",
+      "schedule": {
+        "status": "wl",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "endsAt": null,
+        "phases": [
+          {
+            "name": "Free mint GTD WL",
+            "note": "333 spots；Follow/Like/RT/Drop wallet"
+          }
+        ],
+        "source": "Peek+X+DS",
+        "note": "mint时刻未官宣；WL进行中"
+      }
+    },
+    {
+      "id": "umbra-inference",
+      "name": "Umbra",
+      "category": "台子/Meme",
+      "chain": "Robinhood",
+      "links": {
+        "x": "https://x.com/Umbra_Inference",
+        "signal": "https://x.com/Umbra_Inference/status/2111466977323610596"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "tags": [
+        "台子/Meme",
+        "极早期",
+        "本轮新",
+        "Robinhood",
+        "x402",
+        "AI"
+      ],
+      "status": "early",
+      "riskLevel": "extreme",
+      "ecosystem": null,
+      "source": "Peek+X+DS gap R179",
+      "scores": {
+        "early": 94,
+        "actionable": 55,
+        "novelty": 85,
+        "risk": 85,
+        "overall": 64,
+        "composite": 6.4,
+        "raw100": {
+          "early": 94,
+          "actionable": 55,
+          "novelty": 85,
+          "risk": 85,
+          "overall": 64
+        }
+      },
+      "highlights": [
+        "12粉且10-17新建号",
+        "x402私有AI推理，按请求收USDG",
+        "Robinhood主网已有结算示例"
+      ],
+      "drawbacks": [
+        "无明确代币或积分路径",
+        "需求与付费真实性待验证",
+        "团队匿名且社交极弱"
+      ],
+      "whatsNew": "Umbra在Robinhood主网示例x402私有AI推理按次结算。",
+      "whyWatch": "x402按次私有推理已有RH主网结算样例；无明确代币，观察交互与积分。",
+      "background": "Umbra（@Umbra_Inference）：Private AI inference, paid per request；x402·USDC/USDG·attested enclaves；账号2026-10-17创建。",
+      "round": 179,
+      "newThisRound": true,
+      "addedAt": "2026-10-18 01:11 CST",
+      "firstSeen": "2026-10-18 01:11 CST",
+      "mintStatus": "live",
+      "alert": null,
+      "social": {
+        "handle": "@Umbra_Inference",
+        "followers": 12
+      },
+      "earlyScore": 94,
+      "riskScore": 85,
+      "risk": "extreme"
+    },
+    {
+      "id": "oaken",
+      "name": "OAKEN",
+      "category": "台子/Meme",
+      "chain": "Robinhood",
+      "links": {
+        "x": "https://x.com/oakenhood",
+        "signal": "https://x.com/oakenhood/status/2111336472288899090"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "tags": [
+        "台子/Meme",
+        "极早期",
+        "本轮新",
+        "新台",
+        "Robinhood",
+        "LP锁"
+      ],
+      "status": "early",
+      "riskLevel": "extreme",
+      "ecosystem": null,
+      "source": "Peek+X+DS gap R179",
+      "scores": {
+        "early": 90,
+        "actionable": 60,
+        "novelty": 68,
+        "risk": 70,
+        "overall": 66,
+        "composite": 6.6,
+        "raw100": {
+          "early": 90,
+          "actionable": 60,
+          "novelty": 68,
+          "risk": 70,
+          "overall": 66
+        }
+      },
+      "highlights": [
+        "19粉极早期",
+        "无owner/upgrade/admin，launch与LP锁同tx",
+        "Robinhood链新台，主打防rug"
+      ],
+      "drawbacks": [
+        "社交几乎为零",
+        "锁仓实现需验合约",
+        "流动性与用户尚未验证"
+      ],
+      "whatsNew": "OAKEN在Robinhood链推同交易完成发币与LP锁定的新台。",
+      "whyWatch": "launch+lock同tx、无admin；RH极早期锁仓工具，先验合约。",
+      "background": "OAKEN（@oakenhood）：Token & LP locks；No owner/upgrade/admin key；Launch + lock in one tx。",
+      "round": 179,
+      "newThisRound": true,
+      "addedAt": "2026-10-18 01:11 CST",
+      "firstSeen": "2026-10-18 01:11 CST",
+      "mintStatus": "early",
+      "alert": null,
+      "social": {
+        "handle": "@oakenhood",
+        "followers": 19
+      },
+      "earlyScore": 90,
+      "riskScore": 70,
+      "risk": "extreme"
+    },
+    {
+      "id": "aulus",
+      "name": "Aulus",
+      "category": "台子/Meme",
+      "chain": "Robinhood",
+      "links": {
+        "x": "https://x.com/AulusExchange",
+        "signal": "https://x.com/AulusExchange/status/2111467071561499119"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "tags": [
+        "台子/Meme",
+        "极早期",
+        "本轮新",
+        "新台",
+        "Robinhood",
+        "Uniswapv4",
+        "Points"
+      ],
+      "status": "early",
+      "riskLevel": "extreme",
+      "ecosystem": null,
+      "source": "Peek+X+DS gap R179",
+      "scores": {
+        "early": 92,
+        "actionable": 65,
+        "novelty": 72,
+        "risk": 88,
+        "overall": 64,
+        "composite": 6.4,
+        "raw100": {
+          "early": 92,
+          "actionable": 65,
+          "novelty": 72,
+          "risk": 88,
+          "overall": 64
+        }
+      },
+      "highlights": [
+        "12粉新号，极早期",
+        "Robinhood链Uniswap v4动态费率市场已上线",
+        "有Deposit/Earn/AULUS Points交互"
+      ],
+      "drawbacks": [
+        "社交几乎无背书",
+        "新台合约与资金风险高",
+        "Points规则和退出路径未明"
+      ],
+      "whatsNew": "Aulus在Robinhood Chain上线Uniswap v4动态费率市场并开积分。",
+      "whyWatch": "RH Uni v4 动态费池+Points；12粉极早期，先验合约再交互。",
+      "background": "Aulus（@AulusExchange）：Dynamic-fee liquidity markets on Uniswap v4, live on Robinhood Chain；Deposit/earn/AULUS Points。账号2026-10-16创建。",
+      "round": 179,
+      "newThisRound": true,
+      "addedAt": "2026-10-18 01:11 CST",
+      "firstSeen": "2026-10-18 01:11 CST",
+      "mintStatus": "live",
+      "alert": null,
+      "social": {
+        "handle": "@AulusExchange",
+        "followers": 12
+      },
+      "earlyScore": 92,
+      "riskScore": 88,
+      "risk": "extreme"
+    },
     {
       "id": "holdfast",
       "name": "HoldFast",
@@ -1163,7 +1545,6 @@
       "tags": [
         "台子/Meme",
         "极早期",
-        "本轮新",
         "新台",
         "Meteora",
         "Solana",
@@ -1229,7 +1610,6 @@
       "tags": [
         "台子/Meme",
         "极早期",
-        "本轮新",
         "雷达",
         "Pons",
         "Robinhood"
@@ -1294,7 +1674,6 @@
       "tags": [
         "打新",
         "极早期",
-        "本轮新",
         "NFT",
         "Robinhood",
         "Trencher"
@@ -1360,7 +1739,6 @@
       "tags": [
         "打新",
         "极早期",
-        "本轮新",
         "Perps",
         "Robinhood",
         "积分"
@@ -33362,7 +33740,6 @@
       "tags": [
         "打新",
         "极早期",
-        "本轮新",
         "NFT",
         "RWA",
         "gacha",
@@ -33403,7 +33780,7 @@
       "whyWatch": "pull.play.mint + RWA/gacha 叙事；mint TBA，先盯 WL/官推。",
       "background": "StonkRobbers（@stonkrobbers）：stock-robber 主题 NFT；bio「built for robbers」；≈2146 粉蓝V；团队侧 @madame1829 强调 RWA、Uniswap v4、gacha、100% tokens to players。",
       "round": 178,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-18 01:07 CST",
       "firstSeen": "2026-10-18 01:07 CST",
       "mintStatus": "upcoming",
@@ -33423,6 +33800,275 @@
         "phases": [],
         "source": "X+DS R178",
         "note": "mint 时刻未官宣；gamified WL/pull.play.mint"
+      }
+    },
+    {
+      "id": "freepad",
+      "name": "FreePad",
+      "category": "台子/Meme",
+      "chain": "Solana",
+      "ecosystem": null,
+      "focus": false,
+      "lzVerified": false,
+      "round": 179,
+      "newThisRound": true,
+      "firstSeen": "2026-10-18 01:11 CST",
+      "addedAt": "2026-10-18 01:11 CST",
+      "status": "early",
+      "mintStatus": "live",
+      "risk": "extreme",
+      "riskLevel": "extreme",
+      "riskScore": 76,
+      "earlyScore": 96,
+      "links": {
+        "x": "https://x.com/FreePaddotfun",
+        "web": "https://usefreepad.fun/",
+        "signal": "https://x.com/FreePaddotfun/status/2111502683324477878"
+      },
+      "social": {
+        "followers": 0,
+        "handle": "@FreePaddotfun"
+      },
+      "tags": [
+        "台子/Meme",
+        "极早期",
+        "本轮新",
+        "新台",
+        "Solana",
+        "fair-launch",
+        "零费用"
+      ],
+      "highlights": [
+        "今日新建0粉，极早期",
+        "Solana零费用发射台",
+        "发射费进入买回闭环",
+        "站点可访且CA已公开"
+      ],
+      "drawbacks": [
+        "0粉无社区验证",
+        "回购机制未审计",
+        "发射台赛道拥挤"
+      ],
+      "whatsNew": "今日新出的Solana零费用发射台，CA与站点已可查。",
+      "whyWatch": null,
+      "background": null,
+      "alert": null,
+      "source": "X+Web+DS R179",
+      "scores": {
+        "early": 96,
+        "actionable": 86,
+        "novelty": 74,
+        "risk": 76,
+        "overall": 82,
+        "composite": 8.2,
+        "raw100": {
+          "early": 96,
+          "actionable": 86,
+          "novelty": 74,
+          "risk": 76,
+          "overall": 82
+        }
+      }
+    },
+    {
+      "id": "mandate",
+      "name": "MANDATE",
+      "category": "台子/Meme",
+      "chain": "Solana",
+      "ecosystem": null,
+      "focus": false,
+      "lzVerified": false,
+      "round": 179,
+      "newThisRound": true,
+      "firstSeen": "2026-10-18 01:11 CST",
+      "addedAt": "2026-10-18 01:11 CST",
+      "status": "early",
+      "mintStatus": "live",
+      "risk": "extreme",
+      "riskLevel": "extreme",
+      "riskScore": 84,
+      "earlyScore": 95,
+      "links": {
+        "x": "https://x.com/mandate_sol",
+        "signal": "https://x.com/mandate_sol/status/2111498398184640693"
+      },
+      "social": {
+        "followers": 9,
+        "handle": "@mandate_sol"
+      },
+      "tags": [
+        "台子/Meme",
+        "极早期",
+        "本轮新",
+        "新台",
+        "AI",
+        "Solana",
+        "agent"
+      ],
+      "highlights": [
+        "9粉极早期",
+        "AI agent发射台叙事",
+        "每币带链上金库与公开mandate",
+        "费用拆分并销毁$MANDATE"
+      ],
+      "drawbacks": [
+        "仅9粉信任不足",
+        "缺官网等完整入口",
+        "金库/销毁机制复杂待验证"
+      ],
+      "whatsNew": "新出现的AI agent发射台，主打链上金库与公开mandate。",
+      "whyWatch": null,
+      "background": null,
+      "alert": null,
+      "source": "X+DS R179",
+      "scores": {
+        "early": 95,
+        "actionable": 72,
+        "novelty": 82,
+        "risk": 84,
+        "overall": 73,
+        "composite": 7.3,
+        "raw100": {
+          "early": 95,
+          "actionable": 72,
+          "novelty": 82,
+          "risk": 84,
+          "overall": 73
+        }
+      }
+    },
+    {
+      "id": "yskar",
+      "name": "YSKAR",
+      "category": "挖矿",
+      "chain": "YSKAR",
+      "ecosystem": null,
+      "focus": false,
+      "lzVerified": false,
+      "round": 179,
+      "newThisRound": true,
+      "firstSeen": "2026-10-18 01:11 CST",
+      "addedAt": "2026-10-18 01:11 CST",
+      "status": "early",
+      "mintStatus": "live",
+      "risk": "extreme",
+      "riskLevel": "extreme",
+      "riskScore": 66,
+      "earlyScore": 90,
+      "links": {
+        "x": "https://x.com/yskar_official",
+        "web": "https://yskar.app/",
+        "signal": "https://x.com/yskar_official/status/2111488917186703671"
+      },
+      "social": {
+        "followers": 28,
+        "handle": "@yskar_official"
+      },
+      "tags": [
+        "挖矿",
+        "极早期",
+        "本轮新",
+        "PoW",
+        "SHA-256d",
+        "无预挖"
+      ],
+      "highlights": [
+        "主网day39仅86地址",
+        "独立SHA-256d PoW链",
+        "无预挖且开源MIT",
+        "可CPU/GPU挖矿"
+      ],
+      "drawbacks": [
+        "新链算力与流动性弱",
+        "生态应用尚未验证",
+        "PoW赛道同质化明显"
+      ],
+      "whatsNew": "独立SHA-256d PoW链主网早期，开源无预挖且可CPU/GPU参与。",
+      "whyWatch": null,
+      "background": null,
+      "alert": null,
+      "source": "X+DS R179",
+      "scores": {
+        "early": 90,
+        "actionable": 83,
+        "novelty": 70,
+        "risk": 66,
+        "overall": 80,
+        "composite": 8.0,
+        "raw100": {
+          "early": 90,
+          "actionable": 83,
+          "novelty": 70,
+          "risk": 66,
+          "overall": 80
+        }
+      }
+    },
+    {
+      "id": "hush-agents",
+      "name": "HUSH",
+      "category": "台子/Meme",
+      "chain": "Solana",
+      "ecosystem": null,
+      "focus": false,
+      "lzVerified": false,
+      "round": 179,
+      "newThisRound": true,
+      "firstSeen": "2026-10-18 01:11 CST",
+      "addedAt": "2026-10-18 01:11 CST",
+      "status": "early",
+      "mintStatus": "live",
+      "risk": "extreme",
+      "riskLevel": "extreme",
+      "riskScore": 79,
+      "earlyScore": 91,
+      "links": {
+        "x": "https://x.com/hush_agents",
+        "signal": "https://x.com/hush_agents/status/2111499982629179647"
+      },
+      "social": {
+        "followers": 116,
+        "handle": "@hush_agents"
+      },
+      "tags": [
+        "台子/Meme",
+        "极早期",
+        "本轮新",
+        "AI",
+        "Solana",
+        "隐私支付",
+        "agent"
+      ],
+      "highlights": [
+        "昨日新建116粉",
+        "Solana AI agent隐私支付",
+        "付款收款方链上解耦",
+        "开源且CA在pump"
+      ],
+      "drawbacks": [
+        "隐私支付合规不确定",
+        "CA在pump波动大",
+        "机制与团队未充分披露"
+      ],
+      "whatsNew": "昨日新出的Solana AI agent隐私支付项目，开源且CA已上pump。",
+      "whyWatch": null,
+      "background": null,
+      "alert": null,
+      "source": "X+DS R179",
+      "scores": {
+        "early": 91,
+        "actionable": 78,
+        "novelty": 83,
+        "risk": 79,
+        "overall": 77,
+        "composite": 7.7,
+        "raw100": {
+          "early": 91,
+          "actionable": 78,
+          "novelty": 83,
+          "risk": 79,
+          "overall": 77
+        }
       }
     }
   ]
