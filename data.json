@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-17 23:15 CST",
+    "updated": "2026-10-17 23:33 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "R173: RobinXP+NorthBound+X MCP+Web(squeek/yore/midstate/minegpu/peek/gpubase)+DS admit/score",
-    "lastScout": "2026-10-17 23:15 CST",
+    "source": "R174: RobinXP+NorthBound+X MCP+Web(squeek/yore/midstate/minegpu/peek/gpubase)+DS admit/score",
+    "lastScout": "2026-10-17 23:33 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -46,8 +46,8 @@
         "zeromeme-fun",
         "oftpad"
       ],
-      "note": "无新 Zero/ATLAS；oftpad/armoreum 仍台子/Meme lzVerified=false；本轮无新 LZ。",
-      "lastChecked": "2026-10-17 23:15 CST"
+      "note": "无新 Zero/ATLAS；oftpad 仍台子/Meme lzVerified=false；Aerie 量子签名新闻属成熟层跳过；本轮无新 LZ。",
+      "lastChecked": "2026-10-17 23:33 CST"
     },
     "round5Added": [
       "farming-season",
@@ -326,7 +326,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 173,
+    "round": 174,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -403,7 +403,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 448,
+    "candidateCount": 451,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -726,7 +726,7 @@
     "focusWatch": {
       "active": true,
       "label": "重点栏 · 实验玩具链监视",
-      "lastChecked": "2026-10-17 23:15 CST",
+      "lastChecked": "2026-10-17 23:33 CST",
       "seedFirst": "squeekchain",
       "accounts": [
         "@squeekchain",
@@ -751,8 +751,8 @@
         "公平分配叙事的极早期 peer"
       ],
       "admitRule": "有 Twitter 的清晰早期 peer → focus:true 进重点栏（或至少 tags 含 重点 + 写入 focusWatch）；squeekchain 保持重点首位",
-      "note": "squeekchain 官站仍 Coming soon；hamster-hour 续；本轮无新 toychain 重点。",
-      "xApiNote": "R173：X MCP可用；get_users + search_posts_all + get_users_posts。",
+      "note": "squeekchain 官站仍 Coming soon；hamster-hour 续；本轮无新 toychain 重点。Sepolia 仓鼠测试 mint 社区讨论续。",
+      "xApiNote": "R174：X MCP可用；get_users + search_posts_all + get_users_posts。",
       "ids": [
         "squeekchain",
         "hamster-hour"
@@ -1045,6 +1045,11 @@
     "round173Added": [
       "street-hood-mini",
       "baozhafun"
+    ],
+    "round174Added": [
+      "boinkverse",
+      "ascendlaunch",
+      "kalosfun"
     ]
   },
   "candidates": [
@@ -1074,8 +1079,10 @@
             "note": "4269 minis；Robinhood Chain"
           }
         ],
-        "source": "RX+X R173",
-        "note": "RH RX upcoming；粉≈3471"
+        "source": "RX R174",
+        "note": "RH RX upcoming≈588/4269；粉≈3471",
+        "rxMinted": 588,
+        "rxStatus": "upcoming"
       },
       "focus": false,
       "lzVerified": false,
@@ -1106,8 +1113,8 @@
         "铸造价格、权益与路线图细节未明",
         "PFP同类竞争激烈，需看社区运营"
       ],
-      "whatsNew": "【R173新】Robinhood链上推出4269枚STREET HOOD mini像素PFP，并预告RX。",
-      "newThisRound": true,
+      "whatsNew": "【续更】RX upcoming≈588/4269；粉≈3471。",
+      "newThisRound": false,
       "round": 173,
       "round173Added": true,
       "addedAt": "2026-10-17 23:15 CST",
@@ -1141,8 +1148,8 @@
             "note": "3%税·每3分钟回购销毁·泵币配对"
           }
         ],
-        "source": "X R173",
-        "note": "Solana pad LIVE；粉≈24"
+        "source": "X R174",
+        "note": "Solana pad LIVE 税回购"
       },
       "focus": false,
       "lzVerified": false,
@@ -1173,8 +1180,8 @@
         "税+回购销毁需审计与长期验证",
         "发射台赛道拥挤，流动性与跑路风险高"
       ],
-      "whatsNew": "【R173新】Solana发射台Baozha上线泵币索拉纳配对与3%税自动回购销毁。",
-      "newThisRound": true,
+      "whatsNew": "【续更】英文站上线，税回购销毁引擎运行；粉≈24。",
+      "newThisRound": false,
       "round": 173,
       "round173Added": true,
       "addedAt": "2026-10-17 23:15 CST",
@@ -1210,7 +1217,7 @@
             "note": "Base/ETH/RH/Arc"
           }
         ],
-        "source": "X R173",
+        "source": "RX/X R174",
         "note": "pad LIVE"
       },
       "focus": false,
@@ -1244,7 +1251,7 @@
         "发射台赛道竞品密集",
         "代币化股票配对存在合规不确定性"
       ],
-      "whatsNew": "【续更】股票配对AI发射台多链LIVE；粉≈1072。",
+      "whatsNew": "【续更】股票配对 AI 发射台 LIVE；粉≈1071。",
       "newThisRound": false,
       "round": 172,
       "round172Added": true,
@@ -1951,7 +1958,7 @@
         "猫PFP叙事同质化",
         "社媒体量仍小，需防低流动性"
       ],
-      "whatsNew": "【续更】Base GTD LIVE 续。",
+      "whatsNew": "【续更】Base GTD LIVE 续；粉≈216。",
       "schedule": {
         "status": "live",
         "timezone": "Asia/Shanghai",
@@ -1967,7 +1974,7 @@
             "note": "同日"
           }
         ],
-        "source": "RX/NB R173",
+        "source": "RX/X R174",
         "note": "GTD LIVE；粉≈214"
       },
       "risk": 66,
@@ -3027,7 +3034,7 @@
       "whyWatch": "Tessera今日ETH免费PUBLIC≈23:22CST；555/0；官推≈1767粉。",
       "background": "Glitch Gang：ETH无路线图dagen NFT；Tessera排期今日15:22 UTC免费PUBLIC，3/wallet，供应555。",
       "schedule": {
-        "status": "upcoming",
+        "status": "live",
         "timezone": "Asia/Shanghai",
         "startsAt": "2026-10-17T15:22:00Z",
         "phases": [
@@ -3037,9 +3044,9 @@
             "note": "supply555·3/wallet"
           }
         ],
-        "source": "X+NB R173",
-        "note": "≈23:22CST FREE PUBLIC",
-        "mintStatus": "upcoming"
+        "source": "X+NB R174",
+        "note": "≈23:22CST FREE PUBLIC LIVE",
+        "mintStatus": "live"
       },
       "id": "glitch-gang",
       "round": 145,
@@ -3064,7 +3071,7 @@
         "免费mint易引机器人，二级预期不明",
         "NFT大盘流动性差，退出依赖情绪"
       ],
-      "whatsNew": "【续更】官讯 FREE PUBLIC ETH supply555·3/钱包；NorthBound≈23:22CST；粉≈1769。",
+      "whatsNew": "【续更】官推 Mint is live!! FREE ETH PUBLIC；粉≈1768。",
       "lastRefreshedAt": "2026-10-17T15:10:24+08:00"
     },
     {
@@ -3860,8 +3867,10 @@
             "note": "RX≈527 LIVE"
           }
         ],
-        "source": "RX/NB R173",
-        "note": "RX≈527 LIVE"
+        "source": "RX/X R174",
+        "note": "RX≈527 LIVE",
+        "rxMinted": 527,
+        "rxStatus": "live"
       },
       "round": 136,
       "newThisRound": false,
@@ -3885,7 +3894,7 @@
         "独立X仅约646粉，社区偏薄",
         "纯PFP叙事，缺乏长期效用设计"
       ],
-      "whatsNew": "【续更】RX LIVE 续。",
+      "whatsNew": "【续更】RX LIVE≈527 续。",
       "onchain": {
         "minted": 527,
         "lastCheckedAt": "2026-10-17T20:33:58+08:00"
@@ -3920,17 +3929,17 @@
       "lzVerified": null,
       "focus": false,
       "schedule": {
-        "status": "live",
+        "status": "upcoming",
         "timezone": "Asia/Shanghai",
-        "mintStatus": "live",
+        "mintStatus": "upcoming",
         "phases": [
           {
             "name": "PUBLIC",
             "note": "RX≈108 LIVE"
           }
         ],
-        "source": "RX/NB R173",
-        "note": "RX≈108 LIVE"
+        "source": "RX R174",
+        "note": "RX thenewgensociety upcoming"
       },
       "round": 136,
       "newThisRound": false,
@@ -3954,7 +3963,7 @@
         "$TNGS代币叙事尚无落地细节",
         "Robinhood链生态整体尚不成熟"
       ],
-      "whatsNew": "【续更】RX LIVE 续。",
+      "whatsNew": "【续更】RX thenewgensociety upcoming/续盯。",
       "onchain": {
         "minted": 108,
         "lastCheckedAt": "2026-10-17T20:33:58+08:00"
@@ -4552,7 +4561,7 @@
         "status": "live",
         "timezone": "Asia/Shanghai",
         "mintStatus": "live",
-        "startsAt": "2026-10-17T13:00:00Z",
+        "startsAt": "2026-10-17T13:30:00Z",
         "phases": [
           {
             "name": "Vault FREE",
@@ -4560,8 +4569,8 @@
             "note": "LIVE"
           }
         ],
-        "source": "RX/NB R173",
-        "note": "FREE LIVE；粉≈1067"
+        "source": "X+NB R174",
+        "note": "Vault FREE LIVE 延时"
       },
       "onchain": {
         "note": "Base；supply 1977；OS collection Teddy London - The Crew≈133",
@@ -4591,7 +4600,7 @@
         "Aurora细节未明",
         "NFT市场情绪波动"
       ],
-      "whatsNew": "【续更】Vault FREE LIVE Base 续（NorthBound the-crew≈21:30CST已开）。",
+      "whatsNew": "【续更】Vault FREE LIVE 延长约30min；粉≈1071。",
       "social": {
         "xFollowers": 1067,
         "lastCheckedAt": "2026-10-17T22:08:06+08:00",
@@ -4924,7 +4933,7 @@
         "toychain 长期价值不确定",
         "PoW 挖矿收益与代币模型未公开"
       ],
-      "whatsNew": "【续更】官站仍 Coming soon；bio 未发币；粉≈1244·0推文。",
+      "whatsNew": "【续更】官站仍 Coming soon；bio 未发币；粉≈1245·0推文。",
       "background": "Hamster-powered proof-of-work toychain on Ethereum (Sepolia). Physical hamster wheel (WHEELY9000) activity verified and settled on-chain. Token has NOT launched yet.",
       "whyWatch": "重点：实体仓鼠+PoW玩具链+预发币测试网，小七点名盯盘；同类实验叙事标杆。",
       "status": "early",
@@ -4934,8 +4943,8 @@
       "schedule": {
         "status": "watch",
         "timezone": "Asia/Shanghai",
-        "source": "Web+X R173",
-        "note": "Coming soon；粉≈1244·0推文",
+        "source": "Web+X R174",
+        "note": "Coming soon；粉≈1245·0推文",
         "mintStatus": "watch"
       },
       "onchain": {
@@ -4999,7 +5008,7 @@
         "无法评估真实参与方式",
         "同类仓鼠项目多，竞争与淘汰风险高"
       ],
-      "whatsNew": "【续更】重点同类续盯；early access 叙事；粉≈30·13帖。",
+      "whatsNew": "【续更】重点同类续盯 early access。",
       "background": "First swarm-built app on squeekchain: bet $IMD on how far the hamster runs in an hour; top 3 split the pot.",
       "whyWatch": "重点类：squeekchain 生态极早期应用 peer；同属实体+链上玩具叙事。",
       "status": "early",
@@ -6391,7 +6400,7 @@
         "GPU/商品PoW竞争激烈，回本不确定",
         "项目信息与流动性待验证"
       ],
-      "whatsNew": "【续更】midstate.cash 协议页在线；midwimble 称 testnet merge-mine via midstate pool。",
+      "whatsNew": "【续更】midstate.cash 协议页在线，挖矿续。",
       "whyWatch": "与 QTC/NOID 同属「后量子 GPU PoW L1」赛道，但算法是顺序 BLAKE3（非 Poseidon）；hobbyist/GPU 窗口仍在，且有 LuckyPool+钱包+交易所入口，适合盯算力与抛压。",
       "background": "Midstate（$MDS）· midstate.cash · 独立 L1：顺序 BLAKE3 PoW、60s ASERT、power-of-2 UTXO、commit-reveal mempool。创世锚定 BTC #938708（2026-02-24）。源码 ciphernom/midstate；浏览器 rpc.cypherpunk.gold；矿池 midstate.luckypool.io（lpminer CUDA）。官推 @cypherpunkgold（主页 midstate.cash；站内 @midstate_dev 404）。",
       "risk": "极早期单人项目；交易所深度浅；假池/假矿工与死链官推链接并存。只认 midstate.cash / @cypherpunkgold / LuckyPool 官方包。非投资建议。",
@@ -6411,7 +6420,7 @@
             "note": "midstate.cash续"
           }
         ],
-        "source": "Web R172",
+        "source": "Web R174",
         "note": "midstate.cash可访"
       },
       "social": {
@@ -7862,7 +7871,7 @@
       "drawbacks": [
         "开矿时间仍 TBA"
       ],
-      "whatsNew": "Glaze首发挖矿续更；粉→296；@WSMCO_",
+      "whatsNew": "【续更】Glaze首发挖矿 TBA 续盯。",
       "whyWatch": "RH 上 GlazeCorp 风格早期基金/挖矿发射；盯开矿窗、$WSM 与合约。",
       "background": "WALL STREET MINING CO（@WSMCO_）自称 Professional Bag Diggers，First @glaze_corp token；GlazeCorp 为 Robinhood Chain fund launchpad。近期帖称 The mine is almost open / Miners assemble，并有 NFT giveaway 与 $WSM 叙事。",
       "risk": "极早期、粉少、开矿与代币细节未明；可能存在关联号/改期/空叙事风险。",
@@ -7944,7 +7953,7 @@
         "fair-launch 竞争可能激烈",
         "Injective 生态 meme 流动性待验证"
       ],
-      "whatsNew": "【续更】官推「One hour」确认 Injective 主网≈16:00UTC=00:00CST 上线；粉≈1138；首300交易者OG。",
+      "whatsNew": "【续更】官推「One hour」Injective 主网≈00:00CST；粉≈1162。",
       "whyWatch": "同类极早期链上发射台（Injective/Ink 风格 bonding fair-launch）；盯主网开台与首批发射。",
       "background": "yore.fun（@yorefun）自称 Injective 上 fair-launch bonding-curve 发射台：无预售、无团队配额，售罄毕业到 swap.yore.fun；已完成 testnet beta，官帖宣布周六 10-17 16:00 UTC 正式上线。",
       "risk": "med",
@@ -7964,8 +7973,8 @@
             "note": "4 PM UTC；首300 OG Trader"
           }
         ],
-        "source": "X+Web R173",
-        "note": "≈00:00CST 主网上线（约1h内）",
+        "source": "X R174",
+        "note": "≈00:00CST Injective主网上线",
         "mintStatus": "upcoming"
       },
       "onchain": {
@@ -8333,8 +8342,8 @@
             "note": "12h暂停窗已过；仍无恢复帖"
           }
         ],
-        "source": "@ProgrammableHQ",
-        "note": "盯恢复"
+        "source": "X R174",
+        "note": "AI 审发射申请续"
       },
       "highlights": [
         "Uniswap v4 hooks 发射基建",
@@ -8344,7 +8353,7 @@
         "暂停后仍无恢复公告",
         "新发射节奏不明"
       ],
-      "whatsNew": "Uniswap v4 hooks基建续更；粉→7889；@ProgrammableHQ",
+      "whatsNew": "【续更】AI agents 每小时审自定义发射申请；粉≈7925。",
       "scores": {
         "early": 6,
         "actionable": 6,
@@ -9037,7 +9046,9 @@
           }
         ],
         "source": "OpenSea+RobinXP R165",
-        "note": "PUBLIC续；OS≈368；粉≈638"
+        "note": "PUBLIC续；OS≈368；粉≈638",
+        "rxMinted": 8117,
+        "rxStatus": "live"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -12621,8 +12632,8 @@
             "note": "supply 888；GTD LIVE"
           }
         ],
-        "source": "X+NB R173",
-        "note": "≈23:00CST 起 LIVE",
+        "source": "X+NB R174",
+        "note": "≈23:00CST 起 GTD/PUBLIC LIVE",
         "mintStatus": "live"
       },
       "highlights": [
@@ -12635,7 +12646,7 @@
         "NFT 二级流动性不确定",
         "Ink 生态仍在早期，需求需观察"
       ],
-      "whatsNew": "【续更】官推确认 GTD PHASE LIVE·Mint Station 已开；NorthBound≈23:00CST PUBLIC 0.00069 ETH·888；粉≈5574。",
+      "whatsNew": "【续更】官推确认 GTD PHASE LIVE·Mint Station 已开；粉≈5554。",
       "scores": {
         "early": 6.0,
         "actionable": 8.5,
@@ -21960,7 +21971,7 @@
         "website": "https://influence.family/",
         "signal": "https://x.com/Influencefamily/status/2110702412059300173"
       },
-      "whatsNew": "【续更】Influence SocialFi RH；$INFLUENCE 日程≈23:00CST窗口续盯；粉≈5961。",
+      "whatsNew": "【续更】官推 RH SocialFi 合约已 live；粉≈5979。",
       "highlights": [
         "RH 首个 Influence SocialFi；Fan Markets 已上",
         "$INFLUENCE 官宣 10-17 15:00UTC≈23:00CST 发射",
@@ -21985,7 +21996,7 @@
       "whyWatch": "RH SocialFi+$INFLUENCE 明确发射窗；Fan Markets 已跑。",
       "background": "Influence：Robinhood 链 Influence SocialFi；Fan Markets/Keys；$INFLUENCE 官宣 10-17 15:00UTC 发射。",
       "schedule": {
-        "status": "upcoming",
+        "status": "live",
         "timezone": "Asia/Shanghai",
         "startsAt": "2026-10-17T15:00:00Z",
         "phases": [
@@ -21994,9 +22005,9 @@
             "note": "≈23:00CST 窗口"
           }
         ],
-        "source": "X R173",
-        "note": "≈23:00CST",
-        "mintStatus": "upcoming"
+        "source": "X R174",
+        "note": "RH SocialFi 合约 LIVE",
+        "mintStatus": "live"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -22963,8 +22974,8 @@
             "note": "贴了 pump.fun CA；未核验"
           }
         ],
-        "source": "Web R163",
-        "note": "台子续盯；非LZ栏"
+        "source": "X R174",
+        "note": "自称 OFT pad；非LZ栏"
       },
       "onchain": {
         "chainId": "solana",
@@ -22992,7 +23003,7 @@
         "无明确产品与时间线",
         "蹭LayerZero嫌疑大"
       ],
-      "whatsNew": "【续更】自称 OFT omnichain launchpad；仍 lzVerified=false 台子/Meme。",
+      "whatsNew": "【续更】自称 OFT launchpad live；仍 lzVerified=false 台子/Meme；粉≈21。",
       "whyWatch": "极早期自称 Omnichain Fungible Token 发射台（@OFTpad）；仅官帖自述+pump.fun CA，是否真接跨链协议未核验，归入台子/Meme 栏盯盘。",
       "flag": "WATCH",
       "riskLevel": "critical",
@@ -24066,7 +24077,7 @@
         "≈3051粉/17帖，披露有限",
         "资格与名单规则仍可能变"
       ],
-      "whatsNew": "【续更】NorthBound≈00:30CST FREE ETH；粉≈3169；@STASHAPES。",
+      "whatsNew": "【续更】NorthBound≈00:30CST FREE ETH；粉≈3173。",
       "links": {
         "x": "https://x.com/STASHAPES",
         "site": "https://stashapes.xyz/hub",
@@ -24082,8 +24093,8 @@
             "note": "ETH"
           }
         ],
-        "source": "NB+X R173",
-        "note": "≈00:30CST FREE",
+        "source": "NB R174",
+        "note": "≈00:30CST FREE ETH",
         "mintStatus": "upcoming",
         "startsAt": "2026-10-17T16:30:00Z"
       },
@@ -25194,8 +25205,10 @@
             "note": "RX≈381 LIVE"
           }
         ],
-        "source": "RX/NB R173",
-        "note": "RX≈381 LIVE"
+        "source": "RX/X R174",
+        "note": "RX≈381 LIVE",
+        "rxMinted": 381,
+        "rxStatus": "live"
       },
       "scores": {
         "early": 7.8,
@@ -25221,7 +25234,7 @@
         "团队与长期需求信息不足",
         "跨链及二级退出路径不明确"
       ],
-      "whatsNew": "【续更】RX LIVE 续。",
+      "whatsNew": "【续更】RX LIVE≈381 续。",
       "whyWatch": "极早期低价 RH PUBLIC，供应仍大半未 mint",
       "background": "Robinhood Chain 像素猴主题 NFT，Trencher/OpenSea 可见日程与合约。",
       "addedAt": "2026-10-17 05:25 CST",
@@ -25273,8 +25286,8 @@
             "price": "$2"
           }
         ],
-        "source": "X+NB R173",
-        "note": "≈01:00CST OpenSea ETH；999",
+        "source": "X+NB R174",
+        "note": "≈01:00CST ETH OpenSea GTD$1",
         "mintStatus": "upcoming"
       },
       "scores": {
@@ -25301,7 +25314,7 @@
         "仅有时间线索",
         "ETH链打新需防钓鱼"
       ],
-      "whatsNew": "【续更】官推确认今日5pm UTC（≈01:00CST）ETH OpenSea；GTD$1/WL$1.5/Public$2·supply999；粉≈1114。",
+      "whatsNew": "【续更】官推今日5pm UTC≈01:00CST GTD$1/WL$1.5/Public$2·999；粉≈1114。",
       "whyWatch": "小供应硬件主题 ETH 盘，开 mint 前窗口",
       "background": "NorthBound 日程中的 ETH 硬件笔记本主题 NFT，官推 @rhlaptops。",
       "addedAt": "2026-10-17 05:25 CST",
@@ -26211,7 +26224,7 @@
         "Meme属性重，短期炒作风险",
         "mint细节与权益披露少"
       ],
-      "whatsNew": "【续更】R148轻量续盯。【续更】R146轻量续盯；续更：AMNT Beta上线并将开启Whale Traders mint，主打AI agent+NFT Studio+x402。续更",
+      "whatsNew": "【续更】Whale Traders NB≈03:30CST+1 Hedera TBA。",
       "addedAt": "2026-10-17T07:39:09.452760+08:00",
       "firstSeen": "2026-10-17T07:39:09.452760+08:00",
       "chain": "Hedera/Base/Solana",
@@ -26227,7 +26240,7 @@
       "mintStatus": "live",
       "status": "live",
       "schedule": {
-        "status": "live",
+        "status": "upcoming",
         "timezone": "Asia/Shanghai",
         "phases": [
           {
@@ -26235,8 +26248,9 @@
             "note": "AI agent + NFT Studio + x402"
           }
         ],
-        "source": "amnt.io+NorthBound R141",
-        "note": "AI agent+NFT Studio+x402 Beta live；Whale Traders NB≈03:30CST+1；@amnt_io"
+        "source": "NB R174",
+        "note": "Whale Traders NB≈03:30CST+1 Hedera",
+        "startsAt": "2026-10-17T19:30:00Z"
       },
       "links": {
         "x": "https://x.com/amnt_io",
@@ -27243,16 +27257,32 @@
       "schedule": {
         "status": "upcoming",
         "timezone": "Asia/Shanghai",
-        "startsAt": "2026-10-18T04:00:00Z",
+        "startsAt": "2026-10-18T16:00:00Z",
         "phases": [
           {
-            "name": "Signed",
-            "price": "FREE",
-            "startsAt": "2026-10-18T04:00:00Z"
+            "name": "VIP",
+            "at": "2026-10-18T16:00:00Z",
+            "note": "12PM ET FREE"
+          },
+          {
+            "name": "GTD",
+            "at": "2026-10-18T18:00:00Z",
+            "note": "2PM ET FREE"
+          },
+          {
+            "name": "WL",
+            "at": "2026-10-18T22:00:00Z",
+            "note": "6PM ET FREE"
+          },
+          {
+            "name": "Public",
+            "at": "2026-10-19T02:00:00Z",
+            "note": "10PM ET $0.01"
           }
         ],
-        "source": "RXP+Trencher R148",
-        "note": "≈10-18 12:00CST"
+        "source": "X R174",
+        "note": "Oct18 ET VIP12=00:00CST+1 FREE",
+        "mintStatus": "upcoming"
       },
       "id": "oozlings",
       "round": 134,
@@ -27278,7 +27308,7 @@
         "Robinhood链生态极新、流动性差",
         "团队匿名且无路线图"
       ],
-      "whatsNew": "【续更】RXP/Trencher Signed≈10-18 12:00CST FREE；@Oozlings。",
+      "whatsNew": "【续更】官推 Oct18 ET VIP12/GTD14/WL18 FREE·Public22 $0.01；粉≈21。",
       "lastRefreshedAt": "2026-10-17T15:10:24+08:00"
     },
     {
@@ -27312,8 +27342,10 @@
             "note": "RX≈303 LIVE"
           }
         ],
-        "source": "RX/NB R173",
-        "note": "RX≈303 LIVE"
+        "source": "RX/X R174",
+        "note": "RX≈303 LIVE",
+        "rxMinted": 307,
+        "rxStatus": "live"
       },
       "id": "zany-apes",
       "round": 134,
@@ -27339,7 +27371,7 @@
         "社区规模仍偏小",
         "无明确赋能或路线"
       ],
-      "whatsNew": "【续更】RX LIVE 续。",
+      "whatsNew": "【续更】RX LIVE≈307 续。",
       "onchain": {
         "minted": 298,
         "lastCheckedAt": "2026-10-17T20:33:58+08:00"
@@ -27549,8 +27581,10 @@
             "note": "RX≈98 LIVE"
           }
         ],
-        "source": "RX/NB R173",
-        "note": "RX≈98 LIVE"
+        "source": "RX/X R174",
+        "note": "RX≈98 LIVE",
+        "rxMinted": 98,
+        "rxStatus": "live"
       },
       "round": 140,
       "newThisRound": false,
@@ -27574,7 +27608,7 @@
         "casino主题偏投机",
         "PUBLIC开放至10-23可能稀释稀缺"
       ],
-      "whatsNew": "【续更】RX LIVE 续。",
+      "whatsNew": "【续更】RX LIVE≈98 续。",
       "onchain": {
         "minted": 98,
         "lastCheckedAt": "2026-10-17T20:33:58+08:00"
@@ -30195,7 +30229,7 @@
         "500 小供给，二级预期有限",
         "免费 mint 易被脚本抢跑"
       ],
-      "whatsNew": "【续更】Base PUBLIC FREE LIVE 续；粉≈3065。",
+      "whatsNew": "【续更】官推 Public Mint live 仅剩约30；粉≈3070。",
       "links": {
         "x": "https://x.com/Venjester_",
         "site": "https://opensea.io/collection/ven-jester",
@@ -30213,8 +30247,8 @@
             "note": "500 · LIVE"
           }
         ],
-        "source": "RX/NB R173",
-        "note": "PUBLIC FREE LIVE；粉≈3065"
+        "source": "X R174",
+        "note": "PUBLIC FREE LIVE 约剩30"
       },
       "mintStatus": "live",
       "background": "500 Ven Jester on Base；FREE mint via OpenSea。",
@@ -31110,7 +31144,7 @@
         "mint进度为自称，未链上验证",
         "青蛙Meme同质化较强"
       ],
-      "whatsNew": "【续更】PUBLIC FREE LIVE 续。",
+      "whatsNew": "【续更】PUBLIC FREE LIVE 续；粉≈3070。",
       "schedule": {
         "status": "live",
         "timezone": "Asia/Shanghai",
@@ -31122,7 +31156,7 @@
             "note": "LIVE 续"
           }
         ],
-        "source": "RX/NB R173",
+        "source": "RX/X R174",
         "note": "PUBLIC FREE LIVE；粉≈3080"
       },
       "risk": 52,
@@ -31401,6 +31435,206 @@
       "newThisRound": false,
       "focus": false,
       "lzVerified": false
+    },
+    {
+      "id": "boinkverse",
+      "name": "Boinkverse (BOINK)",
+      "category": "打新",
+      "tags": [
+        "打新",
+        "NFT",
+        "GameFi",
+        "Free Mint",
+        "Ink",
+        "Testnet",
+        "本轮新",
+        "极早期"
+      ],
+      "chain": "Ink L2",
+      "links": {
+        "x": "https://x.com/boinkverse",
+        "signal": "https://x.com/boinkverse"
+      },
+      "schedule": {
+        "status": "watch",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "watch",
+        "phases": [
+          {
+            "name": "等待测试网与 Mint 排期",
+            "note": "官方仅称 NFT 发射前开放测试网，mint TBA"
+          }
+        ],
+        "source": "X+DS R174",
+        "note": "官方仅称 NFT 发射前开放测试网，mint TBA"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "alert": null,
+      "source": "X+DS R174",
+      "scores": {
+        "early": 82,
+        "actionable": 64,
+        "novelty": 62,
+        "risk": 68,
+        "overall": 64,
+        "composite": 6.4,
+        "raw100": {
+          "early": 82,
+          "actionable": 64,
+          "novelty": 62,
+          "risk": 68,
+          "overall": 64
+        }
+      },
+      "highlights": [
+        "Ink L2 上 2222 供应的 NFT/GameFi，OG 免费、非 OG 收费，有明确稀缺与分层模型",
+        "官推称 Testnet will be open before the NFT launch，产品优先而非纯炒作",
+        "200+ 社区协作、粉丝约 6804，早期社区基础可见"
+      ],
+      "drawbacks": [
+        "mint 时间 TBA，测试网与 NFT 发射排期未定",
+        "GameFi 玩法与代币经济未披露，交付不确定性高",
+        "非 OG 收费机制可能带来 bot/多号与社区公平性质疑"
+      ],
+      "whatsNew": "BOINK 在 Ink L2 推进 2222 供应 NFT/GameFi，并称测试网将先于 NFT 发射开放。",
+      "newThisRound": true,
+      "round": 174,
+      "round174Added": true,
+      "addedAt": "2026-10-17 23:33 CST",
+      "firstSeen": "2026-10-17 23:33 CST"
+    },
+    {
+      "id": "ascendlaunch",
+      "name": "Ascend Launch",
+      "category": "新台",
+      "tags": [
+        "新台",
+        "Launchpad",
+        "Hyperliquid L2",
+        "Pre-mainnet",
+        "Audit",
+        "Early",
+        "本轮新",
+        "极早期"
+      ],
+      "chain": "Hyperliquid L2 / Enter_Elysium",
+      "links": {
+        "x": "https://x.com/AscendLaunch",
+        "signal": "https://x.com/AscendLaunch"
+      },
+      "schedule": {
+        "status": "watch",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "watch",
+        "phases": [
+          {
+            "name": "主网前/合约送审",
+            "note": "等待主网、审计结果与首期 launch 公告"
+          }
+        ],
+        "source": "X+DS R174",
+        "note": "等待主网、审计结果与首期 launch 公告"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "alert": null,
+      "source": "X+DS R174",
+      "scores": {
+        "early": 80,
+        "actionable": 58,
+        "novelty": 55,
+        "risk": 75,
+        "overall": 59,
+        "composite": 5.9,
+        "raw100": {
+          "early": 80,
+          "actionable": 58,
+          "novelty": 55,
+          "risk": 75,
+          "overall": 59
+        }
+      },
+      "highlights": [
+        "定位 Hyperliquid L2（Enter_Elysium）上的早期 launchpad",
+        "质押合约已送审，处于主网前阶段，具打新入口属性",
+        "粉丝约 3874，账号 2026-08 新建，属于极早期标的"
+      ],
+      "drawbacks": [
+        "与 Enter_Elysium 的隶属/合作关系为自称，缺独立核验",
+        "主网和首期项目均无明确时间表",
+        "账号新、历史短，存在营销或刷粉噪音"
+      ],
+      "whatsNew": "Ascend Launch 以 Enter_Elysium 上的预主网 launchpad 身份出现，质押合约已送审。",
+      "newThisRound": true,
+      "round": 174,
+      "round174Added": true,
+      "addedAt": "2026-10-17 23:33 CST",
+      "firstSeen": "2026-10-17 23:33 CST"
+    },
+    {
+      "id": "kalosfun",
+      "name": "kalos.fun",
+      "category": "新台",
+      "tags": [
+        "新台",
+        "极早期",
+        "NFT/token交易",
+        "本轮新"
+      ],
+      "chain": "Elysium/HL",
+      "links": {
+        "x": "https://x.com/kalosfun",
+        "signal": "https://x.com/kalosfun"
+      },
+      "schedule": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "upcoming",
+        "phases": [
+          {
+            "name": "upcoming",
+            "note": "Coming soon；等待正式上线、合约与交互细节"
+          }
+        ],
+        "source": "X+DS R174",
+        "note": "Coming soon；等待正式上线、合约与交互细节"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "alert": null,
+      "source": "X+DS R174",
+      "scores": {
+        "early": 85,
+        "actionable": 35,
+        "novelty": 65,
+        "risk": 70,
+        "overall": 58,
+        "composite": 5.8,
+        "raw100": {
+          "early": 85,
+          "actionable": 35,
+          "novelty": 65,
+          "risk": 70,
+          "overall": 58
+        }
+      },
+      "highlights": [
+        "Elysium/HL生态新交易台",
+        "定位NFT/token交易，偏Meme/新台方向",
+        "极早期，若上线可优先跟踪"
+      ],
+      "drawbacks": [
+        "推特粉丝仅792，信息量较少",
+        "Coming soon，产品与合约尚未上线",
+        "团队、融资与安全信息未披露"
+      ],
+      "whatsNew": "kalos.fun预告将在Enter_Elysium上交易NFT与代币，目前处于极早期。",
+      "newThisRound": true,
+      "round": 174,
+      "round174Added": true,
+      "addedAt": "2026-10-17 23:33 CST",
+      "firstSeen": "2026-10-17 23:33 CST"
     }
   ]
 }
