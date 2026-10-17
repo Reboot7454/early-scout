@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-17 21:31 CST",
+    "updated": "2026-10-17 21:47 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "X MCP + RobinXP /api/live + OpenSea + Web(squeek/yore/midstate/playground/minegpu/pantheon/etalabs/deathbox/hopheads/anonhood) R167",
-    "lastScout": "2026-10-17 21:31 CST",
+    "source": "X MCP + RobinXP /api/live + Web(squeek/yore/midstate/playground/minegpu/pantheon/hopheads/sherwood/giwasignals) R169",
+    "lastScout": "2026-10-17 21:47 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -47,7 +47,7 @@
         "oftpad"
       ],
       "note": "无新 Zero/ATLAS 开链证据；oftpad 自称 OFT live 仍台子/Meme lzVerified=false；armoreum 保持台子/Meme。本轮无新 LZ。",
-      "lastChecked": "2026-10-17 21:31 CST"
+      "lastChecked": "2026-10-17 21:47 CST"
     },
     "round5Added": [
       "farming-season",
@@ -349,7 +349,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 168,
+    "round": 169,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -426,7 +426,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 433,
+    "candidateCount": 435,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -658,7 +658,7 @@
         "fee split / S02"
       ],
       "note": "playground.token.works 仍可访；@Rhynotic 续盯。",
-      "lastChecked": "2026-10-17 20:51 CST"
+      "lastChecked": "2026-10-17 21:47 CST"
     },
     "round97Added": [
       "evrynth"
@@ -749,7 +749,7 @@
     "focusWatch": {
       "active": true,
       "label": "重点栏 · 实验玩具链监视",
-      "lastChecked": "2026-10-17 21:31 CST",
+      "lastChecked": "2026-10-17 21:47 CST",
       "seedFirst": "squeekchain",
       "accounts": [
         "@squeekchain",
@@ -775,7 +775,7 @@
       ],
       "admitRule": "有 Twitter 的清晰早期 peer → focus:true 进重点栏（或至少 tags 含 重点 + 写入 focusWatch）；squeekchain 保持重点首位",
       "note": "squeekchain 官站仍 Coming soon；社区称 Sepolia NFT PoW 挖测；hamster-hour early access 续；本轮无新重点同类。",
-      "xApiNote": "R168：X MCP可用；get_users + search_posts_all + get_users_posts。",
+      "xApiNote": "R169：X MCP可用；get_users + search_posts_all + get_users_posts。",
       "ids": [
         "squeekchain",
         "hamster-hour"
@@ -827,9 +827,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "sherwood-belt",
-      "brr-labs",
-      "giwaup"
+      "giwa-signals",
+      "muttlaws"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1044,9 +1043,198 @@
       "sherwood-belt",
       "brr-labs",
       "giwaup"
+    ],
+    "round169Added": [
+      "giwa-signals",
+      "muttlaws"
     ]
   },
   "candidates": [
+    {
+      "id": "giwa-signals",
+      "name": "GIWA Signals",
+      "category": "打新",
+      "chain": "GIWA",
+      "tags": [
+        "打新",
+        "NFT",
+        "GIWA",
+        "WL",
+        "极早期",
+        "Testnet",
+        "本轮新"
+      ],
+      "links": {
+        "x": "https://x.com/GiwaSignals",
+        "site": "https://giwasignals.fun/",
+        "signal": "https://x.com/GiwaSignals/status/2110798762385830250"
+      },
+      "scores": {
+        "early": 92,
+        "actionable": 84,
+        "novelty": 80,
+        "risk": 58,
+        "overall": 78,
+        "composite": 7.8,
+        "raw100": {
+          "early": 92,
+          "actionable": 84,
+          "novelty": 80,
+          "risk": 58,
+          "overall": 78
+        }
+      },
+      "highlights": [
+        "GIWA Sepolia 测试网已上线，WL 表开放",
+        "2222 个 Alien=Vault，含质押/借贷/Stations 奖励",
+        "与 GIWA 主网 Day1 生态同窗，卡位极早期",
+        "官站与推特齐全，粉约 444"
+      ],
+      "drawbacks": [
+        "仅测试网，主网与 mint 细节未定",
+        "社区约 444 粉，厚度不足",
+        "奖励与质押合约未公开审计",
+        "GIWA 生态依赖主网启动进度"
+      ],
+      "whatsNew": "【R169新】GIWA Sepolia 测试网上线 NFT Bank 并开放 WL，绑定主网 Day1 生态窗口。",
+      "schedule": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "wl",
+        "phases": [
+          {
+            "name": "Testnet",
+            "note": "GIWA Sepolia LIVE · Bank/Lend"
+          },
+          {
+            "name": "Whitelist",
+            "note": "官站表开放"
+          },
+          {
+            "name": "Mainnet mint",
+            "note": "TBA · 2222 Aliens"
+          }
+        ],
+        "source": "Web+X R169",
+        "note": "Testnet+WL；粉≈444"
+      },
+      "risk": 58,
+      "riskLevel": "中",
+      "earlyScore": 92,
+      "status": "upcoming",
+      "mintStatus": "wl",
+      "social": {
+        "handles": [
+          "GiwaSignals"
+        ],
+        "followers": 444,
+        "xFollowers": 444,
+        "lastCheckedAt": "2026-10-17T21:47:03+08:00"
+      },
+      "flag": "new",
+      "background": "GIWA Signals（@GiwaSignals）：GIWA 上的 NFT Bank，2222 Alien=Vault；Sepolia 测试网 LIVE；stake/lend/Stations。",
+      "whyWatch": "GIWA Day1 生态极早期；测试网+WL 已开；粉≈444。",
+      "addedAt": "2026-10-17T21:47:03+08:00",
+      "firstSeen": "2026-10-17T21:47:03+08:00",
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00",
+      "round": 169,
+      "newThisRound": true,
+      "focus": false,
+      "lzVerified": false
+    },
+    {
+      "id": "muttlaws",
+      "name": "Zama Muttlaws",
+      "category": "打新",
+      "chain": "Ethereum",
+      "tags": [
+        "打新",
+        "NFT",
+        "ETH",
+        "Zama",
+        "加密",
+        "WL",
+        "极早期",
+        "本轮新"
+      ],
+      "links": {
+        "x": "https://x.com/muttlaws",
+        "site": "https://muttlaws.art/",
+        "signal": "https://x.com/muttlaws/status/2110407215207350391"
+      },
+      "scores": {
+        "early": 76,
+        "actionable": 44,
+        "novelty": 75,
+        "risk": 62,
+        "overall": 60,
+        "composite": 6.0,
+        "raw100": {
+          "early": 76,
+          "actionable": 44,
+          "novelty": 75,
+          "risk": 62,
+          "overall": 60
+        }
+      },
+      "highlights": [
+        "Zama 加密叙事，3333 个 encrypted Muttlaws",
+        "WL 关闭后仍收 EVM 地址，保留补位窗口",
+        "ETH 链，供应量明确且粉约 1224",
+        "有推特，属 Zama 生态极早期 NFT"
+      ],
+      "drawbacks": [
+        "WL 申请已关闭，当前主动权低",
+        "帖数仅约 7，信息披露少",
+        "mint 时间/价格/合约未公开",
+        "Zama 热度依赖主网与隐私叙事兑现"
+      ],
+      "whatsNew": "【R169新】WL 关闭后仍在收集 EVM 地址，处于 Zama 加密 NFT 的极早期名单阶段。",
+      "schedule": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "wl",
+        "phases": [
+          {
+            "name": "WL",
+            "note": "申请已关"
+          },
+          {
+            "name": "EVM drop",
+            "note": "仍在收集地址"
+          },
+          {
+            "name": "Mint",
+            "note": "3333 · TBA"
+          }
+        ],
+        "source": "X R169",
+        "note": "WL关·收EVM；粉≈1224"
+      },
+      "risk": 62,
+      "riskLevel": "中",
+      "earlyScore": 76,
+      "status": "upcoming",
+      "mintStatus": "wl",
+      "social": {
+        "handles": [
+          "muttlaws"
+        ],
+        "followers": 1224,
+        "xFollowers": 1224,
+        "lastCheckedAt": "2026-10-17T21:47:03+08:00"
+      },
+      "flag": "new",
+      "background": "Zama Muttlaws（@muttlaws）：3333 encrypted Muttlaws on ETH；Zama 加密叙事；WL 已关仍收 EVM。",
+      "whyWatch": "Zama 加密 NFT 极早期；粉≈1224；仍在收地址。",
+      "addedAt": "2026-10-17T21:47:03+08:00",
+      "firstSeen": "2026-10-17T21:47:03+08:00",
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00",
+      "round": 169,
+      "newThisRound": true,
+      "focus": false,
+      "lzVerified": false
+    },
     {
       "id": "weird-cats",
       "name": "Weird Cats",
@@ -1513,7 +1701,7 @@
         "属台子博弈而非直接资产打新"
       ],
       "whatsNew": "【续更】Nomination/Lights续盯；Ritual AI发射。",
-      "lastRefreshedAt": "2026-10-17T20:51:43+08:00"
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00"
     },
     {
       "id": "pantheonindex",
@@ -1584,7 +1772,7 @@
         "主网时间与代币经济仍待发射验证"
       ],
       "whatsNew": "【续更】Elysium testnet；$PNTH；站可访；粉≈205。",
-      "lastRefreshedAt": "2026-10-17T21:31:58+08:00"
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00"
     },
     {
       "id": "aegis-hedge",
@@ -1656,7 +1844,7 @@
         "依赖 Elysium/HyperCore 生态与 Ascend 发射节奏"
       ],
       "whatsNew": "【续更】AscendLaunch窗口续盯。",
-      "lastRefreshedAt": "2026-10-17T20:51:43+08:00"
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00"
     },
     {
       "id": "minegpu",
@@ -1728,7 +1916,7 @@
         "Robinhood Chain生态与RPC稳定性尚不成熟"
       ],
       "whatsNew": "【续更】GPU池 live；$MINEGPU on PONS；站可访；粉≈29。",
-      "lastRefreshedAt": "2026-10-17T21:31:58+08:00"
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00"
     },
     {
       "id": "printerotc",
@@ -2729,7 +2917,7 @@
             "note": "RX≈527 LIVE"
           }
         ],
-        "source": "RX R168",
+        "source": "RobinXP R169",
         "note": "RX≈527 LIVE"
       },
       "round": 136,
@@ -2764,7 +2952,7 @@
         "lastCheckedAt": "2026-10-17T20:51:43+08:00",
         "followers": 646
       },
-      "lastRefreshedAt": "2026-10-17T21:31:58+08:00"
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00"
     },
     {
       "id": "new-gen-society",
@@ -2798,7 +2986,7 @@
             "note": "RX≈108 LIVE"
           }
         ],
-        "source": "RX R168",
+        "source": "RobinXP R169",
         "note": "RX≈108 LIVE"
       },
       "round": 136,
@@ -2833,7 +3021,7 @@
         "lastCheckedAt": "2026-10-17T20:51:43+08:00",
         "followers": 3511
       },
-      "lastRefreshedAt": "2026-10-17T21:31:58+08:00"
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00"
     },
     {
       "id": "balam-fun",
@@ -3429,8 +3617,8 @@
             "note": "LIVE"
           }
         ],
-        "source": "X R168",
-        "note": "Vault FREE LIVE；粉≈1068"
+        "source": "X R169",
+        "note": "Vault FREE LIVE；粉≈1067"
       },
       "onchain": {
         "note": "Base；supply 1977；OS collection Teddy London - The Crew≈133",
@@ -3460,14 +3648,14 @@
         "Aurora细节未明",
         "NFT市场情绪波动"
       ],
-      "whatsNew": "【续更】Teddy Vault FREE 自称 LIVE（Just minted Vault）；Base 1977。",
+      "whatsNew": "【续更】Teddy Vault FREE 仍 LIVE（Just minted Vault）；Base；粉≈1067。",
       "social": {
-        "xFollowers": 1068,
-        "lastCheckedAt": "2026-10-17T21:31:58+08:00",
-        "followers": 1068,
+        "xFollowers": 1067,
+        "lastCheckedAt": "2026-10-17T21:47:03+08:00",
+        "followers": 1067,
         "handle": "@TheTeddyLondon"
       },
-      "lastRefreshedAt": "2026-10-17T21:31:58+08:00"
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00"
     },
     {
       "id": "minepad",
@@ -3790,7 +3978,7 @@
         "toychain 长期价值不确定",
         "PoW 挖矿收益与代币模型未公开"
       ],
-      "whatsNew": "【续更】官站仍 Coming soon；社区称 Sepolia 可测 NFT PoW 挖 $SQKS；未发币。粉≈1240。",
+      "whatsNew": "【续更】官站仍 Coming soon；社区称 Sepolia NFT PoW 挖测；未发币。粉≈1241。",
       "background": "Hamster-powered proof-of-work toychain on Ethereum (Sepolia). Physical hamster wheel (WHEELY9000) activity verified and settled on-chain. Token has NOT launched yet.",
       "whyWatch": "重点：实体仓鼠+PoW玩具链+预发币测试网，小七点名盯盘；同类实验叙事标杆。",
       "status": "early",
@@ -3800,8 +3988,8 @@
       "schedule": {
         "status": "watch",
         "timezone": "Asia/Shanghai",
-        "source": "Web+X R168",
-        "note": "Coming soon/Sepolia 社区挖测；≈1240粉·0推文",
+        "source": "Web+X R169",
+        "note": "Coming soon/Sepolia 社区挖测；≈1241粉·0推文",
         "mintStatus": "watch"
       },
       "onchain": {
@@ -3813,9 +4001,9 @@
         "handles": [
           "squeekchain"
         ],
-        "followers": 1240,
-        "xFollowers": 1240,
-        "lastCheckedAt": "2026-10-17T21:31:58+08:00",
+        "followers": 1241,
+        "xFollowers": 1241,
+        "lastCheckedAt": "2026-10-17T21:47:03+08:00",
         "handle": "@squeekchain"
       },
       "newThisRound": false,
@@ -3825,7 +4013,7 @@
       "firstSeen": "2026-10-17 02:15 CST",
       "earlyScore": 8.8,
       "riskScore": 8.5,
-      "lastRefreshedAt": "2026-10-17T21:31:58+08:00"
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00"
     },
     {
       "id": "hamster-hour",
@@ -3865,7 +4053,7 @@
         "无法评估真实参与方式",
         "同类仓鼠项目多，竞争与淘汰风险高"
       ],
-      "whatsNew": "【续更】hamster-hour early access 续盯；粉≈26。",
+      "whatsNew": "【续更】hamster-hour early access 续盯；粉≈28。",
       "background": "First swarm-built app on squeekchain: bet $IMD on how far the hamster runs in an hour; top 3 split the pot.",
       "whyWatch": "重点类：squeekchain 生态极早期应用 peer；同属实体+链上玩具叙事。",
       "status": "early",
@@ -3875,14 +4063,14 @@
       "schedule": {
         "status": "watch",
         "timezone": "Asia/Shanghai",
-        "source": "X R165",
-        "note": "early access续；≈25粉·13帖",
+        "source": "Web+X R169",
+        "note": "early access续；≈28粉·13帖",
         "mintStatus": "watch"
       },
       "social": {
-        "followers": 26,
-        "xFollowers": 26,
-        "lastCheckedAt": "2026-10-17T21:31:58+08:00",
+        "followers": 28,
+        "xFollowers": 28,
+        "lastCheckedAt": "2026-10-17T21:47:03+08:00",
         "handle": "@hamsterhourgame"
       },
       "newThisRound": false,
@@ -3895,7 +4083,7 @@
       "onchain": {
         "lastCheckedAt": "2026-10-17T07:51:44.165084+08:00"
       },
-      "lastRefreshedAt": "2026-10-17T21:31:58+08:00"
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00"
     },
     {
       "id": "ape-blitz",
@@ -4050,7 +4238,7 @@
       "lzVerified": false,
       "earlyScore": 4.0,
       "riskScore": 8.5,
-      "lastRefreshedAt": "2026-10-17T20:51:43+08:00"
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00"
     },
     {
       "id": "real-hood-people",
@@ -5282,7 +5470,7 @@
         "lastCheckedAt": "2026-10-17T07:51:44.165084+08:00"
       },
       "mintStatus": "live",
-      "lastRefreshedAt": "2026-10-17T21:31:58+08:00"
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00"
     },
     {
       "id": "vaultlings",
@@ -5662,7 +5850,7 @@
       "addedAt": "2026-10-16T22:44:26.241781+08:00",
       "firstSeen": "2026-10-16T22:44:26.241781+08:00",
       "round": 96,
-      "lastRefreshedAt": "2026-10-17T20:51:43+08:00"
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00"
     },
     {
       "id": "roast-ink",
@@ -6800,7 +6988,7 @@
         "fair-launch 竞争可能激烈",
         "Injective 生态 meme 流动性待验证"
       ],
-      "whatsNew": "【续更】yore.fun Injective 主网启动≈今日4PM UTC（00:00 CST）；站倒计时可访。",
+      "whatsNew": "【续更】yore.fun Injective 主网启动≈今日4PM UTC（00:00 CST）；站倒计时可见。",
       "whyWatch": "同类极早期链上发射台（Injective/Ink 风格 bonding fair-launch）；盯主网开台与首批发射。",
       "background": "yore.fun（@yorefun）自称 Injective 上 fair-launch bonding-curve 发射台：无预售、无团队配额，售罄毕业到 swap.yore.fun；已完成 testnet beta，官帖宣布周六 10-17 16:00 UTC 正式上线。",
       "risk": "med",
@@ -6820,7 +7008,7 @@
             "note": "4PM UTC Oct 17 = 00:00 CST Oct 18"
           }
         ],
-        "source": "Web+X R168",
+        "source": "Web R169",
         "note": "主网≈00:00CST；粉≈1035"
       },
       "onchain": {
@@ -6845,7 +7033,7 @@
       "addedAt": "2026-10-16T17:58:26+08:00",
       "firstSeen": "2026-10-16T17:58:26+08:00",
       "flag": "T-11h",
-      "lastRefreshedAt": "2026-10-17T21:31:58+08:00"
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00"
     },
     {
       "id": "fireworks-ctlg",
@@ -21855,7 +22043,7 @@
       "chain": "multi",
       "mintStatus": "live",
       "lzVerified": false,
-      "lastRefreshedAt": "2026-10-17T21:31:58+08:00"
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00"
     },
     {
       "id": "curvopad",
@@ -24056,7 +24244,7 @@
             "note": "RX≈381 LIVE"
           }
         ],
-        "source": "RX R168",
+        "source": "RobinXP R169",
         "note": "RX≈381 LIVE"
       },
       "scores": {
@@ -24096,7 +24284,7 @@
         "lastCheckedAt": "2026-10-17T20:51:43+08:00",
         "followers": 274
       },
-      "lastRefreshedAt": "2026-10-17T21:31:58+08:00"
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00"
     },
     {
       "id": "requiem-hardware",
@@ -24698,7 +24886,7 @@
         "进度低可能冷启动",
         "NFT项目同质化"
       ],
-      "whatsNew": "【续更】Hollywood Hills Comet 窗至≈今日22:00CST（10AM ET）；PUBLIC/Republic 续。",
+      "whatsNew": "【续更】Hollywood Hills Comet 窗至≈今日22:00CST；PUBLIC 0.04 ETH 续；粉≈6254。",
       "whyWatch": "有推特且处于公开前窗口，可小额试错但需防团队份额抛压。",
       "schedule": {
         "status": "live",
@@ -24716,8 +24904,8 @@
             "note": "窗至≈22:00CST · 200 spots"
           }
         ],
-        "source": "X R168",
-        "note": "Comet至≈22:00CST；粉≈6253"
+        "source": "X R169",
+        "note": "Comet至≈22:00CST；粉≈6254"
       },
       "links": {
         "x": "https://x.com/hhillsofficial",
@@ -24736,11 +24924,11 @@
         "mintStatus": "live",
         "lastCheckedAt": "2026-10-17T20:33:58+08:00"
       },
-      "lastRefreshedAt": "2026-10-17T21:31:58+08:00",
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00",
       "social": {
-        "followers": 6253,
-        "xFollowers": 6253,
-        "lastCheckedAt": "2026-10-17T21:31:58+08:00",
+        "followers": 6254,
+        "xFollowers": 6254,
+        "lastCheckedAt": "2026-10-17T21:47:03+08:00",
         "handle": "@hhillsofficial"
       }
     },
@@ -26176,7 +26364,7 @@
             "note": "RX≈303 LIVE"
           }
         ],
-        "source": "RX R168",
+        "source": "RobinXP R169",
         "note": "RX≈303 LIVE"
       },
       "id": "zany-apes",
@@ -26213,7 +26401,7 @@
         "lastCheckedAt": "2026-10-17T20:51:43+08:00",
         "followers": 171
       },
-      "lastRefreshedAt": "2026-10-17T21:31:58+08:00"
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00"
     },
     {
       "name": "LuckDrop",
@@ -26413,7 +26601,7 @@
             "note": "RX≈98 LIVE"
           }
         ],
-        "source": "RX R168",
+        "source": "RobinXP R169",
         "note": "RX≈98 LIVE"
       },
       "round": 140,
@@ -26448,7 +26636,7 @@
         "lastCheckedAt": "2026-10-17T20:51:43+08:00",
         "followers": 23
       },
-      "lastRefreshedAt": "2026-10-17T21:31:58+08:00"
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00"
     },
     {
       "id": "smart-cases",
@@ -29019,7 +29207,7 @@
       "round": 163,
       "addedAt": "2026-10-17T19:50:33+08:00",
       "firstSeen": "2026-10-17T19:50:33+08:00",
-      "lastRefreshedAt": "2026-10-17T21:31:58+08:00",
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00",
       "focus": false,
       "lzVerified": false,
       "tags": [
@@ -29059,7 +29247,7 @@
         "500 小供给，二级预期有限",
         "免费 mint 易被脚本抢跑"
       ],
-      "whatsNew": "【续更】Ven Jester Base FREE≈今日22:00CST（2PM UTC）；500供；官推已发 mint link。",
+      "whatsNew": "【续更】Ven Jester Base FREE≈今日22:00CST（2PM UTC）；500供；官推已发 mint link；粉≈3050。",
       "links": {
         "x": "https://x.com/Venjester_",
         "site": "https://opensea.io/collection/ven-jester",
@@ -29077,7 +29265,7 @@
             "note": "500 · 2PM UTC≈22:00CST"
           }
         ],
-        "source": "X R168",
+        "source": "X R169",
         "note": "Base FREE≈22:00CST；粉≈3050"
       },
       "mintStatus": "upcoming",
@@ -29090,7 +29278,7 @@
         ],
         "followers": 3050,
         "xFollowers": 3050,
-        "lastCheckedAt": "2026-10-17T21:31:58+08:00",
+        "lastCheckedAt": "2026-10-17T21:47:03+08:00",
         "handle": "@Venjester_"
       }
     },
@@ -29974,7 +30162,7 @@
         "mint进度为自称，未链上验证",
         "青蛙Meme同质化较强"
       ],
-      "whatsNew": "【续更】HOP HEADS PUBLIC FREE 仍 LIVE；官推自称≈1606/7500（RX hop-heads≈1440）。",
+      "whatsNew": "【续更】HOP HEADS PUBLIC FREE 仍 LIVE；官推自称≈1606/7500；粉≈3089。",
       "schedule": {
         "status": "live",
         "timezone": "Asia/Shanghai",
@@ -29986,8 +30174,8 @@
             "note": "自称≈1606/7500 LIVE"
           }
         ],
-        "source": "X+RX R168",
-        "note": "PUBLIC FREE LIVE；粉≈3098；官方@hopheadsarc"
+        "source": "X+Web R169",
+        "note": "PUBLIC FREE LIVE；粉≈3089；官方@hopheadsarc"
       },
       "risk": 52,
       "riskLevel": "中",
@@ -29998,16 +30186,16 @@
         "handles": [
           "hopheadsarc"
         ],
-        "followers": 3098,
-        "xFollowers": 3098,
-        "lastCheckedAt": "2026-10-17T21:31:58+08:00"
+        "followers": 3089,
+        "xFollowers": 3089,
+        "lastCheckedAt": "2026-10-17T21:47:03+08:00"
       },
       "flag": null,
       "background": "HOP HEADS（@hopheadsarc）：Robinhood Chain 青蛙 NFT，7500 供应 PUBLIC FREE mint LIVE；站 hopheads.xyz。",
       "whyWatch": "RH 免费mint进行中；自称约2成已铸；官方号已核验。",
       "addedAt": "2026-10-17T21:11:12+08:00",
       "firstSeen": "2026-10-17T21:11:12+08:00",
-      "lastRefreshedAt": "2026-10-17T21:31:58+08:00",
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00",
       "round": 167,
       "newThisRound": false
     },
@@ -30023,8 +30211,7 @@
         "GameFi",
         "WL",
         "free mint",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "links": {
         "x": "https://x.com/sherwoodbelt",
@@ -30059,7 +30246,7 @@
         "依赖 RH Chain 生态起量，链本身尚早",
         "GameFi+NFT 组合回本路径不明"
       ],
-      "whatsNew": "【R168新】预季无 gas 开跑，Phase I/II 免费 mint 窗口刚开放。",
+      "whatsNew": "【续更】预季仍 LIVE；Phase I/II 免费 GTD/Crews；粉≈227。",
       "schedule": {
         "status": "live",
         "timezone": "Asia/Shanghai",
@@ -30081,7 +30268,7 @@
             "note": "TBA"
           }
         ],
-        "source": "Web+X R168",
+        "source": "Web+X R169",
         "note": "预季LIVE；WL/GTD开放；粉≈227"
       },
       "risk": 45,
@@ -30095,16 +30282,16 @@
         ],
         "followers": 227,
         "xFollowers": 227,
-        "lastCheckedAt": "2026-10-17T21:31:58+08:00"
+        "lastCheckedAt": "2026-10-17T21:47:03+08:00"
       },
       "flag": "new",
       "background": "Sherwood Belt（@sherwoodbelt）：Robinhood Chain 幽灵矿船 GameFi，4444 Outlaws + 2222 Skiffs；$GILD；预季无gas可玩。",
       "whyWatch": "RH 预季 LIVE + 免费 GTD/Crews；粉≈227 极早期。",
       "addedAt": "2026-10-17T21:31:58+08:00",
       "firstSeen": "2026-10-17T21:31:58+08:00",
-      "lastRefreshedAt": "2026-10-17T21:31:58+08:00",
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00",
       "round": 168,
-      "newThisRound": true,
+      "newThisRound": false,
       "focus": false,
       "lzVerified": false
     },
@@ -30118,8 +30305,7 @@
         "GameFi",
         "Solana",
         "极早期",
-        "mint",
-        "本轮新"
+        "mint"
       ],
       "links": {
         "x": "https://x.com/brrlabs",
@@ -30151,7 +30337,7 @@
         "工作室过往作品无数据背书，留存未知",
         "与 Blitzpot 同源，存在叙事重复"
       ],
-      "whatsNew": "【R168新】mint 申请页刚刚公开，处于最早一批可提交阶段。",
+      "whatsNew": "【续更】Solana mint 申请页仍开；时间 TBA；粉≈42。",
       "schedule": {
         "status": "upcoming",
         "timezone": "Asia/Shanghai",
@@ -30162,7 +30348,7 @@
             "note": "Solana mint page live · time TBA"
           }
         ],
-        "source": "X R168",
+        "source": "X R169",
         "note": "mint申请页刚公开；粉≈42"
       },
       "risk": 38,
@@ -30176,16 +30362,16 @@
         ],
         "followers": 42,
         "xFollowers": 42,
-        "lastCheckedAt": "2026-10-17T21:31:58+08:00"
+        "lastCheckedAt": "2026-10-17T21:47:03+08:00"
       },
       "flag": "new",
       "background": "Brr Labs（@brrlabs）：Solana 游戏工作室，Hop/Flap/Copter；mint 申请页刚公开；关联 @Blitzpot。",
       "whyWatch": "Solana 极早期游戏工作室；mint 页刚开；粉≈42。",
       "addedAt": "2026-10-17T21:31:58+08:00",
       "firstSeen": "2026-10-17T21:31:58+08:00",
-      "lastRefreshedAt": "2026-10-17T21:31:58+08:00",
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00",
       "round": 168,
-      "newThisRound": true,
+      "newThisRound": false,
       "focus": false,
       "lzVerified": false
     },
@@ -30198,8 +30384,7 @@
         "打新",
         "NFT",
         "GIWA",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "links": {
         "x": "https://x.com/GIWAUP",
@@ -30231,7 +30416,7 @@
         "韩国文化叙事受众偏窄，易高开低走",
         "Day1 mint 拥挤，gas 与抢购风险并存"
       ],
-      "whatsNew": "【R168新】GIWA 主网首日 mint 的 Tilekeepers 系列定档。",
+      "whatsNew": "【续更】GIWA Day1 · 2222 Tilekeepers；粉≈3234；社区仍在发 WL 抽奖。",
       "schedule": {
         "status": "upcoming",
         "timezone": "Asia/Shanghai",
@@ -30242,7 +30427,7 @@
             "note": "2222 Tilekeepers · price TBA"
           }
         ],
-        "source": "X R168",
+        "source": "X R169",
         "note": "GIWA Day1 mint；粉≈3233"
       },
       "risk": 55,
@@ -30254,18 +30439,18 @@
         "handles": [
           "GIWAUP"
         ],
-        "followers": 3233,
-        "xFollowers": 3233,
-        "lastCheckedAt": "2026-10-17T21:31:58+08:00"
+        "followers": 3234,
+        "xFollowers": 3234,
+        "lastCheckedAt": "2026-10-17T21:47:03+08:00"
       },
       "flag": "new",
       "background": "GIWAUP（@GIWAUP）：韩国文化 NFT 2222 Tilekeepers，计划 GIWA Mainnet Day1 mint。",
       "whyWatch": "GIWA 主网 Day1 卡位；2222 供；粉≈3233。",
       "addedAt": "2026-10-17T21:31:58+08:00",
       "firstSeen": "2026-10-17T21:31:58+08:00",
-      "lastRefreshedAt": "2026-10-17T21:31:58+08:00",
+      "lastRefreshedAt": "2026-10-17T21:47:03+08:00",
       "round": 168,
-      "newThisRound": true,
+      "newThisRound": false,
       "focus": false,
       "lzVerified": false
     }
