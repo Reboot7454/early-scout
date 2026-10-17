@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-18 01:12 CST",
+    "updated": "2026-10-18 01:15 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "R179: +neo-edo-2099,hoods-held-high,umbra-inference,oaken,aulus,freepad,mandate,yskar,hush-agents; Peek gap(neo-edo/hoods-held-high/umbra/oaken/aulus) + X scan(freepad/mandate/yskar/hush); equal-effort 打新/挖矿/台子/GO/LZ/Elysium",
-    "lastScout": "2026-10-18 01:12 CST",
+    "source": "R179: +neo-edo-2099,hoods-held-high,umbra-inference,oaken,aulus,freepad,mandate,yskar,hush-agents,conso; Peek gap + X scan + forced @conso_xyz; equal-effort 打新/挖矿/台子/GO/LZ/Elysium",
+    "lastScout": "2026-10-18 01:15 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -47,7 +47,7 @@
         "oftpad"
       ],
       "note": "本轮无新 Zero/ATLAS/OFT 核验信号；OFTpad 仍 lzVerified=false。",
-      "lastChecked": "2026-10-18 01:12 CST"
+      "lastChecked": "2026-10-18 01:15 CST"
     },
     "round5Added": [
       "farming-season",
@@ -409,7 +409,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 484,
+    "candidateCount": 485,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -641,7 +641,7 @@
         "fee split / S02"
       ],
       "note": "playground.token.works 可访；本轮无新 public factory 信号。",
-      "lastChecked": "2026-10-18 01:12 CST"
+      "lastChecked": "2026-10-18 01:15 CST"
     },
     "round97Added": [
       "evrynth"
@@ -734,7 +734,7 @@
     "focusWatch": {
       "active": true,
       "label": "重点栏 · 实验玩具链监视",
-      "lastChecked": "2026-10-18 01:12 CST",
+      "lastChecked": "2026-10-18 01:15 CST",
       "seedFirst": "squeekchain",
       "accounts": [
         "@squeekchain",
@@ -823,7 +823,8 @@
       "freepad",
       "mandate",
       "yskar",
-      "hush-agents"
+      "hush-agents",
+      "conso"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1131,7 +1132,7 @@
       ],
       "admitRule": "有推特的清晰 Elysium / Enter_Elysium 生态子项目 → ecosystem:Elysium + tags 含 Elysium生态；互斥进第六栏「Elysium 生态」。同类新生态（非仅链名撞车）也应持续扫并扩 watch。",
       "note": "R179：无新增达标本批 admit 的 Elysium 子项目；ElysiumEco 仍为社区枢纽跳过；Ascend/kalos/speculate 续观察。",
-      "lastChecked": "2026-10-18 01:12 CST",
+      "lastChecked": "2026-10-18 01:15 CST",
       "scope": "additive",
       "equalEffortWith": [
         "打新",
@@ -1165,7 +1166,8 @@
       "freepad",
       "mandate",
       "yskar",
-      "hush-agents"
+      "hush-agents",
+      "conso"
     ],
     "peekGapAdded": [
       "aulus",
@@ -34068,6 +34070,74 @@
           "novelty": 83,
           "risk": 79,
           "overall": 77
+        }
+      }
+    },
+    {
+      "id": "conso",
+      "name": "Conso",
+      "category": "打新",
+      "chain": "Sui",
+      "ecosystem": null,
+      "focus": false,
+      "lzVerified": false,
+      "round": 179,
+      "newThisRound": true,
+      "firstSeen": "2026-10-18 01:15 CST",
+      "addedAt": "2026-10-18 01:15 CST",
+      "status": "early",
+      "mintStatus": "upcoming",
+      "risk": "med",
+      "riskLevel": "中",
+      "riskScore": 55,
+      "earlyScore": 82,
+      "links": {
+        "x": "https://x.com/conso_xyz",
+        "web": "https://www.conso.xyz/",
+        "signal": "https://x.com/conso_xyz/status/2111470778734739945"
+      },
+      "social": {
+        "followers": 29902,
+        "handle": "@conso_xyz"
+      },
+      "tags": [
+        "打新",
+        "极早期",
+        "本轮新",
+        "Sui",
+        "NFT",
+        "Walrus",
+        "free-mint",
+        "BOT"
+      ],
+      "highlights": [
+        "Sui 上 5555 个 BOT NFT 免费 mint，参与动作明确",
+        "绑定 Walrus 生态，叙事含 Consumer Reputation + Payments",
+        "每个 Bot 作为移动节点，带 +25% mining boost"
+      ],
+      "drawbacks": [
+        "声誉层与消费者图谱的真实需求尚未验证",
+        "免费 mint + 挖矿加成易吸引羊毛与女巫",
+        "路线图较长，核心产品仍处早期阶段"
+      ],
+      "whatsNew": "Conso 正在启动 CONSO Reputation Network，并开放 Sui 上 5555 个 BOT NFT 免费 mint。",
+      "whyWatch": "Sui free mint BOT NFT（移动节点+挖矿加成）+ Walrus 声誉层；粉丝偏热但 mint 窗口可观察。",
+      "background": "Conso（@conso_xyz）：Consumer Reputation Layer / Consumer Graph + Payments，Powered by WalrusProtocol；官网 conso.xyz；约2.99万粉 verified。",
+      "alert": null,
+      "source": "X+Web+DS forced-admit R179",
+      "scores": {
+        "early": 82,
+        "actionable": 84,
+        "novelty": 62,
+        "risk": 55,
+        "overall": 74,
+        "composite": 7.4,
+        "raw100": {
+          "early": 82,
+          "actionable": 84,
+          "novelty": 62,
+          "risk": 55,
+          "overall": 74
         }
       }
     }
