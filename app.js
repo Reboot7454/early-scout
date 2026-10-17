@@ -1362,8 +1362,10 @@
 
       const openX = e.target.closest("[data-x]");
       if (openX && openX.dataset.x) {
-        // Don't steal clicks on nested links / fav buttons
-        if (e.target.closest("a, button, [data-fav-toggle]")) return;
+        // Don't steal clicks on nested links / fav buttons — but allow
+        // the data-x host itself (e.g. 日程条 sched-soon-item is a <button>).
+        const nested = e.target.closest("a, button, [data-fav-toggle]");
+        if (nested && nested !== openX) return;
         window.open(openX.dataset.x, "_blank", "noopener");
         return;
       }
