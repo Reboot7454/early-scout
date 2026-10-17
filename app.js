@@ -319,7 +319,8 @@
     return false;
   }
 
-  const PLATFORM_CATS = new Set(["新台", "Meme", "Launchpad"]);
+  // Include "台子/Meme" (DS / skill canonical) alongside legacy 新台/Meme/Launchpad.
+  const PLATFORM_CATS = new Set(["新台", "Meme", "Launchpad", "台子/Meme"]);
 
   /** Focus/重点 strip membership (not a board column). */
   function isFocus(c) {
@@ -353,12 +354,20 @@
   /** Six board columns: Elysium > LayerZero > mining > GO > 台子/Meme > 打新.
    *  Focus candidates are strip-only (excluded from columns via isFocus),
    *  except Elysium hub may also show in the Elysium column. */
+  function isPlatformMeme(c) {
+    if (!c) return false;
+    if (PLATFORM_CATS.has(c.category)) return true;
+    const tags = (c.tags || []).map((t) => String(t));
+    if (tags.some((t) => PLATFORM_CATS.has(t) || t === "台子/Meme" || t === "新台")) return true;
+    return false;
+  }
+
   function zoneOf(c) {
     if (isElysium(c)) return "elysium";
     if (isLayerZero(c)) return "lz";
     if (isMining(c)) return "mining";
     if (isGoPlay(c)) return "go";
-    if (PLATFORM_CATS.has(c.category)) return "meme";
+    if (isPlatformMeme(c)) return "meme";
     return "scout";
   }
 
@@ -860,7 +869,7 @@
     if (s.status === "pause") return scheduleResumeMs(c) ?? Number.POSITIVE_INFINITY;
     const t = scheduleStartMs(c);
     if (t != null) return t;
-    if (s.status === "live" && PLATFORM_CATS.has(c.category)) return state.nowMs;
+    if (s.status === "live" && isPlatformMeme(c)) return state.nowMs;
     return Number.POSITIVE_INFINITY;
   }
 
@@ -889,7 +898,7 @@
   }
 
   function qualifiesSchedBarPlatformExtra(c) {
-    if (!PLATFORM_CATS.has(c.category)) return false;
+    if (!isPlatformMeme(c)) return false;
     if (!hasTwitter(c)) return false;
     const s = c.schedule;
     if (!s || s.status !== "live") return false;
@@ -902,7 +911,7 @@
   }
 
   function isMustPlatformSched(c) {
-    if (!PLATFORM_CATS.has(c.category)) return false;
+    if (!isPlatformMeme(c)) return false;
     const s = c.schedule;
     if (!s) return false;
     if (!["confirmed", "tentative", "upcoming"].includes(s.status)) return false;

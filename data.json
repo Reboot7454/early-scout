@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-18 01:15 CST",
+    "updated": "2026-10-18 01:20 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "R179: +neo-edo-2099,hoods-held-high,umbra-inference,oaken,aulus,freepad,mandate,yskar,hush-agents,conso; Peek gap + X scan + forced @conso_xyz; equal-effort 打新/挖矿/台子/GO/LZ/Elysium",
@@ -1175,7 +1175,26 @@
       "umbra-inference",
       "hoods-held-high",
       "neo-edo-2099"
-    ]
+    ],
+    "zoneFixR179": {
+      "at": "2026-10-18 01:20 CST",
+      "bug": "PLATFORM_CATS missed category 台子/Meme so zoneOf fell through to scout(打新)",
+      "fix": "app.js: add 台子/Meme to PLATFORM_CATS + isPlatformMeme(tags fallback); data categories already correct",
+      "reclassifiedDisplay": [
+        "umbra-inference",
+        "oaken",
+        "aulus",
+        "freepad",
+        "mandate",
+        "hush-agents"
+      ],
+      "kept": [
+        "neo-edo-2099",
+        "hoods-held-high",
+        "yskar",
+        "conso"
+      ]
+    }
   },
   "candidates": [
     {

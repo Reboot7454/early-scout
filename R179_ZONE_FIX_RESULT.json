@@ -1,0 +1,240 @@
+{
+  "round": 179,
+  "completedAt": "2026-10-18 01:20 CST",
+  "timezone": "Asia/Shanghai",
+  "rootCause": "app.js PLATFORM_CATS = {新台,Meme,Launchpad} 未含 DS/技能规范 category「台子/Meme」，zoneOf 把 R179 台子项落到 scout(打新)。",
+  "fix": {
+    "app.js": "PLATFORM_CATS += 台子/Meme；新增 isPlatformMeme（category+tags）；日程门控改用 isPlatformMeme",
+    "data.json": "candidates category/tags 已正确，未改栏位字段；meta.zoneFixR179 记录；updated 刷新"
+  },
+  "dsModel": "deepseek-flash",
+  "dsThinking": true,
+  "items": [
+    {
+      "id": "neo-edo-2099",
+      "name": "Neo Edo 2099",
+      "category": "打新",
+      "tags": [
+        "打新",
+        "极早期",
+        "本轮新",
+        "NFT",
+        "WL",
+        "GTD"
+      ],
+      "fromZone": "打新",
+      "toZone": "打新",
+      "fromZoneId": "scout",
+      "toZoneId": "scout",
+      "categoryChanged": false,
+      "displayFixed": false,
+      "reason": "纯NFT的WL/GTD mint，属于打新栏"
+    },
+    {
+      "id": "hoods-held-high",
+      "name": "Hoods Held High",
+      "category": "打新",
+      "tags": [
+        "打新",
+        "极早期",
+        "本轮新",
+        "NFT",
+        "Robinhood",
+        "WL",
+        "FreeMint"
+      ],
+      "fromZone": "打新",
+      "toZone": "打新",
+      "fromZoneId": "scout",
+      "toZoneId": "scout",
+      "categoryChanged": false,
+      "displayFixed": false,
+      "reason": "3333个NFT的Free mint GTD WL，是纯NFT打新；名称含hood不改栏"
+    },
+    {
+      "id": "umbra-inference",
+      "name": "Umbra",
+      "category": "台子/Meme",
+      "tags": [
+        "台子/Meme",
+        "极早期",
+        "本轮新",
+        "Robinhood",
+        "x402",
+        "AI"
+      ],
+      "fromZone": "打新",
+      "toZone": "台子/Meme",
+      "fromZoneId": "scout",
+      "toZoneId": "meme",
+      "categoryChanged": false,
+      "displayFixed": true,
+      "reason": "AI产品、x402付费工具，非mint；category已是台子/Meme，但旧 PLATFORM_CATS 未识别→错进打新栏"
+    },
+    {
+      "id": "oaken",
+      "name": "OAKEN",
+      "category": "台子/Meme",
+      "tags": [
+        "台子/Meme",
+        "极早期",
+        "本轮新",
+        "新台",
+        "Robinhood",
+        "LP锁"
+      ],
+      "fromZone": "打新",
+      "toZone": "台子/Meme",
+      "fromZoneId": "scout",
+      "toZoneId": "meme",
+      "categoryChanged": false,
+      "displayFixed": true,
+      "reason": "发射与LP锁仓工具/新台；category已是台子/Meme，旧逻辑错进打新栏"
+    },
+    {
+      "id": "aulus",
+      "name": "Aulus",
+      "category": "台子/Meme",
+      "tags": [
+        "台子/Meme",
+        "极早期",
+        "本轮新",
+        "新台",
+        "Robinhood",
+        "Uniswapv4",
+        "Points"
+      ],
+      "fromZone": "打新",
+      "toZone": "台子/Meme",
+      "fromZoneId": "scout",
+      "toZoneId": "meme",
+      "categoryChanged": false,
+      "displayFixed": true,
+      "reason": "Uni v4 DEX/流动性市场；category已是台子/Meme，旧逻辑错进打新栏"
+    },
+    {
+      "id": "freepad",
+      "name": "FreePad",
+      "category": "台子/Meme",
+      "tags": [
+        "台子/Meme",
+        "极早期",
+        "本轮新",
+        "新台",
+        "Solana",
+        "fair-launch",
+        "零费用"
+      ],
+      "fromZone": "打新",
+      "toZone": "台子/Meme",
+      "fromZoneId": "scout",
+      "toZoneId": "meme",
+      "categoryChanged": false,
+      "displayFixed": true,
+      "reason": "Solana零费用fair-launch发射台；category已是台子/Meme，旧逻辑错进打新栏"
+    },
+    {
+      "id": "mandate",
+      "name": "MANDATE",
+      "category": "台子/Meme",
+      "tags": [
+        "台子/Meme",
+        "极早期",
+        "本轮新",
+        "新台",
+        "AI",
+        "Solana",
+        "agent"
+      ],
+      "fromZone": "打新",
+      "toZone": "台子/Meme",
+      "fromZoneId": "scout",
+      "toZoneId": "meme",
+      "categoryChanged": false,
+      "displayFixed": true,
+      "reason": "AI agent发射台；category已是台子/Meme，旧逻辑错进打新栏"
+    },
+    {
+      "id": "yskar",
+      "name": "YSKAR",
+      "category": "挖矿",
+      "tags": [
+        "挖矿",
+        "极早期",
+        "本轮新",
+        "PoW",
+        "SHA-256d",
+        "无预挖"
+      ],
+      "fromZone": "挖矿",
+      "toZone": "挖矿",
+      "fromZoneId": "mining",
+      "toZoneId": "mining",
+      "categoryChanged": false,
+      "displayFixed": false,
+      "reason": "独立SHA-256d PoW链，CPU/GPU可挖，归挖矿"
+    },
+    {
+      "id": "hush-agents",
+      "name": "HUSH",
+      "category": "台子/Meme",
+      "tags": [
+        "台子/Meme",
+        "极早期",
+        "本轮新",
+        "AI",
+        "Solana",
+        "隐私支付",
+        "agent"
+      ],
+      "fromZone": "打新",
+      "toZone": "台子/Meme",
+      "fromZoneId": "scout",
+      "toZoneId": "meme",
+      "categoryChanged": false,
+      "displayFixed": true,
+      "reason": "Solana AI agent/隐私支付（pump CA）；category已是台子/Meme，旧逻辑错进打新栏"
+    },
+    {
+      "id": "conso",
+      "name": "Conso",
+      "category": "打新",
+      "tags": [
+        "打新",
+        "极早期",
+        "本轮新",
+        "Sui",
+        "NFT",
+        "Walrus",
+        "free-mint",
+        "BOT"
+      ],
+      "fromZone": "打新",
+      "toZone": "打新",
+      "fromZoneId": "scout",
+      "toZoneId": "scout",
+      "categoryChanged": false,
+      "displayFixed": false,
+      "reason": "Sui BOT NFT free mint，属纯NFT打新；挖矿加成不改归属"
+    }
+  ],
+  "summary": {
+    "displayFixedToMeme": [
+      "umbra-inference",
+      "oaken",
+      "aulus",
+      "freepad",
+      "mandate",
+      "hush-agents"
+    ],
+    "keptScout": [
+      "neo-edo-2099",
+      "hoods-held-high",
+      "conso"
+    ],
+    "keptMining": [
+      "yskar"
+    ],
+    "keptMemeAlready": []
+  }
+}
