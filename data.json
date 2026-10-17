@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-17 18:31 CST",
+    "updated": "2026-10-17 18:43 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "X MCP + RobinXP robin-xp.com/api/live + live-mints HTML + OpenSea partial + Web(squeek/yore/midstate/playground/pantheon/etalabs/minegpu/jetburn/deathbox/teddy)；Trencher CDN需Cassette key不可用；robinxp.com TLS失败改用 robin-xp.com；Peek站点TLS失败。",
-    "lastScout": "2026-10-17 18:31 CST",
+    "lastScout": "2026-10-17 18:43 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -426,7 +426,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 415,
+    "candidateCount": 413,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -827,15 +827,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "inkwards",
-      "montra",
-      "flywheel",
-      "tharsis",
-      "robobet",
-      "degenhaus",
-      "gild-hall",
-      "cardboard-trade",
-      "trackside-fun"
+      "playjetburn",
+      "deathbox"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1010,10 +1003,9 @@
     ],
     "round159Added": [
       "playjetburn",
-      "deathbox",
-      "rh-laptops",
-      "teddy-london"
-    ]
+      "deathbox"
+    ],
+    "dedupeNote": "R159 post-fix: removed teddy-london (dup of teddy-london-crew) and rh-laptops (dup of requiem-hardware); merged price/schedule evidence."
   },
   "candidates": [
     {
@@ -3375,7 +3367,8 @@
       "links": {
         "x": "https://x.com/TheTeddyLondon",
         "site": "https://teddylondon.xyz/",
-        "mint": "https://mint.aurora.cards/coming-soon/75523a37263ac59c972d39956c28ffd2/"
+        "mint": "https://mint.aurora.cards/coming-soon/75523a37263ac59c972d39956c28ffd2/",
+        "signal": "https://x.com/TheTeddyLondon/status/2111401829456298436"
       },
       "background": "Teddy London — The Crew（@TheTeddyLondon）：Base 上 1,977 枚街文化主题 NFT；Turf Wars 已锁 50 免费位。Mint 日程（UTC 10-17）：13:00 Teddy Firm FREE → 13:30 OG FREE → 15:00 Turf Wars FREE → 16:30 Friends 0.0012 ETH → 18:00 Public 0.0015 ETH。Aurora mint 页仍 Coming soon。",
       "risk": "Aurora mint 未正式开链；Base NFT 同质化；多档资格复杂；艺术盘流动性不确定。",
@@ -3441,7 +3434,7 @@
         "Aurora细节未明",
         "NFT市场情绪波动"
       ],
-      "whatsNew": "【续更】NB The Crew FREE≈今日21:30CST（13:30UTC）Base supply1977；@TheTeddyLondon。"
+      "whatsNew": "【R159续更】官帖倒计时≈今晚21:19CST 量级；Vault FREE≈21:00CST；供应1977 Base（并回 The Crew 原卡，去掉重复 teddy-london）。"
     },
     {
       "id": "minepad",
@@ -24075,7 +24068,8 @@
       ],
       "links": {
         "x": "https://x.com/rhlaptops",
-        "signal": "https://northbound.cc/mints"
+        "signal": "https://northbound.cc/mints",
+        "mint": "https://opensea.io"
       },
       "schedule": {
         "status": "upcoming",
@@ -24083,14 +24077,25 @@
         "startsAt": "2026-10-17T17:00:00Z",
         "phases": [
           {
-            "name": "PUBLIC",
+            "name": "GTD",
             "startsAt": "2026-10-17T17:00:00Z",
-            "price": "TBA",
-            "note": "NorthBound 列 17:00UTC；供应999"
+            "price": "$1",
+            "note": "Top200 holders"
+          },
+          {
+            "name": "FCFS",
+            "price": "$1.5",
+            "note": ""
+          },
+          {
+            "name": "PUBLIC",
+            "price": "$2",
+            "note": "OpenSea · 17 Oct 5pm UTC"
           }
         ],
-        "source": "NorthBound R141",
-        "note": "NorthBound列10-17 17UTC≈01:00CST+1 TBA supply999；@rhlaptops"
+        "source": "X+OpenSea R159 merge",
+        "note": "≈10-18 01:00CST OpenSea ETH；999供应；GTD$1/FCFS$1.5/Public$2",
+        "mintStatus": "upcoming"
       },
       "scores": {
         "early": 7.0,
@@ -24116,7 +24121,7 @@
         "仅有时间线索",
         "ETH链打新需防钓鱼"
       ],
-      "whatsNew": "【续更】NB≈今日17:00UTC（明日01:00CST）$1/999；官推续盯。",
+      "whatsNew": "【R159续更】OpenSea ETH mint≈10-18 01:00CST；供应999；GTD$1/FCFS$1.5/Public$2（并回原卡，去掉重复 rh-laptops）。",
       "whyWatch": "小供应硬件主题 ETH 盘，开 mint 前窗口",
       "background": "NorthBound 日程中的 ETH 硬件笔记本主题 NFT，官推 @rhlaptops。",
       "addedAt": "2026-10-17 05:25 CST",
@@ -28460,7 +28465,7 @@
       "lastRefreshedAt": "2026-10-17T18:31:26+08:00",
       "status": "watch",
       "mintStatus": "upcoming",
-      "flag": null,
+      "flag": "本轮新",
       "social": {
         "followers": 58,
         "handle": "@PlayJetburn"
@@ -28532,169 +28537,13 @@
       "lastRefreshedAt": "2026-10-17T18:31:26+08:00",
       "status": "watch",
       "mintStatus": "live",
-      "flag": null,
+      "flag": "本轮新",
       "social": {
         "followers": 125,
         "handle": "@DeathboxLive"
       },
       "whyWatch": "浏览器 FPS + RH Operators mint 今日 live",
       "background": "Browser FPS; mintable Operators on Robinhood after lvl 10"
-    },
-    {
-      "id": "rh-laptops",
-      "name": "Requiem Hardware Laptops",
-      "category": "NFT",
-      "tags": [
-        "NFT",
-        "ETH",
-        "OpenSea",
-        "打新",
-        "极早期",
-        "本轮新"
-      ],
-      "chain": "Ethereum",
-      "round": 159,
-      "newThisRound": true,
-      "focus": false,
-      "lzVerified": false,
-      "links": {
-        "x": "https://x.com/rhlaptops",
-        "mint": "https://opensea.io",
-        "signal": "https://x.com/rhlaptops/status/2111087244538720752"
-      },
-      "schedule": {
-        "status": "upcoming",
-        "timezone": "Asia/Shanghai",
-        "startsAt": "2026-10-17T17:00:00Z",
-        "phases": [
-          {
-            "name": "GTD",
-            "price": "$1",
-            "note": "Top200 holders"
-          },
-          {
-            "name": "FCFS",
-            "price": "$1.5",
-            "note": ""
-          },
-          {
-            "name": "PUBLIC",
-            "price": "$2",
-            "note": "OpenSea · 17 Oct 5pm UTC"
-          }
-        ],
-        "source": "X R159",
-        "note": "≈10-18 01:00CST OpenSea ETH；999供应",
-        "mintStatus": "upcoming"
-      },
-      "highlights": [
-        "供应仅999，极早期",
-        "以太坊链上mint，信息明确度尚可",
-        "被第三方列为今日minting，时效强",
-        "粉丝约1079，社区尚小"
-      ],
-      "drawbacks": [
-        "官方mint时间/价格/链接未给出",
-        "仅有第三方收录，官方确认不足",
-        "硬件NFT概念较常见",
-        "信息少，尽调难度高"
-      ],
-      "whatsNew": "【R159新】ETH OpenSea mint 定档 10-17 17:00UTC（≈10-18 01:00CST）；供应999；GTD$1/FCFS$1.5/Public$2。",
-      "scores": {
-        "early": 92,
-        "actionable": 62,
-        "novelty": 55,
-        "risk": 82,
-        "overall": 58
-      },
-      "earlyScore": 92,
-      "riskScore": 82,
-      "riskLevel": "高",
-      "addedAt": "2026-10-17T18:31:26+08:00",
-      "firstSeen": "2026-10-17T18:31:26+08:00",
-      "lastRefreshedAt": "2026-10-17T18:31:26+08:00",
-      "status": "watch",
-      "mintStatus": "upcoming",
-      "flag": null,
-      "social": {
-        "followers": 1079,
-        "handle": "@rhlaptops"
-      },
-      "whyWatch": "ETH 999 小供应；今日/明早 UTC 窗口明确",
-      "background": "999 digital rigs on Ethereum via OpenSea"
-    },
-    {
-      "id": "teddy-london",
-      "name": "Teddy London",
-      "category": "NFT",
-      "tags": [
-        "NFT",
-        "Base",
-        "打新",
-        "极早期",
-        "The Crew",
-        "本轮新"
-      ],
-      "chain": "Base",
-      "round": 159,
-      "newThisRound": true,
-      "focus": false,
-      "lzVerified": false,
-      "links": {
-        "x": "https://x.com/TheTeddyLondon",
-        "site": "https://teddylondon.xyz",
-        "mint": "https://teddylondon.xyz",
-        "signal": "https://x.com/TheTeddyLondon/status/2111401829456298436"
-      },
-      "schedule": {
-        "status": "upcoming",
-        "timezone": "Asia/Shanghai",
-        "phases": [
-          {
-            "name": "The Crew mint",
-            "price": "TBA",
-            "note": "官帖3h倒计时；≈21:19CST 量级；Base"
-          }
-        ],
-        "source": "X+Web R159",
-        "note": "Base；≈21:19CST 量级；1977供应",
-        "mintStatus": "upcoming"
-      },
-      "highlights": [
-        "供应1977，规模较小",
-        "10月17日mint，时间点明确",
-        "粉丝约1066，极早期",
-        "The Crew叙事有社区属性"
-      ],
-      "drawbacks": [
-        "链未核验，基础信息缺失",
-        "价格/白名单/合约未给出",
-        "Crew类NFT同质化较高",
-        "官方链接与细则不足"
-      ],
-      "whatsNew": "【R159新】Base The Crew；官帖约3h倒计时（帖10:19UTC→约21:19CST）；供应1977；站 teddylondon.xyz。",
-      "scores": {
-        "early": 90,
-        "actionable": 55,
-        "novelty": 45,
-        "risk": 80,
-        "overall": 52
-      },
-      "earlyScore": 90,
-      "riskScore": 80,
-      "riskLevel": "高",
-      "addedAt": "2026-10-17T18:31:26+08:00",
-      "firstSeen": "2026-10-17T18:31:26+08:00",
-      "lastRefreshedAt": "2026-10-17T18:31:26+08:00",
-      "status": "watch",
-      "mintStatus": "upcoming",
-      "flag": null,
-      "social": {
-        "followers": 1066,
-        "handle": "@TheTeddyLondon"
-      },
-      "whyWatch": "Base Crew mint 今日倒计时；供应1977",
-      "background": "British street-culture Maltipoo NFT on Base"
     }
   ]
 }
