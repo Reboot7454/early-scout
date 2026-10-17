@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-17 08:30 CST",
+    "updated": "2026-10-17 08:48 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "R130 Trencher/NorthBound/RobinXP/OpenSea/Web/docs + X MCP（日限额08:00CST已重置，谨慎用）；新收录3；清R129本轮新['gachapad','post-to-launch','cookmymeme']",
-    "lastScout": "2026-10-17 08:30 CST",
+    "source": "R131 Trencher/NorthBound/RobinXP/OpenSea/Web/docs + X MCP（日限额08:00CST已重置，谨慎用）；新收录4；清R130本轮新['farm-launchpad', 'sapling', 'robintoys']",
+    "lastScout": "2026-10-17 08:48 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -46,8 +46,8 @@
         "zeromeme-fun",
         "oftpad"
       ],
-      "note": "无新Zero/ATLAS开链证据；armoreum/oftpad保持台子/Meme lzVerified=false；本轮无新LZ收录",
-      "lastChecked": "2026-10-17 08:30 CST"
+      "note": "无新Zero/ATLAS证据；armoreum/oftpad保持台子/Meme lzVerified=false；本轮无新LZ收录。",
+      "lastChecked": "2026-10-17 08:48 CST"
     },
     "round5Added": [
       "farming-season",
@@ -349,7 +349,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 130,
+    "round": 131,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -426,7 +426,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 334,
+    "candidateCount": 338,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -657,8 +657,8 @@
         "public factory deploys",
         "fee split / S02"
       ],
-      "note": "playground.token.works仍加载中；公开部署未开；@Rhynotic",
-      "lastChecked": "2026-10-17 08:30 CST"
+      "note": "续盯 @Rhynotic / playground.token.works；本轮无新同类独立收录。",
+      "lastChecked": "2026-10-17 08:48 CST"
     },
     "round97Added": [
       "evrynth"
@@ -749,7 +749,7 @@
     "focusWatch": {
       "active": true,
       "label": "重点栏 · 实验玩具链监视",
-      "lastChecked": "2026-10-17 08:30 CST",
+      "lastChecked": "2026-10-17 08:48 CST",
       "seedFirst": "squeekchain",
       "accounts": [
         "@squeekchain",
@@ -774,7 +774,7 @@
         "公平分配叙事的极早期 peer"
       ],
       "admitRule": "有 Twitter 的清晰早期 peer → focus:true 进重点栏（或至少 tags 含 重点 + 写入 focusWatch）；squeekchain 保持重点首位",
-      "note": "squeekchain.com仍Coming soon；无新独立peer；Excited Hamsters仍GO；focusIds=[squeekchain,hamster-hour]",
+      "note": "squeekchain.com仍Coming soon；X @squeekchain近帖空；hamster-hour无新发币窗；无新独立peer；Excited Hamsters仍GO。",
       "xApiNote": "R125：X MCP daily limit still full until 2026-10-17T00:00:00Z (08:00 CST)；改 Trencher/NorthBound/RobinXP/Web/OpenSea"
     },
     "armoreumNote": "armoreum 保持 lzVerified=false、无 LayerZero/lz tag，归台子/Meme",
@@ -823,9 +823,10 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "incognito-launchpad",
-      "satelite-crc20",
-      "epochpad"
+      "moonvalve",
+      "memedeck",
+      "tgepad",
+      "harnesspro"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -856,6 +857,12 @@
       "farm-launchpad",
       "sapling",
       "robintoys"
+    ],
+    "round131Added": [
+      "moonvalve",
+      "memedeck",
+      "tgepad",
+      "harnesspro"
     ]
   },
   "candidates": [
@@ -873,8 +880,7 @@
         "Solana",
         "fair-launch",
         "launchpad",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "status": "live",
       "background": "Solana发射台Farm；Farm v2共享pot（launch费/交易费/hat mint）轮次买币分给active Strawhat；官帖持续buyback",
@@ -890,7 +896,7 @@
         "note": "Solana Farm launchpad live；Farm v2 pot/hat；≈2.0k粉；@LaunchOnFarm"
       },
       "round": 130,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-17T08:30:10.351943+08:00",
       "firstSeen": "2026-10-17T08:30:10.351943+08:00",
       "scores": {
@@ -912,7 +918,7 @@
         "Solana发射台赛道极度拥挤",
         "hat/pot机制可持续性待验证"
       ],
-      "whatsNew": "Farm v2把launch费、交易费和hat mint汇入共享pot并按轮次分给活跃Strawhat。"
+      "whatsNew": "Farm v2 Solana台子续更：站与@LaunchOnFarm仍live。续更"
     },
     {
       "id": "sapling",
@@ -929,8 +935,7 @@
         "Zcash",
         "shielded",
         "launchpad",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "status": "live",
       "background": "首个Zcash-native Solana发射台；Zcash钱包shielded种植/交易/兑现；持有人ZEC分红；$SAPLING燃烧",
@@ -946,7 +951,7 @@
         "note": "Zcash-native Solana pad live；304币·≈$28.8M·18毕业；@saplingdotcash"
       },
       "round": 130,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-17T08:30:10.351943+08:00",
       "firstSeen": "2026-10-17T08:30:10.351943+08:00",
       "scores": {
@@ -967,7 +972,7 @@
         "隐私加发射台组合较复杂",
         "ZEC分红可持续性待验证"
       ],
-      "whatsNew": "把Zcash shielded隐私体验接入Solana发射与交易场景。"
+      "whatsNew": "Sapling Zcash-native Solana发射台续更：站与@saplingdotcash仍live。续更"
     },
     {
       "id": "robintoys",
@@ -985,8 +990,7 @@
         "RH",
         "mint",
         "打新",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "status": "live",
       "background": "RH NFT PUBLIC；同X账号此前The SurfBoard已归档",
@@ -1021,7 +1025,7 @@
         "note": "PUBLIC LIVE；OS/Trencher≈1576/5555；0.00041 ETH；@jabrailywud（同账号SurfBoard已归档）"
       },
       "round": 130,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-17T08:30:10.351943+08:00",
       "firstSeen": "2026-10-17T08:30:10.351943+08:00",
       "scores": {
@@ -1042,7 +1046,7 @@
         "NFT打新流动性与退出不确定",
         "项目方历史连续性存疑"
       ],
-      "whatsNew": "同一X账号在The SurfBoard归档后转向RobinToys公开mint。"
+      "whatsNew": "RH PUBLIC继续，≈1576/5555 0.00041ETH。续更"
     },
     {
       "id": "agent-apow",
@@ -1409,7 +1413,7 @@
         "除活动外无实质产品披露",
         "需防虚假mint链接与钓鱼"
       ],
-      "whatsNew": "GO盘续盯：Excited Hamsters mint相关spaces指向约10/19。",
+      "whatsNew": "GO盘续盯：Excited Hamsters mint相关spaces仍指向约10/19。续更",
       "playStyle": "go",
       "earlyScore": 7.0,
       "riskScore": 8.0
@@ -1587,7 +1591,7 @@
         "toychain 长期价值不确定",
         "PoW 挖矿收益与代币模型未公开"
       ],
-      "whatsNew": "重点续盯：官站仍Coming soon，无发币窗口。",
+      "whatsNew": "重点续盯：官站仍Coming soon；X近帖空；无发币窗口。续更",
       "background": "Hamster-powered proof-of-work toychain on Ethereum (Sepolia). Physical hamster wheel (WHEELY9000) activity verified and settled on-chain. Token has NOT launched yet.",
       "whyWatch": "重点：实体仓鼠+PoW玩具链+预发币测试网，小七点名盯盘；同类实验叙事标杆。",
       "status": "early",
@@ -1656,7 +1660,7 @@
         "无法评估真实参与方式",
         "同类仓鼠项目多，竞争与淘汰风险高"
       ],
-      "whatsNew": "重点续盯：无新独立发币窗口。",
+      "whatsNew": "重点续盯：无新独立发币窗口。续更",
       "background": "First swarm-built app on squeekchain: bet $IMD on how far the hamster runs in an hour; top 3 split the pot.",
       "whyWatch": "重点类：squeekchain 生态极早期应用 peer；同属实体+链上玩具叙事。",
       "status": "early",
@@ -1782,7 +1786,7 @@
         "无明确上线时间与细节",
         "可能只是蹭概念"
       ],
-      "whatsNew": "自称桥/LZ未核验，保持台子/Meme lzVerified=false。",
+      "whatsNew": "自称接桥/LZ未核验：保持台子/Meme，lzVerified=false。续更",
       "chain": "Robinhood",
       "tags": [
         "launchpad",
@@ -3037,7 +3041,7 @@
         "GPU/商品PoW竞争激烈，回本不确定",
         "项目信息与流动性待验证"
       ],
-      "whatsNew": "挖矿栏续更：Midstate协议站仍可访问，挖矿/Genesis叙事续存。",
+      "whatsNew": "挖矿栏续更：Midstate协议站仍可访问，挖矿/Genesis叙事续存。续更",
       "whyWatch": "与 QTC/NOID 同属「后量子 GPU PoW L1」赛道，但算法是顺序 BLAKE3（非 Poseidon）；hobbyist/GPU 窗口仍在，且有 LuckyPool+钱包+交易所入口，适合盯算力与抛压。",
       "background": "Midstate（$MDS）· midstate.cash · 独立 L1：顺序 BLAKE3 PoW、60s ASERT、power-of-2 UTXO、commit-reveal mempool。创世锚定 BTC #938708（2026-02-24）。源码 ciphernom/midstate；浏览器 rpc.cypherpunk.gold；矿池 midstate.luckypool.io（lpminer CUDA）。官推 @cypherpunkgold（主页 midstate.cash；站内 @midstate_dev 404）。",
       "risk": "极早期单人项目；交易所深度浅；假池/假矿工与死链官推链接并存。只认 midstate.cash / @cypherpunkgold / LuckyPool 官方包。非投资建议。",
@@ -3403,7 +3407,7 @@
         "launch 仍待开",
         "推特号非同名官方，需核验"
       ],
-      "whatsNew": "Playground站仍加载中；公开工厂部署未确认；@Rhynotic",
+      "whatsNew": "TokenWorks Playground 续盯 @Rhynotic / playground.token.works。续更",
       "whyWatch": "策展小组链上共建+收益分账的可复用发射单元，已双链部署合约；盯工厂开启发射与首批 FWA 配对想法。",
       "background": "TokenWorks（@token_works≈35678粉）由 Adam/@Rhynotic（≈27098粉，bio=@token_works）主导，与 IMD 合作推出 Playgrounds。2026-10-15 官帖线：策展小组链上共建，任何人可从 playground 发想法并分账；用 IMD 小费驱动 agents 构建审计部署。站 playground.token.works，页脚 Ethereum·Robinhood。",
       "chain": "Ethereum / Robinhood",
@@ -4596,7 +4600,7 @@
         "fair-launch 竞争可能激烈",
         "Injective 生态 meme 流动性待验证"
       ],
-      "whatsNew": "Injective fair-launch台子倒计时仍指向今晚UTC16:00。",
+      "whatsNew": "Injective fair-launch台子倒计时仍指向今晚UTC16:00（约10-18 00:00CST）。续更",
       "whyWatch": "同类极早期链上发射台（Injective/Ink 风格 bonding fair-launch）；盯主网开台与首批发射。",
       "background": "yore.fun（@yorefun）自称 Injective 上 fair-launch bonding-curve 发射台：无预售、无团队配额，售罄毕业到 swap.yore.fun；已完成 testnet beta，官帖宣布周六 10-17 16:00 UTC 正式上线。",
       "risk": "med",
@@ -7647,7 +7651,7 @@
         "二级流动性尚未验证",
         "公售阶段非白名单早期窗口"
       ],
-      "whatsNew": "ETH/RH艺术类公售继续，OpenSea约195，仍可mint。",
+      "whatsNew": "ETH/RH艺术类公售继续，OpenSea约195，仍可mint。续更",
       "flag": "≤2h",
       "risk": "med",
       "firstSeen": "2026-10-16T07:22:08.020389+08:00",
@@ -9290,7 +9294,7 @@
         "NFT 二级流动性不确定",
         "Ink 生态仍在早期，需求需观察"
       ],
-      "whatsNew": "Ink链InkBots今晚23:00CST起GTD，非≤2h。",
+      "whatsNew": "Ink链InkBots今晚23:00CST起GTD，非≤2h。续更",
       "scores": {
         "early": 6.0,
         "actionable": 8.5,
@@ -15528,7 +15532,7 @@
         "团队与项目信息较少",
         "二级退出路径尚不明确"
       ],
-      "whatsNew": "PUBLIC刚起步，OpenSea约22/1888，仍LIVE。",
+      "whatsNew": "PUBLIC仍早期，OpenSea约22/1888，仍LIVE。续更",
       "scores": {
         "early": 8.8,
         "actionable": 9.0,
@@ -19648,7 +19652,7 @@
         "无明确产品与时间线",
         "蹭LayerZero嫌疑大"
       ],
-      "whatsNew": "OFT发射台续更：自称omnichain live，未核验真接LZ，保持台子/Meme。",
+      "whatsNew": "OFT自称发射台续更：保持台子/Meme，lzVerified=false。续更",
       "whyWatch": "极早期自称 Omnichain Fungible Token 发射台（@OFTpad）；仅官帖自述+pump.fun CA，是否真接跨链协议未核验，归入台子/Meme 栏盯盘。",
       "flag": "WATCH",
       "riskLevel": "critical",
@@ -21309,7 +21313,7 @@
         "艺术性普通",
         "无路线图"
       ],
-      "whatsNew": "Robinhood Stone PUBLIC窗口今日11:40CST起，≈111/999。",
+      "whatsNew": "RH PUBLIC 0.0004ETH 窗口至约17:50CST；Trencher≈112/999。续更",
       "scores": {
         "early": 8.5,
         "actionable": 7.2,
@@ -21343,7 +21347,7 @@
             "perWallet": 20
           }
         ],
-        "source": "Trencher R130",
+        "source": "Trencher R131",
         "note": "PUBLIC≈11:40-17:50CST 0.0004ETH；Trencher≈111/999；@hoodstone__"
       },
       "onchain": {
@@ -21866,8 +21870,8 @@
             "perWallet": 22
           }
         ],
-        "source": "Trencher+OpenSea R130",
-        "note": "PUBLIC自08:00CST 0.00003 ETH；Trencher/OS≈378/2222；@MonkiHood"
+        "source": "Trencher/RobinXP/OpenSea R131",
+        "note": "PUBLIC 0.00003 ETH · ≈380/2222"
       },
       "scores": {
         "early": 7.8,
@@ -21893,7 +21897,7 @@
         "团队与长期需求信息不足",
         "跨链及二级退出路径不明确"
       ],
-      "whatsNew": "Robinhood链低价PUBLIC继续，约378/2222（≈17%）。",
+      "whatsNew": "Robinhood链低价PUBLIC继续，约380/2222（≈17%）。续更",
       "whyWatch": "极早期低价 RH PUBLIC，供应仍大半未 mint",
       "background": "Robinhood Chain 像素猴主题 NFT，Trencher/OpenSea 可见日程与合约。",
       "addedAt": "2026-10-17 05:25 CST",
@@ -22178,7 +22182,7 @@
             "note": "RobinXP LIVE；约67/700"
           }
         ],
-        "source": "RobinXP R130",
+        "source": "RobinXP R131",
         "note": "PUBLIC LIVE至≈23:48CST；RobinXP≈67/700；~$0.46；@BoochiNFT"
       },
       "scores": {
@@ -22205,7 +22209,7 @@
         "团队与路线图信息不足",
         "小供给也可能面临低流动性"
       ],
-      "whatsNew": "限时公售仍LIVE，约67/700，窗口至23:48CST。",
+      "whatsNew": "限时公售仍LIVE，约67/700，窗口至23:48CST。续更",
       "whyWatch": "RH NFT LIVE 仅约67/700；有官推；窗口至约今晚23:48CST",
       "addedAt": "2026-10-17 06:18 CST",
       "firstSeen": "2026-10-17 06:18 CST",
@@ -22567,7 +22571,7 @@
         "高定价意味着回本压力大、二级易破发",
         "未见总量、赋能与团队背书等关键信息"
       ],
-      "whatsNew": "Women and Dreams #01 PUBLIC仍定为10-18 18:00CST。",
+      "whatsNew": "Women and Dreams #01 PUBLIC仍定为10-18 18:00CST。续更",
       "schedule": {
         "status": "upcoming",
         "timezone": "Asia/Shanghai",
@@ -23295,6 +23299,234 @@
         "社交声量与真实用户量未知"
       ],
       "whatsNew": "多链 meme 一键创建、发射与交易的聚合台。"
+    },
+    {
+      "id": "moonvalve",
+      "name": "MoonValve",
+      "chain": "XRPL/Solana",
+      "category": "新台",
+      "links": {
+        "x": "https://x.com/Moon_Valve",
+        "site": "https://moonvalve.fun/"
+      },
+      "tags": [
+        "新台",
+        "XRPL",
+        "Solana",
+        "fair-launch",
+        "launchpad",
+        "极早期",
+        "本轮新"
+      ],
+      "status": "live",
+      "background": "XRPL+Solana 社区公平发射台；同价入场、失败退款、无狙击手优势；站报约73 launches",
+      "whyWatch": "跨链公平发射台已live且仍早期，可观察XRPL/Solana打新窗口",
+      "flag": "新台",
+      "mintStatus": "live",
+      "lzVerified": null,
+      "focus": false,
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "source": "moonvalve.fun+X @Moon_Valve R131",
+        "note": "XRPL+Solana fair-launch live；≈575粉；@Moon_Valve"
+      },
+      "round": 131,
+      "newThisRound": true,
+      "addedAt": "2026-10-17T08:48:36.008000+08:00",
+      "firstSeen": "2026-10-17T08:48:36.008000+08:00",
+      "scores": {
+        "early": 8.4,
+        "actionable": 7.6,
+        "novelty": 6.4,
+        "risk": 7.8,
+        "overall": 7.0,
+        "composite": 7.0
+      },
+      "highlights": [
+        "XRPL+Solana 双链公平发射台已上线",
+        "同价入场+失败退款，降低狙击与 Rug 风险",
+        "已跑 73 次发射，有初步真实使用痕迹",
+        "575 粉，仍属极早期"
+      ],
+      "drawbacks": [
+        "粉丝与品牌声量偏低",
+        "跨链发射台机制复杂，合约风险未验证",
+        "退款与同价规则需看实际执行",
+        "XRPL/Solana 生态打新流动性不确定"
+      ],
+      "whatsNew": "把公平发射与失败退款机制搬到 XRPL+Solana 双链发射台。"
+    },
+    {
+      "id": "memedeck",
+      "name": "MemeDeck",
+      "chain": "XRPL/Stellar",
+      "category": "新台",
+      "links": {
+        "x": "https://x.com/MemeDeck_Fun",
+        "site": "https://memedeck.fun/"
+      },
+      "tags": [
+        "新台",
+        "XRPL",
+        "Stellar",
+        "bonding-curve",
+        "launchpad",
+        "极早期",
+        "本轮新"
+      ],
+      "status": "live",
+      "background": "XRPL & Stellar all-in-one；Pump.fun-style bonding curve 官宣已LIVE",
+      "whyWatch": "非Solana主战场的双链meme发射台，极早期观察窗口",
+      "flag": "新台",
+      "mintStatus": "live",
+      "lzVerified": null,
+      "focus": false,
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "source": "memedeck.fun+X @MemeDeck_Fun R131",
+        "note": "XRPL/Stellar bonding-curve launchpad live；≈117粉；@MemeDeck_Fun"
+      },
+      "round": 131,
+      "newThisRound": true,
+      "addedAt": "2026-10-17T08:48:36.008000+08:00",
+      "firstSeen": "2026-10-17T08:48:36.008000+08:00",
+      "scores": {
+        "early": 8.8,
+        "actionable": 7.2,
+        "novelty": 5.8,
+        "risk": 8.2,
+        "overall": 6.5,
+        "composite": 6.5
+      },
+      "highlights": [
+        "XRPL+Stellar 上类似 Pump.fun 的联合曲线发射台已上线",
+        "仅 117 粉，极早期",
+        "双链覆盖 XRPL/Stellar 有差异化",
+        "可低成本观察早期打新机会"
+      ],
+      "drawbacks": [
+        "关注度极低，真实性与持续性待验证",
+        "联合曲线模式同质化强",
+        "合约与团队背景信息少",
+        "XRPL/Stellar meme 流动性与用户基础有限"
+      ],
+      "whatsNew": "在 XRPL 与 Stellar 上复刻 Pump.fun 式联合曲线发射。"
+    },
+    {
+      "id": "tgepad",
+      "name": "TGE",
+      "chain": "Solana",
+      "category": "新台",
+      "links": {
+        "x": "https://x.com/TGEpad",
+        "site": "https://tgepad.fun/"
+      },
+      "tags": [
+        "新台",
+        "Solana",
+        "TGE",
+        "tokenomics",
+        "launchpad",
+        "极早期",
+        "本轮新"
+      ],
+      "status": "live",
+      "background": "Solana Token Generation Event Launchpad；带 vesting/LP/treasury/buyback 引擎；账号今日新建",
+      "whyWatch": "今日刚开的Solana TGE台子，信息极薄但产品页可访问",
+      "flag": "新台",
+      "mintStatus": "live",
+      "lzVerified": null,
+      "focus": false,
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "source": "tgepad.fun+X @TGEpad R131",
+        "note": "Solana TGE launchpad live today；0粉新号；@TGEpad"
+      },
+      "round": 131,
+      "newThisRound": true,
+      "addedAt": "2026-10-17T08:48:36.008000+08:00",
+      "firstSeen": "2026-10-17T08:48:36.008000+08:00",
+      "scores": {
+        "early": 9.4,
+        "actionable": 4.2,
+        "novelty": 5.5,
+        "risk": 9.0,
+        "overall": 5.5,
+        "composite": 5.5
+      },
+      "highlights": [
+        "Solana 新 launchpad，今日上线",
+        "主打 tokenomics 引擎概念",
+        "推特账号今日新建，0 粉，属极早期",
+        "可先观察 tgepad.fun 后续交互"
+      ],
+      "drawbacks": [
+        "0 粉新号，无历史、无背书",
+        "官网与代币经济未独立核验",
+        "规则与交互细节不透明",
+        "Solana 台子竞争激烈，rug 风险高"
+      ],
+      "whatsNew": "今日新建的 Solana TGE launchpad，主打 tokenomics 引擎。"
+    },
+    {
+      "id": "harnesspro",
+      "name": "harnesspro",
+      "chain": "Solana",
+      "category": "新台",
+      "links": {
+        "x": "https://x.com/harnessproai",
+        "site": "https://x.com/harnessproai"
+      },
+      "tags": [
+        "新台",
+        "Solana",
+        "AI",
+        "agent",
+        "launchpad",
+        "极早期",
+        "本轮新"
+      ],
+      "status": "early",
+      "background": "自称 Solana AI trading desk；一prompt建最多10个AI交易agent并围绕其发币",
+      "whyWatch": "AI agent批量发币叙事极早期，站点未独立核验需谨慎",
+      "flag": "新台",
+      "mintStatus": "watching",
+      "lzVerified": null,
+      "focus": false,
+      "schedule": {
+        "status": "tba",
+        "timezone": "Asia/Shanghai",
+        "source": "X @harnessproai R131",
+        "note": "AI trading desk/launchpad叙事；≈12粉；站未独立核验；@harnessproai"
+      },
+      "round": 131,
+      "newThisRound": true,
+      "addedAt": "2026-10-17T08:48:36.008000+08:00",
+      "firstSeen": "2026-10-17T08:48:36.008000+08:00",
+      "scores": {
+        "early": 8.8,
+        "actionable": 5.0,
+        "novelty": 6.8,
+        "risk": 8.4,
+        "overall": 6.0,
+        "composite": 6.0
+      },
+      "highlights": [
+        "Solana AI trading desk 定位",
+        "一句 prompt 可建最多 10 个 AI agent 并发币",
+        "12 粉，账号极早期",
+        "AI agent + launchpad 组合有话题性"
+      ],
+      "drawbacks": [
+        "站点未独立核验，可信度不足",
+        "仅 12 粉，无社区与历史记录",
+        "AI agent 发币易同质化、易被滥用",
+        "未见团队、合约、审计等关键信息"
+      ],
+      "whatsNew": "用 prompt 批量创建 AI agent 并发币的 Solana 新台子。"
     }
   ]
 }
