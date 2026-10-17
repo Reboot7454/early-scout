@@ -4,4 +4,4 @@
 
 高风险·非投资建议。
 
-例行持续监控：LayerZero、实验玩具链重点栏、**Elysium 类生态**（第六栏 / `meta.elysiumWatch`）及同类新生态子项目。详见 `FEATURES.md`。
+例行持续监控：打新 / 挖矿 / 台子·Meme / GO盘 / LayerZero 与其它生态**同等努力**；Elysium（第六栏 / `meta.elysiumWatch`）只是加栏加盯的一例，不收缩覆盖。详见 `FEATURES.md`。
