@@ -1,0 +1,30 @@
+{
+  "task": "zone 台子/Meme column + tag dedup",
+  "completedAt": "2026-10-18 01:25 CST",
+  "timezone": "Asia/Shanghai",
+  "rootCause": [
+    "Primary (user still sees 打新): GitHub Pages / browser caches app.js?v=ely1. e942b1c already fixed PLATFORM_CATS+=台子/Meme and isPlatformMeme, but cache key was not bumped, so clients kept the old zoneOf that only matched 新台/Meme/Launchpad and fell through to scout(打新).",
+    "Secondary (two 台子/Meme chips): cardHtml always renders category as a tag, then also renders the first 3 of c.tags. Candidates have tags[0]=「台子/Meme」 identical to category, so the label appeared twice on FreePad/HUSH etc."
+  ],
+  "fix": {
+    "index.html": "styles.css/app.js cache bust ely1 → zone2 (force reload of zoneOf + dedup)",
+    "app.js": "extraTags filters out tags equal to category and PLATFORM_CATS aliases when category is platform; catClassOf maps 台子/Meme → Meme for CSS",
+    "styles.css": "alias .tag-cat-台子-Meme / .tag-cat-Launchpad to Meme colors",
+    "data.json": "candidates already category=台子/Meme; meta.zoneFixR179b stamped only"
+  },
+  "verification": {
+    "method": "node static: load data.json + mirror zoneOf/isPlatformMeme/extraTags filter; assert zone===meme and no PLATFORM_CATS string in extras",
+    "results": {
+      "freepad": { "zone": "meme", "extras": ["极早期", "本轮新", "Solana"] },
+      "hush-agents": { "zone": "meme", "extras": ["极早期", "本轮新", "AI"] },
+      "aulus": { "zone": "meme", "extras": ["极早期", "本轮新", "Robinhood"] },
+      "oaken": { "zone": "meme", "extras": ["极早期", "本轮新", "Robinhood"] },
+      "umbra-inference": { "zone": "meme", "extras": ["极早期", "本轮新", "Robinhood"] },
+      "mandate": { "zone": "meme", "extras": ["极早期", "本轮新", "AI"] }
+    },
+    "allOk": true,
+    "liveUrl": "https://reboot7454.github.io/early-scout/",
+    "note": "After Pages rebuild, hard-refresh or rely on ?v=zone2 so new app.js loads."
+  },
+  "filesPushed": ["index.html", "app.js", "styles.css", "data.json", "ZONE_DEDUP_RESULT.json"]
+}

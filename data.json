@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-18 01:20 CST",
+    "updated": "2026-10-18 01:25 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "R179: +neo-edo-2099,hoods-held-high,umbra-inference,oaken,aulus,freepad,mandate,yskar,hush-agents,conso; Peek gap + X scan + forced @conso_xyz; equal-effort 打新/挖矿/台子/GO/LZ/Elysium",
@@ -1194,6 +1194,11 @@
         "yskar",
         "conso"
       ]
+    },
+    "zoneFixR179b": {
+      "bug": "cache bust app.js?v=ely1 未升版 + cardHtml 把 category 与 tags[台子/Meme] 各渲染一次",
+      "fix": "index.html ?v=zone2; extraTags 去重 category/PLATFORM_CATS; catClassOf 映射 台子/Meme→Meme",
+      "zoneLogic": "PLATFORM_CATS already includes 台子/Meme since e942b1c; zoneOf correct when fresh JS loads"
     }
   },
   "candidates": [

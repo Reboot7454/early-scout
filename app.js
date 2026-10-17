@@ -354,6 +354,13 @@
   /** Six board columns: Elysium > LayerZero > mining > GO > 台子/Meme > 打新.
    *  Focus candidates are strip-only (excluded from columns via isFocus),
    *  except Elysium hub may also show in the Elysium column. */
+  /** CSS-safe category class (slash in 台子/Meme breaks tag-cat-* selectors). */
+  function catClassOf(category) {
+    const s = String(category || "");
+    if (PLATFORM_CATS.has(s) || s === "台子/Meme") return "Meme";
+    return s.replace(/[\/\s]+/g, "-");
+  }
+
   function isPlatformMeme(c) {
     if (!c) return false;
     if (PLATFORM_CATS.has(c.category)) return true;
@@ -558,8 +565,15 @@
     const x = c.links?.x;
     const site = c.links?.site;
     const riskLevelKey = String(c.riskLevel || "medium");
+    // Dedup: category chip already shows zone name; never repeat it (or PLATFORM_CATS aliases) as extra tags.
     const extraTags = (c.tags || [])
-      .filter((t) => !["LayerZero", "重点", "focus"].includes(t))
+      .filter((t) => {
+        const s = String(t);
+        if (s === c.category) return false;
+        if (["LayerZero", "重点", "focus"].includes(s)) return false;
+        if (PLATFORM_CATS.has(c.category) && PLATFORM_CATS.has(s)) return false;
+        return true;
+      })
       .slice(0, 3)
       .map((t) => `<span class="tag tag-extra">${escapeHtml(t)}</span>`)
       .join("");
@@ -578,7 +592,7 @@
           <div>
             <div class="name">${escapeHtml(c.name)}${focus ? '<span class="focus-chip" title="重点关注">重点</span>' : ""}${lz ? '<span class="lz-chip" title="LayerZero 相关">LZ</span>' : ""}${isGoPlay(c) ? '<span class="go-chip" title="GO盘">GO</span>' : ""}${sched}${newBadge}</div>
             <div class="tags">
-              <span class="tag tag-cat-${escapeHtml(c.category)}">${escapeHtml(c.category)}</span>
+              <span class="tag tag-cat-${escapeHtml(catClassOf(c.category))}">${escapeHtml(c.category)}</span>
               <span class="tag tag-chain">${escapeHtml(canonicalChain(c.chain))}</span>
               ${focus ? '<span class="tag tag-focus">重点</span>' : ""}
               ${lz ? '<span class="tag tag-lz">LayerZero</span>' : ""}
