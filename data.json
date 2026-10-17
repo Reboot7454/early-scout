@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-18 00:12 CST",
+    "updated": "2026-10-18 00:27 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "R175: Trencher+RobinXP+NorthBound+X MCP+Web(yore/playground)+DS admit/score",
-    "lastScout": "2026-10-18 00:12 CST",
+    "lastScout": "2026-10-18 00:27 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -46,8 +46,8 @@
         "zeromeme-fun",
         "oftpad"
       ],
-      "note": "无新 Zero/ATLAS；oftpad/armoreum 仍台子/Meme lzVerified=false；Aerie成熟层跳过；本轮无新 LZ。",
-      "lastChecked": "2026-10-18 00:12 CST"
+      "note": "本轮无新 Zero/ATLAS/OFT 核验信号。",
+      "lastChecked": "2026-10-18 00:27 CST"
     },
     "round5Added": [
       "farming-season",
@@ -165,14 +165,15 @@
     ],
     "miningWatch": {
       "active": true,
-      "lastChecked": "2026-10-18 00:12 CST",
-      "note": "续盯 Midstate/MineGPU/Common Foundry/Toadex；本轮无新 GPU PoW。",
+      "lastChecked": "2026-10-18 00:27 CST",
+      "note": "续盯 Midstate/MineGPU/Common Foundry/Toadex；本轮新收录 Mintegra（RH PoW gem mine）。",
       "candidateIds": [
         "midstate-mds",
         "minegpu",
         "common-foundry",
         "toadex",
-        "agent-apow"
+        "agent-apow",
+        "mintegra"
       ]
     },
     "round20Added": [
@@ -326,7 +327,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 175,
+    "round": 176,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -403,7 +404,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 461,
+    "candidateCount": 465,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -451,8 +452,8 @@
         "sproutsomefun",
         "runupdotfun"
       ],
-      "note": "yore.fun Injective 主网已 live（≈00:00CST）；站内 bonding/graduated 可见。",
-      "lastChecked": "2026-10-18 00:08 CST"
+      "note": "yore.fun 主网 live；GenesisOnINJ 等首发续观察。",
+      "lastChecked": "2026-10-18 00:27 CST"
     },
     "glazeWatch": {
       "active": true,
@@ -635,7 +636,7 @@
         "fee split / S02"
       ],
       "note": "playground.token.works 可访；本轮无新 public factory 信号。",
-      "lastChecked": "2026-10-18 00:12 CST"
+      "lastChecked": "2026-10-18 00:27 CST"
     },
     "round97Added": [
       "evrynth"
@@ -726,7 +727,7 @@
     "focusWatch": {
       "active": true,
       "label": "重点栏 · 实验玩具链监视",
-      "lastChecked": "2026-10-18 00:12 CST",
+      "lastChecked": "2026-10-18 00:27 CST",
       "seedFirst": "squeekchain",
       "accounts": [
         "@squeekchain",
@@ -751,7 +752,7 @@
         "公平分配叙事的极早期 peer"
       ],
       "admitRule": "有 Twitter 的清晰早期 peer → focus:true 进重点栏（或至少 tags 含 重点 + 写入 focusWatch）；squeekchain 保持重点首位",
-      "note": "squeekchain 官站仍 Coming soon；hamster-hour 续；本轮无新 toychain 重点。",
+      "note": "squeekchain Sepolia 挖矿可测；hamster-hour 续盯；本轮无新增同类 toychain。",
       "xApiNote": "R175：X MCP可用；并行scout合并。",
       "ids": [
         "squeekchain",
@@ -804,16 +805,10 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "ink-pebble",
-      "rage-baiter",
-      "ink-chain-logo",
-      "hoodedclub",
-      "moonbase",
-      "homelesshood-rh",
-      "bloomfun",
-      "frontonauts",
-      "buypurps",
-      "thestrainlab"
+      "hatch-fun",
+      "mintegra",
+      "sid-capital",
+      "brainfarts"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1071,9 +1066,311 @@
       "buypurps",
       "thestrainlab"
     ],
-    "peekLearnNote": "R175：对照 NorthBound 早期 call / Trencher 盲区补录 ink-pebble、rage-baiter 等；未照搬热度榜；跳过无推特 HyperBOT/INKBOX 等。"
+    "peekLearnNote": "R175：对照 NorthBound 早期 call / Trencher 盲区补录 ink-pebble、rage-baiter 等；未照搬热度榜；跳过无推特 HyperBOT/INKBOX 等。",
+    "round176Added": [
+      "hatch-fun",
+      "mintegra",
+      "sid-capital",
+      "brainfarts"
+    ]
   },
   "candidates": [
+    {
+      "id": "brainfarts",
+      "name": "brainfarts",
+      "category": "打新",
+      "tags": [
+        "打新",
+        "NFT",
+        "Ethereum",
+        "onchain",
+        "极早期",
+        "本轮新"
+      ],
+      "chain": "Ethereum",
+      "links": {
+        "x": "https://x.com/brainfartswtf",
+        "signal": "https://x.com/brainfartswtf/status/2111458232078069944"
+      },
+      "schedule": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "upcoming",
+        "phases": [
+          {
+            "name": "Founding100 AL",
+            "note": "截止约 Oct22 noon ET"
+          }
+        ],
+        "source": "X R176",
+        "note": "Founding100 free claim AL ~Oct22"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "alert": null,
+      "source": "X+Trencher+DS R176",
+      "scores": {
+        "early": 80,
+        "actionable": 75,
+        "novelty": 70,
+        "risk": 55,
+        "overall": 70,
+        "composite": 7.0,
+        "raw100": {
+          "early": 80,
+          "actionable": 75,
+          "novelty": 70,
+          "risk": 55,
+          "overall": 70
+        }
+      },
+      "highlights": [
+        "10k 链上生成艺术 NFT",
+        "Founding100 白名单约 10/22 截止",
+        "约 168 关注，已有一定预热"
+      ],
+      "drawbacks": [
+        "NFT 打新竞争激烈",
+        "白名单规则需进一步确认",
+        "ETH 主网参与成本较高"
+      ],
+      "whatsNew": "brainfarts 开放 Founding100 白名单，截止约 10/22。",
+      "newThisRound": true,
+      "round": 176,
+      "round176Added": true,
+      "addedAt": "2026-10-18 00:27 CST",
+      "firstSeen": "2026-10-18 00:27 CST",
+      "social": {
+        "handle": "@brainfartswtf",
+        "followers": 168,
+        "xFollowers": 168,
+        "lastCheckedAt": "2026-10-18T00:27:29.620086+08:00"
+      },
+      "status": "early",
+      "mintStatus": "upcoming",
+      "risk": "med",
+      "riskLevel": "med",
+      "earlyScore": 8.0,
+      "riskScore": 5.5
+    },
+    {
+      "id": "sid-capital",
+      "name": "SID CAPITAL",
+      "category": "打新",
+      "tags": [
+        "打新",
+        "NFT",
+        "Robinhood",
+        "Trencher",
+        "极早期",
+        "本轮新"
+      ],
+      "chain": "Robinhood",
+      "links": {
+        "x": "https://x.com/sidtheslothrh",
+        "signal": "https://opensea.io/collection/sidcapital"
+      },
+      "schedule": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "upcoming",
+        "source": "Trencher R176",
+        "note": "Trencher upcoming；supply88 @0.0001"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "alert": null,
+      "source": "X+Trencher+DS R176",
+      "scores": {
+        "early": 94,
+        "actionable": 42,
+        "novelty": 48,
+        "risk": 82,
+        "overall": 57,
+        "composite": 5.7,
+        "raw100": {
+          "early": 94,
+          "actionable": 42,
+          "novelty": 48,
+          "risk": 82,
+          "overall": 57
+        }
+      },
+      "highlights": [
+        "Robinhood 上即将开启的 Trencher",
+        "总量 88、价格 0.0001",
+        "极早期，仅约 2 个关注"
+      ],
+      "drawbacks": [
+        "关注极少，可信度待验证",
+        "产品与规则细节不足",
+        "dust tier 风险较高"
+      ],
+      "whatsNew": "Robinhood NFT 项目 SID CAPITAL 预热 Trencher，总量 88、价格 0.0001。",
+      "newThisRound": true,
+      "round": 176,
+      "round176Added": true,
+      "addedAt": "2026-10-18 00:27 CST",
+      "firstSeen": "2026-10-18 00:27 CST",
+      "social": {
+        "handle": "@sidtheslothrh",
+        "followers": 2,
+        "xFollowers": 2,
+        "lastCheckedAt": "2026-10-18T00:27:29.620086+08:00"
+      },
+      "status": "early",
+      "mintStatus": "upcoming",
+      "risk": "high",
+      "riskLevel": "extreme",
+      "earlyScore": 9.4,
+      "riskScore": 8.2
+    },
+    {
+      "id": "mintegra",
+      "name": "Mintegra",
+      "category": "挖矿",
+      "tags": [
+        "挖矿",
+        "PoW",
+        "Robinhood",
+        "gem",
+        "极早期",
+        "本轮新"
+      ],
+      "chain": "Robinhood",
+      "links": {
+        "x": "https://x.com/_mintegra",
+        "signal": "https://x.com/_mintegra/status/2111469128884084743"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "live",
+        "source": "X R176",
+        "note": "epoch2 live；mine don't mint；~536 left"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "alert": null,
+      "source": "X+Trencher+DS R176",
+      "scores": {
+        "early": 86,
+        "actionable": 72,
+        "novelty": 68,
+        "risk": 65,
+        "overall": 69,
+        "composite": 6.9,
+        "raw100": {
+          "early": 86,
+          "actionable": 72,
+          "novelty": 68,
+          "risk": 65,
+          "overall": 69
+        }
+      },
+      "highlights": [
+        "Robinhood 链上 PoW 挖矿",
+        "mine don't mint，70% 分配给矿工",
+        "epoch2 进行中，约剩 536 个"
+      ],
+      "drawbacks": [
+        "关注约 34，社区很早期",
+        "PoW 收益与代币价值不确定",
+        "Robinhood 生态仍偏早期"
+      ],
+      "whatsNew": "Robinhood 链 PoW 项目 Mintegra 进入 epoch2，强调只挖不铸。",
+      "newThisRound": true,
+      "round": 176,
+      "round176Added": true,
+      "addedAt": "2026-10-18 00:27 CST",
+      "firstSeen": "2026-10-18 00:27 CST",
+      "social": {
+        "handle": "@_mintegra",
+        "followers": 34,
+        "xFollowers": 34,
+        "lastCheckedAt": "2026-10-18T00:27:29.620086+08:00"
+      },
+      "status": "early",
+      "mintStatus": "live",
+      "risk": "med",
+      "riskLevel": "high",
+      "earlyScore": 8.6,
+      "riskScore": 6.5,
+      "miningType": "other"
+    },
+    {
+      "id": "hatch-fun",
+      "name": "Hatch",
+      "category": "新台",
+      "tags": [
+        "新台",
+        "Launchpad",
+        "Solana",
+        "Meteora",
+        "极早期",
+        "本轮新",
+        "台子/Meme"
+      ],
+      "chain": "Solana",
+      "links": {
+        "x": "https://x.com/LetsHatchFun",
+        "signal": "https://x.com/LetsHatchFun/status/2111481393268035819"
+      },
+      "schedule": {
+        "status": "watch",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "watch",
+        "source": "X+Web R176",
+        "note": "letshatch.fun Coming soon；发射/交易未开"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "alert": null,
+      "source": "X+Trencher+DS R176",
+      "scores": {
+        "early": 88,
+        "actionable": 58,
+        "novelty": 66,
+        "risk": 70,
+        "overall": 64,
+        "composite": 6.4,
+        "raw100": {
+          "early": 88,
+          "actionable": 58,
+          "novelty": 66,
+          "risk": 70,
+          "overall": 64
+        }
+      },
+      "highlights": [
+        "Meteora 支持的 Solana 公平发射台",
+        "极早期，10/16 账号约 40 关注",
+        "钱包绑定上限 2%，机制有差异化"
+      ],
+      "drawbacks": [
+        "尚未上线，产品细节少",
+        "关注度极低，需防噪音",
+        "Solana 发射台赛道竞争激烈"
+      ],
+      "whatsNew": "Solana 公平发射台 Hatch 预热，主打 Meteora 与低比例钱包绑定。",
+      "newThisRound": true,
+      "round": 176,
+      "round176Added": true,
+      "addedAt": "2026-10-18 00:27 CST",
+      "firstSeen": "2026-10-18 00:27 CST",
+      "social": {
+        "handle": "@LetsHatchFun",
+        "followers": 40,
+        "xFollowers": 40,
+        "lastCheckedAt": "2026-10-18T00:27:29.620086+08:00"
+      },
+      "status": "early",
+      "mintStatus": "watch",
+      "risk": "high",
+      "riskLevel": "high",
+      "earlyScore": 8.8,
+      "riskScore": 7.0
+    },
     {
       "id": "buypurps",
       "name": "Purps",
@@ -1085,7 +1382,6 @@
         "perps",
         "meme",
         "极早期",
-        "本轮新",
         "台子/Meme"
       ],
       "chain": "Solana",
@@ -1136,7 +1432,7 @@
         "团队、审计与费用模型信息不足"
       ],
       "whatsNew": "$PURPS 代币已进入实盘交易，发射台从概念走向可用阶段。",
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 175,
       "round175Added": true,
       "addedAt": "2026-10-18 00:12 CST",
@@ -1151,8 +1447,7 @@
         "NFT",
         "实验",
         "Free Mint",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "chain": "TBA",
       "links": {
@@ -1203,7 +1498,7 @@
         "实验类项目留存与流动性通常较差"
       ],
       "whatsNew": "以位置异常解锁免费 mint 的实验艺术 NFT 项目。",
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 175,
       "round175Added": true,
       "addedAt": "2026-10-18 00:12 CST",
@@ -1218,8 +1513,7 @@
         "NFT",
         "Ink",
         "Free Mint",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "chain": "Ink",
       "links": {
@@ -1263,7 +1557,7 @@
         "粉丝仅56，团队匿名"
       ],
       "whatsNew": "Ink上极早期免费NFT，主打链上里程碑进化。",
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 175,
       "round175Added": true,
       "addedAt": "2026-10-18 00:08 CST",
@@ -1278,8 +1572,7 @@
         "NFT",
         "RH",
         "stealth mint",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "chain": "Robinhood",
       "links": {
@@ -1342,7 +1635,7 @@
         "团队匿名且stealth风险高"
       ],
       "whatsNew": "Robinhood链小供应stealth mint，分TEAM/HOLDER/PUBLIC阶段。",
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 175,
       "round175Added": true,
       "addedAt": "2026-10-18 00:08 CST",
@@ -1366,8 +1659,7 @@
         "NFT",
         "Ink",
         "Free Mint",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "chain": "Ink",
       "links": {
@@ -1435,7 +1727,7 @@
         "团队背景未披露"
       ],
       "whatsNew": "Ink链333个动画3D Logo碎片，免费分层mint。",
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 175,
       "round175Added": true,
       "addedAt": "2026-10-18 00:08 CST",
@@ -1458,7 +1750,6 @@
         "Launchpad",
         "RH",
         "Feesback",
-        "本轮新",
         "极早期"
       ],
       "chain": "Robinhood",
@@ -1504,7 +1795,7 @@
         "Robinhood链早期波动大"
       ],
       "whatsNew": "面向交易者的Launchpad，已上线Feesback领取并给出代币CA。",
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 175,
       "round175Added": true,
       "addedAt": "2026-10-18 00:08 CST",
@@ -1518,8 +1809,7 @@
         "新台",
         "Launchpad",
         "multi-chain",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "chain": "Multi (Solana/Base/BNB/ETH/RH)",
       "links": {
@@ -1563,7 +1853,7 @@
         "发射台赛道拥挤，易被仿盘淹没"
       ],
       "whatsNew": "首日冒出的多链单USDC发射台，并预告$MOON。",
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 175,
       "round175Added": true,
       "addedAt": "2026-10-18 00:08 CST",
@@ -1578,8 +1868,7 @@
         "NFT",
         "RH",
         "WL",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "chain": "Robinhood",
       "links": {
@@ -1623,7 +1912,7 @@
         "RH生态流动性与用户基础不明确"
       ],
       "whatsNew": "在RH生态预热3,333枚反乌托邦NFT并发放WL码。",
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 175,
       "round175Added": true,
       "addedAt": "2026-10-18 00:08 CST",
@@ -1637,8 +1926,7 @@
         "新台",
         "Launchpad",
         "Solana",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "chain": "Solana",
       "links": {
@@ -1682,7 +1970,7 @@
         "抢跑发币风险高"
       ],
       "whatsNew": "今日新出现的Solana发射台，并预告$BLOOM上LaunchLab。",
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 175,
       "round175Added": true,
       "addedAt": "2026-10-18 00:08 CST",
@@ -1696,8 +1984,7 @@
         "打新",
         "NFT",
         "ETH",
-        "WL",
-        "本轮新"
+        "WL"
       ],
       "chain": "Ethereum",
       "links": {
@@ -1766,7 +2053,7 @@
         "免费预约低门槛，女巫风险高"
       ],
       "whatsNew": "开放2026年10月免费WL预约，并公布分层mint价格。",
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 175,
       "round175Added": true,
       "addedAt": "2026-10-18 00:08 CST",
@@ -1788,8 +2075,7 @@
         "打新",
         "NFT",
         "RH",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "chain": "Robinhood",
       "links": {
@@ -1856,8 +2142,7 @@
         "Launchpad",
         "Solana",
         "meme",
-        "极早期",
-        "本轮新"
+        "极早期"
       ],
       "chain": "Solana",
       "links": {
@@ -2118,12 +2403,13 @@
         "属于典型空壳账号，存在跑路风险",
         "launch 细节仅凭自我宣称，无法验证"
       ],
-      "whatsNew": "【续更】yore.fun/INJ 首发自称·官推粉≈40·等 pad 00:00CST；极薄壳。",
+      "whatsNew": "【续更】自称 yore.fun/INJ 首发；官推粉仍薄，等 pad 成交。",
       "newThisRound": false,
       "round": 172,
       "round172Added": true,
       "addedAt": "2026-10-17T22:55:01+08:00",
-      "firstSeen": "2026-10-17T22:55:01+08:00"
+      "firstSeen": "2026-10-17T22:55:01+08:00",
+      "lastRefreshedAt": "2026-10-18T00:27:29.620086+08:00"
     },
     {
       "id": "crocshood",
@@ -5660,7 +5946,7 @@
         "toychain 长期价值不确定",
         "PoW 挖矿收益与代币模型未公开"
       ],
-      "whatsNew": "【续更】官站/推文仍静默 Coming soon；粉续盯。",
+      "whatsNew": "【续更】Sepolia 挖矿可测；@pillheadddd 确认仓鼠轮仍在跑；主币未发。",
       "background": "Hamster-powered proof-of-work toychain on Ethereum (Sepolia). Physical hamster wheel (WHEELY9000) activity verified and settled on-chain. Token has NOT launched yet.",
       "whyWatch": "重点：实体仓鼠+PoW玩具链+预发币测试网，小七点名盯盘；同类实验叙事标杆。",
       "status": "early",
@@ -5695,7 +5981,7 @@
       "firstSeen": "2026-10-17 02:15 CST",
       "earlyScore": 8.8,
       "riskScore": 8.5,
-      "lastRefreshedAt": "2026-10-17T22:08:06+08:00"
+      "lastRefreshedAt": "2026-10-18T00:27:29.620086+08:00"
     },
     {
       "id": "hamster-hour",
@@ -5735,7 +6021,7 @@
         "无法评估真实参与方式",
         "同类仓鼠项目多，竞争与淘汰风险高"
       ],
-      "whatsNew": "【续更】重点同类续盯 early access。",
+      "whatsNew": "【续更】重点同类仓鼠叙事续盯；early access 窗口仍在。",
       "background": "First swarm-built app on squeekchain: bet $IMD on how far the hamster runs in an hour; top 3 split the pot.",
       "whyWatch": "重点类：squeekchain 生态极早期应用 peer；同属实体+链上玩具叙事。",
       "status": "early",
@@ -5768,7 +6054,7 @@
       "onchain": {
         "lastCheckedAt": "2026-10-17T07:51:44.165084+08:00"
       },
-      "lastRefreshedAt": "2026-10-17T22:08:06+08:00"
+      "lastRefreshedAt": "2026-10-18T00:27:29.620086+08:00"
     },
     {
       "id": "ape-blitz",
@@ -8680,7 +8966,7 @@
         "fair-launch 竞争可能激烈",
         "Injective 生态 meme 流动性待验证"
       ],
-      "whatsNew": "【续更】Injective 主网已开；站内 graduated/bonding 可见。",
+      "whatsNew": "【续更】Injective 主网 pad 已 live；bonding/graduated 续观察。",
       "whyWatch": "同类极早期链上发射台（Injective/Ink 风格 bonding fair-launch）；盯主网开台与首批发射。",
       "background": "yore.fun（@yorefun）自称 Injective 上 fair-launch bonding-curve 发射台：无预售、无团队配额，售罄毕业到 swap.yore.fun；已完成 testnet beta，官帖宣布周六 10-17 16:00 UTC 正式上线。",
       "risk": "med",
@@ -8726,7 +9012,7 @@
       "addedAt": "2026-10-16T17:58:26+08:00",
       "firstSeen": "2026-10-16T17:58:26+08:00",
       "flag": "T-11h",
-      "lastRefreshedAt": "2026-10-17T22:08:06+08:00"
+      "lastRefreshedAt": "2026-10-18T00:27:29.620086+08:00"
     },
     {
       "id": "fireworks-ctlg",
