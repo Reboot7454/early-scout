@@ -74,7 +74,8 @@
 - 此类为品类扩展监视，**不是**恢复全量 X 账号时间线监控。
 
 
-## DeepSeek 省用量
-- 例行打分/筛选/亮点缺点/whatsNew/alert → `deepseek-flash`（thinking 开启，勿强制关闭）。
+## DeepSeek 省用量（硬卸载 · 2026-10-17）
+- **必须**用 `deepseek-flash`（thinking **ON**，勿关闭）做全部判断类工作：admit / score / zone 文案草稿 / highlights / whatsNew / alert / summary / dedupe。
+- **执行端只做**：拉信号、跑脚本、改 `data.json`、push、写 RESULT、notify 布尔；不做雷达文案或批量打分推理。
+- **禁止**用高成本模型（含 SuperGrok 等）写雷达 copy 或做 batch scoring。
 - 脚本：`scripts/deepseek_chat.py`、`scripts/ds_batch_score.py`。
-- 执行端只拉信号+推送，避免用 SuperGrok 做长推理。
