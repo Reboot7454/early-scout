@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./styles.css?v=roundfix1" />
+  <link rel="stylesheet" href="./styles.css?v=fav1" />
 </head>
 <body>
   <div class="app">
@@ -23,11 +23,12 @@
     <header class="header">
       <div class="brand">
         <h1>早期打新雷达</h1>
-        <p class="sub">Early Crypto Scout · <span class="focus-inline">重点</span>横条 · 打新 / 挖矿 / 台子·Meme / GO盘 / <span class="lz-inline">LayerZero</span></p>
+        <p class="sub">Early Crypto Scout · <span class="focus-inline">重点</span> · <span class="fav-inline">收藏</span> · 打新 / 挖矿 / 台子·Meme / GO盘 / <span class="lz-inline">LayerZero</span></p>
       </div>
       <div class="meta-pills">
         <span class="pill">候选 <strong id="count">—</strong></span>
         <span class="pill">更新 <strong id="updated">—</strong></span>
+        <button type="button" class="pill pill-fav" id="fav-pill" data-jump-zone="fav-panel" title="跳到收藏条">收藏</button>
         <button type="button" class="pill pill-focus" id="focus-pill" data-jump-zone="focus-panel" title="跳到重点条">重点</button>
         <button type="button" class="pill pill-mining" id="mining-pill" data-jump-zone="mining-panel" title="跳到挖矿列">挖矿</button>
         <button type="button" class="pill pill-go" id="go-pill" data-jump-zone="go-panel" title="跳到 GO盘">GO盘</button>
@@ -98,6 +99,17 @@
           <div class="focus-strip-empty">加载中…</div>
         </div>
       </section>
+
+      <section class="fav-strip" id="fav-panel" aria-label="收藏">
+        <div class="fav-strip-head">
+          <span class="fav-strip-title">收藏</span>
+          <span class="zone-count" id="fav-count">0</span>
+          <span class="fav-strip-sub">个人盯盘 · 本机保存</span>
+        </div>
+        <div class="fav-strip-track" id="fav-grid" aria-live="polite">
+          <div class="fav-strip-empty">点卡片上的☆收藏</div>
+        </div>
+      </section>
     </section>
 
 
@@ -155,6 +167,6 @@
       Scout date 2026-10-15 · 数据来自 <code>data.json</code>（约每 10 分钟更新；刷新页面获取最新） · DYOR · 高风险
     </footer>
   </div>
-  <script src="./app.js?v=roundfix1"></script>
+  <script src="./app.js?v=fav1"></script>
 </body>
 </html>

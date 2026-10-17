@@ -1072,6 +1072,216 @@ button.pill {
   text-underline-offset: 2px;
 }
 
+
+/* 收藏 strip: personal pins (localStorage), near 重点, above .board */
+.fav-inline {
+  color: #fbbf24;
+  font-weight: 700;
+}
+
+.pill-fav {
+  cursor: pointer;
+  border-color: rgba(251, 191, 36, 0.45);
+  color: #fde68a;
+  background: rgba(251, 191, 36, 0.12);
+}
+
+.fav-strip {
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 12px 12px 14px;
+  border: 1px solid rgba(251, 191, 36, 0.42);
+  border-radius: 14px;
+  background: linear-gradient(105deg, rgba(251,191,36,0.12), rgba(251,113,133,0.05) 55%, rgba(13,18,28,0.85));
+  box-shadow: 0 0 0 1px rgba(251, 191, 36, 0.08), 0 10px 28px rgba(251, 191, 36, 0.05);
+  position: relative;
+  z-index: 1;
+  clear: both;
+  min-height: 72px;
+}
+
+.fav-strip-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 10px;
+  margin-bottom: 8px;
+}
+
+.fav-strip-title {
+  font-weight: 800;
+  font-size: 0.95rem;
+  letter-spacing: -0.01em;
+  color: #fde68a;
+}
+
+.fav-strip-sub {
+  font-size: 0.72rem;
+  color: var(--faint);
+  flex: 1 1 8rem;
+}
+
+.fav-strip-track {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: stretch;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 4px;
+  min-height: 56px;
+}
+
+.fav-strip-empty {
+  width: 100%;
+  padding: 10px 4px;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.fav-mini {
+  flex: 0 0 auto;
+  width: min(240px, 78vw);
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(251, 191, 36, 0.35);
+  background: rgba(17, 24, 39, 0.82);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s, transform 0.12s;
+}
+
+.fav-mini:hover {
+  border-color: rgba(251, 191, 36, 0.7);
+  background: rgba(251, 191, 36, 0.1);
+  transform: translateY(-1px);
+}
+
+.fav-mini-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 4px;
+}
+
+.fav-mini-name {
+  font-weight: 750;
+  font-size: 0.9rem;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+  min-width: 0;
+}
+
+.fav-mini-meta {
+  font-size: 0.72rem;
+  color: var(--muted);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 6px;
+}
+
+.fav-mini-why {
+  margin-top: 4px;
+  font-size: 0.72rem;
+  color: #cbd5e1;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.fav-mini-links {
+  margin-top: 6px;
+  display: flex;
+  gap: 8px;
+  font-size: 0.75rem;
+  align-items: center;
+}
+
+.fav-mini-links .fav-x {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--accent-2);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.fav-mini-links .fav-x.disabled {
+  opacity: 0.4;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+/* Star / bookmark toggle on cards & rows */
+.fav-btn {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border-radius: 8px;
+  border: 1px solid rgba(251, 191, 36, 0.28);
+  background: rgba(255, 255, 255, 0.04);
+  color: #94a3b8;
+  font-size: 1.05rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: color 0.12s, border-color 0.12s, background 0.12s, transform 0.1s;
+}
+
+.fav-btn:hover {
+  color: #fbbf24;
+  border-color: rgba(251, 191, 36, 0.55);
+  background: rgba(251, 191, 36, 0.12);
+}
+
+.fav-btn.is-fav {
+  color: #fbbf24;
+  border-color: rgba(251, 191, 36, 0.65);
+  background: rgba(251, 191, 36, 0.18);
+  text-shadow: 0 0 10px rgba(251, 191, 36, 0.45);
+}
+
+.fav-btn:active {
+  transform: scale(0.94);
+}
+
+.card-top-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.actions .fav-btn {
+  width: auto;
+  min-width: 36px;
+  height: 34px;
+  padding: 0 10px;
+}
+
+.mining-row .fav-btn {
+  width: 28px;
+  height: 28px;
+  font-size: 0.95rem;
+  margin-right: 2px;
+}
+
+.fav-mini .fav-btn {
+  width: 28px;
+  height: 28px;
+  font-size: 0.95rem;
+}
+
 /* Focus strip (above board) + five column zones. Narrow: stack 打新 → 挖矿 → 台子/Meme → GO盘 → LayerZero. */
 .board {
   display: flex;

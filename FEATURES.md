@@ -57,6 +57,16 @@
 - 种子：`squeekchain`（首位）· `hamster-hour`。例行可把清晰早期 peer 以 `focus: true` 收入，或至少打 `重点` tag 并记入 `meta.focusWatch`。
 - `meta.focusWatch`：accounts + categoryScan + admitRule；**每轮例行扫描本类**（非整账号时间线监控）。
 
+
+## 6) 收藏（favorites · 客户端）
+
+- 每张卡片 / 挖矿行有 ☆/★ 收藏按钮，一键切换。
+- 「收藏」横条在「重点」下方、五列看板上方；**不依赖轮次筛选**（与重点条同为全局条）。
+- 数据仅存浏览器 `localStorage` 键 `early-scout-favorites`（candidate id 数组）；不改 `data.json` schema。
+- 收藏条展示日程倒计时（复用 `scheduleChip`，≈72h / LIVE）；点击条目或 X 打开 `links.x`。
+- 空态：「点卡片上的☆收藏」。与系统「重点」（`focus:true`）互不混淆。
+
+
 ## 6) 例行扩展关注（非全量 X 监控）
 
 - **TokenWorks Playground**：盯 `@Rhynotic`（兼 `@token_works`）与站 https://playground.token.works/ ——策展小组发射/分账台（ETH+Robinhood）；关注 `launchesEnabled`、首批想法（FWA 配对）、工厂公开部署。归台子/Meme，勿因跨链字样进 LayerZero。

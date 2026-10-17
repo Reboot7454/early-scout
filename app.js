@@ -12,7 +12,49 @@
     query: "",
     sort: "newest",
     nowMs: Date.now(),
+    favorites: [], // candidate ids, client-only (localStorage)
   };
+
+  /** localStorage key for personal favorites (array of candidate id strings). */
+  const FAV_STORAGE_KEY = "early-scout-favorites";
+
+  function loadFavorites() {
+    try {
+      const raw = localStorage.getItem(FAV_STORAGE_KEY);
+      const arr = JSON.parse(raw || "[]");
+      if (!Array.isArray(arr)) return [];
+      return [...new Set(arr.map((id) => String(id)).filter(Boolean))];
+    } catch {
+      return [];
+    }
+  }
+
+  function saveFavorites(ids) {
+    state.favorites = [...ids];
+    try {
+      localStorage.setItem(FAV_STORAGE_KEY, JSON.stringify(state.favorites));
+    } catch {
+      /* quota / private mode — keep in-memory only */
+    }
+  }
+
+  function isFavorite(id) {
+    return state.favorites.includes(String(id));
+  }
+
+  function toggleFavorite(id) {
+    const sid = String(id);
+    let next = state.favorites.slice();
+    if (next.includes(sid)) next = next.filter((x) => x !== sid);
+    else next.push(sid);
+    saveFavorites(next);
+    return next;
+  }
+
+  function favBtnHtml(id) {
+    const on = isFavorite(id);
+    return `<button type="button" class="fav-btn${on ? " is-fav" : ""}" data-fav-toggle="${escapeHtml(String(id))}" title="${on ? "取消收藏" : "收藏"}" aria-label="${on ? "取消收藏" : "收藏"}" aria-pressed="${on ? "true" : "false"}">${on ? "★" : "☆"}</button>`;
+  }
 
   const $ = (sel) => document.querySelector(sel);
   const $$ = (sel) => [...document.querySelectorAll(sel)];
@@ -508,7 +550,10 @@
               ${extraTags}
             </div>
           </div>
-          <span class="round-badge r${c.round}">轮次 ${c.round}</span>
+          <div class="card-top-right">
+            ${favBtnHtml(c.id)}
+            <span class="round-badge r${c.round}">轮次 ${c.round}</span>
+          </div>
         </div>
         ${scores}
         ${wn}
@@ -527,6 +572,7 @@
           <div class="value">${escapeHtml(c.risk)}</div>
         </div>
         <div class="actions">
+          ${favBtnHtml(c.id)}
           <a class="btn ${x ? "" : "disabled"}" href="${x || "#"}" target="_blank" rel="noopener noreferrer">${xIcon()} X</a>
           <a class="btn ${site ? "" : "disabled"}" href="${site || "#"}" target="_blank" rel="noopener noreferrer">${siteIcon()} 官网</a>
         </div>
@@ -729,6 +775,38 @@
       <div class="focus-mini-meta">${chain}${c.category ? " · " + escapeHtml(c.category) : ""}</div>
       ${why ? `<div class="focus-mini-why">${why}</div>` : ""}
       <div class="focus-mini-links">${x}${web}</div>
+    </article>`;
+  }
+
+  /** Favorites strip: user pins from localStorage; independent of round/chip filters (like focus). */
+  function favItems() {
+    if (!state.data || !state.data.candidates) return [];
+    const byId = new Map(state.data.candidates.map((c) => [c.id, c]));
+    const list = [];
+    // Most recently favorited first (array append order → reverse)
+    for (let i = state.favorites.length - 1; i >= 0; i--) {
+      const c = byId.get(state.favorites[i]);
+      if (c) list.push(c);
+    }
+    return list;
+  }
+
+  function favMiniHtml(c) {
+    const chain = escapeHtml(canonicalChain(c.chain) || "—");
+    const xUrl = (c.links && (c.links.twitter || c.links.x)) || "";
+    const sched = scheduleChip(c);
+    const why = escapeHtml((c.whyWatch || c.oneLiner || "").slice(0, 72));
+    const xLink = xUrl
+      ? `<a class="fav-x" href="${escapeHtml(xUrl)}" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation()" title="打开 X">${xIcon()} X</a>`
+      : `<span class="fav-x disabled" title="无推特">X</span>`;
+    return `<article class="fav-mini${isFavorite(c.id) ? " is-fav" : ""}" data-id="${escapeHtml(c.id)}" data-x="${escapeHtml(xUrl || "")}">
+      <div class="fav-mini-top">
+        <div class="fav-mini-name">${escapeHtml(c.name)}</div>
+        ${favBtnHtml(c.id)}
+      </div>
+      <div class="fav-mini-meta">${chain}${c.category ? " · " + escapeHtml(c.category) : ""} ${sched}</div>
+      ${why ? `<div class="fav-mini-why">${why}</div>` : ""}
+      <div class="fav-mini-links">${xLink}</div>
     </article>`;
   }
 
@@ -1045,6 +1123,7 @@
       : "";
     const why = escapeHtml((c.whyWatch || "").slice(0, 72));
     return `<div class="mining-row" data-id="${escapeHtml(c.id)}" title="${why}">
+      ${favBtnHtml(c.id)}
       <div class="mining-row-name">${escapeHtml(c.name)}</div>
       <div class="mining-row-meta">${escapeHtml(canonicalChain(c.chain))}</div>
       <span class="mining-row-type">${escapeHtml(miningTypeLabel(c))}</span>
@@ -1094,6 +1173,23 @@
     return { shown: list.length, total: all.length };
   }
 
+  function renderFavStrip() {
+    const host = $("#fav-grid");
+    const countEl = $("#fav-count");
+    const panel = $("#fav-panel");
+    const list = favItems();
+    if (host) {
+      if (!list.length) {
+        host.innerHTML = `<div class="fav-strip-empty">点卡片上的☆收藏</div>`;
+      } else {
+        host.innerHTML = list.map(favMiniHtml).join("");
+      }
+    }
+    if (countEl) countEl.textContent = String(list.length);
+    if (panel) panel.hidden = false;
+    return { shown: list.length, total: state.favorites.length };
+  }
+
   function renderColumn(zone) {
     const host = $(zone.grid);
     const countEl = $(zone.count);
@@ -1122,21 +1218,25 @@
     renderSchedSoon();
     const counts = {};
     counts.focus = renderFocusStrip();
+    counts.fav = renderFavStrip();
     for (const zone of ZONES) counts[zone.id] = renderColumn(zone);
 
     const pool = state.data.candidates.filter(hasTwitter);
     const total = pool.length;
     const soonN = pool.filter(within24h).length;
+    const favPill = $("#fav-pill");
     const focusPill = $("#focus-pill");
     const minePill = $("#mining-pill");
     const goPill = $("#go-pill");
     const lzPill = $("#lz-pill");
+    if (favPill) favPill.textContent = `收藏 · ${counts.fav.shown}`;
     if (focusPill) focusPill.textContent = `重点 · ${counts.focus.total}`;
     if (minePill) minePill.textContent = `挖矿 · ${counts.mining.total}`;
     if (goPill) goPill.textContent = `GO盘 · ${counts.go.total}`;
     if (lzPill) lzPill.textContent = `LayerZero · ${counts.lz.total}`;
     $("#stats").innerHTML = `
       重点 <b>${counts.focus.shown}</b> ·
+      收藏 <b>${counts.fav.shown}</b> ·
       打新 <b>${counts.scout.shown}</b> ·
       挖矿 <b>${counts.mining.shown}</b> ·
       台子/Meme <b>${counts.meme.shown}</b> ·
@@ -1160,8 +1260,22 @@
     });
 
     document.addEventListener("click", (e) => {
+      const favBtn = e.target.closest("[data-fav-toggle]");
+      if (favBtn) {
+        e.preventDefault();
+        e.stopPropagation();
+        const id = favBtn.dataset.favToggle;
+        if (id) {
+          toggleFavorite(id);
+          render();
+        }
+        return;
+      }
+
       const openX = e.target.closest("[data-x]");
       if (openX && openX.dataset.x) {
+        // Don't steal clicks on nested links / fav buttons
+        if (e.target.closest("a, button, [data-fav-toggle]")) return;
         window.open(openX.dataset.x, "_blank", "noopener");
         return;
       }
@@ -1171,7 +1285,7 @@
         const id = jump.dataset.jump;
         const findTarget = () =>
           document.querySelector(
-            `.card[data-id="${CSS.escape(id)}"], .mining-row[data-id="${CSS.escape(id)}"], .focus-mini[data-id="${CSS.escape(id)}"]`
+            `.card[data-id="${CSS.escape(id)}"], .mining-row[data-id="${CSS.escape(id)}"], .focus-mini[data-id="${CSS.escape(id)}"], .fav-mini[data-id="${CSS.escape(id)}"]`
           );
         const flash = (el) => {
           el.scrollIntoView({ behavior: "smooth", block: "center" });
@@ -1251,6 +1365,7 @@
       const res = await fetch("./data.json?t=" + Date.now(), { cache: "no-store" });
       if (!res.ok) throw new Error("data.json load failed");
       state.data = await res.json();
+      state.favorites = loadFavorites();
       state.nowMs = Date.now();
       $("#updated").textContent = updatedLabel();
       $("#count").textContent = String(state.data.candidates.filter(hasTwitter).length);
