@@ -429,13 +429,16 @@ BACKFILL: dict[str, dict] = {
     },
     "inkbots": {
         "schedule": {
-            "status": "tentative",
+            "status": "live",
             "timezone": "Asia/Shanghai",
-            "startsAt": None,
+            "startsAt": "2026-10-17T15:00:00Z",
             "endsAt": None,
-            "phases": [],
-            "source": "inferred",
-            "note": "GTD 名额开放中；正式 mint 时刻未锁",
+            "phases": [
+                {"name": "GTD", "startsAt": "2026-10-17T15:00:00Z", "price": "0.00069 ETH", "note": "supply cut 888→555"},
+                {"name": "PUBLIC", "startsAt": "2026-10-17T16:00:00Z", "note": "STILL LIVE @InkbotsNFT"},
+            ],
+            "source": "X @InkbotsNFT R178",
+            "note": "PUBLIC STILL LIVE；supply 888→555",
         }
     },
     "fomies": {
@@ -592,6 +595,155 @@ BACKFILL: dict[str, dict] = {
             "note": "引流 WL；正式 mint 未锁（高域名风险）",
         }
     },
+"ulton-genesis": {
+        "schedule": {
+            "status": "live",
+            "timezone": "Asia/Shanghai",
+            "startsAt": "2026-10-17T14:00:00Z",
+            "endsAt": None,
+            "phases": [
+                {"name": "GENESIS", "startsAt": "2026-10-17T14:00:00Z", "price": "450 CRO", "note": "Ebisu Bay MINT LIVE"},
+                {"name": "Public", "startsAt": "2026-10-17T15:09:00Z", "note": "Public mint live"},
+            ],
+            "source": "X @ultonofficial+@EbisusBay R178",
+            "note": "MINT LIVE on Ebisu Bay；999 Ultons；$ULTON",
+        }
+    },
+    "stash-apes": {
+        "schedule": {
+            "status": "live",
+            "timezone": "Asia/Shanghai",
+            "startsAt": "2026-10-17T16:30:00Z",
+            "endsAt": None,
+            "phases": [
+                {"name": "GTD", "startsAt": "2026-10-17T16:30:00Z", "price": "FREE", "note": "ETH · @STASHAPES live"},
+            ],
+            "source": "X @STASHAPES R178",
+            "note": "Stash GTD LIVE · FREE ETH",
+        }
+    },
+    "requiem-hardware": {
+        "schedule": {
+            "status": "live",
+            "timezone": "Asia/Shanghai",
+            "startsAt": "2026-10-17T17:00:00Z",
+            "endsAt": None,
+            "phases": [
+                {"name": "GTD", "startsAt": "2026-10-17T17:00:00Z", "price": "$1"},
+                {"name": "WL/FCFS", "price": "$1.5"},
+                {"name": "Public", "price": "$2"},
+            ],
+            "source": "X @rhlaptops R178",
+            "note": "官宣 10-17 17:00UTC/01:00CST OpenSea ETH；supply999",
+        }
+    },
+    "pixel-cores": {
+        "schedule": {
+            "status": "upcoming",
+            "timezone": "Asia/Shanghai",
+            "startsAt": "2026-10-17T18:00:00Z",
+            "endsAt": None,
+            "phases": [
+                {"name": "Mint", "startsAt": "2026-10-17T18:00:00Z", "note": "18:00 UTC · Robinhood · First 200 Wallet"},
+            ],
+            "source": "X @PixelCoresHQ R178",
+            "note": "Mint 02:00CST / 18:00UTC；1111 cores RH",
+        }
+    },
+    "amnt-io": {
+        "schedule": {
+            "status": "upcoming",
+            "timezone": "Asia/Shanghai",
+            "startsAt": "2026-10-17T19:30:00Z",
+            "endsAt": None,
+            "phases": [
+                {"name": "Whale Traders mint", "startsAt": "2026-10-17T19:30:00Z", "note": "2222 on Hedera · WL 10/holder"},
+            ],
+            "source": "X @Amnt_io R178",
+            "note": "Whale Traders 03:30CST / 19:30UTC Hedera",
+        }
+    },
+    "fairhatch": {
+        "schedule": {
+            "status": "confirmed",
+            "timezone": "Asia/Shanghai",
+            "startsAt": "2026-10-18T14:00:00Z",
+            "endsAt": None,
+            "phases": [
+                {"name": "Public testnet", "startsAt": "2026-10-18T14:00:00Z", "note": "Oct 18 · 14:00 UTC；7 missions"},
+            ],
+            "source": "X @FairHatch R178",
+            "note": "公测网 22:00CST / 14:00UTC；Robinhood Chain",
+        }
+    },
+    "hooddomains": {
+        "schedule": {
+            "status": "tentative",
+            "timezone": "Asia/Shanghai",
+            "startsAt": None,
+            "endsAt": None,
+            "phases": [
+                {"name": ".stock launchpad", "note": "官推 Oct17 称 tomorrow≈10-18；精确时刻未锁"},
+            ],
+            "source": "X @hooddomains R178",
+            "note": ".stock launchpad 约10-18；精确时刻未官宣，不编造",
+        }
+    },
+    "influence": {
+        "schedule": {
+            "status": "live",
+            "timezone": "Asia/Shanghai",
+            "startsAt": "2026-10-17T15:00:00Z",
+            "endsAt": None,
+            "phases": [
+                {"name": "Token/SocialFi", "startsAt": "2026-10-17T15:06:00Z", "note": "RH 合约 LIVE"},
+                {"name": "Staking S1", "startsAt": "2026-10-17T16:54:00Z", "note": "staking+tipping live"},
+            ],
+            "source": "X @Influencefamily R178",
+            "note": "RH SocialFi+Staking LIVE",
+        }
+    },
+    "glitch-gang": {
+        "schedule": {
+            "status": "live",
+            "timezone": "Asia/Shanghai",
+            "startsAt": "2026-10-17T15:22:00Z",
+            "endsAt": None,
+            "phases": [
+                {"name": "PUBLIC", "startsAt": "2026-10-17T15:22:00Z", "price": "FREE", "note": "supply555·3/wallet"},
+            ],
+            "source": "X @GlitchGang_ R178",
+            "note": "FREE PUBLIC LIVE",
+        }
+    },
+    "yorefun": {
+        "schedule": {
+            "status": "live",
+            "timezone": "Asia/Shanghai",
+            "startsAt": "2026-10-17T16:00:00Z",
+            "endsAt": None,
+            "phases": [
+                {"name": "Mainnet live", "startsAt": "2026-10-17T16:00:00Z", "note": "Injective · 4PM UTC"},
+            ],
+            "source": "X @yorefun R178",
+            "note": "yore.fun LIVE on Injective",
+        }
+    },
+    "world-of-meme": {
+        "schedule": {
+            "status": "confirmed",
+            "timezone": "Asia/Shanghai",
+            "startsAt": "2026-10-20T12:00:00Z",
+            "endsAt": None,
+            "phases": [
+                {"name": "TEAM", "startsAt": "2026-10-20T12:00:00Z", "price": "FREE", "perWallet": 33, "note": "≈20:00CST"},
+                {"name": "WL", "startsAt": "2026-10-20T12:30:00Z", "note": "后续价以官帖为准"},
+            ],
+            "source": "X @WomeOnRH R178",
+            "note": "Genesis Pack≈10-20；官推 3 days left(10-17)",
+        }
+    },
+
 }
 
 
@@ -615,16 +767,27 @@ def apply_backfill(data: dict) -> dict:
         patch = BACKFILL.get(c["id"])
         if not patch:
             continue
-        if "schedule" in patch and "schedule" not in c:
+        existing = c.get("schedule") or {}
+        # Never clobber terminal / fresher scout schedules with stale map entries.
+        if existing.get("status") in ("sold_out", "ended", "cancelled"):
+            pass
+        elif "schedule" in patch and "schedule" not in c:
             c["schedule"] = deepcopy(patch["schedule"])
             n_sched += 1
         elif "schedule" in patch:
-            # refresh with evidence map (idempotent overwrite of schedule block only)
-            c["schedule"] = deepcopy(patch["schedule"])
-            n_sched += 1
+            ex_src = str(existing.get("source") or "")
+            patch_src = str(patch["schedule"].get("source") or "")
+            # Prefer Rxxx scout sources over generic "inferred" when already filled.
+            if ex_src and "inferred" in patch_src and "inferred" not in ex_src and existing.get("status"):
+                pass
+            else:
+                c["schedule"] = deepcopy(patch["schedule"])
+                n_sched += 1
         if "onchain" in patch:
-            c["onchain"] = deepcopy(patch["onchain"])
-            n_onchain += 1
+            # keep richer onchain notes if already sold_out archived
+            if existing.get("status") not in ("sold_out", "ended", "cancelled"):
+                c["onchain"] = deepcopy(patch["onchain"])
+                n_onchain += 1
     return data, n_sched, n_onchain
 
 

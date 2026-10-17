@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-18 00:46 CST",
+    "updated": "2026-10-18 01:07 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "R178: Elysium watchlist fill — +pindar-finance,purrcade-games,neuriio; AscendLaunch focus★5; Eloscape score↑★4",
-    "lastScout": "2026-10-18 00:46 CST",
+    "source": "R178 cont: +stonkrobbers；日程核验 ULTON/Inkbots/Influence/Glitch/yore/STASH/Requiem→live，PixelCores≈02:00CST，AMNT≈03:30CST，FairHatch 22:00CST，WOME 10-20；HD .stock 约10-18无精确时刻",
+    "lastScout": "2026-10-18 01:07 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -408,7 +408,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 474,
+    "candidateCount": 475,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -814,10 +814,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "holdfast",
-      "grad",
-      "rhhoods",
-      "ponperp"
+      "stonkrobbers"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1147,7 +1144,8 @@
       "holdfast",
       "grad",
       "rhhoods",
-      "ponperp"
+      "ponperp",
+      "stonkrobbers"
     ]
   },
   "candidates": [
@@ -1203,7 +1201,7 @@
       "whatsNew": "在Meteora DBC上做conviction与反狙击锁，处于devnet极早期。",
       "whyWatch": null,
       "round": 178,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-18 00:46 CST",
       "firstSeen": "2026-10-18 00:46 CST",
       "mintStatus": "devnet",
@@ -1268,7 +1266,7 @@
       "whatsNew": "以Pons毕业雷达切入Robinhood生态，$GRAD已上线但产品尚早。",
       "whyWatch": null,
       "round": 178,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-18 00:46 CST",
       "firstSeen": "2026-10-18 00:46 CST",
       "mintStatus": "live",
@@ -1334,7 +1332,7 @@
       "whatsNew": "在Robinhood链上推出9999个NFT，几乎无人关注。",
       "whyWatch": null,
       "round": 178,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-18 00:46 CST",
       "firstSeen": "2026-10-18 00:46 CST",
       "mintStatus": "upcoming",
@@ -1400,7 +1398,7 @@
       "whatsNew": "在Robinhood链上推出永续合约交易，并暗示积分空投。",
       "whyWatch": null,
       "round": 178,
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-18 00:46 CST",
       "firstSeen": "2026-10-18 00:46 CST",
       "mintStatus": "early",
@@ -4697,7 +4695,7 @@
         "免费mint"
       ],
       "status": "upcoming",
-      "mintStatus": "upcoming",
+      "mintStatus": "live",
       "lzVerified": false,
       "focus": false,
       "flag": "upcoming",
@@ -4707,16 +4705,17 @@
         "status": "live",
         "timezone": "Asia/Shanghai",
         "startsAt": "2026-10-17T15:22:00Z",
+        "endsAt": null,
         "phases": [
           {
             "name": "PUBLIC",
+            "startsAt": "2026-10-17T15:22:00Z",
             "price": "FREE",
             "note": "supply555·3/wallet"
           }
         ],
-        "source": "X R175",
-        "note": "FREE PUBLIC LIVE 续",
-        "mintStatus": "live"
+        "source": "X @GlitchGang_ R178",
+        "note": "FREE PUBLIC LIVE"
       },
       "id": "glitch-gang",
       "round": 145,
@@ -9592,7 +9591,7 @@
       "category": "新台",
       "chain": "Injective",
       "status": "upcoming",
-      "mintStatus": "upcoming",
+      "mintStatus": "live",
       "riskLevel": "high",
       "tags": [
         "新台",
@@ -9636,16 +9635,17 @@
       "schedule": {
         "status": "live",
         "timezone": "Asia/Shanghai",
-        "startsAt": "2026-10-18T00:00:00+08:00",
+        "startsAt": "2026-10-17T16:00:00Z",
+        "endsAt": null,
         "phases": [
           {
             "name": "Mainnet live",
-            "note": "Injective 主网已开；bonding+graduated 可见"
+            "startsAt": "2026-10-17T16:00:00Z",
+            "note": "Injective · 4PM UTC"
           }
         ],
-        "source": "R175 refresh",
-        "note": "主网已 live（本轮核验 yore.fun）",
-        "mintStatus": "live"
+        "source": "X @yorefun R178",
+        "note": "yore.fun LIVE on Injective"
       },
       "onchain": {
         "chainId": "injective",
@@ -10232,24 +10232,23 @@
         "status": "confirmed",
         "timezone": "Asia/Shanghai",
         "startsAt": "2026-10-20T12:00:00Z",
+        "endsAt": null,
         "phases": [
           {
             "name": "TEAM",
             "startsAt": "2026-10-20T12:00:00Z",
             "price": "FREE",
             "perWallet": 33,
-            "note": "Trencher TEAM FREE"
+            "note": "≈20:00CST"
           },
           {
             "name": "WL",
             "startsAt": "2026-10-20T12:30:00Z",
-            "price": "0.0016 ETH?",
-            "perWallet": 2,
             "note": "后续价以官帖为准"
           }
         ],
-        "source": "Trencher/OS/X R138",
-        "note": "TEAM≈10-20 20:00CST"
+        "source": "X @WomeOnRH R178",
+        "note": "Genesis Pack≈10-20；官推 3 days left(10-17)"
       },
       "highlights": [
         "Trencher 已写明 TEAM FREE×33（≈10-20 20:00 CST）",
@@ -14294,17 +14293,22 @@
         "status": "live",
         "timezone": "Asia/Shanghai",
         "startsAt": "2026-10-17T15:00:00Z",
-        "endsAt": "2026-10-17T15:30:00Z",
+        "endsAt": null,
         "phases": [
           {
-            "name": "GTD/PUBLIC",
+            "name": "GTD",
+            "startsAt": "2026-10-17T15:00:00Z",
             "price": "0.00069 ETH",
-            "note": "supply 888；GTD LIVE"
+            "note": "supply cut 888→555"
+          },
+          {
+            "name": "PUBLIC",
+            "startsAt": "2026-10-17T16:00:00Z",
+            "note": "STILL LIVE @InkbotsNFT"
           }
         ],
-        "source": "X R175",
-        "note": "PUBLIC PHASE LIVE",
-        "mintStatus": "live"
+        "source": "X @InkbotsNFT R178",
+        "note": "PUBLIC STILL LIVE；supply 888→555"
       },
       "highlights": [
         "今日 GTD 开打，时间明确",
@@ -14326,7 +14330,7 @@
         "composite": 6.6
       },
       "status": "upcoming",
-      "mintStatus": "upcoming",
+      "mintStatus": "live",
       "social": {
         "xFollowers": 5567,
         "lastCheckedAt": "2026-10-17T15:10:24+08:00"
@@ -14617,9 +14621,10 @@
       "status": "upcoming",
       "mintStatus": "upcoming",
       "schedule": {
-        "status": "upcoming",
+        "status": "confirmed",
         "timezone": "Asia/Shanghai",
         "startsAt": "2026-10-18T14:00:00Z",
+        "endsAt": null,
         "phases": [
           {
             "name": "Public testnet",
@@ -14627,8 +14632,8 @@
             "note": "Oct 18 · 14:00 UTC；7 missions"
           }
         ],
-        "source": "@FairHatch R144",
-        "note": "公测网≈10-18 22:00CST"
+        "source": "X @FairHatch R178",
+        "note": "公测网 22:00CST / 14:00UTC；Robinhood Chain"
       }
     },
     {
@@ -23669,15 +23674,21 @@
         "status": "live",
         "timezone": "Asia/Shanghai",
         "startsAt": "2026-10-17T15:00:00Z",
+        "endsAt": null,
         "phases": [
           {
-            "name": "Fan Markets / token",
-            "note": "≈23:00CST 窗口"
+            "name": "Token/SocialFi",
+            "startsAt": "2026-10-17T15:06:00Z",
+            "note": "RH 合约 LIVE"
+          },
+          {
+            "name": "Staking S1",
+            "startsAt": "2026-10-17T16:54:00Z",
+            "note": "staking+tipping live"
           }
         ],
-        "source": "R175 refresh",
-        "note": "RH SocialFi 合约 LIVE",
-        "mintStatus": "live"
+        "source": "X @Influencefamily R178",
+        "note": "RH SocialFi+Staking LIVE"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -23703,7 +23714,7 @@
       "firstSeen": "2026-10-16T20:49:26.581975+08:00",
       "round": 87,
       "status": "watching",
-      "mintStatus": "upcoming"
+      "mintStatus": "live"
     },
     {
       "id": "florin",
@@ -25256,15 +25267,17 @@
       "schedule": {
         "status": "upcoming",
         "timezone": "Asia/Shanghai",
-        "startsAt": "2026-10-17T18:00:00+00:00",
+        "startsAt": "2026-10-17T18:00:00Z",
+        "endsAt": null,
         "phases": [
           {
             "name": "Mint",
-            "note": "18:00 UTC；Drop Wallet First 300"
+            "startsAt": "2026-10-17T18:00:00Z",
+            "note": "18:00 UTC · Robinhood · First 200 Wallet"
           }
         ],
-        "source": "@PixelCoresHQ",
-        "note": "本轮新；Mint 明日18:00UTC"
+        "source": "X @PixelCoresHQ R178",
+        "note": "Mint 02:00CST / 18:00UTC；1111 cores RH"
       },
       "onchain": {
         "chainId": "robinhood",
@@ -25727,7 +25740,7 @@
       "addedAt": "2026-10-17T00:34:41.608788+08:00",
       "firstSeen": "2026-10-17T00:34:41.608788+08:00",
       "status": "upcoming",
-      "mintStatus": "upcoming",
+      "mintStatus": "live",
       "riskLevel": "medium",
       "scores": {
         "early": 7,
@@ -25754,19 +25767,20 @@
         "signal": "https://x.com/STASHAPES/status/2111132865077682211"
       },
       "schedule": {
-        "status": "upcoming",
+        "status": "live",
         "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-17T16:30:00Z",
+        "endsAt": null,
         "phases": [
           {
-            "name": "PUBLIC",
+            "name": "GTD",
+            "startsAt": "2026-10-17T16:30:00Z",
             "price": "FREE",
-            "note": "ETH"
+            "note": "ETH · @STASHAPES live"
           }
         ],
-        "source": "X+NB R175",
-        "note": "≈00:30CST FREE ETH；官推已放 OS mint link",
-        "mintStatus": "upcoming",
-        "startsAt": "2026-10-17T16:30:00Z"
+        "source": "X @STASHAPES R178",
+        "note": "Stash GTD LIVE · FREE ETH"
       },
       "onchain": {
         "chainId": "ethereum",
@@ -26925,7 +26939,7 @@
       "chain": "Ethereum",
       "category": "NFT",
       "status": "upcoming",
-      "mintStatus": "upcoming",
+      "mintStatus": "live",
       "tags": [
         "ETH",
         "NFT",
@@ -26939,12 +26953,14 @@
         "mint": "https://opensea.io"
       },
       "schedule": {
-        "status": "upcoming",
+        "status": "live",
         "timezone": "Asia/Shanghai",
         "startsAt": "2026-10-17T17:00:00Z",
+        "endsAt": null,
         "phases": [
           {
             "name": "GTD",
+            "startsAt": "2026-10-17T17:00:00Z",
             "price": "$1"
           },
           {
@@ -26956,9 +26972,8 @@
             "price": "$2"
           }
         ],
-        "source": "X+NB R175",
-        "note": "≈01:00CST ETH OpenSea GTD$1",
-        "mintStatus": "upcoming"
+        "source": "X @rhlaptops R178",
+        "note": "官宣 10-17 17:00UTC/01:00CST OpenSea ETH；supply999"
       },
       "scores": {
         "early": 7.0,
@@ -27839,22 +27854,28 @@
         "极早期",
         "打新"
       ],
-      "mintStatus": "upcoming",
+      "mintStatus": "live",
       "status": "upcoming",
       "schedule": {
-        "status": "upcoming",
+        "status": "live",
         "timezone": "Asia/Shanghai",
         "startsAt": "2026-10-17T14:00:00Z",
+        "endsAt": null,
         "phases": [
           {
             "name": "GENESIS",
             "startsAt": "2026-10-17T14:00:00Z",
             "price": "450 CRO",
-            "note": "NorthBound；官网仍Coming soon on Ebisu's Bay"
+            "note": "Ebisu Bay MINT LIVE"
+          },
+          {
+            "name": "Public",
+            "startsAt": "2026-10-17T15:09:00Z",
+            "note": "Public mint live"
           }
         ],
-        "source": "NorthBound R141",
-        "note": "NorthBound≈10-17 22:00CST 450CRO supply999；官站仍Coming soon on Ebisu Bay；@ultonofficial"
+        "source": "X @ultonofficial+@EbisusBay R178",
+        "note": "MINT LIVE on Ebisu Bay；999 Ultons；$ULTON"
       },
       "links": {
         "x": "https://x.com/ultonofficial",
@@ -27912,15 +27933,17 @@
       "schedule": {
         "status": "upcoming",
         "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-17T19:30:00Z",
+        "endsAt": null,
         "phases": [
           {
-            "name": "Beta live",
-            "note": "AI agent + NFT Studio + x402"
+            "name": "Whale Traders mint",
+            "startsAt": "2026-10-17T19:30:00Z",
+            "note": "2222 on Hedera · WL 10/holder"
           }
         ],
-        "source": "NB R174",
-        "note": "Whale Traders NB≈03:30CST+1 Hedera",
-        "startsAt": "2026-10-17T19:30:00Z"
+        "source": "X @Amnt_io R178",
+        "note": "Whale Traders 03:30CST / 19:30UTC Hedera"
       },
       "links": {
         "x": "https://x.com/amnt_io",
@@ -28809,17 +28832,18 @@
       "lzVerified": null,
       "focus": false,
       "schedule": {
-        "status": "upcoming",
+        "status": "tentative",
         "timezone": "Asia/Shanghai",
-        "startsAt": "2026-10-17T16:00:00Z",
+        "startsAt": null,
+        "endsAt": null,
         "phases": [
           {
             "name": ".stock launchpad",
-            "note": "官推 tomorrow（约10-18）；以@hooddomains为准"
+            "note": "官推 Oct17 称 tomorrow≈10-18；精确时刻未锁"
           }
         ],
-        "source": "stocks.hood.domains+X @hooddomains R141",
-        "note": ".stock launchpad官宣tomorrow；拍卖≈32/200；≈1796粉；@hooddomains"
+        "source": "X @hooddomains R178",
+        "note": ".stock launchpad 约10-18；精确时刻未官宣，不编造"
       },
       "round": 133,
       "newThisRound": false,
@@ -33323,6 +33347,83 @@
       "addedAt": "2026-10-17 23:33 CST",
       "firstSeen": "2026-10-17 23:33 CST",
       "ecosystem": "Elysium"
+    },
+    {
+      "id": "stonkrobbers",
+      "name": "StonkRobbers",
+      "category": "打新",
+      "chain": "Ethereum",
+      "links": {
+        "x": "https://x.com/stonkrobbers",
+        "signal": "https://x.com/stonkrobbers/status/2111476317308776850"
+      },
+      "focus": false,
+      "lzVerified": false,
+      "tags": [
+        "打新",
+        "极早期",
+        "本轮新",
+        "NFT",
+        "RWA",
+        "gacha",
+        "Ethereum"
+      ],
+      "status": "early",
+      "riskLevel": "high",
+      "ecosystem": null,
+      "source": "X+DS R178 stonkrobbers",
+      "scores": {
+        "early": 88,
+        "actionable": 68,
+        "novelty": 66,
+        "risk": 38,
+        "overall": 69,
+        "composite": 6.9,
+        "raw100": {
+          "early": 88,
+          "actionable": 68,
+          "novelty": 66,
+          "risk": 38,
+          "overall": 69
+        }
+      },
+      "highlights": [
+        "2025-10 才建号，mint 时间未定，属于最早期窗口",
+        "RWA 资产背书 + 运气/技巧混合 mint，玩法叙事区别于纯 PFP",
+        "100% 代币回馈玩家，Uniswap v4/gacha 机制有记忆点",
+        "社群仅约 2.1k 粉、WL 讨论升温但未过热，尚在低竞争区"
+      ],
+      "drawbacks": [
+        "mint 时间 TBA，暂无明确可执行动作，只能先占 WL",
+        "团队仅 @madame1829 单点露出，背景与背书待核实",
+        "RWA 背书与“100% 回馈”均为自述，缺少链上或审计证据",
+        "NFT 打新整体流动性差，开图后易快速降温"
+      ],
+      "whatsNew": "主打 RWA 背书的掠夺主题 NFT 首次放出 gamified mint 与 Uniswap v4 gacha 玩法框架。",
+      "whyWatch": "pull.play.mint + RWA/gacha 叙事；mint TBA，先盯 WL/官推。",
+      "background": "StonkRobbers（@stonkrobbers）：stock-robber 主题 NFT；bio「built for robbers」；≈2146 粉蓝V；团队侧 @madame1829 强调 RWA、Uniswap v4、gacha、100% tokens to players。",
+      "round": 178,
+      "newThisRound": true,
+      "addedAt": "2026-10-18 01:07 CST",
+      "firstSeen": "2026-10-18 01:07 CST",
+      "mintStatus": "upcoming",
+      "alert": null,
+      "social": {
+        "handle": "@stonkrobbers",
+        "followers": 2146
+      },
+      "earlyScore": 88,
+      "riskScore": 38,
+      "risk": "high",
+      "schedule": {
+        "status": "tba",
+        "timezone": "Asia/Shanghai",
+        "startsAt": null,
+        "endsAt": null,
+        "phases": [],
+        "source": "X+DS R178",
+        "note": "mint 时刻未官宣；gamified WL/pull.play.mint"
+      }
     }
   ]
 }
