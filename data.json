@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-19 07:46 CST",
+    "updated": "2026-10-19 07:59 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "R248 full scout X+Elysium eco+DS；Discord deferred",
-    "lastScout": "2026-10-19T07:46:43.602410+08:00",
+    "lastScout": "2026-10-19 07:59 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -289,7 +289,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 259,
+    "round": 260,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -366,7 +366,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 711,
+    "candidateCount": 713,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -1393,9 +1393,10 @@
       },
       "discordAlphaPeek": {
         "enabled": true,
-        "deferred": true,
-        "note": "R256: skipped-no-login；R255他号DC Peek已收cowlhq，本轮照收不覆盖",
-        "lastChecked": "2026-10-19 06:40 CST"
+        "deferred": false,
+        "note": "R260: Discord Peek 补漏；new=2",
+        "lastChecked": "2026-10-19 07:53 CST",
+        "lastSeen": "2026-10-19 07:51 CST"
       },
       "r241": {
         "added": [
@@ -1791,7 +1792,7 @@
     ],
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "R248: Discord不登录 deferred=true；Trencher未抓；X gap收 oath-network+order-of-none；TapeFlow无独立官推skip；TapeOutCF skip",
-    "discordAlphaPeek": "R259: 无新于R258的DISCORD_PEEK文件；deferred=true（本端不登录DC）",
+    "discordAlphaPeek": "R260: lastSeen→2026-10-19 07:51 CST；newAdmits=2",
     "round239Added": [
       "tsunamilaunch",
       "ink-chickens",
@@ -1904,6 +1905,10 @@
     ],
     "round259Added": [
       "catzindahood"
+    ],
+    "round260Added": [
+      "private-inu-zec",
+      "turnz-launch"
     ]
   },
   "candidates": [
@@ -1964,7 +1969,7 @@
         "DS score R259"
       ],
       "round": 259,
-      "newThisRound": true,
+      "newThisRound": false,
       "firstSeen": "2026-10-19 07:46 CST",
       "addedAt": "2026-10-19 07:46 CST",
       "lastChecked": "2026-10-19 07:46 CST",
@@ -52066,6 +52071,79 @@
       "followers": 9,
       "source": "discord-alpha-peek R258",
       "lastChecked": "2026-10-19 07:46 CST"
+    },
+    {
+      "id": "private-inu-zec",
+      "name": "Private Inu",
+      "handle": "@PrivateInuZec",
+      "category": "台子/Meme",
+      "chain": "Zcash",
+      "tags": [
+        "discord-alpha",
+        "极早期",
+        "Meme",
+        "Zcash",
+        "隐私",
+        "台子/Meme"
+      ],
+      "round": 260,
+      "newThisRound": true,
+      "focus": false,
+      "lzVerified": false,
+      "links": {
+        "x": "https://x.com/PrivateInuZec"
+      },
+      "scores": {
+        "early": 95,
+        "actionable": 35,
+        "novelty": 65,
+        "risk": 80,
+        "overall": 59
+      },
+      "highlights": "Zcash 隐私叙事 Meme；与 Sapling/Zcash 绑定；关注度极低，属于极早期观察标的。",
+      "drawbacks": "仅 1 关注者；无官网；合约、流动性、团队信息缺失；退出与安全风险高。",
+      "whatsNew": "刚在 Sapling 上线并与 Zcash 配对，尚未形成社区与有效交易深度。",
+      "bio": "Zcash 隐私主题 Meme，在 Sapling 上线并与 Zcash 配对。",
+      "followers": 1,
+      "source": "discord-alpha-peek R260",
+      "lastChecked": "2026-10-19 07:59 CST"
+    },
+    {
+      "id": "turnz-launch",
+      "name": "TURNZ",
+      "handle": "@Turnzlaunch",
+      "category": "台子/Meme",
+      "chain": "Robinhood Chain",
+      "tags": [
+        "discord-alpha",
+        "极早期",
+        "Meme",
+        "Robinhood Chain",
+        "AI",
+        "台子/Meme"
+      ],
+      "round": 260,
+      "newThisRound": true,
+      "focus": false,
+      "lzVerified": false,
+      "links": {
+        "x": "https://x.com/Turnzlaunch",
+        "site": "https://turnpitch.fun/"
+      },
+      "scores": {
+        "early": 90,
+        "actionable": 55,
+        "novelty": 70,
+        "risk": 68,
+        "overall": 66
+      },
+      "highlights": "AI 教练盲投竞技概念；$TURNZ 部署于 Robinhood Chain；已有官网入口；玩法叙事较新。",
+      "drawbacks": "0 关注者；机制与资金池分润需核验；链上数据、合约审计与团队信息不足；高风险。",
+      "whatsNew": "AI 盲投竞技 + 资金池分润玩法上线，$TURNZ 绑定 Robinhood Chain，官网已可访问。",
+      "bio": "4 个 AI 教练，你的币盲投，让它们转向并从池中获得收益。$TURNZ · Robinhood Chain",
+      "followers": 0,
+      "source": "discord-alpha-peek R260",
+      "lastChecked": "2026-10-19 07:59 CST"
     }
   ],
   "newThisRound": [

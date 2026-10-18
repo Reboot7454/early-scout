@@ -1,0 +1,102 @@
+{
+  "round": 260,
+  "completedAt": "2026-10-19 07:59 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "discord-alpha-peek-only",
+  "adoptedRound": true,
+  "adoptNote": "pull后 remote 已占 R259，本轮 Discord 补漏升格为260",
+  "notify": true,
+  "notifyReason": "Discord Peek gap-fill real new admits",
+  "alertMessage": "【R260 Discord Peek补漏】新增2个：Private Inu（台子/Meme·Zcash）、TURNZ（台子/Meme·Robinhood Chain），面板见 https://reboot7454.github.io/early-scout/",
+  "summary": "R260 Discord alpha 补漏：新收录 2（private-inu-zec, turnz-launch）；拒 7；跳过已有 @Perpadtrade；仅 DC Peek，未跑全量网页雷达。lastSeen→2026-10-19 07:51 CST。",
+  "newAdmits": [
+    {
+      "id": "private-inu-zec",
+      "name": "Private Inu",
+      "handle": "@PrivateInuZec",
+      "category": "台子/Meme",
+      "chain": "Zcash",
+      "followers": 1
+    },
+    {
+      "id": "turnz-launch",
+      "name": "TURNZ",
+      "handle": "@Turnzlaunch",
+      "category": "台子/Meme",
+      "chain": "Robinhood Chain",
+      "followers": 0
+    }
+  ],
+  "rejected": [
+    {
+      "handle": "@NenrinLabs",
+      "reason": "AI代理信贷/借贷 DeFi，非打新·挖矿·台子发射·GO/LZ/Elysium 可操作栏目；无代币发射路径"
+    },
+    {
+      "handle": "@Nogasonsui",
+      "reason": "845粉但无官网、无清晰发射证据，bio仅口号，无法确认可操作性"
+    },
+    {
+      "handle": "@popify_xyz",
+      "reason": "0粉且无官网，虽有Cardano发射描述但缺乏清晰发射证据，不满足0粉收录条件"
+    },
+    {
+      "handle": "@ShippedWorld",
+      "reason": "0粉且无官网，无清晰发射证据，不满足0粉收录条件"
+    },
+    {
+      "handle": "@trymaskmode",
+      "reason": "6粉但无官网，bio提及Solana ZK隐私池但无清晰发射证据，不满足收录条件"
+    },
+    {
+      "handle": "@0xmeridex",
+      "reason": "0粉且无官网，无清晰发射证据，不满足0粉收录条件"
+    },
+    {
+      "handle": "@GTA6_PONS",
+      "reason": "2粉且无官网，bio仅称GTA6币但无清晰发射证据(无合约/链接)，不满足收录条件"
+    }
+  ],
+  "skippedMature": [],
+  "skippedPersonalOrShell": [
+    {
+      "handle": "@CVResearch_",
+      "reason": "stock-research newsletter, not an early crypto product; under 5k so not mature bucket"
+    },
+    {
+      "handle": "@m_zerouali",
+      "reason": "personal, bio is a job title"
+    },
+    {
+      "handle": "@Sybol475",
+      "reason": "personal mod/builder, no project"
+    },
+    {
+      "handle": "@jiyf198568",
+      "reason": "shell/personal, empty bio"
+    },
+    {
+      "handle": "@SoberaniaDgtl",
+      "reason": "personal newsletter (boletín), not a product; bio ends as shown"
+    },
+    {
+      "handle": "@apollosweb3",
+      "reason": "education/content account, not a launch product"
+    },
+    {
+      "handle": "@ayou775",
+      "reason": "personal; embed bio clipped at 'come try th'"
+    }
+  ],
+  "skippedAlreadyIn": [
+    "@Perpadtrade"
+  ],
+  "discordPeekDeferred": false,
+  "lastSeen": "2026-10-19 07:51 CST",
+  "dsUsage": {
+    "admit": "deepseek-flash thinkingOn+thinkingOffFallback",
+    "score": "deepseek-flash thinkingOn",
+    "alert": "deepseek-flash thinkingOff"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
