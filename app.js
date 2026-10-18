@@ -333,7 +333,12 @@
     return false;
   }
 
-  /** Elysium / Enter_Elysium ecosystem — mutual-exclusive 6th column (like LayerZero). */
+  /** Elysium / Enter_Elysium ecosystem — mutual-exclusive 6th column (like LayerZero).
+   *  Admit: column / tag `Elysium生态` only for On testnet, or Announced with a
+   *  concrete Elysium deployment, on https://elysium.kinetiq.xyz/ecosystem.
+   *  Exploring, "considering", or vague Hyperliquid adjacency is not enough.
+   *  PerpMe stays out by user decision even though that page lists it On testnet.
+   */
   function isElysium(c) {
     if (!c) return false;
     const eco = String(c.ecosystem || "").toLowerCase();
