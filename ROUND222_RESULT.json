@@ -1,11 +1,11 @@
 {
   "round": 222,
-  "completedAt": "2026-10-18 15:25:21 CST",
+  "completedAt": "2026-10-18 15:26:30 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
-  "notifyReason": "真新收录 ff-robin-cats；且≤2h可操作：zany/skills/oozlings仍开 + skulls≈15:55-17:00 + smarties≈17:00",
-  "alertMessage": "新收录 Fast Food Robin Cats；≤2h 窗口：zany/skills/oozlings 仍开、skulls 即将、smarties≈17:00，详见 https://reboot7454.github.io/early-scout/",
-  "summary": "新项目 Fast Food Robin Cats 已收录，另有多个 ≤2h 窗口项目待关注。",
+  "notifyReason": "真新收录 ff-robin-cats + shielded-nakas + solemn-trollbox；且≤2h：zany/skills/oozlings仍开 + skulls≈15:55-17:00 + smarties≈17:00",
+  "alertMessage": "新收录3个，另有≤2h窗口，详情见 https://reboot7454.github.io/early-scout/",
+  "summary": "新收录3个，≤2h有zany/skills/oozlings、skulls、smarties。",
   "newAdmits": [
     {
       "id": "ff-robin-cats",
@@ -14,6 +14,22 @@
       "chain": "Robinhood",
       "handle": "@FFRobinCats",
       "followers": 266
+    },
+    {
+      "id": "shielded-nakas",
+      "name": "Shielded Nakas / Shielded-NakaPunks",
+      "zone": "打新",
+      "chain": "Bitcoin",
+      "handle": "@ShieldedNaka",
+      "followers": 3203
+    },
+    {
+      "id": "solemn-trollbox",
+      "name": "Solemn / Trollbox (Shielded Trolls)",
+      "zone": "打新",
+      "chain": "Bitcoin",
+      "handle": "@strangersolemn",
+      "followers": 25850
     }
   ],
   "updatedExisting": [
@@ -295,7 +311,7 @@
     }
   ],
   "push": {
-    "commit": "b3239b7",
+    "commit": "5bcacb6",
     "ok": true,
     "branch": "main",
     "files": [
@@ -305,9 +321,11 @@
     "remoteVerified": true,
     "remoteRound": 222,
     "remoteNewThisRound": [
-      "ff-robin-cats"
+      "ff-robin-cats",
+      "shielded-nakas",
+      "solemn-trollbox"
     ],
-    "pagesNote": "GitHub raw round=222；Pages CDN 可能短暂缓存"
+    "pagesNote": "GitHub raw round=222 count=610；Pages CDN 可能短暂缓存"
   },
   "remoteVerified": true,
   "dsUsage": {
@@ -322,8 +340,8 @@
     ],
     "admitBatch": 8,
     "scored": 1,
-    "admitted": 1,
-    "note": "admit初筛8项DS录取ff-robin-cats（hell-brats库内改skip）；HyperFlow/Nest/TrueMarkets/工具/个人号skip；score成功；alert/summary走DS(thinking关一次因溢出)；续更文案走DS"
+    "admitted": 3,
+    "note": "本执行端DS admit录取ff-robin-cats；同轮并发a3e5860并入shielded-nakas+solemn-trollbox（用户点名BTC Ordinals）。HyperFlow/Nest/TrueMarkets/工具/个人号/已入库skip；score+alert/summary走DS；续更文案走DS"
   },
   "sourcesChecked": [
     "RobinXP robin-xp.com/api/data?want=mints → rxp_r222.json",
@@ -344,16 +362,20 @@
     "Peek机会板仍偏AI waitlist，本轮无NFT极早期盲区来自Peek；盲区补录来自X+RXP",
     "勿照搬热度榜；Exploring不得标Elysium；无推特硬跳过；成熟DEX即使Announced也skip；已入库勿重复admit"
   ],
-  "coverageNotes": "全覆盖：打新(+ff-robin-cats；zany/skills/skulls/oozlings/smarties≤2h；晚间多窗)+挖矿(squeek redeploy/hamster/midwimble续)+台子/Meme(HyperFlow成熟skip)+GO(nibblewage 21:00 focus)+Elysium(Dawn续；误标保持移出；无新合格On testnet打新)+LZ本轮无合格新admit。未偏科只盯Elysium。",
+  "coverageNotes": "全覆盖：打新(+ff-robin-cats RH；+shielded-nakas/+solemn-trollbox BTC Ordinals；zany/skills/skulls/oozlings/smarties≤2h；晚间多窗)+挖矿(squeek/hamster/midwimble)+台子(HyperFlow成熟skip)+GO(nibblewage focus)+Elysium(Dawn续；误标保持移出)+LZ无新admit。未偏科。",
   "dsFallback": false,
   "meta": {
     "round": 222,
     "candidateCount": 610,
     "newThisRound": [
-      "ff-robin-cats"
+      "ff-robin-cats",
+      "shielded-nakas",
+      "solemn-trollbox"
     ],
     "round222Added": [
-      "ff-robin-cats"
+      "ff-robin-cats",
+      "shielded-nakas",
+      "solemn-trollbox"
     ],
     "focusIds": [
       "nibblewage",
