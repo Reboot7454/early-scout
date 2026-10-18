@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-19 03:38 CST",
+    "updated": "2026-10-19 03:59 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "R245 full scout (after R244 Discord Peek-only ink-nutters) X+Trencher HTML+Elysium eco+DS",
@@ -289,7 +289,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 246,
+    "round": 247,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -366,7 +366,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 683,
+    "candidateCount": 688,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -737,7 +737,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "ink-nutters"
+      "qlyphs"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1910,18 +1910,18 @@
         }
       ],
       "purpose": "Peek gap-fill only (not full X monitor)",
-      "lastSeen": "2026-10-19 03:04 CST",
+      "lastSeen": "2026-10-19 03:21 CST",
       "bots": [
         "Spidey Bot",
         "X Follow Monitor",
         "Captain Hook"
       ],
-      "hungInto": "35m routine",
-      "note": "R246: 用户要求不登录DC；仓内/他号线索照收；本端deferred",
-      "lastChecked": "2026-10-19 03:38 CST",
-      "lastAttempt": "2026-10-19 03:38 CST",
-      "lastResult": "deferred_no_login",
-      "discordPeekDeferred": true
+      "hungInto": "discord-alpha-40m routine",
+      "note": "R247: Discord #alpha-1 Peek 补漏；新收 qlyphs；跳过成熟/个人号",
+      "lastChecked": "2026-10-19 03:59 CST",
+      "lastAttempt": "2026-10-19 03:59 CST",
+      "lastResult": "ok_peek_r247",
+      "discordPeekDeferred": false
     },
     "round239Added": [
       "tsunamilaunch",
@@ -1973,9 +1973,63 @@
       "ethernalcubs",
       "inkpirates"
     ],
-    "btcZoneNoteR246": "隐私三件+mannequins续；无新BTC独立官推admit"
+    "btcZoneNoteR246": "隐私三件+mannequins续；无新BTC独立官推admit",
+    "round247Added": [
+      "qlyphs"
+    ],
+    "prevNewThisRoundCleared": [
+      "ink-nutters"
+    ]
   },
   "candidates": [
+    {
+      "id": "qlyphs",
+      "name": "Qlyphs",
+      "handle": "@qlyphsxyz",
+      "category": "打新",
+      "chain": "Quantus",
+      "tags": [
+        "打新",
+        "post-quantum",
+        "native-assets",
+        "Quantus",
+        "极早期",
+        "discord-alpha",
+        "follow-monitor"
+      ],
+      "round": 247,
+      "scores": {
+        "early": 90,
+        "risk": 60,
+        "novelty": 76,
+        "actionable": 70,
+        "overall": 72
+      },
+      "highlights": [
+        "2026-09创建，约1.4k粉/97推，极早期",
+        "定位 post-quantum 原生资产，叙事较新",
+        "Live on Quantus，独立应用而非 Quantus 挖矿本体",
+        "有官网 qlyphs.com 与 builder @iamyacine"
+      ],
+      "drawbacks": [
+        "合约/铸造/发行细节未披露",
+        "依赖 Quantus 生态早期状态",
+        "团队透明度有限",
+        "可操作路径仍需跟推特确认"
+      ],
+      "whatsNew": "R247 Discord Peek 补漏新收录",
+      "links": {
+        "x": "https://x.com/qlyphsxyz",
+        "site": "https://qlyphs.com/"
+      },
+      "lzVerified": false,
+      "focus": false,
+      "newThisRound": true,
+      "sources": [
+        "discord-alpha-1"
+      ],
+      "lastChecked": "2026-10-19 03:59 CST"
+    },
     {
       "id": "ink-nutters",
       "name": "Ink Nutters",
@@ -50501,7 +50555,7 @@
       "mintStatus": "wl-open",
       "source": "X @ethernalcubs R246",
       "round": 246,
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": null,
       "addedAt": "2026-10-19 03:38 CST",
       "firstSeen": "2026-10-19 03:38 CST",
@@ -50573,7 +50627,7 @@
       "mintStatus": "upcoming",
       "source": "X @inkpirates + OS mint page R246",
       "round": 246,
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": null,
       "addedAt": "2026-10-19 03:38 CST",
       "firstSeen": "2026-10-19 03:38 CST",

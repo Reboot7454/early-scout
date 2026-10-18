@@ -1,0 +1,80 @@
+{
+  "round": 247,
+  "completedAt": "2026-10-19 03:59 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "discord-alpha-peek-only",
+  "notify": true,
+  "notifyReason": "Discord #alpha-1 Peek gap-fill real new admit",
+  "alertMessage": "【R247 Discord Peek补漏】新收录 Qlyphs(@qlyphsxyz)。Quantus 上 post-quantum 原生资产，9月号约1.4k粉；有官网，先盯发行/合约再动。面板 https://reboot7454.github.io/early-scout/",
+  "summary": "R247 Discord alpha 补漏：新收录 1（qlyphs）；跳过成熟/个人 @skel/@DrEinstein9999/@Ducatstable/@zk_bits/@whosyourmasta/@juisXdaddy/@iamyacine；OrcsOnINK 已在面板。仅 DC Peek，未跑全量网页雷达。",
+  "newAdmits": [
+    {
+      "id": "qlyphs",
+      "name": "Qlyphs",
+      "handle": "@qlyphsxyz",
+      "category": "打新",
+      "chain": "Quantus",
+      "followers": 1379
+    }
+  ],
+  "rejected": [],
+  "skippedMature": [
+    {
+      "handle": "@skel",
+      "reason": "91k at watermark 03:04"
+    },
+    {
+      "handle": "@DrEinstein9999",
+      "reason": "39k founder KOL"
+    },
+    {
+      "handle": "@Ducatstable",
+      "reason": "43k closed-alpha protocol"
+    },
+    {
+      "handle": "@zk_bits",
+      "reason": "established 2023 builder"
+    },
+    {
+      "handle": "@whosyourmasta",
+      "reason": "since 2009; OrcsOnINK already in panel"
+    },
+    {
+      "handle": "@juisXdaddy",
+      "reason": "personal degen not project"
+    },
+    {
+      "handle": "@iamyacine",
+      "reason": "personal builder of qlyphs, not project account"
+    }
+  ],
+  "skippedAlreadyIn": [
+    {
+      "handle": "@OrcsOnINK",
+      "id": "orcs-on-ink",
+      "note": "mentioned via @whosyourmasta bio; already in panel"
+    }
+  ],
+  "discordPeekDeferred": false,
+  "discordPeek": {
+    "channel": "alpha-1",
+    "lastSeenBefore": "2026-10-19 03:04 CST",
+    "lastSeenAfter": "2026-10-19 03:21 CST",
+    "newestMsgTime": "2026-10-19 03:21 CST",
+    "candidateCards": 7,
+    "loginOk": true
+  },
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": 1,
+    "purpose": [
+      "admit+score qlyphs"
+    ]
+  },
+  "clearedPrevNewThisRound": 2,
+  "push": {
+    "ok": false,
+    "pending": true
+  }
+}
