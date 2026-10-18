@@ -1,11 +1,25 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-18 13:16:05 CST",
+    "updated": "2026-10-18 13:27:52 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "R215: +losstrade; RobinXP+Trencher+Peek+Elysium+X; ≤2h oozlings",
-    "lastScout": "2026-10-18 13:16:05 CST",
+    "lastScout": {
+      "round": 216,
+      "at": "2026-10-18 13:27:52 CST",
+      "timezone": "Asia/Shanghai",
+      "newAdmits": [
+        "cloaked-entities"
+      ],
+      "sources": [
+        "RobinXP",
+        "Trencher",
+        "Elysium eco",
+        "Peek",
+        "X MCP"
+      ]
+    },
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -291,7 +305,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 215,
+    "round": 216,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -368,7 +382,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 597,
+    "candidateCount": 598,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -738,7 +752,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "losstrade"
+      "cloaked-entities"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1084,7 +1098,7 @@
       "nopad",
       "routr-network"
     ],
-    "previousRound": 212,
+    "previousRound": 215,
     "round183Added": [
       "heygrok",
       "grail-break",
@@ -1259,9 +1273,108 @@
     ],
     "round215Added": [
       "losstrade"
+    ],
+    "round216Added": [
+      "cloaked-entities"
     ]
   },
   "candidates": [
+    {
+      "id": "cloaked-entities",
+      "name": "Cloaked Entities",
+      "category": "打新",
+      "chain": "Robinhood",
+      "ecosystem": null,
+      "status": "early",
+      "mintStatus": "upcoming",
+      "focus": false,
+      "followers": 664,
+      "round": 216,
+      "newThisRound": true,
+      "flag": "本轮新",
+      "addedAt": "2026-10-18 13:27:52 CST",
+      "firstSeen": "2026-10-18 13:27:52 CST",
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
+      "source": "X R216",
+      "tags": [
+        "打新",
+        "RH",
+        "极早期",
+        "本轮新"
+      ],
+      "links": {
+        "x": "https://x.com/EntitiesonRH",
+        "signal": "https://x.com/EntitiesonRH/status/2111687790358339643"
+      },
+      "social": {
+        "followers": 664,
+        "xFollowers": 664,
+        "handle": "@EntitiesonRH",
+        "handles": [
+          "EntitiesonRH"
+        ]
+      },
+      "scores": {
+        "early": 92,
+        "actionable": 84,
+        "novelty": 58,
+        "risk": 72,
+        "overall": 80,
+        "composite": 8.0,
+        "raw100": {
+          "early": 92,
+          "actionable": 84,
+          "novelty": 58,
+          "risk": 72,
+          "overall": 80
+        }
+      },
+      "earlyScore": 92,
+      "riskScore": 72,
+      "risk": 72,
+      "riskLevel": "high",
+      "highlights": [
+        "RH 生态极早期 PFP，粉仅约664",
+        "GTD 约10/28截止，OpenSea mint约10/30",
+        "FCFS 申请已开，可立即执行",
+        "有 Village/Treasury 与若干伙伴社区"
+      ],
+      "drawbacks": [
+        "账号很新，团队与历史信息少",
+        "受众小，二级流动性存疑",
+        "合作社区偏小众，易受热度波动",
+        "Robinhood 链打新退出路径待验证"
+      ],
+      "whatsNew": "【新收录R216】@EntitiesonRH，RH 3333，FCFS已开，GTD截≈10/28，mint≈10/30 OpenSea，粉≈664。",
+      "background": "Cloaked Entities：Robinhood Chain 3333 PFP；Village/Treasury 叙事；伙伴社区含 WIF Outlaws / CCFF00 / Suited Apes 等。官推 @EntitiesonRH。",
+      "whyWatch": "mint前极早期；FCFS 申请已开；GTD 约10/28截止；OpenSea mint约10/30。",
+      "playStyle": "打新 mint",
+      "lzVerified": false,
+      "schedule": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "upcoming",
+        "startsAt": "2026-10-30",
+        "phases": [
+          {
+            "name": "FCFS apply",
+            "note": "live · 官推申请"
+          },
+          {
+            "name": "GTD submissions close",
+            "note": "≈2026-10-28"
+          },
+          {
+            "name": "OpenSea mint",
+            "startsAt": "2026-10-30",
+            "note": "官推宣布"
+          }
+        ],
+        "note": "OpenSea mint≈10/30；GTD投稿≈10/28截止；FCFS申请已开（X R216）",
+        "source": "X @EntitiesonRH R216"
+      },
+      "alert": false
+    },
     {
       "id": "jadebound",
       "name": "Jadebound",
@@ -1281,7 +1394,7 @@
       "flag": null,
       "round": 214,
       "newThisRound": false,
-      "followers": 5107,
+      "followers": 5109,
       "links": {
         "x": "https://x.com/PlayJadebound",
         "web": "https://jadebound.fun/",
@@ -1335,11 +1448,11 @@
         "免费mint易拥挤，脚本与女巫风险高",
         "链上合约与真实用户数据仍待验证"
       ],
-      "whatsNew": "【续更R215】THE UNBOUND/Chapter0 续更，粉丝≈5107，RXP 有相关合约进度。",
+      "whatsNew": "【续更R216】UNBOUND/Chapter0续，粉≈5109。",
       "blurb": "RH dark fantasy GameFi；THE UNBOUND 2222 FREE-mint；Chapter 0 live。",
       "firstSeen": "2026-10-18 12:45:54 CST",
       "addedAt": "2026-10-18 12:45:54 CST",
-      "lastRefreshedAt": "2026-10-18 13:15:30 CST",
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
       "whyWatch": "RH 极早期 GameFi free-mint + Chapter 0 任务窗，有官推可核验。",
       "status": "early",
       "mintStatus": "upcoming",
@@ -1347,8 +1460,8 @@
       "alert": null,
       "playStyle": null,
       "social": {
-        "xFollowers": 5107,
-        "followers": 5107
+        "xFollowers": 5109,
+        "followers": 5109
       },
       "risk": "medium",
       "riskLevel": "medium",
@@ -1425,11 +1538,11 @@
         "开窗时间较远且存在变更可能",
         "合约、白名单与mint规则细节缺失"
       ],
-      "whatsNew": "【续更R215】Trencher 窗口≈10/24，粉丝≈3745。",
+      "whatsNew": "【续更R216】≈10/24窗续，粉≈3745。",
       "blurb": "RH 5555 pixel robots；Trencher≈10/24 16:00UTC；X@SloggerStudio。",
       "firstSeen": "2026-10-18 12:45:54 CST",
       "addedAt": "2026-10-18 12:45:54 CST",
-      "lastRefreshedAt": "2026-10-18 13:15:30 CST",
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
       "whyWatch": "Trencher 给出 RH 开窗线索，OpenSea 已挂；创作者推特可核验但非独立官号。",
       "status": "early",
       "mintStatus": "upcoming",
@@ -1437,7 +1550,8 @@
       "alert": null,
       "playStyle": null,
       "social": {
-        "xFollowers": 3745
+        "xFollowers": 3745,
+        "followers": 3745
       },
       "risk": "medium-high",
       "riskLevel": "medium-high",
@@ -1499,7 +1613,7 @@
         "买墙/费用分配依赖持续买入，存在死亡螺旋风险",
         "合约地址需自行核验，未见审计信息"
       ],
-      "whatsNew": "【续更R215】RH 挖矿续更，粉丝≈149。",
+      "whatsNew": "【续更R216】挖矿续，粉≈149。",
       "whyWatch": "RH Chain DeFi flywheel：买入产生 mining work 可 claim；费用回流与 buy wall 机制。",
       "background": "合约 0x255979302fD6a5E2Ff6dce0D8b018F51e06e243A；$UNIWALL；官推 @uniwallhook。",
       "source": "X+WhaleAI R212",
@@ -1508,7 +1622,7 @@
       "lzVerified": false,
       "addedAt": "2026-10-18T12:07:56.226519+08:00",
       "firstSeen": "2026-10-18T12:07:56.226519+08:00",
-      "lastRefreshedAt": "2026-10-18 13:15:30 CST",
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
       "alert": false,
       "schedule": {
         "status": "live",
@@ -2538,7 +2652,7 @@
         "粉丝少，社区薄弱",
         "高投机，容易一波流"
       ],
-      "whatsNew": "【续更R215】Lamp on≈21:00CST（13:00UTC）；粉≈31；focus。",
+      "whatsNew": "【续更R216】Lamp on≈21:00 CST，粉≈31，focus。",
       "ecosystem": null,
       "earlyScore": 90,
       "riskScore": 82,
@@ -2548,7 +2662,7 @@
       "addedAt": "2026-10-18 05:52 CST",
       "newThisRound": false,
       "followers": 31,
-      "lastRefreshedAt": "2026-10-18 13:15:30 CST"
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST"
     },
     {
       "id": "monitrons",
@@ -5426,7 +5540,7 @@
         "代币与空投规则未公布",
         "生态尚浅，实际用量有限"
       ],
-      "whatsNew": "【续更R215】eco续扫无新admit；社区传mainnet≈10/20未官宣；粉≈5922；focus。",
+      "whatsNew": "【续更R216】eco无新admit，mainnet≈10/20传闻，粉≈5924，focus。",
       "whyWatch": "作为生态母体，其动向决定 AscendLaunch 等子项目打新节奏。",
       "background": "Elysium（https://x.com/Enter_Elysium）：Elysium 生态项目；R177 面板收录。",
       "newThisRound": false,
@@ -5439,12 +5553,12 @@
       "riskScore": 60,
       "risk": 75,
       "social": {
-        "followers": 5922,
+        "followers": 5924,
         "handle": "@Enter_Elysium",
-        "xFollowers": 5922
+        "xFollowers": 5924
       },
-      "lastRefreshedAt": "2026-10-18 13:15:30 CST",
-      "followers": 5922
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
+      "followers": 5924
     },
     {
       "id": "brainfarts",
@@ -5961,8 +6075,8 @@
             "note": "RX≈35/969 仍早期"
           }
         ],
-        "note": "PUBLIC 0.00004ETH 续；RX≈35/969；粉≈21（RXP R214）",
-        "source": "RXP R214",
+        "note": "PUBLIC 0.00004ETH 续；RX≈35/969；粉≈21（RXP R216）",
+        "source": "RXP R216",
         "rxMinted": 35,
         "rxSupply": 969
       },
@@ -5995,7 +6109,7 @@
         "Robinhood 链新，合约未验证",
         "信息仅来自简介，尽调不足"
       ],
-      "whatsNew": "【续更R215】PUBLIC 仍在续，RX≈35/969，开盘约4小时、粉丝≈21，仍早期>2h。",
+      "whatsNew": "【续更R216】PUBLIC续，RX≈35/969，>2h仍早期，粉≈21。",
       "newThisRound": false,
       "round": 175,
       "round175Added": true,
@@ -6010,7 +6124,7 @@
         "explorer": "https://robinscan.io/address/0x7a2c0fff56ec7e62ab4a4768413c7b6550c73a5b",
         "lastCheckedAt": "2026-10-18 00:08 CST"
       },
-      "lastRefreshedAt": "2026-10-18 13:15:30 CST",
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
       "mintStatus": "live",
       "social": {
         "followers": 21,
@@ -6426,7 +6540,7 @@
         "账号@MfersGif与项目名不一致",
         "免费预约低门槛，女巫风险高"
       ],
-      "whatsNew": "【续更R214】今日20:00起 WL Reserve FREE 续。",
+      "whatsNew": "【续更R216】WL Reserve≈20:00 CST，FREE续。",
       "newThisRound": false,
       "round": 175,
       "round175Added": true,
@@ -6440,7 +6554,7 @@
         "maxSupply": 10000,
         "lastCheckedAt": "2026-10-18 00:08 CST"
       },
-      "lastRefreshedAt": "2026-10-18T12:45:54.403840+08:00"
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST"
     },
     {
       "id": "street-hood-mini",
@@ -10335,7 +10449,7 @@
         "发布时间未到，存在延期风险",
         "测网重部署说明合约不稳定"
       ],
-      "whatsNew": "【续更R215】pillhead：redeploy后明日/周一再开test mint；官推PSA end-Oct；粉≈1318；focus。",
+      "whatsNew": "【续更R216】官推PSA end-Oct，redeploy后再开test mint，粉≈1319，focus。",
       "background": "Hamster-powered proof-of-work toychain on Ethereum (Sepolia). Physical hamster wheel (WHEELY9000) activity verified and settled on-chain. Token has NOT launched yet.",
       "whyWatch": "重点：实体仓鼠+PoW玩具链+预发币测试网，小七点名盯盘；同类实验叙事标杆。",
       "status": "early",
@@ -10346,8 +10460,8 @@
         "status": "watch",
         "timezone": "Asia/Shanghai",
         "mintStatus": "watch",
-        "note": "Sepolia redeploy后明日或周一再开test mint；主网上线 end-Oct；官推防诈骗PSA",
-        "source": "X @pillheadddd + @squeekchain R215"
+        "note": "Sepolia redeploy后明日或周一再开test mint；主网上线 end-Oct；官推防诈骗PSA（X R216）",
+        "source": "X @squeekchain/@pillheadddd R216"
       },
       "onchain": {
         "chainId": 11155111,
@@ -10355,9 +10469,9 @@
         "lastCheckedAt": "2026-10-17T07:51:44.165084+08:00"
       },
       "social": {
-        "followers": 1318,
+        "followers": 1319,
         "handle": "@squeekchain",
-        "xFollowers": 1318
+        "xFollowers": 1319
       },
       "newThisRound": false,
       "flag": "WATCH",
@@ -10366,8 +10480,8 @@
       "firstSeen": "2026-10-17 02:15 CST",
       "earlyScore": 86,
       "riskScore": 76,
-      "lastRefreshedAt": "2026-10-18 13:15:30 CST",
-      "followers": 1318,
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
+      "followers": 1319,
       "source": "X+docs R203"
     },
     {
@@ -10415,7 +10529,7 @@
         "合约刚部署，规则细节少",
         "依赖母链上线进度"
       ],
-      "whatsNew": "【续更R215】主网+$HAMSTER 续更，粉丝≈32，focus。",
+      "whatsNew": "【续更R216】主网+$HAMSTER续，粉≈32，focus。",
       "background": "First swarm-built app on squeekchain: bet $IMD on how far the hamster runs in an hour; top 3 split the pot.",
       "whyWatch": "重点类：squeekchain 生态极早期应用 peer；同属实体+链上玩具叙事。",
       "status": "early",
@@ -10447,7 +10561,7 @@
       "onchain": {
         "lastCheckedAt": "2026-10-17T07:51:44.165084+08:00"
       },
-      "lastRefreshedAt": "2026-10-18 13:15:30 CST",
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
       "followers": 32,
       "source": "X R203"
     },
@@ -15722,7 +15836,7 @@
         "5555 供给在弱社群下偏大",
         "无差异化叙事"
       ],
-      "whatsNew": "【续更R214】Holders≈21:00CST；粉≈39。",
+      "whatsNew": "【续更R216】Holders≈21:00 CST，粉≈40。",
       "risk": "极早期粉少，注意假站与短窗口。",
       "riskLevel": "high",
       "firstSeen": "2026-10-16T08:06:35.642633+08:00",
@@ -15730,14 +15844,14 @@
       "round": 46,
       "earlyScore": 88,
       "riskScore": 72,
-      "lastRefreshedAt": "2026-10-18T12:45:54.403840+08:00",
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
       "social": {
-        "followers": 36,
+        "followers": 40,
         "handle": "@LoopyFaces_",
-        "xFollowers": 39
+        "xFollowers": 40
       },
       "source": "RXP+Trencher R203",
-      "followers": 39,
+      "followers": 40,
       "newThisRound": false
     },
     {
@@ -15819,7 +15933,7 @@
         "官方推特粉丝较少，关注度低",
         "日期为10-18，可能不是今日"
       ],
-      "whatsNew": "【续更R214】今日23:00 0.0016ETH；粉≈953。",
+      "whatsNew": "【续更R216】GTD≈23:00 CST，0.0016ETH，粉≈953。",
       "risk": "付费mint+信息有限，注意白名单真伪。",
       "riskLevel": "high",
       "firstSeen": "2026-10-16T08:06:35.642633+08:00",
@@ -15829,9 +15943,10 @@
       "riskScore": 6,
       "social": {
         "xFollowers": 953,
-        "lastCheckedAt": "2026-10-16T17:55:45+08:00"
+        "lastCheckedAt": "2026-10-16T17:55:45+08:00",
+        "followers": 953
       },
-      "lastRefreshedAt": "2026-10-18T12:45:54.403840+08:00",
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
       "followers": 953
     },
     {
@@ -15904,7 +16019,7 @@
         "免费盘后期流动性常弱",
         "系列玩法兑现依赖团队"
       ],
-      "whatsNew": "【续更R214】今日21:00 FREE 续。",
+      "whatsNew": "【续更R216】FREE PUBLIC≈21:00 CST续。",
       "risk": "免费盘Rug与后续断裂风险。",
       "riskLevel": "high",
       "firstSeen": "2026-10-16T08:06:35.642633+08:00",
@@ -15912,7 +16027,7 @@
       "round": 46,
       "earlyScore": 88,
       "riskScore": 70,
-      "lastRefreshedAt": "2026-10-18T12:45:54.403840+08:00"
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST"
     },
     {
       "id": "hens",
@@ -16163,20 +16278,20 @@
         "游戏本体与代币模型未公开",
         "团队轮后公售节奏不明"
       ],
-      "whatsNew": "【续更R214】Team≈23:00；粉≈534。",
+      "whatsNew": "【续更R216】Team≈23:00 CST，粉≈537。",
       "flag": "upcoming",
       "risk": "社媒与信息极少，警惕Rug与假mint。",
       "firstSeen": "2026-10-16T07:55:31.301133+08:00",
       "addedAt": "2026-10-16T07:55:31.301133+08:00",
       "round": 45,
-      "lastRefreshedAt": "2026-10-18T12:45:54.403840+08:00",
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
       "social": {
-        "followers": 512,
+        "followers": 537,
         "handle": "@CropzRH",
-        "xFollowers": 534
+        "xFollowers": 537
       },
       "source": "RXP+Trencher R203",
-      "followers": 534,
+      "followers": 537,
       "newThisRound": false
     },
     {
@@ -16335,8 +16450,8 @@
         "status": "upcoming",
         "timezone": "Asia/Shanghai",
         "mintStatus": "upcoming",
-        "note": "WL≈10/20；0/555；粉≈109（RXP R214）",
-        "source": "RXP R214",
+        "note": "WL≈10/20；0/555；粉≈106（RXP R216）",
+        "source": "RXP R216",
         "rxMinted": 0,
         "rxSupply": 555
       },
@@ -16372,7 +16487,7 @@
         "小供555竞争激烈",
         "@HoodNFTz2影响力待验证"
       ],
-      "whatsNew": "【续更R215】WL/upcoming 为0/555，粉丝≈109。",
+      "whatsNew": "【续更R216】WL≈10/20，0/555，粉≈106。",
       "flag": "upcoming",
       "risk": "小供555抢购激烈，WL门槛和分配需确认。",
       "firstSeen": "2026-10-16T07:22:08.020389+08:00",
@@ -16380,12 +16495,12 @@
       "round": 43,
       "social": {
         "handle": "@HoodNFTz2",
-        "followers": 109,
-        "xFollowers": 109
+        "followers": 106,
+        "xFollowers": 106
       },
-      "lastRefreshedAt": "2026-10-18 13:15:30 CST",
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
       "newThisRound": false,
-      "followers": 109
+      "followers": 106
     },
     {
       "id": "punkt",
@@ -22558,7 +22673,7 @@
         "mint价/时刻未锁",
         "WL窗已基本结束"
       ],
-      "whatsNew": "【续更R214】今日23:00CST mint 0.00045ETH；粉≈4919。",
+      "whatsNew": "【续更R216】mint≈23:00 CST，0.00045ETH，粉≈4932。",
       "scores": {
         "early": 93,
         "risk": 72,
@@ -22567,8 +22682,8 @@
         "overall": 64
       },
       "social": {
-        "xFollowers": 4919,
-        "followers": 4917,
+        "xFollowers": 4932,
+        "followers": 4932,
         "lastCheckedAt": "2026-10-18T12:07:56.226519+08:00"
       },
       "status": "upcoming",
@@ -22577,8 +22692,8 @@
       },
       "flag": "WL",
       "mintStatus": "upcoming",
-      "lastRefreshedAt": "2026-10-18T12:45:54.403840+08:00",
-      "followers": 4919
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
+      "followers": 4932
     },
     {
       "id": "ink-blots",
@@ -24298,7 +24413,7 @@
         "timezone": "Asia/Shanghai",
         "mintStatus": "live",
         "note": "RX≈25/1000；粉≈1775（RXP R214）",
-        "source": "RXP R214",
+        "source": "RXP R216",
         "rxMinted": 25,
         "rxSupply": 1000
       },
@@ -24327,7 +24442,7 @@
         "团队与项目信息较少",
         "二级退出路径尚不明确"
       ],
-      "whatsNew": "【续更R215】RX≈25/1000，粉丝≈1775。",
+      "whatsNew": "【续更R216】RX≈25/1000，粉≈1640。",
       "scores": {
         "early": 8.8,
         "actionable": 9.0,
@@ -24344,11 +24459,11 @@
       "social": {
         "handle": "@Voidkid_hood",
         "followers": 1640,
-        "xFollowers": 1775
+        "xFollowers": 1640
       },
-      "lastRefreshedAt": "2026-10-18 13:15:30 CST",
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
       "newThisRound": false,
-      "followers": 1775
+      "followers": 1640
     },
     {
       "id": "robin-frens",
@@ -24566,7 +24681,7 @@
         "timezone": "Asia/Shanghai",
         "mintStatus": "live",
         "note": "Public RX≈0/4444 0.0015ETH；粉≈3451（RXP R214）",
-        "source": "RXP R214",
+        "source": "RXP R216",
         "rxMinted": 0,
         "rxSupply": 4444
       },
@@ -24592,7 +24707,7 @@
         "信息量过少，难做尽调",
         "Robinhood 链新，合约风险高"
       ],
-      "whatsNew": "【续更R215】RX≈0/4444，live，粉丝≈3451。",
+      "whatsNew": "【续更R216】RX≈0/4444 live，粉≈3440。",
       "scores": {
         "early": 95,
         "actionable": 60,
@@ -24616,13 +24731,13 @@
       "social": {
         "handle": "@ASCIIPUNKSRH",
         "followers": 3440,
-        "xFollowers": 3451
+        "xFollowers": 3440
       },
       "osSupply": 1,
       "osOwners": 1,
       "minted": 1,
-      "followers": 3451,
-      "lastRefreshedAt": "2026-10-18 13:15:30 CST",
+      "followers": 3440,
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
       "newThisRound": false
     },
     {
@@ -32764,8 +32879,8 @@
             "price": "0.000001 ETH"
           }
         ],
-        "note": "TEAM FREE live RX≈400/10000；约12:05CST开（R215核验）；粉≈35",
-        "source": "RobinXP R215",
+        "note": "TEAM FREE live RX≈400/10000；约开78min（R216）；粉≈44",
+        "source": "RobinXP R216",
         "rxMinted": 400,
         "rxSupply": 10000
       },
@@ -32799,14 +32914,14 @@
         "免费盘易脚本/女巫",
         "Robinhood 链新，合约风险"
       ],
-      "whatsNew": "【续更R215】TEAM FREE live RX≈400/10000；约12:05CST开、距今≈75min；粉≈35；仍≤2h可操作。",
-      "lastRefreshedAt": "2026-10-18 13:15:30 CST",
+      "whatsNew": "【续更R216】TEAM FREE已开约80分钟，RX≈400/10000，粉≈44，窗口≤2h。",
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
       "social": {
-        "followers": 35,
+        "followers": 44,
         "handle": "@Oozlings",
-        "xFollowers": 35
+        "xFollowers": 44
       },
-      "followers": 35,
+      "followers": 44,
       "source": "RXP+Trencher+X R203",
       "earlyScore": 92,
       "riskScore": 68,
@@ -32831,17 +32946,31 @@
       "background": "Robinhood Chain 1,333 Zany Apes；多阶段TEAM/OG/WL/PUBLIC。",
       "whyWatch": "≈166粉冷启动；今日WL 16-22CST、PUBLIC 22CST，可操作窗口近。",
       "flag": "≤2h",
-      "mintStatus": "live",
+      "mintStatus": "upcoming",
       "lzVerified": null,
       "focus": false,
       "schedule": {
-        "status": "live",
+        "status": "upcoming",
         "timezone": "Asia/Shanghai",
-        "mintStatus": "live",
-        "note": "Public live RX≈345/1333（R207）",
-        "source": "RXP R207",
-        "rxMinted": 345,
-        "rxSupply": 1333
+        "mintStatus": "upcoming",
+        "note": "RH窗 zanyapesrh GTD≈13:50CST 0.00005ETH；Public≈14:50；旧合集RX≈354/1333（RXP+Trencher R216）",
+        "source": "RXP+Trencher R216",
+        "rxMinted": 354,
+        "rxSupply": 1333,
+        "phases": [
+          {
+            "name": "GTD Zany Apes",
+            "startsAt": "2026-10-18T05:50:00Z",
+            "price": "0.00005 ETH",
+            "note": "≈13:50CST"
+          },
+          {
+            "name": "Zany Public",
+            "startsAt": "2026-10-18T06:50:00Z",
+            "price": "0.0001 ETH",
+            "note": "≈14:50CST"
+          }
+        ]
       },
       "id": "zany-apes",
       "round": 134,
@@ -32873,7 +33002,7 @@
         "已过零铸造阶段，非最早期",
         "无后续赋能披露"
       ],
-      "whatsNew": "【续更R208】Public live 续；fol≈176。",
+      "whatsNew": "【续更R216】RH窗zanyapesrh，GTD≈13:50 CST，价0.00005；Public≈14:50；旧合集RX≈354/1333，粉≈176。",
       "onchain": {
         "minted": 298,
         "lastCheckedAt": "2026-10-17T20:33:58+08:00"
@@ -32882,7 +33011,7 @@
         "followers": 176,
         "xFollowers": 176
       },
-      "lastRefreshedAt": "2026-10-18 10:47 CST",
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
       "followers": 176,
       "source": "RXP R203",
       "earlyScore": 65,
@@ -33171,8 +33300,10 @@
             "note": "≈18:00CST"
           }
         ],
-        "note": "smarties≈17:00CST FREE；Public≈18:00 0.001ETH；粉≈375（Trencher+X R214）",
-        "source": "Trencher+X R214"
+        "note": "smarties≈17:00CST FREE；Public≈18:00 0.001ETH；粉≈377（Trencher+X R216）",
+        "source": "Trencher+X R216",
+        "rxMinted": 0,
+        "rxSupply": 808
       },
       "round": 140,
       "newThisRound": false,
@@ -33203,15 +33334,15 @@
         "题材偏通用，辨识度一般",
         "链上进度未披露"
       ],
-      "whatsNew": "【续更R215】smarties≈17:00 Public≈18:00；粉≈375。",
+      "whatsNew": "【续更R216】smarties≈17:00，Public≈18:00，粉≈377。",
       "social": {
-        "followers": 375,
+        "followers": 377,
         "handle": "@smartcase4frens",
-        "xFollowers": 375
+        "xFollowers": 377
       },
-      "lastRefreshedAt": "2026-10-18 13:15:30 CST",
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
       "source": "RXP+Trencher R203",
-      "followers": 375,
+      "followers": 377,
       "earlyScore": 80,
       "riskScore": 68
     },
@@ -37107,7 +37238,7 @@
         "Grants 阶段参与路径不明确",
         "Elysium 主网活跃度待验证"
       ],
-      "whatsNew": "【续更R215】Builder Grants≤10-20；粉≈3936；focus。",
+      "whatsNew": "【续更R216】Grants≤10-20，粉≈3936，focus。",
       "newThisRound": false,
       "round": 174,
       "round174Added": true,
@@ -37118,7 +37249,7 @@
       "riskScore": 55,
       "risk": 72,
       "status": "early",
-      "lastRefreshedAt": "2026-10-18 13:15:30 CST",
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
       "social": {
         "followers": 3936,
         "handle": "@AscendLaunch",
@@ -40451,7 +40582,7 @@
       "firstSeen": "2026-10-18 07:13 CST",
       "addedAt": "2026-10-18 07:13 CST",
       "newThisRound": false,
-      "whatsNew": "【续更R214】PUBLIC≈22:30 0.00015ETH；粉≈172。",
+      "whatsNew": "【续更R216】PUBLIC≈22:30 CST，0.00015ETH，粉≈172。",
       "highlights": [
         "Ink 链上 Goblin 题材，555 小供给",
         "公售≈22:30 CST，0.00015ETH 极低价",
@@ -40482,7 +40613,7 @@
       "risk": 6.2,
       "riskLevel": "high",
       "alert": null,
-      "lastRefreshedAt": "2026-10-18T12:45:54.403840+08:00",
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
       "followers": 172
     },
     {
@@ -42472,7 +42603,7 @@
         "Robinhood Chain NFT 生态早期，退出不确定性高",
         "公售阶段信息有限，需防合约与跑路风险"
       ],
-      "whatsNew": "【续更R215】RX≈257/4444，粉丝≈1569。",
+      "whatsNew": "【续更R216】RX≈257/4444续。",
       "whyWatch": "有官推且公售极早期，可小仓试错；但社区小、链上流动性风险偏高。",
       "background": "Mooncats：retro-futuristic cosmic trading cards / games / collectibles；founded by @ghostcatjoypad；RXP slug=officialmooncats。",
       "source": "RXP+X+DS R210",
@@ -42504,15 +42635,15 @@
             "note": "RX≈257/4444"
           }
         ],
-        "note": "RX≈257/4444≈6%；粉≈1569（RXP R214）",
-        "source": "RXP R214",
+        "note": "RX≈257/4444；续（RXP R216）",
+        "source": "RXP R216",
         "rxMinted": 257,
         "rxSupply": 4444,
         "contract": "0x99b10b280c1fd3625737c51590ddf7191963c5f6"
       },
       "addedAt": "2026-10-18 11:33:23 CST",
       "firstSeen": "2026-10-18 11:33:23 CST",
-      "lastRefreshedAt": "2026-10-18 13:15:30 CST",
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
       "lzVerified": false,
       "alert": null,
       "playStyle": null,
@@ -42775,18 +42906,17 @@
       "focus": false,
       "followers": 54,
       "round": 215,
-      "newThisRound": true,
-      "flag": "本轮新",
+      "newThisRound": false,
+      "flag": null,
       "addedAt": "2026-10-18 13:15:30 CST",
       "firstSeen": "2026-10-18 13:15:30 CST",
-      "lastRefreshedAt": "2026-10-18 13:15:30 CST",
+      "lastRefreshedAt": "2026-10-18 13:27:52 CST",
       "source": "X R215",
       "tags": [
         "挖矿",
         "RH",
         "极早期",
-        "ProofOfLoss",
-        "本轮新"
+        "ProofOfLoss"
       ],
       "links": {
         "x": "https://x.com/Loss_trade__",
@@ -42831,7 +42961,7 @@
         "合约规则与资金路径不透明，跑路风险高",
         "新链生态和流动性都不确定"
       ],
-      "whatsNew": "【新收录R215】@Loss_trade__：RH Proof of Loss，链上已实现亏损铸$LOSS；粉≈54；创始人@LosstradeAI。",
+      "whatsNew": "【续更R216】清本轮新，Proof of Loss续，粉≈54。",
       "background": "Proof of Loss：链上已实现亏损铸造 $LOSS。官推 @Loss_trade__ + 创始人 @LosstradeAI。Robinhood Chain。",
       "whyWatch": "极早期 RH 协议/挖矿叙事：亏损即供给；粉极少，窗口早但风险极高。",
       "playStyle": "挖矿交互",
