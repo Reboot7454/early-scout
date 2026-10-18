@@ -73,7 +73,11 @@
 - **TokenWorks Playground**：盯 `@Rhynotic`（兼 `@token_works`）与站 https://playground.token.works/ ——策展小组发射/分账台（ETH+Robinhood）；关注 `launchesEnabled`、首批想法（FWA 配对）、工厂公开部署。归台子/Meme，勿因跨链字样进 LayerZero。
 - **实验玩具链 / 实体+链上（重点栏 standing watch）**：每轮扫同类信号——仓鼠/动物 PoW toychain、硬件矿机 novelty 链、实体物理装置上链验证、公平分配实验 L1/L2 且仍预发币/测试网。种子账号 `@squeekchain` `@squeektoshi` `@pillheadddd` `@hamsterhourgame`；同类有推特的清晰早期 peer → 重点栏（`squeekchain` 保持首位）。
 - **Elysium 类生态（第六栏 · `meta.elysiumWatch`）**：**加栏加盯的一例，不收缩覆盖**。每轮在同等努力扫打新 / 挖矿 / 台子·Meme / GO盘 / LayerZero 的前提下，额外盯 `@Enter_Elysium` 及 AscendLaunch / Eloscape / Speculate / Montra / Aegis / kalos 等子项目，以及**同类新生态**（Hyperliquid 旁路 L2 / Orbit 玩具生态等）。有推特的清晰成员 → `ecosystem:"Elysium"` + tag `Elysium生态`，互斥进「Elysium 生态」栏；链筛「Elysium 生态」只显示该生态。**不得**把例行搜刮收成「只扫 Elysium」。
+<<<<<<< Updated upstream
 - **Elysium 收录门槛**：对照 https://elysium.kinetiq.xyz/ecosystem ，只有 **On testnet**，或 **Announced 且写明具体 Elysium 部署**，才可进 Elysium 栏 / 打 `Elysium生态`。**Exploring**、「considering」、仅在生态页露名、或只是靠近 Hyperliquid，一律不进该栏，按真实品类归 GO盘 / 台子 / 打新等。`perpme` 即使用户页上是 On testnet，也按用户决定留在台子/HyperEVM，不要因文案里提到 testnet 路径改回 Elysium。
+=======
+- **电路板 / TapeOut（`meta.blonskrWatch` / `meta.watches.tapeOut`）**：用户监视 `@TapeAIAgent` + `@Blonskr` 关注线——门级电路、电路 NFT、电路板叙事（TapeAI 检察官电路 mint、BEM PoD、TapeUP/DeWEB、Firsto 等）。同类有**独立项目推特**且极早期可操作才收录；社区水军/纯个人号（如无项目号的 TapePack）不收。标签含 `电路板`/`电路NFT`/`TapeOut`；**勿标 Elysium**。
+>>>>>>> Stashed changes
 - 此类为品类扩展监视（与 LZ / 玩具链 / Peek 对账并列），**不是**恢复全量 X 账号时间线监控，也**不是**对其它栏的替代。
 
 
