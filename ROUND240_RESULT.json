@@ -1,0 +1,155 @@
+{
+  "round": 240,
+  "completedAt": "2026-10-19 01:22 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "1 新收录 open-orbit（R239并行后BTC台子补漏）",
+  "alertMessage": "R240：补录 Open Orbit(@OpenOrbiting BTC策展Orbital台 粉≈169)；监视刷新 TapeAI快照今晚20:00 / Starcat仍称今日Launch。面板：https://reboot7454.github.io/early-scout/",
+  "summary": "R240：远端已有完整R239(9 admits含ink-chickens)后本执行端改跑R240；补录Open Orbit(BTC策展台)；清R239 newThisRound；刷新squeek/TapeAI/Starcat/PaperBird/BTC隐私/Canton/Glaze/TokenWorks/Elysium KeepOut/未核验LZ台子/GO；Discord Peek deferred（不登录不卡壳，R239 Peek结果保留）；六栏同等努力未偏科；DS deepseek-flash thinking ON。",
+  "newAdmits": [
+    {
+      "id": "open-orbit",
+      "name": "Open Orbit",
+      "zone": "台子/Meme",
+      "chain": "Bitcoin",
+      "handle": "@OpenOrbiting",
+      "followers": 169
+    }
+  ],
+  "updatedExisting": [
+    {
+      "id": "tapeai",
+      "what": "快照20:00CST；Mint≈10-20；粉≈2340"
+    },
+    {
+      "id": "starcatokx",
+      "what": "Oct19 bio token not live；粉≈1293"
+    },
+    {
+      "id": "squeekchain",
+      "what": "粉≈1391"
+    },
+    {
+      "id": "ink-chickens",
+      "what": "清本轮新标；PUBLIC≈02:00CST仍有效"
+    },
+    {
+      "id": "enter-elysium",
+      "what": "Signal≈$9.36M KeepOut持"
+    },
+    {
+      "id": "shielded-nakas",
+      "what": "粉≈3251"
+    },
+    {
+      "id": "xstokfun",
+      "what": "Canton续粉≈3761"
+    },
+    {
+      "id": "wsmco",
+      "what": "mine TBA粉≈322"
+    }
+  ],
+  "zoneCoverage": {
+    "scout": [
+      "ink-chickens",
+      "tapeai",
+      "toxic-toads",
+      "shielded-nakas"
+    ],
+    "mining": [
+      "squeekchain",
+      "midstate-mds",
+      "wsmco",
+      "liquid-terminal",
+      "oreos"
+    ],
+    "meme": [
+      "open-orbit",
+      "starcatokx",
+      "paperbird",
+      "tsunamilaunch",
+      "peakfun"
+    ],
+    "go": [
+      "catchtocash",
+      "nibblewage"
+    ],
+    "lz": [
+      "armoreum/oftpad unverified→meme"
+    ],
+    "elysium": [
+      "enter-elysium",
+      "ascendlaunch",
+      "liquid-terminal"
+    ],
+    "note": "R239九收保留；R240仅BTC补漏+刷新；未偏科Elysium/DC"
+  },
+  "columnsCovered": [
+    "打新",
+    "挖矿",
+    "台子/Meme",
+    "GO盘",
+    "LayerZero",
+    "Elysium"
+  ],
+  "scoutNotes": "开跑发现 origin 已推 R239；按 meta.round+1 改 R240。信号：Trencher/X/Elysium eco；open-orbit 为 R239 漏网 BTC 台。",
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "admit": true,
+    "score": true,
+    "copy": true,
+    "alert": true,
+    "summary": true
+  },
+  "dsFallback": false,
+  "discordPeekDeferred": true,
+  "priorRoundConflict": {
+    "remoteHad": 239,
+    "remoteAdmits": 9,
+    "action": "reset_to_origin_then_R240"
+  },
+  "skipped": [
+    {
+      "id": "ink-chickens",
+      "reason": "R239已收"
+    },
+    {
+      "id": "neko-night-market",
+      "reason": "X无效"
+    },
+    {
+      "id": "oozaruz",
+      "reason": "个人艺术家号+已过热"
+    },
+    {
+      "id": "gnomeboss",
+      "reason": "X空壳"
+    },
+    {
+      "id": "bitmap-corp",
+      "reason": "WIP无mint窗"
+    },
+    {
+      "id": "perpme",
+      "reason": "elysiumKeepOut"
+    }
+  ],
+  "push": {
+    "repo": "Reboot7454/early-scout",
+    "branch": "main",
+    "files": [
+      "data.json",
+      "ROUND240_RESULT.json"
+    ]
+  },
+  "meta": {
+    "candidateCount": 666,
+    "round240Added": [
+      "open-orbit"
+    ]
+  },
+  "remoteVerified": false,
+  "commitSha": null
+}
