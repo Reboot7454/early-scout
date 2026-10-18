@@ -1,0 +1,173 @@
+{
+  "round": 252,
+  "completedAt": "2026-10-19 05:32 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "full-coverage",
+  "notify": true,
+  "notifyReason": "3 real new admits (bunny-brokers, tapefour, weirdcats) + mint ≤2h (the Grumps FREE Public ≈05:30 CST)",
+  "alertMessage": "新增 Bunny Brokers（RH NFT GTD FREE live→PUBLIC≈10:27CST）、TapeFour（BNB TapeOut挖矿/Meme CA已开）、Weird Cats（Weirdlist→RH mint TBA）；2h可操作 the Grumps FREE Public 2026-10-19 05:30 CST；面板：https://reboot7454.github.io/early-scout/",
+  "summary": "R252全覆盖雷达：新收录3（Bunny Brokers RH GTD live；TapeFour BNB Tape挖矿；Weird Cats Weirdlist）。Tape/电路/BTC/Elysium/X链pad/PaperBird/挖矿/软债均刷新；Elysium eco diff持平KeepOut持；Discord本端deferred。≤2h：the Grumps FREE Public≈05:30CST。",
+  "newAdmits": [
+    {
+      "id": "bunny-brokers",
+      "name": "Bunny Brokers",
+      "handle": "@bunnybrokers",
+      "category": "打新",
+      "chain": "Robinhood Chain",
+      "followers": 1864
+    },
+    {
+      "id": "tapefour",
+      "name": "TapeFour",
+      "handle": "@TapeFourbsc",
+      "category": "挖矿",
+      "chain": "BNB",
+      "followers": 5205
+    },
+    {
+      "id": "weirdcats",
+      "name": "Weird Cats",
+      "handle": "@weirdcats_nft",
+      "category": "打新",
+      "chain": "Robinhood Chain",
+      "followers": 3246
+    }
+  ],
+  "updatedExisting": [
+    {
+      "id": "tapeai",
+      "what": "快照今晚20:00 CST；粉≈2482；电路板勿Elysium"
+    },
+    {
+      "id": "starcatokx",
+      "what": "Oct19仍token not live；桥已开+Pumpfun X Layer；粉≈1288"
+    },
+    {
+      "id": "the-grumps",
+      "what": "PUBLIC FREE≈05:30 CST（≤2h）已开窗"
+    },
+    {
+      "id": "farming-season",
+      "what": "CA 16:00UTC / Game 16:30UTC；粉≈6607"
+    },
+    {
+      "id": "null-xmr",
+      "what": "mint Oct20确认；粉≈2096"
+    },
+    {
+      "id": "nullmaskio",
+      "what": "补官推@NullMaskioRH粉≈13"
+    },
+    {
+      "id": "vaultstreet",
+      "what": "补@VaultStreet_rh；EA10-22/Public10-23"
+    },
+    {
+      "id": "elytra-nft",
+      "what": "粉≈168；Elysium On testnet续"
+    },
+    {
+      "id": "enter-elysium",
+      "what": "eco持平；KeepOut持；无独立官推不admit"
+    },
+    {
+      "id": "hoodnutts",
+      "what": "补@HoodNFTz2"
+    },
+    {
+      "id": "arcade-hood",
+      "what": "补@jclugaweii"
+    },
+    {
+      "id": "mannequins-noir",
+      "what": "Shielded Noir imminent；粉≈3457"
+    }
+  ],
+  "rejected": [
+    {
+      "id": "circuit-fighters",
+      "reason": "DS score admit=false：仅17粉且无明确参与入口"
+    },
+    {
+      "id": "hexswap-elysium",
+      "reason": "Elysium eco无独立可核验官推"
+    },
+    {
+      "id": "marketlab-elysium",
+      "reason": "Elysium eco无独立可核验官推"
+    },
+    {
+      "id": "dex-da-costa",
+      "reason": "仅个人号@ThePhunky1，非独立项目官推"
+    },
+    {
+      "id": "tapeout-cf",
+      "reason": "社区基金会/设计赛，无明确mint窗"
+    }
+  ],
+  "skippedMature": [
+    {
+      "handle": "@VaultStreet_rh",
+      "reason": "≈10.2k 已有卡续更"
+    },
+    {
+      "handle": "@farmingseasonio",
+      "reason": "≈6.6k 已有卡续更"
+    },
+    {
+      "handle": "@TapeFourbsc",
+      "reason": "≈5.2k 但Tape系列缺口 DS仍admit"
+    },
+    {
+      "handle": "@vibevibefun",
+      "reason": "≈833k 过热"
+    }
+  ],
+  "actionable2h": [
+    {
+      "id": "the-grumps",
+      "name": "the Grumps",
+      "when": "2026-10-19 05:30 CST",
+      "what": "FREE Public"
+    }
+  ],
+  "discordPeekDeferred": true,
+  "discordPeek": {
+    "deferred": true,
+    "reason": "skipped-no-login",
+    "note": "用户要求本轮不登录DC；仓内已有DC线索照收"
+  },
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": 3,
+    "purpose": [
+      "admit",
+      "score",
+      "alert"
+    ]
+  },
+  "clearedPrevNewThisRound": [
+    "lattice-swaps",
+    "dunesmy",
+    "nubi-launch-rh",
+    "sailpaddotfun"
+  ],
+  "watchesRefreshed": [
+    "Tape/电路",
+    "BTC隐私",
+    "X链pad",
+    "PaperBird",
+    "Elysium",
+    "Canton",
+    "Glaze",
+    "TokenWorks"
+  ],
+  "push": {
+    "ok": false,
+    "commit": null,
+    "sha": null,
+    "remote": "origin/main"
+  },
+  "remoteVerified": false
+}
