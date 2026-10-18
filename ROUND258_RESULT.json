@@ -1,0 +1,143 @@
+{
+  "round": 258,
+  "completedAt": "2026-10-19 07:19 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "discord-alpha-peek-only",
+  "adoptedRound": true,
+  "adoptNote": "pull后 remote 已占 R257（全覆盖 basis-terminal/perma-eotm），本轮升格为258，未覆盖R257",
+  "notify": true,
+  "notifyReason": "Discord Peek gap-fill real new admits",
+  "alertMessage": "【R258 Discord Peek补漏】新增1个：SYNCH（台子/Meme·Robinhood Chain），面板见 https://reboot7454.github.io/early-scout/",
+  "summary": "R258 Discord alpha 补漏：新收录 1（synthlaunch）；拒 6；跳过成熟/个人；仅 DC Peek，未跑全量网页雷达。lastSeen→2026-10-19 07:15 CST。",
+  "newAdmits": [
+    {
+      "id": "synthlaunch",
+      "name": "SYNCH",
+      "handle": "@Synthlaunch",
+      "category": "台子/Meme",
+      "chain": "Robinhood Chain",
+      "followers": 9
+    }
+  ],
+  "rejected": [
+    {
+      "handle": "@neio_network",
+      "reason": "加密交易自动化工具，非打新标的，无官网无代币信息，无法操作"
+    },
+    {
+      "handle": "@SpectreSI_",
+      "reason": "3 粉丝且产品名堆砌（Wraith/SaunaMap/Shield 等），无官网，疑似空壳或拼凑叙事"
+    },
+    {
+      "handle": "@fundseedly",
+      "reason": "0 粉丝、无官网，仅一句产品描述，无可验证信息，暂不收"
+    },
+    {
+      "handle": "@SIReserves",
+      "reason": "无简介无官网，信息不足，无法判断项目实体"
+    },
+    {
+      "handle": "@gachamonio",
+      "reason": "无简介无官网，仅有认证徽章，非可操作打新信息"
+    },
+    {
+      "handle": "@weftfinance",
+      "reason": "已成型的 DeFi 交易执行产品，不属极早期打新标的，按规则成熟 DeFi 不收"
+    }
+  ],
+  "skippedMature": [
+    {
+      "handle": "@helloluis",
+      "name": "Luis Buenaventura",
+      "followers": 18199,
+      "bio": "Crypto author, artist, and entrepreneur. Training small AI models at http://hiraia.org/, designing fun stuff at http://cryptopop.art/",
+      "website": "http://hiraia.org/",
+      "msgTime": "2026-10-19 06:55 CST",
+      "channel": "smart-accounts-tracker",
+      "reason": ">5k followers (18199); established personal KOL"
+    }
+  ],
+  "skippedPersonalOrShell": [
+    {
+      "handle": "@Badaibiru007",
+      "reason": "personal name; bio is a single word, not a project account"
+    },
+    {
+      "handle": "@DAMBEkids",
+      "reason": "personal"
+    },
+    {
+      "handle": "@romyofweb",
+      "reason": "personal, 0 followers"
+    },
+    {
+      "handle": "@tgh740340081453",
+      "reason": "ambassador personal, not the project account"
+    },
+    {
+      "handle": "@ak1plus",
+      "reason": "personal, non-crypto"
+    },
+    {
+      "handle": "@muna_pras",
+      "reason": "personal"
+    },
+    {
+      "handle": "@Bukan_akuntogel",
+      "reason": "personal"
+    },
+    {
+      "handle": "@TippiTippo88",
+      "reason": "personal farmer/OG, not a project"
+    },
+    {
+      "handle": "@shelbyofweb_3",
+      "reason": "personal gamer account, under 5k"
+    },
+    {
+      "handle": "@tarkitsana8",
+      "reason": "non-crypto language-learning founder"
+    },
+    {
+      "handle": "@_Seeker_128",
+      "reason": "personal NFT hobby, no project name"
+    },
+    {
+      "handle": "@yv76india",
+      "reason": "personal"
+    },
+    {
+      "handle": "@ElsaMocu",
+      "reason": "personal"
+    }
+  ],
+  "skippedAlreadyIn": [
+    {
+      "handle": "@Umbra_Inference",
+      "reason": "already in data.json"
+    },
+    {
+      "handle": "@paperbird_lol",
+      "reason": "already in data.json"
+    }
+  ],
+  "discordPeekDeferred": false,
+  "discordPeek": {
+    "lastSeenBefore": "2026-10-19 06:25 CST",
+    "lastSeen": "2026-10-19 07:15 CST",
+    "newestMsgTime": "2026-10-19 07:15 CST",
+    "cardsAfterCutoff": 9,
+    "admitted": 1
+  },
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": 2,
+    "purpose": "admit/score/栏位"
+  },
+  "prevNewCleared": [
+    "basis-terminal",
+    "perma-eotm"
+  ],
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
