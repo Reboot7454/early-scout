@@ -333,7 +333,12 @@
     return false;
   }
 
-  /** Elysium / Enter_Elysium ecosystem — mutual-exclusive 6th column (like LayerZero). */
+  /** Elysium / Enter_Elysium ecosystem — mutual-exclusive 6th column (like LayerZero).
+   *  Admit: column / tag `Elysium生态` only for On testnet, or Announced with a
+   *  concrete Elysium deployment, on https://elysium.kinetiq.xyz/ecosystem.
+   *  Exploring, "considering", or vague Hyperliquid adjacency is not enough.
+   *  PerpMe stays out by user decision even though that page lists it On testnet.
+   */
   function isElysium(c) {
     if (!c) return false;
     const eco = String(c.ecosystem || "").toLowerCase();
@@ -1058,16 +1063,22 @@
       )
       .join("");
 
-    const maxRound = Math.max(
-      1,
-      ...state.data.candidates.map((c) => Number(c.round) || 1)
-    );
+    // Only rounds that actually have a visible candidate. Scout runs that only
+    // refresh schedules / ≤2h alerts leave gaps (e.g. 202–205) with zero cards.
+    const presentRounds = new Set();
+    for (const c of state.data.candidates) {
+      if (!hasTwitter(c)) continue;
+      const n = Number(c.round) || 1;
+      if (Number.isFinite(n)) presentRounds.add(n);
+    }
     const rounds = [
       { id: "all", label: "全部轮次" },
-      ...Array.from({ length: maxRound }, (_, i) => ({
-        id: String(i + 1),
-        label: `轮次 ${i + 1}`,
-      })),
+      ...[...presentRounds]
+        .sort((a, b) => a - b)
+        .map((n) => ({
+          id: String(n),
+          label: `轮次 ${n}`,
+        })),
     ];
     const totalRoundPages = Math.max(1, Math.ceil(rounds.length / ROUND_PAGE_SIZE));
     if (state.roundPage == null) {
