@@ -595,7 +595,7 @@ BACKFILL: dict[str, dict] = {
             "note": "引流 WL；正式 mint 未锁（高域名风险）",
         }
     },
-"ulton-genesis": {
+    "ulton-genesis": {
         "schedule": {
             "status": "live",
             "timezone": "Asia/Shanghai",
@@ -752,15 +752,13 @@ def now_meta() -> tuple[str, str]:
     return now.strftime("%Y-%m-%d %H:%M CST"), now.isoformat()
 
 
-def apply_backfill(data: dict) -> dict:
-    updated_s, updated_iso = now_meta()
+def apply_backfill(data: dict) -> tuple[dict, int, int]:
+    """Apply BACKFILL map. Idempotent: identical schedule/onchain patches are no-ops.
+    Does not invent times — only copies explicit map entries. Never clobbers
+    sold_out/ended/cancelled or fresher non-inferred scout sources.
+    Meta timestamps update only when something actually changes.
+    """
     data = deepcopy(data)
-    meta = data.setdefault("meta", {})
-    meta["updated"] = updated_s
-    meta["lastScout"] = updated_iso
-    meta["features"] = ["schedule", "onchain"]
-    meta["timezone"] = "Asia/Shanghai"
-
     n_sched = 0
     n_onchain = 0
     for c in data.get("candidates", []):
@@ -780,22 +778,49 @@ def apply_backfill(data: dict) -> dict:
             # Prefer Rxxx scout sources over generic "inferred" when already filled.
             if ex_src and "inferred" in patch_src and "inferred" not in ex_src and existing.get("status"):
                 pass
+            elif existing == patch["schedule"]:
+                pass  # already identical — keep idempotent
             else:
                 c["schedule"] = deepcopy(patch["schedule"])
                 n_sched += 1
         if "onchain" in patch:
-            # keep richer onchain notes if already sold_out archived
+            # keep richer onchain notes if schedule already terminal
             if existing.get("status") not in ("sold_out", "ended", "cancelled"):
-                c["onchain"] = deepcopy(patch["onchain"])
-                n_onchain += 1
+                if c.get("onchain") != patch["onchain"]:
+                    c["onchain"] = deepcopy(patch["onchain"])
+                    n_onchain += 1
+
+    if n_sched or n_onchain:
+        updated_s, updated_iso = now_meta()
+        meta = data.setdefault("meta", {})
+        meta["updated"] = updated_s
+        meta["lastScout"] = updated_iso
+        meta["features"] = ["schedule", "onchain"]
+        meta["timezone"] = "Asia/Shanghai"
     return data, n_sched, n_onchain
 
 
 def main() -> None:
+    import argparse
+    ap = argparse.ArgumentParser(description="Backfill schedule/onchain from evidence map (no invented times).")
+    ap.add_argument("--dry-run", action="store_true", help="Print counts only; do not write data.json")
+    args = ap.parse_args()
     raw = json.loads(DATA.read_text(encoding="utf-8"))
     data, n_sched, n_onchain = apply_backfill(raw)
-    DATA.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({"ok": True, "scheduleFilled": n_sched, "onchainFilled": n_onchain, "updated": data["meta"]["updated"]}, ensure_ascii=False))
+    out = {
+        "ok": True,
+        "dryRun": bool(args.dry_run),
+        "scheduleFilled": n_sched,
+        "onchainFilled": n_onchain,
+        "updated": (data.get("meta") or {}).get("updated"),
+        "wrote": False,
+    }
+    if not args.dry_run and (n_sched or n_onchain):
+        DATA.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        out["wrote"] = True
+    elif not args.dry_run:
+        out["wrote"] = False  # nothing changed — leave file untouched
+    print(json.dumps(out, ensure_ascii=False))
 
 
 if __name__ == "__main__":

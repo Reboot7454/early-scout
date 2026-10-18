@@ -46,15 +46,17 @@
 - 可选字段 `miningType`：`gpu-pow` | `nft-mutation` | `nft-miner` | `other`；`tags` 含 `挖矿`/`PoW`/`变异盘`。
 - 面板：重点/收藏为顶部横条；宽屏（≥1280px）六列 `.board`，顺序 **打新 | 挖矿 | 台子/Meme | GO盘 | LayerZero | Elysium 生态**；1280–1679 可横向滚动（列 min≈180px），≥1680 六列均分。窄屏纵向堆叠，顺序相同。
 - 互斥归类（一条只进一列，**仅栏位分配、非搜刮权重**）：属 Elysium 生态的进第六栏（`ecosystem:"Elysium"` / tags 含 `Elysium生态` / chain 含 Elysium）→ 否则 LayerZero → 挖矿 → GO盘 → 台子/Meme → 其余打新。重点横条（`focus: true` / `meta.focusIds` / tags 含 `重点`）默认不进其它列；**Elysium 栏例外**可与重点条重复展示生态本体。例行搜刮对各栏/生态同等努力。
+- **台子/Meme 归类**：以 `category` ∈ {台子/Meme, 新台, Meme, Launchpad} 为准；仅强 tag（`台子/Meme` / `新台`）可补判。NFT 打新上的零散 `Launchpad`/`Meme` tag **不得**挤进台子列。**GO盘**以 `category==="GO盘"` 或 tag `GO盘`/`go玩法` 等为准（勿漏检）。
 - 「全部链」筛区有独立芯片 **Elysium 生态**（按 `isElysium`，不只看单链名）。
 - 默认排序「最新信号」：有 `firstSeen` 或 `addedAt` 则新的在前，否则 `round` 降序；同轮 `whatsNew` 非空优先，再按 `scores.overall` / `earlyScore`。六列共用；下拉仍可改早期程度 / 综合 / 日程 / 风险 / 名称。
 - 挖矿列保持紧凑 `.mining-row` + GPU PoW / NFT 变异 / Miner NFT / 其他。打新、台子/Meme、GO盘、LayerZero、Elysium 用完整卡片。点品类「挖矿」或顶栏药丸跳到对应列；LayerZero / Elysium 监控顶栏/芯片可跳对应栏。
 - 例行搜刮需**同等努力**覆盖：打新、挖矿（GPU/AI-PoW、NFT 变异/Miner）、台子·Meme、GO盘、LayerZero、以及其它生态；Elysium 类（见下）为加栏加盯一例，附带扫即可。
 
-## 5) 重点栏（focus）
+## 5) 重点横条（focus · 非栏位）
 
-- 新列 **重点**（zone id `focus`），视觉强调（玫粉/琥珀描边 + 「重点」chip），**左起第一列**。
-- 归入条件（任一即可，且优先于 LZ/挖矿等）：`focus: true` · `id ∈ meta.focusIds` · `tags` 含 `重点`。
+- **重点**是搜索/统计下方的顶部横条（`#focus-panel`），**不是**六列之一；与轮次筛选无关，常驻。
+- 归入条件（任一即可）：`focus: true` · `id ∈ meta.focusIds` · `tags` 含 `重点`。视觉：玫粉/琥珀描边 + 「重点」chip。
+- 默认**只上横条、不进六列**；**唯一例外**：Elysium 生态本体可同时出现在重点条与 Elysium 栏（`renderColumn`：`zone==="elysium" || !isFocus`）。
 - 种子：`squeekchain`（首位）· `hamster-hour`。例行可把清晰早期 peer 以 `focus: true` 收入，或至少打 `重点` tag 并记入 `meta.focusWatch`。
 - `meta.focusWatch`：accounts + categoryScan + admitRule；**每轮例行扫描本类**（非整账号时间线监控）。
 
@@ -62,13 +64,13 @@
 ## 6) 收藏（favorites · 客户端）
 
 - 每张卡片 / 挖矿行有 ☆/★ 收藏按钮，一键切换。
-- 「收藏」横条在「重点」下方、五列看板上方；**不依赖轮次筛选**（与重点条同为全局条）。
+- 「收藏」横条在「重点」下方、**六列**看板上方；**不依赖轮次筛选**（与重点条同为全局条）。
 - 数据仅存浏览器 `localStorage` 键 `early-scout-favorites`（candidate id 数组）；不改 `data.json` schema。
 - 收藏条展示日程倒计时（复用 `scheduleChip`，≈72h / LIVE）；点击条目或 X 打开 `links.x`。
 - 空态：「点卡片上的☆收藏」。与系统「重点」（`focus:true`）互不混淆。
 
 
-## 6) 例行扩展关注（非全量 X 监控）
+## 7) 例行扩展关注（非全量 X 监控）
 
 - **TokenWorks Playground**：盯 `@Rhynotic`（兼 `@token_works`）与站 https://playground.token.works/ ——策展小组发射/分账台（ETH+Robinhood）；关注 `launchesEnabled`、首批想法（FWA 配对）、工厂公开部署。归台子/Meme，勿因跨链字样进 LayerZero。
 - **实验玩具链 / 实体+链上（重点栏 standing watch）**：每轮扫同类信号——仓鼠/动物 PoW toychain、硬件矿机 novelty 链、实体物理装置上链验证、公平分配实验 L1/L2 且仍预发币/测试网。种子账号 `@squeekchain` `@squeektoshi` `@pillheadddd` `@hamsterhourgame`；同类有推特的清晰早期 peer → 重点栏（`squeekchain` 保持首位）。
@@ -78,7 +80,7 @@
 - 此类为品类扩展监视（与 LZ / 玩具链 / Peek 对账并列），**不是**恢复全量 X 账号时间线监控，也**不是**对其它栏的替代。
 
 
-## 7) Peek/潜力榜对账（学习规则 · 非照搬）
+## 8) Peek/潜力榜对账（学习规则 · 非照搬）
 
 每轮例行增加一次 **Peek / 潜力榜对账**，目的是**发现信源盲区并改进搜刮**，不是把榜单当收录清单。
 

@@ -302,15 +302,17 @@
     return false;
   }
 
-  /** Location / AR / walk-to-earn launches. Mining is decided first, so this never steals a mining row. */
+  /** Location / AR / walk-to-earn / GO盘 launches. Mining is decided first, so this never steals a mining row. */
   function isGoPlay(c) {
     if (!c) return false;
+    if (String(c.category || "") === "GO盘") return true;
     if (String(c.playStyle || "").toLowerCase() === "go") return true;
     const idn = `${c.id || ""} ${c.name || ""}`.toLowerCase().replace(/[^a-z0-9]+/g, "");
     if (idn.includes("pumpgo") || idn.includes("stokn")) return true;
     for (const raw of c.tags || []) {
       const s = String(raw);
       const low = s.toLowerCase();
+      if (s === "GO盘" || s.includes("GO盘")) return true;
       if (s.includes("定位") || low.includes("go玩法") || s.includes("地图") || s.includes("走路挖矿")) {
         return true;
       }
@@ -368,9 +370,12 @@
 
   function isPlatformMeme(c) {
     if (!c) return false;
+    // Zone by category first (canonical 台子/Meme + legacy aliases).
     if (PLATFORM_CATS.has(c.category)) return true;
+    // Tags: only strong zone tags. Bare "Launchpad"/"Meme" on NFT mints must NOT
+    // steal 打新 → 台子 (zenkaihood/nulora class false positives).
     const tags = (c.tags || []).map((t) => String(t));
-    if (tags.some((t) => PLATFORM_CATS.has(t) || t === "台子/Meme" || t === "新台")) return true;
+    if (tags.some((t) => t === "台子/Meme" || t === "新台")) return true;
     return false;
   }
 
@@ -806,7 +811,7 @@
   }
 
   /** Focus strip is global: all focus:true / isFocus items, independent of round (and other chip filters).
-   *  Round/category/chain/LZ/schedule filters apply only to the five daily columns via passesShared. */
+   *  Round/category/chain/LZ/schedule filters apply only to the six board columns via passesShared. */
   function focusItems() {
     let list = state.data.candidates.filter((c) => isFocus(c) && hasTwitter(c));
     list = sortList(list);
