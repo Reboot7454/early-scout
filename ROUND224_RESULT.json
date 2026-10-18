@@ -215,10 +215,23 @@
     }
   ],
   "push": {
-    "ok": false,
-    "note": "pending"
+    "commit": "ff0d6f5",
+    "ok": true,
+    "branch": "main",
+    "files": [
+      "data.json",
+      "ROUND224_RESULT.json"
+    ],
+    "remoteVerified": true,
+    "remoteRound": 224,
+    "remoteNewThisRound": [
+      "foxora",
+      "kakudo",
+      "usepackz"
+    ],
+    "pagesNote": "GitHub raw round=224 count=614；Pages CDN 可能短暂缓存"
   },
-  "remoteVerified": false,
+  "remoteVerified": true,
   "dsUsage": {
     "model": "deepseek-flash",
     "thinking": true,
