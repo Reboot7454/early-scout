@@ -1403,6 +1403,45 @@
           "hexswap"
         ],
         "note": "Trencher+RXP+eco；DS admit smirk；个人号挂名/过热/无推特 skip"
+      },
+      "discordAlphaPeek": {
+        "enabled": true,
+        "guildId": "1502958818865188956",
+        "channels": [
+          {
+            "name": "alpha-1",
+            "id": "1527862926885785710",
+            "role": "primary",
+            "note": "Spidey Bot / X Follow Monitor cards — main Peek gap-fill source"
+          },
+          {
+            "name": "alpha-1-backup",
+            "id": null,
+            "role": "backup",
+            "note": "backup channel for alpha-1 Peek signals when primary is quiet"
+          },
+          {
+            "name": "smart-accounts-tracker",
+            "id": null,
+            "role": "aux",
+            "note": "smart-accounts tracker — aux monitor-source hints only"
+          },
+          {
+            "name": "alpha-3-new-accounts",
+            "id": null,
+            "role": "aux",
+            "note": "alpha-3 new accounts — aux early-account hints only"
+          }
+        ],
+        "purpose": "Peek gap-fill only (not full X monitor)",
+        "lastSeen": null,
+        "bots": [
+          "Spidey Bot",
+          "X Follow Monitor",
+          "Captain Hook"
+        ],
+        "hungInto": "35m routine",
+        "note": "每轮 35m 例行挂载：只补我们漏掉且仍极早期的项；六栏归类；非全量 X 时间线监控"
       }
     },
     "round187Added": [
@@ -1755,7 +1794,46 @@
       "evmdotchat"
     ],
     "sourceNote": "R238: Discord #alpha-1 Peek补漏（follow-monitor 卡片）→ 新收录5；跳过已有 Unruly/0Zero/brainfarts/Cathereum/xstokfun；无恢复全量X监控",
-    "peekNote": "R238 Peek补漏自 Discord #alpha-1：inkfun/nicrofinance/raisedmoney/needles-on-ink/evmdotchat；去重 Unruly/0Zero/brainfarts/Cathereum/xstokfun"
+    "peekNote": "R238 Peek补漏自 Discord #alpha-1：inkfun/nicrofinance/raisedmoney/needles-on-ink/evmdotchat；去重 Unruly/0Zero/brainfarts/Cathereum/xstokfun",
+    "discordAlphaPeek": {
+      "enabled": true,
+      "guildId": "1502958818865188956",
+      "channels": [
+        {
+          "name": "alpha-1",
+          "id": "1527862926885785710",
+          "role": "primary",
+          "note": "Spidey Bot / X Follow Monitor cards — main Peek gap-fill source"
+        },
+        {
+          "name": "alpha-1-backup",
+          "id": null,
+          "role": "backup",
+          "note": "backup channel for alpha-1 Peek signals when primary is quiet"
+        },
+        {
+          "name": "smart-accounts-tracker",
+          "id": null,
+          "role": "aux",
+          "note": "smart-accounts tracker — aux monitor-source hints only"
+        },
+        {
+          "name": "alpha-3-new-accounts",
+          "id": null,
+          "role": "aux",
+          "note": "alpha-3 new accounts — aux early-account hints only"
+        }
+      ],
+      "purpose": "Peek gap-fill only (not full X monitor)",
+      "lastSeen": null,
+      "bots": [
+        "Spidey Bot",
+        "X Follow Monitor",
+        "Captain Hook"
+      ],
+      "hungInto": "35m routine",
+      "note": "每轮 35m 例行挂载：只补我们漏掉且仍极早期的项；六栏归类；非全量 X 时间线监控"
+    }
   },
   "candidates": [
     {

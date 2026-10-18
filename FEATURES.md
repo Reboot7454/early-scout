@@ -90,6 +90,7 @@
 - **只对照**：NFT·新台·AI 发射·极早期 DeFi/GameFi（Ink 算法艺术、Solana·HL 早期台、AI agent 盘等品类监视可扩）。
 - **可补录条件**：有可核验推特 + 仍处极早期可观察/可操作窗口 + 我们主信源（Trencher/NorthBound/RobinXP/OpenSea/Web）漏掉。
 - **禁止**：把 Peek 热度榜整表入库；收成熟协议 / Infra 空壳 / 疑似刷量 / 中后期 DeFi；为「对账完成」而扩容。
+- **Discord `#alpha-1` Peek（`meta.discordAlphaPeek` / `meta.watches.discordAlphaPeek`）**：已挂入 **35m 例行**作 Peek对账补漏；只补漏且仍极早期的项；六栏归类；**不是**全量 X 时间线监控。主频道 alpha-1（Spidey Bot / X Follow Monitor / Captain Hook）；backup / smart-accounts-tracker / alpha-3-new-accounts 辅助。
 - **仍非**全量 X 账号时间线监控；对账是品类学习扫描，执行端只拉信号/改 json/push，文案与打分走 deepseek-flash（thinking on）。
 
 ## DeepSeek 省用量（硬卸载 · 2026-10-17）
