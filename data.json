@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-19 04:36 CST",
+    "updated": "2026-10-19 05:23 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "R248 full scout X+Elysium eco+DS；Discord deferred",
@@ -289,7 +289,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 250,
+    "round": 251,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -366,7 +366,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 694,
+    "candidateCount": 698,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -737,8 +737,10 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "zkrpt",
-      "null-xmr"
+      "lattice-swaps",
+      "dunesmy",
+      "nubi-launch-rh",
+      "sailpaddotfun"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1087,7 +1089,7 @@
       "nopad",
       "routr-network"
     ],
-    "previousRound": 249,
+    "previousRound": 250,
     "round183Added": [
       "heygrok",
       "grail-break",
@@ -1874,8 +1876,8 @@
       "smirk"
     ],
     "clearedNewThisRound": [
-      "bankrdex",
-      "catonice-rh"
+      "zkrpt",
+      "null-xmr"
     ],
     "round238Added": [
       "inkfun",
@@ -1916,19 +1918,19 @@
         }
       ],
       "purpose": "Peek gap-fill only (not full X monitor)",
-      "lastSeen": "2026-10-19 04:31 CST",
+      "lastSeen": "2026-10-19 05:13 CST",
       "bots": [
         "Spidey Bot",
         "X Follow Monitor",
         "Captain Hook"
       ],
       "hungInto": "discord-alpha-40m routine",
-      "note": "R249: Discord Peek 补漏；新收 bankrdex、catonice-rh；跳过 The Hub(非极早期)/FeeMarkets(X不可用)/votaries·arkiv提及/空壳",
-      "lastChecked": "2026-10-19 04:36 CST",
-      "lastAttempt": "2026-10-19 04:36 CST",
-      "lastResult": "ok_peek_r249",
+      "note": "R251: Discord Peek 补漏；新收 lattice-swaps, dunesmy, nubi-launch-rh, sailpaddotfun",
+      "lastChecked": "2026-10-19 05:23 CST",
+      "lastAttempt": "2026-10-19 05:23 CST",
+      "lastResult": "ok_peek_r251",
       "discordPeekDeferred": false,
-      "lastSeenBefore": "2026-10-19 03:21 CST"
+      "lastSeenBefore": "2026-10-19 04:31 CST"
     },
     "round239Added": [
       "tsunamilaunch",
@@ -1985,8 +1987,8 @@
       "qlyphs"
     ],
     "prevNewThisRoundCleared": [
-      "bankrdex",
-      "catonice-rh"
+      "zkrpt",
+      "null-xmr"
     ],
     "round248Added": [
       "oath-network",
@@ -1998,14 +2000,22 @@
       "catonice-rh"
     ],
     "roundNAdded": [
-      "bankrdex",
-      "catonice-rh"
+      "lattice-swaps",
+      "dunesmy",
+      "nubi-launch-rh",
+      "sailpaddotfun"
     ],
     "round250Added": [
       "zkrpt",
       "null-xmr"
     ],
-    "btcZoneNoteR250": "R250: ShieldedNaka≈3257；Order of None≈198；Mannequins Noir mint imminent；Solemn Trollbox≈10-20；新收 null-xmr（Monero mint 10-20）"
+    "btcZoneNoteR250": "R250: ShieldedNaka≈3257；Order of None≈198；Mannequins Noir mint imminent；Solemn Trollbox≈10-20；新收 null-xmr（Monero mint 10-20）",
+    "round251Added": [
+      "lattice-swaps",
+      "dunesmy",
+      "nubi-launch-rh",
+      "sailpaddotfun"
+    ]
   },
   "candidates": [
     {
@@ -51033,7 +51043,7 @@
       ],
       "source": "X @zkrptprivacy R250",
       "round": 250,
-      "newThisRound": true,
+      "newThisRound": false,
       "lzVerified": false,
       "focus": false,
       "status": "watching",
@@ -51093,7 +51103,7 @@
       ],
       "source": "X @nullonxmr R250",
       "round": 250,
-      "newThisRound": true,
+      "newThisRound": false,
       "lzVerified": false,
       "focus": false,
       "status": "watching",
@@ -51117,10 +51127,194 @@
         ]
       },
       "twitter": "@nullonxmr"
+    },
+    {
+      "id": "lattice-swaps",
+      "name": "LATTICE",
+      "handle": "@LatticeSWAPS",
+      "category": "台子/Meme",
+      "chain": "Multi",
+      "tags": [
+        "台子/Meme",
+        "post-quantum",
+        "swap",
+        "极早期",
+        "discord-alpha"
+      ],
+      "scores": {
+        "overall": 74,
+        "early": 88,
+        "actionable": 70,
+        "novelty": 85,
+        "risk": 55
+      },
+      "highlights": "主打后量子 ML-KEM-768 跨链兑换，叙事新颖；覆盖多链，若真实落地有差异化。",
+      "drawbacks": "粉丝少、产品细节与合约地址未明；后量子叙事偏概念，需验证真实兑换与流动性。",
+      "whatsNew": "Discord alpha 备份频道新出现，定位为多链后量子兑换；R251 Discord Peek 新收录",
+      "links": {
+        "x": "https://x.com/LatticeSWAPS"
+      },
+      "followers": 64,
+      "whyWatch": "极早期且方向独特，适合先观察产品与链上部署进展。",
+      "sources": [
+        "discord-alpha-1-backup"
+      ],
+      "source": "discord-alpha-peek",
+      "lzVerified": false,
+      "focus": false,
+      "status": "watching",
+      "mintStatus": "未知/未上线",
+      "riskLevel": "中",
+      "earlyScore": 88,
+      "schedule": null,
+      "round": 251,
+      "newThisRound": true,
+      "addedAt": "2026-10-19 05:23 CST",
+      "firstSeen": "2026-10-19 05:23 CST",
+      "lastChecked": "2026-10-19 05:23 CST"
+    },
+    {
+      "id": "dunesmy",
+      "name": "MyDunes",
+      "handle": "@dunesmy",
+      "category": "台子/Meme",
+      "chain": "Robinhood Chain",
+      "tags": [
+        "台子/Meme",
+        "Private AI",
+        "Robinhood Chain",
+        "极早期",
+        "discord-alpha"
+      ],
+      "scores": {
+        "overall": 67,
+        "early": 82,
+        "actionable": 62,
+        "novelty": 78,
+        "risk": 65
+      },
+      "highlights": "Robinhood Chain 上的隐私 AI，强调无账号、无 prompt 日志，有官网入口。",
+      "drawbacks": "0 粉丝，AI 与链上结合点未说明；隐私承诺和代币/启动机制需验证。",
+      "whatsNew": "新出现在 alpha-3，主打隐私 AI 与 Robinhood Chain；R251 Discord Peek 新收录",
+      "links": {
+        "x": "https://x.com/dunesmy",
+        "site": "https://dunes.my/"
+      },
+      "followers": 0,
+      "whyWatch": "极早期官网已挂，若后续发币或启动可第一时间跟踪。",
+      "sources": [
+        "discord-alpha-3"
+      ],
+      "source": "discord-alpha-peek",
+      "lzVerified": false,
+      "focus": false,
+      "status": "watching",
+      "mintStatus": "未知/未上线",
+      "riskLevel": "中高",
+      "earlyScore": 82,
+      "schedule": null,
+      "round": 251,
+      "newThisRound": true,
+      "addedAt": "2026-10-19 05:23 CST",
+      "firstSeen": "2026-10-19 05:23 CST",
+      "lastChecked": "2026-10-19 05:23 CST"
+    },
+    {
+      "id": "nubi-launch-rh",
+      "name": "Nubi RH",
+      "handle": "@NubiLaunchRH",
+      "category": "打新",
+      "chain": "Robinhood Chain",
+      "tags": [
+        "打新",
+        "launchbot",
+        "Robinhood Chain",
+        "极早期",
+        "discord-alpha"
+      ],
+      "scores": {
+        "overall": 73,
+        "early": 86,
+        "actionable": 75,
+        "novelty": 80,
+        "risk": 60
+      },
+      "highlights": "Prompt-to-launch 的 launchbot，定位清晰，符合打新/发射台方向。",
+      "drawbacks": "粉丝极少，尚未披露合约、费用与防 rug 机制。",
+      "whatsNew": "新 launchbot 项目在 alpha-3 曝光；R251 Discord Peek 新收录",
+      "links": {
+        "x": "https://x.com/NubiLaunchRH"
+      },
+      "followers": 2,
+      "whyWatch": "发射台赛道早期入口，关注是否开放测试与链上合约。",
+      "sources": [
+        "discord-alpha-3"
+      ],
+      "source": "discord-alpha-peek",
+      "lzVerified": false,
+      "focus": false,
+      "status": "watching",
+      "mintStatus": "未知/未上线",
+      "riskLevel": "中",
+      "earlyScore": 86,
+      "schedule": null,
+      "round": 251,
+      "newThisRound": true,
+      "addedAt": "2026-10-19 05:23 CST",
+      "firstSeen": "2026-10-19 05:23 CST",
+      "lastChecked": "2026-10-19 05:23 CST"
+    },
+    {
+      "id": "sailpaddotfun",
+      "name": "Sail",
+      "handle": "@sailpaddotfun",
+      "category": "打新",
+      "chain": "Robinhood Chain",
+      "tags": [
+        "打新",
+        "launchpad",
+        "RWA",
+        "Robinhood Chain",
+        "极早期",
+        "discord-alpha"
+      ],
+      "scores": {
+        "overall": 74,
+        "early": 85,
+        "actionable": 78,
+        "novelty": 82,
+        "risk": 58
+      },
+      "highlights": "RWA + 自定义 Hooks 的 launchpad，明确 Powered by RobinhoodApp。",
+      "drawbacks": "0 粉丝，官网/合约未给，RWA 与 Hook 组合复杂度高。",
+      "whatsNew": "alpha-3 新出现，主打 RWA 与 Hook 混合发射；R251 Discord Peek 新收录",
+      "links": {
+        "x": "https://x.com/sailpaddotfun"
+      },
+      "followers": 0,
+      "whyWatch": "Robinhood Chain 发射台方向，若开放创建池可早参与。",
+      "sources": [
+        "discord-alpha-3"
+      ],
+      "source": "discord-alpha-peek",
+      "lzVerified": false,
+      "focus": false,
+      "status": "watching",
+      "mintStatus": "未知/未上线",
+      "riskLevel": "中",
+      "earlyScore": 85,
+      "schedule": null,
+      "round": 251,
+      "newThisRound": true,
+      "addedAt": "2026-10-19 05:23 CST",
+      "firstSeen": "2026-10-19 05:23 CST",
+      "lastChecked": "2026-10-19 05:23 CST"
     }
   ],
   "newThisRound": [
-    "bankrdex",
-    "catonice-rh"
+    "lattice-swaps",
+    "dunesmy",
+    "nubi-launch-rh",
+    "sailpaddotfun"
   ]
 }
