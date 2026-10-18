@@ -6,18 +6,18 @@
 
 ## 1. 目标与节奏
 
-- 早期打新雷达：尽量早期为第一标准；六栏等量扫描，**禁止 Elysium / 单链偏科**。
+- 早期打新雷达：尽量早期为第一标准；七栏等量扫描（含 Tape/电路与 BTC），**禁止 Elysium / Tape / 单链偏科**。
 - 例行：`@every 35m`（可灵活 ±10m）。用包内 `ROUTINE_PROMPT.txt` **原文**在新号建例行；**不要**恢复全量 X 账号时间线监控。
 - 工作目录：`/workspace/early-scout/` 或已 clone 的 `early-scout-git`。开跑前必 `git pull`，避免盖掉另一号已推的更高轮次。
 - 推送：只覆盖 `data.json`（及本轮必要 RESULT）到 `main`；Pages 跟 main。
 
 ## 2. 面板与栏位
 
-宽屏六列（2026-10-18）：**打新｜挖矿｜台子/Meme｜GO盘｜LayerZero｜Elysium 生态**。
+宽屏七列：**打新｜挖矿｜台子/Meme｜GO盘｜LayerZero｜Elysium 生态｜Tape/电路**。
 
-- **重点条**：搜索/筛选统计下方、六列**上方**横条（`focus:true` / `meta.focusIds`），**不是**左侧第六列；常驻、与轮次无关。当前 focus 含 squeekchain / TapeAI / Ascend / Enter Elysium 等。
+- **重点条**：搜索/筛选统计下方、七列**上方**横条（`focus:true` / `meta.focusIds`），**不是**看板列；常驻、与轮次无关。当前 focus 含 squeekchain / TapeAI / Ascend / Enter Elysium 等。Tape 与 Elysium 栏可重复展示各自 focus 卡。
 - **收藏**：用户本机 `localStorage`，例行**勿改**。
-- **zoneOf 互斥优先级**：`Elysium > LayerZero > mining > go > meme > scout`。
+- **zoneOf 互斥优先级**：`Elysium > tape > LayerZero > mining > go > meme > scout`。
 - 轮次筛选芯片：只列库内实际有候选的轮次，勿造空轮芯片。
 
 ## 3. DeepSeek 优先（省用量）
@@ -35,7 +35,7 @@
 | 重点 / squeekchain | `@squeekchain` 及仓鼠/实体 PoW toychain、硬件矿机玩梗、未发币或测试网公平分配 → 有推特极早期可 `focus:true` |
 | LayerZero | 自称 LZ/OFT/桥未核验 → `lzVerified=false` 进台子/Meme；明确 tags/chain 或 `lzVerified===true` 才进 LZ；armoreum、oftpad 保持台子/Meme |
 | Elysium | 盯 `@Enter_Elysium`、AscendLaunch / Eloscape / Speculate / Montra / Aegis / kalos 等；对照 https://elysium.kinetiq.xyz/ecosystem ；仅 **On testnet** 或 **Announced 且写明 Elysium 部署** → `ecosystem:"Elysium"` + tag `Elysium生态`。Exploring/仅露名/只靠近 HL → 不进该栏。**硬排除勿回滚**：`perpme` / `branchpoint` / `outrive`（`meta.watches.elysiumKeepOut`） |
-| TapeOut / 电路板 | `meta.blonskrWatch` / `tapeOutWatch`：`@TapeAIAgent @Blonskr @TapeOutWorld @BEMGoGoGo @tapeupio @FirstoAI`；有独立项目推特且极早期才收；标签 `电路板`/`电路NFT`/`TapeOut`；**勿标 Elysium** |
+| TapeOut / 电路板 | 第七栏 Tape/电路。`meta.blonskrWatch` / `tapeOutWatch`：`@TapeAIAgent @Blonskr @TapeOutWorld @BEMGoGoGo @tapeupio @FirstoAI` 及同类电路/TapeOut 项目号；有独立项目推特且极早期才收；标签 `电路板`/`电路NFT`/`TapeOut`；**勿标 Elysium**。行情 tape 撞名不收。加栏不收缩其它栏 |
 | X 链 pad | `meta.xChainPadWatch`：`@StarcatOKX`、`@NinetailsTrade` 及同类 → 台子/Meme |
 | PaperBird | `meta.paperbirdWatch`：`@paperbird_lol` 及同类极早期鸟/meme → 台子/Meme 或打新 |
 | BTC 隐私 | `meta.btcPrivacyWatch` / `watches.btcOrdinals`：`@ShieldedNaka`、`@banknotes_btc` 及同类隐私 Ordinals/CRC20；多进打新，挖矿玩法进挖矿；**禁止漏扫大饼链** |
@@ -53,7 +53,7 @@
 - `candidate.round` = **首次收录轮**（不变）。
 - 「本轮新」只认 `newThisRound` / `roundNAdded`；先清上一轮 `newThisRound`，再写本轮。
 - 新收录**必须有推特**；排期卡需 Twitter 链接。
-- 全覆盖六栏与各链（ETH/Base/Solana/Ink/RH/Injective/**BTC**/Canton/X链 等），含 GPU/PoW、fair-launch、AI 发射、GO/AR 等——**同等努力**。
+- 全覆盖七栏与各链（ETH/Base/Solana/Ink/RH/Injective/**BTC**/Canton/X链 等），含 GPU/PoW、fair-launch、AI 发射、GO/AR、Tape/电路等——**同等努力**。
 
 ## 7. 通知
 
