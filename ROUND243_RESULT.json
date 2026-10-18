@@ -1,12 +1,37 @@
 {
   "round": 243,
-  "completedAt": "2026-10-19 02:37 CST",
+  "completedAt": "2026-10-19 02:39 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
-  "notifyReason": "因≤2h可操作窗口：多个项目已LIVE，另3个约1.5h后开启，需即时关注。",
-  "alertMessage": "≤2h可操作：Ink Chickens/Kitty Cat/Toxic Toads/INKBOX 已LIVE；BLOOPS/Spooky/VORAKEL≈04:00 CST。详见 https://reboot7454.github.io/early-scout/",
-  "summary": "R243无新收录；校准近窗；Tape/挖矿/台子/GO/LZ/Elysium/BTC全覆盖；Discord deferred。",
-  "newAdmits": [],
+  "notifyReason": "Discord #alpha-1 Peek gap-fill real new admits (scout R243 had deferred Discord; live-window notify also prior)",
+  "alertMessage": "【R243 Discord Peek补漏】新收录 THE UNNAMED(zkunnamed)、xFarm(xfarm)、SlamJunkiez(slamjunkiez)。THE UNNAMED 极早期匿名艺术 NFT，关注首发机制；xFarm 5 粉零推，v4 hook farming 需等合约公布；SlamJunkiez 1 粉零推，Robinhood Chain 怀旧 pogs 观察 面板 https://reboot7454.github.io/early-scout/",
+  "summary": "R243 Discord Peek补漏合并：新收录 3（zkunnamed, xfarm, slamjunkiez）；拒 SquariesHQ 空壳；跳过 ElytraNFT 已有。全量网页扫已由他号完成且原 Discord deferred，现补漏合并。",
+  "newAdmits": [
+    {
+      "id": "zkunnamed",
+      "name": "THE UNNAMED",
+      "handle": "@zkunnamed",
+      "category": "打新",
+      "chain": "unknown",
+      "followers": 1504
+    },
+    {
+      "id": "xfarm",
+      "name": "xFarm",
+      "handle": "@xFarmfun",
+      "category": "挖矿",
+      "chain": "Ethereum",
+      "followers": 5
+    },
+    {
+      "id": "slamjunkiez",
+      "name": "SlamJunkiez",
+      "handle": "@SlamJunkiez",
+      "category": "打新",
+      "chain": "Robinhood Chain",
+      "followers": 1
+    }
+  ],
   "updatedExisting": [
     {
       "id": "ink-chickens",
@@ -277,103 +302,30 @@
   "dsUsage": {
     "model": "deepseek-flash",
     "thinking": true,
-    "admit": true,
-    "score": true,
-    "copy": true,
-    "alert": true,
-    "summary": true
+    "calls": [
+      "admit_batch",
+      "score_highlights_batch"
+    ],
+    "admitCount": 3,
+    "rejectCount": 1
   },
   "dsFallback": false,
-  "discordPeekDeferred": true,
+  "discordPeekDeferred": false,
   "skipped": [
     {
-      "id": "streethood-vaults",
-      "reason": "无独立官推skip"
+      "handle": "@ElytraNFT",
+      "reason": "already id=elytra-nft (round 219); skip admit"
     },
     {
-      "id": "stonkhood-birds",
-      "reason": "无独立官推skip"
-    },
-    {
-      "id": "stonkkungfu-pixel",
-      "reason": "无独立官推skip"
-    },
-    {
-      "id": "blooponhoods",
-      "reason": "无推特；疑似bloops仿盘/子集"
-    },
-    {
-      "id": "source-trust-me-bro",
-      "reason": "无独立官推skip"
-    },
-    {
-      "id": "milli",
-      "reason": "无独立官推skip"
-    },
-    {
-      "id": "gold-box",
-      "reason": "无独立官推skip"
-    },
-    {
-      "id": "crimson-drakes",
-      "reason": "无独立官推skip"
-    },
-    {
-      "id": "gnomeboss",
-      "reason": "无独立官推skip"
-    },
-    {
-      "id": "fleshlings",
-      "reason": "个人号挂名无独立项目推特"
-    },
-    {
-      "id": "non-fuddable-tickets",
-      "reason": "个人号挂名无独立项目推特"
-    },
-    {
-      "id": "robinbones-club",
-      "reason": "个人号挂名无独立项目推特"
-    },
-    {
-      "id": "lzycrowd",
-      "reason": "粉极低信息过低易误导LZ；续skip"
-    },
-    {
-      "id": "perpme",
-      "reason": "elysiumKeepOut"
-    },
-    {
-      "id": "branchpoint",
-      "reason": "elysiumKeepOut"
-    },
-    {
-      "id": "outrive",
-      "reason": "elysiumKeepOut"
-    },
-    {
-      "id": "inkswifts",
-      "reason": "无独立官推skip"
-    },
-    {
-      "id": "muttiverse",
-      "reason": "无独立官推skip"
+      "handle": "@SquariesHQ",
+      "reason": "bio 仅 Building......，1 推，无产品/叙事信息，疑似占位"
     }
   ],
   "push": {
-    "repo": "Reboot7454/early-scout",
-    "branch": "main",
-    "files": [
-      "data.json",
-      "ROUND243_RESULT.json"
-    ],
-    "remoteVerified": true,
-    "dataCommitSha": "64c7e47e7981ebe32ca8467f929eb4e9b131f3ed",
-    "commitSha": "64c7e47e7981ebe32ca8467f929eb4e9b131f3ed",
-    "commitShort": "64c7e47",
-    "resultTip": "0a9f2f1ec00fbf731e25ae4cf60519601df53a30"
+    "pending": true
   },
   "metaRound": 243,
-  "candidateCount": 679,
+  "candidateCount": 682,
   "le2h": [
     {
       "id": "ink-chickens",
@@ -407,5 +359,15 @@
       "id": "vorakel",
       "what": "PUBLIC≈04:00CST"
     }
-  ]
+  ],
+  "discordPeekMerged": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "remoteVerified": false,
+  "peekMeta": {
+    "lastSeen": "2026-10-19 01:48 CST",
+    "lastChecked": "2026-10-19 02:39 CST",
+    "lastResult": "R243 Peek gap-fill success after scout deferred: admitted zkunnamed,xfarm,slamjunkiez; rejected SquariesHQ empty-shell; skipped ElytraNFT already-in",
+    "newestMsgTime": "2026-10-19 01:48 CST",
+    "lastSeenBefore": "2026-10-19 01:13 CST"
+  }
 }
