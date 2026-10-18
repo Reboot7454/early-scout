@@ -1,0 +1,91 @@
+{
+  "round": 249,
+  "completedAt": "2026-10-19 04:36 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "discord-alpha-peek-only",
+  "notify": true,
+  "notifyReason": "Discord Peek gap-fill real new admits",
+  "alertMessage": "【R249 Discord Peek补漏】新收录 BankrDex（@BankrDex_，Bankr 发射跟单/DEX 工具，约5天新号）与 $CATONICE（@CatoniceRH，Robinhood Chain meme，零粉高风险）。面板 https://reboot7454.github.io/early-scout/",
+  "summary": "R249 Discord alpha 补漏：新收录 2（bankrdex、catonice-rh）；跳过 The Hub(非极早期)、FeeMarkets(X不可用)、votaries/arkiv 提及、rystic/xft/quakezy 空壳、成熟/个人号。仅 DC Peek，未跑全量网页雷达。",
+  "newAdmits": [
+    {
+      "id": "bankrdex",
+      "name": "BankrDex",
+      "handle": "@BankrDex_",
+      "category": "台子/Meme",
+      "chain": "Multi",
+      "followers": 14
+    },
+    {
+      "id": "catonice-rh",
+      "name": "catonthinice ($CATONICE)",
+      "handle": "@CatoniceRH",
+      "category": "台子/Meme",
+      "chain": "Robinhood Chain",
+      "followers": 0
+    }
+  ],
+  "rejected": [
+    {
+      "id": "feemarkets",
+      "reason": "X unavailable"
+    },
+    {
+      "id": "arkivcorp",
+      "reason": "hardware no crypto"
+    },
+    {
+      "id": "rystic-ai",
+      "reason": "shell"
+    }
+  ],
+  "skippedMature": [
+    {
+      "handle": "@frac314",
+      "reason": "personal worker 5.8k"
+    },
+    {
+      "handle": "@seizzi",
+      "reason": "12.9k builder"
+    },
+    {
+      "handle": "@auchenberg",
+      "reason": "19.5k investor"
+    },
+    {
+      "handle": "@cryptopsychdoc",
+      "reason": "personal"
+    },
+    {
+      "handle": "@Thehub_io",
+      "reason": "2.6k since 2026-02, not 极早期"
+    }
+  ],
+  "skippedAlreadyIn": [],
+  "discordPeekDeferred": false,
+  "discordPeek": {
+    "channel": "alpha-1+backup+smart-accounts+alpha-3",
+    "lastSeenBefore": "2026-10-19 03:21 CST",
+    "lastSeenAfter": "2026-10-19 04:31 CST",
+    "newestMsgTime": "2026-10-19 04:31 CST",
+    "candidateCards": 8,
+    "loginOk": true
+  },
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": 2,
+    "purpose": [
+      "admit+score batch",
+      "alert"
+    ]
+  },
+  "clearedPrevNewThisRound": [
+    "oath-network",
+    "order-of-none"
+  ],
+  "push": {
+    "ok": false,
+    "pending": true
+  }
+}

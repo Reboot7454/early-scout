@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-19 04:18 CST",
+    "updated": "2026-10-19 04:36 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "R248 full scout X+Elysium eco+DS；Discord deferred",
@@ -289,7 +289,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 248,
+    "round": 249,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -366,7 +366,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 690,
+    "candidateCount": 692,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -737,8 +737,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "oath-network",
-      "order-of-none"
+      "bankrdex",
+      "catonice-rh"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1087,7 +1087,7 @@
       "nopad",
       "routr-network"
     ],
-    "previousRound": 247,
+    "previousRound": 248,
     "round183Added": [
       "heygrok",
       "grail-break",
@@ -1913,18 +1913,19 @@
         }
       ],
       "purpose": "Peek gap-fill only (not full X monitor)",
-      "lastSeen": "2026-10-19 03:21 CST",
+      "lastSeen": "2026-10-19 04:31 CST",
       "bots": [
         "Spidey Bot",
         "X Follow Monitor",
         "Captain Hook"
       ],
       "hungInto": "discord-alpha-40m routine",
-      "note": "R247: Discord #alpha-1 Peek 补漏；新收 qlyphs；跳过成熟/个人号",
-      "lastChecked": "2026-10-19 03:59 CST",
-      "lastAttempt": "2026-10-19 03:59 CST",
-      "lastResult": "ok_peek_r247",
-      "discordPeekDeferred": false
+      "note": "R249: Discord Peek 补漏；新收 bankrdex、catonice-rh；跳过 The Hub(非极早期)/FeeMarkets(X不可用)/votaries·arkiv提及/空壳",
+      "lastChecked": "2026-10-19 04:36 CST",
+      "lastAttempt": "2026-10-19 04:36 CST",
+      "lastResult": "ok_peek_r249",
+      "discordPeekDeferred": false,
+      "lastSeenBefore": "2026-10-19 03:21 CST"
     },
     "round239Added": [
       "tsunamilaunch",
@@ -1981,13 +1982,22 @@
       "qlyphs"
     ],
     "prevNewThisRoundCleared": [
-      "qlyphs"
+      "oath-network",
+      "order-of-none"
     ],
     "round248Added": [
       "oath-network",
       "order-of-none"
     ],
-    "btcZoneNoteR248": "隐私三件+mannequins续；新收 order-of-none（Shielded CC0）；无漏BTC"
+    "btcZoneNoteR248": "隐私三件+mannequins续；新收 order-of-none（Shielded CC0）；无漏BTC",
+    "round249Added": [
+      "bankrdex",
+      "catonice-rh"
+    ],
+    "roundNAdded": [
+      "bankrdex",
+      "catonice-rh"
+    ]
   },
   "candidates": [
     {
@@ -2037,7 +2047,7 @@
         "X @oathnetworkRH R248"
       ],
       "round": 248,
-      "newThisRound": true,
+      "newThisRound": false,
       "focus": false,
       "lzVerified": false,
       "addedAt": "2026-10-19 04:16 CST",
@@ -2098,7 +2108,7 @@
         "X @orderofnonebtc R248"
       ],
       "round": 248,
-      "newThisRound": true,
+      "newThisRound": false,
       "focus": false,
       "lzVerified": false,
       "addedAt": "2026-10-19 04:16 CST",
@@ -50790,6 +50800,124 @@
       "sources": [
         "X @inkpirates + OS mint page R246"
       ]
+    },
+    {
+      "id": "bankrdex",
+      "name": "BankrDex",
+      "handle": "@BankrDex_",
+      "category": "台子/Meme",
+      "chain": "Multi",
+      "tags": [
+        "台子/Meme",
+        "Bankr",
+        "launch-tool",
+        "极早期",
+        "discord-alpha",
+        "follow-monitor"
+      ],
+      "scores": {
+        "early": 92,
+        "actionable": 65,
+        "novelty": 58,
+        "risk": 76,
+        "overall": 68
+      },
+      "highlights": [
+        "X 创建约5天，约14粉，极早期",
+        "定位 Bankr 发射跟单与一键兑换",
+        "已有官网 bnkrdex.site",
+        "Discord alpha-3 新号监控捞到"
+      ],
+      "drawbacks": [
+        "粉极少，可信度待验证",
+        "链归属与合约未独立核验",
+        "依赖 Bankr 生态热度",
+        "无代币/空投细则"
+      ],
+      "whatsNew": "R249 Discord Peek 新收录：Bankr 发射跟单工具",
+      "links": {
+        "x": "https://x.com/BankrDex_",
+        "site": "https://www.bnkrdex.site/"
+      },
+      "followers": 14,
+      "whyWatch": "极早期 Bankr launch ape/DEX 工具，Discord alpha 补漏",
+      "sources": [
+        "discord-alpha-3"
+      ],
+      "source": "discord-alpha-peek",
+      "round": 249,
+      "newThisRound": true,
+      "lzVerified": false,
+      "focus": false,
+      "status": "watching",
+      "mintStatus": "unknown",
+      "riskLevel": "medium",
+      "earlyScore": 92,
+      "addedAt": "2026-10-19 04:36 CST",
+      "firstSeen": "2026-10-19 04:36 CST",
+      "lastChecked": "2026-10-19 04:36 CST",
+      "schedule": null
+    },
+    {
+      "id": "catonice-rh",
+      "name": "catonthinice ($CATONICE)",
+      "handle": "@CatoniceRH",
+      "category": "台子/Meme",
+      "chain": "Robinhood Chain",
+      "tags": [
+        "台子/Meme",
+        "RH",
+        "meme",
+        "极早期",
+        "discord-alpha",
+        "follow-monitor"
+      ],
+      "scores": {
+        "early": 98,
+        "actionable": 70,
+        "novelty": 35,
+        "risk": 92,
+        "overall": 45
+      },
+      "highlights": [
+        "X 创建约1天，0粉，极新",
+        "Bio 给出 CA，可链上查",
+        "Robinhood Chain meme",
+        "Discord alpha-3 捞到"
+      ],
+      "drawbacks": [
+        "零粉几乎无社区",
+        "无官网，信息仅 CA",
+        "RH 流动性与工具不确定",
+        "高 rug/撤池风险"
+      ],
+      "whatsNew": "R249 Discord Peek 新收录：$CATONICE RH meme",
+      "links": {
+        "x": "https://x.com/CatoniceRH"
+      },
+      "followers": 0,
+      "contract": "0x264d43b9af095f6ddd2e018fc4a98df9185f7230",
+      "whyWatch": "RH 链极新 meme，有 CA 可查但高风险",
+      "sources": [
+        "discord-alpha-3"
+      ],
+      "source": "discord-alpha-peek",
+      "round": 249,
+      "newThisRound": true,
+      "lzVerified": false,
+      "focus": false,
+      "status": "watching",
+      "mintStatus": "unknown",
+      "riskLevel": "high",
+      "earlyScore": 98,
+      "addedAt": "2026-10-19 04:36 CST",
+      "firstSeen": "2026-10-19 04:36 CST",
+      "lastChecked": "2026-10-19 04:36 CST",
+      "schedule": null
     }
+  ],
+  "newThisRound": [
+    "bankrdex",
+    "catonice-rh"
   ]
 }
