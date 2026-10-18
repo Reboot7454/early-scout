@@ -1,0 +1,123 @@
+{
+  "round": 250,
+  "completedAt": "2026-10-19 04:55 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "full-coverage",
+  "notify": true,
+  "notifyReason": "2 real new admits (zkrpt, null-xmr) + mint ≤2h (the Grumps FREE Public ≈05:30 CST)",
+  "alertMessage": "新增 zkrpt（ZEC 原生 launchpad，$ZKRPT 已 live）与 NULL（Monero NFT，mint 10–20）；2h 内 the Grumps 免费公售约 05:30 CST，面板 https://reboot7454.github.io/early-scout/",
+  "summary": "R250全覆盖雷达：新收录2（zkrpt ZEC-native发射台粉≈14；$ZKRPT live；NULL Monero NFT mint 10-20）。Tape/电路/BTC/Elysium/X链pad/PaperBird/挖矿/软债均刷新；Elysium eco diff持平KeepOut持；Elytra补官推@ElytraNFT；Discord本端deferred。≤2h：the Grumps FREE Public≈05:30CST。",
+  "newAdmits": [
+    {
+      "id": "zkrpt",
+      "name": "zkrpt",
+      "handle": "@zkrptprivacy",
+      "category": "台子/Meme",
+      "chain": "Solana/Zcash",
+      "followers": 14
+    },
+    {
+      "id": "null-xmr",
+      "name": "NULL",
+      "handle": "@nullonxmr",
+      "category": "打新",
+      "chain": "Monero",
+      "followers": 2096
+    }
+  ],
+  "updatedExisting": [
+    {
+      "id": "tapeai",
+      "what": "快照今晚20:00 CST；粉≈2469；电路板勿Elysium"
+    },
+    {
+      "id": "starcatokx",
+      "what": "Oct19仍token not live；桥已开；粉≈1288"
+    },
+    {
+      "id": "the-grumps",
+      "what": "PUBLIC FREE≈05:30 CST（≤2h）"
+    },
+    {
+      "id": "elytra-nft",
+      "what": "补官推@ElytraNFT粉≈165；Elysium On testnet续"
+    },
+    {
+      "id": "mannequins-noir",
+      "what": "Shielded Noir mint imminent；粉≈3456"
+    },
+    {
+      "id": "solemn-trollbox",
+      "what": "Shielded Trolls≈10-20；粉≈26277"
+    },
+    {
+      "id": "farming-season",
+      "what": "官宣10-19 16:30 UTC开；粉≈6576"
+    }
+  ],
+  "rejected": [
+    {
+      "id": "shadedzk",
+      "reason": "无明确mint/launch窗"
+    },
+    {
+      "id": "tapeout-cf",
+      "reason": "社区基金会/设计赛，无明确mint窗"
+    },
+    {
+      "id": "hexswap",
+      "reason": "Elysium eco无独立可核验官推"
+    }
+  ],
+  "skippedMature": [
+    {
+      "handle": "@Embervale_",
+      "reason": "≈13.7k 已偏热"
+    },
+    {
+      "handle": "@farmingseasonio",
+      "reason": "≈6.5k 已有卡续更"
+    },
+    {
+      "handle": "@minehood_rh",
+      "reason": "≈9.9k 已有卡续更"
+    }
+  ],
+  "actionable2h": [
+    {
+      "id": "the-grumps",
+      "name": "the Grumps",
+      "when": "2026-10-19 05:30 CST",
+      "what": "FREE Public"
+    }
+  ],
+  "discordPeekDeferred": true,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": 3,
+    "purpose": [
+      "admit",
+      "score",
+      "alert"
+    ]
+  },
+  "clearedPrevNewThisRound": [
+    "bankrdex",
+    "catonice-rh"
+  ],
+  "watchesRefreshed": [
+    "Tape/电路",
+    "BTC隐私",
+    "X链pad",
+    "PaperBird",
+    "Elysium",
+    "Canton",
+    "Glaze",
+    "TokenWorks"
+  ],
+  "push": {
+    "ok": false
+  },
+  "executorNote": "primary executor resource_exhausted; completed inline"
+}
