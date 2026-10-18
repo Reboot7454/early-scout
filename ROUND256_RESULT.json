@@ -1,0 +1,213 @@
+{
+  "round": 256,
+  "completedAt": "2026-10-19 06:40 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "full-coverage",
+  "adoptedRound": true,
+  "adoptNote": "pull后 remote 已占 R255（Discord Peek cowlhq），本轮升格为256，未覆盖R255数据",
+  "notify": true,
+  "notifyReason": "2 real new admits (jack-on-ink, moneymomos) + mint ≤2h (Oozlings WL live; Grumps FREE Public; LoopyFaces PUBLIC≈07:59CST)",
+  "alertMessage": "新增 Jack On Ink（Ink GO/Blackjack WL）、MoneyMomos（RH AL→10-29）；2h可操作 Oozlings FREE WL→PUBLIC≈10:00CST、the Grumps FREE Public 续窗、LoopyFaces PUBLIC≈07:59CST；面板：https://reboot7454.github.io/early-scout/",
+  "summary": "R256全覆盖雷达（因remote已占R255而升格）：新收录2（Jack On Ink Ink GO；MoneyMomos RH）。Tape/电路/BTC/Elysium/X链pad/PaperBird/挖矿/Canton/Glaze/TokenWorks软债均刷新；Codex已有卡补粉；Ecto DS拒、Frosties无官推拒；KeepOut持；Discord deferred（R255 DC已收cowlhq）。≤2h：Oozlings WL + Grumps FREE Public + LoopyFaces PUBLIC。",
+  "newAdmits": [
+    {
+      "id": "jack-on-ink",
+      "name": "Jack On Ink",
+      "handle": "@JackOnInk",
+      "category": "GO盘",
+      "chain": "Ink",
+      "followers": 1333
+    },
+    {
+      "id": "moneymomos",
+      "name": "MoneyMomos",
+      "handle": "@MoneyMomos",
+      "category": "打新",
+      "chain": "Robinhood Chain",
+      "followers": 1223
+    }
+  ],
+  "updatedExisting": [
+    {
+      "id": "cowlhq",
+      "what": "R255 DC admit保留；newThisRound已清"
+    },
+    {
+      "id": "oozlings",
+      "what": "WL LIVE minted≈2708；PUBLIC≈10:00CST；粉≈60"
+    },
+    {
+      "id": "the-grumps",
+      "what": "FREE Public续窗"
+    },
+    {
+      "id": "loopyfaces",
+      "what": "FCFS→PUBLIC≈07:59CST；minted≈121"
+    },
+    {
+      "id": "starcatokx",
+      "what": "Oct19仍token not live；窗TBA；粉≈1289"
+    },
+    {
+      "id": "tapeai",
+      "what": "快照今晚20:00 CST；粉≈2493；电路板勿Elysium"
+    },
+    {
+      "id": "paperbird",
+      "what": "frontend live；粉≈120"
+    },
+    {
+      "id": "solemn-trollbox",
+      "what": "Trollbox≈<24h GTD；粉≈26291"
+    },
+    {
+      "id": "rare-codex-friends",
+      "what": "补@Codex_robinhood粉≈2767；AL续"
+    },
+    {
+      "id": "rage-baiter",
+      "what": "Holders14:00→Public20:00CST"
+    },
+    {
+      "id": "squeekchain",
+      "what": "Sepolia续；粉≈1411"
+    },
+    {
+      "id": "enter-elysium",
+      "what": "eco对照；KeepOut持"
+    },
+    {
+      "id": "ascendlaunch",
+      "what": "粉≈3985"
+    },
+    {
+      "id": "kalosfun",
+      "what": "粉≈1030"
+    },
+    {
+      "id": "wsmco",
+      "what": "Glaze软债"
+    },
+    {
+      "id": "tokenworks-playground",
+      "what": "软债刷新"
+    },
+    {
+      "id": "xstokfun",
+      "what": "Canton软债"
+    },
+    {
+      "id": "onepumpcc",
+      "what": "Canton软债"
+    },
+    {
+      "id": "consolewallet",
+      "what": "Canton软债"
+    }
+  ],
+  "rejected": [
+    {
+      "id": "ecto-sanctuary",
+      "reason": "DS score admit=false：链/mint不明、社交极弱"
+    },
+    {
+      "id": "frosties-rh",
+      "reason": "无明确官方推特"
+    },
+    {
+      "id": "codex-robinhood",
+      "reason": "已有卡 rare-codex-friends（同@Codex_robinhood），本轮仅刷新非新admit"
+    },
+    {
+      "id": "hexswap-elysium",
+      "reason": "On testnet但无官推，硬规则不收"
+    }
+  ],
+  "skippedMature": [
+    {
+      "handle": "@glaze_corp",
+      "reason": "≈12k 软债续"
+    },
+    {
+      "handle": "@token_works",
+      "reason": "≈35.7k 软债续"
+    },
+    {
+      "handle": "@CantonNetwork",
+      "reason": "≈106k 成熟"
+    },
+    {
+      "handle": "@Embervale_",
+      "reason": "≈13.7k 已有卡偏热"
+    },
+    {
+      "handle": "@VaultStreet_rh",
+      "reason": "≈10.2k 已有卡"
+    }
+  ],
+  "actionable2h": [
+    {
+      "id": "oozlings",
+      "name": "Oozlings",
+      "when": "2026-10-19 06:00+ CST",
+      "what": "FREE WL live→PUBLIC≈10:00CST"
+    },
+    {
+      "id": "the-grumps",
+      "name": "the Grumps",
+      "when": "2026-10-19 05:30 CST+",
+      "what": "FREE Public 续窗"
+    },
+    {
+      "id": "loopyfaces",
+      "name": "LoopyFaces",
+      "when": "2026-10-19 07:59 CST",
+      "what": "PUBLIC @0.00007 ETH"
+    }
+  ],
+  "discordPeekDeferred": true,
+  "discordPeek": {
+    "deferred": true,
+    "reason": "skipped-no-login",
+    "note": "本端不登录DC；R255他号/仓内DC Peek已收录cowlhq，本轮照收不覆盖"
+  },
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": 3,
+    "purpose": [
+      "admit",
+      "score",
+      "alert"
+    ]
+  },
+  "clearedPrevNewThisRound": [
+    "cowlhq"
+  ],
+  "watchesRefreshed": [
+    "Tape/电路",
+    "BTC隐私",
+    "X链pad",
+    "PaperBird",
+    "Elysium",
+    "挖矿/squeek",
+    "Canton",
+    "Glaze",
+    "TokenWorks"
+  ],
+  "coverage": {
+    "打新": true,
+    "挖矿": true,
+    "台子/Meme": true,
+    "GO盘": true,
+    "LayerZero": "GridPad refreshed lzVerified=false; no new verified LZ",
+    "Elysium": true,
+    "Tape/电路": true,
+    "BTC": true
+  },
+  "push": {
+    "ok": false,
+    "commit": null,
+    "remote": "origin/main"
+  }
+}
