@@ -1,0 +1,20 @@
+{
+  "round": "R243-gap",
+  "task": "solemn-trollbox top-bar schedule missing",
+  "updated": "2026-10-19 02:19 CST",
+  "cause": "candidate 已有 schedule.startsAt=2026-10-19T16:00:00Z（卡上倒计时同源）；未进顶栏因 MAX=12 + 近窗 live/已到点按绝对邻近占满余量，打新 confirmed 无保底。",
+  "absoluteTime": {
+    "startsAt": "2026-10-19T16:00:00Z",
+    "asiaShanghai": "2026-10-20 00:00 CST",
+    "evidence": "X @strangersolemn: monday 19 october · 4pm UTC · 12pm EST · 9am PST (status/2110840769951203491); reply status/2111851008758603849"
+  },
+  "onScheduleBar": true,
+  "fixes": [
+    "extract_schedules.py BACKFILL +solemn-trollbox",
+    "app.js: isMustConfirmedSoon (confirmed future ≤24h 保底) + filler prefer future",
+    "data.json: schedule evidence refresh"
+  ],
+  "elysiumKeepOut": "untouched",
+  "pushed": [],
+  "commit": null
+}

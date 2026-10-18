@@ -8,7 +8,7 @@
 
 - 候选可选字段 `schedule`：`status`（confirmed|tentative|tba|live|ended）、`startsAt`（ISO8601）、`phases[]`、`source`、`note`（中文）。
 - **只在有证据时写入**；模糊文案用 `tentative` + note，不编造精确时刻。
-- 面板：卡片日程 chip（今晚/倒计时/进行中/TBA）、顶栏「日程」最多 12 条（主窗口 now−6h～now+72h；**台子/Meme/Launchpad 的 upcoming/confirmed/tentative ≤72h 保底入栏**；live 台子可回看至 24h 作余量）、筛选「即将开售（24h）/有日程」、排序「开售时间（近→远）」；点击开推特。
+- 面板：卡片日程 chip（今晚/倒计时/进行中/TBA）、顶栏「日程」最多 12 条（主窗口 now−6h～now+72h；**保底入栏**=台子/Meme/Launchpad 的 upcoming/confirmed/tentative ≤72h，**或**任意 confirmed 且未来 startsAt ≤24h；余量优先未来时刻；live 台子可回看至 24h 作余量）、筛选「即将开售（24h）/有日程」、排序「开售时间（近→远）」；点击开推特。
 - 倒计时按 Asia/Shanghai 展示；每 30s 刷新标签。
 
 ## 2) 链上 mint 盯盘（onchain）

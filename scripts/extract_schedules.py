@@ -729,6 +729,20 @@ BACKFILL: dict[str, dict] = {
             "note": "yore.fun LIVE on Injective",
         }
     },
+    "solemn-trollbox": {
+        "schedule": {
+            "status": "confirmed",
+            "timezone": "Asia/Shanghai",
+            "mintStatus": "upcoming",
+            "startsAt": "2026-10-19T16:00:00Z",
+            "endsAt": None,
+            "phases": [
+                {"name": "GTD", "startsAt": "2026-10-19T16:00:00Z", "note": "2222 Shielded Trolls · 0.00015"},
+            ],
+            "source": "X @strangersolemn status/2110840769951203491 R243",
+            "note": "Anonymous Trolls GTD Mon 19 Oct 16:00 UTC(=10-20 00:00 CST)；2222；Nakas auto WL；粉≈26222",
+        }
+    },
     "world-of-meme": {
         "schedule": {
             "status": "confirmed",
@@ -775,13 +789,24 @@ def apply_backfill(data: dict) -> tuple[dict, int, int]:
         elif "schedule" in patch:
             ex_src = str(existing.get("source") or "")
             patch_src = str(patch["schedule"].get("source") or "")
+            patch_sched = patch["schedule"]
             # Prefer Rxxx scout sources over generic "inferred" when already filled.
             if ex_src and "inferred" in patch_src and "inferred" not in ex_src and existing.get("status"):
                 pass
-            elif existing == patch["schedule"]:
+            # Never wipe a concrete startsAt with null/TBA from a stale map entry.
+            elif existing.get("startsAt") and not patch_sched.get("startsAt"):
+                pass
+            # Never downgrade live/upcoming/confirmed timed schedules with inferred tba/tentative.
+            elif (
+                existing.get("status") in ("live", "upcoming", "confirmed")
+                and patch_sched.get("status") in ("tba", "tentative")
+                and "inferred" in patch_src
+            ):
+                pass
+            elif existing == patch_sched:
                 pass  # already identical — keep idempotent
             else:
-                c["schedule"] = deepcopy(patch["schedule"])
+                c["schedule"] = deepcopy(patch_sched)
                 n_sched += 1
         if "onchain" in patch:
             # keep richer onchain notes if schedule already terminal

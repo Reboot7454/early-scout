@@ -975,8 +975,8 @@
    * - 状态 confirmed/tentative/upcoming/live/pause
    * - 主窗口：[now−6h, now+72h]（有 startsAt / pause resume）
    * - 台子/Meme 加宽：live 且开台在 now−24h～now−6h，或 live 无时刻（进行中）— 仅作余量填充
-   * - upcoming/confirmed/tentative 且 ≤72h 的台子/Meme **保底入栏**（挤掉最远的非保底项）
-   * - 近→远排序，上限 12；点击仍开推特
+   * - 保底入栏：①台子/Meme upcoming/confirmed/tentative ≤72h；②任意 confirmed 且未来 startsAt ≤24h（可操作打新等，防被 live 近窗挤掉）
+   * - 余量优先未来时刻，再补已开/回看；近→远排序，上限 12；点击仍开推特
    */
   function qualifiesSchedBarPrimary(c) {
     if (!hasTwitter(c)) return false;
@@ -1017,6 +1017,20 @@
     return t > state.nowMs && t <= state.nowMs + 72 * 3600 * 1000;
   }
 
+  /** confirmed + 未来 ≤24h：有可操作时刻的打新等保底入栏（不被近窗 live 挤掉） */
+  function isMustConfirmedSoon(c) {
+    if (!hasTwitter(c)) return false;
+    const s = c.schedule;
+    if (!s || s.status !== "confirmed") return false;
+    const t = scheduleStartMs(c);
+    if (t == null) return false;
+    return t > state.nowMs && t <= state.nowMs + 24 * 3600 * 1000;
+  }
+
+  function isMustSched(c) {
+    return isMustPlatformSched(c) || isMustConfirmedSoon(c);
+  }
+
   function renderSchedSoon() {
     const host = $("#sched-soon");
     const listHost = $("#sched-soon-list");
@@ -1027,16 +1041,22 @@
     const extraPlat = state.data.candidates.filter(
       (c) => qualifiesSchedBarPlatformExtra(c) && !primary.some((p) => p.id === c.id)
     );
-    const must = primary.filter(isMustPlatformSched);
+    const must = primary.filter(isMustSched);
     const mustIds = new Set(must.map((c) => c.id));
 
     const byTime = (a, b) => schedBarSortMs(a) - schedBarSortMs(b);
     const byProximity = (a, b) => {
-      const da = Math.abs(schedBarSortMs(a) - state.nowMs);
-      const db = Math.abs(schedBarSortMs(b) - state.nowMs);
+      // 余量优先未来可操作时刻，再补已开/回看
+      const ta = schedBarSortMs(a);
+      const tb = schedBarSortMs(b);
+      const fa = ta >= state.nowMs ? 0 : 1;
+      const fb = tb >= state.nowMs ? 0 : 1;
+      if (fa !== fb) return fa - fb;
+      const da = Math.abs(ta - state.nowMs);
+      const db = Math.abs(tb - state.nowMs);
       return da - db || byTime(a, b);
     };
-    // 占位：主窗口非保底项按距现在近→远取；余量再填 6h～24h live 台子
+    // 占位：非保底项未来优先、近→远；余量再填 6h～24h live 台子
     const restPrimary = primary.filter((c) => !mustIds.has(c.id)).sort(byProximity);
     const extras = extraPlat.sort(byProximity);
     const fillN = Math.max(0, MAX - must.length);

@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-19 02:02 CST",
+    "updated": "2026-10-19 02:19 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "R242 scout + Tape/电路 seventh column + Peek gap-fill; R241 +9e70ff,hoodvale-citizens,launchpath,zerotapeout; KeepOut持",
-    "lastScout": "2026-10-19 02:02 CST",
+    "lastScout": "2026-10-19T02:19:12.093488+08:00",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -1979,7 +1979,9 @@
       "tapeout-market"
     ],
     "btcZoneNoteR241": "R241: 隐私三件+open-orbit续；无新BTC admit",
-    "round242Added": []
+    "round242Added": [],
+    "round243Added": [],
+    "solemnSchedNoteR243": "solemn-trollbox 卡上倒计时来自 schedule.startsAt=2026-10-19T16:00:00Z；此前未进顶栏因 MAX=12+近窗 live 挤占（非缺 schedule）。R243：证据确认 X@strangersolemn Mon 19 Oct 4pm UTC；extract_schedules BACKFILL + 顶栏 confirmed≤24h 保底入栏。"
   },
   "candidates": [
     {
@@ -46943,7 +46945,7 @@
       "flag": null,
       "addedAt": "2026-10-18 15:25 CST",
       "firstSeen": "2026-10-18 15:25 CST",
-      "lastRefreshedAt": "2026-10-19 02:02 CST",
+      "lastRefreshedAt": "2026-10-19 02:19 CST",
       "source": "user-named BTC watch + X/Web R222",
       "tags": [
         "打新",
@@ -46996,7 +46998,7 @@
         "独立价值仍依赖 Shielded 系列势能",
         "开放段竞争激烈，WL/GTD 外需抢 FCFS"
       ],
-      "whatsNew": "GTD≈10-20 00:00CST；2222；粉≈26222；Shielded Trolls",
+      "whatsNew": "GTD≈10-20 00:00CST；2222；粉≈26222；Shielded Trolls；顶栏保底入日程",
       "background": "Solemn(@strangersolemn) 在 @OrdDropz 发射 2,222 Shielded Ordinals Trollbox；每只 troll 一条 on-chain 留言；GTD含艺术持有者等；ShieldedNaka holders auto WL（创作者 X 确认）；site trollbox.strangersolemn.art。",
       "whyWatch": "用户点名：即将发射的 Shielded Ordinals 打新，时间与 WL 明确。",
       "schedule": {
@@ -47004,18 +47006,19 @@
         "timezone": "Asia/Shanghai",
         "mintStatus": "upcoming",
         "startsAt": "2026-10-19T16:00:00Z",
-        "note": "Anonymous Trolls GTD 10-19 16:00 UTC(=10-20 00:00 CST)；2222；Nakas WL；粉≈26222",
-        "source": "X/OrdDropz R242",
+        "endsAt": null,
         "phases": [
           {
             "name": "GTD",
             "startsAt": "2026-10-19T16:00:00Z",
-            "note": "2222 Shielded Trolls"
+            "note": "2222 Shielded Trolls · 0.00015"
           }
-        ]
+        ],
+        "source": "X @strangersolemn status/2110840769951203491 R243",
+        "note": "Anonymous Trolls GTD Mon 19 Oct 16:00 UTC(=10-20 00:00 CST)；2222；Nakas auto WL；粉≈26222"
       },
       "onchain": {},
-      "lastChecked": "2026-10-19 02:02 CST"
+      "lastChecked": "2026-10-19 02:19 CST"
     },
     {
       "id": "invara",
