@@ -44,19 +44,19 @@
 
 - 新品类 `category: "挖矿"`：GPU/PoW 币（PRL / QTC / NOID 风格）与 NFT 挖矿/变异盘。
 - 可选字段 `miningType`：`gpu-pow` | `nft-mutation` | `nft-miner` | `other`；`tags` 含 `挖矿`/`PoW`/`变异盘`。
-- 面板：重点/收藏为顶部横条；宽屏（≥1280px）六列 `.board`，顺序 **打新 | 挖矿 | 台子/Meme | GO盘 | LayerZero | Elysium 生态**；1280–1679 可横向滚动（列 min≈180px），≥1680 六列均分。窄屏纵向堆叠，顺序相同。
-- 互斥归类（一条只进一列，**仅栏位分配、非搜刮权重**）：属 Elysium 生态的进第六栏（`ecosystem:"Elysium"` / tags 含 `Elysium生态` / chain 含 Elysium）→ 否则 LayerZero → 挖矿 → GO盘 → 台子/Meme → 其余打新。重点横条（`focus: true` / `meta.focusIds` / tags 含 `重点`）默认不进其它列；**Elysium 栏例外**可与重点条重复展示生态本体。例行搜刮对各栏/生态同等努力。
+- 面板：重点/收藏为顶部横条；宽屏（≥1280px）七列 `.board`，顺序 **打新 | 挖矿 | 台子/Meme | GO盘 | LayerZero | Elysium 生态 | Tape/电路**；1280–1959 可横向滚动（列 min≈168px），≥1960 七列均分不横滑。窄屏纵向堆叠，顺序相同。
+- 互斥归类（一条只进一列，**仅栏位分配、非搜刮权重**）：Elysium 生态 → **Tape/电路** → LayerZero → 挖矿 → GO盘 → 台子/Meme → 其余打新。重点横条（`focus: true` / `meta.focusIds` / tags 含 `重点`）默认不进其它列；**Elysium 栏与 Tape/电路栏例外**，可与重点条重复展示（TapeAI 等 `focus:true` 仍出现在 Tape 列）。例行搜刮对各栏同等努力，**加 Tape 列不得收缩打新/挖矿/台子/GO/LZ/Elysium/BTC**。
 - **台子/Meme 归类**：以 `category` ∈ {台子/Meme, 新台, Meme, Launchpad} 为准；仅强 tag（`台子/Meme` / `新台`）可补判。NFT 打新上的零散 `Launchpad`/`Meme` tag **不得**挤进台子列。**GO盘**以 `category==="GO盘"` 或 tag `GO盘`/`go玩法` 等为准（勿漏检）。
-- 「全部链」筛区有独立芯片 **Elysium 生态**（按 `isElysium`，不只看单链名）。
-- 默认排序「最新信号」：有 `firstSeen` 或 `addedAt` 则新的在前，否则 `round` 降序；同轮 `whatsNew` 非空优先，再按 `scores.overall` / `earlyScore`。六列共用；下拉仍可改早期程度 / 综合 / 日程 / 风险 / 名称。
-- 挖矿列保持紧凑 `.mining-row` + GPU PoW / NFT 变异 / Miner NFT / 其他。打新、台子/Meme、GO盘、LayerZero、Elysium 用完整卡片。点品类「挖矿」或顶栏药丸跳到对应列；LayerZero / Elysium 监控顶栏/芯片可跳对应栏。
-- 例行搜刮需**同等努力**覆盖：打新、挖矿（GPU/AI-PoW、NFT 变异/Miner）、台子·Meme、GO盘、LayerZero、以及其它生态；Elysium 类（见下）为加栏加盯一例，附带扫即可。
+- 「全部链」筛区有独立芯片 **Elysium 生态**（按 `isElysium`）与其右侧 **Tape/电路**（按 `isTape`，不只看单链名）。
+- 默认排序「最新信号」：有 `firstSeen` 或 `addedAt` 则新的在前，否则 `round` 降序；同轮 `whatsNew` 非空优先，再按 `scores.overall` / `earlyScore`。七列共用；下拉仍可改早期程度 / 综合 / 日程 / 风险 / 名称。
+- 挖矿列保持紧凑 `.mining-row` + GPU PoW / NFT 变异 / Miner NFT / 其他。打新、台子/Meme、GO盘、LayerZero、Elysium、Tape/电路用完整卡片。点品类「挖矿」或顶栏药丸跳到对应列；LayerZero / Elysium / Tape 顶栏/芯片可跳对应栏。
+- 例行搜刮需**同等努力**覆盖：打新（全部链）、挖矿（GPU/AI-PoW、NFT 变异/Miner）、台子·Meme、GO盘、LayerZero、BTC 生态，以及其它生态。Elysium 与 Tape/电路是加栏加盯，**不得**把搜刮收成只扫这两栏。
 
 ## 5) 重点横条（focus · 非栏位）
 
-- **重点**是搜索/统计下方的顶部横条（`#focus-panel`），**不是**六列之一；与轮次筛选无关，常驻。
+- **重点**是搜索/统计下方的顶部横条（`#focus-panel`），**不是**七列之一；与轮次筛选无关，常驻。
 - 归入条件（任一即可）：`focus: true` · `id ∈ meta.focusIds` · `tags` 含 `重点`。视觉：玫粉/琥珀描边 + 「重点」chip。
-- 默认**只上横条、不进六列**；**唯一例外**：Elysium 生态本体可同时出现在重点条与 Elysium 栏（`renderColumn`：`zone==="elysium" || !isFocus`）。
+- 默认**只上横条、不进七列**；**例外**：Elysium 生态本体，以及 Tape/电路系列（`columnAllowsFocus`：`elysium` 与 `tape`），可同时出现在重点条与对应栏。
 - 种子：`squeekchain`（首位）· `hamster-hour`。例行可把清晰早期 peer 以 `focus: true` 收入，或至少打 `重点` tag 并记入 `meta.focusWatch`。
 - `meta.focusWatch`：accounts + categoryScan + admitRule；**每轮例行扫描本类**（非整账号时间线监控）。
 
@@ -64,7 +64,7 @@
 ## 6) 收藏（favorites · 客户端）
 
 - 每张卡片 / 挖矿行有 ☆/★ 收藏按钮，一键切换。
-- 「收藏」横条在「重点」下方、**六列**看板上方；**不依赖轮次筛选**（与重点条同为全局条）。
+- 「收藏」横条在「重点」下方、**七列**看板上方；**不依赖轮次筛选**（与重点条同为全局条）。
 - 数据仅存浏览器 `localStorage` 键 `early-scout-favorites`（candidate id 数组）；不改 `data.json` schema。
 - 收藏条展示日程倒计时（复用 `scheduleChip`，≈72h / LIVE）；点击条目或 X 打开 `links.x`。
 - 空态：「点卡片上的☆收藏」。与系统「重点」（`focus:true`）互不混淆。
@@ -74,12 +74,13 @@
 
 - **TokenWorks Playground**：盯 `@Rhynotic`（兼 `@token_works`）与站 https://playground.token.works/ ——策展小组发射/分账台（ETH+Robinhood）；关注 `launchesEnabled`、首批想法（FWA 配对）、工厂公开部署。归台子/Meme，勿因跨链字样进 LayerZero。
 - **实验玩具链 / 实体+链上（重点栏 standing watch）**：每轮扫同类信号——仓鼠/动物 PoW toychain、硬件矿机 novelty 链、实体物理装置上链验证、公平分配实验 L1/L2 且仍预发币/测试网。种子账号 `@squeekchain` `@squeektoshi` `@pillheadddd` `@hamsterhourgame`；同类有推特的清晰早期 peer → 重点栏（`squeekchain` 保持首位）。
-- **Elysium 类生态（第六栏 · `meta.elysiumWatch`）**：**加栏加盯的一例，不收缩覆盖**。每轮在同等努力扫打新 / 挖矿 / 台子·Meme / GO盘 / LayerZero 的前提下，额外盯 `@Enter_Elysium` 及 AscendLaunch / Eloscape / Speculate / Montra / Aegis / kalos 等子项目，以及**同类新生态**（Hyperliquid 旁路 L2 / Orbit 玩具生态等）。有推特的清晰成员 → `ecosystem:"Elysium"` + tag `Elysium生态`，互斥进「Elysium 生态」栏；链筛「Elysium 生态」只显示该生态。**不得**把例行搜刮收成「只扫 Elysium」。
+- **Elysium 类生态（第六栏 · `meta.elysiumWatch`）**：**加栏加盯的一例，不收缩覆盖**。每轮在同等努力扫打新 / 挖矿 / 台子·Meme / GO盘 / LayerZero / Tape / BTC 的前提下，额外盯 `@Enter_Elysium` 及 AscendLaunch / Eloscape / Speculate / Montra / Aegis / kalos 等子项目，以及**同类新生态**（Hyperliquid 旁路 L2 / Orbit 玩具生态等）。有推特的清晰成员 → `ecosystem:"Elysium"` + tag `Elysium生态`，互斥进「Elysium 生态」栏；链筛「Elysium 生态」只显示该生态。**不得**把例行搜刮收成「只扫 Elysium」。电路/TapeOut 项目即使文案里出现别的链，也**不要**标 Elysium。
 - **Elysium 收录门槛**：对照 https://elysium.kinetiq.xyz/ecosystem ，只有 **On testnet**，或 **Announced 且写明具体 Elysium 部署**，才可进 Elysium 栏 / 打 `Elysium生态`。**Exploring**、「considering」、仅在生态页露名、或只是靠近 Hyperliquid，一律不进该栏，按真实品类归 GO盘 / 台子 / 打新等。`perpme` 即使用户页上是 On testnet，也按用户决定留在台子/HyperEVM，不要因文案里提到 testnet 路径改回 Elysium。
-- **X链/OKX 及同类极早期发射台（`meta.xChainPadWatch` / `meta.starcatWatch`）**：盯 `@StarcatOKX`（X Layer/Ignix，starcat.world）与 `@NinetailsTrade`（Solana 隐私多钱包兑换 peer，ninetails.trade）；归**台子/Meme**，**勿**进 Elysium/LZ。**同等努力六栏、不偏科只盯 Elysium**。非全量 X 时间线。
-- **PaperBird 类极早期鸟/meme/发射（`meta.paperbirdWatch`）**：盯 `@paperbird_lol`（flappy bird 前端 × `@papertrade_xyz` / Hyperliquid 1000x）与站 https://paperbird.lol/；归**台子/Meme**，**勿**进 Elysium/LZ。**同等努力六栏、不偏科**。非全量 X 时间线；无精确日程不编造。
+- **X链/OKX 及同类极早期发射台（`meta.xChainPadWatch` / `meta.starcatWatch`）**：盯 `@StarcatOKX`（X Layer/Ignix，starcat.world）与 `@NinetailsTrade`（Solana 隐私多钱包兑换 peer，ninetails.trade）；归**台子/Meme**，**勿**进 Elysium/LZ。**同等努力七栏、不偏科只盯 Elysium 或 Tape**。非全量 X 时间线。
+- **PaperBird 类极早期鸟/meme/发射（`meta.paperbirdWatch`）**：盯 `@paperbird_lol`（flappy bird 前端 × `@papertrade_xyz` / Hyperliquid 1000x）与站 https://paperbird.lol/；归**台子/Meme**，**勿**进 Elysium/LZ。**同等努力七栏、不偏科**。非全量 X 时间线；无精确日程不编造。
 - **BTC 隐私 Ordinals / CRC20（`meta.btcPrivacyWatch` / `meta.btcCrc20Watch` / `meta.watches.btcOrdinals`）**：盯 `@ShieldedNaka` `@banknotes_btc` `@strangersolemn` `@mannequinsnft` 与 OrdDropz 圈，以及 CRC20 `@Satelite_CRC20` `@BONSonBTC` `@BTC_CRC30` `@BitcoinITMoney`——隐私 Ordinals / Shielded early mints 与 CRC20 发射**同等努力**（不偏科只盯其它栏）；有独立推特且极早期才收录；无精确日程不编造；发射台基建（OrdDropz）入 accounts 不单列 admit。
-- **电路板 / TapeOut（`meta.blonskrWatch` / `meta.watches.tapeOut`）**：用户监视 `@TapeAIAgent` + `@Blonskr` 关注线——门级电路、电路 NFT、电路板叙事（TapeAI 检察官电路 mint、BEM PoD、TapeUP/DeWEB、Firsto 等）。同类有**独立项目推特**且极早期可操作才收录；社区水军/纯个人号（如无项目号的 TapePack）不收。标签含 `电路板`/`电路NFT`/`TapeOut`；**勿标 Elysium**。
+- **电路板 / TapeOut（第七栏 · `meta.blonskrWatch` / `meta.watches.tapeOut`）**：用户监视 `@TapeAIAgent` + `@Blonskr` 关注线——门级电路、电路 NFT、电路板叙事（TapeAI 检察官电路 mint、BEM PoD、TapeUP/DeWEB、Firsto、WAFER、TAPELIQUID、Fab X、TapeFi 等）。同类有**独立项目推特**且极早期可操作才收录；社区水军/纯个人号（如无项目号的 TapePack、bio 仅为 Team Member 的个人号）不收。行情/股票 “tape” 撞名（Pretape、Squeeze、ZECScreen、Folce、Tape Terminal、Tape Markets 等）**不进**本栏。
+- **Tape/电路收录门槛**：`ecosystem` 为 TapeOut，或 `category`/tags 含 `TapeOut` / `电路板` / `电路NFT` / circuit-board，或命中已知 TapeOut 项目号 → `isTape` → 第七栏（在 Elysium 右侧）。`zoneOf` 优先级：**elysium > tape > lz > mining > go > meme > scout**。**勿标 Elysium**。Peek 标「淘汰」但 bio 仍是 TapeOut 协议且账号仍在的，可留栏；已在库的（如 BEM）不因淘汰标删除。
 - 此类为品类扩展监视（与 LZ / 玩具链 / Peek 对账并列），**不是**恢复全量 X 账号时间线监控，也**不是**对其它栏的替代。
 
 
@@ -90,7 +91,7 @@
 - **只对照**：NFT·新台·AI 发射·极早期 DeFi/GameFi（Ink 算法艺术、Solana·HL 早期台、AI agent 盘等品类监视可扩）。
 - **可补录条件**：有可核验推特 + 仍处极早期可观察/可操作窗口 + 我们主信源（Trencher/NorthBound/RobinXP/OpenSea/Web）漏掉。
 - **禁止**：把 Peek 热度榜整表入库；收成熟协议 / Infra 空壳 / 疑似刷量 / 中后期 DeFi；为「对账完成」而扩容。
-- **Discord `#alpha-1` Peek（`meta.discordAlphaPeek` / `meta.watches.discordAlphaPeek`）**：已挂入 **35m 例行**作 Peek对账补漏；只补漏且仍极早期的项；六栏归类；**不是**全量 X 时间线监控。主频道 alpha-1（Spidey Bot / X Follow Monitor / Captain Hook）；backup / smart-accounts-tracker / alpha-3-new-accounts 辅助。
+- **Discord `#alpha-1` Peek（`meta.discordAlphaPeek` / `meta.watches.discordAlphaPeek`）**：已挂入 **35m 例行**作 Peek对账补漏；只补漏且仍极早期的项；七栏归类；**不是**全量 X 时间线监控。主频道 alpha-1（Spidey Bot / X Follow Monitor / Captain Hook）；backup / smart-accounts-tracker / alpha-3-new-accounts 辅助。
 - **仍非**全量 X 账号时间线监控；对账是品类学习扫描，执行端只拉信号/改 json/push，文案与打分走 deepseek-flash（thinking on）。
 
 ## DeepSeek 省用量（硬卸载 · 2026-10-17）

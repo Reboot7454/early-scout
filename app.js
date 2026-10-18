@@ -232,6 +232,9 @@
     interlink: "InterLink",
     nacre: "NACRE",
     omnichain: "Omnichain",
+    tapeout: "TapeOut",
+    "x layer": "X Layer",
+    xlayer: "X Layer",
     "pearl l1": "Pearl L1",
     quantus: "Quantus",
     vearl: "Vearl",
@@ -358,9 +361,69 @@
     return false;
   }
 
-  /** Six board columns: Elysium > LayerZero > mining > GO > 台子/Meme > 打新.
+  /** Tape / circuit-board series (TapeOut · 电路板 · 电路NFT).
+   *  Seventh column, to the right of Elysium. Never implies Elysium.
+   *  Admit: ecosystem/category/tags TapeOut|电路板|电路NFT|circuit-board, or a known TapeOut handle.
+   */
+  const TAPE_HANDLES = new Set([
+    "tapeaiagent",
+    "bemgogogo",
+    "tapeupio",
+    "firstoai",
+    "tapeoutworld",
+    "minewafer",
+    "tapeliquid",
+    "etapeerc20",
+    "fabx_global",
+    "bemdomains",
+    "tapefilabs",
+    "tapeoutfun",
+    "hashport01",
+    "toshprotocol",
+    "tapeoutmarket_x",
+    "zerotapeout",
+  ]);
+
+  function isTape(c) {
+    if (!c) return false;
+    const eco = String(c.ecosystem || "")
+      .toLowerCase()
+      .replace(/[\s/_-]+/g, "");
+    if (eco === "tape" || eco === "tapeout" || eco === "circuit" || eco === "电路" || eco === "电路板") {
+      return true;
+    }
+    const cat = String(c.category || "").toLowerCase().replace(/\s+/g, "");
+    if (cat === "tape/电路" || cat === "电路板" || cat === "tapeout") return true;
+    const tags = (c.tags || []).map((t) => String(t).toLowerCase().replace(/\s+/g, ""));
+    if (
+      tags.some(
+        (t) =>
+          t === "tapeout" ||
+          t === "电路板" ||
+          t === "电路nft" ||
+          t.includes("电路板") ||
+          t.includes("电路nft") ||
+          t.includes("tapeout") ||
+          t.includes("circuitboard") ||
+          t.includes("circuit-board")
+      )
+    ) {
+      return true;
+    }
+    const handles = [];
+    const soc = c.social || {};
+    if (soc.handle) handles.push(soc.handle);
+    if (Array.isArray(soc.handles)) handles.push(...soc.handles);
+    if (c.handle) handles.push(c.handle);
+    const x = (c.links && c.links.x) || "";
+    const m = String(x).match(/(?:x|twitter)\.com\/([A-Za-z0-9_]+)/i);
+    if (m) handles.push(m[1]);
+    return handles.some((h) => TAPE_HANDLES.has(String(h).replace(/^@/, "").toLowerCase()));
+  }
+
+  /** Seven board columns: Elysium > Tape/电路 > LayerZero > mining > GO > 台子/Meme > 打新.
    *  Focus candidates are strip-only (excluded from columns via isFocus),
-   *  except Elysium hub may also show in the Elysium column. */
+   *  except Elysium and Tape/电路 may also show focus cards in their column. */
   /** CSS-safe category class (slash in 台子/Meme breaks tag-cat-* selectors). */
   function catClassOf(category) {
     const s = String(category || "");
@@ -381,11 +444,17 @@
 
   function zoneOf(c) {
     if (isElysium(c)) return "elysium";
+    if (isTape(c)) return "tape";
     if (isLayerZero(c)) return "lz";
     if (isMining(c)) return "mining";
     if (isGoPlay(c)) return "go";
     if (isPlatformMeme(c)) return "meme";
     return "scout";
+  }
+
+  /** Focus strip stays global. Elysium and Tape columns still render their focus cards. */
+  function columnAllowsFocus(zone) {
+    return zone === "elysium" || zone === "tape";
   }
 
 
@@ -568,6 +637,7 @@
           : "";
     const riskClass = c.riskLevel === "extreme" ? "risk-extreme" : "";
     const lz = isLayerZero(c);
+    const tape = isTape(c);
     const focus = isFocus(c);
     const lzClass = lz ? "card-lz" : "";
     const focusClass = focus ? "card-focus" : "";
@@ -600,12 +670,13 @@
       <article class="card ${riskClass} ${flagClass} ${lzClass} ${focusClass}" data-id="${escapeHtml(c.id)}">
         <div class="card-top ${hasFlag ? "" : "has-no-flag"}">
           <div>
-            <div class="name">${escapeHtml(c.name)}${focus ? '<span class="focus-chip" title="重点关注">重点</span>' : ""}${lz ? '<span class="lz-chip" title="LayerZero 相关">LZ</span>' : ""}${isGoPlay(c) ? '<span class="go-chip" title="GO盘">GO</span>' : ""}${sched}${newBadge}</div>
+            <div class="name">${escapeHtml(c.name)}${focus ? '<span class="focus-chip" title="重点关注">重点</span>' : ""}${lz ? '<span class="lz-chip" title="LayerZero 相关">LZ</span>' : ""}${tape ? '<span class="tape-chip" title="Tape/电路系列">电路</span>' : ""}${isGoPlay(c) ? '<span class="go-chip" title="GO盘">GO</span>' : ""}${sched}${newBadge}</div>
             <div class="tags">
               <span class="tag tag-cat-${escapeHtml(catClassOf(c.category))}">${escapeHtml(c.category)}</span>
               <span class="tag tag-chain">${escapeHtml(canonicalChain(c.chain))}</span>
               ${focus ? '<span class="tag tag-focus">重点</span>' : ""}
               ${lz ? '<span class="tag tag-lz">LayerZero</span>' : ""}
+              ${tape ? '<span class="tag tag-tape">Tape/电路</span>' : ""}
               ${isGoPlay(c) ? '<span class="tag tag-go">GO</span>' : ""}
               ${isMining(c) ? '<span class="tag tag-mining">挖矿</span>' : ""}
               ${extraTags}
@@ -697,6 +768,8 @@
     }
     if (state.chain === "Elysium 生态") {
       if (!isElysium(c)) return false;
+    } else if (state.chain === "Tape/电路") {
+      if (!isTape(c)) return false;
     } else if (state.chain !== "all" && !chainsMatch(c.chain, state.chain)) {
       return false;
     }
@@ -801,7 +874,7 @@
     let list = state.data.candidates.filter(
       (c) =>
         zoneOf(c) === zone &&
-        (zone === "elysium" || !isFocus(c)) &&
+        (columnAllowsFocus(zone) || !isFocus(c)) &&
         passesShared(c)
     );
     if (zone === "mining") list = list.filter((c) => matchesMiningType(c, state.miningTypeFilter));
@@ -811,7 +884,7 @@
   }
 
   /** Focus strip is global: all focus:true / isFocus items, independent of round (and other chip filters).
-   *  Round/category/chain/LZ/schedule filters apply only to the six board columns via passesShared. */
+   *  Round/category/chain/LZ/schedule filters apply only to the seven board columns via passesShared. */
   function focusItems() {
     let list = state.data.candidates.filter((c) => isFocus(c) && hasTwitter(c));
     list = sortList(list);
@@ -1046,19 +1119,22 @@
       `<button type="button" class="chip cat-go" data-group="zoneJump" data-value="go-panel">GO盘</button>` +
       `<button type="button" class="chip cat-meme-jump" data-group="zoneJump" data-value="meme-panel">台子/Meme</button>` +
       `<button type="button" class="chip chip-lz" data-group="zoneJump" data-value="lz-panel">LayerZero</button>` +
-      `<button type="button" class="chip chip-ely" data-group="zoneJump" data-value="ely-panel">Elysium 生态</button>`;
+      `<button type="button" class="chip chip-ely" data-group="zoneJump" data-value="ely-panel">Elysium 生态</button>` +
+      `<button type="button" class="chip chip-tape" data-group="zoneJump" data-value="tape-panel">Tape/电路</button>`;
 
     const elyCount = state.data.candidates.filter((c) => hasTwitter(c) && isElysium(c)).length;
+    const tapeCount = state.data.candidates.filter((c) => hasTwitter(c) && isTape(c)).length;
     const rawChains = uniqueChains(state.data.candidates.filter(hasTwitter)).filter(
-      (ch) => ch !== "Elysium 生态"
+      (ch) => ch !== "Elysium 生态" && ch !== "Tape/电路"
     );
     const chains = [
       { id: "all", label: "全部链" },
       { id: "Elysium 生态", label: `Elysium 生态 · ${elyCount}`, cls: "chip-ely" },
+      { id: "Tape/电路", label: `Tape/电路 · ${tapeCount}`, cls: "chip-tape" },
       ...rawChains.map((ch) => ({
         id: ch,
         label: ch,
-        cls: ch === "LayerZero" ? "chip-lz" : ch === "Elysium" ? "chip-ely" : "",
+        cls: ch === "LayerZero" ? "chip-lz" : ch === "Elysium" ? "chip-ely" : ch === "TapeOut" ? "chip-tape" : "",
       })),
     ];
     chainHost.innerHTML = chains
@@ -1191,6 +1267,15 @@
       elyPill.classList.add("pill-ely");
       elyPill.title = (elyWatch.focus || []).join(" · ") || "跳到 Elysium 生态列";
     }
+    const tapePill = $("#tape-pill");
+    if (tapePill) {
+      const tn = state.data.candidates.filter((c) => hasTwitter(c) && isTape(c)).length;
+      tapePill.textContent = `Tape/电路 · ${tn}`;
+      tapePill.classList.add("pill-tape");
+      const tapeWatch = state.data.meta?.blonskrWatch;
+      tapePill.title =
+        (tapeWatch && tapeWatch.label) || "跳到 Tape/电路列";
+    }
   }
 
   function miningTypeLabel(c) {
@@ -1230,6 +1315,7 @@
     { id: "go", grid: "#go-grid", count: "#go-count", label: "GO盘", cards: true },
     { id: "lz", grid: "#lz-grid", count: "#lz-count", label: "LayerZero", cards: true },
     { id: "elysium", grid: "#ely-grid", count: "#ely-count", label: "Elysium 生态", cards: true },
+    { id: "tape", grid: "#tape-grid", count: "#tape-count", label: "Tape/电路", cards: true },
   ];
 
   function emptyColumnHtml(label, zoneId) {
@@ -1239,11 +1325,17 @@
     if (zoneId === "elysium") {
       return `<div class="empty empty-ely"><div class="ely-badge-lg">ELY</div><div>暂无 Elysium 生态候选</div><div class="empty-sub">盯 Enter_Elysium · Ascend · 挖矿/台子/预测</div></div>`;
     }
+    if (zoneId === "tape") {
+      return `<div class="empty empty-tape"><div class="tape-badge-lg">TAPE</div><div>暂无 Tape/电路候选</div><div class="empty-sub">盯 TapeOut · 电路板 · 电路 NFT · 勿标 Elysium</div></div>`;
+    }
     if (state.layerzero === "on") {
       return `<div class="empty empty-lz"><div class="lz-badge-lg">LZ</div><div>当前筛选下暂无${escapeHtml(label)}</div></div>`;
     }
     if (state.elysium === "on" || state.chain === "Elysium 生态") {
       return `<div class="empty empty-ely"><div class="ely-badge-lg">ELY</div><div>当前筛选下暂无${escapeHtml(label)}</div></div>`;
+    }
+    if (state.chain === "Tape/电路") {
+      return `<div class="empty empty-tape"><div class="tape-badge-lg">TAPE</div><div>当前筛选下暂无${escapeHtml(label)}</div></div>`;
     }
     return `<div class="empty">暂无匹配的${escapeHtml(label)}</div>`;
   }
@@ -1294,7 +1386,7 @@
     const all = state.data.candidates.filter(
       (c) =>
         zoneOf(c) === zone.id &&
-        (zone.id === "elysium" || !isFocus(c)) &&
+        (columnAllowsFocus(zone.id) || !isFocus(c)) &&
         hasTwitter(c)
     );
     const list = columnItems(zone.id);
@@ -1331,12 +1423,14 @@
     const goPill = $("#go-pill");
     const lzPill = $("#lz-pill");
     const elyPill = $("#ely-pill");
+    const tapePill = $("#tape-pill");
     if (favPill) favPill.textContent = `收藏 · ${counts.fav.shown}`;
     if (focusPill) focusPill.textContent = `重点 · ${counts.focus.total}`;
     if (minePill) minePill.textContent = `挖矿 · ${counts.mining.total}`;
     if (goPill) goPill.textContent = `GO盘 · ${counts.go.total}`;
     if (lzPill) lzPill.textContent = `LayerZero · ${counts.lz.total}`;
     if (elyPill) elyPill.textContent = `Elysium · ${counts.elysium.total}`;
+    if (tapePill) tapePill.textContent = `Tape/电路 · ${counts.tape.total}`;
     $("#stats").innerHTML = `
       重点 <b>${counts.focus.shown}</b> ·
       收藏 <b>${counts.fav.shown}</b> ·
@@ -1346,6 +1440,7 @@
       GO盘 <b>${counts.go.shown}</b> ·
       LayerZero <b>${counts.lz.shown}</b> ·
       Elysium <b>${counts.elysium.shown}</b> ·
+      Tape/电路 <b>${counts.tape.shown}</b> ·
       共 <b>${total}</b> ·
       即将开售 <b>${soonN}</b> ·
       <b>仅显示有推特</b> ·
