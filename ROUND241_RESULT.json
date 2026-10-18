@@ -1,0 +1,213 @@
+{
+  "round": 241,
+  "completedAt": "2026-10-19 01:47 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "4 新收录 + ≤2h mint（toxic-toads≈01:30CST已开、ink-chickens≈02:00CST）",
+  "alertMessage": "【新收录】9E70FF、HOODVALE Citizens、LaunchPath、TapeOut Space 已入池；近2h：Toxic Toads≈01:30CST已开、Ink Chickens≈02:00CST，详见 https://reboot7454.github.io/early-scout/",
+  "summary": "R241新收4(9e70ff/hoodvale-citizens/launchpath/zerotapeout)；Tape打标电路板/TapeOut勿Elysium；≤2h Toads+Chickens；Peek deferred；KeepOut持。",
+  "newAdmits": [
+    {
+      "id": "9e70ff",
+      "name": "9E70FF",
+      "zone": "打新",
+      "chain": "Ink",
+      "handle": "@9E70FF_ink",
+      "followers": 24
+    },
+    {
+      "id": "hoodvale-citizens",
+      "name": "HOODVALE Citizens",
+      "zone": "打新",
+      "chain": "Robinhood",
+      "handle": "@hoodvale_nft",
+      "followers": 642
+    },
+    {
+      "id": "launchpath",
+      "name": "LaunchPath",
+      "zone": "Elysium",
+      "chain": "Elysium",
+      "handle": "@0xmeto_",
+      "followers": 3001
+    },
+    {
+      "id": "zerotapeout",
+      "name": "TapeOut Space",
+      "zone": "Tape/电路(台子)",
+      "chain": "BNB",
+      "handle": "@ZeroTapeOut",
+      "followers": 184,
+      "tags": [
+        "电路板",
+        "TapeOut"
+      ]
+    }
+  ],
+  "updatedExisting": [
+    {
+      "id": "tapeai",
+      "what": "粉≈2390；快照20:00CST；Mint≈10-20；标签电路板/TapeOut"
+    },
+    {
+      "id": "bem",
+      "what": "粉≈1350；PoD续；电路板/TapeOut"
+    },
+    {
+      "id": "tapeup",
+      "what": "粉≈2092"
+    },
+    {
+      "id": "firsto-ai",
+      "what": "粉≈509"
+    },
+    {
+      "id": "tapeoutworld",
+      "what": "粉≈4140；开图/TAP-721讨论续"
+    },
+    {
+      "id": "starcatokx",
+      "what": "粉≈1295；仍Oct19 token not live"
+    },
+    {
+      "id": "squeekchain",
+      "what": "粉≈1392"
+    },
+    {
+      "id": "toxic-toads",
+      "what": "mint已开≈01:30CST"
+    },
+    {
+      "id": "ink-chickens",
+      "what": "PUBLIC≈02:00CST"
+    },
+    {
+      "id": "paperbird",
+      "what": "粉≈111"
+    },
+    {
+      "id": "shielded-nakas",
+      "what": "粉≈3252"
+    },
+    {
+      "id": "enter-elysium",
+      "what": "KeepOut持；LaunchPath新收"
+    }
+  ],
+  "zoneCoverage": {
+    "scout": [
+      "9e70ff",
+      "hoodvale-citizens",
+      "toxic-toads",
+      "ink-chickens",
+      "tapeai"
+    ],
+    "mining": [
+      "squeekchain",
+      "bem",
+      "midstate-mds",
+      "wsmco",
+      "oreos"
+    ],
+    "meme": [
+      "zerotapeout",
+      "starcatokx",
+      "paperbird",
+      "open-orbit",
+      "peakfun"
+    ],
+    "go": [
+      "tapeup",
+      "firsto-ai",
+      "catchtocash"
+    ],
+    "lz": [
+      "armoreum/oftpad unverified→meme"
+    ],
+    "elysium": [
+      "launchpath",
+      "enter-elysium",
+      "ascendlaunch",
+      "liquid-terminal",
+      "kilnpad"
+    ],
+    "tape": [
+      "zerotapeout",
+      "tapeai",
+      "bem",
+      "tapeup",
+      "firsto-ai",
+      "tapeoutworld"
+    ],
+    "note": "全覆盖含Tape/电路；tags强制电路板/TapeOut；勿Elysium；第七栏UI交云端"
+  },
+  "columnsCovered": [
+    "打新",
+    "挖矿",
+    "台子/Meme",
+    "GO盘",
+    "LayerZero",
+    "Elysium",
+    "Tape/电路(标签预留)"
+  ],
+  "scoutNotes": "Trencher HTML+X watches+Elysium eco On testnet；Tape查漏 admit @ZeroTapeOut；跳过 TapeCode suspended / TapePack个人 / Koala个人；Discord不登录 deferred；lzycrowd DS score拒收。",
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "admit": true,
+    "score": true,
+    "copy": true,
+    "alert": true,
+    "summary": true
+  },
+  "dsFallback": false,
+  "discordPeekDeferred": true,
+  "skipped": [
+    {
+      "id": "lzycrowd",
+      "reason": "DS score admit:false 信息过低易误导LZ"
+    },
+    {
+      "id": "fornum",
+      "reason": "无明确早期窗口 粉≈0"
+    },
+    {
+      "id": "skalliz",
+      "reason": "zk-skulls子集 主集已在库"
+    },
+    {
+      "id": "koalatapeai",
+      "reason": "个人builder号"
+    },
+    {
+      "id": "tapecode",
+      "reason": "账号suspended"
+    },
+    {
+      "id": "tapepack",
+      "reason": "无独立项目推特"
+    },
+    {
+      "id": "nest-exchange",
+      "reason": "仅Announced无早期窗口"
+    },
+    {
+      "id": "bound",
+      "reason": "Exploring不进Elysium"
+    },
+    {
+      "id": "perpme",
+      "reason": "elysiumKeepOut"
+    }
+  ],
+  "push": {
+    "repo": "Reboot7454/early-scout",
+    "branch": "main",
+    "files": [
+      "data.json",
+      "ROUND241_RESULT.json"
+    ]
+  },
+  "metaRound": 241,
+  "candidateCount": 670
+}
