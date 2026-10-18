@@ -1,0 +1,54 @@
+{
+  "round": 244,
+  "completedAt": "2026-10-19 03:10 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "discord-alpha-peek-only",
+  "notify": true,
+  "notifyReason": "Discord #alpha-1 Peek gap-fill real new admit",
+  "alertMessage": "【R244 Discord Peek补漏】新收录 Ink Nutters(ink-nutters)。Ink 链 888 NFT，3 粉极早期；先盯推文等铸造/合约再动。面板 https://reboot7454.github.io/early-scout/",
+  "summary": "R244 Discord alpha 补漏：新收录 1（ink-nutters）；跳过成熟 @lucakante/@skel；无空壳拒收。仅 DC Peek，未跑全量网页雷达。",
+  "newAdmits": [
+    {
+      "id": "ink-nutters",
+      "name": "Ink Nutters",
+      "handle": "@InkNutters",
+      "category": "打新",
+      "chain": "Ink",
+      "followers": 3
+    }
+  ],
+  "rejected": [],
+  "skippedMature": [
+    {
+      "handle": "@lucakante",
+      "reason": "Established casino KOL since 2016-05-08, 7,533 followers, 3,457 tweets, verified; bio is Gamdom / lucarewards.com $50k leaderboard — not an early project (below 50k but clearly mature)."
+    },
+    {
+      "handle": "@skel",
+      "reason": "91,393 followers (>50k), joined 2009-04-02, 6,235 tweets, verified builder (@metawin etc.) — mature KOL."
+    }
+  ],
+  "skippedAlreadyIn": [],
+  "discordPeekDeferred": false,
+  "discordPeek": {
+    "channel": "alpha-1",
+    "lastSeenBefore": "2026-10-19 01:48 CST",
+    "lastSeenAfter": "2026-10-19 03:04 CST",
+    "newestMsgTime": "2026-10-19 03:04 CST",
+    "candidateCards": 1,
+    "loginOk": true
+  },
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": 2,
+    "purpose": [
+      "admit-initial-reject",
+      "admit-peer-consistent-accept+score"
+    ]
+  },
+  "clearedPrevNewThisRound": 3,
+  "push": {
+    "pending": true
+  }
+}
