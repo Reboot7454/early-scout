@@ -5,7 +5,7 @@
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "R225: +tapeai(focus电路板)+bem+tapeup+firsto-ai; user-named TapeOut/@Blonskr; R219: +elytra-nft +hirehood +quiet-orbit; RobinXP+Trencher+Peek+Elysium+X; ≤2h zany/skills/skulls-hoods; R226mid +starcatokx(X链/OKX台子样例); +ninetailstrade",
-    "lastScout": "2026-10-18 23:05 CST",
+    "lastScout": "2026-10-18 23:19 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -200,7 +200,8 @@
       "Elysium 类生态（加栏加盯一例，不收缩其它栏/生态覆盖；Enter_Elysium / Orbit L2 子项目与同类新生态）",
       "电路板/TapeOut 门级电路·电路 NFT（样例 @TapeAIAgent / @Blonskr 生态）；同类有独立推特的电路 mint/挖矿/DeWEB 应收录",
       "X链/OKX 及同类极早期发射台（样例 @StarcatOKX / @NinetailsTrade）",
-      "PaperBird 类极早期鸟/meme/发射 peer（样例 @paperbird_lol）"
+      "PaperBird 类极早期鸟/meme/发射 peer（样例 @paperbird_lol）",
+      "BTC 隐私 Ordinals/CRC20 早期（样例 @ShieldedNaka / @banknotes_btc / @mannequinsnft；CRC20 @Satelite_CRC20 / @BONSonBTC）；同类有独立推特的隐私 mint/发射应收录，与其它栏同等努力"
     ],
     "round28Added": [
       "baby-seals-crc",
@@ -288,7 +289,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 233,
+    "round": 234,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -365,7 +366,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 643,
+    "candidateCount": 644,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -736,10 +737,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "furnace",
-      "everybody-loves-rh",
-      "kyzen-network",
-      "krakonchain"
+      "mannequins-noir"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1085,7 +1083,7 @@
       "nopad",
       "routr-network"
     ],
-    "previousRound": 232,
+    "previousRound": 233,
     "round183Added": [
       "heygrok",
       "grail-break",
@@ -1142,7 +1140,8 @@
       "btcOrdinals": [
         "shielded-nakas",
         "solemn-trollbox",
-        "banknotes-btc"
+        "banknotes-btc",
+        "mannequins-noir"
       ],
       "r226": [
         "unseen-ink",
@@ -1641,15 +1640,75 @@
       "everybody-loves-rh",
       "kyzen-network",
       "krakonchain"
-    ]
+    ],
+    "btcPrivacyWatch": {
+      "active": true,
+      "label": "BTC 隐私 Ordinals / Shielded 早期 mint（用户样例 @ShieldedNaka @banknotes_btc）",
+      "accounts": [
+        "@ShieldedNaka",
+        "@banknotes_btc",
+        "@strangersolemn",
+        "@mannequinsnft",
+        "@Ord_Dropz",
+        "@OrdDropz"
+      ],
+      "candidateIds": [
+        "shielded-nakas",
+        "solemn-trollbox",
+        "banknotes-btc",
+        "mannequins-noir"
+      ],
+      "focus": [
+        "隐私 Ordinals",
+        "Shielded mint",
+        "zk 所有权",
+        "OrdDropz Shielded Launchpad",
+        "同圈 peer early mints"
+      ],
+      "skippedMatureOrNoMint": [
+        "OrdDropz(@Ord_Dropz/@OrdDropz 发射台基建 — DS skip 单独 admit，仅入 accounts)"
+      ],
+      "missingPeersAdmitted": [
+        "mannequins-noir"
+      ],
+      "note": "R234：三件已在 meta.watches.btcOrdinals；zone=打新正确；补录 Mannequins；banknotes 二级修正；同等努力不偏科",
+      "lastChecked": "2026-10-18 23:19 CST"
+    },
+    "btcCrc20Watch": {
+      "active": true,
+      "label": "BTC CRC20 / 隐私发射台早期（与隐私 Ordinals 同等努力）",
+      "accounts": [
+        "@Satelite_CRC20",
+        "@BitcoinITMoney",
+        "@BONSonBTC",
+        "@BTC_CRC30"
+      ],
+      "candidateIds": [
+        "satelite-crc20",
+        "bitm-crc20",
+        "btc-crc30"
+      ],
+      "focus": [
+        "CRC20 early mints",
+        "BTC L1 无托管发射",
+        "BONS/CRC 隐私协议",
+        "假币/延期风险"
+      ],
+      "note": "R234：CRC20 列与 Shielded Ordinals 同等努力；BITM 仍 delayed+退款；Satelite Signal incoming；CRC30 ready 无精确铸造时刻",
+      "lastChecked": "2026-10-18 23:19 CST"
+    },
+    "round234Added": [
+      "mannequins-noir"
+    ],
+    "btcZoneNoteR234": "shielded-nakas/solemn-trollbox/banknotes-btc/mannequins-noir → category=打新 → zone scout 正确；satelite-crc20/bitm-crc20/btc-crc30 → 台子/Meme 正确；OrdDropz 仅 watch 不 admit（DS）。"
   },
   "candidates": [
     {
       "id": "krakonchain",
       "name": "krakonchain",
       "round": 233,
-      "newThisRound": true,
-      "flag": "本轮新",
+      "newThisRound": false,
+      "flag": null,
       "firstSeen": "2026-10-18T23:05:00+08:00",
       "addedAt": "2026-10-18T23:05:00+08:00",
       "lastRefreshedAt": "2026-10-18T23:05:00+08:00",
@@ -1739,8 +1798,8 @@
       "id": "kyzen-network",
       "name": "Kyzen Network",
       "round": 233,
-      "newThisRound": true,
-      "flag": "本轮新",
+      "newThisRound": false,
+      "flag": null,
       "firstSeen": "2026-10-18T23:05:00+08:00",
       "addedAt": "2026-10-18T23:05:00+08:00",
       "lastRefreshedAt": "2026-10-18T23:05:00+08:00",
@@ -1819,8 +1878,8 @@
       "id": "everybody-loves-rh",
       "name": "Everybody Loves Robinhood",
       "round": 233,
-      "newThisRound": true,
-      "flag": "本轮新",
+      "newThisRound": false,
+      "flag": null,
       "firstSeen": "2026-10-18T23:05:00+08:00",
       "addedAt": "2026-10-18T23:05:00+08:00",
       "lastRefreshedAt": "2026-10-18T23:05:00+08:00",
@@ -1893,8 +1952,8 @@
       "id": "furnace",
       "name": "Furnace",
       "round": 233,
-      "newThisRound": true,
-      "flag": "本轮新",
+      "newThisRound": false,
+      "flag": null,
       "firstSeen": "2026-10-18T23:05:00+08:00",
       "addedAt": "2026-10-18T23:05:00+08:00",
       "lastRefreshedAt": "2026-10-18T23:05:00+08:00",
@@ -3865,7 +3924,7 @@
         "一体化叙事较宽，需防样样有样样松",
         "BTC CRC 生态风险与合约透明度需重点核验"
       ],
-      "whatsNew": "【续更R231】社媒称 CRC30 公开铸造约下周；隐私/Swap/发射台一体化叙事续盯",
+      "whatsNew": "【续更R234】粉≈460；隐私/Swap/发射台 ready 续；公开铸造时刻未官宣。",
       "earlyScore": 76,
       "riskScore": 84,
       "risk": "极高·84",
@@ -3874,7 +3933,7 @@
       "addedAt": "2026-10-18 06:15 CST",
       "newThisRound": false,
       "followers": 460,
-      "lastRefreshedAt": "2026-10-18 21:50 CST"
+      "lastRefreshedAt": "2026-10-18T23:19:50+08:00"
     },
     {
       "id": "nibblewage",
@@ -27614,7 +27673,7 @@
         "发射窗取消节奏乱",
         "流动/募资风险待解"
       ],
-      "whatsNew": "CRC20 delayed续更；粉→685；@BitcoinITMoney",
+      "whatsNew": "【续更R234】仍 delayed；BONS 假币退款已提交；主发射未开；粉≈697。",
       "whyWatch": "即将在BONSonBTC发射，但需评估平台可靠性",
       "background": "Bitcoin Internet Money 自称首个 CTO Launch（CRC-20）；官帖确认 Today 2PM UTC on @BONSonBTC。",
       "links": {
@@ -27651,9 +27710,12 @@
       "mintStatus": "delayed",
       "flag": "DELAY",
       "social": {
-        "xFollowers": 685,
-        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00"
-      }
+        "xFollowers": 697,
+        "lastCheckedAt": "2026-10-17T02:09:55.501213+08:00",
+        "followers": 697,
+        "handle": "@BitcoinITMoney"
+      },
+      "lastRefreshedAt": "2026-10-18T23:19:50+08:00"
     },
     {
       "id": "terminl-rh",
@@ -33550,7 +33612,7 @@
         "BTC L1发射台安全与竞争风险高",
         "团队与合约信息极少"
       ],
-      "whatsNew": "【续更】R148轻量续盯。【续更】R146轻量续盯；Satelite预告Signal即将上线，主打BTC L1 CRC-20无托管发射。续更",
+      "whatsNew": "【续更R234】粉≈93；站点 Signal incoming 续；CRC20 无托管台。",
       "addedAt": "2026-10-17T07:51:44.165084+08:00",
       "firstSeen": "2026-10-17T07:51:44.165084+08:00",
       "status": "early",
@@ -33575,7 +33637,12 @@
       },
       "whyWatch": "BTC/CRC20 早期发射玩法，对齐雷达 BTC 覆盖。",
       "background": "Satelite 自称 Bitcoin L1 CRC-20 covenant token launchpad，no custody；官网仍 Signal incoming。",
-      "lastRefreshedAt": "2026-10-17T15:10:24+08:00"
+      "lastRefreshedAt": "2026-10-18T23:19:50+08:00",
+      "social": {
+        "followers": 93,
+        "xFollowers": 93,
+        "handle": "@Satelite_CRC20"
+      }
     },
     {
       "id": "epochpad",
@@ -45182,7 +45249,7 @@
       "flag": null,
       "addedAt": "2026-10-18 15:25 CST",
       "firstSeen": "2026-10-18 15:25 CST",
-      "lastRefreshedAt": "2026-10-18 19:01 CST",
+      "lastRefreshedAt": "2026-10-18T23:19:50+08:00",
       "source": "user-named BTC watch + X/Web R222",
       "tags": [
         "打新",
@@ -45198,8 +45265,8 @@
         "web": "https://ord-dropz.xyz/shord"
       },
       "social": {
-        "followers": 3216,
-        "xFollowers": 3203,
+        "followers": 3244,
+        "xFollowers": 3244,
         "handle": "@ShieldedNaka",
         "handles": [
           "ShieldedNaka"
@@ -45207,22 +45274,22 @@
       },
       "lzVerified": false,
       "scores": {
-        "early": 35,
-        "actionable": 52,
-        "novelty": 62,
-        "risk": 56,
-        "overall": 50,
-        "composite": 5.0,
+        "early": 38,
+        "actionable": 50,
+        "novelty": 50,
+        "risk": 65,
+        "overall": 45,
+        "composite": 4.5,
         "raw100": {
-          "early": 35,
-          "actionable": 52,
-          "novelty": 62,
-          "risk": 56,
-          "overall": 50
+          "early": 38,
+          "actionable": 50,
+          "novelty": 50,
+          "risk": 65,
+          "overall": 45
         }
       },
-      "earlyScore": 35,
-      "riskScore": 56,
+      "earlyScore": 38,
+      "riskScore": 65,
       "risk": 56,
       "riskLevel": "medium",
       "highlights": [
@@ -45235,15 +45302,15 @@
         "BTC Ordinals 流动性与隐私合规仍有不确定性",
         "后续生态能否落地仍需观察"
       ],
-      "whatsNew": "【续更R226】粉≈3223；二级活跃。",
+      "whatsNew": "【续更R234】粉≈3244；开发者竞赛 THE VAULT；Mint 售罄二级续；$SHNAKA 叙事。",
       "background": "Shielded-NakaPunks：Bitcoin 上 3,333 shielded ordinals；艺术公开、所有权隐私(zk)；@ShieldedNaka≈3203粉；mint Oct1 FCFS 售罄；生态续开发者竞赛、staking $SHNAKAS、ORD Dropz。",
       "whyWatch": "用户点名：BTC 隐私 Ordinals 首发系列，售罄后生态与二级可盯。",
       "schedule": {
         "status": "post_mint",
         "timezone": "Asia/Shanghai",
         "mintStatus": "sold_out",
-        "note": "粉≈3213；二级活跃；OrdDropz",
-        "source": "RXP/X R224",
+        "note": "粉≈3244；二级活跃；Vault竞赛；OrdDropz",
+        "source": "X R234",
         "phases": [
           {
             "name": "Mint FCFS",
@@ -45273,7 +45340,7 @@
       "flag": null,
       "addedAt": "2026-10-18 15:25 CST",
       "firstSeen": "2026-10-18 15:25 CST",
-      "lastRefreshedAt": "2026-10-18 19:01 CST",
+      "lastRefreshedAt": "2026-10-18T23:19:50+08:00",
       "source": "user-named BTC watch + X/Web R222",
       "tags": [
         "打新",
@@ -45289,8 +45356,8 @@
         "web": "https://trollbox.strangersolemn.art/"
       },
       "social": {
-        "followers": 25918,
-        "xFollowers": 25850,
+        "followers": 26129,
+        "xFollowers": 26129,
         "handle": "@strangersolemn",
         "handles": [
           "strangersolemn"
@@ -45298,22 +45365,22 @@
       },
       "lzVerified": false,
       "scores": {
-        "early": 78,
-        "actionable": 86,
-        "novelty": 66,
-        "risk": 58,
-        "overall": 76,
-        "composite": 7.6,
+        "early": 75,
+        "actionable": 65,
+        "novelty": 55,
+        "risk": 50,
+        "overall": 62,
+        "composite": 6.2,
         "raw100": {
-          "early": 78,
-          "actionable": 86,
-          "novelty": 66,
-          "risk": 58,
-          "overall": 76
+          "early": 75,
+          "actionable": 65,
+          "novelty": 55,
+          "risk": 50,
+          "overall": 62
         }
       },
-      "earlyScore": 78,
-      "riskScore": 58,
+      "earlyScore": 75,
+      "riskScore": 50,
       "risk": 58,
       "riskLevel": "medium",
       "highlights": [
@@ -45326,7 +45393,7 @@
         "独立价值仍依赖 Shielded 系列势能",
         "开放段竞争激烈，WL/GTD 外需抢 FCFS"
       ],
-      "whatsNew": "【续更R226】Anonymous Trolls≈10-20 00:00 CST GTD续。",
+      "whatsNew": "【续更R234】GTD 10-19 16:00 UTC(=10-20 00:00 CST) 2222；OrdDropz Monday；FCFS钱包已提交；粉≈26129。",
       "background": "Solemn(@strangersolemn) 在 @OrdDropz 发射 2,222 Shielded Ordinals Trollbox；每只 troll 一条 on-chain 留言；GTD含艺术持有者等；ShieldedNaka holders auto WL（创作者 X 确认）；site trollbox.strangersolemn.art。",
       "whyWatch": "用户点名：即将发射的 Shielded Ordinals 打新，时间与 WL 明确。",
       "schedule": {
@@ -45424,7 +45491,7 @@
     },
     {
       "id": "banknotes-btc",
-      "name": "BANKNOTES",
+      "name": "BANKNOTES / Commemorative Coins",
       "category": "打新",
       "chain": "Bitcoin",
       "tags": [
@@ -45438,68 +45505,80 @@
       ],
       "focus": false,
       "scores": {
-        "early": 88,
-        "actionable": 42,
-        "novelty": 62,
-        "risk": 85,
-        "overall": 58,
-        "composite": 5.8,
+        "early": 40,
+        "actionable": 55,
+        "novelty": 55,
+        "risk": 70,
+        "overall": 48,
+        "composite": 4.8,
         "raw100": {
-          "early": 88,
-          "actionable": 42,
-          "novelty": 62,
-          "risk": 85,
-          "overall": 58
+          "early": 40,
+          "actionable": 55,
+          "novelty": 55,
+          "risk": 70,
+          "overall": 48
         }
       },
       "highlights": [
-        "BTC Ordinals 极早期，Coming Soon 阶段",
-        "Shielded 叙事 + 纪念币子系列，信息量少",
-        "与 ShieldedNaka/OrdDropz 有联动",
-        "粉丝仅 1.4K，关注度低但时间早"
+        "二级交易 Day5，官推地板约 0.0012 BTC",
+        "NAKAS HEROS 小游戏 live 至周一",
+        "社区投票 private token mining",
+        "与 ShieldedNaka/OrdDropz 同圈"
       ],
       "drawbacks": [
-        "玩法与铸造细节未公布",
-        "匿名团队与合约风险偏高",
-        "Ordinals 同类项目多，差异化待验证",
-        "流动性预期不明"
+        "打新窗口已过，早期介入只能走二级",
+        "粉丝约 1.4k，流动性与深度有限",
+        "地板价与 private mining 效用仍待验证",
+        "Ordinals 同类项目多，差异化待验证"
       ],
-      "whatsNew": "【续更R226】粉≈1386；Commemorative upcoming续。",
+      "whatsNew": "【续更R234】Commemorative 二级 Day5 地板≈0.0012 BTC；NAKAS HEROS 游戏 live；private mining 社区投票；粉≈1395。原 upcoming 已修正。",
       "round": 225,
       "links": {
         "x": "https://x.com/banknotes_btc",
-        "signal": "https://x.com/banknotes_btc/status/2111222453955645520"
+        "signal": "https://x.com/banknotes_btc/status/2111222453955645520",
+        "site": "https://nakasheros.netlify.app/"
       },
       "ecosystem": null,
       "lzVerified": false,
       "followers": 1386,
       "social": {
         "x": "https://x.com/banknotes_btc",
-        "followers": 1386,
+        "followers": 1395,
         "handle": "@banknotes_btc"
       },
       "source": "X @banknotes_btc + Shielded/OrdDropz R225",
-      "status": "upcoming",
+      "status": "live",
       "mintStatus": "coming-soon",
       "schedule": {
-        "status": "upcoming",
+        "status": "post_mint",
         "timezone": "Asia/Shanghai",
-        "mintStatus": "coming-soon",
-        "note": "Commemorative Coins Shielded sub4K；COMING SOON",
-        "source": "X R225"
+        "mintStatus": "secondary",
+        "note": "Commemorative Coins 二级 Day5；地板≈0.0012 BTC；无编造一级时刻",
+        "source": "X @banknotes_btc R234",
+        "phases": [
+          {
+            "name": "Secondary Day5+",
+            "note": "官推 floor≈0.0012 BTC"
+          },
+          {
+            "name": "NAKAS HEROS",
+            "note": "小游戏 live 至周一（社区赛）"
+          }
+        ]
       },
       "newThisRound": false,
       "addedAt": "2026-10-18T18:00:59+08:00",
       "firstSeen": "2026-10-18T18:00:59+08:00",
-      "lastRefreshedAt": "2026-10-18 19:01 CST",
-      "earlyScore": 88,
+      "lastRefreshedAt": "2026-10-18T23:19:50+08:00",
+      "earlyScore": 40,
       "risk": 85,
       "riskLevel": "high",
       "whyWatch": "Shielded Ordinals 二号纪念币叙事，BTC侧与Nakas/OrdDropz同圈，预告极早期。",
       "flag": null,
       "background": null,
       "onchain": null,
-      "alert": null
+      "alert": null,
+      "riskScore": 70
     },
     {
       "id": "tapeai",
@@ -46212,7 +46291,7 @@
       "followers": 322,
       "round": 228,
       "newThisRound": false,
-      "flag": "本轮新",
+      "flag": null,
       "addedAt": "2026-10-18 20:08 CST",
       "firstSeen": "2026-10-18 20:08 CST",
       "lastRefreshedAt": "2026-10-18 20:08 CST",
@@ -46293,7 +46372,7 @@
       "followers": 2610,
       "round": 228,
       "newThisRound": false,
-      "flag": "本轮新",
+      "flag": null,
       "addedAt": "2026-10-18 20:08 CST",
       "firstSeen": "2026-10-18 20:08 CST",
       "lastRefreshedAt": "2026-10-18 22:25 CST",
@@ -46946,7 +47025,7 @@
       "followers": 96,
       "round": 231,
       "newThisRound": false,
-      "flag": "本轮新",
+      "flag": null,
       "addedAt": "2026-10-18 22:04 CST",
       "firstSeen": "2026-10-18 22:04 CST",
       "lastRefreshedAt": "2026-10-18T23:05:00+08:00",
@@ -47190,6 +47269,89 @@
         "followers": 17,
         "xFollowers": 17
       }
+    },
+    {
+      "id": "mannequins-noir",
+      "name": "BTC Mannequins Noir",
+      "round": 234,
+      "newThisRound": true,
+      "flag": "本轮新",
+      "firstSeen": "2026-10-18T23:19:50+08:00",
+      "addedAt": "2026-10-18T23:19:50+08:00",
+      "lastRefreshedAt": "2026-10-18T23:19:50+08:00",
+      "followers": 3433,
+      "chain": "Bitcoin",
+      "category": "打新",
+      "tags": [
+        "打新",
+        "Bitcoin",
+        "Ordinals",
+        "Shielded",
+        "隐私",
+        "极早期",
+        "OrdDropz",
+        "本轮新"
+      ],
+      "ecosystem": null,
+      "lzVerified": false,
+      "focus": false,
+      "links": {
+        "x": "https://x.com/mannequinsnft",
+        "signal": "https://x.com/mannequinsnft/status/2111814569710825913"
+      },
+      "social": {
+        "followers": 3433,
+        "handle": "@mannequinsnft",
+        "xFollowers": 3433,
+        "handles": [
+          "mannequinsnft"
+        ]
+      },
+      "schedule": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "upcoming",
+        "note": "Shielded Ordinals on OrdDropz；upcoming/imminent；供应口径 210 masks / 777 不一；无精确时刻不编造",
+        "source": "X @mannequinsnft R234",
+        "phases": []
+      },
+      "background": "BTC Mannequins Noir：Shielded Bitcoin Ordinals，自称即将在 @OrdDropz/@Ord_Dropz 发射；帖文 210 unique masks，另回复 777 supply；bio「Noir mint is now」但正文仍 upcoming；与 ShieldedNaka/Trollbox 同圈 peer。",
+      "whyWatch": "Shielded Ordinals 同圈缺失 peer（用户点名圈）；有独立推特、极早期、可观察。",
+      "highlights": [
+        "Shielded Bitcoin Ordinals 赛道，隐私叙事在 BTC 生态仍属稀缺",
+        "与 ShieldedNaka、Trollbox 同一圈子，社群联动可跟踪",
+        "粉丝约 3433，已有关注度但未爆发",
+        "OrdDropz Shielded Launchpad 承接"
+      ],
+      "drawbacks": [
+        "供应量说法矛盾：210 masks 与 777 supply 两种口径",
+        "无精确 mint 时间，只能盯推监视",
+        "隐私/Shielded 类在 BTC 上合规与流动性预期偏弱",
+        "发射节奏依赖 OrdDropz，可能空等"
+      ],
+      "whatsNew": "本轮新：Shielded peer；bio「mint is now」但帖文仍 upcoming；无精确时刻。",
+      "scores": {
+        "early": 88,
+        "actionable": 62,
+        "novelty": 68,
+        "risk": 48,
+        "overall": 74,
+        "composite": 7.4,
+        "raw100": {
+          "early": 88,
+          "actionable": 62,
+          "novelty": 68,
+          "risk": 48,
+          "overall": 74
+        }
+      },
+      "earlyScore": 88,
+      "riskScore": 48,
+      "riskLevel": "中",
+      "risk": 48,
+      "alert": null,
+      "status": "upcoming",
+      "source": "X @mannequinsnft + Shielded/OrdDropz peer gap R234"
     }
   ]
 }

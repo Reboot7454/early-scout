@@ -1,0 +1,134 @@
+{
+  "round": 234,
+  "completedAt": "2026-10-18 23:20 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "BTC隐私/CRC20 监视扩展 + 新收录 mannequins-noir；solemn-trollbox GTD≈10-20 00:00 CST",
+  "alertMessage": "R234：补录 BTC Mannequins Noir(@mannequinsnft)；扩建 btcPrivacyWatch+btcCrc20Watch；banknotes 二级修正；Trollbox GTD 10-20 00:00 CST。面板：https://reboot7454.github.io/early-scout/",
+  "summary": "验证 @ShieldedNaka/@banknotes_btc 已在 watches.btcOrdinals；zone=打新正确；补录 Mannequins；CRC20 同等努力监视；DS deepseek-flash thinking ON。",
+  "newAdmits": [
+    {
+      "id": "mannequins-noir",
+      "name": "BTC Mannequins Noir",
+      "zone": "打新",
+      "chain": "Bitcoin",
+      "handle": "@mannequinsnft",
+      "followers": 3433
+    }
+  ],
+  "updatedExisting": [
+    {
+      "id": "banknotes-btc",
+      "what": "upcoming→post_mint/二级 Day5；粉≈1395"
+    },
+    {
+      "id": "shielded-nakas",
+      "what": "粉≈3244；Vault竞赛续"
+    },
+    {
+      "id": "solemn-trollbox",
+      "what": "GTD 10-20 00:00 CST 续；粉≈26129"
+    },
+    {
+      "id": "bitm-crc20",
+      "what": "delayed+退款续；粉≈697"
+    },
+    {
+      "id": "satelite-crc20",
+      "what": "Signal incoming；粉≈93"
+    },
+    {
+      "id": "btc-crc30",
+      "what": "ready 续；粉≈460"
+    }
+  ],
+  "zoneCoverage": {
+    "scout": [
+      "shielded-nakas",
+      "solemn-trollbox",
+      "banknotes-btc",
+      "mannequins-noir"
+    ],
+    "meme": [
+      "satelite-crc20",
+      "bitm-crc20",
+      "btc-crc30"
+    ],
+    "note": "三件+新 peer 打新区正确；CRC20 台子/Meme；OrdDropz DS skip admit"
+  },
+  "handlesVerified": {
+    "@ShieldedNaka": {
+      "ok": true,
+      "followers": 3244
+    },
+    "@banknotes_btc": {
+      "ok": true,
+      "followers": 1395
+    },
+    "@strangersolemn": {
+      "ok": true,
+      "followers": 26129
+    },
+    "@mannequinsnft": {
+      "ok": true,
+      "followers": 3433
+    },
+    "@Ord_Dropz": {
+      "ok": true,
+      "followers": 1228,
+      "admit": false
+    },
+    "@OrdDropz": {
+      "ok": true,
+      "followers": 1508,
+      "admit": false
+    },
+    "@Satelite_CRC20": {
+      "ok": true,
+      "followers": 93
+    },
+    "@BONSonBTC": {
+      "ok": true,
+      "followers": 1789
+    },
+    "@BTC_CRC30": {
+      "ok": true,
+      "followers": 460
+    },
+    "@BitcoinITMoney": {
+      "ok": true,
+      "followers": 697
+    }
+  },
+  "alreadyInData": [
+    "shielded-nakas",
+    "solemn-trollbox",
+    "banknotes-btc"
+  ],
+  "missingPeersAdmitted": [
+    "mannequins-noir"
+  ],
+  "skipped": [
+    {
+      "id": "orddropz-pad",
+      "reason": "DS: 发射台基建成熟度偏高，仅入 watch accounts"
+    }
+  ],
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "modes": [
+      "score"
+    ]
+  },
+  "meta": {
+    "btcPrivacyWatch": true,
+    "btcCrc20Watch": true,
+    "watchStylesAdded": true,
+    "featuresLine": true
+  },
+  "push": {
+    "repo": "Reboot7454/early-scout",
+    "branch": "main"
+  }
+}

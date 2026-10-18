@@ -78,6 +78,7 @@
 - **Elysium 收录门槛**：对照 https://elysium.kinetiq.xyz/ecosystem ，只有 **On testnet**，或 **Announced 且写明具体 Elysium 部署**，才可进 Elysium 栏 / 打 `Elysium生态`。**Exploring**、「considering」、仅在生态页露名、或只是靠近 Hyperliquid，一律不进该栏，按真实品类归 GO盘 / 台子 / 打新等。`perpme` 即使用户页上是 On testnet，也按用户决定留在台子/HyperEVM，不要因文案里提到 testnet 路径改回 Elysium。
 - **X链/OKX 及同类极早期发射台（`meta.xChainPadWatch` / `meta.starcatWatch`）**：盯 `@StarcatOKX`（X Layer/Ignix，starcat.world）与 `@NinetailsTrade`（Solana 隐私多钱包兑换 peer，ninetails.trade）；归**台子/Meme**，**勿**进 Elysium/LZ。**同等努力六栏、不偏科只盯 Elysium**。非全量 X 时间线。
 - **PaperBird 类极早期鸟/meme/发射（`meta.paperbirdWatch`）**：盯 `@paperbird_lol`（flappy bird 前端 × `@papertrade_xyz` / Hyperliquid 1000x）与站 https://paperbird.lol/；归**台子/Meme**，**勿**进 Elysium/LZ。**同等努力六栏、不偏科**。非全量 X 时间线；无精确日程不编造。
+- **BTC 隐私 Ordinals / CRC20（`meta.btcPrivacyWatch` / `meta.btcCrc20Watch` / `meta.watches.btcOrdinals`）**：盯 `@ShieldedNaka` `@banknotes_btc` `@strangersolemn` `@mannequinsnft` 与 OrdDropz 圈，以及 CRC20 `@Satelite_CRC20` `@BONSonBTC` `@BTC_CRC30` `@BitcoinITMoney`——隐私 Ordinals / Shielded early mints 与 CRC20 发射**同等努力**（不偏科只盯其它栏）；有独立推特且极早期才收录；无精确日程不编造；发射台基建（OrdDropz）入 accounts 不单列 admit。
 - **电路板 / TapeOut（`meta.blonskrWatch` / `meta.watches.tapeOut`）**：用户监视 `@TapeAIAgent` + `@Blonskr` 关注线——门级电路、电路 NFT、电路板叙事（TapeAI 检察官电路 mint、BEM PoD、TapeUP/DeWEB、Firsto 等）。同类有**独立项目推特**且极早期可操作才收录；社区水军/纯个人号（如无项目号的 TapePack）不收。标签含 `电路板`/`电路NFT`/`TapeOut`；**勿标 Elysium**。
 - 此类为品类扩展监视（与 LZ / 玩具链 / Peek 对账并列），**不是**恢复全量 X 账号时间线监控，也**不是**对其它栏的替代。
 
