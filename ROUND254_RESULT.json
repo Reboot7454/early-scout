@@ -1,0 +1,201 @@
+{
+  "round": 254,
+  "completedAt": "2026-10-19 06:03 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "full-coverage",
+  "adoptedRound": true,
+  "adoptNote": "pull后 remote meta.round 已是253（Discord Peek suiagentchat），本轮升格为254，未覆盖R253数据",
+  "notify": true,
+  "notifyReason": "2 real new admits (signal-saints, sigilbound-btc) + mint ≤2h (Oozlings FREE WL≈06:00 CST; the Grumps FREE Public 续)",
+  "alertMessage": "新增 Signal Saints（RH NFT 粉≈31）、Sigilbound（BTC 链游 粉≈2）；2h可操作 Oozlings FREE WL≈06:00CST、the Grumps FREE Public 续窗；面板：https://reboot7454.github.io/early-scout/",
+  "summary": "R254全覆盖雷达（因remote已占R253而升格）：新收录2（Signal Saints RH；Sigilbound BTC）。Tape/电路/BTC/Elysium/X链pad/PaperBird/挖矿/Canton/Glaze/TokenWorks软债均刷新；多张旧卡补官推；KeepOut持；Discord本端deferred（R253 DC已收Yui）。≤2h：Oozlings WL + Grumps FREE Public续。",
+  "newAdmits": [
+    {
+      "id": "signal-saints",
+      "name": "Signal Saints",
+      "handle": "@SignalSaints",
+      "category": "打新",
+      "chain": "Robinhood Chain",
+      "followers": 31
+    },
+    {
+      "id": "sigilbound-btc",
+      "name": "Sigilbound",
+      "handle": "@SigilboundBTC",
+      "category": "打新",
+      "chain": "Bitcoin",
+      "followers": 2
+    }
+  ],
+  "updatedExisting": [
+    {
+      "id": "suiagentchat",
+      "what": "R253 DC admit保留；补twitter一致性；newThisRound已清"
+    },
+    {
+      "id": "tapeai",
+      "what": "快照今晚20:00 CST；粉≈2488；电路板勿Elysium"
+    },
+    {
+      "id": "starcatokx",
+      "what": "Oct19仍token not live；桥+Pumpfun X Layer；粉≈1288"
+    },
+    {
+      "id": "solemn-trollbox",
+      "what": "GTD 10-20 00:00 CST；粉≈26283"
+    },
+    {
+      "id": "oozlings",
+      "what": "补@Oozlings；WL≈06:00CST≤2h；粉≈58"
+    },
+    {
+      "id": "the-grumps",
+      "what": "FREE Public自05:30续窗"
+    },
+    {
+      "id": "squeekchain",
+      "what": "Sepolia续；粉≈1411"
+    },
+    {
+      "id": "socialfy",
+      "what": "补@socialdotfun_；粉≈617"
+    },
+    {
+      "id": "burrowpad",
+      "what": "补@burrowpad；粉≈270"
+    },
+    {
+      "id": "gridpad",
+      "what": "补@gridpadnet；Solana Phase2；lzVerified=false"
+    },
+    {
+      "id": "kalosfun",
+      "what": "补@kalosfun；Elysium On testnet"
+    },
+    {
+      "id": "ascendlaunch",
+      "what": "补@AscendLaunch；粉≈3983"
+    },
+    {
+      "id": "enter-elysium",
+      "what": "eco持平；KeepOut持"
+    },
+    {
+      "id": "wsmco",
+      "what": "Glaze软债 mine TBA"
+    },
+    {
+      "id": "tokenworks-playground",
+      "what": "软债刷新"
+    },
+    {
+      "id": "xstokfun",
+      "what": "Canton软债"
+    },
+    {
+      "id": "onepumpcc",
+      "what": "Canton软债"
+    },
+    {
+      "id": "consolewallet",
+      "what": "Canton软债"
+    },
+    {
+      "id": "paperbird",
+      "what": "粉≈119续"
+    }
+  ],
+  "rejected": [
+    {
+      "id": "eotm-labs",
+      "reason": "DS admit skip：$PERMA 已发CA，早期launch窗口已过"
+    },
+    {
+      "id": "ink-saints",
+      "reason": "DS score admit=false：简介空、mint/关联信息不足"
+    },
+    {
+      "id": "shielded-eagles",
+      "reason": "仅创作者个人号@lordcalder，非独立项目官推"
+    }
+  ],
+  "skippedMature": [
+    {
+      "handle": "@glaze_corp",
+      "reason": "≈12k 软债续"
+    },
+    {
+      "handle": "@token_works",
+      "reason": "≈35.7k 软债续"
+    },
+    {
+      "handle": "@CantonNetwork",
+      "reason": "≈106k 成熟"
+    },
+    {
+      "handle": "@farmingseasonio",
+      "reason": "≈6.6k 已有卡"
+    }
+  ],
+  "actionable2h": [
+    {
+      "id": "oozlings",
+      "name": "Oozlings",
+      "when": "2026-10-19 06:00 CST",
+      "what": "FREE WL"
+    },
+    {
+      "id": "the-grumps",
+      "name": "the Grumps",
+      "when": "2026-10-19 05:30 CST",
+      "what": "FREE Public 续窗"
+    }
+  ],
+  "discordPeekDeferred": true,
+  "discordPeek": {
+    "deferred": true,
+    "reason": "skipped-no-login",
+    "note": "本端不登录DC；R253他号/仓内DC Peek已收录 suiagentchat，本轮照收不覆盖"
+  },
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": 3,
+    "purpose": [
+      "admit",
+      "score",
+      "alert"
+    ]
+  },
+  "clearedPrevNewThisRound": [
+    "suiagentchat"
+  ],
+  "watchesRefreshed": [
+    "Tape/电路",
+    "BTC隐私",
+    "X链pad",
+    "PaperBird",
+    "Elysium",
+    "挖矿/squeek",
+    "Canton",
+    "Glaze",
+    "TokenWorks"
+  ],
+  "coverage": {
+    "打新": true,
+    "挖矿": true,
+    "台子/Meme": true,
+    "GO盘": true,
+    "LayerZero": "GridPad refreshed lzVerified=false; no new verified LZ",
+    "Elysium": true,
+    "Tape/电路": true,
+    "BTC": true
+  },
+  "push": {
+    "ok": false,
+    "commit": null,
+    "sha": null,
+    "remote": "origin/main"
+  },
+  "remoteVerified": false
+}
