@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-19 05:31 CST",
+    "updated": "2026-10-19 05:56 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "R248 full scout X+Elysium eco+DS；Discord deferred",
@@ -289,7 +289,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 252,
+    "round": 253,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -366,7 +366,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 701,
+    "candidateCount": 702,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -737,9 +737,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "bunny-brokers",
-      "tapefour",
-      "weirdcats"
+      "suiagentchat"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1809,19 +1807,19 @@
         }
       ],
       "purpose": "Peek gap-fill only (not full X monitor)",
-      "lastSeen": "2026-10-19 05:13 CST",
+      "lastSeen": "2026-10-19 05:49 CST",
       "bots": [
         "Spidey Bot",
         "X Follow Monitor",
         "Captain Hook"
       ],
       "hungInto": "discord-alpha-40m routine",
-      "note": "R252: 用户要求本轮不登录DC；仓内已有DC线索照收；discordPeekDeferred=true",
-      "lastChecked": "2026-10-19 05:31 CST",
-      "lastAttempt": "2026-10-19 05:31 CST",
-      "lastResult": "skipped-no-login R252 full-coverage",
-      "discordPeekDeferred": true,
-      "lastSeenBefore": "2026-10-19 04:31 CST"
+      "note": "R253: Discord alpha 补漏完成；新收录 Yui/@suiagentchat",
+      "lastChecked": "2026-10-19 05:56 CST",
+      "lastAttempt": "2026-10-19 05:56 CST",
+      "lastResult": "R253 discord-alpha-peek: +1 suiagentchat; skipped personal/mature/shell; rejected plea/handoff/flywheel_torch",
+      "discordPeekDeferred": false,
+      "lastSeenBefore": "2026-10-19 05:13 CST"
     },
     "round239Added": [
       "tsunamilaunch",
@@ -1913,6 +1911,9 @@
       "bunny-brokers",
       "tapefour",
       "weirdcats"
+    ],
+    "round253Added": [
+      "suiagentchat"
     ]
   },
   "candidates": [
@@ -51292,7 +51293,7 @@
       ],
       "source": "X @bunnybrokers R252",
       "round": 252,
-      "newThisRound": true,
+      "newThisRound": false,
       "lzVerified": false,
       "focus": false,
       "status": "watching",
@@ -51367,7 +51368,7 @@
       ],
       "source": "X @TapeFourbsc R252",
       "round": 252,
-      "newThisRound": true,
+      "newThisRound": false,
       "lzVerified": false,
       "focus": false,
       "status": "watching",
@@ -51428,7 +51429,7 @@
       ],
       "source": "X @weirdcats_nft R252",
       "round": 252,
-      "newThisRound": true,
+      "newThisRound": false,
       "lzVerified": false,
       "focus": false,
       "status": "watching",
@@ -51445,6 +51446,44 @@
         "note": "Weirdlist ticket；next stop RH；mint TBA；粉≈3246",
         "source": "X @weirdcats_nft R252"
       }
+    },
+    {
+      "id": "suiagentchat",
+      "name": "Yui",
+      "handle": "@suiagentchat",
+      "category": "台子/Meme",
+      "chain": "Sui",
+      "tags": [
+        "台子/Meme",
+        "AI agent",
+        "Sui",
+        "MCP",
+        "极早期",
+        "discord-alpha"
+      ],
+      "round": 253,
+      "newThisRound": true,
+      "focus": false,
+      "lzVerified": false,
+      "status": "early",
+      "followers": 16,
+      "source": "discord-alpha-peek",
+      "links": {
+        "x": "https://x.com/suiagentchat",
+        "site": "https://suiagent.chat/"
+      },
+      "scores": {
+        "early": 90,
+        "risk": 68,
+        "novelty": 78,
+        "actionable": 76,
+        "overall": 73
+      },
+      "highlights": "Sui 上面向 AI agent 的开放聊天室，支持通过 MCP 接入，产品雏形已可访问。",
+      "drawbacks": "粉丝仅16、尚无代币/激励细节，产品采用与留存待验证。",
+      "whatsNew": "Discord Peek：alpha-1 捕获 Yui（@suiagentchat）开放聊天室与 MCP 接入；R253 Discord 补漏新收录",
+      "addedAt": "2026-10-19 05:56 CST",
+      "firstSeen": "2026-10-19 05:56 CST"
     }
   ],
   "newThisRound": [

@@ -1,0 +1,93 @@
+{
+  "round": 253,
+  "completedAt": "2026-10-19 05:57 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "discord-alpha-peek-only",
+  "notify": true,
+  "notifyReason": "Discord Peek gap-fill real new admits",
+  "alertMessage": "【R253 Discord Peek补漏】新增1个：Yui（台子/Meme·Sui，AI agent聊天室+MCP），面板见 https://reboot7454.github.io/early-scout/",
+  "summary": "R253 Discord alpha 补漏：新收录 1（suiagentchat/Yui）；拒 Plea/HANDOFF/flywheel_torch；跳过成熟/个人/空壳共9；仅 DC Peek，未跑全量网页雷达。",
+  "newAdmits": [
+    {
+      "id": "suiagentchat",
+      "name": "Yui",
+      "handle": "@suiagentchat",
+      "category": "台子/Meme",
+      "chain": "Sui",
+      "followers": 16
+    }
+  ],
+  "rejected": [
+    {
+      "handle": "@Pleaimd",
+      "reason": "0粉无官网，机制描述为主疑似空壳"
+    },
+    {
+      "handle": "@HANDOFFhood",
+      "reason": "0粉无官网，仅概念"
+    },
+    {
+      "handle": "@flywheel_torch",
+      "reason": "与已有@flywheelcash同品牌壳"
+    }
+  ],
+  "skippedMature": [
+    {
+      "handle": "@HamelHusain",
+      "reason": "60k OpenAI"
+    },
+    {
+      "handle": "@tylerpalmer",
+      "reason": "6.7k investor"
+    },
+    {
+      "handle": "@bfl_ai",
+      "reason": "55k FLUX mature"
+    }
+  ],
+  "skippedPersonalOrShell": [
+    {
+      "handle": "@lil_rix0s",
+      "reason": "personal trader"
+    },
+    {
+      "handle": "@Shreyam_Pandey1",
+      "reason": "personal"
+    },
+    {
+      "handle": "@fercho22bl",
+      "reason": "personal"
+    },
+    {
+      "handle": "@simonricoo",
+      "reason": "personal designer"
+    },
+    {
+      "handle": "@LeftVoicChannel",
+      "reason": "news/politics"
+    },
+    {
+      "handle": "@WBpositive",
+      "reason": "empty news shell"
+    }
+  ],
+  "skippedAlreadyIn": [],
+  "discordPeekDeferred": false,
+  "discordPeek": {
+    "lastSeenBefore": "2026-10-19 05:13 CST",
+    "lastSeen": "2026-10-19 05:49 CST",
+    "newestMsgTime": "2026-10-19 05:49 CST",
+    "cardsAfterCutoff": 13,
+    "admitted": 1
+  },
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": [
+      "admit_batch",
+      "alert"
+    ]
+  },
+  "push": null,
+  "remoteVerified": false
+}
