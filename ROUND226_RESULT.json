@@ -295,16 +295,23 @@
     }
   ],
   "push": {
-    "commit": null,
-    "ok": false,
+    "commit": "f77ce9c",
+    "ok": true,
     "branch": "main",
     "files": [
       "data.json",
       "ROUND226_RESULT.json"
     ],
-    "remoteVerified": false
+    "remoteVerified": true,
+    "remoteRound": 226,
+    "remoteNewThisRound": [
+      "unseen-ink",
+      "lfgends",
+      "fomopok"
+    ],
+    "pagesNote": "GitHub raw round=226 count=622；Pages CDN 可能短暂缓存"
   },
-  "remoteVerified": false,
+  "remoteVerified": true,
   "dsUsage": {
     "model": "deepseek-flash",
     "thinking": true,
