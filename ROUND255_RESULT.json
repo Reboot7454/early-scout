@@ -1,0 +1,80 @@
+{
+  "round": 255,
+  "completedAt": "2026-10-19 06:33 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "discord-alpha-peek-only",
+  "notify": true,
+  "notifyReason": "Discord Peek gap-fill real new admits",
+  "alertMessage": "【R255 Discord Peek补漏】新增1个：Cowl（台子/Meme·Robinhood Chain，$COWL on Pons≈21:00 CST），面板见 https://reboot7454.github.io/early-scout/",
+  "summary": "R255 Discord alpha 补漏：新收录 1（cowlhq/Cowl）；拒 nafastrades/dropmax_io/larpbuster/Meanishopit；跳过成熟/个人；仅 DC Peek，未跑全量网页雷达。",
+  "newAdmits": [
+    {
+      "id": "cowlhq",
+      "name": "Cowl",
+      "handle": "@cowlhq",
+      "category": "台子/Meme",
+      "chain": "Robinhood Chain",
+      "followers": 0
+    }
+  ],
+  "rejected": [
+    {
+      "handle": "@nafastrades",
+      "reason": "个人交易员账号，非项目方，不符合早期可操作标的。"
+    },
+    {
+      "handle": "@dropmax_io",
+      "reason": "描述为建店工具，非明确加密项目，且无站点无代币信息。"
+    },
+    {
+      "handle": "@larpbuster",
+      "reason": "信息不足，无粉丝数与站点，空壳风险高，无法验证可操作性。"
+    },
+    {
+      "handle": "@Meanishopit",
+      "reason": "动漫街头服饰账号，非加密项目，0粉且无早期可操作信息。"
+    }
+  ],
+  "skippedMature": [
+    {
+      "handle": "@nft_acekings",
+      "reason": "18k followers"
+    },
+    {
+      "handle": "@albysjourney",
+      "reason": "7.9k cofounder personal"
+    }
+  ],
+  "skippedPersonalOrShell": [
+    {
+      "handle": "@tiny_teek",
+      "reason": "personal"
+    },
+    {
+      "handle": "@alimadadihamid1",
+      "reason": "artist personal"
+    }
+  ],
+  "skippedAlreadyIn": [],
+  "discordPeekDeferred": false,
+  "discordPeek": {
+    "lastSeenBefore": "2026-10-19 05:49 CST",
+    "lastSeen": "2026-10-19 06:25 CST",
+    "newestMsgTime": "2026-10-19 06:25 CST",
+    "cardsAfterCutoff": 5,
+    "admitted": 1
+  },
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": [
+      "admit_pack",
+      "alert"
+    ]
+  },
+  "push": {
+    "commit": null,
+    "branch": "main"
+  },
+  "remoteVerified": false
+}

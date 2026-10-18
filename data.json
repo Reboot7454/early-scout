@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-19 06:03 CST",
+    "updated": "2026-10-19 06:33 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "R248 full scout X+Elysium eco+DS；Discord deferred",
@@ -289,7 +289,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 254,
+    "round": 255,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -366,7 +366,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 702,
+    "candidateCount": 705,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -737,7 +737,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "suiagentchat"
+      "cowlhq"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1825,19 +1825,19 @@
         }
       ],
       "purpose": "Peek gap-fill only (not full X monitor)",
-      "lastSeen": "2026-10-19 05:49 CST",
+      "lastSeen": "2026-10-19 06:25 CST",
       "bots": [
         "Spidey Bot",
         "X Follow Monitor",
         "Captain Hook"
       ],
       "hungInto": "discord-alpha-40m routine",
-      "note": "R254: 用户要求本端不登录DC；仓内已有DC线索照收；discordPeekDeferred=true",
-      "lastChecked": "2026-10-19 06:03 CST",
-      "lastAttempt": "2026-10-19 06:03 CST",
-      "lastResult": "skipped-no-login R254 full-coverage (R253 DC Peek already landed suiagentchat)",
-      "discordPeekDeferred": true,
-      "lastSeenBefore": "2026-10-19 05:13 CST"
+      "note": "R255: DC Peek #alpha-1+aux；新收 cowlhq",
+      "lastChecked": "2026-10-19 06:33 CST",
+      "lastAttempt": "2026-10-19 06:33 CST",
+      "lastResult": "R255 Discord Peek admitted cowlhq; rejected personal/non-crypto/insufficient",
+      "discordPeekDeferred": false,
+      "lastSeenBefore": "2026-10-19 05:49 CST"
     },
     "round239Added": [
       "tsunamilaunch",
@@ -1936,6 +1936,9 @@
     "round254Added": [
       "signal-saints",
       "sigilbound-btc"
+    ],
+    "round255Added": [
+      "cowlhq"
     ]
   },
   "candidates": [
@@ -51565,7 +51568,7 @@
       ],
       "source": "X @SignalSaints R254",
       "round": 254,
-      "newThisRound": true,
+      "newThisRound": false,
       "lzVerified": false,
       "focus": false,
       "status": "watching",
@@ -51629,7 +51632,7 @@
       ],
       "source": "X @SigilboundBTC R254",
       "round": 254,
-      "newThisRound": true,
+      "newThisRound": false,
       "lzVerified": false,
       "focus": false,
       "status": "watching",
@@ -51668,6 +51671,44 @@
       ],
       "whatsNew": "BTC tactical strategy game 以 11 Kingdoms/333 Mythic 开始极早期预热。；R254新收录",
       "whyWatch": "BTC 游戏叙事有区分度，仅极小仓跟踪等待合约/玩法披露。"
+    },
+    {
+      "id": "cowlhq",
+      "name": "Cowl",
+      "handle": "@cowlhq",
+      "category": "台子/Meme",
+      "chain": "Robinhood Chain",
+      "tags": [
+        "discord-alpha",
+        "Robinhood Chain",
+        "Meme",
+        "私密收款链接",
+        "极早期",
+        "台子/Meme"
+      ],
+      "round": 255,
+      "newThisRound": true,
+      "focus": false,
+      "lzVerified": false,
+      "links": {
+        "x": "https://x.com/cowlhq",
+        "site": ""
+      },
+      "scores": {
+        "early": 90,
+        "risk": 65,
+        "novelty": 70,
+        "actionable": 75,
+        "overall": 71
+      },
+      "highlights": "Robinhood Chain 生态早期项目；私密收款链接叙事；明确上线时间与代币",
+      "drawbacks": "0 粉，信息极少；团队与合约未核验；存在空壳或跑路风险",
+      "whatsNew": "0粉新号，主打 Robinhood Chain 私密收款链接，$COWL 将在 Pons 上线。",
+      "bio": "Cowl 是 Robinhood Chain 上的私密收款链接项目，代币 $COWL 由 Pons 发行。",
+      "schedule": {
+        "label": "上线",
+        "at": "10-19 13:00 UTC"
+      }
     }
   ],
   "newThisRound": [
