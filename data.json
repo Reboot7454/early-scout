@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-18 17:03 CST",
+    "updated": "2026-10-18 18:01 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "R219: +elytra-nft +hirehood +quiet-orbit; RobinXP+Trencher+Peek+Elysium+X; ≤2h zany/skills/skulls-hoods",
-    "lastScout": "2026-10-18T16:11:29+08:00",
+    "lastScout": "2026-10-18 18:01 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -291,7 +291,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 224,
+    "round": 225,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -368,7 +368,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 614,
+    "candidateCount": 615,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -741,9 +741,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "foxora",
-      "kakudo",
-      "usepackz"
+      "banknotes-btc"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1009,8 +1007,14 @@
       "brainfarts"
     ],
     "elysiumWatch": {
-      "lastChecked": "2026-10-18 17:03 CST",
-      "note": "on-testnet≈42 announced≈9；Huntx null；HyperFlow/Nest/TrueMarkets成熟Announced skip；误标保持移出"
+      "onTestnet": 42,
+      "announced": 9,
+      "exploring": 8,
+      "note": "R225 eco解析；无新合格admit；Branchpoint/Outrive/PerpMe不回滚",
+      "focus": [
+        "enter-elysium",
+        "ascendlaunch"
+      ]
     },
     "round177Added": [
       "enter-elysium",
@@ -1092,7 +1096,7 @@
       "nopad",
       "routr-network"
     ],
-    "previousRound": 222,
+    "previousRound": 224,
     "round183Added": [
       "heygrok",
       "grail-break",
@@ -1138,6 +1142,18 @@
         "branchpoint",
         "outrive",
         "perpme"
+      ],
+      "btcOrdinals": [
+        "shielded-nakas",
+        "solemn-trollbox",
+        "banknotes-btc"
+      ],
+      "r225": [
+        "banknotes-btc",
+        "smart-cases",
+        "zk-skulls",
+        "oozlings",
+        "zany-apes"
       ]
     },
     "round187Added": [
@@ -1200,7 +1216,7 @@
       "adeepabyss",
       "perppit"
     ],
-    "summary": "本轮新增INVARA测试网玩法，并续跟多个临近截止的免费/公售与晚间窗口。",
+    "summary": "R225新收BANKNOTES(Shielded二号)；续跟smarties/zk/ooz/zany≤2h；晚间nibble/loopy/cropz/goblins/unruly；BTC Trollbox约10-20 00:00；Elysium无新admit。",
     "round197Added": [
       "inkgoblins-nft",
       "goodlaunch",
@@ -1305,6 +1321,9 @@
       "foxora",
       "kakudo",
       "usepackz"
+    ],
+    "round225Added": [
+      "banknotes-btc"
     ]
   },
   "candidates": [
@@ -1372,7 +1391,7 @@
         "note": "RH Free Mint；官推收钱包 Only222/first300；未开公售",
         "source": "X/Peek/RXP R224"
       },
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-18T17:03:46+08:00",
       "firstSeen": "2026-10-18T17:03:46+08:00",
       "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
@@ -1450,7 +1469,7 @@
         "note": "AI风险监控Stock Tokens+Morpho；粉≈56；$KAKUDO已烧7.6M",
         "source": "X/Peek/RXP R224"
       },
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-18T17:03:46+08:00",
       "firstSeen": "2026-10-18T17:03:46+08:00",
       "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
@@ -1529,7 +1548,7 @@
         "note": "Collector Pass≈193/333；交易费→Gacha；Builder API",
         "source": "X/Peek/RXP R224"
       },
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-10-18T17:03:46+08:00",
       "firstSeen": "2026-10-18T17:03:46+08:00",
       "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
@@ -3035,7 +3054,7 @@
         "toychain",
         "极早期"
       ],
-      "status": "early",
+      "status": "confirmed",
       "riskLevel": "high",
       "source": "X+R202续 R203",
       "social": {
@@ -3043,21 +3062,21 @@
         "handle": "@nibblewage",
         "xFollowers": 31
       },
-      "mintStatus": "confirmed",
+      "mintStatus": "upcoming",
       "schedule": {
         "status": "confirmed",
         "timezone": "Asia/Shanghai",
-        "mintStatus": "confirmed",
-        "startsAt": "2026-10-18 21:00:00",
+        "mintStatus": "upcoming",
+        "startsAt": "2026-10-18T13:00:00Z",
+        "note": "Lamp on 13:00 UTC=21:00 CST",
+        "source": "X R225",
         "phases": [
           {
             "name": "Lamp on",
             "startsAt": "2026-10-18T13:00:00Z",
-            "note": "13:00 UTC=21:00 CST"
+            "note": "21:00 CST"
           }
-        ],
-        "note": "Lamp on≈21:00 CST；focus粉≈32",
-        "source": "RXP/X R224"
+        ]
       },
       "background": "极新号(2026-10-16)。叙事：仓鼠边跑边按秒支付 TSLA/NVDA/USDG/ETH，Robinhood Chain 钱包对流。官宣 Lamp on 2026-10-18 13:00 UTC。同类仓鼠/实体玩具链监视扩展。",
       "whyWatch": "重点类：仓鼠叙事+RH Chain 极早期 GO/玩具实验；Lamp 时刻可跟，机制与资金盘风险极高。",
@@ -3087,7 +3106,7 @@
         "粉丝少，社区薄弱",
         "高投机，容易一波流"
       ],
-      "whatsNew": "【续更R224】Lamp on约21:00 CST，focus粉约32。",
+      "whatsNew": "【续更R225】X：13:00 UTC=21:00 CST lamp on；已发Payslip/合约校验帖；粉约32；nextStreamId=3。",
       "ecosystem": null,
       "earlyScore": 90,
       "riskScore": 82,
@@ -3097,7 +3116,7 @@
       "addedAt": "2026-10-18 05:52 CST",
       "newThisRound": false,
       "followers": 32,
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00"
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00"
     },
     {
       "id": "monitrons",
@@ -4554,7 +4573,7 @@
         "FreeMint",
         "RH"
       ],
-      "status": "early",
+      "status": "live",
       "riskLevel": "high",
       "ecosystem": null,
       "source": "RXP R203",
@@ -4582,7 +4601,7 @@
         "剩余额度少，赔率下降",
         "无新增叙事"
       ],
-      "whatsNew": "【续更R224】多集并行：GTD收尾，Skulls/Diamond/Skullist Public约17:00起；主集4610/5555 Public至20日。",
+      "whatsNew": "【续更R225】主集Public至约07:00，4610/5555；多子集Public并行；粉约69-70。",
       "whyWatch": "关注Free Mint时间与铸造进度，观察是否形成社区共识",
       "background": "5555个像素骷髅NFT，部署于Robinhood链，采用免费铸造模式",
       "round": 184,
@@ -4592,7 +4611,7 @@
       "mintStatus": "live",
       "alert": null,
       "social": {
-        "followers": 69,
+        "followers": 70,
         "xFollowers": 69
       },
       "earlyScore": 35,
@@ -4602,12 +4621,19 @@
         "status": "live",
         "timezone": "Asia/Shanghai",
         "mintStatus": "live",
-        "note": "多集并行：GTD收尾/Public≈17:00；主集Public至20日",
-        "source": "RXP/X R224",
-        "phases": []
+        "note": "主集Public仍开4610/5555；多子集Public并行",
+        "source": "RXP/X R225",
+        "phases": [
+          {
+            "name": "Public",
+            "status": "live",
+            "price": "$0.12",
+            "note": "至约次日07:00"
+          }
+        ]
       },
-      "followers": 69,
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00"
+      "followers": 70,
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00"
     },
     {
       "id": "mascaras-hood",
@@ -5975,7 +6001,7 @@
         "代币与空投规则未公布",
         "生态尚浅，实际用量有限"
       ],
-      "whatsNew": "【续更R224】eco on-testnet约42、announced约9；HyperFlow等成熟Announced skip；Huntx null。",
+      "whatsNew": "【续更R225】on-testnet约42、announced约9；Huntx null；无新合格admit；成熟Announced续skip。",
       "whyWatch": "作为生态母体，其动向决定 AscendLaunch 等子项目打新节奏。",
       "background": "Elysium（https://x.com/Enter_Elysium）：Elysium 生态项目；R177 面板收录。",
       "newThisRound": false,
@@ -5992,7 +6018,7 @@
         "handle": "@Enter_Elysium",
         "xFollowers": 5951
       },
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
       "followers": 5980,
       "schedule": {
         "note": "eco on-testnet≈42 announced≈9；成熟Announced skip",
@@ -6505,10 +6531,21 @@
         "status": "upcoming",
         "timezone": "Asia/Shanghai",
         "mintStatus": "upcoming",
-        "startsAt": "2026-10-19T14:00:00Z",
-        "note": "10-19 14:00 Holders",
-        "source": "RXP/X R224",
-        "phases": []
+        "startsAt": "2026-10-19T06:00:00Z",
+        "note": "Holders≈14:00 CST 10-19",
+        "source": "RXP R225",
+        "phases": [
+          {
+            "name": "Holders",
+            "startsAt": "2026-10-19T06:00:00Z",
+            "price": "$0.07"
+          },
+          {
+            "name": "Public",
+            "startsAt": "2026-10-19T12:00:00Z",
+            "price": "$0.10"
+          }
+        ]
       },
       "focus": false,
       "lzVerified": false,
@@ -6539,7 +6576,7 @@
         "Robinhood 链新，合约未验证",
         "信息仅来自简介，尽调不足"
       ],
-      "whatsNew": "【续更R224】明日14:00 Holders。",
+      "whatsNew": "【续更R225】明日14:00 Holders；粉约21-24。",
       "newThisRound": false,
       "round": 175,
       "round175Added": true,
@@ -6554,19 +6591,19 @@
         "explorer": "https://robinscan.io/address/0x7a2c0fff56ec7e62ab4a4768413c7b6550c73a5b",
         "lastCheckedAt": "2026-10-18 00:08 CST"
       },
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
       "mintStatus": "upcoming",
       "social": {
-        "followers": 21,
+        "followers": 24,
         "handle": "@ragebait_rh",
         "xFollowers": 21
       },
-      "followers": 22,
+      "followers": 24,
       "earlyScore": 86,
       "riskScore": 72,
       "risk": "med",
       "riskLevel": "med",
-      "status": "live"
+      "status": "upcoming"
     },
     {
       "id": "ink-chain-logo",
@@ -6914,8 +6951,10 @@
       "schedule": {
         "status": "confirmed",
         "timezone": "Asia/Shanghai",
-        "mintStatus": "upcoming",
+        "mintStatus": "live",
         "startsAt": "2026-10-18T12:00:00Z",
+        "note": "WL Reserve→GTD→WL→PUBLIC(17:00UTC)",
+        "source": "RXP/X R225",
         "phases": [
           {
             "name": "WL Reserve",
@@ -6937,9 +6976,7 @@
             "startsAt": "2026-10-18T17:00:00Z",
             "note": "0.0015 ETH"
           }
-        ],
-        "source": "RXP/X R224",
-        "note": "WL Reserve≈20:00续观察"
+        ]
       },
       "focus": false,
       "lzVerified": false,
@@ -6970,7 +7007,7 @@
         "账号@MfersGif与项目名不一致",
         "免费预约低门槛，女巫风险高"
       ],
-      "whatsNew": "【续更R224】WL Reserve约20:00续观察。",
+      "whatsNew": "【续更R225】日程：WL Reserve12:00UTC→GTD14:00→WL16:00→PUBLIC17:00UTC；粉约13425(MfersGif)。",
       "newThisRound": false,
       "round": 175,
       "round175Added": true,
@@ -6984,13 +7021,14 @@
         "maxSupply": 10000,
         "lastCheckedAt": "2026-10-18 00:08 CST"
       },
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
       "followers": 13425,
       "social": {
         "followers": 13420,
         "xFollowers": 13420
       },
-      "mintStatus": "upcoming"
+      "mintStatus": "live",
+      "status": "confirmed"
     },
     {
       "id": "street-hood-mini",
@@ -10885,7 +10923,7 @@
         "发布时间未到，存在延期风险",
         "测网重部署说明合约不稳定"
       ],
-      "whatsNew": "【续更R224】粉约1329，Sepolia redeploy续，主网end-Oct。",
+      "whatsNew": "【续更R225】主网仍end-Oct；防诈骗PSA；粉约1332；Sepolia续测。",
       "background": "Hamster-powered proof-of-work toychain on Ethereum (Sepolia). Physical hamster wheel (WHEELY9000) activity verified and settled on-chain. Token has NOT launched yet.",
       "whyWatch": "重点：实体仓鼠+PoW玩具链+预发币测试网，小七点名盯盘；同类实验叙事标杆。",
       "status": "early",
@@ -10905,7 +10943,7 @@
         "lastCheckedAt": "2026-10-17T07:51:44.165084+08:00"
       },
       "social": {
-        "followers": 1329,
+        "followers": 1332,
         "handle": "@squeekchain",
         "xFollowers": 1323
       },
@@ -10916,8 +10954,8 @@
       "firstSeen": "2026-10-17 02:15 CST",
       "earlyScore": 86,
       "riskScore": 76,
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
-      "followers": 1329,
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
+      "followers": 1332,
       "source": "X+docs R203"
     },
     {
@@ -10965,7 +11003,7 @@
         "合约刚部署，规则细节少",
         "依赖母链上线进度"
       ],
-      "whatsNew": "【续更R224】粉约32，续跟。",
+      "whatsNew": "【续更R225】粉约32续跟；关联pillhead/squeek叙事。",
       "background": "First swarm-built app on squeekchain: bet $IMD on how far the hamster runs in an hour; top 3 split the pot.",
       "whyWatch": "重点类：squeekchain 生态极早期应用 peer；同属实体+链上玩具叙事。",
       "status": "early",
@@ -10997,7 +11035,7 @@
       "onchain": {
         "lastCheckedAt": "2026-10-17T07:51:44.165084+08:00"
       },
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
       "followers": 32,
       "source": "X R203"
     },
@@ -16209,11 +16247,15 @@
         "timezone": "Asia/Shanghai",
         "mintStatus": "upcoming",
         "startsAt": "2026-10-18T13:00:00Z",
-        "phases": [],
-        "note": "Holders FREE≈21:00起多层FCFS",
-        "source": "RXP/X R224",
-        "rxMinted": 1,
-        "rxSupply": 5555
+        "note": "Holders FREE≈21:00 CST",
+        "source": "RXP/X R225",
+        "phases": [
+          {
+            "name": "Holders FREE",
+            "startsAt": "2026-10-18T13:00:00Z",
+            "price": "$0"
+          }
+        ]
       },
       "onchain": {
         "chainId": "robinhood",
@@ -16252,7 +16294,7 @@
         "5555 供给在弱社群下偏大",
         "无差异化叙事"
       ],
-      "whatsNew": "【续更R224】Holders FREE约21:00起。",
+      "whatsNew": "【续更R225】Holders FREE约21:00起；粉约36；minted 1/5555。",
       "risk": "极早期粉少，注意假站与短窗口。",
       "riskLevel": "high",
       "firstSeen": "2026-10-16T08:06:35.642633+08:00",
@@ -16260,9 +16302,9 @@
       "round": 46,
       "earlyScore": 88,
       "riskScore": 72,
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
       "social": {
-        "followers": 40,
+        "followers": 36,
         "handle": "@LoopyFaces_",
         "xFollowers": 40
       },
@@ -16370,8 +16412,8 @@
       "name": "Traveling Takoyaki",
       "category": "NFT",
       "chain": "Robinhood Chain",
-      "status": "upcoming",
-      "mintStatus": "not_open",
+      "status": "live",
+      "mintStatus": "live",
       "flag": "upcoming",
       "tags": [
         "RH",
@@ -16387,22 +16429,20 @@
         "signal": "https://neverfuckingtrade.com/"
       },
       "schedule": {
-        "status": "confirmed",
+        "status": "live",
         "timezone": "Asia/Shanghai",
+        "mintStatus": "live",
         "startsAt": "2026-10-18T13:00:00Z",
-        "endsAt": "2026-10-25T13:00:00Z",
+        "note": "PUBLIC窗已开续观察",
+        "source": "RXP/X R225",
         "phases": [
           {
             "name": "PUBLIC",
             "startsAt": "2026-10-18T13:00:00Z",
-            "endsAt": "2026-10-25T13:00:00Z",
             "price": "FREE",
             "perWallet": 1
           }
-        ],
-        "source": "RXP/X R224",
-        "note": "晚间窗续观察",
-        "mintStatus": "upcoming"
+        ]
       },
       "onchain": {
         "chainId": "robinhood",
@@ -16435,7 +16475,7 @@
         "免费盘后期流动性常弱",
         "系列玩法兑现依赖团队"
       ],
-      "whatsNew": "【续更R224】晚间窗续，RXP未刷新到具体stage则保持观察。",
+      "whatsNew": "【续更R225】PUBLIC窗已开(13:00UTC起)续观察；粉约704。",
       "risk": "免费盘Rug与后续断裂风险。",
       "riskLevel": "high",
       "firstSeen": "2026-10-16T08:06:35.642633+08:00",
@@ -16443,7 +16483,7 @@
       "round": 46,
       "earlyScore": 88,
       "riskScore": 70,
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
       "followers": 704,
       "social": {
         "followers": 701,
@@ -16628,11 +16668,20 @@
         "timezone": "Asia/Shanghai",
         "mintStatus": "upcoming",
         "startsAt": "2026-10-18T15:00:00Z",
-        "phases": [],
         "note": "Team≈23:00→GTD≈23:20",
-        "source": "RXP/X R224",
-        "rxMinted": 0,
-        "rxSupply": 555
+        "source": "RXP/X R225",
+        "phases": [
+          {
+            "name": "Team",
+            "startsAt": "2026-10-18T15:00:00Z",
+            "price": "$0"
+          },
+          {
+            "name": "GTD",
+            "startsAt": "2026-10-18T15:20:00Z",
+            "price": "$3.88"
+          }
+        ]
       },
       "onchain": {
         "chainId": "robinhood",
@@ -16674,20 +16723,20 @@
         "游戏本体与代币模型未公开",
         "团队轮后公售节奏不明"
       ],
-      "whatsNew": "【续更R224】Team约23:00→GTD约23:20。",
+      "whatsNew": "【续更R225】Team约23:00→GTD约23:20 @$3.88；粉约597；另有Public集34/555。",
       "flag": "upcoming",
       "risk": "社媒与信息极少，警惕Rug与假mint。",
       "firstSeen": "2026-10-16T07:55:31.301133+08:00",
       "addedAt": "2026-10-16T07:55:31.301133+08:00",
       "round": 45,
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
       "social": {
-        "followers": 541,
+        "followers": 597,
         "handle": "@CropzRH",
         "xFollowers": 541
       },
       "source": "RXP+Trencher R203",
-      "followers": 561,
+      "followers": 597,
       "newThisRound": false
     },
     {
@@ -23062,16 +23111,15 @@
         "timezone": "Asia/Shanghai",
         "mintStatus": "confirmed",
         "startsAt": "2026-10-18T15:00:00Z",
+        "note": "≈23:00 CST · 0.00045 ETH",
+        "source": "RXP/X R225",
         "phases": [
           {
             "name": "Mint",
             "startsAt": "2026-10-18T15:00:00Z",
-            "note": "3PM UTC=23:00 CST · 0.00045 ETH",
             "price": "0.00045 ETH"
           }
-        ],
-        "note": "≈23:00窗续观察",
-        "source": "RXP/X R224"
+        ]
       },
       "highlights": [
         "INK 999 cult PFP",
@@ -23082,7 +23130,7 @@
         "mint价/时刻未锁",
         "WL窗已基本结束"
       ],
-      "whatsNew": "【续更R224】约23:00窗续观察。",
+      "whatsNew": "【续更R225】约23:00(15:00UTC) mint；粉约4975。",
       "scores": {
         "early": 93,
         "risk": 72,
@@ -23095,13 +23143,13 @@
         "followers": 4951,
         "lastCheckedAt": "2026-10-18T12:07:56.226519+08:00"
       },
-      "status": "upcoming",
+      "status": "confirmed",
       "onchain": {
         "lastCheckedAt": "2026-10-17T00:16:15.830695+08:00"
       },
       "flag": "WL",
-      "mintStatus": "upcoming",
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
+      "mintStatus": "confirmed",
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
       "followers": 4975
     },
     {
@@ -33245,11 +33293,16 @@
         "status": "live",
         "timezone": "Asia/Shanghai",
         "mintStatus": "live",
-        "note": "TEAM FREE仍开至≈00:00；RX≈400/10000",
-        "source": "RXP/X R224",
-        "rxMinted": 400,
-        "rxSupply": 10000,
-        "phases": []
+        "note": "TEAM FREE至≈00:00；≈400/10000",
+        "source": "RXP/X R225",
+        "phases": [
+          {
+            "name": "TEAM FREE",
+            "status": "live",
+            "endsAt": "2026-10-19T00:00:00+08:00",
+            "price": "$0"
+          }
+        ]
       },
       "id": "oozlings",
       "round": 134,
@@ -33281,14 +33334,14 @@
         "免费盘易脚本/女巫",
         "Robinhood 链新，合约风险"
       ],
-      "whatsNew": "【续更R224】TEAM FREE仍开至约00:00，RX约400/10000，粉约49。",
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
+      "whatsNew": "【续更R225】TEAM FREE仍开至约00:00，RX约400/10000，粉约35。",
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
       "social": {
-        "followers": 49,
+        "followers": 35,
         "handle": "@Oozlings",
         "xFollowers": 35
       },
-      "followers": 49,
+      "followers": 35,
       "source": "RXP+Trencher+X R203",
       "earlyScore": 92,
       "riskScore": 68,
@@ -33321,10 +33374,27 @@
         "timezone": "Asia/Shanghai",
         "mintStatus": "live",
         "note": "Zany/Zanies/Skills Public仍开",
-        "source": "RXP/X R224",
-        "rxMinted": 28,
-        "rxSupply": 500,
-        "phases": []
+        "source": "RXP/X R225",
+        "phases": [
+          {
+            "name": "Zany Public",
+            "status": "live",
+            "endsAt": "2026-10-19T02:50:00+08:00",
+            "price": "$0.24"
+          },
+          {
+            "name": "Zanies Public",
+            "status": "live",
+            "endsAt": "2026-10-19T03:34:00+08:00",
+            "price": "$1.21"
+          },
+          {
+            "name": "Skills Public",
+            "status": "live",
+            "endsAt": "2026-10-19T02:40:00+08:00",
+            "price": "$0.12"
+          }
+        ]
       },
       "id": "zany-apes",
       "round": 134,
@@ -33356,7 +33426,7 @@
         "已过零铸造阶段，非最早期",
         "无后续赋能披露"
       ],
-      "whatsNew": "【续更R224】Zany Public仍开至约02:50，Zanies Public至约03:34，Skills Public仍开。",
+      "whatsNew": "【续更R225】Zany Public至约02:50 @$0.24；Zanies至约03:34；Skills至约02:40；粉约176。",
       "onchain": {
         "minted": 298,
         "lastCheckedAt": "2026-10-17T20:33:58+08:00"
@@ -33365,7 +33435,7 @@
         "followers": 176,
         "xFollowers": 176
       },
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
       "followers": 176,
       "source": "RXP R203",
       "earlyScore": 65,
@@ -33626,29 +33696,31 @@
         "打新",
         "极早期"
       ],
-      "status": "upcoming",
+      "status": "live",
       "background": "egg doodles locked in smart cases；RH 808供应；站smartcase.lol。",
       "whyWatch": "官推@smartcase4frens+站点齐全；WL/PUBLIC 10-18 UTC明确。",
       "flag": "打新",
-      "mintStatus": "upcoming",
+      "mintStatus": "live",
       "lzVerified": false,
       "focus": false,
       "schedule": {
-        "status": "upcoming",
+        "status": "live",
         "timezone": "Asia/Shanghai",
-        "mintStatus": "upcoming",
-        "note": "smarties FREE≈17:00→Public≈18:00 $2.41；粉≈391",
-        "source": "RXP/X R224",
+        "mintStatus": "live",
+        "note": "smarties FREE至≈18:00→Public≈18:00 @$1.21；23/808",
+        "source": "RXP/X R225",
         "phases": [
           {
-            "name": "smarties",
-            "price": "$0",
-            "start": "2026-10-18 17:00 CST"
+            "name": "smarties FREE",
+            "status": "live",
+            "endsAt": "2026-10-18T18:00:00+08:00",
+            "price": "$0"
           },
           {
             "name": "Public",
-            "price": "$2.41",
-            "start": "2026-10-18 18:00 CST"
+            "status": "upcoming",
+            "startsAt": "2026-10-18T18:00:00+08:00",
+            "price": "$1.21"
           }
         ]
       },
@@ -33681,15 +33753,15 @@
         "题材偏通用，辨识度一般",
         "链上进度未披露"
       ],
-      "whatsNew": "【续更R224】smarties FREE约17:00转Public、约18:00 $2.41，粉约391。",
+      "whatsNew": "【续更R225】smarties FREE仍开至约18:00 CST，Public约18:00 @$1.21；粉约375→382；minted 23/808。",
       "social": {
-        "followers": 391,
+        "followers": 382,
         "handle": "@smartcase4frens",
         "xFollowers": 375
       },
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
       "source": "RXP+Trencher R203",
-      "followers": 391,
+      "followers": 382,
       "earlyScore": 80,
       "riskScore": 68
     },
@@ -37586,7 +37658,7 @@
         "Grants 阶段参与路径不明确",
         "Elysium 主网活跃度待验证"
       ],
-      "whatsNew": "【续更R224】粉约3945，Grants续。",
+      "whatsNew": "【续更R225】粉约3946；Elysium launchpad Grants续。",
       "newThisRound": false,
       "round": 174,
       "round174Added": true,
@@ -37597,13 +37669,13 @@
       "riskScore": 55,
       "risk": 72,
       "status": "early",
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
       "social": {
-        "followers": 3945,
+        "followers": 3946,
         "handle": "@AscendLaunch",
         "xFollowers": 3939
       },
-      "followers": 3945,
+      "followers": 3946,
       "mintStatus": "watch"
     },
     {
@@ -40905,7 +40977,7 @@
       "background": "Ink 链 NFT。官推 @Inkgoblins_nft 2026-10-17≈23:07UTC 发「Mint in 15 hours @inkonchain」。",
       "whyWatch": "盯 ≈10-18 22:00CST 前后 Ink mint 价格/WL/供给。",
       "mintStatus": "upcoming",
-      "status": "early",
+      "status": "upcoming",
       "focus": false,
       "lzVerified": false,
       "schedule": {
@@ -40913,16 +40985,15 @@
         "timezone": "Asia/Shanghai",
         "mintStatus": "upcoming",
         "startsAt": "2026-10-18T14:30:00Z",
+        "note": "≈22:30 CST",
+        "source": "RXP/X R225",
         "phases": [
           {
             "name": "PUBLIC",
             "startsAt": "2026-10-18T14:30:00Z",
-            "note": "≈22:30 CST",
             "price": "0.00015 ETH"
           }
-        ],
-        "note": "≈22:30窗续观察",
-        "source": "RXP/X R224"
+        ]
       },
       "source": "Trencher+X R203",
       "id": "inkgoblins-nft",
@@ -40930,7 +41001,7 @@
       "firstSeen": "2026-10-18 07:13 CST",
       "addedAt": "2026-10-18 07:13 CST",
       "newThisRound": false,
-      "whatsNew": "【续更R224】约22:30窗续观察。",
+      "whatsNew": "【续更R225】约22:30窗(14:30UTC)临近；粉约173。",
       "highlights": [
         "Ink 链上 Goblin 题材，555 小供给",
         "公售≈22:30 CST，0.00015ETH 极低价",
@@ -40961,7 +41032,7 @@
       "risk": 6.2,
       "riskLevel": "high",
       "alert": null,
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
       "followers": 173
     },
     {
@@ -42175,7 +42246,7 @@
       "newThisRound": false,
       "firstSeen": "2026-10-18 10:10 CST",
       "addedAt": "2026-10-18T10:10:05.074109+08:00",
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
       "highlights": [
         "Elysium testnet 上的发币+永久锁LP launchpad",
         "HYPE 计价、零手续费，模式少见",
@@ -42187,7 +42258,7 @@
         "尚无成功项目样本",
         "Elysium 生态整体流动性未验证"
       ],
-      "whatsNew": "【续更R224】保持否决HyperEVM/台子。",
+      "whatsNew": "【续更R225】保持否决台子/HyperEVM；eco虽on-testnet但用户否决。",
       "scores": {
         "early": 88,
         "actionable": 72,
@@ -42801,7 +42872,7 @@
         "粉丝量小，社区热度有限",
         "高度依赖 Elysium 生态后续发展"
       ],
-      "whatsNew": "【续更R224】保持移出Elysium。",
+      "whatsNew": "【续更R225】保持移出Elysium；Exploring/GO。",
       "whyWatch": "有推特与 Elysium 生态叙事，适合早期跟踪但暂缺可执行动作。",
       "background": "Elysium 生态项目，口号 Price every possible world — coming soon。",
       "source": "Elysium eco+X+DS R209",
@@ -42816,7 +42887,7 @@
       },
       "addedAt": "2026-10-18 11:15:01 CST",
       "firstSeen": "2026-10-18 11:15:01 CST",
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
       "lzVerified": false,
       "alert": null,
       "playStyle": null,
@@ -42873,7 +42944,7 @@
         "Telegram bot 赛道竞争激烈",
         "产品细节与代币/激励模型尚不清晰"
       ],
-      "whatsNew": "【续更R224】保持移出Elysium。",
+      "whatsNew": "【续更R225】保持移出Elysium。",
       "whyWatch": "有推特和 TG bot 产品线索，但需等待更多公开信息再评估。",
       "background": "Elysium 生态 Telegram 交易：hip4 + outrivebot，可拉进群分享 calls。",
       "source": "Elysium eco+X+DS R209",
@@ -42888,7 +42959,7 @@
       },
       "addedAt": "2026-10-18 11:15:01 CST",
       "firstSeen": "2026-10-18 11:15:01 CST",
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
       "lzVerified": false,
       "alert": null,
       "playStyle": null,
@@ -43564,7 +43635,7 @@
       "category": "打新",
       "chain": "Robinhood",
       "ecosystem": null,
-      "status": "early",
+      "status": "upcoming",
       "mintStatus": "upcoming",
       "focus": false,
       "followers": 2692,
@@ -43573,7 +43644,7 @@
       "flag": null,
       "addedAt": "2026-10-18 14:50 CST",
       "firstSeen": "2026-10-18 14:50 CST",
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
       "source": "RXP+X R220",
       "tags": [
         "打新",
@@ -43622,7 +43693,7 @@
         "粉2692与推文量不匹配，需防刷粉",
         "距mint较远，变数大"
       ],
-      "whatsNew": "【续更R224】明日22:00 FREE。",
+      "whatsNew": "【续更R225】明日22:00 FREE Public 0/333；粉约2692。",
       "background": "Low Battery：RH FREE Public≈10-19 22:00CST；supply 333；官推 @LowBatternft（粉≈2692，仅2推）。",
       "whyWatch": "RH 小供应 FREE mint，时间明确，可列日程盯。",
       "schedule": {
@@ -43630,14 +43701,14 @@
         "timezone": "Asia/Shanghai",
         "mintStatus": "upcoming",
         "startsAt": "2026-10-19T14:00:00Z",
-        "note": "10-19 22:00 FREE",
-        "source": "RXP/X R224",
+        "note": "FREE Public 22:00 CST 10-19",
+        "source": "RXP R225",
         "phases": [
           {
-            "name": "Public FREE",
+            "name": "FREE Public",
             "startsAt": "2026-10-19T14:00:00Z",
-            "price": "FREE",
-            "note": "≈22:00CST"
+            "endsAt": "2026-10-19T15:00:00Z",
+            "price": "$0"
           }
         ]
       },
@@ -43923,29 +43994,28 @@
         "公开信息少，合约/团队透明度不足",
         "免费mint可能带来后续抛压"
       ],
-      "whatsNew": "【续更R224】Public仍开约4093/5555 @$1.21，粉约265。",
+      "whatsNew": "【续更R225】Public仍开至约20:30，4093/5555 @$1.21。",
       "schedule": {
         "status": "live",
         "timezone": "Asia/Shanghai",
         "mintStatus": "live",
-        "note": "Public仍开≈4093/5555 @$1.21",
-        "source": "RXP/X R224",
+        "note": "Public至≈20:30；4093/5555 @$1.21",
+        "source": "RXP/X R225",
         "phases": [
           {
             "name": "Public",
-            "price": "$1.21",
-            "status": "live"
-          },
-          {
-            "name": "Collection2 holders FREE",
-            "status": "announced"
+            "status": "live",
+            "endsAt": "2026-10-18T20:30:00+08:00",
+            "price": "$1.21"
           }
         ]
       },
       "lzVerified": false,
       "newThisRound": false,
       "flag": "本轮新",
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00"
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
+      "mintStatus": "live",
+      "status": "live"
     },
     {
       "id": "shielded-nakas",
@@ -43956,13 +44026,13 @@
       "status": "live",
       "mintStatus": "sold_out",
       "focus": false,
-      "followers": 3213,
+      "followers": 3216,
       "round": 222,
       "newThisRound": false,
       "flag": "本轮新",
       "addedAt": "2026-10-18 15:25 CST",
       "firstSeen": "2026-10-18 15:25 CST",
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
       "source": "user-named BTC watch + X/Web R222",
       "tags": [
         "打新",
@@ -43978,7 +44048,7 @@
         "web": "https://ord-dropz.xyz/shord"
       },
       "social": {
-        "followers": 3213,
+        "followers": 3216,
         "xFollowers": 3203,
         "handle": "@ShieldedNaka",
         "handles": [
@@ -44015,7 +44085,7 @@
         "BTC Ordinals 流动性与隐私合规仍有不确定性",
         "后续生态能否落地仍需观察"
       ],
-      "whatsNew": "【续更R224】粉约3213，二级活跃约16x叙事，OrdDropz。",
+      "whatsNew": "【续更R225】粉约3216；二级+开发者赛VAULT胜出；SHNAKAS编号加成叙事；OrdDropz活跃。",
       "background": "Shielded-NakaPunks：Bitcoin 上 3,333 shielded ordinals；艺术公开、所有权隐私(zk)；@ShieldedNaka≈3203粉；mint Oct1 FCFS 售罄；生态续开发者竞赛、staking $SHNAKAS、ORD Dropz。",
       "whyWatch": "用户点名：BTC 隐私 Ordinals 首发系列，售罄后生态与二级可盯。",
       "schedule": {
@@ -44044,7 +44114,7 @@
       "category": "打新",
       "chain": "Bitcoin",
       "ecosystem": null,
-      "status": "upcoming",
+      "status": "confirmed",
       "mintStatus": "upcoming",
       "focus": false,
       "followers": 25918,
@@ -44053,7 +44123,7 @@
       "flag": "本轮新",
       "addedAt": "2026-10-18 15:25 CST",
       "firstSeen": "2026-10-18 15:25 CST",
-      "lastRefreshedAt": "2026-10-18T17:03:46+08:00",
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
       "source": "user-named BTC watch + X/Web R222",
       "tags": [
         "打新",
@@ -44106,26 +44176,21 @@
         "独立价值仍依赖 Shielded 系列势能",
         "开放段竞争激烈，WL/GTD 外需抢 FCFS"
       ],
-      "whatsNew": "【续更R224】Anonymous Trolls仍约10-20 00:00 CST（19日16:00 UTC），Nakas holders自动WL。",
+      "whatsNew": "【续更R225】Anonymous Trolls：10-19 16:00 UTC(=10-20 00:00 CST) GTD；2222；Nakas holders自动WL；OrdDropz。",
       "background": "Solemn(@strangersolemn) 在 @OrdDropz 发射 2,222 Shielded Ordinals Trollbox；每只 troll 一条 on-chain 留言；GTD含艺术持有者等；ShieldedNaka holders auto WL（创作者 X 确认）；site trollbox.strangersolemn.art。",
       "whyWatch": "用户点名：即将发射的 Shielded Ordinals 打新，时间与 WL 明确。",
       "schedule": {
-        "status": "upcoming",
+        "status": "confirmed",
         "timezone": "Asia/Shanghai",
         "mintStatus": "upcoming",
         "startsAt": "2026-10-19T16:00:00Z",
-        "note": "Anonymous Trolls≈10-20 00:00 CST；Nakas WL",
-        "source": "RXP/X R224",
+        "note": "Anonymous Trolls GTD 10-19 16:00 UTC (=10-20 00:00 CST)；2222；Nakas WL",
+        "source": "X/OrdDropz R225",
         "phases": [
           {
             "name": "GTD",
-            "note": "opens 1 hour early；Solemn art holders / Frontrun / collabs 等",
-            "price": "≈15k sats"
-          },
-          {
-            "name": "FCFS / Public",
-            "note": "剩余开放",
-            "price": "≈15k sats"
+            "startsAt": "2026-10-19T16:00:00Z",
+            "note": "2222 Shielded Trolls"
           }
         ]
       },
@@ -44205,6 +44270,85 @@
       "riskLevel": "medium",
       "background": "Robinhood 链合成股票引擎；testnet Vault 可领 tUSDG 并抵押铸造 iAAPL。",
       "whyWatch": "有官推且处极早期testnet，交互路径明确，但需先核验建号时间与合约风险。",
+      "alert": null
+    },
+    {
+      "id": "banknotes-btc",
+      "name": "BANKNOTES",
+      "category": "打新",
+      "chain": "Bitcoin",
+      "tags": [
+        "打新",
+        "Bitcoin",
+        "Ordinals",
+        "Shielded",
+        "极早期",
+        "OrdDropz",
+        "Commemorative"
+      ],
+      "focus": false,
+      "scores": {
+        "early": 88,
+        "actionable": 42,
+        "novelty": 62,
+        "risk": 85,
+        "overall": 58,
+        "composite": 5.8,
+        "raw100": {
+          "early": 88,
+          "actionable": 42,
+          "novelty": 62,
+          "risk": 85,
+          "overall": 58
+        }
+      },
+      "highlights": [
+        "BTC Ordinals 极早期，Coming Soon 阶段",
+        "Shielded 叙事 + 纪念币子系列，信息量少",
+        "与 ShieldedNaka/OrdDropz 有联动",
+        "粉丝仅 1.4K，关注度低但时间早"
+      ],
+      "drawbacks": [
+        "玩法与铸造细节未公布",
+        "匿名团队与合约风险偏高",
+        "Ordinals 同类项目多，差异化待验证",
+        "流动性预期不明"
+      ],
+      "whatsNew": "【本轮新R225】Shielded二号Commemorative Coins叙事，COMING SOON。",
+      "round": 225,
+      "links": {
+        "x": "https://x.com/banknotes_btc",
+        "signal": "https://x.com/banknotes_btc/status/2111222453955645520"
+      },
+      "ecosystem": null,
+      "lzVerified": false,
+      "followers": 1386,
+      "social": {
+        "x": "https://x.com/banknotes_btc",
+        "followers": 1386,
+        "handle": "@banknotes_btc"
+      },
+      "source": "X @banknotes_btc + Shielded/OrdDropz R225",
+      "status": "upcoming",
+      "mintStatus": "coming-soon",
+      "schedule": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "coming-soon",
+        "note": "Commemorative Coins Shielded sub4K；COMING SOON",
+        "source": "X R225"
+      },
+      "newThisRound": true,
+      "addedAt": "2026-10-18T18:00:59+08:00",
+      "firstSeen": "2026-10-18T18:00:59+08:00",
+      "lastRefreshedAt": "2026-10-18T18:00:59+08:00",
+      "earlyScore": 88,
+      "risk": 85,
+      "riskLevel": "high",
+      "whyWatch": "Shielded Ordinals 二号纪念币叙事，BTC侧与Nakas/OrdDropz同圈，预告极早期。",
+      "flag": null,
+      "background": null,
+      "onchain": null,
       "alert": null
     }
   ]
