@@ -5,8 +5,8 @@
 - alertMessage: 新增 Cash Whiskers、Worker Frens、LUPIRINI；关注 CashWhiskers PUBLIC≈06:10CST、WorkerFrens minting、CannaCats TEAM≈07:25CST，详见 https://reboot7454.github.io/early-scout/
 - newIds: cash-whiskers, worker-frens, lupirini
 - le2h: $CSTR fair≈06:00CST；CashWhiskers PUBLIC≈06:10CST；BishGang WL FREE LIVE；LionAgents PUBLIC LIVE；Official Booobs PUBLIC LIVE；LoopyFaces PUBLIC≈05:50CST；NullMask Points/Ref LIVE；BunnyBrokers/DRAWUP LIVE；WorkerFrens minting；TapeAI Mint今日待时刻；Bramble≈今日；CannaCats TEAM≈07:25CST
-- pushOk: pending
-- commit: pending
+- pushOk: true
+- commit: f643371f21c8067d000d9975e7dc576c5adf7061
 - discordPeekDeferred: true
 - dsFallback: false
 - coverage: 打新/挖矿/台子/GO/LZ/Elysium/Tape/BTC/Starknet all True
