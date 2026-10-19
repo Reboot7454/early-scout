@@ -5,8 +5,8 @@
 - alertMessage: 新增 000.fun/DRAWUP/0-0.city/$FATKAT；近2h：NullMaskio WL FREE≈03:00CST、Trollbox/BubbleCats/DRAWUP仍LIVE、TapeAI Mint今日、Bramble≈今日，详见 https://reboot7454.github.io/early-scout/
 - newIds: 000dotfun, drawupxyz, zerozero-city, fatkatbnb
 - le2h: NullMaskio WL FREE≈03:00CST(~35min)；Trollbox仍LIVE；BubbleCats Mint仍LIVE；DRAWUP Backable募资LIVE；TapeAI Mint今日；Bramble≈今日
-- pushOk: pending
-- commit: pending
+- pushOk: true
+- commit: 43c211efdc80dfda0b8ee5ac127b2ab8b0e63b38
 - discordPeekDeferred: true
 - dsFallback: false
 - coverage: 打新/挖矿/台子/GO/LZ/Elysium/Tape/BTC/Starknet all True
