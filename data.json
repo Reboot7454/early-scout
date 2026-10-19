@@ -944,7 +944,7 @@
       "sid-capital",
       "brainfarts"
     ],
-    "elysiumWatch": "R287 refresh lastChecked 2026-10-20 00:28 CST；R286 refresh lastChecked 2026-10-19 23:55 CST；R285 refresh lastChecked 2026-10-19 23:13 CST；R284 refresh lastChecked 2026-10-19 22:29 CST",
+    "elysiumWatch": "R287+ Peek补 monarchyfi；KeepOut持；主网11-09；lastChecked 2026-10-20 00:28 CST",
     "round177Added": [
       "enter-elysium",
       "speculate"
@@ -1554,9 +1554,89 @@
     ],
     "round287Added": [
       "thankyougod-key"
-    ]
+    ],
+    "elysiumPeekGapfill": {
+      "at": "2026-10-20 00:28 CST",
+      "admitted": [
+        "monarchyfi"
+      ],
+      "skipped": [
+        {
+          "handle": "@cerburus",
+          "reason": "2011空号/无Elysium证据，DC monitor误报"
+        }
+      ],
+      "source": "user Discord #fresh-elysium-monitor screenshot"
+    }
   },
   "candidates": [
+    {
+      "id": "monarchyfi",
+      "name": "monarchy",
+      "handle": "@monarchyfi",
+      "twitter": "@monarchyfi",
+      "followers": 32,
+      "category": "台子/Meme",
+      "chain": "Elysium",
+      "ecosystem": "Elysium",
+      "tags": [
+        "Elysium生态",
+        "Elysium",
+        "台子/Meme",
+        "Ascend",
+        "锁仓",
+        "vesting",
+        "极早期",
+        "本轮新",
+        "DC Peek"
+      ],
+      "links": {
+        "x": "https://x.com/monarchyfi",
+        "twitter": "https://x.com/monarchyfi",
+        "signal": "https://x.com/monarchyfi/status/2112063569982632405"
+      },
+      "whyWatch": "用户 Peek 查漏：Fee routing/locks/vesting for Ascend tokens；bio 明确 Built on @Enter_Elysium for @AscendLaunch。",
+      "whatsNew": "粉≈32；官推「the gates open soon」；eco 页尚未单列，按 Announced+明确 Elysium 部署收录。",
+      "mintStatus": "watch",
+      "lzVerified": false,
+      "highlights": [
+        "明确写 Built on Enter_Elysium + AscendLaunch",
+        "Ascend 代币分费/锁仓/vesting 基建",
+        "极早期粉≈32，gates soon"
+      ],
+      "drawbacks": [
+        "未上 elysium.kinetiq.xyz/ecosystem 列表",
+        "产品未开，仅一帖",
+        "与 Ascend 绑定，主网前可交互有限"
+      ],
+      "earlyScore": 86,
+      "riskLevel": "high",
+      "status": "watching",
+      "scores": {
+        "early": 86,
+        "actionable": 45,
+        "novelty": 72,
+        "risk": 60,
+        "overall": 66,
+        "composite": 6.6,
+        "raw100": {
+          "early": 86,
+          "actionable": 45,
+          "novelty": 72,
+          "risk": 60,
+          "overall": 66
+        }
+      },
+      "schedule": {
+        "status": "announced",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "watch",
+        "note": "the gates open soon；Ascend 侧工具；随 Elysium/Ascend 节奏",
+        "source": "X @monarchyfi + DC fresh-elysium-monitor Peek 2026-10-19"
+      },
+      "round": 287,
+      "newThisRound": true
+    },
     {
       "id": "bramble-fi",
       "name": "Bramble",
@@ -55120,6 +55200,7 @@
     }
   ],
   "newThisRound": [
+    "monarchyfi",
     "thankyougod-key"
   ]
 }
