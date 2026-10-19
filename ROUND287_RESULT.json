@@ -5,19 +5,25 @@
   "mode": "full-coverage",
   "adoptedRound": false,
   "notify": true,
-  "notifyReason": "真新收录1个：thankyougod-key；≤2h：Trollbox FCFS LIVE、Farming CA+Game LIVE、InkBubbleCats GTD FREE LIVE、WEST CREW+Top holders FREE LIVE、TapeAI Mint今日、Bramble≈今日、Starcat/Cowl LIVE",
-  "alertMessage": "新增 Thankyougod（Polygon 粉≈6 FREE MINT 临近）；2h 可操作：solemn-trollbox FCFS LIVE、farming-season CA+Game LIVE、ink-bubble-cats GTD FREE LIVE、weedwest WEST CREW FREE+Top holders LIVE、tapeai Mint窗10/20今日、bramble-fi Starknet Tomorrow≈今日，详见 https://reboot7454.github.io/early-scout/",
-  "summary": "R287雷达：新收录thankyougod-key；Trollbox FCFS LIVE；Farming CA+Game LIVE；BubbleCats GTD LIVE；WEST CREW FREE LIVE；Bramble≈10-20今日；TapeAI Mint今日；Elysium主网仍11-09；Starknet续；DC推迟；BONS因假BITM争议DS skip。",
-  "dsSummary": "R287：多项LIVE与今日Mint，Elysium主网11-09，DC推迟，BONS争议skip。",
+  "notifyReason": "真新收录2个：thankyougod-key、monarchyfi；≤2h：Trollbox FCFS LIVE、Farming CA+Game LIVE、InkBubbleCats GTD FREE LIVE、WEST CREW FREE LIVE、TapeAI Mint今日、Bramble≈今日",
+  "alertMessage": "新增 Thankyougod、Monarchyfi；2h 可操作：Trollbox FCFS、Farming CA+Game、BubbleCats GTD FREE、WEST CREW FREE、TapeAI Mint今日、Bramble≈今日，详见 https://reboot7454.github.io/early-scout/",
+  "summary": "R287新收录thankyougod-key与monarchyfi（并发DC Peek）。Trollbox FCFS LIVE；Farming CA+Game LIVE；BubbleCats GTD LIVE；WEST CREW FREE LIVE；Bramble≈10-20今日；TapeAI Mint今日；Elysium主网仍11-09；Starknet续；DC推迟；BONS DS skip。",
+  "dsSummary": "R287收录thankyougod-key+monarchyfi，多项LIVE",
   "newAdmits": [
     {
       "id": "thankyougod-key",
       "twitter": "@thankyougodcard",
       "name": "Thankyougod",
       "why": "粉≈6；Polygon KEY OF THE HEAVEN FREE MINT临近"
+    },
+    {
+      "id": "monarchyfi",
+      "twitter": "@monarchyfi",
+      "name": "monarchy",
+      "why": "并发DC Peek写入；Elysium Ascend tooling；本轮对齐newThisRound"
     }
   ],
-  "newCount": 1,
+  "newCount": 2,
   "clearedPrevNewThisRound": [
     "gloomy-cats",
     "blue-dolfy"
@@ -316,10 +322,6 @@
     {
       "id": "blue-dolfy",
       "reason": "清newThisRound仅刷新"
-    },
-    {
-      "id": "monarchyfi",
-      "reason": "并发提交已写入仓；非本 executor DS admit；已在库"
     }
   ],
   "skippedMature": [
@@ -402,7 +404,7 @@
     "note": "data.json R287@a419c51；tip含并发 monarchyfi(DC Peek) 与 RESULT sync"
   },
   "pushOk": true,
-  "executorNote": "R287 executor：admit1(thankyougod-key)；清gloomy-cats/blue-dolfy new标志；Trollbox FCFS LIVE；Farming/BubbleCats/WEST≤2h；Bramble≈今日；TapeAI Mint今日；Elysium主网无变；BONS DS skip；DC deferred；远端另有 monachy 相关提交，本轮未主动 admit；现库含 ['monarchyfi']；仓内并发含 monarchyfi（非本轮 DS 新收录列表）",
+  "executorNote": "R287 executor：admit thankyougod-key（DS）；对齐并发 monarchyfi 入 newThisRound；清gloomy-cats/blue-dolfy；Trollbox/Farming/BubbleCats/WEST≤2h；Bramble≈今日；TapeAI Mint今日；Elysium主网无变；BONS DS skip；DC deferred",
   "candidateCount": 760,
   "remoteVerified": true
 }
