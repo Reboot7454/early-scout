@@ -5,8 +5,8 @@
 - alertMessage: 新增 Zumi Shoes、ROPES、Elysium Names、HyperFlow；可操作：CashWhiskers PUBLIC LIVE、$CSTR≈06:00CST、CannaCats TEAM≈07:25CST、TapeAI Mint今日、Bramble≈今日、ArcadeHood≈08:00、CyborgPunks≈11:00、PTSD≈20:30、WOME/INKDEAD≈20:00、VaultII≈21:30、DegenSkulls≈23:45、HW Labs≈10-22；Elysium主网2026-11-09；面板 https://reboot7454.github.io/early-scout/。
 - newIds: zumi-shoes, play-ropes, elysium-names, hyperflow
 - le2h: CashWhiskers PUBLIC LIVE；$CSTR fair≈06:00CST；CannaCats TEAM≈07:25CST；TapeAI Mint今日待时刻；Bramble≈今日；LoopyFaces/Bish/AliveInternet LIVE续
-- pushOk: pending
-- commit: pending
+- pushOk: true
+- commit: 8102eba9d26b7064a319cbad3eecb29346ec6b4f
 - discordPeekDeferred: true
 - dsFallback: false
 - coverage: 打新/挖矿/台子/GO/LZ/Elysium/Tape/BTC/Starknet all True
