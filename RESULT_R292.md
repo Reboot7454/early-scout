@@ -5,8 +5,8 @@
 - alertMessage: 新增 Offmarket/VaultII/CyborgPunks/Official Booobs；近2h：NullMaskio≈03:00CST、Booobs PUBLIC≈04:16、BubbleCats至≈04:00、BunnyBrokers/DRAWUP/Trollbox LIVE，详见 https://reboot7454.github.io/early-scout/
 - newIds: offmarket, the-vault-ii-rh, cyborgpunks, official-booobs
 - le2h: NullMaskio WL FREE≈03:00CST；Official Booobs PUBLIC≈04:16CST；BubbleCats PUBLIC至≈04:00CST；BunnyBrokers PUBLIC LIVE；DRAWUP raise LIVE；Trollbox LIVE；TapeAI Mint今日；Bramble≈今日
-- pushOk: pending
-- commit: pending
+- pushOk: true
+- commit: ae7d57becbef21043fc6321b1f8a13bdc63aa41e
 - discordPeekDeferred: true
 - dsFallback: false
 - coverage: 打新/挖矿/台子/GO/LZ/Elysium/Tape/BTC/Starknet all True
