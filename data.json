@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-19 20:39:36 CST",
+    "updated": "2026-10-19 20:51 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "R281 full scout X+Elysium eco+DS；Discord deferred",
@@ -201,7 +201,8 @@
       "电路板/TapeOut 门级电路·电路 NFT（样例 @TapeAIAgent / @Blonskr 生态）；同类有独立推特的电路 mint/挖矿/DeWEB 应收录",
       "X链/OKX 及同类极早期发射台（样例 @StarcatOKX / @NinetailsTrade）",
       "PaperBird 类极早期鸟/meme/发射 peer（样例 @paperbird_lol）",
-      "BTC 隐私 Ordinals/CRC20 早期（样例 @ShieldedNaka / @banknotes_btc / @mannequinsnft；CRC20 @Satelite_CRC20 / @BONSonBTC）；同类有独立推特的隐私 mint/发射应收录，与其它栏同等努力"
+      "BTC 隐私 Ordinals/CRC20 早期（样例 @ShieldedNaka / @banknotes_btc / @mannequinsnft；CRC20 @Satelite_CRC20 / @BONSonBTC）；同类有独立推特的隐私 mint/发射应收录，与其它栏同等努力",
+      "Starknet/史塔克链极早期（样例 @Bramble_fi）；官方点名/隐私·DeFi 同类须同等扫，禁止漏史塔克"
     ],
     "round28Added": [
       "baby-seals-crc",
@@ -1058,7 +1059,8 @@
     ],
     "watches": {
       "le2h": "R282: Starcat launch窗；Cowl21:00；LowBattery22:00；9E70FF/FloorFeeders/GoldUtya LIVE；Tape快照后空投公布；lastChecked 2026-10-19 20:39:36 CST",
-      "tonight": "R282: Trollbox GTD23:00CST；FarmingSeason CA00:00；Ascend Grants至10/20；lastChecked 2026-10-19 20:39:36 CST"
+      "tonight": "R282: Trollbox GTD23:00CST；FarmingSeason CA00:00；Ascend Grants至10/20；lastChecked 2026-10-19 20:39:36 CST",
+      "starknet": "用户点名须覆盖史塔克：@Bramble_fi 等；同类 Starknet 早期同等扫；lastChecked 2026-10-19 20:51 CST"
     },
     "round187Added": [
       "mosaic-elysium",
@@ -1512,9 +1514,102 @@
       "helmet",
       "tampad",
       "moarfun"
-    ]
+    ],
+    "starknetWatch": {
+      "active": true,
+      "label": "Starknet/史塔克链早期",
+      "accounts": [
+        "@Bramble_fi",
+        "@Starknet"
+      ],
+      "candidateIds": [
+        "bramble-fi"
+      ],
+      "focus": [
+        "Starknet 早期打新",
+        "隐私",
+        "官推点名",
+        "主网/发射"
+      ],
+      "note": "用户点名 2026-10-19：须盯史塔克链，勿偏科；样例 @Bramble_fi Tomorrow≈10-20；lastChecked 2026-10-19 20:51 CST"
+    }
   },
   "candidates": [
+    {
+      "id": "bramble-fi",
+      "name": "Bramble",
+      "handle": "@Bramble_fi",
+      "twitter": "@Bramble_fi",
+      "followers": 904,
+      "category": "台子/Meme",
+      "chain": "Starknet",
+      "tags": [
+        "台子/Meme",
+        "Starknet",
+        "史塔克",
+        "隐私",
+        "极早期",
+        "用户点名",
+        "本轮新"
+      ],
+      "links": {
+        "x": "https://x.com/Bramble_fi",
+        "twitter": "https://x.com/Bramble_fi",
+        "signal": "https://x.com/Bramble_fi/status/2112121594848096612",
+        "starknet": "https://x.com/Starknet/status/2112125361123361151"
+      },
+      "whyWatch": "用户点名；Built for Starknet；官推+Starknet官号同发 Tomorrow；隐私转账叙事（move privately）。",
+      "whatsNew": "2026-10-19：@Bramble_fi 与 @Starknet 均发 Tomorrow；粉≈904；beta曾开放；隐私移动 soon。",
+      "mintStatus": "upcoming",
+      "lzVerified": false,
+      "highlights": [
+        "Starknet 官方点名 Tomorrow",
+        "隐私移动叙事（A way for you to move it privately）",
+        "粉≈904，极早期；用户点名必盯"
+      ],
+      "drawbacks": [
+        "产品细节/合约未公开",
+        "「Tomorrow」无精确时刻",
+        "Starknet 生态打新信号相对稀疏，需防假消息"
+      ],
+      "earlyScore": 82,
+      "riskLevel": "high",
+      "status": "watching",
+      "scores": {
+        "early": 82,
+        "actionable": 70,
+        "novelty": 75,
+        "risk": 55,
+        "overall": 72,
+        "composite": 7.2,
+        "raw100": {
+          "early": 82,
+          "actionable": 70,
+          "novelty": 75,
+          "risk": 55,
+          "overall": 72
+        }
+      },
+      "schedule": {
+        "status": "confirmed",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "upcoming",
+        "startsAt": "2026-10-20T00:00:00+08:00",
+        "endsAt": null,
+        "phases": [
+          {
+            "name": "Tomorrow",
+            "startsAt": "2026-10-20T00:00:00+08:00",
+            "note": "Starknet+Bramble 官推 Tomorrow；精确时刻待补"
+          }
+        ],
+        "note": "官推 Tomorrow（相对 10-19）→ 2026-10-20；Starknet 官号同步点名；时刻待补",
+        "source": "X @Bramble_fi + @Starknet 2026-10-19"
+      },
+      "round": 282,
+      "newThisRound": true,
+      "focus": false
+    },
     {
       "id": "foxora",
       "name": "Foxora",
@@ -54442,6 +54537,7 @@
     }
   ],
   "newThisRound": [
+    "bramble-fi",
     "proof-hunters",
     "helmet",
     "tampad",
