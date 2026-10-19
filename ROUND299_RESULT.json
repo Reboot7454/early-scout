@@ -18,8 +18,8 @@
   "dsFallback": false,
   "summary": "R299新增Pumpanon(Solana匿名发射台，粉≈2高风险)。≤2h含CannaCats TEAM/ArcadeHood/CashWhiskers/Haven/HOODBITZ等。DS deepseek-flash可用。Elysium主网仍2026-11-09。面板 https://reboot7454.github.io/early-scout/。",
   "checkedAt": "2026-10-20 07:10 CST",
-  "pushOk": false,
-  "commit": null,
+  "pushOk": true,
+  "commit": "10091304fa7bb881dcf28676012ea406e8b2c619",
   "coverage": {
     "scout": true,
     "mining": true,
@@ -31,9 +31,10 @@
     "btc": true,
     "starknet": true
   },
-  "skip": "skull-face/hood-dork/neon-sprouts/InkPlanet无可靠官推skip；wired-agentic 0推文+换名史skip；pumpanon DS admit但高风险；tapeout-cf非mint产品持；BunnyPad/HexSwap/MarketLab/DexDaCosta无可靠官推持；KeepOut perpme/branchpoint/outrive持；seededly/nenrin/maskmode/shipped前轮已拒",
+  "skip": "skull-face/hood-dork/neon-sprouts/InkPlanet无可靠官推skip；wired-agentic 0推文+换名史skip；pumpanon DS admit但高风险；BunnyPad/HexSwap/MarketLab无可靠官推持；KeepOut perpme/branchpoint/outrive持；seededly/nenrin/maskmode/shipped前轮已拒",
   "elysiumMainnet": "2026-11-09 confirmed unchanged",
-  "enrich": "tapeai粉2995+今日mint待时刻；bramble今日续；000dotfun lzVerified；shielded SHNAKAS training-wheels-off；haven/hood-bitz LIVE；inkwards补@inkwards+14:00UTC；ink-sigil/inkdead/wome/furrbit日程；fabx BillionLive热点；TapeFourbsc疑似suspended备注；Canton/Glaze/TokenWorks lastChecked",
+  "enrich": "tapeai粉2995+今日mint待时刻；bramble今日续；000dotfun lzVerified；shielded SHNAKAS；haven/hood-bitz LIVE；inkwards补官推+14:00UTC；ink-sigil/inkdead/wome/furrbit日程；fabx BillionLive；TapeFourbsc疑似suspended；Canton/Glaze/TokenWorks refresh",
+  "push": "git push main → 1009130 (data.json+RESULT)",
   "localFiles": [
     "/workspace/early-scout/data.json",
     "/workspace/early-scout/RESULT_R299.md",
