@@ -1,14 +1,21 @@
 {
   "round": 298,
-  "checkedAt": "2026-10-20 06:32 CST",
+  "checkedAt": "2026-10-20 06:40 CST",
   "channel": "alpha-1",
   "loginOk": false,
   "error": "no_dc_session; warehouse-only gap-fill",
   "discordPeekDeferred": true,
   "deferred": true,
   "mode": "warehouse-only",
-  "note": "Warehouse gap-fill: latest decided peek R260; R289-R297 deferred; no new #alpha-1 evidence; no DC admit.",
+  "note": "Warehouse gap-fill: latest decided peek R260; R289-R297 deferred; R258/R260 handles seededly/nenrin/maskmode/shipped re-screened skip; SquariesHQ shell skip; no new #alpha-1 evidence; no DC admit. R298 newIds (halve-network/haven-hn/nts1-standard/hood-bitz) from routine scout, not DC.",
   "candidates": [],
   "admitted": [],
-  "rejects": []
+  "rejects": [
+    "seededly",
+    "nenrin-labs",
+    "maskmode",
+    "shipped",
+    "squarieshq"
+  ],
+  "latestDecidedPeek": "DISCORD_PEEK_R260.json"
 }
