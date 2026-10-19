@@ -20,8 +20,27 @@
   ],
   "discordPeekDeferred": true,
   "dsFallback": true,
-  "summary": "本轮新增 Halve、Haven、NTS-1、HOODBITZ 四个项目（DS TLS 失败，本地短兜底 admit）。未来两小时内可操作的有：CashWhiskers PUBLIC LIVE续、$CSTR fair≈06:00CST刚过可跟、CannaCats TEAM≈07:25CST、ArcadeHood≈08:00CST、Haven Card batch2 LIVE、HOODBITZ minting NOW、TapeAI Mint今日以及 Bramble≈今日。今晚重点包括 CyborgPunks WL≈11:00、Furrbit FREE≈17:00、WOME/INKDEAD≈20:00、PTSD Non-Fuddable≈20:30、VaultII≈21:30、DegenSkulls≈23:45，HW Labs 时段为 10-22 点。Elysium 主网时间维持在 2026-11-09，详情见面板 https://reboot7454.github.io/early-scout/。",
-  "checkedAt": "2026-10-20 06:36 CST",
-  "pushOk": true,
-  "commit": "c68b8dfa05c847f15024c43e3f4215f8110f16b3"
+  "summary": "R298新增Halve(Tape挖矿PT/YT)、Haven(Starknet隐私卡batch2)、NTS-1(Solana标准pump刚上)、HOODBITZ(minting)。≤2h含CannaCats/ArcadeHood/Haven/HOODBITZ等。DS因TLS劫持不可用已本地兜底。Elysium主网仍2026-11-09。面板 https://reboot7454.github.io/early-scout/。",
+  "checkedAt": "2026-10-20 06:32 CST",
+  "pushOk": false,
+  "commit": null,
+  "coverage": {
+    "scout": true,
+    "mining": true,
+    "meme": true,
+    "go": true,
+    "lz": true,
+    "elysium": true,
+    "tape": true,
+    "btc": true,
+    "starknet": true
+  },
+  "skip": "tapeout-cf基金会非mint产品skip；noos-protocol粉≈5.8万偏热skip；true-markets/elysian-fields/on-chain-poker/BunnyPad/HexSwap/MarketLab/DexDaCosta无可靠官推持；KeepOut perpme/branchpoint/outrive持；seededly/nenrin/maskmode/shipped前轮已拒",
+  "elysiumMainnet": "2026-11-09 confirmed unchanged",
+  "localFiles": [
+    "/workspace/early-scout/data.json",
+    "/workspace/early-scout/RESULT_R298.md",
+    "/workspace/early-scout/ROUND298_RESULT.json",
+    "/workspace/early-scout/DISCORD_PEEK_R298.json"
+  ]
 }
