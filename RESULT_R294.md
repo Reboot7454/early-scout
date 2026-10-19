@@ -5,8 +5,8 @@
 - alertMessage: 新增 LionAgents/BishGang/NORTH/$CSTR/LZYcrowd；近2h：Booobs LIVE、LionAgents≈04:30、BishGang FREE、NullMaskio FREE、$CSTR≈06:00，详见 https://reboot7454.github.io/early-scout/
 - newIds: lion-agents, bish-gang, north-xrpl, cstr-cardboard, lzycrowd
 - le2h: Official Booobs PUBLIC LIVE；LionAgents FCFS/PUBLIC≈04:30CST；BishGang WL FREE LIVE；NullMaskio PUBLIC FREE LIVE；BunnyBrokers/DRAWUP/Trollbox LIVE；$CSTR fair≈06:00CST；TapeAI Mint今日待时刻；Bramble≈今日
-- pushOk: pending
-- commit: pending
+- pushOk: true
+- commit: d99508179ac4aae1ef069089c38028e8defee350
 - discordPeekDeferred: true
 - dsFallback: false
 - coverage: 打新/挖矿/台子/GO/LZ/Elysium/Tape/BTC/Starknet all True
