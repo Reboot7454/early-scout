@@ -6,7 +6,7 @@
 - newIds: strk-veil
 - le2h: NullMaskio WL FREE≈03:00CST(~1h)；Trollbox仍LIVE；BubbleCats FCFS LIVE≈1779/3333；Farming Game+CA LIVE；Cowl LIVE；TapeAI Mint今日；Bramble≈今日
 - pushOk: true
-- commit: 442012124d55b21c1cc8f0aacc875e667a721949
+- commit: 100000307bc3b29de625acf39bc90c0fb9f4e342
 - discordPeekDeferred: true
 - dsFallback: false
 - coverage: 打新/挖矿/台子/GO/LZ/Elysium/Tape/BTC/Starknet all True
