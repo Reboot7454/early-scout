@@ -6,7 +6,7 @@
 - newIds: tapeoutcf
 - le2h: CannaCats TEAM LIVE→GTD≈08:25CST; ArcadeHood≈08:00CST; CashWhiskers PUBLIC LIVE; Haven Card LIVE; HOODBITZ minting
 - pushOk: true
-- commit: be2456e8d27a5dc0977de26258ca55222a25adc9
+- commit: e74b4e0db12d66d3069511e9e30c0be268f8de7f
 - discordPeekDeferred: true
 - dsFallback: false
 - coverage: 打新/挖矿/台子/GO/LZ/Elysium/Tape/BTC/Starknet all True
@@ -14,5 +14,5 @@
 - skip: sui-droplets DS skip(仅1推无可执行)；common-foundry已在库R170仅enrich；BunnyPad/HexSwap/MarketLab无可靠官推持；KeepOut perpme/branchpoint/outrive持；ceilo/hashcoin/gotcha弱粉spam skip
 - elysiumMainnet: 2026-11-09 confirmed unchanged
 - enrich: tapeai粉3001+今日mint待时刻；bramble今日；000dotfun lzVerified；shielded SHNAKAS；haven/hood-bitz LIVE；cannacats TEAM LIVE；arcade≈08:00；cashwhiskers PUBLIC LIVE；common-foundry粉172续；TapeOutCF新收；Canton/Glaze/TokenWorks refresh
-- push: git push main → be2456e (data.json+RESULT)
+- push: git push main → e74b4e0 (data.json+RESULT)
 - localFiles: /workspace/early-scout/data.json ; RESULT_R300.md ; ROUND300_RESULT.json
