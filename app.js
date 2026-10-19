@@ -131,9 +131,15 @@
     );
   }
 
+  function asTextList(v) {
+    if (Array.isArray(v)) return v.map((x) => String(x)).filter(Boolean);
+    if (v == null || v === "") return [];
+    return [String(v)];
+  }
+
   function prosCons(c) {
-    const hi = (c.highlights || []).slice(0, 4);
-    const lo = (c.drawbacks || []).slice(0, 4);
+    const hi = asTextList(c.highlights).slice(0, 4);
+    const lo = asTextList(c.drawbacks).slice(0, 4);
     if (!hi.length && !lo.length) return "";
     const hiLis = hi.map((t) => "<li>" + escapeHtml(t) + "</li>").join("");
     const loLis = lo.map((t) => "<li>" + escapeHtml(t) + "</li>").join("");
@@ -277,7 +283,7 @@
   function isLayerZero(c) {
     // Self-claimed OFT/bridge without verification must NOT land here (→ 台子/Meme).
     if (c && c.lzVerified === false) return false;
-    const tags = (c.tags || []).map((t) => String(t).toLowerCase());
+    const tags = asTextList(c.tags).map((t) => String(t).toLowerCase());
     // Explicit layerzero / lz tag only when not marked unverified.
     if (tags.some((t) => t.includes("layerzero") || t === "lz" || t === "layer-zero")) {
       return true;
@@ -297,7 +303,7 @@
   function isMining(c) {
     if (!c) return false;
     if (c.category === "挖矿") return true;
-    const tags = (c.tags || []).map((x) => String(x).toLowerCase());
+    const tags = asTextList(c.tags).map((x) => String(x).toLowerCase());
     if (tags.some((x) => ["挖矿", "mining", "pow", "gpu-pow", "nft变异", "变异盘", "miner"].includes(x) || x.includes("mining") || x.includes("pow"))) {
       return true;
     }
@@ -348,7 +354,7 @@
     if (!c) return false;
     const eco = String(c.ecosystem || "").toLowerCase();
     if (eco === "elysium") return true;
-    const tags = (c.tags || []).map((t) => String(t).toLowerCase().replace(/\s+/g, ""));
+    const tags = asTextList(c.tags).map((t) => String(t).toLowerCase().replace(/\s+/g, ""));
     if (tags.some((t) => t === "elysium生态" || t === "elysiumeco" || t.includes("elysium生态"))) {
       return true;
     }
@@ -394,7 +400,7 @@
     }
     const cat = String(c.category || "").toLowerCase().replace(/\s+/g, "");
     if (cat === "tape/电路" || cat === "电路板" || cat === "tapeout") return true;
-    const tags = (c.tags || []).map((t) => String(t).toLowerCase().replace(/\s+/g, ""));
+    const tags = asTextList(c.tags).map((t) => String(t).toLowerCase().replace(/\s+/g, ""));
     if (
       tags.some(
         (t) =>
@@ -437,7 +443,7 @@
     if (PLATFORM_CATS.has(c.category)) return true;
     // Tags: only strong zone tags. Bare "Launchpad"/"Meme" on NFT mints must NOT
     // steal 打新 → 台子 (zenkaihood/nulora class false positives).
-    const tags = (c.tags || []).map((t) => String(t));
+    const tags = asTextList(c.tags).map((t) => String(t));
     if (tags.some((t) => t === "台子/Meme" || t === "新台")) return true;
     return false;
   }
@@ -747,7 +753,7 @@
       c.schedule?.note,
       c.onchain?.note,
       c.whatsNew,
-      ...(c.highlights || []),
+      ...asTextList(c.highlights),
       ...(c.drawbacks || []),
       ...(c.tags || []),
     ]
