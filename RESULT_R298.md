@@ -5,8 +5,8 @@
 - alertMessage: 新增 Halve、Haven、NTS-1、HOODBITZ；可操作：CannaCats≈07:25、ArcadeHood≈08:00、Haven卡、HOODBITZ minting、$CSTR刚过、CashWhiskers LIVE、TapeAI今日、Bramble今日；Elysium主网2026-11-09；面板 https://reboot7454.github.io/early-scout/。
 - newIds: halve-network, haven-hn, nts1-standard, hood-bitz
 - le2h: CashWhiskers PUBLIC LIVE续；$CSTR fair≈06:00CST刚过/可跟；CannaCats TEAM≈07:25CST；ArcadeHood≈08:00CST；Haven Card batch2 LIVE；HOODBITZ minting NOW；TapeAI Mint今日待时刻；Bramble≈今日
-- pushOk: false
-- commit: pending
+- pushOk: true
+- commit: c68b8dfa05c847f15024c43e3f4215f8110f16b3
 - discordPeekDeferred: true
 - dsFallback: true
 - coverage: 打新/挖矿/台子/GO/LZ/Elysium/Tape/BTC/Starknet all True
