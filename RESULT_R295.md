@@ -5,8 +5,8 @@
 - alertMessage: 新增 CannaCats V2、Degen Skulls；2h内可操作：Official Booobs/LionAgents/BishGang/NullMaskio/$CSTR/BunnyBrokers 等 LIVE，及 TapeAI、Bramble，详见 https://reboot7454.github.io/early-scout/
 - newIds: cannacats-v2, degen-skulls
 - le2h: Official Booobs PUBLIC LIVE；LionAgents PUBLIC LIVE；BishGang WL FREE LIVE；NullMaskio PUBLIC FREE LIVE；BunnyBrokers/DRAWUP/Trollbox LIVE；$CSTR fair≈06:00CST；TapeAI Mint今日待时刻；Bramble≈今日
-- pushOk: pending
-- commit: pending
+- pushOk: true
+- commit: 9ed1c8ce8faab10f9ed80f7ab52c146ebc545ad4
 - discordPeekDeferred: true
 - dsFallback: false
 - coverage: 打新/挖矿/台子/GO/LZ/Elysium/Tape/BTC/Starknet all True
