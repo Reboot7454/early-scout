@@ -5,8 +5,8 @@
 - alertMessage: 新增 Crypto Cars/Gloam/Runes.cash；近2h：Booobs PUBLIC≈04:16、NullMaskio/BubbleCats/BunnyBrokers/DRAWUP/Trollbox LIVE，详见 https://reboot7454.github.io/early-scout/
 - newIds: crypto-cars-rh, gloam, runesdotcash
 - le2h: Official Booobs PUBLIC≈04:16CST；NullMaskio PUBLIC FREE LIVE；Ink Bubble Cats PUBLIC LIVE；BunnyBrokers PUBLIC LIVE；DRAWUP raise LIVE；Trollbox LIVE；TapeAI Mint今日待时刻；Bramble≈今日
-- pushOk: pending
-- commit: pending
+- pushOk: true
+- commit: 7ffde0e503fbb1e4dd847f2eec6393b6a787dfd4
 - discordPeekDeferred: true
 - dsFallback: false
 - coverage: 打新/挖矿/台子/GO/LZ/Elysium/Tape/BTC/Starknet all True
