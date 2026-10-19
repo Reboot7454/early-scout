@@ -1,0 +1,20 @@
+{
+  "round": 297,
+  "checkedAt": "2026-10-20 05:56 CST",
+  "channel": "alpha-1",
+  "loginOk": false,
+  "error": "no_dc_session; warehouse-only gap-fill",
+  "discordPeekDeferred": true,
+  "deferred": true,
+  "mode": "warehouse-only",
+  "note": "Warehouse gap-fill: latest decided peek R260; R289-R296 deferred; R258/R260 handles seededly/nenrin/maskmode/shipped already DS-screened this round (seededly/shipped/nenrin/maskmode skip); no new #alpha-1 evidence; no DC admit.",
+  "candidates": [],
+  "admitted": [],
+  "rejects": [
+    "seededly",
+    "nenrin-labs",
+    "maskmode",
+    "shipped"
+  ],
+  "latestDecidedPeek": "DISCORD_PEEK_R260.json"
+}
