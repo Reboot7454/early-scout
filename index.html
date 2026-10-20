@@ -7,11 +7,11 @@
   <meta name="theme-color" content="#07090f" />
   <meta http-equiv="refresh" content="600" />
   <title>早期打新雷达 · Early Scout</title>
-  <meta name="description" content="高风险·非投资建议。早期加密雷达：重点横条 + 七栏打新 / 挖矿 / 台子·Meme / GO盘 / LayerZero / Elysium / Tape电路（加栏不收缩其它覆盖）。含开售日程与链上 mint 盯盘。" />
+  <meta name="description" content="高风险·非投资建议。早期加密雷达：重点横条 + 九栏打新 / 挖矿 / 台子·Meme / GO盘 / LayerZero / Elysium / Tape电路 / GIWA / DogeEVM（加栏不收缩其它覆盖）。含开售日程与链上 mint 盯盘。" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="./styles.css?v=tape1" />
+  <link rel="stylesheet" href="./styles.css?v=giwa1" />
 </head>
 <body>
   <div class="app">
@@ -23,7 +23,7 @@
     <header class="header">
       <div class="brand">
         <h1>早期打新雷达</h1>
-        <p class="sub">Early Crypto Scout · <span class="focus-inline">重点</span> · <span class="fav-inline">收藏</span> · 打新 / 挖矿 / 台子·Meme / GO盘 / <span class="lz-inline">LayerZero</span> / <span class="ely-inline">Elysium</span> / <span class="tape-inline">Tape/电路</span></p>
+        <p class="sub">Early Crypto Scout · <span class="focus-inline">重点</span> · <span class="fav-inline">收藏</span> · 打新 / 挖矿 / 台子·Meme / GO盘 / <span class="lz-inline">LayerZero</span> / <span class="ely-inline">Elysium</span> / <span class="tape-inline">Tape/电路</span> / <span class="giwa-inline">GIWA</span> / <span class="doge-inline">DogeEVM</span></p>
       </div>
       <div class="meta-pills">
         <span class="pill">候选 <strong id="count">—</strong></span>
@@ -35,6 +35,8 @@
         <button type="button" class="pill pill-lz" id="lz-pill" data-jump-zone="lz-panel" title="跳到 LayerZero 列">LayerZero 监控中</button>
         <button type="button" class="pill pill-ely" id="ely-pill" data-jump-zone="ely-panel" title="跳到 Elysium 生态列">Elysium 生态</button>
         <button type="button" class="pill pill-tape" id="tape-pill" data-jump-zone="tape-panel" title="跳到 Tape/电路列">Tape/电路</button>
+        <button type="button" class="pill pill-giwa" id="giwa-pill" data-jump-zone="giwa-panel" title="跳到 GIWA 列">GIWA</button>
+        <button type="button" class="pill pill-doge" id="doge-pill" data-jump-zone="doge-panel" title="跳到 DogeEVM 列">DogeEVM</button>
         <span class="pill">多轮合并</span>
       </div>
     </header>
@@ -181,12 +183,30 @@
       </div>
       <div class="grid zone-cards" id="tape-grid"></div>
     </section>
+
+    <section class="zone zone-giwa" id="giwa-panel" aria-label="GIWA">
+      <div class="zone-head">
+        <span class="zone-title">GIWA</span>
+        <span class="zone-count" id="giwa-count">—</span>
+        <span class="zone-sub">GIWA 链 · Upbit L2 · 生态极早期</span>
+      </div>
+      <div class="grid zone-cards" id="giwa-grid"></div>
+    </section>
+
+    <section class="zone zone-doge" id="doge-panel" aria-label="DogeEVM">
+      <div class="zone-head">
+        <span class="zone-title">DogeEVM</span>
+        <span class="zone-count" id="doge-count">—</span>
+        <span class="zone-sub">Doge EVM · 生态极早期</span>
+      </div>
+      <div class="grid zone-cards" id="doge-grid"></div>
+    </section>
     </div>
 
     <footer class="footer">
       Scout date 2026-10-18 · 数据来自 <code>data.json</code>（约每 10 分钟更新；刷新页面获取最新） · DYOR · 高风险
     </footer>
   </div>
-  <script src="./app.js?v=tw1"></script>
+  <script src="./app.js?v=giwa1"></script>
 </body>
 </html>

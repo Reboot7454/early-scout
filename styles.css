@@ -681,6 +681,51 @@ button.pill {
   color: var(--faint);
 }
 
+/* GIWA (Upbit L2) column — blue accent */
+.giwa-inline { color: #93c5fd; font-weight: 700; }
+.pill-giwa {
+  color: #dbeafe !important;
+  border-color: rgba(59, 130, 246, 0.5) !important;
+  background: linear-gradient(120deg, rgba(37, 99, 235, 0.24), rgba(96, 165, 250, 0.1)) !important;
+}
+.chip.chip-giwa.active {
+  background: linear-gradient(120deg, #3b82f6, #93c5fd);
+  color: #06102a;
+}
+.giwa-badge-lg,
+.doge-badge-lg {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  font-weight: 900;
+  font-size: 0.6rem;
+  letter-spacing: 0.04em;
+  flex-shrink: 0;
+  margin: 0 auto 8px;
+}
+.giwa-badge-lg { color: #06102a; background: linear-gradient(135deg, #3b82f6, #93c5fd); }
+.empty-giwa .empty-sub,
+.empty-doge .empty-sub {
+  margin-top: 6px;
+  font-size: 0.75rem;
+  color: var(--faint);
+}
+
+/* DogeEVM column — lime accent */
+.doge-inline { color: #bef264; font-weight: 700; }
+.pill-doge {
+  color: #ecfccb !important;
+  border-color: rgba(163, 230, 53, 0.5) !important;
+  background: linear-gradient(120deg, rgba(132, 204, 22, 0.22), rgba(250, 204, 21, 0.1)) !important;
+}
+.chip.chip-doge.active {
+  background: linear-gradient(120deg, #a3e635, #facc15);
+  color: #141a05;
+}
+.doge-badge-lg { color: #141a05; background: linear-gradient(135deg, #a3e635, #facc15); }
+
 .tag-tape {
   background: rgba(251, 146, 60, 0.22);
   color: #ffedd5;
@@ -1381,7 +1426,7 @@ button.pill {
   font-size: 0.95rem;
 }
 
-/* Focus strip (above board) + seven column zones. Narrow: stack 打新 → 挖矿 → 台子/Meme → GO盘 → LayerZero → Elysium → Tape/电路. */
+/* Focus strip (above board) + nine column zones. Narrow: stack 打新 → 挖矿 → 台子/Meme → GO盘 → LayerZero → Elysium → Tape/电路 → GIWA → DogeEVM. */
 .board {
   display: flex;
   flex-direction: column;
@@ -1409,6 +1454,8 @@ button.pill {
 .zone-lz { border-color: rgba(167, 139, 250, 0.42); }
 .zone-ely { border-color: rgba(34, 211, 238, 0.42); }
 .zone-tape { border-color: rgba(251, 146, 60, 0.48); }
+.zone-giwa { border-color: rgba(59, 130, 246, 0.5); }
+.zone-doge { border-color: rgba(163, 230, 53, 0.45); }
 
 .zone-focus .zone-title { color: #fecdd3; }
 .zone-scout .zone-title { color: #c7d2fe; }
@@ -1418,6 +1465,8 @@ button.pill {
 .zone-lz .zone-title { color: #ddd6fe; }
 .zone-ely .zone-title { color: #a5f3fc; }
 .zone-tape .zone-title { color: #fed7aa; }
+.zone-giwa .zone-title { color: #bfdbfe; }
+.zone-doge .zone-title { color: #d9f99d; }
 
 .zone-focus .zone-head {
   background: linear-gradient(105deg, rgba(251,113,133,0.18), rgba(251,191,36,0.08) 55%, rgba(13,18,28,0.94));
@@ -1441,6 +1490,14 @@ button.pill {
 }
 .zone-tape .card::before {
   background: linear-gradient(90deg, transparent, #fb923c, #fbbf24, transparent);
+  opacity: 0.95;
+}
+.zone-giwa .card::before {
+  background: linear-gradient(90deg, transparent, #3b82f6, #93c5fd, transparent);
+  opacity: 0.95;
+}
+.zone-doge .card::before {
+  background: linear-gradient(90deg, transparent, #a3e635, #facc15, transparent);
   opacity: 0.95;
 }
 .zone-focus .card::before {
@@ -1613,12 +1670,13 @@ button.pill {
   }
 }
 
-/* Wide board: 打新 | 挖矿 | 台子/Meme | GO盘 | LayerZero | Elysium | Tape/电路 (seven columns). */
+/* Wide board: 打新 | 挖矿 | 台子/Meme | GO盘 | LayerZero | Elysium | Tape/电路 | GIWA | DogeEVM (nine columns).
+   Columns shrink to fit 1440–1920px; below ~1400px content width the board scrolls horizontally (col min 140px). */
 @media (min-width: 1280px) {
   .board {
     display: grid;
-    grid-template-columns: repeat(7, minmax(168px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(9, minmax(140px, 1fr));
+    gap: 8px;
     align-items: stretch;
     overflow-x: auto;
     padding-bottom: 4px;
@@ -1626,11 +1684,23 @@ button.pill {
   }
 
   .board .zone {
-    min-width: 168px;
+    min-width: 140px;
+    padding: 0 8px 10px;
   }
+
+  .board .zone-head {
+    margin: 0 -8px 8px;
+    padding: 8px 8px 6px;
+    gap: 4px 6px;
+  }
+
+  .board .zone-title { font-size: 0.92rem; }
+  .board .zone-count { font-size: 0.7rem; padding: 0 6px; }
+  .board .zone-sub { font-size: 0.66rem; flex-basis: 100%; }
 
   .board .zone-cards {
     grid-template-columns: 1fr;
+    gap: 8px;
   }
 
   .zone-mining .mining-row {
@@ -1639,8 +1709,8 @@ button.pill {
       "name type score"
       "meta meta meta"
       "links links links";
-    gap: 2px 8px;
-    padding: 8px 10px;
+    gap: 2px 6px;
+    padding: 7px 8px;
   }
 
   .zone-mining .mining-row-name { grid-area: name; }
@@ -1649,25 +1719,41 @@ button.pill {
   .zone-mining .mining-row-score { grid-area: score; }
   .zone-mining .mining-row-links { grid-area: links; }
 
-  .zone .card { padding: 12px; }
-  .zone .name { font-size: 1rem; }
-  .zone .score-mini { min-width: 52px; max-width: 78px; }
+  .zone .card { padding: 10px; gap: 8px; font-size: 0.9rem; }
+  .zone .name { font-size: 0.94rem; }
+  .zone .score-mini { min-width: 44px; max-width: 70px; flex-basis: 44px; }
+
+  /* Compact cards for narrow nine-column board: star + round on one row above the name. */
+  .board .card-top { flex-direction: column; gap: 6px; }
+  .board .card-top > div:first-child { min-width: 0; }
+  .board .card-top-right {
+    order: -1;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .board .card-top-right .fav-btn { width: 26px; height: 26px; }
+  .board .round-badge { font-size: 0.64rem; padding: 2px 6px; }
+  .board .tags { gap: 4px; }
+  .board .tag { font-size: 0.64rem; padding: 2px 6px; }
+  .board .score-row { gap: 8px; }
+  .board .score-overall { width: 38px; height: 38px; }
+  .board .pros-cons { grid-template-columns: 1fr; gap: 6px; }
+  .board .pc-col { padding: 6px 8px; }
+  .board .actions { flex-wrap: wrap; gap: 6px; }
+  .board .name > span { display: inline-block; margin-top: 2px; white-space: nowrap; }
+  .board .name .sched-chip { margin-left: 4px; }
+  .board .whats-new { flex-direction: column; gap: 4px; font-size: 0.76rem; padding: 6px 8px; }
 }
 
 @media (min-width: 1680px) {
   .board {
-    grid-template-columns: repeat(7, minmax(0, 1fr));
-    gap: 12px;
-    overflow-x: auto;
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+    gap: 10px;
   }
 
   .board .zone {
     min-width: 0;
-  }
-}
-
-@media (min-width: 1960px) {
-  .board {
-    overflow-x: visible;
   }
 }
