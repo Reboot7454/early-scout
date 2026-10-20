@@ -13,8 +13,9 @@
 - tapeWatch: R314 TapeAI≈3min售罄8888；ZeroTapeOut会员卡21:30截止已过；最优矿池接收至10-25；TapeCat流片仍10-21 20:00；lastChecked 2026-10-20 22:00 CST
 - starknetWatch: R314 Bramble仍未锁；@Starknet无新点名；lastChecked 2026-10-20 22:00 CST
 - btcWatch: R314 ShieldedNaka/banknotes续扫无新admit；lastChecked 2026-10-20 22:00 CST
-- pushOk: (pending)
-- commit: (pending)
+- pushOk: true
+- dataCommits: 2b8d173
+- commit: 2b8d173 (2b8d173 scout)
 - discordPeekDeferred: true
 - dsFallback: false（score分批重试成功，非本地fallback）
 - coverage: 打新/挖矿/台子/GO/LZ/Elysium/Tape/BTC/Starknet/GIWA/Zero/DogeEVM all True
