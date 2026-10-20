@@ -1,0 +1,58 @@
+{
+  "round": 310,
+  "notify": true,
+  "alertMessage": "新增 StarkLaunchy LIVE、InkVenom WL 24h内截；Cyborg PUBLIC 0.5USDC LIVE，今晚 TapeCat 20:00 CST 等，详情见 https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "stark-launchy",
+    "ink-venom"
+  ],
+  "le2h": [
+    "CyborgPunks PUBLIC 0.5USDC LIVE(FREE≈16:56结束)",
+    "ArcadeHood PUBLIC LIVE",
+    "CashWhiskers PUBLIC LIVE",
+    "Haven Card OPEN",
+    "HOODBITZ minting",
+    "SixtyJiazi OrdDropz LIVE",
+    "Jimmy OrdDropz LIVE",
+    "ordinalsbid $ORDINALS 2/6",
+    "STOX RH 1000x LIVE",
+    "BISH AL LIVE",
+    "STATIC LIVE",
+    "StarkLaunchy 发币台 LIVE(新)",
+    "BunnyPad testnet LIVE"
+  ],
+  "tonight": [
+    "TapeCat流片20:00CST(官推再确认)",
+    "Breath WL≈21:00CST",
+    "Vault II TEAM≈21:30CST",
+    "TreasureMap $MAP≈22:00 / Game≈22:30CST",
+    "inkwards≈22:00CST",
+    "DegenSkulls WL≈23:00–23:45CST",
+    "Embervale游戏/代币≈00:00CST(第三方)",
+    "TapeAI Mint今晚待钟点",
+    "Bramble今日待时刻(未锁)",
+    "InkVenom WL申请≈至10-21 16:54CST",
+    "Furrbit改10-21开"
+  ],
+  "pushOk": true,
+  "commit": "87a170eabb6efc9f59b592b45dfc4afa45b8fa70",
+  "dataCommit": "87a170eabb6efc9f59b592b45dfc4afa45b8fa70",
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "coverage": {
+    "scout": true,
+    "mining": true,
+    "meme": true,
+    "go": true,
+    "lz": true,
+    "elysium": true,
+    "tape": true,
+    "btc": true,
+    "starknet": true
+  },
+  "elysiumMainnet": "2026-11-09",
+  "summary": "R310新增stark-launchy与ink-venom（WL 24h内截）；Cyborg FREE约16:56 CST转PUBLIC，Furrbit改10-21开，Trollbox已打完；今晚TapeCat 20:00官推确认、Breath约21:00、VaultII约21:30、TreasureMap约22:00、DegenSkulls约23:00-23:45，TapeAI时点待定、Bramble未锁，Elysium主网2026-11-09不变，部分eco项目跳过且Discord Peek延期。",
+  "skip": "strk20-ztark无窗DS skip；true-markets Announced仅planning DS skip；Elysian Fields/On-chain poker无独立推特；TensorCash已有估值非早期；Ordinals Soapbox Rally无官推；KeepOut perpme/branchpoint/outrive持",
+  "enrich": "Cyborg FREE结束→PUBLIC LIVE；Furrbit→10-21；TapeCat 20:00官推确认；TapeAI 8888电路今晚待钟点；TapeOutCF设计大赛；CoTape官方最优矿池；DegenSkulls checker；Embervale≈00:00(第三方)；TreasureMap Launch Day；Trollbox sold_out；Paperbird PAPER转让暂停；Bramble未锁；Canton/Glaze/TokenWorks refresh；000dotfun lzVerified；extract_schedules dry-run 0 fill；enrich_cards未写入(脚本TypeError，卡片由DS写)",
+  "localFiles": "/workspace/early-scout/data.json ; RESULT_R310.md ; ROUND310_RESULT.json ; DISCORD_PEEK_R310.json"
+}
