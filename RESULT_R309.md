@@ -6,7 +6,7 @@
 - newIds: bunnypad, thrill-karts, hood-syndicate, bitizens-ely
 - le2h: CyborgPunks FREE LIVE→PUBLIC≈16:56CST; Furrbit FREE待确认(原≈17:00CST); ArcadeHood PUBLIC LIVE; CashWhiskers PUBLIC LIVE; Haven Card OPEN; HOODBITZ minting; SixtyJiazi OrdDropz LIVE; ordinalsbid $ORDINALS 2/6; STOX RH 1000x LIVE; BISH AL LIVE; STATIC LIVE; Jimmy OrdDropz LIVE
 - pushOk: true
-- commit: 67bc9f35f0885f358aa64d92edfc8d0d00f17490
+- commit: c041edca3f995f17810ee6cf91e9c9943dc70a74
 - discordPeekDeferred: true
 - dsFallback: false
 - coverage: 打新/挖矿/台子/GO/LZ/Elysium/Tape/BTC/Starknet all True
@@ -16,4 +16,4 @@
 - enrich: Cyborg FREE→PUBLIC≈16:56CST; TapeCat≈20:00; Breath WL≈21:00; TreasureMap Launch Day 22:00/22:30; Jimmy Eligibility Stage; BISH PUBLIC soon; Furrbit allowlist locked details soon; TapeAI幸运数字+钟点待; Bramble今日未锁; BunnyPad testnet LIVE; Canton/Glaze/TokenWorks refresh; 000dotfun lzVerified
 - localFiles: /workspace/early-scout/data.json ; RESULT_R309.md ; ROUND309_RESULT.json ; DISCORD_PEEK_R309.json
 
-- push: git push main → 67bc9f35f0885f358aa64d92edfc8d0d00f17490
+- push: git push main → c041edca3f995f17810ee6cf91e9c9943dc70a74
