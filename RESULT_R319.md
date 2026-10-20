@@ -1,0 +1,28 @@
+# RESULT R319
+
+- round: 319
+- notify: true
+- alertMessage: 03:05CST雷达：新收TapeOracle、RUNECLAW；≤2h Trac RESET agent挖矿、Fables激励开放。见 https://reboot7454.github.io/early-scout/
+- newIds: ["tapeoracle", "runeclaw", "agorian-ai", "hoodcabals", "fang-finance", "fables-fi", "alt-l2"]
+- le2h: ["RUNECLAW Daily Duel DogeOS LIVE(新,02:40)", "Trac RESET BTC区块头agent挖矿(02:32官推)", "Fables PROLOGUE claim/投票激励今日开放(新)", "Updraft DRAFT经Ascend在Elysium测试网发射", "Embervale EMBER RH 00:00上线", "Ord Dropz Blockchain Titans BTC mint中", "Hood Cabals免费mint WL最后几天(新)"]
+- tonight: ["Fang Genesis截止 10-22 01:00CST(新)", "Ink Pirates 10-22 01:00CST", "Ink Identity mint 10-21(钟点TBA)", "Jumak Genesis WL 10-21 19:00CST截止", "TapeCat流片 10-21 20:00CST", "EMERGENCE mint 10-21 23:00CST", "esccap FREE 10-21 23:00CST", "aero RH上线 10-22 08:00CST", "Shielded Ordinals新mint≈10-23", "VaultStreet Early 10-22 / Public 10-23", "CONSO BOTS 10-22 23:00CST", "Cloaked Entities mint≈10-30", "Kasseal主网11-01", "DogeOS黑客松截止11-06", "Elysium主网 2026-11-09", "Fables claim截止11-21", "Zero主网+lzATLAS 2026-11-30"]
+- giwaWatch: R319 @GIWA_by_Upbit无新推；Ammora waitlist刷量续；pabalx季前赛续；无新admit；lastChecked 2026-10-21 03:05 CST
+- zeroWatch: R319 @LayerZero_Core 10-20 21:01CST三连推：Zero主网+lzATLAS 11-30，Open ATLAS首发十余venue；KOL(@TheMaran)列GTE/Bullish/defined/TrueNorth为首发venue但官方未点名，未核验；lastChecked 2026-10-21 03:05 CST
+- dogeEvmWatch: R319 新收RUNECLAW Daily Duel(DogeOS LIVE)；Monko Mania刷分续；lastChecked 2026-10-21 03:05 CST
+- elysiumWatch: R319 新收Agorian(Built on Elysium)/ALT L2(计划集成Elysium)；Ascend WL+Builder赛、Updraft DRAFT测试网发射(无推特未收)；kalos测试网最活跃；KeepOut perpme/branchpoint/outrive；主网11-09；lastChecked 2026-10-21 03:05 CST
+- kinetiqWatch: R319 新建：Kinetiq/Enter_Elysium 10-19~20批量e/acc点名Markets_xyz、NestExchange、MontraXYZ、ElysiumEco、AscendLaunch、doublezero、EnsoBuild，@AgentKinetiq预告Big week未揭晓，主网11-09。 本轮无新积分/空投/mint；Agent K 自10-19后无新原创推。
+- agentMiningWatch: R319 新建：Trac RESET挖矿已4天，02:32官推称BTC区块头驱动agent每块挖3.125 RESET并支持共享Mine，另有agent P2P DEX（RESET/TNK↔USDC），358 agent，RESET≈$70。 本轮无同类新agent挖矿项目可收。
+- tapeWatch: R319 新收TapeOracle(电路预言机)；BEMRockets NFT参赛(个人号未收)；TapeOut Market 2.0回购；TapeCat流片10-21 20:00；lastChecked 2026-10-21 03:05 CST
+- starknetWatch: R319 StarkLaunchy STRK/ZEC/strkBTC配对推续；@Starknet无新打新点名；无新admit；lastChecked 2026-10-21 03:05 CST
+- btcWatch: R319 ShieldedNaka/banknotes无新推；Ord Dropz Blockchain Titans 10k sats mint中(无项目推特)；WecSats OG pass FCFS；无新BTC admit；lastChecked 2026-10-21 03:05 CST
+- pushOk: true
+- commit: 66ab2d3
+- xReads: 22
+- discordPeekDeferred: true
+- dsFallback: false
+- coverage: {"打新": true, "挖矿": true, "台子": true, "GO": true, "LZ": true, "Elysium": true, "Tape": true, "BTC": true, "Starknet": true, "GIWA": true, "Zero": true, "DogeEVM": true}
+- summary: 03:05CST雷达：新收TapeOracle、RUNECLAW；≤2h Trac RESET agent挖矿、Fables激励开放。见 https://reboot7454.github.io/early-scout/
+- skip: Blockchain Titans(Ord Dropz 10k sats mint中)项目无独立推特未收；NIGHTSHIFT($SHIFT已存在,仅更新)未收；GH0ST onchain LLM(@llmgh0st 12粉)DS score admit=false未收；Updraft(DRAFT Elysium测试网)无项目推特未收；ElysiumEco为非官方社区号未收；GTE/Bullish/defined/TrueNorth 为KOL列Zero Open ATLAS首发venue但官方未点名，未核验未收；WecSats OG pass无项目handle未收；RuneLab(1粉)/Autodev(2粉)/StocksRoblox(3粉)过薄未收；gloomy-cats/inkdead/fomies/torchpad/rebate-launch/nogas-sui/ammora/vaultstreet已在库；GO盘本轮无新信号；KeepOut perpme/branchpoint/outrive
+- enrich: trac-reset(BTC区块头挖矿3.125/块)；ascendlaunch(WL+$20k赛+Updraft)；kalosfun；embervale(EMBER已上线)；fomopoly；tapeout-market 2.0；elytra-nft；conso；monko-mania；pabalx；Canton/Glaze/TokenWorks/paperbird soft refresh
+- dsNote: admit一次成功；score 4+4分批时第2批JSON截断，改每批2条成功；llmgh0st score admit=false按保守不收；文案首次思考吃光token，max_tokens=8000重跑成功
+- concurrency: 本轮期间另一会话推了1e21152(user-named agent-kinetiq)，已保留未覆盖
