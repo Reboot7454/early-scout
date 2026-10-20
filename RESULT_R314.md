@@ -1,0 +1,23 @@
+# RESULT R314
+
+- round: 314
+- notify: true
+- alertMessage: 22:00CST雷达：新增 Loot Rush（RH免费Chapter1已开）、Pabal（GIWA GASOK赛马测试网）、Project Sphere（Genesis登记+Free WL）、Pocket Dragons（CollectFi即将mint）。近2h窗口：Vault II GTD已开；Hell Brats≈22:00 FREE；TreasureMap $MAP 22:00/Game 22:30；inkwards 22:00；TERMINAL 404≈22:50；INK SIGIL 23:00。附：TapeAI检察官电路约3分钟售罄8888。面板 https://reboot7454.github.io/early-scout/
+- newIds: lootrush-rh, pabalx, project-sphere, pocket-dragons
+- le2h: Vault II GTD LIVE(官推21:46CST); Hell Brats OG≈22:00CST FREE(官推确认14:00UTC); TreasureMap $MAP 22:00 / Game 22:30CST(网站维护中); inkwards 22:00CST; TERMINAL 404 mint≈22:50CST; INK SIGIL 23:00CST; inkdead PUBLIC≈23:00CST(第三方待核实); cosmic-hitchhikers HOLDER≈23:00CST; ptsd-show FCFS Priority≈23:00CST; DegenSkulls WL≈23:45CST; Igneum GPU测试网挖矿 LIVE; Summon RH发推发币 LIVE; Chimp Champs RH testnet beta LIVE; TapeCat 贡献者申请期 LIVE; CyborgPunks PUBLIC LIVE; Jimmy OrdDropz LIVE; StarkLaunchy 发币台 LIVE; BunnyPad testnet LIVE; GRIZZLE/GRUB/VILLAIN LIVE; Kasseal Kaspa测试网 LIVE; DogeOS Grand Heist Ch2 LIVE; YeonPad/Ammora/Pabal GIWA测试网 LIVE(新Pabal); Loot Rush Chapter1 early-access LIVE(新)
+- tonight: Embervale 代币+游戏 00:00CST; Bramble今日待时刻(仍未锁); EMERGENCE mint 10-21 23:00CST; Jumak Genesis WL 10-21 19:00CST截止; TapeCat流片 10-21 20:00CST; esccap FREE 10-21 23:00CST; InkVenom WL申请≈至10-21 16:54CST; Furrbit 10-21开(钟点待核实); Ink Pirates 10-22 01:00CST; CONSO BOTS 10-22 23:00CST; Kasseal主网11-01; Zero主网+lzATLAS 2026-11-30; Elysium主网 2026-11-09; DogeOS黑客松截止11-06; GEKKO DogeOS水龙头「几小时内」
+- giwaWatch: R314 新收pabalx(GASOK赛马)；yeon/jumak/ammora续；ShortChall/SuperWalk无链上打新窗口skip；官推无新点名；lastChecked 2026-10-20 22:00 CST
+- zeroWatch: R314 LZ续更Open ATLAS十余venues+机构测；未新点名生态项目；自称Zero台子仍未核验；lastChecked 2026-10-20 22:00 CST
+- dogeEvmWatch: R314 DogeOSExchange(78粉build中)DS skip；GEKKO水龙头几小时内；Grand Heist Ch2续；生态页无新可核官推；lastChecked 2026-10-20 22:00 CST
+- elysiumWatch: R314 eco页复核无新On testnet/Announced可收缺口(Dex Da Costa/MarketLab/HexSwap/Elysian Fields/True Markets无独立官推)；KeepOut perpme/branchpoint/outrive；主网11-09；lastChecked 2026-10-20 22:00 CST
+- tapeWatch: R314 TapeAI≈3min售罄8888；ZeroTapeOut会员卡21:30截止已过；最优矿池接收至10-25；TapeCat流片仍10-21 20:00；lastChecked 2026-10-20 22:00 CST
+- starknetWatch: R314 Bramble仍未锁；@Starknet无新点名；lastChecked 2026-10-20 22:00 CST
+- btcWatch: R314 ShieldedNaka/banknotes续扫无新admit；lastChecked 2026-10-20 22:00 CST
+- pushOk: (pending)
+- commit: (pending)
+- discordPeekDeferred: true
+- dsFallback: false（score分批重试成功，非本地fallback）
+- coverage: 打新/挖矿/台子/GO/LZ/Elysium/Tape/BTC/Starknet/GIWA/Zero/DogeEVM all True
+- summary: 22:00CST新增项目与近2h窗口已列，详情见 https://reboot7454.github.io/early-scout/
+- skip: dogeos-exchange(DS overall40未官推)skip；shortchall(无链上窗口)skip；parlay-launchpad(0粉)skip；superwalk(成熟M2E overall45)skip；elysium缺口无推特；KeepOut perpme/branchpoint/outrive；Zero自称台子维持未核验；GO盘本轮无新信号；enter-the-anime/temrush/hoods-held-high已在库
+- enrich: TapeAI售罄；Vault GTD LIVE；Hell Brats确认22:00CST；TreasureMap时间不变+维护；TERMINAL404 22:50；ZeroTapeOut截止已过；ink-sigil/inkwards/jumak/emergence/bramble/gekko/zero-chain/atlas续；Canton/Glaze/TokenWorks/paperbird soft refresh；discordPeekDeferred
