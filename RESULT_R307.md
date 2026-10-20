@@ -5,8 +5,8 @@
 - alertMessage: 新增TapeCat/STATIC；LIVE：Cyborg FREE、Arcade、CashWhiskers、Haven、HOODBITZ、SixtyJiazi、ordinalsbid、STOX、BISH AL、STATIC；今晚TapeCat流片≈20:00、Furrbit≈17:00、Breath WL≈21:00、TapeAI/Bramble待；Elysium主网2026-11-09；面板 https://reboot7454.github.io/early-scout/。
 - newIds: tapecat, static-air
 - le2h: CyborgPunks FREE LIVE→PUBLIC≈17:00后; ArcadeHood PUBLIC LIVE; CashWhiskers PUBLIC LIVE; Haven Card OPEN; HOODBITZ minting; SixtyJiazi OrdDropz LIVE; ordinalsbid $ORDINALS; STOX RH LIVE; BISH AL LIVE; STATIC LIVE
-- pushOk: pending
-- commit: pending
+- pushOk: true
+- commit: 40d55f3e913ccba27534bd3e0282b0a04650d012
 - discordPeekDeferred: true
 - dsFallback: false
 - coverage: 打新/挖矿/台子/GO/LZ/Elysium/Tape/BTC/Starknet all True
@@ -16,4 +16,4 @@
 - enrich: Breath WL≈21:00CST确认且申请已关; TapeAI幸运数字空投规则+Mint待时刻; Bramble Today未锁; Cyborg FREE LIVE; TapeFour官推迁TapeFourX; Canton/Glaze/TokenWorks refresh; 000dotfun lzVerified
 - localFiles: /workspace/early-scout/data.json ; RESULT_R307.md ; ROUND307_RESULT.json
 
-- push: pending
+- push: git push main → 40d55f3
