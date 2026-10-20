@@ -1,0 +1,24 @@
+# RESULT R323
+
+- round: 323
+- notify: true
+- alertMessage: 07:05CST雷达：新收Flare Pad（Solana/RH发射台，9粉，$Flare CA未核实）；BN Agent线续热，Ascend孵化器$250k。面板：https://reboot7454.github.io/early-scout/
+- newIds: ["flarepad"]
+- le2h: ["Flare Pad Solana/RH发射台刚发$Flare(新,9粉,CA未核实)", "$.ai BN Agent钱包币热度续(CA未核实)", "币安App Agent ID认领开放", ".AI(@dotaipad) BNB部署倒计时Soon", "Ascend Builder Incubator最高$250k官宣", "Elysium积分奖励提案投票进行中"]
+- kinetiqWatch: R323 Ascend官宣Builder Incubator最高$250k，@kinetiq_xyz/@Enter_Elysium回复e/acc；@Elysium_Eco积分奖励提案投票续；主网11-09。
+- agentPadWatch: R323 BN Agent续热：@.AI Soon部署TBA；$.ai/@yinghubnb叙事带动体验；@AWPADBSC仍0粉；@AgenticIDNFT(0粉1推BN Agent-only NFT)DS skip；新收@_Flarepad非BN线。
+- agentMiningWatch: R323 Trac RESET+fitzyOG续推Bitcoin block驱动agent挖矿与开源栈fork；无新agent挖矿admit。
+- giwaWatch: R323 @GIWA_by_Upbit无新推；Ammora/Pabalx waitlist刷分续；无新admit；lastChecked 2026-10-21 07:05 CST
+- zeroWatch: R323 @LayerZero_Core确认Zero+lzATLAS 11-30倒计时；Open ATLAS十余交易场所；无新LZ核验admit；lastChecked 2026-10-21 07:05 CST
+- dogeEvmWatch: R323 DogeOS Chapter2刷分续；GEKKO RH+DogeOS testnet发射续；无新admit；lastChecked 2026-10-21 07:05 CST
+- starknetWatch: R323 Bramble钱包已上线(Chrome扩展+STRK20隐私)；无新史塔克早期admit；lastChecked 2026-10-21 07:05 CST
+- btcWatch: R323 ShieldedNaka/banknotes无本时段新动作；Sixty Jiazi 6/60 mint续；无新BTC admit；lastChecked 2026-10-21 07:05 CST
+- tapeWatch: R323 TapeAI检察官空投已发；Blonskr称BNB NFT榜Tape占前三；无新Tape admit；lastChecked 2026-10-21 07:05 CST
+- elysiumWatch: R323 Ascend Incubator$250k；Elysium_Eco积分提案投票；主网11-09；KeepOut perpme/branchpoint/outrive；无新Elysium生态admit；lastChecked 2026-10-21 07:05 CST
+- xReads: 36
+- discordPeekDeferred: true
+- dsFallback: false
+- coverage: {"scout": true, "mining": true, "meme": true, "go": true, "lz": true, "elysium": true, "tape": true, "btc": true, "starknet": true, "giwa": true, "zero": true, "dogeevm": true, "bnagent": true}
+- summary: 07:05CST雷达：新收Flare Pad（Solana/RH发射台，9粉，$Flare CA未核实）；BN Agent线续热，Ascend孵化器$250k。面板：https://reboot7454.github.io/early-scout/
+- skip: AgenticIDNFT(0粉1推BN Agent-only NFT,无合约官网)DS admit=false；RWA ID(基建非最早)DS admit=false；awpad/pangu/Ammora/Gamapad/Pabalx/Elytra/Bitizens/Fomopoly/Rebate/VaultStreet/CONSO/Bramble/Trac已在库；GO盘本轮无新独立信号；KeepOut perpme/branchpoint/outrive
+- dsNote: score(含admit)一次成功3条；alert一次成功；whatsNew续更一次成功
