@@ -1,0 +1,24 @@
+# RESULT R315
+
+- round: 315
+- notify: true
+- alertMessage: 23:00CST雷达：新增 Ink Identity（Ink Freemint 2500，日程10-21+Wallet Checker明日）、Rack System（RH GPU Neocloud机架LIVE）。近2h：Hell Brats OG LIVE；Vault II GTD LIVE；TERMINAL 404 MINT LIVE FREE；INK SIGIL/inkdead≈23:00；Embervale≈00:00。面板 https://reboot7454.github.io/early-scout/
+- newIds: ink-identity, rack-system
+- le2h: Hell Brats OG LIVE(22:00CST FREE); Vault II GTD LIVE(+2/钱包); TERMINAL 404 MINT LIVE FREE(≈22:59CST；Public≈1h后); INK SIGIL mint≈23:00CST; inkdead PUBLIC≈23:00CST(第三方待核实); cosmic-hitchhikers HOLDER≈23:00CST; DegenSkulls WL≈23:45CST; Embervale 代币+游戏≈00:00CST(约1h); TreasureMap/inkwards 22:00窗应已开或刚过; Igneum GPU测试网挖矿 LIVE; TapeCat 贡献者申请期 LIVE; StarkLaunchy/BunnyPad/GRIZZLE/GRUB/VILLAIN LIVE; Kasseal Kaspa测试网 LIVE; DogeOS Grand Heist Ch2 LIVE; YeonPad/Ammora/Pabal GIWA测试网 LIVE; Rack System GPU机架 LIVE(新); Loot Rush Chapter1 early-access LIVE
+- tonight: Embervale 代币+游戏 00:00CST; Bramble今日待时刻(仍未锁); Ink Identity mint 10-21(新；钟点TBA)+Wallet Checker明日; EMERGENCE mint 10-21 23:00CST; Jumak Genesis WL 10-21 19:00CST截止; TapeCat流片 10-21 20:00CST; esccap FREE 10-21 23:00CST; InkVenom WL申请≈至10-21 16:54CST; Furrbit 10-21开(钟点待核实); VaultStreet Early 10-22 / Public 10-23; Ink Pirates 10-22 01:00CST; CONSO BOTS 10-22 23:00CST; Cloaked Entities mint≈10-30; Kasseal主网11-01; Zero主网+lzATLAS 2026-11-30; Elysium主网 2026-11-09; DogeOS黑客松截止11-06; GEKKO DogeOS水龙头「几小时内」
+- giwaWatch: R315 yeon/jumak/ammora/pabal续；giwaup WL复核续；官推无新点名；lastChecked 2026-10-20 23:00 CST
+- zeroWatch: R315 LZ续Open ATLAS+机构测；主网11-30不变；自称Zero台子仍未核验；lastChecked 2026-10-20 23:00 CST
+- dogeEvmWatch: R315 Grand Heist Ch2续；GEKKO水龙头几小时内+TSLA对；Monko Mania续；无新admit；lastChecked 2026-10-20 23:00 CST
+- elysiumWatch: R315 eco页复核(至≈22:57CST/2:57PM UTC)无新On testnet/Announced可收且带推特缺口；KeepOut perpme/branchpoint/outrive；主网11-09；lastChecked 2026-10-20 23:00 CST
+- tapeWatch: R315 TapeAI售罄后交易核对；TapeCat流片仍10-21 20:00；ZeroTapeOut会员卡已截止；最优矿池至10-25；lastChecked 2026-10-20 23:00 CST
+- starknetWatch: R315 Bramble仍未锁；@Starknet量子/Katalyst无新打新点名；lastChecked 2026-10-20 23:00 CST
+- btcWatch: R315 ShieldedNaka/banknotes续扫无新admit；lastChecked 2026-10-20 23:00 CST
+- pushOk: PENDING
+- dataCommits: PENDING
+- commit: PENDING
+- discordPeekDeferred: true
+- dsFallback: false（admit+score+alert均DS成功，非本地fallback）
+- coverage: 打新/挖矿/台子/GO/LZ/Elysium/Tape/BTC/Starknet/GIWA/Zero/DogeEVM all True
+- summary: 23:00CST雷达：新增 Ink Identity（Ink Freemint 2500，日程10-21+Wallet Checker明日）、Rack System（RH GPU Neocloud机架LIVE）。近2h：Hell Brats OG LIVE；Vault II GTD LIVE；TERMINAL 404 MINT LIVE FREE；INK SIGIL/inkdead≈23:00；Embervale≈00:00。面板 https://reboot7454.github.io/early-scout/
+- skip: moths-rh(DS score overall38 admit:false)skip；pongold(无明确mint窗)skip；squink(仅soon无钟点)skip；elysium缺口无推特；KeepOut perpme/branchpoint/outrive；Zero自称台子维持未核验；GO盘本轮无新独立信号；ink-nutters/giwaup/cloaked-entities已在库仅enrich
+- enrich: Hell Brats OG LIVE；Vault II GTD+2/钱包；TERMINAL404 LIVE；TapeAI售罄后核对；TapeCat/Embervale/Bramble/GEKKO/DogeOS/Zero/Elysium/Jumak/Yeon/ink-nutters/giwaup/cloaked-entities/ink-sigil/inkwards/emergence续；Canton/Glaze/TokenWorks/paperbird soft refresh；discordPeekDeferred
