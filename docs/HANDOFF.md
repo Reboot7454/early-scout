@@ -51,8 +51,8 @@
 ## 6. 数据规则
 
 - `candidate.round` = **首次收录轮**（不变）。
-- 「本轮新」只认 `newThisRound` / `roundNAdded`；先清上一轮 `newThisRound`，再写本轮。
-- 新收录**必须有推特**；排期卡需 Twitter 链接。
+- 「本轮新」只认 `newThisRound` / `roundNAdded`；先清上一轮 `newThisRound`，再写本轮。**`meta.newThisRound` 必须改成当前 `meta.round` 的 id 列表**（与 `meta.roundNAdded` 相同），不要留下上一轮 id。
+- 新收录**必须有推特**。admit 时写 `links.x`（`https://x.com/<handle>` 或 `twitter.com`）。面板也认 `links.twitter` 里同样的主页 URL；只写 `links.twitter`、不写 `links.x` 时，旧面板会把卡片和该轮芯片一起滤掉。排期卡用同一条链接。
 - 全覆盖七栏与各链（ETH/Base/Solana/Ink/RH/Injective/**BTC**/Canton/X链 等），含 GPU/PoW、fair-launch、AI 发射、GO/AR、Tape/电路等——**同等努力**。
 
 ## 7. 通知

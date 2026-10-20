@@ -421,7 +421,7 @@
     if (soc.handle) handles.push(soc.handle);
     if (Array.isArray(soc.handles)) handles.push(...soc.handles);
     if (c.handle) handles.push(c.handle);
-    const x = (c.links && c.links.x) || "";
+    const x = twitterUrl(c);
     const m = String(x).match(/(?:x|twitter)\.com\/([A-Za-z0-9_]+)/i);
     if (m) handles.push(m[1]);
     return handles.some((h) => TAPE_HANDLES.has(String(h).replace(/^@/, "").toLowerCase()));
@@ -648,7 +648,7 @@
     const lzClass = lz ? "card-lz" : "";
     const focusClass = focus ? "card-focus" : "";
     const hasFlag = Boolean(flagClass);
-    const x = c.links?.x;
+    const x = twitterUrl(c);
     const site = c.links?.site;
     const riskLevelKey = String(c.riskLevel || "medium");
     // Dedup: category chip already shows zone name; never repeat it (or PLATFORM_CATS aliases) as extra tags.
@@ -762,10 +762,23 @@
     return blob.includes(q);
   }
 
+  /**
+   * Profile URL the panel treats as X/Twitter.
+   * Admit path should write links.x; links.twitter is accepted so a
+   * twitter-only admit (ordinalsbid / sixty-jiazi class) stays visible.
+   */
+  function twitterUrl(c) {
+    const links = (c && c.links) || {};
+    const candidates = [links.x, links.twitter];
+    for (const u of candidates) {
+      if (typeof u === "string" && u.length > 0 && /x\.com\/|twitter\.com\//i.test(u)) return u;
+    }
+    return "";
+  }
+
   /** Hard gate: a card is visible only with a real X/Twitter profile URL. */
   function hasTwitter(c) {
-    const x = c.links && c.links.x;
-    return typeof x === "string" && x.length > 0 && /x\.com\/|twitter\.com\//i.test(x);
+    return Boolean(twitterUrl(c));
   }
 
   function passesShared(c) {
@@ -908,7 +921,7 @@
   function focusMiniHtml(c) {
     const why = escapeHtml((c.whyWatch || c.oneLiner || "").slice(0, 90));
     const chain = escapeHtml(canonicalChain(c.chain) || "—");
-    const xUrl = (c.links && (c.links.twitter || c.links.x)) || "";
+    const xUrl = twitterUrl(c);
     const site = (c.links && (c.links.website || c.links.site)) || "";
     const x = xUrl
       ? `<a href="${escapeHtml(xUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">X</a>`
@@ -941,7 +954,7 @@
 
   function favMiniHtml(c) {
     const chain = escapeHtml(canonicalChain(c.chain) || "—");
-    const xUrl = (c.links && (c.links.twitter || c.links.x)) || "";
+    const xUrl = twitterUrl(c);
     const sched = scheduleChip(c);
     const why = escapeHtml((c.whyWatch || c.oneLiner || "").slice(0, 72));
     const xLink = xUrl
@@ -1080,7 +1093,7 @@
     listHost.innerHTML = items
       .map((c) => {
         const s = c.schedule;
-        const xUrl = (c.links && c.links.x) || "";
+        const xUrl = twitterUrl(c);
         let when = "";
         let delta = 0;
         if (s.status === "pause") {
@@ -1317,16 +1330,20 @@
 
   function miningRowHtml(c) {
     const score = c.scores?.overall ?? c.earlyScore ?? "—";
-    const x = c.links?.x
-      ? `<a href="${escapeHtml(c.links.x)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">X</a>`
+    const xUrl = twitterUrl(c);
+    const x = xUrl
+      ? `<a href="${escapeHtml(xUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">X</a>`
       : "";
     const site = c.links?.site
       ? `<a href="${escapeHtml(c.links.site)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">站点</a>`
       : "";
     const why = escapeHtml((c.whyWatch || "").slice(0, 72));
+    const newBadge = isNewThisRound(c)
+      ? '<span class="whats-new-badge" style="margin-left:6px;vertical-align:middle">本轮新</span>'
+      : "";
     return `<div class="mining-row" data-id="${escapeHtml(c.id)}" title="${why}">
       ${favBtnHtml(c.id)}
-      <div class="mining-row-name">${escapeHtml(c.name)}</div>
+      <div class="mining-row-name">${escapeHtml(c.name)}${newBadge}</div>
       <div class="mining-row-meta">${escapeHtml(canonicalChain(c.chain))}</div>
       <span class="mining-row-type">${escapeHtml(miningTypeLabel(c))}</span>
       <span class="mining-row-score">${escapeHtml(String(score))}</span>
