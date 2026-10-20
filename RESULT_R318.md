@@ -1,0 +1,24 @@
+# RESULT R318
+
+- round: 318
+- notify: true
+- alertMessage: 02:05CST雷达：新增 Monko Mania(DogeOS测试网)、vibe/vibe(RH测试网)、opta.(Solana devnet)、JPEG JUNKIES 免费mint 等6项，3项近2小时已上线，见 https://reboot7454.github.io/early-scout/
+- newIds: ["monko-mania", "vibevibe-fun", "aikols", "opta-finance", "jpeg-junkies-rh", "good-vibes-moods"]
+- le2h: ["Monko Mania DogeOS测试网LIVE(新)", "opta Solana devnet epoch0任务LIVE(新)", "vibe/vibe RH测试网5%供应LIVE(新)", "JPEG JUNKIES RH holders免费mint(01:00起1h)", "fomopoly×rarelist活动LIVE", "pabalx GIWA测试网赛马季前赛", "StarkLaunchy接入Bramble", "GEKKO DogeOS Pioneer Rewards LIVE", "Igneum GPU测试网挖矿 LIVE"]
+- tonight: ["Ink Pirates 10-22 01:00CST", "Ink Identity mint 10-21(钟点TBA)", "Jumak Genesis WL 10-21 19:00CST截止", "TapeCat流片 10-21 20:00CST", "EMERGENCE mint 10-21 23:00CST", "esccap FREE 10-21 23:00CST", "Shielded Ordinals新mint≈10-23", "VaultStreet Early 10-22 / Public 10-23", "CONSO BOTS 10-22 23:00CST", "Cloaked Entities mint≈10-30", "Kasseal主网11-01", "DogeOS黑客松截止11-06", "Elysium主网 2026-11-09", "Zero主网+lzATLAS 2026-11-30"]
+- giwaWatch: R318 @GIWA_by_Upbit无新推；pabalx测试网赛马季前赛开放；Ammora waitlist刷量续；无新admit；lastChecked 2026-10-21 02:05 CST
+- zeroWatch: R318 @LayerZero_Core无新推；媒体续报Zero主网+lzATLAS 11-30(Open ATLAS十余交易场所)；无新已核验Zero生态项目；lastChecked 2026-10-21 02:05 CST
+- dogeEvmWatch: R318 新收MONKO/Monko Mania(DogeOS测试网刷分领$MONKO)；GEKKO Pioneer Rewards续；lastChecked 2026-10-21 02:05 CST
+- elysiumWatch: R318 @Enter_Elysium无新推；社区科普帖；无新On testnet/Announced可收；KeepOut perpme/branchpoint/outrive；主网11-09；lastChecked 2026-10-21 02:05 CST
+- tapeWatch: R318 TapeAI/TapeOutWorld/BEMGoGoGo/tapeupio/FirstoAI无新推；TapeCat流片10-21 20:00；lastChecked 2026-10-21 02:05 CST
+- starknetWatch: R318 StarkLaunchy接入Bramble+新增STRK/ZEC/strkBTC发射配对；无新Starknet打新点名；lastChecked 2026-10-21 02:05 CST
+- btcWatch: R318 Shielded Ordinals freakshow约2天后mint续(项目推特待核)；UNSEEN RGB 300免费名额；Baby Seals WL续；无新BTC admit；lastChecked 2026-10-21 02:05 CST
+- pushOk: true
+- commit: 3dd6e35
+- discordPeekDeferred: true
+- dsFallback: false
+- coverage: {"打新": true, "挖矿": true, "台子": true, "GO": true, "LZ": true, "Elysium": true, "Tape": true, "BTC": true, "Starknet": true, "GIWA": true, "Zero": true, "DogeEVM": true}
+- summary: 02:05CST雷达：新增 Monko Mania(DogeOS测试网)、vibe/vibe(RH测试网)、opta.(Solana devnet)、JPEG JUNKIES 免费mint 等6项，3项近2小时已上线，见 https://reboot7454.github.io/early-scout/
+- skip: InkDoodies(1735粉0关注疑刷号,10-21 18:00CST free)未收；Hashlings/RebateLaunch/fomopoly/pabalx/blast-fun-sui/nogas-sui/conso/baby-seals-crc/unseen-ordo/ignition-rh/toll-xyz已在库；Keryx($KRX GPU proof-of-model)项目推特未核待下轮；Amadeus uPoW刷量推未收；Spawnly/Agent Wyrm/Trenchcorn/OSAI等RH低质未收；GO盘本轮无新信号；KeepOut perpme/branchpoint/outrive
+- enrich: StarkLaunchy配对+Bramble；pabalx季前赛；fomopoly×rarelist；UNSEEN RGB；Canton/Glaze/TokenWorks/paperbird soft refresh
+- dsNote: ds_batch_score整批两次JSON截断，改分两批调用成功
