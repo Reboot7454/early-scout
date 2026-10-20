@@ -6,7 +6,7 @@
 - newIds: fillout-rh
 - le2h: CannaCats GTD≈08:25CST; ArcadeHood PUBLIC LIVE; CashWhiskers PUBLIC LIVE; Haven Card OPEN; HOODBITZ minting
 - pushOk: true
-- commit: ca1df6a3f69c33c0d212329c8b25b376e0cefad6
+- commit: 53e2df20a0dc6e7239014ded72ca54f4c9ebb045
 - discordPeekDeferred: true
 - dsFallback: false
 - coverage: 打新/挖矿/台子/GO/LZ/Elysium/Tape/BTC/Starknet all True
@@ -14,5 +14,5 @@
 - skip: DexDaCosta/BunnyPad/HexSwap/MarketLab无可靠独立官推skip；SiliconFission/SnapVault仅个人号skip；tapeoutcf勿重复；KeepOut perpme/branchpoint/outrive持
 - elysiumMainnet: 2026-11-09 confirmed unchanged
 - enrich: tapeai粉3004今日mint待时刻；bramble今日待时刻；haven/hood-bitz/arcade/cashwhiskers/cannacats LIVE；000dotfun lzVerified；oreos补@useOreOS；shielded-dog public soon；0-0.city T0-0KEN；Canton/Glaze/TokenWorks refresh
-- push: git push main → ca1df6a (data.json+RESULT)
+- push: git push main → 53e2df2 (RESULT tip; data ca1df6a)
 - localFiles: /workspace/early-scout/data.json ; RESULT_R301.md ; ROUND301_RESULT.json
