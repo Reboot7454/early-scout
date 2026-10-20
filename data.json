@@ -1,10 +1,10 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-20 18:10 CST",
+    "updated": "2026-10-20 18:15 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
-    "source": "R311 full scout X+Elysium eco+DS；Discord deferred",
+    "source": "R311 full scout X+Elysium eco+DS；Discord deferred；peek-screenshot-2026-10-20 gap-fill +4",
     "lastScout": "2026-10-20 18:10 CST",
     "round3Added": [
       "standard-launchpad",
@@ -367,7 +367,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 822,
+    "candidateCount": 826,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -679,10 +679,10 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "igneum",
-      "chimp-champs",
-      "summon-fun",
-      "tinu"
+      "elysium-pump",
+      "litpump",
+      "combo-cash",
+      "sprite-agent"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1947,7 +1947,49 @@
       "btc": true,
       "starknet": true
     },
-    "skipNoteR311": "GigaLegends(无mint/粉结构可疑)DS skip；Zirplus无激励DS skip；Carve纯概念DS skip；vibe/vibe(83万粉)/Argus(1.8万)/Umbra(3.7万)非极早期；MonkeyGang号已封；Claybound/Terrarift 0粉；Ordinals Soapbox Rally仍无官推；HexSwap/MarketLab/DexDaCosta/Elysian Fields/On-chain poker无独立推特；KeepOut perpme/branchpoint/outrive持"
+    "skipNoteR311": "GigaLegends(无mint/粉结构可疑)DS skip；Zirplus无激励DS skip；Carve纯概念DS skip；vibe/vibe(83万粉)/Argus(1.8万)/Umbra(3.7万)非极早期；MonkeyGang号已封；Claybound/Terrarift 0粉；Ordinals Soapbox Rally仍无官推；HexSwap/MarketLab/DexDaCosta/Elysian Fields/On-chain poker无独立推特；KeepOut perpme/branchpoint/outrive持",
+    "peekScreenshotGapfill20261020": {
+      "at": "2026-10-20 18:15 CST",
+      "source": "peek-screenshot-2026-10-20",
+      "screenshotAt": "2026-10-20 17:54 CST",
+      "added": [
+        "elysium-pump",
+        "litpump",
+        "combo-cash",
+        "sprite-agent"
+      ],
+      "clearedNewThisRound": [
+        "igneum",
+        "chimp-champs",
+        "summon-fun",
+        "tinu"
+      ],
+      "alreadyPresent": [
+        "stox(@STOXPREPS R304)"
+      ],
+      "unverified": [
+        {
+          "name": "Earthpad",
+          "reason": "X未找到官推；仅见pump.fun代币$EARTHPAD CA 2fSrvy9NUi4m9LEnshZEgCz2SdtiJ9C5wjQBJEBKpump(Solana,dexscreener建池2026-10-20 17:49 CST)，大量喊单号；@earthpad/@earth_pad为无关个人号；earthpad.xyz为停放域名；未收录"
+        },
+        {
+          "name": "Shift",
+          "reason": "订单簿流动性管理协议，X未找到对应官推(@shift/@Shift_fi/@shift_lp/@ShiftProtocol均无关，@shiftxyz已封)；未收录"
+        },
+        {
+          "name": "VirtuOS",
+          "reason": "meme永续发行平台，X未找到对应官推；@VirtuosFI(virtuos.finance,资本路由界面,10粉)描述不符，未采用；未收录"
+        }
+      ],
+      "headlineNotAdmitted": [
+        "Keyfleet(@keyfleet 13粉 AI swarms $fleet，Peek S级热度，未在本次补漏清单)",
+        "The Order of Steering(未查到官推)",
+        "TheCollectorGroup(智钱热度榜，禁照搬)",
+        "Giga Legends(R311已DS skip)"
+      ],
+      "elysiumDecision": "Elysium Pump 未列 elysium.kinetiq.xyz/ecosystem(2026-10-20 18:11 CST核对)，仅自称强制打包部署，不满足On testnet/Announced → 台子/Meme HyperEVM",
+      "note": "KeepOut perpme/branchpoint/outrive持；000dotfun lzVerified=true持"
+    }
   },
   "candidates": [
     {
@@ -1971,7 +2013,7 @@
       "followers": 10,
       "status": "watching",
       "round": 311,
-      "newThisRound": true,
+      "newThisRound": false,
       "focus": false,
       "lzVerified": false,
       "mintStatus": "live",
@@ -2050,7 +2092,7 @@
       "followers": 458,
       "status": "watching",
       "round": 311,
-      "newThisRound": true,
+      "newThisRound": false,
       "focus": false,
       "lzVerified": false,
       "mintStatus": "live",
@@ -2130,7 +2172,7 @@
       "followers": 15,
       "status": "watching",
       "round": 311,
-      "newThisRound": true,
+      "newThisRound": false,
       "focus": false,
       "lzVerified": false,
       "mintStatus": "live",
@@ -2209,7 +2251,7 @@
       "followers": 755,
       "status": "watching",
       "round": 311,
-      "newThisRound": true,
+      "newThisRound": false,
       "focus": false,
       "lzVerified": false,
       "mintStatus": "upcoming",
@@ -60911,12 +60953,311 @@
       "whatsNew": "官推新建并自称Elysium首个NFT合集，但细节仍仅停留在预告。",
       "score": 57,
       "earlyScore": 88
+    },
+    {
+      "id": "elysium-pump",
+      "name": "Elysium Pump",
+      "twitter": "@ElysiumPump",
+      "handle": "@ElysiumPump",
+      "category": "台子/Meme",
+      "chain": "HyperEVM",
+      "ecosystem": "Hyperliquid",
+      "zoneOf": null,
+      "tags": [
+        "台子/Meme",
+        "Launchpad",
+        "Meme",
+        "HyperEVM",
+        "极早期",
+        "Peek补漏",
+        "本轮新"
+      ],
+      "followers": 10,
+      "status": "watching",
+      "round": 311,
+      "newThisRound": true,
+      "focus": false,
+      "lzVerified": false,
+      "mintStatus": "live",
+      "source": "peek-screenshot-2026-10-20 (Discord alpha/Peek 2026-10-20 17:54 CST) + X @ElysiumPump verified via x MCP",
+      "whyWatch": "Peek补漏：10-20新号(14:17 CST建)，自称Kinetiq HyperEVM L2首个发币台；称已经HyperEVM官方inbox强制打包把Uniswap V3+launchpad+首币Agent K排队到推测的Elysium主网(chain 99901)。未列 elysium.kinetiq.xyz/ecosystem，非官方，故不进Elysium栏，归台子/Meme(HyperEVM)。",
+      "background": "Elysium Pump：elysiumpump.com；30 HYPE起始市值、1%费50/50创作者/平台、LP永久锁(官推)。首币Agent K CA 0xcceeedb7f7f6fb96451789900bc73937f43d9b6f(官推)。官推自承chain 99901 Kinetiq未公开确认。",
+      "links": {
+        "x": "https://x.com/ElysiumPump",
+        "twitter": "https://x.com/ElysiumPump",
+        "signal": "https://x.com/ElysiumPump/status/2112430126764028201"
+      },
+      "social": {
+        "twitter": "@ElysiumPump"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "live",
+        "startsAt": "2026-10-20T07:49:00Z",
+        "note": "官推10-20 15:49 CST称launchpad合约已部署+首币；交易需等Elysium批次落地执行；chain 99901未经Kinetiq确认；高风险DYOR",
+        "source": "X @ElysiumPump",
+        "phases": []
+      },
+      "risk": 70,
+      "riskLevel": "high",
+      "riskScore": 70,
+      "flag": null,
+      "addedAt": "2026-10-20 18:15 CST",
+      "firstSeen": "2026-10-20 18:15 CST",
+      "lastChecked": "2026-10-20 18:15 CST",
+      "scores": {
+        "early": 92,
+        "actionable": 45,
+        "novelty": 80,
+        "risk": 70,
+        "overall": 62
+      },
+      "highlights": [
+        "10-20新号，极早期",
+        "自称Elysium主网首个发币台，提前排队部署",
+        "费率/LP锁规则已公开"
+      ],
+      "drawbacks": [
+        "未列Elysium官方生态页，非官方",
+        "chain 99901未经Kinetiq确认，官推自称有1%风险",
+        "需桥HYPE到未公开链，资金风险高",
+        "粉丝仅10"
+      ],
+      "whatsNew": "【Peek补漏】HyperEVM/Elysium抢跑发币台，官推称合约已排队上链，未获官方生态页收录。",
+      "score": 62,
+      "earlyScore": 92,
+      "peekSource": "peek-screenshot-2026-10-20"
+    },
+    {
+      "id": "litpump",
+      "name": "litpump",
+      "twitter": "@litpump_",
+      "handle": "@litpump_",
+      "category": "台子/Meme",
+      "chain": "LitVM",
+      "ecosystem": "LitVM",
+      "zoneOf": null,
+      "tags": [
+        "台子/Meme",
+        "Launchpad",
+        "Meme",
+        "LitVM",
+        "测试网",
+        "Peek补漏",
+        "本轮新"
+      ],
+      "followers": 47,
+      "status": "watching",
+      "round": 311,
+      "newThisRound": true,
+      "focus": false,
+      "lzVerified": false,
+      "mintStatus": "live",
+      "source": "peek-screenshot-2026-10-20 (Discord alpha/Peek 2026-10-20 17:54 CST) + X @litpump_ verified via x MCP",
+      "whyWatch": "Peek补漏：LitVM(Litecoin VM) LiteForge测试网首个meme发币台；bonding curve+防狙击+50%创作者费+自动迁移DEX；参与Arkada LiteForge Pioneer任务(LitPT积分)。",
+      "background": "litpump：litpump.fun；官推2026-05-24建，05-27称LIVE(first memecoin launchpad on @LitecoinVM)；07-20称加入Arkada LiteForge Location 4 任务。",
+      "links": {
+        "x": "https://x.com/litpump_",
+        "twitter": "https://x.com/litpump_",
+        "signal": "https://x.com/litpump_/status/2059545201480204447"
+      },
+      "social": {
+        "twitter": "@litpump_"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "live",
+        "startsAt": "2026-05-27T08:00:15Z",
+        "note": "LIVE于LitVM测试网(官推05-27 16:00 CST)；Arkada LitPT任务；无代币/主网时间",
+        "source": "X @litpump_",
+        "phases": []
+      },
+      "risk": 40,
+      "riskLevel": "medium",
+      "riskScore": 40,
+      "flag": null,
+      "addedAt": "2026-10-20 18:15 CST",
+      "firstSeen": "2026-10-20 18:15 CST",
+      "lastChecked": "2026-10-20 18:15 CST",
+      "scores": {
+        "early": 60,
+        "actionable": 55,
+        "novelty": 50,
+        "risk": 40,
+        "overall": 56
+      },
+      "highlights": [
+        "LitVM首个meme发币台，测试网可交互",
+        "防狙击+50%创作者费",
+        "Arkada任务LitPT积分"
+      ],
+      "drawbacks": [
+        "已上线近5个月，不算极新",
+        "粉丝47，官推8条，活跃度低",
+        "测试网积分价值不明"
+      ],
+      "whatsNew": "【Peek补漏】LitVM测试网发币台，防狙击联合曲线，可刷Arkada LitPT。",
+      "score": 56,
+      "earlyScore": 60,
+      "peekSource": "peek-screenshot-2026-10-20"
+    },
+    {
+      "id": "combo-cash",
+      "name": "combo",
+      "twitter": "@pairwithcombo",
+      "handle": "@pairwithcombo",
+      "category": "台子/Meme",
+      "chain": "Solana",
+      "ecosystem": "Solana",
+      "zoneOf": null,
+      "tags": [
+        "台子/Meme",
+        "Launchpad",
+        "Meme",
+        "Solana",
+        "代币化股票",
+        "极早期",
+        "Peek补漏",
+        "本轮新"
+      ],
+      "followers": 7,
+      "status": "watching",
+      "round": 311,
+      "newThisRound": true,
+      "focus": false,
+      "lzVerified": false,
+      "mintStatus": "live",
+      "source": "peek-screenshot-2026-10-20 (Discord alpha/Peek 2026-10-20 17:54 CST) + X @pairwithcombo verified via x MCP",
+      "whyWatch": "Peek补漏：10-19新号；Solana meme发射台，可把币与多只代币化股票/加密资产篮子配对(首个combo MAG7)，用SOL一签买入。",
+      "background": "combo：combo.cash；官推10-20 05:02 CST称live，$COMBO与MAG7(七只代币化股票)配对。",
+      "links": {
+        "x": "https://x.com/pairwithcombo",
+        "twitter": "https://x.com/pairwithcombo",
+        "signal": "https://x.com/pairwithcombo/status/2112288344306589731"
+      },
+      "social": {
+        "twitter": "@pairwithcombo"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "live",
+        "startsAt": "2026-10-19T21:02:40Z",
+        "note": "combo is live(官推10-20 05:02 CST)；首个combo MAG7；$COMBO已发",
+        "source": "X @pairwithcombo",
+        "phases": []
+      },
+      "risk": 50,
+      "riskLevel": "medium",
+      "riskScore": 50,
+      "flag": null,
+      "addedAt": "2026-10-20 18:15 CST",
+      "firstSeen": "2026-10-20 18:15 CST",
+      "lastChecked": "2026-10-20 18:15 CST",
+      "scores": {
+        "early": 90,
+        "actionable": 65,
+        "novelty": 78,
+        "risk": 50,
+        "overall": 71
+      },
+      "highlights": [
+        "10-19新号，极早期",
+        "meme+代币化股票篮子配对，玩法新",
+        "已LIVE可用"
+      ],
+      "drawbacks": [
+        "粉丝仅7",
+        "无积分/激励说明",
+        "代币化股票流动性与合规风险"
+      ],
+      "whatsNew": "【Peek补漏】Solana股票篮子配对发币台LIVE，首个MAG7。",
+      "score": 71,
+      "earlyScore": 90,
+      "peekSource": "peek-screenshot-2026-10-20"
+    },
+    {
+      "id": "sprite-agent",
+      "name": "Sprite",
+      "twitter": "@sprite_agent",
+      "handle": "@sprite_agent",
+      "category": "打新",
+      "chain": "Robinhood Chain",
+      "ecosystem": "Robinhood",
+      "zoneOf": null,
+      "tags": [
+        "打新",
+        "AI",
+        "Agent",
+        "Irys",
+        "RH",
+        "极早期",
+        "Peek补漏",
+        "本轮新"
+      ],
+      "followers": 156,
+      "status": "watching",
+      "round": 311,
+      "newThisRound": true,
+      "focus": false,
+      "lzVerified": false,
+      "mintStatus": "live",
+      "source": "peek-screenshot-2026-10-20 (Discord alpha/Peek 2026-10-20 17:54 CST) + X @sprite_agent verified via x MCP",
+      "whyWatch": "Peek补漏：10-14新号；Irys上的AI代理，对话存储链上备忘并在Robinhood Chain转账/交易；$SPRITE已发(Pons发射)。",
+      "background": "Sprite：irys-sprite.xyz；官推10-20 03:01 CST称$SPRITE live，CA 0x155d0bdcb0c17da07bf293763ab09bb93eb0b61e；第三方称dev钱包与Irys创始人@josh_benaron相同(未核实)。",
+      "links": {
+        "x": "https://x.com/sprite_agent",
+        "twitter": "https://x.com/sprite_agent",
+        "signal": "https://x.com/sprite_agent/status/2112257843629838378"
+      },
+      "social": {
+        "twitter": "@sprite_agent"
+      },
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "live",
+        "startsAt": "2026-10-19T19:01:28Z",
+        "note": "$SPRITE is now live(官推10-20 03:01 CST)；RH链；已开盘非打新窗口",
+        "source": "X @sprite_agent",
+        "phases": []
+      },
+      "risk": 55,
+      "riskLevel": "high",
+      "riskScore": 55,
+      "flag": null,
+      "addedAt": "2026-10-20 18:15 CST",
+      "firstSeen": "2026-10-20 18:15 CST",
+      "lastChecked": "2026-10-20 18:15 CST",
+      "scores": {
+        "early": 80,
+        "actionable": 50,
+        "novelty": 65,
+        "risk": 55,
+        "overall": 60
+      },
+      "highlights": [
+        "10-14新号，Irys生态AI代理",
+        "RH链链上动作+链上记忆叙事",
+        "有第三方关注(dev疑与Irys创始人关联,未核实)"
+      ],
+      "drawbacks": [
+        "$SPRITE已开盘，非一级",
+        "粉丝156",
+        "dev关联仅第三方说法"
+      ],
+      "whatsNew": "【Peek补漏】Irys AI代理$SPRITE已在RH链开盘。",
+      "score": 60,
+      "earlyScore": 80,
+      "peekSource": "peek-screenshot-2026-10-20"
     }
   ],
   "newThisRound": [
-    "igneum",
-    "chimp-champs",
-    "summon-fun",
-    "tinu"
+    "elysium-pump",
+    "litpump",
+    "combo-cash",
+    "sprite-agent"
   ]
 }
