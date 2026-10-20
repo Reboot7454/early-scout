@@ -5,8 +5,8 @@
 - alertMessage: 新增STOX/Pokemine/Conclave/Shaded；可操作：Cyborg WL≈11:00、CannaCats WL≈11:45、ArcadeHood/CashWhiskers LIVE、Haven卡、HOODBITZ、SixtyJiazi、ordinalsbid、STOX LIVE；TapeAI/Bramble今日待时刻；Elysium主网2026-11-09；面板 https://reboot7454.github.io/early-scout/。
 - newIds: stox, pokemine, conclave, shadedzk
 - le2h: CyborgPunks WL≈11:00CST; CannaCats WL≈11:45CST; ArcadeHood PUBLIC LIVE; CashWhiskers PUBLIC LIVE; Haven Card OPEN; HOODBITZ minting; SixtyJiazi OrdDropz LIVE; ordinalsbid $ORDINALS; STOX RH 1000x LIVE
-- pushOk: pending
-- commit: pending
+- pushOk: true
+- commit: 91a6d6589b3d96c86777920f9187ffe2c5a56fd7
 - discordPeekDeferred: true
 - dsFallback: false
 - coverage: 打新/挖矿/台子/GO/LZ/Elysium/Tape/BTC/Starknet all True
@@ -15,3 +15,5 @@
 - elysiumMainnet: 2026-11-09 confirmed unchanged
 - enrich: tapeai今日mint待时刻；bramble今日待时刻；haven OPEN；000dotfun lzVerified；XLayer×TapeOut≈20:00CST；Ascend Grants今日截PST；Canton/Glaze/TokenWorks refresh
 - localFiles: /workspace/early-scout/data.json ; RESULT_R304.md ; ROUND304_RESULT.json
+
+- push: git push main → 91a6d65
