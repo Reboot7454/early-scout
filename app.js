@@ -460,6 +460,16 @@
     );
   }
 
+  /** BN Agent 钱包 — dedicated 10th column (rightmost).
+   *  Admit: ecosystem / tags / chain contains "Binance Agent" / "BN Agent" / "Agent钱包" / "agentic wallet". */
+  function isBnAgent(c) {
+    if (!c) return false;
+    return textBlobOf(c, ["ecosystem", "tags", "chain"]).some((t) => {
+      const k = t.replace(/[\s_-]+/g, "");
+      return k.includes("binanceagent") || k.includes("bnagent") || k.includes("agent钱包") || k.includes("agenticwallet");
+    });
+  }
+
   /** Nine board columns (display order): 打新 | 挖矿 | 台子/Meme | GO盘 | LayerZero | Elysium | Tape/电路 | GIWA | DogeEVM.
    *  zoneOf priority: Elysium > GIWA > DogeEVM > Tape/电路 > LayerZero > mining > GO > 台子/Meme > 打新.
    *  Focus candidates are strip-only (excluded from columns via isFocus),
@@ -484,6 +494,7 @@
 
   function zoneOf(c) {
     if (isElysium(c)) return "elysium";
+    if (isBnAgent(c)) return "bnagent";
     if (isGiwa(c)) return "giwa";
     if (isDogeEvm(c)) return "dogeevm";
     if (isTape(c)) return "tape";
@@ -496,7 +507,7 @@
 
   /** Focus strip stays global. Elysium / Tape / GIWA / DogeEVM columns still render their focus cards. */
   function columnAllowsFocus(zone) {
-    return zone === "elysium" || zone === "tape" || zone === "giwa" || zone === "dogeevm";
+    return zone === "elysium" || zone === "tape" || zone === "giwa" || zone === "dogeevm" || zone === "bnagent";
   }
 
 
@@ -827,6 +838,8 @@
       if (!isTape(c)) return false;
     } else if (state.chain === "GIWA 生态") {
       if (!isGiwa(c)) return false;
+    } else if (state.chain === "BN Agent 钱包") {
+      if (!isBnAgent(c)) return false;
     } else if (state.chain === "DogeEVM 生态") {
       if (!isDogeEvm(c)) return false;
     } else if (state.chain !== "all" && !chainsMatch(c.chain, state.chain)) {
@@ -1201,14 +1214,16 @@
       `<button type="button" class="chip chip-ely" data-group="zoneJump" data-value="ely-panel">Elysium 生态</button>` +
       `<button type="button" class="chip chip-tape" data-group="zoneJump" data-value="tape-panel">Tape/电路</button>` +
       `<button type="button" class="chip chip-giwa" data-group="zoneJump" data-value="giwa-panel">GIWA</button>` +
-      `<button type="button" class="chip chip-doge" data-group="zoneJump" data-value="doge-panel">DogeEVM</button>`;
+      `<button type="button" class="chip chip-doge" data-group="zoneJump" data-value="doge-panel">DogeEVM</button>` +
+      `<button type="button" class="chip chip-bna" data-group="zoneJump" data-value="bna-panel">BN Agent 钱包</button>`;
 
     const elyCount = state.data.candidates.filter((c) => hasTwitter(c) && isElysium(c)).length;
     const tapeCount = state.data.candidates.filter((c) => hasTwitter(c) && isTape(c)).length;
     const giwaCount = state.data.candidates.filter((c) => hasTwitter(c) && isGiwa(c)).length;
     const dogeCount = state.data.candidates.filter((c) => hasTwitter(c) && isDogeEvm(c)).length;
+    const bnaCount = state.data.candidates.filter((c) => hasTwitter(c) && isBnAgent(c)).length;
     const rawChains = uniqueChains(state.data.candidates.filter(hasTwitter)).filter(
-      (ch) => ch !== "Elysium 生态" && ch !== "Tape/电路" && ch !== "GIWA 生态" && ch !== "DogeEVM 生态"
+      (ch) => ch !== "Elysium 生态" && ch !== "Tape/电路" && ch !== "GIWA 生态" && ch !== "DogeEVM 生态" && ch !== "BN Agent 钱包"
     );
     const chains = [
       { id: "all", label: "全部链" },
@@ -1216,6 +1231,7 @@
       { id: "Tape/电路", label: `Tape/电路 · ${tapeCount}`, cls: "chip-tape" },
       { id: "GIWA 生态", label: `GIWA · ${giwaCount}`, cls: "chip-giwa" },
       { id: "DogeEVM 生态", label: `DogeEVM · ${dogeCount}`, cls: "chip-doge" },
+      { id: "BN Agent 钱包", label: `BN Agent 钱包 · ${bnaCount}`, cls: "chip-bna" },
       ...rawChains.map((ch) => ({
         id: ch,
         label: ch,
@@ -1407,6 +1423,7 @@
     { id: "tape", grid: "#tape-grid", count: "#tape-count", label: "Tape/电路", cards: true },
     { id: "giwa", grid: "#giwa-grid", count: "#giwa-count", label: "GIWA", cards: true },
     { id: "dogeevm", grid: "#doge-grid", count: "#doge-count", label: "DogeEVM", cards: true },
+    { id: "bnagent", grid: "#bna-grid", count: "#bna-count", label: "BN Agent 钱包", cards: true },
   ];
 
   function emptyColumnHtml(label, zoneId) {
@@ -1421,6 +1438,9 @@
     }
     if (zoneId === "giwa") {
       return `<div class="empty empty-giwa"><div class="giwa-badge-lg">GIWA</div><div>暂无 GIWA 生态候选</div><div class="empty-sub">盯 GIWA 链 · Upbit L2 · 生态极早期</div></div>`;
+    }
+    if (zoneId === "bnagent") {
+      return `<div class="empty empty-bna"><div class="bna-badge-lg">BN</div><div>暂无 BN Agent 钱包候选</div><div class="empty-sub">盯币安 Agent 钱包专属内盘 · Agent ID 发射台</div></div>`;
     }
     if (zoneId === "dogeevm") {
       return `<div class="empty empty-doge"><div class="doge-badge-lg">DOGE</div><div>暂无 DogeEVM 候选</div><div class="empty-sub">盯 DogeEVM · Doge EVM 生态极早期</div></div>`;
@@ -1523,6 +1543,7 @@
     const tapePill = $("#tape-pill");
     const giwaPill = $("#giwa-pill");
     const dogePill = $("#doge-pill");
+    const bnaPill = $("#bna-pill");
     if (favPill) favPill.textContent = `收藏 · ${counts.fav.shown}`;
     if (focusPill) focusPill.textContent = `重点 · ${counts.focus.total}`;
     if (minePill) minePill.textContent = `挖矿 · ${counts.mining.total}`;
@@ -1532,6 +1553,7 @@
     if (tapePill) tapePill.textContent = `Tape/电路 · ${counts.tape.total}`;
     if (giwaPill) giwaPill.textContent = `GIWA · ${counts.giwa.total}`;
     if (dogePill) dogePill.textContent = `DogeEVM · ${counts.dogeevm.total}`;
+    if (bnaPill) bnaPill.textContent = `BN Agent 钱包 · ${counts.bnagent.total}`;
     $("#stats").innerHTML = `
       重点 <b>${counts.focus.shown}</b> ·
       收藏 <b>${counts.fav.shown}</b> ·
@@ -1544,6 +1566,7 @@
       Tape/电路 <b>${counts.tape.shown}</b> ·
       GIWA <b>${counts.giwa.shown}</b> ·
       DogeEVM <b>${counts.dogeevm.shown}</b> ·
+      BN Agent 钱包 <b>${counts.bnagent.shown}</b> ·
       共 <b>${total}</b> ·
       即将开售 <b>${soonN}</b> ·
       <b>仅显示有推特</b> ·

@@ -1675,7 +1675,7 @@ button.pill {
 @media (min-width: 1280px) {
   .board {
     display: grid;
-    grid-template-columns: repeat(9, minmax(140px, 1fr));
+    grid-template-columns: repeat(10, minmax(128px, 1fr));
     gap: 8px;
     align-items: stretch;
     overflow-x: auto;
@@ -1684,7 +1684,7 @@ button.pill {
   }
 
   .board .zone {
-    min-width: 140px;
+    min-width: 128px;
     padding: 0 8px 10px;
   }
 
@@ -1749,7 +1749,7 @@ button.pill {
 
 @media (min-width: 1680px) {
   .board {
-    grid-template-columns: repeat(9, minmax(0, 1fr));
+    grid-template-columns: repeat(10, minmax(0, 1fr));
     gap: 10px;
   }
 
@@ -1757,3 +1757,24 @@ button.pill {
     min-width: 0;
   }
 }
+
+/* BN Agent 钱包 column — Binance gold accent (rightmost, 10th) */
+.zone-bna { border-color: rgba(240, 185, 11, 0.55); }
+.zone-bna .zone-title { color: #fde68a; }
+.zone-bna .card::before {
+  background: linear-gradient(90deg, transparent, #f0b90b, #fcd535, transparent);
+  opacity: 0.95;
+}
+.bna-inline { color: #fcd535; font-weight: 700; }
+.pill-bna {
+  color: #fef3c7 !important;
+  border-color: rgba(240, 185, 11, 0.55) !important;
+  background: linear-gradient(120deg, rgba(240, 185, 11, 0.24), rgba(252, 213, 53, 0.1)) !important;
+}
+.chip.chip-bna.active { background: linear-gradient(120deg, #f0b90b, #fcd535); color: #1a1405; }
+.bna-badge-lg {
+  width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center;
+  font-weight: 900; font-size: 0.6rem; letter-spacing: 0.04em; margin: 0 auto 8px;
+  color: #1a1405; background: linear-gradient(135deg, #f0b90b, #fcd535);
+}
+.empty-bna .empty-sub { margin-top: 6px; font-size: 0.75rem; color: var(--faint); }
