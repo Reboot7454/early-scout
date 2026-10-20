@@ -25,7 +25,8 @@
 - `highlights[]`、`drawbacks[]`：各 2–4 条短中文要点（具体机制/窗口/风险，避免空话）。
 - `whatsNew`：续更说明文案；**仅** `newThisRound: true`（= 当前 `roundNAdded`）显示「本轮新」徽章，其余有文案时显示「续更」。
 - `round`：首次收录轮次（discovery），例行续更**不得**改写成当前 round；轮次筛选靠此字段。
-- 例行交接：新收录写 `newThisRound:true` + `flag:"本轮新"` + `meta.roundNAdded`；上一轮新收录清 `newThisRound`/`本轮新`，可留 whatsNew 续更句。
+- 例行交接：新收录写 `newThisRound:true` + `flag:"本轮新"` + `meta.roundNAdded`，并把 **`meta.newThisRound` 改成这一轮的 id**（先清上一轮，不要留上一轮 id）；上一轮新收录清 `newThisRound`/`本轮新`，可留 whatsNew 续更句。
+- 推特链接：admit **写 `links.x`**。面板可见性与 X 按钮同时认 `links.x` 和 `links.twitter`（须含 `x.com/` 或 `twitter.com/`）。只写 `links.twitter` 时卡片和该轮芯片都不会出现。
 - `scores`：`early` / `risk`（镜像 earlyScore/riskScore）、`novelty`、`actionable`、`overall`  
   - `overall = early*0.35 + actionable*0.25 + novelty*0.2 + (100-risk)*0.2`
 - 面板：综合分大号 + 四条迷你条；亮点/缺点双列；排序「综合评分」。
@@ -66,7 +67,7 @@
 - 每张卡片 / 挖矿行有 ☆/★ 收藏按钮，一键切换。
 - 「收藏」横条在「重点」下方、**七列**看板上方；**不依赖轮次筛选**（与重点条同为全局条）。
 - 数据仅存浏览器 `localStorage` 键 `early-scout-favorites`（candidate id 数组）；不改 `data.json` schema。
-- 收藏条展示日程倒计时（复用 `scheduleChip`，≈72h / LIVE）；点击条目或 X 打开 `links.x`。
+- 收藏条展示日程倒计时（复用 `scheduleChip`，≈72h / LIVE）；点击条目或 X 打开 `links.x`（没有则用 `links.twitter`）。
 - 空态：「点卡片上的☆收藏」。与系统「重点」（`focus:true`）互不混淆。
 
 
