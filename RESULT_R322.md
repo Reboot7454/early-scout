@@ -1,0 +1,24 @@
+# RESULT R322
+
+- round: 322
+- notify: true
+- alertMessage: 06:05CST雷达：新收AWPad与Pangu；BN Agent线续热，Elysium积分投票开。面板：https://reboot7454.github.io/early-scout/
+- newIds: ["awpad", "pangu"]
+- le2h: ["AWPad BN Agent发射台刚建号(新,0粉)", "Pangu股票代币公平发售devnet(新)", "$.ai BN Agent钱包币热度续(CA未核实)", "币安App Agent ID认领开放", ".AI(@dotaipad) BNB部署倒计时Soon", "Elysium积分池社区投票开放"]
+- kinetiqWatch: R322 @kinetiq_xyz/@Enter_Elysium本时段无新推；@Elysium_Eco开积分池社区投票(kHYPE可投)；Black week/kSoon仍待揭晓；主网11-09。
+- agentPadWatch: R322 新收@AWPADBSC(0粉1推，Agentic Wallet×x402)；$.ai热度续；@dotaipad Soon…部署仍TBA；AGT/@useagentbot仍跳过。
+- agentMiningWatch: R322 Trac RESET+fitzyOG续；Zenora指纹挖矿DS skip；Goldkin过薄skip；无新agent挖矿admit。
+- giwaWatch: R322 @GIWA_by_Upbit无新推；Ammora/Gamapad续；无新admit；lastChecked 2026-10-21 06:05 CST
+- zeroWatch: R322 @LayerZero_Core确认Zero+lzATLAS 11-30；无新LZ核验admit；lastChecked 2026-10-21 06:05 CST
+- dogeEvmWatch: R322 DogeOS/Monko Mania刷分续；MyDoge tip；无新admit；lastChecked 2026-10-21 06:05 CST
+- starknetWatch: R322 Bramble钱包已上线；无新史塔克早期admit；lastChecked 2026-10-21 06:05 CST
+- btcWatch: R322 ShieldedNaka/banknotes无新推；无新BTC admit；lastChecked 2026-10-21 06:05 CST
+- tapeWatch: R322 TapeAI检察官空投已发；Blonskr称BNB NFT榜Tape占前三；无新Tape admit；lastChecked 2026-10-21 06:05 CST
+- elysiumWatch: R322 Elysium_Eco积分投票开；主网11-09；KeepOut perpme/branchpoint/outrive；无新Elysium admit；lastChecked 2026-10-21 06:05 CST
+- xReads: 26
+- discordPeekDeferred: true
+- dsFallback: false
+- coverage: {"scout": true, "mining": true, "meme": true, "go": true, "lz": true, "elysium": true, "tape": true, "btc": true, "starknet": true, "giwa": true, "zero": true, "dogeevm": true, "bnagent": true}
+- summary: 06:05CST雷达：新收AWPad与Pangu；BN Agent线续热，Elysium积分投票开。面板：https://reboot7454.github.io/early-scout/
+- skip: ZenoraNetwork(指纹零撸挖矿,PoW不可验证)DS admit=false；@gkin_gg Goldkin(2推过薄)DS admit=false；@useagentbot/@bsc_agentID AGT仍跳过；Rebate/VaultStreet/LootRush/Ammora/Gamapad/Pons/Bramble/conso已在库；GO盘本轮无新信号；KeepOut perpme/branchpoint/outrive
+- dsNote: score(含admit)一次成功4条；alert一次成功
