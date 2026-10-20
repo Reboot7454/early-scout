@@ -5,8 +5,8 @@
 - alertMessage: 新增CoTape拼矿/OB Launchpad；可操作：Cyborg WL LIVE→PUBLIC≈17:59、Arcade/CashWhiskers/Haven/HOODBITZ/SixtyJiazi/ordinalsbid/STOX LIVE、BISH AL；今晚TapeAI待时刻/Breath WL≈21:00/Bramble待时刻；CannaCats售罄；Elysium主网2026-11-09；面板 https://reboot7454.github.io/early-scout/。
 - newIds: cotape, ob-launchpad
 - le2h: CyborgPunks WL LIVE→PUBLIC≈17:59CST; ArcadeHood PUBLIC LIVE; CashWhiskers PUBLIC LIVE; Haven Card OPEN; HOODBITZ minting; SixtyJiazi OrdDropz LIVE; ordinalsbid $ORDINALS; STOX RH 1000x LIVE; BISH AL LIVE
-- pushOk: pending
-- commit: pending
+- pushOk: true
+- commit: 66b5c4c1d1fdf15378c14e0d9fce4f8dd65cc908
 - discordPeekDeferred: true
 - dsFallback: false
 - coverage: 打新/挖矿/台子/GO/LZ/Elysium/Tape/BTC/Starknet all True
@@ -16,4 +16,4 @@
 - enrich: CannaCats售罄; Breath WL≈21:00CST确认; TapeAI社区传≈20:00未官宣; Bramble Today未锁; Cyborg WL LIVE; XLayer×TapeOut直播≈16:00CST; Canton/Glaze/TokenWorks refresh; 000dotfun lzVerified
 - localFiles: /workspace/early-scout/data.json ; RESULT_R306.md ; ROUND306_RESULT.json
 
-- push: pending
+- push: git push main → 66b5c4c
