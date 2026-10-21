@@ -1,0 +1,40 @@
+{
+  "round": 343,
+  "notify": true,
+  "time": "2026-10-22 03:05 CST",
+  "xReads": 31,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "alertMessage": "03:05CST雷达：新收 Gabox（Solana Gacha台LIVE）、Beee Different（ETH FREE mint延期）、Companions（RH 11月mint）、HNOCOIN（挖矿回购live）；CRC30 10-23 20:00CST mint、Conso今晚23:00CST关注；Elysium主网11-09、Zero/lzATLAS 11-30续；面板 https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "gabox",
+    "bee-different",
+    "companions-wfit",
+    "hno-coin"
+  ],
+  "le2h": [],
+  "coverage": "全部十栏+必扫链+BN Agent+Starknet+BTC true",
+  "summary": "03:05CST新收Gabox/BeeeDifferent/Companions/HNOCOIN；CRC30 10-23 20:00与Conso今晚23:00关注；Elysium11-09与Zero11-30续；面板 https://reboot7454.github.io/early-scout/",
+  "push": "pending",
+  "skip": [
+    "agent-bot(DS admit skip 窗过/粉热)",
+    "metric-xyz(DS admit skip 非早期窗口)",
+    "qwibink(DS score admit:false 粉4当日号)",
+    "agent-squad(DS score admit:false 粉1仅概念)",
+    "motor-fun(DS score admit:false 粉4风险过高)"
+  ],
+  "watches": {
+    "kinetiq": "主网11-09+Cantina Apex；无新Elysium admit",
+    "agentPad": "dotaipad LIVE续；useagentbot DS skip；无新BN Agent admit",
+    "agentMining": "RESET DEX/Giveaway续；无新admit",
+    "agentTrading": "Listen续；无新admit",
+    "giwa": "GiwaMeme claim续；无新admit",
+    "zero": "11-30续；无新核验",
+    "dogeEvm": "本窗无新帖；无新admit",
+    "starknet": "Bramble LIVE续；无新admit",
+    "btc": "CRC30 10-23 20:00CST mint续更",
+    "tape": "TapeAI检察官续；Blonskr X暂失败；无新admit",
+    "elysium": "主网11-09；生态页无新admit"
+  },
+  "dsNote": "admit7→score收紧至4；CRC30旧卡续更mint时间；alert手调对齐时间与面板URL；Blonskr一读失败计入xReads失败不计"
+}
