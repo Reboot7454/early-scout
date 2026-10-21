@@ -1,0 +1,72 @@
+{
+  "round": 339,
+  "notify": true,
+  "alertMessage": "23:01CST雷达：新收 Wander Forest（RH游戏1111 freemint）、notchd（RH铭文台+$NOTCHD）、DOGGO（DogeOS发射台）、Corvus（Hook Deploy）；ESCCAP/Paynexis/AXIOM/Kabuki/EMERGENCE 23:00≤2h；Notchstock/dotaipad LIVE、Jumak可claim；面板 https://reboot7454.github.io/early-scout/",
+  "time": "2026-10-21 23:01 CST",
+  "newIds": [
+    {
+      "id": "wander-forest",
+      "handle": "@playwanderfores",
+      "why": "RH游戏工作室 waitlist+1111 freemint"
+    },
+    {
+      "id": "notchd",
+      "handle": "@notchdfun",
+      "why": "RH ntch-20发射台+$NOTCHD live CA未核实"
+    },
+    {
+      "id": "doggo-os",
+      "handle": "@DOGGO_OS",
+      "why": "DogeOS Chikyū memecoin pad testnet"
+    },
+    {
+      "id": "corvus-terminal",
+      "handle": "@CorvusTerminal",
+      "why": "Hook Deploy LIVE Base/RH"
+    }
+  ],
+  "le2h": [
+    "esccap",
+    "paynexis",
+    "axiom-rh",
+    "kabuki-killers",
+    "emergence-imd",
+    "notchstock",
+    "dotai-pad",
+    "jumak-sanjeok",
+    "holo"
+  ],
+  "xReads": 26,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "coverage": {
+    "scout": true,
+    "mining": true,
+    "meme": true,
+    "go": true,
+    "lz": true,
+    "elysium": true,
+    "tape": true,
+    "btc": true,
+    "starknet": true,
+    "giwa": true,
+    "zero": true,
+    "dogeevm": true,
+    "bnagent": true
+  },
+  "summary": "新收 Wander Forest/notchd/DOGGO/Corvus；ESCCAP/Paynexis/AXIOM等23:00≤2h；Notchstock/dotaipad LIVE、Jumak可claim。",
+  "skip": "orbio+fren-launch DS skip；clover/glyph等已在库；GO/Zero无新；KeepOut三家",
+  "watches": {
+    "kinetiq": "Cantina Apex；主网11-09；无新admit",
+    "agentPad": "dotaipad LIVE+dividends；无新admit",
+    "agentMining": "Trac RESET续",
+    "giwa": "Jumak claim续",
+    "zero": "lzATLAS 11-30续",
+    "dogeEvm": "新收DOGGO；Labs续",
+    "starknet": "Stark Space+Bramble",
+    "btc": "ShieldedNaka续",
+    "tape": "TapeAI续；无新admit",
+    "elysium": "主网11-09；无新admit"
+  },
+  "dsNote": "6 scored → 4 admit / 2 skip"
+}
