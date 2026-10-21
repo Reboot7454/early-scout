@@ -1,0 +1,35 @@
+# RESULT R342
+
+- time: 2026-10-22 02:00 CST
+- notify: true
+- xReads: 27
+- discordPeekDeferred: true
+- dsFallback: false
+- newIds: bark-swap, doge-museum, ordinals-soapbox
+- le2h: ordinals-soapbox, giwa-meme
+- push: pending
+- alertMessage: 02:00CST雷达：新收 BarkSwap（DogeOS DEX testnet）、Doge Museum（NFT市场testnet）、Ordinals Soapbox Rally（BTC mint LIVE）；GiwaMeme claim/Inkoweens 10-31 FREE mint关注；Elysium主网11-09、Zero/lzATLAS 11-30续；面板 https://reboot7454.github.io/early-scout/
+
+## summary
+02:00CST新收BarkSwap/DogeMuseum/OrdinalsSoapbox；Inkoweens FREE mint 10/31；Elysium11-09与Zero11-30续；面板 https://reboot7454.github.io/early-scout/
+
+## watches
+{
+  "kinetiq": "主网11-09+Cantina Apex续；无新admit",
+  "agentPad": "dotaipad LIVE续；yinghubnb不做台子；无新BN Agent admit",
+  "agentMining": "RESET DEX续；无新admit",
+  "agentTrading": "Listen续；Orus/GENIE/NOMO DS skip",
+  "giwa": "GiwaMeme claim续；无新admit",
+  "zero": "11-30续；无新核验",
+  "dogeEvm": "BarkSwap+Doge Museum新收",
+  "starknet": "Falcon challenge LIVE",
+  "btc": "Soapbox mint新收",
+  "tape": "TapeAI检察官续；无新admit",
+  "elysium": "主网11-09；无新admit"
+}
+
+## skip
+['pangea-pad(DS score admit:false CA/粉过低)', 'decoy-fun(DS score admit:false 粉≈10)', 'orus-agent(DS admit skip 非mint窗口)', 'genie-ai(DS admit skip)', 'nomo-trading(DS admit skip)']
+
+## dsNote
+admit5→score收紧至3；Inkoweens旧卡续更FREE mint 10/31；alert手调对齐时间与面板URL
