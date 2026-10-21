@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: cyber-pad, dogeolith, rillaz, dark-wallet
 - le2h: (none)
-- push: PENDING
+- push: ok d566acc
 - alertMessage: 07:05CST雷达：新收 CyberPad（Solana终端发射台，$CYBERPAD live）、Dogeolith（DogeOS首NFT，free mint预计）、Rillaz（RH 10-24开图，2000 FREE）、Dark Wallet（RH隐私钱包+$DRKW/Agent live）；日程 Conso/INVERA今晚23:00CST、UNITS/CRC30 10-23、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
