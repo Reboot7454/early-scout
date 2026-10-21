@@ -1,0 +1,24 @@
+# RESULT R329
+
+- round: 329
+- notify: true
+- alertMessage: 13:05CST雷达：本轮新收 NERMO、Paynexis、Meth Miners、Bit Miners。续盯：Jumak WL 19:00CST截止；HOLO Ink reveal 19:00CST；dotaipad 21:00CST；Vela 22:00CST；Paynexis 23:00CST。面板 https://reboot7454.github.io/early-scout/
+- newIds: ["nermo", "paynexis", "meth-miners", "bitminers-rh"]
+- le2h: ["NERMO RH一台五法新台(新,0粉,今日建号)", "Paynexis Token+产品今晚23:00CST上RH(新,189粉,~10h,非≤2h)", "Meth Miners 100免费NFT soon+$METH(新,113粉)", "Bit Miners RH挖矿NFT WL LIVE(新,620粉)", "Jumak Genesis WL今日19:00CST截止(~6h,非≤2h)", "HOLO Ink reveal今日19:00CST(~6h,非≤2h)", "dotaipad bio倒计时今日21:00CST(~8h,非≤2h)", "Vela $VELA今日22:00CST上线(~9h,非≤2h)", "AWPad $AWP BN Agent钱包presale指引+开源合约"]
+- kinetiqWatch: R329 Kinetiq/Elysium对Montra/Ascend e/acc续；AgentKinetiq Black week待揭晓；主网11-09；无新Elysium生态admit。
+- agentPadWatch: R329 BN Agent/$.ai续热；@dotaipad bio倒计时今日21:00CST；AWPad发$AWP完整presale指引+BscScan开源合约(28粉)；yinghubnb称外盘普钱包可买。
+- agentMiningWatch: R329 Trac/RESET/agent DEX续；无新agent挖矿admit。
+- giwaWatch: R329 Jumak Genesis WL今日19:00CST截止；Ammora waitlist续；无新GIWA admit；lastChecked 2026-10-21 13:05 CST
+- zeroWatch: R329 Zero+lzATLAS 11-30倒计时续；无新LZ核验admit；lastChecked 2026-10-21 13:05 CST
+- dogeEvmWatch: R329 DogeOS Chapter2/SocialFi叙事续；无新admit；lastChecked 2026-10-21 13:05 CST
+- starknetWatch: R329 Bramble Chrome扩展已上线续；无新史塔克早期admit；lastChecked 2026-10-21 13:05 CST
+- btcWatch: R329 banknotes DAY6回购续；ShieldedNaka无本时段新admit；无新BTC admit；lastChecked 2026-10-21 13:05 CST
+- tapeWatch: R329 TapeAI买入3000 BEM+Firsto识别检察官电路续；假电路警示续；无新Tape admit；lastChecked 2026-10-21 13:05 CST
+- elysiumWatch: R329 Montra/Ascend e/acc续；AgentKinetiq Black week待揭晓；主网11-09；KeepOut perpme/branchpoint/outrive；无新Elysium生态admit；lastChecked 2026-10-21 13:05 CST
+- xReads: 24
+- discordPeekDeferred: true
+- dsFallback: false
+- coverage: {"scout": true, "mining": true, "meme": true, "go": true, "lz": true, "elysium": true, "tape": true, "btc": true, "starknet": true, "giwa": true, "zero": true, "dogeevm": true, "bnagent": true}
+- summary: 13:05CST新收4项，今晚19:00起多节点续盯。面板 https://reboot7454.github.io/early-scout/
+- skip: aiou_credit过薄未交分；fomopoly/conso/rebate/tera/sphere/vaultstreet/giwa-terminal/ammora/gekko/holo/jarlings/dotai-pad/awpad/vela-rh/jumak/tapeai/bramble已在库；GO盘无独立新信号
+- dsNote: score分两批成功4条(4admit/0skip)；alert/summary由DS生成后按事实对齐
