@@ -1,0 +1,24 @@
+# RESULT R333
+
+- round: 333
+- notify: true
+- alertMessage: 17:07CST雷达：新增 Wake（BNB Binance Agent专属AI广场+发币台LIVE，测试币only agent可买，CA未核实）；Jumak Genesis WL 与 HOLO Ink FREEMINT 今晚19:00CST截止(≤2h)；其后 BSCAGENT 20:00、dotaipad 21:00、Vela 22:00、Paynexis 23:00；面板 https://reboot7454.github.io/early-scout/
+- newIds: ["wake"]
+- le2h: ["jumak-sanjeok", "holo"]
+- kinetiqWatch: 三账号无新打新原创；Black week待揭晓；主网11-09；无新admit
+- agentPadWatch: 新收Wake BN Agent专属台LIVE；dotaipad21:00/BSCAGENT20:00续；CA未核实
+- agentMiningWatch: Trac本时段无新帖；无新agent挖矿admit
+- giwaWatch: Jumak WL今晚19:00≤2h；Daily Case续；无新admit；lastChecked 2026-10-21 17:07 CST
+- zeroWatch: Zero+lzATLAS 11-30；Core无新帖；无新admit；lastChecked 2026-10-21 17:07 CST
+- dogeEvmWatch: RUNECLAW Daily Duel续；DogeFactory过薄skip；无新admit；lastChecked 2026-10-21 17:07 CST
+- starknetWatch: Bramble钱包续；无新admit；lastChecked 2026-10-21 17:07 CST
+- btcWatch: Freakshow10-22续；ShieldedNaka重申审批；无新admit；lastChecked 2026-10-21 17:07 CST
+- tapeWatch: TapeAI×Firsto+BEM续；TapeOutWorld BNB榜Top3；无新admit；lastChecked 2026-10-21 17:07 CST
+- elysiumWatch: 主网11-09；KeepOut perpme/branchpoint/outrive；无新admit；lastChecked 2026-10-21 17:07 CST
+- xReads: 28
+- discordPeekDeferred: true
+- dsFallback: false
+- coverage: {"scout": true, "mining": true, "meme": true, "go": true, "lz": true, "elysium": true, "tape": true, "btc": true, "starknet": true, "giwa": true, "zero": true, "dogeevm": true, "bnagent": true}
+- summary: 17:07CST新收Wake（BN Agent专属台LIVE）；Jumak/HOLO 19:00≤2h；今晚20:00起多节点。面板 https://reboot7454.github.io/early-scout/
+- skip: dogefactory过薄skip(9粉/无mint窗)；scdo非极早期+无打新窗skip；dotaibsc仍无核验mint窗+R332已skip；brawlers仍过薄skip；fluton已过早期+仅testnetskip；lanista/bsc-agent/thumb-meme/glyph-ai/fomopoly/conso/gamapad/ammora/gekko/holo/dotai-pad/awpad/jumak/tapeai/bramble/rebate/farming-season/embervale/minehood/zeru/zonex/deuslaunch/archuntx/peelers/mannequins/giwadotfun/veinwars/inkpirates/cookmymeme/mogo已在库；GO盘本时段无独立新信号；Kinetiq三账号无新原创打新；Zero/LZ无新核验admit
+- dsNote: score一批成功6条(1admit:wake / 5skip:dogefactory+scdo+dotaibsc+brawlers+fluton)；alert/summary由DS生成后按事实对齐；Jumak+HOLO 19:00进入≤2h
