@@ -1,0 +1,24 @@
+# RESULT R326
+
+- round: 326
+- notify: true
+- alertMessage: 10:02CST雷达：新收Stable AI（GIWA BuyBot测网）、Kairos（浏览器挖矿+pad测网今日开）、Giwatools（GIWA AI launchpad测网）；dotaipad bio倒计时今日21:00CST；Jumak WL今日19:00CST截止。面板：https://reboot7454.github.io/early-scout/
+- newIds: ["stable-ai", "kairos", "giwatools"]
+- le2h: ["Stable AI GIWA BuyBot测网LIVE(新,39粉)", "Kairos 浏览器挖矿+pad测网今日开(新,20粉)", "Giwatools GIWA AI pad测网LIVE(新,2054粉)", "dotaipad bio倒计时今日21:00CST(~11h,非≤2h)", "Jumak Genesis WL今日19:00CST截止(~9h)", "币安App Agent ID认领/$.ai叙事续热"]
+- kinetiqWatch: R326 Kinetiq本时段无原创推；AgentKinetiq Black week待揭晓；主网11-09；无新Elysium生态admit。
+- agentPadWatch: R326 BN Agent/$.ai续热无新极早pad；@dotaipad bio倒计时今日21:00CST；yinghubnb称抄袭增多；UNGO/Sigil/AWPad/dotai-pad已在库。
+- agentMiningWatch: R326 Trac/fitzyOG RESET求gas续；无新agent挖矿admit；Kairos为浏览器PoW非agent挖矿。
+- giwaWatch: R326 新收Stable AI与Giwatools；Jumak Genesis WL今日19:00CST截止；@GIWA_by_Upbit本时段无新推；lastChecked 2026-10-21 10:02 CST
+- zeroWatch: R326 Zero+lzATLAS 11-30倒计时续；无新LZ核验admit；lastChecked 2026-10-21 10:02 CST
+- dogeEvmWatch: R326 DogeOS Chapter2任务续；elitra点名未证实部署DS skip；无新admit；lastChecked 2026-10-21 10:02 CST
+- starknetWatch: R326 Bramble Chrome扩展已上线续；无新史塔克早期admit；lastChecked 2026-10-21 10:02 CST
+- btcWatch: R326 banknotes DAY6回购续；ShieldedNaka无本时段新动作；无新BTC admit；lastChecked 2026-10-21 10:02 CST
+- tapeWatch: R326 TapeAI检察官空投已发+真伪说明续；假电路警示续；无新Tape admit；lastChecked 2026-10-21 10:02 CST
+- elysiumWatch: R326 Montra/Ascend e/acc续；AgentKinetiq Black week待揭晓；主网11-09；KeepOut perpme/branchpoint/outrive；无新Elysium生态admit；lastChecked 2026-10-21 10:02 CST
+- xReads: 29
+- discordPeekDeferred: true
+- dsFallback: false
+- coverage: {"scout": true, "mining": true, "meme": true, "go": true, "lz": true, "elysium": true, "tape": true, "btc": true, "starknet": true, "giwa": true, "zero": true, "dogeevm": true, "bnagent": true}
+- summary: 10:02CST雷达：新收Stable AI、Kairos、Giwatools；BN Agent线续热无新极早pad；dotaipad bio倒计时今日21:00CST；Jumak WL今日19:00CST截止。面板 https://reboot7454.github.io/early-scout/
+- skip: elitra(@elitra_xyz)DS admit=false仅DogeOS点名未证实部署；Memelaunchs 0粉刷屏未交；Thegloomycats/Embervale/fomopoly/vaultstreet/rebate已在库；GO盘无新独立信号；KeepOut perpme/branchpoint/outrive；giwa-terminal/jakdu-pump/sansense为本轮前已收勿重复
+- dsNote: score(含admit)一次成功4条(3admit/1skip)；alert一次成功；summary一次成功；elitra skip
