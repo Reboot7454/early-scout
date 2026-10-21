@@ -1,0 +1,46 @@
+{
+  "round": 334,
+  "notify": true,
+  "alertMessage": "18:05CST雷达：新增 AXIOM（RH AI金融情报，$AXIOM 今晚23:00CST经pons发射）；Jumak Genesis WL 与 HOLO Ink FREEMINT 今晚19:00CST截止(≤2h)；BSCAGENT 交易已提前LIVE(CA未核实)；其后 dotaipad 21:00、Vela 22:00、Paynexis/AXIOM 23:00；面板 https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "axiom-rh"
+  ],
+  "le2h": [
+    "jumak-sanjeok",
+    "holo",
+    "bsc-agent"
+  ],
+  "xReads": 17,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "coverage": {
+    "scout": true,
+    "mining": true,
+    "meme": true,
+    "go": true,
+    "lz": true,
+    "elysium": true,
+    "tape": true,
+    "btc": true,
+    "starknet": true,
+    "giwa": true,
+    "zero": true,
+    "dogeevm": true,
+    "bnagent": true
+  },
+  "summary": "18:05CST新收AXIOM（RH 23:00经pons）；Jumak/HOLO 19:00≤2h；BSCAGENT交易提前LIVE。面板 https://reboot7454.github.io/early-scout/",
+  "skip": "meme-bgm过薄skip(76粉/4帖/无mint窗)；tapefour属Tape生态叙事非独立打新skip；inkvire/gloomy-cats/cathereum/vaultstreet/rebate/fomopoly/conso/awpad/wake/bsc-agent/holo/dotai-pad/jumak/giwadotfun/paperbird/starcat/ninetails/gekko/ammora/trac-reset/bramble已在库；GO盘本时段无独立新信号；Kinetiq三账号无新原创打新；Zero/LZ无新核验admit；DogeFactory类过薄未再开；Vault Street仅推荐刷屏",
+  "watches": {
+    "kinetiq": "三账号无新打新原创；主网11-09；无新admit",
+    "agentPad": "BSCAGENT交易提前LIVE；AWPad>20%；dotaipad21:00/Wake续；CA未核实（AXIOM为RH非BN）",
+    "agentMining": "fitzyOG RESET教程续；Trac无新帖；无新admit",
+    "giwa": "Jumak WL今晚19:00≤2h；Daily Case续；无新admit",
+    "zero": "Zero+lzATLAS 11-30；Core无新帖；无新admit",
+    "dogeEvm": "RUNECLAW/GEKKO续；无新admit",
+    "starknet": "隐私/投票RT续；Bramble无新打新；无新admit",
+    "btc": "ShieldedNaka审批续；Freakshow10-22；无新admit",
+    "tape": "TapeFour(FourMeme×TapeOut)10-22晚分享；Firsto投稿截止10-22 14:00；无新admit",
+    "elysium": "主网11-09；KeepOut perpme/branchpoint/outrive；无新admit"
+  },
+  "dsNote": "score一批成功3条(1admit:axiom-rh / 2skip:meme-bgm+tapefour)；alert由DS生成后按事实对齐；BSCAGENT提前开盘+Jumak/HOLO 19:00进入≤2h"
+}
