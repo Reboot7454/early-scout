@@ -1,0 +1,45 @@
+{
+  "round": 341,
+  "notify": true,
+  "time": "2026-10-22 01:03 CST",
+  "xReads": 26,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "alertMessage": "01:03CST雷达：新收 GiwaMeme（GIWA Genesis claim）、Ink Natives（FREE WL）、Fourge（BNB发射台）、Goldkin（agent挖矿waitlist）、Laika（DogeOS testnet）；GiwaMeme/Jumak claim、Kabuki holder、Notchstock/dotaipad LIVE、Ink WL≤2h关注；ESCCAP已售罄；面板 https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "giwa-meme",
+    "ink-natives",
+    "fourge",
+    "goldkin",
+    "laika-doge"
+  ],
+  "le2h": [
+    "giwa-meme",
+    "kabuki-killers",
+    "notchstock",
+    "dotai-pad",
+    "jumak-sanjeok",
+    "ink-natives"
+  ],
+  "coverage": "全部十栏+必扫链+BN Agent true",
+  "summary": "01:03CST新收GiwaMeme/InkNatives/Fourge/Goldkin/Laika；ESCCAP sold out；GiwaMeme claim与Kabuki/Notchstock/dotaipad/Jumak/Ink WL可跟；面板 https://reboot7454.github.io/early-scout/",
+  "push": "pending",
+  "skip": [
+    "monohood(DS admit:false CA未核实付费)",
+    "hesold(信息过薄)"
+  ],
+  "watches": {
+    "kinetiq": "主网11-09+Cantina Apex续；无新admit",
+    "agentPad": "dotaipad LIVE续；无新BN Agent admit",
+    "agentMining": "RESET DEX续；Goldkin新收",
+    "agentTrading": "Listen vibe trading续",
+    "giwa": "GiwaMeme claim新收；Jumak/Yeon续",
+    "zero": "11-30续；无新核验",
+    "dogeEvm": "Laika新收",
+    "starknet": "Falcon challenge LIVE",
+    "btc": "无新admit",
+    "tape": "BEM/TapeAI检察官续；无新admit",
+    "elysium": "主网11-09；无新admit"
+  },
+  "dsNote": "5admit+2skip(monohood/hesold)；alert DS草稿后对齐"
+}
