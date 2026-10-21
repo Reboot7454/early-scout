@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: invera-ai, wraith, aira, ink-inference, chusk
 - le2h: (none)
-- push: pending
+- push: ok ab99a56
 - alertMessage: 05:08CST雷达：新收 INVERA AI（RH产品+代币今晚23:00CST）、WRAITH（Solana/Meteora台Coming soon）、AIRA（BN Agent ID Rewards）、Ink&Inference（$INK画像mint）、CHUSK（pump.fun明日18UTC）；日程 Conso今晚23:00CST、UNITS/CRC30 10-23 mint、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
