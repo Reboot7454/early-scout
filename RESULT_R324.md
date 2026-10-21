@@ -1,0 +1,24 @@
+# RESULT R324
+
+- round: 324
+- notify: true
+- alertMessage: 07:58CST雷达：新收UNGO（BSC BN Agent专属发射台，0粉，CA未贴）与Sigil（.ai名注册发币层，7粉，CA未核实）；BN Agent线续热。面板：https://reboot7454.github.io/early-scout/
+- newIds: ["ungo", "sigil-pad"]
+- le2h: ["UNGO BSC BN Agent专属发射台首发(新,0粉,CA未贴)", "Sigil .ai名注册发币层上线(新,7粉,CA未核实)", "yinghubnb称agent发射台？抄袭增多", "Montra $MONTRA tokenomics + Kinetiq/Elysium e/acc", "币安App Agent ID认领续热", ".AI(@dotaipad) BNB部署Soon续"]
+- kinetiqWatch: R324 Montra发$MONTRA tokenomics，@Kinetiq_xyz/@Enter_Elysium回E/acc；Ascend Incubator$250k续；主网11-09。
+- agentPadWatch: R324 新收UNGO(0粉BN Agent专属pad)与Sigil(.ai名注册发币层)；yinghubnb称agent发射台/抄袭增多；@.AI Soon续；Doer(30粉无CA)DS skip。
+- agentMiningWatch: R324 fitzyOG续推Bitcoin block驱动agent挖矿/$TNK与RESET早鸟；Trac本时段无新推；无新agent挖矿admit。
+- giwaWatch: R324 @GIWA_by_Upbit无本时段新推；Pabalx GIWA testnet赛马刷分续；无新admit；lastChecked 2026-10-21 07:58 CST
+- zeroWatch: R324 Zero+lzATLAS 11-30倒计时续（10-20官推）；无新LZ核验admit；lastChecked 2026-10-21 07:58 CST
+- dogeEvmWatch: R324 Monko Mania/GEKKO RH+DogeOS testnet刷分续；无新admit；lastChecked 2026-10-21 07:58 CST
+- starknetWatch: R324 Bramble钱包已上线续；无新史塔克早期admit；lastChecked 2026-10-21 07:58 CST
+- btcWatch: R324 banknotes DAY6回购续；ShieldedNaka无本时段新动作；无新BTC admit；lastChecked 2026-10-21 07:58 CST
+- tapeWatch: R324 TapeAI检察官空投已发续；假电路警示续；无新Tape admit；lastChecked 2026-10-21 07:58 CST
+- elysiumWatch: R324 Montra tokenomics+官推e/acc；Signal自称Elysium testnet#1(已在库)；主网11-09；KeepOut perpme/branchpoint/outrive；无新Elysium生态admit；lastChecked 2026-10-21 07:58 CST
+- xReads: 34
+- discordPeekDeferred: true
+- dsFallback: false
+- coverage: {"scout": true, "mining": true, "meme": true, "go": true, "lz": true, "elysium": true, "tape": true, "btc": true, "starknet": true, "giwa": true, "zero": true, "dogeevm": true, "bnagent": true}
+- summary: 07:58CST雷达：新收UNGO（BSC BN Agent专属发射台，0粉，CA未贴）与Sigil（.ai名注册发币层，7粉，CA未核实）；BN Agent线续热。面板：https://reboot7454.github.io/early-scout/
+- skip: Doer(@UseDoerSol,30粉无CA)DS admit=false；BigShort(3.5万粉非极早)未交admit；DrawCalls Canton DevNet仅soft-debt；pabalx/ammora/signalfam/rebatelaunch/cropz/inktrons/montra/awpad/dotaipad/yinghubnb/flarepad/trac已在库；GO盘本轮无新独立信号；KeepOut perpme/branchpoint/outrive
+- dsNote: score(含admit)一次成功3条；alert一次成功；whatsNew/summary一次成功
