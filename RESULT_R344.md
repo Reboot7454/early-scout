@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: pangea, kaspa-rocket, derby-racing, crew-rh, falco-x
 - le2h: (none)
-- push: pending
+- push: ok
 - alertMessage: 04:06CST雷达：新收 Pangea（LZ多链发射台LIVE）、KaspaRocket（Kaspa KCC20主网LIVE）、Derby（RH赛马meme粉7）、Crew（RH AI发币studio粉11）、Falco-X（Core fair launch）；UNITS/CRC30 10-23 mint、Conso今晚23:00CST关注；Elysium主网11-09、Zero/lzATLAS 11-30续；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
