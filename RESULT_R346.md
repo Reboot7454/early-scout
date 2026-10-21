@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: sunset-pad, retro-pad, gh0st, sandhood
 - le2h: (none)
-- push: pending
+- push: ok 5d21cbd
 - alertMessage: 06:02CST雷达：新收 Sunset Pad（Solana/Pumpfun fee衰减发射台，首币已部署）、RETRO（Win98/Meteora台，CA未核实）、GH0ST（RH链上AI模型S0UL live）、Sandhood（RH终端+发射台原生币LIVE）；日程 Conso今晚23:00CST、UNITS/CRC30 10-23 mint、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
