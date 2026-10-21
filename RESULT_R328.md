@@ -1,0 +1,24 @@
+# RESULT R328
+
+- round: 328
+- notify: true
+- alertMessage: 12:00CST雷达：本轮新收 HOLO（Ink 707免费mint，WL LIVE，今日19:00CST reveal）、Jarlings（RH PoW挖罐，练习已开，正式10-22 12:00CST）。续盯：Jumak WL今日19:00CST截止；dotaipad今日21:00CST；Vela $VELA今日22:00CST；AWPad $AWP BN Agent钱包presale指引已发。面板 https://reboot7454.github.io/early-scout/
+- newIds: ["holo", "jarlings"]
+- le2h: ["HOLO Ink 707免费mint WL LIVE 今日19:00CST reveal(新,2991粉,~7h,非≤2h)", "Jarlings RH PoW挖罐练习LIVE 正式10-22 12:00CST(新,4粉)", "Jumak Genesis WL今日19:00CST截止(~7h,非≤2h)", "dotaipad bio倒计时今日21:00CST(~9h,非≤2h)", "Vela $VELA今日22:00CST上线(~10h,非≤2h)", "AWPad $AWP BN Agent钱包presale指引已发", "币安App Agent ID认领/$.ai叙事续热"]
+- kinetiqWatch: R328 Kinetiq/Elysium对Montra/Ascend e/acc续；AgentKinetiq Black week待揭晓；主网11-09；无新Elysium生态admit。
+- agentPadWatch: R328 BN Agent/$.ai续热；@dotaipad bio倒计时今日21:00CST；AWPad发$AWP BN Agent钱包x402 presale指引(22粉)；yinghubnb称外盘普钱包可买；UNGO/Sigil/AWPad/dotai-pad/agentic-inu已在库。
+- agentMiningWatch: R328 Trac/RESET求gas续；无新agent挖矿admit。
+- giwaWatch: R328 Jumak Genesis WL今日19:00CST截止；Pabal/Ammora/GIWAUP续；无新GIWA admit；lastChecked 2026-10-21 12:00 CST
+- zeroWatch: R328 Zero+lzATLAS 11-30倒计时续；无新LZ核验admit；lastChecked 2026-10-21 12:00 CST
+- dogeEvmWatch: R328 DogeOS Chapter2/SocialFi叙事续；无新admit；lastChecked 2026-10-21 12:00 CST
+- starknetWatch: R328 Bramble Chrome扩展已上线续；无新史塔克早期admit；lastChecked 2026-10-21 12:00 CST
+- btcWatch: R328 banknotes DAY6回购续；ShieldedNaka无本时段新动作；无新BTC admit；lastChecked 2026-10-21 12:00 CST
+- tapeWatch: R328 TapeAI买入3000 BEM扶持生态+Firsto真伪校验续；假电路警示续；无新Tape admit；lastChecked 2026-10-21 12:00 CST
+- elysiumWatch: R328 Montra/Ascend e/acc续；AgentKinetiq Black week待揭晓；主网11-09；hypaww仅叙事未收；KeepOut perpme/branchpoint/outrive；无新Elysium生态admit；lastChecked 2026-10-21 12:00 CST
+- xReads: 26
+- discordPeekDeferred: true
+- dsFallback: false
+- coverage: {"scout": true, "mining": true, "meme": true, "go": true, "lz": true, "elysium": true, "tape": true, "btc": true, "starknet": true, "giwa": true, "zero": true, "dogeevm": true, "bnagent": true}
+- summary: 12:00CST雷达：新收HOLO、Jarlings；Jumak WL/dotaipad/Vela今日节点续盯；AWPad BN Agent钱包presale指引已发；TapeAI买入3000 BEM。面板 https://reboot7454.github.io/early-scout/
+- skip: hoodey(1粉无产品)DS未收；qpick-agent(4粉代币已发)DS未收；hypaww无Elysium部署证据未收；fomopoly/vaultstreet/rebate/conso/blackboard/pabalx/giwaup/minehood/agentic-inu/giwa-terminal/jakdu-pump/sansense/cozygolem/raidlords/vela-rh/dotai-pad/awpad/lootrush-rh/chimp-champs/inktropy已在库；GO盘无独立新信号；StockCZ过薄未交分
+- dsNote: score一次成功5条(2admit/3skip)；alert/summary字段串线后人工按事实对齐(非模型兜底打分)
