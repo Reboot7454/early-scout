@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: gabox, bee-different, companions-wfit, hno-coin
 - le2h: (none)
-- push: pending
+- push: ok
 - alertMessage: 03:05CST雷达：新收 Gabox（Solana Gacha台LIVE）、Beee Different（ETH FREE mint延期）、Companions（RH 11月mint）、HNOCOIN（挖矿回购live）；CRC30 10-23 20:00CST mint、Conso今晚23:00CST关注；Elysium主网11-09、Zero/lzATLAS 11-30续；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
