@@ -1,0 +1,50 @@
+{
+  "round": 336,
+  "notify": true,
+  "alertMessage": "20:00CST雷达：新增 BAI（BN Agent发射台LIVE）、Qink（Ink 4444免费mint LIVE）、Notchstock（RH股票NFT今晚21:00CST mint≤2h）；Jumak WL结果20:30、dotaipad 21:00、Vela 22:00；HOLO mint LIVE；其后 ESCCAP/Paynexis/AXIOM 23:00；面板 https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "bai-pad",
+    "qink",
+    "notchstock"
+  ],
+  "le2h": [
+    "jumak-sanjeok",
+    "notchstock",
+    "dotai-pad",
+    "vela-rh",
+    "holo"
+  ],
+  "xReads": 35,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "coverage": {
+    "scout": true,
+    "mining": true,
+    "meme": true,
+    "go": true,
+    "lz": true,
+    "elysium": true,
+    "tape": true,
+    "btc": true,
+    "starknet": true,
+    "giwa": true,
+    "zero": true,
+    "dogeevm": true,
+    "bnagent": true
+  },
+  "summary": "20:00CST新收BAI/Qink/Notchstock；Jumak结果20:30、dotaipad/Notchstock 21:00、Vela 22:00≤2h；HOLO mint LIVE。面板 https://reboot7454.github.io/early-scout/",
+  "skip": "lurk匿名高风险DS skip；brawlers无mint细节skip；ama_protocol成熟skip；已在库多项；GO盘无独立新信号；Kinetiq无新原创；Zero/LZ无新核验admit；DogeOS无新帖",
+  "watches": {
+    "kinetiq": "三账号本时段无新打新原创；主网11-09；无新admit；KeepOut perpme/branchpoint/outrive",
+    "agentPad": "新收bai-pad；dotaipad21:00≤2h；AWPad>20%；BSCAGENT LIVE；Wake测试币；CA未核实",
+    "agentMining": "Trac agentic mining续；无新admit",
+    "giwa": "Jumak WL结果20:30≤2h；Gamapad Partners；无新admit",
+    "zero": "Zero+lzATLAS 11-30续；无新核验admit",
+    "dogeEvm": "DogeOS本时段无新帖；无新admit",
+    "starknet": "Bramble gm续；无新史塔克早期admit",
+    "btc": "ShieldedNaka侧重申审批；Freakshow10-22；无新admit",
+    "tape": "Blonskr BEM/ITO续；TapeFour 10-22；无新admit",
+    "elysium": "主网11-09；KeepOut perpme/branchpoint/outrive；无新admit"
+  },
+  "dsNote": "score一批成功5条(3admit:bai-pad+qink+notchstock / 2skip:lurk+brawlers)；alert由DS生成后按事实对齐"
+}

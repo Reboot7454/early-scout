@@ -1,0 +1,24 @@
+# RESULT R336
+
+- round: 336
+- notify: true
+- alertMessage: 20:00CST雷达：新增 BAI（BN Agent发射台LIVE）、Qink（Ink 4444免费mint LIVE）、Notchstock（RH股票NFT今晚21:00CST mint≤2h）；Jumak WL结果20:30、dotaipad 21:00、Vela 22:00；HOLO mint LIVE；其后 ESCCAP/Paynexis/AXIOM 23:00；面板 https://reboot7454.github.io/early-scout/
+- newIds: ["bai-pad", "qink", "notchstock"]
+- le2h: ["jumak-sanjeok", "notchstock", "dotai-pad", "vela-rh", "holo"]
+- kinetiqWatch: 三账号本时段无新打新原创（KNTQ coded/Markets互动）；主网11-09；无新admit；KeepOut perpme/branchpoint/outrive
+- agentPadWatch: 新收bai-pad；dotaipad21:00≤2h；AWPad>20%；BSCAGENT LIVE+AI launchpad预告；Wake测试币；CA未核实
+- agentMiningWatch: Trac回复Base agentic mining/P2P DEX；RESET社区续；无新admit
+- giwaWatch: Jumak WL结果20:30≤2h；Gamapad Partners；Ammora/deus/gamapad续；无新admit；lastChecked 2026-10-21 20:01 CST
+- zeroWatch: Zero+lzATLAS 11-30续；无新核验admit；lastChecked 2026-10-21 20:01 CST
+- dogeEvmWatch: DogeOS本时段无新帖；Chapter2/RUNECLAW/GEKKO续；无新admit；lastChecked 2026-10-21 20:01 CST
+- starknetWatch: Bramble gm续；无新史塔克早期admit；lastChecked 2026-10-21 20:01 CST
+- btcWatch: ShieldedNaka侧重申审批；Freakshow10-22；无新admit；lastChecked 2026-10-21 20:01 CST
+- tapeWatch: Blonskr BEM矿池/ITO叙事续；TapeFour 10-22晚；无新admit；lastChecked 2026-10-21 20:01 CST
+- elysiumWatch: 主网11-09；Ascend/Montra续；KeepOut perpme/branchpoint/outrive；无新admit；lastChecked 2026-10-21 20:01 CST
+- xReads: 35
+- discordPeekDeferred: true
+- dsFallback: false
+- coverage: {"scout": true, "mining": true, "meme": true, "go": true, "lz": true, "elysium": true, "tape": true, "btc": true, "starknet": true, "giwa": true, "zero": true, "dogeevm": true, "bnagent": true}
+- summary: 20:00CST新收BAI/Qink/Notchstock；Jumak结果20:30、dotaipad/Notchstock 21:00、Vela 22:00≤2h；HOLO mint LIVE。面板 https://reboot7454.github.io/early-scout/
+- skip: lurk匿名高风险DS skip；brawlers无mint细节skip；ama_protocol成熟(128k粉)skip；temrush/caravan/equifold/conso/fomopoly/awpad/wake/bsc-agent/holo/dotai/jumak/giwadotfun/paperbird/starcat/ninetails/gekko/ammora/trac-reset/bramble/axiom/paynexis/vela/listen/freakshow/esccap已在库；GO盘无独立新信号；Kinetiq无新原创；Zero/LZ无新核验admit；DogeOS无新帖
+- dsNote: score一批成功5条(3admit:bai-pad+qink+notchstock / 2skip:lurk+brawlers)；alert由DS生成后按事实对齐；≤2h含Jumak结果/dotaipad/Notchstock/Vela/HOLO
