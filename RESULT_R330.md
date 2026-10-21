@@ -1,0 +1,24 @@
+# RESULT R330
+
+- round: 330
+- notify: true
+- alertMessage: 14:05CST雷达：本轮新收 Lincoln Protocol、GIWAdotfun、VeinWars。续盯：Jumak WL 19:00CST截止；HOLO Ink reveal 19:00CST；dotaipad 21:00CST；Vela 22:00CST；Paynexis 23:00CST。面板 https://reboot7454.github.io/early-scout/
+- newIds: ["lincoln-protocol", "giwadotfun", "veinwars"]
+- le2h: ["Lincoln Protocol RH隐私+$LINCOLN；Relay登记明日10-22(新,2626粉,~34h,非≤2h)", "GIWAdotfun GIWA发射台接Giwa Terminal预告(新,637粉,未上线)", "VeinWars RH GameFi Beta+Vein Picks NFT在售(新,26粉)", "Jumak Genesis WL今日19:00CST截止(~5h,非≤2h)", "HOLO Ink reveal今日19:00CST(~5h,非≤2h)", "dotaipad bio倒计时今日21:00CST(~7h,非≤2h)", "Vela $VELA今日22:00CST上线(~8h,非≤2h)", "Paynexis Token+产品今晚23:00CST(~9h,非≤2h)", "AWPad $AWP BN Agent钱包presale指引+开源合约续"]
+- kinetiqWatch: 三账号本时段无新帖；Black week待揭晓；主网11-09；无新admit
+- agentPadWatch: dotaipad今日21:00；MOGO过薄skip；无新BN Agent pad admit
+- agentMiningWatch: Trac本时段无新；无新agent挖矿admit
+- giwaWatch: 新收giwadotfun；Jumak WL今日19:00截止；lastChecked 2026-10-21 14:05 CST
+- zeroWatch: Zero+lzATLAS 11-30；无新admit；lastChecked 2026-10-21 14:05 CST
+- dogeEvmWatch: Chapter2续；无新admit；lastChecked 2026-10-21 14:05 CST
+- starknetWatch: Bramble社区热续；无新admit；lastChecked 2026-10-21 14:05 CST
+- btcWatch: ShieldedNaka/banknotes本时段无新；无新admit；lastChecked 2026-10-21 14:05 CST
+- tapeWatch: TapeAI×Firsto检察官电路续；无新admit；lastChecked 2026-10-21 14:05 CST
+- elysiumWatch: 主网11-09；KeepOut perpme/branchpoint/outrive；无新admit；lastChecked 2026-10-21 14:05 CST
+- xReads: 24
+- discordPeekDeferred: true
+- dsFallback: false
+- coverage: {"scout": true, "mining": true, "meme": true, "go": true, "lz": true, "elysium": true, "tape": true, "btc": true, "starknet": true, "giwa": true, "zero": true, "dogeevm": true, "bnagent": true}
+- summary: 14:05CST新收3项，今晚19:00起多节点续盯。面板 https://reboot7454.github.io/early-scout/
+- skip: mogo过薄未交分(11粉1推无官网CA)；fomopoly/conso/gamapad/ammora/gekko/holo/dotai-pad/awpad/vela-rh/jumak/tapeai/bramble/temrush/kalosfun已在库；GO盘无独立新信号；MCM/CHIMP/OPTTRUMP噪声跳过
+- dsNote: score一批成功4条(3admit/1skip mogo)；alert/summary由DS生成后按事实对齐
