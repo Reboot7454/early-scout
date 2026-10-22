@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: onepad, merged-finance, claw-hub, elysium-orbit, pairpad-lab, squash-agent
 - le2h: (none；UNITS20:00 / meimei21-22 / nockd23:00 均非≤2h)
-- push: pending
+- push: ok 6ee46ed
 - alertMessage: R371新收录：Onepad（multichain pad soon）、Merged Finance（$MERGED pump live）、Claw Hub（HL三agent）、Elysium Orbit（高风险NFT mint）、Pairpad Lab（RH配对股）、Squash Agent（$SQUASH live）。无≤2h日程。面板 https://reboot7454.github.io/early-scout/ · 2026-10-23 04:05 CST
 
 ## summary
