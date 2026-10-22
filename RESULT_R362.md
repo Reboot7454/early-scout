@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: serialized, fees-cash, builder-nft
 - le2h: Conso BOTS freemint 今晚23:00CST≈58m；INVERA AI 今晚23:00CST；Kabuki Killers Public≈今晚23:00CST
-- push: pending
+- push: ok 793cc22
 - alertMessage: 22:02CST雷达：新收serialized（Serialized/@serialized_xyz Elysium审计+链上数据API，官推确认testnet LIVE、主网Day1就绪，粉≈257）、fees-cash（Fees.Cash/@FeesDotCash Solana手续费指向发射台LIVE+$FEES，粉≈9，CA未核实）、builder-nft（BUILDER Agent NFT/@BUILDERNftCard BNB Agent专属卡0.004BNB铸，粉≈3，CA未核实）；≤2h Conso BOTS freemint今晚23:00CST≈58m（Sui5555 FREE）、INVERA AI产品+代币今晚23:00CST≈58m、Kabuki Killers Public≈今晚23:00CST@0.0015ETH；Ptah Relics minting NOW OPEN；Babie FCFS 21:10已过；续 RaidLords/Fomopoly/Pyre/dotaipad/AAO/Wake/TapeBit/OnlyAgent/Nirium/404id/pair-city/sightline/ink-pod/timecard/ptah-trade/gang-fun/foundry-tape/lurks/mine-ai/agent-fun/furge；日程 UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
