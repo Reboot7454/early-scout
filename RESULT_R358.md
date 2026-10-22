@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: babie190s
 - le2h: TapeOut×TapeXO Giveaway Round2 今晚19:00北京
-- push: PENDING
+- push: ok 0b2e547
 - alertMessage: 18:01CST雷达：新收babie190s（Ink FREE FCFS 450枚今晚21:10CST，GTD已开，粉≈884）；≤2h TapeOut×TapeXO Giveaway Round2今晚19:00北京（跟@TapeOutWorld @xiaozhanyangx @Blonskr+转帖+持≥2晶体管）；续 RaidLords/Fomopoly/Pyre/dotaipad/AAO/Wake/TapeBit/OnlyAgent/Nirium/404id/pair-city/sightline/ink-pod/timecard/ptah-trade；日程 Conso/INVERA今晚23:00CST、UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
