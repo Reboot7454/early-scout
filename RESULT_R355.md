@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: ink-pod, yield-ink, inkvestment-bank, timecard
 - le2h: (none)
-- push: pending
+- push: ok 1031626
 - alertMessage: 15:00CST雷达：新收 Ink Pod/YieldInk/Inkvestment Bankers（Ink极早期NFT·27-54粉）+ Timecard（Ink 7777·10-27 WL freemint·1317粉）；续 RaidLords/Fomopoly/Pyre/dotaipad/AAO/Wake/TapeBit/OnlyAgent/Nirium/404id/pair-city/sightline；日程 Conso/INVERA今晚23:00CST、TapeOut Giveaway今晚19:00北京、UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
