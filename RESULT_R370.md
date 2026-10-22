@@ -1,0 +1,120 @@
+# RESULT R370
+
+- time: 2026-10-23 03:34 CST
+- notify: true
+- xReads: 20
+- discordPeekDeferred: true
+- dsFallback: false
+- newIds: farm-paradise, receipts-coin
+- le2h: (none；lecki-cats 已 SOLD OUT 321，清出 le2h)
+- push: PENDING
+- alertMessage: R370新收录：Farm Paradise（BN Agent Relic即将mint，粉≈1）、Receipts Detective（Solana fair launch soon，粉≈14）。lecki-cats已售罄321。面板 https://reboot7454.github.io/early-scout/ · 2026-10-23 03:34 CST
+
+## summary
+03:34CST 新收 farm-paradise（BN Agent Relic mint soon，粉≈1）与 receipts-coin（Solana fair launch soon，粉≈14）；socialfy疑似换号@socialdot_fun跳过；lecki-cats SOLD OUT 321不再≤2h；Ptah Relics仍OPEN≈12479；UNITS20:00/meimei21-22/nockd23:00非≤2h；Elysium主网11-09与Zero/lzATLAS11-30续；面板 https://reboot7454.github.io/early-scout/
+
+## watches
+{
+  "kinetiq": "主网11-09续；Enter_Elysium再确认；无新Elysium admit",
+  "agentPad": "新收 farm-paradise（BN Agent Relic mint soon）；Ptah仍OPEN≈12479；gang/awpad/dotai软刷",
+  "agentMining": "bgent/Trac软刷；无新agent mining admit",
+  "agentTrading": "Listen/nenbit/meimei软刷；无新agent trading admit",
+  "giwa": "hamr-fun GIWA叙事续；ammora waitlist刷已在库；无新GIWA admit",
+  "zero": "Zero/lzATLAS 11-30续；无新admit",
+  "dogeEvm": "DogeOS Wheel of Doge/referral刷续；无新admit",
+  "starknet": "本窗无新早期；无新admit",
+  "btc": "UNITS Priority今日20:00CST非≤2h；ShieldedNaka/banknotes刷",
+  "tape": "TapeOut TapeFour+防钓鱼续；tape-pool软刷；无新Tape admit",
+  "elysium": "主网11-09官推再确认；无新admit",
+  "lecki": "SOLD OUT 321；不再≤2h"
+}
+
+## skip
+[
+  {
+    "id": "socialfy-rh",
+    "reason": "DS skip：疑似库内 socialfy 换号@socialdot_fun；同品牌 Genesis 500 Free Mint RH，不重收"
+  },
+  {
+    "id": "socialfy",
+    "reason": "已在库；换号续盯软刷，不重收"
+  },
+  {
+    "id": "lecki-cats",
+    "reason": "已收录；SOLD OUT 321软刷，不再≤2h故不单凭售罄重推（本轮因新admit已开notify）"
+  },
+  {
+    "id": "ptah-trade",
+    "reason": "已收录；Relics仍OPEN≈12479软刷，不重收"
+  },
+  {
+    "id": "gang-fun",
+    "reason": "已收录；软刷不重收"
+  },
+  {
+    "id": "bgent",
+    "reason": "R368已收录；软刷不重推"
+  },
+  {
+    "id": "hamr-fun",
+    "reason": "R368已收录；软刷不重推"
+  },
+  {
+    "id": "tape-pool",
+    "reason": "R368已收录；软刷不重推"
+  },
+  {
+    "id": "units-agentic",
+    "reason": "已收录；Priority今日20:00CST非≤2h，不重推"
+  },
+  {
+    "id": "nockd",
+    "reason": "已收录；Launch23:00CST非≤2h，不重推"
+  },
+  {
+    "id": "meimei-rh",
+    "reason": "已收录；今日21:00–22:00CST非≤2h，不重推"
+  },
+  {
+    "id": "nenbit",
+    "reason": "R367已收录；软刷不重推"
+  },
+  {
+    "id": "knights-block",
+    "reason": "R367已收录；软刷不重推"
+  },
+  {
+    "id": "awpad",
+    "reason": "已收录；软刷不重收"
+  },
+  {
+    "id": "serialized",
+    "reason": "已收录；Elysium testnet软刷，不重收"
+  },
+  {
+    "id": "tapebit",
+    "reason": "已收录；PoD叙事软刷，不重收"
+  },
+  {
+    "id": "dotai-pad",
+    "reason": "已收录；软刷不重收"
+  },
+  {
+    "id": "foundry-tape",
+    "reason": "已在库；本窗刷跳过"
+  },
+  {
+    "id": "fomopoly",
+    "reason": "已在库；本窗刷跳过"
+  },
+  {
+    "id": "ammora",
+    "reason": "已在库；本窗刷跳过"
+  }
+]
+
+## dsNote
+deepseek-flash thinking ON；admit→score→alert/summary 经 scripts/ds_batch_score.py + deepseek_chat.py；无高成本模型。admit 2/3（farm-paradise、receipts-coin；socialfy-rh skip）。
+
+## coverage
+全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=20；lecki售罄；新收farm-paradise+receipts-coin
