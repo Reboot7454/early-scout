@@ -8,7 +8,7 @@
 - **dsFallback**: false
 - **newIds**: pupa-fun, farthing-pad, meme-os
 - **le2h**: （无）
-- **push**: pending
+- **push**: ok 700840e
 
 ## alertMessage
 R375新收录：Pupa.fun（BNB内盘仅Binance Agent ID可买LIVE有CA极早期0粉）、Farthing（RH Chain launchpad LIVE官推本窗新建1粉25%LP burn）、MEME OS（五链Omnichain meme发射LIVE自称LZ V2 OFT未核验）。今晚Authority Keys FREE mint 19:00CST、UNITS Priority 20:00、meimei 21-22、nockd 23:00均非≤2h。面板 https://reboot7454.github.io/early-scout/ · 2026-10-23 05:59 CST
