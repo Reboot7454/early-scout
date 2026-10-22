@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: hypermonkes, nockpad, tapesurge
 - le2h: (none)
-- push: pending
+- push: ok 885cd5e
 - alertMessage: 16:01CST雷达：新收 hypermonkes（HL freemint+WL·9粉）+ Nockpad（RH launchpad/CA live·13粉）+ TapeSurge（TapeOut晶涌PoD矿机·BSC测网·20粉）；续 RaidLords/Fomopoly/Pyre/dotaipad/AAO/Wake/TapeBit/OnlyAgent/Nirium/404id/pair-city/sightline/ink-pod/timecard；日程 TapeOut Giveaway今晚19:00北京、Conso/INVERA今晚23:00CST、UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
