@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: nockd, inkora
 - le2h: （无新发现≤2h窗；UNITS今日20:00CST≈19h；Nockd Launch 23:00CST非≤2h但池已开）
-- push: pending
+- push: ok 9881f4d
 - alertMessage: 01:05CST雷达：新收nockd（Nockd/@nockdfun RH·Pons公平发射台LIVE，Drop#001 $NOCKD池已开，Launch 10-23 15:00UTC=23:00CST或池满提前，粉≈29，异于nockpad）、inkora（INKORA/@INKORA_NFT Ink NFT WL LIVE 1000FCFS→350 FREE WL，Free mint≈10-24，粉≈979）；Conso/INVERA/Kabuki仍LIVE不重推；Ptah Relics仍OPEN粉≈600；gang-fun粉≈716；bai-inscription已MINTED OUT+marketplace；awpad软刷粉≈84；日程 UNITS Priority FREE mint 今日20:00CST（非≤2h）、CRC30/Authority Keys 10-23、farming-season NFT 10-24 16:00UTC、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
