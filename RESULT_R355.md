@@ -1,0 +1,35 @@
+# RESULT R355
+
+- time: 2026-10-22 15:00 CST
+- notify: true
+- xReads: 33
+- discordPeekDeferred: true
+- dsFallback: false
+- newIds: ink-pod, yield-ink, inkvestment-bank, timecard
+- le2h: (none)
+- push: pending
+- alertMessage: 15:00CST雷达：新收 Ink Pod/YieldInk/Inkvestment Bankers（Ink极早期NFT·27-54粉）+ Timecard（Ink 7777·10-27 WL freemint·1317粉）；续 RaidLords/Fomopoly/Pyre/dotaipad/AAO/Wake/TapeBit/OnlyAgent/Nirium/404id/pair-city/sightline；日程 Conso/INVERA今晚23:00CST、TapeOut Giveaway今晚19:00北京、UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
+
+## summary
+15:00CST新收Ink Pod/YieldInk/Inkvestment Bankers/Timecard；BN Agent/Tape/Elysium/Zero/GIWA/Doge/Starknet/BTC续；Conso/INVERA今晚23:00、TapeOut Giveaway今晚19:00北京、UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24；Elysium11-09与Zero11-30续；面板 https://reboot7454.github.io/early-scout/
+
+## watches
+{
+  "kinetiq": "主网11-09+Cantina Apex续；本窗AgentK护照梗帖；无新Elysium admit",
+  "agentPad": "yinghubnb/BN Agent ID刷屏续；404id/dotaipad/AAO/Pyre/Wake续；无新BN Agent admit",
+  "agentMining": "Trac开源agentic mining栈+RESET DEX续；本窗无新admit",
+  "agentTrading": "Listen vibe trading续；本窗无新帖可执行；无新admit",
+  "giwa": "官推无本窗新帖；Ammora/Pabal waitlist刷；无新GIWA admit",
+  "zero": "Zero/lzATLAS 11-30续；LZ Core主网倒计时帖续",
+  "dogeEvm": "DogeOS/MyDoge Labs+Monko Mania testnet刷；无新DogeEVM admit",
+  "starknet": "Bramble Chrome续；本窗无新Starknet admit",
+  "btc": "ShieldedNaka/CRC30/UNITS 10-23续；Mannequins/Peelers/Eagles已库；lastChecked 2026-10-22 15:00 CST",
+  "tape": "TapeOut Giveaway Round1已开奖；Round2今晚≈19:00北京；Firsto电路市场+设计赛截止；TapeBit/BEM续",
+  "elysium": "主网11-09；Cantina Apex续；无新admit"
+}
+
+## skip
+[{"id": "badge-launchpad", "reason": "R354已DS skip(已毕业)；本窗无新早期玩法，不回滚"}, {"id": "agenticscredit", "reason": "已5万粉，非极早期；本窗仅讨论帖"}, {"id": "pearl-ai-mining", "reason": "Pearl AI-mining调查帖，非极早期可操作窗口"}, {"id": "qtc-pearl-gpu", "reason": "GPU mining喊单，非新项目推特"}]
+
+## dsNote
+admit候选4→DS admit4→score新收4→alert DS生成后润色时间/日程/面板链；Conso/INVERA今晚23:00CST>2h；TapeOut Giveaway今晚19:00北京≈4h；无≤2h开窗；Elysium11-09与Zero11-30续；Discord deferred
