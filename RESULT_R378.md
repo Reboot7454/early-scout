@@ -1,0 +1,28 @@
+# Early Scout RESULT R378
+
+- **round**: 378
+- **time**: 2026-10-23 07:32 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 19
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: casperlink, gtc-desks, megapad-x, kay9, coinflip-rh
+- **le2h**: (none)
+- **alertMessage**: R378新收录：CasperLink（RH防rug发射台19粉未开盘）、GTC（Solana Grok AI launchpad 3粉有CA）、Megapad（Solana AI influencer pad LIVE 581粉有CA）、KAY9（RH看门狗$KAY9 fair launch未上线59粉）、Coinflip（RH coinflip+$FLIP bonding中477粉）。今晚Authority Keys FREE mint 19:00CST、UNITS Priority 20:00、meimei 21-22、nockd/Meridian 23:00均非≤2h。面板 https://reboot7454.github.io/early-scout/ · 2026-10-23 07:32 CST
+- **summary**: 2026-10-23 07:32 CST 新收 casperlink/gtc-desks/megapad-x/kay9/coinflip-rh；Authority/UNITS/meimei/nockd/Meridian今晚非≤2h；Ptah Relics/Tape/Elysium主网11-09与Zero11-30软刷；全栏续扫；面板 https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=19；新收5；无≤2h
+- **dsNote**: deepseek-flash+thinking；admit/score/alert均DS；无dsFallback；五候选admit=true；casperlink/kay9/coinflip→台子/Meme RH；gtc-desks/megapad-x→台子/Meme Solana AI pad；fee-sweeprs/wowo skip
+- **watches**:
+  - kinetiq: 主网11-09续；AgentK梗帖；Elysium无新On testnet admit
+  - agentPad: Ptah Relics mint热刷（10k Agent ID）；gang/dotai/bibi软刷；无新BN Agent pad admit
+  - agentTrading: Listen vibe续；无新agentic trading admit
+  - agentMining: Trac/fitzy无新早期admit
+  - giwa: Ammora waitlist续；无新GIWA admit
+  - zero: lzATLAS/Zero 11-30续；无新LZ核验admit
+  - dogeEvm: 无新admit
+  - starknet: Bramble软刷；WOWO愿景skip；无新Starknet admit
+  - btc: Authority19:00/UNITS20:00/CRC30 20:00非≤2h；ShieldedNaka软刷
+  - tape: Tape_Pool仍开发中；TapeOut giveaway抽奖今日；无新Tape admit
+  - elysium: 主网11-09续；Serialized testnet既有；无新admit
+- **skip**: fee-sweeprs:偏工具收据层；非mint/launch窗口, wowo-starknet:0粉愿景无产品/时间点, dispatch-cash:R377已收录；软刷, meridian-fi:R377已收录；23:00CST非≤2h, hook-deploy:R377已收录；软刷, scribe-agents:R377已收录；软刷, ptah-trade:Relics mint热续；软刷不重收, gang-fun:BNB Agent pad live；软刷, dotai-pad:BNB live；软刷, bibi-ai:Agent ID首枚免费mint续；软刷, tape-pool:仍开发中；软刷, authority-keys:FREE mint今日19:00CST非≤2h, units-xreign:Priority20:00CST非≤2h, nockd:Launch23:00CST非≤2h, meimei-rh:21:00–22:00CST非≤2h, btc-crc30:今晚20:00公开Mint非≤2h；软刷 …
+- **push**: pending
