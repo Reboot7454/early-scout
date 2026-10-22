@@ -1,0 +1,35 @@
+# RESULT R354
+
+- time: 2026-10-22 14:10 CST
+- notify: true
+- xReads: 32
+- discordPeekDeferred: true
+- dsFallback: false
+- newIds: sightline
+- le2h: (none)
+- push: pending
+- alertMessage: 14:10CST雷达：新收 Sightline（Robinhood事件代币化·今日发$STLN·79粉）；续 RaidLords/Fomopoly/Pyre/dotaipad/AAO/Wake/TapeBit/OnlyAgent/Nirium/404id/pair-city；日程 Conso/INVERA今晚23:00CST、TapeOut Giveaway今晚19:00北京、UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
+
+## summary
+14:10CST新收Sightline；BADGE DS skip(已毕业)；BN Agent/Tape/Elysium/Zero/GIWA/Doge/Starknet/BTC续；Conso/INVERA今晚23:00、TapeOut Giveaway今晚19:00北京、UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24；Elysium11-09与Zero11-30续；面板 https://reboot7454.github.io/early-scout/
+
+## watches
+{
+  "kinetiq": "主网11-09+Cantina Apex续；本窗无新Elysium admit",
+  "agentPad": "BADGE官宣续但DS skip(已毕业)；404id/dotaipad/AAO/Pyre/Wake续",
+  "agentMining": "Trac开源agentic mining栈续；本窗无新帖；无新admit",
+  "agentTrading": "Listen vibe trading续；本窗无新帖；无新admit",
+  "giwa": "官推无本窗新帖；YeonPad/Ammora/Pabal续；无新GIWA admit",
+  "zero": "Zero/lzATLAS 11-30续；LZ Core主网倒计时帖续",
+  "dogeEvm": "DogeOS Vibe Code hackathon+Dogecoin Labs续；无新DogeEVM admit",
+  "starknet": "Bramble Chrome续；本窗多为生态讨论；无新admit",
+  "btc": "ShieldedNaka本窗无新原创；CRC30/UNITS 10-23续; lastChecked 2026-10-22 14:10 CST",
+  "tape": "TapeOut Giveaway Round2今晚19:00北京；TapeBit/BEM/Firsto续",
+  "elysium": "主网11-09；Cantina Apex续；无新admit"
+}
+
+## skip
+[{"id": "badge-launchpad", "reason": "DS skip: 平台币$BADGE已毕业，早期内盘窗口已过；账号2020旧号翻新"}, {"id": "agenticscredit", "reason": "已5万粉，非极早期"}]
+
+## dsNote
+admit候选2→DS admit1(跳过badge-launchpad)→score新收1→alert DS生成后润色时间/日程/面板链；Conso/INVERA今晚23:00CST>2h；TapeOut Giveaway今晚19:00北京≈5h；无≤2h开窗；Elysium11-09与Zero11-30续；Discord deferred
