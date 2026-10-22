@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: baekho, authority-keys, aura-nodes, ink-pixel-ghosts
 - le2h: (none)
-- push: pending
+- push: ok 0ad9725
 - alertMessage: 09:01CST雷达：新收 BAEKHO（GIWA新发射台·Ammora SDK）、Authority Keys（RH 10-23 FREE mint 1000）、AuraNodes（Ink mint LIVE）、Ink Pixel Ghosts（999幽灵 TBA）；日程 Conso/INVERA今晚23:00CST、UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
