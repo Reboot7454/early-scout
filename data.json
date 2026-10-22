@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-23 07:05 CST",
+    "updated": "2026-10-23 07:15 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "R375 X关键词+必扫账号；DS deepseek-flash；discordPeekDeferred",
@@ -3401,7 +3401,20 @@
       "hook-deploy",
       "scribe-agents"
     ],
-    "coverageR377": "R377 2026-10-23 07:05 CST 全栏续扫；新收 dispatch-cash/meridian-fi/hook-deploy/scribe-agents；Authority19:00/UNITS20:00/meimei21-22/nockd23:00/Meridian23:00非≤2h；Elysium主网11-09与Zero/lzATLAS11-30续；Tape_Pool仍开发中；discordPeekDeferred；xReads=20"
+    "coverageR377": "R377 2026-10-23 07:05 CST 全栏续扫；新收 dispatch-cash/meridian-fi/hook-deploy/scribe-agents；Authority19:00/UNITS20:00/meimei21-22/nockd23:00/Meridian23:00非≤2h；Elysium主网11-09与Zero/lzATLAS11-30续；Tape_Pool仍开发中；discordPeekDeferred；xReads=20",
+    "focusFixR377": {
+      "at": "2026-10-23 07:15 CST",
+      "cleared": [
+        "build-ai",
+        "thankful-pad",
+        "larppad",
+        "dispatch-cash",
+        "meridian-fi",
+        "hook-deploy",
+        "scribe-agents"
+      ],
+      "reason": "R376/R377误标 focus=true，台子/打新栏会排除 focus 卡导致本轮新看不见"
+    }
   },
   "candidates": [
     {
@@ -76337,7 +76350,7 @@
       "followers": 4,
       "firstSeen": "2026-10-23 06:32 CST",
       "updatedAt": "2026-10-23 07:05 CST",
-      "focus": true,
+      "focus": false,
       "newThisRound": false
     },
     {
@@ -76390,7 +76403,7 @@
       "followers": 2,
       "firstSeen": "2026-10-23 06:32 CST",
       "updatedAt": "2026-10-23 07:05 CST",
-      "focus": true,
+      "focus": false,
       "newThisRound": false
     },
     {
@@ -76441,7 +76454,7 @@
       "followers": 1,
       "firstSeen": "2026-10-23 06:32 CST",
       "updatedAt": "2026-10-23 07:05 CST",
-      "focus": true,
+      "focus": false,
       "newThisRound": false
     },
     {
@@ -76491,7 +76504,7 @@
       "followers": 53,
       "firstSeen": "2026-10-23 07:05 CST",
       "updatedAt": "2026-10-23 07:05 CST",
-      "focus": true,
+      "focus": false,
       "newThisRound": true
     },
     {
@@ -76540,7 +76553,7 @@
       "followers": 20,
       "firstSeen": "2026-10-23 07:05 CST",
       "updatedAt": "2026-10-23 07:05 CST",
-      "focus": true,
+      "focus": false,
       "newThisRound": true,
       "schedule": "2026-10-23 23:00 CST product+token via pons"
     },
@@ -76589,7 +76602,7 @@
       "followers": 120,
       "firstSeen": "2026-10-23 07:05 CST",
       "updatedAt": "2026-10-23 07:05 CST",
-      "focus": true,
+      "focus": false,
       "newThisRound": true
     },
     {
@@ -76638,7 +76651,7 @@
       "followers": 29,
       "firstSeen": "2026-10-23 07:05 CST",
       "updatedAt": "2026-10-23 07:05 CST",
-      "focus": true,
+      "focus": false,
       "newThisRound": true
     }
   ],
