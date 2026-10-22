@@ -1,0 +1,54 @@
+# RESULT R368
+
+- time: 2026-10-23 02:35 CST
+- notify: true
+- xReads: 17
+- discordPeekDeferred: true
+- dsFallback: false
+- newIds: bgent, hamr-fun, tape-pool
+- le2h: lecki-cats（Free mint 今晚03:00CST，距窗≈25m；8pm Irish=19:00UTC）
+- push: pending
+- alertMessage: 02:35CST雷达：【≤2h】lecki-cats XRPL Free mint 今晚03:00CST（8pm Irish=19:00UTC）距≈25m 粉≈16 供应321含10×1/1 max5/wallet；新收bgent（BGENT/@Bgentweek BN Agent专属挖矿 LIVE 仅.ai Agent ID 粉≈6）、hamr-fun（hamr.fun/@hamrdotfun Solana→GIWA发币台 $HAMR LIVE CA Hxdu…pump 粉≈232）、tape-pool（TapePool/@Tape_Pool TapeOut矿工借贷池开发中 RIG→借BEM 粉≈39）；ascendants-rh DS skip（无明确mint窗粉≈26k）；nenbit/knights-block/meimei-rh不重收；Ptah Relics(12479)/gang/UNITS/nockd/Elysium软刷不重推；UNITS今日20:00CST、nockd Launch23:00CST、meimei 21:00CST均非≤2h；Elysium主网11-09、Zero/lzATLAS 11-30续；面板 https://reboot7454.github.io/early-scout/
+
+## summary
+02:35CST【≤2h】lecki-cats mint 03:00CST须盯；新收bgent（BN Agent挖矿粉≈6）+hamr-fun（GIWA发币台）+tape-pool（Tape借贷池开发中）；ascendants skip；LIVE卡软刷；UNITS20:00/nockd23:00非≤2h；Elysium11-09与Zero11-30续；面板 https://reboot7454.github.io/early-scout/
+
+## watches
+{
+  "kinetiq": "主网11-09续；Enter_Elysium再确认 Mainnet November 9th；serialized软刷；无新Elysium admit",
+  "agentPad": "Ptah Relics仍OPEN 12479 minted / 3119 Agent IDs，粉≈745；gang粉≈741；awpad≈86；无新BN Agent pad admit",
+  "agentMining": "新收bgent（BN Agent专属挖矿 LIVE 粉≈6）；Trac Intercom DEX更新续",
+  "agentTrading": "Listen/nenbit软刷；本窗无新agent trading admit",
+  "giwa": "新收hamr-fun（Solana→GIWA发币台 $HAMR LIVE）；GIWA官号本窗未解析",
+  "zero": "Zero/lzATLAS 11-30续；无新admit",
+  "dogeEvm": "DogeOS刷续；无新admit",
+  "starknet": "本窗无新早期；无新admit",
+  "btc": "UNITS Priority今日20:00CST续；ShieldedNaka/banknotes刷；非≤2h",
+  "tape": "新收tape-pool（矿工借贷开发中）；TapeFour+防钓鱼+Perks R3至10-23；Blonskr矿池倡议",
+  "elysium": "主网11-09官推再确认；无新admit"
+}
+
+## skip
+[
+  {"id": "ascendants-rh", "reason": "DS skip：bio写RH free mint但本窗无明确日期/供应，粉≈26k无清晰早期窗"},
+  {"id": "lecki-cats", "reason": "已收录；本轮≤2h软刷并通知，不重收"},
+  {"id": "nenbit", "reason": "R367已收录；软刷不重推"},
+  {"id": "knights-block", "reason": "R367已收录；软刷不重推"},
+  {"id": "meimei-rh", "reason": "R367已收录；今日21:00CST非≤2h，不重推"},
+  {"id": "ptah-trade", "reason": "已收录；Relics仍OPEN 12479 minted软刷，不重收"},
+  {"id": "gang-fun", "reason": "已收录；粉≈741软刷，不重收"},
+  {"id": "units-agentic", "reason": "已收录；Priority今日20:00CST非≤2h，不重推"},
+  {"id": "nockd", "reason": "已收录；Launch23:00CST非≤2h，不重推"},
+  {"id": "awpad", "reason": "已收录；粉≈86软刷，不重收"},
+  {"id": "serialized", "reason": "已收录；Elysium testnet软刷，不重收"},
+  {"id": "tapebit", "reason": "已收录；PoD叙事软刷，不重收"},
+  {"id": "goat-ranch-club", "reason": "已收录；本窗仅第三方WL赠送刷，不重收"},
+  {"id": "payphone-rh", "reason": "已收录；TBA软刷，不重收"},
+  {"id": "jimmy-ord", "reason": "已收录；社区提及续，不重收"}
+]
+
+## dsNote
+deepseek-flash thinking ON；admit→score→alert 均经 scripts/ds_batch_score.py；无高成本模型。ascendants-rh admit否决。hamr-fun score.admit=false但仍按admit窗保留（GIWA栏早期钩子）。
+
+## coverage
+全部十栏+必扫链+BN Agent+Starknet+BTC+Tape+Elysium；discordPeekDeferred=true；xReads=17
