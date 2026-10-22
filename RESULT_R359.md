@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: foundry-tape
 - le2h: TapeOut×TapeXO Giveaway Round2 今晚19:00北京≈NOW
-- push: pending
+- push: ok 4746d1d
 - alertMessage: 19:05CST雷达：新收foundry-tape（TapeFoundry/TapeOut电路设计屋，粉≈13，本窗RT+丢BSC地址early access限1H，Public launch next）；≤2h TapeOut×TapeXO Giveaway Round2今晚19:00北京≈NOW（跟@TapeOutWorld @xiaozhanyangx @Blonskr+转帖+持≥2晶体管）；续 RaidLords/Fomopoly/Pyre/dotaipad/AAO/Wake/TapeBit/OnlyAgent/Nirium/404id/pair-city/sightline/ink-pod/timecard/ptah-trade/babie190s；日程 Babie Ink FCFS FREE今晚21:10CST、Conso/INVERA今晚23:00CST、UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
