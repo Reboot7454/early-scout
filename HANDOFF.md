@@ -15,6 +15,7 @@
 
 宽屏六列（2026-10-18）：**打新｜挖矿｜台子/Meme｜GO盘｜LayerZero｜Elysium 生态**。
 
+- **硬禁 focus（2026-10-23）**：普通新收录禁止 `focus:true`。台子/打新等栏会排除 focus 卡，误标会导致本轮新看不见。仅 `meta.focusIds` 或仓鼠/实体 PoW toychain（squeekchain 类）可 focus；其它新卡 `focus:false` 或不写。
 - **重点条**：搜索/筛选统计下方、六列**上方**横条（`focus:true` / `meta.focusIds`），**不是**左侧第六列；常驻、与轮次无关。当前 focus 含 squeekchain / TapeAI / Ascend / Enter Elysium 等。
 - **收藏**：用户本机 `localStorage`，例行**勿改**。
 - **zoneOf 互斥优先级**：`Elysium > LayerZero > mining > go > meme > scout`。
