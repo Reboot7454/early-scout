@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: sightline
 - le2h: (none)
-- push: pending
+- push: ok 6c29ac0
 - alertMessage: 14:10CST雷达：新收 Sightline（Robinhood事件代币化·今日发$STLN·79粉）；续 RaidLords/Fomopoly/Pyre/dotaipad/AAO/Wake/TapeBit/OnlyAgent/Nirium/404id/pair-city；日程 Conso/INVERA今晚23:00CST、TapeOut Giveaway今晚19:00北京、UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
