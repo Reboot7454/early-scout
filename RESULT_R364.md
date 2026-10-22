@@ -1,0 +1,147 @@
+# RESULT R364
+
+- time: 2026-10-22 23:59 CST
+- notify: true
+- xReads: 28
+- discordPeekDeferred: true
+- dsFallback: false
+- newIds: bai-inscription, jean-philkins
+- le2h: （无新发现≤2h窗；UNITS明日20:00CST）
+- push: pending
+- alertMessage: 23:59CST雷达：新收bai-inscription（BAI Inscription/@binanceai_BNB BNB仅.ai Agent钱包可铸铭文，Free Mint LIVE只付gas，粉≈75，合约0x0952…D8E7未核实，异于已收录bai-pad发射台）、jean-philkins（Jean Philkins/@JeanPhilkins RH手绘像素NFT，Mint 10-27 18:00CST Public$0.73+1000 FREE WL，粉≈4）；Conso/INVERA/Kabuki仍LIVE（R363已告警本窗不重推）；Ptah Relics仍OPEN粉≈509；gang-fun粉≈694 Day1回购；units-agentic仍MINT粉≈5；日程 UNITS FREE mint 10-23 Priority 12:00UTC=20:00CST、CRC30/Authority Keys 10-23、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
+
+## summary
+23:59CST新收bai-inscription（BN Agent铭文Free Mint LIVE粉≈75，CA未核实，异于bai-pad）+jean-philkins（RH像素NFT 10-27 18:00CST粉≈4）；Conso/INVERA/Kabuki仍LIVE但不重推；Ptah/gang/units-agentic软刷；dogeos-exchange/qdecrypt/fecun DS skip；UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24；Elysium11-09与Zero11-30续；面板 https://reboot7454.github.io/early-scout/
+
+## watches
+{
+  "kinetiq": "主网11-09+Cantina Apex续；serialized testnet软刷；无新Elysium admit",
+  "agentPad": "新收bai-inscription粉≈75；Ptah粉≈509；gang-fun粉≈694；units-agentic粉≈5；dotaipad burn续",
+  "agentMining": "Trac/RESET续；无新admit",
+  "agentTrading": "Listen/furge/packy续；无新admit",
+  "giwa": "官推无新帖；Ammora刷续；无新GIWA admit",
+  "zero": "Zero/lzATLAS 11-30续；无新admit",
+  "dogeEvm": "DogeOSExchange DS skip；Monko刷续；无新admit",
+  "starknet": "无新实质帖；无新admit",
+  "btc": "UNITS/CRC30 10-23续；ShieldedNaka无新帖",
+  "tape": "TapeOut Perks Round3至10-23；无新Tape admit",
+  "elysium": "主网11-09；serialized软刷；无新admit"
+}
+
+## skip
+[
+  {
+    "id": "dogeos-exchange",
+    "reason": "DS admit skip：V1实验launchpad偏testnet，无明确打新窗"
+  },
+  {
+    "id": "qdecryptsol",
+    "reason": "DS admit skip：工具演示无mint窗"
+  },
+  {
+    "id": "fecun-markets",
+    "reason": "DS admit skip：粉0 screener无打新窗"
+  },
+  {
+    "id": "gang-fun",
+    "reason": "已收录；粉≈694 Day1回购软刷，不重收"
+  },
+  {
+    "id": "ptah-trade",
+    "reason": "已收录；Relics仍OPEN软刷，不重收"
+  },
+  {
+    "id": "conso",
+    "reason": "已收录且R363已通知；仍LIVE软刷不重推"
+  },
+  {
+    "id": "invera-ai",
+    "reason": "已收录且R363已通知；仍LIVE软刷不重推"
+  },
+  {
+    "id": "kabuki-killers",
+    "reason": "已收录且R363已通知；Public仍LIVE软刷不重推"
+  },
+  {
+    "id": "units-agentic",
+    "reason": "R363已收录；本窗软刷不重收"
+  },
+  {
+    "id": "packy",
+    "reason": "R363已收录；本窗软刷不重收"
+  },
+  {
+    "id": "bitrix",
+    "reason": "R363已收录；本窗软刷不重收"
+  },
+  {
+    "id": "bai-pad",
+    "reason": "已收录发射台；与新铭文不同项目，软刷粉≈109"
+  },
+  {
+    "id": "jadebound",
+    "reason": "已收录；本窗仅WL GA刷，不重收"
+  },
+  {
+    "id": "serialized",
+    "reason": "已收录；Elysium testnet软刷不重收"
+  },
+  {
+    "id": "foundry-tape",
+    "reason": "已收录；Tape续盯不重收"
+  },
+  {
+    "id": "lurks",
+    "reason": "已收录；软刷不重收"
+  },
+  {
+    "id": "mine-ai",
+    "reason": "已收录；软刷不重收"
+  },
+  {
+    "id": "agent-fun",
+    "reason": "已收录；软刷不重收"
+  },
+  {
+    "id": "furge",
+    "reason": "已收录；软刷不重收"
+  },
+  {
+    "id": "fees-cash",
+    "reason": "已收录；软刷不重收"
+  },
+  {
+    "id": "builder-nft",
+    "reason": "已收录；软刷不重收"
+  },
+  {
+    "id": "obolos",
+    "reason": "仅coming to Elysium，无testnet/deploy证据"
+  },
+  {
+    "id": "hous-fi",
+    "reason": "先前skip续"
+  },
+  {
+    "id": "katai-grid",
+    "reason": "先前score skip续"
+  },
+  {
+    "id": "fendle",
+    "reason": "R363 admit-skip续"
+  },
+  {
+    "id": "ostra-agent",
+    "reason": "R363 admit-skip续"
+  },
+  {
+    "id": "agorean",
+    "reason": "R363 admit-skip续"
+  }
+]
+
+## dsNote
+admit+score+alert均deepseek-flash thinking ON；alert时间手校（Jean Philkins为10-27非今日）
+
+## coverage
+全部十栏+必扫链+BN Agent+Starknet+BTC+Tape+Elysium true
