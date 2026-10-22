@@ -1,0 +1,131 @@
+{
+  "round": 377,
+  "notify": true,
+  "time": "2026-10-23 07:05 CST",
+  "xReads": 20,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "alertMessage": "R377新收录：Dispatch（Base Agentic Trading LIVE 53粉有CA）、Meridian（RH金融终端+代币今日23:00CST经pons 20粉）、Hook Deploy（RH Uniswap v4可编程发币台120粉）、Scribes（Solana agent铭文29粉有CA）。今晚Authority Keys FREE mint 19:00CST、UNITS Priority 20:00、meimei 21-22、nockd/Meridian 23:00均非≤2h。面板 https://reboot7454.github.io/early-scout/ · 2026-10-23 07:05 CST",
+  "newIds": [
+    "dispatch-cash",
+    "meridian-fi",
+    "hook-deploy",
+    "scribe-agents"
+  ],
+  "le2h": [],
+  "coverage": "全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=20；新收4；无≤2h",
+  "summary": "2026-10-23 07:05 CST 新收 dispatch-cash/meridian-fi/hook-deploy/scribe-agents；Authority/UNITS/meimei/nockd/Meridian今晚非≤2h；Ptah/gang/Tape/Elysium主网11-09与Zero11-30软刷；全栏续扫；面板 https://reboot7454.github.io/early-scout/",
+  "push": "pending",
+  "skip": [
+    {
+      "id": "build-ai",
+      "reason": "R376已收录；软刷"
+    },
+    {
+      "id": "thankful-pad",
+      "reason": "R376已收录；软刷"
+    },
+    {
+      "id": "larppad",
+      "reason": "R376已收录；软刷"
+    },
+    {
+      "id": "pupa-fun",
+      "reason": "既有；软刷"
+    },
+    {
+      "id": "farthing-pad",
+      "reason": "既有；软刷"
+    },
+    {
+      "id": "meme-os",
+      "reason": "既有；软刷"
+    },
+    {
+      "id": "ptah-trade",
+      "reason": "Relics续热；软刷"
+    },
+    {
+      "id": "dotai-pad",
+      "reason": "BNB live；软刷"
+    },
+    {
+      "id": "gang-fun",
+      "reason": "BNB Agent pad live；软刷"
+    },
+    {
+      "id": "tape-pool",
+      "reason": "仍开发中；软刷"
+    },
+    {
+      "id": "units-xreign",
+      "reason": "Priority20:00CST非≤2h"
+    },
+    {
+      "id": "nockd",
+      "reason": "Launch23:00CST非≤2h"
+    },
+    {
+      "id": "meimei-rh",
+      "reason": "21:00–22:00CST非≤2h"
+    },
+    {
+      "id": "authority-keys",
+      "reason": "FREE mint今日19:00CST非≤2h"
+    },
+    {
+      "id": "btc-crc30",
+      "reason": "今晚20:00公开Mint非≤2h；既有软刷"
+    },
+    {
+      "id": "inkora",
+      "reason": "既有；Free mint≈10-24；软刷"
+    },
+    {
+      "id": "raidlords",
+      "reason": "既有；软刷"
+    },
+    {
+      "id": "corium",
+      "reason": "既有；软刷"
+    },
+    {
+      "id": "giwa-terminal",
+      "reason": "既有；软刷"
+    },
+    {
+      "id": "rebate-launch",
+      "reason": "既有skip；过热推广"
+    },
+    {
+      "id": "fomopoly",
+      "reason": "既有；软刷"
+    },
+    {
+      "id": "serialized",
+      "reason": "既有Elysium testnet；软刷"
+    },
+    {
+      "id": "full-fun",
+      "reason": "既有skip；过热"
+    },
+    {
+      "id": "elyswap",
+      "reason": "既有skip；无deploy"
+    }
+  ],
+  "watches": {
+    "kinetiq": "主网11-09；AgentK梗帖；无新Elysium admit",
+    "agentPad": "Ptah/gang/dotai/build软刷；无新BN Agent pad",
+    "agentMining": "无新admit",
+    "agentTrading": "新收dispatch-cash；Listen软刷",
+    "giwa": "GiwaTerminal软刷；无新admit",
+    "zero": "11-30续；无新LZ核验admit",
+    "dogeEvm": "无新admit",
+    "starknet": "无新admit",
+    "btc": "Authority19:00/UNITS20:00/CRC30 20:00非≤2h",
+    "tape": "Tape_Pool仍开发中；无新Tape admit",
+    "elysium": "主网11-09续；Serialized testnet既有；无新admit"
+  },
+  "dsNote": "deepseek-flash+thinking；admit/score/alert均DS；score曾整批解析失败后分两批重跑成功；无dsFallback；四候选均admit=true；dispatch→台子/Meme+Agentic Trading；meridian/hook-deploy→台子/Meme RH；scribe-agents→打新 Solana inscription"
+}

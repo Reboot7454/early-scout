@@ -1,0 +1,28 @@
+# Early Scout RESULT R377
+
+- **round**: 377
+- **time**: 2026-10-23 07:05 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 20
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: dispatch-cash, meridian-fi, hook-deploy, scribe-agents
+- **le2h**: (none)
+- **alertMessage**: R377新收录：Dispatch（Base Agentic Trading LIVE 53粉有CA）、Meridian（RH金融终端+代币今日23:00CST经pons 20粉）、Hook Deploy（RH Uniswap v4可编程发币台120粉）、Scribes（Solana agent铭文29粉有CA）。今晚Authority Keys FREE mint 19:00CST、UNITS Priority 20:00、meimei 21-22、nockd/Meridian 23:00均非≤2h。面板 https://reboot7454.github.io/early-scout/ · 2026-10-23 07:05 CST
+- **summary**: 2026-10-23 07:05 CST 新收 dispatch-cash/meridian-fi/hook-deploy/scribe-agents；Authority/UNITS/meimei/nockd/Meridian今晚非≤2h；Ptah/gang/Tape/Elysium主网11-09与Zero11-30软刷；全栏续扫；面板 https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=20；新收4；无≤2h
+- **dsNote**: deepseek-flash+thinking；admit/score/alert均DS；score曾整批解析失败后分两批重跑成功；无dsFallback；四候选均admit=true；dispatch→台子/Meme+Agentic Trading；meridian/hook-deploy→台子/Meme RH；scribe-agents→打新 Solana inscription
+- **watches**:
+  - kinetiq: 主网11-09；AgentK梗帖；无新Elysium admit
+  - agentPad: Ptah/gang/dotai/build软刷；无新BN Agent pad
+  - agentTrading: 新收dispatch-cash；Listen软刷
+  - agentMining: 无新admit
+  - giwa: GiwaTerminal软刷；无新admit
+  - zero: 11-30续；无新LZ核验admit
+  - dogeEvm: 无新admit
+  - starknet: 无新admit
+  - btc: Authority19:00/UNITS20:00/CRC30 20:00非≤2h
+  - tape: Tape_Pool仍开发中；无新Tape admit
+  - elysium: 主网11-09续；Serialized testnet既有；无新admit
+- **skip**: build-ai:R376已收录；软刷, thankful-pad:R376已收录；软刷, larppad:R376已收录；软刷, pupa-fun:既有；软刷, farthing-pad:既有；软刷, meme-os:既有；软刷, ptah-trade:Relics续热；软刷, dotai-pad:BNB live；软刷, gang-fun:BNB Agent pad live；软刷, tape-pool:仍开发中；软刷, units-xreign:Priority20:00CST非≤2h, nockd:Launch23:00CST非≤2h …
+- **push**: pending
