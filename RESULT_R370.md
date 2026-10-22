@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: farm-paradise, receipts-coin
 - le2h: (none；lecki-cats 已 SOLD OUT 321，清出 le2h)
-- push: PENDING
+- push: ok d5e0d04
 - alertMessage: R370新收录：Farm Paradise（BN Agent Relic即将mint，粉≈1）、Receipts Detective（Solana fair launch soon，粉≈14）。lecki-cats已售罄321。面板 https://reboot7454.github.io/early-scout/ · 2026-10-23 03:34 CST
 
 ## summary
