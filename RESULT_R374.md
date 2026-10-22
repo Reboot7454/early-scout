@@ -8,7 +8,7 @@
 - **dsFallback**: false
 - **newIds**: breach-rbh, kazino, vetpad, proof-spirits
 - **le2h**: （无）
-- **push**: pending
+- **push**: ok eabe124
 
 ## alertMessage
 R374新收录：BREACH（RH鲸鱼看板+$BREACH Pons fair launch LIVE有CA）、Kazino（ETH赌场launchpad $KAZINO LIVE有CA）、VetPad（Solana公益meme launchpad极早期）、ProofSpirits（BNB 3333 NFT需Binance Agentic Wallet mint Coming soon）。无≤2h日程。面板 https://reboot7454.github.io/early-scout/ · 2026-10-23 05:33 CST
