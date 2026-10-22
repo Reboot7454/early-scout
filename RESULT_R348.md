@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: copies, sweep, hoodhallz, corium
 - le2h: (none)
-- push: pending
+- push: ok b5f5f03
 - alertMessage: 08:01CST雷达：新收 Copies（RH+Sol跨台同币LIVE）、Sweep（RH NFT Strategy发射台LIVE开源）、Hoodhallz（Golden Leaf free mint预告）、Corium（Sol曲线分成+DUST Week3）；日程 Conso/INVERA今晚23:00CST、UNITS/CRC30 10-23、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
