@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: agent-fun, furge
 - le2h: Babie Ink FCFS FREE 今晚21:10CST≈8m
-- push: pending
+- push: ok 323df37
 - alertMessage: 21:02CST雷达：新收agent-fun（AGENT FUN/@BSCAGENTFUNPAD BSC AI Agent发射台，链上发行即将开放，平台币FLAP CA未核实，粉≈0）、furge（Furge/@furgetrade Ascend orderflow交易终端，token TBA on Ascend，粉≈36）；≤2h Babie Ink FCFS FREE今晚21:10CST≈8m（450枚）；续 RaidLords/Fomopoly/Pyre/dotaipad/AAO/Wake/TapeBit/OnlyAgent/Nirium/404id/pair-city/sightline/ink-pod/timecard/ptah-trade/gang-fun/foundry-tape/lurks/mine-ai/babie190s；日程 Conso/INVERA今晚23:00CST、UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
