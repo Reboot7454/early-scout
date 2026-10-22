@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: bai-inscription, jean-philkins
 - le2h: （无新发现≤2h窗；UNITS明日20:00CST）
-- push: pending
+- push: ok 0303d80
 - alertMessage: 23:59CST雷达：新收bai-inscription（BAI Inscription/@binanceai_BNB BNB仅.ai Agent钱包可铸铭文，Free Mint LIVE只付gas，粉≈75，合约0x0952…D8E7未核实，异于已收录bai-pad发射台）、jean-philkins（Jean Philkins/@JeanPhilkins RH手绘像素NFT，Mint 10-27 18:00CST Public$0.73+1000 FREE WL，粉≈4）；Conso/INVERA/Kabuki仍LIVE（R363已告警本窗不重推）；Ptah Relics仍OPEN粉≈509；gang-fun粉≈694 Day1回购；units-agentic仍MINT粉≈5；日程 UNITS FREE mint 10-23 Priority 12:00UTC=20:00CST、CRC30/Authority Keys 10-23、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
