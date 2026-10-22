@@ -8,7 +8,7 @@
 - **dsFallback**: false
 - **newIds**: bibi-ai, echo-sol, type-262, xmrket, realaunch, exit-liquidity
 - **le2h**: （无）
-- **push**: pending（写完后更新）
+- **push**: ok a021261
 
 ## alertMessage
 R372新收录：BIBIAI（BN Agent NFT/二级，粉≈5）、Echo（Solana创作者pad LIVE）、TYPE/262（域名pump fees LIVE）、XMRket（XMR pad概念）、REALaunch（反解发射有CA）、Exit Liquidity（FREE mint LIVE）。无≤2h日程。面板 https://reboot7454.github.io/early-scout/ · 2026-10-23 04:36 CST
