@@ -9,5 +9,5 @@
 - **newThisRound**: false（中途补收，不搅乱 R356 newIds）
 - **未删卡**: 确认
 - **ROUTINE_PROMPT.txt**: 仓库无此文件，跳过
-- **push hash**: （commit 后回填）
+- **push hash**: 33e8d131ee6ec3c8d85f3c68ba42b4e45aca8707
 
