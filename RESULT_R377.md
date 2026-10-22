@@ -25,4 +25,4 @@
   - tape: Tape_Pool仍开发中；无新Tape admit
   - elysium: 主网11-09续；Serialized testnet既有；无新admit
 - **skip**: build-ai:R376已收录；软刷, thankful-pad:R376已收录；软刷, larppad:R376已收录；软刷, pupa-fun:既有；软刷, farthing-pad:既有；软刷, meme-os:既有；软刷, ptah-trade:Relics续热；软刷, dotai-pad:BNB live；软刷, gang-fun:BNB Agent pad live；软刷, tape-pool:仍开发中；软刷, units-xreign:Priority20:00CST非≤2h, nockd:Launch23:00CST非≤2h …
-- **push**: pending
+- **push**: ok ae2c950
