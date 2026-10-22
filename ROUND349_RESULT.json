@@ -1,0 +1,43 @@
+{
+  "round": 349,
+  "notify": true,
+  "time": "2026-10-22 09:01 CST",
+  "xReads": 32,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "alertMessage": "09:01CST雷达：新收 BAEKHO（GIWA新发射台·Ammora SDK）、Authority Keys（RH 10-23 FREE mint 1000）、AuraNodes（Ink mint LIVE）、Ink Pixel Ghosts（999幽灵 TBA）；日程 Conso/INVERA今晚23:00CST、UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "baekho",
+    "authority-keys",
+    "aura-nodes",
+    "ink-pixel-ghosts"
+  ],
+  "le2h": [],
+  "coverage": "全部十栏+必扫链+BN Agent+Starknet+BTC true",
+  "summary": "09:01CST新收BAEKHO/Authority Keys/AuraNodes/Ink Pixel Ghosts；Conso/INVERA今晚23:00、UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24；Elysium11-09与Zero11-30续；面板 https://reboot7454.github.io/early-scout/",
+  "push": "pending",
+  "skip": [
+    {
+      "id": "quotrons",
+      "reason": "DS skip: RH ERC-404已交易/8379粉过热"
+    },
+    {
+      "id": "sentry-launcher",
+      "reason": "DS skip: Railway安全事件暂停服务非发射窗"
+    }
+  ],
+  "watches": {
+    "kinetiq": "主网11-09+Cantina Apex续；AgentKinetiq passport/e/acc；无新Elysium admit",
+    "agentPad": "dotaipad $.ai分红续；yinghubnb谈台子分流；无新BN Agent admit",
+    "agentMining": "Trac开源agentic mining栈+RESET日报续；无新admit",
+    "agentTrading": "Listen vibe trading平台续；无新agentic trading admit",
+    "giwa": "新收Baekho GIWA发射台；Ammora欢迎；GIWA官推本窗无新帖",
+    "zero": "Zero/lzATLAS 11-30续；LayerZero_Core主网倒计时帖续；无新LZ核验admit",
+    "dogeEvm": "Dogecoin Labs/Ch2/hackathon续；无新DogeEVM admit",
+    "starknet": "Bramble Chrome续；Falcon挑战续；无新admit",
+    "btc": "ShieldedNaka/BANKNOTES软刷新；CRC30/UNITS 10-23续; lastChecked 2026-10-22 09:01 CST",
+    "tape": "TapeAI检察官电路/Firsto/BEM续；无新Tape admit",
+    "elysium": "主网11-09；Cantina Apex；无新admit"
+  },
+  "dsNote": "admit候选6→DS admit4(跳过quotrons/sentry-launcher)→score全收4；alert DS生成后润色时间/日程/面板链；Conso/INVERA今晚23:00CST>2h；AuraNodes已LIVE非≤2h开窗；Elysium11-09与Zero11-30续；Discord deferred"
+}
