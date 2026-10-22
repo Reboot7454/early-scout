@@ -1,0 +1,102 @@
+{
+  "round": 365,
+  "notify": true,
+  "time": "2026-10-23 01:05 CST",
+  "xReads": 33,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "alertMessage": "01:05CST雷达：新收nockd（Nockd/@nockdfun RH·Pons公平发射台LIVE，Drop#001 $NOCKD池已开，Launch 10-23 15:00UTC=23:00CST或池满提前，粉≈29，异于nockpad）、inkora（INKORA/@INKORA_NFT Ink NFT WL LIVE 1000FCFS→350 FREE WL，Free mint≈10-24，粉≈979）；Conso/INVERA/Kabuki仍LIVE不重推；Ptah Relics仍OPEN粉≈600；gang-fun粉≈716；bai-inscription已MINTED OUT+marketplace；awpad软刷粉≈84；日程 UNITS Priority FREE mint 今日20:00CST（非≤2h）、CRC30/Authority Keys 10-23、farming-season NFT 10-24 16:00UTC、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "nockd",
+    "inkora"
+  ],
+  "le2h": [],
+  "coverage": "全部十栏+必扫链+BN Agent+Starknet+BTC+Tape+Elysium true",
+  "summary": "01:05CST新收nockd（RH/Pons公平发射$NOCKD池LIVE粉≈29）+inkora（Ink NFT WL LIVE粉≈979）；tape-pool/papurr/supra/ticker-garden DS skip；Conso/INVERA/Kabuki/Ptah/gang/awpad/bai-inscription/farming-season软刷不重推；UNITS今日20:00CST非≤2h；Elysium11-09与Zero11-30续；面板 https://reboot7454.github.io/early-scout/",
+  "push": "pending",
+  "skip": [
+    {
+      "id": "tape-pool",
+      "reason": "DS admit skip：仅开发中，无LIVE打新/挖矿窗"
+    },
+    {
+      "id": "papurrtrade",
+      "reason": "DS admit skip：Coming soon无LIVE窗"
+    },
+    {
+      "id": "supra-trade",
+      "reason": "DS admit skip：token已上线偏自宣，早期窗过"
+    },
+    {
+      "id": "ticker-garden",
+      "reason": "DS admit skip：仅building声明无LIVE窗"
+    },
+    {
+      "id": "awpad",
+      "reason": "已收录；粉≈84软刷，不重收"
+    },
+    {
+      "id": "ptah-trade",
+      "reason": "已收录；Relics仍OPEN软刷，不重收"
+    },
+    {
+      "id": "gang-fun",
+      "reason": "已收录；粉≈716软刷，不重收"
+    },
+    {
+      "id": "conso",
+      "reason": "已收录且已通知；仍LIVE软刷不重推"
+    },
+    {
+      "id": "invera-ai",
+      "reason": "已收录且已通知；仍LIVE软刷不重推"
+    },
+    {
+      "id": "kabuki-killers",
+      "reason": "已收录且已通知；仍LIVE软刷不重推"
+    },
+    {
+      "id": "bai-inscription",
+      "reason": "R364已收录；本窗MINTED OUT+marketplace软刷不重推"
+    },
+    {
+      "id": "jean-philkins",
+      "reason": "R364已收录；本窗软刷不重收"
+    },
+    {
+      "id": "units-agentic",
+      "reason": "已收录；Priority今日20:00CST软刷不重推"
+    },
+    {
+      "id": "bai-pad",
+      "reason": "已收录发射台；软刷粉≈109"
+    },
+    {
+      "id": "nockpad",
+      "reason": "已收录；异于本轮nockd，不重收"
+    },
+    {
+      "id": "farming-season",
+      "reason": "已收录；NFT mint 10-24软刷不重推"
+    },
+    {
+      "id": "serialized",
+      "reason": "已收录；Elysium testnet软刷不重收"
+    }
+  ],
+  "watches": {
+    "kinetiq": "主网11-09+Cantina Apex续；serialized软刷；无新Elysium admit",
+    "agentPad": "awpad粉≈84软刷；Ptah粉≈600；gang粉≈716；bai-inscription minted out；无新BN Agent admit",
+    "agentMining": "Trac Intercom DEX update续；无新admit",
+    "agentTrading": "Listen/furge/packy续；无新admit",
+    "giwa": "官推无新帖；Ammora刷续；无新GIWA admit",
+    "zero": "Zero/lzATLAS 11-30续；无新admit",
+    "dogeEvm": "DogeOS刷续；无新admit",
+    "starknet": "Bramble无新帖；无新admit",
+    "btc": "UNITS/CRC30 10-23续；ShieldedNaka无新帖",
+    "tape": "TapeOut Perks Round3至10-23；tape-pool开发中skip；无新Tape admit",
+    "elysium": "主网11-09；serialized软刷；无新admit"
+  },
+  "dsNote": "deepseek-flash thinking ON；admit→score→alert 均经 ds_batch_score.py",
+  "coverageDetail": "关键词≈1h + must-watch采样；新收nockd/inkora；UNITS非≤2h"
+}
