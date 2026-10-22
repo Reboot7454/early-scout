@@ -1,0 +1,56 @@
+# RESULT R356
+
+- time: 2026-10-22 16:01 CST
+- notify: true
+- xReads: 31
+- discordPeekDeferred: true
+- dsFallback: false
+- newIds: hypermonkes, nockpad, tapesurge
+- le2h: (none)
+- push: pending
+- alertMessage: 16:01CST雷达：新收 hypermonkes（HL freemint+WL·9粉）+ Nockpad（RH launchpad/CA live·13粉）+ TapeSurge（TapeOut晶涌PoD矿机·BSC测网·20粉）；续 RaidLords/Fomopoly/Pyre/dotaipad/AAO/Wake/TapeBit/OnlyAgent/Nirium/404id/pair-city/sightline/ink-pod/timecard；日程 TapeOut Giveaway今晚19:00北京、Conso/INVERA今晚23:00CST、UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
+
+## summary
+16:01CST新收hypermonkes/Nockpad/TapeSurge；BN Agent/Tape/Elysium/Zero/GIWA/Doge/Starknet/BTC续；TapeOut Giveaway今晚19:00北京、Conso/INVERA今晚23:00CST、UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24；Elysium11-09与Zero11-30续；面板 https://reboot7454.github.io/early-scout/
+
+## watches
+{
+  "kinetiq": "主网11-09+Cantina Apex续；本窗官推无新帖；无新Elysium admit",
+  "agentPad": "yinghubnb/BN Agent ID刷屏续；404id/dotaipad/AAO/Pyre/Wake续；无新BN Agent admit",
+  "agentMining": "Trac开源agentic mining栈续；本窗无新帖；无新admit",
+  "agentTrading": "Listen vibe trading续；本窗无新可执行帖；无新admit",
+  "giwa": "官推本窗无新帖；无新GIWA admit",
+  "zero": "Zero/lzATLAS 11-30续；本窗无新Zero admit",
+  "dogeEvm": "DogeOS/Monko Mania testnet刷续；无新DogeEVM admit",
+  "starknet": "Bramble Chrome续；本窗无新Starknet admit",
+  "btc": "ShieldedNaka/CRC30/UNITS 10-23续；本窗无新BTC admit; lastChecked 2026-10-22 16:01 CST",
+  "tape": "TapeOut Giveaway Round2今晚19:00北京；Firsto设计赛投稿已截止转投票；新收TapeSurge(晶涌PoD)",
+  "elysium": "主网11-09；Cantina Apex续；无新admit"
+}
+
+## skip
+[
+  {
+    "id": "cloakswap",
+    "reason": "DS skip：产品已live多模块、388粉，非极早期mint/launch窗口"
+  },
+  {
+    "id": "stay-rh",
+    "reason": "DS skip：信息薄、尚未mint，缺明确早期动作"
+  },
+  {
+    "id": "yieldfields-rh",
+    "reason": "27k粉，非极早期；本窗仅NFT reveal讨论"
+  },
+  {
+    "id": "badge-launchpad",
+    "reason": "R354已DS skip(已毕业)；本窗无新早期玩法，不回滚"
+  },
+  {
+    "id": "agenticscredit",
+    "reason": "已5万粉，非极早期；本窗无新早期玩法"
+  }
+]
+
+## dsNote
+admit候选5→DS admit3/skip2→score新收3→alert DS生成后润色时间/日程/面板链；TapeOut Giveaway今晚19:00北京≈3h；Conso/INVERA今晚23:00CST>2h；无≤2h开窗；Elysium11-09与Zero11-30续；Discord deferred
