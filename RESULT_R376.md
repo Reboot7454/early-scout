@@ -8,7 +8,7 @@
 - **dsFallback**: false
 - **newIds**: build-ai, thankful-pad, larppad
 - **le2h**: （无）
-- **push**: pending
+- **push**: ok 7306dea
 
 ## alertMessage
 R376新收录：Build（BNB Binance Agent ID Mint=挖矿即将上线4粉无CA）、Thankful Pad（Solana fair-launch挖矿台LIVE 2粉有CA）、LARPpad（Solana meme人设发射台LIVE 1粉有CA）。今晚Authority Keys FREE mint 19:00CST、UNITS Priority 20:00、meimei 21-22、nockd 23:00均非≤2h。面板 https://reboot7454.github.io/early-scout/ · 2026-10-23 06:32 CST
