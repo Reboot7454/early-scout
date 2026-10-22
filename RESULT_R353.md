@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: pair-city, 404id
 - le2h: (none)
-- push: pending
+- push: ok 08e13e5
 - alertMessage: 13:10CST雷达：新收 PairCity（Solana城市配对launchpad·Soon·28粉）、404id（BN Agent ID门槛内盘·CA未核实）；续 RaidLords/Fomopoly/Pyre/dotaipad/AAO/Wake/TapeBit/OnlyAgent/Nirium；日程 Conso/INVERA今晚23:00CST、TapeOut Giveaway今晚19:00北京、UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
