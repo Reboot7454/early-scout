@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: nenbit, knights-block, meimei-rh
 - le2h: lecki-cats（Free mint 今晚03:00CST，R367校正原04:00；8pm Irish=19:00UTC=03:00CST；距窗≈54m）
-- push: pending
+- push: ok d2f6448
 - alertMessage: 02:06CST雷达：【≤2h】lecki-cats XRPL Free mint 今晚03:00CST（8pm Irish=19:00UTC，R367校正原04:00）粉≈16 供应321含10×1/1 max5/wallet；新收nenbit（Nenbit/@Nenbit_app RH拍卖台 $NBT LIVE CA 0x986f…7e43 粉≈14）、knights-block（Knights/@KnightsBlock RH OG NFT free mint 333 WL TBD 粉≈338）、meimei-rh（Meimei/@savemeimeiRH $MEIMEI 今日21:00–22:00CST发射窗 粉≈698 非≤2h）；trenchers DS skip（已live无新早期窗）；onagi/nockd/inkora/Conso/INVERA/Kabuki/Ptah Relics(12479 minted)/gang软刷不重推；UNITS今日20:00CST、nockd Launch23:00CST均非≤2h；Elysium主网11-09、Zero/lzATLAS 11-30续；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
