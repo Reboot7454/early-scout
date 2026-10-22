@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: only-agent, nirium
 - le2h: (none)
-- push: pending
+- push: ok 8f6ddfc
 - alertMessage: 12:10CST雷达：新收 OnlyAgent（Solana AI Agent发射台·$OA Pumpfun LIVE·CA未核实）、Nirium（Stellar AI Agent支付轨·Niriumtober testnet至11-02）；续 RaidLords/Fomopoly/Pyre/dotaipad/AAO/Wake/TapeBit；日程 Conso/INVERA今晚23:00CST、TapeOut Giveaway今晚19:00北京、UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
