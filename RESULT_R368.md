@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: bgent, hamr-fun, tape-pool
 - le2h: lecki-cats（Free mint 今晚03:00CST，距窗≈25m；8pm Irish=19:00UTC）
-- push: pending
+- push: ok b538248
 - alertMessage: 02:35CST雷达：【≤2h】lecki-cats XRPL Free mint 今晚03:00CST（8pm Irish=19:00UTC）距≈25m 粉≈16 供应321含10×1/1 max5/wallet；新收bgent（BGENT/@Bgentweek BN Agent专属挖矿 LIVE 仅.ai Agent ID 粉≈6）、hamr-fun（hamr.fun/@hamrdotfun Solana→GIWA发币台 $HAMR LIVE CA Hxdu…pump 粉≈232）、tape-pool（TapePool/@Tape_Pool TapeOut矿工借贷池开发中 RIG→借BEM 粉≈39）；ascendants-rh DS skip（无明确mint窗粉≈26k）；nenbit/knights-block/meimei-rh不重收；Ptah Relics(12479)/gang/UNITS/nockd/Elysium软刷不重推；UNITS今日20:00CST、nockd Launch23:00CST、meimei 21:00CST均非≤2h；Elysium主网11-09、Zero/lzATLAS 11-30续；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
