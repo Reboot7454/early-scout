@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: packy, units-agentic, bitrix
 - le2h: Conso BOTS freemint NOW LIVE；INVERA AI NOW LIVE；Kabuki Killers Public≈今晚23:00CST
-- push: pending
+- push: ok e5c0835
 - alertMessage: 23:04CST雷达：新收packy（Packy/@usepacky Solana agentic gacha，创作者费喂AI拆Collector Crypt包，粉≈4）、units-agentic（UNITS Agentic/@units_agentic BNB仅AI Agent可铸PFP DN404，MINT OPEN 300/8000@0.00066BNB，粉≈1，与units-xreign无关）、bitrix（BITRIX/@Bitrix_app RH链上拍卖愿景+$BITRIX LIVE，粉≈14，CA未核实）；≤2h Conso BOTS freemint NOW LIVE（5555 FREE）、INVERA AI产品+代币NOW LIVE（官推CA 0x62ac…97b5）、Kabuki Killers Public≈今晚23:00CST@0.0015ETH边界；Ptah Relics仍OPEN；gang-fun粉≈671；Babie FCFS已过；续 RaidLords/Fomopoly/Pyre/dotaipad/AAO/Wake/TapeBit/OnlyAgent/Nirium/404id/pair-city/sightline/ink-pod/timecard/ptah-trade/gang-fun/foundry-tape/lurks/mine-ai/agent-fun/furge/serialized/fees-cash/builder-nft；日程 UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
