@@ -1,0 +1,103 @@
+{
+  "round": 369,
+  "notify": false,
+  "time": "2026-10-23 03:01 CST",
+  "xReads": 20,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "alertMessage": "",
+  "newIds": [],
+  "le2h": [],
+  "coverage": "全部十栏+必扫链+BN Agent+Starknet+BTC+Tape+Elysium；discordPeekDeferred；xReads=20；lecki on hold",
+  "summary": "03:01CST lecki-cats Free mint 官推 on hold（保0 XRP后另定时间）不再≤2h；本轮无新admit（giga-legends/standard-triple/yellow-pro DS skip；pabalx已在库）；Ptah Relics仍OPEN≈12479；UNITS20:00/meimei21:00/nockd23:00非≤2h；Elysium主网11-09与Zero/lzATLAS11-30续；面板 https://reboot7454.github.io/early-scout/",
+  "push": "pending",
+  "skip": [
+    {
+      "id": "giga-legends",
+      "reason": "DS skip：Mint TBA，无明确日期/供应/价格"
+    },
+    {
+      "id": "standard-triple",
+      "reason": "DS skip：Live soon无明确窗，粉≈0"
+    },
+    {
+      "id": "yellow-pro",
+      "reason": "DS skip：人事公告非发射窗"
+    },
+    {
+      "id": "pabalx",
+      "reason": "已在库R314；waitlist刷"
+    },
+    {
+      "id": "lecki-cats",
+      "reason": "已收录；on hold软刷，不再≤2h"
+    },
+    {
+      "id": "ptah-trade",
+      "reason": "已收录；Relics OPEN软刷"
+    },
+    {
+      "id": "gang-fun",
+      "reason": "已收录；软刷"
+    },
+    {
+      "id": "bgent",
+      "reason": "R368已收录；软刷"
+    },
+    {
+      "id": "hamr-fun",
+      "reason": "R368已收录；软刷"
+    },
+    {
+      "id": "tape-pool",
+      "reason": "R368已收录；合并重复+软刷"
+    },
+    {
+      "id": "units-agentic",
+      "reason": "已收录；20:00CST非≤2h"
+    },
+    {
+      "id": "nockd",
+      "reason": "已收录；23:00CST非≤2h"
+    },
+    {
+      "id": "meimei-rh",
+      "reason": "已收录；21:00CST非≤2h"
+    },
+    {
+      "id": "nenbit",
+      "reason": "R367已收录；软刷"
+    },
+    {
+      "id": "knights-block",
+      "reason": "R367已收录；软刷"
+    },
+    {
+      "id": "awpad",
+      "reason": "已收录；软刷"
+    },
+    {
+      "id": "serialized",
+      "reason": "已收录；软刷"
+    },
+    {
+      "id": "tapebit",
+      "reason": "已收录；软刷"
+    }
+  ],
+  "dsNote": "deepseek-flash thinking ON；admit→summary 经 ds_batch_score.py；本轮admit全否决；无高成本模型。",
+  "watches": {
+    "kinetiq": "主网11-09续；无新Elysium admit",
+    "agentPad": "Ptah仍OPEN≈12479；无新admit",
+    "agentMining": "bgent/Trac软刷；无新admit",
+    "agentTrading": "YellowPro skip；无新admit",
+    "giwa": "hamr/pabalx软刷；无新admit",
+    "zero": "11-30续",
+    "dogeEvm": "DogeOS刷续",
+    "starknet": "无新早期",
+    "btc": "UNITS20:00非≤2h",
+    "tape": "TapeFour续；tape-pool软刷",
+    "elysium": "主网11-09续",
+    "lecki": "mint on hold 不再≤2h"
+  }
+}
