@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: pyre-pad, cat-fomo
 - le2h: (none)
-- push: pending
+- push: ok 232c7b1
 - alertMessage: 10:05CST雷达：新收 Pyre（BN Agent-only发射台LIVE·CA未核实）、Cat Fomo（RH Early Access+888 GTD WL）；续 RaidLords 888 FREE mint预告、FluffyPot Wave1 WL；日程 Conso/INVERA今晚23:00CST、UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
