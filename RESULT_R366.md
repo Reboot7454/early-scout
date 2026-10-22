@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: onagi, lecki-cats
 - le2h: （无新发现≤2h窗；UNITS今日20:00CST≈18.5h；nockd Launch 23:00CST；lecki-cats mint≈04:00CST≈2.5h均非≤2h）
-- push: pending
+- push: ok d763f61
 - alertMessage: 01:37CST雷达：新收onagi（Onagi/@tryonagi RH·Agentic交易台LIVE，Tokens/Perps50x/Predict+agent，$ONAGI刚在Pons发射CA 0xbf2f…b9df，粉≈18，74M vesting至2027）、lecki-cats（Lecki Cats/@LeckiCats XRPL NFT Free mint 今晚04:00CST=20:00UTC供应321含10×1/1 max5/wallet，粉≈16，无代币纯fun，非≤2h）；virtual-trade DS score skip（1000x风险过高）；nockd池仍LIVE Launch23:00CST软刷粉≈31；inkora WL粉≈1012软刷；Conso/INVERA/Kabuki/Ptah Relics/gang-fun仍LIVE不重推；日程 UNITS Priority FREE mint 今日20:00CST（非≤2h）、CRC30/Authority Keys 10-23、farming-season NFT 10-24 16:00UTC、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
