@@ -7,7 +7,7 @@
 - dsFallback: false
 - newIds: lurks, mine-ai
 - le2h: Babie Ink FCFS FREE 今晚21:10CST≈1h
-- push: pending
+- push: ok a026b4b
 - alertMessage: 20:05CST雷达：新收lurks（LURKS/@Lurkdot RH匿名发射台 live，粉≈19，CA未核实，50%fee creator/50%burn $LURK）、mine-ai（mine.ai/@mine_ai_agent .ai挖矿发射台上线，粉≈14，仅.ai地址，CA未核实）；≤2h Babie Ink FCFS FREE今晚21:10CST≈1h（450枚）；续 RaidLords/Fomopoly/Pyre/dotaipad/AAO/Wake/TapeBit/OnlyAgent/Nirium/404id/pair-city/sightline/ink-pod/timecard/ptah-trade/gang-fun/foundry-tape/babie190s；日程 Conso/INVERA今晚23:00CST、UNITS/CRC30/Authority Keys 10-23、Rillaz 10-24、Elysium主网11-09、Zero/lzATLAS 11-30；面板 https://reboot7454.github.io/early-scout/
 
 ## summary
