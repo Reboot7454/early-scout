@@ -25,4 +25,4 @@
   - tape: Tape_Pool仍开发中；TapeOut giveaway抽奖今日；无新Tape admit
   - elysium: 主网11-09续；Serialized testnet既有；无新admit
 - **skip**: fee-sweeprs:偏工具收据层；非mint/launch窗口, wowo-starknet:0粉愿景无产品/时间点, dispatch-cash:R377已收录；软刷, meridian-fi:R377已收录；23:00CST非≤2h, hook-deploy:R377已收录；软刷, scribe-agents:R377已收录；软刷, ptah-trade:Relics mint热续；软刷不重收, gang-fun:BNB Agent pad live；软刷, dotai-pad:BNB live；软刷, bibi-ai:Agent ID首枚免费mint续；软刷, tape-pool:仍开发中；软刷, authority-keys:FREE mint今日19:00CST非≤2h, units-xreign:Priority20:00CST非≤2h, nockd:Launch23:00CST非≤2h, meimei-rh:21:00–22:00CST非≤2h, btc-crc30:今晚20:00公开Mint非≤2h；软刷 …
-- **push**: pending
+- **push**: ok d7d7775
