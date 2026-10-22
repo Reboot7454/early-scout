@@ -1,0 +1,80 @@
+# Early Scout RESULT R374
+
+- **round**: 374
+- **time**: 2026-10-23 05:33 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 20
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: breach-rbh, kazino, vetpad, proof-spirits
+- **le2h**: （无）
+- **push**: pending
+
+## alertMessage
+R374新收录：BREACH（RH鲸鱼看板+$BREACH Pons fair launch LIVE有CA）、Kazino（ETH赌场launchpad $KAZINO LIVE有CA）、VetPad（Solana公益meme launchpad极早期）、ProofSpirits（BNB 3333 NFT需Binance Agentic Wallet mint Coming soon）。无≤2h日程。面板 https://reboot7454.github.io/early-scout/ · 2026-10-23 05:33 CST
+
+## summary
+2026-10-23 05:33 CST 新收 breach-rbh/kazino/vetpad/proof-spirits；Ptah/gang/Tape_Pool/UNITS/meimei/nockd软刷非≤2h；Elysium主网11-09与Zero/lzATLAS11-30续；全栏续扫；面板 https://reboot7454.github.io/early-scout/
+
+## coverage
+全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=20；新收4；无≤2h
+
+## watches
+{
+  "kinetiq": "主网11-09；本窗Enter_Elysium无新帖；无新Elysium admit",
+  "agentPad": "Ptah/gang/dotai软刷；新收proof-spirits（BN Agent mint预告）",
+  "agentMining": "无新admit；Trac/fitzy刷",
+  "agentTrading": "ostra/trenchers软刷；Listen刷；无新admit",
+  "giwa": "hamr软刷；无新admit",
+  "zero": "11-30续；无新admit",
+  "dogeEvm": "无新admit",
+  "starknet": "Bramble本窗无新帖；无新admit",
+  "btc": "UNITS20:00非≤2h；ShieldedNaka软刷",
+  "tape": "Tape_Pool仍开发中；无新Tape admit",
+  "elysium": "主网11-09续；无新admit"
+}
+
+## skip
+[
+  {"id": "ostra-agent", "reason": "R373已收录；软刷"},
+  {"id": "bearly", "reason": "R373已收录；软刷"},
+  {"id": "trenchers", "reason": "R373已收录；软刷"},
+  {"id": "stocks-roblox", "reason": "R373已收录；软刷"},
+  {"id": "ptah-trade", "reason": "Relics live续；软刷"},
+  {"id": "dotai-pad", "reason": "BNB live；软刷"},
+  {"id": "gang-fun", "reason": "BNB Agent pad live；软刷"},
+  {"id": "tape-pool", "reason": "仍开发中；软刷"},
+  {"id": "units-xreign", "reason": "Priority20:00CST非≤2h"},
+  {"id": "nockd", "reason": "Launch23:00CST非≤2h"},
+  {"id": "meimei-rh", "reason": "21:00–22:00CST非≤2h"},
+  {"id": "afterflow", "reason": "Free mint Oct26非≤2h；软刷"},
+  {"id": "farming-season", "reason": "既有；Free mint Oct24非≤2h；软刷"},
+  {"id": "hamr-fun", "reason": "GIWA叙事续；软刷"},
+  {"id": "bibi-ai", "reason": "既有；软刷"},
+  {"id": "echo-sol", "reason": "既有；软刷"},
+  {"id": "type-262", "reason": "既有；软刷"},
+  {"id": "xmrket", "reason": "既有；软刷"},
+  {"id": "realaunch", "reason": "既有；软刷"},
+  {"id": "exit-liquidity", "reason": "既有；软刷"},
+  {"id": "full-fun", "reason": "既有skip；过热"},
+  {"id": "centinel", "reason": "既有skip；细节不足"},
+  {"id": "dvd-meteora", "reason": "既有skip；无入口"},
+  {"id": "ordi-agent-rumor", "reason": "既有skip；无官推"},
+  {"id": "sign-family", "reason": "既有skip"},
+  {"id": "bites-lab", "reason": "既有skip"},
+  {"id": "elyswap", "reason": "既有skip；无deploy"},
+  {"id": "giga-legends", "reason": "既有skip；仅TBA"},
+  {"id": "onepad", "reason": "既有；软刷"},
+  {"id": "merged-finance", "reason": "既有；软刷"},
+  {"id": "claw-hub", "reason": "既有；软刷"},
+  {"id": "elysium-orbit", "reason": "既有；软刷"},
+  {"id": "pairpad-lab", "reason": "既有；软刷"},
+  {"id": "squash-agent", "reason": "既有；软刷"},
+  {"id": "fomopoly", "reason": "既有；软刷"},
+  {"id": "vaultstreet", "reason": "既有；软刷"},
+  {"id": "vearl", "reason": "既有；testnet关闭临近；软刷"},
+  {"id": "wobbleheads", "reason": "既有；Oct24 free mint非≤2h；软刷"}
+]
+
+## dsNote
+deepseek-flash+thinking；admit/score/alert均DS；无dsFallback；首轮score对breach/kazino/vetpad过严后补上下文重score全部admit=true
