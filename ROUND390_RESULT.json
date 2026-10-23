@@ -1,0 +1,84 @@
+{
+  "round": 390,
+  "notify": true,
+  "time": "2026-10-23 13:37 CST",
+  "xReads": 20,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "alertMessage": "10/23 13:37 无新收。≤2h：gearz 官推确认 Minting is open（至10-30 05:00UTC或售罄，需Agent ID，合约0xc285…2D56）；binance-ai-agents 官推仍称几小时内上线/Sleep at your own risk（本窗无新帖确认已开）。今晚非≤2h：authority-keys 19:00、units-xreign/btc-crc30 20:00、meimei-rh 21-22、nockd/meridian-fi 23:00。面板 https://reboot7454.github.io/early-scout/",
+  "newIds": [],
+  "le2h": [
+    "gearz（官推确认 Minting is open，至10-30 05:00UTC或售罄，需Agent ID）",
+    "binance-ai-agents（官推仍称几小时内上线 / Sleep at your own risk）"
+  ],
+  "coverage": "全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=20；新收0；le2h=gearz+binance-ai-agents",
+  "summary": "2026-10-23 13:37 CST 第390轮：无新收；≤2h：gearz Minting已开、binance-ai-agents仍几小时内；今晚非≤2h排期续盯；软刷 hashdroids/Ptah/Tape/Listen/Trac；base-mystery/moar DS skip；discordPeekDeferred；面板 https://reboot7454.github.io/early-scout/",
+  "push": "pending",
+  "dsNote": "deepseek-flash+thinking；admit(moar-dogeos/gearz-re/binance-ai-agents-re skip；base-mystery-fair DS admit但无项目官推硬规则覆盖skip)/alert均DS；无dsFallback",
+  "skip": [
+    {
+      "id": "moar-dogeos",
+      "reason": "无官推仅社区教程 DS skip"
+    },
+    {
+      "id": "base-mystery-fair",
+      "reason": "无项目官推硬规则覆盖DS admit"
+    },
+    {
+      "id": "gearz",
+      "reason": "R383已收；Minting已开≤2h软刷不重收"
+    },
+    {
+      "id": "binance-ai-agents",
+      "reason": "R383已收；仍≤2h软刷不重收"
+    },
+    {
+      "id": "hashdroids",
+      "reason": "R388已收软刷"
+    },
+    {
+      "id": "ospad",
+      "reason": "R388已收软刷"
+    },
+    {
+      "id": "etch-fund",
+      "reason": "R388已收软刷"
+    },
+    {
+      "id": "kol-brain",
+      "reason": "R385已收软刷"
+    },
+    {
+      "id": "ember-world",
+      "reason": "R383已收软刷"
+    },
+    {
+      "id": "ptah-trade",
+      "reason": "Relics售罄非新早期软刷"
+    },
+    {
+      "id": "authority-keys",
+      "reason": "FREE mint今日19:00CST非≤2h"
+    },
+    {
+      "id": "units-xreign",
+      "reason": "Priority20:00CST非≤2h"
+    },
+    {
+      "id": "btc-crc30",
+      "reason": "今晚20:00公开Mint非≤2h"
+    },
+    {
+      "id": "meimei-rh",
+      "reason": "21:00–22:00CST非≤2h"
+    },
+    {
+      "id": "nockd",
+      "reason": "Launch23:00CST非≤2h"
+    },
+    {
+      "id": "meridian-fi",
+      "reason": "23:00CST非≤2h"
+    }
+  ]
+}

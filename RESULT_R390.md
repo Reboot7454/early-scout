@@ -1,0 +1,28 @@
+# Early Scout RESULT R390
+
+- **round**: 390
+- **time**: 2026-10-23 13:37 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 20
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: []
+- **le2h**: gearz（官推确认 Minting is open，至10-30 05:00UTC或售罄，需Agent ID）; binance-ai-agents（官推仍称几小时内上线 / Sleep at your own risk）
+- **alertMessage**: 10/23 13:37 无新收。≤2h：gearz 官推确认 Minting is open（至10-30 05:00UTC或售罄，需Agent ID，合约0xc285…2D56）；binance-ai-agents 官推仍称几小时内上线/Sleep at your own risk（本窗无新帖确认已开）。今晚非≤2h：authority-keys 19:00、units-xreign/btc-crc30 20:00、meimei-rh 21-22、nockd/meridian-fi 23:00。面板 https://reboot7454.github.io/early-scout/
+- **summary**: 2026-10-23 13:37 CST 第390轮：无新收；≤2h：gearz Minting已开、binance-ai-agents仍几小时内；今晚非≤2h排期续盯；软刷 hashdroids/Ptah/Tape/Listen/Trac；base-mystery/moar DS skip；discordPeekDeferred；面板 https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=20；新收0；le2h=gearz+binance-ai-agents
+- **dsNote**: deepseek-flash+thinking；admit(moar-dogeos/gearz-re/binance-ai-agents-re skip；base-mystery-fair DS admit但无项目官推硬规则覆盖skip)/alert均DS；无dsFallback；无新收故无focus字段
+- **watches**:
+  - kinetiq: 主网11-09续；无新On testnet admit；serialized/kalos软刷
+  - agentPad: gearz Minting已开≤2h；binance-ai-agents仍几小时内；ospad Soon；Ptah售罄软刷
+  - agentTrading: Listen续；无新agentic trading admit
+  - agentMining: gearz开铸≤2h；hashdroids buyback&burn软刷；Trac续
+  - giwa: Gamapad/Ammora/Pabal刷分续
+  - zero: lzATLAS/Zero 11-30续
+  - dogeEvm: DogeOS Chapter2/Wheel刷分续
+  - starknet: Bramble本窗无新帖
+  - btc: ShieldedNaka/etch-fund软刷；CRC30今晚20:00非≤2h
+  - tape: TapePool/Foundry软刷；无新电路admit
+  - elysium: 主网11-09；serialized testnet续；无新admit
+- **skip**: moar-dogeos:无官推仅社区教程 DS skip, base-mystery-fair:无项目官推硬规则覆盖DS admit, gearz:R383已收；Minting已开≤2h软刷不重收, binance-ai-agents:R383已收；仍≤2h软刷不重收, hashdroids:R388已收软刷, ospad:R388已收软刷, etch-fund:R388已收软刷, kol-brain:R385已收软刷, ember-world:R383已收软刷, ptah-trade:Relics售罄非新早期软刷, dotaipad:既有软刷, gang-fun:既有软刷, signet-fun:R382已收软刷, tape-pool:既有软刷, listen-money:既有软刷, trac-reset:既有软刷, authority-keys:FREE mint今日19:00CST非≤2h, units-xreign:Priority20:00CST非≤2h, btc-crc30:今晚20:00公开Mint非≤2h, meimei-rh:21:00–22:00CST非≤2h, nockd:Launch23:00CST非≤2h, meridian-fi:23:00CST非≤2h, foundry-tape:R359已收软刷, jimmy-ord:已收软刷, fomopoly:rarelist线skip续, niulai-spam:DS skip续, shaniu:无官推skip续, borly:空号风险skip续, giga-legends:粉高skip续, reign-tech:非极早期skip续, skeletoads:普通NFT skip续, sili-rig:非独立官推skip续, slotforge:空号skip续, dianshitai:真实性skip续, fealty-club:非极早期skip续, quip-network:过热skip续, go-incognito:R380 skip续, rarelist:过热, chimpx-ai:非极早期, shit-cash:过热skip续, ducat:粉高非极早期, compi:非mint skip续, timery:非加密mint skip续, whodl-bot:研究机器人 skip续
+- **push**: (pending)
