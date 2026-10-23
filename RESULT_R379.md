@@ -1,0 +1,28 @@
+# Early Scout RESULT R379
+
+- **round**: 379
+- **time**: 2026-10-23 08:10 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 21
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: evm-bot
+- **le2h**: (none)
+- **alertMessage**: 本轮新收录 evm-bot（全EVM个人链上bot）Early Access 约24h，1931粉无CA、可一键deploy/launch/trade；面板 https://reboot7454.github.io/early-scout/ ；10-23 08:10 CST 发布，今晚排期均非≤2h。
+- **summary**: 2026-10-23 08:10 CST 新收录 evm-bot；今晚非≤2h重点排期：authority-keys 19:00、units-xreign/btc-crc30 20:00、meimei-rh 21-22、nockd/meridian-fi 23:00；Ptah Relics等软刷延至11月，全栏续扫见面板：https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=21；新收1；无≤2h
+- **dsNote**: deepseek-flash+thinking；admit/score/alert/summary均DS；无dsFallback；evm-bot admit=true；night-shift-rh/stable402/koala-tape/phew-pro skip
+- **watches**:
+  - kinetiq: 主网11-09续；Enter_Elysium Mainnet Nov9；无新On testnet admit
+  - agentPad: Ptah Relics 10k Agent ID+trading UI；build-ai mint即挖矿预告；无新BN Agent pad admit
+  - agentTrading: Listen vibe续；新收evm-bot EA
+  - agentMining: Trac Intercom DEX/RESET续；fitzy软刷；无新早期admit
+  - giwa: Ammora/Baekho续；无新GIWA admit
+  - zero: lzATLAS/Zero 11-30续；无新LZ核验admit
+  - dogeEvm: 无新admit
+  - starknet: Bramble软刷；无新Starknet admit
+  - btc: Authority19:00/UNITS20:00/CRC30 20:00/meimei21-22/nockd·Meridian23:00非≤2h
+  - tape: TapeAI Agent Factory叙事+Koala builder软刷不收；无新Tape admit
+  - elysium: 主网11-09；Serialized testnet既有；无新admit
+- **skip**: night-shift-rh:账号今日新建仅2粉纸面策略rug风险高, stable402:x402结算infra无CA非直接打新, koala-tape:TapeOut builder无mint/CA偏讨论, phew-pro:RH教学站非新资产发射, build-ai:R376已收；mint即挖矿预告软刷, ptah-trade:Relics热续+UI live；软刷, units-agentic:既有；软刷, baekho:AmmoraEco推文续；既有, authority-keys:FREE mint今日19:00CST非≤2h, units-xreign:Priority20:00CST非≤2h, nockd:Launch23:00CST非≤2h, meimei-rh:21:00–22:00CST非≤2h, btc-crc30:今晚20:00公开Mint非≤2h, meridian-fi:R377已收；23:00CST非≤2h, emblem-agent:既有发射台10k粉非极早期新窗, casperlink/gtc-desks/megapad-x/kay9/coinflip-rh:R378新勿重收
+- **push**: (pending)
