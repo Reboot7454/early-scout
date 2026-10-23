@@ -1,0 +1,28 @@
+# Early Scout RESULT R384
+
+- **round**: 384
+- **time**: 2026-10-23 10:36 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 20
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: launch-on-eve, simpla-fun
+- **le2h**: binance-ai-agents（官推：几小时内上线 / Sleep at your own risk）
+- **alertMessage**: 10/23 10:36 新收录2个：launch-on-eve（Eve Agent繁殖launchpad）、simpla-fun（SIMPLA Solana任务型Agent代币simulation）；≤2h：binance-ai-agents官推几小时内上线，面板 https://reboot7454.github.io/early-scout/
+- **summary**: 2026-10-23 10:36 CST 第384轮续扫：新收录 launch-on-eve（@LaunchOnEve，Agent繁殖launchpad，≈30粉）、simpla-fun（@SimplaFun，Solana任务型Agent代币simulation，≈0粉）；≤2h：binance-ai-agents官推几小时内上线；今晚非≤2h：authority-keys 19:00、units-xreign/btc-crc30 20:00、meimei-rh 21-22、nockd/meridian-fi 23:00；面板 https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=20；新收2；le2h=binance-ai-agents
+- **dsNote**: deepseek-flash+thinking；admit/score/alert均DS；无dsFallback；dianshitai DS曾admit但硬规则真实性skip；新收2 focus=false
+- **watches**:
+  - kinetiq: 主网11-09续；无新On testnet admit
+  - agentPad: 软刷gearz+binance-ai-agents临近上线；Ptah≈95k；dianshitai skip
+  - agentTrading: Listen续；无新admit
+  - agentMining: Trac续；gearz机制软刷
+  - giwa: Gamapad/Ammora/pabalx刷分续
+  - zero: lzATLAS/Zero 11-30续
+  - dogeEvm: Monko/DogeOS testnet刷分续
+  - starknet: Bramble本窗无新帖
+  - btc: 今晚排期均非≤2h
+  - tape: ember-world软刷；无新电路admit
+  - elysium: 主网11-09；Serialized testnet续；无新admit
+- **skip**: dianshitai:账号Good Ol Boy/真实性存疑；Mint时间未定 硬规则skip（DS曾admit但覆盖）, fealty-club:≈4123粉；free mint仅为社区提及 DS skip, quip-network:≈11.4万粉过热 DS skip, gearz:R383已收；机制帖软刷, binance-ai-agents:R383已收；临近上线→le2h软刷不重收, ember-world:R383已收软刷, ptah-trade:Relics≈95k/24.4k Agent ID；交易UI live软刷；非新早期, dotai-pad:既有；BNB live软刷, gang-fun:既有；BNB Agent pad软刷, signet-fun:R382已收软刷, agentpad-trade:R381已收软刷, circuit-pay:R380已收软刷, badge-launchpad:R380已收软刷, tape-robot:R380已收软刷, tape-pool:既有；App coming soon软刷, listen-money:既有软刷, trac-reset:既有；Intercom DEX软刷, authority-keys:FREE mint今日19:00CST非≤2h, units-xreign:Priority20:00CST非≤2h, btc-crc30:今晚20:00公开Mint非≤2h, meimei-rh:21:00–22:00CST非≤2h, nockd:Launch23:00CST非≤2h, meridian-fi:R377已收；23:00CST非≤2h, go-incognito:R380 skip续, xochi-fi:Agentic Dark Pool infra非直接打新, rarelist:过热非极早期, chimpx-ai:非极早期, farming-season:既有；Free mint Saturday非本窗≤2h, ostra-agent:R375已收；$OSTRA agent launchpad RH续勿重收, bramble-fi:Starknet软刷；本窗无新帖, ammora:既有GIWA软刷, gamapad:既有GIWA软刷, pabalx:既有GIWA软刷, baekho:既有, paperbird:既有软刷, serialized:R362已收；Elysium testnet官推续, kalosfun:既有Elysium, shit-cash:过热；无明确极早期窗口 skip续
+- **push**: pending
