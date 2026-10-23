@@ -6,7 +6,7 @@
 - **xReads**: 29
 - **discordPeekDeferred**: true
 - **dsFallback**: false
-- **push**: (see ROUND412_RESULT.json after push)
+- **push**: ok 39af9d8
 - **newIds**: `steam-foundry`
 - **le2h** (first reminders this round): `nockd`, `meridian-fi`
 - **alreadyReminded (no re-notify)**: stocker-punk, meimei-rh (R407); cairnlabs (R410); authority-keys, units-xreign, btc-crc30
