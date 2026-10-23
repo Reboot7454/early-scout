@@ -1,0 +1,91 @@
+{
+  "round": 425,
+  "time": "2026-10-24 01:02 CST",
+  "notify": true,
+  "alertMessage": "【early-scout】新收：xuanwu-sigil(@Leeonmort)是 BNB Agent ID EX-00 Sigil 首枚免费；agent-aib(@agent_aib)是 BNB 1000机器人NFT，4U；zion-ascii(@zionnull)是 ASCII NFT，由 Agent 代 mint；ink-cultist(@InkCultist)是 Ink knives 仪式 mint。面板：https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "xuanwu-sigil",
+    "agent-aib",
+    "zion-ascii",
+    "ink-cultist"
+  ],
+  "le2h": [],
+  "xReads": 21,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "push": "pending",
+  "summary": "R425 新增 xuanwu-sigil、agent-aib、zion-ascii、ink-cultist；软刷 pipfun/gang/yinghu/elysium/jager/agentpunk/listen/tapeai/bramble；跳过 lease-amm/vauban-pay/IThinkItsArt；全栏抽检无 Tape/GIWA/Zero/DogeEVM/挖矿新极早期卡（vearl已提醒不重通知）。",
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/Tape/GIWA/DogeEVM/BN Agent/Agentic Trading/BTC/Starknet/Zero",
+  "admits": [
+    {
+      "id": "xuanwu-sigil",
+      "handle": "Leeonmort",
+      "followers": 497,
+      "scores": {
+        "early": 88,
+        "actionable": 76,
+        "novelty": 62,
+        "risk": 62,
+        "overall": 68
+      }
+    },
+    {
+      "id": "agent-aib",
+      "handle": "agent_aib",
+      "followers": 48,
+      "scores": {
+        "early": 86,
+        "actionable": 58,
+        "novelty": 45,
+        "risk": 80,
+        "overall": 42
+      }
+    },
+    {
+      "id": "zion-ascii",
+      "handle": "zionnull",
+      "followers": 111,
+      "scores": {
+        "early": 84,
+        "actionable": 55,
+        "novelty": 58,
+        "risk": 72,
+        "overall": 50
+      }
+    },
+    {
+      "id": "ink-cultist",
+      "handle": "InkCultist",
+      "followers": 1839,
+      "scores": {
+        "early": 70,
+        "actionable": 68,
+        "novelty": 55,
+        "risk": 55,
+        "overall": 58
+      }
+    }
+  ],
+  "skips": [
+    "lease-amm",
+    "vauban-pay",
+    "ithinkitsart",
+    "gamapad-already",
+    "vaultstreet-already",
+    "ngmi-wagmi-already",
+    "agent-city-already",
+    "forever-protocol-already"
+  ],
+  "watches": [
+    "kinetiqWatch",
+    "elysiumWatch",
+    "agentPadWatch",
+    "agentTradingWatch",
+    "agentMiningWatch",
+    "tapeWatch",
+    "giwaWatch",
+    "zeroWatch",
+    "dogeEvmWatch",
+    "starknetWatch"
+  ]
+}
