@@ -1,0 +1,63 @@
+{
+  "round": 435,
+  "time": "2026-10-24 04:02 CST",
+  "notify": true,
+  "alertMessage": "【early-scout】新收：limen(@limenonhl) HyperEVM发射台LIVE（Elysium主网后同价跨桥）；ripples(@ripplesdotrun) RH+Solana双链bonding已开。面板：https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "limen",
+    "ripples"
+  ],
+  "le2h": [],
+  "xReads": 20,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "push": "pending",
+  "summary": "R435 新增 limen、ripples；软刷 pipfun/gang/moat/tape/elysium；skip auryn近售罄/PoA/已收pads；StonksPad10/26与Elysium11/09非≤2h；discordPeekDeferred；xReads=20。",
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/Tape/GIWA/DogeEVM/BN Agent/Agentic Trading/BTC/Starknet/Zero",
+  "admits": [
+    {
+      "id": "limen",
+      "handle": "limenonhl",
+      "followers": 3,
+      "scores": {
+        "early": 95,
+        "actionable": 28,
+        "novelty": 55,
+        "risk": 88,
+        "overall": 47
+      }
+    },
+    {
+      "id": "ripples",
+      "handle": "ripplesdotrun",
+      "followers": 477,
+      "scores": {
+        "early": 82,
+        "actionable": 62,
+        "novelty": 68,
+        "risk": 45,
+        "overall": 64
+      }
+    }
+  ],
+  "skips": [
+    "auryn-near-soldout",
+    "proof-of-agent-hot",
+    "lunatic-wallet-claim-only",
+    "creora-not-early-pad",
+    "termix-established",
+    "gamapad-already",
+    "rebate-already",
+    "torchpad-already",
+    "moat-soft-refresh",
+    "pipfun-v2-soft",
+    "gang-soft",
+    "stonks-pad-not-le2h",
+    "elysium-mainnet-not-le2h",
+    "listen-soft",
+    "ammora-already",
+    "nulora-already",
+    "monko-already",
+    "pumpfun-noise"
+  ]
+}
