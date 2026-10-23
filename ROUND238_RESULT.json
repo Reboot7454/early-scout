@@ -1,0 +1,32 @@
+{
+  "round": 238,
+  "completedAt": "2026-10-19 01:05 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "peek-gap-fill",
+  "source": "Discord #alpha-1 Spidey Twitter Follow Monitor (one-shot; no full X timeline restore)",
+  "commit": "1749b1bf6c2537de3ae56d1db15dd09fa934fbc3",
+  "commitShort": "1749b1b",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "repo": "Reboot7454/early-scout",
+  "notify": true,
+  "notifyReason": "5 新收录（Discord Peek补漏）",
+  "alertMessage": "Peek补漏新收：ink.fun（Ink台子）、Raised（Solana/Meteora台子）、NicroFinance（RH打新）、INK NEEDLES（Ink NFT）、evm.chat（EVM social）；面板：https://reboot7454.github.io/early-scout/",
+  "admitted": [
+    {"id": "inkfun", "zone": "台子/Meme", "handle": "@inkfun_", "name": "ink.fun", "chain": "Ink", "followers": 234},
+    {"id": "nicrofinance", "zone": "打新", "handle": "@NicroFinance", "name": "NicroFinance", "chain": "Robinhood", "followers": 18},
+    {"id": "raisedmoney", "zone": "台子/Meme", "handle": "@raisedmoney", "name": "Raised", "chain": "Solana", "followers": 126},
+    {"id": "needles-on-ink", "zone": "打新", "handle": "@NEEDLES_ON_INK", "name": "INK NEEDLES", "chain": "Ink", "followers": 1, "note": "DS admit:false override — task day-one NFT Peek"},
+    {"id": "evmdotchat", "zone": "打新", "handle": "@evmdotchat", "name": "evm.chat", "chain": "EVM", "followers": 990}
+  ],
+  "skippedDeduped": [
+    {"handle": "@UnrulyHQ", "id": "unruly", "reason": "already in data.json r18"},
+    {"handle": "@0Zero_Fun", "id": "0zero-fun", "reason": "already in data.json r4 (新台; lzVerified stays false)"},
+    {"handle": "@brainfartswtf", "id": "brainfarts", "reason": "already in data.json r176"},
+    {"handle": "@CathereumTech", "id": "cathereum", "reason": "already in data.json r99"},
+    {"handle": "@xstokfun", "id": "xstokfun", "reason": "already in data.json r83; whatsNew unchanged"}
+  ],
+  "skippedKol": ["@0xRyderr", "@TheMaran"],
+  "dsUsage": {"model": "deepseek-flash", "thinking": true, "mode": "score", "items": 5},
+  "candidateCount": 656,
+  "metaRound": 238
+}

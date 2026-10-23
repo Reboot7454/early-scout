@@ -1,0 +1,148 @@
+{
+  "round": 119,
+  "updated": "2026-10-17 04:34 CST",
+  "push": "ok",
+  "commit": "30b03f274e2775ff37729bff7f3736291ae7da6e",
+  "remote": "verified",
+  "newAdmits": [
+    {
+      "id": "agent-apow",
+      "name": "$AGENT Agentic PoW",
+      "handle": "@AgenticPoW",
+      "zone": "挖矿"
+    },
+    {
+      "id": "pumpmine",
+      "name": "Pumpmine",
+      "handle": "@pumpminenet",
+      "zone": "台子/Meme"
+    }
+  ],
+  "actionableWithin2h": [
+    {
+      "id": "onchain-everyday-people",
+      "name": "Onchain Everyday People",
+      "when": "2026-10-17 05:20 CST",
+      "window": "WL ccff00+ 止→PUBLIC 0.00041 ETH",
+      "price": "0.00021→0.00041 ETH",
+      "x": "https://x.com/OCEvrydaypeople",
+      "kind": "mint"
+    },
+    {
+      "id": "hood-munstas",
+      "name": "HOOD MUNSTAS",
+      "when": "2026-10-17 05:30 CST",
+      "window": "GTD→FCFS FREE",
+      "price": "FREE",
+      "x": "https://x.com/glyf82",
+      "kind": "mint"
+    },
+    {
+      "id": "robin-frens",
+      "name": "Robin Frens",
+      "when": "2026-10-17 05:30 CST",
+      "window": "FCFS2→PUBLIC FREE",
+      "price": "FREE",
+      "x": "https://x.com/robinfrens_art",
+      "kind": "mint"
+    },
+    {
+      "id": "punkt",
+      "name": "Punkt",
+      "when": "2026-10-17 06:00 CST",
+      "window": "PUBLIC 开",
+      "price": "0.00005 ETH",
+      "x": "https://x.com/Punkt_art",
+      "kind": "mint"
+    },
+    {
+      "id": "reefers-rh",
+      "name": "Reefers",
+      "when": "2026-10-17 06:30 CST",
+      "window": "FCFS FREE",
+      "price": "FREE",
+      "x": "https://x.com/ReefersRH",
+      "kind": "mint"
+    }
+  ],
+  "notify": true,
+  "alertMessage": "R119新收录$AGENT Agentic PoW(挖矿)/Pumpmine(台子)；2h内Onchain Everyday People≈05:20 WL→PUBLIC、Hood Munstas/Robin Frens≈05:30、Punkt≈06:00、Reefers≈06:30。面板 https://reboot7454.github.io/early-scout/",
+  "summary": "R119：新收录2（$AGENT Agentic PoW挖矿、Pumpmine台子）；清R118本轮新4；刷新≤2h五档mint；X仍限额至08:00CST；推送30b03f2已核验。",
+  "dsFallback": "",
+  "deepseekNote": "admit+score+alert 全走 deepseek-flash thinking=OFF via ds_batch_score.py；scores 0-100归一到0-10",
+  "dsUsage": {
+    "admit": 1,
+    "score": 2,
+    "alert": 1,
+    "model": "deepseek-flash",
+    "thinking": false
+  },
+  "focusNote": "focusIds=[squeekchain,hamster-hour]；squeekchain.com仍Coming soon；无新独立peer；Excited Hamsters仍GO。",
+  "layerZeroNote": "无新Zero/ATLAS证据；armoreum/oftpad lzVerified=false 台子/Meme。",
+  "xApiNote": "X MCP daily limit still full until 2026-10-17T00:00:00Z (08:00 CST)；本轮改 Trencher/Web/docs",
+  "candidateCount": 310,
+  "clearedNewThisRound": [
+    "launchbot",
+    "furrbit",
+    "hellbrats",
+    "equium"
+  ],
+  "zonesScanned": [
+    "打新",
+    "挖矿",
+    "台子/Meme",
+    "GO盘",
+    "LayerZero",
+    "重点"
+  ],
+  "pagesNote": "https://reboot7454.github.io/early-scout/",
+  "pushSucceeded": true,
+  "remoteVerified": true,
+  "commitSha": "30b03f274e2775ff37729bff7f3736291ae7da6e",
+  "remoteUpdated": "2026-10-17 04:34 CST",
+  "remoteRound": 119,
+  "writtenAt": "2026-10-17 04:34 CST",
+  "skippedCarry": [
+    "inkterminal-os",
+    "inkbinary",
+    "moxxi",
+    "gloopix",
+    "grailv4",
+    "alien-ink",
+    "gangster-rh",
+    "jackpot",
+    "biboo",
+    "sid-capital",
+    "hoods-rh",
+    "pokemon-gallary",
+    "irl-protocol",
+    "fleshlings",
+    "jadebound",
+    "savepointnft",
+    "shuntdesk",
+    "giwago",
+    "giwagmi",
+    "peakminer",
+    "openforest",
+    "nftpad",
+    "robition",
+    "pad-fun",
+    "common-foundry",
+    "ethmojipunks",
+    "tuff-wizards",
+    "weiler-brokers"
+  ],
+  "skippedCarryNotes": "无推特/已知skip续携；DEVASTATOR/InkFoker等Trencher新盘无有效X未收录；DS skip hoods-rh/surfboard等非极早期",
+  "remoteDetail": {
+    "url": "https://raw.githubusercontent.com/Reboot7454/early-scout/main/data.json",
+    "round": 119,
+    "updated": "2026-10-17 04:34 CST",
+    "verified": true
+  },
+  "pushInfo": {
+    "repo": "Reboot7454/early-scout",
+    "branch": "main",
+    "path": "data.json",
+    "message": "scout round 119: data.json"
+  }
+}
