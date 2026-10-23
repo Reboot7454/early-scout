@@ -25,4 +25,4 @@
   - tape: TapeAI叙事+circuit-pay/tape-robot软刷；无新Tape admit
   - elysium: 主网11-09；Kalos热续既有；无新admit
 - **skip**: circuit-pay:R380已收软刷, badge-launchpad:R380已收软刷, tape-robot:R380已收软刷, ptah-trade:Relics≈10k+UI live软刷, dotai-pad:既有软刷, gang-fun:既有软刷, authority-keys:FREE mint今日19:00CST非≤2h, units-xreign:Priority20:00CST非≤2h, btc-crc30:今晚20:00公开Mint非≤2h, meimei-rh:21:00–22:00CST非≤2h, nockd:Launch23:00CST非≤2h, meridian-fi:23:00CST非≤2h, go-incognito:R380 skip续, xochi-fi:infra非打新, rarelist:过热, chimpx-ai:非极早期, bibi-ai:既有软刷, units-agentic:既有, baekho:既有, ammora:既有, gamapad:既有, bramble-fi:既有, listen-money:既有, trac-reset:既有, paperbird:既有, koala-tape:skip续, casperlink/gtc-desks/megapad-x/kay9/coinflip-rh/evm-bot:近期已收勿重收, pabalx:既有GIWA, kalosfun:既有Elysium
-- **push**: (pending)
+- **push**: ok e442fbb
