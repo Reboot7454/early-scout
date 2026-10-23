@@ -6,7 +6,7 @@
 - **xReads**: 18
 - **discordPeekDeferred**: true
 - **dsFallback**: false
-- **push**: pending
+- **push**: ok e59388c
 - **newIds**: `jager`, `onevi`, `aivy`
 - **le2h** (first reminders this round): _(none)_
 - **alreadyReminded (no re-notify)**: nockd, meridian-fi (R412); cairnlabs (R410); stocker-punk, meimei-rh (R407); authority-keys, units-xreign, btc-crc30
