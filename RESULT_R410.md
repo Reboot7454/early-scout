@@ -7,7 +7,7 @@
 - xReads: 22
 - discordPeekDeferred: true
 - dsFallback: false
-- push: pending
+- push: ok ed7528a
 
 ## summary
 2026-10-23 20:02 CST 第410轮：新收yap2mint；首次≤2h提醒cairnlabs；软刷今晚排期与BN Agent/Tape/Starknet/BTC；discordPeekDeferred；面板 https://reboot7454.github.io/early-scout/
