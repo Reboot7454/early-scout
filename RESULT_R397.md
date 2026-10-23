@@ -1,0 +1,28 @@
+# Early Scout RESULT R397
+
+- **round**: 397
+- **time**: 2026-10-23 15:33 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 20
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: ['swarmx', 'agentai-agi']
+- **le2h**: ['swarmx']（mint LIVE）
+- **alertMessage**: 10/23 15:33 新收 swarmx（RH链AI Agent burn-mint挖$SWARMX，mint LIVE）、agentai-agi（BN Agent限定公平铸AGI即将登场）。今晚非≤2h：authority-keys 19:00、units-xreign/btc-crc30 20:00、meimei-rh 21-22、cairnlabs/$CAIRN 22:00、nockd/meridian-fi 23:00。面板 https://reboot7454.github.io/early-scout/
+- **summary**: 2026-10-23 15:33 CST 第397轮：新收swarmx(RH burn-mint LIVE)+agentai-agi(AGI即将登场)；partyslots DS score拒收；gearz/binance-ai-agents/feastmeme软刷；今晚排期非≤2h；discordPeekDeferred；面板 https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=20；新收2；le2h=[swarmx]
+- **dsNote**: deepseek-flash+thinking；admit(swarmx/agentai-agi；partyslots初admit后score拒；unalyn/omnirail/gearz/binance-ai-agents/feastmeme skip)/score(swarmx+agentai-agi)/alert均DS；无dsFallback；新卡focus:false
+- **watches**:
+  - kinetiq: 主网11-09续；无新On testnet admit
+  - agentPad: 新收agentai-agi；feastmeme明早SGT；gearz>2h；binance-ai-agents仍无开
+  - agentTrading: Listen续；unalyn建设中skip
+  - agentMining: 新收swarmx mint LIVE；gearz>2h；Trac续
+  - giwa: Ammora/Pabal刷分续
+  - zero: lzATLAS/Zero 11-30续
+  - dogeEvm: DogeOS/Gekko续
+  - starknet: 本窗无新
+  - btc: CRC30今晚20:00非≤2h
+  - tape: TapeOut管理权销毁+里程碑续；无新电路admit
+  - elysium: 主网11-09；serialized续
+- **skip**: partyslots:score拒收赌场高风险, unalyn:无明确mint窗, omnirail:偏基建非打新, gearz:R383已收>2h, binance-ai-agents:仍无开, feastmeme:R395已收软刷, wasaorh/cindryonai/ruvoclick:R396软刷, authority-keys:19:00非≤2h, units-xreign/btc-crc30:20:00非≤2h, meimei-rh:21-22非≤2h, cairnlabs:22:00非≤2h, nockd/meridian-fi:23:00非≤2h
+- **push**: (pending)
