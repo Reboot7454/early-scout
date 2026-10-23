@@ -1,0 +1,28 @@
+# Early Scout RESULT R395
+
+- **round**: 395
+- **time**: 2026-10-23 15:03 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 20
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: ['feastmeme']
+- **le2h**: （无；gearz开铸自约13:00CST已>2h退出≤2h）
+- **alertMessage**: 10/23 15:03 新收 feastmeme（Feast，BNB Agent ID可领8888 FEAST，明早8点SGT首批）。gearz开铸已>2h退出≤2h。今晚非≤2h：authority-keys 19:00、units-xreign/btc-crc30 20:00、meimei-rh 21-22、cairnlabs/$CAIRN 22:00、nockd/meridian-fi 23:00。面板 https://reboot7454.github.io/early-scout/
+- **summary**: 2026-10-23 15:03 CST 第395轮：新收feastmeme（Agent ID领FEAST+AI联赛）；gearz退出≤2h；binance-ai-agents仍无开确认；今晚排期续盯；discordPeekDeferred；面板 https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=20；新收1 feastmeme；le2h=[]
+- **dsNote**: deepseek-flash+thinking；admit(feastmeme；ours-meme/gearz重收/binance-ai-agents/solbinfun/fomopoly/proof-of-agent/quip/gang/ptah skip)/score(feastmeme)/alert均DS；无dsFallback；新卡focus:false
+- **watches**:
+  - kinetiq: 主网11-09续；无新On testnet admit；serialized软刷
+  - agentPad: feastmeme新收；gearz>2h退出≤2h；binance-ai-agents仍无开；Ptah/Gang/dotai软刷
+  - agentTrading: Listen续；无新admit
+  - agentMining: gearz开铸中但>2h；hashdroids/agentore软刷；Trac Intercom DEX续
+  - giwa: Ammora/Pabal刷分续；无新admit
+  - zero: lzATLAS/Zero 11-30续
+  - dogeEvm: DogeOS/Gekko testnet续；无新admit
+  - starknet: 本窗无新Starknet early play
+  - btc: CRC30今晚20:00非≤2h；隐私线软刷
+  - tape: TapeOut里程碑+Blonskr NFT征集续；TapePool软刷；无新电路admit
+  - elysium: 主网11-09；serialized testnet续；无新admit
+- **skip**: gearz:R383已收；开铸>2h退出≤2h软刷不重收, binance-ai-agents:R383已收；仍无开确认非≤2h软刷, ours-meme:无明确mint/开闸DS skip, solbinfun:R394已收无新play软刷, fomopoly:rarelist线skip续, proof-of-agent:官推停更DS skip, quipnetwork:无mint窗skip, gang-fun/ptah-trade/dotai-pad/hashdroids/agentore/tape-pool/listen-money/trac-reset:既有软刷, authority-keys:19:00非≤2h, units-xreign:20:00非≤2h, btc-crc30:20:00非≤2h, meimei-rh:21-22非≤2h, nockd/meridian-fi:23:00非≤2h, cairnlabs:$CAIRN 22:00非≤2h
+- **push**: pending
