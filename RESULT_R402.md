@@ -1,0 +1,28 @@
+# Early Scout RESULT R402
+
+- **round**: 402
+- **time**: 2026-10-23 17:37 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 17
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: ['sworm-agent', 'terra-rift']
+- **le2h**: []（authority-keys 19:00仍≤2h但R400已提醒→不重通知）
+- **alertMessage**: 10/23 17:37 新收2：sworm-agent（BNB DN404 $SAI Agent-only mint LIVE·约0粉）、terra-rift（RH测试网奖励LIVE刷TRTTEST·约0粉）。authority-keys 19:00仍≤2h但R400已提醒不重通知。今晚非≤2h：units-xreign/btc-crc30 20:00、stocker-punk 21:00、meimei 21-22、cairn 22:00、nockd/meridian 23:00。面板 https://reboot7454.github.io/early-scout/
+- **summary**: 2026-10-23 17:37 CST 第402轮：新收sworm-agent(BN Agent $SAI LIVE)+terra-rift(RH测试网奖励)；authority不重提醒；软刷今晚排期与LIVE项；discordPeekDeferred；面板 https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=17；新收2；le2h=[]（authority≤2h已R400提醒）
+- **dsNote**: deepseek-flash+thinking；admit(收sworm-agent/terra-rift；skip kyromarkets/hoojafun/thebufos/gigalegends/richnt)/score/alert均DS；无dsFallback；新卡focus:false
+- **watches**:
+  - kinetiq: 主网11-09续；无新On testnet admit
+  - agentPad: 新收sworm-agent；gang Pair/ptah/dotai软刷
+  - agentTrading: Listen续；无新admit
+  - agentMining: gearz/swarmx/Trac软刷；不因仍live重提醒
+  - giwa: Pabal/GIWA刷分续
+  - zero: lzATLAS/Zero续
+  - dogeEvm: DogeOS续
+  - starknet: Bramble钱包DeFi接入续；无新admit
+  - btc: CRC30今晚20:00非≤2h；ShieldedNaka续
+  - tape: TapeOut审计+撤销管理权+跨链规模续
+  - elysium: 主网11-09；serialized软刷
+- **skip**: kyromarkets/hoojafun/thebufos/gigalegends/richnt；authority不重提醒；今晚排期非≤2h；LIVE项软刷；R401五卡不重收
+- **push**: pending
