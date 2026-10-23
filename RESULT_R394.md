@@ -1,0 +1,28 @@
+# Early Scout RESULT R394
+
+- **round**: 394
+- **time**: 2026-10-23 14:36 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 25
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: ['solbinfun']
+- **le2h**: gearz（官推确认 Minting is open，至10-30 05:00UTC或售罄，需Agent ID）
+- **alertMessage**: 10/23 14:36 新收 solbinfun（Solana launchpad+DEX，尚未全面开闸）。≤2h：gearz Minting is open（至10-30 05:00UTC或售罄，需Agent ID）。今晚非≤2h：authority-keys 19:00、units-xreign/btc-crc30 20:00、meimei-rh 21-22、cairnlabs/$CAIRN 22:00、nockd/meridian-fi 23:00。面板 https://reboot7454.github.io/early-scout/
+- **summary**: 2026-10-23 14:36 CST 第394轮：新收solbinfun（Solana launchpad+DEX未开闸）；≤2h gearz开铸中；binance-ai-agents仍无开确认；今晚排期续盯；discordPeekDeferred；面板 https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=25；新收1 solbinfun；le2h=gearz
+- **dsNote**: deepseek-flash+thinking；admit(solbinfun；gearz/binance-ai-agents/shaniu/agentic-punks/tape-readers/nexurahq/fomopoly/hashdroids/nodi/moar skip)/score(solbinfun)/alert均DS；无dsFallback；新卡focus:false
+- **watches**:
+  - kinetiq: 主网11-09续；无新On testnet admit；serialized软刷
+  - agentPad: gearz≤2h；binance-ai-agents仍无开确认；solbinfun新收(Sol)；Ptah/Gang软刷
+  - agentTrading: Listen续；无新admit
+  - agentMining: gearz≤2h；hashdroids Epoch飞轮软刷；agentore PRELAUNCH续
+  - giwa: Gamapad/Ammora/Pabal刷分续；NexuraHQ营销号skip
+  - zero: lzATLAS/Zero 11-30续
+  - dogeEvm: DogeOS Chapter2/Wheel续；moar skip
+  - starknet: Bramble本窗无新帖
+  - btc: ShieldedNaka投票/科普软刷；CRC30今晚非≤2h
+  - tape: TapeOut里程碑+Blonskr NFT征集续；TapePool软刷；无新电路admit
+  - elysium: 主网11-09；serialized testnet续；无新admit
+- **skip**: gearz:R383已收；Minting已开≤2h软刷不重收, binance-ai-agents:R383已收；仍无开确认非≤2h软刷, shaniu:无官推 DS skip, agentic-punks:无官推 DS skip, tape-readers:无官推 DS skip, nexurahq:营销号非协议 DS skip, fomopoly:rarelist线skip续, hashdroids:R388已收软刷, nodi-circuit:个人号skip, moar-dogeos:无官推skip续, gang-fun:cooking something new无新mint软刷, ptah-trade:Relics售罄软刷, ospad/etch-fund/kol-brain/ember-world/dotai-pad/tape-pool/listen-money/trac-reset/signet-fun:既有软刷, authority-keys:19:00非≤2h, units-xreign:20:00非≤2h, btc-crc30:20:00非≤2h, meimei-rh:21-22非≤2h, nockd/meridian-fi:23:00非≤2h, cairnlabs:$CAIRN 22:00非≤2h
+- **push**: pending
