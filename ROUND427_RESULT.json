@@ -1,0 +1,77 @@
+{
+  "round": 427,
+  "time": "2026-10-24 01:33 CST",
+  "notify": true,
+  "alertMessage": "【early-scout】新收：nullifier(@nullifierlaunch)——Solana 隐私/零知识发射台今日官宣；deep-dig(@DeepDigSOL)——Solana 闲置挖矿新玩法 Auto-Miner 上线；leverage-dex(@LeverageDex)——Robinhood 迷因永续今日 $DEX 上线。面板：https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "nullifier",
+    "deep-dig",
+    "leverage-dex"
+  ],
+  "le2h": [],
+  "xReads": 19,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "push": "pending",
+  "summary": "R427 新增 nullifier、deep-dig、leverage-dex；软刷 aivy→@AIVYFUN、stonks/flap/pipfun/gang/yinghu/elysium/listen/tapeai/bramble；跳过 saliend/tokenyfun/ant-club；全栏抽检无 Tape/GIWA/Zero/DogeEVM/Elysium 新极早期卡；le2h空。",
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/Tape/GIWA/DogeEVM/BN Agent/Agentic Trading/BTC/Starknet/Zero",
+  "admits": [
+    {
+      "id": "nullifier",
+      "handle": "nullifierlaunch",
+      "followers": 48,
+      "scores": {
+        "early": 95,
+        "actionable": 35,
+        "novelty": 60,
+        "risk": 85,
+        "overall": 45
+      }
+    },
+    {
+      "id": "deep-dig",
+      "handle": "DeepDigSOL",
+      "followers": 1535,
+      "scores": {
+        "early": 75,
+        "actionable": 70,
+        "novelty": 65,
+        "risk": 65,
+        "overall": 58
+      }
+    },
+    {
+      "id": "leverage-dex",
+      "handle": "LeverageDex",
+      "followers": 18,
+      "scores": {
+        "early": 96,
+        "actionable": 30,
+        "novelty": 55,
+        "risk": 92,
+        "overall": 34
+      }
+    }
+  ],
+  "skips": [
+    "saliend",
+    "tokenyfun",
+    "ant-club",
+    "minepoa",
+    "nulora-already",
+    "gh0st-already",
+    "termix-hot",
+    "giwa_io-suspended"
+  ],
+  "watches": [
+    "kinetiqWatch",
+    "flapPadWatch",
+    "agentPadWatch",
+    "agentTradingWatch",
+    "tapeOutWatch",
+    "giwaWatch",
+    "zeroWatch",
+    "dogeEvmWatch",
+    "starknetWatch"
+  ]
+}
