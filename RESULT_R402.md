@@ -25,4 +25,4 @@
   - tape: TapeOut审计+撤销管理权+跨链规模续
   - elysium: 主网11-09；serialized软刷
 - **skip**: kyromarkets/hoojafun/thebufos/gigalegends/richnt；authority不重提醒；今晚排期非≤2h；LIVE项软刷；R401五卡不重收
-- **push**: pending
+- **push**: ok e9604e0
