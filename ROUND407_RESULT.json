@@ -1,0 +1,104 @@
+{
+  "round": 407,
+  "notify": true,
+  "time": "2026-10-23 19:09 CST",
+  "xReads": 23,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "alertMessage": "10/23 19:09 CST 新收2：agent-punk（BN Agent Punk ID·@agentpunkid·已售罄·用户点名补收）、newb（BNB慈善meme pad Newborn·@newb_babe·约3粉·明日上线）。首次≤2h：stocker-punk 21:00 Agent-only mint、meimei-rh 21-22 Launch窗。已提醒不重通知：authority 19:00(R400)、units/crc30 20:00(R404)。面板 https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "agent-punk",
+    "newb"
+  ],
+  "le2h": [
+    "stocker-punk",
+    "meimei-rh"
+  ],
+  "coverage": "全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=23；新收2；le2h=2（authority/units/crc30已提醒不重通知）",
+  "summary": "2026-10-23 19:09 CST 第407轮：新收agent-punk+newb；首次≤2h提醒stocker-punk/meimei-rh；软刷今晚排期与LIVE；discordPeekDeferred；面板 https://reboot7454.github.io/early-scout/",
+  "push": "pending",
+  "dsNote": "deepseek-flash+thinking；admit(收newb；skip foundry-rh/termix/shaniu；agent-punk已预收计入本轮)/score/alert均DS；无dsFallback；新卡focus:false",
+  "watches": {
+    "kinetiq": "主网11-09续；serialized testnet续；无新On testnet admit",
+    "agentPad": "agent-punk计入新收；Ptah/Gang软刷；shaniu空号skip",
+    "agentTrading": "Listen续；无新admit",
+    "agentMining": "Trac/swarmx软刷；不因仍live重提醒",
+    "giwa": "Gamapad已收续",
+    "zero": "LayerZero续无新admit",
+    "dogeEvm": "DogeOS/Monko续",
+    "starknet": "无新admit",
+    "btc": "CRC30不重提醒；ShieldedNaka软刷；TapeBit已收",
+    "tape": "TapeAI Agent Factory筹备续；TapeBit testnet续",
+    "elysium": "主网11-09；serialized续；无新On testnet admit"
+  },
+  "skip": [
+    {
+      "id": "foundry-rh",
+      "reason": "无mint/launch明确窗口"
+    },
+    {
+      "id": "termix",
+      "reason": "非极早期(6.4万粉)无mint窗"
+    },
+    {
+      "id": "shaniu",
+      "reason": "空号0推无独立官推"
+    },
+    {
+      "id": "authority-keys",
+      "reason": "仍≤2h但R400已提醒不重通知"
+    },
+    {
+      "id": "units-xreign",
+      "reason": "R404已≤2h首次提醒不重通知"
+    },
+    {
+      "id": "btc-crc30",
+      "reason": "R404已≤2h首次提醒不重通知"
+    },
+    {
+      "id": "cairnlabs",
+      "reason": "22:00非≤2h软刷"
+    },
+    {
+      "id": "nockd",
+      "reason": "23:00非≤2h"
+    },
+    {
+      "id": "meridian-fi",
+      "reason": "23:00非≤2h"
+    },
+    {
+      "id": "swarmx",
+      "reason": "仍LIVE不重提醒"
+    },
+    {
+      "id": "ptah-trade",
+      "reason": "已收软刷"
+    },
+    {
+      "id": "gang-fun",
+      "reason": "已收软刷"
+    },
+    {
+      "id": "synthpad",
+      "reason": "R406已收不重收"
+    },
+    {
+      "id": "tartaglia",
+      "reason": "R406已收不重收"
+    },
+    {
+      "id": "drakhen",
+      "reason": "R405已收不重收"
+    },
+    {
+      "id": "bugscrawl",
+      "reason": "R403已收不重收"
+    },
+    {
+      "id": "zard-labs",
+      "reason": "R403已收不重收"
+    }
+  ]
+}

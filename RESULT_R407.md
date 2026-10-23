@@ -1,0 +1,28 @@
+# Early Scout RESULT R407
+
+- **round**: 407
+- **time**: 2026-10-23 19:09 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 23
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: ['agent-punk', 'newb']
+- **le2h**: ['stocker-punk', 'meimei-rh']（authority 19:00 R400已提醒；units-xreign/btc-crc30 20:00 R404已提醒→不重通知）
+- **alertMessage**: 10/23 19:09 CST 新收2：agent-punk（BN Agent Punk ID·@agentpunkid·已售罄·用户点名补收）、newb（BNB慈善meme pad Newborn·@newb_babe·约3粉·明日上线）。首次≤2h：stocker-punk 21:00 Agent-only mint、meimei-rh 21-22 Launch窗。已提醒不重通知：authority 19:00(R400)、units/crc30 20:00(R404)。面板 https://reboot7454.github.io/early-scout/
+- **summary**: 2026-10-23 19:09 CST 第407轮：新收agent-punk+newb；首次≤2h提醒stocker-punk/meimei-rh；软刷LIVE与已提醒排期；discordPeekDeferred；面板 https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=23；新收2；le2h=2
+- **dsNote**: deepseek-flash+thinking；admit(收newb；skip foundry-rh/termix/shaniu；agent-punk已预收计入本轮)/score/alert均DS；无dsFallback；新卡focus:false
+- **watches**:
+  - kinetiq: 主网11-09续；serialized testnet续；无新On testnet admit
+  - agentPad: agent-punk计入新收；Ptah/Gang软刷；shaniu空号skip
+  - agentTrading: Listen续；无新admit
+  - agentMining: Trac/swarmx软刷；不因仍live重提醒
+  - giwa: Gamapad已收续
+  - zero: LayerZero续无新admit
+  - dogeEvm: DogeOS/Monko续
+  - starknet: 无新admit
+  - btc: CRC30不重提醒；ShieldedNaka软刷；TapeBit已收
+  - tape: TapeAI Agent Factory筹备续；TapeBit testnet续
+  - elysium: 主网11-09；serialized续；无新On testnet admit
+- **skip**: foundry-rh无mint/launch窗；termix非极早期；shaniu空号无官推；authority/units/crc30不重提醒；cairn/nockd/meridian非≤2h；LIVE软刷不重收；synthpad/tartaglia/drakhen/bugscrawl/zard-labs不重收
+- **push**: (pending)
