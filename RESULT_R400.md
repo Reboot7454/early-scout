@@ -25,4 +25,4 @@
   - tape: TapeOut管理权销毁+规模续；TapeAI Factory筹备；foundry Set Mark软刷
   - elysium: 主网11-09；serialized续
 - **skip**: pawscrow:无mint窗, sasona-network:无launch窗, itia-genesis:非极早期无公开mint, gearz/swarmx/ink-berries/tagai/foundry-tape:软刷不重收, units-xreign/btc-crc30:20:00非≤2h, meimei-rh:21-22非≤2h, cairnlabs:22:00非≤2h, nockd/meridian-fi:23:00非≤2h, stocker-punk mint 21:00非≤2h(仅新收提醒)
-- **push**: (pending)
+- **push**: ok 23675a0
