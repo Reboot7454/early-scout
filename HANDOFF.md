@@ -77,3 +77,6 @@
 
 ## 2026-10-23 R407
 - 用户点名补收 `@agentpunkid`（Agent Punk ID）。R406 曾以「无独立官推」skip，属误判；已写入 `agentPadWatch.accounts` 必盯。
+
+## 2026-10-23 R413
+- 用户点名补收 `@pipfun_xyz`（Pipfun）。此前 RESULT 无痕迹=关键词漏捞，非「无官推」误判；已写入 `agentPadWatch.accounts`。
