@@ -25,4 +25,4 @@
   - tape: TapeOut管理权销毁+规模数据续；无新电路admit
   - elysium: 主网11-09；serialized续
 - **skip**: feastmeme-refresh:非新项目软刷, gearz-still-live:仍LIVE不重提醒, tagai-still:已收仅续, gang-pair:R398已软刷无更新, swarmx:仍LIVE不重提醒, agentai-agi:仍即将登场, feastmeme:明早8SGT软刷, binance-ai-agents:仍无开, authority-keys:19:00非≤2h, units-xreign/btc-crc30:20:00非≤2h, meimei-rh:21-22非≤2h, cairnlabs:22:00非≤2h, nockd/meridian-fi:23:00非≤2h
-- **push**: (pending)
+- **push**: ok 66fdd2c
