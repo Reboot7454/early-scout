@@ -25,4 +25,4 @@
   - tape: TapePool机制软刷；无新电路admit
   - elysium: 主网11-09；serialized testnet续；无新admit
 - **skip**: borly:空号风险极高 score否决 skip, giga-legends:粉5.1k无明确mint窗 DS skip, gearz:R383已收；开铸≤2h软刷不重收, binance-ai-agents:R383已收；仍≤2h软刷不重收, kol-brain:R385已收软刷, ember-world:R383已收软刷, ptah-trade:Relics95k非新早期软刷, dotaipad:既有软刷, gang-fun:既有软刷, signet-fun:R382已收软刷, tape-pool:既有；借贷机制软刷, listen-money:既有软刷, trac-reset:既有软刷, authority-keys:FREE mint今日19:00CST非≤2h, units-xreign:Priority20:00CST非≤2h, btc-crc30:今晚20:00公开Mint非≤2h, meimei-rh:21:00–22:00CST非≤2h, nockd:Launch23:00CST非≤2h, meridian-fi:23:00CST非≤2h, serialized:R362已收软刷, kalosfun:既有Elysium软刷, jimmy-ord:既有软刷, nockpad:既有软刷, etchydotfun:异于etch-fund软刷, bramble-fi:Starknet软刷无新帖, paperbird:既有软刷, reign-tech:有$REIGN回购非极早期mint窗 DS skip续, skeletoads:普通NFT联名 DS skip续, sili-rig:社区个人号非独立官推 skip续, slotforge:空号/无官推 skip续, dianshitai:真实性skip续, fealty-club:非极早期skip续, quip-network:过热skip续, go-incognito:R380 skip续, rarelist:过热, chimpx-ai:非极早期, shit-cash:过热skip续, ducat:粉高非极早期, compi:非mint DS skip续, timery:非加密mint DS skip续, whodl-bot:研究机器人 DS skip续
-- **push**: pending
+- **push**: ok 024c206
