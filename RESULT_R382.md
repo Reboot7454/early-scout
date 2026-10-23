@@ -1,0 +1,28 @@
+# Early Scout RESULT R382
+
+- **round**: 382
+- **time**: 2026-10-23 09:30 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 20
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: signet-fun
+- **le2h**: (none)
+- **alertMessage**: 10/23 09:30 新收录1个：signet-fun（BNB Agent ID专属内盘发射台）；无≤2h，面板 https://reboot7454.github.io/early-scout/
+- **summary**: 2026-10-23 09:30 CST 第382轮续扫：新收录 signet-fun（@Signet_fun，BNB Agent ID专属内盘发射台，≈44粉，与GANG并列被点名）；当前无≤2h；今晚非≤2h：authority-keys 19:00、units-xreign/btc-crc30 20:00、meimei-rh 21-22、nockd/meridian-fi 23:00；面板 https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=20；新收1；无≤2h
+- **dsNote**: deepseek-flash+thinking；admit/score/alert/summary均DS；无dsFallback；signet-fun admit（risk按官网异常上调至72）
+- **watches**:
+  - kinetiq: 主网11-09续；无新On testnet admit
+  - agentPad: 新收signet-fun；Ptah/dotaipad/gang/badge/agentpad软刷
+  - agentTrading: Listen续；无新admit
+  - agentMining: Trac/fitzy软刷；无新早期admit
+  - giwa: 本窗无新信号；既有续
+  - zero: lzATLAS/Zero 11-30续
+  - dogeEvm: Monko testnet刷分续；无新admit
+  - starknet: Bramble软刷；无新admit
+  - btc: 今晚排期均非≤2h；ShieldedNaka投票续
+  - tape: TapeAI叙事+circuit-pay/tape-robot/tapebit软刷；无新Tape admit
+  - elysium: 主网11-09；Serialized/Kalos续既有；无新admit
+- **skip**: agentpad-trade:R381已收软刷, circuit-pay:R380已收软刷, badge-launchpad:R380已收软刷, tape-robot:R380已收软刷, ptah-trade:Relics≈10k Agent ID+交易UI live软刷；售罄二手, dotai-pad:既有；BNB live软刷, gang-fun:既有；BNB Agent pad软刷, sigil-pad:既有BN Agent pad；非Signet, pair-fund:RH launchpad已54天/市值~1.4M非极早期, authority-keys:FREE mint今日19:00CST非≤2h, units-xreign:Priority20:00CST非≤2h, btc-crc30:今晚20:00公开Mint非≤2h, meimei-rh:21:00–22:00CST非≤2h, nockd:Launch23:00CST非≤2h, meridian-fi:R377已收；23:00CST非≤2h, go-incognito:R380 skip续, xochi-fi:Agentic Dark Pool infra非直接打新, rarelist:过热非极早期, chimpx-ai:非极早期, bibi-ai:既有软刷, units-agentic:既有软刷, baekho:既有, ammora:既有, gamapad:既有, bramble-fi:Starknet软刷；既有, listen-money:既有, trac-reset:既有, paperbird:既有, koala-tape:skip续, tapebit:R351已收软刷, casperlink:近期已收勿重收, gtc-desks:近期已收勿重收, megapad-x:近期已收勿重收, kay9:近期已收勿重收, coinflip-rh:近期已收勿重收, evm-bot:近期已收勿重收, pabalx:既有GIWA, kalosfun:既有Elysium, serialized:R362已收；Elysium testnet官推续
+- **push**: pending
