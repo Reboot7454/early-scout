@@ -74,3 +74,6 @@
 见同目录 `CHECKLIST.md`。例行 prompt 以 `ROUTINE_PROMPT.txt` 为准；本包另含交接时 `data.json` 快照与 `FEATURES.md`。
 
 **换号注意**：旧号停 routine 后再让新号开跑，避免双写 main。
+
+## 2026-10-23 R407
+- 用户点名补收 `@agentpunkid`（Agent Punk ID）。R406 曾以「无独立官推」skip，属误判；已写入 `agentPadWatch.accounts` 必盯。
