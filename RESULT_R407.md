@@ -25,4 +25,4 @@
   - tape: TapeAI Agent Factory筹备续；TapeBit testnet续
   - elysium: 主网11-09；serialized续；无新On testnet admit
 - **skip**: foundry-rh无mint/launch窗；termix非极早期；shaniu空号无官推；authority/units/crc30不重提醒；cairn/nockd/meridian非≤2h；LIVE软刷不重收；synthpad/tartaglia/drakhen/bugscrawl/zard-labs不重收
-- **push**: (pending)
+- **push**: ok 384f382
