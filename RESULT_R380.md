@@ -1,0 +1,28 @@
+# Early Scout RESULT R380
+
+- **round**: 380
+- **time**: 2026-10-23 08:32 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 25
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: circuit-pay, badge-launchpad, tape-robot
+- **le2h**: (none)
+- **alertMessage**: 10/23 08:32 新收录3个：circuit-pay、badge-launchpad、tape-robot；无≤2h，面板 https://reboot7454.github.io/early-scout/
+- **summary**: 2026-10-23 08:32 CST 第380轮续扫：新收录 circuit-pay（TapeOut电路结算live/21粉）、badge-launchpad（BNB Binance Agent钱包专属发射台/币股底池）、tape-robot（TapeOut首款机器人游戏/池销毁），当前无≤2h；今晚非≤2h：authority-keys 19:00、units-xreign/btc-crc30 20:00、meimei-rh 21-22、nockd/meridian-fi 23:00；面板 https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=25；新收3；无≤2h
+- **dsNote**: deepseek-flash+thinking；admit/score/alert/summary均DS；无dsFallback；circuit-pay/badge-launchpad/tape-robot admit；go-incognito score否决
+- **watches**:
+  - kinetiq: 主网11-09续；无新On testnet admit
+  - agentPad: 新收badge-launchpad；Ptah/dotaipad/gang软刷
+  - agentTrading: Listen续；xochi跳过
+  - agentMining: Trac/fitzy软刷；无新早期admit
+  - giwa: Ammora/Baekho/Gamapad续；无新admit
+  - zero: lzATLAS/Zero 11-30续
+  - dogeEvm: MyDoge/DogeOS软刷；无新admit
+  - starknet: Bramble软刷；无新admit
+  - btc: 今晚排期均非≤2h
+  - tape: 新收circuit-pay+tape-robot；TapeAI叙事续
+  - elysium: 主网11-09；无新admit
+- **skip**: go-incognito:今日新建仅7粉纸面隐私pad；score阶段admit=false高rug, xochi-fi:Agentic Dark Pool已live九链；infra非直接打新, rarelist:1.3万粉Referral过热非极早期, chimpx-ai:4.2万粉$CHIMP fair launch非极早期, ptah-trade:Relics热续+UI live；软刷不重收, bibi-ai:R372已收；BN Agent NFT续热软刷, units-agentic:既有；DN404曲线软刷, dotai-pad:既有；BNB live软刷, gang-fun:既有；BNB Agent pad软刷, authority-keys:FREE mint今日19:00CST非≤2h, units-xreign:Priority20:00CST非≤2h, btc-crc30:今晚20:00公开Mint非≤2h...
+- **push**: pending
