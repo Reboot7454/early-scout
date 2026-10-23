@@ -25,4 +25,4 @@
   - tape: TapeAI叙事+circuit-pay/tape-robot/tapebit软刷；无新Tape admit
   - elysium: 主网11-09；Serialized/Kalos续既有；无新admit
 - **skip**: agentpad-trade:R381已收软刷, circuit-pay:R380已收软刷, badge-launchpad:R380已收软刷, tape-robot:R380已收软刷, ptah-trade:Relics≈10k Agent ID+交易UI live软刷；售罄二手, dotai-pad:既有；BNB live软刷, gang-fun:既有；BNB Agent pad软刷, sigil-pad:既有BN Agent pad；非Signet, pair-fund:RH launchpad已54天/市值~1.4M非极早期, authority-keys:FREE mint今日19:00CST非≤2h, units-xreign:Priority20:00CST非≤2h, btc-crc30:今晚20:00公开Mint非≤2h, meimei-rh:21:00–22:00CST非≤2h, nockd:Launch23:00CST非≤2h, meridian-fi:R377已收；23:00CST非≤2h, go-incognito:R380 skip续, xochi-fi:Agentic Dark Pool infra非直接打新, rarelist:过热非极早期, chimpx-ai:非极早期, bibi-ai:既有软刷, units-agentic:既有软刷, baekho:既有, ammora:既有, gamapad:既有, bramble-fi:Starknet软刷；既有, listen-money:既有, trac-reset:既有, paperbird:既有, koala-tape:skip续, tapebit:R351已收软刷, casperlink:近期已收勿重收, gtc-desks:近期已收勿重收, megapad-x:近期已收勿重收, kay9:近期已收勿重收, coinflip-rh:近期已收勿重收, evm-bot:近期已收勿重收, pabalx:既有GIWA, kalosfun:既有Elysium, serialized:R362已收；Elysium testnet官推续
-- **push**: pending
+- **push**: ok 20bed1b
