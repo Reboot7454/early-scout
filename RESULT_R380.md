@@ -25,4 +25,4 @@
   - tape: 新收circuit-pay+tape-robot；TapeAI叙事续
   - elysium: 主网11-09；无新admit
 - **skip**: go-incognito:今日新建仅7粉纸面隐私pad；score阶段admit=false高rug, xochi-fi:Agentic Dark Pool已live九链；infra非直接打新, rarelist:1.3万粉Referral过热非极早期, chimpx-ai:4.2万粉$CHIMP fair launch非极早期, ptah-trade:Relics热续+UI live；软刷不重收, bibi-ai:R372已收；BN Agent NFT续热软刷, units-agentic:既有；DN404曲线软刷, dotai-pad:既有；BNB live软刷, gang-fun:既有；BNB Agent pad软刷, authority-keys:FREE mint今日19:00CST非≤2h, units-xreign:Priority20:00CST非≤2h, btc-crc30:今晚20:00公开Mint非≤2h...
-- **push**: pending
+- **push**: ok 1e2b5a9
