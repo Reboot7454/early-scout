@@ -9,7 +9,7 @@
 - **xReads**: 21
 - **discordPeekDeferred**: true
 - **dsFallback**: false
-- **push**: pending
+- **push**: ok 5dce449c442c4afe200c998be54ed24fd05dda93
 - **summary**: R425 新增 xuanwu-sigil、agent-aib、zion-ascii、ink-cultist；软刷 pipfun/gang/yinghu/elysium/jager/agentpunk/listen/tapeai/bramble；跳过 lease-amm/vauban-pay/IThinkItsArt；全栏抽检无 Tape/GIWA/Zero/DogeEVM/挖矿新极早期卡（vearl已提醒不重通知）。
 
 ## Coverage
