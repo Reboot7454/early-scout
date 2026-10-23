@@ -1,0 +1,28 @@
+# Early Scout RESULT R385
+
+- **round**: 385
+- **time**: 2026-10-23 11:05 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 20
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: kol-brain
+- **le2h**: binance-ai-agents（官推仍称几小时内上线 / Sleep at your own risk）
+- **alertMessage**: 10/23 11:05 新收录1个：kol-brain（KOL Brain @kolbrainfun Solana KOL AI brains/agentic trading ≈4粉）；≤2h：binance-ai-agents官推仍称几小时内上线，面板 https://reboot7454.github.io/early-scout/
+- **summary**: 2026-10-23 11:05 CST 第385轮续扫：新收录 kol-brain（@kolbrainfun，Solana KOL钱包AI trading-style brains/agentic trading，今日新建≈4粉）；≤2h：binance-ai-agents官推仍称几小时内上线（未见正式开售帖）；今晚非≤2h：authority-keys 19:00、units-xreign/btc-crc30 20:00、meimei-rh 21-22、nockd/meridian-fi 23:00；面板 https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=20；新收1；le2h=binance-ai-agents
+- **dsNote**: deepseek-flash+thinking；admit/score/alert均DS；无dsFallback；sili-rig/slotforge DS skip；新收1 focus=false
+- **watches**:
+  - kinetiq: 主网11-09续；无新On testnet admit
+  - agentPad: 软刷gearz+binance-ai-agents仍≤2h；Ptah≈95k Relics；sili-rig非官推skip
+  - agentTrading: 新收kol-brain；Listen续
+  - agentMining: Trac Intercom DEX/RESET续；gearz软刷
+  - giwa: Gamapad/Ammora刷分续
+  - zero: lzATLAS/Zero 11-30续
+  - dogeEvm: Monko/DogeOS testnet刷分续
+  - starknet: Bramble本窗无新可操作
+  - btc: 今晚排期均非≤2h
+  - tape: TapePool机制软刷；无新电路admit
+  - elysium: 主网11-09；无新admit
+- **skip**: sili-rig:社区个人号非独立官推 DS skip, slotforge:空号/无官推 DS skip, gearz:R383已收；机制帖软刷, binance-ai-agents:R383已收；仍≤2h软刷不重收, ember-world:R383已收软刷, ptah-trade:Relics≈95k/24.4k Agent ID；非新早期软刷, dotai-pad:既有软刷, gang-fun:既有；cap~$1M软刷, signet-fun:R382已收软刷, agentpad-trade:R381已收软刷, circuit-pay:R380已收软刷, badge-launchpad:R380已收软刷, tape-robot:R380已收软刷, tape-pool:既有；借贷机制说明软刷, listen-money:既有软刷, trac-reset:既有；Intercom DEX软刷, launch-on-eve:R384已收, simpla-fun:R384已收, authority-keys:FREE mint今日19:00CST非≤2h, units-xreign:Priority20:00CST非≤2h, btc-crc30:今晚20:00公开Mint非≤2h, meimei-rh:21:00–22:00CST非≤2h, nockd:Launch23:00CST非≤2h, meridian-fi:R377已收；23:00CST非≤2h, dianshitai:真实性skip续, fealty-club:非极早期skip续, quip-network:过热skip续, go-incognito:R380 skip续, rarelist:过热, chimpx-ai:非极早期, shit-cash:过热skip续, bramble-fi:Starknet软刷无新帖, ammora:既有GIWA软刷, gamapad:既有GIWA软刷, paperbird:既有软刷, serialized:Elysium testnet续, kalosfun:既有Elysium, fomopoly:既有, ethernalcubs:既有, toshx:既有Tape fair launch软刷, ducat:粉高非极早期
+- **push**: (pending)
