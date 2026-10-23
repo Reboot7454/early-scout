@@ -9,7 +9,7 @@
 - **xReads**: 19
 - **discordPeekDeferred**: true
 - **dsFallback**: false
-- **push**: pending
+- **push**: ok 576a7eca15229bc0cd662e1579e4f94688abe395
 - **summary**: R427 新增 nullifier、deep-dig、leverage-dex；软刷 aivy→@AIVYFUN、stonks/flap/pipfun/gang/yinghu/elysium/listen/tapeai/bramble；跳过 saliend/tokenyfun/ant-club；全栏抽检无 Tape/GIWA/Zero/DogeEVM/Elysium 新极早期卡；le2h空。
 
 ## Coverage
