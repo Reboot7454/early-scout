@@ -25,4 +25,4 @@
   - tape: TapeOut里程碑+Blonskr NFT征集续；TapePool软刷；无新电路admit
   - elysium: 主网11-09；serialized testnet续；无新admit
 - **skip**: gearz:R383已收；开铸>2h退出≤2h软刷不重收, binance-ai-agents:R383已收；仍无开确认非≤2h软刷, ours-meme:无明确mint/开闸DS skip, solbinfun:R394已收无新play软刷, fomopoly:rarelist线skip续, proof-of-agent:官推停更DS skip, quipnetwork:无mint窗skip, gang-fun/ptah-trade/dotai-pad/hashdroids/agentore/tape-pool/listen-money/trac-reset:既有软刷, authority-keys:19:00非≤2h, units-xreign:20:00非≤2h, btc-crc30:20:00非≤2h, meimei-rh:21-22非≤2h, nockd/meridian-fi:23:00非≤2h, cairnlabs:$CAIRN 22:00非≤2h
-- **push**: pending
+- **push**: ok ba6c45b
