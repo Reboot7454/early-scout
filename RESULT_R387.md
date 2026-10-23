@@ -1,0 +1,28 @@
+# Early Scout RESULT R387
+
+- **round**: 387
+- **time**: 2026-10-23 12:04 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 19
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: (none)
+- **le2h**: gearz（Mint 今日13:00CST / 05:00UTC 开铸，官推确认约1h内，合约已公布）；binance-ai-agents（官推仍称几小时内上线 / Sleep at your own risk）
+- **alertMessage**: 10/23 12:04 ≤2h：gearz Mint今日13:00CST开铸（官推确认约1h内，合约已公布）；binance-ai-agents官推仍称几小时内上线/Sleep at your own risk。今晚非≤2h：authority-keys 19:00、units-xreign/btc-crc30 20:00、meimei-rh 21-22、nockd/meridian-fi 23:00。面板 https://reboot7454.github.io/early-scout/
+- **summary**: 2026-10-23 12:04 CST 第387轮续扫：无新收录；≤2h：gearz Mint 13:00CST开铸（官推确认约1h内）、binance-ai-agents官推仍称几小时内上线；今晚非≤2h排期续盯；软刷 TapePool/Ptah/Listen/kol-brain 等；Reigntechxyz/Skeletoads DS skip；discordPeekDeferred；面板 https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=19；新收0；le2h=gearz+binance-ai-agents
+- **dsNote**: deepseek-flash+thinking；admit(reign-tech/skeletoads skip)/alert均DS；无dsFallback；无新收 focus无关
+- **watches**:
+  - kinetiq: 主网11-09续；无新On testnet admit
+  - agentPad: gearz Mint≤2h；binance-ai-agents仍≤2h；Ptah Relics95k软刷
+  - agentTrading: Listen续；Reigntechxyz DS skip；kol-brain软刷
+  - agentMining: gearz开铸≤2h；Trac续
+  - giwa: Gamapad/Ammora/Pabal刷分续
+  - zero: lzATLAS/Zero 11-30续
+  - dogeEvm: DogeOS Wheel/Monko刷分续
+  - starknet: Bramble本窗无新帖
+  - btc: 今晚排期均非≤2h
+  - tape: TapePool机制软刷；内容挖矿讨论；无新电路admit
+  - elysium: 主网11-09；无新admit
+- **skip**: reign-tech:有$REIGN回购非极早期mint窗 DS skip, skeletoads:普通NFT联名 DS skip, kol-brain:R385已收软刷, gearz:R383已收；开铸≤2h软刷不重收, binance-ai-agents:R383已收；仍≤2h软刷不重收, ember-world:R383已收软刷, ptah-trade:Relics95k非新早期软刷, dotaipad:既有软刷, gang-fun:既有软刷, signet-fun:R382已收软刷, tape-pool:既有；借贷机制软刷, listen-money:既有软刷, trac-reset:既有软刷, authority-keys:FREE mint今日19:00CST非≤2h, units-xreign:Priority20:00CST非≤2h, btc-crc30:今晚20:00公开Mint非≤2h, meimei-rh:21:00–22:00CST非≤2h, nockd:Launch23:00CST非≤2h, meridian-fi:23:00CST非≤2h, sili-rig:社区个人号非独立官推 skip续, slotforge:空号/无官推 skip续, dianshitai:真实性skip续, fealty-club:非极早期skip续, quip-network:过热skip续, go-incognito:R380 skip续, rarelist:过热, chimpx-ai:非极早期, shit-cash:过热skip续, bramble-fi:Starknet软刷无新帖, ammora:既有GIWA软刷, paperbird:既有软刷, ducat:粉高非极早期, compi:非mint DS skip续, timery:非加密mint DS skip续, whodl-bot:研究机器人 DS skip续
+- **push**: (pending)
