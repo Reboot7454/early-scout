@@ -1,0 +1,28 @@
+# Early Scout RESULT R406
+
+- **round**: 406
+- **time**: 2026-10-23 18:38 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 19
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: ['synthpad', 'tartaglia']
+- **le2h**: []（authority-keys 19:00仍≤2h但R400已提醒；units-xreign/btc-crc30 20:00已R404提醒→均不重通知）
+- **alertMessage**: 10/23 18:38 新收2：synthpad（ETH AI工具pad·$SYNTH今日UNI V4·约32粉）、tartaglia（RH ZK隐私层·四工具testnet预览·约371粉）。≤2h已提醒不重通知：authority 19:00(R400)、units-xreign/btc-crc30 20:00(R404)。今晚非≤2h：stocker-punk 21:00、meimei 21-22、cairn 22:00、nockd/meridian 23:00。面板 https://reboot7454.github.io/early-scout/
+- **summary**: 2026-10-23 18:38 CST 第406轮：新收synthpad+tartaglia；≤2h已提醒项不重通知；软刷今晚排期与LIVE；discordPeekDeferred；面板 https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=19；新收2；le2h=[]
+- **dsNote**: deepseek-flash+thinking；admit(收synthpad/tartaglia；skip rugless/siftscan/bitroot/agent-punk/shaniu)/score/alert均DS；无dsFallback；新卡focus:false
+- **watches**:
+  - kinetiq: 主网11-09续；无新On testnet admit
+  - agentPad: Ptah/Gang软刷；Agent Punk/SHANIU无官推skip
+  - agentTrading: Listen未单拉；无新admit
+  - agentMining: swarmx mint结束；不因仍live重提醒
+  - giwa: Pabal waitlist续
+  - zero: lzATLAS/Zero续
+  - dogeEvm: DogeOS续
+  - starknet: 无新admit
+  - btc: CRC30/UNITS不重提醒；ShieldedNaka软刷
+  - tape: TapeAI Agent Factory筹备续
+  - elysium: 主网11-09；serialized续；无新On testnet admit
+- **skip**: rugless无mint窗；siftscan工具非mint；bitroot非独立官推；agent-punk/shaniu无官推；authority/units/crc30不重提醒；今晚排期非≤2h；LIVE软刷不重收
+- **push**: (pending)
