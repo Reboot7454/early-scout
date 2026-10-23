@@ -1,0 +1,161 @@
+{
+  "round": 388,
+  "notify": true,
+  "time": "2026-10-23 12:38 CST",
+  "xReads": 20,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "alertMessage": "10/23 12:38 新收3：hashdroids（BNB Agent ID专属PoW挖矿LIVE，0.0025BNB，粉≈0）；ospad（Binance Agents原生MEME Launchpad Soon，粉≈160）；etch-fund（pump毕业铭刻BTC Ordinal，$ETCH live，粉≈11）。≤2h：gearz Mint今日13:00CST开铸（约22min内，合约已公布）；binance-ai-agents官推仍称几小时内上线/Sleep at your own risk。今晚非≤2h：authority-keys 19:00、units-xreign/btc-crc30 20:00、meimei-rh 21-22、nockd/meridian-fi 23:00。面板 https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "hashdroids",
+    "ospad",
+    "etch-fund"
+  ],
+  "le2h": [
+    "gearz（Mint 今日13:00CST / 05:00UTC 开铸，约22min内，合约已公布）",
+    "binance-ai-agents（官推仍称几小时内上线 / Sleep at your own risk）"
+  ],
+  "coverage": "全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=20；新收3；le2h=gearz+binance-ai-agents",
+  "summary": "2026-10-23 12:38 CST 第388轮：新收3 hashdroids/ospad/etch-fund；≤2h：gearz Mint 13:00CST（约22min）、binance-ai-agents仍几小时内；今晚非≤2h排期续盯；软刷 TapePool/Ptah/Listen/Authority 等；borly/giga-legends DS skip；discordPeekDeferred；面板 https://reboot7454.github.io/early-scout/",
+  "push": "pending",
+  "skip": [
+    {
+      "id": "borly",
+      "reason": "空号风险极高 score否决 skip"
+    },
+    {
+      "id": "giga-legends",
+      "reason": "粉5.1k无明确mint窗 DS skip"
+    },
+    {
+      "id": "gearz",
+      "reason": "R383已收；开铸≤2h软刷不重收"
+    },
+    {
+      "id": "binance-ai-agents",
+      "reason": "R383已收；仍≤2h软刷不重收"
+    },
+    {
+      "id": "kol-brain",
+      "reason": "R385已收软刷"
+    },
+    {
+      "id": "ember-world",
+      "reason": "R383已收软刷"
+    },
+    {
+      "id": "ptah-trade",
+      "reason": "Relics95k非新早期软刷"
+    },
+    {
+      "id": "dotaipad",
+      "reason": "既有软刷"
+    },
+    {
+      "id": "gang-fun",
+      "reason": "既有软刷"
+    },
+    {
+      "id": "signet-fun",
+      "reason": "R382已收软刷"
+    },
+    {
+      "id": "tape-pool",
+      "reason": "既有；借贷机制软刷"
+    },
+    {
+      "id": "listen-money",
+      "reason": "既有软刷"
+    },
+    {
+      "id": "trac-reset",
+      "reason": "既有软刷"
+    },
+    {
+      "id": "authority-keys",
+      "reason": "FREE mint今日19:00CST非≤2h"
+    },
+    {
+      "id": "units-xreign",
+      "reason": "Priority20:00CST非≤2h"
+    },
+    {
+      "id": "btc-crc30",
+      "reason": "今晚20:00公开Mint非≤2h"
+    },
+    {
+      "id": "meimei-rh",
+      "reason": "21:00–22:00CST非≤2h"
+    },
+    {
+      "id": "nockd",
+      "reason": "Launch23:00CST非≤2h"
+    },
+    {
+      "id": "meridian-fi",
+      "reason": "23:00CST非≤2h"
+    },
+    {
+      "id": "serialized",
+      "reason": "R362已收软刷"
+    },
+    {
+      "id": "kalosfun",
+      "reason": "既有Elysium软刷"
+    },
+    {
+      "id": "jimmy-ord",
+      "reason": "既有软刷"
+    },
+    {
+      "id": "nockpad",
+      "reason": "既有软刷"
+    },
+    {
+      "id": "etchydotfun",
+      "reason": "异于etch-fund软刷"
+    },
+    {
+      "id": "bramble-fi",
+      "reason": "Starknet软刷无新帖"
+    },
+    {
+      "id": "paperbird",
+      "reason": "既有软刷"
+    },
+    {
+      "id": "reign-tech",
+      "reason": "有$REIGN回购非极早期mint窗 DS skip续"
+    },
+    {
+      "id": "skeletoads",
+      "reason": "普通NFT联名 DS skip续"
+    },
+    {
+      "id": "compi",
+      "reason": "非mint DS skip续"
+    },
+    {
+      "id": "timery",
+      "reason": "非加密mint DS skip续"
+    },
+    {
+      "id": "whodl-bot",
+      "reason": "研究机器人 DS skip续"
+    }
+  ],
+  "watches": {
+    "kinetiq": "主网11-09续；无新On testnet admit；serialized/kalos软刷",
+    "agentPad": "新收ospad Soon；gearz≤2h；binance-ai-agents仍≤2h；Ptah95k软刷",
+    "agentTrading": "Listen续；无新agentic trading admit",
+    "agentMining": "新收hashdroids LIVE PoW；gearz开铸≤2h；Trac续",
+    "giwa": "Gamapad/Ammora/Pabal刷分续",
+    "zero": "lzATLAS/Zero 11-30续",
+    "dogeEvm": "DogeOS Wheel/Monko刷分续",
+    "starknet": "Bramble本窗无新帖",
+    "btc": "新收etch-fund；今晚排期均非≤2h",
+    "tape": "TapePool机制软刷；无新电路admit",
+    "elysium": "主网11-09；serialized testnet续；无新admit"
+  },
+  "dsNote": "deepseek-flash+thinking；admit/score/alert均DS；borly score否决；无dsFallback；新收focus:false"
+}
