@@ -9,7 +9,7 @@
 - **xReads**: 23
 - **discordPeekDeferred**: true
 - **dsFallback**: false
-- **push**: pending
+- **push**: ok a6b3e23555ea00b73df8470f498dd2bd25253d0b
 - **summary**: R422 新增 ngmi-wagmi、agent-city（BN Agent ID 打新）；软刷 hypair/hello-fun/tapebit/pipfun/gang/agent-punk；全栏抽检无 Tape/GIWA/Zero/DogeEVM/Starknet/挖矿极早期新卡。
 
 ## Coverage
