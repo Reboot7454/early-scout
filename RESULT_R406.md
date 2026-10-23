@@ -25,4 +25,4 @@
   - tape: TapeAI Agent Factory筹备续
   - elysium: 主网11-09；serialized续；无新On testnet admit
 - **skip**: rugless无mint窗；siftscan工具非mint；bitroot非独立官推；agent-punk/shaniu无官推；authority/units/crc30不重提醒；今晚排期非≤2h；LIVE软刷不重收
-- **push**: (6c5351e)
+- **push**: ok 6c5351e
