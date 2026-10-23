@@ -25,4 +25,4 @@
   - tape: TapeAI Agent Factory叙事+Koala builder软刷不收；无新Tape admit
   - elysium: 主网11-09；Serialized testnet既有；无新admit
 - **skip**: night-shift-rh:账号今日新建仅2粉纸面策略rug风险高, stable402:x402结算infra无CA非直接打新, koala-tape:TapeOut builder无mint/CA偏讨论, phew-pro:RH教学站非新资产发射, build-ai:R376已收；mint即挖矿预告软刷, ptah-trade:Relics热续+UI live；软刷, units-agentic:既有；软刷, baekho:AmmoraEco推文续；既有, authority-keys:FREE mint今日19:00CST非≤2h, units-xreign:Priority20:00CST非≤2h, nockd:Launch23:00CST非≤2h, meimei-rh:21:00–22:00CST非≤2h, btc-crc30:今晚20:00公开Mint非≤2h, meridian-fi:R377已收；23:00CST非≤2h, emblem-agent:既有发射台10k粉非极早期新窗, casperlink/gtc-desks/megapad-x/kay9/coinflip-rh:R378新勿重收
-- **push**: (pending)
+- **push**: ok 4f9e9e8
