@@ -80,3 +80,5 @@
 
 ## 2026-10-23 R413
 - 用户点名补收 `@pipfun_xyz`（Pipfun）。此前 RESULT 无痕迹=关键词漏捞，非「无官推」误判；已写入 `agentPadWatch.accounts`。
+- 用户点名补收 `@pipfun_xyz`（Pipfun）。此前 RESULT 无痕迹=关键词漏捞，非「无官推」误判；已写入 `agentPadWatch.accounts`。
+- 用户点名补收 `@StonksPadsh`（StonksPad）。此前 RESULT/库内无痕迹=关键词漏捞；官宣 2026-10-26 live on `@flapdotsh`；已写入 `meta.flapPadWatch.accounts` 必盯；卡 `stonks-pad`（R426）。
