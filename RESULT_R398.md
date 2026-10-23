@@ -25,4 +25,4 @@
   - tape: TapeOut管理权销毁叙事续；无新电路admit
   - elysium: 主网11-09；serialized续
 - **skip**: fourmeme-agent-teaser:仅预告无mint窗, fried-chick:非官推营销, gearz:已收仅NEW play更新不重收, swarmx:仍LIVE不重提醒, agentai-agi:仍即将登场, feastmeme:明早SGT软刷, binance-ai-agents:仍无开, authority-keys:19:00非≤2h, units-xreign/btc-crc30:20:00非≤2h, meimei-rh:21-22非≤2h, cairnlabs:22:00非≤2h, nockd/meridian-fi:23:00非≤2h
-- **push**: pending
+- **push**: ok 69fba06
