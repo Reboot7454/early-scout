@@ -25,4 +25,4 @@
   - tape: TapePool机制软刷；无新电路admit
   - elysium: 主网11-09；无新admit
 - **skip**: sili-rig:社区个人号非独立官推 DS skip, slotforge:空号/无官推 DS skip, gearz:R383已收；机制帖软刷, binance-ai-agents:R383已收；仍≤2h软刷不重收, ember-world:R383已收软刷, ptah-trade:Relics≈95k/24.4k Agent ID；非新早期软刷, dotai-pad:既有软刷, gang-fun:既有；cap~$1M软刷, signet-fun:R382已收软刷, agentpad-trade:R381已收软刷, circuit-pay:R380已收软刷, badge-launchpad:R380已收软刷, tape-robot:R380已收软刷, tape-pool:既有；借贷机制说明软刷, listen-money:既有软刷, trac-reset:既有；Intercom DEX软刷, launch-on-eve:R384已收, simpla-fun:R384已收, authority-keys:FREE mint今日19:00CST非≤2h, units-xreign:Priority20:00CST非≤2h, btc-crc30:今晚20:00公开Mint非≤2h, meimei-rh:21:00–22:00CST非≤2h, nockd:Launch23:00CST非≤2h, meridian-fi:R377已收；23:00CST非≤2h, dianshitai:真实性skip续, fealty-club:非极早期skip续, quip-network:过热skip续, go-incognito:R380 skip续, rarelist:过热, chimpx-ai:非极早期, shit-cash:过热skip续, bramble-fi:Starknet软刷无新帖, ammora:既有GIWA软刷, gamapad:既有GIWA软刷, paperbird:既有软刷, serialized:Elysium testnet续, kalosfun:既有Elysium, fomopoly:既有, ethernalcubs:既有, toshx:既有Tape fair launch软刷, ducat:粉高非极早期
-- **push**: (pending)
+- **push**: ok 3abb696
