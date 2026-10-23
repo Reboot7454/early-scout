@@ -1,0 +1,28 @@
+# Early Scout RESULT R400
+
+- **round**: 400
+- **time**: 2026-10-23 17:05 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 18
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: ['stocker-punk']
+- **le2h**: ['authority-keys']（FREE mint今日19:00CST，约1h55m）
+- **alertMessage**: 10/23 17:05 ≤2h：authority-keys FREE mint今日19:00CST（约1h55m，11:00UTC确认）。新收stocker-punk（BN Agent钱包限定mint今日21:00CST·约3粉）。ink-berries/gearz/swarmx/tagai等仍LIVE不重提醒。今晚非≤2h：units-xreign/btc-crc30 20:00、meimei-rh 21-22、cairnlabs/$CAIRN 22:00、nockd/meridian-fi 23:00。面板 https://reboot7454.github.io/early-scout/
+- **summary**: 2026-10-23 17:05 CST 第400轮：≤2h提醒authority-keys 19:00；新收stocker-punk(BN Agent限定mint 21:00)；软刷ink-berries/gearz/swarmx/tagai等不重提醒；discordPeekDeferred；面板 https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=18；新收1；le2h=[authority-keys]
+- **dsNote**: deepseek-flash+thinking；admit(收stocker-punk；skip pawscrow/sasona/itia及软刷项)/score(stocker-punk)/alert均DS；无dsFallback；新卡focus:false
+- **watches**:
+  - kinetiq: 主网11-09续；无新On testnet admit
+  - agentPad: 新收stocker-punk；tagai/feast/AGI等软刷
+  - agentTrading: Listen续；无新admit
+  - agentMining: gearz/swarmx/Trac软刷；不因仍live重提醒
+  - giwa: Ammora/Pabal刷分续
+  - zero: lzATLAS/Zero 11-30续
+  - dogeEvm: DogeOS续；pawscrow DS skip
+  - starknet: Bramble钱包接入DeFi续；无新admit
+  - btc: CRC30今晚20:00非≤2h；ShieldedNaka续
+  - tape: TapeOut管理权销毁+规模续；TapeAI Factory筹备；foundry Set Mark软刷
+  - elysium: 主网11-09；serialized续
+- **skip**: pawscrow:无mint窗, sasona-network:无launch窗, itia-genesis:非极早期无公开mint, gearz/swarmx/ink-berries/tagai/foundry-tape:软刷不重收, units-xreign/btc-crc30:20:00非≤2h, meimei-rh:21-22非≤2h, cairnlabs:22:00非≤2h, nockd/meridian-fi:23:00非≤2h, stocker-punk mint 21:00非≤2h(仅新收提醒)
+- **push**: (pending)
