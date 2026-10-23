@@ -25,4 +25,4 @@
   - tape: TapePool软刷；NODI个人号skip；无新电路admit
   - elysium: 主网11-09；serialized testnet续；无新admit
 - **skip**: gearz:R383已收；Minting已开≤2h软刷不重收, binance-ai-agents:R383已收；距「几小时内」帖>3h无开确认，退出≤2h软刷, shaniu:无官推 DS skip, nodi-circuit:个人号非独立官推 DS skip, farming-season:R5已收非极早期软刷, jimmy-ord:R308已收软刷, gang-fun:既有；cooking something new无新mint软刷, hashdroids:R388已收软刷, ospad:R388已收软刷, etch-fund:R388已收软刷, kol-brain:R385已收软刷, ember-world:R383已收软刷, ptah-trade:Relics售罄软刷, dotaipad:既有软刷, tape-pool:既有软刷, listen-money:既有软刷, trac-reset:既有软刷, authority-keys:FREE mint今日19:00CST非≤2h, units-xreign:Priority20:00CST非≤2h, btc-crc30:今晚20:00公开Mint非≤2h, meimei-rh:21:00–22:00CST非≤2h, nockd:Launch23:00CST非≤2h, meridian-fi:23:00CST非≤2h, cairnlabs:R391已收；$CAIRN今晚22:00非≤2h, moar-dogeos:无官推社区教程 skip续, fomopoly:rarelist线skip续
-- **push**: pending
+- **push**: ok 3fd8144
