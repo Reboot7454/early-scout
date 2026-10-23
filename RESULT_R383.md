@@ -1,0 +1,28 @@
+# Early Scout RESULT R383
+
+- **round**: 383
+- **time**: 2026-10-23 10:02 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 20
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: gearz, binance-ai-agents, ember-world
+- **le2h**: (none)
+- **alertMessage**: 10/23 10:02 新收录3个：gearz（BNB Agent ID mint-to-mine）、binance-ai-agents（5555 Agents NFT预告）、ember-world（TapeOut链游Pass即将铸造）；无≤2h，面板 https://reboot7454.github.io/early-scout/
+- **summary**: 2026-10-23 10:02 CST 第383轮续扫：新收录 gearz（@gearzfun，BNB Agent ID mint-to-mine，gearz.fun live，≈0粉）、binance-ai-agents（@binanceaiagents，5555 Agents NFT预告，≈13粉）、ember-world（@EmberWorldX，TapeOut链游余烬世界 Pass即将铸造，≈36粉）；当前无≤2h；今晚非≤2h：authority-keys 19:00、units-xreign/btc-crc30 20:00、meimei-rh 21-22、nockd/meridian-fi 23:00；面板 https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=20；新收3；无≤2h
+- **dsNote**: deepseek-flash+thinking；admit/score/alert/summary均DS；无dsFallback；dianshitai/shit-cash DS skip；新收3 focus=false
+- **watches**:
+  - kinetiq: 主网11-09续；无新On testnet admit
+  - agentPad: 新收gearz+binance-ai-agents；Ptah/signet软刷；dianshitai skip
+  - agentTrading: Listen续；无新admit
+  - agentMining: Trac续；新收gearz mint-to-mine
+  - giwa: 本窗无新信号
+  - zero: lzATLAS/Zero 11-30续
+  - dogeEvm: Monko testnet刷分续
+  - starknet: Bramble本窗无新帖
+  - btc: 今晚排期均非≤2h
+  - tape: 新收ember-world；TapeAI/circuit软刷
+  - elysium: 主网11-09；Serialized/Kalos续；无新admit
+- **skip**: dianshitai:Mint时间未定且账号Good Ol Boy/真实性存疑 DS skip, shit-cash:≈2864粉已有曝光；无明确极早期窗口 DS skip, agentpad-trade:R381已收软刷, circuit-pay:R380已收软刷, badge-launchpad:R380已收软刷, tape-robot:R380已收软刷, ptah-trade:Relics≈10k Agent ID+交易UI live软刷；非新早期, dotai-pad:既有；BNB live软刷, gang-fun:既有；BNB Agent pad软刷, sigil-pad:既有BN Agent pad, signet-fun:R382已收软刷, pair-fund:RH launchpad非极早期, authority-keys:FREE mint今日19:00CST非≤2h, units-xreign:Priority20:00CST非≤2h, btc-crc30:今晚20:00公开Mint非≤2h, meimei-rh:21:00–22:00CST非≤2h, nockd:Launch23:00CST非≤2h, meridian-fi:R377已收；23:00CST非≤2h, go-incognito:R380 skip续, xochi-fi:Agentic Dark Pool infra非直接打新, rarelist:过热非极早期, chimpx-ai:非极早期, bibi-ai:既有软刷, units-agentic:既有软刷, baekho:既有, ammora:既有GIWA软刷, gamapad:既有, bramble-fi:Starknet软刷；本窗无新帖, listen-money:既有, trac-reset:既有；Intercom DEX软刷, paperbird:既有, koala-tape:skip续, tapebit:R351已收软刷, casperlink:近期已收勿重收, gtc-desks:近期已收勿重收, megapad-x:近期已收勿重收, kay9:近期已收勿重收, coinflip-rh:近期已收勿重收, evm-bot:近期已收勿重收, pabalx:既有GIWA, kalosfun:既有Elysium, serialized:R362已收；Elysium testnet官推续, raidlords:R327已收；RH waitlist非新早期, farming-season:既有；Free mint 10-24非本窗≤2h
+- **push**: pending
