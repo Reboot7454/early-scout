@@ -1,0 +1,28 @@
+# Early Scout RESULT R398
+
+- **round**: 398
+- **time**: 2026-10-23 15:59 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 24
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: ['tagai-aipro']
+- **le2h**: ['gearz']（降价重开 mint LIVE）
+- **alertMessage**: 10/23 15:59 新收 tagai-aipro（TagAI首个BN Agent限定内盘$AIPRO bonding续）；gearz降价重开mint 0.0032BNB/Cog LIVE。今晚非≤2h：authority-keys 19:00、units-xreign/btc-crc30 20:00、meimei-rh 21-22、cairnlabs/$CAIRN 22:00、nockd/meridian-fi 23:00。面板 https://reboot7454.github.io/early-scout/
+- **summary**: 2026-10-23 15:59 CST 第398轮：新收tagai-aipro(BN Agent内盘$AIPRO)；gearz降价重开NEW play；swarmx/agentai-agi/feastmeme等软刷；今晚排期非≤2h；discordPeekDeferred；面板 https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=24；新收1；le2h=[gearz]
+- **dsNote**: deepseek-flash+thinking；admit(tagai-aipro；fourmeme-teaser/gearz-reprice-as-new/fried-chick skip)/score(tagai-aipro+gearz)/alert均DS；无dsFallback；新卡focus:false
+- **watches**:
+  - kinetiq: 主网11-09续；无新On testnet admit
+  - agentPad: 新收tagai-aipro；feastmeme明早SGT；binance-ai-agents仍无开；AGI仍即将登场
+  - agentTrading: Listen续；无新admit
+  - agentMining: gearz降价重开LIVE；swarmx仍LIVE不重提醒；hashdroids/Trac软刷
+  - giwa: Ammora/Pabal刷分续
+  - zero: lzATLAS/Zero 11-30续
+  - dogeEvm: DogeOS续；无新admit
+  - starknet: 本窗无新
+  - btc: CRC30今晚20:00非≤2h
+  - tape: TapeOut管理权销毁叙事续；无新电路admit
+  - elysium: 主网11-09；serialized续
+- **skip**: fourmeme-agent-teaser:仅预告无mint窗, fried-chick:非官推营销, gearz:已收仅NEW play更新不重收, swarmx:仍LIVE不重提醒, agentai-agi:仍即将登场, feastmeme:明早SGT软刷, binance-ai-agents:仍无开, authority-keys:19:00非≤2h, units-xreign/btc-crc30:20:00非≤2h, meimei-rh:21-22非≤2h, cairnlabs:22:00非≤2h, nockd/meridian-fi:23:00非≤2h
+- **push**: pending
