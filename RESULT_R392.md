@@ -1,0 +1,28 @@
+# Early Scout RESULT R392
+
+- **round**: 392
+- **time**: 2026-10-23 14:02 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 19
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: ['agentore']
+- **le2h**: gearz（官推确认 Minting is open，至10-30 05:00UTC或售罄，需Agent ID）
+- **alertMessage**: 10/23 14:02 新收 agentore（BN Agent挖矿 PRELAUNCH，mint未开，勿发BNB）。≤2h：gearz Minting is open（至10-30 05:00UTC或售罄，需Agent ID）。今晚非≤2h：authority-keys 19:00、units-xreign/btc-crc30 20:00、meimei-rh 21-22、cairnlabs/$CAIRN 22:00、nockd/meridian-fi 23:00。面板 https://reboot7454.github.io/early-scout/
+- **summary**: 2026-10-23 14:02 CST 第392轮：新收agentore（BN Agent PRELAUNCH）；≤2h gearz开铸中；binance-ai-agents退出≤2h；今晚排期续盯；discordPeekDeferred；面板 https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=19；新收1 agentore；le2h=gearz
+- **dsNote**: deepseek-flash+thinking；admit(agentore；gearz/binance-ai-agents/shaniu/nodi/farming/jimmy/gang skip)/score(agentore)/alert均DS；无dsFallback；新卡focus:false
+- **watches**:
+  - kinetiq: 主网11-09续；无新On testnet admit；serialized/kalos软刷
+  - agentPad: gearz≤2h；binance-ai-agents退出≤2h；agentore PRELAUNCH新收；Ptah/Gang软刷
+  - agentTrading: Listen续；无新admit
+  - agentMining: gearz≤2h；agentore新收；hashdroids/Trac软刷
+  - giwa: Gamapad/Ammora/Pabal刷分续
+  - zero: lzATLAS/Zero 11-30续
+  - dogeEvm: DogeOS Chapter2/Wheel续；moar skip
+  - starknet: Bramble本窗无新帖
+  - btc: ShieldedNaka/jimmy-ord软刷；CRC30今晚非≤2h
+  - tape: TapePool软刷；NODI个人号skip；无新电路admit
+  - elysium: 主网11-09；serialized testnet续；无新admit
+- **skip**: gearz:R383已收；Minting已开≤2h软刷不重收, binance-ai-agents:R383已收；距「几小时内」帖>3h无开确认，退出≤2h软刷, shaniu:无官推 DS skip, nodi-circuit:个人号非独立官推 DS skip, farming-season:R5已收非极早期软刷, jimmy-ord:R308已收软刷, gang-fun:既有；cooking something new无新mint软刷, hashdroids:R388已收软刷, ospad:R388已收软刷, etch-fund:R388已收软刷, kol-brain:R385已收软刷, ember-world:R383已收软刷, ptah-trade:Relics售罄软刷, dotaipad:既有软刷, tape-pool:既有软刷, listen-money:既有软刷, trac-reset:既有软刷, authority-keys:FREE mint今日19:00CST非≤2h, units-xreign:Priority20:00CST非≤2h, btc-crc30:今晚20:00公开Mint非≤2h, meimei-rh:21:00–22:00CST非≤2h, nockd:Launch23:00CST非≤2h, meridian-fi:23:00CST非≤2h, cairnlabs:R391已收；$CAIRN今晚22:00非≤2h, moar-dogeos:无官推社区教程 skip续, fomopoly:rarelist线skip续
+- **push**: pending
