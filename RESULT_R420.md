@@ -9,7 +9,7 @@
 - **xReads**: 16
 - **discordPeekDeferred**: true
 - **dsFallback**: false
-- **push**: pending
+- **push**: ok 59dcc460aad8787b824163ef0f5a56d6a48febec
 - **summary**: R420 新增 arcgus、lineage-agent、bort-on-bsc；≤2h首次提醒 vearl+wobbleheads；软刷 pipfun/gang/hypair/elysium 等。
 
 ## Coverage
