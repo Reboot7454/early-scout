@@ -25,4 +25,4 @@
   - tape: TapeOut管理权销毁+里程碑续；无新电路admit
   - elysium: 主网11-09；serialized续
 - **skip**: partyslots:score拒收赌场高风险, unalyn:无明确mint窗, omnirail:偏基建非打新, gearz:R383已收>2h, binance-ai-agents:仍无开, feastmeme:R395已收软刷, wasaorh/cindryonai/ruvoclick:R396软刷, authority-keys:19:00非≤2h, units-xreign/btc-crc30:20:00非≤2h, meimei-rh:21-22非≤2h, cairnlabs:22:00非≤2h, nockd/meridian-fi:23:00非≤2h
-- **push**: (pending)
+- **push**: ok 5466141
