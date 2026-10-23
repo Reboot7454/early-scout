@@ -1,0 +1,28 @@
+# Early Scout RESULT R404
+
+- **round**: 404
+- **time**: 2026-10-23 18:10 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 20
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: ['fendle', 'ballast', 'xmrroots']
+- **le2h**: ['units-xreign', 'btc-crc30']（authority-keys 19:00仍≤2h但R400已提醒→不重通知）
+- **alertMessage**: 10/23 18:10 新收3：fendle（跨链swap·$FEND刚上·约23粉）、ballast（RH股票挂钩pad LIVE·约539粉）、xmrroots（Sol XMR储备meme·pump刚发·约196粉）。≤2h首次提醒：units-xreign Priority 20:00、btc-crc30 mint 20:00。authority-keys 19:00已R400提醒不重通知。今晚非≤2h：stocker-punk 21:00、meimei 21-22、cairn 22:00、nockd/meridian 23:00。面板 https://reboot7454.github.io/early-scout/
+- **summary**: 2026-10-23 18:10 CST 第404轮：新收fendle+ballast+xmrroots；units-xreign/btc-crc30首次≤2h提醒；authority不重提醒；软刷今晚排期与LIVE；discordPeekDeferred；面板 https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=20；新收3；le2h=units-xreign+btc-crc30
+- **dsNote**: deepseek-flash+thinking；admit(收fendle/ballast/xmrroots；skip saucepad/build-ai-refresh)/score/alert均DS；无dsFallback；新卡focus:false
+- **watches**:
+  - kinetiq: 主网11-09续；无新On testnet admit
+  - agentPad: build-ai软刷即将上线；SaucePad无官推skip
+  - agentTrading: Listen续；无新admit
+  - agentMining: gearz/swarmx/Trac软刷；不因仍live重提醒
+  - giwa: Pabal/GIWA刷分续
+  - zero: lzATLAS/Zero续
+  - dogeEvm: DogeOS续
+  - starknet: Bramble钱包DeFi接入续；无新admit
+  - btc: CRC30今晚20:00≤2h首次提醒；ShieldedNaka续
+  - tape: TapeAI Agent Factory创世Agent筹备；电路续
+  - elysium: 主网11-09；无新On testnet admit
+- **skip**: saucepad无官推；build-ai无精确窗；authority不重提醒；今晚排期非≤2h；LIVE/R403项软刷不重收
+- **push**: pending
