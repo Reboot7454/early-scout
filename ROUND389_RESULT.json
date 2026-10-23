@@ -1,0 +1,209 @@
+{
+  "round": 389,
+  "notify": true,
+  "time": "2026-10-23 13:00 CST",
+  "xReads": 20,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "alertMessage": "10/23 13:00 无新收。≤2h：gearz Mint今日13:00CST开铸窗口已到/刚开（需Agent ID，合约0xc285…2D56已公布）；binance-ai-agents官推仍称几小时内上线/Sleep at your own risk（本窗无新帖确认已开铸）。今晚非≤2h：authority-keys 19:00、units-xreign/btc-crc30 20:00、meimei-rh 21-22、nockd/meridian-fi 23:00。面板 https://reboot7454.github.io/early-scout/",
+  "newIds": [],
+  "le2h": [
+    "gearz（Mint 今日13:00CST / 05:00UTC 开铸窗口已到/刚开，需Agent ID，合约已公布）",
+    "binance-ai-agents（官推仍称几小时内上线 / Sleep at your own risk）"
+  ],
+  "coverage": "全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=20；新收0；le2h=gearz+binance-ai-agents",
+  "summary": "2026-10-23 13:00 CST 第389轮：无新收；≤2h：gearz Mint 13:00CST开铸窗口已到、binance-ai-agents仍几小时内；今晚非≤2h排期续盯；软刷 hashdroids/ospad/etch-fund/TapePool/Ptah/Listen；niulai/shaniu DS skip；discordPeekDeferred；面板 https://reboot7454.github.io/early-scout/",
+  "push": "pending",
+  "skip": [
+    {
+      "id": "niulai-spam",
+      "reason": "官推疑似随机号粉≈2 DS skip"
+    },
+    {
+      "id": "shaniu",
+      "reason": "无官推handle DS skip"
+    },
+    {
+      "id": "niulai-nft-old",
+      "reason": "旧CTO非Agent mint窗 DS skip"
+    },
+    {
+      "id": "gearz",
+      "reason": "R383已收；开铸≤2h软刷不重收"
+    },
+    {
+      "id": "binance-ai-agents",
+      "reason": "R383已收；仍≤2h软刷不重收"
+    },
+    {
+      "id": "hashdroids",
+      "reason": "R388已收软刷"
+    },
+    {
+      "id": "ospad",
+      "reason": "R388已收软刷"
+    },
+    {
+      "id": "etch-fund",
+      "reason": "R388已收软刷"
+    },
+    {
+      "id": "kol-brain",
+      "reason": "R385已收软刷"
+    },
+    {
+      "id": "ember-world",
+      "reason": "R383已收软刷"
+    },
+    {
+      "id": "ptah-trade",
+      "reason": "Relics95k非新早期软刷"
+    },
+    {
+      "id": "dotaipad",
+      "reason": "既有软刷"
+    },
+    {
+      "id": "gang-fun",
+      "reason": "既有软刷"
+    },
+    {
+      "id": "signet-fun",
+      "reason": "R382已收软刷"
+    },
+    {
+      "id": "tape-pool",
+      "reason": "既有；借贷机制软刷"
+    },
+    {
+      "id": "listen-money",
+      "reason": "既有软刷"
+    },
+    {
+      "id": "trac-reset",
+      "reason": "既有软刷"
+    },
+    {
+      "id": "authority-keys",
+      "reason": "FREE mint今日19:00CST非≤2h"
+    },
+    {
+      "id": "units-xreign",
+      "reason": "Priority20:00CST非≤2h"
+    },
+    {
+      "id": "btc-crc30",
+      "reason": "今晚20:00公开Mint非≤2h"
+    },
+    {
+      "id": "meimei-rh",
+      "reason": "21:00–22:00CST非≤2h"
+    },
+    {
+      "id": "nockd",
+      "reason": "Launch23:00CST非≤2h"
+    },
+    {
+      "id": "meridian-fi",
+      "reason": "23:00CST非≤2h"
+    },
+    {
+      "id": "serialized",
+      "reason": "R362已收软刷"
+    },
+    {
+      "id": "kalosfun",
+      "reason": "既有Elysium软刷"
+    },
+    {
+      "id": "bramble-fi",
+      "reason": "Starknet软刷无新帖"
+    },
+    {
+      "id": "paperbird",
+      "reason": "既有软刷"
+    },
+    {
+      "id": "borly",
+      "reason": "空号风险极高 skip续"
+    },
+    {
+      "id": "giga-legends",
+      "reason": "粉高无明确mint窗 skip续"
+    },
+    {
+      "id": "reign-tech",
+      "reason": "有$REIGN回购非极早期mint窗 DS skip续"
+    },
+    {
+      "id": "skeletoads",
+      "reason": "普通NFT联名 DS skip续"
+    },
+    {
+      "id": "sili-rig",
+      "reason": "社区个人号非独立官推 skip续"
+    },
+    {
+      "id": "slotforge",
+      "reason": "空号/无官推 skip续"
+    },
+    {
+      "id": "dianshitai",
+      "reason": "真实性skip续"
+    },
+    {
+      "id": "fealty-club",
+      "reason": "非极早期skip续"
+    },
+    {
+      "id": "quip-network",
+      "reason": "过热skip续"
+    },
+    {
+      "id": "go-incognito",
+      "reason": "R380 skip续"
+    },
+    {
+      "id": "rarelist",
+      "reason": "过热"
+    },
+    {
+      "id": "chimpx-ai",
+      "reason": "非极早期"
+    },
+    {
+      "id": "shit-cash",
+      "reason": "过热skip续"
+    },
+    {
+      "id": "ducat",
+      "reason": "粉高非极早期"
+    },
+    {
+      "id": "compi",
+      "reason": "非mint DS skip续"
+    },
+    {
+      "id": "timery",
+      "reason": "非加密mint DS skip续"
+    },
+    {
+      "id": "whodl-bot",
+      "reason": "研究机器人 DS skip续"
+    }
+  ],
+  "dsNote": "deepseek-flash+thinking；admit(niulai-spam/shaniu/niulai-nft-old 全skip)/alert均DS；无dsFallback",
+  "watches": {
+    "kinetiq": "主网11-09续；无新On testnet admit",
+    "agentPad": "gearz开铸≤2h；binance-ai-agents仍≤2h；ospad Soon软刷",
+    "agentTrading": "Listen续；无新admit",
+    "agentMining": "gearz开铸≤2h；hashdroids LIVE软刷；Trac续",
+    "giwa": "Gamapad/Ammora/Pabal刷分续",
+    "zero": "lzATLAS/Zero 11-30续",
+    "dogeEvm": "DogeOS Chapter2/Wheel刷分续",
+    "starknet": "Bramble本窗无新帖",
+    "btc": "etch-fund软刷；今晚排期非≤2h",
+    "tape": "TapePool借贷机制软刷",
+    "elysium": "主网11-09；serialized testnet续"
+  }
+}
