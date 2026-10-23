@@ -1,0 +1,28 @@
+# Early Scout RESULT R381
+
+- **round**: 381
+- **time**: 2026-10-23 09:04 CST (Asia/Shanghai)
+- **notify**: true
+- **xReads**: 23
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **newIds**: agentpad-trade
+- **le2h**: (none)
+- **alertMessage**: 10/23 09:04 新收录1个：agentpad-trade（BNB Agent ID专属内盘发射台）；无≤2h，面板 https://reboot7454.github.io/early-scout/
+- **summary**: 2026-10-23 09:04 CST 第381轮续扫：新收录 agentpad-trade（@web3seer_/agentpad.trade，BNB Agent ID专属内盘meme发射台正式上线/限购3%/约16BNB毕业锁LP），当前无≤2h；今晚非≤2h：authority-keys 19:00、units-xreign/btc-crc30 20:00、meimei-rh 21-22、nockd/meridian-fi 23:00；面板 https://reboot7454.github.io/early-scout/
+- **coverage**: 全部十栏+打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape；discordPeekDeferred=true；xReads=23；新收1；无≤2h
+- **dsNote**: deepseek-flash+thinking；admit/score/alert均DS；无dsFallback；agentpad-trade admit
+- **watches**:
+  - kinetiq: 主网11-09续；无新On testnet admit
+  - agentPad: 新收agentpad-trade；Ptah/dotaipad/gang/badge软刷
+  - agentTrading: Listen续；无新admit
+  - agentMining: Trac/fitzy软刷；无新早期admit
+  - giwa: Ammora/Baekho/Gamapad/pabalx续；无新admit
+  - zero: lzATLAS/Zero 11-30续
+  - dogeEvm: MyDoge/DogeOS软刷；无新admit
+  - starknet: Bramble软刷；无新admit
+  - btc: 今晚排期均非≤2h
+  - tape: TapeAI叙事+circuit-pay/tape-robot软刷；无新Tape admit
+  - elysium: 主网11-09；Kalos热续既有；无新admit
+- **skip**: circuit-pay:R380已收软刷, badge-launchpad:R380已收软刷, tape-robot:R380已收软刷, ptah-trade:Relics≈10k+UI live软刷, dotai-pad:既有软刷, gang-fun:既有软刷, authority-keys:FREE mint今日19:00CST非≤2h, units-xreign:Priority20:00CST非≤2h, btc-crc30:今晚20:00公开Mint非≤2h, meimei-rh:21:00–22:00CST非≤2h, nockd:Launch23:00CST非≤2h, meridian-fi:23:00CST非≤2h, go-incognito:R380 skip续, xochi-fi:infra非打新, rarelist:过热, chimpx-ai:非极早期, bibi-ai:既有软刷, units-agentic:既有, baekho:既有, ammora:既有, gamapad:既有, bramble-fi:既有, listen-money:既有, trac-reset:既有, paperbird:既有, koala-tape:skip续, casperlink/gtc-desks/megapad-x/kay9/coinflip-rh/evm-bot:近期已收勿重收, pabalx:既有GIWA, kalosfun:既有Elysium
+- **push**: (pending)
