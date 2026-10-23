@@ -9,7 +9,7 @@
 - **xReads**: 13
 - **discordPeekDeferred**: true
 - **dsFallback**: false
-- **push**: pending
+- **push**: ok f2e2029499e4184ca5856af241db995e25892273
 - **summary**: 新收 HYPAIR（Solana 热门币配对 launchpad）；gloomy-cats mint LIVE 软刷；无新增首次≤2h提醒。
 
 ## Coverage
