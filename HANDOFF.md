@@ -88,3 +88,10 @@
 - 卡 `xuanwu-sigil` 已于 **R425** 收录（BNB Agent ID EX-00 Sigil mint LIVE）；非漏卡。
 - 但 `meta.agentPadWatch.accounts` / `candidateIds` 此前未写入 `@Leeonmort` / `xuanwu-sigil` → 例行软刷不会专盯该号。
 - 已补写入 `agentPadWatch.accounts` 必盯；软刷粉≈505；`focus:false` 保持。
+
+## 2026-10-24 用户点名补收 @saulpink + @fulldotfun
+- 库内此前 **无** `saulpink` / `fulldotfun` / `full.fun` / PinkSale 相关卡 → 关键词漏捞（非「无官推」）。
+- 新收卡：`full-fun`（@fulldotfun，多链 meme launchpad live，full.fun）+ `saul-pink`（@saulpink，PinkSale 创始人，官宣周一 $FULL）。
+- 已写入 `meta.fullFunWatch.accounts` 必盯：`@fulldotfun` `@saulpink`；`candidateIds`：`full-fun` `saul-pink`。
+- `focus:false` 硬禁遵守；归台子/Meme。
+- $FULL Monday（约 2026-10-26）非 ≤2h；平台本身已 live。
