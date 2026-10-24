@@ -7,7 +7,7 @@
 - xReads: 20
 - discordPeekDeferred: true
 - dsFallback: false
-- push: (pending)
+- push: d287cad
 
 ## alert
 新收可操作：Stonkemon（RH链股票TCG已live，官推≈0粉）、Stray Society（10/28 free mint）、Peryn（GPU双挖 Founding Miner报名开）。面板：https://reboot7454.github.io/early-scout/
