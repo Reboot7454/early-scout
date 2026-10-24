@@ -1,0 +1,40 @@
+{
+  "round": 494,
+  "completedAt": "2026-10-25 06:40 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "discord-alpha-40",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R494 Discord alpha 补漏新收：Lanterns Town（BNB .ai Agent），面板 https://reboot7454.github.io/early-scout/",
+  "summary": "R494 补收 @LanternsTown（R493 Discord 因 Spidey API 无资料误跳过；卡面有 x.com 链接，X API 核验后 admit 台子/Meme）；lastSeen 06:02 CST；discordPeekDeferred=false",
+  "newAdmits": [
+    {
+      "id": "lanterns-town",
+      "twitter": "@LanternsTown",
+      "name": "Lanterns Town",
+      "category": "台子/Meme",
+      "why": "极早期新号，主题聚焦 AI agent + BNB Chain，适合列入监视；有明确叙事和上线预告，但信息不足、风险高。"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "lanterns-town"
+  ],
+  "clearedPrevNewThisRound": [
+    "catalyst-labs-x"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking on; admit+score LanternsTown",
+  "coverage": "discord-alpha #alpha-1 only (R493 miss fix)",
+  "skippedNote": "FloorFeed 仍在 cutoff 前；本轮仅补 LanternsTown",
+  "meta": {
+    "lastSeen": "2026-10-25 06:02 CST",
+    "lastChecked": "2026-10-25 06:40 CST",
+    "newestCard": "Lanterns Town @ 2026-10-25 06:02 CST"
+  },
+  "push": {
+    "ok": false
+  },
+  "remoteVerified": false
+}
