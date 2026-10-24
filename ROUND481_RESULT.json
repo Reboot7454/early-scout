@@ -1,0 +1,107 @@
+{
+  "round": 481,
+  "updated": "2026-10-25 02:38 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "alertMessage": "真新：apepix-rh；≤2h窗：agent-apes、agent-x402、gwei、apepix-rh。面板：https://reboot7454.github.io/early-scout/",
+  "dsSummary": "apepix-rh 为真新且处于≤2h窗；同窗点名 agent-apes、agent-x402、gwei。其余按 notes：signal-core/fomoener 已>2h，zerotapeout 约7.5h，milkbao 20:00CST，ghost-agentic 续skip，Elysium主网11/09，TapeCode明天。",
+  "dsOk": true,
+  "dsFallback": false,
+  "newIds": [
+    "apepix-rh"
+  ],
+  "newThisRound": [
+    "apepix-rh"
+  ],
+  "le2h": [
+    "agent-apes",
+    "agent-x402",
+    "gwei",
+    "apepix-rh"
+  ],
+  "updatedIds": [
+    "agent-apes",
+    "agent-x402",
+    "anthrobit",
+    "apepix-rh",
+    "elyziuma",
+    "enter-elysium",
+    "farming-season",
+    "fomoener",
+    "foundry-tape",
+    "full-fun",
+    "gang-fun",
+    "gwei",
+    "jager",
+    "lodepass",
+    "milkbao",
+    "miner-fomo",
+    "ngmi-wagmi",
+    "ospad",
+    "pipfun",
+    "play-farmfi",
+    "saul-pink",
+    "signal-core",
+    "sprite-fun",
+    "stonks-pad",
+    "tapeai",
+    "xuanwu-seed",
+    "xuanwu-sigil",
+    "zerotapeout"
+  ],
+  "skippedCandidates": [
+    {
+      "id": "ghost-agentic",
+      "reason": "无独立官推（社区Agent钱包调合约；get_users未命中项目方）→ DS skip"
+    },
+    {
+      "id": "itia-genesis",
+      "reason": "粉≈3万且仅WL预告未开窗 → DS skip"
+    }
+  ],
+  "skipsContinued": [
+    "special-agent",
+    "faceid-nft",
+    "agentic-si",
+    "si-passport",
+    "housebear",
+    "blue-sky-bnb",
+    "piggy-agent",
+    "binzonft",
+    "mozhu",
+    "galaxy-coin",
+    "watchdog-rh"
+  ],
+  "xReads": 16,
+  "xSearches": [
+    "free mint/fair launch",
+    "agent mining/Binance agent",
+    "TapeOut/Elysium/GIWA keywords(noisy)",
+    "Starknet/BTC/Irys",
+    "from:ZeroTapeOut/MilkBao/Tape/Blonskr",
+    "from:hot LIVE mints",
+    "from:BN pads flap fullfun",
+    "GIWA/Doge/LZ/Elysium/Starknet accounts",
+    "Apepix/ITIA/Ghost/GANG",
+    "testnet/fair launch/Xuanwu",
+    "StonksPad/Trac/fitzy",
+    "get_users Apepix+hots",
+    "get_users_posts Apepix",
+    "get_users_posts gangfunmeme",
+    "get_users follower refresh"
+  ],
+  "discordPeekDeferred": true,
+  "focusBanRespected": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "push": {
+    "ok": false,
+    "commit": null,
+    "branch": "main",
+    "files": [
+      "data.json",
+      "RESULT_R481.md",
+      "ROUND481_RESULT.json",
+      "R481_DISPATCH.md"
+    ]
+  }
+}
