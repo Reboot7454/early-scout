@@ -1,0 +1,80 @@
+{
+  "round": 480,
+  "updated": "2026-10-25 02:07 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "alertMessage": "本轮无真新收录，signal-core、fomoener、agent-apes、agent-x402、gwei五窗仍≤2h LIVE；zerotapeout BEM-DRAW 10:00CST约8h，milkbao 20:00CST；ghost-agentic仍无独立官推skip，Elysium主网11/09；软刷ospad/ngmi/pipfun/anthrobit/zerotapeout等。面板：https://reboot7454.github.io/early-scout/",
+  "dsSummary": "无新收录；五窗≤2h LIVE（signal-core/fomoener/agent-apes/agent-x402/gwei）；zerotapeout约8h、milkbao 20:00CST；ghost-agentic skip，Elysium 11/09。",
+  "dsOk": true,
+  "dsFallback": false,
+  "newIds": [],
+  "newThisRound": [],
+  "le2h": [
+    "signal-core",
+    "fomoener",
+    "agent-apes",
+    "agent-x402",
+    "gwei"
+  ],
+  "updatedIds": [
+    "signal-core",
+    "fomoener",
+    "agent-apes",
+    "agent-x402",
+    "gwei",
+    "zerotapeout",
+    "milkbao",
+    "anthrobit",
+    "play-farmfi",
+    "lodepass",
+    "xuanwu-seed",
+    "miner-fomo",
+    "ospad",
+    "ngmi-wagmi",
+    "enter-elysium",
+    "tapeai",
+    "stonks-pad",
+    "full-fun",
+    "saul-pink",
+    "sprite-fun",
+    "pipfun",
+    "jager",
+    "foundry-tape",
+    "farming-season",
+    "xuanwu-sigil",
+    "elyziuma"
+  ],
+  "skippedCandidates": [
+    {
+      "id": "ghost-agentic",
+      "reason": "无独立官推（weremain.xyz社区喊单；Ghostagents空号0帖；get_users_by_username 未命中项目方）→ DS/规则 skip"
+    }
+  ],
+  "skipsContinued": [
+    "special-agent",
+    "faceid-nft",
+    "agentic-si",
+    "si-passport",
+    "housebear",
+    "blue-sky-bnb",
+    "piggy-agent",
+    "binzonft",
+    "mozhu",
+    "galaxy-coin",
+    "watchdog-rh"
+  ],
+  "xReads": 20,
+  "discordPeekDeferred": true,
+  "focusBanRespected": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "push": {
+    "ok": false,
+    "commit": "",
+    "branch": "main",
+    "files": [
+      "data.json",
+      "RESULT_R480.md",
+      "ROUND480_RESULT.json"
+    ]
+  }
+}
