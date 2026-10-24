@@ -1,0 +1,44 @@
+{
+  "round": 489,
+  "completedAt": "2026-10-25 05:23 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "discord-alpha-40",
+  "notify": false,
+  "notifyReason": "no_new_admits",
+  "alertMessage": null,
+  "summary": "R489 Discord alpha 补漏无新卡（#alpha-1 在 2026-10-25 04:32 CST 后没有新卡，最新仍 04:24 CST @FloorFeed）；lastSeen 保持 2026-10-25 04:32 CST，lastChecked 更新；顺手清掉 R487 残留 newThisRound 徽章",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "aresrpg",
+    "tracerbot",
+    "optimus-app",
+    "noanfi",
+    "runvoyager",
+    "everkeepsol"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "skipped (no candidates to admit)",
+  "coverage": "discord-alpha #alpha-1 only",
+  "skippedNote": "channel bottom confirmed; newest Spidey card still 2026-10-25 04:24 CST @FloorFeed",
+  "meta": {
+    "lastSeen": "2026-10-25 04:32 CST",
+    "lastChecked": "2026-10-25 05:23 CST",
+    "newestCardTime": "2026-10-25 04:24 CST"
+  },
+  "rawPeek": {
+    "path": "discord_alpha_peek_raw.json",
+    "scrapedAt": "2026-10-25 05:22 CST",
+    "loggedIn": true,
+    "cardCount": 0,
+    "noNewCards": true
+  },
+  "push": {
+    "ok": false,
+    "pending": true
+  },
+  "remoteVerified": false
+}
