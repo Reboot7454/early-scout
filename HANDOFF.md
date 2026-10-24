@@ -83,3 +83,8 @@
 - 用户点名补收 `@pipfun_xyz`（Pipfun）。此前 RESULT 无痕迹=关键词漏捞，非「无官推」误判；已写入 `agentPadWatch.accounts`。
 - 用户点名补收 `@StonksPadsh`（StonksPad）。此前 RESULT/库内无痕迹=关键词漏捞；官宣 2026-10-26 live on `@flapdotsh`；已写入 `meta.flapPadWatch.accounts` 必盯；卡 `stonks-pad`（R426）。
 - 用户点名补收 `@spritefun_xyz`（Sprite Fun）。Discord Peek 曾标未收；官宣 2026-10-24 12:00 UTC live on Irys；已写入 `meta.irysPadWatch.accounts` 必盯；卡 `sprite-fun`（R436）。
+
+## 2026-10-24 用户点名补盯 @Leeonmort
+- 卡 `xuanwu-sigil` 已于 **R425** 收录（BNB Agent ID EX-00 Sigil mint LIVE）；非漏卡。
+- 但 `meta.agentPadWatch.accounts` / `candidateIds` 此前未写入 `@Leeonmort` / `xuanwu-sigil` → 例行软刷不会专盯该号。
+- 已补写入 `agentPadWatch.accounts` 必盯；软刷粉≈505；`focus:false` 保持。
