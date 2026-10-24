@@ -9,7 +9,7 @@
 - **xReads**: 19
 - **discordPeekDeferred**: true
 - **dsFallback**: false
-- **push**: pending
+- **push**: e8207f0
 
 ## summary
 R452 新收 utexo（@utexocom·USDT回Bitcoin RGB·Mint Early Access Signet LIVE·主网11/28·UniSat合作·≈11k粉）；软刷 sprite-fun(~7.5h非≤2h)/stonks-pad(10/26)/farming(~11.5h)/TapeSurge下周mint/Elysium11/09 及 pads；skip ord-dropz&forge(DS score未收)/fuse3(已流通)/ADPASS&SHANIU(无官推)；discordPeekDeferred；xReads=19。
