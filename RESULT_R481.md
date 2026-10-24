@@ -39,4 +39,4 @@
 apepix-rh 为真新且处于≤2h窗；同窗点名 agent-apes、agent-x402、gwei。其余按 notes：signal-core/fomoener 已>2h，zerotapeout 约7.5h，milkbao 20:00CST，ghost-agentic 续skip，Elysium主网11/09，TapeCode明天。
 
 ## Push
-- pending → origin/main
+- ok `5e0a229` → origin/main（data.json + RESULT_R481.md + ROUND481_RESULT.json + R481_DISPATCH.md）
