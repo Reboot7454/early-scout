@@ -35,3 +35,6 @@
 
 ## dsSummary
 R478新收agent-apes(手绘猿8888 LIVE≤2h)；另五窗仍≤2h；软刷zerotapeout/milkbao/stonks+$FULL；TekKitchen等skip；xReads=17。
+
+## Push
+- ok `fa1206e` → origin/main（data.json + RESULT_R478.md + ROUND478_RESULT.json）
