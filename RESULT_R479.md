@@ -40,4 +40,4 @@
 R479新收agent-x402/gwei均LIVE≤2h+play-farmfi WL；五窗≤2h；farming售罄、lodepass/xuanwu过窗；软刷zerotapeout/milkbao；无官推skip；xReads≈20。
 
 ## Push
-- （待填）
+- ok `ded4fc9` → origin/main（data.json + RESULT_R479.md + ROUND479_RESULT.json）
