@@ -2,27 +2,63 @@
   "round": 473,
   "time": "2026-10-24 22:40 CST",
   "notify": true,
-  "newIds": ["cycpad", "fluffies"],
-  "updatedIds": [
-    "cycpad", "fluffies", "anthrobit", "milkbao", "sprite-fun", "agentsea-fun",
-    "tapeai", "foundry-tape", "stonks-pad", "full-fun", "pipfun", "enter-elysium",
-    "jager", "agent-nakamigos", "agentic-mummy", "saul-pink", "listen-money",
-    "ptah-trade", "gang-fun", "agent-punk", "tape-pool", "nonce-protocol",
-    "bramble-fi", "tokenworks-playground"
+  "newIds": [
+    "cycpad",
+    "fluffies"
   ],
-  "le2h": ["anthrobit"],
+  "updatedIds": [
+    "cycpad",
+    "fluffies",
+    "anthrobit",
+    "milkbao",
+    "sprite-fun",
+    "agentsea-fun",
+    "tapeai",
+    "foundry-tape",
+    "stonks-pad",
+    "full-fun",
+    "pipfun",
+    "enter-elysium",
+    "jager",
+    "agent-nakamigos",
+    "agentic-mummy",
+    "saul-pink",
+    "listen-money",
+    "ptah-trade",
+    "gang-fun",
+    "agent-punk",
+    "tape-pool",
+    "nonce-protocol",
+    "bramble-fi",
+    "tokenworks-playground"
+  ],
+  "le2h": [
+    "anthrobit"
+  ],
   "xReads": 19,
   "discordPeekDeferred": true,
   "dsFallback": false,
   "dsOk": true,
-  "push": false,
+  "push": true,
   "alert": "新收CycPad(@cyclenetwork_GO粉≈24万)Agent ID专属发射台LIVE；Fluffies免费剩≈430；AnthroBit Genesis仍LIVE≈1h40≤2h；合约一律未核。面板 https://reboot7454.github.io/early-scout/",
   "summary": "R473新收cycpad+fluffies；AnthroBit仍≤2h；si.passport无官推跳过；StonksPad/$FULL/Elysium/Tape/GIWA/Zero/DogeEVM软刷；discordPeekDeferred。",
   "skips": [
-    {"id": "si-passport", "reason": "无独立可核官推；社区转载CA；DS score否决"},
-    {"id": "mozhu", "reason": "仍无独立官推可核"},
-    {"id": "galaxy-coin", "reason": "仍无独立官推可核"},
-    {"id": "flop_labs", "reason": "矿工兴趣表/11-03测试网，非本轮可操作打新窗"}
+    {
+      "id": "si-passport",
+      "reason": "无独立可核官推；社区转载CA；DS score否决"
+    },
+    {
+      "id": "mozhu",
+      "reason": "仍无独立官推可核"
+    },
+    {
+      "id": "galaxy-coin",
+      "reason": "仍无独立官推可核"
+    },
+    {
+      "id": "flop_labs",
+      "reason": "矿工兴趣表/11-03测试网，非本轮可操作打新窗"
+    }
   ],
   "watches": {
     "agentPadWatch": "新收cycpad+fluffies；AnthroBit LIVE≤2h",
@@ -37,6 +73,6 @@
     "zeroWatch": "11/30续",
     "starknetWatch": "软刷无新"
   },
-  "commit": "",
-  "dataCommit": ""
+  "commit": "7374544e900c5a9f0b17331fcff6cde717662448",
+  "dataCommit": "7374544e900c5a9f0b17331fcff6cde717662448"
 }
