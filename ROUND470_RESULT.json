@@ -2,7 +2,9 @@
   "round": 470,
   "time": "2026-10-24 21:01 CST",
   "notify": true,
-  "newIds": ["nonce-protocol"],
+  "newIds": [
+    "nonce-protocol"
+  ],
   "updatedIds": [
     "nonce-protocol",
     "anthrobit",
@@ -19,17 +21,26 @@
     "gang-fun",
     "agentic-mummy"
   ],
-  "le2h": ["sprite-fun", "anthrobit"],
+  "le2h": [
+    "sprite-fun",
+    "anthrobit"
+  ],
   "xReads": 19,
   "discordPeekDeferred": true,
   "dsFallback": false,
   "dsOk": true,
-  "push": false,
+  "push": true,
   "alert": "新收NONCE(@nonceprotocol粉≈3)今日BNB Agent ID+MCP Genesis但CA未公布；Sprite Fun LIVE≈50min、AnthroBit 21:00窗刚到均≤2h；合约一律未核。面板 https://reboot7454.github.io/early-scout/",
   "summary": "R470新收nonce-protocol；Sprite Fun/AnthroBit仍处≤2h；StonksPad/$FULL/Elysium/Tape/GIWA/Zero/DogeEVM软刷无新admit；ChainGreets与PoA教程跳过；discordPeekDeferred。",
   "skips": [
-    {"id": "chaingreets-dogeos", "reason": "第三方聚合DogeOS testnet入口，非官方新项目/无极早期mint窗"},
-    {"id": "proof-of-agent-mining", "reason": "KOL@cryptaanic教程转发，非新协议官推"}
+    {
+      "id": "chaingreets-dogeos",
+      "reason": "第三方聚合DogeOS testnet入口，非官方新项目/无极早期mint窗"
+    },
+    {
+      "id": "proof-of-agent-mining",
+      "reason": "KOL@cryptaanic教程转发，非新协议官推"
+    }
   ],
   "watches": {
     "irysPadWatch": "Sprite Fun LIVE≈50min 仍≤2h",
@@ -43,6 +54,6 @@
     "dogeEvmWatch": "ChainGreets跳过",
     "zeroWatch": "11/30续"
   },
-  "commit": "",
-  "dataCommit": ""
+  "commit": "2f58648",
+  "dataCommit": "2f58648"
 }
