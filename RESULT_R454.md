@@ -7,7 +7,7 @@
 - xReads: 20
 - discordPeekDeferred: true
 - dsFallback: false
-- push: (pending)
+- push: e9ee6a6
 
 ## alert
 新收观察：Agent Nakamigos（BNB Agent ID 门禁 NFT，今日新建官推≈1粉，CA 自报未核）。面板：https://reboot7454.github.io/early-scout/
