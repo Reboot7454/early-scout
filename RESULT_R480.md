@@ -38,4 +38,4 @@
 无新收录；五窗≤2h LIVE（signal-core/fomoener/agent-apes/agent-x402/gwei）；zerotapeout约8h、milkbao 20:00CST；ghost-agentic skip，Elysium 11/09。
 
 ## Push
-- pending（填 sha）
+- ok `0b90e0f` → origin/main（data.json + RESULT_R480.md + ROUND480_RESULT.json）
