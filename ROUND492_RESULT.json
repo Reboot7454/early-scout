@@ -1,0 +1,71 @@
+{
+  "round": 492,
+  "completedAt": "2026-10-25 06:06 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "x-keyword-mustwatch-soft",
+  "notify": false,
+  "notifyReason": "no_new_admits_le2h_already_alerted_R490",
+  "alertMessage": null,
+  "summary": "本轮无新admit，软刷项目必盯；blue-sky与brushborn等≤2h续报已在R490告知故不重复告，Discord巡查延后。",
+  "dsSummary": "本轮无新admit，软刷项目必盯；blue-sky与brushborn等≤2h续报已在R490告知故不重复告，Discord巡查延后。",
+  "dsOk": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking on; admit+softwhatsNew+summary",
+  "newIds": [],
+  "newThisRound": [],
+  "newCount": 0,
+  "round492Added": [],
+  "clearedPrevNewThisRound": [
+    "blue-sky",
+    "moonero"
+  ],
+  "le2h": [
+    {
+      "id": "blue-sky",
+      "openAt": "2026-10-25 05:28",
+      "minsAgoApprox": 38,
+      "why": "mint LIVE ≤2h continuing; already notified R490 — no re-notify"
+    },
+    {
+      "id": "brushborn",
+      "marketAt": "2026-10-25 04:39",
+      "minsAgoApprox": 87,
+      "why": "market LIVE ≤2h continuing; already notified R490 — no re-notify"
+    }
+  ],
+  "le2hIds": [
+    "blue-sky",
+    "brushborn"
+  ],
+  "le2hReNotify": false,
+  "softUpdated": [
+    "agent-browser",
+    "brushborn",
+    "agent-apes",
+    "lodepass",
+    "saul-pink",
+    "full-fun",
+    "pipfun",
+    "gang-fun",
+    "listen-money",
+    "enter-elysium",
+    "tapeai",
+    "zerotapeout",
+    "xuanwu-sigil",
+    "stonks-pad",
+    "sprite-fun",
+    "milkbao",
+    "blue-sky",
+    "moonero"
+  ],
+  "xReads": 16,
+  "discordPeekDeferred": true,
+  "coverage": "X keyword+必盯软刷 equal: 打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape",
+  "skippedNote": "LobsterGang/FACEID/CHIPS/Piggy/Galaxy/BSC-Agent-fragments/ADPASS 无独立官推(get_users_by_usernames 404) skip；CHIMP非极早期 skip；空轮未造芯片；focus禁尊重；KeepOut perpme/branchpoint/outrive",
+  "focusBanRespected": true,
+  "push": {
+    "ok": false,
+    "commit": null,
+    "short": null
+  }
+}
