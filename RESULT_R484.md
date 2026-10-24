@@ -38,4 +38,4 @@
 R484快讯：真新seeker-mantles（@QuillshiftGame）RH免费铸造预告已吸引269名粉丝，agent-browser与brushborn（328/5000）需在2小时内关注，apepix已超2小时；tapeai纪念电路免费LIVE将于20:00CST开启，持有超10BEM可获空投；zerotapeout 10:00、milkbao 20:00、stonks/full/saul约10/26、sprite停建、Elysium 11/09，并跳过faceid/btcpad/qms。
 
 ## Push
-- pending
+- ok `f7c758e` → origin/main（data.json + RESULT_R484.md + ROUND484_RESULT.json + R484_DISPATCH.md）
