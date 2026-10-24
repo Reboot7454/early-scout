@@ -1,0 +1,92 @@
+{
+  "round": 479,
+  "updated": "2026-10-25 01:48 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "alertMessage": "新收 agent-x402（Agent ID 门禁 LIVE≈01:08CST）、gwei（Agent-only bonding curve LIVE≈01:20CST，粉0）均在≤2h窗口；signal-core/fomoener/agent-apes 仍≤2h；play-farmfi 为 RH FarmFi WL 开放（非≤2h）；farming-season 已售罄，lodepass/xuanwu-seed 过窗。面板：https://reboot7454.github.io/early-scout/",
+  "dsSummary": "R479新收agent-x402/gwei均LIVE≤2h+play-farmfi WL；五窗≤2h；farming售罄、lodepass/xuanwu过窗；软刷zerotapeout/milkbao；无官推skip；xReads≈20。",
+  "dsOk": true,
+  "dsFallback": true,
+  "dsFallbackNote": "dsSummary 本地压缩（deepseek_chat 思考溢出）；admit/score/alert 均 DS",
+  "newIds": [
+    "agent-x402",
+    "gwei",
+    "play-farmfi"
+  ],
+  "newThisRound": [
+    "agent-x402",
+    "gwei",
+    "play-farmfi"
+  ],
+  "le2h": [
+    "signal-core",
+    "fomoener",
+    "agent-apes",
+    "agent-x402",
+    "gwei"
+  ],
+  "updatedIds": [
+    "agent-x402",
+    "gwei",
+    "play-farmfi",
+    "signal-core",
+    "fomoener",
+    "agent-apes",
+    "lodepass",
+    "xuanwu-seed",
+    "farming-season",
+    "zerotapeout",
+    "milkbao",
+    "anthrobit",
+    "elyziuma",
+    "miner-fomo",
+    "foundry-tape",
+    "stonks-pad",
+    "full-fun",
+    "saul-pink",
+    "sprite-fun",
+    "enter-elysium",
+    "tapeai",
+    "xuanwu-sigil",
+    "jager"
+  ],
+  "skippedCandidates": [
+    {
+      "id": "special-agent",
+      "reason": "无独立官推 DS skip"
+    },
+    {
+      "id": "faceid-nft",
+      "reason": "无独立官推 DS skip"
+    },
+    {
+      "id": "ghost-agentic",
+      "reason": "无独立官推 DS skip"
+    }
+  ],
+  "skipsContinued": [
+    "agentic-si",
+    "si-passport",
+    "housebear",
+    "blue-sky-bnb",
+    "piggy-agent",
+    "binzonft",
+    "mozhu",
+    "galaxy-coin",
+    "watchdog-rh"
+  ],
+  "xReads": 20,
+  "discordPeekDeferred": true,
+  "focusBanRespected": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "push": {
+    "ok": false,
+    "commit": null,
+    "branch": "main",
+    "files": [
+      "data.json",
+      "RESULT_R479.md",
+      "ROUND479_RESULT.json"
+    ]
+  }
+}
