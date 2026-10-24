@@ -1,0 +1,73 @@
+{
+  "round": 487,
+  "completedAt": "2026-10-25 04:50 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "discord-alpha-40",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R487 Discord alpha 补漏新收：AresRPG、Tracer、Optimus、NoanFI、Voyager、Everkeep，面板 https://reboot7454.github.io/early-scout/",
+  "summary": "R487 Discord alpha 补漏：相对 R486 去重后新收 6（#alpha-1 积压对账）；lastSeen 保持 04:32 CST；discordPeekDeferred=false",
+  "newAdmits": [
+    {
+      "id": "aresrpg",
+      "twitter": "@AresRPG",
+      "name": "AresRPG",
+      "category": "GO盘",
+      "why": "Sui 上战术 MMORPG，产品叙事清晰且粉丝量适中，适合作为早期游戏盘跟踪。"
+    },
+    {
+      "id": "tracerbot",
+      "twitter": "@tracerbot",
+      "name": "Tracer",
+      "category": "台子/Meme",
+      "why": "可通过 @ 机器人即时查询 meme 合约链上数据，极早期且可直接试用。"
+    },
+    {
+      "id": "optimus-app",
+      "twitter": "@Optimus_app",
+      "name": "Optimus",
+      "category": "台子/Meme",
+      "why": "极早期AI Web3自动化代币，已附EVM合约，适合先监控合约与社媒动向。"
+    },
+    {
+      "id": "noanfi",
+      "twitter": "@NoanFinance",
+      "name": "NoanFI",
+      "category": "台子/Meme",
+      "why": "极早期代币化股票与Agent组合管理平台，产品叙事清晰但尚缺官网与合约入口。"
+    },
+    {
+      "id": "runvoyager",
+      "twitter": "@runvoyager",
+      "name": "Voyager",
+      "category": "台子/Meme",
+      "why": "给AI Agent用的Solana swap通道，叙事正踩在Agent支付风口最前端。"
+    },
+    {
+      "id": "everkeepsol",
+      "twitter": "@everkeepsol",
+      "name": "Everkeep",
+      "category": "台子/Meme",
+      "why": "Solana上的去中心化数字遗产继承，切的是极冷门但刚需的细分。"
+    }
+  ],
+  "newCount": 6,
+  "newIds": [
+    "aresrpg",
+    "tracerbot",
+    "optimus-app",
+    "noanfi",
+    "runvoyager",
+    "everkeepsol"
+  ],
+  "clearedPrevNewThisRound": true,
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking on; admit batches + alert",
+  "coverage": "discord-alpha #alpha-1 only",
+  "skippedNote": "R486 已收 7 重叠项；成熟KOL/空壳/个人号已跳过；AgentEly_ 本轮 DS 未复收（R486已收）",
+  "meta": {
+    "lastSeen": "2026-10-25 04:32 CST",
+    "lastChecked": "2026-10-25 04:50 CST"
+  }
+}
