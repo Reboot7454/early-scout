@@ -1,31 +1,82 @@
 {
   "round": 493,
-  "completedAt": "2026-10-25 06:37 CST",
+  "completedAt": "2026-10-25 06:38 CST",
   "timezone": "Asia/Shanghai",
-  "mode": "discord-alpha-40",
-  "notify": false,
-  "notifyReason": "no_new_admits",
-  "alertMessage": null,
-  "summary": "R493 Discord alpha 补漏无新收：#alpha-1 在 lastSeen 04:32 之后仅见 Lanterns Town（06:02 CST，Spidey API 无资料无@，跳过）；lastSeen→06:02 CST；discordPeekDeferred=false",
-  "newAdmits": [],
-  "newCount": 0,
-  "newIds": [],
-  "clearedPrevNewThisRound": false,
-  "discordPeekDeferred": false,
+  "mode": "x-keyword-mustwatch-soft",
+  "notify": true,
+  "notifyReason": "new_admit_catalyst-labs-x_le2h",
+  "alertMessage": "新增 CatalystLabsX：像素猫礼盒开mint约13min，首免，@catalyslabsX1；Blue Sky、Brushborn仍≤2h但R490已告。面板：https://reboot7454.github.io/early-scout/",
+  "summary": "R493新admit CatalystLabsX（BN Agent像素猫≤2h）；软刷必盯；blue-sky/brushborn≤2h续已在R490告知不重复；Discord延后。",
+  "dsSummary": "R493新admit CatalystLabsX（BN Agent像素猫≤2h）；软刷必盯；blue-sky/brushborn≤2h续已在R490告知不重复；Discord延后。",
+  "dsOk": true,
   "dsFallback": false,
-  "dsUsage": "skipped (no admit candidates)",
-  "coverage": "discord-alpha #alpha-1 only",
-  "skippedNote": "Lanterns Town：User details could not be fetched from API，无推特 handle，未收；FloorFeed 仍在 lastSeen 之前",
-  "meta": {
-    "lastSeen": "2026-10-25 06:02 CST",
-    "lastChecked": "2026-10-25 06:36 CST",
-    "newestCard": "Lanterns Town @ 2026-10-25 06:02 CST (no handle)"
-  },
+  "dsUsage": "deepseek-flash thinking on; admit+score+softwhatsNew+alert+summary",
+  "newIds": [
+    "catalyst-labs-x"
+  ],
+  "newThisRound": [
+    "catalyst-labs-x"
+  ],
+  "newCount": 1,
+  "round493Added": [
+    "catalyst-labs-x"
+  ],
+  "clearedPrevNewThisRound": [],
+  "le2h": [
+    {
+      "id": "catalyst-labs-x",
+      "openAt": "2026-10-25 06:24",
+      "minsAgoApprox": 15,
+      "why": "NEW admit mint LIVE ≤2h → notify"
+    },
+    {
+      "id": "blue-sky",
+      "openAt": "2026-10-25 05:28",
+      "minsAgoApprox": 71,
+      "why": "mint LIVE ≤2h continuing; already notified R490 — no re-notify alone"
+    },
+    {
+      "id": "brushborn",
+      "marketAt": "2026-10-25 04:39",
+      "minsAgoApprox": 120,
+      "why": "market LIVE ≤2h continuing; already notified R490 — no re-notify alone"
+    }
+  ],
+  "le2hIds": [
+    "catalyst-labs-x",
+    "blue-sky",
+    "brushborn"
+  ],
+  "le2hReNotify": false,
+  "softUpdated": [
+    "blue-sky",
+    "brushborn",
+    "moonero",
+    "stonks-pad",
+    "sprite-fun",
+    "full-fun",
+    "saul-pink",
+    "pipfun",
+    "tapeai",
+    "zerotapeout",
+    "milkbao",
+    "enter-elysium",
+    "agent-browser",
+    "lodepass",
+    "agent-apes",
+    "gang-fun",
+    "xuanwu-sigil",
+    "listen-money",
+    "pocket-dragons"
+  ],
+  "xReads": 20,
+  "discordPeekDeferred": true,
+  "coverage": "X keyword+必盯软刷 equal: 打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape",
+  "skippedNote": "Pocket Dragons BN Agent mint无独立官推(KOL only; @Pocket_Dragons_为CollectFi不同项目) skip；Let's Connect Card/@Defio_fi非明确官推 skip；空轮未造芯片；focus禁尊重；KeepOut perpme/branchpoint/outrive；另有discord-alpha peek短暂占R493号已由本软刷覆盖RESULT",
+  "focusBanRespected": true,
+  "notePriorDiscordPeek": "aead825/31296e9 discord-alpha-40 briefly wrote ROUND493_RESULT; soft scout is canonical panel R493",
   "push": {
-    "ok": true,
-    "commit": "31296e9",
-    "fullSha": "31296e9a3f27c31b23c99704d6041448ff14f385",
-    "remote": "origin/main"
-  },
-  "remoteVerified": true
+    "ok": false,
+    "commit": null
+  }
 }
