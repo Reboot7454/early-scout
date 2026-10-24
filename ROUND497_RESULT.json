@@ -1,0 +1,57 @@
+{
+  "round": 497,
+  "completedAt": "2026-10-25 07:30 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "x-keyword-mustwatch-soft",
+  "notify": false,
+  "notifyReason": "no_new_admits_le2h_already_alerted_R493",
+  "alertMessage": null,
+  "summary": "本轮无新admit；catalyst仍≤2h但R493已告不重复notify，硬禁focus已守，其余扫描项仅软跟踪。",
+  "dsSummary": "本轮无新admit；catalyst仍≤2h但R493已告不重复notify，硬禁focus已守，其余扫描项仅软跟踪。",
+  "newIds": [],
+  "newThisRound": [],
+  "newCount": 0,
+  "round497Added": [],
+  "le2h": [
+    {
+      "id": "catalyst-labs-x",
+      "openAt": "2026-10-25 06:24",
+      "minsAgoApprox": 66,
+      "why": "mint LIVE ≤2h continuing; already notified R493/R495 — no re-notify"
+    }
+  ],
+  "le2hIds": [
+    "catalyst-labs-x"
+  ],
+  "le2hReNotify": false,
+  "le2hExited": [
+    "blue-sky",
+    "lets-connect-card"
+  ],
+  "xReads": 16,
+  "discordPeekDeferred": true,
+  "dsOk": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking on; soft whatsNew batches (2) + summary; no admit batch (empty)",
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape全覆盖软刷；关键词+必盯账号；Canton/Glaze/TokenWorks lastChecked刷新",
+  "focusBanRespected": true,
+  "skippedNote": "NEONBOTZ KOL-only无独立官推skip（核验Neonbotz等非项目号）；Pocket Dragons/BSC Agent Fragment KOL-only续skip；pumpfun/Trashminal噪声忽略；Enter_Elysium无新可操作；flap/$FULL本窗无新帖",
+  "push": {
+    "ok": false,
+    "commit": null,
+    "fullSha": null,
+    "remote": "origin/main"
+  },
+  "clearedPrevNewThisRound": [
+    "lets-connect-card"
+  ],
+  "remoteVerified": false,
+  "softUpdates": [
+    "catalyst-labs-x CA公布",
+    "blue-sky 2000/5000 >2h出窗",
+    "lets-connect-card >2h出窗",
+    "agent-apes 43/8888",
+    "xuanwu-seed LIVE>2h",
+    "stonks/sprite/full/zerotapeout/pipfun soft"
+  ]
+}
