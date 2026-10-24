@@ -7,7 +7,7 @@
 - xReads: 20
 - discordPeekDeferred: true
 - dsFallback: false
-- push: PENDING
+- push: 4fb0180
 
 ## alert
 新收观察：AnthroBit（BNB Agent ID 门禁 Bits，Genesis pending，官推新建≈0粉）。面板：https://reboot7454.github.io/early-scout/
