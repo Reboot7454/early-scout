@@ -1,0 +1,41 @@
+{
+  "round": 505,
+  "completedAt": "2026-10-25 10:00:35 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "discord-alpha-40",
+  "notify": false,
+  "notifyReason": "no_new_admits",
+  "alertMessage": null,
+  "summary": "R505 Discord alpha 补漏无新收（#alpha-1 08:34后：Cathedral@09:23 空壳DS skip；RaidLords@09:52 已有R327去重；0xOziK@09:53 KOL跳过）；lastSeen→09:53 CST；lastChecked 2026-10-25 10:00:35 CST",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "skipped": [
+    {
+      "handle": "Cathedral",
+      "reason": "empty_shell",
+      "time": "09:23"
+    },
+    {
+      "handle": "RaidLords",
+      "reason": "already_in_r327",
+      "time": "09:52"
+    },
+    {
+      "handle": "0xOziK",
+      "reason": "kol_high_followers",
+      "time": "09:53"
+    }
+  ],
+  "clearedPrevNewThisRound": false,
+  "prevNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit skip for Cathedral",
+  "coverage": "discord-alpha #alpha-1 only",
+  "meta": {
+    "lastSeen": "2026-10-25 09:53 CST",
+    "lastChecked": "2026-10-25 10:00:35 CST",
+    "newestCardTime": "2026-10-25 09:53 CST"
+  }
+}
