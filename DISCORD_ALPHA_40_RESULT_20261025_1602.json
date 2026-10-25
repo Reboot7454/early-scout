@@ -1,0 +1,80 @@
+{
+  "round": 525,
+  "completedAt": "2026-10-25 16:02:21 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "discord-alpha-40",
+  "notify": false,
+  "notifyReason": "no_new_admits",
+  "alertMessage": null,
+  "summary": "R525 Discord alpha 补漏无新收（#alpha-1 13:14后3卡：LanternsTown/launchontofi已有去重、routr_near DS skip infra评论）；lastSeen→15:51 CST；清 R524 newThisRound onchain-agents；notify=false",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "skipped": [
+    {
+      "handle": "LanternsTown",
+      "reason": "already_have lanterns-town R494",
+      "skipKind": "dup",
+      "time": "15:39",
+      "followers": 192
+    },
+    {
+      "handle": "launchontofi",
+      "reason": "already_have launchontofi R486",
+      "skipKind": "dup",
+      "time": "15:39",
+      "followers": 98
+    },
+    {
+      "handle": "routr_near",
+      "reason": "no_actionable_angle_infra_commentary",
+      "skipKind": "no-actionable-angle",
+      "followers": 25,
+      "time": "15:51",
+      "ds": "仅25粉、77推，近帖全为NEAR intents/AI agent评论式回复，无产品/代币/合约/mint入口，纯infra叙事，缺乏可操作早期角度"
+    }
+  ],
+  "cardsAfterLastSeen": 3,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "onchain-agents"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking=on; admit n=1 reject (routr_near no-actionable-angle infra commentary)",
+  "coverage": "discord-alpha #alpha-1 only",
+  "xVerify": {
+    "routr_near": {
+      "followers": 25,
+      "following": 31,
+      "tweets": 77,
+      "likes": 139,
+      "verified": false,
+      "created": "2026-09-30T21:51:05.000Z",
+      "bio": "Trading infrastructure for NEAR.",
+      "location": "routr.near",
+      "url": "https://routr.trade/",
+      "name": "routr"
+    },
+    "LanternsTown": {
+      "dup": "lanterns-town"
+    },
+    "launchontofi": {
+      "dup": "launchontofi"
+    }
+  },
+  "meta": {
+    "lastSeen": "2026-10-25 15:51 CST",
+    "lastChecked": "2026-10-25 16:02 CST",
+    "newestCardTime": "2026-10-25 15:51 CST"
+  },
+  "push": {
+    "attempted": true,
+    "ok": null,
+    "commit": null,
+    "fullSha": null,
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "remoteVerified": false
+}
