@@ -14,7 +14,7 @@
 - **dsUsage**: admit+score+alert deepseek-flash thinking；12 items → 1 admit
 - **discordPeekDeferred**: true
 - **focusBanRespected**: true
-- **push**: pending
+- **push**: ok commit 884808b
 - **panel**: https://reboot7454.github.io/early-scout/
 - **summary**: R575：关键词+必盯软刷约19次X读；新收 Orbit(@OrbitlaunchRH，RH/pons seats fair launch)；AgentPad Pass免费卡LIVE≤2h；LaunchX过热skip；StonksPad/$FULL无精确钟点；discordPeekDeferred；无focus:true新卡。
 
