@@ -1,0 +1,132 @@
+{
+  "round": 552,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 00:06 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": false,
+  "notifyReason": "no_new_admits_no_le2h",
+  "alertMessage": "",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "round552Added": [],
+  "skipped": [
+    {
+      "handle": "Leeonmort",
+      "reason": "X再验仍不存在（get_users_by_usernames Not Found；R548–R552同）；保留必盯备注"
+    },
+    {
+      "handle": "smbbnb",
+      "reason": "社区喊BN Agent ID free mint LIVE但smbbnb/SMBBNB无独立官推→skip"
+    },
+    {
+      "handle": "REALaunchdotfun",
+      "reason": "已有 realaunch"
+    },
+    {
+      "handle": "gamapadcom",
+      "reason": "已有 gamapad"
+    },
+    {
+      "handle": "pipfun_xyz",
+      "reason": "已有 pipfun；V2软刷"
+    },
+    {
+      "handle": "agentpunkid",
+      "reason": "既有；售罄"
+    },
+    {
+      "handle": "Ptahtrade",
+      "reason": "既有"
+    },
+    {
+      "handle": "404_Protocol",
+      "reason": "既有；已告不重告"
+    },
+    {
+      "handle": "NorapadxRH",
+      "reason": "R550已收；本轮清 newThisRound 旗"
+    },
+    {
+      "handle": "bitcointapes",
+      "reason": "电路设计开放非铸造；无精确free mint≤2h"
+    },
+    {
+      "handle": "Tape_Pool",
+      "reason": "已有 tape-pool；无free mint≤2h"
+    },
+    {
+      "handle": "StonksPadsh",
+      "reason": "10/26上线无精确时点；00:06CST非≤2h不因日程告"
+    },
+    {
+      "handle": "fulldotfun/saulpink",
+      "reason": "$FULL Monday无精确时点；非≤2h不因日程告"
+    },
+    {
+      "handle": "Enter_Elysium",
+      "reason": "主网11-09非≤2h"
+    },
+    {
+      "handle": "LayerZero_Core/Zero",
+      "reason": "11-30非≤2h"
+    },
+    {
+      "handle": "Shielded Whales/OrdDropz",
+      "reason": "即将launch非≤2h；非极早可操作admit"
+    },
+    {
+      "handle": "tapebit",
+      "reason": "已告≤2h不重告"
+    }
+  ],
+  "within2h": [],
+  "xReadCount": 21,
+  "dsFallback": false,
+  "discordPeekDeferred": true,
+  "dsUsage": "none (no new admit prospects; soft copy local)",
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "norapad"
+  ],
+  "watches": {
+    "flapPadWatch": "StonksPad 10/26无精确时点；非≤2h",
+    "fullFunWatch": "$FULL Monday无精确时点；非≤2h",
+    "kinetiqWatch": "主网11-09；无新On testnet",
+    "tapeWatch": "bitcointapes设计开放；TapeBit不重告",
+    "tapeOutWatch": "Tape_Pool软",
+    "agentPadWatch": "pipfun/Leeonmort再验；无新admit",
+    "agentMiningWatch": "软",
+    "agentTradingWatch": "listen软",
+    "giwaWatch": "软",
+    "dogeEvmWatch": "软",
+    "zeroWatch": "11-30",
+    "starknetWatch": "软",
+    "btcPrivacyWatch": "软",
+    "cantonPadWatch": "软债",
+    "glazeWatch": "软债",
+    "tokenWorksPlaygroundWatch": "软债"
+  },
+  "focus": {
+    "focusIdsUnchanged": true,
+    "newCardsFocus": null
+  },
+  "soft": [
+    "StonksPad+$FULL 今日无精确窗",
+    "Leeonmort仍不存在",
+    "Elysium 11-09 / Zero 11-30",
+    "bitcointapes设计开放非mint",
+    "清 R550 leftover meta.newThisRound norapad（R551 Discord只清顶层）"
+  ],
+  "coverage": "x-keyword(~40m)+mustwatch soft; columns mint/mine/pads/GO/LZ/Elysium/Tape/GIWA/DogeEVM/BN Agent + BTC/Starknet/Zero",
+  "push": {
+    "attempted": true,
+    "ok": null,
+    "commit": null,
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R552：无新收；StonksPad+$FULL今日仍无精确≤2h时点不告；Leeonmort再验不存在；清meta leftover norapad；Discord Peek延期；notify=false",
+  "remoteVerified": false,
+  "prevRound": 551
+}
