@@ -1,0 +1,96 @@
+{
+  "round": 548,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-25 23:10 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+within2h_mint",
+  "alertMessage": "新收404 Protocol：BNB机密资产层，Binance Agentic Wallet免费mint $404 LIVE，约162粉；面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "404-protocol",
+      "handle": "404_Protocol",
+      "name": "404 Protocol",
+      "category": "打新",
+      "zone": "BN Agent 钱包",
+      "followers": 162,
+      "reason": "有官推且今日新建约162粉，官宣 live；Binance Agentic Wallet 免费 mint（1 mint=1000 $404，仅付 BNB gas），属极早期 free mint 窗口。"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "404-protocol"
+  ],
+  "skipped": [
+    {
+      "handle": "Leeonmort",
+      "reason": "X再验仍不存在 R542-R548"
+    },
+    {
+      "handle": "Context Critters / contextgraph",
+      "reason": "无独立官推 DS skip"
+    },
+    {
+      "handle": "spritefun_xyz",
+      "reason": "停建勿新admit"
+    },
+    {
+      "id": "4AGENT",
+      "reason": "已暴涨过热"
+    },
+    {
+      "note": "HashKitty/4agentminer/pipfun/oren/Ptah/RaidLords/vearl/fomopoly/digital-humans/rgbhorse/Rebate/pabalx/meme-os/agentpunkid 既有"
+    },
+    {
+      "note": "StonksPad+$FULL 10/26 / Elysium 11/09 / Zero 11/30 非≤2h"
+    },
+    {
+      "id": "tapebit",
+      "reason": "≤2h窗已告不重告"
+    }
+  ],
+  "within2h": [
+    {
+      "id": "404-protocol",
+      "note": "Agent free mint $404 LIVE 本轮新收可告"
+    },
+    {
+      "id": "tapebit",
+      "note": "已告不重告"
+    }
+  ],
+  "xReadCount": 20,
+  "dsFallback": false,
+  "discordPeekDeferred": true,
+  "dsUsage": "admit+score+alert deepseek-flash thinking ON",
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "lootplanetsrh"
+  ],
+  "watches": {
+    "lastChecked": "2026-10-25 23:10 CST",
+    "notes": {
+      "Leeonmort": "再核仍不存在",
+      "spritefun": "停建续",
+      "StonksPad": "10/26非≤2h",
+      "FULL": "10/26非≤2h",
+      "Elysium": "11/09",
+      "Zero": "11/30",
+      "TapeBit": "已告不重告",
+      "orenauton": "Genesis/LP burn续既有"
+    }
+  },
+  "focus": {
+    "focusIdsUnchanged": true,
+    "newCardFocus": false
+  },
+  "push": {
+    "attempted": false,
+    "ok": false,
+    "commit": "",
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R548：新收404-protocol(BN Agent钱包/打新 162粉 freemint LIVE)；Leeonmort仍不存在；spritefun停建；TapeBit不重告；StonksPad+$FULL非≤2h；Discord Peek延期；notify=true",
+  "prevRound": 547
+}
