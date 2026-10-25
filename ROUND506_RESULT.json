@@ -1,0 +1,161 @@
+{
+  "round": 506,
+  "completedAt": "2026-10-25 10:31:42 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "x-keyword-mustwatch-soft",
+  "notify": true,
+  "notifyReason": "new_admit_agent-periodic-lab_root-hood",
+  "alertMessage": "【R506预警】Agent Periodic Lab（BNB .ai Agent ID门禁，首张化合物卡免gas）与ROOT HOOD（ETH免费mint今晚21:00 CST，官号有suspended风险）为新增；详见 https://reboot7454.github.io/early-scout/",
+  "summary": "R506 x-keyword-mustwatch-soft：新收 agent-periodic-lab + root-hood；清 smile-of-silla；zerotapeout公售已开过窗不重告；StonksPad/$FULL 10/26非≤2h；必盯软刷；Discord Peek 延期。",
+  "dsSummary": "R506：admit3/score后收2（Periodic Lab overall72；ROOT HOOD overall45高风险）；nio-pad拒；bitmap-corp筹备跳过。",
+  "newAdmits": [
+    {
+      "id": "agent-periodic-lab",
+      "handle": "@JCheng557",
+      "name": "Agent Periodic Lab",
+      "zone": "挖矿",
+      "tags": [
+        "挖矿",
+        "Binance Agent钱包",
+        "BNB",
+        "NFT",
+        "极早期",
+        "Agent ID",
+        "BUILD-100"
+      ],
+      "followers": 263,
+      "scores": {
+        "early": 88,
+        "actionable": 82,
+        "novelty": 66,
+        "risk": 58,
+        "overall": 72
+      }
+    },
+    {
+      "id": "root-hood",
+      "handle": "@13rainlooterNFT",
+      "name": "ROOT HOOD",
+      "zone": "打新",
+      "tags": [
+        "打新",
+        "FREE mint",
+        "Ethereum",
+        "NFT",
+        "极早期",
+        "WL"
+      ],
+      "followers": 111,
+      "scores": {
+        "early": 82,
+        "actionable": 75,
+        "novelty": 32,
+        "risk": 30,
+        "overall": 45
+      }
+    }
+  ],
+  "newIds": [
+    "agent-periodic-lab",
+    "root-hood"
+  ],
+  "newThisRound": [
+    "agent-periodic-lab",
+    "root-hood"
+  ],
+  "newCount": 2,
+  "round506Added": [
+    "agent-periodic-lab",
+    "root-hood"
+  ],
+  "le2h": [],
+  "le2hIds": [],
+  "le2hReNotify": false,
+  "xReadCount": 20,
+  "xReads": 20,
+  "discordPeekDeferred": true,
+  "dsOk": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking on; admit(4)+score(3)+alert(2); no fallback",
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/Tape/GIWA/Zero/DogeEVM/BN Agent/BTC/Starknet全覆盖软刷；关键词+必盯账号；Canton/Glaze/TokenWorks lastChecked刷新",
+  "focusBanRespected": true,
+  "clearedPrevNewThisRound": [
+    "smile-of-silla"
+  ],
+  "watchSoft": {
+    "kinetiqWatch": "主网11/9；无新On-testnet",
+    "tapeWatch": "TapeAI免费LIVE；zerotapeout过窗不重告",
+    "flapPadWatch": "StonksPad 10/26续",
+    "irysPadWatch": "spritefun停建续",
+    "fullFunWatch": "FULL≈10/26；未≤2h",
+    "agentPadWatch": "新收 agent-periodic-lab",
+    "agentMiningWatch": "Trac软刷无新独立admit",
+    "giwaWatch": "smile续；无新admit",
+    "zeroWatch": "11/30续",
+    "dogeEvmWatch": "软刷无新admit",
+    "btcPrivacyWatch": "ShieldedNaka软刷",
+    "starknetWatch": "软刷",
+    "softDebt": "Canton/Glaze/TokenWorks lastChecked刷新"
+  },
+  "skippedNotable": [
+    {
+      "id": "nio-pad",
+      "reason": "DS score admit:false；17粉争议meme发CA，非真发射台"
+    },
+    {
+      "id": "bitmap-corp",
+      "reason": "admit skip；仅筹备无明确开mint窗"
+    },
+    {
+      "id": "rakatamuti",
+      "reason": "无独立可核验官推"
+    },
+    {
+      "id": "zerotapeout",
+      "reason": "公售已开过窗；R498/R504/R505已告不重告"
+    },
+    {
+      "id": "hashdroids",
+      "reason": "已收录 dedupe"
+    },
+    {
+      "id": "pocket-dragons",
+      "reason": "已收录 dedupe"
+    },
+    {
+      "id": "gamapad",
+      "reason": "已收录 dedupe"
+    },
+    {
+      "id": "ammora",
+      "reason": "已收录 dedupe"
+    },
+    {
+      "id": "lil-dudes",
+      "reason": "已收录 dedupe"
+    },
+    {
+      "id": "elysium-pump",
+      "reason": "已收录/硬排除线"
+    },
+    {
+      "id": "raidlords",
+      "reason": "已收录 dedupe"
+    },
+    {
+      "id": "ascii-dogs",
+      "reason": "已收录 dedupe"
+    },
+    {
+      "id": "lodepass",
+      "reason": "已收录 dedupe"
+    }
+  ],
+  "push": {
+    "ok": false,
+    "commit": null,
+    "fullSha": null,
+    "remote": "origin/main"
+  },
+  "remoteVerified": false
+}
