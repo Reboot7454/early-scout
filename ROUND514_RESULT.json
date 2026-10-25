@@ -1,0 +1,72 @@
+{
+  "round": 514,
+  "completedAt": "2026-10-25 12:36:47 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "discord-alpha-40",
+  "notify": false,
+  "notifyReason": "no_new_admits",
+  "alertMessage": null,
+  "summary": "R514 Discord alpha 补漏无新收（#alpha-1 11:32后：RHMintix@12:12 已有R486去重、mintix@12:12 空壳DS skip、0xbai@12:17 高粉KOL DS skip）；lastSeen→12:17 CST；lastChecked 2026-10-25 12:36:47 CST",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "skipped": [
+    {
+      "handle": "RHMintix",
+      "reason": "already_in_data",
+      "skipKind": "dedup",
+      "followers": 644,
+      "time": "12:12",
+      "existingId": "rhmintix",
+      "existingRound": 486
+    },
+    {
+      "handle": "mintix",
+      "reason": "empty_shell",
+      "skipKind": "shell",
+      "followers": 0,
+      "time": "12:12",
+      "ds": "0推0粉空壳，无官网无链标签"
+    },
+    {
+      "handle": "0xbai",
+      "reason": "mature_kol_alpha_hunter",
+      "skipKind": "kol",
+      "followers": 9456,
+      "time": "12:17",
+      "ds": "高粉个人Alpha猎人号，非项目本体"
+    }
+  ],
+  "clearedPrevNewThisRound": false,
+  "prevNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking=on; admit batch n=2 both reject (mintix/0xbai); RHMintix dedup pre-DS",
+  "coverage": "discord-alpha #alpha-1 only",
+  "xVerify": {
+    "mintix": {
+      "followers": 0,
+      "tweets": 0,
+      "bio": "hii nice to meet you"
+    },
+    "0xbai": {
+      "followers": 9456,
+      "tweets": 1374,
+      "name": "Mobai"
+    },
+    "RHMintix": {
+      "followers": 644,
+      "tweets": 0,
+      "existing": "rhmintix@R486"
+    }
+  },
+  "meta": {
+    "lastSeen": "2026-10-25 12:17 CST",
+    "lastChecked": "2026-10-25 12:36:47 CST",
+    "newestCardTime": "2026-10-25 12:17 CST"
+  },
+  "push": {
+    "ok": false
+  },
+  "remoteVerified": false
+}
