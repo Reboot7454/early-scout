@@ -1,0 +1,236 @@
+{
+  "round": 513,
+  "completedAt": "2026-10-25 12:30:18 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "x-keyword-mustwatch-soft",
+  "notify": false,
+  "notifyReason": "no_new_admits_and_le2h_already_notified_r512",
+  "alertMessage": "",
+  "summary": "R513 x-keyword-mustwatch-soft：空收；清 R512 dragonlings/patient-zero/shenlong；DS admit6全skip（BeHand/AgentKoi/AGM/CuteWizard/TungTung无官推、TermiX非极早期）；热帖多已在库；必盯软刷；LIVE≤2h仍在但不重告；Discord Peek延期。",
+  "dsSummary": "R513：admit batch n=6 全skip（无独立官推×5 + TermiX非极早期）；无score/alert。",
+  "newAdmits": [],
+  "newIds": [],
+  "newThisRound": [],
+  "newCount": 0,
+  "round513Added": [],
+  "le2h": [
+    "dragonlings",
+    "patient-zero",
+    "shenlong",
+    "hackou-agent-pass",
+    "gloomies"
+  ],
+  "le2hIds": [
+    "dragonlings",
+    "patient-zero",
+    "shenlong",
+    "hackou-agent-pass",
+    "gloomies"
+  ],
+  "le2hReNotify": false,
+  "le2hEvents": [
+    {
+      "id": "dragonlings",
+      "event": "mint LIVE",
+      "note": "仍≤2h（开于11:45 CST）；R512已告不重告"
+    },
+    {
+      "id": "patient-zero",
+      "event": "创世FREE mint",
+      "note": "仍≤2h（开于10:45 CST）；R512已告不重告"
+    },
+    {
+      "id": "shenlong",
+      "event": "盲盒上线",
+      "note": "仍≤2h（开于12:05 CST）；R512已告不重告"
+    },
+    {
+      "id": "hackou-agent-pass",
+      "event": "Agent Pass LIVE",
+      "note": "仍≤2h（开于11:28 CST）；此前已告不重告"
+    },
+    {
+      "id": "gloomies",
+      "event": "FREE mint LIVE",
+      "note": "仍≤2h（开于10:51 CST）；此前已告不重告"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "behand-bots",
+      "handle": null,
+      "reason": "no_official_project_twitter",
+      "skipKind": "no_x",
+      "ds": "仅surge.sh落地页；BeHandBots/BeHandNFT/behand_bots 均404"
+    },
+    {
+      "id": "agent-koi",
+      "handle": "@AgentKoi",
+      "reason": "no_official_project_twitter",
+      "skipKind": "no_x",
+      "followers": 0,
+      "ds": "@AgentKoi空号0粉0帖；AgentKoiBNB 404"
+    },
+    {
+      "id": "agent-gold-miner",
+      "handle": null,
+      "reason": "no_official_twitter",
+      "skipKind": "no_x",
+      "ds": "AGM_miner 404；R512已因无官推skip"
+    },
+    {
+      "id": "cute-wizard",
+      "handle": "@Madisonrussle",
+      "reason": "no_official_project_twitter",
+      "skipKind": "no_x",
+      "ds": "仅个人号代发；CuteWizardNFT 404；R512已skip"
+    },
+    {
+      "id": "tung-tung-sahur",
+      "handle": "@jilong63819",
+      "reason": "no_official_project_twitter",
+      "skipKind": "no_x",
+      "ds": "发帖号空简介个人号；R512已skip"
+    },
+    {
+      "id": "termix",
+      "handle": "@termix_ai",
+      "reason": "not_ultra_early",
+      "skipKind": "other",
+      "followers": 66178,
+      "ds": "Yzi Labs投资、主网已上、6.6万粉，非极早期"
+    },
+    {
+      "id": "anthrobit",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    },
+    {
+      "id": "raidlords",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    },
+    {
+      "id": "fomopoly",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    },
+    {
+      "id": "ammora",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    },
+    {
+      "id": "pabalx",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    },
+    {
+      "id": "milkbao",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    },
+    {
+      "id": "orvyn",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    },
+    {
+      "id": "brushborn",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    },
+    {
+      "id": "hashdroids",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    },
+    {
+      "id": "agent-periodic-lab",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    },
+    {
+      "id": "pocket-dragons",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    },
+    {
+      "id": "hackou-agent-pass",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    },
+    {
+      "id": "gloomies",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    },
+    {
+      "id": "dragonlings",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    },
+    {
+      "id": "patient-zero",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    },
+    {
+      "id": "shenlong",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    },
+    {
+      "id": "tapeai",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    },
+    {
+      "id": "xuanwu-seed",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    }
+  ],
+  "xReadCount": 20,
+  "xReads": 20,
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "reason": "R511刚扫#alpha-1至lastSeen=2026-10-25 11:32 CST；本轮按指令discordPeekDeferred=true不必browser",
+    "lastSeen": "2026-10-25 11:32 CST"
+  },
+  "dsOk": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking on; admit(6) all skip; no score/alert; no fallback",
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/Tape/GIWA/Zero/DogeEVM/BN Agent/BTC/Starknet全覆盖软刷；关键词近窗+必盯账号；Canton/Glaze/TokenWorks lastChecked刷新",
+  "focusBanRespected": true,
+  "clearedPrevNewThisRound": [
+    "dragonlings",
+    "patient-zero",
+    "shenlong"
+  ],
+  "watchSoft": {
+    "kinetiqWatch": "主网11/9；无新On-testnet",
+    "tapeWatch": "TapeAI免费纪念LIVE续；勿标Elysium",
+    "flapPadWatch": "StonksPad 10/26续",
+    "irysPadWatch": "spritefun软刷无新",
+    "fullFunWatch": "FULL≈10/26；未≤2h",
+    "agentPadWatch": "无新admit；多无官推skip",
+    "agentTradingWatch": "listendotmoney无新",
+    "agentMiningWatch": "Trac/fitzy无新独立PoW",
+    "giwaWatch": "无新",
+    "dogeEvmWatch": "无新",
+    "starknetWatch": "无新",
+    "btcPrivacyWatch": "无新mint",
+    "cantonPadWatch": "软债刷新",
+    "glazeWatch": "软债刷新",
+    "tokenWorksPlaygroundWatch": "软债刷新",
+    "zeroWatch": "主网11/30续"
+  },
+  "push": {
+    "ok": false,
+    "commit": null,
+    "remote": "origin/main"
+  },
+  "remoteVerified": false
+}
