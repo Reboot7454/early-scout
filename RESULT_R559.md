@@ -13,6 +13,6 @@
 - clearedPrevNewThisRound: ['billium-blc']；meta/顶层/round559Added=['solpad']
 - dsUsage: deepseek-flash thinking=on admit+score+alert；admit=solpad；skip=hypper-elysium
 - panel: https://reboot7454.github.io/early-scout/
-- push: (pending)
-- remoteVerified: (pending)
+- push: ok commit=95455025055ff2d57f1bce5639c65105794eae33
+- remoteVerified: true
 - summary: R559：新收 SolPad(@solpadonsol→台子，13粉 Solana Token-2022 pad 即将 live)；StonksPad+$FULL仍无精确≤2h不告；Leeonmort再验不存在；HypperElysium未见testnet部署DS skip；Heptad软刷代币七链上线CA未核；R558已被discord补漏占用故本轮+1；Discord Peek延期；notify=true
