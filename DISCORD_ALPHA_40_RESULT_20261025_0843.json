@@ -1,0 +1,101 @@
+{
+  "round": 501,
+  "completedAt": "2026-10-25 08:43 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "discord-alpha-40",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "预警：本轮新收 usedevs（AI 代理自动发 meme 币）与 gongguone（GIWA 测试网团购 launchpad）均极早期、粉丝少，先核合约与官推再动手：https://reboot7454.github.io/early-scout/",
+  "summary": "R501 Discord alpha 补漏：#alpha-1 在 07:28 后 4 卡；AgentEly_/ElysiumOrbit 已有去重；新收 usedevs(@UseDevs_)、gongguone(@gongguone)→台子/Meme；lastSeen→08:34 CST；清 R500 newThisRound；discordPeekDeferred=false",
+  "newAdmits": [
+    {
+      "id": "usedevs",
+      "handle": "@UseDevs_",
+      "name": "Devs",
+      "zone": "台子/Meme",
+      "tags": [
+        "台子/Meme",
+        "AI Agent",
+        "Launchpad",
+        "discord-alpha",
+        "极早期"
+      ],
+      "followers": 25,
+      "web": "https://usedevs.fun/"
+    },
+    {
+      "id": "gongguone",
+      "handle": "@gongguone",
+      "name": "Gonggu",
+      "zone": "台子/Meme",
+      "tags": [
+        "台子/Meme",
+        "Launchpad",
+        "GIWA",
+        "testnet",
+        "discord-alpha",
+        "极早期"
+      ],
+      "followers": 7,
+      "web": "https://www.gonggu.one/"
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "usedevs",
+    "gongguone"
+  ],
+  "skipped": [
+    {
+      "id": "agentely",
+      "twitter": "@AgentEly_",
+      "name": "Agent E",
+      "reason": "已有候选 agentely（R486）",
+      "followers": 298,
+      "cardTime": "2026-10-25 08:32 CST"
+    },
+    {
+      "id": "elysium-orbit",
+      "twitter": "@ElysiumOrbit",
+      "name": "Elysium Orbit",
+      "reason": "已有候选 elysium-orbit（R371）",
+      "followers": 19,
+      "cardTime": "2026-10-25 08:33 CST"
+    }
+  ],
+  "clearedPrevNewThisRound": [
+    "rekt-knights",
+    "pledgr"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking on; score+admit usedevs/gongguone; copy+alert",
+  "coverage": "discord-alpha #alpha-1 only",
+  "meta": {
+    "lastSeen": "2026-10-25 08:34 CST",
+    "lastChecked": "2026-10-25 08:43 CST",
+    "newestCard": "Gonggu @gongguone @ 2026-10-25 08:34 CST"
+  },
+  "xVerify": {
+    "UseDevs_": {
+      "followers": 25,
+      "created_at": "2026-10-09T21:16:58.000Z",
+      "bio": "Autonomous AI devs that launch memecoins",
+      "url": "https://usedevs.fun/",
+      "tweets": 1
+    },
+    "gongguone": {
+      "followers": 7,
+      "created_at": "2026-10-17T08:56:22.000Z",
+      "bio": "Group-buy launchpad on @GIWA_by_Upbit...",
+      "url": "https://www.gonggu.one/",
+      "tweets": 0
+    }
+  },
+  "push": {
+    "ok": false,
+    "commit": null,
+    "note": "pending"
+  },
+  "remoteVerified": false
+}
