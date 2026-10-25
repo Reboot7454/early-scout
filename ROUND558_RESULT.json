@@ -1,0 +1,67 @@
+{
+  "round": 558,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-26 02:03 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "Discord补漏：BilliumBLC（@BilliumBLC）Solana PoW桌面游戏挖矿 37粉入挖矿 → https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "billium-blc",
+      "name": "BilliumBLC",
+      "handle": "BilliumBLC",
+      "category": "挖矿",
+      "followers": 37,
+      "overall": 65,
+      "blurb": "Solana PoW桌面游戏挖矿，轻节点赚$BILLIUM，早期录取观察。"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "billium-blc"
+  ],
+  "skipped": [
+    {
+      "handle": "NEAR_Dragons",
+      "followers": 104,
+      "reason": "已有去重 near-dragons (R411)；粉丝现104（原约60）仅备注不重录"
+    },
+    {
+      "handle": "RYFTCORP",
+      "followers": 32655,
+      "reason": "成熟高粉 game-token launch corp（2024加入、8k推），非极早期"
+    },
+    {
+      "handle": "plague_exe_exe",
+      "followers": 3,
+      "reason": "DS admit=false：0推文/3粉/无官网合约玩法，空壳特征，暂不录取"
+    }
+  ],
+  "cardsAfterLastSeen": 4,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "heptad"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking=on batch admit plague_exe_exe+BilliumBLC",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-26 01:41 CST",
+    "lastChecked": "2026-10-26 02:03 CST",
+    "newestCardTime": "2026-10-26 01:41 CST",
+    "note": "R558：Discord alpha 补收 billium-blc（@BilliumBLC→挖矿）；plague_exe_exe 空壳跳过；NEAR_Dragons去重；RYFTCORP成熟跳过"
+  },
+  "push": {
+    "attempted": false,
+    "ok": false,
+    "commit": "",
+    "fullSha": "",
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R558：Discord alpha 补收 billium-blc（挖矿）；跳过 NEAR_Dragons去重/RYFTCORP成熟/plague_exe_exe空壳；清 heptad badge；lastSeen→01:41 CST",
+  "remoteVerified": false
+}

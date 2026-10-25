@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-26 01:22 CST",
+    "updated": "2026-10-26 02:03 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-keyword-mustwatch-soft",
@@ -400,7 +400,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 557,
+    "round": 558,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -477,7 +477,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 1322,
+    "candidateCount": 1325,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -1063,7 +1063,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "heptad"
+      "billium-blc"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1495,7 +1495,7 @@
       "nopad",
       "routr-network"
     ],
-    "previousRound": 549,
+    "previousRound": 557,
     "round183Added": [
       "heygrok",
       "grail-break",
@@ -2447,11 +2447,11 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-10-26 00:28 CST",
-      "lastChecked": "2026-10-26 01:22 CST",
-      "newestCardTime": "2026-10-26 00:28 CST",
-      "note": "R557：本轮executor无浏览器 Discord Peek延期；lastSeen沿用 2026-10-26 00:28 CST"
+      "deferred": false,
+      "lastSeen": "2026-10-26 01:41 CST",
+      "lastChecked": "2026-10-26 02:03 CST",
+      "newestCardTime": "2026-10-26 01:41 CST",
+      "note": "R558：Discord alpha 补收 billium-blc（@BilliumBLC→挖矿）；plague_exe_exe 空壳跳过；NEAR_Dragons去重；RYFTCORP成熟跳过"
     },
     "round239Added": [
       "tsunamilaunch",
@@ -2491,7 +2491,7 @@
       "slamjunkiez"
     ],
     "solemnSchedNoteR243": "solemn-trollbox 卡上倒计时来自 schedule.startsAt=2026-10-19T16:00:00Z；此前未进顶栏因 MAX=12+近窗 live 挤占（非缺 schedule）。R243：证据确认 X@strangersolemn Mon 19 Oct 4pm UTC；extract_schedules BACKFILL + 顶栏 confirmed≤24h 保底入栏。",
-    "discordPeekDeferred": true,
+    "discordPeekDeferred": false,
     "round244Added": [
       "ink-nutters"
     ],
@@ -5744,6 +5744,9 @@
     ],
     "round557Added": [
       "heptad"
+    ],
+    "round558Added": [
+      "billium-blc"
     ]
   },
   "candidates": [
@@ -5780,7 +5783,7 @@
       "lzVerified": false,
       "focus": false,
       "round": 557,
-      "newThisRound": true,
+      "newThisRound": false,
       "lastChecked": "2026-10-26 01:37 CST",
       "scores": {
         "early": 96,
@@ -95747,10 +95750,61 @@
       "blurb": "Robinhood+Arc 可退款绑定发射台；每币有赎回地板；官网 live；$BACKSTOP 同规则待发。",
       "flag": "LIVE pad · $BACKSTOP soon · CA未核",
       "alert": "新收 Backstop（@Backstop_Fund，32粉）RH+Arc可退款地板发射台LIVE，$BACKSTOP同规则待发 → https://reboot7454.github.io/early-scout/"
+    },
+    {
+      "id": "billium-blc",
+      "name": "BilliumBLC",
+      "handle": "BilliumBLC",
+      "category": "挖矿",
+      "zone": "挖矿",
+      "chain": "Solana",
+      "tags": [
+        "挖矿",
+        "discord-alpha",
+        "Solana",
+        "PoW",
+        "Mining",
+        "GameFi",
+        "极早期"
+      ],
+      "followers": 37,
+      "scores": {
+        "early": 84,
+        "actionable": 62,
+        "novelty": 58,
+        "risk": 58,
+        "overall": 65
+      },
+      "highlights": [
+        "PoW+桌面游戏生态，消费级硬件挖矿叙事清晰",
+        "轻节点+$BILLIUM奖励，Solana链上挖矿路径可执行",
+        "6条推文可查，非纯空壳，Discord首现较早"
+      ],
+      "drawbacks": [
+        "37粉、账号极新，社区与背书不足",
+        "未给出合约、节点文档与代币经济细节",
+        "PoW+GameFi概念易包装，需防虚假挖矿"
+      ],
+      "whatsNew": "Discord首现桌面游戏生态+PoW轻节点+Solana $BILLIUM奖励组合，账号已发6推。",
+      "summary": "Solana PoW挖矿+桌面游戏生态，路径较清晰；低粉早期可跟踪，需核验合约与节点。",
+      "blurb": "Solana PoW桌面游戏挖矿，轻节点赚$BILLIUM，早期录取观察。",
+      "background": "账号2026-10-25创建，bio称桌面游戏生态由PoW驱动，可在消费硬件挖块、运行轻节点并赚$BILLIUM，部署Solana；Discord于2026-10-26出现。",
+      "howto": "跟进官网/文档与节点下载；核对$BILLIUM合约地址和Solana链上交互；小额测试挖矿与奖励发放，确认非纯叙事盘。",
+      "alert": "未核验合约与节点真实性，防假PoW",
+      "flag": "本轮新 · Solana PoW挖矿",
+      "lzVerified": false,
+      "focus": false,
+      "source": "discord-alpha",
+      "links": {
+        "x": "https://x.com/BilliumBLC",
+        "twitter": "https://x.com/BilliumBLC"
+      },
+      "round": 558,
+      "newThisRound": true
     }
   ],
   "newThisRound": [
-    "heptad"
+    "billium-blc"
   ],
   "alertMessage": "新收 Backstop（@Backstop_Fund，32粉）RH+Arc可退款地板发射台LIVE，$BACKSTOP同规则待发 → https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
