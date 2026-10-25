@@ -9,7 +9,7 @@
 - clearedPrevNewThisRound: humintclub
 - discordPeekDeferred: false
 - dsUsage: admit+score+alert deepseek-flash thinking ON
-- push: 3f370c0 ok
+- push: 11f7ccd ok
 - panel: https://reboot7454.github.io/early-scout/
 
 ## newAdmits
