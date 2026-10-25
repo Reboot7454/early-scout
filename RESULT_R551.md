@@ -9,9 +9,9 @@
 - clearedPrevNewThisRound: norapad
 - discordPeekDeferred: false
 - dsUsage: none (dedupe-only)
-- push: (pending)
-- remoteVerified: (pending)
+- push: bb18987 ok
+- remoteVerified: true
 - panel: https://reboot7454.github.io/early-scout/
 
 ## summary
-R551：#alpha-1 23:02后1卡无新收（squeekchain已有去重 squeekchain R113 focus）；lastSeen→23:18 CST；清 R550 newThisRound norapad；notify=false
+R551：#alpha-1 23:02后1卡无新收（squeekchain已有去重 squeekchain R113 focus）；lastSeen→23:18 CST；清 R550 newThisRound norapad；推送 bb18987；notify=false
