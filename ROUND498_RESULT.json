@@ -1,0 +1,68 @@
+{
+  "round": 498,
+  "completedAt": "2026-10-25 08:02 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "x-keyword-mustwatch-soft",
+  "notify": true,
+  "notifyReason": "zerotapeout_BEM-DRAW_entering_le2h_first_alert_plus_new_admit_icgold",
+  "alertMessage": "【R498预警】zerotapeout BEM-DRAW 10:00CST公售，约2h内入窗，首次≤2h提醒；新收icgold。面板：https://reboot7454.github.io/early-scout/",
+  "summary": "本轮新收icgold；zerotapeout BEM-DRAW进入≤2h首次告；catalyst仍≤2h但不重告；硬禁focus已守；其余扫描项软跟踪。",
+  "dsSummary": "本轮重点提醒zerotapeout BEM-DRAW进入≤2h窗口并收录icgold，其余卡以LIVE续和10/26节点为主。",
+  "newIds": [
+    "icgold"
+  ],
+  "newThisRound": [
+    "icgold"
+  ],
+  "newCount": 1,
+  "round498Added": [
+    "icgold"
+  ],
+  "le2h": [
+    {
+      "id": "catalyst-labs-x",
+      "openAt": "2026-10-25 06:24",
+      "minsAgoApprox": 98,
+      "why": "mint LIVE ≤2h continuing; already notified R493/R495 — no re-notify"
+    },
+    {
+      "id": "zerotapeout",
+      "openAt": "2026-10-25 10:00",
+      "minsUntilApprox": 118,
+      "why": "BEM-DRAW public sale entering ≤2h; first alert this window"
+    }
+  ],
+  "le2hIds": [
+    "catalyst-labs-x",
+    "zerotapeout"
+  ],
+  "le2hReNotify": false,
+  "le2hExited": [
+    "blue-sky",
+    "lets-connect-card"
+  ],
+  "xReads": 20,
+  "discordPeekDeferred": true,
+  "dsOk": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking on; admit(1batch)+score(icgold)+soft/alert/summary chat; ghost/omerta skip",
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent/Tape全覆盖软刷；关键词+必盯账号；Canton/Glaze/TokenWorks lastChecked刷新",
+  "focusBanRespected": true,
+  "skippedNote": "ghostagent77 NFT售罄仅持有者工具skip；omertacoin777窗口不明skip；Pocket Dragons/KOL MASCOT宣发不并入新卡；Enter_Elysium无新可操作；GIWA主网未上；flap/$FULL本窗无新开窗仅Monday预告",
+  "push": {
+    "ok": false,
+    "commit": null,
+    "fullSha": null,
+    "remote": "origin/main"
+  },
+  "clearedPrevNewThisRound": [],
+  "remoteVerified": false,
+  "softUpdates": [
+    "catalyst-labs-x 仍≤2h不重告",
+    "zerotapeout BEM-DRAW入≤2h首告",
+    "xuanwu-seed 最后公开mint",
+    "full-fun Monday FULL",
+    "agent-apes 43/8888",
+    "pipfun/stonks/tapeai/lets-connect/sprite/listen soft"
+  ]
+}
