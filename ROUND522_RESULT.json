@@ -1,0 +1,94 @@
+{
+  "round": 522,
+  "completedAt": "2026-10-25 15:07 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "x-keyword-mustwatch-soft",
+  "notify": true,
+  "notifyReason": "new_admit:hjkg-flap",
+  "alertMessage": "新增：@HJKG_FLAP 蝴蝶矿工（Flap税20%→Agent ID玩家，0粉刚开）。面板 https://reboot7454.github.io/early-scout/",
+  "summary": "R522 X关键词+必盯软刷：新收蝴蝶矿工@HJKG_FLAP(Flap税+Binance Agent ID)；TinkerAgents DS skip(无mint窗)；Floppy/AGM/BeHand无官推skip；Elysium主网11/09续；$FULL/StonksPad 10/26、MilkBao 20:00、BTape free mint均非≤2h；dragonlings/shenlong LIVE已告不重告；Discord Peek deferred。",
+  "dsSummary": {
+    "admit": {
+      "in": 5,
+      "admit": 1,
+      "skip": 4,
+      "kept": [
+        "hjkg-flap"
+      ],
+      "skipped": [
+        "tinker-agents",
+        "floppy-agents",
+        "agent-gold-miner",
+        "behand-bots"
+      ]
+    },
+    "score": {
+      "in": 1,
+      "admit": 1,
+      "reject": 0,
+      "kept": [
+        "hjkg-flap"
+      ],
+      "rejected": []
+    },
+    "alert": true
+  },
+  "newAdmits": [
+    {
+      "id": "hjkg-flap",
+      "handle": "@HJKG_FLAP",
+      "name": "蝴蝶矿工",
+      "zone": "挖矿",
+      "tags": [
+        "挖矿",
+        "Binance Agent钱包",
+        "Flap",
+        "AI Agent",
+        "BNB",
+        "极早期",
+        "CA未核实"
+      ],
+      "focus": false,
+      "scores": {
+        "early": 92,
+        "actionable": 34,
+        "novelty": 56,
+        "risk": 25,
+        "overall": 51
+      },
+      "followers": 0,
+      "links": {
+        "x": "https://x.com/HJKG_FLAP",
+        "twitter": "https://x.com/HJKG_FLAP",
+        "tweet": "https://x.com/HJKG_FLAP/status/2114251540936765910"
+      }
+    }
+  ],
+  "newIds": [
+    "hjkg-flap"
+  ],
+  "skipped": [
+    {
+      "id": "tinker-agents",
+      "reason": "DS admit skip：无mint/launch窗"
+    },
+    {
+      "id": "floppy-agents",
+      "reason": "无独立官推"
+    },
+    {
+      "id": "agent-gold-miner",
+      "reason": "无官推；多CA"
+    },
+    {
+      "id": "behand-bots",
+      "reason": "无官推；KOL批量"
+    }
+  ],
+  "xReads": 24,
+  "discordPeekDeferred": true,
+  "push": {
+    "ok": false,
+    "commit": null
+  }
+}
