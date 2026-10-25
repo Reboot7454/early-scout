@@ -1,0 +1,159 @@
+{
+  "round": 524,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-25 15:40 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "alertMessage": "新增：Onchain Agents（@bncworldfun）mint LIVE，Agent ID前2张免费，粉627。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "onchain-agents",
+      "handle": "@bncworldfun",
+      "name": "Onchain Agents",
+      "zone": "打新",
+      "tags": [
+        "打新",
+        "Binance Agent钱包",
+        "BNB",
+        "NFT",
+        "Agent ID",
+        "FREE mint",
+        "极早期",
+        "CA未核实"
+      ],
+      "focus": false,
+      "scores": {
+        "early": 88,
+        "actionable": 84,
+        "novelty": 55,
+        "risk": 62,
+        "overall": 68
+      },
+      "followers": 627,
+      "links": {
+        "x": "https://x.com/bncworldfun",
+        "twitter": "https://x.com/bncworldfun",
+        "tweet": "https://x.com/bncworldfun/status/2114252573461160325",
+        "web": "https://bncworld.fun/agents/"
+      },
+      "schedule": {
+        "status": "live",
+        "mintStatus": "live",
+        "openAt": "2026-10-25 15:07"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "id": "floppy-agents",
+      "reason": "DS skip：账号0粉0帖无官推原创公告"
+    },
+    {
+      "id": "laser-agents",
+      "reason": "DS skip：账号0粉0帖仅KOL线索"
+    },
+    {
+      "id": "ai-community-nft",
+      "reason": "DS skip：无独立清晰官推"
+    },
+    {
+      "id": "woohood",
+      "reason": "DS skip：无可用独立官推"
+    },
+    {
+      "id": "agent-gold-miner",
+      "reason": "仍无官推；多KOL多CA（R522同）"
+    },
+    {
+      "id": "four-agent-id-exclusive",
+      "reason": "台子功能非新项"
+    },
+    {
+      "id": "already-in-db",
+      "reason": "lineage/dragonlings/shenlong/gloomies/milkbao/agent-ape/deuslaunch/giwa-signals/fomopoly/raidlords/digital-humans等已在库"
+    }
+  ],
+  "xReadCount": 20,
+  "dsUsage": {
+    "admit": {
+      "in": 5,
+      "admit": 1,
+      "skip": 4
+    },
+    "score": {
+      "keep": 1
+    },
+    "enrich": 1,
+    "alert": 1,
+    "model": "deepseek-flash",
+    "thinking": true,
+    "fallback": false
+  },
+  "discordPeekDeferred": false,
+  "discordAlphaPeek": {
+    "lastSeen": "2026-10-25 13:14 CST",
+    "lastChecked": "2026-10-25 15:40 CST",
+    "cardsAfterLastSeen": 0,
+    "note": "R523已peek；本轮无浏览器仅刷新lastChecked"
+  },
+  "within2h": [],
+  "lte2hChecks": [
+    {
+      "id": "milkbao",
+      "window": "2026-10-25 20:00 CST",
+      "within2h": false,
+      "etaHours": 4.3
+    },
+    {
+      "id": "agent-ape-club",
+      "window": "2026-10-25 20:00 CST",
+      "within2h": false,
+      "etaHours": 4.3
+    },
+    {
+      "id": "root-hood",
+      "window": "2026-10-25 21:00 CST",
+      "within2h": false,
+      "etaHours": 5.3
+    },
+    {
+      "id": "stonks-pad",
+      "window": "2026-10-26",
+      "within2h": false
+    },
+    {
+      "id": "full-fun",
+      "window": "$FULL≈10/26",
+      "within2h": false
+    },
+    {
+      "id": "bitcointapes",
+      "window": "FREE MINT soon无精确时点",
+      "within2h": false
+    },
+    {
+      "id": "dragonlings",
+      "window": "LIVE since ~11:45",
+      "within2h": false,
+      "note": "已过≤2h且已告不重告"
+    },
+    {
+      "id": "shenlong",
+      "window": "LIVE since ~12:05",
+      "within2h": false,
+      "note": "已过≤2h且已告不重告"
+    },
+    {
+      "id": "onchain-agents",
+      "window": "mint LIVE ~15:07",
+      "within2h": true,
+      "note": "新收录即LIVE，随newAdmit告"
+    }
+  ],
+  "push": {
+    "ok": null,
+    "commit": null
+  },
+  "summary": "R524 X关键词+必盯软刷：新收Onchain Agents@bncworldfun(mint LIVE/Agent ID前2免费)；Floppy/Laser/AICommunity/Woohood skip无有效官推；MilkBao/AgentApe 20:00、ROOT 21:00、$FULL/StonksPad 10/26、BTape即将均非≤2h；Elysium主网11/09续；Discord沿用R523无新卡；notify=true。",
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
