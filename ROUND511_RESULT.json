@@ -1,0 +1,85 @@
+{
+  "round": 511,
+  "completedAt": "2026-10-25 11:57:01 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "discord-alpha-40",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "本轮 Discord alpha 新收 Base 上 AI agents 发币台 SwarmPad（@swarmpad_，仅4粉），注意与已有 Solana @swarmpadrun 同名不同号：https://reboot7454.github.io/early-scout/",
+  "summary": "R511 Discord alpha 补漏：#alpha-1 10:53后3卡；madang_fun已有R485去重、xwenbcsdf空壳个人号DS skip；新收 swarmpad-base-ai(@swarmpad_，Base AI发币台，4粉)→台子/Meme；lastSeen→11:32 CST；清 R510 newThisRound；推送待写",
+  "newAdmits": [
+    {
+      "id": "swarmpad-base-ai",
+      "handle": "@swarmpad_",
+      "name": "SwarmPad",
+      "zone": "台子/Meme",
+      "tags": [
+        "台子/Meme",
+        "Launchpad",
+        "AI Agent",
+        "Base",
+        "discord-alpha",
+        "极早期"
+      ],
+      "followers": 4,
+      "note": "不同于已有 swarmpad/@swarmpadrun(Solana)"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "swarmpad-base-ai"
+  ],
+  "skipped": [
+    {
+      "handle": "madang_fun",
+      "reason": "already_have madang-fun R485",
+      "skipKind": "dup",
+      "time": "11:20"
+    },
+    {
+      "handle": "xwenbcsdf",
+      "reason": "personal_shell_no_project",
+      "skipKind": "shell",
+      "followers": 56,
+      "time": "11:32",
+      "ds": "空简介，主要回复/转推他人项目，无自有产品叙事"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "pick-rush",
+    "bapa",
+    "hackou-agent-pass"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking=on; admit batch n=2 (swarmpad_ admit, xwenbcsdf reject); alert draft",
+  "coverage": "discord-alpha #alpha-1 only",
+  "meta": {
+    "lastSeen": "2026-10-25 11:32 CST",
+    "lastChecked": "2026-10-25 11:57:01 CST",
+    "newestCardTime": "2026-10-25 11:32 CST"
+  },
+  "xVerify": {
+    "swarmpad_": {
+      "followers": 4,
+      "created": "2026-10-24T14:41:35.000Z",
+      "bio": "Launch your coin on Base and let AI agents handle the rest.",
+      "tweets": 1
+    },
+    "xwenbcsdf": {
+      "followers": 56,
+      "following": 1648,
+      "bio": "",
+      "name": "Patrick Star"
+    },
+    "madang_fun": {
+      "dup": "madang-fun"
+    }
+  },
+  "push": {
+    "ok": false,
+    "commit": null
+  },
+  "remoteVerified": false
+}
