@@ -27,5 +27,5 @@
 - alert: 新增 xuanwu-spring（@Leeonmort）：四季系列首枚 Spring，FREE MINT（1/钱包），官方帖明确 gate 尚未开放；面板：https://reboot7454.github.io/early-scout/
 
 ## Push
-- ok: pending
-- commit: pending
+- ok: true
+- commit: `f15ca52cf3fb6de105f8dd2f8d62fd5a080666f7`
