@@ -12,6 +12,6 @@
 - clearedPrevNewThisRound: ['solpad']；meta/顶层/round560Added=['agentpad-ai','use-clump']
 - dsUsage: deepseek-flash thinking=on admit+score+alert；admit=agentpad-ai,use-clump；skip=launchx,kryntar
 - panel: https://reboot7454.github.io/early-scout/
-- push: (pending)
-- remoteVerified: (pending)
+- push: ok commit=7863cf177c60b4653cf1b51f2a71e219eb95bbf1
+- remoteVerified: true
 - summary: R560：新收 AgentPad AI(@AgentPad_ai→BN Agent栏，7粉刚LIVE) + Clump(@UseClump→台子，13粉反Block0)；KRYNTAR无官推skip；LaunchX过热skip；StonksPad+$FULL无精确时点不告；TapeAI快照已过；Discord Peek延期；notify=true
