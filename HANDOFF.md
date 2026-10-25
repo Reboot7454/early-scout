@@ -95,3 +95,9 @@
 - 已写入 `meta.fullFunWatch.accounts` 必盯：`@fulldotfun` `@saulpink`；`candidateIds`：`full-fun` `saul-pink`。
 - `focus:false` 硬禁遵守；归台子/Meme。
 - $FULL Monday（约 2026-10-26）非 ≤2h；平台本身已 live。
+
+## 2026-10-25 用户点名补盯 @bitcointapes
+- 卡 `bitcointapes`（BTape）已于 **R486** Discord alpha Peek 收录（Bitcoin TapeOut 电路 FREE MINT）；非漏卡。
+- 但 `meta.tapeWatch.accounts` / `tapeOutWatch.accounts` / `candidateIds` 此前未写入 `@bitcointapes` / `bitcointapes` → 例行软刷不会专盯该号。
+- 已补写入 `tapeWatch` + `tapeOutWatch` 必盯；软刷粉≈118；近帖：主网免费公平铸造即将开放（UCO/Ordinals）；`focus:false` 保持；ecosystem→Tape（chain 仍 Bitcoin）。
+- 建议例行关键词：`@bitcointapes` / `BTape` / `Bitcoin Tapes` / `UCO` / `Ordinals 电路`。
