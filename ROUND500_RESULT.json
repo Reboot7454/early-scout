@@ -1,0 +1,120 @@
+{
+  "round": 500,
+  "completedAt": "2026-10-25 08:40 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "x-keyword-mustwatch-soft",
+  "notify": true,
+  "notifyReason": "new_admits_rekt-knights_pledgr",
+  "alertMessage": "【R500预警】rekt-knights(@rektknights) 的 BNB Agent NFT 铸造未预告、pledgr(@UsePledgrTech) 的 Solana AI 发射台已 LIVE，详情见面板 https://reboot7454.github.io/early-scout/。",
+  "summary": "本轮新收录两个打新/Meme标的，另有 zerotapeout 公售 85 分钟后开启。",
+  "dsSummary": "本轮新收录两个打新/Meme标的，另有 zerotapeout 公售 85 分钟后开启。",
+  "newAdmits": [
+    {
+      "id": "rekt-knights",
+      "handle": "@rektknights",
+      "zone": "打新",
+      "tags": [
+        "Binance Agent钱包",
+        "AI Agent",
+        "NFT",
+        "BNB"
+      ],
+      "followers": 0
+    },
+    {
+      "id": "pledgr",
+      "handle": "@UsePledgrTech",
+      "zone": "台子/Meme",
+      "tags": [
+        "Launchpad",
+        "AI Agent",
+        "Solana"
+      ],
+      "followers": 15
+    }
+  ],
+  "newIds": [
+    "rekt-knights",
+    "pledgr"
+  ],
+  "newThisRound": [
+    "rekt-knights",
+    "pledgr"
+  ],
+  "newCount": 2,
+  "round500Added": [
+    "rekt-knights",
+    "pledgr"
+  ],
+  "le2h": [
+    {
+      "id": "zerotapeout",
+      "openAt": "2026-10-25 10:00",
+      "minsUntilApprox": 80,
+      "why": "BEM-DRAW public sale still ≤2h; first alerted R498 — no re-notify-only"
+    }
+  ],
+  "le2hIds": [
+    "zerotapeout"
+  ],
+  "le2hReNotify": false,
+  "le2hExited": [
+    "catalyst-labs-x"
+  ],
+  "xReadCount": 16,
+  "xReads": 16,
+  "discordPeekDeferred": true,
+  "dsOk": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking on; score(2admits)+alert/summary chat; risk flip when DS inverted",
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/Tape/GIWA/Zero/DogeEVM/BN Agent/BTC/Starknet全覆盖软刷；关键词+必盯账号；Canton/Glaze/TokenWorks lastChecked刷新",
+  "focusBanRespected": true,
+  "clearedPrevNewThisRound": [
+    "icgold"
+  ],
+  "skipped": [
+    {
+      "id": "koifish",
+      "reason": "无独立官推；mint站fishkoi.netlify.app，候选号均非项目官推"
+    },
+    {
+      "id": "si-passport",
+      "reason": "无独立官推；KOL实测，未找到官号"
+    },
+    {
+      "id": "agent-fragment",
+      "reason": "无独立官推；KOL白嫖贴，未找到官号"
+    },
+    {
+      "id": "elyspan",
+      "reason": "Enter_Elysium警告 unofficial tooling；explorer/launchpad coming soon，非正式On testnet生态部署"
+    },
+    {
+      "id": "gamapad",
+      "reason": "已在库"
+    },
+    {
+      "id": "the-wall",
+      "reason": "已在库"
+    },
+    {
+      "id": "agent-apes",
+      "reason": "已在库；软刷45/8888"
+    }
+  ],
+  "skippedNote": "KoiFish/si.passport/Agent Fragment无官推skip；Elyspan因官方警告unofficial tooling skip；其余已在库软刷",
+  "softUpdates": [
+    "zerotapeout 仍≤2h不重告",
+    "catalyst 已出≤2h窗",
+    "agent-apes 45/8888",
+    "milkbao/tapeai 今晚20:00",
+    "stonks/full/saul 10/26",
+    "enter-elysium 11/09 + unofficial tooling警告",
+    "gamapad/pipfun/sprite soft"
+  ],
+  "push": {
+    "ok": null,
+    "commit": null,
+    "remote": "origin/main"
+  }
+}
