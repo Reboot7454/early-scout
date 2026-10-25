@@ -1,0 +1,121 @@
+{
+  "round": 531,
+  "completedAt": "2026-10-25 17:35 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "x-keyword-mustwatch-soft",
+  "notify": true,
+  "notifyReason": "true_new_admit",
+  "alertMessage": "新收录：契印 AGENT SEAL（@Handln）创世区块版 LIVE，.ai Agent ID 门禁，首枚 0.0005 BNB，旧版#1-9免费领同号；面板：https://reboot7454.github.io/early-scout/",
+  "summary": "R531 x-keyword-mustwatch-soft：新收 agent-seal(@Handln) 创世区块 LIVE；skip one-life(score否)、umbra/botmolt/画中人无官推；TapeAI空投/MilkBao/AgentApe 20:00、ROOT 21:00、StonksPad/$FULL 10/26、BTape无精确时点均非≤2h；Elysium主网11/09；discordPeekDeferred；notify=true。",
+  "newAdmits": [
+    {
+      "id": "agent-seal",
+      "handle": "@Handln",
+      "name": "契印 AGENT SEAL",
+      "zone": "bnagent",
+      "status": "live",
+      "followers": 1490,
+      "mintStatus": "live"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "agent-seal"
+  ],
+  "skipped": [
+    {
+      "id": "one-life",
+      "handle": "@LifeOneFun",
+      "reason": "score_admit_false",
+      "skipKind": "not-early-enough",
+      "ds": "0粉信息全缺 actionable低"
+    },
+    {
+      "id": "umbra-agents",
+      "reason": "no_official_x",
+      "skipKind": "no-official-signal",
+      "ds": "无独立官推仅社区聚合"
+    },
+    {
+      "id": "botmolt",
+      "reason": "no_official_x",
+      "skipKind": "no-official-signal",
+      "ds": "Botmolt username不存在"
+    },
+    {
+      "id": "huazhongren",
+      "reason": "no_official_x",
+      "skipKind": "no-official-signal",
+      "ds": "@huazhongren无关旧号"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking=on; admit n=5 admit2 skip3 → score keep1(agent-seal) drop1(one-life); alert+summary",
+  "xReadCount": 19,
+  "within2h": [],
+  "lte2hChecks": {
+    "tapeai-airdrop": {
+      "at": "2026-10-25 20:00 CST",
+      "hoursAway": 2.4,
+      "lte2h": false
+    },
+    "milkbao": {
+      "at": "2026-10-25 20:00 CST",
+      "hoursAway": 2.4,
+      "lte2h": false
+    },
+    "agent-ape-club": {
+      "at": "2026-10-25 20:00 CST",
+      "hoursAway": 2.4,
+      "lte2h": false
+    },
+    "root-hood": {
+      "at": "2026-10-25 21:00 CST",
+      "hoursAway": 3.4,
+      "lte2h": false
+    },
+    "stonks-pad": {
+      "at": "2026-10-26",
+      "lte2h": false
+    },
+    "full-fun": {
+      "at": "2026-10-26",
+      "lte2h": false
+    },
+    "bitcointapes": {
+      "exactTime": null,
+      "lte2h": false,
+      "note": "电路设计已开放；FREE MINT仍无精确时点"
+    },
+    "elysium-mainnet": {
+      "at": "2026-11-09",
+      "lte2h": false
+    },
+    "zero-mainnet": {
+      "at": "2026-11-30",
+      "lte2h": false
+    }
+  },
+  "coverage": {
+    "打新": true,
+    "挖矿": true,
+    "台子/Meme": true,
+    "GO盘": true,
+    "LayerZero": true,
+    "Elysium": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BN Agent 钱包": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "push": {
+    "ok": false,
+    "commit": null
+  },
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
