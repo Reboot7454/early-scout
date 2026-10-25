@@ -1,0 +1,108 @@
+{
+  "round": 526,
+  "completedAt": "2026-10-25 16:09 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "x-keyword-mustwatch-soft",
+  "notify": true,
+  "notifyReason": "new_admit_and_live_within_2h",
+  "alertMessage": "新增：Floppy Agents（@Floppyagents）mint LIVE，Agent ID免费gas，粉0，约447/3333。面板 https://reboot7454.github.io/early-scout/",
+  "summary": "R526 软雷达新收 Floppy Agents（@Floppyagents）3333全链像素软盘 Agent ID免费mint LIVE（开窗约15:40仍≤2h）；skip laser/woohood空号、flop-labs/coinfello过热；MilkBao/Ape20:00、ROOT21:00、StonksPad/$FULL10/26未入≤2h；spritefun停建站点故障；Elysium主网11/09；notify=true",
+  "newAdmits": [
+    {
+      "id": "floppy-agents",
+      "handle": "@Floppyagents",
+      "name": "Floppy Agents",
+      "zone": "bnagent"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "floppy-agents"
+  ],
+  "skipped": [
+    {
+      "handle": "laseragents",
+      "reason": "empty_official_0_tweets",
+      "skipKind": "no-official-signal",
+      "ds": "核验存在但0帖空号"
+    },
+    {
+      "handle": "woohood",
+      "reason": "empty_legacy_handle",
+      "skipKind": "no-official-signal",
+      "ds": "2010空号无官推"
+    },
+    {
+      "handle": "flop_labs",
+      "reason": "too_hot_no_mint_window",
+      "skipKind": "overheated",
+      "followers": 41266
+    },
+    {
+      "handle": "CoinFello",
+      "reason": "not_early_mint_window",
+      "skipKind": "overheated",
+      "followers": 27161
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "onchain-agents"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking=on; admit n=5 admit1 skip4 → score keep1; enrich+alert+summary",
+  "xReadCount": 21,
+  "within2h": [
+    "floppy-agents"
+  ],
+  "lte2hChecks": {
+    "floppy-agents": {
+      "openAt": "2026-10-25 15:40 CST",
+      "elapsedMin": 28,
+      "within2h": true,
+      "newAdmit": true
+    },
+    "milkbao": {
+      "start": "2026-10-25 20:00 CST",
+      "hoursAway": 3.9,
+      "within2h": false
+    },
+    "agent-ape-club": {
+      "start": "2026-10-25 20:00 CST",
+      "hoursAway": 3.9,
+      "within2h": false
+    },
+    "root-hood": {
+      "start": "2026-10-25 21:00 CST",
+      "hoursAway": 4.9,
+      "within2h": false
+    },
+    "stonks-pad": {
+      "start": "2026-10-26",
+      "within2h": false
+    },
+    "full-fun": {
+      "start": "约2026-10-26",
+      "within2h": false
+    },
+    "bitcointapes": {
+      "note": "FREE MINT即将无精确时点",
+      "within2h": false
+    },
+    "elysium": {
+      "mainnet": "2026-11-09",
+      "within2h": false
+    },
+    "zero": {
+      "mainnet": "2026-11-30",
+      "within2h": false
+    }
+  },
+  "coverage": "keywords+mustwatch-soft; chains GIWA/DogeEVM/Zero/Elysium/Kinetiq/Starknet/Ordinals/Tape/BNB/Irys/Robinhood sampled",
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
