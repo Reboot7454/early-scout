@@ -1,0 +1,49 @@
+{
+  "round": 509,
+  "completedAt": "2026-10-25 11:20:42 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "discord-alpha-40",
+  "notify": false,
+  "notifyReason": "no_new_admits",
+  "alertMessage": null,
+  "summary": "R509 Discord alpha 补漏无新收（#alpha-1 10:17后：cryptoroomx@10:52 社区资讯房 DS skip、allodev@10:53 高粉KOL DS skip）；lastSeen→10:53 CST；lastChecked 2026-10-25 11:20:42 CST",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "skipped": [
+    {
+      "handle": "cryptoroomx",
+      "reason": "community_alpha_room_no_project",
+      "skipKind": "other",
+      "followers": 3652,
+      "time": "10:52",
+      "ds": "仅社区闲聊聚合/资讯房，无项目本体与独立产品"
+    },
+    {
+      "handle": "allodev",
+      "reason": "mature_kol_dev",
+      "skipKind": "kol",
+      "followers": 50729,
+      "time": "10:53",
+      "ds": "高粉个人开发者主号，多项目混推，非单一早期项目本体"
+    }
+  ],
+  "clearedPrevNewThisRound": false,
+  "prevNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking=on; admit batch n=2 both reject",
+  "coverage": "discord-alpha #alpha-1 only",
+  "meta": {
+    "lastSeen": "2026-10-25 10:53 CST",
+    "lastChecked": "2026-10-25 11:20:42 CST",
+    "newestCardTime": "2026-10-25 10:53 CST"
+  },
+  "push": {
+    "ok": false,
+    "commit": null,
+    "fullSha": null,
+    "remote": "origin/main"
+  },
+  "remoteVerified": false
+}
