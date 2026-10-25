@@ -1,0 +1,197 @@
+{
+  "round": 533,
+  "completedAt": "2026-10-25 18:05 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "x-keyword-mustwatch-soft",
+  "notify": true,
+  "notifyReason": "true_new_admit+lte2h_window",
+  "alertMessage": "新收录：Pengupunk/ARTRURAL（BNB Agent ID LIVE首免）、Ether Share V4（RH pad）、Frosties On Ink（今晚22:30CST freemint）、BOXA（Elysium测试网DEX）；≤2h：TapeAI空投+MilkBao/AgentApeClub 20:00CST；面板：https://reboot7454.github.io/early-scout/",
+  "summary": "R533 x-keyword-mustwatch-soft：新收pengupunk/artrural/ether-share-v4/frosties-on-ink/boxa-elysium；TapeAI/MilkBao/AgentApe ≤2h；ROOT/Frosties非≤2h；StonksPad/ 10/26；BTape无精确时点；Elysium主网11/09；discordPeekDeferred；notify=true。",
+  "newAdmits": [
+    {
+      "id": "pengupunk",
+      "handle": "@Pengupunkk",
+      "name": "Pengupunk",
+      "zone": "bnagent",
+      "status": "live",
+      "followers": 0,
+      "mintStatus": "live"
+    },
+    {
+      "id": "artrural",
+      "handle": "@artruralfun",
+      "name": "ARTRURAL 艺术乡村",
+      "zone": "bnagent",
+      "status": "live",
+      "followers": 0,
+      "mintStatus": "live"
+    },
+    {
+      "id": "ether-share-v4",
+      "handle": "@EtherShareV4",
+      "name": "Ether Share V4",
+      "zone": "pad",
+      "status": "live",
+      "followers": 79,
+      "mintStatus": "live"
+    },
+    {
+      "id": "frosties-on-ink",
+      "handle": "@FrostiesOnInk_",
+      "name": "Frosties On Ink",
+      "zone": "mint",
+      "status": "announced",
+      "followers": 2773,
+      "mintStatus": "upcoming"
+    },
+    {
+      "id": "boxa-elysium",
+      "handle": "@Boxa_Elysium",
+      "name": "BOXA",
+      "zone": "elysium",
+      "status": "live",
+      "followers": 261,
+      "mintStatus": "live"
+    }
+  ],
+  "newCount": 5,
+  "newIds": [
+    "pengupunk",
+    "artrural",
+    "ether-share-v4",
+    "frosties-on-ink",
+    "boxa-elysium"
+  ],
+  "skipped": [
+    {
+      "id": "ascendantsgames",
+      "handle": "@ascendantsgames",
+      "reason": "too_hot",
+      "skipKind": "not-early-enough",
+      "ds": "27k粉 Robinhood freemint过热"
+    },
+    {
+      "id": "agenticpenguin",
+      "handle": "@AgenticPenguin",
+      "reason": "not_early_enough",
+      "skipKind": "not-early-enough",
+      "ds": "mint已LIVE且非极早期发现窗"
+    },
+    {
+      "id": "moondengagentic",
+      "handle": "@moondengagentic",
+      "reason": "spam_signal",
+      "skipKind": "not-early-enough",
+      "ds": "回复刷屏弱信号"
+    },
+    {
+      "id": "floppy-agents",
+      "handle": "@Floppyagents",
+      "reason": "already_in_db",
+      "skipKind": "duplicate"
+    },
+    {
+      "id": "botmolt",
+      "reason": "aggregator_only",
+      "skipKind": "no-official-signal",
+      "ds": "仅聚合提及，无独立新官推核验本轮"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "agent-seal"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking=on; admit n=5 keep5 skip0 → score keep5; alert+summary",
+  "xReadCount": 17,
+  "within2h": [
+    {
+      "id": "tapeai",
+      "at": "2026-10-25 20:00 CST",
+      "hoursAway": 1.9,
+      "event": "纪念电路空投快照"
+    },
+    {
+      "id": "milkbao",
+      "at": "2026-10-25 20:00 CST",
+      "hoursAway": 1.9,
+      "event": "mint"
+    },
+    {
+      "id": "agent-ape-club",
+      "at": "2026-10-25 20:00 CST",
+      "hoursAway": 1.9,
+      "event": "mint"
+    }
+  ],
+  "lte2hChecks": {
+    "tapeai-airdrop": {
+      "at": "2026-10-25 20:00 CST",
+      "hoursAway": 1.9,
+      "lte2h": true
+    },
+    "milkbao": {
+      "at": "2026-10-25 20:00 CST",
+      "hoursAway": 1.9,
+      "lte2h": true
+    },
+    "agent-ape-club": {
+      "at": "2026-10-25 20:00 CST",
+      "hoursAway": 1.9,
+      "lte2h": true
+    },
+    "root-hood": {
+      "at": "2026-10-25 21:00 CST",
+      "hoursAway": 2.9,
+      "lte2h": false
+    },
+    "frosties-on-ink": {
+      "at": "2026-10-25 22:30 CST",
+      "hoursAway": 4.4,
+      "lte2h": false
+    },
+    "stonks-pad": {
+      "at": "2026-10-26",
+      "lte2h": false
+    },
+    "full-fun": {
+      "at": "2026-10-26",
+      "lte2h": false
+    },
+    "bitcointapes": {
+      "exactTime": null,
+      "lte2h": false,
+      "note": "电路设计已开放；FREE MINT仍无精确时点"
+    },
+    "elysium-mainnet": {
+      "at": "2026-11-09",
+      "lte2h": false
+    },
+    "zero-mainnet": {
+      "at": "2026-11-30",
+      "lte2h": false
+    }
+  },
+  "coverage": {
+    "打新": true,
+    "挖矿": true,
+    "台子/Meme": true,
+    "GO盘": true,
+    "LayerZero": true,
+    "Elysium": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BN Agent 钱包": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "push": {
+    "ok": false,
+    "commit": null,
+    "fullSha": null,
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
