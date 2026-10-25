@@ -1,0 +1,90 @@
+{
+  "round": 557,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 01:37 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新收 Heptad（@Heptadxyz，0粉）七链发射台刚建号，ETH/Base/BNB/RH/Arb/Ink/XLayer，官网CA未给 → https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "heptad",
+      "handle": "Heptadxyz",
+      "name": "Heptad",
+      "category": "台子/Meme",
+      "followers": 0,
+      "note": "七链发射台刚建号0粉1推；ETH/Base/BNB/RH/Arb/Ink/XLayer；锁流动性；官网/CA未给"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "heptad"
+  ],
+  "skipped": [
+    {
+      "handle": "tryrexfun",
+      "followers": 1211,
+      "reason": "粉/推文偏高非极早期 DS skip"
+    },
+    {
+      "handle": "Leeonmort",
+      "reason": "X再验仍不存在"
+    },
+    {
+      "handle": "StonksPadsh",
+      "reason": "10/26无HH:MM非≤2h不因日程告"
+    },
+    {
+      "handle": "fulldotfun",
+      "reason": "$FULL Monday无HH:MM非≤2h"
+    },
+    {
+      "handle": "saulpink",
+      "reason": "$FULL Monday无HH:MM非≤2h"
+    },
+    {
+      "handle": "spritefun_xyz",
+      "reason": "停建续网站宕 soft only"
+    },
+    {
+      "handle": "bitcointapes",
+      "reason": "电路设计非铸造；免费铭刻无HH:MM"
+    },
+    {
+      "item": "TapeAI纪念电路快照",
+      "reason": "10/25 20:00CST已过非≤2h"
+    },
+    {
+      "item": "Elysium/Zero",
+      "reason": "11-09/11-30非≤2h"
+    },
+    {
+      "handle": "ChimpxAI",
+      "reason": "4万粉非极早期 skip"
+    }
+  ],
+  "within2h": [],
+  "xReadCount": 20,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking=on score×2+alert; admit=heptad; skip=tryrexfun",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": "2026-10-26 00:28 CST",
+    "note": "本轮executor不扫浏览器；lastSeen未改"
+  },
+  "clearedPrevNewThisRound": [
+    "backstop-fund"
+  ],
+  "coverage": "x-keyword-mustwatch-soft ≤20 reads; keywords+priority accounts",
+  "push": {
+    "attempted": true,
+    "ok": false,
+    "commit": "",
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R557：新收 Heptad(@Heptadxyz→台子，0粉七链pad刚建号)；StonksPad+$FULL仍无精确≤2h不告；Leeonmort再验不存在；Tape纪念快照已过；Discord Peek延期；notify=true",
+  "remoteVerified": false,
+  "prevRound": 556
+}
