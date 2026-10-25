@@ -13,4 +13,4 @@
 - clearedPrevNewThisRound: wick-agents
 - dsUsage: deepseek-flash thinking=on admit+score+alert
 - panel: https://reboot7454.github.io/early-scout/
-- push: PENDING
+- push: b58967a ok
