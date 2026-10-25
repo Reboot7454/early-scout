@@ -1,0 +1,112 @@
+{
+  "round": 519,
+  "completedAt": "2026-10-25 14:05 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "x-keyword-mustwatch-soft",
+  "notify": true,
+  "notifyReason": "new_admit:digimoon-monsters,mergit",
+  "alertMessage": "新增：@digimoon69 DigiMoon Monsters BN Agent freeMint LIVE（前100免费）；@MergitonGIWA GIWA AI赏金agent。面板 https://reboot7454.github.io/early-scout/",
+  "summary": "R519 X关键词+必盯软刷：新收DigiMoon Monsters(BN Agent freeMint)与Mergit(GIWA AI赏金)；phosphor-slot score拒、SLOTH.exe无官推skip、jangteo无明确mint窗skip；dragonlings/shenlong仍LIVE已告不重告；MilkBao 20:00未入≤2h；Discord Peek延期。",
+  "dsSummary": {
+    "admit": {
+      "in": 5,
+      "admit": 3,
+      "skip": 2,
+      "kept": ["digimoon-monsters", "phosphor-slot", "mergit"],
+      "skipped": ["jangteo", "sloth-exe"]
+    },
+    "score": {
+      "in": 3,
+      "admit": 2,
+      "reject": 1,
+      "kept": ["digimoon-monsters", "mergit"],
+      "rejected": ["phosphor-slot"]
+    },
+    "alert": true
+  },
+  "newAdmits": [
+    {
+      "id": "digimoon-monsters",
+      "handle": "@digimoon69",
+      "name": "DigiMoon Monsters",
+      "zone": "打新",
+      "tags": ["打新", "Binance Agent钱包", "AI Agent", "NFT", "freeMint", "BNB", "极早期", "CA未核实"],
+      "focus": false,
+      "scores": {"early": 95, "actionable": 78, "novelty": 55, "risk": 82, "overall": 56},
+      "followers": 10,
+      "links": {
+        "x": "https://x.com/digimoon69",
+        "twitter": "https://x.com/digimoon69",
+        "web": "https://digimoon-monsters.surge.sh"
+      }
+    },
+    {
+      "id": "mergit",
+      "handle": "@MergitonGIWA",
+      "name": "Mergit",
+      "zone": "挖矿",
+      "tags": ["挖矿", "GIWA", "AI Agent", "开发者", "testnet"],
+      "focus": false,
+      "scores": {"early": 76, "actionable": 58, "novelty": 72, "risk": 55, "overall": 63},
+      "followers": 118,
+      "links": {
+        "x": "https://x.com/MergitonGIWA",
+        "twitter": "https://x.com/MergitonGIWA",
+        "web": "https://www.mergit.xyz"
+      }
+    }
+  ],
+  "newIds": ["digimoon-monsters", "mergit"],
+  "newThisRound": ["digimoon-monsters", "mergit"],
+  "newCount": 2,
+  "round519Added": ["digimoon-monsters", "mergit"],
+  "le2h": {
+    "candidates": ["dragonlings", "shenlong"],
+    "stillInWindow": ["dragonlings", "shenlong"],
+    "upcoming": [{"id": "milkbao", "start": "2026-10-25 20:00 CST", "hoursAway": 6}],
+    "reNotify": false,
+    "reason": "R512已告；本轮不重告；MilkBao未入≤2h"
+  },
+  "skipped": [
+    {"id": "railpals", "reason": "already_in_data"},
+    {"id": "milkbao", "reason": "already_in_data"},
+    {"id": "agent-city", "reason": "already_in_data"},
+    {"id": "gamapad", "reason": "already_in_data"},
+    {"id": "ammora", "reason": "already_in_data"},
+    {"id": "fomopoly", "reason": "already_in_data"},
+    {"id": "robtown", "reason": "already_in_data"},
+    {"id": "farming-season", "reason": "already_in_data"},
+    {"id": "sloth-exe", "reason": "no_official_x"},
+    {"id": "jangteo", "reason": "ds_admit_skip_no_clear_mint_window"},
+    {"id": "phosphor-slot", "reason": "ds_score_reject_trust_too_weak"}
+  ],
+  "xReads": 17,
+  "xReadCount": 17,
+  "discordPeekDeferred": true,
+  "dsOk": true,
+  "dsFallback": false,
+  "dsUsage": {"admit": 1, "score": 1, "alert": 1, "model": "deepseek-flash"},
+  "coverage": {
+    "columns": ["打新", "挖矿", "台子/Meme", "GO盘", "LayerZero", "Elysium生态", "Tape/电路", "GIWA", "DogeEVM", "BN Agent钱包"],
+    "extra": ["BTC", "Starknet"],
+    "keywordSearch": true,
+    "mustWatchSoft": true
+  },
+  "focusBanRespected": true,
+  "clearedPrevNewThisRound": ["railpals"],
+  "watchSoft": {
+    "bitcointapes": "FREE MINT即将开放非≤2h",
+    "stonkspad": "10/26 flap live续",
+    "fullfun": "$FULL≈10/26续",
+    "elysium": "主网11/09远日",
+    "zero": "主网/lzATLAS 11/30远日",
+    "milkbao": "20:00CST未入≤2h"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "push": {
+    "attempted": true,
+    "ok": false,
+    "commit": null,
+    "remote": "origin/main"
+  }
+}
