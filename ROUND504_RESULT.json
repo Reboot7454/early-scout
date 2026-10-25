@@ -1,0 +1,102 @@
+{
+  "round": 504,
+  "completedAt": "2026-10-25 09:37:45 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "x-keyword-mustwatch-soft",
+  "notify": true,
+  "notifyReason": "new_admit_cadencedotfun",
+  "alertMessage": "【R504预警】新增 Cadence(@cadencedotfun) Solana fair-launch 台（block-zero同价同cap，0粉极早期）；zerotapeout 10:00CST仍≤2h不重告；详情见面板 https://reboot7454.github.io/early-scout/",
+  "summary": "R504 x-keyword-mustwatch-soft：新收 cadencedotfun；spritefun停建记入；zerotapeout 10:00CST仍≤2h不重告；必盯软刷；Discord Peek 延期。",
+  "dsSummary": "R504 x-keyword-mustwatch-soft：新收 cadencedotfun；spritefun停建记入；zerotapeout 10:00CST仍≤2h不重告；必盯软刷；Discord Peek 延期。",
+  "newAdmits": [
+    {
+      "id": "cadencedotfun",
+      "handle": "@cadencedotfun",
+      "name": "Cadence",
+      "zone": "台子/Meme",
+      "tags": [
+        "台子/Meme",
+        "Launchpad",
+        "fair launch",
+        "Solana",
+        "极早期"
+      ],
+      "followers": 0,
+      "scores": {
+        "early": 95,
+        "actionable": 28,
+        "novelty": 58,
+        "risk": 78,
+        "overall": 50
+      }
+    }
+  ],
+  "newIds": [
+    "cadencedotfun"
+  ],
+  "newThisRound": [
+    "cadencedotfun"
+  ],
+  "newCount": 1,
+  "round504Added": [
+    "cadencedotfun"
+  ],
+  "le2h": [
+    {
+      "id": "zerotapeout",
+      "openAt": "2026-10-25 10:00",
+      "minsUntilApprox": 23,
+      "why": "BEM-DRAW public sale still ≤2h; first alerted R498 — no re-notify-only"
+    }
+  ],
+  "le2hIds": [
+    "zerotapeout"
+  ],
+  "le2hReNotify": false,
+  "xReadCount": 20,
+  "xReads": 20,
+  "discordPeekDeferred": true,
+  "dsOk": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking on; score(1admit)+alert; no fallback",
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/Tape/GIWA/Zero/DogeEVM/BN Agent/BTC/Starknet全覆盖软刷；关键词+必盯账号；Canton/Glaze/TokenWorks lastChecked刷新",
+  "focusBanRespected": true,
+  "clearedPrevNewThisRound": [
+    "goodyardboys",
+    "scotiamute",
+    "preclank"
+  ],
+  "watchSoft": {
+    "kinetiqWatch": "主网11/09；unofficial tooling警告续",
+    "tapeWatch": "无新玩法；zerotapeout≤2h不重告",
+    "flapPadWatch": "StonksPad 10/26续",
+    "irysPadWatch": "spritefun停建劝退",
+    "fullFunWatch": "FULL Monday 10/26；未≤2h",
+    "agentPadWatch": "pipfun V2+gang cooking；无新admit",
+    "agentMiningWatch": "Trac DEX Loans&Options续",
+    "giwaWatch": "主网未上",
+    "zeroWatch": "11/30续",
+    "dogeEvmWatch": "软刷无新admit",
+    "btcPrivacyWatch": "ShieldedNaka二级市场",
+    "starknetWatch": "软刷",
+    "softDebt": "Canton/Glaze/TokenWorks lastChecked刷新"
+  },
+  "skippedNotable": [
+    {
+      "id": "termix_ai",
+      "reason": "66k粉成熟项目，非极早期"
+    },
+    {
+      "id": "brushborn",
+      "reason": "已收录；mint续仅软刷"
+    },
+    {
+      "id": "sprite-fun",
+      "reason": "已ended；停建信号写入watch"
+    }
+  ],
+  "push": {
+    "ok": false,
+    "commit": null
+  }
+}
