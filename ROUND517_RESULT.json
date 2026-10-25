@@ -1,0 +1,184 @@
+{
+  "round": 517,
+  "completedAt": "2026-10-25 13:35 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "x-keyword-mustwatch-soft",
+  "notify": true,
+  "notifyReason": "new_admit:railpals",
+  "alertMessage": "新增关注：@RailPals 轨道萌宝像素NFT，BNB Agent钱包可freeMint约0.0002BNB，供应约3300，详情见 https://reboot7454.github.io/early-scout/",
+  "summary": "R517新收RailPals(BN Agent freeMint像素NFT，33粉)；dragonlings/shenlong仍≤2h已告不重告；bitcointapes/StonksPad/$FULL远日软刷；Discord Peek延期。",
+  "dsSummary": {
+    "admit": {
+      "in": 4,
+      "admit": 2,
+      "skip": 2,
+      "kept": [
+        "railpals",
+        "1coine"
+      ],
+      "skipped": [
+        "agentid-card-anon",
+        "agent-genesis-spam"
+      ]
+    },
+    "score": {
+      "in": 2,
+      "admit": 1,
+      "reject": 1,
+      "kept": [
+        "railpals"
+      ],
+      "rejected": [
+        "1coine"
+      ]
+    },
+    "alert": true
+  },
+  "newAdmits": [
+    {
+      "id": "railpals",
+      "handle": "@RailPals",
+      "name": "RailPals",
+      "zone": "打新",
+      "tags": [
+        "打新",
+        "Binance Agent钱包",
+        "AI Agent",
+        "NFT",
+        "freeMint",
+        "BNB",
+        "极早期"
+      ],
+      "focus": false,
+      "scores": {
+        "early": 88,
+        "actionable": 72,
+        "novelty": 55,
+        "risk": 38,
+        "overall": 61
+      },
+      "followers": 33,
+      "links": {
+        "x": "https://x.com/RailPals",
+        "twitter": "https://x.com/RailPals",
+        "web": "https://railix.xyz/",
+        "ca": "0xC500b9b277d1A9717f8c96bD4228E16ee134a71A"
+      }
+    }
+  ],
+  "newIds": [
+    "railpals"
+  ],
+  "newThisRound": [
+    "railpals"
+  ],
+  "newCount": 1,
+  "round517Added": [
+    "railpals"
+  ],
+  "le2h": {
+    "candidates": [
+      "dragonlings",
+      "shenlong"
+    ],
+    "stillInWindow": [
+      "dragonlings",
+      "shenlong"
+    ],
+    "outOfWindow": [
+      "hackou-agent-pass",
+      "patient-zero"
+    ],
+    "reNotify": false,
+    "reason": "R512已告；本轮不重告(le2hReNotify=false)"
+  },
+  "skipped": [
+    {
+      "id": "anthrobit",
+      "reason": "already_in_data"
+    },
+    {
+      "id": "nonce-protocol",
+      "reason": "already_in_data"
+    },
+    {
+      "id": "raidlords",
+      "reason": "already_in_data"
+    },
+    {
+      "id": "soulsclub",
+      "reason": "already_in_data"
+    },
+    {
+      "id": "fomopoly",
+      "reason": "already_in_data"
+    },
+    {
+      "id": "robtown",
+      "reason": "already_in_data"
+    },
+    {
+      "id": "kalosfun",
+      "reason": "already_in_data"
+    },
+    {
+      "id": "agentid-card-anon",
+      "reason": "no_reliable_official_x"
+    },
+    {
+      "id": "agent-genesis-spam",
+      "reason": "spam_or_no_official_x"
+    },
+    {
+      "id": "1coine",
+      "reason": "ds_score_reject_empty_shell"
+    }
+  ],
+  "xReadCount": 19,
+  "discordPeekDeferred": true,
+  "dsOk": true,
+  "dsFallback": false,
+  "dsUsage": {
+    "admit": 1,
+    "score": 1,
+    "alert": 1,
+    "model": "deepseek-flash"
+  },
+  "coverage": {
+    "columns": [
+      "打新",
+      "挖矿",
+      "台子/Meme",
+      "GO盘",
+      "LayerZero",
+      "Elysium生态",
+      "Tape/电路",
+      "GIWA",
+      "DogeEVM",
+      "BN Agent钱包"
+    ],
+    "extra": [
+      "BTC",
+      "Starknet"
+    ],
+    "keywordSearch": true,
+    "mustWatchSoft": true
+  },
+  "focusBanRespected": true,
+  "clearedPrevNewThisRound": [
+    "scuro-markets"
+  ],
+  "watchSoft": {
+    "bitcointapes": "FREE MINT即将开放非≤2h",
+    "stonkspad": "10/26 flap live续",
+    "fullfun": "$FULL≈10/26续",
+    "blonskr": "矿池募集最后一天",
+    "elysium": "主网11/09远日",
+    "zero": "主网/lzATLAS 11/30远日"
+  },
+  "push": {
+    "attempted": true,
+    "ok": null,
+    "commit": null
+  }
+}
