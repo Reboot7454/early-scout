@@ -7,3 +7,4 @@
 - within2h: TapeAI空投 / MilkBao / AgentApeClub @ 20:00CST (~1.9h)
 - xReadCount: 17 · dsFallback: false · discordPeekDeferred: true
 - alert: 新收录：Pengupunk/ARTRURAL（BNB Agent ID LIVE首免）、Ether Share V4（RH pad）、Frosties On Ink（今晚22:30CST freemint）、BOXA（Elysium测试网DEX）；≤2h：TapeAI空投+MilkBao/AgentApeClub 20:00CST；面板：https://reboot7454.github.io/early-scout/
+- push: e5bac7c ok
