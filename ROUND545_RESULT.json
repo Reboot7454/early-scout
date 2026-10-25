@@ -1,0 +1,89 @@
+{
+  "round": 545,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-25 22:01 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "Discord补漏R545新收3项：@oolongperp RH Perps公平发射(GO盘)、@playnexaria RH太空MMO(打新)、@hatchlingswtf ETH像素怪物暖蛋WL(打新)。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "oolongperp",
+      "handle": "@oolongperp",
+      "name": "oolong",
+      "category": "GO盘",
+      "followers": 32,
+      "why": "RH Chain Perps fair launch，亏返$OOLONG，Oct23新号32粉"
+    },
+    {
+      "id": "playnexaria",
+      "handle": "@playnexaria",
+      "name": "Nexaria",
+      "category": "打新",
+      "followers": 265,
+      "why": "RH Chain 浏览器太空MMO GameFi，@lisaweb3构建，265粉"
+    },
+    {
+      "id": "hatchlingswtf",
+      "handle": "@hatchlingswtf",
+      "name": "Hatchlings",
+      "category": "打新",
+      "followers": 11,
+      "why": "ETH 3333像素怪物NFT暖蛋WL，无mint，11粉；区别于成熟@hatchlings"
+    }
+  ],
+  "newCount": 3,
+  "newIds": [
+    "oolongperp",
+    "playnexaria",
+    "hatchlingswtf"
+  ],
+  "skipped": [
+    {
+      "handle": "RaidLords",
+      "reason": "already in data as raidlords R327"
+    },
+    {
+      "handle": "hatchlings",
+      "followers": 743,
+      "reason": "mature non-crypto virtual easter egg hunt since 2012 Des Moines IA"
+    },
+    {
+      "handle": "orenauton",
+      "reason": "already in data as oren-auton R540"
+    }
+  ],
+  "cardsAfterLastSeen": 6,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "hashkitty",
+    "honey-isles"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "admit+score+alert via deepseek-flash thinking ON (ds_batch_score.py)",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-25 21:46 CST",
+    "lastChecked": "2026-10-25 22:01 CST",
+    "newestCardTime": "2026-10-25 21:46 CST",
+    "note": "R545：#alpha-1 21:12后6卡补收 oolongperp(GO盘 RH Perps)、playnexaria(打新 RH太空MMO)、hatchlingswtf(打新 ETH像素NFT)；hatchlings成熟非加密跳过、RaidLords/orenauton已有去重；lastSeen→21:46 CST；清 R544 newThisRound hashkitty,honey-isles"
+  },
+  "meta": {
+    "lastSeen": "2026-10-25 21:46 CST",
+    "lastChecked": "2026-10-25 22:01 CST",
+    "newestCardTime": "2026-10-25 21:46 CST"
+  },
+  "push": {
+    "attempted": true,
+    "ok": false,
+    "commit": "d1487db",
+    "fullSha": "d1487db90c093496293b58ed037490a1d0562f9f",
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R545：#alpha-1 21:12后6卡补收 oolongperp(GO盘 RH Perps)、playnexaria(打新 RH太空MMO)、hatchlingswtf(打新 ETH像素NFT)；hatchlings成熟非加密跳过、RaidLords/orenauton已有去重；lastSeen→21:46 CST；清 R544 newThisRound hashkitty,honey-isles；推送 52c77ec；notify=true",
+  "remoteVerified": false,
+  "prevRound": 544
+}
