@@ -23,3 +23,7 @@
 ## Meta
 - xReads≈20；DS admit in5 admit1 skip4 → score keep1；Discord Peek light refresh（沿用R523，cardsAfterLastSeen=0）；notify=true（真新收录）
 - alert: 新增：Onchain Agents（@bncworldfun）mint LIVE，Agent ID前2张免费，粉627。面板 https://reboot7454.github.io/early-scout/
+
+## Push
+- ok: true
+- commit: `c9b65a692be6bb53d3c7a16381e887e077f69512`
