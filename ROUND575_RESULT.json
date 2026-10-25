@@ -1,0 +1,100 @@
+{
+  "round": 575,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 06:34 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits + within2h(agentpad-pass)",
+  "alertMessage": "新收录极早期项目 Orbit（@OrbitlaunchRH，RH链 fair launch seats→pons，仅180粉）；另 AgentPad Pass 免费卡 LIVE，限 .ai Agent ID 领取共2000张，速看：https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "orbit-launch-rh"
+  ],
+  "newCount": 1,
+  "newAdmits": [
+    {
+      "id": "orbit-launch-rh",
+      "name": "Orbit",
+      "handle": "OrbitlaunchRH",
+      "zone": "meme",
+      "focus": false
+    }
+  ],
+  "within2h": [
+    {
+      "id": "agentpad-ai",
+      "name": "AgentPad Pass",
+      "note": "Pass free claim LIVE for .ai Agent ID; 2000 supply"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "launch-x",
+      "reason": "$LAUNCH已过热(70k→4M)，无早期窗"
+    },
+    {
+      "id": "stonks-pad",
+      "reason": "已收录；10/26 flap live无HH:MM"
+    },
+    {
+      "id": "full-fun",
+      "reason": "已收录；$FULL Monday无HH:MM"
+    },
+    {
+      "id": "bitcointapes",
+      "reason": "已收录；设计开放非铸造；免费mint无HH:MM"
+    },
+    {
+      "id": "enter-elysium",
+      "reason": "主网仍11-09；无新On testnet"
+    },
+    {
+      "id": "synth-ape-syndica",
+      "reason": "蹭lineage-agent仿盘skip"
+    },
+    {
+      "id": "milkbao",
+      "reason": "已收录；mint续"
+    },
+    {
+      "id": "yinghubnb",
+      "reason": "KOL厨师号非发射台产品"
+    },
+    {
+      "id": "wander-forest",
+      "reason": "已收录"
+    },
+    {
+      "id": "gamapad",
+      "reason": "已收录；GIWA testnet续"
+    },
+    {
+      "id": "agentpad-ai",
+      "reason": "已收录；Pass LIVE作within2h软刷非新admit"
+    }
+  ],
+  "xReadCount": 19,
+  "dsFallback": false,
+  "dsUsage": {
+    "admitCalls": 1,
+    "scoreCalls": 1,
+    "alertCalls": 1,
+    "model": "deepseek-flash",
+    "thinking": true,
+    "items": 12,
+    "admitted": 1
+  },
+  "discordPeekDeferred": true,
+  "focusBanRespected": true,
+  "clearedPrevNew": [
+    "agentic-pad-meme"
+  ],
+  "push": {
+    "ok": false,
+    "pending": true
+  },
+  "summary": "R575：关键词+必盯软刷约19次X读；新收 Orbit(@OrbitlaunchRH，RH/pons seats fair launch)；AgentPad Pass免费卡LIVE≤2h；LaunchX过热skip；StonksPad/$FULL无精确钟点；discordPeekDeferred；无focus:true新卡。",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "metaRound": 575,
+  "candidateCount": 1335,
+  "coverage": "x-keyword (agent mining/free mint/launchpad/BN agent/chain eco) + must-watch soft (StonksPad/Full/flap/BTape/Elysium/AgentPad/Saul) + Orbit/_LaunchX dig"
+}
