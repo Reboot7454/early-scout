@@ -27,4 +27,4 @@
 | gamapad / giwaup / stonks-pad / full-fun / bitcointapes / agentpad-ai / ptah-trade / trac-reset | 已收录或无新精确窗 |
 
 ## push
-见 ROUND572_RESULT.json push 字段（推送后回填）
+ok=true commit=a3aac1b
