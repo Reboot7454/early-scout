@@ -1,0 +1,55 @@
+{
+  "round": 503,
+  "completedAt": "2026-10-25 09:22:26 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "discord-alpha-40",
+  "notify": false,
+  "notifyReason": "no_new_admits",
+  "alertMessage": null,
+  "summary": "R503 Discord alpha 补漏无新卡（#alpha-1 在 2026-10-25 08:34 CST 后没有新卡，最新仍 08:34 CST @UseDevs_/@gongguone）；lastSeen 保持 2026-10-25 08:34 CST，lastChecked 更新；清 R501 残留 newThisRound（usedevs/gongguone）及 R502 meta 徽章",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "gongguone",
+    "goodyardboys",
+    "preclank",
+    "scotiamute",
+    "usedevs"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "skipped (no candidates to admit)",
+  "coverage": "discord-alpha #alpha-1 only",
+  "skippedNote": "channel bottom confirmed; newest Spidey cards still 2026-10-25 08:34 CST @UseDevs_ / @gongguone",
+  "meta": {
+    "lastSeen": "2026-10-25 08:34 CST",
+    "lastChecked": "2026-10-25 09:22:26 CST",
+    "newestCardTime": "2026-10-25 08:34 CST"
+  },
+  "rawPeek": {
+    "loggedIn": true,
+    "cardCount": 0,
+    "noNewCards": true,
+    "cardsAtCutoffNotAfter": [
+      {
+        "handle": "UseDevs_",
+        "name": "Devs",
+        "followers": 25,
+        "timeCST": "2026-10-25 08:34 CST"
+      },
+      {
+        "handle": "gongguone",
+        "name": "Gonggu",
+        "followers": 7,
+        "timeCST": "2026-10-25 08:34 CST"
+      }
+    ]
+  },
+  "push": {
+    "ok": false,
+    "pending": true
+  },
+  "remoteVerified": false
+}
