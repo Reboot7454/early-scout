@@ -1,0 +1,109 @@
+{
+  "round": 529,
+  "completedAt": "2026-10-25 17:02 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "x-keyword-mustwatch-soft",
+  "notify": true,
+  "notifyReason": "true_new_admit",
+  "alertMessage": "新增 xuanwu-spring（@Leeonmort）：四季系列首枚 Spring，FREE MINT（1/钱包），官方帖明确 gate 尚未开放；面板：https://reboot7454.github.io/early-scout/",
+  "summary": "本轮实际新增 xuanwu-spring（Free Mint，尚未开放 mint），但无 ≤2h 新开窗项目，TapeAI/MilkBao 约 3h，StonksPad/$FULL 约 10/26。",
+  "newAdmits": [
+    {
+      "id": "xuanwu-spring",
+      "handle": "@Leeonmort",
+      "name": "Xuanwu Spring",
+      "zone": "bnagent",
+      "status": "announced"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "xuanwu-spring"
+  ],
+  "skipped": [
+    {
+      "id": "free-svg-nft",
+      "reason": "no_official_x",
+      "skipKind": "no-official-signal",
+      "ds": "无独立官推仅社区转发"
+    },
+    {
+      "id": "umbra-agents",
+      "handle": "Umbraagents",
+      "reason": "empty_official_0_tweets",
+      "skipKind": "no-official-signal",
+      "ds": "0帖0粉空号"
+    },
+    {
+      "id": "moondeng",
+      "reason": "handle_suspended",
+      "skipKind": "no-official-signal",
+      "ds": "@Moondeng suspended"
+    },
+    {
+      "id": "signal-agent",
+      "handle": "signalagentai",
+      "reason": "no_mint_window",
+      "skipKind": "not-early-enough",
+      "ds": "无明确mint/发射窗"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "nexus-core",
+    "agentid-ganranzhe"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking=on; admit n=5 admit1 skip4 → score keep1; alert+summary",
+  "xReadCount": 19,
+  "within2h": [],
+  "lte2hChecks": {
+    "tapeai-airdrop": {
+      "at": "2026-10-25 20:00 CST",
+      "hoursAway": 3.0,
+      "lte2h": false
+    },
+    "milkbao": {
+      "at": "2026-10-25 20:00 CST",
+      "hoursAway": 3.0,
+      "lte2h": false
+    },
+    "agent-ape-club": {
+      "at": "2026-10-25 20:00 CST",
+      "hoursAway": 3.0,
+      "lte2h": false
+    },
+    "stonks-pad": {
+      "at": "2026-10-26",
+      "lte2h": false
+    },
+    "full-fun": {
+      "at": "2026-10-26",
+      "lte2h": false
+    },
+    "bitcointapes": {
+      "exactTime": null,
+      "lte2h": false
+    }
+  },
+  "coverage": {
+    "打新": true,
+    "挖矿": true,
+    "台子/Meme": true,
+    "GO盘": true,
+    "LayerZero": true,
+    "Elysium": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BN Agent 钱包": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "push": {
+    "ok": false,
+    "commit": null
+  },
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
