@@ -12,6 +12,6 @@
 - clearedPrevNewThisRound: ['rise0fsatoria']；meta/顶层/round555Added=['backstop-fund']
 - dsUsage: deepseek-flash thinking=on score×3 + alert；admit=backstop-fund；skip=ruglessfam/delegate1111
 - panel: https://reboot7454.github.io/early-scout/
-- push: (pending)
-- remoteVerified: (pending)
+- push: ok commit=25fcd8e8a2b4509df3039fb7ff9db4f86da1a58e
+- remoteVerified: true
 - summary: R555：新收 Backstop(@Backstop_Fund→台子，32粉 RH+Arc可退款地板pad LIVE)；StonksPad+$FULL仍无精确≤2h不告；Leeonmort再验不存在；Discord Peek延期；notify=true
