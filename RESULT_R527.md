@@ -28,5 +28,5 @@
 - alert: 新增：NEXUS CORE（@jieruoy24）mint LIVE，Agent ID首枚免费gas，CA未验，粉0；另收AgentID感染者（flap）。面板 https://reboot7454.github.io/early-scout/
 
 ## Push
-- ok: (pending)
-- commit: (pending)
+- ok: true
+- commit: `6ff4d558c518ab9271088f15d954dbf833e59065`
