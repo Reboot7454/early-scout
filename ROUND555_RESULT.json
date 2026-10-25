@@ -1,0 +1,79 @@
+{
+  "round": 555,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 01:12 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新收 Backstop（@Backstop_Fund，32粉）RH+Arc可退款地板发射台LIVE，$BACKSTOP同规则待发 → https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "backstop-fund",
+      "handle": "Backstop_Fund",
+      "name": "Backstop",
+      "category": "台子/Meme",
+      "followers": 32,
+      "note": "RH+Arc可退款绑定发射台LIVE；$BACKSTOP同规则待发；官网backstop.fund；CA未核"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "backstop-fund"
+  ],
+  "skipped": [
+    {
+      "handle": "ruglessfam",
+      "followers": 34,
+      "reason": "仅waitlist无LIVE/精确时点 DS skip"
+    },
+    {
+      "handle": "delegate1111",
+      "followers": 2,
+      "reason": "mint未开无时点/CA DS skip"
+    },
+    {
+      "handle": "Leeonmort",
+      "reason": "X再验仍不存在"
+    },
+    {
+      "handle": "StonksPadsh",
+      "reason": "10/26无HH:MM非≤2h不因日程告"
+    },
+    {
+      "handle": "fulldotfun",
+      "reason": "$FULL Monday无HH:MM非≤2h"
+    },
+    {
+      "handle": "spritefun_xyz",
+      "reason": "停建续网站宕 soft only"
+    },
+    {
+      "item": "Elysium/Zero",
+      "reason": "11-09/11-30非≤2h"
+    }
+  ],
+  "within2h": [],
+  "xReadCount": 20,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking=on score×3+alert; admit=backstop-fund; skip=ruglessfam,delegate1111",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": "2026-10-26 00:28 CST",
+    "note": "本轮executor不扫浏览器；lastSeen未改"
+  },
+  "clearedPrevNewThisRound": [
+    "rise0fsatoria"
+  ],
+  "coverage": "x-keyword-mustwatch-soft ≤20 reads; keywords+priority accounts",
+  "push": {
+    "attempted": true,
+    "ok": null,
+    "commit": null,
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R555：新收 Backstop(@Backstop_Fund→台子，32粉 RH+Arc可退款地板pad LIVE)；StonksPad+$FULL仍无精确≤2h不告；Leeonmort再验不存在；Discord Peek延期；notify=true",
+  "remoteVerified": null,
+  "prevRound": 554
+}
