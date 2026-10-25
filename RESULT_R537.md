@@ -13,4 +13,4 @@
 - clearedPrevNewThisRound: playmooland, pump-forge
 - dsUsage: deepseek-flash thinking=on admit+score+alert
 - panel: https://reboot7454.github.io/early-scout/
-- push: d5c7da9 ok
+- push: (pending)
