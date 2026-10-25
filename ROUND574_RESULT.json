@@ -1,0 +1,97 @@
+{
+  "round": 574,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 06:08 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新增：AgenticPad（@AgenticPadmeme，BN Agent钱包）——Agent ID 门禁的 agent-first 发射台，1 粉极早期，CA 未核，速看：https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "agentic-pad-meme"
+  ],
+  "newCount": 1,
+  "newAdmits": [
+    {
+      "id": "agentic-pad-meme",
+      "name": "AgenticPad",
+      "handle": "AgenticPadmeme",
+      "zone": "bnagent",
+      "focus": false
+    }
+  ],
+  "within2h": [],
+  "skipped": [
+    {
+      "id": "synth-ape-syndica",
+      "reason": "0粉新号蹭已收录 lineage-agent(@LineageAgent)，判仿盘/蹭名 skip"
+    },
+    {
+      "id": "emitra-xyz",
+      "reason": "偏RH Stock Token账本工具，非发射/早期mint窗"
+    },
+    {
+      "id": "stonks-pad",
+      "reason": "已收录；10/26 flap live无HH:MM"
+    },
+    {
+      "id": "full-fun",
+      "reason": "已收录；$FULL Monday无HH:MM"
+    },
+    {
+      "id": "bitcointapes",
+      "reason": "已收录；免费mint无HH:MM；设计开放非铸造"
+    },
+    {
+      "id": "afterflow",
+      "reason": "已收录；mint 23:00 CST非≤2h"
+    },
+    {
+      "id": "lineage-agent",
+      "reason": "已收录；mint仍live"
+    },
+    {
+      "id": "ptah-trade",
+      "reason": "已收录；PoA续"
+    },
+    {
+      "id": "enter-elysium",
+      "reason": "主网仍11-09；无新On testnet"
+    },
+    {
+      "id": "rebate-launch",
+      "reason": "已收录；10/27 17:00 UTC非≤2h"
+    },
+    {
+      "id": "sprite-fun",
+      "reason": "已收录；已停建"
+    },
+    {
+      "id": "agentpad-ai",
+      "reason": "已收录"
+    }
+  ],
+  "xReadCount": 16,
+  "dsFallback": false,
+  "dsUsage": {
+    "admitCalls": 1,
+    "scoreCalls": 1,
+    "alertCalls": 1,
+    "model": "deepseek-flash",
+    "thinking": true,
+    "items": 12,
+    "admitted": 1
+  },
+  "discordPeekDeferred": true,
+  "focusBanRespected": true,
+  "clearedPrevNew": [],
+  "push": {
+    "ok": true,
+    "commit": "b9bb7de",
+    "remote": "origin/main"
+  },
+  "summary": "R574：关键词+必盯软刷约16次X读；新收 AgenticPad(@AgenticPadmeme，BN Agent ID门禁发射台)；SynthApeSyndica蹭Lineage skip；StonksPad/$FULL/BTape无精确≤2h窗；discordPeekDeferred；无focus:true新卡。",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "metaRound": 574,
+  "candidateCount": 1334,
+  "coverage": "x-keyword (agent mining/free mint/launchpad/BN agent/chain eco) + must-watch soft (StonksPad/Full/BTape/Elysium/Listen/AgenticPad) + light web peek"
+}
