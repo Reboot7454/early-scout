@@ -13,4 +13,4 @@
 - clearedPrevNewThisRound: oolongperp/playnexaria/hatchlingswtf → newThisRound=false；本轮 meta/顶层/round546Added/roundNAdded=['humintclub']
 - dsUsage: deepseek-flash thinking=on admit+score+notify；软文案本地
 - panel: https://reboot7454.github.io/early-scout/
-- push: (pending)
+- push: 541822c ok
