@@ -6,7 +6,7 @@
   "notify": true,
   "notifyReason": "new_admits",
   "alertMessage": "本轮 Discord alpha 新收 Base 上 AI agents 发币台 SwarmPad（@swarmpad_，仅4粉），注意与已有 Solana @swarmpadrun 同名不同号：https://reboot7454.github.io/early-scout/",
-  "summary": "R511 Discord alpha 补漏：#alpha-1 10:53后3卡；madang_fun已有R485去重、xwenbcsdf空壳个人号DS skip；新收 swarmpad-base-ai(@swarmpad_，Base AI发币台，4粉)→台子/Meme；lastSeen→11:32 CST；清 R510 newThisRound；推送待写",
+  "summary": "R511 Discord alpha 补漏：#alpha-1 10:53后3卡；madang_fun已有R485去重、xwenbcsdf空壳个人号DS skip；新收 swarmpad-base-ai(@swarmpad_，Base AI发币台，4粉)→台子/Meme；lastSeen→11:32 CST；清 R510 newThisRound；推送 b471ca6",
   "newAdmits": [
     {
       "id": "swarmpad-base-ai",
@@ -78,8 +78,10 @@
     }
   },
   "push": {
-    "ok": false,
-    "commit": null
+    "ok": true,
+    "commit": "b471ca6",
+    "fullSha": "b471ca610d9a1727db6742e300495c2670aae592",
+    "remote": "origin/main"
   },
-  "remoteVerified": false
+  "remoteVerified": true
 }
