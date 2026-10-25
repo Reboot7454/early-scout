@@ -1,0 +1,94 @@
+{
+  "round": 559,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 02:05 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新收 SolPad（@solpadonsol，13粉）Solana Token-2022 发射台刚建号，自称主网最终测试即将 live，官网CA未给 → https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "solpad",
+      "handle": "solpadonsol",
+      "name": "SolPad",
+      "category": "台子/Meme",
+      "followers": 13,
+      "note": "Solana Token-2022发射台刚建号约1天13粉6推；自称主网最终测试即将live；官网/CA未给"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "solpad"
+  ],
+  "skipped": [
+    {
+      "handle": "HypperElysium",
+      "followers": 122,
+      "reason": "Elysium未见testnet部署/Announced+明确部署不足 DS skip"
+    },
+    {
+      "handle": "Leeonmort",
+      "reason": "X再验仍不存在"
+    },
+    {
+      "handle": "StonksPadsh",
+      "reason": "10/26无HH:MM非≤2h不因日程告"
+    },
+    {
+      "handle": "fulldotfun",
+      "reason": "$FULL Monday无HH:MM非≤2h"
+    },
+    {
+      "handle": "saulpink",
+      "reason": "$FULL Monday无HH:MM非≤2h"
+    },
+    {
+      "handle": "spritefun_xyz",
+      "reason": "停建续网站宕 soft only"
+    },
+    {
+      "handle": "bitcointapes",
+      "reason": "电路设计非铸造；免费铭刻无HH:MM"
+    },
+    {
+      "item": "TapeAI纪念电路快照",
+      "reason": "10/25 20:00CST已过非≤2h"
+    },
+    {
+      "item": "Elysium/Zero",
+      "reason": "11-09/11-30非≤2h"
+    },
+    {
+      "handle": "Heptadxyz",
+      "reason": "已收录R557；本轮软刷代币上线CA未核非新admit"
+    },
+    {
+      "note": "intended R558 but remote already completed R558 discord-alpha (billium-blc); ran as meta.round+1=559"
+    }
+  ],
+  "within2h": [],
+  "xReadCount": 16,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking=on admit+score+alert; admit=solpad; skip=hypper-elysium",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": "2026-10-26 01:41 CST",
+    "note": "本轮executor不扫浏览器；lastSeen未改（R558 discord已扫）"
+  },
+  "clearedPrevNewThisRound": [
+    "billium-blc"
+  ],
+  "coverage": "x-keyword-mustwatch-soft ≤20 reads; keywords+priority accounts; R558 race→R559",
+  "push": {
+    "attempted": true,
+    "ok": false,
+    "commit": "",
+    "short": "",
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R559：新收 SolPad(@solpadonsol→台子，13粉 Solana Token-2022 pad 即将 live)；StonksPad+$FULL仍无精确≤2h不告；Leeonmort再验不存在；HypperElysium未见testnet部署DS skip；Heptad软刷代币七链上线CA未核；R558已被discord补漏占用故本轮+1；Discord Peek延期；notify=true",
+  "remoteVerified": false,
+  "prevRound": 558
+}
