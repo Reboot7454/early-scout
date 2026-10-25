@@ -1,0 +1,51 @@
+{
+  "round": 516,
+  "completedAt": "2026-10-25 13:18:33 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "discord-alpha-40",
+  "notify": false,
+  "notifyReason": "no_new_admits",
+  "alertMessage": null,
+  "summary": "R516 Discord alpha 补漏无新收（#alpha-1 12:17后：KarafuruNFT@13:14 成熟NFT 23.7万粉 DS skip）；lastSeen→13:14 CST；lastChecked 2026-10-25 13:18:33 CST",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "skipped": [
+    {
+      "handle": "KarafuruNFT",
+      "reason": "mature_nft_project",
+      "skipKind": "mature",
+      "followers": 237459,
+      "time": "13:14",
+      "ds": "高知名度成熟NFT项目，粉丝量高且2022年已上线，不符合极早期可操作标准"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "scuro-markets"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking=on; admit n=1 reject (KarafuruNFT mature)",
+  "coverage": "discord-alpha #alpha-1 only",
+  "xVerify": {
+    "KarafuruNFT": {
+      "followers": 237459,
+      "tweets": 1854,
+      "joined": "2022-01-05",
+      "bio": "A movement to color the entire world. One Karafuru at a time."
+    }
+  },
+  "meta": {
+    "lastSeen": "2026-10-25 13:14 CST",
+    "lastChecked": "2026-10-25 13:18:33 CST",
+    "newestCardTime": "2026-10-25 13:14 CST"
+  },
+  "push": {
+    "ok": true,
+    "commit": "365ead5",
+    "fullSha": "365ead5d7088d3d0a7b5d17918815c3b3fe1399f",
+    "remote": "origin/main"
+  },
+  "remoteVerified": true
+}
