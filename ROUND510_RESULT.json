@@ -1,0 +1,208 @@
+{
+  "round": 510,
+  "completedAt": "2026-10-25 11:39:35 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "x-keyword-mustwatch-soft",
+  "notify": true,
+  "notifyReason": "new_admit_pick-rush_bapa_hackou-agent-pass_plus_le2h_hackou",
+  "alertMessage": "新收录：PickRush 像素挖矿 Genesis 免费铲子即将 FCFS；Bapa BNB Agent 发射台上线；Hackou Agent Pass 免费 mint 进行中（前 150 gas-only）。面板：https://reboot7454.github.io/early-scout/",
+  "summary": "R510 x-keyword-mustwatch-soft：新收 pick-rush + bapa + hackou-agent-pass；清 gloomies/legit-dot-fun/agent-ape-club；hackou免费mint≤2h可操作；gloomies仍LIVE不重告；AgentApe/MilkBao 20:00与StonksPad/$FULL 10/26非≤2h；必盯软刷；Discord Peek延期。",
+  "dsSummary": "R510：admit4中收3（PickRush overall50；Bapa overall76；Hackou Agent Pass overall40高风险）；kappa-ponds skip窗口弱；score曾对PickRush/Hackou标admit:false但admit已通过且日期误判/可操作免费mint仍收。",
+  "newAdmits": [
+    {
+      "id": "pick-rush",
+      "handle": "@PickRush",
+      "name": "PickRush",
+      "zone": "挖矿",
+      "tags": [
+        "挖矿",
+        "Robinhood Chain",
+        "GameFi",
+        "FREE mint",
+        "极早期",
+        "像素"
+      ],
+      "followers": 18,
+      "scores": {
+        "early": 95,
+        "actionable": 70,
+        "novelty": 55,
+        "risk": 88,
+        "overall": 50
+      }
+    },
+    {
+      "id": "bapa",
+      "handle": "@bapa_lol",
+      "name": "Bapa",
+      "zone": "台子/Meme",
+      "tags": [
+        "台子/Meme",
+        "Binance Agent钱包",
+        "Launchpad",
+        "Agent ID",
+        "BNB",
+        "极早期"
+      ],
+      "followers": 1003,
+      "scores": {
+        "early": 86,
+        "actionable": 82,
+        "novelty": 72,
+        "risk": 55,
+        "overall": 76
+      }
+    },
+    {
+      "id": "hackou-agent-pass",
+      "handle": "@HackouTW",
+      "name": "Hackou Agent Pass",
+      "zone": "打新",
+      "tags": [
+        "打新",
+        "Binance Agent钱包",
+        "FREE mint",
+        "Agent ID",
+        "BNB",
+        "极早期"
+      ],
+      "followers": 4,
+      "scores": {
+        "early": 94,
+        "actionable": 78,
+        "novelty": 42,
+        "risk": 82,
+        "overall": 40
+      }
+    }
+  ],
+  "newIds": [
+    "pick-rush",
+    "bapa",
+    "hackou-agent-pass"
+  ],
+  "newThisRound": [
+    "pick-rush",
+    "bapa",
+    "hackou-agent-pass"
+  ],
+  "newCount": 3,
+  "round510Added": [
+    "pick-rush",
+    "bapa",
+    "hackou-agent-pass"
+  ],
+  "le2h": [
+    "hackou-agent-pass"
+  ],
+  "le2hIds": [
+    "hackou-agent-pass"
+  ],
+  "le2hReNotify": false,
+  "le2hEvents": [
+    {
+      "id": "hackou-agent-pass",
+      "event": "freeMint LIVE",
+      "note": "前150 gas-only；需Agent ID"
+    },
+    {
+      "id": "gloomies",
+      "event": "still LIVE",
+      "note": "R508已告；Element Market上架；不重告同LIVE"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "kappa-ponds",
+      "handle": "@KappaPonds",
+      "reason": "mid_followers_weak_window",
+      "skipKind": "other",
+      "followers": 730,
+      "ds": "730粉仅10个GTD免费名额且mint TBA，不够极早期"
+    },
+    {
+      "id": "elyon-chain",
+      "handle": "@Elyon_Chain",
+      "reason": "mature_testnet_farm",
+      "skipKind": "other",
+      "followers": 21920,
+      "ds": "2万粉测试网任务，非极早期项目本体"
+    },
+    {
+      "id": "fuds",
+      "handle": "@FUDSofficial",
+      "reason": "not_ultra_early",
+      "skipKind": "other",
+      "followers": 1247,
+      "ds": "RH NFT WL给千粉级，本轮优先更早线索"
+    },
+    {
+      "id": "termix_ai",
+      "handle": "@termix_ai",
+      "reason": "mature_product",
+      "skipKind": "other",
+      "followers": 66169,
+      "ds": "成熟Agentic产品将支持Agent ID登录，非早期打新"
+    },
+    {
+      "id": "lineage-agent",
+      "handle": "@LineageAgent",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    },
+    {
+      "id": "jarlings",
+      "handle": "@Jarlingsnft",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    },
+    {
+      "id": "jager",
+      "handle": "@jagerbnb_",
+      "reason": "already_in_db",
+      "skipKind": "dup"
+    }
+  ],
+  "xReadCount": 15,
+  "xReads": 15,
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "reason": "R509刚扫#alpha-1至lastSeen=2026-10-25 10:53 CST；本轮按指令discordPeekDeferred=true不必browser",
+    "lastSeen": "2026-10-25 10:53 CST"
+  },
+  "dsOk": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking on; admit(4)+score(3)+alert(1); no fallback",
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/Tape/GIWA/Zero/DogeEVM/BN Agent/BTC/Starknet全覆盖软刷；关键词+必盯账号；Canton/Glaze/TokenWorks lastChecked刷新",
+  "focusBanRespected": true,
+  "clearedPrevNewThisRound": [
+    "gloomies",
+    "legit-dot-fun",
+    "agent-ape-club"
+  ],
+  "watchSoft": {
+    "kinetiqWatch": "主网11/9；无新On-testnet",
+    "tapeWatch": "BEM快照20:00非≤2h；zerotapeout过窗不重告",
+    "flapPadWatch": "StonksPad 10/26续",
+    "irysPadWatch": "spritefun停建续",
+    "fullFunWatch": "FULL≈10/26；未≤2h",
+    "agentPadWatch": "新收 bapa + hackou-agent-pass；pipfun V2续",
+    "agentTradingWatch": "listendotmoney无新",
+    "agentMiningWatch": "Trac/fitzy无新独立PoW",
+    "giwaWatch": "无新",
+    "dogeEvmWatch": "无新",
+    "starknetWatch": "无新",
+    "btcPrivacyWatch": "ShieldedNaka二级ATH；无新mint",
+    "cantonPadWatch": "软债刷新",
+    "glazeWatch": "软债刷新",
+    "tokenWorksPlaygroundWatch": "软债刷新"
+  },
+  "push": {
+    "ok": false,
+    "commit": null,
+    "fullSha": null,
+    "remote": "origin/main"
+  },
+  "remoteVerified": false
+}
