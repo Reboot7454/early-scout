@@ -1,0 +1,121 @@
+{
+  "round": 563,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 03:05 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+within2h",
+  "alertMessage": "新增3项：Sigil（BSC Agent ID 免费 mint 现已 LIVE）、Farmhands（RH 农耕 Free Mint 约10/27）、STUBS（BNB Genesis4444 free mint，新号）→ https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "go-sigil",
+      "handle": "GoSigilFun",
+      "name": "Sigil",
+      "category": "打新",
+      "followers": 462,
+      "note": "BSC LIVE；.ai Agent ID Layer I 免费 mint；gosigil.fun；标签含Binance Agent钱包"
+    },
+    {
+      "id": "farmhands",
+      "handle": "Farmhandss",
+      "name": "Farmhands",
+      "category": "打新",
+      "followers": 120,
+      "note": "RH农耕游戏；Free Mint约10/27；表单报名；无HH:MM非≤2h"
+    },
+    {
+      "id": "stubs",
+      "handle": "stubsbet",
+      "name": "STUBS",
+      "category": "打新",
+      "followers": 3,
+      "note": "今日新号；BNB Genesis4444 free mint；stubs.bet；无精确开铸HH:MM"
+    }
+  ],
+  "newCount": 3,
+  "newIds": [
+    "farmhands",
+    "stubs",
+    "go-sigil"
+  ],
+  "skipped": [
+    {
+      "handle": "StonksPadsh",
+      "reason": "10/26仍无HH:MM非≤2h不因日程告"
+    },
+    {
+      "handle": "fulldotfun",
+      "reason": "$FULL Monday无HH:MM非≤2h"
+    },
+    {
+      "handle": "saulpink",
+      "reason": "$FULL Monday无HH:MM非≤2h"
+    },
+    {
+      "handle": "spritefun_xyz",
+      "reason": "停建+网站宕 soft only"
+    },
+    {
+      "handle": "Enter_Elysium",
+      "reason": "主网11-09非≤2h；无新On testnet部署admit"
+    },
+    {
+      "handle": "TapeAIAgent",
+      "reason": "纪念电路快照10/25 20:00已过非≤2h"
+    },
+    {
+      "handle": "bitcointapes",
+      "reason": "电路设计非铸造；免费铭刻无HH:MM"
+    },
+    {
+      "handle": "pipfun_xyz",
+      "reason": "已收录R413；本轮软刷非新admit"
+    },
+    {
+      "handle": "RebateLaunch",
+      "reason": "已收录"
+    },
+    {
+      "handle": "robtown_rh",
+      "reason": "已收录"
+    },
+    {
+      "handle": "oxano",
+      "reason": "X核验为无关个人号；公平PoW线索无独立可核官推 skip"
+    },
+    {
+      "item": "Zero/Elysium mainnet",
+      "reason": "11-30/11-09非≤2h"
+    }
+  ],
+  "within2h": [
+    {
+      "id": "go-sigil",
+      "handle": "GoSigilFun",
+      "window": "BSC Agent ID Layer I free mint LIVE（约2026-10-25 18:47 CST起）",
+      "action": "mint"
+    }
+  ],
+  "xReadCount": 18,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking=on admit+score+alert; admit=farmhands,stubs,go-sigil",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": "2026-10-26 02:06 CST",
+    "note": "本轮executor不扫浏览器；lastSeen未改（R562 discord已扫）"
+  },
+  "clearedPrevNewThisRound": [
+    "agentpad-ai",
+    "use-clump"
+  ],
+  "coverage": "x-keyword-mustwatch-soft ≤20 reads; keywords+priority accounts; cleared stale R560 newThisRound",
+  "push": {
+    "attempted": true,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R563：新收 Sigil(@GoSigilFun→BN Agent，Agent ID免费mint LIVE)、Farmhands(@Farmhandss→打新，RH农耕约10/27 mint)、STUBS(@stubsbet→打新，今日3粉Genesis free mint)；StonksPad+$FULL仍无精确≤2h不单因日程告；sprite停建；Elysium/Tape软刷；清R560 newThisRound；Discord Peek延期；notify=true",
+  "remoteVerified": false,
+  "prevRound": 562
+}
