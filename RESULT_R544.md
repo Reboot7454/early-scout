@@ -13,4 +13,4 @@
 - clearedPrevNewThisRound: meta 原 ['4agentminer','elysiumant']→本轮 ['hashkitty','honey-isles']；顶层先前已空
 - dsUsage: deepseek-flash thinking=on admit+score+alert；hypurrgames DS skip
 - panel: https://reboot7454.github.io/early-scout/
-- push: (pending)
+- push: f92050a ok
