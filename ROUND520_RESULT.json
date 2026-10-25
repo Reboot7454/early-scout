@@ -1,0 +1,243 @@
+{
+  "round": 520,
+  "completedAt": "2026-10-25 14:35 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "x-keyword-mustwatch-soft",
+  "notify": true,
+  "notifyReason": "new_admit:skill-fun",
+  "alertMessage": "新增：@AISkillFun SkillFun Agent应用商店（ERC-7857 skill NFT）。面板 https://reboot7454.github.io/early-scout/",
+  "summary": "R520 X关键词+必盯软刷：新收SkillFun(台子/Meme Agent商店)；ElysiumLaunch admit后score拒；Woohood/ADPASS无独立官推skip；dragonlings/shenlong仍LIVE已过≤2h且已告不重告；MilkBao 20:00未入≤2h；bitcointapes FREE MINT即将非≤2h；Discord Peek延期。",
+  "dsSummary": {
+    "admit": {
+      "in": 4,
+      "admit": 2,
+      "skip": 2,
+      "kept": [
+        "skill-fun",
+        "elysium-launch"
+      ],
+      "skipped": [
+        "woohood",
+        "adpass"
+      ]
+    },
+    "score": {
+      "in": 2,
+      "admit": 1,
+      "reject": 1,
+      "kept": [
+        "skill-fun"
+      ],
+      "rejected": [
+        "elysium-launch"
+      ]
+    },
+    "alert": true
+  },
+  "newAdmits": [
+    {
+      "id": "skill-fun",
+      "handle": "@AISkillFun",
+      "name": "SkillFun",
+      "zone": "台子/Meme",
+      "tags": [
+        "台子/Meme",
+        "AI Agent",
+        "marketplace",
+        "ERC-7857",
+        "omnichain",
+        "极早期",
+        "CA未核实"
+      ],
+      "focus": false,
+      "scores": {
+        "early": 88,
+        "actionable": 38,
+        "novelty": 72,
+        "risk": 78,
+        "overall": 66
+      },
+      "followers": 9316,
+      "links": {
+        "x": "https://x.com/AISkillFun",
+        "twitter": "https://x.com/AISkillFun",
+        "web": "https://skillfun.ai/"
+      }
+    }
+  ],
+  "newIds": [
+    "skill-fun"
+  ],
+  "newThisRound": [
+    "skill-fun"
+  ],
+  "newCount": 1,
+  "round520Added": [
+    "skill-fun"
+  ],
+  "le2h": {
+    "candidates": [
+      "dragonlings",
+      "shenlong"
+    ],
+    "stillInWindow": [],
+    "upcoming": [
+      {
+        "id": "milkbao",
+        "start": "2026-10-25 20:00 CST",
+        "hoursAway": 5.4
+      }
+    ],
+    "reNotify": false,
+    "reason": "dragonlings/shenlong开窗已>2h且R512/R519已告；MilkBao未入≤2h"
+  },
+  "skipped": [
+    {
+      "id": "woohood",
+      "reason": "no_official_x_verified_empty_@woohood"
+    },
+    {
+      "id": "adpass",
+      "reason": "no_official_project_x_kol_only"
+    },
+    {
+      "id": "elysium-launch",
+      "reason": "ds_score_reject_thin_credibility"
+    },
+    {
+      "id": "digimoon-monsters",
+      "reason": "already_in_data"
+    },
+    {
+      "id": "mergit",
+      "reason": "already_in_data"
+    },
+    {
+      "id": "railpals",
+      "reason": "already_in_data"
+    },
+    {
+      "id": "milkbao",
+      "reason": "already_in_data"
+    },
+    {
+      "id": "agent-city",
+      "reason": "already_in_data"
+    },
+    {
+      "id": "gamapad",
+      "reason": "already_in_data"
+    },
+    {
+      "id": "stonks-pad",
+      "reason": "already_in_data"
+    },
+    {
+      "id": "sprite-fun",
+      "reason": "already_in_data"
+    },
+    {
+      "id": "full-fun",
+      "reason": "already_in_data"
+    },
+    {
+      "id": "bitcointapes",
+      "reason": "already_in_data"
+    },
+    {
+      "id": "pipfun",
+      "reason": "already_in_data"
+    },
+    {
+      "id": "openfour",
+      "reason": "four.meme_feature_not_new_project"
+    },
+    {
+      "id": "btc-crc30",
+      "reason": "already_in_data"
+    }
+  ],
+  "xReads": 23,
+  "xReadCount": 23,
+  "discordPeekDeferred": true,
+  "dsOk": true,
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "admit": 1,
+    "score": 1,
+    "thinking": true
+  },
+  "coverage": {
+    "columns": [
+      "打新",
+      "挖矿",
+      "台子/Meme",
+      "GO盘",
+      "LayerZero",
+      "Elysium生态",
+      "Tape/电路",
+      "GIWA",
+      "DogeEVM",
+      "BN Agent钱包"
+    ],
+    "extra": [
+      "BTC",
+      "Starknet"
+    ],
+    "keywordSearch": true,
+    "mustWatchSoft": true
+  },
+  "focusBanRespected": true,
+  "clearedPrevNewThisRound": [
+    "digimoon-monsters",
+    "mergit"
+  ],
+  "watchSoft": {
+    "refreshed": [
+      "agentMiningWatch",
+      "agentPadWatch",
+      "agentTradingWatch",
+      "blonskrWatch",
+      "btcCrc20Watch",
+      "btcPrivacyWatch",
+      "cantonPadWatch",
+      "dogeEvmWatch",
+      "elysiumWatch",
+      "flapPadWatch",
+      "flaunchWatch",
+      "focusWatch",
+      "fullFunWatch",
+      "giwaWatch",
+      "glazeWatch",
+      "injectiveLaunchWatch",
+      "irysPadWatch",
+      "kinetiqWatch",
+      "layerZeroWatch",
+      "midstateWatch",
+      "miningWatch",
+      "paperbirdWatch",
+      "starcatWatch",
+      "starknetWatch",
+      "tapeOutWatch",
+      "tapeWatch",
+      "tokenWorksPlaygroundWatch",
+      "xChainPadWatch",
+      "zeroWatch"
+    ],
+    "notes": [
+      "gang-fun cooking续",
+      "bitcointapes FREE MINT即将",
+      "milkbao 20:00CST",
+      "dragonlings/shenlong LIVE>2h"
+    ]
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "push": {
+    "attempted": false,
+    "ok": false,
+    "commit": null,
+    "fullSha": null,
+    "remote": "origin/main"
+  }
+}
