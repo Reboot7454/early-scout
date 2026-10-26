@@ -1,0 +1,116 @@
+{
+  "round": 586,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 09:35 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新增 4Agent .ai（BN Agent NFT mint~0.00203BNB，0粉）、DELEGATE（1111 agent图 allowlist，3粉）、NOIR Brokers（3333像素机器人LIVE，需Agent ID）；StonksPad/$FULL/bitcointapes仍无明确时刻，Elysium主网11-09、Rebate 10/27 17:00UTC → https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "4agent-ai",
+      "handle": "4Agent_ai",
+      "name": "4Agent .ai",
+      "category": "打新",
+      "zone": "打新",
+      "tags": [
+        "Binance Agent钱包"
+      ],
+      "followers": 0,
+      "overall": 52,
+      "focus": false
+    },
+    {
+      "id": "delegate-1111",
+      "handle": "delegate1111",
+      "name": "DELEGATE",
+      "category": "打新",
+      "zone": "打新",
+      "tags": [
+        "Binance Agent钱包"
+      ],
+      "followers": 3,
+      "overall": 40,
+      "focus": false
+    },
+    {
+      "id": "noir-brokers",
+      "handle": "ToolyEVM",
+      "name": "NOIR Brokers",
+      "category": "打新",
+      "zone": "打新",
+      "tags": [
+        "Binance Agent钱包"
+      ],
+      "followers": 424,
+      "overall": 66,
+      "focus": false
+    }
+  ],
+  "newCount": 3,
+  "newIds": [
+    "4agent-ai",
+    "delegate-1111",
+    "noir-brokers"
+  ],
+  "le2h": [],
+  "skipped": [
+    {
+      "id": "rebate-launch",
+      "reason": "已收录；软刷10/27 17:00UTC非≤2h"
+    },
+    {
+      "id": "stonks-pad",
+      "reason": "今日10/26仍无HH:MM非≤2h"
+    },
+    {
+      "id": "full-fun",
+      "reason": "$FULL Monday仍无HH:MM非≤2h"
+    },
+    {
+      "id": "bitcointapes",
+      "reason": "免费mint即将仍无HH:MM"
+    },
+    {
+      "id": "NOIRBrokers",
+      "reason": "独立官推suspended；以ToolyEVM发声收录noir-brokers"
+    },
+    {
+      "id": "Leeonmort",
+      "reason": "历史Not Found；本轮未再单拉"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "polyleague-rh",
+    "hooker-fun",
+    "astral-id"
+  ],
+  "metaNewThisRoundWasStale": [
+    "hooker-fun",
+    "astral-id"
+  ],
+  "topNewThisRoundWas": [
+    "polyleague-rh"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking on: admit+score+alert; admit 4agent-ai+delegate-1111+noir-brokers; skip rebate-soft",
+  "xReads": 20,
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/Tape/GIWA/DogeEVM/BN Agent/BTC/Starknet equal soft",
+  "mustWatch": {
+    "fullFun": "Monday仍无HH:MM；非≤2h",
+    "stonksPad": "10/26 live宣称仍无HH:MM；非≤2h",
+    "elysium": "主网2026-11-09",
+    "kinetiq": "主网11-09；kSoon续",
+    "tape": "bitcointapes设计开放；免费mint即将无HH:MM",
+    "zero": "mainnet/lzATLAS 2026-11-30",
+    "agentPad": "新收4agent-ai/delegate-1111/noir-brokers",
+    "rebate": "10/27 17:00 UTC（CST 10/28 01:00）非≤2h"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R586：新收 4Agent .ai / DELEGATE / NOIR Brokers（均 BN Agent 线）；清 polyleague-rh+hooker-fun+astral-id 新标；StonksPad/$FULL/bitcointapes无HH:MM；X≈20；discordPeekDeferred",
+  "push": {
+    "attempted": false
+  }
+}
