@@ -1,0 +1,84 @@
+{
+  "round": 612,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 17:00 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admit+le2h_sevy",
+  "alertMessage": "新增 HOLOCATS（@HOLOCATSEN）：BNB First388 FREE mint 进行中；SEVY（@Sevy_Ai）BN Agent FREE mint 今日18:00 CST（约1h内，210k max）。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "holocats",
+      "name": "HOLOCATS",
+      "handle": "HOLOCATSEN",
+      "reason": "BNB First388 FREE mint via BN Agent进行中，昨建粉≈1，CA未核实"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "holocats"
+  ],
+  "skipped": [
+    {
+      "id": "oddi-forge",
+      "reason": "DS skip：Launch 2026-12-01 仅waitlist无CA，无可操作窗"
+    },
+    {
+      "id": "known-pads",
+      "reason": "jager/raidlords/Ptah/Ammora/StonksPad/Full.fun/BTape/pipfun/sprite/sevy/the-force等已知跳过重收"
+    },
+    {
+      "id": "stonks-full-btape-force-le2h",
+      "reason": "Stonks Mon/$FULL Monday/BTape mint soon均无精确HH:MM→非≤2h；FORCE 21:00CST~4h非≤2h"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "sevy",
+      "name": "SEVY",
+      "window": "2026-10-26 18:00 CST",
+      "hoursAway": 1.0,
+      "note": "BN Agentic Wallet FREE mint；粉≈8；210k max"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "sevy"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking:on admit(2初判→1收1拒)+score(holocats)+alert",
+  "xReads": 17,
+  "coverage": "打新|挖矿|台子/Meme|GO盘|LayerZero|Elysium|Tape|GIWA|DogeEVM|BN Agent|BTC|Starknet|StonksPad|$FULL|BTape|pipfun|agentic equal soft",
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": "2026-10-26 13:03 CST",
+    "lastChecked": "2026-10-26 17:00 CST",
+    "note": "本执行器无浏览器→discordPeekDeferred:true；lastSeen保持13:03 CST"
+  },
+  "softRefresh": {
+    "sevy": "18:00CST FREE mint 仍≤2h(~1h) 粉≈8",
+    "theForce": "21:00CST ~4h 非≤2h 粉≈365",
+    "stonksPad": "live Mon Oct26 无HH:MM 非≤2h 粉≈504",
+    "fullFun": "$FULL Monday 无HH:MM 非≤2h 粉≈11807",
+    "bitcointapes": "设计开放/mint soon 无HH:MM 非≤2h 粉≈278；BruceBlue声明警示",
+    "spritefun": "关停态续",
+    "pipfun": "CLI/Agent ID bonding续 无HH:MM 粉≈40",
+    "leeonmort": "API Not Found",
+    "elysium": "主网2026-11-09；本窗无新On-testnet",
+    "blonskr": "无新矿池窗",
+    "ptah": "POA mint/抽奖续",
+    "ammora": "GIWA waitlist刷量续",
+    "listen": "无新≤2h",
+    "zero": "lzATLAS 2026-11-30"
+  },
+  "push": {
+    "attempted": true,
+    "ok": null,
+    "commit": null,
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R612：新收 HOLOCATS（BNB Agent First388 FREE mint live，粉≈1）；SEVY 18:00CST 仍≤2h(~1h)；拒Oddi(12/1)；FORCE/Stonks/$FULL/BTape非≤2h；Elysium主网11-09；Discord deferred；xReads=17",
+  "remoteVerified": false
+}
