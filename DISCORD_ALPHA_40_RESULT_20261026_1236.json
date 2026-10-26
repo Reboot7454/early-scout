@@ -1,0 +1,44 @@
+{
+  "round": 597,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-26 12:36 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": false,
+  "notifyReason": "no_new_admits",
+  "alertMessage": "",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "skipped": [
+    {
+      "handle": "Voidcaller",
+      "reason": "X 查无账号，无可核验推特，硬规则跳过。"
+    },
+    {
+      "handle": "VoidcallerOC",
+      "reason": "虽有可核验 X，但项目已 mint 且在 OpenSea/Joepegs 二级交易，地板 17-25x，属成熟收藏品，不符合极早期可操作门槛。"
+    }
+  ],
+  "cardsAfterLastSeen": 2,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking:on batched admit (2 cards both skip)",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-26 11:57 CST",
+    "lastChecked": "2026-10-26 12:36 CST",
+    "newestCardTime": "2026-10-26 11:57 CST",
+    "note": "R597：Discord alpha 补漏无新收（#alpha-1 11:16后2卡：Voidcaller X查无跳过、VoidcallerOC Avax金属核NFT已二级交易跳过）；lastSeen→11:57 CST；清 无"
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R597：Discord alpha 补漏无新收（#alpha-1 11:16后2卡：Voidcaller X查无跳过、VoidcallerOC Avax金属核NFT已二级交易跳过）；lastSeen→11:57 CST；清 无",
+  "remoteVerified": false,
+  "priorRoundNote": "R596 newThisRound=[]; #alpha-1 2 cards after 11:16 CST both skipped"
+}
