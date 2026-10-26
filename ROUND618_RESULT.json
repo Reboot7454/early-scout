@@ -1,0 +1,45 @@
+{
+  "round": 618,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-26 18:36 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": false,
+  "notifyReason": "no_new_admits",
+  "alertMessage": "",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "skipped": [],
+  "cardsAfterLastSeen": 0,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "disorderly-afterflow",
+    "forever-cult-fund"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "none (0 cards)",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-26 13:03 CST",
+    "lastChecked": "2026-10-26 18:36 CST",
+    "newestCardTime": "2026-10-26 13:03 CST",
+    "cardsAfterCutoff": 0,
+    "note": "R618：Discord alpha 补漏无新卡（#alpha-1 最新仍 13:03 CST）；清 disorderly-afterflow,forever-cult-fund；lastSeen 保持 13:03 CST，lastChecked→2026-10-26 18:36 CST",
+    "lastRound": 618
+  },
+  "push": {
+    "attempted": true,
+    "ok": true,
+    "commit": "287b847",
+    "fullSha": "287b8478d9125ba97067e5470a1957a19f2745c0",
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R618：Discord alpha 补漏无新卡（#alpha-1 最新仍 13:03 CST）；清 disorderly-afterflow,forever-cult-fund；lastSeen 保持 13:03 CST，lastChecked→2026-10-26 18:36 CST",
+  "priorRoundNote": "R617 (other agent) newThisRound=[disorderly-afterflow, forever-cult-fund] + discordPeekDeferred; this run completed DC peek, no TFM cards after 13:03 CST",
+  "remoteVerified": true,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261026_1832.json",
+  "raceNote": "1ab71cb wrongly reused R617 and compact-serialized; superseded by this R618 fix preserving admits"
+}
