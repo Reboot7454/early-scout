@@ -13,3 +13,5 @@
 - **summary**: R655新收录OTV、Bitsigil、LetsPrint.ink；Agent Chickens与FARM仍在两小时窗，Forge官推已封，Elysium主网仍定11月9日。
 - **coverage**: 十栏+必盯软刷+关键词≈60min；Forge官推SUSPENDED；Leeonmort仍NF
 - **panel**: https://reboot7454.github.io/early-scout/
+
+- **push**: ok `c8cb13a` → origin/main
