@@ -1,0 +1,75 @@
+{
+  "round": 603,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 14:35 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新增：BitPaws(@BitpawsFun) BNB Agent ID门控像素猫4444，首猫FREE，官推今日新建粉0；面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "bitpaws",
+      "name": "BitPaws",
+      "handle": "BitpawsFun",
+      "zone": "BN Agent 钱包",
+      "ecosystem": "BNB",
+      "followers": 0,
+      "scoreOverall": 74,
+      "reason": "BNB Agent ID门控像素猫4444，首猫FREE；官推今日新建粉0；官称contracts live+verified；CA未独立核"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "bitpaws"
+  ],
+  "skipped": [
+    {
+      "id": "pokepvp",
+      "reason": "score阶段admit:false：仅回复式推广、无原创官宣、官网未核实、风险过高"
+    },
+    {
+      "id": "known-pads",
+      "reason": "synape/milkbao/gang/pipfun/floppy/stonks-pad/full-fun/bitcointapes等已知跳过重收"
+    },
+    {
+      "id": "stonks-full-btape-le2h",
+      "reason": "今日live/Monday/mint soon 均无精确HH:MM → 非≤2h"
+    }
+  ],
+  "le2h": [],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "synape"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking:on admit(bitpaws+pokepvp初判)+score(bitpaws74/pokepvp拒)+alert；summary本地（DS content溢出）",
+  "xReads": 22,
+  "coverage": "打新|挖矿|台子/Meme|GO盘|LayerZero|Elysium|Tape|GIWA|DogeEVM|BN Agent|BTC|Starknet|StonksPad|$FULL|BTape equal soft",
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastChecked": "2026-10-26 14:35 CST",
+    "note": "本执行器无浏览器→discordPeekDeferred:true"
+  },
+  "softRefresh": {
+    "stonksPad": "live Mon Oct26 无HH:MM 非≤2h",
+    "fullFun": "$FULL Monday 无HH:MM 非≤2h",
+    "bitcointapes": "设计开放/mint soon 无HH:MM 非≤2h",
+    "spritefun": "关停态续",
+    "pipfun": "CLI/Agent ID bonding续 无HH:MM",
+    "elysium": "主网2026-11-09",
+    "milkbao": "软刷已知",
+    "gangfun": "软刷已知",
+    "floppy": "软刷已知"
+  },
+  "push": {
+    "attempted": true,
+    "ok": false,
+    "commit": "",
+    "fullSha": "",
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R603：X soft新收bitpaws(@BitpawsFun BN Agent像素猫首猫FREE 粉0)；skip薄号pokepvp；无≤2h；Stonks/$FULL/BTape无精确HH:MM；Elysium主网11-09；Discord deferred",
+  "remoteVerified": false
+}
