@@ -1,0 +1,71 @@
+{
+  "round": 587,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-26 09:58 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "雷达通知：本轮 Discord alpha 新收 Dragons Market（@DragonsOnNear→台子/Meme）、Darwin（@darwin_market→台子/Meme）。https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "dragons-market",
+      "handle": "DragonsOnNear",
+      "name": "Dragons Market",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "followers": 53,
+      "discordTime": "2026-10-26 09:39 CST"
+    },
+    {
+      "id": "darwin-market",
+      "handle": "darwin_market",
+      "name": "Darwin",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "followers": 48,
+      "discordTime": "2026-10-26 09:51 CST"
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "dragons-market",
+    "darwin-market"
+  ],
+  "skipped": [
+    {
+      "handle": "joinbread",
+      "followers": 1345,
+      "reason": "由 @0xMiden 推出的钱包产品，偏向基础设施且已有一定粉丝体量，不属于极早期可操作打新/挖矿项目，按规则跳过。",
+      "discordTime": "2026-10-26 09:47 CST"
+    },
+    {
+      "handle": "haenko21",
+      "followers": 4924,
+      "reason": "个人/团队KOL（NEAR Legion），非项目号；高粉高推",
+      "discordTime": "2026-10-26 09:48 CST"
+    }
+  ],
+  "cardsAfterLastSeen": 4,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "4agent-ai",
+    "delegate-1111",
+    "noir-brokers"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking:on then content JSON (thinking-off retry) admit+score batch (3 cards) + local KOL skip haenko21",
+  "coverage": "discord-alpha #alpha-1",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-26 09:51 CST",
+    "lastChecked": "2026-10-26 09:58 CST",
+    "newestCardTime": "2026-10-26 09:51 CST",
+    "note": "R587：Discord alpha 补收 dragons-market(@DragonsOnNear→台子/Meme),darwin-market(@darwin_market→台子/Meme)；跳过 joinbread/haenko21；清 4agent-ai,delegate-1111,noir-brokers；lastSeen→09:51 CST"
+  },
+  "push": {
+    "attempted": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R587：Discord alpha 补收 dragons-market(@DragonsOnNear→台子/Meme),darwin-market(@darwin_market→台子/Meme)；跳过 joinbread/haenko21；清 4agent-ai,delegate-1111,noir-brokers；lastSeen→09:51 CST"
+}
