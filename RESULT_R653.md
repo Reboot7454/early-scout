@@ -15,4 +15,4 @@
 - **discordPeekDeferred**: true（lastSeen 2026-10-26 13:03 CST）
 - **dsFallback**: false
 - **summary**: 本轮新增2项：FARM on Robinhood持币FREE表单刚开仍≤2h，Botcoin agentic arena LIVE；The Forge/Agent Chickens/Pumpling Pills亦在≤2h窗。
-- **push**: pending
+- **push**: ok `ea86359` (origin/main verified)
