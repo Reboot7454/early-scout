@@ -1,0 +1,76 @@
+{
+  "round": 593,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 11:30 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "雷达通知：本轮新收 voidforged（@voidforgedxyz→打新，Forge List LIVE 200席/59粉）与 FLAPAI（@FLAPAIonbsc→BN Agent 钱包，Agent-only内盘LIVE/74粉）。StonksPad/$FULL/bitcointapes仍无HH:MM。https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "voidforged",
+      "handle": "voidforgedxyz",
+      "name": "voidforged",
+      "category": "打新",
+      "zone": "打新",
+      "followers": 59,
+      "note": "Forge List LIVE 200席；mint 0.001 ETH"
+    },
+    {
+      "id": "flapai",
+      "handle": "FLAPAIonbsc",
+      "name": "FLAPAI",
+      "category": "台子/Meme",
+      "zone": "BN Agent 钱包",
+      "followers": 74,
+      "note": "Agent-only内盘LIVE on flap"
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "voidforged",
+    "flapai"
+  ],
+  "skipped": [
+    {
+      "handle": "NibblePad",
+      "reason": "score拒收：仅7粉3帖零信号，无法验证"
+    },
+    {
+      "handle": "parallax_gap",
+      "reason": "No token yet，无可操作 mint/launch 窗"
+    }
+  ],
+  "le2h": [],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "machima",
+    "grail",
+    "bitardi0"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking:on admit+score+alert (admit voidforged/flapai/nibblepad; score拒 nibblepad; skip parallax)",
+  "xReads": 10,
+  "coverage": "打新|挖矿|台子/Meme|GO盘|LayerZero|Elysium|Tape|GIWA|DogeEVM|BN Agent|BTC|Starknet equal soft",
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": "2026-10-26 11:16 CST",
+    "lastChecked": "2026-10-26 11:30 CST",
+    "note": "R593：无浏览器；仅软刷 lastChecked；lastSeen保持R592"
+  },
+  "softRefresh": {
+    "stonksPad": "无HH:MM 非≤2h 粉≈468",
+    "fullFun": "无HH:MM 非≤2h 粉≈11848",
+    "bitcointapes": "无新帖/无HH:MM 粉≈278",
+    "delegate1111": "今晚20:00CST 非≤2h",
+    "tapeai": "纪念电路空投已发放",
+    "elysium": "主网11-09 BunnyPad testnet续"
+  },
+  "push": {
+    "attempted": true,
+    "ok": null
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R593：新收 voidforged(@voidforgedxyz→打新)、flapai(@FLAPAIonbsc→BN Agent)；清 machima/grail/bitardi0；Stonks/$FULL/BTape无HH:MM；discordPeekDeferred"
+}
