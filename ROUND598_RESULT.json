@@ -1,0 +1,78 @@
+{
+  "round": 598,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 13:05 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R598新增 YAETC（X Layer·0.001 OKB抽零件组装挖矿PC质押TAPE·粉≈147·Tape电路向）详见 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "yaetc",
+      "name": "YAETC",
+      "handle": "yaetcs",
+      "zone": "挖矿",
+      "ecosystem": "Tape",
+      "scoreOverall": 70,
+      "reason": "X Layer极早期：0.001 OKB抽零件→组装挖矿PC→质押TAPE；官推粉≈147"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "yaetc"
+  ],
+  "skipped": [
+    {
+      "handle": "yomiofun",
+      "reason": "admit后score拒：官推0粉/盲盒高风险无背书（同R596）"
+    },
+    {
+      "handle": "PokePvP*",
+      "reason": "无独立官推（PokePvP/PokePvPGenesis/pokepvpxyz Not Found）"
+    },
+    {
+      "handle": "0xAlphana",
+      "reason": "Tape塔防已被Blonskr点名但≈3768粉非极早期mint窗"
+    },
+    {
+      "handle": "PixelVulpes",
+      "reason": "官推5粉1帖无说明，缺可核验官宣"
+    }
+  ],
+  "le2h": [],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking:on admit(yaetc+yomio; skip alphana/pixel/pokepvp)+score(yaetc admit overall70; yomio拒)+alert",
+  "xReads": 18,
+  "coverage": "打新|挖矿|台子/Meme|GO盘|LayerZero|Elysium|Tape|GIWA|DogeEVM|BN Agent|BTC|Starknet equal soft",
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": "2026-10-26 11:57 CST",
+    "lastChecked": "2026-10-26 13:05 CST",
+    "note": "R598：无浏览器；仅软刷 lastChecked；lastSeen保持R597"
+  },
+  "softRefresh": {
+    "stonksPad": "无HH:MM 非≤2h 粉≈477",
+    "fullFun": "无HH:MM 非≤2h 粉≈11849",
+    "bitcointapes": "无HH:MM 粉≈276",
+    "delegate1111": "今晚20:00CST 距约7h 非≤2h",
+    "milkbao": "抽奖10/29 20:00北京 非≤2h 粉≈179",
+    "flapai": "分红权重修复+Sourcify续 粉≈140",
+    "tapeai": "纪念电路空投已发放",
+    "elysium": "主网11-09",
+    "gang": "follow CLI新功能 粉≈2779",
+    "floppy": "Market LIVE mint≈2085/3333 粉≈47"
+  },
+  "push": {
+    "attempted": true,
+    "ok": null,
+    "commit": null,
+    "fullSha": null,
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R598：新收yaetc（X Layer/TAPE电路挖矿）；yomio score拒/pokepvp无官推；Stonks/$FULL/BTape无HH:MM；delegate今晚20:00非≤2h；discordPeekDeferred",
+  "remoteVerified": false
+}
