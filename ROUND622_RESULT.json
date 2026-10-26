@@ -1,0 +1,236 @@
+{
+  "round": 622,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 20:00 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "newAdmit+le2h",
+  "alertMessage": "新增：Subsonic Tribe（BN Agent FREE mint LIVE，前1111首枚免费）；≤2h：The Force 21:00 ETH 7777免费铸造、Forever Cult Fund 21:00 RH Founding NFT 500×0.045ETH、Sevy LIVE BN Agent免费铸造（已破1000）。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "subsonic-tribe",
+      "name": "Subsonic Tribe",
+      "handle": "Subsonictribe",
+      "zone": "bnagent",
+      "focus": false,
+      "status": "live",
+      "x": "https://x.com/Subsonictribe",
+      "window": "LIVE; first 1111 free then 0.0005 BNB"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "subsonic-tribe"
+  ],
+  "skipped": [
+    {
+      "id": "bnbmeme-ca",
+      "reason": "无独立官推；仅CA；DS skip"
+    },
+    {
+      "id": "bn-agent-file",
+      "reason": "官网bnagent.si；bnagent_si 404无官推；DS skip"
+    },
+    {
+      "id": "pixel-pets",
+      "reason": "仅CA无官推；DS skip"
+    },
+    {
+      "id": "skynet-agent",
+      "reason": "仅CA无官推；DS skip"
+    },
+    {
+      "id": "bitcointapes",
+      "reason": "已收录focus；公布铸造规则仍无HH:MM；软更"
+    },
+    {
+      "id": "sevy",
+      "reason": "已收录；LIVE软更≤2h 已破1000"
+    },
+    {
+      "id": "the-force",
+      "reason": "已收录；21:00CST≤2h软更"
+    },
+    {
+      "id": "forever-cult-fund",
+      "reason": "已收录；21:00CST≤2h软更"
+    },
+    {
+      "id": "robtrade",
+      "reason": "已收录；22:00CST≈2.01h非≤2h"
+    },
+    {
+      "id": "full-fun",
+      "reason": "Monday无HH:MM"
+    },
+    {
+      "id": "stonks-pad",
+      "reason": "无新HH:MM"
+    },
+    {
+      "id": "spritefun",
+      "reason": "still shutdown/静默"
+    },
+    {
+      "id": "enter-elysium",
+      "reason": "主网11/09无新On-testnet"
+    },
+    {
+      "id": "pipfun",
+      "reason": "已收录软更"
+    },
+    {
+      "id": "dotaipad",
+      "reason": "已收录；无新窗"
+    },
+    {
+      "id": "ptah-trade",
+      "reason": "已收录；POA mint续软更"
+    },
+    {
+      "id": "tinylegends-io",
+      "reason": "已收录"
+    },
+    {
+      "id": "lootplanetsrh",
+      "reason": "已收录"
+    },
+    {
+      "id": "robtown",
+      "reason": "已收录"
+    },
+    {
+      "id": "ammora",
+      "reason": "已收录；GIWA waitlist软更"
+    },
+    {
+      "id": "orenauton",
+      "reason": "账号404"
+    },
+    {
+      "id": "Leeonmort",
+      "reason": "账号404"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "the-force",
+      "handle": "theforceNFT",
+      "window": "2026-10-26 21:00 CST",
+      "etaHours": 1.0,
+      "event": "ETH 7777 free mint"
+    },
+    {
+      "id": "forever-cult-fund",
+      "handle": "forevercultfund",
+      "window": "2026-10-26 21:00 CST",
+      "etaHours": 1.0,
+      "event": "RH Founding NFT 500×0.045ETH"
+    },
+    {
+      "id": "sevy",
+      "handle": "Sevy_Ai",
+      "window": "LIVE since 18:00 CST",
+      "etaHours": 0.0,
+      "event": "BN Agent FREE mint LIVE ~1000+"
+    }
+  ],
+  "clearedPrevNewThisRound": [
+    "robin-mining",
+    "preemption",
+    "robtrade"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": 3,
+    "modes": [
+      "admit",
+      "score",
+      "alert"
+    ]
+  },
+  "xReads": 21,
+  "coverage": {
+    "keywords": true,
+    "agentPad": true,
+    "flap": true,
+    "fullFun": true,
+    "irys": true,
+    "tape": true,
+    "kinetiq": true,
+    "giwa": true,
+    "dogeEvm": "budget-sample",
+    "starknet": "budget-sample",
+    "agentMining": true,
+    "agentTrading": true,
+    "btc": true,
+    "zero": "budget-sample",
+    "bnAgent": true,
+    "elysium": true
+  },
+  "softRefresh": {
+    "sevy": {
+      "handle": "Sevy_Ai",
+      "window": "LIVE",
+      "le2h": true,
+      "followers": 8,
+      "status": "LIVE onchain ~1000+ minted"
+    },
+    "theforce": {
+      "handle": "theforceNFT",
+      "window": "21:00 CST",
+      "le2h": true,
+      "etaHours": 1.0
+    },
+    "forever": {
+      "handle": "forevercultfund",
+      "window": "21:00 CST",
+      "le2h": true,
+      "etaHours": 1.0
+    },
+    "robtrade": {
+      "le2h": false,
+      "etaHours": 2.01,
+      "note": "22:00CST token 刚过≤2h线"
+    },
+    "stonkspad": {
+      "le2h": false,
+      "note": "no HH:MM"
+    },
+    "fulldotfun": {
+      "le2h": false,
+      "note": "$FULL Monday no HH:MM"
+    },
+    "bitcointapes": {
+      "le2h": false,
+      "note": "mint rules posted 1000 free+4000 fee; 即将开始 no HH:MM"
+    },
+    "elysium": {
+      "mainnet": "2026-11-09",
+      "le2h": false
+    },
+    "spritefun": {
+      "note": "still quiet ~150 foll"
+    },
+    "pipfun": {
+      "note": "V2 soft"
+    },
+    "ptah": {
+      "note": "POA mint continue"
+    },
+    "cantonGlazeTokenWorks": {
+      "note": "soft-debt lastChecked refreshed"
+    }
+  },
+  "focusBanRespected": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R622：新收 Subsonic Tribe（BN Agent LIVE）；LE2h Force/Forever 21:00CST + SEVY LIVE~1000；BTape铸造规则软更；Discord deferred；清 R621 newThisRound",
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "remoteVerified": false
+}
