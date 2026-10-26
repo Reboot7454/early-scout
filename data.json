@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-27 06:32 CST",
+    "updated": "2026-10-27 06:34 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-keyword-mustwatch-soft",
-    "lastScout": "2026-10-27 06:32 CST",
+    "lastScout": "2026-10-27 06:34 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -446,7 +446,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 658,
+    "round": 659,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1243,11 +1243,10 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "aiuki",
-      "garlic-pad",
-      "sob-nft",
-      "rugless",
-      "just-stonk-it"
+      "veto-agents",
+      "use-mokuos",
+      "senatorpad",
+      "open-tower"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -2699,17 +2698,17 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-10-27 06:02 CST",
-      "lastChecked": "2026-10-27 06:06 CST",
+      "deferred": false,
+      "lastSeen": "2026-10-27 06:32 CST",
+      "lastChecked": "2026-10-27 06:34 CST",
       "newestCardTime": "2026-10-26 13:03 CST",
-      "cardsAfterCutoff": 1,
-      "note": "R658：执行端无浏览器，discordPeekDeferred；R657 lastSeen≈06:02 CST",
-      "lastRound": 657,
+      "cardsAfterCutoff": 6,
+      "note": "R659：Discord alpha 补收 veto-agents,use-mokuos,senatorpad,open-tower；跳过 [{'id': 'php-united', 'reason': '仅有meme/安全研究标签与CTO/DEV自述，无独立产品、发射或玩法证据，空壳风险高。'}, {'id': 'g-prunster', 'reason': '个人创始人账号，非独立项目推特；SolarAI Ventures仅有愿景描述，无发射或产品证据。'}]；清 just-stonk-it,rugless,sob-nft,garlic-pad,aiuki；lastSeen→2026-10-27 06:32 CST；lastChecked→2026-10-27 06:34 CST｜源：alpha-3 06:04–06:32（多为@ethereum 关注的垃圾号）/ backup 06:13–06:28 / smart 06:04–06:25（成熟BTC机构号不收）/ #alpha-1 仍停 10/26 13:03",
+      "lastRound": 659,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-27 06:02 CST",
-        "alpha-1-backup": "2026-10-27 05:58 CST",
-        "smart-accounts-tracker": "2026-10-27 05:38 CST",
+        "alpha-3-new-accounts": "2026-10-27 06:32 CST",
+        "alpha-1-backup": "2026-10-27 06:28 CST",
+        "smart-accounts-tracker": "2026-10-27 06:25 CST",
         "alpha-1": "2026-10-26 13:03 CST"
       },
       "alpha3OlderGap": "2026-10-26 13:03→2026-10-27 02:46 CST 未逐卡读完（卡量>60，噪音高）"
@@ -6864,9 +6863,199 @@
       "sob-nft",
       "rugless",
       "just-stonk-it"
+    ],
+    "round659Added": [
+      "veto-agents",
+      "use-mokuos",
+      "senatorpad",
+      "open-tower"
     ]
   },
   "candidates": [
+    {
+      "id": "open-tower",
+      "name": "OpenTower",
+      "handle": "@open_tower",
+      "twitter": "@open_tower",
+      "chain": "Bittensor",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "Bittensor",
+        "Staking",
+        "Website",
+        "Early",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/open_tower",
+        "website": "https://opentower.tech"
+      },
+      "scores": {
+        "early": 8,
+        "potential": 6,
+        "risk": 7
+      },
+      "highlights": [
+        "由质押Bittensor支持",
+        "已给出opentower.tech官网"
+      ],
+      "drawbacks": [
+        "玩法仅“数楼层”提示，细节不足",
+        "代币与发射信息未明"
+      ],
+      "whatsNew": "以Bittensor质押支持和官网首次露出。",
+      "summary": "OpenTower是Bittensor生态早期项目，官网与质押线索具备但玩法仍模糊。",
+      "blurb": "OpenTower是Bittensor生态早期项目，官网与质押线索具备但玩法仍模糊。",
+      "round": 659,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": null,
+      "xFollowers": null,
+      "firstSeen": "2026-10-27 06:34 CST",
+      "addedAt": "2026-10-27 06:34 CST",
+      "lastChecked": "2026-10-27 06:34 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
+    {
+      "id": "senatorpad",
+      "name": "SenatorPad",
+      "handle": "@senatorpad",
+      "twitter": "@senatorpad",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "Solana",
+        "Meme Launchpad",
+        "Public Receipts",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/senatorpad"
+      },
+      "scores": {
+        "early": 8,
+        "potential": 5,
+        "risk": 7
+      },
+      "highlights": [
+        "定位Solana参议员主题币与公开收据",
+        "已有独立项目号与早期关注"
+      ],
+      "drawbacks": [
+        "产品细节和合约未披露",
+        "粉丝基数仍小"
+      ],
+      "whatsNew": "以Solana参议员主题币和公开收据玩法露出。",
+      "summary": "SenatorPad是Solana早期Meme发射台候选，叙事明确但产品待验证。",
+      "blurb": "SenatorPad是Solana早期Meme发射台候选，叙事明确但产品待验证。",
+      "round": 659,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": null,
+      "xFollowers": null,
+      "firstSeen": "2026-10-27 06:34 CST",
+      "addedAt": "2026-10-27 06:34 CST",
+      "lastChecked": "2026-10-27 06:34 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "use-mokuos",
+      "name": "MokuOs",
+      "handle": "@usemokuos",
+      "twitter": "@usemokuos",
+      "chain": "未明",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "AI Desktop",
+        "GPU/CPU Mining",
+        "Credits",
+        "Browser",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/usemokuos"
+      },
+      "scores": {
+        "early": 9,
+        "potential": 6,
+        "risk": 7
+      },
+      "highlights": [
+        "浏览器内用GPU/CPU挖积分",
+        "集成AI聊天与自定义助手"
+      ],
+      "drawbacks": [
+        "链与代币经济未明",
+        "关注数为0，社区尚未形成"
+      ],
+      "whatsNew": "以浏览器AI桌面+GPU/CPU积分挖矿切入。",
+      "summary": "MokuOs是极早期AI桌面挖积分项目，玩法清晰但链上信息缺失。",
+      "blurb": "MokuOs是极早期AI桌面挖积分项目，玩法清晰但链上信息缺失。",
+      "round": 659,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": null,
+      "xFollowers": null,
+      "firstSeen": "2026-10-27 06:34 CST",
+      "addedAt": "2026-10-27 06:34 CST",
+      "lastChecked": "2026-10-27 06:34 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
+    {
+      "id": "veto-agents",
+      "name": "Veto",
+      "handle": "@vetoagents",
+      "twitter": "@vetoagents",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "AI Agent",
+        "Robinhood Chain",
+        "Token Check",
+        "MCP",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/vetoagents"
+      },
+      "scores": {
+        "early": 9,
+        "potential": 6,
+        "risk": 8
+      },
+      "highlights": [
+        "为AI代理提供代币评分、裁决与原因",
+        "提供Claude/Cursor可用的MCP链接"
+      ],
+      "drawbacks": [
+        "关注数为0，社区与团队信息不足",
+        "产品与代币发射尚未验证"
+      ],
+      "whatsNew": "刚以AI代理代币检查工具在Robinhood Chain方向露出。",
+      "summary": "Veto是极早期的AI代理代币风控/MCP工具，产品线索明确但可信度待验证。",
+      "blurb": "Veto是极早期的AI代理代币风控/MCP工具，产品线索明确但可信度待验证。",
+      "round": 659,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": null,
+      "xFollowers": null,
+      "firstSeen": "2026-10-27 06:34 CST",
+      "addedAt": "2026-10-27 06:34 CST",
+      "lastChecked": "2026-10-27 06:34 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "just-stonk-it",
       "name": "Just Stonk It",
@@ -6923,7 +7112,7 @@
       "addedAt": "2026-10-27 06:32 CST",
       "firstSeen": "2026-10-27 06:32 CST",
       "lastChecked": "2026-10-27 06:32 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "candidate": true,
       "lzVerified": false
     },
@@ -6983,7 +7172,7 @@
       "addedAt": "2026-10-27 06:32 CST",
       "firstSeen": "2026-10-27 06:32 CST",
       "lastChecked": "2026-10-27 06:32 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "candidate": true,
       "lzVerified": false
     },
@@ -7044,7 +7233,7 @@
       "addedAt": "2026-10-27 06:32 CST",
       "firstSeen": "2026-10-27 06:32 CST",
       "lastChecked": "2026-10-27 06:32 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "candidate": true,
       "lzVerified": false
     },
@@ -7105,7 +7294,7 @@
       "addedAt": "2026-10-27 06:32 CST",
       "firstSeen": "2026-10-27 06:32 CST",
       "lastChecked": "2026-10-27 06:32 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "candidate": true,
       "lzVerified": false
     },
@@ -7169,7 +7358,7 @@
       "addedAt": "2026-10-27 06:32 CST",
       "firstSeen": "2026-10-27 06:32 CST",
       "lastChecked": "2026-10-27 06:32 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "candidate": true,
       "lzVerified": false
     },
@@ -104090,23 +104279,22 @@
     }
   ],
   "newThisRound": [
-    "aiuki",
-    "garlic-pad",
-    "sob-nft",
-    "rugless",
-    "just-stonk-it"
+    "veto-agents",
+    "use-mokuos",
+    "senatorpad",
+    "open-tower"
   ],
-  "alertMessage": "DC alpha 补漏 R657：新收 8 个——Phago(RH链游)、HALOPAD(发射台)、Minitans/Fomogles(免费mint)、Hood Port(RH NFT)、RIVAL(AI交易竞技)、Hook Catch(RH交易工具)、RHL3(CA未核)；Chainz 已由主扫 R656 收 → https://reboot7454.github.io/early-scout/",
+  "alertMessage": "",
   "roundNAdded": [
     "pumpling-pills"
   ],
-  "updatedAt": "2026-10-27 06:06 CST",
-  "updated": "2026-10-27 06:06 CST",
+  "updatedAt": "2026-10-27 06:34 CST",
+  "updated": "2026-10-27 06:34 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-27 05:21 CST",
+  "lastScout": "2026-10-27 06:34 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -104148,7 +104336,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1434,
+  "candidateCount": 1443,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -104590,5 +104778,11 @@
     "fomogles",
     "rhl3-network",
     "hook-catch"
+  ],
+  "round659Added": [
+    "veto-agents",
+    "use-mokuos",
+    "senatorpad",
+    "open-tower"
   ]
 }

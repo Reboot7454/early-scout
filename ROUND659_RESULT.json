@@ -1,0 +1,71 @@
+{
+  "round": 659,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-27 06:34 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "veto-agents",
+    "use-mokuos",
+    "senatorpad",
+    "open-tower"
+  ],
+  "newCount": 4,
+  "newIds": [
+    "veto-agents",
+    "use-mokuos",
+    "senatorpad",
+    "open-tower"
+  ],
+  "skipped": [
+    {
+      "id": "php-united",
+      "reason": "仅有meme/安全研究标签与CTO/DEV自述，无独立产品、发射或玩法证据，空壳风险高。"
+    },
+    {
+      "id": "g-prunster",
+      "reason": "个人创始人账号，非独立项目推特；SolarAI Ventures仅有愿景描述，无发射或产品证据。"
+    }
+  ],
+  "cardsAfterLastSeen": 6,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "just-stonk-it",
+    "rugless",
+    "sob-nft",
+    "garlic-pad",
+    "aiuki"
+  ],
+  "candidateFlagsCleared": 5,
+  "topNewThisRoundCleared": [
+    "just-stonk-it",
+    "rugless",
+    "sob-nft",
+    "garlic-pad",
+    "aiuki"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=6",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-27 06:32 CST",
+    "lastChecked": "2026-10-27 06:34 CST",
+    "newestCardTime": "2026-10-27 06:32 CST",
+    "cardsAfterCutoff": 6,
+    "note": "R659：Discord alpha 补收 veto-agents,use-mokuos,senatorpad,open-tower；跳过 [{'id': 'php-united', 'reason': '仅有meme/安全研究标签与CTO/DEV自述，无独立产品、发射或玩法证据，空壳风险高。'}, {'id': 'g-prunster', 'reason': '个人创始人账号，非独立项目推特；SolarAI Ventures仅有愿景描述，无发射或产品证据。'}]；清 just-stonk-it,rugless,sob-nft,garlic-pad,aiuki；lastSeen→2026-10-27 06:32 CST；lastChecked→2026-10-27 06:34 CST",
+    "lastRound": 659
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R659：Discord alpha 补收 veto-agents,use-mokuos,senatorpad,open-tower；跳过 [{'id': 'php-united', 'reason': '仅有meme/安全研究标签与CTO/DEV自述，无独立产品、发射或玩法证据，空壳风险高。'}, {'id': 'g-prunster', 'reason': '个人创始人账号，非独立项目推特；SolarAI Ventures仅有愿景描述，无发射或产品证据。'}]；清 just-stonk-it,rugless,sob-nft,garlic-pad,aiuki；lastSeen→2026-10-27 06:32 CST；lastChecked→2026-10-27 06:34 CST",
+  "remoteVerified": false,
+  "cardsFile": "r658_cards.json",
+  "priorRoundNote": "R658 meta NTR ['aiuki', 'garlic-pad', 'sob-nft', 'rugless', 'just-stonk-it']; cardsAfterCutoff=6"
+}
