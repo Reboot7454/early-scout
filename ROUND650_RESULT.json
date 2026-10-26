@@ -1,44 +1,107 @@
 {
   "round": 650,
-  "mode": "discord-alpha-40",
-  "completedAt": "2026-10-27 04:00 CST",
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-27 04:03 CST",
   "timezone": "Asia/Shanghai",
-  "notify": false,
-  "notifyReason": "no_new_admits",
-  "alertMessage": "",
-  "newAdmits": [],
-  "newCount": 0,
-  "newIds": [],
-  "skipped": [],
-  "cardsAfterLastSeen": 0,
-  "clearedPrevNewThisRound": true,
-  "prevNewThisRoundCleared": [
-    "ourofun"
+  "notify": true,
+  "notifyReason": "true_new_admits+le2h",
+  "alertMessage": "R650 新收录 Pumpling Pills（Pumpfun Callout FREE mint LIVE，粉112）；Doginal Frogs FREE mint仍≤2h：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "pumpling-pills",
+      "name": "Pumpling Pills",
+      "handle": "PumplingPills",
+      "category": "打新",
+      "zone": "打新",
+      "tags": [
+        "打新",
+        "free mint",
+        "Solana",
+        "Pumpfun",
+        "NFT",
+        "极早期",
+        "CA未核实"
+      ],
+      "followers": 112,
+      "status": "live",
+      "overall": 64
+    }
   ],
-  "candidateFlagsCleared": 1,
-  "topNewThisRoundCleared": [
-    "ourofun"
+  "newCount": 1,
+  "newIds": [
+    "pumpling-pills"
   ],
-  "discordPeekDeferred": false,
+  "admitted": [
+    {
+      "id": "pumpling-pills",
+      "name": "Pumpling Pills",
+      "handle": "PumplingPills",
+      "column": "打新"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "Leeonmort",
+      "reason": "X Not Found（R650再核仍NF）"
+    },
+    {
+      "id": "tinylegends-soft",
+      "reason": "DS skip：已收录r583，当前仅Register非即时mint LIVE"
+    }
+  ],
+  "softUpdates": [
+    {
+      "id": "doginal-frogs",
+      "whatsNew": "Solana FREE mint仍LIVE；开约02:02CST，现约04:02CST仍≤2h；粉≈276",
+      "le2h": true
+    },
+    {
+      "id": "nonce-protocol",
+      "whatsNew": "R650 soft：MCP/站临时down（约03:48CST）；Agent挑战mint曾LIVE；粉≈523"
+    },
+    {
+      "id": "aikoagents",
+      "whatsNew": "R650 soft：$AIKO上DexScreener续；粉≈5"
+    },
+    {
+      "id": "stonks-pad",
+      "whatsNew": "R650 soft：Developer Rewards $10k续；粉≈685"
+    },
+    {
+      "id": "ourofun",
+      "whatsNew": "R650 soft：粉6→≈14；跨链同址同价LIVE续"
+    },
+    {
+      "id": "elysium-launch",
+      "whatsNew": "R650 soft：Private Mainnet叙事>2h；主网仍2026-11-09"
+    },
+    {
+      "id": "enter-elysium",
+      "whatsNew": "R650 soft：0x Day1+Uniswap awaits；主网11-09；注册话术刷屏非sale"
+    },
+    {
+      "id": "meme-os",
+      "whatsNew": "R650 soft：Omnichain Mind live续；粉≈813"
+    },
+    {
+      "id": "ptah-trade",
+      "whatsNew": "R650 soft：Proof of Agent free mint至约Nov8/9；粉≈9854"
+    }
+  ],
+  "le2h": [
+    "doginal-frogs"
+  ],
+  "xReads": 20,
+  "discordPeekDeferred": true,
+  "discordLastSeen": "2026-10-26 13:03 CST",
   "dsFallback": false,
-  "dsUsage": "none (0 newCards after cutoff; no admit/score)",
-  "coverage": "discord-alpha #alpha-1 only",
-  "discordAlphaPeek": {
-    "deferred": false,
-    "lastSeen": "2026-10-26 13:03 CST",
-    "lastChecked": "2026-10-27 04:00 CST",
-    "newestCardTime": "2026-10-26 13:03 CST",
-    "cardsAfterCutoff": 0,
-    "note": "R650：Discord alpha 补漏无新卡（#alpha-1 最新仍 2026-10-26 13:03 CST）；清 ourofun；lastSeen 保持 2026-10-26 13:03 CST，lastChecked→2026-10-27 04:00 CST",
-    "lastRound": 650
-  },
+  "dsUsage": "deepseek-flash thinking：admit(pumpling/tinylegends)+score(pumpling)+soft/alert/summary copy",
+  "coverage": "十栏+必盯软刷+关键词≈40min；BTC隐私/Starknet/GIWA/DogeEVM/Zero/Elysium/Tape/flap/Irys/Full.fun/BN Agent/agent mining/trading；Leeonmort再核NF；nonce soft down",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "本轮新收录Pumpling Pills；DoginalFrogs FREE mint仍≤2h；NONCE站临时down；Elysium主网仍11-09。",
   "push": {
     "attempted": false,
     "ok": false
   },
-  "panel": "https://reboot7454.github.io/early-scout/",
-  "summary": "R650：Discord alpha 补漏无新卡（#alpha-1 最新仍 2026-10-26 13:03 CST）；清 ourofun；lastSeen 保持 2026-10-26 13:03 CST，lastChecked→2026-10-27 04:00 CST",
-  "remoteVerified": false,
-  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261027_0356.json",
-  "priorRoundNote": "R649 meta NTR ['ourofun']; cardsAfterCutoff=0"
+  "remoteVerified": false
 }
