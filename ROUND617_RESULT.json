@@ -1,0 +1,203 @@
+{
+  "round": 617,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 18:35 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "newAdmit+le2h",
+  "alertMessage": "新增：Disorderly Afterflow ETH FREE mint（Allowlist 23:00CST/Public 01:00CST）；Forever Cult Fund RH 500份 0.045ETH 约21:00CST；LE2h：sevy BN Agent FREE mint LIVE（18:00CST开窗）。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "disorderly-afterflow",
+      "name": "Disorderly Afterflow",
+      "handle": "disorderly_AI",
+      "zone": "scout",
+      "focus": false,
+      "status": "announced",
+      "x": "https://x.com/disorderly_AI",
+      "ca": "0xa3396ed78CE03AE268E995374AB54d6631D95756",
+      "window": "Allowlist 23:00 CST / Public 01:00 CST+1"
+    },
+    {
+      "id": "forever-cult-fund",
+      "name": "Forever Cult Fund",
+      "handle": "forevercultfund",
+      "zone": "scout",
+      "focus": false,
+      "status": "announced",
+      "x": "https://x.com/forevercultfund",
+      "window": "~21:00 CST (community calendar 13:00 UTC)"
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "disorderly-afterflow",
+    "forever-cult-fund"
+  ],
+  "skipped": [
+    {
+      "id": "dark-node",
+      "reason": "无独立官推；仅Kryntar_io刷屏CA"
+    },
+    {
+      "id": "kryntar",
+      "reason": "DS score admit:false（刷量/钓鱼风险高）"
+    },
+    {
+      "id": "oinride-ai-mining",
+      "reason": "产品发布无链上mint窗"
+    },
+    {
+      "id": "4agent-ai",
+      "reason": "已收录软更"
+    },
+    {
+      "id": "ammora",
+      "reason": "已收录"
+    },
+    {
+      "id": "ptah-trade",
+      "reason": "已收录；POA抽奖续"
+    },
+    {
+      "id": "agent-bestiary",
+      "reason": "已收录软更"
+    },
+    {
+      "id": "sevy",
+      "reason": "已收录；LIVE软更≤2h"
+    },
+    {
+      "id": "the-force",
+      "reason": "已收录；21:00CST约2.5h非≤2h"
+    },
+    {
+      "id": "vaultlings",
+      "reason": "已收录；官推tomorrow≈10/27"
+    },
+    {
+      "id": "stonks-pad",
+      "reason": "Mon无HH:MM"
+    },
+    {
+      "id": "full-fun",
+      "reason": "Monday无HH:MM"
+    },
+    {
+      "id": "spritefun",
+      "reason": "still shutdown"
+    },
+    {
+      "id": "leeonmort",
+      "reason": "X Not Found"
+    },
+    {
+      "id": "bitcointapes",
+      "reason": "mint soon无HH:MM"
+    },
+    {
+      "id": "enter-elysium",
+      "reason": "主网11/09无新On-testnet"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "sevy",
+      "handle": "Sevy_Ai",
+      "window": "2026-10-26 18:00 CST",
+      "etaHours": 0.0,
+      "event": "BN Agent FREE mint LIVE onchain"
+    }
+  ],
+  "clearedPrevNewThisRound": [
+    "agent-bestiary"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": 3,
+    "modes": [
+      "admit",
+      "score",
+      "alert"
+    ]
+  },
+  "xReads": 23,
+  "coverage": {
+    "keywords": true,
+    "agentPad": true,
+    "flap": true,
+    "fullFun": true,
+    "irys": true,
+    "tape": true,
+    "kinetiq": true,
+    "giwa": true,
+    "dogeEvm": "budget-sample",
+    "starknet": "budget-sample",
+    "agentMining": true,
+    "agentTrading": true,
+    "btc": true,
+    "zero": "budget-sample",
+    "bnAgent": true,
+    "elysium": true
+  },
+  "softRefresh": {
+    "sevy": {
+      "handle": "Sevy_Ai",
+      "window": "18:00 CST",
+      "le2h": true,
+      "followers": 8,
+      "status": "LIVE onchain"
+    },
+    "theforce": {
+      "handle": "theforceNFT",
+      "window": "21:00 CST",
+      "le2h": false,
+      "etaHours": 2.5
+    },
+    "pickrush": {
+      "le2h": false,
+      "note": "Tue 12:00UTC mint"
+    },
+    "stonkspad": {
+      "le2h": false,
+      "note": "Mon window no HH:MM"
+    },
+    "fulldotfun": {
+      "le2h": false,
+      "note": "$FULL Monday no HH:MM"
+    },
+    "bitcointapes": {
+      "le2h": false,
+      "note": "mint soon no HH:MM"
+    },
+    "elysium": {
+      "mainnet": "2026-11-09",
+      "le2h": false
+    },
+    "spritefun": {
+      "note": "still shutdown"
+    },
+    "leeonmort": {
+      "note": "Not Found"
+    },
+    "vaultlings": {
+      "note": "launching tomorrow≈10/27"
+    },
+    "agentBestiary": {
+      "note": "LIVE续 0粉"
+    },
+    "cantonGlazeTokenWorks": {
+      "note": "soft-debt lastChecked refreshed"
+    }
+  },
+  "focusBanRespected": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R617：新收 Disorderly Afterflow（ETH FREE Allowlist 23:00CST）+ Forever Cult Fund（RH~21:00CST）；SEVY LIVE≤2h；Discord deferred；清 agent-bestiary",
+  "push": {
+    "attempted": false,
+    "ok": false
+  }
+}
