@@ -84,5 +84,5 @@
 ```
 
 ## Push
-- ok: pending
-- sha: pending
+- ok: true
+- sha: `23bad0f` (`23bad0ff03e1231e52e1beb933a97e1607e393c0`)
