@@ -1,0 +1,90 @@
+{
+  "round": 609,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 16:10 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admit",
+  "alertMessage": "新增：The FORCE（@theforceNFT）今日21:00 CST ETH 7777免费mint；Kivo（@kivoagentxyz）昨建agentic trader已live粉≈42；Umber（@Umberhq）Solana anti-sniper launchpad在建粉≈56。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "the-force",
+      "name": "The FORCE",
+      "handle": "theforceNFT",
+      "reason": "ETH 7777 free mint 今日21:00CST，粉≈366，OpenSea已挂未开铸"
+    },
+    {
+      "id": "kivo",
+      "name": "Kivo",
+      "handle": "kivoagentxyz",
+      "reason": "昨建 agentic trader已live，粉≈42"
+    },
+    {
+      "id": "umber",
+      "name": "Umber",
+      "handle": "Umberhq",
+      "reason": "Solana anti-sniper launchpad在建，粉≈56，未开盘"
+    }
+  ],
+  "newCount": 3,
+  "newIds": [
+    "the-force",
+    "kivo",
+    "umber"
+  ],
+  "skipped": [
+    {
+      "id": "launch-x",
+      "reason": "DS skip：昨建粉≈3965已过热，有volume/buyback，CA未核实"
+    },
+    {
+      "id": "pokepvp",
+      "reason": "DS skip：粉≈6同文spam刷量，CA未核实"
+    },
+    {
+      "id": "known-pads",
+      "reason": "StonksPad/Full.fun/BTape/pipfun/sprite/Ptah/Ammora/gamapad/synape/ray-pad等已知跳过重收"
+    },
+    {
+      "id": "stonks-full-btape-le2h",
+      "reason": "今日live/Monday/mint soon均无精确HH:MM或距窗>2h→非≤2h；The FORCE 21:00CST距今~4.8h非≤2h"
+    }
+  ],
+  "le2h": [],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "ray-pad"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking:on admit(5初判→3收2拒)+score(the-force/kivo/umber)+alert",
+  "xReads": 20,
+  "coverage": "打新|挖矿|台子/Meme|GO盘|LayerZero|Elysium|Tape|GIWA|DogeEVM|BN Agent|BTC|Starknet|StonksPad|$FULL|BTape|pipfun|agentic equal soft",
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": "2026-10-26 13:03 CST",
+    "lastChecked": "2026-10-26 16:10 CST",
+    "note": "本执行器无浏览器→discordPeekDeferred:true；lastSeen保持13:03 CST"
+  },
+  "softRefresh": {
+    "stonksPad": "live Mon Oct26 无HH:MM 非≤2h 粉≈496",
+    "fullFun": "$FULL Monday 无HH:MM 非≤2h 粉≈11811",
+    "bitcointapes": "设计开放/mint soon 无HH:MM 非≤2h 粉≈276",
+    "spritefun": "关停态续",
+    "pipfun": "CLI/Agent ID bonding续 无HH:MM",
+    "leeonmort": "API Not Found（已映xuanwu-sigil）",
+    "elysium": "主网2026-11-09；本窗无新On-testnet",
+    "blonskr": "官方矿池接收期结束",
+    "ptah": "POA mint/抽奖续",
+    "ammora": "GIWA waitlist刷量续",
+    "listen": "无新≤2h；新收kivo",
+    "zero": "lzATLAS 2026-11-30"
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R609：新收 The FORCE（今日21:00CST free mint）、Kivo（agentic trader live）、Umber（Solana anti-sniper pad在建）；拒LaunchX过热/PokePvP spam；Stonks/$FULL/BTape/FORCE均非≤2h；Elysium主网11-09；Discord deferred；xReads=20",
+  "remoteVerified": false
+}
