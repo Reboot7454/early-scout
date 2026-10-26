@@ -1,0 +1,139 @@
+{
+  "round": 582,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 08:36 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新增可操作：FirstProof（台子/Meme，Solana launchpad刚LIVE，$FPROOF pump.fun CA已出，32粉极早期未核实）；2h内无新项，StonksPad/$FULL今日仍无≤2h非HH:MM，Elysium主网11-09，Rebate约10/27 17:00UTC；面板 https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "firstproof"
+  ],
+  "newCount": 1,
+  "newAdmits": [
+    {
+      "id": "firstproof",
+      "name": "FirstProof",
+      "handle": "FirstProofFun",
+      "zone": "meme",
+      "focus": false,
+      "followers": 32,
+      "overall": 64
+    }
+  ],
+  "within2h": [],
+  "skipped": [
+    {
+      "id": "brainchain",
+      "handle": "usebrainchain",
+      "reason": "DS skip：15粉RH Orbit L3基建主网live，无mint/launch窗"
+    },
+    {
+      "id": "picklerfun",
+      "handle": "Picklerfun",
+      "reason": "DS skip：1892粉Monad agent预测，非极早期无mint窗"
+    },
+    {
+      "id": "nemotrontrade",
+      "handle": "Nemotrontrade",
+      "reason": "DS skip：1.2万粉Fair for All类，非极早期"
+    },
+    {
+      "id": "seolint-world",
+      "reason": "DS skip：无独立官推（SEOLintWorld等404）"
+    },
+    {
+      "id": "four-agent-pad",
+      "handle": "Four_FORM_",
+      "reason": "DS skip：Four.meme 31万粉老台Agent ID区功能更新非新项目"
+    },
+    {
+      "id": "Leeonmort",
+      "reason": "get_users 404不存在（再验）"
+    },
+    {
+      "id": "stonks-pad",
+      "reason": "已收录；10/26 live宣称仍无HH:MM非≤2h"
+    },
+    {
+      "id": "full-fun",
+      "reason": "已收录；$FULL Monday无HH:MM非≤2h"
+    },
+    {
+      "id": "saul-pink",
+      "reason": "已收录；产品帖续无开窗钟点"
+    },
+    {
+      "id": "bitcointapes",
+      "reason": "已收录；电路设计开放；免费mint无HH:MM"
+    },
+    {
+      "id": "enter-elysium",
+      "reason": "主网仍11-09；无新On testnet"
+    },
+    {
+      "id": "pipfun",
+      "reason": "已收录；软刷"
+    },
+    {
+      "id": "ptah-trade",
+      "reason": "已收录；PoA续"
+    },
+    {
+      "id": "ammora",
+      "reason": "已收录；GIWA waitlist续"
+    },
+    {
+      "id": "gamapad",
+      "reason": "已收录；GIWA testnet/waitlist续"
+    },
+    {
+      "id": "rebate-launch",
+      "reason": "已收录；10/27 17:00UTC非≤2h"
+    },
+    {
+      "id": "eth-fun",
+      "reason": "上轮已收；本轮清出newThisRound"
+    },
+    {
+      "id": "xuanwu-seed",
+      "reason": "已收录；Agentic免费mint社区续"
+    },
+    {
+      "id": "robtown",
+      "reason": "已收录；RH free mint WL续"
+    },
+    {
+      "id": "ethernalcubs",
+      "reason": "已收录；RH free mint续"
+    }
+  ],
+  "clearedPrevNewThisRound": [
+    "eth-fun"
+  ],
+  "xReads": 21,
+  "xBudgetNote": "~20/round target; shared 30/min 1000/day; used≈21",
+  "dsUsage": "deepseek-flash thinking=on batch admit+score+enrich+alert; admit firstproof; skip brainchain/pickler/nemotron/seolint/four-agent",
+  "dsFallback": false,
+  "discordPeekDeferred": true,
+  "discordPeekNote": "本轮未浏览器Peek；沿用R580 lastSeen 2026-10-26 07:22 CST",
+  "mustWatch": {
+    "fullFun": "$FULL Monday仍无HH:MM；非≤2h",
+    "stonksPad": "10/26 live宣称仍无HH:MM；非≤2h",
+    "elysium": "主网2026-11-09",
+    "tape": "bitcointapes设计开放；免费mint即将无HH:MM",
+    "rebate": "10/27 17:00 UTC（CST 10/28 01:00）非≤2h",
+    "zero": "mainnet/lzATLAS 2026-11-30",
+    "agentPad": "pipfun/Ptah软刷；Four Agent区skip；无新BN专属admit"
+  },
+  "focusBan": "respected; new cards focus:false",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R582：新收 FirstProof（Solana launchpad+$FPROOF刚LIVE，32粉）；StonksPad/$FULL今日无HH:MM；Elysium主网11-09；清eth-fun；X≈21；discordPeekDeferred",
+  "push": {
+    "ok": false,
+    "sha": null,
+    "short": null,
+    "ref": "main",
+    "attempted": false
+  }
+}
