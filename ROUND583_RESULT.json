@@ -1,0 +1,70 @@
+{
+  "round": 583,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-26 08:41:18 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "雷达通知：本轮 Discord alpha 新收 Tiny Legends（@Tinylegends_io）与 hoodora（@hoodora_rh），均归打新栏（Robinhood 极早期）。https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "tinylegends-io",
+      "handle": "Tinylegends_io",
+      "name": "Tiny Legends",
+      "category": "打新",
+      "zone": "打新",
+      "followers": 238,
+      "discordTime": "2026-10-26 08:12 CST"
+    },
+    {
+      "id": "hoodora-rh",
+      "handle": "hoodora_rh",
+      "name": "hoodora",
+      "category": "打新",
+      "zone": "打新",
+      "followers": 330,
+      "discordTime": "2026-10-26 08:12 CST"
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "tinylegends-io",
+    "hoodora-rh"
+  ],
+  "skipped": [
+    {
+      "handle": "catfomofamily",
+      "id": "cat-fomo",
+      "reason": "已有去重 cat-fomo (R350)",
+      "followers": 2184,
+      "discordTime": "2026-10-26 08:18 CST"
+    }
+  ],
+  "cardsAfterLastSeen": 3,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "firstproof"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking on: admit+score+fields for Tinylegends_io/hoodora_rh; alert one-liner; catfomofamily dedup no DS",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-26 08:18 CST",
+    "lastChecked": "2026-10-26 08:40 CST",
+    "newestCardTime": "2026-10-26 08:18 CST",
+    "note": "R583：Discord alpha 补收 tinylegends-io(@Tinylegends_io→打新)、hoodora-rh(@hoodora_rh→打新)；catfomofamily已有去重 cat-fomo；清 firstproof；lastSeen→08:18 CST"
+  },
+  "push": {
+    "attempted": true,
+    "ok": true,
+    "commit": "f1e39fb",
+    "fullSha": "f1e39fb4feea7c6f23872a9d4c153ddc652faa3c",
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R583：Discord alpha 补收 tinylegends-io(@Tinylegends_io→打新)、hoodora-rh(@hoodora_rh→打新)；catfomofamily已有去重 cat-fomo；清 firstproof；lastSeen→08:18 CST",
+  "remoteVerified": true,
+  "priorRoundNote": "R582 left newThisRound=['firstproof'] and discordPeekDeferred; this run completed deferred Discord peek"
+}
