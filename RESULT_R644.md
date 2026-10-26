@@ -16,4 +16,4 @@
 - **Leeonmort**: re-verified R644 → Not Found
 - **hard excludes**: perpme/branchpoint/outrive (Elysium)
 - **summary**: R644：+1 admit doginal-frogs（Solana free mint ≤2h）；ElysiumLaunch/Elyziuma 仍≤2h；Leeonmort NF；BTape>2h；StonksPad>2h；discordPeekDeferred
-- **push**: (see ROUND644_RESULT.json after push)
+- **push**: 80c501be433234efb70579137a495fca2ba871de
