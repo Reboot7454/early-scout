@@ -1,0 +1,199 @@
+{
+  "round": 630,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 22:08:41 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admit+le2h",
+  "alertMessage": "新增：StonkMCP（Solana fair launch 今日上线）、CITY HUNTERS（BNB GameFi 10/28 12:00 UTC 开售）；近2h LIVE：ETH 7777 免费 mint、Founding NFT 500×0.045E、BN Agent 免费 mint、$RBT 上线 pons、Ordinals Circuit 免费 mint 等 → https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "stonkmcp",
+      "handle": "stonkmcp",
+      "name": "StonkMCP",
+      "reason": "极早期 fair launch，官宣 no dev buy，站点已 live，MCP/agent 发币台子，今日新建账号，符合早期窗口。"
+    },
+    {
+      "id": "city-hunters",
+      "handle": "CityHunters_X",
+      "name": "CITY HUNTERS",
+      "reason": "极早期 BNB GameFi 打新，Genesis 主网开售在 10/28，尚未开始，具备早期参与窗口。"
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "stonkmcp",
+    "city-hunters"
+  ],
+  "skipped": [
+    {
+      "id": "plushietoken",
+      "reason": "DS skip：蹭 Elysium meme，无 mint/CA/On-testnet"
+    },
+    {
+      "id": "candy-defio",
+      "reason": "仅猎人账号推广 CANDY，无独立官推可核验"
+    },
+    {
+      "id": "the-force",
+      "reason": "已收录；FCFS LIVE≤2h软更"
+    },
+    {
+      "id": "forever-cult-fund",
+      "reason": "已收录；Founding NFT LIVE≤2h软更"
+    },
+    {
+      "id": "sevy",
+      "reason": "已收录；LIVE软更≤2h"
+    },
+    {
+      "id": "robtrade",
+      "reason": "已收录；$RBT Live On pons ~22:00CST≤2h软更"
+    },
+    {
+      "id": "bitcointapes",
+      "reason": "已收录focus；电路 FREE mint LIVE≤2h软更"
+    },
+    {
+      "id": "milkbao",
+      "reason": "已收录；BN Agent mint LIVE软更"
+    },
+    {
+      "id": "agent-seal",
+      "reason": "已收录；~184 free续 LIVE软更"
+    },
+    {
+      "id": "stonks-pad",
+      "reason": "Oct26 live无HH:MM；官号近静默"
+    },
+    {
+      "id": "full-fun",
+      "reason": "Monday无HH:MM"
+    },
+    {
+      "id": "sprite-fun",
+      "reason": "still shutdown/静默"
+    },
+    {
+      "id": "enter-elysium",
+      "reason": "主网11/09；无On-testnet新admit；硬排除perpme等"
+    },
+    {
+      "id": "bitcoin-labz",
+      "reason": "上一轮 newThisRound 已清出芯片"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "the-force",
+      "handle": "theforceNFT",
+      "window": "LIVE FCFS",
+      "etaHours": 0.0,
+      "event": "ETH 7777 free mint LIVE (FCFS)"
+    },
+    {
+      "id": "forever-cult-fund",
+      "handle": "forevercultfund",
+      "window": "LIVE until Wed 1pm UTC",
+      "etaHours": 0.0,
+      "event": "RH Founding NFT 500×0.045ETH LIVE"
+    },
+    {
+      "id": "sevy",
+      "handle": "Sevy_Ai",
+      "window": "LIVE 7d window",
+      "etaHours": 0.0,
+      "event": "BN Agent FREE mint LIVE"
+    },
+    {
+      "id": "robtrade",
+      "handle": "Robtradexyz",
+      "window": "2026-10-26 ~22:00 CST LIVE",
+      "etaHours": 0.0,
+      "event": "$RBT Live On pons"
+    },
+    {
+      "id": "bitcointapes",
+      "handle": "bitcointapes",
+      "window": "LIVE free mint",
+      "etaHours": 0.0,
+      "event": "Ordinals Circuit FREE mint LIVE"
+    },
+    {
+      "id": "milkbao",
+      "handle": "milkbao",
+      "window": "LIVE",
+      "etaHours": 0.0,
+      "event": "BN Agent mint LIVE"
+    },
+    {
+      "id": "agent-seal",
+      "handle": "AgentSeal",
+      "window": "LIVE ~184 left",
+      "etaHours": 0.0,
+      "event": "free mint LIVE ~184 left"
+    }
+  ],
+  "clearedPrevNewThisRound": [
+    "bitcoin-labz"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": 3,
+    "modes": [
+      "admit",
+      "score",
+      "alert"
+    ]
+  },
+  "xReads": 18,
+  "coverage": {
+    "keywords": true,
+    "agentPad": true,
+    "flap": true,
+    "fullFun": true,
+    "irys": true,
+    "tape": true,
+    "kinetiq": true,
+    "giwa": true,
+    "zero": true,
+    "dogeEvm": true,
+    "starknet": true,
+    "btc": true,
+    "agentMining": true,
+    "agentTrading": true,
+    "softDebt": true,
+    "bnAgent": true
+  },
+  "panel": {
+    "zones": [
+      "打新",
+      "挖矿",
+      "台子/Meme",
+      "GO盘",
+      "LayerZero",
+      "Elysium",
+      "Tape/电路",
+      "GIWA",
+      "DogeEVM",
+      "BN Agent 钱包"
+    ],
+    "newZoneHints": {
+      "stonkmcp": "台子/Meme",
+      "city-hunters": "BN Agent / 打新"
+    }
+  },
+  "push": {
+    "ok": false,
+    "commit": null,
+    "branch": "main",
+    "files": [
+      "data.json",
+      "ROUND630_RESULT.json"
+    ]
+  },
+  "summary": "R630：新收录 StonkMCP + CITY HUNTERS；清出 bitcoin-labz 芯片；≤2h LIVE 窗续（Force/Forever/SEVY/$RBT/BTape/Milkbao/AgentSeal）；StonksPad/$FULL 仍无 HH:MM；Discord peek deferred；DS deepseek-flash×3。"
+}
