@@ -12,7 +12,7 @@
 - soft: StonksPad NOW LIVE（23:46 CST，不再标上线窗≤2h）；bitcointapes/enter-elysium/full-fun/tape-fractal/sprite-fun；watches lastChecked 刷新
 - xReads: 21 / dsFallback: false
 - discordPeekDeferred: true（本轮未开浏览器；仓内线索照收）
-- push: pending
+- push: ok (fd518ab)
 - alert: 新增 NAMEPLATE（BNB Agent .ai 铭牌，合约未部署/首枚 free bronze 预告）；PAWS Robinhood FCFS 免费铸造仍 LIVE；详见 https://reboot7454.github.io/early-scout/
 
 ## Coverage
