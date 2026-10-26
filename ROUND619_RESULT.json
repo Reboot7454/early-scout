@@ -1,0 +1,245 @@
+{
+  "round": 619,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 19:03 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "newAdmit+le2h",
+  "alertMessage": "新增：Odd Society Ink 400免费mint已开、Pocket Dragons BNB 3071/7000 AgentID首免、Ascendants RH 10k免费mint筹备；近2h：Odd Society进行中、The Force 21:00 CST ETH免费mint、Forever Cult Fund 21:00 CST RH 0.045ETH×500，面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "odd-society",
+      "name": "The Odd Society",
+      "handle": "OddSocietyart",
+      "zone": "scout",
+      "focus": false,
+      "status": "live",
+      "x": "https://x.com/OddSocietyart",
+      "window": "Ink 400 FREE mint LIVE ~19:01 CST"
+    },
+    {
+      "id": "pocket-dragons-bnb",
+      "name": "Pocket Dragons (BNB Agent)",
+      "handle": "mashmuscles",
+      "zone": "bnagent",
+      "focus": false,
+      "status": "live",
+      "x": "https://x.com/mashmuscles",
+      "ca": "0x2CfF830264343F29d4924160096F1271A8a14aCE",
+      "window": "LIVE 3071/7000 Agent ID first free"
+    },
+    {
+      "id": "ascendants-games",
+      "name": "Ascendants",
+      "handle": "ascendantsgames",
+      "zone": "scout",
+      "focus": false,
+      "status": "watching",
+      "x": "https://x.com/ascendantsgames",
+      "window": "RH 10k FREE mint prep, no HH:MM"
+    }
+  ],
+  "newCount": 3,
+  "newIds": [
+    "odd-society",
+    "pocket-dragons-bnb",
+    "ascendants-games"
+  ],
+  "skipped": [
+    {
+      "id": "danta-pixel-agent",
+      "reason": "DS skip：0粉+异约，疑刷量"
+    },
+    {
+      "id": "disorderly-afterflow",
+      "reason": "已收录；23:00CST非≤2h"
+    },
+    {
+      "id": "forever-cult-fund",
+      "reason": "已收录；官推确认21:00CST→≤2h软更"
+    },
+    {
+      "id": "the-force",
+      "reason": "已收录；21:00CST≤2h软更"
+    },
+    {
+      "id": "sevy",
+      "reason": "已收录 LIVE续"
+    },
+    {
+      "id": "vaultlings",
+      "reason": "已收录；≈10/27"
+    },
+    {
+      "id": "stonks-pad",
+      "reason": "Mon无HH:MM"
+    },
+    {
+      "id": "full-fun",
+      "reason": "无新帖/无HH:MM"
+    },
+    {
+      "id": "sprite-fun",
+      "reason": "still shutdown"
+    },
+    {
+      "id": "bitcointapes",
+      "reason": "mint soon无HH:MM"
+    },
+    {
+      "id": "enter-elysium",
+      "reason": "主网11/09无新On-testnet"
+    },
+    {
+      "id": "leeonmort",
+      "reason": "X Not Found"
+    },
+    {
+      "id": "danta",
+      "reason": "已收录软更；pixel异约不并卡"
+    },
+    {
+      "id": "signal-ghosts",
+      "reason": "已收录；姊妹系列另卡"
+    },
+    {
+      "id": "synape",
+      "reason": "已收录 LIVE续"
+    },
+    {
+      "id": "ptah-trade",
+      "reason": "已收录；POA续"
+    },
+    {
+      "id": "pocket-dragons",
+      "reason": "CollectFi旧卡，与BNB Agent系列不同"
+    },
+    {
+      "id": "robelin-pad",
+      "reason": "新pad宣发无mint窗"
+    },
+    {
+      "id": "forge-launchpad",
+      "reason": "多链pad宣发无早期mint窗"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "odd-society",
+      "handle": "OddSocietyart",
+      "window": "2026-10-26 19:01 CST",
+      "etaHours": 0.0,
+      "event": "Ink 400 FREE mint LIVE"
+    },
+    {
+      "id": "the-force",
+      "handle": "theforceNFT",
+      "window": "2026-10-26 21:00 CST",
+      "etaHours": 2.0,
+      "event": "ETH FREE mint 7777"
+    },
+    {
+      "id": "forever-cult-fund",
+      "handle": "forevercultfund",
+      "window": "2026-10-26 21:00 CST",
+      "etaHours": 2.0,
+      "event": "RH Founding NFT 0.045ETH×500 after 1pm UTC"
+    }
+  ],
+  "clearedPrevNewThisRound": [
+    "disorderly-afterflow",
+    "forever-cult-fund"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": 3,
+    "modes": [
+      "admit",
+      "score",
+      "alert"
+    ]
+  },
+  "xReads": 20,
+  "coverage": {
+    "keywords": true,
+    "agentPad": true,
+    "flap": true,
+    "fullFun": true,
+    "irys": "usernames-only",
+    "tape": true,
+    "kinetiq": "usernames-only",
+    "giwa": "usernames-only",
+    "dogeEvm": "usernames-only",
+    "starknet": "budget-skip",
+    "agentMining": "usernames-only",
+    "agentTrading": "usernames-only",
+    "btc": "usernames-only",
+    "zero": "budget-skip",
+    "bnAgent": true,
+    "elysium": true
+  },
+  "softRefresh": {
+    "theForce": {
+      "handle": "theforceNFT",
+      "window": "21:00 CST",
+      "le2h": true,
+      "followers": 369
+    },
+    "foreverCult": {
+      "handle": "forevercultfund",
+      "window": "21:00 CST",
+      "le2h": true,
+      "followers": 5723,
+      "note": "official after 1pm UTC"
+    },
+    "disorderly": {
+      "le2h": false,
+      "etaHours": 4
+    },
+    "sevy": {
+      "le2h": false,
+      "note": "LIVE续非新窗"
+    },
+    "vaultlings": {
+      "note": "≈10/27"
+    },
+    "stonkspad": {
+      "le2h": false,
+      "note": "Mon no HH:MM"
+    },
+    "fulldotfun": {
+      "le2h": false,
+      "note": "quiet no HH:MM"
+    },
+    "bitcointapes": {
+      "le2h": false,
+      "note": "no HH:MM"
+    },
+    "elysium": {
+      "mainnet": "2026-11-09",
+      "le2h": false
+    },
+    "spritefun": {
+      "note": "still shutdown"
+    },
+    "leeonmort": {
+      "note": "Not Found"
+    },
+    "danta": {
+      "note": "free slots+pixel异约不并卡"
+    },
+    "cantonGlazeTokenWorks": {
+      "note": "lastChecked refreshed"
+    }
+  },
+  "focusBanRespected": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R619：新收 Odd Society（Ink 400 FREE LIVE）+ Pocket Dragons BNB Agent + Ascendants（RH盯窗）；LE2h：Odd LIVE / The Force&Forever 21:00CST；清 R617 残留 newThisRound；Discord deferred",
+  "push": {
+    "attempted": false,
+    "ok": false
+  }
+}
