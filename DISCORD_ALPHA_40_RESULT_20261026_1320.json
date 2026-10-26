@@ -1,0 +1,57 @@
+{
+  "round": 599,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-26 13:24 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "雷达通知：本轮 Discord alpha 新收 Capsule - Top Loaders（@collect_capsule→台子/Meme）。https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "capsule-top-loaders",
+      "handle": "collect_capsule",
+      "name": "Capsule - Top Loaders",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "followers": 37,
+      "discordTime": "2026-10-26 12:51 CST"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "capsule-top-loaders"
+  ],
+  "skipped": [
+    {
+      "handle": "AkkshyeTulsyan",
+      "reason": "成熟个人KOL/高粉（29043粉），非极早期加密项目，按硬规则skip。"
+    }
+  ],
+  "cardsAfterLastSeen": 2,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "yaetc"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking:on batched admit+score (2 cards: collect_capsule admit, AkkshyeTulsyan skip); X MCP verified @collect_capsule 37粉",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-26 13:03 CST",
+    "lastChecked": "2026-10-26 13:24 CST",
+    "newestCardTime": "2026-10-26 13:03 CST",
+    "note": "R599：Discord alpha 补收 capsule-top-loaders(@collect_capsule→台子/Meme)；跳过 AkkshyeTulsyan成熟KOL；清 yaetc；lastSeen→13:03 CST"
+  },
+  "push": {
+    "attempted": true,
+    "ok": false,
+    "commit": "",
+    "fullSha": "",
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R599：Discord alpha 补收 capsule-top-loaders(@collect_capsule→台子/Meme)；跳过 AkkshyeTulsyan成熟KOL；清 yaetc；lastSeen→13:03 CST",
+  "remoteVerified": false,
+  "priorRoundNote": "R598 newThisRound=['yaetc']; #alpha-1 2 cards after 11:57 CST"
+}
