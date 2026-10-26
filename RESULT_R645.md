@@ -16,4 +16,4 @@
 - **Leeonmort**: re-verified R645 → Not Found
 - **hard excludes**: perpme/branchpoint/outrive (Elysium)
 - **summary**: R645：+1 admit hood-network（RH 首挖矿+Pass FREE MINT WL）；le2h=doginal-frogs/elysium-launch/$FULL；Elyziuma/BTape/StonksPad>2h；oven DS否；Leeonmort NF；discordPeekDeferred
-- **push**: (pending)
+- **push**: fbd1d2e45b0f70fb74139f8077e18101c9431274
