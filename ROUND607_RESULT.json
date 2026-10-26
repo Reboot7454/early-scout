@@ -1,0 +1,76 @@
+{
+  "round": 607,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 15:35 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admit",
+  "alertMessage": "新增 Ray Pad（@raypaddotfun）：Solana 反Pump fair-launch 台子，pad 已上线，昨建粉约308，CA 未核实；面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "ray-pad",
+      "name": "Ray Pad",
+      "handle": "raypaddotfun",
+      "reason": "昨日新建 Solana 反Pump fair-launch，pad live，粉≈308，CA未核实"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "ray-pad"
+  ],
+  "skipped": [
+    {
+      "id": "itia-genesis",
+      "reason": "DS score拒：粉≈30234已过热；mint date TBA；R605同因skip"
+    },
+    {
+      "id": "gang-follow-refresh",
+      "reason": "已收录gang-fun的CLI新玩法更新，非新项目"
+    },
+    {
+      "id": "known-pads",
+      "reason": "nonce/milkbao/synape/pipfun/stonks-pad/full-fun/bitcointapes/sprite-fun/ammora/ptah/listen等已知跳过重收"
+    },
+    {
+      "id": "stonks-full-btape-le2h",
+      "reason": "今日live/Monday/mint soon 均无精确HH:MM → 非≤2h"
+    }
+  ],
+  "le2h": [],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking:on admit(ray-pad+itia初判)+score(ray-pad收/itia拒)+alert",
+  "xReads": 20,
+  "coverage": "打新|挖矿|台子/Meme|GO盘|LayerZero|Elysium|Tape|GIWA|DogeEVM|BN Agent|BTC|Starknet|StonksPad|$FULL|BTape|RayPad equal soft",
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": "2026-10-26 13:03 CST",
+    "lastChecked": "2026-10-26 15:35 CST",
+    "note": "本执行器无浏览器→discordPeekDeferred:true；lastSeen保持13:03 CST"
+  },
+  "softRefresh": {
+    "stonksPad": "live Mon Oct26 无HH:MM 非≤2h 粉≈481",
+    "fullFun": "$FULL Monday 无HH:MM 非≤2h 粉≈11814",
+    "bitcointapes": "设计开放/mint soon 无HH:MM 非≤2h 粉≈277",
+    "spritefun": "关停态续",
+    "pipfun": "CLI/Agent ID bonding续 无HH:MM",
+    "gang": "follow-a-thought CLI0.6.0续（已知）",
+    "nonce": "mint open续（已知）",
+    "milkbao": "门控续",
+    "elysium": "主网2026-11-09",
+    "listen": "无新≤2h",
+    "ptah": "POA mint窗续/genesis yield halved",
+    "ammora": "GIWA waitlist续（已知）"
+  },
+  "push": {
+    "attempted": true,
+    "ok": false,
+    "commit": null,
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R607：新收 Ray Pad（Solana反Pump fair-launch，昨建粉≈308）；DS拒ITIA；Stonks/$FULL/BTape无精确HH:MM非≤2h；Elysium主网11-09；Discord deferred",
+  "remoteVerified": false
+}
