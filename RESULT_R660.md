@@ -14,4 +14,4 @@
 - **coverage**: 十栏+必盯软刷+关键词≈90min；Tape/Elysium/GIWA/Doge/Zero/Starknet/flap/Irys/Full/BN Agent/agent mining；Leeonmort仍NF
 - **panel**: https://reboot7454.github.io/early-scout/
 - **skipped**: sympadsi(soon无窗), bullshot911(过热), creora-ai(已交易), Leeonmort(NF)
-- **push**: pending
+- **push**: ok `6529bf0` → origin/main
