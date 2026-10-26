@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-27 05:00 CST",
+    "updated": "2026-10-27 05:21 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-keyword-mustwatch-soft",
-    "lastScout": "2026-10-27 05:00 CST",
+    "lastScout": "2026-10-27 05:21 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -446,7 +446,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 653,
+    "round": 654,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1243,8 +1243,10 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "farm-on-btc",
-      "botcoin-arena"
+      "pithead",
+      "aidcoin-mine",
+      "minteral",
+      "ekeko-coin"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -2708,13 +2710,20 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-10-26 13:03 CST",
-      "lastChecked": "2026-10-27 05:00 CST",
-      "newestCardTime": "2026-10-26 13:03 CST",
-      "cardsAfterCutoff": 0,
-      "note": "R653 deferred：无browser；沿用R652 lastSeen 2026-10-26 13:03 CST（0新）",
-      "lastRound": 652
+      "deferred": false,
+      "lastSeen": "2026-10-27 05:16 CST",
+      "lastChecked": "2026-10-27 05:21 CST",
+      "newestCardTime": "2026-10-27 05:16 CST",
+      "cardsAfterCutoff": 1,
+      "note": "R654：改源后首轮，读 alpha-3（02:46–05:16）/backup（13:13–05:13）/smart-accounts；DS 收 pithead,aidcoin-mine,minteral,ekeko-coin；#alpha-1 仍停在 10/26 13:03",
+      "lastRound": 654,
+      "lastSeenByChannel": {
+        "alpha-3-new-accounts": "2026-10-27 05:16 CST",
+        "alpha-1-backup": "2026-10-27 05:13 CST",
+        "smart-accounts-tracker": "2026-10-27 05:08 CST",
+        "alpha-1": "2026-10-26 13:03 CST"
+      },
+      "alpha3OlderGap": "2026-10-26 13:03→2026-10-27 02:46 CST 未逐卡读完（卡量>60，噪音高）"
     },
     "round239Added": [
       "tsunamilaunch",
@@ -6830,9 +6839,211 @@
     "round653Added": [
       "farm-on-btc",
       "botcoin-arena"
+    ],
+    "round654Added": [
+      "pithead",
+      "aidcoin-mine",
+      "minteral",
+      "ekeko-coin"
     ]
   },
   "candidates": [
+    {
+      "id": "ekeko-coin",
+      "name": "EKEKO",
+      "handle": "@ekeko_coin",
+      "twitter": "@ekeko_coin",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "台子/Meme",
+        "Robinhood Chain",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/EKEKO_COIN",
+        "twitter": "https://x.com/EKEKO_COIN"
+      },
+      "scores": {
+        "early": 88,
+        "actionable": 58,
+        "novelty": 60,
+        "risk": 72,
+        "overall": 64
+      },
+      "highlights": [
+        "Robinhood Chain 早期叙事",
+        "交易税买金，机制简单易传播",
+        "学生团队，社区感强"
+      ],
+      "drawbacks": [
+        "仅6关注，可信度低",
+        "黄金购买与托管不透明",
+        "无合约/流动性细节"
+      ],
+      "whatsNew": "以交易税持续买入黄金的 Robinhood Chain meme 币。",
+      "summary": "3% of every trade buys gold for all holders; student led; followed Robinhood/Pons (Robinhood Chain launch)",
+      "blurb": "3% of every trade buys gold for all holders; student led; followed Robinhood/Pons (Robinhood Chain launch)",
+      "round": 654,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 6,
+      "xFollowers": 6,
+      "firstSeen": "2026-10-27 05:21 CST",
+      "addedAt": "2026-10-27 05:21 CST",
+      "lastChecked": "2026-10-27 05:21 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "minteral",
+      "name": "Minteral",
+      "handle": "@minteral_xyz",
+      "twitter": "@minteral_xyz",
+      "chain": "Solana",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "打新",
+        "Solana",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/minteral_xyz",
+        "twitter": "https://x.com/minteral_xyz"
+      },
+      "scores": {
+        "early": 86,
+        "actionable": 62,
+        "novelty": 48,
+        "risk": 60,
+        "overall": 62
+      },
+      "highlights": [
+        "19关注，较早",
+        "点击岩石mint，交互门槛低",
+        "Solana 生态，marketplace 规划"
+      ],
+      "drawbacks": [
+        "仅 coming soon，无具体日期",
+        "玩法同质化",
+        "合约与审计未披露"
+      ],
+      "whatsNew": "Solana 上通过点击岩石 mint NFT 并交易的小游戏。",
+      "summary": "Mint NFTs by clicking a rock, trade on marketplace; Solana, coming soon",
+      "blurb": "Mint NFTs by clicking a rock, trade on marketplace; Solana, coming soon",
+      "round": 654,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 19,
+      "xFollowers": 19,
+      "firstSeen": "2026-10-27 05:21 CST",
+      "addedAt": "2026-10-27 05:21 CST",
+      "lastChecked": "2026-10-27 05:21 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "aidcoin-mine",
+      "name": "AIDcoin",
+      "handle": "@mineaidcoin",
+      "twitter": "@mineaidcoin",
+      "chain": "BNB Chain",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "挖矿",
+        "BNB Chain",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/MineAIDcoin",
+        "twitter": "https://x.com/MineAIDcoin"
+      },
+      "scores": {
+        "early": 72,
+        "actionable": 68,
+        "novelty": 64,
+        "risk": 62,
+        "overall": 66
+      },
+      "highlights": [
+        "54关注，较早",
+        "Proof-of-inference 挖矿叙事",
+        "AI代理解任务产币"
+      ],
+      "drawbacks": [
+        "任务与产币规则未公开",
+        "BNB链挖矿竞争激烈",
+        "代币合约/审计缺失"
+      ],
+      "whatsNew": "BNB Chain 上用 AI 代理推理任务挖矿的 AIDcoin。",
+      "summary": "Proof-of-inference mining on BNB Chain; agents solve tasks",
+      "blurb": "Proof-of-inference mining on BNB Chain; agents solve tasks",
+      "round": 654,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 54,
+      "xFollowers": 54,
+      "firstSeen": "2026-10-27 05:21 CST",
+      "addedAt": "2026-10-27 05:21 CST",
+      "lastChecked": "2026-10-27 05:21 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
+    {
+      "id": "pithead",
+      "name": "Pithead",
+      "handle": "@playpithead",
+      "twitter": "@playpithead",
+      "chain": "Robinhood Chain",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "挖矿",
+        "Robinhood Chain",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/playpithead",
+        "twitter": "https://x.com/playpithead"
+      },
+      "scores": {
+        "early": 55,
+        "actionable": 86,
+        "novelty": 66,
+        "risk": 45,
+        "overall": 70
+      },
+      "highlights": [
+        "25区块挖矿小游戏已可玩",
+        "$PITHEAD 已在 Pons 交易",
+        "每轮单区块付奖，节奏快"
+      ],
+      "drawbacks": [
+        "409关注，早期红利减少",
+        "代币经济与持续性待验证",
+        "小游戏留存风险"
+      ],
+      "whatsNew": "Robinhood Chain 上的25区块挖矿游戏与 $PITHEAD 代币。",
+      "summary": "25-block mine game on Robinhood Chain; one block pays each round; $PITHEAD on Pons",
+      "blurb": "25-block mine game on Robinhood Chain; one block pays each round; $PITHEAD on Pons",
+      "round": 654,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 409,
+      "xFollowers": 409,
+      "firstSeen": "2026-10-27 05:21 CST",
+      "addedAt": "2026-10-27 05:21 CST",
+      "lastChecked": "2026-10-27 05:21 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
     {
       "id": "farm-on-btc",
       "name": "FARM on Robinhood",
@@ -6885,7 +7096,7 @@
       "firstSeen": "2026-10-27 05:00 CST",
       "addedAt": "2026-10-27 05:00 CST",
       "lastChecked": "2026-10-27 05:00 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "candidate": true,
       "schedule": {
         "status": "live",
@@ -6946,7 +7157,7 @@
       "firstSeen": "2026-10-27 05:00 CST",
       "addedAt": "2026-10-27 05:00 CST",
       "lastChecked": "2026-10-27 05:00 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "candidate": true,
       "schedule": {
         "status": "live",
@@ -102792,20 +103003,22 @@
     }
   ],
   "newThisRound": [
-    "farm-on-btc",
-    "botcoin-arena"
+    "pithead",
+    "aidcoin-mine",
+    "minteral",
+    "ekeko-coin"
   ],
-  "alertMessage": "新收录FARM on Robinhood（持币FREE表单≤2h）与Botcoin arena，Forge/Chickens/Pumpling仍≤2h，速看：https://reboot7454.github.io/early-scout/",
+  "alertMessage": "",
   "roundNAdded": [
     "pumpling-pills"
   ],
-  "updatedAt": "2026-10-27 05:00 CST",
-  "updated": "2026-10-27 05:00 CST",
+  "updatedAt": "2026-10-27 05:21 CST",
+  "updated": "2026-10-27 05:21 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-27 05:00 CST",
+  "lastScout": "2026-10-27 05:21 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -102847,7 +103060,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1417,
+  "candidateCount": 1421,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -103273,5 +103486,11 @@
   "round653Added": [
     "farm-on-btc",
     "botcoin-arena"
+  ],
+  "round654Added": [
+    "pithead",
+    "aidcoin-mine",
+    "minteral",
+    "ekeko-coin"
   ]
 }

@@ -1,0 +1,63 @@
+{
+  "round": 654,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-27 05:21 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "Discord alpha 补漏 4 项：Pithead（RH 链挖矿小游戏，$PITHEAD 已上 Pons）、AIDcoin（BNB 推理挖矿）、Minteral（Solana 点石头 mint）、EKEKO（RH 链买金 meme）。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "pithead",
+    "aidcoin-mine",
+    "minteral",
+    "ekeko-coin"
+  ],
+  "newCount": 4,
+  "newIds": [
+    "pithead",
+    "aidcoin-mine",
+    "minteral",
+    "ekeko-coin"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 1,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "farm-on-btc",
+    "botcoin-arena"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "farm-on-btc",
+    "botcoin-arena"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit+score",
+  "coverage": "discord-alpha #alpha-3-new-accounts,#alpha-1-backup,#smart-accounts-tracker,#alpha-1",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-27 05:16 CST",
+    "lastChecked": "2026-10-27 05:21 CST",
+    "newestCardTime": "2026-10-27 05:16 CST",
+    "cardsAfterCutoff": 1,
+    "note": "R654：改源后首轮，读 alpha-3（02:46–05:16）/backup（13:13–05:13）/smart-accounts；DS 收 pithead,aidcoin-mine,minteral,ekeko-coin；#alpha-1 仍停在 10/26 13:03",
+    "lastRound": 654,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-27 05:16 CST",
+      "alpha-1-backup": "2026-10-27 05:13 CST",
+      "smart-accounts-tracker": "2026-10-27 05:08 CST",
+      "alpha-1": "2026-10-26 13:03 CST"
+    },
+    "alpha3OlderGap": "2026-10-26 13:03→2026-10-27 02:46 CST 未逐卡读完（卡量>60，噪音高）"
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R654：改源后首轮，读 alpha-3（02:46–05:16）/backup（13:13–05:13）/smart-accounts；DS 收 pithead,aidcoin-mine,minteral,ekeko-coin；#alpha-1 仍停在 10/26 13:03",
+  "remoteVerified": false,
+  "cardsFile": "cards.json",
+  "priorRoundNote": "R653 meta NTR ['farm-on-btc', 'botcoin-arena']; cardsAfterCutoff=1"
+}

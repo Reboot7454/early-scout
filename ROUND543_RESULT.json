@@ -1,0 +1,62 @@
+{
+  "round": 543,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-25 21:14 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": false,
+  "notifyReason": "no_new_admits",
+  "alertMessage": "",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "skipped": [
+    {
+      "handle": "0xMiden",
+      "followers": 36200,
+      "reason": "mature privacy finance infra 36.2k粉，非极早期可操作"
+    },
+    {
+      "handle": "Fishesrh",
+      "reason": "already in data as fishesrh R245"
+    },
+    {
+      "handle": "GoodlaunchApp",
+      "reason": "already in data as goodlaunch R197"
+    }
+  ],
+  "cardsAfterLastSeen": 3,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "4agentminer",
+    "elysiumant"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "none (dedupe+mature skip; no admit candidates)",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-25 21:12 CST",
+    "lastChecked": "2026-10-25 21:14 CST",
+    "newestCardTime": "2026-10-25 21:12 CST",
+    "note": "R543：#alpha-1 20:09后3卡：0xMiden 高粉成熟隐私跳过、Fishesrh/GoodlaunchApp已有去重；lastSeen→21:12 CST；清 R542 newThisRound 4agentminer,elysiumant"
+  },
+  "meta": {
+    "lastSeen": "2026-10-25 21:12 CST",
+    "lastChecked": "2026-10-25 21:14 CST",
+    "newestCardTime": "2026-10-25 21:12 CST"
+  },
+  "push": {
+    "attempted": true,
+    "ok": true,
+    "commit": "16719ab",
+    "fullSha": "16719abb6c48f4ef29241a8cc1a1d0f0d22fbfd6",
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R543：#alpha-1 20:09后3卡无新收（0xMiden 高粉成熟跳过、Fishesrh/GoodlaunchApp已有去重）；lastSeen→21:12 CST；清 R542 newThisRound 4agentminer/elysiumant；推送 16719ab；notify=false",
+  "auxNote": "backup tapebitprotocol(已有R351)/oolongperp; smart-accounts ArfurGrok/sircalebhammer; alpha-3 swordjak_solana/TheFaCaiLong",
+  "remoteVerified": true,
+  "raceNote": "pull后网页雷达已占 R542（4agentminer,elysiumant）；本轮 Discord 补漏升至 R543",
+  "prevRound": 542
+}

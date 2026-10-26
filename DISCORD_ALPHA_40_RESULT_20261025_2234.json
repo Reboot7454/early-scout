@@ -1,0 +1,64 @@
+{
+  "round": 547,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-25 22:39 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "Discord补漏R547新收1项：@LootPlanetsRH Loot Planets RH太空舰队GameFi Coming soon(打新，821粉)。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "lootplanetsrh",
+      "handle": "LootPlanetsRH",
+      "name": "Loot Planets",
+      "category": "打新",
+      "followers": 821,
+      "reason": "有推特且为 Robinhood Chain 上极早期 GameFi 项目；821 粉处于可跟踪窗口，非成熟 KOL 高粉空壳；虽仅 Coming soon，但符合打新雷达补漏标准。"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "lootplanetsrh"
+  ],
+  "skipped": [
+    {
+      "handle": "etalabshq",
+      "followers": 2364,
+      "reason": "already in data as etalabs R155"
+    }
+  ],
+  "cardsAfterLastSeen": 2,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "humintclub"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "admit+score+alert deepseek-flash thinking ON (1 candidate)",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-25 22:18 CST",
+    "lastChecked": "2026-10-25 22:39 CST",
+    "newestCardTime": "2026-10-25 22:18 CST",
+    "note": "R547：#alpha-1 21:46后2卡：etalabshq已有去重、lootplanetsrh 新收(打新 RH GameFi 821粉)；lastSeen→22:18 CST；清 R546 newThisRound humintclub"
+  },
+  "meta": {
+    "lastSeen": "2026-10-25 22:18 CST",
+    "lastChecked": "2026-10-25 22:39 CST",
+    "newestCardTime": "2026-10-25 22:18 CST"
+  },
+  "push": {
+    "attempted": true,
+    "ok": true,
+    "commit": "11f7ccd",
+    "fullSha": "11f7ccd11539726a928f918fc8da193190f20d08",
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R547：#alpha-1 21:46后2卡补收 lootplanetsrh(打新 RH太空舰队GameFi 821粉)；etalabshq已有去重；lastSeen→22:18 CST；清 R546 newThisRound humintclub；推送 11f7ccd；notify=true",
+  "auxNote": "backup: playnexaria/hatchlingswtf(已有)；smart-accounts: NapierFinance 69k成熟跳过、jasonkneen KOL跳过；alpha-3: 0xChidOs 3f/EarnTech_12 18f 个人号噪声跳过",
+  "remoteVerified": true,
+  "raceNote": "",
+  "prevRound": 546
+}

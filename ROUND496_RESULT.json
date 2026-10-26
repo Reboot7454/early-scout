@@ -1,0 +1,52 @@
+{
+  "round": 496,
+  "completedAt": "2026-10-25 07:16 CST",
+  "timezone": "Asia/Shanghai",
+  "mode": "discord-alpha-40",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R496 Discord alpha 补漏新收：1k（@1kMarkets 代币化股票多链兑换），面板 https://reboot7454.github.io/early-scout/",
+  "summary": "R496 Discord alpha 补漏新收 @1kMarkets（Spidey API 失败，X 核验 4粉/Onchain Finance·1k.markets；admit 台子/Meme）；lastSeen→06:57 CST；discordPeekDeferred=false",
+  "newAdmits": [
+    {
+      "id": "1k-markets",
+      "twitter": "@1kMarkets",
+      "name": "1k",
+      "category": "台子/Meme",
+      "why": "1k 是主打代币化股票与加密资产多链最优价兑换的极早期 DeFi 台子，官网已上线并接入 metricxyz 与 Robinhood Chain。目前 4 粉冷启动，只适合小额观察，不宜重仓。"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "1k-markets"
+  ],
+  "clearedPrevNewThisRound": [
+    "lets-connect-card"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking on; admit+score 1kMarkets",
+  "coverage": "discord-alpha #alpha-1 only",
+  "skippedNote": null,
+  "meta": {
+    "lastSeen": "2026-10-25 06:57 CST",
+    "lastChecked": "2026-10-25 07:16 CST",
+    "newestCard": "1k @ 2026-10-25 06:57 CST"
+  },
+  "push": {
+    "ok": true,
+    "commit": "bf9e11f",
+    "fullSha": "bf9e11fb53c0c7b03a7313fd1f67f5744a5dc600",
+    "remote": "origin/main"
+  },
+  "remoteVerified": true,
+  "xVerify": {
+    "handle": "1kMarkets",
+    "followers": 4,
+    "created_at": "2026-10-12T22:05:57.000Z",
+    "bio": "Onchain Finance",
+    "url": "http://1k.markets",
+    "tweets": 4,
+    "note": "Spidey API miss; X tools verified (parent-provided profile+posts)"
+  }
+}

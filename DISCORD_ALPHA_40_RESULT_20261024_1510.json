@@ -1,0 +1,16 @@
+{
+  "round": "discord-alpha-40",
+  "time": "2026-10-24 15:10 CST",
+  "notify": false,
+  "discordPeekDeferred": true,
+  "discordLoginRequired": true,
+  "newIds": [],
+  "admits": [],
+  "skips": [],
+  "summary": "Discord alpha 补漏未完成：盒子 Discord 未登录（打开 #alpha-1 跳转 login?redirect_to=.../1527862926885785710）；未读 DC、未改 data.json、未推送；lastSeen 仍 10:23 CST。同日 14:25/14:32 已 defer，属复现 auth 阻断，例行将 pause 并请父代理让用户在盒子重登 Discord。",
+  "lastSeenUnchanged": "2026-10-24 10:23 CST",
+  "blocker": "discord_login",
+  "channel": "https://discord.com/channels/1502958818865188956/1527862926885785710",
+  "push": null,
+  "action": "pause_routine_discord-alpha-40"
+}
