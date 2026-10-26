@@ -1,43 +1,246 @@
 {
   "round": 628,
-  "mode": "discord-alpha-40",
-  "completedAt": "2026-10-26 21:35 CST",
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 21:38 CST",
   "timezone": "Asia/Shanghai",
-  "notify": false,
-  "notifyReason": "no_new_admits",
-  "alertMessage": "",
-  "newAdmits": [],
-  "newCount": 0,
-  "newIds": [],
-  "skipped": [],
-  "cardsAfterLastSeen": 0,
-  "clearedPrevNewThisRound": false,
-  "prevNewThisRoundCleared": [],
-  "candidateFlagsCleared": 0,
-  "topNewThisRoundCleared": [],
-  "discordPeekDeferred": false,
+  "notify": true,
+  "notifyReason": "new_admit+le2h",
+  "alertMessage": "新增 Bitcoin Labz（Stacks 公平发射测试网，粉≈20）；近2h 可操作：ETH 7777 免费铸（FCFS）、Founding NFT 500×0.045E 至周三、BN Agent 免费铸、Ordinals 电路免费铸已修复上线，RH Chain 代币约22:00 CST → https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "bitcoin-labz",
+      "handle": "BitcoinLabz",
+      "name": "Bitcoin Labz",
+      "reason": "极早期 fair-launch launchpad，Stacks/BTC 工具，今日才官宣，粉≈20，有独立官推与 testnet"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "bitcoin-labz"
+  ],
+  "skipped": [
+    {
+      "id": "kryntar-dark-node",
+      "reason": "已多轮skip；4粉spam续；DS skip"
+    },
+    {
+      "id": "4agent-ai",
+      "reason": "已收录；0粉续；非新admit"
+    },
+    {
+      "id": "the-force",
+      "reason": "已收录；FCFS LIVE≤2h软更"
+    },
+    {
+      "id": "forever-cult-fund",
+      "reason": "已收录；Founding NFT LIVE≤2h软更"
+    },
+    {
+      "id": "sevy",
+      "reason": "已收录；LIVE软更≤2h"
+    },
+    {
+      "id": "robtrade",
+      "reason": "已收录；22:00CST≈0.3h≤2h软更"
+    },
+    {
+      "id": "bitcointapes",
+      "reason": "已收录focus；电路铸造修复后LIVE≤2h软更"
+    },
+    {
+      "id": "enter-elysium",
+      "reason": "Uniswap awaits预告；主网11/09无On-testnet新admit"
+    },
+    {
+      "id": "stonks-pad",
+      "reason": "Oct26 live无HH:MM"
+    },
+    {
+      "id": "full-fun",
+      "reason": "Monday无HH:MM"
+    },
+    {
+      "id": "sprite-fun",
+      "reason": "still shutdown/静默"
+    },
+    {
+      "id": "pipfun",
+      "reason": "已收录软更V2"
+    },
+    {
+      "id": "gang-fun",
+      "reason": "已收录@gangdotfun软更"
+    },
+    {
+      "id": "agent-seal",
+      "reason": "已收录；~184 free续"
+    },
+    {
+      "id": "milkbao",
+      "reason": "已收录；BN Agent mint LIVE软更"
+    },
+    {
+      "id": "ammora",
+      "reason": "已收录；GIWA waitlist软更"
+    },
+    {
+      "id": "robin-mining",
+      "reason": "已收录；coming soon软更"
+    },
+    {
+      "id": "payphone-rh",
+      "reason": "已收录；allowlist软更"
+    },
+    {
+      "id": "tapeai",
+      "reason": "已收录focus；纪念电路空投已发软更"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "the-force",
+      "handle": "theforceNFT",
+      "window": "LIVE FCFS since ~21:05 CST",
+      "etaHours": 0.0,
+      "event": "ETH 7777 free mint LIVE (FCFS Top Communities)"
+    },
+    {
+      "id": "forever-cult-fund",
+      "handle": "forevercultfund",
+      "window": "LIVE until Wed 1pm UTC",
+      "etaHours": 0.0,
+      "event": "RH Founding NFT 500×0.045ETH LIVE"
+    },
+    {
+      "id": "sevy",
+      "handle": "Sevy_Ai",
+      "window": "LIVE 7d window",
+      "etaHours": 0.0,
+      "event": "BN Agent FREE mint LIVE ~1000+"
+    },
+    {
+      "id": "robtrade",
+      "handle": "Robtradexyz",
+      "window": "2026-10-26 22:00 CST",
+      "etaHours": 0.37,
+      "event": "RH Chain token launch"
+    },
+    {
+      "id": "bitcointapes",
+      "handle": "bitcointapes",
+      "window": "LIVE free mint fixed",
+      "etaHours": 0.0,
+      "event": "Ordinals Circuit Mint LIVE (fixed)"
+    }
+  ],
+  "clearedPrevNewThisRound": [],
+  "discordPeekDeferred": true,
   "dsFallback": false,
-  "dsUsage": "none (0 newCards after cutoff; no admit/score)",
-  "coverage": "discord-alpha #alpha-1 only",
-  "discordAlphaPeek": {
-    "deferred": false,
-    "lastSeen": "2026-10-26 13:03 CST",
-    "lastChecked": "2026-10-26 21:35 CST",
-    "newestCardTime": "2026-10-26 13:03 CST",
-    "cardsAfterCutoff": 0,
-    "note": "R628：Discord alpha 补漏无新卡（#alpha-1 最新仍 13:03 CST）；lastSeen 保持 13:03 CST，lastChecked→2026-10-26 21:35 CST",
-    "lastRound": 628
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": 3,
+    "modes": [
+      "admit",
+      "score",
+      "alert"
+    ]
   },
-  "push": {
-    "attempted": true,
-    "ok": true,
-    "commit": "5db4278",
-    "fullSha": "5db427885dd60b2147e91c854e426a90497c7449",
-    "remote": "origin/main"
+  "xReads": 20,
+  "coverage": {
+    "keywords": true,
+    "agentPad": true,
+    "flap": true,
+    "fullFun": true,
+    "irys": true,
+    "tape": true,
+    "kinetiq": true,
+    "giwa": true,
+    "dogeEvm": "budget-sample",
+    "starknet": "budget-sample",
+    "agentMining": true,
+    "agentTrading": true,
+    "btc": true,
+    "zero": "budget-sample",
+    "bnAgent": true,
+    "elysium": true
   },
+  "softRefresh": {
+    "theforce": {
+      "handle": "theforceNFT",
+      "window": "LIVE FCFS",
+      "le2h": true,
+      "followers": 367,
+      "status": "FCFS Top Communities LIVE"
+    },
+    "forever": {
+      "handle": "forevercultfund",
+      "window": "LIVE",
+      "le2h": true,
+      "followers": 5780,
+      "status": "Founding NFT mint live"
+    },
+    "sevy": {
+      "handle": "Sevy_Ai",
+      "window": "LIVE",
+      "le2h": true,
+      "followers": 9,
+      "status": "LIVE ~1000+ minted"
+    },
+    "robtrade": {
+      "le2h": true,
+      "etaHours": 0.37,
+      "note": "22:00CST token 仍≤2h"
+    },
+    "bitcointapes": {
+      "le2h": true,
+      "note": "free mint fixed; Circuit LIVE",
+      "followers": 284
+    },
+    "elysium": {
+      "mainnet": "2026-11-09",
+      "le2h": false,
+      "note": "Uniswap awaits teaser"
+    },
+    "stonkspad": {
+      "le2h": false,
+      "note": "Oct26 live; no HH:MM"
+    },
+    "fulldotfun": {
+      "le2h": false,
+      "note": "$FULL Monday no HH:MM"
+    },
+    "spritefun": {
+      "note": "still quiet ~150 foll"
+    },
+    "pipfun": {
+      "note": "V2 soft"
+    },
+    "gang": {
+      "note": "@gangdotfun soft"
+    },
+    "agentSeal": {
+      "note": "~184 free pioneer slots left"
+    },
+    "tapeai": {
+      "note": "纪念电路空投已发放"
+    },
+    "cantonGlazeTokenWorks": {
+      "note": "soft-debt lastChecked refreshed"
+    },
+    "bitcoinLabz": {
+      "admitted": true,
+      "followers": 20,
+      "note": "Stacks fair-launch pad testnet"
+    }
+  },
+  "focusBanRespected": true,
   "panel": "https://reboot7454.github.io/early-scout/",
-  "summary": "R628：Discord alpha 补漏无新卡（#alpha-1 最新仍 13:03 CST）；lastSeen 保持 13:03 CST，lastChecked→2026-10-26 21:35 CST",
-  "remoteVerified": true,
-  "priorRoundNote": "R627 meta; #alpha-1 newest still 13:03 CST; 0 cards after cutoff; no newThisRound to clear",
-  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261026_2125.json"
+  "summary": "R628 soft：新收 Bitcoin Labz（Stacks fair-launch testnet）；LE2h Force/Forever/BTape/SEVY LIVE + RobTrade 22:00；Elysium×Uniswap 软；Discord deferred",
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "remoteVerified": false,
+  "priorRoundNote": "R627 discord-alpha-40 no new; remote had duplicate discord labeled R628 overwritten by soft scout"
 }
