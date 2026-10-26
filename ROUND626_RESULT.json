@@ -1,0 +1,236 @@
+{
+  "round": 626,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 21:10 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "le2h",
+  "alertMessage": "无新收录；≤2h可操作：The Force免费铸LIVE、Forever Cult 0.045E铸至周三、SEVY免费铸续、RobTrade约22:00、BTape Ordinals铸造LIVE，面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "skipped": [
+    {
+      "id": "niulai-nft",
+      "reason": "无独立官推；DS skip"
+    },
+    {
+      "id": "piggy-agent",
+      "reason": "站点无X；核验空号/404；DS skip"
+    },
+    {
+      "id": "kryntar-dark-node",
+      "reason": "R624已skip；4粉spam续；DS skip"
+    },
+    {
+      "id": "cheztrade",
+      "reason": "0粉首帖疑spam；DS skip"
+    },
+    {
+      "id": "fomolabs-v2",
+      "reason": "已有CA/token非新窗；DS skip"
+    },
+    {
+      "id": "the-force",
+      "reason": "已收录；21:05 LIVE≤2h软更"
+    },
+    {
+      "id": "forever-cult-fund",
+      "reason": "已收录；21:00 LIVE≤2h软更"
+    },
+    {
+      "id": "sevy",
+      "reason": "已收录；LIVE软更≤2h"
+    },
+    {
+      "id": "robtrade",
+      "reason": "已收录；22:00CST≈0.8h≤2h软更"
+    },
+    {
+      "id": "bitcointapes",
+      "reason": "已收录focus；电路铸造LIVE≤2h软更"
+    },
+    {
+      "id": "enter-elysium",
+      "reason": "Uniswap awaits预告；主网11/09无On-testnet新admit"
+    },
+    {
+      "id": "stonks-pad",
+      "reason": "Oct26 live无HH:MM"
+    },
+    {
+      "id": "full-fun",
+      "reason": "Monday无HH:MM"
+    },
+    {
+      "id": "sprite-fun",
+      "reason": "still shutdown/静默"
+    },
+    {
+      "id": "pipfun",
+      "reason": "已收录软更V2"
+    },
+    {
+      "id": "gang-fun",
+      "reason": "已收录@gangdotfun软更"
+    },
+    {
+      "id": "agent-seal",
+      "reason": "已收录；~184 free续"
+    },
+    {
+      "id": "4agent-ai",
+      "reason": "已收录；0粉续"
+    },
+    {
+      "id": "the-wall",
+      "reason": "已收录LIVE续"
+    },
+    {
+      "id": "synape",
+      "reason": "已收录"
+    },
+    {
+      "id": "subsonic-tribe",
+      "reason": "上轮新收；本轮软更非新admit"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "the-force",
+      "handle": "theforceNFT",
+      "window": "LIVE since ~21:05 CST",
+      "etaHours": 0.0,
+      "event": "ETH 7777 free mint LIVE"
+    },
+    {
+      "id": "forever-cult-fund",
+      "handle": "forevercultfund",
+      "window": "LIVE since 21:00 CST",
+      "etaHours": 0.0,
+      "event": "RH Founding NFT 500×0.045ETH LIVE"
+    },
+    {
+      "id": "sevy",
+      "handle": "Sevy_Ai",
+      "window": "LIVE since 18:00 CST",
+      "etaHours": 0.0,
+      "event": "BN Agent FREE mint LIVE ~1000+"
+    },
+    {
+      "id": "robtrade",
+      "handle": "Robtradexyz",
+      "window": "2026-10-26 22:00 CST",
+      "etaHours": 0.83,
+      "event": "RH Chain token launch"
+    },
+    {
+      "id": "bitcointapes",
+      "handle": "bitcointapes",
+      "window": "LIVE since ~20:50 CST",
+      "etaHours": 0.0,
+      "event": "Ordinals Circuit Mint LIVE"
+    }
+  ],
+  "clearedPrevNewThisRound": [],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": 3,
+    "modes": [
+      "admit",
+      "alert",
+      "score"
+    ]
+  },
+  "xReads": 21,
+  "coverage": {
+    "keywords": true,
+    "agentPad": true,
+    "flap": true,
+    "fullFun": true,
+    "irys": true,
+    "tape": true,
+    "kinetiq": true,
+    "giwa": true,
+    "dogeEvm": "budget-sample",
+    "starknet": "budget-sample",
+    "agentMining": true,
+    "agentTrading": true,
+    "btc": true,
+    "zero": "budget-sample",
+    "bnAgent": true,
+    "elysium": true
+  },
+  "softRefresh": {
+    "theforce": {
+      "handle": "theforceNFT",
+      "window": "LIVE",
+      "le2h": true,
+      "followers": 371,
+      "status": "MINT IS LIVE ~21:05 CST"
+    },
+    "forever": {
+      "handle": "forevercultfund",
+      "window": "LIVE",
+      "le2h": true,
+      "followers": 5770,
+      "status": "Founding NFT mint live"
+    },
+    "sevy": {
+      "handle": "Sevy_Ai",
+      "window": "LIVE",
+      "le2h": true,
+      "followers": 9,
+      "status": "LIVE ~1000+ minted"
+    },
+    "robtrade": {
+      "le2h": true,
+      "etaHours": 0.83,
+      "note": "22:00CST token 仍≤2h"
+    },
+    "bitcointapes": {
+      "le2h": true,
+      "note": "Circuit Minting Is Now Live",
+      "followers": 285
+    },
+    "elysium": {
+      "mainnet": "2026-11-09",
+      "le2h": false,
+      "note": "Uniswap awaits teaser"
+    },
+    "stonkspad": {
+      "le2h": false,
+      "note": "Oct26 live; no HH:MM"
+    },
+    "fulldotfun": {
+      "le2h": false,
+      "note": "$FULL Monday no HH:MM"
+    },
+    "spritefun": {
+      "note": "still quiet ~150 foll"
+    },
+    "pipfun": {
+      "note": "V2 soft"
+    },
+    "gang": {
+      "note": "@gangdotfun soft"
+    },
+    "agentSeal": {
+      "note": "~184 free pioneer slots left"
+    },
+    "cantonGlazeTokenWorks": {
+      "note": "soft-debt lastChecked refreshed"
+    }
+  },
+  "focusBanRespected": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R626：无新收；LE2h Force/Forever/BTape LIVE + SEVY LIVE + RobTrade 22:00；Elysium×Uniswap预告软；Discord deferred",
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "remoteVerified": false
+}
