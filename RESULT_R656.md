@@ -14,4 +14,4 @@
 - **coverage**: 十栏+必盯软刷+关键词≈90min；Tape/Elysium/GIWA/Doge/Zero/Starknet/flap/Irys/Full/agent pads软；Leeonmort仍NF；Forge新号粉0
 - **panel**: https://reboot7454.github.io/early-scout/
 
-- **push**: pending
+- **push**: ok `fd0e6bf` → origin/main
