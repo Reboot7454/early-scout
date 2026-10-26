@@ -1,7 +1,7 @@
 {
   "round": 580,
   "mode": "discord-alpha-40",
-  "completedAt": "2026-10-26 08:02:41 CST",
+  "completedAt": "2026-10-26 08:03:07 CST",
   "timezone": "Asia/Shanghai",
   "notify": false,
   "notifyReason": "no_new_admits",
@@ -37,11 +37,14 @@
     "note": "R580：Discord alpha 补漏无新收（#alpha-1 07:19后1卡：playnexaria已有去重 playnexaria）；清 black-hole-agent,trendr-ai；lastSeen→07:22 CST"
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "commit": "49c7c35",
+    "fullSha": "49c7c35b4a1ac55b7ca577e0d050f0e59b709504",
+    "remote": "origin/main"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R580：Discord alpha 补漏无新收（#alpha-1 07:19后1卡：playnexaria已有去重 playnexaria）；清 black-hole-agent,trendr-ai；lastSeen→07:22 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "priorRoundNote": "R579 left newThisRound=['trendr-ai', 'black-hole-agent']; Discord peek 1 card after 07:19 CST all dedup"
 }
