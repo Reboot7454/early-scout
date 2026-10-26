@@ -1,0 +1,88 @@
+{
+  "round": 638,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-27 00:33 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admit+le2h",
+  "alertMessage": "R638 新收 Bad Place（BNB social pad 主网11/07）、FLING（Monad 股票配对 LIVE）、Goo Exchange、Unbinary；PAWS FCFS 免费铸造仍 LIVE（≤2h）｜面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "bad-place",
+      "handle": "badplace_",
+      "name": "Bad Place",
+      "note": "BNB social launchpad；Mainnet 2026-11-07；Alpha Capital"
+    },
+    {
+      "id": "fling",
+      "handle": "FlingFamily",
+      "name": "FLING",
+      "note": "Monad STOCKS LIVE；xStocksFi 配对发币"
+    },
+    {
+      "id": "goo-exchange",
+      "handle": "GrayGooEx",
+      "name": "Goo Exchange",
+      "note": "Robinhood DEX+launchpad；CA live"
+    },
+    {
+      "id": "unbinary",
+      "handle": "unbinaryio",
+      "name": "Unbinary",
+      "note": "Monad Alpha Testnet LIVE scalar mint"
+    }
+  ],
+  "newCount": 4,
+  "newIds": [
+    "bad-place",
+    "fling",
+    "goo-exchange",
+    "unbinary"
+  ],
+  "skipped": [
+    {
+      "id": "kryntar",
+      "handle": null,
+      "reason": "get_users_by_usernames 核验 kryntar/KryntarAgents/KRYNTAR_xyz 均 Not Found；无官方 X"
+    },
+    {
+      "id": "ditchdotfun",
+      "handle": "ditchdotfun",
+      "reason": "官推今日新建粉0、无实质产品窗；过薄 skip"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "paws-rh",
+      "summary": "FCFS free mint LIVE 自 23:34 CST → 约至 01:34；仍可操作"
+    }
+  ],
+  "xReads": 12,
+  "dsFallback": false,
+  "dsUsage": "admit+score+alert via deepseek-flash (thinking on); 4 admits",
+  "discordPeekDeferred": false,
+  "discordAlphaNote": "R637 已扫过 alpha；lastSeen 仍 2026-10-26 13:03 CST；本轮未开浏览器",
+  "push": {
+    "attempted": true,
+    "ok": false,
+    "commit": null,
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R638：新收 bad-place/fling/goo-exchange/unbinary；PAWS FCFS≤2h续；Elysium 主网仍11-09；TapeFractal 今晚20:00非≤2h；KRYNTAR无官推skip；xReads=12",
+  "coverage": {
+    "keywords30m": "agent mining/Agent ID/BN Agent/free mint/fair launch/flap/Irys/Tape/GIWA/DogeOS/Elysium/Starknet/挖矿打新等（合并查询）",
+    "mustWatchSample": "Enter_Elysium / Kinetiq / bitcointapes / Tape* / StonksPadsh / flapdotsh / fulldotfun / saulpink / spritefun / Pawsworldio / TapeFractal / Ptah / pipfun / TracNetwork / badplace_",
+    "handleVerify": "badplace_ / GrayGooEx / FlingFamily / unbinaryio / kryntar(三变体NotFound) / ditchdotfun / delegate1111 / nonceprotocol / AmmoraHQ 均 get_users_by_username(s) 核验",
+    "elysium": "主网仍 2026-11-09；Uniswap awaits；0x Day1；无 On-testnet 新收；硬排除 perpme/branchpoint/outrive 续",
+    "zero": "lzATLAS / Zero 仍 2026-11-30；刷屏无新 admit",
+    "dogeEvm": "DogeOS 无官推 token；防伪提醒续；无新 admit",
+    "giwa": "Ammora waitlist 刷屏续；无新 admit",
+    "tape": "BTape FREE mint 修复续；TapeFractal Freemint 10/27 20:00 CST 非≤2h；tags 电路板/TapeOut",
+    "fullFun": "$FULL 周一已过仍无精确≤2h",
+    "bnAgent": "Ptah POA / NONCE / DELEGATE 续；KRYNTAR 无官推 skip；Leeonmort 仍 Not Found",
+    "focus": "新卡 focus:false；未改 meta.focusIds",
+    "discord": "discordPeekDeferred=false；R637 已扫过 alpha"
+  },
+  "remoteVerified": false
+}
