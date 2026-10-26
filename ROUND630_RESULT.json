@@ -168,32 +168,34 @@
     "softDebt": true,
     "bnAgent": true
   },
-  "panel": {
-    "zones": [
-      "打新",
-      "挖矿",
-      "台子/Meme",
-      "GO盘",
-      "LayerZero",
-      "Elysium",
-      "Tape/电路",
-      "GIWA",
-      "DogeEVM",
-      "BN Agent 钱包"
-    ],
-    "newZoneHints": {
-      "stonkmcp": "台子/Meme",
-      "city-hunters": "BN Agent / 打新"
-    }
-  },
+  "panel": "https://reboot7454.github.io/early-scout/",
   "push": {
-    "ok": false,
-    "commit": null,
+    "attempted": true,
+    "ok": true,
+    "commit": "3dd23b4",
+    "fullSha": "3dd23b40a4defdeba75b1b9f609292504f529da8",
     "branch": "main",
+    "remote": "origin/main",
     "files": [
       "data.json",
       "ROUND630_RESULT.json"
     ]
   },
-  "summary": "R630：新收录 StonkMCP + CITY HUNTERS；清出 bitcoin-labz 芯片；≤2h LIVE 窗续（Force/Forever/SEVY/$RBT/BTape/Milkbao/AgentSeal）；StonksPad/$FULL 仍无 HH:MM；Discord peek deferred；DS deepseek-flash×3。"
+  "summary": "R630：新收录 StonkMCP + CITY HUNTERS；清出 bitcoin-labz 芯片；≤2h LIVE 窗续（Force/Forever/SEVY/$RBT/BTape/Milkbao/AgentSeal）；StonksPad/$FULL 仍无 HH:MM；Discord peek deferred；DS deepseek-flash×3。",
+  "remoteVerified": true,
+  "focusBanRespected": true,
+  "softRefresh": [
+    "the-force",
+    "forever-cult-fund",
+    "sevy",
+    "robtrade",
+    "bitcointapes",
+    "milkbao",
+    "agent-seal",
+    "stonks-pad",
+    "full-fun",
+    "sprite-fun",
+    "*Watch lastChecked"
+  ],
+  "priorRoundNote": "R629 meta.newThisRound still had bitcoin-labz; cleared in R630"
 }
