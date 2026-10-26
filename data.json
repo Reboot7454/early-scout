@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-27 06:34 CST",
+    "updated": "2026-10-27 07:18 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-keyword-mustwatch-soft",
-    "lastScout": "2026-10-27 06:34 CST",
+    "lastScout": "2026-10-27 07:18 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -448,7 +448,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 660,
+    "round": 661,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1252,8 +1252,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "listpads",
-      "notuspad"
+      "emberhold"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -2713,17 +2712,17 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-10-27 06:32 CST",
-      "lastChecked": "2026-10-27 06:34 CST",
-      "newestCardTime": "2026-10-26 13:03 CST",
-      "cardsAfterCutoff": 6,
-      "note": "R659：Discord alpha 补收 veto-agents,use-mokuos,senatorpad,open-tower；跳过 [{'id': 'php-united', 'reason': '仅有meme/安全研究标签与CTO/DEV自述，无独立产品、发射或玩法证据，空壳风险高。'}, {'id': 'g-prunster', 'reason': '个人创始人账号，非独立项目推特；SolarAI Ventures仅有愿景描述，无发射或产品证据。'}]；清 just-stonk-it,rugless,sob-nft,garlic-pad,aiuki；lastSeen→2026-10-27 06:32 CST；lastChecked→2026-10-27 06:34 CST｜源：alpha-3 06:04–06:32（多为@ethereum 关注的垃圾号）/ backup 06:13–06:28 / smart 06:04–06:25（成熟BTC机构号不收）/ #alpha-1 仍停 10/26 13:03｜R660：discordPeekDeferred=true，保留 lastSeen 2026-10-27 06:32 CST",
-      "lastRound": 659,
+      "deferred": false,
+      "lastSeen": "2026-10-27 07:13 CST",
+      "lastChecked": "2026-10-27 07:18 CST",
+      "newestCardTime": "2026-10-27 07:13 CST",
+      "cardsAfterCutoff": 5,
+      "note": "R661：Discord alpha 补收 emberhold；跳过 [{'id': 'actuate', 'reason': '仅有简介里的产品描述，0 粉丝、无官网、无产品链接或演示，也没有任何链上或发射痕迹，很难排除是空壳账号，因此不予收录。'}, {'id': 'pad', 'reason': '虽然简介给出手续费分流（流动性、回购销毁、质押、分红）的玩法线索，但无官网、无产品链接、无发射记录，9 粉丝且账号名依附 Robinhood，空壳或蹭热点风险过高。'}]；清 listpads,notuspad；lastSeen→2026-10-27 07:13 CST；lastChecked→2026-10-27 07:18 CST｜源：alpha-3 06:34–07:10（多为@ethereum 关注的垃圾号；Actuate_HQ/padonhood DS拒）/ backup 06:58–07:13（web3heroes 已有）/ smart 06:45–07:12（Hoodport 已有，taostats/KOL 不收）/ #alpha-1 仍停 10/26 13:03",
+      "lastRound": 661,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-27 06:32 CST",
-        "alpha-1-backup": "2026-10-27 06:28 CST",
-        "smart-accounts-tracker": "2026-10-27 06:25 CST",
+        "alpha-3-new-accounts": "2026-10-27 07:10 CST",
+        "alpha-1-backup": "2026-10-27 07:13 CST",
+        "smart-accounts-tracker": "2026-10-27 07:12 CST",
         "alpha-1": "2026-10-26 13:03 CST"
       },
       "alpha3OlderGap": "2026-10-26 13:03→2026-10-27 02:46 CST 未逐卡读完（卡量>60，噪音高）"
@@ -6902,9 +6901,62 @@
     "round660Added": [
       "listpads",
       "notuspad"
+    ],
+    "round661Added": [
+      "emberhold"
     ]
   },
   "candidates": [
+    {
+      "id": "emberhold",
+      "name": "EmberHold",
+      "handle": "@emberv4_",
+      "twitter": "@emberv4_",
+      "chain": "Ethereum",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "链游",
+        "岛屿建设",
+        "手续费驱动",
+        "Ethereum",
+        "极早期",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/emberv4_"
+      },
+      "scores": {
+        "early": 8,
+        "potential": 6,
+        "risk": 7
+      },
+      "highlights": [
+        "玩法线索具体：浮岛建国、向冰封/焦土/燃烧之地扩张",
+        "手续费直接生成新岛屿，经济闭环有设计感",
+        "已有官网域名，v4命名暗示迭代过多版",
+        "粉丝16，处于极早期窗口"
+      ],
+      "drawbacks": [
+        "官网内容与代币/发射信息尚未核实",
+        "无团队信息，匿名度高",
+        "粉丝基数极小，热度未验证"
+      ],
+      "whatsNew": "一个 Ethereum 上的浮岛建国链游项目，v4 版本账号刚被 smart-accounts 关注，官网已上线。",
+      "summary": "极早期 Ethereum 链游，玩法与手续费造岛机制清晰且有官网，可作为 GO盘 观察位收录，风险中等偏高。",
+      "blurb": "极早期 Ethereum 链游，玩法与手续费造岛机制清晰且有官网，可作为 GO盘 观察位收录，风险中等偏高。",
+      "round": 661,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 16,
+      "xFollowers": 16,
+      "firstSeen": "2026-10-27 07:18 CST",
+      "addedAt": "2026-10-27 07:18 CST",
+      "lastChecked": "2026-10-27 07:18 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "listpads",
       "name": "LIST",
@@ -6922,7 +6974,7 @@
       "ecosystem": "x402",
       "status": "live",
       "focus": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 660,
       "followers": 73,
       "xFollowers": 73,
@@ -6989,7 +7041,7 @@
       "ecosystem": "Base",
       "status": "live",
       "focus": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 660,
       "followers": 55,
       "xFollowers": 55,
@@ -104441,20 +104493,19 @@
     }
   ],
   "newThisRound": [
-    "listpads",
-    "notuspad"
+    "emberhold"
   ],
-  "alertMessage": "新增 LIST（粉73·x402房产agentic台）与 Notus（Base cbLTC/LTC LIVE+积分）；2h内看 letsprint-ink、AIUKI、Garlic；farm已>2h、SoB约12:29前free mint、Elysium仍11-09 → https://reboot7454.github.io/early-scout/",
+  "alertMessage": "R661 DC补漏新收1：EmberHold(@Emberv4_ ETH浮岛建国链游，16粉，官网emberholdv4.xyz) → https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "pumpling-pills"
   ],
-  "updatedAt": "2026-10-27 07:04 CST",
-  "updated": "2026-10-27 06:34 CST",
+  "updatedAt": "2026-10-27 07:18 CST",
+  "updated": "2026-10-27 07:18 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-27 06:34 CST",
+  "lastScout": "2026-10-27 07:18 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -104496,7 +104547,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1445,
+  "candidateCount": 1446,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -104948,5 +104999,8 @@
   "round660Added": [
     "listpads",
     "notuspad"
+  ],
+  "round661Added": [
+    "emberhold"
   ]
 }

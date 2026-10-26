@@ -1,0 +1,59 @@
+{
+  "round": 661,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-27 07:18 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "emberhold"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "emberhold"
+  ],
+  "skipped": [
+    {
+      "id": "actuate",
+      "reason": "仅有简介里的产品描述，0 粉丝、无官网、无产品链接或演示，也没有任何链上或发射痕迹，很难排除是空壳账号，因此不予收录。"
+    },
+    {
+      "id": "pad",
+      "reason": "虽然简介给出手续费分流（流动性、回购销毁、质押、分红）的玩法线索，但无官网、无产品链接、无发射记录，9 粉丝且账号名依附 Robinhood，空壳或蹭热点风险过高。"
+    }
+  ],
+  "cardsAfterLastSeen": 5,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "listpads",
+    "notuspad"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "listpads",
+    "notuspad"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=3",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-27 07:13 CST",
+    "lastChecked": "2026-10-27 07:18 CST",
+    "newestCardTime": "2026-10-27 07:13 CST",
+    "cardsAfterCutoff": 5,
+    "note": "R661：Discord alpha 补收 emberhold；跳过 [{'id': 'actuate', 'reason': '仅有简介里的产品描述，0 粉丝、无官网、无产品链接或演示，也没有任何链上或发射痕迹，很难排除是空壳账号，因此不予收录。'}, {'id': 'pad', 'reason': '虽然简介给出手续费分流（流动性、回购销毁、质押、分红）的玩法线索，但无官网、无产品链接、无发射记录，9 粉丝且账号名依附 Robinhood，空壳或蹭热点风险过高。'}]；清 listpads,notuspad；lastSeen→2026-10-27 07:13 CST；lastChecked→2026-10-27 07:18 CST",
+    "lastRound": 661
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R661：Discord alpha 补收 emberhold；跳过 [{'id': 'actuate', 'reason': '仅有简介里的产品描述，0 粉丝、无官网、无产品链接或演示，也没有任何链上或发射痕迹，很难排除是空壳账号，因此不予收录。'}, {'id': 'pad', 'reason': '虽然简介给出手续费分流（流动性、回购销毁、质押、分红）的玩法线索，但无官网、无产品链接、无发射记录，9 粉丝且账号名依附 Robinhood，空壳或蹭热点风险过高。'}]；清 listpads,notuspad；lastSeen→2026-10-27 07:13 CST；lastChecked→2026-10-27 07:18 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261027_0715.json",
+  "priorRoundNote": "R660 meta NTR ['listpads', 'notuspad']; cardsAfterCutoff=5"
+}
