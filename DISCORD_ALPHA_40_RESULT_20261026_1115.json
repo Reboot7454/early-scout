@@ -1,0 +1,77 @@
+{
+  "round": 592,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-26 11:20 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "雷达通知：本轮 Discord alpha 新收 Machima（@machima→台子/Meme）、Grail（@Graildotfamily→台子/Meme）、Bitardio（@Bitardi0→打新）。https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "machima",
+      "handle": "machima",
+      "name": "Machima",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "followers": 14,
+      "discordTime": "2026-10-26 11:15 CST"
+    },
+    {
+      "id": "grail",
+      "handle": "Graildotfamily",
+      "name": "Grail",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "followers": 43,
+      "discordTime": "2026-10-26 11:16 CST"
+    },
+    {
+      "id": "bitardi0",
+      "handle": "Bitardi0",
+      "name": "Bitardio",
+      "category": "打新",
+      "zone": "打新",
+      "followers": 64,
+      "discordTime": "2026-10-26 11:16 CST"
+    }
+  ],
+  "newCount": 3,
+  "newIds": [
+    "machima",
+    "grail",
+    "bitardi0"
+  ],
+  "skipped": [
+    {
+      "handle": "fundslashraise",
+      "reason": "空壳账号：bio 为 loading...，无实质内容，仅 5 粉且 chain 为空，无法判断项目方向，直接跳过。"
+    }
+  ],
+  "cardsAfterLastSeen": 4,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "squeeze",
+    "lunatic-wallet"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking:on batched admit+score (4 cards: machima/grail/bitardi0 admit, fundslashraise skip)",
+  "coverage": "discord-alpha #alpha-1",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-26 11:16 CST",
+    "lastChecked": "2026-10-26 11:20 CST",
+    "newestCardTime": "2026-10-26 11:16 CST",
+    "note": "R592：Discord alpha 补收 machima,grail,bitardi0；清 squeeze,lunatic-wallet; lastSeen→11:16 CST"
+  },
+  "push": {
+    "attempted": true,
+    "ok": true,
+    "commit": "355048e",
+    "fullSha": "355048e9697ee7cc8990cd7f6d34edca4a8c4839",
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R592：Discord alpha 补收 machima(@machima→台子/Meme)、grail(@Graildotfamily→台子/Meme)、bitardi0(@Bitardi0→打新)；清 squeeze,lunatic-wallet；lastSeen→11:16 CST",
+  "remoteVerified": true
+}
