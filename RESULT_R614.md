@@ -13,7 +13,7 @@
 - **ds**: deepseek-flash thinking；admit A z0mbit；skip fourbook/khnum
 - **softRefresh**: SEVY确认窗；FORCE 21:00；Stonks/$FULL/BTape无精确HH:MM；Elysium主网 2026-11-09
 - **skipped**: fourbook / khnum / synape / squishem / leeonmort NF / ammora NF / spritefun shutdown
-- **push**: pending
+- **push**: ok `b240651` remoteVerified
 
 ## Summary
 R614 新收 Z0MBIT（BNB 链 AI Agent 主题 FREE mint LIVE，4444 zombie bots，1 free/wallet，仅 AI Agent 铸；CA 自报；粉≈11；focus:false；zone bnagent）。SEVY 今日 18:00 CST FREE mint 仍有效且 ≤2h，触发 notify。清上一轮 holocats。Discord peek deferred。
