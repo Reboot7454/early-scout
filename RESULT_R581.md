@@ -83,4 +83,5 @@
 ```
 
 ## Push
-- (pending)
+- ok: true
+- sha: `b1f6def` (`b1f6def2ba22e8d74ebb51c4e456d599384d4f3c`)
