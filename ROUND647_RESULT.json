@@ -1,0 +1,104 @@
+{
+  "round": 647,
+  "mode": "full-scout",
+  "completedAt": "2026-10-27 03:05 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "true_new_admits",
+  "alertMessage": "R647 新收录：SPOXY（BNB，FREE mint LIVE，CA未核）、Aiko（Solana，AI Agent launchpad，极薄高风险）。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "spoxy",
+      "name": "SPOXY · Cyber Spirits",
+      "handle": "spoxydev",
+      "category": "打新",
+      "zone": "BN Agent 钱包",
+      "tags": [
+        "Binance Agent钱包",
+        "AI Agent",
+        "free mint",
+        "BNB"
+      ],
+      "followers": 32,
+      "status": "live",
+      "overall": 61
+    },
+    {
+      "id": "aikoagents",
+      "name": "Aiko",
+      "handle": "AikoAgents",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "tags": [
+        "AI Agent",
+        "Launchpad",
+        "Solana"
+      ],
+      "followers": 1,
+      "status": "live",
+      "overall": 40
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "spoxy",
+    "aikoagents"
+  ],
+  "admitted": [
+    {
+      "id": "spoxy",
+      "name": "SPOXY · Cyber Spirits",
+      "handle": "spoxydev",
+      "column": "BN Agent 钱包/打新"
+    },
+    {
+      "id": "aikoagents",
+      "name": "Aiko",
+      "handle": "AikoAgents",
+      "column": "台子/Meme"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "meetmotes",
+      "reason": "DS admit skip：仅 Applications open，非即时 mint/launch 窗"
+    },
+    {
+      "id": "Leeonmort",
+      "reason": "X Not Found（本轮再核）"
+    },
+    {
+      "id": "MoondengBNB",
+      "reason": "无独立干净官推；spoxydev 连环带货"
+    },
+    {
+      "id": "sprite-fun",
+      "reason": "已停建/status ended；无新 Irys pad"
+    }
+  ],
+  "softUpdates": [
+    {
+      "id": "doginal-frogs",
+      "whatsNew": "R647 soft：Solana FREE mint 仍LIVE，开约02:02 CST，现仍≤2h，粉约276"
+    },
+    {
+      "id": "elysium-launch",
+      "whatsNew": "R647 soft：Private Mainnet 仍LIVE，开约01:20 CST，仍≤2h，粉约526；主网仍2026-11-09"
+    },
+    {
+      "id": "full-fun",
+      "whatsNew": "R647 soft：@fulldotfun 仍LIVE，开约01:12 CST，仍≤2h，粉约11854"
+    }
+  ],
+  "xReads": 26,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking：admit+score(spoxy/aikoagents/meetmotes)+soft/alert copy",
+  "coverage": "十栏+必盯软刷+关键词≈3h窗；BTC隐私/Starknet/GIWA/DogeEVM/Zero/Elysium/Tape/flap/Irys/Full.fun/BN Agent/agent mining/trading",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "本轮新增SPOXY与Aiko，另有DoginalFrogs、ElysiumLaunch、$FULL仍在LIVE窗口内。",
+  "push": {
+    "attempted": false,
+    "ok": false
+  }
+}
