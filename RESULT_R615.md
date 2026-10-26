@@ -13,7 +13,7 @@
 - **ds**: deepseek-flash thinking；admit A agent-bestiary；skip bstonk-agents/launch-x/leadloop/pick-rush-update
 - **softRefresh**: SEVY开窗；FORCE 21:00非≤2h；PickRush周二12UTC；Stonks/$FULL/BTape无HH:MM；Elysium主网 2026-11-09；Canton/Glaze/TokenWorks lastChecked
 - **skipped**: bstonk-agents(opens soon非free) / launch-x(已热) / leadloop(无官推) / pick-rush(已收录软更) / spritefun shutdown / leeonmort NF
-- **push**: pending
+- **push**: ok `5bd0c36` remoteVerified
 
 ## Summary
 R615 新收 Agent Bestiary（BNB 链 .ai Agent ID 门控链上生成艺术 NFT，首枚 FREE/agent LIVE，0粉极早期；CA 自报；focus:false；zone bnagent via tags）。SEVY 今日 18:00 CST FREE mint 开窗 ≤2h，触发 notify。清上一轮 z0mbit。Discord peek deferred。
