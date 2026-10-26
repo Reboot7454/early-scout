@@ -1,0 +1,235 @@
+{
+  "round": 621,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 19:30 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "newAdmit+le2h",
+  "alertMessage": "新增：Robin Mining（RH免费铸造，GTD至10/31）、Preemption（RH发射权市场LIVE）、RobTrade（22:00CST）；≤2h：The Force 21:00 ETH 7777免费铸造、Forever Cult Fund 21:00 RH Founding NFT 500×0.045ETH、Sevy LIVE BN Agent免费铸造。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "robin-mining",
+      "name": "Robin Mining",
+      "handle": "RobinMining",
+      "zone": "scout",
+      "focus": false,
+      "status": "watching",
+      "x": "https://x.com/RobinMining",
+      "window": "GTD list to Oct31; mint TBA"
+    },
+    {
+      "id": "preemption",
+      "name": "Preemption",
+      "handle": "preemfun",
+      "zone": "meme",
+      "focus": false,
+      "status": "live",
+      "x": "https://x.com/preemfun",
+      "window": "Scout Profiles LIVE"
+    },
+    {
+      "id": "robtrade",
+      "name": "RobTrade",
+      "handle": "Robtradexyz",
+      "zone": "meme",
+      "focus": false,
+      "status": "announced",
+      "x": "https://x.com/Robtradexyz",
+      "window": "2026-10-26 22:00 CST token launch"
+    }
+  ],
+  "newCount": 3,
+  "newIds": [
+    "robin-mining",
+    "preemption",
+    "robtrade"
+  ],
+  "skipped": [
+    {
+      "id": "dark-node",
+      "reason": "无独立官推；Kryntar_io刷屏CA；DS skip"
+    },
+    {
+      "id": "kryntar",
+      "reason": "同 dark-node；刷量/钓鱼风险"
+    },
+    {
+      "id": "ribbit-reefers",
+      "reason": "既有 @ReefersRH 持有人免费增发；无新独立项目官推"
+    },
+    {
+      "id": "sevy",
+      "reason": "已收录；LIVE软更≤2h"
+    },
+    {
+      "id": "the-force",
+      "reason": "已收录；21:00CST≤2h软更"
+    },
+    {
+      "id": "forever-cult-fund",
+      "reason": "已收录；21:00CST≤2h软更"
+    },
+    {
+      "id": "stonks-pad",
+      "reason": "Mon无HH:MM"
+    },
+    {
+      "id": "full-fun",
+      "reason": "Monday无HH:MM"
+    },
+    {
+      "id": "spritefun",
+      "reason": "still shutdown/静默"
+    },
+    {
+      "id": "bitcointapes",
+      "reason": "设计挑战开放；mint soon无HH:MM"
+    },
+    {
+      "id": "enter-elysium",
+      "reason": "主网11/09无新On-testnet"
+    },
+    {
+      "id": "pipfun",
+      "reason": "已收录软更"
+    },
+    {
+      "id": "dotaipad",
+      "reason": "已收录；无新窗"
+    },
+    {
+      "id": "disorderly-afterflow",
+      "reason": "23:00CST≈3.5h非≤2h"
+    },
+    {
+      "id": "fomopoly",
+      "reason": "已收录；WL续 mint TBA"
+    },
+    {
+      "id": "raidlords",
+      "reason": "已收录"
+    },
+    {
+      "id": "digital-humans",
+      "reason": "已收录"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "the-force",
+      "handle": "theforceNFT",
+      "window": "2026-10-26 21:00 CST",
+      "etaHours": 1.5,
+      "event": "ETH 7777 free mint"
+    },
+    {
+      "id": "forever-cult-fund",
+      "handle": "forevercultfund",
+      "window": "2026-10-26 21:00 CST",
+      "etaHours": 1.5,
+      "event": "RH Founding NFT 500×0.045ETH"
+    },
+    {
+      "id": "sevy",
+      "handle": "Sevy_Ai",
+      "window": "LIVE since 18:00 CST",
+      "etaHours": 0.0,
+      "event": "BN Agent FREE mint LIVE onchain"
+    }
+  ],
+  "clearedPrevNewThisRound": [
+    "odd-society",
+    "pocket-dragons-bnb",
+    "ascendants-games"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": 3,
+    "modes": [
+      "admit",
+      "score",
+      "alert"
+    ]
+  },
+  "xReads": 20,
+  "coverage": {
+    "keywords": true,
+    "agentPad": true,
+    "flap": true,
+    "fullFun": true,
+    "irys": true,
+    "tape": true,
+    "kinetiq": true,
+    "giwa": true,
+    "dogeEvm": "budget-sample",
+    "starknet": "budget-sample",
+    "agentMining": true,
+    "agentTrading": true,
+    "btc": true,
+    "zero": "budget-sample",
+    "bnAgent": true,
+    "elysium": true
+  },
+  "softRefresh": {
+    "sevy": {
+      "handle": "Sevy_Ai",
+      "window": "LIVE",
+      "le2h": true,
+      "followers": 8,
+      "status": "LIVE onchain ~777 minted"
+    },
+    "theforce": {
+      "handle": "theforceNFT",
+      "window": "21:00 CST",
+      "le2h": true,
+      "etaHours": 1.5
+    },
+    "forever": {
+      "handle": "forevercultfund",
+      "window": "21:00 CST",
+      "le2h": true,
+      "etaHours": 1.5
+    },
+    "stonkspad": {
+      "le2h": false,
+      "note": "Mon window no HH:MM"
+    },
+    "fulldotfun": {
+      "le2h": false,
+      "note": "$FULL Monday no HH:MM"
+    },
+    "bitcointapes": {
+      "le2h": false,
+      "note": "design challenges open; mint soon no HH:MM"
+    },
+    "elysium": {
+      "mainnet": "2026-11-09",
+      "le2h": false
+    },
+    "spritefun": {
+      "note": "still quiet ~150 foll"
+    },
+    "pipfun": {
+      "note": "V2 live soft"
+    },
+    "robtrade": {
+      "le2h": false,
+      "etaHours": 2.5,
+      "note": "22:00CST token"
+    },
+    "cantonGlazeTokenWorks": {
+      "note": "soft-debt lastChecked refreshed"
+    }
+  },
+  "focusBanRespected": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R621：新收 Robin Mining + Preemption + RobTrade（RH）；LE2h Force/Forever 21:00CST + SEVY LIVE；Discord deferred；清 R619 顶层 newThisRound",
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "remoteVerified": false
+}
