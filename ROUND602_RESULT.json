@@ -1,0 +1,76 @@
+{
+  "round": 602,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 14:05 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新增：SYNAPE(@synapeBAYC) BNB Agent ID门控NFT首铸免费，LIVE≈508/10k；面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "synape",
+      "name": "SYNAPE",
+      "handle": "synapeBAYC",
+      "zone": "BN Agent 钱包",
+      "ecosystem": "BNB",
+      "followers": 646,
+      "scoreOverall": 73,
+      "reason": "BNB Agent ID门控NFT首铸免费 LIVE≈508/10k；官推@synapeBAYC；CA未核"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "synape"
+  ],
+  "skipped": [
+    {
+      "id": "rigorchain",
+      "reason": "无清晰独立官推（搜索噪声）；不作admit"
+    },
+    {
+      "id": "sprite-fun",
+      "reason": "关停/站点异常；已在库软注，不重admit"
+    },
+    {
+      "id": "known-pads",
+      "reason": "flapai/flapagent/milkbao/stonks-pad/full-fun/pipfun/bitcointapes等已知跳过重收"
+    }
+  ],
+  "le2h": [],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "noteRoundBump": "Parent tasked R601 X soft; Discord agent already claimed R601 (0 admits, cleared flapagent/off-air). X soft+synape landed as R602.",
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking:on admit(synape)+score(overall73)+alert；summary本地（DS content溢出）",
+  "xReads": 19,
+  "coverage": "打新|挖矿|台子/Meme|GO盘|LayerZero|Elysium|Tape|GIWA|DogeEVM|BN Agent|BTC|Starknet equal soft",
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": "2026-10-26 13:03 CST",
+    "lastChecked": "2026-10-26 14:00 CST",
+    "note": "R601 Discord已补漏0卡；R602本执行器无浏览器→deferred"
+  },
+  "softRefresh": {
+    "stonksPad": "live无HH:MM 非≤2h",
+    "fullFun": "$FULL无HH:MM 非≤2h",
+    "bitcointapes": "设计开放续 无HH:MM",
+    "spritefun": "关停/站点异常",
+    "pipfun": "CLI/Agent ID bonding续 无HH:MM",
+    "elysium": "主网11-09",
+    "zero": "mainnet+lzATLAS 11-30",
+    "leeonmort": "仍 Not Found",
+    "xuanwu": "无新≤2h HH:MM"
+  },
+  "push": {
+    "attempted": false,
+    "ok": false,
+    "commit": null,
+    "fullSha": null,
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R602：X soft新收synape(@synapeBAYC BN Agent门控NFT FREE mint LIVE≈508/10k)；无≤2h；Stonks/$FULL/BTape/pipfun无HH:MM；Elysium主网11-09；Zero+lzATLAS11-30；spritefun关停；R601 Discord已跑无新卡",
+  "remoteVerified": false,
+  "priorRoundNote": "R601 Discord alpha 补漏无新卡；cleared flapagent/off-air"
+}
