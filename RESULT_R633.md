@@ -12,7 +12,7 @@
 - soft: Canton/Glaze/TokenWorks lastChecked；bitcointapes/sevy/cantopia/agent-seal/the-force/forever/full-fun/ptah/sprite/listen/elysium/dogeOS 等
 - xReads: 18 / dsFallback: false
 - discordPeekDeferred: true
-- push: pending
+- push: ok
 - alert: 新增 Hashstone、Ink Monsters、VibeNad、Agentrox；StonksPad 2h窗口约至00:22，速看面板：https://reboot7454.github.io/early-scout/
 
 ## Coverage
