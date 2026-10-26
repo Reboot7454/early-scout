@@ -1,0 +1,72 @@
+{
+  "round": 635,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 23:37 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admit+le2h",
+  "alertMessage": "⏰ PAWS Robinhood FCFS 免费铸造进行中（≤2h）；StonksPad 上线窗≤2h至00:22 CST；TapeFractal 明日20:00 Freemint｜面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "tape-fractal",
+      "handle": "TapeFractal",
+      "name": "TapeFractal",
+      "note": "Fractal Bitcoin TapeOut Freemint 10/27 20:00 CST"
+    },
+    {
+      "id": "paws-rh",
+      "handle": "Pawsworldio",
+      "name": "PAWS",
+      "note": "Robinhood FCFS free mint LIVE ≤2h"
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "tape-fractal",
+    "paws-rh"
+  ],
+  "skipped": [
+    {
+      "id": "hydra-swarm",
+      "handle": "Hydra_Swarm",
+      "reason": "DS：已有CA+agentic trading叙事，无明确极早期 mint/launch 窗"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "paws-rh",
+      "summary": "FCFS free mint LIVE ~23:34 CST → 约至01:34"
+    },
+    {
+      "id": "stonks-pad",
+      "summary": "22:22官宣 WITHIN NEXT 2 HOURS → 约至00:22 CST；flap+website"
+    }
+  ],
+  "xReads": 18,
+  "dsFallback": false,
+  "dsUsage": "admit+score+alert via deepseek-flash (thinking on); hydra skipped",
+  "discordPeekDeferred": false,
+  "discordAlphaNote": "R634 已扫过 alpha；lastSeen 仍 2026-10-26 13:03 CST；本轮未开浏览器",
+  "push": {
+    "attempted": true,
+    "ok": null,
+    "commit": null,
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R635：新收 tape-fractal、paws-rh；PAWS FCFS mint LIVE≤2h；StonksPad 窗约至00:22；Elysium 主网仍11-09；BTape mint续；Full.fun无精确窗；xReads=18",
+  "coverage": {
+    "keywords30m": "agent mining/Agent ID/BN Agent/free mint/fair launch/flap/Irys/Tape/GIWA/DogeOS/Elysium/Starknet/挖矿打新等（合并查询）",
+    "mustWatchSample": "Enter_Elysium / StonksPadsh / bitcointapes / fulldotfun / saulpink / spritefun_xyz / flapdotsh / TapeFractal / Ptahtrade / Kinetiq batch",
+    "handleVerify": "TapeFractal / Pawsworldio / Hydra_Swarm / zkblast20 / sonicprotocol_ / RobinMining / nuloraio / agentpunkid 均 get_users_by_username(s) 核验",
+    "elysium": "主网仍 2026-11-09；Uniswap awaits；无 On-testnet 新收；硬排除 perpme/branchpoint/outrive 续",
+    "zero": "lzATLAS / Zero 仍 2026-11-30",
+    "dogeEvm": "DogeOS 有 oracle/用户路径讨论；无新 admit",
+    "giwa": "Ammora/Pabal 刷屏续；无新 admit",
+    "tape": "新收 TapeFractal（Fractal Freemint 10/27 20:00）；BTape Circuit FREE mint 修复续 LIVE；tags 电路板/TapeOut；勿标 Elysium",
+    "fullFun": "$FULL 周一 10/26 仍无精确≤2h",
+    "bnAgent": "danta/4Agent/Ptah/Agent Seal/sonicprotocol_ soft；无新 BN Agent 卡",
+    "focus": "新卡 focus:false；未改 meta.focusIds",
+    "discord": "discordPeekDeferred=false；R634 已扫过 alpha"
+  }
+}
