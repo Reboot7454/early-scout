@@ -1,0 +1,70 @@
+{
+  "round": 663,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-27 07:55 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "🛰️ R663 DC补漏新收3：Tide(@Tidetradeapp，RH链memecoin交易终端→台子/Meme)、Clash of Chains(@clashofchains，四链一币每日战争$COC→打新)、Tracer(@Tracerr_app，币研追踪工具→台子/Meme)；均0–2粉未核验。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "tracer-app",
+    "clash-of-chains",
+    "tide-trade"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "tracer-app",
+    "clash-of-chains",
+    "tide-trade"
+  ],
+  "skipped": [
+    {
+      "id": "whyusfun",
+      "reason": "仅有标语和0粉，未看到产品、发射或玩法线索，暂按空壳跳过。"
+    },
+    {
+      "id": "channel3-ai",
+      "reason": "已认证且有官网，但定位更像AI商品发现，非明确加密项目且不够极早期。"
+    }
+  ],
+  "cardsAfterLastSeen": 5,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "claimdpad",
+    "tminus-si"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "claimdpad",
+    "tminus-si"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=5",
+  "coverage": "alpha-3/backup/smart-accounts/alpha-1",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-27 07:50 CST",
+    "lastChecked": "2026-10-27 07:55 CST",
+    "newestCardTime": "2026-10-27 07:50 CST",
+    "cardsAfterCutoff": 5,
+    "note": "R663：Discord alpha 补收 tracer-app,clash-of-chains,tide-trade；跳过 [{'id': 'whyusfun', 'reason': '仅有标语和0粉，未看到产品、发射或玩法线索，暂按空壳跳过。'}, {'id': 'channel3-ai', 'reason': '已认证且有官网，但定位更像AI商品发现，非明确加密项目且不够极早期。'}]；清 claimdpad,tminus-si；lastSeen→2026-10-27 07:50 CST；lastChecked→2026-10-27 07:55 CST｜源：alpha-3 07:30–07:44（12卡）/ backup 无新 / smart 07:50（channel3_ai 非加密跳过）/ #alpha-1 仍停 10/26 13:03",
+    "lastRound": 663,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-27 07:44 CST",
+      "alpha-1-backup": "2026-10-27 07:13 CST",
+      "smart-accounts-tracker": "2026-10-27 07:50 CST",
+      "alpha-1": "2026-10-26 13:03 CST"
+    },
+    "alpha3OlderGap": "2026-10-26 13:03→2026-10-27 02:46 CST 未逐卡读完（卡量>60，噪音高）；另 R663 alpha-3 07:10–07:30 未加载到，可能漏"
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R663：Discord alpha 补收 tracer-app,clash-of-chains,tide-trade；跳过 [{'id': 'whyusfun', 'reason': '仅有标语和0粉，未看到产品、发射或玩法线索，暂按空壳跳过。'}, {'id': 'channel3-ai', 'reason': '已认证且有官网，但定位更像AI商品发现，非明确加密项目且不够极早期。'}]；清 claimdpad,tminus-si；lastSeen→2026-10-27 07:50 CST；lastChecked→2026-10-27 07:55 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261027_0754.json",
+  "priorRoundNote": "R662 meta NTR ['claimdpad', 'tminus-si']; cardsAfterCutoff=5"
+}

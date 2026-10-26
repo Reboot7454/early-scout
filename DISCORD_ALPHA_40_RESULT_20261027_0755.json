@@ -1,0 +1,63 @@
+{
+  "round": 663,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-27 07:55 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "tracer-app",
+    "clash-of-chains",
+    "tide-trade"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "tracer-app",
+    "clash-of-chains",
+    "tide-trade"
+  ],
+  "skipped": [
+    {
+      "id": "whyusfun",
+      "reason": "仅有标语和0粉，未看到产品、发射或玩法线索，暂按空壳跳过。"
+    },
+    {
+      "id": "channel3-ai",
+      "reason": "已认证且有官网，但定位更像AI商品发现，非明确加密项目且不够极早期。"
+    }
+  ],
+  "cardsAfterLastSeen": 5,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "claimdpad",
+    "tminus-si"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "claimdpad",
+    "tminus-si"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=5",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-27 07:50 CST",
+    "lastChecked": "2026-10-27 07:55 CST",
+    "newestCardTime": "2026-10-27 07:50 CST",
+    "cardsAfterCutoff": 5,
+    "note": "R663：Discord alpha 补收 tracer-app,clash-of-chains,tide-trade；跳过 [{'id': 'whyusfun', 'reason': '仅有标语和0粉，未看到产品、发射或玩法线索，暂按空壳跳过。'}, {'id': 'channel3-ai', 'reason': '已认证且有官网，但定位更像AI商品发现，非明确加密项目且不够极早期。'}]；清 claimdpad,tminus-si；lastSeen→2026-10-27 07:50 CST；lastChecked→2026-10-27 07:55 CST",
+    "lastRound": 663
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R663：Discord alpha 补收 tracer-app,clash-of-chains,tide-trade；跳过 [{'id': 'whyusfun', 'reason': '仅有标语和0粉，未看到产品、发射或玩法线索，暂按空壳跳过。'}, {'id': 'channel3-ai', 'reason': '已认证且有官网，但定位更像AI商品发现，非明确加密项目且不够极早期。'}]；清 claimdpad,tminus-si；lastSeen→2026-10-27 07:50 CST；lastChecked→2026-10-27 07:55 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261027_0754.json",
+  "priorRoundNote": "R662 meta NTR ['claimdpad', 'tminus-si']; cardsAfterCutoff=5"
+}

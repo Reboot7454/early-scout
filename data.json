@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-27 07:35 CST",
+    "updated": "2026-10-27 07:55 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-keyword-mustwatch-soft",
-    "lastScout": "2026-10-27 07:35 CST",
+    "lastScout": "2026-10-27 07:55 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -450,7 +450,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 662,
+    "round": 663,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1261,8 +1261,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "claimdpad",
-      "tminus-si"
+      "tracer-app",
+      "clash-of-chains",
+      "tide-trade"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -2731,19 +2732,19 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-10-27 07:13 CST",
-      "lastChecked": "2026-10-27 07:18 CST",
-      "newestCardTime": "2026-10-27 07:13 CST",
+      "lastSeen": "2026-10-27 07:50 CST",
+      "lastChecked": "2026-10-27 07:55 CST",
+      "newestCardTime": "2026-10-27 07:50 CST",
       "cardsAfterCutoff": 5,
-      "note": "R661：Discord alpha 补收 emberhold；跳过 [{'id': 'actuate', 'reason': '仅有简介里的产品描述，0 粉丝、无官网、无产品链接或演示，也没有任何链上或发射痕迹，很难排除是空壳账号，因此不予收录。'}, {'id': 'pad', 'reason': '虽然简介给出手续费分流（流动性、回购销毁、质押、分红）的玩法线索，但无官网、无产品链接、无发射记录，9 粉丝且账号名依附 Robinhood，空壳或蹭热点风险过高。'}]；清 listpads,notuspad；lastSeen→2026-10-27 07:13 CST；lastChecked→2026-10-27 07:18 CST｜源：alpha-3 06:34–07:10（多为@ethereum 关注的垃圾号；Actuate_HQ/padonhood DS拒）/ backup 06:58–07:13（web3heroes 已有）/ smart 06:45–07:12（Hoodport 已有，taostats/KOL 不收）/ #alpha-1 仍停 10/26 13:03",
-      "lastRound": 661,
+      "note": "R663：Discord alpha 补收 tracer-app,clash-of-chains,tide-trade；跳过 [{'id': 'whyusfun', 'reason': '仅有标语和0粉，未看到产品、发射或玩法线索，暂按空壳跳过。'}, {'id': 'channel3-ai', 'reason': '已认证且有官网，但定位更像AI商品发现，非明确加密项目且不够极早期。'}]；清 claimdpad,tminus-si；lastSeen→2026-10-27 07:50 CST；lastChecked→2026-10-27 07:55 CST｜源：alpha-3 07:30–07:44（12卡）/ backup 无新 / smart 07:50（channel3_ai 非加密跳过）/ #alpha-1 仍停 10/26 13:03",
+      "lastRound": 663,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-27 07:10 CST",
+        "alpha-3-new-accounts": "2026-10-27 07:44 CST",
         "alpha-1-backup": "2026-10-27 07:13 CST",
-        "smart-accounts-tracker": "2026-10-27 07:12 CST",
+        "smart-accounts-tracker": "2026-10-27 07:50 CST",
         "alpha-1": "2026-10-26 13:03 CST"
       },
-      "alpha3OlderGap": "2026-10-26 13:03→2026-10-27 02:46 CST 未逐卡读完（卡量>60，噪音高）"
+      "alpha3OlderGap": "2026-10-26 13:03→2026-10-27 02:46 CST 未逐卡读完（卡量>60，噪音高）；另 R663 alpha-3 07:10–07:30 未加载到，可能漏"
     },
     "round239Added": [
       "tsunamilaunch",
@@ -6935,9 +6936,148 @@
     ],
     "round661Added": [
       "emberhold"
+    ],
+    "round663Added": [
+      "tracer-app",
+      "clash-of-chains",
+      "tide-trade"
     ]
   },
   "candidates": [
+    {
+      "id": "tide-trade",
+      "name": "Tide",
+      "handle": "@tidetradeapp",
+      "twitter": "@tidetradeapp",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/tidetradeapp"
+      },
+      "scores": {
+        "early": 9,
+        "potential": 7,
+        "risk": 6
+      },
+      "highlights": [
+        "Robinhood Chain memecoin终端",
+        "钱包内发现与交易",
+        "被@robinhoodapp关注",
+        "build in public"
+      ],
+      "drawbacks": [
+        "仅1粉，产品未上线",
+        "团队/合约未披露",
+        "依赖Robinhood Chain生态"
+      ],
+      "whatsNew": "披露正在构建Robinhood Chain上的memecoin交易终端。",
+      "summary": "Robinhood Chain早期交易终端，方向清晰但需等产品落地。",
+      "blurb": "Robinhood Chain早期交易终端，方向清晰但需等产品落地。",
+      "round": 663,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-10-27 07:55 CST",
+      "addedAt": "2026-10-27 07:55 CST",
+      "lastChecked": "2026-10-27 07:55 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "clash-of-chains",
+      "name": "Clash of Chains",
+      "handle": "@clashofchains",
+      "twitter": "@clashofchains",
+      "chain": "多链",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/clashofchains"
+      },
+      "scores": {
+        "early": 9,
+        "potential": 6,
+        "risk": 8
+      },
+      "highlights": [
+        "$COC代币线索",
+        "四链一币、每日战争玩法",
+        "0粉极早期",
+        "被@ethereum和@robinhoodcrypto关注"
+      ],
+      "drawbacks": [
+        "无官网/合约/演示",
+        "玩法真实性未验证",
+        "0粉空壳风险高"
+      ],
+      "whatsNew": "公开四链一币、每日战争的玩法设定及$COC。",
+      "summary": "极早期多链战争玩法项目，叙事强但待产品验证。",
+      "blurb": "极早期多链战争玩法项目，叙事强但待产品验证。",
+      "round": 663,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-27 07:55 CST",
+      "addedAt": "2026-10-27 07:55 CST",
+      "lastChecked": "2026-10-27 07:55 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "tracer-app",
+      "name": "Tracer",
+      "handle": "@tracerr_app",
+      "twitter": "@tracerr_app",
+      "chain": "未知",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/tracerr_app"
+      },
+      "scores": {
+        "early": 8,
+        "potential": 5,
+        "risk": 7
+      },
+      "highlights": [
+        "币研/追踪交易工具定位",
+        "被@robinhoodcrypto关注",
+        "仅2粉极早期"
+      ],
+      "drawbacks": [
+        "无官网/合约/产品截图",
+        "链与团队未披露",
+        "粉丝极少易空壳"
+      ],
+      "whatsNew": "以“Coin research made simple”作为产品卖点对外披露。",
+      "summary": "早期加密研究追踪工具，可观察但需验证真实产品。",
+      "blurb": "早期加密研究追踪工具，可观察但需验证真实产品。",
+      "round": 663,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 2,
+      "xFollowers": 2,
+      "firstSeen": "2026-10-27 07:55 CST",
+      "addedAt": "2026-10-27 07:55 CST",
+      "lastChecked": "2026-10-27 07:55 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "claimdpad",
       "name": "claimd",
@@ -6955,7 +7095,7 @@
       "ecosystem": "Solana",
       "status": "live",
       "focus": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 662,
       "followers": 5,
       "xFollowers": 5,
@@ -7019,7 +7159,7 @@
       "ecosystem": "Solana",
       "status": "live",
       "focus": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 662,
       "followers": 14,
       "xFollowers": 14,
@@ -104654,21 +104794,22 @@
     }
   ],
   "newThisRound": [
-    "claimdpad",
-    "tminus-si"
+    "tracer-app",
+    "clash-of-chains",
+    "tide-trade"
   ],
-  "alertMessage": "新增 claimd（粉5·Solana防仿盘发射台LIVE+首币）与 Tminus（粉14·Meteora无代码台LIVE）；2h内看 AIUKI、Garlic；letsprint/farm已>2h、SoB约12:29前free mint、Elysium仍11-09；Leeonmort仍NF → https://reboot7454.github.io/early-scout/",
+  "alertMessage": "🛰️ R663 DC补漏新收3：Tide(@Tidetradeapp，RH链memecoin交易终端→台子/Meme)、Clash of Chains(@clashofchains，四链一币每日战争$COC→打新)、Tracer(@Tracerr_app，币研追踪工具→台子/Meme)；均0–2粉未核验。面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "claimdpad",
     "tminus-si"
   ],
-  "updatedAt": "2026-10-27 07:35 CST",
-  "updated": "2026-10-27 07:35 CST",
+  "updatedAt": "2026-10-27 07:55 CST",
+  "updated": "2026-10-27 07:55 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-27 07:35 CST",
+  "lastScout": "2026-10-27 07:55 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -104710,7 +104851,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1448,
+  "candidateCount": 1451,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -105169,5 +105310,10 @@
   "round662Added": [
     "claimdpad",
     "tminus-si"
+  ],
+  "round663Added": [
+    "tracer-app",
+    "clash-of-chains",
+    "tide-trade"
   ]
 }
