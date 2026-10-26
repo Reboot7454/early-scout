@@ -10,4 +10,4 @@
 - focusBan: respected (no new focus)
 - alert: 新增：Subsonic Tribe（BN Agent FREE mint LIVE，前1111首枚免费）；≤2h：The Force 21:00 ETH 7777免费铸造、Forever Cult Fund 21:00 RH Founding NFT 500×0.045ETH、Sevy LIVE BN Agent免费铸造（已破1000）。面板：https://reboot7454.github.io/early-scout/
 
-- push: pending
+- push: ok 81769fc → origin/main
