@@ -1,0 +1,148 @@
+{
+  "round": 615,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 18:00 CST",
+  "notify": true,
+  "notifyReason": "newAdmit+le2h",
+  "alertMessage": "新增 Agent Bestiary：BNB AI Agent 门控 FREE 首枚 LIVE（0 粉）｜2h 内 SEVY 18:00 CST 开窗｜面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "agent-bestiary",
+      "name": "Agent Bestiary",
+      "handle": "AgentBestiary",
+      "zone": "bnagent",
+      "focus": false,
+      "status": "live",
+      "x": "https://x.com/AgentBestiary",
+      "ca": "0x70e4F0Afb1F0F8E7F99b67F5A25Ab56f132f1eD7"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "agent-bestiary"
+  ],
+  "skipped": [
+    {
+      "id": "bstonk-agents",
+      "reason": "opens soon非free mint"
+    },
+    {
+      "id": "launch-x",
+      "reason": "已热$LAUNCH/$LAB交易"
+    },
+    {
+      "id": "leadloop",
+      "reason": "无独立官推"
+    },
+    {
+      "id": "pick-rush",
+      "reason": "已收录软更"
+    },
+    {
+      "id": "spritefun",
+      "reason": "still shutdown"
+    },
+    {
+      "id": "leeonmort",
+      "reason": "X Not Found"
+    },
+    {
+      "id": "noir-brokers",
+      "reason": "已收录"
+    },
+    {
+      "id": "synape",
+      "reason": "已收录"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "sevy",
+      "handle": "Sevy_Ai",
+      "window": "2026-10-26 18:00 CST",
+      "etaHours": 0.0,
+      "event": "BN Agent FREE mint 开窗/LIVE"
+    }
+  ],
+  "clearedPrevNewThisRound": [
+    "z0mbit"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": 3
+  },
+  "xReads": 14,
+  "coverage": {
+    "keywords": true,
+    "agentPad": true,
+    "flap": true,
+    "fullFun": true,
+    "irys": true,
+    "tape": true,
+    "kinetiq": true,
+    "giwa": true,
+    "dogeEvm": true,
+    "starknet": true,
+    "agentMining": true,
+    "agentTrading": true,
+    "btc": true,
+    "zero": true,
+    "bnAgent": true,
+    "elysium": true
+  },
+  "softRefresh": {
+    "sevy": {
+      "handle": "Sevy_Ai",
+      "window": "18:00 CST",
+      "le2h": true,
+      "followers": 8,
+      "status": "FREE mint opening/LIVE"
+    },
+    "theforce": {
+      "handle": "theforceNFT",
+      "window": "21:00 CST",
+      "le2h": false,
+      "etaHours": 3.0
+    },
+    "pickrush": {
+      "le2h": false,
+      "note": "Tue 12:00UTC mint"
+    },
+    "stonkspad": {
+      "le2h": false,
+      "note": "Mon window no HH:MM"
+    },
+    "fulldotfun": {
+      "le2h": false,
+      "note": "$FULL Monday no HH:MM"
+    },
+    "bitcointapes": {
+      "le2h": false,
+      "note": "mint soon no HH:MM"
+    },
+    "elysium": {
+      "mainnet": "2026-11-09",
+      "le2h": false
+    },
+    "spritefun": {
+      "note": "still shutdown"
+    },
+    "leeonmort": {
+      "note": "Not Found"
+    },
+    "cantonGlazeTokenWorks": {
+      "note": "soft-debt lastChecked refreshed"
+    }
+  },
+  "push": {
+    "ok": false,
+    "commit": null,
+    "remoteVerified": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R615：新收agent-bestiary（BNB Agent门控FREE首枚LIVE，0粉，focus:false）；SEVY 18:00CST开窗≤2h→notify；FORCE~3h非≤2h；清z0mbit；Discord peek deferred；xReads≈14。",
+  "remoteVerified": false
+}
