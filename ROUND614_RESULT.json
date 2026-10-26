@@ -1,0 +1,140 @@
+{
+  "round": 614,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 17:35 CST",
+  "notify": true,
+  "notifyReason": "newAdmit+le2h",
+  "alertMessage": "新收Z0MBIT：BNB AI Agent免费铸1/钱包；SEVY 18:00CST免费窗≤2h。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "z0mbit",
+      "name": "Z0MBIT",
+      "handle": "z0mbitxyz",
+      "zone": "bnagent",
+      "focus": false,
+      "status": "live",
+      "x": "https://x.com/z0mbitxyz",
+      "ca": "0xF9C1dfCd638ECF45600606A85408d50AE27833Be"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "z0mbit"
+  ],
+  "skipped": [
+    {
+      "id": "fourbook",
+      "reason": "仅article无mint"
+    },
+    {
+      "id": "khnum",
+      "reason": "无独立官推"
+    },
+    {
+      "id": "synape",
+      "reason": "已收录"
+    },
+    {
+      "id": "squishem",
+      "reason": "已收录"
+    },
+    {
+      "id": "leeonmort",
+      "reason": "X Not Found"
+    },
+    {
+      "id": "ammora",
+      "reason": "X Not Found"
+    },
+    {
+      "id": "spritefun",
+      "reason": "still shutdown"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "sevy",
+      "handle": "Sevy_Ai",
+      "window": "2026-10-26 18:00 CST",
+      "etaHours": 0.5,
+      "event": "BN Agent FREE mint"
+    }
+  ],
+  "clearedPrevNewThisRound": [
+    "holocats"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": 2
+  },
+  "xReads": 20,
+  "coverage": {
+    "keywords": true,
+    "agentPad": true,
+    "flap": true,
+    "fullFun": true,
+    "irys": true,
+    "tape": true,
+    "kinetiq": true,
+    "giwa": true,
+    "dogeEvm": true,
+    "starknet": true,
+    "agentMining": true,
+    "agentTrading": true,
+    "btc": true,
+    "zero": true,
+    "bnAgent": true,
+    "elysium": true
+  },
+  "softRefresh": {
+    "sevy": {
+      "handle": "Sevy_Ai",
+      "window": "18:00 CST",
+      "le2h": true,
+      "followers": 8,
+      "status": "FREE mint still valid"
+    },
+    "theforce": {
+      "handle": "theforceNFT",
+      "window": "21:00 CST",
+      "le2h": false,
+      "etaHours": 3.5
+    },
+    "stonkspad": {
+      "le2h": false,
+      "note": "Mon window no HH:MM"
+    },
+    "fulldotfun": {
+      "le2h": false,
+      "note": "$FULL Monday no HH:MM"
+    },
+    "bitcointapes": {
+      "le2h": false,
+      "note": "mint soon no HH:MM"
+    },
+    "elysium": {
+      "mainnet": "2026-11-09",
+      "le2h": false
+    },
+    "spritefun": {
+      "note": "still shutdown"
+    },
+    "leeonmort": {
+      "note": "Not Found"
+    },
+    "ammora": {
+      "note": "Not Found"
+    }
+  },
+  "push": {
+    "ok": false,
+    "commit": null,
+    "remoteVerified": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R614：新收z0mbit（BNB AI Agent FREE mint LIVE，focus:false）；SEVY 18:00CST FREE窗≤2h→notify；FORCE~3.5h非≤2h；清holocats；Discord peek deferred；xReads≈20。",
+  "remoteVerified": false
+}
