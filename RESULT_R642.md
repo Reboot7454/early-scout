@@ -12,7 +12,7 @@
 - soft: Canton/Glaze/TokenWorks lastChecked；enter-elysium/bitcointapes/ptah/full-fun/pipfun/influence/delegate/4agent/agentpad/paws-rh/raidlords/runecurve/agent-ordz/sprite/tape-pool/ammora；kinetiqWatch/tapeWatch/agentPadWatch 等
 - xReads: 15 / dsFallback: false
 - discordPeekDeferred: true（沿用 lastSeen 2026-10-26 13:03 CST；本轮未开浏览器 Discord）
-- push: (pending)
+- push: ok (db1ed1b)
 - alert: R642 新收 ElysiumLaunch（Elysium Private Mainnet LIVE ≤2h）、STONK AGENTS（BNB Agent Wallet NFT 收ID）；Elyziuma 测试网 mint 仍≤2h、StonksPad LIVE≈≤2h｜面板 https://reboot7454.github.io/early-scout/
 
 ## Coverage
