@@ -1,0 +1,76 @@
+{
+  "round": 600,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-26 13:37 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新增2项：FlapAgent（BN Agent钱包·非官方·CA未核实）与 OFF AIR（Ink FREE MINT官宣）待核查，详见 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "flapagent",
+      "name": "FlapAgent",
+      "handle": "flapagent_bsc",
+      "zone": "BN Agent 钱包",
+      "ecosystem": "BNB",
+      "followers": 0,
+      "scoreOverall": 62,
+      "reason": "今日新建0粉：Binance Agentic Wallet×Flap独立发射界面；自述非官方；CA未核实"
+    },
+    {
+      "id": "off-air",
+      "name": "OFF AIR",
+      "handle": "OffAir1111",
+      "zone": "打新",
+      "chain": "Ink",
+      "followers": 328,
+      "scoreOverall": 48,
+      "reason": "Ink 4444 PFP本窗官宣FREE MINT；未见HH:MM/合约"
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "flapagent",
+    "off-air"
+  ],
+  "skipped": [],
+  "le2h": [],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "capsule-top-loaders"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking:on admit(flapagent+off-air)+score(both admit overall62/48)+alert",
+  "xReads": 16,
+  "coverage": "打新|挖矿|台子/Meme|GO盘|LayerZero|Elysium|Tape|GIWA|DogeEVM|BN Agent|BTC|Starknet equal soft",
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": "2026-10-26 13:03 CST",
+    "lastChecked": "2026-10-26 13:37 CST",
+    "note": "R600：无浏览器；仅软刷 lastChecked；lastSeen保持R599"
+  },
+  "softRefresh": {
+    "stonksPad": "无HH:MM 非≤2h 粉≈478 今日仍宣live",
+    "fullFun": "无HH:MM 非≤2h 粉≈11847",
+    "bitcointapes": "无HH:MM 粉≈276 设计开放续",
+    "elysium": "主网11-09",
+    "pipfun": "CLI/Agent ID bonding续 粉≈41",
+    "listen": "粉≈1531 无新帖",
+    "tapeai": "粉≈3384",
+    "leeonmort": "仍 Not Found",
+    "cavfi": "已收 软跳过",
+    "ammora": "已收 软跳过"
+  },
+  "push": {
+    "attempted": true,
+    "ok": false,
+    "commit": null,
+    "fullSha": null,
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R600：新收flapagent(BN Agent×flap非官方0粉)+off-air(Ink FREE MINT)；Stonks/$FULL/BTape无HH:MM；Elysium主网11-09；discordPeekDeferred",
+  "remoteVerified": false,
+  "priorRoundNote": "R599 newThisRound=['capsule-top-loaders']; mode was discord-alpha-40"
+}
