@@ -1,0 +1,52 @@
+{
+  "round": 590,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-26 10:49 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "雷达通知：本轮 Discord alpha 新收 Squeeze（@squeezedotfund→台子/Meme）。https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "squeeze",
+      "handle": "squeezedotfund",
+      "name": "Squeeze",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "followers": 351,
+      "discordTime": "2026-10-26 09:56 CST"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "squeeze"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 1,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "squishem",
+    "dragons-market",
+    "darwin-market"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking:on (misread Not Live→reject) then thinking:off admit+score (1 card Squeeze)",
+  "coverage": "discord-alpha #alpha-1",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-26 09:56 CST",
+    "lastChecked": "2026-10-26 10:48 CST",
+    "newestCardTime": "2026-10-26 09:56 CST",
+    "note": "R590：Discord alpha 补收 squeeze(@squeezedotfund→台子/Meme)；清 squishem,dragons-market,darwin-market; lastSeen→09:56 CST"
+  },
+  "push": {
+    "attempted": true,
+    "ok": false,
+    "commit": null,
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R590：Discord alpha 补收 squeeze(@squeezedotfund→台子/Meme)；清 squishem,dragons-market,darwin-market；lastSeen→09:56 CST",
+  "remoteVerified": false
+}
