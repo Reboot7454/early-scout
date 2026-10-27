@@ -1,0 +1,73 @@
+{
+  "round": 720,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-28 00:42 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "bankofrobinhood",
+    "ruvomarket",
+    "sudopad",
+    "domain-pons",
+    "grotlings",
+    "reapoxyz",
+    "hyfi-xyz"
+  ],
+  "newCount": 7,
+  "newIds": [
+    "bankofrobinhood",
+    "ruvomarket",
+    "sudopad",
+    "domain-pons",
+    "grotlings",
+    "reapoxyz",
+    "hyfi-xyz"
+  ],
+  "skipped": [
+    {
+      "id": "rastilive",
+      "reason": "实验数字艺术/抖动像素与创作工具，无代币、无mint、无链上玩法线索，仅关注Pons不足以构成加密玩法，暂拒"
+    },
+    {
+      "id": "cashcow-farm",
+      "reason": "泛EVM收益农场coming soon，执行端按宁缺毋滥拒"
+    },
+    {
+      "id": "asendnow",
+      "reason": "仅“Trade. Share. Asend. Coming Soon”，无产品形态、无链、无玩法线索，虽粉丝过千且被聪明钱关注，仍不满足实锤门槛"
+    },
+    {
+      "id": "lizardbuild",
+      "reason": "欧美高并发沙箱、主打快速廉价，是标准开发者基础设施/SaaS，无代币、无链上玩法，按规则拒收"
+    }
+  ],
+  "cardsAfterLastSeen": 4,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "candidateFlagsCleared": 0,
+  "topNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=11",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-28 00:38 CST",
+    "lastChecked": "2026-10-28 00:42 CST",
+    "newestCardTime": "2026-10-28 00:38 CST",
+    "cardsAfterCutoff": 4,
+    "note": "R720：Discord alpha 补收 bankofrobinhood,ruvomarket,sudopad,domain-pons,grotlings,reapoxyz,hyfi-xyz；跳过 [{'id': 'rastilive', 'reason': '实验数字艺术/抖动像素与创作工具，无代币、无mint、无链上玩法线索，仅关注Pons不足以构成加密玩法，暂拒'}, {'id': 'cashcow-farm', 'reason': '泛EVM收益农场coming soon，执行端按宁缺毋滥拒'}, {'id': 'asendnow', 'reason': '仅“Trade. Share. Asend. Coming Soon”，无产品形态、无链、无玩法线索，虽粉丝过千且被聪明钱关注，仍不满足实锤门槛'}, {'id': 'lizardbuild', 'reason': '欧美高并发沙箱、主打快速廉价，是标准开发者基础设施/SaaS，无代币、无链上玩法，按规则拒收'}]；lastSeen→2026-10-28 00:38 CST；lastChecked→2026-10-28 00:42 CST",
+    "lastRound": 720
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R720：Discord alpha 补收 bankofrobinhood,ruvomarket,sudopad,domain-pons,grotlings,reapoxyz,hyfi-xyz；跳过 [{'id': 'rastilive', 'reason': '实验数字艺术/抖动像素与创作工具，无代币、无mint、无链上玩法线索，仅关注Pons不足以构成加密玩法，暂拒'}, {'id': 'cashcow-farm', 'reason': '泛EVM收益农场coming soon，执行端按宁缺毋滥拒'}, {'id': 'asendnow', 'reason': '仅“Trade. Share. Asend. Coming Soon”，无产品形态、无链、无玩法线索，虽粉丝过千且被聪明钱关注，仍不满足实锤门槛'}, {'id': 'lizardbuild', 'reason': '欧美高并发沙箱、主打快速廉价，是标准开发者基础设施/SaaS，无代币、无链上玩法，按规则拒收'}]；lastSeen→2026-10-28 00:38 CST；lastChecked→2026-10-28 00:42 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261028_0040.json",
+  "priorRoundNote": "R719 meta NTR []; cardsAfterCutoff=4"
+}
