@@ -14,4 +14,4 @@
 - **coverage**: 十栏+必盯软刷+关键词≈90min；Tape/Elysium/GIWA/Doge/Zero/Starknet/flap/Irys/Full/BN Agent/agent mining；Peak/Trenchtown/Better新收；Leeonmort仍NF
 - **panel**: https://reboot7454.github.io/early-scout/
 - **skipped**: use1pad(0粉无CA概念), classicpad(非极早期), prelaunchpad(仅pitch), Leeonmort(NF)
-- **push**: (pending)
+- **push**: ok `40217a8` → origin/main
