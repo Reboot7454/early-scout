@@ -14,4 +14,4 @@
 - **coverage**: 十栏+必盯软刷+关键词≈90min；Tape/Elysium/GIWA/Doge/Zero/Starknet/flap/Irys/Full/BN Agent/agent mining；KingPad/ChartIQ新收；Leeonmort仍NF
 - **panel**: https://reboot7454.github.io/early-scout/
 - **skipped**: checkmates(Ink艺术集无开盘窗), Leeonmort(NF)
-- **push**: pending
+- **push**: ok `b2f312b` → origin/main
