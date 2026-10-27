@@ -1,0 +1,95 @@
+{
+  "round": 743,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-28 07:16 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏 R743 新收1：打新 Bagmon(@bagmonapp 钱包宠物，预约蛋，Hatching 09.11，6粉，未核验) → https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "bagmonapp"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "bagmonapp"
+  ],
+  "skipped": [
+    {
+      "id": "memolinepay",
+      "reason": "3粉虽早，但为USDC批量支付工具，无明确mint/launch/fair-launch/挖矿/GO/LZ早期窗口。"
+    },
+    {
+      "id": "acepyr",
+      "reason": "7258粉且已被聪明账号关注，热度偏高，无早期窗口。"
+    },
+    {
+      "id": "polyfork3d",
+      "reason": "1465粉，3D资产工具，非极早期mint/launch类机会。"
+    },
+    {
+      "id": "carcosasa",
+      "reason": "无简介、23粉，仅有关注线索，无明确早期mint/launch信息。"
+    },
+    {
+      "id": "koffcnc",
+      "reason": "4粉极早期，但仅有Credit & Collateral描述，未体现mint/launch/fair-launch等可收录窗口。"
+    },
+    {
+      "id": "nightb78399",
+      "reason": "5粉但简介无明确项目/发车信息，不构成早期mint/launch信号。"
+    },
+    {
+      "id": "dexlurkerhu",
+      "reason": "0粉且无有效项目简介，无早期mint/launch线索。"
+    },
+    {
+      "id": "humanbeinget",
+      "reason": "1935粉且无早期mint/launch窗口，偏个人号/非早期机会。"
+    },
+    {
+      "id": "ascendantsgames",
+      "reason": "已有（Seiyans/Ascendants）"
+    },
+    {
+      "id": "oxustrail",
+      "reason": "已有"
+    }
+  ],
+  "cardsAfterLastSeen": 4,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "launch-on-feed"
+  ],
+  "candidateFlagsCleared": 1,
+  "topNewThisRoundCleared": [
+    "launch-on-feed"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=11",
+  "coverage": "alpha-3/alpha-1-backup/smart-accounts/alpha-1",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-28 07:14 CST",
+    "lastChecked": "2026-10-28 07:16 CST",
+    "newestCardTime": "2026-10-28 07:14 CST",
+    "cardsAfterCutoff": 4,
+    "note": "R743：DC 补收 bagmonapp；DS拒 memolinepay/acepyr/Polyfork3d/Carcosasa/koffcnc 等；ascendantsgames/oxustrail 已有；alpha-1 两卡无API详情",
+    "lastRound": 743,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-28 07:14 CST",
+      "alpha-1-backup": "2026-10-28 06:58 CST",
+      "smart-accounts-tracker": "2026-10-28 06:47 CST",
+      "alpha-1": "2026-10-28 07:09 CST"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R743：DC 补收 bagmonapp；DS拒 memolinepay/acepyr/Polyfork3d/Carcosasa/koffcnc 等；ascendantsgames/oxustrail 已有；alpha-1 两卡无API详情",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261028_0715.json",
+  "priorRoundNote": "R742 meta NTR ['launch-on-feed']; cardsAfterCutoff=4"
+}

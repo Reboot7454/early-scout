@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-28 07:10 CST",
+    "updated": "2026-10-28 07:16 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R692",
-    "lastScout": "2026-10-28 07:10 CST",
+    "lastScout": "2026-10-28 07:16 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -479,7 +479,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 742,
+    "round": 743,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1407,7 +1407,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "launch-on-feed"
+      "bagmonapp"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -2978,18 +2978,18 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-10-28 06:32 CST",
-      "lastChecked": "2026-10-28 06:34 CST",
-      "newestCardTime": "2026-10-28 06:32 CST",
-      "cardsAfterCutoff": 13,
-      "note": "R741：discordPeekDeferred=true；R739（约06:04 CST）已扫 #alpha-1；R740 Discord 另路已扫，本轮雷达不开浏览器。",
-      "lastRound": 740,
+      "deferred": false,
+      "lastSeen": "2026-10-28 07:14 CST",
+      "lastChecked": "2026-10-28 07:16 CST",
+      "newestCardTime": "2026-10-28 07:14 CST",
+      "cardsAfterCutoff": 4,
+      "note": "R743：DC 补收 bagmonapp；DS拒 memolinepay/acepyr/Polyfork3d/Carcosasa/koffcnc 等；ascendantsgames/oxustrail 已有；alpha-1 两卡无API详情",
+      "lastRound": 743,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-28 06:32 CST",
-        "alpha-1-backup": "2026-10-28 05:13 CST",
-        "smart-accounts-tracker": "2026-10-28 06:18 CST",
-        "alpha-1": "2026-10-28 05:08 CST"
+        "alpha-3-new-accounts": "2026-10-28 07:14 CST",
+        "alpha-1-backup": "2026-10-28 06:58 CST",
+        "smart-accounts-tracker": "2026-10-28 06:47 CST",
+        "alpha-1": "2026-10-28 07:09 CST"
       }
     },
     "round239Added": [
@@ -7974,9 +7974,58 @@
     ],
     "round742Added": [
       "launch-on-feed"
+    ],
+    "round743Added": [
+      "bagmonapp"
     ]
   },
   "candidates": [
+    {
+      "id": "bagmonapp",
+      "name": "Bagmon",
+      "handle": "@bagmonapp",
+      "twitter": "@bagmonapp",
+      "chain": "Robinhood Chain / Pons",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "pet",
+        "RH",
+        "Pons"
+      ],
+      "links": {
+        "x": "https://x.com/bagmonapp",
+        "twitter": "https://x.com/bagmonapp"
+      },
+      "scores": {
+        "early": 9,
+        "overall": 6
+      },
+      "highlights": [
+        "钱包宠物玩法：吃你的bags，喂养/炫耀",
+        "bio写 Hatching 09.11，可预约蛋（Reserve your egg）",
+        "仅6粉，关注 Pons 与 Robinhood，极早期"
+      ],
+      "drawbacks": [
+        "未核验链与日期（09.11 指 9月11日还是 11月9日不明）",
+        "粉丝极少，项目真实性待观察"
+      ],
+      "whatsNew": "DC alpha-3 新号卡：Bagmon 钱包宠物，Reserve your egg，Hatching 09.11",
+      "summary": "钱包宠物项目，预约蛋、即将孵化；RH/Pons 方向（未核验）",
+      "blurb": "钱包宠物项目，预约蛋、即将孵化；RH/Pons 方向（未核验）",
+      "round": 743,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 6,
+      "xFollowers": 6,
+      "firstSeen": "2026-10-28 07:16 CST",
+      "addedAt": "2026-10-28 07:16 CST",
+      "lastChecked": "2026-10-28 07:16 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "launch-on-feed",
       "name": "Feed",
@@ -7985,7 +8034,7 @@
       "followers": 14,
       "xFollowers": 14,
       "round": 742,
-      "newThisRound": true,
+      "newThisRound": false,
       "status": "live",
       "category": "台子/Meme",
       "zoneHint": "台子/Meme",
@@ -116887,29 +116936,19 @@
     }
   ],
   "newThisRound": [
-    "launch-on-feed"
+    "bagmonapp"
   ],
-  "alertMessage": "新收录 nulls(@nullsxyz)：NEAR 极早期 NFT/体验预热，粉901，官网 nulls.world，可先关注官推与站点；另 computeroll 粉6、Mining未开，bitcointapes free mint≈273/1000，完整面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏 R743 新收1：打新 Bagmon(@bagmonapp 钱包宠物，预约蛋，Hatching 09.11，6粉，未核验) → https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "x402fizzl"
   ],
-  "updatedAt": "2026-10-28 06:40 CST",
-  "updated": "2026-10-28 06:40 CST",
+  "updatedAt": "2026-10-28 07:16 CST",
+  "updated": "2026-10-28 07:16 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": {
-    "round": 741,
-    "at": "2026-10-28 06:40 CST",
-    "mode": "full-radar-soft",
-    "newIds": [
-      "nullsxyz"
-    ],
-    "xReads": 15,
-    "discordPeekDeferred": true,
-    "note": "Task asked R740 but remote already at R740 (discord-alpha); executed as R741 per hard rule."
-  },
+  "lastScout": "2026-10-28 07:16 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -116951,7 +116990,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1648,
+  "candidateCount": 1650,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -117702,5 +117741,8 @@
   ],
   "round741Added": [
     "nullsxyz"
+  ],
+  "round743Added": [
+    "bagmonapp"
   ]
 }
