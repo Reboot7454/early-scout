@@ -1,0 +1,74 @@
+{
+  "round": 675,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-27 11:16 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R675 DC补漏新收1：Racco(@raccolol)→打新，RH链街机赛车俱乐部，0粉未核验。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "racco"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "racco"
+  ],
+  "skipped": [
+    {
+      "id": "trust-graph",
+      "reason": "bio 只有合约地址，无产品/项目线索，空壳风险高。"
+    },
+    {
+      "id": "glitch-on-solana",
+      "reason": "纯 Solana 单币 meme $GLITCH，无平台/玩法线索，2094粉已非极早期。"
+    },
+    {
+      "id": "roka-wallet",
+      "reason": "普通自托管钱包（Celo），非打新/发射项目。"
+    },
+    {
+      "id": "candy-trader",
+      "reason": "个人/人设交易号，无项目。"
+    }
+  ],
+  "cardsAfterLastSeen": 2,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "runepad",
+    "wagon-rh"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "runepad",
+    "wagon-rh"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=5",
+  "coverage": "discord alpha-3/backup/smart/alpha-1",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-27 11:14 CST",
+    "lastChecked": "2026-10-27 11:16 CST",
+    "newestCardTime": "2026-10-27 11:14 CST",
+    "cardsAfterCutoff": 2,
+    "note": "R675：Discord alpha 补收 racco；跳过 [{'id': 'trust-graph', 'reason': 'bio 只有合约地址，无产品/项目线索，空壳风险高。'}, {'id': 'glitch-on-solana', 'reason': '纯 Solana 单币 meme $GLITCH，无平台/玩法线索，2094粉已非极早期。'}, {'id': 'roka-wallet', 'reason': '普通自托管钱包（Celo），非打新/发射项目。'}, {'id': 'candy-trader', 'reason': '个人/人设交易号，无项目。'}]；清 runepad,wagon-rh；lastSeen→2026-10-27 11:14 CST；lastChecked→2026-10-27 11:16 CST",
+    "lastRound": 675,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-27 11:14 CST",
+      "alpha-1-backup": "2026-10-27 10:43 CST",
+      "smart-accounts-tracker": "2026-10-27 10:28 CST",
+      "alpha-1": "2026-10-26 13:03 CST"
+    },
+    "alpha3OlderGap": "2026-10-26 13:03→2026-10-27 02:46 CST 未逐卡读完（卡量>60，噪音高）；R666 已补读 07:10–07:30 窗口"
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R675：Discord alpha 补收 racco；跳过 [{'id': 'trust-graph', 'reason': 'bio 只有合约地址，无产品/项目线索，空壳风险高。'}, {'id': 'glitch-on-solana', 'reason': '纯 Solana 单币 meme $GLITCH，无平台/玩法线索，2094粉已非极早期。'}, {'id': 'roka-wallet', 'reason': '普通自托管钱包（Celo），非打新/发射项目。'}, {'id': 'candy-trader', 'reason': '个人/人设交易号，无项目。'}]；清 runepad,wagon-rh；lastSeen→2026-10-27 11:14 CST；lastChecked→2026-10-27 11:16 CST",
+  "remoteVerified": false,
+  "cardsFile": "cards.json",
+  "priorRoundNote": "R674 meta NTR ['runepad', 'wagon-rh']; cardsAfterCutoff=2"
+}
