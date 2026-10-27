@@ -1,0 +1,70 @@
+{
+  "round": 722,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-28 01:22 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "小七 R722 DC 补漏新收4（未核验）：Hoodfather @HoodFatherGame、Ante @AnteonRH、Lumesis @lumesisapp → 台子/Meme；mineforge @mineforgeRH → 挖矿。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "hoodfathergame",
+    "anteonrh",
+    "lumesisapp",
+    "mineforgerh"
+  ],
+  "newCount": 4,
+  "newIds": [
+    "hoodfathergame",
+    "anteonrh",
+    "lumesisapp",
+    "mineforgerh"
+  ],
+  "skipped": [
+    {
+      "id": "stockrpay",
+      "reason": "零粉丝且链归属未确认，当前信息不足以进入观察名单。"
+    }
+  ],
+  "cardsAfterLastSeen": 4,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "books-protocol",
+    "unsaidagent",
+    "poke-hood"
+  ],
+  "candidateFlagsCleared": 3,
+  "topNewThisRoundCleared": [
+    "books-protocol",
+    "unsaidagent",
+    "poke-hood"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit+score (8 items)",
+  "coverage": "discord-alpha alpha-3/backup/smart/alpha-1",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-28 01:19 CST",
+    "lastChecked": "2026-10-28 01:22 CST",
+    "newestCardTime": "2026-10-28 01:19 CST",
+    "cardsAfterCutoff": 4,
+    "note": "R722：Discord alpha 补收 hoodfathergame,anteonrh,lumesisapp,mineforgerh；跳过 [{'id': 'stockrpay', 'reason': '零粉丝且链归属未确认，当前信息不足以进入观察名单。'}]；清 books-protocol,unsaidagent,poke-hood；lastSeen→2026-10-28 01:19 CST；lastChecked→2026-10-28 01:22 CST；DS拒 Stockrpay/redrailsteam/gamegainsdotgg/Eombit_Giwa；mobster_meme/Grotlings/Hashstone_BSV 已有",
+    "lastRound": 722,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-28 01:19 CST",
+      "alpha-1-backup": "2026-10-28 00:58 CST",
+      "smart-accounts-tracker": "2026-10-28 01:09 CST",
+      "alpha-1": "2026-10-28 00:47 CST"
+    },
+    "loginNeeded": false
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R722：Discord alpha 补收 hoodfathergame,anteonrh,lumesisapp,mineforgerh；跳过 [{'id': 'stockrpay', 'reason': '零粉丝且链归属未确认，当前信息不足以进入观察名单。'}]；清 books-protocol,unsaidagent,poke-hood；lastSeen→2026-10-28 01:19 CST；lastChecked→2026-10-28 01:22 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261028_0121.json",
+  "priorRoundNote": "R721 meta NTR ['poke-hood', 'unsaidagent', 'books-protocol']; cardsAfterCutoff=4"
+}
