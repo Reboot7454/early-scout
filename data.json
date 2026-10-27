@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-27 09:30 CST",
+    "updated": "2026-10-27 09:53 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-keyword-mustwatch-soft",
-    "lastScout": "2026-10-27 09:30 CST",
+    "lastScout": "2026-10-27 09:53 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -466,7 +466,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 669,
+    "round": 670,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1333,7 +1333,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "onuspad"
+      "barrel-royale",
+      "ok-meme"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -2877,16 +2878,16 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-10-27 09:12 CST",
-      "lastChecked": "2026-10-27 09:30 CST",
-      "newestCardTime": "2026-10-27 09:12 CST",
-      "cardsAfterCutoff": 1,
-      "note": "R668：Discord alpha 补漏无新收；跳过 CashCow_Farm(0粉空壳)、RojaGarimella(个人)、InvisibleFriends(成熟NFT)；源：alpha-3 至09:12 / backup 至08:58 / smart 至09:12 / #alpha-1 仍停 10/26 13:03",
-      "lastRound": 668,
+      "lastSeen": "2026-10-27 09:48 CST",
+      "lastChecked": "2026-10-27 09:53 CST",
+      "newestCardTime": "2026-10-27 09:48 CST",
+      "cardsAfterCutoff": 38,
+      "note": "R670：Discord alpha 补收 barrel-royale(@barrelroyale RH链RWA油价钻井游戏→打新)、ok-meme(@OKOK_MEME X Layer meme发射台→台子/Meme)；跳过 alpha-3 大量个人/机器号、@arnestrickmann(个人)；源：alpha-3 至09:48 / backup 无新(08:58) / smart 至09:38 / #alpha-1 仍停 10/26 13:03",
+      "lastRound": 670,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-27 09:12 CST",
+        "alpha-3-new-accounts": "2026-10-27 09:48 CST",
         "alpha-1-backup": "2026-10-27 08:58 CST",
-        "smart-accounts-tracker": "2026-10-27 09:12 CST",
+        "smart-accounts-tracker": "2026-10-27 09:38 CST",
         "alpha-1": "2026-10-26 13:03 CST"
       },
       "alpha3OlderGap": "2026-10-26 13:03→2026-10-27 02:46 CST 未逐卡读完（卡量>60，噪音高）；R666 已补读 07:10–07:30 窗口"
@@ -7205,9 +7206,116 @@
     "round668Added": [],
     "round669Added": [
       "onuspad"
+    ],
+    "round670Added": [
+      "barrel-royale",
+      "ok-meme"
     ]
   },
   "candidates": [
+    {
+      "id": "ok-meme",
+      "name": "OK MEME",
+      "handle": "@okok_meme",
+      "twitter": "@okok_meme",
+      "chain": "X Layer",
+      "category": "台子/Meme",
+      "ecosystem": "X Layer",
+      "tags": [
+        "台子/Meme",
+        "X Layer",
+        "OKX",
+        "发射台",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/OKOK_MEME",
+        "twitter": "https://x.com/OKOK_MEME",
+        "site": "https://ok.meme"
+      },
+      "scores": {
+        "early": 76,
+        "actionable": 68,
+        "novelty": 55,
+        "risk": 60,
+        "overall": 61
+      },
+      "highlights": [
+        "X Layer原生Meme发射台，与链的官方生态方向一致",
+        "Fair Launch、股票MEME和流动性池组合，玩法明确",
+        "2609粉已有初步社区基础，可直接去看盘和发币流程"
+      ],
+      "drawbacks": [
+        "发射台赛道极度拥挤，同类产品差异化不足",
+        "已有一定粉丝基数，不算最早期的位置",
+        "热度高度依赖X Layer整体生态行情，存在周期性风险"
+      ],
+      "whatsNew": "主打股票MEME与公平发射的X Layer原生发射台ok.meme已开放流动性池。",
+      "summary": "X Layer 原生 Meme 发射台：Fair Launch、股票 MEME、流动性池；ok.meme。smart-accounts 卡：@connectfarm1 关注。",
+      "blurb": "X Layer 原生 Meme 发射台：Fair Launch、股票 MEME、流动性池；ok.meme。smart-accounts 卡：@connectfarm1 关注。",
+      "round": 670,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 2609,
+      "xFollowers": 2609,
+      "firstSeen": "2026-10-27 09:53 CST",
+      "addedAt": "2026-10-27 09:53 CST",
+      "lastChecked": "2026-10-27 09:53 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "barrel-royale",
+      "name": "Barrel Royale",
+      "handle": "@barrelroyale",
+      "twitter": "@barrelroyale",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "ecosystem": "Robinhood Chain",
+      "tags": [
+        "打新",
+        "RH",
+        "RWA",
+        "链游",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/barrelroyale",
+        "twitter": "https://x.com/barrelroyale"
+      },
+      "scores": {
+        "early": 88,
+        "actionable": 42,
+        "novelty": 74,
+        "risk": 80,
+        "overall": 60
+      },
+      "highlights": [
+        "推特0粉新号，处于极早期，几乎没有传播",
+        "用真实油价驱动链上像素钻井玩法，RWA与游戏结合有新意",
+        "部署在新兴的Robinhood Chain，早期占位，后续叙事空间大"
+      ],
+      "drawbacks": [
+        "0粉意味着没有社区验证，存在被放弃或一次性项目的风险",
+        "未披露合约地址、上线时间与代币分配",
+        "Robinhood Chain的基础设施与流动性都还未经验证，退出路径不明确"
+      ],
+      "whatsNew": "把真实油价数据接进链上像素钻井玩法，并按油价产出XOM的RWA小游戏。",
+      "summary": "Robinhood Chain 上的 RWA 像素钻井游戏，油价跟真实市场，挖原油赚 XOM，$ROYAL。0粉新号，未核验。",
+      "blurb": "Robinhood Chain 上的 RWA 像素钻井游戏，油价跟真实市场，挖原油赚 XOM，$ROYAL。0粉新号，未核验。",
+      "round": 670,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-27 09:53 CST",
+      "addedAt": "2026-10-27 09:53 CST",
+      "lastChecked": "2026-10-27 09:53 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "launch-on-peak",
       "name": "Peak",
@@ -105713,7 +105821,7 @@
         "note": "LIVE；fee vault冻结+日SOL cap；已贴$ONUS CA"
       },
       "focus": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 669,
       "candidate": {
         "round": 669
@@ -105726,20 +105834,21 @@
     }
   ],
   "newThisRound": [
-    "onuspad"
+    "barrel-royale",
+    "ok-meme"
   ],
-  "alertMessage": "",
+  "alertMessage": "小七 DC 补漏新收2：Barrel Royale(@barrelroyale，RH链油价钻井RWA小游戏，0粉→打新)、OK MEME(@OKOK_MEME，X Layer原生meme发射台 ok.meme→台子/Meme)。面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "claimdpad",
     "tminus-si"
   ],
-  "updatedAt": "2026-10-27 09:15 CST",
-  "updated": "2026-10-27 09:15 CST",
+  "updatedAt": "2026-10-27 09:53 CST",
+  "updated": "2026-10-27 09:53 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-27 09:15 CST",
+  "lastScout": "2026-10-27 09:53 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -105781,7 +105890,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1460,
+  "candidateCount": 1463,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -106261,5 +106370,9 @@
     "trenchtown",
     "better-launch"
   ],
-  "round668Added": []
+  "round668Added": [],
+  "round670Added": [
+    "barrel-royale",
+    "ok-meme"
+  ]
 }
