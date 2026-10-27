@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-28 04:28 CST",
+    "updated": "2026-10-28 04:36 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R692",
-    "lastScout": "2026-10-28 04:28 CST",
+    "lastScout": "2026-10-28 04:36 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -473,7 +473,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 733,
+    "round": 734,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1392,8 +1392,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "lucky-cats",
-      "launch-aeon"
+      "hearthpad",
+      "jacquardhook",
+      "idlewharf"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -2956,17 +2957,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-10-28 03:46 CST",
-      "lastChecked": "2026-10-28 03:59 CST",
-      "newestCardTime": "2026-10-28 03:56 CST",
+      "lastSeen": "2026-10-28 04:34 CST",
+      "lastChecked": "2026-10-28 04:36 CST",
+      "newestCardTime": "2026-10-28 04:34 CST",
       "cardsAfterCutoff": 4,
-      "note": "R731：DC补漏新收 bizpad,coinable,taoway；DS拒 Greywick_hq/formation_mkts/moneda_ai/forwardfwdnn；alpha-1 03:39-03:46 有新卡",
-      "lastRound": 731,
+      "note": "R734：Discord alpha 补收 hearthpad,jacquardhook,idlewharf；跳过 [{'id': 'farmwarefun', 'reason': '仅称即将在Robinhood发射，无产品、玩法或合约线索，像噪音。'}, {'id': 'embercoding', 'reason': '浏览器内编程语言产品，非加密项目且无发射/代币线索。'}, {'id': 'tryrenace', 'reason': '仅描述人类与agent共享签名回执，无具体产品入口或发射线索。'}, {'id': 'ant-memecoin', 'reason': '只有meme口号，无发射、mint或产品玩法线索。'}, {'id': 'malim254', 'reason': '个人号风格，仅附Solana地址，无项目产品或发射线索。'}]；清 lucky-cats,launch-aeon；lastSeen→2026-10-28 04:34 CST；lastChecked→2026-10-28 04:36 CST；DS拒 farmwarefun/embercoding/tryrenace/Ant_Memecoin/MALIM254；robtown_rh 已有",
+      "lastRound": 734,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-28 03:56 CST",
-        "alpha-1-backup": "2026-10-28 03:43 CST",
-        "smart-accounts-tracker": "2026-10-28 03:43 CST",
-        "alpha-1": "2026-10-28 03:46 CST"
+        "alpha-3-new-accounts": "2026-10-28 04:34 CST",
+        "alpha-1-backup": "2026-10-28 03:58 CST",
+        "smart-accounts-tracker": "2026-10-28 04:21 CST",
+        "alpha-1": "2026-10-28 04:10 CST"
       }
     },
     "round239Added": [
@@ -7912,9 +7913,173 @@
     "round733Added": [
       "lucky-cats",
       "launch-aeon"
+    ],
+    "round734Added": [
+      "hearthpad",
+      "jacquardhook",
+      "idlewharf"
     ]
   },
   "candidates": [
+    {
+      "id": "idlewharf",
+      "name": "Idlewharf · Agent cash that waits",
+      "handle": "@idlewharf",
+      "twitter": "@idlewharf",
+      "chain": "Ethereum",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "未核验",
+        "discord-alpha",
+        "AI-agent",
+        "收益",
+        "USDG"
+      ],
+      "links": {
+        "x": "https://x.com/idlewharf",
+        "twitter": "https://x.com/idlewharf"
+      },
+      "scores": {
+        "early": 88,
+        "actionable": 82,
+        "novelty": 76,
+        "risk": 60,
+        "overall": 81
+      },
+      "highlights": [
+        "agent钱包在调用间隙把USDG放入核验金库生息",
+        "仅当利息覆盖gas才移动，每笔均为链上tx",
+        "bio给出Launch: Wed 28 Oct"
+      ],
+      "drawbacks": [
+        "年份与合约未核验",
+        "收益策略对手方风险未披露",
+        "0粉丝，团队匿名"
+      ],
+      "whatsNew": "Idlewharf让agent钱包闲置USDG生息，计划10月28日发射。",
+      "summary": "Idlewharf让agent钱包闲置USDG生息，计划10月28日发射。",
+      "blurb": "Agent wallets sit idle. This one earns between calls: USDG in a verified till, parked only when interest beats gas. Every move is a tx. Launch: Wed 28 Oct",
+      "round": 734,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-28 04:36 CST",
+      "addedAt": "2026-10-28 04:36 CST",
+      "lastChecked": "2026-10-28 04:36 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true,
+      "schedule": {
+        "status": "announced",
+        "timezone": "Asia/Shanghai",
+        "date": "2026-10-28",
+        "note": "bio写 Launch: Wed 28 Oct（今天）；无精确时间。"
+      }
+    },
+    {
+      "id": "jacquardhook",
+      "name": "Jacquard",
+      "handle": "@jacquardhook",
+      "twitter": "@jacquardhook",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "未核验",
+        "discord-alpha",
+        "Uniswap-v4",
+        "Hook",
+        "RobinhoodCrypto"
+      ],
+      "links": {
+        "x": "https://x.com/jacquardhook",
+        "twitter": "https://x.com/jacquardhook"
+      },
+      "scores": {
+        "early": 90,
+        "actionable": 78,
+        "novelty": 82,
+        "risk": 66,
+        "overall": 80
+      },
+      "highlights": [
+        "把池费率规则做成一张卡并上链固化",
+        "基于Uniswap v4 hook",
+        "支持免费replay任何卡"
+      ],
+      "drawbacks": [
+        "部署链和合约地址未核验",
+        "0粉丝，团队背景未知",
+        "依赖RobinhoodCrypto生态成熟度"
+      ],
+      "whatsNew": "Jacquard在RobinhoodCrypto上做Uniswap v4费率hook，费率规则写入后不可改。",
+      "summary": "Jacquard在RobinhoodCrypto上做Uniswap v4费率hook，费率规则写入后不可改。",
+      "blurb": "Uniswap v4 hook on @RobinhoodCrypto. Punch your pool's fee rules into one card, weave the pool, and nobody can change them after. Replay any card free.",
+      "round": 734,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-28 04:36 CST",
+      "addedAt": "2026-10-28 04:36 CST",
+      "lastChecked": "2026-10-28 04:36 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "hearthpad",
+      "name": "Hearth",
+      "handle": "@hearthpad",
+      "twitter": "@hearthpad",
+      "chain": "Base",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "未核验",
+        "discord-alpha",
+        "Pons",
+        "发射台",
+        "免费发射"
+      ],
+      "links": {
+        "x": "https://x.com/hearthpad",
+        "twitter": "https://x.com/hearthpad"
+      },
+      "scores": {
+        "early": 92,
+        "actionable": 85,
+        "novelty": 72,
+        "risk": 62,
+        "overall": 83
+      },
+      "highlights": [
+        "免费在Pons发币，无dev buy",
+        "40% burn、40%分ETH给$HEARTH质押者、20%买DexScreener",
+        "已有明确发币机制，不是空口号"
+      ],
+      "drawbacks": [
+        "合约与Pons部署链未核验",
+        "代币经济依赖发射量，可持续性待观察",
+        "0粉丝，社交信号弱"
+      ],
+      "whatsNew": "Hearth在Pons推出免费发币台，费用按burn、ETH分红和DexScreener购买分配。",
+      "summary": "Hearth在Pons推出免费发币台，费用按burn、ETH分红和DexScreener购买分配。",
+      "blurb": "Launch a coin. Feed the fire. Free launch on Pons, no dev buy. 40% burns the coin · 40% pays $HEARTH stakers in ETH · 20% buys DexScreener for graduates.",
+      "round": 734,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-28 04:36 CST",
+      "addedAt": "2026-10-28 04:36 CST",
+      "lastChecked": "2026-10-28 04:36 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "lucky-cats",
       "name": "Lucky Cats 招财猫",
@@ -7971,7 +8136,7 @@
       "addedAt": "2026-10-28 04:28 CST",
       "lastChecked": "2026-10-28 04:28 CST",
       "zoneHint": "打新",
-      "newThisRound": true,
+      "newThisRound": false,
       "schedule": {
         "status": "announced",
         "timezone": "Asia/Shanghai",
@@ -8033,7 +8198,7 @@
       "addedAt": "2026-10-28 04:28 CST",
       "lastChecked": "2026-10-28 04:28 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "schedule": {
         "status": "announced",
         "timezone": "Asia/Shanghai",
@@ -116117,21 +116282,22 @@
     }
   ],
   "newThisRound": [
-    "lucky-cats",
-    "launch-aeon"
+    "hearthpad",
+    "jacquardhook",
+    "idlewharf"
   ],
-  "alertMessage": "R732：新收2个：Asphod.el(@asphodellaunch)Elysium发射台粉5；Burnpad(@burnpadsolana)Solana/Meteora台粉0。≤2h：Elysium Punks stealth仍LIVE约至05:03CST；PokeHood窗口已过清列。https://reboot7454.github.io/early-scout/",
+  "alertMessage": "",
   "roundNAdded": [
     "asphodel",
     "burnpad"
   ],
-  "updatedAt": "2026-10-28 04:07 CST",
-  "updated": "2026-10-28 04:07 CST",
+  "updatedAt": "2026-10-28 04:36 CST",
+  "updated": "2026-10-28 04:36 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-28 03:59 CST",
+  "lastScout": "2026-10-28 04:36 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -116173,7 +116339,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1634,
+  "candidateCount": 1639,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -116899,5 +117065,10 @@
   "round732Added": [
     "asphodel",
     "burnpad"
+  ],
+  "round734Added": [
+    "hearthpad",
+    "jacquardhook",
+    "idlewharf"
   ]
 }
