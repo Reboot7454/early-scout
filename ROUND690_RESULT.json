@@ -1,7 +1,7 @@
 {
   "round": 690,
   "mode": "full-radar",
-  "completedAt": "2026-10-27 15:35 CST",
+  "completedAt": "2026-10-27 15:36 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
   "notifyReason": "new_admits",
@@ -146,10 +146,18 @@
   ],
   "push": {
     "attempted": true,
-    "ok": false,
-    "sha": null
+    "ok": true,
+    "sha": "d91ced4b8418da21b3f3d4974fb72e4474c3ae96"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R690：新增HoodHaven RH GameFi beta；清oshi stale le2h；BTape~27%；Elysium主网11-09；discordPeekDeferred(无1535)；Leeonmort Not Found",
-  "focusBan": "hood-haven focus:false"
+  "focusBan": "hood-haven focus:false",
+  "discordAlphaPeek": {
+    "deferred": true,
+    "loginNeeded": true,
+    "lastChecked": "2026-10-27 15:36 CST",
+    "lastRound": 690,
+    "cardsFile": "DISCORD_ALPHA_40_CARDS_20261027_1535.json",
+    "note": "R690：1535文件存在但newCards=[]（Discord未登录重定向）；discordPeekDeferred"
+  }
 }
