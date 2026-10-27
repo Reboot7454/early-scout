@@ -12,3 +12,5 @@
 - **dsFallback**: false
 - **focusBan**: true (no focus on ordinary new)
 - **summary**: R712 mustwatch-soft新收fugazy；Fugazy/Elysian/Orynex/Jolly/Stavo/Lodger≤2h；清R711七卡new旗；GAI观察拒收；discord延后；xReads16。
+
+- **push**: ok sha=3e290f3
