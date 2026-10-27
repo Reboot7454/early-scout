@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-27 15:06 CST",
+    "updated": "2026-10-27 15:23 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R688",
-    "lastScout": "2026-10-27 15:06 CST",
+    "lastScout": "2026-10-27 15:23 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -466,7 +466,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 688,
+    "round": 689,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1352,7 +1352,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "assetclaw"
+      "lonely-town"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -2920,20 +2920,20 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-10-27 14:38 CST",
-      "lastChecked": "2026-10-27 14:41 CST",
-      "newestCardTime": "2026-10-27 14:38 CST",
-      "cardsAfterCutoff": 1,
-      "note": "R687：Discord alpha 补漏无新收；读 alpha-3 28卡（几乎全是散户/喊单号）、smart 1卡、alpha-1 2卡（Spidey 恢复）；跳过 mamuka077/graveyard_/SlopCash/getcindyapp/0xLazy",
-      "lastRound": 687,
+      "lastSeen": "2026-10-27 15:21 CST",
+      "lastChecked": "2026-10-27 15:23 CST",
+      "newestCardTime": "2026-10-27 15:21 CST",
+      "cardsAfterCutoff": 28,
+      "note": "R689：Discord alpha 补收 lonely-town(@LNLYfun RH链像素发射台，测试网白名单)；跳过 HoodHaven_RH(仅预告)/Unpairxyz(Zcash隐私swap无产品)/stonkmarket_SOL(525粉已有站)/MakoInkBot(告警工具)/散户号；RaidLords/nonceprotocol/TapeFractal 已在库；backup 无新卡",
+      "lastRound": 689,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-27 14:38 CST",
+        "alpha-3-new-accounts": "2026-10-27 15:18 CST",
         "alpha-1-backup": "2026-10-27 13:43 CST",
-        "smart-accounts-tracker": "2026-10-27 14:03 CST",
-        "alpha-1": "2026-10-27 14:08 CST"
+        "smart-accounts-tracker": "2026-10-27 15:13 CST",
+        "alpha-1": "2026-10-27 15:21 CST"
       },
       "alpha3OlderGap": "2026-10-26 13:03→2026-10-27 02:46 CST 未逐卡读完（卡量>60，噪音高）；R666 已补读 07:10–07:30 窗口",
-      "spideyResumed": "alpha-1 Spidey Bot 于 2026-10-27 13:55 CST 恢复发卡（Degenxweb 已有、SlopCash 跳过）"
+      "spideyResumed": "alpha-1 Spidey Bot 于 2026-10-27 13:55 CST 恢复发卡"
     },
     "round239Added": [
       "tsunamilaunch",
@@ -7478,9 +7478,66 @@
       ],
       "note": "Studio Pass≤2h；BTape 273/1000；Elysium 11-09；StonksPad LIVE；spritefun stopped"
     },
-    "skipNoteR688": "MochiLittle≠Mochi NFT无官方；rarelistio~17k过热；egglo/beepz/fomopoly/raidlords/wander/digital-humans/oshi已收；CRC30/pabalx/ammora/bitcoin-labz/peelersbtc已收；Leeonmort API Not Found"
+    "skipNoteR688": "MochiLittle≠Mochi NFT无官方；rarelistio~17k过热；egglo/beepz/fomopoly/raidlords/wander/digital-humans/oshi已收；CRC30/pabalx/ammora/bitcoin-labz/peelersbtc已收；Leeonmort API Not Found",
+    "round689Added": [
+      "lonely-town"
+    ]
   },
   "candidates": [
+    {
+      "id": "lonely-town",
+      "name": "Lonely Town by LNLY.fun",
+      "handle": "@lnlyfun",
+      "twitter": "@lnlyfun",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "RH链",
+        "发射台",
+        "像素",
+        "testnet-whitelist",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/LNLYfun",
+        "twitter": "https://x.com/LNLYfun",
+        "site": "https://lnly.fun"
+      },
+      "scores": {
+        "early": 92,
+        "actionable": 56,
+        "novelty": 62,
+        "risk": 76,
+        "overall": 60
+      },
+      "highlights": [
+        "账号极新、仅4关注，处于零传播阶段",
+        "像素小镇+每个币是一栋楼的Meme发射玩法，叙事具象化",
+        "测试网白名单已开放，可先低成本占位",
+        "挂在Robinhood Chain上，链本身也是早期变量"
+      ],
+      "drawbacks": [
+        "团队与合约信息几乎为零，无审计无文档可查",
+        "LNLY.fun台子无历史发射记录，跑路/空投落空概率高",
+        "Robinhood Chain生态流动性未知，退出路径不清晰",
+        "白名单仅测试网，实际代币权益未定义"
+      ],
+      "whatsNew": "新上线的Robinhood Chain像素Meme发射台，测试网白名单刚开放。",
+      "summary": "RH链像素小镇发射台：每个币是一栋楼，可「搭帐篷」发币；测试网白名单开放。4粉未核验。",
+      "blurb": "RH链像素小镇发射台：每个币是一栋楼，可「搭帐篷」发币；测试网白名单开放。4粉未核验。",
+      "round": 689,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 4,
+      "xFollowers": 4,
+      "firstSeen": "2026-10-27 15:23 CST",
+      "addedAt": "2026-10-27 15:23 CST",
+      "lastChecked": "2026-10-27 15:23 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "degen-x",
       "name": "Degen X",
@@ -108112,7 +108169,7 @@
       "lzVerified": false,
       "round": 688,
       "candidate": true,
-      "newThisRound": true,
+      "newThisRound": false,
       "firstSeen": "2026-10-27 15:06 CST",
       "addedAt": "2026-10-27 15:06 CST",
       "lastChecked": "2026-10-27 15:06 CST",
@@ -108120,21 +108177,21 @@
     }
   ],
   "newThisRound": [
-    "assetclaw"
+    "lonely-town"
   ],
-  "alertMessage": "",
+  "alertMessage": "🛰️ DC补漏 R689 新收1：Lonely Town(@LNLYfun) RH链像素小镇发射台，每个币一栋楼，测试网白名单开放（4粉未核验）→台子/Meme。面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "motes",
     "tmb-meme",
     "saira-os"
   ],
-  "updatedAt": "2026-10-27 15:06 CST",
-  "updated": "2026-10-27 15:06 CST",
+  "updatedAt": "2026-10-27 15:23 CST",
+  "updated": "2026-10-27 15:23 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-27 14:41 CST",
+  "lastScout": "2026-10-27 15:23 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -108176,7 +108233,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1498,
+  "candidateCount": 1500,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -108726,5 +108783,8 @@
     "tmb-meme",
     "saira-os"
   ],
-  "round687Added": []
+  "round687Added": [],
+  "round689Added": [
+    "lonely-town"
+  ]
 }
