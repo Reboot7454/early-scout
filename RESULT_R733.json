@@ -1,0 +1,104 @@
+{
+  "round": 733,
+  "mode": "full-radar-soft",
+  "completedAt": "2026-10-28 04:29 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "true new admits (lucky-cats, launch-aeon) + le2h window (elysium-punks still ≤2h to ~05:03 CST)",
+  "alertMessage": "R733：新收2个：Lucky Cats招财猫(@LuckyCatsBNB)BNB Agent ID门禁粉0·free mint即将；Aeon(@_LaunchAeon)StonkFun fair launch层粉0。≤2h：Elysium Punks stealth仍LIVE约至05:03CST（余≈34分）。computeroll补官推@ComputeRollLabs。https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "lucky-cats",
+      "handle": "@LuckyCatsBNB",
+      "reason": "BNB Agent ID门禁像素招财猫，官推今日新建粉0，free mint即将开启"
+    },
+    {
+      "id": "launch-aeon",
+      "handle": "@_LaunchAeon",
+      "reason": "StonkFun fair launch层，官推今日新建粉0仅1推，官网launchaeon.fun"
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "lucky-cats",
+    "launch-aeon"
+  ],
+  "round733Added": [
+    "lucky-cats",
+    "launch-aeon"
+  ],
+  "skipped": [
+    {
+      "id": "stromboat",
+      "reason": "无独立官推（Stromboat/StromboatNFT不存在），仅推广号刷屏，按规则跳过"
+    },
+    {
+      "id": "solved-genesis",
+      "reason": "无独立官推（SOLVEDNFT/SolvedGenesis不存在），跳过"
+    },
+    {
+      "id": "momoswapdotfun",
+      "reason": "CookieChain台已有毕业项目，非极早期窗口，跳过"
+    },
+    {
+      "id": "aiuki/koai/nonce-protocol/boxa-elysium/elysian-fields",
+      "reason": "已在库，本轮soft无新≤2h窗"
+    },
+    {
+      "id": "leeonmort",
+      "reason": "@Leeonmort 本轮 get_users 不存在/不可用，软记"
+    }
+  ],
+  "updated": [
+    {
+      "id": "computeroll",
+      "note": "补官推@ComputeRollLabs粉0·首帖Coming soon；去无官推标签"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "elysium-punks",
+      "handle": "@PunksOnElysium",
+      "note": "stealth mint仍LIVE≈03:03CST·≤2h约至05:03CST（余≈34分）"
+    }
+  ],
+  "clearedLe2h": [],
+  "clearedPrevNew": [
+    "asphodel",
+    "burnpad"
+  ],
+  "xReads": 15,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit+score(2)+alert+cards",
+  "focusBan": true,
+  "summary": "R733雷达新收lucky-cats/launch-aeon；≤2h续elysium-punks；computeroll补官推；Stromboat/SOLVED无官推跳过；xReads≈15；discordPeek暂缓。",
+  "watchesSoft": [
+    "kinetiqWatch",
+    "elysiumWatch",
+    "tapeWatch",
+    "tapeOutWatch",
+    "flapPadWatch",
+    "irysPadWatch",
+    "fullFunWatch",
+    "agentPadWatch",
+    "agentMiningWatch",
+    "agentTradingWatch",
+    "giwaWatch",
+    "dogeEvmWatch",
+    "zeroWatch",
+    "starknetWatch",
+    "btcPrivacyWatch",
+    "cantonPadWatch",
+    "glazeWatch",
+    "tokenWorksPlaygroundWatch",
+    "tokenWorksWatch",
+    "miningWatch",
+    "layerZeroWatch"
+  ],
+  "push": {
+    "ok": false,
+    "attempted": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
