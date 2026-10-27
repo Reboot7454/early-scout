@@ -1,0 +1,69 @@
+{
+  "round": 673,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-27 10:40 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "privypad",
+    "runic-perpetuals",
+    "traderslake"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "privypad",
+    "runic-perpetuals",
+    "traderslake"
+  ],
+  "skipped": [
+    {
+      "id": "cokie",
+      "reason": "独立项目入口但仅有Meme IP口号，5粉且无代币/合约/产品线索，按宁缺毋滥跳过。"
+    },
+    {
+      "id": "elon-2028-eth",
+      "reason": "空泛政治口号，无独立项目/产品/发射线索，0粉空壳风险高。"
+    },
+    {
+      "id": "moonth-nft",
+      "reason": "个人NFT创作者账号，非独立项目，0粉且无产品/发射线索。"
+    }
+  ],
+  "cardsAfterLastSeen": 1,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "bashard",
+    "zolana",
+    "polystonk"
+  ],
+  "candidateFlagsCleared": 3,
+  "topNewThisRoundCleared": [
+    "bashard",
+    "zolana",
+    "polystonk"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=6",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-27 10:34 CST",
+    "lastChecked": "2026-10-27 10:40 CST",
+    "newestCardTime": "2026-10-27 10:34 CST",
+    "cardsAfterCutoff": 1,
+    "note": "R673：Discord alpha 补收 privypad,runic-perpetuals,traderslake；跳过 [{'id': 'cokie', 'reason': '独立项目入口但仅有Meme IP口号，5粉且无代币/合约/产品线索，按宁缺毋滥跳过。'}, {'id': 'elon-2028-eth', 'reason': '空泛政治口号，无独立项目/产品/发射线索，0粉空壳风险高。'}, {'id': 'moonth-nft', 'reason': '个人NFT创作者账号，非独立项目，0粉且无产品/发射线索。'}]；清 bashard,zolana,polystonk；lastSeen→2026-10-27 10:34 CST；lastChecked→2026-10-27 10:40 CST",
+    "lastRound": 673
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R673：Discord alpha 补收 privypad,runic-perpetuals,traderslake；跳过 [{'id': 'cokie', 'reason': '独立项目入口但仅有Meme IP口号，5粉且无代币/合约/产品线索，按宁缺毋滥跳过。'}, {'id': 'elon-2028-eth', 'reason': '空泛政治口号，无独立项目/产品/发射线索，0粉空壳风险高。'}, {'id': 'moonth-nft', 'reason': '个人NFT创作者账号，非独立项目，0粉且无产品/发射线索。'}]；清 bashard,zolana,polystonk；lastSeen→2026-10-27 10:34 CST；lastChecked→2026-10-27 10:40 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261027_1040.json",
+  "priorRoundNote": "R672 meta NTR ['jolly-on-rh', 'noir-tech', 'bashard', 'zolana', 'polystonk']; cardsAfterCutoff=1"
+}

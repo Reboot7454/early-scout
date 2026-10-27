@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-27 10:38 CST",
+    "updated": "2026-10-27 10:40 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-keyword-mustwatch-soft",
-    "lastScout": "2026-10-27 10:38 CST",
+    "lastScout": "2026-10-27 10:40 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -466,7 +466,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 672,
+    "round": 673,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1336,8 +1336,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "jolly-on-rh",
-      "noir-tech"
+      "privypad",
+      "runic-perpetuals",
+      "traderslake"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -2885,17 +2886,17 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-10-27 09:48 CST",
-      "lastChecked": "2026-10-27 10:38 CST",
-      "newestCardTime": "2026-10-27 09:48 CST",
-      "cardsAfterCutoff": 38,
-      "note": "R672：X关键词+必盯软刷模式，Discord peek 延期；保留 lastSeen≈2026-10-27 09:48 CST",
-      "lastRound": 670,
+      "deferred": false,
+      "lastSeen": "2026-10-27 10:34 CST",
+      "lastChecked": "2026-10-27 10:40 CST",
+      "newestCardTime": "2026-10-27 10:34 CST",
+      "cardsAfterCutoff": 1,
+      "note": "R673：Discord alpha 补收 privypad,runic-perpetuals,traderslake；跳过 [{'id': 'cokie', 'reason': '独立项目入口但仅有Meme IP口号，5粉且无代币/合约/产品线索，按宁缺毋滥跳过。'}, {'id': 'elon-2028-eth', 'reason': '空泛政治口号，无独立项目/产品/发射线索，0粉空壳风险高。'}, {'id': 'moonth-nft', 'reason': '个人NFT创作者账号，非独立项目，0粉且无产品/发射线索。'}]；清 bashard,zolana,polystonk；lastSeen→2026-10-27 10:34 CST；lastChecked→2026-10-27 10:40 CST",
+      "lastRound": 673,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-27 09:48 CST",
+        "alpha-3-new-accounts": "2026-10-27 10:34 CST",
         "alpha-1-backup": "2026-10-27 08:58 CST",
-        "smart-accounts-tracker": "2026-10-27 09:38 CST",
+        "smart-accounts-tracker": "2026-10-27 10:28 CST",
         "alpha-1": "2026-10-26 13:03 CST"
       },
       "alpha3OlderGap": "2026-10-26 13:03→2026-10-27 02:46 CST 未逐卡读完（卡量>60，噪音高）；R666 已补读 07:10–07:30 窗口"
@@ -7240,9 +7241,159 @@
       "jolly-on-rh",
       "noir-tech"
     ],
-    "leeonmortStatus": "X handle not found (re-verified R672)"
+    "leeonmortStatus": "X handle not found (re-verified R672)",
+    "round673Added": [
+      "privypad",
+      "runic-perpetuals",
+      "traderslake"
+    ]
   },
   "candidates": [
+    {
+      "id": "traderslake",
+      "name": "TradersLake",
+      "handle": "@traderslake",
+      "twitter": "@traderslake",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "Robinhood Chain",
+        "数据台",
+        "自有节点",
+        "图表",
+        "风险",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/TradersLake",
+        "web": "https://traderslake.com"
+      },
+      "scores": {
+        "early": 6,
+        "potential": 7,
+        "risk": 3
+      },
+      "highlights": [
+        "自有节点实时Robinhood Chain交易",
+        "提供图表/持有人/风险事实",
+        "无需账户，有官网与蓝V",
+        "被@Alphaseeker21关注"
+      ],
+      "drawbacks": [
+        "非发射台，工具属性偏强",
+        "198粉已不算完全零信息"
+      ],
+      "whatsNew": "新出现覆盖Robinhood Chain全币种的自有节点数据台。",
+      "summary": "Robinhood Chain早期交易数据台，产品线索相对最实。",
+      "blurb": "Robinhood Chain早期交易数据台，产品线索相对最实。",
+      "round": 673,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 198,
+      "xFollowers": 198,
+      "firstSeen": "2026-10-27 10:40 CST",
+      "addedAt": "2026-10-27 10:40 CST",
+      "lastChecked": "2026-10-27 10:40 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "runic-perpetuals",
+      "name": "Runic Perpetuals",
+      "handle": "@runicperpetuals",
+      "twitter": "@runicperpetuals",
+      "chain": "Bitcoin/Runes",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "Runes",
+        "Launchpad",
+        "杠杆",
+        "10x",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/RunicPerpetuals"
+      },
+      "scores": {
+        "early": 10,
+        "potential": 6,
+        "risk": 9
+      },
+      "highlights": [
+        "Rune资产背书发射台",
+        "最高10x杠杆玩法",
+        "关注Robinhood相关账号"
+      ],
+      "drawbacks": [
+        "0粉且无官网/合约",
+        "仅bio线索，真实性待验证"
+      ],
+      "whatsNew": "新出现Rune背书+10x杠杆发射台候选。",
+      "summary": "Rune背书加杠杆的极早期发射台，概念具体但可信度待查。",
+      "blurb": "Rune背书加杠杆的极早期发射台，概念具体但可信度待查。",
+      "round": 673,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-27 10:40 CST",
+      "addedAt": "2026-10-27 10:40 CST",
+      "lastChecked": "2026-10-27 10:40 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "privypad",
+      "name": "PrivyPad",
+      "handle": "@theprivypad",
+      "twitter": "@theprivypad",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "Solana",
+        "隐私",
+        "zk-SNARK",
+        "Launchpad",
+        "$PRIVY",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/ThePrivyPad"
+      },
+      "scores": {
+        "early": 9,
+        "potential": 6,
+        "risk": 8
+      },
+      "highlights": [
+        "Solana隐私发射台定位",
+        "$PRIVY由zk-SNARK驱动",
+        "关注Zcash，隐私叙事明确"
+      ],
+      "drawbacks": [
+        "仅3粉，缺官网/合约信息",
+        "产品真实性待验证"
+      ],
+      "whatsNew": "新出现以zk-SNARK隐私为卖点的Solana发射台。",
+      "summary": "Solana极早期隐私打新台，叙事清晰但公开信息很少。",
+      "blurb": "Solana极早期隐私打新台，叙事清晰但公开信息很少。",
+      "round": 673,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 3,
+      "xFollowers": 3,
+      "firstSeen": "2026-10-27 10:40 CST",
+      "addedAt": "2026-10-27 10:40 CST",
+      "lastChecked": "2026-10-27 10:40 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "jolly-on-rh",
       "name": "Jolly",
@@ -7383,7 +7534,7 @@
         "x": "https://x.com/Bashard_",
         "twitter": "https://x.com/Bashard_"
       },
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "zolana",
@@ -7426,7 +7577,7 @@
         "x": "https://x.com/zolanaxyz",
         "twitter": "https://x.com/zolanaxyz"
       },
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "polystonk",
@@ -7473,7 +7624,7 @@
         "ca": "8VaJY8HKr8Huc8a7oPoEfxwLGPnCASpZMGEQ8b4xLyAH",
         "caNote": "官帖自报CA；合约一律未核，谨防仿盘"
       },
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "ok-meme",
@@ -106094,21 +106245,22 @@
     }
   ],
   "newThisRound": [
-    "jolly-on-rh",
-    "noir-tech"
+    "privypad",
+    "runic-perpetuals",
+    "traderslake"
   ],
-  "alertMessage": "新增2项：Jolly(@JollyonRH RH社交交易+发射，10-22建号粉72本窗介绍帖)、Noir(@NoirTechSol Profile发币台 Solana+RH，$NOIR LIVE+CA)；2h内看 Peak(08:46CST开盘粉76→88)。Elysium仍11-09。面板：https://reboot7454.github.io/early-scout/",
+  "alertMessage": "",
   "roundNAdded": [
     "jolly-on-rh",
     "noir-tech"
   ],
-  "updatedAt": "2026-10-27 10:38 CST",
-  "updated": "2026-10-27 10:38 CST",
+  "updatedAt": "2026-10-27 10:40 CST",
+  "updated": "2026-10-27 10:40 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-27 10:38 CST",
+  "lastScout": "2026-10-27 10:40 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -106150,7 +106302,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1468,
+  "candidateCount": 1471,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -106651,5 +106803,10 @@
   "round672Added": [
     "jolly-on-rh",
     "noir-tech"
+  ],
+  "round673Added": [
+    "privypad",
+    "runic-perpetuals",
+    "traderslake"
   ]
 }
