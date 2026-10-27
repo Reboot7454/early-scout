@@ -1,0 +1,171 @@
+{
+  "round": 741,
+  "mode": "full-radar-soft",
+  "completedAt": "2026-10-28 06:40 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "true new admit: nullsxyz (nulls / NEAR early NFT); task R740 bumped to R741 because remote already had R740 discord-alpha",
+  "alertMessage": "新收录 nulls(@nullsxyz)：NEAR 极早期 NFT/体验预热，粉901，官网 nulls.world，可先关注官推与站点；另 computeroll 粉6、Mining未开，bitcointapes free mint≈273/1000，完整面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "nullsxyz",
+      "name": "nulls",
+      "handle": "@nullsxyz",
+      "note": "NEAR极早期NFT/体验预热·粉901·官网nulls.world；tags打新/NEAR"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "nullsxyz"
+  ],
+  "round741Added": [
+    "nullsxyz"
+  ],
+  "skipped": [
+    {
+      "id": "pumpdotnut",
+      "reason": "仅1帖fair launch预告，无官网/CA/开盘时间，score拒收"
+    },
+    {
+      "id": "karmafuckers",
+      "reason": "staker GTD free mint已live，非极早期首发窗"
+    },
+    {
+      "id": "cactus-exe",
+      "reason": "官推粉9且bio无关，疑似误标"
+    },
+    {
+      "id": "leeonmort",
+      "reason": "@Leeonmort get_users仍不存在，软记"
+    },
+    {
+      "id": "kalos",
+      "reason": "Elysium相关Kalos testnet社区帖，无独立可核验官推"
+    },
+    {
+      "id": "elysiumgloom",
+      "reason": "Elysium无合约/mint窗/testnet部署证据，硬规则skip（续）"
+    }
+  ],
+  "updated": [
+    {
+      "id": "computeroll",
+      "note": "粉4→6；Mining未开·合约测试续"
+    },
+    {
+      "id": "bitcointapes",
+      "note": "free mint≈273/1000"
+    },
+    {
+      "id": "pipfun",
+      "note": "粉持39"
+    },
+    {
+      "id": "stonks-pad",
+      "note": "粉持758"
+    },
+    {
+      "id": "enter-elysium",
+      "note": "Goldsky testnet续；主网11-09"
+    },
+    {
+      "id": "ptah-trade",
+      "note": "粉→12550"
+    },
+    {
+      "id": "agent-punk",
+      "note": "粉持460"
+    },
+    {
+      "id": "x402fizzl",
+      "note": "粉持11"
+    },
+    {
+      "id": "minitans",
+      "note": "粉→210"
+    },
+    {
+      "id": "elysiumant",
+      "note": "粉≈805"
+    },
+    {
+      "id": "gang-fun",
+      "note": "粉→5619"
+    },
+    {
+      "id": "listen-money",
+      "note": "粉≈1533"
+    },
+    {
+      "id": "full-fun",
+      "note": "粉≈11820"
+    },
+    {
+      "id": "tape-pool",
+      "note": "借贷池叙事续"
+    },
+    {
+      "id": "sprite-fun",
+      "note": "停建劝退不变"
+    },
+    {
+      "id": "jumak-sanjeok",
+      "note": "GIWA 日常续·粉1244"
+    }
+  ],
+  "le2h": [],
+  "clearedLe2h": [],
+  "clearedPrevNew": [
+    {
+      "id": "zcashgirl",
+      "note": "R740 Discord newThisRound 本轮清空"
+    },
+    {
+      "id": "hullboundgame",
+      "note": "R740 Discord newThisRound 本轮清空"
+    },
+    {
+      "id": "agent-minimum",
+      "note": "R740 Discord newThisRound 本轮清空"
+    }
+  ],
+  "xReads": 15,
+  "discordPeekDeferred": true,
+  "discordPeekNote": "R739（约06:04 CST）已扫 Discord #alpha-1；R740 另路 Discord alpha 已收3卡；本轮 discordPeekDeferred=true，不开浏览器",
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit(4)+score(2)+alert+summary",
+  "focusBan": true,
+  "summary": "R741因远程已占R740 Discord：新收nulls（NEAR极早期NFT预热，粉901，官网nulls.world）；跳过pumpdotnut/karmafuckers/cactus-exe/leeonmort404/Kalos无官推；软刷computeroll粉6 Mining未开、bitcointapes≈273/1000、Enter_Elysium续；清R740 newThisRound；le2h空；discordPeekDeferred=true；xReads15。",
+  "watchesSoft": [
+    "kinetiqWatch",
+    "elysiumWatch",
+    "tapeWatch",
+    "tapeOutWatch",
+    "flapPadWatch",
+    "irysPadWatch",
+    "fullFunWatch",
+    "agentPadWatch",
+    "agentMiningWatch",
+    "agentTradingWatch",
+    "giwaWatch",
+    "dogeEvmWatch",
+    "zeroWatch",
+    "starknetWatch",
+    "btcPrivacyWatch",
+    "cantonPadWatch",
+    "glazeWatch",
+    "tokenWorksPlaygroundWatch",
+    "tokenWorksWatch",
+    "miningWatch",
+    "layerZeroWatch",
+    "blonskrWatch"
+  ],
+  "roundBumpNote": "Parent tasked R740; after git pull remote meta.round already 740 (discord-alpha zcashgirl/hullboundgame/agent-minimum). Per hard rule executed as R741.",
+  "push": {
+    "ok": false,
+    "sha": null,
+    "branch": "main",
+    "attempted": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
