@@ -1,0 +1,197 @@
+{
+  "round": 691,
+  "mode": "full-radar",
+  "completedAt": "2026-10-27 16:06 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "🚀 R691新收7：FarmRH(@PlayFarmRH)RH挖矿WL；Orynex(@OrynexIntel)今日23:00CST经Pons上线；NasalisFlow ETH free mint TBA；另HookPass/Rigged/KilnAi/Sharpe。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "tryhookpass",
+      "handle": "@TryHookPass",
+      "name": "HookPass",
+      "category": "台子/Meme",
+      "followers": 0,
+      "source": "discord-alpha"
+    },
+    {
+      "id": "riggedtrade",
+      "handle": "@RiggedTrade",
+      "name": "Rigged",
+      "category": "台子/Meme",
+      "followers": 3,
+      "source": "discord-alpha"
+    },
+    {
+      "id": "kilnaidevs",
+      "handle": "@KilnAiDevs",
+      "name": "Kiln Ai",
+      "category": "台子/Meme",
+      "followers": 180,
+      "source": "discord-alpha"
+    },
+    {
+      "id": "sharpedotac",
+      "handle": "@sharpedotac",
+      "name": "Sharpe",
+      "category": "台子/Meme",
+      "followers": 16,
+      "source": "discord-alpha"
+    },
+    {
+      "id": "play-farm-rh",
+      "handle": "@PlayFarmRH",
+      "name": "FarmRH",
+      "category": "挖矿",
+      "followers": 957,
+      "overall": 68,
+      "reason": "RH链挖矿Season1+WL已开，极早期"
+    },
+    {
+      "id": "orynex",
+      "handle": "@OrynexIntel",
+      "name": "Orynex",
+      "category": "GO盘",
+      "followers": 57,
+      "overall": 56,
+      "reason": "今日23:00CST经Pons上线"
+    },
+    {
+      "id": "nasalis-flow",
+      "handle": "@NasalisFlow",
+      "name": "NasalisFlow",
+      "category": "打新",
+      "followers": 215,
+      "overall": 54,
+      "reason": "ETH GTD free mint TBA"
+    }
+  ],
+  "newCount": 7,
+  "newIds": [
+    "tryhookpass",
+    "riggedtrade",
+    "kilnaidevs",
+    "sharpedotac",
+    "play-farm-rh",
+    "orynex",
+    "nasalis-flow"
+  ],
+  "skipped": [
+    {
+      "id": "eniverspad",
+      "reason": "$ENI已live pump.fun，疑似跟风发币"
+    },
+    {
+      "id": "bitsanapp",
+      "reason": "Solana bot，非mint/打新窗口"
+    },
+    {
+      "id": "spoxy",
+      "reason": "已收；soft续"
+    },
+    {
+      "id": "blue-sky",
+      "reason": "已收；soft续"
+    },
+    {
+      "id": "the-forge-en",
+      "reason": "已收；soft续"
+    },
+    {
+      "id": "bitcointapes",
+      "reason": "已收；mint~27% soft"
+    },
+    {
+      "id": "enter-elysium",
+      "reason": "已收；主网11-09 soft"
+    },
+    {
+      "id": "stonks-pad",
+      "reason": "已收；LIVE soft"
+    },
+    {
+      "id": "sprite-fun",
+      "reason": "已收；ended soft"
+    },
+    {
+      "id": "full-fun",
+      "reason": "已收；soft"
+    },
+    {
+      "id": "hood-haven",
+      "reason": "上轮新收；本轮清NTR"
+    },
+    {
+      "id": "oshi-labs",
+      "reason": "已收；清stale le2h"
+    },
+    {
+      "id": "Leeonmort",
+      "reason": "Not Found（同R690）"
+    }
+  ],
+  "le2h": [],
+  "xReads": 15,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit=5 score=3 alert=1 summary=1 thinkingON",
+  "coverage": "x-keyword+mustwatch-soft+DS-admit; kinetiq/tape/agentPad/flap/irys/fullFun/starknet/giwa/zero/dogeEvm/btcPrivacy/canton/glaze/tokenWorks lastChecked",
+  "softRefresh": {
+    "cards": [
+      "bitcointapes",
+      "enter-elysium",
+      "oshi-labs",
+      "stonks-pad",
+      "sprite-fun",
+      "full-fun",
+      "spoxy",
+      "blue-sky",
+      "the-forge-en",
+      "hood-haven"
+    ],
+    "watches": [
+      "kinetiq",
+      "elysium",
+      "tape",
+      "tapeOut",
+      "flapPad",
+      "irysPad",
+      "fullFun",
+      "agentPad",
+      "agentMining",
+      "agentTrading",
+      "starknet",
+      "giwa",
+      "zero",
+      "dogeEvm",
+      "btcPrivacy",
+      "canton",
+      "glaze",
+      "tokenWorks",
+      "starcat",
+      "blonskr",
+      "paperbird",
+      "xChainPad"
+    ]
+  },
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "hood-haven"
+  ],
+  "push": {
+    "attempted": false,
+    "ok": false,
+    "sha": null
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R691：Discord补漏HookPass/Rigged/KilnAi/Sharpe；X新收FarmRH/Orynex/NasalisFlow；BTape~27%；Elysium主网11-09；Orynex 23:00CST；discordPeekDeferred",
+  "focusBan": "play-farm-rh/orynex/nasalis-flow/discord4 focus:false",
+  "discordAlphaPeek": {
+    "deferred": true,
+    "loginNeeded": true,
+    "lastChecked": "2026-10-27 16:06 CST",
+    "lastRound": 691,
+    "note": "本时段无新可读Discord卡；沿用R691 discord补漏4卡；X补收3"
+  }
+}
