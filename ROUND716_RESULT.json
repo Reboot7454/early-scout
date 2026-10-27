@@ -1,0 +1,104 @@
+{
+  "round": 716,
+  "mode": "full-radar",
+  "completedAt": "2026-10-27 23:34 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "le2h windows (jean-philkins/elysian-fields/orynex/fugazy); no new admits",
+  "alertMessage": "R716无新收。≤2h：@JeanPhilkins mint约00:00–00:07CST；@ElysianFieldNFT公售FCFS刚开(0.025HYPE)；@orynex_xyz/@Fugazy_NFT约23:00窗续。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "round716Added": [],
+  "skipped": [
+    {
+      "id": "elysium-outlaws",
+      "handle": "@ElysiumOutlaws",
+      "reason": "Elysium hard gate: Coming soon/WL-only, no On testnet or Announced+explicit deploy"
+    },
+    {
+      "id": "cailai-bsc",
+      "handle": "@Cailai_BSC",
+      "reason": "Flap已发射+预售完，非极早期"
+    },
+    {
+      "id": "blobminer",
+      "handle": null,
+      "reason": "无官推/官方X（BLOBMiner* 404）"
+    },
+    {
+      "id": "coracle-agents",
+      "reason": "已收录R710，本轮soft粉21→37"
+    },
+    {
+      "id": "ethernalcubs",
+      "reason": "已收录，soft only"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "jean-philkins",
+      "handle": "@JeanPhilkins",
+      "note": "Mint约00:00–00:07CST Oct28 · 0.004HYPE · 合约未发 · ≤2h"
+    },
+    {
+      "id": "elysian-fields",
+      "handle": "@ElysianFieldNFT",
+      "note": "Public FCFS mint 23:30CST刚开 · 0.025HYPE · ≤2h"
+    },
+    {
+      "id": "orynex",
+      "handle": "@orynex_xyz",
+      "note": "23:00CST Pons窗已开 · 仍≤2h"
+    },
+    {
+      "id": "fugazy",
+      "handle": "@Fugazy_NFT",
+      "note": "23:00CST OpenSea freemint窗 · 仍≤2h"
+    }
+  ],
+  "xReads": 24,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit=1 alert=1 thinkingON",
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/Tape/GIWA/DogeEVM/BN Agent钱包/BTC/Starknet",
+  "softRefresh": {
+    "cards": [
+      "enter-elysium",
+      "elysian-fields",
+      "jean-philkins",
+      "bitcointapes",
+      "stonks-pad",
+      "ptah-trade",
+      "coracle-agents",
+      "orynex",
+      "fugazy",
+      "lodgerwell",
+      "tape-fractal",
+      "stavo",
+      "jolly-on-rh",
+      "tapeai"
+    ],
+    "clearedLe2h": [
+      "lodgerwell",
+      "tape-fractal",
+      "stavo",
+      "jolly-on-rh"
+    ],
+    "watches": "all *Watch lastChecked→R716; kinetiq/elysium/tape/flap/agentPad notes"
+  },
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "pairedfunx",
+    "onetickpad",
+    "rungmcpdev",
+    "latelityz"
+  ],
+  "focusBan": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R716全量雷达：无新收；soft刷Elysium/Tape/Flap/BN Agent；≤2h四窗(JeanPhilkins/ElysianFields/Orynex/FUGAZY)；DC peek延期；Outlaws/Cailai/BLOB跳过。",
+  "push": {
+    "ok": false,
+    "pending": true
+  }
+}
