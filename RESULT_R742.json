@@ -1,0 +1,206 @@
+{
+  "round": 742,
+  "mode": "full-radar-soft",
+  "completedAt": "2026-10-28 07:10 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "true new admit: launch-on-feed (Feed / Solana community launchpad LIVE)",
+  "alertMessage": "R742：Feed(@LaunchOnFeed) Solana社区launchpad LIVE，粉14，站feedfun.org；周一UTC冻结论坛Top3强制落地+7种发币。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "launch-on-feed",
+      "name": "Feed",
+      "handle": "@LaunchOnFeed",
+      "note": "Solana社区launchpad LIVE·粉14·站feedfun.org；周一UTC冻结论坛Top3强制落地+7种发币；tags台子/Meme/Solana"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "launch-on-feed"
+  ],
+  "round742Added": [
+    "launch-on-feed"
+  ],
+  "skipped": [
+    {
+      "id": "meme-cartel-agent",
+      "reason": "$CARTEL已发币上pump/DexScreener，非早期窗"
+    },
+    {
+      "id": "only-dot-meme",
+      "reason": "粉6977已较热，早期窗口已过"
+    },
+    {
+      "id": "arctis-fun",
+      "reason": "粉3帖极少、产品未核验，DS score overall26拒收"
+    },
+    {
+      "id": "sprout-fun",
+      "reason": "粉0空壳无内容"
+    },
+    {
+      "id": "enters-elysium-fake",
+      "reason": "冒充@Enter_Elysium，疑似钓鱼跳过"
+    },
+    {
+      "id": "ammora",
+      "reason": "已在库；GIWA waitlist续软刷"
+    },
+    {
+      "id": "netpad",
+      "reason": "已在库；粉→28软刷"
+    },
+    {
+      "id": "ely-gremlins",
+      "reason": "已在库；粉42→875软刷"
+    },
+    {
+      "id": "oxus-trail",
+      "reason": "已在库；粉→1145软刷"
+    }
+  ],
+  "updated": [
+    {
+      "id": "computeroll",
+      "note": "粉6→9；Mining未开"
+    },
+    {
+      "id": "bitcointapes",
+      "note": "free mint≈273/1000"
+    },
+    {
+      "id": "pipfun",
+      "note": "粉持39"
+    },
+    {
+      "id": "stonks-pad",
+      "note": "粉持758"
+    },
+    {
+      "id": "enter-elysium",
+      "note": "粉→13831；主网11-09"
+    },
+    {
+      "id": "ptah-trade",
+      "note": "粉→12582"
+    },
+    {
+      "id": "agent-punk",
+      "note": "粉持460"
+    },
+    {
+      "id": "listen-money",
+      "note": "粉≈1532"
+    },
+    {
+      "id": "full-fun",
+      "note": "粉≈11818"
+    },
+    {
+      "id": "tape-pool",
+      "note": "借贷池叙事续"
+    },
+    {
+      "id": "sprite-fun",
+      "note": "停建劝退不变"
+    },
+    {
+      "id": "nullsxyz",
+      "note": "粉→906；清newThisRound"
+    },
+    {
+      "id": "netpad",
+      "note": "粉→28"
+    },
+    {
+      "id": "ely-gremlins",
+      "note": "粉42→875"
+    },
+    {
+      "id": "oxus-trail",
+      "note": "粉→1145"
+    },
+    {
+      "id": "jumak-sanjeok",
+      "note": "粉→1245；GIWA日常续"
+    },
+    {
+      "id": "gang-fun",
+      "note": "粉→5697"
+    },
+    {
+      "id": "minitans",
+      "note": "粉→216"
+    },
+    {
+      "id": "elysium-punks",
+      "note": "clearedLe2h"
+    },
+    {
+      "id": "x402fizzl",
+      "note": "粉持11"
+    }
+  ],
+  "le2h": [],
+  "clearedLe2h": [
+    {
+      "id": "elysium-punks",
+      "note": "stealth mint窗已结束，顶层le2h清false"
+    }
+  ],
+  "clearedPrevNew": [
+    {
+      "id": "nullsxyz",
+      "note": "R741 newThisRound 本轮清空"
+    }
+  ],
+  "xReads": 18,
+  "discordPeekDeferred": true,
+  "discordPeekNote": "父代理 computerUse 另跑；本执行端不浏览器。lastSeen约2026-10-28 06:32 CST。",
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": [
+      "admit",
+      "score",
+      "alert",
+      "summary"
+    ]
+  },
+  "focusBan": "普通新收录 focus:false；本轮 launch-on-feed 未写入 focus；未改 focusIds",
+  "summary": "R742新收录Feed(@LaunchOnFeed) Solana社区launchpad并已LIVE，周一UTC冻结论坛Top3强制落地、支持7种发币；软刷多项更新，但本轮无≤2h窗，Discord peek延期。",
+  "watchesSoft": [
+    "kinetiqWatch",
+    "elysiumWatch",
+    "tapeWatch",
+    "tapeOutWatch",
+    "flapPadWatch",
+    "irysPadWatch",
+    "fullFunWatch",
+    "agentPadWatch",
+    "agentMiningWatch",
+    "agentTradingWatch",
+    "giwaWatch",
+    "zeroWatch",
+    "dogeEvmWatch",
+    "starknetWatch",
+    "btcPrivacyWatch",
+    "miningWatch",
+    "layerZeroWatch",
+    "cantonPadWatch",
+    "glazeWatch",
+    "tokenWorksWatch",
+    "blonskrWatch",
+    "focusWatch"
+  ],
+  "roundBumpNote": "pull后 meta.round=741 → 本轮 742",
+  "push": {
+    "branch": "main",
+    "files": [
+      "data.json",
+      "RESULT_R742.json"
+    ]
+  },
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
