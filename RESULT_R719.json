@@ -1,0 +1,41 @@
+{
+  "round": 719,
+  "mode": "full-radar-soft",
+  "completedAt": "2026-10-28 00:36 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "le2h windows (jean-philkins/elysian-fields/fugazy/orynex); no new admits",
+  "alertMessage": "无新增；近2h内 Jean Philkins、Fugazy、Orynex 约01:00截止，Elysian Fields 约01:30截止，速看 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "round719Added": [],
+  "skipped": [
+    {"id": "danta-pixel", "handle": "@dantapixelnft", "reason": "R690已soft链；免位约剩50仅soft不重收"},
+    {"id": "chain-punks", "handle": "@ChainPunks", "reason": "DS曾admit但核验已mint/ChainOS live/~3940粉，非ultra-early"},
+    {"id": "stubs", "handle": "@stubsbet", "reason": "已有卡；合约上线mint临近仅soft"},
+    {"id": "nexora-inj", "reason": "非本轮可操作/已跳过"}
+  ],
+  "le2h": [
+    {"id": "jean-philkins", "handle": "@JeanPhilkins", "note": "00:00CST档已开·WL freemint·仍≤2h至约02:00"},
+    {"id": "elysian-fields", "handle": "@ElysianFieldNFT", "note": "公售0.025HYPE续·RPC慢·≤2h至约01:30"},
+    {"id": "fugazy", "handle": "@Fugazy_NFT", "note": "RH OpenSea public mint live·≤2h至约01:00"},
+    {"id": "orynex", "handle": "@OrynexIntel", "note": "Pons窗续·官推404·≤2h至约01:00"}
+  ],
+  "clearedLe2h": ["launch-on-peak"],
+  "xReads": 19,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit=1 alert=1 summary=1 whatsNew=1 thinkingON(admit)/OFF(structured)",
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/Tape/GIWA/DogeEVM/BN Agent钱包/BTC/Starknet",
+  "softRefresh": {
+    "cards": ["danta", "stubs", "jean-philkins", "elysian-fields", "fugazy", "orynex", "bitcointapes", "enter-elysium", "stonks-pad", "launch-on-peak", "koai", "oxus-trail"],
+    "watches": "all *Watch lastChecked→R719; kinetiq/tape/flap/agentPad/fullFun/giwa/dogeEvm notes; soft debt canton/glaze/tokenWorks"
+  },
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": ["koai", "computeroll"],
+  "focusBan": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R719软无真新收录；清R718 koai/computeroll；≤2h续jean-philkins/elysian-fields/fugazy/orynex；软刷watch；xReads≈19；discordPeek暂缓。",
+  "push": {"ok": null, "sha": null, "branch": "main", "files": ["data.json", "RESULT_R719.md", "RESULT_R719.json"]}
+}
