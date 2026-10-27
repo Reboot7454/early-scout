@@ -1,0 +1,63 @@
+{
+  "round": 680,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-27 12:36 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "playgen"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "playgen"
+  ],
+  "skipped": [
+    {
+      "id": "peter-everyday",
+      "reason": "个人筹学费 NFT，个人号不收"
+    },
+    {
+      "id": "nlyra",
+      "reason": "DS skip：RH 风险层基建，无发射/打新动作"
+    },
+    {
+      "id": "launch-on-peak",
+      "reason": "dup（已收录）"
+    }
+  ],
+  "cardsAfterLastSeen": 2,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "gaggle-farm",
+    "ape-rush"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "gaggle-farm",
+    "ape-rush"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=4",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-27 12:34 CST",
+    "lastChecked": "2026-10-27 12:36 CST",
+    "newestCardTime": "2026-10-27 12:34 CST",
+    "cardsAfterCutoff": 2,
+    "note": "R680：Discord alpha 补收 playgen；跳过 [{'id': 'peter-everyday', 'reason': '个人筹学费 NFT，个人号不收'}, {'id': 'nlyra', 'reason': 'DS skip：RH 风险层基建，无发射/打新动作'}, {'id': 'launch-on-peak', 'reason': 'dup（已收录）'}]；清 gaggle-farm,ape-rush；lastSeen→2026-10-27 12:34 CST；lastChecked→2026-10-27 12:36 CST",
+    "lastRound": 680
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R680：Discord alpha 补收 playgen；跳过 [{'id': 'peter-everyday', 'reason': '个人筹学费 NFT，个人号不收'}, {'id': 'nlyra', 'reason': 'DS skip：RH 风险层基建，无发射/打新动作'}, {'id': 'launch-on-peak', 'reason': 'dup（已收录）'}]；清 gaggle-farm,ape-rush；lastSeen→2026-10-27 12:34 CST；lastChecked→2026-10-27 12:36 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261027_1236.json",
+  "priorRoundNote": "R679 meta NTR ['gaggle-farm', 'ape-rush']; cardsAfterCutoff=2"
+}
