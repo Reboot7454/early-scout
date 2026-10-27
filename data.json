@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-27 15:36 CST",
+    "updated": "2026-10-27 16:00 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R688",
-    "lastScout": "2026-10-27 15:36 CST",
+    "lastScout": "2026-10-27 16:00 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -466,7 +466,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 690,
+    "round": 691,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1352,7 +1352,10 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "hood-haven"
+      "tryhookpass",
+      "riggedtrade",
+      "kilnaidevs",
+      "sharpedotac"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -2919,22 +2922,21 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-10-27 15:21 CST",
-      "lastChecked": "2026-10-27 15:36 CST",
-      "newestCardTime": "2026-10-27 15:21 CST",
-      "cardsAfterCutoff": 28,
-      "note": "R690：DISCORD_1535 存在但newCards空（登录墙）；本轮X雷达收hood-haven",
-      "lastRound": 690,
+      "deferred": false,
+      "lastSeen": "2026-10-27 15:58 CST",
+      "lastChecked": "2026-10-27 16:00 CST",
+      "newestCardTime": "2026-10-27 15:58 CST",
+      "cardsAfterCutoff": 43,
+      "note": "R691：Discord alpha 补收 tryhookpass,riggedtrade,kilnaidevs,sharpedotac；清 hood-haven；lastSeen→2026-10-27 15:58 CST；lastChecked→2026-10-27 16:00 CST",
+      "lastRound": 691,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-27 15:18 CST",
-        "alpha-1-backup": "2026-10-27 13:43 CST",
-        "smart-accounts-tracker": "2026-10-27 15:13 CST",
-        "alpha-1": "2026-10-27 15:21 CST"
+        "alpha-3-new-accounts": "2026-10-27 15:54 CST",
+        "alpha-1-backup": "2026-10-27 15:58 CST",
+        "smart-accounts-tracker": "2026-10-27 15:56 CST",
+        "alpha-1": "2026-10-27 15:57 CST"
       },
-      "alpha3OlderGap": "2026-10-26 13:03→2026-10-27 02:46 CST 未逐卡读完（卡量>60，噪音高）；R666 已补读 07:10–07:30 窗口",
       "spideyResumed": "alpha-1 Spidey Bot 于 2026-10-27 13:55 CST 恢复发卡",
-      "loginNeeded": true
+      "alpha3OlderGap": "2026-10-26 13:03→2026-10-27 02:46 CST 未逐卡读完（卡量>60，噪音高）；R666 已补读 07:10–07:30 窗口"
     },
     "round239Added": [
       "tsunamilaunch",
@@ -7485,9 +7487,179 @@
     ],
     "round690Added": [
       "hood-haven"
+    ],
+    "round691Added": [
+      "tryhookpass",
+      "riggedtrade",
+      "kilnaidevs",
+      "sharpedotac"
     ]
   },
   "candidates": [
+    {
+      "id": "sharpedotac",
+      "name": "Sharpe",
+      "handle": "@sharpedotac",
+      "twitter": "@sharpedotac",
+      "chain": "Orbio",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/sharpedotac",
+        "twitter": "https://x.com/sharpedotac"
+      },
+      "scores": {
+        "total": 8
+      },
+      "highlights": [
+        "AI代理构建+真实数据回测+交易闭环",
+        "明确暂无代币，处于极早期"
+      ],
+      "drawbacks": [
+        "16粉，产品成熟度未知",
+        "依赖@orbiodotso生态"
+      ],
+      "whatsNew": "输入想法即可生成并测试AI交易代理，尚未发币。",
+      "summary": "用自然语言输入想法，自动构建、回测并运行AI交易代理。",
+      "blurb": "用自然语言输入想法，自动构建、回测并运行AI交易代理。",
+      "round": 691,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 16,
+      "xFollowers": 16,
+      "firstSeen": "2026-10-27 16:00 CST",
+      "addedAt": "2026-10-27 16:00 CST",
+      "lastChecked": "2026-10-27 16:00 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "kilnaidevs",
+      "name": "Kiln Ai",
+      "handle": "@kilnaidevs",
+      "twitter": "@kilnaidevs",
+      "chain": "未知",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/KilnAiDevs",
+        "twitter": "https://x.com/KilnAiDevs"
+      },
+      "scores": {
+        "total": 7
+      },
+      "highlights": [
+        "多模型统一端点，产品方向明确",
+        "$KILN支付销毁+USDC回购销毁的通缩设计"
+      ],
+      "drawbacks": [
+        "180粉且注册日期异常，信息可信度待核",
+        "链与团队未披露"
+      ],
+      "whatsNew": "AI模型调用聚合器叠加代币通缩与收入回购。",
+      "summary": "聚合多家AI模型统一API，用$KILN支付并销毁，USDC收入回购销毁。",
+      "blurb": "聚合多家AI模型统一API，用$KILN支付并销毁，USDC收入回购销毁。",
+      "round": 691,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 180,
+      "xFollowers": 180,
+      "firstSeen": "2026-10-27 16:00 CST",
+      "addedAt": "2026-10-27 16:00 CST",
+      "lastChecked": "2026-10-27 16:00 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "riggedtrade",
+      "name": "Rigged",
+      "handle": "@riggedtrade",
+      "twitter": "@riggedtrade",
+      "chain": "未知（链上）",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/RiggedTrade",
+        "twitter": "https://x.com/RiggedTrade"
+      },
+      "scores": {
+        "total": 7
+      },
+      "highlights": [
+        "聪明钱组合跟投+自动再平衡",
+        "代币化股票奖励增加玩法"
+      ],
+      "drawbacks": [
+        "仅3粉，真实性待验证",
+        "链、合约与团队未披露"
+      ],
+      "whatsNew": "把聪明钱投资组合做成可购买、可持有的链上产品。",
+      "summary": "跟投聪明钱链上组合并自动再平衡，附带代币化股票奖励。",
+      "blurb": "跟投聪明钱链上组合并自动再平衡，附带代币化股票奖励。",
+      "round": 691,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 3,
+      "xFollowers": 3,
+      "firstSeen": "2026-10-27 16:00 CST",
+      "addedAt": "2026-10-27 16:00 CST",
+      "lastChecked": "2026-10-27 16:00 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "tryhookpass",
+      "name": "HookPass",
+      "handle": "@tryhookpass",
+      "twitter": "@tryhookpass",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/TryHookPass",
+        "twitter": "https://x.com/TryHookPass"
+      },
+      "scores": {
+        "total": 8
+      },
+      "highlights": [
+        "被@robinhoodcrypto和@robinhoodapp同时关注",
+        "NFT持有人可获交易池费用，产品定位清晰"
+      ],
+      "drawbacks": [
+        "0粉，尚无产品截图/合约线索",
+        "Robinhood生态依赖度高"
+      ],
+      "whatsNew": "面向社区的无代码交易池，费用分配给NFT持有者。",
+      "summary": "为Robinhood社区提供无需编程的交易池，并让NFT持有人分取手续费。",
+      "blurb": "为Robinhood社区提供无需编程的交易池，并让NFT持有人分取手续费。",
+      "round": 691,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-27 16:00 CST",
+      "addedAt": "2026-10-27 16:00 CST",
+      "lastChecked": "2026-10-27 16:00 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "lonely-town",
       "name": "Lonely Town by LNLY.fun",
@@ -108234,7 +108406,7 @@
       "lzVerified": false,
       "round": 690,
       "candidate": true,
-      "newThisRound": true,
+      "newThisRound": false,
       "firstSeen": "2026-10-27 15:35 CST",
       "addedAt": "2026-10-27 15:35 CST",
       "lastChecked": "2026-10-27 15:35 CST",
@@ -108250,21 +108422,24 @@
     }
   ],
   "newThisRound": [
-    "hood-haven"
+    "tryhookpass",
+    "riggedtrade",
+    "kilnaidevs",
+    "sharpedotac"
   ],
-  "alertMessage": "🛰️ DC补漏 R689 新收1：Lonely Town(@LNLYfun) RH链像素小镇发射台，每个币一栋楼，测试网白名单开放（4粉未核验）→台子/Meme。面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏新收4→台子/Meme：HookPass(@TryHookPass RH链无代码交易池/NFT分费)、Rigged(@RiggedTrade 跟投聪明钱链上组合)、Kiln Ai(@KilnAiDevs AI模型聚合+$KILN销毁)、Sharpe(@sharpedotac AI交易代理，未发币)。面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "motes",
     "tmb-meme",
     "saira-os"
   ],
-  "updatedAt": "2026-10-27 15:23 CST",
-  "updated": "2026-10-27 15:23 CST",
+  "updatedAt": "2026-10-27 16:00 CST",
+  "updated": "2026-10-27 16:00 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-27 15:23 CST",
+  "lastScout": "2026-10-27 16:00 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -108306,7 +108481,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1500,
+  "candidateCount": 1505,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -108859,5 +109034,11 @@
   "round687Added": [],
   "round689Added": [
     "lonely-town"
+  ],
+  "round691Added": [
+    "tryhookpass",
+    "riggedtrade",
+    "kilnaidevs",
+    "sharpedotac"
   ]
 }
