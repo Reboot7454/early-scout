@@ -1,0 +1,218 @@
+{
+  "round": 692,
+  "mode": "full-radar",
+  "completedAt": "2026-10-27 16:37 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+le2h",
+  "alertMessage": "🚀 R692新收4：StonkRobotics(@StonkRobotics)BNB Agent ID前1000免费mint LIVE；Unpair(@Unpairxyz)Zcash隐私跨链LIVE；StonkMarket发射台；SlopCash Nov5 RH pre-bid。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "stonk-robotics",
+      "handle": "@StonkRobotics",
+      "name": "StonkRobotics",
+      "category": "打新",
+      "followers": 1084,
+      "overall": 82,
+      "reason": "BNB Agent ID前1000免费mint LIVE；CA未核实",
+      "tags": [
+        "Binance Agent钱包"
+      ]
+    },
+    {
+      "id": "unpair",
+      "handle": "@Unpairxyz",
+      "name": "Unpair",
+      "category": "台子/Meme",
+      "followers": 1,
+      "overall": 74,
+      "reason": "Discord补漏；Zcash隐私跨链swap LIVE",
+      "source": "discord-alpha"
+    },
+    {
+      "id": "stonkmarket-sol",
+      "handle": "@stonkmarket_SOL",
+      "name": "StonkMarket",
+      "category": "台子/Meme",
+      "followers": 538,
+      "overall": 68,
+      "reason": "Solana发射台LIVE；Discord alpha",
+      "source": "discord-alpha"
+    },
+    {
+      "id": "slop-cash",
+      "handle": "@SlopCash",
+      "name": "Slop Cash",
+      "category": "GO盘",
+      "followers": 2051,
+      "overall": 79,
+      "reason": "Umia首发 Nov5 RH pre-bid / Nov7 bidding"
+    }
+  ],
+  "newCount": 4,
+  "newIds": [
+    "stonk-robotics",
+    "unpair",
+    "stonkmarket-sol",
+    "slop-cash"
+  ],
+  "skipped": [
+    {
+      "id": "mako-ink-bot",
+      "reason": "Ink告警bot工具，无mint/launch窗；DS skip"
+    },
+    {
+      "id": "bullshot911",
+      "reason": "5万+粉偏热；DS skip"
+    },
+    {
+      "id": "umia-finance",
+      "reason": "2.5万粉平台本体非极早期；仅收首发SlopCash"
+    },
+    {
+      "id": "Leeonmort",
+      "reason": "API Not Found（同R690/R691）"
+    },
+    {
+      "id": "bitcointapes",
+      "reason": "已收；mint~27% soft"
+    },
+    {
+      "id": "enter-elysium",
+      "reason": "已收；主网11-09+0x/Uniswap Day1 soft"
+    },
+    {
+      "id": "tape-fractal",
+      "reason": "已收；20:00CST freemint非≤2h soft"
+    },
+    {
+      "id": "orynex",
+      "reason": "上轮新收；本轮清NTR；23:00CST非≤2h"
+    },
+    {
+      "id": "giwaup",
+      "reason": "已收；Day1 mint upcoming soft"
+    },
+    {
+      "id": "hypaww",
+      "reason": "已收；kalosfun brewing soft"
+    },
+    {
+      "id": "404abstracts",
+      "reason": "已收；Nov1 $1 mint soft"
+    },
+    {
+      "id": "z0mbit",
+      "reason": "已收；Agent free mint soft"
+    },
+    {
+      "id": "ptah-trade",
+      "reason": "已收；PoA至11-08 soft"
+    },
+    {
+      "id": "stonks-pad",
+      "reason": "已收；LIVE soft"
+    },
+    {
+      "id": "sprite-fun",
+      "reason": "已收；ended soft"
+    },
+    {
+      "id": "full-fun",
+      "reason": "已收；soft"
+    },
+    {
+      "id": "tryhookpass",
+      "reason": "上轮新收；本轮清NTR"
+    },
+    {
+      "id": "nabb",
+      "reason": "GIWA testnet叙事；无独立官推可解析"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "stonk-robotics",
+      "note": "Binance Agent ID前1000免费mint LIVE仅gas；CA未核实",
+      "handle": "@StonkRobotics"
+    }
+  ],
+  "xReads": 15,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit=1 score=1 alert=1 summary=0 thinkingON",
+  "coverage": "x-keyword+mustwatch-soft+DS-admit+discord-clues; kinetiq/tape/agentPad/flap/irys/fullFun/starknet/giwa/zero/dogeEvm/btcPrivacy/canton/glaze/tokenWorks lastChecked",
+  "softRefresh": {
+    "cards": [
+      "bitcointapes",
+      "enter-elysium",
+      "tape-fractal",
+      "orynex",
+      "ptah-trade",
+      "giwaup",
+      "hypaww",
+      "404abstracts",
+      "z0mbit",
+      "play-farm-rh",
+      "nasalis-flow",
+      "full-fun",
+      "stonks-pad",
+      "sprite-fun",
+      "xuanwu-sigil"
+    ],
+    "watches": [
+      "kinetiq",
+      "elysium",
+      "tape",
+      "tapeOut",
+      "flapPad",
+      "irysPad",
+      "fullFun",
+      "agentPad",
+      "agentMining",
+      "agentTrading",
+      "starknet",
+      "giwa",
+      "zero",
+      "dogeEvm",
+      "btcPrivacy",
+      "canton",
+      "glaze",
+      "tokenWorks",
+      "starcat",
+      "blonskr",
+      "paperbird",
+      "xChainPad"
+    ]
+  },
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "tryhookpass",
+    "riggedtrade",
+    "kilnaidevs",
+    "sharpedotac",
+    "play-farm-rh",
+    "orynex",
+    "nasalis-flow"
+  ],
+  "push": {
+    "attempted": true,
+    "ok": false,
+    "sha": null,
+    "branch": "main",
+    "files": [
+      "data.json",
+      "ROUND692_RESULT.json"
+    ]
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R692：新收StonkRobotics(BN Agent免费mint LIVE)/Unpair/StonkMarket/SlopCash；BTape~27%；Elysium主网11-09+0x/Uniswap；TapeFractal 20:00非≤2h；discordPeekDeferred",
+  "focusBan": "stonk-robotics/unpair/stonkmarket-sol/slop-cash focus:false",
+  "discordAlphaPeek": {
+    "deferred": true,
+    "loginNeeded": true,
+    "lastChecked": "2026-10-27 16:37 CST",
+    "lastRound": 692,
+    "note": "无登录；沿用15:21线索补收Unpair/StonkMarket；X补收StonkRobotics/SlopCash"
+  }
+}
