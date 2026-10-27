@@ -1,0 +1,61 @@
+{
+  "round": 677,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-27 12:00 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "swarm-consensus",
+    "shellbank"
+  ],
+  "newCount": 2,
+  "newIds": [
+    "swarm-consensus",
+    "shellbank"
+  ],
+  "skipped": [
+    {
+      "id": "usekantei",
+      "reason": "AI 供应商路由工具已有 CA，非打新/发射窗口"
+    },
+    {
+      "id": "runepad",
+      "reason": "dup（@RunepadX 已收录）"
+    }
+  ],
+  "cardsAfterLastSeen": 1,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "pepes-family",
+    "use-agentcity"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "pepes-family",
+    "use-agentcity"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=4",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-27 11:56 CST",
+    "lastChecked": "2026-10-27 12:00 CST",
+    "newestCardTime": "2026-10-27 11:56 CST",
+    "cardsAfterCutoff": 1,
+    "note": "R677：Discord alpha 补收 swarm-consensus,shellbank；跳过 [{'id': 'usekantei', 'reason': 'AI 供应商路由工具已有 CA，非打新/发射窗口'}, {'id': 'runepad', 'reason': 'dup（@RunepadX 已收录）'}]；清 pepes-family,use-agentcity；lastSeen→2026-10-27 11:56 CST；lastChecked→2026-10-27 12:00 CST",
+    "lastRound": 677
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R677：Discord alpha 补收 swarm-consensus,shellbank；跳过 [{'id': 'usekantei', 'reason': 'AI 供应商路由工具已有 CA，非打新/发射窗口'}, {'id': 'runepad', 'reason': 'dup（@RunepadX 已收录）'}]；清 pepes-family,use-agentcity；lastSeen→2026-10-27 11:56 CST；lastChecked→2026-10-27 12:00 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261027_1200.json",
+  "priorRoundNote": "R676 meta NTR ['pepes-family', 'use-agentcity']; cardsAfterCutoff=1"
+}

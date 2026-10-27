@@ -1,0 +1,68 @@
+{
+  "round": 677,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-27 12:00 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "🛰 DC 补漏 R677 新收2（台子/Meme）：Swarm Consensus @swarmconsensus（AI代理共识+Uni v4 hook定价）、Shellbank @tryshellbank（AI代理信用额度 v4 hook）；均0粉未核验。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "swarm-consensus",
+    "shellbank"
+  ],
+  "newCount": 2,
+  "newIds": [
+    "swarm-consensus",
+    "shellbank"
+  ],
+  "skipped": [
+    {
+      "id": "usekantei",
+      "reason": "AI 供应商路由工具已有 CA，非打新/发射窗口"
+    },
+    {
+      "id": "runepad",
+      "reason": "dup（@RunepadX 已收录）"
+    }
+  ],
+  "cardsAfterLastSeen": 1,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "pepes-family",
+    "use-agentcity"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "pepes-family",
+    "use-agentcity"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit+score",
+  "coverage": "alpha-3-new-accounts+alpha-1-backup+smart-accounts-tracker+alpha-1",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-27 11:56 CST",
+    "lastChecked": "2026-10-27 12:00 CST",
+    "newestCardTime": "2026-10-27 11:56 CST",
+    "cardsAfterCutoff": 33,
+    "note": "R677：Discord alpha 补收 swarm-consensus,shellbank；跳过 [{'id': 'usekantei', 'reason': 'AI 供应商路由工具已有 CA，非打新/发射窗口'}, {'id': 'runepad', 'reason': 'dup（@RunepadX 已收录）'}]；清 pepes-family,use-agentcity；lastSeen→2026-10-27 11:56 CST；lastChecked→2026-10-27 12:00 CST",
+    "lastRound": 677,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-27 11:56 CST",
+      "alpha-1-backup": "2026-10-27 10:43 CST",
+      "smart-accounts-tracker": "2026-10-27 10:28 CST",
+      "alpha-1": "2026-10-26 13:03 CST"
+    },
+    "alpha3OlderGap": "2026-10-26 13:03→2026-10-27 02:46 CST 未逐卡读完（卡量>60，噪音高）；R666 已补读 07:10–07:30 窗口"
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R677：Discord alpha 补收 swarm-consensus,shellbank；跳过 [{'id': 'usekantei', 'reason': 'AI 供应商路由工具已有 CA，非打新/发射窗口'}, {'id': 'runepad', 'reason': 'dup（@RunepadX 已收录）'}]；清 pepes-family,use-agentcity；lastSeen→2026-10-27 11:56 CST；lastChecked→2026-10-27 12:00 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261027_1200.json",
+  "priorRoundNote": "R676 meta NTR ['pepes-family', 'use-agentcity']; cardsAfterCutoff=1"
+}
