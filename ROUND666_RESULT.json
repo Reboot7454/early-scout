@@ -1,0 +1,78 @@
+{
+  "round": 666,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-27 08:40 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC alpha 补漏 R666：新收 RO（@roarenarhdotxyz，RH链召唤怪兽对战链游，已有CA，1粉未核验）→打新。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "ro-arena-rh"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "ro-arena-rh"
+  ],
+  "skipped": [
+    {
+      "id": "gatekeeper-rh",
+      "reason": "0粉且bio仅有氛围句，无独立产品、链接或发射线索，疑似空壳/meme。"
+    },
+    {
+      "id": "assay-labs",
+      "reason": "虽定位Robinhood Chain agent支付信任层，但仅6粉且无官网/合约等实际产品线索。"
+    },
+    {
+      "id": "star-finance-rh",
+      "reason": "0粉且仅有AI交易概念，无产品链接、合约或可验证进展，疑似空壳。"
+    },
+    {
+      "id": "motes",
+      "reason": "有$MOTES和AI Agent叙事，但2104粉且仍处building阶段、无官网/合约链接，非最早期。"
+    },
+    {
+      "id": "solverse-digital",
+      "reason": "3168粉且bio为泛Web3解决方案宣传，像外包/代理或成熟服务号，不符合极早期项目。"
+    }
+  ],
+  "cardsAfterLastSeen": 1,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "chartiq",
+    "kingpad"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "chartiq",
+    "kingpad"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=6",
+  "coverage": "discord-alpha alpha-3/backup/smart/alpha-1",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-27 08:36 CST",
+    "lastChecked": "2026-10-27 08:40 CST",
+    "newestCardTime": "2026-10-27 08:36 CST",
+    "cardsAfterCutoff": 1,
+    "note": "R666：Discord alpha 补收 ro-arena-rh；跳过 [{'id': 'gatekeeper-rh', 'reason': '0粉且bio仅有氛围句，无独立产品、链接或发射线索，疑似空壳/meme。'}, {'id': 'assay-labs', 'reason': '虽定位Robinhood Chain agent支付信任层，但仅6粉且无官网/合约等实际产品线索。'}, {'id': 'star-finance-rh', 'reason': '0粉且仅有AI交易概念，无产品链接、合约或可验证进展，疑似空壳。'}, {'id': 'motes', 'reason': '有$MOTES和AI Agent叙事，但2104粉且仍处building阶段、无官网/合约链接，非最早期。'}, {'id': 'solverse-digital', 'reason': '3168粉且bio为泛Web3解决方案宣传，像外包/代理或成熟服务号，不符合极早期项目。'}]；清 chartiq,kingpad；lastSeen→2026-10-27 08:36 CST；lastChecked→2026-10-27 08:40 CST｜源：alpha-3 07:10–08:36 / backup 至07:58（motes 2104粉、solverse 外包跳过）/ smart 至08:20 无项目号 / #alpha-1 仍停 10/26 13:03",
+    "lastRound": 666,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-27 08:36 CST",
+      "alpha-1-backup": "2026-10-27 07:58 CST",
+      "smart-accounts-tracker": "2026-10-27 08:20 CST",
+      "alpha-1": "2026-10-26 13:03 CST"
+    },
+    "alpha3OlderGap": "2026-10-26 13:03→2026-10-27 02:46 CST 未逐卡读完（卡量>60，噪音高）；R666 已补读 07:10–07:30 窗口"
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R666：Discord alpha 补收 ro-arena-rh；跳过 [{'id': 'gatekeeper-rh', 'reason': '0粉且bio仅有氛围句，无独立产品、链接或发射线索，疑似空壳/meme。'}, {'id': 'assay-labs', 'reason': '虽定位Robinhood Chain agent支付信任层，但仅6粉且无官网/合约等实际产品线索。'}, {'id': 'star-finance-rh', 'reason': '0粉且仅有AI交易概念，无产品链接、合约或可验证进展，疑似空壳。'}, {'id': 'motes', 'reason': '有$MOTES和AI Agent叙事，但2104粉且仍处building阶段、无官网/合约链接，非最早期。'}, {'id': 'solverse-digital', 'reason': '3168粉且bio为泛Web3解决方案宣传，像外包/代理或成熟服务号，不符合极早期项目。'}]；清 chartiq,kingpad；lastSeen→2026-10-27 08:36 CST；lastChecked→2026-10-27 08:40 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261027_0840.json",
+  "priorRoundNote": "R665 meta NTR ['kingpad', 'chartiq']; cardsAfterCutoff=1"
+}
