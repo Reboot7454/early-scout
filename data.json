@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-27 16:37 CST",
+    "updated": "2026-10-27 16:44 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R692",
-    "lastScout": "2026-10-27 16:37 CST",
+    "lastScout": "2026-10-27 16:44 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -466,7 +466,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 692,
+    "round": 693,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1352,10 +1352,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "stonk-robotics",
-      "unpair",
-      "stonkmarket-sol",
-      "slop-cash"
+      "starfinancerh",
+      "guildorbit4663"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -2924,12 +2922,20 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "loginNeeded": true,
-      "lastChecked": "2026-10-27 16:37 CST",
-      "lastRound": 692,
-      "lastSeen": "2026-10-27 15:21 CST",
-      "note": "R692：无登录；沿用15:21线索补收Unpair/StonkMarket；X新收StonkRobotics/SlopCash"
+      "deferred": false,
+      "lastSeen": "2026-10-27 16:40 CST",
+      "lastChecked": "2026-10-27 16:44 CST",
+      "newestCardTime": "2026-10-27 16:40 CST",
+      "cardsAfterCutoff": 31,
+      "note": "R693：Discord alpha 补收 starfinancerh,guildorbit4663；清 stonk-robotics,unpair,stonkmarket-sol,slop-cash；lastSeen→2026-10-27 16:40 CST；lastChecked→2026-10-27 16:44 CST",
+      "lastRound": 693,
+      "lastSeenByChannel": {
+        "alpha-3-new-accounts": "2026-10-27 16:40 CST",
+        "alpha-1-backup": "2026-10-27 16:28 CST",
+        "smart-accounts-tracker": "2026-10-27 15:56 CST",
+        "alpha-1": "2026-10-27 16:21 CST"
+      },
+      "spideyResumed": "alpha-1 Spidey Bot 于 2026-10-27 13:55 CST 恢复发卡"
     },
     "round239Added": [
       "tsunamilaunch",
@@ -7507,9 +7513,101 @@
       "unpair",
       "stonkmarket-sol",
       "slop-cash"
+    ],
+    "round693Added": [
+      "starfinancerh",
+      "guildorbit4663"
     ]
   },
   "candidates": [
+    {
+      "id": "guildorbit4663",
+      "name": "GORBT",
+      "handle": "@guildorbit4663",
+      "twitter": "@guildorbit4663",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "Robinhood Chain",
+        "质押"
+      ],
+      "links": {
+        "x": "https://x.com/GuildOrbit4663",
+        "twitter": "https://x.com/GuildOrbit4663"
+      },
+      "scores": {
+        "early": 10,
+        "potential": 5
+      },
+      "highlights": [
+        "可挑选节点并跟踪委托质押",
+        "按epoch对比四个公会"
+      ],
+      "drawbacks": [
+        "0粉、缺少链接/合约证据",
+        "产品是否已上线未核验"
+      ],
+      "whatsNew": "提出3D验证者公会与epoch结算的质押玩法。",
+      "summary": "在Robinhood Chain上以3D验证者公会形式做节点选择与委托质押跟踪。",
+      "blurb": "在Robinhood Chain上以3D验证者公会形式做节点选择与委托质押跟踪。",
+      "round": 693,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-27 16:44 CST",
+      "addedAt": "2026-10-27 16:44 CST",
+      "lastChecked": "2026-10-27 16:44 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "starfinancerh",
+      "name": "StarFinance",
+      "handle": "@starfinancerh",
+      "twitter": "@starfinancerh",
+      "chain": "Robinhood（推测）",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "AI交易",
+        "MCP"
+      ],
+      "links": {
+        "x": "https://x.com/StarFinanceRh",
+        "twitter": "https://x.com/StarFinanceRh"
+      },
+      "scores": {
+        "early": 9,
+        "potential": 6
+      },
+      "highlights": [
+        "通过MCP连接agent做行情研究/交易准备",
+        "强调交易前人工确认"
+      ],
+      "drawbacks": [
+        "仅13粉且链归属未明",
+        "未见产品链接或实际交易验证"
+      ],
+      "whatsNew": "以MCP+AI agent切入交易前研究流程。",
+      "summary": "面向AI agent的行情研究与交易准备工具，强调每笔交易需确认。",
+      "blurb": "面向AI agent的行情研究与交易准备工具，强调每笔交易需确认。",
+      "round": 693,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 13,
+      "xFollowers": 13,
+      "firstSeen": "2026-10-27 16:44 CST",
+      "addedAt": "2026-10-27 16:44 CST",
+      "lastChecked": "2026-10-27 16:44 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "nasalis-flow",
       "name": "NasalisFlow",
@@ -108698,7 +108796,7 @@
       },
       "focus": false,
       "lzVerified": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "le2h": true,
       "firstSeen": "2026-10-27 16:37 CST",
       "addedAt": "2026-10-27 16:37 CST",
@@ -108766,7 +108864,7 @@
       },
       "focus": false,
       "lzVerified": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "le2h": false,
       "firstSeen": "2026-10-27 16:37 CST",
       "addedAt": "2026-10-27 16:37 CST",
@@ -108830,7 +108928,7 @@
       },
       "focus": false,
       "lzVerified": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "le2h": false,
       "firstSeen": "2026-10-27 16:37 CST",
       "addedAt": "2026-10-27 16:37 CST",
@@ -108897,7 +108995,7 @@
       },
       "focus": false,
       "lzVerified": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "le2h": false,
       "firstSeen": "2026-10-27 16:37 CST",
       "addedAt": "2026-10-27 16:37 CST",
@@ -108905,25 +109003,23 @@
     }
   ],
   "newThisRound": [
-    "stonk-robotics",
-    "unpair",
-    "stonkmarket-sol",
-    "slop-cash"
+    "starfinancerh",
+    "guildorbit4663"
   ],
-  "alertMessage": "DC补漏新收4→台子/Meme：HookPass(@TryHookPass RH链无代码交易池/NFT分费)、Rigged(@RiggedTrade 跟投聪明钱链上组合)、Kiln Ai(@KilnAiDevs AI模型聚合+$KILN销毁)、Sharpe(@sharpedotac AI交易代理，未发币)。面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "小七 DC补漏 R693 新收2→台子/Meme：StarFinance(@StarFinanceRh，AI代理经MCP做行情研究/交易准备，13粉)、GORBT(@GuildOrbit4663，RH链3D验证者公会/委托质押追踪，0粉)；均未核验。面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "stonk-robotics",
     "unpair",
     "stonkmarket-sol",
     "slop-cash"
   ],
-  "updatedAt": "2026-10-27 16:00 CST",
-  "updated": "2026-10-27 16:00 CST",
+  "updatedAt": "2026-10-27 16:44 CST",
+  "updated": "2026-10-27 16:44 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-27 16:00 CST",
+  "lastScout": "2026-10-27 16:44 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -108965,7 +109061,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1505,
+  "candidateCount": 1514,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -109524,5 +109620,9 @@
     "riggedtrade",
     "kilnaidevs",
     "sharpedotac"
+  ],
+  "round693Added": [
+    "starfinancerh",
+    "guildorbit4663"
   ]
 }
