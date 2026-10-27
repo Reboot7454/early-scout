@@ -1,59 +1,171 @@
 {
   "round": 711,
-  "mode": "discord-alpha-40",
-  "completedAt": "2026-10-27 22:06 CST",
+  "mode": "full-radar+discord-merge",
+  "completedAt": "2026-10-27 22:12 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
-  "notifyReason": "new_admits",
-  "alertMessage": "R711 DC补漏新收6（未核验，0-5粉）：Plotlines(@plotlinesreal，RH链4096块链上地块claim→打新)、SharesPad(@SharesPad，Pons上memecoin发射台)、Paystub(@Paystubxyz，RH链NVDA/STUB池分红币)、kagiboy(@kagiboy_，Game Boy卡带硬件钱包，带CA)、Zap Coin(@Zapcoin_app，RH链$ZAP CA已出)、Joma Dojo(@jomadojo，Pons AI agent比赛)。面板 https://reboot7454.github.io/early-scout/",
+  "notifyReason": "new_admits+le2h",
+  "alertMessage": "R711新收：ENRA(@ENRA_BAW) BNB AI桌面宠物创世·Agent ID首枚免费·粉2；DC补漏6：Plotlines/SharesPad/Paystub/kagiboy/ZapCoin/JomaDojo；≤2h窗：Elysian Fields(@ElysianFieldNFT) Degen mint 今日23:30CST(15:30UTC) 0.025$HYPE/地；PickRush Shovel售罄；面板 https://reboot7454.github.io/early-scout/",
   "newAdmits": [
     "joma-dojo",
     "kagiboy",
     "plotlines-real",
     "paystub-xyz",
     "zapcoin-app",
-    "shares-pad"
+    "shares-pad",
+    {
+      "id": "enra-baw",
+      "handle": "@ENRA_BAW",
+      "name": "ENRA",
+      "category": "打新",
+      "followers": 2,
+      "overall": 58,
+      "reason": "BNB AI桌面宠物创世·Agent ID首枚免费；粉2极早期；CA未核实",
+      "tags": [
+        "Binance Agent钱包"
+      ],
+      "source": "x-radar"
+    }
   ],
-  "newCount": 6,
+  "newCount": 7,
   "newIds": [
     "joma-dojo",
     "kagiboy",
     "plotlines-real",
     "paystub-xyz",
     "zapcoin-app",
-    "shares-pad"
+    "shares-pad",
+    "enra-baw"
   ],
   "skipped": [
     {
-      "id": "arcslot",
-      "reason": "空泛支付口号，无产品/发射线索"
+      "id": "mergers-agents",
+      "reason": "KOL点名Elysium free mint；核验MergersAgents Not Found；无独立官推"
     },
     {
-      "id": "aether-labs",
-      "reason": "只有机制描述，缺产品/发射实证"
+      "id": "skynet-agent",
+      "reason": "KOL汇总；核验SkynetBNB/skynet_bnb Not Found"
     },
     {
-      "id": "a13n-dev",
-      "reason": "偏基础设施工具，无发射或代币线索"
+      "id": "ai-coin-agent",
+      "reason": "KOL汇总；核验AICoinBNB Not Found"
     },
     {
-      "id": "kharvoss-insight",
-      "reason": "分析工具号，无项目发射线索"
+      "id": "si-passport",
+      "reason": "KOL汇总；核验si_passport/sipassport Not Found"
     },
     {
-      "id": "rilo-protocol",
-      "reason": "空泛口号，无产品/发射线索"
+      "id": "aisnack",
+      "reason": "KOL汇总；无有效官推"
     },
     {
-      "id": "gradline-xyz",
-      "reason": "Pons迁移查询工具，非发射本体"
+      "id": "agent-koi",
+      "reason": "@AgentKoi 0粉0帖空号；DS skip"
     },
     {
-      "id": "on-nexora",
-      "reason": "桥叙事空泛口号，无产品/发射线索"
+      "id": "agentdojo",
+      "reason": "Coming soon；本窗无mint/launch；DS skip"
+    },
+    {
+      "id": "coracle-agents",
+      "reason": "上轮新收；本轮清NTR"
+    },
+    {
+      "id": "entr0pic",
+      "reason": "上轮新收；本轮清NTR"
+    },
+    {
+      "id": "dnalab-bsc",
+      "reason": "上轮新收；本轮清NTR"
+    },
+    {
+      "id": "mob-family",
+      "reason": "上轮新收；本轮清NTR"
+    },
+    {
+      "id": "elysian-fields",
+      "reason": "本轮soft+≤2h窗；非新admit"
+    },
+    {
+      "id": "pick-rush",
+      "reason": "已收；Shovel售罄 soft"
+    },
+    {
+      "id": "bitcointapes",
+      "reason": "已收；mint~27% soft"
+    },
+    {
+      "id": "enter-elysium",
+      "reason": "已收；Goldsky+Kyber Day1 soft"
+    },
+    {
+      "id": "ptah-trade",
+      "reason": "已收；POA Day2/3 soft"
+    },
+    {
+      "id": "hashdroids",
+      "reason": "已收；PhaseIII soft"
+    },
+    {
+      "id": "the-forge-en",
+      "reason": "已收；iron key续 soft"
     }
   ],
-  "cardsAfterLastSeen": 2,
+  "le2h": [
+    {
+      "id": "elysian-fields",
+      "handle": "@ElysianFieldNFT",
+      "note": "Degen mint 今日15:30UTC(=23:30CST) 0.025$HYPE/地 · 距开窗≤2h"
+    }
+  ],
+  "xReads": 20,
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit/score=1 alert=1 thinkingON; discord-alpha DS prior",
+  "coverage": "x-keyword+mustwatch-soft+DS-admit+discord-alpha-merged",
+  "softRefresh": {
+    "cards": [
+      "elysian-fields",
+      "pick-rush",
+      "bitcointapes",
+      "enter-elysium",
+      "ptah-trade",
+      "hashdroids",
+      "tapeai",
+      "stonks-pad",
+      "the-forge-en",
+      "gang-fun",
+      "full-fun",
+      "sprite-fun",
+      "bramble-fi",
+      "listen-money",
+      "pipfun",
+      "stonk-robotics",
+      "ascension-catty",
+      "giwaup",
+      "atlas-lz"
+    ],
+    "watches": [
+      "kinetiq",
+      "elysium",
+      "tape",
+      "tapeOut",
+      "flapPad",
+      "irysPad",
+      "fullFun",
+      "agentPad",
+      "agentMining",
+      "agentTrading",
+      "starknet",
+      "giwa",
+      "zero",
+      "dogeEvm",
+      "btcPrivacy",
+      "canton",
+      "glaze",
+      "tokenWorks"
+    ]
+  },
   "clearedPrevNewThisRound": true,
   "prevNewThisRoundCleared": [
     "coracle-agents",
@@ -61,33 +173,33 @@
     "dnalab-bsc",
     "mob-family"
   ],
-  "candidateFlagsCleared": 4,
-  "topNewThisRoundCleared": [
-    "coracle-agents",
-    "entr0pic",
-    "dnalab-bsc",
-    "mob-family"
+  "mergedDiscordNewIds": [
+    "joma-dojo",
+    "kagiboy",
+    "plotlines-real",
+    "paystub-xyz",
+    "zapcoin-app",
+    "shares-pad"
   ],
-  "discordPeekDeferred": false,
-  "dsFallback": false,
-  "dsUsage": "deepseek-flash admits=13",
-  "coverage": "discord-alpha 4 channels",
-  "discordAlphaPeek": {
-    "deferred": false,
-    "lastSeen": "2026-10-27 22:00 CST",
-    "lastChecked": "2026-10-27 22:06 CST",
-    "newestCardTime": "2026-10-27 22:00 CST",
-    "cardsAfterCutoff": 2,
-    "note": "R711：Discord alpha 补收 joma-dojo,kagiboy,plotlines-real,paystub-xyz,zapcoin-app,shares-pad；跳过 [{'id': 'arcslot', 'reason': '空泛支付口号，无产品/发射线索'}, {'id': 'aether-labs', 'reason': '只有机制描述，缺产品/发射实证'}, {'id': 'a13n-dev', 'reason': '偏基础设施工具，无发射或代币线索'}, {'id': 'kharvoss-insight', 'reason': '分析工具号，无项目发射线索'}, {'id': 'rilo-protocol', 'reason': '空泛口号，无产品/发射线索'}, {'id': 'gradline-xyz', 'reason': 'Pons迁移查询工具，非发射本体'}, {'id': 'on-nexora', 'reason': '桥叙事空泛口号，无产品/发射线索'}]；清 coracle-agents,entr0pic,dnalab-bsc,mob-family；lastSeen→2026-10-27 22:00 CST；lastChecked→2026-10-27 22:06 CST",
-    "lastRound": 711
-  },
   "push": {
     "attempted": false,
-    "ok": false
+    "ok": false,
+    "sha": null,
+    "branch": "main",
+    "files": [
+      "data.json",
+      "ROUND711_RESULT.json"
+    ]
   },
   "panel": "https://reboot7454.github.io/early-scout/",
-  "summary": "R711：Discord alpha 补收 joma-dojo,kagiboy,plotlines-real,paystub-xyz,zapcoin-app,shares-pad；跳过 [{'id': 'arcslot', 'reason': '空泛支付口号，无产品/发射线索'}, {'id': 'aether-labs', 'reason': '只有机制描述，缺产品/发射实证'}, {'id': 'a13n-dev', 'reason': '偏基础设施工具，无发射或代币线索'}, {'id': 'kharvoss-insight', 'reason': '分析工具号，无项目发射线索'}, {'id': 'rilo-protocol', 'reason': '空泛口号，无产品/发射线索'}, {'id': 'gradline-xyz', 'reason': 'Pons迁移查询工具，非发射本体'}, {'id': 'on-nexora', 'reason': '桥叙事空泛口号，无产品/发射线索'}]；清 coracle-agents,entr0pic,dnalab-bsc,mob-family；lastSeen→2026-10-27 22:00 CST；lastChecked→2026-10-27 22:06 CST",
-  "remoteVerified": false,
-  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261027_2203.json",
-  "priorRoundNote": "R710 meta NTR ['coracle-agents', 'entr0pic', 'dnalab-bsc', 'mob-family']; cardsAfterCutoff=2"
+  "summary": "R711：X新收ENRA + DC补漏6；ElysianFields≤2h mint 23:30CST；PickRush Shovel售罄；BTape~27%；Elysium Goldsky",
+  "focusBan": "enra-baw+discord6 focus:false",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "loginNeeded": false,
+    "lastChecked": "2026-10-27 22:12 CST",
+    "lastRound": 711,
+    "note": "并行DC alpha已写入6卡；本端合入X雷达"
+  },
+  "remoteVerified": false
 }
