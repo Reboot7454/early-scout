@@ -174,8 +174,9 @@
     "oripa-xyz"
   ],
   "push": {
-    "attempted": false,
-    "ok": false,
+    "attempted": true,
+    "ok": true,
+    "sha": "316cec28d54a832e51e9bcb27f3e136858790b95",
     "branch": "main",
     "files": [
       "data.json",
@@ -187,10 +188,10 @@
   "focusBan": "pikwiki+wobbalu-island focus:false",
   "discordAlphaPeek": {
     "deferred": true,
-    "loginNeeded": false,
-    "lastChecked": "2026-10-27 22:49 CST",
+    "loginNeeded": true,
+    "lastChecked": "2026-10-27 23:09 CST",
     "lastRound": 713,
-    "note": "本轮discordPeekDeferred；父代理并行扫后可合入"
+    "note": "父代理Peek：Discord /login 阻断；cards=[]；本轮不合并，保持 deferred"
   },
-  "remoteVerified": false
+  "remoteVerified": true
 }
