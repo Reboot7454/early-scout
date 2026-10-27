@@ -1,0 +1,119 @@
+{
+  "round": 737,
+  "mode": "full-radar-soft",
+  "completedAt": "2026-10-28 05:40 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": false,
+  "notifyReason": "no new admits; elysium-punks ≤2h window ended (~05:03 CST) clearedLe2h; push pending",
+  "alertMessage": "",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "round737Added": [],
+  "skipped": [
+    {
+      "id": "code-back",
+      "reason": "产品已开且无明确 mint/fair-launch 窗，不满足早期窗口条件"
+    },
+    {
+      "id": "picklerfun",
+      "reason": "无 mint/代币 fair launch 窗，偏产品续建，且已非极早期"
+    },
+    {
+      "id": "useunbuyfun",
+      "reason": "0粉新号，疑似镜像/冒充或二次号，且库内已有同产品 unbuy-fun"
+    },
+    {
+      "id": "dantapixelnft",
+      "reason": "库内已有 danta；本轮更新官推@dantapixelnft而非新收"
+    },
+    {
+      "id": "npcshood",
+      "reason": "仍无独立官推（R735已跳过），仅第三方推广"
+    },
+    {
+      "id": "leeonmort",
+      "reason": "@Leeonmort get_users仍不存在，软记"
+    }
+  ],
+  "updated": [
+    {
+      "id": "elysium-punks",
+      "note": "≤2h窗已过至05:03CST；clearedLe2h；schedule=ended"
+    },
+    {
+      "id": "danta",
+      "note": "官推改@dantapixelnft；免费2k罄，付费相≈$1仍LIVE"
+    },
+    {
+      "id": "computeroll",
+      "note": "Mining尚未开始·合约测试中；粉3"
+    },
+    {
+      "id": "sprite-fun",
+      "note": "已宣布停建劝退"
+    },
+    {
+      "id": "bitcointapes",
+      "note": "free mint≈273/1000"
+    },
+    {
+      "id": "pipfun",
+      "note": "卡面更新软刷"
+    },
+    {
+      "id": "ptah-trade",
+      "note": "POA 35.6k；纯Agent入口"
+    }
+  ],
+  "le2h": [],
+  "clearedLe2h": [
+    {
+      "id": "elysium-punks",
+      "handle": "@PunksOnElysium",
+      "note": "R735记≤2h至约05:03CST；现已过窗 clearedLe2h"
+    }
+  ],
+  "clearedPrevNew": [
+    "yeetdotbond",
+    "univ4market"
+  ],
+  "xReads": 20,
+  "discordPeekDeferred": true,
+  "discordPeekNote": "R736已扫 Discord alpha（yeetdotbond/univ4market）；本轮 discordPeekDeferred=true",
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit(4)+alert+summary",
+  "focusBan": true,
+  "summary": "R737雷达无新收录；clearedLe2h=elysium-punks；跳过code-back/picklerfun/useunbuyfun；更新danta官推；xReads≈20；discordPeek暂缓(R736已扫)。",
+  "watchesSoft": [
+    "kinetiqWatch",
+    "elysiumWatch",
+    "tapeWatch",
+    "tapeOutWatch",
+    "flapPadWatch",
+    "irysPadWatch",
+    "fullFunWatch",
+    "agentPadWatch",
+    "agentMiningWatch",
+    "agentTradingWatch",
+    "giwaWatch",
+    "dogeEvmWatch",
+    "zeroWatch",
+    "starknetWatch",
+    "btcPrivacyWatch",
+    "cantonPadWatch",
+    "glazeWatch",
+    "tokenWorksPlaygroundWatch",
+    "tokenWorksWatch",
+    "miningWatch",
+    "layerZeroWatch",
+    "blonskrWatch"
+  ],
+  "push": {
+    "ok": false,
+    "sha": null,
+    "branch": "main",
+    "attempted": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
