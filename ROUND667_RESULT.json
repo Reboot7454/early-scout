@@ -1,0 +1,169 @@
+{
+  "round": 667,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-27 09:05 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "true_new_admits",
+  "alertMessage": "新增 Peak（粉21·今日建号Raydium盲发台LIVE）、Trenchtown（粉14·城市飞轮发射台LIVE）、Better（粉154·anti-sniper台LIVE）；2h内看 claimd、ChartIQ、Peak；Elysium 仍 11-09。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "launch-on-peak",
+      "name": "Peak",
+      "handle": "LaunchOnPeak",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "followers": 21,
+      "status": "live",
+      "overall": 66
+    },
+    {
+      "id": "trenchtown",
+      "name": "Trenchtown",
+      "handle": "Trenchtownfun",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "followers": 14,
+      "status": "live",
+      "overall": 62
+    },
+    {
+      "id": "better-launch",
+      "name": "Better",
+      "handle": "betterlaunchfun",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "followers": 154,
+      "status": "live",
+      "overall": 64
+    }
+  ],
+  "newCount": 3,
+  "newIds": [
+    "launch-on-peak",
+    "trenchtown",
+    "better-launch"
+  ],
+  "admitted": [
+    {
+      "id": "launch-on-peak",
+      "name": "Peak",
+      "handle": "LaunchOnPeak",
+      "column": "台子/Meme"
+    },
+    {
+      "id": "trenchtown",
+      "name": "Trenchtown",
+      "handle": "Trenchtownfun",
+      "column": "台子/Meme"
+    },
+    {
+      "id": "better-launch",
+      "name": "Better",
+      "handle": "betterlaunchfun",
+      "column": "台子/Meme"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "use1pad",
+      "reason": "DS score skip：0粉无CA仅概念 Introducing，暂不实盘"
+    },
+    {
+      "id": "classicpad",
+      "reason": "账号约20天且台已LIVE，非极早期窗口"
+    },
+    {
+      "id": "prelaunchpad",
+      "reason": "仅pitch未见LIVE入口/合约"
+    },
+    {
+      "id": "Leeonmort",
+      "reason": "X Not Found（R667再核仍NF）"
+    }
+  ],
+  "softUpdates": [
+    {
+      "id": "claimdpad",
+      "whatsNew": "R667 soft：仍LIVE，07:09CST开盘、现不足2小时，粉7，可继续观察。",
+      "le2h": true
+    },
+    {
+      "id": "chartiq",
+      "whatsNew": "R667 soft：仍LIVE，07:15CST开盘、现不足2小时，粉5，CA仍未核实需谨慎。",
+      "le2h": true
+    },
+    {
+      "id": "tminus-si",
+      "whatsNew": "R667 soft：仍LIVE但06:35已开盘超2小时，粉16，时效性下降。",
+      "le2h": false
+    },
+    {
+      "id": "enter-elysium",
+      "whatsNew": "R667 soft：0x Day1与Uniswap等待续温，主网时间仍为2026-11-09。",
+      "le2h": false
+    },
+    {
+      "id": "bitcointapes",
+      "whatsNew": "R667 soft：Ordinals电路FREE mint续热，粉约331，已超2小时。",
+      "le2h": false
+    },
+    {
+      "id": "pipfun",
+      "whatsNew": "R667 soft：AI agent launchpad V2预告延续，粉39，尚无实质进展。",
+      "le2h": false
+    },
+    {
+      "id": "kingpad",
+      "whatsNew": "R667 soft：新台持续LIVE，明日10am CET再更新，粉93。",
+      "le2h": false
+    },
+    {
+      "id": "nonce-protocol",
+      "whatsNew": "R667 soft：Agent ID挑战免费mint续热，粉935，热度仍在。",
+      "le2h": false
+    },
+    {
+      "id": "naru-giwa",
+      "whatsNew": "R667 soft：GIWA Sepolia终端与审批台延续，无新变化。",
+      "le2h": false
+    },
+    {
+      "id": "ro-arena-rh",
+      "whatsNew": "R667 soft：R666新收RH链游本轮无新官帖，维持观望。",
+      "le2h": false
+    },
+    {
+      "id": "launch-on-peak",
+      "whatsNew": "【R667新】今日新上线Raydium盲发台并完成首次平台币burn。",
+      "le2h": true
+    },
+    {
+      "id": "trenchtown",
+      "whatsNew": "【R667新】昨日上线“发射台+共享城市”并自报pump CA。",
+      "le2h": false
+    },
+    {
+      "id": "better-launch",
+      "whatsNew": "【R667新】昨日上线anti-bundle发射台并已上sniper tax与shield replay。",
+      "le2h": false
+    }
+  ],
+  "le2h": [
+    "claimdpad",
+    "chartiq",
+    "launch-on-peak"
+  ],
+  "xReads": 17,
+  "discordPeekDeferred": true,
+  "discordLastSeen": "2026-10-27 08:36 CST",
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking：admit(4admit/2skip)+score4(再skip use1pad)+soft10+alert；Leeonmort本地核NF；yinghubnb核验入agentPadWatch",
+  "coverage": "十栏+必盯软刷+关键词≈90min；Tape/Elysium/GIWA/Doge/Zero/Starknet/flap/Irys/Full/BN Agent/agent mining/BTC；Peak/Trenchtown/Better新收；Leeonmort仍NF；Discord延期",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "新增 Peak 粉21、Trenchtown 粉14、Better 粉154；2h内关注 claimd、ChartIQ、Peak；Elysium 仍 11-09。",
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "ro-arena-rh"
+  ]
+}
