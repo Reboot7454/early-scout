@@ -1,0 +1,99 @@
+{
+  "round": 735,
+  "mode": "full-radar-soft",
+  "completedAt": "2026-10-28 05:02 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "le2h window (elysium-punks still ≤2h to ~05:03 CST); no new admits",
+  "alertMessage": "R735：无新收录。≤2h：Elysium Punks stealth仍LIVE约至05:03CST（余≈0分）速看。https://reboot7454.github.io/early-scout/",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "round735Added": [],
+  "skipped": [
+    {
+      "id": "npcshood",
+      "reason": "无独立官推（NPCSHOOD/npcshood不存在），仅@pokemontowns推广，按规则跳过"
+    },
+    {
+      "id": "tryrenace",
+      "reason": "有官推+官网但仅概念文章Signed Operating Layer，无可操作mint/发射；R734已跳过"
+    },
+    {
+      "id": "x402fizzl",
+      "reason": "TapeOut Accelerate工具presign-guard，有官推官网但无mint/代币打新窗"
+    },
+    {
+      "id": "wraithonx",
+      "reason": "@WraithOnX_与库内@wraith_launch不同号，未确认具体mint/发射窗，跳过"
+    },
+    {
+      "id": "leeonmort",
+      "reason": "@Leeonmort get_users仍不存在，软记"
+    },
+    {
+      "id": "chimpxai/koai/nonce-protocol/ammora/monko-mania/elysian-fields",
+      "reason": "已在库，本轮soft无新≤2h窗"
+    }
+  ],
+  "updated": [
+    {
+      "id": "computeroll",
+      "note": "软刷@ComputeRollLabs粉1·Coming soon帖续"
+    },
+    {
+      "id": "elysium-punks",
+      "note": "≤2h窗将尽至05:03CST（余≈0分）续盯"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "elysium-punks",
+      "handle": "@PunksOnElysium",
+      "note": "R735 soft：stealth mint仍LIVE≈03:03CST开·0.025HYPE；仍≤2h约至05:03CST（余≈0分）。"
+    }
+  ],
+  "clearedLe2h": [],
+  "clearedPrevNew": [
+    "hearthpad",
+    "jacquardhook",
+    "idlewharf"
+  ],
+  "xReads": 20,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash score(4)+admit(4)+alert",
+  "focusBan": true,
+  "summary": "R735雷达无新收录；≤2h续elysium-punks至05:03CST；NPCSHOOD无官推/tryrenace无可操作/fizzl非打新跳过；xReads≈20；discordPeek暂缓。",
+  "watchesSoft": [
+    "kinetiqWatch",
+    "elysiumWatch",
+    "tapeWatch",
+    "tapeOutWatch",
+    "flapPadWatch",
+    "irysPadWatch",
+    "fullFunWatch",
+    "agentPadWatch",
+    "agentMiningWatch",
+    "agentTradingWatch",
+    "giwaWatch",
+    "dogeEvmWatch",
+    "zeroWatch",
+    "starknetWatch",
+    "btcPrivacyWatch",
+    "cantonPadWatch",
+    "glazeWatch",
+    "tokenWorksPlaygroundWatch",
+    "tokenWorksWatch",
+    "miningWatch",
+    "layerZeroWatch",
+    "blonskrWatch"
+  ],
+  "push": {
+    "ok": false,
+    "sha": null,
+    "branch": "main",
+    "attempted": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
