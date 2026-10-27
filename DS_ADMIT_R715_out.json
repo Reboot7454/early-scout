@@ -1,0 +1,95 @@
+[
+  {
+    "id": "pairedfunx",
+    "handle": "pairedfunX",
+    "name": "Paired.fun",
+    "admit": true,
+    "reason": "任意资产配对发币玩法清晰，极早期，但LZ接入未核验",
+    "chain": "多链",
+    "category": "台子/Meme",
+    "tags": ["未核验", "LayerZero自称", "发射台", "资产配对"],
+    "followers": 2,
+    "scores": {"early": 95, "actionable": 70, "novelty": 78, "risk": 82, "overall": 74},
+    "highlights": ["任意资产配对发币", "自称用LayerZero同步"],
+    "drawbacks": ["未核验LZ接入", "产品页面/合约线索不足"],
+    "whatsNew": "以“任意资产配对+跨链同步”为卖点的发币台。",
+    "blurb": "极早期发币台，核心是任意资产配对与LayerZero同步叙事，需核验真实接入。",
+    "status": "watching",
+    "links": {"x": "https://x.com/pairedfunX"},
+    "lzVerified": false
+  },
+  {
+    "id": "onetickpad",
+    "handle": "onetickpad",
+    "name": "OneTick",
+    "admit": true,
+    "reason": "Ticker预留机制明确，极早期发射台",
+    "chain": "Solana",
+    "category": "台子/Meme",
+    "tags": ["未核验", "发射台", "Ticker预留", "防重名"],
+    "followers": 0,
+    "scores": {"early": 98, "actionable": 65, "novelty": 72, "risk": 85, "overall": 72},
+    "highlights": ["发射后Ticker锁定15分钟", "针对pump.fun重名问题"],
+    "drawbacks": ["产品入口未给出", "仅解决重名，护城河待验证"],
+    "whatsNew": "为pump.fun发射提供15分钟Ticker独占窗口。",
+    "blurb": "极早期Ticker预留发射工具，主打防止同名盘抢跑，需看实际接入。",
+    "status": "watching",
+    "links": {"x": "https://x.com/onetickpad"}
+  },
+  {
+    "id": "rungmcpdev",
+    "handle": "rungmcpdev",
+    "name": "rung mcp",
+    "admit": true,
+    "reason": "Robinhood Chain的AI MCP数据服务，含$RUNG代币线索",
+    "chain": "Robinhood Chain",
+    "category": "台子/Meme",
+    "tags": ["未核验", "MCP服务", "AI代理", "Robinhood链", "代币工具"],
+    "followers": 0,
+    "scores": {"early": 96, "actionable": 60, "novelty": 85, "risk": 88, "overall": 71},
+    "highlights": ["一个MCP服务聚合股票代币/钱包/新币/价差", "面向任意AI Agent读取Robinhood Chain"],
+    "drawbacks": ["产品入口未给出", "代币与产品价值捕获不清"],
+    "whatsNew": "把Robinhood Chain数据封装成AI Agent可读的MCP server，并带$RUNG代币。",
+    "blurb": "极早期AI Agent数据接口，聚合Robinhood Chain代币与价差数据，需核验产品。",
+    "status": "watching",
+    "links": {"x": "https://x.com/rungmcpdev"}
+  },
+  {
+    "id": "latelityz",
+    "handle": "latelityz",
+    "name": "Latelit",
+    "admit": true,
+    "reason": "Robinhood Chain发射台，区块窗口与里程碑机制清晰",
+    "chain": "Robinhood Chain",
+    "category": "打新",
+    "tags": ["未核验", "发射台", "Robinhood链", "里程碑玩法"],
+    "followers": 0,
+    "scores": {"early": 97, "actionable": 68, "novelty": 75, "risk": 84, "overall": 73},
+    "highlights": ["每币有区块内窗口", "2.8 ETH触发Ticker上屋顶"],
+    "drawbacks": ["仅叙事，未见合约", "Robinhood Chain生态尚早"],
+    "whatsNew": "在Robinhood Chain做带区块窗口和2.8 ETH里程碑的发射台。",
+    "blurb": "极早期Robinhood Chain发射台，用区块窗口和ETH里程碑做玩法。",
+    "status": "watching",
+    "links": {"x": "https://x.com/latelityz"}
+  },
+  {
+    "handle": "proboscis_arb",
+    "admit": false,
+    "reason": "纯研究/实验信号，无产品发射或玩法"
+  },
+  {
+    "handle": "xposuremarkets",
+    "admit": false,
+    "reason": "描述过泛，缺加密产品与发射线索"
+  },
+  {
+    "handle": "scriplyio",
+    "admit": false,
+    "reason": "仅站点介绍，无产品/玩法线索"
+  },
+  {
+    "handle": "21__Gen",
+    "admit": false,
+    "reason": "仅V2 CA预告，无产品/玩法，空壳风险高"
+  }
+]

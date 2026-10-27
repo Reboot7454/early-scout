@@ -1,0 +1,80 @@
+{
+  "round": 715,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-27 23:27 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R715 DC补漏新收4（未核验）：Paired.fun(@pairedfunX 任意资产配对发币台)、OneTick(@onetickpad 防抢ticker发射台)、rung mcp(@rungmcpdev RH链AI MCP $RUNG)、Latelit(@latelityz RH链发射台) → 台子/Meme。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "pairedfunx",
+    "onetickpad",
+    "rungmcpdev",
+    "latelityz"
+  ],
+  "newCount": 4,
+  "newIds": [
+    "pairedfunx",
+    "onetickpad",
+    "rungmcpdev",
+    "latelityz"
+  ],
+  "skipped": [
+    {
+      "id": null,
+      "reason": "纯研究/实验信号，无产品发射或玩法"
+    },
+    {
+      "id": null,
+      "reason": "描述过泛，缺加密产品与发射线索"
+    },
+    {
+      "id": null,
+      "reason": "仅站点介绍，无产品/玩法线索"
+    },
+    {
+      "id": null,
+      "reason": "仅V2 CA预告，无产品/玩法，空壳风险高"
+    }
+  ],
+  "cardsAfterLastSeen": 3,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "wobbalu-island",
+    "pikwiki"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "wobbalu-island",
+    "pikwiki"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=8",
+  "coverage": "alpha-3, alpha-1-backup, smart-accounts-tracker, alpha-1",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-27 23:24 CST",
+    "lastChecked": "2026-10-27 23:27 CST",
+    "newestCardTime": "2026-10-27 23:24 CST",
+    "cardsAfterCutoff": 3,
+    "note": "R715：Discord alpha 补收 pairedfunx,onetickpad,rungmcpdev,latelityz；跳过 [{'id': None, 'reason': '纯研究/实验信号，无产品发射或玩法'}, {'id': None, 'reason': '描述过泛，缺加密产品与发射线索'}, {'id': None, 'reason': '仅站点介绍，无产品/玩法线索'}, {'id': None, 'reason': '仅V2 CA预告，无产品/玩法，空壳风险高'}]；清 wobbalu-island,pikwiki；lastSeen→2026-10-27 23:24 CST；lastChecked→2026-10-27 23:27 CST",
+    "lastRound": 715,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-27 23:24 CST",
+      "alpha-1-backup": "2026-10-27 22:28 CST",
+      "smart-accounts-tracker": "2026-10-27 23:24 CST",
+      "alpha-1": "2026-10-27 23:18 CST"
+    },
+    "loginNeeded": false
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R715：Discord alpha 补收 pairedfunx,onetickpad,rungmcpdev,latelityz；跳过 [{'id': None, 'reason': '纯研究/实验信号，无产品发射或玩法'}, {'id': None, 'reason': '描述过泛，缺加密产品与发射线索'}, {'id': None, 'reason': '仅站点介绍，无产品/玩法线索'}, {'id': None, 'reason': '仅V2 CA预告，无产品/玩法，空壳风险高'}]；清 wobbalu-island,pikwiki；lastSeen→2026-10-27 23:24 CST；lastChecked→2026-10-27 23:27 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261027_2325.json",
+  "priorRoundNote": "R714 meta NTR ['pikwiki', 'wobbalu-island']; cardsAfterCutoff=3"
+}

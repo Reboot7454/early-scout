@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-27 22:49 CST",
+    "updated": "2026-10-27 23:27 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R692",
-    "lastScout": "2026-10-27 23:12 CST",
+    "lastScout": "2026-10-27 23:27 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -471,7 +471,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 714,
+    "round": 715,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1372,8 +1372,10 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "pikwiki",
-      "wobbalu-island"
+      "pairedfunx",
+      "onetickpad",
+      "rungmcpdev",
+      "latelityz"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -2939,20 +2941,20 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-10-27 22:40 CST",
-      "lastChecked": "2026-10-27 23:09 CST",
-      "newestCardTime": "2026-10-27 22:44 CST",
-      "cardsAfterCutoff": 4,
-      "note": "R714：Discord loginNeeded；cards空；deferred 待父代理重扫合入",
-      "lastRound": 713,
+      "deferred": false,
+      "lastSeen": "2026-10-27 23:24 CST",
+      "lastChecked": "2026-10-27 23:27 CST",
+      "newestCardTime": "2026-10-27 23:24 CST",
+      "cardsAfterCutoff": 3,
+      "note": "R715：Discord alpha 补收 pairedfunx,onetickpad,rungmcpdev,latelityz；跳过 [{'id': None, 'reason': '纯研究/实验信号，无产品发射或玩法'}, {'id': None, 'reason': '描述过泛，缺加密产品与发射线索'}, {'id': None, 'reason': '仅站点介绍，无产品/玩法线索'}, {'id': None, 'reason': '仅V2 CA预告，无产品/玩法，空壳风险高'}]；清 wobbalu-island,pikwiki；lastSeen→2026-10-27 23:24 CST；lastChecked→2026-10-27 23:27 CST",
+      "lastRound": 715,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-27 22:44 CST",
+        "alpha-3-new-accounts": "2026-10-27 23:24 CST",
         "alpha-1-backup": "2026-10-27 22:28 CST",
-        "smart-accounts-tracker": "2026-10-27 22:19 CST",
-        "alpha-1": "2026-10-27 22:40 CST"
+        "smart-accounts-tracker": "2026-10-27 23:24 CST",
+        "alpha-1": "2026-10-27 23:18 CST"
       },
-      "loginNeeded": true
+      "loginNeeded": false
     },
     "round239Added": [
       "tsunamilaunch",
@@ -7713,9 +7715,208 @@
       "pepticon-trade",
       "firstlight-strm",
       "oripa-xyz"
+    ],
+    "round715Added": [
+      "pairedfunx",
+      "onetickpad",
+      "rungmcpdev",
+      "latelityz"
     ]
   },
   "candidates": [
+    {
+      "id": "latelityz",
+      "name": "Latelit",
+      "handle": "@latelityz",
+      "twitter": "@latelityz",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "未核验",
+        "发射台",
+        "Robinhood链",
+        "里程碑玩法",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/latelityz"
+      },
+      "scores": {
+        "early": 97,
+        "actionable": 68,
+        "novelty": 75,
+        "risk": 84,
+        "overall": 73
+      },
+      "highlights": [
+        "每币有区块内窗口",
+        "2.8 ETH触发Ticker上屋顶"
+      ],
+      "drawbacks": [
+        "仅叙事，未见合约",
+        "Robinhood Chain生态尚早"
+      ],
+      "whatsNew": "在Robinhood Chain做带区块窗口和2.8 ETH里程碑的发射台。",
+      "summary": "极早期Robinhood Chain发射台，用区块窗口和ETH里程碑做玩法。",
+      "blurb": "极早期Robinhood Chain发射台，用区块窗口和ETH里程碑做玩法。",
+      "round": 715,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-27 23:27 CST",
+      "addedAt": "2026-10-27 23:27 CST",
+      "lastChecked": "2026-10-27 23:27 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "rungmcpdev",
+      "name": "rung mcp",
+      "handle": "@rungmcpdev",
+      "twitter": "@rungmcpdev",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "未核验",
+        "MCP服务",
+        "AI代理",
+        "Robinhood链",
+        "代币工具",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/rungmcpdev"
+      },
+      "scores": {
+        "early": 96,
+        "actionable": 60,
+        "novelty": 85,
+        "risk": 88,
+        "overall": 71
+      },
+      "highlights": [
+        "一个MCP服务聚合股票代币/钱包/新币/价差",
+        "面向任意AI Agent读取Robinhood Chain"
+      ],
+      "drawbacks": [
+        "产品入口未给出",
+        "代币与产品价值捕获不清"
+      ],
+      "whatsNew": "把Robinhood Chain数据封装成AI Agent可读的MCP server，并带$RUNG代币。",
+      "summary": "极早期AI Agent数据接口，聚合Robinhood Chain代币与价差数据，需核验产品。",
+      "blurb": "极早期AI Agent数据接口，聚合Robinhood Chain代币与价差数据，需核验产品。",
+      "round": 715,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-27 23:27 CST",
+      "addedAt": "2026-10-27 23:27 CST",
+      "lastChecked": "2026-10-27 23:27 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "onetickpad",
+      "name": "OneTick",
+      "handle": "@onetickpad",
+      "twitter": "@onetickpad",
+      "chain": "未披露（对标pump.fun）",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "未核验",
+        "发射台",
+        "Ticker预留",
+        "防重名",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/onetickpad"
+      },
+      "scores": {
+        "early": 98,
+        "actionable": 65,
+        "novelty": 72,
+        "risk": 85,
+        "overall": 72
+      },
+      "highlights": [
+        "发射后Ticker锁定15分钟",
+        "针对pump.fun重名问题"
+      ],
+      "drawbacks": [
+        "产品入口未给出",
+        "仅解决重名，护城河待验证"
+      ],
+      "whatsNew": "为pump.fun发射提供15分钟Ticker独占窗口。",
+      "summary": "极早期Ticker预留发射工具，主打防止同名盘抢跑，需看实际接入。",
+      "blurb": "极早期Ticker预留发射工具，主打防止同名盘抢跑，需看实际接入。",
+      "round": 715,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-27 23:27 CST",
+      "addedAt": "2026-10-27 23:27 CST",
+      "lastChecked": "2026-10-27 23:27 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "pairedfunx",
+      "name": "Paired.fun",
+      "handle": "@pairedfunx",
+      "twitter": "@pairedfunx",
+      "chain": "多链",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "未核验",
+        "LayerZero自称",
+        "发射台",
+        "资产配对",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/pairedfunX"
+      },
+      "scores": {
+        "early": 95,
+        "actionable": 70,
+        "novelty": 78,
+        "risk": 82,
+        "overall": 74
+      },
+      "highlights": [
+        "任意资产配对发币",
+        "自称用LayerZero同步"
+      ],
+      "drawbacks": [
+        "未核验LZ接入",
+        "产品页面/合约线索不足"
+      ],
+      "whatsNew": "以“任意资产配对+跨链同步”为卖点的发币台。",
+      "summary": "极早期发币台，核心是任意资产配对与LayerZero同步叙事，需核验真实接入。",
+      "blurb": "极早期发币台，核心是任意资产配对与LayerZero同步叙事，需核验真实接入。",
+      "round": 715,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 2,
+      "xFollowers": 2,
+      "firstSeen": "2026-10-27 23:27 CST",
+      "addedAt": "2026-10-27 23:27 CST",
+      "lastChecked": "2026-10-27 23:27 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "wobbalu-island",
       "name": "Wobbalu Island",
@@ -7769,7 +7970,7 @@
       "addedAt": "2026-10-27 23:12 CST",
       "lastChecked": "2026-10-27 23:12 CST",
       "zoneHint": "打新",
-      "newThisRound": true,
+      "newThisRound": false,
       "source": "x-radar"
     },
     {
@@ -7828,7 +8029,7 @@
       "addedAt": "2026-10-27 23:12 CST",
       "lastChecked": "2026-10-27 23:12 CST",
       "zoneHint": "打新",
-      "newThisRound": true,
+      "newThisRound": false,
       "source": "x-radar"
     },
     {
@@ -112418,10 +112619,12 @@
     }
   ],
   "newThisRound": [
-    "pikwiki",
-    "wobbalu-island"
+    "pairedfunx",
+    "onetickpad",
+    "rungmcpdev",
+    "latelityz"
   ],
-  "alertMessage": "新收：@Pikwiki_ BNB像素卡牌前5k免费mint LIVE、@wobbaluisland OpenSea免费mint LIVE；≤2h：@ElysianFieldNFT Degen mint 今日23:30CST；另 spritefun 停建。面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "R715 DC补漏新收4（未核验）：Paired.fun(@pairedfunX 任意资产配对发币台)、OneTick(@onetickpad 防抢ticker发射台)、rung mcp(@rungmcpdev RH链AI MCP $RUNG)、Latelit(@latelityz RH链发射台) → 台子/Meme。面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "joma-dojo",
     "kagiboy",
@@ -112431,13 +112634,13 @@
     "shares-pad",
     "enra-baw"
   ],
-  "updatedAt": "2026-10-27 23:12 CST",
-  "updated": "2026-10-27 23:12 CST",
+  "updatedAt": "2026-10-27 23:27 CST",
+  "updated": "2026-10-27 23:27 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-27 23:12 CST",
+  "lastScout": "2026-10-27 23:27 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -112479,7 +112682,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1571,
+  "candidateCount": 1575,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -113120,5 +113323,11 @@
   "round714Added": [
     "pikwiki",
     "wobbalu-island"
+  ],
+  "round715Added": [
+    "pairedfunx",
+    "onetickpad",
+    "rungmcpdev",
+    "latelityz"
   ]
 }
