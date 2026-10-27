@@ -1,0 +1,168 @@
+{
+  "round": 671,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-27 10:07 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "true_new_admits+le2h",
+  "alertMessage": "新增3项：PolyStonk(@PolyStonkFun 今建号粉1 Solana涨跌GO盘已LIVE+CA)、Zolana(@zolanaxyz 刚live粉6 ZEC计价发射台)、Bashard(@Bashard_ 昨建号粉120 BNB存储基建)；2h内看 Peak(08:46CST开盘粉53→76)。Elysium仍11-09。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "polystonk",
+      "name": "PolyStonk",
+      "handle": "PolyStonkFun",
+      "category": "GO盘",
+      "zone": "GO盘",
+      "followers": 1,
+      "status": "live",
+      "overall": 71
+    },
+    {
+      "id": "zolana",
+      "name": "Zolana",
+      "handle": "zolanaxyz",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "followers": 6,
+      "status": "live",
+      "overall": 70
+    },
+    {
+      "id": "bashard",
+      "name": "Bashard",
+      "handle": "Bashard_",
+      "category": "挖矿",
+      "zone": "挖矿",
+      "followers": 120,
+      "status": "watching",
+      "overall": 64
+    }
+  ],
+  "newCount": 3,
+  "newIds": [
+    "polystonk",
+    "zolana",
+    "bashard"
+  ],
+  "admitted": [
+    {
+      "id": "polystonk",
+      "name": "PolyStonk",
+      "handle": "PolyStonkFun",
+      "column": "GO盘"
+    },
+    {
+      "id": "zolana",
+      "name": "Zolana",
+      "handle": "zolanaxyz",
+      "column": "台子/Meme"
+    },
+    {
+      "id": "bashard",
+      "name": "Bashard",
+      "handle": "Bashard_",
+      "column": "挖矿"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "offensive-memes",
+      "reason": "DS admit skip：发射台仍开发中，更像单币+预告"
+    },
+    {
+      "id": "promotedcoin",
+      "reason": "DS admit skip：偏营销工具/平台币，非纯打新发射台"
+    },
+    {
+      "id": "the-forge-en",
+      "reason": "已在库(R651 the-forge-en)，非新admit"
+    },
+    {
+      "id": "Leeonmort",
+      "reason": "X Not Found（R671再核仍NF）"
+    },
+    {
+      "id": "bullshot",
+      "reason": "粉量过大/非极早期窗口，skip"
+    }
+  ],
+  "softUpdates": [
+    {
+      "id": "launch-on-peak",
+      "whatsNew": "R671 soft：粉53→76；官推DexScreener+fee flywheel续；08:46CST开盘仍≤2h。",
+      "le2h": true,
+      "followers": 76
+    },
+    {
+      "id": "barrel-royale",
+      "whatsNew": "R671 soft：官推贴白名单，粉0→1。",
+      "le2h": false,
+      "followers": 1
+    },
+    {
+      "id": "stonks-pad",
+      "whatsNew": "R671 soft：flap生态续，粉699→707。",
+      "le2h": false,
+      "followers": 707
+    },
+    {
+      "id": "bitcointapes",
+      "whatsNew": "R671 soft：BTape FREE mint约273/1000（~27%），粉331；电路/Tape。",
+      "le2h": false
+    },
+    {
+      "id": "tapesurge",
+      "whatsNew": "R671 soft：Tape生态粉339→440。",
+      "le2h": false,
+      "followers": 440
+    },
+    {
+      "id": "nonce-protocol",
+      "whatsNew": "R671 soft：粉890→1030，近窗增速明显。",
+      "le2h": false,
+      "followers": 1030
+    },
+    {
+      "id": "enter-elysium",
+      "whatsNew": "R671 soft：主网仍2026-11-09；On testnet/Announced续，无新deploy。",
+      "le2h": false
+    },
+    {
+      "id": "pipfun",
+      "whatsNew": "R671 soft：BN Agent发射台续观望，粉39；无实质V2进展。",
+      "le2h": false
+    },
+    {
+      "id": "ok-meme",
+      "whatsNew": "R671 soft：X Layer原生meme发射台续观望，粉2609。",
+      "le2h": false
+    }
+  ],
+  "le2h": [
+    {
+      "id": "launch-on-peak",
+      "name": "Peak",
+      "openAtApprox": "2026-10-27 08:46 CST",
+      "followers": 76
+    }
+  ],
+  "xReads": 22,
+  "discordPeekDeferred": true,
+  "discordLastSeen": "2026-10-27 09:48 CST",
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit=1 score=1 alert=1; admits=3 skips=2(+库内/NF)",
+  "coverage": "十栏+BTC/Starknet X关键词合并搜索与必盯软刷；Discord延期",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R671：新收 PolyStonk(GO盘)/Zolana(台子)/Bashard(挖矿)；Peak仍≤2h粉76；Leeonmort仍NF；Discord延期；Elysium仍11-09。",
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "barrel-royale",
+    "ok-meme"
+  ],
+  "push": {
+    "attempted": true,
+    "ok": false
+  },
+  "remoteVerified": false,
+  "pushCommit": null
+}
