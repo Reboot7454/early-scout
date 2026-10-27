@@ -1,0 +1,116 @@
+{
+  "round": 708,
+  "mode": "x-keyword-mustwatch-soft",
+  "timestamp": "2026-10-27T21:06:29+08:00",
+  "notify": true,
+  "alertMessage": "新增 Lodgerwell(Pons LIVE)/World-ygg(明日 Agent Tree)/Ymir(Sol freemint)，Stavo/Jolly 22:00、TapeFractal Freemint 续、Orynex 23:00(≤2h)，详见 https://reboot7454.github.io/early-scout/。",
+  "newIds": [
+    "lodgerwell",
+    "world-ygg",
+    "ymir-onsolana"
+  ],
+  "le2h": [
+    "lodgerwell",
+    "stavo",
+    "tape-fractal",
+    "orynex",
+    "jolly-on-rh"
+  ],
+  "xReads": 18,
+  "prevNewThisRoundCleared": [
+    "aicz",
+    "nomio",
+    "sodi"
+  ],
+  "round708Added": [
+    "lodgerwell",
+    "world-ygg",
+    "ymir-onsolana"
+  ],
+  "meta": {
+    "round": 708,
+    "newThisRound": [
+      "lodgerwell",
+      "world-ygg",
+      "ymir-onsolana"
+    ],
+    "discordPeek": null
+  },
+  "softUpdated": {
+    "stavo": {
+      "followers": 65,
+      "status": "watching",
+      "le2h": true
+    },
+    "tape-fractal": {
+      "followers": 278,
+      "status": "live",
+      "le2h": true
+    },
+    "orynex": {
+      "followers": 61,
+      "status": "upcoming",
+      "le2h": true
+    },
+    "jolly-on-rh": {
+      "followers": 78,
+      "status": "watching",
+      "le2h": true
+    },
+    "enter-elysium": {
+      "followers": 13548,
+      "status": "confirmed"
+    },
+    "bitcointapes": {
+      "followers": 363,
+      "status": "live"
+    },
+    "the-forge-en": {
+      "followers": 2,
+      "status": "watching"
+    },
+    "play-farm-rh": {
+      "followers": 1209,
+      "status": "watching"
+    },
+    "stonk-robotics": {
+      "followers": 2153,
+      "status": "live"
+    }
+  },
+  "skipped": {
+    "alreadyIn": [
+      "jolly-on-rh",
+      "the-forge-en",
+      "play-farm-rh",
+      "ptah-trade",
+      "milkbao",
+      "brushborn",
+      "stonk-robotics",
+      "aicz",
+      "nomio",
+      "sodi"
+    ],
+    "lowSignalOrNoise": [
+      "aeog-pass",
+      "Ymir-community-spam-adjacent",
+      "FirstTake-spam",
+      "pumpfun-related-known"
+    ],
+    "notLe2h": [
+      "world-ygg",
+      "bitcointapes",
+      "enter-elysium",
+      "the-forge-en"
+    ],
+    "notes": "Lodgerwell新收且≤2h；Orynex/Jolly新入≤2h；Stavo/TapeFractal同窗已告过仍记le2h；aeog无官推skip；Discord deferred=true；xReads≈18"
+  },
+  "focusBan": true,
+  "discordDeferred": true,
+  "push": {
+    "ok": false,
+    "sha": null,
+    "short": null
+  },
+  "summary": "R708 mustwatch-soft新收lodgerwell/world-ygg/ymir；Lodger/Stavo/Jolly/TapeFractal/Orynex≤2h；清R707 aicz/nomio/sodi；discord延后；xReads18。"
+}
