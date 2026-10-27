@@ -228,8 +228,8 @@
       "vela-vela"
     ],
     "miningWatch": {
-      "note": "R708 soft：Lodgerwell新收+多窗≤2h；Elysium主网11-09；Zero/lzATLAS 11-30续",
-      "lastChecked": "2026-10-27 22:12 CST",
+      "note": "R712 soft：Fugazy新收+多窗≤2h；Elysium主网11-09；Zero/lzATLAS 11-30续",
+      "lastChecked": "2026-10-27 22:37 CST",
       "r379": "soft refresh",
       "active": true,
       "r380": "Trac agentic mining续；本窗无新PoW/agent mining admit；lastChecked 2026-10-23 08:32 CST",
@@ -471,7 +471,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 711,
+    "round": 712,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -548,7 +548,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 1562,
+    "candidateCount": 1563,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -637,8 +637,8 @@
     },
     "glazeWatch": {
       "active": true,
-      "lastChecked": "2026-10-27 22:12 CST",
-      "note": "R708 soft refresh",
+      "lastChecked": "2026-10-27 22:37 CST",
+      "note": "R712 soft refresh",
       "r368": "checked",
       "r369": "软债刷新 lastChecked",
       "r370": "软债刷新 lastChecked",
@@ -801,8 +801,8 @@
     },
     "cantonPadWatch": {
       "active": true,
-      "lastChecked": "2026-10-27 22:12 CST",
-      "note": "R708 soft refresh",
+      "lastChecked": "2026-10-27 22:37 CST",
+      "note": "R712 soft refresh",
       "r368": "checked",
       "r369": "软债刷新 lastChecked",
       "r370": "软债刷新 lastChecked",
@@ -1031,8 +1031,8 @@
     ],
     "tokenWorksPlaygroundWatch": {
       "active": true,
-      "lastChecked": "2026-10-27 22:12 CST",
-      "note": "R708 soft refresh",
+      "lastChecked": "2026-10-27 22:37 CST",
+      "note": "R712 soft refresh",
       "r368": "checked",
       "r369": "软债刷新 lastChecked",
       "r370": "软债刷新 lastChecked",
@@ -1274,7 +1274,7 @@
     ],
     "focusWatch": {
       "note": "R683 soft refresh",
-      "lastChecked": "2026-10-27 22:12 CST",
+      "lastChecked": "2026-10-27 22:37 CST",
       "r379": "soft refresh",
       "r397": "R397：focusIds持",
       "r444": "scanned 2026-10-24 08:35 CST",
@@ -1372,13 +1372,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "joma-dojo",
-      "kagiboy",
-      "plotlines-real",
-      "paystub-xyz",
-      "zapcoin-app",
-      "shares-pad",
-      "enra-baw"
+      "fugazy"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -1645,8 +1639,8 @@
     ],
     "elysiumWatch": {
       "active": true,
-      "lastChecked": "2026-10-27 22:12 CST",
-      "note": "R711 soft：主网11-09；Goldsky testnet+Kyber Day1；ElysianFields≤2h；无新On testnet admit",
+      "lastChecked": "2026-10-27 22:37 CST",
+      "note": "R712 soft：主网11-09；ElysianFields≤2h；无新On testnet admit",
       "r340": "主网11-09；Cantina Apex；无新admit",
       "r342": "主网11-09；Cantina Apex；无新admit",
       "r343": "主网11-09；官网生态On testnet续；无新admit",
@@ -1887,30 +1881,78 @@
     "watches": {
       "le2h": [
         {
-          "id": "tape-fractal",
-          "name": "TapeFractal",
-          "when": "2026-10-27 20:00 CST",
-          "note": "Freemint 开窗中 ≤2h"
+          "id": "fugazy",
+          "name": "FUGAZY",
+          "when": "2026-10-27 23:00 CST",
+          "note": "RH OpenSea mint ≤2h"
         },
         {
-          "id": "stonk-robotics",
-          "name": "StonkRobotics",
-          "when": "LIVE",
-          "note": "Agent ID前1000免费mint LIVE"
-        }
-      ],
-      "tonight": [
-        {
-          "id": "tape-fractal",
-          "name": "TapeFractal",
-          "when": "20:00 CST",
-          "note": "Freemint"
+          "id": "elysian-fields",
+          "name": "Elysian Fields",
+          "when": "2026-10-27 23:30 CST",
+          "note": "degen mint ≤2h (elysium-unverified)"
         },
         {
           "id": "orynex",
           "name": "Orynex",
-          "when": "23:00 CST",
-          "note": "Pons launch 非≤2h"
+          "when": "2026-10-27 23:00 CST",
+          "note": "Pons ≤2h"
+        },
+        {
+          "id": "jolly-on-rh",
+          "name": "Jolly",
+          "when": "2026-10-27 22:00 CST",
+          "note": "Pons LIVE ≤2h"
+        },
+        {
+          "id": "stavo",
+          "name": "Stavo",
+          "when": "2026-10-27 22:00 CST",
+          "note": "Pons LIVE ≤2h"
+        },
+        {
+          "id": "lodgerwell",
+          "name": "Lodgerwell",
+          "when": "2026-10-27 21:00 CST",
+          "note": "Pons LIVE ≤2h"
+        }
+      ],
+      "tonight": [
+        {
+          "id": "fugazy",
+          "name": "FUGAZY",
+          "when": "2026-10-27 23:00 CST",
+          "note": "RH OpenSea mint ≤2h"
+        },
+        {
+          "id": "elysian-fields",
+          "name": "Elysian Fields",
+          "when": "2026-10-27 23:30 CST",
+          "note": "degen mint ≤2h (elysium-unverified)"
+        },
+        {
+          "id": "orynex",
+          "name": "Orynex",
+          "when": "2026-10-27 23:00 CST",
+          "note": "Pons ≤2h"
+        },
+        {
+          "id": "jolly-on-rh",
+          "name": "Jolly",
+          "when": "2026-10-27 22:00 CST",
+          "note": "Pons LIVE ≤2h"
+        },
+        {
+          "id": "stavo",
+          "name": "Stavo",
+          "when": "2026-10-27 22:00 CST",
+          "note": "Pons LIVE ≤2h"
+        },
+        {
+          "id": "lodgerwell",
+          "name": "Lodgerwell",
+          "when": "2026-10-27 21:00 CST",
+          "note": "Pons LIVE ≤2h"
         }
       ]
     },
@@ -2089,8 +2131,8 @@
     ],
     "blonskrWatch": {
       "active": true,
-      "lastChecked": "2026-10-27 22:12 CST",
-      "note": "R708 soft：Lodgerwell新收+多窗≤2h；Elysium主网11-09；Zero/lzATLAS 11-30续",
+      "lastChecked": "2026-10-27 22:37 CST",
+      "note": "R712 soft：Fugazy新收+多窗≤2h；Elysium主网11-09；Zero/lzATLAS 11-30续",
       "r340": "TapeOut Optimal Mining Pool+BEM PoD续；TapeAI检察官电路；Giveaway 10-22；无新admit",
       "r341": "Blonskr答矿池集体所有制；Tape落地Spaces；无新admit",
       "r342": "本轮未拉新帖；Tape/电路续盯",
@@ -2205,8 +2247,8 @@
     },
     "tapeOutWatch": {
       "active": true,
-      "lastChecked": "2026-10-27 22:12 CST",
-      "note": "R708 soft：Lodgerwell新收+多窗≤2h；Elysium主网11-09；Zero/lzATLAS 11-30续",
+      "lastChecked": "2026-10-27 22:37 CST",
+      "note": "R712 soft：TapeLaunch×TapeOut Credits领取热；无新电路admit",
       "r340": "TapeOut Optimal Mining Pool+BEM PoD续；TapeAI检察官电路；Giveaway 10-22；无新admit",
       "r341": "BEM PoD经济学讨论续；TapeAI检察官电路权益文；无新admit",
       "r342": "TapeAI检察官电路文+Firsto识别续；无新Tape admit",
@@ -2389,7 +2431,7 @@
     ],
     "xChainPadWatch": {
       "active": true,
-      "lastChecked": "2026-10-27 22:12 CST",
+      "lastChecked": "2026-10-27 22:37 CST",
       "note": "R691 soft debt lastChecked 2026-10-27 16:05 CST",
       "r340": "Starcat/Ninetails本窗无新发射；无新admit",
       "r342": "软刷新；无新admit",
@@ -2688,8 +2730,8 @@
     ],
     "btcPrivacyWatch": {
       "active": true,
-      "lastChecked": "2026-10-27 22:12 CST",
-      "note": "R711 soft：BTape~27%续；无新admit",
+      "lastChecked": "2026-10-27 22:37 CST",
+      "note": "R712 soft：BTape~粉363续；无新admit",
       "r340": "ShieldedNaka本窗无新原创；社区隐私科普续；无新admit",
       "r341": "ShieldedNaka/BANKNOTES本窗无新可操作；lastChecked刷新",
       "r342": "ShieldedNaka/BANKNOTES本窗无新可操作；Soapbox艺术mint另收",
@@ -2824,8 +2866,8 @@
       "r703": "R703 soft：无新"
     },
     "btcCrc20Watch": {
-      "note": "R708 soft：BTape~27%续",
-      "lastChecked": "2026-10-27 22:12 CST",
+      "note": "R712 soft：BTape续",
+      "lastChecked": "2026-10-27 22:37 CST",
       "r379": "soft refresh",
       "r381": "CRC30/UNITS 10-23今晚20:00非≤2h",
       "r383": "非≤2h",
@@ -2919,10 +2961,10 @@
     "discordAlphaPeek": {
       "deferred": false,
       "lastSeen": "2026-10-27 22:00 CST",
-      "lastChecked": "2026-10-27 22:12 CST",
+      "lastChecked": "2026-10-27 22:37 CST",
       "newestCardTime": "2026-10-27 22:00 CST",
       "cardsAfterCutoff": 2,
-      "note": "R711 DC alpha已由并行任务写入6卡；本执行端X雷达合入ENRA+le2h soft",
+      "note": "R712 X雷达执行端无computerUse；discordPeekDeferred=true；lastSeen保留",
       "lastRound": 711,
       "lastSeenByChannel": {
         "alpha-3-new-accounts": "2026-10-27 22:00 CST",
@@ -3061,7 +3103,7 @@
       "zec-nodes",
       "boys-in-hood"
     ],
-    "alertMessage": "R711新收：ENRA(@ENRA_BAW) BNB AI桌面宠物创世·Agent ID首枚免费·粉2；DC补漏6：Plotlines/SharesPad/Paystub/kagiboy/ZapCoin/JomaDojo；≤2h窗：Elysian Fields(@ElysianFieldNFT) Degen mint 今日23:30CST(15:30UTC) 0.025$HYPE/地；PickRush Shovel售罄；面板 https://reboot7454.github.io/early-scout/",
+    "alertMessage": "新增FUGAZY(RH 23:00 OpenSea freemint)，ElysianFields 23:30/Orynex 23:00/Jolly·Stavo 22:00/Lodgerwell 21:00均≤2h，详见 https://reboot7454.github.io/early-scout/。",
     "dsSummary": "deepseek-flash admit+score+alert zerosnipe/ascension-catty thinking ON",
     "round270Added": [
       "avatarpad"
@@ -3143,8 +3185,8 @@
         "官推点名",
         "Bramble Today窗"
       ],
-      "note": "R711 soft：Bramble Chrome扩展续；无新史塔克早期admit",
-      "lastChecked": "2026-10-27 22:12 CST",
+      "note": "R712 soft：Bramble粉1376；无新史塔克早期admit",
+      "lastChecked": "2026-10-27 22:37 CST",
       "r329": "R329 Bramble Chrome扩展已上线续；无新史塔克早期admit。",
       "r330": "Bramble社区热续；无新admit",
       "r332": "Bramble钱包Chrome扩展续热/官方RT；无新史塔克早期admit",
@@ -3743,8 +3785,8 @@
         "jumakGenesisWL": "2026-10-21 19:00 CST",
         "jumakGenesisWLResult": "2026-10-21 20:30 CST"
       },
-      "note": "R711 soft：GIWA/Ammora waitlist续；无新GIWA admit",
-      "lastChecked": "2026-10-27 22:12 CST",
+      "note": "R712 soft：GIWA/pabalx waitlist续；无新GIWA admit",
+      "lastChecked": "2026-10-27 22:37 CST",
       "candidateIds": [
         "pabalx",
         "thebingofi",
@@ -3916,8 +3958,8 @@
         "lzATLAS": "2026-11-30"
       },
       "signal": "Zero mainnet + lzATLAS 2026-11-30 (official @LayerZero_Core)",
-      "note": "R711 soft：Zero/lzATLAS 2026-11-30；无新核验",
-      "lastChecked": "2026-10-27 22:12 CST",
+      "note": "R712 soft：Zero/lzATLAS 2026-11-30；无新核验",
+      "lastChecked": "2026-10-27 22:37 CST",
       "r329": "R329 Zero+lzATLAS 11-30；无新LZ核验admit。",
       "r330": "Zero+lzATLAS 11-30；无新admit",
       "r332": "Zero+lzATLAS 11-30；LayerZero_Core本时段无新帖；无新admit",
@@ -4078,8 +4120,8 @@
         "hackathon": "10-19~11-06(11-11公布)",
         "mainnet": "未公布"
       },
-      "note": "R711 soft：DogeOS Chapter2续；无新admit",
-      "lastChecked": "2026-10-27 22:12 CST",
+      "note": "R712 soft：DogeOS/Wowpad学院/GovernOS testnet续；无新admit",
+      "lastChecked": "2026-10-27 22:37 CST",
       "r329": "R329 DogeOS Chapter2/SocialFi续；gekko V3 fee叙事；无新admit。",
       "r330": "Chapter2续；无新admit",
       "r332": "RUNECLAW Daily Duel LIVE on DogeOS续；DogeOS本时段无新帖；无新admit",
@@ -4363,9 +4405,8 @@
       ],
       "teasers": [
         "Elysium mainnet still 2026-11-09",
-        "KyberSwap Day1",
-        "0xProject Day1",
-        "Uniswap awaits"
+        "Goldsky testnet续",
+        "ElysianFields degen mint 23:30CST ≤2h (unverified mainnet claim)"
       ],
       "namedPartners": [
         "@Markets_xyz",
@@ -4389,8 +4430,8 @@
         "note": "0x Day1 + Uniswap awaits；主网11-09",
         "lastChecked": "2026-10-27 21:06 CST"
       },
-      "note": "R711 soft：主网11-09；Goldsky testnet续；无新 On testnet admit",
-      "lastChecked": "2026-10-27 22:12 CST",
+      "note": "R712 soft：主网仍11-09；ElysianFields≤2h自称mainnet NFT(未核)；无新On testnet admit",
+      "lastChecked": "2026-10-27 22:37 CST",
       "candidateIds": [
         "agent-kinetiq",
         "enter-elysium",
@@ -4607,8 +4648,8 @@
         "tnk": "Gate/MEXC可买"
       },
       "latestPost": "https://x.com/4Agentminer/status/2114342003781836916",
-      "note": "R708 soft：Trac/fitzy无新agent mining admit",
-      "lastChecked": "2026-10-27 22:12 CST",
+      "note": "R712 soft：Trac/fitzy无新agent mining admit",
+      "lastChecked": "2026-10-27 22:37 CST",
       "r329": "R329 Trac RESET/agent DEX续；无新agent挖矿admit(meth非agent)。",
       "r330": "Trac本时段无新；无新agent挖矿admit",
       "r332": "Trac本时段无新帖；无新agent挖矿admit",
@@ -4993,8 +5034,8 @@
         }
       ],
       "caWarning": "合约一律标未核实",
-      "note": "R711 soft：新收ENRA；Ptah Day2/3；HashDroids PhaseIII；StonkRobotics续",
-      "lastChecked": "2026-10-27 22:12 CST",
+      "note": "R712 soft：新扫到@gdotaitech(GAI)粉0 DS score拒收观察；Ptah QR登录停用转Agent；Fugazy非BN线",
+      "lastChecked": "2026-10-27 22:37 CST",
       "r329": "R329 dotaipad今日21:00；AWPad $AWP指引+开源合约；yinghubnb外盘可买续；新台NERMO非BN。",
       "r330": "dotaipad今日21:00；MOGO过薄skip；无新BN Agent pad admit",
       "r332": "dotaipad bio倒计时今日21:00CST续；yinghubnb外盘可买续；DotAIbsc薄号教程skip；无新BN Agent pad admit",
@@ -5271,7 +5312,7 @@
     },
     "coverage": "x-keyword+mustwatch-soft+DS-admit+discord-alpha-merged; kinetiq/tape/agentPad/flap/irys/fullFun/starknet/giwa/zero/dogeEvm/btcPrivacy/agentMining/agentTrading lastChecked",
     "skipNoteR328": "hoodey(1粉无产品)DS未收；qpick-agent(4粉代币已发)DS未收；hypaww无Elysium On testnet/部署证据未收；fomopoly/vaultstreet/rebate/conso/blackboard/pabalx/giwaup/minehood/agentic-inu/giwa-terminal/jakdu-pump/sansense/cozygolem/raidlords/vela-rh/dotai-pad/awpad/lootrush-rh/chimp-champs/inktropy已在库；GO盘无独立新信号；StockCZ Agent ID模板过薄未交分。",
-    "xReads": 17,
+    "xReads": 16,
     "round329Added": [
       "nermo",
       "paynexis",
@@ -5351,9 +5392,9 @@
         "lastChecked": "2026-10-27 21:06 CST",
         "note": "R690 soft；未单拉新可操作窗"
       },
-      "lastChecked": "2026-10-27 22:12 CST",
+      "lastChecked": "2026-10-27 22:37 CST",
       "r339": "Listen续；无新agentic trading admit",
-      "note": "R708 soft：listendotmoney无新窗",
+      "note": "R712 soft：listendotmoney无新窗",
       "r340": "Listen本窗无新帖；无新agentic trading admit；agenticscredit粉高skip",
       "active": true,
       "r341": "Listen vibe trading续；无新admit",
@@ -5609,8 +5650,8 @@
     ],
     "tapeWatch": {
       "active": true,
-      "lastChecked": "2026-10-27 22:12 CST",
-      "note": "R711 soft：BTape~27%；TapeAI纪念电路空投已发；无新Tape admit",
+      "lastChecked": "2026-10-27 22:37 CST",
+      "note": "R712 soft：BTape粉363续；TapeLaunch Credits社区专场RT热；无新Tape admit",
       "r348": "TapeAI检察官电路文章+Firsto识别；TapeOutWorld榜单续；无新Tape admit",
       "r349": "TapeAI检察官电路/Firsto/BEM续；无新Tape admit",
       "r350": "无新admit",
@@ -5767,8 +5808,8 @@
       "aura-nodes",
       "ink-pixel-ghosts"
     ],
-    "updatedAt": "2026-10-27 21:40 CST",
-    "lastRun": "2026-10-27 20:05 CST",
+    "updatedAt": "2026-10-27 22:37 CST",
+    "lastRun": "2026-10-27 22:37 CST",
     "round351Added": [
       "aao-pad",
       "tapebit"
@@ -6062,8 +6103,8 @@
         "flapai",
         "flapagent"
       ],
-      "note": "R708 soft：StonksPad/flap无新窗",
-      "lastChecked": "2026-10-27 22:12 CST",
+      "note": "R712 soft：Flap Agent ID Launch教程续；无新flap admit",
+      "lastChecked": "2026-10-27 22:37 CST",
       "r426": "补收 stonks-pad；必盯 @StonksPadsh",
       "r427": "盯 @StonksPadsh @flapdotsh",
       "r432": "StonksPad live Mon 2026-10-26 on flapdotsh — not ≤2h at 02:58 CST",
@@ -6276,8 +6317,8 @@
       "candidateIds": [
         "sprite-fun"
       ],
-      "note": "R708 soft：sprite/irys 粉154/无新窗",
-      "lastChecked": "2026-10-27 22:12 CST",
+      "note": "R712 soft：sprite粉154无新窗",
+      "lastChecked": "2026-10-27 22:37 CST",
       "r436": "补收 sprite-fun；必盯 @spritefun_xyz",
       "r437": "R437：sprite-fun软刷粉≈29；live仍今日12:00UTC(=20:00CST)非≤2h",
       "r444": "scanned 2026-10-24 08:35 CST",
@@ -6485,8 +6526,8 @@
         "full.fun",
         "PinkSale"
       ],
-      "note": "R708 soft：fulldotfun/saulpink无新窗",
-      "lastChecked": "2026-10-27 22:12 CST",
+      "note": "R712 soft：fulldotfun无新窗",
+      "lastChecked": "2026-10-27 22:37 CST",
       "r464": "补收 full-fun + saul-pink；必盯 @fulldotfun @saulpink",
       "keyDates": {
         "fullTokenMonday": "约2026-10-26（@saulpink；本轮仍无精确时点）"
@@ -6988,8 +7029,8 @@
     ],
     "tokenWorksWatch": {
       "active": true,
-      "lastChecked": "2026-10-27 22:12 CST",
-      "note": "R708 soft refresh",
+      "lastChecked": "2026-10-27 22:37 CST",
+      "note": "R712 soft refresh",
       "r596": "R596 soft债 lastChecked",
       "r602": "soft refresh",
       "r603": "R603 soft：TokenWorks无新admit",
@@ -7678,9 +7719,80 @@
       "paystub-xyz",
       "zapcoin-app",
       "shares-pad"
+    ],
+    "round712Added": [
+      "fugazy"
     ]
   },
   "candidates": [
+    {
+      "id": "fugazy",
+      "name": "FUGAZY",
+      "handle": "@Fugazy_NFT",
+      "twitter": "Fugazy_NFT",
+      "followers": 117,
+      "xFollowers": 117,
+      "category": "打新",
+      "chain": "Robinhood",
+      "ecosystem": "Robinhood",
+      "tags": [
+        "打新",
+        "Robinhood",
+        "freemint",
+        "极早期",
+        "NFT",
+        "CA未核实",
+        "GO盘"
+      ],
+      "scores": {
+        "early": 93,
+        "actionable": 88,
+        "novelty": 70,
+        "risk": 58,
+        "overall": 84
+      },
+      "overall": 84,
+      "highlights": [
+        "Robinhood链1111 NFT，极早期",
+        "今日23:00 CST OpenSea开mint",
+        "P2合作freemint+首100地址",
+        "仅117粉，信息新鲜"
+      ],
+      "drawbacks": [
+        "CA未核实",
+        "Robinhood NFT流动性与买家待验证",
+        "P3付费细节仍需确认"
+      ],
+      "whatsNew": "【R712新收录】Robinhood链1111 NFT今日23:00CST OpenSea；含collab freemint窗。",
+      "blurb": "RH 1111；23:00CST OpenSea；P2 freemint+首100；P3 $0.00015ETH。CA未核实。",
+      "summary": "RH 1111；23:00CST OpenSea；P2 freemint+首100；P3 $0.00015ETH。CA未核实。",
+      "status": "upcoming",
+      "focus": false,
+      "newThisRound": true,
+      "round": 712,
+      "firstSeen": "2026-10-27 22:37 CST",
+      "addedAt": "2026-10-27 22:37 CST",
+      "lastChecked": "2026-10-27 22:37 CST",
+      "links": {
+        "x": "https://x.com/Fugazy_NFT",
+        "twitter": "https://x.com/Fugazy_NFT",
+        "tweet": "https://x.com/Fugazy_NFT/status/2115088913064944034",
+        "caNote": "合约未核实；谨防仿盘"
+      },
+      "mintWindow": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-27T23:00:00+08:00",
+        "mintStatus": "upcoming",
+        "note": "R712：15:00UTC/23:00CST OpenSea；P2 freemint / P3 public；≤2h",
+        "source": "https://x.com/Fugazy_NFT/status/2115088913064944034",
+        "le2h": true
+      },
+      "lzVerified": false,
+      "zoneHint": "打新",
+      "candidate": true,
+      "contractUnverified": true
+    },
     {
       "id": "enra-baw",
       "name": "ENRA",
@@ -7723,7 +7835,7 @@
       "summary": "8种AI桌面宠物×5000；Agent ID首枚免费后1USDT；限8；铸满前不可转让。CA未核实。",
       "status": "upcoming",
       "focus": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "round": 711,
       "firstSeen": "2026-10-27 22:12 CST",
       "addedAt": "2026-10-27 22:12 CST",
@@ -7785,7 +7897,7 @@
       "addedAt": "2026-10-27 22:06 CST",
       "lastChecked": "2026-10-27 22:06 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "zapcoin-app",
@@ -7834,7 +7946,7 @@
       "addedAt": "2026-10-27 22:06 CST",
       "lastChecked": "2026-10-27 22:06 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "paystub-xyz",
@@ -7883,7 +7995,7 @@
       "addedAt": "2026-10-27 22:06 CST",
       "lastChecked": "2026-10-27 22:06 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "plotlines-real",
@@ -7932,7 +8044,7 @@
       "addedAt": "2026-10-27 22:06 CST",
       "lastChecked": "2026-10-27 22:06 CST",
       "zoneHint": "打新",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "kagiboy",
@@ -7981,7 +8093,7 @@
       "addedAt": "2026-10-27 22:06 CST",
       "lastChecked": "2026-10-27 22:06 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "joma-dojo",
@@ -8030,7 +8142,7 @@
       "addedAt": "2026-10-27 22:06 CST",
       "lastChecked": "2026-10-27 22:06 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "elysian-fields",
@@ -8078,15 +8190,24 @@
       "focus": false,
       "lzVerified": false,
       "status": "upcoming-le2h",
-      "followers": 76,
-      "xFollowers": 76,
+      "followers": 150,
+      "xFollowers": 150,
       "firstSeen": "2026-10-27 21:28 CST",
       "addedAt": "2026-10-27 21:28 CST",
-      "lastChecked": "2026-10-27 22:12 CST",
+      "lastChecked": "2026-10-27 22:37 CST",
       "zoneHint": "打新",
       "newThisRound": false,
       "le2h": true,
-      "schedule": "2026-10-27 15:30 UTC degen mint"
+      "schedule": "2026-10-27 15:30 UTC / 23:30 CST degen mint ≤2h",
+      "mintWindow": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-27T23:30:00+08:00",
+        "mintStatus": "upcoming",
+        "note": "R712：官推倒计时1h；自称 Elysium mainnet NFT（主网官宣仍11-09，标签elysium-unverified续）；≤2h",
+        "source": "https://x.com/ElysianFieldNFT/status/2115088659510907315",
+        "le2h": true
+      }
     },
     {
       "id": "arcai",
@@ -8389,13 +8510,22 @@
       "flag": "本轮新",
       "firstSeen": "2026-10-27 21:06 CST",
       "addedAt": "2026-10-27 21:06 CST",
-      "lastChecked": "2026-10-27 21:06 CST",
+      "lastChecked": "2026-10-27 22:37 CST",
       "schedule": {
         "status": "live",
         "timezone": "Asia/Shanghai",
         "mintStatus": "live",
         "startsAt": "2026-10-27T21:00:00+08:00",
         "note": "R708：$LODGER Pons LIVE 13:00UTC/21:00CST；开窗≤2h",
+        "source": "https://x.com/Lodgerwell/status/2115066884316188863",
+        "le2h": true
+      },
+      "mintWindow": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "live",
+        "startsAt": "2026-10-27T21:00:00+08:00",
+        "note": "R712：$LODGER Pons LIVE 21:00CST；开窗后约1.6h仍≤2h；官推lookup暂失败保留",
         "source": "https://x.com/Lodgerwell/status/2115066884316188863",
         "le2h": true
       }
@@ -8709,7 +8839,7 @@
       "xFollowers": 65,
       "firstSeen": "2026-10-27 20:36 CST",
       "addedAt": "2026-10-27 20:36 CST",
-      "lastChecked": "2026-10-27 21:06 CST",
+      "lastChecked": "2026-10-27 22:37 CST",
       "zoneHint": "台子/Meme",
       "newThisRound": false,
       "schedule": {
@@ -8718,6 +8848,14 @@
         "startsAt": "2026-10-27T22:00:00+08:00",
         "startCST": "2026-10-27 22:00 CST",
         "note": "R708：$STAVO on Pons 14:00UTC；距开窗仍≤2h",
+        "le2h": true
+      },
+      "mintWindow": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-27T22:00:00+08:00",
+        "startCST": "2026-10-27 22:00 CST",
+        "note": "R712：$STAVO on Pons 22:00CST 已开约≤2h；官推lookup暂失败保留",
         "le2h": true
       }
     },
@@ -10264,8 +10402,8 @@
         "CA未核实"
       ],
       "status": "upcoming",
-      "followers": 61,
-      "xFollowers": 61,
+      "followers": 66,
+      "xFollowers": 66,
       "scores": {
         "early": 86,
         "actionable": 78,
@@ -10313,7 +10451,16 @@
       "le2h": false,
       "firstSeen": "2026-10-27 16:05 CST",
       "addedAt": "2026-10-27 16:05 CST",
-      "lastChecked": "2026-10-27 21:06 CST"
+      "lastChecked": "2026-10-27 22:37 CST",
+      "mintWindow": {
+        "status": "upcoming",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-27T23:00:00+08:00",
+        "mintStatus": "upcoming",
+        "note": "R712：15:00UTC/23:00CST via Pons；仍≤2h",
+        "source": "https://x.com/OrynexIntel/status/2115036248934896085",
+        "le2h": true
+      }
     },
     {
       "id": "play-farm-rh",
@@ -11801,7 +11948,7 @@
       "category": "台子/Meme",
       "zone": "台子/Meme",
       "status": "watching",
-      "followers": 78,
+      "followers": 77,
       "twitter": "@JollyonRH",
       "chain": "Robinhood",
       "lzVerified": false,
@@ -11838,14 +11985,23 @@
         "依附 Robinhood Chain，链活跃度/流动性未知"
       ],
       "blurb": "Robinhood Chain 社交交易型发射台：launch、trade、分享 thesis 一体。",
-      "lastChecked": "2026-10-27 21:06 CST",
-      "xFollowers": 78,
+      "lastChecked": "2026-10-27 22:37 CST",
+      "xFollowers": 77,
       "schedule": {
         "status": "upcoming",
         "timezone": "Asia/Shanghai",
         "startsAt": "2026-10-27T22:00:00+08:00",
         "mintStatus": "upcoming",
         "note": "R708：$JOLLY on Pons 14:00UTC/22:00CST；≤2h；CA开盘放出",
+        "source": "https://x.com/JollyonRH/status/2115066042812874950",
+        "le2h": true
+      },
+      "mintWindow": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "startsAt": "2026-10-27T22:00:00+08:00",
+        "mintStatus": "live",
+        "note": "R712：$JOLLY Pons 22:00CST 已开约≤2h；CA开盘放出未核",
         "source": "https://x.com/JollyonRH/status/2115066042812874950",
         "le2h": true
       }
@@ -20562,7 +20718,7 @@
       "addedAt": "2026-10-25 04:42 CST",
       "updatedAt": "2026-10-26 21:10 CST",
       "firstSeen": "2026-10-25 04:42",
-      "lastChecked": "2026-10-27 22:12 CST",
+      "lastChecked": "2026-10-27 22:37 CST",
       "newThisRound": false,
       "flag": "discord-catchup",
       "latest": {
@@ -39250,7 +39406,7 @@
         "lastCheckedAt": "2026-10-20T08:18:36+08:00"
       },
       "lastRefreshedAt": "2026-10-23 02:35 CST",
-      "followers": 13579,
+      "followers": 13594,
       "schedule": {
         "status": "confirmed",
         "timezone": "Asia/Shanghai",
@@ -39260,14 +39416,14 @@
         "source": "X @Enter_Elysium",
         "le2h": false
       },
-      "lastChecked": "2026-10-27 22:12 CST",
+      "lastChecked": "2026-10-27 22:37 CST",
       "handle": "@Enter_Elysium",
       "twitter": "@Enter_Elysium",
       "updatedAt": "2026-10-26 21:10 CST",
       "newThisRound": false,
       "flag": "CONFIRMED · 主网11/09",
       "lastSoftRefresh": "2026-10-27 17:36 CST",
-      "xFollowers": 13579,
+      "xFollowers": 13594,
       "le2h": false
     },
     {
@@ -109784,11 +109940,11 @@
       "focus": false,
       "lzVerified": false,
       "status": "live",
-      "followers": 278,
-      "xFollowers": 278,
+      "followers": 284,
+      "xFollowers": 284,
       "firstSeen": "2026-10-26 23:37 CST",
       "addedAt": "2026-10-26 23:37 CST",
-      "lastChecked": "2026-10-27 21:06 CST",
+      "lastChecked": "2026-10-27 22:37 CST",
       "zoneHint": "Tape",
       "schedule": {
         "status": "live",
@@ -109802,7 +109958,17 @@
       },
       "newThisRound": false,
       "lastSoftRefresh": "2026-10-27 17:36 CST",
-      "le2h": true
+      "le2h": true,
+      "mintWindow": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "live",
+        "startsAt": "2026-10-27T20:00:00+08:00",
+        "when": "2026-10-27 20:00 CST",
+        "note": "R712：Freemint 开窗已>2h；粉284",
+        "source": "https://x.com/TapeFractal/status/2115051672603124119",
+        "le2h": false
+      }
     },
     {
       "id": "paws-rh",
@@ -111355,8 +111521,8 @@
         "打新"
       ],
       "status": "live",
-      "followers": 2161,
-      "xFollowers": 2161,
+      "followers": 2084,
+      "xFollowers": 2084,
       "scores": {
         "early": 92,
         "actionable": 86,
@@ -111401,10 +111567,18 @@
       "le2h": true,
       "firstSeen": "2026-10-27 16:37 CST",
       "addedAt": "2026-10-27 16:37 CST",
-      "lastChecked": "2026-10-27 22:12 CST",
+      "lastChecked": "2026-10-27 22:37 CST",
       "contractUnverified": true,
       "contractNote": "社区报CA 0x2dc57b951a42b7d86449cd7928dcbab67867a780 未核实",
-      "lastSoftRefresh": "2026-10-27 17:36 CST"
+      "lastSoftRefresh": "2026-10-27 17:36 CST",
+      "mintWindow": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "live",
+        "note": "R712：BSC Agent ID freemint续；开窗>2h",
+        "le2h": false,
+        "source": "https://x.com/StonkRobotics/status/2114999296923754549"
+      }
     },
     {
       "id": "unpair",
@@ -111843,15 +112017,9 @@
     }
   ],
   "newThisRound": [
-    "joma-dojo",
-    "kagiboy",
-    "plotlines-real",
-    "paystub-xyz",
-    "zapcoin-app",
-    "shares-pad",
-    "enra-baw"
+    "fugazy"
   ],
-  "alertMessage": "R711新收：ENRA(@ENRA_BAW) BNB AI桌面宠物创世·Agent ID首枚免费·粉2；DC补漏6：Plotlines/SharesPad/Paystub/kagiboy/ZapCoin/JomaDojo；≤2h窗：Elysian Fields(@ElysianFieldNFT) Degen mint 今日23:30CST(15:30UTC) 0.025$HYPE/地；PickRush Shovel售罄；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "新增FUGAZY(RH 23:00 OpenSea freemint)，ElysianFields 23:30/Orynex 23:00/Jolly·Stavo 22:00/Lodgerwell 21:00均≤2h，详见 https://reboot7454.github.io/early-scout/。",
   "roundNAdded": [
     "joma-dojo",
     "kagiboy",
@@ -111861,7 +112029,7 @@
     "shares-pad",
     "enra-baw"
   ],
-  "updatedAt": "2026-10-27 22:12 CST",
+  "updatedAt": "2026-10-27 22:37 CST",
   "updated": "2026-10-27 22:12 CST",
   "round365Added": [
     "nockd",
@@ -111909,7 +112077,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1562,
+  "candidateCount": 1563,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -112535,5 +112703,8 @@
     "zapcoin-app",
     "shares-pad",
     "enra-baw"
+  ],
+  "round712Added": [
+    "fugazy"
   ]
 }
