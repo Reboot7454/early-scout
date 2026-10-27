@@ -1,0 +1,201 @@
+{
+  "round": 676,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-27 11:30 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "true_new_admits",
+  "alertMessage": "新发现 PepesFamily 多链发射台与 Agent City 免费玩法，详情见 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "pepes-family",
+      "name": "PepesFamily",
+      "handle": "Pepesdotfamily",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "followers": 976,
+      "status": "live",
+      "overall": 71
+    },
+    {
+      "id": "use-agentcity",
+      "name": "Agent City",
+      "handle": "UseAgentcity",
+      "category": "打新",
+      "zone": "打新",
+      "followers": 32,
+      "status": "live",
+      "overall": 68
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "pepes-family",
+    "use-agentcity"
+  ],
+  "admitted": [
+    {
+      "id": "pepes-family",
+      "name": "PepesFamily",
+      "handle": "Pepesdotfamily",
+      "column": "台子/Meme"
+    },
+    {
+      "id": "use-agentcity",
+      "name": "Agent City",
+      "handle": "UseAgentcity",
+      "column": "打新/BN Agent钱包"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "flea-rh",
+      "reason": "DS skip：仅coming soon，bio空，无官网/CA/mint窗"
+    },
+    {
+      "id": "termix-ai",
+      "reason": "粉68033过大/YZiLabs已背书，非极早期"
+    },
+    {
+      "id": "Leeonmort",
+      "reason": "X Not Found（R676再核仍NF）"
+    },
+    {
+      "id": "SPOXY_NFT",
+      "reason": "X Not Found（spoxy已收录为spoxydev）"
+    },
+    {
+      "id": "tapebitprotocol",
+      "reason": "社区/基金会侧称仿冒TapeOut，硬跳过"
+    },
+    {
+      "id": "$BLOB",
+      "reason": "Elysium premainnet meme传闻，无明确On-testnet/部署核验，不收"
+    }
+  ],
+  "softUpdates": [
+    {
+      "id": "enter-elysium",
+      "followers": 13312,
+      "whatsNew": "主网仍11-09；粉13312"
+    },
+    {
+      "id": "bitcointapes",
+      "followers": 339,
+      "whatsNew": "FREE mint≈27%"
+    },
+    {
+      "id": "launch-on-peak",
+      "followers": 100,
+      "le2h": false
+    },
+    {
+      "id": "naru-giwa",
+      "followers": 406
+    },
+    {
+      "id": "madang-fun",
+      "followers": 251
+    },
+    {
+      "id": "stonks-pad",
+      "followers": 712
+    },
+    {
+      "id": "nonce-protocol",
+      "followers": 1258
+    },
+    {
+      "id": "brawlers-nft",
+      "followers": 789
+    },
+    {
+      "id": "egglo",
+      "followers": 4751
+    },
+    {
+      "id": "raidlords",
+      "followers": 10687
+    },
+    {
+      "id": "runepad",
+      "followers": 15
+    },
+    {
+      "id": "racco",
+      "followers": 3,
+      "newThisRound": false
+    },
+    {
+      "id": "doginal-frogs",
+      "le2h": false
+    },
+    {
+      "id": "pipfun",
+      "followers": 39
+    },
+    {
+      "id": "synape",
+      "followers": 662
+    },
+    {
+      "id": "black-hole-agent",
+      "followers": 8
+    },
+    {
+      "id": "sprite-fun",
+      "followers": 153
+    },
+    {
+      "id": "yeon-pad",
+      "followers": 91
+    },
+    {
+      "id": "wagon-rh",
+      "followers": 143
+    },
+    {
+      "id": "tape-pool",
+      "followers": 115
+    }
+  ],
+  "le2h": [],
+  "xReads": 18,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit+score+alert+summary thinking ON",
+  "summary": "本轮新增 PepesFamily 多 EVM 发射台与 Agent City 免费项目，BTape 免费铸造进度 27%，其余软信号延续。",
+  "coverage": {
+    "打新": true,
+    "挖矿": true,
+    "台子": true,
+    "Meme": true,
+    "GO": true,
+    "LZ": true,
+    "Elysium": true,
+    "Tape": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BN Agent钱包": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "push": {
+    "branch": "main",
+    "sha": null,
+    "files": [
+      "data.json",
+      "ROUND676_RESULT.json",
+      "RESULT_R676.md"
+    ],
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "blockers": [
+    "Leeonmort still X Not Found"
+  ],
+  "clearedPrevNewThisRound": [
+    "racco"
+  ],
+  "remoteVerified": false
+}
