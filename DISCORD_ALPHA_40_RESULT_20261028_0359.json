@@ -1,0 +1,73 @@
+{
+  "round": 731,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-28 03:59 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "bizpad",
+    "coinable",
+    "taoway"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "bizpad",
+    "coinable",
+    "taoway"
+  ],
+  "skipped": [
+    {
+      "id": "greywick-digital",
+      "reason": "机构级数字资产发行，bio强调Canton与LTC基金会背书，非极早期打新或发射线索。"
+    },
+    {
+      "id": "formation-markets",
+      "reason": "bio为传统/前沿市场风险转移，未见代币、mint或发射玩法。"
+    },
+    {
+      "id": "moneda-ai",
+      "reason": "无bio且仅见已有52条推文，无法确认产品、发射或mint线索。"
+    },
+    {
+      "id": "forward",
+      "reason": "无bio、0推文的新号，空壳特征明显，无任何产品、发射或mint线索。"
+    }
+  ],
+  "cardsAfterLastSeen": 4,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "digi-warriors",
+    "mcpad",
+    "clover-elysium"
+  ],
+  "candidateFlagsCleared": 3,
+  "topNewThisRoundCleared": [
+    "digi-warriors",
+    "mcpad",
+    "clover-elysium"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=7",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-28 03:56 CST",
+    "lastChecked": "2026-10-28 03:59 CST",
+    "newestCardTime": "2026-10-28 03:56 CST",
+    "cardsAfterCutoff": 4,
+    "note": "R731：Discord alpha 补收 bizpad,coinable,taoway；跳过 [{'id': 'greywick-digital', 'reason': '机构级数字资产发行，bio强调Canton与LTC基金会背书，非极早期打新或发射线索。'}, {'id': 'formation-markets', 'reason': 'bio为传统/前沿市场风险转移，未见代币、mint或发射玩法。'}, {'id': 'moneda-ai', 'reason': '无bio且仅见已有52条推文，无法确认产品、发射或mint线索。'}, {'id': 'forward', 'reason': '无bio、0推文的新号，空壳特征明显，无任何产品、发射或mint线索。'}]；清 digi-warriors,mcpad,clover-elysium；lastSeen→2026-10-28 03:56 CST；lastChecked→2026-10-28 03:59 CST",
+    "lastRound": 731
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R731：Discord alpha 补收 bizpad,coinable,taoway；跳过 [{'id': 'greywick-digital', 'reason': '机构级数字资产发行，bio强调Canton与LTC基金会背书，非极早期打新或发射线索。'}, {'id': 'formation-markets', 'reason': 'bio为传统/前沿市场风险转移，未见代币、mint或发射玩法。'}, {'id': 'moneda-ai', 'reason': '无bio且仅见已有52条推文，无法确认产品、发射或mint线索。'}, {'id': 'forward', 'reason': '无bio、0推文的新号，空壳特征明显，无任何产品、发射或mint线索。'}]；清 digi-warriors,mcpad,clover-elysium；lastSeen→2026-10-28 03:56 CST；lastChecked→2026-10-28 03:59 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261028_0358.json",
+  "priorRoundNote": "R730 meta NTR ['clover-elysium', 'mcpad', 'digi-warriors']; cardsAfterCutoff=4"
+}
