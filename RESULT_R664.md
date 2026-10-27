@@ -14,4 +14,4 @@
 - **coverage**: 十栏+必盯软刷+关键词≈90min；Tape/Elysium/GIWA/Doge/Zero/Starknet/flap/Irys/Full/BN Agent/agent mining；NARU/BEAM/TGMB新收；Leeonmort仍NF
 - **panel**: https://reboot7454.github.io/early-scout/
 - **skipped**: meetmotes(粉偏热无窗), slidefun(粉1.6万偏热), Leeonmort(NF), HoodVandalz(已过free mint热度), shipfun(偏热续skip)
-- **push**: pending
+- **push**: ok `c46373a` → origin/main
