@@ -1,0 +1,57 @@
+{
+  "round": 704,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-27 20:03 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "laser-blockchain",
+    "ask-solace",
+    "bullieve-app"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "laser-blockchain",
+    "ask-solace",
+    "bullieve-app"
+  ],
+  "skipped": [
+    {
+      "id": "liqvo",
+      "reason": "0粉且仅口号式DeFi流动性情报，无产品链接/发射/玩法实证，按空壳疑点暂不收。"
+    },
+    {
+      "id": "clan-fun",
+      "reason": "仅一句agents预售且加入日期异常、无产品链接机制，疑空壳暂不收。"
+    }
+  ],
+  "cardsAfterLastSeen": 12,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "candidateFlagsCleared": 0,
+  "topNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=5",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-27 20:00 CST",
+    "lastChecked": "2026-10-27 20:03 CST",
+    "newestCardTime": "2026-10-27 20:00 CST",
+    "cardsAfterCutoff": 12,
+    "note": "R704：Discord alpha 补收 laser-blockchain,ask-solace,bullieve-app；跳过 [{'id': 'liqvo', 'reason': '0粉且仅口号式DeFi流动性情报，无产品链接/发射/玩法实证，按空壳疑点暂不收。'}, {'id': 'clan-fun', 'reason': '仅一句agents预售且加入日期异常、无产品链接机制，疑空壳暂不收。'}]；lastSeen→2026-10-27 20:00 CST；lastChecked→2026-10-27 20:03 CST",
+    "lastRound": 704
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R704：Discord alpha 补收 laser-blockchain,ask-solace,bullieve-app；跳过 [{'id': 'liqvo', 'reason': '0粉且仅口号式DeFi流动性情报，无产品链接/发射/玩法实证，按空壳疑点暂不收。'}, {'id': 'clan-fun', 'reason': '仅一句agents预售且加入日期异常、无产品链接机制，疑空壳暂不收。'}]；lastSeen→2026-10-27 20:00 CST；lastChecked→2026-10-27 20:03 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261027_2003.json",
+  "priorRoundNote": "R703 meta NTR []; cardsAfterCutoff=12"
+}
