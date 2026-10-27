@@ -1,0 +1,65 @@
+{
+  "round": 727,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-28 02:42 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R727新收3（台子/Meme，未核验）：DIPPY(@dippyrh RH链Pons卡带做市)、Arcadium(@TryArcadium 一句话做游戏发币)、Oracle Insight(@oracle_insight DeFi预言机风险，bio带CA)。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "dippy",
+    "arcadium",
+    "oracle-insight"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "dippy",
+    "arcadium",
+    "oracle-insight"
+  ],
+  "skipped": [
+    {
+      "id": "hubgpu",
+      "reason": "DS拒：伪科学叙事无确定CA"
+    }
+  ],
+  "cardsAfterLastSeen": 4,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "jig",
+    "tick-trader"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "jig",
+    "tick-trader"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=4",
+  "coverage": "alpha-3-new-accounts, alpha-1-backup, smart-accounts-tracker, alpha-1",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-28 02:16 CST",
+    "lastChecked": "2026-10-28 02:42 CST",
+    "newestCardTime": "2026-10-28 02:40 CST",
+    "cardsAfterCutoff": 4,
+    "note": "R727：Discord alpha 补收 dippy,arcadium,oracle-insight；跳过 [{'id': 'hubgpu', 'reason': 'DS拒：伪科学叙事无确定CA'}]；清 jig,tick-trader；lastSeen→2026-10-28 02:40 CST；lastChecked→2026-10-28 02:42 CST；DS拒 hubgpunetwork/payWsplit/draftazo/GATMCat/arvel_world/reverseco_site/AfterThoughtAI；Grotlings 已有",
+    "lastRound": 727,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-28 02:40 CST",
+      "alpha-1-backup": "2026-10-28 02:28 CST",
+      "smart-accounts-tracker": "2026-10-28 02:39 CST",
+      "alpha-1": "2026-10-28 02:16 CST"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R727：Discord alpha 补收 dippy,arcadium,oracle-insight；跳过 [{'id': 'hubgpu', 'reason': 'DS拒：伪科学叙事无确定CA'}]；清 jig,tick-trader；lastSeen→2026-10-28 02:40 CST；lastChecked→2026-10-28 02:42 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261028_0240.json",
+  "priorRoundNote": "R726 meta NTR ['jig', 'tick-trader']; cardsAfterCutoff=4"
+}

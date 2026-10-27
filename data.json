@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-28 02:05 CST",
+    "updated": "2026-10-28 02:42 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R692",
-    "lastScout": "2026-10-28 02:05 CST",
+    "lastScout": "2026-10-28 02:42 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -471,7 +471,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 726,
+    "round": 727,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1378,8 +1378,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "jig",
-      "tick-trader"
+      "dippy",
+      "arcadium",
+      "oracle-insight"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -2944,17 +2945,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-10-28 02:00 CST",
-      "lastChecked": "2026-10-28 02:05 CST",
-      "newestCardTime": "2026-10-28 02:00 CST",
+      "lastSeen": "2026-10-28 02:16 CST",
+      "lastChecked": "2026-10-28 02:42 CST",
+      "newestCardTime": "2026-10-28 02:40 CST",
       "cardsAfterCutoff": 4,
-      "note": "R725：Discord alpha 补收 robieggz,playfairmeme,playpitlane,ronspadfun,tradeparchment,pleaimd；清 hoodmallard,sector-one,puffin-rh,pavilion；lastSeen→2026-10-28 02:00 CST；lastChecked→2026-10-28 02:05 CST；DS拒 picoclaw/ZKLine/useweavr/ravenai/upochtech/sink_fi/TradeOnL7/RocX/Lordhoodgame/playertwowtf 等；tradeonszn 仅占位未收；Spidey 在 alpha-1/backup 继续发卡",
-      "lastRound": 725,
+      "note": "R727：Discord alpha 补收 dippy,arcadium,oracle-insight；跳过 [{'id': 'hubgpu', 'reason': 'DS拒：伪科学叙事无确定CA'}]；清 jig,tick-trader；lastSeen→2026-10-28 02:40 CST；lastChecked→2026-10-28 02:42 CST；DS拒 hubgpunetwork/payWsplit/draftazo/GATMCat/arvel_world/reverseco_site/AfterThoughtAI；Grotlings 已有",
+      "lastRound": 727,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-28 01:59 CST",
-        "alpha-1-backup": "2026-10-28 01:59 CST",
-        "smart-accounts-tracker": "2026-10-28 01:54 CST",
-        "alpha-1": "2026-10-28 02:00 CST"
+        "alpha-3-new-accounts": "2026-10-28 02:40 CST",
+        "alpha-1-backup": "2026-10-28 02:28 CST",
+        "smart-accounts-tracker": "2026-10-28 02:39 CST",
+        "alpha-1": "2026-10-28 02:16 CST"
       }
     },
     "round239Added": [
@@ -7812,9 +7813,161 @@
       "ronspadfun",
       "tradeparchment",
       "pleaimd"
+    ],
+    "round727Added": [
+      "dippy",
+      "arcadium",
+      "oracle-insight"
     ]
   },
   "candidates": [
+    {
+      "id": "oracle-insight",
+      "name": "Oracle Insight",
+      "handle": "@oracle_insight",
+      "twitter": "@oracle_insight",
+      "chain": "EVM",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/oracle_insight",
+        "twitter": "https://x.com/oracle_insight"
+      },
+      "scores": {
+        "early": 82,
+        "actionable": 55,
+        "novelty": 45,
+        "risk": 62,
+        "overall": 61
+      },
+      "highlights": [
+        "DeFi预言机透明度/风险情报",
+        "跨源对比定位清晰",
+        "bio含CA可查",
+        "关注@ponsdotfamily有线索"
+      ],
+      "drawbacks": [
+        "0关注可信度低",
+        "CA在bio中被截断需验证",
+        "预言机/风险赛道拥挤",
+        "无产品细节与文档"
+      ],
+      "whatsNew": "面向DeFi的跨源预言机透明度与风险对比工具。",
+      "summary": "面向DeFi的跨源预言机透明度与风险对比工具。",
+      "blurb": "Oracle transparency and risk intelligence for DeFi: cross-source comparison. bio has CA 0xb1c5...612e. 0 followers, followed @ponsdotfamily",
+      "round": 727,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": null,
+      "xFollowers": null,
+      "firstSeen": "2026-10-28 02:42 CST",
+      "addedAt": "2026-10-28 02:42 CST",
+      "lastChecked": "2026-10-28 02:42 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "arcadium",
+      "name": "Arcadium",
+      "handle": "@tryarcadium",
+      "twitter": "@tryarcadium",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/TryArcadium",
+        "twitter": "https://x.com/TryArcadium"
+      },
+      "scores": {
+        "early": 86,
+        "actionable": 30,
+        "novelty": 62,
+        "risk": 75,
+        "overall": 60
+      },
+      "highlights": [
+        "一句话生成游戏",
+        "游戏币+高分玩家奖励闭环",
+        "关注@ponsdotfamily有家族线索",
+        "11关注早期"
+      ],
+      "drawbacks": [
+        "无链/无合约地址",
+        "无demo或产品截图",
+        "代币与游戏质量未验证",
+        "关注数少"
+      ],
+      "whatsNew": "用一句话生成游戏并发行游戏币、奖励高分玩家的meme台子。",
+      "summary": "用一句话生成游戏并发行游戏币、奖励高分玩家的meme台子。",
+      "blurb": "Make a game in one sentence. Launch its coin, and its best players get paid. 11 followers, followed @ponsdotfamily",
+      "round": 727,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": null,
+      "xFollowers": null,
+      "firstSeen": "2026-10-28 02:42 CST",
+      "addedAt": "2026-10-28 02:42 CST",
+      "lastChecked": "2026-10-28 02:42 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "dippy",
+      "name": "DIPPY",
+      "handle": "@dippyrh",
+      "twitter": "@dippyrh",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/dippyrh",
+        "twitter": "https://x.com/dippyrh"
+      },
+      "scores": {
+        "early": 90,
+        "actionable": 30,
+        "novelty": 55,
+        "risk": 82,
+        "overall": 63
+      },
+      "highlights": [
+        "Robinhood Chain早期生态线索",
+        "链上微型做市/买跌卖涨概念",
+        "关注@robinhoodcrypto有alpha暗示",
+        "0关注极早期"
+      ],
+      "drawbacks": [
+        "无合约地址/无可用产品",
+        "机制描述简单易复制",
+        "Soon状态未上线",
+        "0关注可信度低"
+      ],
+      "whatsNew": "把链上微型做市商做成可插拔cartridge的Robinhood Chain早期meme。",
+      "summary": "把链上微型做市商做成可插拔cartridge的Robinhood Chain早期meme。",
+      "blurb": "A tiny market maker that lives on chain. Plug in a cartridge, give it a Pons coin, and it buys the dips and sells the rises. Soon on Robinhood Chain. 0 followers, followed @robinhoodcrypto (Discord alpha-3 new follower card)",
+      "round": 727,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": null,
+      "xFollowers": null,
+      "firstSeen": "2026-10-28 02:42 CST",
+      "addedAt": "2026-10-28 02:42 CST",
+      "lastChecked": "2026-10-28 02:42 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "jig",
       "name": "JiG",
@@ -7869,7 +8022,7 @@
       "addedAt": "2026-10-28 02:31 CST",
       "lastChecked": "2026-10-28 02:31 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "tick-trader",
@@ -7928,7 +8081,7 @@
       "addedAt": "2026-10-28 02:31 CST",
       "lastChecked": "2026-10-28 02:31 CST",
       "zoneHint": "GO盘",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "pleaimd",
@@ -114808,10 +114961,11 @@
     }
   ],
   "newThisRound": [
-    "jig",
-    "tick-trader"
+    "dippy",
+    "arcadium",
+    "oracle-insight"
   ],
-  "alertMessage": "新收JiG(Solana AI NFT台)·TickTrader(GANG V3首发$TICK)；Poke Hood FREE MINT仍LIVE；Jean免费窗已过；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R727新收3（台子/Meme，未核验）：DIPPY(@dippyrh RH链Pons卡带做市)、Arcadium(@TryArcadium 一句话做游戏发币)、Oracle Insight(@oracle_insight DeFi预言机风险，bio带CA)。面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "joma-dojo",
     "kagiboy",
@@ -114821,13 +114975,13 @@
     "shares-pad",
     "enra-baw"
   ],
-  "updatedAt": "2026-10-28 02:31 CST",
-  "updated": "2026-10-28 02:31 CST",
+  "updatedAt": "2026-10-28 02:42 CST",
+  "updated": "2026-10-28 02:42 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-28 02:05 CST",
+  "lastScout": "2026-10-28 02:42 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -114869,7 +115023,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1614,
+  "candidateCount": 1617,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -115562,5 +115716,10 @@
   "round726Added": [
     "jig",
     "tick-trader"
+  ],
+  "round727Added": [
+    "dippy",
+    "arcadium",
+    "oracle-insight"
   ]
 }

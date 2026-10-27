@@ -1,0 +1,59 @@
+{
+  "round": 727,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-28 02:42 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "dippy",
+    "arcadium",
+    "oracle-insight"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "dippy",
+    "arcadium",
+    "oracle-insight"
+  ],
+  "skipped": [
+    {
+      "id": "hubgpu",
+      "reason": "DS拒：伪科学叙事无确定CA"
+    }
+  ],
+  "cardsAfterLastSeen": 4,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "jig",
+    "tick-trader"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "jig",
+    "tick-trader"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=4",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-28 02:40 CST",
+    "lastChecked": "2026-10-28 02:42 CST",
+    "newestCardTime": "2026-10-28 02:40 CST",
+    "cardsAfterCutoff": 4,
+    "note": "R727：Discord alpha 补收 dippy,arcadium,oracle-insight；跳过 [{'id': 'hubgpu', 'reason': 'DS拒：伪科学叙事无确定CA'}]；清 jig,tick-trader；lastSeen→2026-10-28 02:40 CST；lastChecked→2026-10-28 02:42 CST",
+    "lastRound": 727
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R727：Discord alpha 补收 dippy,arcadium,oracle-insight；跳过 [{'id': 'hubgpu', 'reason': 'DS拒：伪科学叙事无确定CA'}]；清 jig,tick-trader；lastSeen→2026-10-28 02:40 CST；lastChecked→2026-10-28 02:42 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261028_0240.json",
+  "priorRoundNote": "R726 meta NTR ['jig', 'tick-trader']; cardsAfterCutoff=4"
+}
