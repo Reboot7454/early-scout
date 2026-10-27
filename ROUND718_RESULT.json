@@ -1,0 +1,105 @@
+{
+  "round": 718,
+  "mode": "full-radar",
+  "completedAt": "2026-10-28 00:10 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits + le2h windows (jean-philkins/elysian-fields/fugazy/orynex)",
+  "alertMessage": "R718全雷达：真新收录KOAI（@koaidotfun，BNB Chain Agent-only发射台已live、Binance Agent ID门禁、粉约41）；≤2h窗：@JeanPhilkins RH mint约00:00CST刚开、@ElysianFieldNFT公售0.025HYPE续(RPC慢)、@Fugazy_NFT RH OpenSea public mint live、@OrynexIntel Pons窗续但官推API 404——面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "koai",
+      "handle": "@koaidotfun",
+      "name": "KOAI",
+      "note": "BNB Agent-only launchpad live; Agent ID gate; ~41 followers; focus=false"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "koai"
+  ],
+  "round718Added": [
+    "koai"
+  ],
+  "skipped": [
+    {
+      "id": "elysium-outlaws",
+      "handle": "@ElysiumOutlaws",
+      "reason": "Elysium hard gate: Coming soon/WL-only (100 spots), no On testnet or Announced+explicit deploy"
+    },
+    {
+      "id": "elisa-on-elysium",
+      "handle": "@Elisa_OnElysium",
+      "reason": "0粉2帖，无mint/launch可操作窗"
+    },
+    {
+      "id": "orynex-handle",
+      "handle": "@OrynexIntel",
+      "reason": "官推 username API Not Found；卡已有，仅soft注记，非新收"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "jean-philkins",
+      "handle": "@JeanPhilkins",
+      "note": "Mint约00:00CST刚开·WL freemint·≤2h"
+    },
+    {
+      "id": "elysian-fields",
+      "handle": "@ElysianFieldNFT",
+      "note": "Public FCFS 0.025HYPE续·RPC慢·≤2h"
+    },
+    {
+      "id": "fugazy",
+      "handle": "@Fugazy_NFT",
+      "note": "Public mint live OpenSea·≤2h"
+    },
+    {
+      "id": "orynex",
+      "handle": "@OrynexIntel",
+      "note": "23:00CST Pons窗续·官推404·≤2h"
+    }
+  ],
+  "xReads": 18,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash score/admit=3 alert=1 copy=1 thinkingON",
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/Tape/GIWA/DogeEVM/BN Agent钱包/BTC/Starknet",
+  "softRefresh": {
+    "cards": [
+      "jean-philkins",
+      "elysian-fields",
+      "fugazy",
+      "orynex",
+      "bitcointapes",
+      "stonks-pad",
+      "enter-elysium",
+      "tapeai",
+      "ptah-trade",
+      "coracle-agents",
+      "pipfun",
+      "full-fun",
+      "sprite-fun",
+      "tape-pool",
+      "pick-rush",
+      "oxus-trail",
+      "companions-wfit"
+    ],
+    "clearedLe2h": [],
+    "watches": "all *Watch lastChecked→R718; kinetiq/elysium/tape/flap/agentPad/giwa/zero notes"
+  },
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "usemodenaxyz",
+    "nutz-token",
+    "keymindai",
+    "flaremrkts"
+  ],
+  "focusBan": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R718全量雷达：新收KOAI(BNB Agent-only台)；soft刷Elysium/Tape/Flap/BN Agent；≤2h四窗(JeanPhilkins/ElysianFields/FUGAZY/Orynex)；Outlaws/Elisa跳过；DC peek延期。",
+  "push": {
+    "ok": false,
+    "pending": true
+  }
+}
