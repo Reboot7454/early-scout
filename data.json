@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-27 19:03 CST",
+    "updated": "2026-10-27 19:22 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R692",
-    "lastScout": "2026-10-27 18:40 CST",
+    "lastScout": "2026-10-27 19:22 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -471,7 +471,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 701,
+    "round": 702,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1370,8 +1370,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "tape-launch",
-      "ka-agents"
+      "upad"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -2947,19 +2946,18 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-10-27 18:35 CST",
-      "lastChecked": "2026-10-27 18:40 CST",
-      "newestCardTime": "2026-10-27 18:38 CST",
+      "lastSeen": "2026-10-27 19:00 CST",
+      "lastChecked": "2026-10-27 19:22 CST",
+      "newestCardTime": "2026-10-27 19:20 CST",
       "cardsAfterCutoff": 1,
-      "note": "R700：Discord alpha 补收 termline,switch-rh,double-finance,humiq,bouncer,agently-office,npnp（RH链新号潮，均未核验）；跳过 padonhood(DS)/Lovablesocial(信息少)/0xdonchuks(KOL)/YasminRazavi(高粉)/散户号；gangdotfun/hypawwX/Notuspad/uspadfun 已有",
-      "lastRound": 700,
+      "note": "R702：Discord alpha 补收 upad(@upadxyz RH链自建launchpad，未核验)；DS跳过 UseRfance/mishmar_io/kurio_lol/angryjiucai/Trenchmash/tryterminev/ofstapp/SatoruLabs，TapeFractal 已有，TheRealMortenB 个人号",
+      "lastRound": 702,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-27 18:38 CST",
-        "alpha-1-backup": "2026-10-27 18:28 CST",
-        "smart-accounts-tracker": "2026-10-27 18:28 CST",
-        "alpha-1": "2026-10-27 18:35 CST"
-      },
-      "spideyResumed": "alpha-1 Spidey Bot 于 2026-10-27 13:55 CST 恢复发卡"
+        "alpha-3-new-accounts": "2026-10-27 19:20 CST",
+        "alpha-1-backup": "2026-10-27 19:13 CST",
+        "smart-accounts-tracker": "2026-10-27 19:13 CST",
+        "alpha-1": "2026-10-27 19:00 CST"
+      }
     },
     "round239Added": [
       "tsunamilaunch",
@@ -7633,9 +7631,65 @@
     "round701Added": [
       "tape-launch",
       "ka-agents"
+    ],
+    "round702Added": [
+      "upad"
     ]
   },
   "candidates": [
+    {
+      "id": "upad",
+      "name": "Upad",
+      "handle": "@upadxyz",
+      "twitter": "@upadxyz",
+      "chain": "RH",
+      "category": "台子/Meme",
+      "ecosystem": "Robinhood Chain",
+      "tags": [
+        "Launchpad",
+        "RH",
+        "极早期",
+        "未核验",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/upadxyz",
+        "twitter": "https://x.com/upadxyz"
+      },
+      "scores": {
+        "early": 88,
+        "actionable": 58,
+        "novelty": 52,
+        "risk": 74,
+        "overall": 63
+      },
+      "highlights": [
+        "账号极早期，仅1个关注者，尚处扩散前观察窗口",
+        "已关注@robinhoodapp，疑似跟随Robinhood Chain新账号潮",
+        "主打“自建launchpad、社区自定规则”的台子叙事",
+        "来自Discord alpha关注卡，说明尚未被广泛覆盖"
+      ],
+      "drawbacks": [
+        "除口号外没有产品、合约、文档或团队信息",
+        "仅有1个关注者，容易被抢注或仿盘账号冒充",
+        "Robinhood Chain生态本身尚未验证，叙事基础较薄弱",
+        "没有明确发币或交互路径，短期难以执行"
+      ],
+      "whatsNew": "新出现的小号以Robinhood Chain为背景宣传自建launchpad，目前只有一句口号。",
+      "summary": "Upad：自称自建 launchpad「社区自定规则」，RH链新号潮，粉≈1，未核验。",
+      "blurb": "RH链新号自建launchpad；粉≈1；仅口号，未核验。",
+      "round": 702,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-10-27 19:22 CST",
+      "addedAt": "2026-10-27 19:22 CST",
+      "lastChecked": "2026-10-27 19:22 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "ka-agents",
       "name": "Ka Agents",
@@ -7686,7 +7740,7 @@
       "focus": false,
       "status": "live",
       "followers": 23,
-      "newThisRound": true,
+      "newThisRound": false,
       "lastChecked": "2026-10-27 19:03 CST",
       "lzVerified": false
     },
@@ -7737,7 +7791,7 @@
       "focus": false,
       "status": "live",
       "followers": 119,
-      "newThisRound": true,
+      "newThisRound": false,
       "lastChecked": "2026-10-27 19:03 CST"
     },
     {
@@ -110142,21 +110196,20 @@
     }
   ],
   "newThisRound": [
-    "tape-launch",
-    "ka-agents"
+    "upad"
   ],
-  "alertMessage": "新增TapeLaunch/Ka Agents；TapeFractal今晚20:00CST Freemint约1h（社区诈骗质疑），StonkRobotics Agent ID前1000免费mint LIVE（BSC），详情：https://reboot7454.github.io/early-scout/",
+  "alertMessage": "",
   "roundNAdded": [
     "tape-launch",
     "ka-agents"
   ],
-  "updatedAt": "2026-10-27 19:03 CST",
-  "updated": "2026-10-27 19:03 CST",
+  "updatedAt": "2026-10-27 19:22 CST",
+  "updated": "2026-10-27 19:22 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-27 19:03 CST",
+  "lastScout": "2026-10-27 19:22 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -110198,7 +110251,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1534,
+  "candidateCount": 1535,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -110807,5 +110860,8 @@
   "round701Added": [
     "tape-launch",
     "ka-agents"
+  ],
+  "round702Added": [
+    "upad"
   ]
 }
