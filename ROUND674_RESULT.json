@@ -1,0 +1,157 @@
+{
+  "round": 674,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-27 11:05 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "true_new_admits",
+  "alertMessage": "新增2项：Runepad(@RunepadX 0粉 RH Chain发射台LIVE，ETH发射+Bitcoin Rune蚀刻已贴CA)、Wagon(@Wagon_family 143粉 RH+SOL终端+预告公平发射台 Android LIVE)。Peak开盘已超2h。Astral mint LIVE。Elysium仍11-09。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "runepad",
+      "name": "Runepad",
+      "handle": "RunepadX",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "followers": 0,
+      "status": "live",
+      "overall": 78
+    },
+    {
+      "id": "wagon-rh",
+      "name": "Wagon",
+      "handle": "Wagon_family",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "followers": 143,
+      "status": "live",
+      "overall": 62
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "runepad",
+    "wagon-rh"
+  ],
+  "admitted": [
+    {
+      "id": "runepad",
+      "name": "Runepad",
+      "handle": "RunepadX",
+      "column": "台子/Meme"
+    },
+    {
+      "id": "wagon-rh",
+      "name": "Wagon",
+      "handle": "Wagon_family",
+      "column": "台子/Meme"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "agent-forge-relic",
+      "reason": "DS score拒：无匹配独立官推，第三方宣传高危"
+    },
+    {
+      "id": "Leeonmort",
+      "reason": "X Not Found（R674再核仍NF）"
+    },
+    {
+      "id": "TitanExchange_",
+      "reason": "粉17040过大/非极早期，Canton隐私永续仅soft"
+    },
+    {
+      "id": "MemePredictfun",
+      "reason": "预测市场meme台粉82，本轮已收2新台，宁缺毋滥延后"
+    },
+    {
+      "id": "bullshot",
+      "reason": "粉量/融资叙事过大，非极早期，skip"
+    }
+  ],
+  "softUpdates": [
+    {
+      "id": "launch-on-peak",
+      "whatsNew": "粉88→91；首小时~$290.5K；超2h清le2h",
+      "followers": 91,
+      "le2h": false
+    },
+    {
+      "id": "astral-id",
+      "whatsNew": "mint+Farm LIVE on RH；粉20→27",
+      "followers": 27,
+      "status": "live"
+    },
+    {
+      "id": "bitcointapes",
+      "followers": 339
+    },
+    {
+      "id": "enter-elysium",
+      "followers": 13301
+    },
+    {
+      "id": "madang-fun",
+      "followers": 248
+    },
+    {
+      "id": "naru-giwa",
+      "followers": 403
+    },
+    {
+      "id": "privypad",
+      "followers": 8,
+      "newThisRound": false
+    },
+    {
+      "id": "runic-perpetuals",
+      "followers": 6,
+      "newThisRound": false
+    },
+    {
+      "id": "traderslake",
+      "followers": 198,
+      "newThisRound": false
+    }
+  ],
+  "le2h": [],
+  "xReads": 15,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash score+alert+summary thinking ON",
+  "summary": "新增 Runepad、Wagon；Peak清le2h；Astral mint LIVE；Elysium仍11-09。",
+  "coverage": {
+    "打新": true,
+    "挖矿": true,
+    "台子": true,
+    "Meme": true,
+    "GO": true,
+    "LZ": true,
+    "Elysium": true,
+    "Tape": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BN Agent钱包": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "push": {
+    "branch": "main",
+    "sha": null,
+    "files": [
+      "data.json",
+      "ROUND674_RESULT.json",
+      "RESULT_R674.md"
+    ],
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "blockers": [
+    "Leeonmort still X Not Found"
+  ],
+  "clearedPrevNewThisRound": [
+    "privypad",
+    "runic-perpetuals",
+    "traderslake"
+  ]
+}
