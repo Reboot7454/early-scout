@@ -13,4 +13,4 @@
 - **focusBan**: true（普通新卡未设 focus）
 - **summary**: R721雷达新收poke-hood、unsaidagent、books-protocol；2小时内续jean-philkins/elysian-fields和poke-hood；清fugazy/orynex；xReads约19；discordPeek暂缓。
 - **skipped**: owlgate无官推；stubs仅soft
-- **push**: pending
+- **push**: ok `f6f6818` (f6f68185168ef5883c85f449a07777d8812a3260)
