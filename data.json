@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-27 17:36 CST",
+    "updated": "2026-10-27 18:00 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R692",
-    "lastScout": "2026-10-27 17:36 CST",
+    "lastScout": "2026-10-27 18:00 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -469,7 +469,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 696,
+    "round": 697,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1365,7 +1365,10 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "bang-terminal"
+      "oxus-trail",
+      "mobster",
+      "bootr",
+      "uspad"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -2929,17 +2932,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-10-27 17:17 CST",
-      "lastChecked": "2026-10-27 17:20 CST",
-      "newestCardTime": "2026-10-27 17:17 CST",
-      "cardsAfterCutoff": 39,
-      "note": "R695：Discord alpha 补收 useascian,krait-protocol,zerolayer-tools,puttcroft,turf；清 subfrost；lastSeen→2026-10-27 17:17 CST；lastChecked→2026-10-27 17:20 CST；跳过 tryrenace/cezardotrun/ElevateWeb3/散户号/lililashka/shdu11546816/musepay_io(成熟)；Enter_Elysium 已有",
-      "lastRound": 695,
+      "lastSeen": "2026-10-27 17:47 CST",
+      "lastChecked": "2026-10-27 18:00 CST",
+      "newestCardTime": "2026-10-27 17:58 CST",
+      "cardsAfterCutoff": 1,
+      "note": "R697：Discord alpha 补收 oxus-trail,mobster,bootr,uspad；清 bang-terminal；lastSeen→2026-10-27 17:58 CST；lastChecked→2026-10-27 18:00 CST；跳过 KAVACHAI_REAL/wanted_capital/Vortexprotocolz(已发币)/Mojang4d(疑冒牌)/torchct(已live)/Lordhoodgame/ChatOrbio/Astraneo_global/musepay_io/ITIA创始人/散户号；Bitardi0/Notuspad/Squadzdotfun/playwanderfores 已有",
+      "lastRound": 697,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-27 17:16 CST",
-        "alpha-1-backup": "2026-10-27 17:13 CST",
+        "alpha-3-new-accounts": "2026-10-27 17:58 CST",
+        "alpha-1-backup": "2026-10-27 17:58 CST",
         "smart-accounts-tracker": "2026-10-27 17:00 CST",
-        "alpha-1": "2026-10-27 17:17 CST"
+        "alpha-1": "2026-10-27 17:47 CST"
       },
       "spideyResumed": "alpha-1 Spidey Bot 于 2026-10-27 13:55 CST 恢复发卡"
     },
@@ -3073,7 +3076,7 @@
       "zec-nodes",
       "boys-in-hood"
     ],
-    "alertMessage": "BANG Terminal 新上 BN Agent钱包（内盘发射终端 LIVE 开源+MPC）；STONK Robotics Agent ID 前1000免费mint LIVE续；Elysium主网11-09、BTape FREE mint约27%、TapeFractal今晚20:00CST，面板：https://reboot7454.github.io/early-scout/",
+    "alertMessage": "R697 DC补漏+4（未核验）：Oxus Trail @Oxustrail（RH链丝路商队，1000免费mint→打新）、Mobster @mobster_meme（RH链agent发射台）、Bootr @bootrfun（Base agent运营币发射台）、uspad @uspadfun（Solana meme美股分红台）。面板 https://reboot7454.github.io/early-scout/",
     "dsSummary": "deepseek-flash admit+score+alert assetclaw thinking ON",
     "round270Added": [
       "avatarpad"
@@ -7547,9 +7550,216 @@
     ],
     "round696Added": [
       "bang-terminal"
+    ],
+    "round697Added": [
+      "oxus-trail",
+      "mobster",
+      "bootr",
+      "uspad"
     ]
   },
   "candidates": [
+    {
+      "id": "uspad",
+      "name": "uspad",
+      "handle": "@uspadfun",
+      "twitter": "@uspadfun",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "未核验",
+        "发射台"
+      ],
+      "links": {
+        "x": "https://x.com/uspadfun",
+        "twitter": "https://x.com/uspadfun"
+      },
+      "scores": {
+        "early": 84,
+        "actionable": 70,
+        "novelty": 75,
+        "risk": 42,
+        "overall": 67
+      },
+      "highlights": [
+        "meme 币每小时用代币化美股分红",
+        "支持 NVDAx/SPYx/TSLAx 等标的",
+        "无狙击、无 dev buy 设计",
+        "12 关注，极早期"
+      ],
+      "drawbacks": [
+        "代币化股票分红存在合规风险",
+        "Solana 发射台赛道拥挤",
+        "产品与合约未验证"
+      ],
+      "whatsNew": "把代币化美股小时级分红嵌入 Solana meme 发射台。",
+      "summary": "Memecoin launchpad on Solana: memecoins pay holders in tokenized US stocks (NVDAx, SPYx, TSLAx) every hour. No snipers, no dev buy. Joined 2026-10-27.",
+      "blurb": "Memecoin launchpad on Solana: memecoins pay holders in tokenized US stocks (NVDAx, SPYx, TSLAx) every hour. No snipers, no dev buy. Joined 2026-10-27.",
+      "round": 697,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 12,
+      "xFollowers": 12,
+      "firstSeen": "2026-10-27 18:00 CST",
+      "addedAt": "2026-10-27 18:00 CST",
+      "lastChecked": "2026-10-27 18:00 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "bootr",
+      "name": "Bootr",
+      "handle": "@bootrfun",
+      "twitter": "@bootrfun",
+      "chain": "Base",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "未核验",
+        "发射台"
+      ],
+      "links": {
+        "x": "https://x.com/bootrfun",
+        "twitter": "https://x.com/bootrfun"
+      },
+      "scores": {
+        "early": 86,
+        "actionable": 62,
+        "novelty": 72,
+        "risk": 48,
+        "overall": 67
+      },
+      "highlights": [
+        "每个币配独立金库与 X 账号",
+        "费用链上拆分并锁定",
+        "Base 上 agent 运营 meme 的新玩法",
+        "0 关注，极早期"
+      ],
+      "drawbacks": [
+        "Base 发射台竞争激烈",
+        "agent 自动运营效果未验证",
+        "0 关注，缺社区与数据"
+      ],
+      "whatsNew": "让 agent 自动运营每个 meme 币及独立 X 账号的 Base 发射台。",
+      "summary": "Launch a coin with an agent that runs it. Every coin gets its own treasury and own X account. Fees split on-chain, locked at launch. Built on Base.",
+      "blurb": "Launch a coin with an agent that runs it. Every coin gets its own treasury and own X account. Fees split on-chain, locked at launch. Built on Base.",
+      "round": 697,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-27 18:00 CST",
+      "addedAt": "2026-10-27 18:00 CST",
+      "lastChecked": "2026-10-27 18:00 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "mobster",
+      "name": "Mobster",
+      "handle": "@mobster_meme",
+      "twitter": "@mobster_meme",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "未核验",
+        "发射台"
+      ],
+      "links": {
+        "x": "https://x.com/mobster_meme",
+        "twitter": "https://x.com/mobster_meme"
+      },
+      "scores": {
+        "early": 88,
+        "actionable": 60,
+        "novelty": 65,
+        "risk": 45,
+        "overall": 66
+      },
+      "highlights": [
+        "Robinhood Chain 上的 agent 主题发射台",
+        "宣称获 @robinhoodapp 关注，具备话题性",
+        "面向 Binance .ai Wallet 做公平发射",
+        "0 关注，处于极早期"
+      ],
+      "drawbacks": [
+        "关注数为 0，真实社区未形成",
+        "产品与合约细节缺失",
+        "Robinhood Chain 生态仍早期，流动性不确定"
+      ],
+      "whatsNew": "以 agent 叙事切入 Robinhood Chain 的新发射台，宣称获 Robinhood 官方关注。",
+      "summary": "Mobster Built For Agents. Launchpad On Robinhood Chain. Fair Launches For Binance .ai Wallet. Followed by @robinhoodapp.",
+      "blurb": "Mobster Built For Agents. Launchpad On Robinhood Chain. Fair Launches For Binance .ai Wallet. Followed by @robinhoodapp.",
+      "round": 697,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-27 18:00 CST",
+      "addedAt": "2026-10-27 18:00 CST",
+      "lastChecked": "2026-10-27 18:00 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "oxus-trail",
+      "name": "Oxus Trail",
+      "handle": "@oxustrail",
+      "twitter": "@oxustrail",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "未核验",
+        "NFT",
+        "免费mint"
+      ],
+      "links": {
+        "x": "https://x.com/Oxustrail",
+        "twitter": "https://x.com/Oxustrail"
+      },
+      "scores": {
+        "early": 90,
+        "actionable": 78,
+        "novelty": 70,
+        "risk": 50,
+        "overall": 73
+      },
+      "highlights": [
+        "Robinhood Chain 上的丝路商队游戏",
+        "前 1000 名免费 mint Charter",
+        "316 关注但 0 推文，信息稀缺",
+        "免费打新参与门槛低"
+      ],
+      "drawbacks": [
+        "0 推文，项目进展不透明",
+        "游戏玩法与代币经济未披露",
+        "Robinhood Chain 流动性与用户基数待验证"
+      ],
+      "whatsNew": "Silk Road 商队题材游戏开放 1000 个免费 Charter mint。",
+      "summary": "Year 850, Silk Road caravan game on Robinhood Chain. 1,000 free mint Charters for first caravaners. 0 tweets yet.",
+      "blurb": "Year 850, Silk Road caravan game on Robinhood Chain. 1,000 free mint Charters for first caravaners. 0 tweets yet.",
+      "round": 697,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 316,
+      "xFollowers": 316,
+      "firstSeen": "2026-10-27 18:00 CST",
+      "addedAt": "2026-10-27 18:00 CST",
+      "lastChecked": "2026-10-27 18:00 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "bang-terminal",
       "name": "BANG Terminal",
@@ -7611,7 +7821,7 @@
       "firstSeen": "2026-10-27 17:36 CST",
       "addedAt": "2026-10-27 17:36 CST",
       "lastChecked": "2026-10-27 17:36 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "contractUnverified": true,
       "contractNote": "官推自报合约接口公开于 bangxt.fun；社区讨论 CA 0x9cd4…7777 未核实",
       "schedule": {
@@ -109405,19 +109615,22 @@
     }
   ],
   "newThisRound": [
-    "bang-terminal"
+    "oxus-trail",
+    "mobster",
+    "bootr",
+    "uspad"
   ],
-  "alertMessage": "BANG Terminal 新上 BN Agent钱包（内盘发射终端 LIVE 开源+MPC）；STONK Robotics Agent ID 前1000免费mint LIVE续；Elysium主网11-09、BTape FREE mint约27%、TapeFractal今晚20:00CST，面板：https://reboot7454.github.io/early-scout/",
+  "alertMessage": "R697 DC补漏+4（未核验）：Oxus Trail @Oxustrail（RH链丝路商队，1000免费mint→打新）、Mobster @mobster_meme（RH链agent发射台）、Bootr @bootrfun（Base agent运营币发射台）、uspad @uspadfun（Solana meme美股分红台）。面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "subfrost"
   ],
-  "updatedAt": "2026-10-27 17:36 CST",
-  "updated": "2026-10-27 17:36 CST",
+  "updatedAt": "2026-10-27 18:00 CST",
+  "updated": "2026-10-27 18:00 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-27 17:20 CST",
+  "lastScout": "2026-10-27 18:00 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -109459,7 +109672,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1520,
+  "candidateCount": 1525,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -110041,5 +110254,11 @@
   ],
   "round696Added": [
     "bang-terminal"
+  ],
+  "round697Added": [
+    "oxus-trail",
+    "mobster",
+    "bootr",
+    "uspad"
   ]
 }
