@@ -1,0 +1,196 @@
+{
+  "round": 714,
+  "mode": "full-radar",
+  "completedAt": "2026-10-27 23:12 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+le2h",
+  "alertMessage": "新收：@Pikwiki_ BNB像素卡牌前5k免费mint LIVE、@wobbaluisland OpenSea免费mint LIVE；≤2h：@ElysianFieldNFT Degen mint 今日23:30CST；另 spritefun 停建。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "pikwiki",
+      "handle": "@Pikwiki_",
+      "name": "Pikwiki",
+      "category": "打新",
+      "followers": 24,
+      "overall": 75,
+      "reason": "有官推且官网LIVE、免费mint可执行，属极早期可跟踪但需核验CA。",
+      "tags": [
+        "免费mint",
+        "BNB",
+        "AI Agent",
+        "极早期",
+        "CA未核实"
+      ],
+      "source": "x-radar"
+    },
+    {
+      "id": "wobbalu-island",
+      "handle": "@wobbaluisland",
+      "name": "Wobbalu Island",
+      "category": "打新",
+      "followers": 33,
+      "overall": 62,
+      "reason": "有官推且免费mint LIVE可执行，虽叙事一般但符合极早期打新。",
+      "tags": [
+        "免费mint",
+        "OpenSea",
+        "极早期"
+      ],
+      "source": "x-radar"
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "pikwiki",
+    "wobbalu-island"
+  ],
+  "skipped": [
+    {
+      "id": "obolos-hl",
+      "reason": "Elysium仅Announced即将上线；无明确部署/testnet；DS skip"
+    },
+    {
+      "id": "fluffbat-society",
+      "reason": "Elysium PFP无mint/On-testnet证据；DS skip"
+    },
+    {
+      "id": "elysiumgloom",
+      "reason": "0帖无细节；DS skip"
+    },
+    {
+      "id": "nightshift-agents",
+      "reason": "KOL给CA；短handle核验无有效官推；DS skip"
+    },
+    {
+      "id": "agent-koi",
+      "reason": "上轮空号；本窗仍无独立官推；DS skip"
+    },
+    {
+      "id": "hashora-coin",
+      "reason": "上轮新收；本轮清NTR"
+    },
+    {
+      "id": "nezifamily",
+      "reason": "上轮新收；本轮清NTR"
+    },
+    {
+      "id": "opcodex-fun",
+      "reason": "上轮新收；本轮清NTR"
+    },
+    {
+      "id": "pepticon-trade",
+      "reason": "上轮新收；本轮清NTR"
+    },
+    {
+      "id": "firstlight-strm",
+      "reason": "上轮新收；本轮清NTR"
+    },
+    {
+      "id": "oripa-xyz",
+      "reason": "上轮新收；本轮清NTR"
+    },
+    {
+      "id": "elysian-fields",
+      "reason": "本轮soft+≤2h窗；非新admit"
+    },
+    {
+      "id": "sprite-fun",
+      "reason": "已收；停建风险 soft"
+    },
+    {
+      "id": "bitcointapes",
+      "reason": "已收；mint~27% soft"
+    },
+    {
+      "id": "stonks-pad",
+      "reason": "已收；24h量 soft"
+    },
+    {
+      "id": "ptah-trade",
+      "reason": "已收；仅AI Agent入口 soft"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "elysian-fields",
+      "handle": "@ElysianFieldNFT",
+      "note": "Degen mint 今日15:30UTC(=23:30CST) 0.025$HYPE/地 · 距开窗≤2h"
+    }
+  ],
+  "xReads": 19,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash score/admit=1 alert=1 thinkingON",
+  "coverage": "x-keyword+mustwatch-soft+DS-admit; discordPeekDeferred",
+  "softRefresh": {
+    "cards": [
+      "elysian-fields",
+      "bitcointapes",
+      "enter-elysium",
+      "ptah-trade",
+      "stonks-pad",
+      "sprite-fun",
+      "tapeai",
+      "full-fun",
+      "listen-money",
+      "pipfun",
+      "pick-rush",
+      "nomio",
+      "the-forge-en",
+      "milkbao",
+      "gang-fun",
+      "bramble-fi"
+    ],
+    "watches": [
+      "kinetiq",
+      "elysium",
+      "tape",
+      "tapeOut",
+      "flapPad",
+      "irysPad",
+      "fullFun",
+      "agentPad",
+      "agentMining",
+      "agentTrading",
+      "starknet",
+      "giwa",
+      "zero",
+      "dogeEvm",
+      "btcPrivacy",
+      "canton",
+      "glaze",
+      "tokenWorks",
+      "blonskr"
+    ]
+  },
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "hashora-coin",
+    "nezifamily",
+    "opcodex-fun",
+    "pepticon-trade",
+    "firstlight-strm",
+    "oripa-xyz"
+  ],
+  "push": {
+    "attempted": false,
+    "ok": false,
+    "branch": "main",
+    "files": [
+      "data.json",
+      "ROUND714_RESULT.json"
+    ]
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R714：X新收Pikwiki+Wobbalu；ElysianFields≤2h mint 23:30CST；sprite停建；BTape~27%；StonksPad 24h $1.65M；DC待合入",
+  "focusBan": "pikwiki+wobbalu-island focus:false",
+  "discordAlphaPeek": {
+    "deferred": true,
+    "loginNeeded": false,
+    "lastChecked": "2026-10-27 22:49 CST",
+    "lastRound": 713,
+    "note": "本轮discordPeekDeferred；父代理并行扫后可合入"
+  },
+  "remoteVerified": false
+}
