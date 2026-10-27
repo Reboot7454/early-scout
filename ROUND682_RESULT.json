@@ -1,0 +1,94 @@
+{
+  "round": 682,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-27 13:23 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏 R682：新收 ChihuaHood(@Chihuahood，RH链meme，0粉) 、Fomo Pad(@fomoxpad，Solana发射台 Meteora曲线，669粉)→台子/Meme。https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "chihuahood",
+    "fomo-pad"
+  ],
+  "newCount": 2,
+  "newIds": [
+    "chihuahood",
+    "fomo-pad"
+  ],
+  "skipped": [
+    {
+      "id": "meh-exe",
+      "reason": "纯 meme 只有CA，无玩法线索"
+    },
+    {
+      "id": "pumpcat",
+      "reason": "pump.fun 纯 meme"
+    },
+    {
+      "id": "useslayes",
+      "reason": "DS skip：概念阶段"
+    },
+    {
+      "id": "hotters",
+      "reason": "DS skip：概念阶段"
+    },
+    {
+      "id": "tryfomo",
+      "reason": "DS skip：无描述"
+    },
+    {
+      "id": "xd-meme",
+      "reason": "DS skip"
+    },
+    {
+      "id": "postright",
+      "reason": "AI SaaS 无发射"
+    },
+    {
+      "id": "bankfi",
+      "reason": "dup/成熟"
+    },
+    {
+      "id": "full-fun",
+      "reason": "dup"
+    }
+  ],
+  "cardsAfterLastSeen": 3,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "promotedcoin"
+  ],
+  "candidateFlagsCleared": 1,
+  "topNewThisRoundCleared": [
+    "promotedcoin"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=11",
+  "coverage": "alpha-3/backup/smart/alpha-1",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-27 13:18 CST",
+    "lastChecked": "2026-10-27 13:23 CST",
+    "newestCardTime": "2026-10-27 13:18 CST",
+    "cardsAfterCutoff": 3,
+    "note": "R682：Discord alpha 补收 chihuahood,fomo-pad；跳过 [{'id': 'meh-exe', 'reason': '纯 meme 只有CA，无玩法线索'}, {'id': 'pumpcat', 'reason': 'pump.fun 纯 meme'}, {'id': 'useslayes', 'reason': 'DS skip：概念阶段'}, {'id': 'hotters', 'reason': 'DS skip：概念阶段'}, {'id': 'tryfomo', 'reason': 'DS skip：无描述'}, {'id': 'xd-meme', 'reason': 'DS skip'}, {'id': 'postright', 'reason': 'AI SaaS 无发射'}, {'id': 'bankfi', 'reason': 'dup/成熟'}, {'id': 'full-fun', 'reason': 'dup'}]；清 promotedcoin；lastSeen→2026-10-27 13:18 CST；lastChecked→2026-10-27 13:23 CST",
+    "lastRound": 682,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-27 13:18 CST",
+      "alpha-1-backup": "2026-10-27 13:13 CST",
+      "smart-accounts-tracker": "2026-10-27 13:06 CST",
+      "alpha-1": "2026-10-26 13:03 CST"
+    },
+    "alpha3OlderGap": "2026-10-26 13:03→2026-10-27 02:46 CST 未逐卡读完（卡量>60，噪音高）；R666 已补读 07:10–07:30 窗口"
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R682：Discord alpha 补收 chihuahood,fomo-pad；跳过 [{'id': 'meh-exe', 'reason': '纯 meme 只有CA，无玩法线索'}, {'id': 'pumpcat', 'reason': 'pump.fun 纯 meme'}, {'id': 'useslayes', 'reason': 'DS skip：概念阶段'}, {'id': 'hotters', 'reason': 'DS skip：概念阶段'}, {'id': 'tryfomo', 'reason': 'DS skip：无描述'}, {'id': 'xd-meme', 'reason': 'DS skip'}, {'id': 'postright', 'reason': 'AI SaaS 无发射'}, {'id': 'bankfi', 'reason': 'dup/成熟'}, {'id': 'full-fun', 'reason': 'dup'}]；清 promotedcoin；lastSeen→2026-10-27 13:18 CST；lastChecked→2026-10-27 13:23 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261027_1325.json",
+  "priorRoundNote": "R681 meta NTR ['promotedcoin']; cardsAfterCutoff=3"
+}
