@@ -1,0 +1,114 @@
+{
+  "round": 730,
+  "mode": "full-radar-soft",
+  "completedAt": "2026-10-28 03:30 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "true new admits (clover-elysium, mcpad, digi-warriors) + le2h windows (poke-hood, elysium-punks)",
+  "alertMessage": "R730：新收3个：Clover(@cloverdotli)Elysium testnet发射台；MCPad(@mcpadfun)BNB Agent+Flap台；Digi Warriors(@digiwarriorsfun)Agent ID免费mint。≤2h：PokeHood FREE仍LIVE约至04:00CST；Elysium Punks stealth仍LIVE约至05:03CST。https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "clover-elysium",
+      "handle": "@cloverdotli",
+      "reason": "Elysium最简testnet发射台，官推新建粉3，主网/代币定档2026-11-09"
+    },
+    {
+      "id": "mcpad",
+      "handle": "@mcpadfun",
+      "reason": "BNB Binance MCP+Flap agent发射台，官网mcpad.fun，粉61"
+    },
+    {
+      "id": "digi-warriors",
+      "handle": "@digiwarriorsfun",
+      "reason": "6666像素NFT仅Agent ID可铸·首铸免费，粉34"
+    }
+  ],
+  "newCount": 3,
+  "newIds": [
+    "clover-elysium",
+    "mcpad",
+    "digi-warriors"
+  ],
+  "round730Added": [
+    "clover-elysium",
+    "mcpad",
+    "digi-warriors"
+  ],
+  "skipped": [
+    {
+      "id": "blob-miner",
+      "reason": "无独立官推（blobminer等用户名不存在），按规则跳过"
+    },
+    {
+      "id": "memepadbnb",
+      "reason": "与mcpadfun同项目联动号，正式admit用@mcpadfun"
+    },
+    {
+      "id": "cloverbots/clover-rh",
+      "reason": "已在库，与@cloverdotli Elysium Clover不同项目"
+    },
+    {
+      "id": "spritefun/pipfun/bitcointapes/computeroll",
+      "reason": "已在库，本轮soft刷新无新≤2h窗"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "poke-hood",
+      "handle": "@Poke_Hood",
+      "note": "RH FREE MINT仍LIVE·999·≤2h约至04:00CST"
+    },
+    {
+      "id": "elysium-punks",
+      "handle": "@PunksOnElysium",
+      "note": "stealth mint LIVE≈03:03CST·≤2h约至05:03CST"
+    }
+  ],
+  "clearedLe2h": [
+    "tape-fractal",
+    "stonk-robotics"
+  ],
+  "clearedPrevNew": [
+    "hootpad",
+    "leverhood",
+    "sorcelio",
+    "sync-meme",
+    "tika-launchpad",
+    "getcopia",
+    "lil-squinks",
+    "first-class-frenchies"
+  ],
+  "xReads": 17,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash score(4)+alert",
+  "focusBan": true,
+  "summary": "R730雷达新收clover-elysium/mcpad/digi-warriors；≤2h续poke-hood+elysium-punks；清R729八卡NTR与tape-fractal/stonk-robotics过期le2h；BLOB无官推跳过；xReads≈17；discordPeek暂缓。",
+  "watchesSoft": [
+    "kinetiqWatch",
+    "elysiumWatch",
+    "tapeWatch",
+    "tapeOutWatch",
+    "flapPadWatch",
+    "irysPadWatch",
+    "fullFunWatch",
+    "agentPadWatch",
+    "agentMiningWatch",
+    "agentTradingWatch",
+    "giwaWatch",
+    "dogeEvmWatch",
+    "zeroWatch",
+    "starknetWatch",
+    "btcPrivacyWatch",
+    "cantonPadWatch",
+    "glazeWatch",
+    "tokenWorksPlaygroundWatch"
+  ],
+  "push": {
+    "ok": false,
+    "sha": null,
+    "branch": "main",
+    "attempted": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
