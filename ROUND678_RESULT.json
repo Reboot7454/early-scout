@@ -1,0 +1,231 @@
+{
+  "round": 678,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-27 12:06 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "true_new_admits+le2h_mint",
+  "alertMessage": "新增3个早期项目：Rivl（RH链上线≤2h，最紧急）、Boltbook（币安Agent内容挖矿Day1）、HAALMAO（BNB Agent免费mint 374/5000）→ https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "haalmao",
+      "name": "HAALMAO Agents",
+      "handle": "HaalMAO_",
+      "category": "打新",
+      "zone": "BN Agent钱包",
+      "followers": 18,
+      "status": "live",
+      "overall": 74
+    },
+    {
+      "id": "bolt-book",
+      "name": "Boltbook",
+      "handle": "bolt_book",
+      "category": "挖矿",
+      "zone": "BN Agent钱包",
+      "followers": 653,
+      "status": "live",
+      "overall": 70
+    },
+    {
+      "id": "rivl",
+      "name": "Rivl",
+      "handle": "RivlGame",
+      "category": "GO盘",
+      "zone": "GO盘",
+      "followers": 24,
+      "status": "live",
+      "overall": 55,
+      "le2h": true
+    }
+  ],
+  "newCount": 3,
+  "newIds": [
+    "haalmao",
+    "bolt-book",
+    "rivl"
+  ],
+  "admitted": [
+    {
+      "id": "haalmao",
+      "name": "HAALMAO Agents",
+      "handle": "HaalMAO_",
+      "column": "打新/BN Agent钱包"
+    },
+    {
+      "id": "bolt-book",
+      "name": "Boltbook",
+      "handle": "bolt_book",
+      "column": "挖矿/BN Agent钱包"
+    },
+    {
+      "id": "rivl",
+      "name": "Rivl",
+      "handle": "RivlGame",
+      "column": "GO盘"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "fuds",
+      "reason": "DS skip：仅知2222 supply与社区在推，缺mint进度/上线时间，无法确认极早期窗"
+    },
+    {
+      "id": "Leeonmort",
+      "reason": "X Not Found（R678再核仍NF）"
+    },
+    {
+      "id": "the-forge-en",
+      "reason": "已收录；本轮仅soft"
+    },
+    {
+      "id": "synape",
+      "reason": "已收录；本轮仅soft"
+    },
+    {
+      "id": "catainvda",
+      "reason": "粉16441过大，非极早期"
+    },
+    {
+      "id": "robtown",
+      "reason": "已收录"
+    }
+  ],
+  "softUpdates": [
+    {
+      "id": "enter-elysium",
+      "followers": 13330,
+      "whatsNew": "主网仍11-09；粉13330"
+    },
+    {
+      "id": "bitcointapes",
+      "followers": 340,
+      "whatsNew": "FREE mint续；粉340"
+    },
+    {
+      "id": "stonks-pad",
+      "followers": 715
+    },
+    {
+      "id": "sprite-fun",
+      "followers": 153
+    },
+    {
+      "id": "pipfun",
+      "followers": 39
+    },
+    {
+      "id": "naru-giwa",
+      "followers": 408
+    },
+    {
+      "id": "full-fun",
+      "followers": 11849
+    },
+    {
+      "id": "saul-pink",
+      "followers": 12593
+    },
+    {
+      "id": "tapeai",
+      "followers": 3106
+    },
+    {
+      "id": "tape-pool",
+      "followers": 115
+    },
+    {
+      "id": "synape",
+      "followers": 663
+    },
+    {
+      "id": "nonce-protocol",
+      "followers": 1340
+    },
+    {
+      "id": "the-forge-en",
+      "followers": 1
+    },
+    {
+      "id": "launch-on-peak",
+      "followers": 105,
+      "le2h": false
+    },
+    {
+      "id": "claimdpad",
+      "followers": 8,
+      "le2h": false
+    },
+    {
+      "id": "chartiq",
+      "followers": 10,
+      "le2h": false
+    },
+    {
+      "id": "raidlords",
+      "followers": 10724
+    },
+    {
+      "id": "egglo",
+      "followers": 4792
+    },
+    {
+      "id": "shellbank",
+      "followers": 0,
+      "newThisRound": false
+    },
+    {
+      "id": "swarm-consensus",
+      "followers": 0,
+      "newThisRound": false
+    }
+  ],
+  "le2h": [
+    "rivl"
+  ],
+  "xReads": 12,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit+score+alert+summary thinking ON",
+  "summary": "R678新增HAALMAO Agents免费mint进度374/5000、Boltbook币安Agent内容挖矿首日及Robinhood链Rivl上线不足2小时，BTape免费mint续热粉340，Elysium主网仍定11-09粉13330。",
+  "coverage": {
+    "打新": true,
+    "挖矿": true,
+    "台子": true,
+    "Meme": true,
+    "GO": true,
+    "LZ": true,
+    "Elysium": true,
+    "Tape": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BN Agent钱包": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "push": {
+    "branch": "main",
+    "sha": null,
+    "files": [
+      "data.json",
+      "ROUND678_RESULT.json",
+      "RESULT_R678.md"
+    ],
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "blockers": [
+    "Leeonmort still X Not Found",
+    "discordPeekDeferred=true (R677刚扫过)"
+  ],
+  "clearedPrevNewThisRound": [
+    "swarm-consensus",
+    "shellbank"
+  ],
+  "remoteVerified": false,
+  "notes": [
+    "Rivl $RIVL live ~11:56 CST ≤2h",
+    "HaalMAO mint 374/5000",
+    "Boltbook content mining day1/15"
+  ]
+}
