@@ -1,0 +1,105 @@
+{
+  "round": 681,
+  "mode": "x-keyword-mustwatch-soft",
+  "completedAt": "2026-10-27 13:08 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "true_new_admits+le2h_mint",
+  "alertMessage": "新增 Promoted（Solana内容激励发射台$PMTD按播放领SOL）；Gaggle Farm与Rivl仍≤2h；Elysium主网仍11-09、BTape FREE mint续粉、AgentPad粉91→94，详见 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "promotedcoin",
+      "name": "Promoted",
+      "handle": "Promotedcoin",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "followers": 27,
+      "status": "live",
+      "overall": 47
+    }
+  ],
+  "newCount": 1,
+  "newIds": ["promotedcoin"],
+  "admitted": [
+    {
+      "id": "promotedcoin",
+      "name": "Promoted",
+      "handle": "Promotedcoin",
+      "column": "台子/Meme"
+    }
+  ],
+  "skipped": [
+    {"id": "punkfellas", "reason": "账号2025-10创建且813帖/438粉，非极早期"},
+    {"id": "namidefi", "reason": "2898粉，Genesis Nov5已不极早"},
+    {"id": "catainvda", "reason": "16469粉已过热"},
+    {"id": "Leeonmort", "reason": "X Not Found（R681再核仍NF）"},
+    {"id": "spoxy", "reason": "已收录；本轮仅soft"},
+    {"id": "synape", "reason": "已收录；本轮仅soft"},
+    {"id": "agentpad-ai", "reason": "已收录；本轮soft粉91→94"},
+    {"id": "playgen", "reason": "已收录；本轮soft粉0→2"},
+    {"id": "raidlords", "reason": "已收录偏热"},
+    {"id": "monko-mania", "reason": "已收录；DogeOS testnet续"}
+  ],
+  "softUpdates": [
+    {"id": "enter-elysium", "followers": 13348, "whatsNew": "R681 soft：主网仍2026-11-09；粉13348；无新On-testnet"},
+    {"id": "bitcointapes", "followers": 343, "whatsNew": "R681 soft：FREE mint续；粉343；勿标Elysium"},
+    {"id": "agentpad-ai", "followers": 94, "whatsNew": "R681 soft：粉91→94"},
+    {"id": "bolt-book", "followers": 672, "whatsNew": "R681 soft：粉659→672"},
+    {"id": "playgen", "followers": 2},
+    {"id": "naru-giwa", "followers": 411},
+    {"id": "gaggle-farm", "followers": 20, "le2h": true},
+    {"id": "rivl", "followers": 24, "le2h": true},
+    {"id": "stonks-pad", "followers": 716},
+    {"id": "sprite-fun", "followers": 153},
+    {"id": "pipfun", "followers": 39},
+    {"id": "synape", "followers": 665},
+    {"id": "spoxy", "followers": 32},
+    {"id": "listen-money", "followers": 1534},
+    {"id": "full-fun", "followers": 11846},
+    {"id": "saul-pink", "followers": 12592},
+    {"id": "tapeai", "followers": 3106},
+    {"id": "tape-pool", "followers": 115},
+    {"id": "ape-rush", "followers": 192},
+    {"id": "haalmao", "followers": 18}
+  ],
+  "le2h": ["gaggle-farm", "rivl"],
+  "xReads": 12,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit+score+alert+summary thinking ON",
+  "summary": "本轮新增Promoted；Gaggle Farm与Rivl仍≤2h；Elysium主网11-09粉13348，BTape粉343，AgentPad升至94。",
+  "coverage": {
+    "打新": true,
+    "挖矿": true,
+    "台子": true,
+    "Meme": true,
+    "GO": true,
+    "LZ": true,
+    "Elysium": true,
+    "Tape": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BN Agent钱包": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "push": {
+    "branch": "main",
+    "sha": "PENDING",
+    "files": ["data.json", "ROUND681_RESULT.json", "RESULT_R681.md"],
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "blockers": [
+    "Leeonmort still X Not Found",
+    "discordPeekDeferred=true (parent/computerUse may fill)"
+  ],
+  "clearedPrevNewThisRound": ["playgen"],
+  "remoteVerified": false,
+  "notes": [
+    "Promoted Solana content-incentive launchpad ~1d / 27 foll",
+    "Gaggle Farm LIVE ~12:25 CST still ≤2h",
+    "Rivl still ≤2h until ~13:56 CST",
+    "Elysium mainnet 2026-11-09 / 13348 followers"
+  ]
+}
