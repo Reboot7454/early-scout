@@ -4,7 +4,7 @@
   "completedAt": "2026-10-28 05:40 CST",
   "timezone": "Asia/Shanghai",
   "notify": false,
-  "notifyReason": "no new admits; elysium-punks ≤2h window ended (~05:03 CST) clearedLe2h; push pending",
+  "notifyReason": "no new admits; elysium-punks ≤2h window ended (~05:03 CST) clearedLe2h",
   "alertMessage": "",
   "newAdmits": [],
   "newCount": 0,
@@ -110,10 +110,10 @@
     "blonskrWatch"
   ],
   "push": {
-    "ok": false,
-    "sha": null,
+    "ok": true,
+    "sha": "41c13cdd33e5ff3c9b8711339a62c1226dbf8702",
     "branch": "main",
-    "attempted": false
+    "attempted": true
   },
   "panel": "https://reboot7454.github.io/early-scout/"
 }
