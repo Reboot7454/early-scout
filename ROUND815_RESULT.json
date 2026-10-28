@@ -1,0 +1,153 @@
+{
+  "round": 815,
+  "completedAt": "2026-10-29 04:29 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": false,
+  "notifyReason": "无新收录或≤2h新触发；blindfloor≈T−16.4h非≤2h；LIVE续跑非新触发；X日cap阻塞 soft-brush",
+  "alertMessage": "",
+  "newAdmits": [],
+  "newIds": [],
+  "newCount": 0,
+  "skippedAfterDS": [],
+  "le2h": [
+    {
+      "id": "pulse-launchpad",
+      "note": "Pulse LIVE 续（官网仍可访）；X soft-brush deferred"
+    },
+    {
+      "id": "pick-rush",
+      "note": "$RUSH 挖矿+提现 LIVE 续（未重新验帖）"
+    },
+    {
+      "id": "oathbots",
+      "note": "免费 swear-in / .ai Agent ID LIVE 续（未重新验帖）"
+    },
+    {
+      "id": "halcyx",
+      "note": "PHASE 01–03 LIVE 续（未重新验帖）"
+    },
+    {
+      "id": "blindfloor",
+      "note": "Pons 2026-10-29 21:00 CST ≈T−16.4h — NOT ≤2h"
+    },
+    {
+      "id": "machine-fun",
+      "note": "未确认 LIVE；公开报道指向 10/29；NOT ≤2h"
+    }
+  ],
+  "xReadsUsed": 0,
+  "xCapHit": true,
+  "xCapResetAt": "2026-10-29 08:00 CST",
+  "tenLaneKeywordsComplete": false,
+  "userFollowWatchComplete": false,
+  "mentionsCoverage": [],
+  "mentionsCoverageDeferred": true,
+  "mentionsCoveragePlanned": [
+    "Elysium",
+    "Tape",
+    "GIWA",
+    "DogeEVM",
+    "Starknet",
+    "BTC",
+    "flap",
+    "Irys",
+    "Full.fun",
+    "Arc",
+    "BN Agent pads",
+    "Zero",
+    "squeekchain"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "watchBugsFixed": [
+    "@Contest_fund",
+    "@lineuptrenches",
+    "@blurhooktrade",
+    "@charmdotmarkets",
+    "@borsiotrade",
+    "contest-fund",
+    "lineuptrenches",
+    "blurhooktrade",
+    "charmdotmarkets",
+    "borsiotrade",
+    "@gotchishadows",
+    "gotchishadows",
+    "@nekkofun",
+    "nekkofun",
+    "@getcairva",
+    "@megapowerball4",
+    "@koul__me",
+    "@dogwifjob_sol",
+    "getcairva",
+    "megapowerball4",
+    "koul-me",
+    "dogwifjob-sol",
+    "@v4builder",
+    "@predictdotfun",
+    "v4builder",
+    "predict-fun",
+    "@unisonpad",
+    "@trywarm",
+    "@dot_clash",
+    "@invertumcoin",
+    "@blobonboxa",
+    "@hodlercharacter",
+    "@bitfunnft",
+    "@aiwarsdotfun",
+    "@aigenedotfun",
+    "@grimacecoinrhc",
+    "@theboot_fm",
+    "@agentportraits",
+    "@hermitswap",
+    "@veyoagent",
+    "@am3owlfun",
+    "@zombiesanatomy",
+    "@buildoriel",
+    "@turbocatss",
+    "unisonpad",
+    "trywarm",
+    "dot-clash",
+    "invertumcoin",
+    "blobonboxa",
+    "hodlercharacter",
+    "bitfunnft",
+    "aiwarsdotfun",
+    "aigenedotfun",
+    "grimacecoinrhc",
+    "theboot-fm",
+    "agentportraits",
+    "hermitswap",
+    "veyoagent",
+    "am3owlfun",
+    "zombiesanatomy",
+    "buildoriel",
+    "turbocatss"
+  ],
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R815：X日限已尽至10-29 08:00，xReads=0；UF/十栏/全链 mentions、Discord登录均 deferred，未造假帖；新收录0。blindfloor≈T−16.4h非≤2h，Pulse等LIVE续跑非新触发；补 R814/R811 等在库未进Watch监控bug；软债 canton/glaze/tokenWorks 已刷。",
+  "clearedPrevNewThisRound": [
+    "contest-fund",
+    "lineuptrenches",
+    "blurhooktrade",
+    "charmdotmarkets",
+    "borsiotrade",
+    "gotchishadows"
+  ],
+  "coverage": {
+    "userFollowWatch": "deferred_x_cap",
+    "requiredWatches": "lastChecked_refreshed_no_x_softbrush",
+    "tenLaneKeywords": false,
+    "officialMentionsAllChains": false,
+    "squeekchainMentions": "deferred_x_cap",
+    "discordInRepoPeek": "no_new_after_0400_R814_already_processed",
+    "discordBrowser": "deferred_no_login"
+  },
+  "push": {
+    "attempted": true,
+    "ok": false
+  },
+  "blockers": [
+    "X daily read cap exhausted (1000/day); resets 2026-10-29 08:00 CST / 2026-10-29T00:00:00.000Z",
+    "Discord browser peek deferred (no login); in-repo peek only"
+  ]
+}
