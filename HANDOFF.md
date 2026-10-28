@@ -156,3 +156,9 @@ Jafar 是打新玩家：目标尽量不漏可操作机会，不是固定赛道�
 - 已建卡 `pulse-launchpad`（台子/Meme，`focus:false`），并入 `userFollowWatch` + `agentPadWatch`。
 - **关键词补强**：`PulseLaunchpad` / `$PULSE` / `pulsetoken` / `Pulse launchpad` / `Robinhood launchpad` / `RH agent launchpad`。
 - Live 2026-10-28 15:00 UTC=**23:00 CST**；开台+10M 空投；官网 https://www.pulsetoken.xyz 。
+
+## 2026-10-28 用户点名补收 @localbottomcom（关键词+bio挂靠漏）
+- 库/Watch 此前均无。漏因：关键词未覆盖 `Local Bottom` / `localbottomcom` / `localbottom`；**雷达靠关键词搜帖 + 必盯软刷，不解析他人 bio 挂靠**；`Enter_Elysium` 生态页也不会自动收挂靠号——bio 写了 `@Enter_Elysium` ≠ 会被扫到。
+- 已建卡 `local-bottom`（Elysium 生态 / 打新，`focus:false`，`status:watching`），并入 `meta.userFollowWatch.accounts` + `candidateIds`（**未改其它 Watch**）。
+- **关键词补强（每轮必搜）**：`Local Bottom` / `localbottomcom` / `localbottom`。
+- 事实：粉≈55；2026-10-16 开号；仅 1 帖「Local Bottom is in」（https://x.com/localbottomcom/status/2111091751616123002）；无官网；无可操作 mint 窗。

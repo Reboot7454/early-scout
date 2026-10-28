@@ -8649,7 +8649,8 @@
         "@tandemonl",
         "@studscity",
         "@sidao",
-        "@torchct"
+        "@torchct",
+        "@localbottomcom"
       ],
       "candidateIds": [
         "tape-fractal",
@@ -8718,11 +8719,12 @@
         "tandemonl",
         "studscity",
         "sidao",
-        "torchct"
+        "torchct",
+        "local-bottom"
       ],
       "pending": [],
-      "note": "R784：优先软刷完成（含 mobster FAIR MODE / machine-fun / blobs / sunrig / over / peer / bread / crowded / umia / ComputeRoll / blindfloor 等）；xReads≈20 | R784b 补收 @bscaidrop",
-      "lastChecked": "2026-10-28 20:32",
+      "note": "R784：优先软刷完成（含 mobster FAIR MODE / machine-fun / blobs / sunrig / over / peer / bread / crowded / umia / ComputeRoll / blindfloor 等）；xReads≈20 | R784b 补收 @bscaidrop | R788b 补收 @localbottomcom",
+      "lastChecked": "2026-10-28 20:55",
       "createdAt": "2026-10-28 17:15 CST",
       "sourceRound": 775,
       "r775": "用户点名6项已入 candidates；pending=[]",
@@ -8733,7 +8735,8 @@
       "r781b": "监控bug修复：库内 blobsdotmeme 未进 userFollowWatch，已补 accounts+candidateIds",
       "r784b": "用户点名补收 @bscaidrop → bsc-aidrop；关键词盲捞漏因已记",
       "r785b": "用户点名补收 @PulseLaunchpad → pulse-launchpad；漏因=Pulse/RH pad 专名未进词表",
-      "r786": "soft-brush incl mobster/machine/bscaidrop + new admits; UF complete"
+      "r786": "soft-brush incl mobster/machine/bscaidrop + new admits; UF complete",
+      "r788b": "用户点名补收 @localbottomcom → local-bottom；漏因=关键词未覆盖 + 不解析 bio 挂靠 Enter_Elysium"
     },
     "round775Added": [
       "sunrig",
@@ -8828,6 +8831,11 @@
         "missed": "@PulseLaunchpad / $PULSE / Pulse launchpad",
         "reason": "词表无 Pulse / pulsetoken / Robinhood launchpad 专名；粉少被通用 launchpad 淹没",
         "fix": "每轮关键词必含 PulseLaunchpad / $PULSE / pulsetoken / Pulse launchpad / Robinhood launchpad / RH agent launchpad"
+      },
+      "r788b": {
+        "missed": "@localbottomcom / Local Bottom",
+        "reason": "关键词未覆盖 Local Bottom / localbottomcom；雷达靠关键词搜帖+必盯软刷，不解析他人 bio 挂靠；Enter_Elysium 生态页也不会自动收挂靠号",
+        "fix": "每轮关键词必含 Local Bottom / localbottomcom / localbottom"
       }
     },
     "round786Added": [
@@ -8954,6 +8962,56 @@
     ]
   },
   "candidates": [
+    {
+      "focus": false,
+      "status": "watching",
+      "newThisRound": false,
+      "round": 788,
+      "source": "user-named @localbottomcom 2026-10-28",
+      "id": "local-bottom",
+      "name": "Local Bottom",
+      "summary": "@localbottomcom 是 2026-10-16 新创建的 X 账号，粉丝约 55，仅发过一条「Local Bottom is in」，简介指向 @Enter_Elysium，其生态主网预计约在 2026-11-09 上线。目前项目没有官网，也没有公布任何 mint 或参与细则。",
+      "blurb": "Elysium 生态中的一个仅有单条推文的新账号，只有口号，还没有细则。",
+      "highlights": [
+        "账号 2026-10-16 创建，粉丝约 55，仅 1 条帖文",
+        "简介与帖文均指向 @Enter_Elysium，属于该生态观察名单",
+        "Elysium 主网时间点约在 2026-11-09，可作为跟踪锚点",
+        "因用户点名请求补充收录而被纳入打新栏观察"
+      ],
+      "drawbacks": [
+        "没有官网，也没有文档，唯一信息源是一个单条推文的账号",
+        "尚未公布 mint 时间、价格、白名单或参与方式，无法执行操作",
+        "账号历史极短、粉丝基数小，身份与团队背景无法验证，存在仿冒或蹭热点风险"
+      ],
+      "tags": [
+        "用户点名",
+        "Elysium",
+        "Elysium生态",
+        "打新",
+        "极早期",
+        "有官推",
+        "watching",
+        "挂靠号"
+      ],
+      "category": "打新",
+      "zoneHint": "打新",
+      "zone": "elysium",
+      "handle": "@localbottomcom",
+      "twitter": "@localbottomcom",
+      "ecosystem": "Elysium",
+      "links": {
+        "x": "https://x.com/localbottomcom",
+        "twitter": "https://x.com/localbottomcom",
+        "tweet": "https://x.com/localbottomcom/status/2111091751616123002"
+      },
+      "scores": {
+        "early": 64,
+        "actionable": 12,
+        "novelty": 28,
+        "risk": 84,
+        "overall": 30
+      }
+    },
     {
       "id": "banditdotbot",
       "name": "Bandit",
