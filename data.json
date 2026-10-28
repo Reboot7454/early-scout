@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-28 18:02 CST",
+    "updated": "2026-10-28 18:04 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R692",
-    "lastScout": "2026-10-28 18:02 CST",
+    "lastScout": "2026-10-28 18:04 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -505,7 +505,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 778,
+    "round": 779,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1478,7 +1478,11 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "prompt-injected"
+      "blindfloor",
+      "agentshift_id",
+      "deadpacksol",
+      "agoraonbsc",
+      "butterflymrkt"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -3130,18 +3134,18 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-10-28 17:20 CST",
-      "lastChecked": "2026-10-28 18:02 CST",
-      "newestCardTime": "2026-10-28 17:20 CST",
+      "deferred": false,
+      "lastSeen": "2026-10-28 17:58 CST",
+      "lastChecked": "2026-10-28 18:04 CST",
+      "newestCardTime": "2026-10-28 17:58 CST",
       "cardsAfterCutoff": 1,
-      "note": "R776：Discord alpha 补收 bagverse,agentsyndicatee,rapthesheet,hoodlingsgamefi,toritoteamusa,mintrabnb；跳过 [{'id': 'tokelyai', 'reason': 'AI API中转，非链上打新项目'}, {'id': 'bnbaibsc', 'reason': '仅一句AI launchpad简介，空壳无产品线索'}, {'id': 'wispi_lol', 'reason': '描述模糊，无链上产品或发行线索'}, {'id': 'chromax402', 'reason': 'AI API聚合与按token付费，非链上打新'}, {'id': 'tangiosite', 'reason': '预测市场类别不符，且链与发行信息不明'}, {'id': 'gomainstream_', 'reason': '泛泛描述消费链上资产，空壳无产品'}, {'id': 'superiguanarh', 'reason': '纯meme叙事蹭热点，无实际产品'}, {'id': 'dotworkrh', 'reason': 'Build your own layer一句话，空壳'}, {'id': 'coldtill', 'reason': '冷钱包收款产品描述模糊，无发行线索'}]；清 umia-finance,crowdedfun,joinbread,peerxyz,over-computer,sunrig,hodl-dance；lastSeen→2026-10-28 17:20 CST；lastChecked→2026-10-28 17:24 CST | R778：仓内 DISCORD_ALPHA_40 无新于 17:20 CST lastSeen；未登录；discordPeekDeferred=true",
-      "lastRound": 776,
+      "note": "R779：Discord alpha 补收 blindfloor,agentshift_id,deadpacksol,agoraonbsc,butterflymrkt；跳过 [{'id': 'prismpayxyz', 'reason': '泛泛加密支付/跨链兑换服务，无发射、mint或玩法线索'}, {'id': 'sendrstonk', 'reason': '费用分发工具偏服务，无明确发射、铸造或玩法线索'}, {'id': 'inkaistudio', 'reason': 'AI内容工作室，无发射、mint或可玩产品线索'}, {'id': 'mstychallenge26', 'reason': '纯倒计时预告，无实质内容'}, {'id': 'gta6cc_dev', 'reason': '仅GTA6/CC短语，无产品、发射或玩法信息'}, {'id': 'looftaxyz', 'reason': '粉丝约4.8k偏成熟，且为支付/工作力平台服务，非极早期发射'}, {'id': 'openxwallet', 'reason': '泛泛钱包服务，无发射、mint或玩法线索'}]；清 prompt-injected；lastSeen→2026-10-28 17:58 CST；lastChecked→2026-10-28 18:04 CST",
+      "lastRound": 779,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-28 17:20 CST",
-        "alpha-1-backup": "2026-10-28 16:58 CST",
-        "smart-accounts-tracker": "2026-10-28 17:02 CST",
-        "alpha-1": "2026-10-28 17:19 CST"
+        "alpha-3-new-accounts": "2026-10-28 17:58 CST",
+        "alpha-1-backup": "2026-10-28 17:43 CST",
+        "smart-accounts-tracker": "2026-10-28 17:54 CST",
+        "alpha-1": "2026-10-28 17:35 CST"
       }
     },
     "round239Added": [
@@ -8581,9 +8585,252 @@
     },
     "round778Added": [
       "prompt-injected"
+    ],
+    "round779Added": [
+      "blindfloor",
+      "agentshift_id",
+      "deadpacksol",
+      "agoraonbsc",
+      "butterflymrkt"
     ]
   },
   "candidates": [
+    {
+      "id": "butterflymrkt",
+      "name": "butterfly",
+      "handle": "@butterflymrkt",
+      "twitter": "@butterflymrkt",
+      "chain": "未披露",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "期权",
+        "AMM流动性",
+        "DeFi",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/butterflymrkt"
+      },
+      "scores": {
+        "early": 8,
+        "potential": 6,
+        "risk": 7
+      },
+      "highlights": [
+        "用现有AMM流动性做期权",
+        "产品方向具体但简洁",
+        "89粉丝处于早期"
+      ],
+      "drawbacks": [
+        "无发射/铸造时间",
+        "链与合约未披露",
+        "风险模型未展示"
+      ],
+      "whatsNew": "提出基于AMM流动性的期权市场",
+      "summary": "探索用现有AMM流动性构建期权产品的早期DeFi项目",
+      "blurb": "探索用现有AMM流动性构建期权产品的早期DeFi项目",
+      "round": 779,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 89,
+      "xFollowers": 89,
+      "firstSeen": "2026-10-28 18:04 CST",
+      "addedAt": "2026-10-28 18:04 CST",
+      "lastChecked": "2026-10-28 18:04 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "agoraonbsc",
+      "name": "Agora",
+      "handle": "@agoraonbsc",
+      "twitter": "@agoraonbsc",
+      "chain": "BSC",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "AI agent",
+        "交易量挖矿",
+        "0团队",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/agoraonbsc"
+      },
+      "scores": {
+        "early": 7,
+        "potential": 6,
+        "risk": 9
+      },
+      "highlights": [
+        "BSC上的AI agent town定位",
+        "每笔.ai agent交易0.1%进入金库",
+        "金库买$AGORA并按2%/小时分配"
+      ],
+      "drawbacks": [
+        "2%/小时高收益不可持续",
+        "0团队匿名",
+        "真实交易量与产品落地未验证"
+      ],
+      "whatsNew": "推出首个交易量挖矿与金库分配机制",
+      "summary": "BSC上以AI agent交易量挖矿为核心的早期项目",
+      "blurb": "BSC上以AI agent交易量挖矿为核心的早期项目",
+      "round": 779,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 93,
+      "xFollowers": 93,
+      "firstSeen": "2026-10-28 18:04 CST",
+      "addedAt": "2026-10-28 18:04 CST",
+      "lastChecked": "2026-10-28 18:04 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
+    {
+      "id": "deadpacksol",
+      "name": "Dead Pack",
+      "handle": "@deadpacksol",
+      "twitter": "@deadpacksol",
+      "chain": "Solana",
+      "category": "GO盘",
+      "ecosystem": "",
+      "tags": [
+        "创作者签到",
+        "费用燃烧",
+        "SOL神秘包",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/deadpacksol"
+      },
+      "scores": {
+        "early": 9,
+        "potential": 6,
+        "risk": 8
+      },
+      "highlights": [
+        "创作者每周签到否则抵押费用燃烧",
+        "交易费注入金库并形成神秘包奖励",
+        "SOL奖励与生存机制结合"
+      ],
+      "drawbacks": [
+        "无代币/铸造时间与合约",
+        "奖励机制可持续性未验证",
+        "粉丝仅7人"
+      ],
+      "whatsNew": "公开每周签到燃烧与SOL神秘包奖励机制",
+      "summary": "围绕创作者签到、费用燃烧和SOL神秘包的早期玩法项目",
+      "blurb": "围绕创作者签到、费用燃烧和SOL神秘包的早期玩法项目",
+      "round": 779,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 7,
+      "xFollowers": 7,
+      "firstSeen": "2026-10-28 18:04 CST",
+      "addedAt": "2026-10-28 18:04 CST",
+      "lastChecked": "2026-10-28 18:04 CST",
+      "zoneHint": "GO盘",
+      "newThisRound": true
+    },
+    {
+      "id": "agentshift_id",
+      "name": "Agent Shift",
+      "handle": "@agentshift_id",
+      "twitter": "@agentshift_id",
+      "chain": "BNB Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "Agent ID",
+        "Genesis NFT",
+        "4,444枚",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/agentshift_id"
+      },
+      "scores": {
+        "early": 9,
+        "potential": 5,
+        "risk": 8
+      },
+      "highlights": [
+        "定位BNB Chain上的Agent ID生态",
+        "明确4,444枚Agent Shift Genesis NFT",
+        "0粉丝且处于概念/铸造早期"
+      ],
+      "drawbacks": [
+        "无铸造时间、价格与链接",
+        "产品描述偏概念",
+        "依赖Agent ID叙事"
+      ],
+      "whatsNew": "披露Agent Shift Genesis NFT计划",
+      "summary": "BNB Chain上围绕Agent ID与4,444枚Genesis NFT的早期铸造项目",
+      "blurb": "BNB Chain上围绕Agent ID与4,444枚Genesis NFT的早期铸造项目",
+      "round": 779,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-28 18:04 CST",
+      "addedAt": "2026-10-28 18:04 CST",
+      "lastChecked": "2026-10-28 18:04 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "blindfloor",
+      "name": "Blindfloor",
+      "handle": "@blindfloor",
+      "twitter": "@blindfloor",
+      "chain": "Robinhood Chain（Pons）",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "Robinhood股票代币",
+        "隐藏止损",
+        "Pons发射",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/blindfloor"
+      },
+      "scores": {
+        "early": 9,
+        "potential": 5,
+        "risk": 8
+      },
+      "highlights": [
+        "针对Robinhood股票代币的隐藏止损产品",
+        "代币将在Pons上线并给出具体时间",
+        "0粉丝且非Robinhood官方，独立早期"
+      ],
+      "drawbacks": [
+        "链、合约与产品细节未披露",
+        "依赖Robinhood股票代币生态",
+        "产品未经验证且粉丝为0"
+      ],
+      "whatsNew": "宣布代币将于10月29日13:00 UTC在Pons上线",
+      "summary": "为Robinhood股票代币提供隐藏止损，并计划在Pons发射代币的早期项目",
+      "blurb": "为Robinhood股票代币提供隐藏止损，并计划在Pons发射代币的早期项目",
+      "round": 779,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-28 18:04 CST",
+      "addedAt": "2026-10-28 18:04 CST",
+      "lastChecked": "2026-10-28 18:04 CST",
+      "zoneHint": "打新",
+      "newThisRound": true,
+      "schedule": "Pons 代币上线 2026-10-29 21:00 CST（13:00 UTC）"
+    },
     {
       "id": "mintrabnb",
       "name": "Mintra Protocol",
@@ -121811,7 +122058,7 @@
       "addedAt": "2026-10-28 18:02 CST",
       "lastChecked": "2026-10-28 18:02 CST",
       "zoneHint": "打新",
-      "newThisRound": true,
+      "newThisRound": false,
       "schedule": {
         "status": "live",
         "timezone": "Asia/Shanghai",
@@ -121827,20 +122074,24 @@
     }
   ],
   "newThisRound": [
-    "prompt-injected"
+    "blindfloor",
+    "agentshift_id",
+    "deadpacksol",
+    "agoraonbsc",
+    "butterflymrkt"
   ],
-  "alertMessage": "R778新收 Prompt Injected（@ZoblinsZEC，Agent ID LIVE）；QUOGENT/OnlyAi/Crystals/Hallucinated/ComputeRoll仍可操作，今晚20:00 TATO/CityHunters/UBI已进≤2h。面板：https://reboot7454.github.io/early-scout/",
+  "alertMessage": "R779 DC补漏新收5：打新 Blindfloor(@blindfloor 隐藏止损，Pons 10/29 21:00 CST 上币)、Agent Shift(@AgentShift_id BNB 4444 Genesis NFT)；挖矿 Agora(@Agoraonbsc BSC agent交易量挖矿)；GO盘 Dead Pack(@DeadPackSol SOL签到+神秘包)；台子/Meme butterfly(@butterflymrkt AMM期权) → https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "hoodmon",
     "tato-tapeout"
   ],
-  "updatedAt": "2026-10-28T18:02:28+08:00",
-  "updated": "2026-10-28 18:02 CST",
+  "updatedAt": "2026-10-28 18:04 CST",
+  "updated": "2026-10-28 18:04 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-28 18:02 CST",
+  "lastScout": "2026-10-28 18:04 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -121882,7 +122133,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1726,
+  "candidateCount": 1731,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -122769,5 +123020,12 @@
   ],
   "round778Added": [
     "prompt-injected"
+  ],
+  "round779Added": [
+    "blindfloor",
+    "agentshift_id",
+    "deadpacksol",
+    "agoraonbsc",
+    "butterflymrkt"
   ]
 }

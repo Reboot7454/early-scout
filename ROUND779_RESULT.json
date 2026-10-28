@@ -1,0 +1,85 @@
+{
+  "round": 779,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-28 18:04 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "blindfloor",
+    "agentshift_id",
+    "deadpacksol",
+    "agoraonbsc",
+    "butterflymrkt"
+  ],
+  "newCount": 5,
+  "newIds": [
+    "blindfloor",
+    "agentshift_id",
+    "deadpacksol",
+    "agoraonbsc",
+    "butterflymrkt"
+  ],
+  "skipped": [
+    {
+      "id": "prismpayxyz",
+      "reason": "泛泛加密支付/跨链兑换服务，无发射、mint或玩法线索"
+    },
+    {
+      "id": "sendrstonk",
+      "reason": "费用分发工具偏服务，无明确发射、铸造或玩法线索"
+    },
+    {
+      "id": "inkaistudio",
+      "reason": "AI内容工作室，无发射、mint或可玩产品线索"
+    },
+    {
+      "id": "mstychallenge26",
+      "reason": "纯倒计时预告，无实质内容"
+    },
+    {
+      "id": "gta6cc_dev",
+      "reason": "仅GTA6/CC短语，无产品、发射或玩法信息"
+    },
+    {
+      "id": "looftaxyz",
+      "reason": "粉丝约4.8k偏成熟，且为支付/工作力平台服务，非极早期发射"
+    },
+    {
+      "id": "openxwallet",
+      "reason": "泛泛钱包服务，无发射、mint或玩法线索"
+    }
+  ],
+  "cardsAfterLastSeen": 1,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "prompt-injected"
+  ],
+  "candidateFlagsCleared": 1,
+  "topNewThisRoundCleared": [
+    "prompt-injected"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=12",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-28 17:58 CST",
+    "lastChecked": "2026-10-28 18:04 CST",
+    "newestCardTime": "2026-10-28 17:58 CST",
+    "cardsAfterCutoff": 1,
+    "note": "R779：Discord alpha 补收 blindfloor,agentshift_id,deadpacksol,agoraonbsc,butterflymrkt；跳过 [{'id': 'prismpayxyz', 'reason': '泛泛加密支付/跨链兑换服务，无发射、mint或玩法线索'}, {'id': 'sendrstonk', 'reason': '费用分发工具偏服务，无明确发射、铸造或玩法线索'}, {'id': 'inkaistudio', 'reason': 'AI内容工作室，无发射、mint或可玩产品线索'}, {'id': 'mstychallenge26', 'reason': '纯倒计时预告，无实质内容'}, {'id': 'gta6cc_dev', 'reason': '仅GTA6/CC短语，无产品、发射或玩法信息'}, {'id': 'looftaxyz', 'reason': '粉丝约4.8k偏成熟，且为支付/工作力平台服务，非极早期发射'}, {'id': 'openxwallet', 'reason': '泛泛钱包服务，无发射、mint或玩法线索'}]；清 prompt-injected；lastSeen→2026-10-28 17:58 CST；lastChecked→2026-10-28 18:04 CST",
+    "lastRound": 779
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R779：Discord alpha 补收 blindfloor,agentshift_id,deadpacksol,agoraonbsc,butterflymrkt；跳过 [{'id': 'prismpayxyz', 'reason': '泛泛加密支付/跨链兑换服务，无发射、mint或玩法线索'}, {'id': 'sendrstonk', 'reason': '费用分发工具偏服务，无明确发射、铸造或玩法线索'}, {'id': 'inkaistudio', 'reason': 'AI内容工作室，无发射、mint或可玩产品线索'}, {'id': 'mstychallenge26', 'reason': '纯倒计时预告，无实质内容'}, {'id': 'gta6cc_dev', 'reason': '仅GTA6/CC短语，无产品、发射或玩法信息'}, {'id': 'looftaxyz', 'reason': '粉丝约4.8k偏成熟，且为支付/工作力平台服务，非极早期发射'}, {'id': 'openxwallet', 'reason': '泛泛钱包服务，无发射、mint或玩法线索'}]；清 prompt-injected；lastSeen→2026-10-28 17:58 CST；lastChecked→2026-10-28 18:04 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261028_1810.json",
+  "priorRoundNote": "R778 meta NTR ['prompt-injected']; cardsAfterCutoff=1"
+}
