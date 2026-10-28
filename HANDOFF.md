@@ -168,3 +168,10 @@ Jafar 是打新玩家：目标尽量不漏可操作机会，不是固定赛道�
 - **禁止只扫 Elysium**；Tape / GIWA / Zero / DogeEVM / Starknet / BTC / flap / Irys / Full.fun / Arc / BN Agent pad 等 Watch 官号同等。
 - 雷达不解析全网 bio；靠 mentions + 关键词专名补漏。RESULT 简述本轮 mentions 覆盖了哪些链。
 
+
+## 2026-10-28 用户点名补收 @Carcosasa（关键词+0帖漏）
+- 库/Watch 此前均无。漏因：关键词未覆盖 `Carcosa` / `Carcosasa` / `carcosa`；官号 **tweet_count=0**，盲搜帖文几乎无法命中，仅靠社区 Pool Updates 引流。
+- 已建卡 `carcosa`（台子/Meme，`focus:false`，`status:watching`），并入 `meta.userFollowWatch.accounts` + `candidateIds`（**未改其它 Watch**）。
+- 语境：与 `@metricxyz`（Metric DEX）相关；`@Fahid77077` Pool Updates（MU/USDG、SPY/USDG、QQQ）写 Follow `@Carcosasa`（https://x.com/Fahid77077/status/2115316938062921944）。
+- 事实：粉≈46；2026-10-23 开号；bio 空；0 帖；无官网；无可操作窗。
+- **关键词补强（每轮必搜）**：`Carcosa` / `Carcosasa` / `carcosa`（`meta.keywordGaps.r795b`）。
