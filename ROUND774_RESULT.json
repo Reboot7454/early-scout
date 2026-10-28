@@ -1,77 +1,278 @@
 {
   "round": 774,
-  "mode": "discord-alpha-40",
-  "completedAt": "2026-10-28 16:37 CST",
+  "mode": "full-radar+discord-alpha-merge",
+  "completedAt": "2026-10-28 16:39 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
-  "notifyReason": "new_admits",
-  "alertMessage": "DC补漏R774新收4：error8888、refractdotfun、brewasian、realbondai → https://reboot7454.github.io/early-scout/",
+  "notifyReason": "new_admits_and_le2h_live_free_mint",
+  "alertMessage": "新增5项（error8888/refractdotfun/brewasian/realbondai/kforge）：DC补漏4+新收KForge（Kaspa L1公平发射，主网2026-11-04）；LIVE免费mint续 onchain-crystals/hallucinated-agents；今晚20:00起TATO/UBI/CityHunters等非≤2h，详见 https://reboot7454.github.io/early-scout/",
   "newAdmits": [
-    "error8888",
-    "refractdotfun",
-    "brewasian",
-    "realbondai"
+    {
+      "id": "error8888",
+      "source": "discord-alpha"
+    },
+    {
+      "id": "refractdotfun",
+      "source": "discord-alpha"
+    },
+    {
+      "id": "brewasian",
+      "source": "discord-alpha"
+    },
+    {
+      "id": "realbondai",
+      "source": "discord-alpha"
+    },
+    {
+      "id": "kforge",
+      "source": "radar",
+      "name": "KForge",
+      "note": "Kaspa L1 fair-launch pad，主网2026-11-04"
+    }
   ],
-  "newCount": 4,
+  "newCount": 5,
   "newIds": [
     "error8888",
     "refractdotfun",
     "brewasian",
-    "realbondai"
+    "realbondai",
+    "kforge"
+  ],
+  "round774Added": [
+    "error8888",
+    "refractdotfun",
+    "brewasian",
+    "realbondai",
+    "kforge"
   ],
   "skipped": [
     {
+      "id": "agent-doges",
+      "reason": "同号ZoblinsZEC已收hallucinated-agents；多发低粉同号mint跳过"
+    },
+    {
+      "id": "apepe-agents",
+      "reason": "同号ZoblinsZEC $APEPE；跳过同号喷发"
+    },
+    {
+      "id": "Leeonmort",
+      "reason": "X username Not Found，卡xuanwu-sigil保留"
+    },
+    {
+      "id": "hoodmon-waitlist-spam",
+      "reason": "已收录hoodmon"
+    },
+    {
+      "id": "kalosfun",
+      "reason": "已收录软更"
+    },
+    {
+      "id": "nulora",
+      "reason": "已收录软更mint 11-04"
+    },
+    {
+      "id": "fomopoly",
+      "reason": "已收录WL续"
+    },
+    {
+      "id": "companions-wfit",
+      "reason": "已收录quest/TBA"
+    },
+    {
+      "id": "jager",
+      "reason": "已收录paused"
+    },
+    {
+      "id": "ammora",
+      "reason": "已收录GIWA"
+    },
+    {
+      "id": "giwaup",
+      "reason": "已收录Tilekeepers"
+    },
+    {
       "id": "monnatheskunk",
-      "reason": "仅 $SKUNK 在 NEAR 的纯 meme 描述，无合约、无玩法、无产品信息。"
+      "reason": "DC skip 纯meme"
     },
     {
       "id": "cactuspadonbase",
-      "reason": "仅一句「Built on Base」，无任何产品或发射细节，空壳号。"
+      "reason": "DC skip 空壳"
     },
     {
       "id": "chonkycat_x",
-      "reason": "纯 meme 文案，无合约、无玩法、无产品线索。"
+      "reason": "DC skip 纯meme"
     },
     {
       "id": "lauren28ij3",
-      "reason": "简介指向 pages.dev 小游戏，无加密产品、无合约与代币信息。"
-    },
-    {
-      "id": "anything_solana",
-      "reason": "简介只有 $anything 四个字，无合约、无玩法、无产品信息。"
+      "reason": "DC skip 无加密产品"
     }
   ],
-  "cardsAfterLastSeen": 1,
+  "updated": [
+    {
+      "id": "onchain-crystals",
+      "note": "R774 soft：仍LIVE前2免费"
+    },
+    {
+      "id": "hallucinated-agents",
+      "note": "R774 soft：仍LIVE前2免费"
+    },
+    {
+      "id": "bitcointapes",
+      "note": "R774 soft：273/1000续"
+    },
+    {
+      "id": "computeroll",
+      "note": "R774 soft：Mining未开；粉≈394"
+    },
+    {
+      "id": "tato-tapeout",
+      "note": "今晚20:00CST非≤2h"
+    },
+    {
+      "id": "city-hunters",
+      "note": "今晚20:00CST非≤2h"
+    },
+    {
+      "id": "ubidotfun",
+      "note": "Agents v2 今晚20:00CST非≤2h"
+    },
+    {
+      "id": "world-ygg",
+      "note": "今晚21:00CST非≤2h"
+    },
+    {
+      "id": "reynarlabs",
+      "note": "$REYN 今晚21:00CST非≤2h"
+    },
+    {
+      "id": "puttcroft",
+      "note": "今晚22:00CST非≤2h"
+    },
+    {
+      "id": "hoodmon",
+      "note": "今晚22:00CST非≤2h"
+    },
+    {
+      "id": "play-farmfi",
+      "note": "今晚23:00CST非≤2h"
+    },
+    {
+      "id": "ptah-trade",
+      "note": "POA Day4奖池≈$12k"
+    },
+    {
+      "id": "enter-elysium",
+      "note": "主网11-09续"
+    },
+    {
+      "id": "nulora",
+      "note": "mint 11-04 15:00UTC"
+    },
+    {
+      "id": "kalosfun",
+      "note": "粉≈3794"
+    },
+    {
+      "id": "sprite-fun",
+      "note": "停建不变"
+    },
+    {
+      "id": "mobster",
+      "note": "$MOB graduated续"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "onchain-crystals",
+      "note": "Agent免费mint仍LIVE，前2免费"
+    },
+    {
+      "id": "hallucinated-agents",
+      "note": "FREE mint LIVE前2免费"
+    }
+  ],
+  "tonight": [
+    {
+      "id": "tato-tapeout",
+      "at": "2026-10-28 20:00 CST"
+    },
+    {
+      "id": "city-hunters",
+      "at": "2026-10-28 20:00 CST"
+    },
+    {
+      "id": "ubidotfun",
+      "at": "2026-10-28 20:00 CST"
+    },
+    {
+      "id": "world-ygg",
+      "at": "2026-10-28 21:00 CST"
+    },
+    {
+      "id": "reynarlabs",
+      "at": "2026-10-28 21:00 CST"
+    },
+    {
+      "id": "puttcroft",
+      "at": "2026-10-28 22:00 CST"
+    },
+    {
+      "id": "hoodmon",
+      "at": "2026-10-28 22:00 CST"
+    },
+    {
+      "id": "play-farmfi",
+      "at": "2026-10-28 23:00 CST"
+    }
+  ],
+  "xReads": 21,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash radar_admit+score+alert; discord_alpha prior DS; merge alert regen",
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent钱包/Tape/Kaspa；均等覆盖；新收kforge",
+  "watchesSoft": [
+    "agentMiningWatch",
+    "agentPadWatch",
+    "agentTradingWatch",
+    "arcPadWatch",
+    "blonskrWatch",
+    "btcCrc20Watch",
+    "btcPrivacyWatch",
+    "cantonPadWatch",
+    "dogeEvmWatch",
+    "elysiumWatch",
+    "flapPadWatch",
+    "flaunchWatch",
+    "focusWatch",
+    "fullFunWatch",
+    "giwaWatch",
+    "glazeWatch",
+    "injectiveLaunchWatch",
+    "irysPadWatch",
+    "kinetiqWatch",
+    "layerZeroWatch",
+    "midstateWatch",
+    "miningWatch",
+    "paperbirdWatch",
+    "starcatWatch",
+    "starknetWatch",
+    "tapeOutWatch",
+    "tapeWatch",
+    "tokenWorksPlaygroundWatch",
+    "tokenWorksWatch",
+    "xChainPadWatch",
+    "zeroWatch"
+  ],
+  "discordPeekDeferred": false,
+  "discordAlphaMerged": true,
   "clearedPrevNewThisRound": true,
   "prevNewThisRoundCleared": [],
-  "candidateFlagsCleared": 0,
-  "topNewThisRoundCleared": [],
-  "discordPeekDeferred": false,
-  "dsFallback": false,
-  "dsUsage": "deepseek-flash admits=9",
-  "coverage": "discord-alpha alpha-3/backup/smart/alpha-1",
-  "discordAlphaPeek": {
-    "deferred": false,
-    "lastSeen": "2026-10-28 16:33 CST",
-    "lastChecked": "2026-10-28 16:37 CST",
-    "newestCardTime": "2026-10-28 16:33 CST",
-    "cardsAfterCutoff": 1,
-    "note": "R774：Discord alpha 补收 error8888,refractdotfun,brewasian,realbondai；跳过 [{'id': 'monnatheskunk', 'reason': '仅 $SKUNK 在 NEAR 的纯 meme 描述，无合约、无玩法、无产品信息。'}, {'id': 'cactuspadonbase', 'reason': '仅一句「Built on Base」，无任何产品或发射细节，空壳号。'}, {'id': 'chonkycat_x', 'reason': '纯 meme 文案，无合约、无玩法、无产品线索。'}, {'id': 'lauren28ij3', 'reason': '简介指向 pages.dev 小游戏，无加密产品、无合约与代币信息。'}, {'id': 'anything_solana', 'reason': '简介只有 $anything 四个字，无合约、无玩法、无产品信息。'}]；lastSeen→2026-10-28 16:33 CST；lastChecked→2026-10-28 16:37 CST",
-    "lastRound": 774,
-    "lastSeenByChannel": {
-      "alpha-3-new-accounts": "2026-10-28 16:30 CST",
-      "alpha-1-backup": "2026-10-28 16:13 CST",
-      "smart-accounts-tracker": "2026-10-28 16:31 CST",
-      "alpha-1": "2026-10-28 16:33 CST"
-    }
-  },
   "push": {
     "attempted": false,
-    "ok": false
+    "ok": false,
+    "sha": null,
+    "ref": "main"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
-  "summary": "R774：Discord alpha 补收 error8888,refractdotfun,brewasian,realbondai；跳过 [{'id': 'monnatheskunk', 'reason': '仅 $SKUNK 在 NEAR 的纯 meme 描述，无合约、无玩法、无产品信息。'}, {'id': 'cactuspadonbase', 'reason': '仅一句「Built on Base」，无任何产品或发射细节，空壳号。'}, {'id': 'chonkycat_x', 'reason': '纯 meme 文案，无合约、无玩法、无产品线索。'}, {'id': 'lauren28ij3', 'reason': '简介指向 pages.dev 小游戏，无加密产品、无合约与代币信息。'}, {'id': 'anything_solana', 'reason': '简介只有 $anything 四个字，无合约、无玩法、无产品信息。'}]；lastSeen→2026-10-28 16:33 CST；lastChecked→2026-10-28 16:37 CST",
-  "remoteVerified": false,
-  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261028_1636.json",
-  "priorRoundNote": "R773 meta NTR []; cardsAfterCutoff=1"
+  "summary": "R774全覆盖：DC补漏4+雷达新收KForge；Crystals/Hallucinated仍≤2h LIVE；今晚TATO/CityHunters/UBI 20:00、YGG/REYN 21:00、Puttcroft/Hoodmon 22:00、FarmFi 23:00均未进≤2h；BTape 273/1000；computeroll Mining未开；Discord已并入本轮。",
+  "mergeNote": "remote 5d25f79 已先推 DC R774 4卡；本推合并雷达 kforge+soft+meta/alert"
 }
