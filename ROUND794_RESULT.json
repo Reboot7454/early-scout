@@ -1,0 +1,171 @@
+{
+  "round": 794,
+  "completedAt": "2026-10-28 22:36 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+le2h",
+  "alertMessage": "本轮新收录：elychest(Elysium发射台公测转主网)、memeko(Elysium nekopad预热)、alphabet-stonk(Stonk主网LIVE跨链发射)、wick-robinhood(RH×Lighter永续发射台极早期)。≤2h：hoodmon FREE mint进行中；pick-rush/play-farmfi/pulse≈23:00 CST；computeroll/world-ygg/reynarlabs LIVE。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "elychest",
+    "memeko",
+    "alphabet-stonk",
+    "wick-robinhood"
+  ],
+  "newCount": 4,
+  "newIds": [
+    "elychest",
+    "memeko",
+    "alphabet-stonk",
+    "wick-robinhood"
+  ],
+  "le2h": [
+    {
+      "id": "hoodmon",
+      "note": "Genesis FREE mint 22:00 CST 已开/进行中",
+      "untilApprox": "进行中"
+    },
+    {
+      "id": "pick-rush",
+      "note": "$RUSH launch 23:00 CST",
+      "untilApprox": "23:00 CST"
+    },
+    {
+      "id": "play-farmfi",
+      "note": "Genesis Farm mint 23:00 CST起",
+      "untilApprox": "23:00 CST"
+    },
+    {
+      "id": "pulse-launchpad",
+      "note": "$PULSE Live 23:00 CST",
+      "untilApprox": "23:00 CST"
+    },
+    {
+      "id": "computeroll",
+      "note": "mining LIVE on BSC",
+      "untilApprox": "LIVE"
+    },
+    {
+      "id": "world-ygg",
+      "note": "Agent ID Tree mint LIVE",
+      "untilApprox": "LIVE"
+    },
+    {
+      "id": "reynarlabs",
+      "note": "$REYN LIVE on Pons",
+      "untilApprox": "LIVE"
+    }
+  ],
+  "xReadsUsed": 48,
+  "userFollowWatchComplete": true,
+  "tenLaneKeywordsComplete": true,
+  "mentionsCoverage": [
+    "Elysium",
+    "Tape",
+    "GIWA",
+    "DogeEVM",
+    "Starknet",
+    "flap",
+    "Irys",
+    "Full.fun",
+    "Arc",
+    "BTC"
+  ],
+  "mentionsCoverageNote": "Equal effort all watched chains; Enter_Elysium/TapeAIAgent+Blonskr/GIWA/DogeOS/Starknet/flap/Irys/Full.fun/UBI/ShieldedNaka mentions+kw; Full.fun mentions empty this window. BN Agent pads via userFollow+agentPad soft-brush+kw.",
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit+score thinking ON; admit=7 score=5 finalAdmits=4",
+  "watchBugsFixed": [
+    {
+      "id": "madang-fun",
+      "addedTo": "giwaWatch",
+      "note": "in-library GIWA launchpad missing from giwaWatch"
+    },
+    {
+      "id": "local-bottom",
+      "addedTo": "elysiumWatch",
+      "note": "bio/posts is in on @Enter_Elysium; was only userFollow"
+    },
+    {
+      "id": "elychest",
+      "addedTo": "elysiumWatch",
+      "note": "new admit → Watch"
+    },
+    {
+      "id": "memeko",
+      "addedTo": "elysiumWatch",
+      "note": "new admit → Watch"
+    },
+    {
+      "id": "alphabet-stonk",
+      "addedTo": "agentPadWatch",
+      "note": "new admit → Watch"
+    },
+    {
+      "id": "wick-robinhood",
+      "addedTo": "agentPadWatch",
+      "note": "new admit → Watch"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "elys-inscriptions",
+    "karmafuckers"
+  ],
+  "skippedHot": [
+    {
+      "id": "itia",
+      "reason": "粉≈31k 已较热（IThinkItsArt）"
+    },
+    {
+      "id": "eslashacc",
+      "reason": "社区/加速器无明确mint/launch窗口"
+    },
+    {
+      "id": "shift-hl",
+      "reason": "LP工具非打新窗口"
+    },
+    {
+      "id": "zerolings",
+      "reason": "score admit:false 账号今日新建0粉风险过高"
+    },
+    {
+      "id": "naddotfun",
+      "reason": "粉≈119k 过热"
+    },
+    {
+      "id": "Stockereum",
+      "reason": "粉≈5k 偏热"
+    }
+  ],
+  "softDebtRefreshed": [
+    "userFollowWatch",
+    "agentPadWatch",
+    "elysiumWatch",
+    "tapeWatch",
+    "tapeOutWatch",
+    "giwaWatch",
+    "dogeEvmWatch",
+    "starknetWatch",
+    "btcPrivacyWatch",
+    "flapPadWatch",
+    "irysPadWatch",
+    "fullFunWatch",
+    "arcPadWatch",
+    "kinetiqWatch",
+    "zeroWatch",
+    "miningWatch",
+    "agentMiningWatch",
+    "freeMintWatch",
+    "cantonPadWatch",
+    "glazeWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch"
+  ],
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "push": {
+    "attempted": false,
+    "ok": false,
+    "sha": null
+  },
+  "summary": "R794：新收4（elychest/memeko/alphabet-stonk/wick-robinhood）；≤2h hoodmon进行中 + pick-rush/farmfi/pulse≈23:00 + computeroll/ygg/reyn LIVE；十车道kw全跑；官号mentions覆盖Elysium/Tape/GIWA/Doge/Starknet/flap/Irys/Full/Arc/BTC；Discord deferred；修madang-fun/local-bottom Watch漏挂。"
+}
