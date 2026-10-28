@@ -145,3 +145,7 @@ Jafar 是打新玩家：目标尽量不漏可操作机会，不是固定赛道�
 - 已建卡 `bsc-aidrop`（BN Agent 钱包，`focus:false`），并入 `userFollowWatch` + `agentPadWatch`。
 - **关键词补强（每轮必搜）**：`AIDROP` / `bscaidrop` / `币安.ai空投` / `.ai airdrop` / `Binance agent airdrop` / `agent钱包空投`。
 - $AIDROP BSC；2% 税回购；.ai 持有者登记约 6U；每日 00:00；CA 未核实。
+
+## 2026-10-28 用户确认：X 额度足够
+- **勿为省额度砍关键词盲捞或整栏跳过**；十栏+必扫链每轮跑全，可深翻页。
+- 关注表加强 ≠ 发现；偏科（只刷 BN/关注表）禁止。RESULT 写明十栏关键词是否跑全。
