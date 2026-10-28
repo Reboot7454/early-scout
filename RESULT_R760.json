@@ -1,0 +1,172 @@
+{
+  "round": 760,
+  "mode": "full-radar",
+  "completedAt": "2026-10-28 12:31 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+le2h",
+  "alertMessage": "新收录 SiDAO、Torch；≤2h 可操作：Onchain Crystals 免费 mint 5555 仍 LIVE、Robinians RH 免费 mint、Bitcointapes 免费 mint 续至≈273/1000、Jager 官推称继续 mint；面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "sidao",
+      "reason": "极早期 Solana launchpad，官推新建仅29粉，0平台费/0创建者费且已可发币，符合早期台子窗口。"
+    },
+    {
+      "id": "torchct",
+      "reason": "Robinhood Chain creator marketplace，Genesis NFT free mint 仍在早期，$TRCH 约25k MC 未过热，可收录观察。"
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "sidao",
+    "torchct"
+  ],
+  "round760Added": [
+    "sidao",
+    "torchct"
+  ],
+  "skipped": [
+    {
+      "id": "nomadprivacy",
+      "reason": "仅官宣 NOMAD soon on Monad，尚未可交互主网，当前无 mint/launch/fair-launch 等可执行早期窗口。"
+    },
+    {
+      "id": "scrapbots",
+      "reason": "无项目独立可核验官推，@scrapbots 非项目号，按无推特规则 skip。"
+    },
+    {
+      "id": "Leeonmort",
+      "reason": "R759已核验Not Found；本轮未重耗额度全量复查。"
+    },
+    {
+      "id": "nomadprivacy-extra",
+      "reason": "见skip：尚未可交互。"
+    }
+  ],
+  "updated": [
+    {
+      "id": "onchain-crystals",
+      "note": "R760 soft：Agent免费mint仍LIVE，5555供前2免费"
+    },
+    {
+      "id": "robinians",
+      "note": "R760 soft：今日Free mint首444收钱包"
+    },
+    {
+      "id": "bitcointapes",
+      "note": "R760 soft：FREE MINT约273/1000续"
+    },
+    {
+      "id": "jager",
+      "note": "R760 soft：喊停后仍可Mint，约9000/10000"
+    },
+    {
+      "id": "ptah-trade",
+      "note": "R760 soft：POA免费卡与日抽奖续"
+    },
+    {
+      "id": "computeroll",
+      "note": "R760 soft：官网Mining仍Coming soon"
+    },
+    {
+      "id": "play-farmfi",
+      "note": "R760 soft：今日23:00CST分档Free mint"
+    },
+    {
+      "id": "enter-elysium",
+      "note": "R760 soft：主网官宣2026-11-09续"
+    },
+    {
+      "id": "pipfun",
+      "note": "R760 soft：BN Agent pad线续"
+    },
+    {
+      "id": "gradwtf",
+      "note": "R760 soft：RH预测盘续，粉约4"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "onchain-crystals",
+      "note": "Agent免费mint仍LIVE，5555供前2免费"
+    },
+    {
+      "id": "robinians",
+      "note": "今日Free mint首444收钱包"
+    },
+    {
+      "id": "bitcointapes",
+      "note": "FREE MINT约273/1000续"
+    },
+    {
+      "id": "jager",
+      "note": "喊停后官推Continue Minting"
+    }
+  ],
+  "clearedPrevNew": [
+    "gradwtf"
+  ],
+  "xReads": 16,
+  "xReadsNote": "关键词search≈6 + users batch≈2 + soft/admit posts≈8；预算内≈16",
+  "discordPeekDeferred": true,
+  "discordPeekNote": "executor无browser，Discord peek延后",
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": [
+      "admit",
+      "score",
+      "alert",
+      "soft_whatsnew"
+    ],
+    "note": "admit收sidao+torchct；skip nomadprivacy(未可交互)/scrapbots(无官推)；score+alert+soft flash"
+  },
+  "focusBan": "新收录sidao/torchct focus=false；未改 focusIds",
+  "summary": "R760 full-radar：新收SiDAO(Solana0费pad)+Torch(RH creator free mint)；Crystals/Robinians/BTape/Jager仍≤2h；FarmFi今晚23:00CST mint；computeroll Mining未开；Discord延后。",
+  "watchesSoft": [
+    "agentMiningWatch",
+    "agentPadWatch",
+    "agentTradingWatch",
+    "blonskrWatch",
+    "btcCrc20Watch",
+    "btcPrivacyWatch",
+    "cantonPadWatch",
+    "dogeEvmWatch",
+    "elysiumWatch",
+    "flapPadWatch",
+    "flaunchWatch",
+    "focusWatch",
+    "fullFunWatch",
+    "giwaWatch",
+    "glazeWatch",
+    "injectiveLaunchWatch",
+    "irysPadWatch",
+    "kinetiqWatch",
+    "layerZeroWatch",
+    "midstateWatch",
+    "miningWatch",
+    "paperbirdWatch",
+    "starcatWatch",
+    "starknetWatch",
+    "tapeOutWatch",
+    "tapeWatch",
+    "tokenWorksPlaygroundWatch",
+    "tokenWorksWatch",
+    "xChainPadWatch",
+    "zeroWatch"
+  ],
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent钱包/Tape；均等覆盖",
+  "push": {
+    "branch": "main",
+    "ok": false,
+    "sha": null,
+    "files": [
+      "data.json",
+      "RESULT_R760.json",
+      "ROUND760_RESULT.json"
+    ]
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "remoteVerified": false
+}
