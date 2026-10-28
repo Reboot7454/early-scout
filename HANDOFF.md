@@ -108,3 +108,11 @@
 - 已写入 `meta.arcPadWatch.accounts` 必盯：`@UBIdotFUN`；`candidateIds`：`ubidotfun`；keywords：`UBIdotFUN` / `ubi.fun` / `Arc launchpad`。
 - `focus:false` 硬禁遵守；归台子/Meme；`$UBI` CA 未独立核实。
 - 建议例行关键词：`@UBIdotFUN` / `ubi.fun` / `UBI.fun` / `Arc launchpad`。
+
+## 2026-10-28 用户自关注清单加强监控
+- 用户发两张自关注清单，点名加强监控（尤其 `@mobster_meme`）。
+- **已在库**：mobster / tape-fractal / gang-fun / motes / notuspad / ok-meme / ka-agents / tape-launch / naru-giwa / elysian-fields / ascendants-games / rebate-launch / boxa-elysium / peakfun·launch-on-peak / satcap / tapeup / pick-rush / playmooland / null-xmr / elytra·elyra / elysium-outlaws / foundry-tape / computeroll / oripa / reapoxyz / xmrroots；flap 系 flapPadWatch 已盯。
+- **漏项补收（R775）**：`sunrig`(@sunrigfun) · `over-computer`(@overdotcomputer) · `peerxyz`(@peerxyz) · `joinbread`(@joinbread) · `crowdedfun`(@Crowdedfun) · `umia-finance`(@umia_finance)。`focus:false`。
+- **noxstack**：`@noxstack` 为 `@nullonxmr` 协议核心开发同团队 → 写入 `null-xmr` links，**不单独建卡**。
+- **必盯**：新建 `meta.userFollowWatch`（active，含清单官推 + candidateIds）；`meta.agentPadWatch` 加入 `@mobster_meme` / `mobster`。
+- 例行每轮软刷 `userFollowWatch.accounts` 近帖；可操作窗 ≤2h notify。
