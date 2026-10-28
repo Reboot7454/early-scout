@@ -1,0 +1,155 @@
+{
+  "round": 778,
+  "completedAt": "2026-10-28 18:02 CST",
+  "notify": true,
+  "notifyReason": "新收 prompt-injected + ≤2h(TATO/CityHunters/UBI) + ongoing LIVE (QUOGENT/OnlyAi/Crystals/Hallucinated/ComputeRoll)",
+  "alertMessage": "R778新收 Prompt Injected（@ZoblinsZEC，Agent ID LIVE）；QUOGENT/OnlyAi/Crystals/Hallucinated/ComputeRoll仍可操作，今晚20:00 TATO/CityHunters/UBI已进≤2h。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "prompt-injected",
+      "handle": "@ZoblinsZEC",
+      "detail": "Prompt Injected LIVE Agent ID 3333；CA未核实"
+    }
+  ],
+  "statusUpgrades": [
+    {
+      "id": "quogent",
+      "keep": "live le2h",
+      "detail": "~747/7777"
+    },
+    {
+      "id": "onlyaitoken",
+      "keep": "live le2h",
+      "detail": "48h mint ~30 packs"
+    },
+    {
+      "id": "onchain-crystals",
+      "keep": "live le2h",
+      "detail": "前2免费"
+    },
+    {
+      "id": "hallucinated-agents",
+      "keep": "live le2h",
+      "detail": "前2免费"
+    },
+    {
+      "id": "computeroll",
+      "keep": "mining LIVE le2h",
+      "detail": "粉≈548"
+    },
+    {
+      "id": "tato-tapeout",
+      "to": "le2h",
+      "detail": "20:00 Genesis"
+    },
+    {
+      "id": "city-hunters",
+      "to": "le2h",
+      "detail": "20:00 Genesis"
+    },
+    {
+      "id": "ubidotfun",
+      "to": "le2h",
+      "detail": "20:00 Agents v2"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "mobster",
+      "reason": "已发币$MOB+终端预告；非新mint窗"
+    },
+    {
+      "id": "enter-elysium",
+      "reason": "主网仍2026-11-09"
+    },
+    {
+      "id": "world-ygg",
+      "reason": "21:00 未进≤2h"
+    },
+    {
+      "id": "reynarlabs",
+      "reason": "21:00 未进≤2h"
+    },
+    {
+      "id": "puttcroft",
+      "reason": "22:00 未进≤2h"
+    },
+    {
+      "id": "hoodmon",
+      "reason": "22:00 Genesis 未进≤2h；GTD开"
+    },
+    {
+      "id": "play-farmfi",
+      "reason": "23:00 未进≤2h"
+    },
+    {
+      "id": "pick-rush",
+      "reason": "$RUSH~23:09 未进≤2h"
+    },
+    {
+      "id": "bitcointapes",
+      "reason": "FREE MINT续非新admit；进度273/1000"
+    }
+  ],
+  "xReadsUsed": 19,
+  "userFollowWatchComplete": true,
+  "discordPeekDeferred": true,
+  "discordNote": "仓内 DISCORD_ALPHA_40 / dc_cards_raw lastSeen 2026-10-28 17:20 CST；无更新线索；未登录Discord",
+  "watchBugsFixed": [
+    "arcxtrade",
+    "atlasagentbsc",
+    "binzonft",
+    "brewasian",
+    "elysium-punks",
+    "elysiumcatnft",
+    "error8888",
+    "fugui_cto",
+    "hallucinated-agents",
+    "hoodmon",
+    "hypeforgeapp",
+    "kforge",
+    "nodalgpu",
+    "ombrellonft",
+    "pick-rush",
+    "prompt-injected",
+    "realbondai",
+    "refractdotfun",
+    "wolf_smile_rh"
+  ],
+  "watchBugsDetail": {
+    "agentPadWatch": "补 ZoblinsZEC/prompt-injected/hallucinated + hoodmon/realbondai/error8888/atlasagentbsc/ombrellonft/binzonft/kforge",
+    "miningWatch": "补 PickRush/nodalgpu",
+    "flapPadWatch": "补 brewasian/fugui_cto/wolf_smile_rh",
+    "fullFunWatch": "补 refractdotfun/hypeforgeapp",
+    "arcPadWatch": "补 arcxtrade",
+    "elysiumWatch": "补 elysiumcatnft/PunksOnElysium"
+  },
+  "meta": {
+    "round": 778,
+    "newThisRound": [
+      "prompt-injected"
+    ],
+    "round778Added": [
+      "prompt-injected"
+    ],
+    "prevNewThisRoundCleared": [
+      "bagverse",
+      "agentsyndicatee",
+      "rapthesheet",
+      "hoodlingsgamefi",
+      "toritoteamusa",
+      "mintrabnb"
+    ]
+  },
+  "push": {
+    "attempted": true,
+    "branch": "main",
+    "files": [
+      "data.json",
+      "RESULT_R778.json",
+      "RESULT_R778.md",
+      "ROUND778_RESULT.json"
+    ]
+  },
+  "summary": "R778：新收Prompt Injected；QUOGENT/OnlyAi/Crystals/Hallucinated/ComputeRoll仍LIVE；20:00 TATO/CityHunters/UBI进≤2h；UF36刷完；Discord deferred；xReads=19；修Watch bug。"
+}

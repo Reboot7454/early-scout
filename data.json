@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-28 17:24 CST",
+    "updated": "2026-10-28 18:02 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R692",
-    "lastScout": "2026-10-28 17:24 CST",
+    "lastScout": "2026-10-28 18:02 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -239,7 +239,7 @@
     ],
     "miningWatch": {
       "note": "R777：computeroll Mining LIVE；补focus nibblewage/squeekchain/hamster-hour进Watch",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "r379": "soft refresh",
       "active": true,
       "r380": "Trac agentic mining续；本窗无新PoW/agent mining admit；lastChecked 2026-10-23 08:32 CST",
@@ -269,12 +269,17 @@
         "nibblewage",
         "squeekchain",
         "hamster-hour",
-        "computeroll"
+        "computeroll",
+        "pick-rush",
+        "nodalgpu"
       ],
       "accounts": [
         "@nibblewage",
         "@squeekchain",
-        "@hamsterhourgame"
+        "@hamsterhourgame",
+        "@PickRush",
+        "@nodalgpu",
+        "@ComputeRollLabs"
       ],
       "r476": "R476：farming-season mint LIVE≤2h",
       "r480": "R480：lodepass/miner-fomo续LIVE>2h；无新PoW",
@@ -500,7 +505,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 777,
+    "round": 778,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -672,7 +677,7 @@
     },
     "glazeWatch": {
       "active": true,
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "note": "R774 soft：lastChecked刷新",
       "r368": "checked",
       "r369": "软债刷新 lastChecked",
@@ -852,7 +857,7 @@
     },
     "cantonPadWatch": {
       "active": true,
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "note": "R774 soft：lastChecked刷新",
       "r368": "checked",
       "r369": "软债刷新 lastChecked",
@@ -1104,7 +1109,7 @@
     ],
     "tokenWorksPlaygroundWatch": {
       "active": true,
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "note": "R774 soft：lastChecked刷新",
       "r368": "checked",
       "r369": "软债刷新 lastChecked",
@@ -1472,7 +1477,9 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "prompt-injected"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -1738,7 +1745,7 @@
     ],
     "elysiumWatch": {
       "active": true,
-      "lastChecked": "2026-10-28 17:07 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "note": "R775 soft：主网2026-11-09续；硬排除perpme/branchpoint/outrive；sasa LIVE testnet续",
       "r340": "主网11-09；Cantina Apex；无新admit",
       "r342": "主网11-09；Cantina Apex；无新admit",
@@ -1800,11 +1807,15 @@
         "elyziuma",
         "elysium-launch",
         "bitizens-ely",
-        "elytra-nft"
+        "elytra-nft",
+        "elysiumcatnft",
+        "elysium-punks"
       ],
       "accounts": [
         "@Elyziumaa",
-        "@ElysiumLaunch"
+        "@ElysiumLaunch",
+        "@elysiumcatnft",
+        "@PunksOnElysium"
       ],
       "r476": "R476：elyziuma未开mint；主网11/09",
       "r480": "R480：主网11/09；无新可操作玩法",
@@ -2116,7 +2127,7 @@
       "adeepabyss",
       "perppit"
     ],
-    "summary": "R774全覆盖：DC补漏4+雷达新收KForge；Crystals/Hallucinated仍≤2h LIVE；今晚TATO/CityHunters/UBI 20:00、YGG/REYN 21:00、Puttcroft/Hoodmon 22:00、FarmFi 23:00均未进≤2h；BTape 273/1000；computeroll Mining未开；Discord已并入本轮。",
+    "summary": "R778：新收Prompt Injected；QUOGENT/OnlyAi/Crystals/Hallucinated/ComputeRoll仍LIVE；20:00 TATO/CityHunters/UBI进≤2h；UF36刷完；Discord deferred；xReads=19；修Watch bug。",
     "round197Added": [
       "inkgoblins-nft",
       "goodlaunch",
@@ -2356,7 +2367,7 @@
     },
     "tapeOutWatch": {
       "active": true,
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "note": "R774 soft：TATO 20:00CST续；BTape≈273/1000",
       "r340": "TapeOut Optimal Mining Pool+BEM PoD续；TapeAI检察官电路；Giveaway 10-22；无新admit",
       "r341": "BEM PoD经济学讨论续；TapeAI检察官电路权益文；无新admit",
@@ -3119,12 +3130,12 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": false,
+      "deferred": true,
       "lastSeen": "2026-10-28 17:20 CST",
-      "lastChecked": "2026-10-28 17:24 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "newestCardTime": "2026-10-28 17:20 CST",
       "cardsAfterCutoff": 1,
-      "note": "R776：Discord alpha 补收 bagverse,agentsyndicatee,rapthesheet,hoodlingsgamefi,toritoteamusa,mintrabnb；跳过 [{'id': 'tokelyai', 'reason': 'AI API中转，非链上打新项目'}, {'id': 'bnbaibsc', 'reason': '仅一句AI launchpad简介，空壳无产品线索'}, {'id': 'wispi_lol', 'reason': '描述模糊，无链上产品或发行线索'}, {'id': 'chromax402', 'reason': 'AI API聚合与按token付费，非链上打新'}, {'id': 'tangiosite', 'reason': '预测市场类别不符，且链与发行信息不明'}, {'id': 'gomainstream_', 'reason': '泛泛描述消费链上资产，空壳无产品'}, {'id': 'superiguanarh', 'reason': '纯meme叙事蹭热点，无实际产品'}, {'id': 'dotworkrh', 'reason': 'Build your own layer一句话，空壳'}, {'id': 'coldtill', 'reason': '冷钱包收款产品描述模糊，无发行线索'}]；清 umia-finance,crowdedfun,joinbread,peerxyz,over-computer,sunrig,hodl-dance；lastSeen→2026-10-28 17:20 CST；lastChecked→2026-10-28 17:24 CST",
+      "note": "R776：Discord alpha 补收 bagverse,agentsyndicatee,rapthesheet,hoodlingsgamefi,toritoteamusa,mintrabnb；跳过 [{'id': 'tokelyai', 'reason': 'AI API中转，非链上打新项目'}, {'id': 'bnbaibsc', 'reason': '仅一句AI launchpad简介，空壳无产品线索'}, {'id': 'wispi_lol', 'reason': '描述模糊，无链上产品或发行线索'}, {'id': 'chromax402', 'reason': 'AI API聚合与按token付费，非链上打新'}, {'id': 'tangiosite', 'reason': '预测市场类别不符，且链与发行信息不明'}, {'id': 'gomainstream_', 'reason': '泛泛描述消费链上资产，空壳无产品'}, {'id': 'superiguanarh', 'reason': '纯meme叙事蹭热点，无实际产品'}, {'id': 'dotworkrh', 'reason': 'Build your own layer一句话，空壳'}, {'id': 'coldtill', 'reason': '冷钱包收款产品描述模糊，无发行线索'}]；清 umia-finance,crowdedfun,joinbread,peerxyz,over-computer,sunrig,hodl-dance；lastSeen→2026-10-28 17:20 CST；lastChecked→2026-10-28 17:24 CST | R778：仓内 DISCORD_ALPHA_40 无新于 17:20 CST lastSeen；未登录；discordPeekDeferred=true",
       "lastRound": 776,
       "lastSeenByChannel": {
         "alpha-3-new-accounts": "2026-10-28 17:20 CST",
@@ -3269,7 +3280,7 @@
       "zec-nodes",
       "boys-in-hood"
     ],
-    "alertMessage": "DC补漏新收6（未核验）：打新 AGENT Syndicate(@AGENTSYNDicatee Ink 5555免费mint)、Mintra(@MintraBNB BNB链agent NFT)；GO盘 Bagverse(@bagverse 3D城市)、Hoodlings(@Hoodlingsgamefi RH放置RPG $HOODL)；台子/Meme RapTheSheet(@RapTheSheet 部署者发射记录查询)、Torito(@ToritoTeamUSA Pons RH meme)。面板 https://reboot7454.github.io/early-scout/",
+    "alertMessage": "R778新收 Prompt Injected（@ZoblinsZEC，Agent ID LIVE）；QUOGENT/OnlyAi/Crystals/Hallucinated/ComputeRoll仍可操作，今晚20:00 TATO/CityHunters/UBI已进≤2h。面板：https://reboot7454.github.io/early-scout/",
     "dsSummary": "R760 full-radar：新收SiDAO(Solana0费pad)+Torch(RH creator free mint)；Crystals/Robinians/BTape/Jager仍≤2h；FarmFi今晚23:00CST mint；computeroll Mining未开；Discord延后。",
     "round270Added": [
       "avatarpad"
@@ -3353,7 +3364,7 @@
         "Bramble Today窗"
       ],
       "note": "R774 soft：近30m无free mint/launch极早期命中",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "r329": "R329 Bramble Chrome扩展已上线续；无新史塔克早期admit。",
       "r330": "Bramble社区热续；无新admit",
       "r332": "Bramble钱包Chrome扩展续热/官方RT；无新史塔克早期admit",
@@ -3968,7 +3979,7 @@
         "jumakGenesisWLResult": "2026-10-21 20:30 CST"
       },
       "note": "R774 soft：Gamapad/Ammora/GIWAUP抽查；本窗无新GIWA admit",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "candidateIds": [
         "pabalx",
         "thebingofi",
@@ -4155,7 +4166,7 @@
       },
       "signal": "Zero mainnet + lzATLAS 2026-11-30 (official @LayerZero_Core)",
       "note": "R774 soft：本窗无极早期新信号",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "r329": "R329 Zero+lzATLAS 11-30；无新LZ核验admit。",
       "r330": "Zero+lzATLAS 11-30；无新admit",
       "r332": "Zero+lzATLAS 11-30；LayerZero_Core本时段无新帖；无新admit",
@@ -4332,7 +4343,7 @@
         "mainnet": "未公布"
       },
       "note": "R774 soft：DogeOS官推抽查，本窗无极早期新admit",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "r329": "R329 DogeOS Chapter2/SocialFi续；gekko V3 fee叙事；无新admit。",
       "r330": "Chapter2续；无新admit",
       "r332": "RUNECLAW Daily Duel LIVE on DogeOS续；DogeOS本时段无新帖；无新admit",
@@ -4659,7 +4670,7 @@
         "lastChecked": "2026-10-28 15:06 CST"
       },
       "note": "R777 soft：主网仍2026-11-09；Goldsky/0x/Uniswap Day1续；补@AscendLaunch进accounts",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "candidateIds": [
         "agent-kinetiq",
         "enter-elysium",
@@ -4906,7 +4917,7 @@
       },
       "latestPost": "https://x.com/4Agentminer/status/2114342003781836916",
       "note": "R774 soft：Trac/ComputeRoll Mining未开",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "r329": "R329 Trac RESET/agent DEX续；无新agent挖矿admit(meth非agent)。",
       "r330": "Trac本时段无新；无新agent挖矿admit",
       "r332": "Trac本时段无新帖；无新agent挖矿admit",
@@ -5154,7 +5165,15 @@
         "@bagverse",
         "@hoodlingsgamefi",
         "@toritoteamusa",
-        "@rapthesheet"
+        "@rapthesheet",
+        "@ZoblinsZEC",
+        "@realbondai",
+        "@error8888",
+        "@atlasagentbsc",
+        "@ombrellonft",
+        "@project_hoodmon",
+        "@KForge_xyz",
+        "@binzonft"
       ],
       "candidateIds": [
         "sevy",
@@ -5279,7 +5298,16 @@
         "bagverse",
         "hoodlingsgamefi",
         "toritoteamusa",
-        "rapthesheet"
+        "rapthesheet",
+        "hallucinated-agents",
+        "prompt-injected",
+        "realbondai",
+        "error8888",
+        "atlasagentbsc",
+        "ombrellonft",
+        "hoodmon",
+        "kforge",
+        "binzonft"
       ],
       "coreNarrative": "https://x.com/yinghubnb/status/2112604032049295368",
       "keyFacts": {
@@ -5344,7 +5372,7 @@
       ],
       "caWarning": "合约一律标未核实",
       "note": "R774 soft：Ptah POA Day4续；Crystals/Hallucinated仍LIVE；跳过同号Doges/APEPE；R775 用户清单加强：@mobster_meme / mobster 必盯软刷；R775雷达：+hodl-dance(BNB pad预发布)",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "r329": "R329 dotaipad今日21:00；AWPad $AWP指引+开源合约；yinghubnb外盘可买续；新台NERMO非BN。",
       "r330": "dotaipad今日21:00；MOGO过薄skip；无新BN Agent pad admit",
       "r332": "dotaipad bio倒计时今日21:00CST续；yinghubnb外盘可买续；DotAIbsc薄号教程skip；无新BN Agent pad admit",
@@ -5720,7 +5748,7 @@
         "lastChecked": "2026-10-28 12:09 CST",
         "note": "R690 soft；未单拉新可操作窗"
       },
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "r339": "Listen续；无新agentic trading admit",
       "note": "R774 soft：listendotmoney续",
       "r340": "Listen本窗无新帖；无新agentic trading admit；agenticscredit粉高skip",
@@ -5996,7 +6024,7 @@
     ],
     "tapeWatch": {
       "active": true,
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "note": "R775 soft：TATO 20:00CST续；BTape≈273/1000",
       "r348": "TapeAI检察官电路文章+Firsto识别；TapeOutWorld榜单续；无新Tape admit",
       "r349": "TapeAI检察官电路/Firsto/BEM续；无新Tape admit",
@@ -6462,7 +6490,10 @@
       "label": "flap.sh 系发射台（用户点名）",
       "accounts": [
         "@StonksPadsh",
-        "@flapdotsh"
+        "@flapdotsh",
+        "@brewasian",
+        "@fugui_cto",
+        "@wolf_smile_rh"
       ],
       "candidateIds": [
         "stonks-pad",
@@ -6470,10 +6501,13 @@
         "flap-nidie",
         "hjkg-flap",
         "flapai",
-        "flapagent"
+        "flapagent",
+        "brewasian",
+        "fugui_cto",
+        "wolf_smile_rh"
       ],
       "note": "R774 soft：StonksPad/flap续；本窗无新极早期",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "r426": "补收 stonks-pad；必盯 @StonksPadsh",
       "r427": "盯 @StonksPadsh @flapdotsh",
       "r432": "StonksPad live Mon 2026-10-26 on flapdotsh — not ≤2h at 02:58 CST",
@@ -6702,7 +6736,7 @@
         "sprite-fun"
       ],
       "note": "R774 soft：spritefun停建续；本窗无新极早期",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "r436": "补收 sprite-fun；必盯 @spritefun_xyz",
       "r437": "R437：sprite-fun软刷粉≈29；live仍今日12:00UTC(=20:00CST)非≤2h",
       "r444": "scanned 2026-10-24 08:35 CST",
@@ -6913,11 +6947,15 @@
       "label": "Full.fun / PinkSale 线（用户点名）",
       "accounts": [
         "@fulldotfun",
-        "@saulpink"
+        "@saulpink",
+        "@refractdotfun",
+        "@hypeforgeapp"
       ],
       "candidateIds": [
         "full-fun",
-        "saul-pink"
+        "saul-pink",
+        "refractdotfun",
+        "hypeforgeapp"
       ],
       "focus": [
         "$FULL Monday",
@@ -6926,7 +6964,7 @@
         "PinkSale"
       ],
       "note": "R774 soft：fulldotfun/saulpink续",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "r464": "补收 full-fun + saul-pink；必盯 @fulldotfun @saulpink",
       "keyDates": {
         "fullTokenMonday": "约2026-10-26（@saulpink；本轮仍无精确时点）"
@@ -7445,7 +7483,7 @@
     ],
     "tokenWorksWatch": {
       "active": true,
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "note": "R774 soft refresh",
       "r596": "R596 soft债 lastChecked",
       "r602": "soft refresh",
@@ -8356,10 +8394,12 @@
       "active": true,
       "label": "Arc 链 launchpad（用户点名）",
       "accounts": [
-        "@UBIdotFUN"
+        "@UBIdotFUN",
+        "@arcxtrade"
       ],
       "candidateIds": [
-        "ubidotfun"
+        "ubidotfun",
+        "arcxtrade"
       ],
       "websites": [
         "ubi.fun",
@@ -8373,7 +8413,7 @@
       ],
       "focus": false,
       "note": "R774 soft：UBI Agents v2 今晚20:00CST；粉≈2230",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "r769": "补收 ubidotfun；必盯 @UBIdotFUN / ubi.fun / Arc launchpad",
       "latestSignal": "Agents v2 2026-10-28 20:00 CST（未入≤2h）",
       "r771": "soft @2026-10-28 15:31 CST",
@@ -8486,11 +8526,12 @@
       ],
       "pending": [],
       "note": "每轮软刷这些账号近帖；有可操作窗 ≤2h notify。R775 用户点名补收漏项并加强 mobster 等。noxstack 并入 null-xmr links，不单独建卡。",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "createdAt": "2026-10-28 17:15 CST",
       "sourceRound": 775,
       "r775": "用户点名6项已入 candidates；pending=[]",
-      "r777": "软刷36号完整（含@mobster_meme）；batch1+2"
+      "r777": "软刷36号完整（含@mobster_meme）；batch1+2",
+      "r778": "软刷36号完整（含@mobster_meme）；batch1+2+抽样近帖"
     },
     "round775Added": [
       "sunrig",
@@ -8537,7 +8578,10 @@
         "quogent",
         "onlyaitoken"
       ]
-    }
+    },
+    "round778Added": [
+      "prompt-injected"
+    ]
   },
   "candidates": [
     {
@@ -9718,7 +9762,7 @@
         "无经济模型细节",
         "粉丝数为 0，社区极早期"
       ],
-      "whatsNew": "公布仅 Agent ID 持有者可参与的 token mint。",
+      "whatsNew": "R778 soft：mint LIVE 约30 packs/30万 ONLYAI；剩约4.997亿；截止 Fri 10-30 06:09 UTC；粉≈3。",
       "summary": "Agent ID 门槛的极早期 AI token mint 项目。",
       "blurb": "Agent ID 门槛的极早期 AI token mint 项目。",
       "round": 772,
@@ -9729,11 +9773,11 @@
       "xFollowers": null,
       "firstSeen": "2026-10-28 15:59 CST",
       "addedAt": "2026-10-28 15:59 CST",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "zoneHint": "打新",
       "newThisRound": false,
       "stage": "mint live 48h",
-      "updatedAt": "2026-10-28T17:40:00+08:00",
+      "updatedAt": "2026-10-28T18:02:28+08:00",
       "note": " | R777：mint LIVE 48h窗；$ONLYAI Agent ID专属；0.00005 BNB/10k；粉≈3；mint onlyai-mint.netlify.app",
       "actionHint": "≤2h：Mint LIVE 48小时后永久关闭；需持有.ai Agent ID；max 10 packs/wallet",
       "signals": [
@@ -9744,7 +9788,8 @@
           "text": "$ONLYAI mint LIVE 48h Agent ID exclusive"
         }
       ],
-      "score": 84
+      "score": 84,
+      "le2h": true
     },
     {
       "id": "hoodmon",
@@ -9766,7 +9811,7 @@
         "有官推",
         "CA未核实"
       ],
-      "followers": 6711,
+      "followers": 6865,
       "scores": {
         "early": 85,
         "actionable": 80,
@@ -9784,7 +9829,7 @@
         "未给合约地址与审计信息",
         "NFT打新波动大，容易高开低走"
       ],
-      "whatsNew": "R775 soft：今晚 22:00 CST Genesis FREE；GTD/WL 仍开；非≤2h。",
+      "whatsNew": "R778 soft：Genesis FREE 今晚 22:00 CST；GTD Drop Addy 开；非≤2h；粉≈6865。",
       "links": {
         "x": "https://x.com/project_hoodmon",
         "twitter": "https://x.com/project_hoodmon",
@@ -9804,9 +9849,10 @@
       },
       "focus": false,
       "newThisRound": false,
-      "lastChecked": "2026-10-28 17:07 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "status": "watching",
-      "source": "X @project_hoodmon R771"
+      "source": "X @project_hoodmon R771",
+      "updatedAt": "2026-10-28T18:02:28+08:00"
     },
     {
       "id": "tato-tapeout",
@@ -9843,7 +9889,7 @@
         "免费挖收益与算力规则未明",
         "需先持创世NFT，实际门槛不确定"
       ],
-      "whatsNew": "R775 soft：今晚 20:00 CST 非≤2h。",
+      "whatsNew": "R778 soft：今晚 20:00 CST Genesis CPU#0 开矿；已进≤2h；粉≈293。",
       "links": {
         "x": "https://x.com/TATO_TapeOut",
         "twitter": "https://x.com/TATO_TapeOut",
@@ -9854,15 +9900,18 @@
         "status": "upcoming",
         "timezone": "Asia/Shanghai",
         "startsAt": "2026-10-28T20:00:00+08:00",
-        "note": "R771：20:00CST赋能Genesis CPU#0；持创世免费挖；非≤2h",
-        "le2h": false,
+        "note": "R778：今晚20:00 CST；已进≤2h @2026-10-28 18:02 CST",
+        "le2h": true,
         "source": "https://x.com/TATO_TapeOut/status/2114970739694850551"
       },
       "focus": false,
       "newThisRound": false,
-      "lastChecked": "2026-10-28 17:07 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "status": "watching",
-      "source": "X @TATO_TapeOut R771"
+      "source": "X @TATO_TapeOut R771",
+      "updatedAt": "2026-10-28T18:02:28+08:00",
+      "le2h": true,
+      "actionHint": "≤2h 可操作"
     },
     {
       "id": "arcxtrade",
@@ -10752,7 +10801,7 @@
         "项目方身份未披露",
         "依赖Pons与Robinhood Chain热度"
       ],
-      "whatsNew": "R775 soft：$REYN 今晚 21:00 CST 非≤2h。",
+      "whatsNew": "R778 soft：$REYN 今晚 21:00 CST 非≤2h；粉≈396。",
       "summary": "极早期Robinhood Chain研究型发币项目，有明确发射时间。",
       "blurb": "极早期Robinhood Chain研究型发币项目，有明确发射时间。",
       "round": 758,
@@ -10763,10 +10812,11 @@
       "xFollowers": 300,
       "firstSeen": "2026-10-28 11:57 CST",
       "addedAt": "2026-10-28 11:57 CST",
-      "lastChecked": "2026-10-28 17:07 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "zoneHint": "打新",
       "newThisRound": false,
-      "schedule": "2026-10-28 21:00 CST"
+      "schedule": "2026-10-28 21:00 CST",
+      "updatedAt": "2026-10-28T18:02:28+08:00"
     },
     {
       "id": "orpheus-fun",
@@ -11418,7 +11468,7 @@
         "Agent ID门槛会限制部分参与者",
         "官网用surge.sh，合约与项目持续性需自行验证"
       ],
-      "whatsNew": "R775 soft：Agent 免费 mint 仍 LIVE，前2免费；粉≈19。",
+      "whatsNew": "R778 soft：Agent 前2免费 mint 仍 LIVE；粉≈19。",
       "scores": {
         "early": 95,
         "actionable": 85,
@@ -11430,7 +11480,7 @@
       "summary": "免费mint且CA明确、极早期，可小额试错但不重仓。",
       "addedAt": "2026-10-28 09:40 CST",
       "firstSeen": "2026-10-28 09:40 CST",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "zoneOf": "bnagent",
       "schedule": {
         "status": "live",
@@ -11440,7 +11490,7 @@
         "le2h": true,
         "source": "https://x.com/OnchainCrystals/status/2115300024020074996"
       },
-      "updatedAt": "2026-10-28T17:40:00+08:00",
+      "updatedAt": "2026-10-28T18:02:28+08:00",
       "note": " | R777：前2免费mint仍LIVE；粉≈31",
       "actionHint": "≤2h：前2免费mint仍LIVE",
       "le2h": true
@@ -17201,7 +17251,7 @@
         "99999 Trees 与九界 NFT 设定模糊，权益不明确",
         "免费 mint 容易被大量机器人抢占名额"
       ],
-      "whatsNew": "R775 soft：今晚 21:00 CST 非≤2h。",
+      "whatsNew": "R778 soft：今晚 21:00 CST 非≤2h；粉≈245。",
       "summary": "Worldygg：BNB Agent ID九界Tree；首免；10/28 21:00CST开；粉≈21。",
       "blurb": "BNB Agent ID Tree NFT；首免；10/28 13:00UTC；粉≈21。",
       "round": 708,
@@ -17217,7 +17267,7 @@
       "flag": "本轮新",
       "firstSeen": "2026-10-27 21:06 CST",
       "addedAt": "2026-10-27 21:06 CST",
-      "lastChecked": "2026-10-28 17:07 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "schedule": {
         "status": "upcoming",
         "timezone": "Asia/Shanghai",
@@ -17226,7 +17276,8 @@
         "note": "R771：21:00CST；非≤2h",
         "le2h": false,
         "source": "https://x.com/world_ygg"
-      }
+      },
+      "updatedAt": "2026-10-28T18:02:28+08:00"
     },
     {
       "id": "lodgerwell",
@@ -18039,7 +18090,7 @@
         "CA自报未核，付费与质押依赖后续售罄",
         "首免费后需$PTAH，经济模型未明"
       ],
-      "whatsNew": "R747 soft：粉→498；Agent ID+$PTAH mint 续。",
+      "whatsNew": "R778 soft：Sweep 赛结束发奖；Blessing of Ptah 奖池兑 USDT；粉≈523。",
       "summary": "Ka Agents：Binance Agent ID门禁6666 Ka NFT，首枚免费仅gas；粉≈23。",
       "blurb": "BNB Agent ID门禁Ka NFT；首枚免费仅gas；粉≈23；CA未核。",
       "round": 701,
@@ -18047,9 +18098,10 @@
       "status": "live",
       "followers": 498,
       "newThisRound": false,
-      "lastChecked": "2026-10-28 08:36 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "lzVerified": false,
-      "xFollowers": 498
+      "xFollowers": 498,
+      "updatedAt": "2026-10-28T18:02:28+08:00"
     },
     {
       "id": "tape-launch",
@@ -18588,7 +18640,7 @@
         "产品与合约细节缺失",
         "Robinhood Chain 生态仍早期，流动性不确定"
       ],
-      "whatsNew": "R775：用户自关注清单加强必盯；官站 mobster.meme；粉≈295；agents-only pad 续。",
+      "whatsNew": "R778 soft：交易终端预告；DexScreener 上 $MOB；粉≈348。",
       "summary": "Mobster Built For Agents. Launchpad On Robinhood Chain. Fair Launches For Binance .ai Wallet. Followed by @robinhoodapp.",
       "blurb": "Mobster Built For Agents. Launchpad On Robinhood Chain. Fair Launches For Binance .ai Wallet. Followed by @robinhoodapp.",
       "round": 697,
@@ -18599,10 +18651,10 @@
       "xFollowers": 295,
       "firstSeen": "2026-10-27 18:00 CST",
       "addedAt": "2026-10-27 18:00 CST",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "zoneHint": "台子/Meme",
       "newThisRound": false,
-      "updatedAt": "2026-10-28T17:40:00+08:00",
+      "updatedAt": "2026-10-28T18:02:28+08:00",
       "note": " | R777：$MOB已毕业；交易终端即将上线；粉≈259",
       "actionHint": "已毕业，非早期窗；盯交易终端"
     },
@@ -18802,7 +18854,7 @@
         "1粉",
         "代币经济与链上细节未明"
       ],
-      "whatsNew": "R775 soft：今晚 22:00 CST 非≤2h。",
+      "whatsNew": "R778 soft：今晚 22:00 CST 非≤2h；粉≈102。",
       "summary": "Robinhood链上每日迷你高尔夫游戏，有明确发射时间与玩法。",
       "blurb": "Robinhood链上每日迷你高尔夫游戏，有明确发射时间与玩法。",
       "round": 695,
@@ -18813,7 +18865,7 @@
       "xFollowers": 22,
       "firstSeen": "2026-10-27 17:20 CST",
       "addedAt": "2026-10-27 17:20 CST",
-      "lastChecked": "2026-10-28 17:07 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "zoneHint": "台子/Meme",
       "newThisRound": false,
       "schedule": {
@@ -18823,7 +18875,8 @@
         "startCST": "2026-10-28 22:00 CST",
         "note": "Launch Wed 28 Oct 14:00 UTC",
         "le2h": false
-      }
+      },
+      "updatedAt": "2026-10-28T18:02:28+08:00"
     },
     {
       "id": "zerolayer-tools",
@@ -24607,10 +24660,10 @@
         "玩法/合约/退款与资产流动性未明",
         "GameFi 打新整体退潮，破发风险"
       ],
-      "whatsNew": "R775 soft：今晚 20:00 CST 非≤2h。",
+      "whatsNew": "R778 soft：Genesis 今晚 20:00 CST（12:00 UTC）开售；已进≤2h；粉≈20。",
       "round": 630,
       "focus": false,
-      "lastChecked": "2026-10-28 17:07 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "zoneHint": "打新",
       "status": "announced",
       "schedule": {
@@ -24618,13 +24671,16 @@
         "timezone": "UTC",
         "startsAt": "2026-10-28T12:00:00Z",
         "endsAt": "2026-10-31T12:00:00Z",
-        "note": "R771：Genesis 20:00CST起；非≤2h@2026-10-28 15:31 CST",
+        "note": "R778：今晚20:00 CST；已进≤2h @2026-10-28 18:02 CST",
         "source": "https://x.com/CityHunters_X/status/2114932625056170181",
-        "le2h": false
+        "le2h": true
       },
       "newThisRound": false,
       "followers": 20,
-      "xFollowers": 20
+      "xFollowers": 20,
+      "updatedAt": "2026-10-28T18:02:28+08:00",
+      "le2h": true,
+      "actionHint": "≤2h 可操作"
     },
     {
       "id": "subsonic-tribe",
@@ -28049,21 +28105,21 @@
         "mint未上线，合约与团队未披露",
         "FCFS容易被脚本抢跑"
       ],
-      "whatsNew": "R718 soft：$RUSH挖矿叙事10-28续；Genesis Shovel社区仍在刷 free mint；粉→2002。",
+      "whatsNew": "R778 soft：官推称 $RUSH 挖矿约今晚 23:09 CST 开；考虑 Batch2 Genesis；非≤2h；粉≈2065。",
       "summary": "Robinhood Chain 像素挖矿 NFT GameFi：Mint 铲子挖 $RUSH；Genesis 免费 mint 即将开放。",
       "schedule": {
         "status": "upcoming",
         "timezone": "Asia/Shanghai",
-        "startsAt": "2026-10-27T20:00:00+08:00",
-        "mintStatus": "upcoming",
-        "note": "R615 soft：tasks live；Genesis mint 周二12:00UTC(=20:00CST)；3000 shovels；非≤2h",
-        "source": "https://x.com/PickRush/status/2114657544430145955"
+        "startsAt": "2026-10-28T23:09:00+08:00",
+        "note": "R778：官推$RUSH约今晚23:09开；非≤2h",
+        "le2h": false,
+        "source": "https://x.com/PickRush/status/2115340068693201202"
       },
       "source": "X R510 + DS",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "xFollowers": 2002,
       "le2h": false,
-      "updatedAt": "2026-10-28T17:40:00+08:00",
+      "updatedAt": "2026-10-28T18:02:28+08:00",
       "note": " | R777：batch2讨论续；软刷"
     },
     {
@@ -29511,7 +29567,7 @@
         "每钱包限5个，需多钱包",
         "电路NFT流动性与估值未知"
       ],
-      "whatsNew": "R775 soft：FREE MINT 进度仍约 273/1000；粉≈359。",
+      "whatsNew": "R778 soft：FREE MINT 进度仍约 273/1000；粉≈359。",
       "blurb": "比特币主网 TapeOut 式可编程电路 FREE MINT：可验证矿机图纸铭刻 Ordinals（UCO）；即将开放；粉≈118。",
       "summary": "比特币主网 TapeOut 式可编程电路 FREE MINT：可验证矿机图纸铭刻 Ordinals（UCO）；即将开放；粉≈118。",
       "background": "用户点名补盯 @bitcointapes（BTape）。bio「Programmable TapeOut Circuits on Bitcoin | FREE MINT | Native UTXO Machines」。近帖称主网免费公平铸造即将开放，可执行电路图写进 Ordinals（基于 @BruceBlue UCO，感谢 @Blonskr / TapeOut）。此前 R486 Discord alpha Peek 已收录；例行未专盯。",
@@ -29519,9 +29575,9 @@
       "source": "discord-alpha",
       "discoveredAt": "2026-10-25 04:42 CST",
       "addedAt": "2026-10-25 04:42 CST",
-      "updatedAt": "2026-10-26 21:10 CST",
+      "updatedAt": "2026-10-28T18:02:28+08:00",
       "firstSeen": "2026-10-25 04:42",
-      "lastChecked": "2026-10-28 17:07 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "newThisRound": false,
       "flag": "discord-catchup",
       "latest": {
@@ -29539,7 +29595,7 @@
         "timezone": "Asia/Shanghai",
         "startsAt": "2026-10-26T20:50:00+08:00",
         "mintStatus": "live",
-        "note": "R773：273/1000 ~27% FREE mint续",
+        "note": "R778：273/1000 ~27% FREE mint续",
         "source": "https://x.com/bitcointapes/status/2114883046046683279",
         "le2h": false
       },
@@ -30403,7 +30459,7 @@
         "未mint",
         "非≤2h"
       ],
-      "whatsNew": "R775 soft：今晚 23:00 CST 非≤2h。",
+      "whatsNew": "R778 soft：今晚 23:00 CST 非≤2h；粉≈2584。",
       "summary": "FarmFi：Robinhood Chain农场GameFi；Whitelist已开；粉≈21；非≤2h mint。",
       "blurb": "Robinhood Chain 农场休闲：种植/畜牧/挖矿，赚 $FARMFI；Whitelist open。",
       "schedule": {
@@ -30417,8 +30473,8 @@
       },
       "firstSeen": "2026-10-25 01:48 CST",
       "addedAt": "2026-10-25 01:48 CST",
-      "lastChecked": "2026-10-28 17:07 CST",
-      "updatedAt": "2026-10-25 03:00 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
+      "updatedAt": "2026-10-28T18:02:28+08:00",
       "newThisRound": false,
       "flag": "Whitelist · 新收录 · 非≤2h",
       "earlyScore": 78,
@@ -48200,7 +48256,7 @@
         "非≤2h",
         "无新可操作玩法"
       ],
-      "whatsNew": "R775 soft：主网 11-09 续；Goldsky testnet 索引续；无新 admit。",
+      "whatsNew": "R778 soft：主网仍 11-09；Goldsky testnet 索引续；无新 admit。",
       "whyWatch": "用户点名：主网 11/9 已官宣；生态母体节奏决定 Ascend/子项目打新，须顶日程盯，但不偏科其他栏。",
       "background": "Elysium（https://x.com/Enter_Elysium）：Elysium 生态项目；R177 面板收录。",
       "round": 177,
@@ -48228,10 +48284,10 @@
         "source": "X @Enter_Elysium",
         "le2h": false
       },
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "handle": "@Enter_Elysium",
       "twitter": "@Enter_Elysium",
-      "updatedAt": "2026-10-28T17:40:00+08:00",
+      "updatedAt": "2026-10-28T18:02:28+08:00",
       "newThisRound": false,
       "flag": "CONFIRMED · 主网11/09",
       "lastSoftRefresh": "2026-10-27 17:36 CST",
@@ -120914,8 +120970,8 @@
         "twitter": "https://x.com/ComputeRollLabs",
         "tweet": "https://x.com/ComputeRollLabs/status/2115365483285528705"
       },
-      "followers": 412,
-      "xFollowers": 412,
+      "followers": 548,
+      "xFollowers": 548,
       "scores": {
         "early": 88,
         "actionable": 70,
@@ -120936,7 +120992,7 @@
         "合约/证明机制未独立核验，钓鱼仿盘风险",
         "需 Binance Agent ID + 本地算力，门槛高"
       ],
-      "whatsNew": "R775：Mining 官推宣布 LIVE（≈16:50 CST），Agent ID 门控 PoW；官网 mining 页确认；粉≈412。",
+      "whatsNew": "R778 soft：Mining LIVE（≈16:50 CST 起）；Agent ID+本地CPU；粉≈548；未审计。",
       "blurb": "BNB Agent ID 门控本地算力证明发行 CROLL；零预挖；无官推仅官网。",
       "summary": "ComputeRoll：BNB 上 Agent-gated proof-of-compute 发行 CROLL；mining 页 live；雷达因无推特漏扫，用户点名补收。",
       "background": "【用户点名补收】ComputeRoll（无 X）：Agent ID 参与 + 本地算力 + 链上验证；BSC；100k events×10k CROLL；max 1B；zero premine。入口 https://computeroll.com/mining",
@@ -120945,7 +121001,9 @@
       "schedule": {
         "status": "live",
         "timezone": "CST",
-        "note": "Mining LIVE；需 Agent ID + 本地 CPU；未审计；gas 自付"
+        "note": "Mining LIVE since ≈16:50 CST；Agent ID+CPU；未审计",
+        "le2h": true,
+        "source": "https://x.com/ComputeRollLabs/status/2115365483285528705"
       },
       "mintStatus": "live",
       "flag": "用户点名补收",
@@ -120954,13 +121012,14 @@
       "round": 718,
       "firstSeen": "2026-10-28 00:33 CST",
       "addedAt": "2026-10-28 00:33 CST",
-      "updatedAt": "2026-10-28T17:40:00+08:00",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "updatedAt": "2026-10-28T18:02:28+08:00",
+      "lastChecked": "2026-10-28 18:02 CST",
       "newThisRound": false,
       "alert": true,
       "zoneOf": "bnagent",
       "note": " | R777：Mining仍LIVE；粉≈412",
-      "actionHint": "Mining LIVE 可操作；agent mining"
+      "actionHint": "Mining LIVE 可操作；agent mining",
+      "le2h": true
     },
     {
       "id": "elysium-punks",
@@ -121007,7 +121066,7 @@
         "需Claude/agent代铸，普通用户难自行参与",
         "Elysium公共主网尚未上线，流动性与兑付未知"
       ],
-      "whatsNew": "R742 soft：确认 clearedLe2h；stealth mint 窗已结束；主网仍11-09。",
+      "whatsNew": "R778 soft：自称 Elysium mainnet stealth 仍可 mint 0.025 HYPE；主网公开仍 11-09；粉≈151。",
       "summary": "Elysium主网前stealth mint LIVE，agent代铸，合约未核实。",
       "blurb": "Elysium Punks stealth mint LIVE，粉0，0.025HYPE，CA未核实。",
       "round": 728,
@@ -121018,7 +121077,7 @@
       "xFollowers": 0,
       "firstSeen": "2026-10-28 03:12 CST",
       "addedAt": "2026-10-28 03:12 CST",
-      "lastChecked": "2026-10-28 07:10 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "zoneHint": "打新",
       "newThisRound": false,
       "le2h": false,
@@ -121029,7 +121088,8 @@
         "startsAt": "2026-10-28T03:03:00+08:00",
         "note": "R742：clearedLe2h；主网11-09",
         "le2h": false
-      }
+      },
+      "updatedAt": "2026-10-28T18:02:28+08:00"
     },
     {
       "id": "elysium-outlaws",
@@ -121189,7 +121249,7 @@
         "mint": "https://x.com/Quogentprotocol"
       },
       "zoneHint": "打新",
-      "whatsNew": "R753 soft：Mint opens soon续，关注度低，粉1→2。",
+      "whatsNew": "R778 soft：mint LIVE ~747/7777；前4000免费 Agent ID 门控；Claim 10-29 07:51 UTC；粉≈331。",
       "scores": {
         "overall": 82,
         "early": 78,
@@ -121210,10 +121270,10 @@
       "summary": "极早期观察窗；等CA/开窗再动手，风险极高。",
       "addedAt": "2026-10-28 10:08 CST",
       "firstSeen": "2026-10-28 10:08 CST",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "zoneOf": "bnagent",
       "stage": "mint live",
-      "updatedAt": "2026-10-28T17:40:00+08:00",
+      "updatedAt": "2026-10-28T18:02:28+08:00",
       "note": " | R777：mint LIVE ~747/7777；前4000免费、Agent ID门控；CA 0x6a2d…0bc9；粉≈33",
       "actionHint": "≤2h：Mint LIVE，前4000免费（Agent ID），余量付费；先查Agent ID",
       "signals": [
@@ -121224,7 +121284,8 @@
           "text": "Mint LIVE 747/7777 free for first 4000 Agent ID holders"
         }
       ],
-      "score": 82
+      "score": 82,
+      "le2h": true
     },
     {
       "id": "gradwtf",
@@ -121446,7 +121507,7 @@
         "名称与handle不匹配，需核验真伪",
         "免费mint易被脚本/科学家包场"
       ],
-      "whatsNew": "R775 soft：FREE mint 仍 LIVE 前2免费；同号 Doges/APEPE 跳过；粉≈10。",
+      "whatsNew": "R778 soft：前2免费仍 LIVE；同号新发 Prompt Injected 已另卡；粉≈10。",
       "summary": "有官推且BNB Agent钱包门控免费mint已开，但CA未核实且粉丝极少，只适合极早期小仓试探。",
       "blurb": "BNB Agent ID门控；前2免费只付gas；总量4444；官推@ZoblinsZEC粉≈8。",
       "round": 769,
@@ -121460,7 +121521,7 @@
       "xFollowers": 8,
       "firstSeen": "2026-10-28 15:06 CST",
       "addedAt": "2026-10-28 15:06 CST",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
       "zoneHint": "打新",
       "newThisRound": false,
       "schedule": {
@@ -121471,7 +121532,7 @@
         "le2h": true,
         "source": "https://x.com/ZoblinsZEC/status/2115336029830103418"
       },
-      "updatedAt": "2026-10-28T17:40:00+08:00",
+      "updatedAt": "2026-10-28T18:02:28+08:00",
       "note": " | R777：前2免费mint仍LIVE；粉≈71",
       "actionHint": "≤2h：前2免费mint仍LIVE",
       "le2h": true
@@ -121538,7 +121599,7 @@
         "Launchpad 打新资产质量与流动性风险较高，需自行甄别。",
         "Agent 路由返 5% fee（USDC）需确认实际路径与适用条件。"
       ],
-      "whatsNew": "R775 soft：Agents v2 今晚 20:00 CST 非≤2h。",
+      "whatsNew": "R778 soft：Agents v2 今晚 20:00 CST；已进≤2h；粉≈2234。",
       "blurb": "Arc 生态里的社区优先打新台子，主打低门槛发币、创作者收益与 Agent 工具入口；用户点名要求补收，适合观察 Arc 生态新资产与工具叙事。",
       "summary": "UBI.fun 是面向 Arc（Circle USDC 原生链）的社区优先 token launchpad，官网已上线并支持 0% 发行费创建代币；项目已推进 V3 功能，并将于今日上线 Agents {v2}。 雷达因主盯 BN Agent/Flap/Tape/Elysium/RH 漏扫 Arc+UBI，用户点名补收。",
       "background": "【用户点名补收】UBI.fun(@UBIdotFUN)：Arc 社区优先 token launchpad；官网 LIVE；Agents v2 今日 12:00 UTC/20:00 CST；V3/桥/Agent skills 已上；CA未核实。",
@@ -121554,8 +121615,8 @@
         "status": "upcoming",
         "timezone": "Asia/Shanghai",
         "startsAt": "2026-10-28T20:00:00+08:00",
-        "note": "R771：Agents v2 20:00CST；非≤2h",
-        "le2h": false,
+        "note": "R778：今晚20:00 CST；已进≤2h @2026-10-28 18:02 CST",
+        "le2h": true,
         "source": "https://x.com/UBIdotFUN/status/2115340463159038073"
       },
       "mintStatus": "n/a-launchpad",
@@ -121565,11 +121626,13 @@
       "round": 769,
       "firstSeen": "2026-10-28 15:17 CST",
       "addedAt": "2026-10-28 15:17 CST",
-      "updatedAt": "2026-10-28T17:40:00+08:00",
-      "lastChecked": "2026-10-28 17:40 CST",
+      "updatedAt": "2026-10-28T18:02:28+08:00",
+      "lastChecked": "2026-10-28 18:02 CST",
       "newThisRound": false,
       "alert": true,
-      "note": " | R777：Agents v2 今晚20:00；未进≤2h"
+      "note": " | R777：Agents v2 今晚20:00；未进≤2h",
+      "le2h": true,
+      "actionHint": "≤2h 可操作"
     },
     {
       "id": "kforge",
@@ -121687,28 +121750,97 @@
       "firstSeen": "2026-10-28 17:07 CST",
       "addedAt": "2026-10-28 17:07 CST",
       "zoneHint": "台子/Meme"
+    },
+    {
+      "id": "prompt-injected",
+      "name": "Prompt Injected",
+      "handle": "@ZoblinsZEC",
+      "twitter": "@ZoblinsZEC",
+      "chain": "BNB",
+      "category": "打新",
+      "ecosystem": "BNB",
+      "tags": [
+        "打新",
+        "Binance Agent钱包",
+        "AI Agent",
+        "NFT",
+        "BNB",
+        "极早期",
+        "有官推",
+        "CA未核实"
+      ],
+      "links": {
+        "x": "https://x.com/ZoblinsZEC",
+        "twitter": "https://x.com/ZoblinsZEC",
+        "tweet": "https://x.com/ZoblinsZEC/status/2115381892380086379",
+        "signal": "https://x.com/ZoblinsZEC/status/2115381892380086379",
+        "ca": "0x58F031aF470209Dd2cAb708ef1386dE7cE31f193",
+        "caNote": "官帖自报CA未独立核验"
+      },
+      "scores": {
+        "early": 92,
+        "actionable": 65,
+        "novelty": 70,
+        "risk": 75,
+        "overall": 62
+      },
+      "score": 62,
+      "highlights": [
+        "官推宣布 Prompt Injected LIVE on BNB Chain",
+        "3,333 AI agents，仅 .ai Agent ID 钱包",
+        "Fully onchain art；同号独立新集合可操作"
+      ],
+      "drawbacks": [
+        "CA 未核实，仿盘/钓鱼风险",
+        "同号粉丝≈10，社交信号极弱",
+        "同号短时连发多集合，持续性存疑"
+      ],
+      "whatsNew": "R778新：@ZoblinsZEC 同号新集合 Prompt Injected LIVE；3333 Agent ID only；CA 0x58F031…f193 未核实；粉≈10。",
+      "summary": "ZoblinsZEC 同号新 Agent ID NFT LIVE，3333 供应；CA 未核实，仅极早期小仓观察。",
+      "blurb": "Prompt Injected：3333 Agent ID only；CA未核实；@ZoblinsZEC。",
+      "round": 778,
+      "candidate": {
+        "round": 778
+      },
+      "focus": false,
+      "lzVerified": false,
+      "status": "live",
+      "followers": 10,
+      "xFollowers": 10,
+      "firstSeen": "2026-10-28 18:02 CST",
+      "addedAt": "2026-10-28 18:02 CST",
+      "lastChecked": "2026-10-28 18:02 CST",
+      "zoneHint": "打新",
+      "newThisRound": true,
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "live",
+        "note": "R778：LIVE Agent ID only；CA未核实",
+        "le2h": true,
+        "source": "https://x.com/ZoblinsZEC/status/2115381892380086379"
+      },
+      "updatedAt": "2026-10-28T18:02:28+08:00",
+      "actionHint": "≤2h：Agent ID mint LIVE（CA未核实）",
+      "le2h": true,
+      "alert": true
     }
   ],
   "newThisRound": [
-    "bagverse",
-    "agentsyndicatee",
-    "rapthesheet",
-    "hoodlingsgamefi",
-    "toritoteamusa",
-    "mintrabnb"
+    "prompt-injected"
   ],
-  "alertMessage": "DC补漏新收6（未核验）：打新 AGENT Syndicate(@AGENTSYNDicatee Ink 5555免费mint)、Mintra(@MintraBNB BNB链agent NFT)；GO盘 Bagverse(@bagverse 3D城市)、Hoodlings(@Hoodlingsgamefi RH放置RPG $HOODL)；台子/Meme RapTheSheet(@RapTheSheet 部署者发射记录查询)、Torito(@ToritoTeamUSA Pons RH meme)。面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "R778新收 Prompt Injected（@ZoblinsZEC，Agent ID LIVE）；QUOGENT/OnlyAi/Crystals/Hallucinated/ComputeRoll仍可操作，今晚20:00 TATO/CityHunters/UBI已进≤2h。面板：https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "hoodmon",
     "tato-tapeout"
   ],
-  "updatedAt": "2026-10-28 17:24 CST",
-  "updated": "2026-10-28 17:24 CST",
+  "updatedAt": "2026-10-28T18:02:28+08:00",
+  "updated": "2026-10-28 18:02 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-28 17:24 CST",
+  "lastScout": "2026-10-28 18:02 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -121750,7 +121882,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1725,
+  "candidateCount": 1726,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -121782,14 +121914,15 @@
     "simpla-fun"
   ],
   "le2h": [
-    {
-      "id": "onchain-crystals",
-      "note": "Agent免费mint仍LIVE，前2免费"
-    },
-    {
-      "id": "hallucinated-agents",
-      "note": "FREE mint LIVE前2免费"
-    }
+    "city-hunters",
+    "computeroll",
+    "hallucinated-agents",
+    "onchain-crystals",
+    "onlyaitoken",
+    "prompt-injected",
+    "quogent",
+    "tato-tapeout",
+    "ubidotfun"
   ],
   "round385Added": [
     "kol-brain"
@@ -121975,7 +122108,7 @@
     "blue-sky",
     "moonero"
   ],
-  "round": 773,
+  "round": 778,
   "round493Added": [
     "catalyst-labs-x"
   ],
@@ -122044,7 +122177,7 @@
   "round546Added": [
     "humintclub"
   ],
-  "xReadCount": 22,
+  "xReadCount": 19,
   "dsFallback": false,
   "round548Added": [
     "404-protocol"
@@ -122062,20 +122195,15 @@
   "round568Added": [
     "gantryfun"
   ],
-  "whatsNew": "本轮无新 admit，LIVE 免费 mint 与 Bitcoin Tapes 续约维持，Mobster 已开且 $MOB graduated，晚间多场倒计时待启。",
-  "summary": "本轮无新 admit，LIVE 免费 mint 与 Bitcoin Tapes 续约维持，Mobster 已开且 $MOB graduated，晚间多场倒计时待启。",
+  "whatsNew": "R778新收 prompt-injected；20:00三档≤2h；多LIVE续",
+  "summary": "R778：新收Prompt Injected；QUOGENT/OnlyAi/Crystals/Hallucinated/ComputeRoll仍LIVE；20:00 TATO/CityHunters/UBI进≤2h；UF36刷完；Discord deferred；xReads=19；修Watch bug。",
   "round570Added": [
     "billion-pages"
   ],
   "within2h": [
-    {
-      "id": "onchain-crystals",
-      "note": "Agent免费mint仍LIVE，前2免费"
-    },
-    {
-      "id": "hallucinated-agents",
-      "note": "FREE mint LIVE前2免费"
-    }
+    "city-hunters",
+    "tato-tapeout",
+    "ubidotfun"
   ],
   "round572Added": [],
   "round575Added": [
@@ -122230,7 +122358,7 @@
     "beam-rh",
     "grand-meme-bazaar"
   ],
-  "xReads": 22,
+  "xReads": 19,
   "round666Added": [
     "ro-arena-rh"
   ],
@@ -122638,5 +122766,8 @@
     "hoodlingsgamefi",
     "toritoteamusa",
     "mintrabnb"
+  ],
+  "round778Added": [
+    "prompt-injected"
   ]
 }
