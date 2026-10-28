@@ -1,0 +1,148 @@
+{
+  "round": 766,
+  "mode": "full-radar",
+  "completedAt": "2026-10-28 14:12 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+le2h",
+  "alertMessage": "新收录 ID-BOT（@IDBOT_FUN，Agent交易工具接GANG V3/拟Flap发币，14粉）；≤2h：Crystals免费mint续、Robinians首444收钱包；今晚23:00CST FarmFi Genesis Free mint；Jager暂停；BTape≈273/1000；computeroll Mining未开。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "idbot_fun",
+      "reason": "极早期：粉≈14、帖≈7，尚未发币，计划在Flap发官方币，处于发射前早期窗口"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "idbot_fun"
+  ],
+  "round766Added": [
+    "idbot_fun"
+  ],
+  "skipped": [
+    {
+      "id": "phew_pro",
+      "reason": "已开presale，粉≈8580，早期窗口已过"
+    },
+    {
+      "id": "leeonmort",
+      "reason": "username Not Found，账号仍不存在"
+    },
+    {
+      "id": "XuanwuSigil",
+      "reason": "username Not Found"
+    }
+  ],
+  "updated": [
+    {
+      "id": "onchain-crystals",
+      "note": "R766 soft：Agent免费mint仍LIVE，前2免费，粉≈14"
+    },
+    {
+      "id": "robinians",
+      "note": "R766 soft：Free mint首444收钱包续"
+    },
+    {
+      "id": "bitcointapes",
+      "note": "R766 soft：FREE MINT≈273/1000仍卡进度"
+    },
+    {
+      "id": "jager",
+      "note": "R766 soft：官宣mint临时暂停重部署续"
+    },
+    {
+      "id": "computeroll",
+      "note": "R766 soft：Mining仍Coming soon/测试合约未正式开"
+    },
+    {
+      "id": "play-farmfi",
+      "note": "R766 soft：今晚23:00CST Genesis Farm Free mint分档"
+    },
+    {
+      "id": "enter-elysium",
+      "note": "R766 soft：主网2026-11-09续；无新admit"
+    },
+    {
+      "id": "ptah-trade",
+      "note": "R766 soft：POA社交挖矿续；粉≈13166"
+    },
+    {
+      "id": "xuanwu-sigil",
+      "note": "R766 soft：Leeonmort X API仍Not Found"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "onchain-crystals",
+      "note": "Agent免费mint仍LIVE，前2免费"
+    },
+    {
+      "id": "robinians",
+      "note": "Free mint首444收钱包续"
+    }
+  ],
+  "tonight": [
+    {
+      "id": "play-farmfi",
+      "note": "今晚23:00CST Genesis Farm Free mint（现约14:12CST未进≤2h）"
+    }
+  ],
+  "clearedPrevNew": [
+    "tidepad_app"
+  ],
+  "xReads": 19,
+  "xReadsNote": "关键词search≈8 + users batch≈3 + soft/admit posts≈8；预算内≈19",
+  "discordPeekDeferred": true,
+  "discordPeekNote": "R765刚discord-alpha-40补漏(lastSeen≈13:57CST)；本轮discordPeekDeferred=true，未开浏览器",
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": [
+      "admit",
+      "score",
+      "alert"
+    ],
+    "note": "admit收idbot_fun；skip phew_pro；Leeonmort/Xuanwu仍Not Found；score+alert flash"
+  },
+  "focusBan": "新收录idbot_fun focus=false；未改 focusIds",
+  "summary": "R766 full-radar：新收ID-BOT(Agent交易/拟Flap发币)；Crystals/Robinians仍≤2h；FarmFi今晚23:00CST mint；Jager暂停；BTape进度卡住；computeroll Mining未开；Leeonmort仍不存在；Discord延后。",
+  "watchesSoft": [
+    "agentMiningWatch",
+    "agentPadWatch",
+    "agentTradingWatch",
+    "blonskrWatch",
+    "btcCrc20Watch",
+    "btcPrivacyWatch",
+    "cantonPadWatch",
+    "dogeEvmWatch",
+    "elysiumWatch",
+    "flapPadWatch",
+    "flaunchWatch",
+    "focusWatch",
+    "fullFunWatch",
+    "giwaWatch",
+    "glazeWatch",
+    "injectiveLaunchWatch",
+    "irysPadWatch",
+    "kinetiqWatch",
+    "layerZeroWatch",
+    "midstateWatch",
+    "miningWatch",
+    "paperbirdWatch",
+    "starcatWatch",
+    "starknetWatch",
+    "tapeOutWatch",
+    "tapeWatch",
+    "tokenWorksPlaygroundWatch",
+    "tokenWorksWatch",
+    "xChainPadWatch",
+    "zeroWatch"
+  ],
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent钱包/Tape；均等覆盖",
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
