@@ -1,0 +1,124 @@
+{
+  "round": 791,
+  "completedAt": "2026-10-28 21:45 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+le2h",
+  "alertMessage": "本轮新收录：grablabfun(Machine.fun抓娃娃)、4agentbroker(BN Agent免费Bibi mint)、kleos-elysium(Elysium launchpad)、takestrade(Elysium公测)、rbh-heroes(RH Genesis即将mint)、juicex-terminal(BNB Agent终端)、pearsdotfamily(RH Pons发射$PEARS)。≤2h窗口：hoodmon FREE mint 22:00 CST；pick-rush/play-farmfi/pulse-launchpad 约23:00 CST；computeroll/world-ygg/reynarlabs LIVE。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "grablabfun",
+    "4agentbroker",
+    "kleos-elysium",
+    "takestrade",
+    "rbh-heroes",
+    "juicex-terminal",
+    "pearsdotfamily"
+  ],
+  "newCount": 7,
+  "newIds": [
+    "grablabfun",
+    "4agentbroker",
+    "kleos-elysium",
+    "takestrade",
+    "rbh-heroes",
+    "juicex-terminal",
+    "pearsdotfamily"
+  ],
+  "le2h": [
+    {
+      "id": "hoodmon",
+      "note": "Genesis FREE mint 22:00 CST",
+      "untilApprox": "22:00 CST"
+    },
+    {
+      "id": "pick-rush",
+      "note": "$RUSH launch 23:00 CST",
+      "untilApprox": "23:00 CST"
+    },
+    {
+      "id": "play-farmfi",
+      "note": "Genesis Farm mint 23:00 CST起",
+      "untilApprox": "23:00 CST"
+    },
+    {
+      "id": "pulse-launchpad",
+      "note": "$PULSE Live 23:00 CST",
+      "untilApprox": "23:00 CST"
+    },
+    {
+      "id": "computeroll",
+      "note": "mining LIVE on BSC",
+      "untilApprox": "进行中"
+    },
+    {
+      "id": "world-ygg",
+      "note": "Agent ID Tree mint LIVE",
+      "untilApprox": "LIVE"
+    },
+    {
+      "id": "reynarlabs",
+      "note": "$REYN LIVE on Pons",
+      "untilApprox": "LIVE"
+    }
+  ],
+  "xReadsUsed": 35,
+  "userFollowWatchComplete": true,
+  "tenLaneKeywordsComplete": true,
+  "mentionsCoverage": [
+    "Elysium",
+    "Tape",
+    "GIWA",
+    "DogeEVM",
+    "Starknet"
+  ],
+  "mentionsCoverageNote": "Also keyword-covered Arc/flap/Irys/Pulse/BN Agent pads; equal effort not Elysium-only",
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit+score thinking ON; alert/summary via deepseek_chat",
+  "watchBugsFixed": [
+    {
+      "id": "torusfi",
+      "addedTo": "elysiumWatch"
+    },
+    {
+      "id": "agenticsolfun",
+      "addedTo": "agentPadWatch"
+    },
+    {
+      "id": "vitromarkets",
+      "addedTo": "agentPadWatch"
+    },
+    {
+      "id": "antseedmarkets",
+      "addedTo": "userFollowWatch"
+    },
+    {
+      "id": "joinfrieze",
+      "addedTo": "miningWatch"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "torusfi",
+    "agenticsolfun",
+    "vitromarkets",
+    "antseedmarkets",
+    "joinfrieze"
+  ],
+  "softDebtRefreshed": [
+    "cantonPadWatch",
+    "glazeWatch",
+    "tokenWorksPlaygroundWatch"
+  ],
+  "skippedHot": [
+    "naddotfun",
+    "Genius",
+    "stockereum"
+  ],
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "push": {
+    "attempted": true,
+    "ok": false
+  },
+  "summary": "R791：新收7（Machine.fun/BN Agent/Elysium/RH）；≤2h hoodmon22:00 + pick-rush/farmfi/pulse≈23:00；官号mentions扫Elysium/Tape/GIWA/Doge/Starknet；Discord无更新→deferred；修5个Watch漏挂。"
+}
