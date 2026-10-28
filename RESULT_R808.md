@@ -12,7 +12,7 @@
 - softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch lastChecked → 2026-10-29 02:31 CST
 - clearedPriorNewThisRound: R807 newThisRound（nexusdotgg/kekeonelysium/ely--hl/aetherelys/obolstr/twoprintlabs/motionmkts）已清 false；本轮 newThisRound=[]
 - missNotes: @mobster_meme 仍 X Not Found；ponsdotfamily 关键词盲搜撞到但 DS 判过热未建卡（仅进 agentPadWatch 软刷）；Pulse 英文噪声；PickRush/Halcyx/hoodmon 近窗 posts=0 沿用前轮 LIVE；关键词独立发现无新可收挂靠（agenticsolfun/koai/milkbao/torchpad/bunnypad/FARMonBTC/madang_fun 等均已在库）
-- push: (pending)
+- push: 6589b1ae3bceee7fb5ed1fb79ad0bfe7fb796c87
 - panel: https://reboot7454.github.io/early-scout/
 
 ## alert
