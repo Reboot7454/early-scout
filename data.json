@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-28 18:04 CST",
+    "updated": "2026-10-28 18:05 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R692",
@@ -8490,7 +8490,8 @@
         "@Crowdedfun",
         "@oripaxyz",
         "@reapoxyz",
-        "@xmrroots"
+        "@xmrroots",
+        "@machinedotfun"
       ],
       "candidateIds": [
         "tape-fractal",
@@ -8526,16 +8527,18 @@
         "crowdedfun",
         "oripa-xyz",
         "reapoxyz",
-        "xmrroots"
+        "xmrroots",
+        "machine-fun"
       ],
       "pending": [],
-      "note": "每轮软刷这些账号近帖；有可操作窗 ≤2h notify。R775 用户点名补收漏项并加强 mobster 等。noxstack 并入 null-xmr links，不单独建卡。",
-      "lastChecked": "2026-10-28 18:02 CST",
+      "note": "每轮软刷这些账号近帖；有可操作窗 ≤2h notify。R775 用户点名补收漏项并加强 mobster 等。noxstack 并入 null-xmr links，不单独建卡。 | R779b 用户点名补收 @machinedotfun → machine-fun",
+      "lastChecked": "2026-10-28 18:05 CST",
       "createdAt": "2026-10-28 17:15 CST",
       "sourceRound": 775,
       "r775": "用户点名6项已入 candidates；pending=[]",
       "r777": "软刷36号完整（含@mobster_meme）；batch1+2",
-      "r778": "软刷36号完整（含@mobster_meme）；batch1+2+抽样近帖"
+      "r778": "软刷36号完整（含@mobster_meme）；batch1+2+抽样近帖",
+      "r779b": "用户点名 @machinedotfun 补收建卡 machine-fun 并入 userFollowWatch"
     },
     "round775Added": [
       "sunrig",
@@ -8595,6 +8598,78 @@
     ]
   },
   "candidates": [
+    {
+      "focus": false,
+      "hasTwitter": true,
+      "lzVerified": false,
+      "status": "watching",
+      "newThisRound": true,
+      "round": 779,
+      "firstSeen": "2026-10-28 18:05 CST",
+      "addedAt": "2026-10-28 18:05 CST",
+      "lastChecked": "2026-10-28 18:05 CST",
+      "source": "user-named @machinedotfun 2026-10-28",
+      "sources": [
+        "user point-name",
+        "X verify"
+      ],
+      "id": "machine-fun",
+      "name": "Machine.fun",
+      "summary": "@machinedotfun（Machine.fun）由 @codecopenflow × @peaq 支持的机器人/原型发货平台；官宣 MachineFun 约 48h 内上线（帖 2026-10-27 23:55 CST）；官网 https://machine.fun 。",
+      "blurb": "peaq×CodecFlow 支持的 robotics 原型发货平台；MachineFun 约 48h 内上线。",
+      "whatsNew": "用户点名补收；官宣 MachineFun goes live within next 48h（自 10/27 23:55 CST 起算）；peaq 今日 RT「It's time for @machinedotfun」。",
+      "highlights": [
+        "peaq × CodecFlow 官方支持叙事",
+        "官宣 MachineFun 约 48h 内上线",
+        "官网 machine.fun 已挂",
+        "机器人/原型 ship 方向，极早期可操作窗临近"
+      ],
+      "drawbacks": [
+        "具体 mint/tokenomics/链上合约未官宣细节",
+        "48h 窗口以官推为准，可能延期",
+        "仿盘/假合约风险，须等官方链接"
+      ],
+      "tags": [
+        "用户点名",
+        "peaq",
+        "CodecFlow",
+        "robotics",
+        "MachineFun",
+        "即将上线",
+        "有官推",
+        "台子/Meme",
+        "极早期"
+      ],
+      "category": "台子/Meme",
+      "chain": "peaq",
+      "zoneHint": "MachineFun 约 48h 内上线（自 10/27 23:55 CST）",
+      "handle": "@machinedotfun",
+      "twitter": "@machinedotfun",
+      "followers": 4681,
+      "xFollowers": 4681,
+      "ecosystem": "peaq",
+      "zone": "台子/Meme",
+      "links": {
+        "x": "https://x.com/machinedotfun",
+        "twitter": "https://x.com/machinedotfun",
+        "web": "https://machine.fun/",
+        "website": "https://machine.fun/",
+        "tweet": "https://x.com/machinedotfun/status/2115110031754703022"
+      },
+      "scores": {
+        "early": 86,
+        "actionable": 78,
+        "novelty": 84,
+        "risk": 62,
+        "overall": 78
+      },
+      "score": 78,
+      "earlyScore": 86,
+      "overall": 78,
+      "schedule": "MachineFun goes live within next 48h（官宣于 2026-10-27 23:55 CST；约至 10/29 23:55；非≤2h）",
+      "flag": "用户点名补收",
+      "whyWatch": "用户点名；上线窗临近；peaq 今日助推。"
+    },
     {
       "id": "butterflymrkt",
       "name": "butterfly",
@@ -122078,15 +122153,16 @@
     "agentshift_id",
     "deadpacksol",
     "agoraonbsc",
-    "butterflymrkt"
+    "butterflymrkt",
+    "machine-fun"
   ],
   "alertMessage": "R779 DC补漏新收5：打新 Blindfloor(@blindfloor 隐藏止损，Pons 10/29 21:00 CST 上币)、Agent Shift(@AgentShift_id BNB 4444 Genesis NFT)；挖矿 Agora(@Agoraonbsc BSC agent交易量挖矿)；GO盘 Dead Pack(@DeadPackSol SOL签到+神秘包)；台子/Meme butterfly(@butterflymrkt AMM期权) → https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "hoodmon",
     "tato-tapeout"
   ],
-  "updatedAt": "2026-10-28 18:04 CST",
-  "updated": "2026-10-28 18:04 CST",
+  "updatedAt": "2026-10-28T18:05:30+08:00",
+  "updated": "2026-10-28 18:05 CST",
   "round365Added": [
     "nockd",
     "inkora"
@@ -122133,7 +122209,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1731,
+  "candidateCount": 1732,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -123026,6 +123102,7 @@
     "agentshift_id",
     "deadpacksol",
     "agoraonbsc",
-    "butterflymrkt"
+    "butterflymrkt",
+    "machine-fun"
   ]
 }
