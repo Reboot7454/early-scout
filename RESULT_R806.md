@@ -12,7 +12,7 @@
 - softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch lastChecked → 2026-10-29 02:02 CST
 - clearedPriorNewThisRound: R805 newThisRound（含 Discord 0119 四卡等）已清 false；本轮仅 bibbles-hq, agent-markets
 - missNotes: @mobster_meme 仍 X Not Found；Bibbles 初始 quote 帖 id Not Found，改由 keyword/search 定位 @BibblesHQ；Pulse 英文 “pulse” 噪声淹没需精确 RH/launchpad 词；hoodminers_rh 近窗 posts result_count=0
-- push: (pending)
+- push: 9210ea4d36e80ca7aca69a63a2b10efd9c424d1f
 - panel: https://reboot7454.github.io/early-scout/
 
 ## alert
