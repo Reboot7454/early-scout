@@ -1,0 +1,88 @@
+{
+  "round": 810,
+  "completedAt": "2026-10-29 03:05 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "true new admits: hypper-elysium, tetrascore",
+  "alertMessage": "R810 新收2：打新 HYPPER(@HypperElysium Elysium rewards/积分打卡)；台子 Tetrascore(@Tetrascoreio RH CA 安全评分+$SCORE)。Pulse/PickRush/Oathbots/Halcyx LIVE；blindfloor≈T−18h 非≤2h；HoodLauncher 当日无精确小时。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "hypper-elysium",
+    "tetrascore"
+  ],
+  "newIds": [
+    "hypper-elysium",
+    "tetrascore"
+  ],
+  "newCount": 2,
+  "skippedAfterDS": [
+    {
+      "id": "elysium-meme",
+      "reason": "仅 Coming/Pre-mainnet 公告，无实际 mint/launch 窗口"
+    },
+    {
+      "id": "elysdex",
+      "reason": "仅 Coming Soon 聚合器公告，无早期可参与窗口"
+    },
+    {
+      "id": "dogedharma",
+      "reason": "精神/叙事类 DogeOS 项目，无 mint/launch 窗口"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "pulse-launchpad",
+      "note": "Pulse LIVE 续 Railway 恢复中；$819.6k/98 tokens"
+    },
+    {
+      "id": "pick-rush",
+      "note": "$RUSH 挖矿+提现 LIVE"
+    },
+    {
+      "id": "oathbots",
+      "note": "免费 swear-in 续 .ai Agent ID"
+    },
+    {
+      "id": "halcyx",
+      "note": "PHASE 01–03 LIVE 免费/付费 mint + Agent Market"
+    }
+  ],
+  "xReadsUsed": 52,
+  "tenLaneKeywordsComplete": true,
+  "userFollowWatchComplete": true,
+  "mentionsCoverage": [
+    "Elysium",
+    "Tape",
+    "GIWA",
+    "DogeEVM",
+    "Starknet",
+    "BTC",
+    "flap",
+    "Irys",
+    "Full.fun",
+    "Arc",
+    "BN Agent pads",
+    "Zero"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "watchBugsFixed": [
+    "@HypperElysium→elysiumWatch",
+    "@Tetrascoreio→agentPadWatch",
+    "@ZorvuHQ→agentPadWatch",
+    "@hoodminers_rh→agentPadWatch"
+  ],
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R810 full scout：UF soft-brush 先完成（Pulse LIVE、machine not live、bscaidrop~24h、PickRush/Oathbots/Halcyx LIVE、blindfloor T−18h、hood day-of 无小时）。十栏关键词+全链 official mentions 跑完。DS 收 hypper-elysium + tetrascore；skip Elysium_meme/Elysdex/DogeDharma。Discord 未登录 deferred，沿用仓内 DISCORD_ALPHA。补 Watch Zorvu/hoodminers。",
+  "clearedPrevNewThisRound": [
+    "dot-clash",
+    "trywarm",
+    "unisonpad"
+  ],
+  "coverage": {
+    "userFollowWatch": true,
+    "requiredWatches": true,
+    "tenLaneKeywords": true,
+    "officialMentionsAllChains": true,
+    "discordInRepoPeek": "deferred_no_login"
+  }
+}
