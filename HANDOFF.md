@@ -139,3 +139,9 @@ Jafar 是打新玩家：目标尽量不漏可操作机会，不是固定赛道�
 ## 2026-10-28 监控 bug：@blobsdotmeme
 - 卡 `blobsdotmeme`（blobs.meme）R745 已在库，但 `userFollowWatch` 未写该号 → 软刷漏盯。
 - 已补 `@blobsdotmeme` / `blobsdotmeme` 进 userFollowWatch；每轮第一优先软刷。
+
+## 2026-10-28 用户点名补收 @bscaidrop（关键词盲捞漏）
+- 库内/Watch 此前均无。漏因：关键词未覆盖 `AIDROP` / `bscaidrop` / 币安.ai空投，且粉少不在必盯——**不是「没关注就不该扫到」**。
+- 已建卡 `bsc-aidrop`（BN Agent 钱包，`focus:false`），并入 `userFollowWatch` + `agentPadWatch`。
+- **关键词补强（每轮必搜）**：`AIDROP` / `bscaidrop` / `币安.ai空投` / `.ai airdrop` / `Binance agent airdrop` / `agent钱包空投`。
+- $AIDROP BSC；2% 税回购；.ai 持有者登记约 6U；每日 00:00；CA 未核实。
