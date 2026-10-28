@@ -1,0 +1,95 @@
+{
+  "round": 802,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-29 00:38 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "agentportraits",
+    "theboot-fm",
+    "grimacecoinrhc",
+    "aigenedotfun",
+    "aiwarsdotfun"
+  ],
+  "newCount": 5,
+  "newIds": [
+    "agentportraits",
+    "theboot-fm",
+    "grimacecoinrhc",
+    "aigenedotfun",
+    "aiwarsdotfun"
+  ],
+  "skipped": [
+    {
+      "id": "rarivacollect",
+      "reason": "工具类无代币/发射线索，不符合极早期资产筛选口径。"
+    },
+    {
+      "id": "bremenbrains",
+      "reason": "仅有 $BRBR ticker，无产品/发射/玩法或合约信息，按宁缺毋滥拒绝。"
+    },
+    {
+      "id": "reyscanxyz",
+      "reason": "工具类且无代币线索，虽有实际页面但不属于本轮可投极早期项目。"
+    },
+    {
+      "id": "vraihq",
+      "reason": "有产品机制但无代币/发射/玩法资产线索，不符合当前筛选口径。"
+    },
+    {
+      "id": "bidhelmcom",
+      "reason": "工具类无代币/发射线索，信息过少，拒绝。"
+    },
+    {
+      "id": "propdotfamily",
+      "reason": "有产品流程但无代币/发射线索，且类别与筛选口径不符。"
+    },
+    {
+      "id": "spectrax402",
+      "reason": "工具类无代币/发射线索，不符合筛选口径。"
+    },
+    {
+      "id": "constant-fi",
+      "reason": "有实际产品但无代币/发射线索，且 564 follower 与借贷协议属性偏成熟，拒绝。"
+    },
+    {
+      "id": "forkcast-eth",
+      "reason": "资讯/追踪工具，无代币与发射线索，拒绝。"
+    }
+  ],
+  "cardsAfterLastSeen": 66,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "aka-fun",
+    "predict-fun"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "aka-fun",
+    "predict-fun"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=14",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-29 00:36",
+    "lastChecked": "2026-10-29 00:38 CST",
+    "newestCardTime": "2026-10-29 00:36",
+    "cardsAfterCutoff": 66,
+    "note": "R802：Discord alpha 补收 agentportraits,theboot-fm,grimacecoinrhc,aigenedotfun,aiwarsdotfun；跳过 [{'id': 'rarivacollect', 'reason': '工具类无代币/发射线索，不符合极早期资产筛选口径。'}, {'id': 'bremenbrains', 'reason': '仅有 $BRBR ticker，无产品/发射/玩法或合约信息，按宁缺毋滥拒绝。'}, {'id': 'reyscanxyz', 'reason': '工具类且无代币线索，虽有实际页面但不属于本轮可投极早期项目。'}, {'id': 'vraihq', 'reason': '有产品机制但无代币/发射/玩法资产线索，不符合当前筛选口径。'}, {'id': 'bidhelmcom', 'reason': '工具类无代币/发射线索，信息过少，拒绝。'}, {'id': 'propdotfamily', 'reason': '有产品流程但无代币/发射线索，且类别与筛选口径不符。'}, {'id': 'spectrax402', 'reason': '工具类无代币/发射线索，不符合筛选口径。'}, {'id': 'constant-fi', 'reason': '有实际产品但无代币/发射线索，且 564 follower 与借贷协议属性偏成熟，拒绝。'}, {'id': 'forkcast-eth', 'reason': '资讯/追踪工具，无代币与发射线索，拒绝。'}]；清 aka-fun,predict-fun；lastSeen→2026-10-29 00:36；lastChecked→2026-10-29 00:38 CST",
+    "lastRound": 802
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R802：Discord alpha 补收 agentportraits,theboot-fm,grimacecoinrhc,aigenedotfun,aiwarsdotfun；跳过 [{'id': 'rarivacollect', 'reason': '工具类无代币/发射线索，不符合极早期资产筛选口径。'}, {'id': 'bremenbrains', 'reason': '仅有 $BRBR ticker，无产品/发射/玩法或合约信息，按宁缺毋滥拒绝。'}, {'id': 'reyscanxyz', 'reason': '工具类且无代币线索，虽有实际页面但不属于本轮可投极早期项目。'}, {'id': 'vraihq', 'reason': '有产品机制但无代币/发射/玩法资产线索，不符合当前筛选口径。'}, {'id': 'bidhelmcom', 'reason': '工具类无代币/发射线索，信息过少，拒绝。'}, {'id': 'propdotfamily', 'reason': '有产品流程但无代币/发射线索，且类别与筛选口径不符。'}, {'id': 'spectrax402', 'reason': '工具类无代币/发射线索，不符合筛选口径。'}, {'id': 'constant-fi', 'reason': '有实际产品但无代币/发射线索，且 564 follower 与借贷协议属性偏成熟，拒绝。'}, {'id': 'forkcast-eth', 'reason': '资讯/追踪工具，无代币与发射线索，拒绝。'}]；清 aka-fun,predict-fun；lastSeen→2026-10-29 00:36；lastChecked→2026-10-29 00:38 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261029_0040.json",
+  "priorRoundNote": "R801 meta NTR ['aka-fun', 'predict-fun']; cardsAfterCutoff=66"
+}
