@@ -1,0 +1,149 @@
+{
+  "round": 759,
+  "mode": "full-radar",
+  "completedAt": "2026-10-28 12:09 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+le2h",
+  "alertMessage": "R759新收GRAD(@gradwtf)：Robinhood Chain主网LIVE·Pons毕业预测盘，合约已验，官推今日建仅2粉，Markets可开仓；LE2H：Crystals免费mint≈1.8k/5555、Robinians RH免费mint续、BTape≈273/1000续。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "gradwtf",
+      "reason": "Robinhood Chain主网极早期预测盘，合约已标Mainnet，官推今日创建、关注极少，仍处早期窗口，符合极早期launch/admit条件。"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "gradwtf"
+  ],
+  "round759Added": [
+    "gradwtf"
+  ],
+  "skipped": [
+    {
+      "id": "pixel-agents",
+      "reason": "无独立可核验官推/无推特来源，按无推特规则跳过。"
+    },
+    {
+      "id": "boo-mint",
+      "reason": "无独立可核验官推/无推特来源，按无推特规则跳过。"
+    },
+    {
+      "id": "Leeonmort",
+      "reason": "get_users Not Found；xuanwu-sigil续库内不重收。"
+    }
+  ],
+  "updated": [
+    {
+      "id": "onchain-crystals",
+      "note": "R759 soft：免费mint仍LIVE≈1.8k/5555"
+    },
+    {
+      "id": "robinians",
+      "note": "R759 soft：RH free mint/收钱包续"
+    },
+    {
+      "id": "bitcointapes",
+      "note": "R759 soft：FREE MINT≈273/1000续"
+    },
+    {
+      "id": "jager",
+      "note": "R759 soft：喊停mint续"
+    },
+    {
+      "id": "ptah-trade",
+      "note": "R759 soft：POA/日抽奖续"
+    },
+    {
+      "id": "computeroll",
+      "note": "R759 soft：Mining未开"
+    },
+    {
+      "id": "play-farmfi",
+      "note": "R759 soft：今日15:00 UTC mint排程非≤2h"
+    },
+    {
+      "id": "enter-elysium",
+      "note": "R759 soft：主网11-09续"
+    },
+    {
+      "id": "pipfun",
+      "note": "R759 soft refresh"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "onchain-crystals",
+      "note": "Agent ID免费mint仍LIVE≈1.8k/5555"
+    },
+    {
+      "id": "robinians",
+      "note": "RH free mint LIVE/收钱包"
+    },
+    {
+      "id": "bitcointapes",
+      "note": "FREE MINT≈273/1000续"
+    }
+  ],
+  "clearedPrevNew": [
+    "reynarlabs",
+    "utopiatrade"
+  ],
+  "xReads": 19,
+  "xReadsNote": "关键词search≈8 + users batch≈4 + soft posts≈7；预算内≈19",
+  "discordPeekDeferred": true,
+  "discordPeekNote": "executor无browser，Discord peek延后",
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": [
+      "admit",
+      "score",
+      "alert"
+    ],
+    "note": "admit收gradwtf；skip pixel/boo无官推；score+alert flash"
+  },
+  "focusBan": "新收录gradwtf focus=false；未改 focusIds",
+  "summary": "R759 full-radar：新收GRAD(RH主网Pons毕业预测盘)；跳过Pixel/BOO无官推；Crystals/Robinians/BTape仍≤2h可操作；软刷十栏+BTC+Starknet watches；Discord延后。",
+  "watchesSoft": [
+    "kinetiqWatch",
+    "elysiumWatch",
+    "agentMiningWatch",
+    "agentPadWatch",
+    "agentTradingWatch",
+    "tapeWatch",
+    "tapeOutWatch",
+    "flapPadWatch",
+    "irysPadWatch",
+    "fullFunWatch",
+    "giwaWatch",
+    "zeroWatch",
+    "dogeEvmWatch",
+    "starknetWatch",
+    "btcPrivacyWatch",
+    "btcCrc20Watch",
+    "cantonPadWatch",
+    "glazeWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch",
+    "blonskrWatch",
+    "xChainPadWatch",
+    "starcatWatch",
+    "paperbirdWatch",
+    "miningWatch",
+    "layerZeroWatch",
+    "injectiveLaunchWatch",
+    "flaunchWatch",
+    "midstateWatch",
+    "focusWatch"
+  ],
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent钱包/Tape；均等覆盖",
+  "push": {
+    "branch": "main",
+    "ok": false,
+    "pending": true
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "remoteVerified": false
+}
