@@ -1,0 +1,67 @@
+{
+  "round": 751,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-28 10:02 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏 R751：新收 TENET(@runtenet，Robinhood Chain 代币化股票自动化金库+开放keeper网络，0粉，未核验)→打新栏。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "runtenet"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "runtenet"
+  ],
+  "skipped": [
+    {
+      "id": "usetabella",
+      "reason": "仅公开构建交易复盘工具，无代币、发射、waitlist、测试网或打新线索，属于纯工具/个人构建向，按宁缺毋滥跳过。"
+    },
+    {
+      "id": "rxshend",
+      "reason": "疑似个人号，简介 cryptic，无独立项目、产品、代币或发射线索，仅有Robinhood关注行为，跳过。"
+    }
+  ],
+  "cardsAfterLastSeen": 1,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "kurvfun",
+    "vaultr",
+    "onchain-crystals"
+  ],
+  "candidateFlagsCleared": 3,
+  "topNewThisRoundCleared": [
+    "kurvfun",
+    "vaultr",
+    "onchain-crystals"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=3",
+  "coverage": "alpha-3/backup/smart/alpha-1",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-28 09:56 CST",
+    "lastChecked": "2026-10-28 10:02 CST",
+    "newestCardTime": "2026-10-28 09:56 CST",
+    "cardsAfterCutoff": 1,
+    "note": "R751：Discord alpha 补收 runtenet；跳过 [{'id': 'usetabella', 'reason': '仅公开构建交易复盘工具，无代币、发射、waitlist、测试网或打新线索，属于纯工具/个人构建向，按宁缺毋滥跳过。'}, {'id': 'rxshend', 'reason': '疑似个人号，简介 cryptic，无独立项目、产品、代币或发射线索，仅有Robinhood关注行为，跳过。'}]；清 kurvfun,vaultr,onchain-crystals；lastSeen→2026-10-28 09:56 CST；lastChecked→2026-10-28 10:02 CST",
+    "lastRound": 751,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-28 09:56 CST",
+      "alpha-1-backup": "2026-10-28 08:28 CST",
+      "smart-accounts-tracker": "2026-10-28 08:24 CST",
+      "alpha-1": "2026-10-28 08:15 CST"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R751：Discord alpha 补收 runtenet；跳过 [{'id': 'usetabella', 'reason': '仅公开构建交易复盘工具，无代币、发射、waitlist、测试网或打新线索，属于纯工具/个人构建向，按宁缺毋滥跳过。'}, {'id': 'rxshend', 'reason': '疑似个人号，简介 cryptic，无独立项目、产品、代币或发射线索，仅有Robinhood关注行为，跳过。'}]；清 kurvfun,vaultr,onchain-crystals；lastSeen→2026-10-28 09:56 CST；lastChecked→2026-10-28 10:02 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261028_1003.json",
+  "priorRoundNote": "R750 meta NTR ['onchain-crystals', 'vaultr', 'kurvfun']; cardsAfterCutoff=1"
+}

@@ -5,7 +5,7 @@
   "timezone": "Asia/Shanghai",
   "notify": false,
   "notifyReason": "no_new_admits",
-  "alertMessage": "",
+  "alertMessage": "DC补漏 R751：新收 TENET(@runtenet，Robinhood Chain 代币化股票自动化金库+开放keeper网络，0粉，未核验)→打新栏。面板 https://reboot7454.github.io/early-scout/",
   "newAdmits": [],
   "newCount": 0,
   "newIds": [],
@@ -19,22 +19,21 @@
   "discordPeekDeferred": false,
   "dsFallback": false,
   "dsUsage": "none (0 cards)",
-  "coverage": "discord-alpha alpha-3/backup/smart/alpha-1",
+  "coverage": "alpha-3/backup/smart/alpha-1",
   "discordAlphaPeek": {
     "deferred": false,
-    "lastSeen": "2026-10-27 09:12 CST",
-    "lastChecked": "2026-10-27 09:15 CST",
-    "newestCardTime": "2026-10-27 09:12 CST",
+    "lastSeen": "2026-10-28 09:56 CST",
+    "lastChecked": "2026-10-28 10:02 CST",
+    "newestCardTime": "2026-10-28 09:56 CST",
     "cardsAfterCutoff": 1,
-    "note": "R668：Discord alpha 补漏无新收；跳过 CashCow_Farm(0粉空壳)、RojaGarimella(个人)、InvisibleFriends(成熟NFT)；源：alpha-3 至09:12 / backup 至08:58 / smart 至09:12 / #alpha-1 仍停 10/26 13:03",
-    "lastRound": 668,
+    "note": "R751：Discord alpha 补收 runtenet；跳过 [{'id': 'usetabella', 'reason': '仅公开构建交易复盘工具，无代币、发射、waitlist、测试网或打新线索，属于纯工具/个人构建向，按宁缺毋滥跳过。'}, {'id': 'rxshend', 'reason': '疑似个人号，简介 cryptic，无独立项目、产品、代币或发射线索，仅有Robinhood关注行为，跳过。'}]；清 kurvfun,vaultr,onchain-crystals；lastSeen→2026-10-28 09:56 CST；lastChecked→2026-10-28 10:02 CST",
+    "lastRound": 751,
     "lastSeenByChannel": {
-      "alpha-3-new-accounts": "2026-10-27 09:12 CST",
-      "alpha-1-backup": "2026-10-27 08:58 CST",
-      "smart-accounts-tracker": "2026-10-27 09:12 CST",
-      "alpha-1": "2026-10-26 13:03 CST"
-    },
-    "alpha3OlderGap": "2026-10-26 13:03→2026-10-27 02:46 CST 未逐卡读完（卡量>60，噪音高）；R666 已补读 07:10–07:30 窗口"
+      "alpha-3-new-accounts": "2026-10-28 09:56 CST",
+      "alpha-1-backup": "2026-10-28 08:28 CST",
+      "smart-accounts-tracker": "2026-10-28 08:24 CST",
+      "alpha-1": "2026-10-28 08:15 CST"
+    }
   },
   "push": {
     "attempted": true,
