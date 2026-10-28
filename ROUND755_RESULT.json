@@ -1,0 +1,191 @@
+{
+  "round": 755,
+  "mode": "full-radar",
+  "completedAt": "2026-10-28 11:08 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "出现新增收录且伴随免费 mint 窗口与临近开盘的时效性操作机会，需即时提醒。",
+  "alertMessage": "新增 Robinians（Robinhood 免费 mint 进行中、正在收钱包），Jager 喊停 mint、Onchain Crystals 免费 mint 仍 LIVE，详见面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "robinians",
+      "reason": "新链 free mint 且官推刚动作，足够早期，可小成本跟踪。"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "robinians"
+  ],
+  "round755Added": [
+    "robinians"
+  ],
+  "skipped": [
+    {
+      "id": "block0pad",
+      "reason": "仅建号且零粉丝、CA 未核实，信号太弱风险过高。"
+    },
+    {
+      "id": "aura-pad",
+      "reason": "叙事虽新但零粉丝且 CA 未核实，暂不足以 admit。"
+    }
+  ],
+  "updated": [
+    {
+      "id": "onchain-crystals",
+      "note": "R755 soft refresh"
+    },
+    {
+      "id": "bitcointapes",
+      "note": "R755 soft refresh"
+    },
+    {
+      "id": "full-fun",
+      "note": "R755 soft refresh"
+    },
+    {
+      "id": "pipfun",
+      "note": "R755 soft refresh"
+    },
+    {
+      "id": "agent-punk",
+      "note": "R755 soft refresh"
+    },
+    {
+      "id": "gang-fun",
+      "note": "R755 soft refresh"
+    },
+    {
+      "id": "ptah-trade",
+      "note": "R755 soft refresh"
+    },
+    {
+      "id": "listen-money",
+      "note": "R755 soft refresh"
+    },
+    {
+      "id": "bramble-fi",
+      "note": "R755 soft refresh"
+    },
+    {
+      "id": "enter-elysium",
+      "note": "R755 soft refresh"
+    },
+    {
+      "id": "vaultlings",
+      "note": "R755 soft refresh"
+    },
+    {
+      "id": "fomopoly",
+      "note": "R755 soft refresh"
+    },
+    {
+      "id": "kalosfun",
+      "note": "R755 soft refresh"
+    },
+    {
+      "id": "paperbird",
+      "note": "R755 soft refresh"
+    },
+    {
+      "id": "elysium-names",
+      "note": "R755 soft refresh"
+    },
+    {
+      "id": "dotai-pad",
+      "note": "R755 soft refresh"
+    },
+    {
+      "id": "companions-wfit",
+      "note": "R755 soft refresh"
+    },
+    {
+      "id": "jager",
+      "note": "R755 soft refresh"
+    },
+    {
+      "id": "stonks-pad",
+      "note": "R755 soft refresh"
+    },
+    {
+      "id": "sprite-fun",
+      "note": "R755 soft refresh"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "robinians",
+      "note": "RH free mint LIVE/收钱包"
+    },
+    {
+      "id": "jager",
+      "note": "喊Pause minting，或临近开盘"
+    },
+    {
+      "id": "onchain-crystals",
+      "note": "Agent ID免费mint仍LIVE"
+    }
+  ],
+  "clearedPrevNew": [
+    {
+      "id": "insertcoinpad",
+      "note": "R754 NTR cleared"
+    }
+  ],
+  "xReads": 19,
+  "xReadsNote": "关键词search≈6 + users batch≈5 + posts≈8；预算内≈19",
+  "discordPeekDeferred": true,
+  "discordPeekNote": "本执行端无browser；discordPeekDeferred=true",
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": [
+      "admit",
+      "score",
+      "softUpdates",
+      "alert",
+      "summary"
+    ],
+    "note": "admit曾收3；score仅robinians admit=true，另2 skip"
+  },
+  "focusBan": "新收录robinians focus=false；未改 focusIds",
+  "summary": "本轮新增 1 个收录（robinians），近 2 小时共 3 个可操作项：Robinians 免费 mint 活跃、Jager 提示暂停 mint 或临近开盘、Onchain Crystals 免费 mint 持续。",
+  "watchesSoft": [
+    "kinetiqWatch",
+    "tapeWatch",
+    "tapeOutWatch",
+    "flapPadWatch",
+    "irysPadWatch",
+    "fullFunWatch",
+    "agentPadWatch",
+    "agentTradingWatch",
+    "giwaWatch",
+    "zeroWatch",
+    "dogeEvmWatch",
+    "starknetWatch",
+    "agentMiningWatch",
+    "btcPrivacyWatch",
+    "btcCrc20Watch",
+    "elysiumWatch",
+    "blonskrWatch",
+    "xChainPadWatch",
+    "starcatWatch",
+    "paperbirdWatch",
+    "cantonPadWatch",
+    "glazeWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch",
+    "miningWatch",
+    "layerZeroWatch",
+    "injectiveLaunchWatch",
+    "flaunchWatch",
+    "midstateWatch",
+    "focusWatch"
+  ],
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent钱包/Tape；均等覆盖",
+  "push": {
+    "branch": "main",
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
