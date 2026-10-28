@@ -116,3 +116,17 @@
 - **noxstack**：`@noxstack` 为 `@nullonxmr` 协议核心开发同团队 → 写入 `null-xmr` links，**不单独建卡**。
 - **必盯**：新建 `meta.userFollowWatch`（active，含清单官推 + candidateIds）；`meta.agentPadWatch` 加入 `@mobster_meme` / `mobster`。
 - 例行每轮软刷 `userFollowWatch.accounts` 近帖；可操作窗 ≤2h notify。
+
+## 用户打新零漏捕标准（2026-10-28）
+
+Jafar 是打新玩家：目标尽量不漏可操作机会，不是固定赛道覆盖率好看。
+
+每轮 X/精力硬顺序：① `meta.userFollowWatch` → ② 各必盯 Watch → ③ 关键词盲捞 → ④ Discord 仓内线索。额度紧时砍 ③④，**禁止砍 ①**。
+
+硬规则：
+- **在库但不在任何 Watch = 监控 bug**，本轮必须补进对应 Watch 或 `userFollowWatch`。
+- 用户点名 / 丢关注表 → 立刻建卡 + 进 Watch，禁止只建卡不盯。
+- 漏报当机制故障：补卡 + 进 Watch + 关键词，RESULT 写明漏因。
+
+`userFollowWatch` 与 `agentPadWatch`（含 `@mobster_meme` / `mobster`）以 `data.json` 为准。
+
