@@ -1,0 +1,127 @@
+{
+  "round": 784,
+  "mode": "full-radar",
+  "completedAt": "2026-10-28 19:34 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "le2h_actionable",
+  "alertMessage": "【R784】mobster FAIR MODE 已开（~19:15 CST，npm cli fair mint，可撤资）；UBI.fun Agents {v2} ≤2h（今晚20:00 CST）。今晚另：hoodmon 22:00 / PickRush~$RUSH 23:09。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "round784Added": [],
+  "skipped": [
+    {
+      "id": "ITIAverse",
+      "reason": "关键词见社区帖但无独立可解析官推 handle（ITIAverse 404），跳过收录"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "mobster",
+      "note": "FAIR MODE LIVE ~19:15 CST；npm cli fair mint；token 0x1685…Fe0C8；可撤资"
+    },
+    {
+      "id": "ubidotfun",
+      "note": "Agents {v2} 今晚20:00 CST ≤2h"
+    }
+  ],
+  "tonight": [
+    {
+      "id": "hoodmon",
+      "note": "Genesis FREE 22:00 CST"
+    },
+    {
+      "id": "pick-rush",
+      "note": "$RUSH 约23:09 CST"
+    },
+    {
+      "id": "play-farmfi",
+      "note": "23:00CST Genesis Farm"
+    },
+    {
+      "id": "machine-fun",
+      "note": "仍约48h窗至10/29 23:55，非≤2h"
+    }
+  ],
+  "xReads": 20,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash alert+score(4 hot)+summary; thinking ON",
+  "coverage": "①userFollowWatch 全量 batch resolve + 优先时间线软刷(mobster/machine/blobs/UBI/ComputeRoll/blindfloor/sunrig/over/bread/crowded/peer/umia/gang/PickRush/Rebate) ②必盯样刷 ③关键词盲捞1页 ④Discord deferred",
+  "watchesSoft": {
+    "userFollowWatch": true,
+    "userFollowWatchFullyBrushed": true,
+    "note": "41 accounts batch-resolved；优先号近帖已拉；其余靠 batch metrics+lastChecked 刷新",
+    "priorityPosts": [
+      "mobster_meme",
+      "machinedotfun",
+      "blobsdotmeme",
+      "UBIdotFUN",
+      "ComputeRollLabs",
+      "blindfloor",
+      "sunrigfun",
+      "overdotcomputer",
+      "joinbread",
+      "Crowdedfun",
+      "peerxyz",
+      "umia_finance",
+      "gangdotfun",
+      "PickRush",
+      "RebateLaunch"
+    ]
+  },
+  "watchBugsFixed": [
+    {
+      "id": "heirpad",
+      "fix": "added to discordAlphaPeek.accounts/candidateIds"
+    },
+    {
+      "id": "stargazespooks",
+      "fix": "added to discordAlphaPeek.accounts/candidateIds"
+    },
+    {
+      "id": "pheromonexyz",
+      "fix": "added to discordAlphaPeek.accounts/candidateIds"
+    },
+    {
+      "id": "rektazhy59942",
+      "fix": "added to discordAlphaPeek.accounts/candidateIds"
+    },
+    {
+      "id": "0xvernull",
+      "fix": "added to discordAlphaPeek.accounts/candidateIds"
+    }
+  ],
+  "discordPeekDeferred": true,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "heirpad",
+    "stargazespooks",
+    "pheromonexyz"
+  ],
+  "candidateFlagsCleared": 3,
+  "topNewThisRoundCleared": [
+    "heirpad",
+    "stargazespooks",
+    "pheromonexyz"
+  ],
+  "hotSoft": {
+    "mobster": "FAIR MODE OPENED",
+    "ubidotfun": "Agents v2 20:00 CST",
+    "machine-fun": "48h window + peaq article",
+    "computeroll": "mining LIVE + honeypot clarify",
+    "hoodmon": "Genesis 22:00 CST",
+    "pick-rush": "$RUSH ~23:09 CST",
+    "rebate-launch": "LIVE pad stats",
+    "gang-fun": "V3 day one"
+  },
+  "push": {
+    "ok": null,
+    "sha": null
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R784 full-radar：无新收录；mobster FAIR MODE LIVE + UBI Agents v2 ≤2h → notify；userFollowWatch优先软刷完成；Watch bug补5；DC deferred。",
+  "remoteVerified": false,
+  "cardsFile": "data.json",
+  "priorRoundNote": "R783 discord-alpha admits heirpad/stargazespooks/pheromonexyz cleared from newThisRound; watch-bug fixed into discordAlphaPeek"
+}
