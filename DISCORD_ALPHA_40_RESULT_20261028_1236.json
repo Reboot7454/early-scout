@@ -1,0 +1,59 @@
+{
+  "round": 761,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-28 12:36 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "prelaunchpad"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "prelaunchpad"
+  ],
+  "skipped": [
+    {
+      "id": "griftagent",
+      "reason": "无 bio，无法确认独立项目身份与产品线索，按无简介/空壳号拒收。"
+    },
+    {
+      "id": "icalsgtg",
+      "reason": "无 bio，粉丝极低且无项目线索，疑似个人号或空壳号，拒收。"
+    }
+  ],
+  "cardsAfterLastSeen": 31,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "sidao",
+    "torchct"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "sidao",
+    "torchct"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=3",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-28 12:33 CST",
+    "lastChecked": "2026-10-28 12:36 CST",
+    "newestCardTime": "2026-10-28 12:33 CST",
+    "cardsAfterCutoff": 31,
+    "note": "R761：Discord alpha 补收 prelaunchpad；跳过 [{'id': 'griftagent', 'reason': '无 bio，无法确认独立项目身份与产品线索，按无简介/空壳号拒收。'}, {'id': 'icalsgtg', 'reason': '无 bio，粉丝极低且无项目线索，疑似个人号或空壳号，拒收。'}]；清 sidao,torchct；lastSeen→2026-10-28 12:33 CST；lastChecked→2026-10-28 12:36 CST",
+    "lastRound": 761
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R761：Discord alpha 补收 prelaunchpad；跳过 [{'id': 'griftagent', 'reason': '无 bio，无法确认独立项目身份与产品线索，按无简介/空壳号拒收。'}, {'id': 'icalsgtg', 'reason': '无 bio，粉丝极低且无项目线索，疑似个人号或空壳号，拒收。'}]；清 sidao,torchct；lastSeen→2026-10-28 12:33 CST；lastChecked→2026-10-28 12:36 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261028_1240.json",
+  "priorRoundNote": "R760 meta NTR ['sidao', 'torchct']; cardsAfterCutoff=31"
+}
