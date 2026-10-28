@@ -1,0 +1,186 @@
+{
+  "round": 757,
+  "mode": "full-radar",
+  "completedAt": "2026-10-28 11:36 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "真新收录 orpheus-fun + ≤2h 可操作窗（crystals/jager/robinians）",
+  "alertMessage": "新增 Orpheus（Elysium testnet bonding-curve 发射台 LIVE）；Onchain Crystals 免费 mint 仍 LIVE，Jager 喊停 mint/或临近开盘，Robinians RH free mint/收钱包续；详见面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "orpheus-fun",
+      "reason": "Elysium testnet bonding-curve 发射台刚开，有官推/官网且本窗 LIVE，属极早期 fair-launch 窗口。"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "orpheus-fun"
+  ],
+  "round757Added": [
+    "orpheus-fun"
+  ],
+  "skipped": [
+    {
+      "id": "sidao",
+      "reason": "账号仅1天、零背书零审计，score overall低，暂不纳入。"
+    },
+    {
+      "id": "theholepf",
+      "reason": "信号极薄：仅1粉2帖、无官网、链不明。"
+    },
+    {
+      "id": "habibi-drip",
+      "reason": "常规 Solana NFT 免费 mint，粉2883，非极早期。"
+    },
+    {
+      "id": "boo-agent-mint",
+      "reason": "无独立可核验官推，仅社区号转发。"
+    },
+    {
+      "id": "termix-ai",
+      "reason": "粉6.8万非极早期，本窗无 mint/launch 窗。"
+    }
+  ],
+  "updated": [
+    {
+      "id": "enter-elysium",
+      "note": "R757 soft refresh"
+    },
+    {
+      "id": "jager",
+      "note": "R757 soft refresh"
+    },
+    {
+      "id": "onchain-crystals",
+      "note": "R757 soft refresh"
+    },
+    {
+      "id": "bitcointapes",
+      "note": "R757 soft refresh"
+    },
+    {
+      "id": "robinians",
+      "note": "R757 soft refresh"
+    },
+    {
+      "id": "computeroll",
+      "note": "R757 soft refresh"
+    },
+    {
+      "id": "gang-fun",
+      "note": "R757 soft refresh"
+    },
+    {
+      "id": "ptah-trade",
+      "note": "R757 soft refresh"
+    },
+    {
+      "id": "pipfun",
+      "note": "R757 soft refresh"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "onchain-crystals",
+      "note": "Agent ID免费mint仍LIVE"
+    },
+    {
+      "id": "jager",
+      "note": "喊Pause minting，或临近开盘"
+    },
+    {
+      "id": "robinians",
+      "note": "RH free mint LIVE/收钱包"
+    }
+  ],
+  "clearedPrevNew": [
+    {
+      "id": "ecuumsite",
+      "note": "R756 NTR cleared"
+    },
+    {
+      "id": "etfxfun",
+      "note": "R756 NTR cleared"
+    },
+    {
+      "id": "fideslock",
+      "note": "R756 NTR cleared"
+    },
+    {
+      "id": "huemans_rh",
+      "note": "R756 NTR cleared"
+    },
+    {
+      "id": "sigilnetdotfun",
+      "note": "R756 NTR cleared"
+    },
+    {
+      "id": "iclaude_ai",
+      "note": "R756 NTR cleared"
+    }
+  ],
+  "xReads": 18,
+  "xReadsNote": "关键词search≈7 + users batch≈3 + posts≈8；预算内≈18",
+  "discordPeekDeferred": true,
+  "discordPeekNote": "本执行端无browser；discordPeekDeferred=true",
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": [
+      "admit",
+      "score",
+      "alert",
+      "summary",
+      "softWhatsNew"
+    ],
+    "note": "admit曾收orpheus+sidao；score仅orpheus-fun admit=true，sidao skip"
+  },
+  "focusBan": "新收录orpheus-fun focus=false；未改 focusIds",
+  "summary": "本轮新增 1 个收录（orpheus-fun），近 2 小时共 3 个可操作项：Onchain Crystals 免费 mint LIVE、Jager 喊停 mint/或临近开盘、Robinians RH free mint 收钱包续。",
+  "watchesSoft": [
+    "kinetiqWatch",
+    "elysiumWatch",
+    "agentMiningWatch",
+    "agentPadWatch",
+    "agentTradingWatch",
+    "tapeWatch",
+    "tapeOutWatch",
+    "flapPadWatch",
+    "irysPadWatch",
+    "fullFunWatch",
+    "giwaWatch",
+    "zeroWatch",
+    "dogeEvmWatch",
+    "starknetWatch",
+    "btcPrivacyWatch",
+    "btcCrc20Watch",
+    "cantonPadWatch",
+    "glazeWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch",
+    "blonskrWatch",
+    "xChainPadWatch",
+    "starcatWatch",
+    "paperbirdWatch",
+    "miningWatch",
+    "layerZeroWatch",
+    "injectiveLaunchWatch",
+    "flaunchWatch",
+    "midstateWatch",
+    "focusWatch"
+  ],
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent钱包/Tape；均等覆盖",
+  "push": {
+    "branch": "main",
+    "ok": false,
+    "sha": null,
+    "files": [
+      "data.json",
+      "RESULT_R757.json",
+      "ROUND757_RESULT.json"
+    ]
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "remoteVerified": false
+}
