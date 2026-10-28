@@ -101,3 +101,10 @@
 - 但 `meta.tapeWatch.accounts` / `tapeOutWatch.accounts` / `candidateIds` 此前未写入 `@bitcointapes` / `bitcointapes` → 例行软刷不会专盯该号。
 - 已补写入 `tapeWatch` + `tapeOutWatch` 必盯；软刷粉≈118；近帖：主网免费公平铸造即将开放（UCO/Ordinals）；`focus:false` 保持；ecosystem→Tape（chain 仍 Bitcoin）。
 - 建议例行关键词：`@bitcointapes` / `BTape` / `Bitcoin Tapes` / `UCO` / `Ordinals 电路`。
+
+## 2026-10-28 用户点名补收 @UBIdotFUN
+- 库内此前 **无** `ubidotfun` / `UBIdotFUN` / `ubi.fun` → 关键词漏捞（雷达主盯 BN Agent/Flap/Tape/Elysium/RH，Arc+UBI launchpad 不在固定必盯）。
+- 新收卡：`ubidotfun`（@UBIdotFUN，Arc 社区优先 token launchpad，官网 https://ubi.fun LIVE；Agents {v2} 官宣 2026-10-28 12:00 UTC / 20:00 CST）。
+- 已写入 `meta.arcPadWatch.accounts` 必盯：`@UBIdotFUN`；`candidateIds`：`ubidotfun`；keywords：`UBIdotFUN` / `ubi.fun` / `Arc launchpad`。
+- `focus:false` 硬禁遵守；归台子/Meme；`$UBI` CA 未独立核实。
+- 建议例行关键词：`@UBIdotFUN` / `ubi.fun` / `UBI.fun` / `Arc launchpad`。
