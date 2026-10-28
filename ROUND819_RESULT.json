@@ -5,7 +5,7 @@
   "timezone": "Asia/Shanghai",
   "notify": true,
   "notifyReason": "new_admits",
-  "alertMessage": "",
+  "alertMessage": "R819 DC补漏新收3（未核验）：台子/Meme Gra8dtv(@Gra8dtv 无dev重启pump.fun币并空投持有人)、SimbaPrime(@SimbaPrime Base公平发射台+订单簿DEX)；打新 MemePit(@memepitHQ RH链1111 Genesis Anons NFT即将mint)。面板 https://reboot7454.github.io/early-scout/",
   "newAdmits": [
     "gra8dtv",
     "simbaprime",
@@ -51,12 +51,13 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "commit": "abbaab5"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R819：Discord alpha 补收 gra8dtv,simbaprime,memepithq；清 hocknetwork,landlordhoodfun,thepumptab；lastSeen→2026-10-29 07:13；lastChecked→2026-10-29 07:16 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "DISCORD_ALPHA_40_CARDS_20261029_0718.json",
   "priorRoundNote": "R818 meta NTR ['thepumptab', 'landlordhoodfun', 'hocknetwork']; cardsAfterCutoff=43"
 }
