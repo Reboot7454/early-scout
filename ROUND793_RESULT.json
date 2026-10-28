@@ -1,0 +1,150 @@
+{
+  "round": 793,
+  "completedAt": "2026-10-28 22:08 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+le2h",
+  "alertMessage": "本轮新收录：elys-inscriptions(Elysium铭文协议testnet Genesis)、karmafuckers(6969 NFT GTD free mint细节流传)。≤2h窗口：hoodmon FREE mint 22:00 CST（NOW）；pick-rush/play-farmfi/pulse-launchpad 约23:00 CST；computeroll/world-ygg/reynarlabs LIVE。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "elys-inscriptions",
+    "karmafuckers"
+  ],
+  "newCount": 2,
+  "newIds": [
+    "elys-inscriptions",
+    "karmafuckers"
+  ],
+  "le2h": [
+    {
+      "id": "hoodmon",
+      "note": "Genesis FREE mint 22:00 CST NOW/进行中",
+      "untilApprox": "22:00 CST"
+    },
+    {
+      "id": "pick-rush",
+      "note": "$RUSH launch 23:00 CST",
+      "untilApprox": "23:00 CST"
+    },
+    {
+      "id": "play-farmfi",
+      "note": "Genesis Farm mint 23:00 CST起",
+      "untilApprox": "23:00 CST"
+    },
+    {
+      "id": "pulse-launchpad",
+      "note": "$PULSE Live 23:00 CST",
+      "untilApprox": "23:00 CST"
+    },
+    {
+      "id": "computeroll",
+      "note": "mining LIVE on BSC",
+      "untilApprox": "进行中"
+    },
+    {
+      "id": "world-ygg",
+      "note": "Agent ID Tree mint LIVE",
+      "untilApprox": "LIVE"
+    },
+    {
+      "id": "reynarlabs",
+      "note": "$REYN LIVE on Pons",
+      "untilApprox": "LIVE"
+    }
+  ],
+  "xReadsUsed": 95,
+  "userFollowWatchComplete": true,
+  "tenLaneKeywordsComplete": true,
+  "mentionsCoverage": [
+    "Elysium",
+    "Tape",
+    "GIWA",
+    "DogeEVM",
+    "Starknet",
+    "flap",
+    "Irys",
+    "Full.fun",
+    "Arc",
+    "BTC"
+  ],
+  "mentionsCoverageNote": "Equal effort all watched chains; flap/Irys/Full/Arc/BTC mentions+kw covered; not Elysium-only. BN Agent pads via userFollow+agentPad soft-brush.",
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit+score+alert thinking ON; admit=10 score=5",
+  "watchBugsFixed": [
+    {
+      "id": "bitdinosnft",
+      "addedTo": "agentPadWatch",
+      "note": "R792 Discord admit was only in discordAlphaPeek"
+    },
+    {
+      "id": "karmafuckers",
+      "addedTo": "freeMintWatch",
+      "note": "new freeMintWatch for free-mint NFT track"
+    },
+    {
+      "id": "elys-inscriptions",
+      "addedTo": "elysiumWatch"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "bitdinosnft"
+  ],
+  "skippedHot": [
+    {
+      "id": "itia",
+      "reason": "粉≈31k 已较热"
+    },
+    {
+      "id": "bullshot",
+      "reason": "粉≈59k 偏热"
+    },
+    {
+      "id": "anoncoinit",
+      "reason": "粉≈21k 偏热"
+    },
+    {
+      "id": "arc-pulse",
+      "reason": "score admit:false 粉20/部署未核实"
+    },
+    {
+      "id": "elysium-cat",
+      "reason": "CA未独立核实"
+    },
+    {
+      "id": "lepeon-arc",
+      "reason": "无合约无流动性"
+    },
+    {
+      "id": "elisa-on-elysium",
+      "reason": "0粉 agent 无明确 mint/launch 窗口"
+    },
+    {
+      "id": "arguspad",
+      "reason": "未确认正式 launchpad"
+    }
+  ],
+  "softDebtRefreshed": [
+    "userFollowWatch",
+    "agentPadWatch",
+    "elysiumWatch",
+    "tapeWatch",
+    "giwaWatch",
+    "dogeEvmWatch",
+    "starknetWatch",
+    "btcPrivacyWatch",
+    "flapPadWatch",
+    "irysPadWatch",
+    "fullFunWatch",
+    "arcPadWatch",
+    "kinetiqWatch",
+    "zeroWatch"
+  ],
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "push": {
+    "attempted": false,
+    "ok": false,
+    "sha": null
+  },
+  "summary": "R793：新收2（elys-inscriptions/karmafuckers）；≤2h hoodmon NOW + pick-rush/farmfi/pulse≈23:00 + computeroll/ygg/reyn LIVE；十车道kw全跑；官号mentions覆盖Elysium/Tape/GIWA/Doge/Starknet/flap/Irys/Full/Arc/BTC；Discord deferred；修bitdinosnft Watch漏挂。"
+}
