@@ -162,3 +162,9 @@ Jafar 是打新玩家：目标尽量不漏可操作机会，不是固定赛道�
 - 已建卡 `local-bottom`（Elysium 生态 / 打新，`focus:false`，`status:watching`），并入 `meta.userFollowWatch.accounts` + `candidateIds`（**未改其它 Watch**）。
 - **关键词补强（每轮必搜）**：`Local Bottom` / `localbottomcom` / `localbottom`。
 - 事实：粉≈55；2026-10-16 开号；仅 1 帖「Local Bottom is in」（https://x.com/localbottomcom/status/2111091751616123002）；无官网；无可操作 mint 窗。
+
+## 2026-10-28 官号 mentions 挂靠扫（全链同等）
+- 用户确认：每轮对各必盯链/生态官号拉 mentions/被引用，收「挂靠该链 / is in on @官号」类新号再 DS 筛。
+- **禁止只扫 Elysium**；Tape / GIWA / Zero / DogeEVM / Starknet / BTC / flap / Irys / Full.fun / Arc / BN Agent pad 等 Watch 官号同等。
+- 雷达不解析全网 bio；靠 mentions + 关键词专名补漏。RESULT 简述本轮 mentions 覆盖了哪些链。
+
