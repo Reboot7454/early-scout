@@ -1,0 +1,133 @@
+{
+  "round": 817,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-29 06:04 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "symbol-dotai",
+    "vybe-fi",
+    "oddoneout-fun",
+    "sigmacybercat",
+    "sendpingapp",
+    "elypadotfun",
+    "ownerlessfun"
+  ],
+  "newCount": 7,
+  "newIds": [
+    "symbol-dotai",
+    "vybe-fi",
+    "oddoneout-fun",
+    "sigmacybercat",
+    "sendpingapp",
+    "elypadotfun",
+    "ownerlessfun"
+  ],
+  "skipped": [
+    {
+      "id": "mynaoneth",
+      "reason": "仅称 soon on Ethereum，无产品、发射或 mint 线索。"
+    },
+    {
+      "id": "planktonotc",
+      "reason": "仅处于 building 阶段，无上线产品或发射线索。"
+    },
+    {
+      "id": "tora-markets",
+      "reason": "简介空泛，仅指向 Elysium，无玩法或发射细节。"
+    },
+    {
+      "id": "hushwavecash",
+      "reason": "只有隐私口号，无链、产品、合约或玩法线索。"
+    },
+    {
+      "id": "mememarketbnb",
+      "reason": "泛 memecoin 交易口号，无实际产品、链接或机制。"
+    },
+    {
+      "id": "stickynodestech",
+      "reason": "Uniswap v4 hooks 开发工具，非打新、发射或玩法盘。"
+    },
+    {
+      "id": "creovia-cloud",
+      "reason": "Solana 借贷产品，不属收录类别且无上线线索。"
+    },
+    {
+      "id": "wagiecoinrh",
+      "reason": "meme 口号加配对叙事，无实际机制或产品。"
+    },
+    {
+      "id": "pumplockfun",
+      "reason": "简介仅“pump lock”，空壳无有效信息。"
+    },
+    {
+      "id": "mopstreet",
+      "reason": "有 CA 但只是 meme 人设，无实际机制或产品。"
+    },
+    {
+      "id": "mafiacoinrh",
+      "reason": "仅欢迎语，无机制、产品或合约。"
+    },
+    {
+      "id": "doswapz",
+      "reason": "仅有域名，无产品、机制或发射线索。"
+    },
+    {
+      "id": "brednbuddah",
+      "reason": "个人交易者号，非独立项目。"
+    },
+    {
+      "id": "ravnexchange",
+      "reason": "泛基础设施且 373 粉，不够极早期且非打新线索。"
+    },
+    {
+      "id": "volaren-ai",
+      "reason": "YC 背景融资型 AI 投资代理，非加密打新项目。"
+    },
+    {
+      "id": "opacus-tech",
+      "reason": "Solana 隐私基础设施且 141 粉，非极早期打新线索。"
+    }
+  ],
+  "cardsAfterLastSeen": 46,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "useprobly",
+    "elysiumtradex",
+    "cellmaxxers",
+    "hahastage",
+    "flywheeltorch"
+  ],
+  "candidateFlagsCleared": 5,
+  "topNewThisRoundCleared": [
+    "useprobly",
+    "elysiumtradex",
+    "cellmaxxers",
+    "hahastage",
+    "flywheeltorch"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=23",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-29 05:58",
+    "lastChecked": "2026-10-29 06:04 CST",
+    "newestCardTime": "2026-10-29 05:58",
+    "cardsAfterCutoff": 46,
+    "note": "R817：Discord alpha 补收 symbol-dotai,vybe-fi,oddoneout-fun,sigmacybercat,sendpingapp,elypadotfun,ownerlessfun；跳过 [{'id': 'mynaoneth', 'reason': '仅称 soon on Ethereum，无产品、发射或 mint 线索。'}, {'id': 'planktonotc', 'reason': '仅处于 building 阶段，无上线产品或发射线索。'}, {'id': 'tora-markets', 'reason': '简介空泛，仅指向 Elysium，无玩法或发射细节。'}, {'id': 'hushwavecash', 'reason': '只有隐私口号，无链、产品、合约或玩法线索。'}, {'id': 'mememarketbnb', 'reason': '泛 memecoin 交易口号，无实际产品、链接或机制。'}, {'id': 'stickynodestech', 'reason': 'Uniswap v4 hooks 开发工具，非打新、发射或玩法盘。'}, {'id': 'creovia-cloud', 'reason': 'Solana 借贷产品，不属收录类别且无上线线索。'}, {'id': 'wagiecoinrh', 'reason': 'meme 口号加配对叙事，无实际机制或产品。'}, {'id': 'pumplockfun', 'reason': '简介仅“pump lock”，空壳无有效信息。'}, {'id': 'mopstreet', 'reason': '有 CA 但只是 meme 人设，无实际机制或产品。'}, {'id': 'mafiacoinrh', 'reason': '仅欢迎语，无机制、产品或合约。'}, {'id': 'doswapz', 'reason': '仅有域名，无产品、机制或发射线索。'}, {'id': 'brednbuddah', 'reason': '个人交易者号，非独立项目。'}, {'id': 'ravnexchange', 'reason': '泛基础设施且 373 粉，不够极早期且非打新线索。'}, {'id': 'volaren-ai', 'reason': 'YC 背景融资型 AI 投资代理，非加密打新项目。'}, {'id': 'opacus-tech', 'reason': 'Solana 隐私基础设施且 141 粉，非极早期打新线索。'}]；清 useprobly,elysiumtradex,cellmaxxers,hahastage,flywheeltorch；lastSeen→2026-10-29 05:58；lastChecked→2026-10-29 06:04 CST",
+    "lastRound": 817
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R817：Discord alpha 补收 symbol-dotai,vybe-fi,oddoneout-fun,sigmacybercat,sendpingapp,elypadotfun,ownerlessfun；跳过 [{'id': 'mynaoneth', 'reason': '仅称 soon on Ethereum，无产品、发射或 mint 线索。'}, {'id': 'planktonotc', 'reason': '仅处于 building 阶段，无上线产品或发射线索。'}, {'id': 'tora-markets', 'reason': '简介空泛，仅指向 Elysium，无玩法或发射细节。'}, {'id': 'hushwavecash', 'reason': '只有隐私口号，无链、产品、合约或玩法线索。'}, {'id': 'mememarketbnb', 'reason': '泛 memecoin 交易口号，无实际产品、链接或机制。'}, {'id': 'stickynodestech', 'reason': 'Uniswap v4 hooks 开发工具，非打新、发射或玩法盘。'}, {'id': 'creovia-cloud', 'reason': 'Solana 借贷产品，不属收录类别且无上线线索。'}, {'id': 'wagiecoinrh', 'reason': 'meme 口号加配对叙事，无实际机制或产品。'}, {'id': 'pumplockfun', 'reason': '简介仅“pump lock”，空壳无有效信息。'}, {'id': 'mopstreet', 'reason': '有 CA 但只是 meme 人设，无实际机制或产品。'}, {'id': 'mafiacoinrh', 'reason': '仅欢迎语，无机制、产品或合约。'}, {'id': 'doswapz', 'reason': '仅有域名，无产品、机制或发射线索。'}, {'id': 'brednbuddah', 'reason': '个人交易者号，非独立项目。'}, {'id': 'ravnexchange', 'reason': '泛基础设施且 373 粉，不够极早期且非打新线索。'}, {'id': 'volaren-ai', 'reason': 'YC 背景融资型 AI 投资代理，非加密打新项目。'}, {'id': 'opacus-tech', 'reason': 'Solana 隐私基础设施且 141 粉，非极早期打新线索。'}]；清 useprobly,elysiumtradex,cellmaxxers,hahastage,flywheeltorch；lastSeen→2026-10-29 05:58；lastChecked→2026-10-29 06:04 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261029_0605.json",
+  "priorRoundNote": "R816 meta NTR ['flywheeltorch', 'hahastage', 'cellmaxxers', 'elysiumtradex', 'useprobly']; cardsAfterCutoff=46"
+}
