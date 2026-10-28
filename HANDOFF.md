@@ -150,3 +150,9 @@ Jafar 是打新玩家：目标尽量不漏可操作机会，不是固定赛道�
 - 用户更正：「额度」= **Grok Bot 用量**够，不是 X API。
 - **勿为省 Grok 轮次砍栏/缩盲捞**；十栏+必扫链每轮跑全。判断/文案仍用 DeepSeek。
 - X 仍有平台上限，但不得以省 X 当借口整栏跳过。关注表加强 ≠ 发现；偏科禁止。RESULT 写十栏是否跑全。
+
+## 2026-10-28 用户点名补收 @PulseLaunchpad（关键词漏）
+- 库/Watch 此前均无。漏因：词表无 `Pulse`/`pulsetoken`/`Robinhood launchpad` 专名，粉少被通用 launchpad 淹没。
+- 已建卡 `pulse-launchpad`（台子/Meme，`focus:false`），并入 `userFollowWatch` + `agentPadWatch`。
+- **关键词补强**：`PulseLaunchpad` / `$PULSE` / `pulsetoken` / `Pulse launchpad` / `Robinhood launchpad` / `RH agent launchpad`。
+- Live 2026-10-28 15:00 UTC=**23:00 CST**；开台+10M 空投；官网 https://www.pulsetoken.xyz 。
