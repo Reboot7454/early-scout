@@ -1,0 +1,73 @@
+{
+  "round": 756,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-28 11:18 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R756新收6（未核验）：打新 Ecuum(@EcuumSite 法币稳定币铸赎) / Fides(@fideslock 锁仓分储备) / Huemans(@Huemans_rh RH链1111免费NFT) / Sigilnet(@sigilnetdotfun 私有GPU发射)；台子/Meme etf.fun(@etfxfun 5链同发) / iClaude(@iClaude_ai Claude发币插件)。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "ecuumsite",
+    "etfxfun",
+    "fideslock",
+    "huemans_rh",
+    "sigilnetdotfun",
+    "iclaude_ai"
+  ],
+  "newCount": 6,
+  "newIds": [
+    "ecuumsite",
+    "etfxfun",
+    "fideslock",
+    "huemans_rh",
+    "sigilnetdotfun",
+    "iclaude_ai"
+  ],
+  "skipped": [
+    {
+      "id": "fishy_rh",
+      "reason": "ds_reject"
+    },
+    {
+      "id": "dunkndegen",
+      "reason": "ds_reject"
+    }
+  ],
+  "cardsAfterLastSeen": 20,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "robinians"
+  ],
+  "candidateFlagsCleared": 1,
+  "topNewThisRoundCleared": [
+    "robinians"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=8",
+  "coverage": "alpha-3, alpha-1-backup, smart-accounts-tracker, alpha-1",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-28 11:16 CST",
+    "lastChecked": "2026-10-28 11:18 CST",
+    "newestCardTime": "2026-10-28 11:16 CST",
+    "cardsAfterCutoff": 20,
+    "note": "R756：Discord alpha 补收 ecuumsite,etfxfun,fideslock,huemans_rh,sigilnetdotfun,iclaude_ai；跳过 [{'id': 'fishy_rh', 'reason': 'ds_reject'}, {'id': 'dunkndegen', 'reason': 'ds_reject'}]；清 robinians；lastSeen→2026-10-28 11:16 CST；lastChecked→2026-10-28 11:18 CST；Spidey 在 alpha-1(10:44-10:53) 与 backup(10:58) 恢复发卡；smart 新3条均成熟/个人号",
+    "lastRound": 756,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-28 11:16 CST",
+      "alpha-1-backup": "2026-10-28 10:58 CST",
+      "smart-accounts-tracker": "2026-10-28 11:16 CST",
+      "alpha-1": "2026-10-28 10:53 CST"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R756：Discord alpha 补收 ecuumsite,etfxfun,fideslock,huemans_rh,sigilnetdotfun,iclaude_ai；跳过 [{'id': 'fishy_rh', 'reason': 'ds_reject'}, {'id': 'dunkndegen', 'reason': 'ds_reject'}]；清 robinians；lastSeen→2026-10-28 11:16 CST；lastChecked→2026-10-28 11:18 CST",
+  "remoteVerified": false,
+  "cardsFile": "cards.json",
+  "priorRoundNote": "R755 meta NTR ['robinians']; cardsAfterCutoff=20"
+}

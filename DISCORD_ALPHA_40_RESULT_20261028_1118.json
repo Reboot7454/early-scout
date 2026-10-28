@@ -1,0 +1,67 @@
+{
+  "round": 756,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-28 11:18 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "ecuumsite",
+    "etfxfun",
+    "fideslock",
+    "huemans_rh",
+    "sigilnetdotfun",
+    "iclaude_ai"
+  ],
+  "newCount": 6,
+  "newIds": [
+    "ecuumsite",
+    "etfxfun",
+    "fideslock",
+    "huemans_rh",
+    "sigilnetdotfun",
+    "iclaude_ai"
+  ],
+  "skipped": [
+    {
+      "id": "fishy_rh",
+      "reason": "ds_reject"
+    },
+    {
+      "id": "dunkndegen",
+      "reason": "ds_reject"
+    }
+  ],
+  "cardsAfterLastSeen": 20,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "robinians"
+  ],
+  "candidateFlagsCleared": 1,
+  "topNewThisRoundCleared": [
+    "robinians"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=8",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-28 11:16 CST",
+    "lastChecked": "2026-10-28 11:18 CST",
+    "newestCardTime": "2026-10-28 11:16 CST",
+    "cardsAfterCutoff": 20,
+    "note": "R756：Discord alpha 补收 ecuumsite,etfxfun,fideslock,huemans_rh,sigilnetdotfun,iclaude_ai；跳过 [{'id': 'fishy_rh', 'reason': 'ds_reject'}, {'id': 'dunkndegen', 'reason': 'ds_reject'}]；清 robinians；lastSeen→2026-10-28 11:16 CST；lastChecked→2026-10-28 11:18 CST",
+    "lastRound": 756
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R756：Discord alpha 补收 ecuumsite,etfxfun,fideslock,huemans_rh,sigilnetdotfun,iclaude_ai；跳过 [{'id': 'fishy_rh', 'reason': 'ds_reject'}, {'id': 'dunkndegen', 'reason': 'ds_reject'}]；清 robinians；lastSeen→2026-10-28 11:16 CST；lastChecked→2026-10-28 11:18 CST",
+  "remoteVerified": false,
+  "cardsFile": "cards.json",
+  "priorRoundNote": "R755 meta NTR ['robinians']; cardsAfterCutoff=20"
+}
