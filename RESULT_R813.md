@@ -13,7 +13,7 @@
 - softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch lastChecked → 2026-10-29 03:59 CST
 - clearedPriorNewThisRound: R812 newThisRound（dividrones）已清 false；本轮 newThisRound=[]
 - missNotes: 本轮零 X 读取=平台日限，非「省 Grok/省 X」砍栏；下轮 08:00 CST 后优先：① UF（含 @NutshellMarkets/@PulseLaunchpad/@mobster_meme 等）② 多链官号 mentions 专拉（R812 欠债）③ 十栏关键词盲捞；Discord 需用户在 box 登录后才能取消 deferred
-- push: (pending)
+- push: b5896791a91a368188e892951fa86c3608531bae
 - panel: https://reboot7454.github.io/early-scout/
 
 ## alert
