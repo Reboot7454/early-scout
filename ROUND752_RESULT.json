@@ -199,12 +199,14 @@
   "conflictNote": "R751 full-radar 与 R751 discord-alpha 分叉；保留远端 runtenet，quogent 升 R752",
   "push": {
     "branch": "main",
-    "ok": false,
+    "ok": true,
+    "sha": "34f03cfa15a04a7fd7e654e0c5a55046f4f99dee",
     "files": [
       "data.json",
       "RESULT_R752.json",
       "ROUND752_RESULT.json"
-    ]
+    ],
+    "dataSha": "34f03cfa15a04a7fd7e654e0c5a55046f4f99dee"
   },
   "panel": "https://reboot7454.github.io/early-scout/"
 }
