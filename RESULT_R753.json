@@ -1,0 +1,172 @@
+{
+  "round": 753,
+  "mode": "full-radar",
+  "completedAt": "2026-10-28 10:39 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "le2h LIVE/临近开盘",
+  "alertMessage": "R753：OnchainCrystals免费mint仍LIVE；JAGER冲10k开盘；详见 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "round753Added": [],
+  "skipped": [
+    {
+      "id": "blurb-xyz",
+      "reason": "DS拒：官推0帖无独立mint核验"
+    },
+    {
+      "id": "Leeonmort",
+      "reason": "X username Not Found→无核验官推硬禁skip（保留watch名单）"
+    },
+    {
+      "id": "nekartnft",
+      "reason": "MASQUERADE促销号非独立项目"
+    },
+    {
+      "id": "HoodinalCox",
+      "reason": "粉丝号非项目官推"
+    }
+  ],
+  "updated": [
+    {
+      "id": "onchain-crystals",
+      "note": "R753 soft refresh"
+    },
+    {
+      "id": "seedform",
+      "note": "R753 soft refresh"
+    },
+    {
+      "id": "quogent",
+      "note": "R753 soft refresh"
+    },
+    {
+      "id": "bitcointapes",
+      "note": "R753 soft refresh"
+    },
+    {
+      "id": "computeroll",
+      "note": "R753 soft refresh"
+    },
+    {
+      "id": "bstonk-agents",
+      "note": "R753 soft refresh"
+    },
+    {
+      "id": "jager",
+      "note": "R753 soft refresh"
+    },
+    {
+      "id": "lucky-cats",
+      "note": "R753 soft refresh"
+    },
+    {
+      "id": "ptah-trade",
+      "note": "R753 soft refresh"
+    },
+    {
+      "id": "vaultlings",
+      "note": "R753 soft refresh"
+    },
+    {
+      "id": "nomio",
+      "note": "R753 soft refresh"
+    },
+    {
+      "id": "foundry-tape",
+      "note": "R753 soft refresh"
+    },
+    {
+      "id": "enter-elysium",
+      "note": "R753 soft refresh"
+    },
+    {
+      "id": "gamapad",
+      "note": "R753 soft refresh"
+    },
+    {
+      "id": "masqueradebnft",
+      "note": "R753 soft refresh"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "onchain-crystals",
+      "note": "Agent ID免费mint LIVE"
+    },
+    {
+      "id": "jager",
+      "note": "$JAGENT 9000/10000冲10k开盘"
+    }
+  ],
+  "clearedPrevNew": [
+    {
+      "id": "quogent",
+      "note": "R752 NTR cleared"
+    }
+  ],
+  "xReads": 18,
+  "xReadsNote": "关键词search+must-watch batch users/posts；预算内≈18",
+  "discordPeekDeferred": true,
+  "discordPeekNote": "本轮不登录Discord；无仓内新DC线索可收",
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": [
+      "admit",
+      "softUpdates",
+      "le2h",
+      "alert",
+      "summary"
+    ],
+    "note": "首轮soft截断后补跑compact JSON合并；无本地fallback文案"
+  },
+  "focusBan": "本轮无新收录；未改 focus/focusIds；soft未置 focus:true",
+  "summary": "R753无新收；软刷BN Agent/Tape/GIWA；le2h=Crystals+JAGER",
+  "watchesSoft": [
+    "layerZeroWatch",
+    "miningWatch",
+    "injectiveLaunchWatch",
+    "glazeWatch",
+    "cantonPadWatch",
+    "flaunchWatch",
+    "tokenWorksPlaygroundWatch",
+    "midstateWatch",
+    "focusWatch",
+    "elysiumWatch",
+    "blonskrWatch",
+    "tapeOutWatch",
+    "xChainPadWatch",
+    "starcatWatch",
+    "paperbirdWatch",
+    "btcPrivacyWatch",
+    "btcCrc20Watch",
+    "starknetWatch",
+    "giwaWatch",
+    "zeroWatch",
+    "dogeEvmWatch",
+    "kinetiqWatch",
+    "agentMiningWatch",
+    "agentPadWatch",
+    "agentTradingWatch",
+    "tapeWatch",
+    "flapPadWatch",
+    "irysPadWatch",
+    "fullFunWatch",
+    "tokenWorksWatch"
+  ],
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent钱包/Tape；均等覆盖",
+  "push": {
+    "branch": "main",
+    "ok": false,
+    "sha": null,
+    "files": [
+      "data.json",
+      "RESULT_R753.json",
+      "ROUND753_RESULT.json"
+    ]
+  },
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
