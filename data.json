@@ -239,8 +239,8 @@
       "vela-vela"
     ],
     "miningWatch": {
-      "note": "R805：PickRush mining LIVE 刷新；挖矿车道 keyword covered。",
-      "lastChecked": "2026-10-29 02:31 CST",
+      "note": "R805：PickRush mining LIVE 刷新；挖矿车道 keyword covered。 | R811b +@NutshellMarkets squeek treasury",
+      "lastChecked": "2026-10-29 03:25 CST",
       "r379": "soft refresh",
       "active": true,
       "r380": "Trac agentic mining续；本窗无新PoW/agent mining admit；lastChecked 2026-10-23 08:32 CST",
@@ -274,7 +274,8 @@
         "pick-rush",
         "nodalgpu",
         "play-farmfi",
-        "joinfrieze"
+        "joinfrieze",
+        "nutshell-markets"
       ],
       "accounts": [
         "@nibblewage",
@@ -284,7 +285,8 @@
         "@nodalgpu",
         "@ComputeRollLabs",
         "@PlayFarmFi",
-        "@joinfrieze"
+        "@joinfrieze",
+        "@NutshellMarkets"
       ],
       "r476": "R476：farming-season mint LIVE≤2h",
       "r480": "R480：lodepass/miner-fomo续LIVE>2h；无新PoW",
@@ -353,7 +355,15 @@
       "r775": "computeroll Mining LIVE ≤2h；无新挖矿 admit",
       "r777": "补Watch bug：focus三卡+computeroll",
       "r786": "soft-brush + keyword coverage",
-      "r805": "R805 soft-brush 2026-10-29 01:39 CST"
+      "r805": "R805 soft-brush 2026-10-29 01:39 CST",
+      "r811b": {
+        "at": "2026-10-29 03:25 CST",
+        "added": [
+          "@NutshellMarkets",
+          "nutshell-markets"
+        ],
+        "note": "squeek eco treasury hang-on；每轮与 @squeekchain 同等扫，勿只盯主号"
+      }
     },
     "round20Added": [
       "blox-miners",
@@ -6390,7 +6400,7 @@
       "aura-nodes",
       "ink-pixel-ghosts"
     ],
-    "updatedAt": "2026-10-28 23:08 CST",
+    "updatedAt": "2026-10-29 03:25 CST",
     "lastRun": "2026-10-27 22:37 CST",
     "round351Added": [
       "aao-pad",
@@ -8793,7 +8803,8 @@
         "@motionmkts",
         "@NookPadfun",
         "@BibblesHQ",
-        "@AgentMarkez"
+        "@AgentMarkez",
+        "@NutshellMarkets"
       ],
       "candidateIds": [
         "0xvernull",
@@ -8896,11 +8907,12 @@
         "motionmkts",
         "nookpad",
         "bibbles-hq",
-        "agent-markets"
+        "agent-markets",
+        "nutshell-markets"
       ],
       "pending": [],
-      "note": "R805：UF soft Pulse LIVE day1 / machine 48h窗 / bscaidrop 1k+24h / blindfloor T−19.5h / localbottom Elysium / Carcosa 0推 / PickRush mining LIVE；mobster X Not Found。 | R806: +@Oathbots +@project_hoodmon（库内优先名未进UF→补）",
-      "lastChecked": "2026-10-29 03:05 CST",
+      "note": "R805：UF soft Pulse LIVE day1 / machine 48h窗 / bscaidrop 1k+24h / blindfloor T−19.5h / localbottom Elysium / Carcosa 0推 / PickRush mining LIVE；mobster X Not Found。 | R806: +@Oathbots +@project_hoodmon（库内优先名未进UF→补） | R811b: +@NutshellMarkets（squeek treasury 挂靠，用户点名）",
+      "lastChecked": "2026-10-29 03:25 CST",
       "createdAt": "2026-10-28 17:15 CST",
       "sourceRound": 775,
       "r775": "用户点名6项已入 candidates；pending=[]",
@@ -8933,7 +8945,15 @@
         "vaultplay_": "vaultplay"
       },
       "r805": "R805 soft-brush 2026-10-29 01:39 CST",
-      "r810": "R810 UF soft-brush 完成：Pulse LIVE/$819k；machine not live；bscaidrop 下一批~24h；PickRush 挖矿 LIVE；Oathbots/Halcyx free mint LIVE；blindfloor T−18h；localbottom/gang soft；hoodminers day-of 无精确小时非≤2h。"
+      "r810": "R810 UF soft-brush 完成：Pulse LIVE/$819k；machine not live；bscaidrop 下一批~24h；PickRush 挖矿 LIVE；Oathbots/Halcyx free mint LIVE；blindfloor T−18h；localbottom/gang soft；hoodminers day-of 无精确小时非≤2h。",
+      "r811b": {
+        "at": "2026-10-29 03:25 CST",
+        "added": [
+          "@NutshellMarkets",
+          "nutshell-markets"
+        ],
+        "note": "user-named 补收；squeekchain 生态挂靠/金库周边"
+      }
     },
     "round775Added": [
       "sunrig",
@@ -9038,6 +9058,11 @@
         "missed": "@Carcosasa / Carcosa",
         "reason": "关键词盲捞未覆盖 Carcosa / Carcosasa / carcosa；官号0帖，几乎无法被帖文关键词命中，仅靠社区引流帖",
         "fix": "每轮关键词必含 Carcosa / Carcosasa / carcosa"
+      },
+      "r811b": {
+        "missed": "@NutshellMarkets / Nutshell / squeekchain treasury",
+        "reason": "关键词盲捞未覆盖 NutshellMarkets / Nutshell / squeek treasury / 仓鼠链生态挂靠；只盯 @squeekchain 主号会漏金库/周边挂靠号；不解析 bio 挂靠",
+        "fix": "每轮关键词必含 NutshellMarkets / Nutshell / squeekchain treasury / squeek treasury / 仓鼠链 / squeek eco；「这类」= squeekchain 生态挂靠号（金库/周边），盲捞+主号 mentions 同等扫，勿只盯 @squeekchain"
       }
     },
     "round786Added": [
@@ -128406,6 +128431,94 @@
         "round": 810,
         "newThisRound": true
       }
+    },
+    {
+      "id": "nutshell-markets",
+      "name": "Nutshell Markets",
+      "focus": true,
+      "status": "watching",
+      "newThisRound": true,
+      "round": 811,
+      "firstSeen": "2026-10-29 03:25 CST",
+      "addedAt": "2026-10-29 03:25 CST",
+      "lastChecked": "2026-10-29 03:25 CST",
+      "updatedAt": "2026-10-29 03:25 CST",
+      "source": "user-named @NutshellMarkets 2026-10-29",
+      "sources": [
+        "user point-name",
+        "X verify",
+        "squeekchain eco"
+      ],
+      "summary": "Nutshell Markets 是 2026-10-21 创建的新账号，bio 称在为 @squeekchain 搭建一个以增长为目标的财库（treasury），目前仅有 1 条预热推文、约 42 名关注者，且无官网。",
+      "blurb": "为 squeekchain 生态搭建增长型财库的早期账号，公开信息极少。",
+      "whatsNew": "用户点名补收；首帖「Something is growing 🌿🌰」；挂表 watching。",
+      "highlights": [
+        "bio 明确表述为 @squeekchain 构建一个“旨在增长”的财库（treasury）",
+        "唯一一条推文为 “Something is growing 🌿🌰”，属预热式内容",
+        "关联 @squeekchain：仓鼠/实体 PoW toychain，Sepolia 测试网，token 尚未发行",
+        "用户点名要求将 squeek 生态挂靠/金库/周边纳入每轮必扫"
+      ],
+      "drawbacks": [
+        "无官网，也没有白皮书、合约地址等可验证材料",
+        "仅 1 条帖子、约 42 名关注者，未披露团队、产品或路线图",
+        "与 @squeekchain 的关联目前仅体现在 bio 和单条推文上，缺乏实质集成证据；所依托生态自身仍在测试网且 token 未发"
+      ],
+      "tags": [
+        "用户点名",
+        "squeekchain",
+        "仓鼠链",
+        "挖矿",
+        "treasury",
+        "金库",
+        "挂靠号",
+        "极早期",
+        "有官推",
+        "watching",
+        "toychain",
+        "focus"
+      ],
+      "category": "挖矿",
+      "miningType": "other",
+      "chain": "Ethereum",
+      "zoneHint": "挖矿 / squeek 生态挂靠金库",
+      "zone": "mining",
+      "ecosystem": "Squeekchain",
+      "handle": "@NutshellMarkets",
+      "twitter": "@NutshellMarkets",
+      "followers": 42,
+      "xFollowers": 42,
+      "links": {
+        "x": "https://x.com/NutshellMarkets",
+        "twitter": "https://x.com/NutshellMarkets",
+        "tweet": "https://x.com/NutshellMarkets/status/2115481107563159962",
+        "related": "https://x.com/squeekchain"
+      },
+      "scores": {
+        "early": 88,
+        "actionable": 12,
+        "novelty": 55,
+        "risk": 82,
+        "overall": 42
+      },
+      "notes": "User-named. Bio: Building a treasury designed to grow @squeekchain. Created 2026-10-21. 1 post. No website. Do NOT confuse with Predict.fun. Squeek eco hang-on → focus allowed per HANDOFF hamster/toychain class.",
+      "risk": "high",
+      "riskLevel": "high",
+      "flag": "WATCH",
+      "mintStatus": "watch",
+      "schedule": {
+        "status": "watch",
+        "timezone": "Asia/Shanghai",
+        "mintStatus": "watch",
+        "note": "无精确窗；squeek treasury 周边观察",
+        "source": "user R811b"
+      },
+      "social": {
+        "followers": 42,
+        "handle": "@NutshellMarkets",
+        "xFollowers": 42,
+        "lastCheckedAt": "2026-10-29T03:25:00+08:00"
+      },
+      "le2h": false
     }
   ],
   "newThisRound": [
@@ -128413,14 +128526,15 @@
     "getcairva",
     "megapowerball4",
     "koul-me",
-    "dogwifjob-sol"
+    "dogwifjob-sol",
+    "nutshell-markets"
   ],
   "alertMessage": "",
   "roundNAdded": [
     "nookpad"
   ],
-  "updatedAt": "2026-10-29 03:20 CST",
-  "updated": "2026-10-29 03:20 CST",
+  "updatedAt": "2026-10-29 03:25 CST",
+  "updated": "2026-10-29 03:25 CST",
   "round365Added": [
     "nockd",
     "inkora"

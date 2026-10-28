@@ -165,7 +165,7 @@ Jafar 是打新玩家：目标尽量不漏可操作机会，不是固定赛道�
 
 ## 2026-10-28 官号 mentions 挂靠扫（全链同等）
 - 用户确认：每轮对各必盯链/生态官号拉 mentions/被引用，收「挂靠该链 / is in on @官号」类新号再 DS 筛。
-- **禁止只扫 Elysium**；Tape / GIWA / Zero / DogeEVM / Starknet / BTC / flap / Irys / Full.fun / Arc / BN Agent pad 等 Watch 官号同等。
+- **禁止只扫 Elysium**；Tape / GIWA / Zero / DogeEVM / Starknet / BTC / flap / Irys / Full.fun / Arc / BN Agent pad / **squeekchain（含金库/周边挂靠，勿只盯主号）** 等 Watch 官号同等。
 - 雷达不解析全网 bio；靠 mentions + 关键词专名补漏。RESULT 简述本轮 mentions 覆盖了哪些链。
 
 
@@ -175,3 +175,11 @@ Jafar 是打新玩家：目标尽量不漏可操作机会，不是固定赛道�
 - 语境：与 `@metricxyz`（Metric DEX）相关；`@Fahid77077` Pool Updates（MU/USDG、SPY/USDG、QQQ）写 Follow `@Carcosasa`（https://x.com/Fahid77077/status/2115316938062921944）。
 - 事实：粉≈46；2026-10-23 开号；bio 空；0 帖；无官网；无可操作窗。
 - **关键词补强（每轮必搜）**：`Carcosa` / `Carcosasa` / `carcosa`（`meta.keywordGaps.r795b`）。
+
+## 2026-10-29 用户点名补收 @NutshellMarkets（squeek 生态挂靠/金库）
+- 库/Watch 此前均无 `nutshell`。漏因：关键词未覆盖 `NutshellMarkets` / `Nutshell` / `squeek treasury` / `仓鼠链`；**只盯 `@squeekchain` 主号会漏金库/周边挂靠号**；雷达不解析 bio 挂靠。
+- 已建卡 `nutshell-markets`（挖矿 / squeek 生态，`focus:true` 允许——仓鼠/实体 PoW toychain 周边，`status:watching`），links 双写 `https://x.com/NutshellMarkets`。
+- 已入 `meta.userFollowWatch.accounts` + `candidateIds`；并入 `meta.miningWatch.accounts` + `candidateIds`（无独立 squeek 子 Watch，挂 miningWatch）。
+- **「这类」= squeekchain 生态挂靠号（金库/周边）**：每轮盲捞 + `@squeekchain` 官号 mentions 同等扫，**禁止只盯主号偏科**；勿与 Predict.fun 预测市场混淆。
+- 事实：bio「Building a treasury designed to grow @squeekchain」；2026-10-21 开号；粉≈42；1 帖「Something is growing 🌿🌰」（https://x.com/NutshellMarkets/status/2115481107563159962）；无官网。
+- **关键词补强（每轮必搜）**：`NutshellMarkets` / `Nutshell` / `squeekchain treasury` / `squeek treasury` / `仓鼠链` / `squeek eco`（`meta.keywordGaps.r811b`）。
