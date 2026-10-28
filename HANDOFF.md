@@ -121,7 +121,7 @@
 
 Jafar 是打新玩家：目标尽量不漏可操作机会，不是固定赛道覆盖率好看。
 
-每轮 X/精力硬顺序：① `meta.userFollowWatch` → ② 各必盯 Watch → ③ 关键词盲捞 → ④ Discord 仓内线索。额度紧时砍 ③④，**禁止砍 ①**。
+每轮 X/精力硬顺序：① `meta.userFollowWatch` → ② 各必盯 Watch → ③ 关键词盲捞 → ④ Discord 仓内线索。**Grok 额度够，勿为省 Grok 砍 ③**；X 有平台上限但不得整栏跳过；**禁止砍 ①**。
 
 硬规则：
 - **在库但不在任何 Watch = 监控 bug**，本轮必须补进对应 Watch 或 `userFollowWatch`。
