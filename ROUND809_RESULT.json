@@ -1,0 +1,71 @@
+{
+  "round": 809,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-29 02:37 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC 补漏 R809 新收3（未核验）：Dot Clash(@dot_clash 网格策略小游戏)、WARM(@trywarm 钱包身份 带CA)、UnisonPad(@UnisonPad Solana 预承诺公平发射台) https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "dot-clash",
+    "trywarm",
+    "unisonpad"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "dot-clash",
+    "trywarm",
+    "unisonpad"
+  ],
+  "skipped": [
+    {
+      "id": "snap-ca",
+      "reason": "纯代币验证工具号，无产品、发射或玩法线索，关注为 0，拒绝。"
+    },
+    {
+      "id": "evagoldofficial",
+      "reason": "仅泛泛宣传 $EVA 社区代币，无合约、产品与发射细节，空壳营销风险高。"
+    },
+    {
+      "id": "torchscreener",
+      "reason": "简介为“torch launch 一屏查看”的筛选工具，虽附 CA，但属纯工具/资讯类，无产品玩法。"
+    },
+    {
+      "id": "tracehoundpro",
+      "reason": "个人/工具型账号，做 dev 钱包与内幕资金追踪，附 pump CA 但非明确项目发射，个人号属性强。"
+    }
+  ],
+  "cardsAfterLastSeen": 22,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "candidateFlagsCleared": 0,
+  "topNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=7",
+  "coverage": "discord-alpha alpha-3/backup/smart/alpha-1",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-29 02:34",
+    "lastChecked": "2026-10-29 02:37 CST",
+    "newestCardTime": "2026-10-29 02:34",
+    "cardsAfterCutoff": 26,
+    "note": "R809：Discord alpha 补收 dot-clash,trywarm,unisonpad；跳过 [{'id': 'snap-ca', 'reason': '纯代币验证工具号，无产品、发射或玩法线索，关注为 0，拒绝。'}, {'id': 'evagoldofficial', 'reason': '仅泛泛宣传 $EVA 社区代币，无合约、产品与发射细节，空壳营销风险高。'}, {'id': 'torchscreener', 'reason': '简介为“torch launch 一屏查看”的筛选工具，虽附 CA，但属纯工具/资讯类，无产品玩法。'}, {'id': 'tracehoundpro', 'reason': '个人/工具型账号，做 dev 钱包与内幕资金追踪，附 pump CA 但非明确项目发射，个人号属性强。'}]；lastSeen→2026-10-29 02:34；lastChecked→2026-10-29 02:37 CST",
+    "lastRound": 809,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-29 02:34 CST",
+      "alpha-1-backup": "2026-10-29 01:58 CST",
+      "smart-accounts-tracker": "2026-10-29 02:29 CST",
+      "alpha-1": "2026-10-29 02:32 CST"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R809：Discord alpha 补收 dot-clash,trywarm,unisonpad；跳过 [{'id': 'snap-ca', 'reason': '纯代币验证工具号，无产品、发射或玩法线索，关注为 0，拒绝。'}, {'id': 'evagoldofficial', 'reason': '仅泛泛宣传 $EVA 社区代币，无合约、产品与发射细节，空壳营销风险高。'}, {'id': 'torchscreener', 'reason': '简介为“torch launch 一屏查看”的筛选工具，虽附 CA，但属纯工具/资讯类，无产品玩法。'}, {'id': 'tracehoundpro', 'reason': '个人/工具型账号，做 dev 钱包与内幕资金追踪，附 pump CA 但非明确项目发射，个人号属性强。'}]；lastSeen→2026-10-29 02:34；lastChecked→2026-10-29 02:37 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261029_0236.json",
+  "priorRoundNote": "R808 meta NTR []; cardsAfterCutoff=22"
+}
