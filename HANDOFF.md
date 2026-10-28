@@ -135,3 +135,7 @@ Jafar 是打新玩家：目标尽量不漏可操作机会，不是固定赛道�
 - 已建卡 `machine-fun`（台子/Meme，`focus:false`），并入 `meta.userFollowWatch.accounts` + `candidateIds`。
 - 官宣 MachineFun goes live within next 48h（帖 https://x.com/machinedotfun/status/2115110031754703022，约 10/27 23:55 CST）；peaq 今日 RT。官网 https://machine.fun/ 。
 - 每轮软刷近帖；上线窗 ≤2h 要 notify。
+
+## 2026-10-28 监控 bug：@blobsdotmeme
+- 卡 `blobsdotmeme`（blobs.meme）R745 已在库，但 `userFollowWatch` 未写该号 → 软刷漏盯。
+- 已补 `@blobsdotmeme` / `blobsdotmeme` 进 userFollowWatch；每轮第一优先软刷。
