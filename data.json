@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-28 10:38 CST",
+    "updated": "2026-10-28 10:41 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R692",
-    "lastScout": "2026-10-28 10:38 CST",
+    "lastScout": "2026-10-28 10:41 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -479,7 +479,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 753,
+    "round": 754,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1406,7 +1406,9 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "insertcoinpad"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -2977,16 +2979,16 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-10-28 09:56 CST",
-      "lastChecked": "2026-10-28 10:02 CST",
-      "newestCardTime": "2026-10-28 09:56 CST",
-      "cardsAfterCutoff": 1,
-      "note": "R751：Discord alpha 补收 runtenet；跳过 [{'id': 'usetabella', 'reason': '仅公开构建交易复盘工具，无代币、发射、waitlist、测试网或打新线索，属于纯工具/个人构建向，按宁缺毋滥跳过。'}, {'id': 'rxshend', 'reason': '疑似个人号，简介 cryptic，无独立项目、产品、代币或发射线索，仅有Robinhood关注行为，跳过。'}]；清 kurvfun,vaultr,onchain-crystals；lastSeen→2026-10-28 09:56 CST；lastChecked→2026-10-28 10:02 CST",
-      "lastRound": 751,
+      "lastSeen": "2026-10-28 10:38 CST",
+      "lastChecked": "2026-10-28 10:41 CST",
+      "newestCardTime": "2026-10-28 10:38 CST",
+      "cardsAfterCutoff": 2,
+      "note": "R754：Discord alpha 补收 insertcoinpad；跳过 [{'id': 'huddleagents', 'reason': '有AI交易小队产品与Robinhood Chain玩法线索，但未见代币/发射机制，暂不收录。'}, {'id': 'poweredbysocket', 'reason': '仅有链上钩子/合约开发工具定位，无代币或发射线索，不收录。'}, {'id': 'coinexlewallet', 'reason': '普通自托管钱包，CXL Rewards不足以证明代币发射或打新价值。'}, {'id': 'bbff00_art', 'reason': 'NFT艺术个人号，无产品、发射或玩法线索。'}]；lastSeen→2026-10-28 10:38 CST；lastChecked→2026-10-28 10:41 CST；alpha-1/backup Spidey 仍停；smart 新2条均成熟/个人号",
+      "lastRound": 754,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-28 09:56 CST",
+        "alpha-3-new-accounts": "2026-10-28 10:38 CST",
         "alpha-1-backup": "2026-10-28 08:28 CST",
-        "smart-accounts-tracker": "2026-10-28 08:24 CST",
+        "smart-accounts-tracker": "2026-10-28 10:33 CST",
         "alpha-1": "2026-10-28 08:15 CST"
       }
     },
@@ -8018,9 +8020,60 @@
     ],
     "round752Added": [
       "quogent"
+    ],
+    "round754Added": [
+      "insertcoinpad"
     ]
   },
   "candidates": [
+    {
+      "id": "insertcoinpad",
+      "name": "Insertcoinpad",
+      "handle": "@insertcoinpad",
+      "twitter": "@insertcoinpad",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "Robinhood Chain",
+        "Meme币发射台",
+        "ETH配对",
+        "代币化股票",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Insertcoinpad"
+      },
+      "scores": {
+        "early": 9,
+        "potential": 7,
+        "risk": 7
+      },
+      "highlights": [
+        "Robinhood Chain Meme币发射台",
+        "支持ETH或代币化股票配对",
+        "被Robinhood Crypto关注"
+      ],
+      "drawbacks": [
+        "0关注，信息极少",
+        "未见合约/上线证据",
+        "发射台赛道竞争激烈"
+      ],
+      "whatsNew": "新近关注Robinhood Crypto的Robinhood Chain Meme币发射台。",
+      "summary": "定位清晰的极早期发射台，叙事贴合Robinhood Chain但尚无上线证据。",
+      "blurb": "定位清晰的极早期发射台，叙事贴合Robinhood Chain但尚无上线证据。",
+      "round": 754,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-28 10:41 CST",
+      "addedAt": "2026-10-28 10:41 CST",
+      "lastChecked": "2026-10-28 10:41 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "runtenet",
       "name": "TENET",
@@ -118025,20 +118078,22 @@
       "zoneOf": "bnagent"
     }
   ],
-  "newThisRound": [],
-  "alertMessage": "DC补漏 R751：新收 TENET(@runtenet，Robinhood Chain 代币化股票自动化金库+开放keeper网络，0粉，未核验)→打新栏。面板 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "insertcoinpad"
+  ],
+  "alertMessage": "",
   "roundNAdded": [
     "dubble",
     "finsail",
     "orynth"
   ],
-  "updatedAt": "2026-10-28 10:02 CST",
-  "updated": "2026-10-28 10:02 CST",
+  "updatedAt": "2026-10-28 10:41 CST",
+  "updated": "2026-10-28 10:41 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-28 10:02 CST",
+  "lastScout": "2026-10-28 10:41 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -118080,7 +118135,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1667,
+  "candidateCount": 1669,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -118862,5 +118917,8 @@
   "round751Added": [
     "runtenet"
   ],
-  "round753Added": []
+  "round753Added": [],
+  "round754Added": [
+    "insertcoinpad"
+  ]
 }

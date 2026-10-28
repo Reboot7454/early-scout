@@ -1,0 +1,67 @@
+{
+  "round": 754,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-28 10:41 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "insertcoinpad"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "insertcoinpad"
+  ],
+  "skipped": [
+    {
+      "id": "huddleagents",
+      "reason": "有AI交易小队产品与Robinhood Chain玩法线索，但未见代币/发射机制，暂不收录。"
+    },
+    {
+      "id": "poweredbysocket",
+      "reason": "仅有链上钩子/合约开发工具定位，无代币或发射线索，不收录。"
+    },
+    {
+      "id": "coinexlewallet",
+      "reason": "普通自托管钱包，CXL Rewards不足以证明代币发射或打新价值。"
+    },
+    {
+      "id": "bbff00_art",
+      "reason": "NFT艺术个人号，无产品、发射或玩法线索。"
+    }
+  ],
+  "cardsAfterLastSeen": 2,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "candidateFlagsCleared": 0,
+  "topNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=5",
+  "coverage": "discord-alpha alpha-3/backup/smart/alpha-1",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-28 10:38 CST",
+    "lastChecked": "2026-10-28 10:41 CST",
+    "newestCardTime": "2026-10-28 10:38 CST",
+    "cardsAfterCutoff": 2,
+    "note": "R754：Discord alpha 补收 insertcoinpad；跳过 [{'id': 'huddleagents', 'reason': '有AI交易小队产品与Robinhood Chain玩法线索，但未见代币/发射机制，暂不收录。'}, {'id': 'poweredbysocket', 'reason': '仅有链上钩子/合约开发工具定位，无代币或发射线索，不收录。'}, {'id': 'coinexlewallet', 'reason': '普通自托管钱包，CXL Rewards不足以证明代币发射或打新价值。'}, {'id': 'bbff00_art', 'reason': 'NFT艺术个人号，无产品、发射或玩法线索。'}]；lastSeen→2026-10-28 10:38 CST；lastChecked→2026-10-28 10:41 CST；alpha-1/backup Spidey 仍停；smart 新2条均成熟/个人号",
+    "lastRound": 754,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-28 10:38 CST",
+      "alpha-1-backup": "2026-10-28 08:28 CST",
+      "smart-accounts-tracker": "2026-10-28 10:33 CST",
+      "alpha-1": "2026-10-28 08:15 CST"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R754：Discord alpha 补收 insertcoinpad；跳过 [{'id': 'huddleagents', 'reason': '有AI交易小队产品与Robinhood Chain玩法线索，但未见代币/发射机制，暂不收录。'}, {'id': 'poweredbysocket', 'reason': '仅有链上钩子/合约开发工具定位，无代币或发射线索，不收录。'}, {'id': 'coinexlewallet', 'reason': '普通自托管钱包，CXL Rewards不足以证明代币发射或打新价值。'}, {'id': 'bbff00_art', 'reason': 'NFT艺术个人号，无产品、发射或玩法线索。'}]；lastSeen→2026-10-28 10:38 CST；lastChecked→2026-10-28 10:41 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261028_1040.json",
+  "priorRoundNote": "R753 meta NTR []; cardsAfterCutoff=2"
+}
