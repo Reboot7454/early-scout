@@ -1,0 +1,186 @@
+{
+  "round": 767,
+  "mode": "full-radar",
+  "completedAt": "2026-10-28 14:34 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+le2h",
+  "alertMessage": "新收录The Fluff Bat Society（@fluffbatsociety，Elysium Testnet Mint收钱包，粉≈588）；≤2h：OnchainCrystals Agent免费mint仍LIVE（前2免费），今晚23:00CST FarmFi Genesis Free mint（未进≤2h）。Robinians收钱包已>2h仍在收，Jager暂停，BTape≈273/1000，computeroll Mining未开；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "fluffbat-society",
+      "reason": "官帖明确 First Phase: Testnet Mint 且正在收钱包，粉少帖少，处于极早期测试网 mint 窗口。"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "fluffbat-society"
+  ],
+  "round767Added": [
+    "fluffbat-society"
+  ],
+  "skipped": [
+    {
+      "id": "elysiumgloom",
+      "reason": "账号0推文，无明确 testnet/deploy 或 mint 窗口。"
+    },
+    {
+      "id": "agntx-hq",
+      "reason": "仅一条 Introducing 帖，无 mint/launch 时间或可操作窗口。"
+    },
+    {
+      "id": "inky-souls",
+      "reason": "仅 Soon OpenSea+WL Discord，链未明确，无具体 mint/launch 窗口。"
+    },
+    {
+      "id": "tritonix-ai",
+      "reason": "无 mint/launch 可操作窗口，内容多为论坛评论。"
+    },
+    {
+      "id": "leeonmort",
+      "reason": "X username Not Found，无推特/无信号。"
+    },
+    {
+      "id": "XuanwuSigil",
+      "reason": "username Not Found"
+    },
+    {
+      "id": "mchain.art",
+      "reason": "本窗无极早期可操作新信号"
+    },
+    {
+      "id": "Quogent",
+      "reason": "已在库/本窗无新窗"
+    }
+  ],
+  "updated": [
+    {
+      "id": "onchain-crystals",
+      "note": "R767 soft：Agent免费mint仍LIVE，前2免费，粉≈16"
+    },
+    {
+      "id": "robinians",
+      "note": "R767 soft：首444收钱包已>2h仍在收，粉≈2250"
+    },
+    {
+      "id": "bitcointapes",
+      "note": "R767 soft：FREE MINT≈273/1000仍卡进度"
+    },
+    {
+      "id": "jager",
+      "note": "R767 soft：mint暂停重部署续"
+    },
+    {
+      "id": "computeroll",
+      "note": "R767 soft：Mining未开/测合约待换；网站mining页教学文"
+    },
+    {
+      "id": "play-farmfi",
+      "note": "R767 soft：今晚23:00CST Genesis Free mint分档"
+    },
+    {
+      "id": "enter-elysium",
+      "note": "R767 soft：主网2026-11-09续；新收fluffbat"
+    },
+    {
+      "id": "ptah-trade",
+      "note": "R767 soft：POA社交挖矿续；粉≈13237"
+    },
+    {
+      "id": "play-farm-rh",
+      "note": "R767 soft：GTD giveaway续；mint未官宣"
+    },
+    {
+      "id": "nonce-protocol",
+      "note": "R767 soft：Genesis mint社区称又LIVE"
+    },
+    {
+      "id": "cloaked-entities",
+      "note": "R767 soft：RH叙事续"
+    },
+    {
+      "id": "idbot_fun",
+      "note": "R767 soft：清new标记；拟Flap续"
+    },
+    {
+      "id": "xuanwu-sigil",
+      "note": "R767 soft：Leeonmort X API仍Not Found"
+    },
+    {
+      "id": "tokenworks-playground",
+      "note": "R767 soft lastChecked"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "onchain-crystals",
+      "note": "Agent免费mint仍LIVE，前2免费/max5"
+    }
+  ],
+  "tonight": [
+    {
+      "id": "play-farmfi",
+      "note": "今晚23:00CST Genesis Farm Free mint（现约14:34CST未进≤2h）"
+    }
+  ],
+  "clearedPrevNew": [
+    "idbot_fun"
+  ],
+  "xReads": 20,
+  "xReadsNote": "users batch≈5 + keyword search≈6 + soft/admit posts≈9；约20读；预算顶格",
+  "discordPeekDeferred": true,
+  "discordPeekNote": "executor无浏览器；discordPeekDeferred=true",
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": [
+      "admit",
+      "score",
+      "soft",
+      "alert"
+    ],
+    "note": "admit仅收fluffbat-society；skip elysiumgloom/agntx/inky/tritonix/leeonmort；score+soft+alert flash"
+  },
+  "focusBan": "新收录fluffbat-society focus=false；未改 focusIds",
+  "summary": "R767 full-radar：新收Fluff Bat Society(Elysium Testnet Mint收钱包)；Crystals仍≤2h；FarmFi今晚23:00CST；Robinians>2h；Jager暂停；BTape卡住；computeroll Mining未开；Leeonmort仍不存在；Discord延后。",
+  "watchesSoft": [
+    "agentMiningWatch",
+    "agentPadWatch",
+    "agentTradingWatch",
+    "blonskrWatch",
+    "btcCrc20Watch",
+    "btcPrivacyWatch",
+    "cantonPadWatch",
+    "dogeEvmWatch",
+    "elysiumWatch",
+    "flapPadWatch",
+    "flaunchWatch",
+    "focusWatch",
+    "fullFunWatch",
+    "giwaWatch",
+    "glazeWatch",
+    "injectiveLaunchWatch",
+    "irysPadWatch",
+    "kinetiqWatch",
+    "layerZeroWatch",
+    "midstateWatch",
+    "miningWatch",
+    "paperbirdWatch",
+    "starcatWatch",
+    "starknetWatch",
+    "tapeOutWatch",
+    "tapeWatch",
+    "tokenWorksPlaygroundWatch",
+    "tokenWorksWatch",
+    "xChainPadWatch",
+    "zeroWatch"
+  ],
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent钱包/Tape；均等覆盖",
+  "push": {
+    "attempted": true,
+    "ok": false,
+    "sha": null
+  },
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
