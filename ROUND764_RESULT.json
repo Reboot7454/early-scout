@@ -1,0 +1,148 @@
+{
+  "round": 764,
+  "mode": "full-radar",
+  "completedAt": "2026-10-28 13:33 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+le2h",
+  "alertMessage": "新收录 BRO IS A FREAK（ETH 2222 NFT，11/8 mint，500 FREE GTD WL开）；≤2h：Crystals免费mint续、Robinians首444收钱包；今晚23:00CST FarmFi Genesis Free mint；Jager mint暂停重部署。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "broisafreak",
+      "reason": "ETH 极早期 NFT 打新，已披露 11 月 8 日 mint、500 个免费 GTD WL，且有官网与官推独立发帖，早期窗口明确。"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "broisafreak"
+  ],
+  "round764Added": [
+    "broisafreak"
+  ],
+  "skipped": [
+    {
+      "id": "agntx",
+      "reason": "仅 1 帖且未披露产品/mint 时点，无法确认早期参与窗口。"
+    },
+    {
+      "id": "elysiumgloom",
+      "reason": "tweet_count=0，无发帖、无链接、无可验证部署，Twitter 活性不足且无早期窗口。"
+    },
+    {
+      "id": "fluffbatsociety",
+      "reason": "仅 2 帖，未明确 testnet/mint/部署窗口，早期参与时点不可验证。"
+    },
+    {
+      "id": "leeonmort",
+      "reason": "username Not Found，账号仍不存在"
+    }
+  ],
+  "updated": [
+    {
+      "id": "onchain-crystals",
+      "note": "R764 soft：Agent免费mint仍LIVE，前2免费，粉≈14"
+    },
+    {
+      "id": "robinians",
+      "note": "R764 soft：Free mint首444收钱包续（帖约02:58Z）"
+    },
+    {
+      "id": "bitcointapes",
+      "note": "R764 soft：FREE MINT约273/1000仍卡进度（无新进度帖）"
+    },
+    {
+      "id": "jager",
+      "note": "R764 soft：官宣mint临时暂停，待合约重部署后再开；粉≈659"
+    },
+    {
+      "id": "computeroll",
+      "note": "R764 soft：Mining仍Coming soon/合约测试中未开"
+    },
+    {
+      "id": "ptah-trade",
+      "note": "R764 soft：POA社交挖矿续，≈35645 SBT已mint，粉≈13039"
+    },
+    {
+      "id": "play-farmfi",
+      "note": "R764 soft：今晚23:00CST(15:00UTC) Genesis Farm Free mint分档"
+    },
+    {
+      "id": "enter-elysium",
+      "note": "R764 soft：主网2026-11-09续；Goldsky已上testnet"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "onchain-crystals",
+      "note": "Agent免费mint仍LIVE，前2免费"
+    },
+    {
+      "id": "robinians",
+      "note": "Free mint首444收钱包续"
+    }
+  ],
+  "tonight": [
+    {
+      "id": "play-farmfi",
+      "note": "今晚23:00CST Genesis Farm Free mint"
+    }
+  ],
+  "clearedPrevNew": [
+    "tandemonl"
+  ],
+  "xReads": 17,
+  "xReadsNote": "关键词search≈4 + users batch≈3 + soft/admit posts≈10；预算内≈17",
+  "discordPeekDeferred": true,
+  "discordPeekNote": "R763刚Peek(lastSeen≈13:18 CST)；本轮discordPeekDeferred=true，未开浏览器",
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": [
+      "admit",
+      "score",
+      "alert"
+    ],
+    "note": "admit收broisafreak；skip agntx/elysiumgloom/fluffbat/leeonmort；score+alert flash"
+  },
+  "focusBan": "新收录broisafreak focus=false；未改 focusIds",
+  "summary": "R764 full-radar：新收BRO IS A FREAK(ETH 11/8 free GTD WL)；Crystals/Robinians仍≤2h；FarmFi今晚23:00CST mint；Jager暂停；BTape进度卡住；computeroll Mining未开；Leeonmort仍不存在；Discord延后。",
+  "watchesSoft": [
+    "agentMiningWatch",
+    "agentPadWatch",
+    "agentTradingWatch",
+    "blonskrWatch",
+    "btcCrc20Watch",
+    "btcPrivacyWatch",
+    "cantonPadWatch",
+    "dogeEvmWatch",
+    "elysiumWatch",
+    "flapPadWatch",
+    "flaunchWatch",
+    "focusWatch",
+    "fullFunWatch",
+    "giwaWatch",
+    "glazeWatch",
+    "injectiveLaunchWatch",
+    "irysPadWatch",
+    "kinetiqWatch",
+    "layerZeroWatch",
+    "midstateWatch",
+    "miningWatch",
+    "paperbirdWatch",
+    "starcatWatch",
+    "starknetWatch",
+    "tapeOutWatch",
+    "tapeWatch",
+    "tokenWorksPlaygroundWatch",
+    "tokenWorksWatch",
+    "xChainPadWatch",
+    "zeroWatch"
+  ],
+  "coverage": "打新/挖矿/台子/GO/LZ/Elysium/BTC/Starknet/GIWA/Zero/DogeEVM/BN Agent钱包/Tape；均等覆盖",
+  "push": {
+    "attempted": true,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
