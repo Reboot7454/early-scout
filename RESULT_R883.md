@@ -15,8 +15,8 @@
 - **summary**: R883 日额已尽：零X读取；Watch漏挂0；软债×35；全量补扫 deferred→08:00 CST；不通知。
 
 ## Push
-- **ok**: (pending)
-- **data commit**: (pending)
-- **HEAD**: (pending)
+- **ok**: true
+- **data commit**: 2b157dd (`2b157ddbad2aa05ba2114555bd823da4857b92a4`)
+- **HEAD**: 2b157dd
 - **branch**: main
-- **remoteVerified**: (pending)
+- **remoteVerified**: true (origin/main data.json meta.round=883)
