@@ -14,7 +14,7 @@
 - **dsFallback**: false（无新候选需 DS）
 - **soft**: keyhasp/blindfloor ≤2h 清出；soft-debt *Watch lastChecked → 23:59 CST；deferred 全量补扫至 08:00 CST 后首轮
 - **skipped**: 全部 X soft-brush / keyword 十栏 / mentions（日额耗尽至 2026-10-30 08:00 CST）
-- **push**: (pending)
+- **push**: ok · 4af4061
 - **panel**: https://reboot7454.github.io/early-scout/
 
 ```json
@@ -93,8 +93,8 @@
     "mentions all chains blocked",
     "Discord Peek deferred — no browser; latest DISCORD_ALPHA cards 2130 already processed in R869"
   ],
-  "pushOk": false,
-  "pushSha": "",
+  "pushOk": true,
+  "pushSha": "4af4061",
   "panel": "https://reboot7454.github.io/early-scout/",
   "at": "2026-10-29 23:59 CST",
   "blockers": [
