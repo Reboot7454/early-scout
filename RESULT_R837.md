@@ -12,7 +12,7 @@
 - **skipped DS**: aimonster-s（spam）；coopaai（无mint）；keccaklings（无官推）；quogent/kalosfun/elypad 已在库
 - **dsFallback**: false
 - **panel**: https://reboot7454.github.io/early-scout/
-- **push**: _(pending)_
+- **push**: `f0d55f6b549b8c02748e3d10f996153aab4e14fd`
 
 ```json
 {
