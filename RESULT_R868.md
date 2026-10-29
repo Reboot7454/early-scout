@@ -28,7 +28,7 @@
 - **dsFallback**: false（本轮无新候选需 DS）
 - **soft**: $HASP 22:00 CST 发射后约1h；仍在开盘≤2h窗（至00:00 CST）；X exhausted 未核验; BlindFloor ≈21:00 CST Pons 发射后约2h边缘；仍标≤2h至23:00；X exhausted 未核验; bnbs-ai le2h cleared (20:00 CST mint >2h ago); canton/glaze/tokenWorks + elysium/tape/btcPrivacy 等 soft-debt lastChecked refreshed
 - **skipped**: 全部 X soft-brush / keyword 十栏 / mentions（日额耗尽至 2026-10-30 08:00 CST）；mobster_meme 等沿用库内
-- **push**: pending
+- **push**: ok · 5cc3b69
 - **panel**: https://reboot7454.github.io/early-scout/
 
 ## alertMessage
@@ -128,8 +128,8 @@ R868无新收录；X日额已满，次日08:00 CST补扫。近2小时：$HASP约
     "mentions all chains blocked",
     "Discord logged out / no newer DISCORD_ALPHA cards than R867"
   ],
-  "pushOk": false,
-  "pushSha": null,
+  "pushOk": true,
+  "pushSha": "5cc3b69",
   "panel": "https://reboot7454.github.io/early-scout/",
   "at": "2026-10-29 22:58 CST",
   "blockers": [
