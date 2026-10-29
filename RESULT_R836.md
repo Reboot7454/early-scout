@@ -10,7 +10,7 @@
 - **dsUsage**: deepseek-flash admits=5
 - **dsFallback**: false
 - **panel**: https://reboot7454.github.io/early-scout/
-- **push**: `(pending)`
+- **push**: `a64c67870bc27aaae7e11b0a6148e429d9949741`
 
 ```json
 {
