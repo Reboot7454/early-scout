@@ -12,7 +12,7 @@
 - **skipped DS**: ithinkitsart（31k粉已热/已在 freeMintWatch）；TryNoahAI/Bullshot911/RGBHorse 噪声；v4pairs/agentsea_fun/THEFORGEEN_NFT/FARMonBTC/HuntFieldRH/starx_xlayer/Bitizens_ely/Blobs_kNuts/symbol-dotai 已在库
 - **dsFallback**: false
 - **panel**: https://reboot7454.github.io/early-scout/
-- **push**: pending
+- **push**: `fe89ff621e26ec326bd10c339aa7333a0b7e4bec`
 
 ```json
 {
