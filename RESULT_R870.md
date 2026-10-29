@@ -43,7 +43,7 @@
 - **dsFallback**: false（告警文案经 DeepSeek；无新候选需 DS score）
 - **soft**: $HASP 22:00 CST 发射后约1.5h；仍在开盘≤2h窗（至00:00 CST）；X exhausted 未核验; BlindFloor ≤2h 于23:00 CST过期已清出 le2h; soft-debt *Watch lastChecked → 23:35 CST; R869×9 dual-write + UF+Watch
 - **skipped**: 全部 X soft-brush / keyword 十栏 / mentions（日额耗尽至 2026-10-30 08:00 CST）
-- **push**: PENDING
+- **push**: ok · f3b3576
 - **panel**: https://reboot7454.github.io/early-scout/
 
 ## alertMessage
@@ -156,8 +156,8 @@ R870无新收录；X日额已满，次日08:00 CST补扫。近2小时：$HASP约
     "mentions all chains blocked",
     "Discord Peek deferred — no browser; latest DISCORD_ALPHA cards 2130 already processed in R869"
   ],
-  "pushOk": false,
-  "pushSha": "PENDING",
+  "pushOk": true,
+  "pushSha": "f3b3576",
   "panel": "https://reboot7454.github.io/early-scout/",
   "at": "2026-10-29 23:35 CST",
   "blockers": [
