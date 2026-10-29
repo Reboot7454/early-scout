@@ -95,8 +95,16 @@
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R887 日额已尽：零X读取；Watch漏挂0；软债×35；全量补扫 deferred→08:00 CST；不通知。",
   "push": {
-    "ok": false,
-    "pending": true
+    "ok": true,
+    "commit": "4a35d96",
+    "sha": "4a35d968f8b33a4f403adc24d0428e96c7a60ad3",
+    "branch": "main",
+    "files": [
+      "data.json",
+      "RESULT_R887.md",
+      "ROUND887_RESULT.json"
+    ],
+    "message": "R887 scout (x-exhausted local)"
   },
-  "remoteVerified": false
+  "remoteVerified": true
 }

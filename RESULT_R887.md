@@ -15,8 +15,8 @@
 - **summary**: R887 日额已尽：零X读取；Watch漏挂0；软债×35；全量补扫 deferred→08:00 CST；不通知。
 
 ## Push
-- **ok**: PENDING
-- **data commit**: PENDING
-- **HEAD**: PENDING
+- **ok**: true
+- **data commit**: 4a35d96 (`4a35d968f8b33a4f403adc24d0428e96c7a60ad3`)
+- **HEAD**: 4a35d96
 - **branch**: main
-- **remoteVerified**: PENDING
+- **remoteVerified**: true (origin/main data.json meta.round=887)
