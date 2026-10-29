@@ -15,8 +15,8 @@
 - **summary**: R888 日额已尽：零X读取；Watch漏挂0；软债×34；全量补扫 deferred→08:00 CST；不通知。
 
 ## Push
-- **ok**: pending
-- **data commit**: pending
-- **HEAD**: pending
+- **ok**: true
+- **data commit**: b1b6e26 (`b1b6e26951e799b4e26dbe05f41f581d5df98d73`)
+- **HEAD**: b1b6e26
 - **branch**: main
-- **remoteVerified**: pending
+- **remoteVerified**: true (origin/main data.json meta.round=888)
