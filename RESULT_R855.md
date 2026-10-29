@@ -11,7 +11,7 @@
 - **soft**: BNBS mint 20:00 CST ≤2h；starx $ICE/burn LIVE；Pulse 8m burned day1；squeek Aura spam-heavy；DualForge forge 明日 18:00 CST（非≤2h）；Jakdu GIWA NFT WL；TapeOut TAP-7007；gang Bond LIVE；HashOre Era3；machine.fun quiet；canton/glaze/tokenWorks soft-debt refreshed
 - **skipped**: mobster_meme / DogeEVM handle X Not Found（沿用关键词+dogeEvmWatch）；库内 DualForge/sealz/Jakdu/tapekey；LayerZero mentions 空窗
 - **dsFallback**: false
-- **push**: pending
+- **push**: ok · 4c0829b
 - **panel**: https://reboot7454.github.io/early-scout/
 
 ```json
@@ -93,6 +93,8 @@
     "DualForge/sealz/Jakdu/tapekey already in-lib",
     "LayerZero mentions empty this window"
   ],
+  "pushOk": true,
+  "pushSha": "4c0829b",
   "panel": "https://reboot7454.github.io/early-scout/",
   "at": "2026-10-29 19:08 CST"
 }
