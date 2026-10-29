@@ -13,7 +13,7 @@
 - **dsFallback**: false
 - **collision**: remote 已有 DC alpha R832 commit `3eb3529`（无 RESULT 文件）→ 本轮 merge 四卡进同 round，不抬 R833
 - **panel**: https://reboot7454.github.io/early-scout/
-- **push**: (pending)
+- **push**: `45e7a6a9e8a925f60ba96b58b0aa8f591795f0d2`
 
 ```json
 {
