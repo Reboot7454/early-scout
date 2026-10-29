@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-30 00:30 CST",
+    "updated": "2026-10-30 00:43 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R692",
-    "lastScout": "2026-10-30 00:30 CST",
+    "lastScout": "2026-10-30 00:43 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -580,7 +580,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 873,
+    "round": 874,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1612,7 +1612,15 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "bike-tyson-punk",
+      "mcnuggets",
+      "flotyll",
+      "agenkey",
+      "wayangx",
+      "moche",
+      "fare"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -3428,18 +3436,18 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-10-30 00:13",
-      "lastChecked": "2026-10-30 00:19 CST",
-      "newestCardTime": "2026-10-30 00:13",
-      "cardsAfterCutoff": 96,
-      "note": "R872：Discord alpha 补收 pokenovapoke,playholeshot,stalarfun,dubbletorch,mintraapp,guildagents,orvent,rogue-agentic,rootsagent,stillwater-play,wormswap,vaubanworks,shoutoutloudio；lastSeen→2026-10-30 00:13；lastChecked→2026-10-30 00:19 CST | R873: X exhausted + DC不登录 → discordPeekDeferred=true；未重扫 Discord",
-      "lastRound": 872,
+      "deferred": false,
+      "lastSeen": "2026-10-30 00:40",
+      "lastChecked": "2026-10-30 00:43 CST",
+      "newestCardTime": "2026-10-30 00:40",
+      "cardsAfterCutoff": 30,
+      "note": "R874：Discord alpha 补收 bike-tyson-punk,mcnuggets,flotyll,agenkey,wayangx,moche,fare；lastSeen→2026-10-30 00:40；lastChecked→2026-10-30 00:43 CST",
+      "lastRound": 874,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-30 00:12",
+        "alpha-3-new-accounts": "2026-10-30 00:40",
         "alpha-1-backup": "2026-10-30 00:13",
-        "smart-accounts-tracker": "2026-10-30 00:05",
-        "alpha-1": "2026-10-29 23:59"
+        "smart-accounts-tracker": "2026-10-30 00:26",
+        "alpha-1": "2026-10-30 00:24"
       }
     },
     "round239Added": [
@@ -12250,9 +12258,326 @@
       "deferredFullScan": true,
       "deferredUntil": "2026-10-30 08:00 CST",
       "note": "日额已尽 mode; zero X reads; soft-debt only; Discord peek deferred (不登录)"
-    }
+    },
+    "round874Added": [
+      "bike-tyson-punk",
+      "mcnuggets",
+      "flotyll",
+      "agenkey",
+      "wayangx",
+      "moche",
+      "fare"
+    ]
   },
   "candidates": [
+    {
+      "id": "fare",
+      "name": "Fare",
+      "handle": "@usefare_xyz",
+      "twitter": "@usefare_xyz",
+      "chain": "Robinhood Chain",
+      "category": "GO盘",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/usefare_xyz"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 8,
+        "actionable": 6,
+        "overall": 7
+      },
+      "highlights": [
+        "小票扫描→持 $FARE→返 UBER 股票的闭环玩法",
+        "明确部署 Robinhood Chain"
+      ],
+      "drawbacks": [
+        "0 粉，无合约/上线证据",
+        "返股票机制合规与可持续性存疑"
+      ],
+      "whatsNew": "新出现在 Robinhood Chain 上的消费返利代币玩法",
+      "summary": "Fare 主打上传 Uber 小票、持有 $FARE 获得 UBER 股票返利，构建在 Robinhood Chain，玩法具体但尚无部署证据。",
+      "blurb": "Uber 小票返股票，Robinhood Chain 早期玩法",
+      "round": 874,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-30 00:43 CST",
+      "addedAt": "2026-10-30 00:43 CST",
+      "lastChecked": "2026-10-30 00:43 CST",
+      "zoneHint": "GO盘",
+      "newThisRound": true
+    },
+    {
+      "id": "moche",
+      "name": "usemoche",
+      "handle": "@use_moche",
+      "twitter": "@use_moche",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/use_moche"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.7
+      },
+      "highlights": [
+        "MocheBot Checks 与 MochePad 路线图明确",
+        "Copy Trading 玩法具可交互性"
+      ],
+      "drawbacks": [
+        "0 粉、无链上部署证据",
+        "meme 属性强，落地不确定"
+      ],
+      "whatsNew": "新发现的 Moche meme 生态账号，含交易机器人与发射台规划",
+      "summary": "Robinhood 生态新关注的 meme 项目，路线图包含 Copy Trading、MocheBot Checks 与 MochePad，属早期可跟踪标的。",
+      "blurb": "meme 带发射台与交易机器人玩法，早期跟踪",
+      "round": 874,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-30 00:43 CST",
+      "addedAt": "2026-10-30 00:43 CST",
+      "lastChecked": "2026-10-30 00:43 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "wayangx",
+      "name": "WayangX",
+      "handle": "@wayangx_",
+      "twitter": "@wayangx_",
+      "chain": "BNB Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/wayangX_"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 5,
+        "novelty": 6,
+        "actionable": 7,
+        "overall": 6.8
+      },
+      "highlights": [
+        "3333 枚全链上 NFT",
+        "首次 mint 免费",
+        "6 档链上绘制分级"
+      ],
+      "drawbacks": [
+        "仅 X 链接，无官网/合约地址",
+        "零粉丝可信度待验证"
+      ],
+      "whatsNew": "免费首铸的全链上像素武士系列上线 BNB Chain。",
+      "summary": "BNB 链全链上 16-bit 像素武士 NFT，3333 枚，首铸免费并按 6 档链上分级绘制，具备明确 mint 线索。",
+      "blurb": "3333 全链上像素武士，首铸免费可蹲。",
+      "round": 874,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-30 00:43 CST",
+      "addedAt": "2026-10-30 00:43 CST",
+      "lastChecked": "2026-10-30 00:43 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "agenkey",
+      "name": "AgenKey",
+      "handle": "@agentkey_",
+      "twitter": "@agentkey_",
+      "chain": "",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Agentkey_"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 7.5,
+        "novelty": 4,
+        "actionable": 3,
+        "overall": 4.5
+      },
+      "highlights": [
+        "NFT + $AGKEY + Staking 结构"
+      ],
+      "drawbacks": [
+        "0 粉丝",
+        "无链与时间信息"
+      ],
+      "whatsNew": "AI Agent 身份 NFT 项目首现，配套代币与质押",
+      "summary": "结构完整的 AI Agent NFT 早期项目，需等链与 mint 信息。",
+      "blurb": "AI Agent NFT + 代币 + 质押。",
+      "round": 874,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-30 00:43 CST",
+      "addedAt": "2026-10-30 00:43 CST",
+      "lastChecked": "2026-10-30 00:43 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "flotyll",
+      "name": "Flotyll",
+      "handle": "@flotyllonrh",
+      "twitter": "@flotyllonrh",
+      "chain": "Robinhood Chain",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/FlotyllOnRH"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6.5,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.4
+      },
+      "highlights": [
+        "按法币分设的 USDG 金库",
+        "FX 中位数预言机",
+        "随时 mint/redeem"
+      ],
+      "drawbacks": [
+        "0 粉丝",
+        "尚无上线时间"
+      ],
+      "whatsNew": "Robinhood Chain 上多币种 USDG 储备金库项目首次出现",
+      "summary": "产品逻辑清晰的早期链上金库，值得列入观察。",
+      "blurb": "RH 链 USDG 金库，产品具体。",
+      "round": 874,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-30 00:43 CST",
+      "addedAt": "2026-10-30 00:43 CST",
+      "lastChecked": "2026-10-30 00:43 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
+    {
+      "id": "mcnuggets",
+      "name": "McNuggets",
+      "handle": "@mcnuggetsonline",
+      "twitter": "@mcnuggetsonline",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/mcnuggetsonline"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 8,
+        "novelty": 5,
+        "actionable": 4,
+        "overall": 5.2
+      },
+      "highlights": [
+        "USDG 奖励玩法",
+        "明确 Launching on RH"
+      ],
+      "drawbacks": [
+        "0 粉丝",
+        "玩法细节未公开"
+      ],
+      "whatsNew": "麦当劳主题 USDG 奖励玩法，预告在 Robinhood Chain 上线",
+      "summary": "Robinhood Chain 上的趣味玩法盘，等待发射细节可小仓关注。",
+      "blurb": "RH 链 USDG 奖励玩法，待发射。",
+      "round": 874,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-30 00:43 CST",
+      "addedAt": "2026-10-30 00:43 CST",
+      "lastChecked": "2026-10-30 00:43 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "bike-tyson-punk",
+      "name": "Bike Tyson Punk",
+      "handle": "@biketysonpunk",
+      "twitter": "@biketysonpunk",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/BikeTysonPunk"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 7,
+        "novelty": 4,
+        "actionable": 3,
+        "overall": 4.6
+      },
+      "highlights": [
+        "10,000 枚像素朋克 NFT 概念"
+      ],
+      "drawbacks": [
+        "无 mint 时间/链信息",
+        "粉丝极少"
+      ],
+      "whatsNew": "新出现 10k 像素朋克 NFT 项目号，关注 @robinhoodapp",
+      "summary": "早期 NFT 集合概念号，需等 mint 细节确认后再跟进。",
+      "blurb": "10k 像素朋克，待 mint 细节。",
+      "round": 874,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 9,
+      "xFollowers": 9,
+      "firstSeen": "2026-10-30 00:43 CST",
+      "addedAt": "2026-10-30 00:43 CST",
+      "lastChecked": "2026-10-30 00:43 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "shoutoutloudio",
       "name": "Shout",
@@ -144073,16 +144398,24 @@
       "newThisRound": false
     }
   ],
-  "newThisRound": [],
-  "alertMessage": "",
+  "newThisRound": [
+    "bike-tyson-punk",
+    "mcnuggets",
+    "flotyll",
+    "agenkey",
+    "wayangx",
+    "moche",
+    "fare"
+  ],
+  "alertMessage": "DC补漏R874新收7：打新 AgenKey(@Agentkey_)、WayangX(@wayangX_)；挖矿 Flotyll(@FlotyllOnRH)；台子/Meme Bike Tyson Punk(@BikeTysonPunk)、McNuggets(@mcnuggetsonline)、usemoche(@use_moche)；GO盘 Fare(@usefare_xyz)；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [],
-  "updatedAt": "2026-10-30 00:30 CST",
-  "updated": "2026-10-30 00:30 CST",
+  "updatedAt": "2026-10-30 00:43 CST",
+  "updated": "2026-10-30 00:43 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-30 00:30 CST",
+  "lastScout": "2026-10-30 00:43 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -144124,7 +144457,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 2052,
+  "candidateCount": 2059,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -145395,5 +145728,14 @@
     "vaubanworks",
     "shoutoutloudio"
   ],
-  "round873Added": []
+  "round873Added": [],
+  "round874Added": [
+    "bike-tyson-punk",
+    "mcnuggets",
+    "flotyll",
+    "agenkey",
+    "wayangx",
+    "moche",
+    "fare"
+  ]
 }
