@@ -13,6 +13,36 @@ PANEL = "https://reboot7454.github.io/early-scout/"
 def now_cst() -> str:
     return datetime.now(TZ).strftime("%Y-%m-%d %H:%M CST")
 
+
+SQUEEK_FOCUS_KEYS = (
+    "squeek", "hamster", "toychain", "仓鼠", "实体pow", "实体 pow",
+    "wheelpad", "nutshell", "hamster-hour", "squeekchain",
+)
+
+def _is_squeek_class_focus(a) -> bool:
+    """Only squeekchain-class / 仓鼠·实体 PoW toychain may be focus:true on DC admits."""
+    blob = " ".join(
+        [
+            str(a.get("id") or ""),
+            str(a.get("name") or ""),
+            str(a.get("handle") or ""),
+            str(a.get("twitter") or ""),
+            " ".join(str(t) for t in (a.get("tags") or [])),
+            str(a.get("category") or ""),
+            str(a.get("summary") or ""),
+            str(a.get("blurb") or ""),
+            str(a.get("whatsNew") or ""),
+            str(a.get("reason") or ""),
+        ]
+    ).lower()
+    return any(k in blob for k in SQUEEK_FOCUS_KEYS)
+
+def _resolve_focus(a) -> bool:
+    # Hard ban: ordinary Discord alpha admits must NOT enter 重点 strip.
+    if not _is_squeek_class_focus(a):
+        return False
+    return bool(a.get("focus", False))
+
 def load(p):
     return json.loads(Path(p).read_text())
 
@@ -91,7 +121,7 @@ def main():
             "summary": a.get("summary") or a.get("blurb") or "",
             "blurb": a.get("blurb") or a.get("summary") or "",
             "round": new_round,
-            "focus": bool(a.get("focus", False)),
+            "focus": _resolve_focus(a),  # hard-ban ordinary DC admits from 重点
             "lzVerified": bool(a.get("lzVerified", False)),
             "status": a.get("status") or "watching",
             "followers": a.get("followers"),
