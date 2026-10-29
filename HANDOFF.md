@@ -127,6 +127,7 @@ Jafar 是打新玩家：目标尽量不漏可操作机会，不是固定赛道�
 - **在库但不在任何 Watch = 监控 bug**，本轮必须补进对应 Watch 或 `userFollowWatch`。
 - 用户点名 / 丢关注表 → 立刻建卡 + 进 Watch，禁止只建卡不盯。
 - 漏报当机制故障：补卡 + 进 Watch + 关键词，RESULT 写明漏因。
+- 用户要求 **X Layer / STARX 类挂靠** 与 squeek 一样必扫：盲捞 + 主号 mentions，禁止只盯 `@starx_xlayer`。
 
 `userFollowWatch` 与 `agentPadWatch`（含 `@mobster_meme` / `mobster`）以 `data.json` 为准。
 
@@ -165,7 +166,7 @@ Jafar 是打新玩家：目标尽量不漏可操作机会，不是固定赛道�
 
 ## 2026-10-28 官号 mentions 挂靠扫（全链同等）
 - 用户确认：每轮对各必盯链/生态官号拉 mentions/被引用，收「挂靠该链 / is in on @官号」类新号再 DS 筛。
-- **禁止只扫 Elysium**；Tape / GIWA / Zero / DogeEVM / Starknet / BTC / flap / Irys / Full.fun / Arc / BN Agent pad / **squeekchain（含金库/周边挂靠，勿只盯主号）** 等 Watch 官号同等。
+- **禁止只扫 Elysium**；Tape / GIWA / Zero / DogeEVM / Starknet / BTC / flap / Irys / Full.fun / Arc / BN Agent pad / **squeekchain（含金库/周边挂靠，勿只盯主号）** / **X Layer·STARX（含 agent pad / bonding 挂靠，勿只盯 @starx_xlayer）** 等 Watch 官号同等。
 - 雷达不解析全网 bio；靠 mentions + 关键词专名补漏。RESULT 简述本轮 mentions 覆盖了哪些链。
 
 
@@ -183,3 +184,11 @@ Jafar 是打新玩家：目标尽量不漏可操作机会，不是固定赛道�
 - **「这类」= squeekchain 生态挂靠号（金库/周边）**：每轮盲捞 + `@squeekchain` 官号 mentions 同等扫，**禁止只盯主号偏科**；勿与 Predict.fun 预测市场混淆。
 - 事实：bio「Building a treasury designed to grow @squeekchain」；2026-10-21 开号；粉≈42；1 帖「Something is growing 🌿🌰」（https://x.com/NutshellMarkets/status/2115481107563159962）；无官网。
 - **关键词补强（每轮必搜）**：`NutshellMarkets` / `Nutshell` / `squeekchain treasury` / `squeek treasury` / `仓鼠链` / `squeek eco`（`meta.keywordGaps.r811b`）。
+
+## 2026-10-29 用户点名补盯 @starx_xlayer（X Layer / STARX 生态挂靠）
+- 卡 `starx_xlayer`（@starx_xlayer）R835 已在库（`status:watching`，`focus:false`），且已在 `meta.agentPadWatch`；**未进** `meta.userFollowWatch` → 软刷会漏盯。
+- 漏因：关键词盲捞未覆盖 `starx_xlayer` / `STARX` / `X Layer` / `XLayer` / `okx.ai agent bonding` / `Agent-only bonding` / `X Layer 挂靠`；只盯主号会漏同类 X Layer agent pad / 挂靠号；雷达不解析 bio 挂靠。
+- 已补 `@starx_xlayer` / `starx_xlayer` 进 `meta.userFollowWatch.accounts` + `candidateIds`（`r836b`）；**未改**无关 Watch；`focus:false` 保持。无独立 xLayerWatch（已挂 agentPadWatch）。
+- **「这类」= X Layer / STARX 生态挂靠号（agent pad / Agent-only bonding）**：每轮盲捞 + `@starx_xlayer` 官号 mentions 同等扫，**禁止只盯主号偏科**（对齐 squeek 金库挂靠标准）。
+- 事实：STARX 在 X Layer 提供 Agent-only bonding curves，标注 okx.ai 支持；tags 含 X Layer / 台子/Meme。
+- **关键词补强（每轮必搜）**：`starx_xlayer` / `STARX` / `X Layer` / `XLayer` / `okx.ai agent bonding` / `Agent-only bonding` / `X Layer 挂靠`（`meta.keywordGaps.r836b`）。

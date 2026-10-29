@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-29 13:09 CST",
+    "updated": "2026-10-29 13:24 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R692",
@@ -9044,7 +9044,8 @@
         "@MogzFun",
         "@Oxbitgen",
         "@Bullshot911",
-        "@v4pairs"
+        "@v4pairs",
+        "@starx_xlayer"
       ],
       "candidateIds": [
         "0xvernull",
@@ -9177,10 +9178,11 @@
         "mogzfun",
         "oxbit",
         "bullshot",
-        "v4pairs"
+        "v4pairs",
+        "starx_xlayer"
       ],
       "pending": [],
-      "note": "R805：UF soft Pulse LIVE day1 / machine 48h窗 / bscaidrop 1k+24h / blindfloor T−19.5h / localbottom Elysium / Carcosa 0推 / PickRush mining LIVE；mobster X Not Found。 | R806: +@Oathbots +@project_hoodmon（库内优先名未进UF→补） | R811b: +@NutshellMarkets（squeek treasury 挂靠，用户点名） | R831: soft UF；+@slymzcrew +@theidmfun；R830五卡补进UF+agentPad",
+      "note": "R805：UF soft Pulse LIVE day1 / machine 48h窗 / bscaidrop 1k+24h / blindfloor T−19.5h / localbottom Elysium / Carcosa 0推 / PickRush mining LIVE；mobster X Not Found。 | R806: +@Oathbots +@project_hoodmon（库内优先名未进UF→补） | R811b: +@NutshellMarkets（squeek treasury 挂靠，用户点名） | R831: soft UF；+@slymzcrew +@theidmfun；R830五卡补进UF+agentPad | R836b: +@starx_xlayer（X Layer 挂靠，用户点名；已在库补UF）",
       "lastChecked": "2026-10-29 13:09 CST",
       "createdAt": "2026-10-28 17:15 CST",
       "sourceRound": 775,
@@ -9272,7 +9274,15 @@
       },
       "r831": "soft-brush priority UF + watchBugs fix R830五卡/slymz/theidm",
       "r832b": "小七 full-radar merge: +4 admits +playnexaria watchBug",
-      "r835": "soft-brush: NutshellMarkets/squeekchain/PulseLaunchpad/localbottomcom/bscaidrop/machinedotfun OK；mobster_meme NotFound；+v4pairs"
+      "r835": "soft-brush: NutshellMarkets/squeekchain/PulseLaunchpad/localbottomcom/bscaidrop/machinedotfun OK；mobster_meme NotFound；+v4pairs",
+      "r836b": {
+        "at": "2026-10-29 13:24 CST",
+        "added": [
+          "@starx_xlayer",
+          "starx_xlayer"
+        ],
+        "note": "user-named 补盯；X Layer / STARX 生态挂靠（Agent-only bonding）；卡已在库但未进 UF"
+      }
     },
     "round775Added": [
       "sunrig",
@@ -9387,7 +9397,12 @@
         "note": "dividrones caught via Agent ID / free mint keyword; zerorug-fun DS score skip (no CA/site)",
         "xDailyCap": "exhausted mid-round (0/1000 remaining UTC day); consolidated OR queries used; do not thin lanes next round after reset"
       },
-      "r813": "X daily cap blocked all keyword blind searches this round; retry after UTC midnight"
+      "r813": "X daily cap blocked all keyword blind searches this round; retry after UTC midnight",
+      "r836b": {
+        "missed": "@starx_xlayer / STARX / X Layer Agent-only bonding",
+        "reason": "关键词盲捞未覆盖 starx_xlayer / STARX / X Layer / XLayer / okx.ai agent bonding / Agent-only bonding / X Layer 挂靠；只盯主号会漏同类 X Layer agent pad / 挂靠号；不解析 bio 挂靠",
+        "fix": "每轮关键词必含 starx_xlayer / STARX / X Layer / XLayer / okx.ai agent bonding / Agent-only bonding / X Layer 挂靠；「这类」= X Layer / STARX 生态挂靠号（agent pad / bonding），盲捞+@starx_xlayer 主号 mentions 同等扫，勿只盯主号"
+      }
     },
     "round786Added": [
       "pumpsui-fun",
@@ -133000,8 +133015,8 @@
     "elixirpad",
     "dontblink"
   ],
-  "updatedAt": "2026-10-29 12:41 CST",
-  "updated": "2026-10-29 12:41 CST",
+  "updatedAt": "2026-10-29 13:24 CST",
+  "updated": "2026-10-29 13:24 CST",
   "round365Added": [
     "nockd",
     "inkora"
