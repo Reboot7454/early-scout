@@ -95,7 +95,16 @@
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R886 日额已尽：零X读取；Watch漏挂0；软债×35；全量补扫 deferred→08:00 CST；不通知。",
   "push": {
-    "ok": false
+    "ok": true,
+    "commit": "3bd183d",
+    "sha": "3bd183d5babeb3c19e8464dbed6735a6268ea2c2",
+    "branch": "main",
+    "files": [
+      "data.json",
+      "RESULT_R886.md",
+      "ROUND886_RESULT.json"
+    ],
+    "message": "R886 scout (x-exhausted local)"
   },
-  "remoteVerified": false
+  "remoteVerified": true
 }
