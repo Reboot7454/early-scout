@@ -1,0 +1,150 @@
+{
+  "round": 821,
+  "mode": "full-radar",
+  "completedAt": "2026-10-29 08:37 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "【R821】新收录 cannonpad(@launchoncannon，RH fair launch 台，0粉首帖) + Ore Markets(@Oremarketx，RWA预测+挖矿LIVE，$ORE CA；Ore Mine NFT 10/31)。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "cannonpad",
+      "handle": "@launchoncannon",
+      "name": "cannonpad",
+      "note": "RH fair launch pad；bonding curve→Uniswap v4；LP永久锁；0粉1帖"
+    },
+    {
+      "id": "ore-markets",
+      "handle": "@Oremarketx",
+      "name": "Ore Markets",
+      "note": "RH RWA商品预测+像素挖矿LIVE；$ORE CA；Ore Mine NFT 10/31 持币免费mint"
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "cannonpad",
+    "ore-markets"
+  ],
+  "round821Added": [
+    "cannonpad",
+    "ore-markets"
+  ],
+  "skipped": [
+    {
+      "id": "elixirpad",
+      "reason": "仅coming soon+RT口号，无产品/合约/玩法"
+    },
+    {
+      "id": "theidmfun",
+      "reason": "已有站点与$IDM，非极早期发射窗"
+    },
+    {
+      "id": "pocketpad_io",
+      "reason": "0帖仅bio，无产品/发射/mint细节"
+    },
+    {
+      "id": "Oathbots",
+      "reason": "已在库(r798)+agentPadWatch/userFollowWatch，续刷非新收录"
+    }
+  ],
+  "le2h": [],
+  "tonight": [
+    {
+      "id": "ore-markets",
+      "note": "Ore Mine NFT 10/31（非今晚≤2h）"
+    },
+    {
+      "id": "machine-fun",
+      "note": "窗至约10/29 23:55，非≤2h强制"
+    }
+  ],
+  "liveContinuations": [
+    {
+      "id": "pulse-launchpad",
+      "note": "day-one LIVE 续，非新触发"
+    },
+    {
+      "id": "squeekchain",
+      "note": "Aura farming/WL LIVE 续"
+    },
+    {
+      "id": "nutshell-markets",
+      "note": "squeek treasury teaser"
+    },
+    {
+      "id": "oathbots",
+      "note": "free swear-in 续"
+    }
+  ],
+  "xReads": 32,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit×2 + score×2 + alert; thinking ON",
+  "coverage": {
+    "打新": true,
+    "挖矿": true,
+    "台子/Meme": true,
+    "GO盘": true,
+    "LayerZero": true,
+    "Elysium生态": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BN Agent钱包": true,
+    "BTC": true,
+    "Starknet": true,
+    "userFollowDone": true,
+    "keywordsTenCols": true,
+    "notes": "①userFollowWatch优先软刷 machinedotfun/PulseLaunchpad/NutshellMarkets/squeekchain/bscaidrop/localbottomcom/PickRush（mobster_meme X Not Found）②必盯样刷 ③十栏+BTC/Starknet/LZ关键词盲捞 ④Discord仓内peek"
+  },
+  "watchesSoft": {
+    "userFollowWatch": true,
+    "priorityBrushed": [
+      "machinedotfun",
+      "PulseLaunchpad",
+      "NutshellMarkets",
+      "squeekchain",
+      "bscaidrop",
+      "localbottomcom",
+      "PickRush",
+      "Oathbots"
+    ],
+    "mobster_meme": "get_users_by_usernames → Not Found（仍在 userFollowWatch/库）"
+  },
+  "mentionsCoverage": {
+    "Elysium": true,
+    "kinetiq": "via Enter_Elysium mentions co-tags",
+    "Tape": true,
+    "GIWA": true,
+    "squeekchain": true,
+    "NutshellMarkets": true,
+    "flap": true,
+    "DogeEVM": "keyword lane; mentions soft",
+    "Starknet": "keyword lane",
+    "BTC_privacy": "keyword lane",
+    "BN_Agent_pads": "keyword + agentPad soft",
+    "note": "全链 mentions 均覆盖；非仅加强 Elysium。Elysium 侧见 elixirpad(跳过)/已知 elysiumant/punks/pixelblobs；GIWA 见 AmmoraHQ 已在库；squeek 侧见 Nutshell/Aura farm 刷屏无新官号。"
+  },
+  "watchBugsFixed": [
+    {
+      "id": "cannonpad",
+      "fix": "added to agentPadWatch"
+    },
+    {
+      "id": "ore-markets",
+      "fix": "added to miningWatch+freeMintWatch"
+    }
+  ],
+  "softDebtRefreshed": [
+    "cantonPadWatch",
+    "glazeWatch",
+    "tokenWorksPlaygroundWatch"
+  ],
+  "discordPeekDeferred": true,
+  "discordPeekNote": "仓内最新 DISCORD_ALPHA_* 仍为 0758/R820；无新于 lastSeen 07:56；未登浏览器 Discord",
+  "push": {
+    "ok": false,
+    "sha": null
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R821 full-radar：新收录 cannonpad + ore-markets；十栏+链关键词齐全；userFollow 优先软刷；mentions 覆盖 Elysium/Tape/GIWA/flap/squeek/Nutshell；无≤2h新触发；Discord deferred；notify=true。"
+}
