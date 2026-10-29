@@ -12,7 +12,7 @@
 - **skipped DS**: privacy-pools（已上线非早期mint）；shielded-nakacn（挂靠社区）；Woxelworld/CyberRonin（无官推）；MemeStockbnb
 - **dsFallback**: false
 - **panel**: https://reboot7454.github.io/early-scout/
-- **push**: (pending)
+- **push**: `4c8e321f56c4f6ca375c81e648ff8add0ccd3b16`
 
 ```json
 {
