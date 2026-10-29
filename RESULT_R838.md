@@ -12,7 +12,7 @@
 - **skipped DS**: pointlessbnb（CA已上线无新mint窗口）；IThinkItsArt（free mint TBA）；PlayFarmRH 已在库
 - **dsFallback**: false
 - **panel**: https://reboot7454.github.io/early-scout/
-- **push**: `PENDING`
+- **push**: `e562f880d48ecf855ce5bcb169f77c0a872ed53b`
 
 ```json
 {
