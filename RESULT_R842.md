@@ -12,7 +12,7 @@
 - **skipped DS**: coopa-ai（Irys 挂靠产品型，无可执行 mint/积分窗）
 - **dsFallback**: false
 - **panel**: https://reboot7454.github.io/early-scout/
-- **push**: PENDING
+- **push**: `9d1d10606c4dc46ed9841dc86a8bc548a50a889a`
 
 ```json
 {
