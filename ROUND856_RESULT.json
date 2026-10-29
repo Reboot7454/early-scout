@@ -1,7 +1,7 @@
 {
   "round": 856,
   "mode": "discord-alpha-40",
-  "completedAt": "2026-10-29 19:34 CST",
+  "completedAt": "2026-10-29 19:35 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
   "notifyReason": "new_admits",
@@ -97,6 +97,13 @@
     }
   ],
   "push": {
-    "attempted": false
-  }
+    "attempted": true,
+    "ok": true,
+    "commit": "5f2c5e9e33a98f0ecaa3c9280e841227c1a51568",
+    "sha": "5f2c5e9e33a98f0ecaa3c9280e841227c1a51568",
+    "short": "5f2c5e9",
+    "ref": "origin/main"
+  },
+  "remoteVerified": true,
+  "mergeNote": "restored full-radar keccaklings+nibblinz after race; NTR=DC5 only"
 }
