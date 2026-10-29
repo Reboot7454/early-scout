@@ -1,45 +1,242 @@
 {
   "round": 826,
-  "mode": "discord-alpha-40",
-  "completedAt": "2026-10-29 10:00 CST",
+  "mode": "full-radar+discord-alpha",
+  "completedAt": "2026-10-29 10:08 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
   "notifyReason": "new_admits",
-  "alertMessage": "R826 DC补漏新收1（未核验）：台子/Meme ElysiumPepeCoin(@ElysiumPepeCoin Elysium叙事Pepe meme，已公布CA，@Enter_Elysium 关注) 面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "【R826】新收录 elysiumpepecoin(@elysiumpepecoin)：Elysium Pepe meme（DC补漏）；Tapemonkey(@Tapemonkeworld)：TapeOut 8192猴子/八家族电路世界，概念片，33粉；Hood Bombers(@AGSCryptoGaming)：RH Chain 游戏 LIVE，打宝箱赚BOMBERS可质押；Crew(@crewhoodfun)：RH Agent-only 发射台，社区传闻mint Agent ID，34粉。面板 https://reboot7454.github.io/early-scout/",
   "newAdmits": [
-    "elysiumpepecoin"
+    {
+      "id": "elysiumpepecoin",
+      "handle": "@elysiumpepecoin",
+      "name": "Elysium Pepe",
+      "note": "Discord alpha 补漏：Elysium叙事 Pepe meme，已公布CA；未核验"
+    },
+    {
+      "id": "tapemonkey",
+      "handle": "@Tapemonkeworld",
+      "name": "Tapemonkey",
+      "note": "TapeOut 8192猴子/八家族电路世界；概念片；33粉；tapemonkey.world"
+    },
+    {
+      "id": "hood-bombers",
+      "handle": "@AGSCryptoGaming",
+      "name": "Hood Bombers",
+      "note": "RH Chain 游戏 LIVE；打宝箱赚BOMBERS可质押；工作室号 Artificial Studios"
+    },
+    {
+      "id": "crewhood",
+      "handle": "@crewhoodfun",
+      "name": "Crew",
+      "note": "RH Agent-only pad；社区传闻 mint Agent ID；crewhood.fun；34粉"
+    }
   ],
-  "newCount": 1,
+  "newCount": 4,
   "newIds": [
-    "elysiumpepecoin"
+    "elysiumpepecoin",
+    "tapemonkey",
+    "hood-bombers",
+    "crewhood"
+  ],
+  "round826Added": [
+    "elysiumpepecoin",
+    "tapemonkey",
+    "hood-bombers",
+    "crewhood"
   ],
   "skipped": [
     {
+      "id": "mobster_meme",
+      "reason": "X Not Found；续记，未整栏跳过"
+    },
+    {
+      "id": "cabaldotfun",
+      "reason": "known Not Found；续"
+    },
+    {
+      "id": "Leeonmort",
+      "reason": "known Not Found；agentPad 续"
+    },
+    {
+      "id": "QomX_io",
+      "reason": "BSC hybrid CEX/DEX+launchpad，非极早期打新窗，skip"
+    },
+    {
+      "id": "Handln",
+      "reason": "已知 AGENT SEAL / 库内续，非新 admit"
+    },
+    {
       "id": "greenwood_camp",
-      "reason": "0粉丝且仅发布“未公布合约”的防骗声明，无产品/发射/mint/玩法线索，按空壳噪音排除。"
+      "reason": "DC skip：0粉防骗声明空壳"
     },
     {
       "id": "miduworld",
-      "reason": "仅个人化自我介绍，无链游/产品/合约/玩法线索，个人号噪音排除。"
+      "reason": "DC skip：个人号噪音"
     },
     {
       "id": "tradingwars2026",
-      "reason": "有官网和动漫交易叙事，但未披露链、合约、玩法或发射，仅内容预热，暂不纳入。"
+      "reason": "DC skip：仅内容预热无链/合约"
     }
   ],
-  "cardsAfterLastSeen": 26,
-  "clearedPrevNewThisRound": true,
-  "prevNewThisRoundCleared": [
-    "chyai"
+  "le2h": [],
+  "tonight": [
+    {
+      "id": "blindfloor",
+      "note": "Blindfloor token 约 13:00 UTC / 21:00 CST（非≤2h）"
+    },
+    {
+      "id": "farm-on-btc",
+      "note": "FARMonBTC mint date Oct 29（全日，非强制≤2h）"
+    }
   ],
-  "candidateFlagsCleared": 1,
-  "topNewThisRoundCleared": [
-    "chyai"
+  "liveContinuations": [
+    {
+      "id": "pulse-launchpad",
+      "note": "Pulse day-one LIVE 续"
+    },
+    {
+      "id": "squeekchain",
+      "note": "Aura farming/WL LIVE + Sepolia 续"
+    },
+    {
+      "id": "nutshell-markets",
+      "note": "squeek treasury teaser 续刷"
+    },
+    {
+      "id": "computeroll",
+      "note": "ComputeRoll CROLL mining LIVE 续；50% milestone"
+    },
+    {
+      "id": "pick-rush",
+      "note": "PickRush mining LIVE 续"
+    },
+    {
+      "id": "ubidotfun",
+      "note": "UBI.fun Agents v2 on Arc LIVE 续"
+    },
+    {
+      "id": "oathbots",
+      "note": "free swear-in 续"
+    },
+    {
+      "id": "hood-bombers",
+      "note": "本轮新收且已 LIVE"
+    }
+  ],
+  "xReads": 95,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit/score×3 (radar) + discord admits×4 prior; alert; thinking ON",
+  "coverage": {
+    "打新": true,
+    "挖矿": true,
+    "台子/Meme": true,
+    "GO盘": true,
+    "LayerZero": true,
+    "Elysium生态": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BN Agent钱包": true,
+    "BTC": true,
+    "Starknet": true,
+    "userFollowDone": true,
+    "keywordsTenCols": true,
+    "notes": "①UF优先 soft Nutshell/squeek/Pulse/machine/PickRush/Carcosasa/blindfloor/pipfun/ComputeRoll/UBI/localbottom/bscaidrop（mobster/cabal/Leeonmort Not Found）②必盯 watches soft ③十栏+BTC/Starknet/LZ 关键词盲捞 ④Discord：并行 R826 discord-alpha 已补收 elysiumpepecoin"
+  },
+  "watchesSoft": {
+    "userFollowWatch": true,
+    "priorityBrushed": [
+      "NutshellMarkets",
+      "squeekchain",
+      "PulseLaunchpad",
+      "machinedotfun",
+      "PickRush",
+      "Carcosasa",
+      "blindfloor",
+      "pipfun_xyz",
+      "ComputeRollLabs",
+      "UBIdotFUN",
+      "localbottomcom",
+      "bscaidrop"
+    ],
+    "mobster_meme": "Not Found — continued",
+    "cabaldotfun": "known Not Found — continued",
+    "Leeonmort": "known Not Found — continued"
+  },
+  "mentionsCoverage": {
+    "Elysium": true,
+    "kinetiq": "via Enter_Elysium mentions",
+    "Tape": true,
+    "GIWA": "keyword+watch（本窗 mentions 空）",
+    "squeekchain": true,
+    "NutshellMarkets": true,
+    "flap": true,
+    "DogeEVM": true,
+    "Starknet": true,
+    "BTC_privacy": "keyword + btcPrivacyWatch soft",
+    "BN_Agent_pads": "keyword + agentPad soft",
+    "Zero_LZ": "keyword lane + LayerZero mentions（本窗空）",
+    "Arc": "UBIdotFUN soft",
+    "Irys_FullFun": "keyword lanes",
+    "note": "全链 mentions 同等覆盖；新 affiliate：Tapemonkey(TapeOut)、Hood Bombers+Crew(RH)、elysiumpepecoin(Elysium/DC)"
+  },
+  "watchBugsFixed": [
+    {
+      "id": "squeekchain",
+      "fix": "added to userFollowWatch accounts+candidateIds"
+    },
+    {
+      "id": "pipfun",
+      "fix": "added @pipfun_xyz to userFollowWatch"
+    },
+    {
+      "id": "ubidotfun",
+      "fix": "added @UBIdotFUN to userFollowWatch"
+    },
+    {
+      "id": "mori-elysium",
+      "fix": "added @Mori_elysium to elysiumWatch"
+    },
+    {
+      "id": "elysiumpepecoin",
+      "fix": "added to elysiumWatch"
+    },
+    {
+      "id": "tapemonkey",
+      "fix": "added to tapeWatch+tapeOutWatch"
+    },
+    {
+      "id": "hood-bombers",
+      "fix": "added to agentPad+mining+agentMining"
+    },
+    {
+      "id": "crewhood",
+      "fix": "added to agentPadWatch"
+    }
+  ],
+  "softDebtRefreshed": [
+    "tapeOutWatch",
+    "tapeWatch",
+    "agentPadWatch",
+    "miningWatch",
+    "elysiumWatch",
+    "kinetiqWatch",
+    "giwaWatch",
+    "dogeEvmWatch",
+    "starknetWatch",
+    "btcPrivacyWatch",
+    "flapPadWatch",
+    "irysPadWatch",
+    "fullFunWatch",
+    "arcPadWatch",
+    "freeMintWatch",
+    "zeroWatch",
+    "agentMiningWatch",
+    "userFollowWatch"
   ],
   "discordPeekDeferred": false,
-  "dsFallback": false,
-  "dsUsage": "deepseek-flash admits=4",
-  "coverage": "discord-alpha #alpha-1 only",
+  "discordPeekNote": "parallel R826 discord-alpha already ingested elysiumpepecoin; lastSeen~09:56; no extra browser this full-radar pass",
   "discordAlphaPeek": {
     "deferred": false,
     "lastSeen": "2026-10-29 09:56",
@@ -56,12 +253,10 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "ok": false,
+    "sha": null,
+    "branch": "main",
+    "note": "pending"
   },
-  "panel": "https://reboot7454.github.io/early-scout/",
-  "summary": "R826：Discord alpha 补收 elysiumpepecoin；跳过 [{'id': 'greenwood_camp', 'reason': '0粉丝且仅发布“未公布合约”的防骗声明，无产品/发射/mint/玩法线索，按空壳噪音排除。'}, {'id': 'miduworld', 'reason': '仅个人化自我介绍，无链游/产品/合约/玩法线索，个人号噪音排除。'}, {'id': 'tradingwars2026', 'reason': '有官网和动漫交易叙事，但未披露链、合约、玩法或发射，仅内容预热，暂不纳入。'}]；清 chyai；lastSeen→2026-10-29 09:56；lastChecked→2026-10-29 10:00 CST",
-  "remoteVerified": false,
-  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261029_1000.json",
-  "priorRoundNote": "R825 meta NTR ['chyai']; cardsAfterCutoff=26"
+  "panel": "https://reboot7454.github.io/early-scout/"
 }
