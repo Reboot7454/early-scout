@@ -1,0 +1,80 @@
+{
+  "round": 835,
+  "mode": "full-radar",
+  "completedAt": "2026-10-29 13:09 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "【R835】新卡4：@Elysium_Cat（Elysium猫meme $ecat/366粉）、@dotBots_ai（BN Agent NFT mint 11/7 23:00CST/40粉）、@floatdotxyz（Solana stock-pair launchpad LIVE/首空投11/4）、@BrutesNFT（Agent ID freemint今日launch/3粉）；watchBugs: v4pairs+symbol-dotai 入Watch。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "elysium-cat",
+    "dotbots-ai",
+    "floatdotxyz",
+    "brutes-nft"
+  ],
+  "newCount": 4,
+  "newIds": [
+    "elysium-cat",
+    "dotbots-ai",
+    "floatdotxyz",
+    "brutes-nft"
+  ],
+  "le2h": [],
+  "xReads": 72,
+  "keywordsTenCols": true,
+  "userFollowDone": true,
+  "mentions": [
+    "Elysium",
+    "Tape",
+    "GIWA",
+    "DogeEVM",
+    "Starknet",
+    "squeekchain",
+    "NutshellMarkets",
+    "flap",
+    "Irys",
+    "Full.fun",
+    "Arc/UBI",
+    "Pulse/BN Agent",
+    "BTC privacy",
+    "LZ"
+  ],
+  "coverage": "打新✓挖矿✓台子/Meme✓GO盘✓LayerZero✓Elysium✓Tape✓GIWA✓DogeEVM✓BN Agent✓ +BTC✓ +Starknet✓",
+  "watchBugs": [
+    "userFollowWatch+agentPadWatch +@v4pairs (in-lib not in Watch)",
+    "agentPadWatch+agentMiningWatch +@SYMBOLdotai/symbol-dotai (in-lib not in Watch)",
+    "elysiumWatch +@Elysium_Cat",
+    "agentPadWatch +@floatdotxyz +@BrutesNFT +@dotBots_ai",
+    "freeMintWatch +@BrutesNFT；@IThinkItsArt cardless DS-skip(31k hot)"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit+score+alert",
+  "soft": {
+    "elixirpad": "Elysium testnet LIVE",
+    "v4pairs": "site open / token later",
+    "starx_xlayer": "X Layer LIVE",
+    "PulseLaunchpad": "day2 burn/Pulse Lock",
+    "squeekchain": "Aura+Sepolia",
+    "mobster_meme": "NotFound"
+  },
+  "skipped": [
+    {
+      "id": "ithinkitsart",
+      "reason": "DS skip 31k热/已在freeMintWatch"
+    },
+    {
+      "id": "v4pairs",
+      "reason": "已在库 R834；本轮补Watch"
+    },
+    {
+      "id": "symbol-dotai",
+      "reason": "已在库；本轮补Watch+soft mining live"
+    }
+  ],
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "push": {
+    "attempted": false,
+    "ok": false
+  }
+}
