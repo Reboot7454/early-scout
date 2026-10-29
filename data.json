@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-29 07:59 CST",
+    "updated": "2026-10-29 08:40 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R692",
-    "lastScout": "2026-10-29 07:59 CST",
+    "lastScout": "2026-10-29 08:40 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -523,7 +523,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 821,
+    "round": 822,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1514,8 +1514,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "cannonpad",
-      "ore-markets"
+      "unicentclub",
+      "starx_xlayer",
+      "grokpadspace"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -3219,18 +3220,18 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-10-29 07:56",
-      "lastChecked": "2026-10-29 08:36 CST",
-      "newestCardTime": "2026-10-29 07:13",
-      "cardsAfterCutoff": 9,
-      "note": "R821：仅仓内 DISCORD_ALPHA_* 窥视；最新卡片仍为 0758（R820 已收 ciowworld 等）；无新于 lastSeen=2026-10-29 07:56 的仓内卡片；浏览器 Discord 未登 → deferred。",
-      "lastRound": 821,
+      "deferred": false,
+      "lastSeen": "2026-10-29 08:36",
+      "lastChecked": "2026-10-29 08:40 CST",
+      "newestCardTime": "2026-10-29 08:36",
+      "cardsAfterCutoff": 40,
+      "note": "R822：Discord alpha 补收 unicentclub,starx_xlayer,grokpadspace；跳过 [{'id': 'pocketpad_io', 'reason': '简介仅有 ERC-8426/WalletChi 关联，未见明确产品、发射或玩法线索，无法确认是可行动极早期项目。'}, {'id': 'soho_pay', 'reason': '仅一句支付定位，未见产品链接、发射计划或可验证玩法线索，暂不收录。'}, {'id': 'truthexpounder', 'reason': '明确为 AI-agent 研究/情报号，非独立项目发射或玩法账号，按规则跳过研究号。'}, {'id': 'bio_909', 'reason': '概念化虚拟实体/个人号，无实际产品、发射或玩法线索，按空壳/个人号跳过。'}]；清 ore-markets,cannonpad；lastSeen→2026-10-29 08:36；lastChecked→2026-10-29 08:40 CST",
+      "lastRound": 822,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-29 07:56 CST",
-        "alpha-1-backup": "2026-10-29 07:28 CST",
-        "smart-accounts-tracker": "2026-10-29 07:39 CST",
-        "alpha-1": "2026-10-29 06:52 CST"
+        "alpha-3-new-accounts": "2026-10-29 08:36 CST",
+        "alpha-1-backup": "2026-10-29 08:28 CST",
+        "smart-accounts-tracker": "2026-10-29 08:08 CST",
+        "alpha-1": "2026-10-29 08:36 CST"
       }
     },
     "round239Added": [
@@ -9845,9 +9846,162 @@
     "round821Added": [
       "cannonpad",
       "ore-markets"
+    ],
+    "round822Added": [
+      "unicentclub",
+      "starx_xlayer",
+      "grokpadspace"
     ]
   },
   "candidates": [
+    {
+      "id": "grokpadspace",
+      "name": "Grokpad",
+      "handle": "@grokpadspace",
+      "twitter": "@grokpadspace",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "台子/Meme",
+        "Solana",
+        "Pump.fun",
+        "未核验",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Grokpadspace"
+      },
+      "scores": {
+        "early": 90,
+        "actionable": 70,
+        "novelty": 60,
+        "risk": 58,
+        "overall": 72
+      },
+      "highlights": [
+        "定位在 Pump.fun 上部署 bot",
+        "标注由 Grok 提供支持",
+        "有明确产品/发射工具线索"
+      ],
+      "drawbacks": [
+        "仅 88 关注，社区尚早期",
+        "未见 bot 部署链接、合约或费用细则",
+        "Grok 支持与实际产品能力需核验"
+      ],
+      "whatsNew": "Grokpad 公布可在 Pump.fun 部署 bot，并标注由 Grok 支持。",
+      "summary": "Grokpad 公布可在 Pump.fun 部署 bot，并标注由 Grok 支持。",
+      "blurb": "Grokpad 公布可在 Pump.fun 部署 bot，并标注由 Grok 支持。",
+      "round": 822,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 88,
+      "xFollowers": 88,
+      "firstSeen": "2026-10-29 08:40 CST",
+      "addedAt": "2026-10-29 08:40 CST",
+      "lastChecked": "2026-10-29 08:40 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "starx_xlayer",
+      "name": "STARX",
+      "handle": "@starx_xlayer",
+      "twitter": "@starx_xlayer",
+      "chain": "X Layer",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "台子/Meme",
+        "X Layer",
+        "未核验",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/starx_xlayer"
+      },
+      "scores": {
+        "early": 96,
+        "actionable": 75,
+        "novelty": 72,
+        "risk": 52,
+        "overall": 77
+      },
+      "highlights": [
+        "X Layer 上只面向 Agent 的 bonding curve",
+        "标注由 okx.ai 提供支持",
+        "玩法线索明确：Agent-only 发射/曲线机制"
+      ],
+      "drawbacks": [
+        "仅 8 关注，社区几乎空白",
+        "未见合约、发射链接或 Agent 接入细则",
+        "依赖 X Layer/OKX 生态，实际可用性需核验"
+      ],
+      "whatsNew": "STARX 公布在 X Layer 上提供 Agent-only bonding curves，并标注由 okx.ai 支持。",
+      "summary": "STARX 公布在 X Layer 上提供 Agent-only bonding curves，并标注由 okx.ai 支持。",
+      "blurb": "STARX 公布在 X Layer 上提供 Agent-only bonding curves，并标注由 okx.ai 支持。",
+      "round": 822,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 8,
+      "xFollowers": 8,
+      "firstSeen": "2026-10-29 08:40 CST",
+      "addedAt": "2026-10-29 08:40 CST",
+      "lastChecked": "2026-10-29 08:40 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "unicentclub",
+      "name": "Unicent",
+      "handle": "@unicentclub",
+      "twitter": "@unicentclub",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "台子/Meme",
+        "Solana",
+        "未核验",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/unicentclub"
+      },
+      "scores": {
+        "early": 95,
+        "actionable": 82,
+        "novelty": 66,
+        "risk": 55,
+        "overall": 78
+      },
+      "highlights": [
+        "定位 Solana 的 gang.fun 类发射台",
+        "仅验证卡可购买 launch，单卡最多占曲线 1%",
+        "LP 永久锁定，有明确发射规则"
+      ],
+      "drawbacks": [
+        "仅 33 关注，社区几乎未成形",
+        "未见合约地址、launch 链接或验证卡细则",
+        "与 gang.fun 类比需核验实际产品"
+      ],
+      "whatsNew": "Unicent 公布 Solana 发射台玩法：验证卡购买 launch、单卡最多 1% 曲线、LP 永久锁定。",
+      "summary": "Unicent 公布 Solana 发射台玩法：验证卡购买 launch、单卡最多 1% 曲线、LP 永久锁定。",
+      "blurb": "Unicent 公布 Solana 发射台玩法：验证卡购买 launch、单卡最多 1% 曲线、LP 永久锁定。",
+      "round": 822,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 33,
+      "xFollowers": 33,
+      "firstSeen": "2026-10-29 08:40 CST",
+      "addedAt": "2026-10-29 08:40 CST",
+      "lastChecked": "2026-10-29 08:40 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "ore-markets",
       "name": "Ore Markets",
@@ -9893,7 +10047,7 @@
       "addedAt": "2026-10-29 08:36 CST",
       "updatedAt": "2026-10-29 08:36 CST",
       "lastChecked": "2026-10-29 08:36 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "le2h": false,
       "scoutNote": "R821 盲搜收录；mint 10/31 非≤2h",
       "scores": {
@@ -9957,7 +10111,7 @@
       "addedAt": "2026-10-29 08:36 CST",
       "updatedAt": "2026-10-29 08:36 CST",
       "lastChecked": "2026-10-29 08:36 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "le2h": false,
       "scoutNote": "R821 盲搜收录；0粉极早期，防仿盘",
       "scores": {
@@ -130436,20 +130590,21 @@
     }
   ],
   "newThisRound": [
-    "cannonpad",
-    "ore-markets"
+    "unicentclub",
+    "starx_xlayer",
+    "grokpadspace"
   ],
   "alertMessage": "",
   "roundNAdded": [
     "nookpad"
   ],
-  "updatedAt": "2026-10-29 07:59 CST",
-  "updated": "2026-10-29 07:59 CST",
+  "updatedAt": "2026-10-29 08:40 CST",
+  "updated": "2026-10-29 08:40 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-29 07:59 CST",
+  "lastScout": "2026-10-29 08:40 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -130491,7 +130646,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1860,
+  "candidateCount": 1865,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -131537,5 +131692,10 @@
   "round821Added": [
     "cannonpad",
     "ore-markets"
+  ],
+  "round822Added": [
+    "unicentclub",
+    "starx_xlayer",
+    "grokpadspace"
   ]
 }

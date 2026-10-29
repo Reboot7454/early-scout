@@ -1,0 +1,71 @@
+{
+  "round": 822,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-29 08:40 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "unicentclub",
+    "starx_xlayer",
+    "grokpadspace"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "unicentclub",
+    "starx_xlayer",
+    "grokpadspace"
+  ],
+  "skipped": [
+    {
+      "id": "pocketpad_io",
+      "reason": "简介仅有 ERC-8426/WalletChi 关联，未见明确产品、发射或玩法线索，无法确认是可行动极早期项目。"
+    },
+    {
+      "id": "soho_pay",
+      "reason": "仅一句支付定位，未见产品链接、发射计划或可验证玩法线索，暂不收录。"
+    },
+    {
+      "id": "truthexpounder",
+      "reason": "明确为 AI-agent 研究/情报号，非独立项目发射或玩法账号，按规则跳过研究号。"
+    },
+    {
+      "id": "bio_909",
+      "reason": "概念化虚拟实体/个人号，无实际产品、发射或玩法线索，按空壳/个人号跳过。"
+    }
+  ],
+  "cardsAfterLastSeen": 7,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "ore-markets",
+    "cannonpad"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "ore-markets",
+    "cannonpad"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=7",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-29 08:36",
+    "lastChecked": "2026-10-29 08:40 CST",
+    "newestCardTime": "2026-10-29 07:56",
+    "cardsAfterCutoff": 7,
+    "note": "R822：Discord alpha 补收 unicentclub,starx_xlayer,grokpadspace；跳过 [{'id': 'pocketpad_io', 'reason': '简介仅有 ERC-8426/WalletChi 关联，未见明确产品、发射或玩法线索，无法确认是可行动极早期项目。'}, {'id': 'soho_pay', 'reason': '仅一句支付定位，未见产品链接、发射计划或可验证玩法线索，暂不收录。'}, {'id': 'truthexpounder', 'reason': '明确为 AI-agent 研究/情报号，非独立项目发射或玩法账号，按规则跳过研究号。'}, {'id': 'bio_909', 'reason': '概念化虚拟实体/个人号，无实际产品、发射或玩法线索，按空壳/个人号跳过。'}]；清 ore-markets,cannonpad；lastSeen→2026-10-29 08:36；lastChecked→2026-10-29 08:40 CST",
+    "lastRound": 822
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R822：Discord alpha 补收 unicentclub,starx_xlayer,grokpadspace；跳过 [{'id': 'pocketpad_io', 'reason': '简介仅有 ERC-8426/WalletChi 关联，未见明确产品、发射或玩法线索，无法确认是可行动极早期项目。'}, {'id': 'soho_pay', 'reason': '仅一句支付定位，未见产品链接、发射计划或可验证玩法线索，暂不收录。'}, {'id': 'truthexpounder', 'reason': '明确为 AI-agent 研究/情报号，非独立项目发射或玩法账号，按规则跳过研究号。'}, {'id': 'bio_909', 'reason': '概念化虚拟实体/个人号，无实际产品、发射或玩法线索，按空壳/个人号跳过。'}]；清 ore-markets,cannonpad；lastSeen→2026-10-29 08:36；lastChecked→2026-10-29 08:40 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261029_0840.json",
+  "priorRoundNote": "R821 meta NTR ['cannonpad', 'ore-markets']; cardsAfterCutoff=7"
+}
