@@ -9,7 +9,7 @@
 - **discordPeekDeferred**: true（无 Discord 登录；仓内 lastSeen≈R828 10:37 CST）
 - **skipped DS**: aimonsters（无明确 mint 窗/老号重塑）、pocketpad（0 帖无窗口）
 - **panel**: https://reboot7454.github.io/early-scout/
-- **push**: (pending)
+- **push**: `aa79cfb9fa72c674cc0fb610aaa1f85e45ec0313`
 
 ```json
 {
