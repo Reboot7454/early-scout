@@ -117,9 +117,17 @@
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R873 日额已尽：零X读取；修R872 Discord入账Watch漏挂×13；软债刷lastChecked；清空过期le2h；全量UF+十栏关键词+全链mentions延至08:00 CST；不通知。",
   "push": {
-    "pending": true
+    "ok": true,
+    "commit": "72f11d7",
+    "sha": "72f11d779b704bc729c80a6469cd94149bec26c1",
+    "branch": "main",
+    "files": [
+      "data.json",
+      "ROUND873_RESULT.json"
+    ],
+    "message": "R873: X exhausted soft-debt + fix R872 watch bugs×13; defer full scan to 08:00 CST"
   },
-  "remoteVerified": false,
+  "remoteVerified": true,
   "priorRoundNote": "R872 Discord admits 13 already in candidates; R873 only watch-wiring + soft-debt",
   "xQuotaNote": "daily limit 1000 reached; remaining=0 until 2026-10-30T00:00:00.000Z = 08:00 Asia/Shanghai"
 }
