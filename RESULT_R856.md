@@ -11,7 +11,7 @@
 - **soft**: Keccaklings LIVE hatch；BNBS mint 20:00 CST ≤2h；starx $ICE pairs + burn LIVE；Pulse 8m burned day1 + lock open；Nutshell quiet（仍1帖）；HashOre Era3 ~5k；ComputeRoll mining LIVE；TapeUP Saturday；squeek/Aura prior
 - **skipped**: mobster_meme X Not Found（沿用）；DogeEVM handle Not Found（keyword+dogeEvmWatch）；ciowworld/ChyAI/jager/StonkRobotics/agentsea/hypaww 已在库；DS 对 nibblinz 初判 skip 但按零漏挂靠规则补收 Announced
 - **dsFallback**: false
-- **push**: pending
+- **push**: ok · cf22295
 - **panel**: https://reboot7454.github.io/early-scout/
 
 ```json
@@ -78,8 +78,8 @@
     "DogeEVM handle Not Found (keyword+dogeEvmWatch)",
     "ciowworld/ChyAI/jager/StonkRobotics/agentsea/hypaww already in-lib"
   ],
-  "pushOk": false,
-  "pushSha": null,
+  "pushOk": true,
+  "pushSha": "cf22295",
   "panel": "https://reboot7454.github.io/early-scout/",
   "at": "2026-10-29 19:29 CST"
 }
