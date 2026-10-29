@@ -1,0 +1,77 @@
+{
+  "round": 820,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-29 07:59 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "ciowworld",
+    "huntfieldrh",
+    "axoraland",
+    "parrotsignal",
+    "offbook_sol"
+  ],
+  "newCount": 5,
+  "newIds": [
+    "ciowworld",
+    "huntfieldrh",
+    "axoraland",
+    "parrotsignal",
+    "offbook_sol"
+  ],
+  "skipped": [
+    {
+      "id": "launchgarlic",
+      "reason": "简介仅口号，无产品、发射、mint 或玩法线索，属空壳号。"
+    },
+    {
+      "id": "ratmemenear",
+      "reason": "纯 NEAR meme 喊单，无合约/产品/玩法，且仅靠 Elysium 关注关系。"
+    },
+    {
+      "id": "collectivdegens",
+      "reason": "返佣/营销联盟号，无独立项目产品线索。"
+    },
+    {
+      "id": "theateliersf",
+      "reason": "个人/社区简介，无加密产品、发射或玩法线索。"
+    }
+  ],
+  "cardsAfterLastSeen": 9,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "memepithq",
+    "simbaprime",
+    "gra8dtv"
+  ],
+  "candidateFlagsCleared": 3,
+  "topNewThisRoundCleared": [
+    "memepithq",
+    "simbaprime",
+    "gra8dtv"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=9",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-29 07:54",
+    "lastChecked": "2026-10-29 07:59 CST",
+    "newestCardTime": "2026-10-29 07:13",
+    "cardsAfterCutoff": 9,
+    "note": "R820：Discord alpha 补收 ciowworld,huntfieldrh,axoraland,parrotsignal,offbook_sol；跳过 [{'id': 'launchgarlic', 'reason': '简介仅口号，无产品、发射、mint 或玩法线索，属空壳号。'}, {'id': 'ratmemenear', 'reason': '纯 NEAR meme 喊单，无合约/产品/玩法，且仅靠 Elysium 关注关系。'}, {'id': 'collectivdegens', 'reason': '返佣/营销联盟号，无独立项目产品线索。'}, {'id': 'theateliersf', 'reason': '个人/社区简介，无加密产品、发射或玩法线索。'}]；清 memepithq,simbaprime,gra8dtv；lastSeen→2026-10-29 07:54；lastChecked→2026-10-29 07:59 CST",
+    "lastRound": 820
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R820：Discord alpha 补收 ciowworld,huntfieldrh,axoraland,parrotsignal,offbook_sol；跳过 [{'id': 'launchgarlic', 'reason': '简介仅口号，无产品、发射、mint 或玩法线索，属空壳号。'}, {'id': 'ratmemenear', 'reason': '纯 NEAR meme 喊单，无合约/产品/玩法，且仅靠 Elysium 关注关系。'}, {'id': 'collectivdegens', 'reason': '返佣/营销联盟号，无独立项目产品线索。'}, {'id': 'theateliersf', 'reason': '个人/社区简介，无加密产品、发射或玩法线索。'}]；清 memepithq,simbaprime,gra8dtv；lastSeen→2026-10-29 07:54；lastChecked→2026-10-29 07:59 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261029_0758.json",
+  "priorRoundNote": "R819 meta NTR ['gra8dtv', 'simbaprime', 'memepithq']; cardsAfterCutoff=9"
+}
