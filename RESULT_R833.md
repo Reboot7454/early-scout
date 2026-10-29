@@ -12,7 +12,7 @@
 - **skipped DS**: TryNoahAI（25k粉已热）；termix_ai（YZi/大号）；kalosfun/ElysiumPump/citadeldotxyz/FungoLabs/playnexaria/jager/JakduPump 已在库
 - **dsFallback**: false
 - **panel**: https://reboot7454.github.io/early-scout/
-- **push**: (pending)
+- **push**: `0791a621e50cbeb39dc0900252bf9d2e7a3b2c77`
 
 ```json
 {
