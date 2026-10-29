@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-29 14:42 CST",
+    "updated": "2026-10-29 14:52 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R692",
-    "lastScout": "2026-10-29 14:42 CST",
+    "lastScout": "2026-10-29 14:52 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -550,7 +550,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 840,
+    "round": 841,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1553,7 +1553,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "arc-pulse"
+      "jachtpack",
+      "soulboardfun",
+      "hoodclub-rh"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -3305,17 +3307,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-10-29 14:06",
-      "lastChecked": "2026-10-29 14:14 CST",
-      "newestCardTime": "2026-10-29 14:06",
-      "cardsAfterCutoff": 34,
-      "note": "R839：Discord alpha 补收 agenticabot,rivalkinai,snarkspad；清 bnbanksagentic,pointzz,gatoreyessolada；lastSeen→2026-10-29 14:06；lastChecked→2026-10-29 14:14 CST",
-      "lastRound": 839,
+      "lastSeen": "2026-10-29 14:48",
+      "lastChecked": "2026-10-29 14:52 CST",
+      "newestCardTime": "2026-10-29 14:48",
+      "cardsAfterCutoff": 58,
+      "note": "R841：Discord alpha 补收 jachtpack,soulboardfun,hoodclub-rh；清 arc-pulse；lastSeen→2026-10-29 14:48；lastChecked→2026-10-29 14:52 CST",
+      "lastRound": 841,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-29 14:06",
-        "alpha-1-backup": "2026-10-29 13:58",
-        "smart-accounts-tracker": "2026-10-29 14:05",
-        "alpha-1": "2026-10-29 13:19"
+        "alpha-3-new-accounts": "2026-10-29 14:48",
+        "alpha-1-backup": "2026-10-29 14:28",
+        "smart-accounts-tracker": "2026-10-29 14:35",
+        "alpha-1": "2026-10-29 14:26"
       }
     },
     "round239Added": [
@@ -3454,7 +3456,7 @@
       "zec-nodes",
       "boys-in-hood"
     ],
-    "alertMessage": "【R833】新卡@elixirpad（Elysium Testnet fair-launch/33粉 Coming soon）、@dontblink_cto（RH Chain launchpad基础设施/本周产品测试）；Blindfloor≈8.5h非≤2h；watchBugs: freeMint+ElyGremlins。面板 https://reboot7454.github.io/early-scout/",
+    "alertMessage": "DC补漏R841新收3：Jachtpack(@Jachtpack RH链Tulpenmanie郁金香揭盲/$FORTUIN)、Soul Board(@SoulBoardFun RH链agentic发射台$BOARD)、Hood Club(@HoodClub_RH RH相关合约线索)；面板 https://reboot7454.github.io/early-scout/",
     "dsSummary": "deepseek-flash admit=2 (slymzcrew,theidmfun) skip=1 (elysiumeco hub)；score OK；alert OK",
     "round270Added": [
       "avatarpad"
@@ -10492,9 +10494,151 @@
         "MemeStockbnb"
       ],
       "discordPeekDeferred": true
-    }
+    },
+    "round841Added": [
+      "jachtpack",
+      "soulboardfun",
+      "hoodclub-rh"
+    ]
   },
   "candidates": [
+    {
+      "id": "hoodclub-rh",
+      "name": "Hood Club",
+      "handle": "@hoodclub_rh",
+      "twitter": "@hoodclub_rh",
+      "chain": "ETH",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/HoodClub_RH"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 7,
+        "novelty": 5,
+        "actionable": 5,
+        "overall": 5.2
+      },
+      "highlights": [
+        "bio 内含 ETH 合约地址 0x9601...bede，疑似 mint/代币合约",
+        "项目型命名，非个人号",
+        "粉丝 129、关注 17，账号极新"
+      ],
+      "drawbacks": [
+        "合约未核验，可能是收款地址",
+        "无官网/文档说明玩法"
+      ],
+      "whatsNew": "Discord alpha：Hood Club RH，bio 挂合约地址，待核验 mint/代币",
+      "summary": "早期项目号，bio 挂 ETH 合约地址，可作为 mint/打新线索跟进核验",
+      "blurb": "Hood Club：bio 直挂 ETH 合约，早期待核",
+      "round": 841,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 129,
+      "xFollowers": 129,
+      "firstSeen": "2026-10-29 14:52 CST",
+      "addedAt": "2026-10-29 14:52 CST",
+      "lastChecked": "2026-10-29 14:52 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "soulboardfun",
+      "name": "Soul Board",
+      "handle": "@soulboardfun",
+      "twitter": "@soulboardfun",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/SoulBoardFun"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 7,
+        "overall": 7.5
+      },
+      "highlights": [
+        "agentic launchpad 定位",
+        "已公布 $BOARD 合约地址 0x9518...91c3",
+        "Robinhood Chain 新叙事",
+        "0粉新号，极早期"
+      ],
+      "drawbacks": [
+        "零关注零粉，真实性待核",
+        "仅合约+简介，无白皮书/文档",
+        "尚无可验证产品界面"
+      ],
+      "whatsNew": "Discord alpha：RH链 agentic 发射台 Soul Board，bio 挂 $BOARD CA",
+      "summary": "Robinhood Chain上的agentic发射台，已发$BOARD合约，处极早期，值得跟踪。",
+      "blurb": "Robinhood Chain 新发射台，$BOARD 合约已出，极早期先占位。",
+      "round": 841,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-29 14:52 CST",
+      "addedAt": "2026-10-29 14:52 CST",
+      "lastChecked": "2026-10-29 14:52 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "jachtpack",
+      "name": "Jachtpack / Tulpenmanie",
+      "handle": "@jachtpack",
+      "twitter": "@jachtpack",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Jachtpack"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 7.0
+      },
+      "highlights": [
+        "Robinhood Chain 上 Tulpenmanie 郁金香揭盲挑战",
+        "自带 $FORTUIN 代币玩法",
+        "极早期，关注度几乎为零"
+      ],
+      "drawbacks": [
+        "信息量少，仅 bio 一条线索",
+        "合约/规则未公开，需自行核验"
+      ],
+      "whatsNew": "Discord alpha：RH链 Tulpenmanie 郁金香揭盲玩法，关联 $FORTUIN",
+      "summary": "Robinhood Chain 新玩法项目，主打稀有郁金香揭盲与 $FORTUIN 代币，处于极早期。",
+      "blurb": "Robinhood Chain 郁金香揭盲玩法，$FORTUIN 极早期。",
+      "round": 841,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 7,
+      "xFollowers": 7,
+      "firstSeen": "2026-10-29 14:52 CST",
+      "addedAt": "2026-10-29 14:52 CST",
+      "lastChecked": "2026-10-29 14:52 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "arc-pulse",
       "name": "Arc Pulse",
@@ -10505,7 +10649,7 @@
       "followers": 26,
       "round": 840,
       "focus": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "links": {
         "x": "https://x.com/Arcdepthoock",
         "twitter": "https://x.com/Arcdepthoock"
@@ -133782,20 +133926,22 @@
     }
   ],
   "newThisRound": [
-    "arc-pulse"
+    "jachtpack",
+    "soulboardfun",
+    "hoodclub-rh"
   ],
-  "alertMessage": "",
+  "alertMessage": "DC补漏R841新收3：Jachtpack(@Jachtpack RH链Tulpenmanie郁金香揭盲/$FORTUIN)、Soul Board(@SoulBoardFun RH链agentic发射台$BOARD)、Hood Club(@HoodClub_RH RH相关合约线索)；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "elixirpad",
     "dontblink"
   ],
-  "updatedAt": "2026-10-29 14:14 CST",
-  "updated": "2026-10-29 14:14 CST",
+  "updatedAt": "2026-10-29 14:52 CST",
+  "updated": "2026-10-29 14:52 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-29 14:14 CST",
+  "lastScout": "2026-10-29 14:52 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -133837,7 +133983,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1912,
+  "candidateCount": 1916,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -134948,5 +135094,10 @@
     "agenticabot",
     "rivalkinai",
     "snarkspad"
+  ],
+  "round841Added": [
+    "jachtpack",
+    "soulboardfun",
+    "hoodclub-rh"
   ]
 }
