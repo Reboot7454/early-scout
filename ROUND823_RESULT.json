@@ -1,0 +1,178 @@
+{
+  "round": 823,
+  "mode": "full-radar",
+  "completedAt": "2026-10-29 09:13 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "【R823】新收录 Colo(@cologamefun，BSC 盲盒 mint LIVE，0.044 BNCB，CA 0xf807…78Ad，agent代铸) + Elysium Punks(@ElysiumPunks，Elysium 首个 punk waitlist，主网11/9，异于 PunksOnElysium)。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "cologamefun",
+      "handle": "@cologamefun",
+      "name": "Colo",
+      "note": "BSC COLO盲盒 mint LIVE；0.044 BNCB/枚；CA 0xf807C78Ccc3C5CB88e66F6E22EC6B5e3626E78Ad；agent代铸+BNCB市场；55粉"
+    },
+    {
+      "id": "elysiumpunks",
+      "handle": "@ElysiumPunks",
+      "name": "Elysium Punks",
+      "note": "Enter_Elysium 首个 punk PFP waitlist；10k；主网11/9；107粉；异于库内 PunksOnElysium"
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "cologamefun",
+    "elysiumpunks"
+  ],
+  "round823Added": [
+    "cologamefun",
+    "elysiumpunks"
+  ],
+  "skipped": [
+    {
+      "id": "yield-fields-rh",
+      "reason": "Robinhood coming soon，27k粉已过大，无明确早期 mint/launch 窗"
+    },
+    {
+      "id": "pocketpad_io",
+      "reason": "R821已跳过；本轮 trench 再出现仍无产品/发射细节"
+    },
+    {
+      "id": "mobster_meme",
+      "reason": "X Not Found；继续记一笔，未整栏跳过"
+    },
+    {
+      "id": "cabaldotfun",
+      "reason": "已知可能 X Not Found；未整栏跳过"
+    },
+    {
+      "id": "Leeonmort",
+      "reason": "已知可能 X Not Found；agentPad 续"
+    }
+  ],
+  "le2h": [],
+  "tonight": [
+    {
+      "id": "blindfloor",
+      "note": "Blindfloor token 约 13:00 UTC / 21:00 CST（非≤2h）"
+    },
+    {
+      "id": "farm-on-btc",
+      "note": "FARMonBTC mint date Oct 29（全日，非强制≤2h）"
+    }
+  ],
+  "liveContinuations": [
+    {
+      "id": "pulse-launchpad",
+      "note": "Pulse day-one LIVE 续"
+    },
+    {
+      "id": "squeekchain",
+      "note": "Aura farming/WL LIVE 续"
+    },
+    {
+      "id": "nutshell-markets",
+      "note": "squeek treasury teaser 续刷"
+    },
+    {
+      "id": "oathbots",
+      "note": "free swear-in 续"
+    },
+    {
+      "id": "computroll",
+      "note": "ComputeRoll 挖矿续"
+    },
+    {
+      "id": "pickrush",
+      "note": "PickRush 续"
+    }
+  ],
+  "xReads": 55,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit×1 + score×1 + alert; thinking ON",
+  "coverage": {
+    "打新": true,
+    "挖矿": true,
+    "台子/Meme": true,
+    "GO盘": true,
+    "LayerZero": true,
+    "Elysium生态": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BN Agent钱包": true,
+    "BTC": true,
+    "Starknet": true,
+    "userFollowDone": true,
+    "keywordsTenCols": true,
+    "notes": "①UF优先 soft localbottomcom/bscaidrop/Nutshell/Pulse/machine/PickRush（mobster_meme Not Found）②必盯 mining/agentPad/Tape/kinetiq soft ③十栏+BTC/Starknet/LZ 关键词盲捞 ④Discord 仓内 peek deferred"
+  },
+  "watchesSoft": {
+    "userFollowWatch": true,
+    "priorityBrushed": [
+      "localbottomcom",
+      "bscaidrop",
+      "NutshellMarkets",
+      "squeekchain",
+      "PulseLaunchpad",
+      "machinedotfun",
+      "PickRush",
+      "pipfun_xyz",
+      "TapeAIAgent"
+    ],
+    "mobster_meme": "get_users_by_usernames → Not Found（仍在 userFollowWatch/库）",
+    "cabaldotfun": "known Not Found risk — continued",
+    "Leeonmort": "known Not Found risk — continued"
+  },
+  "mentionsCoverage": {
+    "Elysium": true,
+    "kinetiq": "via Enter_Elysium mentions → ElysiumPunks admit",
+    "Tape": true,
+    "GIWA": true,
+    "squeekchain": true,
+    "NutshellMarkets": true,
+    "flap": true,
+    "DogeEVM": true,
+    "Starknet": true,
+    "BTC_privacy": "keyword + btcPrivacyWatch soft",
+    "BN_Agent_pads": "keyword + agentPad soft",
+    "Zero_LZ": "keyword lane + layerZeroWatch soft",
+    "note": "全链 mentions 同等覆盖；Elysium 见 ElysiumPunks 新号；GIWA 见 Ammora 刷屏已知；squeek 侧 Nutshell mentions 无新官号；DogeOS/Starknet mentions 无新链挂靠号。"
+  },
+  "watchBugsFixed": [
+    {
+      "id": "unicentclub",
+      "fix": "added to agentPadWatch"
+    },
+    {
+      "id": "starx_xlayer",
+      "fix": "added to agentPadWatch"
+    },
+    {
+      "id": "grokpadspace",
+      "fix": "added to agentPadWatch"
+    },
+    {
+      "id": "cologamefun",
+      "fix": "added to agentPadWatch+freeMintWatch"
+    },
+    {
+      "id": "elysiumpunks",
+      "fix": "added to elysiumWatch"
+    }
+  ],
+  "softDebtRefreshed": [
+    "cantonPadWatch",
+    "glazeWatch",
+    "tokenWorksPlaygroundWatch"
+  ],
+  "discordPeekDeferred": true,
+  "discordPeekNote": "无 browser；仓内最新 DISCORD_ALPHA_* 仍为 0840/R822；无新于 lastSeen 08:36",
+  "push": {
+    "ok": false,
+    "pending": true
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R823 full-radar：新收录 cologamefun + elysiumpunks；十栏+链关键词齐全；UF优先软刷；mentions 覆盖 Elysium/Tape/GIWA/flap/squeek/Nutshell/Doge/Starknet；修 R822 三卡 Watch bug；无≤2h；Discord deferred；notify=true。"
+}
