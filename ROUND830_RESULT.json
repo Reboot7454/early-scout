@@ -1,0 +1,67 @@
+{
+  "round": 830,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-29 11:21 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "napkinrh",
+    "urcat_rh",
+    "stockhavenhood",
+    "moribundusbnb",
+    "beepboopmeme"
+  ],
+  "newCount": 5,
+  "newIds": [
+    "napkinrh",
+    "urcat_rh",
+    "stockhavenhood",
+    "moribundusbnb",
+    "beepboopmeme"
+  ],
+  "skipped": [
+    {
+      "id": "dickhursteam",
+      "reason": "泛AI商业/miniapp叙述，未见明确加密产品、发射或玩法线索，空壳拒。"
+    },
+    {
+      "id": "tokenearthfun",
+      "reason": "仅有1 Token=36.8英亩土地口号，无产品、合约或玩法细节，空壳拒。"
+    }
+  ],
+  "cardsAfterLastSeen": 40,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "the-agent-firm",
+    "synklings"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "the-agent-firm",
+    "synklings"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=7",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-29 11:19",
+    "lastChecked": "2026-10-29 11:21 CST",
+    "newestCardTime": "2026-10-29 11:19",
+    "cardsAfterCutoff": 40,
+    "note": "R830：Discord alpha 补收 napkinrh,urcat_rh,stockhavenhood,moribundusbnb,beepboopmeme；跳过 [{'id': 'dickhursteam', 'reason': '泛AI商业/miniapp叙述，未见明确加密产品、发射或玩法线索，空壳拒。'}, {'id': 'tokenearthfun', 'reason': '仅有1 Token=36.8英亩土地口号，无产品、合约或玩法细节，空壳拒。'}]；清 the-agent-firm,synklings；lastSeen→2026-10-29 11:19；lastChecked→2026-10-29 11:21 CST",
+    "lastRound": 830
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R830：Discord alpha 补收 napkinrh,urcat_rh,stockhavenhood,moribundusbnb,beepboopmeme；跳过 [{'id': 'dickhursteam', 'reason': '泛AI商业/miniapp叙述，未见明确加密产品、发射或玩法线索，空壳拒。'}, {'id': 'tokenearthfun', 'reason': '仅有1 Token=36.8英亩土地口号，无产品、合约或玩法细节，空壳拒。'}]；清 the-agent-firm,synklings；lastSeen→2026-10-29 11:19；lastChecked→2026-10-29 11:21 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261029_1120.json",
+  "priorRoundNote": "R829 meta NTR ['the-agent-firm', 'synklings']; cardsAfterCutoff=40"
+}
