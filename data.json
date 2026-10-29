@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-30 02:00 CST",
+    "updated": "2026-10-30 02:08 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R692",
-    "lastScout": "2026-10-30 02:00 CST",
+    "lastScout": "2026-10-30 02:08 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -588,7 +588,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 877,
+    "round": 878,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1620,7 +1620,14 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "medalbeasts",
+      "elyxa-trade",
+      "tickupfun",
+      "darkllartech",
+      "stickynodesv4",
+      "mineelysiumnft"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -3434,17 +3441,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-10-30 01:26",
-      "lastChecked": "2026-10-30 01:31 CST",
-      "newestCardTime": "2026-10-30 01:26",
-      "cardsAfterCutoff": 80,
-      "note": "R876：Discord alpha 补收 luckycatchgame,fox3rh,orrerycoin,longbaolnb,elystocks-fun,agoraelysium,davidjohnsvcen,firstpadfun,onhype-co,elystrade,lotlings,obelisdotfun,rh-wofl；lastSeen→2026-10-30 01:26；lastChecked→2026-10-30 01:31 CST",
-      "lastRound": 876,
+      "lastSeen": "2026-10-30 02:02",
+      "lastChecked": "2026-10-30 02:08 CST",
+      "newestCardTime": "2026-10-30 02:04",
+      "cardsAfterCutoff": 46,
+      "note": "R878：Discord alpha 补收 medalbeasts,elyxa-trade,tickupfun,darkllartech,stickynodesv4,mineelysiumnft；lastSeen→2026-10-30 02:02；lastChecked→2026-10-30 02:08 CST",
+      "lastRound": 878,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-30 01:26",
-        "alpha-1-backup": "2026-10-30 01:13",
-        "smart-accounts-tracker": "2026-10-30 01:02",
-        "alpha-1": "2026-10-30 01:20"
+        "alpha-3-new-accounts": "2026-10-30 02:02",
+        "alpha-1-backup": "2026-10-30 01:58",
+        "smart-accounts-tracker": "2026-10-30 01:40",
+        "alpha-1": "2026-10-30 01:52"
       }
     },
     "round239Added": [
@@ -12422,9 +12429,282 @@
         "rh-wofl"
       ],
       "note": "R876 Discord admits were not wired into any Watch; fixed in R877"
-    }
+    },
+    "round878Added": [
+      "medalbeasts",
+      "elyxa-trade",
+      "tickupfun",
+      "darkllartech",
+      "stickynodesv4",
+      "mineelysiumnft"
+    ]
   },
   "candidates": [
+    {
+      "id": "mineelysiumnft",
+      "name": "Minesium",
+      "handle": "@mineelysiumnft",
+      "twitter": "@mineelysiumnft",
+      "chain": "Elysium",
+      "category": "Elysium",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/mineelysiumnft"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.6
+      },
+      "highlights": [
+        "bio 明确为 Elysium 上的 mine-fi 协议",
+        "有挖矿/玩法方向，非纯喊单号"
+      ],
+      "drawbacks": [
+        "未标注 testnet / 上线时间",
+        "bio 信息量极少，待核验合约与部署"
+      ],
+      "whatsNew": "新出现的 Elysium 生态 mine-fi 项目账号，主打挖矿玩法。",
+      "summary": "Elysium 生态的 mine-fi 协议账号，粉丝极少、极早期，玩法线索引向挖矿，需持续核验具体部署与测试网状态。",
+      "blurb": "Elysium 生态 mine-fi 早期号，先挂观察位。",
+      "round": 878,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 71,
+      "xFollowers": 71,
+      "firstSeen": "2026-10-30 02:08 CST",
+      "addedAt": "2026-10-30 02:08 CST",
+      "lastChecked": "2026-10-30 02:08 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "stickynodesv4",
+      "name": "Sticky Nodes",
+      "handle": "@stickynodesv4",
+      "twitter": "@stickynodesv4",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/StickyNodesV4"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6.5,
+        "novelty": 7,
+        "actionable": 4,
+        "overall": 6.3
+      },
+      "highlights": [
+        "v4 hook可视化连线编程",
+        "可测试swap"
+      ],
+      "drawbacks": [
+        "0粉无上线信息",
+        "工具类变现路径不明"
+      ],
+      "whatsNew": "新出现的v4 hook可视化搭建工具账号。",
+      "summary": "面向Robinhood Chain的Uniswap v4 hook可视化编程与测试工具。",
+      "blurb": "v4 hook可视化工具，早期跟踪。",
+      "round": 878,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-30 02:08 CST",
+      "addedAt": "2026-10-30 02:08 CST",
+      "lastChecked": "2026-10-30 02:08 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "darkllartech",
+      "name": "DARKLLAR",
+      "handle": "@darkllartech",
+      "twitter": "@darkllartech",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/darkllartech"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7.5,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.9
+      },
+      "highlights": [
+        "隐私钱包：密封余额+私密转账+数值证明",
+        "预告DARK$代币"
+      ],
+      "drawbacks": [
+        "0粉无社交验证",
+        "代币仅soon，无时间表"
+      ],
+      "whatsNew": "Robinhood Chain隐私钱包项目出现并预告代币。",
+      "summary": "面向Robinhood Chain的USDG隐私钱包，功能描述具体，DARK$即将发行。",
+      "blurb": "Robinhood Chain隐私钱包，待验证早期卡。",
+      "round": 878,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-30 02:08 CST",
+      "addedAt": "2026-10-30 02:08 CST",
+      "lastChecked": "2026-10-30 02:08 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "tickupfun",
+      "name": "Tickup Fun",
+      "handle": "@tickupfun",
+      "twitter": "@tickupfun",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/tickupfun"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.2
+      },
+      "highlights": [
+        "Robinhood Chain发射台定位",
+        "社区导向玩法"
+      ],
+      "drawbacks": [
+        "1粉，尚无产品页面",
+        "Robinhood Chain生态未验证"
+      ],
+      "whatsNew": "新出现的Robinhood Chain社区发射台账号。",
+      "summary": "自称构建于Robinhood Chain的创新社区发射台，极早期仅1粉。",
+      "blurb": "Robinhood Chain发射台新号，早期观察。",
+      "round": 878,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-10-30 02:08 CST",
+      "addedAt": "2026-10-30 02:08 CST",
+      "lastChecked": "2026-10-30 02:08 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "elyxa-trade",
+      "name": "Elyxa",
+      "handle": "@elyxa_trade",
+      "twitter": "@elyxa_trade",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/elyxa_trade"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 5,
+        "actionable": 4,
+        "overall": 5.2
+      },
+      "highlights": [
+        "发射台+追踪+Swap一体化定位",
+        "Elysium生态原生"
+      ],
+      "drawbacks": [
+        "仅为Coming soon，无测试网/部署信息",
+        "0粉无背书"
+      ],
+      "whatsNew": "Elysium上一体化发射台与交易终端，即将上线。",
+      "summary": "Elysium生态launchpad预告，产品方向清晰但缺少可交互进展。",
+      "blurb": "Elysium发射台预告，未落地。",
+      "round": 878,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-30 02:08 CST",
+      "addedAt": "2026-10-30 02:08 CST",
+      "lastChecked": "2026-10-30 02:08 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "medalbeasts",
+      "name": "MedalBeasts",
+      "handle": "@medalbeasts",
+      "twitter": "@medalbeasts",
+      "chain": "",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/MedalBeasts"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 5.9
+      },
+      "highlights": [
+        "产品设定完整：50组动物配对+5档稀有度",
+        "明确OpenSea上线计划"
+      ],
+      "drawbacks": [
+        "0粉无社交验证",
+        "链与mint时间未披露",
+        "疑似新搭建空转项目"
+      ],
+      "whatsNew": "像素战斗机器人+配套奖章NFT，预告登陆OpenSea。",
+      "summary": "极早期像素NFT项目，美术与稀有度框架已定，待披露链与mint细节。",
+      "blurb": "像素机甲NFT，OpenSea待发。",
+      "round": 878,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-30 02:08 CST",
+      "addedAt": "2026-10-30 02:08 CST",
+      "lastChecked": "2026-10-30 02:08 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "rh-wofl",
       "name": "WOFL",
@@ -145157,16 +145437,23 @@
       "newThisRound": false
     }
   ],
-  "newThisRound": [],
-  "alertMessage": "",
+  "newThisRound": [
+    "medalbeasts",
+    "elyxa-trade",
+    "tickupfun",
+    "darkllartech",
+    "stickynodesv4",
+    "mineelysiumnft"
+  ],
+  "alertMessage": "DC补漏R878新收6项：MedalBeasts、Elyxa等；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [],
-  "updatedAt": "2026-10-30 02:00 CST",
-  "updated": "2026-10-30 02:00 CST",
+  "updatedAt": "2026-10-30 02:08 CST",
+  "updated": "2026-10-30 02:08 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-30 01:31 CST",
+  "lastScout": "2026-10-30 02:08 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -145208,7 +145495,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 2072,
+  "candidateCount": 2078,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -146505,5 +146792,13 @@
     "obelisdotfun",
     "rh-wofl"
   ],
-  "round877Added": []
+  "round877Added": [],
+  "round878Added": [
+    "medalbeasts",
+    "elyxa-trade",
+    "tickupfun",
+    "darkllartech",
+    "stickynodesv4",
+    "mineelysiumnft"
+  ]
 }
