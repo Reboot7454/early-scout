@@ -1,0 +1,85 @@
+{
+  "round": 857,
+  "notify": true,
+  "notifyReason": "new_admit+le2h",
+  "alertMessage": "早鸟雷达通知：R857新收 Hygena（@usehygena，Elysium钱包清理testnet live，32粉）+ OwlGate（@owlgatecli，Tape矿机交易终端BNB+X Layer，2粉）；BlindFloor代币约21:00 CST上线（≤2h）；面板 https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "hygena",
+    "owlgate"
+  ],
+  "newOneLiners": {
+    "hygena": "Hygena @usehygena — Elysium钱包清理工具，testnet live / Day1就绪（32粉）",
+    "owlgate": "OwlGate @owlgatecli — Tape矿机交易终端，BNB+X Layer（2粉，极早期）"
+  },
+  "le2h": [
+    {
+      "id": "blindfloor",
+      "note": "token on Pons ≈21:00 CST（约1h内）"
+    }
+  ],
+  "xReads": 52,
+  "keywordsTenCols": true,
+  "userFollowDone": true,
+  "mentions": [
+    "Enter_Elysium/kinetiq",
+    "TapeOutWorld/Tape (TapeAIAgent/Blonskr/TapeOutWorld/BEMGoGoGo/tapeupio/FirstoAI/Tape_Pool/bitcointapes)",
+    "GIWA",
+    "LayerZero_Core",
+    "Starknet",
+    "BTC privacy (keyword)",
+    "squeekchain",
+    "NutshellMarkets",
+    "starx_xlayer/X Layer",
+    "BN Agent pads (Pulse/bscaidrop/HashOre soft)",
+    "DogeEVM (keyword)",
+    "flap/Irys/Full.fun/Arc (keyword)"
+  ],
+  "coverage": {
+    "打新": true,
+    "挖矿": true,
+    "台子/Meme": true,
+    "GO盘": true,
+    "LayerZero": true,
+    "Elysium": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BN Agent 钱包": true,
+    "BTC": true,
+    "Starknet": true,
+    "X Layer/STARX": true,
+    "squeek/Nutshell": true
+  },
+  "watchBugs": [
+    "trippi @trippiart R856 admit in-lib not in UF/Watch → +userFollowWatch+freeMintWatch",
+    "sizedesk @sizedeskdotfun R856 admit in-lib not in UF/Watch → +userFollowWatch+agentPadWatch",
+    "lucrai @lucraiagents R856 admit in-lib not in UF/Watch → +userFollowWatch+agentPadWatch,agentMiningWatch",
+    "barlosite @barlosite R856 admit in-lib not in UF/Watch → +userFollowWatch+agentPadWatch",
+    "arcyresearch @arcyresearch R856 admit in-lib not in UF/Watch → +userFollowWatch+agentPadWatch",
+    "keccaklings @keccaklings in-lib not in UF/Watch → +userFollowWatch+freeMintWatch",
+    "nibblinz @nibblinz_ in-lib not in UF/Watch → +userFollowWatch+freeMintWatch",
+    "toll-xyz @Tollxyz_ handle null → enrich + ensure Watch → +userFollowWatch+agentPadWatch,xChainPadWatch"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "soft": {
+    "userFollow": [
+      "starx_xlayer burn/$ICE/open-source",
+      "bscaidrop ~18k users",
+      "HashOre Era3 ~5k",
+      "squeekchain Aura+Sepolia (no ≤30m new posts)",
+      "NutshellMarkets/localbottomcom/machinedotfun/PulseLaunchpad/PickRush quiet-ish",
+      "mobster_meme X Not Found (known)",
+      "Carcosa 0 tweets"
+    ],
+    "watches": "agentPad/tape/tapeOut/elysium/kinetiq/giwa/dogeEvm/zero/LZ/starknet/btcPrivacy/flap/irys/fullFun/arc/mining/agentMining/bnAgent/freeMint/xChainPad lastChecked bumped; canton/glaze/tokenWorks soft-debt",
+    "enrich": "toll-xyz handle/twitter filled"
+  },
+  "skipped": [
+    "Discord live login deferred (discordPeekDeferred)",
+    "mobster_meme X username Not Found",
+    "X daily remaining ~23/1000 after round — lanes covered, no fabrications"
+  ],
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "at": "2026-10-29 20:02 CST"
+}
