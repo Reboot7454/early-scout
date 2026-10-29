@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-29 18:02 CST",
+    "updated": "2026-10-29 18:12 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R692",
-    "lastScout": "2026-10-29 17:40 CST",
+    "lastScout": "2026-10-29 18:12 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -563,7 +563,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 851,
+    "round": 852,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1590,7 +1590,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "tapeid-ai"
+      "kurb",
+      "elyscan",
+      "cairn-substrate"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -3364,17 +3366,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-10-29 17:28",
-      "lastChecked": "2026-10-29 17:34 CST",
-      "newestCardTime": "2026-10-29 17:28",
-      "cardsAfterCutoff": 59,
-      "note": "R849：Discord alpha 补收 jackbay,stbnb；清 hashore-bnb,elysdex,wheelpadfun；lastSeen→2026-10-29 17:28；lastChecked→2026-10-29 17:34 CST",
-      "lastRound": 849,
+      "lastSeen": "2026-10-29 18:08",
+      "lastChecked": "2026-10-29 18:12 CST",
+      "newestCardTime": "2026-10-29 18:08",
+      "cardsAfterCutoff": 45,
+      "note": "R852：Discord alpha 补收 kurb,elyscan,cairn-substrate；清 stbnb,jackbay；lastSeen→2026-10-29 18:08；lastChecked→2026-10-29 18:12 CST",
+      "lastRound": 852,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-29 17:26",
-        "alpha-1-backup": "2026-10-29 17:28",
-        "smart-accounts-tracker": "2026-10-29 17:09",
-        "alpha-1": "2026-10-29 17:14"
+        "alpha-3-new-accounts": "2026-10-29 18:08",
+        "alpha-1-backup": "2026-10-29 17:43",
+        "smart-accounts-tracker": "2026-10-29 17:31",
+        "alpha-1": "2026-10-29 17:48"
       }
     },
     "round239Added": [
@@ -10964,9 +10966,150 @@
       "tapeWatch +@TapeId_AI (new admit)",
       "tapeOutWatch +@TapeId_AI (new admit)",
       "userFollowWatch +@TapeId_AI (new admit)"
+    ],
+    "round852Added": [
+      "kurb",
+      "elyscan",
+      "cairn-substrate"
     ]
   },
   "candidates": [
+    {
+      "id": "cairn-substrate",
+      "name": "Cairn",
+      "handle": "@cairn_substrate",
+      "twitter": "@cairn_substrate",
+      "chain": "Compute Substrate (CSD)",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "infra",
+        "naming-service"
+      ],
+      "links": {
+        "x": "https://x.com/Cairn_substrate"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 5,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 7
+      },
+      "highlights": [
+        "钱包/浏览器/RPC/SDK多产品线齐备",
+        "自有.csd命名与CairnX玩法"
+      ],
+      "drawbacks": [
+        "代币与发射时间未披露",
+        "非LZ/Elysium生态，需自建跟踪"
+      ],
+      "whatsNew": "由0xdetweiler关注带入，生态层定位成形",
+      "summary": "Compute Substrate生态层项目，产品线明确、粉丝基数低属极早期",
+      "blurb": "极早期基础设施，多产品线可埋伏",
+      "round": 852,
+      "focus": true,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 492,
+      "xFollowers": 492,
+      "firstSeen": "2026-10-29 18:12 CST",
+      "addedAt": "2026-10-29 18:12 CST",
+      "lastChecked": "2026-10-29 18:12 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "elyscan",
+      "name": "Elyscan",
+      "handle": "@elyscanlive",
+      "twitter": "@elyscanlive",
+      "chain": "Elysium",
+      "category": "Elysium",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "elysium",
+        "block-explorer"
+      ],
+      "links": {
+        "x": "https://x.com/elyscanlive"
+      },
+      "scores": {
+        "early": 95,
+        "risk": 55,
+        "novelty": 70,
+        "actionable": 60,
+        "overall": 78
+      },
+      "highlights": [
+        "明确Elysium私有主网区块浏览器定位",
+        "极早期新号，产品线索具体"
+      ],
+      "drawbacks": [
+        "仅1粉，未验证官方归属",
+        "无发射/合约细节"
+      ],
+      "whatsNew": "新关注Elysium相关账号，bio自称Elysium私有主网区块浏览器",
+      "summary": "Elyscan自称Elysium私有主网区块浏览器，属极早期基础设施线索，可跟踪但需核验归属。",
+      "blurb": "Elysium私有主网区块浏览器，极早期待核验。",
+      "round": 852,
+      "focus": true,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-10-29 18:12 CST",
+      "addedAt": "2026-10-29 18:12 CST",
+      "lastChecked": "2026-10-29 18:12 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "kurb",
+      "name": "Kurb",
+      "handle": "@kurbdot",
+      "twitter": "@kurbdot",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Kurbdot"
+      },
+      "scores": {
+        "early": 92,
+        "risk": 72,
+        "novelty": 66,
+        "actionable": 58,
+        "overall": 64
+      },
+      "highlights": [
+        "$KURB 明确付费机制：每日分红代币化股票",
+        "Bio 给出 Robinhood Chain 与 ticker 线索"
+      ],
+      "drawbacks": [
+        "仅1粉、无合约地址/官网",
+        "Robinhood Chain 早期生态，真实性待验"
+      ],
+      "whatsNew": "新账号自称在 Robinhood Chain 发 $KURB，持币按交易日分红。",
+      "summary": "极早期 Meme 项目，Bio 含 ticker、链与分红玩法线索，暂无合约佐证。",
+      "blurb": "$KURB 每日分红代币化股票，Robinhood Chain 极早期 Meme。",
+      "round": 852,
+      "focus": true,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-10-29 18:12 CST",
+      "addedAt": "2026-10-29 18:12 CST",
+      "lastChecked": "2026-10-29 18:12 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "stbnb",
       "name": "stBNB",
@@ -11009,7 +11152,7 @@
       "addedAt": "2026-10-29 17:34 CST",
       "lastChecked": "2026-10-29 17:34 CST",
       "zoneHint": "挖矿",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "jackbay",
@@ -11053,7 +11196,7 @@
       "addedAt": "2026-10-29 17:34 CST",
       "lastChecked": "2026-10-29 17:34 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "tapekeyofficial",
@@ -137090,19 +137233,21 @@
     }
   ],
   "newThisRound": [
-    "tapeid-ai"
+    "kurb",
+    "elyscan",
+    "cairn-substrate"
   ],
-  "alertMessage": "早鸟雷达通知：R851新收 TapeID（@TapeId_AI，BNB TapeOut AI agent 免费 .tape 命名/电路规则，42粉极早期）；predict-fun Pre-TGE 窗已于18:00 CST结束；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "早鸟雷达通知：R852 Discord补漏新收 @cairn_substrate/@elyscanlive/@kurbdot；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "tapeid-ai"
   ],
-  "updatedAt": "2026-10-29 18:02 CST",
-  "updated": "2026-10-29 18:02 CST",
+  "updatedAt": "2026-10-29 18:12 CST",
+  "updated": "2026-10-29 18:12 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-29 17:34 CST",
+  "lastScout": "2026-10-29 18:12 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -137144,7 +137289,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1947,
+  "candidateCount": 1950,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -138290,5 +138435,10 @@
   ],
   "round851Added": [
     "tapeid-ai"
+  ],
+  "round852Added": [
+    "kurb",
+    "elyscan",
+    "cairn-substrate"
   ]
 }
