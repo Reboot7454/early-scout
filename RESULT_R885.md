@@ -15,4 +15,8 @@
 - **summary**: R885 日额已尽：零X读取；Watch漏挂0；软债×35；全量补扫 deferred→08:00 CST；不通知。
 
 ## Push
-- **ok**: pending
+- **ok**: true
+- **data commit**: 442c22a (`442c22ad8044836098770d8faf3ec72f2daf7faa`)
+- **HEAD**: 442c22a
+- **branch**: main
+- **remoteVerified**: true (origin/main data.json meta.round=885)
