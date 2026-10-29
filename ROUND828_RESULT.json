@@ -1,0 +1,69 @@
+{
+  "round": 828,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-29 10:40 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R828 DC补漏新收3（未核验，台子/Meme）：Swypex @swypex_app 加密/美股涨跌预测小游戏；PaperProp @PaperProp_io papertrade 1000x prop 交易；SETH @Enter_SETH Elysium trenches 发射/交易，Uniswap多池，未发币。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "swypex_app",
+    "paperprop_io",
+    "enter_seth"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "swypex_app",
+    "paperprop_io",
+    "enter_seth"
+  ],
+  "skipped": [
+    {
+      "id": "purefiapp",
+      "reason": "6%收益+低费率免息汇款，偏传统金融/理财汇款，非极早期加密打新；无发射/玩法线索。"
+    }
+  ],
+  "cardsAfterLastSeen": 30,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "elysiumpepecoin",
+    "tapemonkey",
+    "hood-bombers",
+    "crewhood"
+  ],
+  "candidateFlagsCleared": 4,
+  "topNewThisRoundCleared": [
+    "elysiumpepecoin",
+    "tapemonkey",
+    "hood-bombers",
+    "crewhood"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=4",
+  "coverage": "alpha-3/backup/smart/alpha-1",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-29 10:37",
+    "lastChecked": "2026-10-29 10:40 CST",
+    "newestCardTime": "2026-10-29 10:37",
+    "cardsAfterCutoff": 30,
+    "note": "R828：Discord alpha 补收 swypex_app,paperprop_io,enter_seth；跳过 [{'id': 'purefiapp', 'reason': '6%收益+低费率免息汇款，偏传统金融/理财汇款，非极早期加密打新；无发射/玩法线索。'}]；清 elysiumpepecoin,tapemonkey,hood-bombers,crewhood；lastSeen→2026-10-29 10:37；lastChecked→2026-10-29 10:40 CST",
+    "lastRound": 828,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-29 10:36",
+      "alpha-1-backup": "2026-10-29 10:28",
+      "smart-accounts-tracker": "2026-10-29 10:37",
+      "alpha-1": "2026-10-29 10:35"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R828：Discord alpha 补收 swypex_app,paperprop_io,enter_seth；跳过 [{'id': 'purefiapp', 'reason': '6%收益+低费率免息汇款，偏传统金融/理财汇款，非极早期加密打新；无发射/玩法线索。'}]；清 elysiumpepecoin,tapemonkey,hood-bombers,crewhood；lastSeen→2026-10-29 10:37；lastChecked→2026-10-29 10:40 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261029_1035.json",
+  "priorRoundNote": "R827 meta NTR ['blob-on-elysium', 'punk-on-giwa', 'squeektoshi', 'elysiumpepecoin', 'tapemonkey', 'hood-bombers', 'crewhood']; cardsAfterCutoff=30"
+}
