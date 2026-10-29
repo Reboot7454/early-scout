@@ -1,0 +1,101 @@
+{
+  "round": 837,
+  "mode": "full-radar",
+  "completedAt": "2026-10-29 13:42 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "【R837】新增2个BNB Agent NFT可操作项：@aliienid 今日23:00 CST首发（前2免费，后0.001 BNB）；@flaggies_world 已上线、首mint免费。另修复 elypadotfun 等监控异常。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "aliienid",
+    "flaggies-world"
+  ],
+  "newCount": 2,
+  "newIds": [
+    "aliienid",
+    "flaggies-world"
+  ],
+  "le2h": [],
+  "xReads": 68,
+  "keywordsTenCols": true,
+  "userFollowDone": true,
+  "mentions": [
+    "Elysium",
+    "Tape",
+    "GIWA",
+    "DogeEVM",
+    "Starknet",
+    "squeekchain",
+    "NutshellMarkets",
+    "starx_xlayer",
+    "flap",
+    "Irys",
+    "Full.fun",
+    "Arc/UBI",
+    "Pulse/BN Agent",
+    "BTC privacy",
+    "LZ",
+    "kinetiq"
+  ],
+  "coverage": "打新✓挖矿✓台子/Meme✓GO盘✓LayerZero✓Elysium✓Tape✓GIWA✓DogeEVM✓BN Agent✓ +BTC✓ +Starknet✓ +X Layer/STARX✓ +squeek/Nutshell✓",
+  "watchBugs": [
+    "elysiumWatch +@elypadotfun (in-lib R817 not in Watch)",
+    "userFollowWatch +R836 trio @GatorEyesSolada/@_pointzz/@BNBanksAgentic",
+    "agentPadWatch+freeMintWatch +@BNBanksAgentic",
+    "miningWatch +@_pointzz",
+    "elysiumWatch +@bullsonelysium (R832)",
+    "agentPadWatch+freeMintWatch +@CataONsahara_RH (R832)",
+    "userFollowWatch +@keyhasp/@bullsonelysium/@CataONsahara_RH",
+    "agentPadWatch+freeMintWatch+agentMiningWatch +@aliienid/@flaggies_world"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit+score+alert",
+  "soft": {
+    "PulseLaunchpad": "day1 8m $PULSE burn / Pulse Lock / 127 tokens",
+    "starx_xlayer": "X Layer Agent bonding LIVE + OKX open letter",
+    "squeekchain": "Aura farming; no new ≤30m",
+    "NutshellMarkets": "soft OK empty recent",
+    "localbottomcom": "soft OK",
+    "bscaidrop": "soft OK",
+    "machinedotfun": "soft OK",
+    "ComputeRollLabs": "CROLL mining live; 50% milestone",
+    "AscendLaunch": "Day1 fomo/Elysium",
+    "keyhasp": "$HASP launch today 22:00 CST (14:00 UTC) — not ≤2h yet",
+    "aliienid": "mint today 23:00 CST — not ≤2h yet",
+    "mobster_meme": "NotFound",
+    "computeroll": "alias→@ComputeRollLabs"
+  },
+  "skipped": [
+    {
+      "id": "aimonster-s",
+      "reason": "DS skip spam/KOL 无mint窗口"
+    },
+    {
+      "id": "coopaai",
+      "reason": "DS skip Irys存储产品无打新窗口"
+    },
+    {
+      "id": "keccaklings",
+      "reason": "无官推 handle，仅研究帖"
+    },
+    {
+      "id": "quogent",
+      "reason": "已在库 @Quogentprotocol"
+    },
+    {
+      "id": "kalosfun",
+      "reason": "已在库"
+    },
+    {
+      "id": "elypadotfun",
+      "reason": "已在库 R817；本轮补Watch"
+    }
+  ],
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "push": {
+    "attempted": true,
+    "ok": null,
+    "sha": null
+  }
+}
