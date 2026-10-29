@@ -1,0 +1,79 @@
+{
+  "round": 834,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-29 12:41 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R834新收1：v4 Pairs(@v4pairs) Uniswap v4 hooks 发射台，0粉未核验 → https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "v4pairs"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "v4pairs"
+  ],
+  "skipped": [
+    {
+      "id": "uranuspad",
+      "reason": "DS score 拒：信息不足关联未证实"
+    },
+    {
+      "id": "hoodfellas_rh",
+      "reason": "DS admit 拒"
+    },
+    {
+      "id": "poweredbysocket",
+      "reason": "DS admit 拒"
+    },
+    {
+      "id": "warforzlands",
+      "reason": "DS admit 拒"
+    },
+    {
+      "id": "commercefoundry",
+      "reason": "DS admit 拒"
+    }
+  ],
+  "cardsAfterLastSeen": 9,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "bullsonelysium",
+    "cataonsahara_rh",
+    "keyhasp"
+  ],
+  "candidateFlagsCleared": 3,
+  "topNewThisRoundCleared": [
+    "bullsonelysium",
+    "cataonsahara_rh",
+    "keyhasp"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=6",
+  "coverage": "discord alpha-3/backup/smart/alpha-1",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-29 12:36",
+    "lastChecked": "2026-10-29 12:41 CST",
+    "newestCardTime": "2026-10-29 12:36",
+    "cardsAfterCutoff": 9,
+    "note": "R834：DC 补漏收 v4pairs（Uniswap v4 hooks 发射台，未核验）；DS拒 uranuspad/hoodfellas_rh/poweredbysocket/warforzlands/commercefoundry；aigenedotfun/ChyAI 已有；alpha-3 11:56–12:18 可能有未见缺口",
+    "lastRound": 834,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-29 12:36",
+      "alpha-1-backup": "2026-10-29 12:28",
+      "smart-accounts-tracker": "2026-10-29 12:35",
+      "alpha-1": "2026-10-29 12:22"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R834：Discord alpha 补收 v4pairs；跳过 [{'id': 'uranuspad', 'reason': 'DS score 拒：信息不足关联未证实'}, {'id': 'hoodfellas_rh', 'reason': 'DS admit 拒'}, {'id': 'poweredbysocket', 'reason': 'DS admit 拒'}, {'id': 'warforzlands', 'reason': 'DS admit 拒'}, {'id': 'commercefoundry', 'reason': 'DS admit 拒'}]；清 bullsonelysium,cataonsahara_rh,keyhasp；lastSeen→2026-10-29 12:36；lastChecked→2026-10-29 12:41 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261029_1245.json",
+  "priorRoundNote": "R833 meta NTR ['elixirpad', 'dontblink', 'bullsonelysium', 'cataonsahara_rh', 'keyhasp']; cardsAfterCutoff=9"
+}

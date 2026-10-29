@@ -1,0 +1,73 @@
+{
+  "round": 834,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-29 12:41 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "v4pairs"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "v4pairs"
+  ],
+  "skipped": [
+    {
+      "id": "uranuspad",
+      "reason": "DS score 拒：信息不足关联未证实"
+    },
+    {
+      "id": "hoodfellas_rh",
+      "reason": "DS admit 拒"
+    },
+    {
+      "id": "poweredbysocket",
+      "reason": "DS admit 拒"
+    },
+    {
+      "id": "warforzlands",
+      "reason": "DS admit 拒"
+    },
+    {
+      "id": "commercefoundry",
+      "reason": "DS admit 拒"
+    }
+  ],
+  "cardsAfterLastSeen": 9,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "bullsonelysium",
+    "cataonsahara_rh",
+    "keyhasp"
+  ],
+  "candidateFlagsCleared": 3,
+  "topNewThisRoundCleared": [
+    "bullsonelysium",
+    "cataonsahara_rh",
+    "keyhasp"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=6",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-29 12:36",
+    "lastChecked": "2026-10-29 12:41 CST",
+    "newestCardTime": "2026-10-29 12:36",
+    "cardsAfterCutoff": 9,
+    "note": "R834：Discord alpha 补收 v4pairs；跳过 [{'id': 'uranuspad', 'reason': 'DS score 拒：信息不足关联未证实'}, {'id': 'hoodfellas_rh', 'reason': 'DS admit 拒'}, {'id': 'poweredbysocket', 'reason': 'DS admit 拒'}, {'id': 'warforzlands', 'reason': 'DS admit 拒'}, {'id': 'commercefoundry', 'reason': 'DS admit 拒'}]；清 bullsonelysium,cataonsahara_rh,keyhasp；lastSeen→2026-10-29 12:36；lastChecked→2026-10-29 12:41 CST",
+    "lastRound": 834
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R834：Discord alpha 补收 v4pairs；跳过 [{'id': 'uranuspad', 'reason': 'DS score 拒：信息不足关联未证实'}, {'id': 'hoodfellas_rh', 'reason': 'DS admit 拒'}, {'id': 'poweredbysocket', 'reason': 'DS admit 拒'}, {'id': 'warforzlands', 'reason': 'DS admit 拒'}, {'id': 'commercefoundry', 'reason': 'DS admit 拒'}]；清 bullsonelysium,cataonsahara_rh,keyhasp；lastSeen→2026-10-29 12:36；lastChecked→2026-10-29 12:41 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261029_1245.json",
+  "priorRoundNote": "R833 meta NTR ['elixirpad', 'dontblink', 'bullsonelysium', 'cataonsahara_rh', 'keyhasp']; cardsAfterCutoff=9"
+}

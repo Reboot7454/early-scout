@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-29 12:40 CST",
+    "updated": "2026-10-29 12:41 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R692",
-    "lastScout": "2026-10-29 12:40 CST",
+    "lastScout": "2026-10-29 12:41 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -537,7 +537,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 833,
+    "round": 834,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1534,8 +1534,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "elixirpad",
-      "dontblink"
+      "v4pairs"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -3264,17 +3263,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-10-29 11:54",
-      "lastChecked": "2026-10-29 12:01 CST",
-      "newestCardTime": "2026-10-29 11:56",
-      "cardsAfterCutoff": 6,
-      "note": "R832：DC 补漏收 keyhasp/cataonsahara_rh/bullsonelysium；DS拒 useponoszk/gofundmemedev/barryjuniper69；alpha-1 的 Asciidogs/TorusFi/ely__hl 已有；backup 无新卡",
-      "lastRound": 832,
+      "lastSeen": "2026-10-29 12:36",
+      "lastChecked": "2026-10-29 12:41 CST",
+      "newestCardTime": "2026-10-29 12:36",
+      "cardsAfterCutoff": 9,
+      "note": "R834：DC 补漏收 v4pairs（Uniswap v4 hooks 发射台，未核验）；DS拒 uranuspad/hoodfellas_rh/poweredbysocket/warforzlands/commercefoundry；aigenedotfun/ChyAI 已有；alpha-3 11:56–12:18 可能有未见缺口",
+      "lastRound": 834,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-29 11:56",
-        "alpha-1-backup": "2026-10-29 11:13",
-        "smart-accounts-tracker": "2026-10-29 11:54",
-        "alpha-1": "2026-10-29 11:54"
+        "alpha-3-new-accounts": "2026-10-29 12:36",
+        "alpha-1-backup": "2026-10-29 12:28",
+        "smart-accounts-tracker": "2026-10-29 12:35",
+        "alpha-1": "2026-10-29 12:22"
       }
     },
     "round239Added": [
@@ -10227,9 +10226,64 @@
     ],
     "xReadsR833": 55,
     "keywordsTenCols": true,
-    "userFollowDone": true
+    "userFollowDone": true,
+    "round834Added": [
+      "v4pairs"
+    ]
   },
   "candidates": [
+    {
+      "id": "v4pairs",
+      "name": "v4 Pairs",
+      "handle": "@v4pairs",
+      "twitter": "@v4pairs",
+      "chain": "Robinhood Chain?",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "台子/Meme",
+        "Uniswap v4",
+        "hooks",
+        "launchpad",
+        "未核验",
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/v4pairs",
+        "twitter": "https://x.com/v4pairs"
+      },
+      "scores": {
+        "early": 95,
+        "actionable": 40,
+        "novelty": 72,
+        "risk": 82,
+        "overall": 58
+      },
+      "highlights": [
+        "0关注极早期新号",
+        "Uniswap v4 hooks发射台概念较新",
+        "swap分润给hook作者有叙事点"
+      ],
+      "drawbacks": [
+        "链信息不确定，标注Robinhood Chain?",
+        "0关注且无产品/合约验证",
+        "可能只是蹭v4与Robinhood热点"
+      ],
+      "whatsNew": "以Uniswap v4 hooks为核心的Meme发射台刚出现。",
+      "summary": "Uniswap v4 hooks 发射台，0 粉新号（DC alpha-3 卡，关注 @robinhoodapp），未核验。",
+      "blurb": "Uniswap v4 hooks 发射台：每个币开独立 v4 池，可从 v4 Marketplace/Builder 选 hook，每笔 swap 给 hook 作者分润。",
+      "round": 834,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-29 12:41 CST",
+      "addedAt": "2026-10-29 12:41 CST",
+      "lastChecked": "2026-10-29 12:41 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "elixirpad",
       "name": "ElixirPad",
@@ -10564,7 +10618,7 @@
       "addedAt": "2026-10-29 12:01 CST",
       "lastChecked": "2026-10-29 12:01 CST",
       "zoneHint": "打新-Elysium NFT",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "cataonsahara_rh",
@@ -10614,7 +10668,7 @@
       "addedAt": "2026-10-29 12:01 CST",
       "lastChecked": "2026-10-29 12:01 CST",
       "zoneHint": "打新-NFT freemint",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "keyhasp",
@@ -10664,7 +10718,7 @@
       "addedAt": "2026-10-29 12:01 CST",
       "lastChecked": "2026-10-29 12:01 CST",
       "zoneHint": "打新-钱包安全发射",
-      "newThisRound": true,
+      "newThisRound": false,
       "schedule": {
         "time": "2026-10-29T22:00:00+08:00",
         "label": "HASP代币发射"
@@ -132647,21 +132701,20 @@
     }
   ],
   "newThisRound": [
-    "elixirpad",
-    "dontblink"
+    "v4pairs"
   ],
-  "alertMessage": "【R832】新卡@pocketpad_io（极早期launchpad/ERC-8426/175粉0推文）、@MogzFun（Solana Pump克隆/0.5%费+1000x perps）、@Oxbitgen（RH/Pons GO盘$OXBIT/今日0粉）、@Bullshot911（多链fair-launch/Bull Gems积分挖）；并入DC alpha: keyhasp/cataonsahara_rh/bullsonelysium；Blindfloor≈9h非≤2h。面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "",
   "roundNAdded": [
     "elixirpad",
     "dontblink"
   ],
-  "updatedAt": "2026-10-29 12:08 CST",
-  "updated": "2026-10-29 12:08 CST",
+  "updatedAt": "2026-10-29 12:41 CST",
+  "updated": "2026-10-29 12:41 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-29 12:08 CST",
+  "lastScout": "2026-10-29 12:41 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -132703,7 +132756,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 1891,
+  "candidateCount": 1898,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -133797,5 +133850,8 @@
   "round833Added": [
     "elixirpad",
     "dontblink"
+  ],
+  "round834Added": [
+    "v4pairs"
   ]
 }
