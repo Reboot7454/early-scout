@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-31 02:32 CST",
+    "updated": "2026-10-31 02:37 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R905",
-    "lastScout": "2026-10-31 02:32 CST",
+    "lastScout": "2026-10-31 02:37 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -611,7 +611,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 943,
+    "round": 944,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1733,7 +1733,10 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "delvers-px",
+      "seismo"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -3675,17 +3678,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-10-31 01:58",
-      "lastChecked": "2026-10-31 02:05 CST",
-      "newestCardTime": "2026-10-31 01:22",
-      "cardsAfterCutoff": 22,
-      "note": "R942：Discord alpha 补收 amphora,magnitude-mag,nuxusapp,bububullfun；清 terzainference,elysiumbrokers,rheacatnear,mattresssafu,keelport；lastSeen→2026-10-31 01:58；lastChecked→2026-10-31 02:05 CST",
-      "lastRound": 942,
+      "lastSeen": "2026-10-31 02:34",
+      "lastChecked": "2026-10-31 02:37 CST",
+      "newestCardTime": "2026-10-31 01:58",
+      "cardsAfterCutoff": 21,
+      "note": "R944：Discord alpha 补收 delvers-px,seismo；lastSeen→2026-10-31 02:34；lastChecked→2026-10-31 02:37 CST",
+      "lastRound": 944,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-31 01:58",
+        "alpha-3-new-accounts": "2026-10-31 02:34",
         "alpha-1-backup": "2026-10-31 01:28",
-        "smart-accounts-tracker": "2026-10-31 01:19",
-        "alpha-1": "2026-10-31 01:29"
+        "smart-accounts-tracker": "2026-10-31 02:17",
+        "alpha-1": "2026-10-31 02:34"
       }
     },
     "round239Added": [
@@ -14423,9 +14426,102 @@
         "bububullfun"
       ],
       "deferredDiscordAlphaLeaks": "~37 r900-936 still deferred (avoid UF explode)"
-    }
+    },
+    "round944Added": [
+      "delvers-px",
+      "seismo"
+    ]
   },
   "candidates": [
+    {
+      "id": "seismo",
+      "name": "SEISMO",
+      "handle": "@seismo_xyz",
+      "twitter": "@seismo_xyz",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/seismo_xyz"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.1
+      },
+      "highlights": [
+        "AI 监控交易所与跨链桥资金流出，TG 即时推送",
+        "官网域名+独立推特，产品形态清晰"
+      ],
+      "drawbacks": [
+        "0 粉丝新号，尚无社区与代币信息",
+        "免费转 TG 分发，产品完成度与变现未知"
+      ],
+      "whatsNew": "以资金流异动告警为切入的链上监控工具，免费+Telegram 推送。",
+      "summary": "SEISMO 宣称用 AI 监控交易所与跨链桥资金异动，免费使用并在 Telegram 即时推送，属极早期工具型项目。",
+      "blurb": "链上资金流异动告警工具",
+      "round": 944,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 02:37 CST",
+      "addedAt": "2026-10-31 02:37 CST",
+      "lastChecked": "2026-10-31 02:37 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "delvers-px",
+      "name": "Delvers",
+      "handle": "@delvers_px",
+      "twitter": "@delvers_px",
+      "chain": "BNB Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/delvers_px"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 8,
+        "overall": 7.2
+      },
+      "highlights": [
+        "5,555 个 BNB Chain 链上像素英雄",
+        "免费 PoW mint",
+        "每日 dungeon run 打 Boss 分奖池"
+      ],
+      "drawbacks": [
+        "0 粉丝，团队未核验",
+        "mint 细节与合约未明"
+      ],
+      "whatsNew": "免费 PoW mint 的链上像素英雄游戏，含每日副本玩法",
+      "summary": "BNB Chain 上极早期的像素英雄 PoW mint 游戏，有明确玩法与免费 mint 线索，值得跟踪。",
+      "blurb": "Delvers：BNB Chain 像素英雄 PoW 免费 mint，每日副本打 Boss 分奖池。",
+      "round": 944,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 02:37 CST",
+      "addedAt": "2026-10-31 02:37 CST",
+      "lastChecked": "2026-10-31 02:37 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "bububullfun",
       "name": "Bubu Bull",
@@ -154739,16 +154835,19 @@
       }
     }
   ],
-  "newThisRound": [],
-  "alertMessage": "",
+  "newThisRound": [
+    "delvers-px",
+    "seismo"
+  ],
+  "alertMessage": "DC补漏R944新收 Delvers、SEISMO；https://reboot7454.github.io/early-scout/",
   "roundNAdded": [],
-  "updatedAt": "2026-10-31 02:32 CST",
-  "updated": "2026-10-31 02:32 CST",
+  "updatedAt": "2026-10-31 02:37 CST",
+  "updated": "2026-10-31 02:37 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-31 02:32 CST",
+  "lastScout": "2026-10-31 02:37 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -154790,7 +154889,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 2260,
+  "candidateCount": 2262,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -156307,5 +156406,9 @@
     "nuxusapp",
     "bububullfun"
   ],
-  "round943Added": []
+  "round943Added": [],
+  "round944Added": [
+    "delvers-px",
+    "seismo"
+  ]
 }
