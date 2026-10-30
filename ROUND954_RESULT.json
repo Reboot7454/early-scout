@@ -166,10 +166,10 @@
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R954 日额已尽：零X读取；修Watch漏挂×11（优先R953：playfumbo/hood-skulls/yeetr；续：aegisterminal/agentpunkai/argonminechain/balboa-studios/klll-floor/knightverse/launchviafun/nomadfinanceio）；软债刷lastChecked×35；Discord deferred；全量UF+十栏关键词+全链mentions延至08:00 CST；le2h仅已告警窗不重复；不通知。",
   "push": {
-    "ok": false,
-    "attempted": false,
-    "commit": "",
-    "sha": "",
+    "ok": true,
+    "attempted": true,
+    "commit": "77debea",
+    "sha": "77debeafc669d760bc6191292b7cee654b317f64",
     "branch": "main",
     "files": [
       "data.json",
@@ -178,7 +178,7 @@
     ],
     "message": "R954: X exhausted — Watch漏挂修 + soft-debt; full scan deferred 08:00 CST"
   },
-  "remoteVerified": false,
+  "remoteVerified": true,
   "priorRoundNote": "R953 admitted playfumbo/hood-skulls/yeetr (discord-alpha); R952 fixed razor-agent/dominioncoins/streamlitmaker/trycortano/hook404rh/buckme-sol/littlebeasts/pvedotmarkets; R954 continues Watch漏挂 batch + soft-debt; ZERO X",
   "xQuotaNote": "daily limit 1000 reached; remaining=0 until 2026-10-31T00:00:00.000Z = 08:00 Asia/Shanghai",
   "note": "mode=x-exhausted-local; deferred full scan until 08:00 CST; watchBugs×11; softDebt×35; remaining R900+ DC watch-leaks deferred≈9",
