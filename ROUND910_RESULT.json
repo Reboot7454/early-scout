@@ -1,0 +1,681 @@
+{
+  "round": 910,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-30 16:50 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R910新收5个项目：QUIRKZ、ELYRUSH、Fugui、TwinMeta、The Five Keys；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "quirkzai",
+    "elyrush",
+    "fugui-cto",
+    "twinmetahq",
+    "fivekeys-eth"
+  ],
+  "newCount": 5,
+  "newIds": [
+    "quirkzai",
+    "elyrush",
+    "fugui-cto",
+    "twinmetahq",
+    "fivekeys-eth"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 155,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "suan",
+    "stonka",
+    "windup",
+    "squeekstr"
+  ],
+  "candidateFlagsCleared": 4,
+  "topNewThisRoundCleared": [
+    "suan",
+    "stonka",
+    "windup",
+    "squeekstr"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=5",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-30 16:44",
+    "lastChecked": "2026-10-30 16:50 CST",
+    "newestCardTime": "2026-10-30 16:44",
+    "cardsAfterCutoff": 155,
+    "note": "R910：Discord alpha 补收 quirkzai,elyrush,fugui-cto,twinmetahq,fivekeys-eth；清 suan,stonka,windup,squeekstr；lastSeen→2026-10-30 16:44；lastChecked→2026-10-30 16:50 CST；alpha3 capped80，新缺口 16:12→16:22；prior gap 15:28→15:50 filled n=73；DS batch4 HTTP500 缺9决策(未admit)",
+    "lastRound": 910,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-30 16:44",
+      "alpha-1-backup": "2026-10-30 16:13",
+      "smart-accounts-tracker": "2026-10-30 16:06",
+      "alpha-1": "2026-10-30 16:11"
+    },
+    "alpha3OlderGap": {
+      "from": "2026-10-30 16:12",
+      "to": "2026-10-30 16:22",
+      "note": "R910 alpha-3 capped at 80; oldest kept 2026-10-30 16:22 @IMRANCMAN1; window 16:12→16:22 unread; prior gap 15:28→15:50 filled=True n=73"
+    },
+    "capped": {
+      "alpha-3-new-accounts": true
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R910：Discord alpha 补收 quirkzai,elyrush,fugui-cto,twinmetahq,fivekeys-eth；清 suan,stonka,windup,squeekstr；lastSeen→2026-10-30 16:44；lastChecked→2026-10-30 16:50 CST；alpha3 capped80 新缺口16:12→16:22；prior15:28→15:50 filled n=73；DS batch4 500缺9",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261030_1632.json",
+  "priorRoundNote": "R909 meta NTR ['suan', 'stonka', 'windup', 'squeekstr']; cardsAfterCutoff=155",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-10-30 16:44",
+    "alpha-1-backup": "2026-10-30 16:13",
+    "smart-accounts-tracker": "2026-10-30 16:06",
+    "alpha-1": "2026-10-30 16:11"
+  },
+  "cardsRead": 155,
+  "rejected": [
+    {
+      "handle": "@2w6ba",
+      "reason": "个人建筑设计师生活号，无任何加密产品/发射线索"
+    },
+    {
+      "handle": "@BitightPay",
+      "reason": "仅有口号式bio，无实际产品、发射或mint线索"
+    },
+    {
+      "handle": "@Moderniinvestor",
+      "reason": "自动化交易被动收益话术，典型空壳/引流盘"
+    },
+    {
+      "handle": "@TeloorD",
+      "reason": "个人情绪向账号，无项目信息"
+    },
+    {
+      "handle": "@aqtzxtrades",
+      "reason": "个人交易员口号号，无产品与发射线索"
+    },
+    {
+      "handle": "@helloo_Lumi",
+      "reason": "尼日利亚OTC兑换服务，非早期alpha项目"
+    },
+    {
+      "handle": "@zak_trades_fx",
+      "reason": "个人交易复盘号，无项目产品"
+    },
+    {
+      "handle": "@0xhanglife",
+      "reason": "个人CFA/基金KOL人设，非项目方"
+    },
+    {
+      "handle": "@Jayyiddngu",
+      "reason": "纯宗教短语个人号，无任何项目信息"
+    },
+    {
+      "handle": "@NeYt3pmL9SoH1wz",
+      "reason": "无独立项目推特，仅个人空壳号，无产品线索"
+    },
+    {
+      "handle": "@PTAIOPOX",
+      "reason": "仅泛泛交易工具简介，无独立项目推特与可验证产品"
+    },
+    {
+      "handle": "@shubhankarprin1",
+      "reason": "个人交易KOL号，无独立项目或产品"
+    },
+    {
+      "handle": "@teroxin",
+      "reason": "个人简介无项目信息，空壳号"
+    },
+    {
+      "handle": "@yetun15278872",
+      "reason": "简介仅重复昵称，无任何项目或产品信息"
+    },
+    {
+      "handle": "@BoboboAnn888",
+      "reason": "泛crypto内容号，无独立项目与产品线索"
+    },
+    {
+      "handle": "@FadzieChikasha",
+      "reason": "个人生活号，无项目内容"
+    },
+    {
+      "handle": "@HammaaD2252",
+      "reason": "简介仅Crypto与赌博，无项目与产品线索"
+    },
+    {
+      "handle": "@HonoreAigbe",
+      "reason": "格言式简介的个人号，无项目信息"
+    },
+    {
+      "handle": "@CadeMedia1",
+      "reason": "个人巴萨球迷账号，无独立项目或产品线索。"
+    },
+    {
+      "handle": "@Ethancb9",
+      "reason": "个人生活账号，无项目、产品与发射线索。"
+    },
+    {
+      "handle": "@Joekimani77",
+      "reason": "自称作家/金融分析的个人号，无独立项目产品。"
+    },
+    {
+      "handle": "@Killy_03",
+      "reason": "无实质简介的个人账号，无项目产品线索。"
+    },
+    {
+      "handle": "@Rajeshpaswan704",
+      "reason": "个人口号式简介，无项目或产品线索。"
+    },
+    {
+      "handle": "@edsonfred140897",
+      "reason": "体育新闻爱好者个人号，无加密项目内容。"
+    },
+    {
+      "handle": "@neobrazaites",
+      "reason": "简介为空，无项目、产品或玩法线索。"
+    },
+    {
+      "handle": "@sassi_fadh22101",
+      "reason": "个人合约喊单交易者，无独立项目或产品。"
+    },
+    {
+      "handle": "@young_wambua",
+      "reason": "仅写Tech的个人号，无项目产品线索。"
+    },
+    {
+      "handle": "@YannXez",
+      "reason": "个人号仅新关注币安，无独立项目或产品线索，拒。"
+    },
+    {
+      "handle": "@adamsdadie_13",
+      "reason": "个人简介无项目、产品、发射线索，属空壳关注号，拒。"
+    },
+    {
+      "handle": "@koziofll",
+      "reason": "个人职业简介，无加密项目或产品线索，拒。"
+    },
+    {
+      "handle": "@EmanuelG83146",
+      "reason": "仅自称交易员，无独立项目推特与产品，拒。"
+    },
+    {
+      "handle": "@Jay948018029991",
+      "reason": "个人社交简介，无项目、发射、玩法线索，拒。"
+    },
+    {
+      "handle": "@Perintis005",
+      "reason": "仅关注Elysium且简介为空壳代号，无具体部署或产品，拒。"
+    },
+    {
+      "handle": "@Jahanzaib2316",
+      "reason": "空壳“OFFICIAL ACCOUNT”，无项目产品线索，拒。"
+    },
+    {
+      "handle": "@JaimeOsegueraE",
+      "reason": "个人工程师简介，无加密项目或产品线索，拒。"
+    },
+    {
+      "handle": "@ShazaibMayo",
+      "reason": "个人学生号，无任何项目产品或发射线索，仅关注币安。"
+    },
+    {
+      "handle": "@TheMarketMnt",
+      "reason": "新闻/媒体类账号，无链上产品与发射玩法。"
+    },
+    {
+      "handle": "@binodbag47",
+      "reason": "边防人员个人号，与加密项目无关。"
+    },
+    {
+      "handle": "@bushcodingcr",
+      "reason": "外包软件开发公司，非加密项目、无代币或发射线索。"
+    },
+    {
+      "handle": "@naks_21",
+      "reason": "空简介个人号，无项目信息。"
+    },
+    {
+      "handle": "@tonydtrades",
+      "reason": "交易心态类KOL个人号，无独立产品或发射。"
+    },
+    {
+      "handle": "@BtcSenior1o1",
+      "reason": "晒单挑战类个人号，无产品、无发射线索。"
+    },
+    {
+      "handle": "@FinzyT00X",
+      "reason": "简介为符号的空壳号，零粉丝无内容。"
+    },
+    {
+      "handle": "@Luffy_Pirate9",
+      "reason": "仅关注 Elysium 的空投猎人个人号，按规则一律拒。"
+    },
+    {
+      "handle": "@MalemnganbaNao5",
+      "reason": "个人号，无独立项目推特，无产品/发射线索。"
+    },
+    {
+      "handle": "@ntluan_gooner",
+      "reason": "个人号，简介泛泛，无项目产品线索。"
+    },
+    {
+      "handle": "@0xlsean",
+      "reason": "个人闲聊号，无项目或产品信息。"
+    },
+    {
+      "handle": "@Betterdays67762",
+      "reason": "个人交易者/KOL 号，无独立项目。"
+    },
+    {
+      "handle": "@MacielSi7",
+      "reason": "个人探索向账号，无项目、无产品、无发射线索。"
+    },
+    {
+      "handle": "@OlattiHQ",
+      "reason": "英国硬件手机公司，非加密早期项目，无链上玩法。"
+    },
+    {
+      "handle": "@elonmusk25wn",
+      "reason": "仿冒马斯克风格的个人/梗号，无项目。"
+    },
+    {
+      "handle": "@hosamane_s",
+      "reason": "非英文个人简介，无项目与产品线索。"
+    },
+    {
+      "handle": "@rmnvngrdv",
+      "reason": "个人杂谈号，无项目产品/发射/挖矿线索。"
+    },
+    {
+      "handle": "@shahzad_7778",
+      "reason": "普通个人账号，无任何加密项目或产品线索，仅关注币安。"
+    },
+    {
+      "handle": "@xenomasri",
+      "reason": "个人备用账号，无项目产品与发射线索，不符合收录标准。"
+    },
+    {
+      "handle": "@AhmadSairesse",
+      "reason": "个人情绪化简介账号，无加密项目或产品线索。"
+    },
+    {
+      "handle": "@BilisaFikru",
+      "reason": "个人信仰简介账号，无任何加密项目或产品信息。"
+    },
+    {
+      "handle": "@MuhammadWaz8ou",
+      "reason": "简介过短且无项目产品线索，仅为个人账号。"
+    },
+    {
+      "handle": "@aylinyasin47",
+      "reason": "教育工作者个人账号，无加密项目或产品线索。"
+    },
+    {
+      "handle": "@maxrdr1",
+      "reason": "个人签名式简介账号，无项目产品或发射线索。"
+    },
+    {
+      "handle": "@nichoapks",
+      "reason": "个人励志简介账号，无任何项目或产品线索。"
+    },
+    {
+      "handle": "@reactiverobot",
+      "reason": "成熟开发者个人号，做的是ref.tools，不是加密早期项目。"
+    },
+    {
+      "handle": "@IMRANCMAN1",
+      "reason": "个人账号无简介无项目，非独立项目推特"
+    },
+    {
+      "handle": "@Sameerharoon01",
+      "reason": "个人号仅写Nationalist，无项目与产品线索"
+    },
+    {
+      "handle": "@AhmedQaqouch",
+      "reason": "简介仅Pfff，无任何项目或产品信号"
+    },
+    {
+      "handle": "@Emperor13J",
+      "reason": "网络营销个人简介，非加密项目官方号"
+    },
+    {
+      "handle": "@Krul0tepesh",
+      "reason": "动漫游戏音乐个人简介，无项目与产品"
+    },
+    {
+      "handle": "@Nonojd7",
+      "reason": "电商个人简介，非加密项目官方推特"
+    },
+    {
+      "handle": "@PAVANkalya24803",
+      "reason": "新闻资讯个人号，无独立项目与产品"
+    },
+    {
+      "handle": "@SadiqAbubakar68",
+      "reason": "软件工程师个人简介，无项目产品线索"
+    },
+    {
+      "handle": "@UbaidRButt",
+      "reason": "泛泛个人简介且高关注比，非项目官方号"
+    },
+    {
+      "handle": "@saleemaman_",
+      "reason": "个人开发者账号，无独立项目或产品线索，仅关注币安。"
+    },
+    {
+      "handle": "@4sne35r40",
+      "reason": "空壳日文简介账号，无任何项目或产品线索。"
+    },
+    {
+      "handle": "@AmenukuJos44974",
+      "reason": "网络安全初学者个人号，无项目或发射线索。"
+    },
+    {
+      "handle": "@JohnnyVanneck",
+      "reason": "简介仅为符号，无项目主体或产品信息。"
+    },
+    {
+      "handle": "@YerlanNurbolat",
+      "reason": "简介无意义且无项目内容，属噪音账号。"
+    },
+    {
+      "handle": "@alghazaliye",
+      "reason": "旅游服务公司账号，非加密项目。"
+    },
+    {
+      "handle": "@hamza_melkar",
+      "reason": "个人情绪化简介，无项目或产品线索。"
+    },
+    {
+      "handle": "@isma_260",
+      "reason": "简介仅为无意义字母，无项目线索。"
+    },
+    {
+      "handle": "@jfpp82",
+      "reason": "中文短语简介，无项目主体或产品线索。"
+    },
+    {
+      "handle": "@nshuti_kevin",
+      "reason": "个人职场账号，无项目、无产品或发行线索"
+    },
+    {
+      "handle": "@pahol_sol",
+      "reason": "仅一个代币代号、1 粉丝，无合约、无发射或玩法证据，空壳"
+    },
+    {
+      "handle": "@leahmangkit",
+      "reason": "Elysium 猎人个人号（自称教师、旧号丢失），非项目方部署信息"
+    },
+    {
+      "handle": "@owryremedios_94",
+      "reason": "普通个人账号，无项目与产品线索"
+    },
+    {
+      "handle": "@4mvalhala",
+      "reason": "无意义个人发言，无项目/产品线索"
+    },
+    {
+      "handle": "@DeskSetupLab",
+      "reason": "带货联盟营销账号，非加密项目"
+    },
+    {
+      "handle": "@YoungJourna8",
+      "reason": "bio 为空壳重复名，无任何产品线索"
+    },
+    {
+      "handle": "@kia_from_behind",
+      "reason": "个人生活号，无项目或发射线索"
+    },
+    {
+      "handle": "@lkshwerwyouj",
+      "reason": "无意义字符串账号，无项目线索"
+    },
+    {
+      "handle": "@GowthamGovinda6",
+      "reason": "个人生活号，无任何项目或产品信息，仅是币安新关注者。"
+    },
+    {
+      "handle": "@SadiaKhanZuma",
+      "reason": "空壳号，简介仅一词，无产品无推特内容信息。"
+    },
+    {
+      "handle": "@joan_thuo27794",
+      "reason": "虚拟助理求职个人号，与加密项目无关。"
+    },
+    {
+      "handle": "@jpegafterhour",
+      "reason": "NFT收藏者个人号，无自有项目或产品线索。"
+    },
+    {
+      "handle": "@oday87862788",
+      "reason": "政治口号类个人号，无项目信息。"
+    },
+    {
+      "handle": "@Bradfordjore7n",
+      "reason": "生活感悟类个人号，无加密项目属性。"
+    },
+    {
+      "handle": "@Solstice023",
+      "reason": "仅一句\"Meh!\"的空简介账号，无项目线索。"
+    },
+    {
+      "handle": "@jtoonscollect",
+      "reason": "仅自称卡牌收藏者，无自有项目或发售信息。"
+    },
+    {
+      "handle": "@DeeppayAi",
+      "reason": "仅有空泛的'诚实建设'口号，无任何产品、发射或玩法线索，属空壳个人号。"
+    },
+    {
+      "handle": "@Donas4soccer25",
+      "reason": "个人交易者自述，无项目、无产品线索，属散户噪声。"
+    },
+    {
+      "handle": "@Emmanuel1ekv",
+      "reason": "'探索 Web3 追 alpha'为典型 KOL 自述，无任何实际产品或发射线索。"
+    },
+    {
+      "handle": "@Sweetselema",
+      "reason": "新闻/段子类个人号，无独立项目推特与产品。"
+    },
+    {
+      "handle": "@Wilhelminafrt",
+      "reason": "韩文个人自述（预备创业），无任何链上产品与发射信息。"
+    },
+    {
+      "handle": "@basiukyivv",
+      "reason": "简介直写'加密骗局'，无项目信息，风险极高。"
+    },
+    {
+      "handle": "@emmakraj00",
+      "reason": "宗教口号式简介，无任何项目、产品或玩法线索。"
+    },
+    {
+      "handle": "@pasdec00",
+      "reason": "仅有'comeback arc'情绪化简介，无项目与产品信息。"
+    },
+    {
+      "handle": "@Al_Mutaali_10",
+      "reason": "简介为随机字符串，零产品线索，属空壳账号。"
+    },
+    {
+      "handle": "@AneesRajpoot65",
+      "reason": "个人账号，无独立项目或产品线索。"
+    },
+    {
+      "handle": "@NafeesButt84423",
+      "reason": "个人账号，简介无实际项目或玩法线索。"
+    },
+    {
+      "handle": "@aim_soranut",
+      "reason": "个人号仅简介提及他号，无独立项目产品线索。"
+    },
+    {
+      "handle": "@gnanehswargam",
+      "reason": "个人账号，无项目产品/发射线索。"
+    },
+    {
+      "handle": "@khlwf57203",
+      "reason": "个人账号，无独立项目或产品线索。"
+    },
+    {
+      "handle": "@rohitraj280",
+      "reason": "软件开发者个人号，无项目产品/发射线索。"
+    },
+    {
+      "handle": "@Agiwacitdel",
+      "reason": "个人问候类账号，无项目产品/发射线索。"
+    },
+    {
+      "handle": "@Asem91735",
+      "reason": "摄影师个人号，无项目产品/发射线索。"
+    },
+    {
+      "handle": "@NightCryptoFan",
+      "reason": "仅有开发者自述，无任何产品或发射线索，属空壳个人号"
+    },
+    {
+      "handle": "@goku_cs2",
+      "reason": "CS2皮肤交易个人号，与加密项目无关"
+    },
+    {
+      "handle": "@ji_tanmoy",
+      "reason": "纯个人签名式bio，无项目与产品"
+    },
+    {
+      "handle": "@C9_Joe",
+      "reason": "游戏主播/前端个人介绍，无加密产品或发射"
+    },
+    {
+      "handle": "@LunomiCloud",
+      "reason": "AI API 服务而非链上产品，且无加密玩法线索"
+    },
+    {
+      "handle": "@MiinaKoivuzk",
+      "reason": "0粉丝纯个人号，无任何项目信息"
+    },
+    {
+      "handle": "@Proudtobehindu0",
+      "reason": "bio仅“B+”，无任何可研判项目内容"
+    },
+    {
+      "handle": "@TheOnRange",
+      "reason": "宣称300%-700% APR的收益自动化，属典型高风险可疑收益盘，无实产品验证"
+    },
+    {
+      "handle": "@ft_ram",
+      "reason": "个人闲聊号，无独立项目或产品线索"
+    },
+    {
+      "handle": "@tomiredhead39",
+      "reason": "个人号喊单 $SHIBAKING，无独立项目推特"
+    },
+    {
+      "handle": "@0xpochitaa",
+      "reason": "个人简历式账号，无实际产品"
+    },
+    {
+      "handle": "@Alnobs22",
+      "reason": "外汇交易员个人号，与链上项目无关"
+    },
+    {
+      "handle": "@DTBT48154192",
+      "reason": "简介空泛提元宇宙，无产品与发射线索"
+    },
+    {
+      "handle": "@JihadinabiL46",
+      "reason": "个人格言号，无项目主体"
+    },
+    {
+      "handle": "@SureshThmz",
+      "reason": "个人交易学习号，无独立项目"
+    },
+    {
+      "handle": "@ali_haiderr_",
+      "reason": "生活类个人号，无项目或产品线索"
+    },
+    {
+      "handle": "@djallo_buba",
+      "reason": "个人品牌服务号，非链上项目"
+    },
+    {
+      "handle": "@lenger889",
+      "reason": "个人号，无独立项目产品，仅称做AI分析与自动交易"
+    },
+    {
+      "handle": "@pulkiitchhipa",
+      "reason": "个人生活号，bio为政治历史话题，无任何加密项目"
+    },
+    {
+      "handle": "@clavicular",
+      "reason": "高粉(186851)个人/KOL"
+    }
+  ],
+  "rejectedCount": 134,
+  "dsRejects": 133,
+  "admissions": [
+    {
+      "id": "quirkzai",
+      "handle": "@QuirkzAI",
+      "category": "台子/Meme",
+      "name": "QUIRKZ"
+    },
+    {
+      "id": "elyrush",
+      "handle": "@elyrush__",
+      "category": "Elysium",
+      "name": "ELYRUSH"
+    },
+    {
+      "id": "fugui-cto",
+      "handle": "@FuguiCTO_",
+      "category": "台子/Meme",
+      "name": "Fugui"
+    },
+    {
+      "id": "twinmetahq",
+      "handle": "@TwinMetaHQ",
+      "category": "台子/Meme",
+      "name": "TwinMeta"
+    },
+    {
+      "id": "fivekeys-eth",
+      "handle": "@fivekeys_eth",
+      "category": "台子/Meme",
+      "name": "The Five Keys"
+    }
+  ],
+  "alert": "DC补漏R910新收5个项目：QUIRKZ、ELYRUSH、Fugui、TwinMeta、The Five Keys；面板 https://reboot7454.github.io/early-scout/",
+  "alpha3OlderGap": {
+    "from": "2026-10-30 16:12",
+    "to": "2026-10-30 16:22",
+    "note": "R910 alpha-3 capped at 80; oldest kept 2026-10-30 16:22 @IMRANCMAN1; window 16:12→16:22 unread; prior gap 15:28→15:50 filled=True n=73"
+  },
+  "capped": {
+    "alpha-3-new-accounts": true
+  },
+  "priorGapFilled": {
+    "attempted": true,
+    "filled": true,
+    "from": "2026-10-30 15:28",
+    "to": "2026-10-30 15:50",
+    "nFilled": 73
+  },
+  "dsKeep": 147,
+  "dsAdmit": 5,
+  "dsBatchErrors": [
+    {
+      "batch": 4,
+      "n": 9,
+      "error": "HTTP Error 500: Internal Server Error"
+    }
+  ],
+  "spideyPosting": false
+}
