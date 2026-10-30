@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-31 04:33 CST",
+    "updated": "2026-10-31 05:17 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R905",
-    "lastScout": "2026-10-31 04:33 CST",
+    "lastScout": "2026-10-31 05:17 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -615,7 +615,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 952,
+    "round": 953,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1744,7 +1744,11 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "playfumbo",
+      "hood-skulls",
+      "yeetr"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -3694,18 +3698,18 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-10-31 04:32",
-      "lastChecked": "2026-10-31 05:05 CST",
-      "newestCardTime": "2026-10-31 03:56",
+      "deferred": false,
+      "lastSeen": "2026-10-31 05:14",
+      "lastChecked": "2026-10-31 05:17 CST",
+      "newestCardTime": "2026-10-31 04:32",
       "cardsAfterCutoff": 11,
-      "note": "R951 DC补漏：读alpha-3约50卡挑11，DS收3拒8；backup/alpha-1/smart 各1卡均个人/KOL跳过 | R952 deferred (no computerUse)",
-      "lastRound": 951,
+      "note": "R953：Discord alpha 补收 playfumbo,hood-skulls,yeetr；lastSeen→2026-10-31 05:08；lastChecked→2026-10-31 05:17 CST",
+      "lastRound": 953,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-31 04:32",
-        "alpha-1-backup": "2026-10-31 03:46",
-        "smart-accounts-tracker": "2026-10-31 03:10",
-        "alpha-1": "2026-10-31 03:56"
+        "alpha-3-new-accounts": "2026-10-31 05:14",
+        "alpha-1-backup": "2026-10-31 04:43",
+        "smart-accounts-tracker": "2026-10-31 05:07",
+        "alpha-1": "2026-10-31 04:48"
       }
     },
     "round239Added": [
@@ -14667,9 +14671,146 @@
       "lastChecked": "2026-10-31 05:05 CST",
       "note": "R900+ discord-alpha in-library not in any Watch → dual-write links + UF×8; priority R951 admits then older leaks; remaining R900+ discord-alpha leaks deferred≈18 (avoid UF surge)"
     },
-    "round952Added": []
+    "round952Added": [],
+    "round953Added": [
+      "playfumbo",
+      "hood-skulls",
+      "yeetr"
+    ]
   },
   "candidates": [
+    {
+      "id": "yeetr",
+      "name": "Yeetr",
+      "handle": "@yeetr_fun",
+      "twitter": "@yeetr_fun",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/yeetr_fun"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 3,
+        "overall": 5.7
+      },
+      "highlights": [
+        "bio 明确为持仓代币提供链上期权，产品切口具体",
+        "关注数仅 11，处于极早期发现窗口"
+      ],
+      "drawbacks": [
+        "following 为 0、无官网/文档等任何佐证",
+        "未见合约、mint、发射或挖矿等可执行线索",
+        "仅一句描述，难判断是真实产品或概念占位"
+      ],
+      "whatsNew": "新出现的链上期权方向项目推特，目前只有一句产品定位。",
+      "summary": "Yeetr 自称做持仓代币的链上期权，账号极新、关注极少，bio 有产品方向但缺少任何发射、合约或玩法证据，只能作为极早期观察种子，需等其披露产品链接或链上动作后再评估。",
+      "blurb": "持仓代币链上期权，极早期仅有产品一句话。",
+      "round": 953,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 11,
+      "xFollowers": 11,
+      "firstSeen": "2026-10-31 05:17 CST",
+      "addedAt": "2026-10-31 05:17 CST",
+      "lastChecked": "2026-10-31 05:17 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "hood-skulls",
+      "name": "Hood Skulls",
+      "handle": "@hoodskullsfun",
+      "twitter": "@hoodskullsfun",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/hoodskullsfun"
+      },
+      "scores": {
+        "early": 8.5,
+        "risk": 6,
+        "novelty": 5.5,
+        "actionable": 5.5,
+        "overall": 6.3
+      },
+      "highlights": [
+        "已公布合约 0xb63F...4012",
+        "跑酷躲障碍收集 Soul Shards 玩法"
+      ],
+      "drawbacks": [
+        "0 粉丝，尚无社区",
+        "未标注部署链"
+      ],
+      "whatsNew": "Hood Skulls 跑酷小游戏与代币合约公布",
+      "summary": "街头跑酷躲避类小游戏，已给出 CA 与 Soul Shards 收集机制，处于刚发行极早期。",
+      "blurb": "跑酷小游戏 + 已公布 CA，早期 meme 玩法。",
+      "round": 953,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 05:17 CST",
+      "addedAt": "2026-10-31 05:17 CST",
+      "lastChecked": "2026-10-31 05:17 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "playfumbo",
+      "name": "FUMBO",
+      "handle": "@playfumbo",
+      "twitter": "@playfumbo",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/playfumbo"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 5,
+        "overall": 5.9
+      },
+      "highlights": [
+        "$FUMBO 代币 + 浏览器小游戏玩法"
+      ],
+      "drawbacks": [
+        "粉丝极少",
+        "未公布链与上线时间"
+      ],
+      "whatsNew": "$FUMBO 迷你浏览器游戏上线预告",
+      "summary": "以“割在底部”情绪为主题的 $FUMBO 迷你浏览器游戏，ticker 与玩法明确，处于极早期。",
+      "blurb": "$FUMBO 迷你浏览器游戏，meme+可玩性。",
+      "round": 953,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 8,
+      "xFollowers": 8,
+      "firstSeen": "2026-10-31 05:17 CST",
+      "addedAt": "2026-10-31 05:17 CST",
+      "lastChecked": "2026-10-31 05:17 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "razor-agent",
       "name": "Razor Agent",
@@ -155546,16 +155687,20 @@
       }
     }
   ],
-  "newThisRound": [],
-  "alertMessage": "",
+  "newThisRound": [
+    "playfumbo",
+    "hood-skulls",
+    "yeetr"
+  ],
+  "alertMessage": "DC补漏R953新收3个：FUMBO、Hood Skulls、Yeetr；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [],
-  "updatedAt": "2026-10-31 04:01 CST",
-  "updated": "2026-10-31 04:01 CST",
+  "updatedAt": "2026-10-31 05:17 CST",
+  "updated": "2026-10-31 05:17 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-31 04:01 CST",
+  "lastScout": "2026-10-31 05:17 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -155597,7 +155742,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 2272,
+  "candidateCount": 2278,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -157135,5 +157280,10 @@
     "mcpmarkets"
   ],
   "round949Added": [],
-  "round952Added": []
+  "round952Added": [],
+  "round953Added": [
+    "playfumbo",
+    "hood-skulls",
+    "yeetr"
+  ]
 }
