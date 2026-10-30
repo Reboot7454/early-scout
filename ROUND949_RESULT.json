@@ -143,10 +143,19 @@
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R949 日额已尽：零X读取；修Watch漏挂×6（R948 DC：dock-hood/robinhood-hormuz/hexwarp/kori/only-ponzi/mcpmarkets）；软债刷lastChecked×35；Discord deferred；全量UF+十栏关键词+全链mentions延至08:00 CST；清R948 NTR不重复告警；不通知。",
   "push": {
-    "ok": false,
-    "attempted": false
+    "ok": true,
+    "attempted": true,
+    "commit": "18dda1c",
+    "sha": "18dda1c9d7d1989d359e99ee915c6fc4a9ccf13e",
+    "branch": "main",
+    "files": [
+      "data.json",
+      "ROUND949_RESULT.json",
+      "RESULT_R949.md"
+    ],
+    "message": "R949: X exhausted — Watch漏挂修×6 (R948 DC) + soft-debt; full scan deferred 08:00 CST"
   },
-  "remoteVerified": false,
+  "remoteVerified": true,
   "priorRoundNote": "R948 discord-alpha 6 admits already on main/notified; R949 = watch-wiring + soft-debt only; pull bumped planned R948→R949; ZERO X",
   "xQuotaNote": "daily limit 1000 reached; remaining=0 until 2026-10-31T00:00:00.000Z = 08:00 Asia/Shanghai",
   "note": "mode=x-exhausted-local; planned R948 but remote already at 948 → ran R949; deferred full scan until 08:00 CST; watchBugs×6; softDebt×35; remaining R900+ DC watch-leaks deferred≈30"
