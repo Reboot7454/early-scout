@@ -1,0 +1,659 @@
+{
+  "round": 908,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-30 16:19 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R908新收2个：Cortano链上Agent交易、Candy Night $CNDY免费mint预告；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "trycortano",
+    "candynightapp"
+  ],
+  "newCount": 2,
+  "newIds": [
+    "trycortano",
+    "candynightapp"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 146,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "wedo",
+    "coineko"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "wedo",
+    "coineko"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=2",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-30 16:12",
+    "lastChecked": "2026-10-30 16:19 CST",
+    "newestCardTime": "2026-10-30 16:12",
+    "cardsAfterCutoff": 146,
+    "note": "R908：Discord alpha 补收 trycortano,candynightapp；清 wedo,coineko；lastSeen→2026-10-30 16:12；lastChecked→2026-10-30 16:19 CST",
+    "lastRound": 908,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-30 16:12",
+      "alpha-1-backup": "2026-10-30 15:58",
+      "smart-accounts-tracker": "2026-10-30 16:06",
+      "alpha-1": "2026-10-30 16:11"
+    },
+    "alpha3OlderGap": {
+      "from": "2026-10-30 15:28",
+      "to": "2026-10-30 15:50",
+      "note": "R908 alpha-3 capped at 80; oldest kept 2026-10-30 15:50 @BilisaFikru; window 2026-10-30 15:28→2026-10-30 15:50 unread; prior gap 14:42→15:02 filled=True n=51"
+    },
+    "capped": {
+      "alpha-3-new-accounts": true
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R908：Discord alpha 补收 trycortano,candynightapp；清 wedo,coineko；lastSeen→2026-10-30 16:12；lastChecked→2026-10-30 16:19 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261030_1600.json",
+  "priorRoundNote": "R907 meta NTR ['wedo', 'coineko']; cardsAfterCutoff=146",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-10-30 16:12",
+    "alpha-1-backup": "2026-10-30 15:58",
+    "smart-accounts-tracker": "2026-10-30 16:06",
+    "alpha-1": "2026-10-30 16:11"
+  },
+  "cardsRead": 146,
+  "rejected": [
+    {
+      "handle": "@heyIliya",
+      "reason": "个人技术兴趣号，无任何项目、产品或发射线索"
+    },
+    {
+      "handle": "@lunalusty444",
+      "reason": "个人小号自述换号，仅关注 Elysium，无测试网/部署信息"
+    },
+    {
+      "handle": "@goodlifeceo1",
+      "reason": "Web 安全从业者个人号，非加密项目方"
+    },
+    {
+      "handle": "@AetherDrift1",
+      "reason": "简介仅一句祝福语，无任何项目信息"
+    },
+    {
+      "handle": "@Nicholous666",
+      "reason": "简介仅一个自造词，无项目实质内容"
+    },
+    {
+      "handle": "@futureassetmgmt",
+      "reason": "自称对冲基金属成熟机构，无早期产品/发射线索"
+    },
+    {
+      "handle": "@LailaSarisc",
+      "reason": "简介仅提及某账号被封，无项目信息"
+    },
+    {
+      "handle": "@karhutla_2026",
+      "reason": "印尼语随性个人号，仅关注 Elysium 无项目线索"
+    },
+    {
+      "handle": "@MilanGlow",
+      "reason": "AI/科技新闻个人号，非项目方"
+    },
+    {
+      "handle": "@abubanan66",
+      "reason": "纯个人号，无独立项目推特、无产品与发射线索"
+    },
+    {
+      "handle": "@GULJAN82587346",
+      "reason": "仿冒马斯克式个人玩笑号，无项目与产品"
+    },
+    {
+      "handle": "@omar_sh_00",
+      "reason": "个人生活号，无项目推特与产品线索"
+    },
+    {
+      "handle": "@aladouli",
+      "reason": "空壳个人号，bio仅一个字符串，无项目"
+    },
+    {
+      "handle": "@Extrabo91228588",
+      "reason": "个人激励语账号，无项目与产品线索"
+    },
+    {
+      "handle": "@naked_trades",
+      "reason": "交易员个人号，非独立项目，无产品与发射线索"
+    },
+    {
+      "handle": "@mesithegreatest",
+      "reason": "政治/社会议题个人号，与加密项目无关"
+    },
+    {
+      "handle": "@Anand129884",
+      "reason": "空壳个人号，bio仅一个词，无项目"
+    },
+    {
+      "handle": "@IQuiz12419",
+      "reason": "宗教问答内容号，无项目主体与产品线索"
+    },
+    {
+      "handle": "@toofan_aslan_sh",
+      "reason": "个人账号，无独立项目推特与产品/发射线索，不符合收录。"
+    },
+    {
+      "handle": "@AlaminAmin99478",
+      "reason": "个人账号且无项目推特，无产品/发射/玩法线索，拒。"
+    },
+    {
+      "handle": "@Abderrahmane_cy",
+      "reason": "个人学习账号，无项目推特与产品线索，拒。"
+    },
+    {
+      "handle": "@Gharebshosha",
+      "reason": "个人顾问简介，无独立项目推特与产品线索，拒。"
+    },
+    {
+      "handle": "@legit_maxi",
+      "reason": "空简介个人账号，无项目推特与产品线索，拒。"
+    },
+    {
+      "handle": "@joseramirezg21",
+      "reason": "个人娱乐账号，无项目推特与产品线索，拒。"
+    },
+    {
+      "handle": "@PAVANkalya24803",
+      "reason": "新闻类个人账号，无项目推特与产品线索，拒。"
+    },
+    {
+      "handle": "@abzworking",
+      "reason": "交易内容个人号，无独立项目推特与产品线索，拒。"
+    },
+    {
+      "handle": "@EOliiiie",
+      "reason": "研究员个人号，无独立项目推特与产品线索，拒。"
+    },
+    {
+      "handle": "@novaledger_x",
+      "reason": "仅为加密笔记/行情观察个人号，无独立产品或发射线索。"
+    },
+    {
+      "handle": "@AbdurRaufk80670",
+      "reason": "个人信息号，bio 无任何项目或产品信息。"
+    },
+    {
+      "handle": "@_thesidedoor",
+      "reason": "bio 含糊无实质产品，属噪音账号。"
+    },
+    {
+      "handle": "@Cryptobullviip",
+      "reason": "研究/带单型 KOL 账号，无自有产品或发射。"
+    },
+    {
+      "handle": "@mrhokaly89",
+      "reason": "喊单式 bio，无任何项目或产品线索。"
+    },
+    {
+      "handle": "@gaming_c43145",
+      "reason": "个人开发者账号，无独立项目推特或可参与玩法。"
+    },
+    {
+      "handle": "@TheProFinders",
+      "reason": "服务介绍空泛，无产品、链上或发射实质性内容。"
+    },
+    {
+      "handle": "@puppy8342",
+      "reason": "摄影个人号，与加密项目无关。"
+    },
+    {
+      "handle": "@callmeamankhan",
+      "reason": "个人创业者/学生账号，无加密项目产品或发行线索。"
+    },
+    {
+      "handle": "@therandoomness",
+      "reason": "个人碎念小号，无项目主体与产品线索。"
+    },
+    {
+      "handle": "@angelstruguri",
+      "reason": "bio 仅一个句号，纯空壳个人号。"
+    },
+    {
+      "handle": "@jhosuesst",
+      "reason": "学生个人简介，无项目与链上动作。"
+    },
+    {
+      "handle": "@Abdulma81169411",
+      "reason": "宗教语录个人号，与加密项目无关。"
+    },
+    {
+      "handle": "@sherlenei206",
+      "reason": "泛泛 crypto 爱好者简介，无独立项目或产品。"
+    },
+    {
+      "handle": "@gitariwoo",
+      "reason": "仅关注 @Enter_Elysium 的 GA 猎人个人号，按规则一律拒。"
+    },
+    {
+      "handle": "@Axiepogs",
+      "reason": "Axie 玩家个人号，非项目/发射体。"
+    },
+    {
+      "handle": "@K0As_Art",
+      "reason": "个人数字艺术家账号，无发射/mint/挖矿等可参与线索。"
+    },
+    {
+      "handle": "@SantoshPou5354",
+      "reason": "空 bio 欢迎语个人号，无任何项目信息。"
+    },
+    {
+      "handle": "@Umermughal012",
+      "reason": "个人交易员账号，无独立项目产品或发射线索"
+    },
+    {
+      "handle": "@chappie42343334",
+      "reason": "空壳个人号，bio无任何项目信息"
+    },
+    {
+      "handle": "@GomesDasChagas",
+      "reason": "个人交易教学号，无独立项目推特产品"
+    },
+    {
+      "handle": "@telk3y",
+      "reason": "无项目信息的个人闲聊号"
+    },
+    {
+      "handle": "@AngelLee313131",
+      "reason": "个人KOL/社区身份账号，无具体项目产品或发射"
+    },
+    {
+      "handle": "@DongmingJulian",
+      "reason": "泛泛区块链感悟，无项目产品"
+    },
+    {
+      "handle": "@BilisaFikru",
+      "reason": "纯个人励志bio，无任何项目信息"
+    },
+    {
+      "handle": "@maxrdr1",
+      "reason": "励志语录空壳号，无项目产品"
+    },
+    {
+      "handle": "@aylinyasin47",
+      "reason": "职业为教育者的个人号，无项目线索"
+    },
+    {
+      "handle": "@MuhammadWaz8ou",
+      "reason": "个人生活号，无独立项目推特与任何产品线索"
+    },
+    {
+      "handle": "@SunyuchenNG",
+      "reason": "孙宇晨非官方仿冒/粉丝号，无自有产品，属噪音"
+    },
+    {
+      "handle": "@Shabanj89950701",
+      "reason": "纯个人账号，bio 仅姓名，无项目与产品信息"
+    },
+    {
+      "handle": "@wertz96",
+      "reason": "bio 仅 #bitcoin，属个人兴趣号，无项目产品"
+    },
+    {
+      "handle": "@Alexinbetween",
+      "reason": "零粉丝个人随笔号，无独立项目推特"
+    },
+    {
+      "handle": "@AtaErdemir",
+      "reason": "空 bio 个人号，无任何项目或产品信息"
+    },
+    {
+      "handle": "@tinotendaDocjtc",
+      "reason": "个人简介号，无项目、无产品与发射线索"
+    },
+    {
+      "handle": "@Ni1hzuu",
+      "reason": "韩文日常个人号，与加密项目无关"
+    },
+    {
+      "handle": "@Sabarish_KrisL",
+      "reason": "安全工程师个人简历号，非项目方，无产品线索"
+    },
+    {
+      "handle": "@Mjay_0324",
+      "reason": "个人昵称式账号，无项目产品、发射或玩法线索，仅有币安关注关系。"
+    },
+    {
+      "handle": "@Mohameddek36",
+      "reason": "个人成长记录类账号，无加密项目、产品、发射或挖矿线索。"
+    },
+    {
+      "handle": "@omr4613",
+      "reason": "健身个人简介账号，无项目、产品、发射或链上玩法信息。"
+    },
+    {
+      "handle": "@chartarrow",
+      "reason": "仅有 AI 读图工具简介，无实际产品链接、发射或链上玩法，0 粉丝不足以验证。"
+    },
+    {
+      "handle": "@haks_19",
+      "reason": "国家口号式个人账号，无任何项目或产品信息。"
+    },
+    {
+      "handle": "@aaudara",
+      "reason": "简介仅“IT”，无项目产品、发射或玩法线索。"
+    },
+    {
+      "handle": "@ShryofM",
+      "reason": "物理爱好者个人简介，无加密项目、产品、发射或挖矿线索。"
+    },
+    {
+      "handle": "@AJ_akash05",
+      "reason": "孟加拉语情感简介个人号，无项目或产品信息。"
+    },
+    {
+      "handle": "@lorvanex",
+      "reason": "仅一句个人格言，无项目、产品、发射或玩法信息。"
+    },
+    {
+      "handle": "@DARRENTOH225",
+      "reason": "个人账号，无项目推特与产品线索"
+    },
+    {
+      "handle": "@sambooks10",
+      "reason": "口号式个人号，无实际产品或发射线索"
+    },
+    {
+      "handle": "@GaoFY9443500",
+      "reason": "辱骂性简介垃圾号，无项目"
+    },
+    {
+      "handle": "@abelgebiru",
+      "reason": "简介仅推广 Telegram 拉人头机器人，非独立项目"
+    },
+    {
+      "handle": "@wa861231",
+      "reason": "广告服务个人简介，无项目"
+    },
+    {
+      "handle": "@PakHitae",
+      "reason": "仅留邮箱的个人号，无项目"
+    },
+    {
+      "handle": "@anastasya_gif",
+      "reason": "个人 PR 职业简介，无项目"
+    },
+    {
+      "handle": "@Narendr01915177",
+      "reason": "简介为空，无项目"
+    },
+    {
+      "handle": "@aicha_chal29515",
+      "reason": "个人生活向简介，无项目"
+    },
+    {
+      "handle": "@user_ALYS",
+      "reason": "个人安全研究账号，无独立项目产品、发射或 mint 线索，拒。"
+    },
+    {
+      "handle": "@gangadhar_001",
+      "reason": "个人 ISP 业务账号，与加密项目无关且无产品线索，拒。"
+    },
+    {
+      "handle": "@adidalvi2931",
+      "reason": "歌手个人号，无任何项目产品、玩法或发射线索，拒。"
+    },
+    {
+      "handle": "@owomavigho",
+      "reason": "仅随机代码简介的个人空壳号，无独立项目推特与产品，拒。"
+    },
+    {
+      "handle": "@blessings_sam7",
+      "reason": "个人祝福语账号，无项目产品、发射或玩法线索，拒。"
+    },
+    {
+      "handle": "@VanessaL_HQ",
+      "reason": "职业治疗师个人生活号，与加密产品无关，拒。"
+    },
+    {
+      "handle": "@Marveliousz95",
+      "reason": "零粉个人号，自称人类非机器人但无项目产品，拒。"
+    },
+    {
+      "handle": "@mohammadmne6r4",
+      "reason": "仅关注 @Enter_Elysium 的猎人个人号，无具体部署或产品，按规则拒。"
+    },
+    {
+      "handle": "@NeonVoidArt",
+      "reason": "仅为 DM 推广的个人账号，无实际产品、发射或 mint 线索，拒。"
+    },
+    {
+      "handle": "@MHaseeb825",
+      "reason": "简介仅“Future B”、零粉空壳，无任何产品或玩法线索。"
+    },
+    {
+      "handle": "@shaoyu0830",
+      "reason": "简介仅一个句点，9 粉个人号，无任何项目内容。"
+    },
+    {
+      "handle": "@Johxxxxxx",
+      "reason": "定位为央行/市场快讯自媒体，属新闻类而非项目。"
+    },
+    {
+      "handle": "@BoiidanHQ",
+      "reason": "比特币新闻与行情评论号，无产品或发射线索。"
+    },
+    {
+      "handle": "@wahido07597051",
+      "reason": "仅“quant”一词，无项目、无产品。"
+    },
+    {
+      "handle": "@ahmedmergh28133",
+      "reason": "自称自营交易员，属个人KOL/喊单类，非项目。"
+    },
+    {
+      "handle": "@TriManhpic",
+      "reason": "仅关注@Enter_Elysium的猎人个人号，简介为HUNTER GA，无具体部署信息。"
+    },
+    {
+      "handle": "@SalmanNaveed150",
+      "reason": "简介为阅读习惯描述，无项目或产品线索。"
+    },
+    {
+      "handle": "@NeuroGlimpse",
+      "reason": "个人生活账号且无独立项目推特、无产品/发射线索，拒收。"
+    },
+    {
+      "handle": "@iahmeds0",
+      "reason": "个人宗教简介账号且无独立项目推特/产品线索，拒收。"
+    },
+    {
+      "handle": "@Farismansooo",
+      "reason": "个人格言简介账号且无独立项目推特/产品线索，拒收。"
+    },
+    {
+      "handle": "@Sameersidd_",
+      "reason": "个人短语简介账号且无独立项目推特/产品线索，拒收。"
+    },
+    {
+      "handle": "@iboboijagz",
+      "reason": "美甲师个人职业账号且无独立项目推特/产品线索，拒收。"
+    },
+    {
+      "handle": "@NUgwuanyifam",
+      "reason": "仅关注 @Enter_Elysium 的个人号，无测试网/部署信息，拒收。"
+    },
+    {
+      "handle": "@OcadoDriver2023",
+      "reason": "Ocado 司机个人生活账号且无独立项目推特/产品线索，拒收。"
+    },
+    {
+      "handle": "@SkabdulRaheem",
+      "reason": "新手交易员个人号且无独立项目推特/产品线索，拒收。"
+    },
+    {
+      "handle": "@EnzoRubim6",
+      "reason": "个人生活感慨账号且无独立项目推特/产品线索，拒收。"
+    },
+    {
+      "handle": "@milkaWaitha",
+      "reason": "个人号，仅信仰类简介，无项目与产品线索。"
+    },
+    {
+      "handle": "@LandyPalpu",
+      "reason": "空泛个人简介，无任何产品、发射或玩法线索。"
+    },
+    {
+      "handle": "@ArpanChakr56271",
+      "reason": "个人返现类简介，非独立项目推特。"
+    },
+    {
+      "handle": "@the_s_company",
+      "reason": "仅有 Mining/慈善等泛化表述，无实际产品与发射线索。"
+    },
+    {
+      "handle": "@THACHVANSUNG",
+      "reason": "简介仅缩写字母，无项目内容。"
+    },
+    {
+      "handle": "@judie_shira",
+      "reason": "自由撰稿人个人号，非项目。"
+    },
+    {
+      "handle": "@angsaxyz",
+      "reason": "个人号附带协议引用，无自身产品与发射线索。"
+    },
+    {
+      "handle": "@Niainacjy0",
+      "reason": "简介为无意义字符串，无任何项目信息。"
+    },
+    {
+      "handle": "@Mragea1",
+      "reason": "个人号，无产品/发射线索，仅关注币安"
+    },
+    {
+      "handle": "@FrimpongWi68373",
+      "reason": "个人球迷号，无加密项目产品"
+    },
+    {
+      "handle": "@definvesting",
+      "reason": "教育类内容号，无独立项目或产品"
+    },
+    {
+      "handle": "@AarifAnsari8800",
+      "reason": "政治人物个人号，与加密无关"
+    },
+    {
+      "handle": "@medours06",
+      "reason": "空bio零粉空壳号"
+    },
+    {
+      "handle": "@MdNizam30340532",
+      "reason": "个人号无项目线索"
+    },
+    {
+      "handle": "@heiheizhenhei",
+      "reason": "生活类个人号，无加密项目"
+    },
+    {
+      "handle": "@via109100",
+      "reason": "bio为电话号码的空壳号"
+    },
+    {
+      "handle": "@AbdelP4N",
+      "reason": "bio空泛，无实际产品/发射线索"
+    },
+    {
+      "handle": "@MccainDickens",
+      "reason": "仅2粉的空壳个人号，bio无任何产品或发射线索，不符合早期项目门槛。"
+    },
+    {
+      "handle": "@NotaLeft",
+      "reason": "简介为政治立场口号，无项目、无产品，纯个人号。"
+    },
+    {
+      "handle": "@Dshalsabila12",
+      "reason": "生活化个人简介，无产品或发射线索，属新号噪音。"
+    },
+    {
+      "handle": "@uzikensei",
+      "reason": "仅关注 @Enter_Elysium 的猎人个人号，无独立产品与部署信息，按规则一律拒。"
+    },
+    {
+      "handle": "@OLedsed",
+      "reason": "个人交易日志号（fomo.family 主页），无独立项目或发射动作，属喊单型个人号。"
+    },
+    {
+      "handle": "@davewardonline",
+      "reason": "@bankless 从业者、成熟媒体型 KOL，非早期项目方。"
+    },
+    {
+      "handle": "@HendyJ_",
+      "reason": "Solana 基金会视频负责人，属机构雇员个人号，非可投项目。"
+    },
+    {
+      "handle": "@talalahmad",
+      "reason": "政策顾问/Superteam 负责人个人号，属 KOL 与生态运营身份，非早期项目。"
+    },
+    {
+      "handle": "@reactiverobot",
+      "reason": "ref.tools 属成熟 AI 开发工具且非加密项目，无链上发射或挖矿线索。"
+    },
+    {
+      "handle": "@PaulFrambot",
+      "reason": "高粉(21608)个人/KOL"
+    },
+    {
+      "handle": "@shaundadevens",
+      "reason": "高粉(14036)个人/KOL"
+    },
+    {
+      "handle": "@WillManidis",
+      "reason": "高粉(148071)个人/KOL"
+    },
+    {
+      "handle": "@smykjain",
+      "reason": "高粉(16342)个人/KOL"
+    },
+    {
+      "handle": "@clavicular",
+      "reason": "高粉(186851)个人/KOL"
+    }
+  ],
+  "rejectedCount": 138,
+  "dsRejects": 133,
+  "admissions": [
+    {
+      "id": "trycortano",
+      "handle": "@TryCortano",
+      "category": "台子/Meme",
+      "name": "Cortano"
+    },
+    {
+      "id": "candynightapp",
+      "handle": "@candynightapp",
+      "category": "台子/Meme",
+      "name": "Candy Night"
+    }
+  ],
+  "alert": "DC补漏R908新收2个：Cortano链上Agent交易、Candy Night $CNDY免费mint预告；面板 https://reboot7454.github.io/early-scout/",
+  "alpha3OlderGap": {
+    "from": "2026-10-30 15:28",
+    "to": "2026-10-30 15:50",
+    "note": "R908 alpha-3 capped at 80; oldest kept 2026-10-30 15:50 @BilisaFikru; window 2026-10-30 15:28→2026-10-30 15:50 unread; prior gap 14:42→15:02 filled=True n=51"
+  },
+  "capped": {
+    "alpha-3-new-accounts": true
+  },
+  "priorGapFilled": {
+    "attempted": true,
+    "filled": true,
+    "from": "2026-10-30 14:42",
+    "to": "2026-10-30 15:02",
+    "nFilled": 51
+  }
+}
