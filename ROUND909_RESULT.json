@@ -1,0 +1,127 @@
+{
+  "round": 909,
+  "mode": "full-radar",
+  "completedAt": "2026-10-30 16:33 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+le2h",
+  "alertMessage": "新收 SUAN（Fair Mint 台 LIVE）、Stonka（Solana launchpad LIVE）、Windup（Elysium 挂靠）、SQUEEKSTR（squeek）；WEDO mint 仍 LIVE~185/6666。https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "suan",
+    "stonka",
+    "windup",
+    "squeekstr"
+  ],
+  "newCount": 4,
+  "newAdmits": [
+    "suan",
+    "stonka",
+    "windup",
+    "squeekstr"
+  ],
+  "le2h": [
+    {
+      "id": "suan",
+      "why": "Agent ID Fair Mint launchpad LIVE",
+      "when": "~16:18 CST"
+    },
+    {
+      "id": "stonka",
+      "why": "$STONKA launchpad LIVE",
+      "when": "~15:55 CST"
+    },
+    {
+      "id": "wedo",
+      "why": "free mint still LIVE ~185/6666",
+      "when": "ongoing"
+    }
+  ],
+  "xReads": 26,
+  "xReadsRemaining": 403,
+  "remaining": "403/1000",
+  "keywordsTenCols": true,
+  "userFollowDone": true,
+  "mentions": {
+    "covered": [
+      "Elysium",
+      "Tape",
+      "GIWA",
+      "squeek",
+      "NutshellMarkets",
+      "Starknet",
+      "ShieldedNaka",
+      "XLayer",
+      "starx_xlayer",
+      "bnAgent"
+    ],
+    "skippedRotate": [
+      "DogeOS"
+    ]
+  },
+  "coverage": {
+    "tenCols": true,
+    "BTC": true,
+    "Starknet": true,
+    "XLayer": true,
+    "squeek": true
+  },
+  "watchBugs": [
+    "@SUANdotBID→bnAgentWatch",
+    "@SUANdotBID→agentPadWatch",
+    "@SUANdotBID→freeMintWatch",
+    "@SUANdotBID→userFollowWatch",
+    "@stonkaxyz→userFollowWatch",
+    "@windupdotfun→elysiumWatch",
+    "@windupdotfun→userFollowWatch",
+    "@SQKSTR→miningWatch",
+    "@SQKSTR→userFollowWatch"
+  ],
+  "watchBugsCount": 9,
+  "discordPeekDeferred": true,
+  "soft": {
+    "cantonPadWatch": "2026-10-30 16:33 CST",
+    "glazeWatch": "2026-10-30 16:33 CST",
+    "tokenWorksPlaygroundWatch": "2026-10-30 16:33 CST"
+  },
+  "skipped": [
+    {
+      "handle": "@agentdojo",
+      "reason": "coming soon only"
+    },
+    {
+      "handle": "@jump2coin",
+      "reason": "tiny Solana no-code"
+    },
+    {
+      "handle": "@badfriend",
+      "reason": "person"
+    },
+    {
+      "handle": "@FugakuX",
+      "reason": "person / KalosFun"
+    },
+    {
+      "handle": "@rektradefun",
+      "reason": "trading product"
+    },
+    {
+      "handle": "@mobster_meme",
+      "reason": "Not Found"
+    },
+    {
+      "handle": "discordPeek",
+      "reason": "deferred no browser"
+    }
+  ],
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash+thinking admits=4 alert=1",
+  "clearedPrevNewThisRound": [
+    "trycortano",
+    "candynightapp"
+  ],
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R909 full radar: 新收4 suan/stonka/windup/squeekstr；le2h suan+stonka+wedo；Discord deferred；X 403/1000",
+  "push": {
+    "attempted": false
+  }
+}
