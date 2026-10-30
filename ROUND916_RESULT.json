@@ -1,0 +1,115 @@
+{
+  "round": 916,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-30 18:37 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R916新收2个：ACRE(@ACRE_io，Robinhood链手续费换代币化股票奖励)、astrispace(@astrispace，Robinhood链AI agent外包+USDG托管)；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "acre-io",
+    "astrispace"
+  ],
+  "newCount": 2,
+  "newIds": [
+    "acre-io",
+    "astrispace"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 9,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "swarmhive-bnb"
+  ],
+  "candidateFlagsCleared": 1,
+  "topNewThisRoundCleared": [
+    "swarmhive-bnb"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=2",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-30 18:32",
+    "lastChecked": "2026-10-30 18:37 CST",
+    "newestCardTime": "2026-10-30 18:32",
+    "cardsAfterCutoff": 9,
+    "note": "R916：Discord alpha 补收 acre-io,astrispace；清 swarmhive-bnb；lastSeen→2026-10-30 18:27；lastChecked→2026-10-30 18:37 CST",
+    "lastRound": 916,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-30 18:32",
+      "alpha-1-backup": "2026-10-30 16:13",
+      "smart-accounts-tracker": "2026-10-30 18:18",
+      "alpha-1": "2026-10-30 18:27"
+    },
+    "alpha3OlderGap": {
+      "from": "2026-10-30 17:28",
+      "to": "2026-10-30 17:44",
+      "note": "R915 alpha-3 127 cards after 18:02 read to 18:32 (mostly @binance/@ethereum/@Enter_Elysium mass-follow spam skipped); gaps 17:28→17:44 and 16:44→17:08 still unfilled",
+      "priorUnfilled": {
+        "from": "2026-10-30 16:44",
+        "to": "2026-10-30 17:08"
+      }
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R916：Discord alpha 补收 acre-io,astrispace；清 swarmhive-bnb；lastSeen→2026-10-30 18:27；lastChecked→2026-10-30 18:37 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261030_1835.json",
+  "priorRoundNote": "R915 meta NTR ['swarmhive-bnb']; cardsAfterCutoff=9",
+  "cardsRead": 9,
+  "rejected": [
+    {
+      "handle": "@clover_vhs",
+      "reason": "bio 仅“for myself”的私人号，无项目、无产品线索。"
+    },
+    {
+      "handle": "@FutureDies",
+      "reason": "个人号（eternaXLabs 联合创始人本人），非独立项目推特，不符合收录口径。"
+    },
+    {
+      "handle": "@tanuki42_",
+      "reason": "链上分析师/情报平台创始人个人 KOL 号，7.8k 粉，属成熟个人号非项目。"
+    },
+    {
+      "handle": "@itzjayfrosh",
+      "reason": "交易所 BD 个人号，非项目方，无任何产品/发行线索。"
+    },
+    {
+      "handle": "@CryptoZac",
+      "reason": "meme/onchain 评论型 KOL 个人号，无独立项目产品线索。"
+    },
+    {
+      "handle": "@Kelvinoyibo",
+      "reason": "2.6 万粉 alpha caller 个人号，成熟 KOL，硬性排除。"
+    }
+  ],
+  "rejectedCount": 6,
+  "dsRejects": 6,
+  "admissions": [
+    {
+      "id": "acre-io",
+      "handle": "@ACRE_io",
+      "category": "打新",
+      "name": "ACRE"
+    },
+    {
+      "id": "astrispace",
+      "handle": "@astrispace",
+      "category": "打新",
+      "name": "astrispace"
+    }
+  ],
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-10-30 18:32",
+    "alpha-1-backup": "2026-10-30 16:13",
+    "smart-accounts-tracker": "2026-10-30 18:18",
+    "alpha-1": "2026-10-30 18:27"
+  },
+  "alert": "DC补漏R916新收2个：ACRE(@ACRE_io，Robinhood链手续费换代币化股票奖励)、astrispace(@astrispace，Robinhood链AI agent外包+USDG托管)；面板 https://reboot7454.github.io/early-scout/"
+}

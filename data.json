@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-30 18:40 CST",
+    "updated": "2026-10-30 18:37 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R905",
-    "lastScout": "2026-10-30 18:40 CST",
+    "lastScout": "2026-10-30 18:37 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -610,7 +610,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 915,
+    "round": 916,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1724,7 +1724,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "swarmhive-bnb"
+      "acre-io",
+      "astrispace"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -3636,22 +3637,22 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-10-30 18:02",
-      "lastChecked": "2026-10-30 18:06 CST",
-      "newestCardTime": "2026-10-30 18:02",
-      "cardsAfterCutoff": 85,
-      "note": "R914：Discord alpha 补收 kingdomflash,agentrybaw,grepfi,torpor-si；清 tokentunes,xhookpad,wuseagent,pinraildev,ploomi-rh,oxvernull；lastSeen→2026-10-30 18:02；lastChecked→2026-10-30 18:06 CST",
-      "lastRound": 914,
+      "lastSeen": "2026-10-30 18:32",
+      "lastChecked": "2026-10-30 18:37 CST",
+      "newestCardTime": "2026-10-30 18:32",
+      "cardsAfterCutoff": 9,
+      "note": "R916：Discord alpha 补收 acre-io,astrispace；清 swarmhive-bnb；lastSeen→2026-10-30 18:27；lastChecked→2026-10-30 18:37 CST",
+      "lastRound": 916,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-30 18:02",
+        "alpha-3-new-accounts": "2026-10-30 18:32",
         "alpha-1-backup": "2026-10-30 16:13",
-        "smart-accounts-tracker": "2026-10-30 17:47",
-        "alpha-1": "2026-10-30 17:34"
+        "smart-accounts-tracker": "2026-10-30 18:18",
+        "alpha-1": "2026-10-30 18:27"
       },
       "alpha3OlderGap": {
         "from": "2026-10-30 17:28",
         "to": "2026-10-30 17:44",
-        "note": "R914 alpha-3 capped at 80; oldest kept 17:44; prior gap 16:44→17:08 not filled (attempted=false), still open",
+        "note": "R915 alpha-3 127 cards after 18:02 read to 18:32 (mostly @binance/@ethereum/@Enter_Elysium mass-follow spam skipped); gaps 17:28→17:44 and 16:44→17:08 still unfilled",
         "priorUnfilled": {
           "from": "2026-10-30 16:44",
           "to": "2026-10-30 17:08"
@@ -13829,9 +13830,101 @@
       ],
       "at": "2026-10-30 18:40 CST",
       "note": "swarmhive admit + soft bugfix recent"
-    }
+    },
+    "round916Added": [
+      "acre-io",
+      "astrispace"
+    ]
   },
   "candidates": [
+    {
+      "id": "astrispace",
+      "name": "astrispace",
+      "handle": "@astrispace",
+      "twitter": "@astrispace",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/astrispace"
+      },
+      "scores": {
+        "early": 6,
+        "risk": 7,
+        "novelty": 5,
+        "actionable": 2,
+        "overall": 4.4
+      },
+      "highlights": [
+        "AI agent 外包 + USDG 托管交付的产品设定",
+        "同属 Robinhood Chain 早期生态"
+      ],
+      "drawbacks": [
+        "1 粉新号，可信度极低",
+        "无任何产品链接、合约或发行计划"
+      ],
+      "whatsNew": "新注册项目号，提出 AI agent 交付托管层概念。",
+      "summary": "纯概念阶段的 Robinhood Chain 项目号，信息量极低，仅作早期埋点。",
+      "blurb": "AI agent 外包+USDG 托管的 Robinhood Chain 概念号，观察级别。",
+      "round": 916,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-10-30 18:37 CST",
+      "addedAt": "2026-10-30 18:37 CST",
+      "lastChecked": "2026-10-30 18:37 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "acre-io",
+      "name": "ACRE",
+      "handle": "@acre_io",
+      "twitter": "@acre_io",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/ACRE_io"
+      },
+      "scores": {
+        "early": 6,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 3,
+        "overall": 4.9
+      },
+      "highlights": [
+        "手续费→代币化股票奖励的产品叙事",
+        "明确标注 Built on Robinhood Chain"
+      ],
+      "drawbacks": [
+        "仅 4 粉、关注 3，几乎无历史内容",
+        "尚无 mint/发射/合约线索，纯概念阶段"
+      ],
+      "whatsNew": "新出现的 Robinhood Chain 生态项目号，主打交易费换代币化股票奖励。",
+      "summary": "极早期 Robinhood Chain 概念项目，产品机制写在 bio，但无任何发射或合约证据。",
+      "blurb": "Robinhood Chain 上的手续费→代币化股票奖励概念盘，先挂观察。",
+      "round": 916,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 4,
+      "xFollowers": 4,
+      "firstSeen": "2026-10-30 18:37 CST",
+      "addedAt": "2026-10-30 18:37 CST",
+      "lastChecked": "2026-10-30 18:37 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "agenthashapes",
       "name": "Agent Hash Apes",
@@ -149916,7 +150009,7 @@
       "name": "SWARM Hive",
       "handle": "@SwarmHiveBNB",
       "round": 915,
-      "newThisRound": true,
+      "newThisRound": false,
       "zone": "打新",
       "zoneHint": "打新",
       "category": "打新",
@@ -149978,20 +150071,21 @@
     }
   ],
   "newThisRound": [
-    "swarmhive-bnb"
+    "acre-io",
+    "astrispace"
   ],
-  "alertMessage": "新收SWARM Hive BNB Agent ID公平铸造LIVE（约9025/444000，LP已烧）；今晚21:00 CST ChyAI分期销售；wedo/coineko/babel/turbokart/suan等仍可打LIVE：https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R916新收2个：ACRE(@ACRE_io，Robinhood链手续费换代币化股票奖励)、astrispace(@astrispace，Robinhood链AI agent外包+USDG托管)；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "babel",
     "turbokart"
   ],
-  "updatedAt": "2026-10-30 18:40 CST",
-  "updated": "2026-10-30 18:40 CST",
+  "updatedAt": "2026-10-30 18:37 CST",
+  "updated": "2026-10-30 18:37 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-30 18:40 CST",
+  "lastScout": "2026-10-30 18:37 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -150033,7 +150127,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 2174,
+  "candidateCount": 2176,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -151421,5 +151515,9 @@
   ],
   "round915Added": [
     "swarmhive-bnb"
+  ],
+  "round916Added": [
+    "acre-io",
+    "astrispace"
   ]
 }
