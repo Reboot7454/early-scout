@@ -8,4 +8,5 @@
 - **mentions**: Tape/Starknet/XLayer/starx/GIWA/DogeOS/flap/ShieldedNaka(BTC)/Irys/Nutshell/kinetiq 合并一查；Elysium/squeek 由关键词覆盖
 - **skipped**: FIRST LIGHT Genesis（仅搬运帖，未找到官推）；JakduPump/Ammora/hypawwX/TapeBit/fomopoly 已在库
 - **watchBugs**: aidog/sigils→UF+bnAgent+freeMint+agentPad
+- **push**: 409ab2d
 - **discordPeekDeferred**: true；**dsFallback**: false（deepseek-flash thinking）
