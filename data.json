@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-30 15:32 CST",
+    "updated": "2026-10-30 15:37 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R905",
-    "lastScout": "2026-10-30 15:32 CST",
+    "lastScout": "2026-10-30 15:37 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -601,7 +601,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 905,
+    "round": 906,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1685,8 +1685,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "liquid-constellations",
-      "pass-the-baton"
+      "hook404rh"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -3556,18 +3555,26 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-10-30 14:42",
-      "lastChecked": "2026-10-30 15:32 CST",
-      "newestCardTime": "2026-10-30 14:42",
-      "cardsAfterCutoff": 118,
-      "note": "R905 no browser → discordPeekDeferred=true",
-      "lastRound": 905,
+      "deferred": false,
+      "lastSeen": "2026-10-30 15:28",
+      "lastChecked": "2026-10-30 15:37 CST",
+      "newestCardTime": "2026-10-30 15:28",
+      "cardsAfterCutoff": 82,
+      "note": "R906：Discord alpha 补收 hook404rh；清 liquid-constellations,pass-the-baton；lastSeen→2026-10-30 15:28；lastChecked→2026-10-30 15:37 CST",
+      "lastRound": 906,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-30 14:42",
+        "alpha-3-new-accounts": "2026-10-30 15:28",
         "alpha-1-backup": "2026-10-30 14:28",
-        "smart-accounts-tracker": "2026-10-30 14:36",
-        "alpha-1": "2026-10-30 13:48"
+        "smart-accounts-tracker": "2026-10-30 14:58",
+        "alpha-1": "2026-10-30 14:43"
+      },
+      "alpha3OlderGap": {
+        "from": "2026-10-30 14:42",
+        "to": "2026-10-30 15:02",
+        "note": "R906 alpha-3 capped at 80; oldest kept 15:02 @DongmingJulian; window 14:42→15:02 unread"
+      },
+      "capped": {
+        "alpha-3-new-accounts": true
       }
     },
     "round239Added": [
@@ -13401,9 +13408,57 @@
     "round905Added": [
       "liquid-constellations",
       "pass-the-baton"
+    ],
+    "round906Added": [
+      "hook404rh"
     ]
   },
   "candidates": [
+    {
+      "id": "hook404rh",
+      "name": "Hook404",
+      "handle": "@hook404rh",
+      "twitter": "@hook404rh",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/hook404rh"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 8,
+        "novelty": 8,
+        "actionable": 4,
+        "overall": 6.2
+      },
+      "highlights": [
+        "Robinhood Chain上首个仅AI agent可交易的Uniswap v4 hook",
+        "叙事清晰：Humans get 404"
+      ],
+      "drawbacks": [
+        "0粉、无任何链接或合约",
+        "仅有概念描述，无mint/发射入口",
+        "真实性待验证"
+      ],
+      "whatsNew": "抛出Robinhood Chain上只允许AI agent交易的Uniswap v4 hook概念。",
+      "summary": "极早期项目号，宣称在Robinhood Chain部署仅AI agent可交互的Uniswap v4池，玩法新颖但尚无落地入口与合约信息。",
+      "blurb": "Robinhood Chain上的AI-only Uniswap v4 hook，概念早期，先观察。",
+      "round": 906,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-30 15:37 CST",
+      "addedAt": "2026-10-30 15:37 CST",
+      "lastChecked": "2026-10-30 15:37 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "buckme-sol",
       "name": "buckme",
@@ -148126,7 +148181,7 @@
       "blurb": "BNB Agent ID 门控链上 SVG 像素蚂蚁 NFT。上限 2222；现铸 584。首枚免费，后 $1/$4/$10。官推 1 粉。",
       "source": "R905 keyword+DS",
       "ecosystem": "BN Agent",
-      "newThisRound": true,
+      "newThisRound": false,
       "round905Added": true,
       "schedule": "LIVE mint; #1 free then paid"
     },
@@ -148182,27 +148237,26 @@
       "blurb": "BNB Agent ID 接力 NFT。前 44 免费已领；未传现 $1.20 开放。传递返 $0.70 + Leg NFT。官推 3 粉。",
       "source": "R905 keyword+DS",
       "ecosystem": "BN Agent",
-      "newThisRound": true,
+      "newThisRound": false,
       "round905Added": true,
       "schedule": "LIVE; unpassed batons $1.20 open"
     }
   ],
   "newThisRound": [
-    "liquid-constellations",
-    "pass-the-baton"
+    "hook404rh"
   ],
-  "alertMessage": "DC补漏R903新收 Little Beasts、buckme；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R906新收：Hook404——Robinhood Chain 上 AI-only Uniswap v4 hook，概念早期，先观察；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "agent-grove",
     "pow-agent-mine"
   ],
-  "updatedAt": "2026-10-30 14:48 CST",
-  "updated": "2026-10-30 14:48 CST",
+  "updatedAt": "2026-10-30 15:37 CST",
+  "updated": "2026-10-30 15:37 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-30 14:48 CST",
+  "lastScout": "2026-10-30 15:37 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -148244,7 +148298,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 2141,
+  "candidateCount": 2146,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -149600,5 +149654,8 @@
   "round903Added": [
     "littlebeasts",
     "buckme-sol"
+  ],
+  "round906Added": [
+    "hook404rh"
   ]
 }
