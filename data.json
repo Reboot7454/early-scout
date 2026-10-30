@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-30 17:40 CST",
+    "updated": "2026-10-30 17:50 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R905",
@@ -13670,7 +13670,18 @@
       "wuseagent",
       "xhookpad",
       "tokentunes"
-    ]
+    ],
+    "round911Added": [
+      "babel",
+      "turbokart"
+    ],
+    "panelFix": {
+      "at": "2026-10-30 17:50 CST",
+      "note": "R912 squeek-companion: cleared mistaken focus:true so card shows in 打新 column (skill hard-ban)",
+      "ids": [
+        "squeek-companion"
+      ]
+    }
   },
   "candidates": [
     {
@@ -149472,7 +149483,7 @@
       "category": "打新",
       "chain": "Ethereum Sepolia",
       "status": "live",
-      "focus": true,
+      "focus": false,
       "zone": "打新",
       "scores": {
         "early": 92,
@@ -149493,8 +149504,7 @@
         "LIVE",
         "有官推",
         "极早期",
-        "打新",
-        "focus"
+        "打新"
       ],
       "blurb": "Squeek/toychain 极早期：@builtbyimd（~13粉，约10/28开号）在 Sepolia 开 squeek companion 免费 mint（链上艺术会跑/睡），并连发 squeekstage/odometer/tx lab/wheel runner 小工具。",
       "whatsNew": "【R912】Squeek Companion Sepolia 免费 mint LIVE；同 builder 多款 squeek 玩具工具上线。",
@@ -149513,7 +149523,9 @@
       "round": 912,
       "newThisRound": false,
       "firstSeen": "2026-10-30 17:36 CST",
-      "lastChecked": "2026-10-30 17:36 CST"
+      "lastChecked": "2026-10-30 17:50 CST",
+      "whyWatch": "Sepolia Squeek Companion 免费 mint LIVE；@builtbyimd squeek/toychain 工具极早期",
+      "oneLiner": "Squeek Companion Sepolia free mint LIVE"
     }
   ],
   "newThisRound": [
@@ -149530,7 +149542,7 @@
     "turbokart"
   ],
   "updatedAt": "2026-10-30 17:40 CST",
-  "updated": "2026-10-30 17:40 CST",
+  "updated": "2026-10-30 17:50 CST",
   "round365Added": [
     "nockd",
     "inkora"
