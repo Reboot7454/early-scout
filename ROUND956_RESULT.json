@@ -175,10 +175,19 @@
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R956 日额已尽：零X读取；修Watch漏挂×12（优先R955：loupoai/stockcatsfun/bagbattles；续R901：script-agent/offrail/play-pips-fun/playmeowbattle/volitionxyz/playthecrypt/tidewell-bsc/sherwood-pixels/pitlane）；软债刷lastChecked×35；Discord deferred；全量UF+十栏关键词+全链mentions延至08:00 CST；le2h仅已告警窗不重复；不通知。",
   "push": {
-    "ok": false,
-    "attempted": false
+    "ok": true,
+    "attempted": true,
+    "commit": "fd8b2df",
+    "sha": "fd8b2df835ec682d59efc6affb0805145d69705b",
+    "branch": "main",
+    "files": [
+      "data.json",
+      "ROUND956_RESULT.json",
+      "RESULT_R956.md"
+    ],
+    "message": "R956: X exhausted — Watch漏挂修 + soft-debt; full scan deferred 08:00 CST"
   },
-  "remoteVerified": false,
+  "remoteVerified": true,
   "priorRoundNote": "R955 admitted loupoai/stockcatsfun/bagbattles (discord-alpha, notify sent); R954 fixed playfumbo/hood-skulls/yeetr + 8 older; R956 finishes deferred≈9 R901 leaks + R955 trio; ZERO X",
   "xQuotaNote": "daily limit 1000 reached; remaining=0 until 2026-10-31T00:00:00.000Z = 08:00 Asia/Shanghai",
   "note": "mode=x-exhausted-local; deferred full scan until 08:00 CST; watchBugs×12; softDebt×35; R900+ DC deferred batch cleared this round",
