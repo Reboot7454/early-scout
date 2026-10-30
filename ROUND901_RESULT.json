@@ -1,0 +1,795 @@
+{
+  "round": 901,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-30 14:19 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R901新收18个早期项目（PitLane、Sherwood Pixels、Apunkers、TWELL 等）；面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "pitlane",
+    "sherwood-pixels",
+    "agentpunkai",
+    "tidewell-bsc",
+    "argonminechain",
+    "nomadfinanceio",
+    "playthecrypt",
+    "launchviafun",
+    "volitionxyz",
+    "playmeowbattle",
+    "knightverse",
+    "play-pips-fun",
+    "offrail",
+    "script-agent",
+    "klll-floor",
+    "balboa-studios",
+    "aegisterminal",
+    "pvedotmarkets"
+  ],
+  "newCount": 18,
+  "newIds": [
+    "pitlane",
+    "sherwood-pixels",
+    "agentpunkai",
+    "tidewell-bsc",
+    "argonminechain",
+    "nomadfinanceio",
+    "playthecrypt",
+    "launchviafun",
+    "volitionxyz",
+    "playmeowbattle",
+    "knightverse",
+    "play-pips-fun",
+    "offrail",
+    "script-agent",
+    "klll-floor",
+    "balboa-studios",
+    "aegisterminal",
+    "pvedotmarkets"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 199,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "stockysium",
+    "charmasks",
+    "hoodies-rh"
+  ],
+  "candidateFlagsCleared": 3,
+  "topNewThisRoundCleared": [
+    "stockysium",
+    "charmasks",
+    "hoodies-rh"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=18",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-30 14:10",
+    "lastChecked": "2026-10-30 14:19 CST",
+    "newestCardTime": "2026-10-30 14:10",
+    "cardsAfterCutoff": 199,
+    "note": "R901：Discord alpha 补收 pitlane,sherwood-pixels,agentpunkai,tidewell-bsc,argonminechain,nomadfinanceio,playthecrypt,launchviafun,volitionxyz,playmeowbattle,knightverse,play-pips-fun,offrail,script-agent,klll-floor,balboa-studios,aegisterminal,pvedotmarkets；清 stockysium,charmasks,hoodies-rh；lastSeen→2026-10-30 14:10；lastChecked→2026-10-30 14:19 CST",
+    "lastRound": 901,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-30 14:10",
+      "alpha-1-backup": "2026-10-30 13:58",
+      "smart-accounts-tracker": "2026-10-30 13:59",
+      "alpha-1": "2026-10-30 13:48"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R901：Discord alpha 补收 pitlane,sherwood-pixels,agentpunkai,tidewell-bsc,argonminechain,nomadfinanceio,playthecrypt,launchviafun,volitionxyz,playmeowbattle,knightverse,play-pips-fun,offrail,script-agent,klll-floor,balboa-studios,aegisterminal,pvedotmarkets；清 stockysium,charmasks,hoodies-rh；lastSeen→2026-10-30 14:10；lastChecked→2026-10-30 14:19 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261030_1354.json",
+  "priorRoundNote": "R900 meta NTR ['bsc-bito', 'bi-agent-id', 'codex-agentic', 'arkhampad', 'solz-money', 'stockysium', 'charmasks', 'hoodies-rh']; cardsAfterCutoff=199",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-10-30 14:10",
+    "alpha-1-backup": "2026-10-30 13:58",
+    "smart-accounts-tracker": "2026-10-30 13:59",
+    "alpha-1": "2026-10-30 13:48"
+  },
+  "cardsRead": 199,
+  "rejected": [
+    {
+      "handle": "@So_kava",
+      "reason": "仅一句名人引言的个人号，无任何项目或产品线索。"
+    },
+    {
+      "handle": "@WhiteCrow318",
+      "reason": "自称 AI 加密分析师，属于 KOL 或喊单类内容号，没有产品。"
+    },
+    {
+      "handle": "@stakweb3",
+      "reason": "AI 与 Web3 的干货教学（原文为“干货”）内容号，无独立产品或发射线索。"
+    },
+    {
+      "handle": "@adaLovelace888",
+      "reason": "bio 自述为机器人账号，没有项目。"
+    },
+    {
+      "handle": "@BlitzNova23",
+      "reason": "外汇交易员个人号，与加密项目无关。"
+    },
+    {
+      "handle": "@usman104ff",
+      "reason": "bio 只有银行 emoji，没有任何项目信息，属于完全空壳账号。"
+    },
+    {
+      "handle": "@madiihm1",
+      "reason": "励志短语个人号，没有产品与项目线索。"
+    },
+    {
+      "handle": "@itsajaygaur",
+      "reason": "工程师个人自嘲 bio，与加密项目无关。"
+    },
+    {
+      "handle": "@saad_muhan77728",
+      "reason": "牙科软件个人号，无加密项目与产品线索，仅关注币安。"
+    },
+    {
+      "handle": "@BedasoT14528",
+      "reason": "学生个人号，仅关注币安，无项目或产品信息。"
+    },
+    {
+      "handle": "@Asimmurtaz_07",
+      "reason": "房东个人简介，无加密项目内容，空壳号。"
+    },
+    {
+      "handle": "@i__Queen",
+      "reason": "政治观点个人号，无项目与产品线索。"
+    },
+    {
+      "handle": "@BChauhan5724",
+      "reason": "励志语录型个人号，无项目、无发射线索。"
+    },
+    {
+      "handle": "@ariyenio",
+      "reason": "仅自称宏观策略师的个人号，无项目与产品证据。"
+    },
+    {
+      "handle": "@AlinaShyn05",
+      "reason": "UX/UI自由职业者个人号，非项目方，无产品线索。"
+    },
+    {
+      "handle": "@AlberthVigo",
+      "reason": "简介为空点号，无任何项目信息，空壳号。"
+    },
+    {
+      "handle": "@kzeus1992",
+      "reason": "bio仅为随机字符串，无任何项目或产品线索，空壳账号"
+    },
+    {
+      "handle": "@xxxirosa721818",
+      "reason": "个人感悟型bio，无项目、无产品、无发射线索"
+    },
+    {
+      "handle": "@DirectToProd",
+      "reason": "泛化builder自述无具体项目名或发射/mint线索，无法判定为早期项目"
+    },
+    {
+      "handle": "@PackJade_",
+      "reason": "bio仅为Telegram联系方式，0粉空壳，无任何项目内容"
+    },
+    {
+      "handle": "@Rahul101011",
+      "reason": "仅有真人姓名，无项目或产品线索"
+    },
+    {
+      "handle": "@HaomingChe40151",
+      "reason": "bio仅学校标签，无项目无产品"
+    },
+    {
+      "handle": "@TheXander_wav",
+      "reason": "音乐人个人号，与加密项目无关"
+    },
+    {
+      "handle": "@binikidrg",
+      "reason": "Elysium猎人个人号且bio仅引用他人handle，按规则一律拒"
+    },
+    {
+      "handle": "@YonasAwokeYitay",
+      "reason": "仅自称SupaPay创始人，无产品链接、发射或玩法线索，信息不足"
+    },
+    {
+      "handle": "@_murezzboi",
+      "reason": "仅 emoji 空壳账号，无产品与项目线索"
+    },
+    {
+      "handle": "@Javiiermz_mphy",
+      "reason": "健身教练个人号，与加密项目无关"
+    },
+    {
+      "handle": "@Monish_0615",
+      "reason": "bio 仅 @elonmusk，无项目与产品"
+    },
+    {
+      "handle": "@JAHIDHASAN7679",
+      "reason": "个人生活号，无任何项目线索"
+    },
+    {
+      "handle": "@milondake",
+      "reason": "仅自称实验室 CEO 与 TG 群，无产品、发射或 mint 实证"
+    },
+    {
+      "handle": "@rajamanick_t",
+      "reason": "医疗从业者个人号，与加密无关"
+    },
+    {
+      "handle": "@kumoAlpha",
+      "reason": "交易员个人号，仅观点输出，无独立产品或发射"
+    },
+    {
+      "handle": "@prince_e330",
+      "reason": "bio 仅和平爱心，无项目信息"
+    },
+    {
+      "handle": "@Sudeepp58232144",
+      "reason": "个人社交账号，无独立项目、产品、发射或mint线索。"
+    },
+    {
+      "handle": "@Tradewithsumit0",
+      "reason": "交易分析类个人号，无项目产品、发射或挖矿线索。"
+    },
+    {
+      "handle": "@catstellarX",
+      "reason": "仅有Meme概念与bonding curve描述，无实际发射、mint或产品实证。"
+    },
+    {
+      "handle": "@Jaguar04256854",
+      "reason": "个人社交影响力账号，无独立项目或加密产品线索。"
+    },
+    {
+      "handle": "@mindscopeai",
+      "reason": "营销机构简介，无加密项目、产品、发射或挖矿线索。"
+    },
+    {
+      "handle": "@Na2000Sm",
+      "reason": "个人账号简介过短，无项目或产品线索。"
+    },
+    {
+      "handle": "@mar_muz14",
+      "reason": "个人职业简介，与加密项目无关。"
+    },
+    {
+      "handle": "@johnmikty",
+      "reason": "平面设计与物流自由职业者个人号，无加密项目线索。"
+    },
+    {
+      "handle": "@usa555519",
+      "reason": "空壳个人号，无独立项目推特与产品线索"
+    },
+    {
+      "handle": "@ARHOSSAINARIFR",
+      "reason": "个人生活号，无项目产品与独立推特价值"
+    },
+    {
+      "handle": "@Breckenridge0FR",
+      "reason": "仅关注 @Enter_Elysium 的个人号，无具体部署信息"
+    },
+    {
+      "handle": "@sumirhj",
+      "reason": "简介空白个人号，仅关注 @Enter_Elysium，无项目线索"
+    },
+    {
+      "handle": "@mdnahid969",
+      "reason": "0 粉丝空壳号，仅关注 opensea，无项目内容"
+    },
+    {
+      "handle": "@abdi9503",
+      "reason": "个人开发者号，无项目/发射线索"
+    },
+    {
+      "handle": "@GDula32507",
+      "reason": "极低粉个人号，简介仅年龄，无项目内容"
+    },
+    {
+      "handle": "@flirtingmoneyy",
+      "reason": "喊单式简介个人号，无实际产品"
+    },
+    {
+      "handle": "@YisakAlemayehu",
+      "reason": "宗教简介个人号，无项目线索"
+    },
+    {
+      "handle": "@hussain_za10943",
+      "reason": "个人空壳号，无独立项目或产品线索。"
+    },
+    {
+      "handle": "@Mania67981332",
+      "reason": "简介为空，无项目或产品信息。"
+    },
+    {
+      "handle": "@Skopje_Calling",
+      "reason": "仅有社交联系方式，无项目产品线索。"
+    },
+    {
+      "handle": "@Babayagactw",
+      "reason": "随机发帖个人号，无项目产品线索。"
+    },
+    {
+      "handle": "@imnotaniggas",
+      "reason": "含冒犯性名称，无项目产品线索。"
+    },
+    {
+      "handle": "@ChawlaSorabh",
+      "reason": "自称CEO但无独立项目推特与产品线索。"
+    },
+    {
+      "handle": "@xroshit",
+      "reason": "个人情绪发帖号，无项目产品线索。"
+    },
+    {
+      "handle": "@blackbullyy",
+      "reason": "个人简介号，无项目或产品线索。"
+    },
+    {
+      "handle": "@Wql88",
+      "reason": "泛交易理念简介，无具体项目产品。"
+    },
+    {
+      "handle": "@MartenWei1688",
+      "reason": "个人号，无独立项目或产品线索，拒。"
+    },
+    {
+      "handle": "@goods91252",
+      "reason": "个人号，仅标 TW，无项目或产品线索，拒。"
+    },
+    {
+      "handle": "@picbik",
+      "reason": "空壳个人号，简介仅 yo，无项目线索，拒。"
+    },
+    {
+      "handle": "@hatcher_pan",
+      "reason": "个人号，无独立项目或产品信息，拒。"
+    },
+    {
+      "handle": "@Bestinvestpk1",
+      "reason": "财经资讯媒体号，非可参与加密项目，拒。"
+    },
+    {
+      "handle": "@paswan_ji63044",
+      "reason": "非加密实体批发号，与 alpha 项目无关，拒。"
+    },
+    {
+      "handle": "@ndrewsethyl1982",
+      "reason": "个人号，无独立项目或产品线索，拒。"
+    },
+    {
+      "handle": "@clavone1999",
+      "reason": "个人号，仅生活化简介，无项目或产品线索，拒。"
+    },
+    {
+      "handle": "@bmxhanny",
+      "reason": "个人号仅有“看状态栏”式简介，无任何产品或发射线索，且仅为 Elysium 关注者。"
+    },
+    {
+      "handle": "@cereweut",
+      "reason": "简介仅为引用他人账号的闲话，无项目内容。"
+    },
+    {
+      "handle": "@imagustinf",
+      "reason": "个人号且旧号被封，只导向 Telegram 喊单频道，无产品。"
+    },
+    {
+      "handle": "@g0on___",
+      "reason": "ICT/SMC 交易员个人号，无项目或产品线索。"
+    },
+    {
+      "handle": "@Gouravchn33",
+      "reason": "仅 YouTube 引流链接，无独立项目与产品线索。"
+    },
+    {
+      "handle": "@flashpay7",
+      "reason": "所谓 Flash USDT 属典型欺诈话术，无真实产品。"
+    },
+    {
+      "handle": "@doctorlang2",
+      "reason": "个人生活化简介，无任何项目或产品信息。"
+    },
+    {
+      "handle": "@0xawansmith",
+      "reason": "2000+ 粉的成熟 KOL 个人号，无独立项目产品。"
+    },
+    {
+      "handle": "@primalroar_rh",
+      "reason": "2粉且仅作为KOL新粉出现，只有口号无产品链接，疑似空壳"
+    },
+    {
+      "handle": "@Elysianpad",
+      "reason": "简介为空、仅8粉，无任何产品/测试网线索"
+    },
+    {
+      "handle": "@motiondotmoney",
+      "reason": "简介为空、4粉，无任何产品线索"
+    },
+    {
+      "handle": "@YFYkuner",
+      "reason": "个人KOL/加速器负责人账号，非独立项目"
+    },
+    {
+      "handle": "@humanbeingET",
+      "reason": "个人简介型账号、关注数异常，属KOL非项目"
+    },
+    {
+      "handle": "@yohakujpn",
+      "reason": "个人 KOL 号，仅为 Migma_AI 大使，无独立产品"
+    },
+    {
+      "handle": "@0xyspiral",
+      "reason": "个人号，$ACT 前 CTO 自述，非项目官方账号"
+    },
+    {
+      "handle": "@SoderXBT",
+      "reason": "个人开发者号，应看其项目官方号 @useOffRail"
+    },
+    {
+      "handle": "@ZeroSumEnjoyer",
+      "reason": "无产品信息的个人喊单号"
+    },
+    {
+      "handle": "@s43stha",
+      "reason": "个人创始人号，非项目官方号，且项目偏 AI 基础设施"
+    },
+    {
+      "handle": "@JLunglhofer",
+      "reason": "Coinbase CSO 个人号，成熟机构高管，无早期项目属性"
+    },
+    {
+      "handle": "@DylanKurt3",
+      "reason": "个人代写/教练服务号，无加密项目产品与发射线索"
+    },
+    {
+      "handle": "@DicksonWuML",
+      "reason": "CertiK/SEAL 工程师个人号，非独立项目方"
+    },
+    {
+      "handle": "@taurus_0908",
+      "reason": "交易员/顾问 KOL，无自建产品"
+    },
+    {
+      "handle": "@kaynmeil",
+      "reason": "简介空洞无产品，粉丝极少疑似空壳"
+    },
+    {
+      "handle": "@vigstar1",
+      "reason": "Meta 员工个人号，与加密项目无关"
+    },
+    {
+      "handle": "@danielkhunter",
+      "reason": "个人随笔号，无产品/发射线索"
+    },
+    {
+      "handle": "@XSTONKLANA",
+      "reason": "纯代币喊单号，仅 ticker 无产品或玩法细节"
+    },
+    {
+      "handle": "@novora_",
+      "reason": "投资机构账号，非可参与项目"
+    },
+    {
+      "handle": "@FlowfiEngine",
+      "reason": "bio 仅抽象描述“关注度与证据层”，无具体产品、发射或玩法线索"
+    },
+    {
+      "handle": "@Vectagility",
+      "reason": "个人 KOL 号（设计师/社群运营），非独立项目推特"
+    },
+    {
+      "handle": "@realrollyroll",
+      "reason": "个人喊单/玩梗账号，无可验证产品"
+    },
+    {
+      "handle": "@VraxCTO",
+      "reason": "自述为 parody 账号的梗币，无产品与路线"
+    },
+    {
+      "handle": "@staydfun",
+      "reason": "bio 仅一句口号，无产品、发射或玩法线索"
+    },
+    {
+      "handle": "@bordrlesstokens",
+      "reason": "仅有代币标准概念描述，无实际产品、发射或玩法线索，不满足早期收录门槛。"
+    },
+    {
+      "handle": "@KobeissiLetter",
+      "reason": "高粉(2704771)个人/KOL"
+    },
+    {
+      "handle": "@ambergroup_io",
+      "reason": "高粉(45284)个人/KOL"
+    },
+    {
+      "handle": "@jords",
+      "reason": "高粉(74535)个人/KOL"
+    },
+    {
+      "handle": "@ibtc2023",
+      "reason": "高粉(9800)个人/KOL"
+    },
+    {
+      "handle": "@BSVtony",
+      "reason": "高粉(9153)个人/KOL"
+    },
+    {
+      "handle": "@steveyedlin",
+      "reason": "高粉(18763)个人/KOL"
+    },
+    {
+      "handle": "@rianjohnson",
+      "reason": "高粉(1009753)个人/KOL"
+    },
+    {
+      "handle": "@MassFromCrypto",
+      "reason": "高粉(9693)个人/KOL"
+    },
+    {
+      "handle": "@DistributedMarz",
+      "reason": "高粉(4022)个人/KOL"
+    },
+    {
+      "handle": "@HalloweenIn2008",
+      "reason": "高粉(5408)个人/KOL"
+    },
+    {
+      "handle": "@Fujin0x",
+      "reason": "高粉(3576)个人/KOL"
+    },
+    {
+      "handle": "@Daisyxbtc",
+      "reason": "高粉(11347)个人/KOL"
+    },
+    {
+      "handle": "@jabosiswanto94",
+      "reason": "高粉(10156)个人/KOL"
+    },
+    {
+      "handle": "@khenzarweb3",
+      "reason": "高粉(14370)个人/KOL"
+    },
+    {
+      "handle": "@rab4745",
+      "reason": "高粉(18259)个人/KOL"
+    },
+    {
+      "handle": "@0xMek_",
+      "reason": "高粉(10645)个人/KOL"
+    },
+    {
+      "handle": "@Nouf0633",
+      "reason": "高粉(70273)个人/KOL"
+    },
+    {
+      "handle": "@Sterling_hl",
+      "reason": "高粉(8108)个人/KOL"
+    },
+    {
+      "handle": "@joellepineau",
+      "reason": "高粉(16168)个人/KOL"
+    },
+    {
+      "handle": "@SebastianCaliri",
+      "reason": "高粉(10254)个人/KOL"
+    },
+    {
+      "handle": "@humancapital",
+      "reason": "高粉(3475)个人/KOL"
+    },
+    {
+      "handle": "@TheCoinCollect8",
+      "reason": "高粉(6749)个人/KOL"
+    },
+    {
+      "handle": "@lynk0x",
+      "reason": "高粉(313784)个人/KOL"
+    },
+    {
+      "handle": "@justinkalland",
+      "reason": "高粉(20013)个人/KOL"
+    },
+    {
+      "handle": "@mosseri",
+      "reason": "高粉(1061334)个人/KOL"
+    },
+    {
+      "handle": "@willdepue",
+      "reason": "高粉(79348)个人/KOL"
+    },
+    {
+      "handle": "@mikeeisenberg",
+      "reason": "高粉(47155)个人/KOL"
+    },
+    {
+      "handle": "@dba_xyz",
+      "reason": "高粉(6150)个人/KOL"
+    },
+    {
+      "handle": "@allinbitcoin_",
+      "reason": "高粉(3553)个人/KOL"
+    },
+    {
+      "handle": "@sacha",
+      "reason": "高粉(12417)个人/KOL"
+    },
+    {
+      "handle": "@trmlabs",
+      "reason": "高粉(16896)个人/KOL"
+    },
+    {
+      "handle": "@chainalysis",
+      "reason": "高粉(65121)个人/KOL"
+    },
+    {
+      "handle": "@cz_binance",
+      "reason": "高粉(12957520)个人/KOL"
+    },
+    {
+      "handle": "@BinanceTR",
+      "reason": "高粉(363944)个人/KOL"
+    },
+    {
+      "handle": "@Mey_Network",
+      "reason": "高粉(81232)个人/KOL"
+    },
+    {
+      "handle": "@knknzi0001",
+      "reason": "高粉(4977)个人/KOL"
+    },
+    {
+      "handle": "@Zeneca",
+      "reason": "高粉(394634)个人/KOL"
+    },
+    {
+      "handle": "@I_am_patrimonio",
+      "reason": "高粉(17047)个人/KOL"
+    },
+    {
+      "handle": "@thenftjosh",
+      "reason": "高粉(106002)个人/KOL"
+    }
+  ],
+  "rejectedCount": 139,
+  "dsRejects": 100,
+  "admissions": [
+    {
+      "id": "pitlane",
+      "handle": "@goPitLane",
+      "category": "台子/Meme",
+      "name": "PitLane"
+    },
+    {
+      "id": "sherwood-pixels",
+      "handle": "@SherwoodPixels",
+      "category": "台子/Meme",
+      "name": "Sherwood Pixels"
+    },
+    {
+      "id": "agentpunkai",
+      "handle": "@agentpunkai",
+      "category": "打新",
+      "name": "Apunkers"
+    },
+    {
+      "id": "tidewell-bsc",
+      "handle": "@Tidewell_BSC",
+      "category": "挖矿",
+      "name": "TWELL"
+    },
+    {
+      "id": "argonminechain",
+      "handle": "@argonminechain",
+      "category": "挖矿",
+      "name": "Argonmine"
+    },
+    {
+      "id": "nomadfinanceio",
+      "handle": "@nomadfinanceio",
+      "category": "挖矿",
+      "name": "Nomad Finance"
+    },
+    {
+      "id": "playthecrypt",
+      "handle": "@playthecrypt",
+      "category": "GO盘",
+      "name": "The Crypt"
+    },
+    {
+      "id": "launchviafun",
+      "handle": "@launchviafun",
+      "category": "台子/Meme",
+      "name": "FUN"
+    },
+    {
+      "id": "volitionxyz",
+      "handle": "@Volitionxyz",
+      "category": "台子/Meme",
+      "name": "Volition"
+    },
+    {
+      "id": "playmeowbattle",
+      "handle": "@playmeowbattle",
+      "category": "GO盘",
+      "name": "MeowBattle"
+    },
+    {
+      "id": "knightverse",
+      "handle": "@_KnightVerse",
+      "category": "Elysium",
+      "name": "KnightVerse"
+    },
+    {
+      "id": "play-pips-fun",
+      "handle": "@PlayPipsFun",
+      "category": "台子/Meme",
+      "name": "Play PIPS"
+    },
+    {
+      "id": "offrail",
+      "handle": "@useOffRail",
+      "category": "台子/Meme",
+      "name": "OFFRAIL"
+    },
+    {
+      "id": "script-agent",
+      "handle": "@Script_Agent",
+      "category": "打新",
+      "name": "Script"
+    },
+    {
+      "id": "klll-floor",
+      "handle": "@klll_floor",
+      "category": "台子/Meme",
+      "name": "Killfloor"
+    },
+    {
+      "id": "balboa-studios",
+      "handle": "@balboa_studios",
+      "category": "打新",
+      "name": "Balboa Studios"
+    },
+    {
+      "id": "aegisterminal",
+      "handle": "@Aegisterminal_",
+      "category": "台子/Meme",
+      "name": "AEGIS"
+    },
+    {
+      "id": "pvedotmarkets",
+      "handle": "@pvedotmarkets",
+      "category": "打新",
+      "name": "PVE"
+    }
+  ],
+  "alert": "DC补漏R901新收18个早期项目（PitLane、Sherwood Pixels、Apunkers、TWELL 等）；面板：https://reboot7454.github.io/early-scout/",
+  "alpha3Capped": true,
+  "alpha3CapNote": "alpha-3-new-accounts capped at 80 (13:46–14:10); gap 02:38–13:46 skipped after long deferral; lastSeen advanced to 14:10",
+  "channelStatus": {
+    "alpha-3-new-accounts": {
+      "ok": true,
+      "nAfterCutoff": 80,
+      "capped": true
+    },
+    "alpha-1-backup": {
+      "ok": true,
+      "nAfterCutoff": 25,
+      "capped": false
+    },
+    "smart-accounts-tracker": {
+      "ok": true,
+      "nAfterCutoff": 62,
+      "capped": false
+    },
+    "alpha-1": {
+      "ok": true,
+      "nAfterCutoff": 32,
+      "capped": false
+    }
+  },
+  "spideyStillPosting": true
+}
