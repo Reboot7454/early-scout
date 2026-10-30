@@ -13,5 +13,5 @@
 - **discordPeekDeferred**: false（先行 DC alpha-40 已写入 data.json；本执行体未再开浏览器）
 - **soft**: canton/glaze/tokenWorks lastChecked→2026-10-30 18:15 CST
 - **dsFallback**: false (deepseek-flash+thinking admit+score+alert)
-- **push**: pending
+- **push**: ok `964f2d5`
 - **alert**: R914全量：新收 Agent Hash Apes 免费PoW挖矿LIVE + DC四席(KINGDOM FLASH/Agentry BAW/Grepfi/Torpor)；DualForge 18:00配对sale、ComputeRoll CRL mint、WEDO/CoinEko/Babel/TurboKart/SUAN仍可打；面板 https://reboot7454.github.io/early-scout/
