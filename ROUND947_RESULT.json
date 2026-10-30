@@ -134,10 +134,18 @@
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R947 日额已尽：零X读取；修Watch漏挂×4（R946 DC：capybyclaude/burrowrh/orimgame/propchange-io）；软债刷lastChecked×35；跳过DC（R946刚重扫）；全量UF+十栏关键词+全链mentions延至08:00 CST；无新收录/不重复≤2h；不通知。",
   "push": {
-    "ok": false,
-    "attempted": false
+    "ok": true,
+    "attempted": true,
+    "commit": "8bb039c",
+    "sha": "8bb039c4d8c47f5acfb6ef70c3568a5414cdb9b5",
+    "branch": "main",
+    "files": [
+      "data.json",
+      "ROUND947_RESULT.json"
+    ],
+    "message": "R947: X exhausted — Watch漏挂修×4 (R946 DC) + soft-debt; full scan deferred 08:00 CST"
   },
-  "remoteVerified": false,
+  "remoteVerified": true,
   "priorRoundNote": "R946 Discord-alpha 4 admits already notified; R947 watch-wiring + soft-debt only; ZERO X; do not re-alert R946",
   "xQuotaNote": "daily limit 1000 reached; remaining=0 until 2026-10-31T00:00:00.000Z = 08:00 Asia/Shanghai"
 }
