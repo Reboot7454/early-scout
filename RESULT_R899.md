@@ -11,7 +11,7 @@
 - **soft**: glaze/canton/tokenworks lastChecked；$AGI fair mint LIVE；Torpor Elysium day-one；Agent Shift~1500/4444；HashOre 8900/10000；printer 粉47；charmasks 粉5+今晚拍卖；1k AL 19:00；Stonk密封22:00；palu/hoodies soft
 - **skipped**: IdentideXYZ DS admit:false（付费0.5U无审计）；SOLVD 无官推；AgenticHive/hirelingsai/beepz/Ptah/rh_ofsherwood/Boxa_Elysium 已在库；stockysium/charmasks/hoodies-rh R898已收仅soft；mobster/starx/Leeonmort/Tarotix Not Found；SpokelyNFT Not Found
 - **dsFallback**: false（admit/score/alert DeepSeek OK）
-- **push**: (pending)
+- **push**: 7007db8
 - **panel**: https://reboot7454.github.io/early-scout/
 
 ```json
@@ -96,7 +96,7 @@
     "SpokelyNFT Not Found；@spokely wrong user",
     "basohu47 spam Agent ID shill — skip"
   ],
-  "push": "PENDING",
+  "push": "7007db8",
   "panel": "https://reboot7454.github.io/early-scout/",
   "writtenAt": "2026-10-30 13:45 CST"
 }
