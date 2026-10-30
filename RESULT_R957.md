@@ -167,12 +167,22 @@
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R957 日额已尽：零X读取；修Watch×22（dual-write×12；UF cid×8；UF elysium-inu/fugui-cto）；软债刷lastChecked×35；Discord deferred；全量UF+十栏关键词+全链mentions延至08:00 CST；le2h仅已告警近窗不重复；不通知。",
   "push": {
-    "ok": false,
-    "attempted": false
+    "ok": true,
+    "attempted": true,
+    "commit": "61c24e0",
+    "sha": "61c24e05a09c4320a1802c7c4e3a2c9742ee1ef2",
+    "branch": "main",
+    "files": [
+      "data.json",
+      "ROUND957_RESULT.json",
+      "RESULT_R957.md"
+    ],
+    "message": "R957: X exhausted — dual-write/UF Watch修 + soft-debt; full scan deferred 08:00 CST"
   },
   "priorRoundNote": "R956 finished R900+ DC true-漏挂×12；R957 continues dual-write backlog + UF cid gaps + soft-debt；ZERO X",
   "xQuotaNote": "daily limit 1000 reached; remaining=0 until 2026-10-31T00:00:00.000Z = 08:00 Asia/Shanghai",
   "note": "mode=x-exhausted-local; deferred full scan until 08:00 CST; watchBugs×22; softDebt×35; dualWriteRemaining≈47",
-  "deferredFullScanNote": "UF soft + ten-lane keywords + equal-effort official mentions (Elysium/kinetiq, Tape/Blonskr, GIWA, Zero/LZ, DogeEVM, Starknet, BTC privacy, squeek/Nutshell, flap/Irys/Full.fun/Arc, BN Agent pads, X Layer/STARX, CRC20) until first run after 08:00 CST"
+  "deferredFullScanNote": "UF soft + ten-lane keywords + equal-effort official mentions (Elysium/kinetiq, Tape/Blonskr, GIWA, Zero/LZ, DogeEVM, Starknet, BTC privacy, squeek/Nutshell, flap/Irys/Full.fun/Arc, BN Agent pads, X Layer/STARX, CRC20) until first run after 08:00 CST",
+  "remoteVerified": true
 }
 ```
