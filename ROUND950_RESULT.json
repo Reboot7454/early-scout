@@ -150,10 +150,10 @@
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R950 日额已尽：零X读取；修Watch漏挂×8（R900+ DC：lanternfield/launchr/moorin/agentmao/hackedbyagent/hookkit/quirkzai/candynightapp）；软债刷lastChecked×35；Discord deferred；全量UF+十栏关键词+全链mentions延至08:00 CST；le2h仅已告警窗不重复；不通知。",
   "push": {
-    "ok": false,
-    "attempted": false,
-    "commit": "",
-    "sha": "",
+    "ok": true,
+    "attempted": true,
+    "commit": "cd037f7",
+    "sha": "cd037f789cb21494da1b2c7ba77c679b7180df03",
     "branch": "main",
     "files": [
       "data.json",
@@ -162,7 +162,7 @@
     ],
     "message": "R950: X exhausted — Watch漏挂修 + soft-debt; full scan deferred 08:00 CST"
   },
-  "remoteVerified": false,
+  "remoteVerified": true,
   "priorRoundNote": "R949 already fixed dock-hood/robinhood-hormuz/hexwarp/kori/only-ponzi/mcpmarkets; R950 continues Watch漏挂 batch + soft-debt; ZERO X",
   "xQuotaNote": "daily limit 1000 reached; remaining=0 until 2026-10-31T00:00:00.000Z = 08:00 Asia/Shanghai",
   "note": "mode=x-exhausted-local; deferred full scan until 08:00 CST; watchBugs×8; softDebt×35; remaining R900+ DC watch-leaks deferred≈22"
