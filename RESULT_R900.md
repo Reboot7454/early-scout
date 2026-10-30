@@ -11,7 +11,7 @@
 - **soft**: glaze/canton/tokenworks lastChecked；Nutshell 121→171；localbottom→111；Pulse→356；printer站换新+粉50；$AGI LIVE soft；AgentShift粉70；cosmic粉46；glyphmind仍2；1k AL 19:00；CharMasks 21:00；Stonk 22:00
 - **skipped**: bsc-ququ DS admit:false；mobster/starx Not Found；in-lib soft-only（printer/agentai/shift/cosmic/glyphmind等）
 - **dsFallback**: false（admit/score/alert DeepSeek OK）
-- **push**: PENDING
+- **push**: cc2be89
 - **panel**: https://reboot7454.github.io/early-scout/
 
 ```json
@@ -105,7 +105,7 @@
     "JakduPump / Polarxlayer — Jakdu already in-lib (watch bug fixed); Polar meme skip",
     "MemeStockbnb flap spam — skip"
   ],
-  "push": "PENDING",
+  "push": "cc2be89",
   "panel": "https://reboot7454.github.io/early-scout/",
   "writtenAt": "2026-10-30 14:08 CST"
 }
