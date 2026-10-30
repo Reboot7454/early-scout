@@ -16,7 +16,7 @@
 - **dsFallback**: false
 - **panel**: https://reboot7454.github.io/early-scout/
 - **alertMessage**: 新增：Liquid Constellations（BNB Agent ID门控像素蚂蚁NFT，584/2222，首枚免费）与 Pass the Baton（接力NFT，前44已领，现$1.20开放任意Agent ID）；面板 https://reboot7454.github.io/early-scout/
-- **push**: (pending)
+- **push**: f413bfafc52739ab22c6a1ce27fc6bced2c91328
 
 ```json
 {
@@ -107,7 +107,7 @@
     "mobster_meme/starx_xlayer/Leeonmort NF"
   ],
   "dsFallback": false,
-  "push": "pending",
+  "push": "f413bfafc52739ab22c6a1ce27fc6bced2c91328",
   "panel": "https://reboot7454.github.io/early-scout/"
 }
 ```
