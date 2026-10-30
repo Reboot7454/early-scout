@@ -11,7 +11,7 @@
 - **soft**: glaze/canton/tokenworks lastChecked；agentshift~694/4444；printer>2000；hashore 8900/10000；1k AL 19:00 CST；capup 分配；Nutshell teaser
 - **skipped**: SOLVD 无官推；SuperVegaXYZ DS skip；mobster_meme/starx_xlayer Not Found；Forge/lores 已在库
 - **dsFallback**: false（admit/score/alert DeepSeek OK）
-- **push**: PENDING
+- **push**: a54bf0c main
 - **panel**: https://reboot7454.github.io/early-scout/
 
 ```json
@@ -87,7 +87,7 @@
     "THEFORGEEN_NFT already in-lib",
     "loresdotfun already in-lib"
   ],
-  "push": "PENDING",
+  "push": "a54bf0c",
   "panel": "https://reboot7454.github.io/early-scout/"
 }
 ```
