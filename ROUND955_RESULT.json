@@ -1,0 +1,102 @@
+{
+  "round": 955,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-31 05:56 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R955新收：LoupoAI（极早期AI DEX）、StockCats（像素猫对战）、bag battles（Solana memecoin卡牌）；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "loupoai",
+    "stockcatsfun",
+    "bagbattles"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "loupoai",
+    "stockcatsfun",
+    "bagbattles"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 7,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "candidateFlagsCleared": 0,
+  "topNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=3",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-31 05:53",
+    "lastChecked": "2026-10-31 05:56 CST",
+    "newestCardTime": "2026-10-31 05:14",
+    "cardsAfterCutoff": 7,
+    "note": "R955：Discord alpha 补收 loupoai,stockcatsfun,bagbattles；lastSeen→2026-10-31 05:46；lastChecked→2026-10-31 05:56 CST",
+    "lastRound": 955,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-31 05:53",
+      "alpha-1-backup": "2026-10-31 05:43",
+      "smart-accounts-tracker": "2026-10-31 05:16",
+      "alpha-1": "2026-10-31 04:48"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R955：Discord alpha 补收 loupoai,stockcatsfun,bagbattles；lastSeen→2026-10-31 05:46；lastChecked→2026-10-31 05:56 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261031_0556.json",
+  "priorRoundNote": "R954 meta NTR []; cardsAfterCutoff=7",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-10-31 05:53",
+    "alpha-1-backup": "2026-10-31 05:43",
+    "smart-accounts-tracker": "2026-10-31 05:16",
+    "alpha-1": "2026-10-31 04:48"
+  },
+  "cardsRead": 7,
+  "rejected": [
+    {
+      "handle": "@howdy_app",
+      "reason": "bio仅泛泛奖励与AI口号，无具体产品、发射或玩法线索，拒。"
+    },
+    {
+      "handle": "@ZapiaAI",
+      "reason": "bio一句话且无产品/发射线索，空壳迹象明显，拒。"
+    },
+    {
+      "handle": "@xeibocapital",
+      "reason": "传统投行/M&A机构简介，非可交互加密项目，拒。"
+    },
+    {
+      "handle": "@adisingh",
+      "reason": "高粉(7419)个人/KOL"
+    }
+  ],
+  "rejectedCount": 4,
+  "dsRejects": 3,
+  "admissions": [
+    {
+      "id": "loupoai",
+      "handle": "@LoupoAI",
+      "category": "台子/Meme",
+      "name": "Loupo"
+    },
+    {
+      "id": "stockcatsfun",
+      "handle": "@stockcatsfun",
+      "category": "台子/Meme",
+      "name": "StockCats"
+    },
+    {
+      "id": "bagbattles",
+      "handle": "@bagbattles",
+      "category": "台子/Meme",
+      "name": "bag battles"
+    }
+  ],
+  "alert": "DC补漏R955新收：LoupoAI（极早期AI DEX）、StockCats（像素猫对战）、bag battles（Solana memecoin卡牌）；面板 https://reboot7454.github.io/early-scout/"
+}
