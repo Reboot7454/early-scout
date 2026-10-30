@@ -149,10 +149,18 @@
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R945 日额已尽：零X读取；修Watch漏挂×9；软债刷lastChecked×35；Ombrello Public已开（不重复告警）；全量UF+十栏关键词+全链mentions延至08:00 CST；无新/不重复≤2h；不通知。",
   "push": {
-    "ok": false,
-    "attempted": false
+    "ok": true,
+    "attempted": true,
+    "commit": "2af4b2e",
+    "sha": "2af4b2eeed48be0c5aba2441d7856bc278c897a2",
+    "branch": "main",
+    "files": [
+      "data.json",
+      "ROUND945_RESULT.json"
+    ],
+    "message": "R945: X exhausted — Watch漏挂修 + soft-debt; full scan deferred 08:00 CST"
   },
-  "remoteVerified": false,
+  "remoteVerified": true,
   "priorRoundNote": "R944 Discord admits delvers-px/seismo already in candidates; R945 watch-wiring + soft-debt; ZERO X",
   "xQuotaNote": "daily limit 1000 reached; remaining=0 until 2026-10-31T00:00:00.000Z = 08:00 Asia/Shanghai"
 }
