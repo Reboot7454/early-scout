@@ -13,5 +13,5 @@
 - **discordPeekDeferred**: true（本执行体无浏览器/未登录DC）
 - **soft**: canton/glaze/tokenWorks + 全must-watch lastChecked→2026-10-30 19:05 CST；lives soft-stamp；moribundus/wuse/chyai 硬刷新
 - **dsFallback**: false (deepseek-flash+thinking admit+score+alert)
-- **push**: (pending)
+- **push**: ok `6d8a0fc`
 - **alert**: 新收only.meme（Solana meme台Beta LIVE）+Yield Fields（RH链预告）；今晚20:00 CST Moribundus开铸@0.0044BNB 1/AgentID、21:00 ChyAI分期销售；Wuse免费Pass/wedo/swarmhive等仍LIVE：https://reboot7454.github.io/early-scout/
