@@ -13,5 +13,5 @@
 - **discordPeekDeferred**: true（本执行体无浏览器/未登录DC）
 - **soft**: canton/glaze/tokenWorks + 全must-watch lastChecked→2026-10-30 18:40 CST
 - **dsFallback**: false (deepseek-flash+thinking admit+score+alert)
-- **push**: pending
+- **push**: ok `21715bb`
 - **alert**: 新收SWARM Hive BNB Agent ID公平铸造LIVE（约9025/444000，LP已烧）；今晚21:00 CST ChyAI分期销售；wedo/coineko/babel/turbokart/suan等仍可打LIVE：https://reboot7454.github.io/early-scout/
