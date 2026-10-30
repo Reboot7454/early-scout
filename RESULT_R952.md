@@ -155,8 +155,8 @@
   "push": {
     "ok": true,
     "attempted": true,
-    "commit": "27f1930",
-    "sha": "27f19302b31bb843fa0bf0d0b0967dda38932ed7",
+    "commit": "fedf779",
+    "sha": "fedf779e7831b68f538e5632ded29824289e75ff",
     "branch": "main",
     "files": [
       "data.json",
@@ -165,7 +165,7 @@
     ],
     "message": "R952: X exhausted — Watch漏挂修 + soft-debt; full scan deferred 08:00 CST"
   },
-  "remoteVerified": true,
+  "remoteVerified": false,
   "priorRoundNote": "R951 admitted streamlitmaker/dominioncoins/razor-agent (discord-alpha); R950 fixed lanternfield/launchr/moorin/agentmao/hackedbyagent/hookkit/quirkzai/candynightapp; R952 continues Watch漏挂 batch + soft-debt; ZERO X",
   "xQuotaNote": "daily limit 1000 reached; remaining=0 until 2026-10-31T00:00:00.000Z = 08:00 Asia/Shanghai",
   "note": "mode=x-exhausted-local; deferred full scan until 08:00 CST; watchBugs×8; softDebt×35; remaining R900+ DC watch-leaks deferred≈18"
