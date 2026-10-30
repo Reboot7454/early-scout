@@ -11,7 +11,7 @@
 - **soft**: glaze/canton/tokenworks lastChecked；agentshift~1500/4444；printer>3300；hashore 8900/10000；1k AL 19:00 CST；StonkRobotics 免费档完+密封22:00 CST；capup 80/20；Nutshell teaser；palu/liquid soft refresh
 - **skipped**: SOLVD 无官推；Memoo_AI DS score 拒收；arklis 非极早；Slamcast/ChainWars 低质；mobster/starx/Leeonmort/Tarotix Not Found；koai/synape/beepz/jager/elypad/bunny/dotBots/hirelings/danta 已在库
 - **dsFallback**: false（admit/score/alert DeepSeek OK）
-- **push**: PENDING
+- **push**: a9cf272
 - **panel**: https://reboot7454.github.io/early-scout/
 
 ```json
@@ -97,7 +97,7 @@
     "dotBots_ai / hirelingsai / danta — already in-lib",
     "YaoD9999 flap shill — skip"
   ],
-  "push": "PENDING",
+  "push": "a9cf272",
   "panel": "https://reboot7454.github.io/early-scout/",
   "writtenAt": "2026-10-30 13:02 CST"
 }
