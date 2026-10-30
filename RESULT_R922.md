@@ -1,0 +1,11 @@
+# Early-Scout R922 RESULT
+- **round**: 922 | **notify**: true
+- **newIds**: elysium-degens (@ElysiumDegens，Elysium 2222 NFT，WL免费mint LIVE，11/9桥主网，40粉), artasmonkey (@artasmonkey，RH链1500像素猴免费mint预告，KOL 120+ GTD抽奖，123粉)
+- **le2h**: AIDOG 20:00已开铸（官推19份）；SIGILS 203枚（首个免费，之后$1）；chyai 21:00；elysium-degens 免费LIVE
+- **xReads**: 5 | **remaining**: 189/1000（偏紧，UF→必盯→合并关键词）
+- **keywordsTenCols**: true（单次合并：Agent ID/free mint/fair launch/agent mining/AIDROP/打新/挖矿/launchpad/GO盘/TapeOut/GIWA/DogeEVM/Starknet/Elysium/X Layer/STARX/squeek/Ordinals/LZ）
+- **userFollowDone**: priority subset soft（mobster/machine/bscaidrop/Pulse/localbottom/Nutshell/starx/squeek/gang/SUAN/dotaipad/pipfun/agentpunk/Ptah/yinghu/Tape/Elysium/AIDOG/Sigils/ComputeRoll）
+- **mentions**: Elysium/kinetiq/Tape/TapeOut/GIWA/DogeOS/Starknet/flap/Irys/squeek/starx/XLayer/ShieldedNaka(BTC)/Nutshell/gang/dotaipad 合并一查
+- **skipped**: ElysiumInu（疑测试网meme，31粉）、usenami（测试网，主网后4周）、JAGENT Mint Pass（无官推）、Tidewell/TopFloor/Companions/torpor/Bitizens 已在库
+- **watchBugs**: elysium-degens/artasmonkey→UF+freeMint(+elysium)
+- **discordPeekDeferred**: true；**dsFallback**: false（deepseek-flash thinking）
