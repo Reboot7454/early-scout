@@ -13,5 +13,5 @@
 - **discordPeekDeferred**: true（本执行体无浏览器/未登录DC）
 - **soft**: canton/glaze/tokenWorks + 全must-watch lastChecked→2026-10-30 19:32 CST；lives soft-stamp；moribundus/chyai/wuse 硬刷新
 - **dsFallback**: false (deepseek-flash+thinking admit+score+alert)
-- **push**: pending
+- **push**: ok `cdae51f`
 - **alert**: 新收Stockium（Elysium股票配对launchpad+Tradium LIVE）+Hoodrai（RH链888免费mint~3天后）；今晚20:00 CST Moribundus开铸（GTD满剩~1000FCFS@0.0044BNB）、21:00 ChyAI分期销售；Wuse Pass已铸~2100仍LIVE：https://reboot7454.github.io/early-scout/
