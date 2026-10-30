@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-31 03:35 CST",
+    "updated": "2026-10-31 03:58 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R905",
-    "lastScout": "2026-10-31 03:35 CST",
+    "lastScout": "2026-10-31 03:58 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -613,7 +613,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 947,
+    "round": 948,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1735,7 +1735,14 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "dock-hood",
+      "robinhood-hormuz",
+      "hexwarp",
+      "kori",
+      "only-ponzi",
+      "mcpmarkets"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -3668,18 +3675,18 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-10-31 03:18",
-      "lastChecked": "2026-10-31 03:24 CST",
-      "newestCardTime": "2026-10-31 02:34",
-      "cardsAfterCutoff": 15,
-      "note": "R947：跳过DC（R946刚做过重扫）；discordPeekDeferred=true；沿用 lastSeen=2026-10-31 03:18",
-      "lastRound": 946,
+      "deferred": false,
+      "lastSeen": "2026-10-31 03:56",
+      "lastChecked": "2026-10-31 03:58 CST",
+      "newestCardTime": "2026-10-31 03:18",
+      "cardsAfterCutoff": 20,
+      "note": "R948：Discord alpha 补收 dock-hood,robinhood-hormuz,hexwarp,kori,only-ponzi,mcpmarkets；lastSeen→2026-10-31 03:50；lastChecked→2026-10-31 03:58 CST",
+      "lastRound": 948,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-31 03:18",
-        "alpha-1-backup": "2026-10-31 01:28",
-        "smart-accounts-tracker": "2026-10-31 02:56",
-        "alpha-1": "2026-10-31 02:36"
+        "alpha-3-new-accounts": "2026-10-31 03:56",
+        "alpha-1-backup": "2026-10-31 03:46",
+        "smart-accounts-tracker": "2026-10-31 03:10",
+        "alpha-1": "2026-10-31 03:56"
       }
     },
     "round239Added": [
@@ -14527,9 +14534,282 @@
       ],
       "lastChecked": "2026-10-31 03:35 CST",
       "note": "R947 x-exhausted-local: R946 DC admits×4 in-lib not in any Watch → dual-write + UF(+lane)"
-    }
+    },
+    "round948Added": [
+      "dock-hood",
+      "robinhood-hormuz",
+      "hexwarp",
+      "kori",
+      "only-ponzi",
+      "mcpmarkets"
+    ]
   },
   "candidates": [
+    {
+      "id": "mcpmarkets",
+      "name": "MCP",
+      "handle": "@mcpmarkets",
+      "twitter": "@mcpmarkets",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/mcpmarkets"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 8,
+        "actionable": 7,
+        "overall": 6.6
+      },
+      "highlights": [
+        "AI内NFT/token",
+        "通过对话mint",
+        "$MCP代币"
+      ],
+      "drawbacks": [
+        "产品形态待验证",
+        "链信息未注明"
+      ],
+      "whatsNew": "AI内直接mint NFT/token",
+      "summary": "MCP主打在AI中通过对话mint NFT/token，并带$MCP代币概念。",
+      "blurb": "AI mint概念早期项目。",
+      "round": 948,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 421,
+      "xFollowers": 421,
+      "firstSeen": "2026-10-31 03:58 CST",
+      "addedAt": "2026-10-31 03:58 CST",
+      "lastChecked": "2026-10-31 03:58 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "only-ponzi",
+      "name": "Only Ponzi",
+      "handle": "@only_ponzi",
+      "twitter": "@only_ponzi",
+      "chain": "BNB",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/only_ponzi"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 9,
+        "novelty": 7,
+        "actionable": 8,
+        "overall": 6.8
+      },
+      "highlights": [
+        "10,000 soulbound NFT",
+        "mint产出$0PONZI",
+        "最后mint拿1,000 USDT奖池"
+      ],
+      "drawbacks": [
+        "Ponzi机制风险极高",
+        "需验证合约真实性"
+      ],
+      "whatsNew": "BNB上soulbound NFT mint与Ponzi奖池机制",
+      "summary": "BNB链上极早期NFT mint项目，每mint挖代币并向前序NFT分配，最后mint拿奖池。",
+      "blurb": "机制明确的早期Ponzi式mint，高风险观察。",
+      "round": 948,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 3,
+      "xFollowers": 3,
+      "firstSeen": "2026-10-31 03:58 CST",
+      "addedAt": "2026-10-31 03:58 CST",
+      "lastChecked": "2026-10-31 03:58 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "kori",
+      "name": "Kori",
+      "handle": "@koriraised",
+      "twitter": "@koriraised",
+      "chain": "BNB Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/koriraised"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 8,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.4
+      },
+      "highlights": [
+        "免费投票卡 + 投票充能的互动机制"
+      ],
+      "drawbacks": [
+        "无链接、无合约、无发行时间",
+        "叙事空泛，易为概念号"
+      ],
+      "whatsNew": "Kori 在 BNB Chain 上推『不买只养』的投票充能玩法。",
+      "summary": "机制描述存在但完全未验证的 BNB Chain 早期小盘，仅作低优先观察。",
+      "blurb": "BNB Chain 投票充能小盘。",
+      "round": 948,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 2,
+      "xFollowers": 2,
+      "firstSeen": "2026-10-31 03:58 CST",
+      "addedAt": "2026-10-31 03:58 CST",
+      "lastChecked": "2026-10-31 03:58 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "hexwarp",
+      "name": "$HEXWARP",
+      "handle": "@hexwarpxyz",
+      "twitter": "@hexwarpxyz",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/hexwarpxyz"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 5.9
+      },
+      "highlights": [
+        "AI 编码 agent 产品 + $HEXWARP 信用计费",
+        "已在 @Pons 上发射"
+      ],
+      "drawbacks": [
+        "无 demo、无合约地址",
+        "账号极新，粉丝 1"
+      ],
+      "whatsNew": "HEXWARP 在 Pons 上发行，主打一句话生成应用的 AI 编码代理。",
+      "summary": "Pons 上的 AI 工具代币早期盘，产品叙事具体但零验证，需蹲合约与 demo。",
+      "blurb": "Pons 上的 AI coding agent 代币。",
+      "round": 948,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-10-31 03:58 CST",
+      "addedAt": "2026-10-31 03:58 CST",
+      "lastChecked": "2026-10-31 03:58 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "robinhood-hormuz",
+      "name": "Robinhood of Hormuz",
+      "handle": "@robinhoodhormuz",
+      "twitter": "@robinhoodhormuz",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/robinhoodhormuz"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 6.3
+      },
+      "highlights": [
+        "RWA 叙事：战利品价值跟踪油价",
+        "明确的升级与掠夺玩法循环"
+      ],
+      "drawbacks": [
+        "仅 'Set sail soon'，无链上证据",
+        "无代币合约与链接"
+      ],
+      "whatsNew": "上线前的 Robinhood Chain 海盗链游，将游戏收益与油价挂钩。",
+      "summary": "玩法设计清晰的 Robinhood Chain 早期链游，值得列入观察名单，等待测试或 mint 信息。",
+      "blurb": "油价挂钩的海盗链游早期盘。",
+      "round": 948,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 3,
+      "xFollowers": 3,
+      "firstSeen": "2026-10-31 03:58 CST",
+      "addedAt": "2026-10-31 03:58 CST",
+      "lastChecked": "2026-10-31 03:58 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "dock-hood",
+      "name": "DockHood",
+      "handle": "@dock_hood",
+      "twitter": "@dock_hood",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/dock_hood"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 5.9
+      },
+      "highlights": [
+        "定位为『定理背书代币』的发射台",
+        "落在 Robinhood Chain 新生态"
+      ],
+      "drawbacks": [
+        "无官网、合约与上线时间",
+        "粉丝仅 2，概念阶段"
+      ],
+      "whatsNew": "DockHood 以数学/定理叙事在 Robinhood Chain 上做 launchpad。",
+      "summary": "Robinhood Chain 上的早期发射台，叙事独特但尚无任何可验证产品，低仓位观察。",
+      "blurb": "Robinhood Chain 定理叙事发射台。",
+      "round": 948,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 2,
+      "xFollowers": 2,
+      "firstSeen": "2026-10-31 03:58 CST",
+      "addedAt": "2026-10-31 03:58 CST",
+      "lastChecked": "2026-10-31 03:58 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "propchange-io",
       "name": "propchange",
@@ -155120,20 +155400,22 @@
     }
   ],
   "newThisRound": [
-    "capybyclaude",
-    "burrowrh",
-    "orimgame",
-    "propchange-io"
+    "dock-hood",
+    "robinhood-hormuz",
+    "hexwarp",
+    "kori",
+    "only-ponzi",
+    "mcpmarkets"
   ],
-  "alertMessage": "DC补漏R946新收4个：theclaudeguy、Burrow、Orim、propchange；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R948新收6项：DockHood、Robinhood of Hormuz等；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [],
-  "updatedAt": "2026-10-31 03:24 CST",
-  "updated": "2026-10-31 03:24 CST",
+  "updatedAt": "2026-10-31 03:58 CST",
+  "updated": "2026-10-31 03:58 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-31 03:24 CST",
+  "lastScout": "2026-10-31 03:58 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -155175,7 +155457,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 2266,
+  "candidateCount": 2272,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -156703,5 +156985,13 @@
     "burrowrh",
     "orimgame",
     "propchange-io"
+  ],
+  "round948Added": [
+    "dock-hood",
+    "robinhood-hormuz",
+    "hexwarp",
+    "kori",
+    "only-ponzi",
+    "mcpmarkets"
   ]
 }
