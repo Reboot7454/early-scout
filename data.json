@@ -615,7 +615,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 950,
+    "round": 951,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -3694,15 +3694,15 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-10-31 03:56",
-      "lastChecked": "2026-10-31 03:58 CST",
-      "newestCardTime": "2026-10-31 03:18",
-      "cardsAfterCutoff": 20,
-      "note": "R949：X exhausted / 无浏览器；discordPeekDeferred=true；R948刚做过DC补收×6；沿用 lastSeen=2026-10-31 03:56",
-      "lastRound": 948,
+      "deferred": false,
+      "lastSeen": "2026-10-31 04:32",
+      "lastChecked": "2026-10-31 04:35 CST",
+      "newestCardTime": "2026-10-31 03:56",
+      "cardsAfterCutoff": 11,
+      "note": "R951 DC补漏：读alpha-3约50卡挑11，DS收3拒8；backup/alpha-1/smart 各1卡均个人/KOL跳过",
+      "lastRound": 951,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-31 03:56",
+        "alpha-3-new-accounts": "2026-10-31 04:32",
         "alpha-1-backup": "2026-10-31 03:46",
         "smart-accounts-tracker": "2026-10-31 03:10",
         "alpha-1": "2026-10-31 03:56"
@@ -14613,6 +14613,139 @@
   },
   "candidates": [
     {
+      "id": "razor-agent",
+      "name": "Razor Agent",
+      "handle": "@razor_agent",
+      "twitter": "@razor_agent",
+      "chain": "BNB Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/razor_agent"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.1
+      },
+      "highlights": [
+        "创世 mint 玩法明确，资金托管到池子开放",
+        "BNB Chain 生态，零关注极早期"
+      ],
+      "drawbacks": [
+        "0 关注、3 关注中，匿名度高",
+        "托管与池子开放仅为自述，无第三方证明"
+      ],
+      "whatsNew": "首个以 agent 为主题的 BNB Chain 创世 mint，采用资金托管待开池机制。",
+      "summary": "Razor Agent 自称 BNB Chain 上的 agent 原生创世 mint($RZAG)，资金先托管、池子开放后释放，账号全新且零关注，属于可埋伏但风险偏高的早期打新卡。",
+      "blurb": "BNB 上的 agent 主题创世 mint，托管开池玩法待验证。",
+      "round": 951,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 04:35 CST",
+      "addedAt": "2026-10-31 04:35 CST",
+      "lastChecked": "2026-10-31 04:35 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "dominioncoins",
+      "name": "Overwatch Dominion",
+      "handle": "@dominioncoins",
+      "twitter": "@dominioncoins",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/dominioncoins"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 5,
+        "actionable": 3,
+        "overall": 5
+      },
+      "highlights": [
+        "绑定Robinhood Chain上的Pons发射场",
+        "AI agent colony叙事+热点转meme币机制"
+      ],
+      "drawbacks": [
+        "自动化账号，4粉极小",
+        "无官网/合约链接",
+        "产品落地未验证"
+      ],
+      "whatsNew": "AI agent colony把病毒式热点转为Robinhood Chain(Pons) meme币",
+      "summary": "极早期AI agent叙事meme发射项目，bio给出链与发射场线索但落地待验证。",
+      "blurb": "AI殖民地热点转meme，Robinhood Chain早期",
+      "round": 951,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 4,
+      "xFollowers": 4,
+      "firstSeen": "2026-10-31 04:35 CST",
+      "addedAt": "2026-10-31 04:35 CST",
+      "lastChecked": "2026-10-31 04:35 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "streamlitmaker",
+      "name": "Streamlit $STREAM",
+      "handle": "@streamlitmaker",
+      "twitter": "@streamlitmaker",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/streamlitmaker"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 5.5
+      },
+      "highlights": [
+        "soulbound 徽章把持有时长换成创作者费用份额",
+        "有独立官网 streamlit.site"
+      ],
+      "drawbacks": [
+        "粉丝几乎为零，社区尚未形成",
+        "机制细节未公开，且无链上地址信息"
+      ],
+      "whatsNew": "新出现的 $STREAM 持币徽章分成玩法",
+      "summary": "$STREAM 以长时间持有累积 soulbound 徽章、从而放大创作者费用分成为卖点，属于极早期可参与的代币化玩法。",
+      "blurb": "持仓换徽章分成的极早期 $STREAM，可观察。",
+      "round": 951,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-10-31 04:35 CST",
+      "addedAt": "2026-10-31 04:35 CST",
+      "lastChecked": "2026-10-31 04:35 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
       "id": "mcpmarkets",
       "name": "MCP",
       "handle": "@mcpmarkets",
@@ -14655,8 +14788,7 @@
       "firstSeen": "2026-10-31 03:58 CST",
       "addedAt": "2026-10-31 03:58 CST",
       "lastChecked": "2026-10-31 04:01 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "only-ponzi",
@@ -14701,8 +14833,7 @@
       "firstSeen": "2026-10-31 03:58 CST",
       "addedAt": "2026-10-31 03:58 CST",
       "lastChecked": "2026-10-31 04:01 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "kori",
@@ -14745,8 +14876,7 @@
       "firstSeen": "2026-10-31 03:58 CST",
       "addedAt": "2026-10-31 03:58 CST",
       "lastChecked": "2026-10-31 04:01 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "hexwarp",
@@ -14790,8 +14920,7 @@
       "firstSeen": "2026-10-31 03:58 CST",
       "addedAt": "2026-10-31 03:58 CST",
       "lastChecked": "2026-10-31 04:01 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "robinhood-hormuz",
@@ -14835,8 +14964,7 @@
       "firstSeen": "2026-10-31 03:58 CST",
       "addedAt": "2026-10-31 03:58 CST",
       "lastChecked": "2026-10-31 04:01 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "dock-hood",
@@ -14880,8 +15008,7 @@
       "firstSeen": "2026-10-31 03:58 CST",
       "addedAt": "2026-10-31 03:58 CST",
       "lastChecked": "2026-10-31 04:01 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "propchange-io",
@@ -14924,8 +15051,7 @@
       "firstSeen": "2026-10-31 03:24 CST",
       "addedAt": "2026-10-31 03:24 CST",
       "lastChecked": "2026-10-31 03:35 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "orimgame",
@@ -14968,8 +15094,7 @@
       "firstSeen": "2026-10-31 03:24 CST",
       "addedAt": "2026-10-31 03:24 CST",
       "lastChecked": "2026-10-31 03:35 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "burrowrh",
@@ -15013,8 +15138,7 @@
       "firstSeen": "2026-10-31 03:24 CST",
       "addedAt": "2026-10-31 03:24 CST",
       "lastChecked": "2026-10-31 03:35 CST",
-      "zoneHint": "挖矿",
-      "newThisRound": false
+      "zoneHint": "挖矿"
     },
     {
       "id": "capybyclaude",
@@ -15058,8 +15182,7 @@
       "firstSeen": "2026-10-31 03:24 CST",
       "addedAt": "2026-10-31 03:24 CST",
       "lastChecked": "2026-10-31 03:35 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "seismo",
@@ -15103,8 +15226,7 @@
       "firstSeen": "2026-10-31 02:37 CST",
       "addedAt": "2026-10-31 02:37 CST",
       "lastChecked": "2026-10-31 02:37 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "delvers-px",
@@ -15149,8 +15271,7 @@
       "firstSeen": "2026-10-31 02:37 CST",
       "addedAt": "2026-10-31 02:37 CST",
       "lastChecked": "2026-10-31 02:37 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "bububullfun",
@@ -15192,8 +15313,7 @@
       "firstSeen": "2026-10-31 02:05 CST",
       "addedAt": "2026-10-31 02:05 CST",
       "lastChecked": "2026-10-31 02:05 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "nuxusapp",
@@ -15236,8 +15356,7 @@
       "firstSeen": "2026-10-31 02:05 CST",
       "addedAt": "2026-10-31 02:05 CST",
       "lastChecked": "2026-10-31 02:05 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "magnitude-mag",
@@ -15281,8 +15400,7 @@
       "firstSeen": "2026-10-31 02:05 CST",
       "addedAt": "2026-10-31 02:05 CST",
       "lastChecked": "2026-10-31 02:05 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "amphora",
@@ -15329,7 +15447,6 @@
       "addedAt": "2026-10-31 02:05 CST",
       "lastChecked": "2026-10-31 02:05 CST",
       "zoneHint": "Elysium",
-      "newThisRound": false,
       "zone": "台子/Meme"
     },
     {
@@ -15373,8 +15490,7 @@
       "firstSeen": "2026-10-31 01:25 CST",
       "addedAt": "2026-10-31 01:25 CST",
       "lastChecked": "2026-10-31 01:25 CST",
-      "zoneHint": "挖矿",
-      "newThisRound": false
+      "zoneHint": "挖矿"
     },
     {
       "id": "elysiumbrokers",
@@ -15418,8 +15534,7 @@
       "firstSeen": "2026-10-31 01:25 CST",
       "addedAt": "2026-10-31 01:25 CST",
       "lastChecked": "2026-10-31 01:25 CST",
-      "zoneHint": "Elysium",
-      "newThisRound": false
+      "zoneHint": "Elysium"
     },
     {
       "id": "rheacatnear",
@@ -15463,8 +15578,7 @@
       "firstSeen": "2026-10-31 01:25 CST",
       "addedAt": "2026-10-31 01:25 CST",
       "lastChecked": "2026-10-31 01:25 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "mattresssafu",
@@ -15508,8 +15622,7 @@
       "firstSeen": "2026-10-31 01:25 CST",
       "addedAt": "2026-10-31 01:25 CST",
       "lastChecked": "2026-10-31 01:25 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "keelport",
@@ -15554,8 +15667,7 @@
       "firstSeen": "2026-10-31 01:25 CST",
       "addedAt": "2026-10-31 01:25 CST",
       "lastChecked": "2026-10-31 01:25 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "gatchaverse",
@@ -15599,8 +15711,7 @@
       "firstSeen": "2026-10-31 00:44 CST",
       "addedAt": "2026-10-31 00:44 CST",
       "lastChecked": "2026-10-31 00:44 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "toritoteamus",
@@ -15643,8 +15754,7 @@
       "firstSeen": "2026-10-31 00:44 CST",
       "addedAt": "2026-10-31 00:44 CST",
       "lastChecked": "2026-10-31 00:44 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "axiomos-click",
@@ -15687,8 +15797,7 @@
       "firstSeen": "2026-10-31 00:44 CST",
       "addedAt": "2026-10-31 00:44 CST",
       "lastChecked": "2026-10-31 00:44 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "sproutagents",
@@ -15732,8 +15841,7 @@
       "firstSeen": "2026-10-31 00:44 CST",
       "addedAt": "2026-10-31 00:44 CST",
       "lastChecked": "2026-10-31 00:44 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "99901-fun",
@@ -15776,8 +15884,7 @@
       "firstSeen": "2026-10-31 00:44 CST",
       "addedAt": "2026-10-31 00:44 CST",
       "lastChecked": "2026-10-31 00:44 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "txscope",
@@ -15821,8 +15928,7 @@
       "firstSeen": "2026-10-31 00:44 CST",
       "addedAt": "2026-10-31 00:44 CST",
       "lastChecked": "2026-10-31 00:44 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "boolish-rh",
@@ -15867,8 +15973,7 @@
       "firstSeen": "2026-10-31 00:00 CST",
       "addedAt": "2026-10-31 00:00 CST",
       "lastChecked": "2026-10-31 00:00 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "austraverse",
@@ -15914,8 +16019,7 @@
       "firstSeen": "2026-10-31 00:00 CST",
       "addedAt": "2026-10-31 00:00 CST",
       "lastChecked": "2026-10-31 00:00 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "adapter",
@@ -15961,8 +16065,7 @@
       "firstSeen": "2026-10-31 00:00 CST",
       "addedAt": "2026-10-31 00:00 CST",
       "lastChecked": "2026-10-31 00:00 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "drift-room",
@@ -16006,8 +16109,7 @@
       "firstSeen": "2026-10-31 00:00 CST",
       "addedAt": "2026-10-31 00:00 CST",
       "lastChecked": "2026-10-31 00:00 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "askpantheon",
@@ -16051,8 +16153,7 @@
       "firstSeen": "2026-10-31 00:00 CST",
       "addedAt": "2026-10-31 00:00 CST",
       "lastChecked": "2026-10-31 00:00 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "aethrafi",
@@ -16096,8 +16197,7 @@
       "firstSeen": "2026-10-31 00:00 CST",
       "addedAt": "2026-10-31 00:00 CST",
       "lastChecked": "2026-10-31 00:00 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "uselyris",
@@ -16141,8 +16241,7 @@
       "firstSeen": "2026-10-31 00:00 CST",
       "addedAt": "2026-10-31 00:00 CST",
       "lastChecked": "2026-10-31 00:00 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "writ-fi",
@@ -16194,8 +16293,7 @@
       "firstSeen": "2026-10-30 23:35 CST",
       "addedAt": "2026-10-30 23:35 CST",
       "lastChecked": "2026-10-30 23:35 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "jacks-crew",
@@ -16248,7 +16346,6 @@
       "addedAt": "2026-10-30 23:35 CST",
       "lastChecked": "2026-10-31 02:32 CST",
       "zoneHint": "打新",
-      "newThisRound": false,
       "le2h": false
     },
     {
@@ -16300,8 +16397,7 @@
       "firstSeen": "2026-10-30 23:35 CST",
       "addedAt": "2026-10-30 23:35 CST",
       "lastChecked": "2026-10-31 00:39 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "musterupfun",
@@ -16345,8 +16441,7 @@
       "firstSeen": "2026-10-30 23:24 CST",
       "addedAt": "2026-10-30 23:24 CST",
       "lastChecked": "2026-10-30 23:24 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "usekyte",
@@ -16390,8 +16485,7 @@
       "firstSeen": "2026-10-30 23:24 CST",
       "addedAt": "2026-10-30 23:24 CST",
       "lastChecked": "2026-10-30 23:24 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "wobblokzai",
@@ -16436,8 +16530,7 @@
       "firstSeen": "2026-10-30 23:24 CST",
       "addedAt": "2026-10-30 23:24 CST",
       "lastChecked": "2026-10-31 02:32 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "pengweensolana",
@@ -16481,8 +16574,7 @@
       "firstSeen": "2026-10-30 23:24 CST",
       "addedAt": "2026-10-30 23:24 CST",
       "lastChecked": "2026-10-30 23:24 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "markdrop-org",
@@ -16525,8 +16617,7 @@
       "firstSeen": "2026-10-30 23:24 CST",
       "addedAt": "2026-10-30 23:24 CST",
       "lastChecked": "2026-10-30 23:24 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "descending-app",
@@ -16569,8 +16660,7 @@
       "firstSeen": "2026-10-30 23:24 CST",
       "addedAt": "2026-10-30 23:24 CST",
       "lastChecked": "2026-10-30 23:24 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "useoffer",
@@ -16613,8 +16703,7 @@
       "firstSeen": "2026-10-30 23:24 CST",
       "addedAt": "2026-10-30 23:24 CST",
       "lastChecked": "2026-10-30 23:24 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "useriptide",
@@ -16657,8 +16746,7 @@
       "firstSeen": "2026-10-30 23:24 CST",
       "addedAt": "2026-10-30 23:24 CST",
       "lastChecked": "2026-10-30 23:24 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "bellwethers-ai",
@@ -16701,8 +16789,7 @@
       "firstSeen": "2026-10-30 23:24 CST",
       "addedAt": "2026-10-30 23:24 CST",
       "lastChecked": "2026-10-30 23:24 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "qtardsxyz",
@@ -16745,8 +16832,7 @@
       "firstSeen": "2026-10-30 22:44 CST",
       "addedAt": "2026-10-30 22:44 CST",
       "lastChecked": "2026-10-30 22:44 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "auralis",
@@ -16789,8 +16875,7 @@
       "firstSeen": "2026-10-30 22:44 CST",
       "addedAt": "2026-10-30 22:44 CST",
       "lastChecked": "2026-10-30 22:44 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "riftfrontier",
@@ -16833,8 +16918,7 @@
       "firstSeen": "2026-10-30 22:44 CST",
       "addedAt": "2026-10-30 22:44 CST",
       "lastChecked": "2026-10-30 22:44 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "safu-fund-bnb",
@@ -16877,8 +16961,7 @@
       "firstSeen": "2026-10-30 22:44 CST",
       "addedAt": "2026-10-30 22:44 CST",
       "lastChecked": "2026-10-30 22:44 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "sharpsheet-rh",
@@ -16922,8 +17005,7 @@
       "firstSeen": "2026-10-30 22:44 CST",
       "addedAt": "2026-10-30 22:44 CST",
       "lastChecked": "2026-10-30 22:44 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "kairoslaunch",
@@ -16967,8 +17049,7 @@
       "firstSeen": "2026-10-30 22:44 CST",
       "addedAt": "2026-10-30 22:44 CST",
       "lastChecked": "2026-10-30 22:44 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "eggnoggy",
@@ -17011,8 +17092,7 @@
       "firstSeen": "2026-10-30 22:44 CST",
       "addedAt": "2026-10-30 22:44 CST",
       "lastChecked": "2026-10-30 22:44 CST",
-      "zoneHint": "挖矿",
-      "newThisRound": false
+      "zoneHint": "挖矿"
     },
     {
       "id": "beatmiss",
@@ -17055,8 +17135,7 @@
       "firstSeen": "2026-10-30 22:44 CST",
       "addedAt": "2026-10-30 22:44 CST",
       "lastChecked": "2026-10-30 22:44 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "mori-cat",
@@ -17099,8 +17178,7 @@
       "firstSeen": "2026-10-30 22:44 CST",
       "addedAt": "2026-10-30 22:44 CST",
       "lastChecked": "2026-10-30 22:44 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "potionrh",
@@ -17143,8 +17221,7 @@
       "firstSeen": "2026-10-30 22:44 CST",
       "addedAt": "2026-10-30 22:44 CST",
       "lastChecked": "2026-10-30 22:44 CST",
-      "zoneHint": "挖矿",
-      "newThisRound": false
+      "zoneHint": "挖矿"
     },
     {
       "id": "cardstock",
@@ -17187,8 +17264,7 @@
       "firstSeen": "2026-10-30 22:44 CST",
       "addedAt": "2026-10-30 22:44 CST",
       "lastChecked": "2026-10-30 22:44 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "polyform",
@@ -17231,8 +17307,7 @@
       "firstSeen": "2026-10-30 22:44 CST",
       "addedAt": "2026-10-30 22:44 CST",
       "lastChecked": "2026-10-30 22:44 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "cogladius",
@@ -17273,7 +17348,6 @@
       ],
       "twitter": "@Cogladius",
       "handle": "@Cogladius",
-      "newThisRound": false,
       "addedAt": "2026-10-30 22:15 CST",
       "lastChecked": "2026-10-31 02:32 CST",
       "scores": {
@@ -17323,7 +17397,6 @@
       ],
       "twitter": "@Silicon_Dreamer",
       "handle": "@Silicon_Dreamer",
-      "newThisRound": false,
       "addedAt": "2026-10-30 22:15 CST",
       "lastChecked": "2026-10-31 02:32 CST",
       "scores": {
@@ -17374,7 +17447,6 @@
       ],
       "twitter": "@mimiai_web3",
       "handle": "@mimiai_web3",
-      "newThisRound": false,
       "addedAt": "2026-10-30 22:15 CST",
       "lastChecked": "2026-10-31 02:32 CST",
       "scores": {
@@ -17429,8 +17501,7 @@
       "firstSeen": "2026-10-30 22:04 CST",
       "addedAt": "2026-10-30 22:04 CST",
       "lastChecked": "2026-10-30 22:04 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "tiny",
@@ -17473,8 +17544,7 @@
       "firstSeen": "2026-10-30 22:04 CST",
       "addedAt": "2026-10-30 22:04 CST",
       "lastChecked": "2026-10-30 22:04 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "hootcastnft",
@@ -17518,8 +17588,7 @@
       "firstSeen": "2026-10-30 22:04 CST",
       "addedAt": "2026-10-30 22:04 CST",
       "lastChecked": "2026-10-30 22:04 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "halfhook",
@@ -17563,8 +17632,7 @@
       "firstSeen": "2026-10-30 22:04 CST",
       "addedAt": "2026-10-30 22:04 CST",
       "lastChecked": "2026-10-30 22:04 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "snakeidbnb",
@@ -17608,8 +17676,7 @@
       "firstSeen": "2026-10-30 22:04 CST",
       "addedAt": "2026-10-30 22:04 CST",
       "lastChecked": "2026-10-30 22:04 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "fruits-by-amy",
@@ -17653,8 +17720,7 @@
       "firstSeen": "2026-10-30 22:04 CST",
       "addedAt": "2026-10-30 22:04 CST",
       "lastChecked": "2026-10-30 22:04 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "letsusedesk",
@@ -17698,8 +17764,7 @@
       "firstSeen": "2026-10-30 22:04 CST",
       "addedAt": "2026-10-30 22:04 CST",
       "lastChecked": "2026-10-30 22:04 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "lanternfield",
@@ -17744,8 +17809,7 @@
       "firstSeen": "2026-10-30 21:19 CST",
       "addedAt": "2026-10-30 21:19 CST",
       "lastChecked": "2026-10-30 21:19 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "launchr",
@@ -17789,8 +17853,7 @@
       "firstSeen": "2026-10-30 21:19 CST",
       "addedAt": "2026-10-30 21:19 CST",
       "lastChecked": "2026-10-30 21:19 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "moorin",
@@ -17834,8 +17897,7 @@
       "firstSeen": "2026-10-30 21:19 CST",
       "addedAt": "2026-10-30 21:19 CST",
       "lastChecked": "2026-10-30 21:19 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "agentmao",
@@ -17880,8 +17942,7 @@
       "firstSeen": "2026-10-30 20:36 CST",
       "addedAt": "2026-10-30 20:36 CST",
       "lastChecked": "2026-10-30 20:36 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "hackedbyagent",
@@ -17926,8 +17987,7 @@
       "firstSeen": "2026-10-30 20:36 CST",
       "addedAt": "2026-10-30 20:36 CST",
       "lastChecked": "2026-10-30 20:36 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "hookkit",
@@ -17971,8 +18031,7 @@
       "firstSeen": "2026-10-30 19:57 CST",
       "addedAt": "2026-10-30 19:57 CST",
       "lastChecked": "2026-10-30 19:57 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "vaelorns",
@@ -18015,8 +18074,7 @@
       "firstSeen": "2026-10-30 19:23 CST",
       "addedAt": "2026-10-30 19:23 CST",
       "lastChecked": "2026-10-30 19:32 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "fairagent-bnb",
@@ -18060,8 +18118,7 @@
       "firstSeen": "2026-10-30 19:23 CST",
       "addedAt": "2026-10-30 19:23 CST",
       "lastChecked": "2026-10-30 19:32 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "zaplonl",
@@ -18105,8 +18162,7 @@
       "firstSeen": "2026-10-30 19:23 CST",
       "addedAt": "2026-10-30 19:23 CST",
       "lastChecked": "2026-10-30 19:32 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "elyramarkets",
@@ -18151,8 +18207,7 @@
       "firstSeen": "2026-10-30 19:23 CST",
       "addedAt": "2026-10-30 19:23 CST",
       "lastChecked": "2026-10-30 19:32 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "astrispace",
@@ -18195,8 +18250,7 @@
       "firstSeen": "2026-10-30 18:37 CST",
       "addedAt": "2026-10-30 18:37 CST",
       "lastChecked": "2026-10-30 19:32 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "acre-io",
@@ -18239,8 +18293,7 @@
       "firstSeen": "2026-10-30 18:37 CST",
       "addedAt": "2026-10-30 18:37 CST",
       "lastChecked": "2026-10-30 19:32 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "agenthashapes",
@@ -18288,7 +18341,6 @@
         "Agent ID叙事同类项目密集"
       ],
       "round": 914,
-      "newThisRound": false,
       "firstSeen": "2026-10-30 18:15 CST",
       "lastChecked": "2026-10-30 19:32 CST",
       "whyWatch": "Agent ID免费PoW挖矿合集LIVE；官推新建粉少极早期",
@@ -18335,8 +18387,7 @@
       "firstSeen": "2026-10-30 18:06 CST",
       "addedAt": "2026-10-30 18:06 CST",
       "lastChecked": "2026-10-30 18:15 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "grepfi",
@@ -18379,8 +18430,7 @@
       "firstSeen": "2026-10-30 18:06 CST",
       "addedAt": "2026-10-30 18:06 CST",
       "lastChecked": "2026-10-30 18:15 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "agentrybaw",
@@ -18424,8 +18474,7 @@
       "firstSeen": "2026-10-30 18:06 CST",
       "addedAt": "2026-10-30 18:06 CST",
       "lastChecked": "2026-10-30 18:15 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "kingdomflash",
@@ -18468,8 +18517,7 @@
       "firstSeen": "2026-10-30 18:06 CST",
       "addedAt": "2026-10-30 18:06 CST",
       "lastChecked": "2026-10-30 18:15 CST",
-      "zoneHint": "GO盘",
-      "newThisRound": false
+      "zoneHint": "GO盘"
     },
     {
       "id": "tokentunes",
@@ -18512,8 +18560,7 @@
       "firstSeen": "2026-10-30 17:40 CST",
       "addedAt": "2026-10-30 17:40 CST",
       "lastChecked": "2026-10-30 17:40 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "xhookpad",
@@ -18556,8 +18603,7 @@
       "firstSeen": "2026-10-30 17:40 CST",
       "addedAt": "2026-10-30 17:40 CST",
       "lastChecked": "2026-10-30 17:40 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "wuseagent",
@@ -18609,7 +18655,6 @@
       "addedAt": "2026-10-30 17:40 CST",
       "lastChecked": "2026-10-30 22:15 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": false,
       "zone": "打新",
       "schedule": {
         "status": "live",
@@ -18660,8 +18705,7 @@
       "firstSeen": "2026-10-30 17:40 CST",
       "addedAt": "2026-10-30 17:40 CST",
       "lastChecked": "2026-10-30 17:40 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "ploomi-rh",
@@ -18706,8 +18750,7 @@
       "firstSeen": "2026-10-30 17:40 CST",
       "addedAt": "2026-10-30 17:40 CST",
       "lastChecked": "2026-10-30 17:40 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "oxvernull",
@@ -18751,8 +18794,7 @@
       "firstSeen": "2026-10-30 17:40 CST",
       "addedAt": "2026-10-30 17:40 CST",
       "lastChecked": "2026-10-30 17:40 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "babel",
@@ -18799,7 +18841,6 @@
         "Burn/Spire 机制尚未经过验证"
       ],
       "round": 911,
-      "newThisRound": false,
       "firstSeen": "2026-10-30 17:01 CST",
       "lastChecked": "2026-10-30 19:32 CST"
     },
@@ -18847,7 +18888,6 @@
         "额外档 0.001 BNB 需观察需求"
       ],
       "round": 911,
-      "newThisRound": false,
       "firstSeen": "2026-10-30 17:01 CST",
       "lastChecked": "2026-10-30 19:32 CST"
     },
@@ -18892,8 +18932,7 @@
       "firstSeen": "2026-10-30 16:50 CST",
       "addedAt": "2026-10-30 16:50 CST",
       "lastChecked": "2026-10-30 16:50 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "twinmetahq",
@@ -18938,8 +18977,7 @@
       "firstSeen": "2026-10-30 16:50 CST",
       "addedAt": "2026-10-30 16:50 CST",
       "lastChecked": "2026-10-30 16:50 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "fugui-cto",
@@ -18982,8 +19020,7 @@
       "firstSeen": "2026-10-30 16:50 CST",
       "addedAt": "2026-10-30 16:50 CST",
       "lastChecked": "2026-10-30 16:50 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "elyrush",
@@ -19026,8 +19063,7 @@
       "firstSeen": "2026-10-30 16:50 CST",
       "addedAt": "2026-10-30 16:50 CST",
       "lastChecked": "2026-10-30 16:50 CST",
-      "zoneHint": "Elysium",
-      "newThisRound": false
+      "zoneHint": "Elysium"
     },
     {
       "id": "quirkzai",
@@ -19072,8 +19108,7 @@
       "firstSeen": "2026-10-30 16:50 CST",
       "addedAt": "2026-10-30 16:50 CST",
       "lastChecked": "2026-10-30 16:50 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "candynightapp",
@@ -19118,8 +19153,7 @@
       "firstSeen": "2026-10-30 16:19 CST",
       "addedAt": "2026-10-30 16:19 CST",
       "lastChecked": "2026-10-30 16:19 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "trycortano",
@@ -19164,8 +19198,7 @@
       "firstSeen": "2026-10-30 16:19 CST",
       "addedAt": "2026-10-30 16:19 CST",
       "lastChecked": "2026-10-30 16:19 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "hook404rh",
@@ -19209,8 +19242,7 @@
       "firstSeen": "2026-10-30 15:37 CST",
       "addedAt": "2026-10-30 15:37 CST",
       "lastChecked": "2026-10-30 15:37 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "buckme-sol",
@@ -19255,8 +19287,7 @@
       "firstSeen": "2026-10-30 14:48 CST",
       "addedAt": "2026-10-30 14:48 CST",
       "lastChecked": "2026-10-30 14:48 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "littlebeasts",
@@ -19300,8 +19331,7 @@
       "firstSeen": "2026-10-30 14:48 CST",
       "addedAt": "2026-10-30 14:48 CST",
       "lastChecked": "2026-10-30 14:48 CST",
-      "zoneHint": "台子/Meme",
-      "newThisRound": false
+      "zoneHint": "台子/Meme"
     },
     {
       "id": "pvedotmarkets",
@@ -153665,7 +153695,6 @@
       "blurb": "BNB 全链上 SVG Tiki Totems，4000供；Phase1 免费mint（小fee）仅 Agentic Wallet；每mint 1000 $TOTEM。官推8粉 LIVE。",
       "source": "R902 keyword+mentions+DS",
       "ecosystem": "BN Agent",
-      "newThisRound": false,
       "round902Added": true
     },
     {
@@ -153716,7 +153745,6 @@
       "blurb": "Solana fair launch：创建币自带官网/logo/banner/社交。今日新建官推10粉。",
       "source": "R902 keyword+DS",
       "ecosystem": "Solana",
-      "newThisRound": false,
       "round902Added": true
     },
     {
@@ -153768,7 +153796,6 @@
       "blurb": "Solana fair bonding launchpad $CACHET；0.6%税一半给创作者；无预售。官推38粉。",
       "source": "R902 keyword+DS",
       "ecosystem": "Solana",
-      "newThisRound": false,
       "round902Added": true
     },
     {
@@ -153822,7 +153849,6 @@
       "blurb": "NONCE genesis CTO；7777 Freemint Agent-only；2026-10-31 15:00 UTC（23:00 CST）。官推22粉。",
       "source": "R902 keyword+UF+DS",
       "ecosystem": "BN Agent",
-      "newThisRound": false,
       "round902Added": true
     },
     {
@@ -153875,7 +153901,6 @@
       "blurb": "BNB Agent ID NFT 树挖 $LEAF。免费 10 相×250；Phase2 今日售罄；Phase3 16:09 UTC；付费 0.0004 BNB。官推 5 粉。",
       "source": "R904 keyword+UF+DS",
       "ecosystem": "BN Agent",
-      "newThisRound": false,
       "round904Added": true,
       "schedule": "Phase3 free 16:09 UTC / ~00:09 CST Oct 31",
       "lastChecked": "2026-10-30 16:33 CST"
@@ -153929,7 +153954,6 @@
       "blurb": "BNB Agent-only PoW（需 SPACE ID Agent ID）。1B 供应；无预售；testnet live；mainnet Nov7 前 24h 免费。官推 1 粉。",
       "source": "R904 keyword+DS",
       "ecosystem": "BN Agent",
-      "newThisRound": false,
       "round904Added": true,
       "schedule": "Mainnet Nov 7 13:00 UTC; first 24h free mining"
     },
@@ -153984,7 +154008,6 @@
       "blurb": "BNB Agent ID 门控链上 SVG 像素蚂蚁 NFT。上限 2222；现铸 584。首枚免费，后 $1/$4/$10。官推 1 粉。",
       "source": "R905 keyword+DS",
       "ecosystem": "BN Agent",
-      "newThisRound": false,
       "round905Added": true,
       "schedule": "LIVE mint; #1 free then paid",
       "lastChecked": "2026-10-30 16:10 CST"
@@ -154041,7 +154064,6 @@
       "blurb": "BNB Agent ID 接力 NFT。前 44 免费已领；未传现 $1.20 开放。传递返 $0.70 + Leg NFT。官推 3 粉。",
       "source": "R905 keyword+DS",
       "ecosystem": "BN Agent",
-      "newThisRound": false,
       "round905Added": true,
       "schedule": "LIVE; unpassed batons $1.20 open",
       "lastChecked": "2026-10-30 16:10 CST"
@@ -154100,7 +154122,6 @@
       "blurb": "BNB Agent ID 专属免费 gacha NFT。6,666 Doers；wedo.wtf LIVE。官推 9 粉。",
       "source": "R907 keyword+DS",
       "ecosystem": "BN Agent",
-      "newThisRound": false,
       "round907Added": true,
       "schedule": "LIVE free mint for Agent ID",
       "firstSeen": "2026-10-30 16:10 CST",
@@ -154157,7 +154178,6 @@
       "blurb": "BNB Maneki Neko Coin (MNC) mint LIVE。1111 供；Phase1 0.0001 BNB；每钱包 2。官推 5 粉。",
       "source": "R907 keyword+DS",
       "ecosystem": "",
-      "newThisRound": false,
       "round907Added": true,
       "schedule": "LIVE Phase1 0.0001 BNB",
       "firstSeen": "2026-10-30 16:10 CST",
@@ -154168,7 +154188,6 @@
       "id": "suan",
       "name": "SUAN",
       "round": 909,
-      "newThisRound": false,
       "zone": "打新",
       "tags": [
         "打新",
@@ -154214,7 +154233,6 @@
       "id": "stonka",
       "name": "Stonka",
       "round": 909,
-      "newThisRound": false,
       "zone": "台子/Meme",
       "tags": [
         "台子",
@@ -154256,7 +154274,6 @@
       "id": "windup",
       "name": "Windup",
       "round": 909,
-      "newThisRound": false,
       "zone": "elysium",
       "tags": [
         "Elysium",
@@ -154301,7 +154318,6 @@
       "id": "squeekstr",
       "name": "SQUEEKSTR",
       "round": 909,
-      "newThisRound": false,
       "zone": "mining",
       "tags": [
         "squeekchain",
@@ -154384,7 +154400,6 @@
         "生态偏玩具实验，持续性待观察"
       ],
       "round": 912,
-      "newThisRound": false,
       "firstSeen": "2026-10-30 17:36 CST",
       "lastChecked": "2026-10-30 17:50 CST",
       "whyWatch": "Sepolia Squeek Companion 免费 mint LIVE；@builtbyimd squeek/toychain 工具极早期",
@@ -154395,7 +154410,6 @@
       "name": "SWARM Hive",
       "handle": "@SwarmHiveBNB",
       "round": 915,
-      "newThisRound": false,
       "zone": "打新",
       "zoneHint": "打新",
       "category": "打新",
@@ -154604,7 +154618,6 @@
       "firstSeen": "2026-10-30 19:32 CST",
       "addedAt": "2026-10-30 19:32 CST",
       "lastChecked": "2026-10-30 19:32 CST",
-      "newThisRound": false,
       "ca": "0x7dEB31bbbD3baFB7f8f71064E9eF5702b27b20f0"
     },
     {
@@ -154666,8 +154679,7 @@
       "round": 919,
       "firstSeen": "2026-10-30 19:32 CST",
       "addedAt": "2026-10-30 19:32 CST",
-      "lastChecked": "2026-10-30 19:32 CST",
-      "newThisRound": false
+      "lastChecked": "2026-10-30 19:32 CST"
     },
     {
       "id": "aidog",
@@ -154725,7 +154737,6 @@
       "firstSeen": "2026-10-30 20:02 CST",
       "addedAt": "2026-10-30 20:02 CST",
       "lastChecked": "2026-10-31 02:32 CST",
-      "newThisRound": false,
       "caNote": "合约未核实",
       "mintTime": "2026-10-30 20:00 CST",
       "price": "0.004 BNB/份",
@@ -154784,7 +154795,6 @@
       "firstSeen": "2026-10-30 20:02 CST",
       "addedAt": "2026-10-30 20:02 CST",
       "lastChecked": "2026-10-30 22:15 CST",
-      "newThisRound": false,
       "caNote": "合约未核实",
       "price": "首个免费，之后$1，最多4"
     },
@@ -154840,7 +154850,6 @@
       "firstSeen": "2026-10-30 20:30 CST",
       "addedAt": "2026-10-30 20:30 CST",
       "lastChecked": "2026-10-30 22:35 CST",
-      "newThisRound": false,
       "caNote": "合约未核实",
       "price": "WL免费",
       "zoneOf": "Elysium"
@@ -154897,7 +154906,6 @@
       "firstSeen": "2026-10-30 20:30 CST",
       "addedAt": "2026-10-30 20:30 CST",
       "lastChecked": "2026-10-30 20:30 CST",
-      "newThisRound": false,
       "caNote": "合约未核实",
       "price": "免费mint（GTD/抽奖）"
     },
@@ -154957,7 +154965,6 @@
       "firstSeen": "2026-10-30 21:10 CST",
       "addedAt": "2026-10-30 21:10 CST",
       "lastChecked": "2026-10-30 22:35 CST",
-      "newThisRound": false,
       "caNote": "合约未核实",
       "price": "未公开（官网见）"
     },
@@ -155018,7 +155025,6 @@
       "firstSeen": "2026-10-30 21:10 CST",
       "addedAt": "2026-10-30 21:10 CST",
       "lastChecked": "2026-10-30 22:35 CST",
-      "newThisRound": false,
       "caNote": "合约未核实",
       "price": "0.50 USDT/份（前8000份，USDT/BNB）"
     },
@@ -155079,7 +155085,6 @@
       "firstSeen": "2026-10-30 21:10 CST",
       "addedAt": "2026-10-30 21:10 CST",
       "lastChecked": "2026-10-30 23:35 CST",
-      "newThisRound": false,
       "caNote": "合约未核实",
       "price": "未公开",
       "zoneOf": "Elysium"
@@ -155141,7 +155146,6 @@
       "firstSeen": "2026-10-30 21:40 CST",
       "addedAt": "2026-10-30 21:40 CST",
       "lastChecked": "2026-10-30 22:15 CST",
-      "newThisRound": false,
       "caNote": "测试网CA未深度核实",
       "source": "R926 Elysium mentions+keyword"
     },
@@ -155193,7 +155197,6 @@
       ],
       "zoneHint": "台子/Meme",
       "zoneOf": "meme",
-      "newThisRound": false,
       "addedAt": "2026-10-30 22:35 CST",
       "lastChecked": "2026-10-30 23:35 CST",
       "xFollowers": 2059,
@@ -155356,8 +155359,7 @@
       "firstSeen": "2026-10-31 00:05 CST",
       "addedAt": "2026-10-31 00:05 CST",
       "lastChecked": "2026-10-31 02:32 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "taptap-arena",
@@ -155411,8 +155413,7 @@
       "firstSeen": "2026-10-31 00:05 CST",
       "addedAt": "2026-10-31 00:05 CST",
       "lastChecked": "2026-10-31 02:32 CST",
-      "zoneHint": "打新",
-      "newThisRound": false
+      "zoneHint": "打新"
     },
     {
       "id": "agent-raid-bsc",
@@ -155431,7 +155432,6 @@
       "addedAt": "2026-10-31 01:12 CST",
       "firstSeen": "2026-10-31 01:12 CST",
       "lastChecked": "2026-10-31 02:32 CST",
-      "newThisRound": false,
       "lzVerified": false,
       "blurb": "BNB Agent ID boss raid；Genesis 免费 mint LIVE（3333 badges，仅 gas）。",
       "summary": "Agent Raid 是 BNB 上面向 Binance Agent ID 的 boss raid 竞技场，创世徽章免费铸造进行中。",
