@@ -13,4 +13,4 @@
 - **discordPeekDeferred**: true
 - **soft**: canton/glaze/tokenWorks lastChecked→2026-10-30 17:36 CST
 - **dsFallback**: false (deepseek-flash+thinking admit+score)
-- **push**: pending
+- **push**: ok `b6afe37`
