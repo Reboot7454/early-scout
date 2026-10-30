@@ -11,7 +11,7 @@
 - **soft**: glaze/canton/tokenworks lastChecked；printer-ai/agentshift/bnbs/capup/hashore/machine-fun/1k-art DS soft；Agent Shift Genesis mint LIVE；BN Agent pads 续
 - **skipped**: Gelatoz/Keyforge/Cookix/Rust Monks/ChibiCoffee/Agentical Glyphs 无 verified 官推；mobster_meme/starx_xlayer/Leeonmort X Not Found；ledger_mind 非项目
 - **dsFallback**: false（admit/score/alert DeepSeek OK）
-- **push**: pending
+- **push**: 9a66a82 main
 - **panel**: https://reboot7454.github.io/early-scout/
 
 ```json
@@ -80,7 +80,7 @@
     "CapUp DS admit=false this refresh (80/20 risk); kept soft-only",
     "bnbs-ai DS admit=false (migration/relaunch not early)"
   ],
-  "push": "pending",
+  "push": "9a66a82",
   "panel": "https://reboot7454.github.io/early-scout/"
 }
 ```
