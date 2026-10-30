@@ -1,0 +1,184 @@
+{
+  "round": 911,
+  "mode": "full-radar",
+  "completedAt": "2026-10-30 17:01 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+le2h",
+  "alertMessage": "新收 Babel（Solana Agent ID 首枚免费 Skybrick LIVE）、TurboKart（BNB .ai 首枚免费 LIVE）；WEDO/CoinEko 免费或低价 mint 仍 LIVE。https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "babel",
+    "turbokart"
+  ],
+  "newCount": 2,
+  "newAdmits": [
+    {
+      "id": "babel",
+      "handle": "@BabelAgent",
+      "why": "Solana Agent ID Skybrick first free LIVE babelsol.store"
+    },
+    {
+      "id": "turbokart",
+      "handle": "@TurboKartBNB",
+      "why": "BNB .ai Agent ID Genesis 7777 first free LIVE"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "babel",
+      "why": "first Skybrick FREE LIVE",
+      "when": "ongoing ~15:48 CST start"
+    },
+    {
+      "id": "turbokart",
+      "why": "first mint FREE LIVE",
+      "when": "ongoing since Oct 29"
+    },
+    {
+      "id": "wedo",
+      "why": "free mint still LIVE",
+      "when": "ongoing"
+    },
+    {
+      "id": "coineko",
+      "why": "Phase1 cheap mint still LIVE",
+      "when": "ongoing"
+    },
+    {
+      "id": "suan",
+      "why": "Agent ID Fair Mint pad LIVE (paid=alert only)",
+      "when": "ongoing"
+    }
+  ],
+  "xReads": 28,
+  "xRemaining": 373,
+  "xReadsRemaining": 373,
+  "remaining": "373/1000",
+  "keywordsTenCols": true,
+  "keywordsCovered": true,
+  "userFollowDone": true,
+  "mentionsChains": [
+    "Elysium",
+    "Tape",
+    "GIWA",
+    "squeek",
+    "NutshellMarkets",
+    "Starknet",
+    "ShieldedNaka",
+    "flap",
+    "DogeOS",
+    "XLayer",
+    "bnAgent"
+  ],
+  "mentions": {
+    "covered": [
+      "Elysium",
+      "Tape",
+      "GIWA",
+      "squeek",
+      "NutshellMarkets",
+      "Starknet",
+      "ShieldedNaka",
+      "flap",
+      "DogeOS",
+      "XLayer",
+      "bnAgent"
+    ],
+    "emptyWindow": [
+      "TapeAIAgent"
+    ],
+    "notFound": [
+      "starx_xlayer",
+      "Leeonmort",
+      "mobster_meme"
+    ]
+  },
+  "coverage": {
+    "tenCols": true,
+    "BTC": true,
+    "Starknet": true,
+    "XLayer": true,
+    "squeek": true,
+    "Elysium": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "flapIrysFullArc": true,
+    "bnAgent": true,
+    "Nutshell": true
+  },
+  "watchBugs": [
+    "@BabelAgent→agentPadWatch",
+    "@BabelAgent→freeMintWatch",
+    "@BabelAgent→userFollowWatch",
+    "@TurboKartBNB→agentPadWatch",
+    "@TurboKartBNB→freeMintWatch",
+    "@TurboKartBNB→bnAgentWatch",
+    "@TurboKartBNB→userFollowWatch"
+  ],
+  "watchBugsCount": 7,
+  "keywordGaps": [
+    "@starx_xlayer Not Found",
+    "@Leeonmort Not Found",
+    "@mobster_meme Not Found"
+  ],
+  "discordPeekDeferred": true,
+  "soft": {
+    "cantonPadWatch": "2026-10-30 17:01 CST",
+    "glazeWatch": "2026-10-30 17:01 CST",
+    "tokenWorksPlaygroundWatch": "2026-10-30 17:01 CST"
+  },
+  "skipped": [
+    {
+      "handle": "@getdeskapp",
+      "reason": "Elysium testnet wallet workspace; DS skip (not mint/launch)"
+    },
+    {
+      "handle": "@Qurve_fun",
+      "reason": "Arc AI-agent launchpad LIVE but ~3k followers; DS skip (not ultra-early)"
+    },
+    {
+      "handle": "@Agenthashapes",
+      "reason": "thin signal"
+    },
+    {
+      "handle": "@BSCQUQU",
+      "reason": "thin signal"
+    },
+    {
+      "handle": "@bnbFatCat",
+      "reason": "meme CTO not early mint pad"
+    },
+    {
+      "handle": "@starx_xlayer",
+      "reason": "Not Found"
+    },
+    {
+      "handle": "@Leeonmort",
+      "reason": "Not Found"
+    },
+    {
+      "handle": "@mobster_meme",
+      "reason": "Not Found"
+    },
+    {
+      "handle": "discordPeek",
+      "reason": "deferred no browser"
+    }
+  ],
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash+thinking admit=2/4 score=2 alert=1",
+  "clearedPrevNewThisRound": [
+    "quirkzai",
+    "elyrush",
+    "fugui-cto",
+    "twinmetahq",
+    "fivekeys-eth"
+  ],
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R911 full radar: 新收2 babel/turbokart；le2h babel+turbokart+wedo+coineko+suan；Discord deferred；X ~373/1000",
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "remoteVerified": false
+}
