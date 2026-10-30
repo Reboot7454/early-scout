@@ -16,7 +16,7 @@
 - **dsFallback**: false
 - **panel**: https://reboot7454.github.io/early-scout/
 - **alertMessage**: 新增：Agent Grove（BNB Agent ID 树 NFT 挖 $LEAF，Phase3 免费相约 00:09 CST 开）与 POW Agent Mine（BNB Agent-only PoW，主网 Nov7 前 24h 免费挖）；面板 https://reboot7454.github.io/early-scout/
-- **push**: (pending)
+- **push**: 6f74084
 
 ```json
 {
@@ -103,7 +103,7 @@
     "TOSH(no clean handle)"
   ],
   "dsFallback": false,
-  "push": null,
+  "push": "6f74084",
   "panel": "https://reboot7454.github.io/early-scout/"
 }
 ```
