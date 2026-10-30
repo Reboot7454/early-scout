@@ -11,7 +11,7 @@
 - **soft**: glaze/canton/tokenworks lastChecked；agentshift~1500/4444；printer>2000；hashore 8900/10000；1k AL 19:00 CST；StonkRobotics 免费档完+密封22:00 CST；capup 80/20；Nutshell teaser
 - **skipped**: BinverseTrade 0粉仅1推 DS skip；Tarotix X Not Found；Avocadoo 空号；ElysiumEco 非打新；BIBIAI_MEME 已有 bibi-ai@bibiainft；mobster_meme/starx_xlayer Not Found；Gelatoz/Keyforge 等 R895 无X
 - **dsFallback**: false（admit/score/alert DeepSeek OK）
-- **push**: (pending)
+- **push**: f5df83b main
 - **panel**: https://reboot7454.github.io/early-scout/
 
 ```json
@@ -88,7 +88,7 @@
     "mobster_meme / starx_xlayer X Not Found (same as prior)",
     "Leeonmort / nibblewage / PlayFarmFi Not Found (no retry burn)"
   ],
-  "push": "PENDING",
+  "push": "f5df83b",
   "panel": "https://reboot7454.github.io/early-scout/"
 }
 ```
