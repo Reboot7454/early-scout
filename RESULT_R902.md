@@ -11,7 +11,7 @@
 - **soft**: glaze/canton/tokenworks lastChecked；Nutshell→173；localbottom→112；Pulse→356；PrinterAi ~4068/50%池0.5BNB 粉52；1k AL 19:00；CharMasks 21:00；Stonk 22:00；nonce-protocol soft 关联 CTO
 - **skipped**: windup（0帖）；pons 过热；elystride 无mint事件；ignix-meme；SOLVD Not Found；mobster/starx Not Found；IThinkItsArt
 - **dsFallback**: false（admit/score/alert DeepSeek OK）
-- **push**: (pending)
+- **push**: f120ac1
 - **panel**: https://reboot7454.github.io/early-scout/
 - **alertMessage**: Jafar，R902 新收4个：Tiki Totems @tikitotemsbnb（BNB Agent 免费mint LIVE 4000供，8粉）；Seppi.dev @seppidev（Solana fair launch 今日新建，10粉）；Cachet @CachetDotFun（Solana fair bonding $CACHET，38粉）；Nonce CTO @Nonce_CTO（7777 Agent freemint 10-31 15:00 UTC／23:00 CST，22粉）。soft：PrinterAi ~4068/50%池0.5BNB粉52；Nutshell173；Pulse356；localbottom112；1k AL~19:00 CST；CharMasks拍卖21:00；Stonk密封22:00；无≤2h。面板：https://reboot7454.github.io/early-scout/
 
