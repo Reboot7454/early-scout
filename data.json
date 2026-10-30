@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-31 01:12 CST",
+    "updated": "2026-10-31 01:25 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R905",
-    "lastScout": "2026-10-31 00:44 CST",
+    "lastScout": "2026-10-31 01:25 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -611,7 +611,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 938,
+    "round": 939,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1731,7 +1731,11 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "agent-raid-bsc"
+      "keelport",
+      "mattresssafu",
+      "rheacatnear",
+      "elysiumbrokers",
+      "terzainference"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -3672,17 +3676,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-10-31 00:36",
-      "lastChecked": "2026-10-31 00:44 CST",
-      "newestCardTime": "2026-10-30 23:58",
-      "cardsAfterCutoff": 26,
-      "note": "R937：Discord alpha 补收 txscope,99901-fun,sproutagents,axiomos-click,toritoteamus,gatchaverse；清 sherwood-expeditions,taptap-arena；lastSeen→2026-10-31 00:36；lastChecked→2026-10-31 00:44 CST",
-      "lastRound": 937,
+      "lastSeen": "2026-10-31 01:22",
+      "lastChecked": "2026-10-31 01:25 CST",
+      "newestCardTime": "2026-10-31 00:36",
+      "cardsAfterCutoff": 17,
+      "note": "R939：Discord alpha 补收 keelport,mattresssafu,rheacatnear,elysiumbrokers,terzainference；清 agent-raid-bsc；lastSeen→2026-10-31 01:22；lastChecked→2026-10-31 01:25 CST",
+      "lastRound": 939,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-31 00:36",
-        "alpha-1-backup": "2026-10-31 00:28",
-        "smart-accounts-tracker": "2026-10-31 00:05",
-        "alpha-1": "2026-10-31 00:31"
+        "alpha-3-new-accounts": "2026-10-31 01:22",
+        "alpha-1-backup": "2026-10-31 01:13",
+        "smart-accounts-tracker": "2026-10-31 01:19",
+        "alpha-1": "2026-10-31 01:04"
       }
     },
     "round239Added": [
@@ -14444,9 +14448,241 @@
     ],
     "round938Added": [
       "agent-raid-bsc"
+    ],
+    "round939Added": [
+      "keelport",
+      "mattresssafu",
+      "rheacatnear",
+      "elysiumbrokers",
+      "terzainference"
     ]
   },
   "candidates": [
+    {
+      "id": "terzainference",
+      "name": "Terza",
+      "handle": "@terzainference",
+      "twitter": "@terzainference",
+      "chain": "Bittensor",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/terzainference"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 5,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 6.5
+      },
+      "highlights": [
+        "Bittensor子网模型市场，矿工竞价",
+        "Many minds. One API 产品化描述具体"
+      ],
+      "drawbacks": [
+        "尚无子网号/代币/上线细节",
+        "粉丝基数小"
+      ],
+      "whatsNew": "Bittensor生态新模型交易市场账号开通",
+      "summary": "Bittensor上做模型市场的早期项目，产品叙事具体，具备挖矿参与路径，纳入观察。",
+      "blurb": "Bittensor模型市场新号。",
+      "round": 939,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 75,
+      "xFollowers": 75,
+      "firstSeen": "2026-10-31 01:25 CST",
+      "addedAt": "2026-10-31 01:25 CST",
+      "lastChecked": "2026-10-31 01:25 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
+    {
+      "id": "elysiumbrokers",
+      "name": "ElysiumBrokers",
+      "handle": "@elysiumbrokers",
+      "twitter": "@elysiumbrokers",
+      "chain": "Elysium(自称)",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/elysiumbrokers"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 7,
+        "overall": 6.6
+      },
+      "highlights": [
+        "3,333 brokers 固定总量",
+        "每个broker即一个钱包，玩法线索清晰"
+      ],
+      "drawbacks": [
+        "极新号、无官网/铸造链接",
+        "粉丝数仅1噪音大",
+        "Elysium 部署仅自称，未见于 ecosystem 页，暂不进 Elysium 栏"
+      ],
+      "whatsNew": "@Enter_Elysium 上3333枚Broker身份NFT项目开号",
+      "summary": "Elysium生态内新NFT项目，卡面给出总量与钱包叙事，属具体部署线索，可跟踪铸造。",
+      "blurb": "Elysium上3333 Broker NFT。",
+      "round": 939,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-10-31 01:25 CST",
+      "addedAt": "2026-10-31 01:25 CST",
+      "lastChecked": "2026-10-31 01:25 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "rheacatnear",
+      "name": "RheaCat",
+      "handle": "@rheacatnear",
+      "twitter": "@rheacatnear",
+      "chain": "NEAR",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/rheacatnear"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 4,
+        "actionable": 4,
+        "overall": 5.2
+      },
+      "highlights": [
+        "$RHEACAT 已在 nearlytrade 有代币地址",
+        "NEAR 生态 meme，赛道相对不拥挤"
+      ],
+      "drawbacks": [
+        "猫 meme 同质化严重",
+        "bio 无官网与路线",
+        "粉丝量小"
+      ],
+      "whatsNew": "NEAR 上 nearlytrade 新发 $RHEACAT",
+      "summary": "NEAR 生态猫主题 meme，代币已在 nearlytrade 落地，属早期可查证标的，但玩法与社区尚薄。",
+      "blurb": "NEAR 上的 $RHEACAT，代币已可查。",
+      "round": 939,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 12,
+      "xFollowers": 12,
+      "firstSeen": "2026-10-31 01:25 CST",
+      "addedAt": "2026-10-31 01:25 CST",
+      "lastChecked": "2026-10-31 01:25 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "mattresssafu",
+      "name": "Mattress",
+      "handle": "@mattresssafu",
+      "twitter": "@mattresssafu",
+      "chain": "Ethereum",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/mattresssafu"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 8,
+        "novelty": 5,
+        "actionable": 4,
+        "overall": 5.2
+      },
+      "highlights": [
+        "bio 内含可验证 ETH 合约地址",
+        "meme 叙事（床垫=冷存储）清晰"
+      ],
+      "drawbacks": [
+        "粉丝 2 人，无社区基础",
+        "无官网/发射平台信息",
+        "meme 风险极高"
+      ],
+      "whatsNew": "新 meme 代币上线，合约已公布",
+      "summary": "带合约地址的冷存储主题 meme 币，可先查合约再决定是否跟进。",
+      "blurb": "床垫冷存储 meme，合约已挂出。",
+      "round": 939,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 2,
+      "xFollowers": 2,
+      "firstSeen": "2026-10-31 01:25 CST",
+      "addedAt": "2026-10-31 01:25 CST",
+      "lastChecked": "2026-10-31 01:25 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "keelport",
+      "name": "Keelport",
+      "handle": "@keelport",
+      "twitter": "@keelport",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/keelport"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 8,
+        "novelty": 6,
+        "actionable": 3,
+        "overall": 5.2
+      },
+      "highlights": [
+        "有真实落地页 keelport.pages.dev",
+        "主打多链 NFT 港口/聚合定位",
+        "明确标注赞助位，信息风格相对克制"
+      ],
+      "drawbacks": [
+        "0 粉丝，无社区",
+        "无 mint/发射时间表",
+        "多链聚合叙事较常见"
+      ],
+      "whatsNew": "新上线多链 NFT harbor 站点，品牌入驻叙事",
+      "summary": "极早期多链 NFT 平台号，已有 pages.dev 站点，但尚无明确发射或 mint 动作，需观察其首发玩法。",
+      "blurb": "多链 NFT 港口，站点已上线，等玩法落地。",
+      "round": 939,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 01:25 CST",
+      "addedAt": "2026-10-31 01:25 CST",
+      "lastChecked": "2026-10-31 01:25 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "gatchaverse",
       "name": "Gatcha Verse",
@@ -154302,7 +154538,7 @@
       "addedAt": "2026-10-31 01:12 CST",
       "firstSeen": "2026-10-31 01:12 CST",
       "lastChecked": "2026-10-31 01:12 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "lzVerified": false,
       "blurb": "BNB Agent ID boss raid；Genesis 免费 mint LIVE（3333 badges，仅 gas）。",
       "summary": "Agent Raid 是 BNB 上面向 Binance Agent ID 的 boss raid 竞技场，创世徽章免费铸造进行中。",
@@ -154352,19 +154588,23 @@
     }
   ],
   "newThisRound": [
-    "agent-raid-bsc"
+    "keelport",
+    "mattresssafu",
+    "rheacatnear",
+    "elysiumbrokers",
+    "terzainference"
   ],
-  "alertMessage": "R938新收Agent Raid（BNB Agent ID Genesis免费mint LIVE，3333仅gas）；Ombrello约48min后WL mint（02:00CST免费gas，Public 03:00 $0.2BNB）；X日额将尽(1/1000)，全量UF+十栏+mentions defer至08:00CST后首轮；付费只报不自动打。面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R939新收5项：Keelport、Mattress、RheaCat、ElysiumBrokers、Terza；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "agent-raid-bsc"
   ],
-  "updatedAt": "2026-10-31 01:12 CST",
-  "updated": "2026-10-31 01:12 CST",
+  "updatedAt": "2026-10-31 01:25 CST",
+  "updated": "2026-10-31 01:25 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-31 01:12 CST",
+  "lastScout": "2026-10-31 01:25 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -154406,7 +154646,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 2251,
+  "candidateCount": 2256,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -155908,5 +156148,12 @@
   ],
   "round938Added": [
     "agent-raid-bsc"
+  ],
+  "round939Added": [
+    "keelport",
+    "mattresssafu",
+    "rheacatnear",
+    "elysiumbrokers",
+    "terzainference"
   ]
 }
