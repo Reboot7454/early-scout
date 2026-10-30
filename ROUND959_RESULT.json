@@ -218,12 +218,21 @@
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R959 日额已尽：零X读取；修Watch×49（dual-write清零×48 + fries→UF）；软债刷lastChecked×35；Discord deferred；全量UF+十栏关键词+全链mentions延至08:00 CST；le2h仅已告警近窗不重复；不通知。",
   "push": {
-    "ok": false,
-    "attempted": false
+    "ok": true,
+    "attempted": true,
+    "commit": "796bc0f",
+    "sha": "796bc0fdae9cae5a285ef5035c770766d592f9be",
+    "branch": "main",
+    "files": [
+      "data.json",
+      "ROUND959_RESULT.json",
+      "RESULT_R959.md"
+    ],
+    "message": "R959: X exhausted — dual-write clear + fries→UF; full scan deferred 08:00 CST"
   },
   "priorRoundNote": "R958 Discord补收 fries；R959 x-exhausted continues dual-write backlog clear + fries Watch修；ZERO X",
   "xQuotaNote": "daily limit 1000 reached; remaining=0 until 2026-10-31T00:00:00.000Z = 08:00 Asia/Shanghai",
   "note": "mode=x-exhausted-local; deferred full scan until 08:00 CST; watchBugs×49; softDebt×35; dualWriteRemaining=0",
   "deferredFullScanNote": "UF soft + ten-lane keywords + equal-effort official mentions (Elysium/kinetiq, Tape/Blonskr, GIWA, Zero/LZ, DogeEVM, Starknet, BTC privacy, squeek/Nutshell, flap/Irys/Full.fun/Arc, BN Agent pads, X Layer/STARX, CRC20) until first run after 08:00 CST",
-  "remoteVerified": false
+  "remoteVerified": true
 }
