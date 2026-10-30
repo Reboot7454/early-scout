@@ -1,0 +1,143 @@
+{
+  "round": 947,
+  "mode": "x-exhausted-local",
+  "completedAt": "2026-10-31 03:35 CST",
+  "timezone": "Asia/Shanghai",
+  "xReads": 0,
+  "xRemaining": 0,
+  "xReadsRemaining": 0,
+  "xResetAtCST": "2026-10-31 08:00 CST",
+  "deferredFullScan": true,
+  "deferredUntil": "2026-10-31 08:00 CST",
+  "notify": false,
+  "notifyReason": "x-exhausted-quiet",
+  "alertMessage": "",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "round947Added": [],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "capybyclaude",
+    "burrowrh",
+    "orimgame",
+    "propchange-io"
+  ],
+  "candidateFlagsCleared": 4,
+  "le2hCleared": [],
+  "le2h": [
+    {
+      "id": "ombrellonft",
+      "note": "Public LIVE $0.2BNB（03:00CST已开；R940/R941已告警不重复）"
+    },
+    {
+      "id": "agent-raid-bsc",
+      "note": "Genesis FREE MINT LIVE 续"
+    }
+  ],
+  "within2h": [
+    {
+      "id": "ombrellonft",
+      "note": "Public LIVE $0.2BNB（03:00CST已开；R940/R941已告警不重复）"
+    },
+    {
+      "id": "agent-raid-bsc",
+      "note": "Genesis FREE MINT LIVE 续"
+    }
+  ],
+  "ombrellonftNote": "Public 03:00 CST window opened — already alerted R940/R941 → no re-notify",
+  "discordPeekDeferred": true,
+  "discordPeekNote": "R946刚做过 Discord alpha 重扫（4 admits）；本轮跳过DC，discordPeekDeferred=true；无新本地DC pipeline输入",
+  "dsFallback": false,
+  "dsUsage": "skipped (notify=false, no new admits)",
+  "keywordsTenCols": false,
+  "userFollowDone": false,
+  "coverage": {
+    "打新": "soft-debt only (X blocked)",
+    "挖矿": "soft-debt only (X blocked)",
+    "台子/Meme": "soft-debt only (X blocked)",
+    "GO盘": "soft-debt only (X blocked)",
+    "LayerZero": "soft-debt only (X blocked)",
+    "Elysium": "soft-debt only (X blocked)",
+    "Tape/电路": "soft-debt only (X blocked)",
+    "GIWA": "soft-debt only (X blocked)",
+    "DogeEVM": "soft-debt only (X blocked)",
+    "BN Agent 钱包": "soft-debt only (X blocked)",
+    "BTC": "soft-debt only (X blocked)",
+    "Starknet": "soft-debt only (X blocked)",
+    "X Layer/STARX": "soft-debt only (X blocked)",
+    "squeek/Nutshell": "soft-debt only (X blocked)",
+    "flap/Irys/Full.fun/Arc": "soft-debt only (X blocked)"
+  },
+  "userFollowWatch": "soft-debt touched (lastChecked 2026-10-31 03:35 CST); Watch漏挂修×4 → UF(+lane); full UF scan deferred→08:00 CST",
+  "mentionsCoverage": "deferred (X exhausted) — planned equal-effort: Elysium/kinetiq, Tape/Blonskr, GIWA, Zero/LZ, DogeOS, Starknet, BTC privacy, squeek/Nutshell, flap/Irys/Full.fun/Arc, BN Agent pads, X Layer/STARX, CRC20",
+  "keywordsAllLanes": false,
+  "keywordsNote": "deferred until 2026-10-31 08:00 CST (X daily reset)",
+  "watchBugs": [
+    "capybyclaude dual-write links.twitter/x",
+    "capybyclaude @capybyclaude → userFollowWatch",
+    "burrowrh dual-write links.twitter/x",
+    "burrowrh @burrowrh → userFollowWatch",
+    "burrowrh @burrowrh → freeMintWatch",
+    "burrowrh @burrowrh → miningWatch",
+    "orimgame dual-write links.twitter/x",
+    "orimgame @orimgame → userFollowWatch",
+    "propchange-io dual-write links.twitter/x",
+    "propchange-io @propchange_io → userFollowWatch"
+  ],
+  "watchBugsFixedCount": 4,
+  "watchBugsIds": [
+    "capybyclaude",
+    "burrowrh",
+    "orimgame",
+    "propchange-io"
+  ],
+  "watchBugsNote": "R946 DC admits×4 in-library not in any Watch → dual-write links + UF + lane where clear (burrowrh→freeMint+mining)",
+  "softDebtWatches": [
+    "layerZeroWatch",
+    "miningWatch",
+    "injectiveLaunchWatch",
+    "glazeWatch",
+    "cantonPadWatch",
+    "flaunchWatch",
+    "tokenWorksPlaygroundWatch",
+    "midstateWatch",
+    "focusWatch",
+    "elysiumWatch",
+    "watches",
+    "blonskrWatch",
+    "tapeOutWatch",
+    "xChainPadWatch",
+    "starcatWatch",
+    "paperbirdWatch",
+    "btcPrivacyWatch",
+    "btcCrc20Watch",
+    "starknetWatch",
+    "giwaWatch",
+    "zeroWatch",
+    "dogeEvmWatch",
+    "kinetiqWatch",
+    "agentMiningWatch",
+    "agentPadWatch",
+    "agentTradingWatch",
+    "tapeWatch",
+    "flapPadWatch",
+    "irysPadWatch",
+    "fullFunWatch",
+    "tokenWorksWatch",
+    "arcPadWatch",
+    "userFollowWatch",
+    "freeMintWatch",
+    "bnAgentWatch"
+  ],
+  "softDebtCount": 35,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R947 日额已尽：零X读取；修Watch漏挂×4（R946 DC：capybyclaude/burrowrh/orimgame/propchange-io）；软债刷lastChecked×35；跳过DC（R946刚重扫）；全量UF+十栏关键词+全链mentions延至08:00 CST；无新收录/不重复≤2h；不通知。",
+  "push": {
+    "ok": false,
+    "attempted": false
+  },
+  "remoteVerified": false,
+  "priorRoundNote": "R946 Discord-alpha 4 admits already notified; R947 watch-wiring + soft-debt only; ZERO X; do not re-alert R946",
+  "xQuotaNote": "daily limit 1000 reached; remaining=0 until 2026-10-31T00:00:00.000Z = 08:00 Asia/Shanghai"
+}
