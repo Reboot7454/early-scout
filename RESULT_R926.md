@@ -1,0 +1,42 @@
+# Early-Scout R926 RESULT
+```json
+{
+  "round": 926,
+  "completedAt": "2026-10-30 21:40 CST",
+  "notify": true,
+  "alertMessage": "新收录 Elysium Inu（@ElysiumInu，$ENU 测试网刚 Live）；≤2h 可操作：DAIMONS 约22:05 CST kalosfun mint、币安无忧创世 MINT 已开、elysium-degens 免费 mint LIVE，IDENTIDE 0.5U/份付费 mint 只报。面板 https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "elysium-inu"
+  ],
+  "skipped": [
+    "FOME（aka.fun测试网散户喊单，无独立官推）",
+    "SQUEEKFOREST（AhoteSpirit概念提及，无项目推特）",
+    "ombrello/rebate/meetmotes/karmafuckers/clover/arkhampad/sigils/aidog/bawuyou/identide/daimons/elysium-degens/gang 已在库",
+    "Flutchdotfun 已在elysiumWatch",
+    "@starx_xlayer Not Found（改名/注销未找到；关键词X Layer/STARX+lumora_agent续覆盖）",
+    "@mobster_meme Not Found（可能改名）"
+  ],
+  "le2h": [
+    "DAIMONS ~22:05 CST kalosfun Elysium测试网mint",
+    "币安无忧创世MINT已开",
+    "IDENTIDE公平铸造~300/8000 0.5U/份付费只报",
+    "AIDOG已铸~375份（有不发币争议）",
+    "elysium-degens WL免费mint LIVE",
+    "gang continuous mint LIVE",
+    "elysium-inu $ENU 测试网刚Live",
+    "SIGILS续盯；chyai 21:00窗已过"
+  ],
+  "xReads": 21,
+  "remaining": "163/1000",
+  "keywordsTenCols": true,
+  "userFollowDone": "priority subset soft (≤2h live + UF cores; Pulse/Nutshell/squeek/dotaipad/Enter/Ptah空窗)",
+  "mentions": "Elysium(@Enter_Elysium)+Tape(@TapeAIAgent空)+squeek(@squeekchain)+BN Agent(@gangdotfun)+BTC(@ShieldedNaka)+Starknet(@Starknet)；STARX id未找到故关键词覆盖",
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "ds": "deepseek-flash thinking admit+score+alert",
+  "watchBugs": [
+    "@starx_xlayer lookup Not Found — keep STARX/X Layer keywords; card note updated",
+    "@mobster_meme lookup Not Found — UF soft skipped that handle"
+  ]
+}
+```
