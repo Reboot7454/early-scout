@@ -1,0 +1,11 @@
+# Early-Scout R921 RESULT
+- **round**: 921 | **notify**: true
+- **newIds**: aidog (@AIDOGagentai，Agent ID公平铸造今晚20:00 CST，0.004BNB/份，每钱包≤10份，满1万份自动加池，26粉), sigils-bnb (@SigilsGuru，Agent ID符印NFT LIVE，首个免费，今日新号1粉)
+- **le2h**: aidog 20:00、moribundusbnb 20:00开铸、chyai 21:00分期销售、sigils 免费LIVE；wuse/babel/agenthashapes 等续盯
+- **xReads**: 6 | **remaining**: 193/1000（偏紧，按 UF→必盯→合并关键词节流）
+- **keywordsTenCols**: true（合并：Agent ID/free mint/fair launch/agent mining/AIDROP/打新/挖矿 + Elysium/TapeOut/GIWA/DogeEVM/Starknet/X Layer/STARX/squeek/Nutshell/LZ/GO盘/Ordinals/flap/Irys/Full.fun/Arc）
+- **userFollowDone**: priority subset soft（Pulse/localbottom/Nutshell/bscaidrop/machine/squeek/ComputeRoll/starx/mobster/gang/SUAN/moribundus/ChyAI/wuse/swarmhive/stockium/hoodrai/pipfun/wedo/babel/turbokart/agenthashapes/dualforge），近窗无新开窗
+- **mentions**: Tape/Starknet/XLayer/starx/GIWA/DogeOS/flap/ShieldedNaka(BTC)/Irys/Nutshell/kinetiq 合并一查；Elysium/squeek 由关键词覆盖
+- **skipped**: FIRST LIGHT Genesis（仅搬运帖，未找到官推）；JakduPump/Ammora/hypawwX/TapeBit/fomopoly 已在库
+- **watchBugs**: aidog/sigils→UF+bnAgent+freeMint+agentPad
+- **discordPeekDeferred**: true；**dsFallback**: false（deepseek-flash thinking）
