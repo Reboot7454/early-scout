@@ -81,7 +81,7 @@
     "hard ban focus:true on new admits; dual-write links.x+links.twitter",
     "discordPeekDeferred=true (no browser this round; remote DC alpha already landed separately)"
   ],
-  "commit": "4a9c819",
+  "commit": "ba7dae5",
   "pushOk": true
 }
 ```
