@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-31 14:08 CST",
+    "updated": "2026-10-31 14:19 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R981",
-    "lastScout": "2026-10-31 14:08 CST",
+    "lastScout": "2026-10-31 14:19 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -622,7 +622,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 982,
+    "round": 983,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1769,11 +1769,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "d4rk-fyi",
-      "abtc-agent",
-      "ninjaa-turtles",
-      "reaperexe",
-      "navodotfamily"
+      "grabbybuild",
+      "oren-finance"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -3770,16 +3767,16 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-10-31 14:04",
-      "lastChecked": "2026-10-31 14:08 CST",
-      "newestCardTime": "2026-10-31 14:04",
-      "cardsAfterCutoff": 36,
-      "note": "R982：Discord alpha 补收 d4rk-fyi,abtc-agent,ninjaa-turtles,reaperexe,navodotfamily；lastSeen→2026-10-31 14:04；lastChecked→2026-10-31 14:08 CST",
-      "lastRound": 982,
+      "lastSeen": "2026-10-31 14:16",
+      "lastChecked": "2026-10-31 14:19 CST",
+      "newestCardTime": "2026-10-31 14:16",
+      "cardsAfterCutoff": 14,
+      "note": "R983：Discord alpha 补收 grabbybuild,oren-finance；清 navodotfamily,reaperexe,ninjaa-turtles,abtc-agent,d4rk-fyi；lastSeen→2026-10-31 14:16；lastChecked→2026-10-31 14:19 CST",
+      "lastRound": 983,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-31 14:04",
+        "alpha-3-new-accounts": "2026-10-31 14:16",
         "alpha-1-backup": "2026-10-31 13:13",
-        "smart-accounts-tracker": "2026-10-31 13:45",
+        "smart-accounts-tracker": "2026-10-31 14:15",
         "alpha-1": "2026-10-31 13:38"
       }
     },
@@ -15673,9 +15670,106 @@
       "ninjaa-turtles",
       "reaperexe",
       "navodotfamily"
+    ],
+    "round983Added": [
+      "grabbybuild",
+      "oren-finance"
     ]
   },
   "candidates": [
+    {
+      "id": "oren-finance",
+      "name": "OREN",
+      "handle": "@orenfinance_",
+      "twitter": "@orenfinance_",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "solana",
+        "pumpfun",
+        "ai-terminal"
+      ],
+      "links": {
+        "x": "https://x.com/orenfinance_"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 7,
+        "overall": 6.2
+      },
+      "highlights": [
+        "AI代币化股票交易终端",
+        "已部署pump.fun合约",
+        "有智能钱包关注流入"
+      ],
+      "drawbacks": [
+        "粉丝基数小",
+        "meme代币波动高风险",
+        "产品完整度未验证"
+      ],
+      "whatsNew": "AI驱动的Solana代币化股票交易终端，代币已上pump。",
+      "summary": "OREN定位Solana上的AI代币化股票交易终端，bio直接给出pump合约，属早期有玩法与可参与标的项目。",
+      "blurb": "Solana AI股票交易终端，pump合约已上，观察玩法与流动性。",
+      "round": 983,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 422,
+      "xFollowers": 422,
+      "firstSeen": "2026-10-31 14:19 CST",
+      "addedAt": "2026-10-31 14:19 CST",
+      "lastChecked": "2026-10-31 14:19 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "grabbybuild",
+      "name": "Grabby",
+      "handle": "@grabbybuild",
+      "twitter": "@grabbybuild",
+      "chain": "Ethereum",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/grabbybuild"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.1
+      },
+      "highlights": [
+        "Uniswap V4 hook 概念",
+        "已公布官方合约地址"
+      ],
+      "drawbacks": [
+        "零关注、匿名",
+        "合约与项目真实性未核验"
+      ],
+      "whatsNew": "以便签形式构建 Uniswap V4 hook 规则，并公布代币 CA。",
+      "summary": "Grabby 是围绕 Uniswap V4 hook 的极早期项目，已给出合约地址，可观察后续 swap 与社区进展。",
+      "blurb": "Uniswap V4 hook 概念 + 已公布 CA，极早期但高风险。",
+      "round": 983,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 14:19 CST",
+      "addedAt": "2026-10-31 14:19 CST",
+      "lastChecked": "2026-10-31 14:19 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "navodotfamily",
       "name": "Navo",
@@ -15718,7 +15812,7 @@
       "addedAt": "2026-10-31 14:08 CST",
       "lastChecked": "2026-10-31 14:08 CST",
       "zoneHint": "Elysium",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "reaperexe",
@@ -15762,7 +15856,7 @@
       "addedAt": "2026-10-31 14:08 CST",
       "lastChecked": "2026-10-31 14:08 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "ninjaa-turtles",
@@ -15806,7 +15900,7 @@
       "addedAt": "2026-10-31 14:08 CST",
       "lastChecked": "2026-10-31 14:08 CST",
       "zoneHint": "打新",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "abtc-agent",
@@ -15852,7 +15946,7 @@
       "addedAt": "2026-10-31 14:08 CST",
       "lastChecked": "2026-10-31 14:08 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "d4rk-fyi",
@@ -15896,7 +15990,7 @@
       "addedAt": "2026-10-31 14:08 CST",
       "lastChecked": "2026-10-31 14:08 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "guardbsc",
@@ -160461,21 +160555,18 @@
     }
   ],
   "newThisRound": [
-    "d4rk-fyi",
-    "abtc-agent",
-    "ninjaa-turtles",
-    "reaperexe",
-    "navodotfamily"
+    "grabbybuild",
+    "oren-finance"
   ],
-  "alertMessage": "DC补漏R982新收5项：D4RK、ABTC、Ninja Turtles、REAPER.EXE、Navo；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R983新收：Grabby（Uniswap V4 hook概念，已公布CA，极早期高风险）、OREN（Solana AI股票交易终端，pump合约已上，观察玩法与流动性）；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [],
-  "updatedAt": "2026-10-31 14:08 CST",
-  "updated": "2026-10-31 14:08 CST",
+  "updatedAt": "2026-10-31 14:19 CST",
+  "updated": "2026-10-31 14:19 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-31 14:08 CST",
+  "lastScout": "2026-10-31 14:19 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -160517,7 +160608,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 2341,
+  "candidateCount": 2343,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -162157,5 +162248,9 @@
     "ninjaa-turtles",
     "reaperexe",
     "navodotfamily"
+  ],
+  "round983Added": [
+    "grabbybuild",
+    "oren-finance"
   ]
 }
