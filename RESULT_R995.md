@@ -84,7 +84,8 @@
   "dsModel": "deepseek-flash",
   "thinking": true,
   "push": true,
-  "pushSha": "ccab33e8694a9b502493f26da930a88587f45c99",
-  "panel": "https://reboot7454.github.io/early-scout/"
+  "pushSha": "12dce25",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "dataSha": "ccab33e8694a9b502493f26da930a88587f45c99"
 }
 ```
