@@ -1,0 +1,85 @@
+{
+  "round": 991,
+  "mode": "full-scan",
+  "completedAt": "2026-10-31 16:35 CST",
+  "timezone": "Asia/Shanghai",
+  "xReads": 42,
+  "remaining": "353/1000",
+  "remainingBefore": "395/1000",
+  "notify": true,
+  "notifyReason": "newAdmit×1 Realm(GO盘)",
+  "alertMessage": "R991告警：新收录1个——Realm(@TradeOnRealm) RH Chain fair-launch发射台 realm.trade（股票/RWA/ETF basket，粉≈399，score76，GO盘）；库内续：FISTAGENT免费段仍LIVE约1501/2000、Quirkz免费售罄转0.0005BNB、SAFU今日21:00CST开铸（付费只报）、Ptah IAO测试+PoA免费；CRT/Snailings/Famuli/Nocturn/Seatwork/币安人续LIVE；$MAOAI开池已过≤2h窗；面板 https://reboot7454.github.io/early-scout/",
+  "alert": "R991告警：新收录1个——Realm(@TradeOnRealm) RH Chain fair-launch发射台 realm.trade（股票/RWA/ETF basket，粉≈399，score76，GO盘）；库内续：FISTAGENT免费段仍LIVE约1501/2000、Quirkz免费售罄转0.0005BNB、SAFU今日21:00CST开铸（付费只报）、Ptah IAO测试+PoA免费；CRT/Snailings/Famuli/Nocturn/Seatwork/币安人续LIVE；$MAOAI开池已过≤2h窗；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "trade-on-realm",
+      "handle": "@TradeOnRealm",
+      "name": "Realm",
+      "score": 76,
+      "note": "RH Chain fair-launch发射台realm.trade；股票/RWA/ETF basket；粉≈399；GO盘"
+    }
+  ],
+  "newIds": [
+    "trade-on-realm"
+  ],
+  "newCount": 1,
+  "skipped": [
+    {
+      "id": "pinchu-meme",
+      "why": "粉0信号极薄疑仿盘，DS skip"
+    },
+    {
+      "id": "sertoken888",
+      "why": "低粉Halloween聚合号无独立站，DS skip"
+    },
+    {
+      "id": "saiyanz",
+      "why": "无有效官推（第三方WL帖），skip"
+    },
+    {
+      "id": "agentic-pixels",
+      "why": "仅二手帖无官推/站，skip"
+    },
+    {
+      "id": "eqxlabs",
+      "why": "Hyperliquid代币化美股，非打新/mint窗口"
+    },
+    {
+      "id": "hyperforge-core/certuna-rh/eleval/spike-wtf",
+      "why": "R990 DC已收，勿重复admit"
+    },
+    {
+      "id": "fistagent/quirkzai/safu-fund-bnb/ptah-trade/crt/snailings/famuli/nocturn/seatwork/bianren/agentmao",
+      "why": "库内刷新非newAdmit；$MAOAI已过≤2h"
+    },
+    {
+      "id": "mobster_meme/starx_xlayer/Leeonmort",
+      "why": "NF skip dead lookups"
+    },
+    {
+      "id": "jakdu-pump/ammora/giwa-markets/torpor/kalosfun/pulse-launchpad/real-hood-people",
+      "why": "已在库；续刷"
+    }
+  ],
+  "coverage": {
+    "tenLanes": true,
+    "userFollowSoft": true,
+    "keywords": true,
+    "mentionsChains": [
+      "Elysium",
+      "GIWA",
+      "squeek",
+      "Tape",
+      "BN Agent/dotaipad",
+      "Starknet",
+      "flap",
+      "DogeOS",
+      "BTC/ShieldedNaka"
+    ],
+    "notes": "十栏+UF软刷+关键词合并；mentions覆盖Elysium/GIWA/squeek/Tape/BN pad/Starknet/flap/DogeOS/BTC；X Layer/STARX关键词无强新号；Nutshell/localbottom今日无新帖"
+  },
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "push": "pending",
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
