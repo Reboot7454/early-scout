@@ -1,0 +1,36 @@
+{
+  "round": 1027,
+  "mode": "exhausted-deferred-full-scan",
+  "completedAt": "2026-11-01 02:58 CST",
+  "xReads": 0,
+  "remainingBefore": 0,
+  "remaining": 0,
+  "limit": 1000,
+  "deferredFullScan": true,
+  "deferredUntil": "2026-11-01 08:00 CST",
+  "notify": false,
+  "newIds": [],
+  "watchBugsFixed": 5,
+  "watchBugs": [
+    "whaleart→userFollowWatch,freeMintWatch",
+    "gboss-onsol→userFollowWatch",
+    "omniarb→userFollowWatch",
+    "redirectcash→userFollowWatch"
+  ],
+  "softDebt": [
+    "cantonPadWatch",
+    "glazeWatch",
+    "tokenWorksPlaygroundWatch",
+    "tokenWorksWatch"
+  ],
+  "coverage": {
+    "tenLanes": "deferred",
+    "keywords": "deferred",
+    "mentions": "deferred",
+    "userFollowSoft": "deferred"
+  },
+  "discordPeekDeferred": true,
+  "discordPeekSkipped": true,
+  "alert": null,
+  "summary": "R1027 exhausted-deferred：X remaining=0 零读取；补挂 R1026 四卡进 Watch；软债刷；Discord deferred；全量延至 08:00 CST；notify=false"
+}

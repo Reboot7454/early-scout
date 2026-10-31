@@ -1,0 +1,21 @@
+# RESULT R1027
+
+- mode: exhausted-deferred-full-scan
+- completedAt: 2026-11-01 02:58 CST
+- xReads: 0 | remainingBefore: 0/1000 | remaining: 0/1000
+- xQuota: mode=zero-x softCap=0 hoursLeft≈5.03 resetAtCST=2026-11-01 08:00 CST
+- parentProbeNote: X daily limit reached; Do not call X tools again before 2026-11-01T00:00:00.000Z (≈08:00 CST)
+- deferredFullScan: true | deferredUntil: 2026-11-01 08:00 CST
+- notify: false
+- newIds: []
+- le2h: (无新增免费 LIVE/mint；R1026 WhaleArt 免费mint待核已在 R1026 通知，不重复推)
+- watchBugsFixed: 5
+- watchBugsNote: R1026 Discord 补漏4卡未进 Watch → 本轮补挂 whaleart→userFollowWatch,freeMintWatch; gboss-onsol→userFollowWatch; omniarb→userFollowWatch; redirectcash→userFollowWatch。近期(≥R1015)扫描无其它库内漏挂。
+- softDebt: cantonPadWatch / glazeWatch / tokenWorksPlaygroundWatch / tokenWorksWatch lastChecked→2026-11-01 02:58 CST
+- coverage: tenLanes=deferred keywords=deferred mentions=deferred userFollowSoft=deferred
+- discordPeekSkipped: true
+- discordPeekDeferred: true
+- discordLoginOk: false
+- alert: (none this round)
+- summary: R1027 exhausted-deferred：X remaining=0 零读取；补挂 R1026 四卡 whaleart/gboss-onsol/omniarb/redirectcash 进 Watch；软债刷 canton/glaze/tokenWorks；Discord peek deferred（R1026 刚 peek）；清 newThisRound；全量 UF+十栏+mentions 延至 2026-11-01 08:00 CST；本轮无新收录，notify=false。
+- push: (pending)
