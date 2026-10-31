@@ -1,0 +1,154 @@
+# Early-Scout RESULT R973
+
+```json
+{
+  "round": 973,
+  "mode": "full-scan",
+  "completedAt": "2026-10-31 11:07 CST",
+  "timezone": "Asia/Shanghai",
+  "xReads": 41,
+  "remaining": "719/1000",
+  "xRemaining": 719,
+  "parentTaskedRound": 973,
+  "deferredFullScan": false,
+  "notify": true,
+  "notifyReason": "newAdmit×3: voidling-rh RH free-mint watch; agent-inu paid fair-mint report-only (contract soon); datar-fun Solana pad LIVE first-alert",
+  "alertMessage": "新增极早期：Voidling RH 4444 NFT 持币免费 mint（0粉）、AGENT INU BNB $0.50/份 fair mint 合约待部署（付费只报）、Datar.Fun Solana launchpad 刚上线（2粉）；面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "voidling-rh",
+    "agent-inu",
+    "datar-fun"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "voidling-rh",
+    "agent-inu",
+    "datar-fun"
+  ],
+  "skipped": [
+    "HALLO/CastDeep/Photonyx telegram-only or no official X",
+    "GhoulishCoin already launched pump.fun",
+    "Hydranox no official X",
+    "DeusTrdng=Nutshell builder (already tracking Nutshell)",
+    "FomiesNFT/onlydotmeme already in-lib",
+    "egglo already in-lib (watch)",
+    "starx_xlayer/mobster_meme NF→keyword",
+    "agentic-pixels/resafu/classified-mining/mochi/agents-estates already alerted no re-spam"
+  ],
+  "round973Added": [
+    "voidling-rh",
+    "agent-inu",
+    "datar-fun"
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "usetagpay",
+    "agentsgofirst",
+    "getblessed-fun"
+  ],
+  "le2h": [
+    {
+      "id": "datar-fun",
+      "note": "Solana pad LIVE+$DATAR pump CA；本轮首告"
+    },
+    {
+      "id": "voidling-rh",
+      "note": "尚未开铸；watch only"
+    },
+    {
+      "id": "agent-inu",
+      "note": "合约 deploying soon；付费只报；尚未LIVE"
+    },
+    {
+      "id": "agentic-pixels",
+      "note": "R971已告不重复推"
+    },
+    {
+      "id": "resafu",
+      "note": "R971已告；付费只报不重复"
+    },
+    {
+      "id": "classified-mining",
+      "note": "已告不重复推"
+    },
+    {
+      "id": "mochi-agent",
+      "note": "已告；付费后续只报"
+    },
+    {
+      "id": "agents-estates",
+      "note": "已告不重复推"
+    },
+    {
+      "id": "hallowhood",
+      "note": "AL 18:00UTC Oct31≈02:00 CST Nov1 尚未≤2h"
+    },
+    {
+      "id": "villagers-rh",
+      "note": "Nov1 14:45UTC 尚未≤2h；已告"
+    },
+    {
+      "id": "apogee-ai-fun",
+      "note": "Sat 12PM ET 尚未≤2h；已告"
+    }
+  ],
+  "within2h": [
+    {
+      "id": "datar-fun",
+      "note": "pad/CA LIVE 本轮首告"
+    }
+  ],
+  "liveUpdates": [
+    "voidling-rh → watch admit (RH 4444, token-holder free mint, 0 followers)",
+    "agent-inu → upcoming admit ($0.50/share fair mint, Agent ID free claim; report-only paid)",
+    "datar-fun → live admit (Solana launchpad + $DATAR pump CA)",
+    "flap → DNS hijack warn continued (not admit)",
+    "villagers-rh → mint Nov1 14:45UTC confirmed via soft-brush",
+    "agentic-pixels/resafu → already alerted no re-spam"
+  ],
+  "discordPeekDeferred": true,
+  "discordPeekNote": "无 computerUse；R972刚做过DC补漏，本轮discordPeekDeferred=true",
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit×3→3 + score×3 + alert (thinking on)",
+  "keywordsTenCols": true,
+  "keywordsAllLanes": true,
+  "keywordsNote": "batches: Agent ID/AIDROP/fair launch/Binance agent/mining/ReSAFU; Nutshell/squeek/仓鼠/STARX/XLayer/Pulse/Local Bottom; Tape/GIWA/DogeEVM/Elysium/HallowHood; flap/Irys/Full.fun/pipfun/computeroll/打新/free mint/GO",
+  "userFollowDone": true,
+  "userFollowWatch": "priority soft-brush Pulse/FIST/SUAN/squeek/Nutshell/HallowHood/machine/bscaidrop/agentic_pixels_/resafu/ClassifiedMRNG/AgenticBinance/localbottom/Villagers; +3 new admits to UF; starx_xlayer/mobster_meme NF→keyword",
+  "mentionsCoverage": "Elysium soft; Tape soft 0 new; GIWA(@GIWA_by_Upbit); DogeOS(@DogeOS); Starknet(@Starknet); BTC(@ShieldedNaka); flap(@flapdotsh DNS hijack); Nutshell(@NutshellMarkets)+squeek soft; STARX handle NF→keyword; BN Agent pads soft via UF",
+  "coverage": {
+    "打新": "keywords→voidling-rh/agent-inu; skip telegram-only",
+    "挖矿": "classified-mining续活不重复; miningWatch soft lastChecked",
+    "台子/Meme": "keywords→datar-fun Solana pad; agent-inu付费只报",
+    "GO盘": "keywords soft",
+    "LayerZero": "soft",
+    "Elysium": "mentions+keywords soft; exclude perpme/branchpoint/outrive",
+    "Tape/电路": "mentions soft",
+    "GIWA": "mentions soft (deuslaunch already in)",
+    "DogeEVM": "mentions soft",
+    "BN Agent 钱包": "UF+keywords→agent-inu; FIST/mochi/resafu paid report-only",
+    "BTC": "ShieldedNaka mentions soft",
+    "Starknet": "mentions soft",
+    "X Layer/STARX": "keyword (handle NF)",
+    "squeek/Nutshell": "UF+mentions; DeusTrdng=builder skip",
+    "flap/Irys/Full.fun/Arc": "flap DNS hijack warn; soft"
+  },
+  "watchBugs": [
+    "@thevoidling_rh → freeMintWatch",
+    "@thevoidling_rh → userFollowWatch",
+    "@Ainubsc → bnAgentWatch",
+    "@Ainubsc → agentPadWatch",
+    "@Ainubsc → freeMintWatch",
+    "@Ainubsc → userFollowWatch",
+    "@DatarDotFun → userFollowWatch"
+  ],
+  "paidAgentIdNote": "agent-inu/resafu/FISTAGENT/mochi 付费只报不自动打；本轮无自动打",
+  "softDebtRefreshed": true,
+  "priorRoundNote": "R972 DC admits cleared from newThisRound; no re-spam of agentic-pixels/resafu/classified/mochi/agents-estates/villagers/apogee/hallowhood",
+  "push": {
+    "attempted": true,
+    "ok": null
+  },
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
+```
