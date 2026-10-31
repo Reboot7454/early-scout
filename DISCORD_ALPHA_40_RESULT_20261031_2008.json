@@ -1,0 +1,60 @@
+{
+  "round": 1002,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-31 20:08 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "scanpad",
+    "beatdotfamily",
+    "soldrillcom"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "scanpad",
+    "beatdotfamily",
+    "soldrillcom"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 67,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "agentcardshq",
+    "trykerb",
+    "moonfall-bnb",
+    "usetrenchscope",
+    "agent-pulse"
+  ],
+  "candidateFlagsCleared": 5,
+  "topNewThisRoundCleared": [
+    "agentcardshq",
+    "trykerb",
+    "moonfall-bnb",
+    "usetrenchscope",
+    "agent-pulse"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=3",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-31 20:04",
+    "lastChecked": "2026-10-31 20:08 CST",
+    "newestCardTime": "2026-10-31 20:04",
+    "cardsAfterCutoff": 67,
+    "note": "R1002：Discord alpha 补收 scanpad,beatdotfamily,soldrillcom；清 agentcardshq,trykerb,moonfall-bnb,usetrenchscope,agent-pulse；lastSeen→2026-10-31 20:04；lastChecked→2026-10-31 20:08 CST",
+    "lastRound": 1002
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1002：Discord alpha 补收 scanpad,beatdotfamily,soldrillcom；清 agentcardshq,trykerb,moonfall-bnb,usetrenchscope,agent-pulse；lastSeen→2026-10-31 20:04；lastChecked→2026-10-31 20:08 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261031_1955.json",
+  "priorRoundNote": "R1001 meta NTR ['usetrenchscope', 'moonfall-bnb', 'trykerb', 'agentcardshq', 'agent-pulse']; cardsAfterCutoff=67"
+}

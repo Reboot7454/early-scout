@@ -5,7 +5,7 @@
   "timezone": "Asia/Shanghai",
   "notify": false,
   "notifyReason": "no_new_admits",
-  "alertMessage": "R828 DC补漏新收3（未核验，台子/Meme）：Swypex @swypex_app 加密/美股涨跌预测小游戏；PaperProp @PaperProp_io papertrade 1000x prop 交易；SETH @Enter_SETH Elysium trenches 发射/交易，Uniswap多池，未发币。面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "",
   "newAdmits": [],
   "newCount": 0,
   "newIds": [],
@@ -19,21 +19,15 @@
   "discordPeekDeferred": false,
   "dsFallback": false,
   "dsUsage": "none (0 cards)",
-  "coverage": "alpha-3/backup/smart/alpha-1",
+  "coverage": "discord-alpha #alpha-1 only",
   "discordAlphaPeek": {
     "deferred": false,
-    "lastSeen": "2026-10-29 10:37",
-    "lastChecked": "2026-10-29 10:40 CST",
-    "newestCardTime": "2026-10-29 10:37",
-    "cardsAfterCutoff": 30,
-    "note": "R828：Discord alpha 补收 swypex_app,paperprop_io,enter_seth；跳过 [{'id': 'purefiapp', 'reason': '6%收益+低费率免息汇款，偏传统金融/理财汇款，非极早期加密打新；无发射/玩法线索。'}]；清 elysiumpepecoin,tapemonkey,hood-bombers,crewhood；lastSeen→2026-10-29 10:37；lastChecked→2026-10-29 10:40 CST",
-    "lastRound": 828,
-    "lastSeenByChannel": {
-      "alpha-3-new-accounts": "2026-10-29 10:36",
-      "alpha-1-backup": "2026-10-29 10:28",
-      "smart-accounts-tracker": "2026-10-29 10:37",
-      "alpha-1": "2026-10-29 10:35"
-    }
+    "lastSeen": "2026-10-26 13:03 CST",
+    "lastChecked": "2026-10-26 18:36 CST",
+    "newestCardTime": "2026-10-26 13:03 CST",
+    "cardsAfterCutoff": 0,
+    "note": "R618：Discord alpha 补漏无新卡（#alpha-1 最新仍 13:03 CST）；清 disorderly-afterflow,forever-cult-fund；lastSeen 保持 13:03 CST，lastChecked→2026-10-26 18:36 CST",
+    "lastRound": 618
   },
   "push": {
     "attempted": true,
@@ -43,7 +37,7 @@
     "remote": "origin/main"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
-  "summary": "R668：Discord alpha 补漏无新收；跳过 CashCow_Farm(0粉空壳)、RojaGarimella(个人)、InvisibleFriends(成熟NFT)；源：alpha-3 至09:12 / backup 至08:58 / smart 至09:12 / #alpha-1 仍停 10/26 13:03",
+  "summary": "R618：Discord alpha 补漏无新卡（#alpha-1 最新仍 13:03 CST）；清 disorderly-afterflow,forever-cult-fund；lastSeen 保持 13:03 CST，lastChecked→2026-10-26 18:36 CST",
   "priorRoundNote": "R617 (other agent) newThisRound=[disorderly-afterflow, forever-cult-fund] + discordPeekDeferred; this run completed DC peek, no TFM cards after 13:03 CST",
   "remoteVerified": true,
   "cardsFile": "DISCORD_ALPHA_40_CARDS_20261026_1832.json",

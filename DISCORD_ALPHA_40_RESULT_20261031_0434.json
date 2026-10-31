@@ -1,0 +1,118 @@
+{
+  "round": 950,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-31 04:35 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R950新收3个：Streamlit $STREAM、Overwatch Dominion、Razor Agent；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "streamlitmaker",
+    "dominioncoins",
+    "razor-agent"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "streamlitmaker",
+    "dominioncoins",
+    "razor-agent"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 11,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "candidateFlagsCleared": 0,
+  "topNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=3",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-31 04:32",
+    "lastChecked": "2026-10-31 04:35 CST",
+    "newestCardTime": "2026-10-31 03:56",
+    "cardsAfterCutoff": 11,
+    "note": "R950：Discord alpha 补收 streamlitmaker,dominioncoins,razor-agent；lastSeen→2026-10-31 04:32；lastChecked→2026-10-31 04:35 CST",
+    "lastRound": 950,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-31 04:32",
+      "alpha-1-backup": "2026-10-31 03:46",
+      "smart-accounts-tracker": "2026-10-31 03:10",
+      "alpha-1": "2026-10-31 03:56"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R950：Discord alpha 补收 streamlitmaker,dominioncoins,razor-agent；lastSeen→2026-10-31 04:32；lastChecked→2026-10-31 04:35 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261031_0433.json",
+  "priorRoundNote": "R949 meta NTR []; cardsAfterCutoff=11",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-10-31 04:32",
+    "alpha-1-backup": "2026-10-31 03:46",
+    "smart-accounts-tracker": "2026-10-31 03:10",
+    "alpha-1": "2026-10-31 03:56"
+  },
+  "cardsRead": 11,
+  "rejected": [
+    {
+      "handle": "@tardigradesh",
+      "reason": "bio 里只有抽象的 agent 架构描述，没有产品、发射、mint 或玩法线索，属于空壳技术号。"
+    },
+    {
+      "handle": "@WICKonElysium",
+      "reason": "这是关注 @Enter_Elysium 的个人喊单和交易员账号，没有明确 testnet 或具体部署信息。"
+    },
+    {
+      "handle": "@xm780777",
+      "reason": "仅有 商 the first money back on-chain 这类模糊叙事，没有产品、官网或发射信息，像空壳 meme 号。"
+    },
+    {
+      "handle": "@pokemonlimitbrk",
+      "reason": "仅游戏概念描述，无产品链接/发射/mint线索，0粉空壳号"
+    },
+    {
+      "handle": "@Wellutech",
+      "reason": "清洁技术叙事，与加密/发射/挖矿无关，无产品线索"
+    },
+    {
+      "handle": "@Wa_Intelligence",
+      "reason": "DEX分析工具，无发射/mint/挖矿参与线索，0粉无法验证产品"
+    },
+    {
+      "handle": "@homer_fi",
+      "reason": "仅自述为 Elysium 的流动性层，bio 未出现 On testnet/Announced 的具体部署信息，按 Elysium 硬规则不收。"
+    },
+    {
+      "handle": "@PEPEJROFFICE",
+      "reason": "纯 Pepe JR 梗号，无产品、无发射或玩法线索，且非 Elysium 具体部署，属空壳 meme。"
+    }
+  ],
+  "rejectedCount": 8,
+  "dsRejects": 8,
+  "admissions": [
+    {
+      "id": "streamlitmaker",
+      "handle": "@Streamlitmaker",
+      "category": "台子/Meme",
+      "name": "Streamlit $STREAM"
+    },
+    {
+      "id": "dominioncoins",
+      "handle": "@DominionCoins",
+      "category": "台子/Meme",
+      "name": "Overwatch Dominion"
+    },
+    {
+      "id": "razor-agent",
+      "handle": "@Razor_Agent",
+      "category": "打新",
+      "name": "Razor Agent"
+    }
+  ],
+  "alert": "DC补漏R950新收3个：Streamlit $STREAM、Overwatch Dominion、Razor Agent；面板 https://reboot7454.github.io/early-scout/"
+}

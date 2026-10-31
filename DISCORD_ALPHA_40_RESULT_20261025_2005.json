@@ -1,0 +1,83 @@
+{
+  "round": 539,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-25 20:03 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新增2项：Persona Non Grata（3333枚反体制面具NFT，极早期）、Kuip（多链公平发射+防狙击台子，极早期）→ https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "nongrata-club",
+      "handle": "nongrata_club",
+      "category": "打新",
+      "followers": 15
+    },
+    {
+      "id": "kuip-fun",
+      "handle": "KuipFun",
+      "category": "台子/Meme",
+      "followers": 13
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "nongrata-club",
+    "kuip-fun"
+  ],
+  "skipped": [
+    {
+      "handle": "egglorh",
+      "reason": "dedup already in DB as egglo"
+    },
+    {
+      "handle": "squeekchain",
+      "reason": "dedup already in DB as squeekchain (focus)"
+    },
+    {
+      "handle": "amorriscode",
+      "reason": "KOL/personal 48575 followers Anthropic"
+    },
+    {
+      "handle": "trq212",
+      "reason": "KOL/personal 391235 followers"
+    },
+    {
+      "handle": "archuntx",
+      "reason": "dedup already in DB as elysium-huntx"
+    }
+  ],
+  "cardsAfterLastSeen": 7,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "unison-room",
+    "minpentai"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking=on: admit→nongrata-club+kuip-fun; score+alert",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-25 19:50 CST",
+    "lastChecked": "2026-10-25 20:03 CST",
+    "newestCardTime": "2026-10-25 19:50 CST",
+    "note": "R539：#alpha-1 19:09后7卡：收 nongrata-club/kuip-fun；egglo·squeekchain·archuntx去重；amorriscode/trq212 KOL跳过；lastSeen→19:50 CST @KuipFun"
+  },
+  "meta": {
+    "lastSeen": "2026-10-25 19:50 CST",
+    "lastChecked": "2026-10-25 20:03 CST",
+    "newestCardTime": "2026-10-25 19:50 CST"
+  },
+  "push": {
+    "attempted": true,
+    "ok": true,
+    "commit": "5343cea",
+    "fullSha": "5343cea9d38bf7748bb6f3ca44eb7036d5cadbc4",
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R539：#alpha-1 19:09后7卡收2（nongrata-club 打新·3333面具NFT；kuip-fun 台子·多链fair launch）；3去重+2 KOL跳过；lastSeen→19:50 CST；清 R538 newThisRound unison-room/minpentai；推送 5343cea；notify=true",
+  "auxNote": "backup egglorh; smart-accounts bitcointapes; alpha-3 Abdoul881/Drawsetfi/Fappycoin noise",
+  "remoteVerified": true
+}

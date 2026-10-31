@@ -1,0 +1,84 @@
+{
+  "round": 536,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-25 19:20 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新增2项：MooLand（RH Chain 像素 GameFi waitlist）、Pump Forge（多链非托管 launchpad，暂无官方代币）→ https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "playmooland",
+      "handle": "PlayMooLand",
+      "category": "打新",
+      "followers": 295
+    },
+    {
+      "id": "pump-forge",
+      "handle": "Pump_Forge_",
+      "category": "台子/Meme",
+      "followers": 106,
+      "alias": "PumpForge"
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "playmooland",
+    "pump-forge"
+  ],
+  "skipped": [
+    {
+      "handle": "Agentai_ai",
+      "reason": "dedup already in DB as agentai-agi"
+    },
+    {
+      "handle": "_OSBook",
+      "reason": "DS skip: 5678 followers info/community square for Binance Intelligence Agents, not early mint/launch"
+    },
+    {
+      "handle": "ForgeLaunchPad",
+      "reason": "DS skip: 1647 followers mid-tier launchpad claim, no clear early window/website"
+    },
+    {
+      "handle": "officialtekcoin",
+      "reason": "DS skip: 75 foll, only TG/website, weak early product signal / empty-shell risk"
+    },
+    {
+      "handle": "robtown_rh",
+      "reason": "dedup already in DB as robtown (R483)"
+    }
+  ],
+  "cardsAfterLastSeen": 7,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "danta",
+    "umbra-agents"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking=on: admit→playmooland+pump-forge; skip osbook/forge-launchpad/gudtek-tek; score+alert",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-25 19:09 CST",
+    "lastChecked": "2026-10-25 19:20 CST",
+    "newestCardTime": "2026-10-25 19:09 CST",
+    "note": "R536：#alpha-1 18:13后7卡：收 playmooland/pump-forge；Agentai_ai·robtown 去重；osbook/forge-launchpad/gudtek-tek DS skip；lastSeen→19:09 CST @robtown_rh"
+  },
+  "meta": {
+    "lastSeen": "2026-10-25 19:09 CST",
+    "lastChecked": "2026-10-25 19:20 CST",
+    "newestCardTime": "2026-10-25 19:09 CST"
+  },
+  "push": {
+    "attempted": true,
+    "ok": true,
+    "commit": "d5c7da9",
+    "fullSha": "d5c7da902bbc5951dd9d5290cb2ecd0705436560",
+    "remote": "origin/main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R536：#alpha-1 18:13后7卡收2（playmooland 打新·RH像素GameFi；pump-forge 台子·多链launchpad）；3 DS skip + 2去重；lastSeen→19:09 CST；清 R535 newThisRound danta/umbra-agents；推送 d5c7da9；notify=true",
+  "remoteVerified": true,
+  "auxNote": "backup PlayMooLand; smart-accounts TheVoldron/bitcointapes; alpha-3 noise"
+}

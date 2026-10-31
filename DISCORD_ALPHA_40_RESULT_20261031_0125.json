@@ -1,0 +1,150 @@
+{
+  "round": 939,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-31 01:25 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R939新收5项：Keelport、Mattress、RheaCat、ElysiumBrokers、Terza；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "keelport",
+    "mattresssafu",
+    "rheacatnear",
+    "elysiumbrokers",
+    "terzainference"
+  ],
+  "newCount": 5,
+  "newIds": [
+    "keelport",
+    "mattresssafu",
+    "rheacatnear",
+    "elysiumbrokers",
+    "terzainference"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 17,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "agent-raid-bsc"
+  ],
+  "candidateFlagsCleared": 1,
+  "topNewThisRoundCleared": [
+    "agent-raid-bsc"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=5",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-31 01:22",
+    "lastChecked": "2026-10-31 01:25 CST",
+    "newestCardTime": "2026-10-31 00:36",
+    "cardsAfterCutoff": 17,
+    "note": "R939：Discord alpha 补收 keelport,mattresssafu,rheacatnear,elysiumbrokers,terzainference；清 agent-raid-bsc；lastSeen→2026-10-31 01:22；lastChecked→2026-10-31 01:25 CST",
+    "lastRound": 939,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-31 01:22",
+      "alpha-1-backup": "2026-10-31 01:13",
+      "smart-accounts-tracker": "2026-10-31 01:19",
+      "alpha-1": "2026-10-31 01:04"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R939：Discord alpha 补收 keelport,mattresssafu,rheacatnear,elysiumbrokers,terzainference；清 agent-raid-bsc；lastSeen→2026-10-31 01:22；lastChecked→2026-10-31 01:25 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_R939.json",
+  "priorRoundNote": "R938 meta NTR ['agent-raid-bsc']; cardsAfterCutoff=17",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-10-31 01:22",
+    "alpha-1-backup": "2026-10-31 01:13",
+    "smart-accounts-tracker": "2026-10-31 01:19",
+    "alpha-1": "2026-10-31 01:04"
+  },
+  "cardsRead": 17,
+  "rejected": [
+    {
+      "handle": "@kilathost",
+      "reason": "bio 只有一句空泛的服务器类 AI Agent 描述，无产品、无链接、无发射线索，1 个粉丝的纯空壳号"
+    },
+    {
+      "handle": "@alihamz50917207",
+      "reason": "handle 带数字的个人号风格，bio 仅一条 drip.haus 链接，无项目身份与产品/发射说明"
+    },
+    {
+      "handle": "@Clarityuxz",
+      "reason": "仅宣称 meme 即将登陆 Robinhood Chain，无合约、无链接、无产品，属纯预热空卡"
+    },
+    {
+      "handle": "@criptomonedacc",
+      "reason": "bio 为通用区块链套话，无产品、无链接、无玩法，1 粉丝空号"
+    },
+    {
+      "handle": "@soniccarge",
+      "reason": "内容为现实家庭/汽车叙事，与链上产品无关联，无项目实体"
+    },
+    {
+      "handle": "@WFX2034",
+      "reason": "农业土地代币化仅停留口号层，无官网、无合约、无进度，无法判断真伪"
+    },
+    {
+      "handle": "@NoxNightBringer",
+      "reason": "粉丝自制账号，非官方项目方，无独立产品"
+    },
+    {
+      "handle": "@stellereum",
+      "reason": "仅有口号式L1宣称与TG链接，无任何发射或产品线索"
+    },
+    {
+      "handle": "@aaryankushwah",
+      "reason": "个人KOL/CEO账号，非项目方"
+    },
+    {
+      "handle": "@unruggable_eth",
+      "reason": "仅称Building，无铸造/发射等可执行线索"
+    },
+    {
+      "handle": "@TheJJKinahan",
+      "reason": "高粉(17325)个人/KOL"
+    }
+  ],
+  "rejectedCount": 11,
+  "dsRejects": 10,
+  "admissions": [
+    {
+      "id": "keelport",
+      "handle": "@keelport",
+      "category": "台子/Meme",
+      "name": "Keelport"
+    },
+    {
+      "id": "mattresssafu",
+      "handle": "@MattressSAFU",
+      "category": "台子/Meme",
+      "name": "Mattress"
+    },
+    {
+      "id": "rheacatnear",
+      "handle": "@RheacatNear",
+      "category": "台子/Meme",
+      "name": "RheaCat"
+    },
+    {
+      "id": "elysiumbrokers",
+      "handle": "@elysiumbrokers",
+      "category": "Elysium",
+      "name": "ElysiumBrokers"
+    },
+    {
+      "id": "terzainference",
+      "handle": "@TerzaInference",
+      "category": "挖矿",
+      "name": "Terza"
+    }
+  ],
+  "alert": "DC补漏R939新收5项：Keelport、Mattress、RheaCat、ElysiumBrokers、Terza；面板 https://reboot7454.github.io/early-scout/"
+}
