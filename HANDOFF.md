@@ -127,10 +127,28 @@ Jafar 是打新玩家：目标尽量不漏可操作机会，不是固定赛道�
 
 运行注意（与零漏捕并存，**不**用省 X 当借口偏科砍栏）：
 
-1. **少开额外 X 查询**；同一 handle 每轮只读一次；勿重复确认 / 闲逛 / 同号多刷。
-2. **开跑先查 remaining**；额度紧（约 `<200`）时优先：UF → 必盯 → 合并关键词；mentions 改为轮换子集（勿每轮全链全扫）。
-3. **日额 0** 至约 **08:00 CST** 重置：本阶段 **零 X**；只做本地 Watch 修 + 推送；重置后**首轮全量补扫**（UF+必盯+合并关键词+官号 mentions）。
-4. **额度够时仍不得偏科砍栏**（Grok 够用 ≠ 乱烧 X；十栏/挂靠/盲捞仍要跑，但禁止无效重复查询）。
+1. **少开额外 X 查询**；同一 handle 每轮只读一次（**跨 UF + 各 Watch 去重**）；勿重复确认 / 闲逛 / 同号多刷 / Not Found 连刷。
+2. **开跑先查 remaining**，并跑 `python3 scripts/x_budget.py` 取本轮 `softCap`/`mode`（写入 RESULT 的 xQuota）。额度紧（约 `<200`）时优先：UF → 必盯 → 合并关键词；mentions 改为轮换子集（勿每轮全链全扫）。
+3. **日额 0** 至约 **08:00 CST** 重置：本阶段 **零 X**；只做本地 Watch 修 + 推送；重置后**仅首轮**全量补扫（UF+必盯+合并关键词+官号 mentions），**勿连续两轮 full-after-reset**。
+4. **额度够时仍不得偏科砍栏**（Grok 够用 ≠ 乱烧 X；十栏/挂靠/盲捞仍要跑，但禁止无效重复查询）。`softCap` 是日配额 pacing，**不是**砍栏借口。
+
+#### 日配额 pacing（2026-11-01，不改硬规则）
+
+实测：日额 **1000**；`@every ~35m`；10-31 从 08:13→21:04 约 **33** 次 X 轮、均耗 **~30–50**/轮，**晚间峰值前烧光**。UF≈700、全 Watch 账号槽≈1650（跨表重复≈484）——禁止整表全读。
+
+| remaining | mode | softCap 指引 | 读序 |
+|---|---|---|---|
+| 0→08:00 | zero-x | 0 | 只本地 Watch 修+推+DC |
+| <50 | near-exhausted | ≤8 | **仅** UF 优先片 + ≤2h；关键词/mentions 延后 |
+| <200 | tight | ≤18 | UF→必盯/≤2h→合并关键词；mentions 轮换 1–3 链；禁探索读 |
+| 200–599 | pace | ≤28 | 十栏仍跑；UF 分片；合并 KW；mentions 轮换 |
+| ≥600 | ample | ≤40 | 全覆盖；仍去重+禁闲逛 |
+| 08:00 后首轮（rem≥950） | post-reset-full | ≤50 | **仅一轮**全量补扫 |
+
+执行要点：
+- **UF 优先且分片**：≤2h / LIVE / 用户点名 / 本轮新 必读；其余按 `meta.userFollowWatch.cursor`（或 round%N）轮转，单轮 UF 软刷目标约占 softCap 的 40–60%。
+- **20:00 CST 前预留 ~80** 给晚高峰（脚本 `eveningReserve`）。
+- RESULT 必写：`xReads` / `remainingBefore` / `remaining` / `mode` / `softCap`。
 
 硬规则：
 - **在库但不在任何 Watch = 监控 bug**，本轮必须补进对应 Watch 或 `userFollowWatch`。
@@ -164,6 +182,7 @@ Jafar 是打新玩家：目标尽量不漏可操作机会，不是固定赛道�
 ## 2026-10-29 用户确认：X 节流（少开额外 X 查询）
 - 用户确认：「少开额外 X 查询」。
 - 写入零漏捕/运行注意：同 handle 每轮一读；开跑查 remaining；`<~200` 优先 UF→必盯→合并关键词、mentions 轮换；日额 0→08:00 CST 零 X 只本地修+推，重置后首轮全量补扫；额度够也不得偏科砍栏（Grok 够≠乱烧 X）。
+- **2026-11-01**：用户反馈「额度根本顶不住一天」。未改硬规则；落地日配额 pacing（`scripts/x_budget.py` + `meta.xBudgetPlan` + ROUTINE_PROMPT），目标撑到下一 08:00 重置，晚高峰前预留。
 
 ## 2026-10-28 用户点名补收 @PulseLaunchpad（关键词漏）
 - 库/Watch 此前均无。漏因：词表无 `Pulse`/`pulsetoken`/`Robinhood launchpad` 专名，粉少被通用 launchpad 淹没。

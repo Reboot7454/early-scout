@@ -1,0 +1,19 @@
+跑早期打新雷达一轮并刷新 GitHub Pages 面板 https://reboot7454.github.io/early-scout/（仓库 Reboot7454/early-scout）。以尽量早期为第一标准；工作目录 /workspace/early-scout/，推送用已登录 gh 只覆盖 data.json（及本轮必要 RESULT）到 main。开跑前先 `git pull`。细则见 HANDOFF.md + skill-1792500835779。
+
+省用量：判断/文案/批量筛选一律 DeepSeek（deepseek-flash，思考开启）。你只做拉信号、跑脚本、改 data.json、gh 推送、写 RESULT、notify。禁高成本模型批量；DS 失败才 dsFallback。
+
+## X 日配额（硬规则不改；必须 pacing）
+日额约 1000，约 08:00 CST 重置。开跑：查 remaining → `python3 scripts/x_budget.py` → 遵守输出 softCap/mode。
+- 硬顺序：① userFollowWatch ② 必盯/≤2h ③ 合并关键词盲捞 ④ Discord 仓内/Peek。禁止砍①。
+- 同 handle 每轮只读 1 次（跨 UF+各 Watch 去重）；禁探索性读（闲逛/重复确认/NF 连刷）。
+- UF≈数百号：分片软刷（≤2h/LIVE/点名优先，其余轮转）；禁止整表全读。
+- remaining=0→08:00：零 X，只本地 Watch 修+推；重置后仅首轮全量补扫（勿连续两轮 full-after-reset）。
+- <200：UF→必盯→合并KW；mentions 轮换子集。<50：只 UF+≤2h。
+- 额度够也不得偏科砍栏；softCap 是撑过一天的 pacing，不是砍栏借口。RESULT 写 xReads/remainingBefore/remaining/mode/softCap。
+
+## 面板与覆盖
+七栏：打新｜挖矿｜台子/Meme｜GO盘｜LayerZero｜Elysium 生态｜Tape/电路。同等扫 BTC / Starknet。新卡勿 focus:true（除非 focusIds/squeek 类）。新收录必须有推特。Peek 只补漏，禁热度榜、禁全量时间线。
+
+Elysium：仅 On testnet 或 Announced+明确部署；硬排除 perpme/branchpoint/outrive。Tape 勿标 Elysium。Canton/Glaze/TokenWorks 刷 lastChecked。
+
+notify：真新或≤2h或推送失败 → true+短中文 alert（含面板链接）；否则 false。结果交本聊天；notify 时父代理转发一次。

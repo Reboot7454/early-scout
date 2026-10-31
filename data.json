@@ -12187,7 +12187,9 @@
       "r1013": "watch-bugfix: robinshinobi+koin-elysium wired",
       "r1016": "watch-bug fix: cadencebnb @cadencebnb BNB DCA tool",
       "r1018": "watch-bug fix: hashwardonline @HashwardOnline 挖矿 Fuse Cool",
-      "r1022": "R1022 watch-bug: ElyWord Elysium word game Discord补漏"
+      "r1022": "R1022 watch-bug: ElyWord Elysium word game Discord补漏",
+      "cursor": 0,
+      "shardSizeHint": 40
     },
     "round775Added": [
       "sunrig",
@@ -14360,7 +14362,8 @@
       "xReads": 0,
       "resetAtUTC": "2026-11-01T00:00:00.000Z",
       "resetAtCST": "2026-11-01 08:00 CST",
-      "mode": "exhausted-deferred-full-scan"
+      "mode": "exhausted-deferred-full-scan",
+      "budgetPlanRef": "meta.xBudgetPlan + scripts/x_budget.py"
     },
     "coverageR863": {
       "keywordsTenCols": false,
@@ -16818,6 +16821,25 @@
       "notify": false,
       "newIds": [],
       "pushSha": "5273673"
+    },
+    "xBudgetPlan": {
+      "updatedAtCST": "2026-11-01 01:52 CST",
+      "limit": 1000,
+      "resetAtCST": "约每日 08:00 CST",
+      "helper": "scripts/x_budget.py",
+      "softCaps": {
+        "post-reset-full": "≤50（仅首轮）",
+        "ample": "≤40（remaining≥600）",
+        "pace": "≤28（200–599）",
+        "tight": "≤18（<200）",
+        "near-exhausted": "≤8（<50）",
+        "zero-x": "0（至重置）"
+      },
+      "eveningReserveBefore20CST": 80,
+      "dedupe": "same handle once per round across UF+watches",
+      "banExploratory": true,
+      "ufShard": "≤2h/LIVE/named first; rotate rest; never full UF dump",
+      "note": "硬规则不变：UF优先、额度够不砍栏、0额度零X、重置后首轮全量"
     }
   },
   "candidates": [
