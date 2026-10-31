@@ -100,6 +100,6 @@
     "Paid Agent ID mint: report-only, no auto-mint this round",
     "Full-scan: remaining≥200 (started ~718, ended 687)"
   ],
-  "commit": "pending"
+  "commit": "0fef394"
 }
 ```
