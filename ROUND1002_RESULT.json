@@ -1,0 +1,137 @@
+{
+  "round": 1002,
+  "mode": "tight-quota-full-scan",
+  "completedAt": "2026-10-31 20:08 CST",
+  "timezone": "Asia/Shanghai",
+  "xReads": 29,
+  "remainingBefore": "76/1000",
+  "remaining": "47/1000",
+  "notify": true,
+  "notifyReason": "newAdmit×2 dropminters+botai-meme; SAFU≤2h(~0.9h); Frogs≤2h(~1.4h free first2000); free-mint新卡强制提醒",
+  "alertMessage": "【early-scout R1002｜notify=true】新收录：DropMinters(@DropMinters) BNB Agent钱包免费mint即将开（score73）；BOTAI(@BotAi_MEME) fair mint今日LIVE带退款保护（score57，付费只报，老号复活风险）；≤2h：SAFU Fund 今日21:00CST开铸（距≈0.9h，Tier1≈1U，付费只报）、Bitcoin Frogs@frogsagent 今晚21:30CST开铸（距≈1.4h，前2000免费）；免费mint新卡即使score<70也要提醒（SIEGE教训）。面板：https://reboot7454.github.io/early-scout/",
+  "alert": "【early-scout R1002｜notify=true】新收录：DropMinters(@DropMinters) BNB Agent钱包免费mint即将开（score73）；BOTAI(@BotAi_MEME) fair mint今日LIVE带退款保护（score57，付费只报，老号复活风险）；≤2h：SAFU Fund 今日21:00CST开铸（距≈0.9h，Tier1≈1U，付费只报）、Bitcoin Frogs@frogsagent 今晚21:30CST开铸（距≈1.4h，前2000免费）；免费mint新卡即使score<70也要提醒（SIEGE教训）。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "dropminters",
+      "handle": "@DropMinters",
+      "name": "DropMinters",
+      "score": 73,
+      "note": "BNB Agent钱包免费mint即将开；粉≈0；CA未核"
+    },
+    {
+      "id": "botai-meme",
+      "handle": "@BotAi_MEME",
+      "name": "BOTAI",
+      "score": 57,
+      "note": "fair mint LIVE退款保护；付费只报；2017老号复活"
+    }
+  ],
+  "newIds": [
+    "dropminters",
+    "botai-meme"
+  ],
+  "newCount": 2,
+  "skipped": [
+    {
+      "id": "youdex",
+      "why": "DS skip：Elysium DEX终端无mint/激励"
+    },
+    {
+      "id": "starx_xlayer",
+      "why": "handle Not Found；改用@lumora_agent mentions"
+    },
+    {
+      "id": "mobster_meme",
+      "why": "handle Not Found this round"
+    },
+    {
+      "id": "Leeonmort",
+      "why": "handle Not Found"
+    },
+    {
+      "id": "GIWA_blockchain",
+      "why": "NF；改用@GIWA_by_Upbit"
+    },
+    {
+      "id": "DogeOS_org",
+      "why": "NF；改用@DogeOS"
+    },
+    {
+      "id": "computeroll",
+      "why": "handle Not Found"
+    },
+    {
+      "id": "flap-mentions-noise",
+      "why": "flap mentions多为互动噪音无新挂靠mint"
+    },
+    {
+      "id": "squeek-nutshell-noise",
+      "why": "squeek/Nutshell mentions社区互动无新官号"
+    },
+    {
+      "id": "tape-empty",
+      "why": "Tape mentions窗内无新挂靠"
+    }
+  ],
+  "coverage": {
+    "tenLanes": true,
+    "userFollowSoft": true,
+    "keywords": true,
+    "keywordsTenCols": true,
+    "mentionsChains": [
+      "Tape",
+      "squeek/Nutshell",
+      "STARX/XLayer(lumora)",
+      "BN/gangdotfun",
+      "BTC/ShieldedNaka",
+      "GIWA",
+      "DogeEVM",
+      "Starknet",
+      "Zero/Arc/flap",
+      "Elysium(抽1)"
+    ],
+    "notes": "额度紧(~76→47)：UF soft→必盯/≤2h(SAFU+Frogs)→关键词合并EN+CN→mentions轮换子集等力；Discord deferred(无新卡片文件，R1001已补)；软债canton/glaze/tokenWorks lastChecked已刷；YouDex拒收"
+  },
+  "watchBugs": [
+    "dropminters→UF+agentPadWatch+agentMiningWatch+freeMintWatch+bnAgentWatch+miningWatch",
+    "botai-meme→UF+agentPadWatch+agentMiningWatch+freeMintWatch+bnAgentWatch+miningWatch"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsModel": "deepseek-flash",
+  "thinking": true,
+  "push": false,
+  "pushSha": null,
+  "dataSha": null,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "le2h": [
+    {
+      "id": "safu-fund-bnb",
+      "note": "SAFU mint 21:00CST ≤2h (~0.9h); paid report-only"
+    },
+    {
+      "id": "bitcoin-frogs-agent",
+      "note": "Frogs mint 21:30CST ≤2h (~1.4h); free first 2000"
+    },
+    {
+      "id": "botai-meme",
+      "note": "BOTAI fair mint LIVE paid report-only"
+    },
+    {
+      "id": "siege",
+      "note": "SIEGE free LIVE soft"
+    },
+    {
+      "id": "snailings",
+      "note": "LIVE first free soft"
+    },
+    {
+      "id": "famuli",
+      "note": "Mint LIVE soft"
+    },
+    {
+      "id": "nocturn-companions",
+      "note": "Mint LIVE soft"
+    }
+  ]
+}
