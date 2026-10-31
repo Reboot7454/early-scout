@@ -18,4 +18,4 @@
 - discordLoginOk: false
 - alert: (none this round)
 - summary: R1030 exhausted-deferred：X remaining=0 零读取；无 Watch 漏挂；软债刷 canton/glaze/tokenWorks；Discord deferred；全量 UF+十栏+mentions 延至 2026-11-01 08:00 CST；无新收录 notify=false。
-- push: pending
+- push: ok sha=56e0678 remoteVerified=true
