@@ -1,0 +1,54 @@
+{
+  "round": 1032,
+  "mode": "exhausted-deferred-full-scan",
+  "completedAt": "2026-11-01 04:32 CST",
+  "timezone": "Asia/Shanghai",
+  "xReads": 0,
+  "remainingBefore": 0,
+  "remaining": 0,
+  "xQuota": {
+    "mode": "zero-x",
+    "softCap": 0,
+    "hoursLeft": 3.47,
+    "resetAtCST": "2026-11-01 08:00 CST",
+    "limit": 1000
+  },
+  "deferredFullScan": true,
+  "deferredUntil": "2026-11-01 08:00 CST",
+  "notify": false,
+  "newIds": [],
+  "le2h": "无新增免费 LIVE/mint；R1031 三卡已通知，不重复推",
+  "watchBugsFixed": 3,
+  "watchBugs": {
+    "fixed": [
+      "kenranft",
+      "swolfutem",
+      "pixiopet"
+    ],
+    "entries": 6,
+    "detail": [
+      "kenranft(@KenraNFT)→userFollowWatch,freeMintWatch",
+      "swolfutem(@SWOLFutem)→userFollowWatch",
+      "pixiopet(@pixiopet)→userFollowWatch,agentPadWatch,bnAgentWatch"
+    ],
+    "note": "R1031 Discord 补漏3卡未进 Watch → 本轮补挂"
+  },
+  "softDebt": [
+    "cantonPadWatch",
+    "glazeWatch",
+    "tokenWorksPlaygroundWatch",
+    "tokenWorksWatch"
+  ],
+  "coverage": {
+    "tenLanes": "deferred",
+    "keywords": "deferred",
+    "mentions": "deferred",
+    "userFollowSoft": "deferred"
+  },
+  "discordPeekSkipped": true,
+  "discordPeekDeferred": true,
+  "discordLoginOk": false,
+  "alert": null,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1032 exhausted-deferred：X remaining=0 零读取；补挂 R1031 三卡 Watch 漏挂；软债刷 canton/glaze/tokenWorks；Discord deferred；全量 UF+十栏+mentions 延至 2026-11-01 08:00 CST；无新收录 notify=false。"
+}
