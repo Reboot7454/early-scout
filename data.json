@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-31 19:01 CST",
+    "updated": "2026-10-31 19:28 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R981",
-    "lastScout": "2026-10-31 19:00 CST",
+    "lastScout": "2026-10-31 19:28 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -633,7 +633,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1000,
+    "round": 1001,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1794,7 +1794,10 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "bsc-ququ"
+      "usetrenchscope",
+      "moonfall-bnb",
+      "trykerb",
+      "agentcardshq"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -3819,17 +3822,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-10-31 18:42",
-      "lastChecked": "2026-10-31 19:00 CST",
-      "newestCardTime": "2026-10-31 18:42",
-      "cardsAfterCutoff": 45,
-      "note": "R999：Discord alpha 补收 honest-coin,punkonelysium,liquidit-x；清 mehcat-bnb；lastSeen→2026-10-31 18:42；lastChecked→2026-10-31 18:46 CST",
-      "lastRound": 999,
+      "lastSeen": "2026-10-31 19:24",
+      "lastChecked": "2026-10-31 19:28 CST",
+      "newestCardTime": "2026-10-31 19:24",
+      "cardsAfterCutoff": 53,
+      "note": "R1001：Discord alpha 补收 usetrenchscope,moonfall-bnb,trykerb,agentcardshq；清 liquidit-x,punkonelysium,honest-coin；lastSeen→2026-10-31 19:24；lastChecked→2026-10-31 19:28 CST",
+      "lastRound": 1001,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-31 18:42",
-        "alpha-1-backup": "2026-10-31 17:13",
-        "smart-accounts-tracker": "2026-10-31 17:49",
-        "alpha-1": "2026-10-31 18:41"
+        "alpha-3-new-accounts": "2026-10-31 19:24",
+        "alpha-1-backup": "2026-10-31 19:13",
+        "smart-accounts-tracker": "2026-10-31 19:16",
+        "alpha-1": "2026-10-31 19:09"
       }
     },
     "round239Added": [
@@ -16061,9 +16064,197 @@
       "bsc-ququ: added agentPadWatch @BSCQUQU",
       "bsc-ququ: added agentMiningWatch @BSCQUQU",
       "bsc-ququ: added miningWatch @BSCQUQU"
+    ],
+    "round1001Added": [
+      "usetrenchscope",
+      "moonfall-bnb",
+      "trykerb",
+      "agentcardshq"
     ]
   },
   "candidates": [
+    {
+      "id": "agentcardshq",
+      "name": "Agent Cards",
+      "handle": "@agentcardshq",
+      "twitter": "@agentcardshq",
+      "chain": "BNB Chain",
+      "category": "GO盘",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/AgentCardsHQ"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 5,
+        "novelty": 7,
+        "actionable": 7,
+        "overall": 7
+      },
+      "highlights": [
+        "给 Binance Agent ID agents 发免费英雄卡",
+        "代理自动玩、用户观看",
+        "游戏销售 80% 以 BNB 返还",
+        "预注册已开放"
+      ],
+      "drawbacks": [
+        "预注册阶段，玩法与合约未公开",
+        "0 followers，需防盘前炒作"
+      ],
+      "whatsNew": "新关注 @binance，Bio 称面向 Binance Agent ID 代理发放免费英雄卡，预注册开放且游戏销售 80% 返 BNB。",
+      "summary": "Binance Agent 主题的极早期游戏项目，已有预注册和返佣玩法线索，适合纳入打新/GameFi观察。",
+      "blurb": "Binance Agent 免费英雄卡，预注册开放。",
+      "round": 1001,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 19:28 CST",
+      "addedAt": "2026-10-31 19:28 CST",
+      "lastChecked": "2026-10-31 19:28 CST",
+      "zoneHint": "GO盘",
+      "newThisRound": true
+    },
+    {
+      "id": "trykerb",
+      "name": "Kerb",
+      "handle": "@trykerb",
+      "twitter": "@trykerb",
+      "chain": "Robinhood Chain",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/TryKerb"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 7,
+        "overall": 7
+      },
+      "highlights": [
+        "Robinhood Chain 上做代币化股票流动性台",
+        "存入 USDG 赚取交易手续费",
+        "宣称可随时提取"
+      ],
+      "drawbacks": [
+        "0 followers，信息极少",
+        "未披露合约地址/审计",
+        "Robinhood Chain 生态早期，流动性风险"
+      ],
+      "whatsNew": "新关注 @ponsdotfamily，Bio 称在 Robinhood Chain 提供代币化股票流动性台，存 USDG 赚手续费。",
+      "summary": "极早期流动性台项目，卡面已给出链、资产与收益玩法，值得纳入观察。",
+      "blurb": "Robinhood Chain 流动性台，存 USDG 赚费。",
+      "round": 1001,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 19:28 CST",
+      "addedAt": "2026-10-31 19:28 CST",
+      "lastChecked": "2026-10-31 19:28 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
+    {
+      "id": "moonfall-bnb",
+      "name": "MOONFALL",
+      "handle": "@moonfall_bnb",
+      "twitter": "@moonfall_bnb",
+      "chain": "BNB Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/moonfall_BNB"
+      },
+      "scores": {
+        "early": 6,
+        "risk": 7,
+        "novelty": 4,
+        "actionable": 3,
+        "overall": 4.3
+      },
+      "highlights": [
+        "BNB Chain 叙事型 Meme/NFT 线索，1001 枚 moonfolk 设定",
+        "极新账号，处于最早关注窗口"
+      ],
+      "drawbacks": [
+        "0 粉丝",
+        "无官网/合约/mint 链接",
+        "仅有 bio 叙事，产品落地未证实"
+      ],
+      "whatsNew": "新出现 BNB Chain 叙事账号，bio 暗示 1001 个 moonfolk 掉落设定。",
+      "summary": "MOONFALL 以 BNB Chain 上 1001 个 moonfolk 为叙事，处于极早期，需等待合约或 mint 信息。",
+      "blurb": "BNB Chain 叙事新号，1001 moonfolk 设定待验证。",
+      "round": 1001,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 19:28 CST",
+      "addedAt": "2026-10-31 19:28 CST",
+      "lastChecked": "2026-10-31 19:28 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "usetrenchscope",
+      "name": "Trench Scope",
+      "handle": "@usetrenchscope",
+      "twitter": "@usetrenchscope",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/usetrenchscope"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 5,
+        "overall": 5.9
+      },
+      "highlights": [
+        "bio明示token X-ray分析工具",
+        "极早期新账号"
+      ],
+      "drawbacks": [
+        "无产品链接",
+        "0 followers噪音大",
+        "团队信息缺失"
+      ],
+      "whatsNew": "新出现一个自称可x-ray代币的风险分析工具账号。",
+      "summary": "Trench Scope主打在ape前扫描代币基本面/风险，产品方向明确但信息极少。",
+      "blurb": "极早期代币X-ray工具，值得观察。",
+      "round": 1001,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 19:28 CST",
+      "addedAt": "2026-10-31 19:28 CST",
+      "lastChecked": "2026-10-31 19:28 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "liquidit-x",
       "name": "Liquidlt",
@@ -16106,7 +16297,7 @@
       "addedAt": "2026-10-31 18:46 CST",
       "lastChecked": "2026-10-31 18:46 CST",
       "zoneHint": "挖矿",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "punkonelysium",
@@ -16151,7 +16342,7 @@
       "addedAt": "2026-10-31 18:46 CST",
       "lastChecked": "2026-10-31 18:46 CST",
       "zoneHint": "Elysium",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "honest-coin",
@@ -16195,7 +16386,7 @@
       "addedAt": "2026-10-31 18:46 CST",
       "lastChecked": "2026-10-31 18:46 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "nonamespnft",
@@ -162993,21 +163184,24 @@
     }
   ],
   "newThisRound": [
-    "bsc-ququ"
+    "usetrenchscope",
+    "moonfall-bnb",
+    "trykerb",
+    "agentcardshq"
   ],
-  "alertMessage": "R1000告警：新收录1个——BSC QUQU(@BSCQUQU) BNB回合制蛐蛐链游；.ai Agent ID硬门槛；挖矿约1U领盲盒/约4U购盒；盲盒终身24444；粉≈2（score71，付费只报）。≤2h：SAFU Fund今日21:00CST开铸（距≈2.0h，Tier1≈1USDT，付费只报）。库内：Bitcoin Frogs@frogsagent 今晚21:30CST开铸（前2000免费，CA已核，距≈2.5h未≤2h）；$MEH续fair mint付费只报。面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1001新收4项：Trench Scope、MOONFALL、Kerb、Agent Cards；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "nidavellir-bsc",
     "bitcoin-frogs-agent",
     "kleosdog"
   ],
-  "updatedAt": "2026-10-31 19:01 CST",
-  "updated": "2026-10-31 19:01 CST",
+  "updatedAt": "2026-10-31 19:28 CST",
+  "updated": "2026-10-31 19:28 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-31 19:00 CST",
+  "lastScout": "2026-10-31 19:28 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -163049,7 +163243,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 2381,
+  "candidateCount": 2386,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -164753,5 +164947,11 @@
   "round1000Added": [
     "bsc-ququ"
   ],
-  "notifyReason": "newAdmit×1 bsc-ququ; SAFU≤2h(~2.0h)"
+  "notifyReason": "newAdmit×1 bsc-ququ; SAFU≤2h(~2.0h)",
+  "round1001Added": [
+    "usetrenchscope",
+    "moonfall-bnb",
+    "trykerb",
+    "agentcardshq"
+  ]
 }

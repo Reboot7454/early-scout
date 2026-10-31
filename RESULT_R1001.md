@@ -1,0 +1,290 @@
+# RESULT R1001
+
+```json
+{
+  "round": 1001,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-31 19:28 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R1001新收4项：Trench Scope、MOONFALL、Kerb、Agent Cards；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "usetrenchscope",
+    "moonfall-bnb",
+    "trykerb",
+    "agentcardshq"
+  ],
+  "newCount": 4,
+  "newIds": [
+    "usetrenchscope",
+    "moonfall-bnb",
+    "trykerb",
+    "agentcardshq"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 53,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "liquidit-x",
+    "punkonelysium",
+    "honest-coin"
+  ],
+  "candidateFlagsCleared": 3,
+  "topNewThisRoundCleared": [
+    "liquidit-x",
+    "punkonelysium",
+    "honest-coin"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=4",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-31 19:24",
+    "lastChecked": "2026-10-31 19:28 CST",
+    "newestCardTime": "2026-10-31 19:24",
+    "cardsAfterCutoff": 53,
+    "note": "R1001：Discord alpha 补收 usetrenchscope,moonfall-bnb,trykerb,agentcardshq；清 liquidit-x,punkonelysium,honest-coin；lastSeen→2026-10-31 19:24；lastChecked→2026-10-31 19:28 CST",
+    "lastRound": 1001,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-31 19:24",
+      "alpha-1-backup": "2026-10-31 19:13",
+      "smart-accounts-tracker": "2026-10-31 19:16",
+      "alpha-1": "2026-10-31 19:09"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1001：Discord alpha 补收 usetrenchscope,moonfall-bnb,trykerb,agentcardshq；清 liquidit-x,punkonelysium,honest-coin；lastSeen→2026-10-31 19:24；lastChecked→2026-10-31 19:28 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261031_1918.json",
+  "priorRoundNote": "R1000 meta NTR ['bsc-ququ', 'liquidit-x', 'punkonelysium', 'honest-coin']; cardsAfterCutoff=53",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-10-31 19:24",
+    "alpha-1-backup": "2026-10-31 19:13",
+    "smart-accounts-tracker": "2026-10-31 19:16",
+    "alpha-1": "2026-10-31 19:09"
+  },
+  "cardsRead": 53,
+  "rejected": [
+    {
+      "handle": "@safuagent",
+      "reason": "仅有SAFU口号和AI叙事，无实际产品、发射或玩法线索。"
+    },
+    {
+      "handle": "@yoon_gaem",
+      "reason": "bio仅carrot，无项目产品、发射或玩法信息，属空壳号。"
+    },
+    {
+      "handle": "@GoalGridHQ",
+      "reason": "仅有口号式bio，无产品、发射或链上玩法线索。"
+    },
+    {
+      "handle": "@hodr7ume",
+      "reason": "个人号风格，bio仅heloo，无独立项目产品线索。"
+    },
+    {
+      "handle": "@liviancnfume",
+      "reason": "个人号风格，bio仅Surprised，无项目产品线索。"
+    },
+    {
+      "handle": "@AlexFri55128235",
+      "reason": "bio仅Male，个人号特征明显，无项目产品线索。"
+    },
+    {
+      "handle": "@REKTBOTagcr",
+      "reason": "仅有小丑式bio，无独立项目、产品、发射或玩法线索。"
+    },
+    {
+      "handle": "@Geolabuhuraira1",
+      "reason": "个人号风格，bio无产品、发射或链上玩法线索。"
+    },
+    {
+      "handle": "@goood761",
+      "reason": "个人号，bio 仅“Interesting”，无任何产品或发射线索。"
+    },
+    {
+      "handle": "@millmachinecn",
+      "reason": "粮油饲料设备厂商账号，与 crypto 无关。"
+    },
+    {
+      "handle": "@ShaoHanYan45610",
+      "reason": "个人价格喊单号，无产品或发射线索。"
+    },
+    {
+      "handle": "@asbak_hitam",
+      "reason": "个人号，bio 仅宗教短语，无项目信息。"
+    },
+    {
+      "handle": "@khanl3hp",
+      "reason": "个人号，bio 仅“driving”，无产品线索。"
+    },
+    {
+      "handle": "@uselazo",
+      "reason": "bio 泛泛“Building a better web”，无具体产品、mint 或发射线索。"
+    },
+    {
+      "handle": "@AHMADSOHAIBROMI",
+      "reason": "学生个人号，无项目或产品线索。"
+    },
+    {
+      "handle": "@fourfactorc",
+      "reason": "个人 .eth 账号，bio 仅“Surprised”，无项目线索。"
+    },
+    {
+      "handle": "@nojiwaveX",
+      "reason": "个人内容创作者，无独立项目产品与发射线索，拒。"
+    },
+    {
+      "handle": "@AliiArfan",
+      "reason": "个人学生号，无项目产品/发射线索，拒。"
+    },
+    {
+      "handle": "@hk_taipan",
+      "reason": "个人交易者号，无项目产品/发射线索，拒。"
+    },
+    {
+      "handle": "@samuelkayumba52",
+      "reason": "个人交易者号，无项目产品信息，拒。"
+    },
+    {
+      "handle": "@servistreamingv",
+      "reason": "流媒体服务商个人业务号，非加密项目，拒。"
+    },
+    {
+      "handle": "@15Earthbound",
+      "reason": "个人简介号，无项目产品/发射线索，拒。"
+    },
+    {
+      "handle": "@AngelCisse",
+      "reason": "个人玩笑号，无项目产品信息，拒。"
+    },
+    {
+      "handle": "@ccccdotsh",
+      "reason": "仅口号式简介，无独立产品、发射或mint线索。"
+    },
+    {
+      "handle": "@deadossifrage",
+      "reason": "仅有叙事式NFT预告，缺少具体系列、mint或可执行信息。"
+    },
+    {
+      "handle": "@255_mr41140",
+      "reason": "个人外汇/健身账号，非项目方且无产品线索。"
+    },
+    {
+      "handle": "@Drake_Drake_Drk",
+      "reason": "个人号式简介，无项目名、产品、发射或玩法线索。"
+    },
+    {
+      "handle": "@JyotiSh50272998",
+      "reason": "个人金融学习账号，非项目方且无产品线索。"
+    },
+    {
+      "handle": "@sidrachain_info",
+      "reason": "资讯聚合/新闻号，非项目官方且无具体产品线索。"
+    },
+    {
+      "handle": "@trader9913",
+      "reason": "个人退休愿望式简介，非项目方且无产品线索。"
+    },
+    {
+      "handle": "@Jujix_ai02",
+      "reason": "简介仅有地址，无项目名称、产品或玩法说明。"
+    },
+    {
+      "handle": "@__alexandreSR",
+      "reason": "个人软件工程师简介，非项目方且无产品线索。"
+    },
+    {
+      "handle": "@dispersalabs",
+      "reason": "仅关注 @Enter_Elysium 且 bio 只有模糊预告，无具体产品/测试网/部署信息，按 Elysium 规则拒。"
+    },
+    {
+      "handle": "@haidarxarif",
+      "reason": "个人外汇交易员账号，非项目方，无产品与发射线索。"
+    },
+    {
+      "handle": "@JahidHshimul",
+      "reason": "个人生活签名档账号，无项目推特与任何产品信息。"
+    },
+    {
+      "handle": "@mrnothingOS0702",
+      "reason": "个人 AI 开发日记号，非加密项目、无链上玩法线索。"
+    },
+    {
+      "handle": "@shahrokh5b",
+      "reason": "bio 仅 “27JW”，无任何项目或产品信息。"
+    },
+    {
+      "handle": "@sumanxpatel",
+      "reason": "个人生活号，无项目方身份与产品线索。"
+    },
+    {
+      "handle": "@op8xHQ",
+      "reason": "x402 工具类项目虽有实际产品，但无发射/mint/挖矿/玩法可执行线索，且不落入现有分类，宁缺毋滥。"
+    },
+    {
+      "handle": "@RuinedCEO",
+      "reason": "个人汽车/高尔夫生活号，无项目属性。"
+    },
+    {
+      "handle": "@coffeewithsuger",
+      "reason": "交友类个人号，无项目推特与产品。"
+    },
+    {
+      "handle": "@insaneboyT_T",
+      "reason": "个人号，无产品/发射线索，仅关注币安"
+    },
+    {
+      "handle": "@0xBejjo",
+      "reason": "仅关注 @Enter_Elysium 的猎人个人号，无自有项目"
+    },
+    {
+      "handle": "@Nest122112",
+      "reason": "个人 KYC 服务号，无项目产品线索"
+    },
+    {
+      "handle": "@torcantern",
+      "reason": "仅概念文案，无实际产品/发射/mint 证据，0 粉丝空壳"
+    },
+    {
+      "handle": "@benleventhal",
+      "reason": "高粉(35302)个人/KOL"
+    }
+  ],
+  "rejectedCount": 46,
+  "dsRejects": 45,
+  "admissions": [
+    {
+      "id": "usetrenchscope",
+      "handle": "@usetrenchscope",
+      "category": "台子/Meme",
+      "name": "Trench Scope"
+    },
+    {
+      "id": "moonfall-bnb",
+      "handle": "@moonfall_BNB",
+      "category": "台子/Meme",
+      "name": "MOONFALL"
+    },
+    {
+      "id": "trykerb",
+      "handle": "@TryKerb",
+      "category": "挖矿",
+      "name": "Kerb"
+    },
+    {
+      "id": "agentcardshq",
+      "handle": "@AgentCardsHQ",
+      "category": "GO盘",
+      "name": "Agent Cards"
+    }
+  ],
+  "alert": "DC补漏R1001新收4项：Trench Scope、MOONFALL、Kerb、Agent Cards；面板 https://reboot7454.github.io/early-scout/"
+}
+```
