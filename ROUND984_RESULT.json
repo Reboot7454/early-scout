@@ -1,0 +1,196 @@
+{
+  "round": 984,
+  "mode": "full-scan",
+  "completedAt": "2026-10-31 14:38 CST",
+  "timezone": "Asia/Shanghai",
+  "xReads": 28,
+  "remaining": "496/1000",
+  "remainingBefore": "524/1000",
+  "notify": true,
+  "notifyReason": "newAdmits×3 + $MAOAI开池≤2h + Flap DNS迁站安全提醒",
+  "alertMessage": "R984新收3：Agent Harvest（Agent ID免费土地SOON粉44）、Nocturn Companions（今日0粉高风险首444免费）、Moar-Pixel（BNB四叶草免费mint中粉27）；$MAOAI池约14:28已开≤2h首只仍免费付费只报；Flap迁flap.cool勿连旧站——面板：https://reboot7454.github.io/early-scout/",
+  "alert": "R984新收3：Agent Harvest（Agent ID免费土地SOON粉44）、Nocturn Companions（今日0粉高风险首444免费）、Moar-Pixel（BNB四叶草免费mint中粉27）；$MAOAI池约14:28已开≤2h首只仍免费付费只报；Flap迁flap.cool勿连旧站——面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "agent-harvest",
+      "handle": "@agentharvest_ai",
+      "name": "Agent Harvest",
+      "score": 70,
+      "note": "Agent ID持有者免费土地NFT预告SOON；粉≈44；无官网/合约"
+    },
+    {
+      "id": "nocturn-companions",
+      "handle": "@NocturnCompanio",
+      "name": "Nocturn Companions",
+      "score": 46,
+      "note": "今日新建0粉；4444宠物首444免费；站 nocturncompanions.space；高风险"
+    },
+    {
+      "id": "moar-pixel",
+      "handle": "@moarpixelss",
+      "name": "Moar-Pixel",
+      "score": 74,
+      "note": "Golden Crown Clover mint进行中：2727免费+2727×0.001BNB；粉≈27"
+    }
+  ],
+  "newIds": [
+    "agent-harvest",
+    "nocturn-companions",
+    "moar-pixel"
+  ],
+  "newCount": 3,
+  "skipped": [
+    {
+      "id": "Handln/agent-seal",
+      "why": "叙事弱/非可操作窗，未达收录线"
+    },
+    {
+      "id": "elixirpad",
+      "why": "已在库或不达门槛"
+    },
+    {
+      "id": "ShardId/Grub",
+      "why": "无稳定官推handle或≠grub-fun已在库"
+    },
+    {
+      "id": "thepyongpad",
+      "why": "讽刺/玩笑号，不收"
+    },
+    {
+      "id": "mobster_meme/starx_xlayer/Leeonmort",
+      "why": "NF skip dead lookups；关键词已覆盖"
+    },
+    {
+      "id": "bnagent/goldtoad/proxis/suan",
+      "why": "已在库 BN Agent pads；付费只报"
+    },
+    {
+      "id": "agentmao",
+      "why": "非newAdmit（库内刷新开池≤2h）"
+    },
+    {
+      "id": "flap-dns",
+      "why": "迁站更新既有卡 flap-id-agent-curve，不另收卡"
+    }
+  ],
+  "coverage": {
+    "userFollowSoftBrush": [
+      "machinedotfun",
+      "bscaidrop",
+      "PulseLaunchpad",
+      "localbottomcom",
+      "NutshellMarkets",
+      "squeekchain",
+      "Enter_Elysium",
+      "kinetiq_xyz",
+      "GIWA_by_Upbit",
+      "DogeOS",
+      "agentmao_",
+      "Proxisfun",
+      "flapdotsh",
+      "dotaipad",
+      "yinghubnb",
+      "Ptahtrade",
+      "gangdotfun",
+      "agentpunkid",
+      "pipfun_xyz",
+      "bscaidrop",
+      "PulseLaunchpad",
+      "TapeAIAgent",
+      "Blonskr"
+    ],
+    "userFollowSkippedNF": [
+      "mobster_meme",
+      "starx_xlayer",
+      "Leeonmort"
+    ],
+    "requiredWatches": [
+      "userFollowWatch",
+      "agentPadWatch",
+      "kinetiqWatch",
+      "miningWatch",
+      "tapeWatch",
+      "giwaWatch",
+      "btcPrivacyWatch",
+      "starknetWatch",
+      "flapPadWatch",
+      "bnAgentWatch",
+      "freeMintWatch",
+      "arcPadWatch",
+      "dogeEvmWatch",
+      "elysiumWatch",
+      "irysPadWatch",
+      "fullFunWatch"
+    ],
+    "keywordsTenCols": true,
+    "mentionsCoverage": [
+      "Elysium/kinetiq",
+      "Tape",
+      "GIWA",
+      "Zero/DogeEVM",
+      "Starknet",
+      "BTC privacy",
+      "flap/Irys/Full.fun/Arc",
+      "BN Agent pads/GANG",
+      "squeek/Nutshell",
+      "STARX/X Layer"
+    ],
+    "bnAgentWeb": [
+      "launch.suan.bid",
+      "bnagent.onrender.com",
+      "agentmao.fun",
+      "goldtoad.fun",
+      "proxis.fun"
+    ]
+  },
+  "keywordsTenCols": true,
+  "userFollowDone": true,
+  "mentionsCoverage": [
+    "Elysium/kinetiq",
+    "Tape",
+    "GIWA",
+    "Zero/DogeEVM",
+    "Starknet",
+    "BTC privacy",
+    "flap/Irys/Arc",
+    "BN Agent pads",
+    "squeekchain/NutshellMarkets",
+    "STARX/X Layer"
+  ],
+  "discordPeekDeferred": true,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "batchScore": 1,
+    "admitted": 3,
+    "alert": 1,
+    "cardRefresh": 1,
+    "fallback": false
+  },
+  "watchBugsFixed": [
+    "grabbybuild @grabbybuild → userFollowWatch（R983 admit 漏 Watch）",
+    "oren-finance @orenfinance_ → userFollowWatch（R983 admit 漏 Watch）",
+    "agent-harvest @agentharvest_ai → UF/agentPad/bnAgent/freeMint",
+    "nocturn-companions @NocturnCompanio → UF/agentPad/bnAgent/freeMint",
+    "moar-pixel @moarpixelss → UF/freeMint"
+  ],
+  "notes": [
+    "full-scan remaining≫200 (started ~524 → ~496)",
+    "新收3卡 focus:false；links.x+twitter 双写",
+    "agentmao $MAOAI池约14:28CST LIVE（≤2h）；首只/.ai仍免费；付费只报",
+    "Flap DNS劫持后续：官方迁 flap.cool；更新 flap-id-agent-curve 链接与whatsNew",
+    "paid Agent ID mint report-only；MAOAI等同",
+    "soft-debt Canton/Glaze/TokenWorks lastChecked bumped",
+    "discordPeekDeferred=true（无computerUse/不登录DC；R982/R983已清grabby/oren）",
+    "STARX/mobster/Leeonmort 仍NF；关键词已扫",
+    "十栏关键词+链名合并去重近30min已跑全"
+  ],
+  "summary": "R984 full-scan：新收 agent-harvest/nocturn-companions/moar-pixel；修 Watch bug grabby+oren；$MAOAI开池≤2h；Flap迁flap.cool；DC Peek deferred；xReads≈28 remaining≈496/1000",
+  "push": {
+    "branch": "main",
+    "files": [
+      "data.json",
+      "ROUND984_RESULT.json"
+    ]
+  },
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
