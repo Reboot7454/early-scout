@@ -1,0 +1,118 @@
+{
+  "round": 1018,
+  "mode": "exhausted-deferred-full-scan",
+  "completedAt": "2026-11-01 00:31 CST",
+  "timezone": "Asia/Shanghai",
+  "xReads": 0,
+  "remainingBefore": 0,
+  "remaining": 0,
+  "xLimit": 1000,
+  "parentProbeNote": "X read limit reached (daily); Do not call X tools again before 2026-11-01T00:00:00.000Z (≈08:00 CST)",
+  "deferredFullScan": true,
+  "deferredUntil": "2026-11-01 08:00 CST",
+  "notify": false,
+  "notifyReason": "x_exhausted_no_new_no_le2h_unheard",
+  "alertMessage": null,
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "le2h": [],
+  "le2hNote": "R1017 Discord 7卡已于 R1017 notify；本轮不重复推",
+  "watchBugsFixed": 7,
+  "watchBugs": [
+    {
+      "id": "trexionbsc",
+      "handle": "@Trexionbsc",
+      "watches": [
+        "userFollowWatch",
+        "agentPadWatch"
+      ],
+      "note": "BSC 打新 discord-alpha"
+    },
+    {
+      "id": "lootbale",
+      "handle": "@lootbale",
+      "watches": [
+        "userFollowWatch"
+      ],
+      "note": "RH OTC/tokenized stocks 打新"
+    },
+    {
+      "id": "minecatngu",
+      "handle": "@MineCatNGU",
+      "watches": [
+        "userFollowWatch"
+      ],
+      "note": "Solana 台子/Meme"
+    },
+    {
+      "id": "jiepanfun",
+      "handle": "@jiepanfun",
+      "watches": [
+        "userFollowWatch"
+      ],
+      "note": "台子/Meme 日报"
+    },
+    {
+      "id": "aurvale",
+      "handle": "@AurvaleAgents",
+      "watches": [
+        "miningWatch",
+        "userFollowWatch",
+        "agentMiningWatch"
+      ],
+      "note": "RH 挖矿"
+    },
+    {
+      "id": "oracleterm-sol",
+      "handle": "@OracleTerm_sol",
+      "watches": [
+        "userFollowWatch"
+      ],
+      "note": "Solana 台子/Meme"
+    },
+    {
+      "id": "hashwardonline",
+      "handle": "@HashwardOnline",
+      "watches": [
+        "miningWatch",
+        "userFollowWatch",
+        "agentMiningWatch"
+      ],
+      "note": "挖矿 Fuse Cool"
+    }
+  ],
+  "watchBugsNote": "R1017 Discord 补漏卡未进 Watch → 本轮补挂 trexionbsc→userFollowWatch,agentPadWatch; lootbale→userFollowWatch; minecatngu→userFollowWatch; jiepanfun→userFollowWatch; aurvale→miningWatch,userFollowWatch,agentMiningWatch; oracleterm-sol→userFollowWatch; hashwardonline→miningWatch,userFollowWatch,agentMiningWatch",
+  "softDebt": {
+    "watches": [
+      "cantonPadWatch",
+      "glazeWatch",
+      "tokenWorksPlaygroundWatch"
+    ],
+    "lastChecked": "2026-11-01 00:31 CST"
+  },
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "trexionbsc",
+    "lootbale",
+    "minecatngu",
+    "jiepanfun",
+    "aurvale",
+    "oracleterm-sol",
+    "hashwardonline"
+  ],
+  "candidateFlagsCleared": 7,
+  "coverage": {
+    "tenLanes": "deferred",
+    "keywords": "deferred",
+    "mentions": "deferred",
+    "userFollowSoft": "deferred",
+    "note": "X remaining=0 until 08:00 CST; full UF+tenLanes+mentions deferred"
+  },
+  "discordPeekSkipped": true,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "none (exhausted local-only)",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1018 exhausted-deferred：X remaining=0 零读取；软债刷 canton/glaze/tokenWorks；补挂 R1017 七卡进对应 Watch；清 newThisRound；全量 UF+十栏+mentions 延至 2026-11-01 08:00 CST；本轮无新收录，notify=false。"
+}
