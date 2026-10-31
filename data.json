@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-31 22:02 CST",
+    "updated": "2026-10-31 22:15 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R981",
-    "lastScout": "2026-10-31 22:02 CST",
+    "lastScout": "2026-10-31 22:15 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -638,7 +638,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1009,
+    "round": 1010,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1811,7 +1811,12 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "nyxarivoid",
+      "gama-giwa",
+      "bubbletradin",
+      "origin5000"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -3831,17 +3836,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-10-31 21:28",
-      "lastChecked": "2026-10-31 21:32 CST",
-      "newestCardTime": "2026-10-31 21:28",
-      "cardsAfterCutoff": 56,
-      "note": "R1007：Discord alpha 补收 onbeatfun,sablexisv1,aureliabuild,lettucegrow-rh,continuum-xyz,bamandbaw；清 cz-id；lastSeen→2026-10-31 21:28；lastChecked→2026-10-31 21:32 CST",
-      "lastRound": 1007,
+      "lastSeen": "2026-10-31 22:12",
+      "lastChecked": "2026-10-31 22:15 CST",
+      "newestCardTime": "2026-10-31 22:12",
+      "cardsAfterCutoff": 58,
+      "note": "R1010：Discord alpha 补收 nyxarivoid,gama-giwa,bubbletradin,origin5000；lastSeen→2026-10-31 22:12；lastChecked→2026-10-31 22:15 CST",
+      "lastRound": 1010,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-31 21:28",
+        "alpha-3-new-accounts": "2026-10-31 22:12",
         "alpha-1-backup": "2026-10-31 21:13",
-        "smart-accounts-tracker": "2026-10-31 20:49",
-        "alpha-1": "2026-10-31 21:22"
+        "smart-accounts-tracker": "2026-10-31 21:31",
+        "alpha-1": "2026-10-31 22:07"
       }
     },
     "round239Added": [
@@ -16527,9 +16532,195 @@
       "fagent @fagent_ → agentPadWatch+acc",
       "fagent → agentPadWatch.candidateIds"
     ],
-    "watchBugsFixedR1009": 78
+    "watchBugsFixedR1009": 78,
+    "round1010Added": [
+      "nyxarivoid",
+      "gama-giwa",
+      "bubbletradin",
+      "origin5000"
+    ]
   },
   "candidates": [
+    {
+      "id": "origin5000",
+      "name": "ORIGIN",
+      "handle": "@origin5000",
+      "twitter": "@origin5000",
+      "chain": "BNB Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/origin5000"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 5,
+        "actionable": 4,
+        "overall": 5.4
+      },
+      "highlights": [
+        "bio 明确为 BNB Chain 上的身份门槛 mint（Identity-gated mint）",
+        "强调 fairness，具玩法指向"
+      ],
+      "drawbacks": [
+        "0 粉丝、关注 9，账号极新",
+        "无官网/文档链接，仅 X",
+        "无 mint 时间与规则细节，存在抢注空壳风险"
+      ],
+      "whatsNew": "新出现的 BNB Chain 身份门槛 mint 项目号，仅有一条玩法型 bio。",
+      "summary": "ORIGIN 是一个极早期 BNB Chain 项目账号，简介写明将做身份门槛式 mint 并主打公平发射，但目前仅有 bio 线索，无站点、文档与时间表，需持续观察其是否补全 mint 规则。",
+      "blurb": "BNB Chain 身份门槛 mint，极早期 bio 线索，待验证",
+      "round": 1010,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 22:15 CST",
+      "addedAt": "2026-10-31 22:15 CST",
+      "lastChecked": "2026-10-31 22:15 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "bubbletradin",
+      "name": "BUBBL",
+      "handle": "@bubbletradin",
+      "twitter": "@bubbletradin",
+      "chain": "Robinhood Chain",
+      "category": "GO盘",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/bubbletradin"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 8,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.4
+      },
+      "highlights": [
+        "Robinhood Chain 上交易虚构公司并冲榜玩法",
+        "独立项目推特，极早期"
+      ],
+      "drawbacks": [
+        "仅 Coming soon，无合约/产品细节",
+        "0 粉丝，可信度待验证"
+      ],
+      "whatsNew": "预告在 Robinhood Chain 上交易虚构公司、构建组合并竞争排行榜。",
+      "summary": "BUBBL 预告在 Robinhood Chain 上做虚构公司交易组合与排行榜，极早期。",
+      "blurb": "Robinhood Chain 虚构公司交易游戏，Coming soon。",
+      "round": 1010,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 22:15 CST",
+      "addedAt": "2026-10-31 22:15 CST",
+      "lastChecked": "2026-10-31 22:15 CST",
+      "zoneHint": "GO盘",
+      "newThisRound": true
+    },
+    {
+      "id": "gama-giwa",
+      "name": "GAMA",
+      "handle": "@gama_giwa",
+      "twitter": "@gama_giwa",
+      "chain": "Giwa",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/GAMA_GIWA"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.3
+      },
+      "highlights": [
+        "明确为跨链发射台",
+        "以太坊主网到 Giwa 跨链支持",
+        "极早期新号"
+      ],
+      "drawbacks": [
+        "关注者极少",
+        "尚无合约或页面细节"
+      ],
+      "whatsNew": "GAMA 自述为首个支持以太坊主网跨链转入 Giwa 的发射台。",
+      "summary": "Giwa 生态早期跨链发射台，产品线索明确，值得跟踪其发射与挖矿玩法。",
+      "blurb": "Giwa 跨链发射台，纳入观察。",
+      "round": 1010,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 22:15 CST",
+      "addedAt": "2026-10-31 22:15 CST",
+      "lastChecked": "2026-10-31 22:15 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "nyxarivoid",
+      "name": "NYXARI",
+      "handle": "@nyxarivoid",
+      "twitter": "@nyxarivoid",
+      "chain": "BNB Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/nyxariVoid"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.5
+      },
+      "highlights": [
+        "555 枚 wraiths 密封 mint，$0.70 定价",
+        "自带官网 nyxari.site",
+        "5% 版税与 reveal 机制玩法"
+      ],
+      "drawbacks": [
+        "零粉丝，无可验证合约/CA",
+        "匿名团队，rug 风险高",
+        "仅推特自述，无第三方背书"
+      ],
+      "whatsNew": "新上线 BNB Chain 密封机制 NFT 发行，尚未 reveal。",
+      "summary": "NYXARI 为 BNB Chain 上的 555 枚密封 NFT 发行，0.70 美元单价，带 reveal 与版税机制，处于极早期。",
+      "blurb": "BNB Chain 密封 NFT mint，早期可观察。",
+      "round": 1010,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 22:15 CST",
+      "addedAt": "2026-10-31 22:15 CST",
+      "lastChecked": "2026-10-31 22:15 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "bamandbaw",
       "name": "BAM Official",
@@ -164572,20 +164763,25 @@
       "contractNote": "已与官网/llms 交叉核实"
     }
   ],
-  "newThisRound": [],
-  "alertMessage": "",
+  "newThisRound": [
+    "nyxarivoid",
+    "gama-giwa",
+    "bubbletradin",
+    "origin5000"
+  ],
+  "alertMessage": "DC补漏R1010新收4项（NYXARI/GAMA/BUBBL/ORIGIN）；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "nidavellir-bsc",
     "bitcoin-frogs-agent",
     "kleosdog"
   ],
-  "updatedAt": "2026-10-31 22:02 CST",
-  "updated": "2026-10-31 22:02 CST",
+  "updatedAt": "2026-10-31 22:15 CST",
+  "updated": "2026-10-31 22:15 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-31 22:02 CST",
+  "lastScout": "2026-10-31 22:15 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -164627,7 +164823,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 2403,
+  "candidateCount": 2407,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -166363,5 +166559,11 @@
     "bamandbaw"
   ],
   "round1008Added": [],
-  "round1009Added": []
+  "round1009Added": [],
+  "round1010Added": [
+    "nyxarivoid",
+    "gama-giwa",
+    "bubbletradin",
+    "origin5000"
+  ]
 }
