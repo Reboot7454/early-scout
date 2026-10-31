@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-31 22:37 CST",
+    "updated": "2026-10-31 22:44 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R981",
-    "lastScout": "2026-10-31 22:37 CST",
+    "lastScout": "2026-10-31 22:44 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -638,7 +638,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1011,
+    "round": 1012,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1817,7 +1817,10 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "robinshinobi",
+      "koin-elysium"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -3836,18 +3839,18 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-10-31 22:12",
-      "lastChecked": "2026-10-31 22:37 CST",
-      "newestCardTime": "2026-10-31 22:12",
-      "cardsAfterCutoff": 58,
-      "note": "R1011 exhausted-deferred：X remaining=0 零读；Discord Peek 跳过（R1010刚扫）；Watch补挂 R1010×4",
-      "lastRound": 1011,
+      "deferred": false,
+      "lastSeen": "2026-10-31 22:40",
+      "lastChecked": "2026-10-31 22:44 CST",
+      "newestCardTime": "2026-10-31 22:40",
+      "cardsAfterCutoff": 41,
+      "note": "R1012：Discord alpha 补收 robinshinobi,koin-elysium；清 origin5000,bubbletradin,gama-giwa,nyxarivoid；lastSeen→2026-10-31 22:40；lastChecked→2026-10-31 22:44 CST",
+      "lastRound": 1012,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-31 22:12",
-        "alpha-1-backup": "2026-10-31 21:13",
+        "alpha-3-new-accounts": "2026-10-31 22:40",
+        "alpha-1-backup": "2026-10-31 22:13",
         "smart-accounts-tracker": "2026-10-31 21:31",
-        "alpha-1": "2026-10-31 22:07"
+        "alpha-1": "2026-10-31 22:17"
       }
     },
     "round239Added": [
@@ -16559,9 +16562,101 @@
       "deferredFullScan": true,
       "deferredUntil": "2026-11-01 08:00 CST",
       "note": "R1011 parentProbe remaining=0; Do not call X before 2026-11-01T00:00:00.000Z"
-    }
+    },
+    "round1012Added": [
+      "robinshinobi",
+      "koin-elysium"
+    ]
   },
   "candidates": [
+    {
+      "id": "koin-elysium",
+      "name": "KOIN",
+      "handle": "@koin_elysium",
+      "twitter": "@koin_elysium",
+      "chain": "Elysium",
+      "category": "Elysium",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/KOIN_ELYSIUM"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 8,
+        "novelty": 7,
+        "actionable": 4,
+        "overall": 5.6
+      },
+      "highlights": [
+        "Elysium 首个 token-NFT 混合",
+        "持币生 NFT（Hold $KOIN → KOI）"
+      ],
+      "drawbacks": [
+        "0 粉新号",
+        "未附铸造/领取链接",
+        "部署未经核验"
+      ],
+      "whatsNew": "新号首宣：Elysium 上 token-NFT 混合资产，持币产出 KOI。",
+      "summary": "Elysium 生态极早期 token-NFT 混合项目，机制为持有 $KOIN 生成 KOI，适合早期埋伏。",
+      "blurb": "Elysium 生态首发玩法卡，0 粉先行关注。",
+      "round": 1012,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 22:44 CST",
+      "addedAt": "2026-10-31 22:44 CST",
+      "lastChecked": "2026-10-31 22:44 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "robinshinobi",
+      "name": "Robin Shinobi | Shadow Village",
+      "handle": "@robinshinobi",
+      "twitter": "@robinshinobi",
+      "chain": "Robinhood Chain",
+      "category": "GO盘",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/RobinShinobi"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 6.2
+      },
+      "highlights": [
+        "Robinhood Chain 上的忍者村游戏概念",
+        "元素掌握/装备锻造等玩法线索"
+      ],
+      "drawbacks": [
+        "极早期，仅 bio 描述，无官网/铸造链接"
+      ],
+      "whatsNew": "新关注 @robinhoodapp，bio 披露 Robinhood Chain 上的 Ninja Village 游戏",
+      "summary": "Robinhood Chain 上极早期的忍者村游戏项目，有玩法概念但尚无链接或发射信息。",
+      "blurb": "早期 Robinhood Chain 忍者村游戏，可留意后续玩法/铸造",
+      "round": 1012,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 3,
+      "xFollowers": 3,
+      "firstSeen": "2026-10-31 22:44 CST",
+      "addedAt": "2026-10-31 22:44 CST",
+      "lastChecked": "2026-10-31 22:44 CST",
+      "zoneHint": "GO盘",
+      "newThisRound": true
+    },
     {
       "id": "origin5000",
       "name": "ORIGIN",
@@ -16605,7 +16700,7 @@
       "addedAt": "2026-10-31 22:15 CST",
       "lastChecked": "2026-10-31 22:15 CST",
       "zoneHint": "打新",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "bubbletradin",
@@ -16649,7 +16744,7 @@
       "addedAt": "2026-10-31 22:15 CST",
       "lastChecked": "2026-10-31 22:15 CST",
       "zoneHint": "GO盘",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "gama-giwa",
@@ -16694,7 +16789,7 @@
       "addedAt": "2026-10-31 22:15 CST",
       "lastChecked": "2026-10-31 22:15 CST",
       "zoneHint": "打新",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "nyxarivoid",
@@ -16740,7 +16835,7 @@
       "addedAt": "2026-10-31 22:15 CST",
       "lastChecked": "2026-10-31 22:15 CST",
       "zoneHint": "打新",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "bamandbaw",
@@ -164784,16 +164879,19 @@
       "contractNote": "已与官网/llms 交叉核实"
     }
   ],
-  "newThisRound": [],
-  "alertMessage": "DC补漏R1010新收4项（NYXARI/GAMA/BUBBL/ORIGIN）；面板 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "robinshinobi",
+    "koin-elysium"
+  ],
+  "alertMessage": "DC补漏R1012新收2项：Robin Shinobi | Shadow Village（GO盘，早期Robinhood Chain忍者村游戏）、KOIN（Elysium生态首发玩法卡）；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [],
-  "updatedAt": "2026-10-31 22:15 CST",
-  "updated": "2026-10-31 22:15 CST",
+  "updatedAt": "2026-10-31 22:44 CST",
+  "updated": "2026-10-31 22:44 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-31 22:15 CST",
+  "lastScout": "2026-10-31 22:44 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -164835,7 +164933,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 2407,
+  "candidateCount": 2409,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -166577,5 +166675,9 @@
     "gama-giwa",
     "bubbletradin",
     "origin5000"
+  ],
+  "round1012Added": [
+    "robinshinobi",
+    "koin-elysium"
   ]
 }
