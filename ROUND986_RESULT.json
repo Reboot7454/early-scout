@@ -1,0 +1,214 @@
+{
+  "round": 986,
+  "mode": "full-scan",
+  "completedAt": "2026-10-31 15:03 CST",
+  "timezone": "Asia/Shanghai",
+  "xReads": 28,
+  "remaining": "472/1000",
+  "remainingBefore": "500/1000",
+  "notify": true,
+  "notifyReason": "newAdmits×3 + Famuli/Nocturn LIVE + $MAOAI开池≤2h",
+  "alertMessage": "R986告警：新收录3个——Agentic Heist LIVE Agent问答铸造、Crest LIVE Gold免费soulbound、Clawlers LIVE首次免费；库内刷新Famuli mint LIVE（.ai免费+社区池）；Nocturn Companions已转LIVE；$MAOAI池约14:28开仍≤2h（付费只报）；面板 https://reboot7454.github.io/early-scout/",
+  "alert": "R986告警：新收录3个——Agentic Heist LIVE Agent问答铸造、Crest LIVE Gold免费soulbound、Clawlers LIVE首次免费；库内刷新Famuli mint LIVE（.ai免费+社区池）；Nocturn Companions已转LIVE；$MAOAI池约14:28开仍≤2h（付费只报）；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "agenticheist",
+      "handle": "@agenticheist",
+      "name": "Agentic Heist",
+      "score": 74,
+      "note": "LIVE Agent问答铸造；站agenticheist.space；粉≈8；曲线4.3BNB后开池"
+    },
+    {
+      "id": "crest-on-bnb",
+      "handle": "@CrestOnBNB",
+      "name": "Crest",
+      "score": 61,
+      "note": "LIVE Gold免费/Ruby付费 soulbound；站crestbnb.pages.dev；粉≈11"
+    },
+    {
+      "id": "clawlers",
+      "handle": "@Clawlers_",
+      "name": "Clawlers",
+      "score": 47,
+      "note": "LIVE首次免费再0.0025BNB；站crawlersnft.pages.dev；粉≈1高风险"
+    }
+  ],
+  "newIds": [
+    "agenticheist",
+    "crest-on-bnb",
+    "clawlers"
+  ],
+  "newCount": 3,
+  "skipped": [
+    {
+      "id": "kaminara",
+      "why": "仅1帖无官网/合约/mint，DS admit=false"
+    },
+    {
+      "id": "stubtheline",
+      "why": "0粉SOON无合约，DS admit=false"
+    },
+    {
+      "id": "goldtoad",
+      "why": "无有效官推；付费只报；不收卡"
+    },
+    {
+      "id": "mobster_meme/starx_xlayer",
+      "why": "NF skip dead lookups"
+    },
+    {
+      "id": "agentmao",
+      "why": "非newAdmit（库内刷新开池≤2h）"
+    },
+    {
+      "id": "famuli",
+      "why": "库内刷新 Mint LIVE，非newAdmit"
+    },
+    {
+      "id": "nocturn-companions",
+      "why": "库内刷新 SOON→LIVE，非newAdmit"
+    },
+    {
+      "id": "suan/bnagent/proxis/swarm/bibiai/lanterns/jager",
+      "why": "已在库 BN Agent pads；HTTP探活；付费只报"
+    }
+  ],
+  "coverage": {
+    "userFollowSoftBrush": [
+      "machinedotfun",
+      "bscaidrop",
+      "PulseLaunchpad",
+      "localbottomcom",
+      "NutshellMarkets",
+      "squeekchain",
+      "Enter_Elysium",
+      "kinetiq_xyz",
+      "GIWA_by_Upbit",
+      "DogeOS",
+      "ShieldedNaka",
+      "agentmao_",
+      "Proxisfun",
+      "flapdotsh",
+      "dotaipad",
+      "gangdotfun",
+      "FamuliAI",
+      "NocturnCompanio",
+      "agenticheist",
+      "CrestOnBNB",
+      "Clawlers_"
+    ],
+    "userFollowSkippedNF": [
+      "mobster_meme",
+      "starx_xlayer"
+    ],
+    "requiredWatches": [
+      "userFollowWatch",
+      "agentPadWatch",
+      "kinetiqWatch",
+      "miningWatch",
+      "tapeWatch",
+      "giwaWatch",
+      "zeroWatch",
+      "dogeEvmWatch",
+      "elysiumWatch",
+      "btcPrivacyWatch",
+      "starknetWatch",
+      "flapPadWatch",
+      "irysPadWatch",
+      "fullFunWatch",
+      "arcPadWatch",
+      "bnAgentWatch",
+      "freeMintWatch",
+      "agentTradingWatch",
+      "xChainPadWatch"
+    ],
+    "keywordsTenCols": true,
+    "mentionsCoverage": [
+      "Elysium/kinetiq",
+      "Tape",
+      "GIWA",
+      "Zero/DogeEVM",
+      "BTC privacy",
+      "BN Agent pads/GANG",
+      "squeek/Nutshell",
+      "STARX/X Layer(keywords)",
+      "flap"
+    ],
+    "bnAgentWeb": [
+      "launch.suan.bid",
+      "bnagent.onrender.com",
+      "agentmao.fun",
+      "goldtoad.fun",
+      "proxis.fun",
+      "swarmbnb.fun",
+      "bibiai.meme",
+      "lanterns.town",
+      "jager.live",
+      "flap.cool"
+    ]
+  },
+  "keywordsTenCols": true,
+  "userFollowDone": true,
+  "mentionsCoverage": [
+    "Elysium/kinetiq",
+    "Tape",
+    "GIWA",
+    "Zero/DogeEVM",
+    "BTC privacy",
+    "BN Agent pads/GANG",
+    "squeek/Nutshell",
+    "STARX/X Layer",
+    "flap"
+  ],
+  "discordPeekDeferred": true,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "batchScore": 6,
+    "admitted": 3,
+    "alertCopy": 1
+  },
+  "watchBugsFixed": [
+    "agenticheist/crest-on-bnb/clawlers → UF+agentPad+bnAgent+freeMint",
+    "famuli @FamuliAI handle sync → watches",
+    "nocturn LIVE refresh watches confirmed"
+  ],
+  "le2h": [
+    {
+      "id": "agentmao",
+      "note": "$MAOAI pool ~14:28 CST still ≤2h; paid report-only"
+    },
+    {
+      "id": "famuli",
+      "note": "Mint LIVE"
+    },
+    {
+      "id": "nocturn-companions",
+      "note": "Mint LIVE"
+    },
+    {
+      "id": "agenticheist",
+      "note": "LIVE"
+    },
+    {
+      "id": "crest-on-bnb",
+      "note": "LIVE Gold free"
+    },
+    {
+      "id": "clawlers",
+      "note": "LIVE first free"
+    }
+  ],
+  "notes": [
+    "R985 was Discord-only peek; R986 full-scan",
+    "Flap prefer flap.cool (old front compromised PSA — not admitted as project)",
+    "Paid Agent ID mint = report-only / no auto",
+    "Soft-debt: Canton/Glaze/TokenWorks lastChecked bumped",
+    "xReads budget ~28 within 25-40 target; remaining 472≫200"
+  ],
+  "summary": "R986 full-scan：新收3（agenticheist/crest-on-bnb/clawlers 均LIVE）；Famuli+Nocturn转LIVE；$MAOAI≤2h；Discord延期；xReads=28 remaining=472；notify=true",
+  "push": {
+    "ok": false,
+    "sha": null
+  },
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
