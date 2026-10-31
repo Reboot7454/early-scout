@@ -44,7 +44,8 @@
   },
   "discordPeekDeferred": true,
   "dsFallback": false,
-  "push": "pending",
+  "push": "8c2e5c4",
+  "pushSha": "8c2e5c497136c5f1d830cdd3fdec558da5f86e36",
   "panel": "https://reboot7454.github.io/early-scout/"
 }
 ```
