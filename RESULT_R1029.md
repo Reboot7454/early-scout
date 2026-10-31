@@ -1,0 +1,20 @@
+# RESULT R1029
+
+- mode: exhausted-deferred-full-scan
+- completedAt: 2026-11-01 03:33 CST
+- xReads: 0 | remainingBefore: 0/1000 | remaining: 0/1000
+- xQuota: mode=zero-x softCap=0 hoursLeft≈4.48 resetAtCST=2026-11-01 08:00 CST
+- parentProbeNote: X daily limit reached; Do not call X tools again before 2026-11-01T00:00:00.000Z (≈08:00 CST)
+- deferredFullScan: true | deferredUntil: 2026-11-01 08:00 CST
+- notify: false
+- newIds: []
+- le2h: 无新增免费 LIVE/mint；R1028 四卡已告（含 agent-pets-nft Live mint）；WhaleArt 免费mint待核已在 R1026 通知，不重复推
+- watchBugsFixed: 20
+- watchBugsNote: R1028 Discord 补漏4卡未进 Watch → 本轮补挂 agent-pets-nft(@agentpetsnft)→userFollowWatch,freeMintWatch,agentPadWatch,bnAgentWatch；bnagents(@bnagents)→userFollowWatch,agentPadWatch,bnAgentWatch,freeMintWatch；kyte-market(@kyte_market)→userFollowWatch；hootal-kombat(@hootal_)→userFollowWatch。近期(≥R1015)扫描无其它库内漏挂。
+- softDebt: cantonPadWatch / glazeWatch / tokenWorksPlaygroundWatch / tokenWorksWatch lastChecked→2026-11-01 03:33 CST
+- coverage: tenLanes=deferred keywords=deferred mentions=deferred userFollowSoft=deferred
+- discordPeekSkipped: true
+- discordPeekDeferred: true
+- discordLoginOk: false
+- alert: (none this round)
+- summary: R1029 exhausted-deferred：X remaining=0 零读取；补挂 R1028 四卡 agent-pets-nft/bnagents/kyte-market/hootal-kombat 进 Watch（20 entries）；软债刷 canton/glaze/tokenWorks；Discord peek deferred（R1028 刚 peek）；清 newThisRound；全量 UF+十栏+mentions 延至 2026-11-01 08:00 CST；本轮无新收录，notify=false。
