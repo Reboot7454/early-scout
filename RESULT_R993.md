@@ -1,0 +1,102 @@
+# RESULT R993
+
+```json
+{
+  "round": 993,
+  "mode": "full-scan",
+  "completedAt": "2026-10-31 17:05 CST",
+  "timezone": "Asia/Shanghai",
+  "xReads": 51,
+  "remaining": "302/1000",
+  "remainingBefore": "353/1000",
+  "notify": true,
+  "notifyReason": "newAdmit×3 DinoMites(打新免费LIVE≤2h)+Niuma(付费只报)+ITIA(Watch补卡)",
+  "alertMessage": "R993告警：新收录3个——①DinoMites(@dinomitesnft) BNB Agent ID免费NFT 5555今日17:00CST开铸仅gas（粉≈4，pages.dev，CA自称Verified未核实，score74）；②Niuma(@NiumaAiBNB) $NIUMA fair mint $1×10/ID LIVE niumaai.fun（粉0，付费只报，score62）；③ITIA(@IThinkItsArt) Watch补卡 1111 WL-only免费mint（粉≈32k，约11/18结果，score64）；库内续：FISTAGENT免费~500/2000、Quirkz免费售罄转0.0005BNB、SAFU今日21:00CST开铸（付费只报）、CRT/Snailings/Famuli/Nocturn/Crest/Clawlers/币安人续LIVE；$MAOAI开池已过≤2h窗；面板 https://reboot7454.github.io/early-scout/",
+  "alert": "R993告警：新收录3个——①DinoMites(@dinomitesnft) BNB Agent ID免费NFT 5555今日17:00CST开铸仅gas（粉≈4，pages.dev，CA自称Verified未核实，score74）；②Niuma(@NiumaAiBNB) $NIUMA fair mint $1×10/ID LIVE niumaai.fun（粉0，付费只报，score62）；③ITIA(@IThinkItsArt) Watch补卡 1111 WL-only免费mint（粉≈32k，约11/18结果，score64）；库内续：FISTAGENT免费~500/2000、Quirkz免费售罄转0.0005BNB、SAFU今日21:00CST开铸（付费只报）、CRT/Snailings/Famuli/Nocturn/Crest/Clawlers/币安人续LIVE；$MAOAI开池已过≤2h窗；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "dinomitesnft",
+      "handle": "@dinomitesnft",
+      "name": "DinoMites",
+      "score": 74,
+      "note": "BNB Agent ID免费NFT5555；今日17:00CST开铸仅gas；粉≈4；合约未核实"
+    },
+    {
+      "id": "niuma-ai-bnb",
+      "handle": "@NiumaAiBNB",
+      "name": "Niuma",
+      "score": 62,
+      "note": "$NIUMA fair mint $1×10/ID LIVE；niumaai.fun；粉0；付费只报"
+    },
+    {
+      "id": "ithinkitsart",
+      "handle": "@IThinkItsArt",
+      "name": "ITIA",
+      "score": 64,
+      "note": "freeMintWatch补卡；1111 WL-only；粉≈32k；约11/18结果"
+    }
+  ],
+  "newIds": [
+    "dinomitesnft",
+    "niuma-ai-bnb",
+    "ithinkitsart"
+  ],
+  "newCount": 3,
+  "skipped": [
+    {
+      "id": "marketerpad",
+      "why": "DS skip：bio空信息薄无明确入口"
+    },
+    {
+      "id": "hyper-ships",
+      "why": "DS skip：Elysium announced粉≈1等主网"
+    },
+    {
+      "id": "hiisver",
+      "why": "艺术家号非项目mint"
+    },
+    {
+      "id": "RiskFDN",
+      "why": "builder集体非打新窗口"
+    },
+    {
+      "id": "elixirpad/deuslaunch/tapeup/ammora",
+      "why": "已在库"
+    },
+    {
+      "id": "fistagent/quirkzai/safu/crt/famuli/nocturn/crest/clawlers/bianren/ptah/snailings/agentmao",
+      "why": "库内刷新非newAdmit；$MAOAI已过≤2h"
+    },
+    {
+      "id": "mobster_meme/starx_xlayer",
+      "why": "NF skip dead lookups"
+    },
+    {
+      "id": "sertoken888/AgenticBinance/ByteBanditArmy",
+      "why": "聚合/二手噪声未过门槛"
+    }
+  ],
+  "coverage": {
+    "tenLanes": true,
+    "userFollowSoft": true,
+    "keywords": true,
+    "mentionsChains": [
+      "Elysium",
+      "GIWA",
+      "squeek",
+      "Tape",
+      "BN Agent/dotaipad",
+      "Starknet",
+      "flap",
+      "DogeOS",
+      "BTC/ShieldedNaka"
+    ],
+    "notes": "十栏+UF软刷(含Pulse/bscaidrop/Nutshell/localbottom/machine/FIST/Quirkz/SAFU/CRT/Famuli/Nocturn/Crest/Clawlers/币安人/MAOAI)；关键词含Agent ID/free mint/STARX/TapeOut/Local Bottom/Nutshell；mentions覆盖Elysium/GIWA/squeek/Tape/dotaipad/Starknet/flap/DogeOS/BTC；STARX/X Layer本窗无强新号；mobster/starx NF"
+  },
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "push": "PENDING",
+  "pushSha": "PENDING",
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
+```
