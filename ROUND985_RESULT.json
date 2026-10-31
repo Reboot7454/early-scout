@@ -1,0 +1,71 @@
+{
+  "round": 985,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-10-31 14:44 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": false,
+  "notifyReason": "no_new_admits_dup_of_R984_fullscan",
+  "alertMessage": "",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "skipped": [
+    "nocturncompanio→already nocturn-companions in R984 full-scan"
+  ],
+  "cardsAfterLastSeen": 32,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "agent-harvest",
+    "nocturn-companions",
+    "moar-pixel"
+  ],
+  "candidateFlagsCleared": 3,
+  "topNewThisRoundCleared": [
+    "agent-harvest",
+    "nocturn-companions",
+    "moar-pixel"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=1(dup-skipped) rejects=31",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-10-31 14:40",
+    "lastChecked": "2026-10-31 14:44 CST",
+    "newestCardTime": "2026-10-31 14:40",
+    "cardsAfterCutoff": 32,
+    "note": "R985：Discord alpha 补漏无新卡（R984 full-scan 已收 nocturn-companions 等同项；读32已有1 DS本轮曾收 nocturncompanio 作重复跳过）；清 agent-harvest,nocturn-companions,moar-pixel；lastSeen→2026-10-31 14:40；lastChecked→2026-10-31 14:44 CST",
+    "lastRound": 985,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-10-31 14:40",
+      "alpha-1-backup": "2026-10-31 13:13",
+      "smart-accounts-tracker": "2026-10-31 14:15",
+      "alpha-1": "2026-10-31 14:21"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R985：Discord alpha 补漏无新卡（R984 full-scan 已收 nocturn-companions 等同项；读32已有1 DS本轮曾收 nocturncompanio 作重复跳过）；清 agent-harvest,nocturn-companions,moar-pixel；lastSeen→2026-10-31 14:40；lastChecked→2026-10-31 14:44 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261031_1434.json",
+  "priorRoundNote": "R984 full-scan NTR ['agent-harvest', 'nocturn-companions', 'moar-pixel']; DC cardsAfterCutoff=32",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-10-31 14:40",
+    "alpha-1-backup": "2026-10-31 13:13",
+    "smart-accounts-tracker": "2026-10-31 14:15",
+    "alpha-1": "2026-10-31 14:21"
+  },
+  "cardsRead": 32,
+  "rejectedCount": 31,
+  "dsRejects": 31,
+  "admissions": [],
+  "alert": "",
+  "alreadyHaveFromCards": [
+    "nocturncompanio"
+  ],
+  "alreadyHaveCount": 1
+}
