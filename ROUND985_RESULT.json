@@ -45,12 +45,19 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "8c5728db7a7b5ec5fe40a1373f37434e4b9355d7",
+    "short": "8c5728d",
+    "commit": "8c5728d",
+    "full": "8c5728db7a7b5ec5fe40a1373f37434e4b9355d7",
+    "message": "R985 Discord alpha-40 peek (no new; lastSeen sync)",
+    "remoteVerified": true,
+    "remoteHead": "8c5728db7a7b5ec5fe40a1373f37434e4b9355d7"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R985：Discord alpha 补漏无新卡（R984 full-scan 已收 nocturn-companions 等同项；读32已有1 DS本轮曾收 nocturncompanio 作重复跳过）；清 agent-harvest,nocturn-companions,moar-pixel；lastSeen→2026-10-31 14:40；lastChecked→2026-10-31 14:44 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "DISCORD_ALPHA_40_CARDS_20261031_1434.json",
   "priorRoundNote": "R984 full-scan NTR ['agent-harvest', 'nocturn-companions', 'moar-pixel']; DC cardsAfterCutoff=32",
   "lastSeenByChannel": {
