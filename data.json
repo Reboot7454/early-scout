@@ -1797,7 +1797,8 @@
       "usetrenchscope",
       "moonfall-bnb",
       "trykerb",
-      "agentcardshq"
+      "agentcardshq",
+      "agent-pulse"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -6466,7 +6467,8 @@
         "@frogsagent",
         "@MehcatBNB",
         "@Honestcoin60",
-        "@BSCQUQU"
+        "@BSCQUQU",
+        "@MintRoboAi"
       ],
       "candidateIds": [
         "2hourfun",
@@ -6934,7 +6936,8 @@
         "siege",
         "mehcat-bnb",
         "honest-coin",
-        "bsc-ququ"
+        "bsc-ququ",
+        "agent-pulse"
       ],
       "coreNarrative": "https://x.com/yinghubnb/status/2112604032049295368",
       "keyFacts": {
@@ -11028,7 +11031,8 @@
         "@Honestcoin60",
         "@PunkOnElysium",
         "@Liquidit_X",
-        "@BSCQUQU"
+        "@BSCQUQU",
+        "@MintRoboAi"
       ],
       "candidateIds": [
         "0xvernull",
@@ -11644,7 +11648,8 @@
         "honest-coin",
         "punkonelysium",
         "liquidit-x",
-        "bsc-ququ"
+        "bsc-ququ",
+        "agent-pulse"
       ],
       "pending": [],
       "note": "R950 Watch漏挂修×8 (lanternfield, launchr, moorin, agentmao, hackedbyagent, hookkit, quirkzai, candynightapp) + soft-debt; full UF scan deferred→08:00 CST",
@@ -13541,7 +13546,8 @@
         "@NidavellirBSC",
         "@frogsagent",
         "@MehcatBNB",
-        "@BSCQUQU"
+        "@BSCQUQU",
+        "@MintRoboAi"
       ],
       "candidateIds": [
         "agentai-agi",
@@ -13609,7 +13615,8 @@
         "seatwork-cells",
         "siege",
         "mehcat-bnb",
-        "bsc-ququ"
+        "bsc-ququ",
+        "agent-pulse"
       ],
       "lastChecked": "2026-10-31 19:00 CST",
       "active": true,
@@ -15751,7 +15758,7 @@
       "quad-connects @quadConnects → UF/mining/focusWatch (squeek eco focus OK)"
     ],
     "watchBugsFixedR970": true,
-    "paidAgentIdNote": "resafu/FISTAGENT/mochi#2–10 付费只报不自动打；本轮无自动打",
+    "paidAgentIdNote": "resafu/FISTAGENT/mochi#2–10 付费只报不自动打；本轮无自动打; agent-pulse/PULSE 付费只报不自动打",
     "round971Added": [
       "agentic-pixels",
       "resafu"
@@ -16070,7 +16077,11 @@
       "moonfall-bnb",
       "trykerb",
       "agentcardshq"
-    ]
+    ],
+    "r1001WatchBugs": [
+      "agent-pulse: user-named pulseagent.trade; was only watching @PulseLaunchpad(RH); CREATE 0xce67 score0 missing_socials → +card+UF+agentPad+bnAgent+sites_meta+HTTP"
+    ],
+    "lastManualPatch": "agent-pulse wired 2026-10-31 19:44:14 CST"
   },
   "candidates": [
     {
@@ -163181,13 +163192,111 @@
       "mintStatus": "web-mine-open",
       "addedAt": "2026-10-31 19:00 CST",
       "updatedAt": "2026-10-31 19:00 CST"
+    },
+    {
+      "id": "agent-pulse",
+      "name": "Agent Pulse",
+      "handle": "@MintRoboAi",
+      "twitter": "@MintRoboAi",
+      "chain": "BNB Chain",
+      "category": "打新",
+      "zone": "打新",
+      "zoneHint": "打新",
+      "zoneOf": "mint",
+      "ecosystem": "BN Agent",
+      "tags": [
+        "BN Agent",
+        "Agent ID",
+        "BNB",
+        "paid mint",
+        "LIVE",
+        "有官推",
+        "有站",
+        "阶梯价",
+        "付费只报",
+        "老号改名风险"
+      ],
+      "links": {
+        "x": "https://x.com/MintRoboAi",
+        "twitter": "https://x.com/MintRoboAi",
+        "website": "https://pulseagent.trade/",
+        "llms": "https://pulseagent.trade/llms.txt",
+        "bscscanMint": "https://bscscan.com/address/0xce6702782A00B80a8634Ce05c360543f9820E879",
+        "bscscanToken": "https://bscscan.com/token/0x754e9458d675019edEB01e1E9d13596254230F72"
+      },
+      "website": "https://pulseagent.trade/",
+      "scores": {
+        "early": 88,
+        "actionable": 78,
+        "novelty": 62,
+        "risk": 78,
+        "overall": 72
+      },
+      "score": 72,
+      "overall": 72,
+      "earlyScore": 88,
+      "highlights": [
+        "BNB Agent ID 专属公平 mint LIVE；官网+llms+合约齐全",
+        "1.0U 起阶梯价，满 10000 份自动开 PULSE/USDT 池并烧 LP",
+        "链上进度可跟；CREATE 已见但此前缺站被 skip",
+        "每份 5000 PULSE；USDT/BNB 双路径"
+      ],
+      "drawbacks": [
+        "官推 @MintRoboAi 2017 老号仅约 10 推、粉≈388，改名风险",
+        "与 RH 链 @PulseLaunchpad 同名不同盘，易混淆",
+        "付费盘不自动打；3 天未达开池线则退款窗口",
+        "开池后 1.25% 交易税"
+      ],
+      "whatsNew": "【补漏】用户点名 pulseagent.trade；进度 2185/10000（开池线）≈21.9%；付费只报。",
+      "summary": "Agent Pulse $PULSE：BNB Agent ID mint LIVE；1U起/份，满1万开池；官推@MintRoboAi；CA mint 0xce6702…",
+      "blurb": "BNB Agent ID paid fair mint LIVE；pulseagent.trade；满10000开池；付费只报。",
+      "oneLiner": "Agent Pulse $PULSE Agent ID mint LIVE · 1U起 · 满1万开池 · 付费只报",
+      "whyWatch": "用户点名官网；CREATE 曾因无站 skip；现已接 mint-watch 跟进度",
+      "status": "live",
+      "mintStatus": "live",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 388,
+      "xFollowers": 388,
+      "round": 1001,
+      "candidate": {
+        "round": 1001
+      },
+      "firstSeen": "2026-10-31 19:44 CST",
+      "addedAt": "2026-10-31 19:44 CST",
+      "lastChecked": "2026-10-31 19:44 CST",
+      "updatedAt": "2026-10-31 19:44 CST",
+      "source": "user-named pulseagent.trade 2026-10-31",
+      "sources": [
+        "user point-name",
+        "site+llms+chain",
+        "CREATE cross-check"
+      ],
+      "newThisRound": true,
+      "caNote": "mint 0xce6702782A00B80a8634Ce05c360543f9820E879 / token 0x754e9458d675019edEB01e1E9d13596254230F72 / pair 0x6db7F5FC8cF66D15cdd3Be1892e67b116878BEB5（官网 CONFIG+llms 一致）",
+      "price": "1.0 USDT/份起（阶梯 +0.2/万份）",
+      "mintHint": {
+        "mint": "0xce6702782A00B80a8634Ce05c360543f9820E879",
+        "token": "0x754e9458d675019edEB01e1E9d13596254230F72",
+        "pair": "0x6db7F5FC8cF66D15cdd3Be1892e67b116878BEB5",
+        "poolOpensAt": 10000,
+        "totalShares": 100000,
+        "priceUsdt": 1.0,
+        "tokensPerShare": 5000,
+        "paidOnly": true
+      },
+      "risk": 78,
+      "riskLevel": "high",
+      "flag": "用户点名补漏",
+      "contractNote": "已与官网/llms 交叉核实"
     }
   ],
   "newThisRound": [
     "usetrenchscope",
     "moonfall-bnb",
     "trykerb",
-    "agentcardshq"
+    "agentcardshq",
+    "agent-pulse"
   ],
   "alertMessage": "DC补漏R1001新收4项：Trench Scope、MOONFALL、Kerb、Agent Cards；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
