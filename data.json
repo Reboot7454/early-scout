@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-01 06:58 CST",
+    "updated": "2026-11-01 07:22 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R1036",
-    "lastScout": "2026-11-01 06:58 CST",
+    "lastScout": "2026-11-01 07:22 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -645,7 +645,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1041,
+    "round": 1042,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1839,7 +1839,12 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "hordeonelysium",
+      "outriggerrh",
+      "lazabitmeme",
+      "erc8004-markets"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -3883,20 +3888,19 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-11-01 06:40",
-      "lastChecked": "2026-11-01 06:46 CST",
-      "newestCardTime": "2026-11-01 06:40",
-      "cardsAfterCutoff": 51,
-      "note": "R1040：Discord alpha 补收 hinu-solana；lastSeen→2026-11-01 06:40；lastChecked→2026-11-01 06:46 CST",
-      "lastRound": 1040,
+      "deferred": false,
+      "lastSeen": "2026-11-01 07:18",
+      "lastChecked": "2026-11-01 07:22 CST",
+      "newestCardTime": "2026-11-01 07:18",
+      "cardsAfterCutoff": 39,
+      "note": "R1042：Discord alpha 补收 hordeonelysium,outriggerrh,lazabitmeme,erc8004-markets；lastSeen→2026-11-01 07:18；lastChecked→2026-11-01 07:22 CST",
+      "lastRound": 1042,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-01 06:40",
-        "alpha-1-backup": "2026-11-01 05:28",
-        "smart-accounts-tracker": "2026-11-01 06:37",
-        "alpha-1": "2026-11-01 05:58"
-      },
-      "skipped": true
+        "alpha-3-new-accounts": "2026-11-01 07:18",
+        "alpha-1-backup": "2026-11-01 07:13",
+        "smart-accounts-tracker": "2026-11-01 07:17",
+        "alpha-1": "2026-11-01 07:04"
+      }
     },
     "round239Added": [
       "tsunamilaunch",
@@ -17258,9 +17262,194 @@
       "xReads": 0,
       "remaining": 0,
       "deferredUntil": "2026-11-01 08:00 CST"
-    }
+    },
+    "round1042Added": [
+      "hordeonelysium",
+      "outriggerrh",
+      "lazabitmeme",
+      "erc8004-markets"
+    ]
   },
   "candidates": [
+    {
+      "id": "erc8004-markets",
+      "name": "ERC8004 Markets",
+      "handle": "@erc8004markets",
+      "twitter": "@erc8004markets",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/ERC8004Markets"
+      },
+      "scores": {
+        "early": 6,
+        "risk": 8,
+        "novelty": 3,
+        "actionable": 5,
+        "overall": 4.4
+      },
+      "highlights": [
+        "bio含合约地址+launchpad直达链接",
+        "蹭ERC-8004热点概念"
+      ],
+      "drawbacks": [
+        "无团队/路线信息",
+        "高风险仿盘meme",
+        "链与池子状态未核实"
+      ],
+      "whatsNew": "在ponsfamily launchpad上新发币，bio带CA",
+      "summary": "ERC-8004概念meme，卡面直接给出CA与launchpad页面，可即时参与但风险极高。",
+      "blurb": "ERC-8004概念发射盘，仅CA线索",
+      "round": 1042,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 159,
+      "xFollowers": 159,
+      "firstSeen": "2026-11-01 07:22 CST",
+      "addedAt": "2026-11-01 07:22 CST",
+      "lastChecked": "2026-11-01 07:22 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "lazabitmeme",
+      "name": "Lazabit",
+      "handle": "@lazabitmeme",
+      "twitter": "@lazabitmeme",
+      "chain": "BNB Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/lazabitmeme"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 7,
+        "novelty": 4,
+        "actionable": 4,
+        "overall": 4.9
+      },
+      "highlights": [
+        "BNB Chain 8-bit pixel hacker meme 定位",
+        "独立项目推特，叙事完整"
+      ],
+      "drawbacks": [
+        "零粉丝，尚无 mint/发射时间",
+        "团队与合约未披露"
+      ],
+      "whatsNew": "新出现的 BNB Chain 8-bit meme collective 账号",
+      "summary": "BNB Chain 上的 8-bit pixel hacker meme 集体项目，账号全新、叙事明确但尚无产品与发行细节，适合早期观察。",
+      "blurb": "BNB Chain 8-bit meme 新盘，早期盯发射。",
+      "round": 1042,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-01 07:22 CST",
+      "addedAt": "2026-11-01 07:22 CST",
+      "lastChecked": "2026-11-01 07:22 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "outriggerrh",
+      "name": "OutRigger",
+      "handle": "@outriggerrh",
+      "twitter": "@outriggerrh",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/OutRiggerRH"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.2
+      },
+      "highlights": [
+        "bio 明确在构建 outcome-market 工具",
+        "极早期，仅 1 关注者"
+      ],
+      "drawbacks": [
+        "无官网/文档链接",
+        "产品尚未上线，信息量少",
+        "关注者极少，真实性待验证"
+      ],
+      "whatsNew": "新账号自称构建日常风险结果市场工具，定位 Robinhood 生态。",
+      "summary": "OutRigger 是极早期项目账号，bio 称正在构建 outcome-market 工具，暂无链接和产品细节。",
+      "blurb": "关注早期结果市场工具，待更多产品信息。",
+      "round": 1042,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-01 07:22 CST",
+      "addedAt": "2026-11-01 07:22 CST",
+      "lastChecked": "2026-11-01 07:22 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "hordeonelysium",
+      "name": "PokehordeOnElysium",
+      "handle": "@hordeonelysium",
+      "twitter": "@hordeonelysium",
+      "chain": "Elysium",
+      "category": "Elysium",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/HordeOnElysium"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 6.9
+      },
+      "highlights": [
+        "bio 明确写明 Fan-made survival game on Elysium Testnet",
+        "玩法线索清晰：Survive the horde / Catch / Stack / Evolve",
+        "独立项目推特且只关注 @Enter_Elysium，定位垂直"
+      ],
+      "drawbacks": [
+        "仅 6 粉丝，尚无数值可见的 mint 或代币机制",
+        "粉丝自制项目，官方背书不确定"
+      ],
+      "whatsNew": "Elysium 测试网上的 PokéHorde 主题生存收集玩法游戏账号首次出现。",
+      "summary": "PokeHorde 是构建在 Elysium 测试网上的粉丝自制生存+捕捉+进化玩法游戏，账号新上线、只关注 Elysium 官方，属测试网早期玩法类项目。",
+      "blurb": "Elysium 测试网上的 PokéHorde 生存收集玩法，早期可跟。",
+      "round": 1042,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 6,
+      "xFollowers": 6,
+      "firstSeen": "2026-11-01 07:22 CST",
+      "addedAt": "2026-11-01 07:22 CST",
+      "lastChecked": "2026-11-01 07:22 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
     {
       "id": "hinu-solana",
       "name": "HINU",
@@ -167666,16 +167855,21 @@
       "newThisRound": false
     }
   ],
-  "newThisRound": [],
-  "alertMessage": "DC补漏R1040新收HINU（@hinu_solana，Solana $HINU预发射、信息极少，盯launch）；面板 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "hordeonelysium",
+    "outriggerrh",
+    "lazabitmeme",
+    "erc8004-markets"
+  ],
+  "alertMessage": "DC补漏R1042新收PokehordeOnElysium、OutRigger、Lazabit、ERC8004 Markets；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [],
-  "updatedAt": "2026-11-01 06:46 CST",
-  "updated": "2026-11-01 06:46 CST",
+  "updatedAt": "2026-11-01 07:22 CST",
+  "updated": "2026-11-01 07:22 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-01 06:46 CST",
+  "lastScout": "2026-11-01 07:22 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -167717,7 +167911,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 2455,
+  "candidateCount": 2459,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -169535,5 +169729,11 @@
   "round1039Added": [],
   "round1040Added": [
     "hinu-solana"
+  ],
+  "round1042Added": [
+    "hordeonelysium",
+    "outriggerrh",
+    "lazabitmeme",
+    "erc8004-markets"
   ]
 }
