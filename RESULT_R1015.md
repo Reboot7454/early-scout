@@ -9,4 +9,4 @@
 - alert: DC补漏R1015新收5个（Akropolis、HYPE PILL等）；面板 https://reboot7454.github.io/early-scout/
 - dsUsage: deepseek-flash admits=5 rejects=71 calls=10 prompt=18169 completion=20739
 - note: remote 并行占用 R1014 exhausted-deferred；本轮 DC 补漏改记为 R1015
-- pushSha: (pending)
+- pushSha: 9b65633 remoteVerified=true
