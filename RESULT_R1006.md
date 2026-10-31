@@ -9,3 +9,5 @@
 - le2h: safu-fund-bnb, mehcat-bnb, bitcoin-frogs-agent
 - alert: R1006：新收 CZ ID（@Czidagent）BNB Agent ID 每钱包免费首铸，mint 日期未定尚未 LIVE；≤2h：SAFU 21:00 Tier1 1U 仅报、MEH 21:00 $1 仅报、Frogs 21:30 前2000免费（站0/10k）。面板 https://reboot7454.github.io/early-scout/
 - summary: R1006 near-exhausted：新收 cz-id（CZ ID/@Czidagent）免费首铸未LIVE score66；≤2h 三卡 SAFU/MEH/Frogs；关键词与全链 mentions deferred 至 08:00 CST；Discord Peek 跳过；UF 软刷点名完成。
+
+- push: ok sha=7ac0f1f remoteVerified=true
