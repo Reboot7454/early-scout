@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-31 18:33 CST",
+    "updated": "2026-10-31 18:46 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R981",
-    "lastScout": "2026-10-31 18:33 CST",
+    "lastScout": "2026-10-31 18:46 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -629,7 +629,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 998,
+    "round": 999,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1790,7 +1790,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "mehcat-bnb"
+      "honest-coin",
+      "punkonelysium",
+      "liquidit-x"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -3812,17 +3814,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-10-31 18:00",
-      "lastChecked": "2026-10-31 18:04 CST",
-      "newestCardTime": "2026-10-31 18:00",
-      "cardsAfterCutoff": 38,
-      "note": "R996：Discord alpha 补收 vault-run,inkwell-on-bnb,ribbid-ai,nonamespnft；清 siege,elevatepad；lastSeen→2026-10-31 18:00；lastChecked→2026-10-31 18:04 CST",
-      "lastRound": 996,
+      "lastSeen": "2026-10-31 18:42",
+      "lastChecked": "2026-10-31 18:46 CST",
+      "newestCardTime": "2026-10-31 18:42",
+      "cardsAfterCutoff": 45,
+      "note": "R999：Discord alpha 补收 honest-coin,punkonelysium,liquidit-x；清 mehcat-bnb；lastSeen→2026-10-31 18:42；lastChecked→2026-10-31 18:46 CST",
+      "lastRound": 999,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-31 18:00",
+        "alpha-3-new-accounts": "2026-10-31 18:42",
         "alpha-1-backup": "2026-10-31 17:13",
         "smart-accounts-tracker": "2026-10-31 17:49",
-        "alpha-1": "2026-10-31 17:45"
+        "alpha-1": "2026-10-31 18:41"
       }
     },
     "round239Added": [
@@ -16009,9 +16011,147 @@
       "ribbid-ai",
       "nonamespnft"
     ],
-    "noteR997": "Parent tasked R996 X full-scan but Discord-alpha already occupied R996 (vault-run/inkwell/ribbid/nonames); X-scan continues as R997 (same pattern as R995 after R994 Discord补漏)."
+    "noteR997": "Parent tasked R996 X full-scan but Discord-alpha already occupied R996 (vault-run/inkwell/ribbid/nonames); X-scan continues as R997 (same pattern as R995 after R994 Discord补漏).",
+    "round999Added": [
+      "honest-coin",
+      "punkonelysium",
+      "liquidit-x"
+    ]
   },
   "candidates": [
+    {
+      "id": "liquidit-x",
+      "name": "Liquidlt",
+      "handle": "@liquidit_x",
+      "twitter": "@liquidit_x",
+      "chain": "Hyperliquid",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Liquidit_X"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 4,
+        "overall": 5.2
+      },
+      "highlights": [
+        "针对 HyperLiquid 永续仓位的借贷/出借原语",
+        "产品定位一句话清晰"
+      ],
+      "drawbacks": [
+        "0 粉丝新号，名称拼写与 handle 不一致，疑似仿冒风险",
+        "无官网/合约/文档链接"
+      ],
+      "whatsNew": "提出首个 HyperLiquid 永续仓位借贷协议概念。",
+      "summary": "面向 HyperLiquid 永续仓位的借贷协议新号，产品叙事清晰但真实性未核验。",
+      "blurb": "HyperLiquid 永续借贷新项目，先核验再交互。",
+      "round": 999,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 18:46 CST",
+      "addedAt": "2026-10-31 18:46 CST",
+      "lastChecked": "2026-10-31 18:46 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
+    {
+      "id": "punkonelysium",
+      "name": "Elysium Punks",
+      "handle": "@punkonelysium",
+      "twitter": "@punkonelysium",
+      "chain": "Elysium",
+      "category": "Elysium",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/PunkOnElysium"
+      },
+      "scores": {
+        "early": 6,
+        "risk": 7,
+        "novelty": 4,
+        "actionable": 4,
+        "overall": 4.5
+      },
+      "highlights": [
+        "卡面称 Live on mainnet @enter_elysium",
+        "Elysium 生态 NFT 叙事"
+      ],
+      "drawbacks": [
+        "0 粉丝 2 关注，疑似抢注",
+        "未核验真实性",
+        "无官网/合约链接"
+      ],
+      "whatsNew": "自称 Elysium Punks 已在主网上线。",
+      "summary": "新出现的 Elysium 生态 NFT 账号，简介称已上主网，需自行核验合约与官方转推。",
+      "blurb": "Elysium Punks 自称主网上线，先核验再动手。",
+      "round": 999,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 18:46 CST",
+      "addedAt": "2026-10-31 18:46 CST",
+      "lastChecked": "2026-10-31 18:46 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "honest-coin",
+      "name": "Honest",
+      "handle": "@honestcoin60",
+      "twitter": "@honestcoin60",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Honestcoin60"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 3,
+        "actionable": 4,
+        "overall": 5.0
+      },
+      "highlights": [
+        "$HNST 代币符号与 Solana 定位明确",
+        "宣称无 VC、无 rug 的社区 farming 玩法"
+      ],
+      "drawbacks": [
+        "粉丝0、无合约/官网佐证",
+        "rug 风险高，需自行核验合约"
+      ],
+      "whatsNew": "新出现的 $HNST Solana 社区 farming 叙事",
+      "summary": "极早期 Solana 社区币项目号，仅自述层线索，需链上核验。",
+      "blurb": "$HNST 社区 farm 早期自述，低仓试验。",
+      "round": 999,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 18:46 CST",
+      "addedAt": "2026-10-31 18:46 CST",
+      "lastChecked": "2026-10-31 18:46 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "nonamespnft",
       "name": "No Names | Pixel NFT",
@@ -162731,7 +162871,7 @@
       "ecosystem": "BNB",
       "status": "announced",
       "mintStatus": "fair-mint-24h",
-      "newThisRound": true,
+      "newThisRound": false,
       "followers": 1,
       "firstSeen": "2026-10-31 18:33 CST",
       "addedAt": "2026-10-31 18:33 CST",
@@ -162752,21 +162892,23 @@
     }
   ],
   "newThisRound": [
-    "mehcat-bnb"
+    "honest-coin",
+    "punkonelysium",
+    "liquidit-x"
   ],
-  "alertMessage": "R998告警：新收录1个——Unimpressed Cat $MEH(@MehcatBNB) BNB Agent-only fair mint；$1/份·最多1万份·24h；无预售无团队；48h自动开池；粉≈1（score75，付费只报）。库内：Bitcoin Frogs官号改核@frogsagent 今晚21:30CST开铸（前2000免费，距窗≈3h未≤2h）；SAFU Fund今日21:00CST开铸（付费只报，≈2.5h未≤2h）；Nidavellir续Coming soon；FIST/Quirkz/CRT/Nocturn/SIEGE/币安人等续LIVE。面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R999新收 Honest、Elysium Punks、Liquidlt 等；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "nidavellir-bsc",
     "bitcoin-frogs-agent",
     "kleosdog"
   ],
-  "updatedAt": "2026-10-31 18:33 CST",
-  "updated": "2026-10-31 18:33 CST",
+  "updatedAt": "2026-10-31 18:46 CST",
+  "updated": "2026-10-31 18:46 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-31 18:33 CST",
+  "lastScout": "2026-10-31 18:46 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -162808,7 +162950,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 2378,
+  "candidateCount": 2381,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -164507,5 +164649,10 @@
   ],
   "round998Added": [
     "mehcat-bnb"
+  ],
+  "round999Added": [
+    "honest-coin",
+    "punkonelysium",
+    "liquidit-x"
   ]
 }
