@@ -4,7 +4,7 @@
 {
   "round": 1004,
   "mode": "tight-quota-full-scan",
-  "completedAt": "2026-10-31 20:38 CST",
+  "completedAt": "2026-10-31 20:39 CST",
   "timezone": "Asia/Shanghai",
   "xReads": 26,
   "remainingBefore": "41/1000",
@@ -85,8 +85,8 @@
   "dsModel": "deepseek-flash",
   "thinking": false,
   "push": {
-    "ok": null,
-    "sha": null
+    "ok": true,
+    "sha": "ff50198"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "le2h": [
