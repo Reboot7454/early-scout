@@ -93,8 +93,9 @@
   "dsFallback": false,
   "dsModel": "deepseek-flash",
   "thinking": true,
-  "push": false,
-  "pushSha": null,
+  "push": true,
+  "pushSha": "e09d3f6",
+  "dataSha": "e09d3f6",
   "panel": "https://reboot7454.github.io/early-scout/",
   "le2h": [
     {
