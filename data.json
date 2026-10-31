@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-31 20:08 CST",
+    "updated": "2026-10-31 20:09 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R981",
-    "lastScout": "2026-10-31 19:28 CST",
+    "lastScout": "2026-10-31 20:09 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -635,7 +635,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1002,
+    "round": 1003,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1796,8 +1796,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "dropminters",
-      "botai-meme"
+      "scanpad",
+      "beatdotfamily",
+      "soldrillcom"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -3821,17 +3822,17 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-10-31 19:24",
-      "lastChecked": "2026-10-31 20:07 CST",
-      "newestCardTime": "2026-10-31 19:24",
-      "cardsAfterCutoff": 53,
-      "note": "R1002：雷达轮无新DC卡片文件；R1001已补至 lastSeen 19:24；本轮 discordPeekDeferred=true",
-      "lastRound": 1002,
+      "deferred": false,
+      "lastSeen": "2026-10-31 20:04",
+      "lastChecked": "2026-10-31 20:09 CST",
+      "newestCardTime": "2026-10-31 20:04",
+      "cardsAfterCutoff": 67,
+      "note": "R1003：Discord alpha 补收 scanpad,beatdotfamily,soldrillcom；清 botai-meme,dropminters；lastSeen→2026-10-31 20:04；lastChecked→2026-10-31 20:09 CST",
+      "lastRound": 1003,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-31 19:24",
+        "alpha-3-new-accounts": "2026-10-31 20:04",
         "alpha-1-backup": "2026-10-31 19:13",
-        "smart-accounts-tracker": "2026-10-31 19:16",
+        "smart-accounts-tracker": "2026-10-31 19:55",
         "alpha-1": "2026-10-31 19:09"
       }
     },
@@ -16103,9 +16104,148 @@
       "famuli",
       "nocturn-companions",
       "botai-meme"
+    ],
+    "round1003Added": [
+      "scanpad",
+      "beatdotfamily",
+      "soldrillcom"
     ]
   },
   "candidates": [
+    {
+      "id": "soldrillcom",
+      "name": "SolDrill - Pump.Fun Game",
+      "handle": "@soldrillcom",
+      "twitter": "@soldrillcom",
+      "chain": "Solana",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/soldrillcom"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 5,
+        "novelty": 6,
+        "actionable": 7,
+        "overall": 6.75
+      },
+      "highlights": [
+        "Solana 上的挖矿游戏",
+        "三种矿场产出 $DRL，Emerald 矿场产出 $SOL",
+        "部署钻机并收集的玩法明确"
+      ],
+      "drawbacks": [
+        "粉丝仅 11，信息有限",
+        "代币经济与合约细节未披露"
+      ],
+      "whatsNew": "新关注 @ethereum；卡面显示 Solana 挖矿游戏及双代币产出玩法。",
+      "summary": "早期 Solana 挖矿游戏账号，卡面给出部署钻机、矿场产出 $DRL/$SOL 的玩法线索，可作为挖矿类早期项目观察。",
+      "blurb": "Solana 挖矿游戏，双代币产出。",
+      "round": 1003,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 11,
+      "xFollowers": 11,
+      "firstSeen": "2026-10-31 20:09 CST",
+      "addedAt": "2026-10-31 20:09 CST",
+      "lastChecked": "2026-10-31 20:09 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
+    {
+      "id": "beatdotfamily",
+      "name": "onbeat",
+      "handle": "@beatdotfamily",
+      "twitter": "@beatdotfamily",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/beatdotfamily"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 3,
+        "overall": 5.4
+      },
+      "highlights": [
+        "七链一次发射",
+        "质押 $BEAT 分协议费（真实收益模型）"
+      ],
+      "drawbacks": [
+        "0 粉丝，尚无官网/合约",
+        "产品未上线验证",
+        "无 LZ 相关表述"
+      ],
+      "whatsNew": "新出现的 launch+staking 项目号，bio 首曝七链发射与费用分成机制",
+      "summary": "onbeat 自称一次发射覆盖七条链，并通过质押 $BEAT 分享协议费用，玩法清晰但落地进度未知，适合列入观察。",
+      "blurb": "七链发射+质押分费，早期观察",
+      "round": 1003,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 20:09 CST",
+      "addedAt": "2026-10-31 20:09 CST",
+      "lastChecked": "2026-10-31 20:09 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "scanpad",
+      "name": "scanpad",
+      "handle": "@scan_pad",
+      "twitter": "@scan_pad",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/scan_pad"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 6.25
+      },
+      "highlights": [
+        "扫码即链上发射的差异化玩法",
+        "产品叙事一句话清晰"
+      ],
+      "drawbacks": [
+        "0 粉丝、无产品落地证据",
+        "未披露链与合约细节"
+      ],
+      "whatsNew": "新号提出用摄像头扫码启动链上发射的 launchpad 概念",
+      "summary": "极早期扫码发射台概念号，玩法线索清晰但尚未见产品。",
+      "blurb": "相机即发射台的早期 launchpad。",
+      "round": 1003,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 20:09 CST",
+      "addedAt": "2026-10-31 20:09 CST",
+      "lastChecked": "2026-10-31 20:09 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "botai-meme",
       "name": "BOTAI",
@@ -16122,7 +16262,7 @@
         "round": 1002
       },
       "round": 1002,
-      "newThisRound": true,
+      "newThisRound": false,
       "scores": {
         "early": 58,
         "actionable": 72,
@@ -16179,7 +16319,7 @@
         "round": 1002
       },
       "round": 1002,
-      "newThisRound": true,
+      "newThisRound": false,
       "scores": {
         "early": 96,
         "actionable": 68,
@@ -163428,22 +163568,23 @@
     }
   ],
   "newThisRound": [
-    "dropminters",
-    "botai-meme"
+    "scanpad",
+    "beatdotfamily",
+    "soldrillcom"
   ],
-  "alertMessage": "DC补漏R1001新收4项：Trench Scope、MOONFALL、Kerb、Agent Cards；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1003新收3个：scanpad、onbeat、SolDrill；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "nidavellir-bsc",
     "bitcoin-frogs-agent",
     "kleosdog"
   ],
-  "updatedAt": "2026-10-31 19:28 CST",
-  "updated": "2026-10-31 19:28 CST",
+  "updatedAt": "2026-10-31 20:09 CST",
+  "updated": "2026-10-31 20:09 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-31 19:28 CST",
+  "lastScout": "2026-10-31 20:09 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -163485,7 +163626,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 2386,
+  "candidateCount": 2392,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -165199,5 +165340,10 @@
   "round1002Added": [
     "dropminters",
     "botai-meme"
+  ],
+  "round1003Added": [
+    "scanpad",
+    "beatdotfamily",
+    "soldrillcom"
   ]
 }
