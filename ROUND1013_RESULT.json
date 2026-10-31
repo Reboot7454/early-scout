@@ -1,0 +1,56 @@
+{
+  "round": 1013,
+  "mode": "exhausted-deferred-full-scan",
+  "completedAt": "2026-10-31 23:06 CST",
+  "timezone": "Asia/Shanghai",
+  "xReads": 0,
+  "remainingBefore": "0/1000",
+  "remaining": "0/1000",
+  "deferredFullScan": true,
+  "deferredUntil": "2026-11-01 08:00 CST",
+  "notify": false,
+  "newIds": [],
+  "newCount": 0,
+  "le2h": [
+    "safu-fund-bnb",
+    "mehcat-bnb",
+    "bitcoin-frogs-agent"
+  ],
+  "le2hNote": "R1006已告不重复推",
+  "watchBugsFixed": 8,
+  "watchBugs": [
+    "robinshinobi→userFollowWatch",
+    "koin-elysium→userFollowWatch+elysiumWatch+kinetiqWatch"
+  ],
+  "watchBugsDetail": [
+    "robinshinobi @RobinShinobi → userFollowWatch+acc",
+    "robinshinobi → userFollowWatch.candidateIds",
+    "koin-elysium @KOIN_ELYSIUM → userFollowWatch+acc",
+    "koin-elysium → userFollowWatch.candidateIds",
+    "koin-elysium @KOIN_ELYSIUM → elysiumWatch+acc",
+    "koin-elysium → elysiumWatch.candidateIds",
+    "koin-elysium → kinetiqWatch.candidateIds",
+    "koin-elysium @KOIN_ELYSIUM → kinetiqWatch+acc"
+  ],
+  "softDebt": [
+    "cantonPadWatch",
+    "glazeWatch",
+    "tokenWorksPlaygroundWatch"
+  ],
+  "coverage": {
+    "tenLanes": false,
+    "userFollowSoft": "deferred-local-patch-only",
+    "keywords": false,
+    "mentionsChains": [],
+    "notes": "X exhausted；全量延至 08:00 CST"
+  },
+  "discordPeekSkipped": true,
+  "discordPeekDeferred": true,
+  "alert": null,
+  "summary": "R1013 exhausted-deferred：X remaining=0；Watch补挂R1012×2（robinshinobi→UF；koin-elysium→UF+elysium+kinetiq）；软债已刷；无新收录；不通知；全量补扫延至2026-11-01 08:00 CST",
+  "push": {
+    "ok": false,
+    "sha": null,
+    "remoteVerified": false
+  }
+}
