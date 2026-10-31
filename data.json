@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-10-31 14:44 CST",
+    "updated": "2026-10-31 15:30 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R981",
-    "lastScout": "2026-10-31 14:44 CST",
+    "lastScout": "2026-10-31 15:30 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -623,7 +623,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 986,
+    "round": 987,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1772,9 +1772,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "agenticheist",
-      "crest-on-bnb",
-      "clawlers"
+      "teco-the-creator",
+      "aphelionfi"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -3776,17 +3775,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-10-31 14:40",
-      "lastChecked": "2026-10-31 14:44 CST",
-      "newestCardTime": "2026-10-31 14:40",
-      "cardsAfterCutoff": 32,
-      "note": "R985：Discord alpha 补漏无新卡（R984 full-scan 已收 nocturn-companions 等同项；读32已有1 DS本轮曾收 nocturncompanio 作重复跳过）；清 agent-harvest,nocturn-companions,moar-pixel；lastSeen→2026-10-31 14:40；lastChecked→2026-10-31 14:44 CST",
-      "lastRound": 985,
+      "lastSeen": "2026-10-31 15:24",
+      "lastChecked": "2026-10-31 15:30 CST",
+      "newestCardTime": "2026-10-31 15:24",
+      "cardsAfterCutoff": 51,
+      "note": "R987：Discord alpha 补收 teco-the-creator,aphelionfi；清 agenticheist,crest-on-bnb,clawlers；lastSeen→2026-10-31 15:24；lastChecked→2026-10-31 15:30 CST",
+      "lastRound": 987,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-10-31 14:40",
+        "alpha-3-new-accounts": "2026-10-31 15:24",
         "alpha-1-backup": "2026-10-31 13:13",
-        "smart-accounts-tracker": "2026-10-31 14:15",
-        "alpha-1": "2026-10-31 14:21"
+        "smart-accounts-tracker": "2026-10-31 15:14",
+        "alpha-1": "2026-10-31 14:55"
       }
     },
     "round239Added": [
@@ -15781,9 +15780,99 @@
       "agenticheist/crest-on-bnb/clawlers → UF+agentPad+bnAgent+freeMint (new admits on admit)",
       "famuli handle sync @FamuliAI → UF+agentPad+bnAgent+freeMint",
       "nocturn-companions LIVE refresh → watches confirmed"
+    ],
+    "round987Added": [
+      "teco-the-creator",
+      "aphelionfi"
     ]
   },
   "candidates": [
+    {
+      "id": "aphelionfi",
+      "name": "aphelionFI",
+      "handle": "@aphelionfi",
+      "twitter": "@aphelionfi",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/aphelionFI"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.3
+      },
+      "highlights": [
+        "多链聚合的“轨道交易台”界面",
+        "AI agent 自动扫描新发射并决定买/跳过",
+        "内置仓位规模控制"
+      ],
+      "drawbacks": [],
+      "whatsNew": "AI 驱动的新发射自动交易台，宣称一键聚合全链发射并自动建仓",
+      "summary": "Aphelion 自称把各链新发射聚合到一个屏幕，由 AI agent 判断买入或跳过并控制单笔仓位，是面向打新/狙击的早期交易台产品。",
+      "blurb": "AI 自动打新交易台，早期跟踪",
+      "round": 987,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-10-31 15:30 CST",
+      "addedAt": "2026-10-31 15:30 CST",
+      "lastChecked": "2026-10-31 15:30 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "teco-the-creator",
+      "name": "Teco The Creator",
+      "handle": "@tecothecreator",
+      "twitter": "@tecothecreator",
+      "chain": "",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/TecoTheCreator"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 6.3
+      },
+      "highlights": [
+        "Claude 驱动的 Telegram 发币机器人",
+        "新成员加入触发代币创建"
+      ],
+      "drawbacks": [
+        "仅 1 粉丝，缺官网/合约/演示",
+        "账号名偏个人，项目独立标识不足"
+      ],
+      "whatsNew": "新账号简介披露 Teco Launchpad：Claude 驱动的 Telegram 发币机器人，群成员加入触发代币创建。",
+      "summary": "极早期 Telegram 发币 bot/launchpad，玩法明确但缺官网与合约信息。",
+      "blurb": "Claude 驱动的 Telegram 群组自动发币 launchpad，极早期。",
+      "round": 987,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-10-31 15:30 CST",
+      "addedAt": "2026-10-31 15:30 CST",
+      "lastChecked": "2026-10-31 15:30 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "oren-finance",
       "name": "OREN",
@@ -160846,7 +160935,7 @@
       "chain": "BNB",
       "ecosystem": "BNB Agent ID",
       "status": "live",
-      "newThisRound": true,
+      "newThisRound": false,
       "followers": 8,
       "firstSeen": "2026-10-31 15:03 CST",
       "lastChecked": "2026-10-31 15:03 CST"
@@ -160893,7 +160982,7 @@
       "chain": "BNB",
       "ecosystem": "BNB Agent ID",
       "status": "live",
-      "newThisRound": true,
+      "newThisRound": false,
       "followers": 11,
       "firstSeen": "2026-10-31 15:03 CST",
       "lastChecked": "2026-10-31 15:03 CST"
@@ -160940,26 +161029,25 @@
       "chain": "BNB",
       "ecosystem": "BNB Agent ID",
       "status": "live",
-      "newThisRound": true,
+      "newThisRound": false,
       "followers": 1,
       "firstSeen": "2026-10-31 15:03 CST",
       "lastChecked": "2026-10-31 15:03 CST"
     }
   ],
   "newThisRound": [
-    "agenticheist",
-    "crest-on-bnb",
-    "clawlers"
+    "teco-the-creator",
+    "aphelionfi"
   ],
-  "alertMessage": "",
+  "alertMessage": "DC补漏R987新收2项：Teco The Creator（打新·Claude驱动Telegram群自动发币launchpad，极早期）、aphelionFI（台子/Meme·AI自动打新台，早期跟踪）；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [],
-  "updatedAt": "2026-10-31 14:19 CST",
-  "updated": "2026-10-31 14:19 CST",
+  "updatedAt": "2026-10-31 15:30 CST",
+  "updated": "2026-10-31 15:30 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-10-31 14:44 CST",
+  "lastScout": "2026-10-31 15:30 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -161001,7 +161089,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 2343,
+  "candidateCount": 2351,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -162650,5 +162738,9 @@
     "agenticheist",
     "crest-on-bnb",
     "clawlers"
+  ],
+  "round987Added": [
+    "teco-the-creator",
+    "aphelionfi"
   ]
 }
