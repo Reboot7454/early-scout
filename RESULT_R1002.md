@@ -103,9 +103,9 @@
   "dsFallback": false,
   "dsModel": "deepseek-flash",
   "thinking": true,
-  "push": false,
-  "pushSha": null,
-  "dataSha": null,
+  "push": true,
+  "pushSha": "3e86b96",
+  "dataSha": "3e86b96",
   "panel": "https://reboot7454.github.io/early-scout/",
   "le2h": [
     {
@@ -136,6 +136,7 @@
       "id": "nocturn-companions",
       "note": "Mint LIVE soft"
     }
-  ]
+  ],
+  "remoteVerified": true
 }
 ```
