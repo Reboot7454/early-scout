@@ -1,0 +1,227 @@
+{
+  "round": 988,
+  "mode": "full-scan",
+  "completedAt": "2026-10-31 15:35 CST",
+  "timezone": "Asia/Shanghai",
+  "xReads": 39,
+  "remaining": "433/1000",
+  "remainingBefore": "472/1000",
+  "notify": true,
+  "notifyReason": "newAdmits×2 + Famuli/Nocturn LIVE续 + $MAOAI开池≤2h",
+  "alertMessage": "R988告警：新收录2个——Snailings LIVE首铸免费（~1543/4444）、Seatwork Cells今日PoW开矿（免费gas）；库内续LIVE：Famuli/Nocturn；$MAOAI池约14:28开仍≤2h（付费只报）；面板 https://reboot7454.github.io/early-scout/",
+  "alert": "R988告警：新收录2个——Snailings LIVE首铸免费（~1543/4444）、Seatwork Cells今日PoW开矿（免费gas）；库内续LIVE：Famuli/Nocturn；$MAOAI池约14:28开仍≤2h（付费只报）；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "snailings",
+      "handle": "@SnailingsNFTs",
+      "name": "Snailings",
+      "score": 64,
+      "note": "LIVE 蜗牛NFT首铸免费；~1543/4444；站snailings.pages.dev；粉≈22"
+    },
+    {
+      "id": "seatwork-cells",
+      "handle": "@seatworkcells",
+      "name": "Seatwork Cells",
+      "score": 60,
+      "note": "今日开矿PoW；免费gas-only；站seatworkcells.xyz；粉≈4今日新建"
+    }
+  ],
+  "newIds": [
+    "snailings",
+    "seatwork-cells"
+  ],
+  "newCount": 2,
+  "skipped": [
+    {
+      "id": "phosphor",
+      "why": "无官推仅第三方；近售罄；DS skip"
+    },
+    {
+      "id": "roki",
+      "why": "无官推0粉分享；付费1U；DS skip"
+    },
+    {
+      "id": "mobster_meme/starx_xlayer/TapeFractal",
+      "why": "NF skip dead lookups"
+    },
+    {
+      "id": "agentmao",
+      "why": "非newAdmit（库内刷新开池≤2h）"
+    },
+    {
+      "id": "famuli",
+      "why": "库内续LIVE，非newAdmit"
+    },
+    {
+      "id": "nocturn-companions",
+      "why": "库内续LIVE，非newAdmit"
+    },
+    {
+      "id": "koai/cosmic-macabre/moar-pixel/pixelblobsnft",
+      "why": "已在库；本轮关键词/mentions命中刷新"
+    },
+    {
+      "id": "suan/bnagent/proxis/swarm/bibiai/lanterns/jager/goldtoad",
+      "why": "已在库 BN Agent pads；HTTP探活；付费只报"
+    },
+    {
+      "id": "flap.cool",
+      "why": "HTTP 410 Gone；DNS劫持新闻续；非新项目admit"
+    }
+  ],
+  "admissions": [
+    {
+      "id": "snailings",
+      "admit": true,
+      "score": 64,
+      "reason": "有官推Mint进行中成本低"
+    },
+    {
+      "id": "seatwork-cells",
+      "admit": true,
+      "score": 60,
+      "reason": "今日开矿极早期有官推"
+    }
+  ],
+  "coverage": {
+    "userFollowSoftBrush": [
+      "machinedotfun",
+      "bscaidrop",
+      "PulseLaunchpad",
+      "localbottomcom",
+      "NutshellMarkets",
+      "squeekchain",
+      "Enter_Elysium",
+      "kinetiq_xyz",
+      "GIWA_by_Upbit",
+      "DogeOS",
+      "ShieldedNaka",
+      "agentmao_",
+      "Proxisfun",
+      "flapdotsh",
+      "dotaipad",
+      "gangdotfun",
+      "FamuliAI",
+      "NocturnCompanio",
+      "AgentKinetiq",
+      "TapeLaunch",
+      "SnailingsNFTs",
+      "seatworkcells"
+    ],
+    "userFollowSkippedNF": [
+      "mobster_meme",
+      "starx_xlayer",
+      "TapeFractal"
+    ],
+    "requiredWatches": [
+      "userFollowWatch",
+      "agentPadWatch",
+      "kinetiqWatch",
+      "miningWatch",
+      "tapeWatch",
+      "giwaWatch",
+      "zeroWatch",
+      "dogeEvmWatch",
+      "elysiumWatch",
+      "btcPrivacyWatch",
+      "starknetWatch",
+      "flapPadWatch",
+      "irysPadWatch",
+      "fullFunWatch",
+      "arcPadWatch",
+      "bnAgentWatch",
+      "freeMintWatch",
+      "agentTradingWatch",
+      "xChainPadWatch",
+      "agentMiningWatch"
+    ],
+    "keywordsTenCols": true,
+    "mentionsCoverage": [
+      "Elysium/kinetiq",
+      "Tape",
+      "GIWA",
+      "Zero/DogeEVM",
+      "BTC privacy",
+      "BN Agent pads/GANG",
+      "squeek/Nutshell",
+      "STARX/X Layer(keywords)",
+      "flap",
+      "Starknet"
+    ],
+    "bnAgentWeb": [
+      "launch.suan.bid",
+      "bnagent.onrender.com",
+      "agentmao.fun",
+      "goldtoad.fun",
+      "proxis.fun",
+      "swarmbnb.fun",
+      "bibiai.meme",
+      "lanterns.town",
+      "jager.live",
+      "flap.cool"
+    ]
+  },
+  "keywordsTenCols": true,
+  "userFollowDone": true,
+  "mentionsCoverage": [
+    "Elysium/kinetiq",
+    "Tape",
+    "GIWA",
+    "Zero/DogeEVM",
+    "BTC privacy",
+    "BN Agent pads/GANG",
+    "squeek/Nutshell",
+    "STARX/X Layer",
+    "flap",
+    "Starknet"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "batchAdmit": 4,
+    "batchScore": 2,
+    "admitted": 2,
+    "alertCopy": 1
+  },
+  "watchBugsFixed": [
+    "teco-the-creator/aphelionfi → UF+agentPad+agentTrading",
+    "snailings/seatwork-cells → UF+agentPad/mining+bnAgent+freeMint"
+  ],
+  "le2h": [
+    {
+      "id": "snailings",
+      "note": "LIVE first free"
+    },
+    {
+      "id": "seatwork-cells",
+      "note": "mining starts today free"
+    },
+    {
+      "id": "agentmao",
+      "note": "$MAOAI pool ~14:28 CST still ≤2h; paid report-only"
+    },
+    {
+      "id": "famuli",
+      "note": "Mint LIVE"
+    },
+    {
+      "id": "nocturn-companions",
+      "note": "Mint LIVE"
+    }
+  ],
+  "notes": [
+    "R987 was Discord-only peek; R988 full-scan",
+    "Flap DNS hijack news续；flap.cool HTTP 410",
+    "Paid Agent ID mint = report-only / no auto",
+    "Soft-debt: Canton/Glaze/TokenWorks lastChecked bumped",
+    "xReads budget ~39 within 25-40 target; remaining 433≫200"
+  ],
+  "summary": "R988 full-scan：新收2（snailings LIVE / seatwork-cells 今日挖矿）；Famuli+Nocturn续LIVE；$MAOAI≤2h；Discord延期；xReads=39 remaining=433；notify=true",
+  "push": {
+    "ok": false,
+    "sha": null,
+    "short": null
+  },
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
