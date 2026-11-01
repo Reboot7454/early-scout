@@ -1,0 +1,34 @@
+# RESULT R1063
+
+- mode: ample-paced
+- plannedRound: 1063 | actualRound: 1063
+- collision: none（pull后 meta.round=1062）
+- completedAt: 2026-11-01 13:43 CST
+- xReads: 29 | remainingBefore: 641/1000 | remaining: 612/1000
+- softCap: 28
+- xQuota: mode=ample softCap=28 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: live remaining 以 X 工具尾部为准 612；略超 softCap+1 因 mentions 补齐
+- notify: true
+- alert: ⚠️本轮无新收录卡；NoNamesPNFT 免费LIVE几乎售罄，官推称仅剩约2份，务必立刻冲：nonames-mint.vercel.app（总量7777，Agent ID+PoW）。meteorsz 免费续余≈985；dinomites≈164/5555；Harvest Phase2仍关（pauseEnd≈18:05CST，约+4.5h，非≤2h）；EnigmaAgent 免费PoW≈2424/3338，无官推本轮不收录。面板：https://reboot7454.github.io/early-scout/
+- newIds: []
+- admits: （无）
+- updates:
+  - nonamespnft → 免费LIVE几乎售罄 · 官推仅剩≈2/7777 · Agent ID+PoW · 站nonames-mint.vercel.app
+  - meteorsz → freeRemaining≈985 · totalMinted≈126 · mintingActive=1
+  - dinomitesnft → free LIVE minted=164/5555
+  - agent-harvest → Phase2仍关 freeOpen=0 · pauseEnd≈18:05:30CST（非≤2h）· totalMinted=1125 freeMinted=1000
+  - nemotron → totalMinted≈9359 免费前2/ID续；nova/mint-writ/crop-pals/pojianchengdieb/bitcoin-frogs-agent 软刷
+- skippedAdmits:
+  - enigma-agent — 免费PoW LIVE≈2424/3338 但无官推（Twitter硬门槛）不收录
+  - dice-agent-nft — 无官推/站点不清
+  - xgd-xiaogudong — 无官推且调研号标relay可疑
+  - eslashacc — Elysium e/acc 无mint窗口
+- le2h: []（Harvest 18:05CST 仍约+4.5h）
+- ufCursor: 180→194
+- tenLanesKeywords: full
+- mentionsChains: Elysium, Tape, squeek, Starknet, Irys, flap, GIWA, ShieldedNaka/BTC, Zero
+- watchBugsFixed: 7（korinitrade/symbolontrade/oblaunchpadbase/nibblers/noryxtradehq/agent007bnb/bianfenhong）
+- discordPeekDeferred: true
+- softDebt: canton/glaze/tokenWorksPlayground/tokenWorks lastChecked→2026-11-01 13:43 CST
+- push: (pending)
+- summary: R1063 ample 无新收录；NoNames免费近售罄急推；Harvest仍约18:05非≤2h；meteorsz余≈985；dinomites≈164；Watch漏挂修×7；X 29读→612
