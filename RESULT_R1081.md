@@ -23,7 +23,7 @@
 - mentionsChains: Elysium(@Enter_Elysium→slymzcrew freemint-soon已在库); squeek(@squeekchain); Tape(@TapeAIAgent 近窗0); BN pad(@PulseLaunchpad 近窗0); GIWA(@GIWA_by_Upbit→deuslaunch刷屏已在库); STARX/X Layer 关键词(NF skip starx_xlayer); Irys/BTC/Starknet/Zero/DogeEVM 本轮额度紧未单拉 mentions，十栏关键词已覆盖专名
 - watchBugsFixed: ['@LongAgentBNB → userFollowWatch.accounts', 'long-agent → userFollowWatch.candidateIds', '@LongAgentBNB → agentPadWatch.accounts', 'long-agent → agentPadWatch.candidateIds', '@LongAgentBNB → freeMintWatch.accounts', 'long-agent → freeMintWatch.candidateIds']
 - Discord: discordPeekDeferred=true（无登录）
-- push: (pending)
+- push: a1be0dc
 - NF_skip: starx_xlayer / mobster_meme / ChyAI_Official；UF NF/suspended: sharpsheet_rh / safufundbnb / bellwethers_ai
 - softDebt: tokenworks-playground lastChecked refreshed
 - notes: DeepSeek content空、reasoning有完整草案→dsFallback score63；LONG免费额度本轮内从≈1275急降至≈31，alert强调极紧
