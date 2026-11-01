@@ -1,0 +1,31 @@
+# RESULT R1046
+
+- mode: ample-paced
+- plannedRound: 1046 | actualRound: 1046
+- collision: none
+- completedAt: 2026-11-01 08:40 CST
+- xReads: 27 | remainingBefore: 949/1000 | remaining: 922/1000
+- softCap: 28
+- xQuota: mode=ample softCap=28 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: R1045 already post-reset-full; this tick ample-paced only (no second full-after-reset)
+- notify: true
+- alert: Lazabit 首枚免费 mint LIVE（Agent ID门控，约07:05CST起）；Agent Harvest Phase2免费地今日12:50CST开500，付费0.0004BNB已开。面板 https://reboot7454.github.io/early-scout/
+- newIds: []
+- admits: none (no brand-new library admits)
+- updates:
+  - lazabitmeme (@lazabitmeme) → freeLIVE=true status=live mint=live score=68；首枚免费 LIVE≈07:05CST；站+CA($LAZA 0x4470…D34D)；粉≈58
+  - agent-harvest (@agentharvest_ai) → status=live mint=live score=72 freeLIVE=false；Phase1售罄；Phase2 12:50CST 500免费；付费0.0004BNB LIVE
+- le2h: lazabitmeme free mint opened ~07:05 CST（≤2h）→ notify；agent-harvest Phase2 ~12:50 CST（>2h）仅进度更新并入同条 alert
+- watchBugsFixed: 3 watches × (acc+cid) for lazabitmeme → freeMintWatch / bnAgentWatch / agentPadWatch（原仅 UF）
+- softDebt: cantonPadWatch / glazeWatch / tokenWorksPlaygroundWatch / tokenWorksWatch lastChecked→2026-11-01 08:40 CST
+- coverage:
+  - userFollowSoft: priority named（mobster NF/suspended；machinedotfun/bscaidrop/PulseLaunchpad/localbottomcom/NutshellMarkets 软刷；starx_xlayer NF→starX_layer）+ UF shard from cursor=40；cursor→54
+  - tenLanesKeywords: merged OR ~30m（agent mining/free mint/fair launch/launchpad/Agent ID/AIDROP/Pulse/Local Bottom/Nutshell/squeek/STARX/X Layer/pipfun/computeroll/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘）
+  - mentionsChains: Elysium(@Enter_Elysium), GIWA, Starknet, DogeOS/DogeEVM, ShieldedNaka/BTC privacy, flap, squeek/Nutshell
+  - mustWatch: agentPad/bnAgent/tape/elysium/giwa 等活跃增量抽刷；同 handle 去重
+- discordPeekSkipped: true
+- discordPeekDeferred: true
+- discordLoginOk: false
+- skippedLeads: FabricateRent（同日0粉跳过）；DualForge/Fomopoly/HuntField 已在库非≤2h不单推；Folk_Agent NF
+- summary: ample-paced R1046，xReads 27/28 softCap，949→922；无新收录；强更新 Lazabit 免费 LIVE（≤2h告警）+ Agent Harvest Phase2 窗口；补挂 lazabitmeme 三品类 Watch；软债刷；UF cursor 40→54；Discord Peek deferred；notify=true。
+- push: pending
