@@ -34,5 +34,5 @@
 - discordPeekDeferred: true
 - softDebt: canton/glaze/tokenWorksPlayground/tokenWorks lastChecked→2026-11-01 14:15 CST
 - priorityNamed: mobster_meme/starx_xlayer Not Found 跳过不连刷；其余 LIVE 急盯+点名已核
-- push: pending
+- push: ok dataSha=8a76e55 tipSha=5cff733 remoteVerified=true
 - summary: R1064 ample 无新收录 notify=false；纠正 NoNames 非售罄；Harvest/TopoSats 均非≤2h；meteorsz余973；dinomites171；UF 194→208；Watch漏挂修×1；X 29读→583；meta cursor/xQuota 已改正
