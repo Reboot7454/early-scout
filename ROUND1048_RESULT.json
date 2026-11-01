@@ -1,0 +1,115 @@
+{
+  "round": 1048,
+  "mode": "ample-paced",
+  "plannedRound": 1048,
+  "actualRound": 1048,
+  "collision": "none",
+  "completedAt": "2026-11-01 09:10 CST",
+  "timezone": "Asia/Shanghai",
+  "xReads": 29,
+  "remainingBefore": 922,
+  "remaining": 893,
+  "softCap": 28,
+  "xQuota": {
+    "remainingBefore": 922,
+    "remaining": 893,
+    "limit": 1000,
+    "mode": "ample-paced",
+    "softCap": 28,
+    "xReads": 29,
+    "at": "2026-11-01 09:10 CST",
+    "resetAtCST": "2026-11-02 08:00 CST",
+    "hoursLeft": 22.8,
+    "deferredFullScan": false,
+    "round": 1048,
+    "note": "live remaining (MCP) used; x_budget.py lagged at 949. R1045 already post-reset-full → this tick ample-paced only."
+  },
+  "deferredFullScan": false,
+  "notify": true,
+  "notifyReason": "dropminters_freeLIVE_flip_le2h",
+  "alertMessage": "DropMinters免费PoW转LIVE（Agent ID可打）；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "updates": [
+    "dropminters (@DropMinters) → freeLIVE=true status=live mint=live score=78；PoW免费+付费0.005BNB LIVE；粉≈6；站 dropminters.surge.sh；$DROP 11-02 23:30CST",
+    "pheromonexyz (@pheromonexyz) → status=live mint=live score=72 freeLIVE=false；$PHERO池开+848ants；agent USDT mint；站 pheromoneprotocol.xyz",
+    "agent-seal (@Handln) → Standard 277/2100 @0.0005BNB",
+    "agent-harvest (@agentharvest_ai) → Phase2 12:50CST 500免费地(>2h)；付费0.0004BNB LIVE",
+    "lazabitmeme (@lazabitmeme) → 免费LIVE续；loot bag每小时积$LAZA需claim"
+  ],
+  "le2h": [
+    "dropminters free PoW LIVE ≈08:05–08:22 CST → notify"
+  ],
+  "watchBugsFixed": [
+    "trytradeo → userFollowWatch (+acc,cid)",
+    "trytradeo → agentPadWatch (+acc,cid)",
+    "trytradeo → agentTradingWatch (+acc,cid)",
+    "agentic-coin → userFollowWatch (+acc,cid)",
+    "agentic-coin → agentPadWatch (+acc,cid)",
+    "agentic-coin → bnAgentWatch (+acc,cid)",
+    "agentic-coin → agentMiningWatch (+acc,cid)",
+    "iglusol → userFollowWatch (+acc,cid)",
+    "iglusol → freeMintWatch (+acc,cid)",
+    "aizobsc → userFollowWatch (+acc,cid)",
+    "aizobsc → agentPadWatch (+acc,cid)",
+    "aizobsc → bnAgentWatch (+acc,cid)",
+    "pheromonexyz → agentPadWatch (+acc,cid)",
+    "pheromonexyz → bnAgentWatch (+acc,cid)",
+    "pheromonexyz → agentMiningWatch (+acc,cid)",
+    "agent-seal → agentPadWatch (+acc)",
+    "agent-seal → freeMintWatch (+acc,cid)",
+    "agent-seal → bnAgentWatch (+acc,cid)"
+  ],
+  "watchBugsFixedCount": 18,
+  "softDebt": [
+    "cantonPadWatch",
+    "glazeWatch",
+    "tokenWorksPlaygroundWatch",
+    "tokenWorksWatch"
+  ],
+  "coverage": {
+    "mode": "ample-paced",
+    "deferredFullScan": false,
+    "userFollowSoft": "priority named + shard cursor 54→68; UF~40-60% of softCap",
+    "tenLanes": "full merged OR ~30m (agent mining/free mint/fair launch/launchpad/Agent ID/AIDROP/Pulse/Local Bottom/Nutshell/squeek/STARX/X Layer/pipfun/computeroll/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘)",
+    "keywords": "ten-lanes-full",
+    "mentions": "Elysium(@Enter_Elysium/kinetiq), GIWA, Starknet, TapeOut, ShieldedNaka/BTC privacy, flap, squeek/Nutshell, starX_layer/X Layer",
+    "mustWatch": "agentPad/bnAgent/tape/elysium/giwa/agentMining sampled; same-handle dedupe",
+    "xReads": 29,
+    "remainingBefore": 922,
+    "remaining": 893,
+    "softCap": 28,
+    "watchBugsFixed": 18,
+    "softDebt": [
+      "cantonPadWatch",
+      "glazeWatch",
+      "tokenWorksPlaygroundWatch",
+      "tokenWorksWatch"
+    ],
+    "discordPeekDeferred": true
+  },
+  "ufCursor": {
+    "from": 54,
+    "to": 68
+  },
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "trytradeo",
+    "agentic-coin",
+    "iglusol",
+    "aizobsc"
+  ],
+  "candidateFlagsCleared": 4,
+  "discordPeekDeferred": true,
+  "discordPeekSkipped": true,
+  "discordLoginOk": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash updates=5 thinking=off-for-json",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "ample-paced R1048，xReads 29/28 softCap，922→893；无新收录；强更新 DropMinters 免费PoW LIVE（≤2h告警）+ Pheromone 池开；补挂 R1047 四卡+pheromone/seal Watch；软债刷；UF cursor 54→68；Discord deferred；notify=true。",
+  "push": {
+    "ok": false,
+    "pending": true
+  }
+}
