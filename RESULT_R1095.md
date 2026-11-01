@@ -4,7 +4,7 @@
 - plannedRound: 1095
 - actualRound: 1095
 - collision: false
-- completedAt: 2026-11-02 05:36 CST
+- completedAt: 2026-11-02 05:37 CST
 - xReads: 9
 - remainingBefore: 56
 - remaining: 47
@@ -23,7 +23,7 @@
 - mentionsChains: BN Agent pads（@Ptahtrade →POA刷屏无强新挂靠）；Elysium（@Enter_Elysium →命中@elysium_machine 新挂靠 admit）；Tape（@TapeAIAgent 近窗无新挂靠打新）；GIWA（@GIWA_by_Upbit →Flizy/deuslaunch已在库）
 - watchBugsFixed: []（新卡均写入对应 Watch+UF）
 - Discord: discordPeekDeferred=true（无登录）
-- push: data TBD / tip TBD
+- push: data b90bd77 / tip 83327e7
 - NF_skip: starx_xlayer；TapeOut_xyz；giwa_xyz；bibiainft；mobster_meme；Trysmolpadfun；Honestcoin60；onbeatfun；beatdotfamily；CyclopesElysium；vytraqfun（本轮UF发现NF）
 - softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch/tapeOutWatch/flapPadWatch/irysPadWatch/fullFunWatch/arcPadWatch/zeroWatch/agentMiningWatch lastChecked refreshed
 - notes: DeepSeek admit baoracle74+ron-society58；elysium-machines DS偏skip因无可执行mint，按Elysium Announced+可核官推硬收watching score50；Harvest仍暂停非新免费开闸；UF 701–720均已在库（vytraqfun NF）；点名UF软刷machinedotfun/bscaidrop/PulseLaunchpad/localbottomcom/NutshellMarkets/squeekchain（mobster/starx NF_skip）；RPC bsc-dataseed（tycoon totalMinted/dung SSL EOF，用totalSupply）；本号只scout不自动mint；xReads9/softCap11；mentions补R1094 defer的BN pads + 轮换Elysium/Tape/GIWA
