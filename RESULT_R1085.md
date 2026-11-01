@@ -23,7 +23,7 @@
 - mentionsChains: Elysium；squeek(@squeekchain)；Tape；BN pad(@Ptahtrade POA刷屏)；GIWA/STARX关键词（NF_skip不重读官号）；Starknet关键词
 - watchBugsFixed: ['@bnb_agent_dog → UF+agentPadWatch+freeMintWatch+bnAgentWatch + candidate agent-dog', '@Sambario_bnb → UF+agentPadWatch+freeMintWatch+bnAgentWatch + candidate sambario']
 - Discord: discordPeekDeferred=true（无登录）
-- push: (pending)
+- push: 2fa657e (data c367413; tip 2fa657e)
 - NF_skip: starx_xlayer；mobster_meme；Leeonmort；computeroll（本轮不重读）；另NF streamlitmaker/trycortano/hook404rh
 - softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch lastChecked refreshed
 - notes: DeepSeek admit+score agent-dog=63 sambario=40；两则免费LIVE必须notify；付费只报不自动；本雷达不执行mint；sambario 官网DNS未配齐风险高；DOG链上用1rpc/bsc-dataseed3；UF 520–535 均已在库；urllib/ankr RPC易挂改用curl+keccak；Harvest phasePauseEnd≈2026-11-02 04:12 CST
