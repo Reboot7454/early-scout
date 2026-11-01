@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-01 11:04 CST",
+    "updated": "2026-11-01 11:16 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R1036",
-    "lastScout": "2026-11-01 11:04 CST",
+    "lastScout": "2026-11-01 11:16 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -645,7 +645,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1055,
+    "round": 1056,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1855,7 +1855,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "babycz"
+      "oblaunchpadbase",
+      "symbolontrade",
+      "korinitrade"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -3909,18 +3911,19 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-01 10:44",
-      "lastChecked": "2026-11-01 10:48 CST",
-      "newestCardTime": "2026-11-01 10:44",
-      "cardsAfterCutoff": 61,
-      "note": "R1054：Discord alpha 补收 alloyfun,hyperlytrade,oblaunchpadall,askglyph,peggerdotfun；清 bncat,styxn-terminal；lastSeen→2026-11-01 10:44；lastChecked→2026-11-01 10:48 CST",
-      "lastRound": 1054,
+      "lastSeen": "2026-11-01 11:12",
+      "lastChecked": "2026-11-01 11:16 CST",
+      "newestCardTime": "2026-11-01 11:12",
+      "cardsAfterCutoff": 29,
+      "note": "R1056：Discord alpha 补收 oblaunchpadbase,symbolontrade,korinitrade；清 babycz；lastSeen→2026-11-01 11:12；lastChecked→2026-11-01 11:16 CST",
+      "lastRound": 1056,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-01 10:44",
-        "alpha-1-backup": "2026-11-01 10:43",
+        "alpha-3-new-accounts": "2026-11-01 11:12",
+        "alpha-1-backup": "2026-11-01 10:58",
         "smart-accounts-tracker": "2026-11-01 10:38",
-        "alpha-1": "2026-11-01 10:43"
-      }
+        "alpha-1": "2026-11-01 11:07"
+      },
+      "spideyPosting": true
     },
     "round239Added": [
       "tsunamilaunch",
@@ -17845,9 +17848,156 @@
         ],
         "note": "new admit hang"
       }
+    ],
+    "round1056Added": [
+      "oblaunchpadbase",
+      "symbolontrade",
+      "korinitrade"
     ]
   },
   "candidates": [
+    {
+      "id": "korinitrade",
+      "name": "Korini",
+      "handle": "@korinitrade",
+      "twitter": "@korinitrade",
+      "chain": "Elysium",
+      "category": "Elysium",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "elysium",
+        "rwa",
+        "launchpad"
+      ],
+      "links": {
+        "x": "https://x.com/Korinitrade"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6.5,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.6
+      },
+      "highlights": [
+        "Elysium 主网一站式交易终端",
+        "RWA 交易对",
+        "内置发射台"
+      ],
+      "drawbacks": [
+        "粉丝极少",
+        "无官网/文档链接",
+        "主网状态未独立核验"
+      ],
+      "whatsNew": "Elysium 主网交易终端+RWA+发射台组合。",
+      "summary": "Elysium 主网一体式交易终端，含 RWA 配对与发射台。",
+      "blurb": "Elysium 主网终端+RWA+发射台，极早期可跟进。",
+      "round": 1056,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 12,
+      "xFollowers": 12,
+      "firstSeen": "2026-11-01 11:16 CST",
+      "addedAt": "2026-11-01 11:16 CST",
+      "lastChecked": "2026-11-01 11:16 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "symbolontrade",
+      "name": "Symbolon",
+      "handle": "@symbolontrade",
+      "twitter": "@symbolontrade",
+      "chain": "Elysium",
+      "category": "Elysium",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "elysium",
+        "spot-perp"
+      ],
+      "links": {
+        "x": "https://x.com/symbolontrade"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 6.4
+      },
+      "highlights": [
+        "为 Hyperliquid 仅有永续的币种提供现货腿",
+        "syTokens 1:1 由现货背书",
+        "声明构建于 @Enter_Elysium"
+      ],
+      "drawbacks": [
+        "0 粉丝，无产品链接",
+        "未说明上线时间与测试网状态",
+        "机制可行性未验证"
+      ],
+      "whatsNew": "syTokens 现货腿方案，瞄准 Hyperliquid 永续-only 资产。",
+      "summary": "极早期 Elysium 生态项目，为仅有永续的币种提供 1:1 现货腿。",
+      "blurb": "Elysium 上的现货腿补全方案，机制清晰但零粉丝待观察。",
+      "round": 1056,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-01 11:16 CST",
+      "addedAt": "2026-11-01 11:16 CST",
+      "lastChecked": "2026-11-01 11:16 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "oblaunchpadbase",
+      "name": "OBLAUNCHPAD",
+      "handle": "@oblaunchpadbase",
+      "twitter": "@oblaunchpadbase",
+      "chain": "Base",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/oblaunchpadBase"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 5.9
+      },
+      "highlights": [
+        "独立项目号",
+        "bio有发射台产品线索",
+        "多链部署线索"
+      ],
+      "drawbacks": [
+        "0关注，缺乏官网/合约等验证",
+        "未见具体发射或mint时间表"
+      ],
+      "whatsNew": "新号bio自称多链Launchpad，覆盖Robinhood Chain、Base与Arc",
+      "summary": "OBLAUNCHPAD为极早期多链Launchpad项目号，bio称覆盖Robinhood Chain、Base与Arc，但目前仅有简介线索，需跟踪验证。",
+      "blurb": "极早期多链Launchpad，产品线索明确但待验证。",
+      "round": 1056,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-01 11:16 CST",
+      "addedAt": "2026-11-01 11:16 CST",
+      "lastChecked": "2026-11-01 11:16 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "babycz",
       "name": "Baby CZ",
@@ -17909,7 +18059,7 @@
       "summary": "Baby CZ：BNB公平铸$BABYCZ。站babycz.meme，官推@babycz_ai（新建粉3）。1 USDT/份·限1万份·每钱包≤10；售罄自动上Pancake并LP销毁；7天未售罄100%退款；已支持Binance Agent ID扫码登录。CA 0x959fB57f219c19cB17121C829ad534d66EeCA131。独立社区非币安官方；付费只报不自动打。",
       "blurb": "1U公平铸LIVE·1万份·Agent ID登录，付费只报。",
       "round": 1055,
-      "newThisRound": true,
+      "newThisRound": false,
       "firstSeen": "2026-11-01 11:04 CST",
       "addedAt": "2026-11-01 11:04 CST",
       "lastChecked": "2026-11-01 11:04 CST",
@@ -169817,17 +169967,19 @@
     }
   ],
   "newThisRound": [
-    "babycz"
+    "oblaunchpadbase",
+    "symbolontrade",
+    "korinitrade"
   ],
-  "alertMessage": "DC补漏R1054新收5：Alloy、HyperlyTrade、OBLAUNCHPAD、ask glyph、Pegger；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1056新收3项：OBLAUNCHPAD、Symbolon、Korini；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [],
-  "updatedAt": "2026-11-01 11:04 CST",
-  "updated": "2026-11-01 11:04 CST",
+  "updatedAt": "2026-11-01 11:16 CST",
+  "updated": "2026-11-01 11:16 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-01 11:04 CST",
+  "lastScout": "2026-11-01 11:16 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -169869,7 +170021,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 2474,
+  "candidateCount": 2486,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -171717,5 +171869,10 @@
   "round1051Added": [],
   "round1055Added": [
     "babycz"
+  ],
+  "round1056Added": [
+    "oblaunchpadbase",
+    "symbolontrade",
+    "korinitrade"
   ]
 }
