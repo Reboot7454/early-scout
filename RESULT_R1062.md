@@ -1,0 +1,33 @@
+# RESULT R1062
+
+- mode: ample-paced
+- plannedRound: 1062 | actualRound: 1062
+- collision: none（pull后 meta.round=1061）
+- completedAt: 2026-11-01 13:14 CST
+- xReads: 22 | remainingBefore: 663/1000 | remaining: 641/1000
+- softCap: 28
+- xQuota: mode=ample softCap=28 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: 含父代理 must-watch usernames 1 次；live remaining 以 X 工具尾部为准 641
+- notify: true
+- alert: 【新收】破茧成蝶(@pojianchengdieb) Flap毕业开盘 CA 0x4973aaa…7777 Agent ID茧→蝶；Elysium.meme(@Elysium_meme) 发射台预告站elysium.meme；meteorsz免费续余≈1005；Harvest Phase2仍关≈18:05CST非≤2h；dinomites免费≈156/5555；面板 https://reboot7454.github.io/early-scout/
+- newIds: [pojianchengdieb, elysium-meme]
+- admits:
+  - pojianchengdieb (@pojianchengdieb) — Flap毕业开盘：Agent ID「茧→蝶」·4444份·≤10/ID；CA 0x4973aaa8271f044e586b71129791e25b1e807777；官推35粉；AVE已更新；DS score=76
+  - elysium-meme (@Elysium_meme) — Elysium meme发射台预告：站elysium.meme；Cloud Nine征名Nov2+launch空投；尚无LIVE mint；官推75粉；DS score=52
+- updates:
+  - agent-harvest → Phase2仍关 freeOpen=0 · pauseEnd≈18:05:30CST（非≤2h）· totalMinted=1125 freeMinted=1000
+  - meteorsz → freeRemaining≈1005 · totalMinted≈106 · mintingActive=1
+  - dinomitesnft → free LIVE minted=156/5555
+  - nemotron / nova / mint-writ / crop-pals / babycz(sold out站) / bncat / bndoge / binance-can-fly / dropminters / pawagent / agentrybaw / kenranft 软刷
+- skippedAdmits:
+  - numa-arc (@numa_arc) — DS admit=false（无明确mint窗口）
+  - HashOre_BNB / usejackbay — UF shard Not Found，本轮不连刷
+- le2h: []（Harvest 18:05CST 已出≤2h窗）
+- ufCursor: 166→180
+- tenLanesKeywords: full
+- mentionsChains: Elysium, Tape, squeek, Starknet, Irys, flap, GIWA, ShieldedNaka/BTC
+- watchBugsFixed: 11（R1061五卡漏挂+rivalkin补挂）
+- discordPeekDeferred: true
+- softDebt: canton/glaze/tokenWorksPlayground/tokenWorks lastChecked→2026-11-01 13:14 CST
+- push: (pending)
+- summary: R1062 ample 新收破茧成蝶+Elysium.meme；Harvest改约18:05非≤2h；meteorsz余≈1005；dinomites≈156；Watch漏挂修×11；X 22读→641
