@@ -1,0 +1,29 @@
+# RESULT R1098
+
+- mode: near-exhausted
+- plannedRound: 1098
+- actualRound: 1098
+- collision: false
+- completedAt: 2026-11-02 07:08 CST
+- xReads: 6
+- remainingBefore: 27
+- remaining: 21
+- softCap: 8
+- xQuota: softCap=8 用6余2；footer remainingBefore≈27→21（父代理探针@machinedotfun后 remainingBefore≈27；x_budget.py陈旧勿信；mode=near-exhausted；距08:00CST重置≈0.9h；KW精简1次，mentions defer）
+- deferredFullScan: false
+- notify: true
+- alert: R1098：新收录 ONIMARU(@onimaru_ai) BNB Agent ID鬼面Clan War 免费LIVE score76，CA 0xD1D3…e72b；1 free/.ai 共3000 tm≈247 Wave1 AKA（官推新建）。Rootlinks(@rootlinks_nft) watching→freeLIVE tm≈129 free≈128/1000；PIXCADE免费罄1500/1500转付费；jiepanfun freeLIVE tm≈85；Harvest暂停→09:17CST。面板：https://reboot7454.github.io/early-scout/
+- newIds: [onimaru]
+- admits: [onimaru score76 freeLIVE DS；官网onimaru.pages.dev+官推@onimaru_ai≈0粉新建；CA 0xD1D3b730b154838b7B5F0c072dE7bA66FFBbe72b 已部署开刷（站内Preview/not deployed为模板噪声）；4000鬼面/4氏族；1 free/.ai共3000+0.0005BNB；Wave1 AKA openClan=1；tm≈247；Clan War赛季玩法]
+- updates: [rootlinks(watching→live freeLIVE CA核验 tm≈129 free≈128/1000 score55→70), pixcade(free=1500/1500罄·转付费PWYW tm≈1516/3000 freeLIVE→paidLIVE), jiepanfun(tm≈85 freeClaimed≈1827), agent-harvest(phase5 freeOpen=0→09:17CST tm≈2731 free≈2500 paid≈234 hours≈2.15非≤2h), baoracle(tm≈3020), runin-ai(freeClaimed=4444满 sold≈161), bnbbaby(free≈9667), agent-dog(shares≈1167), tycoon-city(ts≈1457), aipro(tm≈4941), agentplacewall(ts=0仍watching), kdai(tm≈401), gwei-wbbb(tm≈28), minter-agent(free≈156/ts≈486), bairs(sold≈2163), axmi(tm≈201), long-agent(sold≈4049), snowball-agent(tm=1), bound-agents(totalShares=2), agent-believers(tm≈359), vault-crack(ts≈2153)]
+- skippedAdmits: [BNBPIG无独立可核官推skip；NeonFox无独立可核官推且免费已尽skip；BLIZZARD/POPZERO续skip；AiPullpad/oblaunchpadbase UF分片NF]
+- le2h: []（Harvest pauseEnd≈09:17:55CST ≈2.15h 非≤2h）
+- ufCursor: 757→777
+- tenLanesKeywords: true（near-exhausted精简：合并BNB Agent free/fair mint + Elysium/Tape/GIWA/squeek/Starknet/X Layer/Nutshell；命中onimaru→admit；rootlinks LIVE核验；bnbpig/neonfox skip）
+- mentionsChains: deferred（near-exhausted softCap余2保留；上轮R1097已defer；建议重置后/下轮补 BN pads+Elysium+Tape+GIWA/X Layer）
+- watchBugsFixed: [onimaru → UF+bnAgent+agentPad+freeMint accounts+candidateIds]
+- Discord: discordPeekDeferred=true（无登录）
+- push: (pending)
+- NF_skip: oblaunchpadAll；NovaAgentShares；mint_WRIT；babycz_ai(suspended)；starx_xlayer；TapeOut_xyz；giwa_xyz；bibiainft；mobster_meme；Trysmolpadfun；Honestcoin60；onbeatfun；beatdotfamily；CyclopesElysium；vytraqfun；AiPullpad；oblaunchpadbase（继承+本轮UF NF；勿再读@machinedotfun本轮已探针）
+- softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch/tapeOutWatch/flapPadWatch/irysPadWatch/fullFunWatch/arcPadWatch/zeroWatch/agentMiningWatch lastChecked refreshed
+- notes: DeepSeek admit onimaru76 freeLIVE；rootlinks升live非新收；pixcade免费罄；Harvest仍暂停≈2.15h；UF 757–776均已在库（2NF）；点名UF软刷PulseLaunchpad/localbottomcom/NutshellMarkets/bscaidrop安静（mobster/starx/machinedotfun跳过）；RPC bsc-dataseed；本号只scout不自动mint；xReads6/softCap8余2；mentions defer→重置后补；onimaru站内Preview噪声忽略（链上已开）
