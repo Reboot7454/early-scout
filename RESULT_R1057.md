@@ -1,0 +1,35 @@
+# RESULT R1057
+
+- mode: ample-paced
+- plannedRound: 1057 | actualRound: 1057
+- collision: none（pull后 meta.round=1056；R1056为Discord alpha 已入库 oblaunchpadbase/symbolontrade/korinitrade）
+- completedAt: 2026-11-01 11:36 CST
+- xReads: 39 | remainingBefore: 795/1000 | remaining: 723/1000
+- softCap: 28
+- xQuota: mode=ample softCap=28 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: 略超 softCap 因 Harvest≤2h 必盯 + Nova 免费LIVE核验 + 多链 mentions；x_budget 开跑仍报795（未跟 live 扣减），live remaining 以 X 工具尾部为准 723
+- notify: true
+- alert: 【新收/可打】Nova Agent Shares(@NovaAgentShares) 免费LIVE≈995/1000首份免·其后0.0022BNB 站novaagenticshares.netlify.app；Agent Harvest Phase2免费地≈12:50CST（≤2h）站agent-harvest.pages.dev；DropMinters≈75 PoW；面板 https://reboot7454.github.io/early-scout/
+- newIds: [nova-agent-shares]
+- admits:
+  - nova-agent-shares (@NovaAgentShares) — BNB Agent shares 免费LIVE：首1000份/钱包免费(现额约995/1000)·其后0.0022BNB；每钱包≤10(1免+9付)；44444份·满5000开池；Agent ID only；站novaagenticshares.netlify.app；官推新建粉0；已铸≈5；付费续档只报；DS score=64
+- updates:
+  - agent-harvest (@agentharvest_ai) → Phase2免费地≈12:50CST仍≤2h；freeLIVE=true；DS score=68
+  - agentrybaw (@AgentryBAW) → 免费售罄→0.0003BNB付费≈10102/50000；freeLIVE=false；DS score=45（付费只报）
+  - kenranft (@KenraNFT) → 进度≈1745/8888；免费1+0.0006BNB公开；freeLIVE=true；DS score=70
+  - dropminters → ≈75 PoW铸；付费位约339/345剩；$DROP≈Nov2 03:30UTC PCS
+  - printer-ai / crop-pals / babycz / bncat / bndoge / siege / bitcoin-frogs-agent / synklings 进度软刷
+- le2h: [agent-harvest Phase2≈12:50CST]
+- watchBugsFixed: 10 entries — nova-agent-shares → userFollowWatch/bnAgentWatch/agentPadWatch/agentMiningWatch/freeMintWatch (+acc+cid)
+- softDebt: cantonPadWatch / glazeWatch / tokenWorksPlaygroundWatch / tokenWorksWatch lastChecked→2026-11-01 11:36 CST
+- coverage:
+  - userFollowSoft: priority named（mobster_meme NF跳过；machinedotfun/bscaidrop/PulseLaunchpad/localbottomcom/NutshellMarkets；starx_xlayer NF）+ UF shard cursor 124→138（no wrap；含 napkinrh…v4pairs，starx 位跳过读帖）
+  - tenLanesKeywords: merged OR ~30m — full（agent mining/free mint/fair launch/Agent ID/AIDROP/Pulse/Local Bottom/Nutshell/squeek/STARX/X Layer/pipfun/Tape/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新 等）
+  - mentionsChains: Elysium(@Enter_Elysium), GIWA(@GIWA_by_Upbit), Tape(@TapeAIAgent 0近窗), squeekchain, ShieldedNaka/BTC privacy, flapdotsh(0近窗)；Starknet/X Layer/DogeEVM/Irys/Arc/STARX 关键词栏覆盖；BN Agent pads 关键词
+  - mustWatch: Harvest/Agentry/Kenra/DropMinters/printer/crop/frogs/siege/bncat/bndoge/babycz；同 handle 去重
+- discordPeekSkipped: true
+- discordPeekDeferred: true
+- discordLoginOk: false
+- skippedLeads: Jiucaillama（社区帖无清晰官推 — 未建卡）；Autonomousgen Genesis（无独立官推核验）；mobster_meme NF；starx_xlayer NF；THEFORGEEN_NFT 已在库
+- summary: ample-paced R1057，xReads 39/28 softCap，795→723(live)；新收 Nova Agent Shares（免费LIVE必须提醒）；Harvest Phase2仍≤2h；Agentry付费续；Kenra/DropMinters进度；Watch补挂×10；软债刷；UF cursor 124→138；十栏+mentions全；Discord deferred；notify=true。
+- push: (pending)
