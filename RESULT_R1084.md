@@ -1,0 +1,29 @@
+# RESULT R1084
+
+- mode: pace
+- plannedRound: 1084
+- actualRound: 1084
+- collision: false
+- completedAt: 2026-11-02 00:09 CST
+- xReads: 18
+- remainingBefore: 206
+- remaining: 188
+- softCap: 18
+- xQuota: hit softCap=18 用满；footer remainingBefore≈206→188（x_budget.py 陈旧301，以footer为准）
+- deferredFullScan: false
+- notify: true
+- alert: 【R1084】新收安小秘 @axmi_bnb 免费LIVE totalMinted≈175/10000（每ID 1免费+10付费·0.002BNB·铸满开池烧LP·官推极弱4粉只观察）。bairs sold≈1459；minter free≈30；bnbbaby≈5066；believers≈329；Harvest phase4≈2198（下一窗≈04:12CST）；long≈3839。面板 https://reboot7454.github.io/early-scout/
+- newIds: [axmi]
+- admits: [axmi score67 freeLIVE DS；官网 axmi.netlify.app + mint 0xcfA6…7b5F / token 0xDf54…79aF；官推@axmi_bnb≈4粉；23:30CST开盘；freeMinted/totalMinted口径链上≈175（freeMinted()虚高勿信）]
+- updates: [bairs(sold≈1459/20000), minter-agent(freeMinted≈30/250 total≈69), bnbbaby(freeMinted≈5066), shib-agent(free罄 sold≈240只报), long-agent(sold≈3839/8888 免费罄), agent-believers(329), agent-harvest(phase4≈2198 pause至04:12CST), bianbian-bnbn(3091), emberlings(21), nothuman(5485), meteorsz(1181), wise-owl-society(2583), maobp-agent(199), mehcat-bnb(agents≈24软刷), trine-protocol(67), eclipse-court(326), origin-node(168), dinomitesnft(201)]
+- skippedAdmits: [Writ_Fi/@Writ_Fi 已在库；theAgentFirm 已在库；MOD合约噪音无清晰官推；Ptahtrade mentions 刷屏无新盘；IchorElysium 上轮已skip（testnet Announced）]
+- le2h: []（Harvest 下一窗≈04:12CST >2h；axmi已LIVE 非预告窗）
+- ufCursor: 504→520
+- tenLanesKeywords: true（合并 Agent ID/AIDROP/fair mint/yinghu/dotaipad/Ptah/gang/安小秘/GIWA/Starknet/Irys/TapeOut/挖矿/打新/STARX/X Layer/Nutshell/squeek 等；命中 axmi 免费LIVE）
+- mentionsChains: Elysium；squeek(@squeekchain)；Tape；BN pad(@Ptahtrade 挂靠刷屏)；GIWA/STARX关键词；Starknet关键词
+- watchBugsFixed: ['@axmi_bnb → UF+agentPadWatch+freeMintWatch+bnAgentWatch + candidate axmi']
+- Discord: discordPeekDeferred=true（无登录）
+- push: (pending)
+- NF_skip: starx_xlayer；mobster_meme；Leeonmort；computeroll（本轮不重读）
+- softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch lastChecked refreshed
+- notes: DeepSeek admit+score axmi=67；免费LIVE必须notify；付费只报不自动；本雷达不执行mint；bairs sold 97→1459 猛增；Harvest phasePauseEnd≈2026-11-02 04:12 CST；axmi freeMinted()≈2094虚高、totalMinted≈175+pendingBnb≈0.28BNB 采信；UF 504–520 均已在库；urllib RPC易挂改用curl+keccak
