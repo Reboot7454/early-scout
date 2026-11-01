@@ -32,4 +32,4 @@
 - discordLoginOk: false
 - skippedLeads: Jiucaillama（社区帖无清晰官推 — 未建卡）；Autonomousgen Genesis（无独立官推核验）；mobster_meme NF；starx_xlayer NF；THEFORGEEN_NFT 已在库
 - summary: ample-paced R1057，xReads 39/28 softCap，795→723(live)；新收 Nova Agent Shares（免费LIVE必须提醒）；Harvest Phase2仍≤2h；Agentry付费续；Kenra/DropMinters进度；Watch补挂×10；软债刷；UF cursor 124→138；十栏+mentions全；Discord deferred；notify=true。
-- push: (pending)
+- push: ok dataSha=3c752ba tipSha=3c752ba remoteVerified=true
