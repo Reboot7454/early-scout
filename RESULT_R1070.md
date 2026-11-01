@@ -1,0 +1,42 @@
+# RESULT R1070
+
+- mode: pace
+- plannedRound: 1070 | actualRound: 1070
+- collision: none（pull后 meta.round=1069）
+- completedAt: 2026-11-01 17:12 CST
+- xReads: 22 | remainingBefore: 481/1000 | remaining: 459/1000
+- softCap: 18
+- xQuota: mode=pace softCap=18 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: remaining>200 完成十栏关键词+多链 mentions；超 softCap（22/18）以保十栏全+mentions+UF分片
+- notify: true
+- alert: 🆕新收 origin-node(@OriginiNode)/bao-agent(@baobaoagent)/hive-agentic(@hive_agentic) 免费LIVE（score 69/67/68）+ zigzoo(@zigzooNFT)/anxiaojiang(@AnXiaoJiang_ai) 付费只报。Agent Harvest Phase2暂停≈18:05:30CST结束（≤2h，freeOpen=0 totalMinted=1143）。meteorsz免费余≈433；dinomites=175/5555；NoNames=822/7777；morumai=37/3333。TopoSats今晚20:00CST（约+2.8h非≤2h）。面板：https://reboot7454.github.io/early-scout/
+- newIds: [origin-node, bao-agent, zigzoo, anxiaojiang, hive-agentic]
+- admits:
+  - origin-node / @OriginiNode — 免费1/Agent LIVE · 63/4444 · CA 0xD834f57c… · score69
+  - bao-agent / @baobaoagent — 首份免费 LIVE · sold138/10000 freeRem≈4862 · score67
+  - hive-agentic / @hive_agentic — 免费pollen+付费0.001BNB · 48h至≈11/3 08:26UTC · score68
+  - zigzoo / @zigzooNFT — 付费0.0005BNB Agent NFT · 19/1111 · score63（付费只报）
+  - anxiaojiang / @AnXiaoJiang_ai — 付费0.002BNB公平铸 · CA前端未暴露 · score58（付费只报）
+- updates:
+  - agent-harvest → Phase2仍关 freeOpen=0 · pauseEnd≈18:05:30CST（≤2h约+0.9h）· totalMinted=1143 freeMinted=1000 currentPhase=2
+  - meteorsz → freeRemaining≈433 · totalMinted=678 · mintingActive=1（加速）
+  - dinomitesnft → free LIVE minted=175/5555 mintOpen=true
+  - nonamespnft → api minted=822/7777 mintOpen=true
+  - morumai → 链上minted=37/3333 mintingActive=1
+  - nemotron → totalMinted≈14382 免费前2/ID续
+  - tapebit → TopoSats 预计今晚20:00CST（约+2.8h非≤2h）
+  - agent-door-bsc → 站内仍「即将开启」非LIVE
+  - hirelingsai → totalMinted=10000/10000 已罄；非免费LIVE
+- skippedAdmits:
+  - KENRAI — KOL图文无可用官推（KENRAI_xyz NF），跳过
+  - Orchad — 仅KOL无官推，跳过
+  - $DOUDI / hive KOL旁路 — 无独立可核官推或已有更完整官推卡；DOUDI跳过
+  - Ptah / bnAgent_ / glyphmind / AgentID_AI — 已在库
+  - rinseddotfun / hollytallycheck — UF分片已知NF，不重试
+- le2h: [agent-harvest]（pauseEnd≈18:05:30CST ≤2h；TopoSats 20:00CST 约+2.8h非≤2h）
+- ufCursor: 284→300
+- tenLanesKeywords: full
+- mentionsChains: Elysium, GIWA, Irys, DogeOS, squeek, flap, Starknet, BTC（starx NF 不重拉）
+- watchBugsFixed: freeMintWatch.accounts += @OriginiNode/@baobaoagent/@zigzooNFT/@AnXiaoJiang_ai/@hive_agentic；candidateIds += 五新卡
+- Discord: deferred（未登录）
+- push: (pending)
