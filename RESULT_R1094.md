@@ -23,7 +23,7 @@
 - mentionsChains: Zero（@LayerZero_Core 近窗 mentions=0）；DogeEVM（@DogeOS 无强新挂靠）；Starknet（@Starknet 无强新挂靠打新）；BN Agent pads 本轮 softCap满未再读
 - watchBugsFixed: []
 - Discord: discordPeekDeferred=true（无登录）
-- push: data 5f39579 / tip f292c05
+- push: data 5f39579 / tip 0cf448a
 - NF_skip: starx_xlayer；TapeOut_xyz；giwa_xyz；bibiainft；mobster_meme；Trysmolpadfun；Honestcoin60；onbeatfun；beatdotfamily；CyclopesElysium（本轮未重读）
 - softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch/tapeOutWatch/flapPadWatch/irysPadWatch/fullFunWatch/arcPadWatch/zeroWatch/agentMiningWatch lastChecked refreshed
 - notes: 无合格新卡 DS 打分；Covenant/BLIZZARD 无可核官推硬跳过；Harvest 仍暂停非新免费开闸；UF 696–700 均已在库；RPC bsc-dataseed（tycoon totalMinted/dung SSL EOF，用 totalSupply）；本号只 scout 不自动 mint；xReads10=softCap10；mentions轮换接 R1093 后扫 Zero+DogeEVM+Starknet；BN pad mentions 因 softCap 满 defer
