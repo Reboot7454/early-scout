@@ -11,5 +11,5 @@
 - clearedPrevNTR: ['mint-writ', 'binance-can-fly']
 - note: Remote already claimed R1058 (mint-writ/binance-can-fly); Discord pipeline output rebased to R1059
 - spideyPosting: true
-- push: ok tip/data=3bb057f remoteVerified=true
+- push: ok dataSha=3bb057f tipSha=956ed8a remoteVerified=true
 - summary: R1059：Discord alpha 补收 nibblers,noryxtradehq,agent007bnb,bianfenhong；清 mint-writ,binance-can-fly；lastSeen→2026-11-01 12:06；lastChecked→2026-11-01 12:12 CST
