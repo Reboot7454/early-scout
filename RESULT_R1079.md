@@ -1,0 +1,52 @@
+# RESULT R1079
+
+- mode: pace
+- plannedRound: 1079 | actualRound: 1079
+- collision: none（pull后 meta.round=1078）
+- completedAt: 2026-11-01 21:43 CST
+- xReads: 27 | remainingBefore: 301/1000 | remaining: 274/1000
+- softCap: 18
+- xQuota: mode=pace softCap=18 eveningReserve=0 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: remaining>200 完成十栏关键词+多链 mentions；踩 softCap（27/18，UF批量resolve偏大）；starx/mobster + 本轮UF NF(ChyAI_Official) 不重拉；以 X footer 为准（x_budget 仍报301为陈旧）
+- notify: true
+- alert: 🚨R1079 新收录Believers(免费LIVE≈168/1111 score72)+BNBCAT Gen0预告(score55)｜Harvest pause≈23:11≤2h｜bianbian免费罄｜maobp≈173｜meteor余275｜ember=14｜nothuman=5444｜rob≈10178｜面板 https://reboot7454.github.io/early-scout/
+- newIds: [agent-believers, bnbcat-games]
+- admits:
+  - agent-believers(@AgentBelievers) → 免费Agent ID LIVE·链上totalMinted≈168/1111·每钱包1张·站believers-virid.vercel.app CA 0xEfd3…5b2·官推今日新建3粉·声明无效用·score72·须立刻提醒
+  - bnbcat-games(@bnbcatgames) → Gen0预告待解析·站bnbcat.games·官推202粉·无CA/mint窗·score55
+- updates:
+  - maobp-agent → api successfulShares≈173 免费仍LIVE
+  - bianbian-bnbn → 免费前2888罄 totalShares≈2892/8888·转付费只报·撤出le2h
+  - emberlings → totalMinted=14/555 mintOpen
+  - nidavellir-bsc → supply≈1050 freeWindowOpen=0 mintOpen
+  - agent-harvest → Phase3 pause totalMinted=1681 paid≈181 pauseEnd≈23:11:32CST（≤2h ~1.5h）
+  - tapebit → TopoSats开盘后续盯LIVE
+  - meteorsz → freeRemaining=275 tm836 mintingActive
+  - nothuman → sold=5444 freeClaimed=1000罄
+  - eclipse-court → total≈321 freeMinted≈283 mintOpen
+  - agent-rob → api sold=10178 opened=true
+  - dinomitesnft → totalMinted=189/5555
+  - nonamespnft → ≈833/7777（API TLS失败软沿用）
+  - morumai → freeMinted=42/3333
+  - origin-node → ≈149/4444 mintOpen
+  - bao-agent → SSL/selector仍失败·沿用sold≈9784
+  - wise-owl-society → totalSupply≈2553
+  - bdog-binancedog → 阶段1结束·付费只报
+  - hive-agentic → 软刷续
+  - agent-grove → Phase7已过·付费常开
+  - pow-agent-mine → 仍Nov7 13:00UTC
+- skippedAdmits:
+  - mod-sigil — 无项目官推（仅低粉传播），付费阶梯为主，DS score38 不收
+  - POPZERO/$POPZERO — 沿用：关键词噪声/无独立可核官推，本轮不收
+  - BabyJagent — 付费近罄（≈5400/6000）只报不收
+  - FECK / QTARDS续 — 付费或已在库，不新收
+  - Aetheris — 沿用：免费LIVE但无可靠官推，只报不收
+  - ChyAI_Official — UF shard NF，不重拉
+  - starx_xlayer / mobster_meme — NF，不重拉（X Layer 用关键词扫）
+- le2h: [agent-harvest]（pauseEnd≈23:11:32CST ≤2h）
+- ufCursor: 424→440（shard含ChyAI_Official NF跳过；点名级无新收；关键词/HTTP新收 believers+bnbcat）
+- tenLanesKeywords: full
+- mentionsChains: Elysium(@Enter_Elysium), squeek(@squeekchain), GIWA/Starknet/Irys(关键词), Tape(@TapeAIAgent/@tapebitprotocol), BTC(@bitcointapes), BN pad(@PulseLaunchpad/@bscaidrop/@NutshellMarkets)；starx NF 不拉
+- watchBugsFixed: 2（agent-believers+bnbcat-games 挂入 UF+freeMint+agentPad+bnAgent；soft-debt canton/glaze/tokenWorks lastChecked）
+- Discord: deferred（未登录）
+- push: (pending)
