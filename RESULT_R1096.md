@@ -23,7 +23,7 @@
 - mentionsChains: DogeEVM + Starknet + flap/Irys（无强新挂靠）；Zero/LayerZero_Core softCap满 defer→下轮
 - watchBugsFixed: [pixcade/rootlinks → UF+bnAgent+agentPad+freeMint accounts+candidateIds ×8]
 - Discord: discordPeekDeferred=true（无登录）
-- push: data 0cc681b / tip 5524f3f
+- push: data 0cc681b / tip 0ddacf1
 - NF_skip: starx_xlayer；TapeOut_xyz；giwa_xyz；bibiainft；mobster_meme；Trysmolpadfun；Honestcoin60；onbeatfun；beatdotfamily；CyclopesElysium；vytraqfun
 - softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch/tapeOutWatch/flapPadWatch/irysPadWatch/fullFunWatch/arcPadWatch/zeroWatch/agentMiningWatch lastChecked refreshed
 - notes: DeepSeek admit pixcade72 freeLIVE + rootlinks55 watching；remilios-rd DS skip无官网；Harvest仍暂停非新免费开闸；UF 721–740均已在库；点名UF软刷machinedotfun/bscaidrop/PulseLaunchpad/localbottomcom/NutshellMarkets/squeekchain（mobster/starx NF_skip）；RPC bsc-dataseed curl；本号只scout不自动mint；xReads11/softCap11用尽；mentions轮换DogeEVM+Starknet+flap/Irys（上轮BN pads/Elysium/Tape/GIWA）；baoracle tm 237→1704猛增仅进度更新
