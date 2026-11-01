@@ -1,0 +1,29 @@
+# RESULT R1088
+
+- mode: pace
+- plannedRound: 1088
+- actualRound: 1088
+- collision: false
+- completedAt: 2026-11-02 02:07 CST
+- xReads: 18
+- remainingBefore: 141
+- remaining: 123
+- softCap: 18
+- xQuota: softCap=18 用满18；footer remainingBefore≈141→123（x_budget.py 仍报陈旧301，以footer为准）
+- deferredFullScan: false
+- notify: true
+- alert: 【R1088新收录】ELYNX @ElynxNFT Elysium999 WL开（前188）mint≈11/9；Elysium Gloom @Elysiumgloom 流动NFT+代币 WL今日开；Lord Hood @Lordhoodgame RH1111免费mint宣布（细节soon）。进度：runin免费≈146；Harvest pause至04:12CST；AGENT2今晚20:00CST。面板：https://reboot7454.github.io/early-scout/
+- newIds: [elynx, elysium-gloom, lordhood]
+- admits: [elynx score64 upcoming DS；官网 elynxnft.xyz + vercel；官推@ElynxNFT 197粉；WL LIVE前188；mint≈11/9 Elysium；elysium-gloom score68 upcoming DS；官网 elysiumgloom.xyz；官推@Elysiumgloom 534粉；流动NFT+代币 WL今日开；lordhood score66 upcoming DS；官网 lordhood.xyz；官推@Lordhoodgame 2323粉；RH 1111免费mint宣布细节soon]
+- updates: [runin-ai(freeClaimed≈146/4444 sold=0), kdai(tm≈393), gwei-wbbb(tm≈27), agent-dog(sharesMinted≈904), bnbbaby(freeMinted≈6757), minter-agent(free≈137/250 ts≈420), bairs(sold≈2163), axmi(tm≈185), long-agent(sold≈4016), snowball-agent(tm=1), bound-agents(shares=2), agent-harvest(phase4≈2199 pause至04:12CST), agent-believers(341), agent2(upcoming 20:00CST)]
+- skippedAdmits: [POPZERO @POPZERO_AIAgent 池已LIVE/免费2000罄/过热（R1086已skip）不再收；ZHAOCAI 仍无清晰官推仅KOL转发硬门槛skip；starx_xlayer/TapeOut_xyz/giwa_xyz/bibiainft/mobster_meme NF_skip不重读；Trysmolpadfun suspended]
+- le2h: []（Harvest 下一窗≈04:12CST ≈2.1h >2h；AGENT2 今晚20:00CST ≈18h）
+- ufCursor: 568→584
+- tenLanesKeywords: true（合并 Agent ID/AIDROP/fair·free mint/STARX/X Layer/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/Nutshell/squeek/PulseLaunchpad/computeroll/pipfun/Local Bottom 等；命中 ElynxNFT+Elysiumgloom+Lordhoodgame+POPZERO(skip)+ZHAOCAI(skip)）
+- mentionsChains: Elysium(@Enter_Elysium)；squeek(@squeekchain)；BN pad(@Ptahtrade POA刷屏)；GIWA(@GIWA_by_Upbit→deuslaunch已在库)；Tape(@TapeAIAgent)；STARX关键词（官号NF_skip）
+- watchBugsFixed: ['@ElynxNFT → UF+elysiumWatch + candidate elynx', '@Elysiumgloom → UF+elysiumWatch + candidate elysium-gloom', '@Lordhoodgame → UF+freeMintWatch + candidate lordhood']
+- Discord: discordPeekDeferred=true（无登录）
+- push: (pending)
+- NF_skip: starx_xlayer；TapeOut_xyz；giwa_xyz（改用 GIWA_by_Upbit）；bibiainft；mobster_meme(NF)
+- softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch lastChecked refreshed
+- notes: DeepSeek admit elynx+elysium-gloom+lordhood；score 64/68/66；真新收录→notify；均非免费LIVE（lordhood仅宣布免费mint）；UF 568–583 均已在库；RPC 用 bsc-dataseed 避开 Ankr/1rpc403；Harvest phasePauseEnd≈2026-11-02 04:12 CST；距08:00CST X重置≈5.9h；xReads 18=softCap18
