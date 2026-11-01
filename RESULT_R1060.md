@@ -34,5 +34,5 @@
 - discordPeekSkipped: true
 - discordPeekDeferred: true
 - clearedPrevNTR: ['nibblers','noryxtradehq','agent007bnb','bianfenhong'] + meta stale ['mint-writ','binance-can-fly']
-- push: (pending)
+- push: ok dataSha=2b1512a1de68086cdb2d47df79145d975e5786d5 tipSha=76001c098a5f14ac190d67259188a5147c2627bc remoteVerified=true
 - summary: R1060 ample：新收 meteorsz+nemotron 免费LIVE；Harvest≤2h续；Nova免费尽；Watch补挂14；UF 152→166；十栏+mentions全；Discord deferred；notify=true
