@@ -23,7 +23,7 @@
 - mentionsChains: deferred（near-exhausted softCap余2保留；上轮R1097已defer；建议重置后/下轮补 BN pads+Elysium+Tape+GIWA/X Layer）
 - watchBugsFixed: [onimaru → UF+bnAgent+agentPad+freeMint accounts+candidateIds]
 - Discord: discordPeekDeferred=true（无登录）
-- push: (pending)
+- push: data 23cf39d / tip 23cf39d
 - NF_skip: oblaunchpadAll；NovaAgentShares；mint_WRIT；babycz_ai(suspended)；starx_xlayer；TapeOut_xyz；giwa_xyz；bibiainft；mobster_meme；Trysmolpadfun；Honestcoin60；onbeatfun；beatdotfamily；CyclopesElysium；vytraqfun；AiPullpad；oblaunchpadbase（继承+本轮UF NF；勿再读@machinedotfun本轮已探针）
 - softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch/tapeOutWatch/flapPadWatch/irysPadWatch/fullFunWatch/arcPadWatch/zeroWatch/agentMiningWatch lastChecked refreshed
 - notes: DeepSeek admit onimaru76 freeLIVE；rootlinks升live非新收；pixcade免费罄；Harvest仍暂停≈2.15h；UF 757–776均已在库（2NF）；点名UF软刷PulseLaunchpad/localbottomcom/NutshellMarkets/bscaidrop安静（mobster/starx/machinedotfun跳过）；RPC bsc-dataseed；本号只scout不自动mint；xReads6/softCap8余2；mentions defer→重置后补；onimaru站内Preview噪声忽略（链上已开）
