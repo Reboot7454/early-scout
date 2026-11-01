@@ -1,0 +1,29 @@
+# RESULT R1082
+
+- mode: pace
+- plannedRound: 1082
+- actualRound: 1082
+- collision: false
+- completedAt: 2026-11-01 23:17 CST
+- xReads: 18
+- remainingBefore: 240
+- remaining: 222
+- softCap: 18
+- xQuota: hit softCap≈18；footer remainingBefore≈240→222（x_budget.py仍报陈旧301，以footer为准）
+- deferredFullScan: false
+- notify: true
+- alert: 【R1082】新收 Minter Agent @minterAgent 免费Standard LIVE余250/250（gas≈0.0003BNB）；BNBbaby @BiandaNiu 每Agent首份免费LIVE shares≈3784/18888；ShibAgent @shibagentid 免费罄付费≈239/10000只报。Harvest pause已过点→phase4 minted≈2182。面板 https://reboot7454.github.io/early-scout/
+- newIds: [minter-agent, bnbbaby, shib-agent]
+- admits: [minter-agent score68 freeLIVE DS; bnbbaby score65 freeLIVE DS; shib-agent score64 付费只报/免费罄 DS]
+- updates: [agent-harvest(pause过点 phase4 minted≈2182), long-agent(sold≈3484), mehcat-bnb(172), maobp-agent(194), agent-believers(271), eclipse-court(325), bianbian-bnbn(3080), emberlings(19), nothuman(5477), meteorsz(1174), wise-owl-society(2577), origin-node(168), dinomitesnft(201), trine-protocol(67)]
+- skippedAdmits: [PROXY/proxymint.pages.dev(无可靠官推；站内无X；AulZyann 0粉空bio不认官推；freeGiven≈346/1000仍有免费但硬门槛缺官推→skip); OAGENT Units单帖弱信号]
+- le2h: []（Harvest pauseEnd≈23:11CST 已过点）
+- ufCursor: 472→488
+- tenLanesKeywords: true（合并 mining/PoW/fair launch/Agent ID/AIDROP/STARX/X Layer/Tape/GIWA/Elysium/挖矿/打新/Irys/BTC/Starknet 等；命中 minter/shib/bnbbaby/PROXY）
+- mentionsChains: Elysium(@ElysiumPunks waitlist已在库 elysiumpunks)；BN pad关键词；STARX/X Layer(NF skip starx_xlayer)；squeek/Tape/Pulse/GIWA 前序轮换+本轮关键词覆盖；Irys/BTC/Starknet/Zero/DogeEVM 以十栏关键词专名覆盖（额度触 softCap 未再单拉 mentions）
+- watchBugsFixed: ['@minterAgent/@BiandaNiu/@shibagentid → userFollowWatch+agentPadWatch+freeMintWatch+bnAgentWatch accounts/candidateIds']
+- Discord: discordPeekDeferred=true（无登录）
+- push: (pending)
+- NF_skip: starx_xlayer；PROXYBNB/proxymint/BNBbabyBNB 等探测 NF
+- softDebt: tokenWorksPlaygroundWatch/cantonPadWatch/glazeWatch/tokenWorksWatch lastChecked refreshed
+- notes: DeepSeek score+alert OK；minter freeMinted=0/freeRemaining=250；BNBbaby mint CA 0xBB7e… shares≈3784 freeClaimed≈3662；Shib sold≈239 free4444罄；PROXY cardsSold≈345 因无官推 skip
