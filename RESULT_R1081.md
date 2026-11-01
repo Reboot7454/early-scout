@@ -1,0 +1,29 @@
+# RESULT R1081
+
+- mode: pace
+- plannedRound: 1081
+- actualRound: 1081
+- collision: false
+- completedAt: 2026-11-01 22:49:05 CST
+- xReads: 19
+- remainingBefore: 259
+- remaining: 240
+- softCap: 18
+- xQuota: slightly over softCap to finish mentions+keyword AgentID (Tape/Pulse/GIWA mentions + LongAgent resolve); real footer remainingBefore=259→240 (x_budget.py仍报陈旧301，以footer为准)
+- deferredFullScan: false
+- notify: true
+- alert: 【R1081】新收免费LIVE 龙LONG AGENT @LongAgentBNB — sold≈2180/8888，免费首份已用≈1969/2000（余≈31，极紧！），其后0.0015BNB；CA 0x827E83E4… 官网 long-agent.com。另：Harvest Phase3 pause仍≤2h至≈23:11CST；QTARDS免费LIVE free≈534/1250（在库更新）；MEH付费LIVE≈172/10k只报。面板 https://reboot7454.github.io/early-scout/
+- newIds: [long-agent]
+- admits: [long-agent] (免费LIVE score=63 dsFallback；官网+官推+代币硬门槛通过；首份免费cap2000余≈31)
+- updates: [agent-harvest(≤2h pause), trine-protocol(sold≈67), emberlings(19), agent-believers(219), eclipse-court(323), dinomitesnft(198), nidavellir-bsc(1121), wise-owl-society(2574), origin-node(151), morumai(42), meteorsz(1173 free罄), maobp-agent(190), bianbian-bnbn(3079), agent-rob(10181 opened), nothuman(5467), qtardsxyz(watching→free+paid LIVE free≈534/1250), mehcat-bnb(announced→paid LIVE 172/10k)]
+- skippedAdmits: [hachimi_ai(无官网/0粉跳过), GREEN95S spam CAs(无可靠官推), deuslaunch(已在库GIWA台), slymzcrew(已在库 freemint-soon)]
+- le2h: [agent-harvest pauseEnd≈2026-11-01 23:11:32 CST hoursToPauseEnd≈0.4]
+- ufCursor: 456→472
+- tenLanesKeywords: true (合并：agent mining/free mint/fair launch/launchpad/Agent ID/AIDROP/bscaidrop/PulseLaunchpad/STARX/X Layer/TapeOut/GIWA/Elysium/挖矿/打新 等；二次Agent ID去噪查命中 long-agent/$LONG/$MEH)
+- mentionsChains: Elysium(@Enter_Elysium→slymzcrew freemint-soon已在库); squeek(@squeekchain); Tape(@TapeAIAgent 近窗0); BN pad(@PulseLaunchpad 近窗0); GIWA(@GIWA_by_Upbit→deuslaunch刷屏已在库); STARX/X Layer 关键词(NF skip starx_xlayer); Irys/BTC/Starknet/Zero/DogeEVM 本轮额度紧未单拉 mentions，十栏关键词已覆盖专名
+- watchBugsFixed: ['@LongAgentBNB → userFollowWatch.accounts', 'long-agent → userFollowWatch.candidateIds', '@LongAgentBNB → agentPadWatch.accounts', 'long-agent → agentPadWatch.candidateIds', '@LongAgentBNB → freeMintWatch.accounts', 'long-agent → freeMintWatch.candidateIds']
+- Discord: discordPeekDeferred=true（无登录）
+- push: (pending)
+- NF_skip: starx_xlayer / mobster_meme / ChyAI_Official；UF NF/suspended: sharpsheet_rh / safufundbnb / bellwethers_ai
+- softDebt: tokenworks-playground lastChecked refreshed
+- notes: DeepSeek content空、reasoning有完整草案→dsFallback score63；LONG免费额度本轮内从≈1275急降至≈31，alert强调极紧
