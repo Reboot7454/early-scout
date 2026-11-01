@@ -23,7 +23,7 @@
 - mentionsChains: Elysium（前段）；squeek(@squeekchain Genesis农）；Tape(@TapeAIAgent 期待刷屏无新盘)；BN pad(@Ptahtrade POA刷屏)；GIWA(@GIWA_by_Upbit Ammora/Writ_Fi已在库)；STARX关键词（官号NF_skip）
 - watchBugsFixed: ['@Snowball_Agent → UF+agentPadWatch+bnAgentWatch+freeMintWatch + candidate snowball-agent', '@BoundAgents → UF+agentPadWatch+bnAgentWatch+freeMintWatch + candidate bound-agents', '@Mastereeoz → UF+agentPadWatch+bnAgentWatch+freeMintWatch + candidate agent2']
 - Discord: discordPeekDeferred=true（无登录）
-- push: (pending)
+- push: 4c3e331 (data 93da54e; tip 4c3e331)
 - NF_skip: starx_xlayer；TapeOut_xyz；giwa_xyz（改用 GIWA_by_Upbit）
 - softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch lastChecked refreshed
 - notes: DeepSeek admit snowball+bound+agent2；score 63/70/55；三则均付费/upcoming→付费只报不自动；无新免费LIVE但真新须notify；本雷达不执行mint；UF 536–551 均已在库；RPC 用 bsc-dataseed/1rpc 避开 Ankr；Harvest phasePauseEnd≈2026-11-02 04:12 CST；距08:00CST X重置≈6.7h roundsLeftEst≈13
