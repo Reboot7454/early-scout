@@ -1,0 +1,36 @@
+# RESULT R1069
+
+- mode: pace
+- plannedRound: 1069 | actualRound: 1069
+- collision: none（pull后 meta.round=1068）
+- completedAt: 2026-11-01 16:40 CST
+- xReads: 25 | remainingBefore: 506/1000 | remaining: 481/1000
+- softCap: 18
+- xQuota: mode=pace softCap=18 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: remaining>200 完成十栏关键词+多链 mentions；超 softCap（25/18）以保十栏全+mentions+UF分片
+- notify: true
+- alert: ⚠️本轮无新收录。Agent Harvest Phase2暂停约18:05:30 CST结束（≤2h，现freeOpen=0 totalMinted=1143）。meteorsz免费余≈542；dinomites=175/5555；NoNames=820/7777；morumai=37/3333。TopoSats今晚20:00CST（约+3.3h非≤2h）。面板：https://reboot7454.github.io/early-scout/
+- newIds: []
+- admits: []
+- updates:
+  - agent-harvest → Phase2仍关 freeOpen=0 · pauseEnd≈18:05:30CST（≤2h约+1.43h）· totalMinted=1143 freeMinted=1000 currentPhase=2
+  - meteorsz → freeRemaining≈542 · totalMinted=569 · mintingActive=1
+  - dinomitesnft → free LIVE minted=175/5555 mintOpen=true
+  - nonamespnft → api minted=820/7777 mintOpen=true（非近售罄）
+  - morumai → 链上minted=37/3333 mintingActive=1
+  - nemotron → totalMinted≈14053 免费前2/ID续
+  - tapebit → TopoSats Agent Mint 预计今晚20:00CST（约+3.3h非≤2h）
+  - agent-door-bsc → 站内仍「即将开启」非LIVE
+  - elysium-quotrons → Allowlist登记续；补挂 elysiumWatch.accounts
+- skippedAdmits:
+  - elysians-realm / @ElysiansRealm — DS admit=false（awakening预告无部署/官网）
+  - AgentRob/$ROB — 仅KOL图文无官推可核，跳过
+  - Cryptcountess / GourdHollow — 无可用官推，跳过
+  - EnigmaAgent — 链上 publicMinted 已罄 + 官推空号，跳过
+- le2h: [agent-harvest]（pauseEnd≈18:05:30CST ≤2h；TopoSats 20:00CST 约+3.3h非≤2h）
+- ufCursor: 268→284
+- tenLanesKeywords: full
+- mentionsChains: Elysium, GIWA, Irys, DogeOS, squeek, flap, Starknet, BTC（starx NF 不重拉）
+- watchBugsFixed: elysiumWatch.accounts += @ElysiumQuotrons；freeMintWatch.acc += @XiangHao91647/@DropMinters
+- Discord: deferred（未登录）
+- push: (pending)
