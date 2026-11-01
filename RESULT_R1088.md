@@ -23,7 +23,7 @@
 - mentionsChains: Elysium(@Enter_Elysium)；squeek(@squeekchain)；BN pad(@Ptahtrade POA刷屏)；GIWA(@GIWA_by_Upbit→deuslaunch已在库)；Tape(@TapeAIAgent)；STARX关键词（官号NF_skip）
 - watchBugsFixed: ['@ElynxNFT → UF+elysiumWatch + candidate elynx', '@Elysiumgloom → UF+elysiumWatch + candidate elysium-gloom', '@Lordhoodgame → UF+freeMintWatch + candidate lordhood']
 - Discord: discordPeekDeferred=true（无登录）
-- push: (pending)
+- push: 7f6face (data 16dad28; tip 7f6face)
 - NF_skip: starx_xlayer；TapeOut_xyz；giwa_xyz（改用 GIWA_by_Upbit）；bibiainft；mobster_meme(NF)
 - softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch lastChecked refreshed
 - notes: DeepSeek admit elynx+elysium-gloom+lordhood；score 64/68/66；真新收录→notify；均非免费LIVE（lordhood仅宣布免费mint）；UF 568–583 均已在库；RPC 用 bsc-dataseed 避开 Ankr/1rpc403；Harvest phasePauseEnd≈2026-11-02 04:12 CST；距08:00CST X重置≈5.9h；xReads 18=softCap18
