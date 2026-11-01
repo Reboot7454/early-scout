@@ -29,7 +29,7 @@ X：10读，96→86，softCap10 tight；Discord deferred
 - mentionsChains: Elysium/kinetiq（@Enter_Elysium→ElysiumPunks/theAgentFirm/Elympus已在库；TheKinetiqCat skip）；Tape（@TapeAIAgent 近窗0条）；GIWA（@GIWA_by_Upbit→STET已在库）；DogeEVM（@DogeOS 无新挂靠）
 - watchBugsFixed: []
 - Discord: discordPeekDeferred=true（无登录）
-- push: PENDING
+- push: data 99443e1 / tip 99443e1
 - NF_skip: starx_xlayer；TapeOut_xyz；giwa_xyz（改用 GIWA_by_Upbit）；bibiainft；mobster_meme(NF)；Trysmolpadfun suspended；Honestcoin60 suspended；onbeatfun(NF)；beatdotfamily(NF)
 - softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch/tapeOutWatch/flapPadWatch/irysPadWatch/fullFunWatch/arcPadWatch/zeroWatch/agentMiningWatch lastChecked refreshed
 - notes: 本轮无DeepSeek新admit（无合格真新）；Harvest≤2h单独→notify；UF 624–647均已在库；RPC bsc-dataseed；PUGEN CA 0x1d4c… token已铸但缺官推；Horror CA 0xfdf0… ts≈35缺官推；本号只scout不自动mint；距08:00CST X重置≈4.3h；xReads10=softCap10
