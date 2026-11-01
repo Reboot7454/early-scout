@@ -1,0 +1,33 @@
+# RESULT R1058
+
+- mode: ample-paced
+- plannedRound: 1058 | actualRound: 1058
+- collision: none（pull后 meta.round=1057）
+- completedAt: 2026-11-01 12:10 CST
+- xReads: 37 | remainingBefore: 723/1000 | remaining: 686/1000
+- softCap: 28
+- xQuota: mode=ample softCap=28 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: 略超 softCap 因 Harvest≤2h 必盯 + Nova/新免费LIVE核验 + 全链 mentions + 十栏；x_budget 开跑仍可能报795（未跟 live 扣减），live remaining 以 X 工具尾部为准 686
+- notify: true
+- alert: 【新收/≤2h】mint-writ(@mint_WRIT)免费LIVE gas only站mintwrit.com；binance-can-fly(@BinanceCanFly)付费阶梯只报站binancefly.me；Harvest Phase2免费地≈12:50CST；Nova免费余≈91/1000；面板 https://reboot7454.github.io/early-scout/
+- newIds: [mint-writ, binance-can-fly]
+- admits:
+  - mint-writ (@mint_WRIT) — BNB Agent ID 免费LIVE：挑战拿凭证铸 Writ Proof Pass，仅付gas；总量4096；站mintwrit.com；官推粉1；合约站面未明文；DS score=76
+  - binance-can-fly (@BinanceCanFly) — BNB Agent ID 付费阶梯铸LIVE：前1万份1USDT·其后每千份+0.1；开池线10000；站binancefly.me；mint 0x6d762805740ED8833c7129Dc708B3B3B6380C2da / token 0xe2FFa2Aa0982e8aC9357b5364edc1B5536bD9cB8；官推粉0；付费只报；DS score=52
+- updates:
+  - agent-harvest (@agentharvest_ai) → Phase2仍关(freeOpen=0)·phasePauseEnd≈12:50:47CST仍≤2h；freeLIVE=true；DS/链上核验
+  - nova-agent-shares (@NovaAgentShares) → freeLeft≈91/1000·minted≈925·poolOpened=0；免费LIVE续；付费续只报
+  - bitcoin-frogs-agent (@frogsagent) → 池开+Round3付费≈10636 minted；付费只报
+  - agentrybaw / kenranft / dropminters / printer-ai / crop-pals / babycz / bncat / bndoge / siege / synklings 进度软刷
+- le2h: [agent-harvest Phase2≈12:50CST]
+- watchBugsFixed: 14 entries — mint-writ/binance-can-fly → userFollowWatch/bnAgentWatch/agentPadWatch/agentMiningWatch；mint-writ→freeMintWatch (+acc+cid)
+- softDebt: cantonPadWatch / glazeWatch / tokenWorksPlaygroundWatch / tokenWorksWatch lastChecked→2026-11-01 12:10 CST
+- coverage:
+  - userFollowSoft: priority named（mobster_meme NF跳过不重确认；machinedotfun/bscaidrop/PulseLaunchpad/localbottomcom/NutshellMarkets；starx_xlayer NF跳过）+ UF shard cursor 138→152（elypadotfun…AIMONSTER_S；GatorEyesSolada/keyhasp NF跳过读帖）
+  - tenLanesKeywords: merged OR ~30m — full（agent mining/free mint/fair launch/Agent ID/AIDROP/Pulse/Local Bottom/Nutshell/squeek/STARX/X Layer/pipfun/Tape/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新 等）
+  - mentionsChains: Elysium(@Enter_Elysium), GIWA(@GIWA_by_Upbit), Tape(@TapeAIAgent 近窗读), squeekchain, ShieldedNaka/BTC privacy, flapdotsh；Starknet/X Layer/DogeEVM/Irys/Arc/STARX 关键词栏覆盖；BN Agent pads 关键词
+  - mustWatch: Harvest/Nova/Agentry/Kenra/DropMinters/printer/crop/frogs/siege/bncat/bndoge/babycz；同 handle 去重
+- discordPeekSkipped: true
+- discordPeekDeferred: true
+- skippedAdmits: Shardblade/Genesis Seeds/CENSUS（无核验官推，硬门槛跳过）
+- push: pending
