@@ -1,0 +1,29 @@
+# RESULT R1094
+
+- mode: tight
+- plannedRound: 1094
+- actualRound: 1094
+- collision: false
+- completedAt: 2026-11-02 05:06 CST
+- xReads: 10
+- remainingBefore: 66
+- remaining: 56
+- softCap: 10
+- xQuota: softCap=10 用满10；footer remainingBefore≈66→56（x_budget.py 开跑陈旧，以footer为准；mode=tight；距08:00CST重置≈2.9h）
+- deferredFullScan: false
+- notify: false
+- alert: （无）无新收录；无免费LIVE新admit；Harvest phase5 freeOpen=0 暂停→09:17:55CST（≈4.2h，非≤2h）；无推送失败
+- newIds: []
+- admits: []
+- updates: [agent-harvest(phase5 freeOpen=0→09:17CST tm≈2723 free≈2500 paid≈223), runin-ai(freeClaimed=4444满 sold=149), kdai(tm≈401), gwei-wbbb(tm≈28), agent-dog(shares≈1135), bnbbaby(free≈9236), minter-agent(free≈153/ts≈463), bairs(sold≈2163), axmi(tm≈201), long-agent(sold≈4044), snowball-agent(tm=1), bound-agents(shares=2), agent-believers(tm≈353), aipro(tm≈4858), vault-crack(tm≈185), tycoon-city(supply≈1395), dung-beetle-agent/plopz/agent2/elynx/elysium-gloom/lordhood/punks-on-drugs/dropminters/nonamespnft/stratar/anonhood/sambario/ichor-elysium/flizy lastChecked刷新]
+- skippedAdmits: [BLIZZARD（LensMoso KOL转发 claimFree/Agent ID 1111，无独立可核官网/官推 skip）；Agent Covenant agentcovenant.pro 免费首mint LIVE tm≈1782/4444 CA=0xc68a…91Df 但 config TWITTER="" 无可核官推硬跳过；StarkLaunchy/pixiopet/AtlasHL/lutra_hl/hypaww/elyziuma 已在库]
+- le2h: []（Harvest pauseEnd≈09:17:55CST ≈4.2h 非≤2h）
+- ufCursor: 696→701
+- tenLanesKeywords: true（合并 Agent ID/fair·free mint/STARX·X Layer/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿打新/Nutshell·squeek/Pulse·RH pads/flap·Irys·Full.fun·Arc；命中 BLIZZARD/Agent Covenant→skip无官推；pixiopet/StarkLaunchy已在库）
+- mentionsChains: Zero（@LayerZero_Core 近窗 mentions=0）；DogeEVM（@DogeOS 无强新挂靠）；Starknet（@Starknet 无强新挂靠打新）；BN Agent pads 本轮 softCap满未再读
+- watchBugsFixed: []
+- Discord: discordPeekDeferred=true（无登录）
+- push: pending
+- NF_skip: starx_xlayer；TapeOut_xyz；giwa_xyz；bibiainft；mobster_meme；Trysmolpadfun；Honestcoin60；onbeatfun；beatdotfamily；CyclopesElysium（本轮未重读）
+- softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch/tapeOutWatch/flapPadWatch/irysPadWatch/fullFunWatch/arcPadWatch/zeroWatch/agentMiningWatch lastChecked refreshed
+- notes: 无合格新卡 DS 打分；Covenant/BLIZZARD 无可核官推硬跳过；Harvest 仍暂停非新免费开闸；UF 696–700 均已在库；RPC bsc-dataseed（tycoon totalMinted/dung SSL EOF，用 totalSupply）；本号只 scout 不自动 mint；xReads10=softCap10；mentions轮换接 R1093 后扫 Zero+DogeEVM+Starknet；BN pad mentions 因 softCap 满 defer
