@@ -23,7 +23,7 @@
 - mentionsChains: Elysium(@Enter_Elysium→ElysiumPunks/Elympus已在库)；squeek(@squeekchain)；BN pad(@Ptahtrade POA刷屏)；GIWA(@GIWA_by_Upbit→Writ_Fi已在库)；Tape(@TapeAIAgent)；STARX关键词（官号NF_skip）
 - watchBugsFixed: ['@PlayTycoonCity → UF+agentPad+freeMint+bnAgent + tycoon-city', '@DungBeetleAgent → UF+agentPad+bnAgent + dung-beetle-agent', '@vault_crack → UF+agentPad+freeMint+bnAgent + vault-crack', '@PunksOnDrugs → UF+freeMintWatch + punks-on-drugs']
 - Discord: discordPeekDeferred=true（无登录）
-- push: (pending)
+- push: c07dd13 (data 374d79a; tip c07dd13)
 - NF_skip: starx_xlayer；TapeOut_xyz；giwa_xyz（改用 GIWA_by_Upbit）；bibiainft；mobster_meme(NF)；Trysmolpadfun suspended
 - softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch/tapeOutWatch/flapPadWatch/irysPadWatch/fullFunWatch/arcPadWatch/zeroWatch/agentMiningWatch lastChecked refreshed
 - notes: DeepSeek admit+score tycoon-city/dung-beetle-agent/vault-crack/punks-on-drugs；真新免费LIVE(tycoon+vault-crack)+Harvest≤2h→notify；UF 584–599均已在库；RPC bsc-dataseed；vault-crack 用正确CA 0x049E…（勿与protocol 0xB44f混淆）；距08:00CST X重置≈5.4h；xReads19≤softCap22；付费dung只报不自动
