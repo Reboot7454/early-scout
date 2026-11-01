@@ -23,7 +23,7 @@
 - mentionsChains: Elysium；squeek(@squeekchain)；Tape；BN pad(@Ptahtrade 挂靠刷屏)；GIWA/STARX关键词；Starknet关键词
 - watchBugsFixed: ['@axmi_bnb → UF+agentPadWatch+freeMintWatch+bnAgentWatch + candidate axmi']
 - Discord: discordPeekDeferred=true（无登录）
-- push: (pending)
+- push: 174d480 (data 5d3a3c7; tip 174d480)
 - NF_skip: starx_xlayer；mobster_meme；Leeonmort；computeroll（本轮不重读）
 - softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch lastChecked refreshed
 - notes: DeepSeek admit+score axmi=67；免费LIVE必须notify；付费只报不自动；本雷达不执行mint；bairs sold 97→1459 猛增；Harvest phasePauseEnd≈2026-11-02 04:12 CST；axmi freeMinted()≈2094虚高、totalMinted≈175+pendingBnb≈0.28BNB 采信；UF 504–520 均已在库；urllib RPC易挂改用curl+keccak
