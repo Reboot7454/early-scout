@@ -31,4 +31,4 @@
 - discordLoginOk: false
 - skippedLeads: ElysiansRealm（Elysium PFP Announced无mint窗 — DS skip）；agentgoose 无清晰官推；mobster_meme NF；starx_xlayer NF
 - summary: ample-paced R1055，xReads 34/28 softCap，795→761；新收 babycz（1U公平铸付费只报）；Harvest Phase2进入≤2h告警；Agentry免费售罄改付费；Watch补挂×6；软债刷；UF cursor 110→124；十栏+mentions全；Discord deferred；notify=true。
-- push: pending
+- push: ok dataSha=5fdc579 tipSha=e8dc0d1 remoteVerified=true
