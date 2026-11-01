@@ -8306,7 +8306,7 @@
       "aura-nodes",
       "ink-pixel-ghosts"
     ],
-    "updatedAt": "2026-11-01 22:48:46 CST",
+    "updatedAt": "2026-11-01 22:49:39 CST",
     "lastRun": "2026-11-01 16:14:54 CST",
     "round351Added": [
       "aao-pad",
@@ -175579,7 +175579,7 @@
       "contract": "0x827E83E49Bd7E15b67efa0e90fC25f17b8D96124",
       "chain": "BNB",
       "ecosystem": "BNB Agent ID",
-      "whatsNew": "【R1081新收录】免费LIVE sold≈2180/8888 free≈1969/2000余31·付费0.0015BNB",
+      "whatsNew": "【R1081新收录】免费LIVE刚收录时仍有余→现已罄 sold≈2218/8888 free=2000/2000·付费0.0015BNB仍开",
       "tags": [
         "BNB",
         "Agent ID",
@@ -175602,9 +175602,9 @@
       "xFollowers": 0,
       "firstSeen": "2026-11-01 22:48:26 CST",
       "addedAt": "2026-11-01 22:48:26 CST",
-      "lastChecked": "2026-11-01 22:48:46 CST",
-      "updatedAt": "2026-11-01 22:48:46 CST",
-      "blurb": "免费LIVE sold≈2180 free余31·0粉新号",
+      "lastChecked": "2026-11-01 22:49:39 CST",
+      "updatedAt": "2026-11-01 22:49:39 CST",
+      "blurb": "免费罄·sold≈2218·付费0.0015BNB仍开",
       "highlights": [
         "BNB Agent ID公平铸已LIVE，每.ai首份免费且额度剩余约546份",
         "已售约1617/8888，早期参与窗口仍在",
@@ -175623,16 +175623,17 @@
       "mint": "live",
       "freeLIVE": true,
       "mintOpen": true,
-      "mintProgress": "sold≈2180/8888 free≈1969/2000余31",
+      "mintProgress": "sold≈2218/8888 free罄(2000/2000) paidOpen 0.0015BNB",
       "progress": {
-        "sold": 2180,
+        "sold": 2218,
         "totalShares": 8888,
-        "freeSharesGiven": 1969,
+        "freeSharesGiven": 2000,
         "freeShareCap": 2000,
-        "freeSharesRemaining": 31,
+        "freeSharesRemaining": 0,
         "pricePerShareBnb": 0.0015,
         "mintOpen": true,
-        "agentsMinted": 1969
+        "agentsMinted": 1969,
+        "freeSharePoolExhausted": true
       },
       "newThisRound": true,
       "le2h": false,

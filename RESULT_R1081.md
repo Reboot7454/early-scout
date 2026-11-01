@@ -12,9 +12,9 @@
 - xQuota: slightly over softCap to finish mentions+keyword AgentID (Tape/Pulse/GIWA mentions + LongAgent resolve); real footer remainingBefore=259→240 (x_budget.py仍报陈旧301，以footer为准)
 - deferredFullScan: false
 - notify: true
-- alert: 【R1081】新收免费LIVE 龙LONG AGENT @LongAgentBNB — sold≈2180/8888，免费首份已用≈1969/2000（余≈31，极紧！），其后0.0015BNB；CA 0x827E83E4… 官网 long-agent.com。另：Harvest Phase3 pause仍≤2h至≈23:11CST；QTARDS免费LIVE free≈534/1250（在库更新）；MEH付费LIVE≈172/10k只报。面板 https://reboot7454.github.io/early-scout/
+- alert: 【R1081】新收 龙LONG AGENT @LongAgentBNB 免费LIVE（收录时仍有余，现免费cap2000已罄！）sold≈2218/8888，付费0.0015BNB/份仍开；CA 0x827E83E49Bd7E15b67efa0e90fC25f17b8D96124；官网 https://long-agent.com 。Harvest Phase3 pause仍≤2h至≈23:11CST；QTARDS免费LIVE free≈534/1250（在库更新）；MEH付费LIVE≈172/10k只报。面板 https://reboot7454.github.io/early-scout/
 - newIds: [long-agent]
-- admits: [long-agent] (免费LIVE score=63 dsFallback；官网+官推+代币硬门槛通过；首份免费cap2000余≈31)
+- admits: [long-agent] (免费LIVE score=63 dsFallback；官网+官推+代币硬门槛通过；首份免费cap2000现已罄(收录后急尽))
 - updates: [agent-harvest(≤2h pause), trine-protocol(sold≈67), emberlings(19), agent-believers(219), eclipse-court(323), dinomitesnft(198), nidavellir-bsc(1121), wise-owl-society(2574), origin-node(151), morumai(42), meteorsz(1173 free罄), maobp-agent(190), bianbian-bnbn(3079), agent-rob(10181 opened), nothuman(5467), qtardsxyz(watching→free+paid LIVE free≈534/1250), mehcat-bnb(announced→paid LIVE 172/10k)]
 - skippedAdmits: [hachimi_ai(无官网/0粉跳过), GREEN95S spam CAs(无可靠官推), deuslaunch(已在库GIWA台), slymzcrew(已在库 freemint-soon)]
 - le2h: [agent-harvest pauseEnd≈2026-11-01 23:11:32 CST hoursToPauseEnd≈0.4]
