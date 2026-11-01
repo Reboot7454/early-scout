@@ -8242,7 +8242,7 @@
       "aura-nodes",
       "ink-pixel-ghosts"
     ],
-    "updatedAt": "2026-11-01 10:34 CST",
+    "updatedAt": "2026-11-01 10:43 CST",
     "lastRun": "2026-10-30 21:10 CST",
     "round351Added": [
       "aao-pad",
@@ -11409,7 +11409,8 @@
         "@BrokeNiggameme",
         "@bndoge_bn",
         "@Mintbncat_ai",
-        "@StyxnTerminal"
+        "@StyxnTerminal",
+        "@kidsofmischief"
       ],
       "candidateIds": [
         "0xvernull",
@@ -12144,11 +12145,12 @@
         "brokeniggameme",
         "bndoge",
         "bncat",
-        "styxn-terminal"
+        "styxn-terminal",
+        "kidsofmischief"
       ],
       "pending": [],
       "note": "R1052 Watch补挂 bncat @Mintbncat_ai + styxn-terminal @StyxnTerminal; R1043 Watch补挂 erc8004-markets @ERC8004Markets; R1043 Watch补挂 lazabitmeme @lazabitmeme; R1043 Watch补挂 outriggerrh @OutRiggerRH; R1043 Watch补挂 hordeonelysium @HordeOnElysium; R1009 Watch漏挂修×78 + soft-debt; full UF scan deferred→08:00 CST",
-      "lastChecked": "2026-11-01 10:34 CST",
+      "lastChecked": "2026-11-01 10:43 CST",
       "createdAt": "2026-10-28 17:15 CST",
       "sourceRound": 775,
       "r775": "用户点名6项已入 candidates；pending=[]",
@@ -12464,6 +12466,16 @@
         "shardFrom": 54,
         "shardTo": 68,
         "at": "2026-11-01 09:10 CST"
+      },
+      "r1053b": {
+        "at": "2026-11-01 10:43 CST",
+        "added": [
+          "@kidsofmischief"
+        ],
+        "candidateIds": [
+          "kidsofmischief"
+        ],
+        "note": "用户点名挂盯 Kids of Mischief；ETH KoMN NFT+游戏；合约 0x9a0896aD7aD504a14b7292c6b2142Ad96154D58e"
       }
     },
     "round775Added": [
@@ -13009,7 +13021,8 @@
         "@Handln",
         "@TheMutantClub",
         "@fistagent_bnb",
-        "@AgentryBAW"
+        "@AgentryBAW",
+        "@kidsofmischief"
       ],
       "candidateIds": [
         "1k-art-gallery",
@@ -13141,10 +13154,11 @@
         "agent-seal",
         "themutantclub",
         "fistagent-bnb",
-        "agentrybaw"
+        "agentrybaw",
+        "kidsofmischief"
       ],
       "note": "R977 soft-debt lastChecked 2026-10-31 12:39 CST; prev 2026-10-31 11:37 CST; R950 soft-debt lastChecked 2026-10-31 04:33 CST; R945 soft-debt lastChecked 2026-10-31 03:02 CST; prev 2026-10-31 01:12 CST; R889 soft-debt lastChecked 2026-10-30 07:06 CST (X exhausted remaining=0 until 2026-10-30 08:00 CST)",
-      "lastChecked": "2026-11-01 10:34 CST",
+      "lastChecked": "2026-11-01 10:43 CST",
       "r793": "created for watch-bug compliance on free-mint admits",
       "r805": "R805 soft-brush 2026-10-29 01:39 CST",
       "r815": "watch-bug fix: added ['@gotchishadows', 'gotchishadows']",
@@ -13204,7 +13218,17 @@
       "r1036": [
         "thepodnft"
       ],
-      "r1045": "R1045 crop-pals free first"
+      "r1045": "R1045 crop-pals free first",
+      "r1053b": {
+        "at": "2026-11-01 10:43 CST",
+        "added": [
+          "@kidsofmischief"
+        ],
+        "candidateIds": [
+          "kidsofmischief"
+        ],
+        "note": "用户点名；浏览器游戏免费玩 + ETH KoMN NFT（buy需permit，非BN Agent）"
+      }
     },
     "round793Added": [
       "elys-inscriptions",
@@ -16705,7 +16729,18 @@
     "r1001WatchBugs": [
       "agent-pulse: user-named pulseagent.trade; was only watching @PulseLaunchpad(RH); CREATE 0xce67 score0 missing_socials → +card+UF+agentPad+bnAgent+sites_meta+HTTP"
     ],
-    "lastManualPatch": "agent-pulse wired 2026-10-31 19:44:14 CST",
+    "lastManualPatch": {
+      "at": "2026-11-01 10:43 CST",
+      "action": "user-named Watch hang",
+      "id": "kidsofmischief",
+      "handle": "@kidsofmischief",
+      "lanes": [
+        "userFollowWatch",
+        "freeMintWatch"
+      ],
+      "note": "Kids of Mischief：ETH KoMN NFT+游戏；用户说可以挂；非 Agent ID",
+      "card": "created"
+    },
     "round1002Added": [
       "dropminters",
       "botai-meme"
@@ -17620,7 +17655,13 @@
           ]
         }
       ]
-    }
+    },
+    "r1053WatchBugs": [
+      "kidsofmischief @kidsofmischief → userFollowWatch+freeMintWatch (user-named hang; ETH KoMN)"
+    ],
+    "watchBugsFixedR1053b": [
+      "kidsofmischief @kidsofmischief → userFollowWatch+freeMintWatch (user-named hang; ETH KoMN)"
+    ]
   },
   "candidates": [
     {
@@ -169242,6 +169283,79 @@
         "site:binancedog.onrender.com"
       ],
       "updatedAt": "2026-11-01 10:34 CST"
+    },
+    {
+      "id": "kidsofmischief",
+      "name": "Kids of Mischief Night",
+      "handle": "@kidsofmischief",
+      "twitter": "@kidsofmischief",
+      "chain": "Ethereum",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "ETH",
+        "NFT",
+        "游戏",
+        "有官网",
+        "有官推",
+        "用户点名",
+        "UF",
+        "freeMint",
+        "R1053"
+      ],
+      "links": {
+        "x": "https://x.com/kidsofmischief",
+        "twitter": "https://x.com/kidsofmischief",
+        "website": "https://kidsofmischief.com/",
+        "web": "https://kidsofmischief.com/",
+        "site": "https://kidsofmischief.com/",
+        "ca": "0x9a0896aD7aD504a14b7292c6b2142Ad96154D58e",
+        "mint": "0x9a0896aD7aD504a14b7292c6b2142Ad96154D58e",
+        "etherscan": "https://etherscan.io/token/0x9a0896aD7aD504a14b7292c6b2142Ad96154D58e"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 6.5
+      },
+      "highlights": [
+        "浏览器 3D Mischief Night 联机游戏已上线（官推称 live）",
+        "ETH 主网 NFT 集合 KoMN，合约已核验",
+        "用户点名挂盯 UF+freeMintWatch"
+      ],
+      "drawbacks": [
+        "非 Agent ID / BNB 打新主线",
+        "NFT buy 需 permit 签名，非公开免费 mint",
+        "粉少（约 55），二级流动性未知"
+      ],
+      "whatsNew": "用户要求补挂 Watch；游戏已 live，ETH KoMN 合约 0x9a08…D58e（站内 boxes≈3010）。",
+      "summary": "ETH 主网万圣节主题 3D 浏览器游戏 + NFT 集合 Kids of Mischief Night（KoMN）。游戏可免费玩；NFT 走签名 buy，非 BN Agent。",
+      "blurb": "ETH 游戏 NFT（KoMN）+ 浏览器 Mischief Night，用户点名挂盯。",
+      "round": 1053,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 55,
+      "xFollowers": 55,
+      "firstSeen": "2026-11-01 10:43 CST",
+      "addedAt": "2026-11-01 10:43 CST",
+      "lastChecked": "2026-11-01 10:43 CST",
+      "zoneHint": "打新",
+      "onchain": {
+        "chainId": 1,
+        "contract": "0x9a0896aD7aD504a14b7292c6b2142Ad96154D58e",
+        "standard": "ERC721",
+        "symbol": "KoMN",
+        "name": "Kids of Mischief Night",
+        "mintStatus": "live",
+        "note": "buy(uint8,permit,sig) payable；站内 mint.boxes≈3010；非 Agent ID",
+        "explorer": "https://etherscan.io/address/0x9a0896aD7aD504a14b7292c6b2142Ad96154D58e",
+        "lastCheckedAt": "2026-11-01 10:43 CST"
+      },
+      "note": "ETH KoMN NFT+游戏，用户要求挂盯；合约 0x9a0896aD7aD504a14b7292c6b2142Ad96154D58e；非 Agent ID/bnAgent",
+      "source": "user-named"
     }
   ],
   "newThisRound": [],
