@@ -1,0 +1,38 @@
+# RESULT R1060
+
+- mode: ample-paced
+- plannedRound: 1060 | actualRound: 1060
+- collision: none（pull后 meta.round=1059）
+- completedAt: 2026-11-01 12:44 CST
+- xReads: 23 | remainingBefore: 685/1000 | remaining: 663/1000
+- softCap: 28
+- xQuota: mode=ample softCap=28 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: 含父代理 PulseLaunchpad 1 次；live remaining 以 X 工具尾部为准 663
+- notify: true
+- alert: 【新收/≤2h】meteorsz(@Meteorszmint)免费LIVE gas≈0.0001BNB 余≈1034站meteorsz.vercel.app；nemotron(@Nemotrontrade)每Agent ID前2份免费仅gas站nemotron.trade/mint；Harvest Phase2仍关≈12:50CST仍≤2h；Nova免费已尽；面板 https://reboot7454.github.io/early-scout/
+- newIds: [meteorsz, nemotron]
+- admits:
+  - meteorsz (@Meteorszmint) — BNB Meteor Card 免费LIVE：gas≈0.0001BNB；freeRemaining≈1034·totalMinted≈77·mintingActive=1·paidPhase=0；站meteorsz.vercel.app；CA 0x517a340cc3ba306161A5dc45995F16DE696570d4；官推粉16；DS score=82
+  - nemotron (@Nemotrontrade) — BNB Agent ID Sigil：每ID前2份免费仅gas，后2份1U/0.0014BNB（付费只报）；站nemotron.trade/mint；Sigil 0xDd8BdfC91cbD572935B09863A742d8296fed0ACf supply≈8056；官推≈12500粉；DS score=76
+- updates:
+  - agent-harvest (@agentharvest_ai) → Phase2仍关(freeOpen=0)·phasePauseEnd≈12:50:47CST仍≤2h；freeLIVE=true；链上核验
+  - nova-agent-shares (@NovaAgentShares) → freeLeft=0/1000·total≈1050·poolOpened=0；免费售罄改付费0.0022BNB只报
+  - mint-writ / binance-can-fly / babycz / bncat / bndoge / crop-pals / dropminters 等 LIVE HTTP 软刷
+- skippedAdmits:
+  - agentpassbnb (@AgentPassBNB) — 付费0.002BNB/card LIVE；DS admit=false（付费+社交弱）只记 keywords/mentions
+  - pojianchengdieb (@pojianchengdieb) — 破茧筹备中非LIVE；DS skip
+  - Lucky Agents CA 0x0B51… — 无核验官推，硬门槛跳过
+  - AmmoraHQ — GIWA 流动性 waitlist，已在库 watching
+- le2h: [agent-harvest Phase2≈12:50CST]
+- watchBugsFixed: 14 entries — meteorsz/nemotron → UF+bnAgent+agentPad+agentMining+freeMint；elysiumpunks→UF+agentPad；lutra-hl/ascendlaunch→UF
+- softDebt: cantonPadWatch / glazeWatch / tokenWorksPlaygroundWatch / tokenWorksWatch lastChecked→2026-11-01 12:44 CST
+- coverage:
+  - userFollowSoft: priority named（PulseLaunchpad父代已读跳过；machinedotfun/bscaidrop/localbottomcom/NutshellMarkets；mobster_meme/starx_xlayer 近期NF跳过不重确认）+ UF shard cursor 152→166（aiarena_fun…SnarksPad；vaultdock/kuranto_rh 先前NF跳过）
+  - tenLanesKeywords: merged OR ~30m — full（agent mining/free mint/fair launch/Agent ID/AIDROP/Pulse/Local Bottom/Nutshell/squeek/STARX/X Layer/pipfun/Tape/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/flap 等）
+  - mentionsChains: Elysium(@Enter_Elysium), GIWA(@GIWA_by_Upbit), Tape(@TapeAIAgent 近窗0), squeekchain, ShieldedNaka, flapdotsh；Starknet/X Layer/DogeEVM/Irys/Arc/STARX 关键词栏覆盖；BN Agent pads 关键词
+  - mustWatch: Harvest/Nova/mint-writ/binance-can-fly/babycz/bncat/bndoge/crop-pals 等；同 handle 去重
+- discordPeekSkipped: true
+- discordPeekDeferred: true
+- clearedPrevNTR: ['nibblers','noryxtradehq','agent007bnb','bianfenhong'] + meta stale ['mint-writ','binance-can-fly']
+- push: (pending)
+- summary: R1060 ample：新收 meteorsz+nemotron 免费LIVE；Harvest≤2h续；Nova免费尽；Watch补挂14；UF 152→166；十栏+mentions全；Discord deferred；notify=true
