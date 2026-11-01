@@ -1,0 +1,34 @@
+# RESULT R1055
+
+- mode: ample-paced
+- plannedRound: 1055 | actualRound: 1055
+- collision: none（pull后仍为1054；R1054为Discord alpha补漏未推进UF）
+- completedAt: 2026-11-01 11:04 CST
+- xReads: 34 | remainingBefore: 795/1000 | remaining: 761/1000
+- softCap: 28
+- xQuota: mode=ample softCap=28 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: R1045 already post-reset-full；本轮 ample-paced；略超 softCap 因 Harvest≤2h/Agentry/DropMinters 必盯+多链 mentions
+- notify: true
+- alert: 【可打】Agent Harvest Phase2免费地≈12:50CST开窗（≤2h）站agent-harvest.pages.dev；Agentry免费售罄改0.0003BNB付费≈10102/5万；新收Baby CZ(@babycz_ai) 1U公平铸LIVE（付费只报）babycz.meme；面板 https://reboot7454.github.io/early-scout/
+- newIds: [babycz]
+- admits:
+  - babycz (@babycz_ai) — $BABYCZ 公平铸LIVE：1 USDT/份·1万份·售罄自动Pancake+LP销毁·7天未售罄全退；已支持Binance Agent ID登录；站babycz.meme；CA 0x959f…A131；粉3极早期；付费只报；DS score=60
+- updates:
+  - agent-harvest (@agentharvest_ai) → Phase2免费地≈12:50CST进入≤2h；freeLIVE=true；DS score=74
+  - agentrybaw (@AgentryBAW) → 免费窗售罄→0.0003BNB付费；≈10102/50000；freeLIVE=false；DS score=62
+  - dropminters / printer-ai / crop-pals / kenranft / synklings / elevatepad 进度软刷
+  - bncat / bndoge / bitcoin-frogs-agent / siege / fistagent 软刷
+- le2h: [agent-harvest Phase2≈12:50CST]
+- watchBugsFixed: 6 entries — alloyfun/hyperlytrade/oblaunchpadall/askglyph/peggerdotfun→UF+agentPad(+elysium)；babycz→UF+bnAgent+agentPad+agentMining
+- softDebt: cantonPadWatch / glazeWatch / tokenWorksPlaygroundWatch / tokenWorksWatch lastChecked→2026-11-01 11:04 CST
+- coverage:
+  - userFollowSoft: priority named（mobster NF；machinedotfun/bscaidrop/PulseLaunchpad/localbottomcom/NutshellMarkets；starx_xlayer NF）+ UF shard cursor 110→124
+  - tenLanesKeywords: merged OR ~30m — full
+  - mentionsChains: Elysium(@Enter_Elysium+elevatepad), GIWA(@GIWA_by_Upbit/deuslaunch), Tape(@TapeAIAgent 0近窗), Starknet, ShieldedNaka/BTC privacy, squeekchain, X Layer(0近窗), BN Agent pads；DogeEVM/flap/Irys/Arc/STARX 关键词栏覆盖
+  - mustWatch: Harvest/Agentry/Kenra/DropMinters/printer/crop/frogs/siege/bncat/bndoge；同 handle 去重
+- discordPeekSkipped: true
+- discordPeekDeferred: true
+- discordLoginOk: false
+- skippedLeads: ElysiansRealm（Elysium PFP Announced无mint窗 — DS skip）；agentgoose 无清晰官推；mobster_meme NF；starx_xlayer NF
+- summary: ample-paced R1055，xReads 34/28 softCap，795→761；新收 babycz（1U公平铸付费只报）；Harvest Phase2进入≤2h告警；Agentry免费售罄改付费；Watch补挂×6；软债刷；UF cursor 110→124；十栏+mentions全；Discord deferred；notify=true。
+- push: pending
