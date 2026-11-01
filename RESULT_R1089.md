@@ -1,0 +1,29 @@
+# RESULT R1089
+
+- mode: pace
+- plannedRound: 1089
+- actualRound: 1089
+- collision: false
+- completedAt: 2026-11-02 02:35 CST
+- xReads: 19
+- remainingBefore: 123
+- remaining: 104
+- softCap: 22
+- xQuota: softCap=22 用19；footer remainingBefore≈123→104（x_budget.py 仍报陈旧301，以footer为准；mode=pace）
+- deferredFullScan: false
+- notify: true
+- alert: 【R1089】Tycoon City免费地块LIVE @PlayTycoonCity；Vault Crack免费PoW≈185 @vault_crack；DungBeetle付费0.002BNB仅观察；PunksOnDrugs RH freemint即将。Harvest phase4≤2h→04:12CST。BNBPIG免费无官推只观察。面板：https://reboot7454.github.io/early-scout/
+- newIds: [tycoon-city, dung-beetle-agent, vault-crack, punks-on-drugs]
+- admits: [tycoon-city score74 live DS；官网 tycooncity.live + 官推@PlayTycoonCity 644粉；Agent ID免费地块LIVE+开箱0.0014BNB；dung-beetle-agent score55 live DS；官网 dungbeetleagent.fun + 官推今日新建1粉；付费0.002BNB只报；vault-crack score78 live DS；官网 vaultcrack.xyz + 官推@vault_crack 2粉；CA 0x049E… RPC tm≈185 免费PoW；punks-on-drugs score57 upcoming DS；官网 punksdrugs.netlify.app + 官推@PunksOnDrugs 741粉；RH freemint即将]
+- updates: [runin-ai(freeClaimed≈2222/4444 sold=2), kdai(tm≈401), gwei-wbbb(tm≈28), agent-dog(shares≈947), bnbbaby(free≈7181), minter-agent(free≈144/ts≈437), bairs(sold≈2163), axmi(tm≈190), long-agent(sold≈4022), snowball-agent(tm=1), bound-agents(shares=2), agent-harvest(phase4≈2199 pause至04:12CST le2h≈1.7h), agent-believers(349), agent2(upcoming 20:00CST), elynx/elysium-gloom/lordhood lastChecked刷新]
+- skippedAdmits: [BNBPIG bnbpig.pages.dev 免费前5000 LIVE 但无明确官推/模板刷屏 → 无推特skip，alert旁注观察；vaultcrackprotocol.pages.dev 免费PoW tm≈1530/6000 与 vaultcrack.xyz 异约，无独立官推skip勿混；GhostXAIagent 官网HTTP500信息薄skip；POPZERO 过热池LIVE续skip；starx_xlayer/TapeOut_xyz/giwa_xyz/bibiainft/mobster_meme NF_skip不重读；Trysmolpadfun suspended]
+- le2h: [agent-harvest]（phase4 pauseEnd≈04:12:50 CST ≈1.7h ≤2h；AGENT2 今晚20:00CST ≈17.4h）
+- ufCursor: 584→600
+- tenLanesKeywords: true（合并 Agent ID/fair·free mint/STARX·X Layer/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿打新/Nutshell·squeek/Pulse·RH pads/flap·Irys·Full.fun 等；命中 PlayTycoonCity+DungBeetleAgent+vault_crack+PunksOnDrugs+BNBPIG(skip无官推)+GhostX(skip)+Writ_Fi/Elympus已在库）
+- mentionsChains: Elysium(@Enter_Elysium→ElysiumPunks/Elympus已在库)；squeek(@squeekchain)；BN pad(@Ptahtrade POA刷屏)；GIWA(@GIWA_by_Upbit→Writ_Fi已在库)；Tape(@TapeAIAgent)；STARX关键词（官号NF_skip）
+- watchBugsFixed: ['@PlayTycoonCity → UF+agentPad+freeMint+bnAgent + tycoon-city', '@DungBeetleAgent → UF+agentPad+bnAgent + dung-beetle-agent', '@vault_crack → UF+agentPad+freeMint+bnAgent + vault-crack', '@PunksOnDrugs → UF+freeMintWatch + punks-on-drugs']
+- Discord: discordPeekDeferred=true（无登录）
+- push: (pending)
+- NF_skip: starx_xlayer；TapeOut_xyz；giwa_xyz（改用 GIWA_by_Upbit）；bibiainft；mobster_meme(NF)；Trysmolpadfun suspended
+- softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch/tapeOutWatch/flapPadWatch/irysPadWatch/fullFunWatch/arcPadWatch/zeroWatch/agentMiningWatch lastChecked refreshed
+- notes: DeepSeek admit+score tycoon-city/dung-beetle-agent/vault-crack/punks-on-drugs；真新免费LIVE(tycoon+vault-crack)+Harvest≤2h→notify；UF 584–599均已在库；RPC bsc-dataseed；vault-crack 用正确CA 0x049E…（勿与protocol 0xB44f混淆）；距08:00CST X重置≈5.4h；xReads19≤softCap22；付费dung只报不自动
