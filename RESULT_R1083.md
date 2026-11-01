@@ -23,7 +23,7 @@
 - mentionsChains: Elysium(@Enter_Elysium 挂靠 Ichor testnet/Elyziuma testnet mint)；squeek(@squeekchain Aura farming Genesis)；Tape(关键词 TapeAIAgent DeWeb)；BN pad关键词；STARX NF_skip；GIWA/Irys/Starknet/BTC 以十栏专名覆盖
 - watchBugsFixed: ['@dotaipad/@yinghubnb/@agentpunkid/@Leeonmort/@computeroll → userFollowWatch；@btcliu205 → UF+AP+freeMintWatch+bnAgentWatch + candidateIds bairs']
 - Discord: discordPeekDeferred=true（无登录）
-- push: (pending)
+- push: 4bd6faa (data 88bbe0e; tip 4bd6faa)
 - NF_skip: starx_xlayer；magnitudeagent；bububullfun suspended；Leeonmort posts NF（账号仍补进UF）
 - softDebt: tokenWorksPlaygroundWatch/cantonPadWatch/glazeWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch lastChecked refreshed
 - notes: DeepSeek admit+score BAIRS=54；免费LIVE必须notify；付费只报不自动；本雷达不执行mint；bnbbaby freeMinted()链上≈4834（与R1082 shares口径不同）；shib sold本轮选择子未解出沿用≈239；urllib RPC易挂改用curl+keccak
