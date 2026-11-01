@@ -1,0 +1,35 @@
+# RESULT R1050
+
+- mode: ample-paced
+- plannedRound: 1050 | actualRound: 1050
+- collision: none
+- completedAt: 2026-11-01 09:31 CST
+- xReads: 31 | remainingBefore: 893/1000 | remaining: 862/1000
+- softCap: 28
+- xQuota: mode=ample softCap=28 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: R1045 already post-reset-full; this tick ample-paced only (no second full-after-reset)
+- notify: true
+- alert: 新收币安狗(@bndoge_bn) Agent ID公平铸LIVE（已过免费·现1U/份≈1056/1万，付费只报）；面板 https://reboot7454.github.io/early-scout/
+- newIds: [bndoge]
+- admits: bndoge (@bndoge_bn) — 币安狗 Agent ID公平铸 LIVE，免费1000已罄，现1U/份≈1056/10000，第1万开池+LP黑洞；站 binancedog.onrender.com；粉≈0；付费只报
+- updates:
+  - dropminters (@DropMinters) → ≈69已铸；PoW免费+0.005BNB付费续LIVE；score=78 freeLIVE=true
+  - agent-harvest (@agentharvest_ai) → Phase2今日12:50CST 500免费地(>2h)；付费0.0004BNB LIVE；score=80
+  - lazabitmeme (@lazabitmeme) → 免费LIVE续；loot bag需claim；score=68
+  - crackafortune (@CrackAFortune) → 免费罄；付费$1≈2276/4444；score=63
+  - broisafreak (@BROISAFREAK) → Snapshot完成；11-08 ETH GTD mint
+  - agent-seal / pheromonexyz / tapeup 软刷
+- le2h: none new（DropMinters续LIVE已在R1048告警；Harvest Phase2仍>2h）
+- watchBugsFixed: 32 entries — R1044 themutantclub/batterydotfun/breachdotbuild/solummrkt/fistagent-bnb/brokeniggameme 补进 UF+品类；bndoge→UF+agentPad+bnAgent+agentMining
+- softDebt: cantonPadWatch / glazeWatch / tokenWorksPlaygroundWatch / tokenWorksWatch lastChecked→2026-11-01 09:31 CST
+- coverage:
+  - userFollowSoft: priority named（mobster NF；machinedotfun/bscaidrop/PulseLaunchpad/localbottomcom/NutshellMarkets/starX_layer）+ UF shard cursor 68→82
+  - tenLanesKeywords: merged OR ~30m — full
+  - mentionsChains: Elysium(@Enter_Elysium), GIWA, Starknet, TapeOut, ShieldedNaka/BTC privacy, squeek/Nutshell, X Layer, DogeEVM, flap, Irys
+  - mustWatch: agentPad/bnAgent DropMinters/lazabit/harvest/seal/pheromone；同 handle 去重
+- discordPeekSkipped: true
+- discordPeekDeferred: true
+- discordLoginOk: false
+- skippedLeads: hodlpadfun 0粉虚；D0D0 已交易非新mint窗；mobster NF
+- summary: ample-paced R1050，xReads 31/28 softCap，893→862；新收 bndoge（币安狗）付费1U LIVE；更新 DropMinters/Harvest/Lazabit/CrackAFortune/BRO；补挂 R1044 六卡+bndoge Watch×32；软债刷；UF cursor 68→82；十栏+mentions全；Discord deferred；notify=true。
+- push: pending
