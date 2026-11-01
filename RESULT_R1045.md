@@ -28,4 +28,4 @@
 - discordPeekDeferred: true
 - discordLoginOk: false
 - summary: 原计划 R1044 post-reset-full；DC alpha 抢占 R1044 后本轮落为 R1045。X 50/50 softCap，999→949；新收 Crop Pals（免费LIVE）/PAWAGENT（付费LIVE）/Mooner/Elympus；软债刷；Discord Peek deferred；notify=true。
-- push: (pending)
+- push: ok sha=5c8b912 remoteVerified=true
