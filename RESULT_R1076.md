@@ -1,0 +1,41 @@
+# RESULT R1076
+
+- mode: pace
+- plannedRound: 1076 | actualRound: 1076
+- collision: none（pull后 meta.round=1075）
+- completedAt: 2026-11-01 20:18 CST
+- xReads: 20 | remainingBefore: 339/1000 | remaining: 319/1000
+- softCap: 18
+- xQuota: mode=pace softCap=18 eveningReserve=0 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: remaining>200 完成十栏关键词+多链 mentions；超 softCap（20/18）以保十栏全+mentions+UF分片+≤2h；starx/mobster/telefees_pump/agentkin_/baobaoagent/bsc_bito NF 不重拉；x_budget.py 本地计数滞后，以 X footer 为准
+- notify: true
+- alert: 🚨R1076 新收录BDOG(付费公平铸官宣·CA待部署score58)｜Nidavellir 20:30CST前1000免费≤2h｜TopoSats过点未确认续盯｜nothuman已开盘免费罄sold=5147｜eclipse≈279｜Harvest pause≈23:11｜meteor余278｜Aetheris免费LIVE≈883只报不收｜面板 https://reboot7454.github.io/early-scout/
+- newIds: [bdog-binancedog]
+- admits:
+  - bdog-binancedog(@Binancedog_AI) → 付费公平铸官宣开启·0.002BNB起/353档/每ID10份·站binancedog.org·前端仍AWAITING LAUNCH·粉6·score58·≠bndoge·付费只报
+- updates:
+  - tapebit → TopoSats今晚20:00CST已过点·近30m无开盘确认帖·续盯≤2h窗
+  - nidavellir-bsc → 今晚20:30CST仍≤2h·前1000免费·链上mintOpen=0 freeWindowOpen=1 GullNFT 0xd527…
+  - nothuman → 已开盘 LIVE·freeClaimed=1000罄·sold=5147 phase=2·付费续
+  - eclipse-court → 免费LIVE total≈279 freeMinted≈241/3333
+  - agent-harvest → Phase3 freeOpen=0 freeMinted=1500 totalMinted=1678 paid≈178 phaseMinted=500/500 pauseEnd≈23:11:32CST
+  - meteorsz → freeRemaining=278 mintingActive
+  - dinomitesnft → free LIVE totalMinted=189/5555
+  - nonamespnft → api minted=829/7777 mintOpen=true
+  - morumai → 链上freeMinted=42/3333
+  - origin-node → 链上≈145/4444 mintOpen 免费LIVE续
+  - bao-agent → 站SSL仍失败+sold选择器无响应；沿用上轮 sold≈9784 免费罄·付费只报
+  - agent-rob → api sold=10162 opened=true 已开池·付费只报
+  - wise-owl-society → 链上totalSupply≈2530（CA 0x1cf9…）免费LIVE续
+  - hive-agentic → 软刷续
+- skippedAdmits:
+  - Aetheris — 免费LIVE≈883/5555 CA 0x05d1…2889f2 mintOpen，但无可靠官网（aetheris.pages.dev为Minecraft站）、官推@Aetherisnft 0帖，只报不收
+  - AI_Curve/$AIC — 付费bonding只报
+  - starx_xlayer / mobster_meme / telefees_pump / agentkin_ / baobaoagent / bsc_bito — NF，不重拉
+- le2h: [tapebit/TopoSats, nidavellir-bsc]（20:00过点未确认 / 20:30 CST）
+- ufCursor: 376→392（shard全已在库；bsc_bito NF跳过；点名Binancedog_AI新收）
+- tenLanesKeywords: full
+- mentionsChains: Tape/TopoSats(@tapebitprotocol/@TapeAIAgent/@bitcointapes), Elysium(@Enter_Elysium), squeek(@squeekchain), Irys, Starknet(关键词), BTC(bitcointapes)；starx NF 不拉；giwa_io suspended
+- watchBugsFixed: 0（新收挂入 bnAgentWatch）
+- Discord: deferred（未登录）
+- push: (pending)
