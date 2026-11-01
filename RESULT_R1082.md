@@ -23,7 +23,7 @@
 - mentionsChains: Elysium(@ElysiumPunks waitlist已在库 elysiumpunks)；BN pad关键词；STARX/X Layer(NF skip starx_xlayer)；squeek/Tape/Pulse/GIWA 前序轮换+本轮关键词覆盖；Irys/BTC/Starknet/Zero/DogeEVM 以十栏关键词专名覆盖（额度触 softCap 未再单拉 mentions）
 - watchBugsFixed: ['@minterAgent/@BiandaNiu/@shibagentid → userFollowWatch+agentPadWatch+freeMintWatch+bnAgentWatch accounts/candidateIds']
 - Discord: discordPeekDeferred=true（无登录）
-- push: (pending)
+- push: 0cadcc3 (data 75e2e11; tip 0cadcc3)
 - NF_skip: starx_xlayer；PROXYBNB/proxymint/BNBbabyBNB 等探测 NF
 - softDebt: tokenWorksPlaygroundWatch/cantonPadWatch/glazeWatch/tokenWorksWatch lastChecked refreshed
 - notes: DeepSeek score+alert OK；minter freeMinted=0/freeRemaining=250；BNBbaby mint CA 0xBB7e… shares≈3784 freeClaimed≈3662；Shib sold≈239 free4444罄；PROXY cardsSold≈345 因无官推 skip
