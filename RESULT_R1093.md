@@ -28,7 +28,7 @@ X：10读，76→66，softCap10 tight；Discord deferred
 - mentionsChains: Elysium（@Enter_Elysium →命中 @IchorElysium 新挂靠 admit；CyclopesElysium NF）；Tape（@TapeAIAgent 近窗无新挂靠打新）；GIWA（@GIWA_by_Upbit →命中 @Flizyapp/@Writ_Fi 已核，Flizy admit）；squeek（KW噪声无新合格收）
 - watchBugsFixed: [plopz补入 freeMintWatch+accounts；elysiumWatch+kinetiqWatch+UF ← ichor-elysium/@IchorElysium；giwaWatch+UF ← flizy/@Flizyapp]
 - Discord: discordPeekDeferred=true（无登录）
-- push: data 53c3d18 / tip 12a65a5 (parent 8f5595e)
+- push: data 53c3d18 / tip a93758e (parent 8f5595e)
 - NF_skip: starx_xlayer；TapeOut_xyz；giwa_xyz（改用 GIWA_by_Upbit）；bibiainft；mobster_meme(NF)；Trysmolpadfun suspended；Honestcoin60 suspended；onbeatfun(NF)；beatdotfamily(NF)；CyclopesElysium(NF)
 - softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch/tapeOutWatch/flapPadWatch/irysPadWatch/fullFunWatch/arcPadWatch/zeroWatch/agentMiningWatch lastChecked refreshed
 - notes: DeepSeek admit ichor-elysium score82 + flizy score62；Harvest R1092已告 FREE OPEN，本轮 freeOpen翻0进入暂停非新免费开闸；UF 672–695均已在库；RPC bsc-dataseed（tycoon totalMinted/dung SSL EOF，用totalSupply）；kinetiq ecosystem HTTP 429；本号只scout不自动mint；xReads10=softCap10；mentions轮换接R1092后扫 Elysium+Tape+GIWA/squeek
