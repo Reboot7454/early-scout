@@ -1,0 +1,29 @@
+# RESULT R1097
+
+- mode: near-exhausted
+- plannedRound: 1097
+- actualRound: 1097
+- collision: false
+- completedAt: 2026-11-02 06:40 CST
+- xReads: 8
+- remainingBefore: 36
+- remaining: 28
+- softCap: 8
+- xQuota: softCap=8 用尽8；footer remainingBefore≈36→28（x_budget.py开跑陈旧显示1000/ample，以footer为准；mode=near-exhausted；距08:00CST重置≈1.3h；KW精简1+1次，mentions defer）
+- deferredFullScan: false
+- notify: true
+- alert: R1097：新收录 Agent Place(@agentplacewall) BNB Agent ID像素墙48h窗 watching score55，CA已部署但未真正开刷；接盘侠(@jiepanfun)核验升为免费LIVE tm≈36；PIXCADE免费将尽 free≈1435/1500。面板：https://reboot7454.github.io/early-scout/
+- newIds: [agentplacewall]
+- admits: [agentplacewall score55 watching DS；官网agentplacewall.xyz+官推@agentplacewall≈1粉；CA 0xBDAA51FBf32A6a3166235e7A6295A1e5D5D5f432 已部署 name=Agent Place - Final Wall 但站内仍写未部署/Waiting first stroke totalSupply=0；48h窗至11/3 21:00UTC；付费粉刷非免费mint]
+- updates: [agent-harvest(phase5 freeOpen=0→09:17CST tm≈2724 free≈2500 paid≈224 hours≈2.71非≤2h), pixcade(tm≈1449/3000 free≈1435/1500猛增将尽), baoracle(tm≈2490), runin-ai(freeClaimed=4444满 sold≈156), bnbbaby(free≈9590), agent-dog(shares≈1161), tycoon-city(ts≈1440), aipro(tm≈4916), jiepanfun(watching→live freeLIVE CA核验 tm≈36 freeClaimed≈1468), kdai(tm≈401), gwei-wbbb(tm≈28), minter-agent(free≈153/ts≈465), bairs(sold≈2163), axmi(tm≈201), long-agent(sold≈4048), snowball-agent(tm=1), bound-agents(totalShares=2), agent-believers(tm≈358), rootlinks/vault-crack lastChecked刷新]
+- skippedAdmits: [POPZERO续skip过热；BLIZZARD无独立可核新官推续skip；Future Bears链上扫无明确官推skip；Elysdex已在库R848仅进度；jiepanfun-update DS skip新收录（已在库，本轮改updates）]
+- le2h: []（Harvest pauseEnd≈09:17:55CST ≈2.71h 非≤2h）
+- ufCursor: 741→757
+- tenLanesKeywords: true（near-exhausted精简：合并BNB Agent free/fair mint + Elysium/Tape/GIWA/squeek/Starknet/X Layer；命中agentplacewall→admit；jiepan LIVE核验）
+- mentionsChains: deferred（near-exhausted softCap满；建议下轮补 BN pads+Elysium+Tape+GIWA/X Layer）
+- watchBugsFixed: [agentplacewall → UF+bnAgent+agentPad accounts+candidateIds；jiepanfun → UF+bnAgent+agentPad+freeMint]
+- Discord: discordPeekDeferred=true（无登录）
+- push: data PENDING / tip PENDING
+- NF_skip: oblaunchpadAll；NovaAgentShares；mint_WRIT；babycz_ai(suspended)；starx_xlayer；TapeOut_xyz；giwa_xyz；bibiainft；mobster_meme；Trysmolpadfun；Honestcoin60；onbeatfun；beatdotfamily；CyclopesElysium；vytraqfun（继承上轮不重读）
+- softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch/tapeOutWatch/flapPadWatch/irysPadWatch/fullFunWatch/arcPadWatch/zeroWatch/agentMiningWatch lastChecked refreshed
+- notes: DeepSeek admit agentplacewall55 watching；jiepanfun升live非新收；Harvest仍暂停≈2.71h；UF 741–756均已在库（3NF+1 suspended）；点名UF软刷machinedotfun（mobster/starx NF_skip）；RPC bsc-dataseed；本号只scout不自动mint；xReads8/softCap8用尽；mentions defer→下轮；pixcade free 871→1435猛增；baoracle 1704→2490
