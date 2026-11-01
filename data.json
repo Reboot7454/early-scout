@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-01 08:40 CST",
+    "updated": "2026-11-01 08:48 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R1036",
-    "lastScout": "2026-11-01 08:13 CST",
+    "lastScout": "2026-11-01 08:48 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -645,7 +645,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1046,
+    "round": 1047,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1842,7 +1842,12 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "trytradeo",
+      "agentic-coin",
+      "iglusol",
+      "aizobsc"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -3890,20 +3895,19 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-11-01 08:02",
-      "lastChecked": "2026-11-01 08:05 CST",
-      "newestCardTime": "2026-11-01 08:02",
-      "cardsAfterCutoff": 73,
-      "note": "R1044：Discord alpha 补收 brokeniggameme,fistagent-bnb,solummrkt,breachdotbuild,batterydotfun,themutantclub；lastSeen→2026-11-01 08:02；lastChecked→2026-11-01 08:05 CST",
-      "lastRound": 1044,
+      "deferred": false,
+      "lastSeen": "2026-11-01 08:42",
+      "lastChecked": "2026-11-01 08:48 CST",
+      "newestCardTime": "2026-11-01 08:42",
+      "cardsAfterCutoff": 39,
+      "note": "R1047：Discord alpha 补收 trytradeo,agentic-coin,iglusol,aizobsc；lastSeen→2026-11-01 08:42；lastChecked→2026-11-01 08:48 CST",
+      "lastRound": 1047,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-01 08:02",
-        "alpha-1-backup": "2026-11-01 07:44",
-        "smart-accounts-tracker": "2026-11-01 07:49",
-        "alpha-1": "2026-11-01 07:23"
-      },
-      "r1046": "browser login absent → peek deferred"
+        "alpha-3-new-accounts": "2026-11-01 08:42",
+        "alpha-1-backup": "2026-11-01 08:28",
+        "smart-accounts-tracker": "2026-11-01 08:36",
+        "alpha-1": "2026-11-01 08:17"
+      }
     },
     "round239Added": [
       "tsunamilaunch",
@@ -17305,9 +17309,193 @@
     "r1045WatchBugs": {
       "count": 0,
       "note": "no new watch bugs"
-    }
+    },
+    "round1047Added": [
+      "trytradeo",
+      "agentic-coin",
+      "iglusol",
+      "aizobsc"
+    ]
   },
   "candidates": [
+    {
+      "id": "aizobsc",
+      "name": "AIZO",
+      "handle": "@AIZOBsc",
+      "twitter": "@aizobsc",
+      "chain": "BSC",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/AIZOBsc"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 5,
+        "novelty": 5,
+        "actionable": 5,
+        "overall": 6.0
+      },
+      "highlights": [
+        "BSC 发射台赛道，与打新动作直接相关",
+        "提出 SATO 模型与 Agent ID(.ai) 差异化设计",
+        "粉丝少、处于建设期，信息早于市场"
+      ],
+      "drawbacks": [
+        "产品仍在 building，无上线数据与合约细节",
+        "发射台赛道拥挤，竞争激烈"
+      ],
+      "whatsNew": "以 SATO 模型 + Agent ID 为卖点的 BSC 发射台进入建设阶段",
+      "summary": "BSC 上的早期代币发射台项目，主打 SATO 模型与 .ai Agent ID，具备打新叙事与发射台产品雏形，适合列入早期观察。",
+      "blurb": "BSC 发射台，SATO 模型 + Agent ID(.ai)，早期建设期。",
+      "round": 1047,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 351,
+      "xFollowers": 351,
+      "firstSeen": "2026-11-01 08:48 CST",
+      "addedAt": "2026-11-01 08:48 CST",
+      "lastChecked": "2026-11-01 08:48 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "iglusol",
+      "name": "$IGLU",
+      "handle": "@iglusol",
+      "twitter": "@iglusol",
+      "chain": "Solana",
+      "category": "GO盘",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/iglusol"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 5,
+        "novelty": 5,
+        "actionable": 5,
+        "overall": 5.7
+      },
+      "highlights": [
+        "已在 Solana Mobile dApp Store 上线，产品真实可玩",
+        "即将登陆 Google Play / App Store，渠道扩张路径清晰",
+        "绑定 $IGLU 代币，具备早期参与窗口"
+      ],
+      "drawbacks": [
+        "玩法偏休闲，代币经济未披露",
+        "粉丝量小，市场验证不足"
+      ],
+      "whatsNew": "免费英雄对战游戏上线 Solana Mobile dApp Store，并预告登陆主流应用商店",
+      "summary": "Solana 上的免费英雄对战游戏，Web 端已可玩并进入 Solana Mobile dApp Store，移动端商店上架在即，属于有真实产品形态的早期 GameFi 标的。",
+      "blurb": "Solana 免费英雄对战游戏，dApp Store 已上线，主流商店在排队。",
+      "round": 1047,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 451,
+      "xFollowers": 451,
+      "firstSeen": "2026-11-01 08:48 CST",
+      "addedAt": "2026-11-01 08:48 CST",
+      "lastChecked": "2026-11-01 08:48 CST",
+      "zoneHint": "GO盘",
+      "newThisRound": true
+    },
+    {
+      "id": "agentic-coin",
+      "name": "Agentic Coin",
+      "handle": "@Agentic_coin",
+      "twitter": "@agentic_coin",
+      "chain": "",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Agentic_coin"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 5,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 6.6
+      },
+      "highlights": [
+        "仅 AI agent 可挖的币，叙事新颖",
+        "自称长期运行的链上实验"
+      ],
+      "drawbacks": [
+        "零关注、无链接与文档",
+        "挖矿机制与链未披露"
+      ],
+      "whatsNew": "出现 agent-only 挖矿概念的链上实验项目。",
+      "summary": "Agentic Coin 主打仅由 agent 参与的链上挖矿实验，玩法线索明确但信息极少。",
+      "blurb": "Agent 专属挖矿实验币，早期跟踪。",
+      "round": 1047,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-01 08:48 CST",
+      "addedAt": "2026-11-01 08:48 CST",
+      "lastChecked": "2026-11-01 08:48 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
+    {
+      "id": "trytradeo",
+      "name": "Tradeo",
+      "handle": "@trytradeo",
+      "twitter": "@trytradeo",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/trytradeo"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 5,
+        "novelty": 5,
+        "actionable": 4,
+        "overall": 5.5
+      },
+      "highlights": [
+        "链上评级收藏卡交易与竞价市场",
+        "定位清晰：Every card, on-chain"
+      ],
+      "drawbacks": [
+        "零关注，尚无产品截图或上线时间",
+        "未见链与代币信息"
+      ],
+      "whatsNew": "新出现的链上收藏卡交易市场项目账号。",
+      "summary": "Tradeo 定位为评级收藏卡的链上交易、购买与竞价市场，账号极新、仅有概念描述。",
+      "blurb": "链上评级卡牌交易市场，极早期观察。",
+      "round": 1047,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-01 08:48 CST",
+      "addedAt": "2026-11-01 08:48 CST",
+      "lastChecked": "2026-11-01 08:48 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "crop-pals",
       "name": "Crop Pals",
@@ -168446,16 +168634,21 @@
       "newThisRound": false
     }
   ],
-  "newThisRound": [],
-  "alertMessage": "新增：Crop Pals 首颗免费 LIVE≈2777/10k、PAWAGENT $1/share LIVE≈92/10k；另收 Mooner(Hyperliquid台)/Elympus(Elysium WL)。面板 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "trytradeo",
+    "agentic-coin",
+    "iglusol",
+    "aizobsc"
+  ],
+  "alertMessage": "DC补漏R1047新收Tradeo、Agentic Coin、$IGLU、AIZO；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [],
-  "updatedAt": "2026-11-01 08:40 CST",
-  "updated": "2026-11-01 08:05 CST",
+  "updatedAt": "2026-11-01 08:48 CST",
+  "updated": "2026-11-01 08:48 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-01 08:05 CST",
+  "lastScout": "2026-11-01 08:48 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -168497,7 +168690,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 2465,
+  "candidateCount": 2473,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -170335,5 +170528,11 @@
     "pawagent",
     "moonerfun",
     "elymphus"
+  ],
+  "round1047Added": [
+    "trytradeo",
+    "agentic-coin",
+    "iglusol",
+    "aizobsc"
   ]
 }
