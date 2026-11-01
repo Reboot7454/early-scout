@@ -1,0 +1,42 @@
+# RESULT R1074
+
+- mode: pace
+- plannedRound: 1074 | actualRound: 1074
+- collision: none（pull后 meta.round=1073）
+- completedAt: 2026-11-01 19:09 CST
+- xReads: 24 | remainingBefore: 388/1000 | remaining: 364/1000
+- softCap: 18
+- xQuota: mode=pace softCap=18 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: remaining>200 完成十栏关键词+多链 mentions；超 softCap（24/18）以保十栏全+mentions+UF分片+≤2h；starx/mobster NF 不重拉；x_budget.py 本地计数滞后，以 X footer 为准
+- notify: true
+- alert: 🚨R1074 无新收录｜TopoSats今晚20:00CST仍≤2h（约50m）｜Harvest Phase3 free满 total=1669 pause≈23:11｜bao急冲 sold=9784｜AgentRob≈9673/10k逼近开池｜meteorsz余≈286｜dino189｜NoNames826｜morumai42｜origin≈141｜面板 https://reboot7454.github.io/early-scout/
+- newIds: []
+- admits: （无）
+- updates:
+  - tapebit → TopoSats今晚20:00CST仍≤2h（约+50m）
+  - agent-harvest → Phase3 freeOpen=0 freeMinted=1500 totalMinted=1669 paid≈169 phaseMinted=500/500 pauseEnd≈23:11:32CST（非≤2h）
+  - meteorsz → freeRemaining=286 · totalMinted=825
+  - dinomitesnft → free LIVE minted=189/5555
+  - nonamespnft → api minted=826/7777 mintOpen=true
+  - morumai → 链上minted=42/3333
+  - bao-agent → 免费池罄 freeSharesRemaining=0 · sold=9784/10000 · 付费0.0012BNB急冲
+  - origin-node → 链上≈141/4444 mintOpen
+  - agent-rob → sold=9673/10000(~97%) price≈$1.00 付费只报 · 逼近开池
+  - zigzoo → 链上≈19/1111 付费只报
+  - wayangx → 软刷续（上轮≈491）
+  - wise-owl-society → totalSupply≈2479 免费LIVE续
+  - hive-agentic → 免费pollen+付费0.001BNB 续跟
+  - agent-door-bsc → 免费领取仍即将开启
+- skippedAdmits:
+  - MoooMoooooM / agent币(moomoo.cloud/agentcoin) — 免费槽 freeRemaining=0；官推缺失（候选号0粉），付费阶梯只报不收录
+  - ArcPulseApp(@ArcPulseApp) — 弱信号/未交叉官网官推硬门槛，跳过
+  - FLAPS_Launchpad(@FLAPS_Launchpad) — 9粉 flap 弱号，跳过
+  - Writ_Fi(@Writ_Fi) — GIWA options 任务站非 mint（续跳）
+  - starx_xlayer / mobster_meme — NF，不重拉
+- le2h: [tapebit/TopoSats]（今晚20:00CST ≤2h · ≈50m）
+- ufCursor: 352→364
+- tenLanesKeywords: full
+- mentionsChains: Tape/TopoSats(@TapeAIAgent/@bitcointapes), Elysium(@Enter_Elysium), GIWA, Irys, Starknet, DogeOS（flap/squeek/BTC 关键词合并；starx NF 不重拉）
+- watchBugsFixed: 0
+- Discord: deferred（未登录）
+- push: (pending)
