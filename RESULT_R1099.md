@@ -40,7 +40,7 @@
 - mentionsChains: deferred（建议 08:00 CST 重置后首轮补 BN pads + Elysium + Tape + GIWA/X Layer，及此前 defer 的 Zero/DogeEVM/Starknet/flap/Irys 等）
 - watchBugsFixed: []
 - Discord: discordPeekDeferred=true（无登录，勿尝试）
-- push: (filled after push)
+- push: b89714b8cb07703674e66fc5cf74a2a01eff1251 (data tip; parent tip 1a2db11→b89714b)
 - NF_skip: oblaunchpadAll; NovaAgentShares; mint_WRIT; babycz_ai(suspended); starx_xlayer; TapeOut_xyz; giwa_xyz; bibiainft; mobster_meme; Trysmolpadfun; Honestcoin60; onbeatfun; beatdotfamily; CyclopesElysium; vytraqfun; AiPullpad; oblaunchpadbase; machinedotfun; PulseLaunchpad(本轮父探针勿重读); BinanceHack(suspended,本轮新增)
 - softDebt: 已刷新 cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch/tapeOutWatch/flapPadWatch/irysPadWatch/fullFunWatch/arcPadWatch/zeroWatch/agentMiningWatch lastChecked
 - notes: |
