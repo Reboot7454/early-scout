@@ -1,0 +1,44 @@
+# RESULT R1072
+
+- mode: pace
+- plannedRound: 1072 | actualRound: 1072
+- collision: none（pull后 meta.round=1071）
+- completedAt: 2026-11-01 18:17 CST
+- xReads: 23 | remainingBefore: 433/1000 | remaining: 410/1000
+- softCap: 18
+- xQuota: mode=pace softCap=18 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: remaining>200 完成十栏关键词+多链 mentions；超 softCap（23/18）以保十栏全+mentions+UF分片；starx NF 不重拉
+- notify: true
+- alert: 🚨R1072 新收录 AgentRob(@AgentRobRh) 付费阶梯LIVE（免费1000已罄，$0.50起，只报不自动）｜Harvest Phase3已开且免费500打满 freeMinted=1500 total≈1646｜TopoSats今晚20:00CST已≤2h｜meteorsz余≈395｜dino178/5555｜NoNames825/7777｜morumai42/3333｜origin≈132｜面板 https://reboot7454.github.io/early-scout/
+- newIds: [agent-rob]
+- admits: agent-rob（@AgentRobRh / agentrob.live / $ROB 0x68b93afa…；score57；免费1000已罄，付费阶梯LIVE；付费只报不自动）
+- updates:
+  - agent-harvest → Phase3已开且本轮免费500打满 freeOpen=0 · freeMinted=1500 totalMinted≈1646 paidMinted≈146 phaseMinted=500/500 currentPhase=3
+  - meteorsz → freeRemaining≈395 · totalMinted≈716 · mintingActive=1
+  - dinomitesnft → free LIVE minted=178/5555
+  - nonamespnft → api minted=825/7777 mintOpen=true
+  - morumai → 链上minted=42/3333 mintingActive=1
+  - bao-agent → 首份免费续LIVE（本轮sold选择器未稳定返回）
+  - origin-node → 链上≈132/4444 免费LIVE续
+  - zigzoo → 链上≈19/1111 付费只报
+  - anxiaojiang → 官推侧 mint stage ended；付费只报
+  - hive-agentic → 免费pollen+付费0.001BNB 续跟
+  - tapebit → TopoSats 今晚20:00CST（约+1.7h≤2h）
+  - agent-door-bsc → 站内免费轮仍「即将开启」；Pass通道续
+  - wise-owl-society → 免费LIVE首铸仅gas续跟
+  - wayangx → 链上totalSupply≈491
+- skippedAdmits:
+  - SENSEI(@SENSEIAgent_) — mint 目标已达成且交易已开，错过铸造窗，不收
+  - SatoAi(@SatoAi_bsc) — 平台币已上线/0粉空号，非可打新 mint，跳过
+  - EarlyAgentic / flapify_bot — 非独立可核验项目官号或仅为 Flap 机器人，跳过
+  - Joseon.fun waitlist / Stockium launchpad — 预告/waitlist 非即时 mint，本轮不收
+  - OFPagent / $LEON / 杂 freemint KOL — 无硬门槛或非本雷达链，跳过
+  - starx_xlayer — 上次 NF，本轮不重拉
+  - juice_bnb / Agentspunks / XiaoMei KOL freemints — 弱信号或已库，跳过
+- le2h: [tapebit/TopoSats]（今晚20:00CST ≤2h；Harvest Phase3免费已满，付费续跟非≤2h开窗）
+- ufCursor: 320→336
+- tenLanesKeywords: full
+- mentionsChains: Elysium, GIWA, Irys, DogeOS, squeek, flap, Starknet, BTC/ShieldedNaka（starx NF 不重拉）
+- watchBugsFixed: 4（agent-rob→UF+agentPad+bnAgent；agent-rob→freeMintWatch.cid 付费进度跟）
+- Discord: deferred（未登录）
+- push: PENDING
