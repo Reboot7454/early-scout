@@ -1,0 +1,46 @@
+# RESULT R1077
+
+- mode: pace
+- plannedRound: 1077 | actualRound: 1077
+- collision: none（pull后 meta.round=1076）
+- completedAt: 2026-11-01 20:39 CST
+- xReads: 18 | remainingBefore: 319/1000 | remaining: 301/1000
+- softCap: 18
+- xQuota: mode=pace softCap=18 eveningReserve=0 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: remaining>200 完成十栏关键词+多链 mentions；踩 softCap（18/18）；starx/mobster/telefees_pump/agentkin_/baobaoagent/bsc_bito + 本轮UF NF(claudesprotocol/wedowtf/stonkaxyz/turbokartbnb) 不重拉；giwa_io suspended；以 X footer 为准
+- notify: true
+- alert: 🚨R1077 新收录Emberlings(免费解谜LIVE minted=3 score72)｜Nidavellir免费LIVE已开supply≈248/前1000急升｜TopoSats过点仍无确认｜BDOG付费铸LIVE千份｜Harvest pause≈23:11｜eclipse≈306｜meteor余278｜nothuman sold=5321｜面板 https://reboot7454.github.io/early-scout/
+- newIds: [emberlings]
+- admits:
+  - emberlings(@emberlingreal) → 免费解谜LIVE·555 pets·站emberlings.pages.dev·CA 0x5dB5…974·链上minted=3 mintOpen·官推今日新建0粉·score72·非Agent门槛
+- updates:
+  - nidavellir-bsc → 免费LIVE已开！官推「Minting is live」20:30CST·mintOpen=1 freeWindowOpen=1 supply≈248急升/前1000免费
+  - tapebit → TopoSats今晚20:00CST已过约40m·搜索/官推仍无开盘确认·≤2h窗淡出续盯
+  - bdog-binancedog → 付费公平铸已LIVE·官推庆千份里程碑·付费只报
+  - agent-harvest → Phase3 freeOpen=0 freeMinted=1500 totalMinted=1679 paid≈179 pauseEnd≈23:11:32CST
+  - nothuman → sold=5321 freeClaimed=1000罄
+  - eclipse-court → total≈306 freeMinted≈267+ mintOpen
+  - meteorsz → freeRemaining=278 mintingActive
+  - dinomitesnft → totalMinted=189/5555 mintOpen
+  - nonamespnft → api minted=831/7777 mintOpen
+  - morumai → freeMinted=42/3333
+  - origin-node → ≈145/4444 mintOpen
+  - bao-agent → SSL/selector仍失败·沿用sold≈9784
+  - agent-rob → api sold=10165 opened=true
+  - wise-owl-society → totalSupply≈2535
+  - hive-agentic → 软刷续
+  - agent-grove → Phase7已过·付费常开
+  - pow-agent-mine → 仍Nov7 13:00UTC
+- skippedAdmits:
+  - ononepad(@ononepad) — Elysium挂靠多链pad官宣HL支持，非新mint窗，DS admit=false score44
+  - Aetheris — 沿用上轮：免费LIVE但无可靠官网/官推，只报不收
+  - POPZERO/$POPZERO — 关键词刷屏消0玩法，无独立可核官推本轮不收
+  - claudesprotocol / wedowtf / stonkaxyz / turbokartbnb — UF shard NF，不重拉
+  - starx_xlayer / mobster_meme / telefees_pump / agentkin_ / baobaoagent / bsc_bito — NF，不重拉
+- le2h: [nidavellir-bsc]（免费窗LIVE急升）；tapebit/TopoSats 过点未确认→淡出
+- ufCursor: 392→408（shard含NF跳过；点名级无新收除关键词emberlings）
+- tenLanesKeywords: full
+- mentionsChains: Tape(@TapeAIAgent 近窗0命中), Elysium(@Enter_Elysium), squeek(@squeekchain), BTC(@bitcointapes), Starknet/Irys/XLayer(关键词扫0命中)；starx NF 不拉；giwa_io suspended
+- watchBugsFixed: 1（emberlings 挂入 freeMintWatch+userFollowWatch；nidav 确认 bnAgent/agentPad/freeMint）
+- Discord: deferred（未登录）
+- push: (pending)
