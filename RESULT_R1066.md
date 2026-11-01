@@ -1,0 +1,37 @@
+# RESULT R1066
+
+- mode: pace
+- plannedRound: 1066 | actualRound: 1066
+- collision: none（pull后 meta.round=1065）
+- completedAt: 2026-11-01 15:05 CST
+- xReads: 14 | remainingBefore: 561/1000 | remaining: 547/1000
+- softCap: 18
+- xQuota: mode=pace softCap=18 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: remaining>200 完成十栏关键词+多链 mentions；本轮补 Irys 直读；略低于 softCap（14/18）
+- notify: true
+- alert: ⚠️新收录1：Morumai 免费LIVE·1111张@0.0001BNB（@Morumai_ / morumai.sbs，链上minted=21/3333，官推11粉极早期高风险）。meteorsz免费余≈891；dinomites=173/5555；NoNames=816/7777；Harvest Phase2仍关≈18:05CST（约+3.0h非≤2h）；TopoSats今晚20:00CST（约+4.9h）；AgentDoor免费领取仍未开0/1000。面板：https://reboot7454.github.io/early-scout/
+- newIds: [morumai]
+- admits:
+  - morumai (@Morumai_) — 免费LIVE 1111@0.0001BNB·付费2222·站morumai.sbs·CA 0xdba6…0a20·链上minted=21 mintingActive=1·粉11·DS score=59·freeLIVE必推
+- updates:
+  - meteorsz → freeRemaining≈891 · totalMinted=220 · mintingActive=1
+  - dinomitesnft → free LIVE minted=173/5555
+  - nonamespnft → api minted=816/7777 mintOpen=true（非近售罄）
+  - agent-harvest → Phase2仍关 freeOpen=0 · pauseEnd≈18:05:30CST（约+3.0h非≤2h）· totalMinted=1132 freeMinted=1000 currentPhase=2
+  - nemotron → totalMinted≈12003 免费前2/ID续
+  - tapebit → TopoSats Agent Mint 预计今晚20:00CST（约+4.9h非≤2h）·官推确认
+  - agent-door-bsc → 免费领取仍未开 0/1000·DOOR/WBNB Pancake已上
+  - wise-owl-society 软刷
+- skippedAdmits:
+  - agent币 / @MoooMoooooM — 站moomoo.cloud示「合约未部署」与推文3133/6666矛盾；未核验LIVE硬跳过
+  - ArcPulseApp — 库内已有 arc-pulse(@Arcdepthoock) 同叙事；不重复建卡
+- le2h: []（Harvest 18:05CST 约+3.0h；TopoSats 20:00CST 约+4.9h）
+- ufCursor: 222→236
+- tenLanesKeywords: full
+- mentionsChains: Irys（直读补齐）, Elysium, GIWA, DogeOS, ShieldedNaka/BTC, Starknet, flap, squeek/Nutshell；X Layer 仍弱（starx_xlayer Not Found 不连刷）
+- watchBugsFixed: 1（agent-door-bsc→freeMintWatch）；新卡同步挂 UF/agentPad/bnAgent/freeMint
+- discordPeekDeferred: true
+- softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch (+tokenworks-playground card) lastChecked→2026-11-01 15:05 CST
+- priorityNamed: starx_xlayer/mobster_meme/swiprdotxyz Not Found 或无信号 跳过不连刷；@NutshellMarkets/@PulseLaunchpad 等经 KW/mentions 覆盖
+- push: pending
+- summary: R1066 pace 新收 morumai 免费LIVE；notify=true；Harvest/TopoSats 均非≤2h；meteorsz余891；dinomites173；NoNames816；UF 222→236；Watch漏挂修×1；X 14读→547；Discord deferred
