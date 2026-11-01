@@ -1,0 +1,29 @@
+# RESULT R1085
+
+- mode: pace
+- plannedRound: 1085
+- actualRound: 1085
+- collision: false
+- completedAt: 2026-11-02 00:46 CST
+- xReads: 18
+- remainingBefore: 188
+- remaining: 170
+- softCap: 18
+- xQuota: hit softCap=18 用满；footer remainingBefore≈188→170（x_budget.py 常报陈旧301，以footer为准）
+- deferredFullScan: false
+- notify: true
+- alert: 【R1085】新收 AGENT DOG @bnb_agent_dog 免费LIVE sharesMinted≈22/12000（前4000免费·其后1-2U·打满开池烧LP·官推0粉）；SAMBARIO @Sambario_bnb 免费LIVE自称3333/7777（官网DNS挂+无CA只观察）。bairs sold≈2148；minter free≈80；bnbbaby≈5390；believers≈337；Harvest phase4≈2199（下一窗≈04:12CST）；long≈3955；axmi≈179。面板 https://reboot7454.github.io/early-scout/
+- newIds: [agent-dog, sambario]
+- admits: [agent-dog score63 freeLIVE DS；官网 bnbdog.pages.dev + launch 0xA74b…B4C1 / token 0xF54E…61b7；官推@bnb_agent_dog 0粉今日新建；sharesMinted≈22/12000 deadline≈2026-11-05 00:18CST；sambario score40 freeLIVE DS；官推@Sambario_bnb 0粉；自称官网 sambario.xyz DNS无A记录+无CA，仅观察]
+- updates: [axmi(tm≈179), bairs(sold≈2148/20000), minter-agent(freeMinted≈80/250), bnbbaby(freeMinted≈5390), shib-agent(sold≈240只报), long-agent(sold≈3955/8888 免费罄), agent-believers(337), agent-harvest(phase4≈2199 pause至04:12CST), bianbian-bnbn(RPC弱软刷), emberlings(21), nothuman(5487), meteorsz(1181), wise-owl-society(supply≈2592), maobp-agent(shares≈199), mehcat-bnb(RPC弱软刷), trine-protocol(67只报), eclipse-court(326), origin-node(supply≈168), dinomitesnft(201)]
+- skippedAdmits: [MOD/mod-sigil.pages.dev Annak0ox分享无清晰官推（R1084已skip）；Ptahtrade mentions 刷屏无新盘；Lanternhold 非Agent公平铸优先；starx_xlayer/mobster_meme/Leeonmort/computeroll NF_skip不重读；streamlitmaker/trycortano/hook404rh NF]
+- le2h: []（Harvest 下一窗≈04:12CST ≈3.4h >2h；新收已LIVE非预告窗）
+- ufCursor: 520→536
+- tenLanesKeywords: true（合并 Agent ID/AIDROP/fair mint/free mint/yinghu/dotaipad/Ptah/STARX/X Layer/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/Nutshell/squeek/pipfun/computeroll 等近30m；命中 Sambario_bnb+bnb_agent_dog 免费LIVE）
+- mentionsChains: Elysium；squeek(@squeekchain)；Tape；BN pad(@Ptahtrade POA刷屏)；GIWA/STARX关键词（NF_skip不重读官号）；Starknet关键词
+- watchBugsFixed: ['@bnb_agent_dog → UF+agentPadWatch+freeMintWatch+bnAgentWatch + candidate agent-dog', '@Sambario_bnb → UF+agentPadWatch+freeMintWatch+bnAgentWatch + candidate sambario']
+- Discord: discordPeekDeferred=true（无登录）
+- push: (pending)
+- NF_skip: starx_xlayer；mobster_meme；Leeonmort；computeroll（本轮不重读）；另NF streamlitmaker/trycortano/hook404rh
+- softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch lastChecked refreshed
+- notes: DeepSeek admit+score agent-dog=63 sambario=40；两则免费LIVE必须notify；付费只报不自动；本雷达不执行mint；sambario 官网DNS未配齐风险高；DOG链上用1rpc/bsc-dataseed3；UF 520–535 均已在库；urllib/ankr RPC易挂改用curl+keccak；Harvest phasePauseEnd≈2026-11-02 04:12 CST
