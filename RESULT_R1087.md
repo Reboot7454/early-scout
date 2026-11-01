@@ -23,7 +23,7 @@
 - mentionsChains: Elysium；Tape（空）；squeek(@squeekchain)；BN pad(@Ptahtrade POA刷屏)；GIWA(@GIWA_by_Upbit)；STARX关键词（官号NF_skip）
 - watchBugsFixed: ['@RuninAI_com → UF+agentPadWatch+bnAgentWatch+freeMintWatch + candidate runin-ai', '@KDAgentAI → UF+agentPadWatch+bnAgentWatch+freeMintWatch + candidate kdai', '@Gweiwbbb → UF+agentPadWatch+bnAgentWatch+freeMintWatch + candidate gwei-wbbb']
 - Discord: discordPeekDeferred=true（无登录）
-- push: (pending)
+- push: 70d2c96 (data 0fe61c8; tip 70d2c96)
 - NF_skip: starx_xlayer；TapeOut_xyz；giwa_xyz（改用 GIWA_by_Upbit）；bibiainft
 - softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch lastChecked refreshed
 - notes: DeepSeek admit runin-ai+kdai+gwei-wbbb；score 64/72/58；runin 免费LIVE→强制notify；付费只报不自动；meta.newThisRound 已从 R1086 漏同步的 agent-dog/sambario 修正为本轮三 id；UF 552–567 均已在库；RPC 用 bsc-dataseed/1rpc 避开 Ankr；Harvest phasePauseEnd≈2026-11-02 04:12 CST；距08:00CST X重置≈6.2h；xReads 12≤softCap18
