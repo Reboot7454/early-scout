@@ -1,0 +1,48 @@
+# RESULT R1078
+
+- mode: pace
+- plannedRound: 1078 | actualRound: 1078
+- collision: none（pull后 meta.round=1077）
+- completedAt: 2026-11-01 21:14 CST
+- xReads: 18 | remainingBefore: 301/1000 | remaining: 283/1000
+- softCap: 18
+- xQuota: mode=pace softCap=18 eveningReserve=0 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: remaining>200 完成十栏关键词+多链 mentions；踩 softCap（18/18）；starx/mobster/telefees_pump/agentkin_/baobaoagent/bsc_bito + 本轮UF NF/suspended(wuseagent/SwarmHiveBNB) 不重拉；giwa_io suspended；以 X footer 为准
+- notify: true
+- alert: 🚨R1078 新收录MAOBP(免费LIVE shares≈127 score60)+BIANBIAN(免费LIVE≈2716/8888余免费≈172 score62)｜TopoSats开盘确认｜Nidav免费1k罄supply≈1025｜Harvest pause≈23:11≤2h｜meteor余276｜ember=13｜nothuman sold=5419｜BDOG阶段1结束｜面板 https://reboot7454.github.io/early-scout/
+- newIds: [maobp-agent, bianbian-bnbn]
+- admits:
+  - maobp-agent(@MAOBP_agent) → 免费Agent ID LIVE·api successfulShares≈127/前10000·站maobp.com·官推今日新建0粉·score60·付费档只报
+  - bianbian-bnbn(@bnbnagent) → 免费LIVE·链上totalShares≈2716/8888·前2888免费约余≈172·站binanceai.fun CA 0x46cb…739E·score62·蹭币安风险
+- updates:
+  - tapebit → TopoSats开盘确认LIVE（过点后续盯）
+  - nidavellir-bsc → 免费前1000罄 freeWindowOpen=0 supply≈1025 mintOpen
+  - agent-harvest → Phase3 free满 totalMinted=1680 paid≈180 pauseEnd≈23:11:32CST（≤2h）
+  - emberlings → totalMinted=13/555 mintOpen
+  - nothuman → sold=5419 freeClaimed=1000罄 phase2
+  - eclipse-court → total≈320 freeMinted≈282 mintOpen
+  - meteorsz → freeRemaining=276 mintingActive tm835
+  - dinomitesnft → totalMinted=189/5555
+  - nonamespnft → ≈833/7777（API TLS失败软沿用）
+  - morumai → freeMinted=42/3333
+  - origin-node → ≈148/4444 mintOpen
+  - bao-agent → SSL/selector仍失败·沿用sold≈9784
+  - agent-rob → api sold=10168 opened=true
+  - wise-owl-society → totalSupply≈2544
+  - bdog-binancedog → 阶段1结束≥2000·付费只报
+  - hive-agentic → 软刷续
+  - agent-grove → Phase7已过·付费常开
+  - pow-agent-mine → 仍Nov7 13:00UTC
+- skippedAdmits:
+  - kd-agent-ai(@KDAgentAI) — 付费/抽签锦鲤玩法，无免费LIVE窗，DS score48 观察优先，本轮不收
+  - Aetheris — 沿用：免费LIVE但无可靠官网/官推，只报不收
+  - POPZERO/$POPZERO / mehcat — 关键词噪声，无独立可核官推本轮不收
+  - wuseagent / SwarmHiveBNB — UF shard NF/suspended，不重拉
+  - starx_xlayer / mobster_meme / telefees_pump / agentkin_ / baobaoagent / bsc_bito / claudesprotocol / wedowtf / stonkaxyz / turbokartbnb — NF，不重拉
+- le2h: [agent-harvest]（pauseEnd≈23:11:32CST ≤2h）；[bianbian-bnbn]（免费余≈172急尽）
+- ufCursor: 408→424（shard含NF/suspended跳过；点名级无新收；关键词/HTTP新收 maobp+bianbian）
+- tenLanesKeywords: full
+- mentionsChains: Tape(@TapeAIAgent/@tapebitprotocol), Elysium(@Enter_Elysium), squeek(@squeekchain), BTC(@bitcointapes), Starknet/Irys/XLayer(关键词扫)；starx NF 不拉；giwa_io suspended
+- watchBugsFixed: 4（maobp/bianbian 挂入 UF+freeMint+agentPad+bnAgent；bdog 补 UF @Binancedog_AI；nidavellir-bsc 补 UF candidateIds）
+- Discord: deferred（未登录）
+- push: PENDING
