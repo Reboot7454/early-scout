@@ -28,4 +28,4 @@
 - discordLoginOk: false
 - skippedLeads: FabricateRent（同日0粉跳过）；DualForge/Fomopoly/HuntField 已在库非≤2h不单推；Folk_Agent NF
 - summary: ample-paced R1046，xReads 27/28 softCap，949→922；无新收录；强更新 Lazabit 免费 LIVE（≤2h告警）+ Agent Harvest Phase2 窗口；补挂 lazabitmeme 三品类 Watch；软债刷；UF cursor 40→54；Discord Peek deferred；notify=true。
-- push: pending
+- push: ok sha=5536e2c remoteVerified=true
