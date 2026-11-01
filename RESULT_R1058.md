@@ -30,4 +30,4 @@
 - discordPeekSkipped: true
 - discordPeekDeferred: true
 - skippedAdmits: Shardblade/Genesis Seeds/CENSUS（无核验官推，硬门槛跳过）
-- push: dataSha=015ec84d490a0ec57fa78fb159a944cf026ed954 tipSha=9cebf1d6f1e42a541335a96d7b567ec475f9e062 remoteVerified=true
+- push: dataSha=015ec84d490a0ec57fa78fb159a944cf026ed954 tipSha=895a90da4bed9f9788180041fd1ec9d21f51ae18 remoteVerified=true
