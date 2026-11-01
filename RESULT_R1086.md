@@ -1,0 +1,29 @@
+# RESULT R1086
+
+- mode: pace
+- plannedRound: 1086
+- actualRound: 1086
+- collision: false
+- completedAt: 2026-11-02 01:14 CST
+- xReads: 17
+- remainingBefore: 170
+- remaining: 153
+- softCap: 18
+- xQuota: softCap=18 内用17；footer remainingBefore≈170→153（x_budget.py 仍报陈旧301，以footer为准）
+- deferredFullScan: false
+- notify: true
+- alert: 【R1086】新收 SnowBall Agent @Snowball_Agent 付费LIVE tm≈1（0.002BNB·官推0粉今日新建）；Bound Agents @BoundAgents 付费LIVE Tier1 shares≈2/2000（$1托管·满2000开池失败退）；AGENT2 @Mastereeoz upcoming 今晚20:00CST开铸（付费只报）。agent-dog≈90；bnbbaby free≈5902；minter free≈111；believers≈338；axmi≈184；bairs≈2152；long≈3979；Harvest phase4≈2199（下一窗≈04:12CST）。面板 https://reboot7454.github.io/early-scout/
+- newIds: [snowball-agent, bound-agents, agent2]
+- admits: [snowball-agent score63 paidLIVE DS；官网 snowballagent.fun + mint 0x81F3…265CE / token 0x79B5…61fb；官推@Snowball_Agent 0粉今日新建；totalMinted≈1 base 0.002BNB；bound-agents score70 paidLIVE DS；官网 boundagents.bond + sale 0x6B7D…79eA4 / token 0xa336…47BF；官推@BoundAgents ~10粉；Tier1 shares≈2/2000 $1托管至≈11/08；agent2 score55 upcoming DS；官网 moomoo.cloud/agentcoin2/ + sale 0xB64F…29DA / token 0xf722…3d11；官推@Mastereeoz 1粉；START 2026-11-02 20:00CST 满5000开池LP黑洞]
+- updates: [agent-dog(sharesMinted≈90), axmi(tm≈184), bnbbaby(freeMinted≈5902), minter-agent(freeMinted≈111/250 ts≈368), agent-believers(338), bairs(sold≈2152/20000), long-agent(sold≈3979 agents≈2659 免费罄), agent-harvest(phase4≈2199 pause至04:12CST)]
+- skippedAdmits: [BNBPIG/bnbpig.pages.dev 免费LIVE sharesMinted≈1734/5000 但站内无清晰官推（仅KOL任务要用户贴X链接）按硬门槛跳过；POPZERO @POPZERO_AIAgent 官网+官推可核但 freeMinted=2000罄+totalMinted≈11070 DS判过热skip；SYNTAX Soul/walt_cn 聚合推无独立官盘；starx_xlayer/TapeOut_xyz/giwa_xyz NF_skip不重读]
+- le2h: []（Harvest 下一窗≈04:12CST ≈3h >2h；AGENT2 今晚20:00CST ≈19h）
+- ufCursor: 536→552
+- tenLanesKeywords: true（合并 Agent ID/AIDROP/fair mint/free mint/STARX/X Layer/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/Nutshell/squeek/PulseLaunchpad 等；命中 Snowball_Agent+BoundAgents+Mastereeoz/AGENT2+POPZERO）
+- mentionsChains: Elysium（前段）；squeek(@squeekchain Genesis农）；Tape(@TapeAIAgent 期待刷屏无新盘)；BN pad(@Ptahtrade POA刷屏)；GIWA(@GIWA_by_Upbit Ammora/Writ_Fi已在库)；STARX关键词（官号NF_skip）
+- watchBugsFixed: ['@Snowball_Agent → UF+agentPadWatch+bnAgentWatch+freeMintWatch + candidate snowball-agent', '@BoundAgents → UF+agentPadWatch+bnAgentWatch+freeMintWatch + candidate bound-agents', '@Mastereeoz → UF+agentPadWatch+bnAgentWatch+freeMintWatch + candidate agent2']
+- Discord: discordPeekDeferred=true（无登录）
+- push: (pending)
+- NF_skip: starx_xlayer；TapeOut_xyz；giwa_xyz（改用 GIWA_by_Upbit）
+- softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch lastChecked refreshed
+- notes: DeepSeek admit snowball+bound+agent2；score 63/70/55；三则均付费/upcoming→付费只报不自动；无新免费LIVE但真新须notify；本雷达不执行mint；UF 536–551 均已在库；RPC 用 bsc-dataseed/1rpc 避开 Ankr；Harvest phasePauseEnd≈2026-11-02 04:12 CST；距08:00CST X重置≈6.7h roundsLeftEst≈13
