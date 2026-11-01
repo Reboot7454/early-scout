@@ -1,0 +1,40 @@
+# RESULT R1065
+
+- mode: pace
+- plannedRound: 1065 | actualRound: 1065
+- collision: none（pull后 meta.round=1064）
+- completedAt: 2026-11-01 14:48 CST
+- xReads: 22 | remainingBefore: 583/1000 | remaining: 561/1000
+- softCap: 18
+- xQuota: mode=pace softCap=18 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: remaining>200 完成十栏关键词+多链 mentions；略超 softCap+4
+- notify: true
+- alert: ⚠️新收录2：① Wise Owl Society 免费LIVE首铸仅gas（@wiseowlsociety / wiseowlsociety.xyz，爬塔赚$BHUNT，官推16粉，极早期高风险）；② AgentDoor $DOOR 免费领取即将开启非LIVE（@AgentDoorBSC / agentdoorid.vercel.app，0/1000）。meteorsz免费余≈938；dinomites=173/5555；NoNames=814/7777；Harvest Phase2仍关≈18:05CST（约+3.4h非≤2h）；TopoSats今晚20:00CST（约+5.3h）。面板：https://reboot7454.github.io/early-scout/
+- newIds: [wise-owl-society, agent-door-bsc]
+- admits:
+  - wise-owl-society (@wiseowlsociety) — 免费LIVE首铸仅gas·GameFi爬塔$BHUNT·站wiseowlsociety.xyz·粉16·DS score=66·freeLIVE必推
+  - agent-door-bsc (@AgentDoorBSC) — Agent ID $DOOR·免费领取即将开启非LIVE 0/1000·站agentdoorid.vercel.app·粉103·DS score=54·观察
+- updates:
+  - meteorsz → freeRemaining=938 · totalMinted=173 · mintingActive=1
+  - dinomitesnft → free LIVE minted=173/5555
+  - nonamespnft → api minted=814/7777 mintOpen=true（非近售罄）
+  - agent-harvest → Phase2仍关 freeOpen=0 · pauseEnd≈18:05:30CST（约+3.4h非≤2h）· totalMinted=1132 freeMinted=1000 currentPhase=2
+  - nemotron → totalMinted≈11676 免费前2/ID续
+  - nova-agent-shares → freeMinted=1000/1000 免费尽·付费续只报
+  - tapebit → TopoSats Agent Mint 预计今晚20:00CST（约+5.3h非≤2h）
+  - mint-writ/crop-pals/dropminters/agentrybaw 软刷
+- skippedAdmits:
+  - uselessnft — 免费LIVE站uselessnft.netlify.app·链上≈169/6666；无匹配官推（@uselessnft为2021无关号）硬门槛跳过
+  - mod-sigil — Agent ID前7张仅管理费≈0.13U·站mod-sigil.pages.dev·CA 0xbD25…691c minted=122；站内无官推硬门槛跳过
+  - syntax-souls — Agent ID PoW mint·站syntaxsouls.surge.sh·CA 0x5E8E…6D74 supply≈16；无官推硬门槛跳过
+  - agentcoin / agentminer — 付费挖矿0.005BNB·非免费打新优先
+- le2h: []（Harvest 18:05CST 约+3.4h；TopoSats 20:00CST 约+5.3h）
+- ufCursor: 208→222
+- tenLanesKeywords: full
+- mentionsChains: Elysium, squeek/Nutshell, GIWA, DogeOS, ShieldedNaka/BTC, Starknet, flap；缺 Irys 直读与 X Layer（starx_xlayer Not Found）
+- watchBugsFixed: 1（gradwtf→freeMintWatch）；新卡同步挂 agentPad/bnAgent/freeMint/UF
+- discordPeekDeferred: true
+- softDebt: canton/glaze/tokenWorksPlayground/tokenWorks lastChecked→2026-11-01 14:48 CST
+- priorityNamed: starx_xlayer/keccaklings/ponzihooks Not Found 跳过不连刷
+- push: (pending)
+- summary: R1065 pace 新收 wise-owl 免费LIVE + agent-door 预告；notify=true；Harvest/TopoSats 均非≤2h；meteorsz余938；dinomites173；NoNames814；UF 208→222；Watch漏挂修×1；X 22读→561
