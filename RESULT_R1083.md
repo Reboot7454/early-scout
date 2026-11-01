@@ -1,0 +1,29 @@
+# RESULT R1083
+
+- mode: pace
+- plannedRound: 1083
+- actualRound: 1083
+- collision: false
+- completedAt: 2026-11-01 23:47 CST
+- xReads: 16
+- remainingBefore: 222
+- remaining: 206
+- softCap: 18
+- xQuota: hit softCap≈18 内用16；footer remainingBefore≈222→206（x_budget.py仍可能报陈旧301，以footer为准）
+- deferredFullScan: false
+- notify: true
+- alert: 【R1083】新收 BAIRS/币安ai人生 @btcliu205 免费LIVE sold≈97/20000（前2000免费·Agent ID门控·官推极弱18粉只观察）。minter freeMinted≈15；bnbbaby freeMinted≈4834；believers≈287；Harvest phase4≈2195；long≈3803。面板 https://reboot7454.github.io/early-scout/
+- newIds: [bairs]
+- admits: [bairs score54 freeLIVE DS；官网 deed.page/pages.dev + CA 0xDe5EBF… 链上 sold=97 phase=1 deadline=2026-11-04 23:03CST；官推@btcliu205 1帖/18粉]
+- updates: [minter-agent(freeMinted≈15/250 total≈23), bnbbaby(freeMinted≈4834), shib-agent(free罄 sold≈239只报), long-agent(sold≈3803/8888 免费罄), agent-believers(287), bianbian-bnbn(3090), emberlings(21), agent-harvest(phase4≈2195 pause过), eclipse-court(326), nothuman(5479), meteorsz(1181), wise-owl-society(2580), origin-node(168), dinomitesnft(201), trine-protocol(67), maobp-agent(198), mehcat-bnb(软刷≈172)]
+- skippedAdmits: [IchorElysium/@IchorElysium Elysium testnet gas vault，$ICHOR未上线无CA，主网前仅Announced→skip；PROXY上轮已因无官推skip；Ptahtrade关键词噪音无新盘]
+- le2h: []（Harvest pause已过点；BAIRS deadline≈11-04 不≤2h）
+- ufCursor: 488→504
+- tenLanesKeywords: true（合并 Agent ID/AIDROP/fair mint/yinghu/dotaipad/Ptah/gang/GIWA/Starknet/Irys/TapeOut/挖矿/打新 等；命中 BAIRS + Ptah刷屏）
+- mentionsChains: Elysium(@Enter_Elysium 挂靠 Ichor testnet/Elyziuma testnet mint)；squeek(@squeekchain Aura farming Genesis)；Tape(关键词 TapeAIAgent DeWeb)；BN pad关键词；STARX NF_skip；GIWA/Irys/Starknet/BTC 以十栏专名覆盖
+- watchBugsFixed: ['@dotaipad/@yinghubnb/@agentpunkid/@Leeonmort/@computeroll → userFollowWatch；@btcliu205 → UF+AP+freeMintWatch+bnAgentWatch + candidateIds bairs']
+- Discord: discordPeekDeferred=true（无登录）
+- push: (pending)
+- NF_skip: starx_xlayer；magnitudeagent；bububullfun suspended；Leeonmort posts NF（账号仍补进UF）
+- softDebt: tokenWorksPlaygroundWatch/cantonPadWatch/glazeWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch lastChecked refreshed
+- notes: DeepSeek admit+score BAIRS=54；免费LIVE必须notify；付费只报不自动；本雷达不执行mint；bnbbaby freeMinted()链上≈4834（与R1082 shares口径不同）；shib sold本轮选择子未解出沿用≈239；urllib RPC易挂改用curl+keccak
