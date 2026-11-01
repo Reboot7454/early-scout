@@ -1,0 +1,29 @@
+# RESULT R1096
+
+- mode: tight
+- plannedRound: 1096
+- actualRound: 1096
+- collision: false
+- completedAt: 2026-11-02 06:17 CST
+- xReads: 11
+- remainingBefore: 47
+- remaining: 36
+- softCap: 11
+- xQuota: softCap=11 用尽11；footer remainingBefore≈47→36（x_budget.py陈旧勿信；mode=tight；距08:00CST重置≈1.7h；Zero mentions softCap满 defer）
+- deferredFullScan: false
+- notify: true
+- alert: ⚠️ early-scout雷达：新收录PIXCADE免费LIVE像素街机柜 tm≈876/3000 AgentID free≈871/1500 @pixcade_ai CA已核；另收Rootlinks Mint soon未开铸。面板 https://reboot7454.github.io/early-scout/
+- newIds: [pixcade, rootlinks]
+- admits: [pixcade score72 freeLIVE DS；官网pixcade.pages.dev+官推@pixcade_ai≈1粉；CA 0x21136e5ecBE886572b59a7e5B5D576fcE9534b89；RPC tm≈876/3000 free≈871/1500 freeMintOpen=1 PWYW≥0.0003BNB；rootlinks score55 watching DS；官网rootlinks-nft.github.io+官推@rootlinks_nft 0粉；Mint soon 1 free/Agent+0.003BNB paid 72h窗]
+- updates: [agent-harvest(phase5 freeOpen=0→09:17CST tm≈2724 free≈2500 paid≈224 hours≈3.0非≤2h), runin-ai(freeClaimed=4444满 sold≈155), bnbbaby(free≈9527), agent-dog(shares≈1155), tycoon-city(ts≈1429), aipro(tm≈4886), baoracle(tm≈1704猛增), vault-crack(tm≈185), kdai(tm≈401), gwei-wbbb(tm≈28), minter-agent(free≈153/ts≈463), bairs(sold≈2163), axmi(tm≈201), long-agent(sold≈4048), snowball-agent(tm=1), bound-agents(totalShares=2), agent-believers(tm≈357), kenranft/pixiopet/dung-beetle-agent/plopz/agent2/elynx/elysium-gloom/lordhood/punks-on-drugs/dropminters/nonamespnft/stratar/anonhood/sambario/ichor-elysium/flizy/elysium-machines/ron-society lastChecked刷新]
+- skippedAdmits: [remilios-rd @remiliosrd RH FREE MINT前111登记 无官网 DS skip score35；BNBPIG 仍无明确官推skip；Agent Covenant agentcovenant.pro 仍无可核官推硬跳；POPZERO 过热续skip；starx_xlayer/TapeOut_xyz/giwa_xyz/bibiainft/mobster_meme/onbeatfun/beatdotfamily/CyclopesElysium/vytraqfun NF_skip不重读；Trysmolpadfun/Honestcoin60 suspended]
+- le2h: []（Harvest pauseEnd≈09:17:55CST ≈3.0h 非≤2h）
+- ufCursor: 721→741
+- tenLanesKeywords: true（合并 Agent ID/fair·free mint/STARX·X Layer/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿打新/Nutshell·squeek/Pulse·RH pads/flap·Irys·Full.fun·Arc；命中 PIXCADE+Rootlinks→admit；remilios无官网skip）
+- mentionsChains: DogeEVM + Starknet + flap/Irys（无强新挂靠）；Zero/LayerZero_Core softCap满 defer→下轮
+- watchBugsFixed: [pixcade/rootlinks → UF+bnAgent+agentPad+freeMint accounts+candidateIds ×8]
+- Discord: discordPeekDeferred=true（无登录）
+- push: (pending)
+- NF_skip: starx_xlayer；TapeOut_xyz；giwa_xyz；bibiainft；mobster_meme；Trysmolpadfun；Honestcoin60；onbeatfun；beatdotfamily；CyclopesElysium；vytraqfun
+- softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch/tapeOutWatch/flapPadWatch/irysPadWatch/fullFunWatch/arcPadWatch/zeroWatch/agentMiningWatch lastChecked refreshed
+- notes: DeepSeek admit pixcade72 freeLIVE + rootlinks55 watching；remilios-rd DS skip无官网；Harvest仍暂停非新免费开闸；UF 721–740均已在库；点名UF软刷machinedotfun/bscaidrop/PulseLaunchpad/localbottomcom/NutshellMarkets/squeekchain（mobster/starx NF_skip）；RPC bsc-dataseed curl；本号只scout不自动mint；xReads11/softCap11用尽；mentions轮换DogeEVM+Starknet+flap/Irys（上轮BN pads/Elysium/Tape/GIWA）；baoracle tm 237→1704猛增仅进度更新
