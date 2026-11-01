@@ -23,7 +23,7 @@
 - mentionsChains: deferred（near-exhausted softCap满；建议下轮补 BN pads+Elysium+Tape+GIWA/X Layer）
 - watchBugsFixed: [agentplacewall → UF+bnAgent+agentPad accounts+candidateIds；jiepanfun → UF+bnAgent+agentPad+freeMint]
 - Discord: discordPeekDeferred=true（无登录）
-- push: data PENDING / tip PENDING
+- push: data 6c99c6c / tip PENDING
 - NF_skip: oblaunchpadAll；NovaAgentShares；mint_WRIT；babycz_ai(suspended)；starx_xlayer；TapeOut_xyz；giwa_xyz；bibiainft；mobster_meme；Trysmolpadfun；Honestcoin60；onbeatfun；beatdotfamily；CyclopesElysium；vytraqfun（继承上轮不重读）
 - softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch/tapeOutWatch/flapPadWatch/irysPadWatch/fullFunWatch/arcPadWatch/zeroWatch/agentMiningWatch lastChecked refreshed
 - notes: DeepSeek admit agentplacewall55 watching；jiepanfun升live非新收；Harvest仍暂停≈2.71h；UF 741–756均已在库（3NF+1 suspended）；点名UF软刷machinedotfun（mobster/starx NF_skip）；RPC bsc-dataseed；本号只scout不自动mint；xReads8/softCap8用尽；mentions defer→下轮；pixcade free 871→1435猛增；baoracle 1704→2490
