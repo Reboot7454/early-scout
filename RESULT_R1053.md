@@ -30,4 +30,4 @@
 - discordLoginOk: false
 - skippedLeads: ateamoffice（DS skip 无站无合约）；CUDApadfun（疑似 cudapad 克隆）；ShardBlade/@ShardBlade（非官方/粉少）；mobster_meme NF；starx_xlayer NF；Pulseagent_trade invalid；GIWA_io suspended→改用 GIWA_by_Upbit
 - summary: ample-paced R1053，xReads 37/28 softCap，832→795；无新收录；库内 Agentry+Kenra 升免费LIVE并告警；Harvest仍>2h；Watch补挂×5；软债刷；UF cursor 96→110；十栏+mentions全；Discord deferred；notify=true。
-- push: pending
+- push: ok dataSha=5900eb4 tipSha=934cf5f remoteVerified=true
