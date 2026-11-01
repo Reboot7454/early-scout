@@ -1,0 +1,94 @@
+{
+  "round": 1054,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-01 10:48 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R1054新收5：Alloy、HyperlyTrade、OBLAUNCHPAD、ask glyph、Pegger；面板 https://reboot7454.github.io/early-scout/",
+  "alert": "DC补漏R1054新收5：Alloy、HyperlyTrade、OBLAUNCHPAD、ask glyph、Pegger；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "peggerdotfun",
+      "handle": "@Peggerdotfun",
+      "category": "打新",
+      "name": "Pegger"
+    },
+    {
+      "id": "askglyph",
+      "handle": "@askglyph",
+      "category": "台子/Meme",
+      "name": "ask glyph"
+    },
+    {
+      "id": "oblaunchpadall",
+      "handle": "@oblaunchpadAll",
+      "category": "打新",
+      "name": "OBLAUNCHPAD"
+    },
+    {
+      "id": "hyperlytrade",
+      "handle": "@hyperlytrade",
+      "category": "台子/Meme",
+      "name": "HyperlyTrade"
+    },
+    {
+      "id": "alloyfun",
+      "handle": "@alloyfun",
+      "category": "打新",
+      "name": "Alloy"
+    }
+  ],
+  "newCount": 5,
+  "newIds": [
+    "alloyfun",
+    "hyperlytrade",
+    "oblaunchpadall",
+    "askglyph",
+    "peggerdotfun"
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "bncat",
+    "styxn-terminal"
+  ],
+  "cardsAfterLastSeen": 61,
+  "cardsRead": 61,
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=5 (collision bump R1053->R1054)",
+  "coverage": "discord-alpha multi-channel",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-01 10:44",
+    "alpha-1-backup": "2026-11-01 10:43",
+    "smart-accounts-tracker": "2026-11-01 10:38",
+    "alpha-1": "2026-11-01 10:43"
+  },
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-01 10:44",
+    "lastChecked": "2026-11-01 10:48 CST",
+    "newestCardTime": "2026-11-01 10:44",
+    "cardsAfterCutoff": 61,
+    "note": "R1054：Discord alpha 补收 alloyfun,hyperlytrade,oblaunchpadall,askglyph,peggerdotfun；清 bncat,styxn-terminal；lastSeen→2026-11-01 10:44；lastChecked→2026-11-01 10:48 CST",
+    "lastRound": 1054,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-01 10:44",
+      "alpha-1-backup": "2026-11-01 10:43",
+      "smart-accounts-tracker": "2026-11-01 10:38",
+      "alpha-1": "2026-11-01 10:43"
+    }
+  },
+  "collision": {
+    "remoteHadRound": 1053,
+    "bumpedTo": 1054,
+    "remoteMode": "ample-paced"
+  },
+  "push": {
+    "attempted": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1054：Discord alpha 补收 alloyfun,hyperlytrade,oblaunchpadall,askglyph,peggerdotfun；清 bncat,styxn-terminal；lastSeen→2026-11-01 10:44；lastChecked→2026-11-01 10:48 CST",
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261101_1033.json",
+  "spideyPosting": true
+}
