@@ -1,0 +1,43 @@
+# RESULT R1073
+
+- mode: pace
+- plannedRound: 1073 | actualRound: 1073
+- collision: none（pull后 meta.round=1072）
+- completedAt: 2026-11-01 18:47 CST
+- xReads: 21 | remainingBefore: 410/1000 | remaining: 389/1000
+- softCap: 18
+- xQuota: mode=pace softCap=18 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: remaining>200 完成十栏关键词+多链 mentions；超 softCap（21/18）以保十栏全+mentions+UF分片+≤2h；starx/mobster/Headroom NF 不重拉
+- notify: true
+- alert: 🚨R1073 无新收录｜TopoSats今晚20:00CST仍≤2h｜Harvest Phase3 free满 total=1652｜bao免费池罄 sold=8328｜meteorsz余≈298｜dino185｜NoNames826｜morumai42｜origin≈139｜AgentRob≈6291/10k｜面板 https://reboot7454.github.io/early-scout/
+- newIds: []
+- admits: （无）
+- updates:
+  - tapebit → TopoSats今晚20:00CST仍≤2h（约+1.1h）
+  - agent-harvest → Phase3 freeOpen=0 freeMinted=1500 totalMinted=1652 paid≈152 phaseMinted=500/500
+  - meteorsz → freeRemaining=298 · totalMinted=813
+  - dinomitesnft → free LIVE minted=185/5555
+  - nonamespnft → api minted=826/7777 mintOpen=true
+  - morumai → 链上minted=42/3333
+  - bao-agent → 免费首份池耗尽 freeSharesRemaining=0 · sold=8328/10000 · 付费0.0012BNB续
+  - origin-node → 链上≈139/4444 mintOpen
+  - agent-rob → sold=6291/10000(~63%) price≈$0.81 付费只报
+  - zigzoo → 链上≈19/1111 付费只报
+  - wayangx → 链上totalSupply≈491
+  - wise-owl-society → totalSupply≈2455 免费LIVE续
+  - hive-agentic → 免费pollen+付费0.001BNB 续跟
+  - agent-door-bsc → 免费领取仍即将开启
+- skippedAdmits:
+  - SAFU_AIBNB(@SAFU_AIBNB) — 8粉狂刷回复，合约eth_call无返回，付费/自称免费不可信，跳过
+  - vangrid_io(@vangrid_io) — 7.3万粉 Physical AI 老盘 Agents NFT，非早期
+  - JunitaHammqm(@JunitaHammqm) — 6粉 $burn 弱信号
+  - Writ_Fi(@Writ_Fi) — GIWA options 任务站非 mint
+  - SmileQuokkaNFT — 已在库 watching，帖无 LIVE 链接，不新增
+  - starx_xlayer / mobster_meme / Headroom_X — NF，不重拉
+- le2h: [tapebit/TopoSats]（今晚20:00CST ≤2h）
+- ufCursor: 336→352
+- tenLanesKeywords: full
+- mentionsChains: Elysium, GIWA, Irys, DogeOS, squeek, BTC/ShieldedNaka, Tape/TopoSats（starx NF 不重拉；flap/Starknet 关键词合并）
+- watchBugsFixed: 1（tapebit→tapeWatch+UF）
+- Discord: deferred（未登录）
+- push: (pending)
