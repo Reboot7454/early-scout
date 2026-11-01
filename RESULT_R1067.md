@@ -1,0 +1,38 @@
+# RESULT R1067
+
+- mode: pace
+- plannedRound: 1067 | actualRound: 1067
+- collision: none（pull后 meta.round=1066）
+- completedAt: 2026-11-01 15:41 CST
+- xReads: 30 | remainingBefore: 561/1000 | remaining: 531/1000
+- softCap: 18
+- xQuota: mode=pace softCap=18 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: remaining>200 完成十栏关键词+多链 mentions；略超 softCap（30/18）以保十栏全+mentions
+- notify: false
+- alert: （无）本轮无新收录；Harvest Phase2≈18:05CST约+2.4h非≤2h；TopoSats≈20:00CST约+4.3h非≤2h；无免费LIVE新卡
+- newIds: []
+- admits: []
+- updates:
+  - meteorsz → freeRemaining≈842 · totalMinted=269 · mintingActive=1
+  - dinomitesnft → free LIVE minted=173/5555 mintOpen=true
+  - nonamespnft → api minted=818/7777 mintOpen=true（非近售罄）
+  - morumai → 链上minted=27/3333 mintingActive=1
+  - agent-harvest → Phase2仍关 freeOpen=0 · pauseEnd≈18:05:30CST（约+2.4h非≤2h）· totalMinted=1133 freeMinted=1000 currentPhase=2
+  - nemotron → totalMinted≈13111 免费前2/ID续
+  - nova-agent-shares → 免费仍尽 1000/1000
+  - tapebit → TopoSats Agent Mint 预计今晚20:00CST（约+4.3h非≤2h）
+  - agent-door-bsc → 免费领取仍未开 liveBadge=即将开启（非LIVE）
+  - wise-owl-society / mint-writ / babycz / agentrybaw / kenranft 软刷
+- skippedAdmits:
+  - AnXiaoJiang_ai/安小将 — 官推2粉空bio、Mint官网即将公开无硬站，未达官网+官推门槛
+  - PetronasLive — Solana新发射台仅4粉，非本轮免费LIVE优先，跳过
+- le2h: []（Harvest 18:05CST 约+2.4h；TopoSats 20:00CST 约+4.3h）
+- ufCursor: 236→252
+- tenLanesKeywords: full
+- mentionsChains: Elysium, GIWA, Irys, Starknet, DogeOS, ShieldedNaka/BTC, flap, squeek/Nutshell；X Layer 仍弱（starx_xlayer Not Found 不连刷）；Tape/Pulse 经 KW 覆盖
+- watchBugsFixed: 1（synklings→freeMintWatch）
+- discordPeekDeferred: true
+- softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch lastChecked→2026-11-01 15:41 CST
+- priorityNamed: starx_xlayer Not Found 不连刷；@NutshellMarkets/@PulseLaunchpad/@squeekchain 等经 KW/mentions 覆盖
+- push: (pending)
+- summary: R1067 pace 无新收录 notify=false；Harvest/TopoSats 均非≤2h；meteorsz余842；dinomites173；NoNames818；morumai27；UF 236→252；Watch漏挂修×1；X 30读→531；Discord deferred
