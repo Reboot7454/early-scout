@@ -29,7 +29,7 @@ X：10读，86→76，softCap10 tight；Discord deferred
 - mentionsChains: Starknet（@Starknet 近窗无新挂靠打新）；flap/Irys（@flapdotsh/@irys_xyz 无新挂靠）；Full.fun/Arc（@fulldotfun 无新挂靠；@arcxtrade 已解析未深挖mentions）
 - watchBugsFixed: [freeMintWatch+@ploplzNFT；userFollowWatch+@ploplzNFT；UF.candidateIds+plopz]
 - Discord: discordPeekDeferred=true（无登录）
-- push: (pending)
+- push: data 34d14fb / tip 34d14fb (parent 859f118)
 - NF_skip: starx_xlayer；TapeOut_xyz；giwa_xyz（改用 GIWA_by_Upbit）；bibiainft；mobster_meme(NF)；Trysmolpadfun suspended；Honestcoin60 suspended；onbeatfun(NF)；beatdotfamily(NF)
 - softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch/tapeOutWatch/flapPadWatch/irysPadWatch/fullFunWatch/arcPadWatch/zeroWatch/agentMiningWatch lastChecked refreshed
 - notes: DeepSeek admit plopz score56；Harvest phase4 pause→phase5 FREE OPEN 本轮核心；UF 648–671均已在库；RPC bsc-dataseed；本号只scout不自动mint；距08:00CST X重置≈3.75h；xReads10=softCap10；mentions轮换接R1091后扫 Starknet+flap/Irys+Full.fun
