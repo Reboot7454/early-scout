@@ -32,7 +32,7 @@ X：8读，104→96，softCap10 tight；Discord deferred
 - mentionsChains: Starknet；flap/Irys（子集轮换）；squeek（保留）——无新挂靠
 - watchBugsFixed: ['@AIPRO_AGENT → UF+agentPad+bnAgent+freeMintWatch + aipro']
 - Discord: discordPeekDeferred=true（无登录）
-- push: (pending)
+- push: eee0d3e (data ef36a2a; tip eee0d3e)
 - NF_skip: starx_xlayer；TapeOut_xyz；giwa_xyz（改用 GIWA_by_Upbit）；bibiainft；mobster_meme(NF)；Trysmolpadfun suspended
 - softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch/tapeOutWatch/flapPadWatch/irysPadWatch/fullFunWatch/arcPadWatch/zeroWatch/agentMiningWatch lastChecked refreshed
 - notes: DeepSeek admit+score aipro overall58；真新付费LIVE+Harvest≤2h→notify；UF 600–623均已在库（含@Honestcoin60 suspended）；RPC bsc-dataseed 确认 AIPRO totalMinted=4728 token()；本号只scout不自动mint；距08:00CST X重置≈4.9h；xReads8≤softCap10
