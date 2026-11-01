@@ -1,0 +1,41 @@
+# RESULT R1071
+
+- mode: pace
+- plannedRound: 1071 | actualRound: 1071
+- collision: none（pull后 meta.round=1070）
+- completedAt: 2026-11-01 17:38 CST
+- xReads: 26 | remainingBefore: 459/1000 | remaining: 433/1000
+- softCap: 18
+- xQuota: mode=pace softCap=18 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: remaining>200 完成十栏关键词+多链 mentions；超 softCap（26/18）以保十栏全+mentions+UF分片（同 R1070 节奏）
+- notify: true
+- alert: ⚠️R1071 暂无新收录｜Harvest Phase2 约18:05:30CST结束，≤2h（约+0.5h）开免费Phase3（freeOpen=0，totalMinted=1143）｜meteorsz免费余≈412/totalMinted≈699｜dinomites 175/5555｜NoNames 822/7777｜morumai 41/3333｜bao首份免费sold≈402/freeRem≈4598｜TopoSats今晚20:00CST（+2.4h非≤2h）｜面板 https://reboot7454.github.io/early-scout/
+- newIds: []
+- admits: none
+- updates:
+  - agent-harvest → Phase2仍关 freeOpen=0 · pauseEnd≈18:05:30CST（≤2h约+0.46h）· totalMinted=1143 freeMinted=1000 paidMinted=143 phaseMinted=500/500 currentPhase=2 → Phase3免费将开
+  - meteorsz → freeRemaining≈412 · totalMinted=699 · mintingActive=1（续加速）
+  - dinomitesnft → free LIVE minted=175/5555 mintOpen=true
+  - nonamespnft → api minted=822/7777 mintOpen=true
+  - morumai → 链上minted=41/3333 mintingActive=1
+  - bao-agent → sold=402/10000 freeSharesRemaining≈4598/5000 首份免费续
+  - origin-node → 链上≈115/4444 免费LIVE续
+  - zigzoo → 链上≈19/1111 付费只报
+  - anxiaojiang → 官推进度约200/10000 付费只报
+  - hive-agentic → 免费pollen+付费0.001BNB 续跟
+  - tapebit → TopoSats 预计今晚20:00CST（约+2.37h非≤2h）
+  - agent-door-bsc → 站内免费轮仍「即将开启」；官推 Pass 免费领取通道已开（Pass门槛）
+  - hirelingsai → 已罄；非免费LIVE
+- skippedAdmits:
+  - Voltibot / Pumpkoo / Drakoby / Neonekko — KOL CA 图文，无独立可核验官推，跳过
+  - Mori / @Mori_Elysium — 已在库；GTD WL/测试网非主网免费LIVE，不重收
+  - DOUDI / Ptah / bnAgent_ / 已知 pads — 已在库
+  - ArcherSwap(@archerswap_dex) — Elysium DEX Nov9 预告，非即时 mint，本轮不收
+  - starx_xlayer — 上次 NF，本轮不重拉
+- le2h: [agent-harvest]（pauseEnd≈18:05:30CST ≤2h；TopoSats 20:00CST 约+2.4h非≤2h）
+- ufCursor: 300→320（data 原存 284，按父代理 R1070 结果从 300 续转）
+- tenLanesKeywords: full
+- mentionsChains: Elysium, GIWA, Irys, DogeOS, squeek, flap, Starknet（starx NF 不重拉；BTC 本轮弱扫）
+- watchBugsFixed: none（R1070 五新卡已在 freeMintWatch）
+- Discord: deferred（未登录）
+- push: (pending)
