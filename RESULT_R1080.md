@@ -47,4 +47,4 @@
 - mentionsChains: Elysium(@Enter_Elysium), squeek(@squeekchain), Tape(@TapeAIAgent), BTC(@bitcointapes), BN pad(@PulseLaunchpad), GIWA(@GIWA_by_Upbit), Irys(@irys_xyz)；STARX/X Layer 用关键词扫（starx NF不拉）；Nutshell id resolve后未再耗读
 - watchBugsFixed: 1（trine-protocol 挂入 UF+freeMint+agentPad+bnAgent；soft-debt canton/glaze/tokenWorks lastChecked）
 - Discord: deferred（未登录）discordPeekDeferred=true
-- push: (pending)
+- push: eb8fa56 (data.json + RESULT_R1080.md → main); tip eb8fa56
