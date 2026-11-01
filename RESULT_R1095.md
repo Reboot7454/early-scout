@@ -1,0 +1,29 @@
+# RESULT R1095
+
+- mode: tight
+- plannedRound: 1095
+- actualRound: 1095
+- collision: false
+- completedAt: 2026-11-02 05:36 CST
+- xReads: 9
+- remainingBefore: 56
+- remaining: 47
+- softCap: 11
+- xQuota: softCap=11 用9；footer remainingBefore≈56→47（x_budget.py 开跑陈旧显示1000/ample，以footer为准；mode=tight；距08:00CST重置≈2.4h）
+- deferredFullScan: false
+- notify: true
+- alert: 新收录 BAOracle 免费LIVE神谕卡 tm≈237/20000（首张免费）@baoracletrade；另收 Elysium Machines（ERC-404 Announced）+ Ron Society（RH WL）。面板 https://reboot7454.github.io/early-scout/
+- newIds: [baoracle, elysium-machines, ron-society]
+- admits: [baoracle score74 freeLIVE DS；官网baoracle.trade+官推@baoracletrade 24粉；CA 0xcBe2DBBFF4264Dc67Bf557c64e29997B82439354；RPC tm≈237/20000 首张免费其后≈0.0002BNB；elysium-machines score50 watching DS-actionable弱但Elysium Announced+可核官推硬收；ron-society score58 watching RH free mint WL仍开]
+- updates: [agent-harvest(phase5 freeOpen=0→09:17CST tm≈2724 free≈2500 paid≈224 hours≈3.7非≤2h), runin-ai(freeClaimed=4444满 sold=153), kdai(tm≈401), gwei-wbbb(tm≈28), agent-dog(shares≈1145), bnbbaby(free≈9347), minter-agent(free≈153/ts≈463), bairs(sold≈2163), axmi(tm≈201), long-agent(sold≈4045), snowball-agent(tm=1), bound-agents(shares=2), agent-believers(tm≈355), aipro(tm≈4871), vault-crack(tm≈185), tycoon-city(supply≈1410), kenranft(软刷≈2658/8888), pixiopet(软刷LIVE 288/8888首宠免费), dung-beetle-agent/plopz/agent2/elynx/elysium-gloom/lordhood/punks-on-drugs/dropminters/nonamespnft/stratar/anonhood/sambario/ichor-elysium/flizy lastChecked刷新]
+- skippedAdmits: [BNBPIG 仍无明确官推skip；Agent Covenant agentcovenant.pro 仍无可核官推硬跳；POPZERO 过热续skip；webhoodr/cloverdotfamily/oxustrail/FeedTheFireRH/deuslaunch/Flizy 已在库；starx_xlayer/TapeOut_xyz/giwa_xyz/bibiainft/mobster_meme/onbeatfun/beatdotfamily/CyclopesElysium NF_skip不重读；Trysmolpadfun/Honestcoin60 suspended]
+- le2h: []（Harvest pauseEnd≈09:17:55CST ≈3.7h 非≤2h）
+- ufCursor: 701→721
+- tenLanesKeywords: true（合并 Agent ID/fair·free mint/STARX·X Layer/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿打新/Nutshell·squeek/Pulse·RH pads/flap·Irys·Full.fun·Arc；命中 BAOracle→admit；Covenant/BNBPIG→skip无官推；webhood/clover/oxus/FeedTheFire已在库）
+- mentionsChains: BN Agent pads（@Ptahtrade →POA刷屏无强新挂靠）；Elysium（@Enter_Elysium →命中@elysium_machine 新挂靠 admit）；Tape（@TapeAIAgent 近窗无新挂靠打新）；GIWA（@GIWA_by_Upbit →Flizy/deuslaunch已在库）
+- watchBugsFixed: []（新卡均写入对应 Watch+UF）
+- Discord: discordPeekDeferred=true（无登录）
+- push: data TBD / tip TBD
+- NF_skip: starx_xlayer；TapeOut_xyz；giwa_xyz；bibiainft；mobster_meme；Trysmolpadfun；Honestcoin60；onbeatfun；beatdotfamily；CyclopesElysium；vytraqfun（本轮UF发现NF）
+- softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch/freeMintWatch/bnAgentWatch/agentPadWatch/tapeWatch/elysiumWatch/giwaWatch/miningWatch/kinetiqWatch/dogeEvmWatch/starknetWatch/btcCrc20Watch/userFollowWatch/tapeOutWatch/flapPadWatch/irysPadWatch/fullFunWatch/arcPadWatch/zeroWatch/agentMiningWatch lastChecked refreshed
+- notes: DeepSeek admit baoracle74+ron-society58；elysium-machines DS偏skip因无可执行mint，按Elysium Announced+可核官推硬收watching score50；Harvest仍暂停非新免费开闸；UF 701–720均已在库（vytraqfun NF）；点名UF软刷machinedotfun/bscaidrop/PulseLaunchpad/localbottomcom/NutshellMarkets/squeekchain（mobster/starx NF_skip）；RPC bsc-dataseed（tycoon totalMinted/dung SSL EOF，用totalSupply）；本号只scout不自动mint；xReads9/softCap11；mentions补R1094 defer的BN pads + 轮换Elysium/Tape/GIWA
