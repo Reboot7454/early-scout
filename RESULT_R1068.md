@@ -1,0 +1,40 @@
+# RESULT R1068
+
+- mode: pace
+- plannedRound: 1068 | actualRound: 1068
+- collision: none（pull后 meta.round=1067）
+- completedAt: 2026-11-01 16:15 CST
+- xReads: 55 | remainingBefore: 561/1000 | remaining: 506/1000
+- softCap: 18
+- xQuota: mode=pace softCap=18 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: remaining>200 完成十栏关键词+多链 mentions；超 softCap（55/18）以保十栏全+mentions+UF分片（含若干解析读）
+- notify: true
+- alert: ⚠️新收录1：Elysium Quotrons 免费Allowlist登记已开（@ElysiumQuotrons / Google Form，3333复古机器NFT，无独立官网仅表单，score60谨慎）。Agent Harvest Phase2暂停约18:05:30 CST结束（≤2h，现freeOpen=0 totalMinted=1133）。meteorsz免费余≈657；dinomites=175/5555；NoNames=820/7777；morumai=28/3333。TopoSats今晚20:00CST（约+3.7h非≤2h）。面板：https://reboot7454.github.io/early-scout/
+- newIds: [elysium-quotrons]
+- admits:
+  - elysium-quotrons (@ElysiumQuotrons) score60 免费Allowlist登记 · 有官推无独立站（仅Google Form）· focus:false
+- updates:
+  - agent-harvest → Phase2仍关 freeOpen=0 · pauseEnd≈18:05:30CST（≤2h）· totalMinted=1133 freeMinted=1000 currentPhase=2
+  - meteorsz → freeRemaining≈657 · totalMinted=454 · mintingActive=1
+  - dinomitesnft → free LIVE minted=175/5555 mintOpen=true（补CA）
+  - nonamespnft → api minted=820/7777 mintOpen=true（非近售罄）
+  - morumai → 链上minted=28/3333 mintingActive=1
+  - nemotron → totalMinted≈13672 免费前2/ID续
+  - nova-agent-shares → 免费仍尽 1000/1000
+  - tapebit → TopoSats Agent Mint 预计今晚20:00CST（约+3.7h非≤2h）
+  - agent-door-bsc → 免费领取仍未开 liveBadge=即将开启（非LIVE）
+  - wise-owl-society / mint-writ / babycz 软刷
+- skippedAdmits:
+  - xiaogudong-xgd / @jjkkk558440 — 空bio 22粉无官网，DS admit=false
+  - 人生K线 / @binancKX — 无官网未核实，DS admit=false
+  - AgentRob/$ROB — 仅KOL图文无官推可核，跳过
+- le2h: [agent-harvest]（pauseEnd≈18:05:30CST ≤2h；TopoSats 20:00CST 约+3.7h非≤2h）
+- ufCursor: 252→268
+- tenLanesKeywords: full
+- mentionsChains: Elysium, GIWA, Irys, Starknet, DogeOS, ShieldedNaka/BTC, flap, squeek/Nutshell；Tape 经 KW；X Layer 仍弱（starx_xlayer Not Found 不连刷）
+- watchBugsFixed: 5（payphone-rh→freeMintWatch；@PayphoneNFT→UF；variant-nft→freeMintWatch；@Variant_nft→UF；dinomitesnft→freeMintWatch）
+- discordPeekDeferred: true
+- softDebt: cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch lastChecked→2026-11-01 16:15 CST
+- priorityNamed: starx_xlayer Not Found 不连刷；@NutshellMarkets/@PulseLaunchpad/@squeekchain 等经 KW/mentions 覆盖
+- push: (pending)
+- summary: R1068 pace 新收 elysium-quotrons 免费Allowlist + Harvest≤2h → notify=true；meteorsz余657；dinomites175；NoNames820；morumai28；UF 252→268；Watch漏挂修×5；X 55读→506；Discord deferred
