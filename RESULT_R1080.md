@@ -1,0 +1,50 @@
+# RESULT R1080
+
+- mode: pace
+- plannedRound: 1080 | actualRound: 1080
+- collision: none（pull后 meta.round=1079）
+- completedAt: 2026-11-01 22:10 CST
+- xReads: 15 | remainingBefore: 274/1000 | remaining: 259/1000
+- softCap: 18
+- xQuota: mode=pace softCap=18 eveningReserve=0 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: remaining≈274 完成十栏关键词+多链 mentions；xReads15≤softCap18；starx/mobster/ChyAI NF 不重拉；UF NF(halfhook/cardstockfun/potionrh/beatmissapp)跳过；以 X footer 为准（x_budget 仍报301为陈旧）；DeepSeek thinking 未吐干净 JSON→TRINE 用 dsFallback 校准 bdog≈58
+- notify: true
+- alert: 🚨R1080 新收录TRINE(付费USDT阶梯fair-mint LIVE sold≈18/444k score58只报)+Harvest pause≈23:11≤2h(~62m) total=1682｜meteor免费罄tm1166｜believers≈191｜maobp≈179｜rob=10180｜ember=15｜面板 https://reboot7454.github.io/early-scout/
+- newIds: [trine-protocol]
+- admits:
+  - trine-protocol(@TrineProtocol) → 付费USDT阶梯Agent ID公平铸LIVE·sharesSold≈18/444000·满1万开池·每钱包≤20·站trinebnb.fun Sale 0x3675…b9E2 Token 0xeA5D…76e7·官推38粉·score58 dsFallback·付费只报
+- updates:
+  - agent-harvest → Phase3 pause total=1682 paid≈182 pauseEnd≈23:11:32CST（≤2h ~62m）
+  - meteorsz → free罄 tm=1166 paidRemaining≈1056
+  - emberlings → totalMinted=15/555 mintOpen
+  - agent-believers → totalMinted≈191/1111（清 newThisRound）
+  - nidavellir-bsc → supply≈1112 freeWindowOpen=0 mintOpen
+  - eclipse-court → total≈322 freeMinted≈284
+  - dinomitesnft → totalMinted=191/5555
+  - morumai → freeMinted=42/3333
+  - origin-node → totalSupply≈151 mintOpen
+  - wise-owl-society → totalSupply≈2567
+  - bianbian-bnbn → 免费罄 totalShares≈2941/8888·付费档只报
+  - maobp-agent → successfulShares≈179 免费仍LIVE
+  - agent-rob → sold=10180 opened=true
+  - nothuman → sold=5447 freeClaimed=1000罄
+  - bao-agent → SSL/selector仍失败·沿用sold≈9784
+  - nonamespnft → API TLS仍失败·软沿用≈833
+  - bnbcat-games → Gen0预告续（清 newThisRound）
+  - bdog-binancedog → 阶段1结束·付费只报续
+  - hackedbyagent → 关键词续命中 LIVE·已在库
+- skippedAdmits:
+  - Agent Zet — 无可靠官推（@AgentZet空号），只报不收
+  - SyntaxSouls — 无独立可核官推（传播号 walt_eu），不收
+  - SEMA / AgentCardsHQ — 付费NFT或周二才免mint，未达可打窗，不收
+  - QTARDS / Aetheris / NemotronSigil — 已在库或沿用无官推/只报
+  - Writ_Fi — GIWA挂靠期权协议，非打新mint，不收
+  - starx_xlayer / mobster_meme / ChyAI_Official — NF，不重拉
+  - UF shard NF: halfhook / cardstockfun / potionrh / beatmissapp
+- le2h: [agent-harvest]（pauseEnd≈23:11:32CST ≤2h ~62m）
+- ufCursor: 440→456（shard含 halfhook/cardstockfun/potionrh/beatmissapp NF跳过；点名级无新收；关键词/HTTP新收 trine-protocol）
+- tenLanesKeywords: full
+- mentionsChains: Elysium(@Enter_Elysium), squeek(@squeekchain), Tape(@TapeAIAgent), BTC(@bitcointapes), BN pad(@PulseLaunchpad), GIWA(@GIWA_by_Upbit), Irys(@irys_xyz)；STARX/X Layer 用关键词扫（starx NF不拉）；Nutshell id resolve后未再耗读
+- watchBugsFixed: 1（trine-protocol 挂入 UF+freeMint+agentPad+bnAgent；soft-debt canton/glaze/tokenWorks lastChecked）
+- Discord: deferred（未登录）discordPeekDeferred=true
+- push: (pending)
