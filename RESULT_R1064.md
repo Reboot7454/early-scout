@@ -1,0 +1,38 @@
+# RESULT R1064
+
+- mode: ample-paced
+- plannedRound: 1064 | actualRound: 1064
+- collision: none（pull后 meta.round=1063）
+- completedAt: 2026-11-01 14:15 CST
+- xReads: 29 | remainingBefore: 612/1000 | remaining: 583/1000
+- softCap: 28
+- xQuota: mode=ample softCap=28 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: live remaining 以 X 工具尾部为准 583；略超 softCap+1 因十栏关键词+多链 mentions；并改正 meta.uf.cursor（错停166→写回208）与过期 xQuota/xBudgetPlan（曾像 R1050/R1055）
+- notify: false
+- alert: （本轮无急推）无新收录；NoNames 纠正为 minted=798/7777 非近售罄；meteorsz 余973；dinomites=171/5555；Harvest Phase2仍关≈18:05CST（约+3.8h非≤2h）；TopoSats 今晚20:00CST（约+5.7h）仅更新 tapebit。面板：https://reboot7454.github.io/early-scout/
+- newIds: []
+- admits: （无）
+- updates:
+  - nonamespnft → 纠正非近售罄 · api minted=798/7777 mintOpen=true（R1063「仅剩≈2」为解锁市场叙事）
+  - meteorsz → freeRemaining=973 · totalMinted=138 · mintingActive=1
+  - dinomitesnft → free LIVE minted=171/5555
+  - agent-harvest → Phase2仍关 freeOpen=0 · pauseEnd≈18:05:30CST（非≤2h）· totalMinted=1126 freeMinted=1000
+  - nemotron → totalMinted≈10593 免费前2/ID续
+  - nova-agent-shares → freeMinted=1000/1000 免费尽·付费续只报
+  - tapebit → TopoSats Agent Mint 预计今晚20:00CST（非≤2h；独立非TapeOut）
+  - mint-writ/crop-pals/dropminters/agentrybaw/kenranft/haalmao/ptah/fistagent/elysiumpunks/hypaww 软刷
+- skippedAdmits:
+  - chipart404 — 有官推@ChipArt404但粉0今日新建；站明示合约未部署（DS score35 skip）；非免费LIVE
+  - orchad — 无官方X（硬门槛）；仅三方情报前3仅gas
+  - xgd-xiaogudong — 无官推/relay可疑（续跳）
+  - enigma-agent — 无官推（续跳）
+- le2h: []（Harvest 18:05CST 约+3.8h；TopoSats 20:00CST 约+5.7h）
+- ufCursor: 194→208
+- tenLanesKeywords: full
+- mentionsChains: Elysium, Tape, squeek, flap, GIWA, ShieldedNaka/BTC, Irys(解析), Starknet(解析), BN Agent pads(关键词)
+- watchBugsFixed: 1（dinomitesnft→userFollowWatch）
+- discordPeekDeferred: true
+- softDebt: canton/glaze/tokenWorksPlayground/tokenWorks lastChecked→2026-11-01 14:15 CST
+- priorityNamed: mobster_meme/starx_xlayer Not Found 跳过不连刷；其余 LIVE 急盯+点名已核
+- push: pending
+- summary: R1064 ample 无新收录 notify=false；纠正 NoNames 非售罄；Harvest/TopoSats 均非≤2h；meteorsz余973；dinomites171；UF 194→208；Watch漏挂修×1；X 29读→583；meta cursor/xQuota 已改正
