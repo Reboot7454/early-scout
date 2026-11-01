@@ -31,4 +31,4 @@
 - discordLoginOk: false
 - skippedLeads: agent币@moomoo.cloud 仍「即将开铸/合约未部署」未收录（无官推+未LIVE）；DropMinters 已在库转态非新收
 - summary: ample-paced R1048，xReads 29/28 softCap，922→893；无新收录；强更新 DropMinters 免费PoW LIVE（≤2h告警）+ Pheromone 池开；补挂 R1047 四卡+pheromone/seal Watch；软债刷；UF cursor 54→68；Discord Peek deferred；notify=true。
-- push: pending
+- push: ok sha=70d8e95 remoteVerified=true
