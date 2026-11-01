@@ -1,0 +1,43 @@
+# RESULT R1075
+
+- mode: pace
+- plannedRound: 1075 | actualRound: 1075
+- collision: none（pull后 meta.round=1074）
+- completedAt: 2026-11-01 19:45 CST
+- xReads: 24 | remainingBefore: 364/1000 | remaining: 340/1000
+- softCap: 18
+- xQuota: mode=pace softCap=18 eveningReserve=80 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: remaining>200 完成十栏关键词+多链 mentions；超 softCap（24/18）以保十栏全+mentions+UF分片+≤2h；starx/mobster/telefees_pump/agentkin_/baobaoagent NF 不重拉；x_budget.py 本地计数滞后，以 X footer 为准
+- notify: true
+- alert: 🚨R1075 新收录 nothuman(免费≤2h 20:00CST)+eclipse-court(免费LIVE≈228)｜TopoSats今晚20:00CST仍≤2h（约14m）｜Nidavellir 20:30CST前1000免费≤2h｜Harvest Phase3 free满 total=1676 pause≈23:11｜AgentRob已开池 sold=10116｜meteorsz余≈285｜dino189｜NoNames829｜面板 https://reboot7454.github.io/early-scout/
+- newIds: [nothuman, eclipse-court]
+- admits:
+  - nothuman(@NotHuman_AI_) → 免费LIVE≤2h 今晚20:00CST开盘·1000免费墙claim+0.0011BNB·退款/LP burn·score58·站nothumanai.pages.dev
+  - eclipse-court(@EclipseCourt) → 免费LIVE 链上≈228/3333 freeMinted≈194·CA 0xb63F…·score62·站eclipsecourt.xyz
+- updates:
+  - tapebit → TopoSats今晚20:00CST仍≤2h（约+14m）官推确认
+  - nidavellir-bsc → 今晚20:30CST开盘≤2h·前1000免费·站nidavellirbsc.vercel.app
+  - agent-harvest → Phase3 freeOpen=0 freeMinted=1500 totalMinted=1676 paid≈176 phaseMinted=500/500 pauseEnd≈23:11:32CST（非≤2h）
+  - meteorsz → freeRemaining=285 · totalMinted=826
+  - dinomitesnft → free LIVE minted=189/5555
+  - nonamespnft → api minted=829/7777 mintOpen=true
+  - morumai → 链上minted=42/3333
+  - bao-agent → 站SSL失败未能刷新；沿用上轮 sold≈9784/10000 免费罄·付费急冲只报
+  - origin-node → 链上≈141/4444 mintOpen 免费LIVE续
+  - agent-rob → api sold=10116 opened=true 已开池·付费只报
+  - zigzoo → 链上≈19/1111 付费只报
+  - wise-owl-society → totalSupply≈2505 免费LIVE续
+  - hive-agentic / agent-door-bsc / wayangx → 软刷续
+- skippedAdmits:
+  - LoriPraytoyyl(牛票) — 3粉付费0.001BNB 弱号，付费只报不收录
+  - AI_Curve($AIC) — 付费bonding已LIVE，付费只报
+  - dantapixelnft / HackouTW / sidecoo — 已在库或非项目官号 / 付费只报
+  - NidavellirBSC — 已在库，本轮升格≤2h免费更新而非新收
+  - starx_xlayer / mobster_meme / telefees_pump / agentkin_ / baobaoagent — NF，不重拉
+- le2h: [tapebit/TopoSats, nothuman, nidavellir-bsc]（20:00 / 20:00 / 20:30 CST）
+- ufCursor: 364→376（shard全已在库；NF不重拉）
+- tenLanesKeywords: full
+- mentionsChains: Tape/TopoSats(@tapebitprotocol/@TapeAIAgent/@bitcointapes), Elysium(@Enter_Elysium), squeek(@squeekchain), Irys/DogeOS/Starknet（关键词合并；giwa_io suspended；starx NF 不重拉）
+- watchBugsFixed: 0（新收挂入 bnAgentWatch+freeMintWatch）
+- Discord: deferred（未登录）
+- push: (pending)
