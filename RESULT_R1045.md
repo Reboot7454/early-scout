@@ -1,0 +1,31 @@
+# RESULT R1045
+
+- mode: post-reset-full
+- plannedRound: 1044 (parent brief) | actualRound: 1045
+- collision: Discord alpha pipeline consumed R1044 at 08:05 CST (6 DC admits); this X post-reset catch-up persisted as R1045
+- completedAt: 2026-11-01 08:13 CST
+- xReads: 50 | remainingBefore: 999/1000 | remaining: 949/1000
+- softCap: 50
+- xQuota: mode=post-reset-full softCap=50 resetAtCST=2026-11-02 08:00 CST
+- deferredFullScan: false | note: only overnight post-reset full catch-up; do not start second full next tick
+- notify: true
+- alert: 新增：Crop Pals 首颗免费 LIVE≈2777/10k、PAWAGENT $1/share LIVE≈92/10k；另收 Mooner(Hyperliquid台)/Elympus(Elysium WL)。面板 https://reboot7454.github.io/early-scout/
+- newIds: [crop-pals, pawagent, moonerfun, elymphus]
+- admits:
+  - crop-pals (@XiangHao91647) lane=打新 score=59 freeLIVE=true status=live ~2777/10k 首颗免费
+  - pawagent (@XiangHao91647) lane=打新 score=72 freeLIVE=false status=live ~92/10k $1/share CA=0xeD70…b85B
+  - moonerfun (@MoonerFun) lane=台子/Meme score=60 freeLIVE=false status=watching Hyperliquid pad docs-live
+  - elymphus (@ElympusHq) lane=打新 score=61 freeLIVE=false status=announced Elysium NFT WL open
+- le2h: safu/mehcat/frogs 昨晚已开且已告，非≤2h 不单推
+- watchBugsFixed: 0
+- softDebt: cantonPadWatch / glazeWatch / tokenWorksPlaygroundWatch / tokenWorksWatch lastChecked→2026-11-01 08:13 CST
+- coverage:
+  - userFollowSoft: priority named + UF shard40 (cursor advanced)
+  - tenLanesKeywords: merged OR ~30m (agent mining/free mint/fair launch/launchpad/Agent ID/AIDROP/Pulse/Local Bottom/Nutshell/squeek/STARX/X Layer/pipfun/computeroll/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘)
+  - mentionsChains: Elysium, GIWA, Starknet, squeek/Nutshell, flap, ShieldedNaka/BTC privacy, Tape, DogeEVM
+  - mustWatch: overnight window from 2026-10-31T13:00Z
+- discordPeekSkipped: true
+- discordPeekDeferred: true
+- discordLoginOk: false
+- summary: 原计划 R1044 post-reset-full；DC alpha 抢占 R1044 后本轮落为 R1045。X 50/50 softCap，999→949；新收 Crop Pals（免费LIVE）/PAWAGENT（付费LIVE）/Mooner/Elympus；软债刷；Discord Peek deferred；notify=true。
+- push: (pending)
