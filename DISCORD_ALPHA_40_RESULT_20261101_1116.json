@@ -47,12 +47,15 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "tipSha": "92fad00",
+    "dataSha": "d90e19a",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1056：Discord alpha 补收 oblaunchpadbase,symbolontrade,korinitrade；清 babycz；lastSeen→2026-11-01 11:12；lastChecked→2026-11-01 11:16 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "DISCORD_ALPHA_40_CARDS_20261101_1112.json",
   "priorRoundNote": "R1055 meta NTR ['babycz']; cardsAfterCutoff=29",
   "lastSeenByChannel": {
@@ -174,5 +177,6 @@
       "name": "Korini"
     }
   ],
-  "alert": "DC补漏R1056新收3项：OBLAUNCHPAD、Symbolon、Korini；面板 https://reboot7454.github.io/early-scout/"
+  "alert": "DC补漏R1056新收3项：OBLAUNCHPAD、Symbolon、Korini；面板 https://reboot7454.github.io/early-scout/",
+  "spideyPosting": true
 }
