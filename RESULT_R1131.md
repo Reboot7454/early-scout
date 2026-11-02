@@ -10,3 +10,4 @@
 
 ## alert
 R1131提醒：新收3个BN Agent ID——①$WAG @WAGAgent：每Agent钱包1份免费（需附0.1U防女巫费，共8888免费份），付费1U/份只报；37777份售罄自动开池；合约0xaa97…Df6e；24/37777；与QAGENT同站群，官推1粉今日新建。②Unbroken @Unbroken_BNB：每钱包首张免费，后0.0005BNB只报；合约0x4443…8b8c；268/10000；官推0粉新建。③$RADAR @dattradar：纯付费0.002BNB只报；CA 0x5015…Ee9D；88/10000。进度：Harvest P8已满500/500，下窗约11/3 01:32 CST；yyds售罄已开池；agent2二期付费69/10000。无≤2h窗口。面板 https://reboot7454.github.io/early-scout/
+- push: 15ede88
