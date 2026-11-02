@@ -1,0 +1,30 @@
+# RESULT R1115
+
+- **round**: 1115 (prev 1114)
+- **mode**: ample
+- **softCap**: 28
+- **xReads**: ≈14（UF分片251–265 + 点名软刷 bscaidrop/localbottom/Nutshell + tenLanes KW×2 + @BN_Big_Bang 核验帖 + mentions Elysium/Tape/GIWA/squeek/BN-pad；NF_skip 不连刷 Pulse/mobster/machine/starx；Liberate 无官推不收）
+- **remainingBefore**: ≈738（MCP 对齐上轮末；budget 脚本开跑≈843）
+- **remaining**: ≈724（MCP）；budget 脚本仍≈843（两套计数）
+- **newIds**: [bn-big-bang]
+- **admits**: 1（DS score：bn-big-bang overall74 admit；官网+官推+代币+免费窗口≤2h）
+- **skips**: UF分片251–265除NF外全已在库（envarai_/scripdrop 等 suspended 跳过）；Elysium mentions 近窗挂靠均已在库；Tape mentions 无硬新 affiliate；GIWA mentions 多为 Ammora waitlist 引流不收；squeek mentions 为 Genesis Aura farm 无新挂靠 mint；BN-pad/bscaidrop 近窗空；LIBERATE 缺可核验官推不收；4Agentid/census_agents 付费薄号/已有同类只报不收；HashDroids 已在库
+- **updates**: **bn-big-bang 新收 upcomingFree 17:00CST≤2h**；**qagent 免费猛增 free≈382→≈1889/6666 仍 freeLIVE**；lucky-agent(free≈36/1000)；jadestx(tm≈28/4800)；flappy-bnb(≈561/2000 mintPrice=0)；**agent-harvest(freeOpen=0 仍关窗 phase7 tm≈3953 free≈3500 paid≈453 pause→19:42:42CST ≈4.1h >2h非升档)**；patch-agent(免费罄 cardsSold≈1013→付费只报)；gang-agent(tm≈1)；strata-ai(tm≈11 paused=1)；lastcall(free≈210)；onimaru(tm≈1382 free≈1374)；nullsector(≈4321)；baoracle(≈8892)；rootlinks(≈458)；hongbao(sold≈169)；agentbond-error(≈29)；agentix-studio(≈9)；agentspunks(≈1585 免费罄)；seethe-pad(tokenCount≈1)；shalinggou(→19:00≈3.4h)；agent2(→20:00≈4.4h)；agent-yyds(→20:30≈4.9h)
+- **le2h**: true（**bn-big-bang 17:00CST**；排期三项与 Harvest pause 均>2h）
+- **notify**: true
+- **alert**: R1115 早期打新雷达：新收 BN Big Bang（Agent-only，前2000免费gas，17:00 CST开盘≤2h，@BN_Big_Bang，官网 bnbigbang.onrender.com，core 0x2197ce9C2Ff890436d497dE817d1B552ffEB7AFe）；QAGENT 免费猛增约382→1889/6666仍LIVE；Harvest仍关窗 pause→19:42:42 CST。面板：https://reboot7454.github.io/early-scout/
+- **ufCursor**: 251 → 266（wrap=false）；userFollowShardDone=true；点名软刷 @bscaidrop @localbottomcom @NutshellMarkets；NF_skip不刷 PulseLaunchpad/mobster_meme/machinedotfun/starx_xlayer；分片 251–265 除 NF/suspended 外全已在库
+- **tenLanesKeywords**: true（合并近30min 全量+BN Agent/fair mint/挖矿/打新/Agent ID/AIDROP/Pulse/free mint/TapeOut/GIWA/DogeEVM/Starknet/Elysium/BIGBANG/LIBERATE 等）
+- **mentionsChains**: Elysium / Tape / GIWA / squeek·X Layer / BN pads；无硬新挂靠 mint；禁只刷BN
+- **watchBugsFixed**: []
+- **Discord**: discordPeekDeferred=true（无登录不尝试）
+- **push commit**: (pending)
+- **NF_skip**: TapeFractal, Leeonmort, computeroll, PulseLaunchpad, machinedotfun, mobster_meme, starx_xlayer, deadpacksol, blindfloor, trytoprint, PlayFarmFi, reynarlabs, world_ygg, battle_pad, cabaldotfun, project_hoodmon, GatorEyesSolada, keyhasp, AGENTICABOT, HashOre_BNB, usejackbay, DubbllePadX, ponzihooks, swiprdotxyz, GlitchOnHood（本轮不连刷）
+- **softDebt**: canton/glaze/tokenWorks + 各Watch lastChecked → 本轮 CST
+- **deferredFullScan**: false
+- **notes**:
+  - **新收 BN Big Bang**：Agent-only 公平 mint；#1–2000 每 Agent ID 免费（gas）；#2001–10000 付 0.002 BNB；#10000 开 Pancake 池并 LP 黑洞；开盘 **17:00 CST ≤2h** → 必须 notify；合约 core `0x2197ce9C2Ff890436d497dE817d1B552ffEB7AFe` token `0x60cFc77B7D41171672bC985639f759C891e8dC06`；官推 @BN_Big_Bang≈832粉（老号今日密集发帖）。
+  - **QAGENT 免费猛增** ≈382→≈1889/6666 仍 freeLIVE（非新收但进度跳升已写入面板）。
+  - Harvest 仍关窗 freeOpen=0，pause→19:42:42CST（>2h 非升档，已核验无状态突变）。
+  - Liberate 缺可核验官推，本轮不收；下轮若出现官网+官推再评。
+  - 下轮 **R1116**：UF从 **266** 续；**Big Bang 17:00 开盘后立刻核验 freeMinted/是否可打**；Harvest 跟 pause→19:42 是否临近≤2h/再开窗；续跟 qagent/lucky/flappy/jadest/onimaru 等免费LIVE + patch/gang/strata 付费只报；shalinggou 19:00 / agent2 20:00 / YYDS 20:30（临近≤2h升档）；mentions 轮换补 Zero/DogeEVM/Starknet/BTC/flap·Irys·Full·Arc/BN-pad；Discord deferred；xReads 控 softCap。
