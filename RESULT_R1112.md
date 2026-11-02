@@ -1,0 +1,33 @@
+# RESULT R1112
+
+- **round**: 1112 (prev 1111)
+- **mode**: ample
+- **softCap**: 28
+- **xReads**: ≈22（UF分片206–220全在库无帖读 + 点名软刷 bscaidrop/localbottom/Nutshell + Lucky/GANG/STRATA/Jadest 核验 + tenLanes KW + mentions Zero/DogeEVM/Starknet/BTC·Irys·Full·Arc/BN-pad）
+- **remainingBefore**: ≈793（MCP 对齐上轮末；budget 脚本开跑≈843）
+- **remaining**: ≈774（MCP）；budget 脚本仍≈843（两套计数）
+- **newIds**: [lucky-agent, jadestx, gang-agent, strata-ai]
+- **admits**: 4（DeepSeek flash）
+  - lucky-agent（LuckyAgent @LuckyAgent_bsc）：**免费 LIVE** freeMinted≈15/1000 freeRemaining≈985 mintEnabled；站 https://www.luckyagent.app；CA `0x7687589fdaEc52097f64629840428bE0977d52e4`；付费档 0.0015BNB；score74（**免费LIVE必须收录+notify**）
+  - jadestx（JadestX @jadestxmint）：**近免费 LIVE** ≈0.0001BNB；tm≈19/4800；站 https://jadestx.vercel.app；CA `0x885FFC03f68d444E8D33Da81c4a8b37349F6C481`；score64（近免费须 notify）
+  - gang-agent（GANG AGENT @GANGAGENT_）：付费 0.002BNB/share LIVE tm≈1；站 https://gangagent.xyz；mint `0x74662FaFFB8486B95A5797d0ea5470F4534097e0` Token `0xB39967D645d4FF6ed61898E4aF499804b254c202`；score58 **付费只报**
+  - strata-ai（STRATA @_STRATA_AI）：付费 0.002BNB LIVE tm≈11；站 https://strata.gay；mint `0xDe0EBa04bA7a6784aee69d8b5d127DdC5E4eC9F0` Token `0xA97D5dfaC847D31932d56B941A8424fD461f1467`；score57 **付费只报**
+- **skips**: cilok-cats（@CilokCats 粉0+is.gd 无独立官网，DS admit:false）；cortexion/gravewrap（仅 XiaoMei 代推无官推硬门槛）；qagent/Charzardxpox（上轮空站续跳）；helloagents（无官推续）；DANTA/ONLYAI/DualForge/holly-crab/soulboardfun/danta 已在库；UF点名 localbottom/Nutshell/bscaidrop 无新 mint；NF_skip 不连刷 Pulse/mobster/machine/starx 等
+- **updates**: agent-harvest(tm≈3451 freeOpen=0 pause→14:34:48CST ≈0.28h **≤2h**)；flappy-bnb(≈166/2000 仍免费LIVE)；patch-agent(免费仍罄 cardsSold≈1013 paidSold≈13→付费只报)；lastcall(free≈208)；onimaru(tm≈1022 free≈1015)；nullsector(≈4117)；baoracle(≈8782)；rootlinks(≈450)；hongbao(sold≈148)；agentbond-error(≈29)；agentix-studio(≈4/12000)；agentspunks(≈1585 免费罄)；eclipse-court(≈357)；pawagent(sharesSold≈115)；shalinggou(→19:00≈4.7h)；agent2(→20:00≈5.7h)；agent-yyds(→20:30≈6.2h)
+- **le2h**: true（**Harvest ≈0.28h** freeOpen仍0 升档；排期三项均>2h）
+- **notify**: true
+- **alert**: R1112 新收录：LuckyAgent 免费LIVE free≈15/1000剩≈985 @LuckyAgent_bsc https://www.luckyagent.app CA 0x7687589fdaEc52097f64629840428bE0977d52e4；JadestX 近免费≈0.0001BNB tm≈19/4800 @jadestxmint CA 0x885FFC03f68d444E8D33Da81c4a8b37349F6C481；GANG 付费0.002BNB tm≈1 @GANGAGENT_ 只报；STRATA 付费0.002BNB tm≈11 @_STRATA_AI 只报。Harvest 仍 freeOpen=0 pause→14:34:48CST（约0.28h≤2h）升档盯开窗。面板 https://reboot7454.github.io/early-scout/
+- **ufCursor**: 206 → 221（wrap=false）；userFollowShardDone=true；点名软刷 @bscaidrop @localbottomcom @NutshellMarkets；NF_skip不刷 PulseLaunchpad/mobster_meme/machinedotfun/starx_xlayer 等；分片 206–220 全已在库
+- **tenLanesKeywords**: true（合并近30min 全量+BN Agent/fair mint/挖矿/打新/Agent ID/AIDROP/Pulse/free mint）
+- **mentionsChains**: Zero / DogeEVM / Starknet / BTC / flap·Irys·Full·Arc / BN-pad；Starknet 多为 L1 探索噪音；BN-pad @Ptahtrade 多为 ProofOfAgent 刷屏无新挂靠 mint；Irys/Full/Arc/BTC 关键词无硬新 affiliate；禁只刷BN
+- **watchBugsFixed**: [lucky-agent/jadestx/gang-agent/strata-ai → UF+bnAgent+agentPad；（lucky/jadest→freeMint）]
+- **Discord**: discordPeekDeferred=true（无登录不尝试）
+- **push commit**: (pending)
+- **NF_skip**: TapeFractal, Leeonmort, computeroll, PulseLaunchpad, machinedotfun, mobster_meme, starx_xlayer, deadpacksol, blindfloor, trytoprint, PlayFarmFi, reynarlabs, world_ygg, battle_pad, cabaldotfun, project_hoodmon, GatorEyesSolada, keyhasp, AGENTICABOT, HashOre_BNB, usejackbay, DubbllePadX, CilokCatsBSC
+- **softDebt**: canton/glaze/tokenWorks + 各Watch lastChecked → 2026-11-02 14:16 CST
+- **deferredFullScan**: false
+- **notes**:
+  - 新收 4：LuckyAgent/JadestX 免费或近免费须立刻提醒；GANG/STRATA 付费只报不自动。
+  - Harvest **仍 ≤2h**（pause 14:34:48CST）；下轮若已过点须升档核验 freeOpen，开窗立刻 notify。
+  - 下轮 **R1113**：UF从 **221** 续；Harvest 盯开窗/开窗后进度；续跟 lucky-agent/jadestx/flappy-bnb/patch-agent(付费)/gang-agent/strata-ai/lastcall/onimaru/nullsector/baoracle/rootlinks/hongbao/agentbond-error/agentix-studio；shalinggou 19:00 / agent2 20:00 / YYDS 20:30（临近≤2h升档）；mentions 轮换补 Elysium/Tape/GIWA/squeek·X Layer/BN pads；Discord deferred；xReads 控 softCap。
+  - cilok/cortexion/gravewrap/helloagents/qagent 本轮不收。

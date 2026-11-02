@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-02 13:15 CST",
+    "updated": "2026-11-02 14:17 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R1036",
-    "lastScout": "2026-11-02 13:15 CST",
+    "lastScout": "2026-11-02 14:17 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -24,7 +24,7 @@
     ],
     "layerZeroWatch": {
       "active": true,
-      "lastChecked": "2026-11-02 09:38 CST",
+      "lastChecked": "2026-11-02 14:17 CST",
       "note": "R977 soft-debt lastChecked 2026-10-31 12:39 CST; prev 2026-10-31 11:37 CST; R950 soft-debt lastChecked 2026-10-31 04:33 CST; R945 soft-debt lastChecked 2026-10-31 03:02 CST; prev 2026-10-30 21:10 CST; R889 soft-debt lastChecked 2026-10-30 07:06 CST (X exhausted remaining=0 until 2026-10-30 08:00 CST)",
       "r349": "Zero 11-30续；无新LZ核验admit",
       "r350": "Zero 11-30续",
@@ -247,7 +247,7 @@
     ],
     "miningWatch": {
       "note": "R977 soft-debt lastChecked 2026-10-31 12:39 CST; prev 2026-10-31 12:02 CST; R950 soft-debt lastChecked 2026-10-31 04:33 CST; R945 soft-debt lastChecked 2026-10-31 03:02 CST; prev 2026-10-31 01:12 CST; R889 soft-debt lastChecked 2026-10-30 07:06 CST (X exhausted remaining=0 until 2026-10-30 08:00 CST)",
-      "lastChecked": "2026-11-02 12:48 CST",
+      "lastChecked": "2026-11-02 14:17 CST",
       "r379": "soft refresh",
       "active": true,
       "r380": "Trac agentic mining续；本窗无新PoW/agent mining admit；lastChecked 2026-10-23 08:32 CST",
@@ -647,7 +647,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1111,
+    "round": 1112,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -822,7 +822,7 @@
     },
     "glazeWatch": {
       "active": true,
-      "lastChecked": "2026-11-02 13:44 CST",
+      "lastChecked": "2026-11-02 14:17 CST",
       "note": "R1080 soft-debt lastChecked 2026-11-01 22:10:03 CST; | R1064 soft-debt lastChecked 2026-11-01 14:15 CST; | R1052 soft-debt lastChecked 2026-11-01 10:10 CST; | R1043 soft-debt lastChecked 2026-11-01 07:29 CST; X exhausted — no live posts | R1038 soft-debt lastChecked 2026-11-01 06:08 CST; X exha",
       "r368": "checked",
       "r369": "软债刷新 lastChecked",
@@ -1884,7 +1884,10 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "flappy-bnb"
+      "lucky-agent",
+      "jadestx",
+      "gang-agent",
+      "strata-ai"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -2655,9 +2658,20 @@
       "ink-futuristic"
     ],
     "watches": {
-      "le2h": [],
+      "le2h": true,
       "tonight": [
-        "tapebit/TopoSats 20:00CST"
+        {
+          "id": "shalinggou",
+          "at": "19:00 CST"
+        },
+        {
+          "id": "agent2",
+          "at": "20:00 CST"
+        },
+        {
+          "id": "agent-yyds",
+          "at": "20:30 CST"
+        }
       ],
       "computeroll": {
         "note": "Mining仍Coming soon；测试合约未正式开",
@@ -2669,7 +2683,7 @@
           "note": "mint临时暂停重部署"
         }
       ],
-      "lastChecked": "2026-11-02 09:38 CST",
+      "lastChecked": "2026-11-02 14:17 CST",
       "r793": "le2h refreshed; hoodmon NOW; pick-rush/farmfi/pulse ≤1h; computeroll/ygg/reyn LIVE",
       "trackedNew": [
         "karmafuckers",
@@ -2704,8 +2718,10 @@
         "lastChecked": "2026-10-30 05:29 CST"
       },
       "r831": "full-radar；le2h none（Blindfloor 21:00 CST ≈9.5h）",
-      "le2hCurrent": [],
-      "le2hNote": "Harvest pauseEnd≈09:17:55CST 非≤2h",
+      "le2hCurrent": [
+        "agent-harvest"
+      ],
+      "le2hNote": "Harvest pause→14:34:48CST ≈0.283h freeOpen=0",
       "note": "R950 soft-debt lastChecked 2026-10-31 04:33 CST; R945 soft-debt lastChecked 2026-10-31 03:02 CST; prev 2026-10-31 00:39 CST; R882 soft-debt lastChecked 2026-10-30 03:32 CST (X exhausted remaining=0 until 2026-10-30 08:00 CST); R881 soft-debt las",
       "r887": "soft-debt (X exhausted)",
       "r888": "soft-debt 2026-10-30 06:31 CST; zero-X; watchBugs=0",
@@ -4081,7 +4097,7 @@
       "zec-nodes",
       "boys-in-hood"
     ],
-    "alertMessage": "R1111 新收录：FLAPPY 免费 NFT mint LIVE ≈87/2000（gas-only，1/钱包）@flappybnb https://flappy-bird-bnb2.vercel.app NFT 0x1591f1ED9f3DBEC3a922Dc63F5782Daf17EEBA1E Token 0xf15Ea9342ca12103aa158E65310ca2B84c35F149（10%税无LP）。PATCH 免费池已罄 freeGiven=1000/1000 cardsSold≈1009 paidSold≈9→付费档只报 @patchagentbnb。Harvest 仍 freeOpen=0 pause→14:34:48CST（约0.832h≤2h）升档盯开窗。面板 https://reboot7454.github.io/early-scout/",
+    "alertMessage": "R1112 新收录：LuckyAgent 免费LIVE free≈15/1000剩≈985 @LuckyAgent_bsc https://www.luckyagent.app CA 0x7687589fdaEc52097f64629840428bE0977d52e4；JadestX 近免费≈0.0001BNB tm≈19/4800 @jadestxmint CA 0x885FFC03f68d444E8D33Da81c4a8b37349F6C481；GANG 付费0.002BNB tm≈1 @GANGAGENT_ 只报；STRATA 付费0.002BNB tm≈11 @_STRATA_AI 只报。Harvest 仍 freeOpen=0 pause→14:34:48CST（约0.283h≤2h）升档盯开窗。面板 https://reboot7454.github.io/early-scout/",
     "dsSummary": "deepseek-flash score：admit hongbao(79)/holly-crab(74)/wraith-scout(52)；skip night-shift/scout-pass/agent-404/slimelings（无官推）",
     "round270Added": [
       "avatarpad"
@@ -5460,8 +5476,10 @@
       "r1096": "soft debt lastChecked refresh"
     },
     "roundNAdded": [
-      "patch-agent",
-      "agentspunks"
+      "lucky-agent",
+      "jadestx",
+      "gang-agent",
+      "strata-ai"
     ],
     "round315Added": [
       "ink-identity",
@@ -6226,6 +6244,10 @@
       "active": true,
       "label": "BN Agent钱包专属内盘/Agent ID发射台/agentic wallet launch",
       "accounts": [
+        "@_STRATA_AI",
+        "@GANGAGENT_",
+        "@jadestxmint",
+        "@LuckyAgent_bsc",
         "@flappybnb",
         "@BiAnRen_AI",
         "@Agentrocksclub",
@@ -6769,6 +6791,10 @@
         "@Agentspunks"
       ],
       "candidateIds": [
+        "strata-ai",
+        "gang-agent",
+        "jadestx",
+        "lucky-agent",
         "flappy-bnb",
         "2hourfun",
         "4agentbroker",
@@ -7417,7 +7443,7 @@
       ],
       "caWarning": "合约一律标未核实",
       "note": "R1043 Watch补挂 erc8004-markets @ERC8004Markets; R950 soft-debt lastChecked 2026-10-31 04:33 CST; R945 soft-debt lastChecked 2026-10-31 03:02 CST; prev 2026-10-31 01:12 CST; R889 soft-debt lastChecked 2026-10-30 07:06 CST (X exhausted remaining=0 until 2026-10-30 08:00 CST)",
-      "lastChecked": "2026-11-02T13:44:51+08:00",
+      "lastChecked": "2026-11-02 14:17 CST",
       "r329": "R329 dotaipad今日21:00；AWPad $AWP指引+开源合约；yinghubnb外盘可买续；新台NERMO非BN。",
       "r330": "dotaipad今日21:00；MOGO过薄skip；无新BN Agent pad admit",
       "r332": "dotaipad bio倒计时今日21:00CST续；yinghubnb外盘可买续；DotAIbsc薄号教程skip；无新BN Agent pad admit",
@@ -7812,7 +7838,7 @@
       "dogeevm": true,
       "bnagent": true
     },
-    "coverage": "R1111 ample UF→Watch/≤2h→tenLanes→mentions(Elysium/Tape/GIWA/squeek·X Layer/BN pads)；Discord deferred",
+    "coverage": "R1112 ample tenLanes=true mentions=Zero/DogeEVM/Starknet/BTC/flap·Irys·Full·Arc/BN-pad discordDeferred=true",
     "skipNoteR328": "hoodey(1粉无产品)DS未收；qpick-agent(4粉代币已发)DS未收；hypaww无Elysium On testnet/部署证据未收；fomopoly/vaultstreet/rebate/conso/blackboard/pabalx/giwaup/minehood/agentic-inu/giwa-terminal/jakdu-pump/sansense/cozygolem/raidlords/vela-rh/dotai-pad/awpad/lootrush-rh/chimp-champs/inktropy已在库；GO盘无独立新信号；StockCZ Agent ID模板过薄未交分。",
     "xReads": 18,
     "round329Added": [
@@ -9425,7 +9451,7 @@
     "round484Added": [
       "seeker-mantles"
     ],
-    "lastAlert": "R1111 新收录：FLAPPY 免费 NFT mint LIVE ≈87/2000（gas-only，1/钱包）@flappybnb https://flappy-bird-bnb2.vercel.app NFT 0x1591f1ED9f3DBEC3a922Dc63F5782Daf17EEBA1E Token 0xf15Ea9342ca12103aa158E65310ca2B84c35F149（10%税无LP）。PATCH 免费池已罄 freeGiven=1000/1000 cardsSold≈1009 paidSold≈9→付费档只报 @patchagentbnb。Harvest 仍 freeOpen=0 pause→14:34:48CST（约0.832h≤2h）升档盯开窗。面板 https://reboot7454.github.io/early-scout/",
+    "lastAlert": "2026-11-02 14:17 CST",
     "lastSummary": "R1094 tight xReads=10 rem66→56 softCap10；无新收录；Harvest freeOpen=0→09:17CST≈4.2h；UF696→701",
     "round485Added": [
       "madang-fun"
@@ -9801,7 +9827,7 @@
     ],
     "tokenWorksWatch": {
       "active": true,
-      "lastChecked": "2026-11-02 13:44 CST",
+      "lastChecked": "2026-11-02 14:17 CST",
       "note": "R1064 soft-debt lastChecked 2026-11-01 14:15 CST; | R1052 soft-debt lastChecked 2026-11-01 10:10 CST; | R1043 soft-debt lastChecked 2026-11-01 07:29 CST; X exhausted — no live posts | R1038 soft-debt lastChecked 2026-11-01 06:08 CST; X exhausted — no live posts | R1032 soft-debt lastChecked ",
       "r596": "R596 soft债 lastChecked",
       "r602": "soft refresh",
@@ -10832,6 +10858,10 @@
       "active": true,
       "label": "用户自关注清单加强监控（2026-10-28）",
       "accounts": [
+        "@_STRATA_AI",
+        "@GANGAGENT_",
+        "@jadestxmint",
+        "@LuckyAgent_bsc",
         "@HeroesElysium",
         "@BiAnRen_AI",
         "@Agentrocksclub",
@@ -11673,6 +11703,10 @@
         "@Agentspunks"
       ],
       "candidateIds": [
+        "strata-ai",
+        "gang-agent",
+        "jadestx",
+        "lucky-agent",
         "flappy-bnb",
         "0xvernull",
         "10kcubs",
@@ -12500,7 +12534,7 @@
       ],
       "pending": [],
       "note": "R1099 soft shard 777→797；yinghubnb=KOL skip建卡；点名软刷localbottom/Nutshell/bscaidrop安静；Pulse本轮父探针不重读；NF BinanceHack suspended",
-      "lastChecked": "2026-11-02T13:44:51+08:00",
+      "lastChecked": "2026-11-02 14:17 CST",
       "createdAt": "2026-10-28 17:15 CST",
       "sourceRound": 775,
       "r775": "用户点名6项已入 candidates；pending=[]",
@@ -12779,69 +12813,7 @@
       "r1016": "watch-bug fix: cadencebnb @cadencebnb BNB DCA tool",
       "r1018": "watch-bug fix: hashwardonline @HashwardOnline 挖矿 Fuse Cool",
       "r1022": "R1022 watch-bug: ElyWord Elysium word game Discord补漏",
-      "cursor": {
-        "from": 191,
-        "to": 206,
-        "wrap": false,
-        "prev": {
-          "from": 176,
-          "to": 191,
-          "wrap": false,
-          "prev": {
-            "from": 161,
-            "to": 176,
-            "wrap": false,
-            "prev": {
-              "from": 117,
-              "to": 131,
-              "wrap": false,
-              "prev": {
-                "from": 98,
-                "to": 117,
-                "wrap": false,
-                "prev": {
-                  "from": 70,
-                  "to": 98,
-                  "wrap": false,
-                  "prev": {
-                    "from": 6,
-                    "to": 42,
-                    "wrap": false,
-                    "prev": {
-                      "from": 821,
-                      "to": 6,
-                      "wrap": true,
-                      "prev": {
-                        "from": 797,
-                        "to": 821,
-                        "wrap": false,
-                        "prev": {
-                          "from": 777,
-                          "to": 797,
-                          "wrap": false
-                        },
-                        "note": "R1100 UF soft shard 797→821"
-                      },
-                      "note": "R1101 UF soft shard 821→6 wrap（@elysium_machine…@Agent_YYDS 再 @HeroesElysium…@TapeFractal）；点名UF软刷 localbottom/Nutshell/bscaidrop/Pulse/mobster/machine/starx；TapeFractal NF；POPZERO DS skip（免费罄+池开+粉≈3）；Harvest仍≤2h"
-                    },
-                    "note": "R1102 UF soft shard 6→42（@meetmotes…@butterflymrkt）；点名UF软刷 localbottom/Nutshell/bscaidrop/Pulse/mobster/machine/starx；NF_skip不连刷记入；新收shalinggou；Harvest仍≤2h"
-                  },
-                  "note": "R1104 UF soft shard 70→98（@studscity…@nexusdotgg）；点名UF软刷 localbottom/Nutshell/bscaidrop；NF_skip不连刷 Pulse/mobster/machine/starx；新NF battle_pad/cabaldotfun/project_hoodmon；Harvest freeOpen1→0 跃迁"
-                },
-                "note": "R1105 UF soft shard 98→117（@Kekeonelysium…@Tapemonkeworld）；点名UF软刷 localbottom/Nutshell/bscaidrop；NF_skip不连刷 Pulse/mobster/machine/starx；新收lastcall"
-              },
-              "note": "R1106 UF soft shard 117→131（@PunkOnGiwa…@theidmfun）；点名UF软刷 localbottom/Nutshell/bscaidrop；NF_skip不连刷 Pulse/mobster/machine/starx；无新录取"
-            },
-            "note": "R1109 UF soft shard 161→176；点名软刷 localbottom/Nutshell/bscaidrop；NF_skip不刷 Pulse/mobster/machine/starx；新NF AGENTICABOT；新收agentix-studio+sensei"
-          },
-          "shardSizeHint": 15,
-          "lastShardNote": "R1110 @HashOre_BNB…@DUBBLE_x_chains；NF_skip HashOre/usejackbay不连刷；点名软刷 localbottom/Nutshell/bscaidrop；其余点名 Pulse/mobster/machine/starx 仍NF",
-          "note": "R1110 UF soft shard 176→191；点名软刷 localbottom/Nutshell/bscaidrop；NF_skip不刷 Pulse/mobster/machine/starx/HashOre/usejackbay；新收patch-agent+agentspunks；Harvest≤2h"
-        },
-        "shardSizeHint": 15,
-        "lastShardNote": "R1111 @DubbllePadX…@owlgatecli；NF_skip DubbllePadX；点名软刷 localbottom/Nutshell/bscaidrop；其余点名 Pulse/mobster/machine/starx/HashOre/usejackbay 仍NF",
-        "note": "R1111 UF soft shard 191→206；点名软刷 localbottom/Nutshell/bscaidrop；NF_skip不刷；新收flappy-bnb；Harvest≤2h；PATCH免费罄"
-      },
+      "cursor": 221,
       "shardSizeHint": 40,
       "r1025": "R1025 watch-bug: belief-in-safu @bis_bnb Discord R1024 admit",
       "r1029": "R1029 watch-bug: hootal-kombat @hootal_ Discord R1028 admit",
@@ -13424,6 +13396,8 @@
       "active": true,
       "label": "Free mint / NFT 打新",
       "accounts": [
+        "@jadestxmint",
+        "@LuckyAgent_bsc",
         "@flappybnb",
         "@BiAnRen_AI",
         "@Agentrocksclub",
@@ -13638,6 +13612,8 @@
         "@Agentspunks"
       ],
       "candidateIds": [
+        "jadestx",
+        "lucky-agent",
         "flappy-bnb",
         "1k-art-gallery",
         "_nichesociety",
@@ -13838,7 +13814,7 @@
         "agentspunks"
       ],
       "note": "R977 soft-debt lastChecked 2026-10-31 12:39 CST; prev 2026-10-31 11:37 CST; R950 soft-debt lastChecked 2026-10-31 04:33 CST; R945 soft-debt lastChecked 2026-10-31 03:02 CST; prev 2026-10-31 01:12 CST; R889 soft-debt lastChecked 2026-10-30 07:06 CST (X exhausted remaining=0 until 2026-10-30 08:00 CST); R1070 +origin-node,bao-agent,zigzoo,anxiaojiang,hive-agentic",
-      "lastChecked": "2026-11-02T13:44:51+08:00",
+      "lastChecked": "2026-11-02 14:17 CST",
       "r793": "created for watch-bug compliance on free-mint admits",
       "r805": "R805 soft-brush 2026-10-29 01:39 CST",
       "r815": "watch-bug fix: added ['@gotchishadows', 'gotchishadows']",
@@ -14763,6 +14739,10 @@
     ],
     "bnAgentWatch": {
       "accounts": [
+        "@_STRATA_AI",
+        "@GANGAGENT_",
+        "@jadestxmint",
+        "@LuckyAgent_bsc",
         "@flappybnb",
         "@BiAnRen_AI",
         "@Agentrocksclub",
@@ -14936,6 +14916,10 @@
         "@Agentspunks"
       ],
       "candidateIds": [
+        "strata-ai",
+        "gang-agent",
+        "jadestx",
+        "lucky-agent",
         "flappy-bnb",
         "agentai-agi",
         "agentic-hive",
@@ -15097,7 +15081,7 @@
         "patch-agent",
         "agentspunks"
       ],
-      "lastChecked": "2026-11-02T13:44:51+08:00",
+      "lastChecked": "2026-11-02 14:17 CST",
       "active": true,
       "r857": "R857 soft-refresh / keyword / mentions covered",
       "r861": "R861：X daily 1000/1000 exhausted（reset 2026-10-30 08:00 CST）；未软刷近帖/mentions/关键词；仅修 Watch bug + le2h 续盯。",
@@ -15271,7 +15255,7 @@
       "at": "2026-10-29 18:40 CST",
       "lastChecked": "2026-11-02 09:38 CST"
     },
-    "lastAlertMessage": "R1111 新收录：FLAPPY 免费 NFT mint LIVE ≈87/2000（gas-only，1/钱包）@flappybnb https://flappy-bird-bnb2.vercel.app NFT 0x1591f1ED9f3DBEC3a922Dc63F5782Daf17EEBA1E Token 0xf15Ea9342ca12103aa158E65310ca2B84c35F149（10%税无LP）。PATCH 免费池已罄 freeGiven=1000/1000 cardsSold≈1009 paidSold≈9→付费档只报 @patchagentbnb。Harvest 仍 freeOpen=0 pause→14:34:48CST（约0.832h≤2h）升档盯开窗。面板 https://reboot7454.github.io/early-scout/",
+    "lastAlertMessage": "R1112 新收录：LuckyAgent 免费LIVE free≈15/1000剩≈985 @LuckyAgent_bsc https://www.luckyagent.app CA 0x7687589fdaEc52097f64629840428bE0977d52e4；JadestX 近免费≈0.0001BNB tm≈19/4800 @jadestxmint CA 0x885FFC03f68d444E8D33Da81c4a8b37349F6C481；GANG 付费0.002BNB tm≈1 @GANGAGENT_ 只报；STRATA 付费0.002BNB tm≈11 @_STRATA_AI 只报。Harvest 仍 freeOpen=0 pause→14:34:48CST（约0.283h≤2h）升档盯开窗。面板 https://reboot7454.github.io/early-scout/",
     "lastNotify": true,
     "lastNotifyReason": "新收录免费LIVE flappy-bnb；PATCH免费池罄状态变化；Harvest≤2h升档",
     "round854Added": [
@@ -16266,7 +16250,7 @@
       "palu-shift",
       "liquid-hype"
     ],
-    "lastRadarRound": 1111,
+    "lastRadarRound": 1112,
     "r897": {
       "at": "2026-10-30 12:38 CST",
       "new": [
@@ -17488,7 +17472,7 @@
       "oren-finance @orenfinance_ → userFollowWatch (R983 admit 漏 Watch)",
       "agent-harvest/nocturn/moar-pixel → UF+agentPad/bnAgent/freeMint as applicable"
     ],
-    "lastRoundCompleted": 1111,
+    "lastRoundCompleted": 1112,
     "watchBugsFixedR986": [
       "agenticheist/crest-on-bnb/clawlers → UF+agentPad+bnAgent+freeMint (new admits on admit)",
       "famuli handle sync @FamuliAI → UF+agentPad+bnAgent+freeMint",
@@ -18386,7 +18370,7 @@
       "dsFallback": false
     },
     "round1049Added": [],
-    "ufCursor": 206,
+    "ufCursor": 221,
     "r1050WatchBugs": [
       "themutantclub → userFollowWatch (+acc)",
       "themutantclub → userFollowWatch (+cid)",
@@ -19109,7 +19093,7 @@
       "BTC"
     ],
     "ufCursorR1070": "284→300",
-    "alert": "R1111 新收录：FLAPPY 免费 NFT mint LIVE ≈87/2000（gas-only，1/钱包）@flappybnb https://flappy-bird-bnb2.vercel.app NFT 0x1591f1ED9f3DBEC3a922Dc63F5782Daf17EEBA1E Token 0xf15Ea9342ca12103aa158E65310ca2B84c35F149（10%税无LP）。PATCH 免费池已罄 freeGiven=1000/1000 cardsSold≈1009 paidSold≈9→付费档只报 @patchagentbnb。Harvest 仍 freeOpen=0 pause→14:34:48CST（约0.832h≤2h）升档盯开窗。面板 https://reboot7454.github.io/early-scout/",
+    "alert": "R1112 新收录：LuckyAgent 免费LIVE free≈15/1000剩≈985 @LuckyAgent_bsc https://www.luckyagent.app CA 0x7687589fdaEc52097f64629840428bE0977d52e4；JadestX 近免费≈0.0001BNB tm≈19/4800 @jadestxmint CA 0x885FFC03f68d444E8D33Da81c4a8b37349F6C481；GANG 付费0.002BNB tm≈1 @GANGAGENT_ 只报；STRATA 付费0.002BNB tm≈11 @_STRATA_AI 只报。Harvest 仍 freeOpen=0 pause→14:34:48CST（约0.283h≤2h）升档盯开窗。面板 https://reboot7454.github.io/early-scout/",
     "round1071Added": [],
     "ufCursorR1072": "320→336",
     "r1072WatchBugs": [
@@ -19398,7 +19382,7 @@
     },
     "xRemainingBefore": 869,
     "r1091SoftDebt": true,
-    "actualRound": 1111,
+    "actualRound": 1112,
     "plannedRound": 1107,
     "ufCursorR1092": {
       "from": 648,
@@ -19581,10 +19565,10 @@
     "updatedAtLabel": "2026-11-02 12:10 CST",
     "lastMode": "ample",
     "softDebt": {
-      "canton": "2026-11-02 13:44 CST",
-      "glaze": "2026-11-02 13:44 CST",
-      "tokenWorks": "2026-11-02 13:44 CST",
-      "note": "R1111 stamp refresh"
+      "canton": "2026-11-02 14:17 CST",
+      "glaze": "2026-11-02 14:17 CST",
+      "tokenWorks": "2026-11-02 14:17 CST",
+      "note": "R1112 softDebt lastChecked brushed"
     },
     "harvestHrsToResume": 2.4,
     "round1109Added": [
@@ -19709,9 +19693,363 @@
       ],
       "userFollowSoft": "191→206",
       "discordPeekDeferred": true
-    }
+    },
+    "round1112Added": [
+      "lucky-agent",
+      "jadestx",
+      "gang-agent",
+      "strata-ai"
+    ]
   },
   "candidates": [
+    {
+      "id": "lucky-agent",
+      "name": "LuckyAgent",
+      "status": "live",
+      "score": 74,
+      "focus": false,
+      "chain": "BNB",
+      "candidate": true,
+      "round": 1112,
+      "handle": "@LuckyAgent_bsc",
+      "twitter": "@LuckyAgent_bsc",
+      "category": "打新",
+      "zoneHint": "打新",
+      "mint": {
+        "type": "free",
+        "price": "免费档 gas；付费档 0.0015 BNB/份",
+        "cap": 10000,
+        "freeCap": 1000,
+        "perWallet": 10,
+        "gate": "Binance Agent ID / Agentic Wallet",
+        "note": "FREE_SHARES=1000；PAID_SHARES=9000；mintEnabled；含 lottery"
+      },
+      "mintStatus": "freeLIVE",
+      "freeLIVE": true,
+      "progress": {
+        "freeMinted": 15,
+        "freeCap": 1000,
+        "freeRemaining": 985,
+        "paidMinted": 0,
+        "totalMinted": 15,
+        "mintEnabled": true,
+        "launched": false,
+        "mintPriceWei": 1500000000000000,
+        "mintPriceBNB": 0.0015,
+        "checkedAt": "2026-11-02T14:17:47+08:00",
+        "note": "RPC freeMinted≈15/1000 freeRemaining≈985 mintEnabled=true FREE LIVE"
+      },
+      "links": {
+        "x": "https://x.com/LuckyAgent_bsc",
+        "twitter": "https://x.com/LuckyAgent_bsc",
+        "website": "https://www.luckyagent.app",
+        "web": "https://www.luckyagent.app",
+        "mint": "https://www.luckyagent.app",
+        "ca": "0x7687589fdaEc52097f64629840428bE0977d52e4",
+        "token": "0x7687589fdaEc52097f64629840428bE0977d52e4",
+        "lottery": "0xd1E7A01f6916a235924009a9bc02A0e2AAd2dDb0",
+        "tweet": "https://x.com/LuckyAgent_bsc/status/2117135068489740730"
+      },
+      "contract": "0x7687589fdaEc52097f64629840428bE0977d52e4",
+      "tags": [
+        "BNB",
+        "Agent ID",
+        "free mint",
+        "fair launch",
+        "有官网",
+        "有官推",
+        "R1112",
+        "freeLIVE",
+        "LuckyAgent"
+      ],
+      "highlights": [
+        "免费额度剩余约985，铸造成本极低",
+        "官网、官推、合约地址齐全，mint已开启",
+        "单钱包上限10份，规则相对清晰"
+      ],
+      "drawbacks": [
+        "官推仅约19粉，社交验证很弱",
+        "launched=false，开盘时间不确定",
+        "BNB Agent ID 赛道同质化严重"
+      ],
+      "risks": [
+        "官推粉≈19薄",
+        "未开盘",
+        "合约未深审",
+        "付费档0.0015BNB"
+      ],
+      "whatsNew": "R1112新收：LuckyAgent 免费LIVE free≈15/1000剩≈985；站 luckyagent.app；CA 0x7687…52e4",
+      "whyWatch": "免费LIVE Agent mint 极早期，须立刻提醒",
+      "notes": "R1112新收：免费LIVE；DS overall74；免费必须notify",
+      "dsScore": {
+        "early": 88,
+        "actionable": 80,
+        "novelty": 62,
+        "risk": 78,
+        "overall": 74
+      },
+      "admittedAt": "2026-11-02T14:17:47+08:00",
+      "firstSeen": "2026-11-02 14:17 CST",
+      "lastChecked": "2026-11-02T14:17:47+08:00",
+      "updatedAt": "2026-11-02T14:17:47+08:00",
+      "newThisRound": true,
+      "flag": "new",
+      "followers": 19,
+      "risk": "官推薄；未开盘；赛道拥挤"
+    },
+    {
+      "id": "jadestx",
+      "name": "JadestX",
+      "status": "live",
+      "score": 64,
+      "focus": false,
+      "chain": "BNB",
+      "candidate": true,
+      "round": 1112,
+      "handle": "@jadestxmint",
+      "twitter": "@jadestxmint",
+      "category": "打新",
+      "zoneHint": "打新",
+      "mint": {
+        "type": "free",
+        "price": "≈0.0001 BNB 手续费（自称免费）",
+        "cap": 4800,
+        "perWallet": 3,
+        "gate": "BSC wallet 或 AI Agent 提示词",
+        "note": "官推称2400卡；合约MAX_SUPPLY=4800；use freeMint路径"
+      },
+      "mintStatus": "freeLIVE",
+      "freeLIVE": true,
+      "progress": {
+        "totalMinted": 19,
+        "cap": 4800,
+        "checkedAt": "2026-11-02T14:17:47+08:00",
+        "note": "RPC totalMinted≈19/4800；近免费LIVE"
+      },
+      "links": {
+        "x": "https://x.com/jadestxmint",
+        "twitter": "https://x.com/jadestxmint",
+        "website": "https://jadestx.vercel.app",
+        "web": "https://jadestx.vercel.app",
+        "mint": "https://jadestx.vercel.app",
+        "ca": "0x885FFC03f68d444E8D33Da81c4a8b37349F6C481"
+      },
+      "contract": "0x885FFC03f68d444E8D33Da81c4a8b37349F6C481",
+      "tags": [
+        "BNB",
+        "free mint",
+        "NFT",
+        "有官网",
+        "有官推",
+        "R1112",
+        "freeLIVE",
+        "JadestX"
+      ],
+      "highlights": [
+        "官推存在，信息可追溯",
+        "近免费铸造仅0.0001 BNB手续费",
+        "每钱包限3张，早期窗口"
+      ],
+      "drawbacks": [
+        "站点vercel.app",
+        "官推叙事偏薄",
+        "免费易被脚本抢"
+      ],
+      "risks": [
+        "vercel临时域",
+        "合约需自验",
+        "粉量未知偏薄"
+      ],
+      "whatsNew": "R1112新收：JadestX 近免费 mint ≈19/4800 @jadestxmint；CA 0x885F…C481",
+      "whyWatch": "近免费LIVE卡牌 mint，score<70仍须收录提醒",
+      "notes": "R1112；DS64；免费/近免费必须notify",
+      "dsScore": {
+        "early": 82,
+        "actionable": 58,
+        "novelty": 38,
+        "risk": 62,
+        "overall": 64
+      },
+      "admittedAt": "2026-11-02T14:17:47+08:00",
+      "firstSeen": "2026-11-02 14:17 CST",
+      "lastChecked": "2026-11-02T14:17:47+08:00",
+      "updatedAt": "2026-11-02T14:17:47+08:00",
+      "newThisRound": true,
+      "flag": "new",
+      "followers": null,
+      "risk": "vercel；近免费抢跑"
+    },
+    {
+      "id": "gang-agent",
+      "name": "GANG AGENT",
+      "status": "live",
+      "score": 58,
+      "focus": false,
+      "chain": "BNB",
+      "candidate": true,
+      "round": 1112,
+      "handle": "@GANGAGENT_",
+      "twitter": "@GANGAGENT_",
+      "category": "打新",
+      "zoneHint": "打新",
+      "mint": {
+        "type": "paid",
+        "price": "0.002 BNB/share 起（阶梯）",
+        "cap": 4440000,
+        "openUnits": 10000,
+        "perIdQuota": 10,
+        "maxPerWallet": 10,
+        "gate": "Binance Agent ID",
+        "note": "付费只报不自动打；2%买卖税；LP 70%"
+      },
+      "mintStatus": "paidLIVE",
+      "freeLIVE": false,
+      "progress": {
+        "totalMinted": 1,
+        "openUnits": 10000,
+        "maxSupplyUnits": 4440000,
+        "basePriceBNB": 0.002,
+        "checkedAt": "2026-11-02T14:17:47+08:00",
+        "note": "RPC totalMinted≈1；status=ready 付费LIVE"
+      },
+      "links": {
+        "x": "https://x.com/GANGAGENT_",
+        "twitter": "https://x.com/GANGAGENT_",
+        "website": "https://gangagent.xyz",
+        "web": "https://gangagent.xyz",
+        "mint": "https://gangagent.xyz",
+        "ca": "0x74662FaFFB8486B95A5797d0ea5470F4534097e0",
+        "token": "0xB39967D645d4FF6ed61898E4aF499804b254c202",
+        "tweet": "https://x.com/GANGAGENT_/status/2117135675376242856"
+      },
+      "contract": "0x74662FaFFB8486B95A5797d0ea5470F4534097e0",
+      "tags": [
+        "BNB",
+        "Agent ID",
+        "付费mint",
+        "有官网",
+        "有官推",
+        "R1112",
+        "GANG"
+      ],
+      "highlights": [
+        "今日新建官推与官网，极早期",
+        "totalMinted≈1几乎无人",
+        "Agent ID 起步10份额度"
+      ],
+      "drawbacks": [
+        "官推粉0",
+        "付费+2%税",
+        "只报不自动"
+      ],
+      "risks": [
+        "零粉新建号",
+        "付费盘",
+        "合约未深审"
+      ],
+      "whatsNew": "R1112新收：GANG 付费0.002BNB LIVE tm≈1 @GANGAGENT_ 只报",
+      "whyWatch": "极早期付费 Agent share mint，只告警",
+      "notes": "R1112；DS58；付费只报",
+      "dsScore": {
+        "early": 90,
+        "actionable": 50,
+        "novelty": 58,
+        "risk": 85,
+        "overall": 58
+      },
+      "admittedAt": "2026-11-02T14:17:47+08:00",
+      "firstSeen": "2026-11-02 14:17 CST",
+      "lastChecked": "2026-11-02T14:17:47+08:00",
+      "updatedAt": "2026-11-02T14:17:47+08:00",
+      "newThisRound": true,
+      "flag": "new",
+      "followers": 0,
+      "risk": "零粉付费"
+    },
+    {
+      "id": "strata-ai",
+      "name": "STRATA",
+      "status": "live",
+      "score": 57,
+      "focus": false,
+      "chain": "BNB",
+      "candidate": true,
+      "round": 1112,
+      "handle": "@_STRATA_AI",
+      "twitter": "@_STRATA_AI",
+      "category": "打新",
+      "zoneHint": "打新",
+      "mint": {
+        "type": "paid",
+        "price": "0.002 BNB/席位",
+        "gate": "Binance Agent ID（一ID一席）",
+        "note": "付费只报；约70-80%进池铸满开盘；域名.gay"
+      },
+      "mintStatus": "paidLIVE",
+      "freeLIVE": false,
+      "progress": {
+        "totalMinted": 11,
+        "paused": false,
+        "opened": false,
+        "costOf1BNB": 0.002,
+        "checkedAt": "2026-11-02T14:17:47+08:00",
+        "note": "RPC totalMinted≈11 costOf(1)=0.002BNB 付费LIVE"
+      },
+      "links": {
+        "x": "https://x.com/_STRATA_AI",
+        "twitter": "https://x.com/_STRATA_AI",
+        "website": "https://strata.gay",
+        "web": "https://strata.gay",
+        "mint": "https://strata.gay",
+        "ca": "0xDe0EBa04bA7a6784aee69d8b5d127DdC5E4eC9F0",
+        "token": "0xA97D5dfaC847D31932d56B941A8424fD461f1467",
+        "tweet": "https://x.com/_STRATA_AI/status/2117136305897574867"
+      },
+      "contract": "0xDe0EBa04bA7a6784aee69d8b5d127DdC5E4eC9F0",
+      "tags": [
+        "BNB",
+        "Agent ID",
+        "付费mint",
+        "fair launch",
+        "有官网",
+        "有官推",
+        "R1112",
+        "STRATA"
+      ],
+      "highlights": [
+        "deployment live，tm≈11极早期",
+        "一ID一席，进池开盘设计",
+        "单份约0.002 BNB"
+      ],
+      "drawbacks": [
+        "官推粉≈2",
+        "域名strata.gay信任度",
+        "付费只报"
+      ],
+      "risks": [
+        "极薄社交",
+        "付费盘",
+        "合约未深审"
+      ],
+      "whatsNew": "R1112新收：STRATA 付费0.002BNB LIVE tm≈11 @_STRATA_AI；只报",
+      "whyWatch": "极早期付费 fair launch，只告警",
+      "notes": "R1112；DS57；付费只报",
+      "dsScore": {
+        "early": 86,
+        "actionable": 52,
+        "novelty": 60,
+        "risk": 84,
+        "overall": 57
+      },
+      "admittedAt": "2026-11-02T14:17:47+08:00",
+      "firstSeen": "2026-11-02 14:17 CST",
+      "updatedAt": "2026-11-02T14:17:47+08:00",
+      "lastChecked": "2026-11-02T14:17:47+08:00",
+      "newThisRound": true,
+      "flag": "new",
+      "followers": 2,
+      "risk": "薄粉付费 .gay域"
+    },
     {
       "id": "flappy-bnb",
       "name": "FLAPPY",
@@ -19736,11 +20074,11 @@
       "mintStatus": "freeLIVE",
       "freeLIVE": true,
       "progress": {
-        "totalMinted": 87,
+        "totalMinted": 166,
         "cap": 2000,
         "mintPrice": 0,
-        "checkedAt": "2026-11-02T13:44:51+08:00",
-        "note": "RPC totalMinted≈87/2000 MAX_SUPPLY=2000 mintPrice=0 FREE LIVE"
+        "checkedAt": "2026-11-02T14:17:47+08:00",
+        "note": "RPC tm≈166/2000 mintPrice=0 仍免费LIVE"
       },
       "links": {
         "x": "https://x.com/flappybnb",
@@ -19779,7 +20117,7 @@
         "vercel 临时域",
         "CA/合约需自验"
       ],
-      "whatsNew": "R1111新收：FLAPPY 免费 NFT ≈87/2000；站 flappy-bird-bnb2.vercel.app；NFT 0x1591…BA1E",
+      "whatsNew": "R1112续跟：FLAPPY 免费NFT ≈166/2000 仍LIVE",
       "whyWatch": "免费 NFT mint 极早期窗口，需跟进度",
       "notes": "R1111新收：免费LIVE NFT；DS score62；免费即便score<70必须收录+notify",
       "dsScore": {
@@ -19791,10 +20129,10 @@
       },
       "admittedAt": "2026-11-02T13:44:51+08:00",
       "firstSeen": "2026-11-02 13:44 CST",
-      "lastChecked": "2026-11-02T13:44:51+08:00",
-      "updatedAt": "2026-11-02T13:44:51+08:00",
-      "newThisRound": true,
-      "flag": "new",
+      "lastChecked": "2026-11-02T14:17:47+08:00",
+      "updatedAt": "2026-11-02T14:17:47+08:00",
+      "newThisRound": false,
+      "flag": null,
       "followers": 11,
       "risk": "官推薄；Token税/无LP；vercel站"
     },
@@ -19812,10 +20150,11 @@
         "note": "Free clock-in; $AGXS payroll claim"
       },
       "progress": {
+        "totalSupply": 4,
         "totalMinted": 4,
         "cap": 12000,
-        "checkedAt": "2026-11-02T13:44:51+08:00",
-        "note": "RPC totalSupply≈4/12000 free LIVE"
+        "checkedAt": "2026-11-02T14:17:47+08:00",
+        "note": "≈4/12000"
       },
       "chain": "BNB",
       "category": "打新",
@@ -19851,7 +20190,7 @@
         "合约与站点未审计，需自验RPC/CA",
         "免费mint易被脚本刷，真实需求不明"
       ],
-      "whatsNew": "R1109新收：Agentix Studio 免费LIVE ≈1/12000；官网 agentixstudio.pro；CA 0x2b29…B3FC",
+      "whatsNew": "R1112：agentix ≈4/12000 仍免费LIVE",
       "whyWatch": "免费Agent ID mint极早期窗口，需跟进度",
       "focus": false,
       "round": 1109,
@@ -19859,8 +20198,8 @@
       "status": "live",
       "flag": "new",
       "risk": "官推0粉；未审计；免费易刷",
-      "lastChecked": "2026-11-02T13:44:51+08:00",
-      "updatedAt": "2026-11-02T13:44:51+08:00"
+      "lastChecked": "2026-11-02T14:17:47+08:00",
+      "updatedAt": "2026-11-02T14:17:47+08:00"
     },
     {
       "id": "sensei",
@@ -19991,13 +20330,13 @@
       ],
       "oneLiner": "BNB Agent ID：LASTCALL 前1000免费LIVE，约111已领，4444开池。",
       "reason": "官推官网CA齐全且免费mint处于极早期，可谨慎参与。",
-      "whatsNew": "R1109：lastcall free≈203/1000",
+      "whatsNew": "R1112：lastcall free≈208",
       "notes": "R1107：免费LIVE freeMinted≈186/1000 totalShares≈187（较R1106≈150续增）",
       "addedAt": "2026-11-02 10:44 CST",
-      "updatedAt": "2026-11-02T13:44:51+08:00",
+      "updatedAt": "2026-11-02T14:17:47+08:00",
       "le2h": false,
       "eta": "免费LIVE中",
-      "lastChecked": "2026-11-02T13:44:51+08:00",
+      "lastChecked": "2026-11-02T14:17:47+08:00",
       "followers": 1,
       "onchain": {
         "freeMinted": 186,
@@ -20008,12 +20347,10 @@
         "note": "R1107 RPC freeMinted/totalShares"
       },
       "progress": {
-        "freeMinted": 207,
-        "freeCap": 1000,
-        "note": "free≈207/1000",
-        "checkedAt": "2026-11-02T13:44:51+08:00",
-        "cap": 1000,
-        "totalShares": 208
+        "freeMinted": 208,
+        "totalShares": 209,
+        "checkedAt": "2026-11-02T14:17:47+08:00",
+        "note": "free≈208"
       }
     },
     {
@@ -20085,14 +20422,14 @@
       ],
       "oneLiner": "BNB Agent ID fair mint：今晚19:00CST前2000免费，第10000开池杀零狗。",
       "reason": "有官网+官推+代币合约，今晚免费窗明确；score≈63但免费登记/即将免费mint，按硬规则admit并notify。",
-      "whatsNew": "R1109：shalinggou 仍等19:00CST ≈6.19h",
+      "whatsNew": "R1112：shalinggou 仍等19:00CST ≈4.7h",
       "notes": "R1107：RPC sharesSold=0；距今晚19:00CST≈7.27h 非≤2h",
       "addedAt": "2026-11-02 09:13 CST",
-      "updatedAt": "2026-11-02T13:44:51+08:00",
+      "updatedAt": "2026-11-02T14:17:47+08:00",
       "le2h": false,
       "openAt": "2026-11-02 19:00 CST",
       "eta": "今晚19:00CST 前2000免费",
-      "lastChecked": "2026-11-02T13:44:51+08:00",
+      "lastChecked": "2026-11-02T14:17:47+08:00",
       "followers": 269,
       "onchain": {
         "sharesSold": 0,
@@ -20105,9 +20442,10 @@
         "hoursToEvent": 5.25,
         "note": "等 19:00CST ≈5.25h",
         "le2h": false,
-        "checkedAt": "2026-11-02T13:44:51+08:00",
-        "startCST": "2026-11-02 19:00:00 CST",
-        "sharesSold": 0
+        "checkedAt": "2026-11-02T14:17:47+08:00",
+        "startCST": "2026-11-02 19:00 CST",
+        "sharesSold": 0,
+        "hoursToStart": 4.7
       }
     },
     {
@@ -20177,10 +20515,10 @@
       "oneLiner": "BNB链上Agent ID持有者免费打新，总量4321、链上仅912，早期窗口开放中。",
       "reason": "官推已官宣LIVE且免费LIVE，按硬规则即便score<70也admit；早期供应占比低、成本极低，适合打新试仓，但社区极薄需控制仓位。",
       "addedAt": "2026-11-02 08:16 CST",
-      "updatedAt": "2026-11-02T13:44:51+08:00",
+      "updatedAt": "2026-11-02T14:17:47+08:00",
       "notes": "R1107 RPC ts≈2651",
-      "whatsNew": "R1109：nullsector ≈3341",
-      "lastChecked": "2026-11-02T13:44:51+08:00",
+      "whatsNew": "R1112：nullsector ≈4117",
+      "lastChecked": "2026-11-02T14:17:47+08:00",
       "onchain": {
         "totalSupply": 2651,
         "ca": "0x9395e207F9928657237DE96ffB12340094c073cd",
@@ -20188,10 +20526,9 @@
       },
       "le2h": false,
       "progress": {
-        "totalSupply": 3824,
-        "note": "≈3824",
-        "checkedAt": "2026-11-02T13:44:51+08:00",
-        "totalMinted": 3824
+        "totalSupply": 4117,
+        "checkedAt": "2026-11-02T14:17:47+08:00",
+        "note": "≈4117"
       }
     },
     {
@@ -20572,11 +20909,11 @@
         "poolAtShares": 5000,
         "lpBurn": true,
         "sold": 0,
-        "hoursToStart": 6.25,
+        "hoursToStart": 5.7,
         "le2h": false,
         "note": "等 20:00CST ≈6.25h",
         "hoursToEvent": 6.25,
-        "checkedAt": "2026-11-02T13:44:51+08:00"
+        "checkedAt": "2026-11-02T14:17:47+08:00"
       },
       "links": {
         "x": "https://x.com/Mastereeoz",
@@ -20591,10 +20928,10 @@
       },
       "contract": "0xB64F430E0bf232450ED45444c93C83CD821f29DA",
       "addedAt": "2026-11-02 01:14 CST",
-      "updatedAt": "2026-11-02T13:44:51+08:00",
+      "updatedAt": "2026-11-02T14:17:47+08:00",
       "note": "DS admit；score校正55（开铸今晚非半年）；付费只报不自动；弱官推",
-      "whatsNew": "R1109：agent2 仍等20:00CST ≈7.19h",
-      "lastChecked": "2026-11-02T13:44:51+08:00",
+      "whatsNew": "R1112：agent2 仍等20:00CST ≈5.7h",
+      "lastChecked": "2026-11-02T14:17:47+08:00",
       "mintProgress": "upcoming 今晚20:00CST 开铸 sold≈0",
       "notes": "R1107：upcoming 今晚20:00CST ≈8.27h",
       "le2h": false,
@@ -21253,14 +21590,14 @@
         "官推与链上免费进度不一致",
         "未审计"
       ],
-      "whatsNew": "totalMinted≈326（R1085）",
+      "whatsNew": "R1112：eclipse ≈357",
       "chain": "BNB",
       "ecosystem": "BNB Agent ID",
       "status": "live",
       "newThisRound": false,
       "followers": 12,
       "firstSeen": "2026-11-01 19:45:16 CST",
-      "lastChecked": "2026-11-02T13:44:51+08:00",
+      "lastChecked": "2026-11-02T14:17:47+08:00",
       "scores": {
         "total": 62,
         "ds": 62
@@ -21271,18 +21608,15 @@
       "freeLIVE": true,
       "zoneHint": "打新",
       "twitter": "@EclipseCourt",
-      "updatedAt": "2026-11-02T13:44:51+08:00",
+      "updatedAt": "2026-11-02T14:17:47+08:00",
       "le2h": false,
       "mintProgress": "totalMinted≈326",
       "mintOpen": true,
       "progress": {
-        "totalMinted": 24,
-        "mintOpen": true,
-        "freeMinted": 288,
-        "totalSupply": 24,
-        "cap": 5555,
-        "checkedAt": "2026-11-02T13:44:51+08:00",
-        "note": "RPC totalSupply≈24/5555 first-free LIVE"
+        "totalSupply": 357,
+        "freeMinted": 319,
+        "checkedAt": "2026-11-02T14:17:47+08:00",
+        "note": "≈357"
       }
     },
     {
@@ -22830,19 +23164,19 @@
         "Agent ID门控限制参与",
         "锁LP与开池规则待核验"
       ],
-      "whatsNew": "R1109：pawagent sharesSold≈115；CA 0xeD700D…D2E0b85B",
+      "whatsNew": "R1112：pawagent sharesSold≈115",
       "summary": "PAWAGENT：BNB Agent ID 门控公平铸造代币；LIVE≈92/10000，首1万份$1/share付BNB，满1万开池且80%进锁LP。",
       "blurb": "Agent ID 付费公平铸 LIVE，约92/10k。",
       "round": 1045,
       "newThisRound": false,
       "firstSeen": "2026-11-01 08:13 CST",
       "addedAt": "2026-11-01 08:13 CST",
-      "lastChecked": "2026-11-02T13:44:51+08:00",
-      "updatedAt": "2026-11-02T13:44:51+08:00",
+      "lastChecked": "2026-11-02T14:17:47+08:00",
+      "updatedAt": "2026-11-02T14:17:47+08:00",
       "progress": {
         "sharesSold": 115,
-        "note": "sharesSold≈115",
-        "checkedAt": "2026-11-02T13:44:51+08:00"
+        "checkedAt": "2026-11-02T14:17:47+08:00",
+        "note": "sharesSold≈115"
       }
     },
     {
@@ -175450,14 +175784,14 @@
         "付费续档机制需核验",
         "Agent ID流动性不明"
       ],
-      "whatsNew": "R1111：freeOpen仍0；pause→14:34:48CST ≈0.832h **≤2h升档**；tm≈3451 free=3000 paid≈451",
+      "whatsNew": "R1112：freeOpen仍0；pause→14:34:48CST ≈0.283h **≤2h升档**；tm≈3451",
       "chain": "BNB",
       "ecosystem": "BNB Agent ID",
       "status": "watching",
       "newThisRound": false,
       "followers": 89,
       "firstSeen": "2026-10-31 14:36 CST",
-      "lastChecked": "2026-11-02T13:44:51+08:00",
+      "lastChecked": "2026-11-02T14:17:47+08:00",
       "scores": {
         "early": 80,
         "actionable": 75,
@@ -175471,7 +175805,7 @@
       "freeLIVE": false,
       "zoneHint": "打新",
       "twitter": "@agentharvest_ai",
-      "updatedAt": "2026-11-02T13:44:51+08:00",
+      "updatedAt": "2026-11-02T14:17:47+08:00",
       "le2h": true,
       "mintProgress": "tm≈3451 freeOpen=0 pause→14:34:48CST ≈0.832h ≤2h",
       "notes": "R1111：freeOpen=0 pause→14:34:48CST ≈0.832h ≤2h；tm≈3451",
@@ -175485,15 +175819,15 @@
         "phasePauseEnd": 1793601288,
         "phasePauseEndCST": "2026-11-02 14:34:48 CST",
         "pausePassed": false,
-        "hoursToPauseEnd": 0.832,
+        "hoursToPauseEnd": 0.283,
         "le2h": true,
         "phase5Open": false,
         "phase6Open": false,
         "phaseMinted": 500,
-        "note": "freeOpen=0 pause→14:34:48CST ≈0.832h ≤2h tm≈3451 free=3000",
+        "note": "freeOpen=0 pause→14:34:48CST ≈0.283h ≤2h tm≈3451 free=3000",
         "freeRemaining": 2000,
         "phase": 6,
-        "checkedAt": "2026-11-02T13:44:51+08:00"
+        "checkedAt": "2026-11-02T14:17:47+08:00"
       },
       "onchain": {
         "totalMinted": 3443,
@@ -179044,7 +179378,7 @@
         "四档概率与$BAO实际价值尚未验证",
         "社群项目，流动性与退出路径不明"
       ],
-      "whatsNew": "R1109：baoracle ≈8406",
+      "whatsNew": "R1112：baoracle ≈8782",
       "summary": "BAOracle：BNB Agent ID 神谕卡NFT LIVE；首张免费其后≈0.0002BNB；tm≈237/20000；官推@baoracletrade；CA 0xcBe2…9354。",
       "blurb": "免费LIVE tm≈3020/20000 · 首张免费 · 0.0002BNB",
       "mint": "live",
@@ -179053,8 +179387,8 @@
       "freeLIVE": true,
       "followers": 83,
       "firstSeen": "2026-11-02 05:36 CST",
-      "lastChecked": "2026-11-02T13:44:51+08:00",
-      "updatedAt": "2026-11-02T13:44:51+08:00",
+      "lastChecked": "2026-11-02T14:17:47+08:00",
+      "updatedAt": "2026-11-02T14:17:47+08:00",
       "newThisRound": false,
       "candidate": true,
       "onchain": {
@@ -179064,10 +179398,10 @@
       },
       "notes": "R1107 RPC tm≈7915",
       "progress": {
-        "totalSupply": 7417,
-        "note": "tm≈8605 supply≈7417",
-        "checkedAt": "2026-11-02T13:44:51+08:00",
-        "totalMinted": 8605
+        "totalMinted": 8782,
+        "totalSupply": 7561,
+        "checkedAt": "2026-11-02T14:17:47+08:00",
+        "note": "tm≈8782"
       }
     },
     {
@@ -179333,7 +179667,7 @@
         "开铸时间不确定",
         "代币上线依赖付费售罄"
       ],
-      "whatsNew": "R1109：rootlinks ≈411（free≈409）",
+      "whatsNew": "R1112：rootlinks ≈450",
       "summary": "Rootlinks：BNB Agent ID 限定 5555 树NFT；Mint soon；1 free + paid 0.003BNB；官推@rootlinks_nft；站 rootlinks-nft.github.io。",
       "blurb": "免费LIVE tm≈239 · free≈238/1000 · 1 free+invite · 0.003BNB",
       "mint": "live",
@@ -179342,8 +179676,8 @@
       "freeLIVE": true,
       "followers": 0,
       "firstSeen": "2026-11-02 06:17:26 CST",
-      "lastChecked": "2026-11-02T13:44:51+08:00",
-      "updatedAt": "2026-11-02T13:44:51+08:00",
+      "lastChecked": "2026-11-02T14:17:47+08:00",
+      "updatedAt": "2026-11-02T14:17:47+08:00",
       "newThisRound": false,
       "candidate": true,
       "onchain": {
@@ -179354,10 +179688,10 @@
       },
       "notes": "R1107 RPC tm≈404 free≈402",
       "progress": {
-        "freeMinted": 442,
-        "note": "≈444",
-        "checkedAt": "2026-11-02T13:44:51+08:00",
-        "totalMinted": 444
+        "totalMinted": 450,
+        "freeMinted": 448,
+        "checkedAt": "2026-11-02T14:17:47+08:00",
+        "note": "≈450"
       }
     },
     {
@@ -179497,13 +179831,13 @@
         "pages.dev临时站",
         "未审计合约"
       ],
-      "whatsNew": "R1109：onimaru free≈993/1000 近罄",
+      "whatsNew": "R1112：onimaru tm≈1022 free≈1015",
       "summary": "ONIMARU：BNB 4000鬼面NFT/4氏族；1 free/.ai 共3000+0.0005BNB；Clan War赛季；官推@onimaru_ai；CA 0xD1D3…e72b。",
       "blurb": "免费LIVE tm≈1000/4000 · freeMinted≈993 · Clan War",
       "followers": 4,
       "firstSeen": "2026-11-02 07:08 CST",
-      "lastChecked": "2026-11-02T13:44:51+08:00",
-      "updatedAt": "2026-11-02T13:44:51+08:00",
+      "lastChecked": "2026-11-02T14:17:47+08:00",
+      "updatedAt": "2026-11-02T14:17:47+08:00",
       "onchain": {
         "totalMinted": 1000,
         "freeMinted": 993,
@@ -179513,11 +179847,10 @@
       "le2h": false,
       "notes": "R1107 RPC free≈993/1000 近罄未变",
       "progress": {
-        "freeRemaining": 7,
-        "note": "free≈993近罄",
-        "checkedAt": "2026-11-02T13:44:51+08:00",
-        "freeMinted": 993,
-        "totalMinted": 1000
+        "totalMinted": 1022,
+        "freeMinted": 1015,
+        "checkedAt": "2026-11-02T14:17:47+08:00",
+        "note": "tm≈1022 free≈1015"
       }
     },
     {
@@ -179587,7 +179920,7 @@
       ],
       "blurb": "今晚20:30CST · 前2000票.ai免费 · 888硬顶 · Agent-only",
       "summary": "YYDS：BNB Agent-only公平铸造；总量888；前2000票.ai免费；20:30CST开售；#10000自动开池LP黑洞；官推@Agent_YYDS；arena 0x62AB…78F3。",
-      "whatsNew": "R1109：YYDS 仍等20:30CST ≈7.69h",
+      "whatsNew": "R1112：agent-yyds 仍等20:30CST ≈6.2h",
       "mintProgress": "watching 今晚20:30CST 前2000票.ai免费",
       "mint": "upcoming",
       "candidate": true,
@@ -179600,18 +179933,19 @@
       },
       "followers": 215,
       "newThisRound": false,
-      "lastChecked": "2026-11-02T13:44:51+08:00",
-      "updatedAt": "2026-11-02T13:44:51+08:00",
+      "lastChecked": "2026-11-02T14:17:47+08:00",
+      "updatedAt": "2026-11-02T14:17:47+08:00",
       "notes": "R1107：opensAt=20:30CST ≈8.77h 非≤2h",
       "eta": "今晚20:30CST",
       "progress": {
         "hoursToEvent": 6.75,
         "note": "等 20:30CST ≈6.75h",
         "le2h": false,
-        "checkedAt": "2026-11-02T13:44:51+08:00",
+        "checkedAt": "2026-11-02T14:17:47+08:00",
         "hoursToOpen": 6.75,
-        "startCST": "2026-11-02 20:30:00 CST",
-        "opensAtCST": "2026-11-02 20:30:00 CST"
+        "startCST": "2026-11-02 20:30 CST",
+        "opensAtCST": "2026-11-02 20:30:00 CST",
+        "hoursToStart": 6.2
       }
     },
     {
@@ -179681,11 +180015,11 @@
       ],
       "oneLiner": "BNB Agent ID：HONGBAO 红包 48h 免费LIVE，1万免费+1万付费，LP烧毁。",
       "reason": "有官推官网CA且免费mint进行中，粉丝极薄需严控仓位。",
-      "whatsNew": "R1109：hongbao sold≈85",
+      "whatsNew": "R1112：hongbao sold≈148",
       "notes": "R1107新收：免费LIVE；CA 0xfd7C…86F8；sold≈35；付费档0.001BNB只报",
       "addedAt": "2026-11-02 11:43 CST",
-      "updatedAt": "2026-11-02T13:44:51+08:00",
-      "lastChecked": "2026-11-02T13:44:51+08:00",
+      "updatedAt": "2026-11-02T14:17:47+08:00",
+      "lastChecked": "2026-11-02T14:17:47+08:00",
       "le2h": false,
       "eta": "48h mint LIVE中",
       "followers": 12,
@@ -179696,9 +180030,9 @@
         "note": "R1107 RPC sold/phase；freeMinted选择器无返回"
       },
       "progress": {
-        "sold": 114,
-        "note": "sold≈114 LIVE free",
-        "checkedAt": "2026-11-02T13:44:51+08:00"
+        "sold": 148,
+        "checkedAt": "2026-11-02T14:17:47+08:00",
+        "note": "sold≈148"
       }
     },
     {
@@ -179889,7 +180223,7 @@
         "Agent ID门控抬高参与门槛",
         "BNB打新波动风险高"
       ],
-      "whatsNew": "R1109：ERROR AgentBond PoW tm≈23/3333 续跟",
+      "whatsNew": "R1112：ERROR AgentBond tm≈29/3333",
       "reason": "免费mint且已LIVE，有明确供应与钱包限制；免费LIVE即便score<70收录。",
       "links": {
         "x": "https://x.com/agentbond_fun",
@@ -179906,17 +180240,17 @@
         "gate": "Agent ID (.ai) PoW"
       },
       "progress": {
-        "totalMinted": 25,
+        "totalMinted": 29,
         "cap": 3333,
-        "checkedAt": "2026-11-02T13:44:51+08:00",
-        "note": "tm≈25/3333 free PoW LIVE"
+        "checkedAt": "2026-11-02T14:17:47+08:00",
+        "note": "tm≈29/3333"
       },
       "round": 1108,
       "newThisRound": false,
       "focus": false,
       "createdAt": "2026-11-02T12:10:24+08:00",
-      "updatedAt": "2026-11-02T13:44:51+08:00",
-      "lastChecked": "2026-11-02T13:44:51+08:00",
+      "updatedAt": "2026-11-02T14:17:47+08:00",
+      "lastChecked": "2026-11-02T14:17:47+08:00",
       "tags": [
         "Agent ID",
         "BN pad",
@@ -179937,26 +180271,26 @@
       "handle": "@patchagentbnb",
       "twitter": "@patchagentbnb",
       "mint": {
-        "type": "free",
+        "type": "paid",
         "price": "前1000份免费(每Agent ID 1份)；其后USDT阶梯1.2→2.0",
         "cap": 10000,
         "freeCap": 1000,
         "perIdFree": 1,
         "maxPerId": 10,
         "gate": "Binance Agent ID",
-        "note": "Sale 0xCaFa8f…51C3；80%LP+黑洞；ownership renounced"
+        "note": "免费池已罄；付费USDT阶梯只报不自动"
       },
       "mintStatus": "paidLIVE",
       "progress": {
-        "cardsSold": 1009,
-        "paidSold": 9,
+        "cardsSold": 1013,
+        "paidSold": 13,
         "freeGiven": 1000,
         "freeCardCap": 1000,
         "totalCards": 10000,
         "paused": false,
-        "checkedAt": "2026-11-02T13:44:51+08:00",
-        "note": "RPC cardsSold≈1009/10000 freeGiven=1000/1000 paidSold≈9 免费罄→付费档",
-        "freeExhausted": true
+        "freeExhausted": true,
+        "checkedAt": "2026-11-02T14:17:47+08:00",
+        "note": "免费罄 freeGiven=1000/1000 cardsSold≈1013 paidSold≈13 付费档只报"
       },
       "links": {
         "x": "https://x.com/patchagentbnb",
@@ -180004,9 +180338,9 @@
         "overall": 76
       },
       "freeLIVE": false,
-      "whatsNew": "R1111：免费池已罄 freeGiven=1000/1000 cardsSold≈1009 paidSold≈9 → 付费档只报",
-      "lastChecked": "2026-11-02T13:44:51+08:00",
-      "updatedAt": "2026-11-02T13:44:51+08:00"
+      "whatsNew": "R1112：免费仍罄 cardsSold≈1013 paidSold≈13 → 付费只报",
+      "lastChecked": "2026-11-02T14:17:47+08:00",
+      "updatedAt": "2026-11-02T14:17:47+08:00"
     },
     {
       "id": "agentspunks",
@@ -180030,12 +180364,10 @@
       },
       "mintStatus": "paidLIVE",
       "progress": {
-        "totalMinted": 1581,
-        "totalSupply": 1581,
+        "totalSupply": 1585,
         "freeMinted": 1500,
-        "cap": 2222,
-        "checkedAt": "2026-11-02T13:44:51+08:00",
-        "note": "tm≈1581/2222 freeMinted=1500已罄；剩余≈641付费档"
+        "checkedAt": "2026-11-02T14:17:47+08:00",
+        "note": "≈1585 免费罄"
       },
       "links": {
         "x": "https://x.com/Agentspunks",
@@ -180082,12 +180414,16 @@
         "risk": 62,
         "overall": 55
       },
-      "lastChecked": "2026-11-02T13:44:51+08:00",
-      "updatedAt": "2026-11-02T13:44:51+08:00"
+      "lastChecked": "2026-11-02T14:17:47+08:00",
+      "updatedAt": "2026-11-02T14:17:47+08:00",
+      "whatsNew": "R1112：agentspunks ≈1585 免费罄付费只报"
     }
   ],
   "newThisRound": [
-    "flappy-bnb"
+    "lucky-agent",
+    "jadestx",
+    "gang-agent",
+    "strata-ai"
   ],
   "alertMessage": "",
   "roundNAdded": [],
