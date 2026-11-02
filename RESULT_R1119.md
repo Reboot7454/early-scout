@@ -1,0 +1,28 @@
+# RESULT R1119
+
+- **round**: 1119 (prev 1118 = Discord alpha-40 peek；本 X 轮开跑时 R1117 已被 DC 轮占用、推送前 R1118 又被 DC 轮占用 → 顺延为 1119)
+- **mode**: ample
+- **softCap**: 28
+- **xReads**: ≈8（UF分片281–295 + 点名软刷 bscaidrop/localbottom/Nutshell + tenLanes KW×2 + mentions Elysium·kinetiq/Tape/GIWA + squeek·Nutshell/X Layer·STARX/flap/BN-pad + @BN_Big_Bang 核验 + ResonaNFT/cryptosympbnb 核验 + JIN/共建 官推搜索 + BuildNBuild_ai/agentpandaonbnb 核验）
+- **remainingBefore**: ≈716（MCP）
+- **remaining**: ≈708（MCP）；budget 脚本仍≈843（两套计数）
+- **newIds**: [agent-panda, buildnbuild]
+- **admits**: 2（DS：agent-panda overall76 admit 免费LIVE→必须notify；buildnbuild overall43 admit 付费只报）
+- **skips**: JIN Agent/金小灵（jin-agent.online，CA 0x086Ab11dF23e8FD37398C41180466D24d85ed5FB，16:00CST 已开 free≈240/4444，1免费+9付费0.002BNB）——X+web 均未找到官推，DS admit=false 不收；ORBIT 已被 R1118 DC 轮收为 orbitagentid（不重复建卡）；sight_hood/Ghostvalidator1 太薄或非 mint；UF 分片 281–295 全已在库；mentions 关键词线索 bnbbaby/snakeidbnb/ithinkitsart/goat-ranch-club/pabalx/shalinggou/runin-ai/poefe/lordhood/vibevibe-fun/JakduPump/Ammora 已在库
+- **updates**: **bn-big-bang 17:00CST 已开盘：sold 0→1013(17:01:41)→1398(17:03:03)→1629(17:03:52)/FREE 2000，≈17:05 免费将罄**；**qagent 免费 3935→4472/6666**（shares 4509）；**resona 92→231/5000**；**cryptosym 15→47/3333**；flappy 591→619/2000；jadest 30→31；onimaru 1440→1464（free 1456/3000）；baoracle 8908→8918；hongbao sold 169→179；agent-harvest tm 4032→4035 paid 535 freeOpen=0 phase7 pause→19:42:42CST(>2h)；lucky 37/1000 不变；seethe 2；patch 1013（RPC 字段空，沿用）；gang 1；strata 11 paused；lastcall 210；nullsector 4321 已满；rootlinks 461；agentbond 29；agentix 9；agentspunks 1585；shalinggou→19:00(≈1.9h，RPC sharesSold=0)；agent2→20:00；yyds→20:30
+- **le2h**: true（bn-big-bang 已开盘猛增；shalinggou 19:00 推送时≈1.9h）
+- **notify**: true
+- **alert**: 1119期：新收 Agent Panda 免费LIVE≈561/10000（Agent ID 前2免费，需PoW，Snake Launchpad）@agentpandaonbnb NFT 0x7561…ec61e；≤2h：BN Big Bang 17:00CST 已开盘，免费猛增 sold≈1629/2000（17:03:52），约17:05 免费将罄 @BN_Big_Bang；另收 共建付费只报(@BuildNBuild_ai)。面板 https://reboot7454.github.io/early-scout/
+- **ufCursor**: 281 → 296（wrap=false）；分片 useprobly…feedtheghoul 全已在库
+- **tenLanesKeywords**: true
+- **mentionsChains**: Elysium/kinetiq / Tape / GIWA / squeek·Nutshell / X Layer·STARX（无命中）/ BN-pad
+- **watchBugsFixed**: R1118 DC 新收 loca-near/fallpit/safureload/banipool/inkbananas/elysatrade → userFollowWatch；orbitagentid → agentPad/bnAgent/userFollowWatch；新卡 agent-panda → freeMint/bnAgent/agentPad/userFollow，buildnbuild → bnAgent/agentPad/userFollow
+- **Discord**: discordPeekDeferred=true（不登录）
+- **push commit**: (fill)
+- **NF_skip**: 同 R1116 列表（本轮不连刷）
+- **softDebt**: canton/glaze/tokenWorks + 所有 Watch lastChecked → 本轮 CST
+- **deferredFullScan**: false
+- **notes**:
+  - Agent Panda：官网 https://agentpandabnb.xyz ，mint https://snakeid.xyz/mint ，NFT `0x7561c414a7a6ff44fc81e9bfc2eda8f57c3ec61e` totalMinted 561/10000 mintOpen=1；Agent ID 2免费（需 PoW 谜题）+ 2付费 0.001BNB；官推 4粉、11-01 新建。
+  - 共建 Build N Build：0.002BNB×10/Agent ID，官推 35粉，没有公开官网或合约，所以付费只报。
+  - 本轮只做雷达和面板：没有 mint，没有转账。
