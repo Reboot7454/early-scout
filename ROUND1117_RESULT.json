@@ -100,7 +100,7 @@
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1117：Discord alpha 补收 tryobelisk,ryuzagunz,torosotrade,perihelionfi,mozzies,marketbattledev,jdm-legends,zigar-coin,4agent,pepe404-agent,goabsturd,heliosliq,agent-flap0,happimealwin,bb84sh,alkanes-agentic,bouncer-gta,wifonrh,pumpetualx,flutchdotfun；跳过 [{'id': 'ninjaa-turtles', 'reason': 'dup'}]；清 resona,cryptosym；lastSeen→2026-11-02 16:08；lastChecked→2026-11-02 16:21 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "DISCORD_ALPHA_40_CARDS_20261102_1600.json",
   "priorRoundNote": "R1116 meta NTR ['resona', 'cryptosym']; cardsAfterCutoff=210",
   "lastSeenByChannel": {
@@ -862,5 +862,7 @@
     "smart-accounts-tracker": "2026-11-02 05:34",
     "alpha-1": "2026-11-02 12:38"
   },
-  "gapNote": "gapIncomplete=true：约27h宕机后本轮仅扫到近期窗口，未触达 Nov1 cutoff。 prior lastSeen/cutoff={\"alpha-3-new-accounts\": \"2026-11-01 12:44\", \"alpha-1-backup\": \"2026-11-01 12:43\", \"smart-accounts-tracker\": \"2026-11-01 12:21\", \"alpha-1\": \"2026-11-01 12:38\"}； oldestReached={\"alpha-3-new-accounts\": \"2026-11-02 13:36\", \"alpha-1-backup\": \"2026-11-02 06:43\", \"smart-accounts-tracker\": \"2026-11-02 05:34\", \"alpha-1\": \"2026-11-02 12:38\"}（今晨/下午）； lastSeen 已推进至本轮 newest 窗口={\"alpha-3-new-accounts\": \"2026-11-02 16:08\", \"alpha-1-backup\": \"2026-11-02 15:58\", \"smart-accounts-tracker\": \"2026-11-02 14:28\", \"alpha-1\": \"2026-11-02 16:00\"}，保证极早期连续性，未 rewind lastSeen。中间缺口待后续补扫。"
+  "gapNote": "gapIncomplete=true：约27h宕机后本轮仅扫到近期窗口，未触达 Nov1 cutoff。 prior lastSeen/cutoff={\"alpha-3-new-accounts\": \"2026-11-01 12:44\", \"alpha-1-backup\": \"2026-11-01 12:43\", \"smart-accounts-tracker\": \"2026-11-01 12:21\", \"alpha-1\": \"2026-11-01 12:38\"}； oldestReached={\"alpha-3-new-accounts\": \"2026-11-02 13:36\", \"alpha-1-backup\": \"2026-11-02 06:43\", \"smart-accounts-tracker\": \"2026-11-02 05:34\", \"alpha-1\": \"2026-11-02 12:38\"}（今晨/下午）； lastSeen 已推进至本轮 newest 窗口={\"alpha-3-new-accounts\": \"2026-11-02 16:08\", \"alpha-1-backup\": \"2026-11-02 15:58\", \"smart-accounts-tracker\": \"2026-11-02 14:28\", \"alpha-1\": \"2026-11-02 16:00\"}，保证极早期连续性，未 rewind lastSeen。中间缺口待后续补扫。",
+  "pushSha": "86271f6d83938d1bf25e3987beed651c77f8a99f",
+  "pushCommit": "86271f6"
 }

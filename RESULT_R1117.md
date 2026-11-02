@@ -15,8 +15,9 @@
 - **notify**: True (new_admits)
 - **alert**: DC补漏R1117新收21个早鸟项目；面板 https://reboot7454.github.io/early-scout/
 - **panel**: https://reboot7454.github.io/early-scout/
-- **push commit**: (pending)
-- **remoteVerified**: false
+- **push commit**: 86271f6
+- **pushSha**: 86271f6d83938d1bf25e3987beed651c77f8a99f
+- **remoteVerified**: true
 
 ## New admits
 - **Obelisk** (`tryobelisk`) 台子/Meme @tryobelisk https://x.com/TryObelisk — RWA 定价基建新号，产品方向明确但暂无发射动作，先观察。
