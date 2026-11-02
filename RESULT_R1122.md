@@ -23,7 +23,7 @@
 - **mentionsChains**: Elysium/kinetiq / Tape / GIWA / squeek·Nutshell / starx_xlayer(NF) / X Layer（无新可操作挂靠）
 - **watchBugsFixed**: pulseagent→agentPad+bnAgent+UF；catfarmingog→freeMint+UF；treeholderdev→UF；seedstock-farm→agentMining+mining+UF
 - **Discord**: discordPeekDeferred=true（父任务要求本雷达轮勿再登录 DC）；但另一号已用 R1122 写入 alpha-40 4 卡——雷达侧合并保留 newIds，未再登录 DC
-- **push commit**: (pending)
+- **push commit**: aa0f6d2
 - **NF_skip**: 沿用 + 本轮追加 divade_xyz、HaloPad_Pro、LiquidityStonk、Agent__arena、playholeshot
 - **softDebt**: canton/glaze/tokenWorks + 各 Watch lastChecked → 本轮 CST
 - **deferredFullScan**: false
