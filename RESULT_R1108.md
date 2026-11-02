@@ -1,0 +1,29 @@
+# RESULT R1108
+
+- **round**: 1108 (prev 1107)
+- **mode**: ample
+- **softCap**: 28
+- **xReads**: 12
+- **remainingBefore**: ≈855（交接；开跑对齐）
+- **remaining**: ≈843
+- **newIds**: [agentbond-error]
+- **admits**: 1（DeepSeek flash）
+  - agentbond-error（ERROR AgentBond PoW @agentbond_fun）：免费 LIVE PoW mint，仅 gas、每钱包1、需 .ai Agent ID；站 agentbond-launchpad.vercel.app；CA 0xD8e24465F2F5A8fb9B3b24e3042F26A4B10c020f；RPC tm≈14/3333；score62（**免费LIVE即便&lt;70收录+notify**）；≠库内 error8888
+- **skips**: blood-agent（BLOOD @bloodagentxyz 有官网+官推+CA，但非mint、score35，无可执行打新动作，score档 skip）；patch-agent（@patchagentbnb 无官网硬门槛 skip，续盯CA）；strawhex/foxibao（无项目官推）；Night Shift / Scout Pass / Agent404 / Slimelings（仍无官推不收）；UF点名 localbottom/Nutshell/bscaidrop 无新；NF_skip 不连刷
+- **updates**: agent-harvest(tm≈3449 freeOpen=0 pause→14:34:48CST ≈2.4h非≤2h)；lastcall(free≈188/1000)；onimaru(free≈993近罄)；nullsector(≈3031)；baoracle(≈8154)；rootlinks(≈409)；hongbao(sold≈70)；wraith(tm≈911)；pawagent(sharesSold≈115)；shalinggou(→19:00CST≈6.8h)；agent2(→20:00≈7.8h)；agent-yyds(→20:30≈8.3h)；jager(付费≈3.04U只报)
+- **le2h**: false（Harvest≈2.4h；约 **12:34CST** 后入≤2h；shalinggou/agent2/yyds均>2h）
+- **notify**: true
+- **alert**: R1108 新收录：ERROR（AgentBond PoW）免费 mint LIVE ≈14/3333，仅 gas、每钱包1、需 .ai Agent ID；官推 @agentbond_fun；站 https://agentbond-launchpad.vercel.app ；CA 0xD8e24465F2F5A8fb9B3b24e3042F26A4B10c020f。Harvest 仍 pause→14:34CST（约 2.4h，非≤2h）。面板 https://reboot7454.github.io/early-scout/
+- **ufCursor**: 146 → 161（wrap=false）；userFollowShardDone=true；点名软刷 @localbottomcom @NutshellMarkets @bscaidrop；NF_skip不刷 PulseLaunchpad/mobster_meme/machinedotfun/starx_xlayer
+- **tenLanesKeywords**: true（合并近30min 全量+BN Agent/PoW/fair mint；命中 ERROR/BLOOD/PATCH）
+- **mentionsChains**: Zero / DogeEVM / Starknet / BTC / flap·Irys·Full·Arc / BN-pad；无强新挂靠；禁只刷BN
+- **watchBugsFixed**: [wraith-scout→bnAgentWatch acct+cid；pawagent→freeMintWatch cid；agentbond-error→bnAgent+freeMint+agentPad+UF]
+- **Discord**: discordPeekDeferred=true（无登录不尝试）
+- **push commit**: (pending)
+- **NF_skip**: TapeFractal, Leeonmort, computeroll, PulseLaunchpad, machinedotfun, mobster_meme, starx_xlayer, deadpacksol, blindfloor, trytoprint, PlayFarmFi, reynarlabs, world_ygg, battle_pad, cabaldotfun, project_hoodmon, GatorEyesSolada, keyhasp（本轮仅记不连刷）
+- **softDebt**: canton/glaze/tokenWorks + 各Watch lastChecked → 2026-11-02 12:10 CST
+- **deferredFullScan**: false
+- **notes**:
+  - 新收 1：ERROR 免费 PoW LIVE 须跟进度（tm 极低窗口）；BLOOD/PATCH 续观察官号/官网。
+  - 下轮 R1109：UF从 **161** 续；Harvest **约12:34CST后入≤2h** 须升档核验 freeOpen + 若仍有效则 notify；继续跟 lastcall/onimaru/nullsector/baoracle/rootlinks/hongbao/agentbond-error；shalinggou 19:00 / agent2 20:00 / YYDS 20:30；mentions 轮换补 Elysium/Tape/GIWA/squeek·X Layer/BN pads；Discord deferred；xReads 控制在 softCap。
+  - jager 付费再开只告警不自动；Night Shift/Scout Pass/Agent404/Slimelings 无官推本轮不收，续观察是否出现官号。
