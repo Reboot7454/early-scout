@@ -1,0 +1,30 @@
+# RESULT R1109
+
+- **round**: 1109 (prev 1108)
+- **mode**: ample
+- **softCap**: 28
+- **xReads**: 16
+- **remainingBefore**: ≈843（交接；开跑对齐）
+- **remaining**: ≈827
+- **newIds**: [agentix-studio, sensei]
+- **admits**: 2（DeepSeek flash）
+  - agentix-studio（Agentix Studio @agentixstudio）：免费 LIVE Agent ID mint，站 agentixstudio.pro；CA 0x2b29c619F23C9B7CE04c8B80fc82b9a99e6dB3FC；RPC totalSupply≈1/12000；附 $AGXS payroll；score66（**免费LIVE即便&lt;70收录+notify**）
+  - sensei（SENSEI @SENSEIAgent_）：付费 fair mint LIVE ≈0.0026BNB/份；站 senseiagent.xyz；代币 0xa6839b3bc2483f8312466efa25ac8ccc8feb52da；mint合约 0x5052…a777；交易已开仍可 mint；score74；**付费只报不自动**
+- **skips**: helloagents（helloagents.cloud 免费前2张有CA但无官推硬门槛 skip）；dither（@ditherglyphs 付费≈$0.35、粉1、DS overall44 admit:false）；blood-agent（续非mint skip）；patch-agent（无官网续 skip）；Night Shift/Scout Pass/Agent404/Slimelings/Critter/Shroomlets（仍无可靠官推不收）；UF点名 localbottom/Nutshell/bscaidrop 无新；NF_skip 不连刷
+- **updates**: agent-harvest(tm≈3449 freeOpen=0 pause→14:34:48CST ≈1.8h **≤2h**)；lastcall(free≈203/1000)；onimaru(free≈993近罄)；nullsector(≈3341)；baoracle(≈8406)；rootlinks(≈411)；hongbao(sold≈85)；agentbond-error(tm≈23/3333)；wraith(≈915)；pawagent(sharesSold≈115)；holly-crab(付费0.01BNB只报)；shalinggou(→19:00CST≈6.2h)；agent2(→20:00≈7.2h)；agent-yyds(→20:30≈7.7h)
+- **le2h**: true（**Harvest ≈1.8h** freeOpen仍0 升档；shalinggou/agent2/yyds均>2h）
+- **notify**: true
+- **alert**: R1109 新收录：Agentix Studio 免费 mint LIVE ≈1/12000（仅需 Agent ID）@agentixstudio https://agentixstudio.pro CA 0x2b29c619F23C9B7CE04c8B80fc82b9a99e6dB3FC；SENSEI 付费 fair mint ≈0.0026BNB 只报 @SENSEIAgent_ https://senseiagent.xyz 。Harvest 免费窗 pause→14:34:48CST（约1.8h≤2h）freeOpen仍0，升档盯盘。面板 https://reboot7454.github.io/early-scout/
+- **ufCursor**: 161 → 176（wrap=false）；userFollowShardDone=true；点名软刷 @localbottomcom @NutshellMarkets @bscaidrop；NF_skip不刷 PulseLaunchpad/mobster_meme/machinedotfun/starx_xlayer；新NF AGENTICABOT
+- **tenLanesKeywords**: true（合并近30min 全量+BN Agent/PoW/fair mint；命中 Agentix/SENSEI/DITHER/HelloAgents/ShaLingGou）
+- **mentionsChains**: Elysium / Tape / GIWA / squeek·X Layer / BN pads；无强新挂靠（GIWA 多为 Ammora 等待名单噪音；Tape mentions 空；squeek Aura farm；starx_xlayer 仍 NF）；禁只刷BN
+- **watchBugsFixed**: [the-forge-en→+@THEFORGENFT_EN alias into bnAgent+agentPad；agentix-studio→bnAgent+freeMint+agentPad+UF；sensei→bnAgent+freeMint+agentPad+UF]
+- **Discord**: discordPeekDeferred=true（无登录不尝试）
+- **push commit**: (pending)
+- **NF_skip**: TapeFractal, Leeonmort, computeroll, PulseLaunchpad, machinedotfun, mobster_meme, starx_xlayer, deadpacksol, blindfloor, trytoprint, PlayFarmFi, reynarlabs, world_ygg, battle_pad, cabaldotfun, project_hoodmon, GatorEyesSolada, keyhasp, **AGENTICABOT**
+- **softDebt**: canton/glaze/tokenWorks + 各Watch lastChecked → 2026-11-02 12:48 CST
+- **deferredFullScan**: false
+- **notes**:
+  - 新收 2：Agentix 免费极早须跟进度；SENSEI 付费只报。Harvest **≤2h** 下轮续核 freeOpen，若开窗立刻提醒。
+  - 下轮 R1110：UF从 **176** 续；Harvest 盯 14:34CST 开窗；继续跟 lastcall/onimaru/nullsector/baoracle/rootlinks/hongbao/agentbond-error/agentix-studio；shalinggou 19:00 / agent2 20:00 / YYDS 20:30（临近≤2h升档）；mentions 轮换补 Zero/DogeEVM/Starknet/BTC/flap·Irys·Full·Arc/BN-pad；Discord deferred；xReads 控 softCap。
+  - helloagents/Critter/Shroomlets 无官推本轮不收，续观察是否出现官号；dither 极薄付费观察。
