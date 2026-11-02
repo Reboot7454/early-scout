@@ -1,0 +1,33 @@
+# RESULT R1125
+
+- **round**: 1125（开跑 pull 后 meta.round=1124=Discord alpha-40 → 本轮 X 雷达 1125）
+- **mode**: ample
+- **softCap**: 30
+- **xReads**: ≈13（UF分片341–355 + 点名 KILLERDOG/Harvest/agent2/yyds + tenLanes KW英/中 + X Layer/GIWA/Tape 合并搜 + mentions Elysium/TapeAIAgent/GIWA/squeek/Nutshell；Pulse/mobster/machine/starx 仍 NF 不连刷）
+- **remainingBefore**: ≈642（MCP；前轮 R1123 末）
+- **remaining**: ≈629（MCP）；budget 脚本仍≈843（两套计数）
+- **newIds**: []
+- **admits**: 0
+- **skips**:
+  - UF 分片 341–355 全已在库/NF（DavidJohnsvcen、firstpadfun NF；luckycatchgame/LongBaoLNB 沿用跳过）
+  - tenLanes/mentions 命中多为在库：QTARDS、FOOME、Ammora、AIDOG、GIWAUP×UNSEEN WL、ElysiumPunks；无新可操作挂靠
+  - SAFUAI/ORIVAT 等付费/薄号本轮不收
+  - starx_xlayer 仍 NF，不连刷
+- **updates**: **shalinggou 19:00已开盘 stats() minted≈12864 free=2000满 isOpen=1（超#10000）**；**agent-harvest pause→19:42:42CST ≈0.54h ≤2h freeOpen=0 phase7**；**agent2→20:00CST ≈0.83h ≤2h**；**agent-yyds→20:30CST ≈1.33h ≤2h**；**bn-big-bang sold≈2926→2930 付费0.002BNB**；**qagent free≈5399→5484/6666 shares≈5513**；panda 698→706；cryptosym 1193→1237；resona 336→338；wayangx tm≈493/3333 首铸免费续跟；onimaru tm≈1538 free≈1530；hongbao sold≈200；lastcall 211/212；nullsector 4321满；rootlinks 477；bond 30；agentix 9；spunks 1585；gang 1；strata 11 paused；seethe 2；lucky≈42；jadest≈34；baoracle tm≈8976
+- **le2h**: true（shalinggou 已开盘续跟；Harvest 19:42:42；agent2 20:00；agent-yyds 20:30）
+- **notify**: true
+- **alert**: R1125提醒：杀零狗19:00已开盘 minted≈12864 free满2000 isOpen（超10k）；Harvest→19:42:42≈0.5h（freeOpen=0 phase7）；agent2→20:00≈0.8h；yyds→20:30≈1.3h；bn-big-bang sold≈2930/付费0.002BNB；qagent免费≈5484/6666，panda≈706、cryptosym≈1237、resona≈338、wayangx≈493；无新收录；面板 https://reboot7454.github.io/early-scout/
+- **ufCursor**: 341 → 356（wrap=false）；分片 usefare…MedalBeasts 全已在库/NF
+- **tenLanesKeywords**: true
+- **mentionsChains**: Elysium(@Enter_Elysium) / Tape(@TapeAIAgent/@TapeLaunch) / GIWA(@GIWA_by_Upbit) / squeek·Nutshell(@squeekchain/@NutshellMarkets) / X Layer（starx 仍 NF，合并 KW 覆盖）
+- **watchBugsFixed**: wayangx→bnAgent+agentPad（此前仅 freeMint+UF）
+- **Discord**: discordPeekDeferred=true（R1124 刚做完 alpha-40；本轮勿登录 DC）
+- **push commit**: (pending)
+- **NF_skip**: 沿用 + 本轮追加 DavidJohnsvcen、firstpadfun（Pulse/mobster/machine/starx/FlotyllOnRH/luckycatchgame/LongBaoLNB/Charzardxpox/Seethebsc 仍跳过不连刷）
+- **softDebt**: canton/glaze/tokenWorks + 各 Watch lastChecked → 本轮 CST
+- **deferredFullScan**: false
+- **notes**:
+  - notify 因 ≤2h 三档仍有效（Harvest/agent2/yyds）+ 杀零狗刚开盘进度猛增；无新收录。
+  - 杀零狗正确 ABI 为 stats()（非 sharesSold 单字段）；free 满后 paid 续铸，minted 已超 10k。
+  - 硬禁 focus；本轮无新卡。
+  - 本轮只做雷达和面板：没有 mint，没有转账。
