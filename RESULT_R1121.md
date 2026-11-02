@@ -24,7 +24,7 @@
 - **mentionsChains**: Zero / DogeEVM / Starknet / BTC隐私 / flap·Irys·Full.fun·Arc / BN-pad（+ Nutshell 轻带；无新可操作挂靠）
 - **watchBugsFixed**: []（agent-panda/buildnbuild 已在 agentPad/bnAgent/userFollow；本轮无新收）
 - **Discord**: discordPeekDeferred=true（R1120 刚做完，本轮勿再登录 DC）
-- **push commit**: (pending)
+- **push commit**: 71cdedb
 - **NF_skip**: 沿用 R1116 列表 + 本轮追加 rinseddotfun、hollytallycheck
 - **softDebt**: canton/glaze/tokenWorks + 各 Watch lastChecked → 本轮 CST
 - **deferredFullScan**: false
