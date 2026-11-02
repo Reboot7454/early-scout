@@ -38,7 +38,7 @@
 - mentionsChains: Zero(@LayerZero_Core 近窗0) · DogeEVM(@DogeOS) · Starknet · BTC隐私(@ShieldedNaka 近窗0) · flap(@flapdotsh) · Irys(@irys_xyz 近窗0) · Full.fun(@fulldotfun 近窗0) · Arc(@arcxtrade 近窗0) · BN pads(@Ptahtrade) · 对照 Tape(@TapeAIAgent 近窗0)；无强新挂靠录取
 - watchBugsFixed: 无（跟进卡均已在 Watch；本轮无新 admit 需接入）
 - Discord: discordPeekDeferred=true（无登录，未尝试登录）
-- push commit: (pending)
+- push commit: a98c44d (data.json + RESULT_R1104.md)
 - NF_skip: TapeFractal; Leeonmort; computeroll; PulseLaunchpad; machinedotfun; mobster_meme; starx_xlayer; deadpacksol; blindfloor; trytoprint; PlayFarmFi; reynarlabs; world_ygg; +battle_pad; cabaldotfun; project_hoodmon
 - softDebt: 已刷新各 Watch lastChecked（userFollowWatch/freeMintWatch/bnAgentWatch/agentPadWatch 及十栏相关 Watch + canton/glaze/tokenWorks）
 - deferredFullScan: false（本轮 ample 常规轮，非重置后首轮）
