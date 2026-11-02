@@ -1,0 +1,35 @@
+# RESULT R1123
+
+- **round**: 1123（开跑 pull 后 meta.round=1122 → 本轮 1123）
+- **mode**: ample
+- **softCap**: 29
+- **xReads**: ≈24（UF分片326–340 + 点名软刷 bscaidrop/localbottomcom/NutshellMarkets + tenLanes KW英/中 + BN-pad KW + mentions Zero/DogeEVM/Starknet/BTC隐私/flap·Irys + 新线索 resolve Mars/AlwaysUp/dotBots/Gravewrap；Pulse/mobster/machine/starx 仍 NF 不连刷）
+- **remainingBefore**: ≈666（MCP；前轮 R1122 末）
+- **remaining**: ≈642（MCP）；budget 脚本仍≈843（两套计数）
+- **newIds**: [dotbots]
+- **admits**: 1（dotbots DS overall60 预开 11/7 GMT+7 晚10点；@dotBots_ai 43粉；CA bio截断 0x4123…bF69）
+- **skips**:
+  - Mars Nexus(@MarsNexusd)——互动奖励台无CA，非极早期mint窗
+  - AlwaysUp(@AlwaysUp_bsc)——付费/XAUt、官推2粉过薄
+  - Gravewrap / Cortexion / Gourdwitch / Neonpurrix / Gargrowl——无独立官推（仅农场号），不收
+  - PIXEL BOYZ——1粉0推过薄
+  - ShieldedWizBTC——未核验充分，薄号暂不收
+  - UF 分片 326–340 全已在库；NF/suspended：FlotyllOnRH / luckycatchgame / LongBaoLNB / Charzardxpox(suspended) / Seethebsc
+- **updates**: **shalinggou ≤2h→19:00CST ≈0.33h sharesSold=0**；**agent-harvest pause→19:42:42CST ≈1.03h ≤2h freeOpen=0 phase7**；**agent2→20:00CST ≈1.33h ≤2h**；**agent-yyds→20:30CST ≈1.83h 新进≤2h**；**bn-big-bang sold≈2906→2926 付费0.002BNB**；**qagent free≈5287→5399/6666**；panda 666→698；cryptosym 1080→1193；resona 328→336；wayangx tm≈493/3333 首铸免费续跟；onimaru tm≈1525 free≈1517；hongbao sold≈199；lastcall 211/212；nullsector 4321满；rootlinks 474；bond 30；agentix 9；spunks 1585；gang 1；strata 11 paused；seethe 2；kenranft≈3298；lucky≈42；jadest≈34；baoracle tm≈8973
+- **le2h**: true（shalinggou 19:00；agent-harvest 19:42:42；agent2 20:00；agent-yyds 20:30 新进）
+- **notify**: true
+- **alert**: R1123提醒：新收dotBots（预开11/7晚10点GMT+7，Agent ID限1）；杀零狗≤2h→19:00CST≈0.3h，sharesSold=0；Harvest→19:42:42≈1.0h（freeOpen=0 phase7）；agent2→20:00≈1.3h；yyds新进≤2h→20:30≈1.8h；bn-big-bang sold≈2926/付费0.002BNB；qagent免费≈5399/6666，panda≈698、cryptosym≈1193、resona≈336、wayangx≈493；面板 https://reboot7454.github.io/early-scout/
+- **ufCursor**: 326 → 341（wrap=false）；分片 Mintraapp…LongBaoLNB 全已在库/NF
+- **tenLanesKeywords**: true
+- **mentionsChains**: Zero(LayerZero) / DogeEVM(DogeOS) / Starknet / BTC隐私(ShieldedNaka) / flap·Irys / BN Agent pad（无新可操作挂靠；ShieldedWizBTC 薄号未收）
+- **watchBugsFixed**: dotbots→freeMint+agentPad+bnAgent+UF；wayangx→freeMint（首铸免费LIVE）
+- **Discord**: discordPeekDeferred=true（本轮勿登录 DC）
+- **push commit**: (pending)
+- **NF_skip**: 沿用 + 本轮追加 Charzardxpox、Seethebsc、FlotyllOnRH、luckycatchgame、LongBaoLNB（Pulse/mobster/machine/starx 仍跳过不连刷）
+- **softDebt**: canton/glaze/tokenWorks + 各 Watch lastChecked → 本轮 CST
+- **deferredFullScan**: false
+- **notes**:
+  - notify 因新收 dotbots + ≤2h 四档（杀零狗/Harvest/agent2/yyds）+ 免费 LIVE 进度。
+  - 硬禁 focus；dotbots focus:false；CA 截断待下轮补全核验。
+  - PulseLaunchpad/mobster/machine/starx 仍 NF，不连刷。
+  - 本轮只做雷达和面板：没有 mint，没有转账。
