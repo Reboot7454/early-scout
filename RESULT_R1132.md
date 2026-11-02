@@ -64,6 +64,6 @@
   "noMintNoTransfer": true,
   "ufErrors": "NotFound wuseagent/twinmetahq/mobster_meme/starx_xlayer; suspended SwarmHiveBNB",
   "dsNote": "首次 ds_batch_score JSON 解析失败，--raw 重跑成功（非 fallback）",
-  "pushSha": null
+  "pushSha": "809350f"
 }
 ```
