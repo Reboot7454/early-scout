@@ -22,7 +22,7 @@
 - **mentionsChains**: Elysium(@Enter_Elysium) / Tape(@TapeAIAgent/@TapeLaunch) / GIWA(@GIWA_by_Upbit) / squeek·Nutshell(@squeekchain/@NutshellMarkets) / X Layer（starx 仍 NF，合并 KW 覆盖）
 - **watchBugsFixed**: wayangx→bnAgent+agentPad（此前仅 freeMint+UF）
 - **Discord**: discordPeekDeferred=true（R1124 刚做完 alpha-40；本轮勿登录 DC）
-- **push commit**: (pending)
+- **push commit**: c5579d2
 - **NF_skip**: 沿用 + 本轮追加 DavidJohnsvcen、firstpadfun（Pulse/mobster/machine/starx/FlotyllOnRH/luckycatchgame/LongBaoLNB/Charzardxpox/Seethebsc 仍跳过不连刷）
 - **softDebt**: canton/glaze/tokenWorks + 各 Watch lastChecked → 本轮 CST
 - **deferredFullScan**: false
