@@ -85,6 +85,6 @@
     "Arcdepthoock"
   ],
   "dsNote": "deepseek-flash 打分3条(admit 1)+alert",
-  "pushSha": null
+  "pushSha": "a9899e7"
 }
 ```
