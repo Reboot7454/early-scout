@@ -72,6 +72,6 @@
     "ChyAI_Official NotFound"
   ],
   "dsNote": "ds_batch_score score+alert 均成功（deepseek-flash），无 fallback",
-  "pushSha": "PENDING"
+  "pushSha": "9db684a"
 }
 ```
