@@ -1,0 +1,31 @@
+# RESULT R1114
+
+- **round**: 1114 (prev 1113)
+- **mode**: ample
+- **softCap**: 28
+- **xReads**: ≈18（UF分片236–250 + 点名软刷 bscaidrop/localbottom/Nutshell + tenLanes KW + mentions Zero/DogeEVM/Starknet/BTC/flap·Irys·Full·Arc/BN-pad；NF_skip 不连刷 Pulse/mobster/machine/starx；核验 @Charzardxpox/@Seethebsc）
+- **remainingBefore**: ≈756（MCP 对齐上轮末；budget 脚本开跑≈843）
+- **remaining**: ≈738（MCP）；budget 脚本仍≈843（两套计数）
+- **newIds**: [qagent, seethe-pad]
+- **admits**: 2（DS score：qagent overall74 admit；seethe-pad overall61 admit）
+- **skips**: UF分片236–250除NF外全已在库；Zero/DogeEVM/Starknet/BTC/flap/Irys/Full/Arc mentions 近窗无硬新 affiliate mint；BN-pad 无额外新 CA；AGENT_FLAP0/FAGENT 类引流或已在库不收
+- **updates**: **agent-harvest(freeOpen 1→0 关窗 phase7 tm≈3951 free≈3500/5000 paid≈451 pause→19:42:42CST ≈4.5h)**；lucky-agent(free≈33/1000 仍免费LIVE)；jadestx(tm≈23/4800 近免费)；flappy-bnb(≈467/2000 仍免费LIVE)；patch-agent(免费仍罄 cardsSold≈1013 paidSold≈13→付费只报)；gang-agent(tm≈1 付费只报)；strata-ai(tm≈11 paused=1→付费暂停只报)；lastcall(free≈210)；onimaru(tm≈1252 free≈1247)；nullsector(≈4321)；baoracle(≈8877)；rootlinks(≈456)；hongbao(sold≈148)；agentbond-error(≈29)；agentix-studio(≈9/12000)；agentspunks(≈1585 免费罄)；shalinggou(→19:00≈3.8h)；agent2(→20:00≈4.8h)；agent-yyds(→20:30≈5.3h)
+- **le2h**: false（排期三项与 Harvest pause 均>2h；本轮 notify 因新收免费LIVE+Harvest关窗）
+- **notify**: true
+- **alert**: R1114 新收录：QAGENT 免费LIVE free≈382/6666 shares≈383/22222 @Charzardxpox https://qagent.live mint 0xE3a4f3099a2136e0e66202A665815caB8FFA2704 token 0x25e915EEE91411b0AC3273531dbaDc34e0EAA5eB；Seethe Agent-only 台子 @Seethebsc https://seetheagent.fun（官推今日新建极薄）。Harvest phase7 免费窗已关 freeOpen 1→0 tm≈3951 free≈3500 pause→19:42:42CST；续跟 Lucky≈33/1000 Flappy≈467/2000 Jadest≈23/4800。面板 https://reboot7454.github.io/early-scout/
+- **ufCursor**: 236 → 251（wrap=false）；userFollowShardDone=true；点名软刷 @bscaidrop @localbottomcom @NutshellMarkets；NF_skip不刷 PulseLaunchpad/mobster_meme/machinedotfun/starx_xlayer；分片 236–250 除 NF 外全已在库
+- **tenLanesKeywords**: true（合并近30min 全量+BN Agent/fair mint/挖矿/打新/Agent ID/AIDROP/Pulse/free mint/TapeOut/GIWA/DogeEVM/Starknet/Elysium 等）
+- **mentionsChains**: Zero / DogeEVM / Starknet / BTC / flap·Irys·Full·Arc / BN-pad；Arc @UBIdotFUN mentions 近窗空；无硬新挂靠 mint；禁只刷BN
+- **watchBugsFixed**: []
+- **Discord**: discordPeekDeferred=true（无登录不尝试）
+- **push commit**: (pending)
+- **NF_skip**: TapeFractal, Leeonmort, computeroll, PulseLaunchpad, machinedotfun, mobster_meme, starx_xlayer, deadpacksol, blindfloor, trytoprint, PlayFarmFi, reynarlabs, world_ygg, battle_pad, cabaldotfun, project_hoodmon, GatorEyesSolada, keyhasp, AGENTICABOT, HashOre_BNB, usejackbay, DubbllePadX, ponzihooks, swiprdotxyz, GlitchOnHood（本轮不连刷）
+- **softDebt**: canton/glaze/tokenWorks + 各Watch lastChecked → 2026-11-02 15:10 CST
+- **deferredFullScan**: false
+- **notes**:
+  - **新收 QAGENT 免费LIVE**（即便粉薄）必须立刻提醒；每 Agent 钱包 1 免费 share，freeCap=6666，付费 1U。
+  - **新收 Seethe** Agent-only bonding pad（台子），官推今日新建≈1粉，高风险观察。
+  - **Harvest phase7 免费窗关窗** freeOpen 1→0，pause→19:42:42CST。
+  - Lucky/Flappy/Jadest 续免费或近免费 LIVE，进度已刷。
+  - strata-ai 链上 paused=1，付费只报不自动。
+  - 下轮 **R1115**：UF从 **251** 续；Harvest 跟 pause→19:42 是否临近≤2h/再开窗；续跟 qagent/lucky-agent/jadestx/flappy-bnb/patch-agent(付费)/gang-agent/strata-ai/lastcall/onimaru/nullsector/baoracle/rootlinks/hongbao/agentbond-error/agentix-studio/agentspunks/seethe-pad；shalinggou 19:00 / agent2 20:00 / YYDS 20:30（临近≤2h升档）；mentions 轮换补 Elysium/Tape/GIWA/squeek·X Layer/BN pads；Discord deferred；xReads 控 softCap。
