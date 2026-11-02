@@ -1,5 +1,34 @@
-# R1122 Discord alpha-40
-notify=True newIds=['pulseagent', 'catfarmingog', 'treeholderdev', 'seedstock-farm']
-alert=DC补漏R1122新收4个：Pulse Agent、Cat Farming、tree developer、Seedstock；https://reboot7454.github.io/early-scout/
-lastSeenByChannel={"alpha-3-new-accounts": "2026-11-02 18:06", "alpha-1-backup": "2026-11-02 16:58", "smart-accounts-tracker": "2026-11-02 17:30", "alpha-1": "2026-11-02 18:04"}
-summary=R1122：Discord alpha 补收 pulseagent,catfarmingog,treeholderdev,seedstock-farm；lastSeen→2026-11-02 18:06；lastChecked→2026-11-02 18:09 CST
+# RESULT R1122
+
+- **round**: 1122（开跑 pull 后 meta.round=1121 → 本 X/雷达轮 1122；同期 Discord alpha-40 抢号写入同轮 4 卡，雷达合并保留）
+- **mode**: ample
+- **softCap**: 28
+- **xReads**: ≈20（UF分片311–325 + 点名软刷 bscaidrop/localbottomcom/NutshellMarkets + tenLanes KW + mentions Elysium/Tape/GIWA/squeek·Nutshell/starx + DC4卡 X 核验；Pulse/mobster/machine/starx 仍 NF 不连刷）
+- **remainingBefore**: ≈686（MCP；前轮 R1121 末）
+- **remaining**: ≈666（MCP）；budget 脚本仍≈843（两套计数）
+- **newIds**: [pulseagent, catfarmingog, treeholderdev, seedstock-farm]（均来自 Discord alpha 补漏；本轮 X/HTTP 雷达侧 0 新收）
+- **admits**: 4（DC）
+- **skips**:
+  - SEVEN SIGMA——无独立官推，不收
+  - PIXEL BOYZ / zyrvath / Cig_Packs——过薄，不收
+  - XiaoMei farm——农场向，不收
+  - JIN Agent——仍无官推，续 skip
+  - UF 分片 311–325 全已在库；NF resolve：divade_xyz / HaloPad_Pro(suspended) / LiquidityStonk / Agent__arena / playholeshot → NF_skip
+- **updates**: **shalinggou ≤2h→19:00CST ≈0.68h sharesSold=0**；**agent-harvest pause→19:42:42CST ≈1.39h 已≤2h升档 freeOpen=0**；**agent2→20:00CST ≈1.68h 新升≤2h**；yyds→20:30≈2.18h 尚未≤2h；**bn-big-bang sold≈2764→2906 付费0.002BNB**；**qagent free≈5172→5287/6666**；panda 661→666；cryptosym 971→1080；resona 321→328；onimaru tm≈1513 free≈1505；hongbao sold≈189；lastcall 211/212；nullsector 4321满；rootlinks 468；bond 30；agentix 9；spunks 1585；gang 1；strata 11 paused；seethe 2；patch≈1013；kenranft≈3293/8888；lucky≈42；flappy≈664；jadest≈34；dropminters 未解析有效 mint
+- **le2h**: true（shalinggou 19:00；agent-harvest 19:42:42；agent2 20:00）
+- **notify**: true
+- **alert**: R1122提醒：DC补漏新收4个（Pulse Agent/Cat Farming/tree developer/Seedstock）；杀零狗≤2h→19:00CST≈0.7h，sharesSold=0，前2000免费仅gas；Harvest→19:42:42≈1.4h升档（freeOpen=0 phase7）；agent2→20:00≈1.7h新升≤2h；yyds→20:30尚未≤2h；bn-big-bang sold≈2906/付费0.002BNB；qagent免费≈5287/6666，panda≈666、cryptosym≈1080、resona≈328；面板 https://reboot7454.github.io/early-scout/
+- **ufCursor**: 311 → 326（wrap=false）；分片 AgentWorldBNB…dubbletorch 全已在库
+- **tenLanesKeywords**: true
+- **mentionsChains**: Elysium/kinetiq / Tape / GIWA / squeek·Nutshell / starx_xlayer(NF) / X Layer（无新可操作挂靠）
+- **watchBugsFixed**: pulseagent→agentPad+bnAgent+UF；catfarmingog→freeMint+UF；treeholderdev→UF；seedstock-farm→agentMining+mining+UF
+- **Discord**: discordPeekDeferred=true（父任务要求本雷达轮勿再登录 DC）；但另一号已用 R1122 写入 alpha-40 4 卡——雷达侧合并保留 newIds，未再登录 DC
+- **push commit**: (pending)
+- **NF_skip**: 沿用 + 本轮追加 divade_xyz、HaloPad_Pro、LiquidityStonk、Agent__arena、playholeshot
+- **softDebt**: canton/glaze/tokenWorks + 各 Watch lastChecked → 本轮 CST
+- **deferredFullScan**: false
+- **notes**:
+  - 雷达侧无 X/HTTP 真新；notify 因 DC 新收 4 + ≤2h（杀零狗/Harvest/agent2）+ 免费 LIVE 进度。
+  - DC 4 卡已 DS 评分：pulseagent50 / catfarmingog22 / treeholderdev42 / seedstock-farm58；补 links.twitter；硬禁 focus。
+  - PulseLaunchpad/mobster/machine/starx 仍 NF，不连刷。
+  - 本轮只做雷达和面板：没有 mint，没有转账。
