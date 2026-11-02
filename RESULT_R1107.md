@@ -1,0 +1,31 @@
+# RESULT R1107
+
+- **round**: 1107 (prev 1106)
+- **mode**: ample
+- **softCap**: 28
+- **xReads**: 14
+- **remainingBefore**: ≈869 (live X API footer；开跑对齐)
+- **remaining**: ≈855
+- **newIds**: [hongbao, holly-crab, wraith-scout]
+- **admits**: 3（DeepSeek flash）
+  - hongbao（HONGBAO 红包 @hongbao_agents）：免费LIVE 48h，官网 hongbao.trade，CA 0xfd7C…86F8，RPC sold≈35，score79
+  - holly-crab（@Hollycrabonbsc）：付费LIVE 0.01BNB，官网 hollycrabbsc.com，score74，**付费只报不自动**
+  - wraith-scout（@WraithScout）：游戏解锁后首份免费，官网 wraithnft.xyz，CA 0x4a31…7def tm≈906，score52（免费mint仍收录+notify）
+- **skips**: night-shift-agents / bnb-agent-scout / agent-404 / slimelings-bnb（均无明确官推，硬门槛 skip）；ZEC_BLOCKS（非BNB Agent赛道）；bitonganzhou/BTGZ（无官推 NF）；Ammora/ElysiumPunks/Ascend/BOXA/ptah 已在库；UF点名 localbottom/Nutshell/bscaidrop 无新；NF新记 GatorEyesSolada/keyhasp
+- **updates**: agent-harvest(tm≈3443 freeOpen=0 pause→14:34:48CST ≈2.92h非≤2h); lastcall(free≈186/1000); nullsector(≈2651); onimaru(free≈993/1000近罄); baoracle(≈7915); rootlinks(≈404/free≈402); pixcade(1549/free罄); jiepanfun(tm≈218); shalinggou(sharesSold=0→19:00CST≈7.3h); agent2(→20:00≈8.3h); agent-yyds(→20:30≈8.8h); jager(付费≈3.04U只报)
+- **le2h**: false（Harvest仍≈2.92h；约 **12:34CST** 后入≤2h；shalinggou/agent2/yyds均>2h）
+- **notify**: true
+- **alert**: R1107新：HONGBAO免费LIVE（hongbao.trade）+ Holly Crab付费0.01BNB + WRAITH首份免费；面板 https://reboot7454.github.io/early-scout/
+- **ufCursor**: 131 → 146（wrap=false）；userFollowShardDone=true；点名软刷 @localbottomcom @NutshellMarkets @bscaidrop；NF_skip不刷 PulseLaunchpad/mobster_meme/machinedotfun/starx_xlayer
+- **tenLanesKeywords**: true（合并近30–45min 全量+补扫 GIWA/TapeOut/Local Bottom/Nutshell/AIDROP/挖矿/打新；命中含 hongbao 等）
+- **mentionsChains**: Elysium(@Enter_Elysium+kinetiq) / Tape / GIWA / squeek(@squeekchain) · X Layer（关键词；starx NF不连刷）/ BN pads；无强新挂靠；禁只刷BN
+- **watchBugsFixed**: [nullsector→bnAgentWatch+freeMintWatch+UF, jager→bnAgentWatch, shalinggou→UF]；新卡接入 agentPad+UF；hongbao/holly→bnAgent；hongbao/wraith→freeMint
+- **Discord**: discordPeekDeferred=true（无登录不尝试）
+- **push commit**: （待填）
+- **NF_skip**: TapeFractal, Leeonmort, computeroll, PulseLaunchpad, machinedotfun, mobster_meme, starx_xlayer, deadpacksol, blindfloor, trytoprint, PlayFarmFi, reynarlabs, world_ygg, battle_pad, cabaldotfun, project_hoodmon, GatorEyesSolada, keyhasp（本轮仅记不连刷）
+- **softDebt**: canton/glaze/tokenWorks + 各Watch lastChecked → 2026-11-02 11:43 CST
+- **deferredFullScan**: false
+- **notes**:
+  - 新收 3：hongbao 免费LIVE须跟进度；holly 付费只报；wraith 官推极新风险高。
+  - 下轮 R1108：UF从 **146** 续；Harvest **约12:34CST后入≤2h** 须升档核验 freeOpen + notify；继续跟 lastcall/onimaru/nullsector/baoracle/rootlinks/hongbao；shalinggou 19:00 / agent2 20:00 / YYDS 20:30；mentions 轮换补 Zero/DogeEVM/Starknet/BTC/flap·Irys·Full·Arc/BN-pad；Discord deferred；xReads 控制在 softCap。
+  - jager 付费再开只告警不自动；Night Shift/Scout Pass/Agent404/Slimelings 无官推本轮不收，续观察是否出现官号。
