@@ -45,12 +45,17 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "commit": "d7af92d",
+    "sha": "d7af92d232daf4fa49adcfd513ad22742b444fa3",
+    "message": "R1122 Discord alpha-40 peek",
+    "remoteVerified": true,
+    "remoteHead": "d7af92d232daf4fa49adcfd513ad22742b444fa3"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1122：Discord alpha 补收 pulseagent,catfarmingog,treeholderdev,seedstock-farm；lastSeen→2026-11-02 18:06；lastChecked→2026-11-02 18:09 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "DISCORD_ALPHA_40_CARDS_20261102_1802.json",
   "priorRoundNote": "R1121 meta NTR []; cardsAfterCutoff=58",
   "lastSeenByChannel": {
@@ -282,5 +287,7 @@
       "name": "Seedstock"
     }
   ],
-  "alert": "DC补漏R1122新收4个：Pulse Agent、Cat Farming、tree developer、Seedstock；https://reboot7454.github.io/early-scout/"
+  "alert": "DC补漏R1122新收4个：Pulse Agent、Cat Farming、tree developer、Seedstock；https://reboot7454.github.io/early-scout/",
+  "spideyPosting": true,
+  "gapIncomplete": false
 }
