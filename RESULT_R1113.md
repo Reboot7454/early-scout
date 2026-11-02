@@ -1,0 +1,29 @@
+# RESULT R1113
+
+- **round**: 1113 (prev 1112)
+- **mode**: ample
+- **softCap**: 28
+- **xReads**: ≈18（UF分片221–235 + 点名软刷 bscaidrop/localbottom/Nutshell + tenLanes KW + mentions Elysium/Tape/GIWA/squeek·X Layer/BN pads；NF_skip 不连刷 Pulse/mobster/machine/starx）
+- **remainingBefore**: ≈774（MCP 对齐上轮末；budget 脚本开跑≈843）
+- **remaining**: ≈756（MCP）；budget 脚本仍≈843（两套计数）
+- **newIds**: []
+- **admits**: 0
+- **skips**: NovaAgentID/muse.ai（站内 spam 引流，已有 nova-agent-shares 在库，DS 不收）；AmmoraHQ 已在库（GIWA mentions 全是 Ammora waitlist 刷屏）；squeek mentions 无新 mint 挂靠；bscaidrop mentions 近30min 空；UF 分片 221–235 除 NF 外全在库；点名 localbottom/Nutshell/bscaidrop 无新 mint
+- **updates**: **agent-harvest(freeOpen=1 phase7 OPEN tm≈3757 free≈3311 paid≈451 phaseMinted≈317 ←pause 14:34:48CST 已过)**；lucky-agent(free≈28/1000 仍免费LIVE)；jadestx(tm≈21/4800 近免费)；flappy-bnb(≈367/2000 仍免费LIVE)；patch-agent(免费仍罄 cardsSold≈1013 paidSold≈13→付费只报)；gang-agent(tm≈1 付费只报)；strata-ai(tm≈11 paused=1→付费暂停只报)；lastcall(free≈209)；onimaru(tm≈1173 free≈1167)；nullsector(≈4261)；baoracle(≈8847)；rootlinks(≈454)；hongbao(sold≈148)；agentbond-error(≈29)；agentix-studio(≈9/12000)；agentspunks(≈1585 免费罄)；shalinggou(→19:00≈4.3h)；agent2(→20:00≈5.3h)；agent-yyds(→20:30≈5.8h)
+- **le2h**: true（**Harvest 升档开窗** freeOpen 0→1；排期三项均>2h）
+- **notify**: true
+- **alert**: R1113 Harvest phase7 免费窗已开 freeOpen=1 tm≈3757 free≈3311/5000 paid≈451 @agentharvest_ai https://agent-harvest.pages.dev/ CA 0xacf150d9eC909E3d339Bf4c6D090b18495674E66；续跟 LuckyAgent 免费LIVE free≈28/1000；FlappyBNB 免费LIVE ≈367/2000；JadestX 近免费 tm≈21/4800。面板 https://reboot7454.github.io/early-scout/
+- **ufCursor**: 221 → 236（wrap=false）；userFollowShardDone=true；点名软刷 @bscaidrop @localbottomcom @NutshellMarkets；NF_skip不刷 PulseLaunchpad/mobster_meme/machinedotfun/starx_xlayer；分片 221–235 除新 NF 外全已在库
+- **tenLanesKeywords**: true（合并近30min 全量+BN Agent/fair mint/挖矿/打新/Agent ID/AIDROP/Pulse/free mint/TapeOut/GIWA/DogeEVM/Starknet/Elysium 等）
+- **mentionsChains**: Elysium / Tape / GIWA / squeek·X Layer / BN pads；GIWA 多为 @AmmoraHQ waitlist 刷屏（已在库）；squeek 无硬新 affiliate mint；BN-pad @bscaidrop mentions 空；禁只刷BN
+- **watchBugsFixed**: []
+- **Discord**: discordPeekDeferred=true（无登录不尝试）
+- **push commit**: 4331889
+- **NF_skip**: TapeFractal, Leeonmort, computeroll, PulseLaunchpad, machinedotfun, mobster_meme, starx_xlayer, deadpacksol, blindfloor, trytoprint, PlayFarmFi, reynarlabs, world_ygg, battle_pad, cabaldotfun, project_hoodmon, GatorEyesSolada, keyhasp, AGENTICABOT, HashOre_BNB, usejackbay, DubbllePadX, **ponzihooks, swiprdotxyz, GlitchOnHood**（本轮 UF 分片 suspended/NF）
+- **softDebt**: canton/glaze/tokenWorks + 各Watch lastChecked → 2026-11-02 14:39 CST
+- **deferredFullScan**: false
+- **notes**:
+  - 本轮无新收；**Harvest phase7 免费窗已开**（升档核验成功）必须立刻提醒。
+  - Lucky/Flappy/Jadest 续免费或近免费 LIVE，进度已刷。
+  - strata-ai 链上 paused=1，付费只报不自动。
+  - 下轮 **R1114**：UF从 **236** 续；Harvest 跟 phase7 free 进度/是否关窗；续跟 lucky-agent/jadestx/flappy-bnb/patch-agent(付费)/gang-agent/strata-ai/lastcall/onimaru/nullsector/baoracle/rootlinks/hongbao/agentbond-error/agentix-studio/agentspunks；shalinggou 19:00 / agent2 20:00 / YYDS 20:30（临近≤2h升档）；mentions 轮换补 Zero/DogeEVM/Starknet/BTC/flap·Irys·Full·Arc/BN-pad；Discord deferred；xReads 控 softCap。
