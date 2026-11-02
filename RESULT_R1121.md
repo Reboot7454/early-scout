@@ -1,0 +1,35 @@
+# RESULT R1121
+
+- **round**: 1121（prev 1120 = Discord alpha-40；开跑 pull 后 meta.round=1120 → 本 X 轮 1121）
+- **mode**: ample
+- **softCap**: 28
+- **xReads**: ≈22（UF分片296–310 + 点名软刷 bscaidrop/localbottomcom/PulseLaunchpad + tenLanes KW×2 + mentions flap/Zero·DogeEVM·Starknet·BTC隐私·Irys·Arc·BN-pad + Nutshell mentions + MegaBull/EAUPHANT/HIVEN/KENRAI/Racing 核验搜索）
+- **remainingBefore**: ≈708（MCP；前轮 R1119 末）
+- **remaining**: ≈686（MCP）；budget 脚本仍≈843（两套计数）
+- **newIds**: []
+- **admits**: 0
+- **skips**:
+  - Racing Future Championship（@sertoken888 / CA 0x39e6…4098 tm≈970/1000）——多项目 mint 农场号 + 域名停泊页，无独立官网/官推，不收
+  - MegaBull/MBULL（mbull-two.vercel.app CA 0x544a…8f10，已铸≈4.0M/20M）——仅推广号 @AlgoCherry，无独立官推，硬门槛不收
+  - EAUPHANT（@eauphant / eauphant.vercel.app）——站称 Mint Live 但为付费 0.0002→0.002 BNB，tm=0，非免费LIVE；极薄粉，本轮不收
+  - HIVEN（@HIVEN14vf 0粉，github only，测试网/Soon）——未开盘，过薄不收
+  - JIN Agent——仍无官推（大量跟风 mint 文），续 skip
+  - UF 分片 296–310 全已在库；rinseddotfun/hollytallycheck Not Found → 写入 NF_skip
+- **updates**: **shalinggou ≤2h→19:00CST ≈1.1h sharesSold=0**；**agent-harvest pause→19:42:42CST ≈1.8h 已≤2h升档 freeOpen=0**；**bn-big-bang 免费2000罄 sold≈2764 付费0.002BNB**；**qagent free≈4472→5172/6666**；panda 561→661；resona 231→321；**cryptosym 47→971 猛增**；lucky 37→42；onimaru tm≈1497 free≈1489；hongbao sold≈189；lastcall 211/212；nullsector 4321满；rootlinks 467；bond 30；agentix 9；spunks 1585；gang 1；strata 11 paused；seethe 2；patch 1013；kenranft RPC≈3288/8888；dropminters 站0/1111；flappy/jadest RPC受限沿用；agent2→20:00≈2.1h；yyds→20:30≈2.6h
+- **le2h**: true（shalinggou 19:00；agent-harvest 19:42:42）
+- **notify**: true
+- **alert**: R1121无新收录：杀零狗≤2h→19:00CST开盘，前2000份.ai免费只花gas（sharesSold=0）；Agent Harvest 19:42:42CST关窗、已≤2h约1.9h升档（freeOpen=0 phase7）；BN Big Bang免费2000已罄、sold≈2764转0.002BNB付费；qagent免费≈4472→5172/6666仍LIVE，panda≈661、cryptosym≈971、resona≈321；面板 https://reboot7454.github.io/early-scout/
+- **ufCursor**: 296 → 311（wrap=false）；分片 pocket_rh…exitliqhood 全已在库
+- **tenLanesKeywords**: true
+- **mentionsChains**: Zero / DogeEVM / Starknet / BTC隐私 / flap·Irys·Full.fun·Arc / BN-pad（+ Nutshell 轻带；无新可操作挂靠）
+- **watchBugsFixed**: []（agent-panda/buildnbuild 已在 agentPad/bnAgent/userFollow；本轮无新收）
+- **Discord**: discordPeekDeferred=true（R1120 刚做完，本轮勿再登录 DC）
+- **push commit**: (pending)
+- **NF_skip**: 沿用 R1116 列表 + 本轮追加 rinseddotfun、hollytallycheck
+- **softDebt**: canton/glaze/tokenWorks + 各 Watch lastChecked → 本轮 CST
+- **deferredFullScan**: false
+- **notes**:
+  - 本轮无真新收录；notify 仅因 ≤2h（杀零狗 + Harvest 升档）+ 免费LIVE 进度猛增（qagent/cryptosym）需面板提醒。
+  - PulseLaunchpad 软刷：buyback agent / 积分赛进行中，已在库。
+  - localbottomcom：Elysium 挂靠短片，无新 mint。
+  - 本轮只做雷达和面板：没有 mint，没有转账。
