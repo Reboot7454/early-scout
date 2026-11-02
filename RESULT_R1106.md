@@ -18,7 +18,7 @@
 - **mentionsChains**: Zero(LayerZero_Core 0结果) / DogeEVM(DogeOS) / Starknet / BTC隐私(ShieldedNaka) / flap·Irys(0)·Full.fun / BN-pad换号(SUANdotBID)；附带 squeek 已在UF点名；禁只刷BN
 - **watchBugsFixed**: []（lastcall 已在 R1105 入 UF+agentPad+freeMint+bnAgent；本轮无在库漏Watch）
 - **Discord**: discordPeekDeferred=true（无登录不尝试）
-- **push commit**: （写后填）
+- **push commit**: 26574d0
 - **NF_skip**: TapeFractal, Leeonmort, computeroll, PulseLaunchpad, machinedotfun, mobster_meme, starx_xlayer, deadpacksol, blindfloor, trytoprint, PlayFarmFi, reynarlabs, world_ygg, battle_pad, cabaldotfun, project_hoodmon（本轮仅记不连刷）
 - **softDebt**: canton/glaze/tokenWorks + 各Watch lastChecked → 2026-11-02 11:05 CST
 - **deferredFullScan**: false
