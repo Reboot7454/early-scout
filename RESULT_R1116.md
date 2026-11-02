@@ -18,7 +18,7 @@
 - **mentionsChains**: Zero / DogeEVM / Starknet / BTC隐私 / flap·Irys·Full·Arc / BN-pad；无硬新挂靠 mint；禁只刷BN
 - **watchBugsFixed**: []（resona/cryptosym 已写入 freeMintWatch+bnAgentWatch+agentPadWatch+userFollowWatch）
 - **Discord**: discordPeekDeferred=true（无登录不尝试）
-- **push commit**: (pending)
+- **push commit**: cf2edc4
 - **NF_skip**: TapeFractal, Leeonmort, computeroll, PulseLaunchpad, machinedotfun, mobster_meme, starx_xlayer, deadpacksol, blindfloor, trytoprint, PlayFarmFi, reynarlabs, world_ygg, battle_pad, cabaldotfun, project_hoodmon, GatorEyesSolada, keyhasp, AGENTICABOT, HashOre_BNB, usejackbay, DubbllePadX, ponzihooks, swiprdotxyz, GlitchOnHood（本轮不连刷）
 - **softDebt**: canton/glaze/tokenWorks + 各Watch lastChecked → 本轮 CST
 - **deferredFullScan**: false
