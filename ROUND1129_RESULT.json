@@ -1,0 +1,196 @@
+{
+  "round": 1129,
+  "mode": "ample",
+  "completedAt": "2026-11-02 20:35 CST",
+  "notify": true,
+  "notifyReason": "新收免费LIVE（marsnexus/lot-bsc/lode）+免费mint（dimpies/pokerpunks）+≤2h窗口（Harvest P8将满、yyds 20:30已开、agent2二期）",
+  "alertMessage": "R1129提醒：免费/LIVE：①MARS NEXUS火星身份卡@MarsNexusd，每钱包首张免费仅gas（后2.99/4.44U只报），9359/9999≈94%快售罄，合约0xC405…91c8，漏收补录；②LOT@LOT_Bsc，每Agent ID最多4份免费基础份额（按活跃度加权），共44444份，第4444份开Pancake池，代币0x9495…5865，官推2粉；③LODE矿机@lode_mintfun，首台免费后0.0027BNB只报，495/4444，合约0xc726…5f62，0粉新号。另Dimpies@DimpiesNFT今日mint前100免费后0.01HYPE（无公开合约）；RH Pokerpunks@rhpokerpunks指定RH持有者免费。付费只报：Agent Genesis@AgentGenesisHQ 0.1BNB，0/500。≤2h：Harvest Phase8免费496/500将满；yyds 20:30已开（前2000免费）；agent2二期20:00已开付费≈0.001BNB，69/10000只报。进度：qagent 5738/6666、cryptosym 1422/3333、sail 111/1000（11/3 07:16止），其余见面板。未做任何mint/转账。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "marsnexus",
+    "lot-bsc",
+    "lode",
+    "agent-genesis",
+    "dimpies",
+    "pokerpunks"
+  ],
+  "freeLiveAdmits": [
+    "marsnexus",
+    "lot-bsc",
+    "lode",
+    "dimpies",
+    "pokerpunks"
+  ],
+  "le2h": {
+    "active": true,
+    "items": [
+      {
+        "id": "agent-harvest",
+        "label": "Harvest Phase8 免费LIVE 将满",
+        "at": "2026-11-02 19:42:42 CST",
+        "hours": 0,
+        "note": "phaseMinted 496/500 freeMinted 3996/5000"
+      },
+      {
+        "id": "agent-yyds",
+        "label": "yyds 开铸（前2000免费）",
+        "at": "2026-11-02 20:30 CST",
+        "hours": 0
+      },
+      {
+        "id": "agent2",
+        "label": "agent2 二期付费LIVE",
+        "at": "2026-11-02 20:00 CST",
+        "hours": 0,
+        "note": "69/10000 付费≈0.001BNB 只报"
+      },
+      {
+        "id": "dimpies",
+        "label": "Dimpies Elysium 今日开mint 前100免费",
+        "at": "2026-11-02 CST（时间未定）",
+        "hours": null
+      }
+    ]
+  },
+  "xBudgetPlan": {
+    "mode": "ample",
+    "softCap": 28,
+    "xReads": 7,
+    "remainingBefore": 612,
+    "remaining": 605,
+    "resetAtCST": "2026-11-03 08:00 CST",
+    "priority": "UF→必盯/≤2h→合并关键词→mentions轮换",
+    "tenLanesKeywords": true,
+    "mentionsChains": [
+      "Zero",
+      "DogeEVM",
+      "Starknet",
+      "BTC",
+      "flap·Irys·Full·Arc",
+      "BN-pad"
+    ],
+    "discordPeekDeferred": true
+  },
+  "ufCursor": {
+    "from": 388,
+    "to": 404
+  },
+  "coverage": "R1129 ample tenLanes=true mentions=Zero/DogeEVM/Starknet/BTC/flap·Irys·Full·Arc/BN-pad discordDeferred=true",
+  "NF_skipAdded": [
+    "bsc_bito",
+    "tikitotemsbnb"
+  ],
+  "skipped": {
+    "agentcoinflip": "DS38 不收（@AgentCoinFlip 1粉、自称非官方实验；免费/付费随机手，NFT 1117/1777）",
+    "marscoin": "0x1902…5836 仅推广帖，无官推，sharesMinted=0",
+    "titanforge": "@TitanForgeNet 开发中无币无售（PRE-ANN）",
+    "ignix/giwaup/ammora/slymzcrew/kalos/plunderport": "已在库"
+  },
+  "progress": {
+    "agent-panda": {
+      "totalMinted": 756,
+      "cap": 10000,
+      "checkedAt": "2026-11-02T20:35:00+08:00",
+      "note": "RPC tm≈752/10000 免费LIVE"
+    },
+    "resona": {
+      "totalMinted": 344,
+      "totalSupply": 341,
+      "cap": 5000,
+      "checkedAt": "2026-11-02T20:35:00+08:00",
+      "note": "RPC tm≈341/5000 免费LIVE",
+      "freeUsed": 333,
+      "freeCap": 1200
+    },
+    "cryptosym": {
+      "totalMinted": 1422,
+      "totalSupply": 1422,
+      "cap": 3333,
+      "MAX_SUPPLY": 3333,
+      "checkedAt": "2026-11-02T20:35:00+08:00",
+      "note": "RPC tm≈1382/3333 首铸免费LIVE"
+    },
+    "qagent": {
+      "sharesMinted": 5768,
+      "freeMinted": 5738,
+      "cap": 6666,
+      "checkedAt": "2026-11-02T20:35:00+08:00",
+      "note": "RPC freeMinted≈5680/6666 免费LIVE",
+      "paidShares": 30
+    },
+    "shalinggou": {
+      "minted": 13863,
+      "free": 2000,
+      "isStarted": 1,
+      "isOpen": 1,
+      "checkedAt": "2026-11-02T20:35:00+08:00",
+      "note": "RPC sharesSold≈14205 launched=1 已开池",
+      "sharesSold": 14242,
+      "launched": 1
+    },
+    "agent2": {
+      "checkedAt": "2026-11-02T20:35:00+08:00",
+      "note": "二期20:00已开（付费≈0.001BNB/份），sharesSold 69/10000，5000份开池线差4931；官推20:02称40份已售、分红池0.1018BNB",
+      "phase1Minted": 4199,
+      "dividendPoolBNB": 0.1018,
+      "phase2OpensCST": "2026-11-02 20:00 CST",
+      "phase": 2,
+      "sharesSold": 69,
+      "shares": 10000,
+      "raisedBNB": 0.069,
+      "pricePerShareBNB": 0.001,
+      "launchLine": 5000,
+      "endsCST": "2026-11-05 20:00 CST",
+      "token": "0xf7224500e3137faf16fa48570df03b9f42d43d11"
+    },
+    "agent-harvest": {
+      "totalMinted": 4534,
+      "freeOpen": 1,
+      "currentPhase": 8,
+      "phasePauseEndCST": null,
+      "checkedAt": "2026-11-02T20:35:00+08:00",
+      "note": "RPC 20:31：Phase8 phaseMinted 496/500 即将打满；freeMinted 3996/5000 total 4534/15000",
+      "freeMinted": 3996,
+      "paidMinted": 535,
+      "phaseMinted": 496,
+      "phaseCap": 500
+    },
+    "agent-yyds": {
+      "checkedAt": "2026-11-02T20:35:00+08:00",
+      "opensAtCST": "2026-11-02 20:30:00 CST",
+      "note": "opensAt 20:30 已到点；arenaStats 20:28 全0，开铸后进度待下轮读；#1–2000免费(每ID1份) #2001–10000 0.001BNB(每ID10份) 满10000自动开池"
+    },
+    "bn-big-bang": {
+      "sold": 2936,
+      "FREE_SHARES": 2000,
+      "checkedAt": "2026-11-02T20:35:00+08:00",
+      "note": "RPC sold≈2936 付费（官推链上≈1.868BNB）"
+    },
+    "sailagent": {
+      "launched": 0,
+      "note": "官推20:00：1000免费名额已占111",
+      "checkedAt": "2026-11-02T20:35:00+08:00",
+      "currentRound": 1,
+      "freeTaken": 111,
+      "freeCap": 1000,
+      "round1EndsCST": "2026-11-03 07:16 CST"
+    },
+    "liberate": {
+      "totalMinted": 222,
+      "cap": 9999,
+      "mintOpen": 1,
+      "currentPriceBNB": 0.000135,
+      "checkedAt": "2026-11-02T20:35:00+08:00"
+    },
+    "elarune": {
+      "totalMinted": 35,
+      "cap": 2500,
+      "checkedAt": "2026-11-02T20:35:00+08:00"
+    },
+    "bnb-safe-coin": {
+      "note": "20:01 CST 官推开售；RPC 进度函数未读出",
+      "checkedAt": "2026-11-02T20:35:00+08:00"
+    }
+  },
+  "noMintNoTransfer": true,
+  "push": null
+}
