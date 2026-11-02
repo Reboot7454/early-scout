@@ -1,0 +1,30 @@
+# RESULT R1111
+
+- **round**: 1111 (prev 1110)
+- **mode**: ample
+- **softCap**: 28
+- **xReads**: 18（UF分片+点名软刷+Flappy/Eclipse核验+Flutch+mentions+tenLanes KW）
+- **remainingBefore**: ≈809（MCP 对齐；budget 脚本≈843）
+- **remaining**: ≈793
+- **newIds**: [flappy-bnb]
+- **admits**: 1（DeepSeek flash）
+  - flappy-bnb（FLAPPY @flappybnb）：**免费 NFT LIVE**；站 https://flappy-bird-bnb2.vercel.app；NFT CA `0x1591f1ED9f3DBEC3a922Dc63F5782Daf17EEBA1E`（FLPNFT MAX=2000 totalMinted≈87 mintPrice=0）；Token `0xf15Ea9342ca12103aa158E65310ca2B84c35F149`（1B满铸、10%税、无LP）；score62（**免费LIVE必须收录+notify**）
+- **skips**: grok-agent（付费0.002BNB @Grok_Agent 粉0+Grok品牌撞车，DS score admit:false）；flutch（@Flutchdotfun Elysium/Arc 台 PREPARING/Nov11 无mint窗）；zhaocai（无官推硬门槛）；qagent（空站/假号 Charzardxpox）；helloagents（无官推续）；DUET（无官推付费）；BaseAI（Base非BN）；UF点名 localbottom/Nutshell/bscaidrop 无新；NF_skip 不连刷 Pulse/mobster/machine/starx/HashOre/usejackbay/**DubbllePadX**
+- **updates**: agent-harvest(tm≈3451 freeOpen=0 pause→14:34:48CST ≈0.83h **≤2h**)；**patch-agent(免费罄 freeGiven=1000/1000 cardsSold≈1009 paidSold≈9→paidLIVE)**；lastcall(free≈207)；onimaru(free≈993)；nullsector(≈3824)；baoracle(tm≈8605)；rootlinks(≈444)；hongbao(sold≈114)；agentbond-error(≈25)；agentix-studio(≈4/12000)；pawagent(≈115)；agentspunks(≈1581 免费罄)；eclipse-court(≈24/5555)；shalinggou(→19:00≈5.2h)；agent2(→20:00≈6.2h)；agent-yyds(→20:30≈6.7h)
+- **le2h**: true（**Harvest ≈0.83h** freeOpen仍0 升档；shalinggou/agent2/yyds均>2h）
+- **notify**: true
+- **alert**: R1111 新收录：FLAPPY 免费 NFT mint LIVE ≈87/2000（gas-only，1/钱包）@flappybnb https://flappy-bird-bnb2.vercel.app NFT 0x1591f1ED9f3DBEC3a922Dc63F5782Daf17EEBA1E Token 0xf15Ea9342ca12103aa158E65310ca2B84c35F149（10%税无LP）。PATCH 免费池已罄 freeGiven=1000/1000 cardsSold≈1009 paidSold≈9→付费档只报 @patchagentbnb。Harvest 仍 freeOpen=0 pause→14:34:48CST（约0.83h≤2h）升档盯开窗。面板 https://reboot7454.github.io/early-scout/
+- **ufCursor**: 191 → 206（wrap=false）；userFollowShardDone=true；点名软刷 @localbottomcom @NutshellMarkets @bscaidrop；NF_skip不刷 PulseLaunchpad/mobster_meme/machinedotfun/starx_xlayer/HashOre_BNB/usejackbay/**DubbllePadX**；分片多已在库
+- **tenLanesKeywords**: true（合并近30min 全量+BN Agent/fair mint/挖矿/打新/Elysium/Tape/GIWA/Nutshell/STARX/Pulse/free mint）
+- **mentionsChains**: Elysium / Tape / GIWA / squeek·X Layer / BN pads；Flutch Nov11 Elysium预告无mint窗；Ammora GIWA waitlist噪音；squeek 多为互动无新挂靠；禁只刷BN
+- **watchBugsFixed**: [flappy-bnb→UF+bnAgent+freeMint+agentPad]
+- **Discord**: discordPeekDeferred=true（无登录不尝试）
+- **push commit**: (pending)
+- **NF_skip**: TapeFractal, Leeonmort, computeroll, PulseLaunchpad, machinedotfun, mobster_meme, starx_xlayer, deadpacksol, blindfloor, trytoprint, PlayFarmFi, reynarlabs, world_ygg, battle_pad, cabaldotfun, project_hoodmon, GatorEyesSolada, keyhasp, AGENTICABOT, HashOre_BNB, usejackbay, **DubbllePadX**
+- **softDebt**: canton/glaze/tokenWorks + 各Watch lastChecked → 2026-11-02 13:45 CST
+- **deferredFullScan**: false
+- **notes**:
+  - 新收 1：FLAPPY 免费 NFT 极早须立刻提醒；Token 另合约税高无LP勿混。
+  - **PATCH 免费池本轮罄**→付费档只报；Harvest **≤2h** 下轮盯 14:34:48CST 开窗，若 freeOpen>0 立刻提醒。
+  - 下轮 R1112：UF从 **206** 续；Harvest 盯开窗；继续跟 flappy-bnb/patch-agent(付费)/lastcall/onimaru/nullsector/baoracle/rootlinks/hongbao/agentbond-error/agentix-studio；shalinggou 19:00 / agent2 20:00 / YYDS 20:30（临近≤2h升档）；mentions 轮换补 Zero/DogeEVM/Starknet/BTC/flap·Irys·Full·Arc/BN-pad；Discord deferred；xReads 控 softCap。
+  - grok-agent/flutch/zhaocai/qagent 本轮不收；helloagents 无官推续观察。
