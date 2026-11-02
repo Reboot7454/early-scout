@@ -21,7 +21,7 @@
 - **mentionsChains**: Elysium(@Enter_Elysium+kinetiq) / Tape / GIWA / squeek(@squeekchain) · X Layer（关键词；starx NF不连刷）/ BN pads；无强新挂靠；禁只刷BN
 - **watchBugsFixed**: [nullsector→bnAgentWatch+freeMintWatch+UF, jager→bnAgentWatch, shalinggou→UF]；新卡接入 agentPad+UF；hongbao/holly→bnAgent；hongbao/wraith→freeMint
 - **Discord**: discordPeekDeferred=true（无登录不尝试）
-- **push commit**: （待填）
+- **push commit**: 1a2dc95
 - **NF_skip**: TapeFractal, Leeonmort, computeroll, PulseLaunchpad, machinedotfun, mobster_meme, starx_xlayer, deadpacksol, blindfloor, trytoprint, PlayFarmFi, reynarlabs, world_ygg, battle_pad, cabaldotfun, project_hoodmon, GatorEyesSolada, keyhasp（本轮仅记不连刷）
 - **softDebt**: canton/glaze/tokenWorks + 各Watch lastChecked → 2026-11-02 11:43 CST
 - **deferredFullScan**: false
