@@ -20,7 +20,7 @@
 - **mentionsChains**: Elysium / Tape / GIWA / squeek·X Layer / BN pads；无强新挂靠（GIWA 多为 Ammora 等待名单噪音；Tape mentions 空；squeek Aura farm；starx_xlayer 仍 NF）；禁只刷BN
 - **watchBugsFixed**: [the-forge-en→+@THEFORGENFT_EN alias into bnAgent+agentPad；agentix-studio→bnAgent+freeMint+agentPad+UF；sensei→bnAgent+freeMint+agentPad+UF]
 - **Discord**: discordPeekDeferred=true（无登录不尝试）
-- **push commit**: (pending)
+- **push commit**: 4cbb93f
 - **NF_skip**: TapeFractal, Leeonmort, computeroll, PulseLaunchpad, machinedotfun, mobster_meme, starx_xlayer, deadpacksol, blindfloor, trytoprint, PlayFarmFi, reynarlabs, world_ygg, battle_pad, cabaldotfun, project_hoodmon, GatorEyesSolada, keyhasp, **AGENTICABOT**
 - **softDebt**: canton/glaze/tokenWorks + 各Watch lastChecked → 2026-11-02 12:48 CST
 - **deferredFullScan**: false
