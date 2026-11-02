@@ -20,7 +20,7 @@
 - **mentionsChains**: Zero / DogeEVM / Starknet / BTC / flap·Irys·Full·Arc / BN-pad；无强新挂靠（DogeOS→packswap_xyz 噪音；flap 多为 bstocks；BTC→tapebit/TopoSats 已知；BN mentions 弱）；禁只刷BN
 - **watchBugsFixed**: [patch-agent→UF+bnAgent+freeMint+agentPad；agentspunks→UF+bnAgent+freeMint+agentPad]
 - **Discord**: discordPeekDeferred=true（无登录不尝试）
-- **push commit**: (pending)
+- **push commit**: 3ec17d4
 - **NF_skip**: TapeFractal, Leeonmort, computeroll, PulseLaunchpad, machinedotfun, mobster_meme, starx_xlayer, deadpacksol, blindfloor, trytoprint, PlayFarmFi, reynarlabs, world_ygg, battle_pad, cabaldotfun, project_hoodmon, GatorEyesSolada, keyhasp, AGENTICABOT, **HashOre_BNB**, **usejackbay**
 - **softDebt**: canton/glaze/tokenWorks + 各Watch lastChecked → 2026-11-02 13:14 CST
 - **deferredFullScan**: false
