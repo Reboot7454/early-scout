@@ -40,7 +40,7 @@
 - mentionsChains: Elysium(@Enter_Elysium) · Tape(@TapeAIAgent) · GIWA(@GIWA_by_Upbit；Ammora 刷屏已在库) · squeek(@squeekchain+Nutshell) · BN pads(@Ptahtrade #ProofOfAgent) · X Layer(@starx_xlayer NF_skip 不连刷)；无强新挂靠录取
 - watchBugsFixed: lastcall → userFollowWatch+agentPadWatch+freeMintWatch+bnAgentWatch（+accounts/+candidateIds）
 - Discord: discordPeekDeferred=true（无登录，未尝试登录）
-- push commit: (pending)
+- push commit: a6501ff (data.json + RESULT_R1105.md)
 - NF_skip: TapeFractal; Leeonmort; computeroll; PulseLaunchpad; machinedotfun; mobster_meme; starx_xlayer; deadpacksol; blindfloor; trytoprint; PlayFarmFi; reynarlabs; world_ygg; battle_pad; cabaldotfun; project_hoodmon
 - softDebt: 已刷新各 Watch lastChecked（userFollowWatch/freeMintWatch/bnAgentWatch/agentPadWatch 及十栏相关 Watch + canton/glaze/tokenWorks）
 - deferredFullScan: false（本轮 ample 常规轮，非重置后首轮）
