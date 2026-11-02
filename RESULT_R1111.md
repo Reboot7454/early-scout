@@ -19,7 +19,7 @@
 - **mentionsChains**: Elysium / Tape / GIWA / squeek·X Layer / BN pads；Flutch Nov11 Elysium预告无mint窗；Ammora GIWA waitlist噪音；squeek 多为互动无新挂靠；禁只刷BN
 - **watchBugsFixed**: [flappy-bnb→UF+bnAgent+freeMint+agentPad]
 - **Discord**: discordPeekDeferred=true（无登录不尝试）
-- **push commit**: (pending)
+- **push commit**: 2f98d54
 - **NF_skip**: TapeFractal, Leeonmort, computeroll, PulseLaunchpad, machinedotfun, mobster_meme, starx_xlayer, deadpacksol, blindfloor, trytoprint, PlayFarmFi, reynarlabs, world_ygg, battle_pad, cabaldotfun, project_hoodmon, GatorEyesSolada, keyhasp, AGENTICABOT, HashOre_BNB, usejackbay, **DubbllePadX**
 - **softDebt**: canton/glaze/tokenWorks + 各Watch lastChecked → 2026-11-02 13:45 CST
 - **deferredFullScan**: false
