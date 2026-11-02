@@ -1,0 +1,28 @@
+# RESULT R1106
+
+- **round**: 1106 (prev 1105)
+- **mode**: ample
+- **softCap**: 28
+- **xReads**: 21
+- **remainingBefore**: ≈890 (live X API footer；meta旧959过时已纠)
+- **remaining**: ≈869
+- **newIds**: []
+- **admits**: 0
+- **skips**: SWARMHiveBNB(suspended); Tera/Hoodrai/RUNINAI/BNBbaby/nullsector/minterAgent/pixcade 均已在库；UF点名无新；mentions无强挂靠新号；SUAN mentions 仅抱怨/旧帖无新CREATE
+- **updates**: agent-harvest(tm≈3442 freeOpen=0 pause→14:34:48CST ≈3.52h非≤2h); lastcall(free≈150/1000); nullsector(≈2368); onimaru(free≈993/1000近罄); baoracle(≈7718); rootlinks(≈400/free≈398); pixcade(1548/free罄1500); jiepanfun(tm≈203); shalinggou(sharesSold=0→19:00CST≈7.9h); agent2(→20:00≈8.9h); agent-yyds(→20:30≈9.4h); jager(官推再开付费mint≈3.04USDT 只报); synklings(UF软刷+官网pages.dev)
+- **le2h**: false（Harvest仍≈3.52h；shalinggou/agent2/yyds均>2h）
+- **notify**: false
+- **alert**: （无）
+- **ufCursor**: 117 → 131（wrap=false）；userFollowShardDone=true；点名软刷 @localbottomcom @NutshellMarkets @bscaidrop；NF_skip不刷 PulseLaunchpad/mobster_meme/machinedotfun/starx_xlayer
+- **tenLanesKeywords**: true（合并近30–45min 全量一次；命中多为已入库 BN Agent/免费mint）
+- **mentionsChains**: Zero(LayerZero_Core 0结果) / DogeEVM(DogeOS) / Starknet / BTC隐私(ShieldedNaka) / flap·Irys(0)·Full.fun / BN-pad换号(SUANdotBID)；附带 squeek 已在UF点名；禁只刷BN
+- **watchBugsFixed**: []（lastcall 已在 R1105 入 UF+agentPad+freeMint+bnAgent；本轮无在库漏Watch）
+- **Discord**: discordPeekDeferred=true（无登录不尝试）
+- **push commit**: （写后填）
+- **NF_skip**: TapeFractal, Leeonmort, computeroll, PulseLaunchpad, machinedotfun, mobster_meme, starx_xlayer, deadpacksol, blindfloor, trytoprint, PlayFarmFi, reynarlabs, world_ygg, battle_pad, cabaldotfun, project_hoodmon（本轮仅记不连刷）
+- **softDebt**: canton/glaze/tokenWorks + 各Watch lastChecked → 2026-11-02 11:05 CST
+- **deferredFullScan**: false
+- **notes**:
+  - 无新收录；免费LIVE进度跟进 lastcall≈150、onimaru近罄、Harvest仍pause。
+  - 下轮 R1107：UF从 **131** 续；Harvest 约 **12:34CST** 后入≤2h须升档+notify+核验 freeOpen；继续跟 lastcall/onimaru/nullsector/baoracle/rootlinks；shalinggou 19:00 / agent2 20:00 / YYDS 20:30；mentions 轮换补 Elysium/Tape/GIWA/squeek·X Layer/BN pads；Discord deferred；xReads 控制在 softCap。
+  - jager 付费再开只告警不自动；BNBbaby/RUNINAI 已在库续跟。
