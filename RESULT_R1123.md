@@ -24,7 +24,7 @@
 - **mentionsChains**: Zero(LayerZero) / DogeEVM(DogeOS) / Starknet / BTC隐私(ShieldedNaka) / flap·Irys / BN Agent pad（无新可操作挂靠；ShieldedWizBTC 薄号未收）
 - **watchBugsFixed**: dotbots→freeMint+agentPad+bnAgent+UF；wayangx→freeMint（首铸免费LIVE）
 - **Discord**: discordPeekDeferred=true（本轮勿登录 DC）
-- **push commit**: (pending)
+- **push commit**: 3c31898
 - **NF_skip**: 沿用 + 本轮追加 Charzardxpox、Seethebsc、FlotyllOnRH、luckycatchgame、LongBaoLNB（Pulse/mobster/machine/starx 仍跳过不连刷）
 - **softDebt**: canton/glaze/tokenWorks + 各 Watch lastChecked → 本轮 CST
 - **deferredFullScan**: false
