@@ -1,0 +1,32 @@
+# RESULT R1116
+
+- **round**: 1116 (prev 1115)
+- **mode**: ample
+- **softCap**: 28
+- **xReads**: ≈8（UF分片266–280 + 点名软刷 bscaidrop/localbottom/Nutshell + tenLanes KW×3 + @BN_Big_Bang 核验 + mentions Zero/DogeEVM/Starknet/BTC/flap·Irys·Full·Arc/BN-pad + ResonaNFT/cryptosympbnb 核验；NF_skip 不连刷 Pulse/mobster/machine/starx；Liberate 仍无官推不收）
+- **remainingBefore**: ≈724（MCP 对齐上轮末；budget 脚本开跑≈843）
+- **remaining**: ≈716（MCP）；budget 脚本仍≈843（两套计数）
+- **newIds**: [resona, cryptosym]
+- **admits**: 2（DS score：resona overall73 admit；cryptosym overall64 admit；均官网+官推+免费LIVE→必须notify即便score<70）
+- **skips**: UF分片266–280除NF外全已在库；mentions Zero/DogeEVM/Starknet 近窗多为量子/噪声无硬新 affiliate mint；BTC banknotes_btc 已有叙事不新收；flap·Irys·Full·Arc 近窗无硬新挂靠；BN-pad 近窗无新；LIBERATE 缺可核验官推不收；BuildNBuild_ai 极薄不收
+- **updates**: **resona 新收 freeLIVE ≈92/5000 Agent ID首铸**；**cryptosym 新收 freeLIVE ≈15/3333 首铸免费**；**bn-big-bang 仍未开盘→17:00CST ≈0.75h≤2h sold=0 FREE=2000**；**qagent 免费猛增 ≈1889→≈3935/6666 仍 freeLIVE（过半）**；lucky-agent(free≈37/1000)；jadestx(tm≈30/4800)；flappy-bnb(≈591/2000 mintPrice=0)；**agent-harvest(freeOpen=0 仍关窗 phase7 tm≈4032 free≈3500 paid≈532 pause→19:42:42CST ≈3.46h >2h非升档)**；patch-agent(免费罄 cardsSold≈1013→付费只报)；gang-agent(tm≈1)；strata-ai(tm≈11 paused=1)；seethe-pad(tokenCount≈2)；lastcall(free≈210)；onimaru(tm≈1440 free≈1432)；nullsector(≈4321)；baoracle(≈8908)；rootlinks(≈461)；hongbao(sold≈169)；agentbond-error(≈29)；agentix-studio(≈9)；agentspunks(≈1585 免费罄)；shalinggou(→19:00≈2.75h)；agent2(→20:00≈3.75h)；agent-yyds(→20:30≈4.25h)
+- **le2h**: true（**bn-big-bang 17:00CST ≈0.75h**；排期三项与 Harvest pause 均>2h）
+- **notify**: true
+- **alert**: 1116期：新收 RESONA 免费LIVE≈92/5000，Agent ID 首铸 @ResonaNFT（resona-ai.pages.dev）；CRYPTOSYM 免费LIVE≈15/3333 首铸免费 @cryptosympbnb（cryptosim.online）。≤2h：BN Big Bang 17:00CST 开盘≈0.8h，FREE=2000 @BN_Big_Bang；QAGENT 免费猛增≈1889→3935/6666 仍LIVE @Charzardxpox。面板 https://reboot7454.github.io/early-scout/
+- **ufCursor**: 266 → 281（wrap=false）；userFollowShardDone=true；点名软刷 @bscaidrop @localbottomcom @NutshellMarkets；NF_skip不刷 PulseLaunchpad/mobster_meme/machinedotfun/starx_xlayer；分片 266–280 除 NF/suspended 外全已在库
+- **tenLanesKeywords**: true（合并近30min 全量+BN Agent/fair mint/挖矿/打新/Agent ID/AIDROP/Pulse/free mint/TapeOut/GIWA/DogeEVM/Starknet/Elysium/BIGBANG/GO盘 等）
+- **mentionsChains**: Zero / DogeEVM / Starknet / BTC隐私 / flap·Irys·Full·Arc / BN-pad；无硬新挂靠 mint；禁只刷BN
+- **watchBugsFixed**: []（resona/cryptosym 已写入 freeMintWatch+bnAgentWatch+agentPadWatch+userFollowWatch）
+- **Discord**: discordPeekDeferred=true（无登录不尝试）
+- **push commit**: (pending)
+- **NF_skip**: TapeFractal, Leeonmort, computeroll, PulseLaunchpad, machinedotfun, mobster_meme, starx_xlayer, deadpacksol, blindfloor, trytoprint, PlayFarmFi, reynarlabs, world_ygg, battle_pad, cabaldotfun, project_hoodmon, GatorEyesSolada, keyhasp, AGENTICABOT, HashOre_BNB, usejackbay, DubbllePadX, ponzihooks, swiprdotxyz, GlitchOnHood（本轮不连刷）
+- **softDebt**: canton/glaze/tokenWorks + 各Watch lastChecked → 本轮 CST
+- **deferredFullScan**: false
+- **notes**:
+  - **新收 RESONA**：BNB 链上动态波形 NFT 5000；.ai Agent ID 首铸免费(gas)；官网 https://resona-ai.pages.dev/ ；官推 @ResonaNFT（今日新建≈0粉）；CA `0x3Aea8F3aA68De46a7f892A43095750ae1e812DB9`；RPC tm≈92/5000 freeLIVE → **必须 notify**；DS overall73。
+  - **新收 CRYPTOSYM**：Genesis 卡 3333；每钱包首铸免费；官网 https://cryptosim.online/ ；官推 @cryptosympbnb≈23粉；CA `0x4D8d5947F5bEa17154Ff869dc512706ED9f2C100`（RPC name=CryptoSym MAX=3333 tm≈15）；score64&lt;70 但免费LIVE → **必须 notify**。
+  - **BN Big Bang**：仍未开盘 sold=0；**17:00 CST ≈0.75h≤2h** → le2h+notify；开盘后下轮立刻核验 freeMinted/可打。
+  - **QAGENT 免费猛增** ≈1889→≈3935/6666 仍 freeLIVE（过半）→ notify。
+  - Harvest 仍关窗 freeOpen=0，pause→19:42:42CST（≈3.46h >2h 非升档）。
+  - Liberate 缺可核验官推，本轮不收；下轮若出现官网+官推再评。
+  - 下轮 **R1117**：UF从 **281** 续；**Big Bang 17:00 开盘后立刻核验 freeMinted/是否可打/进度**；Harvest 跟 pause→19:42 是否临近≤2h/再开窗；续跟 qagent/resona/cryptosym/lucky/flappy/jadest/onimaru 等免费LIVE + patch/gang/strata 付费只报；shalinggou 19:00（临近升档）/ agent2 20:00 / YYDS 20:30；mentions 轮换补 Elysium/Tape/GIWA/squeek·X Layer/BN pads；Discord deferred；xReads 控 softCap。
