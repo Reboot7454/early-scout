@@ -18,7 +18,7 @@
 - **mentionsChains**: Elysium / Tape / GIWA / squeek·X Layer / BN pads；GIWA 多为 @AmmoraHQ waitlist 刷屏（已在库）；squeek 无硬新 affiliate mint；BN-pad @bscaidrop mentions 空；禁只刷BN
 - **watchBugsFixed**: []
 - **Discord**: discordPeekDeferred=true（无登录不尝试）
-- **push commit**: 4331889
+- **push commit**: 41d3d23
 - **NF_skip**: TapeFractal, Leeonmort, computeroll, PulseLaunchpad, machinedotfun, mobster_meme, starx_xlayer, deadpacksol, blindfloor, trytoprint, PlayFarmFi, reynarlabs, world_ygg, battle_pad, cabaldotfun, project_hoodmon, GatorEyesSolada, keyhasp, AGENTICABOT, HashOre_BNB, usejackbay, DubbllePadX, **ponzihooks, swiprdotxyz, GlitchOnHood**（本轮 UF 分片 suspended/NF）
 - **softDebt**: canton/glaze/tokenWorks + 各Watch lastChecked → 2026-11-02 14:39 CST
 - **deferredFullScan**: false
