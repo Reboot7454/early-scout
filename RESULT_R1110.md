@@ -1,0 +1,30 @@
+# RESULT R1110
+
+- **round**: 1110 (prev 1109)
+- **mode**: ample
+- **softCap**: 28
+- **xReads**: 34（略超 softCap pacing：UF分片+PATCH/AgentsPunks官推核验+点名软刷）
+- **remainingBefore**: ≈843（开跑 MCP 对齐；交接≈827）
+- **remaining**: ≈809
+- **newIds**: [patch-agent, agentspunks]
+- **admits**: 2（DeepSeek flash）
+  - patch-agent（PATCH @patchagentbnb）：**免费 LIVE** Agent ID fair mint；站 https://patchmint.pages.dev；Token `0xBbA053567846842F95C060867a5C9eb6b3983c80`；Sale `0xCaFa8f3563E1ACd57abe24C42663BD1D103651C3`；RPC cardsSold≈74/10000 freeGiven≈76/1000 paidSold=0 paused=0；前1000份每 Agent ID 免费，其后 USDT 阶梯1.2→2.0；score76（**免费LIVE必须收录+notify**）
+  - agentspunks（AgentsPunks @Agentspunks）：Agent-only NFT；站 https://agentspunks-data.pages.dev；CA `0xcf45210247aFBbDbEF4BFE8d5DbAFd2183F1E67e`；RPC tm≈1581/2222 freeMinted=1500（**免费池已罄**）；剩余≈641 付费0.0005BNB；score55；**付费只报不自动**
+- **skips**: aliens-labs（@aliens_labs ETH 烧毁 RH 免费 mint，无CA/非BN Agent，DS overall42 仅观察 skip）；helloagents（无官推硬门槛）；dither（付费薄续观察）；Critter/Shroomlets（无官推不收）；blood-agent 续非mint；UF点名 localbottom/Nutshell/bscaidrop 无新；NF_skip 不连刷 Pulse/mobster/machine/starx/HashOre/usejackbay
+- **updates**: agent-harvest(tm≈3450 freeOpen=0 pause→14:34:48CST ≈1.34h **≤2h**)；lastcall(free≈206/1000)；onimaru(free≈993近罄)；nullsector(≈3612)；baoracle(tm≈8503)；rootlinks(≈433)；hongbao(sold≈96)；agentbond-error(tm≈24/3333)；agentix-studio(≈2/12000)；wraith(≈916)；pawagent(sharesSold≈115)；shalinggou(→19:00CST≈5.76h)；agent2(→20:00≈6.76h)；agent-yyds(→20:30≈7.26h)
+- **le2h**: true（**Harvest ≈1.34h** freeOpen仍0 升档；shalinggou/agent2/yyds均>2h）
+- **notify**: true
+- **alert**: R1110 新收录：PATCH 免费 mint LIVE cardsSold≈74/10000 freeGiven≈76/1000（每 Agent ID 1 份免费）@patchagentbnb https://patchmint.pages.dev Token 0xBbA053567846842F95C060867a5C9eb6b3983c80 Sale 0xCaFa8f3563E1ACd57abe24C42663BD1D103651C3；AgentsPunks 免费池1500已罄 tm≈1581/2222 付费0.0005BNB只报 @Agentspunks https://agentspunks-data.pages.dev CA 0xcf45210247aFBbDbEF4BFE8d5DbAFd2183F1E67e。Harvest 免费窗 pause→14:34:48CST（约1.3h≤2h）freeOpen仍0，升档盯盘。面板 https://reboot7454.github.io/early-scout/
+- **ufCursor**: 176 → 191（wrap=false）；userFollowShardDone=true；点名软刷 @localbottomcom @NutshellMarkets @bscaidrop；NF_skip不刷 PulseLaunchpad/mobster_meme/machinedotfun/starx_xlayer/HashOre_BNB/usejackbay；分片全已在库无新
+- **tenLanesKeywords**: true（合并近30min 全量+BN Agent/PoW/fair mint/挖矿/打新；命中 PATCH/AgentsPunks/aliens_labs 等）
+- **mentionsChains**: Zero / DogeEVM / Starknet / BTC / flap·Irys·Full·Arc / BN-pad；无强新挂靠（DogeOS→packswap_xyz 噪音；flap 多为 bstocks；BTC→tapebit/TopoSats 已知；BN mentions 弱）；禁只刷BN
+- **watchBugsFixed**: [patch-agent→UF+bnAgent+freeMint+agentPad；agentspunks→UF+bnAgent+freeMint+agentPad]
+- **Discord**: discordPeekDeferred=true（无登录不尝试）
+- **push commit**: (pending)
+- **NF_skip**: TapeFractal, Leeonmort, computeroll, PulseLaunchpad, machinedotfun, mobster_meme, starx_xlayer, deadpacksol, blindfloor, trytoprint, PlayFarmFi, reynarlabs, world_ygg, battle_pad, cabaldotfun, project_hoodmon, GatorEyesSolada, keyhasp, AGENTICABOT, **HashOre_BNB**, **usejackbay**
+- **softDebt**: canton/glaze/tokenWorks + 各Watch lastChecked → 2026-11-02 13:14 CST
+- **deferredFullScan**: false
+- **notes**:
+  - 新收 2：PATCH 免费极早须立刻跟进度/可打；AgentsPunks 免费罄付费只报。Harvest **≤2h** 下轮盯 14:34CST 开窗，若 freeOpen>0 立刻提醒。
+  - 下轮 R1111：UF从 **191** 续；Harvest 盯 14:34:48CST 开窗；继续跟 patch-agent/lastcall/onimaru/nullsector/baoracle/rootlinks/hongbao/agentbond-error/agentix-studio；shalinggou 19:00 / agent2 20:00 / YYDS 20:30（临近≤2h升档）；mentions 轮换补 Elysium/Tape/GIWA/squeek·X Layer/BN pads；Discord deferred；xReads 控 softCap。
+  - helloagents/Critter/Shroomlets 无官推本轮不收；aliens-labs 无CA观察；dither 极薄付费观察。
