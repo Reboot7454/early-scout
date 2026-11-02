@@ -22,7 +22,7 @@
 - **mentionsChains**: Zero / DogeEVM / Starknet / BTC / flap·Irys·Full·Arc / BN-pad；Starknet 多为 L1 探索噪音；BN-pad @Ptahtrade 多为 ProofOfAgent 刷屏无新挂靠 mint；Irys/Full/Arc/BTC 关键词无硬新 affiliate；禁只刷BN
 - **watchBugsFixed**: [lucky-agent/jadestx/gang-agent/strata-ai → UF+bnAgent+agentPad；（lucky/jadest→freeMint）]
 - **Discord**: discordPeekDeferred=true（无登录不尝试）
-- **push commit**: (pending)
+- **push commit**: b040936
 - **NF_skip**: TapeFractal, Leeonmort, computeroll, PulseLaunchpad, machinedotfun, mobster_meme, starx_xlayer, deadpacksol, blindfloor, trytoprint, PlayFarmFi, reynarlabs, world_ygg, battle_pad, cabaldotfun, project_hoodmon, GatorEyesSolada, keyhasp, AGENTICABOT, HashOre_BNB, usejackbay, DubbllePadX, CilokCatsBSC
 - **softDebt**: canton/glaze/tokenWorks + 各Watch lastChecked → 2026-11-02 14:16 CST
 - **deferredFullScan**: false
