@@ -18,7 +18,7 @@
 - **mentionsChains**: Elysium/kinetiq / Tape / GIWA / squeek·Nutshell / X Layer·STARX（无命中）/ BN-pad
 - **watchBugsFixed**: R1118 DC 新收 loca-near/fallpit/safureload/banipool/inkbananas/elysatrade → userFollowWatch；orbitagentid → agentPad/bnAgent/userFollowWatch；新卡 agent-panda → freeMint/bnAgent/agentPad/userFollow，buildnbuild → bnAgent/agentPad/userFollow
 - **Discord**: discordPeekDeferred=true（不登录）
-- **push commit**: (fill)
+- **push commit**: 20d5d11
 - **NF_skip**: 同 R1116 列表（本轮不连刷）
 - **softDebt**: canton/glaze/tokenWorks + 所有 Watch lastChecked → 本轮 CST
 - **deferredFullScan**: false
