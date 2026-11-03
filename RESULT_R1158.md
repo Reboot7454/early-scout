@@ -1,0 +1,209 @@
+# RESULT R1158
+
+completedAt: 2026-11-04 02:28 CST
+notify: true
+
+```json
+{
+  "round": 1158,
+  "mode": "pace",
+  "completedAt": "2026-11-04 02:28 CST",
+  "notify": true,
+  "notifyReason": "新收录6项且based≤2h FREE窗仍开，按规则notify必须true",
+  "alertMessage": "R1158 新收录6项：digital-bomb 14:30CST开铸、elysianpad LIVE；based FREE窗至05:59CST仍开。面板：https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "digital-bomb",
+    "elysianpad",
+    "forge-bnb",
+    "elys-inscribe",
+    "elychest-fun",
+    "glasstrades"
+  ],
+  "newAdmits": [
+    {
+      "id": "digital-bomb",
+      "handle": "@DigitalBombAI",
+      "score": 86,
+      "note": "今日14:30CST开铸 · 站已开"
+    },
+    {
+      "id": "elysianpad",
+      "handle": "@Elysianpad",
+      "score": 82,
+      "note": "LIVE · CA已公 · 可桥HYPE发射"
+    },
+    {
+      "id": "forge-bnb",
+      "handle": "@forge_bnb",
+      "score": 55,
+      "note": "FREE mint soon · 时间未定"
+    },
+    {
+      "id": "elys-inscribe",
+      "handle": "@elys_inscribe",
+      "score": 76,
+      "note": "On testnet · Genesis21000"
+    },
+    {
+      "id": "elychest-fun",
+      "handle": "@ElyChestFun",
+      "score": 67,
+      "note": "Announced · testnet跑通 · 开发中"
+    },
+    {
+      "id": "glasstrades",
+      "handle": "@glasstrades_xyz",
+      "score": 64,
+      "note": "Announced · Nov9 testnet"
+    }
+  ],
+  "freeLiveAdmits": [],
+  "freeMintSoonAdmits": [
+    {
+      "id": "digital-bomb",
+      "handle": "@DigitalBombAI",
+      "note": "今日14:30CST开铸；前800免费/Agent ID"
+    },
+    {
+      "id": "forge-bnb",
+      "handle": "@forge_bnb",
+      "note": "5000 robots FREE mint soon"
+    },
+    {
+      "id": "erupt-fun",
+      "handle": "@eruptdottfun",
+      "note": "4444 Genesis FREE约24h；WL已开"
+    },
+    {
+      "id": "agentfleet",
+      "handle": "@agentfleetbnb",
+      "note": "今日17:00CST Gen0"
+    },
+    {
+      "id": "panba-emoji",
+      "handle": "@Panba_EmojiPack",
+      "note": "今日20:30CST 前2000免费"
+    },
+    {
+      "id": "amber-pow",
+      "handle": "@AmberPoW_BSC",
+      "note": "今日21:00CST PoW开挖"
+    }
+  ],
+  "paidOnly": [
+    {
+      "id": "agent-zero",
+      "handle": "@AgentZero_bnb",
+      "note": "FREE罄；paid≈354；付费尾只报"
+    },
+    {
+      "id": "agentzet",
+      "handle": "@agentzetNFT",
+      "note": "免费罄；付费尾只报"
+    },
+    {
+      "id": "monke-agents",
+      "handle": "@MonkeAGENTS",
+      "note": "free罄；付费只报"
+    },
+    {
+      "id": "elys-worlds",
+      "handle": "@ElysWorldsnft",
+      "note": "付费LIVE ~703/3030@0.01 HYPE"
+    }
+  ],
+  "le2h": [
+    "litbnb",
+    "agio",
+    "suoha",
+    "bianlingdi",
+    "agentcardshq",
+    "npcshood",
+    "based-agent",
+    "chessgenesis",
+    "dinomitesnft",
+    "agent-zero",
+    "agentzet",
+    "monke-agents"
+  ],
+  "le2hNote": "litbnb owners≈281；based freeClaim≈317 窗至05:59CST；erupt WL≈24h；agentfleet17:00；panba20:30；amber21:00；agio/suoha/bianlingdi/agentcardshq/npcshood≈35/chessgenesis/dinomites≈242仍LIVE；agent-zero/agentzet/monke/elys-worlds付费尾只报",
+  "le2hActionable": true,
+  "progress": {
+    "litbnb": "FREE LIVE ≈281/444 · api owners",
+    "agio": "FREE MINT LIVE · Community Free仍开",
+    "suoha": "FREE LIVE 前1000/10000",
+    "bianlingdi": "FREE500土地仍可铸 LIVE",
+    "agentcardshq": "Genesis免费仍开",
+    "npcshood": "≈35/10000 mint LIVE（沿用）",
+    "based-agent": "FREE-WINDOW-OPEN · freeClaim≈317 · 窗至≈05:59CST",
+    "chessgenesis": "FREE LIVE Genesis Phase1",
+    "dinomitesnft": "≈242/5555 FREE仍开（沿用）",
+    "agent-zero": "FREE罄 · paid≈354 · 付费尾只报",
+    "agentzet": "付费尾只报",
+    "monke-agents": "free罄 · paid只报",
+    "agentfleet": "Gen0 今日17:00CST",
+    "panba-emoji": "前2000免费 今日20:30CST",
+    "erupt-fun": "FREE mint soon · WL · 约24h",
+    "elys-worlds": "付费LIVE ~703/3030 · 0.01 HYPE",
+    "amber-pow": "今日21:00CST开挖",
+    "arena-elysium": "Announced · 无CA",
+    "digital-bomb": "今日14:30CST开铸",
+    "elysianpad": "LIVE · CA已公",
+    "forge-bnb": "FREE mint soon",
+    "elys-inscribe": "On testnet · Genesis21000",
+    "elychest-fun": "Announced · testnet跑通",
+    "glasstrades": "Announced · Nov9 testnet"
+  },
+  "skipped": {
+    "UF58-72": "软刷推进cursor；片内几乎已收录；NF skip @blindfloor/@trytoprint（不重试）",
+    "dna-eater": "Walt刷屏付费DNA；沿用R1157 skip",
+    "fanbei": "无官推；pendingUserDecision沿用",
+    "ammora": "已在giwaWatch；GIWA mentions多为Ammora刷屏不另收",
+    "horror-protocol": "Walt_asia刷屏CA；无清晰独立官推，跳过"
+  },
+  "pendingUserDecision": [
+    {
+      "id": "fanbei",
+      "note": "无官推；是否补库待拍板（沿用前轮）"
+    }
+  ],
+  "xReads": 27,
+  "remainingBefore": 543,
+  "remaining": 516,
+  "softCap": 28,
+  "ufCursor": {
+    "from": 58,
+    "to": 72
+  },
+  "tenLanesFull": true,
+  "userFollowDone": true,
+  "mentionsCovered": [
+    "Elysium/Enter_Elysium mentions",
+    "TapeAIAgent mentions",
+    "GIWA/Ammora mentions",
+    "BN Agent free mint KW",
+    "Elysium+Tape+GIWA+DogeEVM KW merge",
+    "PoW/squeek/Starknet/BTC KW",
+    "must-watch ≤2h (BasedAgent/LitBNB/erupt)"
+  ],
+  "mentionsChains": [
+    "Elysium",
+    "Tape",
+    "GIWA",
+    "BN Agent pads",
+    "Starknet/BTC/PoW",
+    "squeek"
+  ],
+  "discordPeekDeferred": true,
+  "dsNote": "deepseek-flash；admit digital-bomb86/elysianpad82/elys-inscribe76/elychest-fun67/glasstrades64/forge-bnb55；thinking ON；alert用thinking OFF短呼；JSON长答曾截断故admit字段由DS分数落地",
+  "watchBugsFixed": [
+    "admit digital-bomb/elysianpad/forge-bnb/elys-inscribe/elychest-fun/glasstrades",
+    "elychest旧卡标注superseded→elychest-fun",
+    "bump cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/+lanes lastChecked",
+    "userFollowWatch.cursor 58→72",
+    "litbnb owners≈281；based freeClaim≈317窗仍开"
+  ],
+  "pushSha": null,
+  "FANBEI": "pending no official X"
+}
+```
