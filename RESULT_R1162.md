@@ -16,7 +16,7 @@
 - **discordPeekDeferred**: true
 - **dsNote**: deepseek-flash；blurb78；dispersa73；usewoop72；无dsFallback
 - **FANBEI**: still pendingUserDecision（无官推）
-- **pushSha**: `PENDING`
+- **pushSha**: `85fb5c4281b3f5e278ce609168e3038a3d0703d8`
 
 ## summary
 R1162 pace/softCap28: admit blurb (BNB free WL mint score78) + dispersa-labs (Elysium waitlist score73) + usewoop (Solana FairBlock pad score72). based FREE to ~05:59CST freeClaim≈359; litbnb/agio/suoha/merklewood/bbf FREE LIVE. UF140→168. KW ten-lane + mentions GIWA/Doge/squeek/Nutshell/Tape. discordPeekDeferred=true. xReads≈21.
