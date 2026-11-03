@@ -18,7 +18,7 @@
 - **dsNote**: deepseek-flash+think；luna-birds56 admit；无dsFallback
 - **FANBEI**: still pendingUserDecision（无官推）
 - **watchFixes**: luna-birds→freeMintWatch+agentPadWatch；Canton/Glaze/TokenWorks soft lastChecked；UF280→296；unbroken→3507/10000；digital-bomb CA确认
-- **pushSha**: `(pending)`
+- **pushSha**: `1d6a502`
 
 ## summary
 R1170 pace/softCap28: admit luna-birds (@Luna_Birds BNB pixel owls FREE-first LIVE score56, 663/10000). based FREE to ~05:59CST ≤2h; litbnb/agio/suoha/dinomites/merklewood FREE LIVE; merklewood Launchpad 16:00CST; digital-bomb 14:30; panba 20:30; amber-pow dig 21:00CST. UF280→296. Mentions Tape+Doge+XLayer+GIWA. discordPeekDeferred=true. xReads=38 (MCP rem 371→333).
