@@ -98,6 +98,6 @@
     "bububullfun"
   ],
   "dsNote": "deepseek-flash score3(admit3 lumen/estock/pixel-boyz)；alert DS+本地PANEL替换",
-  "pushSha": null
+  "pushSha": "1f92e98"
 }
 ```
