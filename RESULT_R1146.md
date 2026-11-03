@@ -80,6 +80,6 @@
   ],
   "discordPeekDeferred": true,
   "dsNote": "deepseek-flash+thinking；alert OK；LIVE whatsNew/progress DS；无新admit；score批量解析失败已本地+DS短句兜底",
-  "pushSha": null
+  "pushSha": "35e029231ea7f4b56dabb1ebbe10877453244623"
 }
 ```
