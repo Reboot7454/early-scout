@@ -18,7 +18,7 @@
 - **dsNote**: deepseek-flash；etherea-genesis70 admit；elywizardz38 skip；dgf-card45 skip；无dsFallback
 - **FANBEI**: still pendingUserDecision（无官推）
 - **watchFixes**: etherea-genesis→UF+elysiumWatch+kinetiqWatch；Canton/Glaze/TokenWorks soft lastChecked refresh
-- **pushSha**: `76effbf`
+- **pushSha**: `588856e`
 
 ## summary
 R1167 pace/softCap28: admit etherea-genesis (Elysium 2500 NFT Announced T-7 score70). based FREE to ~05:59CST ≤2h; litbnb/agio/suoha/dinomites/merklewood FREE LIVE; merklewood Launchpad 16:00CST; digital-bomb 14:30; amber-pow dig 21:00CST. Skip elywizardz/dgf-card. UF232→248. Mentions Elysium/BTC/Starknet/BN/XLayer. discordPeekDeferred=true. xReads=21 (MCP rem 518→497).
