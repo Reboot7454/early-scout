@@ -1,0 +1,114 @@
+# R1144 早期打新雷达
+
+【R1144】新收2：梭哈SUOHA（前1000免费刚开LIVE）、币安领地（500免费地上线）；≤2h：AgentCards Genesis仍开、Based Agent免费窗(claim bug)、npcshood仍LIVE、Agio开铸窗。面板 https://reboot7454.github.io/early-scout/
+
+```json
+{
+  "round": 1144,
+  "mode": "ample",
+  "completedAt": "2026-11-03 22:25 CST",
+  "notify": true,
+  "notifyReason": "新收2 suoha/bianlingdi（均免费LIVE）+ AgentCards Genesis仍开 + based-agent免费窗 + npcshood LIVE + agio开铸窗",
+  "alertMessage": "【R1144】新收2：梭哈SUOHA（前1000免费刚开LIVE）、币安领地（500免费地上线）；≤2h：AgentCards Genesis仍开、Based Agent免费窗(claim bug)、npcshood仍LIVE、Agio开铸窗。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "suoha",
+      "name": "梭哈 SUOHA",
+      "handle": "@suoha168",
+      "type": "BNB Agent ID fair launch free+paid",
+      "progress": "FREE LIVE 前1000/10000；阶梯0.0018→0.0030BNB",
+      "contract": "0x58055F6535b6bF7B33123521A905C61afbd99406",
+      "token": "0x666B91Ba860F40E2732954c004f9d1dBd501D1b2",
+      "site": "https://suohaallin.pages.dev",
+      "score": 77
+    },
+    {
+      "id": "bianlingdi",
+      "name": "币安领地",
+      "handle": "@bianlingdi",
+      "type": "BNB Agent land freeLIVE + paid plots",
+      "progress": "FREE LIVE 500免费地/身份限1；付费2000×0.01BNB",
+      "contract": null,
+      "site": null,
+      "score": 66
+    }
+  ],
+  "freeLiveAdmits": ["suoha", "bianlingdi"],
+  "freeMintSoonAdmits": [],
+  "paidOnly": [
+    {
+      "id": "monke-agents",
+      "handle": "@MonkeAGENTS",
+      "note": "免费罄后续更付费0.0005BNB"
+    },
+    {
+      "id": "dropminters",
+      "handle": "@DropMinters",
+      "note": "PoW免费+付费0.005BNB UF续盯（已收录）"
+    }
+  ],
+  "le2h": ["suoha", "bianlingdi", "agentcardshq", "agio", "npcshood", "based-agent"],
+  "le2hNote": "梭哈/币安领地免费刚开；AgentCards Genesis仍开（Founder秒罄）；Based Agent免费窗claim bug；npcshood仍LIVE；Agio开铸窗口已到",
+  "progress": {
+    "suoha": "FREE LIVE 前1000/10000",
+    "bianlingdi": "FREE LIVE 500免费地",
+    "agentcardshq": "Genesis仍开 · 官宣≈1855铸 / Founder1000罄",
+    "agio": "宣称22:00CST开铸；官推给prompt路径",
+    "npcshood": "仍LIVE 约数十/10000",
+    "based-agent": "FREE LIVE≈25/10000 claim bug",
+    "monke-agents": "825+/3333 free罄 付费0.0005BNB",
+    "unbroken-bnb": "≈3438/10000",
+    "agent-pass": "≈2300/10000",
+    "starstone": "≈85/4444 仍LIVE",
+    "famuli": "免费铸宣称仍开",
+    "agent-acres": "gate closed 日期待官宣",
+    "dropminters": "PoW free + paid 0.005BNB 续盯",
+    "squeekchain": "Sepolia Test续 Genesis未开",
+    "tapeai": "产品文更新 非Elysium"
+  },
+  "skipped": {
+    "onbeatfun": "UF NotFound 不重试",
+    "beatdotfamily": "UF NotFound 不重试",
+    "lettucegrow_RH": "0推文空号跳过读帖",
+    "CheckHoodWink": "0推文跳过",
+    "Czidagent": "10/31已SOLD OUT 不新收",
+    "EruptDotFun": "近7日无帖/不足Elysium On testnet证据 不收",
+    "pacture": "无官推@pacture NotFound；WAGAgent代发不单列",
+    "FANBEI": "无官推待拍板不重复问",
+    "HORNYHOODNFT": "已在库 watching；RH FCFS钱包征集非BNB Agent主线本轮不升格",
+    "GoldAgent挖矿": "已有goldagent卡；KOL挖矿软广未核官推新窗"
+  },
+  "pendingUserDecision": [
+    "FANBEI/ZangAI/Neonpurrix 无官推 无变化不重复问",
+    "WEBBY 免费LIVE无官推是否破例？",
+    "币安领地缺官网URL是否仍跟打"
+  ],
+  "watchBugsFixed": [
+    "新收 suoha / bianlingdi 写入 agentPadWatch + freeMintWatch",
+    "R1143三卡 newThisRound 已清；canton/glaze/tokenWorks lastChecked 软刷"
+  ],
+  "xReads": 33,
+  "remainingBefore": 783,
+  "remaining": 750,
+  "softCap": 40,
+  "modeDetail": "ample; MCP footer remaining used for pacing",
+  "ufCursor": {
+    "from": 640,
+    "to": 660
+  },
+  "tenLanesFull": true,
+  "tenLanesNote": "合并KW覆盖 打新/AgentID免费、Elysium、Tape/GIWA/DogeEVM·LZ·Starknet·BTC/X Layer、BN pads/挖矿；额度内跑全",
+  "mentionsCovered": [
+    "Elysium/OpenSea (@Enter_Elysium)",
+    "BN Agent pads (@BuildNBuild_ai)",
+    "Tape (@TapeAIAgent)",
+    "squeek (@squeekchain)",
+    "GIWA (@GIWA_by_Upbit via KW)",
+    "flap (@flapdotsh via KW)",
+    "BTC/Starknet/X Layer KW"
+  ],
+  "discordPeekDeferred": true,
+  "pushTargets": ["data.json", "RESULT_R1144.md"],
+  "dsNote": "deepseek-flash thinking ON via ds_batch_score；suoha=77 admit / bianlingdi=66 admit；无dsFallback"
+}
+```
