@@ -1,0 +1,94 @@
+{
+  "round": 1147,
+  "mode": "ample",
+  "completedAt": "2026-11-03 23:05 CST",
+  "notify": true,
+  "notifyReason": "新收 agent-zero 免费mint≤1h@00:00CST（score58仍须提醒）+ ≤2h LIVE续盯",
+  "alertMessage": "【R1147】新收 agent-zero（前500免费 ≤1h@00:00CST score58）；≤2h：agio FREE LIVE、suoha 前1000免费LIVE、bianlingdi 500免费地LIVE、agentcardshq Genesis仍开、npcshood仍LIVE、based-agent claim故障、agentzet 付费尾仓≈321。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "agent-zero",
+      "handle": "@AgentZero_bnb",
+      "score": 58,
+      "note": "前500 Agent ID免费 · 11/4 00:00CST开 · 付费4500@0.001BNB · CA 0x5A67…67c43 · 站 agentzero-ai.vercel.app"
+    }
+  ],
+  "freeLiveAdmits": [],
+  "freeMintSoonAdmits": [
+    "agent-zero"
+  ],
+  "paidOnly": [
+    {
+      "id": "agentzet",
+      "handle": "@agentzetNFT",
+      "note": "免费4000罄；付费尾仓≈321@0.001BNB；$AZT；只报不自动打"
+    },
+    {
+      "id": "based-agent",
+      "handle": "@BasedAgentBSC",
+      "note": "免费资格检查器故障；付费铸造仍开"
+    }
+  ],
+  "le2h": [
+    "agent-zero",
+    "agio",
+    "suoha",
+    "bianlingdi",
+    "agentcardshq",
+    "npcshood",
+    "based-agent",
+    "agentzet"
+  ],
+  "le2hNote": "Agent Zero 00:00CST开免费；Agio/梭哈/币安领地/AgentCards/npcshood 免费仍开；Based Agent claim bug；Agent Zet付费尾仓",
+  "progress": {
+    "agent-zero": "前500免费 · 00:00 CST 开铸 · 付费4500@0.001BNB",
+    "agio": "FREE MINT NOW LIVE · Agent ID×1 · 10k · RPC已升级",
+    "suoha": "FREE LIVE 前1000/10000；X认购已开·站侧静态0",
+    "bianlingdi": "FREE LIVE 500免费地；站侧≈0/2500",
+    "agentcardshq": "Genesis免费仍开 · Founder罄 · ≈1855+/8k+",
+    "npcshood": "仍LIVE · 约数十/10000",
+    "based-agent": "FREE claim checker outage；付费仍开",
+    "agentzet": "免费4000罄 · 付费尾仓≈321 @0.001BNB · $AZT"
+  },
+  "skipped": {
+    "starx_xlayer": "Not Found 不重试",
+    "mobster_meme": "Not Found 不重试",
+    "heyribbid": "Not Found 不重试",
+    "certuna_rh": "Not Found 不重试",
+    "FANBEI": "无官推 pendingUserDecision 未补库",
+    "Droidneon": "无官推（仅@XiaoMei_laika旁报）未收",
+    "UF700-719": "已入库续刷无新卡（3 NF: useapppayfun/CyclopesElysium/elyword_xyz）",
+    "UpGo/hamieverse/mame": "待核验未收"
+  },
+  "pendingUserDecision": [
+    {
+      "id": "fanbei",
+      "note": "无官推；是否补库待拍板（沿用前轮）"
+    }
+  ],
+  "xReads": 36,
+  "remaining": 837,
+  "remainingBefore": 873,
+  "remainingBudgetScript": 750,
+  "softCap": 40,
+  "ufCursor": {
+    "from": 700,
+    "to": 720
+  },
+  "tenLanesFull": true,
+  "mentionsCovered": [
+    "Elysium/kinetiq",
+    "Tape",
+    "squeekchain",
+    "Starknet",
+    "GIWA",
+    "Flap/Irys",
+    "DogeOS/DogeEVM",
+    "ShieldedNaka/BTC privacy",
+    "NutshellMarkets",
+    "BN Agent pads/≤2h"
+  ],
+  "discordPeekDeferred": true,
+  "dsNote": "deepseek-flash+thinking；admit/score agent-zero overall58 admit=true；≤2h whatsNew/progress DS；alert DS短句已扩写面板链接",
+  "pushSha": "PENDING"
+}
