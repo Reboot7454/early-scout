@@ -1,0 +1,123 @@
+{
+  "round": 1140,
+  "mode": "ample",
+  "completedAt": "2026-11-03 21:04 CST",
+  "notify": true,
+  "notifyReason": "新收3 launchova/archerswap-elysium/narupay + npcshood LIVE + agentcardshq/agio≈1h开铸",
+  "alertMessage": "【R1140】新收3：Launchova（RH发射台，明日15:00UTC产品+代币）、ArcherSwap Elysium（DEX迁移，测试网+ARW IDO）、NaruPay（GIWA Sepolia KOL托管结算LIVE）；近2h：npcshood仍LIVE免费0.0001BNB≈24/10000，agentcardshq与agio免费铸今日22:00CST≈1h。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "launchova",
+      "name": "Launchova",
+      "handle": "@Launchovaxyz",
+      "type": "Robinhood launchpad via Pons",
+      "progress": "product+token Nov4 15:00 UTC",
+      "contract": null,
+      "site": null,
+      "score": 72
+    },
+    {
+      "id": "archerswap-elysium",
+      "name": "ArcherSwap",
+      "handle": "@archerswapcore",
+      "type": "Elysium DEX relaunch + ARW IDO",
+      "progress": "On testnet; IDO announced",
+      "contract": null,
+      "site": null,
+      "score": 78
+    },
+    {
+      "id": "narupay",
+      "name": "NARU Pay",
+      "handle": "@narupay_com",
+      "type": "GIWA KOL ad escrow settlement",
+      "progress": "live on GIWA Sepolia",
+      "contract": null,
+      "site": null,
+      "score": 66
+    }
+  ],
+  "freeLiveAdmits": [],
+  "freeMintSoonAdmits": [
+    "agio",
+    "agentcardshq"
+  ],
+  "paidOnly": [],
+  "le2h": [
+    "npcshood",
+    "agentcardshq",
+    "agio"
+  ],
+  "le2hNote": "NPC HOOD仍LIVE free0.0001BNB≈24/10000；Agent Cards与AGIO免费铸均今日22:00 CST（≈1h）；AEGIS token窗=今日20:00UTC非≤2h；Launchr/Launchova明日非≤2h",
+  "progress": {
+    "unbroken-bnb": "官宣>3000/≈30%",
+    "npcshood": "≈24/10000 仍LIVE + PATRON",
+    "goldagent": "池≈22% LIVE挖矿",
+    "lumen-genesis": "仍LIVE gas-only",
+    "inkwell-on-bnb": "Reveal完成 Public至11/4 14:00CST",
+    "heroes-elysium": "Obol免费 Nov4 18:00CET",
+    "launchr": "改期11/4 17:00UTC RH",
+    "aegisterminal": "Terminal live；$AEGIS 11/3 20:00UTC",
+    "agio": "免费铸今日22:00CST",
+    "agentcardshq": "免费铸今日22:00CST 预注册197"
+  },
+  "skipped": {
+    "zerodroids": "0推文/8粉 DS skip",
+    "vault-gent": "同日1粉流水号 DS skip",
+    "neon-mkj": "同日0粉 DS skip",
+    "orzo": "同日0粉1推 DS skip",
+    "lighthouse-agents": "成熟品牌非早期 DS skip",
+    "bibiainft": "UF分片 Not Found 不连刷"
+  },
+  "pendingUserDecision": [
+    "FANBEI/ZangAI/Neonpurrix 无官推 无变化不重复问",
+    "Foxagent 无官推 有合约是否破例收？"
+  ],
+  "watchBugsFixed": [],
+  "watchAdds": [
+    "@Launchovaxyz→UF/agentPadWatch",
+    "@archerswapcore→UF/elysiumWatch/kinetiqWatch",
+    "@narupay_com→UF/giwaWatch"
+  ],
+  "updatedCards": [
+    "agio",
+    "agentcardshq",
+    "npcshood",
+    "unbroken-bnb",
+    "goldagent",
+    "inkwell-on-bnb",
+    "lumen-genesis",
+    "heroes-elysium",
+    "launchr",
+    "aegisterminal"
+  ],
+  "xReads": 36,
+  "softCap": 39,
+  "remainingBefore": 863,
+  "remaining": 827,
+  "ufCursor": {
+    "from": 560,
+    "to": 580
+  },
+  "tenLanes": true,
+  "tenLanesCoverage": [
+    "打新",
+    "挖矿",
+    "台子/Meme",
+    "GO盘",
+    "LayerZero",
+    "Elysium",
+    "Tape/电路",
+    "GIWA",
+    "DogeEVM",
+    "BTC",
+    "Starknet"
+  ],
+  "mentionsChains": [
+    "Elysium"
+  ],
+  "discordPeekDeferred": true,
+  "dsNote": "admit+score+alert via deepseek-flash；无dsFallback",
+  "pushSha": null,
+  "noMintNoTransfer": true
+}
