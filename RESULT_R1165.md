@@ -18,7 +18,7 @@
 - **dsNote**: deepseek-flash；dither-glyphs72 admit；hexis33 skip；elysium-eco22 skip；无dsFallback
 - **FANBEI**: still pendingUserDecision（无官推）
 - **watchFixes**: dither-glyphs→UF+agentPadWatch；Canton/Glaze/TokenWorks soft lastChecked refresh
-- **pushSha**: `(pending)`
+- **pushSha**: `e5d242c`
 
 ## summary
 R1165 pace/softCap28: admit dither-glyphs (BNB Agent ID on-chain pixel NFT LIVE score72 ~$0.35 ~6/10k). based FREE to ~05:59CST ≤2h; litbnb/agio/suoha/dinomites/merklewood FREE LIVE; merklewood Launchpad 16:00CST; digital-bomb 14:30; amber-pow dig 21:00CST. Skip hexis/elysium-eco. UF200→216. Mentions Elysium/BTC/Starknet/BN. discordPeekDeferred=true. xReads≈28 (MCP rem 547→519).
