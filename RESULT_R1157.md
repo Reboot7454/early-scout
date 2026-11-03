@@ -151,7 +151,7 @@ notify: true
     "userFollowWatch.cursor 38→58",
     "litbnb CA 对齐 mint 0x0A86…5Ec5（registry保留）"
   ],
-  "pushSha": null,
+  "pushSha": "fdffbbd5929694fc4938ab98b4dacf2bc0fed30a",
   "FANBEI": "pending no official X"
 }
 ```
