@@ -1,0 +1,117 @@
+{
+  "round": 1166,
+  "mode": "pace",
+  "softCap": 28,
+  "completedAt": "2026-11-04 04:45 CST",
+  "notify": true,
+  "notifyReason": "真新收录 mirror-agent / belos / agentic-pad；based FREE窗≤2h（≈05:59CST）",
+  "alertMessage": "R1166 新收录 MirrorPad（@mirroragent Elysium+RH 双链V4 hook发射台 LIVE score76）、Belos（@BelosElysium Elysium HYPE流动性vault testnet score68）、Agentic Pad（@agentic_pad RH AI-agent发射台 LIVE score74）；based FREE窗至≈05:59CST仍开（≤2h）；litbnb/agio/suoha/dinomites/merklewood等FREE LIVE；merklewood Launchpad今日16:00CST；digital-bomb14:30；琥珀币21:00CST开挖；面板 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "mirror-agent",
+    "belos",
+    "agentic-pad"
+  ],
+  "newAdmits": [
+    {
+      "id": "mirror-agent",
+      "handle": "@mirroragent",
+      "score": 76,
+      "note": "Elysium+RH MirrorPad LIVE；CA 0x8855bc86f91cc146cdd71c7d28f76f721086a8e3"
+    },
+    {
+      "id": "belos",
+      "handle": "@BelosElysium",
+      "score": 68,
+      "note": "Elysium HYPE liquidity vault On testnet；Launching soon"
+    },
+    {
+      "id": "agentic-pad",
+      "handle": "@agentic_pad",
+      "score": 74,
+      "note": "RH Agentic Pad LIVE；CA 0xb5ab7c318797698362cee3307b58c16be271a59a"
+    }
+  ],
+  "freeLiveAdmits": [],
+  "freeMintSoonAdmits": [],
+  "paidOnly": [],
+  "le2h": [
+    "based-agent",
+    "litbnb",
+    "agio",
+    "suoha",
+    "bianlingdi",
+    "agentcardshq",
+    "npcshood",
+    "chessgenesis",
+    "dinomitesnft",
+    "merklewood",
+    "bbf-bnb",
+    "digital-bomb"
+  ],
+  "le2hNote": "based FREE≤2h→≈05:59CST；litbnb free≈272/444；dinomites≈237/5555；merklewood FREE+Launchpad16:00CST；agio/suoha FREE LIVE；digital-bomb14:30CST；amber-pow21:00CST",
+  "le2hActionable": true,
+  "progress": {
+    "based-agent": "FREE-WINDOW-OPEN →≈05:59CST",
+    "litbnb": "free≈272/444 claimed",
+    "dinomitesnft": "237/5555",
+    "merklewood": "FREE NFT + Launchpad 16:00CST",
+    "digital-bomb": "opens 14:30CST free#1-800",
+    "amber-pow": "dig 21:00CST",
+    "bbf-bnb": "100% minted / market open / burn mint continues"
+  },
+  "skipped": [
+    {
+      "id": "bond-pad",
+      "reason": "官推@LisaJenkin93512与项目名不符；@bondpad NF"
+    },
+    {
+      "id": "launchonelysium",
+      "reason": "蹭名$ELYSIUM；DS admit=false overall22"
+    },
+    {
+      "id": "velum-sol",
+      "reason": "pump同质化高且易与库内velum-swaps混淆，本轮不收"
+    },
+    {
+      "id": "keccaklings",
+      "reason": "UF shard NF跳过不连刷"
+    }
+  ],
+  "pendingUserDecision": [
+    "FANBEI"
+  ],
+  "xReads": 23,
+  "remainingBefore": 426,
+  "remaining": 403,
+  "ufCursor": {
+    "from": 216,
+    "to": 232
+  },
+  "tenLanesFull": true,
+  "tenLanes": [
+    "打新",
+    "挖矿",
+    "台子/Meme",
+    "GO盘",
+    "LayerZero",
+    "Elysium",
+    "Tape/电路",
+    "GIWA",
+    "DogeEVM",
+    "BTC",
+    "Starknet"
+  ],
+  "userFollowDone": true,
+  "mentionsCovered": true,
+  "mentionsChains": [
+    "Tape/TapeOut",
+    "GIWA",
+    "DogeOS/squeek",
+    "Elysium/RH KW"
+  ],
+  "discordPeekDeferred": true,
+  "dsNote": "deepseek-flash；mirror-agent76 admit；belos68 admit；agentic-pad74 admit；bond-pad36 skip；launchonelysium22 skip；velum同质化skip；无dsFallback",
+  "FANBEI": "still pendingUserDecision（无官推）",
+  "pushSha": "pending",
+  "summary": "R1166 pace/softCap28: admit mirror-agent/belos/agentic-pad. based FREE≤2h; litbnb/agio/suoha/dinomites/merklewood FREE LIVE; merklewood Launchpad 16:00; digital-bomb 14:30; amber-pow 21:00. Skip bond-pad/launchonelysium/velum-sol. UF216→232. discordPeekDeferred=true. xReads=23 (426→403)."
+}
