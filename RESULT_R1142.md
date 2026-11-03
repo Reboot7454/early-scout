@@ -1,25 +1,45 @@
 # R1142 早期打新雷达
 
-【R1142】新收1：ORE Autos（BNB Agent答题挖矿 ore.autos，社区称约11/6开挖）；≤2h：npcshood仍LIVE≈24/10000，Agio/AgentCards免费铸今日22:00CST≈≤20m。面板 https://reboot7454.github.io/early-scout/
+【R1142】新收3：ORE Autos（BNB Agent答题挖矿≈11/6）、CashCat Agent（BN Agent预告无CA）、Volta（Elysium V4 launchpad已开）；≤2h：Agio/AgentCards免费铸今日22:00CST≈≤20m，npcshood仍LIVE≈26/10000；bnbcat NestEgg付费开铸只报。面板 https://reboot7454.github.io/early-scout/
 
 ```json
 {
   "round": 1142,
   "mode": "ample",
-  "completedAt": "2026-11-03 21:41 CST",
+  "completedAt": "2026-11-03 21:43 CST",
   "notify": true,
-  "notifyReason": "新收1 oreautos（BNB Agent答题挖矿）+ npcshood LIVE + agio/agentcardshq ≤20m开铸",
-  "alertMessage": "【R1142】新收1：ORE Autos（BNB Agent答题挖矿 ore.autos，社区称约11/6开挖）；≤2h：npcshood仍LIVE≈24/10000，Agio/AgentCards免费铸今日22:00CST≈≤20m。面板 https://reboot7454.github.io/early-scout/",
+  "notifyReason": "新收3 oreautos/cashcat-agent/volta-family + agio/agentcardshq ≤20m免费铸 + npcshood LIVE",
+  "alertMessage": "【R1142】新收3：ORE Autos（BNB Agent答题挖矿≈11/6）、CashCat Agent（BN Agent预告无CA）、Volta（Elysium V4 launchpad已开）；≤2h：Agio/AgentCards免费铸今日22:00CST≈≤20m，npcshood仍LIVE≈26/10000；bnbcat NestEgg付费开铸只报。面板 https://reboot7454.github.io/early-scout/",
   "newAdmits": [
     {
       "id": "oreautos",
       "name": "ORE Autos",
       "handle": "@OREAutos",
       "type": "BNB Agent quiz mining / fair launch",
-      "progress": "即将开挖；社区称11/6 21:00 CST；CA待官宣",
+      "progress": "未开挖；官推1帖粉≈146；CA未官宣",
       "contract": null,
       "site": "https://www.ore.autos",
       "score": 64
+    },
+    {
+      "id": "cashcat-agent",
+      "name": "CashCat Agent",
+      "handle": "@cashcat_Agent",
+      "type": "BNB Agent ID announce / fair-launch tease",
+      "progress": "1官宣帖；无CA/站；不可执行",
+      "contract": null,
+      "site": null,
+      "score": 47
+    },
+    {
+      "id": "volta-family",
+      "name": "Volta",
+      "handle": "@VoltaFamily",
+      "type": "Elysium Uniswap V4 launchpad",
+      "progress": "桥+发币页已开；产品可用",
+      "contract": null,
+      "site": "https://volta.family/",
+      "score": 56
     }
   ],
   "freeLiveAdmits": [],
@@ -29,14 +49,14 @@
   ],
   "paidOnly": [
     {
-      "id": "hoa-heart",
-      "handle": "@HOAHeartChain",
-      "note": "免费1k已罄；付费passes LIVE 只报"
+      "id": "bnbcat-games",
+      "handle": "@bnbcatgames",
+      "note": "NestEgg/Gen0 LIVE 付费≈$2起 CA0x29A4…5EC8 只报"
     },
     {
-      "id": "flyaiagent",
-      "handle": "@flyaiagent",
-      "note": "DS skip/信息不足无可操作窗"
+      "id": "guardbsc",
+      "handle": "@GuardBsc",
+      "note": "本轮取消开放refund"
     }
   ],
   "le2h": [
@@ -44,64 +64,51 @@
     "agentcardshq",
     "agio"
   ],
-  "le2hNote": "NPC HOOD仍LIVE free0.0001BNB≈24/10000；Agent Cards与AGIO免费铸均今日22:00 CST（≈≤20m）；AEGIS≈11/4 04:00CST非≤2h；PANBA明日20:30CST非≤2h；OREAutos社区11/6非≤2h",
+  "le2hNote": "NPC HOOD仍LIVE free0.0001BNB≈26/10000；Agent Cards与AGIO免费铸均今日22:00 CST（≈≤20m）；PANBA明日20:30CST非≤2h；ORE≈11/6非≤2h",
   "progress": {
-    "unbroken-bnb": "≈3000+/10000 仍LIVE",
-    "npcshood": "≈24/10000 仍LIVE",
-    "goldagent": "仍LIVE挖矿 池≈22%",
-    "inkwell-on-bnb": "Public延至11/4 14:00CST Reveal已出",
-    "starstone": "仍LIVE 进度软刷",
-    "heroes-elysium": "Obol免费 Nov4 18:00 CET",
-    "launchr": "改期 Nov4 17:00UTC RH",
-    "aegisterminal": "Terminal live;$AEGIS≈11/4 04:00CST",
+    "unbroken-bnb": "≈3427/10000",
+    "npcshood": "≈26/10000 仍LIVE",
+    "agent-pass": "≈2297/10000",
+    "starstone": "≈85/4444 仍LIVE",
     "agio": "免费铸今日22:00CST ≈≤20m",
-    "agentcardshq": "免费铸今日22:00CST 预注册/pledge≈1300+",
-    "panba-emoji": "开售11/4 20:30CST",
-    "hoa-heart": "free gone；paid passes live",
-    "oreautos": "即将开挖；社区11/6 21:00CST；CA待官宣"
+    "agentcardshq": "免费铸今日22:00CST ≈≤20m 预注册≈197",
+    "bnbcat-games": "NestEgg/Gen0 LIVE 付费只报",
+    "famuli": "Agent ID免费铸仍宣称开放",
+    "guardbsc": "本轮取消+refund",
+    "hoa-heart": "Contracts go live soon",
+    "panba-emoji": "11/4 20:30CST 非≤2h",
+    "oreautos": "答题挖矿预告≈11/6"
   },
   "skipped": {
-    "webby": "免费LIVE但无官推硬禁不收",
-    "pumpkinagent": "KOL帖有CA但无官推硬禁不收",
-    "neonnodefox": "KOL帖有CA但无官推硬禁不收",
-    "flyaiagent": "DS skip 信息不足",
-    "unipad_arc": "ARC已live非极早期；Elysium仅Stay tuned未达On testnet/明示部署",
-    "resafudao": "UF NotFound 不连刷",
-    "Ainubsc": "UF suspended 不连刷",
-    "agentcityuk": "UF NotFound 不连刷",
-    "UseHyperLiquid": "UF suspended 不连刷",
-    "Derpagent_": "UF NotFound 不连刷",
-    "ramencoinmeme": "UF NotFound 不连刷",
-    "letswinhood": "UF NotFound 不连刷"
+    "GhostFrog/FATAGENTIC/fidmint/DNAEATER": "无可靠官推不收",
+    "webby": "免费LIVE无官推硬禁不收",
+    "FANBEI/ZangAI/Neonpurrix": "无官推待拍板不重复问",
+    "UF_NF": "resafudao/Ainubsc/agentcityuk/UseHyperLiquid/Derpagent_/ramencoinmeme/letswinhood NotFound|suspended 不连刷"
   },
   "pendingUserDecision": [
     "FANBEI/ZangAI/Neonpurrix 无官推 无变化不重复问",
-    "WEBBY 免费LIVE无官推是否破例？",
-    "Pumpkinagent/Neonnodefox 仅KOL帖+CA、无官推是否破例？"
+    "WEBBY 免费LIVE无官推是否破例？"
   ],
-  "watchBugsFixed": [
-    "oreautos→agentPadWatch/bnAgentWatch/agentMiningWatch/userFollowWatch"
-  ],
-  "xReads": 43,
-  "remainingBefore": 827,
-  "remaining": 784,
+  "watchBugsFixed": [],
+  "xReads": 30,
+  "remainingBefore": 974,
+  "remaining": 944,
   "softCap": 40,
-  "modeDetail": "ample (MCP remaining≈827 at start; x_budget softCap 40; actual xReads43 slightly over for ≤2h+KW)",
+  "modeDetail": "ample; merged with parallel R1142 oreautos push",
   "ufCursor": {
     "from": 600,
     "to": 620
   },
   "tenLanes": true,
   "mentionsChains": [
-    "Tape",
-    "GIWA",
-    "squeek",
-    "BTC privacy(ShieldedNaka)",
-    "Starknet",
-    "BN Agent(BuildNBuild)",
-    "Elysium(Enter_Elysium)",
-    "X Layer/STARX soft via KW",
-    "DogeEVM soft via resolve"
+    "Elysium/kinetiq(@Enter_Elysium,@AgentKinetiq)",
+    "Zero(@LayerZero_Core)",
+    "DogeEVM(@DogeOS)",
+    "flap(@flapdotsh)",
+    "Irys(@irys_xyz)",
+    "Full.fun(@fulldotfun)",
+    "BN Agent(@BuildNBuild_ai)",
+    "Tape(@TapeAIAgent)"
   ],
   "discordPeekDeferred": true,
   "noMintNoTransfer": true,
@@ -112,7 +119,6 @@
     "tokenWorksWatch",
     "tokenWorksPlaygroundWatch"
   ],
-  "dsNote": "deepseek-flash thinking-on via ds_batch_score；admit oreautos overall64；skip flyaiagent",
-  "pushSha": "013f8d645427804b0495df7e8ffdeb434e442c7c"
+  "mergeNote": "parallel executor had admitted oreautos; this push merges cashcat-agent+volta-family + fresher onchain progress"
 }
 ```
