@@ -33,7 +33,10 @@
       "score": 66
     }
   ],
-  "freeLiveAdmits": ["suoha", "bianlingdi"],
+  "freeLiveAdmits": [
+    "suoha",
+    "bianlingdi"
+  ],
   "freeMintSoonAdmits": [],
   "paidOnly": [
     {
@@ -47,7 +50,14 @@
       "note": "PoW免费+付费0.005BNB UF续盯（已收录）"
     }
   ],
-  "le2h": ["suoha", "bianlingdi", "agentcardshq", "agio", "npcshood", "based-agent"],
+  "le2h": [
+    "suoha",
+    "bianlingdi",
+    "agentcardshq",
+    "agio",
+    "npcshood",
+    "based-agent"
+  ],
   "le2hNote": "梭哈/币安领地免费刚开；AgentCards Genesis仍开（Founder秒罄）；Based Agent免费窗claim bug；npcshood仍LIVE；Agio开铸窗口已到",
   "progress": {
     "suoha": "FREE LIVE 前1000/10000",
@@ -108,7 +118,12 @@
     "BTC/Starknet/X Layer KW"
   ],
   "discordPeekDeferred": true,
-  "pushTargets": ["data.json", "RESULT_R1144.md"],
+  "pushTargets": [
+    "data.json",
+    "RESULT_R1144.md",
+    "ROUND1144_RESULT.json"
+  ],
+  "pushSha": "6713713c241acf0759b8059d661dbce23fb76671",
   "dsNote": "deepseek-flash thinking ON via ds_batch_score；suoha=77 admit / bianlingdi=66 admit；无dsFallback"
 }
 ```
