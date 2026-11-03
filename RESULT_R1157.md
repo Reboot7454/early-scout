@@ -1,0 +1,157 @@
+# RESULT R1157
+
+completedAt: 2026-11-04 02:06 CST
+notify: true
+
+```json
+{
+  "round": 1157,
+  "mode": "pace",
+  "completedAt": "2026-11-04 02:06 CST",
+  "notify": true,
+  "notifyReason": "新收录arena-elysium(Elysium fair launchpad score66) + 多枚FREE LIVE仍可操作 + based-agent免费窗≤2h(至≈05:59CST)",
+  "alertMessage": "【R1157】新收 @ArenaElysium（Elysium公平发射台 arenalaunch.tech score66）；FREE仍LIVE：litbnb≈277/444、agio/suoha/bianlingdi/agentcardshq/npcshood/chessgenesis/dinomites、based-agent窗≈至05:59CST；soon：erupt≈24h / fleet17:00 / panba20:30 / amber21:00。面板：https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "arena-elysium"
+  ],
+  "newAdmits": [
+    {
+      "id": "arena-elysium",
+      "handle": "@ArenaElysium",
+      "score": 66,
+      "note": "Elysium fair launchpad arenalaunch.tech；HYPE→Uni v4；solo dev；粉≈1；无CA"
+    }
+  ],
+  "freeLiveAdmits": [],
+  "freeMintSoonAdmits": [
+    {
+      "id": "erupt-fun",
+      "handle": "@eruptdottfun",
+      "note": "4444 Genesis FREE约24h；WL已开"
+    },
+    {
+      "id": "agentfleet",
+      "handle": "@agentfleetbnb",
+      "note": "今日17:00CST Gen0"
+    },
+    {
+      "id": "panba-emoji",
+      "handle": "@Panba_EmojiPack",
+      "note": "今日20:30CST 前2000免费"
+    },
+    {
+      "id": "amber-pow",
+      "handle": "@AmberPoW_BSC",
+      "note": "今日21:00CST PoW开挖"
+    }
+  ],
+  "paidOnly": [
+    {
+      "id": "agent-zero",
+      "handle": "@AgentZero_bnb",
+      "note": "FREE罄；paidMinted≈354/4500；付费尾只报"
+    },
+    {
+      "id": "agentzet",
+      "handle": "@agentzetNFT",
+      "note": "免费罄；付费尾只报"
+    },
+    {
+      "id": "monke-agents",
+      "handle": "@MonkeAGENTS",
+      "note": "free罄；付费0.0005BNB；只报"
+    },
+    {
+      "id": "elys-worlds",
+      "handle": "@ElysWorldsnft",
+      "note": "付费LIVE ~703/3030@0.01 HYPE（非免费）"
+    }
+  ],
+  "le2h": [
+    "litbnb",
+    "agio",
+    "suoha",
+    "bianlingdi",
+    "agentcardshq",
+    "npcshood",
+    "based-agent",
+    "chessgenesis",
+    "dinomitesnft",
+    "agent-zero",
+    "agentzet",
+    "monke-agents"
+  ],
+  "le2hNote": "litbnb FREE≈277/444仍LIVE；Agio Community Free仍开；梭哈前1000/币安领地FREE500/AgentCards/npcshood≈35/ChessGenesis/Based窗≈至05:59CST/DinoMites≈242仍开；agent-zero paid≈354/agentzet/Monke付费尾只报；erupt FREE soon≈24h；elys-worlds付费LIVE",
+  "le2hActionable": true,
+  "progress": {
+    "litbnb": "FREE LIVE ≈277/444 · cells/owners核验",
+    "agio": "FREE MINT LIVE · Community Free Mint仍开",
+    "suoha": "FREE LIVE 前1000/10000",
+    "bianlingdi": "FREE500土地仍可铸 LIVE",
+    "agentcardshq": "Genesis免费仍开",
+    "npcshood": "≈35/10000 mint LIVE（链上）",
+    "based-agent": "FREE-WINDOW-OPEN · units≈835 freeClaim≈316 · 窗至≈05:59CST",
+    "chessgenesis": "FREE LIVE Genesis Phase1（站偶发500）",
+    "dinomitesnft": "≈242/5555 FREE仍开（链上）",
+    "agent-zero": "FREE罄 · paid≈354/4500 · 付费尾只报",
+    "agentzet": "付费尾只报",
+    "monke-agents": "free罄 · paid只报",
+    "agentfleet": "Gen0 今日17:00CST · 入口未放",
+    "panba-emoji": "前2000免费 今日20:30CST",
+    "erupt-fun": "FREE mint soon · WL@eruptdot.fun · 约24h",
+    "elys-worlds": "付费LIVE ~703/3030 · 0.01 HYPE",
+    "amber-pow": "今日21:00CST开挖 · CA已公布",
+    "arena-elysium": "Announced · 官网+官推 · 无CA"
+  },
+  "skipped": {
+    "UF38-58": "软刷推进cursor；片内几乎已收录不重收；noxstack=Monero协议跳过",
+    "kinetiq-pepe": "DS admit=false（无官网/CA，仅预告meme）",
+    "dna-eater": "DS admit=false（无清晰官推；付费$3-$30；walt刷屏）",
+    "fanbei": "无官推；pendingUserDecision沿用",
+    "ammora": "已在giwaWatch；GIWA mentions多为AmmoraHQ刷屏不另收"
+  },
+  "pendingUserDecision": [
+    {
+      "id": "fanbei",
+      "note": "无官推；是否补库待拍板（沿用前轮）"
+    }
+  ],
+  "xReads": 15,
+  "remainingBefore": 657,
+  "remaining": 642,
+  "softCap": 40,
+  "ufCursor": {
+    "from": 38,
+    "to": 58
+  },
+  "tenLanesFull": true,
+  "userFollowDone": true,
+  "mentionsCovered": [
+    "Elysium/Enter_Elysium mentions",
+    "TapeAIAgent mentions",
+    "GIWA/Ammora mentions",
+    "squeek/Nutshell mentions",
+    "BN Agent free mint / fair launch KW",
+    "Elysium+Tape+GIWA+DogeEVM+STARX/XLayer KW merge",
+    "must-watch ≤2h posts (BasedAgent)"
+  ],
+  "mentionsChains": [
+    "Elysium",
+    "Tape",
+    "GIWA",
+    "squeek/Nutshell",
+    "BN Agent pads",
+    "STARX/X Layer (KW)"
+  ],
+  "discordPeekDeferred": true,
+  "dsNote": "deepseek-flash+thinking；admit arena-elysium score66；skip kinetiq-pepe/dna-eater；litbnb cells≈277；npc=35 dino=242 az paid=354；based FREE窗仍开",
+  "watchBugsFixed": [
+    "arena-elysium 写入 elysiumWatch+userFollowWatch",
+    "bump cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/agentPadWatch/bnAgentWatch/freeMintWatch lastChecked",
+    "userFollowWatch.cursor 38→58",
+    "litbnb CA 对齐 mint 0x0A86…5Ec5（registry保留）"
+  ],
+  "pushSha": null,
+  "FANBEI": "pending no official X"
+}
+```
