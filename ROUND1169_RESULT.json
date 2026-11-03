@@ -1,0 +1,100 @@
+{
+  "round": 1169,
+  "mode": "pace",
+  "softCap": 28,
+  "completedAt": "2026-11-04 05:38 CST",
+  "notify": true,
+  "notifyReason": "真新收录 alpha-pad；based FREE窗≤2h（≈05:59CST/~20m）",
+  "alertMessage": "R1169 新收录 ALPHA(@alphapadxyz) 多链多资产发射台，LIVE score55，CA 0x2Da0…A1fa；based FREE 窗口至≈05:59CST仍开（≤2h/~20m）；FREE LIVE：litbnb/agio/suoha/dinomites/merklewood等；今日：digital-bomb 14:30、merklewood 16:00、panba-emoji 20:30、琥珀币21:00CST开挖；面板 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "alpha-pad"
+  ],
+  "newAdmits": [
+    {
+      "id": "alpha-pad",
+      "handle": "@alphapadxyz",
+      "score": 55,
+      "note": "多链多资产发射台 LIVE；alphapad.xyz；$ALPHA CA 0x2Da01FDd0f7F5AF99CC8acc577Fc643180f4A1fa"
+    }
+  ],
+  "freeLiveAdmits": [],
+  "freeMintSoonAdmits": [],
+  "paidOnly": [],
+  "le2h": [
+    "based-agent",
+    "litbnb",
+    "agio",
+    "suoha",
+    "bianlingdi",
+    "agentcardshq",
+    "npcshood",
+    "chessgenesis",
+    "dinomitesnft",
+    "merklewood",
+    "bbf-bnb",
+    "digital-bomb"
+  ],
+  "le2hNote": "based FREE≤2h→≈05:59CST(~20m)；litbnb free≈272/444剩172；dinomites≈237/5555；merklewood FREE+Launchpad16:00CST；agio/suoha FREE LIVE；digital-bomb14:30CST；panba-emoji20:30CST；amber-pow21:00CST",
+  "le2hActionable": true,
+  "progress": {
+    "based-agent": "FREE-WINDOW-OPEN →≈05:59CST (~20m)",
+    "litbnb": "free≈272/444 claimed · 172 left",
+    "dinomitesnft": "237/5555",
+    "merklewood": "FREE NFT + Launchpad 16:00CST",
+    "digital-bomb": "opens 14:30CST free#1-800",
+    "panba-emoji": "free opens 20:30CST",
+    "amber-pow": "dig 21:00CST",
+    "alpha-pad": "LIVE multi-chain launchpad alphapad.xyz",
+    "seven-sins": "SKIP no official X; freeRemaining=0 freeOpen=false on-chain"
+  },
+  "skipped": [
+    {
+      "id": "seven-sins",
+      "reason": "DS admit=false overall30；无项目官推（仅KOL@neongred）；链上免费已罄 freeRemaining=0"
+    },
+    {
+      "id": "launchon-elysium",
+      "reason": "DS admit=false overall18；撞名Elysium/链99901 HyperEVM 与盯梢Elysium L2无关、10粉极薄"
+    }
+  ],
+  "pendingUserDecision": [
+    "FANBEI"
+  ],
+  "xReads": 34,
+  "remainingBefore": 497,
+  "remaining": 463,
+  "ufCursor": {
+    "from": 264,
+    "to": 280
+  },
+  "tenLanesFull": true,
+  "tenLanes": [
+    "打新",
+    "挖矿",
+    "台子/Meme",
+    "GO盘",
+    "LayerZero",
+    "Elysium",
+    "Tape/电路",
+    "GIWA",
+    "DogeEVM",
+    "BTC/Starknet/XLayer"
+  ],
+  "tenLanesYes": true,
+  "mentionsChains": [
+    "Starknet",
+    "BN Agent/@bscaidrop",
+    "squeek/@squeekchain",
+    "Bramble"
+  ],
+  "discordPeekDeferred": true,
+  "dsNote": "deepseek-flash+think；alpha-pad55 admit；launchon-elysium18 skip；seven-sins30 skip；无dsFallback",
+  "FANBEI": "still pendingUserDecision（无官推）",
+  "watchFixes": [
+    "alpha-pad→agentPadWatch+UF",
+    "Canton/Glaze/TokenWorks soft lastChecked",
+    "UF NF envarai_/scripdrop/huntfieldrh/ciowworld no-retry"
+  ],
+  "pushSha": "fb82313",
+  "summary": "R1169 pace/softCap28: admit alpha-pad (@alphapadxyz multi-chain launchpad LIVE score55). based FREE to ~05:59CST ≤2h; litbnb/agio/suoha/dinomites/merklewood FREE LIVE. Skip seven-sins (no官推, free sold out) and launchon-elysium (name-collision). UF264→280. Mentions Starknet+BN+squeek. discordPeekDeferred. xReads=34 (497→463)."
+}
