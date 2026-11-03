@@ -18,7 +18,7 @@
 - **dsNote**: deepseek-flash；mirror-agent76 admit；belos68 admit；agentic-pad74 admit；bond-pad36 skip；launchonelysium22 skip；velum62 同质化skip；无dsFallback
 - **FANBEI**: still pendingUserDecision（无官推）
 - **watchFixes**: mirror-agent/belos→UF+elysiumWatch+kinetiqWatch；agentic-pad→UF+agentPadWatch；Canton/Glaze/TokenWorks soft lastChecked refresh
-- **pushSha**: pending
+- **pushSha**: 
 
 ## summary
 R1166 pace/softCap28: admit mirror-agent (MirrorPad LIVE score76), belos (Elysium HYPE vault testnet score68), agentic-pad (RH AI-agent pad LIVE score74). based FREE to ~05:59CST ≤2h; litbnb/agio/suoha/dinomites/merklewood FREE LIVE; merklewood Launchpad 16:00CST; digital-bomb 14:30; amber-pow dig 21:00CST. Skip bond-pad/launchonelysium/velum-sol. UF216→232. Mentions Tape/GIWA/Doge/squeek. discordPeekDeferred=true. xReads=23 (MCP rem 426→403).
