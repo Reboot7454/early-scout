@@ -1,12 +1,25 @@
 {
   "round": 1152,
   "mode": "ample",
-  "completedAt": "2026-11-04 00:37 CST",
+  "completedAt": "2026-11-04 00:45 CST",
   "notify": true,
-  "notifyReason": "无新收录，但agent-zero FREE500已领完并转付费铸造（重大进度）+ ≤2h免费LIVE仍多",
-  "alertMessage": "【R1152】无新收录；重大变化：agent-zero FREE500已19分钟领完，转付费铸造@0.001BNB；dinomites≈237/5555；agentzet免费罄、付费尾≈322；agio/suoha/bianlingdi/agentcardshq/npcshood/based-agent/chessgenesis FREE仍LIVE；elyne披露多链CA；artery仍称明天上线。面板 https://reboot7454.github.io/early-scout/",
-  "newAdmits": [],
-  "freeLiveAdmits": [],
+  "notifyReason": "补收litbnb（免费LIVE）+ agent-zero链上paid≈133确认猛增",
+  "alertMessage": "【R1152补】新收1：LitBNB（@LitBNB litbnb.fun·BNB点阵fair launch·FREE 444/Agent ID·付费0.005BNB·CA已部署·官推今日≈3粉·score41）；重大：agent-zero FREE500罄→链上paid≈133/4500猛增；agio/suoha/bianlingdi/agentcardshq/npcshood/based-agent/chessgenesis FREE仍LIVE、dinomites≈237–241、agentzet付费尾≈420只报。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "litbnb",
+      "handle": "@LitBNB",
+      "score": 41,
+      "note": "BNB点阵fair launch；FREE 444/Agent ID；付费0.005BNB；CA已部署；官推今日≈3粉；链上selector多revert"
+    }
+  ],
+  "freeLiveAdmits": [
+    {
+      "id": "litbnb",
+      "handle": "@LitBNB",
+      "note": "FREEMAX=444 每Agent ID免费1格；官推宣72h窗LIVE"
+    }
+  ],
   "freeMintSoonAdmits": [],
   "paidOnly": [
     {
@@ -36,23 +49,25 @@
     "agentzet",
     "dinomitesnft",
     "chessgenesis",
-    "monke-agents"
+    "monke-agents",
+    "litbnb"
   ],
-  "le2hNote": "Agent Zero FREE已罄转付费；Agio/梭哈/币安领地/AgentCards/npcshood/ChessGenesis/Based Agent FREE窗仍开；DinoMites≈237；Agent Zet/Monke付费尾只报",
+  "le2hNote": "Agent Zero FREE500罄 paid≈133猛增；LitBNB新收免费LIVE；Agio/梭哈/币安领地/AgentCards/npcshood/ChessGenesis/Based Agent FREE仍开；DinoMites≈237–241；Agent Zet付费尾只报",
   "progress": {
-    "agent-zero": "FREE罄（500份19分钟领完）· 付费铸造进行中@0.001BNB · X@00:36CST",
+    "agent-zero": "FREE 500/500 罄 → 付费≈133/4500@0.001BNB · 链上@00:45CST",
     "agio": "FREE MINT LIVE；RPC已升级",
     "suoha": "FREE LIVE 前1000/10000；X认购仍开",
     "bianlingdi": "已上线；免费500；付费地0.01BNB",
     "agentcardshq": "Genesis免费仍开；排位首轮完·天梯≈1966",
     "npcshood": "LIVE；早期≈24–35/10000量级",
     "based-agent": "FREE-WINDOW-OPEN；凭证接口已恢复；窗至≈11/4 05:59CST",
-    "agentzet": "免费4000罄；付费尾≈322@0.001BNB（只报）",
+    "agentzet": "付费尾≈420@0.001BNB（只报）",
     "dinomitesnft": "≈237/5555 mint仍开",
     "chessgenesis": "FREE LIVE Genesis Phase1",
     "monke-agents": "free罄；付费0.0005BNB；公测chat live",
     "elyne": "宣称$ELYNE多链live；已披露HyperEVM/Elysium/Sol CA",
-    "artery": "Announced · 仍宣称明天上线 · 站暂不可达"
+    "artery": "Announced · 仍宣称明天上线 · 站暂不可达",
+    "litbnb": "FREE LIVE宣称 · 免费444/Agent ID · 付费0.005BNB · 链上读数受限"
   },
   "skipped": {
     "UF800-839": "软刷；NF: LongAgentBNB/Leeonmort/computeroll/btcliu205/Sambario_bnb/Gweiwbbb/PlayTycoonCity/PunksOnDrugs/baoracletrade；yinghubnb=KOL不收；已收录不重读；历史NF/suspended不重试",
@@ -61,7 +76,9 @@
     "KOLPump": "成熟度不明 DS skip",
     "starx_xlayer": "Not Found 不重试",
     "flapshbnb_id": "mentions id NF 不重试",
-    "NutshellMarkets_id": "mentions id NF 不重试"
+    "NutshellMarkets_id": "mentions id NF 不重试",
+    "OsirisGuardians": "KW见2222 FREE+CA但无独立官推→不收",
+    "songfeipeng/OSK": "可疑个人号未核验通过，不收"
   },
   "pendingUserDecision": [
     {
@@ -96,11 +113,14 @@
     "打新/挖矿/GO盘"
   ],
   "discordPeekDeferred": true,
-  "dsNote": "deepseek-flash+thinking；admit: bnbbi/meowtide/yinghubnb/kolpump 全skip；alert DS草稿；无新收录；agent-zero/elyne 续更",
+  "dsNote": "deepseek-flash+thinking；admit: bnbbi/meowtide/yinghubnb/kolpump 全skip；alert DS草稿；无新收录；agent-zero/elyne 续更;；补：LitBNB deepseek-flash admit=true score41",
   "watchBugsFixed": [
     "bump cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch lastChecked",
     "elyne links 多链CA披露写入",
-    "based-agent bioAlt CA 备忘"
+    "based-agent bioAlt CA 备忘",
+    "litbnb→agentPadWatch+freeMintWatch",
+    "agent-acres→freeMintWatch"
   ],
-  "pushSha": "7174230c938a883b9b6ab551fa1617cf1f15f48e"
+  "pushSha": null,
+  "supplementNote": "本执行端后到：远端已推R1152(无新收)；本补丁加LitBNB+链上paid133；UF沿用远端800→840；本端另计xReads≈32 remaining≈736"
 }
