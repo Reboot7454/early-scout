@@ -18,7 +18,7 @@
 - **dsNote**: 本轮无新候选需 DS admit/score；库内刷新未批跑 deepseek-flash
 - **FANBEI**: still pendingUserDecision（无官推）— leave pending
 - **watchFixes**: based-agent strip ≤2h（FREE closed）；luna-birds/suoha/bianlingdi/based-agent/blurb/chessgenesis→UF；blurb→freeMintWatch；agentworldbnb→freeMintWatch + 进度改 announced Nov8；Canton/Glaze/TokenWorks soft lastChecked
-- **pushSha**: （commit后填）
+- **pushSha**: 2f79847 (2f79847…)
 - **summary**: R1171 pace/softCap28: 无真新。based FREE窗已关。FREE LIVE 续 litbnb≈272/444、agio600、suoha first1000、dinomites237/5555、merklewood+LP16:00、luna-birds663/10000、bianlingdi FREE500、unbroken3507/10000。今日 digital-bomb14:30 / merklewood16:00 / panba20:30 / amber21:00。UF296→312。mentions Elysium+squeek+Pulse/dotaipad+Starknet 无挂靠新号。agentworldbnb 官推确认 Nov8 13:00UTC。FANBEI仍pending。notify=false。
 
 ## Progress refresh
