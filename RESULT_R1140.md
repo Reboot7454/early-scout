@@ -123,7 +123,7 @@
   ],
   "discordPeekDeferred": true,
   "dsNote": "admit+score+alert via deepseek-flash；无dsFallback",
-  "pushSha": null,
+  "pushSha": "c8997b1d5b8d30bf6b20cd7df5d0d1aee2e40731",
   "noMintNoTransfer": true
 }
 ```
