@@ -101,4 +101,5 @@
 R1174 pace/softCap28: admit rekt-souls(@rekt_elysium Elysium 2222 NFT waiting-room score74) + joseon-fun(@JoseonFun GIWA watching score55). FREE LIVE refresh. UF344→360. Mentions GIWA+Tape+Bramble+ShieldedNaka. discordPeekDeferred. xReads=28 (303→275). notify=true
 
 ## push
-- pushSha: `(pending)`
+- pushSha: `e517eb6`
+- pushFull: `e517eb6f458b67dac74c3dfdaa787e77ed248c9a`
