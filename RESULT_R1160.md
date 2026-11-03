@@ -16,7 +16,7 @@
 - **discordPeekDeferred**: true
 - **dsNote**: deepseek-flash；merklewood admit74；launchonelysium skip
 - **FANBEI**: still pendingUserDecision（无官推）
-- **pushSha**: _(pending)_
+- **pushSha**: `e2b5c53fa60a64f4da68642c8c2c3ba0660da3c5`
 
 ## summary
 R1160 pace/softCap28: admit merklewood (Elysium FREE NFT LIVE + Launchpad today 16:00CST score74). based FREE to ~05:59CST; litbnb/agio/suoha FREE LIVE. UF92→112 (4 NF/suspended skips). KW ten-lane + mentions GIWA/Doge/squeek/Tape. launchonelysium skipped. discordPeekDeferred=true. xReads≈26.
