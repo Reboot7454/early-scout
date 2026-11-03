@@ -1,21 +1,25 @@
-# ROUND 1176 RESULT
+# ROUND 1176 RESULT（含 executor 补收 R1176b）
 
-- **completedAt**: 2026-11-04 07:39 CST
-- **mode**: pace / softCap≈28
-- **notify**: false — 无真新 admit；digital-bomb/merklewood LP 等今日窗尚未进入≤2h；FREE LIVE 续刷非新开窗
-- **newThisRound**: []
+- **completedAt**: 2026-11-04 07:48 CST
+- **mode**: pace / softCap≈28（08:00重置前，非 post-reset-full）
+- **notify**: true — 并行 quiet 轮漏捞后补收 liquid-island (@liquidislandfun Elysium PvP score58)
+- **newThisRound**: ['liquid-island']
 - **ufCursor**: 376→392
-- **xReads**: 28（MCP 275→247；local prior≈282）
+- **xReads**: 26（本 executor MCP remainingBefore≈385 → remaining≈359；并行 quiet 另计 xReads≈28）
+- **remainingBefore**: 385
+- **remaining**: 359
+- **mode/softCap**: pace / 28
 - **tenLanes**: yes
-- **mentionsChains**: GIWA/@GIWA_by_Upbit · Starknet/@Starknet · Tape/@TapeAIAgent · BN/@BuildNBuild_ai
+- **mentionsChains**: Tape/@TapeAIAgent · BTC-Tape/@bitcointapes · Starknet/@Starknet · BTC-privacy/@ShieldedNaka · GIWA/@GIWAdotfun · BN/@PulseLaunchpad · XLayer/STARX-keyword（starx_xlayer 仍NF不连刷）；并行 quiet 另扫 GIWA/@GIWA_by_Upbit · Starknet · Tape · BN/@BuildNBuild_ai
 - **discordPeekDeferred**: true
-- **dsNote**: deepseek-flash thinking ON：alert 草稿已生成但 notify=false 不推送；本轮无新候选交分（库内 soft refresh）
+- **dsNote**: deepseek-flash thinking ON：liquid-island overall58 admit=true；zorak-trade/AllienNFT overall40 admit=false
 - **dsFallback**: false
-- **le2hActionable**: true
+- **le2hActionable**: false（digital-bomb≈14:30CST 距开约7h；merklewood LP16:00 / panba20:30 / amber21:00 / agentfleet17:00 均>2h）
 - **basedFreeClosed**: true
+- **note**: 并行 agent 先推 quiet R1176（notify=false, pushSha 65b8102）；本 executor 关键词/Elysium 捞到 liquid-island 后补收推送
 
 ## alert
-（quiet — notify=false）
+【早期打新雷达 R1176】新收录 Liquid Island(@liquidislandfun) Elysium 实时多空PvP攻岛冷启动(score58，官推粉≈17仅1帖，有官网 liquidisland.fun，主网Nov9)。FREE LIVE 续 litbnb/agio/suoha/dinomites/merklewood/luna-birds/bianlingdi/unbroken/chessgenesis/un-written；今日 digital-bomb14:30 / merklewood LP16:00 / panba20:30 / amber21:00。面板 https://reboot7454.github.io/early-scout/
 
 ## progress
 {
@@ -27,7 +31,7 @@
   "merklewood": "FREE NFT LIVE · Launchpad 今日16:00CST (08:00 UTC) 再确认",
   "luna-birds": "FREE-first 663/10000 · Collectors Form LIVE",
   "bianlingdi": "FREE 500 LIVE",
-  "unbroken-bnb": "3507/10000 per prior official; no new posts this round",
+  "unbroken-bnb": "3507/10000 per prior official; soft",
   "chessgenesis": "FREE first LIVE · 7777 cards",
   "un-written": "FREE first inscription LIVE · 8888",
   "arcpump": "LIVE Arc USDC launchpad",
@@ -35,15 +39,12 @@
   "panba-emoji": "free opens 20:30CST",
   "amber-pow": "dig 21:00CST · CA 0x4008…FB22",
   "agentfleet": "opens 17:00CST",
-  "enter-elysium": "Mainnet Nov 9 · OpenSea/Ramses/Allium 生态接入续 · registration open",
-  "mineelysiumnft": "WL open · drop wallet+RT · ~至今日21:05CST",
-  "eleosfun": "EOS airdrop claim open · pot1 50m for 4953 pre-Nov2 traders",
-  "kernel-agents": "Genesis 96/100 · 1015 left @0.00013 BNB",
-  "agentic-hive": "Mint LIVE · LP opens at 5k mints (was 10k) · .ai Agent ID only",
-  "agentshift_id": "Genesis 4444 SOLD OUT · $AG live Flap · Season1 shift mining",
-  "capup": "Upcoming · FREE $CAPUP airdrop claimed in bio · 窗未开",
+  "enter-elysium": "Mainnet Nov 9 · registration open",
+  "liquid-island": "watching · Sail on Elysium · mainnet Nov9",
   "elywizardz": "FREE MINT in bio · 0 tweets · mint TBA · ~35粉",
-  "model-citizens": "Nov5 Mystery · Nov10 16:00UTC mint"
+  "model-citizens": "Nov5 Mystery · Nov10 16:00UTC mint",
+  "agentic-hive": "Mint LIVE · LP opens at 5k mints",
+  "agentshift_id": "Genesis 4444 SOLD OUT · $AG live Flap"
 }
 
 ## watchFixes
@@ -52,56 +53,26 @@
   "glazeWatch soft lastChecked",
   "tokenWorksWatch soft lastChecked",
   "tokenWorksPlaygroundWatch soft lastChecked",
-  "UF376→392",
-  "litbnb progress cells≈277 freeLeft≈172",
-  "agio Skills+FREE refresh",
-  "dinomites/merklewood/digital-bomb/kernel/eleos/enter-elysium progress",
-  "agentic-hive LP@5k rule + mint LIVE",
-  "agentshift_id Genesis SOLD OUT + $AG Flap",
-  "capup upcoming airdrop note",
-  "elywizardz lastChecked+粉≈35",
-  "clear meta.newThisRound (was elywizardz/model-citizens)"
+  "agentPadWatch soft lastChecked",
+  "UF376→392 (ufCursor write-fix from quiet pass fixed →392)",
+  "liquid-island @liquidislandfun → userFollowWatch.accounts",
+  "liquid-island → userFollowWatch.candidateIds",
+  "liquid-island @liquidislandfun → elysiumWatch.accounts",
+  "liquid-island → elysiumWatch.candidateIds"
 ]
 
 ## skipped
 [
-  {
-    "id": "FANBEI",
-    "reason": "pendingUserDecision 无官推"
-  },
-  {
-    "id": "telefees_pump",
-    "reason": "UF shard 已在 NF_skip；不连刷"
-  },
-  {
-    "id": "agentkin_",
-    "reason": "UF shard 已在 NF_skip；不连刷"
-  },
-  {
-    "id": "RamsesExchange",
-    "reason": "Elysium DEX 接入宣布，非可打新窗口；软Cap未解析官推"
-  },
-  {
-    "id": "AlliumLabs",
-    "reason": "indexer 基建非 mint"
-  },
-  {
-    "id": "BuildNBuild_ai mentions",
-    "reason": "近窗 mentions 空（仍计1读）"
-  },
-  {
-    "id": "ARCIRCLEonArc",
-    "reason": "已在库 arcircle-on-arc；本轮无新窗"
-  },
-  {
-    "id": "erupt-fun",
-    "reason": "已在库；Genesis apply 提及非新 admit"
-  }
+  {"id":"FANBEI","reason":"pendingUserDecision 无官推"},
+  {"id":"zorak-trade","reason":"DS overall40 admit=false；Elysium TG交易bot非打新"},
+  {"id":"telefees_pump","reason":"UF shard 已在 NF_skip；不连刷"},
+  {"id":"agentkin_","reason":"UF shard 已在 NF_skip；不连刷"},
+  {"id":"starx_xlayer","reason":"仍 NF；本轮用 STARX/XLayer 关键词代替"}
 ]
 
 ## summary
-R1176 pace/softCap28: no new admits. FREE LIVE refresh litbnb≈277/free172left + agio Skills + agentic-hive LP@5k + merklewood LP16:00 + digital-bomb14:30. AgentShift sold out. UF376→392. Mentions GIWA+Starknet+Tape+BN. discordPeekDeferred. xReads=28 (275→247). notify=false
+R1176b after parallel quiet R1176: admit liquid-island(@liquidislandfun Elysium PvP score58) missed by quiet pass. UF376→392. Mentions Tape+BTC+Starknet+ShieldedNaka+GIWA+Pulse+XLayer-KW. discordPeekDeferred. xReads=26 (385→359). notify=true
 
 ## push
-- pushSha: `c90c8de`
-- pushFull: `c90c8dee5aef803cdf1c245445b0db53db819035`
+- pushSha: (pending)
+- priorQuietPushSha: `65b8102`
