@@ -18,7 +18,7 @@
 - **dsNote**: deepseek-flash；elywatch72 admit；origin-dotfun36 skip；无dsFallback
 - **FANBEI**: still pendingUserDecision（无官推）
 - **watchFixes**: PulseLaunchpad 脱 NF_skip；elywatch→UF+elysiumWatch+kinetiqWatch
-- **pushSha**: `(pending)`
+- **pushSha**: `068888f3f19f0cbef42cd74b0d6e1ee7faddd159`
 
 ## summary
 R1164 pace/softCap28: admit elywatch (Elysium wallet tracker LIVE score72 $ELYW). based FREE to ~05:59CST ≤2h; litbnb/agio/suoha/dinomites/merklewood FREE LIVE; merklewood Launchpad 16:00CST; digital-bomb 14:30; amber-pow dig 21:00CST. Skip seven-sins/horror/origin-dotfun. UF184→200. Mentions Tape/squeek/Doge/GIWA. discordPeekDeferred=true. xReads≈33 (MCP rem 580→547).
