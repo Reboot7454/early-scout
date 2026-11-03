@@ -119,6 +119,6 @@
     "rheacatnear"
   ],
   "dsNote": "deepseek-flash score6(admit5 skip packswap)；alert dsFallback(service_busy)",
-  "pushSha": null
+  "pushSha": "b09da2d"
 }
 ```
