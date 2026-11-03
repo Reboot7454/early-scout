@@ -108,6 +108,6 @@ notify: true
     "elyne links 多链CA披露写入",
     "based-agent bioAlt CA 备忘"
   ],
-  "pushSha": null
+  "pushSha": "7174230c938a883b9b6ab551fa1617cf1f15f48e"
 }
 ```
