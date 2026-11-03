@@ -1,0 +1,124 @@
+# R1136 早期打新雷达
+
+【R1136】新收5：ScenePilot@scenepilot_bnb（BNB免费160/7777）、NPC HOOD@NPChood_xyz（今日LIVE free0.0001BNB≤2h）、AgentID$AGI@AgentIdETH（ETH Nov5 23:00CST WL满）、Hyped@Hypedotfamily（Elysium testnet台）、Quadrix@quadrixfinance（GIWA vaults）；进度Unbroken1082→3344、AgentPass1600→2268、Harvest4547→5317。面板 https://reboot7454.github.io/early-scout/
+
+```json
+{
+  "round": 1136,
+  "mode": "ample",
+  "completedAt": "2026-11-03 18:16 CST",
+  "notify": true,
+  "notifyReason": "新收5 + ≤2h NPC HOOD mint LIVE",
+  "alertMessage": "【R1136】新收5：ScenePilot@scenepilot_bnb（BNB免费160/7777）、NPC HOOD@NPChood_xyz（今日LIVE free0.0001BNB≤2h）、AgentID$AGI@AgentIdETH（ETH Nov5 23:00CST WL满）、Hyped@Hypedotfamily（Elysium testnet台）、Quadrix@quadrixfinance（GIWA vaults）；进度Unbroken1082→3344、AgentPass1600→2268、Harvest4547→5317。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "scenepilot",
+      "name": "ScenePilot",
+      "handle": "@scenepilot_bnb",
+      "type": "免费mint LIVE",
+      "progress": "160/7777",
+      "contract": "0x713174A7Ce32374c6896D31c06d612fb2Df5EedD",
+      "site": "https://scenepilot.pw",
+      "score": 63
+    },
+    {
+      "id": "npcshood",
+      "name": "NPC HOOD",
+      "handle": "@NPChood_xyz",
+      "type": "免费mint LIVE≤2h",
+      "progress": "LIVE 0.0001BNB",
+      "contract": "0xe986CA162b99B0A3972F37045b83cA15C842b905",
+      "site": "https://npcshood.xyz",
+      "score": 60
+    },
+    {
+      "id": "agentideth",
+      "name": "AgentID $AGI",
+      "handle": "@AgentIdETH",
+      "type": "ETH fair mint Nov5",
+      "progress": "WL500/500满",
+      "contract": null,
+      "site": "https://agentideth.com",
+      "score": 55
+    },
+    {
+      "id": "hyped-elysium",
+      "name": "Hyped",
+      "handle": "@Hypedotfamily",
+      "type": "Elysium testnet pad",
+      "progress": "On testnet LIVE",
+      "contract": null,
+      "site": null,
+      "score": 55
+    },
+    {
+      "id": "quadrix",
+      "name": "Quadrix",
+      "handle": "@quadrixfinance",
+      "type": "GIWA Sepolia vaults",
+      "progress": "testnet LIVE",
+      "contract": null,
+      "site": "https://quadrix.finance",
+      "score": 48
+    }
+  ],
+  "freeLiveAdmits": [
+    "scenepilot",
+    "npcshood"
+  ],
+  "freeMintSoonAdmits": [],
+  "paidOnly": [],
+  "le2h": [
+    "npcshood"
+  ],
+  "le2hNote": "NPC HOOD mint LIVE ≈18:00 CST；Harvest Phase10最后免费窗已过(RPC5317)",
+  "progress": {
+    "unbroken-bnb": "1082→3344/10000",
+    "agent-pass": "1600→2268/10000",
+    "agent-harvest": "4547→5317 Phase10免费已过",
+    "inkwell-on-bnb": "Reveal完成 Public延至11/4 14:00CST",
+    "burn-agent": "铸造完成 01:20CST"
+  },
+  "skipped": {
+    "packswap": "DS admit=false 19粉DogeOS testnet DEX 观察",
+    "fanbei": "无官推 pendingUserDecision 不重复问",
+    "LumenGenesis": "无可靠官推(错误handle)"
+  },
+  "pendingUserDecision": [
+    "FANBEI/ZangAI/Neonpurrix 无官推 无变化不重复问"
+  ],
+  "watchBugsFixed": [],
+  "watchAdds": [
+    "@scenepilot_bnb→freeMintWatch/userFollowWatch",
+    "@NPChood_xyz→freeMintWatch/bnAgentWatch/userFollowWatch",
+    "@AgentIdETH→agentPadWatch",
+    "@Hypedotfamily→elysiumWatch",
+    "@quadrixfinance→giwaWatch"
+  ],
+  "xReads": 24,
+  "softCap": 34,
+  "remainingBefore": 1000,
+  "remaining": 976,
+  "ufCursor": {
+    "from": 484,
+    "to": 500
+  },
+  "tenLanes": true,
+  "mentionsChains": [
+    "Elysium",
+    "GIWA",
+    "Tape",
+    "DogeEVM",
+    "Starknet",
+    "BNB Agent"
+  ],
+  "discordPeekDeferred": true,
+  "noMintNoTransfer": true,
+  "ufErrors": [
+    "Asciidogs",
+    "rheacatnear"
+  ],
+  "dsNote": "deepseek-flash score6(admit5 skip packswap)；alert dsFallback(service_busy)",
+  "pushSha": null
+}
+```
