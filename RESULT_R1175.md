@@ -85,4 +85,5 @@
 R1175 pace/softCap28: admit elywizardz(@Elywizardz Elysium FREE MINT bio score48) + model-citizens(@modelcitizensgg ETH 3333 Nov10 mint score62). FREE LIVE refresh. UF360→376. Mentions Elysium+squeek+Pulse+Arc. discordPeekDeferred. xReads=27 (412→385). notify=true
 
 ## push
-- pushSha: (pending)
+- pushSha: `64faad1`
+- pushFull: `64faad1652a87ca70706c4e0ee7ada25a241cdef`
