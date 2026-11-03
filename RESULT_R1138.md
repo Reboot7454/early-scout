@@ -84,7 +84,7 @@
   ],
   "discordPeekDeferred": true,
   "dsNote": "admit+score+alert via deepseek-flash；无dsFallback",
-  "pushSha": null,
+  "pushSha": "1fb7f089c278f8b6812d26d578596b22f0c295fa",
   "noMintNoTransfer": true
 }
 ```
