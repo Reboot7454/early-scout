@@ -85,6 +85,6 @@ notify: true
   "discordPeekDeferred": true,
   "dsNote": "deepseek-flash+thinking；score admit suppdotfun=79；hooded-mythics skip；alert DS生成后人工加面板链接",
   "watchBugsFixed": ["dinomitesnft→agentPadWatch.candidateIds"],
-  "pushSha": "PENDING"
+  "pushSha": "02b68110e9d35ebbf123dbcd01248dcdcc3dc4dd"
 }
 ```
