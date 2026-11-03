@@ -19,7 +19,7 @@
 - **dsFallback**: false
 - **FANBEI**: still pendingUserDecision（无官推）— leave pending
 - **watchFixes**: based strip≤2h；un-written→freeMintWatch；hirelingsai refresh；enter-elysium registration note；luna Collectors Form；Canton/Glaze/TokenWorks soft；UF312→328
-- **pushSha**: （待提交）
+- **pushSha**: 0e8d8f2 (0e8d8f2…)
 - **summary**: R1172 pace/softCap28: admit un-written (@TheUnwrittenBNB)。based FREE已关。FREE LIVE 续。UF312→328。mentions Tape+GIWA+Doge。notify=true。
 
 ## Progress refresh
