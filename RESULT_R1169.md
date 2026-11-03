@@ -18,7 +18,7 @@
 - **dsNote**: deepseek-flash+think；alpha-pad55 admit；launchon-elysium18 skip；seven-sins30 skip；无dsFallback
 - **FANBEI**: still pendingUserDecision（无官推）
 - **watchFixes**: alpha-pad→agentPadWatch+UF；Canton/Glaze/TokenWorks soft lastChecked refresh；UF片 NF envarai_/scripdrop/huntfieldrh/ciowworld 不连刷
-- **pushSha**: `fb82313`
+- **pushSha**: 
 
 ## summary
 R1169 pace/softCap28: admit alpha-pad (@alphapadxyz multi-chain launchpad LIVE score55). based FREE to ~05:59CST ≤2h; litbnb/agio/suoha/dinomites/merklewood FREE LIVE; merklewood Launchpad 16:00CST; digital-bomb 14:30; panba 20:30; amber-pow dig 21:00CST. Skip seven-sins (no official X, free sold out on-chain) and launchon-elysium (name-collision thin). UF264→280. Mentions Starknet+BN+squeek. discordPeekDeferred=true. xReads=34 (MCP rem 497→463).
