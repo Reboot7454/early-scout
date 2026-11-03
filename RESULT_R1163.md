@@ -16,7 +16,7 @@
 - **discordPeekDeferred**: true
 - **dsNote**: deepseek-flash；helyxpad68 admit；bnb-meta22 skip；无dsFallback
 - **FANBEI**: still pendingUserDecision（无官推）
-- **pushSha**: (pending)
+- **pushSha**: `6ab27d60c2239646ae83986b20d4a5ee4502abd6`
 
 ## summary
 R1163 pace/softCap28: admit helyxpad (Elysium X-post launchpad LIVE score68). based FREE to ~05:59CST ≤2h; litbnb/agio/suoha/dinomites/chessgenesis FREE LIVE; merklewood Launchpad 16:00CST; amber-pow dig 21:00CST. Skip bnb-meta (no reliable official X). UF168→184. KW ten-lane + Elysium mentions. discordPeekDeferred=true. xReads≈29 (MCP rem 455→426).
