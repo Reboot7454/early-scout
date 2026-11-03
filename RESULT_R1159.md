@@ -14,7 +14,7 @@
 - **discordPeekDeferred**: true
 - **dsNote**: deepseek-flash；elysians 站核实后 admit63
 - **skipped**: UF NF×5；Osiris无独立官推；fanbei pending
-- **pushSha**: (pending)
+- **pushSha**: `14eedaa9904cd7bf5510d3b17f561ef91faa6ce2`
 
 ## summary
 R1159 pace/softCap28: new admit elysians (Elysium testnet Pass 1 HYPE / 2000). based FREE open until approx 05:59CST; litbnb/agio/suoha FREE LIVE. UF72->92 (5 NF skips). KW nine lanes + Elysium mentions. Osiris skipped. discordPeekDeferred=true. xReads approx 29 (+1 over softCap for Elysians proof).
