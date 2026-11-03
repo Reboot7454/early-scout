@@ -16,7 +16,7 @@
 - **discordPeekDeferred**: true
 - **dsNote**: deepseek-flash；lingji-knights admit82；bbf-bnb admit70；qagent skip
 - **FANBEI**: still pendingUserDecision（无官推）
-- **pushSha**: `(pending)`
+- **pushSha**: `8e403ce6b2fc60c46d882f3530ea2197c1e31dd5`
 
 ## summary
 R1161 pace/softCap28: admit lingji-knights (Knights 500 FREE/@LingjiBots today 22:00CST score82) + bbf-bnb (BEP-95 burn mint LIVE score70). based FREE to ~05:59CST; litbnb/agio/suoha/merklewood FREE LIVE; elysians Pass sold out. UF112→140. KW ten-lane + mentions Elysium/LZ/Starknet-BTC. discordPeekDeferred=true. xReads≈29.
