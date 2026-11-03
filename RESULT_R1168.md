@@ -18,7 +18,7 @@
 - **dsNote**: deepseek-flash；toshi-pad64 admit；horror-protocol-share22 skip；无dsFallback
 - **FANBEI**: still pendingUserDecision（无官推）
 - **watchFixes**: toshi-pad→UF；Canton/Glaze/TokenWorks soft lastChecked refresh；layertrade/loopyyfamily/erupt-fun/panba soft refresh
-- **pushSha**: `(pending)`
+- **pushSha**: `b17fd10`
 
 ## summary
 R1168 pace/softCap28: admit toshi-pad (Solana 21M launchpad LIVE score64). based FREE to ~05:59CST ≤2h; litbnb/agio/suoha/dinomites/merklewood FREE LIVE; merklewood Launchpad 16:00CST; digital-bomb 14:30; panba 20:30; amber-pow dig 21:00CST. Skip horror no-official. UF248→264. Mentions Tape/GIWA (+Doge/Elysium/BTC KW). discordPeekDeferred=true. xReads=31 (MCP rem 403→372).
