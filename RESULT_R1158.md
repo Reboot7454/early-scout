@@ -203,7 +203,7 @@ notify: true
     "userFollowWatch.cursor 58→72",
     "litbnb owners≈281；based freeClaim≈317窗仍开"
   ],
-  "pushSha": null,
+  "pushSha": "860f65b6edc838b3c7be874c89fde66d45499973",
   "FANBEI": "pending no official X"
 }
 ```
