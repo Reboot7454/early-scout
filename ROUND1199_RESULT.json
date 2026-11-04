@@ -1,0 +1,52 @@
+{
+  "round": 1199,
+  "completedAt": "2026-11-04 14:09 CST",
+  "mode": "ample",
+  "softCap": 28,
+  "notify": true,
+  "notifyReason": "1 new admit open-ember (R1198 race miss re-admit) + le2h still active",
+  "newThisRound": [
+    "open-ember"
+  ],
+  "newAdmits": [
+    {
+      "id": "open-ember",
+      "handle": "OpenEmber",
+      "score": 78,
+      "line": "Elysium synthetics pad; $EMBR to Enter_Elysium; 98fl; no mint window yet"
+    }
+  ],
+  "ufCursor": {
+    "from": 777,
+    "to": 777
+  },
+  "xReads": 0,
+  "remainingBefore": 654,
+  "remaining": 654,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking ON admit open-ember=true (score78); R1198 parallel skip overridden on Announced+explicit Elysium rule",
+  "le2hActionable": true,
+  "le2h": "digital-bomb opens ~14:30-14:32 CST; niulai ~15:10; InkWell closed (R1198)",
+  "tenLanes": true,
+  "mentionsChains": [
+    "Starknet",
+    "GIWA",
+    "BN pads",
+    "Enter_Elysium",
+    "Pulse"
+  ],
+  "alertMessage": "R1199 新收open-ember(@OpenEmber) Elysium合成资产发射台极早期（R1198并行轮漏收复核）；digital-bomb/niulai仍≤2h。面板 https://reboot7454.github.io/early-scout/",
+  "skipped": [
+    {
+      "id": "bound-exchange",
+      "reason": "DS skip not early / no testnet"
+    }
+  ],
+  "progress": "R1199 local re-admit open-ember after R1198 race; UF stays 777; zero X; le2h still active",
+  "watchFixes": [
+    "open-ember → elysiumWatch/userFollowWatch"
+  ],
+  "pushSha": null,
+  "raceNote": "Delegated R1198 but origin already had R1198 (f996d98/1433ae2) with OpenEmber skipped; shipped as R1199"
+}
