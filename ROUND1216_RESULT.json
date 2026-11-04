@@ -1,0 +1,95 @@
+{
+  "round": 1216,
+  "completedAt": "2026-11-04 18:49 CST",
+  "mode": "pace",
+  "softCap": 18,
+  "notify": true,
+  "notifyReason": "竞态续跑新收录 ash-burn；≤2h 币牛/fishing/panba/acres 仍有效",
+  "newThisRound": [
+    "ash-burn"
+  ],
+  "newAdmits": [
+    {
+      "id": "ash-burn",
+      "handle": "@ash_Burnm",
+      "score": 74,
+      "note": "BSC Agent ID公平铸临近 0.003BNB→80k ASH · ash-burn.com"
+    }
+  ],
+  "ufCursor": {
+    "from": 72,
+    "to": 72,
+    "note": "aligned meta to R1215 claimed 72; no new shard (softCap spent)"
+  },
+  "xReads": 18,
+  "remainingBefore": 487,
+  "remaining": 469,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking ON；score ash-burn/anxiaojian/bnb-runnerz + alert；race-continue only admit ash-burn (bnbrunnerz already R1215)",
+  "le2hActionable": true,
+  "le2h": "币牛/bnbn 20:00前3333免；fishing ROD 20:00；panba/acres≈20:30；flywheel-agent LIVE；bianjiayou≈4000+；dabai/emberforge LIVE；amber≈21:00；lingji 22:00",
+  "tenLanes": true,
+  "mentionsChains": [
+    "打新/Agent ID (KW)",
+    "挖矿/PoW/RGB/BTC (KW)",
+    "台子/Meme/GO/flap/Irys (KW)",
+    "LayerZero/Starknet (KW)",
+    "Elysium/Tape/GIWA/DogeEVM (KW)"
+  ],
+  "alertMessage": "新收录 ash-burn(@ash_Burnm)：BSC Agent ID公平铸临近，0.003BNB→80k ASH，score74，官网 ash-burn.com。≤2h：币牛/bnbn≈20:00前3333免、fishing ROD 20:00、panba/acres≈20:30；LIVE flywheel-agent ladder、bianjiayou≈4000+、dabai、emberforge；今晚 amber≈21:00、lingji 22:00。面板 https://reboot7454.github.io/early-scout/",
+  "skipped": [
+    {
+      "id": "bnb-runnerz",
+      "reason": "same as remote R1215 bnbrunnerz — not re-admitted"
+    },
+    {
+      "id": "flywheel-agent",
+      "reason": "already admitted in remote R1215"
+    },
+    {
+      "id": "anxiaojian",
+      "reason": "无稳定官推"
+    },
+    {
+      "id": "deadpacksol/blindfloor/trytoprint",
+      "reason": "UF NF/suspended → NF_skip (repair)"
+    },
+    {
+      "id": "Elysium ferry spam",
+      "reason": "not admit"
+    },
+    {
+      "id": "perpme/branchpoint/outrive",
+      "reason": "hard exclude"
+    },
+    {
+      "id": "discord peek",
+      "reason": "stale Nov3 JSON; no browser → deferred"
+    },
+    {
+      "id": "UF new shard R1216",
+      "reason": "softCap 18 already spent in parallel R1215 attempt"
+    }
+  ],
+  "progress": "Race-continue past remote R1215; NEW ash-burn; UF cursor repaired→72; ≤2h windows carried; amber CA + lingji site links",
+  "watchFixes": [
+    "meta/UF ufCursor aligned to 72 (R1215 claim)",
+    "NF_skip += deadpacksol/blindfloor/trytoprint",
+    "ash-burn → candidates + bnAgent/agentPad/UF",
+    "cleared prior bnbrunnerz/flywheel-agent newThisRound",
+    "soft-debt lastChecked",
+    "le2hCurrent/tonight refresh with ash-burn + flywheel-agent"
+  ],
+  "pushSha": null,
+  "raceNote": "开跑目标 R1215，但 git pull 发现远端已完成并推送 R1215（bnbrunnerz+flywheel-agent，tip 1ea86d4）；按规则用最新+1 → 实际轮次 R1216；未覆盖远端 R1215，增量收录 ash-burn",
+  "xQuota": {
+    "remainingBefore": 487,
+    "remainingAfter": 469,
+    "xReads": 18,
+    "mode": "pace",
+    "softCap": 18,
+    "limit": 1000,
+    "note": "session spent softCap18 intending R1215; remote raced R1215 first → continue R1216 with ash-burn admit; no extra X after softCap"
+  }
+}
