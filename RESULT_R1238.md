@@ -17,6 +17,6 @@
 - **skipped**: discord-deferred；oly_dao 成熟DeFi粉≈1万仅低优不录；THALVORIX/hackedbyagent 已在库只刷新；perpme/branchpoint/outrive keep-out；SyntaxSouls/Horror spam；search `.xyz` 非法查询跳过
 - **progress / watchFixes**: admit perpsons→UF；RPC lingji/orb/fly；UF 384→400；soft-debt canton/glaze/tokenWorks/tape/elysium lastChecked；clear R1237 newThisRound；bnbrunnerz→LIVE；goofies→FREE TODAY live
 - **alertMessage**: R1238 新收录 perpsons：Robinhood Chain 永续台已 LIVE，BTC/ETH+美股/ETF 最高100x，官网 perpsons.com，官推粉≈114。≤2h/可操作：lingji≈183 LIVE；agentorb≈6265；flywheel≈1097；goofies 今日 FREE checker LIVE；elysium-genesis Access 今日；agentic-eggs FREE LIVE；honey-isles 周五 11/6。https://reboot7454.github.io/early-scout/
-- **pushSha**: (pending)
+- **pushSha**: (57bf1db)
 - **dsNote**: deepseek-flash thinkingON admit+score+alert；dsFallback=false；perpsons overall68 admit；oly-dao-rh 拒录（成熟）
 - **note**: R1237 data.ufCursor 仍停 368 但 RESULT 写 368→384；本轮按任务从 384 起软刷至 400
