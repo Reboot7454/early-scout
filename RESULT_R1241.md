@@ -17,6 +17,6 @@
 - **skipped**: discord-deferred；perpme/branchpoint/outrive；aeroxyz；ICANDfinity；Doge/squeek mentions噪声；musegod仅AMA；UF NF不连刷；CachetDotFun suspended；**super-agent-pass已由并行R1240收录→本轮不重复**
 - **progress / watchFixes**: admit 3 unique→UF+elysiumWatch/freeMint；RPC lingji/orb/fly；zkblast9 Elysium tag；soft-debt；clear R1240 newThisRound
 - **alertMessage**: R1241 新增 gloammail（Elysium testnet FREE 333）、buzzpad（ETH Uniswap v4 meme台 LIVE）、alixir（Elysium DEX+launchpad）；SAP已于R1240收录。面板刷新 lingji≈184、orb≈6280、fly≈1200，goofies今日FREE、genesis Access今日。详情见 https://reboot7454.github.io/early-scout/
-- **pushSha**: (pending)
+- **pushSha**: 56ab7fa
 - **dsNote**: deepseek-flash thinkingON admit+score+alert；dsFallback=false
 - **note**: 任务原文R1240；并行agent已推R1240(SAP)；本执行器将独有项作为R1241落地（同R1238→R1239模式）
