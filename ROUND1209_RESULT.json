@@ -1,0 +1,91 @@
+{
+  "round": 1209,
+  "completedAt": "2026-11-04 16:55 CST",
+  "mode": "pace",
+  "softCap": 18,
+  "notify": true,
+  "notifyReason": "new admit bianjiayou (Agent ID free-first 0.002BNB LIVE, high-risk old-acct) + agentfleet Gen0 17:00CST still ≤2h + emberforge Phase3 jump 803→1027",
+  "newThisRound": [
+    "bianjiayou"
+  ],
+  "newAdmits": [
+    {
+      "id": "bianjiayou",
+      "handle": "bianjiayou",
+      "score": 68,
+      "why": "BNB社区应援代币LIVE；Agent ID首铸免费、其后0.002BNB；官网bianjiayou.xyz；老号今日改设发推，蹭币安品牌，高风险早期窗口"
+    }
+  ],
+  "ufCursor": {
+    "from": 911,
+    "to": 927
+  },
+  "xReads": 18,
+  "remainingBefore": 555,
+  "remaining": 537,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking ON; scored bianjiayou admit=true overall68; horror-protocol admit=false overall18; alertMessage drafted",
+  "le2hActionable": true,
+  "le2h": "agentfleet Gen0 17:00CST ≤2h(~minutes); emberforge Phase3 1027/1980; digital-bomb paid LIVE 867/10k; vault FREE exhausted → Tier2 0.0014BNB ~1090; rgbhorse/agent-oil/starrys FREE; wag PACTURE free~6892; bianbian≈20:00CST free3333 (not yet ≤2h); lingji-knights 22:00CST (not yet ≤2h)",
+  "tenLanes": true,
+  "mentionsChains": [
+    "flapdotsh",
+    "ShieldedNaka",
+    "TapeAI/TapeBit",
+    "GIWA",
+    "Starknet/Bramble"
+  ],
+  "alertMessage": "R1209：新收 bianjiayou（@bianjiayou）币安加油·Agent ID首铸免费·0.002BNB LIVE·官网bianjiayou.xyz·老号今日改设高风险score68；agentfleet Gen0今日17:00CST（≤2h）官链开铸时放出、勿信DM假链；emberforge升Phase3 1027/1980（原803 Phase2）；digital-bomb付费867/10k@0.002BNB；vault FREE尽→Tier2@0.0014BNB(~1090)；wag $PACTURE免费剩≈6892；starrys 111M/1B；dogeking 1U/份粉0续；rgbhorse/agent-oil FREE；今晚币牛≈20:00前3333免、panba/agent-acres 20:30、lingji-knights 22:00 500FREE。https://reboot7454.github.io/early-scout/",
+  "skipped": [
+    {
+      "id": "useampad",
+      "reason": "UF shard Not Found — do not retry; added NF_skip"
+    },
+    {
+      "id": "horror-protocol/Walt_asia",
+      "reason": "0-follower affiliate only; DS admit=false overall18"
+    },
+    {
+      "id": "starx_xlayer/agentplacewall/LastCall4vx/exec_terminal",
+      "reason": "known NF prior rounds; do not retry"
+    },
+    {
+      "id": "Gravitieslol",
+      "reason": "0 tweets / empty CA — resolve-only soft-brush"
+    },
+    {
+      "id": "Elysium Machines/erupt/slymz/panba/pixel-trump/bnb-meta/agent-oil etc",
+      "reason": "KW/mentions hits already in library"
+    },
+    {
+      "id": "Flap Pool Launch",
+      "reason": "infra update not new mint admit"
+    },
+    {
+      "id": "perpme/branchpoint/outrive",
+      "reason": "hard exclude Elysium keep-out"
+    },
+    {
+      "id": "dedicated get_users_mentions",
+      "reason": "softCap exhausted after KW; covered via KW queries"
+    }
+  ],
+  "progress": "UF 911→927 soft-brush (useampad NF); NEW bianjiayou LIVE; emberforge Phase3 1027/1980 (was 803); digital-bomb still 867; vault Tier2 ~1090; agentfleet ≤2h to 17:00CST; wag free~6892; bianbian≈20:00CST; lingji 22:00CST",
+  "watchFixes": [
+    "soft-debt lastChecked: cantonPadWatch/glazeWatch/tokenWorksWatch/tokenWorksPlaygroundWatch",
+    "UF cursor 911→927; @bianjiayou to userFollowWatch (+bnAgentWatch if present); useampad→NF_skip",
+    "LIVE/≤2h whatsNew refresh: agentfleet/emberforge(Phase3)/digital-bomb/vault-agent/dogeking/starrys/rgbhorse/agent-oil/wag-agent/elysrocket/bianbian-bnbn/lingji-knights",
+    "cleared prior newThisRound dogeking; set newThisRound=[bianjiayou]"
+  ],
+  "pushSha": null,
+  "raceNote": "git pull --ff-only already up to date at R1208 tip before edit",
+  "xQuota": {
+    "remainingBefore": 555,
+    "remainingAfter": 537,
+    "xReads": 18,
+    "mode": "pace",
+    "softCap": 18,
+    "allocation": "UF+must resolve=1; LIVE/≤2h posts=12; KW=3; bianjiayou resolve+posts=2"
+  }
+}
