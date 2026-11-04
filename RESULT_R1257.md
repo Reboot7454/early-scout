@@ -20,4 +20,4 @@
 - keywords: deferred (tight pacing toward 08:00 CST reset)
 - skipped: discord-deferred, KW-deferred-tight-pacing, mentions-deferred-tight-pacing, NF-beatdotfamily, NF-nonamespnft, NF-heyribbid, NF-certuna_rh, already-in-lib-UF-slice-649-680, same-handle-dedup, keepouts, no-new-early-candidates-this-UF-window, lettucegrow-0-tweets, hornyhood-GTD-not-mint-yet
 - completedAt: 2026-11-05 07:05 CST
-- pushSha: (pending)
+- pushSha: 2db849d
