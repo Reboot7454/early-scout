@@ -29,5 +29,5 @@ vanta FREE≈336/350；ripstack FREE EA前555；SAP≈139；lingji≈188；orb�
 R1254 新收 Stonk Turtles(@StonkTurtle) Robinhood FREE公铸LIVE（≈32%/3333，score58，免费强制提醒）；zenvoid(@Zenvoid_Nft) Ink 1111 Cozy Heroes WL申请 LIVE（zenonink.vercel.app，score62）；klower-pad(@KlowerPad) Elysium发射台极早期Announced（score55）。≤2h可操作：vanta FREE≈336/350；ripstack FREE EA前555；SAP≈139；lingji≈188；orb≈6323；fly≈1200；w3l≈38；goofies今日FREE；genesis Access今日；wobblokz FREE；bnbbaby FREE≈12456；moonfall FREE WL今日12:00UTC；fairagent前2000 FREE；cappybara FREE≈1388/10000；nibblets FREE LIVE RH；honey周五11/6；fungolabs明日12:30UTC FREE；hallofash allowlist续。详情见 https://reboot7454.github.io/early-scout/
 
 ## push
-- pushSha: (fill after push)
-- pushOk: pending
+- pushSha: 11c872a
+- pushOk: true
