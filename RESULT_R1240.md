@@ -17,6 +17,6 @@
 - **skipped**: discord-deferred；perpme/branchpoint/outrive keep-out；wildducknfts 0粉空bio；ChineseFlap/屎壳郎AI 2粉付费仅报；giraffies已是lil-giraffies在库只刷新；HOKORI/Ammora/squeek farming噪声；frenlaunch成熟度不足且未核；TopaCards无独立官号（topa-agent已在库）
 - **progress / watchFixes**: admit super-agent-pass→UF+agentPadWatch+bnAgentWatch；RPC lingji/orb/fly/SAP；UF 400→416；soft-debt canton/glaze/tokenWorks/tape；clear R1239 newThisRound（top曾残留perpsons/meta=materral+shiden）；lil-giraffies collab刷新；goofies/genesis/shiden soft
 - **alertMessage**: R1240 新收录 super-agent-pass（@SuperAgentPass）：BNB Agent Pass LIVE，RPC≈137/333，免费111已被扫，付费0.001BNB仍开且仍Founder档，1 Pass=未来FREE mint槽，粉≈4，站 superagentpass.pages.dev。≤2h/可操作：lingji≈184 LIVE；orb≈6280；fly≈1200；goofies今日FREE；genesis Access今日；shiden FREE WL 1000。详情见 https://reboot7454.github.io/early-scout/
-- **pushSha**: (pending)
+- **pushSha**: (5682c64)
 - **dsNote**: deepseek-flash thinkingON admit+score+alert；dsFallback=false；score overall52仍admit（极早期付费窗+有官推官网CA）；risk上调为78以匹配高匿名风险
 - **note**: 开跑时X remaining已从R1239宣称248跌至≈146（他号消耗）→mode=tight softCap10；父任务原文softCap≈18以live为准。
