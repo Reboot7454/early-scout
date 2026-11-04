@@ -16,5 +16,5 @@
 - **skipped**: UF astropad_real NF；FAT AGENTIC 无官推不收；horror-protocol 上轮已拒；KW 多为在库（AgentCardsHQ/safuagent/OpenFour/Ammora/Elynx/erupt keep-out）；Elysium ferry spam；dedicated mentions 并入KW
 - **progress**: UF 927→943 软刷；**agentfleet Gen0 17:00CST 准时开铸** 官链+mint站放出；digital-bomb 867→971；emberforge/vault/wag/starrys 等续；niulai 未打满→退款开放；币牛≈20:00
 - **watchFixes**: soft-debt lastChecked cantonPadWatch/glazeWatch/tokenWorksWatch/tokenWorksPlaygroundWatch；UF cursor→943；astropad_real→NF_skip；LIVE/≤2h whatsNew 刷新；清掉 prior bianjiayou newThisRound；watches.le2hCurrent 重排含 agentfleet LIVE
-- **pushSha**: _(pending)_
-- **raceNote**: _(pending)_
+- **pushSha**: `6fa6e3f0b2dcafde2d7f1f6c316daff12a9153bb`
+- **raceNote**: pull ff-only already up to date at R1209 tip 366a1d2; no race; push ok first try
