@@ -31,5 +31,5 @@ vanta FREE≈336/350；ripstack FREE EA前555；SAP≈139；lingji≈188；orb�
 R1255 新收 Hookium(@hookium) Elysium自定义hook发币台 Workshop开放（0.2HYPE，score68）；Velom(@velom33) ve(3,3)流动性层极早期（score54）；FARE(@FareOnElysium) 公平入场费币 Soon（score51）；Drachma(@drachma_elysium) RWA储备0帖观察（score47）；Robo Ducks(@RoboDucksRH) RH FREE社区NFT末班车（score43）。≤2h/FREE：vanta≈336/350；lingji≈188；orb≈6325；fly≈1200；cappybara≈1388；SAP≈139；w3l≈38；bnbbaby FREE≈12456；goofies今日；moonfall WL今日12UTC；stonk-turtle FREE LIVE RH；ripstack FREE EA。详情见 https://reboot7454.github.io/early-scout/
 
 ## push
-- pushSha: ff067b9
+- pushSha: a0fe038
 - pushOk: true
