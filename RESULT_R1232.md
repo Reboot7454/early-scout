@@ -20,4 +20,4 @@
   刷新：playhaunt FREE mint 779宣布；lingji≈158/500；LOOP≈2782；orb≈6208；fly≈687；币牛 shares≈3110；acres余403；ember≈1202；fanbei≈995
   ≤2h：stands 14–16UTC窗将尽；lingji/robo/LOOP/bayc LIVE；goofies明日FREE；honey Bees周五11/6
   面板 https://reboot7454.github.io/early-scout/
-- **pushSha**: fa83438
+- **pushSha**: 5181fd5
