@@ -17,5 +17,5 @@
 - **skipped**: AGENTICABOT-NF；HashOre_BNB-NF；arcpulse-DS-skip(无mint窗)；kurvedotfamily-0粉空bio；AGENTO-无官推(FakeAvcisiTR)；WIZARDS-spam；discord-deferred；perpme keep-out；starx_xlayer NF_skip不重锤
 - **progress / watchFixes**: **collision** 远端已推 R1224(elypunks/justrekt)→本轮升 R1225；admit agentorb→freeMintWatch/agentPadWatch；fanbeimao paused→LIVE FREE sold≈582 CA 0x824d…De16；LOOP sold≈2446；币牛961/free2372；panba850；acres260/750；ember1175；fly622；bomb973；amber dig LIVE；stands-social 今日窗口+site；hackedbyagent waitlist LIVE；soft-debt canton/glaze/tokenWorks lastChecked；UF 178→194；clear R1224 newThisRound
 - **alertMessage**: R1225 新收录 agentorb/@AgentOrbb（BNB Agent ID NFT 首铸FREE LIVE≈6158/10k，score78）；fanbeimao FREE LIVE sold≈582；≤2h：LOOP≈2446/8000、币牛 FREE≈961、amber dig NOW、lingji/bayc≈22:00、emberforge FREE≈1175、panba/acres FREE——盯盘 https://reboot7454.github.io/early-scout/
-- **pushSha**: 58772a5
+- **pushSha**: 819b0a0 (content 58772a5)
 - **collisionNote**: tasked R1224 but remote tip already R1224 (elypunks+justrekt-tool) → continued as R1225
