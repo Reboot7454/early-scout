@@ -1,0 +1,22 @@
+# RESULT R1240
+
+- **round**: 1240
+- **completedAt**: 2026-11-05 02:15 CST
+- **mode**: tight · softCap 10
+- **notify**: true
+- **newThisRound**: super-agent-pass
+- **ufCursor**: 400 → 416
+- **xReads**: 10 · remainingBefore 146 → remaining 136
+- **discordPeekDeferred**: true (no Discord login / no browser Peek)
+- **dsFallback**: false
+- **le2hActionable**: true
+- **le2h**: lingji≈184 LIVE；orb≈6280；fly≈1200；goofies今日FREE checker；genesis Access今日；shiden FREE WL；SAP付费LIVE 137/333；honey周五11/6
+- **tenLanes**: yes
+- **mentionsChains**: Enter_Elysium-mentions · TapeAIAgent-mentions · KW AgentID/Elysium/RH · KW Tape/squeek/GIWA/Stark/BTC/flap/Arc · KW AIDROP/Pulse/STARX/mining/LZ
+- **userFollow**: soft-brush shard 400:416（16 handle batch；多NF/suspended；存活号全已在库；新收@SuperAgentPass补入）；cursor 400→416
+- **skipped**: discord-deferred；perpme/branchpoint/outrive keep-out；wildducknfts 0粉空bio；ChineseFlap/屎壳郎AI 2粉付费仅报；giraffies已是lil-giraffies在库只刷新；HOKORI/Ammora/squeek farming噪声；frenlaunch成熟度不足且未核；TopaCards无独立官号（topa-agent已在库）
+- **progress / watchFixes**: admit super-agent-pass→UF+agentPadWatch+bnAgentWatch；RPC lingji/orb/fly/SAP；UF 400→416；soft-debt canton/glaze/tokenWorks/tape；clear R1239 newThisRound（top曾残留perpsons/meta=materral+shiden）；lil-giraffies collab刷新；goofies/genesis/shiden soft
+- **alertMessage**: R1240 新收录 super-agent-pass（@SuperAgentPass）：BNB Agent Pass LIVE，RPC≈137/333，免费111已被扫，付费0.001BNB仍开且仍Founder档，1 Pass=未来FREE mint槽，粉≈4，站 superagentpass.pages.dev。≤2h/可操作：lingji≈184 LIVE；orb≈6280；fly≈1200；goofies今日FREE；genesis Access今日；shiden FREE WL 1000。详情见 https://reboot7454.github.io/early-scout/
+- **pushSha**: (pending)
+- **dsNote**: deepseek-flash thinkingON admit+score+alert；dsFallback=false；score overall52仍admit（极早期付费窗+有官推官网CA）；risk上调为78以匹配高匿名风险
+- **note**: 开跑时X remaining已从R1239宣称248跌至≈146（他号消耗）→mode=tight softCap10；父任务原文softCap≈18以live为准。
