@@ -7,8 +7,13 @@
   "notify": true,
   "notifyReason": "R1177b 真新 admit wowpad (@wowpadlol)；主轮已 admit sendu-ely；今日窗尚未≤2h",
   "alertMessage": "【R1177b】新增 WOWpad（DogeOS meme launchpad，MyDoge Testnet 上架，粉≈0）；主轮已录 Sendu(@Sendu_on_Ely)。今日窗 digital-bomb≈14:30CST、merklewood LP≈16:00、agentfleet≈17:00、agent-acres/panba≈20:30、amber≈21:00，均未≤2h，关注 https://reboot7454.github.io/early-scout/",
-  "newThisRound": ["wowpad"],
-  "round1177Added": ["sendu-ely", "wowpad"],
+  "newThisRound": [
+    "wowpad"
+  ],
+  "round1177Added": [
+    "sendu-ely",
+    "wowpad"
+  ],
   "newAdmits": [
     {
       "id": "wowpad",
@@ -28,10 +33,24 @@
     }
   ],
   "le2h": [
-    "litbnb", "agio", "suoha", "dinomitesnft", "merklewood", "bianlingdi",
-    "unbroken-bnb", "chessgenesis", "un-written", "arcpump", "agentic-hive",
-    "codex-agentic", "cosmic-macabre", "digital-bomb", "windup", "elywizardz",
-    "mineelysiumnft", "agent-acres"
+    "litbnb",
+    "agio",
+    "suoha",
+    "dinomitesnft",
+    "merklewood",
+    "bianlingdi",
+    "unbroken-bnb",
+    "chessgenesis",
+    "un-written",
+    "arcpump",
+    "agentic-hive",
+    "codex-agentic",
+    "cosmic-macabre",
+    "digital-bomb",
+    "windup",
+    "elywizardz",
+    "mineelysiumnft",
+    "agent-acres"
   ],
   "le2hNote": "based FREE CLOSED；FREE LIVE 续；digital-bomb14:30；merklewood LP16:00；agentfleet17:00；agent-acres/panba20:30；amber21:00；windup Genesis今日无精确时间；luna-birds X suspended",
   "le2hActionable": true,
@@ -68,20 +87,62 @@
     "wowpad": "MyDoge Apps Testnet listed · Launch a coin in one tap · Built on DogeOS"
   },
   "skipped": [
-    {"id": "Luna_Birds", "reason": "resolve Forbidden/suspended；不连刷"},
-    {"id": "tikitotemsbnb", "reason": "UF shard Not Found"},
-    {"id": "seppidev", "reason": "UF shard Not Found"},
-    {"id": "CachetDotFun", "reason": "UF shard suspended"},
-    {"id": "wedowtf", "reason": "UF shard Not Found"},
-    {"id": "stonkaxyz", "reason": "UF shard Not Found"},
-    {"id": "TurboKartBNB", "reason": "UF shard Not Found"},
-    {"id": "bsc_bito", "reason": "已知 NF_skip"},
-    {"id": "Nonce_CTO", "reason": "已知 NF_skip"},
-    {"id": "claudesprotocol", "reason": "已知 NF_skip"},
-    {"id": "BIBIAI_MEME", "reason": "已 TGE；非极早期"},
-    {"id": "BuildNBuild_ai mentions", "reason": "近窗 mentions 空"},
-    {"id": "Elys Catz free mint promo", "reason": "第三方推广；已在库"},
-    {"id": "AmmoraHQ spam mentions", "reason": "已在库；非新窗"}
+    {
+      "id": "Luna_Birds",
+      "reason": "resolve Forbidden/suspended；不连刷"
+    },
+    {
+      "id": "tikitotemsbnb",
+      "reason": "UF shard Not Found"
+    },
+    {
+      "id": "seppidev",
+      "reason": "UF shard Not Found"
+    },
+    {
+      "id": "CachetDotFun",
+      "reason": "UF shard suspended"
+    },
+    {
+      "id": "wedowtf",
+      "reason": "UF shard Not Found"
+    },
+    {
+      "id": "stonkaxyz",
+      "reason": "UF shard Not Found"
+    },
+    {
+      "id": "TurboKartBNB",
+      "reason": "UF shard Not Found"
+    },
+    {
+      "id": "bsc_bito",
+      "reason": "已知 NF_skip"
+    },
+    {
+      "id": "Nonce_CTO",
+      "reason": "已知 NF_skip"
+    },
+    {
+      "id": "claudesprotocol",
+      "reason": "已知 NF_skip"
+    },
+    {
+      "id": "BIBIAI_MEME",
+      "reason": "已 TGE；非极早期"
+    },
+    {
+      "id": "BuildNBuild_ai mentions",
+      "reason": "近窗 mentions 空"
+    },
+    {
+      "id": "Elys Catz free mint promo",
+      "reason": "第三方推广；已在库"
+    },
+    {
+      "id": "AmmoraHQ spam mentions",
+      "reason": "已在库；非新窗"
+    }
   ],
   "xQuota": {
     "remainingBefore": 999,
@@ -91,7 +152,10 @@
     "softCap": 50,
     "note": "post-reset-full 已消费（主轮+parallel R1177b）；下一例行勿再用"
   },
-  "ufCursor": {"from": 408, "to": 421},
+  "ufCursor": {
+    "from": 408,
+    "to": 421
+  },
   "ufCursorNote": "主轮 392→408；R1177b 续 408→421",
   "tenLanes": true,
   "mentionsChains": [
@@ -121,6 +185,8 @@
     "round1177Added=[sendu-ely,wowpad]"
   ],
   "summary": "R1177b amend post-reset-full: admit wowpad (DogeOS MyDoge Testnet pad score58) alongside prior sendu-ely. FREE LIVE refresh + today windows 14:30/16:00/17:00/20:30/21:00. windup Genesis delayed to today. UF408→421. discordPeekDeferred. xReads≈49 (999→950). consumedPostResetFull=true. notify=true",
-  "pushSha": "",
-  "raceNote": "另一执行体已先推 R1177 sendu-ely(7ba9a27)；本执行体 X 扫描并行完成后以 R1177b 并入 wowpad，未二次消费 post-reset-full 标记"
+  "pushSha": "0c62ae62fafe0aa045be643264fc256b59aaee1a",
+  "raceNote": "另一执行体已先推 R1177 sendu-ely(7ba9a27)；本执行体 X 扫描并行完成后以 R1177b 并入 wowpad，未二次消费 post-reset-full 标记",
+  "pushFull": "0c62ae62fafe0aa045be643264fc256b59aaee1a",
+  "scoutSha": "0c62ae62fafe0aa045be643264fc256b59aaee1a"
 }
