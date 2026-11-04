@@ -1,0 +1,60 @@
+{
+  "round": 1201,
+  "completedAt": "2026-11-04 14:38 CST",
+  "mode": "ample",
+  "softCap": 28,
+  "notify": true,
+  "notifyReason": "1 new admit vault-agent + digital-bomb/niulai still le2h",
+  "newThisRound": [
+    "vault-agent"
+  ],
+  "newAdmits": [
+    {
+      "id": "vault-agent",
+      "handle": "VAULT_GENT",
+      "score": 74,
+      "line": "BNB Agent-only vault FREE~33/1000; 0fl; CA 0xec4f41…b599"
+    }
+  ],
+  "ufCursor": {
+    "from": 793,
+    "to": 805
+  },
+  "xReads": 10,
+  "remainingBefore": 635,
+  "remaining": 625,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking ON; admit vault-agent; skip sight-hood; AgenticINU name-collision skip",
+  "le2hActionable": true,
+  "le2h": "digital-bomb LIVE free#1-800; niulai ~15:10; vault-agent FREE LIVE; InkWell CLOSED 248",
+  "tenLanes": true,
+  "mentionsChains": [
+    "squeekchain",
+    "TapeAIAgent",
+    "DogeOS",
+    "ShieldedNaka",
+    "NutshellMarkets"
+  ],
+  "alertMessage": "R1201：新收 vault-agent(@VAULT_GENT) BNB Agent-only FREE~33/1000，0粉极早期；digital-bomb 开铸 LIVE≤2h 前800免；niulai≈15:10截止；InkWell 最终248 CLOSED。面板 https://reboot7454.github.io/early-scout/",
+  "skipped": [
+    {
+      "id": "sight-hood",
+      "reason": "DS skip not early (~16k followers)"
+    },
+    {
+      "id": "AgenticINU",
+      "reason": "name-collision with agentic-inu(@agenticinuai); defer"
+    },
+    {
+      "id": "UF793-804",
+      "reason": "already in library; soft-refresh only"
+    }
+  ],
+  "progress": "UF 793→805; digital-bomb LIVE; vault-agent FREE~33/1000; InkWell CLOSED 248; TapeBit Direct Mint; emberlings 29/555",
+  "watchFixes": [
+    "vault-agent → userFollowWatch/agentPadWatch/bnAgentWatch"
+  ],
+  "pushSha": "pending",
+  "raceNote": "Remote completed R1200 first (e402/hesperia/launchonelysium); this run continued as R1201"
+}
