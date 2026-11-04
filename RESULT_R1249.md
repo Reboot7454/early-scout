@@ -19,5 +19,5 @@
 - **watchFixes**: le2h补挂 hypurrlabs/mcp-pad；ufCursor全别名→575；soft-debt canton/glaze/tokenWorks；UF卡 lastChecked；R1248 mindcaster/play-quan newThisRound清旗
 - **dsNote**: deepseek-flash thinkingON；hypurrlabs overall76 admit；mcp-pad overall81 admit；clankdexer overall48 skip；alert DS草稿后人工加R1249/面板链接；dsFallback=false；rem≈178 tight
 
-- **pushSha**: fb121b9
+- **pushSha**: 3588656
 - **pushOk**: true
