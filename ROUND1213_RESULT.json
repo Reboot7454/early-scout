@@ -1,0 +1,77 @@
+{
+  "round": 1213,
+  "completedAt": "2026-11-04 18:10 CST",
+  "mode": "pace",
+  "softCap": 18,
+  "notify": true,
+  "notifyReason": "今晚币牛/fishing已入≤2h；bianjiayou LIVE进度猛增1310→2700+（无新收录）",
+  "newThisRound": [],
+  "newAdmits": [],
+  "ufCursor": {
+    "from": 24,
+    "to": 40
+  },
+  "xReads": 18,
+  "remainingBefore": 505,
+  "remaining": 488,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking ON；whatsNew×19 + alert；无admit候选",
+  "le2hActionable": true,
+  "le2h": "币牛/bnbn ≤2h→20:00前3333免；fishing ROD 20:00@0.005BNB ≤2h；bianjiayou 2700+/10k LIVE；agentfleet Gen0 renounce+CA；garden CA 0x4436…401f；emberforge 1074/1980；digital-bomb 971；vault~1090；FREE wag≈6892/starrys/oil/card/rgbhorse",
+  "tenLanes": true,
+  "mentionsChains": [
+    "BNB Agent pad/fair launch",
+    "Elysium/Enter_Elysium/kalos",
+    "Tape/GIWA/DogeEVM",
+    "LayerZero/Starknet/BTC RGB",
+    "flap/Irys/PoW mining"
+  ],
+  "alertMessage": "R1213无新收录，重点看bianjiayou LIVE已冲到2700+/10000。今晚≤2h窗口：币牛/bnbn≈20:00前3333免、fishing ROD 20:00@0.005BNB，panba/acres≈20:30、amber≈21:00跟进。面板 https://reboot7454.github.io/early-scout/",
+  "skipped": [
+    {
+      "id": "kaAgents",
+      "reason": "UF shard Not Found — NF_skip; do not retry"
+    },
+    {
+      "id": "mobster_meme",
+      "reason": "prior UF NotFound (R1132) — skipped, added NF_skip"
+    },
+    {
+      "id": "agent-panda/dividotfun/mori-elysium/slymzcrew/merklewood/Ammora/pabalx",
+      "reason": "KW hits already in library"
+    },
+    {
+      "id": "Elysium ferry free-mint spam",
+      "reason": "testnet/game spam not new admit"
+    },
+    {
+      "id": "perpme/branchpoint/outrive",
+      "reason": "Elysium hard exclude (not touched)"
+    },
+    {
+      "id": "dedicated get_users_mentions",
+      "reason": "pace softCap; covered via tenLanes KW merges"
+    }
+  ],
+  "progress": "UF 24→40 soft-brush; bianjiayou 1310→2700+; emberforge 1027→1074; garden CA published; agentfleet renounce; bnbn/fishing enter ≤2h; panba/acres 20:30 confirmed",
+  "watchFixes": [
+    "soft-debt lastChecked cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/blonskrWatch/tapeOutWatch",
+    "UF cursor 24→40; kaAgents+mobster_meme→NF_skip",
+    "garden-ecosystem links.ca=0x4436a34fbba1a0e369835c682fc85f72646c401f",
+    "LIVE/≤2h/tonight whatsNew 【R1213】 refresh",
+    "cleared prior garden-ecosystem newThisRound",
+    "watches.le2hCurrent reordered with bnbn/fishing ≤2h on top"
+  ],
+  "pushSha": null,
+  "raceNote": "开跑 meta.round=1212，git pull 无竞态 → R1213",
+  "xQuota": {
+    "remainingBefore": 505,
+    "remainingAfter": 488,
+    "xReads": 18,
+    "mode": "pace",
+    "softCap": 18,
+    "limit": 1000,
+    "note": "softCap met exactly 18: UF shard resolve + LIVE/tonight posts + tenLanes KW×5"
+  }
+}
