@@ -1,0 +1,22 @@
+# RESULT R1239
+
+- **round**: 1239
+- **completedAt**: 2026-11-05 01:51 CST
+- **mode**: pace · softCap 18
+- **notify**: true
+- **newThisRound**: materral, shiden-protocol
+- **ufCursor**: 384 → 400
+- **xReads**: 18 · remainingBefore 266 → remaining 248
+- **discordPeekDeferred**: true (no Discord login / no browser Peek)
+- **dsFallback**: false
+- **le2hActionable**: true
+- **le2h**: lingji≈184 LIVE；orb≈6272；fly≈1097；goofies今日FREE checker；genesis Access今日；shiden FREE WL 1000开放；agentic-eggs/perpsons prior LIVE
+- **tenLanes**: yes
+- **mentionsChains**: Starknet-mentions · UF384-396 soft · KW Elysium/Tape/GIWA/BTC/LZ/GO
+- **userFollow**: soft-brush shard 384:396（12 handle batch+posts；全已在库）；cursor对齐并行宣称→400
+- **skipped**: discord-deferred；perpme/branchpoint/outrive keep-out；aeroxyz成熟DEX不收；ICANDfinity非官号；Starknet mentions噪声无新号；R1238并行已收perpsons→本轮unique R1239
+- **progress / watchFixes**: admit 2→UF+elysiumWatch；RPC lingji/orb/fly；UF 384→400；soft-debt canton/glaze/tokenWorks/tape；clear R1238 newThisRound；goofies/genesis/hoodies/cosmic/glyphmind/rgbhorse soft
+- **alertMessage**: R1239 新增 materral（Elysium套利执行，官网materral.xyz）与 shiden-protocol（Elysium FREE Mint WL 1000，Tally报名，粉≈45）；面板刷新 lingji≈184、orb≈6272、fly≈1097，goofies今日FREE、genesis Access今日。详情见 https://reboot7454.github.io/early-scout/
+- **pushSha**: (pending)
+- **dsNote**: deepseek-flash thinkingON admit+score+alert；dsFallback=false；materral score曾标admit:false但admit模式+Elysium Announced规则收录（同asphodel类）
+- **note**: 并行agent已推R1238（perpsons）；本执行器将独有Elysium项作为R1239落地。任务原文R1238因碰撞顺延。
