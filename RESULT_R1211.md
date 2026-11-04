@@ -16,5 +16,5 @@
 - **skipped**: UF safureload NF；Kappaxis/Foxagent/Mechfarm/PUNK HOOD 无官推；已知 NF 不重试；KW 多为在库；Elysium ferry/referral spam；keep-outs；dedicated mentions 并入KW
 - **progress**: UF 943→尾再 wrap→8；**新收 agent-only-bsc**；agentfleet 12合约验证+$ORE空投；digital-bomb 971；bianjiayou→827；orbit 付费LIVE；今晚币牛/fishing/panba/acres/lingji
 - **watchFixes**: soft-debt lastChecked；UF cursor→8；safureload→NF_skip；agent-only-bsc进 Watch；LIVE/tonight whatsNew【R1211】；orbit→live
-- **pushSha**: _(pending)_
-- **raceNote**: _(pending)_
+- **pushSha**: `d72d89241fbc9407d462b22038721ff5a111a7f3`
+- **raceNote**: first push rejected Internal Server Error (minified data.json huge diff); pretty-print amend then push ok aaef69f..d72d892; no rebase race
