@@ -17,4 +17,4 @@
 - **skipped**: vaultdock-NF；cloakcapitalai-NF；kuranto_rh-NF；DOGENT-no-official-X（spam only）；agentdragon-no-official-X；discord-deferred；perpme keep-out
 - **progress / watchFixes**: LOOP announced→LIVE≈1006/8000；币牛 RPC 865→929；emberforge public≈1173/1980 total≈1193；flywheel 587→602；amber dig NOW；hackedbyagent waitlist LIVE；admit elypunks+justrekt→elysiumWatch/freeMintWatch；soft-debt canton/glaze/tokenWorks lastChecked；UF 168→178；agentideth 11/5 续
 - **alertMessage**: R1224 新收录 elypunks/@Elypunks_xyz（Elysium 10k Punks WL FREE，score66）、justrekt-tool/@JustRektTool（Elysium HYPE meme 终端，score55）；≤2h/LIVE：LOOP LIVE≈1006/8000、币牛 FREE shares≈929、amber dig NOW、lingji/bayc≈22:00、emberforge FREE≈1173/1980、flywheel≈602——盯盘 https://reboot7454.github.io/early-scout/
-- **pushSha**: (pending)
+- **pushSha**: cb2f1da
