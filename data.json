@@ -7812,7 +7812,8 @@
         "agentic-pad",
         "mirror-agent",
         "alpha-pad",
-        "luna-birds"
+        "luna-birds",
+        "ampad"
       ],
       "coreNarrative": "https://x.com/yinghubnb/status/2112604032049295368",
       "keyFacts": {
@@ -8200,7 +8201,8 @@
           "elys-worlds"
         ]
       },
-      "r1169": "admit alpha-pad @alphapadxyz multi-chain launchpad LIVE score55"
+      "r1169": "admit alpha-pad @alphapadxyz multi-chain launchpad LIVE score55",
+      "r1178": "admit ampad/@useampad Solana AMD PoW launchpad LIVE score62"
     },
     "round321Added": [
       "pokereserve",
@@ -21818,7 +21820,13 @@
     "round1178Added": [
       "ampad"
     ],
-    "r1178PushSha": "9c91b98e43427400c5589af72fb0ad22bfa10196"
+    "r1178PushSha": "9c91b98e43427400c5589af72fb0ad22bfa10196",
+    "r1178WatchAdds": [
+      "agentPadWatch+=ampad/@useampad"
+    ],
+    "watchBugsFixedR1178": [
+      "agentPadWatch.candidateIds+=ampad (was accounts-only)"
+    ]
   },
   "candidates": [
     {
