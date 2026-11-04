@@ -17,6 +17,6 @@
 - **skipped**: discord-deferred；perpme/branchpoint/outrive；wildducknfts（0粉+官推/站前端矛盾，RPC totalSupply=1000免费已尽，DS admit=false）；ChineseFlap付费屎壳郎低质；UF NF/suspended；mentions噪声
 - **progress / watchFixes**: admit ripstack→UF+agentPadWatch；RPC lingji/orb/fly/SAP/w3l；soft-debt；**fix sync newThisRound**（清 top-level 错留的 super-agent-pass + meta 对齐本轮）
 - **alertMessage**: R1242 新收录 ripstack（@ripstackfun）：BNB Agent Early Access FREE 登记 LIVE，前555个 Agentic Wallet，站 ripstack.fun/early-access，粉≈7，无CA，score52。wildducknfts 免费RPC已尽(1000)且0粉高风险已跳过。面板刷新 lingji≈184、orb≈6283、fly≈1200、SAP≈139、w3l≈38；goofies今日FREE、genesis Access今日、honey周五11/6。详情见 https://reboot7454.github.io/early-scout/
-- **pushSha**: (pending)
+- **pushSha**: ff45d8d
 - **dsNote**: deepseek-flash thinkingON admit+score+alert；dsFallback=false；wild-duck DS skip 遵守
 - **note**: 无并行碰撞（pull后仍1241）；mode按X footer tight
