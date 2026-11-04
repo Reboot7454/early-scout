@@ -1,0 +1,21 @@
+# RESULT R1236
+
+- **round**: 1236
+- **completedAt**: 2026-11-05 00:33 CST
+- **mode**: pace · softCap 18
+- **notify**: true
+- **newThisRound**: agentic-eggs, vela-elysium, packswap
+- **ufCursor**: 352 → 368
+- **xReads**: 12 · remainingBefore 175 → remaining 163 (live API; budget.py showed 311 — other agents consumed)
+- **discordPeekDeferred**: true (no Discord login / no browser Peek)
+- **dsFallback**: false
+- **le2hActionable**: true
+- **le2h**: lingji LIVE≈175/1000；robo FCFS LIVE；LOOP LIVE(RPC revert/stale)；bayc LIVE 1.5U高仿；orb≈6251；fly≈1082↑；goofies**今日FREE** wallet checker LIVE；honey Founder Bees FREE 周五11/6；playhaunt FREE779 TBD；elysium-machines 周五11/6 15:00UTC；agentic-eggs FREE LIVE；topa Floor1≈96；web3/fanbei/ember RPC弱
+- **tenLanes**: yes (打新/Agent ID｜挖矿｜台子/Meme｜GO｜Elysium｜Tape｜GIWA｜DogeEVM｜Starknet/BTC｜BN Agent/Pulse/STARX/squeek/Nutshell)
+- **mentionsChains**: TapeAIAgent-mentions(0) · squeekchain-mentions · GIWA_by_Upbit-mentions · DogeOS-mentions · BN-Agent-KW · Elysium/Tape-GIWA-Doge/squeek
+- **userFollow**: soft-brush shard 352:368（Headroom_X → NF_skip；其余已在库）
+- **skipped**: discord-deferred；starx_xlayer NF(reconfirm)；perpme/branchpoint/outrive keep-out；LOOP/fanbei/ember/web3/eggs RPC totalSupply|totalSold revert；Nutshell_money仍NF；MedalBeasts/SmileQuokka已在库仅软刷
+- **progress / watchFixes**: admit 3→UF+对应Watch（eggs→bnAgent+agentPad+freeMint；vela→elysium；packswap→dogeEvm）；RPC lingji175/orb6251/fly1082↑；elysium-machines刷新周五开盘；goofies今日FREE续；NF_skip+=Headroom_X/starx_xlayer；soft-debt canton/glaze/tokenWorks(+elysium/tape)；UF 352→368；clear R1235 newThisRound
+- **alertMessage**: 新增 Agent Eggs/灵蛋纪（BNB Agent FREE LIVE 前3000免费）、Vela（Elysium跟单vault 极早期）、PackSwap（DogeOS DEX LIVE）；lingji LIVE≈175/1000、robo FCFS、goofies/honey/playhaunt FREE、elysium-machines 周五11/6 15:00UTC，详见 https://reboot7454.github.io/early-scout/
+- **pushSha**: (pending)
+- **dsNote**: deepseek-flash thinkingON score+alert；dsFallback=false；admit eggs70/vela46/packswap44
