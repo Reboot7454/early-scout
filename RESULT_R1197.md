@@ -13,7 +13,7 @@
 - **discordPeekDeferred**: true（本执行器无浏览器；父代理请立刻 Discord Peek）
 - **dsFallback**: false · DeepSeek flash thinking admit/score/alert
 - **le2hActionable**: true — InkWell Public≈14:00CST截止；digital-bomb≈14:30CST开铸；niulai≈15:10
-- **pushSha**: `32e9f49bcbaafc125be16c83c27487ef43d1d367`
+- **pushSha**: `bafbe2a7e3588be101bcbdc9b5ff604778ae73f1`
 - **note**: 远程 round=1196 → 本轮 **R1197**；UF shard 已在库仅软刷；bndoge_bn NF本轮；FANBEI仍无官推skip；elyword/mobster/starx/AiGentAuto NF不重试
 
 ## New admits
