@@ -17,4 +17,4 @@
 - **skipped**: WOJAK_AGENTID 1粉高风险；QuackAI 成熟基建不收；LOOP/bnbn/acres/ember/fanbei/w3l RPC totalSupply revert；AnoLaunchpad/Grokiefun 额度未深挖；Nutshell_money仍NF；perpme/branchpoint/outrive keep-out；discord-deferred
 - **progress / watchFixes**: admit mosslingrh→UF/freeMint；trovehaven→UF/freeMint；digigolds→UF/btcPrivacy；RPC刷新 lingji≈161 orb≈6214 fly≈687；bayc官推≈2319；ammora×QuackAI enrich；NF_skip+=5；soft-debt canton/glaze/tokenWorks；UF 304→320；clear R1232 newThisRound
 - **alertMessage**: 新收录：mosslingrh(RH FREE LIVE77)、trovehaven(RH GameFi FREE79)、digigolds(BTC Ordinals62)。刷新：lingji≈161/500、orb≈6214、fly≈687、bayc≈2319。≤2h stands窗内：lingji/robo/LOOP/bayc LIVE；goofies明日；honey周五；playhaunt779。面板 https://reboot7454.github.io/early-scout/
-- **pushSha**: bf0d919
+- **pushSha**: 9b8a580
