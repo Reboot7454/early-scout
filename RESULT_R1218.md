@@ -16,4 +16,4 @@
 - **skipped**: WATER@Wren010 非官推/demo站；ACAT 无官推；DGF@dongdongub 1粉spam；Elysium ferry spam；@bianjiayou/@Leeonmort NF 不复确认；discord peek deferred
 - **progress**: 新收 kingpin-kpin；flywheel 316→412；emberforge 1128→1133/1980；币牛公布验过LAUNCH/PAIR/token；≤2h窗口续盯；fluffbat 补 Testnet Snapshot Nov5 19:00UTC
 - **watchFixes**: kingpin→UF/bnAgent/agentPad；ufCursor 72→88；清 prior newThisRound=fanbeimao；soft-debt Canton/Glaze/TokenWorks lastChecked
-- **pushSha**: `PENDING`
+- **pushSha**: `cc215b275b12bc2614fa65712e734bc3c9e9493e`
