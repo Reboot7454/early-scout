@@ -18,5 +18,5 @@
 - **skipped**: Hesperia_Trade clone；UF NotFound已在库；AgenticINU collision defer
 - **progress**: digital-bomb 867/10k；emberforge Phase2；rgbhorse $RGB FREE；Pulse pairs LIVE
 - **watchFixes**: dividotfun/quoted-xyz→elysiumWatch+UF；rgbhorse→btcPrivacyWatch
-- **pushSha**: (pending)
+- **pushSha**: `fe4e93bd842e4378e1d357c2121495e1285531c4`
 - **raceNote**: pull already at R1201; no race
