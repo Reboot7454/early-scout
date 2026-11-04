@@ -19,4 +19,4 @@
 - **alertMessage**: 【新收录】pumpkin-pit/@PlayPumpkinPit FREE mint 555 RH score78；brawler-rebels/@BrawlerRebels mint soon 2222 score70；ascii-dogs-ely/@ASCIIDogsNFT Elysium WL LIVE 1111 score66（≠库内@Asciidogs）。
 ≤2h：robo-district FREE MINT窗≈22:00CST；lingji/Knights≈22:00CST；bayc LIVE NOW（高仿风险）；LOOP/币牛/fanbeimao/amber 续；orb≈6187；ember≈1199；fly≈632。
 面板 https://reboot7454.github.io/early-scout/
-- **pushSha**: (pending)
+- **pushSha**: cc91b35
