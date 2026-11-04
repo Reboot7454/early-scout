@@ -16,5 +16,5 @@
 - **skipped**: UF NF LumenGenesisNFT；starx_xlayer NF；KW hits BAYC/erupt/lotlings/fungo/elynx/bnb-meta 均已在库；mentions 噪音；FractionalisedW/FindID/AGC 本轮不收
 - **progress**: UF 863→879 全已在库软刷；emberforge 仍803/1980；digital-bomb 仍867；vault FREE已尽~1090 Tier2；agentfleet ≤2h to 17:00CST；rgbhorse FREE；stands「几小时后见」；agent-card~3/4444；starrys 111M/1B；新收 elysrocket
 - **watchFixes**: soft-debt lastChecked cantonPadWatch/glazeWatch/tokenWorksWatch/tokenWorksPlaygroundWatch；elysiumWatch+elysrocket；UF cursor→879
-- **pushSha**: 
+- **pushSha**: `c1ec6d236f86bf1b4475156ff37e066b0121e0f2`
 - **raceNote**: pull ff-only already up to date at R1205 tip db7ce37; no race
