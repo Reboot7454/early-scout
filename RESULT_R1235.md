@@ -1,0 +1,21 @@
+# RESULT R1235
+
+- **round**: 1235
+- **completedAt**: 2026-11-05 00:08 CST
+- **mode**: pace · softCap 18
+- **notify**: true
+- **newThisRound**: mauverse-club, the-wurms, lichward, elysium-genesis, topa-agent
+- **ufCursor**: 336 → 352
+- **xReads**: 21 · remainingBefore 311 → remaining 175 (live API; budget.py showed 311 — other agents consumed mid-run)
+- **discordPeekDeferred**: true (no Discord login / no browser Peek)
+- **dsFallback**: false
+- **le2hActionable**: true
+- **le2h**: lingji LIVE≈174/1000；robo FCFS LIVE；LOOP LIVE(RPC revert/stale)；bayc LIVE 1.5U高仿；orb≈6240；fly≈732；goofies**今日FREE** wallet checker LIVE；honey Founder Bees FREE 周五11/6；playhaunt FREE779 TBD；stands 14–16UTC窗已过
+- **tenLanes**: yes (打新/Agent ID｜挖矿｜台子/Meme｜GO｜Elysium｜Tape｜GIWA｜DogeEVM｜Starknet/BTC｜BN Agent/Pulse/STARX/squeek/Nutshell)
+- **mentionsChains**: Enter_Elysium-mentions · AgentKinetiq-mentions(0) · kinetiq_xyz-mentions(0) · Elysium/BN-Agent/Tape-GIWA-BTC-Stark/squeek-STARX-CN-KW
+- **userFollow**: soft-brush shard 336:352（FlotyllOnRH/luckycatchgame/LongBaoLNB/DavidJohnsvcen/firstpadfun → NF_skip；其余已在库）
+- **skipped**: discord-deferred；aeroxyz(成熟DEX Day1，DS admit=false)；perpme/branchpoint/outrive keep-out；LOOP/fanbei/ember/bnbn RPC revert；Nutshell_money仍NF；launchhive_ai/404Naroba 0粉spam
+- **progress / watchFixes**: admit 5→UF+对应Watch；elysium-genesis→elysiumWatch+freeMint；topa→bnAgent+agentPad；RH三件→xChainPad+freeMint；goofies刷新今日FREE；RPC lingji/orb/fly；NF_skip+=5；soft-debt canton/glaze/tokenWorks(+elysium/tape)；UF 336→352；clear R1234 newThisRound
+- **alertMessage**: 新收录：mauverse-club(RH0.0039 WL64)、the-wurms(RH mint soon60)、lichward(RH GameFi EA73)、elysium-genesis(FREE Access今日77)、topa-agent(BNB Agent付费LIVE Floor1≈96 68)。关键刷新：lingji≈174、orb≈6240、fly≈732，goofies今日FREE checker LIVE；≤2h可操作：lingji/robo/LOOP/bayc LIVE、goofies今日FREE、honey周五11/6、playhaunt779 TBD。完整面板 https://reboot7454.github.io/early-scout/
+- **pushSha**: (pending)
+- **dsNote**: deepseek-flash thinkingON score+alert；dsFallback=false；skip aeroxyz
