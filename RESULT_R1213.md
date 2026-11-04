@@ -16,5 +16,5 @@
 - **skipped**: UF kaAgents NF→NF_skip；mobster_meme prior-NF skip；KW hits 全在库（agent-panda/dividotfun/mori-elysium/slymzcrew/merklewood/Ammora/pabalx/GIWALAUNCHPAD/RuninAI/RGBHorse 等）；Elysium ferry spam；perpme/branchpoint/outrive 硬排除未触；dedicated mentions 并入 tenLanes KW
 - **progress**: UF 24→40 软刷；**bianjiayou 1310→2700+**；emberforge 1027→1074；garden 公布 CA 0x4436…401f；agentfleet Genesis/ORE renounce；币牛/fishing 进入≤2h；panba/acres 20:30、amber 21:00、lingji/bayc 22:00 确认
 - **watchFixes**: soft-debt lastChecked cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/blonskrWatch/tapeOutWatch；UF cursor→40；NF_skip+=kaAgents/mobster_meme；garden links.ca；LIVE/tonight/≤2h whatsNew【R1213】；清 prior newThisRound；le2hCurrent 重排（币牛/fishing 置顶）
-- **pushSha**: `(pending)`
+- **pushSha**: `76d2af703079b6b6b2d947f33d38c040dfec4db9`
 - **raceNote**: 开跑 meta.round=1212，pull 后无竞态 → **R1213**
