@@ -1,0 +1,22 @@
+# RESULT R1241
+
+- **round**: 1241
+- **completedAt**: 2026-11-05 02:19 CST
+- **mode**: pace · softCap 18
+- **notify**: true
+- **newThisRound**: gloammail, buzzpad, alixir
+- **ufCursor**: 416 → 416 (R1240并行已推进400→416；本执行器软刷重叠400-412)
+- **xReads**: 17 · remainingBefore 247 → remaining 230
+- **discordPeekDeferred**: true (no Discord login / no browser Peek)
+- **dsFallback**: false
+- **le2hActionable**: true
+- **le2h**: SAP(R1240)≈137/333 LIVE；lingji≈184；orb≈6280；fly≈1200；goofies今日FREE；genesis Access今日
+- **tenLanes**: yes
+- **mentionsChains**: DogeOS-mentions · squeekchain-mentions · UF400-412 soft · KW BN-Agent/Doge/XLayer · Elysium/Tape/GIWA/BTC/LZ/Starknet · squeek/Nutshell/Zero/GO · GIWA/flap/pads
+- **userFollow**: soft-brush shard 400:412（batch+posts；6存活/5 NF/1 suspended）；cursor保持416（并行R1240已到）
+- **skipped**: discord-deferred；perpme/branchpoint/outrive；aeroxyz；ICANDfinity；Doge/squeek mentions噪声；musegod仅AMA；UF NF不连刷；CachetDotFun suspended；**super-agent-pass已由并行R1240收录→本轮不重复**
+- **progress / watchFixes**: admit 3 unique→UF+elysiumWatch/freeMint；RPC lingji/orb/fly；zkblast9 Elysium tag；soft-debt；clear R1240 newThisRound
+- **alertMessage**: R1241 新增 gloammail（Elysium testnet FREE 333）、buzzpad（ETH Uniswap v4 meme台 LIVE）、alixir（Elysium DEX+launchpad）；SAP已于R1240收录。面板刷新 lingji≈184、orb≈6280、fly≈1200，goofies今日FREE、genesis Access今日。详情见 https://reboot7454.github.io/early-scout/
+- **pushSha**: (pending)
+- **dsNote**: deepseek-flash thinkingON admit+score+alert；dsFallback=false
+- **note**: 任务原文R1240；并行agent已推R1240(SAP)；本执行器将独有项作为R1241落地（同R1238→R1239模式）

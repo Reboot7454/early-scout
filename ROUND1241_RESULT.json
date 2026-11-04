@@ -1,0 +1,45 @@
+{
+  "round": 1241,
+  "completedAt": "2026-11-05 02:19 CST",
+  "mode": "pace",
+  "softCap": 18,
+  "notify": true,
+  "notifyReason": "true new admits (R1240 collision unique) + le2h LIVE windows",
+  "newThisRound": [
+    "gloammail",
+    "buzzpad",
+    "alixir"
+  ],
+  "ufCursor": {
+    "before": 416,
+    "after": 416
+  },
+  "xReads": 17,
+  "remainingBefore": 247,
+  "remaining": 230,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "le2hActionable": true,
+  "le2h": "SAP(R1240)≈137/333 LIVE; lingji≈184; orb≈6280; fly≈1200; goofies TODAY; genesis Access today",
+  "tenLanes": "yes",
+  "mentionsChains": [
+    "DogeOS-mentions",
+    "squeekchain-mentions",
+    "UF400-412 soft",
+    "KW-tenLanes"
+  ],
+  "userFollow": "soft-brush 400-412 overlapped with parallel R1240→416; keep cursor 416",
+  "skipped": [
+    "discord-deferred",
+    "keepouts",
+    "SAP already R1240",
+    "mentions noise",
+    "UF NF"
+  ],
+  "progress": "admit 3 unique after R1240 collision; RPC refresh",
+  "alertMessage": "R1241 新增 gloammail（Elysium testnet FREE 333）、buzzpad（ETH Uniswap v4 meme台 LIVE）、alixir（Elysium DEX+launchpad）；SAP已于R1240收录。面板刷新 lingji≈184、orb≈6280、fly≈1200，goofies今日FREE、genesis Access今日。详情见 https://reboot7454.github.io/early-scout/",
+  "watchFixes": "gloammail+alixir→elysiumWatch+UF; buzzpad→UF; soft-debt",
+  "pushSha": "",
+  "dsNote": "deepseek-flash thinkingON admit+score+alert; dsFallback=false",
+  "note": "Intended R1240 collided with parallel agent (SAP); unique Elysium/ETH pads shipped as R1241"
+}
