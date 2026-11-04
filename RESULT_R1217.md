@@ -16,4 +16,4 @@
 - **skipped**: snakeidbnb 已在库 R927；Elysium ferry spam；@bianjiayou/@Leeonmort NF 不复确认；UF 新分片因 softCap；discord peek deferred
 - **progress**: 新收 fanbeimao（澄清 meta.FANBEI 先前「无官推」pending→核到 @isaiasneira18）；flywheel totalSupply≈12→316；emberforge 1117→1128/1980；≤2h 窗口续盯
 - **watchFixes**: fanbeimao→le2h/tonight/bnAgentWatch；清 prior newThisRound=ash-burn；soft-debt Canton/Glaze/TokenWorks lastChecked；FANBEI meta→admitted_R1217
-- **pushSha**: (pending)
+- **pushSha**: `fc9db212bfc66eac2962498d9c6fdae30315bf46`
