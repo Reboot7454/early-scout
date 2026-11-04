@@ -1,0 +1,85 @@
+{
+  "round": 1208,
+  "completedAt": "2026-11-04 16:36 CST",
+  "mode": "pace",
+  "softCap": 18,
+  "notify": true,
+  "notifyReason": "new admit dogeking (paid Agent ID mint LIVE, high risk) + agentfleet Gen0 17:00CST still ≤2h (~25min) + LIVE free/paid refreshes",
+  "newThisRound": [
+    "dogeking"
+  ],
+  "newAdmits": [
+    {
+      "id": "dogeking",
+      "handle": "DOGEKINGlol",
+      "score": 45,
+      "why": "BNB Agent ID×份额付费铸造LIVE（1U/份）；官推今日新建粉0；总量888与前1万份口径冲突；高风险土狗窗口"
+    }
+  ],
+  "ufCursor": {
+    "from": 895,
+    "to": 911
+  },
+  "xReads": 18,
+  "remainingBefore": 556,
+  "remaining": 535,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking ON; scored dogeking admit=true overall45; skipped wisp-elysium airdrop bait; alertMessage drafted",
+  "le2hActionable": true,
+  "le2h": "agentfleet Gen0 17:00CST ≤2h(~25min); emberforge FREE 803/1980 Phase2; digital-bomb paid LIVE 867/10k; vault FREE exhausted → Tier2 0.0014BNB ~1090; rgbhorse/agent-oil/agent-card/starrys FREE; wag PACTURE free~6892; stands few-hours; bianbian≈20:00CST free3333 (not yet ≤2h); lingji-knights 22:00CST (not yet ≤2h)",
+  "tenLanes": true,
+  "mentionsChains": [
+    "Enter_Elysium",
+    "PulseLaunchpad",
+    "squeekchain"
+  ],
+  "alertMessage": "R1208：新收 dogeking（@DOGEKINGlol）BNB Agent ID付费铸造LIVE·1U/份·官推今日建粉0·高风险。agentfleet Gen0今日17:00CST（约25min）需盯，官链开铸时放出；emberforge FREE 803/1980；digital-bomb付费867/10k@0.002BNB；vault FREE尽→Tier2@0.0014BNB(~1090)；agent-card~3/4444；starrys 111M/1B；rgbhorse/agent-oil FREE；wag $PACTURE免费剩≈6892；stands「几小时后见」；币牛/bianbian≈20:00CST前3333免；lingji-knights 22:00CST开铸续。https://reboot7454.github.io/early-scout/",
+  "skipped": [
+    {
+      "id": "exec_terminal",
+      "reason": "UF shard Not Found — do not retry (prior exec-terminal card may use different handle)"
+    },
+    {
+      "id": "starx_xlayer",
+      "reason": "known NF prior rounds; do not retry"
+    },
+    {
+      "id": "wisp-elysium/CryptoLenslw7q",
+      "reason": "Elysium airdrop bait; DS admit=false overall18"
+    },
+    {
+      "id": "AgentIdETH/Mori/erupt/companions/Nutshell/dinomites/RuninAI/dither/Fungo/pocketpad/FeedTheFire",
+      "reason": "KW/mentions hits already in library"
+    },
+    {
+      "id": "PulseLaunchpad mentions",
+      "reason": "0 results in window"
+    },
+    {
+      "id": "Enter_Elysium/squeek mentions",
+      "reason": "social noise / wallet dumps / no new resolvable early project"
+    },
+    {
+      "id": "perpme/branchpoint/outrive",
+      "reason": "hard exclude Elysium keep-out"
+    }
+  ],
+  "progress": "UF 895→911 all-in-lib soft-brush (exec_terminal NF); NEW dogeking paid LIVE; emberforge still 803/1980; digital-bomb still 867; vault FREE exhausted ~1090 Tier2; agentfleet ≤2h to 17:00CST; rgbhorse FREE; stands re-posted few hours; agent-card ~3/4444; starrys 111M/1B; wag PACTURE free~6892; bianbian tonight≈20:00CST free3333; lingji-knights 22:00CST",
+  "watchFixes": [
+    "soft-debt lastChecked: cantonPadWatch/glazeWatch/tokenWorksWatch/tokenWorksPlaygroundWatch",
+    "UF cursor 895→911; added @DOGEKINGlol to userFollowWatch + bnAgentWatch",
+    "LIVE/≤2h whatsNew refresh: agentfleet/emberforge/digital-bomb/vault-agent/agent-card/starrys/rgbhorse/stands/agent-oil/lingji-knights/elysrocket/bianbian-bnbn/wag-agent",
+    "cleared stale top-level newThisRound elysrocket (from R1206)"
+  ],
+  "pushSha": "PENDING",
+  "raceNote": "git pull --ff-only already up to date at R1207 tip before edit",
+  "xQuota": {
+    "remainingBefore": 556,
+    "remainingAfter": 535,
+    "xReads": 18,
+    "mode": "pace",
+    "softCap": 18,
+    "allocation": "UF+must resolve=1; LIVE/≤2h posts≈10 (+dogeking discovery=1); mentions=3 (Enter_Elysium/Pulse/squeek); KW=3"
+  }
+}
