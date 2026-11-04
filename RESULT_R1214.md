@@ -16,5 +16,5 @@
 - **skipped**: UF machinedotfun prior-NF skip；noxstack（Monero 协议基建，非可打 mint，不建卡）；Aura Agents 仅第三方口述无稳定官推→不收；KW 在库 agent-panda/agentzet/agentic-coin/bayc-yacht/beepz/unseen-ordo/erupt-fun；Elysium ferry spam；perpme/branchpoint/outrive 硬排除未触
 - **progress**: UF 40→56 软刷；**新收 dabai-agent 3/10k**；bianjiayou 续≈2700+；emberforge 1074→1109（链上）；garden/agentfleet 续；币牛/fishing ≤2h 确认；tenLanes KW + Elysium/Tape mentions
 - **watchFixes**: dabai-agent → bnAgentWatch+agentPadWatch+UF accounts/candidateIds；UF cursor→56；soft-debt lastChecked；LIVE/tonight/≤2h whatsNew【R1214】；清 prior newThisRound 写本轮；le2hCurrent 重排（bnbn/fishing/dabai 置顶）
-- **pushSha**: `(pending)`
+- **pushSha**: `498c898dae877854bf331bebb4d097d303f71c29`
 - **raceNote**: 开跑目标 R1213，但 `git pull --ff-only` 发现远端已完成并推送 R1213（tip 76d2af7，无 dabai）；按规则用最新+1 → **实际轮次 R1214**；未覆盖远端 R1213，在其上增量收录 dabai-agent 并续刷
