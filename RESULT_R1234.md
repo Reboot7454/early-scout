@@ -1,0 +1,21 @@
+# RESULT R1234
+
+- **round**: 1234
+- **completedAt**: 2026-11-04 23:54 CST
+- **mode**: pace · softCap 19
+- **notify**: true
+- **newThisRound**: hoodiemoneygang, velixo-market
+- **ufCursor**: 320 → 336
+- **xReads**: 19 · remainingBefore 310 → remaining 291
+- **discordPeekDeferred**: true (no Discord login / no browser Peek)
+- **dsFallback**: false
+- **le2hActionable**: true
+- **le2h**: stands 14–16UTC窗尾 exact TBD；lingji LIVE≈170/1000；robo FCFS LIVE；LOOP LIVE(RPC revert/stale≈2782)；bayc LIVE 1.5U高仿；mossling **SOLD OUT** 1000/1h；goofies明日FREE；honey-isles Founder Bees FREE 周五11/6；playhaunt FREE mint 779宣布；kalos Genesis GTD开
+- **tenLanes**: yes (打新/Agent ID｜挖矿/PoW｜台子/Meme｜GO｜Elysium｜Tape｜GIWA｜DogeEVM｜Starknet｜BN Agent/Pulse/STARX/squeek/Nutshell/BTC)
+- **mentionsChains**: Tape-mentions · Elysium/squeek-KW · Agent-ID/RH/BTC/Starknet/DogeEVM-KW
+- **userFollow**: soft-brush shard 320:336（Agent__arena/playholeshot NF→NF_skip；其余14已在库；刷 stillwater/vauban/shout/WormSwap 近帖）
+- **skipped**: discord-deferred；perpme/branchpoint/outrive keep-out；LOOP/fanbei/ember/bnbn RPC revert；Nutshell_money仍NF；AnoLaunchpad/Grokiefun 额度内未深挖；Enter_Elysium mentions本轮轮空（Tape已覆盖）
+- **progress / watchFixes**: admit hoodiemoneygang→UF/elysiumWatch；velixo-market→UF；mossling SOLD OUT；RPC刷新 lingji/orb/fly；stands窗尾费率；kalos Genesis GTD；tinylegends FREE1111 raffle；companions资格锁定；NF_skip+=Agent__arena,playholeshot；soft-debt canton/glaze/tokenWorks(+elysium/tape)；UF 320→336；clear R1233 newThisRound
+- **alertMessage**: 新收录：hoodiemoneygang(Elysium WL极早期70)、velixo-market(RH/EVM市场Creators榜LIVE65)。刷新：lingji≈170、orb≈6235、fly≈732；mossling SOLD OUT；stands窗尾；kalos Genesis GTD开。≤2h：lingji/robo/LOOP/bayc LIVE；goofies明日FREE；honey周五11/6；playhaunt779 TBD。面板 https://reboot7454.github.io/early-scout/
+- **pushSha**: PENDING
+- **dsNote**: deepseek-flash thinkingON score+alert；dsFallback=false
