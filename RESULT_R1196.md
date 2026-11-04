@@ -13,6 +13,7 @@
 - **discordPeekDeferred**: true（本执行器无浏览器；父代理请立刻 Discord Peek）
 - **dsFallback**: false · DeepSeek flash thinking score/alert；fly-ai DS skip（创世轮已开盘）
 - **le2hActionable**: true — InkWell Public≈14:00CST截止；digital-bomb≈14:30CST开铸；niulai≈15:10
+- **pushSha**: `55916bf`
 - **note**: 远程 round=1195 → 本轮 **R1196**；UF shard 已在库仅软刷；FANBEI仍无官推skip；elyword/mobster NF不重试
 
 ## New admits
