@@ -17,6 +17,6 @@
 - **skipped**: discord-deferred；perpme/branchpoint/outrive keep-out；aeroxyz成熟DEX不收；ICANDfinity非官号；Starknet mentions噪声无新号；R1238并行已收perpsons→本轮unique R1239
 - **progress / watchFixes**: admit 2→UF+elysiumWatch；RPC lingji/orb/fly；UF 384→400；soft-debt canton/glaze/tokenWorks/tape；clear R1238 newThisRound；goofies/genesis/hoodies/cosmic/glyphmind/rgbhorse soft
 - **alertMessage**: R1239 新增 materral（Elysium套利执行，官网materral.xyz）与 shiden-protocol（Elysium FREE Mint WL 1000，Tally报名，粉≈45）；面板刷新 lingji≈184、orb≈6272、fly≈1097，goofies今日FREE、genesis Access今日。详情见 https://reboot7454.github.io/early-scout/
-- **pushSha**: (pending)
+- **pushSha**: (f014947)
 - **dsNote**: deepseek-flash thinkingON admit+score+alert；dsFallback=false；materral score曾标admit:false但admit模式+Elysium Announced规则收录（同asphodel类）
 - **note**: 并行agent已推R1238（perpsons）；本执行器将独有Elysium项作为R1239落地。任务原文R1238因碰撞顺延。
