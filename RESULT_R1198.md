@@ -13,7 +13,7 @@
 - **discordPeekDeferred**: true（本执行器无浏览器；父代理请立刻 Discord Peek）
 - **dsFallback**: false · DeepSeek flash thinking admit/score/alert
 - **le2hActionable**: true — InkWell Public≈14:00CST已截止；digital-bomb≈14:30CST开铸前800免；niulai≈15:10付费窗
-- **pushSha**: `(pending)`
+- **pushSha**: `f996d985ae45a8c29fd2cdebc9d54d0247ec17aa`
 - **note**: 远程 round=1197 → 本轮 **R1198**；UF shard 均已在库仅软刷；oblaunchpadAll/mint_WRIT NF；babycz_ai SUSPENDED；FANBEI仍无官推skip；elyword/mobster/starx/AiGentAuto NF不重试；OpenEmber DS skip
 
 ## New admits
