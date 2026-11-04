@@ -17,4 +17,4 @@
 - **skipped**: starx_xlayer-NF；elysiumpepecoin-NF；fanbeimao/@isaiasneira18-suspended；discord-deferred；cogitoAgents-no-new-official（KW噪点）
 - **progress / watchFixes**: 币牛 LIVE RPC totalShares≈804 freeRem≈2529；flywheel 552→567；emberforge 1146→1151/1980 (total 1171)；notochord → elysiumWatch；soft-debt lastChecked bump；UF 120→136
 - **alertMessage**: R1221 新收录 notochord/@notochordx（Elysium Experiment 177，$CHORD，score58，无 mint 窗）；≤2h 币牛/bnbn FREE LIVE≈804/9999（免剩≈2529/3333）、fishing ROD LIVE@0.005BNB、panba≈20:30、amber≈21:00、lingji/knights+bayc≈22:00，flywheel≈567、emberforge FREE≈1151/1980 续跑——盯盘 https://reboot7454.github.io/early-scout/
-- **pushSha**: PENDING
+- **pushSha**: 0a8469b
