@@ -1,0 +1,39 @@
+{
+  "round": 1249,
+  "notify": true,
+  "alertMessage": "R1249 新收 HypurrLabs(@HypurrLabs) Solana Pad LIVE（score76）+ McpPad(@TheMcpPad) Claude MCP 发币/$PAD LIVE（score81）。≤2h可操作：vanta FREE≈340/350；ripstack FREE EA前555；SAP≈139；lingji≈187；orb≈6304；fly≈1200；w3l≈38；goofies今日FREE；genesis Access今日；wobblokz FREE；bnbbaby FREE≈12456；moonfall FREE WL今日12:00UTC；fairagent前2000 FREE；kismo GTD R1；honey周五11/6；play-quan/mindcaster付费只报。详情见 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "hypurrlabs",
+    "mcp-pad"
+  ],
+  "xReads": 10,
+  "remainingBefore": 187,
+  "remaining": 178,
+  "mode": "tight",
+  "softCap": 15,
+  "ufCursor": {
+    "before": 560,
+    "after": 575
+  },
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinkingON; hypurrlabs=76 admit; mcp-pad=81 admit; clankdexer=48 skip; alert DS+manual panel URL",
+  "tenLanes": true,
+  "le2hActionable": true,
+  "le2h": "vanta FREE≈340/350；ripstack FREE EA前555；SAP≈139；lingji≈187；orb≈6304；fly≈1200；w3l≈38；goofies今日；genesis今日；wobblokz FREE；bnbbaby FREE≈12456；moonfall FREE WL今日12UTC；fairagent前2000 FREE；kismo GTD R1；honey周五11/6；topa Floor2≈2037；play-quan/mindcaster付费",
+  "pushSha": null,
+  "pushOk": null,
+  "skipped": [
+    "discord-deferred",
+    "clankdexer-too-thin",
+    "foxfire-no-new-official-x",
+    "elysium-referral-spam",
+    "keepouts",
+    "mcpad-bnb-already-in-lib",
+    "same-handle-dedup"
+  ],
+  "progress": "admit hypurrlabs+mcp-pad; RPC vanta340/orb6304/lingji187/fly1200/SAP139/w3l38/bnbbaby12456; site ripstack/wobblokz/moonfall/kismo/mindcaster/hypurr/mcppad; soft-debt; ufCursor 560→575",
+  "watchFixes": "le2h +hypurrlabs/mcp-pad; ufCursor aliases→575; soft-debt; clear R1248 newThisRound flags",
+  "mentionsChains": "tight-rotate-deferred; UF560-575 soft; KW-tenLanes",
+  "userFollow": "soft-brush 560:575; posts Volition/tolls/Tidewell (in-lib); cursor 560→575"
+}
