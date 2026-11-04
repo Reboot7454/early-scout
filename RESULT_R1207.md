@@ -16,5 +16,5 @@
 - **skipped**: UF LingjiBots=lingji-knights alt；starx_xlayer NF不重试；KW hits Mori/erupt/companions/Nutshell/dinomites/RuninAI/AgentIdETH 均已在库；mentions 噪音；TryNoahAI 非打新；Elysium keep-out 硬排除
 - **progress**: UF 879→895 全已在库软刷；emberforge 仍803/1980；digital-bomb 仍867；vault FREE已尽~1090 Tier2；agentfleet ≤2h to 17:00CST；rgbhorse FREE；stands「几小时后见」；agent-card~3/4444；starrys 111M/1B；lingji 22:00CST；无新收
 - **watchFixes**: soft-debt lastChecked cantonPadWatch/glazeWatch/tokenWorksWatch/tokenWorksPlaygroundWatch；UF cursor→895；LIVE/≤2h whatsNew 刷新
-- **pushSha**: `(pending)`
+- **pushSha**: `dda07548ac4f70ed8a3b0c404c1038c9d6904ff4`
 - **raceNote**: pull ff-only already up to date at R1206 tip; no race
