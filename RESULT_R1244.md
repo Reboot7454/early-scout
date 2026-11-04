@@ -18,3 +18,6 @@
 - **alertMessage**: R1244 无新收录。≤2h/可操作：vanta FREE first350 链上 freeLeft≈348 仍LIVE；ripstack FREE EA前555；SAP≈139/333；lingji≈187；orb≈6290；fly≈1200；w3l≈38；goofies今日FREE；genesis Access今日；wobblokz Agent ID FREE LIVE；honey周五11/6。详情见 https://reboot7454.github.io/early-scout/
 - **watchFixes**: soft-debt canton/glaze/tokenWorks；wobblokzai links+progress；ufCursor meta sync 440→488
 - **dsNote**: deepseek-flash thinkingON alert；人工修正 freeLeft 文案；dsFallback=false
+
+- **pushSha**: d54350e
+- **pushOk**: true
