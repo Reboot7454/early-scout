@@ -1,0 +1,72 @@
+{
+  "round": 1204,
+  "completedAt": "2026-11-04 15:40 CST",
+  "mode": "ample",
+  "softCap": 28,
+  "notify": true,
+  "notifyReason": "new admit stands-social + le2h emberforge/digital-bomb/vault LIVE + agentfleet<=2h to 17:00CST",
+  "newThisRound": [
+    "stands-social"
+  ],
+  "newAdmits": [
+    {
+      "id": "stands-social",
+      "handle": "@Standssocial",
+      "name": "Stands",
+      "score": 58,
+      "chain": "Elysium",
+      "status": "announced",
+      "note": "social launchpad; few hours; no site; followers≈136"
+    }
+  ],
+  "ufCursor": {
+    "from": 837,
+    "to": 853
+  },
+  "xReads": 28,
+  "remainingBefore": 602,
+  "remaining": 574,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking ON; admit/score stands-social + alertMessage",
+  "le2hActionable": true,
+  "le2h": "emberforge FREE 803/1980 Phase2; digital-bomb paid LIVE last官方867/10k; vault FREE~33/1000; agentfleet Gen0 17:00CST ≤2h; runin Tier1~900@0.0007; rgbhorse FREE",
+  "tenLanes": true,
+  "mentionsChains": [
+    "Enter_Elysium",
+    "PulseLaunchpad",
+    "GIWA",
+    "Starknet",
+    "NutshellMarkets"
+  ],
+  "alertMessage": "R1204：新收录 @Standssocial（Stands）Elysium社交launchpad Announced 粉≈136 无官网 score58；emberforge FREE PoW猛增626→803/1980 Phase2 LIVE；digital-bomb付费档续（末报867/1万）；vault-agent FREE≈33/1000；agentfleet≈17:00CST已入≤2h；runin Tier1≈900@0.0007；rgbhorse $RGB FREE续。https://reboot7454.github.io/early-scout/",
+  "skipped": [
+    {
+      "id": "alphai_onchain",
+      "reason": "Elysium bridge/Founding Traders content; not a mint/pad project"
+    },
+    {
+      "id": "nullsxyz",
+      "reason": "already in library R741; Nutshell-mention watchlist only"
+    },
+    {
+      "id": "agentplacewall/LastCall4vx",
+      "reason": "UF soft-shard Not Found; already in library"
+    },
+    {
+      "id": "starx_xlayer",
+      "reason": "prior NF cached; skip posts this round"
+    },
+    {
+      "id": "FANBEI-class",
+      "reason": "no new resolvable official X in KW hits beyond Standssocial"
+    }
+  ],
+  "progress": "UF 837→853; emberforge 626→803/1980; digital-bomb last官方867/10k; vault~33/1000; agentfleet ≤2h to 17:00CST; runin Tier1~900@0.0007; rgbhorse FREE; stands-social admitted",
+  "watchFixes": [
+    "stands-social → elysiumWatch/agentPadWatch/userFollowWatch accounts+candidateIds",
+    "soft-debt lastChecked: cantonPadWatch/glazeWatch/tokenWorksWatch/tokenWorksPlaygroundWatch"
+  ],
+  "pushSha": null,
+  "raceNote": "git pull --ff-only already up to date at R1203; no race"
+}
