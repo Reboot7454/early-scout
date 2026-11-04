@@ -16,5 +16,5 @@
 - **skipped**: alphai_onchain（内容号非项目）；nullsxyz（已在库）；UF NF agentplacewall/LastCall4vx（已在库）；starx_xlayer 缓存跳过
 - **progress**: emberforge 626→803/1980；digital-bomb last官方867/10k；vault~33/1000；agentfleet≤2h；runin Tier1~900；rgbhorse FREE
 - **watchFixes**: stands-social→elysium/agentPad/UF；soft-debt canton/glaze/tokenWorks
-- **pushSha**: `(pending)`
+- **pushSha**: `b846f2ffda4e7e915b63d1aba248306825da9625`
 - **raceNote**: pull ff-only already up to date at R1203; no race
