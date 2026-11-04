@@ -19,5 +19,5 @@
 - **watchFixes**: soft-debt canton/glaze/tokenWorks；NF_skip+3；jacks-crew；le2h lastChecked
 - **dsNote**: deepseek-flash thinkingON alert；live footer remainingBefore=213（R1244写110，以live为准）；softCap10按brief；dsFallback=false
 
-- **pushSha**: (pending)
-- **pushOk**: false
+- **pushSha**: 49cc31d
+- **pushOk**: true
