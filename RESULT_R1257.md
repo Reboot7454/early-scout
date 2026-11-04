@@ -1,0 +1,23 @@
+# RESULT R1257
+
+- round: 1257
+- notify: true
+- freeLiveForcedNotify: true
+- alertMessage: R1257无新收录。≤2h/FREE：vanta≈336/350、soul-agent≈506/5555、ripstack EA前555、SAP≈139、lingji≈188、orb≈6327、bnbbaby≈12456、cappybara≈1388、nibblets/stonk-turtle RH FREE、goofies今日、moonfall WL今日12UTC、CARDS预售开、honey周五。详情见 https://reboot7454.github.io/early-scout/
+- newThisRound: (none)
+- xReads: 8 / softCap 18 / mode tight
+- remaining: 138 → 130 (live footer; x_budget@137→tight/18)
+- ufCursor: 649 → 680
+- mentionsChains: deferred
+- tenLanes: yes (soft-debt + multi-lane LIVE progress; KW/mentions deferred)
+- discordPeekDeferred: true
+- dsFallback: true
+- le2hActionable: true
+- le2h: vanta FREE≈336/350；soul-agent≈506/5555；ripstack FREE EA前555；SAP≈139；lingji≈188；orb≈6327；fly≈1200；bnbbaby≈12456；cappybara≈1388/10000；nibblets FREE LIVE RH；stonk-turtle FREE LIVE RH；goofies今日；moonfall FREE WL今日12UTC；wobblokz FREE；fairagent前2000 FREE；agentcardshq CARDS预售；honey周五11/6；fungolabs明日12:30UTC FREE
+- progress: no admits; RPC vanta336/soul506/orb6327/SAP139/lingji188/fly1200/bnbbaby12456/cappybara1388; site ripstack/goofies/moonfall; UF soft-brush 649→680; agentcardshq CARDS预售; soft-debt; clear R1256 newThisRound
+- watchFixes: le2h RPC+site refresh; soul-agent CA+onchain; agentcardshq presale; UF cursor→680; soft-debt Canton/Glaze/TokenWorks; clear R1256 newThisRound
+- userFollow: soft-brush 649:680; NF beatdotfamily/nonamespnft/heyribbid/certuna_rh; rest already-in-lib; cursor 649→680
+- keywords: deferred (tight pacing toward 08:00 CST reset)
+- skipped: discord-deferred, KW-deferred-tight-pacing, mentions-deferred-tight-pacing, NF-beatdotfamily, NF-nonamespnft, NF-heyribbid, NF-certuna_rh, already-in-lib-UF-slice-649-680, same-handle-dedup, keepouts, no-new-early-candidates-this-UF-window, lettucegrow-0-tweets, hornyhood-GTD-not-mint-yet
+- completedAt: 2026-11-05 07:05 CST
+- pushSha: (pending)
