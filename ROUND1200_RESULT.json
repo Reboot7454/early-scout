@@ -1,0 +1,96 @@
+{
+  "round": 1200,
+  "completedAt": "2026-11-04 14:32 CST",
+  "mode": "ample",
+  "softCap": 28,
+  "notify": true,
+  "notifyReason": "3 new admits + digital-bomb/niulai still le2h",
+  "newThisRound": [
+    "e402-agents",
+    "hesperia-trade",
+    "launchonelysium"
+  ],
+  "newAdmits": [
+    {
+      "id": "e402-agents",
+      "handle": "e402agents",
+      "score": 62,
+      "line": "Elysium AI agent trust/HTTP402; 2fl; no mint window"
+    },
+    {
+      "id": "hesperia-trade",
+      "handle": "Hesperiatrade",
+      "score": 55,
+      "line": "Elysium fair-launch pad; 0fl; no CA yet"
+    },
+    {
+      "id": "launchonelysium",
+      "handle": "launchonelysium",
+      "score": 52,
+      "line": "$ELYSIUM-named pad; name-collision risk; observe"
+    }
+  ],
+  "ufCursor": {
+    "from": 777,
+    "to": 793
+  },
+  "xReads": 28,
+  "remainingBefore": 654,
+  "remaining": 626,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking ON; admit e402/hesperia/launchonelysium; skip MicroFrens/AlphaElysium",
+  "le2hActionable": true,
+  "le2h": "digital-bomb LIVE ~14:30 CST free#1-800; niulai ~15:10; InkWell closed",
+  "tenLanes": true,
+  "mentionsChains": [
+    "Enter_Elysium",
+    "PulseLaunchpad",
+    "GIWA",
+    "Starknet"
+  ],
+  "alertMessage": "R1200 新收e402agents/Hesperiatrade/launchonelysium(撞名风险)；≤2h：digital-bomb≈14:30开铸前800免、niulai≈15:10；FREE LIVE续starrys/emberforge/agent-card。面板 https://reboot7454.github.io/early-scout/",
+  "skipped": [
+    {
+      "id": "microfrens",
+      "reason": "DS skip not early / generic NFT giveaway"
+    },
+    {
+      "id": "alphaelysium",
+      "reason": "no verifiable profile this round"
+    },
+    {
+      "id": "AiPullpad",
+      "reason": "UF shard NF"
+    },
+    {
+      "id": "oblaunchpadbase",
+      "reason": "UF shard NF"
+    },
+    {
+      "id": "bianfenhong",
+      "reason": "UF shard NF"
+    },
+    {
+      "id": "Morumai_",
+      "reason": "UF shard NF"
+    },
+    {
+      "id": "starx_xlayer",
+      "reason": "NF prior/this round no retry"
+    },
+    {
+      "id": "mobster_meme",
+      "reason": "NF prior/this round no retry"
+    },
+    {
+      "id": "Leeonmort",
+      "reason": "NF this round"
+    }
+  ],
+  "progress": "UF 777→793; digital-bomb LIVE; agent-card ~4/4444; emberforge 285/1980; snakeid Jolly free~2151; outlaws testnet mint tonight",
+  "watchFixes": [
+    "e402-agents/hesperia-trade/launchonelysium → elysiumWatch/userFollowWatch"
+  ],
+  "pushSha": "pending"
+}
