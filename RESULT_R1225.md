@@ -1,0 +1,21 @@
+# RESULT R1225
+
+- **round**: 1225
+- **completedAt**: 2026-11-04 21:21 CST
+- **mode**: pace · softCap 18
+- **notify**: true — 新收录 agentorb FREE LIVE + fanbeimao paused→FREE LIVE + ≤2h（LOOP/币牛/amber/lingji/bayc）
+- **newThisRound**: ["agentorb"]
+- **ufCursor**: 178 → 194
+- **xReads**: 8 · remainingBefore 275 → remaining 270（live tool footers；R1224 远端竞态后本轮计数）
+- **discordPeekDeferred**: true (no Discord login / no browser Peek)
+- **dsFallback**: false
+- **le2hActionable**: true
+- **le2h**: LOOP LIVE≈2446/8000；币牛 FREE≈961/freeRem≈2372；fanbeimao FREE LIVE sold≈582/10k；amber dig NOW；lingji/knights+bayc≈22:00；LIVE emberforge FREE≈1175/1980 · flywheel≈622 · panba sold≈850 · acres freeRem≈490 · digital-bomb 973 · agentorb FREE≈6158/10k · fishing ladder · dabai/garden/agentfleet/kingpin · ash-burn imminent · stands-social 今日14–16UTC窗口
+- **tenLanes**: yes (打新/Agent ID｜挖矿/PoW｜台子/Meme｜GO｜Elysium｜Tape｜GIWA｜DogeEVM｜Starknet｜BN Agent/Pulse/STARX/squeek/Nutshell/BTC)
+- **mentionsChains**: Zero (@zerodotnetwork empty ~30m) · Irys (@irys_xyz empty) · ShieldedNaka/BTC · BN-Agent-KW · Elysium/Tape/Starknet-KW · flap/Full/Arc resolve
+- **userFollow**: soft-brush shard 178:194（jachtpack/hoodclub/SnarksPad/rivalkin/mim/solvillage/sleepexc/kept/Ship/Bubble/rons/kalos/Elysdex/Wheelpad OK；AGENTICABOT/HashOre_BNB NF skip）；全员已在库；SolVillage 11/5 开服续
+- **skipped**: AGENTICABOT-NF；HashOre_BNB-NF；arcpulse-DS-skip(无mint窗)；kurvedotfamily-0粉空bio；AGENTO-无官推(FakeAvcisiTR)；WIZARDS-spam；discord-deferred；perpme keep-out；starx_xlayer NF_skip不重锤
+- **progress / watchFixes**: **collision** 远端已推 R1224(elypunks/justrekt)→本轮升 R1225；admit agentorb→freeMintWatch/agentPadWatch；fanbeimao paused→LIVE FREE sold≈582 CA 0x824d…De16；LOOP sold≈2446；币牛961/free2372；panba850；acres260/750；ember1175；fly622；bomb973；amber dig LIVE；stands-social 今日窗口+site；hackedbyagent waitlist LIVE；soft-debt canton/glaze/tokenWorks lastChecked；UF 178→194；clear R1224 newThisRound
+- **alertMessage**: R1225 新收录 agentorb/@AgentOrbb（BNB Agent ID NFT 首铸FREE LIVE≈6158/10k，score78）；fanbeimao FREE LIVE sold≈582；≤2h：LOOP≈2446/8000、币牛 FREE≈961、amber dig NOW、lingji/bayc≈22:00、emberforge FREE≈1175、panba/acres FREE——盯盘 https://reboot7454.github.io/early-scout/
+- **pushSha**: (pending)
+- **collisionNote**: tasked R1224 but remote tip already R1224 (elypunks+justrekt-tool) → continued as R1225
