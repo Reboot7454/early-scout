@@ -1,0 +1,102 @@
+{
+  "round": 1179,
+  "mode": "ample",
+  "softCap": 28,
+  "completedAt": "2026-11-04 08:46 CST",
+  "notify": true,
+  "notifyReason": "真新 admit exec-terminal (@exec_terminal)；今日窗尚未≤2h",
+  "alertMessage": "【R1179】新增 EXEC(@exec_terminal) BNB 48h Agent proof-of-uptime 打新 LIVE（粉≈1/score71，结束11/5 16:58CST）。FREE LIVE 续 litbnb/agio/suoha/dinomites/merklewood/bianlingdi/unbroken/chessgenesis/un-written 等；今日窗 digital-bomb≈14:30、merklewood LP≈16:00、agentfleet≈17:00、agent-acres/panba≈20:30、amber≈21:00 均未≤2h。关注 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "exec-terminal"
+  ],
+  "round1179Added": [
+    "exec-terminal"
+  ],
+  "newAdmits": [
+    {
+      "id": "exec-terminal",
+      "handle": "exec_terminal",
+      "score": 71,
+      "zone": "打新",
+      "note": "BNB 48h Agent proof-of-uptime LIVE · 粉≈1 · ends 11/5 16:58CST · exec.best"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "dgf-card",
+      "reason": "DS admit=false 无独立官推仅低粉转发"
+    },
+    {
+      "id": "ChyAI_Official",
+      "reason": "UF shard Not Found"
+    },
+    {
+      "id": "halfhook",
+      "reason": "UF shard Not Found"
+    },
+    {
+      "id": "Luna_Birds",
+      "reason": "suspended skip no re-probe"
+    },
+    {
+      "id": "useampad",
+      "reason": "prior probe Not Found；本轮不连刷；卡链接暂保留"
+    }
+  ],
+  "ufCursor": {
+    "before": 437,
+    "after": 463
+  },
+  "xReads": 25,
+  "remainingBefore": 949,
+  "remainingAfter": 924,
+  "tenLanes": true,
+  "mentionsChains": [
+    "BN-Agent/free-mint-kw",
+    "Elysium-mainnet-reg",
+    "GIWA-Ammora/Gamapad",
+    "BTC-ShieldedNaka/RGBHorse",
+    "Tape/GIWA/DogeEVM/Starknet-kw",
+    "launchpad-meme-GO-Arc-kw"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "le2hActionable": true,
+  "basedFreeClosed": true,
+  "le2hNote": "FREE LIVE 续；digital-bomb14:30；merklewood LP16:00；agentfleet17:00；agent-acres/panba20:30；amber21:00；均未≤2h @08:46；AgentryBAW free CLOSED",
+  "progress": {
+    "litbnb": "FREE LIVE · cells≈277 · free claimed≈272 / free left≈172 · ends 11/6 22:37CST",
+    "dinomitesnft": "237/5555 FREE LIVE (agent-only)",
+    "agio": "FREE LIVE · 600 agents · Skills live · minting resumed",
+    "suoha": "FREE first 1000 LIVE",
+    "merklewood": "FREE NFT LIVE · Launchpad 今日16:00CST (08:00 UTC) 官宣确认",
+    "bianlingdi": "FREE 500 LIVE",
+    "unbroken-bnb": "3507/10000 (35%) · first free · Agent ID",
+    "chessgenesis": "FREE first LIVE · 7777 cards · Phase1 open",
+    "un-written": "FREE first inscription LIVE · >1000/8888 minted",
+    "agentic-hive": "Mint LIVE · LP opens at 5k mints · .ai Agent ID only",
+    "codex-agentic": "FREE mint LIVE · 370/6666 · Agentic Wallet",
+    "cosmic-macabre": "FREE first LIVE · ≈1980/3131 · Golden Patch batch free",
+    "digital-bomb": "opens ≈14:30CST free#1-800 · mint link live",
+    "agent-acres": "opens 20:30CST · 750 FREE + 750@0.001BNB",
+    "panba-emoji": "free opens 20:30CST · first 2000 for .ai Agent IDs",
+    "amber-pow": "dig 21:00CST",
+    "agentfleet": "Gen0 opens 17:00CST (09:00 UTC)",
+    "agentrybaw": "18330/50000 · free 10k CLOSED · paid spots≈10231",
+    "pulse-launchpad": "pairs LIVE · $PULSE/USDG/stocks",
+    "ampad": "LIVE · AMD-suffix PoW mint · Meteora DBC · 粉≈0 · @useampad prior NF",
+    "luna-birds": "X @Luna_Birds SUSPENDED",
+    "exec-terminal": "LIVE · 48h uptime game · ends 11/5 16:58CST · 粉≈1"
+  },
+  "watchFixes": [
+    "agentPadWatch.accounts+=@exec_terminal",
+    "agentPadWatch.candidateIds+=exec-terminal",
+    "userFollowWatch.accounts+=@exec_terminal",
+    "userFollowWatch.candidateIds+=exec-terminal",
+    "nfSkip+=ChyAI_Official,halfhook",
+    "softDebt lastChecked refresh",
+    "ampad @useampad prior NF noted (no re-probe)"
+  ],
+  "summary": "R1179 ample/softCap28: admit exec-terminal(@exec_terminal BNB 48h Agent proof-of-uptime score71 粉≈1 ends11/5). FREE LIVE refresh. UF437→463. tenLanes KW. discordPeekDeferred. xReads≈25 (949→924). notify=true",
+  "pushSha": null
+}
