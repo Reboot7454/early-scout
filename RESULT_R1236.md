@@ -17,5 +17,5 @@
 - **skipped**: discord-deferred；starx_xlayer NF(reconfirm)；perpme/branchpoint/outrive keep-out；LOOP/fanbei/ember/web3/eggs RPC totalSupply|totalSold revert；Nutshell_money仍NF；MedalBeasts/SmileQuokka已在库仅软刷
 - **progress / watchFixes**: admit 3→UF+对应Watch（eggs→bnAgent+agentPad+freeMint；vela→elysium；packswap→dogeEvm）；RPC lingji175/orb6251/fly1082↑；elysium-machines刷新周五开盘；goofies今日FREE续；NF_skip+=Headroom_X/starx_xlayer；soft-debt canton/glaze/tokenWorks(+elysium/tape)；UF 352→368；clear R1235 newThisRound
 - **alertMessage**: 新增 Agent Eggs/灵蛋纪（BNB Agent FREE LIVE 前3000免费）、Vela（Elysium跟单vault 极早期）、PackSwap（DogeOS DEX LIVE）；lingji LIVE≈175/1000、robo FCFS、goofies/honey/playhaunt FREE、elysium-machines 周五11/6 15:00UTC，详见 https://reboot7454.github.io/early-scout/
-- **pushSha**: (pending)
+- **pushSha**: (1a0a656)
 - **dsNote**: deepseek-flash thinkingON score+alert；dsFallback=false；admit eggs70/vela46/packswap44
