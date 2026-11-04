@@ -19,6 +19,6 @@
 - **watchFixes**: freeMintWatch+UF candidateIds 补 perps-pad/metafishtank；le2hCurrent刷新；NF_skip+Villagers_RH；ufCursor全别名→597；soft-debt；ombrello Tampesta GTD窗刷新
 - **dsNote**: deepseek-flash thinkingON；perps-pad=64 admit；metafishtank=73 admit；alert DS+panel URL；dsFallback=false；live rem footer 178→168 tight
 
-- **pushSha**: PENDING
-- **pushOk**: PENDING
+- **pushSha**: 4327418
+- **pushOk**: true
 - **note**: Parent brief expected R1250 but origin/main already had R1250@zunki. Unique work shipped as **R1251**.
