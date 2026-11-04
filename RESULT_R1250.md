@@ -19,6 +19,6 @@
 - **watchFixes**: agentPadWatch补挂 mindcaster-genesis；freeMintWatch补挂 zunki；trackedNew+UF candidateIds 补 hypurrlabs/mcp-pad/mindcaster/zunki；le2hCurrent刷新；NF_skip+bibiainft/Trysmolpadfun；ufCursor全别名→587；soft-debt
 - **dsNote**: deepseek-flash thinkingON；zunki overall55 admit（免费EA登记→强制notify）；Ascend/Ammora已在库不重收；dsFallback=false；live rem≈74 tight（budget脚本178过时，以X footer为准）
 
-- **pushSha**: (pending)
-- **pushOk**: (pending)
+- **pushSha**: 295539e
+- **pushOk**: true
 - **note**: Parent brief asked R1249 but origin/main already had R1249@6fe2068 (hypurrlabs+mcp-pad). Unique work shipped as **R1250**.
