@@ -16,5 +16,5 @@
 - **skipped**: RamsesExchange（已成盘DEX非极早期）；FANBEI/ORZO/AGC（无官推可核）；AlliumLabs（基建）；UF NotFound已在库
 - **progress**: emberforge 501→626/1980；digital-bomb last官方867/10k；vault~33/1000；runin Tier1~900；rgbhorse FREE
 - **watchFixes**: lingji-knights 主X→@KnightsAgentTbl（LingjiBots改alt）；+UF/agentPad/bnAgent/freeMint
-- **pushSha**: (pending)
-- **raceNote**: (pending pull)
+- **pushSha**: `b18c3f32fe8c8b7c30a5a2bb1191439ff55f4d4c`
+- **raceNote**: pull ff-only already up to date at R1202; no race
