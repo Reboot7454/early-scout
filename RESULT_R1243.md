@@ -17,6 +17,6 @@
 - **skipped**: discord-deferred；perpme/branchpoint/outrive；MarsNexus scam告警（已在库，更新whatsNew）；Elysium mainnet referral spam；squeek farming noise；UF NF
 - **progress / watchFixes**: admit vanta→UF+agentPadWatch；RPC lingji/orb/fly/SAP/w3l；soft-debt；sigils minted-out；hootcast 2000+；clear R1242 newThisRound
 - **alertMessage**: R1243 新收录 vanta（@VantAgent）：BNB Agent 原生代币 LIVE，前350份 FREE（链上 freeLeft≈349），token 0xF8CF…E1A7 / minter 0x78Fb…dC64，粉≈3，score70。面板刷新 ripstack FREE EA续、SAP≈139/333、goofies今日FREE WL、genesis Access今日、lingji≈184、orb≈6284、fly≈1200、w3l≈38。详情见 https://reboot7454.github.io/early-scout/
-- **pushSha**: (pending)
+- **pushSha**: dce2977
 - **dsNote**: deepseek-flash thinkingON admit+score+alert；dsFallback=false；vanta admit=true overall70
 - **note**: wake时footer remaining≈230（非R1242末120；以live footer为准）；mode pace softCap18（eveningReserve）
