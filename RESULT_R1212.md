@@ -16,5 +16,5 @@
 - **skipped**: UF Seethebsc/LuckyAgent_bsc/TapeFractal/sunrigfun NF、Charzardxpox suspended→NF_skip；agentine-bsc DS拒（80%税+2016旧号回收）；ACAT仅第三方shill无专属官推；AGENTO仅@FakeAvcisiTR；Elysium ferry spam；在库 strata/gang-agent/jadestx/heroes-elysium/crt-codes/bbf/panba/elynx 等
 - **progress**: UF 8→24 软刷；**新收 garden-ecosystem**；**bianjiayou 827→1310**；agentfleet 开源验证续；digital-bomb 971；emberforge 1027；vault~1090；wag FREE≈6892；今晚币牛/fishing 20:00、panba/acres 20:30、lingji 22:00
 - **watchFixes**: garden-ecosystem → bnAgentWatch+UF+agentPadWatch；补全 R1211 agent-only-bsc 缺 score/handle/x；soft-debt lastChecked；UF cursor→24；NF_skip+=5；LIVE/tonight whatsNew【R1212】；清 prior newThisRound 写本轮；le2hCurrent/tonight 重排
-- **pushSha**: `(pending)`
+- **pushSha**: `606fbcce14beda6de2d24b1ac020f21b7ec30827`
 - **raceNote**: 开跑目标 R1211，但 `git pull --ff-only` 发现远端已完成并推送 R1211（tip 2d45b7e / pushSha d72d892）；按规则用最新+1 → **实际轮次 R1212**；未覆盖远端 R1211 改动，在其上增量续跑
