@@ -19,5 +19,5 @@
 - **watchFixes**: soft-debt canton/glaze/tokenWorks；le2h lastChecked；watches.le2h +play-quan/fairagent；elysiumWatch +Enter_Elysium；UF NF_skip +3
 - **dsNote**: deepseek-flash thinkingON admit+alert；live footer remainingBefore=203（R1246写100，以live为准→pace softCap18）；dsFallback=false
 
-- **pushSha**: (pending)
-- **pushOk**: pending
+- **pushSha**: 8a60b0a
+- **pushOk**: true
