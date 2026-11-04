@@ -13,7 +13,7 @@
 - **discordPeekDeferred**: true（本执行器无浏览器；父代理请立刻 Discord Peek）
 - **dsFallback**: false · DeepSeek flash thinking admit/score（本执行器 R1198 竞态时 DS overall78 admit；远程并行轮 skip）
 - **le2hActionable**: true — digital-bomb≈14:30–14:32CST开铸；niulai≈15:10；InkWell已截止（见 R1198）
-- - **pushSha**: `9e86b0362b931b6fadc0b9209363cfcb45e60aca`
+- **pushSha**: `5f13fad4588b08c8467995d46e02ec7850c1df06`
 - **note**: 本执行器原任务 R1198，但远程并行轮先推完 R1198（new=[]、OpenEmber skip）。按 HANDOFF Elysium=Announced+explicit deploy 复核 → **R1199** 收录 open-ember。
 
 ## New admits
