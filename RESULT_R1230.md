@@ -20,4 +20,4 @@
   刷新：zombiesanatomy FREE MINT COMING 征钱包；robo GTD→FCFS LIVE
   ≤2h：lingji LIVE≈124；bayc LIVE(1.5U高仿)；stands 14–16UTC；LOOP≈2215+；币牛/amber/PACTURE/orb≈6197/ember/fly≈677；goofies明日FREE
   面板 https://reboot7454.github.io/early-scout/
-- **pushSha**: PENDING
+- **pushSha**: 8c93529
