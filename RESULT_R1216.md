@@ -16,5 +16,5 @@
 - **skipped**: bnb-runnerz=远端 bnbrunnerz 不重复收；flywheel-agent 已在 R1215；anxiaojian无官推；UF NF 写入；Elysium ferry；硬排除未触；discord peek deferred；R1216 无新 UF 分片
 - **progress**: 远端已 R1215 → **本轮 R1216 新收 ash-burn**；UF cursor 修复→72；amber CA / lingji 站点补链；≤2h 续盯
 - **watchFixes**: ufCursor 对齐72；NF_skip×3；ash-burn 入库；清 prior newThisRound；soft-debt；le2h/tonight 刷新
-- **pushSha**: `(pending)`
+- **pushSha**: `450a7663a19342cbd8b2cf28d57821e4bc98c518`
 - **raceNote**: 开跑目标 R1215，远端 tip 已是 R1215（1ea86d4，bnbrunnerz+flywheel-agent）；按规则 latest+1 → **实际轮次 R1216**；未覆盖远端 R1215
