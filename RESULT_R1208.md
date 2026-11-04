@@ -16,5 +16,5 @@
 - **skipped**: UF exec_terminal NF；starx_xlayer NF不重试；wisp空投引流 DS拒收；KW hits AgentIdETH/Mori/erupt/dither/Fungo/pocketpad 等均已在库；mentions 噪音；Elysium keep-out 硬排除
 - **progress**: UF 895→911 全已在库软刷（exec_terminal NF）；新收 dogeking；emberforge 仍803/1980；digital-bomb 仍867；vault FREE已尽~1090 Tier2；agentfleet ≤2h to 17:00CST；wag PACTURE免费剩≈6892；币牛≈20:00CST前3333免；lingji 22:00CST
 - **watchFixes**: soft-debt lastChecked cantonPadWatch/glazeWatch/tokenWorksWatch/tokenWorksPlaygroundWatch；UF cursor→911；@DOGEKINGlol 入 UF+bnAgentWatch；LIVE/≤2h whatsNew 刷新；清掉顶层残留 elysrocket newThisRound
-- **pushSha**: `PENDING`
+- **pushSha**: `62ad9ae0555299af94a556f942ae87c4a9a7492c`
 - **raceNote**: pull ff-only already up to date at R1207 tip; no race
