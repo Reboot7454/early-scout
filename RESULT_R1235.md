@@ -17,5 +17,5 @@
 - **skipped**: discord-deferred；aeroxyz(成熟DEX Day1，DS admit=false)；perpme/branchpoint/outrive keep-out；LOOP/fanbei/ember/bnbn RPC revert；Nutshell_money仍NF；launchhive_ai/404Naroba 0粉spam
 - **progress / watchFixes**: admit 5→UF+对应Watch；elysium-genesis→elysiumWatch+freeMint；topa→bnAgent+agentPad；RH三件→xChainPad+freeMint；goofies刷新今日FREE；RPC lingji/orb/fly；NF_skip+=5；soft-debt canton/glaze/tokenWorks(+elysium/tape)；UF 336→352；clear R1234 newThisRound
 - **alertMessage**: 新收录：mauverse-club(RH0.0039 WL64)、the-wurms(RH mint soon60)、lichward(RH GameFi EA73)、elysium-genesis(FREE Access今日77)、topa-agent(BNB Agent付费LIVE Floor1≈96 68)。关键刷新：lingji≈174、orb≈6240、fly≈732，goofies今日FREE checker LIVE；≤2h可操作：lingji/robo/LOOP/bayc LIVE、goofies今日FREE、honey周五11/6、playhaunt779 TBD。完整面板 https://reboot7454.github.io/early-scout/
-- **pushSha**: (pending)
+- **pushSha**: (57ee634)
 - **dsNote**: deepseek-flash thinkingON score+alert；dsFallback=false；skip aeroxyz
