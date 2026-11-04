@@ -1,0 +1,87 @@
+{
+  "round": 1196,
+  "completedAt": "2026-11-04 13:40 CST",
+  "mode": "ample",
+  "softCap": 28,
+  "notify": true,
+  "notifyReason": "2 new admits + InkWell/digital-bomb/niulai ≤2h",
+  "newThisRound": [
+    "fishing-ai",
+    "mulle-protocol"
+  ],
+  "newAdmits": [
+    {
+      "id": "fishing-ai",
+      "handle": "FishingAiBSC",
+      "score": 82,
+      "line": "ROD box presale tonight 20:00CST 2000@0.005BNB/.ai; fishingai.app"
+    },
+    {
+      "id": "mulle-protocol",
+      "handle": "MulleProtocol",
+      "score": 64,
+      "line": "GIWA RWA Phase3 watch; AMA 11/11 KST; no instant mint"
+    }
+  ],
+  "ufCursor": {
+    "from": 729,
+    "to": 745
+  },
+  "xReads": 25,
+  "remainingBefore": 716,
+  "remaining": 691,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking ON score+alert; fly-ai admit=false (launched); fishing-ai/mulle-protocol admitted",
+  "le2hActionable": true,
+  "le2h": "InkWell Public ends ~14:00 CST; digital-bomb opens ~14:30; niulai ~15:10; FREE LIVE",
+  "tenLanes": true,
+  "mentionsChains": [
+    "Starknet",
+    "GIWA",
+    "BN pads",
+    "Enter_Elysium",
+    "Pulse"
+  ],
+  "alertMessage": "R1196 新收fishing-ai(@FishingAiBSC)今晚20:00 ROD盲盒预售、mulle-protocol(@MulleProtocol) GIWA观察；InkWell≈14:00截止、digital-bomb≈14:30开铸、niulai≈15:10≤2h。面板 https://reboot7454.github.io/early-scout/",
+  "skipped": [
+    {
+      "id": "fly-ai",
+      "reason": "genesis already launched; DS skip"
+    },
+    {
+      "id": "fanbei",
+      "reason": "no official X"
+    },
+    {
+      "id": "elyword_xyz",
+      "reason": "NF prior no retry"
+    },
+    {
+      "id": "mobster_meme",
+      "reason": "NF prior no retry"
+    },
+    {
+      "id": "vytraqfun",
+      "reason": "UF shard NF"
+    },
+    {
+      "id": "hyperlinkdotfun",
+      "reason": "UF shard NF"
+    },
+    {
+      "id": "lazabitmeme",
+      "reason": "UF shard NF"
+    },
+    {
+      "id": "XiangHao91647",
+      "reason": "UF shard NF"
+    }
+  ],
+  "progress": "UF729→745; 2 admits; InkWell+digital-bomb+niulai ≤2h; fishing ROD tonight 20:00; bayc 22:00; soft-debt Canton/Glaze/TokenWorks; tenLanes+BTC/Starknet KW; mentions rotate Starknet/GIWA/BN/Elysium/Pulse",
+  "watchFixes": [
+    "fishing-ai → bnAgentWatch/freeMintWatch/agentPadWatch/userFollowWatch",
+    "mulle-protocol → giwaWatch/userFollowWatch"
+  ],
+  "pushSha": null
+}
