@@ -17,4 +17,4 @@
 - **skipped**: usejackbay-NF；DubbllePadX-NF；pacture 同号合并进 wag-agent 刷新；BOGENT无官推；discord-deferred；perpme keep-out
 - **progress / watchFixes**: admit **nibblers-ely**（Elysium Free Mint allowlist，≠RH nibblers）· **pairity**（Solana配对launchpad LIVE）· **novus-agent**（RH今日新号）；**wag-agent** 叙事切  FREE LIVE；**fanbeimao** 官推 SUSPENDED；soft-debt canton/glaze/tokenWorks；UF 194→210；clear R1225 newThisRound
 - **alertMessage**: R1226 新收录 nibblers-ely/@NibblersELY（Elysium Free Mint白名单）、pairity/@Pairitydotwtf（Solana配对launchpad LIVE）、novus-agent/@trynovusagent（RH今日新号）；≤2h：lingji/bayc≈22:00CST、stands-social 14–16UTC窗、LOOP/币牛/amber/PACTURE FREE、agentorb≈6172；fanbeimao官推已SUSPENDED——盯盘 https://reboot7454.github.io/early-scout/
-- **pushSha**: (pending)
+- **pushSha**: cbbfc1a
