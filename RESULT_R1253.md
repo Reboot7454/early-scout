@@ -19,5 +19,5 @@
 - **watchFixes**: freeMintWatch+candidateIds 补 hallofash；le2hCurrent/Note刷新；NF_skip+MonsterRH_/Derpagent_/UseHyperLiquid；ufCursor全别名→617；soft-debt
 - **dsNote**: deepseek-flash thinkingON；hallofash=74 admit；mushi=56 skip低新颖；alert DS短句+面板/≤2h扩写；dsFallback=false；live rem footer 167→156 tight
 
-- **pushSha**: PENDING
-- **pushOk**: PENDING
+- **pushSha**: 1dec51d
+- **pushOk**: true
