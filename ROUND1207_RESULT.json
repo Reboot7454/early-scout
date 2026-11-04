@@ -1,0 +1,71 @@
+{
+  "round": 1207,
+  "completedAt": "2026-11-04 16:24 CST",
+  "mode": "pace",
+  "softCap": 18,
+  "notify": true,
+  "notifyReason": "agentfleet Gen0 17:00CST still ≤2h (~35min) + LIVE free/paid refreshes (no new admits)",
+  "newThisRound": [],
+  "newAdmits": [],
+  "ufCursor": {
+    "from": 879,
+    "to": 895
+  },
+  "xReads": 17,
+  "remainingBefore": 573,
+  "remaining": 556,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking ON; alertMessage drafted (no new admits to score)",
+  "le2hActionable": true,
+  "le2h": "agentfleet Gen0 17:00CST ≤2h(~35min); emberforge FREE 803/1980 Phase2; digital-bomb paid LIVE 867/10k; vault FREE exhausted → Tier2 0.0014BNB ~1090; rgbhorse FREE; agent-oil/agent-card/starrys FREE LIVE; stands few-hours; lingji-knights 22:00CST (not yet ≤2h)",
+  "tenLanes": true,
+  "mentionsChains": [
+    "TapeAIAgent",
+    "ShieldedNaka",
+    "flapdotsh"
+  ],
+  "alertMessage": "R1207：本轮无真新收录。agentfleet Gen0今日17:00CST（约35min）需盯，官链开铸时放出；emberforge FREE 803/1980；digital-bomb付费867/10k@0.002BNB；vault FREE尽→Tier2@0.0014BNB(~1090)；agent-card~3/4444；starrys 111M/1B；rgbhorse FREE；stands「几小时后见」；lingji-knights 22:00CST开铸续。https://reboot7454.github.io/early-scout/",
+  "skipped": [
+    {
+      "id": "LingjiBots",
+      "reason": "UF shard hit; already linked as altX on lingji-knights (R1161) — soft-refresh only"
+    },
+    {
+      "id": "starx_xlayer",
+      "reason": "known NF prior rounds; do not retry"
+    },
+    {
+      "id": "Mori/erupt/companions/Nutshell/dinomites/RuninAI/AgentIdETH",
+      "reason": "KW/mentions hits already in library"
+    },
+    {
+      "id": "Tape/ShieldedNaka/flap mentions",
+      "reason": "social noise / no new resolvable early project"
+    },
+    {
+      "id": "TryNoahAI",
+      "reason": "quest/points product update; not clear early mint admit under softCap"
+    },
+    {
+      "id": "perpme/branchpoint/outrive",
+      "reason": "hard exclude Elysium keep-out"
+    }
+  ],
+  "progress": "UF 879→895 all-in-lib soft-brush (LingjiBots=lingji-knights alt); emberforge still 803/1980; digital-bomb still 867; vault FREE exhausted ~1090 Tier2; agentfleet ≤2h to 17:00CST; rgbhorse FREE; stands re-posted few hours; agent-card ~3/4444; starrys 111M/1B; lingji-knights 22:00CST; NO new admits",
+  "watchFixes": [
+    "soft-debt lastChecked: cantonPadWatch/glazeWatch/tokenWorksWatch/tokenWorksPlaygroundWatch",
+    "UF cursor 879→895",
+    "LIVE/≤2h whatsNew refresh: agentfleet/emberforge/digital-bomb/vault-agent/agent-card/starrys/rgbhorse/stands/agent-oil/lingji-knights"
+  ],
+  "pushSha": null,
+  "raceNote": "git pull --ff-only already up to date at R1206 tip before edit",
+  "xQuota": {
+    "remainingBefore": 573,
+    "remainingAfter": 556,
+    "xReads": 17,
+    "mode": "pace",
+    "softCap": 18,
+    "allocation": "UF+must resolve=2; LIVE/≤2h posts≈9; mentions=3 (Tape/ShieldedNaka/flap); KW=3"
+  }
+}
