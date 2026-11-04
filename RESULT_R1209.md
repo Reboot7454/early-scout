@@ -16,5 +16,5 @@
 - **skipped**: UF useampad NF；horror 0粉推广 DS拒收；已知NF不重试；KW hits 多已在库；Flap Pool Launch 基建非打新；Elysium keep-out；mentions 并入KW因 softCap
 - **progress**: UF 911→927 软刷（useampad NF）；新收 bianjiayou；emberforge 升Phase3 1027/1980；digital-bomb 仍867；vault Tier2~1090；agentfleet ≤2h to 17:00CST；wag 免费≈6892；币牛≈20:00；lingji 22:00
 - **watchFixes**: soft-debt lastChecked cantonPadWatch/glazeWatch/tokenWorksWatch/tokenWorksPlaygroundWatch；UF cursor→927；@bianjiayou 入 UF；useampad→NF_skip；LIVE/≤2h whatsNew 刷新；清掉 prior dogeking newThisRound
-- **pushSha**: `(pending)`
-- **raceNote**: pull ff-only already up to date at R1208 tip; no race yet
+- **pushSha**: `c8408548f19443cbf56bc2ddda8e3cb1ce506392`
+- **raceNote**: pull ff-only already up to date at R1208 tip; no race; push ok first try
