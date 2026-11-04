@@ -16,5 +16,5 @@
 - **skipped**: UF deadpacksol suspended / blindfloor+trytoprint NF→NF_skip；starx_xlayer 续NF；Wheelpadfun/Ammora/Flizy/agentic-coin/stonk-robotics/agentideth/oreautos/flywheelcash 已在库；elywizardz ferry spam；DeusTrdng 额度紧未单独建卡；perpme/branchpoint/outrive 硬排除未触
 - **progress**: UF 56→72 软刷；**新收 bnbrunnerz FREE-first + flywheel-agent ladder LIVE≈12**；dabai 链上仍3/10k；emberforge 1109→1117；bianjiayou≈4000+；今夜≤2h 六档确认；tenLanes KW×4 + mentions squeek/Nutshell/GIWA/Starknet
 - **watchFixes**: tidepad_app → elysiumWatch（原仅UF）；bnbrunnerz → UF+bnAgent+agentPad+freeMint；flywheel-agent → UF+bnAgent+agentPad；UF cursor→72；soft-debt canton/glaze/tokenWorks lastChecked；清 prior newThisRound 写本轮；le2hCurrent 重排
-- **pushSha**: `(pending)`
+- **pushSha**: `85a85943b1fc584368ad4a2bebeff3d4a3032fbb`
 - **raceNote**: 无。开跑目标 R1215；`git pull --ff-only` 远端仍停在 R1214；无竞态覆盖
