@@ -1,0 +1,103 @@
+{
+  "round": 1211,
+  "completedAt": "2026-11-04 17:36 CST",
+  "mode": "pace",
+  "softCap": 18,
+  "notify": true,
+  "notifyReason": "new admit agent-only-bsc LIVE; agentfleet Gen0 still LIVE; tonight windows approaching",
+  "newThisRound": [
+    "agent-only-bsc"
+  ],
+  "newAdmits": [
+    {
+      "id": "agent-only-bsc",
+      "handle": "@AgentOnlyBSC",
+      "zone": "台子/Meme",
+      "reason": "DS admit: 极早期 BSC Agent-only fair mint LIVE 0.0025BNB; 0粉2推"
+    }
+  ],
+  "ufCursor": {
+    "from": 943,
+    "to": 8,
+    "wrapped": true
+  },
+  "xReads": 30,
+  "remainingBefore": 537,
+  "remaining": 507,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking ON; admit+score agent-only-bsc; alert drafted",
+  "le2hActionable": true,
+  "le2h": "agentfleet Gen0 LIVE + verified CA/open-source + $ORE 24h airdrop; digital-bomb 971/10k; emberforge Phase3 1027/1980; vault Tier2; FREE LIVE wag/starrys/agent-oil/agent-card/rgbhorse; bianjiayou 827/10k; 币牛/fishing≈20:00 (~2.5h) approaching ≤2h",
+  "tenLanes": true,
+  "mentionsChains": [
+    "Enter_Elysium/kinetiq",
+    "squeek/Nutshell",
+    "Pulse/BN Agent pad",
+    "Zero/DogeEVM/GIWA",
+    "BTC/Starknet/RGB"
+  ],
+  "alertMessage": "R1211：新收录 AGENT ONLY(@AgentOnlyBSC) LIVE·0.0025BNB·0粉2推·极早期高风险；agentfleet Gen0续LIVE，CA 0x3740…BD82 已验证开源，mint→agentfleet.fun/mint，$ORE空投首24h。在售：digital-bomb 971/10k@0.002、emberforge P3 1027/1980、vault T2~1090@0.0014。FREE续：wag$PACTURE≈6892、starrys、agent-oil、agent-card、rgbhorse；bianjiayou跳至827/10k。今晚：币牛≈20:00前3333免、fishing ROD 20:00@0.005BNB、panba/agent-acres≈20:30、lingji-knights 22:00 500FREE。面板 https://reboot7454.github.io/early-scout/",
+  "skipped": [
+    {
+      "id": "safureload",
+      "reason": "UF wrap Not Found — added NF_skip; do not retry"
+    },
+    {
+      "id": "kappaxis/foxagent/mechfarm",
+      "reason": "KW free-mint mentions but no official X handle found — admit requires twitter"
+    },
+    {
+      "id": "PUNK HOOD",
+      "reason": "affiliate KW hit; no official @PunkHood* handle found"
+    },
+    {
+      "id": "starx_xlayer/agentplacewall/LastCall4vx/exec_terminal/useampad/astropad_real",
+      "reason": "known NF; do not retry"
+    },
+    {
+      "id": "AgentCardsHQ/AgentIdETH/dividotfun/joseon-fun/Ammora",
+      "reason": "KW hits already in library"
+    },
+    {
+      "id": "horror-protocol/Walt_asia",
+      "reason": "prior DS reject"
+    },
+    {
+      "id": "perpme/branchpoint/outrive",
+      "reason": "Elysium keep-out"
+    },
+    {
+      "id": "Elysium ferry free-mint spam + mainnet referral spam",
+      "reason": "testnet/game/referral spam not new admit"
+    },
+    {
+      "id": "dedicated get_users_mentions",
+      "reason": "softCap overrun already for LIVE+tenLanes; covered via KW queries"
+    },
+    {
+      "id": "FAT AGENTIC",
+      "reason": "still no official X"
+    }
+  ],
+  "progress": "UF 943→end then wrap→8 (safureload NF); NEW agent-only-bsc; agentfleet Gen0 contracts verified+$ORE airdrop; digital-bomb still 971; bianjiayou 827/10k; orbit paid LIVE; tonight 币牛/fishing/panba/acres/lingji",
+  "watchFixes": [
+    "soft-debt lastChecked cantonPadWatch/glazeWatch/tokenWorksWatch/tokenWorksPlaygroundWatch",
+    "UF cursor 943→8 wrapped; safureload→NF_skip",
+    "agent-only-bsc → UF+agentPad+bnAgent+freeMintWatch",
+    "LIVE/≤2h/tonight whatsNew 【R1211】 refresh",
+    "watches.le2hCurrent reordered; orbitagentid status→live",
+    "cleared prior newThisRound; set round1211Added"
+  ],
+  "pushSha": null,
+  "raceNote": null,
+  "xQuota": {
+    "remainingBefore": 537,
+    "remainingAfter": 507,
+    "xReads": 30,
+    "mode": "pace",
+    "softCap": 18,
+    "limit": 1000,
+    "note": "softCap overrun justified: LIVE verification + UF wrap + tenLanes KW"
+  }
+}
