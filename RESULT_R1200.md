@@ -13,7 +13,7 @@
 - **discordPeekDeferred**: true（本执行器无浏览器；父代理请立刻 Discord Peek）
 - **dsFallback**: false · DeepSeek flash thinking admit/score/alert
 - **le2hActionable**: true — digital-bomb≈14:30CST开铸LIVE前800免；niulai≈15:10付费窗；InkWell已截止
-- **pushSha**: `da05807ff424c2b5040ff1138e0c52ecd6591d08`
+- **pushSha**: `b4165325af702f419a4c90a011e21477e199db78`
 - **note**: UF shard 777–792 软刷（AiPullpad/oblaunchpadbase/bianfenhong/Morumai_ NF不重试；starx_xlayer/mobster_meme/Leeonmort 续NF）；新收3个Elysium极早期台子卡
 
 ## New admits
