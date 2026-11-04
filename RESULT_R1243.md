@@ -1,0 +1,22 @@
+# RESULT R1243
+
+- **round**: 1243
+- **completedAt**: 2026-11-05 02:48 CST
+- **mode**: pace · softCap 18
+- **notify**: true
+- **newThisRound**: vanta
+- **ufCursor**: 440 → 464
+- **xReads**: 17 · remainingBefore 230 → remaining 213
+- **discordPeekDeferred**: true (no Discord login / no browser Peek)
+- **dsFallback**: false
+- **le2hActionable**: true
+- **le2h**: vanta FREE≈349/350；ripstack FREE EA前555；SAP≈139；lingji≈184；orb≈6284；fly≈1200；goofies今日；genesis今日；w3l≈38
+- **tenLanes**: yes
+- **mentionsChains**: TapeAIAgent-mentions · UF440-464 soft · KW BN-Agent/Elysium/Tape/squeek/GIWA/XLayer/Stark/BTC/mining/GO
+- **userFollow**: soft-brush 440:464（两批 usernames；ChyAI_Official+halfhook NF 不连刷）；cursor→464
+- **skipped**: discord-deferred；perpme/branchpoint/outrive；MarsNexus scam告警（已在库，更新whatsNew）；Elysium mainnet referral spam；squeek farming noise；UF NF
+- **progress / watchFixes**: admit vanta→UF+agentPadWatch；RPC lingji/orb/fly/SAP/w3l；soft-debt；sigils minted-out；hootcast 2000+；clear R1242 newThisRound
+- **alertMessage**: R1243 新收录 vanta（@VantAgent）：BNB Agent 原生代币 LIVE，前350份 FREE（链上 freeLeft≈349），token 0xF8CF…E1A7 / minter 0x78Fb…dC64，粉≈3，score70。面板刷新 ripstack FREE EA续、SAP≈139/333、goofies今日FREE WL、genesis Access今日、lingji≈184、orb≈6284、fly≈1200、w3l≈38。详情见 https://reboot7454.github.io/early-scout/
+- **pushSha**: (pending)
+- **dsNote**: deepseek-flash thinkingON admit+score+alert；dsFallback=false；vanta admit=true overall70
+- **note**: wake时footer remaining≈230（非R1242末120；以live footer为准）；mode pace softCap18（eveningReserve）
