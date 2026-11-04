@@ -17,5 +17,5 @@
 - **skipped**: discord-deferred；perpme/branchpoint/outrive keep-out；LOOP/fanbei/ember/bnbn RPC revert；Nutshell_money仍NF；AnoLaunchpad/Grokiefun 额度内未深挖；Enter_Elysium mentions本轮轮空（Tape已覆盖）
 - **progress / watchFixes**: admit hoodiemoneygang→UF/elysiumWatch；velixo-market→UF；mossling SOLD OUT；RPC刷新 lingji/orb/fly；stands窗尾费率；kalos Genesis GTD；tinylegends FREE1111 raffle；companions资格锁定；NF_skip+=Agent__arena,playholeshot；soft-debt canton/glaze/tokenWorks(+elysium/tape)；UF 320→336；clear R1233 newThisRound
 - **alertMessage**: 新收录：hoodiemoneygang(Elysium WL极早期70)、velixo-market(RH/EVM市场Creators榜LIVE65)。刷新：lingji≈170、orb≈6235、fly≈732；mossling SOLD OUT；stands窗尾；kalos Genesis GTD开。≤2h：lingji/robo/LOOP/bayc LIVE；goofies明日FREE；honey周五11/6；playhaunt779 TBD。面板 https://reboot7454.github.io/early-scout/
-- **pushSha**: PENDING
+- **pushSha**: 5f96b6d
 - **dsNote**: deepseek-flash thinkingON score+alert；dsFallback=false
