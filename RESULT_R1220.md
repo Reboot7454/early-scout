@@ -17,4 +17,4 @@
 - **skipped**: loop2chain-mid-trading；acat-no-official-twitter；fanbeimao/@isaiasneira18-suspended；battle_pad-suspended；cabaldotfun-NF；project_hoodmon-NF；discord-deferred
 - **progress / watchFixes**: flywheel supply≈463→552；emberforge publicMinted≈1124→1146/1980 (totalMinted1166)；digital-bomb stats≈973；≤2h 官推/RPC 确认；fanbeimao suspended drop le2h；soft-debt canton/glaze/tokenWorks lastChecked bump；file ufCursor 88 stale → honor R1219 claim start 104
 - **alertMessage**: R1220无新收录；19:55起≤2h窗口：20:00币牛前3333免费/ROD 0.005BNB、20:30 panba前2000免费/agent-acres 750 FREE、21:00 amber-pow、22:00 lingji/knights 500免。面板 https://reboot7454.github.io/early-scout/
-- **pushSha**: (pending)
+- **pushSha**: 8944afe
