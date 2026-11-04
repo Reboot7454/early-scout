@@ -13,7 +13,7 @@
 - **discordPeekDeferred**: true（本执行器无浏览器；父代理请立刻 Discord Peek）
 - **dsFallback**: false · DeepSeek flash thinking admit/score/alert
 - **le2hActionable**: true — digital-bomb LIVE 前800免；niulai≈15:10；vault-agent FREE LIVE；InkWell CLOSED(248)
-- **pushSha**: (pending)
+- **pushSha**: `0f740c26844b4924714a1bb7184ec2204d22da85`
 - **note**: 开跑时 remote 已完成 R1200（e402/hesperia/launchonelysium，UF→793）；本轮按规则续跑 **R1201**。AgenticINU/@AgenticINU 与库内 agentic-inu(@agenticinuai) 撞名，本轮 skip 待去重。
 
 ## New admits
