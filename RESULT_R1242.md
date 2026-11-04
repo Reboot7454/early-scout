@@ -1,0 +1,22 @@
+# RESULT R1242
+
+- **round**: 1242
+- **completedAt**: 2026-11-05 02:33 CST
+- **mode**: tight · softCap 18（footer remaining≈136→tight；x_budget脚本曾估267已弃用）
+- **notify**: true
+- **newThisRound**: ripstack
+- **ufCursor**: 416 → 440
+- **xReads**: 18 · remainingBefore 136 → remaining 120
+- **discordPeekDeferred**: true (no Discord login / no browser Peek)
+- **dsFallback**: false
+- **le2hActionable**: true
+- **le2h**: ripstack FREE EA前555；SAP≈139；lingji≈184；orb≈6283；fly≈1200；goofies今日；genesis今日；w3l≈38
+- **tenLanes**: yes
+- **mentionsChains**: Enter_Elysium-mentions · squeekchain-mentions · UF416-440 soft · KW BN-Agent/Elysium/Tape/squeek/GIWA/XLayer/Stark/BTC/mining/GO
+- **userFollow**: soft-brush 416:440（两批 usernames；存活+NF/suspended 不连刷）；cursor→440
+- **skipped**: discord-deferred；perpme/branchpoint/outrive；wildducknfts（0粉+官推/站前端矛盾，RPC totalSupply=1000免费已尽，DS admit=false）；ChineseFlap付费屎壳郎低质；UF NF/suspended；mentions噪声
+- **progress / watchFixes**: admit ripstack→UF+agentPadWatch；RPC lingji/orb/fly/SAP/w3l；soft-debt；**fix sync newThisRound**（清 top-level 错留的 super-agent-pass + meta 对齐本轮）
+- **alertMessage**: R1242 新收录 ripstack（@ripstackfun）：BNB Agent Early Access FREE 登记 LIVE，前555个 Agentic Wallet，站 ripstack.fun/early-access，粉≈7，无CA，score52。wildducknfts 免费RPC已尽(1000)且0粉高风险已跳过。面板刷新 lingji≈184、orb≈6283、fly≈1200、SAP≈139、w3l≈38；goofies今日FREE、genesis Access今日、honey周五11/6。详情见 https://reboot7454.github.io/early-scout/
+- **pushSha**: (pending)
+- **dsNote**: deepseek-flash thinkingON admit+score+alert；dsFallback=false；wild-duck DS skip 遵守
+- **note**: 无并行碰撞（pull后仍1241）；mode按X footer tight
