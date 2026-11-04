@@ -1,0 +1,22 @@
+# RESULT R1237
+
+- **round**: 1237
+- **completedAt**: 2026-11-05 00:38 CST
+- **mode**: pace · softCap 18
+- **notify**: true
+- **newThisRound**: asphodel-hq, voidcash
+- **ufCursor**: 368 → 384
+- **xReads**: 4 · remainingBefore 271 → remaining 267
+- **discordPeekDeferred**: true (no Discord login / no browser Peek)
+- **dsFallback**: false
+- **le2hActionable**: true
+- **le2h**: lingji≈175 LIVE；goofies今日FREE；agentic-eggs FREE；genesis Access今日；orb≈6252；fly≈1082
+- **tenLanes**: yes
+- **mentionsChains**: Enter_Elysium-mentions(prior) · UF368-384 soft
+- **userFollow**: soft-brush shard 368:384（bnAgent_/PrinterAi_BNB/telefees_pump/agentkin_ → NF_skip；其余已在库）
+- **skipped**: discord-deferred；perpme/branchpoint/outrive keep-out；agentic-eggs 已在 R1236；并行 R1236 碰撞后本轮只推 unique
+- **progress / watchFixes**: admit 2→UF+elysiumWatch；RPC lingji/orb/fly；NF_skip+=4；soft-debt canton/glaze/tokenWorks/tape；UF 368→384；clear R1236 newThisRound
+- **alertMessage**: R1237 新增 asphodel-hq Elysium Bridge+Swap 已公布，voidcash Elysium 隐私功能也已公布；面板刷新显示 lingji≈175、LIVE orb≈6252、fly≈1082，goofies 今日 FREE、genesis Access 今日。详情见 https://reboot7454.github.io/early-scout/
+- **pushSha**: (pending)
+- **dsNote**: deepseek-flash thinkingON admit+score+alert；dsFallback=false；asphodel≠asphodellaunch→asphodel-hq
+- **note**: 并行 agent 已推 R1236（agentic-eggs/vela/packswap）；本执行器将独有 Elysium 项作为 R1237 落地
