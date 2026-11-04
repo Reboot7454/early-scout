@@ -19,5 +19,5 @@
 - **watchFixes**: freeMintWatch+candidateIds 补 nibblets/cappybara；le2hCurrent刷新；NF_skip×3；ufCursor全别名→607；soft-debt；cappybara status→live
 - **dsNote**: deepseek-flash thinkingON；nibblets=76 admit；alert DS短句+面板/≤2h扩写；dsFallback=false；live rem footer 76→68 tight（local x_budget曾滞留168）
 
-- **pushSha**: PENDING
-- **pushOk**: PENDING
+- **pushSha**: e471faa
+- **pushOk**: true
