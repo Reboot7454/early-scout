@@ -19,6 +19,6 @@
 - **watchFixes**: le2h补挂 mindcaster-genesis/bnbbaby/moonfall-bnb/topa-agent；ufCursor全别名→560；NF_skip合并；soft-debt；R1247 play-quan/fairagent保留
 - **dsNote**: deepseek-flash thinkingON；mindcaster overall66 admit；play-quan已由并行R1247收录；dsFallback=false；rem≈90 tight
 
-- **pushSha**: (pending)
-- **pushOk**: pending
+- **pushSha**: 13b356e
+- **pushOk**: true
 - **note**: Parent brief asked R1247 but origin/main already had R1247@7c43a75 (play-quan). Unique work shipped as **R1248**.
