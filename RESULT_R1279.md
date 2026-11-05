@@ -1,25 +1,27 @@
 # RESULT R1279
 
 - round: 1279
-- notify: false
-- freeLiveForcedNotify: false
-- alertMessage: 本轮无新增入库。AgentBox因无官方推特跳过。今晚窗口：fungolabs 20:30 WL免费，bnb-cache+agentic-social 21:00，goofies 22:45，agentideth 23:00。详情 https://reboot7454.github.io/early-scout/
-- newThisRound: (none)
-- xReads: 27 / softCap 28 / mode ample
-- remaining: 790 → 763
-- ufCursor: 396 → 436 (soft-brush ~40; NF/suspended several; all actionable already-in-lib)
-- mentionsChains: LayerZero/OFT/Tzero · Elysium/kinetiq/Ascend/Kyber · TapeOut/circuit+GIWA/Ammora · DogeEVM/Starknet · Agent ID/BNB free-mint · squeek/Nutshell/HOA GPU · BTC/X Layer complementary-light
-- tenLanes: yes (UF soft-brush + must-watch/≤2h + merged KW tenLanes + mentions rotate + soft-debt)
+- notify: true
+- freeLiveForcedNotify: true
+- alertMessage: 【early-scout 快报】新收录 FREE LIVE：Ore Raiders @OreRaiders（oreraiders.xyz，BNB Agent ID 挖矿飞船仅 gas，RPC≈502/SHIP，CA 0x4142045F…B67c；付费稀有 0.01BNB FLAGSHIP；overall71/高风险/官推353粉）；≤2h/今晚：dividing-spoils LIVE≈40、wojagent FREE Tier1 LIVE、fungo≈20:30CST WL FREE、bnb-cache 21:00CST 777 FREE、goofies≈22:45CST、agentideth 23:00CST、hoa Fri 11/6 20:00CST；FREE LIVE续：foxfire≈11、dyor≈11111、orb≈6447、cappy≈1388、fly≈1200、lingji≈192、soul≈671、unigent，sealbay paid、crown-race paid 0.0007BNB；面板 https://reboot7454.github.io/early-scout/
+- newThisRound: ore-raiders
+- xReads: 23 / softCap 28 / mode ample
+- remaining: 761 → 738
+- ufCursor: 396 → 436 (soft-brush ~40; NF/suspend listed; resolvable already-in-lib; confirmed after empty R1279)
+- mentionsChains: TapeOut/circuit+GIWA · DogeEVM/Starknet · Flap/Irys/Pool Launch · Elysium/kinetiq · Agent ID/BNB · squeek/Nutshell/HOA GPU · BTC privacy · X Layer/STARX
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + mentions rotate + soft-debt)
 - discordPeekDeferred: true
 - dsFallback: false
 - le2hActionable: true
-- le2h: 今晚窗口：fungolabs 20:30 CST 白名单免费；bnb-cache 与 agentic-social 21:00 CST；goofies 22:45 CST；agentideth 23:00 CST。当前2小时内无 mint/open。
-- progress: No new admits; AgentBox skipped (no official X). UF/KW hits already in library. Next windows tonight: fungolabs 20:30, bnb-cache/agentic-social 21:00, goofies 22:45, agentideth 23:00 CST. UF 396→436 soft-brush; soft-debt refreshed; AgentBox skipped no official X; schedule refresh fungo/bnb-cache/goofies/agentideth/crown/woj/dividing/ascend/elysium
-- watchFixes: ufCursor 396→436 persist meta+userFollowWatch; soft-debt Canton/Glaze/TokenWorks + lane watches lastChecked; schedule/progress refresh crown-race#501+ woj≈27 dividing LIVE fungo20:30 bnb-cache21:00 goofies22:45 agentideth23:00 agentic-social21:00 ascend password-off Kyber day1; bibi-ai lastChecked via @BIBIAI_MEME (already xAlt); cleared prev newThisRound crown-race; meta.round=1279 sync top-level; round1279Added=[]
-- skipped: discord-deferred; exploratory-reads; agentbox-no-official-x; already-in-lib-UF-slice-396:436; already-in-lib-KW/mentions (agentic-social/vaultcrack/ballast/plunderport/dual-lp/ammora/tapesurge/bibi/windup/crown-race); Elysium keep-out perpme/branchpoint/outrive; check_onchain.py AttributeError chainId int — skipped RPC batch
-- pushSha: 0eead0f
-- pushOk: true
-- dsNote: deepseek-flash thinking-on skip agentbox + alert notify=false; no local fallback
-- completedAt: 2026-11-05 15:41 CST
-- userFollow: soft-brush 396:436 (~40 resolve+selective posts); NF/suspended several (bsc_bito/tikitotemsbnb/seppidev/CachetDotFun/Nonce_CTO/claudesprotocol/wedowtf/manekinecoinft/stonkaxyz); BIBIAI_MEME already-in-lib as bibi-ai; priority ≤2h/LIVE
-- keywords: free mint/fair launch/Agent ID Binance; LayerZero/OFT/Tzero; Elysium/kinetiq/Ascend; TapeOut/GIWA/Ammora/DogeEVM/Starknet; squeek/Nutshell/HOA; AgentBox skipped
+- le2h: dividing-spoils LIVE≈40；wojagent FREE Tier1 LIVE；fungo≈20:30CST；bnb-cache 21:00CST；goofies≈22:45CST；agentideth 23:00CST；hoa Fri 11/6 20:00CST；foxfire≈11/dyor≈11111/orb≈6447/cappy≈1388/fly≈1200/lingji≈192/soul≈671/unigent FREE LIVE；sealbay paid；crown-race paid 0.0007BNB；ore-raiders FREE LIVE≈502 SHIP
+- progress: PATCH admit ore-raiders OreRaiders BNB Agent ID FREE LIVE mining ship (gas only) RPC≈502 score71 — missed by prior empty R1279; UF 396→436 confirmed; KW/mentions mostly already-in-lib; soft-debt; discord deferred login-wall; le2h tonight fungo/bnb-cache/goofies/agentideth
+- watchFixes: ufCursor 436 confirm; ore-raiders→UF+freeMintWatch+agentPadWatch+bnAgentWatch+agentMiningWatch+miningWatch; soft-debt Canton/Glaze/TokenWorks + lane watches; RPC refresh dividing≈40 foxfire≈11 soul≈671 dyor≈11111 orb≈6447 cappy≈1388 fly≈1200 lingji≈192 ore-raiders SHIP≈502; meta.round=1279 newThisRound=[ore-raiders]
+- skipped: discord-deferred-login-wall; exploratory-reads; already-in-lib-UF/KW/mentions; thin Privatedotfun_/Kosmos3000xyz; flop_labs too-big; Elysium keep-out perpme/branchpoint/outrive; agentbox-no-official-x (prior empty R1279)
+- pushSha: PENDING
+- pushOk: PENDING
+- dsNote: deepseek-flash thinking-on admit+score ore-raiders71 + alert; patch over empty R1279; no local fallback
+- completedAt: 2026-11-05 15:55 CST
+- userFollow: soft-brush 396:436 (~40); NF/suspend; already-in-lib; priority ≤2h/LIVE
+- keywords: free mint/fair launch/Agent ID Binance; Elysium/kinetiq; TapeOut/GIWA/DogeEVM; Starknet/BTC/Flap/Irys/squeek/Nutshell; STARX/X Layer; GPU mining/HOA/Pool Launch
+- FREE_LIVE_NEW: ore-raiders @OreRaiders oreraiders.xyz CA 0x4142045F58D319F133AC33BB7922Fb211595B67c RPC≈502
+- note: prior empty R1279 on main (0eead0f/29c05d8 notify=false) missed FREE LIVE Ore Raiders; this commit patches admit+force notify
