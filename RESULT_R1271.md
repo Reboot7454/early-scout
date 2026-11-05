@@ -1,0 +1,25 @@
+# RESULT R1271
+
+- round: 1271
+- notify: true
+- freeLiveForcedNotify: true
+- alertMessage: 无新增；14:00CST dividing-spoils 入场券开卖（AgentID FREE×1，其他≈$1/BNB），今晚 fungo 20:30、bnb-cache 21:00、goofies 22:45、agentideth 23:00，明日 HOA 挖矿 20:00；FREE LIVE foxfire≈11/dyor≈8437/orb≈6414/cappy≈1388/fly≈1200/lingji≈191；请查看 https://reboot7454.github.io/early-scout/
+- newThisRound: (none)
+- xReads: 15 / softCap 28 / mode ample
+- remaining: 882 → 867
+- ufCursor: 76 → 116 (soft-brush ~40; NF/suspend skipped; vaultplay_ already-in-lib as vaultplay)
+- mentionsChains: rotated GIWA/@GIWA_by_Upbit+Ammora · Tape/@TapeAIAgent+@Blonskr+@bitcointapes · Starknet/@Starknet · DogeEVM/@DogeOS · Zero/@zerodotnetwork · LayerZero/@LayerZero_Core+@PlunderPort · mining/HOA（avoid R1270 Elysium/squeek/Nutshell/flap/BTC/XLayer）
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + mentions rotate + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: dividing-spoils今日14:00CST；goofies今日14:45UTC；fungo今日12:30UTC；bnb-cache/ASOC今日21:00CST；agentideth今日23:00CST；hoa周五11/6 20:00CST；foxfire/dyor/orb/cappy/fly/lingji FREE LIVE
+- progress: no new admit；RPC foxfire11/dyor8437/orb6414/cappy1388/fly1200/lingji191/dividing0；UF 76→116；KW/mentions all hits already-in-lib；bnb-cache CA refreshed；soft-debt；clear R1270 foxfire new badge
+- watchFixes: ufCursor 76→116 both meta+UF；NF_skip+=rektazhy59942/0xvernull/pearsdotfamily/battle_pad/cabaldotfun/project_hoodmon；vaultplay_→handleAliases→vaultplay；soft-debt Canton/Glaze/TokenWorks；giwa/tape/starknet/doge/zero/lz lastChecked
+- userFollow: soft-brush 76:116 (batch resolve；NF/suspend skipped；rest already-in-lib)
+- keywords: free-mint/AgentID/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Zero/LayerZero/挖矿/打新/GO盘；hits→lucky-cats/slymz/tidebound/m3m3/arkhampad/erupt/joseon/pabal/ammora/plunderport already-in-lib
+- skipped: discord-deferred, exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice+KW, vaultplay_ alias, giwa_io suspended
+- completedAt: 2026-11-05 13:20 CST
+- pushSha: (pending)
+- xQuota: remainingBefore=882 remaining=867 xReads=15 mode=ample softCap=28 ufCursor=116
+- dsNote: deepseek-flash thinking-on alert only (no new admit/score); no local fallback
