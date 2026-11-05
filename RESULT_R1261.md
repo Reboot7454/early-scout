@@ -1,0 +1,25 @@
+# RESULT R1261
+
+- round: 1261
+- notify: true
+- freeLiveForcedNotify: true
+- alertMessage: 新收录 GASOKFUN（@gasokfun）GIWA Fun Layer score66；HOA挖矿11/6 20:00CST；免费LIVE/≤2h：vanta≈324/350、soul≈573/5555、nibblets、stonk-turtle、goofies 14:45UTC、fungo 12:30UTC、moonfall 12UTC、bnb-cache 21:00CST、agentideth 23:00CST等，详见面板 https://reboot7454.github.io/early-scout/
+- newThisRound: gasokfun (@gasokfun, GIWA Fun Layer, score66, watching)
+- xReads: 13 / softCap 28 / mode ample
+- remaining: 972 → 959 (live footer; probe+1 counted; x_budget@971→ample softCap28)
+- ufCursor: 756 → 772
+- mentionsChains: rotated (GIWA/@GIWA_by_Upbit + Starknet/@Starknet + DogeEVM/@DogeOS; Zero/flap|Irys via KW soft)
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: vanta FREE≈324/350；soul-agent≈573/5555；lingji≈190；orb≈6377；cappybara≈1388；fly≈1200；SAP≈141/333；nibblets FREE LIVE RH；stonk-turtle FREE LIVE；goofies今日14:45UTC；agentcardshq CARDS预售；wobblokz FREE；fairagent前2000 FREE；bnbbaby FREE续；fungo今日12:30UTC FREE；moonfall WL今日12UTC；bnb-cache今日21:00CST；agentideth今日23:00CST；honey周五11/6；ripstack EA FULL(非le2h)；HOA挖矿11/6 20:00CST
+- progress: admit gasokfun; merge-update hoa-heart→@HOA_AIAgent mining; RPC vanta324/soul573/lingji190/orb6377/cappybara1388/fly1200/SAP141/bnbbaby12456; site schedules goofies/moonfall/nibblets/stonk/honey/fungo/agentcards; UF 756→772; soft-debt; clear R1260 newThisRound
+- watchFixes: ufCursor→772; gasokfun→UF+giwaWatch; hoa-heart altHandles @HOA_AIAgent; soft-debt Canton/Glaze/TokenWorks; NF notes oblaunchpadAll/mint_WRIT; SUSP babycz_ai/BinanceCanFly/Meteorszmint; skip ononepad(no deploy); clear R1260 new badges
+- userFollow: soft-brush 756:772 (batch resolve 16); NF oblaunchpadAll/mint_WRIT; suspended babycz_ai/BinanceCanFly/Meteorszmint; rest already-in-lib; +@gasokfun
+- keywords: free-mint/AgentID/AIDROP/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘/PoW/LayerZero + BTC/Tape soft; hits mostly already-in-lib or spam (Ammora/slymz/Fungo/FANBEI/mobile-mining); gasokfun via GIWA mentions; HOA_AIAgent via KW
+- skipped: discord-deferred, ononepad-no-testnet/deploy, exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice, NF/SUSP-named, hoa duplicate-as-new-card(merged)
+- completedAt: 2026-11-05 10:05 CST
+- pushSha: PENDING
+- xQuota: remainingBefore=972 remaining=959 xReads=13 mode=ample softCap=28 ufCursor=772
+- dsNote: deepseek-flash thinking-on via ds_batch_score (admit gasokfun66; admit-but-merge hoa-aiagent71→hoa-heart; skip ononepad54); alert via deepseek_chat; no local fallback
