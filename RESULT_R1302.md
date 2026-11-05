@@ -16,4 +16,4 @@
 ## alertMessage
 【R1302】新收 joayo-fun（@Joayofundev·GIWA测试网bonding-curve打新台·官推≈2粉·主网未上）；≤2h/LIVE：moonfall公共0.00013BNB→09:40CST(+Moon Trial免1)、fungolabs密封拍卖→15:30UTC、bnb-cache FREE→21:00CST、goofies 4823/9999、sonofluidic 431/6666、agent-smart FREE、agentic-eggs 954/5000、bnb-agentic付费、dewata FREE、hoa-heart今日窗待核、elysium-machines WL→15:00UTC、oupe Genesis17:00CST；HashDoge仅播报勿挖；Genius/Corla/Flap已停不重启；面板：https://reboot7454.github.io/early-scout/
 
-- **pushSha/pushOk**: (pending)
+- **pushSha/pushOk**: 55bbcb9
