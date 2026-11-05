@@ -16,4 +16,4 @@
 ## alertMessage
 【R1298】无新收；≤2h：moonfall WL FREE→01:40CST（gas only·AgentID）、fungolabs密封拍卖LIVE→11/06 15:30UTC、bnb-cache FREE LIVE、goofies 3519/9999 LIVE、sonofluidic 362/6666、agent-smart FREE LIVE、agentic-eggs 938/5000、bnb-agentic付费仍LIVE；owlord/agentideth/ark100付费只报；HashDoge仅播报勿挖；Genius/Corla/Flap已停不重启；面板：https://reboot7454.github.io/early-scout/
 
-- **pushSha/pushOk**: _(pending)_
+- **pushSha/pushOk**: e628898
