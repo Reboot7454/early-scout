@@ -20,6 +20,6 @@
 - keywords: free-mint/AgentID/AIDROP/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘/PoW/LayerZero + Pulse/Nutshell/STARX/XLayer/LocalBottom/Carcosa/squeek/Irys/flap; hits→agent-card/fungo/erupt/tidebound/trippi/ammora/bbf/mars already-in-lib; dyor/flapool skip
 - skipped: discord-deferred, dyorcash(当日号), flapool-flap(0粉), yinghubnb(KOL), exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice, NF-named
 - completedAt: 2026-11-05 10:49 CST
-- pushSha: (pending)
+- pushSha: c87ea44
 - xQuota: remainingBefore=948 remaining=936 xReads=12 mode=ample softCap=28 ufCursor=812
 - dsNote: deepseek-flash thinking-on via ds_batch_score (skip dyorcash/flapool/yinghubnb; alert via DS); no local fallback
