@@ -2,26 +2,27 @@
 
 - round: 1281
 - notify: true
-- freeLiveForcedNotify: false
-- alertMessage: 快报｜R1281 新收录：fugui-bsc（@FuguiBSC）BNB AgentID 免费首份即将开启（非LIVE，无官网粉1，score56）；creedo（@UseCreedo / usecreedo.com）Solana launchpad，$CRD fair launch 11/15 18:00UTC + 空投，score60。今晚窗口：fungo WL FREE≈20:30 CST；bnb-cache 777 FREE≈21:00 CST；goofies FREE≈22:45 CST；agentideth≈23:00 CST；hoa Fri 11/6 20:00 CST。FREE LIVE 续：dividing≈46、wojagent、foxfire≈11、dyor≈11111、agentorb≈6466、cappy≈1388、fly≈1200、lingji≈207、soul≈679、unigent、ore≈502、kagent；sealbay 0.008BNB & crown-race 0.0007BNB 付费。面板 https://reboot7454.github.io/early-scout/ 请按时段蹲守并留意免费/付费标签。
-- newThisRound: fugui-bsc, creedo
-  - fugui-bsc: 狗富贵 FUGUI @FuguiBSC — BNB AgentID 免费首份即将开启（非LIVE），无官网粉1，score56
-  - creedo: Creedo @UseCreedo — Solana launchpad usecreedo.com，$CRD fair launch 11/15 18:00UTC + airdrop，score60
-- xReads: 25 / softCap 28 / mode ample
+- alertMessage: 快报｜R1281 新收录：fugui-bsc（@FuguiBSC）BNB AgentID 免费首份即将开启；creedo（@UseCreedo）Solana launchpad $CRD；trenchie（@TrenchieLive，usetrenchie.fun）AI agent 专属 meme 发射台 Solana/Pump LIVE overall73。今晚窗口：fungo WL FREE≈20:30 CST；bnb-cache 777 FREE≈21:00 CST；goofies FREE≈22:45 CST；agentideth≈23:00 CST；hoa Fri 11/6 20:00 CST。FREE LIVE 续：dividing-spoils、wojagent、foxfire、dyor、agentorb、cappy、flywheel、lingji、soul、unigent、ore-raiders、kagent；sealbay & crown-race 付费。面板 https://reboot7454.github.io/early-scout/ 请按时段蹲守并留意免费/付费标签。
+- newThisRound: fugui-bsc, creedo, trenchie
+  - fugui-bsc: 狗富贵 FUGUI @FuguiBSC — BNB AgentID 免费首份即将开启（非LIVE），score56
+  - creedo: Creedo @UseCreedo — Solana launchpad usecreedo.com，$CRD fair launch 11/15 18:00UTC，score60
+  - trenchie: Trenchie @TrenchieLive — AI-agent Pump launchpad usetrenchie.fun LIVE，$TRENCHIE，overall73（tip-merge）
+- xReads: 25 / softCap 28 / mode ample (primary); parallel tip ~26
 - remaining: 735 → 710
-- ufCursor: 476 → 516 (soft-brush ~40; NF: Asciidogs/rheacatnear/magnitudeagent; suspended: bellwethers_ai/bububullfun; resolvable already-in-lib)
-- mentionsChains: TapeOut/circuit+GIWA · DogeEVM/Starknet · Flap/Irys · Elysium/kinetiq · Agent ID/BNB · squeek/Nutshell/HOA · BTC · X Layer/STARX
-- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + mentions rotate + soft-debt)
+- ufCursor: 476 → 516
+- mentionsChains: TapeOut/circuit+GIWA · DogeEVM/Starknet · Flap/Irys · Elysium · Agent ID/BNB · squeek/HOA · BTC · X Layer
+- tenLanes: yes
 - discordPeekDeferred: true
 - dsFallback: false
 - le2hActionable: true
-- le2h: fungo≈20:30CST WL FREE；bnb-cache≈21:00CST 777 FREE；goofies≈22:45CST FREE RH；agentideth≈23:00CST；hoa Fri 11/6 20:00CST；FREE LIVE cluster（dividing≈46/wojagent/foxfire≈11/dyor≈11111/agentorb≈6466/cappy/fly/lingji≈207/soul≈679/unigent/ore≈502/kagent）；sealbay paid 0.008BNB；crown-race paid 0.0007BNB（FREE500罄）
-- progress: ADMIT fugui-bsc + creedo；UF476→516；今晚窗口刷新；soft-debt canton/glaze/tokenWorks/mining/kinetiq；watchFix kagent→agentPadWatch；discord deferred
-- watchFixes: kagent added to agentPadWatch.candidateIds
-- skipped: Nine Lives/UNIT-404/Driftnauts/Tumblebots（无官推）；Nectarminal（无mint窗）；HelloAgents（无官推）
-- keywords: merged ten lanes covered
+- le2h: fungo≈20:30CST；bnb-cache≈21:00CST；goofies≈22:45CST；agentideth≈23:00CST；hoa Fri；FREE LIVE cluster；sealbay/crown paid
+- progress: ADMIT fugui-bsc + creedo + tip-merge trenchie; UF476→516; tonight windows; soft-debt; discord deferred
+- watchFixes: kagent→agentPadWatch; tip trenchie→UF+agentPad+freeMint; ufCursor 516
+- skipped: Nine Lives/UNIT-404/Driftnauts/Tumblebots（无官推）；Quack Capital aggregator-only
+- keywords: merged ten lanes
 - userFollow: brushed 40 from 476; NF+suspended noted
-- pushSha: 5b54674b8e5d54641d94704d8f3c679487be543d
-- pushOk: true
-- dsNote: deepseek-flash thinking-on admit+score+alert; dsFallback=false
-- completedAt: 2026-11-05 16:55 CST
+- pushSha: (pending tip)
+- pushOk: (pending tip)
+- dsNote: deepseek-flash thinking-on; tip trenchie overall73
+- completedAt: 2026-11-05 16:53 CST
+- xQuota: remainingBefore 735, remaining 710, mode ample, softCap 28, reset 2026-11-06 08:00 CST
