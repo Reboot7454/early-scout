@@ -19,6 +19,6 @@
 - **progress**: FREE/tonight fungo+bnb-cache LIVE / owlord·goofies·agentideth ≤2h / moonfall≈00:30 / HashDoge broadcast-only；1 new admit
 - **watchFixes**: ufCursor=909；userFollowWatch+=@usecarryfield；elysiumWatch+=@usecarryfield/carryfield；soft-debt canton/glaze/tokenWorks/cantonPad bump；≤2h cards lastChecked bump；NF_skip honor exec_terminal
 - **keywords note**: ten-lane merge + AgentID free/paid mint + TapeOut/GIWA/Doge/GO盘/LZ/Starknet/BTC + mining/HashDoge/flap/squeek；mentions thin under softCap
-- **pushSha**: `PENDING`
-- **pushOk**: `PENDING`
+- **pushSha**: `af93e0a`
+- **pushOk**: `af93e0a`
 - **note**: 新 admit + ≤2h 多窗强制 notify；HashDoge 仅播报勿重启挖矿；Genius.fun 已停狙；付费 AgentID 只报不自动打；discordPeekDeferred=true。
