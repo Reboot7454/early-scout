@@ -1,0 +1,25 @@
+# RESULT R1273
+
+- round: 1273
+- notify: true
+- freeLiveForcedNotify: true
+- alertMessage: R1273 打新雷达：新收录 unigent（@_Unigent_）BNB FREE MINT 进行中，2万像素独角兽盲盒，0粉新号高风险。≤2h：dividing-spoils 今日14:00 CST 开卖入场券（Agent ID FREE×1，其他≈$1/BNB），RPC supply仍0；今晚 fungo 20:30、bnb-cache 21:00、goofies 22:45、agentideth 23:00、solvillage 21:00/22:00（CST）。明日 HOA 挖矿 11/6 20:00 CST。完整面板：https://reboot7454.github.io/early-scout/
+- newThisRound: unigent
+- xReads: 23 / softCap 28 / mode ample
+- remaining: 866 → 843
+- ufCursor: 156 → 196 (soft-brush ~40; NF/invalid skipped; resolvable already-in-lib)
+- mentionsChains: rotated GIWA/@GIWA_by_Upbit · Tape/@TapeAIAgent · Starknet/@Starknet · DogeEVM/@DogeOS · Zero-LZ/@LayerZero_Labs · Elysium-alt/@Enter_Elysium · agent-pads/KW（avoid R1272 Elysium/kinetiq/squeek/Nutshell/flap/Irys/BTC/XLayer primary set）
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + mentions rotate + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: dividing-spoils今日14:00CST；goofies今日14:45UTC；fungo今日12:30UTC；bnb-cache今日21:00CST；agentideth今日23:00CST；solvillage今日13:00/14:00UTC；hoa周五11/6 20:00CST；foxfire/dyor/orb/cappy/fly/lingji/soul FREE LIVE
+- progress: admit unigent FREE LIVE high-risk；RPC foxfire11/dyor9345/orb6418/cappy1388/fly1200/lingji191/soul657/dividing0/bnb-cache0；UF 156→196；KW/mentions hits mostly already-in-lib；soft-debt；solvillage today refresh
+- watchFixes: ufCursor 156→196 both meta+UF；NF_skip+=Arcdepthoock/vaultdock/cloakcapitalai/kuranto_rh/AGENTICABOT/HashOre_BNB；unigent→freeMintWatch；soft-debt Canton/Glaze/TokenWorks；elysium/kinetiq/flap/irys/arc/btc/xLayer/bnAgent/freeMint/giwa/tape/starknet/zero lastChecked
+- userFollow: soft-brush 156:196 (batch resolve；NF/invalid skipped；rest already-in-lib)
+- keywords: free-mint/AgentID/fair-launch/TapeOut/GIWA/Starknet/DogeEVM/Zero/LZ/Elysium-alt/挖矿/GO盘；NEW→unigent；skip acepyr/ammoraeco/PassAgentX/MedalBeasts giveaway
+- skipped: discord-deferred, exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice+KW, PassAgentX-no-official-twitter, acepyr-no-mint, ammoraeco-duplicate, giveaway-spam
+- completedAt: 2026-11-05 13:51 CST
+- pushSha: (pending)
+- xQuota: remainingBefore=866 remaining=843 xReads=23 mode=ample softCap=28 ufCursor=196
+- dsNote: deepseek-flash thinking-on admit+score unigent + alert; no local fallback
