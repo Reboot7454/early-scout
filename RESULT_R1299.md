@@ -16,4 +16,4 @@
 ## alertMessage
 【R1299】新收 jellysium（@Jellysiumpad·Elysium testnet Pump 发射台极早期）；≤2h/LIVE：moonfall WL FREE→01:40CST临界后公共0.00013BNB、fungolabs密封拍卖LIVE→11/06 15:30UTC、bnb-cache FREE LIVE、goofies 3519/9999、sonofluidic 362/6666、agent-smart FREE、agentic-eggs 938/5000、bnb-agentic付费仍LIVE；owlord/agentideth/ark100付费只报；HashDoge仅播报勿挖；Genius/Corla/Flap已停不重启；面板：https://reboot7454.github.io/early-scout/
 
-- **pushSha/pushOk**: _(pending)_
+- **pushSha/pushOk**: 7ee8bc8
