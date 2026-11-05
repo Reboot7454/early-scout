@@ -1,0 +1,22 @@
+# Early Scout RESULT — R1289
+
+- **completedAt**: 2026-11-05 19:48 CST
+- **notify**: **true**
+- **freeLiveForcedNotify**: false
+- **alertMessage**: 【R1289】新收 sploshfun=@sploshfun（Elysium Uniswap锁仓发币台 LIVE）；≤2h：fungolabs WL FREE≈20:30 / bnb-cache≈21:00 / agentic-social $ASOC 555 FREE≈21:00；今晚 owlord≈22:00 goofies≈22:45 agentideth≈23:00；HashDoge 官宣重定价重启/退款（挖矿已停仅播报）；面板：https://reboot7454.github.io/early-scout/
+- **newThisRound**: `sploshfun`
+- **xReads**: 27 this executor (softCap=28, mode=ample) · remaining **631→604**
+- **ufCursor**: 796→836 (brushed ~40; NF emberlingreal/LongAgentBNB/Leeonmort/computeroll/AgentBoxBNB/ExtinctKids/asoc_bsc/ASOC_Agent/splosh_fun/ASOCgenesis → NF_skip；rest already in-lib)
+- **tenLanes**: yes
+- **mentionsChains**: Elysium/kinetiq · TapeOut/circuit · GIWA · DogeEVM/DogeOS · Starknet · Flap/Irys · BTC/ShieldedNaka · squeek/Nutshell · X Layer/STARX · BN Agent pads/PulseLaunchpad
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **le2hActionable**: true（fungolabs≈20:30 / bnb-cache≈21:00 / agentic-social≈21:00 CST ≤2h）
+- **ADMIT**: `sploshfun` — @sploshfun Elysium Uniswap 锁仓发币台 LIVE（Splashers 排行榜/anti-snipe/lock/buyback）；粉≈61；`focus:false`；ecosystem=Elysium
+- **SKIP**: AgentBox（无独立官推硬禁）；ExtinctKids（官推 NF）；elysiumdotfun pump.fun sketchy；sight_hood/SYNTAX SOULS/LuminaraGo/elyscreener/AGCC/AGENT404 等延续先验；UF NF 不连刷
+- **progress**: FREE LIVE dividing/fox≈13/dyor≈11111/orb≈6155+/cappy≈1388/fly≈1200/lingji≈210/soul≈708/ore LIVE；hashdoge 重定价重启/退款（挖矿已停）；tonight fungo≤2h / bnb-cache / asoc≤2h / owlord / goofies / agentideth；hoa Fri 11/6 20:00CST；TapeOut Live 20:00 HKT
+- **watchFixes**: NF_skip+=emberlingreal/LongAgentBNB/Leeonmort/computeroll/AgentBoxBNB/ExtinctKids/asoc_bsc/ASOC_Agent/splosh_fun/ASOCgenesis；soft-debt canton/glaze/tokenWorks bump；ufCursor=836；elysiumWatch+=@sploshfun；RPC/进度软刷
+- **keywords note**: ten-lane merge + AgentID free mint + TapeOut/GIWA/Doge/GO盘/computeroll/pipfun/Elysium；mentions Enter_Elysium equal effort
+- **pushSha**: _(pending)_
+- **pushOk**: _(pending)_
+- **note**: 新 admit sploshfun；≤2h 三窗强制 notify；HashDoge 仅播报勿重启挖矿；付费 AgentID 只报不自动打。
