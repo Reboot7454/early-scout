@@ -17,8 +17,8 @@
 - progress: No new admits; AgentBox skipped (no official X). UF/KW hits already in library. Next windows tonight: fungolabs 20:30, bnb-cache/agentic-social 21:00, goofies 22:45, agentideth 23:00 CST. UF 396→436 soft-brush; soft-debt refreshed; AgentBox skipped no official X; schedule refresh fungo/bnb-cache/goofies/agentideth/crown/woj/dividing/ascend/elysium
 - watchFixes: ufCursor 396→436 persist meta+userFollowWatch; soft-debt Canton/Glaze/TokenWorks + lane watches lastChecked; schedule/progress refresh crown-race#501+ woj≈27 dividing LIVE fungo20:30 bnb-cache21:00 goofies22:45 agentideth23:00 agentic-social21:00 ascend password-off Kyber day1; bibi-ai lastChecked via @BIBIAI_MEME (already xAlt); cleared prev newThisRound crown-race; meta.round=1279 sync top-level; round1279Added=[]
 - skipped: discord-deferred; exploratory-reads; agentbox-no-official-x; already-in-lib-UF-slice-396:436; already-in-lib-KW/mentions (agentic-social/vaultcrack/ballast/plunderport/dual-lp/ammora/tapesurge/bibi/windup/crown-race); Elysium keep-out perpme/branchpoint/outrive; check_onchain.py AttributeError chainId int — skipped RPC batch
-- pushSha: (pending)
-- pushOk: false
+- pushSha: 0eead0f
+- pushOk: true
 - dsNote: deepseek-flash thinking-on skip agentbox + alert notify=false; no local fallback
 - completedAt: 2026-11-05 15:41 CST
 - userFollow: soft-brush 396:436 (~40 resolve+selective posts); NF/suspended several (bsc_bito/tikitotemsbnb/seppidev/CachetDotFun/Nonce_CTO/claudesprotocol/wedowtf/manekinecoinft/stonkaxyz); BIBIAI_MEME already-in-lib as bibi-ai; priority ≤2h/LIVE
