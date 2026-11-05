@@ -21,8 +21,8 @@
 - skipped: Nine Lives/UNIT-404/Driftnauts/Tumblebots（无官推）；Quack Capital aggregator-only
 - keywords: merged ten lanes
 - userFollow: brushed 40 from 476; NF+suspended noted
-- pushSha: (pending tip)
-- pushOk: (pending tip)
+- pushSha: 555d74021a38d5b3d0eb61f556f1598c3354c4ee
+- pushOk: true
 - dsNote: deepseek-flash thinking-on; tip trenchie overall73
 - completedAt: 2026-11-05 16:53 CST
 - xQuota: remainingBefore 735, remaining 710, mode ample, softCap 28, reset 2026-11-06 08:00 CST
