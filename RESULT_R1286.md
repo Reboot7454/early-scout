@@ -1,21 +1,22 @@
 # Early Scout RESULT — R1286
 
-- **completedAt**: 2026-11-05 18:40 CST
+- **completedAt**: 2026-11-05 18:55 CST
 - **notify**: **true**
 - **freeLiveForcedNotify**: false
-- **alertMessage**: 【R1286 新收录】munos（@themunos_，ETH艺术PFP Paid Mint，GTD预热，粉≈1533，score76）；≤2h：fungolabs WL FREE≈20:30 CST；今晚：bnb-cache≈21:00 / owlord≈22:00 / goofies≈22:45 / agentideth≈23:00；FREE LIVE续：dividing/fox/dyor/orb/cappy/fly/lingji等 https://reboot7454.github.io/early-scout/
-- **newThisRound**: `munos`
-- **xReads**: 28 (softCap=28, mode=ample) · remaining 660→632
-- **ufCursor**: 676→690 (brushed 14; NF origopad; rest already in-lib)
+- **alertMessage**: 【R1286】新收录 munos（@themunos_ ETH艺术PFP Paid/GTD score76）+ agentdraw（@AgentDrawBNB BNB AgentID每日抽奖LIVE 0.0005BNB score60）+ checkmates（@checkmates3200 Ink Chessboards即将铸造 score74）；≤2h：fungolabs WL FREE≈20:30CST；今晚 bnb-cache 777 FREE≈21:00 / owlord paid≈22:00 / goofies FREE≈22:45 / agentideth≈23:00；FREE LIVE RPC dividing≈50/fox≈12/dyor≈11111/orb≈6494/cappy≈1388/fly≈1200/lingji≈210/soul≈703/ore≈502/hashdoge≈277；面板：https://reboot7454.github.io/early-scout/
+- **newThisRound**: `munos`, `agentdraw`, `checkmates`
+- **xReads**: 23 this executor (softCap=28, mode=ample) · remaining **629→606**（并行 stub 曾报 28/660→632；本执行器补全后以 live MCP 606 为准）
+- **ufCursor**: 676→716 (brushed ~40; NF/SUSP origopad/useapppayfun/CyclopesElysium/elyword_xyz/lootbale; rest already in-lib)
 - **tenLanes**: yes
-- **mentionsChains**: TapeOut/circuit · GIWA · DogeEVM · Starknet · Flap/Irys
+- **mentionsChains**: TapeOut/circuit · GIWA · DogeEVM/DogeOS · Starknet · Flap/Irys · Elysium/kinetiq · AgentID/BNB pads · squeek/Nutshell/HOA · BTC/ShieldedNaka · X Layer/STARX(@starX_layer)
 - **discordPeekDeferred**: true
 - **dsFallback**: false
-- **le2hActionable**: true（fungolabs WL FREE≈20:30CST 已入≤2h）
-- **ADMIT**: munos (@themunos_) score76 ETH艺术PFP Paid Mint GTD预热 粉≈1533
-- **SKIP**: sight_hood（RH预测市场偏成熟）; usespout（过薄/无Elysium硬条件）; clanker_world（既有launcher仅Nov9信号）; erupt/tidebound/honey/ammora/RGBHorse等已在库; UF NF origopad
-- **progress**: fungo≤2h; tonight bnb-cache/owlord/goofies/agentideth; FREE LIVE cluster; TapeAI 检察官电路质押预告; Ascend 开放压力测/文档; Elysium mainnet Nov9 注册开
-- **watchFixes**: munos→freeMint+agentPad+UF; soft-debt canton/glaze/tokenWorks; NF_skip+=origopad; le2h=true
-- **keywords note**: ten-lane merge + mentions 五链轮换
-- **pushSha**: `d81ba0b`
-- **pushOk**: true
+- **le2hActionable**: true（fungolabs WL FREE≈20:30CST ≤2h；bnb-cache≈21:00 仍>~2h）
+- **ADMIT**: munos (@themunos_) score76 ETH art PFP Paid/GTD；agentdraw (@AgentDrawBNB) score60 BNB AgentID daily draw LIVE；checkmates (@checkmates3200) score74 Ink Chessboards soon
+- **SKIP**: hyperlogic（仅提及无实质）；sight_hood/usespout/clanker_world（并行 stub）；Pond/Quack farms/AgentIdETH spam；erupt/vaultcrack/ammora/RGBHorse/TapeAI 等已在库；UF NF 不连刷
+- **progress**: FREE LIVE RPC dividing≈50 fox≈12 dyor≈11111 orb≈6494 cappy≈1388 fly≈1200 lingji≈210 soul≈703 ore≈502 hashdoge≈277；unigent/sealbay selector N/A；kagent/woj FREE LIVE 续；tonight fungo≤2h / bnb-cache / owlord / goofies / agentideth；hoa Fri 11/6 20:00CST
+- **watchFixes**: agentdraw→bnAgent+agentPad+agentMining+UF+freeMint；checkmates→freeMint+UF；munos 已在 freeMint+agentPad+UF；NF_skip+=5 UF NF；soft-debt canton/glaze/tokenWorks bump；sync top-level newThisRound；ufCursor=716；RPC/进度刷新
+- **keywords note**: ten-lane merge + mentions 全链 equal effort（补全并行 stub 仅5链缺口）
+- **pushSha**: _(pending)_
+- **pushOk**: _(pending)_
+- **note**: 并行 stub d81ba0b 仅部分写入（ufCursor未动/top newThisRound未清/RPC未刷/缺 AgentDraw）；本提交为权威补全。
