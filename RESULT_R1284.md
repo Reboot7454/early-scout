@@ -16,4 +16,4 @@
 - **SKIP**: ELYNX/hectoroz_; in-lib ArenaElysium/Cyclopes/erupt/Blob/Estock/pabal/ammora; no new Starknet/GIWA/Doge/STARX affiliates
 - **progress**: FREE LIVE RPC dividing≈50 fox≈11 dyor≈11111 orb≈6481 cappy≈1388 fly≈1200 lingji≈209 soul≈689 ore≈502; tonight windows soft-refresh
 - **watchFixes**: ignite-dotfun → flapPadWatch + userFollowWatch
-- **pushSha**: (pending commit)
+- **pushSha**: `61bbd15f281ac5f7a19108146c981d7316ad3b26` · pushOk=True
