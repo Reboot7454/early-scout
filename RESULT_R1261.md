@@ -20,6 +20,6 @@
 - keywords: free-mint/AgentID/AIDROP/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘/PoW/LayerZero + BTC/Tape soft; hits mostly already-in-lib or spam (Ammora/slymz/Fungo/FANBEI/mobile-mining); gasokfun via GIWA mentions; HOA_AIAgent via KW
 - skipped: discord-deferred, ononepad-no-testnet/deploy, exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice, NF/SUSP-named, hoa duplicate-as-new-card(merged)
 - completedAt: 2026-11-05 10:05 CST
-- pushSha: PENDING
+- pushSha: 0c55dd5
 - xQuota: remainingBefore=972 remaining=959 xReads=13 mode=ample softCap=28 ufCursor=772
 - dsNote: deepseek-flash thinking-on via ds_batch_score (admit gasokfun66; admit-but-merge hoa-aiagent71→hoa-heart; skip ononepad54); alert via deepseek_chat; no local fallback
