@@ -20,6 +20,6 @@
 - keywords: free-mint/AgentID/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘/PoW/LayerZero + PROXY/VOID/HOA；hits→void-giwa+tapepet-dao NEW；PROXY无官推skip；erupt/runin/agentic/ammora/fungo/dividing already-in-lib
 - skipped: discord-deferred, exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice, PROXY无官推, LayerZero→wrong PowerSystems handle (用PlunderPort/@LayerZero_Core叙事), MarsNexus骗局续忽略
 - completedAt: 2026-11-05 12:14 CST
-- pushSha: PENDING
+- pushSha: 536e06d
 - xQuota: remainingBefore=920 remaining=903 xReads=17 mode=ample softCap=28 ufCursor=972
 - dsNote: deepseek-flash thinking-on via ds_batch_score (admit+score void-giwa/tapepet-dao; alert via DS+panel); no local fallback
