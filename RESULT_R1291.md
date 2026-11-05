@@ -21,6 +21,6 @@
 - **progress**: FREE/tonight fungo LIVE / bnb-cache·asoc·amber ≤2h / owlord / goofies / agentideth；hoa Fri 11/6 20:00CST；TapeOut Live 续；HashDoge 挖矿已停仅播报；3 new admits
 - **watchFixes**: ufCursor=884；elysiumWatch+=@elysiumdotfun；giwaWatch+=@SealonGIWA；soft-debt canton/glaze/tokenWorks bump；≤2h lastChecked bump
 - **keywords note**: ten-lane merge + AgentID free/paid mint + TapeOut/GIWA/Doge/GO盘/LZ/Starknet/BTC + mining/HashDoge/flap/squeek；mentions thin under softCap
-- **pushSha**: _(pending)_
-- **pushOk**: _(pending)_
+- **pushSha**: `268589a`
+- **pushOk**: `268589a`
 - **note**: 新 admit 三卡强制 notify；≤2h 多窗；HashDoge 仅播报勿重启挖矿；付费 AgentID 只报不自动打；discordPeekDeferred=true。
