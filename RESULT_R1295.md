@@ -1,0 +1,24 @@
+# Early Scout RESULT — R1295
+
+- **completedAt**: 2026-11-05 23:20 CST
+- **notify**: **true**
+- **freeLiveForcedNotify**: true
+- **alertMessage**: 【R1295】新收 agent-smart=@agentsmartcoin（BSC FREE LIVE·2.5M SMART/AgentID·~142粉）；≤2h：fungolabs WL FREE→23:30CST / bnb-cache 777 FREE LIVE / goofies FREE已LIVE / sonofluidic~209/6666 / moonfall≈00:40CST / agentideth·owlord·ark100付费只报；HashDoge仅播报勿挖；面板：https://reboot7454.github.io/early-scout/
+- **newThisRound**: `agent-smart`
+- **xReads**: 27 this executor (softCap=27, mode=pace) · remaining **468→441**
+- **ufCursor**: 924→940 (rotate 15; NF skip astropad_real honor; resolve-batch + 8 post-reads; remaining UF resolve-only already-in-DB)
+- **tenLanes**: yes
+- **mentionsChains**: thin deferred under softCap · KW covered AgentID/Elysium/TapeOut/GIWA/DogeEVM/GO·LZ·Starknet·BTC/mining·HashDoge/flap·squeek
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **dsNote**: DS admit/score/alert OK deepseek-flash thinking ON；alert PANEL占位本地补全含面板URL与≤2h窗
+- **le2hActionable**: true（fungolabs WL FREE→23:30CST；bnb-cache FREE LIVE；goofies FREE LIVE；sonofluidic FREE LIVE；agent-smart FREE LIVE；moonfall≈00:40CST；agentideth/owlord/ark100 paid LIVE report-only）
+- **ADMIT**:
+  - `agent-smart` — @agentsmartcoin BSC AgentID FREE LIVE 2.5M SMART gas-only（~142粉·1推）；`focus:false`
+- **SKIP**: UF片 Niulai/Elyname/Catalyst/FishingAI/Mulle/AgentCard/Oil/OpenEmber/e402/Hesperia/launchonelysium/VAULT/Divi/quoted/Knights — 已在库仅软刷；HASH ERAS/Agent Glyphs 无独立官推（VanCt20聚合）不收；pabalx/giwaup/erupt/TapeLaunch/covetrade已在库或未核验；付费 AgentID/ark100/owlord/agentideth 只报；HashDoge 仅播报勿重启挖矿
+- **progress**: FREE/tonight fungo+bnb-cache+goofies+sonofluidic+agent-smart LIVE / moonfall≈00:40 / HashDoge broadcast-only；1 new admit
+- **watchFixes**: ufCursor=940；userFollowWatch+=@agentsmartcoin；agentPadWatch+=agent-smart；soft-debt canton/glaze/tokenWorks bump；≤2h cards lastChecked bump
+- **keywords note**: ten-lane merge + AgentID free/paid mint + TapeOut/GIWA/Doge/GO盘/LZ/Starknet/BTC + mining/HashDoge/flap/squeek；mentions thin under softCap
+- **pushSha**: PENDING
+- **pushOk**: PENDING
+- **note**: 新 admit + ≤2h 多窗强制 notify；HashDoge 仅播报勿重启挖矿；Genius.fun 已停狙；付费 AgentID 只报不自动打；discordPeekDeferred=true。
