@@ -17,6 +17,6 @@
 - **progress**: FREE LIVE dividing/fox≈13/dyor≈11111/orb≈6155+/cappy≈1388/fly≈1200/lingji≈210/soul≈708/ore LIVE；hashdoge 重定价重启/退款（挖矿已停）；tonight fungo≤2h / bnb-cache / asoc≤2h / owlord / goofies / agentideth；hoa Fri 11/6 20:00CST；TapeOut Live 20:00 HKT
 - **watchFixes**: NF_skip+=emberlingreal/LongAgentBNB/Leeonmort/computeroll/AgentBoxBNB/ExtinctKids/asoc_bsc/ASOC_Agent/splosh_fun/ASOCgenesis；soft-debt canton/glaze/tokenWorks bump；ufCursor=836；elysiumWatch+=@sploshfun；RPC/进度软刷
 - **keywords note**: ten-lane merge + AgentID free mint + TapeOut/GIWA/Doge/GO盘/computeroll/pipfun/Elysium；mentions Enter_Elysium equal effort
-- **pushSha**: _(pending)_
-- **pushOk**: _(pending)_
+- **pushSha**: `baa6279`
+- **pushOk**: `baa6279`
 - **note**: 新 admit sploshfun；≤2h 三窗强制 notify；HashDoge 仅播报勿重启挖矿；付费 AgentID 只报不自动打。
