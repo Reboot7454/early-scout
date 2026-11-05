@@ -19,8 +19,8 @@
 - skipped: AgenticalGlyphs NF; tilekeepers/circuitvault rumor-only no official early twitter confirm this round; exploratory NF reconfirms avoided
 - keywords: merged free-mint/AgentID/BNB + TapeOut/GIWA/DogeEVM/Starknet/BTC + Flap/Irys/Elysium/HOA/STARX (recency)
 - userFollow: shard 436..475 (~40) soft-brush batch usernames; already-in-lib; no new UF admits beyond kagent (KW path)
-- pushSha: (pending)
-- pushOk: (pending)
+- pushSha: b675e30f42564f942632ac17d9c557a74ad60b92
+- pushOk: true
 - dsNote: deepseek-flash thinking-on via ds_batch_score + deepseek_chat; admit score84; alert CN
 - completedAt: 2026-11-05 16:18 CST
 - xQuota: remainingBefore 762, remaining 735, mode ample, softCap 28, reset 2026-11-06 08:00 CST
