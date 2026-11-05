@@ -1,0 +1,22 @@
+# Early Scout RESULT — R1287
+
+- **completedAt**: 2026-11-05 19:08 CST
+- **notify**: **true**
+- **freeLiveForcedNotify**: false
+- **alertMessage**: 【R1287】新收录 memefund（@MemeFunds_ Elysium Free Mint 2222 Coming soon 征集HYPE地址 score60）；≤2h：fungolabs WL FREE≈20:30CST；今晚 bnb-cache≈21:00/owlord≈22:00/goofies≈22:45/agentideth≈23:00；FREE LIVE dividing≈54/fox≈12/dyor≈11111/orb≈6495/cappy≈1388/fly≈1200/lingji≈210/soul≈708/ore≈502/hashdoge≈284；面板：https://reboot7454.github.io/early-scout/
+- **newThisRound**: `memefund`
+- **xReads**: 27 this executor (softCap=28, mode=ample) · remaining **606→579**
+- **ufCursor**: 716→756 (brushed ~40; NF/SUSP kyte_market/vytraqfun/hyperlinkdotfun/lazabitmeme/XiangHao91647/SolumMrkt/bndoge_bn；prio mobster_meme/starx_xlayer NF→用 @starX_layer；rest already in-lib)
+- **tenLanes**: yes
+- **mentionsChains**: TapeOut/circuit · GIWA · DogeEVM/DogeOS · Starknet · Flap/Irys · Elysium/kinetiq · AgentID/BNB pads · squeek/Nutshell/HOA · BTC/ShieldedNaka · X Layer/STARX(@starX_layer)
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **le2hActionable**: true（fungolabs WL FREE≈20:30CST ≤2h；bnb-cache≈21:00 仍≈2h）
+- **ADMIT**: memefund (@MemeFunds_) score60 Elysium Free Mint 2222 Coming soon / 征集 HYPE 地址 / 粉≈593 极新无官网
+- **SKIP**: fealty_club（NFT 工具 bot 非铸造）；AGENT GLYPHS（仅 VanCt20 转发 CA 0x622c… 无官推硬禁）；FabricateRent（0粉）；FOOME 已在库 foome；Kitzy/FeedTheFireRH 已在库；erupt/alixir/genesis/grump 等已在库；UF NF 不连刷
+- **progress**: FREE LIVE RPC dividing≈54 fox≈12 dyor≈11111 orb≈6495 cappy≈1388 fly≈1200 lingji≈210 soul≈708 ore≈502 hashdoge≈284；unigent/sealbay/agentdraw selector N/A；woj/kagent FREE 续；tonight fungo≤2h / bnb-cache / owlord / goofies / agentideth；hoa Fri 11/6 20:00CST
+- **watchFixes**: memefund→elysium+freeMint+UF；NF_skip+=kyte_market/vytraqfun/hyperlinkdotfun/lazabitmeme/XiangHao91647/SolumMrkt/bndoge_bn(+mobster/starx_xlayer)；soft-debt canton/glaze/tokenWorks bump；sync top-level newThisRound；ufCursor=756；RPC/进度刷新
+- **keywords note**: ten-lane merge + mentions 全链 equal effort（含 starX_layer + irys）
+- **pushSha**: (pending)
+- **pushOk**: (pending)
+- **note**: 免费 mint 预热新收录即便 score&lt;70 也 notify；AGENT GLYPHS 无官推不收录。
