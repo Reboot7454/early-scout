@@ -17,6 +17,6 @@
 - **progress**: FREE LIVE RPC dividing≈54 fox≈12 dyor≈11111 orb≈6495 cappy≈1388 fly≈1200 lingji≈210 soul≈708 ore≈502 hashdoge≈284；unigent/sealbay/agentdraw selector N/A；woj/kagent FREE 续；tonight fungo≤2h / bnb-cache / owlord / goofies / agentideth；hoa Fri 11/6 20:00CST
 - **watchFixes**: memefund→elysium+freeMint+UF；NF_skip+=kyte_market/vytraqfun/hyperlinkdotfun/lazabitmeme/XiangHao91647/SolumMrkt/bndoge_bn(+mobster/starx_xlayer)；soft-debt canton/glaze/tokenWorks bump；sync top-level newThisRound；ufCursor=756；RPC/进度刷新
 - **keywords note**: ten-lane merge + mentions 全链 equal effort（含 starX_layer + irys）
-- **pushSha**: (pending)
-- **pushOk**: (pending)
+- **pushSha**: `52a0d41`
+- **pushOk**: true
 - **note**: 免费 mint 预热新收录即便 score&lt;70 也 notify；AGENT GLYPHS 无官推不收录。
