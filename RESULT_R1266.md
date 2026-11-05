@@ -20,6 +20,6 @@
 - keywords: free-mint/AgentID/AIDROP/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘/PoW/LayerZero + Pulse/Nutshell/STARX/XLayer/LocalBottom/squeek/flap/Irys；hits→qurve+shift-forever+naroba NEW；fungo/agentideth/dividing/hoa/dyor already-in-lib
 - skipped: discord-deferred, exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice, ETH-Replica/sharkzuki noise, Qurve/Shift prior-lane noise until verify, Naroba 0粉高风险仍admit(粉少也进候选), SAP/agent-card/thalvorix RPC revert soft-prior
 - completedAt: 2026-11-05 12:05 CST
-- pushSha: PENDING
+- pushSha: 696f793
 - xQuota: remainingBefore=921 remaining=904 xReads=17 mode=ample softCap=28 ufCursor=932
 - dsNote: deepseek-flash thinking-on via ds_batch_score (admit+score qurve/shift-forever/naroba; alert via DS+panel); no local fallback
