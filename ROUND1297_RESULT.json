@@ -1,0 +1,71 @@
+{
+  "round": 1297,
+  "completedAt": "2026-11-06 00:28 CST",
+  "notify": true,
+  "freeLiveForcedNotify": true,
+  "alertMessage": "【R1297】新收 o1-exchange=@o1_exchange（Elysium launchpad合约已发·前端≈11/9 day-1·a16z背书·~37k粉）；≤2h：moonfall WL FREE 00:40–01:40CST（全员通过·gas only）、fungolabs密封拍卖LIVE、bnb-cache777 FREE LIVE、goofies 3519/9999 LIVE、sonofluidic~300/6666、agent-smart FREE LIVE、bnb-agentic免费已满付费仍LIVE；owlord/agentideth/ark100付费只报；HashDoge仅播报勿挖；面板：https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "o1-exchange"
+  ],
+  "ADMIT": [
+    {
+      "id": "o1-exchange",
+      "handle": "@o1_exchange",
+      "note": "Elysium launchpad contracts live; frontend~11/9 day-1; a16z/cbv; ~37k followers; focus:false; DS early=70 overall=72"
+    }
+  ],
+  "SKIP": [
+    "UF slice BrawlerRebels…VelixoMarket — 已在库仅软刷",
+    "geniedotfun NF_skip honor 不连刷",
+    "dewata/batikledger/hauntedmanor vercel垃圾簇 DS拒收",
+    "HOA_AIAgent 已挂 hoa-heart.links.xMining → 只刷新排期",
+    "付费 owlord/agentideth/ark100 只报",
+    "HashDoge 仅播报勿重启挖矿；Genius/Corla/Flap 已停狙不重启"
+  ],
+  "xReads": 19,
+  "remainingBefore": 418,
+  "remaining": 399,
+  "mode": "pace",
+  "softCap": 22,
+  "ufCursor": {
+    "before": 956,
+    "after": 973
+  },
+  "nfSkips": [
+    "geniedotfun"
+  ],
+  "tenLanes": true,
+  "mentionsChains": "thin deferred under softCap (UF+must+KW prioritized)",
+  "keywordsCovered": [
+    "AgentID free/paid mint",
+    "Elysium Announced/testnet",
+    "TapeOut/电路/GIWA",
+    "DogeEVM/DogeOS/squeek/HashDoge/mining",
+    "GO盘/LayerZero/OFT",
+    "Starknet",
+    "BTC privacy/Ordinals"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsNote": "DS score/admit/alert OK deepseek-flash thinking ON；alert 本地对齐 R1296 风格补全面板URL与≤2h窗",
+  "le2hActionable": true,
+  "le2hList": [
+    "moonfall WL FREE 00:40–01:40 CST",
+    "fungolabs sealed-bid LIVE cZAMA",
+    "bnb-cache 777 FREE LIVE",
+    "goofies FREE LIVE 3519/9999",
+    "sonofluidic FREE LIVE ~300/6666",
+    "agent-smart FREE LIVE",
+    "bnb-agentic paid still LIVE (free sold out)"
+  ],
+  "watchFixes": [
+    "ufCursor 956→973",
+    "userFollowWatch+=@o1_exchange",
+    "elysiumWatch+=o1-exchange",
+    "canton/glaze/tokenWorks lastChecked",
+    "hoa-heart mining schedule via HOA_AIAgent"
+  ],
+  "pushSha": null,
+  "pushOk": false,
+  "note": "discordPeekDeferred; softCap22 pace; columns touched: 打新/台子/Elysium/挖矿/GIWA/Tape/Starknet/BTC/DogeEVM/LZ"
+}
