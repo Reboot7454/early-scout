@@ -1,0 +1,25 @@
+# RESULT R1276
+
+- round: 1276
+- notify: true
+- freeLiveForcedNotify: false
+- alertMessage: R1276 打新雷达：新收录 Corla（@Corla_5555 / corla.fun）Flap Pool Launch 首个 mint 台 LIVE score67；0rigin（@0rigindotfun / 0rigin.fun）LZ launchpad soon score65；Elysium Huntx（@archuntx）测试网 Hunter Card mint score66。≤2h/今晚：dividing-spoils LIVE RPC≈35；wojagent FREE Tier1 LIVE；fungo≈20:30 CST；bnb-cache 21:00 CST；goofies≈22:45 CST；agentideth 23:00 CST。明日 HOA 挖矿 11/6 20:00 CST。FREE LIVE 续：foxfire≈11、dyor≈10382、orb≈6423、cappy≈1388、fly≈1200、lingji≈191、soul≈665、unigent；sealbay paid。完整面板：https://reboot7454.github.io/early-scout/
+- newThisRound: corla, origin-dotfun, archuntx
+- xReads: 32 / softCap 28 / mode ample
+- remaining: 818 → 786
+- ufCursor: 276 → 316 (soft-brush ~40; NF ciowworld/gra8dtv/hahastage/rinseddotfun/hollytallycheck/divade_xyz/HaloPad_Pro/HOA_Heart; resolvable already-in-lib)
+- mentionsChains: kinetiq+Enter_Elysium · squeek+Nutshell · flap/Irys/Full.fun/Arc · BTC-privacy · XLayer/STARX · BN-Agent-pads（cover R1275-avoided set）
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + mentions rotate + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: dividing-spoils LIVE supply≈35；wojagent FREE Tier1 LIVE；fungo≈20:30CST；bnb-cache 21:00CST；goofies≈22:45CST；agentideth 23:00CST；hoa Fri 11/6 20:00CST；foxfire/dyor/orb/cappy/fly/lingji/soul/unigent FREE LIVE；sealbay paid LIVE
+- progress: admit corla Flap Pool Launch LIVE score67 + origin-dotfun LZ launchpad soon score65 + archuntx Elysium testnet Hunter Card score66; dividing-spoils 29→35; RPC dyor10091→10382 orb6420→6423 soul659→665; UF 276→316; KW/mentions mostly already-in-lib; soft-debt; discord deferred; fixed top-level newThisRound sealbay→this-round sync
+- watchFixes: ufCursor 276→316 persist meta+userFollowWatch; NF_skip+=ciowworld/gra8dtv/hahastage/rinseddotfun/hollytallycheck/divade_xyz/HaloPad_Pro/HOA_Heart; corla→flapPadWatch; origin-dotfun→layerZeroWatch; archuntx→elysiumWatch; +UF accounts/candidateIds; soft-debt Canton/Glaze/TokenWorks + lane watches lastChecked; cleared stale sealbay/wojagent newThisRound; meta.round=1276 sync top-level newThisRound/round1276Added/alertMessage/updatedAt
+- userFollow: soft-brush 276:316 (~40); NF ciowworld/gra8dtv/hahastage/rinseddotfun/hollytallycheck/divade_xyz/HaloPad_Pro; priority ≤2h/LIVE named brushed; starx_xlayer prior-NF
+- keywords: agent mining / free mint / fair launch / launchpad / Agent ID / Binance agent wallet / AIDROP / bscaidrop / PulseLaunchpad/$PULSE / Local Bottom / Nutshell/squeek / STARX/X Layer / pipfun / computeroll / TapeOut / GIWA / DogeEVM / Starknet / Elysium / 挖矿 / 打新 / GO盘 / Flap Pool / LayerZero launchpad
+- skipped: discord-deferred; exploratory-reads; already-in-lib-UF-slice; already-in-lib-KW/mentions; starx_xlayer prior-NF; softCap pacing (xReads 32 slightly over softCap28 for admit verify); PassAgentX/MegaBull/DGF-class no-official-X pattern
+- pushSha: (pending)
+- completedAt: 2026-11-05 14:35 CST
+- xQuota: remainingBefore=818 remaining=786 mode=ample softCap=28
+- dsNote: deepseek-flash thinking-on admit+score corla67/origin-dotfun65/archuntx66 + alert; no local fallback
