@@ -1,0 +1,24 @@
+# Early Scout RESULT — R1292
+
+- **completedAt**: 2026-11-05 21:35 CST
+- **notify**: **true**
+- **freeLiveForcedNotify**: false
+- **alertMessage**: 【R1292】新收 spaceone=@SpaceOneOf（本地种子库+公平发射·粉≈16·社区贴$SPACE CA高风险）；≤2h：fungolabs WL FREE LIVE / bnb-cache 777 FREE LIVE / amber-pow≈21:00窗 / owlord≈22:00 / goofies≈22:45 / agentideth≈23:00；moonfall≈00:30CST；ark100付费LIVE只报；HashDoge relaunch LIVE但挖矿已停仅播报；面板：https://reboot7454.github.io/early-scout/
+- **newThisRound**: `spaceone`
+- **xReads**: 27 this executor (softCap=27, mode=pace) · remaining **549→522**
+- **ufCursor**: 884→896 (priority ≤2h/LIVE + rotate 12; NF 不连刷)
+- **tenLanes**: yes
+- **mentionsChains**: thin rotate (softCap paced) · KW covered AgentID/Elysium/TapeOut/GIWA/DogeEVM/GO·LZ·Starknet·BTC/mining·HashDoge/flap·squeek
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **dsNote**: DS admit/score OK；alertMessage PANEL 占位本地补全
+- **le2hActionable**: true（fungolabs WL FREE LIVE；bnb-cache FREE LIVE；amber≈21:00；owlord≈22:00；goofies≈22:45；agentideth≈23:00；ark100 paid LIVE）
+- **ADMIT**:
+  - `spaceone` — @SpaceOneOf 本地 AES-256 种子库 + fair launch（粉≈16·源码/白皮书公开·社区贴 pump $SPACE CA）；`focus:false`；高钓鱼风险
+- **SKIP**: aeroxyz（粉≈13.6万成名DEX Day-1扩链非极早期）；Kyber同理；LingjiBots 账号污染；HashDoge_ 仿号；cathereum/slymz/elysium-pad等已在库；HashDoge 仅播报；付费 AgentID/ark100 只报
+- **progress**: FREE/tonight fungo+bnb-cache LIVE / amber·owlord·goofies·agentideth ≤2h / moonfall≈00:30 / HashDoge relaunch broadcast-only；1 new admit
+- **watchFixes**: ufCursor=896；userFollowWatch+=@SpaceOneOf；soft-debt canton/glaze/tokenWorks/cantonWatch bump；≤2h cards lastChecked bump
+- **keywords note**: ten-lane merge + AgentID free/paid mint + TapeOut/GIWA/Doge/GO盘/LZ/Starknet/BTC + mining/HashDoge/flap/squeek；mentions thin under softCap
+- **pushSha**: pending
+- **pushOk**: pending
+- **note**: 新 admit + ≤2h 多窗强制 notify；HashDoge 仅播报勿重启挖矿；Genius.fun 已停狙；付费 AgentID 只报不自动打；discordPeekDeferred=true。
