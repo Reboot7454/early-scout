@@ -1,0 +1,39 @@
+{
+  "round": 1290,
+  "completedAt": "2026-11-05 20:21 CST",
+  "notify": true,
+  "alertMessage": "【R1290】新收 ark100=@ARK100Game（BSC AgentID 付费mint≈$2 LIVE·粉≈7·只报不自动打）；≤2h：fungolabs WL FREE≈20:30 / bnb-cache≈21:00 / agentic-social $ASOC 555 FREE≈21:00；今晚 owlord≈22:00 goofies≈22:45 agentideth≈23:00；HashDoge 挖矿已停仅播报；面板：https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "ark100"
+  ],
+  "xReads": 28,
+  "remainingBefore": 604,
+  "remaining": 576,
+  "mode": "ample",
+  "softCap": 28,
+  "ufCursor": {
+    "before": 836,
+    "after": 876
+  },
+  "tenLanes": true,
+  "mentionsChains": "thin rotate under softCap; KW covered ten lanes",
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsNote": "DS admit scores OK; alertMessage completed locally after DS truncate",
+  "le2hActionable": true,
+  "ADMIT": [
+    {
+      "id": "ark100",
+      "oneLiner": "@ARK100Game BSC AgentID 付费mint≈$2 LIVE · 粉≈7 · focus:false · 只报不自动打"
+    }
+  ],
+  "SKIP": [
+    "PassAgentX 官推 NF",
+    "erupt/ammora/vaultcrack/agent-panda/ignite/feedthefire/rekt-souls 已在库",
+    "UF NF Agentspunks/cryptosympbnb/BN_Big_Bang 不连刷"
+  ],
+  "progress": "tonight fungo/bnb-cache/asoc ≤2h; ark100 LIVE paid; HashDoge stopped broadcast-only",
+  "watchFixes": "NF_skip+=4; ufCursor 836→876; agentPadWatch+=ARK100Game; soft-debt bump",
+  "pushSha": null,
+  "pushOk": false
+}

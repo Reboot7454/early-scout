@@ -1,0 +1,23 @@
+# Early Scout RESULT — R1290
+
+- **completedAt**: 2026-11-05 20:21 CST
+- **notify**: **true**
+- **freeLiveForcedNotify**: false
+- **alertMessage**: 【R1290】新收 ark100=@ARK100Game（BSC AgentID 付费mint≈$2 LIVE·粉≈7·只报不自动打）；≤2h：fungolabs WL FREE≈20:30 / bnb-cache≈21:00 / agentic-social $ASOC 555 FREE≈21:00；今晚 owlord≈22:00 goofies≈22:45 agentideth≈23:00；HashDoge 挖矿已停仅播报；面板：https://reboot7454.github.io/early-scout/
+- **newThisRound**: `ark100`
+- **xReads**: 28 this executor (softCap=28, mode=ample) · remaining **604→576**
+- **ufCursor**: 836→876 (brushed ~40; NF Agentspunks/cryptosympbnb/BN_Big_Bang/PassAgentX → NF_skip；rest already in-lib / no new ≤2h signal)
+- **tenLanes**: yes
+- **mentionsChains**: thin rotate (softCap paced) · KW covered AgentID/Elysium/TapeOut/GIWA/DogeEVM/GO·LZ·Starknet·BTC/mining·HashDoge/flap·squeek
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **dsNote**: DS admit scores OK；alertMessage 因 DS 截断本地补全
+- **le2hActionable**: true（fungolabs≈20:30 / bnb-cache≈21:00 / agentic-social≈21:00 CST ≤2h；ark100 刚开售）
+- **ADMIT**: `ark100` — @ARK100Game BSC Agent ID 付费公平铸造 LIVE（≈$2·3000票满员开池·SaleCA 0x64a67c…Af65）；粉≈7；`focus:false`；付费只报不自动打
+- **SKIP**: PassAgentX（官推 NF）；erupt-fun/ammora/vaultcrack/agent-panda/ignite-dotfun/feedthefirerh/rekt-souls 已在库；AgentBox 无独立官推硬禁延续；UF NF 不连刷；付费 AgentID 只报
+- **progress**: FREE/tonight fungo≤2h / bnb-cache / asoc≤2h / owlord / goofies / agentideth；hoa Fri 11/6 20:00CST；TapeOut Live 已开播；HashDoge 挖矿已停仅播报；ARK100 LIVE paid
+- **watchFixes**: NF_skip+=Agentspunks/cryptosympbnb/BN_Big_Bang/PassAgentX；soft-debt canton/glaze/tokenWorks bump；ufCursor=876；agentPadWatch+=@ARK100Game；≤2h cards lastChecked bump
+- **keywords note**: ten-lane merge + AgentID free/paid mint + TapeOut/GIWA/Doge/GO盘/LZ/Starknet/BTC + mining/HashDoge/flap/squeek；mentions thin under softCap
+- **pushSha**: `PENDING`
+- **pushOk**: `PENDING`
+- **note**: 新 admit ark100；≤2h 三窗+新收强制 notify；HashDoge 仅播报勿重启挖矿；付费 AgentID 只报不自动打。
