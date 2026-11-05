@@ -18,6 +18,6 @@
 - **progress**: FREE/tonight fungo≤2h / bnb-cache / asoc≤2h / owlord / goofies / agentideth；hoa Fri 11/6 20:00CST；TapeOut Live 已开播；HashDoge 挖矿已停仅播报；ARK100 LIVE paid
 - **watchFixes**: NF_skip+=Agentspunks/cryptosympbnb/BN_Big_Bang/PassAgentX；soft-debt canton/glaze/tokenWorks bump；ufCursor=876；agentPadWatch+=@ARK100Game；≤2h cards lastChecked bump
 - **keywords note**: ten-lane merge + AgentID free/paid mint + TapeOut/GIWA/Doge/GO盘/LZ/Starknet/BTC + mining/HashDoge/flap/squeek；mentions thin under softCap
-- **pushSha**: `PENDING`
-- **pushOk**: `PENDING`
+- **pushSha**: `c48953a`
+- **pushOk**: `c48953a`
 - **note**: 新 admit ark100；≤2h 三窗+新收强制 notify；HashDoge 仅播报勿重启挖矿；付费 AgentID 只报不自动打。
