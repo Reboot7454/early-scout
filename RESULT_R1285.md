@@ -17,4 +17,4 @@
 - **progress**: FREE LIVE RPC dividing≈50 fox≈11 dyor≈11111 orb≈6488 cappy≈1388 fly≈1200 lingji≈209 soul≈689 ore≈502 hashdoge≈252; tonight fungo/bnb-cache/goofies/agentideth/owlord; TapeOut Live 20:00HKT
 - **watchFixes**: perla-compute+bitcoin-moi → miningWatch + agentMiningWatch + userFollowWatch; sync newThisRound/round1285Added/ufCursor=676; NF_skip += UF NF/SUSP; soft-debt canton/glaze/tokenWorks bump
 - **keywords note**: ten-lane merge + mentions 九链；AgentBox probe 无官推不收
-- **pushSha**: `2862a2b` · pushOk=true
+- **pushSha**: `043e32e` (sync `2862a2b`) · pushOk=true
