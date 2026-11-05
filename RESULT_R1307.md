@@ -15,4 +15,4 @@
 
 ## alertMessage
 【R1307】无新收录；≤2h/LIVE：moonfall公共0.00013BNB→09:40CST(84/1001+Moon Trial免1)、goofies 5266/9999、sonofluidic 440/6666 FREE、agentic-eggs 1014/5000、dewata FREE、pop-agent平价LIVE、bnb-cache FREE→21:00CST、fungolabs密封竞价→15:30UTC/23:30CST；今日窗：oupe Genesis17:00CST、hoa-heart挖矿20:00CST、ombrellonft Tampesta14:00UTC/22:00CST、elysium-machines→15:00UTC/23:00CST；watchFix：tidepad纠正为Elysium测试网LIVE；HashDoge仅播报勿挖；Genius/Corla/Flap已停不重启；面板：https://reboot7454.github.io/early-scout/
-- **pushSha**: (pending)
+- **pushSha**: d291ccb (ok)
