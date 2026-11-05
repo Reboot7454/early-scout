@@ -1,0 +1,25 @@
+# RESULT R1264
+
+- round: 1264
+- notify: true
+- freeLiveForcedNotify: true
+- alertMessage: 新增分赃 LOOT 今日14:00CST开卖（Agent ID免费1张）；可操作：fungo 12:30UTC、moonfall 12UTC、bnb-cache/ASOC 21:00CST、agentideth 23:00CST、goofies 14:45UTC；FREE LIVE soul≈606/orb≈6389/vanta/nibblets等，详见面板 https://reboot7454.github.io/early-scout/
+- newThisRound: dividing-spoils
+- xReads: 11 / softCap 28 / mode ample
+- remaining: 936 → 934 (live footer; x_budget@open≈936→ample softCap28)
+- ufCursor: 812 → 852
+- mentionsChains: rotated (Elysium/@Enter_Elysium + squeek/@squeekchain + flap/@flapdotsh + BTC/@ShieldedNaka+Irys; avoid R1263 GIWA/Starknet/DogeEVM/Tape exclusive)
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: soul≈606/5555；orb≈6389；vanta FREE续；lingji≈190；cappybara≈1388；fly≈1200；nibblets/stonk/agent-card/thalvorix/wobblokz FREE LIVE；dividing-spoils今日14:00CST；goofies今日14:45UTC；fungo今日12:30UTC；moonfall WL今日12UTC；bnb-cache/ASOC今日21:00CST；agentideth今日23:00CST；honey周五11/6；hoa挖矿11/6 20:00CST
+- progress: admit dividing-spoils (DS overall62)；RPC soul606/orb6389/lingji190/cappybara1388/fly1200；KW hits mostly in-lib；skip BoxAgent/foxfire-shill/AgenticalGlyphs-NF/Blackholmom-KOL；UF 812→852；soft-debt；clear R1263 newThisRound
+- watchFixes: ufCursor→852；dividing-spoils→UF.pending+agentPadWatch；soft-debt Canton/Glaze/TokenWorks；NF notes UF shard；clear R1263 new badges
+- userFollow: soft-brush 812:852 (2× batch resolve 20)；NF btcliu205/Sambario_bnb/KDAgentAI/Gweiwbbb/PlayTycoonCity/PunksOnDrugs/baoracletrade/agentplacewall/LastCall4vx/Agentspunks；rest already-in-lib
+- keywords: free-mint/AgentID/AIDROP/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘/PoW/LayerZero + Pulse/Nutshell/STARX/XLayer/LocalBottom/Carcosa/squeek/Irys/flap；hits→dividing-spoils NEW；erupt/fungo/hoa/AGC/elysium-machines already-in-lib
+- skipped: discord-deferred, 0x_BoxAgent(same-day), binanceminters/foxfire(shill), AgenticalGlyphs(NF), Blackholmom(KOL), MundiChain(0粉), tikalastwar(same-day), exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice, NF-named
+- completedAt: 2026-11-05 11:02 CST
+- pushSha: (pending)
+- xQuota: remainingBefore=936 remaining=934 xReads=11 mode=ample softCap=28 ufCursor=852
+- dsNote: deepseek-flash thinking-on via ds_batch_score (admit+score dividing-spoils; alert via DS); no local fallback
