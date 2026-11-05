@@ -1,0 +1,25 @@
+# RESULT R1266
+
+- round: 1266
+- notify: true
+- freeLiveForcedNotify: false
+- alertMessage: 新增：Qurve（AI Agent Launchpad，11/9，70分）、Shift Forever（快照11/7、mint11/9）、Naroba Phase2付费LIVE；2h内：dividing-spoils 14:00CST AgentID免费、fungo 12:30UTC、moonfall WL 12UTC、goofies 14:45UTC，请查看 https://reboot7454.github.io/early-scout/
+- newThisRound: qurve, shift-forever, naroba
+- xReads: 17 / softCap 28 / mode ample
+- remaining: 921 → 904 (live footer; x_budget@open≈921→ample softCap28)
+- ufCursor: 892 → 932
+- mentionsChains: rotated (Elysium/@Enter_Elysium(+kinetiq) + squeek/@squeekchain(+@NutshellMarkets) + flap/Irys/Full.fun/Arc + BTC隐私/@ShieldedNaka + X Layer/@starX_layer; avoid R1265 GIWA/Tape/Starknet/DogeEVM/Zero/BN-Agent)
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + mentions rotate + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: soul≈618/5555；orb≈6401；vanta FREE≈324/350 soft；lingji≈190；cappybara≈1388；fly≈1200；SAP≈141 soft；dyorcash FREE LIVE≈5572；nibblets/stonk/agent-card/thalvorix/wobblokz FREE LIVE；dividing-spoils今日14:00CST；goofies今日14:45UTC；fungo今日12:30UTC；moonfall WL今日12UTC；bnb-cache/ASOC今日21:00CST；agentideth今日23:00CST；honey周五11/6；hoa挖矿11/6 20:00CST
+- progress: admit qurve (DS overall70 announced) + shift-forever (DS overall63 announced) + naroba (DS overall42 Phase2 paid LIVE)；RPC soul618/orb6401/lingji190/cappybara1388/fly1200/dyorcash5572/dividing-spoils0；UF 892→932；KW/mentions→Qurve+Shift+Naroba NEW；soft-debt；clear R1265 newThisRound
+- watchFixes: ufCursor→932；qurve→UF+elysium+kinetiq+agentPad；shift-forever→UF+elysium+kinetiq+freeMint；naroba→UF+freeMint+agentPad；NF_skip+=useampad,astropad_real；soft-debt Canton/Glaze/TokenWorks；clear R1265 new badges
+- userFollow: soft-brush 892:932 (batch resolve；NF useampad/astropad_real；rest already-in-lib / prior cards)
+- keywords: free-mint/AgentID/AIDROP/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘/PoW/LayerZero + Pulse/Nutshell/STARX/XLayer/LocalBottom/squeek/flap/Irys；hits→qurve+shift-forever+naroba NEW；fungo/agentideth/dividing/hoa/dyor already-in-lib
+- skipped: discord-deferred, exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice, ETH-Replica/sharkzuki noise, Qurve/Shift prior-lane noise until verify, Naroba 0粉高风险仍admit(粉少也进候选), SAP/agent-card/thalvorix RPC revert soft-prior
+- completedAt: 2026-11-05 12:05 CST
+- pushSha: PENDING
+- xQuota: remainingBefore=921 remaining=904 xReads=17 mode=ample softCap=28 ufCursor=932
+- dsNote: deepseek-flash thinking-on via ds_batch_score (admit+score qurve/shift-forever/naroba; alert via DS+panel); no local fallback
