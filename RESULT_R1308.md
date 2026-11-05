@@ -15,4 +15,4 @@
 
 ## alertMessage
 【R1308】新收 pala-trade（@Tradeonpala·Elysium发射台·testnet UI已通·粉≈4极早期）、upgo（@TryUpGo·Elysium挂钩HL永续发币·Announced·自称live+CA待核·粉≈15高风险）；≤2h/LIVE：moonfall公共0.00013BNB→09:40CST(84/1001+Moon Trial)、goofies 5419/9999、sonofluidic 440/6666 FREE、agentic-eggs 1014/5000、dewata FREE、pop-agent平价LIVE、bnb-cache FREE→21:00CST、fungolabs密封竞价→15:30UTC/23:30CST、crown-race 530/2222；今日窗：oupe Genesis17:00CST、hoa-heart挖矿20:00CST、ombrellonft Tampesta14:00UTC/22:00CST、elysium-machines→15:00UTC/23:00CST；watchFix：fluffbat第3段=Kalos holders、broisafreak mint Nov8、torch Portal+tideboundrh；HashDoge仅播报勿挖；Genius/Corla/Flap已停不重启；面板：https://reboot7454.github.io/early-scout/
-- **pushSha**: (pending)
+- **pushSha**: 4c25b49 (ok)
