@@ -20,6 +20,6 @@
 - keywords: free-mint/AgentID/AIDROP/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘/PoW/LayerZero + Pulse/Nutshell/STARX/XLayer/LocalBottom/Carcosa/squeek/Irys/flap; hits→agenticsocial admit; boxagent/dyor skip; rest already-in-lib (THALVORIX/QUQU/Skitters/Fungo/AgentCards/Ammora/slymz/webhood/trippi/pabal)
 - skipped: discord-deferred, boxagent(1粉+CA reboot), dyorcash(当日号), aether-elysium(no testnet/deploy), exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice, NF-named
 - completedAt: 2026-11-05 10:29 CST
-- pushSha: PENDING
+- pushSha: 7beadec
 - xQuota: remainingBefore=959 remaining=945 xReads=14 mode=ample softCap=28 ufCursor=792
 - dsNote: deepseek-flash thinking-on via ds_batch_score (admit agentic-social82; skip boxagent36/dyorcash24/aether34); alert via ds_batch_score; no local fallback
