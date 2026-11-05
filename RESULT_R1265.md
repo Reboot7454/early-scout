@@ -1,0 +1,25 @@
+# RESULT R1265
+
+- round: 1265
+- notify: true
+- freeLiveForcedNotify: true
+- alertMessage: 新增 dyorcash FREE LIVE（Agent ID 狗梗 NFT≈2682）+ hodlflow Solana座位公平发射；可操作：fungo 12:30UTC、moonfall WL 12UTC、dividing-spoils 14:00CST、bnb-cache 21:00CST、agentideth 23:00CST、goofies 14:45UTC；FREE LIVE soul≈612/orb≈6396/vanta/nibblets等，详见面板 https://reboot7454.github.io/early-scout/
+- newThisRound: dyorcash, hodlflow
+- xReads: 15 / softCap 28 / mode ample
+- remaining: 934 → 921 (live footer; x_budget@open≈934→ample softCap28)
+- ufCursor: 852 → 892
+- mentionsChains: rotated (GIWA/@GIWA_by_Upbit + Tape/@TapeAIAgent + Starknet/@Starknet + DogeEVM/@DogeOS + Zero/@zerodotnetwork + BN-Agent/@dotaipad; avoid R1264 Elysium/squeek/flap/BTC+Irys)
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: soul≈612/5555；orb≈6396；vanta FREE续；lingji≈190；cappybara≈1388；fly≈1200；SAP≈141 RPC-soft；nibblets/stonk-turtle/agent-card/thalvorix/wobblokz FREE LIVE；dyorcash FREE LIVE≈2682；dividing-spoils今日14:00CST；goofies今日14:45UTC；fungo今日12:30UTC；moonfall WL今日12UTC；bnb-cache/ASOC今日21:00CST；agentideth今日23:00CST；honey周五11/6；hoa挖矿11/6 20:00CST
+- progress: admit dyorcash (DS overall76 FREE LIVE) + hodlflow (DS overall55 announced)；RPC soul612/orb6396/lingji190/cappybara1388/fly1200/dividing-spoils0；KW hits PassAgentX/celiuz/horror skipped；UF 852→892；soft-debt；clear R1264 newThisRound
+- watchFixes: ufCursor→892；dyorcash→UF+agentPadWatch；hodlflow→UF；starx_xlayer handle NF→@starX_layer；soft-debt Canton/Glaze/TokenWorks；clear R1264 new badges
+- userFollow: soft-brush 852:892 (2× batch resolve 20)；NF BN_Big_Bang/LumenGenesisNFT（卡已在库）；LingjiBots=lingji-knights altX；rest already-in-lib
+- keywords: free-mint/AgentID/AIDROP/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘/PoW/LayerZero + Pulse/Nutshell/STARX/XLayer/LocalBottom/squeek；hits→dyorcash+hodlflow NEW；PassAgentX(无官推skip)/celiuz(无官推)/fungo/erupt/qagent/bnbrunnerz/kismo/hoa already-in-lib
+- skipped: discord-deferred, PassAgentX(no official X), celiuz(no handle), HorrorProtocol(0粉播客号/错号), exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice, Ammora/deuslaunch(in-lib), starx_xlayer username NF(fixed→starX_layer)
+- completedAt: 2026-11-05 11:40 CST
+- pushSha: PENDING
+- xQuota: remainingBefore=934 remaining=921 xReads=15 mode=ample softCap=28 ufCursor=892
+- dsNote: deepseek-flash thinking-on via ds_batch_score (admit+score dyorcash/hodlflow; alert via DS+panel); no local fallback
