@@ -20,6 +20,6 @@
 - keywords: free-mint/AgentID/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘/PoW/Flap/Pool-launch；hits→slime-flap+m3m3-agent NEW；erupt/skitters/slymz/fungo/dividing/pixeltrump already-in-lib
 - skipped: discord-deferred, exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice, TheSuitedApes(established RH Mutant WL-holder mint not blind free LIVE), M3M3 census非可打free LIVE(仍admit观察), PainBnb(工具人非项目)
 - completedAt: 2026-11-05 12:30 CST
-- pushSha: (pending)
+- pushSha: d6e394b
 - xQuota: remainingBefore=903 remaining=879 xReads=24 mode=ample softCap=28 ufCursor=1012
 - dsNote: deepseek-flash thinking-on via ds_batch_score (admit+score slime-flap/m3m3-agent); no local fallback
