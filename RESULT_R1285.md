@@ -16,4 +16,4 @@
 - **SKIP**: joayo-fun/Joayofundev — GIWA testnet pad only, no mainnet mint; HashDoge/Elympus/Unseen/TapeLaunch/MarsNexus/Corla/RGBHorse/Runnerz — already in-lib; Starknet/GIWA/Doge mentions — no new official mint affiliates
 - **progress**: FREE LIVE soft-refresh via sites; tonight fungo/bnb-cache/goofies/agentideth/owlord soft; TapeOut Live 20:00HKT
 - **watchFixes**: perla-compute+bitcoin-moi → miningWatch + agentMiningWatch + userFollowWatch; soft-debt canton/glaze/tokenWorks lastChecked bump
-- **pushSha**: `607149ff16cccf95336a8c24b4ff0aa98a1e8840` · pushOk=True
+- **pushSha**: `77a23ec8788d4c620d03dfc41ef0b8b1c4dc8731` · pushOk=True
