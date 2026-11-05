@@ -16,4 +16,4 @@
 ## alertMessage
 【R1297】新收 o1-exchange=@o1_exchange（Elysium launchpad合约已发·前端≈11/9 day-1·a16z背书·~37k粉）；≤2h：moonfall WL FREE 00:40–01:40CST（全员通过·gas only）、fungolabs密封拍卖LIVE、bnb-cache777 FREE LIVE、goofies 3519/9999 LIVE、sonofluidic~300/6666、agent-smart FREE LIVE、bnb-agentic免费已满付费仍LIVE；owlord/agentideth/ark100付费只报；HashDoge仅播报勿挖；面板：https://reboot7454.github.io/early-scout/
 
-- **pushSha/pushOk**: (pending)
+- **pushSha/pushOk**: cb589eb
