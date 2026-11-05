@@ -1,0 +1,21 @@
+# Early Scout RESULT — R1286
+
+- **completedAt**: 2026-11-05 18:40 CST
+- **notify**: **true**
+- **freeLiveForcedNotify**: false
+- **alertMessage**: 【R1286 新收录】munos（@themunos_，ETH艺术PFP Paid Mint，GTD预热，粉≈1533，score76）；≤2h：fungolabs WL FREE≈20:30 CST；今晚：bnb-cache≈21:00 / owlord≈22:00 / goofies≈22:45 / agentideth≈23:00；FREE LIVE续：dividing/fox/dyor/orb/cappy/fly/lingji等 https://reboot7454.github.io/early-scout/
+- **newThisRound**: `munos`
+- **xReads**: 28 (softCap=28, mode=ample) · remaining 660→632
+- **ufCursor**: 676→690 (brushed 14; NF origopad; rest already in-lib)
+- **tenLanes**: yes
+- **mentionsChains**: TapeOut/circuit · GIWA · DogeEVM · Starknet · Flap/Irys
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **le2hActionable**: true（fungolabs WL FREE≈20:30CST 已入≤2h）
+- **ADMIT**: munos (@themunos_) score76 ETH艺术PFP Paid Mint GTD预热 粉≈1533
+- **SKIP**: sight_hood（RH预测市场偏成熟）; usespout（过薄/无Elysium硬条件）; clanker_world（既有launcher仅Nov9信号）; erupt/tidebound/honey/ammora/RGBHorse等已在库; UF NF origopad
+- **progress**: fungo≤2h; tonight bnb-cache/owlord/goofies/agentideth; FREE LIVE cluster; TapeAI 检察官电路质押预告; Ascend 开放压力测/文档; Elysium mainnet Nov9 注册开
+- **watchFixes**: munos→freeMint+agentPad+UF; soft-debt canton/glaze/tokenWorks; NF_skip+=origopad; le2h=true
+- **keywords note**: ten-lane merge + mentions 五链轮换
+- **pushSha**: (pending)
+- **pushOk**: pending

@@ -1,0 +1,63 @@
+{
+  "round": 1286,
+  "notify": true,
+  "freeLiveForcedNotify": false,
+  "alertMessage": "【R1286 新收录】munos（@themunos_，ETH艺术PFP Paid Mint，GTD预热，粉≈1533，score76）；≤2h：fungolabs WL FREE≈20:30 CST；今晚：bnb-cache≈21:00 / owlord≈22:00 / goofies≈22:45 / agentideth≈23:00；FREE LIVE续：dividing/fox/dyor/orb/cappy/fly/lingji等 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "munos"
+  ],
+  "xReads": 28,
+  "softCap": 28,
+  "mode": "ample",
+  "remainingBefore": 660,
+  "remaining": 632,
+  "ufCursor": {
+    "before": 676,
+    "after": 690
+  },
+  "mentionsChains": "TapeOut/circuit · GIWA · DogeEVM · Starknet · Flap/Irys",
+  "tenLanes": true,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "le2hActionable": true,
+  "le2h": "fungolabs WL FREE≈20:30CST (≤2h); bnb-cache≈21:00; owlord≈22:00; goofies≈22:45; agentideth≈23:00; FREE LIVE cluster",
+  "progress": "ADMIT munos; UF676→690; fungo entered ≤2h; tenLanes yes; mentions 5 chains; discord deferred; soft-debt bump",
+  "watchFixes": [
+    "munos → freeMintWatch + agentPadWatch + userFollowWatch",
+    "soft-debt lastChecked bump cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch",
+    "NF_skip += origopad (UF shard NF, no hammer)",
+    "watches.le2h=true; fungolabs le2h flag"
+  ],
+  "skipped": [
+    "sight_hood/@sight_hood — RH prediction markets product (~16k followers), not extreme-early mint card",
+    "usespout/@usespout — 0 followers / 1 post / too thin; Elysium mention without On testnet or Announced+deploy",
+    "clanker_world — existing launcher; Nov9 Elysium signal only, not new project card",
+    "erupt-fun/tideboundrh/honey-isles/ammora/RGBHorse/TapeAI/FAGENT/miuadotfun — already in-lib",
+    "UF NF origopad — no hammer; rest of UF shard already in-lib"
+  ],
+  "keywords": "merged ten lanes: free mint/fair launch/Agent ID/挖矿/GPU/打新/台子/GO盘/LayerZero/Elysium/TapeOut/GIWA/DogeEVM/Starknet/flap/Irys/BTC/CRC20/Ordinals",
+  "userFollow": {
+    "before": 676,
+    "after": 690,
+    "brushed": 14,
+    "alreadyInLib": 13,
+    "nf": [
+      "origopad"
+    ],
+    "suspended": [],
+    "nf_skip_known": []
+  },
+  "pushSha": null,
+  "pushOk": false,
+  "dsNote": "deepseek-flash thinking-on admit+score+alert; admit munos overall76; skip sight/spout/clanker; dsFallback=false",
+  "completedAt": "2026-11-05 18:40 CST",
+  "xQuota": {
+    "remainingBefore": 660,
+    "remaining": 632,
+    "softCap": 28,
+    "mode": "ample",
+    "note": "remainingBefore probed≈660; end remaining from X MCP daily counter ~632; xReads=28 (=softCap)"
+  },
+  "ADMIT": "munos (@themunos_) score76 ETH art PFP Paid Mint GTD warmup",
+  "coverage": "tenLanes=yes; UF soft-brush 14; must-watch tonight+Tape+Elysium+Ascend; KW 4 merged queries; mentions Tape/GIWA/DogeEVM/Starknet/Flap"
+}
