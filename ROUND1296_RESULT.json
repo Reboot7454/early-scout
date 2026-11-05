@@ -1,0 +1,88 @@
+{
+  "round": 1296,
+  "completedAt": "2026-11-05 23:55 CST",
+  "notify": true,
+  "freeLiveForcedNotify": true,
+  "alertMessage": "【R1296】新收 bnb-agentic=@Bnbagentic（BSC FREE LIVE·123/444+paid@0.002BNB·CA0xE3a382…·~5粉·高风险蹭名）、cloak-elysium=@cloakonelysium（Elysium隐私拍卖测网LIVE·~138粉）；≤2h：fungolabs密封拍卖LIVE、bnb-cache777 FREE LIVE、goofies 3025/9999 LIVE、sonofluidic~300/6666、agent-smart FREE LIVE、moonfall WL FREE≈00:40CST/Public≈01:40CST；owlord/agentideth/ark100付费只报；HashDoge仅播报勿挖；面板：https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "bnb-agentic",
+    "cloak-elysium"
+  ],
+  "ADMIT": [
+    {
+      "id": "bnb-agentic",
+      "handle": "@Bnbagentic",
+      "note": "BSC FREE LIVE 123/444 + paid321@0.002BNB; CA 0xE3a382…49f4; ~5 followers; brand-hijack high risk; focus:false; DS early=72"
+    },
+    {
+      "id": "cloak-elysium",
+      "handle": "@cloakonelysium",
+      "note": "Elysium privacy auctions LIVE on testnet; ~138 followers; mainnet~11/9; focus:false; DS early=70"
+    }
+  ],
+  "SKIP": [
+    "UF slice Standssocial/DOGEKINGlol/AgentOnlyBSC/Garden/DABAI/BNBRunnerz/Flywheel/NibblersELY/Pairity/novus/elyfrens/SafeArc/PumpkinPit — 已在库仅软刷",
+    "bianjiayou/kpin_ai/LostGodsOnRH NF_skip honor 不连刷; astropad_real NF_skip honor",
+    "SENSHI/BaseBot404 无独立官推不收; RADAR PASS/VanCt20聚合不收",
+    "ElysiumQuotrons/rekt-souls/voidcash/ammora/anxiaojiang/plunderport 已在库软刷",
+    "付费 AgentID/ark100/owlord/agentideth 只报不自动打",
+    "HashDoge 仅播报勿重启挖矿；Genius.fun/Corla/Flap 已停狙不重启"
+  ],
+  "xReads": 23,
+  "remainingBefore": 441,
+  "remaining": 418,
+  "mode": "pace",
+  "softCap": 27,
+  "ufCursor": {
+    "before": 940,
+    "after": 956
+  },
+  "nfSkips": [
+    "astropad_real",
+    "bianjiayou",
+    "kpin_ai",
+    "LostGodsOnRH"
+  ],
+  "tenLanes": true,
+  "mentionsChains": "thin deferred under softCap (UF+must+KW prioritized)",
+  "keywordsCovered": [
+    "AgentID free/paid mint",
+    "Elysium Announced/testnet",
+    "TapeOut/电路",
+    "GIWA",
+    "DogeEVM/DogeOS",
+    "GO盘/LayerZero/OFT",
+    "Starknet",
+    "BTC privacy/Ordinals",
+    "mining/HashDoge/flap/squeek fair launch"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsNote": "DS admit/score/copy/alert OK deepseek-flash thinking ON；alert 最终行从 DS 草稿本地对齐 R1295 风格补全含面板URL与≤2h窗",
+  "le2hActionable": true,
+  "le2hList": [
+    "fungolabs sealed-bid LIVE cZAMA",
+    "bnb-cache 777 FREE LIVE",
+    "goofies FREE LIVE 3025/9999",
+    "sonofluidic FREE LIVE ~300/6666",
+    "agent-smart FREE LIVE",
+    "bnb-agentic FREE LIVE 123/444",
+    "moonfall WL FREE≈00:40CST / Public≈01:40CST",
+    "owlord paid LIVE@$1 report-only",
+    "agentideth $AGI LIVE report-only",
+    "ark100 paid LIVE report-only"
+  ],
+  "watchFixes": [
+    "ufCursor 940→956",
+    "userFollowWatch+=@Bnbagentic/@cloakonelysium",
+    "agentPadWatch+=@Bnbagentic/bnb-agentic",
+    "elysiumWatch+=@cloakonelysium/cloak-elysium",
+    "voidcash status→live (private payments)",
+    "soft-debt canton/glaze/tokenWorks bump",
+    "≤2h cards lastChecked bump",
+    "NF_skip+=bianjiayou/kpin_ai/LostGodsOnRH"
+  ],
+  "pushSha": null,
+  "pushOk": null,
+  "note": "新 admit×2 + ≤2h 多窗强制 notify；HashDoge 仅播报勿重启挖矿；Genius/Corla/Flap 已停不重启；付费 AgentID 只报不自动打；discordPeekDeferred=true；xReads 23≤softCap27。"
+}
