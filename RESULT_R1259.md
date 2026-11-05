@@ -1,0 +1,25 @@
+# RESULT R1259
+
+- round: 1259
+- notify: true
+- freeLiveForcedNotify: true
+- alertMessage: 无新收录；免费LIVE/≤2h：vanta≈326/350、soul-agent≈554/5555、nibblets、stonk-turtle>32%、goofies、wobblokz、fungo 12:30UTC 500、moonfall 12UTC、bnb-cache 21:00CST 777、agentideth 23:00CST WL满等，详见面板 https://reboot7454.github.io/early-scout/
+- newThisRound: (none)
+- xReads: 26 / softCap 40 / mode ample
+- remaining: 986 → 960 (live footer; wake said tight/10 but live≈986 superseded→ample/40 per R1255)
+- ufCursor: 724 → 740
+- mentionsChains: rotated (GIWA + squeekchain + DogeOS/DogeEVM; Zero/flap|Irys via KW soft)
+- tenLanes: yes (UF soft-brush + must-watch/≤2h + merged KW tenLanes + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: vanta FREE≈326/350；soul-agent≈554/5555；lingji≈190；orb≈6357；cappybara≈1388；fly≈1200；SAP≈139/333；nibblets FREE LIVE RH；stonk-turtle FREE LIVE>32%；goofies今日；agentcardshq CARDS预售；wobblokz FREE；fairagent前2000 FREE；bnbbaby FREE续；fungo今日12:30UTC FREE；moonfall WL今日12UTC；bnb-cache今日21:00CST；agentideth今日23:00CST；honey周五11/6；ripstack EA FULL(非le2h)
+- progress: no new admits; RPC vanta326/lingji190/orb6357/cappybara1388/fly1200; X soul≈554/SAP≈139; site+X goofies/moonfall/honey/fungo/nibblets/stonk/wobblokz; UF 724→740; soft-debt; clear R1258 newThisRound
+- watchFixes: ufCursor→740; soft-debt Canton/Glaze/TokenWorks; NF notes vytraqfun/hyperlinkdotfun/AgenticalGlyphs/starx_xlayer; SUSP kyte_market; clear R1258 new badges
+- userFollow: soft-brush 724:740 (batch resolve); NF vytraqfun/hyperlinkdotfun; suspended kyte_market; rest already-in-lib
+- keywords: free-mint/AgentID/AIDROP/Pulse/LocalBottom/Nutshell/STARX/XLayer/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘 merged; hits mostly already-in-lib (HoodFather/Fungo/etc); Tilekeepers no official X→skip; UnityTool t.co photo-only no X→skip
+- skipped: discord-deferred, Tilekeepers-no-official-X, UnityTool-no-official-X, AgenticalGlyphs-NF, starx_xlayer-NF, kyte_market-SUSP, vytraqfun-NF, hyperlinkdotfun-NF, same-handle-dedup, already-in-lib-UF-slice, exploratory-reads-banned
+- completedAt: 2026-11-05 09:13 CST
+- pushSha: PENDING
+- xQuota: remainingBefore=986 remaining=960 xReads=26 mode=ample softCap=40 ufCursor=740
+- dsNote: deepseek-flash thinking-on via ds_batch_score (alert); no local fallback; no admit batch (empty candidates)
