@@ -1,0 +1,24 @@
+# Early Scout RESULT — R1293
+
+- **completedAt**: 2026-11-05 22:08 CST
+- **notify**: **true**
+- **freeLiveForcedNotify**: false
+- **alertMessage**: 【R1293】新收 carryfield=@usecarryfield（Elysium资金费率中性·粉0·Announced）；≤2h：fungolabs WL FREE→23:30CST / bnb-cache 777 FREE LIVE / owlord LIVE@22:00 / goofies≈22:45 / agentideth≈23:00 / ark100付费LIVE只报；moonfall≈00:30CST；HashDoge relaunch仅播报；面板：https://reboot7454.github.io/early-scout/
+- **newThisRound**: `carryfield`
+- **xReads**: 25 this executor (softCap=26, mode=pace) · remaining **522→497**
+- **ufCursor**: 896→909 (priority ≤2h/LIVE + rotate 12; NF exec_terminal 不连刷)
+- **tenLanes**: yes
+- **mentionsChains**: thin rotate (softCap paced) · KW covered AgentID/Elysium/TapeOut/GIWA/DogeEVM/GO·LZ·Starknet·BTC/mining·HashDoge/flap·squeek
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **dsNote**: DS admit/score OK；moneto DS score=skip；alertMessage PANEL占位本地补全含面板URL与≤2h窗
+- **le2hActionable**: true（fungolabs WL FREE→23:30CST；bnb-cache FREE LIVE；owlord LIVE@22:00；goofies≈22:45；agentideth≈23:00；ark100 paid LIVE；moonfall≈00:30）
+- **ADMIT**:
+  - `carryfield` — @usecarryfield Elysium delta-neutral funding carry（粉0·Announced+明确@Enter_Elysium）；`focus:false`
+- **SKIP**: moneto=@monetofun（DS score skip：GIWA前置喊单叙事、可验证产品不足）；PACTURE/WAGAgent已在库仅更新；blurb/ammora/erupt/giwaup/elysium-machines已在库；HashDoge_仿号；付费 AgentID/ark100/owlord 只报；HashDoge 仅播报勿重启挖矿
+- **progress**: FREE/tonight fungo+bnb-cache LIVE / owlord·goofies·agentideth ≤2h / moonfall≈00:30 / HashDoge broadcast-only；1 new admit
+- **watchFixes**: ufCursor=909；userFollowWatch+=@usecarryfield；elysiumWatch+=@usecarryfield/carryfield；soft-debt canton/glaze/tokenWorks/cantonPad bump；≤2h cards lastChecked bump；NF_skip honor exec_terminal
+- **keywords note**: ten-lane merge + AgentID free/paid mint + TapeOut/GIWA/Doge/GO盘/LZ/Starknet/BTC + mining/HashDoge/flap/squeek；mentions thin under softCap
+- **pushSha**: `PENDING`
+- **pushOk**: `PENDING`
+- **note**: 新 admit + ≤2h 多窗强制 notify；HashDoge 仅播报勿重启挖矿；Genius.fun 已停狙；付费 AgentID 只报不自动打；discordPeekDeferred=true。
