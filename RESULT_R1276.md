@@ -19,7 +19,7 @@
 - userFollow: soft-brush 276:316 (~40); NF ciowworld/gra8dtv/hahastage/rinseddotfun/hollytallycheck/divade_xyz/HaloPad_Pro; priority ≤2h/LIVE named brushed; starx_xlayer prior-NF
 - keywords: agent mining / free mint / fair launch / launchpad / Agent ID / Binance agent wallet / AIDROP / bscaidrop / PulseLaunchpad/$PULSE / Local Bottom / Nutshell/squeek / STARX/X Layer / pipfun / computeroll / TapeOut / GIWA / DogeEVM / Starknet / Elysium / 挖矿 / 打新 / GO盘 / Flap Pool / LayerZero launchpad
 - skipped: discord-deferred; exploratory-reads; already-in-lib-UF-slice; already-in-lib-KW/mentions; starx_xlayer prior-NF; softCap pacing (xReads 32 slightly over softCap28 for admit verify); PassAgentX/MegaBull/DGF-class no-official-X pattern
-- pushSha: (pending)
+- pushSha: 2eeabe2
 - completedAt: 2026-11-05 14:35 CST
 - xQuota: remainingBefore=818 remaining=786 mode=ample softCap=28
 - dsNote: deepseek-flash thinking-on admit+score corla67/origin-dotfun65/archuntx66 + alert; no local fallback
