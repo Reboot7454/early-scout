@@ -20,6 +20,6 @@
 - keywords: free-mint/AgentID/AIDROP/Pulse/LocalBottom/Nutshell/STARX/XLayer/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘 + BN-Agent focused; hits mostly already-in-lib (RuninAI/AgentCards/Kismo/Elysium reg spam); Ammora/hoodminers already-in
 - skipped: discord-deferred, elysium-apes-no-site/mint, WOODPAD_FUN-1粉噪音, same-handle-dedup, already-in-lib-UF-slice, NF-named, exploratory-reads-banned
 - completedAt: 2026-11-05 09:32 CST
-- pushSha: 77325fe
+- pushSha: 7860e93
 - xQuota: remainingBefore=960 remaining=948 xReads=12 mode=ample softCap=28 ufCursor=756
 - dsNote: deepseek-flash thinking-on via ds_batch_score (admit cyclopes66 + alert; skip elysium-apes); no local fallback
