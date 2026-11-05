@@ -16,4 +16,4 @@
 ## alertMessage
 【R1300】新收 dewata（@dewata_nft·BNB FREE 3333 神像LIVE≈202）+ oupe（@oupefun·Agent解谜砖塔 Genesis今日17:00CST）；≤2h/LIVE：moonfall公共0.00013BNB→09:40CST、fungolabs密封拍卖→15:30UTC、bnb-cache FREE→21:00CST、goofies 4046/9999、sonofluidic 362/6666、agent-smart FREE、agentic-eggs 954/5000、bnb-agentic付费、hoa-heart GPU挖矿20:00CST、elysium-machines WL_LIVE→15:00UTC；crimson-eclipse付费AgentID只报不收；HashDoge仅播报勿挖；Genius/Corla/Flap已停不重启；面板：https://reboot7454.github.io/early-scout/
 
-- **pushSha/pushOk**: (pending)
+- **pushSha/pushOk**: 057dc09
