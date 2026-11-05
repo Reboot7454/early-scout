@@ -1,0 +1,25 @@
+# RESULT R1270
+
+- round: 1270
+- notify: true
+- freeLiveForcedNotify: true
+- alertMessage: 新增：FOXFIRE 狐火 FREE LIVE（≈11/1111，Binance Wallet；官推@binanceminters）；2h内：dividing-spoils 14:00CST入场券AgentID FREE×1；另 goofies 22:45CST FREE、fungo 20:30CST、bnb-cache/ASOC 21:00CST、agentideth 23:00CST、hoa 11/6 20:00挖矿；FREE LIVE dyor≈8168/orb≈6414/soul≈640；请查看 https://reboot7454.github.io/early-scout/
+- newThisRound: foxfire
+- xReads: 23 / softCap 28 / mode ample
+- remaining: 879 → 858 (live footer; x_budget@open≈882→ample softCap28; live footer open≈879)
+- ufCursor: 36 → 76 (soft-brush ~40; **fix R1269 persist bug** where RESULT claimed 36 but data.json stayed 1012)
+- mentionsChains: rotated (Elysium/@Enter_Elysium+kinetiq + squeek/@squeekchain + Nutshell/@NutshellMarkets + flap/@flapdotsh + BTC/@ShieldedNaka + XLayer/STARX-KW；avoid R1269 GIWA/Tape/Starknet/DogeEVM/Zero)
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + mentions rotate + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: dividing-spoils今日14:00CST；goofies今日14:45UTC；fungo今日12:30UTC；moonfall WL今日12UTC；bnb-cache/ASOC今日21:00CST；agentideth今日23:00CST；hoa周五11/6 20:00CST；soul/orb/dyor/lingji/foxfire FREE LIVE
+- progress: admit foxfire (DS overall70 FREE LIVE foxfire.site CA 0xAfe0…3f94 RPC≈11/1111)；RPC dyor8168/orb6414/soul640/lingji191/cappy1388/fly1200/dividing0；UF 36→76；KW/mentions→FOXFIRE NEW；soft-debt；clear R1269 newThisRound
+- watchFixes: ufCursor persist fix 36→76；foxfire→freeMintWatch+bnAgentWatch+UF.pending；NF_skip+=UF shard；clear R1269 elysiumverse badge；soft-debt Canton/Glaze/TokenWorks
+- userFollow: soft-brush 36:76 (batch resolve；NF/suspend skipped；rest already-in-lib；named must-include checked)
+- keywords: free-mint/AgentID/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘/Flap/Irys/STARX/XLayer；hits→foxfire NEW；erupt/qurve/elysium-machines already-in-lib
+- skipped: discord-deferred, exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice, utexo(RGB bridge), Arc_Agent(wrong-user), NF known handles
+- completedAt: 2026-11-05 13:08 CST
+- pushSha: PENDING
+- xQuota: remainingBefore=879 remaining=858 xReads=23 mode=ample softCap=28 ufCursor=76
+- dsNote: deepseek-flash thinking-on via ds_batch_score (admit+score foxfire overall70; alert via DS); no local fallback
