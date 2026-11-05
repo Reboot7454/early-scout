@@ -20,6 +20,6 @@
 - keywords: free-mint/AgentID/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘/Flap/Irys/STARX/XLayer；hits→foxfire NEW；erupt/qurve/elysium-machines already-in-lib
 - skipped: discord-deferred, exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice, utexo(RGB bridge), Arc_Agent(wrong-user), NF known handles
 - completedAt: 2026-11-05 13:08 CST
-- pushSha: PENDING
+- pushSha: bf79680
 - xQuota: remainingBefore=879 remaining=858 xReads=23 mode=ample softCap=28 ufCursor=76
 - dsNote: deepseek-flash thinking-on via ds_batch_score (admit+score foxfire overall70; alert via DS); no local fallback
