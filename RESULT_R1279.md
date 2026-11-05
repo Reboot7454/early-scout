@@ -17,7 +17,7 @@
 - progress: PATCH admit ore-raiders OreRaiders BNB Agent ID FREE LIVE mining ship (gas only) RPC≈502 score71 — missed by prior empty R1279; UF 396→436 confirmed; KW/mentions mostly already-in-lib; soft-debt; discord deferred login-wall; le2h tonight fungo/bnb-cache/goofies/agentideth
 - watchFixes: ufCursor 436 confirm; ore-raiders→UF+freeMintWatch+agentPadWatch+bnAgentWatch+agentMiningWatch+miningWatch; soft-debt Canton/Glaze/TokenWorks + lane watches; RPC refresh dividing≈40 foxfire≈11 soul≈671 dyor≈11111 orb≈6447 cappy≈1388 fly≈1200 lingji≈192 ore-raiders SHIP≈502; meta.round=1279 newThisRound=[ore-raiders]
 - skipped: discord-deferred-login-wall; exploratory-reads; already-in-lib-UF/KW/mentions; thin Privatedotfun_/Kosmos3000xyz; flop_labs too-big; Elysium keep-out perpme/branchpoint/outrive; agentbox-no-official-x (prior empty R1279)
-- pushSha: 520e326
+- pushSha: fb2be97
 - pushOk: true
 - dsNote: deepseek-flash thinking-on admit+score ore-raiders71 + alert; patch over empty R1279; no local fallback
 - completedAt: 2026-11-05 16:07 CST
