@@ -17,6 +17,6 @@
 - **progress**: FREE LIVE RPC dividing≈76 fox≈13/1111 dyor≈11111 orb≈6501 cappy≈1388 fly≈1200 lingji≈210 soul≈708 ore≈502 hashdoge≈293；unigent/sealbay selector N/A；woj/kagent FREE 续；tonight fungo≤2h / bnb-cache / owlord / goofies / agentideth；hoa Fri 11/6 20:00CST
 - **watchFixes**: NF_skip+=oblaunchpadAll/babycz_ai/mint_WRIT/BinanceCanFly/Meteorszmint/AiPullpad/oblaunchpadbase/bianfenhong/dinomitesnft/Morumai_；soft-debt canton/glaze/tokenWorks bump；clear prior newThisRound memefund；ufCursor=796；RPC/进度刷新；PulseLaunchpad id 纠正为 2107906526115700736
 - **keywords note**: ten-lane merge + AgentID free mint + TapeOut/GIWA/Doge/GO盘/computeroll/pipfun；mentions 全链 equal effort（含 starX_layer + Irys + PulseLaunchpad）
-- **pushSha**: _(pending)_
-- **pushOk**: _(pending)_
+- **pushSha**: `2d297fd`
+- **pushOk**: `2d297fd`
 - **note**: 无新 admit；≤2h fungolabs 强制 notify；付费 AgentID 只报不自动打。
