@@ -1,0 +1,25 @@
+# RESULT R1267
+
+- round: 1267
+- notify: true
+- freeLiveForcedNotify: false
+- alertMessage: 新增：VOID（GIWA交易终端）、TapePetDao/硅基仙途；2h内：dividing-spoils 14:00CST入场券、fungo 12:30UTC、goofies 14:45UTC，请查看 https://reboot7454.github.io/early-scout/
+- newThisRound: void-giwa, tapepet-dao
+- xReads: 17 / softCap 28 / mode ample
+- remaining: 920 → 903 (live footer; x_budget@open≈920→ample softCap28)
+- ufCursor: 932 → 972
+- mentionsChains: rotated (GIWA/@GIWA_by_Upbit + Tape/@TapeAIAgent(+Blonskr via KW) + Starknet/@Starknet + DogeEVM/@DogeOS + LayerZero/PlunderPort pad sample + mining/PoW/@HOA_AIAgent；avoid R1266 Elysium/squeek/flap/Irys/ShieldedNaka/starX)
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + mentions rotate + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: soul≈621/5555；orb≈6403；vanta FREE soft；lingji≈190；cappybara≈1388；fly≈1200；dyorcash FREE LIVE≈6278；nibblets/stonk/agent-card/thalvorix/wobblokz FREE LIVE；dividing-spoils今日14:00CST；goofies今日14:45UTC；fungo今日12:30UTC；moonfall WL今日12UTC；bnb-cache/ASOC今日21:00CST；agentideth今日23:00CST；honey周五11/6；hoa挖矿11/6 20:00CST
+- progress: admit void-giwa (DS overall60 watching GIWA terminal) + tapepet-dao (DS overall65 Tape/电路游戏)；RPC soul621/orb6403/lingji190/cappybara1388/fly1200/dyor6278/dividing-spoils0；UF 932→972；KW/mentions→VOID+TapePet NEW；soft-debt；clear R1266 newThisRound
+- watchFixes: ufCursor→972；void-giwa→UF+giwaWatch；tapepet-dao→UF+tapeWatch+tapeOutWatch；NF_skip+=bianjiayou,kpin_ai,LostGodsOnRH,geniedotfun；soft-debt Canton/Glaze/TokenWorks；clear R1266 new badges
+- userFollow: soft-brush 932:972 (batch resolve；NF bianjiayou/kpin_ai/LostGodsOnRH/geniedotfun；rest already-in-lib；posts only goofies_nft≤2h/today)
+- keywords: free-mint/AgentID/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘/PoW/LayerZero + PROXY/VOID/HOA；hits→void-giwa+tapepet-dao NEW；PROXY无官推skip；erupt/runin/agentic/ammora/fungo/dividing already-in-lib
+- skipped: discord-deferred, exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice, PROXY无官推, LayerZero→wrong PowerSystems handle (用PlunderPort/@LayerZero_Core叙事), MarsNexus骗局续忽略
+- completedAt: 2026-11-05 12:14 CST
+- pushSha: PENDING
+- xQuota: remainingBefore=920 remaining=903 xReads=17 mode=ample softCap=28 ufCursor=972
+- dsNote: deepseek-flash thinking-on via ds_batch_score (admit+score void-giwa/tapepet-dao; alert via DS+panel); no local fallback
