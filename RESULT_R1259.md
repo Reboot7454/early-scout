@@ -20,6 +20,6 @@
 - keywords: free-mint/AgentID/AIDROP/Pulse/LocalBottom/Nutshell/STARX/XLayer/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘 merged; hits mostly already-in-lib (HoodFather/Fungo/etc); Tilekeepers no official X→skip; UnityTool t.co photo-only no X→skip
 - skipped: discord-deferred, Tilekeepers-no-official-X, UnityTool-no-official-X, AgenticalGlyphs-NF, starx_xlayer-NF, kyte_market-SUSP, vytraqfun-NF, hyperlinkdotfun-NF, same-handle-dedup, already-in-lib-UF-slice, exploratory-reads-banned
 - completedAt: 2026-11-05 09:13 CST
-- pushSha: PENDING
+- pushSha: b506446
 - xQuota: remainingBefore=986 remaining=960 xReads=26 mode=ample softCap=40 ufCursor=740
 - dsNote: deepseek-flash thinking-on via ds_batch_score (alert); no local fallback; no admit batch (empty candidates)
