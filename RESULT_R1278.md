@@ -17,8 +17,8 @@
 - progress: admit crown-race PlayCrownRace BNB Agent ID daily crown Pass NFT paid 0.0007BNB LIVE score56 (free500 GONE); UF 356→396 all in-lib; KW/mentions mostly already-in-lib; soft-debt; discord deferred; le2h tonight fungo/bnb-cache/goofies/agentideth
 - watchFixes: ufCursor 356→396 persist meta+userFollowWatch; crown-race→freeMintWatch+agentPadWatch+UF; soft-debt Canton/Glaze/TokenWorks + lane watches lastChecked; RPC refresh dividing≈40 foxfire≈11 soul≈667 dyor≈11111 orb≈6440 cappy≈1388 fly≈1200 lingji≈191; cleared prev newThisRound voidhaul/elysium-apes; meta.round=1278 sync top-level
 - skipped: discord-deferred; exploratory-reads; already-in-lib-UF-slice-356:396; already-in-lib-KW/mentions (AgentCardsHQ/erupt-fun/elynx/dispersa/grump-guys/wheelpad/corla); Elysium keep-out perpme/branchpoint/outrive
-- pushSha: PENDING
-- pushOk: false
+- pushSha: 829db36
+- pushOk: true
 - dsNote: deepseek-flash thinking-on admit+score crown-race56 + alert; no local fallback
 - completedAt: 2026-11-05 15:15 CST
 - userFollow: soft-brush 356:396 (~40); NF none new; all already-in-lib; priority ≤2h/LIVE
