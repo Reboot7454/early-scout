@@ -19,6 +19,6 @@
 - **progress**: FREE/tonight fungo+bnb-cache+goofies+sonofluidic+agent-smart LIVE / moonfall≈00:40 / HashDoge broadcast-only；1 new admit
 - **watchFixes**: ufCursor=940；userFollowWatch+=@agentsmartcoin；agentPadWatch+=agent-smart；soft-debt canton/glaze/tokenWorks bump；≤2h cards lastChecked bump
 - **keywords note**: ten-lane merge + AgentID free/paid mint + TapeOut/GIWA/Doge/GO盘/LZ/Starknet/BTC + mining/HashDoge/flap/squeek；mentions thin under softCap
-- **pushSha**: PENDING
-- **pushOk**: PENDING
+- **pushSha**: eb599d0
+- **pushOk**: eb599d0
 - **note**: 新 admit + ≤2h 多窗强制 notify；HashDoge 仅播报勿重启挖矿；Genius.fun 已停狙；付费 AgentID 只报不自动打；discordPeekDeferred=true。
