@@ -17,5 +17,5 @@
 - **progress**: fungo≤2h; tonight bnb-cache/owlord/goofies/agentideth; FREE LIVE cluster; TapeAI 检察官电路质押预告; Ascend 开放压力测/文档; Elysium mainnet Nov9 注册开
 - **watchFixes**: munos→freeMint+agentPad+UF; soft-debt canton/glaze/tokenWorks; NF_skip+=origopad; le2h=true
 - **keywords note**: ten-lane merge + mentions 五链轮换
-- **pushSha**: (pending)
-- **pushOk**: pending
+- **pushSha**: `d81ba0b`
+- **pushOk**: true
