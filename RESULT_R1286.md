@@ -17,6 +17,6 @@
 - **progress**: FREE LIVE RPC dividing≈50 fox≈12 dyor≈11111 orb≈6494 cappy≈1388 fly≈1200 lingji≈210 soul≈703 ore≈502 hashdoge≈277；unigent/sealbay selector N/A；kagent/woj FREE LIVE 续；tonight fungo≤2h / bnb-cache / owlord / goofies / agentideth；hoa Fri 11/6 20:00CST
 - **watchFixes**: agentdraw→bnAgent+agentPad+agentMining+UF+freeMint；checkmates→freeMint+UF；munos 已在 freeMint+agentPad+UF；NF_skip+=5 UF NF；soft-debt canton/glaze/tokenWorks bump；sync top-level newThisRound；ufCursor=716；RPC/进度刷新
 - **keywords note**: ten-lane merge + mentions 全链 equal effort（补全并行 stub 仅5链缺口）
-- **pushSha**: 
+- **pushSha**: `2f9214d` (sync `8ea99d7`)
 - **pushOk**: true
 - **note**: 并行 stub d81ba0b 仅部分写入（ufCursor未动/top newThisRound未清/RPC未刷/缺 AgentDraw）；本提交为权威补全。
