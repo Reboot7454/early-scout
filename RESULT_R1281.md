@@ -1,0 +1,27 @@
+# RESULT R1281
+
+- round: 1281
+- notify: true
+- freeLiveForcedNotify: false
+- alertMessage: 快报｜R1281 新收录：fugui-bsc（@FuguiBSC）BNB AgentID 免费首份即将开启（非LIVE，无官网粉1，score56）；creedo（@UseCreedo / usecreedo.com）Solana launchpad，$CRD fair launch 11/15 18:00UTC + 空投，score60。今晚窗口：fungo WL FREE≈20:30 CST；bnb-cache 777 FREE≈21:00 CST；goofies FREE≈22:45 CST；agentideth≈23:00 CST；hoa Fri 11/6 20:00 CST。FREE LIVE 续：dividing≈46、wojagent、foxfire≈11、dyor≈11111、agentorb≈6466、cappy≈1388、fly≈1200、lingji≈207、soul≈679、unigent、ore≈502、kagent；sealbay 0.008BNB & crown-race 0.0007BNB 付费。面板 https://reboot7454.github.io/early-scout/ 请按时段蹲守并留意免费/付费标签。
+- newThisRound: fugui-bsc, creedo
+  - fugui-bsc: 狗富贵 FUGUI @FuguiBSC — BNB AgentID 免费首份即将开启（非LIVE），无官网粉1，score56
+  - creedo: Creedo @UseCreedo — Solana launchpad usecreedo.com，$CRD fair launch 11/15 18:00UTC + airdrop，score60
+- xReads: 25 / softCap 28 / mode ample
+- remaining: 735 → 710
+- ufCursor: 476 → 516 (soft-brush ~40; NF: Asciidogs/rheacatnear/magnitudeagent; suspended: bellwethers_ai/bububullfun; resolvable already-in-lib)
+- mentionsChains: TapeOut/circuit+GIWA · DogeEVM/Starknet · Flap/Irys · Elysium/kinetiq · Agent ID/BNB · squeek/Nutshell/HOA · BTC · X Layer/STARX
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + mentions rotate + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: fungo≈20:30CST WL FREE；bnb-cache≈21:00CST 777 FREE；goofies≈22:45CST FREE RH；agentideth≈23:00CST；hoa Fri 11/6 20:00CST；FREE LIVE cluster（dividing≈46/wojagent/foxfire≈11/dyor≈11111/agentorb≈6466/cappy/fly/lingji≈207/soul≈679/unigent/ore≈502/kagent）；sealbay paid 0.008BNB；crown-race paid 0.0007BNB（FREE500罄）
+- progress: ADMIT fugui-bsc + creedo；UF476→516；今晚窗口刷新；soft-debt canton/glaze/tokenWorks/mining/kinetiq；watchFix kagent→agentPadWatch；discord deferred
+- watchFixes: kagent added to agentPadWatch.candidateIds
+- skipped: Nine Lives/UNIT-404/Driftnauts/Tumblebots（无官推）；Nectarminal（无mint窗）；HelloAgents（无官推）
+- keywords: merged ten lanes covered
+- userFollow: brushed 40 from 476; NF+suspended noted
+- pushSha: (pending)
+- pushOk: (pending)
+- dsNote: deepseek-flash thinking-on admit+score+alert; dsFallback=false
+- completedAt: 2026-11-05 16:55 CST
