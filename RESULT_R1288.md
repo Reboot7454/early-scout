@@ -1,0 +1,22 @@
+# Early Scout RESULT — R1288
+
+- **completedAt**: 2026-11-05 19:33 CST
+- **notify**: **true**
+- **freeLiveForcedNotify**: false
+- **alertMessage**: 【R1288】无新收录；≤2h：fungolabs WL FREE≈20:30CST；今晚 bnb-cache≈21:00/owlord≈22:00/goofies≈22:45/agentideth≈23:00；FREE LIVE dividing≈76/fox≈13/dyor≈11111/orb≈6501/cappy≈1388/fly≈1200/lingji≈210/soul≈708/ore≈502/hashdoge≈293；面板：https://reboot7454.github.io/early-scout/
+- **newThisRound**: _(none)_
+- **xReads**: 26 this executor (softCap=28, mode=ample) · remaining **579→553**
+- **ufCursor**: 756→796 (brushed ~40; NF/SUSP oblaunchpadAll/babycz_ai/mint_WRIT/BinanceCanFly/Meteorszmint/AiPullpad/oblaunchpadbase/bianfenhong/dinomitesnft/Morumai_ → NF_skip；rest already in-lib)
+- **tenLanes**: yes
+- **mentionsChains**: Elysium/kinetiq · TapeOut/circuit · GIWA · DogeEVM/DogeOS · Starknet · Flap/Irys · BTC/ShieldedNaka · squeek/Nutshell · X Layer/STARX(@starX_layer) · BN Agent pads/PulseLaunchpad
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **le2hActionable**: true（fungolabs WL FREE≈20:30CST ≤2h；bnb-cache≈21:00 仍≈1.5h）
+- **ADMIT**: _(none)_
+- **SKIP**: sight_hood（@sight_hood Robinhood 预测市场非打新/铸造）；SYNTAX SOULS（Walt_asia 0粉无官推硬禁）；LuminaraGo（内容号）；elyscreener（工具 bot）；AgentCardsHQ/Agentic_coin/foxfire/ash-burn 已在库；AGCC/AGENT404 仅 shill 无官推硬门槛；UF NF 不连刷
+- **progress**: FREE LIVE RPC dividing≈76 fox≈13/1111 dyor≈11111 orb≈6501 cappy≈1388 fly≈1200 lingji≈210 soul≈708 ore≈502 hashdoge≈293；unigent/sealbay selector N/A；woj/kagent FREE 续；tonight fungo≤2h / bnb-cache / owlord / goofies / agentideth；hoa Fri 11/6 20:00CST
+- **watchFixes**: NF_skip+=oblaunchpadAll/babycz_ai/mint_WRIT/BinanceCanFly/Meteorszmint/AiPullpad/oblaunchpadbase/bianfenhong/dinomitesnft/Morumai_；soft-debt canton/glaze/tokenWorks bump；clear prior newThisRound memefund；ufCursor=796；RPC/进度刷新；PulseLaunchpad id 纠正为 2107906526115700736
+- **keywords note**: ten-lane merge + AgentID free mint + TapeOut/GIWA/Doge/GO盘/computeroll/pipfun；mentions 全链 equal effort（含 starX_layer + Irys + PulseLaunchpad）
+- **pushSha**: _(pending)_
+- **pushOk**: _(pending)_
+- **note**: 无新 admit；≤2h fungolabs 强制 notify；付费 AgentID 只报不自动打。
