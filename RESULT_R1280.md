@@ -1,0 +1,26 @@
+# RESULT R1280
+
+- round: 1280
+- notify: true
+- freeLiveForcedNotify: true
+- alertMessage: 快报｜R1280 新收录：kagent（@kittenagentbnb，kagent.online），BNB AgentID，1 FREE+9 paid，overall 84。今晚窗口：fungo WL FREE≈20:30 CST；bnb-cache 777 FREE≈21:00 CST；goofies FREE≈22:45 CST；agentideth≈23:00 CST；hoa Fri 11/6 20:00 CST。FREE LIVE 续：dividing-spoils、wojagent、foxfire、dyor、agentorb、cappy、flywheel、lingji、soul、unigent、ore-raiders；sealbay & crown-race 付费。面板 https://reboot7454.github.io/early-scout/ 请按时段蹲守并留意免费/付费标签。
+- newThisRound: kagent
+- xReads: 27 / softCap 28 / mode ample
+- remaining: 762 → 735
+- ufCursor: 436 → 476 (soft-brush ~40; NF: ChyAI_Official/halfhook/cardstockfun/potionrh/beatmissapp/sharpsheet_rh/safufundbnb; SwarmHiveBNB suspended; resolvable already-in-lib)
+- mentionsChains: TapeOut/circuit+GIWA · DogeEVM/Starknet · Flap/Irys/Pool Launch · Elysium/kinetiq · Agent ID/BNB · squeek/Nutshell/HOA GPU · BTC privacy · X Layer/STARX
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + mentions rotate + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: dividing-spoils LIVE；wojagent FREE Tier1 LIVE；fungo≈20:30CST WL FREE；bnb-cache≈21:00CST 777 FREE；goofies≈22:45CST FREE RH；agentideth≈23:00CST；hoa Fri 11/6 20:00CST；foxfire/dyor/agentorb≈6k/cappy/flywheel档2/lingji≈192/soul/unigent/ore-raiders/kagent FREE LIVE；sealbay paid 0.008BNB；crown-race paid 0.0007BNB（FREE500罄）
+- progress: ADMIT kagent Kitten Agent @kittenagentbnb BNB Agent ID 1FREE+9paid (kagent.online CA 0xb341…174f) score84 — KW/must shoutout catch; UF 436→476; tonight fungo/bnb-cache/goofies/agentideth windows; soft-debt; discord deferred
+- watchFixes: ufCursor 476; kagent→freeMintWatch; ore-raiders clear 本轮新→续更; SwarmHiveBNB suspended noted
+- skipped: AgenticalGlyphs NF; tilekeepers/circuitvault rumor-only no official early twitter confirm this round; exploratory NF reconfirms avoided
+- keywords: merged free-mint/AgentID/BNB + TapeOut/GIWA/DogeEVM/Starknet/BTC + Flap/Irys/Elysium/HOA/STARX (recency)
+- userFollow: shard 436..475 (~40) soft-brush batch usernames; already-in-lib; no new UF admits beyond kagent (KW path)
+- pushSha: (pending)
+- pushOk: (pending)
+- dsNote: deepseek-flash thinking-on via ds_batch_score + deepseek_chat; admit score84; alert CN
+- completedAt: 2026-11-05 16:18 CST
+- xQuota: remainingBefore 762, remaining 735, mode ample, softCap 28, reset 2026-11-06 08:00 CST
