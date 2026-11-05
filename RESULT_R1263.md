@@ -1,0 +1,25 @@
+# RESULT R1263
+
+- round: 1263
+- notify: true
+- freeLiveForcedNotify: true
+- alertMessage: 无新收录；免费LIVE/≤2h：soul≈596/5555、orb≈6384、vanta续、nibblets、stonk-turtle、agent-card、thalvorix、goofies 14:45UTC、fungo 12:30UTC、moonfall 12UTC、bnb-cache/ASOC 21:00CST、agentideth 23:00CST等，详见面板 https://reboot7454.github.io/early-scout/
+- newThisRound: (none)
+- xReads: 12 / softCap 28 / mode ample
+- remaining: 948 → 936 (live footer; x_budget@open≈945→ample softCap28)
+- ufCursor: 792 → 812
+- mentionsChains: rotated (GIWA/@GIWA_by_Upbit + Starknet/@Starknet + DogeEVM/@DogeOS + Tape/@TapeAIAgent; avoid R1262 Elysium/squeek/flap/Irys exclusive)
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: vanta FREE≈324/350；soul-agent≈596/5555；lingji≈190；orb≈6384；cappybara≈1388；fly≈1200；SAP≈141/333；nibblets FREE LIVE RH；stonk-turtle FREE LIVE；agent-card-bnb FREE LIVE；thalvorix FREE LIVE；wobblokz FREE；fairagent前2000 FREE；bnbbaby FREE续；goofies今日14:45UTC；fungo今日12:30UTC FREE；moonfall WL今日12UTC；bnb-cache今日21:00CST；agentic-social今日21:00CST；agentideth今日23:00CST；honey周五11/6；hoa挖矿11/6 20:00CST
+- progress: no new admit; RPC soul596/orb6384/lingji190/cappybara1388/fly1200/mars9505; KW hits mostly in-lib; skip dyorcash/flapool/yinghubnb; UF 792→812; soft-debt; clear R1262 newThisRound
+- watchFixes: ufCursor→812; UF alias @ComputeRollLabs for computeroll; soft-debt Canton/Glaze/TokenWorks; NF notes emberlingreal/LongAgentBNB/Leeonmort/computeroll; clear R1262 new badges
+- userFollow: soft-brush 792:812 (batch resolve 20); NF emberlingreal/LongAgentBNB/Leeonmort/computeroll; rest already-in-lib; yinghubnb KOL skip
+- keywords: free-mint/AgentID/AIDROP/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘/PoW/LayerZero + Pulse/Nutshell/STARX/XLayer/LocalBottom/Carcosa/squeek/Irys/flap; hits→agent-card/fungo/erupt/tidebound/trippi/ammora/bbf/mars already-in-lib; dyor/flapool skip
+- skipped: discord-deferred, dyorcash(当日号), flapool-flap(0粉), yinghubnb(KOL), exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice, NF-named
+- completedAt: 2026-11-05 10:49 CST
+- pushSha: (pending)
+- xQuota: remainingBefore=948 remaining=936 xReads=12 mode=ample softCap=28 ufCursor=812
+- dsNote: deepseek-flash thinking-on via ds_batch_score (skip dyorcash/flapool/yinghubnb; alert via DS); no local fallback
