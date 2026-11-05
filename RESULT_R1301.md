@@ -16,4 +16,4 @@
 ## alertMessage
 【R1301】新收 insert1up（@INSERT1UP·BNB $1UP cartridge·PoW+AgentID免费或0.001BNB·自称6/10000·同日曾称未开需核实）+ late-bitcoiners（@latebitcoiners·LBTC轻量PoW公平挖·笔记本可挖）；≤2h/LIVE：moonfall公共0.00013BNB→09:40CST、fungolabs密封拍卖→15:30UTC、bnb-cache FREE→21:00CST、goofies 4046/9999、sonofluidic 431/6666、agent-smart FREE、agentic-eggs 954/5000、bnb-agentic付费、dewata FREE、hoa-heart GPU挖矿20:00CST、elysium-machines WL→15:00UTC、oupe Genesis17:00CST；batik-ledger/haunted付费噪声skip；HashDoge仅播报勿挖；Genius/Corla/Flap已停不重启；面板：https://reboot7454.github.io/early-scout/
 
-- **pushSha/pushOk**: (pending)
+- **pushSha/pushOk**: 27b6525
