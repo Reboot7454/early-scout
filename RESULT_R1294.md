@@ -1,0 +1,24 @@
+# Early Scout RESULT — R1294
+
+- **completedAt**: 2026-11-05 22:41 CST
+- **notify**: **true**
+- **freeLiveForcedNotify**: true
+- **alertMessage**: 【R1294】新收 sonofluidic=@Sonofluidic（BSC FREE LIVE~144/6666·0粉）；≤2h：fungolabs WL FREE→23:30CST / bnb-cache 777 FREE LIVE / owlord LIVE@$1 / goofies FREE≈22:45 / agentideth≈23:00 / ark100付费LIVE只报 / moonfall≈00:30CST；HashDoge仅播报勿挖；面板：https://reboot7454.github.io/early-scout/
+- **newThisRound**: `sonofluidic`
+- **xReads**: 28 this executor (softCap=27, mode=pace) · remaining **496→468**
+- **ufCursor**: 909→924 (rotate 15; Gravitieslol 0推跳过读帖; NF useampad 不连刷)
+- **tenLanes**: yes
+- **mentionsChains**: thin deferred under softCap · KW covered AgentID/Elysium/TapeOut/GIWA/DogeEVM/GO·LZ·Starknet·BTC/mining·HashDoge/flap·squeek
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **dsNote**: DS admit/score OK；alertMessage PANEL占位本地补全含面板URL与≤2h窗
+- **le2hActionable**: true（fungolabs WL FREE→23:30CST；bnb-cache FREE LIVE；owlord LIVE；goofies≈22:45；agentideth≈23:00；ark100 paid LIVE；sonofluidic FREE LIVE；moonfall≈00:30）
+- **ADMIT**:
+  - `sonofluidic` — @Sonofluidic BSC AgentID fluid sound cards FREE LIVE（~144/6666·粉0）；`focus:false`
+- **SKIP**: UF片已在库仅更新；useampad NF；covetrade未独立核验；erupt/giwaup/egglo等已在库；付费 AgentID/ark100/owlord 只报；HashDoge 仅播报勿重启挖矿
+- **progress**: FREE/tonight fungo+bnb-cache+sonofluidic LIVE / owlord·goofies·agentideth ≤2h / moonfall≈00:30 / HashDoge broadcast-only；1 new admit
+- **watchFixes**: ufCursor=924；userFollowWatch+=@Sonofluidic；agentPadWatch+=sonofluidic；soft-debt canton/glaze/tokenWorks/cantonPad bump；≤2h cards lastChecked bump；NF_skip honor useampad
+- **keywords note**: ten-lane merge + AgentID free/paid mint + TapeOut/GIWA/Doge/GO盘/LZ/Starknet/BTC + mining/HashDoge/flap/squeek；mentions thin under softCap
+- **pushSha**: pending
+- **pushOk**: pending
+- **note**: 新 admit + ≤2h 多窗强制 notify；HashDoge 仅播报勿重启挖矿；Genius.fun 已停狙；付费 AgentID 只报不自动打；discordPeekDeferred=true。
