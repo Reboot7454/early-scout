@@ -1,0 +1,25 @@
+# RESULT R1272
+
+- round: 1272
+- notify: true
+- freeLiveForcedNotify: true
+- alertMessage: 【打新雷达】R1272 无新收录。≤2h：dividing-spoils 今日14:00CST 开卖入场券（Agent ID FREE×1，其他≈$1/BNB），RPC supply 仍0，注意风险。今晚：fungo WL FREE 20:30、bnb-cache 21:00、goofies FREE 22:45、agentideth 23:00（CST）。明日HOA挖矿11/6 20:00CST。FREE LIVE RPC：foxfire≈11、dyor≈8816、orb≈6415、cappy≈1388、soul≈646、lingji≈191、fly≈1200。面板：https://reboot7454.github.io/early-scout/
+- newThisRound: (none)
+- xReads: 13 / softCap 28 / mode ample
+- remaining: 867 → 829
+- ufCursor: 116 → 156 (soft-brush ~40; NF/invalid skipped; all resolvable already-in-lib)
+- mentionsChains: rotated Elysium/@Enter_Elysium · kinetiq/@Kinetiq_xyz · squeek/@squeekchain · Nutshell/@NutshellMarkets · flap/@flapdotsh · Irys/@irys_xyz（0 recent） · BTC/@ShieldedNaka · XLayer/@XLayerOfficial+STARX/@starX_layer（avoid R1271 GIWA/Tape/Starknet/DogeEVM/Zero/LZ）
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + mentions rotate + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: dividing-spoils今日14:00CST；goofies今日14:45UTC；fungo今日12:30UTC；bnb-cache今日21:00CST；agentideth今日23:00CST；hoa周五11/6 20:00CST；foxfire/dyor/orb/cappy/fly/lingji/soul FREE LIVE
+- progress: no new admit；RPC foxfire11/dyor8816/orb6415/cappy1388/fly1200/lingji191/soul646/dividing0/bnb-cache0；UF 116→156；KW/mentions all hits already-in-lib；watchFix fungolabs+flywheel；soft-debt；clear foxfire badge
+- watchFixes: ufCursor 116→156 both meta+UF；NF_skip+=elysiumpepecoin/GatorEyesSolada/keyhasp/_pointzz；fungolabs+flywheel→freeMintWatch；soft-debt Canton/Glaze/TokenWorks；elysium/kinetiq/flap/irys/arc/btc/xLayer/bnAgent/freeMint lastChecked
+- userFollow: soft-brush 116:156 (batch resolve；NF/invalid skipped；rest already-in-lib)
+- keywords: free-mint/AgentID/fair-launch/TapeOut/GIWA/XLayer/STARX/Starknet/DogeEVM/Zero/Nutshell/挖矿/GO盘；hits→fungolabs/agentideth/slymz/erupt/marsnexus/fomopoly/pumpkin-pit/hoa/dividotfun/zeru already-in-lib；OSHI POD skip（无独立官推证据）
+- skipped: discord-deferred, exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice+KW, Arc_Network wrong-user, OSHI-POD no-official-twitter, elyscreener noise-not-admit
+- completedAt: 2026-11-05 13:33 CST
+- pushSha: PENDING
+- xQuota: remainingBefore=867 remaining=829 xReads=13 mode=ample softCap=28 ufCursor=156
+- dsNote: deepseek-flash thinking-on alert only (no new admit/score); no local fallback
