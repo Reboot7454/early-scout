@@ -1,0 +1,25 @@
+# RESULT R1278
+
+- round: 1278
+- notify: true
+- freeLiveForcedNotify: false
+- alertMessage: 【early-scout 快报】新收录 Agent Crown Race（@PlayCrownRace / crownrace.site）：BNB Agent ID 每日皇冠竞赛 Pass NFT，前500免费已GONE，现付费 0.0007 BNB LIVE（#501–#1000 Founders），score56 高风险（官推今日新建0粉）。≤2h/今晚：dividing-spoils LIVE、wojagent FREE Tier1 LIVE、fungo≈20:30CST WL FREE、bnb-cache 21:00CST、goofies≈22:45CST、agentideth 23:00CST；明日 HOA 挖矿 11/6 20:00CST。FREE LIVE 续：foxfire≈11、dyor≈11111、orb≈6438、cappy≈1388、fly≈1200、lingji≈191、soul≈667、unigent；sealbay paid。面板 https://reboot7454.github.io/early-scout/
+- newThisRound: crown-race
+- xReads: 30 / softCap 28 / mode ample
+- remaining: 791 → 761
+- ufCursor: 356 → 396 (soft-brush ~40; NF none new; all already-in-lib)
+- mentionsChains: TapeOut/circuit+GIWA · DogeEVM/Starknet · Flap Pool Launch · Elysium/kinetiq · Agent ID/BNB · squeek/Nutshell/HOA GPU · BTC/X Layer/STARX
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + mentions rotate + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: dividing-spoils LIVE≈40；wojagent FREE Tier1 LIVE；fungo≈20:30CST；bnb-cache 21:00CST；goofies≈22:45CST；agentideth 23:00CST；hoa Fri 11/6 20:00CST；foxfire≈11/dyor≈11111/orb≈6440/cappy≈1388/fly≈1200/lingji≈191/soul≈667/unigent FREE LIVE；sealbay paid；crown-race paid 0.0007BNB LIVE
+- progress: admit crown-race PlayCrownRace BNB Agent ID daily crown Pass NFT paid 0.0007BNB LIVE score56 (free500 GONE); UF 356→396 all in-lib; KW/mentions mostly already-in-lib; soft-debt; discord deferred; le2h tonight fungo/bnb-cache/goofies/agentideth
+- watchFixes: ufCursor 356→396 persist meta+userFollowWatch; crown-race→freeMintWatch+agentPadWatch+UF; soft-debt Canton/Glaze/TokenWorks + lane watches lastChecked; RPC refresh dividing≈40 foxfire≈11 soul≈667 dyor≈11111 orb≈6440 cappy≈1388 fly≈1200 lingji≈191; cleared prev newThisRound voidhaul/elysium-apes; meta.round=1278 sync top-level
+- skipped: discord-deferred; exploratory-reads; already-in-lib-UF-slice-356:396; already-in-lib-KW/mentions (AgentCardsHQ/erupt-fun/elynx/dispersa/grump-guys/wheelpad/corla); Elysium keep-out perpme/branchpoint/outrive
+- pushSha: PENDING
+- pushOk: false
+- dsNote: deepseek-flash thinking-on admit+score crown-race56 + alert; no local fallback
+- completedAt: 2026-11-05 15:15 CST
+- userFollow: soft-brush 356:396 (~40); NF none new; all already-in-lib; priority ≤2h/LIVE
+- keywords: free mint/fair launch/Agent ID Binance; Elysium/kinetiq; TapeOut/GIWA/DogeEVM; Starknet/BTC/Flap/squeek/Nutshell; STARX/X Layer; GPU mining/Pool Launch
