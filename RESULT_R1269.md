@@ -1,0 +1,25 @@
+# RESULT R1269
+
+- round: 1269
+- notify: true
+- freeLiveForcedNotify: false
+- alertMessage: 新增：Elysiumverse（Elysium LAND WL开）；2h内：dividing-spoils 14:00CST入场券AgentID FREE×1；另 goofies 22:45CST FREE、fungo 20:30CST、bnb-cache/ASOC 21:00CST、agentideth 23:00CST、hoa 11/6 20:00挖矿；FREE LIVE dyor≈7545/orb≈6410；请查看 https://reboot7454.github.io/early-scout/
+- newThisRound: elysiumverse
+- xReads: 21 / softCap 28 / mode ample
+- remaining: 903 → 882 (live footer; x_budget@open≈879→ample softCap28; live footer open≈903)
+- ufCursor: 1012 → 36 (wrap n_acc=1016; soft-brush 40)
+- mentionsChains: rotated (GIWA/@GIWA_by_Upbit + Tape/@TapeAIAgent + Starknet/@Starknet + DogeEVM/@DogeOS + Zero/@zerodotnetwork；avoid R1268 Elysium/squeek/flap/BTC/XLayer/Irys)
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + mentions rotate + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: dividing-spoils今日14:00CST；goofies今日14:45UTC；fungo今日12:30UTC；moonfall WL今日12UTC；bnb-cache/ASOC今日21:00CST；agentideth今日23:00CST；hoa周五11/6 20:00CST；soul/orb/dyor/lingji FREE LIVE
+- progress: admit elysiumverse (DS overall62 Elysium LAND WL)；skip ElyAI（无币声明矛盾）；RPC dyor7545/orb6410/lingji191/dividing0；UF 1012→36 wrap；KW/mentions→Elverse NEW；soft-debt；clear R1268 newThisRound
+- watchFixes: ufCursor→36；elysiumverse→elysiumWatch+freeMintWatch+UF.pending；NF_skip+=safureload/Seethebsc/Charzardxpox/LuckyAgent_bsc/Agentrocksclub/TapeFractal/sunrigfun/mobster_meme/kaAgents；hoa-heart schedule→11/6 20:00CST；soft-debt Canton/Glaze/TokenWorks；clear R1268 new badges (slime-flap/m3m3-agent)
+- userFollow: soft-brush 1012:1016+0:36 (batch resolve；NF/suspend 9；rest already-in-lib；posts ≤2h/must-watch)
+- keywords: free-mint/AgentID/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘/PoW/Flap；hits→elysiumverse NEW；Joseon/erupt/slymz/kalos/AgenticRobot/HOA/bbf/Ammora already-in-lib；ElyAI skipped
+- skipped: discord-deferred, exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice, ElyAI(token声明矛盾), HyperLogicFun(CA NOT LIVE/过热), JoseonFun/erupt/slymz already-in-lib
+- completedAt: 2026-11-05 12:43 CST
+- pushSha: PENDING
+- xQuota: remainingBefore=903 remaining=882 xReads=21 mode=ample softCap=28 ufCursor=36
+- dsNote: deepseek-flash thinking-on via ds_batch_score (admit+score elysiumverse; skip ElyAI; alert via DS); no local fallback
