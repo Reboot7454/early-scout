@@ -20,6 +20,6 @@
 - keywords: free-mint/AgentID/fair-launch/TapeOut/GIWA/Starknet/DogeEVM/Zero/LZ/Elysium-alt/挖矿/GO盘；NEW→unigent；skip acepyr/ammoraeco/PassAgentX/MedalBeasts giveaway
 - skipped: discord-deferred, exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice+KW, PassAgentX-no-official-twitter, acepyr-no-mint, ammoraeco-duplicate, giveaway-spam
 - completedAt: 2026-11-05 13:51 CST
-- pushSha: (pending)
+- pushSha: 44f9698
 - xQuota: remainingBefore=866 remaining=843 xReads=23 mode=ample softCap=28 ufCursor=196
 - dsNote: deepseek-flash thinking-on admit+score unigent + alert; no local fallback
