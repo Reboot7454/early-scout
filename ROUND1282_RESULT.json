@@ -1,0 +1,54 @@
+{
+  "round": 1282,
+  "notify": true,
+  "freeLiveForcedNotify": false,
+  "alertMessage": "R1282 新收录 owlord（@0wlord，今晚22:00CST 付费 AgentID$1/公售$1.50，CA已验证）+ hashdoge（@HashDogeIO PoW LIVE≈128，付BNB入场非免费）；今晚窗口：fungo WL FREE≈20:30；bnb-cache 777 FREE≈21:00；goofies FREE≈22:45；agentideth≈23:00；hoa Fri 11/6 20:00CST；FREE LIVE 续：dividing/woj/foxfire/dyor/orb/cappy/fly/lingji/soul/unigent/ore-raiders/kagent；sealbay&crown-race 付费；面板：https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "owlord",
+    "hashdoge"
+  ],
+  "xReads": 26,
+  "softCap": 28,
+  "mode": "ample",
+  "remainingBefore": 710,
+  "remaining": 684,
+  "ufCursor": {
+    "before": 516,
+    "after": 556
+  },
+  "mentionsChains": "TapeOut/circuit+GIWA · DogeEVM · Starknet · Flap/Irys · Elysium/kinetiq · Agent ID/BNB · squeek/Nutshell/HOA · BTC · X Layer/STARX",
+  "tenLanes": true,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "le2hActionable": true,
+  "le2h": "fungo≈20:30; bnb-cache≈21:00; goofies≈22:45; agentideth≈23:00; owlord paid≈22:00; hoa Fri; FREE LIVE cluster; sealbay/crown paid",
+  "progress": "ADMIT owlord + hashdoge; SKIP mesa-elysium (announce-only); UF516→556; RPC refresh FREE LIVE; tonight windows; soft-debt; discord deferred",
+  "watchFixes": [
+    "owlord → userFollowWatch + agentPadWatch + bnAgentWatch",
+    "hashdoge → userFollowWatch + agentPadWatch + bnAgentWatch + agentMiningWatch + miningWatch"
+  ],
+  "skipped": [
+    "mesa-elysium (@mesa_elysium / mesa.cx) — Elysium Announced only, no CA/time/price (DS score admit=false)",
+    "HashDoge-adjacent meme mentions (SusDogX etc) — not mint pads",
+    "Starknet/Flap/DogeOS/Starcat mentions — no new official mint affiliates this window"
+  ],
+  "keywords": "merged ten lanes: free mint/fair launch/Agent ID/Binance agent/AIDROP/PulseLaunchpad/Nutshell/squeek/STARX/X Layer/TapeOut/GIWA/DogeEVM/Starknet/Elysium/flap/Irys/挖矿/打新/GO盘",
+  "userFollow": {
+    "before": 516,
+    "after": 556,
+    "brushed": 40,
+    "alreadyInLib": 38,
+    "nf": [],
+    "suspended": []
+  },
+  "pushSha": null,
+  "pushOk": false,
+  "dsNote": "deepseek-flash thinking-on admit+score+alert; dsFallback=false; mesa score-skip",
+  "completedAt": "2026-11-05 17:05 CST",
+  "xQuota": {
+    "remainingBefore": 710,
+    "remaining": 684,
+    "softCap": 28,
+    "mode": "ample"
+  }
+}
