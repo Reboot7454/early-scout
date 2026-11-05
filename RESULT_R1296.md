@@ -15,3 +15,5 @@
 
 ## alertMessage
 【R1296】新收 bnb-agentic=@Bnbagentic（BSC FREE LIVE·123/444+paid@0.002BNB·CA0xE3a382…·~5粉·高风险蹭名）、cloak-elysium=@cloakonelysium（Elysium隐私拍卖测网LIVE·~138粉）；≤2h：fungolabs密封拍卖LIVE、bnb-cache777 FREE LIVE、goofies 3025/9999 LIVE、sonofluidic~300/6666、agent-smart FREE LIVE、moonfall WL FREE≈00:40CST/Public≈01:40CST；owlord/agentideth/ark100付费只报；HashDoge仅播报勿挖；面板：https://reboot7454.github.io/early-scout/
+
+- **pushSha/pushOk**: ba7f56b
