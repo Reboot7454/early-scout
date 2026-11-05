@@ -20,6 +20,6 @@
 - keywords: free-mint/AgentID/AIDROP/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘/PoW/LayerZero + Pulse/Nutshell/STARX/XLayer/LocalBottom/Carcosa/squeek/Irys/flap；hits→dividing-spoils NEW；erupt/fungo/hoa/AGC/elysium-machines already-in-lib
 - skipped: discord-deferred, 0x_BoxAgent(same-day), binanceminters/foxfire(shill), AgenticalGlyphs(NF), Blackholmom(KOL), MundiChain(0粉), tikalastwar(same-day), exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice, NF-named
 - completedAt: 2026-11-05 11:02 CST
-- pushSha: (pending)
+- pushSha: 61d7544
 - xQuota: remainingBefore=936 remaining=934 xReads=11 mode=ample softCap=28 ufCursor=852
 - dsNote: deepseek-flash thinking-on via ds_batch_score (admit+score dividing-spoils; alert via DS); no local fallback
