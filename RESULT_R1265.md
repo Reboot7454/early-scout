@@ -20,6 +20,6 @@
 - keywords: free-mint/AgentID/AIDROP/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘/PoW/LayerZero + Pulse/Nutshell/STARX/XLayer/LocalBottom/squeek；hits→dyorcash+hodlflow NEW；PassAgentX(无官推skip)/celiuz(无官推)/fungo/erupt/qagent/bnbrunnerz/kismo/hoa already-in-lib
 - skipped: discord-deferred, PassAgentX(no official X), celiuz(no handle), HorrorProtocol(0粉播客号/错号), exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice, Ammora/deuslaunch(in-lib), starx_xlayer username NF(fixed→starX_layer)
 - completedAt: 2026-11-05 11:40 CST
-- pushSha: PENDING
+- pushSha: d582a09
 - xQuota: remainingBefore=934 remaining=921 xReads=15 mode=ample softCap=28 ufCursor=892
 - dsNote: deepseek-flash thinking-on via ds_batch_score (admit+score dyorcash/hodlflow; alert via DS+panel); no local fallback
