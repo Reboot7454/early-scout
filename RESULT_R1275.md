@@ -1,0 +1,25 @@
+# RESULT R1275
+
+- round: 1275
+- notify: true
+- freeLiveForcedNotify: false
+- alertMessage: R1275 打新雷达：新收录 WOJAGENT（@WOJAK_AGENTID）BNB Agent ID 门槛份额 FREE Tier1 LIVE（约27/1000已铸，官推仅4粉，极早期高风险，CA 0x62EC…57B7）。≤2h/今晚：dividing-spoils 开卖 LIVE RPC≈29；fungo≈20:30 CST WL免费；bnb-cache 21:00 CST 777 FREE；goofies≈22:45 CST RH免费；agentideth 23:00 CST。明日 HOA 挖矿 11/6 20:00 CST。FREE LIVE 续：foxfire≈11、dyor≈10091、orb≈6420、cappy≈1388、fly≈1200、lingji≈191、soul、unigent；sealbay paid。完整面板：https://reboot7454.github.io/early-scout/
+- newThisRound: wojagent
+- xReads: 24 / softCap 28 / mode ample
+- remaining: 842 → 818
+- ufCursor: 236 → 276 (soft-brush ~40; NF GlitchOnHood/wildlife_uni/scripdrop/huntfieldrh; resolvable already-in-lib)
+- mentionsChains: rotated GIWA · Tape/电路 · Starknet · DogeEVM · Zero/LZ · Elysium-alt(Ascend) · agent pads named ≤2h（avoid R1274 kinetiq/squeek/flap/Irys/BTC/XLayer/BN-Agent/Enter_Elysium primary set）
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + mentions rotate + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: dividing-spoils LIVE supply≈29；wojagent FREE Tier1 LIVE；fungo≈20:30CST；bnb-cache 21:00CST；goofies≈22:45CST；agentideth 23:00CST；hoa Fri 11/6 20:00CST；foxfire/dyor/orb/cappy/fly/lingji/soul/unigent FREE LIVE；sealbay paid LIVE
+- progress: admit wojagent FREE Tier1 LIVE score66; dividing-spoils supply 1→29; RPC dyor9563→10091 orb6419→6420; bnb-cache contracts backfilled; UF 236→276; KW/mentions mostly already-in-lib; skip PassAgentX/MegaBull/DGF no-official-X; soft-debt; discord deferred
+- watchFixes: ufCursor 236→276 persist meta+userFollowWatch; NF_skip+=GlitchOnHood/wildlife_uni/scripdrop/huntfieldrh; wojagent→agentPadWatch+userFollowWatch.candidateIds; bnb-cache onchain SERVER/CACHE contracts; soft-debt Canton/Glaze/TokenWorks + lane watches lastChecked; cleared sealbay newThisRound; meta.newThisRound=[wojagent]
+- userFollow: soft-brush 236:276 (~40); NF GlitchOnHood/wildlife_uni/scripdrop/huntfieldrh; rest already-in-lib
+- keywords: tenLanes merged KW prefer GIWA/Tape/Starknet/DogeEVM/Zero-LZ/Elysium-alt/agent-pads; NEW admit wojagent; PassAgentX/MegaBull skipped no official X
+- skipped: discord-deferred, exploratory-reads, already-in-lib-UF-slice, already-in-lib-KW: joseon/pabalx/narupay/tapepet/ammora/wowpad/hokori/agent-card-bnb/kismo/m3m3/the-agent-firm/erupt/nibblers/ballast/tzero/void_dex/deuslaunch, PassAgentX-no-official-X, MegaBull-no-official-X, DGF-card-spam-no-official-X, envarai_/layertrade prior-NF skipped, mobster_meme/starx_xlayer/machinedotfun prior-NF
+- completedAt: 2026-11-05 14:25 CST
+- pushSha: (pending)
+- xQuota: remainingBefore=842 remaining=818 xReads=24 mode=ample softCap=28 ufCursor=276
+- dsNote: deepseek-flash thinking-on admit+score wojagent overall66 + skip PassAgentX + alert; no local fallback
