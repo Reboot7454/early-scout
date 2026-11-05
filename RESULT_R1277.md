@@ -17,8 +17,8 @@
 - progress: admit voidhaul BNB salvage GameFi Agent ID presale 11/11 score64 + elysium-apes Elysium NFT mint-before-mainnet score59; UF 316→356; KW mostly already-in-lib; soft-debt; discord deferred; le2h tonight fungo/bnb-cache/goofies/agentideth
 - watchFixes: ufCursor 316→356 persist meta+userFollowWatch; NF_skip+=LiquidityStonk/Agent__arena/playholeshot/FlotyllOnRH/luckycatchgame/LongBaoLNB/DavidJohnsvcen/firstpadfun/Obelisdotfun/tickupfun; voidhaul→freeMintWatch+UF; elysium-apes→elysiumWatch+UF; soft-debt Canton/Glaze/TokenWorks + lane watches lastChecked; cleared prev newThisRound corla/origin-dotfun/archuntx; meta.round=1277 sync top-level
 - skipped: discord-deferred; exploratory-reads; already-in-lib-UF-slice; already-in-lib-KW/mentions; AGCC-no-official-X; HOA_AIAgent-duplicate-hoa-heart; Elysium giveaway-only noise besides official ElysiumApes
-- pushSha: (pending)
-- pushOk: (pending)
+- pushSha: f691d21
+- pushOk: true
 - dsNote: deepseek-flash thinking-on admit+score voidhaul64/elysium-apes59 + alert; no local fallback
 - completedAt: 2026-11-05 15:05 CST
 - userFollow: soft-brush 316:356 (~40); NF LiquidityStonk/Agent__arena/playholeshot/FlotyllOnRH/luckycatchgame/LongBaoLNB/DavidJohnsvcen/firstpadfun/Obelisdotfun/tickupfun; priority ≤2h/LIVE
