@@ -21,7 +21,7 @@
 - skipped: Nine Lives/UNIT-404/Driftnauts/Tumblebots（无官推）；Nectarminal（无mint窗）；HelloAgents（无官推）
 - keywords: merged ten lanes covered
 - userFollow: brushed 40 from 476; NF+suspended noted
-- pushSha: (pending)
-- pushOk: (pending)
+- pushSha: 5b54674b8e5d54641d94704d8f3c679487be543d
+- pushOk: true
 - dsNote: deepseek-flash thinking-on admit+score+alert; dsFallback=false
 - completedAt: 2026-11-05 16:55 CST
