@@ -20,6 +20,6 @@
 - keywords: free-mint/AgentID/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘/PoW/Flap；hits→elysiumverse NEW；Joseon/erupt/slymz/kalos/AgenticRobot/HOA/bbf/Ammora already-in-lib；ElyAI skipped
 - skipped: discord-deferred, exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice, ElyAI(token声明矛盾), HyperLogicFun(CA NOT LIVE/过热), JoseonFun/erupt/slymz already-in-lib
 - completedAt: 2026-11-05 12:43 CST
-- pushSha: PENDING
+- pushSha: de15e3b
 - xQuota: remainingBefore=903 remaining=882 xReads=21 mode=ample softCap=28 ufCursor=36
 - dsNote: deepseek-flash thinking-on via ds_batch_score (admit+score elysiumverse; skip ElyAI; alert via DS); no local fallback
