@@ -1,0 +1,25 @@
+# RESULT R1268
+
+- round: 1268
+- notify: true
+- freeLiveForcedNotify: false
+- alertMessage: 新增：SLIME（Flap Pool终端 slime.today）、M3M3 AGENT（普查退款观察）；2h内：dividing-spoils 14:00CST入场券FREE×1；FREE LIVE续：dyor≈6992/soul≈627/orb≈6407；请查看 https://reboot7454.github.io/early-scout/
+- newThisRound: slime-flap, m3m3-agent
+- xReads: 24 / softCap 28 / mode ample
+- remaining: 903 → 879 (live footer; x_budget@open≈903→ample softCap28)
+- ufCursor: 972 → 1012 (n_acc=1014)
+- mentionsChains: rotated (Elysium/@Enter_Elysium + squeek/@squeekchain + flap/@flapdotsh + BTC/@ShieldedNaka + XLayer/@starX_layer(0 hits) + Irys/@irys_xyz(0)；avoid R1267 GIWA/Tape/Starknet/DogeEVM rotate)
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + mentions rotate + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: dividing-spoils今日14:00CST；soul≈627/5555；orb≈6407；lingji≈191；cappybara≈1388；fly≈1200；dyorcash FREE LIVE≈6992；nibblets/stonk/agent-card/thalvorix/wobblokz FREE LIVE；goofies今日14:45UTC；fungo今日12:30UTC；moonfall WL今日12UTC；bnb-cache/ASOC今日21:00CST；agentideth今日23:00CST；honey周五11/6
+- progress: admit slime-flap (DS overall64 Flap Pool Day-1 terminal LIVE) + m3m3-agent (DS overall48 census failed/refunds；missed earlier free mint)；RPC soul627/orb6407/lingji191/cappy1388/fly1200/dyor6992/dividing0；UF 972→1012；KW/mentions→SLIME+M3M3 NEW；soft-debt；clear R1267 newThisRound
+- watchFixes: ufCursor→1012；slime-flap→UF+flapPadWatch；m3m3-agent→UF+agentPadWatch+bnAgentWatch+freeMintWatch；NF_skip+=topaaafun；soft-debt Canton/Glaze/TokenWorks；clear R1267 new badges (void-giwa/tapepet-dao)
+- userFollow: soft-brush 972:1012 (batch resolve；NF topaaafun；rest already-in-lib；posts goofies/bnb-cache/≤2h)
+- keywords: free-mint/AgentID/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘/PoW/Flap/Pool-launch；hits→slime-flap+m3m3-agent NEW；erupt/skitters/slymz/fungo/dividing/pixeltrump already-in-lib
+- skipped: discord-deferred, exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice, TheSuitedApes(established RH Mutant WL-holder mint not blind free LIVE), M3M3 census非可打free LIVE(仍admit观察), PainBnb(工具人非项目)
+- completedAt: 2026-11-05 12:30 CST
+- pushSha: (pending)
+- xQuota: remainingBefore=903 remaining=879 xReads=24 mode=ample softCap=28 ufCursor=1012
+- dsNote: deepseek-flash thinking-on via ds_batch_score (admit+score slime-flap/m3m3-agent); no local fallback
