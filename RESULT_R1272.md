@@ -20,6 +20,6 @@
 - keywords: free-mint/AgentID/fair-launch/TapeOut/GIWA/XLayer/STARX/Starknet/DogeEVM/Zero/Nutshell/挖矿/GO盘；hits→fungolabs/agentideth/slymz/erupt/marsnexus/fomopoly/pumpkin-pit/hoa/dividotfun/zeru already-in-lib；OSHI POD skip（无独立官推证据）
 - skipped: discord-deferred, exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice+KW, Arc_Network wrong-user, OSHI-POD no-official-twitter, elyscreener noise-not-admit
 - completedAt: 2026-11-05 13:33 CST
-- pushSha: PENDING
+- pushSha: c43a5b2
 - xQuota: remainingBefore=867 remaining=829 xReads=13 mode=ample softCap=28 ufCursor=156
 - dsNote: deepseek-flash thinking-on alert only (no new admit/score); no local fallback
