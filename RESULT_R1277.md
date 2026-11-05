@@ -1,0 +1,25 @@
+# RESULT R1277
+
+- round: 1277
+- notify: true
+- freeLiveForcedNotify: false
+- alertMessage: R1277 新收录 Voidhaul（@Voidhaul）BNB 太空打捞 GameFi Agent ID 预售 11/11 score64、Elysium Apes（@ElysiumApes）Elysium 猿系 NFT 主网前 mint+marketplace 手续费回购销毁 score59；今晚≤2h：dividing-spoils LIVE、wojagent FREE Tier1 LIVE、fungo≈20:30 CST WL FREE / auction≈23:30 CST、bnb-cache 21:00 CST、goofies≈22:45 CST、agentideth 23:00 CST，明日 HOA 挖矿 11/6 20:00 CST，FREE LIVE 续 foxfire、dyor、orb、cappy、fly、lingji、soul、unigent，sealbay paid，完整面板 https://reboot7454.github.io/early-scout/。
+- newThisRound: voidhaul, elysium-apes
+- xReads: 26 / softCap 28 / mode ample
+- remaining: 817 → 791
+- ufCursor: 316 → 356 (soft-brush ~40; NF LiquidityStonk/Agent__arena/playholeshot/FlotyllOnRH/luckycatchgame/LongBaoLNB/DavidJohnsvcen/firstpadfun/Obelisdotfun/tickupfun; resolvable already-in-lib)
+- mentionsChains: TapeOut/circuit+GIWA · DogeEVM/Starknet/BTC-privacy · Flap Pool Launch · Elysium testnet/launchpad · Agent ID Binance free mint · GPU mining HOA
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + mentions rotate + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: dividing-spoils LIVE；wojagent FREE Tier1 LIVE；fungo≈20:30CST；bnb-cache 21:00CST；goofies≈22:45CST；agentideth 23:00CST；hoa Fri 11/6 20:00CST；foxfire/dyor/orb/cappy/fly/lingji/soul/unigent FREE LIVE；sealbay paid LIVE
+- progress: admit voidhaul BNB salvage GameFi Agent ID presale 11/11 score64 + elysium-apes Elysium NFT mint-before-mainnet score59; UF 316→356; KW mostly already-in-lib; soft-debt; discord deferred; le2h tonight fungo/bnb-cache/goofies/agentideth
+- watchFixes: ufCursor 316→356 persist meta+userFollowWatch; NF_skip+=LiquidityStonk/Agent__arena/playholeshot/FlotyllOnRH/luckycatchgame/LongBaoLNB/DavidJohnsvcen/firstpadfun/Obelisdotfun/tickupfun; voidhaul→freeMintWatch+UF; elysium-apes→elysiumWatch+UF; soft-debt Canton/Glaze/TokenWorks + lane watches lastChecked; cleared prev newThisRound corla/origin-dotfun/archuntx; meta.round=1277 sync top-level
+- skipped: discord-deferred; exploratory-reads; already-in-lib-UF-slice; already-in-lib-KW/mentions; AGCC-no-official-X; HOA_AIAgent-duplicate-hoa-heart; Elysium giveaway-only noise besides official ElysiumApes
+- pushSha: (pending)
+- pushOk: (pending)
+- dsNote: deepseek-flash thinking-on admit+score voidhaul64/elysium-apes59 + alert; no local fallback
+- completedAt: 2026-11-05 15:05 CST
+- userFollow: soft-brush 316:356 (~40); NF LiquidityStonk/Agent__arena/playholeshot/FlotyllOnRH/luckycatchgame/LongBaoLNB/DavidJohnsvcen/firstpadfun/Obelisdotfun/tickupfun; priority ≤2h/LIVE
+- keywords: free mint/fair launch/Agent ID Binance; Elysium testnet launchpad; TapeOut/circuit/GIWA/DogeEVM; Starknet/BTC privacy/Flap Pool/LZ; GPU mining/agent mining/Pool Launch
