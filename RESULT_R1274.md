@@ -1,0 +1,25 @@
+# RESULT R1274
+
+- round: 1274
+- notify: true
+- freeLiveForcedNotify: false
+- alertMessage: R1274 打新雷达：新收录 SealBay（@Bsc_SealBay）BNB 0.008BNB/盒 LIVE（海豹+鲸鱼盲盒，Agent ID 加购，14粉极早期，RPC supply≈0，高风险）。≤2h：dividing-spoils 今日14:00 CST 开卖已启动（Agent ID FREE×1，RPC supply=1）；今晚 fungo≈20:30、bnb-cache 21:00、goofies≈22:45、agentideth 23:00 CST。明日 HOA 挖矿 11/6 20:00 CST。FREE LIVE 续：foxfire≈11、dyor≈9563、orb≈6419、cappy≈1388、fly≈1200、lingji≈191、soul≈659、unigent。完整面板：https://reboot7454.github.io/early-scout/
+- newThisRound: sealbay
+- xReads: 33 / softCap 28 / mode ample
+- remaining: 843 → 810
+- ufCursor: 196 → 236 (soft-brush ~40; NF keccaklings/ponzihooks/swiprdotxyz; resolvable already-in-lib; meta.ufCursor was stuck 156 → synced)
+- mentionsChains: rotated kinetiq · squeek+Nutshell · flap+Irys · BTC · XLayer·STARX · BN Agent pads · Enter_Elysium（avoid R1273 GIWA/Tape/Starknet/DogeEVM/Zero-LZ/Elysium-alt primary set）
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + mentions rotate + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: dividing-spoils今日14:00CST LIVE supply=1；fungo≈20:30CST；bnb-cache 21:00CST；goofies≈22:45CST；agentideth 23:00CST；hoa周五11/6 20:00CST；foxfire/dyor/orb/cappy/fly/lingji/soul/unigent FREE LIVE；sealbay paid LIVE
+- progress: admit sealbay paid LIVE 0.008BNB score53; dividing-spoils sale LIVE RPC supply=1; RPC foxfire11/dyor9563/orb6419/cappy1388/fly1200/lingji191/soul659/bnb-cache0/sealbay≈0; UF 196→236; KW/mentions mostly already-in-lib; soft-debt; meta.ufCursor synced 236
+- watchFixes: ufCursor 196→236 persist both meta+userFollowWatch (fix meta stuck 156); NF_skip+=keccaklings/ponzihooks/swiprdotxyz; sealbay→agentPadWatch (paid LIVE, not freeMintWatch); le2h/le2hCurrent+=dividing-spoils/fungolabs/bnb-cache/goofies/agentideth/sealbay/foxfire/dyorcash/unigent; soft-debt Canton/Glaze/TokenWorks + lane watches lastChecked; top-level newThisRound aligned with meta (was empty vs unigent)
+- userFollow: soft-brush 196:236 (~40); NF keccaklings/ponzihooks/swiprdotxyz; named mobster/starx NF; rest already-in-lib
+- keywords: tenLanes merged KW prefer kinetiq/squeek/Nutshell/flap/Irys/BTC/XLayer/STARX/BN-Agent/Enter_Elysium; NEW admit sealbay; MetaFishtank already-in-lib; DGF no official X skip
+- skipped: discord-deferred, exploratory-reads, already-in-lib-UF-slice, already-in-lib-KW: metafishtank/agentideth/mindcaster/ripstack/elysium_machine/punks/DGFCard-no-official-X/agccfun-spam, mobster_meme NF, starx_xlayer NF, machinedotfun prior-NF, named PulseLaunchpad/bscaidrop/localbottomcom soft
+- completedAt: 2026-11-05 14:01 CST
+- pushSha: (pending)
+- xQuota: remainingBefore=843 remaining=810 xReads=33 mode=ample softCap=28 ufCursor=236
+- dsNote: deepseek-flash thinking-on admit+score sealbay overall53 + alert; DGF/AGC skip; no local fallback
