@@ -15,3 +15,4 @@
 
 ## alertMessage
 【R1304】新收 boursely（@bourseonelysium·Elysium自称permissionless launchpad·官推当日0粉·CA已挂·主网官方仍Nov9·高风险先核部署）；≤2h/LIVE：moonfall公共0.00013BNB→09:40CST(84/1001+Moon Trial免1)、goofies 5012/9999、sonofluidic 431/6666 FREE、agentic-eggs 954/5000、dewata FREE、pop-agent平价LIVE、bnb-cache FREE→21:00CST；今日窗：oupe Genesis17:00CST、hoa-heart挖矿20:00CST、elysium-machines→15:00UTC/23:00CST；HashDoge仅播报勿挖；Genius/Corla/Flap已停不重启；面板：https://reboot7454.github.io/early-scout/
+- **pushSha**: e1503eb (ok)
