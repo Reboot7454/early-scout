@@ -1,0 +1,25 @@
+# RESULT R1260
+
+- round: 1260
+- notify: true
+- freeLiveForcedNotify: true
+- alertMessage: 新收录 Cyclopes（@CyclopesIsland）Elysium DN404 testnet score66，主网11/9后≈0.066HYPE 无WL；免费LIVE/≤2h：vanta≈326/350、soul≈560/5555、nibblets、stonk-turtle、goofies 14:45UTC、fungo 12:30UTC、moonfall 12UTC、bnb-cache 21:00CST、agentideth 23:00CST等，详见面板 https://reboot7454.github.io/early-scout/
+- newThisRound: cyclopes-island (@CyclopesIsland, Elysium DN404, score66, testnet→主网后≈0.066HYPE)
+- xReads: 12 / softCap 28 / mode ample
+- remaining: 960 → 948 (live footer; probe+1 counted; x_budget@959→ample softCap28)
+- ufCursor: 740 → 756
+- mentionsChains: rotated (Elysium/@Enter_Elysium + Tape/@TapeAIAgent + ShieldedNaka/BTC-privacy; Zero/flap|Irys via KW soft)
+- tenLanes: yes (UF soft-brush + must-watch/≤2h + merged KW tenLanes + BN-Agent KW + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: vanta FREE≈326/350；soul-agent≈560/5555；lingji≈190；orb≈6363；cappybara≈1388；fly≈1200；SAP≈140/333；nibblets FREE LIVE RH；stonk-turtle FREE LIVE；goofies今日14:45UTC；agentcardshq CARDS预售；wobblokz FREE；fairagent前2000 FREE；bnbbaby FREE续；fungo今日12:30UTC FREE；moonfall WL今日12UTC；bnb-cache今日21:00CST；agentideth今日23:00CST；honey周五11/6；ripstack EA FULL(非le2h)
+- progress: admit cyclopes-island; RPC vanta326/soul560/lingji190/orb6363/cappybara1388/fly1200/SAP140/bnbbaby12456; site+X goofies/moonfall/nibblets/stonk/honey/fungo/agentcards; UF 740→756; soft-debt; clear R1259 newThisRound
+- watchFixes: ufCursor→756; cyclopes→UF+elysiumWatch; soft-debt Canton/Glaze/TokenWorks; NF notes lazabitmeme/XiangHao91647/bndoge_bn/mobster_meme/starx_xlayer; SUSP SolumMrkt; skip elysium-apes(no site/mint); clear R1259 new badges
+- userFollow: soft-brush 740:756 + named (batch resolve); NF lazabitmeme/XiangHao91647/bndoge_bn/mobster_meme/starx_xlayer; suspended SolumMrkt; rest already-in-lib; +@CyclopesIsland
+- keywords: free-mint/AgentID/AIDROP/Pulse/LocalBottom/Nutshell/STARX/XLayer/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘 + BN-Agent focused; hits mostly already-in-lib (RuninAI/AgentCards/Kismo/Elysium reg spam); Ammora/hoodminers already-in
+- skipped: discord-deferred, elysium-apes-no-site/mint, WOODPAD_FUN-1粉噪音, same-handle-dedup, already-in-lib-UF-slice, NF-named, exploratory-reads-banned
+- completedAt: 2026-11-05 09:32 CST
+- pushSha: 77325fe
+- xQuota: remainingBefore=960 remaining=948 xReads=12 mode=ample softCap=28 ufCursor=756
+- dsNote: deepseek-flash thinking-on via ds_batch_score (admit cyclopes66 + alert; skip elysium-apes); no local fallback
