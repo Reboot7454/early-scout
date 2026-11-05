@@ -1,0 +1,26 @@
+# Early Scout RESULT — R1291
+
+- **completedAt**: 2026-11-05 20:57 CST
+- **notify**: **true**
+- **freeLiveForcedNotify**: false
+- **alertMessage**: 【R1291】新收 elysium-pad=@elysiumdotfun（Elysium发币台LIVE·粉≈71）/ hyperfees=@HyperFeesfun（HL×pumpfun·粉≈0·CA已挂）/ seal-giwa=@SealonGIWA（GIWA锁仓·本轮新建粉≈0）；≤2h：fungolabs WL FREE LIVE / bnb-cache·asoc·amber-pow≈21:00 / owlord≈22:00 / goofies≈22:45 / agentideth≈23:00；ark100付费LIVE只报；HashDoge挖矿已停仅播报；面板：https://reboot7454.github.io/early-scout/
+- **newThisRound**: `elysium-pad` · `hyperfees` · `seal-giwa`
+- **xReads**: 26 this executor (softCap=26, mode=pace) · remaining **575→549**
+- **ufCursor**: 876→884 (priority ≤2h/LIVE + rotate 8; NF 不连刷)
+- **tenLanes**: yes
+- **mentionsChains**: thin rotate (softCap paced) · KW covered AgentID/Elysium/TapeOut/GIWA/DogeEVM/GO·LZ·Starknet·BTC/mining·HashDoge/flap·squeek
+- **discordPeekDeferred**: true
+- **dsFallback**: false
+- **dsNote**: DS admit/score OK；alertMessage PANEL 占位本地补全
+- **le2hActionable**: true（fungolabs WL FREE LIVE；bnb-cache/asoc/amber-pow≈21:00CST；owlord≈22:00；goofies≈22:45；agentideth≈23:00；ark100 paid LIVE）
+- **ADMIT**:
+  - `elysium-pad` — @elysiumdotfun Elysium 发币台 LIVE（Bring SOL/USDC→HYPE·Uniswap v4·粉≈71）；`focus:false`；ecosystem=Elysium
+  - `hyperfees` — @HyperFeesfun HL×pumpfun 发射台（粉≈0·CA 已挂）；`focus:false`；高风险观察
+  - `seal-giwa` — @SealonGIWA GIWA notarised locks（本轮新建粉≈0）；`focus:false`
+- **SKIP**: fealty_club（非极早期）；Grokie/Brick 交付不足；cathereum/elysium-machines/slymz/elyziuma/voidcash 等已在库；HashDoge 仅播报；付费 AgentID 只报
+- **progress**: FREE/tonight fungo LIVE / bnb-cache·asoc·amber ≤2h / owlord / goofies / agentideth；hoa Fri 11/6 20:00CST；TapeOut Live 续；HashDoge 挖矿已停仅播报；3 new admits
+- **watchFixes**: ufCursor=884；elysiumWatch+=@elysiumdotfun；giwaWatch+=@SealonGIWA；soft-debt canton/glaze/tokenWorks bump；≤2h lastChecked bump
+- **keywords note**: ten-lane merge + AgentID free/paid mint + TapeOut/GIWA/Doge/GO盘/LZ/Starknet/BTC + mining/HashDoge/flap/squeek；mentions thin under softCap
+- **pushSha**: _(pending)_
+- **pushOk**: _(pending)_
+- **note**: 新 admit 三卡强制 notify；≤2h 多窗；HashDoge 仅播报勿重启挖矿；付费 AgentID 只报不自动打；discordPeekDeferred=true。
