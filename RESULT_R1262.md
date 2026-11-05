@@ -1,0 +1,25 @@
+# RESULT R1262
+
+- round: 1262
+- notify: true
+- freeLiveForcedNotify: true
+- alertMessage: 新收录 Agentic Social（@agenticsocial）$ASOC Agent ID 今晚21:00CST 555 FREE score82；免费LIVE/≤2h：soul≈590/5555、orb≈6381、vanta续、nibblets、stonk-turtle、goofies 14:45UTC、fungo 12:30UTC、moonfall 12UTC、bnb-cache/ASOC 21:00CST、agentideth 23:00CST等，详见面板 https://reboot7454.github.io/early-scout/
+- newThisRound: agentic-social (@agenticsocial, $ASOC Agent ID, score82, announced 21:00CST)
+- xReads: 14 / softCap 28 / mode ample
+- remaining: 959 → 945 (live footer; probe+1 counted; x_budget@958→ample softCap28)
+- ufCursor: 772 → 792
+- mentionsChains: rotated (Elysium/@Enter_Elysium + squeek/@squeekchain + flap/@flapdotsh + Irys/@irys_xyz; avoid R1261 GIWA/Starknet/DogeOS exclusive)
+- tenLanes: yes (UF soft-brush + must-watch/≤2h RPC + merged KW tenLanes + soft-debt)
+- discordPeekDeferred: true
+- dsFallback: false
+- le2hActionable: true
+- le2h: vanta FREE≈324/350；soul-agent≈590/5555；lingji≈190；orb≈6381；cappybara≈1388；fly≈1200；SAP≈141/333；nibblets FREE LIVE RH；stonk-turtle FREE LIVE；goofies今日14:45UTC；agentcardshq CARDS预售；wobblokz FREE；fairagent前2000 FREE；bnbbaby FREE续；fungo今日12:30UTC FREE；moonfall WL今日12UTC；bnb-cache今日21:00CST；agentic-social今日21:00CST；agentideth今日23:00CST；honey周五11/6；thalvorix FREE LIVE；hoa挖矿11/6 20:00CST
+- progress: admit agentic-social; RPC soul590/orb6381/lingji190/cappybara1388/fly1200; KW hits mostly in-lib; skip boxagent/dyorcash/aether-elysium; UF 772→792; soft-debt; clear R1261 newThisRound
+- watchFixes: ufCursor→792; agentic-social→UF+agentPadWatch+bnAgentWatch; soft-debt Canton/Glaze/TokenWorks; NF notes AiPullpad/oblaunchpadbase/bianfenhong/dinomitesnft/Morumai_/ElysiumMfers; clear R1261 new badges
+- userFollow: soft-brush 772:792 (batch resolve 20); NF AiPullpad/oblaunchpadbase/bianfenhong/dinomitesnft/Morumai_; rest already-in-lib; +@agenticsocial
+- keywords: free-mint/AgentID/AIDROP/fair-launch/TapeOut/GIWA/DogeEVM/Starknet/Elysium/挖矿/打新/GO盘/PoW/LayerZero + Pulse/Nutshell/STARX/XLayer/LocalBottom/Carcosa/squeek/Irys/flap; hits→agenticsocial admit; boxagent/dyor skip; rest already-in-lib (THALVORIX/QUQU/Skitters/Fungo/AgentCards/Ammora/slymz/webhood/trippi/pabal)
+- skipped: discord-deferred, boxagent(1粉+CA reboot), dyorcash(当日号), aether-elysium(no testnet/deploy), exploratory-reads-banned, same-handle-dedup, already-in-lib-UF-slice, NF-named
+- completedAt: 2026-11-05 10:29 CST
+- pushSha: PENDING
+- xQuota: remainingBefore=959 remaining=945 xReads=14 mode=ample softCap=28 ufCursor=792
+- dsNote: deepseek-flash thinking-on via ds_batch_score (admit agentic-social82; skip boxagent36/dyorcash24/aether34); alert via ds_batch_score; no local fallback
