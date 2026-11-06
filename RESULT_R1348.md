@@ -47,6 +47,6 @@
 - softCap: 28
 - ufCursor: 695
 
-- pushSha: (pending)
-- remoteVerified: pending
+- pushSha: 2be0632e8bff92a4fd5e0e9574289cd195c8c2d4
+- remoteVerified: True
 - docsSynced: true
