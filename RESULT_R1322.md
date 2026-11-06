@@ -16,5 +16,5 @@
 ## alertMessage
 【R1322】早期打新雷达：新收录 kinetiq-pad（@kinetiqfun；Elysium launchpad；e/acc配对live；粉≈28）、silent-chibi-squad（@silentchibis_rh；RH NFT LIVE $0.05；供应1000）、fungopet（@fungopet；RH FREE mint 今日10:00UTC/18:00CST；粉≈7840）、unipad-arc（@unipad_arc；ARC台子；$UNIPAD）。≤2h/LIVE：goofies 5660/9999、teslagent genesis LIVE、silent-chibi LIVE、fungolabs封标→23:30CST、ombre Tampesta 22:00CST、machines 23:00CST；今日窗：fungopet FREE 18:00CST、honey Team15/GTD17/Public18UTC、nexaria CA16:00/game16:30UTC、pocket 美东11/12、onlyai 18:00UTC、hoa挖矿20:00CST、bnb-cache→21:00CST、genai22:00CST；备注：TapeAI质押即将、squeek Mainnet prep、ShieldedNaka投票、Lane/Jellysium主网11/9、HashDoge勿挖、Genius/Corla/Flap已停。面板：https://reboot7454.github.io/early-scout/
 
-- **pushOk**: pending
-- **pushSha**: pending
+- **pushOk**: true
+- **pushSha**: 
