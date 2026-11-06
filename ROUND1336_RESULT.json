@@ -71,12 +71,19 @@
     "discordPeekDeferred": false
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "commits": [
+      "f80606a"
+    ],
+    "head": "f80606a",
+    "pushSha": "f80606ac03684e8ac3e23b74b6ee198d1e03a1ae",
+    "dataCommit": "f80606a",
+    "note": "raw.githubusercontent verified round=1336 +3 newIds; gapIncomplete tip-only; gh-pages CDN may lag"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1336：Discord alpha 补收 theorem-markets,holypad,clepsydraai；清 bell-dex,crest-btc；lastSeen→2026-11-06 23:55；lastChecked→2026-11-07 00:01 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "DISCORD_ALPHA_40_CARDS_20261106_2352.json",
   "priorRoundNote": "R1335 meta NTR ['bell-dex', 'crest-btc']; cardsAfterCutoff=29",
   "lastSeenByChannel": {
