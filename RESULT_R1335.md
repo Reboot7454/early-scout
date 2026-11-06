@@ -18,3 +18,7 @@
 - De1_ai
 - UF NF/suspended
 - HashDoge/Genius/Corla/Flap 停
+
+
+pushOk: true
+pushSha: 87eb7387e1506c9edd4c6c393b3f1b66bca0a112
