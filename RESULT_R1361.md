@@ -37,8 +37,8 @@
 - softCap: 18
 - ufCursor: 771
 
-- pushSha: (pending)
-- remoteVerified: (pending)
+- pushSha: 0cf6f62bef43b6e2e3111ec47074c6e5487a3357
+- remoteVerified: true
 
 ## tenLanes
 UF shard 759→771 + ≤2h/must (Oil_Hood/pocketpad/Enter_Elysium/TapeAI/ShieldedNaka) + 3 merged KW (Elysium/RH/GIWA/Starknet/Solana pads)；discordPeekDeferred；十栏等量覆盖
