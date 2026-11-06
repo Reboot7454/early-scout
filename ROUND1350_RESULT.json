@@ -1,0 +1,114 @@
+{
+  "round": 1350,
+  "completedAt": "2026-11-07 04:35 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新收录Plato/The Unseen密室逃脱mint LIVE 0.005ETH；拒velvetrebel空壳；oil-hood今日19:00CST，pocketpad 11/8，TapeAI/Elysium/BSCAgent 11/9，JPEGZ 11/11；Discord Peek延后；https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "plato-unseen"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "plato-unseen"
+  ],
+  "newThisRound": [
+    "plato-unseen"
+  ],
+  "admissions": [
+    {
+      "id": "plato-unseen",
+      "handle": "@PlatoUnseen",
+      "category": "打新",
+      "name": "Plato/The Unseen"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "tidewell",
+    "chirphood",
+    "airgride",
+    "hollow-souls"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit×2 (1 admit/1 reject) + alert/whatsNew; thinking on",
+  "dsNote": "deepseek-flash admit PlatoUnseen; reject velvetrebel empty-shell; copy whatsNew×13",
+  "tenLanes": true,
+  "tenLanesCoverage": "UF shard 695→709 + ≤2h/must (Tape/Elysium/squeek/GIWA/BTC/Stark/Blonskr/Monko) + 2 merged KW; discordPeekDeferred",
+  "tenLanesBrief": {
+    "打新": "admit plato-unseen LIVE; cashcat LIVE续出≤2h; oil-hood今日19:00; jpegzart FREE11/11",
+    "挖矿": "classified-mining LIVE; bsc-agent mining→11/9; squeek Sepolia; HashDoge停",
+    "台子/Meme": "navo预售LIVE; shortcap testnet; no meme admit",
+    "GO盘": "KW soft; no new",
+    "LayerZero": "KW soft; no new",
+    "Elysium": "mainnet 11/9; UniswapV4/trycodex/Bitget; spike FREE LIVE; HyperCharon skip",
+    "Tape/电路": "TapeAI质押3178+ APR 11/8; Blonskr soft",
+    "GIWA": "官推 soft KBW; no mint",
+    "DogeEVM": "Monko/DogeOS Chapter4 quest soft; no new",
+    "BTC": "ShieldedNaka vote/trading soft",
+    "Starknet": "Bramble soft; no new"
+  },
+  "xQuota": {
+    "remainingBefore": 281,
+    "remaining": 259,
+    "xReads": 22,
+    "mode": "pace",
+    "softCap": 28,
+    "ufCursor": 709,
+    "checkedAt": "2026-11-07 04:35 CST"
+  },
+  "ufCursor": {
+    "from": 695,
+    "to": 709
+  },
+  "le2h": [],
+  "liveContinue": [
+    "cashcat-agent",
+    "neon-fox-agents",
+    "genai",
+    "classified-mining",
+    "spike-wtf",
+    "navodotfamily",
+    "plato-unseen"
+  ],
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "skipped": [
+    {
+      "handle": "@velvetrebelnft",
+      "reason": "DS拒空壳：账号2天/11粉/无已部署产品"
+    },
+    {
+      "handle": "@lootbale",
+      "reason": "UF suspended"
+    },
+    {
+      "handle": "@useapppayfun",
+      "reason": "UF NF Not Found"
+    },
+    {
+      "handle": "@CyclopesElysium",
+      "reason": "UF NF Not Found"
+    },
+    {
+      "handle": "@HyperCharon",
+      "reason": "R1349已拒空壳，本轮跳过"
+    },
+    {
+      "handle": "HashDoge/Genius/Corla/Flap",
+      "reason": "停"
+    },
+    {
+      "handle": "discordPeek",
+      "reason": "executor无浏览器→deferred"
+    }
+  ],
+  "blockers": [
+    "discordPeekDeferred: executor has no browser"
+  ],
+  "summary": "R1350 admit plato-unseen；cashcat出≤2h窗；oil-hood今日19:00；UF 695→709；xReads22 rem259；docsSynced；Peek延后",
+  "push": {
+    "attempted": false
+  }
+}
