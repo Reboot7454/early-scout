@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-07 06:48 CST",
+    "updated": "2026-11-07 07:20 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R1359",
-    "lastScout": "2026-11-07 06:48 CST",
+    "lastScout": "2026-11-07 07:20 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -692,7 +692,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1359,
+    "round": 1360,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2081,7 +2081,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "cognita"
+      "poeoshub",
+      "baishouai",
+      "elydroid-bot"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4711,23 +4713,23 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-11-07 06:36",
-      "lastChecked": "2026-11-07 06:51 CST",
-      "newestCardTime": "2026-11-07 06:36",
-      "cardsAfterCutoff": 27,
-      "note": "R1359：Discord login wall → Peek 未扫；lastSeen 保持 2026-11-07 06:36；需用户在聊天里登录 Discord",
-      "lastRound": 1358,
+      "deferred": false,
+      "lastSeen": "2026-11-07 07:14",
+      "lastChecked": "2026-11-07 07:20 CST",
+      "newestCardTime": "2026-11-07 07:14",
+      "cardsAfterCutoff": 25,
+      "note": "R1360：Discord alpha 补收 poeoshub,baishouai,elydroid-bot；lastSeen→2026-11-07 07:14；lastChecked→2026-11-07 07:20 CST",
+      "lastRound": 1360,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-07 06:34",
+        "alpha-3-new-accounts": "2026-11-07 07:14",
         "alpha-1-backup": "2026-11-07 06:19",
-        "smart-accounts-tracker": "2026-11-07 06:36",
-        "alpha-1": "2026-11-07 05:54"
+        "smart-accounts-tracker": "2026-11-07 06:54",
+        "alpha-1": "2026-11-07 06:54"
       },
       "gapIncomplete": false,
       "spideyPosting": true,
-      "discordPeekDeferred": true,
-      "loginOk": false
+      "discordPeekDeferred": false,
+      "loginOk": true
     },
     "round239Added": [
       "tsunamilaunch",
@@ -25808,9 +25810,152 @@
       ]
     },
     "tenLanesR1359": true,
-    "mentionsChainsR1359": "softCap满；Elysium/Tape/BTC/Doge via must+KW；GIWA/Starknet KW soft"
+    "mentionsChainsR1359": "softCap满；Elysium/Tape/BTC/Doge via must+KW；GIWA/Starknet KW soft",
+    "round1360Added": [
+      "poeoshub",
+      "baishouai",
+      "elydroid-bot"
+    ]
   },
   "candidates": [
+    {
+      "id": "elydroid-bot",
+      "name": "Elydroid Bot",
+      "handle": "@elydroidbot",
+      "twitter": "@elydroidbot",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "自称Elysium未核验"
+      ],
+      "links": {
+        "x": "https://x.com/elydroidbot"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 8,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.0
+      },
+      "highlights": [
+        "Telegram 端直接发射 Elysium 代币，玩法路径明确",
+        "bio 点名 Ascend/Boxa/Montra/Kleos 组件，非纯喊单号"
+      ],
+      "drawbacks": [
+        "仅3粉、Coming Soon 无实测产品",
+        "无 testnet/合约等可验证部署信息",
+        "Elysium 未核验（无 On testnet/Announced），降台子/Meme"
+      ],
+      "whatsNew": "新号首发，自称即将上线 Elysium 代币发射机器人",
+      "summary": "@Enter_Elysium 新关注者中的项目方账号，计划通过 Telegram 发起 Elysium 代币，尚处 Coming Soon 阶段，需等实际部署验证。",
+      "blurb": "自称 Elysium TG 发币机器人（未核验→台子/Meme）",
+      "round": 1360,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 3,
+      "xFollowers": 3,
+      "firstSeen": "2026-11-07 07:20 CST",
+      "addedAt": "2026-11-07 07:20 CST",
+      "lastChecked": "2026-11-07 07:20 CST",
+      "zoneHint": "meme",
+      "newThisRound": true,
+      "elysiumVerified": false
+    },
+    {
+      "id": "baishouai",
+      "name": "BAISHOU (白手起家)",
+      "handle": "@baishouai",
+      "twitter": "@baishouai",
+      "chain": "",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/baishouai"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.8
+      },
+      "highlights": [
+        "AI agent crew-mining冒险世界",
+        "公开dev logs工作坊进度"
+      ],
+      "drawbacks": [
+        "0粉0关注新号",
+        "未公布链与代币/发射时间",
+        "玩法仍停留在文字描述"
+      ],
+      "whatsNew": "自述构建AI agent组队挖矿冒险世界，并以dev log形式更新",
+      "summary": "极早期项目，主打AI agent团队挖矿冒险玩法，以开发者日志连载推进，可作为早期玩法线索跟踪，但尚无链、代币与发射信息。",
+      "blurb": "AI agent组队挖矿冒险世界，dev log连载中。",
+      "round": 1360,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-07 07:20 CST",
+      "addedAt": "2026-11-07 07:20 CST",
+      "lastChecked": "2026-11-07 07:20 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
+    {
+      "id": "poeoshub",
+      "name": "poeos intelligence hub",
+      "handle": "@poeoshub",
+      "twitter": "@poeoshub",
+      "chain": "Ethereum/Base",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/poeoshub"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 5,
+        "overall": 5.4
+      },
+      "highlights": [
+        "定位 AI-Powered Web3 Intelligence & DeFi Infrastructure",
+        "明确构建于 Ethereum 与 Base",
+        "有独立官网入口 poeoshub.life"
+      ],
+      "drawbacks": [
+        "仅 1 粉，信息极少",
+        "无代币/mint/发射时间线",
+        "团队匿名"
+      ],
+      "whatsNew": "新出现、带官网的 AI Web3 情报/DeFi 基础设施早期项目号。",
+      "summary": "极早期的 AI Web3 情报与 DeFi 基础设施项目，卡面给出链与官网，可作为早期观察对象，但尚无发射与玩法细节。",
+      "blurb": "AI Web3 情报 / DeFi 基础设施，Ethereum+Base，有官网。",
+      "round": 1360,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-07 07:20 CST",
+      "addedAt": "2026-11-07 07:20 CST",
+      "lastChecked": "2026-11-07 07:20 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "flooratlaslabs",
       "name": "FloorAtlas",
@@ -216932,17 +217077,19 @@
     }
   ],
   "newThisRound": [
-    "flooratlaslabs"
+    "poeoshub",
+    "baishouai",
+    "elydroid-bot"
   ],
-  "alertMessage": "DC补漏R1358新收 FloorAtlas（@flooratlaslabs，台子/Meme）极早期 NFT 地板工具，待观察发币或 mint；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1360新收3（focus均否）：poeoshub（台子/Meme）、baishouai（挖矿）、elydroid-bot（自称Elysium未核验→台子/Meme）；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [],
-  "updatedAt": "2026-11-07 06:38 CST",
-  "updated": "2026-11-07 06:38 CST",
+  "updatedAt": "2026-11-07 07:20 CST",
+  "updated": "2026-11-07 07:20 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-07 06:38 CST",
+  "lastScout": "2026-11-07 07:20 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -216984,7 +217131,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3120,
+  "candidateCount": 3124,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -219395,5 +219542,10 @@
   ],
   "round1358Added": [
     "flooratlaslabs"
+  ],
+  "round1360Added": [
+    "poeoshub",
+    "baishouai",
+    "elydroid-bot"
   ]
 }
