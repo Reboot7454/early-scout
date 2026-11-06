@@ -1,0 +1,30 @@
+{
+  "loginOk": false,
+  "timezone": "Asia/Shanghai",
+  "scannedAtCST": "2026-11-07 06:50 CST",
+  "newestByChannel": {
+    "alpha-1": null,
+    "alpha-1-backup": null,
+    "smart-accounts-tracker": null,
+    "alpha-3-new-accounts": null
+  },
+  "newestVisibleTime": null,
+  "lastSeenByChannelCutoff": {
+    "alpha-1": "2026-11-07 05:54",
+    "alpha-1-backup": "2026-11-07 06:19",
+    "smart-accounts-tracker": "2026-11-07 06:36",
+    "alpha-3-new-accounts": "2026-11-07 06:34"
+  },
+  "gapIncomplete": true,
+  "spideyPosting": false,
+  "note": "R1359 Discord Peek blocked: Discord login wall (Welcome back / email / QR). Landed URL: https://discord.com/login?redirect_to=%2Fchannels%2F1502958818865188956%2F1527862926885785710. Did not type credentials. All four channels skipped.",
+  "cardsAfterCutoff": 0,
+  "newCards": [],
+  "channelStatus": {
+    "alpha-1": {"skipped": true, "reason": "login_wall"},
+    "alpha-1-backup": {"skipped": true, "reason": "login_wall"},
+    "smart-accounts-tracker": {"skipped": true, "reason": "login_wall"},
+    "alpha-3-new-accounts": {"skipped": true, "reason": "login_wall"}
+  },
+  "landedUrl": "https://discord.com/login?redirect_to=%2Fchannels%2F1502958818865188956%2F1527862926885785710"
+}

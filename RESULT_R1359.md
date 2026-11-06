@@ -36,3 +36,6 @@
 
 - pushSha: 47c039b061ff2aebe5ec3593c9398ca754b933fb
 - remoteVerified: true
+
+## Discord Peek follow-up
+- 2026-11-07 06:51 CST: loginOk=false, cardsAfterCutoff=0, deferred kept; no lastSeen advance.

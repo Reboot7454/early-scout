@@ -4713,10 +4713,10 @@
     "discordAlphaPeek": {
       "deferred": true,
       "lastSeen": "2026-11-07 06:36",
-      "lastChecked": "2026-11-07 06:38 CST",
+      "lastChecked": "2026-11-07 06:51 CST",
       "newestCardTime": "2026-11-07 06:36",
       "cardsAfterCutoff": 27,
-      "note": "R1359：executor 无 browser → discordPeekDeferred；父代理补 Peek",
+      "note": "R1359：Discord login wall → Peek 未扫；lastSeen 保持 2026-11-07 06:36；需用户在聊天里登录 Discord",
       "lastRound": 1358,
       "lastSeenByChannel": {
         "alpha-3-new-accounts": "2026-11-07 06:34",
@@ -4726,7 +4726,8 @@
       },
       "gapIncomplete": false,
       "spideyPosting": true,
-      "discordPeekDeferred": false
+      "discordPeekDeferred": true,
+      "loginOk": false
     },
     "round239Added": [
       "tsunamilaunch",
