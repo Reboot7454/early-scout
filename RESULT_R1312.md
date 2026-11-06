@@ -17,4 +17,6 @@
 【R1312】新收：bramble-bash RH免费collab粉319、genai Solana AI份额今晚22:00CST、crimson BNB LIVE$0.35/1111、blockheads RH569免费WL开、believe-bnb~1008/10000首免+72h退款(2009老号风险)｜≤2h/LIVE：moonfall09:40CST、sono440、eggs1014、dewata FREE、goofies5419、crown530、hatchieggy、agentarenaid~2684、wag/PACTURE、crimson LIVE｜今日窗：ombre14:00UTC、machines15:00UTC、fungo15:30UTC、nexaria16:00/16:30UTC、onlyai P2 18:00UTC、pocket11AM EST、hoa20:00CST、bnb-cache21:00CST、genai22:00CST、elympus WL今日关｜备注：slymz top50GTD；squeek Sepolia；ShieldedNaka周五投票续；GIWA Ammora waitlist；HashDoge仅播报勿挖；Genius/Corla/Flap已停｜面板 https://reboot7454.github.io/early-scout/
 
 ## push
-(pending)
+OK → origin/main 
+- **pushSha**: 278f3dda395fb4ea7066f7e188d81bc277feb628
+- **localSha**: 278f3dda395fb4ea7066f7e188d81bc277feb628
