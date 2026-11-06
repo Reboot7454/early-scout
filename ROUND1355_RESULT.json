@@ -1,0 +1,109 @@
+{
+  "round": 1355,
+  "completedAt": "2026-11-07 05:30 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新收录HyperLend（官宣进Elysium部署Aave V3 fork，Aave DAO提案已提交）；oil-hood今日19:00CST，pocketpad 11/8 00:00，Elysium主网11/9；Discord Peek延后；https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "hyperlend"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "hyperlend"
+  ],
+  "newThisRound": [
+    "hyperlend"
+  ],
+  "admissions": [
+    {
+      "id": "hyperlend",
+      "handle": "@hyperlendx",
+      "category": "台子/Meme",
+      "name": "HyperLend",
+      "ecosystem": "Elysium"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "orebound-io",
+    "seedely-xyz"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash admit HyperLend Elysium Aave-fork; alert; thinking on",
+  "dsUsage": "deepseek-flash score×1 admit + alert",
+  "tenLanes": true,
+  "tenLanesCoverage": "UF shard 723→737 + ≤2h/must (Tape/Elysium/squeek/LIVE/pocketpad/oil-hood) + 2 merged KW; discordPeekDeferred",
+  "tenLanesBrief": {
+    "打新": "LIVE续 cashcat/neon-fox/genai/plato/dreadwired付费; oil-hood今日19:00; pocketpad 11/8",
+    "挖矿": "classified-mining LIVE; squeek Sepolia; HashDoge停",
+    "台子/Meme": "admit hyperlend→Elysium栏; navo预售LIVE",
+    "GO盘": "KW soft; no new",
+    "LayerZero": "KW soft; no new",
+    "Elysium": "admit HyperLend Aave V3 fork提案; mainnet 11/9; UniswapV4/trycodex/Bitget; spike FREE LIVE",
+    "Tape/电路": "TapeAI质押3178+ APR 11/8; soft",
+    "GIWA": "KW soft; no mint",
+    "DogeEVM": "KW soft; no new",
+    "BTC": "ShieldedNaka resolve only; soft",
+    "Starknet": "Bramble resolve only; KW Starknet soft"
+  },
+  "xQuota": {
+    "remainingBefore": 233,
+    "remaining": 207,
+    "xReads": 26,
+    "mode": "pace",
+    "softCap": 28,
+    "ufCursor": 737,
+    "checkedAt": "2026-11-07 05:30 CST"
+  },
+  "ufCursor": {
+    "from": 723,
+    "to": 737
+  },
+  "le2h": [],
+  "liveContinue": [
+    "cashcat-agent",
+    "neon-fox-agents",
+    "genai",
+    "classified-mining",
+    "spike-wtf",
+    "navodotfamily",
+    "plato-unseen",
+    "dreadwired",
+    "kenranft",
+    "pixiopet"
+  ],
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "skipped": [
+    {
+      "handle": "@kyte_market",
+      "reason": "UF suspended"
+    },
+    {
+      "handle": "@vytraqfun",
+      "reason": "UF NF Not Found"
+    },
+    {
+      "handle": "@hyperlinkdotfun",
+      "reason": "UF NF Not Found"
+    },
+    {
+      "handle": "@elydashxyz",
+      "reason": "0 posts skip posts-read"
+    },
+    {
+      "handle": "HashDoge/Genius/Corla/Flap",
+      "reason": "停"
+    },
+    {
+      "handle": "discordPeek",
+      "reason": "executor无浏览器→deferred"
+    }
+  ],
+  "blockers": [
+    "discordPeekDeferred: executor has no browser"
+  ],
+  "summary": "R1355 admit hyperlend；UF 723→737；xReads26 rem207；oil-hood今日19:00；docsSynced；Peek延后"
+}
