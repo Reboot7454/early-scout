@@ -1690,7 +1690,25 @@
 
   async function boot() {
     try {
-      const res = await fetch("./data.json?t=" + Date.now(), { cache: "no-store" });
+      const bust = Date.now();
+      const sources = [
+        "https://raw.githubusercontent.com/Reboot7454/early-scout/main/docs/data.json?t=" + bust,
+        "./data.json?t=" + bust,
+      ];
+      let res = null;
+      let lastErr = null;
+      for (const url of sources) {
+        try {
+          res = await fetch(url, { cache: "no-store" });
+          if (res.ok) break;
+          lastErr = new Error("HTTP " + res.status + " from " + url);
+          res = null;
+        } catch (e) {
+          lastErr = e;
+          res = null;
+        }
+      }
+      if (!res) throw lastErr || new Error("data.json load failed");
       if (!res.ok) throw new Error("data.json load failed");
       state.data = await res.json();
       state.favorites = loadFavorites();
