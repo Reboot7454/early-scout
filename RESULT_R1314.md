@@ -17,4 +17,6 @@
 【R1314】无新收录；≤2h/LIVE：moonfall延至09:40UTC(17:40CST)、goofies、sono/eggs/dewata/crown/hatchieggy/crimson/believe、arena、teslagent~1487/7000；今日窗：ombre14:00UTC、machines15:00UTC、fungo15:30UTC、nexaria16:00UTC、onlyai Crystals18:00UTC、pocket美东11/12、hoa20:00CST、bnb-cache21:00CST、genai22:00CST；备注：ShieldedNaka周五投票续；Ammora GIWA waitlist；squeek Sepolia续；HyperLogic过热跳过；tacit证据不足；X posts/search本轮503；HashDoge仅播报勿挖；Genius/Corla/Flap已停。｜面板 https://reboot7454.github.io/early-scout/
 
 ## push
-(pending)
+OK → origin/main 
+- **pushSha**: 1b01442d10642ee48cd50824351ae474283de177
+- **localSha**: 1b01442d10642ee48cd50824351ae474283de177
