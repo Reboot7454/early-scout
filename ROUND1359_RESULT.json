@@ -1,0 +1,72 @@
+{
+  "round": 1359,
+  "completedAt": "2026-11-07 06:49 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新收录 Cognita（@TheCognitaHQ，RH Chain AI Job Board+$COGN live）；oil-hood今日19:00CST，pocketpad 11/8 00:00，Elysium主网11/9；Discord Peek延后；https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "cognita"
+  ],
+  "newThisRound": [
+    "cognita"
+  ],
+  "newCount": 1,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=1 score=1 alert=1 skip=2",
+  "tenLanes": true,
+  "tenLanesCoverage": "UF shard 751→759 + ≤2h/must (Oil_Hood/pocketpad/Enter_Elysium/TapeAIAgent/ShieldedNaka/DogeOS) + 3 merged KW; discordPeekDeferred",
+  "xQuota": {
+    "remainingBefore": 186,
+    "remaining": 168,
+    "xReads": 18,
+    "mode": "tight",
+    "softCap": 18,
+    "ufCursor": 759,
+    "checkedAt": "2026-11-07 06:49 CST"
+  },
+  "ufCursor": {
+    "from": 751,
+    "to": 759
+  },
+  "ufNF": [
+    "SolumMrkt",
+    "bndoge_bn"
+  ],
+  "le2h": [],
+  "liveContinue": [
+    "cashcat-agent",
+    "neon-fox-agents",
+    "genai",
+    "classified-mining",
+    "spike-wtf",
+    "navodotfamily",
+    "plato-unseen",
+    "dreadwired",
+    "kenranft",
+    "pixiopet"
+  ],
+  "upcoming": {
+    "oil-hood": "2026-11-07 19:00 CST",
+    "pocketpad": "2026-11-08 00:00 CST",
+    "elysiumMainnet": "2026-11-09"
+  },
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1359 admit cognita；UF 751→759；xReads18 rem168 mode=tight；oil-hood今日19:00；docsSynced；Peek延后",
+  "skipped": [
+    {
+      "id": "zerocool-ai",
+      "reason": "成熟基建非 day0"
+    },
+    {
+      "id": "trycodex",
+      "reason": "成熟基建非 day0"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "flooratlaslabs"
+  ]
+}
