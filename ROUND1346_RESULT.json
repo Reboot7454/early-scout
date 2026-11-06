@@ -1,0 +1,83 @@
+{
+  "round": 1346,
+  "completedAt": "2026-11-07 03:13 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "le2h",
+  "alertMessage": "【打新雷达 R1346】无新收录。pocketpad Public改期→11/8 00:00CST（Privy钱包bug，原03:00作废）。≤2h CRITICAL：cashcat LIVE 0.002BNB CA；neon-fox/genai/classified-mining LIVE；spike FREE mint；navo预售中。Discord Peek延后。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "newThisRound": [],
+  "admissions": [],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash score=5updates admit=2skip alert; thinking on",
+  "dsNote": "no new admits; pocketpad reschedule + spike/navo/cashcat/neon copy; hyperlend/widewide skip",
+  "tenLanes": true,
+  "tenLanesCoverage": "UF shard 667→681 + ≤2h/must (Tape/Elysium/squeek/GIWA/BTC/Stark) + 3 merged KW + Enter_Elysium mentions",
+  "tenLanesBrief": {
+    "打新": "pocketpad改期出窗; cashcat/neon-fox/genai LIVE CRITICAL",
+    "挖矿": "classified-mining LIVE; HashDoge停",
+    "台子/Meme": "spike FREE LIVE; navo预售LIVE; no new admit",
+    "GO盘": "KW soft; no new",
+    "LayerZero": "KW soft; no new",
+    "Elysium": "mainnet 11/9 reg open; Markets Nov9; HyperLend skip成熟; spike/navo更新",
+    "Tape/电路": "TapeAI质押3178+ APR 11/8; bitcointapes Arena续",
+    "GIWA": "joayo OP Stack Upgrade 11/11; pabalx race续",
+    "DogeEVM": "KW soft no new",
+    "BTC": "btc-crc30 soft; bitcointapes soft",
+    "Starknet": "Bramble soft; no new"
+  },
+  "xQuota": {
+    "remainingBefore": 337,
+    "remaining": 309,
+    "xReads": 28,
+    "mode": "pace",
+    "softCap": 28,
+    "ufCursor": 681,
+    "checkedAt": "2026-11-07 03:13 CST"
+  },
+  "ufCursor": {
+    "from": 667,
+    "to": 681
+  },
+  "le2h": [
+    "cashcat-agent",
+    "neon-fox-agents",
+    "genai",
+    "classified-mining",
+    "spike-wtf"
+  ],
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "skipped": [
+    {
+      "handle": "@hyperlendx",
+      "reason": "成熟Aave fork非极早期"
+    },
+    {
+      "handle": "WideWide",
+      "reason": "无独立官推"
+    },
+    {
+      "handle": "UF NF",
+      "reason": "certuna_rh"
+    },
+    {
+      "handle": "HashDoge/Genius/Corla/Flap",
+      "reason": "停"
+    }
+  ],
+  "blockers": [
+    "discordPeekDeferred: executor has no browser"
+  ],
+  "summary": "R1346 无新收录；pocketpad改期→11/8 00:00CST；≤2h cashcat/neon-fox CRITICAL；UF 667→681；xReads28 rem309；docsSynced",
+  "push": {
+    "attempted": false
+  },
+  "pushSha": null,
+  "remoteVerified": false
+}
