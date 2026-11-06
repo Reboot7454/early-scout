@@ -22,5 +22,5 @@
 ufCursor 535→551; soft-debt canton/glaze/tokenWorks; schedule bumps×16+erupt Nov9; discordPeekDeferred; ADMIT×0
 
 ## push
-- pushOk: (pending)
-- pushSha: (pending)
+- pushOk: true
+- pushSha: `7c2d98498e8149b4f749aab2f8b81067e3753f42`
