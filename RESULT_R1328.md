@@ -25,5 +25,5 @@
 ufCursor 563→575; soft-debt canton/glaze/tokenWorks; LIVE/≤2h/今晚窗 bump×16; hoa-heart demote; discordPeekDeferred; ADMIT×0
 
 ## push
-- pushOk: (pending)
-- pushSha: (pending)
+- pushOk: true
+- pushSha: `260cf27d4afd2124ef6f8fd1545691b11b48f45f`
