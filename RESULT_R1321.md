@@ -16,5 +16,5 @@
 ## alertMessage
 【R1321】早期打新雷达：新收录 lane-markets（@LaneMarkets；Elysium DEX 聚合；主网 11/9；今日开号粉≈85）；≤2h/LIVE：goofies 5660/9999、teslagent genesis LIVE、moonfall/sono/eggs 等续；今日窗：ombre Tampesta 22:00 CST、machines 23:00 CST、fungo 竞拍→23:30 CST、nexaria CA 00:00/game 00:30 CST+1、honey Team 15/GTD 17/Public 18 UTC FREE、pocket 美东 11/12、onlyai Crystals 18:00 UTC、hoa 挖矿 20:00 CST、bnb-cache→21:00 CST、genai 22:00 CST；备注：jellysium 主网 11/9、squeek Mainnet prep、TapeAI 质押即将、ShieldedNaka 投票续、GrimPixels 11/9 freemint、HashDoge 仅播报勿挖、Genius/Corla/Flap 已停。面板：https://reboot7454.github.io/early-scout/
 
-- **pushOk**: (pending)
-- **pushSha**: (pending)
+- **pushOk**: true
+- **pushSha**: `16bddbeb300da42013cef282524a373bb6fb66ea`
