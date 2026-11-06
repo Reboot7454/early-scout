@@ -1,0 +1,111 @@
+{
+  "round": 1352,
+  "completedAt": "2026-11-07 04:58 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新收录Zeclink（Zcash支付链接GemPad fair launch LIVE）；oil-hood今日19:00CST，pocketpad 11/8 00:00，Elysium主网11/9；Discord Peek延后；https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "zeclink"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "zeclink"
+  ],
+  "newThisRound": [
+    "zeclink"
+  ],
+  "admissions": [
+    {
+      "id": "zeclink",
+      "handle": "@zeclink_io",
+      "category": "打新",
+      "name": "Zeclink"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "dollair",
+    "copybaratrades",
+    "playlootlings",
+    "wavefund-hq"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit×1 (zeclink) + score + whatsNew×13 + alert; thinking on",
+  "dsNote": "deepseek-flash admit zeclink fair-launch; copy whatsNew×13; alert",
+  "tenLanes": true,
+  "tenLanesCoverage": "UF shard 709→723 + ≤2h/must (Tape/Elysium/squeek/GIWA/BTC/Stark/Blonskr/Monko/pocketpad/oil-hood/LIVE) + 2 merged KW; discordPeekDeferred",
+  "tenLanesBrief": {
+    "打新": "admit zeclink fair launch LIVE; cashcat/plato LIVE续; oil-hood今日19:00; pocketpad 11/8",
+    "挖矿": "classified-mining LIVE; squeek Sepolia; HashDoge停",
+    "台子/Meme": "oil-hood预告; navo预售; oryndex/ouros token LIVE续",
+    "GO盘": "KW soft; no new",
+    "LayerZero": "OmniArb LZ fee叙事 soft; no new",
+    "Elysium": "mainnet 11/9; UniswapV4/trycodex/Bitget; spike FREE LIVE; registration KOL刷",
+    "Tape/电路": "TapeAI质押3178+ APR 11/8; Blonskr DeWEB/长期主义 soft",
+    "GIWA": "官推 soft KBW; no mint",
+    "DogeEVM": "Monko/DogeOS Chapter4 quest soft; no new",
+    "BTC": "ShieldedNaka vote/trading soft",
+    "Starknet": "Bramble soft; no new"
+  },
+  "xQuota": {
+    "remainingBefore": 259,
+    "remaining": 233,
+    "xReads": 26,
+    "mode": "pace",
+    "softCap": 28,
+    "ufCursor": 723,
+    "checkedAt": "2026-11-07 04:58 CST"
+  },
+  "ufCursor": {
+    "from": 709,
+    "to": 723
+  },
+  "le2h": [],
+  "liveContinue": [
+    "cashcat-agent",
+    "neon-fox-agents",
+    "genai",
+    "classified-mining",
+    "spike-wtf",
+    "navodotfamily",
+    "plato-unseen",
+    "zeclink",
+    "agent-creatures",
+    "oryndex",
+    "ouros-agents"
+  ],
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "skipped": [
+    {
+      "handle": "@elyword_xyz",
+      "reason": "UF NF Not Found"
+    },
+    {
+      "handle": "@AgentFramlin404",
+      "reason": "UF NF Not Found"
+    },
+    {
+      "handle": "@RedirectCash",
+      "reason": "UF NF Not Found"
+    },
+    {
+      "handle": "HashDoge/Genius/Corla/Flap",
+      "reason": "停"
+    },
+    {
+      "handle": "discordPeek",
+      "reason": "executor无浏览器→deferred"
+    }
+  ],
+  "blockers": [
+    "discordPeekDeferred: executor has no browser"
+  ],
+  "summary": "R1352 admit zeclink；oil-hood今日19:00；UF 709→723；xReads26 rem233；docsSynced；Peek延后",
+  "push": {
+    "attempted": false,
+    "ok": false
+  }
+}
