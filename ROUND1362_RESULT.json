@@ -1,0 +1,146 @@
+{
+  "round": 1362,
+  "completedAt": "2026-11-07 07:54 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新收录 Home Of Elysium（Elysium launchpad day0）/Agent Pioneer（FREE mint LIVE）/Velko/koturo/NEKART；oil-hood今日19:00CST，elysium.meme今日23:00CST，pocketpad 11/8 00:00，Elysium主网11/9；Discord Peek延后；https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "home-of-elysium",
+    "agent-pioneer",
+    "velko",
+    "koturo",
+    "nekart"
+  ],
+  "newThisRound": [
+    "home-of-elysium",
+    "agent-pioneer",
+    "velko",
+    "koturo",
+    "nekart"
+  ],
+  "newCount": 5,
+  "newAdmits": [
+    "home-of-elysium",
+    "agent-pioneer",
+    "velko",
+    "koturo",
+    "nekart"
+  ],
+  "admissions": [
+    {
+      "id": "home-of-elysium",
+      "handle": "@HomeELYSIUM",
+      "category": "台子/Meme",
+      "name": "Home Of Elysium",
+      "oneLiner": "Elysium launchpad day0；61粉；Nov9主网；费率自定义"
+    },
+    {
+      "id": "agent-pioneer",
+      "handle": "@agentpioneer",
+      "category": "打新",
+      "name": "Agent Pioneer",
+      "oneLiner": "FREE mint LIVE AgentID；4粉；Forge挖ORE"
+    },
+    {
+      "id": "velko",
+      "handle": "@velkofun",
+      "category": "打新",
+      "name": "Velko",
+      "oneLiner": "Free mint Soon AgentID；8粉"
+    },
+    {
+      "id": "koturo",
+      "handle": "@koturoxyz",
+      "category": "台子/Meme",
+      "name": "koturo.xyz",
+      "oneLiner": "Solana股票篮子launchpad；$KOTU 11/11"
+    },
+    {
+      "id": "nekart",
+      "handle": "@nekartnft",
+      "category": "打新",
+      "name": "NEKART",
+      "oneLiner": "AgentID neon samurai；preview mint未开"
+    }
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=5 score=5 alert=1",
+  "tenLanes": true,
+  "tenLanesCoverage": "UF shard 771→783 + ≤2h/must + 4 merged KW; discordPeekDeferred",
+  "tenLanesBrief": {
+    "打新": "admit agent-pioneer/velko/nekart; LIVE续 cashcat等",
+    "挖矿": "agent-pioneer Forge ORE; TapeAI stake续",
+    "台子/Meme": "admit home-of-elysium/koturo; oil-hood/pocketpad/elysium-meme schedule",
+    "GO盘": "KW soft; no new",
+    "LayerZero": "KW soft; no new",
+    "Elysium": "home-of-elysium admit; Enter_Elysium/Ascend/elysium-meme updates; exclude Nmeows(已发射)",
+    "Tape/电路": "TapeAI stake LIVE续",
+    "GIWA": "pabal KW soft; already in lib",
+    "DogeEVM": "KW soft; no new",
+    "BTC": "ShieldedNaka/CRC30 soft via KW",
+    "Starknet": "KW soft; no new mint"
+  },
+  "xQuota": {
+    "remainingBefore": 150,
+    "remaining": 136,
+    "xReads": 14,
+    "mode": "tight",
+    "softCap": 18,
+    "ufCursor": 783,
+    "checkedAt": "2026-11-07 07:54 CST"
+  },
+  "ufCursor": {
+    "from": 771,
+    "to": 783
+  },
+  "ufNF": [
+    "AiPullpad",
+    "oblaunchpadbase"
+  ],
+  "ufSuspended": [],
+  "le2h": [],
+  "liveContinue": [
+    "cashcat-agent",
+    "neon-fox-agents",
+    "genai",
+    "classified-mining",
+    "spike-wtf",
+    "navodotfamily",
+    "plato-unseen",
+    "dreadwired",
+    "kenranft",
+    "pixiopet",
+    "agent-pioneer"
+  ],
+  "upcoming": {
+    "oil-hood": "2026-11-07 19:00 CST",
+    "elysium-meme": "2026-11-07 23:00 CST",
+    "pocketpad": "2026-11-08 00:00 CST",
+    "elysiumMainnet": "2026-11-09",
+    "tapeaiApr": "2026-11-08 00:00 CST",
+    "koturo": "2026-11-11 $KOTU"
+  },
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1362 admit5 home-of-elysium/agent-pioneer/velko/koturo/nekart；UF771→783；xReads14 rem136 mode=tight；oil-hood今日19:00；docsSynced；Peek延后",
+  "skipped": [
+    {
+      "id": "nmeows-elysium",
+      "reason": "CA已出已发射 CTO meme"
+    },
+    {
+      "id": "sectora",
+      "reason": "成熟（上市叙事）"
+    },
+    {
+      "id": "stablestock",
+      "reason": "成熟交易应用"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "stoncy-pad"
+  ]
+}
