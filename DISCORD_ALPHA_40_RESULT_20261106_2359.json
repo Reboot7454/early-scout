@@ -1,0 +1,184 @@
+{
+  "round": 1336,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-07 00:01 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R1336新收3个：theorem.（极早期RWA台）、Holypad（Robinhood预测市场）、CLEPSYDRA/$CLEP（BNB链高息，极高危）；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "theorem-markets",
+    "holypad",
+    "clepsydraai"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "theorem-markets",
+    "holypad",
+    "clepsydraai"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 29,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "bell-dex",
+    "crest-btc"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "bell-dex",
+    "crest-btc"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=3",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-06 23:55",
+    "lastChecked": "2026-11-07 00:01 CST",
+    "newestCardTime": "2026-11-06 23:55",
+    "cardsAfterCutoff": 29,
+    "note": "R1336：Discord alpha 补收 theorem-markets,holypad,clepsydraai；清 bell-dex,crest-btc；lastSeen→2026-11-06 23:55；lastChecked→2026-11-07 00:01 CST",
+    "lastRound": 1336,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-06 23:53",
+      "alpha-1-backup": "2026-11-06 23:34",
+      "smart-accounts-tracker": "2026-11-06 23:55",
+      "alpha-1": "2026-11-06 23:33"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1336：Discord alpha 补收 theorem-markets,holypad,clepsydraai；清 bell-dex,crest-btc；lastSeen→2026-11-06 23:55；lastChecked→2026-11-07 00:01 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261106_2352.json",
+  "priorRoundNote": "R1335 meta NTR ['bell-dex', 'crest-btc']; cardsAfterCutoff=29",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-06 23:53",
+    "alpha-1-backup": "2026-11-06 23:34",
+    "smart-accounts-tracker": "2026-11-06 23:55",
+    "alpha-1": "2026-11-06 23:33"
+  },
+  "cardsRead": 29,
+  "rejected": [
+    {
+      "handle": "@gavofyork",
+      "reason": "Polkadot创始人高粉成熟KOL，非早期项目卡"
+    },
+    {
+      "handle": "@willllliam",
+      "reason": "bio无实际产品，仅模糊个人描述"
+    },
+    {
+      "handle": "@BillyM2k",
+      "reason": "狗狗币作者高粉成熟KOL，非早期项目"
+    },
+    {
+      "handle": "@norozaliwr",
+      "reason": "个位数粉丝个人号，仅提及他方DEX无自有产品"
+    },
+    {
+      "handle": "@cluelysium",
+      "reason": "个人玩笑号，未提及Elysium测试网或部署"
+    },
+    {
+      "handle": "@vtikhomirov75",
+      "reason": "创始人个人号，项目本身另有官号收录"
+    },
+    {
+      "handle": "@KangGangPod",
+      "reason": "NBA球迷播客，非加密项目"
+    },
+    {
+      "handle": "@cypher1_tr",
+      "reason": "1粉技术分析个人号，无产品与发射线索"
+    },
+    {
+      "handle": "@SMTM_Trade",
+      "reason": "仅有“Risk Taker.”简介，无产品、发射或玩法线索。"
+    },
+    {
+      "handle": "@zairo6879",
+      "reason": "个人Elysium猎人号，无项目产品/部署信息，按规则拒绝。"
+    },
+    {
+      "handle": "@PlutNoa",
+      "reason": "仅“Normie dude”个人简介，无项目产品线索。"
+    },
+    {
+      "handle": "@gramyso",
+      "reason": "简介为内容账号口号，无项目产品/发射线索。"
+    },
+    {
+      "handle": "@memeboxfun",
+      "reason": "Elysium相关玩法线索但未明确测试网/具体部署，按Elysium规则拒绝。"
+    },
+    {
+      "handle": "@MohinhaA",
+      "reason": "个人哲学简介，无项目产品/发射线索。"
+    },
+    {
+      "handle": "@Taks_masker",
+      "reason": "仅社区建设/公告口号，无实际产品、发射或玩法。"
+    },
+    {
+      "handle": "@pepefullshort",
+      "reason": "交易员/KOL账号，无独立项目产品，且粉丝量偏高，按规则拒绝。"
+    },
+    {
+      "handle": "@fernmarkets",
+      "reason": "仅称Elysium独立永续台，未见测试网或具体部署公告，不满足Elysium收录条件。"
+    },
+    {
+      "handle": "@A8mclb",
+      "reason": "个人生活向账号，无项目产品与发射线索。"
+    },
+    {
+      "handle": "@erj6ri",
+      "reason": "个人简介空洞，无项目产品与发射线索。"
+    },
+    {
+      "handle": "@MMM1868708",
+      "reason": "简介仅数字，无项目产品与发射线索。"
+    },
+    {
+      "handle": "@R_Ari21",
+      "reason": "新注册个人号，无项目产品与发射线索。"
+    },
+    {
+      "handle": "@SevdimDanielov",
+      "reason": "Elysium猎人个人号，简介仅为加密学生，无独立项目产品。"
+    },
+    {
+      "handle": "@OlaDcExchange",
+      "reason": "个人信仰向简介，无项目产品与发射线索。"
+    }
+  ],
+  "rejectedCount": 23,
+  "dsRejects": 23,
+  "admissions": [
+    {
+      "id": "theorem-markets",
+      "handle": "@theorem_markets",
+      "category": "台子/Meme",
+      "name": "theorem."
+    },
+    {
+      "id": "holypad",
+      "handle": "@Holypadtrade",
+      "category": "台子/Meme",
+      "name": "Holypad"
+    },
+    {
+      "id": "clepsydraai",
+      "handle": "@ClepsydraAI",
+      "category": "台子/Meme",
+      "name": "CLEPSYDRA | $CLEP"
+    }
+  ],
+  "alert": "DC补漏R1336新收3个：theorem.（极早期RWA台）、Holypad（Robinhood预测市场）、CLEPSYDRA/$CLEP（BNB链高息，极高危）；面板 https://reboot7454.github.io/early-scout/"
+}
