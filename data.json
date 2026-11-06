@@ -4756,7 +4756,27 @@
         "alpha-1": "2026-11-06 19:59"
       },
       "discordPeekDeferred": false,
-      "checkedAt": "2026-11-06 20:30 CST"
+      "checkedAt": "2026-11-06 20:30 CST",
+      "gapIncomplete": true,
+      "oldestReachedByChannel": {
+        "alpha-3-new-accounts": "2026-11-06 18:43",
+        "alpha-1-backup": "2026-11-05 04:24",
+        "smart-accounts-tracker": "2026-11-06 02:31",
+        "alpha-1": "2026-11-06 04:38"
+      },
+      "newestByChannel": {
+        "alpha-3-new-accounts": "2026-11-06 20:16",
+        "alpha-1-backup": "2026-11-06 20:04",
+        "smart-accounts-tracker": "2026-11-06 20:16",
+        "alpha-1": "2026-11-06 19:59"
+      },
+      "cappedByChannel": {
+        "alpha-3-new-accounts": true,
+        "alpha-1-backup": true,
+        "smart-accounts-tracker": true,
+        "alpha-1": true
+      },
+      "gapNote": "R1329 catch-up capped at 80/channel; Nov2 backlog still open — lastSeen advanced to newest scanned so next round continues older cards"
     },
     "round239Added": [
       "tsunamilaunch",
@@ -4796,7 +4816,7 @@
       "slamjunkiez"
     ],
     "solemnSchedNoteR243": "solemn-trollbox 卡上倒计时来自 schedule.startsAt=2026-10-19T16:00:00Z；此前未进顶栏因 MAX=12+近窗 live 挤占（非缺 schedule）。R243：证据确认 X@strangersolemn Mon 19 Oct 4pm UTC；extract_schedules BACKFILL + 顶栏 confirmed≤24h 保底入栏。",
-    "discordPeekDeferred": true,
+    "discordPeekDeferred": false,
     "round244Added": [
       "ink-nutters"
     ],
@@ -20639,7 +20659,7 @@
       "notes": "X remaining=0：零X读取；十栏关键词/全链mentions/UF全量 deferred→2026-11-01 08:00 CST；Discord Peek 跳过（R1007刚做）；软债 canton/glaze/tokenWorks lastChecked 已刷；Watch漏挂本地修补"
     },
     "r1009SoftDebt": "R1009 soft-debt lastChecked 2026-10-31 22:02 CST; X exhausted — no live posts",
-    "discordPeekSkipped": true,
+    "discordPeekSkipped": false,
     "coverageR1009": {
       "tenLanes": false,
       "keywords": false,
@@ -21788,7 +21808,7 @@
       "gradwtf→freeMintWatch"
     ],
     "watchBugsFixedR1065": 1,
-    "discordAlphaPeekDeferred": true,
+    "discordAlphaPeekDeferred": false,
     "r1065Notes": {
       "harvestPhasePauseEndCST": "2026-11-01 18:05:30 CST",
       "harvestHoursLeft": 3.4,

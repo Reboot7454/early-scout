@@ -1118,5 +1118,25 @@
       "name": "Radiance"
     }
   ],
-  "alert": "DC补漏R1329新收37项早鸟线索（Elysium/打新/Meme）；面板 https://reboot7454.github.io/early-scout/"
+  "alert": "DC补漏R1329新收37项早鸟线索（Elysium/打新/Meme）；面板 https://reboot7454.github.io/early-scout/",
+  "gapIncomplete": true,
+  "newestByChannel": {
+    "alpha-3-new-accounts": "2026-11-06 20:16",
+    "alpha-1-backup": "2026-11-06 20:04",
+    "smart-accounts-tracker": "2026-11-06 20:16",
+    "alpha-1": "2026-11-06 19:59"
+  },
+  "oldestReachedByChannel": {
+    "alpha-3-new-accounts": "2026-11-06 18:43",
+    "alpha-1-backup": "2026-11-05 04:24",
+    "smart-accounts-tracker": "2026-11-06 02:31",
+    "alpha-1": "2026-11-06 04:38"
+  },
+  "cappedByChannel": {
+    "alpha-3-new-accounts": true,
+    "alpha-1-backup": true,
+    "smart-accounts-tracker": true,
+    "alpha-1": true
+  },
+  "gapNote": "R1329 catch-up capped at 80/channel; Nov2 backlog still open — lastSeen advanced to newest scanned so next round continues older cards"
 }
