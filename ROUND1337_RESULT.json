@@ -1,0 +1,96 @@
+{
+  "round": 1337,
+  "completedAt": "2026-11-07 00:28 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new admit markets-xyz + mint/open ≤2h (pocketpad AL, cashcat, genai/cappybara/classified LIVE)",
+  "alertMessage": "【打新雷达 R1337】新收录：markets-xyz(@Markets_xyz) Elysium Nov9 Spot/copy-trading（Enter_Elysium官宣）。≤2h：pocketpad AL≈02:00CST/Public≈03:00CST（延后2h）0.03ETH max2 CRITICAL；cashcat≈02:00CST 0.002BNB；genai LIVE~109/10k；cappybara FREE LIVE；classified-mining mint+stack LIVE；honey-isles Team/GTD争议。备注：ombrellonft mint暂停；HashDoge勿挖；Genius/Corla/Flap已停；Discord Peek延后。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "markets-xyz"
+  ],
+  "newIds": [
+    "markets-xyz"
+  ],
+  "newThisRound": [
+    "markets-xyz"
+  ],
+  "ADMIT": [
+    "markets-xyz"
+  ],
+  "SKIP": [
+    "bouncetech-elysium(@BounceTech) 成熟产品扩链 DS skip",
+    "hippos-bnb 无独立官推 skip",
+    "UF NF: MonsterRH_/Derpagent_/Proxisfun/ramencoinmeme/letswinhood; suspended UseHyperLiquid",
+    "UF shard 已在库软刷: dayzerodrop/3f3rwefwf/usetagpay/agentsgofirst/getblessed_fun/homer_fi/famuliai/guardbsc + ≤2h watches",
+    "KW命中已在库: cappybara/genai/foxfire/cashcat/GAMA/Ammora/pabalx/TapePetDao/crest-btc/metricxyz/Montra",
+    "HashDoge勿挖; Genius/Corla/Flap已停不重启",
+    "discordPeekDeferred: no browser; 不重收 theorem/holypad/clepsydraai"
+  ],
+  "xReads": 20,
+  "remainingBefore": 454,
+  "remaining": 434,
+  "mode": "pace",
+  "softCap": 24,
+  "ufCursor": {
+    "before": 605,
+    "after": 619
+  },
+  "ufCursorBefore": 605,
+  "ufCursorAfter": 619,
+  "nfSkips": [
+    "MonsterRH_",
+    "Derpagent_",
+    "Proxisfun",
+    "ramencoinmeme",
+    "letswinhood"
+  ],
+  "suspendedSkips": [
+    "UseHyperLiquid"
+  ],
+  "tenLanes": true,
+  "tenLanesBrief": {
+    "打新": "pocketpad≤2h延后; cashcat≤2h; genai LIVE; AgentID KW",
+    "挖矿": "classified-mining mint+stack LIVE; HashDoge停",
+    "台子/Meme": "cappybara LIVE; markets-xyz admit; Guard/LOOP续",
+    "GO盘": "KW soft; no new GO admit",
+    "LayerZero": "soft via KW; no new LZ admit",
+    "Elysium": "markets-xyz admit Nov9; Homer ready; Enter_Elysium Bounce/Metric day1; mainnet~3d",
+    "Tape/电路": "bitcointapes Arena续; TapePetDao 硅基仙途; no new mint",
+    "GIWA": "GAMA beta testers; Ammora waitlist; pabalx race续",
+    "DogeEVM": "DogeOS DeFi assembling; Chikyū testnet",
+    "BTC": "ShieldedNaka vote; crest-btc waitlist续; bitcointapes",
+    "Starknet": "KW soft no new"
+  },
+  "tenLanesCoverage": "十栏等量：UF分片+必盯≤2h+合并KW(AgentID/Elysium/GIWA·Doge·Tape/Starknet·BTC)；mentions经Enter_Elysium posts覆盖，softCap未单拉官号mentions",
+  "mentionsChains": "Enter_Elysium posts覆盖 day1 挂靠；Tape/GIWA/Doge/Starknet/BTC 走合并KW；softCap未单拉官号mentions",
+  "keywordsCovered": [
+    "AgentID mint LIVE / fair",
+    "Elysium testnet/day1/mainnet",
+    "GIWA/DogeOS/TapeOut circuit",
+    "Starknet/ordinals/BTC privacy",
+    "UF shard soft-refresh 605→619"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsNote": "admit/score+alert via deepseek-flash thinking-ON; ADMIT markets-xyz; skip BounceTech/hippos",
+  "le2hActionable": true,
+  "le2hList": [
+    "pocketpad AL→02:00CST / Public→03:00CST Nov7 (delayed +2h) CRITICAL",
+    "cashcat-agent sale→02:00CST 0.002BNB AgentID",
+    "genai mint LIVE ~109/10k",
+    "cappybara FREE/paid LIVE 1500/10k",
+    "classified-mining mint+stack LIVE",
+    "honey-isles Team/GTD (争议)"
+  ],
+  "watchFixes": [
+    "ufCursor 605→619",
+    "soft-debt cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch lastChecked",
+    "markets-xyz→UF+elysiumWatch",
+    "NF_skip+=5; suspended+=UseHyperLiquid",
+    "LIVE/≤2h bump pocketpad/genai/cappybara/cashcat/classified/honey/ombrellonft-paused"
+  ],
+  "docsSynced": true,
+  "pushOk": null,
+  "pushSha": null,
+  "summary": "R1337：新收 markets-xyz；pocketpad延后至02:00/03:00CST仍≤2h；cashcat≈02:00CST；UF 605→619；discordPeekDeferred；docs/data.json已同步"
+}
