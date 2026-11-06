@@ -32,3 +32,6 @@
 - mode: pace
 - softCap: 28
 - ufCursor: 737
+
+- pushSha: b83536b378d603cd4adc818bcc3d96a846cd632e
+- remoteVerified: true
