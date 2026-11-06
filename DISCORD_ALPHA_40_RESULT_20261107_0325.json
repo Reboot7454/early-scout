@@ -63,12 +63,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "15f4c0abd559164c52a6e4c3bb0b9e6ca95350d8",
+    "branch": "main"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1347：Discord alpha 补收 enlistcadets,pinata-play,bridgepad-sol,elysieden,stockely,tipout,elynd；lastSeen→2026-11-07 03:21；lastChecked→2026-11-07 03:27 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "DISCORD_ALPHA_40_CARDS_20261107_0314.json",
   "priorRoundNote": "R1346 meta NTR []; cardsAfterCutoff=75",
   "lastSeenByChannel": {
@@ -372,8 +374,11 @@
       "alpha-1": "2026-11-07 03:20"
     },
     "completedAtCST": "2026-11-07 03:27 CST",
-    "completedAtWIB": "2026-11-07 02:27 WIB"
+    "completedAtWIB": "2026-11-07 02:27 WIB",
+    "pushSha": "15f4c0abd559164c52a6e4c3bb0b9e6ca95350d8",
+    "remoteVerified": true
   },
   "errors": [],
-  "retries": []
+  "retries": [],
+  "pushSha": "15f4c0abd559164c52a6e4c3bb0b9e6ca95350d8"
 }
