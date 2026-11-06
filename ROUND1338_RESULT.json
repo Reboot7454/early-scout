@@ -1,0 +1,243 @@
+{
+  "round": 1338,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-07 00:45 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R1338新收5个：Cheno、Crashtest、Dev in a Cage、Capsulo、Synod Launchpad；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "chenodotfun",
+    "crashtest-ai",
+    "devinacage",
+    "capsulo",
+    "synod-launchpad"
+  ],
+  "newCount": 5,
+  "newIds": [
+    "chenodotfun",
+    "crashtest-ai",
+    "devinacage",
+    "capsulo",
+    "synod-launchpad"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 47,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "markets-xyz"
+  ],
+  "candidateFlagsCleared": 1,
+  "topNewThisRoundCleared": [
+    "markets-xyz"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=5",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-07 00:39",
+    "lastChecked": "2026-11-07 00:45 CST",
+    "newestCardTime": "2026-11-07 00:39",
+    "cardsAfterCutoff": 47,
+    "note": "R1338：Discord alpha 补收 chenodotfun,crashtest-ai,devinacage,capsulo,synod-launchpad；清 markets-xyz；lastSeen→2026-11-07 00:39；lastChecked→2026-11-07 00:45 CST",
+    "lastRound": 1338,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-07 00:39",
+      "alpha-1-backup": "2026-11-06 23:34",
+      "smart-accounts-tracker": "2026-11-07 00:39",
+      "alpha-1": "2026-11-07 00:32"
+    },
+    "gapIncomplete": true,
+    "oldestReachedByChannel": {
+      "alpha-3-new-accounts": "2026-11-06 15:52",
+      "alpha-1-backup": "2026-11-02 19:58",
+      "smart-accounts-tracker": "2026-11-04 13:02",
+      "alpha-1": "2026-11-04 20:46"
+    },
+    "newestByChannel": {
+      "alpha-3-new-accounts": "2026-11-07 00:39",
+      "alpha-1-backup": "2026-11-06 23:34",
+      "smart-accounts-tracker": "2026-11-07 00:39",
+      "alpha-1": "2026-11-07 00:32"
+    },
+    "cappedByChannel": {
+      "alpha-3-new-accounts": true,
+      "alpha-1-backup": false,
+      "smart-accounts-tracker": false,
+      "alpha-1": false
+    },
+    "spideyPosting": true,
+    "gapNote": "R1338 tip+older backlog continuation; Nov2 floors not reached"
+  },
+  "push": {
+    "attempted": true,
+    "ok": true,
+    "commits": [
+      "6164e30",
+      "6164e30"
+    ],
+    "head": "6164e30",
+    "pushSha": "6164e3020fe7baa0780138164aeb192bc4dbaf2a",
+    "dataCommit": "6164e30",
+    "note": "raw.githubusercontent verified round=1338 +5 newIds/gapIncomplete; gh-pages CDN may lag"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1338：Discord alpha 补收 chenodotfun,crashtest-ai,devinacage,capsulo,synod-launchpad；清 markets-xyz；lastSeen→2026-11-07 00:39；lastChecked→2026-11-07 00:45 CST",
+  "remoteVerified": true,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261107_0038.json",
+  "priorRoundNote": "R1337 meta NTR ['markets-xyz']; cardsAfterCutoff=47",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-07 00:39",
+    "alpha-1-backup": "2026-11-06 23:34",
+    "smart-accounts-tracker": "2026-11-07 00:39",
+    "alpha-1": "2026-11-07 00:32"
+  },
+  "cardsRead": 47,
+  "rejected": [
+    {
+      "handle": "@JadeK61964",
+      "reason": "空bio、0粉无任何产品线索，纯新注册空壳。"
+    },
+    {
+      "handle": "@DRAGON100years",
+      "reason": "仅有meme口号与Fair Launch宣称，无CA、官网或玩法落地，3粉噪音。"
+    },
+    {
+      "handle": "@safaalnaji19873",
+      "reason": "伊拉克司法机构职员的个人号，与加密项目无关。"
+    },
+    {
+      "handle": "@JustinnPrimaa",
+      "reason": "bio仅一串Solana地址，关注Elysium的个人猎人号，无项目主体。"
+    },
+    {
+      "handle": "@GunturK06138310",
+      "reason": "bio为单字符“p”，纯空号。"
+    },
+    {
+      "handle": "@hyperlockapp",
+      "reason": "与apexx_ex等同一分钟批量新建蹭@Enter_Elysium，无测试网/部署证据，疑似仿盘集群。"
+    },
+    {
+      "handle": "@apexx_ex",
+      "reason": "同为批量新建的Elysium自称流动性层，无产品/部署证据。"
+    },
+    {
+      "handle": "@CharonAwakens",
+      "reason": "bio为Elysium倒计时式叙事文案，无产品、无合约、无日期落地方案。"
+    },
+    {
+      "handle": "@Seeke_Bond",
+      "reason": "有终端/扫码产品描述但0粉、无官网或截图佐证，先按空壳观察。"
+    },
+    {
+      "handle": "@ascapprh",
+      "reason": "仅一句「AI agent 工具的版权协会」概念，无产品、无发射/挖矿线索，属空壳。"
+    },
+    {
+      "handle": "@sunzriizze",
+      "reason": "韩流粉丝个人号，无任何项目或产品内容。"
+    },
+    {
+      "handle": "@ishiea16",
+      "reason": "个人碎碎念账号，无项目、无产品线索。"
+    },
+    {
+      "handle": "@stillbrokee_",
+      "reason": "个人交易号且带 gmgn 返佣链接，属 KOL/返利号而非项目。"
+    },
+    {
+      "handle": "@H88222383",
+      "reason": "仅关注 @Enter_Elysium 的个人号，无任何部署或产品信息，按规则一律拒。"
+    },
+    {
+      "handle": "@kn1595493",
+      "reason": "bio 仅「Gn」的 Elysium 猎人个人号，无产品/部署线索。"
+    },
+    {
+      "handle": "@the_kishib74",
+      "reason": "个人摄影账号，无项目、无产品、无独立项目推特线索"
+    },
+    {
+      "handle": "@lobinhoodcoin",
+      "reason": "仅有 meme 叙事，无发射时间、合约或产品线索"
+    },
+    {
+      "handle": "@goldensrin51164",
+      "reason": "纯数字 bio 的垃圾/机器人账号"
+    },
+    {
+      "handle": "@youdummy28",
+      "reason": "个人号且仅关注 Elysium，无自身产品或部署信息"
+    },
+    {
+      "handle": "@IskavelleWork",
+      "reason": "描述空泛的数字悬赏概念，无链、无产品、无发射线索"
+    },
+    {
+      "handle": "@ArpitKulkarni",
+      "reason": "个人名义账号，无项目实体"
+    },
+    {
+      "handle": "@KevinLidzi01",
+      "reason": "个人 KOL/商户介绍号，非项目方"
+    }
+  ],
+  "rejectedCount": 22,
+  "dsRejects": 22,
+  "admissions": [
+    {
+      "id": "chenodotfun",
+      "handle": "@chenodotfun",
+      "category": "台子/Meme",
+      "name": "Cheno"
+    },
+    {
+      "id": "crashtest-ai",
+      "handle": "@crashtest_ai",
+      "category": "台子/Meme",
+      "name": "Crashtest"
+    },
+    {
+      "id": "devinacage",
+      "handle": "@devinacage",
+      "category": "台子/Meme",
+      "name": "Dev in a Cage"
+    },
+    {
+      "id": "capsulo",
+      "handle": "@capsuloxyz",
+      "category": "打新",
+      "name": "Capsulo"
+    },
+    {
+      "id": "synod-launchpad",
+      "handle": "@synodlaunch",
+      "category": "Elysium",
+      "name": "Synod Launchpad"
+    }
+  ],
+  "alert": "DC补漏R1338新收5个：Cheno、Crashtest、Dev in a Cage、Capsulo、Synod Launchpad；面板 https://reboot7454.github.io/early-scout/",
+  "gapIncomplete": true,
+  "oldestReachedByChannel": {
+    "alpha-3-new-accounts": "2026-11-06 15:52",
+    "alpha-1-backup": "2026-11-02 19:58",
+    "smart-accounts-tracker": "2026-11-04 13:02",
+    "alpha-1": "2026-11-04 20:46"
+  },
+  "newestByChannel": {
+    "alpha-3-new-accounts": "2026-11-07 00:39",
+    "alpha-1-backup": "2026-11-06 23:34",
+    "smart-accounts-tracker": "2026-11-07 00:39",
+    "alpha-1": "2026-11-07 00:32"
+  },
+  "cappedByChannel": {
+    "alpha-3-new-accounts": true,
+    "alpha-1-backup": false,
+    "smart-accounts-tracker": false,
+    "alpha-1": false
+  },
+  "spideyPosting": true
+}
