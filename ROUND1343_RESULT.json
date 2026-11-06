@@ -1,0 +1,106 @@
+{
+  "round": 1343,
+  "intendedRound": 1342,
+  "raceNote": "Remote DC-alpha claimed R1342 (quby/chainsight/xelona; ufCursor stayed 643). This full scout cycle published as R1343.",
+  "completedAt": "2026-11-07 02:12 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+le2h",
+  "alertMessage": "【打新雷达 R1343】新收录：Route(@routedotfun) Elysium day1 零手续费路由 11/9。≤2h CRITICAL：pocketpad AL≈02:00/Public≈03:00CST 0.03ETH max2；cashcat LIVE 0.002BNB；neon-fox LIVE 0.00007BNB；genai LIVE；classified-mining mint+stack LIVE。Discord Peek延后。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "routedotfun"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "routedotfun"
+  ],
+  "newThisRound": [
+    "routedotfun"
+  ],
+  "admissions": [
+    {
+      "id": "routedotfun",
+      "handle": "@routedotfun",
+      "category": "台子/Meme",
+      "name": "Route",
+      "ecosystem": "Elysium",
+      "lane": "Elysium/台子"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "quby-on-elysium",
+    "chainsight-oracle",
+    "xelona-xyz"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit=2 score=2(1admit/1skip) alert=1",
+  "dsNote": "stars-42metaverse score.admit=false skipped; thinking on",
+  "tenLanes": true,
+  "tenLanesCoverage": "UF shard 643→655 + ≤2h/must (Tape/Elysium/squeek/pads) + 4 merged KW (AgentID; Elysium/GIWA/Doge/Tape; BTC/Stark/GO/LZ; GIWA/Doge/Stark fill)",
+  "tenLanesBrief": {
+    "打新": "cashcat LIVE; pocketpad≤2h; neon-fox/genai LIVE; stars-42 skip",
+    "挖矿": "classified-mining mint+stack LIVE; HashDoge停",
+    "台子/Meme": "routedotfun admit Elysium day1; ballast Elysium testnet tomorrow",
+    "GO盘": "KW soft; no new GO admit",
+    "LayerZero": "KW soft; no new LZ admit",
+    "Elysium": "routedotfun admit; Enter_Elysium ZeroCool audit; HyperLend skip成熟",
+    "Tape/电路": "TapeAI 质押LIVE; bitcointapes Arena续; squeek Sepolia",
+    "GIWA": "Ammora/pabalx续; no new",
+    "DogeEVM": "KW soft; no new",
+    "BTC": "bitcointapes soft",
+    "Starknet": "KW soft no new"
+  },
+  "xQuota": {
+    "remainingBefore": 389,
+    "remaining": 365,
+    "xReads": 24,
+    "mode": "pace",
+    "softCap": 28,
+    "ufCursor": 655,
+    "checkedAt": "2026-11-07 02:12 CST"
+  },
+  "ufCursor": {
+    "from": 643,
+    "to": 655
+  },
+  "le2h": [
+    "pocketpad",
+    "cashcat-agent",
+    "neon-fox-agents",
+    "genai",
+    "classified-mining"
+  ],
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "skipped": [
+    {
+      "handle": "@42metaverse",
+      "reason": "STARS mint LIVE但2粉零验证 score.admit=false"
+    },
+    {
+      "handle": "@hyperlendx",
+      "reason": "成熟Aave fork非极早期"
+    },
+    {
+      "handle": "UF NF",
+      "reason": "onbeatfun"
+    },
+    {
+      "handle": "HashDoge/Genius/Corla/Flap",
+      "reason": "停"
+    }
+  ],
+  "blockers": [
+    "discordPeekDeferred: executor has no browser",
+    "race: intended R1342 taken by DC-alpha → published as R1343"
+  ],
+  "summary": "R1343 (intended 1342, raced) admit routedotfun; ≤2h pocketpad/cashcat CRITICAL; UF 643→655; xReads24 rem365; docsSynced",
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "pushSha": null,
+  "remoteVerified": false
+}
