@@ -16,5 +16,5 @@
 ## alertMessage
 【R1319】早期打新雷达：新收录 tapex（@TapeX_BSC，BNB/Flap 晶体管挖矿发射专区，预热下周开放，粉≈2112）；≤2h/LIVE：goofies 5419/9999、fungo sealed-bid→15:30UTC、ombre Tampesta 14:00UTC、machines 15:00UTC、nexaria CA16:00/game16:30UTC、honey Team15/GTD17/Public18UTC FREE、pocket 美东11/12、onlyai Crystals 18:00UTC、teslagent genesis LIVE、moonfall/sono/eggs等续；今日窗：hoa挖矿20:00CST、bnb-cache FREE→21:00CST、genai 22:00CST；备注：Montra突袭开Elysium主网发射、squeek Mainnet prep、ShieldedNaka投票续、TapeAI检察官质押即将、HashDoge仅播报勿挖、Genius/Corla/Flap已停。面板：https://reboot7454.github.io/early-scout/
 
-- **pushOk**: pending
-- **pushSha**: pending
+- **pushOk**: true
+- **pushSha**: 
