@@ -11,3 +11,5 @@
 - notify: True
 - docsSynced: true (data.json + docs/data.json)
 - panel: https://reboot7454.github.io/early-scout/
+- pushSha: a2563880158974c36574ac0a0af1dab6620051d6
+- remoteVerified: true

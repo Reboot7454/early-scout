@@ -50,12 +50,15 @@
     "scannedAtCST": "2026-11-07 05:56"
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "commit": "a2563880158974c36574ac0a0af1dab6620051d6",
+    "sha": "a2563880158974c36574ac0a0af1dab6620051d6",
+    "branch": "main"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1356：Discord alpha 补收 runcheck-pad,nftsdotfamily,regnumpad；清 hyperlend；lastSeen→2026-11-07 05:54；lastChecked→2026-11-07 05:59 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "DISCORD_ALPHA_40_CARDS_20261107_0551.json",
   "priorRoundNote": "R1355 meta NTR ['orebound-io', 'seedely-xyz', 'hyperlend']; cardsAfterCutoff=19",
   "lastSeenByChannel": {
@@ -135,5 +138,6 @@
   "scannedAtCST": "2026-11-07 05:56",
   "cardsUnique": 15,
   "cardsKeep": 13,
-  "admitCount": 3
+  "admitCount": 3,
+  "pushSha": "a2563880158974c36574ac0a0af1dab6620051d6"
 }
