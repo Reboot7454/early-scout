@@ -1691,9 +1691,12 @@
   async function boot() {
     try {
       const bust = Date.now();
+      // Prefer same-origin Pages first (works when raw.githubusercontent is blocked),
+      // then jsDelivr mirror, then GitHub raw.
       const sources = [
-        "https://raw.githubusercontent.com/Reboot7454/early-scout/main/docs/data.json?t=" + bust,
         "./data.json?t=" + bust,
+        "https://cdn.jsdelivr.net/gh/Reboot7454/early-scout@main/docs/data.json?t=" + bust,
+        "https://raw.githubusercontent.com/Reboot7454/early-scout/main/docs/data.json?t=" + bust,
       ];
       let res = null;
       let lastErr = null;
