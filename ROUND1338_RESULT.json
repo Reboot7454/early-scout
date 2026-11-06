@@ -4,7 +4,7 @@
   "completedAt": "2026-11-07 00:45 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
-  "notifyReason": "push_verify_failed",
+  "notifyReason": "new_admits",
   "alertMessage": "DC补漏R1338新收6个：Cheno（台子/Meme）、Crashtest（台子/Meme）、Dev in a Cage（台子/Meme）、Capsulo（打新）、Synod Launchpad（Elysium）、Asphodel（Elysium）；面板 https://reboot7454.github.io/early-scout/",
   "newAdmits": [
     "chenodotfun",
@@ -35,7 +35,7 @@
   ],
   "discordPeekDeferred": false,
   "dsFallback": false,
-  "dsUsage": "deepseek-flash admits=5",
+  "dsUsage": "deepseek-flash admits=6 (batch3 retry +1)",
   "coverage": "discord-alpha multi-channel",
   "discordAlphaPeek": {
     "deferred": false,
@@ -77,12 +77,13 @@
     "attempted": true,
     "ok": true,
     "commits": [
-      "0390e6f"
+      "0390e6f",
+      "60b6d02"
     ],
-    "head": "0390e6f",
-    "pushSha": "0390e6f49d58f4a3aa5a88787fa8ab59d0b46516",
+    "head": "60b6d02",
+    "pushSha": "60b6d02974f3e63b6326fa24ba66507759af8757",
     "dataCommit": "0390e6f",
-    "note": "push done verify rr=1338 ntr=['chenodotfun', 'crashtest-ai', 'devinacage', 'capsulo', 'synod-launchpad']"
+    "note": "push ok but remote lag rr=1338 ntr=['chenodotfun', 'crashtest-ai', 'devinacage', 'capsulo', 'synod-launchpad'] has6=False"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1338：Discord alpha 补收 chenodotfun,crashtest-ai,devinacage,capsulo,synod-launchpad；清 markets-xyz；lastSeen→2026-11-07 00:39；lastChecked→2026-11-07 00:45 CST",
