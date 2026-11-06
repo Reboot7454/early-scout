@@ -41,12 +41,13 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "c2fd5c490893a84a9798e248173bcac5288286da"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1354：Discord alpha 补收 orebound-io,seedely-xyz；lastSeen→2026-11-07 05:15；lastChecked→2026-11-07 05:20 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "DISCORD_ALPHA_40_CARDS_20261107_0514.json",
   "priorRoundNote": "R1353 meta NTR []; cardsAfterCutoff=15",
   "alert": "DC补漏R1354新收2：Orebound（Robinhood挖矿大亨/创世矿waitlist）、SeedEly（自称On Elysium质押借贷→台子/Meme）；面板 https://reboot7454.github.io/early-scout/",
@@ -73,5 +74,8 @@
       "name": "SeedEly"
     }
   ],
-  "note": "seedely自称On Elysium未核验降台子/Meme；拒vargos通用支付"
+  "note": "seedely自称On Elysium未核验降台子/Meme；拒vargos通用支付",
+  "pushSha": "c2fd5c490893a84a9798e248173bcac5288286da",
+  "pushCommit": "c2fd5c490893a84a9798e248173bcac5288286da",
+  "remoteRound": 1354
 }
