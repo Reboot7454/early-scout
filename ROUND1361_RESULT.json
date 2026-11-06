@@ -1,0 +1,108 @@
+{
+  "round": 1361,
+  "completedAt": "2026-11-07 07:25 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新收录 Stoncy/STONCYPAD（@StashPad_，Solana day0 agent+RWA launchpad，39粉）；oil-hood今日19:00CST，pocketpad 11/8 00:00，Elysium主网11/9；Discord Peek延后；https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "stoncy-pad"
+  ],
+  "newThisRound": [
+    "stoncy-pad"
+  ],
+  "newCount": 1,
+  "newAdmits": [
+    "stoncy-pad"
+  ],
+  "admissions": [
+    {
+      "id": "stoncy-pad",
+      "handle": "@StashPad_",
+      "category": "台子/Meme",
+      "name": "Stoncy / STONCYPAD",
+      "oneLiner": "Solana day0 agent+RWA launchpad；39粉；股票/ETF/SOL配对+自主AI钱包"
+    }
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=1 score=1 alert=1",
+  "tenLanes": true,
+  "tenLanesCoverage": "UF shard 759→771 + ≤2h/must (Oil_Hood/pocketpad/Enter_Elysium/TapeAI/ShieldedNaka) + 3 merged KW; discordPeekDeferred",
+  "tenLanesBrief": {
+    "打新": "stoncy-pad admit; Skitters/Lutra/ElysiumPunks schedule bump",
+    "挖矿": "TapeAI stake 3178+ APR 11/8; squeek soft",
+    "台子/Meme": "stoncy-pad; oil-hood/pocketpad schedule",
+    "GO盘": "KW soft; no new",
+    "LayerZero": "Pangea soft; no new",
+    "Elysium": "Enter_Elysium Zerion/V4; Punks/Lutra/Skitters updates; exclude mature Zerion/FugakuX",
+    "Tape/电路": "TapeAI stake LIVE",
+    "GIWA": "Ammora KW soft; already in lib",
+    "DogeEVM": "resolve soft; no new",
+    "BTC": "ShieldedNaka/DigiGolds soft",
+    "Starknet": "KW soft; no new mint"
+  },
+  "xQuota": {
+    "remainingBefore": 168,
+    "remaining": 150,
+    "xReads": 18,
+    "mode": "tight",
+    "softCap": 18,
+    "ufCursor": 771,
+    "checkedAt": "2026-11-07 07:25 CST"
+  },
+  "ufCursor": {
+    "from": 759,
+    "to": 771
+  },
+  "ufNF": [
+    "oblaunchpadAll",
+    "mint_WRIT"
+  ],
+  "ufSuspended": [
+    "babycz_ai",
+    "BinanceCanFly",
+    "Meteorszmint"
+  ],
+  "le2h": [],
+  "liveContinue": [
+    "cashcat-agent",
+    "neon-fox-agents",
+    "genai",
+    "classified-mining",
+    "spike-wtf",
+    "navodotfamily",
+    "plato-unseen",
+    "dreadwired",
+    "kenranft",
+    "pixiopet"
+  ],
+  "upcoming": {
+    "oil-hood": "2026-11-07 19:00 CST",
+    "pocketpad": "2026-11-08 00:00 CST",
+    "elysiumMainnet": "2026-11-09",
+    "skitters": "2026-11-09 FREE mint",
+    "tapeaiApr": "2026-11-08 00:00 CST"
+  },
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1361 admit stoncy-pad；UF 759→771；xReads18 rem150 mode=tight；oil-hood今日19:00；docsSynced；Peek延后",
+  "skipped": [
+    {
+      "id": "fugakux",
+      "reason": "Kalos 成熟基建非 day0"
+    },
+    {
+      "id": "zerion",
+      "reason": "成熟数据商非 day0"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "poeoshub",
+    "baishouai",
+    "elydroid-bot"
+  ],
+  "pushSha": null,
+  "remoteVerified": false
+}
