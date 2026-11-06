@@ -25,5 +25,5 @@
 ufCursor 575→591; soft-debt canton/glaze/tokenWorks; LIVE/≤2h bump×18; teslagent→launched; admit agentic-digger→agentPadWatch+UF; discordPeekDeferred; round 1329→1330 collision fix
 
 ## push
-- pushOk: (pending)
-- pushSha: (pending)
+- pushOk: true
+- pushSha: 
