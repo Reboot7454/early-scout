@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-07 05:20 CST",
+    "updated": "2026-11-07 05:59 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R1315",
-    "lastScout": "2026-11-07 05:30 CST",
+    "lastScout": "2026-11-07 05:59 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -692,7 +692,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1355,
+    "round": 1356,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2081,7 +2081,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "hyperlend"
+      "runcheck-pad",
+      "nftsdotfamily",
+      "regnumpad"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4696,18 +4698,22 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-07 05:15",
-      "lastChecked": "2026-11-07 05:20 CST",
-      "newestCardTime": "2026-11-07 05:15",
-      "cardsAfterCutoff": 15,
-      "note": "R1354：Discord alpha 补收 orebound-io,seedely-xyz；lastSeen→2026-11-07 05:15；lastChecked→2026-11-07 05:20 CST",
-      "lastRound": 1354,
+      "lastSeen": "2026-11-07 05:54",
+      "lastChecked": "2026-11-07 05:59 CST",
+      "newestCardTime": "2026-11-07 05:54",
+      "cardsAfterCutoff": 19,
+      "note": "R1356：Discord alpha 补收 runcheck-pad,nftsdotfamily,regnumpad；清 hyperlend；lastSeen→2026-11-07 05:54；lastChecked→2026-11-07 05:59 CST",
+      "lastRound": 1356,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-07 05:14",
+        "alpha-3-new-accounts": "2026-11-07 05:46",
         "alpha-1-backup": "2026-11-07 04:34",
-        "alpha-1": "2026-11-07 05:15",
-        "smart-accounts-tracker": "2026-11-07 04:33"
-      }
+        "smart-accounts-tracker": "2026-11-07 04:33",
+        "alpha-1": "2026-11-07 05:54"
+      },
+      "gapIncomplete": false,
+      "spideyPosting": true,
+      "scannedAtCST": "2026-11-07 05:56",
+      "discordPeekDeferred": false
     },
     "round239Added": [
       "tsunamilaunch",
@@ -25737,9 +25743,149 @@
     "round1354Added": [
       "orebound-io",
       "seedely-xyz"
+    ],
+    "round1356Added": [
+      "runcheck-pad",
+      "nftsdotfamily",
+      "regnumpad"
     ]
   },
   "candidates": [
+    {
+      "id": "regnumpad",
+      "name": "Regnum",
+      "handle": "@regnumpad",
+      "twitter": "@regnumpad",
+      "chain": "Elysium",
+      "category": "Elysium",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/regnumpad"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 5,
+        "actionable": 3,
+        "overall": 5.2
+      },
+      "highlights": [
+        "handle regnumpad 指向发射台/pad 定位",
+        "bio 直接写明在 @Enter_Elysium 上 launch",
+        "18粉极早期，尚未被扩散"
+      ],
+      "drawbacks": [
+        "除bio外无文档/页面/合约可查",
+        "上线时间与规则未公布，暂不可操作",
+        "'kingdom'叙事偏meme，实际产品待验证"
+      ],
+      "whatsNew": "新出现一个自称在 Elysium 上线的发射台项目 Regnum，处于公告阶段。",
+      "summary": "Elysium 生态极早期发射台，bio 明确宣布将 launch 于 @Enter_Elysium，但细节全空，适合先挂观察等其放出规则。",
+      "blurb": "Elysium 上的新发射台，早期观察位。",
+      "round": 1356,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 18,
+      "xFollowers": 18,
+      "firstSeen": "2026-11-07 05:59 CST",
+      "addedAt": "2026-11-07 05:59 CST",
+      "lastChecked": "2026-11-07 05:59 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "nftsdotfamily",
+      "name": "Nfts.family",
+      "handle": "@nftsdotfamily",
+      "twitter": "@nftsdotfamily",
+      "chain": "",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Nftsdotfamily"
+      },
+      "scores": {
+        "early": 6.5,
+        "risk": 7.5,
+        "novelty": 5.5,
+        "actionable": 4,
+        "overall": 4.9
+      },
+      "highlights": [
+        "玩法一句话清晰：token 与 NFT collection 配对",
+        "名字即产品，方向明确"
+      ],
+      "drawbacks": [
+        "0 粉、无社群/官网入口",
+        "未见任何实际发射记录"
+      ],
+      "whatsNew": "代币与 NFT 集合配对发射机制",
+      "summary": "刚建号的发射玩法项目，方向清楚但证据极少，仅作最低优先级观察。",
+      "blurb": "代币与 NFT 配对的极早期发射玩法",
+      "round": 1356,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-07 05:59 CST",
+      "addedAt": "2026-11-07 05:59 CST",
+      "lastChecked": "2026-11-07 05:59 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "runcheck-pad",
+      "name": "runcheck",
+      "handle": "@runcheck_pad",
+      "twitter": "@runcheck_pad",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/runcheck_pad"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 5.5
+      },
+      "highlights": [
+        "定位发射台 deployer，玩法线索清晰",
+        "有 TG 社群入口",
+        "绑定 Robinhood Chain 新生态"
+      ],
+      "drawbacks": [
+        "0 粉，尚未见实际发射记录",
+        "bio 文案偏营销"
+      ],
+      "whatsNew": "宣称在 Robinhood Chain 上部署认证 AI agent 与代币的 launchpad",
+      "summary": "极早期 Robinhood Chain 发射台项目，bio 给出明确的部署与发射定位，可先列入观察。",
+      "blurb": "Robinhood Chain 上的 AI agent / 代币发射台，极早期",
+      "round": 1356,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-07 05:59 CST",
+      "addedAt": "2026-11-07 05:59 CST",
+      "lastChecked": "2026-11-07 05:59 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "hyperlend",
       "name": "HyperLend",
@@ -25791,7 +25937,7 @@
       "firstSeen": "2026-11-07 05:30 CST",
       "lastChecked": "2026-11-07 05:30 CST",
       "source": "UF+KW+Enter_Elysium mention",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "seedely-xyz",
@@ -216372,18 +216518,19 @@
     }
   ],
   "newThisRound": [
-    "orebound-io",
-    "seedely-xyz"
+    "runcheck-pad",
+    "nftsdotfamily",
+    "regnumpad"
   ],
-  "alertMessage": "DC补漏R1354新收2：Orebound（Robinhood挖矿大亨/创世矿waitlist）、SeedEly（自称On Elysium质押借贷→台子/Meme）；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1356新收 runcheck、Nfts.family、Regnum；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [],
-  "updatedAt": "2026-11-07 05:20 CST",
-  "updated": "2026-11-07 05:20 CST",
+  "updatedAt": "2026-11-07 05:59 CST",
+  "updated": "2026-11-07 05:59 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-07 05:20 CST",
+  "lastScout": "2026-11-07 05:59 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -216425,7 +216572,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3110,
+  "candidateCount": 3114,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -218828,5 +218975,10 @@
   "round1354Added": [
     "orebound-io",
     "seedely-xyz"
+  ],
+  "round1356Added": [
+    "runcheck-pad",
+    "nftsdotfamily",
+    "regnumpad"
   ]
 }
