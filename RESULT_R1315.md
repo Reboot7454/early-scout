@@ -17,4 +17,6 @@
 【R1315】无新收录；≤2h/LIVE：moonfall延至09:40UTC(17:40CST)、goofies、sono/eggs/dewata/crown/hatchieggy/crimson/believe、arena、teslagent~1487/7000、pop/owlord/seal；今日窗：ombre14:00UTC、machines15:00UTC、fungo15:30UTC、nexaria16:00UTC、honey Team15/GTD17/Public18UTC、pocket美东11/12、onlyai Crystals18:00UTC、hoa20:00CST、bnb-cache21:00CST、genai22:00CST；备注：ShieldedNaka投票续+DarkHorse RGB；Ammora GIWA waitlist；squeek Aura/Sepolia续；theAgentFirm/Bunnypad已在库；X posts/search本轮503；HashDoge仅播报勿挖；Genius/Corla/Flap已停。｜面板 https://reboot7454.github.io/early-scout/
 
 ## push
-(pending)
+OK → origin/main 
+- **pushSha**: 50ffe13b40402ecc979acdc87ac74807f0966b65
+- **localSha**: 50ffe13b40402ecc979acdc87ac74807f0966b65
