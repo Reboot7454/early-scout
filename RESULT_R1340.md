@@ -26,3 +26,6 @@
 - Agent Pool (@agent_pool) [打新] focus=False
 - Illicium (@illiciumxyz) [打新] focus=False
 - Raxol.io (@axoldotio) [打新] focus=False
+
+- pushSha: e5419f03aa604e0650635bad0a92621c730d084e
+- remoteVerified: True

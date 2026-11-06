@@ -82,12 +82,30 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "head": "e5419f03aa604e0650635bad0a92621c730d084e",
+    "sha": "e5419f03aa604e0650635bad0a92621c730d084e",
+    "ref": "main",
+    "remoteVerified": true,
+    "verifiedAt": "2026-11-07 01:25 CST",
+    "remoteRound": 1340,
+    "remoteNewThisRound": [
+      "axoldotio",
+      "illiciumxyz",
+      "agent-pool",
+      "contour",
+      "noctualabrh",
+      "firsttake-xyz",
+      "greenstreet-mmo",
+      "elypump",
+      "showtime",
+      "allto"
+    ]
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1340：Discord alpha 补收 axoldotio,illiciumxyz,agent-pool,contour,noctualabrh,firsttake-xyz,greenstreet-mmo,elypump,showtime,allto；清 neon-fox-agents；lastSeen→2026-11-07 01:18；lastChecked→2026-11-07 01:25 CST；batch2 PARSE FAIL 后重试+elypump,showtime,allto",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "DISCORD_ALPHA_40_CARDS_20261107_0117.json",
   "priorRoundNote": "R1339 meta NTR ['neon-fox-agents']; cardsAfterCutoff=34",
   "lastSeenByChannel": {
@@ -264,5 +282,6 @@
       "allto"
     ],
     "rejects": 6
-  }
+  },
+  "pushSha": "e5419f03aa604e0650635bad0a92621c730d084e"
 }
