@@ -1,0 +1,105 @@
+{
+  "round": 1341,
+  "completedAt": "2026-11-07 01:30 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+le2h",
+  "alertMessage": "【打新雷达 R1341】新收录：bELYSIUM(@bscelysium) Elysium Buy-with-BNB 今日新号；Metric(@metricxyz) Elysium Day1 私有池DEX；BoompLab(@boompLab) Solana台扩多链。≤2h CRITICAL：pocketpad AL≈02:00/Public≈03:00CST 0.03ETH max2；cashcat≈02:00CST 0.002BNB；neon-fox LIVE 0.00007BNB；genai LIVE~119/10k；classified-mining mint+stack LIVE。Discord Peek延后。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "bscelysium",
+    "metricxyz",
+    "boomplab"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "bscelysium",
+    "metricxyz",
+    "boomplab"
+  ],
+  "newThisRound": [
+    "bscelysium",
+    "metricxyz",
+    "boomplab"
+  ],
+  "admissions": [
+    {
+      "id": "bscelysium",
+      "handle": "@bscelysium",
+      "category": "台子/Meme",
+      "name": "bELYSIUM",
+      "ecosystem": "Elysium"
+    },
+    {
+      "id": "metricxyz",
+      "handle": "@metricxyz",
+      "category": "台子/Meme",
+      "name": "Metric",
+      "ecosystem": "Elysium"
+    },
+    {
+      "id": "boomplab",
+      "handle": "@boompLab",
+      "category": "台子/Meme",
+      "name": "BoompLab"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "axoldotio",
+    "illiciumxyz",
+    "agent-pool",
+    "contour",
+    "noctualabrh",
+    "firsttake-xyz",
+    "greenstreet-mmo",
+    "elypump",
+    "showtime",
+    "allto"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash score=3 admit=3 alert=1",
+  "dsNote": "score+alert via ds_batch_score; thinking on",
+  "tenLanes": true,
+  "tenLanesCoverage": "UF shard + ≤2h/must (Tape/Elysium/squeek/GIWA/Doge/Stark/BTC/pads) + 3 merged KW searches covering AgentID mint, Elysium/GIWA/Doge/Tape, BTC/Starknet/GO/Flap",
+  "xQuota": {
+    "remainingBefore": 413,
+    "remaining": 389,
+    "xReads": 24,
+    "mode": "pace",
+    "softCap": 25,
+    "ufCursor": 643,
+    "checkedAt": "2026-11-07 01:30 CST"
+  },
+  "ufCursor": {
+    "from": 631,
+    "to": 643
+  },
+  "le2h": [
+    "pocketpad",
+    "cashcat-agent",
+    "neon-fox-agents",
+    "genai",
+    "classified-mining"
+  ],
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "skipped": [
+    {
+      "handle": "SyntaxSouls/VEXAR/WideWide/Tampesta",
+      "reason": "无独立官推"
+    },
+    {
+      "handle": "@ZeroCool_AI",
+      "reason": "成熟安全infra"
+    },
+    {
+      "handle": "UF NF/susp",
+      "reason": "seatworkcells,frogsagent,Honestcoin60,DropMinters"
+    }
+  ],
+  "blockers": [
+    "discordPeekDeferred: executor has no browser"
+  ],
+  "summary": "R1341 admit bscelysium+metricxyz+boomplab; ≤2h pocketpad/cashcat CRITICAL; UF 631→643; xReads24 rem389; docsSynced; DC peek deferred"
+}
