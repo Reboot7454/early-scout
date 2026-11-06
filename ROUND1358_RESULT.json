@@ -4,7 +4,7 @@
   "completedAt": "2026-11-07 06:38 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
-  "notifyReason": "new_admits",
+  "notifyReason": "new admits",
   "alertMessage": "DC补漏R1358新收 FloorAtlas（@flooratlaslabs，台子/Meme）极早期 NFT 地板工具，待观察发币或 mint；面板 https://reboot7454.github.io/early-scout/",
   "newAdmits": [
     "flooratlaslabs"
@@ -58,12 +58,14 @@
     "admits": 1
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "ok": true,
+    "sha": "032ad5b328099d21a2396f88c99ac9331304c9de",
+    "short": "032ad5b",
+    "remote": "origin/main"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1358：Discord alpha 补收 flooratlaslabs；清 pala-market,zelix,spacerz,elysium-avatar,fused-pad；lastSeen→2026-11-07 06:36；lastChecked→2026-11-07 06:38 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1358.json",
   "priorRoundNote": "R1357 meta NTR ['runcheck-pad', 'nftsdotfamily', 'regnumpad', 'pala-market', 'zelix', 'spacerz', 'elysium-avatar', 'fused-pad']; cardsAfterCutoff=27",
   "lastSeenByChannel": {
@@ -176,5 +178,7 @@
   "preRejects": 1,
   "alreadyHave": 1,
   "focusAllFalse": true,
-  "demote": {}
+  "demote": {},
+  "pushCommit": "032ad5b",
+  "pushSha": "032ad5b328099d21a2396f88c99ac9331304c9de"
 }
