@@ -17,4 +17,6 @@
 【R1313】新收：teslagent-ai BSC创世LIVE~1487/7000·0.001BNB/份·满额锁LP365天·7天未满可退(仅Agent钱包)｜≤2h/LIVE：moonfall延至09:40UTC(17:40CST)、goofies5419、sono/eggs/dewata/crown/hatchieggy/crimson/believe、arena~3269、$ARENA本周六00:00UTC｜今日窗：ombre14:00UTC、machines15:00UTC、fungo15:30UTC、nexaria16:00/16:30UTC、onlyai Crystals18:00UTC、pocket美东11/12、hoa20:00CST、bnb-cache21:00CST、genai22:00CST｜备注：squeek Sepolia Merge/Stake；ShieldedNaka周五投票续；Ammora GIWA合作；ElyFluff ComingSoon无明确部署跳过；HashDoge仅播报勿挖；Genius/Corla/Flap已停｜面板 https://reboot7454.github.io/early-scout/
 
 ## push
-PENDING
+OK → origin/main 
+- **pushSha**: 2b2a40b71efb0226bd0a865399a175e2855517e6
+- **localSha**: 2b2a40b71efb0226bd0a865399a175e2855517e6
