@@ -23,5 +23,5 @@
 ufCursor 521→535; soft-debt; schedule bumps×15; goofies 5864; discordPeekDeferred; ADMIT×1 bobbie-nfts
 
 ## push
-- pushOk: (pending)
-- pushSha: (pending)
+- pushOk: true
+- pushSha: `5dbfe28c108fed84f5f90676e247ce88f8eb0da9`
