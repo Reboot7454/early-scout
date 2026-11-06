@@ -23,5 +23,5 @@
 ufCursor 507→521; soft-debt; schedule bumps×14; agent-door→LIVE; discordPeekDeferred; ADMIT×0
 
 ## push
-- pushOk: pending
-- pushSha: pending
+- pushOk: true
+- pushSha: `fe7e131943e2f093fe4b55d7a112087ee313d5b5`
