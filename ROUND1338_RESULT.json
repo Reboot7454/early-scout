@@ -5,21 +5,23 @@
   "timezone": "Asia/Shanghai",
   "notify": true,
   "notifyReason": "new_admits",
-  "alertMessage": "DC补漏R1338新收5个：Cheno、Crashtest、Dev in a Cage、Capsulo、Synod Launchpad；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1338新收6个：Cheno（台子/Meme）、Crashtest（台子/Meme）、Dev in a Cage（台子/Meme）、Capsulo（打新）、Synod Launchpad（Elysium）、Asphodel（Elysium）；面板 https://reboot7454.github.io/early-scout/",
   "newAdmits": [
     "chenodotfun",
     "crashtest-ai",
     "devinacage",
     "capsulo",
-    "synod-launchpad"
+    "synod-launchpad",
+    "asphodelpad"
   ],
-  "newCount": 5,
+  "newCount": 6,
   "newIds": [
     "chenodotfun",
     "crashtest-ai",
     "devinacage",
     "capsulo",
-    "synod-launchpad"
+    "synod-launchpad",
+    "asphodelpad"
   ],
   "skipped": [],
   "cardsAfterLastSeen": 47,
@@ -186,7 +188,7 @@
     }
   ],
   "rejectedCount": 22,
-  "dsRejects": 22,
+  "dsRejects": 28,
   "admissions": [
     {
       "id": "chenodotfun",
@@ -217,9 +219,15 @@
       "handle": "@synodlaunch",
       "category": "Elysium",
       "name": "Synod Launchpad"
+    },
+    {
+      "id": "asphodelpad",
+      "handle": "@asphodelpad",
+      "category": "Elysium",
+      "name": "Asphodel"
     }
   ],
-  "alert": "DC补漏R1338新收5个：Cheno、Crashtest、Dev in a Cage、Capsulo、Synod Launchpad；面板 https://reboot7454.github.io/early-scout/",
+  "alert": "DC补漏R1338新收6个：Cheno（台子/Meme）、Crashtest（台子/Meme）、Dev in a Cage（台子/Meme）、Capsulo（打新）、Synod Launchpad（Elysium）、Asphodel（Elysium）；面板 https://reboot7454.github.io/early-scout/",
   "gapIncomplete": true,
   "oldestReachedByChannel": {
     "alpha-3-new-accounts": "2026-11-06 15:52",
@@ -239,5 +247,12 @@
     "smart-accounts-tracker": false,
     "alpha-1": false
   },
-  "spideyPosting": true
+  "spideyPosting": true,
+  "batch3Retry": {
+    "ok": true,
+    "extra": [
+      "asphodelpad"
+    ],
+    "rejects": 6
+  }
 }
