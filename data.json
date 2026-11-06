@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-07 04:46 CST",
+    "updated": "2026-11-07 05:20 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R1315",
-    "lastScout": "2026-11-07 04:45 CST",
+    "lastScout": "2026-11-07 05:20 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -692,7 +692,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1352,
+    "round": 1354,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2081,7 +2081,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "zeclink"
+      "orebound-io",
+      "seedely-xyz"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4712,17 +4713,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-07 04:40",
-      "lastChecked": "2026-11-07 04:45 CST",
-      "newestCardTime": "2026-11-07 04:40 CST",
-      "cardsAfterCutoff": 47,
-      "note": "R1351：Discord alpha 补收 dollair,copybaratrades,playlootlings,wavefund-hq；清 plato-unseen；lastSeen→2026-11-07 04:40；lastChecked→2026-11-07 04:45 CST",
-      "lastRound": 1351,
+      "lastSeen": "2026-11-07 05:15",
+      "lastChecked": "2026-11-07 05:20 CST",
+      "newestCardTime": "2026-11-07 05:15",
+      "cardsAfterCutoff": 15,
+      "note": "R1354：Discord alpha 补收 orebound-io,seedely-xyz；lastSeen→2026-11-07 05:15；lastChecked→2026-11-07 05:20 CST",
+      "lastRound": 1354,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-07 04:40",
+        "alpha-3-new-accounts": "2026-11-07 05:14",
         "alpha-1-backup": "2026-11-07 04:34",
-        "smart-accounts-tracker": "2026-11-07 04:33",
-        "alpha-1": "2026-11-07 04:33"
+        "alpha-1": "2026-11-07 05:15",
+        "smart-accounts-tracker": "2026-11-07 04:33"
       }
     },
     "round239Added": [
@@ -25746,9 +25747,105 @@
       "agent-creatures",
       "oryndex",
       "ouros-agents"
+    ],
+    "round1353Added": [],
+    "round1354Added": [
+      "orebound-io",
+      "seedely-xyz"
     ]
   },
   "candidates": [
+    {
+      "id": "seedely-xyz",
+      "name": "SeedEly",
+      "handle": "@seedely_xyz",
+      "twitter": "@seedely_xyz",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/seedely_xyz"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.7
+      },
+      "highlights": [
+        "$SEED 质押得 xSEED，手续费回流 Silo",
+        "xSEED 可借出 99% 且无清算，随时提取",
+        "自称已部署于 Elysium"
+      ],
+      "drawbacks": [
+        "仅 4 粉，团队与合约地址未知",
+        "xSEED 只涨不跌的表述偏营销",
+        "未说明测试网/合约是否可交互"
+      ],
+      "whatsNew": "自称 On Elysium 的 $SEED/xSEED 质押借贷新号（未核验生态页，降台子/Meme）",
+      "summary": "Elysium 生态新项目，质押 $SEED 换取 xSEED 并将手续费注入 Silo，支持无清算高比例借出，机制具体但信息量仍薄。",
+      "blurb": "Elysium 上的 $SEED/xSEED 质押+无清算借贷新玩法，极早期可跟。",
+      "round": 1354,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 4,
+      "xFollowers": 4,
+      "firstSeen": "2026-11-07 05:20 CST",
+      "addedAt": "2026-11-07 05:20 CST",
+      "lastChecked": "2026-11-07 05:20 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "orebound-io",
+      "name": "Orebound",
+      "handle": "@orebound_io",
+      "twitter": "@orebound_io",
+      "chain": "Robinhood Chain",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Orebound_io"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 6.6
+      },
+      "highlights": [
+        "Robinhood Chain 上的挖矿大亨玩法",
+        "555 Genesis Mines 即将上线",
+        "已开放 waitlist"
+      ],
+      "drawbacks": [
+        "0 粉丝，产品实机未披露",
+        "Robinhood Chain 生态确定性待观察"
+      ],
+      "whatsNew": "宣布 555 Genesis Mines 即将到来并开放 waitlist。",
+      "summary": "Orebound 是 Robinhood Chain 上的挖矿大亨游戏，当前仅有 Genesis Mines 预告和 waitlist，属于极早期玩法线索项目。",
+      "blurb": "Robinhood Chain 挖矿大亨，555 Genesis Mines 预告中。",
+      "round": 1354,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-07 05:20 CST",
+      "addedAt": "2026-11-07 05:20 CST",
+      "lastChecked": "2026-11-07 05:20 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
     {
       "id": "zeclink",
       "name": "Zeclink",
@@ -25796,7 +25893,7 @@
       "firstSeen": "2026-11-07 04:58 CST",
       "addedAt": "2026-11-07 04:58 CST",
       "lastChecked": "2026-11-07 04:58 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "schedule": {
         "status": "LIVE",
@@ -216238,20 +216335,18 @@
     }
   ],
   "newThisRound": [
-    "dollair",
-    "copybaratrades",
-    "playlootlings",
-    "wavefund-hq"
+    "orebound-io",
+    "seedely-xyz"
   ],
-  "alertMessage": "DC补漏R1351新收4个：DOLLAIR、Copy、Lootlings Idle AFK Game、WaveFund；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1354新收2：Orebound（Robinhood挖矿大亨/创世矿waitlist）、SeedEly（自称On Elysium质押借贷→台子/Meme）；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [],
-  "updatedAt": "2026-11-07 04:45 CST",
-  "updated": "2026-11-07 04:45 CST",
+  "updatedAt": "2026-11-07 05:20 CST",
+  "updated": "2026-11-07 05:20 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-07 04:45 CST",
+  "lastScout": "2026-11-07 05:20 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -216293,7 +216388,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3107,
+  "candidateCount": 3110,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -218691,5 +218786,10 @@
     "copybaratrades",
     "playlootlings",
     "wavefund-hq"
+  ],
+  "round1353Added": [],
+  "round1354Added": [
+    "orebound-io",
+    "seedely-xyz"
   ]
 }

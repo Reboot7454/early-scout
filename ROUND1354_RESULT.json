@@ -1,0 +1,77 @@
+{
+  "round": 1354,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-07 05:20 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R1354新收2：Orebound（Robinhood挖矿大亨/创世矿waitlist）、SeedEly（自称On Elysium质押借贷→台子/Meme）；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "orebound-io",
+    "seedely-xyz"
+  ],
+  "newCount": 2,
+  "newIds": [
+    "orebound-io",
+    "seedely-xyz"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 15,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "candidateFlagsCleared": 0,
+  "topNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash retry-chunks admits=2 (dropped vargos; demoted seedely Elysium→台子/Meme); batch0 initial PARSE FAIL",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-07 05:15",
+    "lastChecked": "2026-11-07 05:20 CST",
+    "newestCardTime": "2026-11-07 05:15",
+    "cardsAfterCutoff": 15,
+    "note": "R1354：Discord alpha 补收 orebound-io,seedely-xyz；lastSeen→2026-11-07 05:15；lastChecked→2026-11-07 05:20 CST",
+    "lastRound": 1354,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-07 05:14",
+      "alpha-1-backup": "2026-11-07 04:34",
+      "alpha-1": "2026-11-07 05:15",
+      "smart-accounts-tracker": "2026-11-07 04:33"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1354：Discord alpha 补收 orebound-io,seedely-xyz；lastSeen→2026-11-07 05:15；lastChecked→2026-11-07 05:20 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261107_0514.json",
+  "priorRoundNote": "R1353 meta NTR []; cardsAfterCutoff=15",
+  "alert": "DC补漏R1354新收2：Orebound（Robinhood挖矿大亨/创世矿waitlist）、SeedEly（自称On Elysium质押借贷→台子/Meme）；面板 https://reboot7454.github.io/early-scout/",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-07 05:14",
+    "alpha-1-backup": "2026-11-07 04:34",
+    "alpha-1": "2026-11-07 05:15",
+    "smart-accounts-tracker": "2026-11-07 04:33"
+  },
+  "gapIncomplete": false,
+  "spideyPosting": true,
+  "cardsRead": 15,
+  "admissions": [
+    {
+      "id": "orebound-io",
+      "handle": "@Orebound_io",
+      "category": "挖矿",
+      "name": "Orebound"
+    },
+    {
+      "id": "seedely-xyz",
+      "handle": "@seedely_xyz",
+      "category": "台子/Meme",
+      "name": "SeedEly"
+    }
+  ],
+  "note": "seedely自称On Elysium未核验降台子/Meme；拒vargos通用支付"
+}
