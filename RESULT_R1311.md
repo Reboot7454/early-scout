@@ -17,4 +17,6 @@
 【R1311】新收：epeg(@ePegsV4·Elysium像素猫·Uniswap v4 hook买入即mint·粉≈4)、vigil-elysium(@Vigil_elysium·HL可编程风险层·Built on Enter_Elysium·Announced·粉≈82)｜≤2h/LIVE：moonfall→09:40CST、goofies 5419/9999、sono 440、eggs 1014、dewata FREE、pop flat、crown 530、hatchieggy LIVE、agentarenaid LIVE、wag-agent/PACTURE~10083/11000｜今日窗：ombre 14:00UTC、machines 15:00UTC、fungo→15:30UTC、nexaria CA 16:00UTC、onlyai Phase2→18:00UTC、pocket 11AM EST、hoa 20:00CST、oupe soon｜squeek Sepolia；ShieldedNaka周五开盘投票通过；DogeOS Ch4 LIVE；HashDoge仅播报勿挖；Genius/Corla/Flap已停不重启｜面板 https://reboot7454.github.io/early-scout/
 
 ## push
-PENDING → will fill after gh push
+OK → origin/main 
+- **pushSha**: 752543c7f98e05a855f43b8bfaee0b4588603fad
+- **localSha**: 752543c7f98e05a855f43b8bfaee0b4588603fad
