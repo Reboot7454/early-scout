@@ -33,7 +33,7 @@
   ],
   "discordPeekDeferred": false,
   "dsFallback": false,
-  "dsUsage": "deepseek-flash admits=3",
+  "dsUsage": "deepseek-flash admits=3 rejects=14 keep=17",
   "coverage": "discord-alpha multi-channel",
   "discordAlphaPeek": {
     "deferred": false,
@@ -72,12 +72,15 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "head": "1cfffb292bf0556dcffe67792aa9477cb7aefedb",
+    "sha": "1cfffb292bf0556dcffe67792aa9477cb7aefedb",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1342：Discord alpha 补收 quby-on-elysium,chainsight-oracle,xelona-xyz；清 bscelysium,metricxyz,boomplab；lastSeen→2026-11-07 02:02；lastChecked→2026-11-07 02:05 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "DISCORD_ALPHA_40_CARDS_20261107_0100.json",
   "priorRoundNote": "R1341 meta NTR ['axoldotio', 'illiciumxyz', 'agent-pool', 'contour', 'noctualabrh', 'firsttake-xyz', 'greenstreet-mmo', 'elypump', 'showtime', 'allto', 'bscelysium', 'metricxyz', 'boomplab']; cardsAfterCutoff=19",
   "lastSeenByChannel": {
