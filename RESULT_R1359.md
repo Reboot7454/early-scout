@@ -34,5 +34,5 @@
 - softCap: 18
 - ufCursor: 759
 
-- pushSha: (pending)
-- remoteVerified: (pending)
+- pushSha: 47c039b061ff2aebe5ec3593c9398ca754b933fb
+- remoteVerified: true
