@@ -224,3 +224,9 @@ Jafar 是打新玩家：目标尽量不漏可操作机会，不是固定赛道�
 - **「这类」= X Layer / STARX 生态挂靠号（agent pad / Agent-only bonding）**：每轮盲捞 + `@starx_xlayer` 官号 mentions 同等扫，**禁止只盯主号偏科**（对齐 squeek 金库挂靠标准）。
 - 事实：STARX 在 X Layer 提供 Agent-only bonding curves，标注 okx.ai 支持；tags 含 X Layer / 台子/Meme。
 - **关键词补强（每轮必搜）**：`starx_xlayer` / `STARX` / `X Layer` / `XLayer` / `okx.ai agent bonding` / `Agent-only bonding` / `X Layer 挂靠`（`meta.keywordGaps.r836b`）。
+
+## Docs panel sync (必做)
+Pages source = main:/docs。每轮改完 data.json 后必须：
+`cp data.json docs/data.json`（或 `bash scripts/sync_docs_panel.sh`），
+再 `git add data.json docs/data.json` 一起推。只推根目录会导致面板落后整轮。
+

@@ -17,3 +17,9 @@
 Elysium：仅 On testnet 或 Announced+明确部署；硬排除 perpme/branchpoint/outrive。Tape 勿标 Elysium。Canton/Glaze/TokenWorks 刷 lastChecked。
 
 notify：真新或≤2h或推送失败 → true+短中文 alert（含面板链接）；否则 false。结果交本聊天；notify 时父代理转发一次。
+
+## Docs panel sync (必做)
+Pages source = main:/docs。每轮改完 data.json 后必须：
+`cp data.json docs/data.json`（或 `bash scripts/sync_docs_panel.sh`），
+再 `git add data.json docs/data.json` 一起推。只推根目录会导致面板落后整轮。
+
