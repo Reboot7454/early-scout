@@ -41,3 +41,6 @@
 
 ## tenLanes
 UF shard 771→783 + ≤2h/must (Oil_Hood/pocketpad/Enter_Elysium/TapeAI/ShieldedNaka) + 4 merged KW (Elysium/Tape/GIWA + Solana/RH/Stark/BTC + 中文打新 + DogeEVM/Zero/Agent)；discordPeekDeferred；十栏等量覆盖
+
+- pushSha: c0056dbd94315f690d96fa331cee96cd89793267
+- remoteVerified: true
