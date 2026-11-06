@@ -5,7 +5,7 @@
   "timezone": "Asia/Shanghai",
   "notify": true,
   "notifyReason": "new_admits",
-  "alertMessage": "DC补漏R1356新收 runcheck、Nfts.family、Regnum；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1356新收 runcheck、Nfts.family、Regnum(自称Elysium降台子)；面板 https://reboot7454.github.io/early-scout/",
   "newAdmits": [
     "runcheck-pad",
     "nftsdotfamily",
@@ -128,16 +128,26 @@
     {
       "id": "regnumpad",
       "handle": "@regnumpad",
-      "category": "Elysium",
-      "name": "Regnum"
+      "category": "台子/Meme",
+      "name": "Regnum",
+      "demotedFrom": "Elysium",
+      "demoteReason": "自称Elysium未核验→台子/Meme"
     }
   ],
-  "alert": "DC补漏R1356新收 runcheck、Nfts.family、Regnum；面板 https://reboot7454.github.io/early-scout/",
+  "alert": "DC补漏R1356新收 runcheck、Nfts.family、Regnum(自称Elysium降台子)；面板 https://reboot7454.github.io/early-scout/",
   "gapIncomplete": false,
   "spideyPosting": true,
   "scannedAtCST": "2026-11-07 05:56",
   "cardsUnique": 15,
   "cardsKeep": 13,
   "admitCount": 3,
-  "pushSha": "a2563880158974c36574ac0a0af1dab6620051d6"
+  "pushSha": "a2563880158974c36574ac0a0af1dab6620051d6",
+  "demotions": [
+    {
+      "id": "regnumpad",
+      "from": "Elysium",
+      "to": "台子/Meme",
+      "reason": "自称未核验"
+    }
+  ]
 }

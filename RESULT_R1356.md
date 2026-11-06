@@ -13,3 +13,4 @@
 - panel: https://reboot7454.github.io/early-scout/
 - pushSha: a2563880158974c36574ac0a0af1dab6620051d6
 - remoteVerified: true
+- demote: regnumpad Elysium→台子/Meme (自称未核验)
