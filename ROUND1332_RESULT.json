@@ -156,12 +156,20 @@
     "gapNote": "R1332 tip+older backlog continuation; Nov2 floors not reached"
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "commits": [
+      "32d3af8",
+      "fd800da"
+    ],
+    "head": "fd800da",
+    "pushSha": "fd800daab7d85c5ca7a27f2e6d3a5216a5153fa3",
+    "dataCommit": "32d3af8",
+    "note": "raw.githubusercontent verified round=1332 +23 newIds/gapIncomplete; gh-pages CDN may lag"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1332：Discord alpha 补收 kurogane-fun,trussory,akeno-os,sealhood,veyra_terminal,droolies-rh,elymint-com,hopkinagent,agentfish,rexis,velyxdofun,bnfairball,ponzinomicsbsc,mbg21-capital,hivemindofsol,wispzk,pursuitsportsgg,launchonipo,apogeemarkets,shroud-eth,charon,pawhood,sboundton；清 swoldiers,zenko-nft,hoodfrenz,serpix777,cagentmint,fmining,aether,taoperp,bitmaxdog,thefrontiercash,polypus-fi,shippedbond,irume-live,fstswapsi,squeekcrumb,playfloom,betonbons,property-agent,phaseyard,shine-agent,coral-bay,elysium-guardians,czreceipts,pumpranker-com,bobbiebsc；lastSeen→2026-11-06 21:25；lastChecked→2026-11-06 21:36 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "DISCORD_ALPHA_40_CARDS_20261106_2119.json",
   "priorRoundNote": "R1331 meta NTR ['bobbiebsc', 'pumpranker-com', 'czreceipts', 'elysium-guardians', 'coral-bay', 'shine-agent', 'phaseyard', 'property-agent', 'betonbons', 'playfloom', 'squeekcrumb', 'fstswapsi', 'irume-live', 'shippedbond', 'polypus-fi', 'thefrontiercash', 'bitmaxdog', 'taoperp', 'aether', 'fmining', 'cagentmint', 'serpix777', 'hoodfrenz', 'zenko-nft', 'swoldiers']; cardsAfterCutoff=291",
   "lastSeenByChannel": {
