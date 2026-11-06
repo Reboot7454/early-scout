@@ -4,7 +4,7 @@
   "completedAt": "2026-11-07 00:45 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
-  "notifyReason": "new_admits",
+  "notifyReason": "push_verify_failed",
   "alertMessage": "DC补漏R1338新收6个：Cheno（台子/Meme）、Crashtest（台子/Meme）、Dev in a Cage（台子/Meme）、Capsulo（打新）、Synod Launchpad（Elysium）、Asphodel（Elysium）；面板 https://reboot7454.github.io/early-scout/",
   "newAdmits": [
     "chenodotfun",
@@ -77,17 +77,16 @@
     "attempted": true,
     "ok": true,
     "commits": [
-      "6164e30",
-      "6164e30"
+      "0390e6f"
     ],
-    "head": "6164e30",
-    "pushSha": "6164e3020fe7baa0780138164aeb192bc4dbaf2a",
-    "dataCommit": "6164e30",
-    "note": "raw.githubusercontent verified round=1338 +5 newIds/gapIncomplete; gh-pages CDN may lag"
+    "head": "0390e6f",
+    "pushSha": "0390e6f49d58f4a3aa5a88787fa8ab59d0b46516",
+    "dataCommit": "0390e6f",
+    "note": "push done verify rr=1338 ntr=['chenodotfun', 'crashtest-ai', 'devinacage', 'capsulo', 'synod-launchpad']"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1338：Discord alpha 补收 chenodotfun,crashtest-ai,devinacage,capsulo,synod-launchpad；清 markets-xyz；lastSeen→2026-11-07 00:39；lastChecked→2026-11-07 00:45 CST",
-  "remoteVerified": true,
+  "remoteVerified": false,
   "cardsFile": "DISCORD_ALPHA_40_CARDS_20261107_0038.json",
   "priorRoundNote": "R1337 meta NTR ['markets-xyz']; cardsAfterCutoff=47",
   "lastSeenByChannel": {
