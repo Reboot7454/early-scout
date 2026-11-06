@@ -1,0 +1,141 @@
+{
+  "round": 1357,
+  "completedAt": "2026-11-07 06:09 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新收录Pala Market（Elysium发币终端day0）、Zelix（RH隐私DeFi）、Spacerz（像素NFT WL）、ElyAvatar、FusedPad；oil-hood今日19:00CST，pocketpad 11/8 00:00，Elysium主网11/9；Discord Peek延后；https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "pala-market",
+    "zelix",
+    "spacerz",
+    "elysium-avatar",
+    "fused-pad"
+  ],
+  "newCount": 5,
+  "newIds": [
+    "pala-market",
+    "zelix",
+    "spacerz",
+    "elysium-avatar",
+    "fused-pad"
+  ],
+  "newThisRound": [
+    "pala-market",
+    "zelix",
+    "spacerz",
+    "elysium-avatar",
+    "fused-pad"
+  ],
+  "admissions": [
+    {
+      "id": "pala-market",
+      "handle": "@PalaMarketxyz",
+      "category": "台子/Meme",
+      "name": "Pala Market",
+      "ecosystem": "Elysium"
+    },
+    {
+      "id": "zelix",
+      "handle": "@zelixfinance",
+      "category": "台子/Meme",
+      "name": "Zelix",
+      "ecosystem": "Robinhood"
+    },
+    {
+      "id": "spacerz",
+      "handle": "@SpacerzNFT",
+      "category": "打新",
+      "name": "Spacerz"
+    },
+    {
+      "id": "elysium-avatar",
+      "handle": "@Elysium_Avatar",
+      "category": "打新",
+      "name": "ElyAvatar",
+      "ecosystem": "Elysium"
+    },
+    {
+      "id": "fused-pad",
+      "handle": "@FusedPad",
+      "category": "台子/Meme",
+      "name": "FusedPad",
+      "ecosystem": "Solana"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "runcheck-pad",
+    "nftsdotfamily",
+    "regnumpad"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash score×5 admit all5 + alert; thinking on",
+  "dsUsage": "deepseek-flash score×5 + alert",
+  "tenLanes": true,
+  "tenLanesCoverage": "UF shard 737→751 + ≤2h/must (Tape/Elysium/squeek/LIVE/pocketpad/oil-hood) + 3 merged KW + Enter_Elysium mentions; discordPeekDeferred",
+  "tenLanesBrief": {
+    "打新": "admit spacerz WL + elysium-avatar; LIVE续 cashcat/neon-fox/genai/plato/dreadwired/kenra/pixio; oil-hood今日19:00; pocketpad 11/8; splashies社区称今日mint",
+    "挖矿": "classified-mining LIVE; squeek Sepolia stream; HashDoge停",
+    "台子/Meme": "admit pala-market(Elysium)/zelix(RH)/fused-pad(Sol); navo预售LIVE",
+    "GO盘": "KW soft; no new GO/AR",
+    "LayerZero": "KW soft; no new",
+    "Elysium": "admit Pala+ElyAvatar; HyperLend续; UniswapV4/trycodex; mainnet 11/9; spike FREE LIVE",
+    "Tape/电路": "TapeAI质押3178+ APR 11/8; soft",
+    "GIWA": "Ammora/Gamapad KW soft; no new mint",
+    "DogeEVM": "resolve soft; no new",
+    "BTC": "ShieldedNaka/banknotes resolve; soft",
+    "Starknet": "Bramble resolve; KW soft"
+  },
+  "xQuota": {
+    "remainingBefore": 207,
+    "remaining": 186,
+    "xReads": 21,
+    "mode": "pace",
+    "softCap": 28,
+    "ufCursor": 751,
+    "checkedAt": "2026-11-07 06:09 CST"
+  },
+  "ufCursor": {
+    "from": 737,
+    "to": 751
+  },
+  "le2h": [],
+  "liveContinue": [
+    "cashcat-agent",
+    "neon-fox-agents",
+    "genai",
+    "classified-mining",
+    "spike-wtf",
+    "navodotfamily",
+    "plato-unseen",
+    "dreadwired",
+    "kenranft",
+    "pixiopet"
+  ],
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "skipped": [
+    {
+      "handle": "@lazabitmeme",
+      "reason": "UF NF Not Found"
+    },
+    {
+      "handle": "@XiangHao91647",
+      "reason": "UF NF Not Found"
+    },
+    {
+      "handle": "HashDoge/Genius/Corla/Flap",
+      "reason": "停"
+    },
+    {
+      "handle": "discordPeek",
+      "reason": "executor无浏览器→deferred"
+    }
+  ],
+  "blockers": [
+    "discordPeekDeferred: executor has no browser"
+  ],
+  "summary": "R1357 admit pala-market/zelix/spacerz/elysium-avatar/fused-pad；UF 737→751；xReads21 rem186；oil-hood今日19:00；docsSynced；Peek延后"
+}
