@@ -1,0 +1,108 @@
+{
+  "round": 1379,
+  "completedAt": "2026-11-07 13:11 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新增 Hood Junkies（@Hood_Junkies）：小体量 ERC-6551 打新，11/11 开启 Trap；今日关注 oil-hood 19:00、elysium.meme 23:00，明日 pocketpad 00:00，面板：https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "hood-junkies"
+  ],
+  "newThisRound": [
+    "hood-junkies"
+  ],
+  "newCount": 1,
+  "newAdmits": [
+    "hood-junkies"
+  ],
+  "admissions": [
+    {
+      "id": "hood-junkies",
+      "handle": "@Hood_Junkies",
+      "category": "打新",
+      "name": "Hood Junkies",
+      "oneLiner": "小体量ERC-6551打新项目，11/11开启Trap。"
+    }
+  ],
+  "discordPeekDeferred": true,
+  "discordPeekReason": "executor no browser; keep cutoffs from R1378 DC alpha-1 12:28 / backup 12:34 / smart 12:30 / alpha-3 12:34",
+  "suggestedCutoffs": {
+    "alpha-1": "12:28",
+    "backup": "12:34",
+    "smart": "12:30",
+    "alpha-3": "12:34"
+  },
+  "dsFallback": false,
+  "dsNote": "admit hood-junkies；skip velvet-rebels(售罄+11粉)；UF shard 全在库软刷",
+  "dsUsage": "deepseek-flash admit=1pass/1skip; score=1; alert=1",
+  "tenLanes": true,
+  "tenLanesCoverage": "UF shard 909→923 + must(Oil_Hood/pocketpad/Elysium_meme/Enter_Elysium/TapeAI/usealchemist/souls/Applecat/pipopad/Skitters/nekart) + LIVE soft + 3 merged KW; discordPeekDeferred",
+  "tenLanesBrief": {
+    "打新": "新收 hood-junkies 11/11；nekart/alchemister/apple-cat/the-unwritten LIVE续",
+    "挖矿": "TapeAI 质押3178+ APR 11/8；osk-agent失败退款",
+    "台子/Meme": "oil-hood今日19:00；pocketpad 11/8 00:00；elysium.meme今日23:00；pipopad LIVE",
+    "GO盘": "KW soft; no new",
+    "LayerZero": "soft-debt; no new",
+    "Elysium": "Enter_Elysium Zerion/Uniswap hooks/Markets Nov9；souls/skitters/erupt/shades/hexis续；硬排除perpme等",
+    "Tape/电路": "TapeAI APR 11/8 续",
+    "GIWA": "pabalx/JoseonFun soft",
+    "DogeEVM": "DogeOSExchange testnet loading soft",
+    "BTC": "ShieldedNaka soft-debt",
+    "Starknet": "KW soft; no new mint"
+  },
+  "xQuota": {
+    "remainingBefore": 821,
+    "remaining": 790,
+    "xReads": 31,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 923,
+    "checkedAt": "2026-11-07 13:11 CST",
+    "note": "softCap28 +3 admit-verify"
+  },
+  "ufCursor": {
+    "from": 909,
+    "to": 923
+  },
+  "ufNF": [],
+  "le2h": [],
+  "liveContinue": [
+    "nekart",
+    "alchemister",
+    "souls-elysium",
+    "apple-cat",
+    "pipopad",
+    "the-unwritten",
+    "tapeai",
+    "emberforge",
+    "vaultcrack"
+  ],
+  "upcoming": {
+    "oil-hood": "2026-11-07 19:00 CST",
+    "elysium-meme": "2026-11-07 23:00 CST",
+    "pocketpad": "2026-11-08 00:00 CST",
+    "tapeai-apr": "2026-11-08 00:00 CST",
+    "elywizardz": "2026-11-09",
+    "skitters": "2026-11-09",
+    "elysium-mainnet": "2026-11-09",
+    "hood-junkies": "2026-11-11",
+    "etherea-genesis": "2026-11-10",
+    "model-citizens": "2026-11-11 00:00 CST"
+  },
+  "skipped": [
+    {
+      "id": "velvet-rebels",
+      "reason": "mint已售罄+仅11粉，窗口已过"
+    },
+    {
+      "id": "HashDoge/Genius/Corla/Flap",
+      "reason": "STOPPED — do not restart"
+    }
+  ],
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "summary": "R1379: UF 909→923; admit hood-junkies; oil-hood 19:00/elysium.meme 23:00/pocketpad 11/8 00:00 续; discordPeekDeferred; docsSynced",
+  "pushSha": null,
+  "remoteVerified": false
+}
