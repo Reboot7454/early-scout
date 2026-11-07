@@ -9,7 +9,7 @@
 - discordPeekDeferred: true；cutoffs alpha-1 2026-11-07 23:57 / backup 2026-11-07 23:49 / smart 2026-11-07 23:35 / alpha-3 2026-11-07 23:56
 - watches: pocketpad allowlist LIVE mintPhase=1 public仍关 minted=323；elys-tape foundry≤2h；mortal/hopkin/oil/elysium LIVE；primate GTD 05:00；HashDoge/Genius/Corla/Flap STOPPED
 - docsSynced: true
-- pushSha: (pending)
-- tip: (pending)
+- pushSha: c7856529a3b297c871017bb333e17b5fce8681c7
+- tip: c7856529a3b297c871017bb333e17b5fce8681c7
 - dsFallback: false；deepseek-flash admit+score+alert
 - alert: pocketpad 已开 allowlist（mintOpen，public 仍关，minted~323/2500）；elys-tape foundry 01:00CST ≤2h 开；新收 eyemine-bnb 自称12-16h后上Flap挖矿、0粉极早，盯紧；面板 https://reboot7454.github.io/early-scout/
