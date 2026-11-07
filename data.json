@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-07 20:46 CST",
+    "updated": "2026-11-07 20:50 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R1359",
-    "lastScout": "2026-11-07 20:46 CST",
+    "lastScout": "2026-11-07 20:50 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -692,7 +692,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1403,
+    "round": 1404,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2093,7 +2093,11 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "bluemint"
+      "playnebulanomad",
+      "floorbeasts",
+      "perch-lp",
+      "sleeveapp",
+      "elysium-club"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4487,21 +4491,19 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-11-07 20:04",
-      "lastChecked": "2026-11-07 20:13 CST",
-      "newestCardTime": "2026-11-07 20:04",
-      "cardsAfterCutoff": 48,
-      "note": "R1401：Discord alpha 补收 westra,playnushi；清 morpha,bubu-monsters；lastSeen→2026-11-07 20:04；lastChecked→2026-11-07 20:09 CST",
-      "lastRound": 1403,
+      "deferred": false,
+      "lastSeen": "2026-11-07 20:43",
+      "lastChecked": "2026-11-07 20:50 CST",
+      "newestCardTime": "2026-11-07 20:43",
+      "cardsAfterCutoff": 42,
+      "note": "R1404：Discord alpha 补收 playnebulanomad,floorbeasts,perch-lp,sleeveapp,elysium-club；清 bluemint；lastSeen→2026-11-07 20:43；lastChecked→2026-11-07 20:50 CST",
+      "lastRound": 1404,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-07 20:03",
-        "alpha-1-backup": "2026-11-07 20:04",
+        "alpha-3-new-accounts": "2026-11-07 20:43",
+        "alpha-1-backup": "2026-11-07 20:19",
         "smart-accounts-tracker": "2026-11-07 19:30",
-        "alpha-1": "2026-11-07 20:03"
-      },
-      "r1402": "discordPeekDeferred=true（无 computerUse）",
-      "r1403": "discordPeekDeferred=true；cutoffs inherit R1402 alpha-1 20:03 / backup 20:04 / smart 19:30 / alpha-3 20:03；sibling CU"
+        "alpha-1": "2026-11-07 20:37"
+      }
     },
     "round239Added": [
       "tsunamilaunch",
@@ -26109,9 +26111,245 @@
     "stoppedProjectsNote": "HashDoge/Genius/Corla/Flap STOPPED — R1402 不重启",
     "round1403Added": [
       "bluemint"
+    ],
+    "round1404Added": [
+      "playnebulanomad",
+      "floorbeasts",
+      "perch-lp",
+      "sleeveapp",
+      "elysium-club"
     ]
   },
   "candidates": [
+    {
+      "id": "elysium-club",
+      "name": "Elysium Club",
+      "handle": "@elysium_club",
+      "twitter": "@elysium_club",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "自称Elysium未核验"
+      ],
+      "links": {
+        "x": "https://x.com/Elysium_Club"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 7,
+        "overall": 6.7
+      },
+      "highlights": [
+        "玩法明确：每笔交易抽 Tithe、持 $CLUB 爬六层分润",
+        "代币符号已定 $CLUB",
+        "宣布 Coming Soon 于 @Enter_Elysium"
+      ],
+      "drawbacks": [
+        "ponzi 机制本身高风险，易短命",
+        "0 关注者，无官网/合约",
+        "无具体上线时间"
+      ],
+      "whatsNew": "Elysium 首个自称 ponzi 游戏的项目上线预告，含代币与分层分润设计。",
+      "summary": "Elysium 上叙事完整的 ponzi 型 meme 游戏，玩法与代币已明牌，属可早期埋伏但也高归零风险的一类。",
+      "blurb": "Elysium 首个 ponzi 游戏，小仓观察。",
+      "round": 1404,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-07 20:50 CST",
+      "addedAt": "2026-11-07 20:50 CST",
+      "lastChecked": "2026-11-07 20:50 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "sleeveapp",
+      "name": "Sleeve",
+      "handle": "@sleeveapp",
+      "twitter": "@sleeveapp",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "自称Elysium未核验"
+      ],
+      "links": {
+        "x": "https://x.com/sleeveapp"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 6,
+        "overall": 6.1
+      },
+      "highlights": [
+        "HYPE ↔ WHYPE 1:1 包装/解包，功能描述具体",
+        "强调钱包自持，无托管",
+        "部署在 Elysium 的早期基建位"
+      ],
+      "drawbacks": [
+        "0 关注者，无团队与合约链接",
+        "未说明是否已上线或仅测试",
+        "封装类工具叙事偏薄"
+      ],
+      "whatsNew": "新号发布 HYPE/WHYPE 双向封装工具，称运行于 Elysium。",
+      "summary": "Elysium 上的 HYPE 封装/解包极早期工具，产品边界清晰但缺乏上线证据，适合列入观察。",
+      "blurb": "Elysium HYPE 封装器，先观察。",
+      "round": 1404,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-07 20:50 CST",
+      "addedAt": "2026-11-07 20:50 CST",
+      "lastChecked": "2026-11-07 20:50 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "perch-lp",
+      "name": "Perch",
+      "handle": "@perch_lp",
+      "twitter": "@perch_lp",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "自称Elysium未核验"
+      ],
+      "links": {
+        "x": "https://x.com/perch_lp"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 5.8
+      },
+      "highlights": [
+        "LP 手续费份额 90 天 1x→3x 的锁仓激励设计",
+        "定位 Elysium 生态 AMM"
+      ],
+      "drawbacks": [
+        "仅 bio 信息，无网站/文档",
+        "0 粉新号，无法验证是否已部署"
+      ],
+      "whatsNew": "Elysium 生态出现以长期 LP 激励（1x→3x）为核心的 AMM 概念。",
+      "summary": "Elysium 上的 AMM 项目，主打 LP 留存型手续费加成，机制描述具体但尚无进一步资料。",
+      "blurb": "Elysium AMM，LP 手续费 90 天涨到 3x，早期观察。",
+      "round": 1404,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-07 20:50 CST",
+      "addedAt": "2026-11-07 20:50 CST",
+      "lastChecked": "2026-11-07 20:50 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "floorbeasts",
+      "name": "Floor Beasts",
+      "handle": "@floorbeasts",
+      "twitter": "@floorbeasts",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "自称Elysium未核验"
+      ],
+      "links": {
+        "x": "https://x.com/FloorBeasts"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.5
+      },
+      "highlights": [
+        "3,333 枚总量、1,666 免费",
+        "明确部署在 @Enter_Elysium"
+      ],
+      "drawbacks": [
+        "0 粉新号，无官网/Discord",
+        "未写明测试网或 mint 时间"
+      ],
+      "whatsNew": "首个公开的 Elysium 上 pixel beasts 系列，总量与免费额度已披露。",
+      "summary": "Elysium 上的 3,333 枚 pixel NFT 项目，半数免费 mint，卡面给出总量与部署链，属极早期可埋伏标的。",
+      "blurb": "Elysium 上 3,333 枚 pixel beasts，1,666 免费，蹲 mint。",
+      "round": 1404,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-07 20:50 CST",
+      "addedAt": "2026-11-07 20:50 CST",
+      "lastChecked": "2026-11-07 20:50 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "playnebulanomad",
+      "name": "Nebula Nomads",
+      "handle": "@playnebulanomad",
+      "twitter": "@playnebulanomad",
+      "chain": "BNB Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/PlayNebulaNomad"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.1
+      },
+      "highlights": [
+        "3,333 Nomads 供应量明确",
+        "24h 远征 + NOVA Dust + 箱子合成闭环玩法",
+        "BNB Chain 上链游戏"
+      ],
+      "drawbacks": [
+        "0 粉丝，尚无官网/文档链接",
+        "未见 mint 时间与合约地址"
+      ],
+      "whatsNew": "新出现的 BNB Chain 链上远征游戏项目号，公布 NFT 数量与玩法框架。",
+      "summary": "BNB Chain 上的链上远征游戏，3,333 个 Nomad 可派发 24 小时远征赚 NOVA Dust、开箱与合成升级，属极早期有明确玩法与供给结构的打新标的。",
+      "blurb": "BNB 链 3333 NFT 远征游戏，玩法闭环已写明，等 mint 细则。",
+      "round": 1404,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-07 20:50 CST",
+      "addedAt": "2026-11-07 20:50 CST",
+      "lastChecked": "2026-11-07 20:50 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "playnushi",
       "name": "Nushi",
@@ -222028,7 +222266,7 @@
       "addedAt": "2026-11-07 20:46 CST",
       "lastChecked": "2026-11-07 20:46 CST",
       "updatedAt": "2026-11-07 20:46 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "source": "x-kw-tenLanes",
       "schedule": {
         "status": "LIVE",
@@ -222041,20 +222279,23 @@
     }
   ],
   "newThisRound": [
-    "westra",
-    "playnushi"
+    "playnebulanomad",
+    "floorbeasts",
+    "perch-lp",
+    "sleeveapp",
+    "elysium-club"
   ],
-  "alertMessage": "DC补漏R1401新收：Westra（Robinhood Chain组合产品，代币将至）、Nushi（Robinhood Chain 3D钓鱼游戏，免费试玩，$NUSHI待发）；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1404新收5：Nebula Nomads(打新)、Floor Beasts(台子/Meme)、Perch(台子/Meme)、Sleeve(台子/Meme)、Elysium Club(台子/Meme)；自称Elysium未核验已归台子/Meme；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "abyssora"
   ],
-  "updatedAt": "2026-11-07 20:09 CST",
-  "updated": "2026-11-07 20:09 CST",
+  "updatedAt": "2026-11-07 20:50 CST",
+  "updated": "2026-11-07 20:50 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-07 20:09 CST",
+  "lastScout": "2026-11-07 20:50 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -222096,7 +222337,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3211,
+  "candidateCount": 3217,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -224694,5 +224935,12 @@
   "round1401Added": [
     "westra",
     "playnushi"
+  ],
+  "round1404Added": [
+    "playnebulanomad",
+    "floorbeasts",
+    "perch-lp",
+    "sleeveapp",
+    "elysium-club"
   ]
 }
