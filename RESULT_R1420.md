@@ -11,3 +11,5 @@
 - docsSynced: true
 - dsFallback: false；deepseek-flash admit+score+alert
 - alert: 新增 fulcrum-elysium；elys-tape Foundry LIVE，hopkin/oil/bitrush LIVE；primate GTD 05:00CST、broisafreak GTD 11/9 01:00CST；pocketpad Public≈02:00CST（~768/2500，public仍关），mortal mint out。https://reboot7454.github.io/early-scout/
+- pushSha: 927a5c08f69edec1fe139ff051a988db9d5de4f8
+- tip: 927a5c08f69edec1fe139ff051a988db9d5de4f8
