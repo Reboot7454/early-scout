@@ -49,12 +49,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "10c7cc9ec46ad72269c7ac399de42311ef6cce78",
+    "short": "10c7cc9"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1425：Discord alpha 补收 femo,monkgate,spike-finance,nubruxyz,blocktaxi,useghostdex；lastSeen→2026-11-08 03:14；lastChecked→2026-11-08 03:19 CST；自称Elysium未核验已降栏：femo,spike-finance",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1425.json",
   "priorRoundNote": "R1424 meta NTR ['moonbuttcoin', 'elyxir-fun', 'minosfun', 'elyscribe', 'trench-radar']; cardsAfterCutoff=33",
   "lastSeenByChannel": {
@@ -198,5 +200,8 @@
   "elysiumDemoted": [
     "femo",
     "spike-finance"
-  ]
+  ],
+  "pushSha": "10c7cc9",
+  "docsSynced": true,
+  "rawVerified": 1425
 }
