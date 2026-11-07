@@ -1,0 +1,10 @@
+cards=33 unique=28 keep=25 pre_reject=3 already=0
+DS batch 0 n=9
+  got 9 decisions in 20.1s
+DS batch 1 n=9
+  got 9 decisions in 13.7s
+DS batch 2 n=7
+  got 7 decisions in 15.3s
+admits=6 ds_rejects=19 pre_rejects=3
+APPLY {"round": 1425, "newIds": ["femo", "monkgate", "spike-finance", "nubruxyz", "blocktaxi", "useghostdex"], "cleared": [], "result": "/workspace/early-scout/ROUND1425_RESULT.json", "summary": "R1425：Discord alpha 补收 femo,monkgate,spike-finance,nubruxyz,blocktaxi,useghostdex；lastSeen→2026-11-08 03:14；lastChecked→2026-11-08 03:19 CST"}
+{"ok": true, "round": 1425, "notify": true, "newIds": ["femo", "monkgate", "spike-finance", "nubruxyz", "blocktaxi", "useghostdex"], "alert": "DC补漏R1425新收6项：Femo、monkgate、Spike Finance、NUBRU、blocktaxi、GhostDex；面板 https://reboot7454.github.io/early-scout/", "lastSeenByChannel": {"alpha-3-new-accounts": "2026-11-08 03:14", "alpha-1-backup": "2026-11-08 02:04", "smart-accounts-tracker": "2026-11-08 03:13", "alpha-1": "2026-11-08 03:13"}, "ds_usage": {"calls": 4, "prompt_tokens": 5653, "completion_tokens": 8496}, "result": "/workspace/early-scout/ROUND1425_RESULT.json", "ts": "20261108_0318"}

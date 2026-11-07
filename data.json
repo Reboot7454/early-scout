@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-08 03:20 CST",
+    "updated": "2026-11-08 03:19 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R1413",
@@ -693,7 +693,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1424,
+    "round": 1425,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2096,7 +2096,14 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "femo",
+      "monkgate",
+      "spike-finance",
+      "nubruxyz",
+      "blocktaxi",
+      "useghostdex"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -4456,18 +4463,18 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-11-08 02:40",
-      "lastChecked": "2026-11-08 03:20 CST",
-      "newestCardTime": "2026-11-08 02:40",
-      "cardsAfterCutoff": 42,
-      "note": "R1424: executor无浏览器；discordPeekDeferred=true；cutoffs沿用R1423 alpha-1 02:40 / backup 02:04 / smart 02:03 / alpha-3 02:39",
-      "lastRound": 1424,
+      "deferred": false,
+      "lastSeen": "2026-11-08 03:14",
+      "lastChecked": "2026-11-08 03:19 CST",
+      "newestCardTime": "2026-11-08 03:14",
+      "cardsAfterCutoff": 33,
+      "note": "R1425：Discord alpha 补收 femo,monkgate,spike-finance,nubruxyz,blocktaxi,useghostdex；lastSeen→2026-11-08 03:14；lastChecked→2026-11-08 03:19 CST；自称Elysium未核验已降栏：femo,spike-finance",
+      "lastRound": 1425,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-08 02:39",
+        "alpha-3-new-accounts": "2026-11-08 03:14",
         "alpha-1-backup": "2026-11-08 02:04",
-        "smart-accounts-tracker": "2026-11-08 02:03",
-        "alpha-1": "2026-11-08 02:40"
+        "smart-accounts-tracker": "2026-11-08 03:13",
+        "alpha-1": "2026-11-08 03:13"
       }
     },
     "round239Added": [
@@ -6050,7 +6057,14 @@
       "r1318": "soft-refresh",
       "r1424": "soft brush / LIVE refresh"
     },
-    "roundNAdded": [],
+    "roundNAdded": [
+      "femo",
+      "monkgate",
+      "spike-finance",
+      "nubruxyz",
+      "blocktaxi",
+      "useghostdex"
+    ],
     "round315Added": [
       "ink-identity",
       "rack-system"
@@ -26303,9 +26317,285 @@
       "elyscribe",
       "trench-radar"
     ],
-    "round1424Added": []
+    "round1424Added": [],
+    "round1425Added": [
+      "femo",
+      "monkgate",
+      "spike-finance",
+      "nubruxyz",
+      "blocktaxi",
+      "useghostdex"
+    ]
   },
   "candidates": [
+    {
+      "id": "useghostdex",
+      "name": "GhostDex",
+      "handle": "@useghostdex",
+      "twitter": "@useghostdex",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/useghostdex"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 5.7
+      },
+      "highlights": [
+        "面向 Robinhood 股票代币的交易界面",
+        "AI agent 硬预算托管钱包玩法"
+      ],
+      "drawbacks": [
+        "链与合约细节未公开",
+        "信息仍以 bio 为主"
+      ],
+      "whatsNew": "私有钱包交易股票代币＋AI agent 预算托管",
+      "summary": "早期交易台项目，靠私钱包和 AI agent 预算托管切入 Robinhood 股票代币交易。",
+      "blurb": "Robinhood 股票代币私有交易台＋AI agent 托管。",
+      "round": 1425,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 275,
+      "xFollowers": 275,
+      "firstSeen": "2026-11-08 03:19 CST",
+      "addedAt": "2026-11-08 03:19 CST",
+      "lastChecked": "2026-11-08 03:19 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "blocktaxi",
+      "name": "blocktaxi",
+      "handle": "@blocktaxi",
+      "twitter": "@blocktaxi",
+      "chain": "EVM",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/blocktaxi"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.1
+      },
+      "highlights": [
+        "EVM公平发射平台",
+        "官网block.taxi已给出",
+        "明确尚未发币"
+      ],
+      "drawbacks": [
+        "仍在开发",
+        "关注度极低"
+      ],
+      "whatsNew": "新披露EVM公平发射平台block.taxi，处于开发阶段且无代币。",
+      "summary": "极早期的EVM公平发射平台，官网已存在并明确暂无代币，可作为发射台方向跟踪。",
+      "blurb": "EVM公平发射平台开发中，暂无代币。",
+      "round": 1425,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-08 03:19 CST",
+      "addedAt": "2026-11-08 03:19 CST",
+      "lastChecked": "2026-11-08 03:19 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "nubruxyz",
+      "name": "NUBRU",
+      "handle": "@nubruxyz",
+      "twitter": "@nubruxyz",
+      "chain": "Ethereum",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/nubruxyz"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 5.7
+      },
+      "highlights": [
+        "2,222枚供应量线索",
+        "部署于以太坊的$NUBRU"
+      ],
+      "drawbacks": [
+        "信息极少",
+        "无官网或路线图"
+      ],
+      "whatsNew": "新账号首次披露$NUBRU及2,222枚供应设定。",
+      "summary": "以太坊上的极早期$NUBRU项目，卡面给出固定供应量线索，适合持续观察是否开放mint。",
+      "blurb": "2,222枚$NUBRU，极早期观察。",
+      "round": 1425,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 13,
+      "xFollowers": 13,
+      "firstSeen": "2026-11-08 03:19 CST",
+      "addedAt": "2026-11-08 03:19 CST",
+      "lastChecked": "2026-11-08 03:19 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "spike-finance",
+      "name": "Spike Finance",
+      "handle": "@spikeelysium",
+      "twitter": "@spikeelysium",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "台子/Meme"
+      ],
+      "links": {
+        "x": "https://x.com/SpikeElysium"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 7,
+        "novelty": 5,
+        "actionable": 5,
+        "overall": 5.3
+      },
+      "highlights": [
+        "明确做 Swap / 跨链桥 / 流动性",
+        "挂靠 @montraxyz 有一定背书线索"
+      ],
+      "drawbacks": [
+        "0 粉，无官网与审计信息",
+        "未标注 testnet 或具体发版时间"
+      ],
+      "whatsNew": "Elysium 生态新出现的 Swap+桥+DEX 组合型项目号",
+      "summary": "Spike Finance 自称 Elysium 上的交易与流动性入口，含 Swap、桥与做市，由 @montraxyz 支持，属极早期生态 DeFi，需核验部署状态与流动性挖矿玩法。",
+      "blurb": "Elysium 新 DEX/桥，早期",
+      "round": 1425,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-08 03:19 CST",
+      "addedAt": "2026-11-08 03:19 CST",
+      "lastChecked": "2026-11-08 03:19 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "monkgate",
+      "name": "monkgate",
+      "handle": "@monkgatexyz",
+      "twitter": "@monkgatexyz",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/monkgatexyz"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 6.1
+      },
+      "highlights": [
+        "OpenAI/Anthropic 兼容的统一模型网关",
+        "代币 MONK + USDG 按 token 计费，链上 Robinhood Chain",
+        "方向新，处于最早期"
+      ],
+      "drawbacks": [
+        "仅1粉，无官网/仓库证据",
+        "代币经济与发行动作未披露"
+      ],
+      "whatsNew": "在 Robinhood Chain 上以 MONK/USDG 计费的开源模型统一 API 网关首次露面",
+      "summary": "monkgate 提供 OpenAI/Anthropic 兼容的统一模型网关，按 token 用 MONK 与 USDG 付费，部署于 Robinhood Chain，产品定位清晰但资料极少，需跟踪其代币发射与使用量。",
+      "blurb": "Robinhood Chain 上的模型网关，MONK 计费",
+      "round": 1425,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-08 03:19 CST",
+      "addedAt": "2026-11-08 03:19 CST",
+      "lastChecked": "2026-11-08 03:19 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "femo",
+      "name": "Femo",
+      "handle": "@femofamily",
+      "twitter": "@femofamily",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "台子/Meme"
+      ],
+      "links": {
+        "x": "https://x.com/Femofamily"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 8,
+        "novelty": 5,
+        "actionable": 4,
+        "overall": 5.2
+      },
+      "highlights": [
+        "bio 明确为 Elysium 上的 launchpad",
+        "账号全新，处于最早期"
+      ],
+      "drawbacks": [
+        "仅1粉、无官网/文档链接",
+        "未说明 testnet/上线阶段，真实性待核"
+      ],
+      "whatsNew": "Elysium 生态自称发射台的新账号首次出现",
+      "summary": "Femo 是 follower of @Enter_Elysium 的新账号，bio 自述为 Elysium 上的发射台，具备发射台这一产品线索，但缺官网与阶段信息，需跟进其 mint/发射细节。",
+      "blurb": "Elysium 上的新发射台自述号，待验证",
+      "round": 1425,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-08 03:19 CST",
+      "addedAt": "2026-11-08 03:19 CST",
+      "lastChecked": "2026-11-08 03:19 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
     {
       "id": "trench-radar",
       "name": "Trench Radar",
@@ -225409,23 +225699,24 @@
     }
   ],
   "newThisRound": [
-    "moonbuttcoin",
-    "elyxir-fun",
-    "minosfun",
-    "elyscribe",
-    "trench-radar"
+    "femo",
+    "monkgate",
+    "spike-finance",
+    "nubruxyz",
+    "blocktaxi",
+    "useghostdex"
   ],
-  "alertMessage": "DC补漏R1423新收5个：MOONBUTT($BUTT)、Elyxir、Minos、Ely inscribe、Trench Radar；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1425新收6项：Femo、monkgate、Spike Finance、NUBRU、blocktaxi、GhostDex；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "play-pixelora"
   ],
-  "updatedAt": "2026-11-08 02:46 CST",
-  "updated": "2026-11-08 02:46 CST",
+  "updatedAt": "2026-11-08 03:19 CST",
+  "updated": "2026-11-08 03:19 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-08 02:46 CST",
+  "lastScout": "2026-11-08 03:20 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -225467,7 +225758,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3278,
+  "candidateCount": 3284,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -228131,5 +228422,13 @@
     "minosfun",
     "elyscribe",
     "trench-radar"
+  ],
+  "round1425Added": [
+    "femo",
+    "monkgate",
+    "spike-finance",
+    "nubruxyz",
+    "blocktaxi",
+    "useghostdex"
   ]
 }
