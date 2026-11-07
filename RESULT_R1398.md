@@ -11,3 +11,4 @@
 - docsSynced: true
 - dsFallback: false；deepseek-flash admit+score+alert
 - alert: R1398新收 Mortal Apes @mortalApes（打新：ETH FREE mint 2222，今日21:50CST）；oil-hood今日19:00开井≤1h Pons；面板 https://reboot7454.github.io/early-scout/
+- pushSha: b5ec1af11a756822581290d71e20c554f156104c
