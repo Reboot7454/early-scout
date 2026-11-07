@@ -61,12 +61,15 @@
     "spideyPosting": true
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "bf0c426d175301babe77741e9fdde259444843dc",
+    "short": "bf0c426",
+    "remote": "origin/main"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1391：Discord alpha 补收 privexlayer,enter-himan,robinexhq,clawdropfun,play-tombola,nullraid,equitykeepers,heist-hook；equitykeepers;play-tombola;clawdropfun;enter-himan 自称Elysium未核验→台子/Meme；lastSeen→2026-11-07 16:40；lastChecked→2026-11-07 16:50 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1391.json",
   "priorRoundNote": "R1390 meta NTR ['final-days', 'barbarian-nft']; cardsAfterCutoff=24",
   "lastSeenByChannel": {
@@ -201,5 +204,6 @@
     "play-tombola",
     "clawdropfun",
     "enter-himan"
-  ]
+  ],
+  "pushSha": "bf0c426d175301babe77741e9fdde259444843dc"
 }
