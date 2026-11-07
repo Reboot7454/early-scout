@@ -11,4 +11,4 @@
 - docsSynced: true
 - dsFallback: false；deepseek-flash admit+refresh+alert
 - alert: 🔔 近场+新收：mortal-apes FREE mint 21:30 CST（≤2h）；新收录 BlueMint(@mintonblue)；elysium 23:00；mortal-apes 先看 → https://reboot7454.github.io/early-scout/
-- pushSha: (pending)
+- pushSha: b6cb4098079a2d041014ca686a62722a64177ef7
