@@ -49,12 +49,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "94d8f31dc3c734be0c005da04f7efa41cf30938c",
+    "short": "94d8f31"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1433：Discord alpha 补收 gikocat,torusmarkets,elyseapro,hobsdotfun；清 noelyelysium；lastSeen→2026-11-08 06:00；lastChecked→2026-11-08 06:05 CST",
-  "remoteVerified": false,
+  "remoteVerified": 1433,
   "cardsFile": "dc40_cards_r1433.json",
   "priorRoundNote": "R1432 meta NTR ['noelyelysium']; cardsAfterCutoff=34",
   "lastSeenByChannel": {
@@ -192,5 +194,8 @@
     "torusmarkets"
   ],
   "gapIncomplete": false,
-  "spideyPosting": true
+  "spideyPosting": true,
+  "pushSha": "94d8f31",
+  "docsSynced": true,
+  "cardsAfterCutoff": 34
 }
