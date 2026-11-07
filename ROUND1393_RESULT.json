@@ -51,12 +51,15 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "a41512b7f51a7afbb9783082d30be72be9d86fbd",
+    "short": "a41512b",
+    "remote": "origin/main"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1393：Discord alpha 补收 riftlingsnft,tickerpets,noveksocial,crocicemint,sticky-elysium；清 hakuna-agent；lastSeen→2026-11-07 17:21；lastChecked→2026-11-07 17:28 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1393.json",
   "priorRoundNote": "R1392 meta NTR ['privexlayer', 'enter-himan', 'robinexhq', 'clawdropfun', 'play-tombola', 'nullraid', 'equitykeepers', 'heist-hook', 'hakuna-agent']; cardsAfterCutoff=24",
   "lastSeenByChannel": {
@@ -180,5 +183,6 @@
   ],
   "unique": 21,
   "keep": 20,
-  "already": 1
+  "already": 1,
+  "pushSha": "a41512b7f51a7afbb9783082d30be72be9d86fbd"
 }
