@@ -1,0 +1,118 @@
+{
+  "round": 1385,
+  "completedAt": "2026-11-07 14:56 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "雷达R1385新收2项：Farm&Filch(@FarmFilch) Solana 222 FREE mint 11/13；ETape(@ElysTape) Elysium链上电路 foundry。面板 https://reboot7454.github.io/early-scout/ 今日oil-hood 19:00、elysium.meme 23:00；明日pocketpad 00:00。",
+  "newIds": [
+    "farm-filch",
+    "elys-tape"
+  ],
+  "newThisRound": [
+    "farm-filch",
+    "elys-tape"
+  ],
+  "newCount": 2,
+  "newAdmits": [
+    "farm-filch",
+    "elys-tape"
+  ],
+  "admissions": [
+    {
+      "id": "farm-filch",
+      "handle": "@FarmFilch",
+      "zone": "打新",
+      "overall": 62,
+      "note": "Solana 222 FREE mint 11/13"
+    },
+    {
+      "id": "elys-tape",
+      "handle": "@ElysTape",
+      "zone": "Tape/电路",
+      "overall": 52,
+      "note": "foundry；非Elysium栏"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "strix-ai",
+      "handle": "@StrixAIRH",
+      "reason": "已发币跟单bot非早期"
+    },
+    {
+      "id": "crime-season",
+      "handle": "@CrimeSeasonNFT",
+      "reason": "$25付费粉11"
+    },
+    {
+      "id": "phew-pro",
+      "handle": "@phew_pro",
+      "reason": "维持R1383农场拒"
+    }
+  ],
+  "discordPeekDeferred": true,
+  "discordPeekReason": "executor no browser/computerUse",
+  "suggestedCutoffs": {
+    "alpha-1": "2026-11-07 14:25",
+    "alpha-1-backup": "2026-11-07 14:19",
+    "smart-accounts-tracker": "2026-11-07 14:36",
+    "alpha-3-new-accounts": "2026-11-07 14:34"
+  },
+  "dsFallback": false,
+  "dsNote": "admit farm-filch + elys-tape；reject StrixAIRH/CrimeSeasonNFT/phew_pro；UF NF LostGodsOnRH + suspended geniedotfun；elys-tape→Tape/电路",
+  "dsUsage": "deepseek-flash admit=2 reject=3 alert=1 thinking-off-for-json",
+  "tenLanes": true,
+  "tenLanesCoverage": "打新｜挖矿｜台子/Meme｜GO盘｜LayerZero｜Elysium｜Tape/电路｜GIWA｜DogeEVM + BTC/Starknet soft",
+  "tenLanesBrief": "UF951→965 + must/LIVE + 3KW + Elysium mentions + BTC/Stark/Doge soft; discordPeekDeferred",
+  "xQuota": {
+    "remainingBefore": 741,
+    "remaining": 719,
+    "xReads": 22,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 965,
+    "checkedAt": "2026-11-07 14:56 CST",
+    "note": "softCap28; under cap; KW+mentions+UF+must"
+  },
+  "ufCursor": {
+    "from": 951,
+    "to": 965
+  },
+  "ufNF": [
+    "LostGodsOnRH",
+    "geniedotfun"
+  ],
+  "le2h": [],
+  "liveContinue": [
+    "nekart",
+    "alchemister",
+    "souls-elysium",
+    "apple-cat",
+    "pipopad",
+    "the-unwritten",
+    "tapeai",
+    "agentic-pocket"
+  ],
+  "upcoming": [
+    "oil-hood 今日19:00CST",
+    "elysium.meme 今日23:00CST",
+    "pocketpad 11/8 00:00CST",
+    "primate-legends 11/8 05:00CST",
+    "TapeAI APR 11/8 00:00",
+    "skitters FREE 11/9",
+    "Elysium主网 11/9",
+    "hood-junkies 11/11"
+  ],
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "summary": "R1385: UF 951→965; admit farm-filch+elys-tape; reject Strix/CrimeSeason/phew; oil-hood 19:00/elysium.meme 23:00/pocketpad 11/8 00:00 续; discordPeekDeferred; docsSynced",
+  "clearedPrevNewThisRound": [
+    "floradotmeme",
+    "paybacksol",
+    "elybirds"
+  ],
+  "pushSha": null,
+  "remoteVerified": false
+}
