@@ -9,5 +9,6 @@
 - discordPeekDeferred: true；cutoffs alpha-1 21:12 / backup 21:04 / smart 19:30 / alpha-3 21:16
 - watches: mortal-apes LIVE；elysium.meme 23:00≤2h；pocketpad 11/8 00:00 mintPhase=0 mintOpen仍关；hopkin 01:00；primate GTD 05:00；oil-hood LIVE CA 0x3f87…2886；HashDoge/Genius/Corla/Flap STOPPED
 - docsSynced: true
+- pushSha: e3a3c08a996fd829d114260cac283e799229d001
 - dsFallback: false；deepseek-flash admit+score+alert
 - alert: R1407 预警：elysium.meme 23:00 CST launchpad≤2h；mortal-apes FREE mint 已 LIVE；新收录 hood-buddies / umbra-perps。详情 https://reboot7454.github.io/early-scout/
