@@ -13,4 +13,5 @@
 - dsFallback: false；deepseek-flash admit+score+alert（elysium-makers demote 台子/Meme）
 - alert: R1430：新收 elysium-makers（Elysium免费mint，未核验降栏）；primate GTD≈05:00CST（≤2h）；hopkin/elys-tape/oil/elysium/bitrush LIVE；erupt Nov9 FREE。面板 https://reboot7454.github.io/early-scout/
 
-- pushSha: (pending)
+- pushSha: 7759d8e6a9fe9de8ed0e17a4e2d2a68f0abf67b6
+- tip: 7759d8e6a9fe9de8ed0e17a4e2d2a68f0abf67b6
