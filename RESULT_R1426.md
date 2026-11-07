@@ -13,5 +13,5 @@
 - dsFallback: false；deepseek-flash admit+score+alert
 - alert: R1426：新收 asciienv；primate GTD≈05:00CST（≤2h）钱包补录将开；hopkin/elys-tape/oil/elysium/bitrush LIVE；erupt Nov9 FREE。面板 https://reboot7454.github.io/early-scout/
 
-- pushSha: (pending)
-- tip: (pending)
+- pushSha: 2af6161ac16780cd5e9e8b4d1e10341639a9ee2d
+- tip: 2af6161ac16780cd5e9e8b4d1e10341639a9ee2d
