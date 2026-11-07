@@ -38,3 +38,6 @@
 
 ## tenLanes
 UF shard 783→800 + ≤2h/must + LIVE soft + 4 merged KW；discordPeekDeferred；十栏等量覆盖
+
+- pushSha: 087b37f11653d0ce7d12e2301e830e9bb089d854
+- remoteVerified: true
