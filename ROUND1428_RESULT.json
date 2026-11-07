@@ -1,0 +1,81 @@
+{
+  "round": 1428,
+  "mode": "x-paced-full",
+  "completedAt": "2026-11-08 04:20 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admit+le2h",
+  "alertMessage": "R1428：新收 bankrbot（Elysium Day1 Agent）；primate GTD≈05:00CST（≤2h）；hopkin/elys-tape/oil/elysium/bitrush LIVE；erupt Nov9 FREE。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "bankrbot",
+      "name": "Bankr",
+      "handle": "@bankrbot",
+      "zone": "Elysium",
+      "reason": "Elysium Day1 bridge/launch/trade agent Nov9; distinct from bankrdex"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "bankrbot"
+  ],
+  "skipped": [
+    {
+      "id": "saffron-elysium",
+      "handle": "@Saffron",
+      "reason": "mature ETH yield; chain expansion only; no new mint window"
+    },
+    {
+      "note": "KW already-in-lib: elyfluff/droolies/volta/tidebound/deuslaunch/pixel-boyz/bianren/pangea/hoa-heart"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "play-pixelora"
+  ],
+  "xReads": 18,
+  "remainingBefore": 223,
+  "remaining": 205,
+  "modeBudget": "pace",
+  "softCap": 20,
+  "ufCursor": {
+    "before": 136,
+    "after": 152
+  },
+  "tenLanes": "UF136→152(NF1)+must/LIVE/≤2h+3KWnews+1search+bankrbot; lanes:打新|挖矿|台子/Meme|GO|LZ|Elysium|Tape|GIWA|DogeEVM+BTC/Stark soft",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "note": "executor no browser; keep R1427 lastSeenByChannel a3 04:04 / backup 03:19 / smart 03:13 / alpha-1 03:36",
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-08 04:04",
+      "alpha-1-backup": "2026-11-08 03:19",
+      "smart-accounts-tracker": "2026-11-08 03:13",
+      "alpha-1": "2026-11-08 03:36"
+    }
+  },
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash admit bankrbot=true saffron=false; polish+alert thinking-off OK",
+  "dsUsage": "deepseek-flash admits=1 rejects=1",
+  "watches": {
+    "primate": "GTD≈05:00CST ≤2h",
+    "hopkin": "3200/10000 LIVE",
+    "elys-tape": "Foundry LIVE",
+    "oil": "LIVE",
+    "elysium-meme": "LIVE",
+    "bitrush": "LIVE",
+    "erupt": "FREE Nov9",
+    "broisafreak": "GTD 11/9 01:00CST",
+    "pocketpad": "SOLD OUT",
+    "stopped": "HashDoge/Genius/Corla/Flap"
+  },
+  "softDebt": "canton/glaze/tokenWorks lastChecked brushed",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1428 新收 bankrbot；primate ≤2h；多条 LIVE 续盯",
+  "push": {
+    "attempted": false,
+    "ok": false,
+    "sha": null
+  }
+}
