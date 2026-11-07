@@ -51,12 +51,16 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "e9e270a4187164a6ac81ca9d2f852055f54ccd15",
+    "short": "e9e270a",
+    "tip": "e9e270a4187164a6ac81ca9d2f852055f54ccd15",
+    "tipShort": "e9e270a"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1418：Discord alpha 补收 undertow,rarelist,use-v4ult-elysium,elypad-fun,elys-run；清 bitrush-btcb；lastSeen→2026-11-08 01:22；lastChecked→2026-11-08 01:27 CST；Elysium自称未核验已降栏: elypad-fun,elys-run,use-v4ult-elysium",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1418.json",
   "priorRoundNote": "R1417 meta NTR ['bitrush-btcb']; cardsAfterCutoff=46",
   "lastSeenByChannel": {
@@ -230,5 +234,7 @@
     "elypad-fun",
     "elys-run",
     "use-v4ult-elysium"
-  ]
+  ],
+  "docsSynced": true,
+  "rawVerified": 1418
 }
