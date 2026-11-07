@@ -1,0 +1,115 @@
+{
+  "round": 1388,
+  "completedAt": "2026-11-07 16:15 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": false,
+  "notifyReason": "none",
+  "alertMessage": "",
+  "newIds": [],
+  "newThisRound": [],
+  "newCount": 0,
+  "newAdmits": [],
+  "admissions": [],
+  "skipped": [
+    {
+      "id": "nova-agent-id",
+      "handle": "@NovaAgentID",
+      "reason": "$NOVA已LIVE非早期"
+    },
+    {
+      "id": "hallofash",
+      "handle": "@hallofash",
+      "reason": "已有卡+第三方喊单"
+    },
+    {
+      "id": "tideboundrh",
+      "handle": "@tideboundrh",
+      "reason": "已有卡duplicate"
+    }
+  ],
+  "rejected": [
+    {
+      "id": "nova-agent-id",
+      "handle": "@NovaAgentID",
+      "reason": "$NOVA已LIVE非早期"
+    },
+    {
+      "id": "hallofash",
+      "handle": "@hallofash",
+      "reason": "已有卡+第三方喊单"
+    },
+    {
+      "id": "tideboundrh",
+      "handle": "@tideboundrh",
+      "reason": "已有卡duplicate"
+    }
+  ],
+  "discordPeekDeferred": true,
+  "discordPeekReason": "executor no browser/computerUse",
+  "suggestedCutoffs": {
+    "alpha-1": "2026-11-07 15:17",
+    "alpha-1-backup": "2026-11-07 14:19",
+    "smart-accounts-tracker": "2026-11-07 14:36",
+    "alpha-3-new-accounts": "2026-11-07 15:12"
+  },
+  "dsFallback": false,
+  "dsNote": "无新收;拒NovaAgentID已LIVE;日程续刷oil-hood/elysium/pocketpad/primate",
+  "dsUsage": "deepseek-flash admit+schedule; admits=0 rejects=3",
+  "tenLanes": true,
+  "tenLanesCoverage": "打新｜挖矿｜台子/Meme｜GO盘｜LayerZero｜Elysium｜Tape/电路｜GIWA｜DogeEVM + BTC/Starknet soft",
+  "tenLanesBrief": "UF979→993 + must/LIVE + 3KW + BTC/Stark soft; discordPeekDeferred; 0 admits",
+  "xQuota": {
+    "remainingBefore": 691,
+    "remaining": 663,
+    "xReads": 28,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 993,
+    "checkedAt": "2026-11-07 16:15 CST",
+    "note": "softCap28 exact; UF14+must9+2resolve+3KW; no liveContinue extras; discordPeekDeferred"
+  },
+  "ufCursor": {
+    "from": 979,
+    "to": 993
+  },
+  "ufNF": [],
+  "le2h": [],
+  "liveContinue": [
+    "nekart",
+    "alchemister",
+    "souls-elysium",
+    "apple-cat",
+    "pipopad",
+    "the-unwritten",
+    "tapeai",
+    "agentic-pocket",
+    "squeekchain",
+    "web3-league",
+    "perpsons",
+    "voidcash"
+  ],
+  "upcoming": [
+    "oil-hood 今日19:00CST",
+    "elysium.meme 今日23:00CST",
+    "pocketpad 11/8 00:00CST",
+    "primate-legends 11/8 05:00CST",
+    "TapeAI APR 11/8 00:00",
+    "skitters FREE 11/9",
+    "Elysium主网 11/9",
+    "hood-junkies 11/11"
+  ],
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "summary": "R1388: UF 979→993; 0 admits; reject NovaAgentID/hallofash/tideboundrh; oil-hood 19:00/elysium.meme 23:00/pocketpad 11/8 00:00 续; discordPeekDeferred; docsSynced",
+  "clearedPrevNewThisRound": [
+    "slop-agentbook"
+  ],
+  "pushSha": "",
+  "remoteVerified": false,
+  "tip": "",
+  "push": {
+    "attempted": false,
+    "ok": false
+  }
+}
