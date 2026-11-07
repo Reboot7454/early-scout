@@ -1,0 +1,130 @@
+{
+  "round": 1372,
+  "completedAt": "2026-11-07 10:47 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新增 Elysium Souls Boxes（FREE mint LIVE，烧盒ETH截止11/8 20:00UTC，11/9主网领Soul）与 ElyPad（day0，自称用SOL经Montra在Elysium发币）；今日 Oil Hood 19:00、Elysium.meme 23:00 CST；pocketpad 11/8 00:00；Elysium主网11/9；https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "souls-elysium",
+    "join-elypad"
+  ],
+  "newThisRound": [
+    "souls-elysium",
+    "join-elypad"
+  ],
+  "newCount": 2,
+  "newAdmits": [
+    "souls-elysium",
+    "join-elypad"
+  ],
+  "admissions": [
+    {
+      "id": "souls-elysium",
+      "handle": "@souls_elysium",
+      "category": "打新",
+      "ecosystem": "Elysium",
+      "name": "Elysium Souls Boxes",
+      "oneLiner": "FREE mint LIVE；烧盒截止11/8 20:00UTC；11/9主网领；9粉 day0"
+    },
+    {
+      "id": "join-elypad",
+      "handle": "@JoinElypad",
+      "category": "台子/Meme",
+      "ecosystem": "Elysium",
+      "name": "ElyPad",
+      "oneLiner": "day0；SOL经Montra在Elysium发币；37粉；异于@Elypadotfun"
+    }
+  ],
+  "discordPeekDeferred": true,
+  "discordPeekReason": "executor no browser/computerUse; keep R1371 cutoffs alpha-1 10:31 / backup 10:34 / smart 09:54 / alpha-3 10:33",
+  "suggestedCutoffs": {
+    "alpha-1": "10:31",
+    "backup": "10:34",
+    "smart": "09:54",
+    "alpha-3": "10:33"
+  },
+  "dsFallback": false,
+  "dsNote": "souls-elysium+join-elypad DS admit; custosfinance无窗跳过; WideWide junk续跳",
+  "dsUsage": "deepseek-flash admit=3→admit1 then score admit2; alert=1",
+  "tenLanes": true,
+  "tenLanesCoverage": "UF shard 849→865 + must(Oil_Hood/pocketpad/Elysium_meme/Enter_Elysium/TapeAI/navo/Elyscription/usealchemist/ShieldedNaka/GIWA/DogeOS/Starknet/Blonskr/bitcointapes/squeek/PlunderPort/Bramble/Applecat/pipopad/TAPELIQUID) + LIVE soft + soft watches + 4 merged KW; discordPeekDeferred",
+  "tenLanesBrief": {
+    "打新": "新收 souls-elysium FREE mint LIVE；apple-cat/alchemister等 LIVE续",
+    "挖矿": "classified-mining LIVE续；TapeAI 质押3178+ APR 11/8",
+    "台子/Meme": "新收 join-elypad；oil-hood今日19:00；pocketpad 11/8 00:00；elysium.meme今日23:00；navo预售至11/8 22:00",
+    "GO盘": "KW soft; no new",
+    "LayerZero": "PlunderPort soft; no new",
+    "Elysium": "新收 souls-elysium + join-elypad；Enter_Elysium Zerion/Hooks；主网11/9；硬排除perpme等",
+    "Tape/电路": "TapeAI APR 11/8；TAPELIQUID soft",
+    "GIWA": "GIWA/Ammora/custos soft; custos未收(无窗)",
+    "DogeEVM": "DogeOS soft; no new",
+    "BTC": "ShieldedNaka soft",
+    "Starknet": "Starknet/Bramble soft; no new mint"
+  },
+  "xQuota": {
+    "remainingBefore": 917,
+    "remaining": 897,
+    "xReads": 20,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 865,
+    "checkedAt": "2026-11-07 10:47 CST"
+  },
+  "ufCursor": {
+    "from": 849,
+    "to": 865
+  },
+  "ufNF": [
+    "Agentspunks",
+    "cryptosympbnb",
+    "BN_Big_Bang"
+  ],
+  "le2h": [],
+  "liveContinue": [
+    "souls-elysium",
+    "apple-cat",
+    "alchemister",
+    "cashcat-agent",
+    "neon-fox-agents",
+    "genai",
+    "classified-mining",
+    "spike-wtf",
+    "navodotfamily",
+    "plato-unseen",
+    "dreadwired",
+    "kenranft",
+    "pixiopet",
+    "agent-pioneer",
+    "foxfire",
+    "cappybara",
+    "agent-volt",
+    "pipopad"
+  ],
+  "upcoming": {
+    "oil-hood": "2026-11-07 19:00 CST",
+    "elysium-meme": "2026-11-07 23:00 CST",
+    "pocketpad": "2026-11-08 00:00 CST",
+    "tapeai-apr": "2026-11-08 00:00 CST",
+    "navo-presale-end": "2026-11-08 22:00 CST",
+    "souls-burn-deadline": "2026-11-08 20:00 UTC",
+    "elysium-mainnet": "2026-11-09",
+    "elyscription-mint": "soon",
+    "alchemister-agent-beta": "2026-11-20"
+  },
+  "skipped": [
+    {
+      "id": "custosfinance",
+      "reason": "GIWA RWA无当前mint/launch窗"
+    },
+    {
+      "id": "widewide",
+      "reason": "垃圾农场续跳过"
+    }
+  ],
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "pushSha": null,
+  "remoteVerified": false,
+  "HashDogeGeniusCorlaFlap": "STOPPED"
+}
