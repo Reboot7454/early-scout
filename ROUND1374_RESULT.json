@@ -1,0 +1,125 @@
+{
+  "round": 1374,
+  "completedAt": "2026-11-07 11:29 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新收录 Raeto（@RaetoCC，Robinhood Chain agentic finance 账户层，beta 即将上线，前20 founding agent），今日续排 Oil Hood 19:00 CST、Elysium.meme 23:00 CST，明日 pocketpad 00:00 CST、11/9 Elysium 主网，详情 https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "raeto"
+  ],
+  "newThisRound": [
+    "raeto"
+  ],
+  "newCount": 1,
+  "newAdmits": [
+    "raeto"
+  ],
+  "admissions": [
+    {
+      "id": "raeto",
+      "handle": "@RaetoCC",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "name": "Raeto",
+      "oneLiner": "RH Chain agentic finance 账户层；beta soon；前20 founding；~1963粉"
+    }
+  ],
+  "discordPeekDeferred": true,
+  "discordPeekReason": "executor no browser; keep R1373 cutoffs alpha-1 10:54 / backup 10:49 / smart 11:18 / alpha-3 11:20 (R1373 DC just admitted moonbiteclub)",
+  "suggestedCutoffs": {
+    "alpha-1": "10:54",
+    "backup": "10:49",
+    "smart": "11:18",
+    "alpha-3": "11:20"
+  },
+  "note": "Remote already had R1373 DC peek (moonbiteclub) while this full scout ran; bumped to R1374",
+  "dsFallback": false,
+  "dsNote": "raeto DS admit+score; elysium-shade跳过(无部署/垃圾粉); horror-protocol无官推跳过; custosfinance无mint窗续跳",
+  "dsUsage": "deepseek-flash admit=3→admit1; score=1; alert=1",
+  "tenLanes": true,
+  "tenLanesCoverage": "UF shard 865→881 + must(Oil_Hood/pocketpad/Elysium_meme/Enter_Elysium/TapeAI/navo/Elyscription/usealchemist/ShieldedNaka/GIWA/DogeOS/Blonskr/bitcointapes/squeek/PlunderPort/Bramble/Applecat/pipopad/TAPELIQUID/souls/JoinElypad/custos) + LIVE soft + soft watches + 4 merged KW; discordPeekDeferred",
+  "tenLanesBrief": {
+    "打新": "alchemister/souls-elysium LIVE续；无新打新卡",
+    "挖矿": "TapeAI 质押3178+ APR 11/8；classified-mining LIVE续",
+    "台子/Meme": "新收 raeto；oil-hood今日19:00；pocketpad 11/8 00:00；elysium.meme今日23:00；navo预售至11/8 22:00；moonbiteclub R1373续",
+    "GO盘": "KW soft; no new",
+    "LayerZero": "PlunderPort soft; no new",
+    "Elysium": "Enter_Elysium Zerion/Hooks/trycodex；主网11/9；elysium-shade拒收；硬排除perpme等",
+    "Tape/电路": "TapeAI APR 11/8；TAPELIQUID soft",
+    "GIWA": "Ammora waitlist刷屏；custos无窗；GIWA soft",
+    "DogeEVM": "DogeOS soft; no new",
+    "BTC": "ShieldedNaka soft",
+    "Starknet": "Starknet/Bramble soft; no new mint"
+  },
+  "xQuota": {
+    "remainingBefore": 897,
+    "remaining": 876,
+    "xReads": 21,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 881,
+    "checkedAt": "2026-11-07 11:29 CST"
+  },
+  "ufCursor": {
+    "from": 865,
+    "to": 881
+  },
+  "ufNF": [
+    "LumenGenesisNFT",
+    "Estock_",
+    "pixelboyzai"
+  ],
+  "le2h": [],
+  "liveContinue": [
+    "souls-elysium",
+    "apple-cat",
+    "alchemister",
+    "cashcat-agent",
+    "neon-fox-agents",
+    "genai",
+    "classified-mining",
+    "spike-wtf",
+    "navodotfamily",
+    "plato-unseen",
+    "dreadwired",
+    "kenranft",
+    "pixiopet",
+    "agent-pioneer",
+    "foxfire",
+    "cappybara",
+    "agent-volt",
+    "pipopad"
+  ],
+  "upcoming": {
+    "oil-hood": "2026-11-07 19:00 CST",
+    "elysium-meme": "2026-11-07 23:00 CST",
+    "pocketpad": "2026-11-08 00:00 CST",
+    "tapeai-apr": "2026-11-08 00:00 CST",
+    "navo-presale-end": "2026-11-08 22:00 CST",
+    "souls-burn-deadline": "2026-11-08 20:00 UTC",
+    "elysium-mainnet": "2026-11-09",
+    "elyscription-mint": "soon",
+    "beepz-live": "2026-11-09",
+    "alchemister-agent-beta": "2026-11-20"
+  },
+  "skipped": [
+    {
+      "id": "elysium-shade",
+      "reason": "无明确部署/testnet；1粉 spam；异于已收 shadesofely"
+    },
+    {
+      "id": "horror-protocol",
+      "reason": "无官推，仅聚合号 Walt_asia"
+    },
+    {
+      "id": "custosfinance",
+      "reason": "GIWA RWA无当前mint/launch窗"
+    }
+  ],
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "pushSha": null,
+  "remoteVerified": false,
+  "HashDogeGeniusCorlaFlap": "STOPPED"
+}
