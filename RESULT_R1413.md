@@ -10,6 +10,6 @@
 - watches: pocketpad≤25m mintPhase=0 mintOpen仍关；elys-tape foundry≤2h；elysium.meme LIVE+；mortal GTD收尾 LIVE；hopkin 3200/10000 LIVE；primate GTD 05:00；oil-hood LIVE；HashDoge/Genius/Corla/Flap STOPPED
 - docsSynced: true
 - pushSha: c7fc4f26f7bad57f837275634d12c045523ddcdd
-- tip: cc26370f7877e74217e1d97d46b8a4cbdab4770b
+- tip: ace002fe5e6ed26dc0314660e730809738a73561
 - dsFallback: false；deepseek-flash admit+alert
 - alert: R1413｜pocketpad≤25m mint 仍关；elys-tape foundry≤2h 窗口；mortal/elysium/hopkin/oil LIVE 继续盯；无新收录；完整面板 https://reboot7454.github.io/early-scout/
