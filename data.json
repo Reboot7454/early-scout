@@ -692,7 +692,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1410,
+    "round": 1411,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -867,8 +867,8 @@
     },
     "glazeWatch": {
       "active": true,
-      "lastChecked": "2026-11-07 22:26 CST",
-      "note": "R1405 soft-touch 2026-11-07 21:20 CST | R1403 soft-touch 2026-11-07 20:46 CST | R1402 soft-touch 2026-11-07 20:13 CST | R1396 soft-touch 2026-11-07 18:27 CST | R1388 soft-debt 2026-11-07 16:15 CST | R",
+      "lastChecked": "2026-11-07 23:11 CST",
+      "note": "R1411 soft-debt 2026-11-07 23:11 CST | R1405 soft-touch 2026-11-07 21:20 CST | R1403 soft-touch 2026-11-07 20:46 CST | R1402 soft-touch 2026-11-07 20:13 CST | R1396 soft-touch 2026-11-07 18:27 CST | R1388 soft-debt 2026-11-07 16:15 CST | R",
       "r368": "checked",
       "r369": "软债刷新 lastChecked",
       "r370": "软债刷新 lastChecked",
@@ -1181,8 +1181,8 @@
     },
     "cantonPadWatch": {
       "active": true,
-      "lastChecked": "2026-11-07 22:26 CST",
-      "note": "R1405 soft-touch 2026-11-07 21:20 CST | R1403 soft-touch 2026-11-07 20:46 CST | R1402 soft-touch 2026-11-07 20:13 CST | R1396 soft-touch 2026-11-07 18:27 CST | R1388 soft-debt 2026-11-07 16:15 CST | R",
+      "lastChecked": "2026-11-07 23:11 CST",
+      "note": "R1411 soft-debt 2026-11-07 23:11 CST | R1405 soft-touch 2026-11-07 21:20 CST | R1403 soft-touch 2026-11-07 20:46 CST | R1402 soft-touch 2026-11-07 20:13 CST | R1396 soft-touch 2026-11-07 18:27 CST | R1388 soft-debt 2026-11-07 16:15 CST | R",
       "r368": "checked",
       "r369": "软债刷新 lastChecked",
       "r370": "软债刷新 lastChecked",
@@ -1570,8 +1570,8 @@
     ],
     "tokenWorksPlaygroundWatch": {
       "active": true,
-      "lastChecked": "2026-11-07 22:26 CST",
-      "note": "R1405 soft-touch 2026-11-07 21:20 CST | R1403 soft-touch 2026-11-07 20:46 CST | R1402 soft-touch 2026-11-07 20:13 CST | R1396 soft-touch 2026-11-07 18:27 CST | R1388 soft-debt 2026-11-07 16:15 CST | R",
+      "lastChecked": "2026-11-07 23:11 CST",
+      "note": "R1411 soft-debt 2026-11-07 23:11 CST | R1405 soft-touch 2026-11-07 21:20 CST | R1403 soft-touch 2026-11-07 20:46 CST | R1402 soft-touch 2026-11-07 20:13 CST | R1396 soft-touch 2026-11-07 18:27 CST | R1388 soft-debt 2026-11-07 16:15 CST | R",
       "r368": "checked",
       "r369": "软债刷新 lastChecked",
       "r370": "软债刷新 lastChecked",
@@ -2093,12 +2093,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "zobotrush",
-      "blesseddotfun",
-      "kronospad",
-      "enverseworld",
-      "useadyros",
-      "bidmemees"
+      "deadhood",
+      "getelysiumpass"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -3105,11 +3101,22 @@
     ],
     "watches": {
       "le2h": [
-        "mortal-apes",
-        "elysium-meme",
-        "hopkinagent"
+        "pocketpad",
+        "elys-tape"
       ],
       "le2hCurrent": [
+        {
+          "id": "pocketpad",
+          "at": "11/8 00:00CST",
+          "note": "公售≤1h mintPhase=0 mintOpen仍关",
+          "le2h": true
+        },
+        {
+          "id": "elys-tape",
+          "at": "11/8 01:00CST",
+          "note": "foundry opens 17:00UTC",
+          "le2h": true
+        },
         {
           "id": "mortal-apes",
           "at": "LIVE",
@@ -3118,20 +3125,14 @@
         },
         {
           "id": "elysium-meme",
-          "at": "23:00CST",
-          "note": "launchpad gates ≤2h + $CNINE airdrop窗",
-          "le2h": true
+          "at": "LIVE",
+          "note": "gates OPEN；$CNINE LIVE",
+          "le2h": false
         },
         {
           "id": "hopkinagent",
           "at": "LIVE",
-          "note": "Genesis mint LIVE early (原01:00)",
-          "le2h": false
-        },
-        {
-          "id": "pocketpad",
-          "at": "11/8 00:00CST",
-          "note": "公售 mintPhase=0 mintOpen仍关",
+          "note": "Genesis 3200/10000 LIVE",
           "le2h": false
         },
         {
@@ -3147,13 +3148,14 @@
           "le2h": false
         }
       ],
-      "le2hNote": "R1409：elysium.meme 23:00≤2h；hopkin Genesis 提前 LIVE；mortal LIVE；pocketpad mintPhase=0",
-      "lastChecked": "2026-11-07 22:26 CST",
+      "le2hNote": "R1411：pocketpad≤1h mintPhase=0；elys-tape foundry≤2h；elysium gates LIVE；$CNINE；mortal/hopkin/oil LIVE",
+      "lastChecked": "2026-11-07 23:11 CST",
       "tonight": [
+        "pocketpad 11/8 00:00CST 公售 mintPhase=0 mintOpen仍关（≤1h）",
+        "elys-tape foundry 11/8 01:00CST（≤2h）",
+        "elysium.meme gates LIVE + $CNINE",
         "mortal-apes FREE mint LIVE",
-        "elysium.meme 今日23:00CST gates（≤2h）",
-        "hopkinagent Genesis mint LIVE（提前开）",
-        "pocketpad 11/8 00:00CST 公售 mintOpen仍关",
+        "hopkinagent Genesis mint LIVE 3200/10000",
         "primate-legends 11/8 05:00CST GTD",
         "oil-hood LIVE on Pons"
       ]
@@ -4494,13 +4496,13 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": false,
+      "deferred": true,
       "lastSeen": "2026-11-07 22:35",
       "lastChecked": "2026-11-07 22:39 CST",
       "newestCardTime": "2026-11-07 22:35",
       "cardsAfterCutoff": 41,
-      "note": "R1410：Discord alpha 补收 zobotrush,blesseddotfun,kronospad,enverseworld,useadyros,bidmemees；清 clankdexer,husher；lastSeen→2026-11-07 22:35；lastChecked→2026-11-07 22:39 CST",
-      "lastRound": 1410,
+      "note": "R1411：无 browser，discordPeekDeferred；cutoffs 沿用 R1410 lastSeenByChannel；parent CU 补 Peek",
+      "lastRound": 1411,
       "lastSeenByChannel": {
         "alpha-3-new-accounts": "2026-11-07 22:35",
         "alpha-1-backup": "2026-11-07 22:19",
@@ -4563,10 +4565,12 @@
       "qlyphs"
     ],
     "prevNewThisRoundCleared": [
-      "agentnovafun",
-      "burnn-tkn",
-      "artificial-purr",
-      "akitama-on-ely"
+      "zobotrush",
+      "blesseddotfun",
+      "kronospad",
+      "enverseworld",
+      "useadyros",
+      "bidmemees"
     ],
     "round248Added": [
       "oath-network",
@@ -4643,7 +4647,7 @@
       "zec-nodes",
       "boys-in-hood"
     ],
-    "alertMessage": "R1409 预警：elysium.meme 23:00 CST launchpad≤2h；hopkinagent Genesis 提前 LIVE；mortal-apes 仍 LIVE；新收录 clankdexer / husher。详情 https://reboot7454.github.io/early-scout/",
+    "alertMessage": "R1411 预警：pocketpad 11/8 00:00CST 公售≤1h，mintPhase=0 mintOpen仍关；elys-tape foundry 01:00CST ≤2h；elysium.meme gates LIVE + $CNINE；mortal-apes/hopkinagent/oil-hood LIVE；新收 deadhood/getelysiumpass。详情 https://reboot7454.github.io/early-scout/",
     "dsSummary": "R1311 admit epeg + vigil-elysium; SKIP PACTURE已在库/Syntax无官推等",
     "round270Added": [
       "avatarpad"
@@ -8861,7 +8865,7 @@
     },
     "coverage": "R1379: UF 909→923 + must(Oil/pocket/Elysium_meme/Enter/Tape/alchemist/souls/Applecat/pipopad/Skitters/nekart) + LIVE soft + 3 KW; admit hood-junkies; discordPeekDeferred",
     "skipNoteR328": "hoodey(1粉无产品)DS未收；qpick-agent(4粉代币已发)DS未收；hypaww无Elysium On testnet/部署证据未收；fomopoly/vaultstreet/rebate/conso/blackboard/pabalx/giwaup/minehood/agentic-inu/giwa-terminal/jakdu-pump/sansense/cozygolem/raidlords/vela-rh/dotai-pad/awpad/lootrush-rh/chimp-champs/inktropy已在库；GO盘无独立新信号；StockCZ Agent ID模板过薄未交分。",
-    "xReads": 19,
+    "xReads": 23,
     "round329Added": [
       "nermo",
       "paynexis",
@@ -10759,9 +10763,12 @@
       "use-clump"
     ],
     "clearedPrevNewThisRound": [
-      "blackskull-app",
-      "useshillo",
-      "ink-koi"
+      "zobotrush",
+      "blesseddotfun",
+      "kronospad",
+      "enverseworld",
+      "useadyros",
+      "bidmemees"
     ],
     "round561Added": [],
     "round562Added": [],
@@ -10860,8 +10867,8 @@
     ],
     "tokenWorksWatch": {
       "active": true,
-      "lastChecked": "2026-11-07 22:26 CST",
-      "note": "R1403 soft-touch 2026-11-07 20:46 CST | R1388 soft-debt 2026-11-07 16:15 CST | R1381 soft-debt 2026-11-07 13:45 CST | R1",
+      "lastChecked": "2026-11-07 23:11 CST",
+      "note": "R1411 soft-debt 2026-11-07 23:11 CST | R1403 soft-touch 2026-11-07 20:46 CST | R1388 soft-debt 2026-11-07 16:15 CST | R1381 soft-debt 2026-11-07 13:45 CST | R1",
       "r596": "R596 soft债 lastChecked",
       "r602": "soft refresh",
       "r603": "R603 soft：TokenWorks无新admit",
@@ -14161,7 +14168,7 @@
         "@binanceminters"
       ],
       "note": "R1403 soft-brush 1085→1095 (NF:zelixfinance,StashPad_) | R1352 soft-debt 2026-11-07 04:58 CST | R1350 soft-debt 2026-11-07 04:22 CST | R1319 soft-brush cursor 393→429 (36; NF11; rest in-lib; ADMIT tapex via KW)",
-      "lastChecked": "2026-11-07 22:26 CST",
+      "lastChecked": "2026-11-07 23:11 CST",
       "createdAt": "2026-10-28 17:15 CST",
       "sourceRound": 775,
       "r775": "用户点名6项已入 candidates；pending=[]",
@@ -14441,7 +14448,7 @@
       "r1016": "watch-bug fix: cadencebnb @cadencebnb BNB DCA tool",
       "r1018": "watch-bug fix: hashwardonline @HashwardOnline 挖矿 Fuse Cool",
       "r1022": "R1022 watch-bug: ElyWord Elysium word game Discord补漏",
-      "cursor": 8,
+      "cursor": 28,
       "shardSizeHint": 40,
       "r1025": "R1025 watch-bug: belief-in-safu @bis_bnb Discord R1024 admit",
       "r1029": "R1029 watch-bug: hootal-kombat @hootal_ Discord R1028 admit",
@@ -20995,7 +21002,14 @@
         "hootal-kombat(@hootal_)→userFollowWatch"
       ]
     },
-    "topNewThisRoundCleared": true,
+    "topNewThisRoundCleared": [
+      "zobotrush",
+      "blesseddotfun",
+      "kronospad",
+      "enverseworld",
+      "useadyros",
+      "bidmemees"
+    ],
     "candidateFlagsCleared": 5,
     "coverageR1029": {
       "mode": "exhausted-deferred-full-scan",
@@ -21296,7 +21310,7 @@
       "dsFallback": false
     },
     "round1049Added": [],
-    "ufCursor": 18,
+    "ufCursor": 28,
     "r1050WatchBugs": [
       "themutantclub → userFollowWatch (+acc)",
       "themutantclub → userFollowWatch (+cid)",
@@ -22107,9 +22121,9 @@
       "mode": "pace"
     },
     "xBudget": {
-      "before": 512,
-      "after": 489,
-      "softCap": 23,
+      "before": 428,
+      "after": 405,
+      "softCap": 25,
       "mode": "pace",
       "used": 23
     },
@@ -24480,8 +24494,8 @@
       "rexis-launchpad",
       "grump-guys"
     ],
-    "ufCursorBefore": 8,
-    "ufCursorAfter": 18,
+    "ufCursorBefore": 18,
+    "ufCursorAfter": 28,
     "lastRound": 1387,
     "round1233Added": [
       "mosslingrh",
@@ -25069,8 +25083,8 @@
     ],
     "cantonWatch": {
       "active": true,
-      "lastChecked": "2026-11-07 22:26 CST",
-      "note": "R1403 soft-touch 2026-11-07 20:46 CST | R1388 soft-debt 2026-11-07 16:15 CST | R1381 soft-debt 2026-11-07 13:45 CST | R1368 soft-debt 2026-11-07 09:42 CST | R1366 soft-debt 2026-11-07 09:13 CST | R135",
+      "lastChecked": "2026-11-07 23:11 CST",
+      "note": "R1411 soft-debt 2026-11-07 23:11 CST | R1403 soft-touch 2026-11-07 20:46 CST | R1388 soft-debt 2026-11-07 16:15 CST | R1381 soft-debt 2026-11-07 13:45 CST | R1368 soft-debt 2026-11-07 09:42 CST | R1366 soft-debt 2026-11-07 09:13 CST | R135",
       "r1300": "soft-debt bump",
       "r1308": "soft-debt bump",
       "r1315": "soft-debt bump",
@@ -25681,16 +25695,23 @@
     "forcePanelIds": [
       "cashcat-agent",
       "classified-mining",
+      "deadhood",
+      "elys-tape",
+      "elysium-meme",
       "enter-elysium",
       "gama-giwa",
       "genai",
+      "getelysiumpass",
+      "hopkinagent",
+      "mortal-apes",
       "navodotfamily",
       "neon-fox-agents",
       "oil-hood",
+      "plato-unseen",
       "pocketpad",
+      "primate-legends",
       "spike-wtf",
       "squeekchain",
-      "plato-unseen",
       "tapeai"
     ],
     "remoteVerified": true,
@@ -26180,6 +26201,25 @@
       "enverseworld",
       "useadyros",
       "bidmemees"
+    ],
+    "ufCursorR1411": {
+      "from": 18,
+      "to": 28,
+      "n": 10,
+      "nf": [
+        "sunrigfun",
+        "mobster_meme"
+      ],
+      "skippedPriorNF": [
+        "kaAgents"
+      ],
+      "note": "UF soft shard 18→28; NF sunrigfun/mobster_meme; kaAgents prior NF skip; rest in-lib soft-brush + TapeLaunch/Naru/ElysianField"
+    },
+    "stopped": [
+      "HashDoge",
+      "Genius",
+      "Corla",
+      "Flap"
     ]
   },
   "candidates": [
@@ -26226,7 +26266,7 @@
       "addedAt": "2026-11-07 22:39 CST",
       "lastChecked": "2026-11-07 22:39 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "useadyros",
@@ -26271,7 +26311,7 @@
       "addedAt": "2026-11-07 22:39 CST",
       "lastChecked": "2026-11-07 22:39 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "enverseworld",
@@ -26316,7 +26356,7 @@
       "addedAt": "2026-11-07 22:39 CST",
       "lastChecked": "2026-11-07 22:39 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "kronospad",
@@ -26362,7 +26402,7 @@
       "addedAt": "2026-11-07 22:39 CST",
       "lastChecked": "2026-11-07 22:39 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "blesseddotfun",
@@ -26408,7 +26448,7 @@
       "addedAt": "2026-11-07 22:39 CST",
       "lastChecked": "2026-11-07 22:39 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "zobotrush",
@@ -26453,7 +26493,7 @@
       "addedAt": "2026-11-07 22:39 CST",
       "lastChecked": "2026-11-07 22:39 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "medousa",
@@ -27302,7 +27342,7 @@
         "免费 mint 的抛压集中，开盘后容易破发",
         "未见产品、路线图或合作背书"
       ],
-      "whatsNew": "【R1409】OG mint 仍 LIVE（官推确认）",
+      "whatsNew": "【R1411】OG mint 仍 LIVE（官推续预告/1of1）；OpenSea 集",
       "summary": "ETH FREE mint 2222，今日21:50 CST 开窗，粉≈752 极早期。",
       "blurb": "ETH FREE mint 2222，今日21:50CST，粉≈752",
       "round": 1398,
@@ -27310,11 +27350,11 @@
       "lzVerified": false,
       "status": "live",
       "followers": 791,
-      "xFollowers": 791,
+      "xFollowers": 792,
       "xUserId": "2111118797423751168",
       "firstSeen": "2026-11-07 19:00 CST",
       "addedAt": "2026-11-07 19:00 CST",
-      "lastChecked": "2026-11-07 22:26 CST",
+      "lastChecked": "2026-11-07 23:11 CST",
       "newThisRound": false,
       "source": "R1398-KW-free-mint-ETH",
       "schedule": {
@@ -28973,9 +29013,9 @@
       "status": "announced",
       "focus": false,
       "round": 1383,
-      "lastChecked": "2026-11-07 22:26 CST",
+      "lastChecked": "2026-11-07 23:11 CST",
       "source": "R1383 KW scoop @PrimateLegends ETH mint 11/8 05:00CST",
-      "whatsNew": "【R1409】GTD 11/8 05:00 CST 续；官推 <12h until mint",
+      "whatsNew": "【R1411】GTD 11/8 05:00 CST 续；官推 <12h until mint",
       "highlights": [
         "官推已发 mint 细则与倒计时",
         "总量3003，GTD≤1500钱包",
@@ -29027,7 +29067,7 @@
       "lzVerified": false,
       "newThisRound": false,
       "followers": 1621,
-      "xFollowers": 1621,
+      "xFollowers": 1623,
       "updatedAt": "2026-11-07 21:20 CST"
     },
     {
@@ -34481,7 +34521,7 @@
         "仅2关注，信息极少",
         "无官网/Discord链接"
       ],
-      "whatsNew": "【R1409】Genesis mint 提前 LIVE（官推 21:57CST 宣布）；Agent ID FREE + 10000 $BUNNY",
+      "whatsNew": "【R1411】Genesis mint 仍 LIVE；官推 3200/10000；0.001 BNB / Agent ID FREE",
       "summary": "BNB Chain上极早期像素兔NFT，主打AI agent mint，需持续跟踪发行细节。",
       "blurb": "AI agent mint像素兔，极早期待验证。",
       "round": 1332,
@@ -34489,10 +34529,10 @@
       "lzVerified": false,
       "status": "live",
       "followers": 54,
-      "xFollowers": 54,
+      "xFollowers": 95,
       "firstSeen": "2026-11-06 21:36 CST",
       "addedAt": "2026-11-06 21:36 CST",
-      "lastChecked": "2026-11-07 22:26 CST",
+      "lastChecked": "2026-11-07 23:11 CST",
       "zoneHint": "台子/Meme",
       "newThisRound": false,
       "schedule": {
@@ -34500,9 +34540,9 @@
         "timezone": "Asia/Shanghai",
         "opensAt": "2026-11-07 21:57 CST",
         "startsAt": "2026-11-08T01:00:00+08:00",
-        "note": "Genesis mint LIVE on BNB；原排 11/8 01:00 已提前",
+        "note": "Genesis mint LIVE on BNB；3200/10000；原排 01:00 已提前",
         "le2h": false,
-        "source": "https://x.com/HopkinAgent/status/2119066622682116201",
+        "source": "https://x.com/HopkinAgent/status/2119079061427548482",
         "mintStatus": "LIVE"
       },
       "updatedAt": "2026-11-07 21:20 CST"
@@ -48308,7 +48348,7 @@
       "zone": "台子/Meme",
       "zoneHint": "台子/Meme",
       "ecosystem": "Elysium",
-      "status": "announced",
+      "status": "live",
       "mint": "upcoming",
       "mintStatus": "preview",
       "freeLIVE": false,
@@ -48323,13 +48363,13 @@
         "overall": 52
       },
       "followers": 184,
-      "xFollowers": 184,
+      "xFollowers": 181,
       "round": 1062,
       "sourceRound": 1062,
       "firstSeen": "2026-11-01 13:14 CST",
       "addedAt": "2026-11-01 13:14 CST",
       "updatedAt": "2026-11-07 21:20 CST",
-      "lastChecked": "2026-11-07 22:26 CST",
+      "lastChecked": "2026-11-07 23:11 CST",
       "price": "预告中（尚无LIVE mint）",
       "links": {
         "x": "https://x.com/Elysium_meme",
@@ -48361,7 +48401,7 @@
       ],
       "blurb": "Elysium.meme 发射台预告：站 elysium.meme，尚无 LIVE mint。",
       "summary": "Elysium.meme 是挂靠 Enter_Elysium 的 meme 发射台预告号，官网 elysium.meme，官推 75 粉。正在征名 Cloud Nine 并预告 launch 空投；尚无可参与 mint。Elysium 主网约 11-09。",
-      "whatsNew": "【R1409】23:00 CST launchpad gates ≤2h；同步 $CNINE airdrop 互动",
+      "whatsNew": "【R1411】23:00CST gates OPEN；$CNINE (Cloud Nine) 官推确认 LIVE；launchpad 已开",
       "risk": "预告阶段；社交弱；无mint规则；主网未上",
       "sources": [
         "mentions:Elysium",
@@ -48371,13 +48411,14 @@
       ],
       "mintProgress": "preview · no LIVE mint yet",
       "schedule": {
-        "status": "announced",
+        "status": "LIVE",
         "timezone": "Asia/Shanghai",
         "opensAt": "2026-11-07 23:00 CST",
         "startsAt": "2026-11-07T23:00:00+08:00",
-        "note": "今日23:00 CST launchpad；$CNINE airdrop；≤2h",
-        "le2h": true,
-        "source": "https://x.com/Elysium_meme/status/2119067346052489310"
+        "note": "launchpad gates OPEN；$CNINE LIVE",
+        "le2h": false,
+        "mintStatus": "LIVE",
+        "source": "https://x.com/Elysium_meme/status/2119083577963143239"
       }
     },
     {
@@ -56851,7 +56892,7 @@
         "Meme波动与跑路风险高",
         "依赖Pons开盘表现"
       ],
-      "whatsNew": "【R1409】仍 LIVE on Pons；CA 0x3f87…2886",
+      "whatsNew": "【R1411】仍 LIVE on Pons；CA 0x3f87…2886",
       "summary": "Robinhood Chain 油价主题 meme，预告发射并有虚拟油桶玩法雏形",
       "blurb": "油价主题 meme 预告发射，玩法线索仅卡面，谨慎观察",
       "round": 967,
@@ -56859,10 +56900,10 @@
       "lzVerified": false,
       "status": "live",
       "followers": 35,
-      "xFollowers": 35,
+      "xFollowers": 42,
       "firstSeen": "2026-10-31 09:24 CST",
       "addedAt": "2026-10-31 09:24 CST",
-      "lastChecked": "2026-11-07 22:26 CST",
+      "lastChecked": "2026-11-07 23:11 CST",
       "zoneHint": "台子/Meme",
       "schedule": {
         "status": "LIVE",
@@ -71611,7 +71652,7 @@
         "api/CA或仍未就绪",
         "改期且需防钓鱼风险"
       ],
-      "whatsNew": "【R1409】公售仍 11/8 00:00 CST；链上 mintPhase=0 mintOpen仍关；Privy 错派续",
+      "whatsNew": "【R1411】公售≤1h（11/8 00:00CST）；链上 mintPhase=0 mintOpen仍关；totalMinted=100；publicPrice=0.03ETH；Privy 错派续",
       "blurb": "Pocket pad：ERC-8426/WalletChi 创作者新开 launchpad；@pocketpad_io 2026-10-28建号，175粉0推文，trench 列表出现。极早期。",
       "links": {
         "x": "https://x.com/pocketpad_io",
@@ -71634,15 +71675,15 @@
         "publicAt": "2026-11-08 00:00 CST",
         "opensAt": "2026-11-08 00:00 CST",
         "startsAt": "2026-11-08T00:00:00+08:00",
-        "note": "公售仍 11/8 00:00 CST；链上 mintPhase=0 mintOpen仍关",
-        "le2h": false,
-        "source": "https://x.com/pocketpad_io/status/2118778555589152911",
+        "note": "公售≤1h；链上 mintPhase=0 mintOpen仍关；totalMinted=100",
+        "le2h": true,
         "mintPhase": 0,
-        "mintOpen": false
+        "mintOpen": false,
+        "source": "https://x.com/pocketpad_io/status/2118778555589152911"
       },
       "progress": "Mint TODAY · WLChi 11AM EST / Public 12PM EST · 2500 · 0.015/0.03 ETH",
-      "lastChecked": "2026-11-07 22:26 CST",
-      "xFollowers": 7858,
+      "lastChecked": "2026-11-07 23:11 CST",
+      "xFollowers": 7877,
       "score": 78,
       "mintPhase": 0,
       "mintOpen": false,
@@ -124951,7 +124992,7 @@
       "firstSeen": "2026-10-16T22:44:26.241781+08:00",
       "round": 96,
       "lastRefreshedAt": "2026-10-23 08:32 CST",
-      "lastChecked": "2026-11-07 20:46 CST",
+      "lastChecked": "2026-11-07 23:11 CST",
       "followers": 35666,
       "updatedAt": "2026-11-05 04:58 CST"
     },
@@ -222413,10 +222454,10 @@
       "newThisRound": false,
       "firstSeen": "2026-11-07 14:56 CST",
       "addedAt": "2026-11-07 14:56 CST",
-      "lastChecked": "2026-11-07 14:56 CST",
-      "followers": 135,
-      "xFollowers": 135,
-      "whatsNew": "【本轮新R1385】自称 Elysium 原生链上硅晶圆厂（HYPE）；NAND/LATCH ERC-1155；foundry doors open；与库内 etape(@EtapeERC20)不同号；粉≈135。",
+      "lastChecked": "2026-11-07 23:11 CST",
+      "followers": 137,
+      "xFollowers": 137,
+      "whatsNew": "【R1411】foundry 今日 17:00 UTC(=11/8 01:00CST) 开门；ETape LIVE 预热；≤2h",
       "summary": "Tape/电路向链上 foundry；自称 Enter_Elysium 原生但未核验 On testnet/Announced 部署 → 归 Tape/电路栏。",
       "blurb": "ETape 链上电路 foundry @ElysTape，与 etape 不同号。",
       "highlights": [
@@ -222455,9 +222496,11 @@
       "schedule": {
         "status": "announced",
         "timezone": "Asia/Shanghai",
-        "note": "foundry doors open 官宣；未核验 testnet/合约；勿标 Elysium栏",
-        "le2h": false,
-        "source": "https://x.com/ElysTape/status/2118955513736221170"
+        "opensAt": "2026-11-08 01:00 CST",
+        "startsAt": "2026-11-08T01:00:00+08:00",
+        "note": "foundry opens 17:00 UTC；自称 Elysium 原生硅晶圆厂；未核验合约→Tape/电路栏",
+        "le2h": true,
+        "source": "https://x.com/ElysTape/status/2119084509555794043"
       },
       "source": "x-kw"
     },
@@ -223543,28 +223586,131 @@
       "whatsNew": "【本轮新R1409】@husherdotfun Solana×Monero 隐私发射台 LIVE；$HUSH 私池上线。",
       "lastChecked": "2026-11-07 22:26 CST",
       "followers": 137
+    },
+    {
+      "id": "deadhood",
+      "name": "Dead Hood",
+      "handle": "@DeadHood_nft",
+      "twitter": "@DeadHood_nft",
+      "round": 1411,
+      "status": "announced",
+      "zone": "台子/Meme",
+      "category": "台子/Meme",
+      "ecosystem": "Robinhood",
+      "chain": "Robinhood Chain",
+      "focus": false,
+      "newThisRound": true,
+      "score": 58,
+      "followers": 1298,
+      "xFollowers": 1298,
+      "tags": [
+        "NFT",
+        "Robinhood Chain",
+        "5555",
+        "OpenSea",
+        "童年怀旧",
+        "R1411",
+        "台子/Meme",
+        "极早期"
+      ],
+      "links": {
+        "x": "https://x.com/DeadHood_nft",
+        "twitter": "https://x.com/DeadHood_nft",
+        "web": "https://deadhood.fun",
+        "signal": "https://x.com/DeadHood_nft/status/2118396723253158207"
+      },
+      "schedule": {
+        "status": "announced",
+        "timezone": "Asia/Shanghai",
+        "note": "5555 DeadHood mint 名额预热；RH Chain；OpenSea 计划；时刻 TBD",
+        "le2h": false,
+        "source": "https://x.com/DeadHood_nft/status/2118396723253158207"
+      },
+      "highlights": [
+        "公布 5555 个 DeadHood 铸造名额，部署在 Robinhood Chain 上",
+        "deadhood.fun 落地页已上线，有具体产品入口",
+        "计划上线 OpenSea 二级市场，IP 走童年怀旧梗路线"
+      ],
+      "drawbacks": [
+        "Robinhood Chain 生态极新，买盘与流动性高度不确定",
+        "账号 2026-10-31 新建，团队与合约信息均未披露",
+        "粉丝仅 1298，社区厚度不足，易成一次性 mint"
+      ],
+      "whatsNew": "【本轮新R1411】@DeadHood_nft RH 链 5555 NFT 预热；deadhood.fun 名额页上线；粉破 1k。",
+      "firstSeen": "2026-11-07 23:11 CST",
+      "addedAt": "2026-11-07 23:11 CST",
+      "lastChecked": "2026-11-07 23:11 CST",
+      "updatedAt": "2026-11-07 23:11 CST"
+    },
+    {
+      "id": "getelysiumpass",
+      "name": "Elysium Pass",
+      "handle": "@Getelysiumpass",
+      "twitter": "@Getelysiumpass",
+      "round": 1411,
+      "status": "announced",
+      "zone": "台子/Meme",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "focus": false,
+      "newThisRound": true,
+      "score": 40,
+      "followers": 262,
+      "xFollowers": 262,
+      "tags": [
+        "Elysium仿盘",
+        "8888 NFT",
+        "社区项目",
+        "非官方",
+        "R1411",
+        "台子/Meme",
+        "极早期"
+      ],
+      "links": {
+        "x": "https://x.com/Getelysiumpass",
+        "twitter": "https://x.com/Getelysiumpass",
+        "signal": "https://x.com/Getelysiumpass/status/2119082612002320531"
+      },
+      "schedule": {
+        "status": "announced",
+        "timezone": "Asia/Shanghai",
+        "note": "8888 genesis mascot pass coming soon；自述非官方；时刻 TBD",
+        "le2h": false,
+        "source": "https://x.com/Getelysiumpass/status/2119082612002320531"
+      },
+      "highlights": [
+        "宣布 8888 枚 mascot genesis pass 即将发行",
+        "已开始公开征集 EVM 钱包地址",
+        "bio 明确写明独立社区、与 Enter_Elysium 无关联"
+      ],
+      "drawbacks": [
+        "全号仅 2 条推文，信息密度极低",
+        "无合约、无官网、无明确发行时间",
+        "借用 Elysium 名称，存在蹭热度与仿盘风险"
+      ],
+      "whatsNew": "【本轮新R1411】@Getelysiumpass 自称 Elysium 社区 mascot 8888 pass 预热（未核验→台子/Meme）。",
+      "firstSeen": "2026-11-07 23:11 CST",
+      "addedAt": "2026-11-07 23:11 CST",
+      "lastChecked": "2026-11-07 23:11 CST",
+      "updatedAt": "2026-11-07 23:11 CST"
     }
   ],
   "newThisRound": [
-    "zobotrush",
-    "blesseddotfun",
-    "kronospad",
-    "enverseworld",
-    "useadyros",
-    "bidmemees"
+    "deadhood",
+    "getelysiumpass"
   ],
-  "alertMessage": "DC补漏R1410新收6个（台子/Meme为主：Zobot Rush、blessed、kronos等）；https://reboot7454.github.io/early-scout/",
+  "alertMessage": "R1411 预警：pocketpad 11/8 00:00CST 公售≤1h，mintPhase=0 mintOpen仍关；elys-tape foundry 01:00CST ≤2h；elysium.meme gates LIVE + $CNINE；mortal-apes/hopkinagent/oil-hood LIVE；新收 deadhood/getelysiumpass。详情 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "clankdexer",
     "husher"
   ],
-  "updatedAt": "2026-11-07 22:39 CST",
-  "updated": "2026-11-07 22:39 CST",
+  "updatedAt": "2026-11-07 23:11 CST",
+  "updated": "2026-11-07 23:11 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-07 22:39 CST",
+  "lastScout": "2026-11-07 23:11 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -223606,7 +223752,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3242,
+  "candidateCount": 3244,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -223638,9 +223784,8 @@
     "simpla-fun"
   ],
   "le2h": [
-    "mortal-apes",
-    "elysium-meme",
-    "hopkinagent"
+    "pocketpad",
+    "elys-tape"
   ],
   "round385Added": [
     "kol-brain"
@@ -223826,7 +223971,7 @@
     "blue-sky",
     "moonero"
   ],
-  "round": 1398,
+  "round": 1411,
   "round493Added": [
     "catalyst-labs-x"
   ],
@@ -223913,12 +224058,15 @@
   "round568Added": [
     "gantryfun"
   ],
-  "whatsNew": "R1390：新收 Final Days + Barbarian NFT；oil-hood 19:00 / elysium.meme 23:00 / pocketpad 11/8 00:00 / primate GTD 11/8 05:00 续。",
-  "summary": "R1390 UF993→1007; admits final-days+barbarian-nft; schedules续; discordPeekDeferred",
+  "whatsNew": "R1411：新收 deadhood/getelysiumpass；pocketpad≤1h mintPhase=0；elysium gates LIVE；$CNINE；elys-tape foundry≤2h",
+  "summary": "R1411：新收 deadhood/getelysiumpass；pocketpad≤1h mintPhase=0；elysium gates LIVE；$CNINE；elys-tape foundry≤2h",
   "round570Added": [
     "billion-pages"
   ],
-  "within2h": [],
+  "within2h": [
+    "pocketpad",
+    "elys-tape"
+  ],
   "round572Added": [],
   "round575Added": [
     "orbit-launch-rh"
@@ -223950,12 +224098,7 @@
     "bitpaws"
   ],
   "round605Added": [],
-  "coverage": {
-    "tenLanes": true,
-    "mentionsChains": "thin deferred under softCap (UF+must+KW prioritized; lanes via KW)",
-    "ufSlice": "1007→1025",
-    "discordPeekDeferred": true
-  },
+  "coverage": "UF18→28 + must/LIVE/≤2h + 3KW + softDebt",
   "round614Added": [
     "z0mbit"
   ],
@@ -224077,7 +224220,7 @@
     "beam-rh",
     "grand-meme-bazaar"
   ],
-  "xReads": 19,
+  "xReads": 23,
   "round666Added": [
     "ro-arena-rh"
   ],
@@ -224934,8 +225077,8 @@
   "round881Added": [],
   "round882Added": [],
   "round883Added": [],
-  "xReadsRemaining": 663,
-  "xRemaining": 556,
+  "xReadsRemaining": 405,
+  "xRemaining": 405,
   "xResetAtCST": "2026-11-06 08:00 CST",
   "userFollowDone": true,
   "round884Added": [],
@@ -225285,7 +225428,7 @@
   "round1000Added": [
     "bsc-ququ"
   ],
-  "notifyReason": "none",
+  "notifyReason": "le2h_pocketpad + le2h_elys-tape + LIVE_elysium/mortal/hopkin/oil + new_admits",
   "round1001Added": [
     "usetrenchscope",
     "moonfall-bnb",
@@ -226232,5 +226375,9 @@
     "enverseworld",
     "useadyros",
     "bidmemees"
+  ],
+  "round1411Added": [
+    "deadhood",
+    "getelysiumpass"
   ]
 }
