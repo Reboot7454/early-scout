@@ -1,0 +1,115 @@
+{
+  "round": 1381,
+  "completedAt": "2026-11-07 13:45 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新增 Pocket AI（@Agentic_Pocket）FREE mint LIVE、Gloop（@GloopSlimeHQ）预告；今日关注 oil-hood 19:00、elysium.meme 23:00，明日 pocketpad 00:00，面板：https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "agentic-pocket",
+    "gloop-slime"
+  ],
+  "newThisRound": [
+    "agentic-pocket",
+    "gloop-slime"
+  ],
+  "newCount": 2,
+  "newAdmits": [
+    "agentic-pocket",
+    "gloop-slime"
+  ],
+  "admissions": [
+    {
+      "id": "agentic-pocket",
+      "handle": "@Agentic_Pocket",
+      "category": "打新",
+      "name": "Pocket AI",
+      "oneLiner": "BNB Agent ID FREE mint LIVE，5555 供极早期。"
+    },
+    {
+      "id": "gloop-slime",
+      "handle": "@GloopSlimeHQ",
+      "category": "打新",
+      "name": "Gloop",
+      "oneLiner": "BNB Agent ID 3333 FREE mint 预告，公告soon。"
+    }
+  ],
+  "discordPeekDeferred": true,
+  "discordPeekReason": "executor no browser; keep cutoffs from R1380 alpha-1 12:55 / backup 12:34 / smart 13:08 / alpha-3 13:15",
+  "suggestedCutoffs": {
+    "alpha-1": "12:55",
+    "backup": "12:34",
+    "smart": "13:08",
+    "alpha-3": "13:15"
+  },
+  "dsFallback": false,
+  "dsNote": "admit agentic-pocket + gloop-slime；score gloop overall45但admit窗通过；fungopet NF skip；UF shard 全在库软刷",
+  "dsUsage": "deepseek-flash admit=2pass/0skip; score=2; alert=1",
+  "tenLanes": true,
+  "tenLanesCoverage": "UF shard 923→937 + must(Oil_Hood/pocketpad/Elysium_meme/Enter_Elysium/TapeAI/usealchemist/souls/Applecat/pipopad/Skitters/nekart/Hood_Junkies/HOA) + LIVE soft + soft BTC/Starknet/GIWA/Doge + 3 merged KW; discordPeekDeferred",
+  "tenLanesBrief": {
+    "打新": "新收 agentic-pocket LIVE + gloop-slime 预告；nekart/alchemister/apple-cat/the-unwritten LIVE续",
+    "挖矿": "TapeAI 质押3178+ APR 11/8；squeekchain soft；HashDoge等停",
+    "台子/Meme": "oil-hood今日19:00；pocketpad 11/8 00:00；elysium.meme今日23:00；pipopad LIVE",
+    "GO盘": "KW soft; no new",
+    "LayerZero": "soft-debt; no new",
+    "Elysium": "Enter_Elysium Zerion/Uniswap hooks；souls/skitters/pipopad续；硬排除perpme等",
+    "Tape/电路": "TapeAI APR 11/8 续；Blonskr soft",
+    "GIWA": "Ammora/JoseonFun/pabalx KW soft",
+    "DogeEVM": "DogeOSExchange/Monko soft",
+    "BTC": "ShieldedNaka soft-debt",
+    "Starknet": "Bramble_fi soft; no new mint"
+  },
+  "xQuota": {
+    "remainingBefore": 789,
+    "remaining": 763,
+    "xReads": 26,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 937,
+    "checkedAt": "2026-11-07 13:45 CST",
+    "note": "softCap28; under cap"
+  },
+  "ufCursor": {
+    "from": 923,
+    "to": 937
+  },
+  "ufNF": [
+    "fungopet"
+  ],
+  "le2h": [],
+  "liveContinue": [
+    "nekart",
+    "alchemister",
+    "souls-elysium",
+    "apple-cat",
+    "pipopad",
+    "the-unwritten",
+    "tapeai",
+    "agentic-pocket"
+  ],
+  "upcoming": {
+    "oil-hood": "2026-11-07 19:00 CST",
+    "elysium-meme": "2026-11-07 23:00 CST",
+    "pocketpad": "2026-11-08 00:00 CST",
+    "tapeai-apr": "2026-11-08 00:00 CST",
+    "elywizardz": "2026-11-09",
+    "skitters": "2026-11-09",
+    "elysium-mainnet": "2026-11-09",
+    "hood-junkies": "2026-11-11"
+  },
+  "skipped": [
+    {
+      "id": "fungopet",
+      "reason": "X handle Not Found this round; card kept; no NF spam"
+    },
+    {
+      "id": "HashDoge/Genius/Corla/Flap",
+      "reason": "STOPPED — do not restart"
+    }
+  ],
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "summary": "R1381: UF 923→937; admit agentic-pocket+gloop-slime; oil-hood 19:00/elysium.meme 23:00/pocketpad 11/8 00:00 续; discordPeekDeferred; docsSynced"
+}
