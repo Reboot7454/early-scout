@@ -1,0 +1,12 @@
+cards=42 unique=36 keep=34 pre_reject=0 already=2
+DS batch 0 n=9
+  got 9 decisions in 20.8s
+DS batch 1 n=9
+  got 9 decisions in 25.5s
+DS batch 2 n=9
+  got 9 decisions in 15.5s
+DS batch 3 n=7
+  got 7 decisions in 27.5s
+admits=5 ds_rejects=29 pre_rejects=0
+APPLY {"round": 1423, "newIds": ["moonbuttcoin", "elyxir-fun", "minosfun", "elyscribe", "trench-radar"], "cleared": ["play-pixelora"], "result": "/workspace/early-scout/ROUND1423_RESULT.json", "summary": "R1423：Discord alpha 补收 moonbuttcoin,elyxir-fun,minosfun,elyscribe,trench-radar；清 play-pixelora；lastSeen→2026-11-08 02:40；lastChecked→2026-11-08 02:46 CST"}
+{"ok": true, "round": 1423, "notify": true, "newIds": ["moonbuttcoin", "elyxir-fun", "minosfun", "elyscribe", "trench-radar"], "alert": "DC补漏R1423新收5个：MOONBUTT($BUTT)、Elyxir、Minos、Ely inscribe、Trench Radar；面板 https://reboot7454.github.io/early-scout/", "lastSeenByChannel": {"alpha-3-new-accounts": "2026-11-08 02:39", "alpha-1-backup": "2026-11-08 02:04", "smart-accounts-tracker": "2026-11-08 02:03", "alpha-1": "2026-11-08 02:40"}, "ds_usage": {"calls": 5, "prompt_tokens": 8136, "completion_tokens": 15735}, "result": "/workspace/early-scout/ROUND1423_RESULT.json", "ts": "20261108_0245"}
