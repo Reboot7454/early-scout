@@ -10,4 +10,4 @@
 - docsSynced: true
 - dsFallback: false；deepseek-flash admit+score+alert
 - alert: 新增可操作：Morpha.ai BNB AgentID 免费首枚 LIVE ~908/70k；Pixel Bubu Base 250 免费 mint LIVE；Mortal Apes ETH 免费 mint 2222 今日21:30 CST（改点≤2h）。面板：https://reboot7454.github.io/early-scout/
-- pushSha: (pending)
+- pushSha: e9da768ed252874244f7fb84f417613bbe9c6198
