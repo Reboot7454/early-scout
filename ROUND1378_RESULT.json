@@ -1,7 +1,7 @@
 {
   "round": 1378,
   "mode": "discord-alpha-40",
-  "completedAt": "2026-11-07 12:40 CST",
+  "completedAt": "2026-11-07 12:41 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
   "notifyReason": "new_admits",
@@ -42,11 +42,14 @@
   },
   "push": {
     "attempted": true,
-    "ok": false
+    "ok": true,
+    "sha": "4af96aa82f2769f4477663829c0859a45fd92950",
+    "short": "4af96aa",
+    "remote": "origin/main"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1378：Discord alpha 补收 minetoraxyz,tryelysion（minetoraxyz 自称Elysium未核验→挖矿）；合并保留 R1377 the-unwritten；清 无；lastSeen→2026-11-07 12:34；lastChecked→2026-11-07 12:40 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1377.json",
   "priorRoundNote": "Merged after collision: remote R1377 was web radar (the-unwritten); DC补漏 renumbered to R1378",
   "lastSeenByChannel": {
@@ -131,5 +134,6 @@
     }
   ],
   "rejectedCount": 13,
-  "dsRejects": 13
+  "dsRejects": 13,
+  "pushSha": "4af96aa"
 }
