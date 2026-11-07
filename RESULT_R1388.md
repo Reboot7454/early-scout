@@ -42,6 +42,6 @@
 ## tenLanes
 UF shard 979→993 + must(Oil_Hood/pocketpad/Elysium_meme/Enter_Elysium/TapeAI/PrimateLegends/Skitters/Hood_Junkies/squeek) + 3 merged KW（fair mint/agent｜LZ/Elysium/Tape/GIWA/DogeOS｜BTC/Stark soft）；discordPeekDeferred；十栏等量覆盖
 
-- pushSha: (pending)
-- remoteVerified: (pending)
-- tip: (pending)
+- pushSha: 04326dc
+- remoteVerified: true
+- tip: 04326dc
