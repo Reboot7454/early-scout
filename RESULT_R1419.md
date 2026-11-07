@@ -10,7 +10,7 @@
 - watches: pocketpad Public≈02:00CST allowlist延 minted=502 public仍关；elys-tape foundry LIVE；mortal mint out；hopkin/oil/elysium/bitrush LIVE；primate GTD 05:00；HashDoge/Genius/Corla/Flap STOPPED
 - raceNote: 父派 R1418 X-radar，但 CU 已抢占 R1418 Discord→本轮升为 R1419
 - docsSynced: true
-- pushSha: PENDING
-- tip: PENDING
+- pushSha: d5249239a65ca9075a12d4167a115e18f52a9e3a
+- tip: d5249239a65ca9075a12d4167a115e18f52a9e3a
 - dsFallback: false；deepseek-flash whatsNew+alert（admit空）
 - alert: 预警：pocketpad Public≈02:00CST（≤2h）minted~502/2500；elys-tape Foundry 已LIVE；mortal mint out；primate GTD 05:00；面板 https://reboot7454.github.io/early-scout/
