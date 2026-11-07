@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-07 21:58 CST",
+    "updated": "2026-11-07 22:07 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R1359",
-    "lastScout": "2026-11-07 21:58 CST",
+    "lastScout": "2026-11-07 22:06 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -692,7 +692,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1407,
+    "round": 1408,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2093,8 +2093,12 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "hood-buddies",
-      "umbra-perps"
+      "aelynt",
+      "spindrift",
+      "trybubl",
+      "chaindual",
+      "bideliqudity",
+      "medousa"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4489,19 +4493,20 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-11-07 21:16",
-      "lastChecked": "2026-11-07 21:58 CST",
-      "newestCardTime": "2026-11-07 21:16",
-      "cardsAfterCutoff": 30,
-      "note": "R1407：executor 无 computerUse；Discord Peek deferred；cutoffs inherit lastSeenByChannel",
-      "lastRound": 1406,
+      "deferred": false,
+      "lastSeen": "2026-11-07 21:58",
+      "lastChecked": "2026-11-07 22:06 CST",
+      "newestCardTime": "2026-11-07 21:58",
+      "cardsAfterCutoff": 63,
+      "note": "R1408：Discord alpha 补收 aelynt,spindrift,trybubl,chaindual,bideliqudity,medousa；清 hood-buddies,umbra-perps；lastSeen→2026-11-07 21:58；lastChecked→2026-11-07 22:06 CST；gapIncomplete=true（alpha-3 capped 47→40）",
+      "lastRound": 1408,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-07 21:16",
-        "alpha-1-backup": "2026-11-07 21:04",
-        "smart-accounts-tracker": "2026-11-07 19:30",
-        "alpha-1": "2026-11-07 21:12"
-      }
+        "alpha-3-new-accounts": "2026-11-07 21:58",
+        "alpha-1-backup": "2026-11-07 21:35",
+        "smart-accounts-tracker": "2026-11-07 21:35",
+        "alpha-1": "2026-11-07 21:52"
+      },
+      "gapIncomplete": true
     },
     "round239Added": [
       "tsunamilaunch",
@@ -26149,9 +26154,283 @@
     "round1407Added": [
       "hood-buddies",
       "umbra-perps"
+    ],
+    "round1408Added": [
+      "aelynt",
+      "spindrift",
+      "trybubl",
+      "chaindual",
+      "bideliqudity",
+      "medousa"
     ]
   },
   "candidates": [
+    {
+      "id": "medousa",
+      "name": "medousa",
+      "handle": "@medousafun",
+      "twitter": "@medousafun",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/medousafun"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 5,
+        "overall": 5.5
+      },
+      "highlights": [
+        "bio直指Elysium代币发射场景",
+        "粉丝/关注比健康(522/5)"
+      ],
+      "drawbacks": [
+        "未见官网或测试网公告",
+        "产品细节缺失"
+      ],
+      "whatsNew": "出现Elysium生态代币发射相关账号",
+      "summary": "以'Launch tokens on @Enter_Elysium'为简介的新项目号，具发射台属性但缺具体部署信息。",
+      "blurb": "Elysium发射台早期线索，先观察验证。",
+      "round": 1408,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 522,
+      "xFollowers": 522,
+      "firstSeen": "2026-11-07 22:06 CST",
+      "addedAt": "2026-11-07 22:06 CST",
+      "lastChecked": "2026-11-07 22:06 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "bideliqudity",
+      "name": "Bide",
+      "handle": "@bideliqudity",
+      "twitter": "@bideliqudity",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "自称Elysium未核验"
+      ],
+      "links": {
+        "x": "https://x.com/bideliqudity"
+      },
+      "scores": {
+        "early": 5,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 3,
+        "overall": 4.3
+      },
+      "highlights": [
+        "Elysium 上的 AMM，主打 LP 留存激励",
+        "LP 费用分成随时间从 1x 升至 3x"
+      ],
+      "drawbacks": [
+        "0 粉丝、无官网/文档链接",
+        "账号拼写疑似 typo，部署进度未明示"
+      ],
+      "whatsNew": "新关注 @Enter_Elysium，卡片简介显示为 Elysium 上的 AMM（自称Elysium未核验→台子/Meme）",
+      "summary": "Bide 是 Elysium 上的 AMM，核心玩法为 LP 留存越久费用分成越高；账号极新但产品机制具体。",
+      "blurb": "Elysium 上 AMM，LP 费用分成递增；自称Elysium未核验已降台子/Meme",
+      "round": 1408,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-07 22:06 CST",
+      "addedAt": "2026-11-07 22:06 CST",
+      "lastChecked": "2026-11-07 22:06 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "chaindual",
+      "name": "DUAL",
+      "handle": "@chaindual",
+      "twitter": "@chaindual",
+      "chain": "Robinhood Chain/Solana",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/chaindual"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 6.6
+      },
+      "highlights": [
+        "一次发射同时部署Robinhood Chain与Solana",
+        "自带单桥跨链"
+      ],
+      "drawbacks": [
+        "粉丝极少",
+        "尚无产品落地证据"
+      ],
+      "whatsNew": "提出双链一次发射+内置跨链桥的发币模式",
+      "summary": "DUAL主打一枚币同时在Robinhood Chain与Solana发射并以单一桥连接，属早期发射玩法项目。",
+      "blurb": "双链一次发射+单桥。",
+      "round": 1408,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-07 22:06 CST",
+      "addedAt": "2026-11-07 22:06 CST",
+      "lastChecked": "2026-11-07 22:06 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "trybubl",
+      "name": "Bubl",
+      "handle": "@trybubl",
+      "twitter": "@trybubl",
+      "chain": "多链",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/TryBubl"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 6.6
+      },
+      "highlights": [
+        "可发币并任意配对ETH/BTC/股票/pump.fun币"
+      ],
+      "drawbacks": [
+        "粉丝极少",
+        "尚无产品界面证据",
+        "可能为概念阶段"
+      ],
+      "whatsNew": "提出任意资产配对发币的发射玩法",
+      "summary": "Bubl宣称支持发币时与ETH、BTC、股票或pump.fun币配对，属早期发射台概念。",
+      "blurb": "任意资产配对的早期发射台。",
+      "round": 1408,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 2,
+      "xFollowers": 2,
+      "firstSeen": "2026-11-07 22:06 CST",
+      "addedAt": "2026-11-07 22:06 CST",
+      "lastChecked": "2026-11-07 22:06 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "spindrift",
+      "name": "CROSSING",
+      "handle": "@spindrift_flap",
+      "twitter": "@spindrift_flap",
+      "chain": "BSC",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/spindrift_flap"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 3,
+        "overall": 5.0
+      },
+      "highlights": [
+        "明确自述为 Flap 生态做产品的独立技术团队",
+        "23 粉、关注 2，极早期且非 KOL 号"
+      ],
+      "drawbacks": [
+        "未点名具体产品与上线时间，bio 偏愿景",
+        "无可点进的产品链接或合约"
+      ],
+      "whatsNew": "新出现于 Flap 生态的工作室账号，主打图表内体验类产品",
+      "summary": "Spindrift 技术工作室的对外账号 CROSSING，宣称在 Flap（BSC meme 发射台）生态内自研产品，团队属性清晰但具体产品尚未披露，属可先挂观察的早期台子线索。",
+      "blurb": "Flap 生态自研工作室早期号，产品未公开",
+      "round": 1408,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 23,
+      "xFollowers": 23,
+      "firstSeen": "2026-11-07 22:06 CST",
+      "addedAt": "2026-11-07 22:06 CST",
+      "lastChecked": "2026-11-07 22:06 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "aelynt",
+      "name": "Aelynt",
+      "handle": "@aelyntlabs",
+      "twitter": "@aelyntlabs",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/aelyntlabs"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.0
+      },
+      "highlights": [
+        "bio 直接给出玩法：虚拟挖矿 + 每日挑战 + Flux",
+        "独立项目推特、26 粉，处于极早期",
+        "挂靠 @Enter_Elysium 生态，具备叙事入口"
+      ],
+      "drawbacks": [
+        "未说明是否 On testnet/已公告部署，Elysium 归属未核验",
+        "除 X 外无官网/文档/合约等二级链接，可执行信息少"
+      ],
+      "whatsNew": "新近出现的 Elysium 生态虚拟挖矿项目号，首批披露玩法模块",
+      "summary": "Aelynt 自称构建在 Enter_Elysium 上的虚拟挖矿项目，bio 列出 Sessions、每日挑战与 Flux 三个玩法要素，账号极新且粉丝极少。玩法线索具体但缺部署状态与文档，按未核验处理归入台子/Meme。",
+      "blurb": "Elysium 生态虚拟挖矿玩法早期号，玩法明确、部署未核验",
+      "round": 1408,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 26,
+      "xFollowers": 26,
+      "firstSeen": "2026-11-07 22:06 CST",
+      "addedAt": "2026-11-07 22:06 CST",
+      "lastChecked": "2026-11-07 22:06 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "elysium-club",
       "name": "Elysium Club",
@@ -222797,7 +223076,7 @@
       "zone": "打新",
       "ecosystem": "",
       "focus": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "score": 58,
       "tags": [
         "RH",
@@ -222842,7 +223121,7 @@
       "zone": "台子/Meme",
       "ecosystem": "",
       "focus": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "score": 44,
       "tags": [
         "privacy",
@@ -222883,24 +223162,24 @@
     }
   ],
   "newThisRound": [
-    "moltworldwif",
-    "usetracer-app",
-    "orbit-elysium",
-    "keyfomcp",
-    "folioterminal",
-    "untoll"
+    "aelynt",
+    "spindrift",
+    "trybubl",
+    "chaindual",
+    "bideliqudity",
+    "medousa"
   ],
-  "alertMessage": "DC补漏R1406新收6：Moltworld(台子/Meme)、TRACER(台子/Meme)、Orbit Liquidity | Elysium(台子/Meme)、keyfo/mcp(台子/Meme)、Folio(台子/Meme)、UNTOLL(台子/Meme)；自称Elysium未核验已归台子/Meme；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1408新收6：Aelynt(台子/Meme)、CROSSING(台子/Meme)、Bubl(台子/Meme)、DUAL(打新)、Bide(台子/Meme)、medousa(台子/Meme)；自称Elysium未核验已归台子/Meme；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "abyssora"
   ],
-  "updatedAt": "2026-11-07 20:50 CST",
-  "updated": "2026-11-07 20:50 CST",
+  "updatedAt": "2026-11-07 22:06 CST",
+  "updated": "2026-11-07 22:06 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-07 20:50 CST",
+  "lastScout": "2026-11-07 22:06 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -222942,7 +223221,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3217,
+  "candidateCount": 3234,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -225547,5 +225826,13 @@
     "perch-lp",
     "sleeveapp",
     "elysium-club"
+  ],
+  "round1408Added": [
+    "aelynt",
+    "spindrift",
+    "trybubl",
+    "chaindual",
+    "bideliqudity",
+    "medousa"
   ]
 }
