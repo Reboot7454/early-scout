@@ -1,0 +1,93 @@
+{
+  "round": 1417,
+  "mode": "pace",
+  "modeBudget": "pace",
+  "completedAt": "2026-11-08 00:55 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+le2h",
+  "alertMessage": "新收 BitRush（BNB GPU PoW 挖BTCB 主网LIVE 粉~60）；pocketpad allowlist续 minted~428/2500 public仍关；elys-tape foundry 01:00CST≤2h；mortal/hopkin/oil/elysium LIVE；面板 https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "bitrush-btcb"
+  ],
+  "newCount": 1,
+  "newThisRound": [
+    "bitrush-btcb"
+  ],
+  "clearedPrevNewThisRound": [
+    "orecompute",
+    "larderhood",
+    "vyntrapad",
+    "fabledesk",
+    "cropytrade",
+    "elyhook",
+    "elytheia"
+  ],
+  "skipped": [
+    {
+      "id": "tryelypad",
+      "reason": "与 join-elypad/elypadotfun 高度重叠，testnet+pump CA 存疑，DS skip"
+    },
+    {
+      "id": "hoa-aiagent-dupcheck",
+      "reason": "已挂在 hoa-heart.links.xMining，刷新已有卡不新建"
+    },
+    {
+      "id": "blindfloor",
+      "reason": "UF NF — NF_skip"
+    },
+    {
+      "id": "blobsdotmeme",
+      "reason": "UF NF — NF_skip"
+    },
+    {
+      "id": "trytoprint",
+      "reason": "UF NF — NF_skip"
+    },
+    {
+      "id": "deadpacksol",
+      "reason": "UF suspended — NF_skip"
+    }
+  ],
+  "xReads": 22,
+  "remainingBefore": 357,
+  "remaining": 335,
+  "softCap": 23,
+  "ufCursor": 66,
+  "ufCursorBefore": 52,
+  "ufCursorAfter": 66,
+  "tenLanes": "打新｜挖矿｜台子/Meme｜GO盘｜LayerZero｜Elysium｜Tape/电路｜GIWA｜DogeEVM + BTC/Starknet soft",
+  "tenLanesNote": "UF52→66(14 resolve, NF4) + must/LIVE/≤2h posts + 3KW merged(+1 eco retry) + BitRush/ElyPad/HOA resolve+posts; admit bitrush-btcb",
+  "docsSynced": true,
+  "discordPeekDeferred": true,
+  "discordPeekCutoffs": {
+    "alpha-1": "2026-11-08 00:28",
+    "alpha-1-backup": "2026-11-07 23:49",
+    "smart-accounts-tracker": "2026-11-08 00:38",
+    "alpha-3-new-accounts": "2026-11-08 00:39"
+  },
+  "dsFallback": false,
+  "dsNote": "deepseek-flash admit+score+alert; admit bitrush-btcb; skip tryelypad(疑似重复)/hoa-aiagent(挂已有卡)",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1417：新收 bitrush-btcb；pocketpad minted 323→428 public仍关；elys-tape foundry≤2h；UF52→66；discordPeekDeferred；HashDoge/Genius/Corla/Flap STOPPED",
+  "tonight": [
+    "pocketpad allowlist LIVE mintPhase=1 minted~428/2500 public仍关",
+    "elys-tape foundry 01:00CST ≤2h",
+    "mortal/hopkin/oil/elysium.meme LIVE",
+    "primate GTD 05:00CST",
+    "bitrush-btcb LIVE 新收"
+  ],
+  "stopped": "HashDoge/Genius/Corla/Flap STOPPED",
+  "pocketpad": {
+    "mintPhase": 1,
+    "mintOpen": true,
+    "allowlistOpen": true,
+    "publicOpen": false,
+    "minted": 428,
+    "maxSupply": 2500,
+    "saleLeft": 2072,
+    "ca": "0x3a98de41a0df554f6b69ca1b5a1ad93a745ab1f2"
+  },
+  "pushSha": null,
+  "tip": null
+}
