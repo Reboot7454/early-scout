@@ -53,12 +53,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "68ca274c0ef6b4b88335c2bae10491d1a0604a6a",
+    "short": "68ca274"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1429：Discord alpha 补收 launchontide,grandcityx,proofbeat,ostrakonelysium,moneroanon,sendu；清 bankrbot；lastSeen→2026-11-08 04:35；lastChecked→2026-11-08 04:43 CST；自称Elysium未核验已降栏：grandcityx,ostrakonelysium,sendu",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1429.json",
   "priorRoundNote": "R1428 meta NTR ['bankrbot']; cardsAfterCutoff=39",
   "lastSeenByChannel": {
@@ -203,5 +205,7 @@
     "grandcityx",
     "ostrakonelysium",
     "sendu"
-  ]
+  ],
+  "pushSha": "68ca274",
+  "docsSynced": true
 }
