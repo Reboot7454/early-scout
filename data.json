@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-07 21:20 CST",
+    "updated": "2026-11-07 21:22 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R1359",
@@ -692,7 +692,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1405,
+    "round": 1406,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -769,7 +769,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 3188,
+    "candidateCount": 3226,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -2093,9 +2093,12 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "poagi",
-      "elysium-workers",
-      "rcpu"
+      "moltworldwif",
+      "usetracer-app",
+      "orbit-elysium",
+      "keyfomcp",
+      "folioterminal",
+      "untoll"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4490,18 +4493,18 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-11-07 20:43",
-      "lastChecked": "2026-11-07 20:50 CST",
-      "newestCardTime": "2026-11-07 20:43",
-      "cardsAfterCutoff": 42,
-      "note": "R1405：无浏览器 discordPeekDeferred；cutoffs inherit R1404",
-      "lastRound": 1404,
+      "deferred": false,
+      "lastSeen": "2026-11-07 21:16",
+      "lastChecked": "2026-11-07 21:22 CST",
+      "newestCardTime": "2026-11-07 21:16",
+      "cardsAfterCutoff": 30,
+      "note": "R1406：Discord alpha 补收 moltworldwif,usetracer-app,orbit-elysium,keyfomcp,folioterminal,untoll；清 poagi,elysium-workers,rcpu,playnebulanomad,floorbeasts,perch-lp,sleeveapp,elysium-club；lastSeen→2026-11-07 21:16；lastChecked→2026-11-07 21:22 CST",
+      "lastRound": 1406,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-07 20:43",
-        "alpha-1-backup": "2026-11-07 20:19",
+        "alpha-3-new-accounts": "2026-11-07 21:16",
+        "alpha-1-backup": "2026-11-07 21:04",
         "smart-accounts-tracker": "2026-11-07 19:30",
-        "alpha-1": "2026-11-07 20:37"
+        "alpha-1": "2026-11-07 21:12"
       }
     },
     "round239Added": [
@@ -6080,9 +6083,12 @@
       "r1318": "soft-refresh"
     },
     "roundNAdded": [
-      "poagi",
-      "elysium-workers",
-      "rcpu"
+      "moltworldwif",
+      "usetracer-app",
+      "orbit-elysium",
+      "keyfomcp",
+      "folioterminal",
+      "untoll"
     ],
     "round315Added": [
       "ink-identity",
@@ -26131,7 +26137,15 @@
       "DogeEVM": "KW软扫",
       "BTC": "新收rcpu；ShieldedNaka SHNAKAS市场开",
       "Starknet": "KW软扫 PQ迁移讨论"
-    }
+    },
+    "round1406Added": [
+      "moltworldwif",
+      "usetracer-app",
+      "orbit-elysium",
+      "keyfomcp",
+      "folioterminal",
+      "untoll"
+    ]
   },
   "candidates": [
     {
@@ -222351,7 +222365,7 @@
       "addedAt": "2026-11-07 21:20 CST",
       "lastChecked": "2026-11-07 21:20 CST",
       "updatedAt": "2026-11-07 21:20 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "source": "x-kw-tenLanes",
       "schedule": {
         "status": "LIVE",
@@ -222421,7 +222435,7 @@
       "addedAt": "2026-11-07 21:20 CST",
       "lastChecked": "2026-11-07 21:20 CST",
       "updatedAt": "2026-11-07 21:20 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "source": "x-kw-tenLanes",
       "schedule": {
         "status": "announced",
@@ -222490,7 +222504,7 @@
       "addedAt": "2026-11-07 21:20 CST",
       "lastChecked": "2026-11-07 21:20 CST",
       "updatedAt": "2026-11-07 21:20 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "source": "x-kw-tenLanes-btc",
       "schedule": {
         "status": "LIVE",
@@ -222499,16 +222513,285 @@
         "le2h": false,
         "source": "https://x.com/btc_rcpu/status/2119051473367826486"
       }
+    },
+    {
+      "id": "moltworldwif",
+      "name": "Moltworld",
+      "handle": "@moltworldwif",
+      "twitter": "@moltworldwif",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Moltworldwif"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.1
+      },
+      "highlights": [
+        "HTTP 402 请求计价",
+        "兼容钱包用 WIF 支付",
+        "部署在 Robinhood Chain"
+      ],
+      "drawbacks": [
+        "极早期",
+        "信息量少",
+        "未验证"
+      ],
+      "whatsNew": "新关注 @robinhoodcrypto，bio 披露 Moltworld 的 HTTP 402 计价与 WIF 支付机制。",
+      "summary": "极早期 Robinhood Chain 上以 WIF 支付的 HTTP 402 计价项目，有明确玩法线索。",
+      "blurb": "HTTP 402 + WIF 支付早期项目。",
+      "round": 1406,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 2,
+      "xFollowers": 2,
+      "firstSeen": "2026-11-07 21:20 CST",
+      "addedAt": "2026-11-07 21:20 CST",
+      "lastChecked": "2026-11-07 21:20 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "usetracer-app",
+      "name": "TRACER",
+      "handle": "@usetracer_app",
+      "twitter": "@usetracer_app",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/usetracer_app"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.1
+      },
+      "highlights": [
+        "检测代币 X 热度机器人占比",
+        "查询 dev 历史发射记录",
+        "提供来源报告"
+      ],
+      "drawbacks": [
+        "极早期",
+        "未验证效果"
+      ],
+      "whatsNew": "新关注 @ethereum，bio 披露 TRACER 可检测 X 热度机器人与 dev 历史。",
+      "summary": "极早期代币尽调工具，主打 X 热度机器人和 dev 历史查询。",
+      "blurb": "X 热度与 dev 历史检测工具。",
+      "round": 1406,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-07 21:20 CST",
+      "addedAt": "2026-11-07 21:20 CST",
+      "lastChecked": "2026-11-07 21:20 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "orbit-elysium",
+      "name": "Orbit Liquidity | Elysium",
+      "handle": "@orbit_elysium",
+      "twitter": "@orbit_elysium",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/orbit_elysium"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.1
+      },
+      "highlights": [
+        "Elysium 流动性层",
+        "集中流动性/自定义区间",
+        "随 Elysium 主网上线"
+      ],
+      "drawbacks": [
+        "极早期",
+        "未上线"
+      ],
+      "whatsNew": "新关注 @Enter_Elysium，bio 披露其流动性层将随 Elysium 主网上线。；自称Elysium未核验已归台子/Meme",
+      "summary": "Elysium 上的流动性层项目，明确随主网上线，属早期部署线索。",
+      "blurb": "Elysium 流动性层，待主网上线。",
+      "round": 1406,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 4,
+      "xFollowers": 4,
+      "firstSeen": "2026-11-07 21:20 CST",
+      "addedAt": "2026-11-07 21:20 CST",
+      "lastChecked": "2026-11-07 21:20 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "keyfomcp",
+      "name": "keyfo/mcp",
+      "handle": "@keyfomcp",
+      "twitter": "@keyfomcp",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/keyfomcp"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 6.5
+      },
+      "highlights": [
+        "Robinhood Chain 上的 AI agent 钥匙与 MCP 工具层",
+        "支持 300+ 模型统一接入"
+      ],
+      "drawbacks": [
+        "0 粉丝，还没有产品链接",
+        "新链的生态风险较高"
+      ],
+      "whatsNew": "以单一 key 为 AI agent 提供模型和 MCP 工具调用，覆盖股票代币场景。",
+      "summary": "Robinhood Chain 上的 AI agent 基础设施，定位清楚，但仍处于文字阶段。",
+      "blurb": "Robinhood Chain AI agent 钥匙层，早期值得关注。",
+      "round": 1406,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-07 21:20 CST",
+      "addedAt": "2026-11-07 21:20 CST",
+      "lastChecked": "2026-11-07 21:20 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "folioterminal",
+      "name": "Folio",
+      "handle": "@folioterminal",
+      "twitter": "@folioterminal",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/FolioTerminal"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 6,
+        "overall": 6.1
+      },
+      "highlights": [
+        "Robinhood Chain 生态终端：发现、追踪、分析、交易"
+      ],
+      "drawbacks": [
+        "终端赛道拥挤，差异不足",
+        "0 粉丝，没有官网链接"
+      ],
+      "whatsNew": "面向 Robinhood Chain 的聚合交易终端。",
+      "summary": "Robinhood Chain 生态的早期交易终端，玩法线索明确。",
+      "blurb": "Robinhood Chain 聚合终端，早期可关注。",
+      "round": 1406,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-07 21:20 CST",
+      "addedAt": "2026-11-07 21:20 CST",
+      "lastChecked": "2026-11-07 21:20 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "untoll",
+      "name": "UNTOLL",
+      "handle": "@untolling",
+      "twitter": "@untolling",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Untolling"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.0
+      },
+      "highlights": [
+        "自述Building on Elysium，部署意向明确",
+        "玩法清晰：一键发币+组crew，agent驱动",
+        "主打less rugs的发射台叙事"
+      ],
+      "drawbacks": [
+        "仍处概念期，无dApp/测试网链接",
+        "反rug口号需后续验证，agent叙事偏热词"
+      ],
+      "whatsNew": "Elysium上以agent运行的发币+组队发射台，宣称降低rug风险；自称Elysium未核验已归台子/Meme",
+      "summary": "UNTOLL是宣布构建在Elysium上的发射台，玩法为发币并组建crew、由agent运营，口号主打少rug多inference。粉丝67、极早期，有明确产品方向但尚无可用入口，可列入Elysium早期观察。",
+      "blurb": "Elysium上的agent驱动发币发射台，概念期可跟踪",
+      "round": 1406,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 67,
+      "xFollowers": 67,
+      "firstSeen": "2026-11-07 21:20 CST",
+      "addedAt": "2026-11-07 21:20 CST",
+      "lastChecked": "2026-11-07 21:20 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
     }
   ],
   "newThisRound": [
-    "playnebulanomad",
-    "floorbeasts",
-    "perch-lp",
-    "sleeveapp",
-    "elysium-club"
+    "moltworldwif",
+    "usetracer-app",
+    "orbit-elysium",
+    "keyfomcp",
+    "folioterminal",
+    "untoll"
   ],
-  "alertMessage": "DC补漏R1404新收5：Nebula Nomads(打新)、Floor Beasts(台子/Meme)、Perch(台子/Meme)、Sleeve(台子/Meme)、Elysium Club(台子/Meme)；自称Elysium未核验已归台子/Meme；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1406新收6：Moltworld(台子/Meme)、TRACER(台子/Meme)、Orbit Liquidity | Elysium(台子/Meme)、keyfo/mcp(台子/Meme)、Folio(台子/Meme)、UNTOLL(台子/Meme)；自称Elysium未核验已归台子/Meme；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "abyssora"
   ],
