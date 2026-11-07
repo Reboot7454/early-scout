@@ -1,0 +1,10 @@
+cards=39 unique=31 keep=26 pre_reject=2 already=3
+DS batch 0 n=9
+  got 9 decisions in 17.8s
+DS batch 1 n=9
+  got 9 decisions in 21.5s
+DS batch 2 n=8
+  got 8 decisions in 12.0s
+admits=6 ds_rejects=20 pre_rejects=2
+APPLY {"round": 1429, "newIds": ["launchontide", "grandcityx", "proofbeat", "ostrakonelysium", "moneroanon", "sendu"], "cleared": ["bankrbot"], "result": "/workspace/early-scout/ROUND1429_RESULT.json", "summary": "R1429：Discord alpha 补收 launchontide,grandcityx,proofbeat,ostrakonelysium,moneroanon,sendu；清 bankrbot；lastSeen→2026-11-08 04:35；lastChecked→2026-11-08 04:43 CST"}
+{"ok": true, "round": 1429, "notify": true, "newIds": ["launchontide", "grandcityx", "proofbeat", "ostrakonelysium", "moneroanon", "sendu"], "alert": "DC补漏R1429新收6个：tide、GrandCity、Proofbeat、Ostrakon、Moneroanon、Sendu；面板 https://reboot7454.github.io/early-scout/", "lastSeenByChannel": {"alpha-3-new-accounts": "2026-11-08 04:35", "alpha-1-backup": "2026-11-08 04:19", "smart-accounts-tracker": "2026-11-08 03:13", "alpha-1": "2026-11-08 04:19"}, "ds_usage": {"calls": 4, "prompt_tokens": 5928, "completion_tokens": 9116}, "result": "/workspace/early-scout/ROUND1429_RESULT.json", "ts": "20261108_0442"}
