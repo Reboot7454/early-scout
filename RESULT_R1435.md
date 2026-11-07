@@ -12,3 +12,6 @@
 - docsSynced: true
 - dsFallback: false；deepseek-flash alert（无admit本轮）
 - alert: 【R1435 打新雷达】PrimateLegends 公售 FCFS/PUBLIC 仍开窗，剩余≤2h 速看。Hopkin 3200/10000 LIVE；elys-tape、oil、elysium-meme、bitrush 均 LIVE。Erupt Nov9 FREE；Elympus Genesis 0.055HYPE，Day1 TBA；broisafreak GTD 11/9 01:00CST；eloscape 仅限白名单。面板 https://reboot7454.github.io/early-scout/
+
+- pushSha: de4be322b2f620fb160239d79b02b39740fa4053
+- tip: de4be322b2f620fb160239d79b02b39740fa4053
