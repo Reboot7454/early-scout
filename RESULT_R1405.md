@@ -11,4 +11,4 @@
 - docsSynced: true
 - dsFallback: false；deepseek-flash admit+score+refresh+alert
 - alert: R1405 预警：mortal-apes 免费 mint 21:30 CST，≤2h 未开优先；elysium.meme 23:00 CST，≤2h；新收录 poagi / elysium-workers / rcpu。详情 https://reboot7454.github.io/early-scout/
-- pushSha: (pending)
+- pushSha: df5c7ad88e9122dd9c2109960488f8a9701a9475
