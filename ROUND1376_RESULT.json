@@ -43,12 +43,15 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "8169ce4d91c297dac31cef0e8e6262bac7ff1efb",
+    "short": "8169ce4",
+    "remote": "origin/main"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1376：Discord alpha 补漏无新卡（#alpha-1 最新仍 2026-11-07 11:59）；清 agentcity-rh,oak-agent-kit,priors-trade；lastSeen 保持 2026-11-07 11:59，lastChecked→2026-11-07 12:04 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1375.json",
   "priorRoundNote": "R1375 meta NTR ['priors-trade', 'oak-agent-kit', 'agentcity-rh']; cardsAfterCutoff=29",
   "lastSeenByChannel": {
@@ -131,5 +134,6 @@
   "rejectedCount": 17,
   "dsRejects": 17,
   "admissions": [],
-  "alert": ""
+  "alert": "",
+  "pushSha": "8169ce4"
 }
