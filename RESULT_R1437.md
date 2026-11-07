@@ -11,3 +11,6 @@
 - softDebt: canton/glaze/tokenWorks (+tape/blonskr/starknet/btc) lastChecked brushed
 - docsSynced: true
 - dsFallback: false；deepseek-flash admit skip GenLayer；无新 admit 故无 alert
+
+- pushSha: 517b104bd64c669bdaaf5738fa2b215f3501f306
+- tip: 517b104bd64c669bdaaf5738fa2b215f3501f306
