@@ -9,7 +9,7 @@
 - discordPeekDeferred: true；cutoffs alpha-1 2026-11-08 00:28 / backup 2026-11-07 23:49 / smart 2026-11-08 00:38 / alpha-3 2026-11-08 00:39
 - watches: pocketpad allowlist LIVE mintPhase=1 minted=428 public仍关；elys-tape foundry≤2h；mortal/hopkin/oil/elysium LIVE；primate GTD 05:00；HashDoge/Genius/Corla/Flap STOPPED
 - docsSynced: true
-- pushSha: (pending)
-- tip: (pending)
+- pushSha: efef8024b84fd2189601d8bfca5b6f54fef007be
+- tip: efef8024b84fd2189601d8bfca5b6f54fef007be
 - dsFallback: false；deepseek-flash admit+score
 - alert: 新收 BitRush（BNB GPU PoW 挖BTCB 主网LIVE 粉~60）；pocketpad allowlist续 minted~428/2500 public仍关；elys-tape foundry 01:00CST≤2h；mortal/hopkin/oil/elysium LIVE；面板 https://reboot7454.github.io/early-scout/
