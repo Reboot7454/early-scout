@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-08 01:57 CST",
+    "updated": "2026-11-08 02:04 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R1413",
-    "lastScout": "2026-11-08 01:57 CST",
+    "lastScout": "2026-11-08 02:04 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -692,7 +692,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1420,
+    "round": 1421,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2093,7 +2093,10 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "fulcrum-elysium"
+      "sibyliqai",
+      "nolidotfamily",
+      "kibble",
+      "beta-index"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4500,18 +4503,18 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-11-08 01:22",
-      "lastChecked": "2026-11-08 01:27 CST",
-      "newestCardTime": "2026-11-08 01:22",
-      "cardsAfterCutoff": 46,
-      "note": "R1420：executor 无浏览器 Discord Peek → deferred；父代理补扫。cutoffs 沿用 R1418：alpha-1 01:04 / backup 00:49 / smart 01:11 / alpha-3 01:22",
-      "lastRound": 1418,
+      "deferred": false,
+      "lastSeen": "2026-11-08 01:57",
+      "lastChecked": "2026-11-08 02:04 CST",
+      "newestCardTime": "2026-11-08 01:57",
+      "cardsAfterCutoff": 36,
+      "note": "R1421：Discord alpha 补收 sibyliqai,nolidotfamily,kibble,beta-index；清 fulcrum-elysium；lastSeen→2026-11-08 01:57；lastChecked→2026-11-08 02:04 CST",
+      "lastRound": 1421,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-08 01:22",
+        "alpha-3-new-accounts": "2026-11-08 01:57",
         "alpha-1-backup": "2026-11-08 00:49",
-        "smart-accounts-tracker": "2026-11-08 01:11",
-        "alpha-1": "2026-11-08 01:04"
+        "smart-accounts-tracker": "2026-11-08 01:34",
+        "alpha-1": "2026-11-08 01:52"
       }
     },
     "round239Added": [
@@ -26319,9 +26322,199 @@
     "stoppedNote": "HashDoge/Genius/Corla/Flap STOPPED",
     "round1420Added": [
       "fulcrum-elysium"
+    ],
+    "round1421Added": [
+      "sibyliqai",
+      "nolidotfamily",
+      "kibble",
+      "beta-index"
     ]
   },
   "candidates": [
+    {
+      "id": "beta-index",
+      "name": "Beta",
+      "handle": "@betaindex",
+      "twitter": "@betaindex",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/betaindex"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 6.4
+      },
+      "highlights": [
+        "creator fee 自动买入顶级持有者代币并分润",
+        "Elysium 生态自指指数玩法"
+      ],
+      "drawbacks": [
+        "0 粉、无官网上线信息",
+        "团队匿名",
+        "自称Elysium未核验已降栏"
+      ],
+      "whatsNew": "上线 Elysium 的自指指数 BETA 及分润规则",
+      "summary": "部署于 Elysium 的自指指数：创作者费用于买入头部持有者代币并回馈合格持有者。",
+      "blurb": "Elysium 自指指数极早期项目",
+      "round": 1421,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-08 02:04 CST",
+      "addedAt": "2026-11-08 02:04 CST",
+      "lastChecked": "2026-11-08 02:04 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true,
+      "elysiumVerified": false
+    },
+    {
+      "id": "kibble",
+      "name": "Kibble",
+      "handle": "@kibbleleft",
+      "twitter": "@kibbleleft",
+      "chain": "",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/KibbleLeft"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.2
+      },
+      "highlights": [
+        "rig.power(hype)→share(block_reward) 机制描述具体",
+        "部署于 @Enter_Elysium 生态"
+      ],
+      "drawbacks": [
+        "仅 13 粉",
+        "团队与合约未披露",
+        "自称Elysium未核验已降栏"
+      ],
+      "whatsNew": "公开 rig.power 分润挖矿机制",
+      "summary": "Elysium 上以 rig.power 投入换取 block_reward 分成的早期挖矿项目。",
+      "blurb": "Elysium 挖矿分润极早期项目",
+      "round": 1421,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 13,
+      "xFollowers": 13,
+      "firstSeen": "2026-11-08 02:04 CST",
+      "addedAt": "2026-11-08 02:04 CST",
+      "lastChecked": "2026-11-08 02:04 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true,
+      "elysiumVerified": false
+    },
+    {
+      "id": "nolidotfamily",
+      "name": "NOLI | Robinhood Chain Launchpad",
+      "handle": "@nolidotfamily",
+      "twitter": "@nolidotfamily",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/nolidotfamily"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 5.7
+      },
+      "highlights": [
+        "Robinhood Chain 上面向 NFT 集合的代币发射台",
+        "交易手续费→回购 NFT 地板",
+        "raffle 或 burn 机制"
+      ],
+      "drawbacks": [
+        "coming soon 未上线",
+        "0 粉、无站点"
+      ],
+      "whatsNew": "Robinhood Chain 生态首个自述的 NFT 发射台玩法。",
+      "summary": "Robinhood Chain 上的 NFT 代币发射台，机制描述具体但尚未上线。",
+      "blurb": "Robinhood Chain NFT 发射台，等上线。",
+      "round": 1421,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-08 02:04 CST",
+      "addedAt": "2026-11-08 02:04 CST",
+      "lastChecked": "2026-11-08 02:04 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "sibyliqai",
+      "name": "Sibyliq",
+      "handle": "@sibyliqai",
+      "twitter": "@sibyliqai",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/sibyliqai"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 5.7
+      },
+      "highlights": [
+        "AI agent 发起 Ascend 代币、由市场裁决的玩法",
+        "自称已在 Elysium 上线"
+      ],
+      "drawbacks": [
+        "0 粉新号",
+        "无站点与文档佐证",
+        "部署未第三方核验",
+        "自称Elysium未核验已降栏"
+      ],
+      "whatsNew": "AI agent 驱动的代币发起与市场裁决机制，宣称已上线 Elysium。",
+      "summary": "Elysium 生态早期 AI agent 发币玩法项目，bio 给出具体机制与上线声明，但证据仅限自述。",
+      "blurb": "Elysium 上的 AI agent 发币玩法，待核验。",
+      "round": 1421,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-08 02:04 CST",
+      "addedAt": "2026-11-08 02:04 CST",
+      "lastChecked": "2026-11-08 02:04 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true,
+      "elysiumVerified": false
+    },
     {
       "id": "fulcrum-elysium",
       "name": "FULCRUM",
@@ -26345,7 +26538,7 @@
       },
       "focus": false,
       "round": 1420,
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "firstSeen": "2026-11-08 01:57 CST",
       "addedAt": "2026-11-08 01:57 CST",
@@ -224952,19 +225145,22 @@
     }
   ],
   "newThisRound": [
-    "fulcrum-elysium"
+    "sibyliqai",
+    "nolidotfamily",
+    "kibble",
+    "beta-index"
   ],
-  "alertMessage": "新增 fulcrum-elysium；elys-tape Foundry LIVE，hopkin/oil/bitrush LIVE；primate GTD 05:00CST、broisafreak GTD 11/9 01:00CST；pocketpad Public≈02:00CST（~768/2500，public仍关），mortal mint out。https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1421新收4项：Sibyliq、NOLI、Kibble、Beta；https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "fulcrum-elysium"
   ],
-  "updatedAt": "2026-11-08 01:57 CST",
-  "updated": "2026-11-08 01:57 CST",
+  "updatedAt": "2026-11-08 02:04 CST",
+  "updated": "2026-11-08 02:04 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-08 01:57 CST",
+  "lastScout": "2026-11-08 02:04 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -225006,7 +225202,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3268,
+  "candidateCount": 3272,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -227654,5 +227850,11 @@
     "use-v4ult-elysium",
     "elypad-fun",
     "elys-run"
+  ],
+  "round1421Added": [
+    "sibyliqai",
+    "nolidotfamily",
+    "kibble",
+    "beta-index"
   ]
 }
