@@ -43,12 +43,16 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "9d7639db5a6a03f99b30ad55c8d10c0af94277d9",
+    "short": "9d7639d",
+    "branch": "main",
+    "remote": "origin"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1436：Discord alpha 补收 shu-bao-cto,elysium-id,ascendrbot；lastSeen→2026-11-08 06:48；lastChecked→2026-11-08 06:53 CST；elysium-id 自称Elysium未核验已降栏",
-  "remoteVerified": false,
+  "remoteVerified": 1436,
   "cardsFile": "dc40_cards_r1435.json",
   "priorRoundNote": "R1435 meta NTR ['gikocat', 'torusmarkets', 'elyseapro', 'hobsdotfun']; cardsAfterCutoff=46",
   "lastSeenByChannel": {
@@ -231,5 +235,8 @@
   "alert": "DC补漏R1436新收3个：ShuBaoCto 曙宝、Elysium ID、Ascendr；面板 https://reboot7454.github.io/early-scout/",
   "elysiumDemoted": [
     "elysium-id"
-  ]
+  ],
+  "pushSha": "9d7639db5a6a03f99b30ad55c8d10c0af94277d9",
+  "docsSynced": true,
+  "docsSyncedNote": "sync_docs_panel.sh slim docs/data.json; raw.githubusercontent docs meta.round=1436"
 }
