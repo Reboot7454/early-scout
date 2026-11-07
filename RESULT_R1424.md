@@ -12,3 +12,6 @@
 - docsSynced: true
 - dsFallback: false；deepseek-flash score+alert（无新 admit）
 - alert: R1424：primate GTD≈05:00CST（≤2h）钱包补录将开；erupt Nov9 FREE；hopkin/elys-tape/oil/elysium/bitrush LIVE；无新收录。面板 https://reboot7454.github.io/early-scout/
+
+- pushSha: 7423f39dfcff7803fc10bed046fff38606737b02
+- tip: 7423f39dfcff7803fc10bed046fff38606737b02
