@@ -14,7 +14,7 @@
 - discordPeekDeferred: true (executor no browser; R1365 lastSeen 08:40 kept)
 - dsFallback: false
 - dsNote: elyscription admit; Tick_Agentic spam本地拒; WeZards无官推拒
-- docsSynced: (pending sync)
+- docsSynced: true
 - panel: https://reboot7454.github.io/early-scout/
 
 ## UPDATES
@@ -40,5 +40,5 @@
 ## tenLanes
 UF shard 800→817 + ≤2h/must + LIVE soft + soft watches + 4 merged KW；discordPeekDeferred；十栏等量覆盖
 
-- pushSha: (pending)
-- remoteVerified: (pending)
+- pushSha: e4b2c3da243c9357baa9c9cef25f0b1637cf6d23
+- remoteVerified: true
