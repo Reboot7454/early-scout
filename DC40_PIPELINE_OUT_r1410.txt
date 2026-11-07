@@ -1,0 +1,12 @@
+cards=41 unique=32 keep=29 pre_reject=1 already=2
+DS batch 0 n=9
+  got 9 decisions in 29.0s
+DS batch 1 n=9
+  got 9 decisions in 19.0s
+DS batch 2 n=9
+  got 9 decisions in 18.6s
+DS batch 3 n=2
+  got 2 decisions in 3.6s
+admits=6 ds_rejects=23 pre_rejects=1
+APPLY {"round": 1410, "newIds": ["zobotrush", "blesseddotfun", "kronospad", "enverseworld", "useadyros", "bidmemees"], "cleared": ["clankdexer", "husher"], "result": "/workspace/early-scout/ROUND1410_RESULT.json", "summary": "R1410：Discord alpha 补收 zobotrush,blesseddotfun,kronospad,enverseworld,useadyros,bidmemees；清 clankdexer,husher；lastSeen→2026-11-07 22:35；lastChecked→2026-11-07 22:39 CST"}
+{"ok": true, "round": 1410, "notify": true, "newIds": ["zobotrush", "blesseddotfun", "kronospad", "enverseworld", "useadyros", "bidmemees"], "alert": "DC补漏R1410新收6个（台子/Meme为主：Zobot Rush、blessed、kronos等）；https://reboot7454.github.io/early-scout/", "lastSeenByChannel": {"alpha-3-new-accounts": "2026-11-07 22:35", "alpha-1-backup": "2026-11-07 22:19", "smart-accounts-tracker": "2026-11-07 22:26", "alpha-1": "2026-11-07 22:21"}, "ds_usage": {"calls": 5, "prompt_tokens": 7540, "completion_tokens": 12465}, "result": "/workspace/early-scout/ROUND1410_RESULT.json", "ts": "20261107_2238"}
