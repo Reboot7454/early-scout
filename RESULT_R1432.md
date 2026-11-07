@@ -13,5 +13,5 @@
 - dsFallback: false；deepseek-flash admit+score+alert（noelyelysium demote 台子/Meme）
 - alert: R1432：新收 noelyelysium（自称Elysium发射台，0粉未核验降栏台子/Meme）；PrimateLegends MINT LIVE（≤2h）；hopkin/elys-tape/oil/elysium-meme/bitrush LIVE；erupt Nov9 FREE；broisafreak GTD 11/9 01:00CST。面板 https://reboot7454.github.io/early-scout/
 
-- pushSha: (pending)
-- tip: (pending)
+- pushSha: 218e80a36586b5cd9912769581837ece1eb20054
+- tip: 218e80a36586b5cd9912769581837ece1eb20054
