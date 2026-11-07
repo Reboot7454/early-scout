@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-08 04:55 CST",
+    "updated": "2026-11-08 05:22 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R1413",
-    "lastScout": "2026-11-08 04:55 CST",
+    "lastScout": "2026-11-08 05:22 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -693,7 +693,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1430,
+    "round": 1431,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2097,7 +2097,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "elysium-makers"
+      "bnsave-project",
+      "thronewars",
+      "dividum-io"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4461,19 +4463,22 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-11-08 04:35",
-      "lastChecked": "2026-11-08 04:55 CST",
-      "newestCardTime": "2026-11-08 04:35",
-      "cardsAfterCutoff": 39,
-      "note": "R1430：X雷达新收 elysium-makers；Discord Peek deferred（executor无浏览器）；cutoffs 沿用 R1429 lastSeenByChannel a3 04:35 / backup 04:19 / smart 03:13 / alpha-1 04:19",
-      "lastRound": 1430,
+      "deferred": false,
+      "lastSeen": "2026-11-08 05:19",
+      "lastChecked": "2026-11-08 05:22 CST",
+      "newestCardTime": "2026-11-08 05:19",
+      "cardsAfterCutoff": 30,
+      "note": "R1431：Discord alpha 补收 bnsave-project,thronewars,dividum-io；清 elysium-makers；lastSeen→2026-11-08 05:19；lastChecked→2026-11-08 05:22 CST；elysiumDemoted:thronewars",
+      "lastRound": 1431,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-08 04:35",
-        "alpha-1-backup": "2026-11-08 04:19",
-        "smart-accounts-tracker": "2026-11-08 03:13",
-        "alpha-1": "2026-11-08 04:19"
-      }
+        "alpha-3-new-accounts": "2026-11-08 05:17",
+        "alpha-1-backup": "2026-11-08 05:19",
+        "smart-accounts-tracker": "2026-11-08 05:14",
+        "alpha-1": "2026-11-08 05:16"
+      },
+      "elysiumDemoted": [
+        "thronewars"
+      ]
     },
     "round239Added": [
       "tsunamilaunch",
@@ -26335,9 +26340,148 @@
     ],
     "round1430Added": [
       "elysium-makers"
+    ],
+    "round1431Added": [
+      "bnsave-project",
+      "thronewars",
+      "dividum-io"
     ]
   },
   "candidates": [
+    {
+      "id": "dividum-io",
+      "name": "Dividum",
+      "handle": "@dividum_io",
+      "twitter": "@dividum_io",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/dividum_io"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.3
+      },
+      "highlights": [
+        "Solana 上代币化股票兑换，任意代币入场",
+        "强调可追踪分红，卖点有别于普通 DEX"
+      ],
+      "drawbacks": [
+        "未给出上线链接/合约",
+        "合规与流动性风险高",
+        "粉丝基数小"
+      ],
+      "whatsNew": "Solana 代币化股票 + 分红追踪的兑换台首次出现。",
+      "summary": "Solana 代币化股票交易台，玩法与分红视角具体，处极早期。",
+      "blurb": "Solana 代币化股票兑换台，分红追踪为差异点，可跟。",
+      "round": 1431,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 26,
+      "xFollowers": 26,
+      "firstSeen": "2026-11-08 05:22 CST",
+      "addedAt": "2026-11-08 05:22 CST",
+      "lastChecked": "2026-11-08 05:22 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "thronewars",
+      "name": "Throne Wars",
+      "handle": "@thronewars_",
+      "twitter": "@thronewars_",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/ThroneWars_"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 3,
+        "overall": 5.3
+      },
+      "highlights": [
+        "明确部署在 @Enter_Elysium 的浏览器 MOBA",
+        "竞技玩法定位清晰"
+      ],
+      "drawbacks": [
+        "无试玩链接/测试网公告",
+        "信息仅一句 bio"
+      ],
+      "whatsNew": "DC alpha 见自称 Elysium 浏览器 MOBA（未核验）。",
+      "summary": "自称在 @Enter_Elysium 上的浏览器 MOBA，极早期仅一句 bio，未对照生态页核验，降栏台子/Meme。",
+      "blurb": "自称 Elysium 浏览器 MOBA，未核验生态页，已降栏观察。",
+      "round": 1431,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 4,
+      "xFollowers": 4,
+      "firstSeen": "2026-11-08 05:22 CST",
+      "addedAt": "2026-11-08 05:22 CST",
+      "lastChecked": "2026-11-08 05:22 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "bnsave-project",
+      "name": "Burn n Save | $BNSAVE",
+      "handle": "@bnsave_project",
+      "twitter": "@bnsave_project",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/BNSave_project"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 8,
+        "novelty": 4,
+        "actionable": 3,
+        "overall": 4.4
+      },
+      "highlights": [
+        "bio 明确写销毁供应+救济资金写进合约",
+        "明确声明与币安无关，非蹭名号"
+      ],
+      "drawbacks": [
+        "无合约地址/官网链接",
+        "粉丝极少，可能空壳",
+        "机制无第三方验证"
+      ],
+      "whatsNew": "主打合约内置销毁与救济金库的 meme 代币首次露头。",
+      "summary": "极早期 meme 代币，宣称把销毁与救济写进合约，缺少可验证链接和 CA。",
+      "blurb": "合约级销毁 meme，线索具体但证据薄弱，可低成本盯。",
+      "round": 1431,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 2,
+      "xFollowers": 2,
+      "firstSeen": "2026-11-08 05:22 CST",
+      "addedAt": "2026-11-08 05:22 CST",
+      "lastChecked": "2026-11-08 05:22 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "sendu",
       "name": "Sendu",
@@ -226096,7 +226240,7 @@
       "zone": "台子/Meme",
       "round": 1430,
       "focus": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "highlights": [
         "自称 Elysium 首个免费 mint，All free / no public",
         "FCFS 申请窗口约 24h，具可操作 WL 入口",
@@ -226138,24 +226282,21 @@
     }
   ],
   "newThisRound": [
-    "launchontide",
-    "grandcityx",
-    "proofbeat",
-    "ostrakonelysium",
-    "moneroanon",
-    "sendu"
+    "bnsave-project",
+    "thronewars",
+    "dividum-io"
   ],
-  "alertMessage": "DC补漏R1429新收6个：tide、GrandCity、Proofbeat、Ostrakon、Moneroanon、Sendu；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1431新收3项（BNSAVE、Throne Wars、Dividum）；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "play-pixelora"
   ],
-  "updatedAt": "2026-11-08 04:43 CST",
-  "updated": "2026-11-08 04:43 CST",
+  "updatedAt": "2026-11-08 05:22 CST",
+  "updated": "2026-11-08 05:22 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-08 04:43 CST",
+  "lastScout": "2026-11-08 05:22 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -226197,7 +226338,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3292,
+  "candidateCount": 3296,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -228878,5 +229019,10 @@
     "ostrakonelysium",
     "moneroanon",
     "sendu"
+  ],
+  "round1431Added": [
+    "bnsave-project",
+    "thronewars",
+    "dividum-io"
   ]
 }
