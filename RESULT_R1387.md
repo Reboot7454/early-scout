@@ -42,3 +42,7 @@
 
 ## tenLanes
 UF shard 965→979 + must(Oil_Hood/pocketpad/Elysium_meme/Enter_Elysium/TapeAI/PrimateLegends/Skitters/Hood_Junkies/squeek) + 3 merged KW + BTC/Stark soft；discordPeekDeferred；dsFallback；十栏等量覆盖
+
+- pushSha: 3fa1859
+- remoteVerified: true
+- tip: 3fa1859
