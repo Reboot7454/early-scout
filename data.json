@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-07 16:36 CST",
+    "updated": "2026-11-07 16:50 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R1359",
-    "lastScout": "2026-11-07 16:36 CST",
+    "lastScout": "2026-11-07 16:49 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -692,7 +692,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1390,
+    "round": 1391,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -769,7 +769,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 3170,
+    "candidateCount": 3188,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -2084,8 +2084,14 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "final-days",
-      "barbarian-nft"
+      "privexlayer",
+      "enter-himan",
+      "robinexhq",
+      "clawdropfun",
+      "play-tombola",
+      "nullraid",
+      "equitykeepers",
+      "heist-hook"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4751,16 +4757,16 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-11-07 16:13",
-      "lastChecked": "2026-11-07 16:17 CST",
-      "newestCardTime": "2026-11-07 16:13",
-      "cardsAfterCutoff": 77,
-      "note": "R1389：Discord alpha 补收 usetrustscore,aetherzks,rivo,bidmemes,beyondrpgame,fomoeacc,mine-hyper-liquid,play-ever-magic；lastSeen→2026-11-07 16:13；lastChecked→2026-11-07 16:17 CST；fomoeacc 自称Elysium未核验 On testnet/Announced → 台子/Meme；bidmemes 自称Elysium未核验 On testnet/Announced → 台子/Meme；aetherzks 自称Elysium未核验 On testnet/Announced → 台子/Meme",
-      "lastRound": 1389,
+      "deferred": false,
+      "lastSeen": "2026-11-07 16:40",
+      "lastChecked": "2026-11-07 16:50 CST",
+      "newestCardTime": "2026-11-07 16:40",
+      "cardsAfterCutoff": 24,
+      "note": "R1391：Discord alpha 补收 privexlayer,enter-himan,robinexhq,clawdropfun,play-tombola,nullraid,equitykeepers,heist-hook；清 final-days,barbarian-nft；lastSeen→2026-11-07 16:40；lastChecked→2026-11-07 16:49 CST",
+      "lastRound": 1391,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-07 16:10",
-        "alpha-1-backup": "2026-11-07 16:04",
+        "alpha-3-new-accounts": "2026-11-07 16:40",
+        "alpha-1-backup": "2026-11-07 16:19",
         "smart-accounts-tracker": "2026-11-07 14:36",
         "alpha-1": "2026-11-07 16:13"
       },
@@ -26277,9 +26283,376 @@
     "r1390WatchAdds": [
       "@FinalDays365",
       "@BarbarianNFT20"
+    ],
+    "round1391Added": [
+      "privexlayer",
+      "enter-himan",
+      "robinexhq",
+      "clawdropfun",
+      "play-tombola",
+      "nullraid",
+      "equitykeepers",
+      "heist-hook"
     ]
   },
   "candidates": [
+    {
+      "id": "heist-hook",
+      "name": "HEIST",
+      "handle": "@heist_hook",
+      "twitter": "@heist_hook",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/heist_hook"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 8,
+        "novelty": 6,
+        "actionable": 3,
+        "overall": 4.8
+      },
+      "highlights": [
+        "bio 明确给出 Swap/Raid/Guard 三段玩法",
+        "蹭 @RobinhoodApp 生态叙事"
+      ],
+      "drawbacks": [
+        "0 粉新号，无合约/官网/文档",
+        "玩法真实性未验证，高风险"
+      ],
+      "whatsNew": "新号以 Swap/Raid/Guard 玩法切入 Robinhood 生态。",
+      "summary": "0 粉新项目号，bio 内含明确玩法框架但无落地证据，列为早期观察。",
+      "blurb": "Robinhood 生态三玩法新号，早期观察。",
+      "round": 1391,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-07 16:49 CST",
+      "addedAt": "2026-11-07 16:49 CST",
+      "lastChecked": "2026-11-07 16:49 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "equitykeepers",
+      "name": "Equitykeepers",
+      "handle": "@equitykeepers",
+      "twitter": "@equitykeepers",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "台子/Meme"
+      ],
+      "links": {
+        "x": "https://x.com/Equitykeepers"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 8.5,
+        "novelty": 5,
+        "actionable": 3,
+        "overall": 4.8
+      },
+      "highlights": [
+        "明确总量5555的Elysium NFT"
+      ],
+      "drawbacks": [
+        "0粉0证据，无官网/文档",
+        "未说明测试网或上线时间",
+        "自称Elysium未核验On testnet/Announced，暂归台子/Meme"
+      ],
+      "whatsNew": "Elysium上新的5555供应量NFT项目线索；自称Elysium未核验On testnet/Announced→台子/Meme",
+      "summary": "Elysium链5555枚NFT铸造计划，信息极简、风险高",
+      "blurb": "Elysium NFT 5555，先观察是否出mint页",
+      "round": 1391,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-07 16:49 CST",
+      "addedAt": "2026-11-07 16:49 CST",
+      "lastChecked": "2026-11-07 16:49 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "nullraid",
+      "name": "nullraid",
+      "handle": "@nullraidxyz",
+      "twitter": "@nullraidxyz",
+      "chain": "",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/nullraidxyz"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7.5,
+        "novelty": 6,
+        "actionable": 3,
+        "overall": 5.2
+      },
+      "highlights": [
+        "玩法描述具体：潜入/撤离/进化",
+        ".xyz独立域名handle"
+      ],
+      "drawbacks": [
+        "未说明链与发射/铸造时间",
+        "无官网文档，粉丝极少"
+      ],
+      "whatsNew": "新出现的像素战术潜入类链游项目线索",
+      "summary": "极早期像素战术游戏概念号，有玩法描述但缺链与发行信息",
+      "blurb": "像素战术潜入游戏，待补充链与mint信息",
+      "round": 1391,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 7,
+      "xFollowers": 7,
+      "firstSeen": "2026-11-07 16:49 CST",
+      "addedAt": "2026-11-07 16:49 CST",
+      "lastChecked": "2026-11-07 16:49 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "play-tombola",
+      "name": "Tombola",
+      "handle": "@play_tombola",
+      "twitter": "@play_tombola",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "台子/Meme"
+      ],
+      "links": {
+        "x": "https://x.com/play_tombola"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 8,
+        "novelty": 7,
+        "actionable": 4,
+        "overall": 6
+      },
+      "highlights": [
+        "转盘抽Elysium代币，约1/10额外派HYPE",
+        "机制描述具体，非空壳"
+      ],
+      "drawbacks": [
+        "0粉丝、无官网/文档链接",
+        "未说明是否on testnet或已部署",
+        "自称Elysium未核验On testnet/Announced，暂归台子/Meme"
+      ],
+      "whatsNew": "Elysium链上转盘类小游戏概念首次出现；自称Elysium未核验On testnet/Announced→台子/Meme",
+      "summary": "Elysium上的转盘发币玩法号，机制清晰但处于最早期、零曝光",
+      "blurb": "Elysium转盘游戏，玩法有具体派彩设计，等mint/上线确认",
+      "round": 1391,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-07 16:49 CST",
+      "addedAt": "2026-11-07 16:49 CST",
+      "lastChecked": "2026-11-07 16:49 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "clawdropfun",
+      "name": "Clawdrop",
+      "handle": "@clawdropfun",
+      "twitter": "@clawdropfun",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "台子/Meme"
+      ],
+      "links": {
+        "x": "https://x.com/clawdropfun"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 6.3
+      },
+      "highlights": [
+        "每次掉落随机 5 枚 Elysium 代币进钱包",
+        "约 1/10 概率额外掉落 HYPE"
+      ],
+      "drawbacks": [
+        "0 粉新号，无官网/合约/开放时间",
+        "玩法细节与代币来源未披露",
+        "自称Elysium未核验On testnet/Announced，暂归台子/Meme"
+      ],
+      "whatsNew": "公布 Elysium 上的随机掉落玩法与 HYPE 彩蛋概率；自称Elysium未核验On testnet/Announced→台子/Meme",
+      "summary": "Elysium 生态的随机掉落玩法，机制描述具体（5 枚随机币、1/10 出 HYPE），属有玩法线索的极早期项目，值得盯首发。",
+      "blurb": "Elysium 随机掉落玩法，有机制可跟。",
+      "round": 1391,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-07 16:49 CST",
+      "addedAt": "2026-11-07 16:49 CST",
+      "lastChecked": "2026-11-07 16:49 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "robinexhq",
+      "name": "Robinex",
+      "handle": "@robinexhq",
+      "twitter": "@robinexhq",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/RobinexHQ"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.9
+      },
+      "highlights": [
+        "Robinhood Chain 上点对点报价成交，无 AMM 滑点"
+      ],
+      "drawbacks": [
+        "1 粉新号，无官网/合约/上线时间",
+        "生态早期，流动性与真实需求待验证"
+      ],
+      "whatsNew": "新号公布 Robinhood Chain 上的 P2P 报价交易产品",
+      "summary": "做 Robinhood Chain 上的 P2P 报价撮合交易，规避 AMM 滑点，产品定位清晰但仍处极早期，无参与入口。",
+      "blurb": "Robinhood Chain P2P 交易台，先观察。",
+      "round": 1391,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-07 16:49 CST",
+      "addedAt": "2026-11-07 16:49 CST",
+      "lastChecked": "2026-11-07 16:49 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "enter-himan",
+      "name": "HiMan",
+      "handle": "@enter_himan",
+      "twitter": "@enter_himan",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "台子/Meme"
+      ],
+      "links": {
+        "x": "https://x.com/Enter_Himan"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 5,
+        "actionable": 3,
+        "overall": 5.4
+      },
+      "highlights": [
+        "10,000 枚 HiMan 将在 @enter_elysium 上发行"
+      ],
+      "drawbacks": [
+        "0 粉新号，无官网/合约/白名单信息",
+        "除一句发行宣告外无细节",
+        "自称Elysium未核验On testnet/Announced，暂归台子/Meme"
+      ],
+      "whatsNew": "宣告 10,000 枚 HiMan 即将登陆 Elysium；自称Elysium未核验On testnet/Announced→台子/Meme",
+      "summary": "bio 明确宣告 10000 枚 HiMan 将在 Elysium 部署，属具体部署公告，但信息量极少，仅可先记观察。",
+      "blurb": "Elysium 上的万枚发行公告，观察。",
+      "round": 1391,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-07 16:49 CST",
+      "addedAt": "2026-11-07 16:49 CST",
+      "lastChecked": "2026-11-07 16:49 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "privexlayer",
+      "name": "Privex",
+      "handle": "@privexlayer",
+      "twitter": "@privexlayer",
+      "chain": "",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/PrivexLayer"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.9
+      },
+      "highlights": [
+        "非托管跨链路由，intent 驱动 + solver 撮合",
+        "bio 附官网 privex.ink"
+      ],
+      "drawbacks": [
+        "0 粉新号，尚无测试网/积分/空投入口",
+        "跨链 intent 赛道拥挤，易被埋没"
+      ],
+      "whatsNew": "新号发布非托管跨链 intent 路由产品与官网",
+      "summary": "定位非托管、intent-based、solver 撮合的跨链路由，bio 有产品描述和官网，属极早期可跟踪项目，但暂无任何参与入口。",
+      "blurb": "极早期跨链 intent 路由，先挂观察。",
+      "round": 1391,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-07 16:49 CST",
+      "addedAt": "2026-11-07 16:49 CST",
+      "lastChecked": "2026-11-07 16:49 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "play-ever-magic",
       "name": "Ever Magic - Ever Value",
@@ -220511,7 +220884,7 @@
       "ecosystem": "",
       "lzVerified": false,
       "source": "R1390-KW-GO-freemint",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "barbarian-nft",
@@ -220563,24 +220936,30 @@
       "ecosystem": "Robinhood",
       "lzVerified": false,
       "source": "R1390-KW-RH-freemint",
-      "newThisRound": true
+      "newThisRound": false
     }
   ],
   "newThisRound": [
-    "final-days",
-    "barbarian-nft"
+    "privexlayer",
+    "enter-himan",
+    "robinexhq",
+    "clawdropfun",
+    "play-tombola",
+    "nullraid",
+    "equitykeepers",
+    "heist-hook"
   ],
-  "alertMessage": "R1390新收2：final-days（打新，FREE MINT限3k钱包）、barbarian-nft（打新，RH链GTD FREE）；oil-hood今日19:00续；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1391新收8（focus均否）：privexlayer（打新）、enter-himan（台子/Meme，自称Elysium未核验）、robinexhq（台子/Meme）、clawdropfun（台子/Meme，自称Elysium未核验）、play-tombola（台子/Meme，自称Elysium未核验）、nullraid（打新）、equitykeepers（台子/Meme，自称Elysium未核验）、heist-hook（台子/Meme）；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "moonbiteclub"
   ],
-  "updatedAt": "2026-11-07 16:36 CST",
-  "updated": "2026-11-07 16:36 CST",
+  "updatedAt": "2026-11-07 16:49 CST",
+  "updated": "2026-11-07 16:49 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-07 16:36 CST",
+  "lastScout": "2026-11-07 16:49 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -220622,7 +221001,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3180,
+  "candidateCount": 3188,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -223117,5 +223496,15 @@
   "round1390Added": [
     "final-days",
     "barbarian-nft"
+  ],
+  "round1391Added": [
+    "privexlayer",
+    "enter-himan",
+    "robinexhq",
+    "clawdropfun",
+    "play-tombola",
+    "nullraid",
+    "equitykeepers",
+    "heist-hook"
   ]
 }
