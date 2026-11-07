@@ -40,5 +40,5 @@
 ## tenLanes
 UF shard 817→833 + ≤2h/must + LIVE soft + soft watches + 4 merged KW；discordPeekDeferred；十栏等量覆盖
 
-- pushSha: 66f6fb169ab66b2a8508f8b2c624626b4125d505
+- pushSha: 5574be5fc030eac612f102d5fd1cf85e6b8002cb
 - remoteVerified: true
