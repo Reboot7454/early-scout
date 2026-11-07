@@ -1,0 +1,80 @@
+{
+  "round": 1400,
+  "mode": "pace",
+  "completedAt": "2026-11-07 19:40 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new admits + mortal-apes mint ≤2h (21:30 CST改点)",
+  "alertMessage": "新增可操作：Morpha.ai BNB AgentID 免费首枚 LIVE ~908/70k；Pixel Bubu Base 250 免费 mint LIVE；Mortal Apes ETH 免费 mint 2222 今日21:30 CST（改点≤2h）。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "morpha",
+      "name": "Morpha.ai",
+      "handle": "@Morpha_ai404",
+      "chain": "BNB",
+      "zone": "打新",
+      "oneLiner": "BNB AgentID FREE首枚 LIVE ~908/70k；烧NFT领$MORPHA；粉≈9"
+    },
+    {
+      "id": "bubu-monsters",
+      "name": "Pixel Bubu",
+      "handle": "@bubumonsters",
+      "chain": "Base",
+      "zone": "打新",
+      "oneLiner": "Base 250 FREE of 2500 LIVE；gas+$0.20；粉≈6"
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "morpha",
+    "bubu-monsters"
+  ],
+  "clearedPrevNewThisRound": [
+    "bunnyonely",
+    "thasoselysium",
+    "yieldex-markets",
+    "medbayvault",
+    "hitchfund"
+  ],
+  "discordPeekDeferred": true,
+  "discordPeekCutoffs": {
+    "alpha-1": "2026-11-07 19:12",
+    "alpha-1-backup": "2026-11-07 18:49",
+    "smart-accounts-tracker": "2026-11-07 18:52",
+    "alpha-3-new-accounts": "2026-11-07 19:19"
+  },
+  "dsFallback": false,
+  "dsNote": "deepseek-flash admit+score+alert ok",
+  "xQuota": {
+    "remainingBefore": 556,
+    "remaining": 534,
+    "xReads": 22,
+    "mode": "pace",
+    "softCap": 20,
+    "ufCursor": 1073,
+    "ufCursorBefore": 1063
+  },
+  "tenLanes": "UF1063→1073 + must/LIVE/≤2h + 3KW（打新｜挖矿｜台子/Meme｜GO盘｜LZ｜Elysium｜Tape｜GIWA｜DogeEVM + BTC/Stark soft）",
+  "tonight": {
+    "le2h": [
+      "mortal-apes 21:30CST改点",
+      "morpha LIVE",
+      "bubu-monsters LIVE"
+    ],
+    "upcoming": [
+      "elysium.meme 23:00",
+      "pocketpad 11/8 00:00 mintOpen仍关",
+      "primate GTD 05:00",
+      "oil-hood LIVE CA"
+    ]
+  },
+  "stopped": [
+    "HashDoge",
+    "Genius",
+    "Corla",
+    "Flap"
+  ],
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1400：新收morpha+bubu-monsters；mortal-apes改点21:30≤2h；oil-hood LIVE CA；UF1063→1073；discordPeekDeferred；xReads22 rem534 mode=pace softCap20"
+}
