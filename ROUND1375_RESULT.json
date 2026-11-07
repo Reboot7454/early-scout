@@ -1,0 +1,134 @@
+{
+  "round": 1375,
+  "completedAt": "2026-11-07 12:02 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新收录 Priors（@priors_trade RH agent 信用层 LIVE）、Oak Agent Kit（@OakAgentKit MCP×Raeto）、AgentCity RH（@AgentCityrh 接单城市）；今日 Oil Hood 19:00、Elysium.meme 23:00，明日 pocketpad 00:00、11/9 Elysium 主网，详情 https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "priors-trade",
+    "oak-agent-kit",
+    "agentcity-rh"
+  ],
+  "newThisRound": [
+    "priors-trade",
+    "oak-agent-kit",
+    "agentcity-rh"
+  ],
+  "newCount": 3,
+  "newAdmits": [
+    "priors-trade",
+    "oak-agent-kit",
+    "agentcity-rh"
+  ],
+  "admissions": [
+    {
+      "id": "priors-trade",
+      "handle": "@priors_trade",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "name": "Priors",
+      "oneLiner": "RH Chain agent 信用层；USDG 借贷+score v2；~4820粉"
+    },
+    {
+      "id": "oak-agent-kit",
+      "handle": "@OakAgentKit",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "name": "Oak Agent Kit",
+      "oneLiner": "RH Agent MCP 基建；v0.2.7×Raeto；$OAK；~810粉"
+    },
+    {
+      "id": "agentcity-rh",
+      "handle": "@AgentCityrh",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "name": "AgentCity RH",
+      "oneLiner": "RH agents 接单城市；Job Market 80/15/5；~599粉"
+    }
+  ],
+  "discordPeekDeferred": true,
+  "discordPeekReason": "executor no browser; keep cutoffs alpha-1 10:54 / backup 10:49 / smart 11:18 / alpha-3 11:20",
+  "suggestedCutoffs": {
+    "alpha-1": "10:54",
+    "backup": "10:49",
+    "smart": "11:18",
+    "alpha-3": "11:20"
+  },
+  "dsFallback": false,
+  "dsNote": "RH栈 gapfill admit priors/oak/agentcity-rh；agentic-pocket 1粉spam跳过；LingjiBots闭窗+spam跳过；silicon-fission无独立官推跳过",
+  "dsUsage": "deepseek-flash admit=2pass; score=3; alert=1",
+  "tenLanes": true,
+  "tenLanesCoverage": "UF shard 881→895 + must(Oil_Hood/pocketpad/Elysium_meme/Enter_Elysium/TapeAI/navo/Elyscription/usealchemist/ShieldedNaka/GIWA/DogeOS/Blonskr/bitcointapes/squeek/PlunderPort/Bramble/Applecat/pipopad/TAPELIQUID/souls/JoinElypad/Ascend/Ammora) + LIVE soft + soft watches + 3 merged KW; discordPeekDeferred; RH gapfill",
+  "tenLanesBrief": {
+    "打新": "nekart→LIVE；alchemister waitlist开；souls/apple-cat LIVE续；agentic-pocket spam拒",
+    "挖矿": "TapeAI 质押3178+ APR 11/8；silicon-fission无官推拒",
+    "台子/Meme": "新收 priors/oak/agentcity-rh；oil-hood今日19:00；pocketpad 11/8 00:00；elysium.meme今日23:00",
+    "GO盘": "KW soft; no new",
+    "LayerZero": "PlunderPort soft; no new",
+    "Elysium": "Enter_Elysium/Ascend/souls/JoinElypad/pipopad续；主网11/9；硬排除perpme等",
+    "Tape/电路": "TapeAI APR 11/8；TAPELIQUID soft；silicon-fission拒",
+    "GIWA": "Ammora/YeonPad/GIWA soft；custos无窗续跳",
+    "DogeEVM": "DogeOS soft; no new",
+    "BTC": "ShieldedNaka soft",
+    "Starknet": "Bramble soft; no new mint"
+  },
+  "xQuota": {
+    "remainingBefore": 876,
+    "remaining": 850,
+    "xReads": 26,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 895,
+    "checkedAt": "2026-11-07 12:02 CST"
+  },
+  "ufCursor": {
+    "from": 881,
+    "to": 895
+  },
+  "ufNF": [
+    "nibblewage"
+  ],
+  "le2h": [],
+  "liveContinue": [
+    "souls-elysium",
+    "apple-cat",
+    "alchemister",
+    "nekart",
+    "pipopad"
+  ],
+  "upcoming": {
+    "oil-hood": "2026-11-07 19:00 CST",
+    "elysium-meme": "2026-11-07 23:00 CST",
+    "pocketpad": "2026-11-08 00:00 CST",
+    "tapeai-apr": "2026-11-08 00:00 CST",
+    "navo-presale-end": "2026-11-08 22:00 CST",
+    "souls-burn-deadline": "2026-11-08 20:00 UTC",
+    "elysium-mainnet": "2026-11-09",
+    "alchemister-agent-beta": "2026-11-20"
+  },
+  "skipped": [
+    {
+      "id": "agentic-pocket",
+      "reason": "1粉 workers.dev spam/copycat"
+    },
+    {
+      "id": "LingjiBots",
+      "reason": "Knights mint已关窗；账号发韩文保险spam；库内已有 lingji-knights"
+    },
+    {
+      "id": "silicon-fission",
+      "reason": "无独立官推，仅制作人个人号；公测无代币"
+    },
+    {
+      "id": "elysium-shade",
+      "reason": "续跳：无明确部署/1粉spam"
+    }
+  ],
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "pushSha": null,
+  "remoteVerified": false,
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "summary": "R1375: UF 881→895; admit RH stack gapfill priors-trade/oak-agent-kit/agentcity-rh; nekart→LIVE; alchemister waitlist开; oil-hood 19:00/elysium.meme 23:00/pocketpad 11/8 00:00 续; discordPeekDeferred; docsSynced"
+}
