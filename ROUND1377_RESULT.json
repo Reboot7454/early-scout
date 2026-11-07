@@ -1,120 +1,134 @@
 {
   "round": 1377,
-  "completedAt": "2026-11-07 12:40 CST",
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-07 12:39 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
   "notifyReason": "new_admits",
-  "alertMessage": "新收录 The Unwritten（@TheUnwrittenBNB BNB铭文NFT Marketplace LIVE，~5500/8888）；今日 Oil Hood 19:00、Elysium.meme 23:00，明日 pocketpad 00:00、11/9 Elysium 主网，详情 https://reboot7454.github.io/early-scout/",
-  "newIds": [
-    "the-unwritten"
-  ],
-  "newThisRound": [
-    "the-unwritten"
-  ],
-  "newCount": 1,
+  "alertMessage": "DC补漏R1377新收2：tryelysion（台子/Meme，多链发射台）、minetoraxyz（挖矿，自称Elysium CPU挖矿未核验）；面板 https://reboot7454.github.io/early-scout/",
   "newAdmits": [
-    "the-unwritten"
+    "tryelysion",
+    "minetoraxyz"
   ],
+  "newCount": 2,
+  "newIds": [
+    "tryelysion",
+    "minetoraxyz"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 21,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "candidateFlagsCleared": 0,
+  "topNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=2",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-07 12:34",
+    "lastChecked": "2026-11-07 12:39 CST",
+    "newestCardTime": "2026-11-07 12:34",
+    "cardsAfterCutoff": 21,
+    "note": "R1377：Discord alpha 补收 tryelysion,minetoraxyz（minetoraxyz 自称Elysium未核验→挖矿）；清无；lastSeen→2026-11-07 12:34；lastChecked→2026-11-07 12:39 CST",
+    "lastRound": 1377,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-07 12:34",
+      "alpha-1-backup": "2026-11-07 12:34",
+      "smart-accounts-tracker": "2026-11-07 12:30",
+      "alpha-1": "2026-11-07 12:28"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1377：Discord alpha 补收 tryelysion,minetoraxyz（minetoraxyz 自称Elysium未核验→挖矿）；清无；lastSeen→2026-11-07 12:34；lastChecked→2026-11-07 12:39 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1377.json",
+  "priorRoundNote": "R1376 meta NTR []; cardsAfterCutoff=21",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-07 12:34",
+    "alpha-1-backup": "2026-11-07 12:34",
+    "smart-accounts-tracker": "2026-11-07 12:30",
+    "alpha-1": "2026-11-07 12:28"
+  },
+  "cardsRead": 21,
+  "rejected": [
+    {
+      "handle": "@Jokie23447",
+      "reason": "典型KOL/社区喊单号，无独立产品与发射线索。"
+    },
+    {
+      "handle": "@StVince67596200",
+      "reason": "个人交易号，仅喊BTC交易，无项目产品。"
+    },
+    {
+      "handle": "@Rogue_Str3",
+      "reason": "街头艺术个人号，0粉且无任何链上产品线索。"
+    },
+    {
+      "handle": "@MaxLeverageHL",
+      "reason": "meme自称“最大杠杆狗”，无实际产品、发射或玩法线索。"
+    },
+    {
+      "handle": "@adistyzz",
+      "reason": "个人猎人号，bio仅挂@InventMoneyapp，无自身产品。"
+    },
+    {
+      "handle": "@vyropro",
+      "reason": "衍生品概念未见测试网或上线公告，早期信号弱。"
+    },
+    {
+      "handle": "@_Neuora",
+      "reason": "bio仅“Noob”，无任何产品描述。"
+    },
+    {
+      "handle": "@MappingBTC",
+      "reason": "仅为比特币历史/Bitmap 叙事资讯号，无自身产品、mint 或发射线索，属内容号非项目。"
+    },
+    {
+      "handle": "@hicworld808",
+      "reason": "bio 仅一句 Sea World，无任何项目/产品/发射信息，属空壳个人号。"
+    },
+    {
+      "handle": "@ElysiumCows",
+      "reason": "自称 Elysium 上首个奶牛免费 mint，但 0 粉 1 关注且无测试网/部署声明，疑为抢注空壳。"
+    },
+    {
+      "handle": "@EddiePast1",
+      "reason": "个人交易员/KOL 账号，非独立项目，无产品可参与。"
+    },
+    {
+      "handle": "@Bilal_Warraich1",
+      "reason": "0 粉、bio 为口号式内容，无任何项目或产品信息。"
+    },
+    {
+      "handle": "@0xrootzk",
+      "reason": "个人 Web3/安全爱好者账号，无项目、无产品、无发射线索。"
+    }
+  ],
+  "rejectedCount": 13,
+  "dsRejects": 13,
   "admissions": [
     {
-      "id": "the-unwritten",
-      "handle": "@TheUnwrittenBNB",
-      "category": "打新",
-      "ecosystem": "BNB",
-      "name": "The Unwritten",
-      "oneLiner": "BNB 铭文 NFT Marketplace LIVE；~5500/8888；Agent mint；42粉 day0"
+      "id": "tryelysion",
+      "handle": "@tryelysion",
+      "category": "台子/Meme",
+      "name": "Elysion"
+    },
+    {
+      "id": "minetoraxyz",
+      "handle": "@minetoraxyz",
+      "category": "挖矿",
+      "name": "Tora"
     }
   ],
-  "discordPeekDeferred": true,
-  "discordPeekReason": "executor no browser; keep cutoffs alpha-1 11:48 / backup 11:49 / smart 11:47 / alpha-3 11:59",
-  "suggestedCutoffs": {
-    "alpha-1": "11:48",
-    "backup": "11:49",
-    "smart": "11:47",
-    "alpha-3": "11:59"
-  },
-  "dsFallback": false,
-  "dsNote": "admit the-unwritten；skip lend-cache(Elysium无部署证明)/yaoqian(无官推)/agentic-pocket续拒",
-  "dsUsage": "deepseek-flash admit=1pass; score=1; alert=1",
-  "tenLanes": true,
-  "tenLanesCoverage": "UF shard 895→909 + must(Oil_Hood/pocketpad/Elysium_meme/Enter_Elysium/TapeAI/usealchemist/nekart/souls/Applecat/pipopad) + LIVE soft + soft watches + 3 merged KW; discordPeekDeferred",
-  "tenLanesBrief": {
-    "打新": "新收 the-unwritten LIVE；nekart/alchemister/souls/apple-cat/starrys LIVE续",
-    "挖矿": "TapeAI 质押3178+ APR 11/8；阶段一收益",
-    "台子/Meme": "oil-hood今日19:00；pocketpad 11/8 00:00；elysium.meme今日23:00；agentic-pad Creator Marketplace soon",
-    "GO盘": "KW soft; no new",
-    "LayerZero": "soft-debt; no new",
-    "Elysium": "Enter_Elysium/Ascend/souls/pipopad/elywizardz/etherea/skitters续；主网11/9；硬排除perpme等；lend-cache拒",
-    "Tape/电路": "TapeAI APR 11/8 续",
-    "GIWA": "JoseonFun waitlist续；Ammora soft-debt",
-    "DogeEVM": "soft-debt; no new",
-    "BTC": "ShieldedNaka soft-debt",
-    "Starknet": "KW soft; no new mint"
-  },
-  "xQuota": {
-    "remainingBefore": 849,
-    "remaining": 821,
-    "xReads": 28,
-    "mode": "ample",
-    "softCap": 28,
-    "ufCursor": 909,
-    "checkedAt": "2026-11-07 12:40 CST"
-  },
-  "ufCursor": {
-    "from": 895,
-    "to": 909
-  },
-  "ufNF": [
-    "exec_terminal"
+  "alert": "DC补漏R1377新收2：tryelysion（台子/Meme，多链发射台）、minetoraxyz（挖矿，自称Elysium CPU挖矿未核验）；面板 https://reboot7454.github.io/early-scout/",
+  "demoted": [
+    "minetoraxyz: Elysium→挖矿 (自称未核验 ecosystem)"
   ],
-  "le2h": [],
-  "liveContinue": [
-    "the-unwritten",
-    "nekart",
-    "alchemister",
-    "souls-elysium",
-    "apple-cat",
-    "starrys",
-    "pipopad",
-    "tapeai"
-  ],
-  "upcoming": {
-    "oil-hood": "2026-11-07 19:00 CST",
-    "elysium-meme": "2026-11-07 23:00 CST",
-    "pocketpad": "2026-11-08 00:00 CST",
-    "tapeai-apr": "2026-11-08 00:00 CST",
-    "elywizardz": "2026-11-09",
-    "skitters": "2026-11-09",
-    "elysium-mainnet": "2026-11-09",
-    "etherea-genesis": "2026-11-10",
-    "model-citizens": "2026-11-11 00:00 CST"
-  },
-  "skipped": [
-    {
-      "id": "lend-cache",
-      "reason": "Elysium硬规则：Announced但无合约/部署证明；4粉"
-    },
-    {
-      "id": "yaoqian",
-      "reason": "无独立官推"
-    },
-    {
-      "id": "exec_terminal",
-      "reason": "prior NF skip"
-    },
-    {
-      "id": "elysium-shade",
-      "reason": "续跳"
-    },
-    {
-      "id": "agentic-pocket",
-      "reason": "先轮spam拒"
-    }
-  ],
-  "docsSynced": true,
-  "panel": "https://reboot7454.github.io/early-scout/",
-  "HashDogeGeniusCorlaFlap": "STOPPED",
-  "summary": "R1377: UF 895→909; admit the-unwritten; oil-hood 19:00/elysium.meme 23:00/pocketpad 11/8 00:00 续; discordPeekDeferred; docsSynced",
-  "pushSha": "46630ff38193ecad67b15dfe0cec177d13e2a3e5",
-  "remoteVerified": true
+  "focusAllFalse": true
 }
