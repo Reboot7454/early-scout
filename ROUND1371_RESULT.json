@@ -47,12 +47,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "ok": true,
+    "sha": "4b4f307803cd932de207fa9c7ba708b6a93da0e7",
+    "short": "4b4f307",
+    "remote": "origin/main"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1371：Discord alpha 补收 hyperhaul,shadesofely（已剔除个人号 edwinguffe49868；hyperhaul/shadesofely 自称Elysium未核验→台子/Meme）；lastSeen→2026-11-07 10:34；lastChecked→2026-11-07 10:39 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1371.json",
   "priorRoundNote": "R1370 meta NTR ['furgexyz', 'apple-cat', 'pipopad']; cardsAfterCutoff=27",
   "lastSeenByChannel": {
@@ -173,5 +175,7 @@
     "alpha-1-backup": "2026-11-07 10:34",
     "smart-accounts-tracker": "2026-11-07 10:30",
     "alpha-1": "2026-11-07 10:31"
-  }
+  },
+  "pushSha": "4b4f307803cd932de207fa9c7ba708b6a93da0e7",
+  "pushCommit": "R1371 DC alpha补漏: 新收 hyperhaul,shadesofely (台子/Meme；自称Elysium未核验)"
 }
