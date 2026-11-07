@@ -13,5 +13,5 @@
 - dsFallback: false；deepseek-flash admit+score+alert（saffron reject）
 - alert: R1428：新收 bankrbot（Elysium Day1 Agent）；primate GTD≈05:00CST（≤2h）；hopkin/elys-tape/oil/elysium/bitrush LIVE；erupt Nov9 FREE。面板 https://reboot7454.github.io/early-scout/
 
-- pushSha: (pending)
-- tip: (pending)
+- pushSha: 1314fa41ffbf81ca78b5eed615c1870ba34c1b5f
+- tip: 1314fa41ffbf81ca78b5eed615c1870ba34c1b5f
