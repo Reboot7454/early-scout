@@ -11,4 +11,4 @@
 - docsSynced: true
 - dsFallback: false；deepseek-flash admit+refresh+alert
 - alert: 🔔 近场提醒：mortal-apes FREE mint 21:30 CST（≤2h）；elysium 23:00 CST 开门；mortal-apes 先看 → https://reboot7454.github.io/early-scout/
-- pushSha: (pending)
+- pushSha: 0b6ee95ae4d58b345cfacaf34e3897787833dd46
