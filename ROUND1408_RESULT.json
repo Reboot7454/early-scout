@@ -55,12 +55,13 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "cdd0cfefb44d729a3b7d16da8462af0c82340cce"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1408：Discord alpha 补收 aelynt,spindrift,trybubl,chaindual,bideliqudity,medousa；清 hood-buddies,umbra-perps；lastSeen→2026-11-07 21:58；lastChecked→2026-11-07 22:06 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1407.json",
   "priorRoundNote": "R1407 was pace with discordPeekDeferred; this round completes deferred DC peek",
   "lastSeenByChannel": {
@@ -261,5 +262,7 @@
   "spideyPosting": true,
   "elysiumDemoted": [
     "bideliqudity"
-  ]
+  ],
+  "pushSha": "cdd0cfefb44d729a3b7d16da8462af0c82340cce",
+  "docsSynced": true
 }
