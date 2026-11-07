@@ -51,12 +51,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "a0f3a49a14bd05dbc882d2015de224d8af4c337b",
+    "short": "a0f3a49"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1423：Discord alpha 补收 moonbuttcoin,elyxir-fun,minosfun,elyscribe,trench-radar；清 play-pixelora；lastSeen→2026-11-08 02:40；lastChecked→2026-11-08 02:46 CST；自称Elysium未核验已降栏：elyscribe,minosfun",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1423.json",
   "priorRoundNote": "R1422 meta NTR ['play-pixelora']; cardsAfterCutoff=42",
   "lastSeenByChannel": {
@@ -222,5 +224,8 @@
   "elysiumDemoted": [
     "elyscribe",
     "minosfun"
-  ]
+  ],
+  "docsSynced": true,
+  "pushSha": "a0f3a49a14bd05dbc882d2015de224d8af4c337b",
+  "rawVerified": 1423
 }
