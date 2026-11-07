@@ -14,3 +14,6 @@
 - categories: orecompute=挖矿；larderhood=打新；其余台子/Meme
 - panel: https://reboot7454.github.io/early-scout/
 - docsSynced: true
+- pushSha: c9981842d77f09dd1c26a0c9889ab925e7ab540b
+- tip: c9981842d77f09dd1c26a0c9889ab925e7ab540b
+- remoteVerified: true (meta.round=1416)
