@@ -49,12 +49,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "5741a1d21a2ed53af1863fc46b4b8426403f0abf",
+    "short": "5741a1d"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1421：Discord alpha 补收 sibyliqai,nolidotfamily,kibble,beta-index；清 fulcrum-elysium；lastSeen→2026-11-08 01:57；lastChecked→2026-11-08 02:04 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1420.json",
   "priorRoundNote": "R1420 meta NTR ['fulcrum-elysium']; cardsAfterCutoff=36",
   "lastSeenByChannel": {
@@ -191,5 +193,13 @@
     "kibble",
     "beta-index"
   ],
-  "elysiumDemoteNote": "自称Elysium未核验→降栏（对照 kinetiq On testnet/Announced）"
+  "elysiumDemoteNote": "自称Elysium未核验→降栏（对照 kinetiq On testnet/Announced）",
+  "docsSynced": true,
+  "pushSha": "5741a1d21a2ed53af1863fc46b4b8426403f0abf",
+  "tip": "5741a1d21a2ed53af1863fc46b4b8426403f0abf",
+  "rawVerified": 1421,
+  "gapIncomplete": false,
+  "spideyPosting": true,
+  "cardsAfterCutoff": 36,
+  "cardsReadApprox": 144
 }
