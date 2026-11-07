@@ -11,3 +11,5 @@
 - docsSynced: true
 - watches: oil-hood今日19:00≤2h；elysium.meme今日23:00；pocketpad 11/8 00:00 mintOpen仍关；primate GTD 11/8 05:00；elysium-apes mint today；HashDoge/Genius/Corla/Flap仍停
 - dsFallback: false
+- pushSha: bc5099b / tip: bc5099b
+- remoteVerified: true
