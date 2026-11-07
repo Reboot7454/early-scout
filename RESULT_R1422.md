@@ -12,3 +12,6 @@
 - docsSynced: true
 - dsFallback: false；deepseek-flash admit+score+alert（admit play-pixelora；skip Cashmere）
 - alert: R1422新收 PIXELORA(@PlayPixelora) RH像素岛WL早鸟LIVE；pocketpad已售罄；primate GTD≈05:00CST；elys-tape/hopkin/oil/elysium/bitrush LIVE。面板 https://reboot7454.github.io/early-scout/
+
+- pushSha: cfb805365b8afd17649e39fa9909f876cd757b24
+- tip: cfb805365b8afd17649e39fa9909f876cd757b24
