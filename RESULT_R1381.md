@@ -41,5 +41,5 @@
 ## tenLanes
 UF shard 923→937 + must(Oil_Hood/pocketpad/Elysium_meme/Enter_Elysium/TapeAI/usealchemist/souls/Applecat/pipopad/Skitters/nekart/Hood_Junkies/HOA) + LIVE soft + soft BTC/Starknet/GIWA/Doge + 3 merged KW；discordPeekDeferred；十栏等量覆盖
 
-- pushSha: (pending)
-- remoteVerified: (pending)
+- pushSha: d1e8c32
+- remoteVerified: true
