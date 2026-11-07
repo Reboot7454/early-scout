@@ -15,5 +15,5 @@
 - dsFallback: false；deepseek-flash 首呼思考外泄无 JSON，重试后产出 admit/copy/alert；无新 admit
 - alert: Elyseapro 07:44 CST marketplace已上线，Free mint 1000 Waves，1/wallet，≤2h；详情 https://reboot7454.github.io/early-scout/
 
-- pushSha: PENDING
-- tip: PENDING
+- pushSha: b4c352a9b180cdf5c68a70eff1206ab0fb413c97
+- tip: b4c352a9b180cdf5c68a70eff1206ab0fb413c97
