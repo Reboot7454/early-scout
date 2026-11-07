@@ -39,12 +39,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "7573ac0a2d12916c35377ac83a95a9a223577d15",
+    "short": "7573ac0"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1438：Discord alpha 补收 elyfun；lastSeen→2026-11-08 07:19；lastChecked→2026-11-08 07:23 CST",
-  "remoteVerified": false,
+  "remoteVerified": 1438,
   "cardsFile": "dc40_cards_r1438.json",
   "priorRoundNote": "R1437 meta NTR ['shu-bao-cto', 'elysium-id', 'ascendrbot']; cardsAfterCutoff=26",
   "lastSeenByChannel": {
@@ -157,5 +159,8 @@
     "already": 3,
     "admits": 1,
     "ds_rejects": 11
-  }
+  },
+  "pushSha": "7573ac0",
+  "docsSynced": true,
+  "rawVerified": 1438
 }
