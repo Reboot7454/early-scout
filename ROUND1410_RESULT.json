@@ -55,14 +55,15 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "d6db399bf6da25e0ff720459a7c19a4238036bb6"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1410：Discord alpha 补收 zobotrush,blesseddotfun,kronospad,enverseworld,useadyros,bidmemees；清 clankdexer,husher；lastSeen→2026-11-07 22:35；lastChecked→2026-11-07 22:39 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1410.json",
-  "priorRoundNote": "R1409 meta NTR ['clankdexer', 'husher']; cardsAfterCutoff=41",
+  "priorRoundNote": "R1409 was pace with discordPeekDeferred; this round completes deferred DC peek",
   "lastSeenByChannel": {
     "alpha-3-new-accounts": "2026-11-07 22:35",
     "alpha-1-backup": "2026-11-07 22:19",
@@ -208,5 +209,9 @@
       "name": "Bidmemes"
     }
   ],
-  "alert": "DC补漏R1410新收6个（台子/Meme为主：Zobot Rush、blessed、kronos等）；https://reboot7454.github.io/early-scout/"
+  "alert": "DC补漏R1410新收6个（台子/Meme为主：Zobot Rush、blessed、kronos等）；https://reboot7454.github.io/early-scout/",
+  "pushSha": "d6db399bf6da25e0ff720459a7c19a4238036bb6",
+  "docsSynced": true,
+  "gapIncomplete": false,
+  "spideyPosting": true
 }
