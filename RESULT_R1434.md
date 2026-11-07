@@ -14,5 +14,5 @@
 - dsFallback: false；deepseek-flash admit+score+alert（limpetlol 台子/Meme；skip UnisonComputers）
 - alert: R1434：新收 limpetlol（Robinhood Agent ID launchpad，1粉无CA降栏台子/Meme）；PrimateLegends MINT LIVE（≤2h）；hopkin/elys-tape/oil/elysium-meme/bitrush LIVE；erupt Nov9 FREE；elympus Genesis 0.055HYPE Day1 TBA；broisafreak GTD 11/9 01:00CST。面板 https://reboot7454.github.io/early-scout/
 
-- pushSha: PENDING
-- tip: PENDING
+- pushSha: 6a81839b960beeaf9bc9ad124006431f3953e979
+- tip: 6a81839b960beeaf9bc9ad124006431f3953e979
