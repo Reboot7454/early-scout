@@ -1,0 +1,84 @@
+{
+  "round": 1415,
+  "mode": "pace",
+  "notify": true,
+  "notifyReason": "pocketpad_mint_open + le2h_elys-tape + new_admit_eyemine + LIVE_mortal/hopkin/oil/elysium",
+  "alertMessage": "pocketpad 已开 allowlist（mintOpen，public 仍关，minted~323/2500）；elys-tape foundry 01:00CST ≤2h 开；新收 eyemine-bnb 自称12-16h后上Flap挖矿、0粉极早，盯紧；面板 https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "eyemine-bnb"
+  ],
+  "newCount": 1,
+  "clearedPrevNewThisRound": [
+    "phulaxproject",
+    "elylightq",
+    "xxxpapelxxx",
+    "theramp-fun"
+  ],
+  "xReads": 22,
+  "remainingBefore": 428,
+  "remaining": 406,
+  "softCap": 23,
+  "modeBudget": "pace",
+  "ufCursor": 52,
+  "ufCursorBefore": 40,
+  "ufCursorAfter": 52,
+  "tenLanes": "打新｜挖矿｜台子/Meme｜GO盘｜LayerZero｜Elysium｜Tape/电路｜GIWA｜DogeEVM + BTC/Starknet soft",
+  "tenLanesNote": "UF40→52(12 resolve, FoundryTape NF, posts8) + must/LIVE/≤2h(6) + 3KW merged + resolve6 + erupt posts + GoldenPanda search",
+  "docsSynced": true,
+  "discordPeekDeferred": true,
+  "discordPeekCutoffs": {
+    "alpha-1": "2026-11-07 23:57",
+    "alpha-1-backup": "2026-11-07 23:49",
+    "smart-accounts-tracker": "2026-11-07 23:35",
+    "alpha-3-new-accounts": "2026-11-07 23:56"
+  },
+  "dsFallback": false,
+  "dsNote": "deepseek-flash admit+score+alert; admit eyemine-bnb; skip noxstack(同null-xmr)/golden-panda-shill(无官号)",
+  "skipped": [
+    "noxstack",
+    "golden-panda-shill",
+    "FoundryTape(NF)"
+  ],
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1415 pace：pocketpad mint OPEN allowlist（phase1 public仍关 minted323）；elys-tape foundry≤2h；mortal/hopkin/oil/elysium LIVE；新收 eyemine-bnb；UF40→52；discordPeekDeferred；HashDoge/Genius/Corla/Flap STOPPED",
+  "tonight": {
+    "pocketpad": "allowlist LIVE mintPhase=1 mintOpen=true publicOpen=false minted=323/2500",
+    "elys-tape": "2026-11-08 01:00 CST foundry ≤2h Tape栏",
+    "elysium-meme": "LIVE gates",
+    "mortal-apes": "LIVE GTD收尾/Public后burn",
+    "hopkinagent": "LIVE 3200/10000",
+    "primate-legends": "2026-11-08 05:00 CST GTD",
+    "oil-hood": "LIVE"
+  },
+  "stopped": [
+    "HashDoge",
+    "Genius",
+    "Corla",
+    "Flap"
+  ],
+  "timezone": "Asia/Shanghai",
+  "completedAt": "2026-11-08 00:17 CST",
+  "pocketpad": {
+    "mintOpen": true,
+    "mintPhase": 1,
+    "allowlistOpen": true,
+    "publicOpen": false,
+    "totalMinted": 323,
+    "saleMinted": 223,
+    "saleLeft": 2177,
+    "maxSupply": 2500,
+    "allowlistPriceWei": "15000000000000000",
+    "publicPriceWei": "30000000000000000",
+    "ca": "0x3a98de41a0df554f6b69ca1b5a1ad93a745ab1f2",
+    "marketContract": "0x0366772402502ffd2e349033a9aaf20092a9f613",
+    "chain": "robinhood",
+    "note": "公售时刻已过但 publicOpen 仍 false；allowlist LIVE"
+  },
+  "pushSha": null,
+  "tip": null,
+  "push": {
+    "attempted": false,
+    "ok": false,
+    "sha": null
+  }
+}
