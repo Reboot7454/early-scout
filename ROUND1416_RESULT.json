@@ -58,10 +58,10 @@
     "attempted": true,
     "ok": true,
     "sha": "c9981842d77f09dd1c26a0c9889ab925e7ab540b",
-    "tip": "58048b751a7c96631e58f5ee70b7424d59d9e7c3",
     "short": "c998184",
-    "tipShort": "58048b7",
-    "dataSha": "c9981842d77f09dd1c26a0c9889ab925e7ab540b"
+    "tip": "20e375a153b33ee6c3ad4cf387b2e8dafcb1e5bf",
+    "tipShort": "20e375a",
+    "metaPatchSha": "58048b7"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1416：Discord alpha 补收 orecompute,larderhood,vyntrapad,fabledesk,cropytrade,elyhook,elytheia；清 eyemine-bnb；lastSeen→2026-11-08 00:39；lastChecked→2026-11-08 00:46 CST",
@@ -360,5 +360,6 @@
     "elytheia"
   ],
   "metaLastSeenPatched": true,
-  "note": "patched meta.lastSeenByChannel + discordPeekDeferred=false after pipeline (pipeline wrote discordAlphaPeek only)"
+  "note": "patched meta.lastSeenByChannel + discordPeekDeferred=false after pipeline (pipeline wrote discordAlphaPeek only)",
+  "remoteVerifiedHow": "raw.githubusercontent.com @58048b7/20e375a (main CDN briefly stale)"
 }

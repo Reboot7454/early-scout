@@ -15,7 +15,6 @@
 - panel: https://reboot7454.github.io/early-scout/
 - docsSynced: true
 - pushSha: c9981842d77f09dd1c26a0c9889ab925e7ab540b
-- remoteVerified: true (meta.round=1416；lastSeen meta patched to match discordAlphaPeek)
-- metaPatch: lastSeenByChannel + discordPeekDeferred=false
-- tip: 58048b751a7c96631e58f5ee70b7424d59d9e7c3
-- pushShort: 58048b7 / data@c998184
+- tip: 20e375a153b33ee6c3ad4cf387b2e8dafcb1e5bf
+- remoteVerified: true (commit-pinned raw @58048b7; main CDN may lag)
+- metaPatch: lastSeenByChannel synced + discordPeekDeferred=false @58048b7
