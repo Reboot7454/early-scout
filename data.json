@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-08 05:35 CST",
+    "updated": "2026-11-08 06:05 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R1413",
-    "lastScout": "2026-11-08 05:35 CST",
+    "lastScout": "2026-11-08 06:05 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -693,7 +693,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1432,
+    "round": 1433,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2100,7 +2100,10 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "noelyelysium"
+      "gikocat",
+      "torusmarkets",
+      "elyseapro",
+      "hobsdotfun"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4464,23 +4467,24 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-11-08 05:19",
-      "lastChecked": "2026-11-08 05:22 CST",
-      "newestCardTime": "2026-11-08 05:19",
-      "cardsAfterCutoff": 30,
-      "note": "R1432：discordPeekDeferred=true（executor无浏览器）；suggested cutoffs 沿用 R1431 lastSeenByChannel alpha-3≈05:17 / backup≈05:19 / smart≈05:14 / alpha-1≈05:16；勿编造 Peek 内容。",
-      "lastRound": 1431,
+      "deferred": false,
+      "lastSeen": "2026-11-08 06:00",
+      "lastChecked": "2026-11-08 06:05 CST",
+      "newestCardTime": "2026-11-08 06:00",
+      "cardsAfterCutoff": 34,
+      "note": "R1433：Discord alpha 补收 gikocat,torusmarkets,elyseapro,hobsdotfun；清 noelyelysium；lastSeen→2026-11-08 06:00；lastChecked→2026-11-08 06:05 CST；elysiumDemoted: hobsdotfun,elyseapro,torusmarkets（自称未核验已降栏）",
+      "lastRound": 1433,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-08 05:17",
+        "alpha-3-new-accounts": "2026-11-08 06:00",
         "alpha-1-backup": "2026-11-08 05:19",
-        "smart-accounts-tracker": "2026-11-08 05:14",
+        "smart-accounts-tracker": "2026-11-08 05:31",
         "alpha-1": "2026-11-08 05:16"
       },
       "elysiumDemoted": [
-        "thronewars"
-      ],
-      "pendingRound": 1432
+        "hobsdotfun",
+        "elyseapro",
+        "torusmarkets"
+      ]
     },
     "round239Added": [
       "tsunamilaunch",
@@ -26352,9 +26356,197 @@
     "ufCursorR1432": 184,
     "r1432SoftDebt": "brushed",
     "pushShaR1432": "218e80a36586b5cd9912769581837ece1eb20054",
-    "docsSyncedR1432": true
+    "docsSyncedR1432": true,
+    "round1433Added": [
+      "gikocat",
+      "torusmarkets",
+      "elyseapro",
+      "hobsdotfun"
+    ]
   },
   "candidates": [
+    {
+      "id": "hobsdotfun",
+      "name": "Hobs",
+      "handle": "@hobsdotfun",
+      "twitter": "@hobsdotfun",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Hobsdotfun"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.4
+      },
+      "highlights": [
+        "一次性质押 HYPE，收益持续支付 agent 算力",
+        "明确面向 Elysium 构建的产品机制"
+      ],
+      "drawbacks": [
+        "无 testnet/mint 或合约地址等落地细节",
+        "极新账号，仅 bio 一条线索"
+      ],
+      "whatsNew": "新出现的 agent 算力永续支付概念，基于 HYPE 质押收益",
+      "summary": "以 HYPE 质押收益喂养 agent 算力的早期 Elysium 生态项目，机制描述具体、新颖，但落地信息不足，列为观察。",
+      "blurb": "质押 HYPE 养 agent 算力，早期观察。",
+      "round": 1433,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-08 06:05 CST",
+      "addedAt": "2026-11-08 06:05 CST",
+      "lastChecked": "2026-11-08 06:05 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true,
+      "zone": null
+    },
+    {
+      "id": "elyseapro",
+      "name": "Elysea",
+      "handle": "@elyseapro",
+      "twitter": "@elyseapro",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Elyseapro"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 4,
+        "overall": 6.0
+      },
+      "highlights": [
+        "Elysium 上专属 NFT marketplace",
+        "独立项目账号，bio 直接给出产品定位"
+      ],
+      "drawbacks": [
+        "未公布 testnet/mint 时间与具体部署细节",
+        "0 粉丝，除 bio 外信息极少"
+      ],
+      "whatsNew": "新出现的 Elysium 生态 NFT 交易市场账号，仅关注 @Enter_Elysium",
+      "summary": "Elysium 生态内定位明确的 NFT marketplace 早期账号，有独立推特与产品描述，但尚无测试网/mint 等可操作节点，先观察。",
+      "blurb": "Elysium 专属 NFT marketplace，早期观察位。",
+      "round": 1433,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-08 06:05 CST",
+      "addedAt": "2026-11-08 06:05 CST",
+      "lastChecked": "2026-11-08 06:05 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true,
+      "zone": null
+    },
+    {
+      "id": "torusmarkets",
+      "name": "Torus Markets",
+      "handle": "@torusmarkets",
+      "twitter": "@torusmarkets",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/TorusMarkets"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 6.9
+      },
+      "highlights": [
+        "资金费率市场，围绕Hyperliquid",
+        "明确部署在Elysium"
+      ],
+      "drawbacks": [
+        "零粉极早期",
+        "无公开链接/文档",
+        "未核验LZ"
+      ],
+      "whatsNew": "基于Elysium构建的资金费率做多/做空/价差/锁定市场。",
+      "summary": "Torus Markets做Hyperliquid资金费率的可交易市场，bio给出清晰玩法且明确基于Elysium部署，属极早期可跟踪项目。",
+      "blurb": "Elysium上的资金费率市场，玩法清晰。",
+      "round": 1433,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-08 06:05 CST",
+      "addedAt": "2026-11-08 06:05 CST",
+      "lastChecked": "2026-11-08 06:05 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true,
+      "zone": null
+    },
+    {
+      "id": "gikocat",
+      "name": "GikoCat",
+      "handle": "@gikocat_",
+      "twitter": "@gikocat_",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/GikoCat_"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 5,
+        "overall": 5.6
+      },
+      "highlights": [
+        "明确$GIKO Soon Launch",
+        "声明部署于Elysium",
+        "有meme叙事（1998 Shift-JIS猫）"
+      ],
+      "drawbacks": [
+        "3粉丝，账号极新",
+        "无合约/官网链接",
+        "Elysium部署未核实"
+      ],
+      "whatsNew": "$GIKO即将在Elysium上发射",
+      "summary": "GikoCat猫meme项目，bio称构建于Elysium并将Soon Launch，属可跟踪的极早期meme发射。",
+      "blurb": "Elysium上的$GIKO猫meme，待发射。",
+      "round": 1433,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 3,
+      "xFollowers": 3,
+      "firstSeen": "2026-11-08 06:05 CST",
+      "addedAt": "2026-11-08 06:05 CST",
+      "lastChecked": "2026-11-08 06:05 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "noelyelysium",
       "name": "noely",
@@ -26394,7 +26586,7 @@
         "x": "https://x.com/noelyelysium",
         "twitter": "https://x.com/noelyelysium"
       },
-      "newThisRound": true,
+      "newThisRound": false,
       "lastChecked": "2026-11-08 05:35 CST",
       "updatedAt": "2026-11-08 05:35 CST",
       "source": "x-kw-search R1432",
@@ -226343,19 +226535,22 @@
     }
   ],
   "newThisRound": [
-    "noelyelysium"
+    "gikocat",
+    "torusmarkets",
+    "elyseapro",
+    "hobsdotfun"
   ],
-  "alertMessage": "R1432：新收 noelyelysium（自称Elysium发射台，0粉未核验降栏台子/Meme）；PrimateLegends MINT LIVE（≤2h）；hopkin/elys-tape/oil/elysium-meme/bitrush LIVE；erupt Nov9 FREE；broisafreak GTD 11/9 01:00CST。面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1433新收4（focus均否，台子/Meme）：gikocat、torusmarkets、elyseapro、hobsdotfun（后三自称Elysium未核验已降栏）；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "play-pixelora"
   ],
-  "updatedAt": "2026-11-08 05:35 CST",
-  "updated": "2026-11-08 05:35 CST",
+  "updatedAt": "2026-11-08 06:05 CST",
+  "updated": "2026-11-08 06:05 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-08 05:35 CST",
+  "lastScout": "2026-11-08 06:05 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -226397,7 +226592,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3297,
+  "candidateCount": 3301,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -229085,5 +229280,11 @@
   ],
   "round1432Added": [
     "noelyelysium"
+  ],
+  "round1433Added": [
+    "gikocat",
+    "torusmarkets",
+    "elyseapro",
+    "hobsdotfun"
   ]
 }
