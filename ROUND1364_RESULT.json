@@ -1,0 +1,106 @@
+{
+  "round": 1364,
+  "completedAt": "2026-11-07 08:32 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": false,
+  "notifyReason": null,
+  "alertMessage": null,
+  "newIds": [],
+  "newThisRound": [],
+  "newCount": 0,
+  "newAdmits": [],
+  "admissions": [],
+  "discordPeekDeferred": true,
+  "discordPeekReason": "executor no browser/computerUse; quiet-cancel (R1359/R1361/R1362 login-wall history; R1363 already completed DC40 peek lastSeen 08:10)",
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admit=3candidates→score reject spam-cluster; alert=n/a",
+  "dsNote": "abyssora/haunted-manor/batik-ledger DS admit-mode initially true but score-mode admit=false (spam-farm cluster); WideWide/ACORE no official twitter skip",
+  "tenLanes": true,
+  "tenLanesCoverage": "UF shard 783→800 + must(Oil_Hood/pocketpad/Elysium_meme/Enter_Elysium/TapeAI/ShieldedNaka) + LIVE soft(cashcat/genai/classified/spike/navo/agent-pioneer) + 4 merged KW (Elysium/Tape/GIWA + AgentID/BNB/RH + Stark/BTC/LZ + 中文打新); discordPeekDeferred",
+  "tenLanesBrief": {
+    "打新": "LIVE续 cashcat/genai/spike/agent-pioneer/kenranft等; skip spam-cluster abyssora等",
+    "挖矿": "classified-mining LIVE续; TapeAI stake/APR 11/8; agent-pioneer Forge ORE",
+    "台子/Meme": "oil-hood今日19:00CST; pocketpad 11/8 00:00; elysium.meme今日23:00; navo预售至11/8 22:00CST",
+    "GO盘": "KW soft; no new",
+    "LayerZero": "KW soft; no new",
+    "Elysium": "Enter_Elysium Zerion/Hooks/Codex; 主网11/9; erupt/elywizardz/home soft; exclude spam",
+    "Tape/电路": "TapeAI 质押3178+ APR展示11/8 00:00CST",
+    "GIWA": "joayo-fun/pabal soft; no new",
+    "DogeEVM": "KW soft; no new",
+    "BTC": "ShieldedNaka $SHNAKAS市场已开; DigiGolds Ord_Dropz coming soon soft",
+    "Starknet": "KW soft; no new mint"
+  },
+  "xQuota": {
+    "remainingBefore": 1000,
+    "remaining": 973,
+    "xReads": 27,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 800,
+    "checkedAt": "2026-11-07 08:32 CST"
+  },
+  "ufCursor": {
+    "from": 783,
+    "to": 800
+  },
+  "ufNF": [
+    "bianfenhong",
+    "dinomitesnft",
+    "Morumai_",
+    "emberlingreal"
+  ],
+  "ufSuspended": [],
+  "le2h": [],
+  "liveContinue": [
+    "cashcat-agent",
+    "neon-fox-agents",
+    "genai",
+    "classified-mining",
+    "spike-wtf",
+    "navodotfamily",
+    "plato-unseen",
+    "dreadwired",
+    "kenranft",
+    "pixiopet",
+    "agent-pioneer"
+  ],
+  "upcoming": {
+    "oil-hood": "2026-11-07 19:00 CST",
+    "elysium-meme": "2026-11-07 23:00 CST",
+    "pocketpad": "2026-11-08 00:00 CST",
+    "tapeai-apr": "2026-11-08 00:00 CST",
+    "navo-presale-end": "2026-11-08 22:00 CST",
+    "elysium-mainnet": "2026-11-09"
+  },
+  "skipped": [
+    {
+      "id": "abyssora",
+      "reason": "DS score admit=false spam-farm cluster"
+    },
+    {
+      "id": "haunted-manor",
+      "reason": "DS score admit=false spam-farm cluster"
+    },
+    {
+      "id": "batik-ledger",
+      "reason": "DS score admit=false spam-farm cluster"
+    },
+    {
+      "id": "WideWide",
+      "reason": "no official twitter"
+    },
+    {
+      "id": "AGENT-CORE",
+      "reason": "no official twitter; spam promo only"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "seedely",
+    "cacheprotocols"
+  ],
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1364 ample post-reset paced(xReads27 rem973 softCap28); UF783→800; 无新收录(spam集群DS拒); LIVE续11; oil-hood今日19:00/elysium.meme23:00/pocketpad11/8 00:00; Discord Peek延后(无浏览器); docsSynced",
+  "HashDogeGeniusCorlaFlap": "STOPPED"
+}
