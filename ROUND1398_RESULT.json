@@ -1,0 +1,168 @@
+{
+  "round": 1398,
+  "completedAt": "2026-11-07 19:00 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admit+le2h_oil_hood",
+  "alertMessage": "R1398新收 Mortal Apes @mortalApes（打新：ETH FREE mint 2222，今日21:50CST）；oil-hood今日19:00开井≤1h Pons；面板 https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "mortal-apes"
+  ],
+  "newThisRound": [
+    "mortal-apes"
+  ],
+  "newCount": 1,
+  "newAdmits": [
+    "mortal-apes"
+  ],
+  "admissions": [
+    {
+      "id": "mortal-apes",
+      "handle": "@mortalApes",
+      "category": "打新",
+      "name": "Mortal Apes Society"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "hamieverse",
+      "reason": "仅第三方称 mint soon，supply/price TBA 且无精确时间"
+    }
+  ],
+  "rejected": [
+    {
+      "id": "hamieverse",
+      "reason": "早期窗口不明确"
+    },
+    {
+      "id": "useMuse",
+      "reason": "resolve 到空壳个人号，非官推"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "blackskull-app",
+    "useshillo",
+    "ink-koi"
+  ],
+  "discordPeekDeferred": true,
+  "discordPeekReason": "executor无computerUse/browser；父代理可补 Peek",
+  "suggestedCutoffs": {
+    "alpha-1": "2026-11-07 16:13",
+    "alpha-1-backup": "2026-11-07 17:35",
+    "smart-accounts-tracker": "2026-11-07 18:28",
+    "alpha-3-new-accounts": "2026-11-07 18:43"
+  },
+  "dsFallback": false,
+  "dsNote": "deepseek-flash admit+score+alert; admit mortal-apes; skip hamieverse; oil-hood 19:00 LIVE/≤1h",
+  "dsUsage": "deepseek-flash admit+score+alert; admits=1 rejects=1",
+  "tenLanes": true,
+  "tenLanesCoverage": "打新｜挖矿｜台子/Meme｜GO盘｜LayerZero｜Elysium｜Tape/电路｜GIWA｜DogeEVM + BTC/Starknet soft",
+  "tenLanesBrief": "UF1049→1063 + must/LIVE + 3KW; admit mortal-apes; oil-hood 19:00; discordPeekDeferred",
+  "xReads": 19,
+  "remainingBefore": 575,
+  "remaining": 556,
+  "mode": "pace",
+  "softCap": 19,
+  "ufCursor": {
+    "from": 1049,
+    "to": 1063
+  },
+  "xQuota": {
+    "remainingBefore": 575,
+    "remaining": 556,
+    "xReads": 19,
+    "mode": "pace",
+    "softCap": 19,
+    "ufCursor": 1063,
+    "checkedAt": "2026-11-07 19:00 CST",
+    "note": "UF14 resolve+4posts + must7 + focus2 + 1resolve + 3KW + KWresolve1; softCap19; admit mortal-apes; oil-hood 19:00; discordPeekDeferred"
+  },
+  "le2h": [
+    "oil-hood",
+    "hakuna-agent"
+  ],
+  "watches": {
+    "le2h": [
+      "oil-hood",
+      "hakuna-agent"
+    ],
+    "le2hCurrent": [
+      {
+        "id": "oil-hood",
+        "at": "19:00CST",
+        "note": "Pons开井窗口到/≤1h",
+        "le2h": true
+      },
+      {
+        "id": "hakuna-agent",
+        "at": "LIVE",
+        "note": "AgentID FREE首铸续",
+        "le2h": true
+      },
+      {
+        "id": "goofies",
+        "at": "LIVE",
+        "note": "8300/9999",
+        "le2h": false
+      },
+      {
+        "id": "abyssora",
+        "at": "LIVE",
+        "note": "BNB FREE mint 续",
+        "le2h": false
+      },
+      {
+        "id": "axiom-arb",
+        "at": "LIVE",
+        "note": "Arb Genesis FREE 666",
+        "le2h": false
+      }
+    ],
+    "tonight": [
+      "oil-hood 今日19:00CST 开井",
+      "mortal-apes 今日21:50CST FREE mint",
+      "elysium.meme 今日23:00CST",
+      "pocketpad 11/8 00:00CST",
+      "primate-legends 11/8 05:00CST GTD"
+    ]
+  },
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "push": {
+    "attempted": true,
+    "ok": null
+  },
+  "nf": [
+    "ePegsV4",
+    "nibblewage"
+  ],
+  "refreshed": [
+    "oil-hood",
+    "hakuna-agent",
+    "abyssora",
+    "goofies",
+    "pocketpad",
+    "elysium-meme",
+    "primate-legends",
+    "axiom-arb",
+    "bramble-bash",
+    "enter-elysium",
+    "tapeai",
+    "ink-pod",
+    "bond-agent"
+  ],
+  "softDebt": [
+    "cantonPadWatch",
+    "glazeWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch"
+  ],
+  "stopped": [
+    "HashDoge",
+    "Genius",
+    "Corla",
+    "Flap"
+  ],
+  "summary": "R1398：新收 mortal-apes；清 blackskull-app/useshillo/ink-koi；oil-hood 19:00开井；UF 1049→1063；discordPeekDeferred；xReads19 rem556 mode=pace softCap19"
+}
