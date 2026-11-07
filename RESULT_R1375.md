@@ -41,5 +41,5 @@
 ## tenLanes
 UF shard 881→895 + must(Oil_Hood/pocketpad/Elysium_meme/Enter_Elysium/TapeAI/navo/Elyscription/usealchemist/ShieldedNaka/GIWA/DogeOS/Blonskr/bitcointapes/squeek/PlunderPort/Bramble/Applecat/pipopad/TAPELIQUID/souls/JoinElypad/Ascend/Ammora) + LIVE soft + soft watches + 3 merged KW；discordPeekDeferred；十栏等量覆盖；RH栈补漏
 
-- pushSha: (pending)
-- remoteVerified: pending
+- pushSha: 5f731ef1465ea24ecbee1b9dbfcbc8800c669a16
+- remoteVerified: true
