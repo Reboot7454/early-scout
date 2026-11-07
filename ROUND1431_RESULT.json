@@ -47,12 +47,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "12409f5d1e3f8e25a422b14756647766eb6364ec",
+    "short": "12409f5"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1431：Discord alpha 补收 bnsave-project,thronewars,dividum-io；清 elysium-makers；lastSeen→2026-11-08 05:19；lastChecked→2026-11-08 05:22 CST；thronewars 自称Elysium未核验已降栏",
-  "remoteVerified": false,
+  "remoteVerified": 1431,
   "cardsFile": "dc40_cards_r1431.json",
   "priorRoundNote": "R1430 meta NTR ['launchontide', 'grandcityx', 'proofbeat', 'ostrakonelysium', 'moneroanon', 'sendu', 'elysium-makers']; cardsAfterCutoff=30",
   "lastSeenByChannel": {
@@ -190,5 +192,8 @@
   "alert": "DC补漏R1431新收3项（BNSAVE、Throne Wars、Dividum）；面板 https://reboot7454.github.io/early-scout/",
   "elysiumDemoted": [
     "thronewars"
-  ]
+  ],
+  "pushSha": "12409f5d1e3f8e25a422b14756647766eb6364ec",
+  "docsSynced": true,
+  "rawVerified": 1431
 }
