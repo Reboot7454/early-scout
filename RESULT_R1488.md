@@ -15,4 +15,4 @@
 - dsNote: DeepSeek deepseek-flash(thinking) 完整 JSON；admit the-long-necks/elytypes/pairmine，skip MyArgosodyssey/GHOSTPAYLOL。本地补 handles 进 alert、whatsNew 加【R1488】前缀、zoneHint 归到标准栏名，并用 1rpc.io/base 复验 Long Necks totalSupply=347。dsFallback=false
 - docsSynced: true
 - skipped: MyArgosodyssey（自称 launchpad 但代币打在已在库的 Montra）；GHOSTPAYLOL（HyperEVM 隐身支付，非 Elysium，无独立 mint 窗/CA）
-- pushSha: PENDING
+- pushSha: 5e08dd0
