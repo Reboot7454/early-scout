@@ -1,0 +1,101 @@
+{
+  "round": 1481,
+  "mode": "ample",
+  "completedAt": "2026-11-09 00:47 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "新收 daymon-elysium；fortune-paws/ordo-files/broisafreak/elysium-gloom/agent-pulse 处于≤2h。",
+  "alertMessage": "R1481新收录：Daymon（Elysium AImeme台，官推极新、Token未live）。≤2h：FortunePaws付费LIVE362/3333；BRO GTD01:00/Public02:00CST；Elysium Gloom约00:50截止；旺财Agent 23:20售≤01:20；Ordo mint live（Canary可退/Swan1.5x，7天<5555全退）。Erupt Genesis checker已开，mint11/9 20:00 CST；Gloop2501/3333免费LIVE；Chipmunks1042前3免费续。https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "daymon-elysium"
+  ],
+  "newAdmits": [
+    {
+      "id": "daymon-elysium",
+      "name": "Daymon",
+      "handle": "@DaymonElysium",
+      "category": "台子/Meme",
+      "note": "自称 live on Elysium 的 AI memecoin 发射台（$0 发币/1% 费/AI 钱包做 HL 永续），Token 未 live；11/4 建号 0 粉 1 帖"
+    }
+  ],
+  "newCount": 1,
+  "clearedPrevNTR": [
+    "ordo-files"
+  ],
+  "clearedPrevNewThisRound": true,
+  "skipped": [
+    {
+      "handle": "@use_stoke",
+      "reason": "未说明链/机制"
+    },
+    {
+      "handle": "@Varga_Tech",
+      "reason": "2023老号非新"
+    }
+  ],
+  "le2h": [
+    "fortune-paws",
+    "ordo-files",
+    "broisafreak",
+    "elysium-gloom",
+    "agent-pulse"
+  ],
+  "le2hStatus": {
+    "ordo-files": "【R1481】00:11/00:26 CST 官推补机制：1B ORDO 固定供给，铸造 BNB 70%进池/20%退款/10%团队，合约 Sourcify 验证无 owner；Canary 上线前可退，Swan 1.5x 不可退；7 天未达 5,555 全额链上退款。仍未见 CA 文本。",
+    "fortune-paws": "【R1481】链上 totalMinted=362/3333（上轮357），付费 0.0005 BNB 仍 LIVE，开窗约22:35–23:00 起算仍≤2h（至约01:00）。",
+    "chipmunks-bnb": "【R1481】链上 totalSupply=1042（上轮1039）；开铸约22:30起 2h 窗已过，长 LIVE 续，未满3333前每钱包前3免费。",
+    "primate-legends": "【R1481】23:57 CST 官宣 mint 价降至 0.00025 对所有人，Public 仍开，近 10% minted；高于该价铸造者 48h 内可退 ≥80%（NFT 送回金库 0x5789…0198）。",
+    "erupt-fun": "【R1481】00:27 CST 官宣 Erupt Genesis checker 已上线，Mint 2026-11-09 12:00 UTC（=20:00 CST）开始；collab 名单 08:00 UTC 前补交；将走 Elysium 主网（Relay/kalosfun 桥）。",
+    "broisafreak": "【R1481】本窗官推仅回复互动；GTD 01:00 / Public 02:00 CST 维持，≤2h。",
+    "elyziuma": "【R1481】00:12–00:26 CST 回复：mint 在 Kalos 进行，GTD 仅测试网 NFT 持有者，WL checker 即将上线；主网 11/9，非≤2h。",
+    "agent-pulse": "【R1481】本窗无新官帖；旺财Agent 23:20 CST 开售起 2h 内（至约01:20）仍≤2h；sale 合约未确认。",
+    "elysium-gloom": "【R1481】本窗无新官帖；collab 截止约 00:50 CST，≤2h。",
+    "gloop-slime": "【R1481】00:13 CST 官宣 GLOOP 市场开放，2,501/3,333 minted（75%），免费 mint 仍 LIVE，118 挂单。",
+    "opacra": "【R1481】22:16 CST 官宣 Opacra 主网已 live，14:00 UTC 起全民挖矿，无预挖无预售，30 秒块、普通电脑可挖；v1.0.1 已发，矿池列表已出。",
+    "toast-bnb": "【R1481】/api/stats 代币 totalSupply 1,016,555,000（含储备10亿）≈165 份已售，免费剩≈4835，与上轮持平，仍 LIVE，非≤2h。"
+  },
+  "onchainChecks": {
+    "fortune-paws": {
+      "totalMinted": 362,
+      "ca": "0x152f4704Ed0a0AA1514952a06Cf9F36cB4caf088"
+    },
+    "chipmunks-bnb": {
+      "totalSupply": 1042,
+      "ca": "0xB2625d56A7Fc855Bf7432B5584B390A4b4d9C7fD"
+    },
+    "toast-bnb": {
+      "cardsSoldApprox": 165,
+      "freeRemainingApprox": 4835
+    }
+  },
+  "xReads": 8,
+  "remainingBefore": 709,
+  "remaining": 701,
+  "softCap": 40,
+  "ufCursor": 1128,
+  "ufCursorBefore": 1096,
+  "xQuota": {
+    "remainingBefore": 709,
+    "remaining": 701,
+    "xReads": 8,
+    "mode": "ample",
+    "softCap": 40,
+    "ufCursor": 1128,
+    "ufCursorBefore": 1096,
+    "checkedAt": "2026-11-09 00:46 CST",
+    "eveningReserve": 80,
+    "note": "API-call xReads=8 (UF1 + must/≤2h1 + 6 KW 含 BTC/Starknet 重试1)；首 footer 708 => remainingBefore 709；末 footer 701；reset 2026-11-09 08:00 CST"
+  },
+  "tenLanes": "UF1096→1128（32 号 from: 批量 1 次，全在库无 NF） + must/≤2h 1 次批量（Frtn_Paws/ChipmunksBNB/Elysiumgloom/BROISAFREAK/MintRoboAi/ordo_xlife/numbiagent/TOASTbnb/Elyziumaa/ascensionely/ponzipadapp/GloopSlimeHQ/Jake_beast16/oddlode/Enter_Elysium/squeekchain/starx_xlayer/flapdotsh/TapeAIAgent） + 6 search_posts_all（打新/台子/Meme/AgentID/X Layer；挖矿/GO盘/squeek/PoW；LayerZero/Elysium；Tape/GIWA/DogeEVM；BTC/Starknet 首查 0 结果→简化重试 1 次）。九栏+BTC/Starknet 均跑；Canton/Glaze/TokenWorks lastChecked 已刷。mentions 本轮未单独拉（并入 must 批量+KW 含 @Enter_Elysium/squeekchain/X Layer）。",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "reason": "executor 无浏览器"
+  },
+  "dsNote": "DeepSeek deepseek-flash(thinking) 做 admit/score/文案/alertMessage；首次 max_tokens 3000 思考溢出无 JSON，加大到 12000 重跑成功。",
+  "dsFallback": false,
+  "docsSynced": true,
+  "watchAdds": [
+    "@DaymonElysium → userFollowWatch + elysiumWatch"
+  ]
+}
