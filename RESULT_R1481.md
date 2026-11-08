@@ -12,4 +12,4 @@
 - dsNote: DeepSeek deepseek-flash(thinking) 做 admit/score/文案/alertMessage；首次 max_tokens 3000 思考溢出无 JSON，加大到 12000 重跑成功。  dsFallback=false
 - docsSynced: true
 - skipped: @use_stoke（无链/机制）、@Varga_Tech（老号非新）
-- pushSha: 见 git log（本文件随同 commit 推送）
+- pushSha: 890fbee（主提交；pushSha 回写为后续小提交）
