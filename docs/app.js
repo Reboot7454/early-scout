@@ -855,9 +855,12 @@
   }
 
   function updatedLabel() {
-    const u = String(state.data?.meta?.updated || "");
-    if (!u) return "—";
-    return /CST|UTC|\+\d{2}/.test(u) ? u : `${u} CST`;
+    const meta = state.data?.meta || {};
+    const r = Number(meta.round) || 0;
+    const u = String(meta.updated || meta.lastScout || meta.updatedAt || state.data?.updatedAt || "");
+    const time = !u ? "—" : (/CST|UTC|\+\d{2}/.test(u) ? u : `${u} CST`);
+    // Always surface scout round: empty-admit rounds (≤2h refresh) have no round chip otherwise.
+    return r ? `R${r} · ${time}` : time;
   }
 
   function discoveredMs(c) {
@@ -1245,21 +1248,30 @@
       )
       .join("");
 
-    // Only rounds that actually have a visible candidate. Scout runs that only
-    // refresh schedules / ≤2h alerts leave gaps (e.g. 202–205) with zero cards.
+    // Prefer rounds that have a visible candidate. Always include the current
+    // scout round (meta.round) even when that run only refreshed ≤2h / schedules
+    // and admitted zero new cards — otherwise the panel looks "stuck" on an older chip.
     const presentRounds = new Set();
     for (const c of state.data.candidates) {
       if (!hasTwitter(c)) continue;
       const n = Number(c.round) || 1;
       if (Number.isFinite(n)) presentRounds.add(n);
     }
+    const scoutRound = Number(state.data?.meta?.round) || 0;
+    if (scoutRound) presentRounds.add(scoutRound);
     const rounds = [
       { id: "all", label: "全部轮次" },
       ...[...presentRounds]
         .sort((a, b) => a - b)
         .map((n) => ({
           id: String(n),
-          label: `轮次 ${n}`,
+          label:
+            n === scoutRound &&
+            ![...state.data.candidates].some(
+              (c) => hasTwitter(c) && Number(c.round) === n
+            )
+              ? `轮次 ${n}·侦察`
+              : `轮次 ${n}`,
         })),
     ];
     const totalRoundPages = Math.max(1, Math.ceil(rounds.length / ROUND_PAGE_SIZE));
