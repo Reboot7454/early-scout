@@ -1,0 +1,21 @@
+# RESULT R1477 — 2026-11-08 22:35 CST
+
+- notify: **true** — 新收录 Fortune Paws/@Frtn_Paws；Chipmunks 链上已开铸、numbi 22:00 LIVE、miuadotfun Genesis 至约 23:31 仍 ≤2h。
+- alertMessage: R1477 早期打新雷达：新收录 Fortune Paws（@Frtn_Paws），3333只，前333对Agent ID免费，之后0.0005 BNB，每钱包最多2，可claim PAWS。合约已部署、未开铸。≤2h：Chipmunks 链上已开铸（已铸1013，前3免费）、numbi 22:00 已 LIVE、miuadotfun Genesis 至约23:31。面板：https://reboot7454.github.io/early-scout/
+- newThisRound: fortune-paws (@Frtn_Paws) — BNB 3333 NFT，前333 Agent ID 免费后 0.0005 BNB，每钱包最多2，NFT 0x152f4704Ed0a0AA1514952a06Cf9F36cB4caf088，mintOpen=false/totalMinted=0，未开铸
+- clearedPrevNTR: ['chipmunks-bnb']
+- skipped: stockpocks / monni / nmeows / glyph-elysium / armaz-agent
+- ≤2h (le2h): ['chipmunks-bnb', 'numbi', 'miuadotfun']
+  - numbi: 官方推特从22:12起连续发布“I'm LIVE — mint is OPEN”；链上totalSupply=62（约22:30）。前3000个免费，之后0.001 BNB。22:00已开始，窗口约22:00至24:00。
+  - chipmunks-bnb: 链上mintOpen=true，totalMinted=1013（约22:30），已实际开铸；官网仍写Mint opens soon。开铸时刻未公告。在总数未满3333前，每钱包前3个免费。
+  - beast16: 22:00官方帖称193 minted，Mint open/Market open，代币时间未披露。20:00已LIVE，2小时窗口已在22:00结束，目前不再计入2小时窗口。
+  - gloop-slime: 链上NFT 1796/3333，mintOpen=true（约22:30）；NFT的2小时窗口已在22:03结束。$GLOOP自20:31在Flap LIVE，2小时窗口已在22:31结束。
+  - miuadotfun: 22:06官方宣布20% SOLD OUT IN FCFS 30 MINUTES，Whitelist Phase is Live。Genesis 21:31开始，2小时窗口约至23:31。
+  - toast-bnb: 官网/api/stats显示链上数据cardsSold=160/10000，免费已发160/5000，免费剩4840，仍LIVE。不在2小时窗口。
+- xReads 9 / remainingBefore 751 / remaining 742 / mode ample / softCap 40 / ufCursor 969→1000（新 NF ripstackfun）
+- tenLanes: UF969→1000（30 查询 + 1 prior NF topaaafun 不连刷；新确认 NF ripstackfun；本片均已在库） + must/LIVE 2 次批量（numbi/beast16/gloop/miua/toast/chipmunks/shades/gloom/undead/broisafreak/launchonelysium/xypher/oddlode/Mauverse/AgenticEggs） + 5 search_posts_all（打新/台子/Meme + 挖矿/GO + LZ/Elysium + Tape/GIWA/DogeEVM + BTC/Starknet）+ 1 候选资料批量（打新｜挖矿｜台子/Meme｜GO｜LZ｜Elysium｜Tape｜GIWA｜DogeEVM + BTC/Stark）
+- discordPeekDeferred: true（cutoff = R1471 lastSeen alpha-1 19:12 / backup 17:34 / smart 17:01 / alpha-3 19:14 CST）
+- docsSynced: true
+- dsFallback: partial-alert-stitch — deepseek-flash thinking-on：admit 首轮放过 5（未带先例），带本库先例复裁后 admit 1（fortune-paws），skip stockpocks/monni/nmeows/glyph-elysium/armaz-agent；score 成功；watch/卡片文案第一次被思考文本截断，第二次成功；alert 第三次调用再次泄思考截断，最终 alert = DS 第二次 alertMessage + 同次 summary 的 ≤2h 名单本地拼接（轻度兜底）
+- HashDoge/Genius/Corla/Flap: STOPPED
+- pushSha: PENDING

@@ -1,0 +1,148 @@
+{
+  "round": 1477,
+  "mode": "ample",
+  "completedAt": "2026-11-08 22:35 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "新收录 Fortune Paws/@Frtn_Paws；Chipmunks 链上已开铸、numbi 22:00 LIVE、miuadotfun Genesis 至约 23:31 仍 ≤2h。",
+  "alertMessage": "R1477 早期打新雷达：新收录 Fortune Paws（@Frtn_Paws），3333只，前333对Agent ID免费，之后0.0005 BNB，每钱包最多2，可claim PAWS。合约已部署、未开铸。≤2h：Chipmunks 链上已开铸（已铸1013，前3免费）、numbi 22:00 已 LIVE、miuadotfun Genesis 至约23:31。面板：https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "fortune-paws"
+  ],
+  "newAdmits": [
+    {
+      "id": "fortune-paws",
+      "handle": "@Frtn_Paws",
+      "name": "Fortune Paws",
+      "category": "打新",
+      "chain": "BNB Chain",
+      "ca": "0x152f4704Ed0a0AA1514952a06Cf9F36cB4caf088",
+      "website": "https://fortune-paws.pages.dev/",
+      "reason": "当天建号1粉但官网完整+NFT合约已部署可核验；3333只，前333 Agent ID 免费后0.0005 BNB，每钱包最多2，持有 claim PAWS；mintOpen=false/totalMinted=0 未开铸。",
+      "scores": {
+        "early": 92,
+        "actionable": 55,
+        "novelty": 48,
+        "risk": 22,
+        "overall": 58
+      }
+    }
+  ],
+  "newCount": 1,
+  "clearedPrevNTR": [
+    "chipmunks-bnb"
+  ],
+  "clearedPrevNewThisRound": true,
+  "skipped": [
+    {
+      "id": "stockpocks",
+      "handle": "@Stockpocks",
+      "reason": "Elysium Circuit Genesis 11/24 21:00 CST，无合约可核验，距 16 天"
+    },
+    {
+      "id": "monni",
+      "handle": "@monnidotfun",
+      "reason": "已上盘 meme，自称 Elysium 主网 live 但官方主网 11/9"
+    },
+    {
+      "id": "nmeows",
+      "handle": "@Nmeows_Elysium",
+      "reason": "CTO meme 已交易"
+    },
+    {
+      "id": "glyph-elysium",
+      "handle": "@glyph_elysium",
+      "reason": "当天4粉无官网CA"
+    },
+    {
+      "id": "armaz-agent",
+      "handle": "@ArmazAgent",
+      "reason": "当天0粉无官网CA"
+    }
+  ],
+  "le2h": [
+    "chipmunks-bnb",
+    "numbi",
+    "miuadotfun"
+  ],
+  "le2hStatus": {
+    "numbi": "官方推特从22:12起连续发布“I'm LIVE — mint is OPEN”；链上totalSupply=62（约22:30）。前3000个免费，之后0.001 BNB。22:00已开始，窗口约22:00至24:00。",
+    "chipmunks-bnb": "链上mintOpen=true，totalMinted=1013（约22:30），已实际开铸；官网仍写Mint opens soon。开铸时刻未公告。在总数未满3333前，每钱包前3个免费。",
+    "beast16": "22:00官方帖称193 minted，Mint open/Market open，代币时间未披露。20:00已LIVE，2小时窗口已在22:00结束，目前不再计入2小时窗口。",
+    "gloop-slime": "链上NFT 1796/3333，mintOpen=true（约22:30）；NFT的2小时窗口已在22:03结束。$GLOOP自20:31在Flap LIVE，2小时窗口已在22:31结束。",
+    "miuadotfun": "22:06官方宣布20% SOLD OUT IN FCFS 30 MINUTES，Whitelist Phase is Live。Genesis 21:31开始，2小时窗口约至23:31。",
+    "toast-bnb": "官网/api/stats显示链上数据cardsSold=160/10000，免费已发160/5000，免费剩4840，仍LIVE。不在2小时窗口。"
+  },
+  "le2hFlags": {
+    "numbi": true,
+    "chipmunks-bnb": true,
+    "miuadotfun": true,
+    "beast16": false,
+    "gloop-slime": false
+  },
+  "onchainChecks": {
+    "chipmunks-bnb": {
+      "mintOpen": true,
+      "totalMinted": 1013
+    },
+    "numbi": {
+      "totalSupply": 62
+    },
+    "gloop-slime": {
+      "mintOpen": true,
+      "totalMinted": 1796
+    },
+    "fortune-paws": {
+      "mintOpen": false,
+      "totalMinted": 0
+    },
+    "toast-bnb": {
+      "cardsSold": 160,
+      "freeRemaining": 4840
+    }
+  },
+  "xReads": 9,
+  "remainingBefore": 751,
+  "remaining": 742,
+  "softCap": 40,
+  "ufCursor": 1000,
+  "ufCursorBefore": 969,
+  "xQuota": {
+    "remainingBefore": 751,
+    "remaining": 742,
+    "xReads": 9,
+    "mode": "ample",
+    "softCap": 40,
+    "ufCursor": 1000,
+    "ufCursorBefore": 969,
+    "checkedAt": "2026-11-08 22:35 CST",
+    "eveningReserve": 0,
+    "note": "API-call xReads=9 (UF1 + must/LIVE2 + 5 search_posts_all + 1 candidate lookup); first footer 750 after UF => remainingBefore 751 (R1476 后他处已用 ~9); last footer 742"
+  },
+  "ufNF": {
+    "priorSkipNoRequery": [
+      "topaaafun"
+    ],
+    "newNotFound": [
+      "ripstackfun"
+    ],
+    "newSuspended": []
+  },
+  "tenLanes": "UF969→1000（30 查询 + 1 prior NF topaaafun 不连刷；新确认 NF ripstackfun；本片均已在库） + must/LIVE 2 次批量（numbi/beast16/gloop/miua/toast/chipmunks/shades/gloom/undead/broisafreak/launchonelysium/xypher/oddlode/Mauverse/AgenticEggs） + 5 search_posts_all（打新/台子/Meme + 挖矿/GO + LZ/Elysium + Tape/GIWA/DogeEVM + BTC/Starknet）+ 1 候选资料批量（打新｜挖矿｜台子/Meme｜GO｜LZ｜Elysium｜Tape｜GIWA｜DogeEVM + BTC/Stark）",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": {
+      "alpha-1": "2026-11-08 19:12 CST",
+      "backup": "2026-11-08 17:34 CST",
+      "smart": "2026-11-08 17:01 CST",
+      "alpha-3": "2026-11-08 19:14 CST"
+    },
+    "cutoffRound": 1471
+  },
+  "docsSynced": true,
+  "dsFallback": "partial-alert-stitch",
+  "dsNote": "deepseek-flash thinking-on：admit 首轮放过 5（未带先例），带本库先例复裁后 admit 1（fortune-paws），skip stockpocks/monni/nmeows/glyph-elysium/armaz-agent；score 成功；watch/卡片文案第一次被思考文本截断，第二次成功；alert 第三次调用再次泄思考截断，最终 alert = DS 第二次 alertMessage + 同次 summary 的 ≤2h 名单本地拼接（轻度兜底）",
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "pushSha": "PENDING"
+}
