@@ -21,4 +21,4 @@
 - docsSynced: true
 - dsFallback: partial-copy-stitch — deepseek-flash thinking-on：admit skip ElyNode/Memesim；alert+whatsNew 写出后 JSON 在 scheduleNotes 截断，scheduleNotes/summary/alert 按 DS 已写出部分与链上事实本地补全
 - HashDoge/Genius/Corla/Flap: STOPPED
-- pushSha: pending
+- pushSha: f0eb601
