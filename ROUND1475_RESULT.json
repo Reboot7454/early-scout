@@ -1,0 +1,179 @@
+{
+  "round": 1475,
+  "mode": "x-radar",
+  "completedAt": "2026-11-08 21:18 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "新收录 TOAST/@TOASTbnb（BNB Chain Agent ID 份额铸造已 LIVE）；numbi 22:00、beast16 至约 22:00、gloop NFT 至约 22:03 / $GLOOP 至约 22:31 仍 ≤2h。",
+  "alertMessage": "新收 TOAST（BNB Chain 免费打新，免费档 5000 剩 4868，每钱包 10 份，团队匿名+流动性归 owner，轻仓）；同时 22:00 前有 numbi 22:00、beast16 至 22:00 免费首只、gloop NFT 约 22:03 / $GLOOP 约 22:31。全部盯点见 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "toast-bnb"
+  ],
+  "newAdmits": [
+    {
+      "id": "toast-bnb",
+      "handle": "@TOASTbnb",
+      "name": "TOAST",
+      "category": "打新",
+      "chain": "BNB Chain",
+      "reason": "独立官推+官网+链上合约互证，仍处极早期份额铸造：BNB Chain 10,000 份，免费档剩 4868；虽当天建号且流动性已解锁给 owner/treasury，但可操作且非纯喊单。"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "toast-bnb"
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "numbi"
+  ],
+  "clearedPrevNTR": [
+    "numbi"
+  ],
+  "skipped": [
+    {
+      "id": "kerberos-elysium",
+      "handle": "@KerberosElysium",
+      "reason": "当天建号、0粉，无官网、无独立mint窗，代币已上盘"
+    },
+    {
+      "id": "lacuna",
+      "handle": "@lacuna_privacy",
+      "reason": "当天建号、0粉，无独立mint窗，代币已live"
+    },
+    {
+      "id": "elyroute",
+      "handle": "@Elyroute",
+      "reason": "代币已LIVE，无独立mint窗"
+    },
+    {
+      "id": "kpi-elysium",
+      "handle": "@KPIonElysium",
+      "reason": "本窗非开盘/开铸公告"
+    },
+    {
+      "id": "war3",
+      "handle": null,
+      "reason": "维持 skip"
+    },
+    {
+      "id": "timiio",
+      "handle": null,
+      "reason": "维持 skip"
+    },
+    {
+      "id": "tigora",
+      "handle": null,
+      "reason": "仅社区喊单，无独立官推"
+    },
+    {
+      "id": "nusa",
+      "handle": null,
+      "reason": "仅社区喊单，无独立官推"
+    }
+  ],
+  "inLibKwHits": [
+    "cathereum",
+    "spike-wtf",
+    "elynx",
+    "gloop-slime",
+    "beast16",
+    "numbi",
+    "ammora",
+    "hexis",
+    "skitters",
+    "model-citizens",
+    "launchonelysium",
+    "undeadnfts",
+    "broisafreak"
+  ],
+  "xReads": 7,
+  "remainingBefore": 774,
+  "remaining": 767,
+  "mode_budget": "ample",
+  "softCap": 36,
+  "ufCursor": 936,
+  "ufCursorBefore": 904,
+  "xQuota": {
+    "remainingBefore": 774,
+    "remaining": 767,
+    "xReads": 7,
+    "mode": "ample",
+    "softCap": 36,
+    "ufCursor": 936,
+    "ufCursorBefore": 904,
+    "checkedAt": "2026-11-08 21:18 CST",
+    "eveningReserve": 0,
+    "note": "API-call xReads=7 (UF1 + must/LIVE1 + 5 search_posts_all); first footer 773 after UF => remainingBefore 774; last footer 767; daily pacing ample; eveningReserve=0; UF904→936"
+  },
+  "tenLanes": "UF904→936 (30 queried + 2 prior NF skip useampad/astropad_real; 无新 NF/suspended; 本片均已在库) + must/LIVE26 (1 batched, no overlap with shard) + 5KW (打新/台子 + 挖矿 + LZ/Elysium + Tape/GIWA + DogeEVM/BTC/Stark/GO)",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": {
+      "alpha-1": "2026-11-08 19:12 CST",
+      "backup": "2026-11-08 17:34 CST",
+      "smart": "2026-11-08 17:01 CST",
+      "alpha-3": "2026-11-08 19:14 CST"
+    },
+    "lastChecked": "2026-11-08 19:21 CST",
+    "cardsAfterCutoff": 34,
+    "note": "本 executor 无浏览器；沿用 R1471 lastSeen，不回滚、不编造更新"
+  },
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking-on 第一次 JSON 在 cards.toast-bnb.highlights 处截断；第二次补齐 cards/watchCopy/alert/summary 成功；admit 1（toast-bnb），skip kerberos/lacuna/elyroute/kpi；评分与文案均采用第二次补齐稿",
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "ufNF": {
+    "priorSkipNoRequery": [
+      "useampad",
+      "astropad_real"
+    ],
+    "newNotFound": [],
+    "newSuspended": [],
+    "silentInWindowNotNF": [
+      "liquidislandfun",
+      "Sendu_on_Ely",
+      "exec_terminal",
+      "starrysfun",
+      "EmberforgeAgent",
+      "orivatbnb",
+      "Gravitieslol",
+      "AMDPAD_64",
+      "Modded_Crypto",
+      "DogeOSExchange",
+      "safuagent1",
+      "GnMoon_web3",
+      "LisaJenkin93512",
+      "spiderproject69",
+      "VaultCrackAgent",
+      "PERPHOOK",
+      "Niulai_ai",
+      "Elynamexyz",
+      "CatalystFun",
+      "FishingAiBSC",
+      "MulleProtocol",
+      "AgentCard_Bnb",
+      "agentoilrig",
+      "Hesperiatrade"
+    ]
+  },
+  "le2h": [
+    "gloop-slime",
+    "beast16",
+    "numbi"
+  ],
+  "toast": "新收录 @TOASTbnb / toastbsc.fun；sale 0xa867C1CBBF27A357bd31ee0177683845d5d7f539 token 0x96E8D415B530151Ba737f48DDe74d1e1764F99bD；10000 份 LIVE，已售 132（全免费），免费档 5000 剩 4868；Agent ID 首份免费，付费 0.0012 BNB/份，每钱包最多 10；精确开铸未知故 le2h=false；流动性储备 3.5 亿已解锁且受益人=owner",
+  "gloop": "20:53 CST 官报 763 minted，市场已解锁；$GLOOP 仍 Flap LIVE CA 0x9a8d252759165bcc4efcdd740a471b0eb46a7777；NFT 0x183CBb52B3C7BCB2433d50dE0Add99B59f4DE4fE 自 20:03 仍 LIVE 未售罄；NFT≤2h 约至 22:03，$GLOOP≤2h 约至 22:31",
+  "beast16": "21:07 CST 宣布 BAW/agent skill 通道已开，首只免费、每钱包最多 20；20:45 官报 124 claimed；mint 自 20:00 LIVE，le2h=true 约至 22:00 CST",
+  "numbi": "本窗无新事实，开铸仍 22:00 CST；本轮撤「本轮新」；le2h=true",
+  "shadesofely": "本窗无新官帖；early list 约 20:43 已到/刚过，官方未发关榜；mainnet 仍 11/9；le2h=false",
+  "elysium-gloom": "本窗无新官帖；collab 截止仍约 11/9 00:50 CST；非≤2h",
+  "undeadnfts": "21:09 CST 官宣 $UNDEAD coming to Elysium，细则待公布；NFT 仍自 14:32 LIVE；≤2h 已于约 16:32 结束",
+  "watchBugsFixed": "新收 toast-bnb 同时写入 userFollowWatch 与 agentPadWatch",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1475（2026-11-08 21:17 CST）只收 TOAST/@TOASTbnb，BNB Chain 份额铸造已 LIVE；numbi/beast16/gloop 仍在 ≤2h；kerberos/lacuna/elyroute/kpi 跳过。",
+  "pushSha": null,
+  "tip": null,
+  "remoteVerified": false
+}
