@@ -16,6 +16,6 @@
 - remoteNote: git pull 时远程已有 R1463 Discord alpha 补漏（新收 rushonelysium, spookers-rh；lastSeen 已更新），本轮按 R1464 跑 X-radar，不以父代理预估的 R1463 覆盖远程
 - xQuotaNote: R1462 结束后 remaining=849；开跑时共享额度已降至约 841（非本轮消耗），本轮 7 读后 834
 
-- pushSha: PENDING
-- tip: PENDING
-- remoteVerified: false
+- pushSha: ea0b1742059b86e29f5a8b718151e7abac3f22ac
+- tip: ea0b174
+- remoteVerified: true
