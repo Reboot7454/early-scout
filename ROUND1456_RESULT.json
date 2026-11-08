@@ -53,12 +53,16 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "f34d706db33450a2ae1e1e9cf97f3e5049971e63",
+    "short": "f34d706",
+    "branch": "main",
+    "remote": "origin"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1456：Discord alpha 补收 hushdesk,bagsplit,animebigtitty,guppofish,keystrokenft,elysfinance；keystrokenft/elysfinance 自称Elysium未核验已降（打新/台子/Meme）；清 xypher；lastSeen→2026-11-08 14:06；lastChecked→2026-11-08 14:11 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "/workspace/early-scout-git/dc40_cards_r1456.json",
   "priorRoundNote": "R1455 meta NTR ['fletch-agent', 'xypher']; cardsAfterCutoff=45",
   "lastSeenByChannel": {
@@ -289,5 +293,8 @@
     "prompt_tokens": 7768,
     "completion_tokens": 10702
   },
-  "focusAllFalse": true
+  "focusAllFalse": true,
+  "pushSha": "f34d706db33450a2ae1e1e9cf97f3e5049971e63",
+  "tip": "f34d706",
+  "docsSynced": true
 }
