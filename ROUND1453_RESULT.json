@@ -1,0 +1,144 @@
+{
+  "round": 1453,
+  "mode": "x-radar",
+  "completedAt": "2026-11-08 13:09 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "newAdmits",
+  "alertMessage": "新增观察：TapeVeil（@coverstarlink，Tape/电路）自称将上线面向芯片电路的隐私项目，以 TapeOut Genesis CPU 电路为起点；仅91粉、无官网无CA、未获官方转发，信息有限，详见 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "tapeveil"
+  ],
+  "newAdmits": [
+    {
+      "id": "tapeveil",
+      "name": "TapeVeil",
+      "lane": "Tape/电路",
+      "why": "账号 2025-05 创建、39 条推文、91 粉；bio 明示 TapeOut & Bem Mystery Guest: TapeVeil，正文称将上线首个面向芯片电路的隐私项目并以 Genesis CPU 电路为起点。无官网无CA，未获官方转发。",
+      "twitter": "@coverstarlink",
+      "website": null,
+      "ca": null,
+      "time": "观察中（自称即将上线；无具体开窗；非≤2h）",
+      "source": "https://x.com/coverstarlink/status/2119290049036726386",
+      "scores": {
+        "early": 58,
+        "actionable": 35,
+        "novelty": 62,
+        "risk": 68,
+        "overall": 48
+      },
+      "elysiumDemote": false
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "tapeveil"
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "letheans-nft",
+    "qhooks",
+    "haltercard"
+  ],
+  "clearedPrevNTR": [
+    "letheans-nft",
+    "qhooks",
+    "haltercard"
+  ],
+  "skipped": [
+    {
+      "id": "duped",
+      "handle": "@itsDuped",
+      "reason": "11/6建号0粉仅2帖空bio，自宣一键同时上 Pump.fun+Elysium，无官网无CA无部署，DS判空壳喊单 skip"
+    },
+    {
+      "id": "elysiumagi",
+      "handle": "@ElysiumAGI",
+      "reason": "以 First 25 wallet Free Mint 诱饵让人丢钱包地址，典型收钱包钓鱼；点名 Hyperliquid 而非 Elysium 主网"
+    },
+    {
+      "id": "els-naming",
+      "handle": "@Ashxbt_",
+      "reason": "ELS 命名服务由个人号宣布 waitlist，无独立项目官推，库内已有 elyname/@Elynamexyz"
+    },
+    {
+      "note": "KW already-in: tryelysion, fulldotfun, arkhampad, deuslaunch, ammora, unseen-ordo, torpor, aether, erupt-fun, dividotfun, bianren"
+    }
+  ],
+  "xReads": 9,
+  "remainingBefore": 912,
+  "remaining": 903,
+  "mode_budget": "ample",
+  "softCap": 28,
+  "ufCursor": 552,
+  "ufCursorBefore": 520,
+  "xQuota": {
+    "remainingBefore": 912,
+    "remaining": 903,
+    "xReads": 9,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 552,
+    "ufCursorBefore": 520,
+    "note": "API-call xReads=9 (UF2 + must/LIVE1 + 6 search_posts_all incl. 1 invalid empty end_time retry); footer 912→903; daily pacing ample not post-reset-full; UF520→552 in-lib; prior NF/suspended skip4"
+  },
+  "tenLanes": true,
+  "tenLanesNote": "UF520→552 + must/LIVE14 + 5 search_posts_all（打新/台子+挖矿+LZ/Elysium+Tape/GIWA+DogeEVM/BTC/Stark/GO）；打新/台子首呼空 end_time 失败后已重试",
+  "tenLanesCoverage": "打新｜挖矿｜台子/Meme｜GO盘｜LayerZero｜Elysium｜Tape｜GIWA｜DogeEVM + BTC/Stark",
+  "mentionsChains": "本轮额度 ample，mentions 并入第5路 KW（DogeEVM/BTC/Stark/GO）与 Elysium 路；命中已在库 unseen-ordo / fulldotfun / arkhampad 等",
+  "discordPeekDeferred": true,
+  "discordPeekReason": "no browser; reuse lastSeen cutoffs from R1452 Discord peek",
+  "discordLastSeenByChannel": {
+    "alpha-1": "2026-11-08 12:38",
+    "alpha-1-backup": "2026-11-08 12:34",
+    "smart-accounts-tracker": "2026-11-08 12:42",
+    "alpha-3-new-accounts": "2026-11-08 12:46"
+  },
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking-on；自定义 admit 一轮 + ds_batch_score alert：admit tapeveil（overall 48，公式 early*0.35+actionable*0.25+novelty*0.2+(100-risk)*0.2 复核 47.85→48）；skip duped + elysiumagi + ELS。tapeveil 进 Tape/电路（ecosystem=TapeOut），不标 Elysium。alert 采用其拟定短中文并替换 PANEL。",
+  "watches": {
+    "gloop-slime": "官网仍 0/3333；mint 20:00 CST / $GLOOP 20:30 CST；NFT 0x183CBb52…DE4fE Market 0x923e0125…7854；距开铸约6.9h，非≤2h",
+    "shadesofely": "mainnet Nov 9；early list closes 约 20:43 CST；本轮距截止约7.6h，非≤2h",
+    "aegisterminal": "$AEGIS 约 10:57 CST 已上线 Pons，CA 0x2228ab36d6d1907165f898bee9ea6f190b893293，开盘 MC≈5.8k；距开盘约2.2h，非≤2h",
+    "torpor": "社区自述 Tier A / 今日 mint；官方口径仍 mainnet day one（11/9）；不改≤2h",
+    "elyseapro": "≤2h 已于约 09:44 CST 过期；不升 Elysium 栏",
+    "kairoslaunch": "November 9 上线（与 Elysium 主网同日），非≤2h",
+    "full-fun": "Early access is now live，Coming soon to Elysium；已在库，不升 Elysium 栏",
+    "tryelysion": "粉 1→295；自称主网上线前把原生发射带到 Elysium，bio 含 pump.fun CA；已在库不升栏",
+    "bianren": "Agent ID 免费 mint 续（社区称免费池余约1945）；非新开窗",
+    "primate-legends": "MINT LIVE 续",
+    "hopkinagent": "LIVE 续",
+    "elys-tape": "Foundry LIVE 续",
+    "oil-hood": "$OILHOOD LIVE 续",
+    "elysium-meme": "LIVE 续",
+    "bitrush-btcb": "LIVE 续",
+    "grim-pixels-rh": "11/9 Robinhood 699 FREE MINT 续",
+    "erupt-fun": "Nov9 FREE Genesis 4444 续",
+    "elympus-hq": "Genesis 0.055 HYPE Day1 TBA 续",
+    "broisafreak": "GTD 11/9 01:00CST / PUBLIC 02:00CST 续",
+    "ascendlaunch": "Nov9 day-one 续",
+    "enter-elysium": "11:01 CST Elysium morning，无新钟点无新CA",
+    "stopped": "HashDoge/Genius/Corla/Flap STOPPED"
+  },
+  "ufNotes": "520→552; all 32 already in-lib; skipped query for prior NF/suspended streamlitmaker/trycortano/hook404rh/agentpunkai; added @LetheansNFT @qHooks_ @Haltercard @coverstarlink",
+  "watchBugFixed": [
+    "letheans-nft/@LetheansNFT → UF+freeMintWatch",
+    "qhooks/@qHooks_ → UF+agentPadWatch",
+    "haltercard/@Haltercard → UF+agentPadWatch",
+    "tapeveil/@coverstarlink → UF+tapeWatch+tapeOutWatch"
+  ],
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1453：新收 tapeveil；清 letheans-nft/qhooks/haltercard；gloop 今日20:00CST开铸非≤2h；$AEGIS 已上线 Pons 非≤2h；UF520→552；discordPeekDeferred；docsSynced",
+  "pushSha": null,
+  "tip": null,
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "remoteVerified": false,
+  "notePull": "git pull 后 remote 已是 R1452（tip e7c8c5a，Discord alpha 补漏）。本轮 X radar 以 R1453 落盘，未覆盖更高轮次。",
+  "le2h": false,
+  "le2hIds": []
+}
