@@ -1,0 +1,115 @@
+{
+  "round": 1461,
+  "mode": "x-radar",
+  "completedAt": "2026-11-08 15:24 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "le2h",
+  "alertMessage": "【R1461】@UndeadNFTs MINT LIVE 仍≤2h（至约16:32 CST），需关注；面板：https://reboot7454.github.io/early-scout/",
+  "newThisRound": [],
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "kestrixspace"
+  ],
+  "clearedPrevNTR": [
+    "kestrixspace"
+  ],
+  "skipped": [
+    {
+      "id": "pawgeng",
+      "handle": "@vibeman_0",
+      "reason": "KOL @vibeman_0 15:17 CST 转述 agentic BNB 3333 puzzle free mint，帖内未见项目官推，DS 判无法核实独立官推 skip"
+    },
+    {
+      "id": "timiio",
+      "handle": "@redpinjer36190",
+      "reason": "1粉领币喊单号 15:20 CST「Just claimed my FREE 100,000 $TMO」，非项目官推，DS 判空投刷屏 skip"
+    },
+    {
+      "note": "KW already-in: sboundton, play-pixelora, themochieffect, feedthefirerh, kitzyclubz, beepz, giwaup, murk-fun, agentic-miner, ammora, deuslaunch, tapeveil, btc-crc30, unseen-ordo"
+    }
+  ],
+  "xReads": 8,
+  "remainingBefore": 865,
+  "remaining": 857,
+  "mode_budget": "ample",
+  "softCap": 28,
+  "ufCursor": 680,
+  "ufCursorBefore": 648,
+  "xQuota": {
+    "remainingBefore": 865,
+    "remaining": 857,
+    "xReads": 8,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 680,
+    "ufCursorBefore": 648,
+    "checkedAt": "2026-11-08 15:24 CST",
+    "note": "API-call xReads=8 (UF2 + must/LIVE1 含 xypher 仅 1 次 + 5 search_posts_all); footer 865→857; daily pacing ample; UF648→680"
+  },
+  "tenLanes": "UF648→680 + must/LIVE18 (1 batched, xypher once) + 5KW (打新/台子 + 挖矿 + LZ/Elysium + Tape/GIWA + DogeEVM/BTC/Stark/GO)",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": "2026-11-08 15:15",
+    "lastChecked": "2026-11-08 15:17 CST",
+    "lastSeenByChannel": {
+      "alpha-1": "2026-11-08 14:42",
+      "alpha-1-backup": "2026-11-08 14:49",
+      "smart-accounts-tracker": "2026-11-08 14:53",
+      "alpha-3-new-accounts": "2026-11-08 15:15"
+    },
+    "note": "R1461 executor 无浏览器；沿用 R1460 peek lastSeen，不回滚、不催登录"
+  },
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking-on; custom admit; skip pawgeng + timiio; no new admits; alert for undeadnfts MINT LIVE ≤2h",
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "watchBugs": [
+    "xypher le2h=false（R1459 RESULT 已写但 data.json watches.le2h 仍为 xypher）+ undeadnfts 列入 le2h/le2hCurrent",
+    "R1460 Discord: kestrixspace/@kestrixspace → userFollowWatch + agentPadWatch"
+  ],
+  "ufNF": {
+    "priorSkip": [
+      "certuna_rh"
+    ],
+    "newNF": [
+      "beatdotfamily",
+      "nonamespnft",
+      "heyribbid",
+      "inkwellonbnb"
+    ]
+  },
+  "le2h": [
+    {
+      "id": "undeadnfts",
+      "what": "官推宣布 MINT LIVE：BNB 5555 像素骷髅，首铸免费",
+      "time": "2026-11-08 14:32 CST",
+      "until": "2026-11-08 16:32 CST"
+    }
+  ],
+  "xypher": {
+    "stillLive": true,
+    "le2h": false,
+    "window": "2026-11-08 12:53 CST start, ≤2h ended ~14:53 CST",
+    "ca": "0xb81307b5c9d4d10cb0dc6bcb6c9a222366906e51",
+    "note": "14:33 CST still posting mining explainer; withdrawals not open; first halving ~7d"
+  },
+  "push": {
+    "attempted": true,
+    "ok": false,
+    "sha": null,
+    "short": null,
+    "branch": "main",
+    "remote": "origin"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1461：无新收录；清 R1460 NTR kestrixspace；UF648→680；undeadnfts 14:32 CST MINT LIVE 仍≤2h；xypher 仍 LIVE 但已过 ≤2h 窗口；已修 le2h watchBug 与 kestrixspace Watch 漏挂；discordPeekDeferred（沿用 R1460 lastSeen）",
+  "pushSha": null,
+  "tip": null,
+  "remoteVerified": false,
+  "priorRoundNote": "开跑 git pull 后远程已是 R1460 Discord 补漏（kestrixspace），按 meta.round+1 跑 R1461，未盖写 R1460"
+}
