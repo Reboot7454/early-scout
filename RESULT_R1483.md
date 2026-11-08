@@ -13,4 +13,4 @@
 - dsNote: DeepSeek deepseek-flash(thinking) 两次调用：①admit/score/文案（输出在第3个候选后被截断，已用前2个完整 admit 对象，其余 skip 判定取自可读部分）②updates/le2h/alert/summary；alertMessage 仅本地修正 DS 拼写错误（brokagent→BONK Agent）并补数字。  dsFallback=false
 - docsSynced: true
 - skipped: Lethe（LP 工具）、@Elysium_Punks（仅第三方WL）、@oracleagents_ai（0粉1帖）、@AlchemistAgent（Solana 预告无CA）、@Payrailfinance（支付基建）
-- pushSha: 见提交
+- pushSha: f467669（主提交；pushSha 回写为后续小提交）
