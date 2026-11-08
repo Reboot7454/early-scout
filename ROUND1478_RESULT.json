@@ -1,0 +1,150 @@
+{
+  "round": 1478,
+  "mode": "ample",
+  "completedAt": "2026-11-08 23:03 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "无新收录；Fortune Paws 链上已开铸（12）且 numbi/chipmunks/miuadotfun/gloom/broisafreak 处于≤2h。",
+  "alertMessage": "R1478 早期打新雷达：本轮无新收录。Fortune Paws（@Frtn_Paws）链上已开铸，已铸12（官推仍写 opens soon）。≤2h：numbi 已铸68仍LIVE（窗至24:00）、Chipmunks 已铸1029、miuadotfun Genesis 至约23:31、Elysium Gloom collab 约00:50、BRO IS A FREAK GTD 01:00。面板：https://reboot7454.github.io/early-scout/",
+  "newThisRound": [],
+  "newAdmits": [],
+  "newCount": 0,
+  "clearedPrevNTR": [
+    "fortune-paws"
+  ],
+  "clearedPrevNewThisRound": true,
+  "skipped": [
+    {
+      "id": "elynode",
+      "handle": "@ElyNode",
+      "reason": "基础设施 RPC/索引，非 mint；自称主网 LIVE 与官方 11/9 不符"
+    },
+    {
+      "id": "memesim",
+      "handle": "@Memesimapp",
+      "reason": "模拟盘/练习交易，无真实打新窗"
+    },
+    {
+      "id": "SierraSniv8rv",
+      "reason": "自称共建币安今晚发售，1粉，库内已有 @BuildNBuild_ai，疑仿冒"
+    },
+    {
+      "id": "plutopangolin",
+      "reason": "转发称可 mint 但未核实官网官推"
+    },
+    {
+      "id": "crudefi",
+      "reason": "有人提到 Agent ID 免费领，无独立官推"
+    },
+    {
+      "id": "pokemon-cards-shill",
+      "reason": "sohan269 二次宣传，引用帖并非项目官推"
+    }
+  ],
+  "le2h": [
+    "fortune-paws",
+    "numbi",
+    "chipmunks-bnb",
+    "miuadotfun",
+    "elysium-gloom",
+    "broisafreak"
+  ],
+  "le2hStatus": {
+    "fortune-paws": "链上 mintOpen=true，totalMinted=12（约23:00，上轮 false/0）；官推仍写 opens soon。开铸约在 22:35–23:00 CST。",
+    "numbi": "官方持续刷 I'm LIVE；链上 totalSupply=68（上轮62）。窗口约 22:00–24:00。",
+    "chipmunks-bnb": "链上 mintOpen=true，totalMinted=1029（上轮1013）；官网仍写 Mint opens soon。",
+    "miuadotfun": "Genesis 21:31 开始，2h 窗约至 23:31；本窗无新进度数字，followers≈3995。",
+    "elysium-gloom": "collab 截止约 11/9 00:50 CST，已进入 ≤2h。",
+    "broisafreak": "GTD 11/9 01:00 CST / public 02:00，已进入 ≤2h。",
+    "gloop-slime": "链上 NFT 1994/3333（上轮1796），$GLOOP 曲线 1.4%；2h 窗已过。",
+    "beast16": "链上 minted=203（上轮官帖193），2h 窗已过。",
+    "toast-bnb": "cardsSold=162/10000，免费剩 4838，仍 LIVE，不在 2h 窗。",
+    "oddlode": ".ai 免费额度售罄，付费仍 LIVE，还剩 1987 台 0.0012 BNB。"
+  },
+  "le2hFlags": {
+    "fortune-paws": true,
+    "numbi": true,
+    "chipmunks-bnb": true,
+    "miuadotfun": true,
+    "elysium-gloom": true,
+    "broisafreak": true,
+    "gloop-slime": false,
+    "beast16": false,
+    "toast-bnb": false
+  },
+  "onchainChecks": {
+    "fortune-paws": {
+      "mintOpen": true,
+      "totalMinted": 12
+    },
+    "numbi": {
+      "mintOpen": true,
+      "totalSupply": 68
+    },
+    "chipmunks-bnb": {
+      "mintOpen": true,
+      "totalMinted": 1029
+    },
+    "gloop-slime": {
+      "mintOpen": true,
+      "totalMinted": 1994
+    },
+    "beast16": {
+      "mintOpen": true,
+      "totalMinted": 203
+    },
+    "toast-bnb": {
+      "cardsSold": 162,
+      "freeRemaining": 4838
+    }
+  },
+  "xReads": 10,
+  "remainingBefore": 742,
+  "remaining": 732,
+  "softCap": 40,
+  "ufCursor": 1032,
+  "ufCursorBefore": 1000,
+  "xQuota": {
+    "remainingBefore": 742,
+    "remaining": 732,
+    "xReads": 10,
+    "mode": "ample",
+    "softCap": 40,
+    "ufCursor": 1032,
+    "ufCursorBefore": 1000,
+    "checkedAt": "2026-11-08 23:03 CST",
+    "eveningReserve": 0,
+    "note": "API-call xReads=10 (UF1 + must/LIVE2 + 1 failed mint-query + 1 mint-retry + mining + LZ/Elysium + Tape/GIWA/DogeEVM + BTC/Starknet + 1 quoted-post lookup); first footer 741 after UF => remainingBefore 742; last footer 732"
+  },
+  "ufNF": {
+    "priorSkipNoRequery": [
+      "404Naroba"
+    ],
+    "newNotFound": [
+      "UseZPadX",
+      "agenticsocial",
+      "dyorcash"
+    ],
+    "newSuspended": [
+      "MOIbitcoin"
+    ]
+  },
+  "tenLanes": "UF1000→1032（31 查询 + 1 prior NF 404Naroba 不连刷；新确认 NF UseZPadX/agenticsocial/dyorcash；新 SUSP MOIbitcoin；本片均已在库） + must/LIVE 2 次批量（numbi/beast16/gloop/miua/toast/chipmunks/fortune-paws/shades/gloom/undead/broisafreak/launchonelysium/xypher/oddlode/Mauverse/AgenticEggs） + 5 search_posts_all（打新/台子/Meme[首次因 .ai 语法失败后重试] + 挖矿/GO + LZ/Elysium + Tape/GIWA/DogeEVM + BTC/Starknet）+ 1 引用帖核对（pokemon 免费铸造实为 sohan269 安全提示，非官推）",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": {
+      "alpha-1": "2026-11-08 19:12 CST",
+      "backup": "2026-11-08 17:34 CST",
+      "smart": "2026-11-08 17:01 CST",
+      "alpha-3": "2026-11-08 19:14 CST"
+    },
+    "cutoffRound": 1471
+  },
+  "docsSynced": true,
+  "dsFallback": "partial-copy-stitch",
+  "dsNote": "deepseek-flash thinking-on：admit skip ElyNode/@ElyNode 与 Memesim/@Memesimapp；alert+whatsNew 写出后 JSON 在 scheduleNotes 截断，scheduleNotes/summary/alert 按 DS 已写出部分与链上事实本地补全（轻度兜底）",
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "pushSha": "pending",
+  "remoteVerified": false
+}

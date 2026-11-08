@@ -1,0 +1,24 @@
+# RESULT R1478 — 2026-11-08 23:03 CST
+
+- notify: **true** — 无新收录；Fortune Paws 链上已开铸（12）；numbi / Chipmunks / miuadotfun / Elysium Gloom collab / BRO GTD 处于 ≤2h。
+- alertMessage: R1478 早期打新雷达：本轮无新收录。Fortune Paws（@Frtn_Paws）链上已开铸，已铸12（官推仍写 opens soon）。≤2h：numbi 已铸68仍LIVE（窗至24:00）、Chipmunks 已铸1029、miuadotfun Genesis 至约23:31、Elysium Gloom collab 约00:50、BRO IS A FREAK GTD 01:00。面板：https://reboot7454.github.io/early-scout/
+- newThisRound: []
+- clearedPrevNTR: ['fortune-paws']
+- skipped: elynode / memesim / SierraSniv8rv / plutopangolin / crudefi / pokemon-cards-shill
+- ≤2h (le2h): ['fortune-paws', 'numbi', 'chipmunks-bnb', 'miuadotfun', 'elysium-gloom', 'broisafreak']
+  - fortune-paws: 链上 mintOpen=true，totalMinted=12（约23:00，上轮 false/0）；官推仍是 22:23 CST 的 opens soon。开铸约在 22:35–23:00 CST。
+  - numbi: 官方持续刷 I'm LIVE；链上 totalSupply=68（上轮62）。前3000免费后 0.001 BNB。窗口约 22:00–24:00。
+  - chipmunks-bnb: 链上 mintOpen=true，totalMinted=1029（上轮1013）；官网仍写 Mint opens soon。
+  - miuadotfun: Genesis 21:31 开始，2h 窗约至 23:31；本窗无新进度数字，followers≈3995。
+  - elysium-gloom: collab 截止约 11/9 00:50 CST，已进入 ≤2h。
+  - broisafreak: GTD 11/9 01:00 CST / public 02:00，已进入 ≤2h。
+  - gloop-slime: 链上 NFT 1994/3333（上轮1796，官推曾报1813），$GLOOP 曲线 1.4%；2h 窗已过。
+  - beast16: 链上 minted=203（上轮官帖193），2h 窗已过。
+  - toast-bnb: cardsSold=162/10000，免费剩 4838，仍 LIVE，不在 2h 窗。
+- xReads 10 / remainingBefore 742 / remaining 732 / mode ample / softCap 40 / ufCursor 1000→1032（新 NF UseZPadX/agenticsocial/dyorcash；新 SUSP MOIbitcoin；prior NF 404Naroba 不连刷）
+- tenLanes: UF1000→1032（31 查询 + 1 prior NF） + must/LIVE 2 次批量 + 5 search_posts_all（打新/台子/Meme 首次因 .ai 语法失败后重试 + 挖矿/GO + LZ/Elysium + Tape/GIWA/DogeEVM + BTC/Starknet）+ 1 引用帖核对
+- discordPeekDeferred: true（cutoff = R1471 lastSeen alpha-1 19:12 / backup 17:34 / smart 17:01 / alpha-3 19:14 CST）
+- docsSynced: true
+- dsFallback: partial-copy-stitch — deepseek-flash thinking-on：admit skip ElyNode/Memesim；alert+whatsNew 写出后 JSON 在 scheduleNotes 截断，scheduleNotes/summary/alert 按 DS 已写出部分与链上事实本地补全
+- HashDoge/Genius/Corla/Flap: STOPPED
+- pushSha: pending
