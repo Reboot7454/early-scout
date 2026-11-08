@@ -1,0 +1,166 @@
+{
+  "round": 1489,
+  "mode": "ample",
+  "completedAt": "2026-11-09 05:27 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "有新收录 scion，且 the-long-necks Public mint 仍在 ≤2h（约 04:30 CST 起，窗至约 06:30 CST）。",
+  "alertMessage": "R1489新收录：Scion（@usescion，Elysium币工厂，05:20 CST自称主网小规模跑通，无独立CA）。≤2h：The Long Necks（@thelongneck_，Base Public mint仍LIVE，链上复验totalSupply=347/maxSupply=400剩53，窗至约06:30 CST）。https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "scion"
+  ],
+  "newAdmits": [
+    {
+      "id": "scion",
+      "handle": "@usescion",
+      "chain": "Elysium",
+      "category": "Elysium 生态",
+      "note": "Elysium coin factory；05:20 CST 自称已在 mainnet 用真实 HYPE 小规模跑通（投票发射 heir、15% 回流）；无独立 CA/官网；账号 2020-09-02 创建、42 粉、13 条推文"
+    }
+  ],
+  "newCount": 1,
+  "clearedPrevNTR": [
+    "the-long-necks",
+    "elytypes",
+    "pairmine"
+  ],
+  "clearedPrevNewThisRound": true,
+  "skipped": [
+    {
+      "handle": "@Korinitradefun",
+      "reason": "今日新建 0 粉，自称 GIWA launchpad；库内已有 @korinitrade/korinitrade（R1056），疑似仿号/小号"
+    },
+    {
+      "handle": "@BubblesMiyokumi",
+      "reason": "第三方称 Base 上 Miyokumi Genesis Welcome 500 免费公售 LIVE；官推 bio 写 Genesis mint: December 2026，未官宣该 OpenSea 集为官方在铸"
+    },
+    {
+      "handle": "@EyslumFondation",
+      "reason": "Elysium Foundation 仿写/拼写钓鱼，诱导连接钱包登记 Genesis Set"
+    },
+    {
+      "handle": "@hyperdexerapp",
+      "reason": "HyperEVM/Elysium RPC 基础设施，非 mint/发射"
+    },
+    {
+      "handle": "@pumper_official",
+      "reason": "Stable 链 launchpad 已 live 约两个月，非极早期"
+    },
+    {
+      "handle": "YAOQIAN",
+      "reason": "仅社区领取帖带 CA 0x75148608e41C4f3A325F4DBC040B2B60CDc772d6，无独立官推"
+    },
+    {
+      "handle": "luckycat.surge.sh",
+      "reason": "招财猫页面无官推链接，不新建卡；CA 0xB3AC4612E609fce2B98c2f6602D5EFCeeB61C473 totalSupply=18，与库内 @LuckyCatsBNB 是否同一项目未核实"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "the-long-necks",
+      "at": "2026-11-09 04:30 CST",
+      "note": "Public Mint 仍 LIVE。base.publicnode.com + mainnet.base.org 复验 totalSupply=347、maxSupply()=400，剩 53。CA 0x3ab4978702f1208106c46f0faa417829f304a4d7。窗至约 06:30 CST。本窗无 sold out 帖。"
+    }
+  ],
+  "le2hStatus": {
+    "the-long-necks": "【R1489】仍 LIVE，链上 347/400 剩 53，≤2h 至约 06:30 CST。",
+    "broisafreak": "【R1489】05:05 CST 叙事帖，进度仍 03:31 的 500/2222；2h 窗已于约 04:47 CST 结束，le2h=false。",
+    "bonkagent": "【R1489】仍 15:00 CST 开铸，totalMinted=0，token supply=0。",
+    "elytypes": "【R1489】官网定档 11/10 01:00 CST，非≤2h。",
+    "pairmine": "【R1489】官推自称 34/888，链上进度仍 revert，非≤2h。",
+    "scion": "【R1489】新收录，自称主网小规模测试，无公开 mint 窗，非≤2h。",
+    "skitters": "【R1489】仍约 08:07 CST（03:07 的 5 HOURS TO GO），尚未≤2h。",
+    "halofun": "【R1489】本窗无新帖，仍称 9 November，无精确钟点。",
+    "pandu-agent": "【R1489】181/2222 mintOpen=1。",
+    "gloop-slime": "【R1489】3090/3333 mintOpen=1。",
+    "chipmunks-bnb": "【R1489】1062 mintOpen=1。",
+    "fortune-paws": "【R1489】366/3333 mintOpen=1。",
+    "numbi": "【R1489】102 持平。",
+    "beast16": "【R1489】227/4444 mintOpen=1，Reveal 20:00 CST。",
+    "toast-bnb": "【R1489】cardsSold=166，免费剩 4834，LIVE。",
+    "agenticrobotrbh": "【R1489】$Robot 定档 11/10 21:00 CST 上 Pons，非≤2h。",
+    "clover-rh": "【R1489】Cloverheads 免费铸定档 11/12 02:00 CST，非≤2h。"
+  },
+  "onchainChecks": {
+    "the-long-necks": {
+      "totalSupply": 347,
+      "maxSupply": 400,
+      "remaining": 53,
+      "chain": "Base",
+      "contract": "0x3ab4978702f1208106c46f0faa417829f304a4d7",
+      "source": "base.publicnode.com + mainnet.base.org eth_call; 1rpc.io/base 410 Gone"
+    },
+    "gloop-slime": {
+      "totalMinted": 3090,
+      "mintOpen": 1
+    },
+    "pandu-agent": {
+      "totalSupply": 181,
+      "totalMinted": 181,
+      "mintOpen": 1
+    },
+    "chipmunks-bnb": {
+      "totalSupply": 1062,
+      "totalMinted": 1062,
+      "mintOpen": 1
+    },
+    "fortune-paws": {
+      "totalMinted": 366,
+      "mintOpen": 1,
+      "maxSupply": 3333
+    },
+    "numbi": {
+      "totalSupply": 102,
+      "totalMinted": 102,
+      "mintOpen": 1
+    },
+    "beast16": {
+      "totalMinted": 227,
+      "mintOpen": 1
+    },
+    "toast-bnb": {
+      "cardsSold": 166,
+      "freeGiven": 166,
+      "freeCardsRemaining": 4834,
+      "live": true
+    },
+    "bonk-mint": {
+      "totalMinted": 0,
+      "mintOpen": null
+    },
+    "bonk-token": {
+      "totalSupply": 0
+    },
+    "pairmine": {
+      "officialClaimMinted": 34,
+      "officialClaimMax": 888,
+      "onchainMintProgress": null,
+      "pairTotalSupplyRaw": "700000000000000000000000000"
+    }
+  },
+  "xReads": 8,
+  "remainingBefore": 632,
+  "remaining": 624,
+  "softCap": 40,
+  "ufCursor": 222,
+  "ufCursorBefore": 186,
+  "xQuota": {
+    "remainingBefore": 632,
+    "remaining": 624,
+    "xReads": 8,
+    "mode": "ample",
+    "softCap": 40,
+    "ufCursor": 222,
+    "ufCursorBefore": 186,
+    "checkedAt": "2026-11-09 05:27 CST",
+    "eveningReserve": 80,
+    "note": "API-call xReads=8（UF1 + must/≤2h 1 + 3 KW + 1 starved + 1 cleaner mint + 1 Miyokumi profile）；首 footer 631 => remainingBefore 632；末 footer 624；reset 2026-11-09 08:00 CST"
+  },
+  "tenLanes": "UF 186→222（36 号中跳过 NF_skip 的 HashOre_BNB+usejackbay+DubbllePadX+BNBS_ai，实查 32 号 from: 批量 1 次） + must/≤2h 1 次（thelongneck_/BROISAFREAK/Bonkagent_/halofunxyz/SkittersNFTs/Elytypess/PairMineAI） + 3 search_posts_all（①打新/AgentID/free mint/AIDROP/X Layer；②挖矿/PoW/squeek/GO/LayerZero/OFT；③Elysium/Tape/GIWA/DogeEVM/BTC/Starknet） + 1 饿栏补读 GIWA/DogeEVM/BTC/Starknet/LayerZero + 1 去 Elytypes 噪声的 cleaner mint 搜 + 1 BubblesMiyokumi 档案。九栏+BTC/Starknet 均跑；GIWA 多为已在库 Ammora 等待名单；DogeEVM/Starknet/LayerZero/Tape/BTC 本窗无可收新号；Canton/Glaze/TokenWorks lastChecked 已刷。",
+  "discordPeekDeferred": true,
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "DeepSeek deepseek-flash(thinking) 完整 JSON；admit scion，skip Korinitradefun/Miyokumi/EyslumFondation/hyperdexerapp/pumper_official/YAOQIAN/luckycat.surge.sh。本地将 DS 0-10 分改成 0-100（80/30/50/60）、scion.le2h 误标 true 改为 false、status 归 announced、category/zoneHint 归到「Elysium 生态」、alert 补 handle 与 R1489 前缀。dsFallback=false",
+  "forcePanelIds": "保留 broisafreak（Public 概念上仍 LIVE 但官网仍无独立 CA；≤2h 已过）",
+  "pushSha": "PENDING"
+}
