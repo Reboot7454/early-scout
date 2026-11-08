@@ -1,0 +1,111 @@
+{
+  "round": 1462,
+  "mode": "x-radar",
+  "completedAt": "2026-11-08 16:01 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "le2h",
+  "alertMessage": "【R1462】@UndeadNFTs 仍≤2h（约至16:32 CST）：官推仍仅1帖，MINT LIVE 未售罄、无结束新帖；面板：https://reboot7454.github.io/early-scout/",
+  "newThisRound": [],
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "clearedPrevNTR": [],
+  "skipped": [
+    {
+      "id": "war3",
+      "handle": null,
+      "reason": "散户 @Sanimah221 / @vinhh415609 宣称 WAR3 is live on BNB free mint，帖内未见项目官推，DS 判无推特 skip"
+    },
+    {
+      "id": "vaar-barbarians",
+      "handle": "@belobba",
+      "reason": "散户称 Vaar/Barbarians free mint on Robinhood，帖内未见项目官推，DS skip"
+    },
+    {
+      "id": "law-of-the-abyss",
+      "handle": "@puqipfzm",
+      "reason": "散户称 Commander in Law of the Abyss whitelist open，帖内未见项目官推，DS skip"
+    },
+    {
+      "id": "pawgeng",
+      "handle": "@romocut",
+      "reason": "上轮已 skip；本轮仅散户更新 2279/3333 minted，仍未见官推，DS 保持 skip"
+    },
+    {
+      "note": "KW already-in: axiom-arb, droolies-rh, grey-circ, themochieffect, feedthefirerh, jpegzart, trippi, companions-wfit, stratar, erupt-fun, deuslaunch, giwaup, arkhampad, elysium-genesis, souls-elysium, charon, grump-guys, elysium-makers, cathereum, elysium-pad, skitters, elysieden, blurb, elysianpad, bullshot, rgbhorse, zeru-finance"
+    }
+  ],
+  "xReads": 8,
+  "remainingBefore": 857,
+  "remaining": 849,
+  "mode_budget": "ample",
+  "softCap": 28,
+  "ufCursor": 712,
+  "ufCursorBefore": 680,
+  "xQuota": {
+    "remainingBefore": 857,
+    "remaining": 849,
+    "xReads": 8,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 712,
+    "ufCursorBefore": 680,
+    "checkedAt": "2026-11-08 16:01 CST",
+    "note": "API-call xReads=8 (UF2 + must/LIVE1 含 xypher 仅 1 次 + 5 search_posts_all); footer 857→849; daily pacing ample; UF680→712"
+  },
+  "tenLanes": "UF680→712 + must/LIVE17 (1 batched, oil_hood deduped in UF, xypher once) + 5KW (打新/台子 + 挖矿 + LZ/Elysium + Tape/GIWA + DogeEVM/BTC/Stark/GO)",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": "2026-11-08 15:15",
+    "lastChecked": "2026-11-08 15:17 CST",
+    "lastSeenByChannel": {
+      "alpha-1": "2026-11-08 14:42",
+      "alpha-1-backup": "2026-11-08 14:49",
+      "smart-accounts-tracker": "2026-11-08 14:53",
+      "alpha-3-new-accounts": "2026-11-08 15:15"
+    },
+    "note": "R1462 executor 无浏览器；沿用 R1460 peek lastSeen，不回滚、不催登录"
+  },
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking-on; custom admit skip war3/vaar-barbarians/law-of-the-abyss/pawgeng; no new admits; alert+whatsNew copy for undeadnfts ≤2h and in-warehouse updates",
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "ufNF": {
+    "priorSkip": [
+      "origopad"
+    ],
+    "newNF": []
+  },
+  "le2h": [
+    {
+      "id": "undeadnfts",
+      "what": "官推宣布 MINT LIVE：BNB 5555 像素骷髅，首铸免费",
+      "time": "2026-11-08 14:32 CST",
+      "until": "2026-11-08 16:32 CST"
+    }
+  ],
+  "xypher": {
+    "stillLive": true,
+    "le2h": false,
+    "window": "2026-11-08 12:53 CST start, ≤2h ended ~14:53 CST",
+    "ca": "0xb81307b5c9d4d10cb0dc6bcb6c9a222366906e51",
+    "note": "14:33 CST still posting decoder 1.5× explainer; withdrawals not open"
+  },
+  "push": {
+    "attempted": true,
+    "ok": true,
+    "sha": "ca2950a61e84c2a5a821a4131d0abbe7f9d435e1",
+    "short": "ca2950a",
+    "branch": "main",
+    "remote": "origin"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1462：无新收录；R1461 NTR 已空无需再清；UF680→712；undeadnfts 14:32 CST MINT LIVE 仍≤2h；xypher 仍 LIVE 但已过 ≤2h 窗口；discordPeekDeferred（沿用 R1460 lastSeen）",
+  "pushSha": "ca2950a61e84c2a5a821a4131d0abbe7f9d435e1",
+  "tip": "ca2950a",
+  "remoteVerified": false
+}
