@@ -14,5 +14,5 @@
 - dsFallback: false；deepseek-flash thinking-on 一次 score 完整（admit bnb-skunk，skip Paw Gang/Penguin/Habibi）；alert 首次截断，第二次思考外泄，采用其拟定短中文。overall 按公式重算 61（90*0.35+52*0.25+62*0.2+(100-78)*0.2）。elysium-makers 未按 DS 标 LIVE（倒计时归零且无 CA）。
 - alert: 新收BnbSkunk；Elyseapro Waves链上104/1000，官推仍删帖、官网Preview，≤2h至约09:44CST。https://reboot7454.github.io/early-scout/
 
-- pushSha: PENDING
-- tip: PENDING
+- pushSha: 8fa27182a443a0222e365c33ef3ee4026d27bd64
+- tip: 8fa27182a443a0222e365c33ef3ee4026d27bd64
