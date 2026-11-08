@@ -15,6 +15,6 @@
 - dsFallback: false；deepseek-flash thinking-on；自定义 admit 一轮：skip bubbles-miyokumi + giggle-club；无新收录
 - alert: 2小时内可操作：@UndeadNFTs 已开启 MINT（BNB 5555 像素骷髅，首铸免费，后续 0.35 USDT 或 0.0005 BNB，每钱包最多 10，需 Agent ID）。面板：https://reboot7454.github.io/early-scout/
 
-- pushSha: PENDING
-- tip: PENDING
-- remoteVerified: false
+- pushSha: 28de806c3f624307ce24802388ce283ede2a3005
+- tip: 28de806
+- remoteVerified: true
