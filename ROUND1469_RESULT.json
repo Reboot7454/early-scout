@@ -52,12 +52,16 @@
     "spideyPosting": true
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "f43748e7c7a30f2a235e1c64130f933175ac7f86",
+    "short": "f43748e",
+    "branch": "main",
+    "remote": "origin"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1469：Discord alpha 补收 quillhouse-xyz,holdoutrh,playlohm,elyx；跳过 fletch-agent(dup)；lastSeen→2026-11-08 17:57；lastChecked→2026-11-08 18:03 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1469.json",
   "priorRoundNote": "R1468 meta NTR ['z30index', 'megalith-agent', 'digent-coin', 'dinoagentnft', 'elyns']; cardsAfterCutoff=59",
   "lastSeenByChannel": {
@@ -242,5 +246,7 @@
   "preReject": 0,
   "scannedAtCST": "2026-11-08 18:01",
   "lastSeen": "2026-11-08 17:57",
-  "docsSynced": false
+  "docsSynced": true,
+  "pushSha": "f43748e7c7a30f2a235e1c64130f933175ac7f86",
+  "tip": "f43748e"
 }
