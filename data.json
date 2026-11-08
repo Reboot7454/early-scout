@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-08 13:08 CST",
+    "updated": "2026-11-08 13:22 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R1446",
-    "lastScout": "2026-11-08 13:08 CST",
+    "lastScout": "2026-11-08 13:22 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -697,7 +697,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1453,
+    "round": 1454,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2107,7 +2107,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "tapeveil"
+      "fletch-agent"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4486,20 +4486,20 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-11-08 12:46",
-      "lastChecked": "2026-11-08 12:51 CST",
-      "newestCardTime": "2026-11-08 12:46",
-      "cardsAfterCutoff": 45,
-      "note": "R1453：本 executor 无浏览器，未 Peek；沿用 R1452 lastSeen",
-      "lastRound": 1452,
+      "deferred": false,
+      "lastSeen": "2026-11-08 13:19",
+      "lastChecked": "2026-11-08 13:22 CST",
+      "newestCardTime": "2026-11-08 13:19",
+      "cardsAfterCutoff": 34,
+      "note": "R1454：Discord alpha 补收 fletch-agent；清 tapeveil；lastSeen→2026-11-08 13:19；lastChecked→2026-11-08 13:22 CST",
+      "lastRound": 1454,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-08 12:46",
-        "alpha-1-backup": "2026-11-08 12:34",
-        "smart-accounts-tracker": "2026-11-08 12:42",
-        "alpha-1": "2026-11-08 12:38"
+        "alpha-3-new-accounts": "2026-11-08 13:19",
+        "alpha-1-backup": "2026-11-08 13:19",
+        "smart-accounts-tracker": "2026-11-08 13:12",
+        "alpha-1": "2026-11-08 13:14"
       },
-      "discordPeekDeferred": true
+      "discordPeekDeferred": false
     },
     "round239Added": [
       "tsunamilaunch",
@@ -26662,9 +26662,56 @@
       "R1452 leak: qhooks/@qHooks_ → UF+agentPadWatch",
       "R1452 leak: haltercard/@Haltercard → UF+agentPadWatch",
       "tapeveil/@coverstarlink → UF+tapeWatch+tapeOutWatch"
+    ],
+    "round1454Added": [
+      "fletch-agent"
     ]
   },
   "candidates": [
+    {
+      "id": "fletch-agent",
+      "name": "Fletch",
+      "handle": "@fletchagent",
+      "twitter": "@fletchagent",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/FletchAgent"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 6
+      },
+      "highlights": [
+        "AI agent 狙击 Robinhood Chain 代币化股票价差",
+        "每笔操作声称链上记录"
+      ],
+      "drawbacks": [
+        "0 粉丝，信息极少",
+        "未见官网/合约/产品入口"
+      ],
+      "whatsNew": "新出现的 Robinhood Chain AI 交易 agent 账号",
+      "summary": "Fletch 自称在 Robinhood Chain 上运行 AI agent，狙击代币化股票价差并将每笔操作上链；目前只有 bio 线索，极早期。",
+      "blurb": "Robinhood Chain 上的 AI 价差狙击 agent，链上留痕，0 粉极早期。",
+      "round": 1454,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-08 13:22 CST",
+      "addedAt": "2026-11-08 13:22 CST",
+      "lastChecked": "2026-11-08 13:22 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "haltercard",
       "name": "Haltercard · Spending cards for AI agents",
@@ -229090,7 +229137,7 @@
       },
       "focus": false,
       "lzVerified": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "round": 1453,
       "firstSeen": "2026-11-08 13:08 CST",
@@ -229100,21 +229147,19 @@
     }
   ],
   "newThisRound": [
-    "letheans-nft",
-    "qhooks",
-    "haltercard"
+    "fletch-agent"
   ],
-  "alertMessage": "DC补漏R1452新收3个：Letheans（@LetheansNFT，自称在 Elysium 构建 NFT，未核验已降打新）、QHooks（@qHooks_，Uniswap v4 hooks 代币规则/发射控制工具）、Haltercard（@Haltercard，AI Agent 支付卡，自称 Robinhood Chain）；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1454新收1：@FletchAgent（台子/Meme，Robinhood Chain AI价差狙击agent，0粉极早期）；https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "thesis-perps"
   ],
-  "updatedAt": "2026-11-08 12:51 CST",
-  "updated": "2026-11-08 12:51 CST",
+  "updatedAt": "2026-11-08 13:22 CST",
+  "updated": "2026-11-08 13:22 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-08 12:51 CST",
+  "lastScout": "2026-11-08 13:22 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -229156,7 +229201,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3346,
+  "candidateCount": 3348,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -231887,5 +231932,8 @@
     "letheans-nft",
     "qhooks",
     "haltercard"
+  ],
+  "round1454Added": [
+    "fletch-agent"
   ]
 }
