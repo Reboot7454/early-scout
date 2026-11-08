@@ -1,0 +1,144 @@
+{
+  "round": 1457,
+  "mode": "x-radar",
+  "completedAt": "2026-11-08 14:20 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "newAdmits+le2h",
+  "alertMessage": "【打新雷达】库内 xypher CPU挖矿仍 LIVE，14:53 前窗口≤2h，优先跟进；新收录 loon-rat：今日14:00 开 300 名额 FCFS 免费 mint（自称Elysium未核验、无CA，高风险）。详情面板 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "loon-rat"
+  ],
+  "newAdmits": [
+    {
+      "id": "loon-rat",
+      "name": "Loon Rat",
+      "lane": "打新",
+      "why": "约 2026-11-01 建号、0 粉 2 帖；今日约 14:00 CST 官推宣布 First Wave Drop：300 个 e/acc 钱包 FCFS 免费 mint。无可见 CA，自称 Elysium 未核验已降栏。",
+      "twitter": "@loon_rat",
+      "website": null,
+      "ca": null,
+      "time": "约 2026-11-08 14:00 CST 宣布 FCFS First Wave Drop（非明确钟点开窗）",
+      "source": "https://x.com/loon_rat/status/2119308688385327297",
+      "scores": {
+        "early": 95,
+        "actionable": 70,
+        "novelty": 60,
+        "risk": 72,
+        "overall": 68
+      },
+      "elysiumDemote": true
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "loon-rat"
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "hushdesk",
+    "bagsplit",
+    "animebigtitty",
+    "guppofish",
+    "keystrokenft",
+    "elysfinance"
+  ],
+  "clearedPrevNTR": [
+    "hushdesk",
+    "bagsplit",
+    "animebigtitty",
+    "guppofish",
+    "keystrokenft",
+    "elysfinance"
+  ],
+  "skipped": [
+    {
+      "id": "anchor-cc",
+      "handle": "@anchordotcc",
+      "reason": "今日13:43 CST建号6粉仅发一篇 introducing 文章，无CA无开窗无产品入口，DS判空壳概念 skip"
+    },
+    {
+      "id": "elychan",
+      "handle": "@tryelychan",
+      "reason": "今日13:26 CST建号2粉9帖，自称研究台/launch terminal 仅文字描述且 simulates constructor，无CA无mint开窗，DS判不可操作 skip"
+    },
+    {
+      "id": "tokenyfun",
+      "handle": "@tokenyfun",
+      "reason": "2026-05-19建号325粉/256帖 Sei launchpad 偏老，不够极早期 skip"
+    },
+    {
+      "note": "KW already-in: skitters, yieldex-markets, spike-finance, umbra-perps, enter-himan, kismo-seekers, unseen-ordo, memefund, blurb, tapeveil, ammora, deuslaunch, btc-crc30, montra, full-fun, elympus-hq, xypher; R1455 skip exepad/p402 无新材料不重收"
+    }
+  ],
+  "xReads": 9,
+  "remainingBefore": 890,
+  "remaining": 881,
+  "mode_budget": "ample",
+  "softCap": 28,
+  "ufCursor": 616,
+  "ufCursorBefore": 584,
+  "xQuota": {
+    "remainingBefore": 890,
+    "remaining": 881,
+    "xReads": 9,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 616,
+    "ufCursorBefore": 584,
+    "checkedAt": "2026-11-08 14:20 CST",
+    "note": "API-call xReads=9 (UF2 + must/LIVE2 due to xypher flood + 5 search_posts_all); footer 890→881; daily pacing ample not post-reset-full; UF584→616; landed as R1457 because remote already took R1456 for Discord peek"
+  },
+  "tenLanes": "UF584→616 + must/LIVE16 (2 batched: xypher flood + follow-up) + 5KW (打新/台子 + 挖矿 + LZ/Elysium + Tape/GIWA + DogeEVM/BTC/Stark/GO)",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": "2026-11-08 14:06",
+    "lastSeenByChannel": {
+      "alpha-1": "2026-11-08 13:45",
+      "alpha-1-backup": "2026-11-08 14:04",
+      "smart-accounts-tracker": "2026-11-08 13:50",
+      "alpha-3-new-accounts": "2026-11-08 14:06"
+    },
+    "note": "R1457 executor 无浏览器；沿用 R1456 peek lastSeen，不回滚、不催登录"
+  },
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking-on; custom admit; admit loon-rat overall 68 (68.35→68); DS lane free-mint rewritten to 打新; elysiumDemote; skip anchor-cc + elychan + tokenyfun",
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "watchBugs": [
+    "loon-rat @loon_rat → userFollowWatch",
+    "R1456 Discord: hushdesk/@hushdesk_ bagsplit/@bagsplit animebigtitty/@animebigtitty guppofish/@guppofish keystrokenft/@keystrokenft elysfinance/@elysfinance → userFollowWatch"
+  ],
+  "ufNF": {
+    "priorSkip": [
+      "Villagers_RH",
+      "UseHyperLiquid",
+      "MonsterRH_",
+      "Derpagent_",
+      "Proxisfun",
+      "ramencoinmeme"
+    ],
+    "newNF": []
+  },
+  "le2h": [
+    {
+      "id": "xypher",
+      "what": "CPU 终端挖矿 LIVE",
+      "time": "2026-11-08 12:53 CST"
+    }
+  ],
+  "push": {
+    "attempted": true,
+    "ok": false,
+    "sha": null
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1457：admit loon-rat；清 R1456 Discord 六卡 NTR；UF584→616；must-watch 刷新 gloop 20:00 / shadesofely 20:43 / kairos Nov9；discordPeekDeferred（沿用 R1456 lastSeen）；xypher 仍≤2h；因 remote 已占用 R1456 而落为 R1457",
+  "pushSha": null,
+  "tip": null,
+  "remoteVerified": false,
+  "intendedRound": 1456,
+  "actualRound": 1457,
+  "notePull": "Started against R1455 tip 8c600e3; during X scan remote published R1456 Discord peek (f34d706/4ab0ec0); continued as R1457 without clobbering"
+}
