@@ -12,4 +12,4 @@
 - dsNote: DeepSeek deepseek-flash(thinking) 做 admit/score/文案/alertMessage；max_tokens 12000 一次成功。  dsFallback=false
 - docsSynced: true
 - skipped: Pressure（仅 @Annak0ox KOL 提及无官推）、@ElysiumPenguin（仅第三方声称无官推）、@BlockandOre（Elysium coming soon，无明确部署/CA/时间）
-- pushSha: PENDING
+- pushSha: f0f6406（主提交；pushSha 回写为后续小提交）
