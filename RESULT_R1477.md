@@ -18,4 +18,4 @@
 - docsSynced: true
 - dsFallback: partial-alert-stitch — deepseek-flash thinking-on：admit 首轮放过 5（未带先例），带本库先例复裁后 admit 1（fortune-paws），skip stockpocks/monni/nmeows/glyph-elysium/armaz-agent；score 成功；watch/卡片文案第一次被思考文本截断，第二次成功；alert 第三次调用再次泄思考截断，最终 alert = DS 第二次 alertMessage + 同次 summary 的 ≤2h 名单本地拼接（轻度兜底）
 - HashDoge/Genius/Corla/Flap: STOPPED
-- pushSha: PENDING
+- pushSha: 55c3ad7（data+docs+RESULT）
