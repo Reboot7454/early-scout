@@ -15,3 +15,6 @@
 - dsFallback: false；deepseek-flash thinking-on；自定义 admit 一轮 + ds_batch_score alert：admit tapeveil（overall 48，公式 early*0.35+actionable*0.25+novelty*0.2+(100-risk)*0.2 复核 47.85→48）；skip duped + elysiumagi + ELS；不进 Elysium 栏
 - notePull: git pull 后 remote 已是 R1452（tip e7c8c5a，Discord alpha 补漏 letheans-nft/qhooks/haltercard）；本轮以 R1453 落盘，未覆盖更高轮次
 - alert: 新增观察：TapeVeil（@coverstarlink，Tape/电路）自称将上线面向芯片电路的隐私项目，以 TapeOut Genesis CPU 电路为起点；仅91粉、无官网无CA、未获官方转发，信息有限，详见 https://reboot7454.github.io/early-scout/
+
+- pushSha: dd000675c2e634a4d02a2f9273f663b86c0b8c97
+- tip: dd00067
