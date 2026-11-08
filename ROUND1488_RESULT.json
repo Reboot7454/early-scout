@@ -1,0 +1,154 @@
+{
+  "round": 1488,
+  "mode": "ample",
+  "completedAt": "2026-11-09 04:57 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "有新收录 the-long-necks / elytypes / pairmine，且 the-long-necks Public mint 仍在 ≤2h（约 04:30 CST 起，窗至约 06:30 CST）。",
+  "alertMessage": "R1488新收录：The Long Necks（@thelongneck_，Base Public mint 约04:30 CST开铸，链上totalSupply已核验347，OpenSea页maxSupply 400/剩53，≤2h）、Elytypes（@Elytypess，Elysium白名单免费铸，官网定档11/10 01:00 CST）、PairMine（@PairMineAI，BSC AI agent矿机NFT，官网自称Phase 2 live，链上进度本轮无法核验）。https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "the-long-necks",
+    "elytypes",
+    "pairmine"
+  ],
+  "newAdmits": [
+    {
+      "id": "the-long-necks",
+      "handle": "@thelongneck_",
+      "chain": "Base",
+      "category": "打新",
+      "note": "04:30 CST Public mint live（bio 8:30PM UTC）；链上 totalSupply=347；OpenSea 页 maxSupply 400 / remaining 53；CA 0x3ab4978702f1208106c46f0faa417829f304a4d7；无独立官网；bio 写 500 与页面 400 不一致"
+    },
+    {
+      "id": "elytypes",
+      "handle": "@Elytypess",
+      "chain": "Elysium",
+      "category": "Elysium 生态",
+      "note": "500 Elytypes 白名单 freemint；官网 elytypes.art When: Nov 9, 17:00 UTC=2026-11-10 01:00 CST；明确 Mint goes live on @enter_elysium；无独立 CA"
+    },
+    {
+      "id": "pairmine",
+      "handle": "@PairMineAI",
+      "chain": "BNB Chain",
+      "category": "挖矿",
+      "note": "官网 pairmineai.com 自称 PHASE 2 MINING IS LIVE；MinerNFT 0xcbD3E4EfFF81b0c89455fcD18a8a9c37e3F4518f、$PAIR 0x8Af64614cC5aF435400688c9c0186245F64Da1A4、PairCore 0xa285Ef24B6d3778CB9F0e186203F2774dF4A5855；mint 进度 eth_call revert"
+    }
+  ],
+  "newCount": 3,
+  "clearedPrevNTR": [
+    "mothership-pf"
+  ],
+  "clearedPrevNewThisRound": true,
+  "skipped": [
+    {
+      "handle": "@MyArgosodyssey",
+      "reason": "bio 自称 Enter_Elysium launchpad，但帖称 $ARGOS is live on Montra（CA 0x178390bf0163b886778581401fd148988be99064）；Montra 已在库，无独立 Elysium 部署证据"
+    },
+    {
+      "handle": "@GHOSTPAYLOL",
+      "reason": "Stealth payments on Hyperliquid EVM，非 Elysium；Phase 1 Live，无独立 mint 窗口与 CA"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "the-long-necks",
+      "at": "2026-11-09 04:30 CST",
+      "note": "官宣 Public Mint live；链上 totalSupply=347，OpenSea 页 400/53；CA 0x3ab4978702f1208106c46f0faa417829f304a4d7。窗至约 06:30 CST。"
+    }
+  ],
+  "le2hStatus": {
+    "the-long-necks": "【R1488】04:30 CST Public mint LIVE，链上 347，OpenSea 页 maxSupply 400 剩 53，≤2h 至约 06:30 CST。",
+    "broisafreak": "【R1488】02:47 CST Public LIVE，03:31 CST 仍 500/2222；官网仍 Mint soon 无独立 CA；2h 窗已于约 04:47 CST 结束，le2h=false。",
+    "bonkagent": "【R1488】仍 15:00 CST 开铸，totalMinted=0，token supply=0。",
+    "elytypes": "【R1488】官网定档 11/10 01:00 CST，非≤2h。",
+    "pairmine": "【R1488】官网自称 mining live，无精确新开窗，非≤2h。",
+    "mothership-pf": "【R1488】已在库，非新收录；非≤2h。",
+    "skitters": "【R1488】仍约 08:07 CST（03:07 的 5 HOURS TO GO），非≤2h。",
+    "halofun": "【R1488】官网仍 waitlist，9 November，无精确钟点。",
+    "pandu-agent": "【R1488】177/2222 mintOpen=1。",
+    "gloop-slime": "【R1488】3081/3333 mintOpen=1。",
+    "chipmunks-bnb": "【R1488】1062 mintOpen=1。",
+    "fortune-paws": "【R1488】366/3333 mintOpen=1。",
+    "numbi": "【R1488】102 持平。",
+    "beast16": "【R1488】227/4444 mintOpen=1，Reveal 20:00 CST。",
+    "toast-bnb": "【R1488】cardsSold=166，免费剩 4834，LIVE。",
+    "kothpad": "【R1488】官网仍几乎空白，无链/时间/CA。",
+    "droolies-rh": "【R1488】官网仍 mint soon on OpenSea。"
+  },
+  "onchainChecks": {
+    "fortune-paws": {
+      "totalSupply": null,
+      "mintOpen": 1,
+      "totalMinted": 366
+    },
+    "chipmunks-bnb": {
+      "totalSupply": 1062,
+      "mintOpen": 1,
+      "totalMinted": 1062
+    },
+    "numbi": {
+      "totalSupply": 102,
+      "mintOpen": 1,
+      "totalMinted": 102
+    },
+    "gloop-slime": {
+      "totalSupply": null,
+      "mintOpen": 1,
+      "totalMinted": 3081
+    },
+    "beast16": {
+      "totalSupply": null,
+      "mintOpen": 1,
+      "totalMinted": 227
+    },
+    "pandu-agent": {
+      "totalSupply": 177,
+      "mintOpen": 1,
+      "totalMinted": 177
+    },
+    "toast-bnb": {
+      "cardsSold": 166,
+      "freeGiven": 166,
+      "freeCardsRemaining": 4834,
+      "live": true
+    },
+    "bonk-mint": {
+      "totalMinted": 0,
+      "mintOpen": null
+    },
+    "bonk-token": {
+      "totalSupply": 0
+    },
+    "the-long-necks": {
+      "totalSupply": 347,
+      "chain": "Base",
+      "contract": "0x3ab4978702f1208106c46f0faa417829f304a4d7",
+      "source": "1rpc.io/base eth_call totalSupply()"
+    }
+  },
+  "xReads": 7,
+  "remainingBefore": 639,
+  "remaining": 632,
+  "softCap": 40,
+  "ufCursor": 186,
+  "ufCursorBefore": 154,
+  "xQuota": {
+    "remainingBefore": 639,
+    "remaining": 632,
+    "xReads": 7,
+    "mode": "ample",
+    "softCap": 40,
+    "ufCursor": 186,
+    "ufCursorBefore": 154,
+    "checkedAt": "2026-11-09 04:57 CST",
+    "eveningReserve": 80,
+    "note": "API-call xReads=7（UF1 + must/≤2h 1 + 3 KW + 1 Elytypess + 1 starved-lane）；首 footer 638 => remainingBefore 639；末 footer 632；reset 2026-11-09 08:00 CST"
+  },
+  "tenLanes": "UF 154→186（32 号中跳过 NF_skip 的 AGENTICABOT+Arcdepthoock，实查 30 号 from: 批量 1 次，result_count=0；表长 1186→1189） + must/≤2h 1 次（BROISAFREAK/Bonkagent_/halofunxyz/SkittersNFTs） + 3 search_posts_all（①打新/AgentID/free mint/launchpad/AIDROP/X Layer；②挖矿/PoW/squeek/GO盘/LayerZero/OFT；③Elysium/Tape/GIWA/DogeEVM/BTC/Starknet） + 1 from:Elytypess + 1 饿栏补读 GIWA/DogeEVM/BTC/Starknet/LayerZero。九栏+BTC/Starknet 均跑；GIWA 多为已在库 Ammora 等待名单转发；DogeEVM/Starknet/LayerZero/Tape 本窗无可收新号；Canton/Glaze/TokenWorks lastChecked 已刷。",
+  "discordPeekDeferred": true,
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "DeepSeek deepseek-flash(thinking) 完整 JSON；admit the-long-necks/elytypes/pairmine，skip MyArgosodyssey/GHOSTPAYLOL。本地补 handles 进 alert、whatsNew 加【R1488】前缀、zoneHint 归到标准栏名，并用 1rpc.io/base 复验 Long Necks totalSupply=347。dsFallback=false",
+  "forcePanelIds": "保留 broisafreak（Public 仍 LIVE 但官网仍无独立 CA；≤2h 已过）",
+  "pushSha": "PENDING"
+}
