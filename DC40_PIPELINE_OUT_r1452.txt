@@ -1,0 +1,12 @@
+cards=45 unique=36 keep=31 pre_reject=3 already=2
+DS batch 0 n=9
+  got 9 decisions in 22.3s
+DS batch 1 n=9
+  got 9 decisions in 20.3s
+DS batch 2 n=9
+  got 9 decisions in 17.0s
+DS batch 3 n=4
+  got 4 decisions in 5.1s
+admits=3 ds_rejects=28 pre_rejects=3
+APPLY {"round": 1452, "newIds": ["letheans-nft", "qhooks", "haltercard"], "cleared": ["padlaunch", "lysium-pad", "rovya"], "result": "/workspace/early-scout/ROUND1452_RESULT.json", "summary": "R1452：Discord alpha 补收 letheans-nft,qhooks,haltercard；清 padlaunch,lysium-pad,rovya；lastSeen→2026-11-08 12:46；lastChecked→2026-11-08 12:51 CST"}
+{"ok": true, "round": 1452, "notify": true, "newIds": ["letheans-nft", "qhooks", "haltercard"], "alert": "DC补漏R1452新收：Letheans（Elysium早期NFT）、QHooks（v4 hooks工具）、Haltercard（AI Agent支付卡，Robinhood Chain）；面板 https://reboot7454.github.io/early-scout/", "lastSeenByChannel": {"alpha-3-new-accounts": "2026-11-08 12:46", "alpha-1-backup": "2026-11-08 12:34", "smart-accounts-tracker": "2026-11-08 12:42", "alpha-1": "2026-11-08 12:38"}, "ds_usage": {"calls": 5, "prompt_tokens": 7068, "completion_tokens": 10677}, "result": "/workspace/early-scout/ROUND1452_RESULT.json", "ts": "20261108_1250"}
