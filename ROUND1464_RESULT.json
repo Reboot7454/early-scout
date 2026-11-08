@@ -1,0 +1,170 @@
+{
+  "round": 1464,
+  "mode": "x-radar",
+  "completedAt": "2026-11-08 16:39 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "【R1464】新收 realys（Elysium 测试网 Chain ID 99801 基建已部署）、Tiny（自称 RH→Elysium 迁移未核验已降栏）、Doin（Montra live，有 CA）；面板：https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "realys",
+    "tiny-rh",
+    "dointrade"
+  ],
+  "newAdmits": [
+    {
+      "id": "realys",
+      "handle": "@realysfun",
+      "name": "Realys",
+      "oneLiner": "Elysium 测试网 Chain ID 99801 基建已部署的 RWA/进化 NFT 协议",
+      "category": "打新",
+      "ecosystem": "Elysium"
+    },
+    {
+      "id": "tiny-rh",
+      "handle": "@Tiny_RH",
+      "name": "A World of Tiny",
+      "oneLiner": "自称 10K NFT 已从 RH 迁至 Elysium，未核验已降栏",
+      "category": "打新",
+      "elysiumDemote": true
+    },
+    {
+      "id": "dointrade",
+      "handle": "@dointrade",
+      "name": "Doin",
+      "oneLiner": "五支 AI 交易代理，DOIN 经 Montra live，CA 0xe9dac960cd1a82221954761e077b5b3004c8dbb5",
+      "category": "打新",
+      "ecosystem": "Elysium"
+    }
+  ],
+  "newCount": 3,
+  "newIds": [
+    "realys",
+    "tiny-rh",
+    "dointrade"
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "rushonelysium",
+    "spookers-rh"
+  ],
+  "clearedPrevNTR": [
+    "rushonelysium",
+    "spookers-rh"
+  ],
+  "skipped": [
+    {
+      "id": "zyelybot",
+      "handle": "@zyelybot",
+      "reason": "Telegram 交易机器人，无 CA/无 mint，粉6，DS 判可操作性不足 skip"
+    },
+    {
+      "id": "swarmpad-near",
+      "handle": "@swarmpad_near",
+      "reason": "与库内 swarmpad/@swarmpadrun 及 swarmpad-base-ai/@swarmpad_ 同名第三号，NEAR 黑客松，0粉建号1天，DS skip 以免蹭名"
+    },
+    {
+      "id": "geckoplenger",
+      "handle": "@geckoplenger",
+      "reason": "仅见 @mortalApes 发 RH 5000 FREE MINT WL 抽奖，未见项目官推自己发声，DS skip"
+    },
+    {
+      "id": "war3",
+      "handle": null,
+      "reason": "散户 @bestnftseen / @tea0396 / @Sanimah221 继续宣称 BNB free mint，仍未见项目官推，DS 保持 skip"
+    },
+    {
+      "id": "pawgeng",
+      "handle": "@_faridvaisal",
+      "reason": "散户更新约 2290/3333 minted，仍未见官推，DS 保持 skip"
+    },
+    {
+      "note": "KW already-in: souls-elysium, mortal-apes, yieldex-markets, elysium-punks, stark-launchy, deuslaunch, erupt-fun, ithinkitsart, asciienv, zeru-finance, themochieffect, elysians, jpegzart, tideboundrh, memefund, zunki, eleosfun, montra, volta-family, elyfluff, elywizardz, torpor, joseon-fun, ammora, giwaup, tapepetdao"
+    }
+  ],
+  "xReads": 7,
+  "remainingBefore": 841,
+  "remaining": 834,
+  "mode_budget": "ample",
+  "softCap": 28,
+  "ufCursor": 744,
+  "ufCursorBefore": 712,
+  "xQuota": {
+    "remainingBefore": 841,
+    "remaining": 834,
+    "xReads": 7,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 744,
+    "ufCursorBefore": 712,
+    "checkedAt": "2026-11-08 16:39 CST",
+    "note": "API-call xReads=7 (UF1 因本片 7 个 prior NF，25 个可查询刚好 1 批 + must/LIVE1 含 xypher 仅 1 次 + 5 search_posts_all); footer 841→834; R1462 余 849 至开跑前被共享额度消耗至 841; daily pacing ample; UF712→744"
+  },
+  "tenLanes": "UF712→744 + must/LIVE23 (1 batched, xypher once) + 5KW (打新/台子 + 挖矿 + LZ/Elysium + Tape/GIWA + DogeEVM/BTC/Stark/GO)",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": "2026-11-08 16:04",
+    "lastChecked": "2026-11-08 16:12 CST",
+    "lastSeenByChannel": {
+      "alpha-1": "2026-11-08 16:03",
+      "alpha-1-backup": "2026-11-08 16:04",
+      "smart-accounts-tracker": "2026-11-08 15:57",
+      "alpha-3-new-accounts": "2026-11-08 16:02"
+    },
+    "note": "R1464 executor 无浏览器；沿用 R1463 peek lastSeen，不回滚、不催登录"
+  },
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking-on; custom admit 收 realys/tiny-rh/dointrade；skip zyelybot/swarmpad-near/geckoplenger/war3/pawgeng；undeadnfts ≤2h 已结束 le2h=false；alert+whatsNew copy for new admits and in-warehouse updates",
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "ufNF": {
+    "priorSkip": [
+      "AgentFramlin404",
+      "RedirectCash",
+      "kyte_market",
+      "vytraqfun",
+      "hyperlinkdotfun",
+      "lazabitmeme",
+      "XiangHao91647"
+    ],
+    "newNF": []
+  },
+  "le2h": [],
+  "undeadnfts": {
+    "stillLive": true,
+    "le2h": false,
+    "window": "2026-11-08 14:32 CST start, ≤2h ended ~16:32 CST",
+    "tweetCount": 1,
+    "note": "官推仍仅 14:32 CST MINT LIVE 一帖，无售罄/结束新帖；已过 ≤2h 窗口，不因长 LIVE 再通知"
+  },
+  "xypher": {
+    "stillLive": true,
+    "le2h": false,
+    "window": "2026-11-08 12:53 CST start, ≤2h ended ~14:53 CST",
+    "ca": "0xb81307b5c9d4d10cb0dc6bcb6c9a222366906e51",
+    "note": "14:33 CST still posting decoder 1.5× explainer; withdrawals not open"
+  },
+  "remoteHadPriorRound": {
+    "round": 1463,
+    "mode": "discord-alpha-40",
+    "newIds": [
+      "rushonelysium",
+      "spookers-rh"
+    ],
+    "note": "git pull 后远程已有 R1463 Discord 补漏，本轮按 R1464 跑 X-radar"
+  },
+  "push": {
+    "attempted": true,
+    "ok": false,
+    "sha": null,
+    "short": null,
+    "branch": "main",
+    "remote": "origin"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1464：远程已有 R1463 DC补漏；新收 realys/tiny-rh/dointrade；清 R1463 NTR rushonelysium/spookers-rh；UF712→744；undeadnfts ≤2h 已结束仍 LIVE；xypher 仍 LIVE 但已过 ≤2h；discordPeekDeferred（沿用 R1463 lastSeen）",
+  "pushSha": null,
+  "tip": null,
+  "remoteVerified": false
+}
