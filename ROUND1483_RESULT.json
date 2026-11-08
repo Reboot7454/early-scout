@@ -1,0 +1,144 @@
+{
+  "round": 1483,
+  "mode": "ample",
+  "completedAt": "2026-11-09 02:02 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "有新收录 bonkagent、halofun，且 broisafreak Public 02:00 CST 处于≤2h。",
+  "alertMessage": "R1483新收录：BONK Agent（@Bonkagent_，BSC Agent ID首1000免费，今日15:00 CST开铸，无CA，旧号改名风险高）；Halo（@halofunxyz，Elysium memecoin发射台，11/9上线无精确钟点）。≤2h：BRO IS A FREAK Public 02:00 CST 正当时，官网仍Mint soon无CA。PanduAGENT链上133/2222、Gloop 2907/3333。https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "bonkagent",
+    "halofun"
+  ],
+  "newAdmits": [
+    {
+      "id": "bonkagent",
+      "handle": "@Bonkagent_",
+      "chain": "BNB Chain",
+      "category": "打新",
+      "note": "BSC Agent ID 首1000免费 mint，今日15:00 CST 开铸，2%税，官网 https://bonk.bomb.here.now/ ，无CA；2015旧号仅2帖515粉风险高"
+    },
+    {
+      "id": "halofun",
+      "handle": "@halofunxyz",
+      "chain": "Elysium",
+      "category": "台子/Meme(Elysium生态)",
+      "note": "Elysium memecoin launchpad，11/9 上线，一笔交易发币无发射费；官网 https://halofun.xyz/ ；无CA/钟点；3粉"
+    }
+  ],
+  "newCount": 2,
+  "clearedPrevNTR": [
+    "pandu-agent"
+  ],
+  "clearedPrevNewThisRound": true,
+  "skipped": [
+    {
+      "handle": "@Letheonelysium",
+      "reason": "Elysium LP 管理工具，非打新/发射/挖矿"
+    },
+    {
+      "handle": "@Elysium_Punks",
+      "reason": "仅第三方 WL 帖，官号无 mint 时间/CA"
+    },
+    {
+      "handle": "@oracleagents_ai",
+      "reason": "0粉1帖，无CA/时间"
+    },
+    {
+      "handle": "@AlchemistAgent",
+      "reason": "Solana 预告 72h 内部署，无CA/时间，2粉新号"
+    },
+    {
+      "handle": "@Payrailfinance",
+      "reason": "Elysium 支付基础设施，非打新"
+    }
+  ],
+  "le2h": [
+    "broisafreak"
+  ],
+  "le2hStatus": {
+    "broisafreak": "Public 02:00 CST 正当时（GTD 01:00 已过）；官网仍写 Mint soon / Ethereum 2,222，无CA；官推 01:30–01:37 仅回复，无 live 公告。≤2h。",
+    "ordo-files": "01:50 ≤2h 窗已结束；01:15 起无新帖；仍无CA。",
+    "fortune-paws": "链上 totalMinted 364/3333 持平，mintOpen=true，付费 LIVE，非≤2h。CA 0x152f4704Ed0a0AA1514952a06Cf9F36cB4caf088",
+    "elysium-gloom": "collab 约00:50 已过，无新帖，非≤2h。",
+    "agent-pulse": "01:20 窗已过，无新帖，非≤2h。",
+    "pandu-agent": "链上 totalMinted 95→133/2222，mintOpen=true（官推 01:29 称 92）。非≤2h。",
+    "gloop-slime": "链上 2796→2907/3333 免费 LIVE。",
+    "chipmunks-bnb": "链上 1042→1046/6666。",
+    "numbi": "链上 102 持平。",
+    "beast16": "链上 215→216。",
+    "bonkagent": "新收；今日 15:00 CST 开铸（约13h后），非≤2h，无CA。",
+    "halofun": "新收；Elysium 11/9 上线无精确钟点，非≤2h。"
+  },
+  "onchainChecks": {
+    "fortune-paws": {
+      "totalSupply": null,
+      "mintOpen": 1,
+      "totalMinted": 364
+    },
+    "chipmunks-bnb": {
+      "totalSupply": 1046,
+      "mintOpen": 1,
+      "totalMinted": 1046
+    },
+    "numbi": {
+      "totalSupply": 102,
+      "mintOpen": 1,
+      "totalMinted": 102
+    },
+    "gloop-slime": {
+      "totalSupply": null,
+      "mintOpen": 1,
+      "totalMinted": 2907
+    },
+    "beast16": {
+      "totalSupply": null,
+      "mintOpen": 1,
+      "totalMinted": 216
+    },
+    "pandu-agent": {
+      "totalSupply": 133,
+      "mintOpen": 1,
+      "totalMinted": 133
+    }
+  },
+  "xReads": 7,
+  "remainingBefore": 694,
+  "remaining": 687,
+  "softCap": 40,
+  "ufCursor": 13,
+  "ufCursorBefore": 1160,
+  "xQuota": {
+    "remainingBefore": 694,
+    "remaining": 687,
+    "xReads": 7,
+    "mode": "ample",
+    "softCap": 40,
+    "ufCursor": 13,
+    "ufCursorBefore": 1160,
+    "checkedAt": "2026-11-09 02:02 CST",
+    "eveningReserve": 80,
+    "note": "API-call xReads=7 (UF1 + must/≤2h1 + 4 KW + 1 新号 profile 批量)；首 footer 693 => remainingBefore 694；末 footer 687；reset 2026-11-09 08:00 CST；UF 表 1179 号游标绕回 13"
+  },
+  "tenLanes": "UF1160→1179+绕回0→13（32 号 from: 批量 1 次，全在库无 NF；表长1179） + must/≤2h 1 次批量（BROISAFREAK/MintRoboAi/Elysiumgloom/GloopSlimeHQ/Elyziumaa/Enter_Elysium/squeekchain/flapdotsh/TapeAIAgent/launchonelysium/shadesofely/eruptdottfun/PrimateLegends/hopkinagent/miuadotfun/opacra；Frtn_Paws/ChipmunksBNB/ordo_xlife/numbiagent/TOASTbnb/PanduAGENT/DaymonElysium 等已在 UF 片内去重） + 4 search_posts_all（打新/台子/AgentID/AIDROP/X Layer/Pulse；挖矿/PoW/squeek/Nutshell/GO盘；LayerZero/OFT/Elysium/Local Bottom/Carcosa；Tape/GIWA/DogeEVM/Ordinals(BTC)/Starknet） + 1 次新号 profile 批量（7 号）。九栏+BTC/Starknet 均跑；DogeEVM/LayerZero 本窗无可收命中；Canton/Glaze/TokenWorks lastChecked 已刷。mentions 并入 KW（@Enter_Elysium/@squeekchain/X Layer）。链上 RPC 刷 Fortune/Chipmunks/NUMBI/Gloop/Beast16/Pandu。新收 @Bonkagent_ 来自 KW(打新/AgentID)、@halofunxyz 来自 KW(Elysium)。",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "reason": "executor 无浏览器",
+    "lastSeenByChannel": {
+      "alpha-1": "2026-11-08 19:12",
+      "alpha-1-backup": "2026-11-08 17:34",
+      "smart-accounts-tracker": "2026-11-08 17:01",
+      "alpha-3-new-accounts": "2026-11-08 19:14"
+    }
+  },
+  "dsNote": "DeepSeek deepseek-flash(thinking) 两次调用：①admit/score/文案（输出在第3个候选后被截断，已用前2个完整 admit 对象，其余 skip 判定取自可读部分）②updates/le2h/alert/summary；alertMessage 仅本地修正 DS 拼写错误（brokagent→BONK Agent）并补数字。",
+  "dsFallback": false,
+  "docsSynced": true,
+  "watchAdds": [
+    "@Bonkagent_ → userFollowWatch+agentPadWatch",
+    "@halofunxyz → userFollowWatch+elysiumWatch"
+  ],
+  "pushSha": null,
+  "pushOk": null
+}
