@@ -1,0 +1,171 @@
+{
+  "round": 1451,
+  "mode": "x-radar",
+  "completedAt": "2026-11-08 12:38 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "newAdmits",
+  "alertMessage": "本轮新收：PadLaunch（3日前建号14粉，Solana发射台即服务，付1SOL定制发射台，无代币CA）；Lysium Pad、Rovya均今日建号仅2粉，自宣Elysium相关但未核验不进Elysium栏；详见 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "padlaunch",
+    "lysium-pad",
+    "rovya"
+  ],
+  "newAdmits": [
+    {
+      "id": "padlaunch",
+      "name": "PadLaunch",
+      "lane": "台子/Meme",
+      "why": "官推2026-11-05建号、14粉；官网 padlaunch.io 已上线，付1 SOL即可定制自己的Solana发射台（Pump.fun/Raydium/Meteora），协议收入90%归创建者。无独立代币CA。",
+      "twitter": "@padlaunchio",
+      "website": "https://padlaunch.io",
+      "ca": null,
+      "time": "产品已上线（非≤2h；无发币窗）",
+      "source": "https://x.com/padlaunchio/status/2119287306410405977",
+      "scores": {
+        "early": 88,
+        "actionable": 82,
+        "novelty": 78,
+        "risk": 55,
+        "overall": 76
+      },
+      "elysiumDemote": false
+    },
+    {
+      "id": "lysium-pad",
+      "name": "Lysium Pad",
+      "lane": "台子/Meme",
+      "why": "官推今日约11:43 CST新建、2粉；官网 lysiumpad.fun 为Elysium测试网发币工作室（chainId 99801）。主网官方日期仍11/9，生态页gated，未核验不进Elysium栏",
+      "twitter": "@LysiumPad",
+      "website": "https://www.lysiumpad.fun/",
+      "ca": null,
+      "time": "观察中（仅测试网；非≤2h；主网官方日期仍11/9）",
+      "source": "https://x.com/LysiumPad/status/2119281304340402437",
+      "scores": {
+        "early": 92,
+        "actionable": 60,
+        "novelty": 65,
+        "risk": 80,
+        "overall": 64
+      },
+      "elysiumDemote": true
+    },
+    {
+      "id": "rovya",
+      "name": "Rovya",
+      "lane": "台子/Meme",
+      "why": "官推今日约11:33 CST新建、2粉；自宣Elysium上Uniswap v4仓位/桥，官网 rovya.org；给出USDC/KNTQ Token Gateway。主网官方日期仍11/9，未核验不进Elysium栏",
+      "twitter": "@Rovya_org",
+      "website": "https://rovya.org",
+      "ca": "0xb47c4c8f73f009cc0c0d3f92b388d13e293f0b65",
+      "time": "自称bridging live（非≤2h；合约未核验；主网官方日期仍11/9）",
+      "source": "https://x.com/Rovya_org/status/2119280969190666728",
+      "scores": {
+        "early": 90,
+        "actionable": 55,
+        "novelty": 62,
+        "risk": 85,
+        "overall": 61
+      },
+      "elysiumDemote": true
+    }
+  ],
+  "newCount": 3,
+  "newIds": [
+    "padlaunch",
+    "lysium-pad",
+    "rovya"
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "gryphon",
+    "symbolon"
+  ],
+  "clearedPrevNTR": [
+    "gryphon",
+    "symbolon"
+  ],
+  "skipped": [
+    {
+      "id": "elyx-agent",
+      "reason": "自称Elysium但CA为Solana pump.fun（Bai5htJf…pump），链叙事冲突且代币已上线，DS skip"
+    },
+    {
+      "id": "onion-swap",
+      "reason": "社区代币已在Virtuals上线，DS判偏过热跳过"
+    },
+    {
+      "id": "elysiumpunks-underscore",
+      "reason": "ElysiumPunks_ 为0粉下划线号，疑似已在库 elysiumpunks/@ElysiumPunks 的仿号/地址收割，不收"
+    },
+    {
+      "note": "KW already-in: ventrove, arkhampad, sasa-pad, join-elypad, fulcrum-elysium, set-it, blurb, dividotfun, madang-fun, skitters, elysium-makers, cathereum, deuslaunch, ammora, floatdotxyz, vibevibe-fun, archuntx"
+    }
+  ],
+  "xReads": 8,
+  "remainingBefore": 920,
+  "remaining": 912,
+  "mode_budget": "ample",
+  "softCap": 28,
+  "ufCursor": 520,
+  "ufCursorBefore": 488,
+  "xQuota": {
+    "remainingBefore": 920,
+    "remaining": 912,
+    "xReads": 8,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 520,
+    "ufCursorBefore": 488,
+    "note": "API-call xReads=8 (UF2 + must/LIVE1 + 5 search_posts_all); footer 920→912; daily pacing ample not post-reset-full; UF488→520 in-lib; NF3+suspended1"
+  },
+  "tenLanes": true,
+  "tenLanesNote": "UF488→520 + must/LIVE14 + 5 search_posts_all（打新/台子+挖矿+LZ/Elysium+Tape/GIWA+DogeEVM/BTC/Stark/GO）",
+  "tenLanesCoverage": "打新｜挖矿｜台子/Meme｜GO盘｜LayerZero｜Elysium｜Tape｜GIWA｜DogeEVM + BTC/Stark",
+  "mentionsChains": "本轮额度 ample 但 mentions 并入第5路 KW（DogeEVM/BTC/Stark/GO）；该路命中已在库 @_Set_It_ 与 FULCRUM_elysium",
+  "discordPeekDeferred": true,
+  "discordPeekReason": "no browser; reuse lastSeen cutoffs from R1450 Discord peek",
+  "discordLastSeenByChannel": {
+    "alpha-1": "2026-11-08 11:51",
+    "alpha-1-backup": "2026-11-08 11:19",
+    "smart-accounts-tracker": "2026-11-08 11:21",
+    "alpha-3-new-accounts": "2026-11-08 11:57"
+  },
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking-on；ds_batch_score 一次完整：admit padlaunch + lysium-pad + rovya；skip elyx-agent + onion-swap。三卡 overall 公式复核后改为 76/64/61（DS原稿 78/62/58 已按 early*0.35+actionable*0.25+novelty*0.2+(100-risk)*0.2 修正）。lysium-pad/rovya 自称 Elysium 但主网官方日期仍 11/9 且生态页 Partner access gated，不进 Elysium 栏。alert 采用其拟定短中文并替换 PANEL。",
+  "watches": {
+    "elyseapro": "elysea.pro/rpc 复核 WAVE totalSupply 仍104/1000；官推仍0帖/粉4；官网 elysea.pro；≤2h已于约09:44 CST过期，维持le2h=false；不升 Elysium 栏",
+    "primate-legends": "MINT LIVE + RYO bonding curve 续；本轮必盯软刷未见新开窗证据",
+    "hopkinagent": "LIVE 续 3200/10000；本轮必盯软刷未见新开窗证据",
+    "elys-tape": "Foundry LIVE 续",
+    "oil-hood": "$OILHOOD LIVE on Pons 续",
+    "elysium-meme": "$CNINE LIVE 续",
+    "bitrush-btcb": "LIVE 续",
+    "gloop-slime": "官推仍 9 HOURS TO GO，Mint opens 12:00 UTC（20:00 CST）；$GLOOP 12:30 UTC（20:30 CST）；本轮约12:38 CST距开铸约7h，非本轮新、非≤2h",
+    "kairoslaunch": "官推称 Kairos launches November 9（与 Elysium 主网同日），官网 kairoslaunch.io；非≤2h，不升 Elysium 栏",
+    "grim-pixels-rh": "11/9 Robinhood 699 FREE MINT 续；非≤2h",
+    "shadesofely": "mainnet Nov 9；early list closes 约 20:43 CST；非本轮新、非≤2h",
+    "erupt-fun": "Nov9 FREE Genesis 4444 续",
+    "elympus-hq": "Genesis 0.055 HYPE Day1 TBA 续",
+    "broisafreak": "GTD 11/9 01:00CST / PUBLIC 02:00CST 续",
+    "ascendlaunch": "Nov9 day-one 续",
+    "set-it": "独立官网 https://setit.fun 仍在；$SETIT CA 仍为 6UjNtVncstNLMT7immhjHAG1c6gmGB3jBJ4xCck1pump",
+    "eloscape": "仍按 gated / No token yet 观察",
+    "stopped": "HashDoge/Genius/Corla/Flap STOPPED"
+  },
+  "ufNotes": "488→520; all 32 already in-lib; NF3 (Asciidogs,rheacatnear,magnitudeagent) + suspended1 (bububullfun); added @padlaunchio @LysiumPad @Rovya_org",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1451：新收 padlaunch、lysium-pad、rovya；elyseapro Waves 仍104/1000但≤2h已过期；gloop 今日20:00CST开铸非≤2h；UF488→520；discordPeekDeferred；docsSynced",
+  "pushSha": "PENDING",
+  "tip": "PENDING",
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "remoteVerified": false,
+  "notePull": "git pull 后 remote 已是 R1450（tip 1f88ff8）。本轮 X radar 以 R1451 落盘，未覆盖更高轮次。",
+  "le2h": false,
+  "le2hIds": []
+}
