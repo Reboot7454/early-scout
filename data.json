@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-08 14:20 CST",
+    "updated": "2026-11-08 14:46 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R1446",
-    "lastScout": "2026-11-08 14:20 CST",
+    "lastScout": "2026-11-08 14:46 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -700,7 +700,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1457,
+    "round": 1458,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2110,7 +2110,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "loon-rat"
+      "mendlingsnft",
+      "halyte",
+      "undeadnfts"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4553,20 +4555,19 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-11-08 14:06",
-      "lastChecked": "2026-11-08 14:20 CST",
-      "newestCardTime": "2026-11-08 14:06",
-      "cardsAfterCutoff": 45,
-      "note": "R1457：X radar；executor 无浏览器，discordPeekDeferred=true；沿用 R1456 peek lastSeen alpha-1 13:45 / backup 14:04 / smart 13:50 / alpha-3 14:06 CST，不回滚、不编造更新",
-      "lastRound": 1456,
+      "deferred": false,
+      "lastSeen": "2026-11-08 14:43",
+      "lastChecked": "2026-11-08 14:46 CST",
+      "newestCardTime": "2026-11-08 14:43",
+      "cardsAfterCutoff": 44,
+      "note": "R1458：Discord alpha 补收 mendlingsnft,halyte,undeadnfts；清 loon-rat；lastSeen→2026-11-08 14:43；lastChecked→2026-11-08 14:46 CST",
+      "lastRound": 1458,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-08 14:06",
-        "alpha-1-backup": "2026-11-08 14:04",
+        "alpha-3-new-accounts": "2026-11-08 14:43",
+        "alpha-1-backup": "2026-11-08 14:35",
         "smart-accounts-tracker": "2026-11-08 13:50",
-        "alpha-1": "2026-11-08 13:45"
-      },
-      "discordPeekDeferred": true
+        "alpha-1": "2026-11-08 14:42"
+      }
     },
     "round239Added": [
       "tsunamilaunch",
@@ -26853,9 +26854,148 @@
     ],
     "round1457Added": [
       "loon-rat"
+    ],
+    "round1458Added": [
+      "mendlingsnft",
+      "halyte",
+      "undeadnfts"
     ]
   },
   "candidates": [
+    {
+      "id": "undeadnfts",
+      "name": "Undead NFTs",
+      "handle": "@UndeadNFTs",
+      "twitter": "@UndeadNFTs",
+      "chain": "BNB Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/UndeadNFTs"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6.5,
+        "novelty": 4,
+        "actionable": 6,
+        "overall": 5.8
+      },
+      "highlights": [
+        "5,555 枚像素骷髅",
+        "首次 mint 免费",
+        "需 Agent ID 参与 mint"
+      ],
+      "drawbacks": [
+        "零粉丝，匿名团队",
+        "叙事普通，无官网/合约信息"
+      ],
+      "whatsNew": "BNB 上 5,555 枚免费首铸 NFT",
+      "summary": "BNB 链上像素骷髅 NFT 合集，公布供应量与免费首铸及 Agent ID 铸造方式，属极早期 mint 机会。",
+      "blurb": "BNB 免费首铸像素骷髅 NFT。",
+      "round": 1458,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-08 14:46 CST",
+      "addedAt": "2026-11-08 14:46 CST",
+      "lastChecked": "2026-11-08 14:46 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "halyte",
+      "name": "Halyte",
+      "handle": "@halyte_rh",
+      "twitter": "@halyte_rh",
+      "chain": "Ethereum",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/halyte_rh"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.8
+      },
+      "highlights": [
+        "索引全部 Uniswap v4 池",
+        "解析地址中14个hook位",
+        "本地钱包签名的报价与swap构建"
+      ],
+      "drawbacks": [
+        "粉丝极少，可信度待验证",
+        "工具型产品，无代币/激励信息"
+      ],
+      "whatsNew": "Uniswap v4 hook 解码 + swap 构建终端",
+      "summary": "只读的 Uniswap v4 终端，能索引池子、解码 hook 位并生成待签名交易，属早期工具类产品。",
+      "blurb": "Uniswap v4 hook 解析终端，早期工具卡。",
+      "round": 1458,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-08 14:46 CST",
+      "addedAt": "2026-11-08 14:46 CST",
+      "lastChecked": "2026-11-08 14:46 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "mendlingsnft",
+      "name": "Mendlings",
+      "handle": "@MendlingsNFT",
+      "twitter": "@MendlingsNFT",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/MendlingsNFT"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 3,
+        "overall": 5.9
+      },
+      "highlights": [
+        "项目命名与设定完整（金缮治愈主题NFT）",
+        "明确标注Robinhood Chain"
+      ],
+      "drawbacks": [
+        "0粉、无官网/mint时间",
+        "可能为占位号"
+      ],
+      "whatsNew": "Robinhood Chain上新的金缮主题NFT合集号首次出现",
+      "summary": "Mendlings为Robinhood Chain上的NFT系列号，bio给出明确主题设定与链归属，但尚无mint页面与时间表，需持续跟踪首发。",
+      "blurb": "Robinhood Chain金缮NFT新号，蹲mint信息。",
+      "round": 1458,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-08 14:46 CST",
+      "addedAt": "2026-11-08 14:46 CST",
+      "lastChecked": "2026-11-08 14:46 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "loon-rat",
       "name": "Loon Rat",
@@ -26913,7 +27053,7 @@
       },
       "focus": false,
       "lzVerified": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "round": 1457,
       "firstSeen": "2026-11-08 14:20 CST",
@@ -229742,24 +229882,21 @@
     }
   ],
   "newThisRound": [
-    "hushdesk",
-    "bagsplit",
-    "animebigtitty",
-    "guppofish",
-    "keystrokenft",
-    "elysfinance"
+    "mendlingsnft",
+    "halyte",
+    "undeadnfts"
   ],
-  "alertMessage": "DC补漏R1456新收6个：Hush Desk、BagSplit、Anime Big Titty Coin、Guppo（台子/Meme）+ Keystroke、Elys（Elysium）；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1458新收3个：Mendlings（@MendlingsNFT，打新，Robinhood Chain 金缮主题NFT）、Halyte（@halyte_rh，台子/Meme，Uniswap v4 hook 解析终端）、Undead NFTs（@UndeadNFTs，打新，BNB 5555 免费首铸像素骷髅）；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "thesis-perps"
   ],
-  "updatedAt": "2026-11-08 14:11 CST",
-  "updated": "2026-11-08 14:11 CST",
+  "updatedAt": "2026-11-08 14:46 CST",
+  "updated": "2026-11-08 14:46 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-08 14:11 CST",
+  "lastScout": "2026-11-08 14:46 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -229801,7 +229938,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3355,
+  "candidateCount": 3359,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -232568,5 +232705,10 @@
     "guppofish",
     "keystrokenft",
     "elysfinance"
+  ],
+  "round1458Added": [
+    "mendlingsnft",
+    "halyte",
+    "undeadnfts"
   ]
 }
