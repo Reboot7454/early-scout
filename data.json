@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-08 13:39 CST",
+    "updated": "2026-11-08 14:11 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R1446",
-    "lastScout": "2026-11-08 13:39 CST",
+    "lastScout": "2026-11-08 14:11 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -700,7 +700,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1455,
+    "round": 1456,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2110,7 +2110,12 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "xypher"
+      "hushdesk",
+      "bagsplit",
+      "animebigtitty",
+      "guppofish",
+      "keystrokenft",
+      "elysfinance"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4553,20 +4558,19 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-11-08 13:19",
-      "lastChecked": "2026-11-08 13:22 CST",
-      "newestCardTime": "2026-11-08 13:19",
-      "cardsAfterCutoff": 34,
-      "note": "R1455：X radar；executor 无浏览器，discordPeekDeferred=true；沿用 R1454 lastSeen alpha-1 13:14 / backup 13:19 / smart 13:12 / alpha-3 13:19 CST",
-      "lastRound": 1454,
+      "deferred": false,
+      "lastSeen": "2026-11-08 14:06",
+      "lastChecked": "2026-11-08 14:11 CST",
+      "newestCardTime": "2026-11-08 14:06",
+      "cardsAfterCutoff": 45,
+      "note": "R1456：Discord alpha 补收 hushdesk,bagsplit,animebigtitty,guppofish,keystrokenft,elysfinance；清 xypher；lastSeen→2026-11-08 14:06；lastChecked→2026-11-08 14:11 CST",
+      "lastRound": 1456,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-08 13:19",
-        "alpha-1-backup": "2026-11-08 13:19",
-        "smart-accounts-tracker": "2026-11-08 13:12",
-        "alpha-1": "2026-11-08 13:14"
-      },
-      "discordPeekDeferred": true
+        "alpha-3-new-accounts": "2026-11-08 14:06",
+        "alpha-1-backup": "2026-11-08 14:04",
+        "smart-accounts-tracker": "2026-11-08 13:50",
+        "alpha-1": "2026-11-08 13:45"
+      }
     },
     "round239Added": [
       "tsunamilaunch",
@@ -26827,9 +26831,282 @@
     "watchBugsFixedR1455": [
       "fletch-agent @FletchAgent → userFollowWatch+agentPadWatch (R1454 admit 漏 Watch)",
       "xypher @XypherOnRH → userFollowWatch+miningWatch"
+    ],
+    "round1456Added": [
+      "hushdesk",
+      "bagsplit",
+      "animebigtitty",
+      "guppofish",
+      "keystrokenft",
+      "elysfinance"
     ]
   },
   "candidates": [
+    {
+      "id": "elysfinance",
+      "name": "Elys",
+      "handle": "@elysfinance",
+      "twitter": "@elysfinance",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/ElysFinance"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 7,
+        "novelty": 5,
+        "actionable": 4,
+        "overall": 5.1
+      },
+      "highlights": [
+        "自称 Elysium 首个 Neobank",
+        "存资产+全场景消费的产品概念"
+      ],
+      "drawbacks": [
+        "0 粉全新号，真实性待验",
+        "未见 testnet/合约/文档",
+        "可能为占位壳"
+      ],
+      "whatsNew": "提出在 Elysium 上做 Neobank，存入资产后可直接消费",
+      "summary": "Elysium 生态 Neobank 概念项目，产品叙事具体但无技术佐证，需观察后续部署。",
+      "blurb": "自称 Elysium 首个 Neobank，未核验已降台子/Meme。",
+      "round": 1456,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-08 14:11 CST",
+      "addedAt": "2026-11-08 14:11 CST",
+      "lastChecked": "2026-11-08 14:11 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "keystrokenft",
+      "name": "Keystroke",
+      "handle": "@keystrokenft",
+      "twitter": "@keystrokenft",
+      "chain": "",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "nft"
+      ],
+      "links": {
+        "x": "https://x.com/keystrokenft"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.2
+      },
+      "highlights": [
+        "2,222 枚动画键盘 NFT，供应量明确",
+        "明确写明部署在 Elysium"
+      ],
+      "drawbacks": [
+        "0 粉丝、无官网/白名单信息",
+        "未见 testnet 或 mint 时间说明"
+      ],
+      "whatsNew": "Elysium 上新出现的 2222 供应量 NFT 合集账号",
+      "summary": "极早期 Elysium NFT 合集项目，卡面给出供应量与链归属，但缺少 mint 时间与站点，需跟踪后续公告。",
+      "blurb": "自称 Elysium 上 2222 枚动画键盘 NFT，未核验已降打新。",
+      "round": 1456,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-08 14:11 CST",
+      "addedAt": "2026-11-08 14:11 CST",
+      "lastChecked": "2026-11-08 14:11 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "guppofish",
+      "name": "Guppo",
+      "handle": "@guppofish",
+      "twitter": "@guppofish",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/GuppoFish"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 5,
+        "overall": 5.5
+      },
+      "highlights": [
+        "$GUPPO 与 $BOBO 配对",
+        "3% 创作者费回馈合格持币者"
+      ],
+      "drawbacks": [
+        "体量极小",
+        "依赖 $BOBO 叙事"
+      ],
+      "whatsNew": "$GUPPO 上新，创作者费分成机制公布",
+      "summary": "与 $BOBO 联动的 Solana meme，带创作者费分持币玩法，处极早期。",
+      "blurb": "BOBO 系衍生 meme，早期观察。",
+      "round": 1456,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 43,
+      "xFollowers": 43,
+      "firstSeen": "2026-11-08 14:11 CST",
+      "addedAt": "2026-11-08 14:11 CST",
+      "lastChecked": "2026-11-08 14:11 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "animebigtitty",
+      "name": "Anime Big Titty Coin",
+      "handle": "@animebigtitty",
+      "twitter": "@animebigtitty",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/AnimeBigTitty"
+      },
+      "scores": {
+        "early": 6,
+        "risk": 7,
+        "novelty": 4,
+        "actionable": 6,
+        "overall": 5
+      },
+      "highlights": [
+        "合约 CM5ZLrUH… 已在 @CoinlyFanss 发射"
+      ],
+      "drawbacks": [
+        "meme 属性强，生命周期风险高",
+        "平台新、流动性未知"
+      ],
+      "whatsNew": "新 meme 币在 CoinlyFanss 发射",
+      "summary": "CoinlyFanss 上已发射的低市值 meme，卡面带合约地址，可即时验证。",
+      "blurb": "已发射 meme，短线观察。",
+      "round": 1456,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 78,
+      "xFollowers": 78,
+      "firstSeen": "2026-11-08 14:11 CST",
+      "addedAt": "2026-11-08 14:11 CST",
+      "lastChecked": "2026-11-08 14:11 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "bagsplit",
+      "name": "BagSplit",
+      "handle": "@bagsplit",
+      "twitter": "@bagsplit",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/BagSplit"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6
+      },
+      "highlights": [
+        "发射费用可拆分：分成/回购/流动性销毁/持币奖励",
+        "构建于 @BagsApp、@Solana 之上"
+      ],
+      "drawbacks": [
+        "粉丝极少，未验证是否已上线",
+        "依赖 BagsApp 生态"
+      ],
+      "whatsNew": "BagsApp 上的发币费用路由/销毁工具亮相",
+      "summary": "面向 BagsApp 发币者的费用拆分与回购销毁引擎，玩法线索具体，属极早期工具类项目。",
+      "blurb": "Solana 发射费用拆分引擎，早期可跟。",
+      "round": 1456,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 13,
+      "xFollowers": 13,
+      "firstSeen": "2026-11-08 14:11 CST",
+      "addedAt": "2026-11-08 14:11 CST",
+      "lastChecked": "2026-11-08 14:11 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "hushdesk",
+      "name": "Hush Desk",
+      "handle": "@hushdesk_",
+      "twitter": "@hushdesk_",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/hushdesk_"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 6.7
+      },
+      "highlights": [
+        "密封 OTC 卖单不上图，规避砸盘暴露",
+        "面向任意 Solana 代币"
+      ],
+      "drawbacks": [
+        "0 粉无人验证",
+        "无官网/文档链接"
+      ],
+      "whatsNew": "Sealed OTC：任意 Solana 币可暗池出货",
+      "summary": "极早期 Solana 密封 OTC 工具号，产品定位清晰但缺可信度佐证。",
+      "blurb": "Solana 暗池 OTC 台子",
+      "round": 1456,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-08 14:11 CST",
+      "addedAt": "2026-11-08 14:11 CST",
+      "lastChecked": "2026-11-08 14:11 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "fletch-agent",
       "name": "Fletch",
@@ -229372,7 +229649,7 @@
       },
       "focus": false,
       "lzVerified": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "round": 1455,
       "firstSeen": "2026-11-08 13:39 CST",
@@ -229383,19 +229660,24 @@
     }
   ],
   "newThisRound": [
-    "fletch-agent"
+    "hushdesk",
+    "bagsplit",
+    "animebigtitty",
+    "guppofish",
+    "keystrokenft",
+    "elysfinance"
   ],
-  "alertMessage": "DC补漏R1454新收1：@FletchAgent（台子/Meme，Robinhood Chain AI价差狙击agent，0粉极早期）；https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1456新收6个：Hush Desk、BagSplit、Anime Big Titty Coin、Guppo（台子/Meme）+ Keystroke、Elys（Elysium）；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "thesis-perps"
   ],
-  "updatedAt": "2026-11-08 13:22 CST",
-  "updated": "2026-11-08 13:22 CST",
+  "updatedAt": "2026-11-08 14:11 CST",
+  "updated": "2026-11-08 14:11 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-08 13:22 CST",
+  "lastScout": "2026-11-08 14:11 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -229437,7 +229719,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3348,
+  "candidateCount": 3355,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -232196,5 +232478,13 @@
   ],
   "round1454Added": [
     "fletch-agent"
+  ],
+  "round1456Added": [
+    "hushdesk",
+    "bagsplit",
+    "animebigtitty",
+    "guppofish",
+    "keystrokenft",
+    "elysfinance"
   ]
 }
