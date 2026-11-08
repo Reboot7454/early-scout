@@ -14,4 +14,4 @@
 - dsNote: DeepSeek deepseek-flash(thinking) 第1次只返回思考未出 JSON，第2次 JSON 完整；本地将 EscapeHub category 从「打新」改为「台子/Meme」，scores 0-10 已×10 对齐 0-100；alertMessage 本地补 R1485 前缀、handle、$ESC CA 与 BRO/Gloop/Pandu/BONK 状态。dsFallback=false
 - docsSynced: true
 - skipped: EscapeyESC（自称 unofficial mascot，非项目官推）; Eliquid_Game（4粉，bio 网址指向已有 Montra，无独立官网/CA/时间）
-- pushSha: pending
+- pushSha: 9703842（主提交；pushSha 回写为后续小提交）
