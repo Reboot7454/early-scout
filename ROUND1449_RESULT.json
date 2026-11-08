@@ -1,0 +1,179 @@
+{
+  "round": 1449,
+  "mode": "x-radar",
+  "completedAt": "2026-11-08 12:01 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "newAdmits",
+  "alertMessage": "本轮新收Minthe（今日建号0粉，自宣Elysium一键发币台并给出CA，官网尚无成交，未核验不进Elysium栏）、Hermes（发帖即发射、免钱包代付gas，官网空白无CA）、ORVIA（心血管科研叙事代币，官网写verification pending），详见 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "minthe",
+    "hermes-launch",
+    "orvia"
+  ],
+  "newAdmits": [
+    {
+      "id": "minthe",
+      "name": "Minthe",
+      "lane": "台子/Meme",
+      "why": "官推2026-11-08 03:39 UTC新建、0粉1帖；自宣Minthe is live on Elysium，一笔交易发币+联合曲线；CA 0x62e5749fC78F3e0B151e3161f2Ab6Ed08b4d9359；官网 minthe.pro 显示 No coins yet / 0 volume。未核验不进 Elysium 栏，高风险观察",
+      "twitter": "@minthepro",
+      "website": "https://minthe.pro/",
+      "ca": "0x62e5749fC78F3e0B151e3161f2Ab6Ed08b4d9359",
+      "time": "自称已上线（非≤2h；Elysium主网官方日期仍11/9）",
+      "source": "https://x.com/minthepro/status/2119277433174315137",
+      "scores": {
+        "early": 95,
+        "actionable": 45,
+        "novelty": 55,
+        "risk": 88,
+        "overall": 58
+      }
+    },
+    {
+      "id": "hermes-launch",
+      "name": "Hermes",
+      "lane": "台子/Meme",
+      "why": "产品号@hermeslaunchbot 2026-11-04建号、42粉；发帖tag即可在Elysium发币、无需钱包、Hermes代付gas、创作者留80%手续费（HYPE）；官网 hermeslaunch.app 几乎空白、无独立CA。未核验不进 Elysium 栏",
+      "twitter": "@hermeslaunchbot",
+      "website": "https://hermeslaunch.app/",
+      "ca": null,
+      "time": "观察中（主网官方日期仍11/9）",
+      "source": "https://x.com/hermeslaunchbot/status/2119271565569450300",
+      "scores": {
+        "early": 78,
+        "actionable": 40,
+        "novelty": 60,
+        "risk": 80,
+        "overall": 53
+      }
+    },
+    {
+      "id": "orvia",
+      "name": "ORVIA",
+      "lane": "打新",
+      "why": "官推2026-11-02建号、58粉；自宣$ORVIA is Live on Elysium，CA 0x8ffd382feb277acbf151f518f45b0400a59fd3aa；官网 orvia.fyi 写 Elysium verification pending，GitHub ORVIArh/ORVIA。未核验不进 Elysium 栏",
+      "twitter": "@0RV1A",
+      "website": "https://orvia.fyi/",
+      "ca": "0x8ffd382feb277acbf151f518f45b0400a59fd3aa",
+      "time": "自称已上线（非≤2h；官网 verification pending；主网官方日期仍11/9）",
+      "source": "https://x.com/0RV1A/status/2119275650574114979",
+      "scores": {
+        "early": 70,
+        "actionable": 50,
+        "novelty": 65,
+        "risk": 80,
+        "overall": 54
+      }
+    }
+  ],
+  "newCount": 3,
+  "newIds": [
+    "minthe",
+    "hermes-launch",
+    "orvia"
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "noeron",
+    "telos"
+  ],
+  "clearedPrevNTR": [
+    "noeron",
+    "telos"
+  ],
+  "skipped": [
+    {
+      "id": "p402chain",
+      "reason": "R1447已按二次扩张/已过热跳过；本轮仍在发 Solana 上线与 migrate 帖，不重复收"
+    },
+    {
+      "id": "orecompute",
+      "reason": "已在库（R1416）；本轮官推发 Introducing 视频，仅续更 lastChecked"
+    },
+    {
+      "id": "paw-gang",
+      "reason": "仅见猎人转发 pawgang.pages.dev，结果中无独立项目官推，不收"
+    },
+    {
+      "id": "elysium-hub-hb",
+      "reason": "Elysium周报/聚合号，非可操作项目"
+    },
+    {
+      "id": "prometheus",
+      "reason": "gcrtrd 个人帖称在做 Pumpfun L2，无独立项目官推"
+    },
+    {
+      "note": "KW already-in: velixo-market, arkhampad, aether, shadesofely, tryhashpad, montra, deuslaunch, ammora, pabalx, cathereum, elysium-genesis, rgbhorse, elysium-makers, torpor, kairoslaunch, set-it, ascendlaunch"
+    }
+  ],
+  "xReads": 8,
+  "remainingBefore": 931,
+  "remaining": 923,
+  "mode_budget": "ample",
+  "softCap": 28,
+  "ufCursor": 488,
+  "ufCursorBefore": 456,
+  "xQuota": {
+    "remainingBefore": 931,
+    "remaining": 923,
+    "xReads": 8,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 488,
+    "ufCursorBefore": 456,
+    "note": "API-call xReads=8 (UF2 + must/LIVE1 + 5 search_posts_all); footer 931→923; daily pacing ample not post-reset-full; UF456→488 in-lib; NF6+suspended1"
+  },
+  "tenLanes": true,
+  "tenLanesNote": "UF456→488 + must/LIVE14 + 5 search_posts_all（打新/台子+挖矿+LZ/Elysium+Tape/GIWA+DogeEVM/BTC/Stark/GO）",
+  "tenLanesCoverage": "打新｜挖矿｜台子/Meme｜GO盘｜LayerZero｜Elysium｜Tape｜GIWA｜DogeEVM + BTC/Stark",
+  "mentionsChains": "本轮额度 ample 但 mentions 并入第5路 KW（DogeEVM/BTC/Stark/GO）；该路命中已在库 @_Set_It_ 与 sight-hood 相关讨论",
+  "discordPeekDeferred": true,
+  "discordPeekReason": "no browser; reuse lastSeen cutoffs from R1448 Discord peek",
+  "discordLastSeenByChannel": {
+    "alpha-1": "2026-11-08 11:11",
+    "alpha-1-backup": "2026-11-08 11:19",
+    "smart-accounts-tracker": "2026-11-08 10:51",
+    "alpha-3-new-accounts": "2026-11-08 11:17"
+  },
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking-on；score 一次完整：admit minthe + hermes-launch + orvia。三卡 overall 公式复核通过（58/53/54）。均自称 Elysium 但主网官方日期仍 11/9 且无生态页核验，不进 Elysium 栏（chain 留空，标签用自称Elysium）。alert 采用其拟定短中文并替换 PANEL、改写为既有 notify 句式。",
+  "watches": {
+    "elyseapro": "链上 WAVE 合约仍在 rpc.elysp.com（chainId 99901），totalSupply 仍104/1000；官推仍0帖/粉4；官网 elysea.pro；≤2h已于约09:44 CST过期，维持le2h=false；不升 Elysium 栏",
+    "primate-legends": "MINT LIVE + RYO bonding curve 续；本轮必盯软刷未见新开窗证据",
+    "hopkinagent": "LIVE 续 3200/10000；本轮必盯软刷未见新开窗证据",
+    "elys-tape": "Foundry LIVE 续",
+    "oil-hood": "$OILHOOD LIVE on Pons 续",
+    "elysium-meme": "$CNINE LIVE 续",
+    "bitrush-btcb": "LIVE 续",
+    "gloop-slime": "官网仍 0/3333，Mint opens 12:00 UTC（20:00 CST）；官推仍 9 HOURS TO GO；$GLOOP 12:30 UTC（20:30 CST）；链上 name=Gloop/symbol=GLOOP，totalSupply 暂 revert；非本轮新、非≤2h",
+    "kairoslaunch": "官推称 Kairos launches November 9（与 Elysium 主网同日），官网 kairoslaunch.io；非≤2h，不升 Elysium 栏",
+    "grim-pixels-rh": "11/9 Robinhood 699 FREE MINT 续；非≤2h",
+    "shadesofely": "contracts done；mainnet Nov 9；early list closes in 9 hours（约 20:43 CST）；非本轮新、非≤2h",
+    "erupt-fun": "Nov9 FREE Genesis 4444 续",
+    "elympus-hq": "Genesis 0.055 HYPE Day1 TBA 续",
+    "broisafreak": "GTD 11/9 01:00CST / PUBLIC 02:00CST 续",
+    "ascendlaunch": "Nov9 day-one 续",
+    "set-it": "独立官网 https://setit.fun 仍在；$SETIT CA 仍为 6UjNtVncstNLMT7immhjHAG1c6gmGB3jBJ4xCck1pump",
+    "orecompute": "已在库 R1416；本轮官推发 Introducing Ore Compute 视频，可验证 GPU 挖矿 on Robinhood Chain",
+    "eloscape": "仍按 gated / No token yet 观察",
+    "stopped": "HashDoge/Genius/Corla/Flap STOPPED"
+  },
+  "ufNotes": "456→488; all 32 already in-lib; NF6 (halfhook,cardstockfun,potionrh,beatmissapp,sharpsheet_rh,safufundbnb) + suspended1 (bellwethers_ai); added @minthepro @hermeslaunchbot @0RV1A",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1449：新收 minthe、hermes-launch、orvia；elyseapro Waves 仍104/1000但≤2h已过期；gloop 今日20:00CST开铸非≤2h；UF456→488；discordPeekDeferred；docsSynced",
+  "pushSha": "pending",
+  "tip": "pending",
+  "push": {
+    "attempted": false,
+    "ok": false,
+    "sha": "",
+    "short": "",
+    "branch": "main",
+    "remote": "origin"
+  },
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "remoteVerified": false,
+  "notePull": "git pull 后 remote 已是 R1448（tip d917098）。本轮 X radar 以 R1449 落盘，未覆盖更高轮次。"
+}
