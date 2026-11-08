@@ -25,4 +25,4 @@
 - dsFallback: false
 - dsNote: deepseek-flash thinking-on：admit ordo-files；skip kosmo-self（无开窗/CA）/pokemon-cards-shill（无官推）/war3（无官推）/gtc-bsc（疑似资金盘）；score+alert 由 DS 写出，alert 补关键数字
 - HashDoge/Genius/Corla/Flap: STOPPED
-- pushSha: PENDING
+- pushSha: c518df0
