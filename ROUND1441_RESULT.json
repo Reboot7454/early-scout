@@ -1,0 +1,123 @@
+{
+  "round": 1441,
+  "mode": "x-radar",
+  "completedAt": "2026-11-08 09:05 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "newAdmits+le2h",
+  "alertMessage": "新收Agentic Miner；Elyseapro Waves上次103/1000，官推已删帖，官网Preview，≤2h至约09:44CST。https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "agentic-miner"
+  ],
+  "newAdmits": [
+    {
+      "id": "agentic-miner",
+      "name": "Agentic Miner",
+      "lane": "挖矿",
+      "why": "官推今日03:29 CST新建，自称 BNB 上仅 .ai Agent ID 可挖；$AGM Epoch 1 已 live，有官网与 CA",
+      "twitter": "@agentic_miner",
+      "website": "https://agm-fun.pages.dev",
+      "ca": "0xF197c8B38Fa3f3c0764717d4f6D512aA017efE7A",
+      "time": "Epoch 1 live（share height #18，非开窗≤2h）",
+      "source": "https://x.com/agentic_miner/status/2119226879991488896"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "agentic-miner"
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "fieldsdottrade",
+    "nectarfunxyz",
+    "instapaidfun",
+    "tryhashpad",
+    "opacra"
+  ],
+  "clearedPrevNTR": [
+    "fieldsdottrade",
+    "nectarfunxyz",
+    "instapaidfun",
+    "tryhashpad",
+    "opacra"
+  ],
+  "skipped": [
+    {
+      "id": "astrovere",
+      "reason": "boutique agency bio，8粉3帖随机发 $ASTRO + CA，DS skip"
+    },
+    {
+      "note": "AXIOM Genesis 第三方重复推销；官推 @AxiomARB 已在库 axiom-arb"
+    },
+    {
+      "note": "无官推不可收: Penguin（仅第三方提及）、Paw Gang（上轮已拒，不重收）"
+    },
+    {
+      "note": "KW already-in: deuslaunch, foxfire, real-hood-people, property-agent, pow-agent-mine, o1-exchange, gama-giwa, ammora, elyfluff, hood-miners, shadesofely, binzonft, fomopoly, foome, riggrid, volta-family, montra"
+    },
+    {
+      "note": "pocketpad SOLD OUT 未再探索读；hamieverse 未再探索读"
+    }
+  ],
+  "xReads": 11,
+  "remainingBefore": 981,
+  "remaining": 970,
+  "mode_budget": "ample",
+  "softCap": 28,
+  "ufCursor": 328,
+  "ufCursorBefore": 296,
+  "xQuota": {
+    "remainingBefore": 981,
+    "remaining": 970,
+    "xReads": 11,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 328,
+    "ufCursorBefore": 296,
+    "note": "API-call xReads=11 (UF2 + must/LIVE12 + elyseapro posts+tweet + 5 search_posts_all + 1 Elysea search); footer 981→970; daily pacing ample not post-reset-full; NF3+suspended1"
+  },
+  "tenLanes": true,
+  "tenLanesNote": "UF296→328 + must/LIVE12 + 5 search_posts_all（打新/台子+挖矿+LZ/Elysium+Tape/GIWA+DogeEVM/BTC/Stark/specials）+ Elysea专项",
+  "tenLanesCoverage": "打新｜挖矿｜台子/Meme｜GO盘｜LayerZero｜Elysium｜Tape｜GIWA｜DogeEVM + BTC/Stark",
+  "discordPeekDeferred": true,
+  "discordPeekReason": "no browser; reuse lastSeen cutoffs from meta",
+  "discordLastSeenByChannel": {
+    "alpha-1": "2026-11-08 07:19",
+    "alpha-1-backup": "2026-11-08 05:19",
+    "smart-accounts-tracker": "2026-11-08 06:53",
+    "alpha-3-new-accounts": "2026-11-08 07:17"
+  },
+  "docsSynced": false,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking-on；score 一次完整：admit agentic-miner，skip Astrovere/AXIOM spam。文案首次思考截断，提高 max_tokens 后第二次完整。overall 按公式重算为 71。无改判。",
+  "watches": {
+    "elyseapro": "官网 elysea.pro 仍开但 Preview · sample data；Waves 官宣帖已删（原帖 2119217642514817277 404，时间线 0 帖，检索无残留）；上次确认 103/1000 @ 07:57 CST；≤2h 至约 09:44 CST，维持 le2h=true；主网仍11/9，不升Elysium栏",
+    "primate-legends": "MINT LIVE（已过≤2h窗仍开）",
+    "hopkinagent": "3200/10000 LIVE 0.001 BNB",
+    "elys-tape": "Foundry LIVE",
+    "oil-hood": "$OILHOOD LIVE on Pons",
+    "elysium-meme": "$CNINE LIVE",
+    "bitrush-btcb": "LIVE",
+    "erupt-fun": "Nov9 FREE Genesis 4444",
+    "elympus-hq": "Genesis 0.055 HYPE Day1 TBA",
+    "broisafreak": "GTD 11/9 01:00CST / PUBLIC 02:00CST",
+    "ascendlaunch": "Nov9 day-one",
+    "pocketpad": "SOLD OUT（本轮未再探索读）",
+    "eloscape": "仍 gated / No token yet；最新 e/acc",
+    "stopped": "HashDoge/Genius/Corla/Flap STOPPED"
+  },
+  "ufNotes": "296→328; NF: rinseddotfun, hollytallycheck, divade_xyz; suspended: HaloPad_Pro; skippedKnownNF: LiquidityStonk, Agent__arena, playholeshot; added @agentic_miner to UF + agentMiningWatch",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1441：新收 agentic-miner；elyseapro Waves 官推已删帖、官网 Preview，上次 103/1000，≤2h 至约 09:44CST；UF296→328；discordPeekDeferred；docsSynced pending",
+  "pushSha": "",
+  "tip": "",
+  "push": {
+    "attempted": false,
+    "ok": false,
+    "sha": "",
+    "short": "",
+    "branch": "main",
+    "remote": "origin"
+  },
+  "HashDogeGeniusCorlaFlap": "STOPPED"
+}
