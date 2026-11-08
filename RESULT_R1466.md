@@ -15,6 +15,6 @@
 - dsFallback: true；deepseek-flash thinking-on 已裁决全部 skip，但两次 JSON 输出被思考链占满截断，按 DS 裁决本地落盘
 - remoteNote: git pull 时远程已有 R1465 Discord alpha 补漏（新收 0xaxmsmart,qubits-sh,usephlogiston,replenish,useripen；lastSeen 已更新），本轮按 R1466 跑 X-radar，不以父代理预估的 R1465 覆盖远程
 
-- pushSha: (pending)
-- tip: (pending)
-- remoteVerified: (pending)
+- pushSha: feef4da0c37346d5e00b46d0d3c48601dde79d7b
+- tip: feef4da
+- remoteVerified: true
