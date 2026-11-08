@@ -18,4 +18,4 @@
 - dsNote: DeepSeek deepseek-flash(thinking) admit/score/copy/alert；admit anipals；skip crypto-gangsters/cashmere-barns/yessah-cc。本地覆盖：the-long-necks 保持 live（非 ended）、broisafreak 保持 live+forcePanel、anipals status=watching、分数维持 0-100。
 - docsSynced: true
 - skipped: crypto-gangsters/@hoodrockers（Bio 为 Hood Rockers，与 Crypto Gangsters 名实不符）；Cashmere Founding Barns（仅第三方 Goobsens 传闻，无官方确认）；$YESSAH（Canton 社区 meme，非极早期窗口）；Korinitradefun（仍仿已在库 korinitrade）；Elysium 注册 spam（EIysium_FDND 仿号，已排除）；XTEN/Extended 领取类诈骗噪声
-- pushSha: (pending)
+- pushSha: 68240b6
