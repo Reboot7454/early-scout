@@ -1,0 +1,133 @@
+{
+  "round": 1490,
+  "mode": "ample",
+  "completedAt": "2026-11-09 07:17 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "新收录 anipals；且 Skitters ≈08:07 CST 开窗已进入 ≤2h。",
+  "alertMessage": "R1490新收录 anipals（Solana动漫格斗挖矿，devnet已上线，战斗产出AURA）；可操作：Skitters 约08:07 CST WL免费铸3333，面板 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "anipals"
+  ],
+  "newAdmits": [
+    {
+      "id": "anipals",
+      "handle": "@anipalsonsol",
+      "chain": "Solana",
+      "category": "挖矿",
+      "note": "Solana anime chibi fighter；战斗即挖矿 AURA；devnet live；54 粉；官网 anipals.io"
+    }
+  ],
+  "newCount": 1,
+  "clearedPrevNTR": [
+    "scion"
+  ],
+  "clearedPrevNewThisRound": true,
+  "skipped": [
+    {
+      "handle": "@hoodrockers",
+      "reason": "Bio 为 Hood Rockers，与所推 Crypto Gangsters 名实不符，疑似关联/仿号"
+    },
+    {
+      "handle": "@CashmereLabs",
+      "reason": "Founding Barns mint 仅第三方 Goobsens 传闻，本轮无官方确认"
+    },
+    {
+      "handle": "@YessahBlessahCC",
+      "reason": "Canton 社区 meme，非极早期打新/挖矿窗口"
+    },
+    {
+      "handle": "@Korinitradefun",
+      "reason": "仍疑似仿已在库 @korinitrade"
+    },
+    {
+      "handle": "EIysium_FDND",
+      "reason": "Elysium Mainnet Registration 仿号 spam"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "skitters",
+      "at": "2026-11-09 08:07 CST",
+      "note": "WL freemint 3333 on Elysium/OpenSea；已进入 ≤2h"
+    }
+  ],
+  "le2hStatus": {
+    "skitters": "【R1490】约 08:07 CST 开窗，已 ≤2h。",
+    "the-long-necks": "【R1490】348/400 剩 52，仍 LIVE，≤2h 窗已过。",
+    "broisafreak": "【R1490】2h 窗已过，forcePanel 保留。",
+    "bonkagent": "【R1490】15:00 CST 开铸，非≤2h。",
+    "elytypes": "【R1490】11/10 01:00 CST，非≤2h。",
+    "pairmine": "【R1490】链上仍 revert，非≤2h。",
+    "halofun": "【R1490】最新称 11/10，非≤2h。",
+    "anipals": "【R1490】新收录，devnet，非≤2h。",
+    "gloop-slime": "【R1490】3333/3333 售罄。"
+  },
+  "onchainChecks": {
+    "the-long-necks": {
+      "totalSupply": 348,
+      "maxSupply": 400,
+      "remaining": 52,
+      "chain": "Base",
+      "contract": "0x3ab4978702f1208106c46f0faa417829f304a4d7",
+      "source": "base-rpc.publicnode.com"
+    },
+    "gloop-slime": {
+      "totalMinted": 3333,
+      "mintOpen": 1,
+      "soldOut": true
+    },
+    "pandu-agent": {
+      "totalSupply": 186,
+      "totalMinted": 186
+    },
+    "chipmunks-bnb": {
+      "totalSupply": 1065,
+      "totalMinted": 1065
+    },
+    "fortune-paws": {
+      "totalMinted": 367
+    },
+    "numbi": {
+      "totalSupply": 120,
+      "totalMinted": 120
+    },
+    "beast16": {
+      "totalMinted": 230
+    },
+    "toast-bnb": {
+      "cardsSold": 166,
+      "freeGiven": 166,
+      "freeCardsRemaining": 4834
+    },
+    "bonk-mint": {
+      "totalMinted": 0
+    },
+    "bonk-token": {
+      "totalSupply": 0
+    },
+    "pairmine": {
+      "onchainMintProgress": null
+    }
+  },
+  "xReads": 9,
+  "remainingBefore": 611,
+  "remaining": 602,
+  "softCap": 40,
+  "ufCursor": 258,
+  "ufCursorBefore": 222,
+  "xQuota": {
+    "remainingBefore": 611,
+    "remaining": 602,
+    "xReads": 9,
+    "mode": "ample",
+    "softCap": 40
+  },
+  "tenLanes": "UF 222→258（36 号无 NF_skip，from: 批量 1 次）+ must/≤2h 1 次（thelongneck_/BROISAFREAK/Bonkagent_/halofunxyz/SkittersNFTs/Elytypess/PairMineAI/Enter_Elysium/squeekchain/tapeai/bitcointapes/ascendlaunch）+ 3 search_posts_all（①打新/AgentID/free mint/AIDROP/X Layer；②挖矿/PoW/squeek/GO/LayerZero/OFT；③Elysium/Tape/GIWA/DogeEVM/BTC/Starknet）+ 1 饿栏 GIWA/DogeEVM/Starknet/BTC/LayerZero + 1 soft-debt Canton/Glaze/TokenWorks + 1 去 Elytypes 噪声 cleaner mint + 1 档案核验 anipalsonsol/CashmereLabs/OnePumpCC/pabalx/Bonkagent_。九栏+BTC/Starknet 均跑；新收 anipals；GIWA 多为 Ammora/pabalx/Korinitradefun；DogeEVM/Tape/BTC/LayerZero 本窗无可收新号；Canton/Glaze/TokenWorks lastChecked 已刷。",
+  "discordPeekDeferred": true,
+  "dsNote": "DeepSeek deepseek-flash(thinking) admit/score/copy/alert；admit anipals；skip crypto-gangsters/cashmere-barns/yessah-cc。本地覆盖：the-long-necks 保持 live（非 ended）、broisafreak 保持 live+forcePanel、anipals status=watching、分数维持 0-100。",
+  "dsFallback": false,
+  "docsSynced": true,
+  "forcePanelIds": "保留 broisafreak（Public 概念上仍 LIVE；≤2h 已过）",
+  "pushSha": null
+}

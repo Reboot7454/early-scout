@@ -1,0 +1,21 @@
+# R1490 早期打新雷达 RESULT（2026-11-09 07:17 CST）
+
+- round: R1490
+- newThisRound: anipals（@anipalsonsol，Solana 动漫格斗挖矿；战斗即挖矿 AURA；devnet live https://anipals.io/play.html#fight；2021-07-10 老号、54 粉、11 条推文）
+- clearedPrevNTR: scion
+- ≤2h: skitters（约 08:07 CST WL 免费铸 3333，Elysium via OpenSea；本轮无新官帖，依 03:07 CST「5 HOURS TO GO」）
+- the-long-necks: 链上 348/400 剩 52，概念上仍 LIVE；原 ≤2h 窗约 06:30 CST 已过，le2h=false
+- broisafreak: Public 概念上仍 LIVE，2h 窗已于约 04:47 CST 结束，le2h=false，forcePanelIds 保留；OpenSea 预览仍 Minting hasn't started
+- BONK Agent: Bio 确认今日 15:00 CST 开铸、前 1000 免费；链上 totalMinted=0
+- 链上: Gloop 3333/3333 售罄、Pandu 186/2222、Chipmunks 1065、Fortune 367/3333、NUMBI 120、Beast16 230/4444、TOAST cardsSold=166 免费剩 4834、LongNecks 348/400
+- pairmine: 新叙事帖；链上 mint 进度仍 revert
+- halofun: 最新帖称明日（11/10）上线，Bio 仍写 9 November
+- notify: true
+- alertMessage: R1490新收录 anipals（Solana动漫格斗挖矿，devnet已上线，战斗产出AURA）；可操作：Skitters 约08:07 CST WL免费铸3333，面板 https://reboot7454.github.io/early-scout/
+- xReads=9 / remainingBefore=611 / remaining=602 / mode=ample / softCap=40 / ufCursor=222→258
+- tenLanes: UF 222→258（36 号无 NF_skip，from: 批量 1 次）+ must/≤2h 1 次（thelongneck_/BROISAFREAK/Bonkagent_/halofunxyz/SkittersNFTs/Elytypess/PairMineAI/Enter_Elysium/squeekchain/tapeai/bitcointapes/ascendlaunch）+ 3 search_posts_all（①打新/AgentID/free mint/AIDROP/X Layer；②挖矿/PoW/squeek/GO/LayerZero/OFT；③Elysium/Tape/GIWA/DogeEVM/BTC/Starknet）+ 1 饿栏 GIWA/DogeEVM/Starknet/BTC/LayerZero + 1 soft-debt Canton/Glaze/TokenWorks + 1 去 Elytypes 噪声 cleaner mint + 1 档案核验 anipalsonsol/CashmereLabs/OnePumpCC/pabalx/Bonkagent_。九栏+BTC/Starknet 均跑；新收 anipals；GIWA 多为 Ammora/pabalx/Korinitradefun；DogeEVM/Tape/BTC/LayerZero 本窗无可收新号；Canton/Glaze/TokenWorks lastChecked 已刷。
+- discordPeekDeferred: true
+- dsNote: DeepSeek deepseek-flash(thinking) admit/score/copy/alert；admit anipals；skip crypto-gangsters/cashmere-barns/yessah-cc。本地覆盖：the-long-necks 保持 live（非 ended）、broisafreak 保持 live+forcePanel、anipals status=watching、分数维持 0-100。
+- docsSynced: true
+- skipped: crypto-gangsters/@hoodrockers（Bio 为 Hood Rockers，与 Crypto Gangsters 名实不符）；Cashmere Founding Barns（仅第三方 Goobsens 传闻，无官方确认）；$YESSAH（Canton 社区 meme，非极早期窗口）；Korinitradefun（仍仿已在库 korinitrade）；Elysium 注册 spam（EIysium_FDND 仿号，已排除）；XTEN/Extended 领取类诈骗噪声
+- pushSha: (pending)
