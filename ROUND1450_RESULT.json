@@ -50,12 +50,16 @@
     "discordPeekDeferred": false
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "f802e8e8b5ff5712de09bf2fd292de11824e13cb",
+    "short": "f802e8e",
+    "branch": "main",
+    "remote": "origin"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1450：Discord alpha 补收 gryphon,symbolon；清 minthe,hermes-launch,orvia；lastSeen→2026-11-08 11:57；lastChecked→2026-11-08 12:06 CST；gryphon,symbolon 自称Elysium未核验已降台子/Meme",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1449.json",
   "priorRoundNote": "R1449 meta NTR ['minthe','hermes-launch','orvia'] (x-radar); cardsAfterCutoff=25; scan labeled R1449, applied as R1450",
   "alert": "DC补漏R1450新收2个：GRYPHON（@gryphon_lol，自称 Elysium 上 Uniswap v4 hook 像素狮鹫，11月9日发射）、Symbolon（@SymbolonHQ，自称在 HyperCore 上架 Elysium 代币，即将上线）；二者自称Elysium未核验已降台子/Meme；面板 https://reboot7454.github.io/early-scout/",
@@ -200,6 +204,12 @@
   ],
   "rejectedCount": 18,
   "dsRejects": 16,
-  "docsSynced": false,
-  "dsBatches": "batch0 9/9 in 16.8s; batch1 9/9 in 17.0s; no EMPTY/PARSE FAIL; no retry needed"
+  "docsSynced": true,
+  "dsBatches": "batch0 9/9 in 16.8s; batch1 9/9 in 17.0s; no EMPTY/PARSE FAIL; no retry needed",
+  "pushSha": "f802e8e8b5ff5712de09bf2fd292de11824e13cb",
+  "pushShort": "f802e8e",
+  "tip": "f802e8e8b5ff5712de09bf2fd292de11824e13cb",
+  "tipShort": "f802e8e",
+  "dataPushSha": "f802e8e8b5ff5712de09bf2fd292de11824e13cb",
+  "dataPushShort": "f802e8e"
 }

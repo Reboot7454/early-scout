@@ -13,3 +13,7 @@
 - notify=true
 - alert: DC补漏R1450新收2个：GRYPHON（@gryphon_lol，自称 Elysium 上 Uniswap v4 hook 像素狮鹫，11月9日发射）、Symbolon（@SymbolonHQ，自称在 HyperCore 上架 Elysium 代币，即将上线）；二者自称Elysium未核验已降台子/Meme；面板 https://reboot7454.github.io/early-scout/
 - docsSynced / remoteVerified / pushSha：待推送后回填
+- pushSha: f802e8e8b5ff5712de09bf2fd292de11824e13cb
+- tip: f802e8e8b5ff5712de09bf2fd292de11824e13cb
+- docsSynced: true
+- remoteVerified: true
