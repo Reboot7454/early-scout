@@ -1,0 +1,26 @@
+# RESULT R1479 — 2026-11-08 23:40 CST
+
+- notify: **true** — 新收录 ponzipad / ascensionely；Fortune Paws 免费售罄转付费；numbi / Chipmunks / Elysium Gloom collab / BRO GTD / MintRobo 旺财 处于 ≤2h。
+- alertMessage: R1479 早期打新雷达：新收录 PonziPad（@ponzipadapp，$PONZI 已公布 CA）和 Ascension（@ascensionely，tap trading，CA 不完整）。Fortune Paws 免费售罄转付费 0.0005 BNB，已铸334/3333。≤2h：numbi 已铸81仍LIVE（窗至24:00）、Chipmunks 已铸1035、Elysium Gloom collab 约00:50、BRO IS A FREAK GTD 01:00、MintRobo 旺财Agent 23:20 开售。面板：https://reboot7454.github.io/early-scout/
+- newThisRound: ['ponzipad', 'ascensionely']
+- clearedPrevNTR: []
+- skipped: noeyesaturn / tryspecterxyz / pokemon-cards-shill / stonk-chain-shill
+- ≤2h (le2h): ['fortune-paws', 'numbi', 'chipmunks-bnb', 'elysium-gloom', 'broisafreak', 'agent-pulse']
+  - fortune-paws: 23:33 CST 官宣 FREE MINT SOLD OUT，付费 0.0005 BNB LIVE，334/3333（上轮链上12且官推仍写 opens soon）。开铸约 22:35–23:00，仍≤2h。
+  - numbi: 本窗无新官帖；链上 68→81。窗口 22:00–24:00，仍 LIVE 且≤2h。
+  - chipmunks-bnb: 23:11 CST 官宣刚破1000；链上 1029→1035。未满3333前每钱包前3仍免费。按约22:30开铸口径仍≤2h。
+  - elysium-gloom: 本窗无新官帖；collab 截止约 11/9 00:50 CST，仍≤2h。
+  - broisafreak: 本窗无新官帖；GTD 11/9 01:00 CST / public 02:00，仍≤2h。
+  - agent-pulse: @MintRoboAi 宣布 ROBO Launchpad 旺财Agent 23:20 CST 开始，10000份×0.003 BNB，≤2h。
+  - miuadotfun: 23:21 CST 官宣 50% SOLD OUT；Genesis 窗约至 23:31 已过，le2h=false。
+  - gloop-slime: 官宣 2025/3333、111 listings、mint 仍 FREE；2h 窗已过。
+  - toast-bnb: cardsSold 162→165/10000，免费剩 4835，仍 LIVE，非≤2h。
+  - beast16: 本窗无新官帖，totalSupply() revert，minted 沿用上轮 203。
+- xReads 9 / remainingBefore 732 / remaining 723 / mode ample / softCap 40 / ufCursor 1032→1064（新 NF ePegsV4）
+- tenLanes: UF1032→1064（32 查询含 ePegsV4 NF；本片均已在库） + must/LIVE 2 次批量（Frtn_Paws/numbi/Chipmunks/miua/gloom/BRO/Gloop/beast16/TOAST + Elyziumaa/oddlode/Shades/Undead/launchonelysium/Xypher/Mauverse/AgenticEggs） + 5 search_posts_all（打新/台子/Meme + 挖矿/GO + LZ/Elysium + Tape/GIWA/DogeEVM + BTC/Starknet）
+- discordPeekDeferred: true（cutoff = R1471 lastSeen alpha-1 19:12 / backup 17:34 / smart 17:01 / alpha-3 19:14 CST）
+- docsSynced: true
+- dsFallback: false
+- dsNote: deepseek-flash thinking-on：admit ponzipad+ascensionely；skip noeyesaturn（信息过薄）/tryspecterxyz（pump.fun meme）/pokemon-cards-shill（无官推）/stonk-chain-shill（无官推）；score+whatsNew+scheduleNotes+alert 完整写出；alert 按 DS 草稿补上关键数字以便转发
+- HashDoge/Genius/Corla/Flap: STOPPED
+- pushSha: (pending)

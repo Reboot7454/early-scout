@@ -1,0 +1,156 @@
+{
+  "round": 1479,
+  "mode": "ample",
+  "completedAt": "2026-11-08 23:40 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "新收录 ponzipad / ascensionely；Fortune Paws 免费售罄转付费；numbi / chipmunks / gloom / broisafreak / 旺财 处于≤2h。",
+  "alertMessage": "R1479 早期打新雷达：新收录 PonziPad（@ponzipadapp，$PONZI 已公布 CA）和 Ascension（@ascensionely，tap trading，CA 不完整）。Fortune Paws 免费售罄转付费 0.0005 BNB，已铸334/3333。≤2h：numbi 已铸81仍LIVE（窗至24:00）、Chipmunks 已铸1035、Elysium Gloom collab 约00:50、BRO IS A FREAK GTD 01:00、MintRobo 旺财Agent 23:20 开售。面板：https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "ponzipad",
+    "ascensionely"
+  ],
+  "newAdmits": [
+    {
+      "id": "ponzipad",
+      "name": "PonziPad",
+      "handle": "@ponzipadapp",
+      "category": "台子/Meme",
+      "note": "Elysium 自称 permissionless 庞氏游戏台；$PONZI CA 0xEf670F407E9d3479F69B7E65c361530762B2A812；粉≈51；未核验官方生态页故不进 Elysium 栏"
+    },
+    {
+      "id": "ascensionely",
+      "name": "Ascension",
+      "handle": "@ascensionely",
+      "category": "台子/Meme",
+      "note": "自称 Elysium tap trading live；CA 推文截断 0xbfa609ddad3ccb7…；1粉老号；未核验官方生态页"
+    }
+  ],
+  "newCount": 2,
+  "clearedPrevNTR": [],
+  "clearedPrevNewThisRound": true,
+  "skipped": [
+    {
+      "id": "noeyesaturn",
+      "handle": "@noeyesaturn",
+      "reason": "当天建号1粉，仅一条链接帖，无 launch/mint/CA 等可操作信号"
+    },
+    {
+      "id": "tryspecterxyz",
+      "handle": "@tryspecterxyz",
+      "reason": "Solana pump.fun meme 已发 CA，不是可操作 mint 窗"
+    },
+    {
+      "id": "pokemon-cards-shill",
+      "reason": "多个 KOL 二次宣传 Pokemon Card 免费铸，无独立项目官推（与 R1478 相同）"
+    },
+    {
+      "id": "stonk-chain-shill",
+      "reason": "用户宣传 $STONK / STONK CHAIN 预售与免费 PoW egg，未找到独立官推"
+    }
+  ],
+  "le2h": [
+    "fortune-paws",
+    "numbi",
+    "chipmunks-bnb",
+    "elysium-gloom",
+    "broisafreak",
+    "agent-pulse"
+  ],
+  "le2hStatus": {
+    "fortune-paws": "23:33 CST 官宣 FREE MINT SOLD OUT，付费 0.0005 BNB LIVE，334/3333（上轮链上12）。开铸约 22:35–23:00，仍≤2h。",
+    "numbi": "本窗无新官帖；链上 68→81。窗口 22:00–24:00，仍 LIVE 且≤2h。",
+    "chipmunks-bnb": "23:11 CST 官宣刚破1000；链上 1029→1035。未满3333前每钱包前3仍免费。按约22:30开铸口径仍≤2h。",
+    "elysium-gloom": "本窗无新官帖；collab 截止约 11/9 00:50 CST，仍≤2h。",
+    "broisafreak": "本窗无新官帖；GTD 11/9 01:00 CST / public 02:00，仍≤2h。",
+    "agent-pulse": "@MintRoboAi 宣布 ROBO Launchpad 旺财Agent 23:20 CST 开始，10000份×0.003 BNB，每份 50,000,000 旺财，每 Agent ID 可铸 10 份。",
+    "miuadotfun": "23:21 CST 官宣 50% SOLD OUT；Genesis 窗约至 23:31 已过，le2h=false。",
+    "gloop-slime": "官宣 2025/3333 minted、111 listings、mint 仍 FREE；2h 窗已过。",
+    "toast-bnb": "官网 stats cardsSold 162→165/10000，免费 165/5000 剩 4835，仍 LIVE，非≤2h。",
+    "beast16": "本窗无新官帖，totalSupply() revert，minted 沿用上轮 203；2h 窗已过。",
+    "oddlode": "本窗无新官帖，付费进度沿用上轮（还剩 1987 paid drills）。"
+  },
+  "le2hFlags": {
+    "fortune-paws": true,
+    "numbi": true,
+    "chipmunks-bnb": true,
+    "elysium-gloom": true,
+    "broisafreak": true,
+    "agent-pulse": true,
+    "miuadotfun": false,
+    "gloop-slime": false,
+    "beast16": false,
+    "toast-bnb": false
+  },
+  "onchainChecks": {
+    "fortune-paws": {
+      "mintOpen": true,
+      "totalMinted": 334,
+      "source": "official tweet; totalSupply() reverted"
+    },
+    "numbi": {
+      "mintOpen": true,
+      "totalSupply": 81
+    },
+    "chipmunks-bnb": {
+      "mintOpen": true,
+      "totalMinted": 1035
+    },
+    "gloop-slime": {
+      "mintOpen": true,
+      "totalMinted": 2025,
+      "source": "official tweet; totalSupply() reverted"
+    },
+    "beast16": {
+      "minted": 203,
+      "note": "totalSupply() reverted; kept previous"
+    },
+    "toast-bnb": {
+      "cardsSold": 165,
+      "freeRemaining": 4835
+    }
+  },
+  "xReads": 9,
+  "remainingBefore": 732,
+  "remaining": 723,
+  "softCap": 40,
+  "ufCursor": 1064,
+  "ufCursorBefore": 1032,
+  "xQuota": {
+    "remainingBefore": 732,
+    "remaining": 723,
+    "xReads": 9,
+    "mode": "ample",
+    "softCap": 40,
+    "ufCursor": 1064,
+    "ufCursorBefore": 1032,
+    "checkedAt": "2026-11-08 23:40 CST",
+    "eveningReserve": 0,
+    "note": "API-call xReads=9 (UF search1 + UF users1 + must/LIVE2 + 5 KW lanes); first footer 731 after UF search => remainingBefore 732; last footer 723"
+  },
+  "ufNF": {
+    "priorSkipNoRequery": [],
+    "newNotFound": [
+      "ePegsV4"
+    ],
+    "newSuspended": []
+  },
+  "tenLanes": "UF1032→1064（32 查询含新 NF ePegsV4；其余 31 号均已在库） + must/LIVE 2 次批量（Frtn_Paws/numbiagent/ChipmunksBNB/miuadotfun/Elysiumgloom/BROISAFREAK/GloopSlimeHQ/Jake_beast16/TOASTbnb + Elyziumaa/oddlode/ShadesofEly/UndeadNFTs/launchonelysium/XypherOnRH/Mauverse_Club/AgenticEggs） + 5 search_posts_all（打新/台子/Meme + 挖矿/GO + LZ/Elysium + Tape/GIWA/DogeEVM + BTC/Starknet）",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": {
+      "alpha-1": "2026-11-08 19:12 CST",
+      "backup": "2026-11-08 17:34 CST",
+      "smart": "2026-11-08 17:01 CST",
+      "alpha-3": "2026-11-08 19:14 CST"
+    },
+    "cutoffRound": 1471
+  },
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking-on：admit ponzipad+ascensionely；skip noeyesaturn（信息过薄）/tryspecterxyz（pump.fun meme）/pokemon-cards-shill（无官推）/stonk-chain-shill（无官推）；score+whatsNew+scheduleNotes+alert 完整写出；alert 按 DS 草稿补上关键数字以便转发",
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "pushSha": "",
+  "remoteVerified": false
+}
