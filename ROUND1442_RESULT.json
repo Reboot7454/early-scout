@@ -1,0 +1,119 @@
+{
+  "round": 1442,
+  "mode": "x-radar",
+  "completedAt": "2026-11-08 09:34 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "newAdmits+le2h",
+  "alertMessage": "新收BnbSkunk；Elyseapro Waves链上104/1000，官推仍删帖、官网Preview，≤2h至约09:44CST。https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "bnb-skunk"
+  ],
+  "newAdmits": [
+    {
+      "id": "bnb-skunk",
+      "name": "Agent Skunk",
+      "lane": "打新",
+      "why": "官推昨日18:22 CST新建，自称 BNB Agent ID 可领 2500 FREE Skunk；09:28 CST 称 LIVE NOW 24h，有官推无官网无CA，bio与开窗时间冲突",
+      "twitter": "@BnbSkunk",
+      "website": null,
+      "ca": null,
+      "time": "官推称 LIVE NOW 24h（09:28 CST）；bio 另写 Sun 7AM EST=20:00 CST，不作≤2h",
+      "source": "https://x.com/BnbSkunk/status/2119240670464573693"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "bnb-skunk"
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "agentic-miner"
+  ],
+  "clearedPrevNTR": [
+    "agentic-miner"
+  ],
+  "skipped": [
+    {
+      "id": "paw-gang",
+      "reason": "仍仅第三方推销，无独立官推，维持上轮不收"
+    },
+    {
+      "id": "penguin",
+      "reason": "仍仅第三方提及，无独立官推"
+    },
+    {
+      "id": "habibi",
+      "reason": "@habibiCEO_onsol 2024年账号近3000粉，非极早期"
+    },
+    {
+      "note": "KW already-in: deuslaunch, ammora, volta-family, heroes-elysium, erupt-fun, souls-elysium, elysium-genesis, cathereum, artasmonkey, pawhood, zeru-finance, gloop-slime, elysium-makers"
+    },
+    {
+      "note": "pocketpad SOLD OUT 未再探索读"
+    }
+  ],
+  "xReads": 10,
+  "remainingBefore": 970,
+  "remaining": 960,
+  "mode_budget": "ample",
+  "softCap": 28,
+  "ufCursor": 360,
+  "ufCursorBefore": 328,
+  "xQuota": {
+    "remainingBefore": 970,
+    "remaining": 960,
+    "xReads": 10,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 360,
+    "ufCursorBefore": 328,
+    "note": "API-call xReads=10 (UF2 + must/LIVE1 + Elysea fail+ok + 5 search_posts_all); footer 970→960; daily pacing ample not post-reset-full; NF3+suspended2+knownNF skip3"
+  },
+  "tenLanes": true,
+  "tenLanesNote": "UF328→360 + must/LIVE12 + Elysea专项 + 5 search_posts_all（打新/台子+挖矿+LZ/Elysium+Tape/GIWA+DogeEVM/BTC/Stark/GO）",
+  "tenLanesCoverage": "打新｜挖矿｜台子/Meme｜GO盘｜LayerZero｜Elysium｜Tape｜GIWA｜DogeEVM + BTC/Stark",
+  "discordPeekDeferred": true,
+  "discordPeekReason": "no browser; reuse lastSeen cutoffs from meta",
+  "discordLastSeenByChannel": {
+    "alpha-1": "2026-11-08 07:19",
+    "alpha-1-backup": "2026-11-08 05:19",
+    "smart-accounts-tracker": "2026-11-08 06:53",
+    "alpha-3-new-accounts": "2026-11-08 07:17"
+  },
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking-on；score 一次完整：admit bnb-skunk，skip Paw Gang/Penguin/Habibi/已在库。alert 首次截断，第二次思考外泄，采用其拟定短中文。overall 按公式重算为 61。elysium-makers 未按 DS 标 LIVE（倒计时归零且无CA，维持 announced）。无改判。",
+  "watches": {
+    "elyseapro": "链上 wave 0x66d7d598842cf6ec0dd953251eda7ae259e6bfda mintOpen=true、104/1000（reserve 100已满）；官推仍删帖/检索0；官网仍 Preview 角标；旧记 0x9a08… 实为 ERC20 ELYSEA；≤2h 至约 09:44 CST，维持 le2h=true；不升 Elysium 栏",
+    "primate-legends": "MINT LIVE + RYO bonding curve live（07:17 CST）；已过≤2h窗仍开",
+    "hopkinagent": "3200/10000 LIVE 0.001 BNB；本轮无新进度帖",
+    "elys-tape": "Foundry LIVE 续",
+    "oil-hood": "$OILHOOD LIVE on Pons 续",
+    "elysium-meme": "$CNINE LIVE 续",
+    "bitrush-btcb": "LIVE 续；机制教程帖",
+    "gloop-slime": "官网 20:00 CST 开铸 0/3333；$GLOOP 20:30 CST；非本轮新",
+    "elysium-makers": "官网 elysium.band early access 标 now open，倒计时 00:00:00，维持 announced",
+    "erupt-fun": "Nov9 FREE Genesis 4444",
+    "elympus-hq": "Genesis 0.055 HYPE Day1 TBA",
+    "broisafreak": "GTD 11/9 01:00CST / PUBLIC 02:00CST",
+    "ascendlaunch": "Nov9 day-one",
+    "pocketpad": "SOLD OUT（本轮未再探索读）",
+    "eloscape": "仍 gated / No token yet；最新 e/acc",
+    "stopped": "HashDoge/Genius/Corla/Flap STOPPED"
+  },
+  "ufNotes": "328→360; NF: FlotyllOnRH, Agentkey_, Obelisdotfun; suspended: luckycatchgame, tickupfun; skippedKnownNF: LongBaoLNB, DavidJohnsvcen, firstpadfun; added @BnbSkunk to UF + freeMintWatch",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1442：新收 bnb-skunk；elyseapro Waves 链上 104/1000 仍≤2h至约09:44CST；UF328→360；discordPeekDeferred；docsSynced",
+  "pushSha": "",
+  "tip": "",
+  "push": {
+    "attempted": true,
+    "ok": false,
+    "sha": "",
+    "short": "",
+    "branch": "main",
+    "remote": "origin"
+  },
+  "HashDogeGeniusCorlaFlap": "STOPPED"
+}
