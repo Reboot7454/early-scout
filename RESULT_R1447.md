@@ -15,5 +15,5 @@
 - notePull: git pull 后 remote 已是 R1446（tip 966e5e9）；本轮以 R1447 落盘，未覆盖更高轮次。
 - alert: 本轮新收Thesis PERPS（昨建号5粉，自宣$PERPS上线Elysium并给出CA，官网thesis.casino为SOL/USDC下注站，链叙事冲突未核验，不进Elysium栏，高风险观察），详见 https://reboot7454.github.io/early-scout/
 
-- pushSha: PENDING
-- tip: PENDING
+- pushSha: cea8c826553daa22cf6e2ef8f886e0613e12dd63
+- tip: cea8c826553daa22cf6e2ef8f886e0613e12dd63
