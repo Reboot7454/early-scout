@@ -15,5 +15,5 @@
 - notePull: git pull 后 remote 已是 R1448（tip d917098）；本轮以 R1449 落盘，未覆盖更高轮次。
 - alert: 本轮新收Minthe（今日建号0粉，自宣Elysium一键发币台并给出CA，官网尚无成交，未核验不进Elysium栏）、Hermes（发帖即发射、免钱包代付gas，官网空白无CA）、ORVIA（心血管科研叙事代币，官网写verification pending），详见 https://reboot7454.github.io/early-scout/
 
-- pushSha: pending
-- tip: pending
+- pushSha: a156458b2a8af22e0b5f4f20daef0feb36374744
+- tip: a156458b2a8af22e0b5f4f20daef0feb36374744
