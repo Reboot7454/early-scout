@@ -1,0 +1,18 @@
+cards=25 unique=23 keep=18 pre_reject=2 already=3
+DS batch 0 n=9
+  got 9 decisions in 16.8s
+DS batch 1 n=9
+  got 9 decisions in 17.0s
+admits=2 ds_rejects=16 pre_rejects=2
+APPLY {"round": 1450, "newIds": ["gryphon", "symbolon"], "cleared": ["minthe", "hermes-launch", "orvia"], "result": "/workspace/early-scout/ROUND1450_RESULT.json", "summary": "R1450：Discord alpha 补收 gryphon,symbolon；清 minthe,hermes-launch,orvia；lastSeen→2026-11-08 11:57；lastChecked→2026-11-08 12:06 CST"}
+{"ok": true, "round": 1450, "notify": true, "newIds": ["gryphon", "symbolon"], "alert": "DC补漏R1450新收GRYPHON、Symbolon；https://reboot7454.github.io/early-scout/", "lastSeenByChannel": {"alpha-3-new-accounts": "2026-11-08 11:57", "alpha-1-backup": "2026-11-08 11:19", "smart-accounts-tracker": "2026-11-08 11:21", "alpha-1": "2026-11-08 11:51"}, "ds_usage": {"calls": 3, "prompt_tokens": 4021, "completion_tokens": 5545}, "result": "/workspace/early-scout/ROUND1450_RESULT.json", "ts": "20261108_1205"}
+
+==== RENUMBER NOTE ====
+Scan/cards labeled R1449 against pre-pull local tip R1448 (d917098).
+FIRST action git pull --ff-only found origin R1449 = x-radar (minthe, hermes-launch, orvia; discordPeekDeferred=true; tip f0ec54f).
+Did not overwrite remote R1449. Applied admits onto that tip as R1450.
+clearedPrevNewThisRound: minthe, hermes-launch, orvia (flags only; candidate.round stays 1449)
+gryphon + symbolon demoted Elysium -> 台子/Meme (self-claim, ecosystem page partner-gated / unverified)
+@minthepro hit already_have (id=minthe, R1449)
+DS batches: 0 got 9/9 (16.8s), 1 got 9/9 (17.0s); no EMPTY/PARSE FAIL; no retry needed
+lastSeenByChannel: alpha-3 11:57 / backup 11:19 (kept; afterCutoff=0) / smart 11:21 / alpha-1 11:51

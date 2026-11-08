@@ -1,0 +1,505 @@
+{
+  "loginOk": true,
+  "timezone": "Asia/Shanghai",
+  "scannedAtCST": "2026-11-08 12:02",
+  "newestByChannel": {
+    "alpha-3-new-accounts": "2026-11-08 11:57",
+    "alpha-1-backup": "2026-11-08 11:19",
+    "smart-accounts-tracker": "2026-11-08 11:21",
+    "alpha-1": "2026-11-08 11:51"
+  },
+  "newestVisibleTime": "2026-11-08 11:57",
+  "lastSeenByChannelCutoff": {
+    "alpha-3-new-accounts": "2026-11-08 11:17",
+    "alpha-1-backup": "2026-11-08 11:19",
+    "smart-accounts-tracker": "2026-11-08 10:51",
+    "alpha-1": "2026-11-08 11:11"
+  },
+  "oldestReachedByChannel": {
+    "alpha-3-new-accounts": "2026-11-08 10:40",
+    "alpha-1-backup": "2026-11-08 08:34",
+    "smart-accounts-tracker": "2026-11-08 06:53",
+    "alpha-1": "2026-11-08 10:21"
+  },
+  "cappedByChannel": {
+    "alpha-3-new-accounts": false,
+    "alpha-1-backup": false,
+    "smart-accounts-tracker": false,
+    "alpha-1": false
+  },
+  "gapIncomplete": false,
+  "spideyPosting": true,
+  "alpha3OlderGap": false,
+  "cardsAfterCutoff": 25,
+  "cardsReadApprox": 72,
+  "channelStatus": {
+    "alpha-3-new-accounts": {
+      "afterCutoff": 20,
+      "parsedCards": 20,
+      "newestCST": "2026-11-08 11:57",
+      "oldestCST": "2026-11-08 10:40",
+      "reachedCutoff": true,
+      "capped": false,
+      "totalCollected": 36,
+      "spideyHint": false
+    },
+    "alpha-1-backup": {
+      "afterCutoff": 0,
+      "parsedCards": 0,
+      "newestCST": "2026-11-08 11:19",
+      "oldestCST": "2026-11-08 08:34",
+      "reachedCutoff": true,
+      "capped": false,
+      "totalCollected": 12,
+      "spideyHint": true
+    },
+    "smart-accounts-tracker": {
+      "afterCutoff": 1,
+      "parsedCards": 1,
+      "newestCST": "2026-11-08 11:21",
+      "oldestCST": "2026-11-08 06:53",
+      "reachedCutoff": true,
+      "capped": false,
+      "totalCollected": 12,
+      "spideyHint": false
+    },
+    "alpha-1": {
+      "afterCutoff": 4,
+      "parsedCards": 4,
+      "newestCST": "2026-11-08 11:51",
+      "oldestCST": "2026-11-08 10:21",
+      "reachedCutoff": true,
+      "capped": false,
+      "totalCollected": 12,
+      "spideyHint": true
+    }
+  },
+  "note": "R1449 DC alpha scan; cutoffs from R1448 lastSeen; CDP inject harvest; stop after JSON write",
+  "newCards": [
+    {
+      "channel": "alpha-3-new-accounts",
+      "handle": "@rbcat_cto",
+      "name": "RBCAT_CTO",
+      "followers": 2,
+      "following": 5,
+      "followerOf": "@robinhoodcrypto",
+      "links": [
+        "https://x.com/rbcat_cto"
+      ],
+      "cardTimeCST": "2026-11-08 11:19",
+      "cardTime": "2026-11-08T03:19:57.398Z",
+      "time": "2026-11-08 11:19",
+      "snippet": "New follower of @robinhoodcrypto",
+      "bio": "Community-driven $RBCAT\nRobinhood’s mascot",
+      "description": "Community-driven $RBCAT\nRobinhood’s mascot"
+    },
+    {
+      "channel": "alpha-3-new-accounts",
+      "handle": "@rbcat_cto",
+      "name": "RBCAT_CTO",
+      "followers": 2,
+      "following": 5,
+      "followerOf": "@robinhoodapp",
+      "links": [
+        "https://x.com/rbcat_cto"
+      ],
+      "cardTimeCST": "2026-11-08 11:20",
+      "cardTime": "2026-11-08T03:20:02.069Z",
+      "time": "2026-11-08 11:20",
+      "snippet": "New follower of @robinhoodapp",
+      "bio": "Community-driven $RBCAT\nRobinhood’s mascot",
+      "description": "Community-driven $RBCAT\nRobinhood’s mascot"
+    },
+    {
+      "channel": "smart-accounts-tracker",
+      "handle": "@ayoships",
+      "name": null,
+      "followers": 50043,
+      "following": 1178,
+      "followerOf": "@cuysheffield",
+      "links": [
+        "https://x.com/ayoships"
+      ],
+      "cardTimeCST": "2026-11-08 11:21",
+      "cardTime": "2026-11-08T03:21:25.839Z",
+      "time": "2026-11-08 11:21",
+      "snippet": "@cuysheffield followed @ayoships",
+      "bio": null,
+      "description": null
+    },
+    {
+      "channel": "alpha-1",
+      "handle": "@KibbleLeft",
+      "name": "Kibble",
+      "followers": 40,
+      "following": 5,
+      "followerOf": null,
+      "links": [
+        "https://x.com/KibbleLeft"
+      ],
+      "cardTimeCST": "2026-11-08 11:24",
+      "cardTime": "2026-11-08T03:24:28.608Z",
+      "time": "2026-11-08 11:24",
+      "snippet": "Kibble rig.power(hype) → share(block_reward) on @Enter_Elysium. Username @KibbleLeft User ID",
+      "bio": "rig.power(hype) → share(block_reward) on @Enter_Elysium.",
+      "description": "rig.power(hype) → share(block_reward) on @Enter_Elysium."
+    },
+    {
+      "channel": "alpha-3-new-accounts",
+      "handle": "@gryphon_lol",
+      "name": "GRYPHON",
+      "followers": 0,
+      "following": 1,
+      "followerOf": "@Enter_Elysium",
+      "links": [
+        "https://x.com/gryphon_lol"
+      ],
+      "cardTimeCST": "2026-11-08 11:26",
+      "cardTime": "2026-11-08T03:26:06.492Z",
+      "time": "2026-11-08 11:26",
+      "snippet": "New follower of @Enter_Elysium",
+      "bio": "Every whole $GRYPH is a pixel gryphon, born on-chain. Uniswap v4 hook on @Enter_Elysium. Launching Nov 9",
+      "description": "Every whole $GRYPH is a pixel gryphon, born on-chain. Uniswap v4 hook on @Enter_Elysium. Launching Nov 9"
+    },
+    {
+      "channel": "alpha-3-new-accounts",
+      "handle": "@sukoon2026",
+      "name": "KAINAAT",
+      "followers": 6,
+      "following": 36,
+      "followerOf": "@binance",
+      "links": [
+        "https://x.com/sukoon2026"
+      ],
+      "cardTimeCST": "2026-11-08 11:27",
+      "cardTime": "2026-11-08T03:27:52.142Z",
+      "time": "2026-11-08 11:27",
+      "snippet": "New follower of @binance",
+      "bio": "flow back\nEnd the end, promises just a words.",
+      "description": "flow back\nEnd the end, promises just a words."
+    },
+    {
+      "channel": "alpha-3-new-accounts",
+      "handle": "@yarnzytrades",
+      "name": "yarnzy",
+      "followers": 6,
+      "following": 26,
+      "followerOf": "@binance",
+      "links": [
+        "https://x.com/yarnzytrades"
+      ],
+      "cardTimeCST": "2026-11-08 11:29",
+      "cardTime": "2026-11-08T03:29:52.271Z",
+      "time": "2026-11-08 11:29",
+      "snippet": "New follower of @binance",
+      "bio": "larp enthusiast, bag getter, young arisocrat of the soul",
+      "description": "larp enthusiast, bag getter, young arisocrat of the soul"
+    },
+    {
+      "channel": "alpha-3-new-accounts",
+      "handle": "@Alaalotfii",
+      "name": "Alaa Lotfi",
+      "followers": 11,
+      "following": 363,
+      "followerOf": "@robinhoodapp",
+      "links": [
+        "https://x.com/Alaalotfii"
+      ],
+      "cardTimeCST": "2026-11-08 11:30",
+      "cardTime": "2026-11-08T03:30:01.855Z",
+      "time": "2026-11-08 11:30",
+      "snippet": "New follower of @robinhoodapp",
+      "bio": "What a time to be alive...",
+      "description": "What a time to be alive..."
+    },
+    {
+      "channel": "alpha-3-new-accounts",
+      "handle": "@yarnzytrades",
+      "name": "yarnzy",
+      "followers": 6,
+      "following": 26,
+      "followerOf": "@ethereum",
+      "links": [
+        "https://x.com/yarnzytrades"
+      ],
+      "cardTimeCST": "2026-11-08 11:30",
+      "cardTime": "2026-11-08T03:30:12.249Z",
+      "time": "2026-11-08 11:30",
+      "snippet": "New follower of @ethereum",
+      "bio": "larp enthusiast, bag getter, young arisocrat of the soul",
+      "description": "larp enthusiast, bag getter, young arisocrat of the soul"
+    },
+    {
+      "channel": "alpha-1",
+      "handle": "@CannaCatMeme",
+      "name": "CannaCat",
+      "followers": 2791,
+      "following": 463,
+      "followerOf": null,
+      "links": [
+        "https://x.com/CannaCatMeme"
+      ],
+      "cardTimeCST": "2026-11-08 11:30",
+      "cardTime": "2026-11-08T03:30:12.783Z",
+      "time": "2026-11-08 11:30",
+      "snippet": "CannaCat NFT: https://opensea.io/collection/cannacats-v2/overview SHOPIFY: https://cannacats.shop/ COPYCAT: https://fomo4nft.com/ PONS: https://shorturl.at/4CJMS",
+      "bio": "NFT: https://opensea.io/collection/cannacats-v2/overview SHOPIFY: https://cannacats.shop/ COPYCAT: https://fomo4nft.com/ PONS: https://shorturl.at/4CJMS",
+      "description": "NFT: https://opensea.io/collection/cannacats-v2/overview SHOPIFY: https://cannacats.shop/ COPYCAT: https://fomo4nft.com/ PONS: https://shorturl.at/4CJMS"
+    },
+    {
+      "channel": "alpha-3-new-accounts",
+      "handle": "@KhalidAurex",
+      "name": "Khalid Ahmed",
+      "followers": 2,
+      "following": 38,
+      "followerOf": "@ethereum",
+      "links": [
+        "https://x.com/KhalidAurex"
+      ],
+      "cardTimeCST": "2026-11-08 11:31",
+      "cardTime": "2026-11-08T03:31:58.740Z",
+      "time": "2026-11-08 11:31",
+      "snippet": "New follower of @ethereum",
+      "bio": "Technology, AI and crypto. Building the future with Aurex.",
+      "description": "Technology, AI and crypto. Building the future with Aurex."
+    },
+    {
+      "channel": "alpha-3-new-accounts",
+      "handle": "@callfunglobal",
+      "name": "Call.Fun",
+      "followers": 16,
+      "following": 67,
+      "followerOf": "@binance",
+      "links": [
+        "https://x.com/callfunglobal"
+      ],
+      "cardTimeCST": "2026-11-08 11:35",
+      "cardTime": "2026-11-08T03:35:49.564Z",
+      "time": "2026-11-08 11:35",
+      "snippet": "New follower of @binance",
+      "bio": "Collab: connect@wingtalk.fun\nhttps://t.me/wingtalkworld",
+      "description": "Collab: connect@wingtalk.fun\nhttps://t.me/wingtalkworld"
+    },
+    {
+      "channel": "alpha-3-new-accounts",
+      "handle": "@4_nomali",
+      "name": "Anom",
+      "followers": 1,
+      "following": 34,
+      "followerOf": "@Enter_Elysium",
+      "links": [
+        "https://x.com/4_nomali"
+      ],
+      "cardTimeCST": "2026-11-08 11:36",
+      "cardTime": "2026-11-08T03:36:07.592Z",
+      "time": "2026-11-08 11:36",
+      "snippet": "New follower of @Enter_Elysium",
+      "bio": "I'm just an ordinary person who is learning.",
+      "description": "I'm just an ordinary person who is learning."
+    },
+    {
+      "channel": "alpha-3-new-accounts",
+      "handle": "@reinfacht",
+      "name": "euro",
+      "followers": 10,
+      "following": 87,
+      "followerOf": "@Enter_Elysium",
+      "links": [
+        "https://x.com/reinfacht"
+      ],
+      "cardTimeCST": "2026-11-08 11:43",
+      "cardTime": "2026-11-08T03:43:46.438Z",
+      "time": "2026-11-08 11:43",
+      "snippet": "New follower of @Enter_Elysium",
+      "bio": "Web3's schizo faustian spirit",
+      "description": "Web3's schizo faustian spirit"
+    },
+    {
+      "channel": "alpha-3-new-accounts",
+      "handle": "@Jossuegafaro1",
+      "name": "Jossue gafaro",
+      "followers": 0,
+      "following": 43,
+      "followerOf": "@binance",
+      "links": [
+        "https://x.com/Jossuegafaro1"
+      ],
+      "cardTimeCST": "2026-11-08 11:43",
+      "cardTime": "2026-11-08T03:43:51.843Z",
+      "time": "2026-11-08 11:43",
+      "snippet": "New follower of @binance",
+      "bio": null,
+      "description": null
+    },
+    {
+      "channel": "alpha-3-new-accounts",
+      "handle": "@minthepro",
+      "name": "minthe",
+      "followers": 0,
+      "following": 3,
+      "followerOf": "@Enter_Elysium",
+      "links": [
+        "https://x.com/minthepro"
+      ],
+      "cardTimeCST": "2026-11-08 11:44",
+      "cardTime": "2026-11-08T03:44:15.577Z",
+      "time": "2026-11-08 11:44",
+      "snippet": "New follower of @Enter_Elysium",
+      "bio": "Coin garden on Elysium. Plant a coin, watch it grow.",
+      "description": "Coin garden on Elysium. Plant a coin, watch it grow."
+    },
+    {
+      "channel": "alpha-3-new-accounts",
+      "handle": "@glf6688",
+      "name": "小马拉大车ggg",
+      "followers": 1,
+      "following": 4,
+      "followerOf": "@binance",
+      "links": [
+        "https://x.com/glf6688"
+      ],
+      "cardTimeCST": "2026-11-08 11:45",
+      "cardTime": "2026-11-08T03:45:54.822Z",
+      "time": "2026-11-08 11:45",
+      "snippet": "New follower of @binance",
+      "bio": "快就是慢慢就是快",
+      "description": "快就是慢慢就是快"
+    },
+    {
+      "channel": "alpha-3-new-accounts",
+      "handle": "@bluXharbor",
+      "name": "bluX",
+      "followers": 14,
+      "following": 58,
+      "followerOf": "@ethereum",
+      "links": [
+        "https://x.com/bluXharbor"
+      ],
+      "cardTimeCST": "2026-11-08 11:50",
+      "cardTime": "2026-11-08T03:50:01.842Z",
+      "time": "2026-11-08 11:50",
+      "snippet": "New follower of @ethereum",
+      "bio": "stay green in the dip",
+      "description": "stay green in the dip"
+    },
+    {
+      "channel": "alpha-3-new-accounts",
+      "handle": "@Rovya_org",
+      "name": "Rovya",
+      "followers": 0,
+      "following": 2,
+      "followerOf": "@Enter_Elysium",
+      "links": [
+        "https://x.com/Rovya_org"
+      ],
+      "cardTimeCST": "2026-11-08 11:50",
+      "cardTime": "2026-11-08T03:50:08.897Z",
+      "time": "2026-11-08 11:50",
+      "snippet": "New follower of @Enter_Elysium",
+      "bio": "DeFi on @Enter_Elysium Swap, bridge, and manage liquidity & portfolios. Built on @Uniswap v4.",
+      "description": "DeFi on @Enter_Elysium Swap, bridge, and manage liquidity & portfolios. Built on @Uniswap v4."
+    },
+    {
+      "channel": "alpha-1",
+      "handle": "@Symbolon",
+      "name": "S",
+      "followers": 3635,
+      "following": 4115,
+      "followerOf": null,
+      "links": [
+        "https://x.com/Symbolon"
+      ],
+      "cardTimeCST": "2026-11-08 11:51",
+      "cardTime": "2026-11-08T03:51:37.635Z",
+      "time": "2026-11-08 11:51",
+      "snippet": "S Reflection competence in business. Management development, education and training, coaching and training based on artworks, symbols and archetypes. Username @Symbolon User ID",
+      "bio": "Reflection competence in business. Management development, education and training, coaching and training based on artworks, symbols and archetypes.",
+      "description": "Reflection competence in business. Management development, education and training, coaching and training based on artworks, symbols and archetypes."
+    },
+    {
+      "channel": "alpha-3-new-accounts",
+      "handle": "@LeoSongyzoj",
+      "name": "Leo Song",
+      "followers": 3,
+      "following": 11,
+      "followerOf": "@binance",
+      "links": [
+        "https://x.com/LeoSongyzoj"
+      ],
+      "cardTimeCST": "2026-11-08 11:51",
+      "cardTime": "2026-11-08T03:51:53.363Z",
+      "time": "2026-11-08 11:51",
+      "snippet": "New follower of @binance",
+      "bio": "一个科技金融爱好者",
+      "description": "一个科技金融爱好者"
+    },
+    {
+      "channel": "alpha-1",
+      "handle": "@SymbolonHQ",
+      "name": "Symbolon",
+      "followers": 80,
+      "following": 10,
+      "followerOf": null,
+      "links": [
+        "https://x.com/SymbolonHQ"
+      ],
+      "cardTimeCST": "2026-11-08 11:51",
+      "cardTime": "2026-11-08T03:51:57.161Z",
+      "time": "2026-11-08 11:51",
+      "snippet": "Symbolon List any Elysium token on HyperCore. Holders fund the ticker, bonded operators run the ceremony, nobody keeps the deployer's powers. Launching soon Username @SymbolonHQ Us",
+      "bio": "List any Elysium token on HyperCore. Holders fund the ticker, bonded operators run the ceremony, nobody keeps the deployer's powers. Launching soon",
+      "description": "List any Elysium token on HyperCore. Holders fund the ticker, bonded operators run the ceremony, nobody keeps the deployer's powers. Launching soon"
+    },
+    {
+      "channel": "alpha-3-new-accounts",
+      "handle": "@chakai19287117",
+      "name": "King",
+      "followers": 1,
+      "following": 5,
+      "followerOf": "@ethereum",
+      "links": [
+        "https://x.com/chakai19287117"
+      ],
+      "cardTimeCST": "2026-11-08 11:52",
+      "cardTime": "2026-11-08T03:52:08.920Z",
+      "time": "2026-11-08 11:52",
+      "snippet": "New follower of @ethereum",
+      "bio": "Crypto Trader\nProviding free guidance on Bitcoin and Ethereum futures trading. Trust me, friends!",
+      "description": "Crypto Trader\nProviding free guidance on Bitcoin and Ethereum futures trading. Trust me, friends!"
+    },
+    {
+      "channel": "alpha-3-new-accounts",
+      "handle": "@GabeMeans9128",
+      "name": "Gabe Means",
+      "followers": 0,
+      "following": 15,
+      "followerOf": "@ethereum",
+      "links": [
+        "https://x.com/GabeMeans9128"
+      ],
+      "cardTimeCST": "2026-11-08 11:56",
+      "cardTime": "2026-11-08T03:56:00.463Z",
+      "time": "2026-11-08 11:56",
+      "snippet": "New follower of @ethereum",
+      "bio": "fair value gap",
+      "description": "fair value gap"
+    },
+    {
+      "channel": "alpha-3-new-accounts",
+      "handle": "@user682588",
+      "name": "Lingga Desta",
+      "followers": 0,
+      "following": 9,
+      "followerOf": "@binance",
+      "links": [
+        "https://x.com/user682588"
+      ],
+      "cardTimeCST": "2026-11-08 11:57",
+      "cardTime": "2026-11-08T03:57:52.058Z",
+      "time": "2026-11-08 11:57",
+      "snippet": "New follower of @binance",
+      "bio": "i don't know",
+      "description": "i don't know"
+    }
+  ]
+}

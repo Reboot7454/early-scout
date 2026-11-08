@@ -1,0 +1,205 @@
+{
+  "round": 1450,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-08 12:06 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R1450新收2个：GRYPHON（@gryphon_lol，自称 Elysium 上 Uniswap v4 hook 像素狮鹫，11月9日发射）、Symbolon（@SymbolonHQ，自称在 HyperCore 上架 Elysium 代币，即将上线）；二者自称Elysium未核验已降台子/Meme；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "gryphon",
+    "symbolon"
+  ],
+  "newCount": 2,
+  "newIds": [
+    "gryphon",
+    "symbolon"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 25,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "minthe",
+    "hermes-launch",
+    "orvia"
+  ],
+  "candidateFlagsCleared": 3,
+  "topNewThisRoundCleared": [
+    "minthe",
+    "hermes-launch",
+    "orvia"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=2",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-08 11:57",
+    "lastChecked": "2026-11-08 12:06 CST",
+    "newestCardTime": "2026-11-08 11:57",
+    "cardsAfterCutoff": 25,
+    "note": "R1450：Discord alpha 补收 gryphon,symbolon；清 minthe,hermes-launch,orvia；lastSeen→2026-11-08 11:57；lastChecked→2026-11-08 12:06 CST；gryphon,symbolon 自称Elysium未核验已降台子/Meme",
+    "lastRound": 1450,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-08 11:57",
+      "alpha-1-backup": "2026-11-08 11:19",
+      "smart-accounts-tracker": "2026-11-08 11:21",
+      "alpha-1": "2026-11-08 11:51"
+    },
+    "discordPeekDeferred": false
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1450：Discord alpha 补收 gryphon,symbolon；清 minthe,hermes-launch,orvia；lastSeen→2026-11-08 11:57；lastChecked→2026-11-08 12:06 CST；gryphon,symbolon 自称Elysium未核验已降台子/Meme",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1449.json",
+  "priorRoundNote": "R1449 meta NTR ['minthe','hermes-launch','orvia'] (x-radar); cardsAfterCutoff=25; scan labeled R1449, applied as R1450",
+  "alert": "DC补漏R1450新收2个：GRYPHON（@gryphon_lol，自称 Elysium 上 Uniswap v4 hook 像素狮鹫，11月9日发射）、Symbolon（@SymbolonHQ，自称在 HyperCore 上架 Elysium 代币，即将上线）；二者自称Elysium未核验已降台子/Meme；面板 https://reboot7454.github.io/early-scout/",
+  "gapIncomplete": false,
+  "spideyPosting": true,
+  "alpha3OlderGap": false,
+  "cardsRead": 25,
+  "cardsAfterCutoff": 25,
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-08 11:57",
+    "alpha-1-backup": "2026-11-08 11:19",
+    "smart-accounts-tracker": "2026-11-08 11:21",
+    "alpha-1": "2026-11-08 11:51"
+  },
+  "counts": {
+    "cards": 25,
+    "unique": 23,
+    "keep": 18,
+    "already": 3,
+    "preReject": 2,
+    "dsAdmit": 2,
+    "dsReject": 16
+  },
+  "pipelineStats": {
+    "cards": 25,
+    "unique": 23,
+    "keep": 18,
+    "already": 3,
+    "pre_reject": 2,
+    "admits": 2,
+    "ds_rejects": 16,
+    "renumberedFrom": 1449,
+    "reason": "x-radar claimed R1449 (minthe, hermes-launch, orvia, discordPeekDeferred=true) before DC apply; did not overwrite; applied as R1450"
+  },
+  "already": [
+    "@kibbleleft",
+    "@cannacatmeme",
+    "@minthepro"
+  ],
+  "preReject": [
+    "@ayoships",
+    "@Symbolon"
+  ],
+  "elysiumDemoted": [
+    "gryphon",
+    "symbolon"
+  ],
+  "focusAllFalse": true,
+  "categories": {
+    "gryphon": "台子/Meme",
+    "symbolon": "台子/Meme"
+  },
+  "admissions": [
+    {
+      "id": "gryphon",
+      "handle": "@gryphon_lol",
+      "category": "台子/Meme",
+      "name": "GRYPHON",
+      "elysiumDemoted": true
+    },
+    {
+      "id": "symbolon",
+      "handle": "@SymbolonHQ",
+      "category": "台子/Meme",
+      "name": "Symbolon",
+      "elysiumDemoted": true
+    }
+  ],
+  "rejected": [
+    {
+      "handle": "@rbcat_cto",
+      "reason": "仅自称Robinhood吉祥物社区币，无发射/mint/产品线索，空壳meme号"
+    },
+    {
+      "handle": "@sukoon2026",
+      "reason": "bio为情绪化文字，无项目、产品与发射线索"
+    },
+    {
+      "handle": "@yarnzytrades",
+      "reason": "个人larp人设号，无项目与产品信息"
+    },
+    {
+      "handle": "@Alaalotfii",
+      "reason": "个人账号，仅有心情文字，无项目"
+    },
+    {
+      "handle": "@KhalidAurex",
+      "reason": "仅泛泛称建设Aurex，无独立产品、发射或可验证链接"
+    },
+    {
+      "handle": "@callfunglobal",
+      "reason": "bio仅有合作联系方式，无产品、玩法或发射线索"
+    },
+    {
+      "handle": "@4_nomali",
+      "reason": "关注Elysium的普通学习者个人号，无项目"
+    },
+    {
+      "handle": "@reinfacht",
+      "reason": "关注Elysium的个人风格号，无项目与产品线索"
+    },
+    {
+      "handle": "@Jossuegafaro1",
+      "reason": "0粉无简介，仅关注币安的空壳号"
+    },
+    {
+      "handle": "@glf6688",
+      "reason": "个人号仅口号简介，无项目无产品"
+    },
+    {
+      "handle": "@bluXharbor",
+      "reason": "个人情绪简介，无项目与产品"
+    },
+    {
+      "handle": "@Rovya_org",
+      "reason": "仅bio描述未给出测试网或部署公告，0粉疑空壳"
+    },
+    {
+      "handle": "@LeoSongyzoj",
+      "reason": "个人金融爱好者号，无项目"
+    },
+    {
+      "handle": "@chakai19287117",
+      "reason": "合约喊单KOL号，无项目"
+    },
+    {
+      "handle": "@GabeMeans9128",
+      "reason": "交易术语简介的个人号，无项目"
+    },
+    {
+      "handle": "@user682588",
+      "reason": "无简介无产品的空壳号"
+    },
+    {
+      "handle": "@ayoships",
+      "reason": "高粉(50043)个人/KOL"
+    },
+    {
+      "handle": "@Symbolon",
+      "reason": "高粉(3635)个人/KOL"
+    }
+  ],
+  "rejectedCount": 18,
+  "dsRejects": 16,
+  "docsSynced": false,
+  "dsBatches": "batch0 9/9 in 16.8s; batch1 9/9 in 17.0s; no EMPTY/PARSE FAIL; no retry needed"
+}

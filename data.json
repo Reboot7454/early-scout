@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-08 12:01 CST",
+    "updated": "2026-11-08 12:06 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R1446",
-    "lastScout": "2026-11-08 12:01 CST",
+    "lastScout": "2026-11-08 12:06 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -697,7 +697,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1449,
+    "round": 1450,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2107,9 +2107,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "minthe",
-      "hermes-launch",
-      "orvia"
+      "gryphon",
+      "symbolon"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4485,20 +4484,20 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-11-08 11:19",
-      "lastChecked": "2026-11-08 12:01 CST",
-      "newestCardTime": "2026-11-08 11:19",
-      "cardsAfterCutoff": 30,
-      "note": "R1449：X radar 无浏览器，Discord Peek 延后；沿用 R1448 lastSeen alpha-3 11:17 / backup 11:19 / smart 10:51 / alpha-1 11:11",
-      "lastRound": 1448,
+      "deferred": false,
+      "lastSeen": "2026-11-08 11:57",
+      "lastChecked": "2026-11-08 12:06 CST",
+      "newestCardTime": "2026-11-08 11:57",
+      "cardsAfterCutoff": 25,
+      "note": "R1450：Discord alpha 补收 gryphon,symbolon；清 minthe,hermes-launch,orvia；lastSeen→2026-11-08 11:57；lastChecked→2026-11-08 12:06 CST；gryphon,symbolon 自称Elysium未核验已降台子/Meme",
+      "lastRound": 1450,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-08 11:17",
+        "alpha-3-new-accounts": "2026-11-08 11:57",
         "alpha-1-backup": "2026-11-08 11:19",
-        "smart-accounts-tracker": "2026-11-08 10:51",
-        "alpha-1": "2026-11-08 11:11"
+        "smart-accounts-tracker": "2026-11-08 11:21",
+        "alpha-1": "2026-11-08 11:51"
       },
-      "discordPeekDeferred": true
+      "discordPeekDeferred": false
     },
     "round239Added": [
       "tsunamilaunch",
@@ -4538,7 +4537,7 @@
       "slamjunkiez"
     ],
     "solemnSchedNoteR243": "solemn-trollbox 卡上倒计时来自 schedule.startsAt=2026-10-19T16:00:00Z；此前未进顶栏因 MAX=12+近窗 live 挤占（非缺 schedule）。R243：证据确认 X@strangersolemn Mon 19 Oct 4pm UTC；extract_schedules BACKFILL + 顶栏 confirmed≤24h 保底入栏。",
-    "discordPeekDeferred": true,
+    "discordPeekDeferred": false,
     "round244Added": [
       "ink-nutters"
     ],
@@ -21987,7 +21986,7 @@
       "gradwtf→freeMintWatch"
     ],
     "watchBugsFixedR1065": 1,
-    "discordAlphaPeekDeferred": true,
+    "discordAlphaPeekDeferred": false,
     "r1065Notes": {
       "harvestPhasePauseEndCST": "2026-11-01 18:05:30 CST",
       "harvestHoursLeft": 3.4,
@@ -26570,9 +26569,106 @@
       "minthe",
       "hermes-launch",
       "orvia"
+    ],
+    "round1450Added": [
+      "gryphon",
+      "symbolon"
     ]
   },
   "candidates": [
+    {
+      "id": "symbolon",
+      "name": "Symbolon",
+      "handle": "@symbolonhq",
+      "twitter": "@symbolonhq",
+      "chain": "HyperCore",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/SymbolonHQ"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 5,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 6.7
+      },
+      "highlights": [
+        "任何Elysium代币可在HyperCore上市",
+        "持有者出资ticker、bonded operators执行仪式、无部署者权限残留",
+        "Launching soon"
+      ],
+      "drawbacks": [
+        "尚未上线",
+        "80粉极早期信息有限",
+        "自称Elysium未核验（官方生态页需 partner access），已降栏台子/Meme"
+      ],
+      "whatsNew": "宣布在HyperCore上线Elysium代币发射与无部署者权限方案",
+      "summary": "Symbolon为Elysium生态代币发射项目，持币者共担ticker并移除部署者权限，即将上线。",
+      "blurb": "Elysium代币发射台，Launching soon。",
+      "round": 1450,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 80,
+      "xFollowers": 80,
+      "firstSeen": "2026-11-08 12:06 CST",
+      "addedAt": "2026-11-08 12:06 CST",
+      "lastChecked": "2026-11-08 12:06 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "gryphon",
+      "name": "GRYPHON",
+      "handle": "@gryphon_lol",
+      "twitter": "@gryphon_lol",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/gryphon_lol"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 7,
+        "overall": 6.9
+      },
+      "highlights": [
+        "每个整数$GRYPH对应链上像素狮鹫",
+        "Uniswap v4 hook部署于@Enter_Elysium",
+        "11月9日发射，时间点明确"
+      ],
+      "drawbacks": [
+        "0粉丝新号",
+        "未核验",
+        "hook玩法细节未披露",
+        "自称Elysium未核验（官方生态页需 partner access），已降栏台子/Meme"
+      ],
+      "whatsNew": "首个在Elysium上以Uniswap v4 hook实现NFT化代币的像素狮鹫项目，定档11月9日。",
+      "summary": "极早期Elysium生态项目，代币与链上像素资产绑定并通过v4 hook实现，发射时间已公布。",
+      "blurb": "Elysium上Uniswap v4 hook像素狮鹫，11月9日发射。",
+      "round": 1450,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": 0,
+      "firstSeen": "2026-11-08 12:06 CST",
+      "addedAt": "2026-11-08 12:06 CST",
+      "lastChecked": "2026-11-08 12:06 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "minthe",
       "name": "Minthe",
@@ -26634,7 +26730,7 @@
       },
       "focus": false,
       "lzVerified": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "round": 1449,
       "firstSeen": "2026-11-08 12:01 CST",
@@ -26703,7 +26799,7 @@
       },
       "focus": false,
       "lzVerified": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "round": 1449,
       "firstSeen": "2026-11-08 12:01 CST",
@@ -26773,7 +26869,7 @@
       },
       "focus": false,
       "lzVerified": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "round": 1449,
       "firstSeen": "2026-11-08 12:01 CST",
@@ -228499,20 +228595,20 @@
     }
   ],
   "newThisRound": [
-    "noeron",
-    "telos"
+    "gryphon",
+    "symbolon"
   ],
-  "alertMessage": "DC补漏R1448新收2个：Noeron（@useNoeron，Elysium 生态 AI 交易助手，已建号待推出）、Telos（@Telosxyz，agent 币发射台，早期观察）；Noeron自称Elysium未核验已降台子/Meme；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1450新收2个：GRYPHON（@gryphon_lol，自称 Elysium 上 Uniswap v4 hook 像素狮鹫，11月9日发射）、Symbolon（@SymbolonHQ，自称在 HyperCore 上架 Elysium 代币，即将上线）；二者自称Elysium未核验已降台子/Meme；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "thesis-perps"
   ],
-  "updatedAt": "2026-11-08 11:23 CST",
-  "updated": "2026-11-08 11:23 CST",
+  "updatedAt": "2026-11-08 12:06 CST",
+  "updated": "2026-11-08 12:06 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-08 11:23 CST",
+  "lastScout": "2026-11-08 12:06 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -228554,7 +228650,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3335,
+  "candidateCount": 3340,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -231276,5 +231372,9 @@
   "round1448Added": [
     "noeron",
     "telos"
+  ],
+  "round1450Added": [
+    "gryphon",
+    "symbolon"
   ]
 }
