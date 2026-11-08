@@ -1,0 +1,16 @@
+cards=30 unique=26 keep=18 pre_reject=3 already=5
+DS batch 0 n=9
+  got 9 decisions in 17.2s
+DS batch 1 n=9
+  got 9 decisions in 16.6s
+admits=2 ds_rejects=16 pre_rejects=3
+APPLY {"round": 1447, "newIds": ["noeron", "telos"], "cleared": ["hypecraft", "relax-launchpad"], "result": "/workspace/early-scout/ROUND1447_RESULT.json", "summary": "R1447：Discord alpha 补收 noeron,telos；清 hypecraft,relax-launchpad；lastSeen→2026-11-08 11:19；lastChecked→2026-11-08 11:21 CST"}
+{"ok": true, "round": 1447, "notify": true, "newIds": ["noeron", "telos"], "alert": "DC补漏R1447新收2个：Noeron（@useNoeron，Elysium 生态 AI 交易助手，已建号待推出）、Telos（@Telosxyz，agent 币发射台，早期观察）；面板 https://reboot7454.github.io/early-scout/", "lastSeenByChannel": {"alpha-3-new-accounts": "2026-11-08 11:17", "alpha-1-backup": "2026-11-08 11:19", "smart-accounts-tracker": "2026-11-08 10:51", "alpha-1": "2026-11-08 11:11"}, "ds_usage": {"calls": 3, "prompt_tokens": 3882, "completion_tokens": 5395}, "result": "/workspace/early-scout/ROUND1447_RESULT.json", "ts": "20261108_1121"}
+
+==== RENUMBER NOTE ====
+First apply wrote local R1447 against pre-pull R1446 snapshot.
+git pull --ff-only then found origin R1447 = x-radar (thesis-perps, discordPeekDeferred=true, tip 22f646c).
+Did not overwrite remote R1447. Re-applied admits onto that tip as R1448.
+clearedPrevNewThisRound: thesis-perps (flag only; candidate.round stays 1447)
+noeron demoted Elysium -> 台子/Meme (self-claim, ecosystem page partner-gated / unverified)
+DS batches: 0 got 9/9, 1 got 9/9; no EMPTY/PARSE FAIL; no retry needed

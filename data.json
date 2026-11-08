@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-08 11:21 CST",
+    "updated": "2026-11-08 11:23 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "early-scout-R1446",
-    "lastScout": "2026-11-08 11:21 CST",
+    "lastScout": "2026-11-08 11:23 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -697,7 +697,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1447,
+    "round": 1448,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2107,7 +2107,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "thesis-perps"
+      "noeron",
+      "telos"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4480,20 +4481,20 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-11-08 10:40",
-      "lastChecked": "2026-11-08 11:21 CST",
-      "newestCardTime": "2026-11-08 10:40",
-      "cardsAfterCutoff": 18,
-      "note": "R1447：executor 无浏览器，discordPeekDeferred=true；沿用 R1445 lastSeen alpha-1 10:21 / backup 10:19 / smart 09:22 / alpha-3 10:40",
-      "lastRound": 1445,
+      "deferred": false,
+      "lastSeen": "2026-11-08 11:19",
+      "lastChecked": "2026-11-08 11:23 CST",
+      "newestCardTime": "2026-11-08 11:19",
+      "cardsAfterCutoff": 30,
+      "note": "R1448：Discord alpha 补收 noeron,telos；清 thesis-perps；Noeron自称Elysium未核验已降台子/Meme；lastSeen→2026-11-08 11:19；lastChecked→2026-11-08 11:23 CST",
+      "lastRound": 1448,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-08 10:40",
-        "alpha-1-backup": "2026-11-08 10:19",
-        "smart-accounts-tracker": "2026-11-08 09:22",
-        "alpha-1": "2026-11-08 10:21"
+        "alpha-3-new-accounts": "2026-11-08 11:17",
+        "alpha-1-backup": "2026-11-08 11:19",
+        "smart-accounts-tracker": "2026-11-08 10:51",
+        "alpha-1": "2026-11-08 11:11"
       },
-      "discordPeekDeferred": true
+      "discordPeekDeferred": false
     },
     "round239Added": [
       "tsunamilaunch",
@@ -4627,7 +4628,7 @@
       "zec-nodes",
       "boys-in-hood"
     ],
-    "alertMessage": "本轮新收Thesis PERPS（昨建号5粉，自宣$PERPS上线Elysium并给出CA，官网thesis.casino为SOL/USDC下注站，链叙事冲突未核验，不进Elysium栏，高风险观察），详见 https://reboot7454.github.io/early-scout/",
+    "alertMessage": "DC补漏R1448新收2个：Noeron（@useNoeron，Elysium 生态 AI 交易助手，已建号待推出）、Telos（@Telosxyz，agent 币发射台，早期观察）；Noeron自称Elysium未核验已降台子/Meme；面板 https://reboot7454.github.io/early-scout/",
     "dsSummary": "R1311 admit epeg + vigil-elysium; SKIP PACTURE已在库/Syntax无官推等",
     "round270Added": [
       "avatarpad"
@@ -26506,9 +26507,101 @@
     ],
     "round1447Added": [
       "thesis-perps"
+    ],
+    "round1448Added": [
+      "noeron",
+      "telos"
     ]
   },
   "candidates": [
+    {
+      "id": "telos",
+      "name": "Telos",
+      "handle": "@telosxyz",
+      "twitter": "@telosxyz",
+      "chain": "",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Telosxyz"
+      },
+      "scores": {
+        "early": 6,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 5.8
+      },
+      "highlights": [
+        "bio 自述为可持续运转的 agent 代币发射台",
+        "有独立推特与明确产品方向"
+      ],
+      "drawbacks": [
+        "尚未披露具体发射时间与合约",
+        "粉丝量390，热度待验证"
+      ],
+      "whatsNew": "早期发射台定位，聚焦 agent 代币发行",
+      "summary": "以 agent 代币为核心的发射台项目，产品定位清晰但仍处早期",
+      "blurb": "agent 币发射台，早期观察",
+      "round": 1448,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 390,
+      "xFollowers": 390,
+      "firstSeen": "2026-11-08 11:23 CST",
+      "addedAt": "2026-11-08 11:23 CST",
+      "lastChecked": "2026-11-08 11:23 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "noeron",
+      "name": "Noeron",
+      "handle": "@usenoeron",
+      "twitter": "@usenoeron",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/useNoeron"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.5
+      },
+      "highlights": [
+        "定位为 Elysium 上的 AI 交易助手",
+        "产品功能描述具体：发现代币、分析市场、风险识别、交易"
+      ],
+      "drawbacks": [
+        "0 粉、极早期，尚无 testnet/发射时间",
+        "团队与合约未公开"
+      ],
+      "whatsNew": "Elysium 生态 AI 交易终端 Noeron 上线推特并开始关注 Elysium 官方。",
+      "summary": "Noeron 是面向 Elysium 的 AI 交易助手，提供代币发现、行情分析与交易功能，账号极新、产品细节待披露。",
+      "blurb": "Elysium 生态 AI 交易助手，已建号待推出。",
+      "round": 1448,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-08 11:23 CST",
+      "addedAt": "2026-11-08 11:23 CST",
+      "lastChecked": "2026-11-08 11:23 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "thesis-perps",
       "name": "Thesis PERPS",
@@ -26525,7 +26618,7 @@
       },
       "focus": false,
       "round": 1447,
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "firstSeen": "2026-11-08 11:21 CST",
       "addedAt": "2026-11-08 11:21 CST",
@@ -228109,19 +228202,20 @@
     }
   ],
   "newThisRound": [
-    "thesis-perps"
+    "noeron",
+    "telos"
   ],
-  "alertMessage": "本轮新收Thesis PERPS（昨建号5粉，自宣$PERPS上线Elysium并给出CA，官网thesis.casino为SOL/USDC下注站，链叙事冲突未核验，不进Elysium栏，高风险观察），详见 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1448新收2个：Noeron（@useNoeron，Elysium 生态 AI 交易助手，已建号待推出）、Telos（@Telosxyz，agent 币发射台，早期观察）；Noeron自称Elysium未核验已降台子/Meme；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "thesis-perps"
   ],
-  "updatedAt": "2026-11-08 11:21 CST",
-  "updated": "2026-11-08 11:21 CST",
+  "updatedAt": "2026-11-08 11:23 CST",
+  "updated": "2026-11-08 11:23 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-08 11:21 CST",
+  "lastScout": "2026-11-08 11:23 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -228163,7 +228257,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3333,
+  "candidateCount": 3335,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -230881,5 +230975,9 @@
   "round1446Added": [
     "hypecraft",
     "relax-launchpad"
+  ],
+  "round1448Added": [
+    "noeron",
+    "telos"
   ]
 }
