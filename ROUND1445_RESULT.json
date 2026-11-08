@@ -67,12 +67,16 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "4bc232d0437a95d278f7892d93d5aa72eb28b9f0",
+    "short": "4bc232d",
+    "branch": "main",
+    "remote": "origin"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1445：Discord alpha 补漏无新卡（#alpha-1 最新仍 2026-11-08 10:40）；清 degencorns,nailong-elysium,hokiseries,armdotfun,gangstazfun,thepawmise,headboroughs,mineshaftrig,elyxsocial,mintarenafi,pantheradotgg,chartheon,ascendsea,lensaprotocol,elysian-kntq；lastSeen 保持 2026-11-08 10:40，lastChecked→2026-11-08 10:43 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1445.json",
   "priorRoundNote": "R1444 meta NTR ['elysian-kntq', 'lensaprotocol', 'ascendsea', 'chartheon', 'pantheradotgg', 'mintarenafi', 'elyxsocial', 'mineshaftrig', 'headboroughs', 'thepawmise', 'gangstazfun', 'armdotfun', 'hokiseries', 'nailong-elysium', 'degencorns']; cardsAfterCutoff=18",
   "lastSeenByChannel": {
@@ -135,5 +139,7 @@
   "rejectedCount": 12,
   "dsRejects": 11,
   "admissions": [],
-  "alert": ""
+  "alert": "",
+  "pushSha": "4bc232d0437a95d278f7892d93d5aa72eb28b9f0",
+  "docsSynced": true
 }
