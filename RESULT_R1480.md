@@ -1,0 +1,28 @@
+# RESULT R1480 — 2026-11-09 00:12 CST
+
+- notify: **true** — 新收 ordo-files；fortune-paws/chipmunks/gloom/broisafreak/旺财/ordo 处于≤2h。
+- alertMessage: R1480 早期打新雷达：新收录 Ordo（@ordo_xlife，BNB .ai Agent mint pass 称已 live，0粉新号无CA，未达5,555份退款）。≤2h：Fortune Paws 付费已铸357/3333、Chipmunks 已铸1039（前3免费）、Elysium Gloom collab 约00:50、BRO IS A FREAK GTD 01:00/Public 02:00、旺财Agent 23:20 已开售。Ascension CA 已补全。面板：https://reboot7454.github.io/early-scout/
+- newThisRound: ['ordo-files']（@ordo_xlife，BNB .ai Agent mint pass，称 Mint live，无CA）
+- clearedPrevNTR: ['ponzipad', 'ascensionely']
+- skipped: kosmo-self / pokemon-cards-shill / war3 / gtc-bsc
+- ≤2h (le2h): ['ordo-files', 'fortune-paws', 'chipmunks-bnb', 'elysium-gloom', 'broisafreak', 'agent-pulse']
+  - ordo-files: 2026-11-08 23:50 CST 官推称 Mint live now（≤2h）；未见 CA / 份额进度。
+  - ascensionely: 23:34 CST 官推完整 CA 0xbfa609ddad3ccb722486f98ccda8de28bc117d3a（R1480 补全，上轮截断）；23:58 宣布加入 kinetiq:native（4 市场已 live），00:04 预告 $eacc 3 秒 tap grid soon。
+  - fortune-paws: 链上 totalMinted()=357/3333（上轮官宣334）；免费已售罄，付费 0.0005 BNB LIVE，每钱包最多2。开铸约 22:35–23:00 CST，按开窗起 2h 仍≤2h（至约01:00）。
+  - chipmunks-bnb: 链上 totalSupply=1039（上轮1035）。未满3333前每钱包前3仍免费。按约22:30 CST 开铸口径仍≤2h（至约00:30）。
+  - miuadotfun: 23:46 CST 官宣 %75 SOLD OUT、mint almost over。Genesis 2h 窗已过，le2h=false。
+  - broisafreak: 23:59 CST 官推：GTD opens in 1 hour / Public mint opens in 2 hours → GTD 01:00 / Public 02:00 CST 确认，≤2h。
+  - elyziuma: 00:03 CST 官推发布 “MINT DETAILS — UPDATED VERSION”（细节在图中，文本未列出，未核验）；GTD 仍随 Elysium 主网（11/9）开。非≤2h。
+  - agent-pulse: ROBO Launchpad 旺财Agent 11/8 23:20 CST 开售（10,000份×0.003 BNB，每 Agent ID 10 份），本窗无新官帖；对应 sale 合约未能确认，未报进度。开窗起 2h 内（至约01:20）仍≤2h。
+  - elysium-gloom: 本窗无新官帖；collab 截止约 11/9 00:50 CST，仍≤2h。$GLOOM 仍标 Nov 9。
+  - agent-volt: 22:05 CST 官宣 AgentVOLT free mint 5000 全部铸完，转 staking（每日最高 10,000 VOLT）。
+  - numbi: 链上 totalSupply=86（上轮81）。22:00–24:00 窗口已过；前3000免费口径未变，是否继续可铸未见新官帖。le2h=false。
+  - toast-bnb: 官网 /api/stats：cardsSold=165/10000，免费已发165/5000，剩4835（与上轮持平），仍LIVE，非≤2h。
+- xReads 7 / remainingBefore 716 / remaining 709 / mode ample / softCap 40 / ufCursor 1064→1096
+- tenLanes: UF1064→1096（32 号 from: 批量 1 次，全在库无新NF） + must/≤2h 1 次批量（Frtn_Paws/numbiagent/ChipmunksBNB/Elysiumgloom/BROISAFREAK/MintRoboAi/ponzipadapp/ascensionely/TOASTbnb/GloopSlimeHQ/Jake_beast16/miuadotfun/oddlode/Elyziumaa） + 5 search_posts_all（打新/台子/Meme + 挖矿/GO盘 + LayerZero/Elysium + Tape/GIWA/DogeEVM + BTC/Starknet）
+- discordPeekDeferred: true（cutoff R1471 lastSeen）
+- docsSynced: true
+- dsFallback: false
+- dsNote: deepseek-flash thinking-on：admit ordo-files；skip kosmo-self（无开窗/CA）/pokemon-cards-shill（无官推）/war3（无官推）/gtc-bsc（疑似资金盘）；score+alert 由 DS 写出，alert 补关键数字
+- HashDoge/Genius/Corla/Flap: STOPPED
+- pushSha: PENDING
