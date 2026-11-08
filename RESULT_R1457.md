@@ -16,5 +16,6 @@
 - notePull: 开跑时 git pull 后 remote 仍是 R1455（tip 8c600e3）。本轮 X 扫描期间 remote 已推 R1456 Discord alpha 补漏（f34d706 / fill 4ab0ec0，新收 6）。按「不覆盖更高轮次」本轮改落 R1457，保留 R1456 六卡与更新的 Discord lastSeen。
 - alert: 【打新雷达】库内 xypher CPU挖矿仍 LIVE，14:53 前窗口≤2h，优先跟进；新收录 loon-rat：今日14:00 开 300 名额 FCFS 免费 mint（自称Elysium未核验、无CA，高风险）。详情面板 https://reboot7454.github.io/early-scout/
 
-- pushSha: pending
-- tip: pending
+- pushSha: 867adc68a23f9e18f12402e66bf10250a6dfb428
+- tip: 867adc6
+- remoteVerified: true
