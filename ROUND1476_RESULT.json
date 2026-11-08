@@ -1,0 +1,193 @@
+{
+  "round": 1476,
+  "mode": "x-radar",
+  "completedAt": "2026-11-08 21:55 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "新收录 Chipmunks/@ChipmunksBNB（官网仍写 Mint opens soon 尚未 LIVE）；numbi 22:00、beast16 至约 22:00、gloop NFT 约至 22:03 / $GLOOP 约至 22:31、miuadotfun Genesis 约至 23:31 仍 ≤2h。",
+  "alertMessage": "新收 Chipmunks/@ChipmunksBNB（6666，Agent ID，官网仍写 Mint opens soon 尚未 LIVE）；toast 免费档剩 4841；写盘约 21:55 仍≤2h 的有 numbi 22:00、beast16 至约 22:00、gloop NFT 约 22:03 / $GLOOP 约 22:31、miuadotfun Genesis 约至 23:31。https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "chipmunks-bnb"
+  ],
+  "newAdmits": [
+    {
+      "id": "chipmunks-bnb",
+      "handle": "@ChipmunksBNB",
+      "name": "Chipmunks",
+      "category": "打新",
+      "chain": "BNB Chain",
+      "reason": "独立官推+官网 llms.txt+合约 0xB2625d56A7Fc855Bf7432B5584B390A4b4d9C7fD 互证；6666 mutant chipmunks，仅 .ai Agent ID；官网仍写 Mint opens soon 尚未 LIVE，属极早期可跟踪窗口。"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "chipmunks-bnb"
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "toast-bnb"
+  ],
+  "clearedPrevNTR": [
+    "toast-bnb"
+  ],
+  "skipped": [
+    {
+      "id": "nyraa",
+      "handle": "@Nyraa_xyz",
+      "reason": "无 CA、无明确 mint/开盘时刻，官网几乎只有标题"
+    },
+    {
+      "id": "banger-ink",
+      "handle": "@bangerdotink",
+      "reason": "0粉仅2帖，自称 Elysium live 但主网仍11/9，无独立可核验 mint 窗"
+    },
+    {
+      "id": "floki-agent",
+      "handle": "@FLOKI_AGENT_",
+      "reason": "0粉1帖，无独立官网，疑似仿冒"
+    },
+    {
+      "id": "elysium-ladder",
+      "handle": "@elysiumladder",
+      "reason": "当天建号、0粉，无独立 mint 窗"
+    },
+    {
+      "id": "war3",
+      "handle": null,
+      "reason": "维持 skip"
+    },
+    {
+      "id": "timiio",
+      "handle": null,
+      "reason": "维持 skip"
+    },
+    {
+      "id": "yaoqian",
+      "handle": null,
+      "reason": "仅社区喊单，无独立官推"
+    },
+    {
+      "id": "jinchan",
+      "handle": null,
+      "reason": "仅社区喊单，无独立官推"
+    }
+  ],
+  "inLibKwHits": [
+    "hokiseries",
+    "dinoera",
+    "beef-family",
+    "getelysiumpass",
+    "agentcardshq",
+    "cathereum",
+    "erupt-fun",
+    "gloop-slime",
+    "beast16",
+    "numbi",
+    "toast-bnb",
+    "shadesofely",
+    "miuadotfun",
+    "kismo-seekers",
+    "broisafreak",
+    "undeadnfts"
+  ],
+  "xReads": 7,
+  "remainingBefore": 767,
+  "remaining": 760,
+  "mode_budget": "ample",
+  "softCap": 38,
+  "ufCursor": 969,
+  "ufCursorBefore": 936,
+  "xQuota": {
+    "remainingBefore": 767,
+    "remaining": 760,
+    "xReads": 7,
+    "mode": "ample",
+    "softCap": 38,
+    "ufCursor": 969,
+    "ufCursorBefore": 936,
+    "checkedAt": "2026-11-08 21:55 CST",
+    "eveningReserve": 0,
+    "note": "API-call xReads=7 (UF1 + must/LIVE1 + 5 search_posts_all); first footer 766 after UF => remainingBefore 767; last footer 760; daily pacing ample; eveningReserve=0; UF936→969"
+  },
+  "tenLanes": "UF936→969 (30 queried + 3 prior NF skip bianjiayou/kpin_ai/LostGodsOnRH; 无新 NF/suspended; 本片均已在库) + must/LIVE31 (1 batched, no overlap with shard) + 5KW (打新/台子 + 挖矿 + LZ/Elysium + Tape/GIWA + DogeEVM/BTC/Stark/GO)",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": {
+      "alpha-1": "2026-11-08 19:12 CST",
+      "backup": "2026-11-08 17:34 CST",
+      "smart": "2026-11-08 17:01 CST",
+      "alpha-3": "2026-11-08 19:14 CST"
+    },
+    "lastChecked": "2026-11-08 19:21 CST",
+    "cardsAfterCutoff": 34,
+    "note": "本 executor 无浏览器；沿用 R1471 lastSeen，不回滚、不编造更新"
+  },
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking-on 主裁决 admit 1（chipmunks-bnb），skip nyraa/banger-ink/floki-agent/elysium-ladder；评分成功；文案第一次在 watchCopy.beef-family 处截断，第二次补齐 watchCopyTail/alert/summary",
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "ufNF": {
+    "priorSkipNoRequery": [
+      "bianjiayou",
+      "kpin_ai",
+      "LostGodsOnRH"
+    ],
+    "newNotFound": [],
+    "newSuspended": [],
+    "silentInWindowNotNF": [
+      "VAULT_GENT",
+      "Dividotfun",
+      "quoted_xyz",
+      "KnightsAgentTbl",
+      "Standssocial",
+      "DOGEKINGlol",
+      "AgentOnlyBSC",
+      "GardenEcosystem",
+      "DABAIAgent",
+      "BNBRunnerz",
+      "FlywheelAgent",
+      "NibblersELY",
+      "Pairitydotwtf",
+      "elyfrens",
+      "SafeArcSpace",
+      "PlayPumpkinPit",
+      "BrawlerRebels",
+      "ASCIIDogsNFT",
+      "UnseenOrdo",
+      "goofies_nft",
+      "kpadfun",
+      "geniedotfun",
+      "updraftexchange",
+      "W3LeagueHQ",
+      "Rexisdotfun",
+      "GrumpGuysNFT",
+      "mosslingrh"
+    ]
+  },
+  "le2h": [
+    "gloop-slime",
+    "beast16",
+    "numbi",
+    "miuadotfun"
+  ],
+  "chipmunks": "新收录 @ChipmunksBNB / chipmunks-nft.pages.dev；CA 0xB2625d56A7Fc855Bf7432B5584B390A4b4d9C7fD；6666 mutant chipmunks，仅 .ai Agent ID；未满 3333 时每钱包前 3 张免费，第 4-6 张约 $0.35，满后 $0.66；每钱包最多 6；关闭 2026-11-18 23:59 WAT；官网写 Mint opens soon 尚未 LIVE，le2h=false",
+  "toast": "官网 /api/stats 读链：159/10000 已售，免费档 159/5000 剩 4841；付费 0.0012 BNB/份；仍 LIVE；le2h=false",
+  "gloop": "本窗无新官帖；上次官报 20:53 CST 763 minted，市场已解锁；$GLOOP 仍 Flap LIVE CA 0x9a8d252759165bcc4efcdd740a471b0eb46a7777；NFT 0x183CBb52B3C7BCB2433d50dE0Add99B59f4DE4fE 自 20:03 仍 LIVE 未售罄；NFT≤2h 约至 22:03，$GLOOP≤2h 约至 22:31",
+  "beast16": "本窗无新官帖；21:07 CST 宣布 BAW/agent skill 通道已开，首只免费、每钱包最多 20；20:45 官报 124 claimed；mint 自 20:00 LIVE，le2h=true 约至 22:00 CST",
+  "numbi": "本窗无新官帖；官网仍写 22:00 CST 开铸；链上 totalSupply/totalMinted=0；未写成 LIVE；le2h=true",
+  "shadesofely": "21:19 CST 官宣 form closed、名单已锁定满员；tomorrow live on elysium；mainnet 仍 11/9 无精确钟点；le2h=false",
+  "miuadotfun": "21:31 CST 官宣 Genesis Mint Is LIVE；le2h=true 约至 23:31；不编 mint 量与 CA",
+  "elysium-gloom": "本窗无新官帖；collab 截止仍约 11/9 00:50 CST；非≤2h",
+  "undeadnfts": "本窗无新官帖；21:09 CST 官宣 $UNDEAD coming to Elysium，细则待公布；NFT 仍自 14:32 LIVE；≤2h 已于约 16:32 结束",
+  "watchBugsFixed": "新收 chipmunks-bnb 同时写入 userFollowWatch 与 agentPadWatch",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1476（2026-11-08 21:55 CST）新收 Chipmunks/@ChipmunksBNB，官网尚未 LIVE；toast 更新为 159/免费剩 4841；Shades 名单已官方锁定；numbi/beast16/gloop/miua 仍在 ≤2h。",
+  "pushSha": "PENDING",
+  "tip": "PENDING",
+  "remoteVerified": false,
+  "push": {
+    "sha": "PENDING",
+    "remoteVerified": false
+  }
+}
