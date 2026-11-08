@@ -52,12 +52,16 @@
     "spideyPosting": true
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "0f9509432dcbaeb943944d7702c0d6d184a8b0bf",
+    "short": "0f95094",
+    "branch": "main",
+    "remote": "origin"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1471：Discord alpha 补收 cephink,museagentbnb；跳过 playtideboundrh(重复已有 @tideboundrh / TIDEBOUND $TIDE)；清 drass-io；lastSeen→2026-11-08 19:14；lastChecked→2026-11-08 19:21 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1471.json",
   "priorRoundNote": "R1470 meta NTR ['drass-io']; cardsAfterCutoff=34",
   "lastSeenByChannel": {
@@ -199,5 +203,7 @@
   ],
   "preReject": 0,
   "scannedAtCST": "2026-11-08 19:17",
-  "docsSynced": null
+  "docsSynced": true,
+  "pushSha": "0f9509432dcbaeb943944d7702c0d6d184a8b0bf",
+  "tip": "0f95094"
 }
