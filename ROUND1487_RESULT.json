@@ -1,0 +1,138 @@
+{
+  "round": 1487,
+  "mode": "ample",
+  "completedAt": "2026-11-09 04:20 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "有新收录 mothership-pf，且 broisafreak Public mint 仍在 ≤2h（02:47 CST 起，官推仍 500/2222，窗至约 04:47 CST）。",
+  "alertMessage": "R1487新收录：mothership（@mothershipPF，约1小时新号，Solana「launchpad的launchpad」，0.5 SOL开自有品牌台，官网 mothershipsol.fun 已上线，CA 8Ji47AkCqfESr1cmuvLv8hvUZotkL45rATcfvTiTpump）。broisafreak Public 仍LIVE（02:47起，官推仍500/2222，官网仍Mint soon无独立CA，窗至约04:47 CST）。Gloop 3072/3333、Pandu 176/2222。BONK Agent 仍15:00 CST开铸。https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "mothership-pf"
+  ],
+  "newAdmits": [
+    {
+      "id": "mothership-pf",
+      "handle": "@mothershipPF",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "note": "约1小时新号（03:27 CST 建号，9粉）；launchpad 的 launchpad；0.5 SOL 开自有品牌台+子域；官网 mothershipsol.fun 本轮 200；pump.fun CA 8Ji47AkCqfESr1cmuvLv8hvUZotkL45rATcfvTiTpump"
+    }
+  ],
+  "newCount": 1,
+  "clearedPrevNTR": [
+    "crosseyed",
+    "argus-elysium"
+  ],
+  "clearedPrevNewThisRound": true,
+  "skipped": [
+    {
+      "handle": "@Elyshieldxyz",
+      "reason": "官网 522 不可用、无 CA、无精确钟点，仅一句 launch tomorrow；Elysium 部署未独立核验"
+    },
+    {
+      "handle": "@Le0_Coin",
+      "reason": "无官网/CA，粉1推2，bio 套话，CPU 矿币信息不足"
+    },
+    {
+      "handle": "@TronCat_Elysium",
+      "reason": "已有 CA 的存量自称 Elysium meme，粉1、无新 mint 窗口"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "broisafreak",
+      "at": "2026-11-09 02:47 CST",
+      "note": "官宣 Public mint LIVE；03:31 CST 官推 minted 500/2222，R1487 无更新进度。官网仍 Mint soon 无独立 CA。窗至约 04:47 CST。"
+    }
+  ],
+  "le2hStatus": {
+    "broisafreak": "【R1487】02:47 CST Public LIVE，03:31 CST 500/2222 后续无新进度；官网仍 Mint soon 无独立 CA；窗至约 04:47 CST。",
+    "bonkagent": "【R1487】仍 15:00 CST 开铸，Free 0/1000，Paid 0，totalMinted=0。",
+    "mothership-pf": "【R1487】官推称 docks are open，无精确钟点，非≤2h。",
+    "crosseyed": "【R1487】本窗无新帖；随 Elysium 主网（今日）上线，无精确钟点，非≤2h。",
+    "argus-elysium": "【R1487】本窗无新帖；代币已上线（自报），非 mint 倒计时。",
+    "escapehub": "【R1487】Launchpad 11/16 23:00 CST，非≤2h。",
+    "skitters": "【R1485/续】约 08:07 CST，非≤2h。",
+    "halofun": "【R1487】官网仍 waitlist，9 November，无精确钟点。",
+    "pandu-agent": "【R1487】176/2222 mintOpen=1。",
+    "gloop-slime": "【R1487】3072/3333 mintOpen=1。",
+    "chipmunks-bnb": "【R1487】1058 mintOpen=1。",
+    "fortune-paws": "【R1487】366/3333 mintOpen=1。",
+    "numbi": "【R1487】102 持平。",
+    "beast16": "【R1487】225/4444 mintOpen=1，Reveal 20:00 CST。",
+    "toast-bnb": "【R1487】cardsSold=166，免费剩4834，LIVE。",
+    "kothpad": "【R1487】本窗无新帖，官网仍几乎空白，无链/时间/CA。",
+    "droolies-rh": "【R1487】官网仍 mint soon，未写 Nov 10。",
+    "the-agent-firm": "【R1487】Doors open 11.9，粉 6366，无精确钟点。"
+  },
+  "onchainChecks": {
+    "fortune-paws": {
+      "totalSupply": null,
+      "mintOpen": 1,
+      "totalMinted": 366
+    },
+    "chipmunks-bnb": {
+      "totalSupply": 1058,
+      "mintOpen": 1,
+      "totalMinted": 1058
+    },
+    "numbi": {
+      "totalSupply": 102,
+      "mintOpen": 1,
+      "totalMinted": 102
+    },
+    "gloop-slime": {
+      "totalSupply": null,
+      "mintOpen": 1,
+      "totalMinted": 3072
+    },
+    "beast16": {
+      "totalSupply": null,
+      "mintOpen": 1,
+      "totalMinted": 225
+    },
+    "pandu-agent": {
+      "totalSupply": 176,
+      "mintOpen": 1,
+      "totalMinted": 176
+    },
+    "toast-bnb": {
+      "cardsSold": 166,
+      "freeGiven": 166,
+      "freeCardsRemaining": 4834,
+      "live": true
+    },
+    "bonk-mint": {
+      "totalMinted": 0,
+      "mintOpen": null
+    },
+    "bonk-token": {
+      "totalSupply": 0
+    }
+  },
+  "xReads": 7,
+  "remainingBefore": 646,
+  "remaining": 639,
+  "softCap": 40,
+  "ufCursor": 154,
+  "ufCursorBefore": 122,
+  "xQuota": {
+    "remainingBefore": 646,
+    "remaining": 639,
+    "xReads": 7,
+    "mode": "ample",
+    "softCap": 40,
+    "ufCursor": 154,
+    "ufCursorBefore": 122,
+    "checkedAt": "2026-11-09 04:20 CST",
+    "eveningReserve": 80,
+    "note": "API-call xReads=7（UF1 + must/≤2h 2 + 3 KW + 1 新号 profile 批量）；首 footer 645 => remainingBefore 646；末 footer 639；reset 2026-11-09 08:00 CST"
+  },
+  "tenLanes": "UF 122→154（32 号 from: 批量 1 次，无已知 NF 跳过；表长1185→1186） + must/≤2h 2 次（①含 BROISAFREAK 被回复刷屏占满；②排除后 result_count=0） + 3 search_posts_all（①打新/AgentID/free mint/launchpad/AIDROP/X Layer；②挖矿/PoW/squeek/Nutshell/GO盘/LayerZero/OFT/Local Bottom/Carcosa；③Elysium/Tape/GIWA/DogeEVM/Ordinals/Runes(BTC)/Starknet） + 1 次新号 profile 批量。九栏+BTC/Starknet 均跑；LayerZero/DogeEVM/GIWA/Tape/Starknet/BTC 本窗无可收命中；mentions 并入 KW（@Enter_Elysium/@squeekchain/X Layer）；Canton/Glaze/TokenWorks lastChecked 已刷。",
+  "discordPeekDeferred": true,
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "DeepSeek deepseek-flash(thinking) 第1次即返回完整 JSON；admit mothership-pf，skip Elyshieldxyz/Le0_Coin/TronCat_Elysium。本地将 category 从「打新」改为「台子/Meme」；分数由 0-10 换算为百分制（early 92 / actionable 72 / credibility 40 / overall 70）；alertMessage 本地补完整 CA 与 Gloop/Pandu/BONK/broisafreak 窗。dsFallback=false",
+  "forcePanelIds": "保留 broisafreak（现 le2h=true，官宣 LIVE 且已铸 500/2222，但官网仍无独立 CA）",
+  "pushSha": ""
+}
