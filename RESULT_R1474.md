@@ -15,6 +15,6 @@
 - dsFallback: false；deepseek-flash thinking-on 第一次 JSON 在 watchCopy.shadesofely 处截断，第二次补齐剩余 watchCopy 与 alert/summary；主裁决 admit 1（numbi）、skip lingji-bots 别名
 - remoteNote: git pull 时已在 R1473 tip 07b2749 / 23e3c40 内容提交；本轮按 R1474 跑完整 X-radar
 
-- pushSha: PENDING
-- tip: PENDING
-- remoteVerified: false
+- pushSha: 75ca49665da002e32747019ed225b25202b5e140
+- tip: 75ca496
+- remoteVerified: true
