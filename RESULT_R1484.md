@@ -14,3 +14,4 @@
 - dsNote: DeepSeek deepseek-flash(thinking) 1 次调用完成 admit/score/skip/updates/alert/summary，JSON 完整；alertMessage 本地补 R1484 前缀、handle、BONK Mint CA 与 BRO 状态（数字均来自本轮证据）。dsFallback=false
 - docsSynced: true
 - skipped: Elyspump（0 粉、无简介无官网，仅两条推文，无可验证信息）; UsePerpEly（perps 交易平台，非打新/发射台/挖矿可操作标的，无上线时间与参与入口）; Knuts_on_Ely（Elysium 已上线 meme 币，非早期打新）; elysimocoin（0 粉，仅称将通过 AscendLaunch 铸造，无时间无 CA）; SQODYX（no-code 发射/多钱包分发工具，偏基础设施，无发射时间与参与入口）
+- pushSha: 66f82d3（主提交；pushSha 回写为后续小提交）
