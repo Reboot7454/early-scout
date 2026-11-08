@@ -1,0 +1,154 @@
+{
+  "round": 1440,
+  "mode": "x-radar",
+  "completedAt": "2026-11-08 08:33 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "newAdmits+le2h",
+  "alertMessage": "R1440新收Fields（Elysium发射台11/9开）、Nectar（Elysium meme台）、Instapaid（IG分成发射台已live）、HASH（持仓即算力）、Opacra（隐私PoW今日22:00CST主网）。Elyseapro Waves免费mint仍开103/1000，≤2h至约09:44CST。详情 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "fieldsdottrade",
+    "nectarfunxyz",
+    "instapaidfun",
+    "tryhashpad",
+    "opacra"
+  ],
+  "newAdmits": [
+    {
+      "id": "fieldsdottrade",
+      "name": "Fields",
+      "lane": "Elysium生态",
+      "why": "官推今日新建，首帖宣布 Elysium 发射台 Opening November 9；Elysian vs HYPE / Asphodel vs 其它代币",
+      "twitter": "@fieldsdottrade",
+      "website": "https://fields.trade",
+      "time": "2026-11-09 TBA",
+      "source": "https://x.com/fieldsdottrade/status/2119221859753578959"
+    },
+    {
+      "id": "nectarfunxyz",
+      "name": "Nectar",
+      "lane": "Elysium生态",
+      "why": "bio 自称 @Enter_Elysium dedicated launchpad；今日首帖介绍 HL L2 meme 发射台",
+      "twitter": "@nectarfunXYZ",
+      "source": "https://x.com/nectarfunXYZ/status/2119221127075569677"
+    },
+    {
+      "id": "instapaidfun",
+      "name": "Instapaid",
+      "lane": "台子/Meme",
+      "why": "今日新建官推自称 InstaPaid is live，Instagram 创作者费自动分成，走 Solana/pumpfun",
+      "twitter": "@instapaidfun",
+      "source": "https://x.com/instapaidfun/status/2119221406781043129"
+    },
+    {
+      "id": "tryhashpad",
+      "name": "HASH",
+      "lane": "挖矿",
+      "why": "自称 Hash is live，持仓即算力；官推公布 CA",
+      "twitter": "@tryhashpad",
+      "website": "https://hashlaunch.fun",
+      "ca": "CAfj4FKk7KD21yiXbd55KHv97xWA7dWRtDGkzY7pJsKd",
+      "source": "https://x.com/tryhashpad/status/2119112706326216890"
+    },
+    {
+      "id": "opacra",
+      "name": "Opacra",
+      "lane": "挖矿",
+      "why": "隐私公平 PoW，主网 2026-11-08 14:00 UTC = 22:00 CST",
+      "twitter": "@opacra_org",
+      "time": "2026-11-08 22:00 CST",
+      "source": "https://x.com/opacra_org"
+    }
+  ],
+  "newCount": 5,
+  "newIds": [
+    "fieldsdottrade",
+    "nectarfunxyz",
+    "instapaidfun",
+    "tryhashpad",
+    "opacra"
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "clearedPrevNTR": [],
+  "skipped": [
+    {
+      "id": "AnchorLaunchSOL",
+      "reason": "0粉2帖，DS一致 skip，可信度弱"
+    },
+    {
+      "note": "KW already-in: jpegzart/ITIA, pocketpad SOLD OUT, wormpad(续更已上线数日), heroes-elysium, deuslaunch, droolies-rh, real-hood-people, souls-elysium, skitters, egglo, fomies, unseen-ordo, foxfire, beepz, eyemine-bnb, classified-mining, robinhackers, montra, volta-family, cathereum, elysium-apes, yieldex, ronspadfun"
+    },
+    {
+      "note": "成熟/非打新: GenLayer staking, VeVe, Vangrid $9M, StreetHood, FLOAT trading, THALVORIX"
+    },
+    {
+      "note": "无官推不可收: WAR3/AURA/HokiCat/Paw Gang"
+    },
+    {
+      "note": "未再探索读: hamieverse second collection preparing"
+    }
+  ],
+  "xReads": 14,
+  "remainingBefore": 995,
+  "remaining": 981,
+  "mode_budget": "post-reset-full",
+  "softCap": 50,
+  "ufCursor": 296,
+  "ufCursorBefore": 248,
+  "xQuota": {
+    "remainingBefore": 995,
+    "remaining": 981,
+    "xReads": 14,
+    "mode": "post-reset-full",
+    "softCap": 50,
+    "ufCursor": 296,
+    "ufCursorBefore": 248,
+    "note": "API-call xReads=14 (UF3x16=248→296 + must/LIVE12 + 2KWnews + 5 search_posts_all incl dedicated DogeEVM + 1 verify6); footer 995→981; first post-reset complementary; NF3+suspended4"
+  },
+  "tenLanes": true,
+  "tenLanesNote": "UF248→296 + must/LIVE + 2 news + 5 search_posts_all（打新/台子+挖矿+LZ/Elysium+Tape/GIWA + 专搜DogeEVM + BTC/Stark/specials）+ verify6",
+  "tenLanesCoverage": "打新｜挖矿｜台子/Meme｜GO盘｜LayerZero｜Elysium｜Tape｜GIWA｜DogeEVM + BTC/Stark",
+  "discordPeekDeferred": true,
+  "discordPeekReason": "no browser; reuse lastSeen cutoffs from meta",
+  "discordLastSeenByChannel": {
+    "alpha-1": "2026-11-08 07:19",
+    "alpha-1-backup": "2026-11-08 05:19",
+    "smart-accounts-tracker": "2026-11-08 06:53",
+    "alpha-3-new-accounts": "2026-11-08 07:17"
+  },
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking-on；前两次思考外泄/JSON截断，第三次产出完整admit骨架后HASH条目截断；三次结论一致：admit fieldsdottrade/nectarfunxyz/instapaidfun/tryhashpad/opacra，skip AnchorLaunchSOL（0粉可信度弱）。分数由0-10校正为0-100并按公式重算overall。无改判。",
+  "watches": {
+    "elyseapro": "marketplace LIVE + Waves FREE 103/1000（1/钱包，07:44 CST 官宣、07:57 CST 进度，≤2h 至约 09:44 CST；主网仍11/9，链上环境待辨，不升Elysium栏）",
+    "primate-legends": "MINT LIVE（已过≤2h窗仍开）",
+    "hopkinagent": "3200/10000 LIVE 0.001 BNB",
+    "elys-tape": "Foundry LIVE",
+    "oil-hood": "$OILHOOD LIVE on Pons",
+    "elysium-meme": "$CNINE LIVE",
+    "bitrush-btcb": "LIVE",
+    "erupt-fun": "Nov9 FREE Genesis 4444",
+    "elympus-hq": "Genesis 0.055HYPE Day1 TBA",
+    "broisafreak": "GTD 11/9 01:00CST / PUBLIC 02:00CST",
+    "ascendlaunch": "Nov9 day-one",
+    "pocketpad": "SOLD OUT",
+    "wormpad": "官推称 pad/terminal/bridge 已上线数日",
+    "stopped": "HashDoge/Genius/Corla/Flap STOPPED"
+  },
+  "ufNotes": "248→296; NF: huntfieldrh, ciowworld, hahastage; suspended: layertrade, envarai_, scripdrop, gra8dtv; watch-bug add HopkinAgent/ElysTape/eruptdottfun",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1440：新收 fieldsdottrade/nectarfunxyz/instapaidfun/tryhashpad/opacra；elyseapro Waves 103/1000 ≤2h；UF248→296；discordPeekDeferred；docsSynced",
+  "pushSha": "PENDING",
+  "tip": "PENDING",
+  "push": {
+    "attempted": false,
+    "ok": false,
+    "sha": "",
+    "short": "",
+    "branch": "main",
+    "remote": "origin"
+  },
+  "remoteVerified": null,
+  "failures": []
+}
