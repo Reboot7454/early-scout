@@ -15,6 +15,6 @@
 - dsFallback: false；deepseek-flash thinking-on；自定义 admit 一轮：skip pawgeng + timiio；无新收录
 - alert: 【R1461】@UndeadNFTs MINT LIVE 仍≤2h（至约16:32 CST），需关注；面板：https://reboot7454.github.io/early-scout/
 
-- pushSha: (pending)
-- tip: (pending)
-- remoteVerified: false
+- pushSha: eba7544a0d9e34cda45155c634e494a941095844
+- tip: eba7544
+- remoteVerified: true
