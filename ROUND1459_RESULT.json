@@ -1,0 +1,114 @@
+{
+  "round": 1459,
+  "mode": "x-radar",
+  "completedAt": "2026-11-08 15:00 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "le2h",
+  "alertMessage": "2小时内可操作：@UndeadNFTs 已开启 MINT（BNB 5555 像素骷髅，首铸免费，后续 0.35 USDT 或 0.0005 BNB，每钱包最多 10，需 Agent ID）。面板：https://reboot7454.github.io/early-scout/",
+  "newThisRound": [],
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "mendlingsnft",
+    "halyte",
+    "undeadnfts"
+  ],
+  "clearedPrevNTR": [
+    "mendlingsnft",
+    "halyte",
+    "undeadnfts"
+  ],
+  "skipped": [
+    {
+      "id": "bubbles-miyokumi",
+      "handle": "@BubblesMiyokumi",
+      "reason": "2026-10-01建号466粉640帖，手绘PFP Genesis写December 2026；今日多次刷同一条500免费特别版营销文案，无链/CA/精确钟点，DS判纯营销刷屏且窗口过长 skip"
+    },
+    {
+      "id": "giggle-club",
+      "handle": "@giggleclub_",
+      "reason": "2026-08-12建号438粉21帖，Ethereum 4444 monster faces，自称moving to Elysium无testnet/具体部署；今日为多家成熟NFT持有者加WL且快照已完成，无mint钟点，DS判窗口不足 skip"
+    },
+    {
+      "note": "KW already-in: axiom-arb, tideboundrh, undeadnfts, binzonft, feedthefirerh, real-hood-people, ammora, deuslaunch, unseen-ordo, btc-crc30, ptah-trade, elylightq, set-it, coverstarlink, kismo-seekers, shadesofely, volta-family, montra"
+    }
+  ],
+  "xReads": 8,
+  "remainingBefore": 873,
+  "remaining": 865,
+  "mode_budget": "ample",
+  "softCap": 28,
+  "ufCursor": 648,
+  "ufCursorBefore": 616,
+  "xQuota": {
+    "remainingBefore": 873,
+    "remaining": 865,
+    "xReads": 8,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 648,
+    "ufCursorBefore": 616,
+    "checkedAt": "2026-11-08 15:00 CST",
+    "note": "API-call xReads=8 (UF2 + must/LIVE1 incl xypher once + 5 search_posts_all); footer 873→865; daily pacing ample; UF616→648"
+  },
+  "tenLanes": "UF616→648 + must/LIVE18 (1 batched, xypher once) + 5KW (打新/台子 + 挖矿 + LZ/Elysium + Tape/GIWA + DogeEVM/BTC/Stark/GO)",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": "2026-11-08 14:43",
+    "lastChecked": "2026-11-08 14:46 CST",
+    "lastSeenByChannel": {
+      "alpha-1": "2026-11-08 14:42",
+      "alpha-1-backup": "2026-11-08 14:35",
+      "smart-accounts-tracker": "2026-11-08 13:50",
+      "alpha-3-new-accounts": "2026-11-08 14:43"
+    },
+    "note": "R1459 executor 无浏览器；沿用 R1458 peek lastSeen，不回滚、不催登录"
+  },
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking-on; custom admit; skip bubbles-miyokumi + giggle-club; no new admits; alert for undeadnfts MINT LIVE ≤2h",
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "watchBugs": [
+    "R1458 Discord: mendlingsnft/@MendlingsNFT halyte/@halyte_rh undeadnfts/@UndeadNFTs → userFollowWatch"
+  ],
+  "ufNF": {
+    "priorSkip": [
+      "letswinhood",
+      "agentharvest_ai",
+      "seatworkcells",
+      "frogsagent",
+      "Honestcoin60",
+      "DropMinters",
+      "onbeatfun"
+    ],
+    "newNF": []
+  },
+  "le2h": [
+    {
+      "id": "undeadnfts",
+      "what": "官推宣布 MINT LIVE：BNB 5555 像素骷髅，首铸免费",
+      "time": "2026-11-08 14:32 CST"
+    }
+  ],
+  "xypher": {
+    "stillLive": true,
+    "le2h": false,
+    "window": "2026-11-08 12:53 CST start, ≤2h ended ~14:53 CST",
+    "ca": "0xb81307b5c9d4d10cb0dc6bcb6c9a222366906e51",
+    "note": "14:33 CST still posting mining explainer; withdrawals not open; first halving ~7d"
+  },
+  "push": {
+    "attempted": false,
+    "ok": false,
+    "sha": null
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1459：无新收录；清 R1458 三卡 NTR；UF616→648；undeadnfts 14:32 CST MINT LIVE 仍≤2h；xypher 仍 LIVE 但已过 ≤2h 窗口；discordPeekDeferred（沿用 R1458 lastSeen）",
+  "pushSha": null,
+  "tip": null,
+  "remoteVerified": false
+}
