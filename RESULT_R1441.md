@@ -10,9 +10,9 @@
 - watches: elyseapro marketplace 官网 elysea.pro 仍开但 Preview · sample data；Waves 官宣帖已删（原 2119217642514817277 404，时间线 0 帖，检索无残留）；上次确认 103/1000 @ 07:57 CST，≤2h 至约 09:44 CST，维持 le2h=true（不升 Elysium 栏）；primate MINT LIVE（已过≤2h窗仍开）；hopkin 3200/10000 LIVE；elys-tape Foundry LIVE；oil $OILHOOD LIVE；elysium-meme $CNINE LIVE；bitrush LIVE；erupt Nov9 FREE；elympus Genesis 0.055HYPE Day1 TBA；broisafreak GTD 11/9 01:00CST；ascend Nov9 day-one；pocketpad SOLD OUT（未再读）；eloscape 仍 gated；HashDoge/Genius/Corla/Flap STOPPED
 - UF NF/suspended: rinseddotfun / hollytallycheck / divade_xyz NF；HaloPad_Pro suspended；本片已知 NF 未打 LiquidityStonk / Agent__arena / playholeshot
 - softDebt: canton/glaze/tokenWorks (+tape/blonskr/starknet/btc/elysium) lastChecked brushed
-- docsSynced: pending
+- docsSynced: true
 - dsFallback: false；deepseek-flash thinking-on 一次 score 完整（admit agentic-miner，skip Astrovere/AXIOM spam）；文案首次因思考截断，提高 max_tokens 后第二次完整。overall 按公式重算 71（93*0.35+72*0.25+78*0.2+(100-74)*0.2）
 - alert: 新收Agentic Miner；Elyseapro Waves上次103/1000，官推已删帖，官网Preview，≤2h至约09:44CST。https://reboot7454.github.io/early-scout/
 
-- pushSha: pending
-- tip: pending
+- pushSha: 6386d31908fb5350280400eca27805b1403d4650
+- tip: 6386d31908fb5350280400eca27805b1403d4650
