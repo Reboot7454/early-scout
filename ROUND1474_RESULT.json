@@ -1,0 +1,238 @@
+{
+  "round": 1474,
+  "mode": "x-radar",
+  "completedAt": "2026-11-08 20:53 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "新收录 NUMBI（22:00 CST 开铸）；gloop 20:31 CST 公布 $GLOOP CA 并在 Flap 开盘。",
+  "alertMessage": "【R1474】NUMBI 22:00 CST 开铸；$GLOOP 已上 Flap，CA 0x9a8d252759165bcc4efcdd740a471b0eb46a7777。面板：https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "numbi"
+  ],
+  "newAdmits": [
+    {
+      "id": "numbi",
+      "handle": "@numbiagent",
+      "name": "NUMBI",
+      "category": "打新",
+      "chain": "BNB Chain",
+      "reason": "有独立官推与独立官网互证合约、开铸时间及免费首铸规则，并有独立 mint 窗口，满足 admit；但账号极新、粉丝极少且站点为 vercel.app，按高风险跟踪。"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "numbi"
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "agent-dungeon",
+    "aid-agentic-miner",
+    "beast16",
+    "zorrie",
+    "zyora"
+  ],
+  "clearedPrevNTR": [
+    "agent-dungeon",
+    "aid-agentic-miner",
+    "beast16",
+    "zorrie",
+    "zyora"
+  ],
+  "skipped": [
+    {
+      "id": "lingji-bots",
+      "handle": "@LingjiBots",
+      "reason": "别名账号，库内 lingji-knights 已记为 altX/lingji，本窗无新帖，不新建卡"
+    },
+    {
+      "id": "pawgeng",
+      "handle": null,
+      "reason": "维持 skip"
+    },
+    {
+      "id": "cashmerelabs",
+      "handle": "@CashmereLabs",
+      "reason": "维持 skip"
+    },
+    {
+      "id": "ipxexchange",
+      "handle": "@IPXExchange",
+      "reason": "维持 skip"
+    },
+    {
+      "id": "mintfable",
+      "handle": "@mintfable",
+      "reason": "维持 skip"
+    },
+    {
+      "id": "sible",
+      "handle": null,
+      "reason": "维持 skip（本窗仅见社区推广，无新官推/独立 mint 证据）"
+    },
+    {
+      "id": "zyelybot",
+      "handle": "@zyelybot",
+      "reason": "维持 skip"
+    },
+    {
+      "id": "swarmpad-near",
+      "handle": "@swarmpad_near",
+      "reason": "维持 skip"
+    },
+    {
+      "id": "geckoplenger",
+      "handle": null,
+      "reason": "维持 skip"
+    },
+    {
+      "id": "timiio",
+      "handle": null,
+      "reason": "维持 skip"
+    },
+    {
+      "id": "vaar-barbarians",
+      "handle": null,
+      "reason": "维持 skip"
+    },
+    {
+      "id": "law-of-the-abyss",
+      "handle": null,
+      "reason": "维持 skip"
+    },
+    {
+      "id": "war3",
+      "handle": null,
+      "reason": "维持 skip"
+    },
+    {
+      "id": "midas-lab",
+      "handle": "@Midas_Lab",
+      "reason": "维持 skip"
+    },
+    {
+      "id": "squeek-markets",
+      "handle": "@mecalor0x",
+      "reason": "维持 skip"
+    },
+    {
+      "id": "beepz",
+      "handle": "@beepzfun",
+      "reason": "维持 skip（库内已有，非新 mint）"
+    },
+    {
+      "id": "robinsquad-nft",
+      "handle": "@RobinSquadNFT",
+      "reason": "维持 skip"
+    }
+  ],
+  "inLibKwHits": [
+    "beast16",
+    "jager",
+    "polyrob",
+    "tideboundrh",
+    "agent-pioneer",
+    "binzonft",
+    "ammora",
+    "deuslaunch",
+    "joayo-fun",
+    "shielded-wizards",
+    "elys-worlds",
+    "blurb",
+    "charon",
+    "volta-family",
+    "elywizardz",
+    "gloop-slime",
+    "ascendlaunch"
+  ],
+  "xReads": 9,
+  "remainingBefore": 783,
+  "remaining": 774,
+  "mode_budget": "ample",
+  "softCap": 35,
+  "ufCursor": 904,
+  "ufCursorBefore": 872,
+  "xQuota": {
+    "remainingBefore": 783,
+    "remaining": 774,
+    "xReads": 9,
+    "mode": "ample",
+    "softCap": 35,
+    "ufCursor": 904,
+    "ufCursorBefore": 872,
+    "checkedAt": "2026-11-08 20:53 CST",
+    "eveningReserve": 0,
+    "note": "API-call xReads=9 (UF1 + UF pagination1 + must/LIVE1 + 5 search_posts_all + 1 verify LingjiBots); first footer 782 after UF => remainingBefore 783; last footer 774; daily pacing ample; eveningReserve=0; UF872→904"
+  },
+  "tenLanes": "UF872→904 (32 queried, 无 prior NF skip; 无新 NF/suspended; LingjiBots exists but alias of lingji-knights; ArenaElysium reply flood => 1 pagination) + must/LIVE26 (1 batched, AmberPoW_BSC already in UF so not double-read) + 5KW (打新/台子 + 挖矿 + LZ/Elysium + Tape/GIWA + DogeEVM/BTC/Stark/GO) + 1 verify LingjiBots user lookup",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": {
+      "alpha-1": "2026-11-08 19:12 CST",
+      "backup": "2026-11-08 17:34 CST",
+      "smart": "2026-11-08 17:01 CST",
+      "alpha-3": "2026-11-08 19:14 CST"
+    },
+    "lastChecked": "2026-11-08 19:21 CST",
+    "cardsAfterCutoff": 34,
+    "note": "本 executor 无浏览器；沿用 R1471 lastSeen，不回滚、不编造更新"
+  },
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking-on 第一次 JSON 在 watchCopy.shadesofely 处截断；第二次补齐 watchCopy 剩余项与 alert/summary 成功；admit 1（numbi），skip lingji-bots 别名；评分与文案均采用主裁决",
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "ufNF": {
+    "priorSkipNoRequery": [],
+    "newNotFound": [],
+    "newSuspended": [],
+    "silentInWindowNotNF": [
+      "narupay_com",
+      "Panba_EmojiPack",
+      "HOAHeartChain",
+      "cashcat_Agent",
+      "agentzetNFT",
+      "AmberPoW_BSC",
+      "DigitalBombAI",
+      "forge_bnb",
+      "elys_inscribe",
+      "ElyChestFun",
+      "glasstrades_xyz",
+      "Merkle_Wood",
+      "LingjiBots",
+      "bbfbnb_",
+      "elywatch",
+      "ditherglyphs",
+      "mirroragent",
+      "BelosElysium",
+      "agentic_pad",
+      "TheUnwrittenBNB",
+      "arcpump_",
+      "JoseonFun",
+      "Elywizardz"
+    ]
+  },
+  "le2h": [
+    "gloop-slime",
+    "beast16",
+    "numbi"
+  ],
+  "gloop": "官推 20:31 CST $GLOOP IS LIVE（https://x.com/GloopSlimeHQ/status/2119407457764331574），Fair launch on Flap，无预售/团队配额，CA 0x9a8d252759165bcc4efcdd740a471b0eb46a7777，购买 https://flap.sh/bnb/0x9a8d252759165bcc4efcdd740a471b0eb46a7777；原文强调 mint NFT 不含 token。NFT 免费 mint 自 20:03 CST 仍 LIVE、未宣布售罄；NFT 0x183CBb52B3C7BCB2433d50dE0Add99B59f4DE4fE 市场 0x923e0125eBbc846a9EBe50640628664846D67854；新公布 token CA 为实质变化，le2h=true",
+  "shadesofely": "本窗无新官帖；early list 截止约 20:43 CST 时刻已到/刚过，官方未发关榜或下一步帖，不得写成已关闭；mainnet 仍 2026-11-09；le2h=false，无实质官宣变化不单独通知",
+  "elysium-gloom": "本窗无新官帖；collab 截止仍约 11/9 00:50 CST（约 4h）；$GLOOM Nov 9；非≤2h",
+  "oddlode": "本窗无新官帖；R1 仍 LIVE 未宣布售罄；le2h=false",
+  "undeadnfts": "无新官帖，仍 14:32 CST MINT LIVE，无售罄；≤2h 已于约 16:32 结束",
+  "xypher": "无新开窗官帖，CPU 挖矿仍 LIVE；≤2h 已于约 14:53 结束",
+  "beast16": "20:16 CST 市场已开（beast16.fun/market，2.5% escrow）；20:45 CST 官报 124 claimed；mint 仍 LIVE，le2h=true 约至 22:00 CST；上轮已通知 mint LIVE，不单独作为通知主因",
+  "numbi": "新收录 @numbiagent / numbiagent.vercel.app；10,000 pixel numbats，Agent ID 首铸免费（免费池前 3000），2-10 次各 0.001 BNB，每次附 10,000 $NUMBI；开铸 2026-11-08 22:00 CST；合约 0xeEdd6F512Fec64AD5A4aa64722ef6C5689937B50；账号当天新建、2 粉；le2h=true",
+  "themutantclub": "本窗无新官帖；仍 11/10 01:00 CST 免费 mint",
+  "watchBugsFixed": "新收 numbi 同时写入 userFollowWatch 与 agentPadWatch；LingjiBots 写入 userFollowWatch.handleAliases → lingji-knights",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1474（2026-11-08 20:50 CST）只收 NUMBI/@numbiagent，22:00 CST 开铸；gloop 公布 CA 并 Flap 开盘；lingji-bots 为 lingji-knights 别名，跳过。",
+  "pushSha": "PENDING",
+  "tip": "PENDING",
+  "remoteVerified": false,
+  "push": {
+    "sha": "PENDING",
+    "remoteVerified": false
+  }
+}
