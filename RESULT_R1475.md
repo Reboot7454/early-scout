@@ -15,6 +15,6 @@
 - dsFallback: false；deepseek-flash thinking-on 第一次 JSON 在 cards.toast-bnb.highlights 处截断，第二次补齐 cards/watchCopy/alert/summary；主裁决 admit 1（toast-bnb），skip kerberos/lacuna/elyroute/kpi
 - remoteNote: git pull 时已在 R1474 tip 182d918 / 75ca496；本轮按 R1475 跑完整 X-radar
 
-- pushSha: PENDING
-- tip: PENDING
-- remoteVerified: pending
+- pushSha: 32a19e5f604c88d2b26a1396176ca824b561ef69
+- tip: 32a19e5
+- remoteVerified: true
