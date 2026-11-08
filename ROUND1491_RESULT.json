@@ -1,0 +1,125 @@
+{
+  "round": 1491,
+  "mode": "ample",
+  "completedAt": "2026-11-09 07:46 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "无新收录；Skitters ≈08:07 CST WL免费铸已进入最后约20分钟（≤2h）。",
+  "alertMessage": "R1491无新收录；@SkittersNFTs WL 免费铸即将开启（约 08:07 CST，现最后约20分钟），详情见面板：https://reboot7454.github.io/early-scout/",
+  "newThisRound": [],
+  "newAdmits": [],
+  "newCount": 0,
+  "clearedPrevNTR": [
+    "anipals"
+  ],
+  "clearedPrevNewThisRound": true,
+  "skipped": [
+    {
+      "handle": "@hoodrockers",
+      "reason": "Bio 为 Hood Rockers，与所推 Crypto Gangsters 名实不符；R1490 同因再 skip"
+    },
+    {
+      "handle": "@CashmereLabs",
+      "reason": "Founding Barns mint 仅第三方 Goobsens 传闻，本轮无官方确认"
+    },
+    {
+      "handle": "@UGLYDUCKLABZ",
+      "reason": "存量项目 0.053 ETH 付费 mint，非极早期窗口"
+    },
+    {
+      "handle": "@YessahBlessahCC",
+      "reason": "Canton 社区 meme，非极早期打新/挖矿窗口"
+    }
+  ],
+  "le2h": [
+    {
+      "id": "skitters",
+      "at": "2026-11-09 08:07 CST",
+      "note": "WL freemint 3333 on Elysium/OpenSea；已进入最后约 20 分钟"
+    }
+  ],
+  "le2hStatus": {
+    "skitters": "【R1491】约 08:07 CST 开窗，仍 ≤2h，本轮无新官帖。",
+    "the-long-necks": "【R1491】348/400 剩 52，仍 LIVE，≤2h 窗已过。",
+    "broisafreak": "【R1491】2h 窗已过，forcePanel 保留。",
+    "bonkagent": "【R1491】15:00 CST 开铸，非≤2h。",
+    "elytypes": "【R1491】11/10 01:00 CST，非≤2h。",
+    "pairmine": "【R1491】链上仍 revert，非≤2h。",
+    "halofun": "【R1491】官帖回到 11/9，无钟点，非≤2h。",
+    "batterydotfun": "【R1491】自称 live on Elysium 并给 CA，未核验，非≤2h。",
+    "gloop-slime": "【R1491】3333/3333 售罄。",
+    "anipals": "【R1491】上轮新收录已清除 newThisRound，devnet，非≤2h。"
+  },
+  "onchainChecks": {
+    "the-long-necks": {
+      "totalSupply": 348,
+      "maxSupply": 400,
+      "remaining": 52,
+      "chain": "Base",
+      "contract": "0x3ab4978702f1208106c46f0faa417829f304a4d7",
+      "source": "1rpc.io/base"
+    },
+    "gloop-slime": {
+      "totalMinted": 3333,
+      "mintOpen": 1,
+      "soldOut": true
+    },
+    "pandu-agent": {
+      "totalSupply": 186,
+      "totalMinted": 186
+    },
+    "chipmunks-bnb": {
+      "totalSupply": 1068,
+      "totalMinted": 1068
+    },
+    "fortune-paws": {
+      "totalMinted": 367
+    },
+    "numbi": {
+      "totalSupply": 122,
+      "totalMinted": 122
+    },
+    "beast16": {
+      "totalMinted": 231
+    },
+    "toast-bnb": {
+      "cardsSold": 166,
+      "freeGiven": 166,
+      "freeCardsRemaining": 4834
+    },
+    "bonk-mint": {
+      "totalMinted": 0
+    },
+    "bonk-token": {
+      "totalSupply": 0
+    },
+    "pairmine": {
+      "onchainMintProgress": null
+    },
+    "bianbian-bnbn": {
+      "onchainMintProgress": null,
+      "note": "custom totalMinted/totalSupply revert"
+    }
+  },
+  "xReads": 8,
+  "remainingBefore": 602,
+  "remaining": 594,
+  "softCap": 40,
+  "ufCursor": 294,
+  "ufCursorBefore": 258,
+  "xQuota": {
+    "remainingBefore": 602,
+    "remaining": 594,
+    "xReads": 8,
+    "mode": "ample",
+    "softCap": 40
+  },
+  "tenLanes": "UF 258→294（36 号无 NF_skip，from: 批量 1 次）+ must/≤2h 1 次（thelongneck_/BROISAFREAK/Bonkagent_/halofunxyz/SkittersNFTs/Elytypess/PairMineAI/Enter_Elysium/squeekchain/tapeai/bitcointapes/ascendlaunch）+ 3 search_posts_all（①打新/AgentID/free mint/AIDROP/X Layer；②挖矿/PoW/squeek/GO/LayerZero/OFT；③Elysium/Tape/GIWA/DogeEVM/BTC/Starknet）+ 1 饿栏 GIWA/DogeEVM/Starknet/BTC/LayerZero + 1 soft-debt Canton/Glaze/TokenWorks + 1 去 Elytypes 噪声 cleaner mint。九栏+BTC/Starknet 均跑；无新收录；GIWA 多为 Ammora/pabalx/Jumak 及无关同名噪声；DogeEVM/Tape/BTC/LayerZero/Starknet 本窗无可收新号；Canton/Glaze/TokenWorks lastChecked 已刷。",
+  "discordPeekDeferred": true,
+  "dsNote": "DeepSeek deepseek-flash(thinking) admit/skip/alert/copy；无新 admit；skip crypto-gangsters/cashmere-barns/uglyducklabz。本地覆盖：the-long-necks 保持 live（非 ended）、broisafreak 保持 live+forcePanel、skitters 保持 le2h、分数未改、anipals 清除 newThisRound。",
+  "dsFallback": false,
+  "docsSynced": true,
+  "forcePanelIds": "保留 broisafreak（Public 概念上仍 LIVE；≤2h 已过）",
+  "pushSha": null,
+  "tipSha": null
+}

@@ -1,0 +1,22 @@
+# R1491 早期打新雷达 RESULT（2026-11-09 07:46 CST）
+
+- round: R1491
+- newThisRound: （无）
+- clearedPrevNTR: anipals
+- ≤2h: skitters（约 08:07 CST WL 免费铸 3333，Elysium via OpenSea；本轮无新官帖，依 03:07 CST「5 HOURS TO GO」；现已进入最后约 20 分钟）
+- the-long-necks: 链上 348/400 剩 52，概念上仍 LIVE；原 ≤2h 窗约 06:30 CST 已过，le2h=false（1rpc.io/base；publicnode/mainnet.base.org 本轮 403）
+- broisafreak: Public 概念上仍 LIVE，2h 窗已于约 04:47 CST 结束，le2h=false，forcePanelIds 保留；本轮仅叙事/回复，无新进度数字
+- BONK Agent: 官推确认 mint 页倒计时指向今日 15:00 CST、前 1000 免费（每 Agent ID/钱包 1 张），其后付费最高 10 张/钱包、从 0.003 BNB 起；链上 totalMinted=0
+- 链上: Gloop 3333/3333 售罄、Pandu 186/2222、Chipmunks 1068、Fortune 367/3333、NUMBI 122、Beast16 231/4444、TOAST cardsSold=166 免费剩 4834、LongNecks 348/400
+- pairmine: 本窗无官帖；链上 mint 进度仍 revert
+- halofun: 本轮官帖再写 Launching 9 November，口径回到 11/9；无精确钟点/CA
+- batterydotfun: 官推称 live on @Enter_Elysium 并给出 $BATT CA 0xdaec953727ccd0d6753337ad6559f1dc2426bdc7，未独立核验，不升栏
+- notify: true
+- alertMessage: R1491无新收录；@SkittersNFTs WL 免费铸即将开启（约 08:07 CST，现最后约20分钟），详情见面板：https://reboot7454.github.io/early-scout/
+- xReads=8 / remainingBefore=602 / remaining=594 / mode=ample / softCap=40 / ufCursor=258→294
+- tenLanes: UF 258→294（36 号无 NF_skip，from: 批量 1 次）+ must/≤2h 1 次（thelongneck_/BROISAFREAK/Bonkagent_/halofunxyz/SkittersNFTs/Elytypess/PairMineAI/Enter_Elysium/squeekchain/tapeai/bitcointapes/ascendlaunch）+ 3 search_posts_all（①打新/AgentID/free mint/AIDROP/X Layer；②挖矿/PoW/squeek/GO/LayerZero/OFT；③Elysium/Tape/GIWA/DogeEVM/BTC/Starknet）+ 1 饿栏 GIWA/DogeEVM/Starknet/BTC/LayerZero + 1 soft-debt Canton/Glaze/TokenWorks + 1 去 Elytypes 噪声 cleaner mint。九栏+BTC/Starknet 均跑；无新收录；GIWA 多为 Ammora/pabalx/Jumak 及无关同名噪声；DogeEVM/Tape/BTC/LayerZero/Starknet 本窗无可收新号；Canton/Glaze/TokenWorks lastChecked 已刷。
+- discordPeekDeferred: true
+- dsNote: DeepSeek deepseek-flash(thinking) admit/skip/alert/copy；无新 admit；skip crypto-gangsters/cashmere-barns/uglyducklabz。本地覆盖：the-long-necks 保持 live（非 ended）、broisafreak 保持 live+forcePanel、skitters 保持 le2h、分数未改、anipals 清除 newThisRound。
+- docsSynced: true
+- skipped: crypto-gangsters/@hoodrockers（Bio 为 Hood Rockers，与 Crypto Gangsters 名实不符，R1490 同因再 skip）；Cashmere Founding Barns（仅第三方 Goobsens 传闻，无官方确认）；UGLYDUCKLABZ（存量 0.053 ETH 付费 mint，非极早期）；Elytypes 引用 spam；$YESSAH（Canton 社区 meme）
+- HashDoge/Genius/Corla/Flap: STOPPED
