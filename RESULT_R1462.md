@@ -14,6 +14,6 @@
 - dsFallback: false；deepseek-flash thinking-on；自定义 admit 一轮：skip war3 + vaar-barbarians + law-of-the-abyss + pawgeng；无新收录
 - alert: 【R1462】@UndeadNFTs 仍≤2h（约至16:32 CST）：官推仍仅1帖，MINT LIVE 未售罄、无结束新帖；面板：https://reboot7454.github.io/early-scout/
 
-- pushSha: ca2950a61e84c2a5a821a4131d0abbe7f9d435e1
-- tip: ca2950a
-- remoteVerified: pending-push
+- pushSha: 7370ab017d978ea59bd679c169a8cdfb204aed8f
+- tip: 7370ab0
+- remoteVerified: true
