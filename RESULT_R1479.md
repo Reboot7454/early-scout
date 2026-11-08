@@ -23,4 +23,4 @@
 - dsFallback: false
 - dsNote: deepseek-flash thinking-on：admit ponzipad+ascensionely；skip noeyesaturn（信息过薄）/tryspecterxyz（pump.fun meme）/pokemon-cards-shill（无官推）/stonk-chain-shill（无官推）；score+whatsNew+scheduleNotes+alert 完整写出；alert 按 DS 草稿补上关键数字以便转发
 - HashDoge/Genius/Corla/Flap: STOPPED
-- pushSha: (pending)
+- pushSha: 8eb220b
