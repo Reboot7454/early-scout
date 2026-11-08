@@ -15,6 +15,6 @@
 - dsFallback: false；deepseek-flash thinking-on 第一次 JSON 在 watchCopy 处截断，第二次要求纯 JSON 成功补齐文案与 alert；裁决 admit oddlode，skip midas-lab/squeek-markets/war3/beepz
 - remoteNote: git pull 时仍停在 R1471（3a9e5b7）；本轮按 R1472 跑完整 X-radar，不以 R1469–R1471 Discord 补漏轮充当已跑过 X
 
-- pushSha: (fill after push)
-- tip: (fill after push)
-- remoteVerified: false
+- pushSha: 1cac7a2b2a14b0be3eb0658cf655827a0d62c195
+- tip: 1cac7a2
+- remoteVerified: true
