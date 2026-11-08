@@ -14,4 +14,4 @@
 - dsNote: DeepSeek deepseek-flash(thinking) 第1次即返回完整 JSON；admit mothership-pf，skip Elyshieldxyz/Le0_Coin/TronCat_Elysium。本地将 category 从「打新」改为「台子/Meme」（产品是 launchpad）；分数由 0-10 换算为百分制（early 92 / actionable 72 / credibility 40 / overall 70）；alertMessage 本地补完整 CA 与 Gloop/Pandu/BONK/broisafreak 窗。dsFallback=false
 - docsSynced: true
 - skipped: Elyshieldxyz（官网 522、无 CA/钟点，仅一句 launch tomorrow，Elysium 部署未核验）；Le0_Coin（1粉泛 CPU 矿币、信息不足）；TronCat_Elysium（已有 CA 的自称 Elysium meme，无新 mint 窗）
-- pushSha: (pending)
+- pushSha: fa86b53
