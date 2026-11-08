@@ -1,0 +1,130 @@
+{
+  "round": 1482,
+  "mode": "ample",
+  "completedAt": "2026-11-09 01:22 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "有新收录 PanduAGENT，且 ordo-files、broisafreak 处于≤2h窗口。",
+  "alertMessage": "R1482新收录 PanduAGENT：BNB链已开 mint，链上95/2222，Agent ID首铸免费+付费档；≤2h关注 ordo-files（至约01:50）与 broisafreak（GTD时点已到/Public 02:00）；Gloop 2796/3333、NUMBI 102、Chipmunks 1042/6666。https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "pandu-agent"
+  ],
+  "newAdmits": [
+    {
+      "id": "pandu-agent",
+      "name": "PanduAGENT",
+      "handle": "@PanduAGENT",
+      "category": "打新",
+      "note": "新收录：PanduAGENT（@PanduAGENT），BNB Chain 已开 mint，链上 95/2222，Agent ID 首铸免费，付费档开放；非≤2h。"
+    }
+  ],
+  "newCount": 1,
+  "clearedPrevNTR": [
+    "daymon-elysium"
+  ],
+  "clearedPrevNewThisRound": true,
+  "skipped": [
+    {
+      "handle": "Pressure NFT（@Annak0ox）",
+      "reason": "仅 @Annak0ox KOL 提及，无官推账号与可核验合约，信息不足，skip。"
+    },
+    {
+      "handle": "@ElysiumPenguin",
+      "reason": "仅 @SmartAzuki 第三方声称，本轮无官推与链上证据，skip。"
+    },
+    {
+      "handle": "@BlockandOre",
+      "reason": "仅称 Free mint on Elysium coming soon，无 CA、无精确时间、无明确部署证据；Elysium 规则不满足，skip。"
+    }
+  ],
+  "le2h": [
+    "ordo-files",
+    "broisafreak"
+  ],
+  "le2hStatus": {
+    "ordo-files": "【R1482】23:50 官推称 mint live；本窗无新机制帖。窗至约01:50仍≤2h；上轮机制 Canary可退/Swan1.5x，7天<5555全退；无CA。",
+    "broisafreak": "【R1482】GTD 01:00 时点已到、Public 02:00 未到；本窗官推仅互动回复，无“GTD live”公告。仍≤2h。",
+    "fortune-paws": "【R1482】链上 totalMinted=364/3333（上轮362），付费 0.0005 BNB 仍 LIVE；开窗约22:35–23:00 起算的≤2h 已于约01:00结束。",
+    "elysium-gloom": "【R1482】collab 截止约00:50已过，无新官帖，非≤2h。",
+    "agent-pulse": "【R1482】23:20 CST 开售，2h窗至约01:20，定稿已到点且无新官帖延期，非≤2h。",
+    "chipmunks-bnb": "【R1482】链上 totalSupply 仍1042/6666，未满3333前每钱包前3免费；长 LIVE 续，非≤2h。",
+    "numbi": "【R1482】链上 totalSupply 86→102；00:42 CST 官推仍写免费池97/3000（链上已超）。22:00–24:00窗已过但仍在推 mint。",
+    "toast-bnb": "【R1482】/api/stats cardsSold=165、免费剩4835，与上轮持平，仍 LIVE，非≤2h。",
+    "gloop-slime": "【R1482】链上 NFT totalMinted 2501→2796/3333；免费 mint 仍 LIVE，非≤2h。",
+    "beast16": "【R1482】链上 totalMinted 203→215，非≤2h。",
+    "daymon-elysium": "【R1482】本窗无新帖，仍为上轮 live 宣布，Token 未 live。",
+    "erupt-fun": "【R1482】00:40 CST 补：部分 collab 钱包仍在汇总，获奖但不合格须 CM 在明天 08:00 UTC 前提名单；mint 仍 11/9 20:00 CST。",
+    "primate-legends": "【R1482】00:15 CST 回复将烧毁所有退款的 Primates 以收紧供给，退款将在烧毁后、下周二前处理。",
+    "pandu-agent": "【R1482】新收录；链上 mintOpen=true、95/2222；开窗精确时刻未知，非≤2h。"
+  },
+  "onchainChecks": {
+    "fortune-paws": {
+      "totalMinted": 364,
+      "ca": "0x152f4704Ed0a0AA1514952a06Cf9F36cB4caf088"
+    },
+    "chipmunks-bnb": {
+      "totalSupply": 1042,
+      "ca": "0xB2625d56A7Fc855Bf7432B5584B390A4b4d9C7fD"
+    },
+    "numbi": {
+      "totalSupply": 102,
+      "ca": "0xeEdd6F512Fec64AD5A4aa64722ef6C5689937B50"
+    },
+    "toast-bnb": {
+      "cardsSoldApprox": 165,
+      "freeRemainingApprox": 4835
+    },
+    "gloop-slime": {
+      "totalMinted": 2796,
+      "ca": "0x183CBb52B3C7BCB2433d50dE0Add99B59f4DE4fE"
+    },
+    "beast16": {
+      "totalMinted": 215,
+      "ca": "0xaCeF3B62B958ED7F49dFc73885609b4d270B9bD0"
+    },
+    "pandu-agent": {
+      "totalMinted": 95,
+      "mintOpen": true,
+      "ca": "0x4AB41152EdB3E2853b19828e51927db36508cd64",
+      "token": "0xeDd0cf58A052Ac073a4F14BE25e5be6a203cB8aE"
+    }
+  },
+  "xReads": 7,
+  "remainingBefore": 701,
+  "remaining": 694,
+  "softCap": 40,
+  "ufCursor": 1160,
+  "ufCursorBefore": 1128,
+  "xQuota": {
+    "remainingBefore": 701,
+    "remaining": 694,
+    "xReads": 7,
+    "mode": "ample",
+    "softCap": 40,
+    "ufCursor": 1160,
+    "ufCursorBefore": 1128,
+    "checkedAt": "2026-11-09 01:22 CST",
+    "eveningReserve": 80,
+    "note": "API-call xReads=7 (UF1 + must/≤2h1 + 5 KW 含 BTC/Starknet 1条无需重试)；首 footer 700 => remainingBefore 701；末 footer 694；reset 2026-11-09 08:00 CST"
+  },
+  "tenLanes": "UF1128→1160（32 号 from: 批量 1 次，全在库无 NF） + must/≤2h 1 次批量（Frtn_Paws/ChipmunksBNB/Elysiumgloom/BROISAFREAK/MintRoboAi/ordo_xlife/numbiagent/TOASTbnb/Elyziumaa/ascensionely/ponzipadapp/GloopSlimeHQ/Jake_beast16/oddlode/Enter_Elysium/squeekchain/flapdotsh/TapeAIAgent/DaymonElysium/launchonelysium/shadesofely/eruptdottfun/PrimateLegends） + 5 search_posts_all（打新/台子/Meme/AgentID/X Layer；挖矿/GO盘/squeek/PoW；LayerZero/Elysium；Tape/GIWA/DogeEVM；BTC/Starknet 有 1 条无需重试）。九栏+BTC/Starknet 均跑；Canton/Glaze/TokenWorks lastChecked 已刷。mentions 本轮未单独拉（并入 must 批量+KW 含 @Enter_Elysium/squeekchain/X Layer）。新收 @PanduAGENT 来自 KW(打新/AgentID)。",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "reason": "executor 无浏览器",
+    "lastSeenByChannel": {
+      "alpha-1": "2026-11-08 19:12",
+      "alpha-1-backup": "2026-11-08 17:34",
+      "smart-accounts-tracker": "2026-11-08 17:01",
+      "alpha-3-new-accounts": "2026-11-08 19:14"
+    }
+  },
+  "dsNote": "DeepSeek deepseek-flash(thinking) 做 admit/score/文案/alertMessage；max_tokens 12000 一次成功。",
+  "dsFallback": false,
+  "docsSynced": true,
+  "watchAdds": [
+    "@PanduAGENT → userFollowWatch"
+  ],
+  "pushSha": "PENDING",
+  "pushOk": false
+}
