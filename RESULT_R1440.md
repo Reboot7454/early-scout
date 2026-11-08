@@ -15,5 +15,5 @@
 - dsFallback: false；deepseek-flash thinking-on 前两次思考外泄/JSON 截断，第三次骨架完整后 HASH 条目截断；三次结论一致 admit 五条、skip AnchorLaunchSOL。分数由 0-10 校正为 0-100 并按公式重算 overall，无改判
 - alert: R1440新收Fields（Elysium发射台11/9开）、Nectar（Elysium meme台）、Instapaid（IG分成发射台已live）、HASH（持仓即算力）、Opacra（隐私PoW今日22:00CST主网）。Elyseapro Waves免费mint仍开103/1000，≤2h至约09:44CST。详情 https://reboot7454.github.io/early-scout/
 
-- pushSha: PENDING
-- tip: PENDING
+- pushSha: 4ac31bccf6d5b98ca24db69bf37ce1f151646f1e
+- tip: 4ac31bccf6d5b98ca24db69bf37ce1f151646f1e
