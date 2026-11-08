@@ -1,0 +1,200 @@
+{
+  "round": 1466,
+  "mode": "x-radar",
+  "completedAt": "2026-11-08 17:13 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": false,
+  "notifyReason": "无新收录且无≤2h开窗",
+  "alertMessage": "",
+  "newThisRound": [],
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "0xaxmsmart",
+    "qubits-sh",
+    "usephlogiston",
+    "replenish",
+    "useripen"
+  ],
+  "clearedPrevNTR": [
+    "0xaxmsmart",
+    "qubits-sh",
+    "usephlogiston",
+    "replenish",
+    "useripen"
+  ],
+  "skipped": [
+    {
+      "id": "robinsquad",
+      "handle": "@RobinSquadNFT",
+      "reason": "官推自帖仅宣布在 @RobinhoodApp 做社区 NFT，无 mint 时间/价格/合约/明确链，账号 2022 年且 1.6 万推文偏成熟，DS skip"
+    },
+    {
+      "id": "catnetwork-ai",
+      "handle": "@CatNetwork_ai",
+      "reason": "Telegram tap-to-earn 挖矿机器人，3粉3推，TON 升级/推荐，DS skip"
+    },
+    {
+      "id": "masked-wallet",
+      "handle": "@masked_wallet",
+      "reason": "BTC 隐私钱包已上线，本窗只发 UI 翻译与校对招募，无 mint/挖矿/发币窗，DS skip"
+    },
+    {
+      "id": "alphadao",
+      "handle": "@Alphadao08",
+      "reason": "与库内 @GrumpGuysNFT 合作自称 Blockchain:Elysium，无测试网/部署/合约/日期，price TBA，不能打 Elysium 栏，DS skip"
+    },
+    {
+      "id": "monaverse-nft",
+      "handle": "@monaverse_nft",
+      "reason": "仅用户回复提及，官推本窗无发声"
+    },
+    {
+      "id": "cashmere-labs",
+      "handle": "@CashmereLabs",
+      "reason": "仅 KOL 提及 Mountain/$CSM，官推本窗无发声"
+    },
+    {
+      "id": "orbit-launch-sol",
+      "handle": null,
+      "reason": "Solana $ORBIT 仅 KOL 提及无官推；库内已有 orbit-launch-rh"
+    },
+    {
+      "id": "zyelybot",
+      "handle": "@zyelybot",
+      "reason": "维持 skip，TG 交易机器人无 CA/无 mint"
+    },
+    {
+      "id": "swarmpad-near",
+      "handle": "@swarmpad_near",
+      "reason": "维持 skip，与库内 swarmpad 同名第三号"
+    },
+    {
+      "id": "geckoplenger",
+      "handle": null,
+      "reason": "维持 skip，未见官推"
+    },
+    {
+      "id": "war3",
+      "handle": null,
+      "reason": "维持 skip，散户称 BNB free mint 仍无官推"
+    },
+    {
+      "id": "pawgeng",
+      "handle": null,
+      "reason": "维持 skip，散户称约 2290/3333 仍无官推"
+    }
+  ],
+  "xReads": 7,
+  "remainingBefore": 834,
+  "remaining": 827,
+  "mode_budget": "ample",
+  "softCap": 28,
+  "ufCursor": 776,
+  "ufCursorBefore": 744,
+  "xQuota": {
+    "remainingBefore": 834,
+    "remaining": 827,
+    "xReads": 7,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 776,
+    "ufCursorBefore": 744,
+    "checkedAt": "2026-11-08 17:13 CST",
+    "note": "API-call xReads=7 (UF1 + must/LIVE1 + 5 search_posts_all); footer 834→827; R1464 余 834 开跑前未被其它助手消耗; daily pacing ample; UF744→776"
+  },
+  "tenLanes": "UF744→776 + must/LIVE20 (1 batched, xypher once; AscendLaunch/fistagent_bnb already in UF) + 5KW (打新/台子 + 挖矿 + LZ/Elysium + Tape/GIWA + DogeEVM/BTC/Stark/GO)",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": "2026-11-08 16:38",
+    "lastChecked": "2026-11-08 16:43 CST",
+    "lastSeenByChannel": {
+      "alpha-1": "2026-11-08 16:29",
+      "alpha-1-backup": "2026-11-08 16:19",
+      "smart-accounts-tracker": "2026-11-08 15:57",
+      "alpha-3-new-accounts": "2026-11-08 16:38"
+    },
+    "note": "R1466 executor 无浏览器；沿用 R1465 peek lastSeen，不回滚、不编造"
+  },
+  "docsSynced": true,
+  "dsFallback": true,
+  "dsNote": "deepseek-flash thinking-on 已裁决全部 skip（RobinSquadNFT/CatNetwork_ai/masked_wallet/Alphadao08 及仅提及项）；两次要求只出 JSON 均被思考链占满截断，按 DS 裁决本地落盘并标记 dsFallback",
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "ufNF": {
+    "priorSkip": [
+      "oblaunchpadAll",
+      "babycz_ai",
+      "mint_WRIT",
+      "BinanceCanFly",
+      "Meteorszmint"
+    ],
+    "newNF": [
+      "bndoge_bn"
+    ],
+    "newSuspended": [
+      "SolumMrkt"
+    ]
+  },
+  "le2h": [],
+  "undeadnfts": {
+    "stillLive": true,
+    "le2h": false,
+    "window": "2026-11-08 14:32 CST start, ≤2h ended ~16:32 CST",
+    "note": "官推仍仅 14:32 CST MINT LIVE 一帖，无售罄/结束新帖；已过 ≤2h 窗口，不因长 LIVE 再通知"
+  },
+  "xypher": {
+    "stillLive": true,
+    "le2h": false,
+    "window": "2026-11-08 12:53 CST start, ≤2h ended ~14:53 CST",
+    "note": "14:33 CST still the latest decoder 1.5× explainer"
+  },
+  "gloop": {
+    "le2h": false,
+    "mintAt": "2026-11-08 20:00 CST",
+    "tokenAt": "2026-11-08 20:30 CST",
+    "eta": "约2h46m",
+    "note": "官推仍是 14:15 CST「6 HOURS TO GO」；尚未进入 ≤2h"
+  },
+  "shadesofely": {
+    "le2h": false,
+    "cutoff": "2026-11-08 20:43 CST",
+    "eta": "约3h29m",
+    "note": "early list 仍约 20:43 CST 截止 / mainnet Nov9"
+  },
+  "themutantclub": {
+    "le2h": false,
+    "mintAt": "2026-11-10 01:00 CST",
+    "note": "官推 17:04 CST 宣布 11/9 17:00 UTC Soneium 免费 mint，GTD 17:00 UTC / WL 18:00 UTC"
+  },
+  "remoteHadPriorRound": {
+    "round": 1465,
+    "mode": "discord-alpha-40",
+    "newIds": [
+      "0xaxmsmart",
+      "qubits-sh",
+      "usephlogiston",
+      "replenish",
+      "useripen"
+    ],
+    "note": "git pull 后远程已有 R1465 Discord 补漏，本轮按 R1466 跑 X-radar"
+  },
+  "watchBugsFixed": [
+    "@0xaxmsmart",
+    "@qubitssh",
+    "@usephlogiston_",
+    "@replenishcash",
+    "@useripen"
+  ],
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1466：远程已有 R1465 DC补漏；无新收录；清 R1465 NTR 五卡；UF744→776；undeadnfts/xypher 仍 LIVE 但已过 ≤2h；gloop 约 2h46m 尚未≤2h；discordPeekDeferred（沿用 R1465 lastSeen）",
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "pushSha": "",
+  "tip": "",
+  "remoteVerified": false
+}
