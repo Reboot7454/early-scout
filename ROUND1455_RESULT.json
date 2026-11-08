@@ -1,0 +1,126 @@
+{
+  "round": 1455,
+  "mode": "x-radar",
+  "completedAt": "2026-11-08 13:39 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "newAdmits+le2h",
+  "alertMessage": "新项目 @XypherOnRH 官推宣布 Robinhood Chain CPU 终端挖矿已 LIVE，CA 已公布，任意 CPU 每分钟一轮均分，速看：https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "xypher"
+  ],
+  "newAdmits": [
+    {
+      "id": "xypher",
+      "name": "XYPHER",
+      "lane": "挖矿",
+      "why": "账号今日 11:48 CST 创建、14 粉；12:53 CST 官推宣布 Robinhood Chain CPU 终端挖矿 LIVE，CA 0xb81307b5c9d4d10cb0dc6bcb6c9a222366906e51，任意 CPU、每分钟一轮均分。",
+      "twitter": "@XypherOnRH",
+      "website": null,
+      "ca": "0xb81307b5c9d4d10cb0dc6bcb6c9a222366906e51",
+      "time": "约 2026-11-08 12:53 CST LIVE（本轮仍≤2h）",
+      "source": "https://x.com/XypherOnRH/status/2119292316087431418",
+      "scores": {
+        "early": 95,
+        "actionable": 85,
+        "novelty": 68,
+        "risk": 62,
+        "overall": 76
+      },
+      "elysiumDemote": false
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "xypher"
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "fletch-agent"
+  ],
+  "clearedPrevNTR": [
+    "fletch-agent"
+  ],
+  "skipped": [
+    {
+      "id": "exepad",
+      "handle": "@useexepad",
+      "reason": "今日11:48 CST建号7粉仅发一条文章链接，无CA无开窗无产品入口，DS判空壳概念 skip"
+    },
+    {
+      "id": "p402",
+      "handle": "@p402chain",
+      "reason": "2026-09-06建号668粉/175帖已运营约两月，本轮仅为 new token pairings 预告无时间表，不够极早期 skip"
+    },
+    {
+      "note": "KW already-in: wormpad, btc-crc30, tapeveil, elympus, erupt-fun, kpadfun, deuslaunch, ammora, unseen-ordo, blurb, cathereum, elybirds, memefund, the-agent-firm, volta-family"
+    }
+  ],
+  "xReads": 8,
+  "remainingBefore": 903,
+  "remaining": 895,
+  "mode_budget": "ample",
+  "softCap": 28,
+  "ufCursor": 584,
+  "ufCursorBefore": 552,
+  "xQuota": {
+    "remainingBefore": 903,
+    "remaining": 895,
+    "xReads": 8,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 584,
+    "ufCursorBefore": 552,
+    "checkedAt": "2026-11-08 13:39 CST",
+    "note": "API-call xReads=8 (UF2 + must/LIVE1 + 5 search_posts_all); footer 903→895; daily pacing ample not post-reset-full; UF552→584"
+  },
+  "tenLanes": "UF552→584 + must/LIVE16 + 5KW (打新/台子 + 挖矿 + LZ/Elysium + Tape/GIWA + DogeEVM/BTC/Stark/GO)",
+  "discordPeekDeferred": true,
+  "discordAlphaPeek": {
+    "deferred": true,
+    "lastSeen": "2026-11-08 13:19",
+    "lastSeenByChannel": {
+      "alpha-1": "2026-11-08 13:14",
+      "alpha-1-backup": "2026-11-08 13:19",
+      "smart-accounts-tracker": "2026-11-08 13:12",
+      "alpha-3-new-accounts": "2026-11-08 13:19"
+    },
+    "note": "R1455 executor 无浏览器；沿用 R1454 lastSeen，不催 Discord 登录"
+  },
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking-on; custom admit + ds_batch_score alert; admit xypher overall 76 (75.7→76); skip exepad + p402",
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "watchBugs": [
+    "fletch-agent @FletchAgent → UF+agentPadWatch",
+    "xypher @XypherOnRH → UF+miningWatch"
+  ],
+  "ufNF": {
+    "priorSkip": [
+      "stockcatsfun",
+      "whackyrh",
+      "bibiainft",
+      "Trysmolpadfun"
+    ],
+    "newNF": [
+      "Volitionxyz",
+      "tollsfun"
+    ]
+  },
+  "le2h": [
+    {
+      "id": "xypher",
+      "what": "CPU 终端挖矿 LIVE",
+      "time": "2026-11-08 12:53 CST"
+    }
+  ],
+  "push": {
+    "attempted": true,
+    "ok": null,
+    "sha": null
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1455：admit xypher；清 fletch-agent；UF552→584；must-watch 刷新 torpor 申请已关 / elympus WL checker；discordPeekDeferred",
+  "pushSha": null,
+  "tip": null
+}
