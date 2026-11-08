@@ -1,0 +1,143 @@
+{
+  "round": 1443,
+  "mode": "x-radar",
+  "completedAt": "2026-11-08 10:11 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "newAdmits",
+  "alertMessage": "本轮新收Blend（Solana发射台官网已LIVE）与Set It（多链发射概念、无官网），详见 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "blend-launch",
+    "set-it"
+  ],
+  "newAdmits": [
+    {
+      "id": "blend-launch",
+      "name": "Blend",
+      "lane": "台子/Meme",
+      "why": "官推2026-11-02新建、56粉；官网blendlaunch.xyz已LIVE并见多币交易，自称400+配对与Jito反MEV",
+      "twitter": "@blenddotxyz",
+      "website": "https://blendlaunch.xyz",
+      "ca": null,
+      "time": "官网已LIVE（非≤2h）",
+      "source": "https://x.com/blenddotxyz/status/2119211517388464399"
+    },
+    {
+      "id": "set-it",
+      "name": "Set It",
+      "lane": "台子/Meme",
+      "why": "官推2026-10-29新建、73粉仅2帖，自称Solana流动性可迁到ETH/Starknet等多链发射；无官网",
+      "twitter": "@_Set_It_",
+      "website": null,
+      "ca": null,
+      "time": "概念观察，无精确开窗",
+      "source": "https://x.com/_Set_It_/status/2119249105138364837"
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "blend-launch",
+    "set-it"
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "bnb-skunk"
+  ],
+  "clearedPrevNTR": [
+    "bnb-skunk"
+  ],
+  "skipped": [
+    {
+      "id": "hashblokz",
+      "reason": "2粉1帖，主网仍11/9却称$HASH已在Enter_Elysium上线并丢CA，证据自相矛盾，不收、不升Elysium"
+    },
+    {
+      "id": "paw-gang",
+      "reason": "仍仅第三方推销，无独立官推，维持不收"
+    },
+    {
+      "id": "penguin",
+      "reason": "仍仅第三方提及，无独立官推"
+    },
+    {
+      "id": "war3",
+      "reason": "仅第三方推销 war3.xyz，未见独立官推"
+    },
+    {
+      "id": "hokicat",
+      "reason": "仅第三方推销，指向已在库 datt.my，无独立官推"
+    },
+    {
+      "id": "snailslowsol",
+      "reason": "仅第三方提及 @Snailslowsol，CA未公布、测试阶段不涉及真金"
+    },
+    {
+      "note": "KW already-in: nullraid, thalvorix, property-agent, pow-agent-mine, foxfire, cathereum, elysium-genesis, ammora, deuslaunch, arcircle-on-arc, anxiaojiang"
+    },
+    {
+      "note": "pocketpad SOLD OUT 未再探索读"
+    }
+  ],
+  "xReads": 8,
+  "remainingBefore": 955,
+  "remaining": 947,
+  "mode_budget": "ample",
+  "softCap": 28,
+  "ufCursor": 392,
+  "ufCursorBefore": 360,
+  "xQuota": {
+    "remainingBefore": 955,
+    "remaining": 947,
+    "xReads": 8,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 392,
+    "ufCursorBefore": 360,
+    "note": "API-call xReads=8 (UF2 + must/LIVE1 + 5 search_posts_all); footer 955→947; daily pacing ample not post-reset-full; UF360→392 all in-lib NF0"
+  },
+  "tenLanes": true,
+  "tenLanesNote": "UF360→392 + must/LIVE15 + 5 search_posts_all（打新/台子+挖矿+LZ/Elysium+Tape/GIWA+DogeEVM/BTC/Stark/GO）",
+  "tenLanesCoverage": "打新｜挖矿｜台子/Meme｜GO盘｜LayerZero｜Elysium｜Tape｜GIWA｜DogeEVM + BTC/Stark",
+  "discordPeekDeferred": true,
+  "discordPeekReason": "no browser; reuse lastSeen cutoffs from meta",
+  "discordLastSeenByChannel": {
+    "alpha-1": "2026-11-08 07:19",
+    "alpha-1-backup": "2026-11-08 05:19",
+    "smart-accounts-tracker": "2026-11-08 06:53",
+    "alpha-3-new-accounts": "2026-11-08 07:17"
+  },
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking-on；score 一次完整：admit blend-launch+set-it，skip hashblokz。alert 第二次思考外泄，采用其拟定短中文。overall 按公式复核 blend 74、set-it 64。",
+  "watches": {
+    "elyseapro": "链上 wave 0x66d7d598842cf6ec0dd953251eda7ae259e6bfda mintOpen=true、仍104/1000（reserve 100已满）；官推仍删帖/检索0；官网仍 Preview 角标；≤2h已于约09:44 CST过期，本轮清le2h=false；不升 Elysium 栏",
+    "primate-legends": "MINT LIVE + RYO bonding curve 续；已过≤2h窗仍开",
+    "hopkinagent": "3200/10000 LIVE 0.001 BNB；本轮无新进度帖",
+    "elys-tape": "Foundry LIVE 续",
+    "oil-hood": "$OILHOOD LIVE on Pons 续",
+    "elysium-meme": "$CNINE LIVE 续",
+    "bitrush-btcb": "LIVE 续；机制教程帖",
+    "gloop-slime": "官网 20:00 CST 开铸 0/3333；$GLOOP 20:30 CST；0x923e0125… 为 Market 非 token；非本轮新",
+    "elysium-makers": "官网 elysium.band 仍 early access，无 CA，维持 announced",
+    "erupt-fun": "Nov9 FREE Genesis 4444",
+    "elympus-hq": "Genesis 0.055 HYPE Day1 TBA",
+    "broisafreak": "GTD 11/9 01:00CST / PUBLIC 02:00CST",
+    "ascendlaunch": "Nov9 day-one",
+    "pocketpad": "SOLD OUT（本轮未再探索读）",
+    "eloscape": "仍 gated / No token yet",
+    "stopped": "HashDoge/Genius/Corla/Flap STOPPED"
+  },
+  "ufNotes": "360→392; all 32 already in-lib; NF0 suspended0; added @blenddotxyz + @_Set_It_ to UF; @_Set_It_ also added to starknetWatch",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1443：新收 blend-launch + set-it；elyseapro Waves 仍104/1000但≤2h已过期；UF360→392；discordPeekDeferred；docsSynced",
+  "pushSha": "PENDING",
+  "tip": "PENDING",
+  "push": {
+    "attempted": true,
+    "ok": false,
+    "sha": null,
+    "branch": "main",
+    "remote": "origin"
+  },
+  "HashDogeGeniusCorlaFlap": "STOPPED"
+}
