@@ -16,4 +16,4 @@
 - dsNote: DeepSeek deepseek-flash(thinking) 完整 JSON；admit scion，skip Korinitradefun/Miyokumi/EyslumFondation/hyperdexerapp/pumper_official/YAOQIAN/luckycat.surge.sh。本地将 DS 的 0-10 分改成 0-100（80/30/50/60）、把 scion.le2h 从误标 true 改为 false、status 归为 announced、category/zoneHint 归到「Elysium 生态」、alert 补 handle 与 R1489 前缀。dsFallback=false
 - docsSynced: true
 - skipped: Korinitradefun（今日新建 0 粉，疑似仿已在库 @korinitrade）；BubblesMiyokumi（第三方称 Base Welcome 集 LIVE，官推 bio 写 Genesis mint: December 2026）；EyslumFondation（Foundation 仿写/钓鱼）；hyperdexerapp（RPC 基建非 mint）；pumper_official（已 live 约两月）；YAOQIAN（无独立官推）；luckycat.surge.sh（页面无官推，不新建卡；CA 0xB3AC4612E609fce2B98c2f6602D5EFCeeB61C473 链上 totalSupply=18，与库内 @LuckyCatsBNB 是否同一项目未核实）
-- pushSha: PENDING
+- pushSha: 324a0ed
