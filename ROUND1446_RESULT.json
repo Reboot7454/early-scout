@@ -1,0 +1,153 @@
+{
+  "round": 1446,
+  "mode": "x-radar",
+  "completedAt": "2026-11-08 10:46 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "newAdmits",
+  "alertMessage": "本轮新收Hypecraft（0粉新号，自称浏览器挖$HYPE，无独立官网、外链跳pump.fun，高风险）与RELAX（46粉，$RELAX宣布MPL Core版发射台上线），详见 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "hypecraft",
+    "relax-launchpad"
+  ],
+  "newAdmits": [
+    {
+      "id": "hypecraft",
+      "name": "Hypecraft",
+      "lane": "台子/Meme",
+      "why": "官推2026-11-06新建、0粉7帖；自称浏览器挖$HYPE、发射币配HYPE交易对并每10分钟分红；官宣We're live，但无独立官网、外链跳转pump.fun首页，高风险观察",
+      "twitter": "@Hypecraftfun",
+      "website": null,
+      "ca": null,
+      "time": "自称已LIVE（非≤2h）",
+      "source": "https://x.com/Hypecraftfun/status/2119182721289158776",
+      "scores": {
+        "early": 94,
+        "actionable": 32,
+        "novelty": 58,
+        "risk": 88,
+        "overall": 55
+      }
+    },
+    {
+      "id": "relax-launchpad",
+      "name": "RELAX",
+      "lane": "台子/Meme",
+      "why": "官推2026-07新建、46粉；官宣 MPL Core 已上线 RELAX Launchpad，支持 public 与 allow-list",
+      "twitter": "@0relaxbro",
+      "website": null,
+      "ca": null,
+      "time": "发射台自称已上线（非≤2h）",
+      "source": "https://x.com/0relaxbro/status/2119189309026611280",
+      "scores": {
+        "early": 74,
+        "actionable": 60,
+        "novelty": 52,
+        "risk": 55,
+        "overall": 60
+      }
+    }
+  ],
+  "newCount": 2,
+  "newIds": [
+    "hypecraft",
+    "relax-launchpad"
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "clearedPrevNTR": [],
+  "skipped": [
+    {
+      "id": "drip-habibis",
+      "reason": "官推2024-12、2986粉约1.7万帖，DS评early=30并写非早期；按尽量早期优先/已过热不收"
+    },
+    {
+      "id": "hamieverse",
+      "reason": "仅第三方 @supraEVM 称其 Robinhood 第二系列筹备中，未见官推新窗核验"
+    },
+    {
+      "id": "aura-spirits",
+      "reason": "仅零粉第三方推销，无独立官推"
+    },
+    {
+      "id": "paw-gang",
+      "reason": "仍仅第三方推销，无独立官推，维持不收"
+    },
+    {
+      "id": "hashblokz",
+      "reason": "本轮未见新官推+更强证据，不重新收录"
+    },
+    {
+      "note": "KW already-in: thalvorix, limpetlol, join-elypad, skitters, onagi, sasa-pad, dividotfun, volta-family, binzonft, elyfluff, mintegra, the-agent-firm, zkblast, deuslaunch, ammora, shipfun, set-it, pow-agent-mine, bibi-ai, elysium-genesis, cathereum"
+    },
+    {
+      "note": "pocketpad SOLD OUT 未再探索读"
+    }
+  ],
+  "xReads": 8,
+  "remainingBefore": 947,
+  "remaining": 939,
+  "mode_budget": "ample",
+  "softCap": 28,
+  "ufCursor": 424,
+  "ufCursorBefore": 392,
+  "xQuota": {
+    "remainingBefore": 947,
+    "remaining": 939,
+    "xReads": 8,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursor": 424,
+    "ufCursorBefore": 392,
+    "note": "API-call xReads=8 (UF2 + must/LIVE1 + 5 search_posts_all); footer 947→939; daily pacing ample not post-reset-full; UF392→424 all in-lib NF0"
+  },
+  "tenLanes": true,
+  "tenLanesNote": "UF392→424 + must/LIVE14 + 5 search_posts_all（打新/台子+挖矿+LZ/Elysium+Tape/GIWA+DogeEVM/BTC/Stark/GO）",
+  "tenLanesCoverage": "打新｜挖矿｜台子/Meme｜GO盘｜LayerZero｜Elysium｜Tape｜GIWA｜DogeEVM + BTC/Stark",
+  "discordPeekDeferred": true,
+  "discordPeekReason": "no browser; reuse lastSeen cutoffs from R1445 Discord peek",
+  "discordLastSeenByChannel": {
+    "alpha-1": "2026-11-08 10:21",
+    "alpha-1-backup": "2026-11-08 10:19",
+    "smart-accounts-tracker": "2026-11-08 09:22",
+    "alpha-3-new-accounts": "2026-11-08 10:40"
+  },
+  "docsSynced": true,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking-on；score 一次完整：admit hypecraft+relax-launchpad+drip-habibis。executor 按早期优先硬规则跳过 drip-habibis（DS自身评 early=30 / 非早期）。alert 采用其拟定短中文并替换 PANEL。overall 按公式复核 hypecraft 55、relax 60。",
+  "watches": {
+    "elyseapro": "链上 wave 0x66d7d598842cf6ec0dd953251eda7ae259e6bfda mintOpen=true、仍104/1000；官推仍删帖/检索0；官网仍 Preview 角标；≤2h已于约09:44 CST过期，维持le2h=false；不升 Elysium 栏",
+    "primate-legends": "MINT LIVE + RYO bonding curve 续；FCFS 已开（已过≤2h）",
+    "hopkinagent": "LIVE 续；本轮无新开窗帖",
+    "elys-tape": "Foundry LIVE 续",
+    "oil-hood": "$OILHOOD LIVE on Pons 续",
+    "elysium-meme": "$CNINE LIVE 续",
+    "bitrush-btcb": "LIVE 续；机制教程帖",
+    "gloop-slime": "官网 20:00 CST 开铸 0/3333；链上 mintOpen()=false；$GLOOP 20:30 CST；非本轮新、非≤2h",
+    "elysium-makers": "官网仍 early access，无 CA，维持 announced",
+    "erupt-fun": "Nov9 FREE Genesis 4444",
+    "elympus-hq": "Genesis 0.055 HYPE Day1 TBA",
+    "broisafreak": "GTD 11/9 01:00CST / PUBLIC 02:00CST",
+    "ascendlaunch": "Nov9 day-one；本轮 Token Catalyst Pipeline",
+    "set-it": "新公布 $SETIT pump.fun CA 6UjNtVncstNLMT7immhjHAG1c6gmGB3jBJ4xCck1pump",
+    "pocketpad": "SOLD OUT（本轮未再探索读）",
+    "eloscape": "仍 gated / No token yet",
+    "stopped": "HashDoge/Genius/Corla/Flap STOPPED"
+  },
+  "ufNotes": "392→424; all 32 already in-lib; NF0 suspended0; @BIBIAI_MEME is alt of in-lib bibi-ai; added @Hypecraftfun + @0relaxbro to UF",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1446：新收 hypecraft + relax-launchpad；elyseapro Waves 仍104/1000但≤2h已过期；UF392→424；discordPeekDeferred；docsSynced",
+  "pushSha": "pending",
+  "tip": "pending",
+  "push": {
+    "attempted": true,
+    "ok": false,
+    "sha": null,
+    "short": null,
+    "branch": "main",
+    "remote": "origin"
+  },
+  "HashDogeGeniusCorlaFlap": "STOPPED",
+  "remoteVerified": false,
+  "notePull": "git pull 后 remote 已是 R1444；开工后 Discord 补漏占用 R1445（0新收录，tip eceb926）。本轮 X radar 以 R1446 落盘，未覆盖 R1445。"
+}
