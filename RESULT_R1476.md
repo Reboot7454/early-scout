@@ -15,6 +15,6 @@
 - dsFallback: false；deepseek-flash thinking-on 主裁决 admit 1（chipmunks-bnb），skip nyraa/banger-ink/floki-agent/elysium-ladder；评分成功；文案第一次在 watchCopy.beef-family 处截断，第二次补齐 watchCopyTail/alert/summary
 - remoteNote: git pull 时已在 R1475 tip e0872bd（fill pushSha）；本轮按 R1476 跑完整 X-radar
 
-- pushSha: PENDING
-- tip: PENDING
-- remoteVerified: false
+- pushSha: 9a151224a39a29c179fc0b6f58d3e89695905136
+- tip: 9a15122
+- remoteVerified: true
