@@ -1,0 +1,31 @@
+cards=144 unique=119 keep=101 pre_reject=6 already=12
+DS batch 0 n=9
+  got 9 decisions in 32.5s
+DS batch 1 n=9
+  got 9 decisions in 21.9s
+DS batch 2 n=9
+  got 9 decisions in 17.2s
+DS batch 3 n=9
+  got 9 decisions in 24.0s
+DS batch 4 n=9
+PARSE FAIL batch 4: Expecting ',' delimiter: line 1 column 4063 (char 4062)
+DS batch 5 n=9
+  got 9 decisions in 20.1s
+DS batch 6 n=9
+  got 9 decisions in 18.9s
+DS batch 7 n=9
+  got 9 decisions in 22.7s
+DS batch 8 n=9
+  got 9 decisions in 28.0s
+DS batch 9 n=9
+  got 9 decisions in 11.0s
+DS batch 10 n=9
+  got 9 decisions in 21.3s
+DS batch 11 n=2
+  got 2 decisions in 4.0s
+admits=14 ds_rejects=78 pre_rejects=6
+APPLY {"round": 1444, "newIds": ["elysian-kntq", "lensaprotocol", "ascendsea", "chartheon", "pantheradotgg", "mintarenafi", "elyxsocial", "mineshaftrig", "headboroughs", "thepawmise", "gangstazfun", "armdotfun", "hokiseries", "nailong-elysium"], "cleared": ["blend-launch", "set-it"], "result": "/workspace/early-scout/ROUND1444_RESULT.json", "summary": "R1444：Discord alpha 补收 elysian-kntq,lensaprotocol,ascendsea,chartheon,pantheradotgg,mintarenafi,elyxsocial,mineshaftrig,headboroughs,thepawmise,gangstazfun,armdotfun,hokiseries,nailong-elysium；清 blend-launch,set-it；lastSeen→2026-11-08 10:13；lastChecked→2026-11-08 10:22 CST"}
+{"ok": true, "round": 1444, "notify": true, "newIds": ["elysian-kntq", "lensaprotocol", "ascendsea", "chartheon", "pantheradotgg", "mintarenafi", "elyxsocial", "mineshaftrig", "headboroughs", "thepawmise", "gangstazfun", "armdotfun", "hokiseries", "nailong-elysium"], "alert": "DC补漏R1444新收14个，以Elysium生态为主（Elysian、Lensa、AscendSea、Elyx等），另有打新及Robinhood系；面板 https://reboot7454.github.io/early-scout/", "lastSeenByChannel": {"alpha-3-new-accounts": "2026-11-08 10:12", "alpha-1-backup": "2026-11-08 10:04", "smart-accounts-tracker": "2026-11-08 09:22", "alpha-1": "2026-11-08 10:13"}, "ds_usage": {"calls": 13, "prompt_tokens": 23650, "completion_tokens": 41473}, "result": "/workspace/early-scout/ROUND1444_RESULT.json", "ts": "20261108_1017"}
+
+# post: batch4 PARSE FAIL retried via deepseek-flash → extra admit degencorns; demoted ascendsea,chartheon,elyxsocial (self-claimed Elysium, no On testnet/Announced); focusAllFalse; discordPeekDeferred=false
+{"ok": true, "round": 1444, "notify": true, "newIds": ["elysian-kntq", "lensaprotocol", "ascendsea", "chartheon", "pantheradotgg", "mintarenafi", "elyxsocial", "mineshaftrig", "headboroughs", "thepawmise", "gangstazfun", "armdotfun", "hokiseries", "nailong-elysium", "degencorns"], "alert": "DC补漏R1444新收15：The Elysian、Lensa、AscendSea、Chartheon、Panthera、Mint Arena、Elyx、MINESHAFT、HEADBOROUGHS、The Pawmise、Gangstazfun、Armed.fun、Hokiseries、奶龙、Degencorns（AscendSea/Chartheon/Elyx自称Elysium未核验已降台子/Meme）；面板 https://reboot7454.github.io/early-scout/", "elysiumDemoted": ["elyxsocial", "chartheon", "ascendsea"], "lastSeenByChannel": {"alpha-3-new-accounts": "2026-11-08 10:12", "alpha-1-backup": "2026-11-08 10:04", "smart-accounts-tracker": "2026-11-08 09:22", "alpha-1": "2026-11-08 10:13"}, "pipelineStats": {"cards": 144, "unique": 119, "keep": 101, "pre_reject": 6, "already": 12, "admits": 15, "ds_rejects": 86, "batch4_retry_admits": 1, "batch4_retry_rejects": 8}}
