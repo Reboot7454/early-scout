@@ -42,12 +42,14 @@
     "gapIncomplete": false
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "c7c282771a54ed8fd8f0731a563f88d11792ec71",
+    "remote": "origin/main"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1463：Discord alpha 补收 rushonelysium,spookers-rh；lastSeen→2026-11-08 16:04；lastChecked→2026-11-08 16:12 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1462.json",
   "priorRoundNote": "R1462 meta NTR []; cardsAfterCutoff=45",
   "lastSeenByChannel": {
@@ -260,5 +262,7 @@
     "dsAdmit": 2,
     "dsReject": 32
   },
-  "docsSynced": false
+  "docsSynced": true,
+  "pushSha": "c7c282771a54ed8fd8f0731a563f88d11792ec71",
+  "tip": "c7c2827"
 }

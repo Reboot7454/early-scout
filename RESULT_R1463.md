@@ -10,3 +10,9 @@
 - 注：R1462 为 x-radar（discordPeekDeferred），本轮为 DC 补漏；卡片文件 dc40_cards_r1462.json 扫描于 16:10 CST，apply 自 R1462 递增为 R1463
 - dsFallback: false；deepseek-flash thinking-on
 - alert: DC补漏R1463新收Rush（台子/Meme，自称 AscendLaunch 社交层，Elysium未核验已降栏）、RHSpookers（打新，Robinhood Chain 3333 幽灵NFT）；面板 https://reboot7454.github.io/early-scout/
+
+- pushSha: c7c282771a54ed8fd8f0731a563f88d11792ec71
+- tip: c7c2827
+- docsSynced: true
+- remoteVerified: true
+
