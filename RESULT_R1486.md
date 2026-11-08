@@ -15,4 +15,4 @@
 - dsNote: DeepSeek deepseek-flash(thinking) 第1次即返回完整 JSON；本地修正 elywizardz whatsNew 去掉 DS 幻觉的 20:00（库内原记录无此时刻）；Argus 官网改为“本轮抓取 500”而非“已可访问”；alertMessage 本地补 CA/Gloop/Pandu/BONK 状态。dsFallback=false
 - docsSynced: true
 - skipped: thelongneck_（2024-12 号 6346 粉仅 6 帖，泛 Base 免费 mint，不够早期）；OpenEmberely（已有卡 open-ember 马甲/改号，不重复建卡）
-- pushSha: PENDING
+- pushSha: dcb3058（主提交；pushSha 回写为后续小提交）
