@@ -14,5 +14,5 @@
 - dsFallback: false；deepseek-flash thinking-on 一次 score 完整（admit blend-launch+set-it，skip hashblokz）；alert 第二次思考外泄，采用其拟定短中文。overall 按公式复核 blend 74（88*0.35+78*0.25+72*0.2+(100-55)*0.2）、set-it 64（90*0.35+55*0.25+65*0.2+(100-72)*0.2）。
 - alert: 本轮新收Blend（Solana发射台官网已LIVE）与Set It（多链发射概念、无官网），详见 https://reboot7454.github.io/early-scout/
 
-- pushSha: PENDING
-- tip: PENDING
+- pushSha: da9be2e4cc8e61357871f99edffefaec7719d3bb
+- tip: da9be2e4cc8e61357871f99edffefaec7719d3bb
