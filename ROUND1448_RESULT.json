@@ -45,12 +45,16 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "ebbd0212c29ca78936ce630f14cf42cf3c5de052",
+    "short": "ebbd021",
+    "branch": "main",
+    "remote": "origin"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1448：Discord alpha 补收 noeron,telos；清 thesis-perps；Noeron自称Elysium未核验已降台子/Meme；lastSeen→2026-11-08 11:19；lastChecked→2026-11-08 11:23 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1447.json",
   "priorRoundNote": "R1447 meta NTR ['thesis-perps']; cardsAfterCutoff=30",
   "alert": "DC补漏R1448新收2个：Noeron（@useNoeron，Elysium 生态 AI 交易助手，已建号待推出）、Telos（@Telosxyz，agent 币发射台，早期观察）；Noeron自称Elysium未核验已降台子/Meme；面板 https://reboot7454.github.io/early-scout/",
@@ -199,5 +203,12 @@
     }
   ],
   "rejectedCount": 19,
-  "dsRejects": 16
+  "dsRejects": 16,
+  "pushSha": "ebbd0212c29ca78936ce630f14cf42cf3c5de052",
+  "pushShort": "ebbd021",
+  "tip": "ebbd0212c29ca78936ce630f14cf42cf3c5de052",
+  "tipShort": "ebbd021",
+  "docsSynced": true,
+  "dataPushSha": "ebbd0212c29ca78936ce630f14cf42cf3c5de052",
+  "dataPushShort": "ebbd021"
 }

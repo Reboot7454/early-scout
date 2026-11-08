@@ -10,3 +10,7 @@
 - 本应写 R1447，但 git pull 后 x-radar 已占用 R1447（thesis-perps，discordPeekDeferred=true）；本轮按 tip+1 落为 R1448，清 thesis-perps 的 newThisRound，未改其 first-admit round
 - notify=true
 - alert: DC补漏R1448新收2个：Noeron（@useNoeron，Elysium 生态 AI 交易助手，已建号待推出）、Telos（@Telosxyz，agent 币发射台，早期观察）；Noeron自称Elysium未核验已降台子/Meme；面板 https://reboot7454.github.io/early-scout/
+- pushSha: ebbd0212c29ca78936ce630f14cf42cf3c5de052
+- tip: ebbd0212c29ca78936ce630f14cf42cf3c5de052
+- docsSynced: true
+- remoteVerified: true
