@@ -1,0 +1,35 @@
+{
+  "round": 1327,
+  "kind": "discord-alpha-40",
+  "completedAt": "2026-11-06 19:25 CST",
+  "notify": false,
+  "notifyReason": "discordPeekDeferred_computerUse_no_interaction",
+  "discordPeekDeferred": true,
+  "alertMessage": "",
+  "alert": "",
+  "newThisRound": [],
+  "newIds": [],
+  "cardsRead": 0,
+  "partialVisibleCards": 3,
+  "partialCardsFile": "DISCORD_ALPHA_40_CARDS_PARTIAL_20261106_1925.json",
+  "loginOk": true,
+  "blocker": "Discord login OK via box-chrome (Reboot.Btc, #alpha-3-new-accounts loaded). computerUse subagents finish with no click/scroll effect (screen unchanged after multiple Task attempts: c811a325, 1577adc7, a245008e). Cannot backfill Nov2→Nov6 backlog; lastSeen unchanged. Visible tonight: @medousafun/@NexusDevLabs/@curvesight_xyz 19:04-19:07.",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-02 20:42",
+    "alpha-1-backup": "2026-11-02 19:58",
+    "smart-accounts-tracker": "2026-11-02 20:20",
+    "alpha-1": "2026-11-02 20:32"
+  },
+  "lastSeen": "2026-11-02 20:42",
+  "gapIncomplete": true,
+  "coverage": "discord-alpha multi-channel deferred",
+  "summary": "DC补漏本轮延期：Discord 已登录可见，但 computerUse 无法点击/滚动，四频道 backlog（自 11/02 20:42）未读完；未改 data.json、未推送。建议 Update Bot's Computer。",
+  "agents": [
+    "sand-subagent-c811a325-d8e4-4500-b9d8-cffe324be506",
+    "sand-subagent-1577adc7-42dc-4161-b3e2-098abd1e5a0b",
+    "sand-subagent-a245008e-8844-4590-b1e5-ecffad191ce0"
+  ],
+  "gitHead": "ce0d332",
+  "panelRound": 1327,
+  "deferredMarkerRound": 1329
+}

@@ -1,0 +1,54 @@
+{
+  "round": 1336,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-07 00:01 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "theorem-markets",
+    "holypad",
+    "clepsydraai"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "theorem-markets",
+    "holypad",
+    "clepsydraai"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 29,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "bell-dex",
+    "crest-btc"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "bell-dex",
+    "crest-btc"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=3",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-06 23:55",
+    "lastChecked": "2026-11-07 00:01 CST",
+    "newestCardTime": "2026-11-06 23:55",
+    "cardsAfterCutoff": 29,
+    "note": "R1336：Discord alpha 补收 theorem-markets,holypad,clepsydraai；清 bell-dex,crest-btc；lastSeen→2026-11-06 23:55；lastChecked→2026-11-07 00:01 CST",
+    "lastRound": 1336
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1336：Discord alpha 补收 theorem-markets,holypad,clepsydraai；清 bell-dex,crest-btc；lastSeen→2026-11-06 23:55；lastChecked→2026-11-07 00:01 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261106_2352.json",
+  "priorRoundNote": "R1335 meta NTR ['bell-dex', 'crest-btc']; cardsAfterCutoff=29"
+}

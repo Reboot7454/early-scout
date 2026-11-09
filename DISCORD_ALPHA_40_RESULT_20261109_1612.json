@@ -1,0 +1,119 @@
+{
+  "round": 1507,
+  "roundLabel": "R1507",
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-09 16:12 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "新收录 EGGO/ShadesElysium/Bythos/Vectra（DC补漏接R1506 deferred）。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "eggoxyz",
+      "handle": "@eggoxyz",
+      "category": "挖矿",
+      "name": "EGGO",
+      "focus": false
+    },
+    {
+      "id": "shadeselysium",
+      "handle": "@shadeselysium",
+      "category": "台子/Meme",
+      "name": "Shades | Private AI agents",
+      "focus": false
+    },
+    {
+      "id": "bythosdepth",
+      "handle": "@bythosdepth",
+      "category": "台子/Meme",
+      "name": "Bythos",
+      "focus": false
+    },
+    {
+      "id": "vectradotxyz",
+      "handle": "@vectradotxyz",
+      "category": "台子/Meme",
+      "name": "Vectra",
+      "focus": false
+    }
+  ],
+  "newIds": [
+    "eggoxyz",
+    "shadeselysium",
+    "bythosdepth",
+    "vectradotxyz"
+  ],
+  "newCount": 4,
+  "focus": {
+    "eggoxyz": false,
+    "shadeselysium": false,
+    "bythosdepth": false,
+    "vectradotxyz": false
+  },
+  "counts": {
+    "read": 37,
+    "cards": 37,
+    "unique": 33,
+    "keep": 31,
+    "already": 1,
+    "preReject": 1,
+    "regexAdmit": 6,
+    "dsAdmit": 6,
+    "spotDrop": 2,
+    "landed": 4,
+    "dsReject": 25
+  },
+  "lastSeen": "2026-11-09 16:06",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-09 16:06",
+    "alpha-1-backup": "2026-11-09 16:04",
+    "smart-accounts-tracker": "2026-11-09 15:20",
+    "alpha-1": "2026-11-09 15:57"
+  },
+  "gapIncomplete": true,
+  "alpha3OlderGap": {
+    "attempted": true,
+    "filled": false,
+    "from": "2026-11-08 19:14",
+    "to": "2026-11-09 12:43",
+    "nFilled": 0,
+    "note": "R1504peek alpha-3 hardcap 120; window 12:43–15:32 covered; R1505/R1506peek/R1507 skipped further gap fill (attempted:false this peek)"
+  },
+  "spideyPosting": true,
+  "discordPeekDeferred": false,
+  "dsFallback": true,
+  "dsNote": "DeepSeek 402 Insufficient Balance → /tmp/dc40_local_fallback_admit.py strict local; spot-check dropped agenticelysium (Coming soon shell) + pnut-bnb (空壳叙事)",
+  "docsSynced": true,
+  "remoteVerified": true,
+  "pushSha": "94a2f83",
+  "tip": "94a2f83",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "cardsFile": "dc40_cards_r1506peek.json",
+  "priorRoundNote": "R1506 web radar already landed (envise/catto/denim-402) with discordPeekDeferred=true; Discord cards from r1506peek applied as R1507 (tooling bumps round). Cleared R1506 NTR.",
+  "spotDropped": [
+    "agenticelysium",
+    "pnut-bnb"
+  ],
+  "already": [
+    "kurogane_fun"
+  ],
+  "preReject": [
+    {
+      "handle": "@mewudi669",
+      "followers": 7820
+    }
+  ],
+  "clearedPrevNewThisRound": [
+    "envise",
+    "catto",
+    "denim-402"
+  ],
+  "summary": "R1507：Discord alpha 补漏接 R1506 deferred；补收 eggoxyz,shadeselysium,bythosdepth,vectradotxyz；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-09 16:06', 'alpha-1-backup': '2026-11-09 16:04', 'smart-accounts-tracker': '2026-11-09 15:20', 'alpha-1': '2026-11-09 15:57'}；gapIncomplete=true；spideyPosting=true",
+  "pushShaFull": "94a2f83ee26b5a6d78146486bdb186cd89a2176a",
+  "push": {
+    "attempted": true,
+    "ok": true,
+    "sha": "94a2f83",
+    "remoteVerified": true
+  }
+}

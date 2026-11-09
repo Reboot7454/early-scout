@@ -1,0 +1,55 @@
+{
+  "round": 1469,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-08 18:03 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "quillhouse-xyz",
+    "holdoutrh",
+    "playlohm",
+    "elyx"
+  ],
+  "newCount": 4,
+  "newIds": [
+    "quillhouse-xyz",
+    "holdoutrh",
+    "playlohm",
+    "elyx"
+  ],
+  "skipped": [
+    {
+      "id": "fletch-agent",
+      "reason": "dup"
+    }
+  ],
+  "cardsAfterLastSeen": 59,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "candidateFlagsCleared": 0,
+  "topNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=5",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-08 17:57",
+    "lastChecked": "2026-11-08 18:03 CST",
+    "newestCardTime": "2026-11-08 17:57",
+    "cardsAfterCutoff": 59,
+    "note": "R1469：Discord alpha 补收 quillhouse-xyz,holdoutrh,playlohm,elyx；跳过 [{'id': 'fletch-agent', 'reason': 'dup'}]；lastSeen→2026-11-08 17:57；lastChecked→2026-11-08 18:03 CST",
+    "lastRound": 1469
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1469：Discord alpha 补收 quillhouse-xyz,holdoutrh,playlohm,elyx；跳过 [{'id': 'fletch-agent', 'reason': 'dup'}]；lastSeen→2026-11-08 17:57；lastChecked→2026-11-08 18:03 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1469.json",
+  "priorRoundNote": "R1468 meta NTR ['z30index', 'megalith-agent', 'digent-coin', 'dinoagentnft', 'elyns']; cardsAfterCutoff=59"
+}

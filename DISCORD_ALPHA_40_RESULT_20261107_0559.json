@@ -1,0 +1,130 @@
+{
+  "round": 1356,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-07 05:59 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R1356新收 runcheck、Nfts.family、Regnum；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "runcheck-pad",
+    "nftsdotfamily",
+    "regnumpad"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "runcheck-pad",
+    "nftsdotfamily",
+    "regnumpad"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 19,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "hyperlend"
+  ],
+  "candidateFlagsCleared": 1,
+  "topNewThisRoundCleared": [
+    "hyperlend"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=3",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-07 05:54",
+    "lastChecked": "2026-11-07 05:59 CST",
+    "newestCardTime": "2026-11-07 05:54",
+    "cardsAfterCutoff": 19,
+    "note": "R1356：Discord alpha 补收 runcheck-pad,nftsdotfamily,regnumpad；清 hyperlend；lastSeen→2026-11-07 05:54；lastChecked→2026-11-07 05:59 CST",
+    "lastRound": 1356,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-07 05:46",
+      "alpha-1-backup": "2026-11-07 04:34",
+      "smart-accounts-tracker": "2026-11-07 04:33",
+      "alpha-1": "2026-11-07 05:54"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1356：Discord alpha 补收 runcheck-pad,nftsdotfamily,regnumpad；清 hyperlend；lastSeen→2026-11-07 05:54；lastChecked→2026-11-07 05:59 CST",
+  "remoteVerified": false,
+  "cardsFile": "DISCORD_ALPHA_40_CARDS_20261107_0551.json",
+  "priorRoundNote": "R1355 meta NTR ['orebound-io', 'seedely-xyz', 'hyperlend']; cardsAfterCutoff=19",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-07 05:46",
+    "alpha-1-backup": "2026-11-07 04:34",
+    "smart-accounts-tracker": "2026-11-07 04:33",
+    "alpha-1": "2026-11-07 05:54"
+  },
+  "cardsRead": 19,
+  "rejected": [
+    {
+      "handle": "@_MarzellCrypto1",
+      "reason": "个人内容创作者号，只提到正在做的应用，没有可核验的产品、发射或 mint 线索"
+    },
+    {
+      "handle": "@arnoclarity",
+      "reason": "资讯聚合型内容号，无实际产品或发射线索"
+    },
+    {
+      "handle": "@usealchemist",
+      "reason": "bio 只有泛泛的 AI agent 口号，没有任何具体产品、链或发射信息"
+    },
+    {
+      "handle": "@afteroddshq",
+      "reason": "下注/交易税务估算工具，非加密早期发射或挖矿项目"
+    },
+    {
+      "handle": "@SergeyCin",
+      "reason": "个人号，只是 AXION 的“架构者”自述，无独立项目推特与部署证据"
+    },
+    {
+      "handle": "@Elyvatum_",
+      "reason": "Elysium 生态项目但 bio 未说明 On testnet 或具体部署，按 Elysium 从严口径不收"
+    },
+    {
+      "handle": "@anyorobotics",
+      "reason": "无简介、无任何产品/发射线索的空号"
+    },
+    {
+      "handle": "@InstanceLab",
+      "reason": "泛基建口号，无产品/发射/mint任何线索，14粉空壳"
+    },
+    {
+      "handle": "@HiddenUser81",
+      "reason": "个人/KOL号（自述在build Vibe Squad），非独立项目"
+    },
+    {
+      "handle": "@Nailong_Elysium",
+      "reason": "2粉空壳meme，仅有叙事bio，无发射/mint/产品线索"
+    }
+  ],
+  "rejectedCount": 10,
+  "dsRejects": 10,
+  "admissions": [
+    {
+      "id": "runcheck-pad",
+      "handle": "@runcheck_pad",
+      "category": "打新",
+      "name": "runcheck"
+    },
+    {
+      "id": "nftsdotfamily",
+      "handle": "@Nftsdotfamily",
+      "category": "打新",
+      "name": "Nfts.family"
+    },
+    {
+      "id": "regnumpad",
+      "handle": "@regnumpad",
+      "category": "Elysium",
+      "name": "Regnum"
+    }
+  ],
+  "alert": "DC补漏R1356新收 runcheck、Nfts.family、Regnum；面板 https://reboot7454.github.io/early-scout/"
+}
