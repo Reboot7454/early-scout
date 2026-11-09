@@ -24,4 +24,4 @@
 - skipped: PerpEly/Cue 无铸窗；Torpor 第三方今晚钟；Kurogane/Ammora/GIWA 等待名单噪音；InkKoi/AgentSeal/erupt/HOKORI 已在库
 - scriptFix: 无
 - HashDoge/Genius/Corla/Flap: STOPPED
-- pushSha: 
+- pushSha: fc3dede
