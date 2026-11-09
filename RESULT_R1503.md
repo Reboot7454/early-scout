@@ -19,4 +19,4 @@
 - scriptFix: 无
 - HashDoge/Genius/Corla/Flap: STOPPED
 - pushSha: ff70f12
-- tip: ff70f12
+- tip: d956b54
