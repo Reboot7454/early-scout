@@ -1,0 +1,149 @@
+{
+  "round": 1520,
+  "roundLabel": "R1520",
+  "checkedAt": "2026-11-09 20:06 CST",
+  "mode": "ample",
+  "softCap": 28,
+  "xReads": 8,
+  "remainingBefore": 704,
+  "remaining": 696,
+  "ufCursor": "31→51",
+  "xQuota": {
+    "xReads": 8,
+    "remainingBefore": 704,
+    "remaining": 696,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 31,
+    "ufCursor": 51,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-09 20:06 CST",
+    "note": "API-call xReads=8；接 remote R1519 Discord Peek 后本轮雷达主扫编号 R1520；DS 402 → dsFallback；新收4"
+  },
+  "newThisRound": [
+    "kabosu-agent",
+    "pepebsc",
+    "poffly",
+    "evermor"
+  ],
+  "newAdmitsDetail": [
+    {
+      "id": "kabosu-agent",
+      "handle": "@agent_kabosu",
+      "category": "打新",
+      "focus": false,
+      "x": "https://x.com/agent_kabosu",
+      "note": "KABOSU Agent ID fair launch live；CA 0x67fdd6…2eFD；6000免费+4000付费"
+    },
+    {
+      "id": "pepebsc",
+      "handle": "@pepethebsc",
+      "category": "打新",
+      "focus": false,
+      "x": "https://x.com/pepethebsc",
+      "note": "$PEPE v2 ≠pepe-agent；CA 0x92b379…bdFB totalMinted=0 mintOpen"
+    },
+    {
+      "id": "poffly",
+      "handle": "@pofflyonchain",
+      "category": "Elysium生态",
+      "focus": false,
+      "x": "https://x.com/pofflyonchain",
+      "note": "今日开号；Elysium/Ascend meme；CA Soon Tonight"
+    },
+    {
+      "id": "evermor",
+      "handle": "@tradeevermor",
+      "category": "台子/Meme",
+      "focus": false,
+      "x": "https://x.com/tradeevermor",
+      "note": "stock pairs launchpad live"
+    }
+  ],
+  "clearedPrevNTR": [
+    "lockedinshiba",
+    "launchponzium"
+  ],
+  "noteRoundBump": "Started targeting R1519 but remote already had R1519 Discord Peek (20:01 CST); this scout is R1520",
+  "le2h": [
+    "FREEDOM @Stonkitfun LIVE sold=31/10000（开于18:30，≤2h至20:30）",
+    "eslashacc Montra fair launch 21:00 CST ≤2h（CA待官推）",
+    "Pip TIME CARDS 21:09 CST ≤2h（totalSupply=0）",
+    "Cathereum 21:00 CST ≤2h（或随主网调整）",
+    "elysiumant 21:00 CST 1111/0.008 HYPE @kalosfun ≤2h（待主网）",
+    "Outlaws GTD 22:00 CST ≤2h（666 / 0.03 HYPE @kalosfun；条件=主网）"
+  ],
+  "keyUpdates": [
+    "admit kabosu-agent / pepebsc / poffly / evermor",
+    "merged remote R1519 DC Peek lockedinshiba / launchponzium（round 保持 1519）",
+    "FREEDOM sold=31 Ordi sold=15931 Pandu 2094/2222 Pepe 119 BONK 4",
+    "Erupt 已过11UTC主网未官宣 → 顺延主网+1h，不再按20:00≤2h",
+    "Outlaws 官宣今日 GTD 22:00/FCFS 23:00/Public 00:00",
+    "Blurb ~22:36 Lotlings 23:00 续"
+  ],
+  "onchain": {
+    "stonkit-freedom": {
+      "sold": 31,
+      "mintOpen": true,
+      "raisedBNB": 0.062,
+      "contract": "0x1D46c6d07238BBEEdE35B5fEcc7a773edCA76ef7"
+    },
+    "ordiagent": {
+      "sold": 15931,
+      "freeClaimed": 1000,
+      "nextShare": 15932,
+      "nextPriceBNB": 0.009,
+      "raisedBNB": 63.879
+    },
+    "pepe-agent": {
+      "totalMinted": 119,
+      "mintOpen": true
+    },
+    "pandu-agent": {
+      "totalMinted": 2094,
+      "maxSupply": 2222
+    },
+    "bonkagent": {
+      "totalMinted": 4
+    },
+    "pip-agent-world": {
+      "totalSupply": 0,
+      "contractDeployed": true
+    },
+    "kabosu-agent": {
+      "contract": "0x67fdd6c1bf9A4cDb969cE483F71Aacb1d8302eFD",
+      "contractDeployed": true
+    },
+    "pepebsc": {
+      "contract": "0x92b379d3807F68aD2bCfd013D831713D8C6dbdFB",
+      "totalMinted": 0,
+      "mintOpen": true
+    }
+  },
+  "tenLanes": "接 R1519 DC Peek 后雷达主扫编号 R1520。UF 31→51（18）+ must/≤2h + KW×5 + 1条官方号补搜。九栏+BTC/Starknet 均跑。",
+  "skipped": [
+    "GateHound/Postmark/Osiris Guardians 仅聚合号提及、无独立官推，跳过",
+    "predictpad 空 bio/仅链接，跳过",
+    "squeek 0.05E 社区谣传未官宣（官号仍 testing sepolia / token NOT launched）",
+    "Ammora GIWA 噪音跳过",
+    "Elysium Mainnet Registration 垃圾推荐码刷屏跳过",
+    "FoundryTape NF；ascendantsgames/ComputeRollLabs 用户名超15字符跳过lookup（已在库）",
+    "Obol 仿盘避开",
+    "HashDoge/Genius/Corla/Flap STOPPED 未重启"
+  ],
+  "docsSynced": true,
+  "notify": true,
+  "alertMessage": "R1520新收4：kabosu-agent、pepebsc、poffly、evermor；FREEDOM sold=31（至20:30）；Ordi sold=15931已过≤2h；Pandu 2094/2222；eslashacc/Pip/Cathereum/elysiumant≤2h；Outlaws GTD 22:00待主网；Erupt已过11UTC顺延；面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": false,
+  "discordPeekNote": "R1519 DC Peek 已于20:01完成（lockedinshiba/launchponzium；a1 19:57/a3 19:58）；本轮雷达主扫不再 Peek",
+  "discordPeekStatus": "cleared-by-remote-R1519",
+  "dsFallback": true,
+  "dsNote": "DeepSeek HTTP 402 Insufficient Balance → dsFallback；本地 admit 4 + 热窗/链上刷新。",
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED",
+  "lastFullAfterReset": "R1492",
+  "pushSha": "PUSHSHA",
+  "tip": "PUSHSHA"
+}
