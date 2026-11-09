@@ -1,0 +1,29 @@
+# R1499 早期打新雷达 RESULT（2026-11-09 12:23 CST）
+
+- round: R1499
+- newThisRound: （无）
+- clearedPrevNTR: （空，R1498 已无本轮新）
+- ≤2h: 无。BONK Agent 仍 15:00 CST（约 13:00 起才进 ≤2h）；OrdiAgent 今日 18:00 CST（约 16:00 起算 ≤2h）；BLURB 今日 23:00 CST（约 21:00 起算）；HORNYHOOD 11/10 00:00 CST；elytypes 11/10 01:00 CST；souls-elysium 与 InkMiners 均为 11/10 04:00 CST；elysium-pepes 仍无精确官钟（第三方今晚分档不覆盖）→ le2h=false；skitters 仍等 OpenSea+Elysium；99901.fun Opens Nov 10。
+- the-long-necks: 348/400 仍 LIVE（base.publicnode）；≤2h 已过
+- skitters: 仍等 OpenSea+@Enter_Elysium 完全 live，无新钟点，le2h=false
+- BONK Agent: 12:13 CST 再确认 15:00 CST 页面解锁（非一分钟窗）；链上 totalMinted=0；现非≤2h
+- medalbeasts: PUBLIC LIVE 自约 01:59 CST
+- elysium-pepes: 09:24 CST “few hours” 至~12:22 仍无官钟/CA
+- souls-elysium: REVEAL 仍 LIVE；开铸仍 11/10 04:00 CST；粉 435→441
+- 99901-fun: 仍 Opens Nov 10
+- zaplonl: 官推仍 813/5555，mint 仍开
+- hornyhoodnft: 官推确认 11/10 00:00 CST（Nov 9 16:00 UTC / 4 PM UTC）；粉 163→2238
+- blurb: 档期仍 11/9 23:00 CST（15:00 UTC）Elysium FREE MINT 3333
+- 链上: Sakura 343/3333（持平）、LongNecks 348/400（持平）、BONK totalMinted=0、Pandu 1126/2222（+60）
+- lastFullAfterReset: R1492（本轮 ample，未再跑 post-reset-full）
+- notify: false
+- alertMessage: （空）
+- xReads=8 / remainingBefore=913 / remaining=905 / mode=ample / softCap=28 / ufCursor=644→694
+- tenLanes: UF 644→694（50号：7 NF预跳 + 43 resolved；无新 NF/suspended；2批 profiles + 2批 from:）+ must/≤2h+focus 1次 + 2 KW（打新/挖矿/Elysium-Tape-GIWA-DogeEVM-BTC-Starknet）+ 1 follow-up（KOBUonBase profile，已在库外但 skip）+ soft-debt 本地刷新（Canton/Glaze/TokenWorks）。九栏+BTC/Starknet 均跑；无新收录；GIWA 仍 Ammora 噪音；DogeEVM/Tape/Starknet 本窗无可收新号。
+- discordPeekDeferred: true
+- dsNote: DeepSeek insufficient_balance → dsFallback 本地 skip；无新收录。更新 sakura 343、Pandu 1126、Zaplo 813、BONK 仍 15:00、OrdiAgent 仍 18:00 并补税说明、elysium-pepes 无官钟、souls REVEAL、skitters 仍等 OpenSea+Elysium、HORNYHOOD 11/10 00:00 CST。
+- docsSynced: true
+- skipped: KOBUonBase 为既有 Base meme 侧 NFT（4949、WL 开、mint TBA、2026-07 起号/263粉/673帖）非极早期；Ammora/GIWA 等待名单噪音；Elynx/Elywizardz/Blurb/NibblersELY/MemeFund/PlunderPort/Mochi/Dawgz/Elysium Pass 已在库；Eely_elysium 仅为 RPC 基建；Forge_elysium 0粉空帖；henlo_eth 艺术家即将 mint 无独立新项目官号；MarsNexus 已在库且标骗局
+- scriptFix: 无
+- HashDoge/Genius/Corla/Flap: STOPPED
+- pushSha: pending
