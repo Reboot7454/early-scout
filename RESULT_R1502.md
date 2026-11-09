@@ -1,0 +1,24 @@
+# R1502 早期打新雷达 RESULT（2026-11-09 14:09 CST）
+
+- round: R1502
+- newThisRound: agent-akita
+- clearedPrevNTR: viroolxyz
+- ≤2h: BONK Agent 今日 15:00 CST（续，le2h=true）。OrdiAgent 今日 18:00 CST（约 16:00 起算 ≤2h）；BLURB 今日 23:00 CST；HORNYHOOD 11/10 00:00 CST；elytypes 11/10 01:00 CST；souls-elysium 与 InkMiners 均为 11/10 04:00 CST；slymzcrew 主网后立刻 GTD/FCFS（无精确钟点）→ le2h=false；Cathereum WL 将关、今日 mint（无精确钟点）→ le2h=false。
+- the-long-necks: OpenSea total_supply=348/400；Base RPC 本窗仍 403
+- BONK Agent: 14:05–14:09 CST 页面 countdown 仍锁至 15:00 CST；token totalSupply=0；已进入≤2h；粉 524
+- OrdiAgent: 官推再确认 18:00 CST + 70%LP/10%邀请/20%金库；合约尚未部署；粉 477
+- Pandu: 链上 totalSupply=1517/2222（+78 vs R1501 1439）
+- Sakura: maxSupply=3333；totalMinted RPC revert，沿用 343/3333
+- AKITA/@agent_AKITA: 【新收录】BNB Agent ID 公平铸造；官推称 1,000 free LIVE；官网 akitax.pages.dev；粉 116
+- lastFullAfterReset: R1492（本轮 ample，未再跑 post-reset-full）
+- notify: true
+- alertMessage: BONK Agent ≤2h：今日15:00 CST开铸（前1000免费/需Agent ID，链上仍0）。新收录 AKITA（BNB Agent ID 公平铸造，free 称 LIVE）。面板 https://reboot7454.github.io/early-scout/
+- xReads=7 / remainingBefore=881 / remaining=874 / mode=ample / softCap=28 / ufCursor=794→844
+- tenLanes: UF 794→844（50号：3 priorNF + 12本轮NF + 0 suspended + 35 resolved；3批 profiles）+ must/≤2h 2次（usernames+posts_by_ids）+ 2 KW + soft-debt。九栏+BTC/Starknet 均跑；新收录 agent-akita；GIWA/Ammora 噪音跳过；DogeEVM 本窗无可收新号；Tape/Starknet 见 Hokori/BEM 讨论无可新建卡。
+- discordPeekDeferred: true（无浏览器；父代理补 Peek）
+- dsNote: DeepSeek insufficient_balance → dsFallback；本地收录 agent-akita（BNB Agent ID 公平铸造，官网+官推）。更新 BONK ≤2h totalSupply=0、OrdiAgent 仍 18:00、Pandu 1517、LongNecks OS 348。
+- docsSynced: true
+- skipped: yinghubnb KOL无项目卡；ArmazAgent 0粉 Coming Soon；GatesofElysium_ 6粉抽奖式 freemint；Forge_elysium 28粉手续费叙事偏薄；TradeonEden/Ammora/arkhampad/sibyliqai/hokori/wojagent/viroolxyz/skyhooksol 已在库
+- scriptFix: 无（UF 首批曾误造名浪费 1 读，已用真实 slice 补刷）
+- HashDoge/Genius/Corla/Flap: STOPPED
+- pushSha: (pending)
