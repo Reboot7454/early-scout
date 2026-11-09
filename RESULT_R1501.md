@@ -24,4 +24,4 @@
 - skipped: TradeonEden 2粉已发 $EDEN pump；Ammora/GIWA 等待名单噪音；FeedTheFireRH/fulldotfun/Elytypes/Blurb/arkhampad/slymzcrew/skyhooksol 已在库
 - scriptFix: 无
 - HashDoge/Genius/Corla/Flap: STOPPED
-- pushSha: (pending)
+- pushSha: e24c0f6
