@@ -18,4 +18,4 @@
 - docsSynced: true
 - skipped: YAOQIAN 用户自报 CA（0粉号）；Elysium Mainnet Registration 刷屏；Bullshot/Swapfone/Midas 手机挖矿刷屏；Ammora/GIWA 等待名单噪音；Pressure/Fountainbnb 仅第三方提及未独立核验
 - HashDoge/Genius/Corla/Flap: STOPPED
-- pushSha: (pending)
+- pushSha: 5074fcd
