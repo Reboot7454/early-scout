@@ -1,0 +1,27 @@
+# R1498 早期打新雷达 RESULT（2026-11-09 11:57 CST）
+
+- round: R1498
+- newThisRound: （无）
+- clearedPrevNTR: ordiagent, ink-miners
+- ≤2h: 无。BONK Agent 仍 15:00 CST（约 13:00 起才进 ≤2h）；OrdiAgent 今日 18:00 CST（约 16:00 起算 ≤2h）；souls-elysium 与 InkMiners 均为 11/10 04:00 CST；elytypes 11/10 01:00 CST；elysium-pepes 仍无精确官钟（第三方今晚分档/Torpor 第三方 21:00 不覆盖）→ le2h=false；skitters 仍等 OpenSea+Elysium；99901.fun Opens Nov 10。
+- the-long-necks: 348/400 仍 LIVE（base.publicnode）；≤2h 已过
+- skitters: 仍等 OpenSea+@Enter_Elysium 完全 live，无新钟点，le2h=false
+- BONK Agent: 11:35 CST 再确认 15:00 CST 开铸（非一分钟窗）；链上 totalMinted=0；现非≤2h
+- medalbeasts: PUBLIC LIVE 自约 01:59 CST
+- elysium-pepes: 09:24 CST “few hours” 至~11:55 仍无官钟/CA
+- souls-elysium: REVEAL 仍 LIVE；开铸仍 11/10 04:00 CST；粉 ~435
+- 99901-fun: 仍 Opens Nov 10
+- zaplonl: 官推 813/5555，mint 仍开
+- 链上: Sakura 343/3333（持平）、LongNecks 348/400、BONK totalMinted=0、Pandu 1066/2222（+125）
+- lastFullAfterReset: R1492（本轮 ample，未再跑 post-reset-full）
+- notify: false
+- alertMessage: （空）
+- xReads=7 / remainingBefore=925 / remaining=918 / mode=ample / softCap=28 / ufCursor=594→644
+- tenLanes: UF 594→644（50号：12 NF/susp预跳 + Ainubsc 本轮 suspended + agentcityuk 本轮 NF + 36 resolved；2批 profiles + 2批 from:）+ must/≤2h+focus 1次 + 2 KW（打新/挖矿/Elysium-Tape-GIWA-DogeEVM-BTC-Starknet）+ soft-debt 本地刷新（Canton/Glaze/TokenWorks）。九栏+BTC/Starknet 均跑；无新收录；GIWA 仍 Ammora 噪音；DogeEVM/Tape/Starknet 本窗无可收新号。
+- discordPeekDeferred: true
+- dsNote: DeepSeek insufficient_balance → dsFallback 本地 skip；无新收录。更新 sakura 343、Pandu 1066、Zaplo 813、BONK 仍 15:00、elysium-pepes 无官钟、souls REVEAL、skitters 仍等 OpenSea+Elysium。
+- docsSynced: true
+- skipped: PerpEly/Cue 无铸窗；Torpor 第三方今晚钟；Kurogane/Ammora/GIWA 等待名单噪音；InkKoi/AgentSeal/erupt/HOKORI 已在库
+- scriptFix: 无
+- HashDoge/Genius/Corla/Flap: STOPPED
+- pushSha: 
