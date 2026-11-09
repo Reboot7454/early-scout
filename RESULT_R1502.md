@@ -21,4 +21,5 @@
 - skipped: yinghubnb KOL无项目卡；ArmazAgent 0粉 Coming Soon；GatesofElysium_ 6粉抽奖式 freemint；Forge_elysium 28粉手续费叙事偏薄；TradeonEden/Ammora/arkhampad/sibyliqai/hokori/wojagent/viroolxyz/skyhooksol 已在库
 - scriptFix: 无（UF 首批曾误造名浪费 1 读，已用真实 slice 补刷）
 - HashDoge/Genius/Corla/Flap: STOPPED
-- pushSha: (pending)
+- pushSha: 8c7e8f1
+- tip: 8c7e8f1
