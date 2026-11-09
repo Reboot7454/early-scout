@@ -1,0 +1,22 @@
+# R1505 Discord alpha 补漏 RESULT（2026-11-09 15:38 CST）
+
+- round: R1505
+- mode: discord-alpha-40
+- notify: true
+- alertMessage: DC补漏R1505新收36：motion.gift、Kappa Pond、hyppo、Curb Market、Equitykeeper、Rotor、Heirs Of Elysium、Gecko Plenger、Polly Town、MIMORA、Shielded Dinos、e-acc.fun、CAST、Forge、wick、Lampos、Demiurge、sarn、Liqd、MINT.AI、LATCH、Hevium、Deathmatch、TidePerps、Aegis OTC Desk、Olysium、Nectar、Stockary、elyscreener、amoeba、Inverse、sketch war、Hoodask、FeeBomb、ELYSFOLIO、Oddsline；面板 https://reboot7454.github.io/early-scout/
+- newThisRound (36): motiongift, kappaponds, hyppotrade, curbmarketfi, equitykeeper, rotorstake-xyz, elysiumheirs, geckoplenger, pollydottown, mimoranft, shieldeddinos, e-accdotfun, trycastai, forge-elysium, wickdotac, lamposxyz, buildondemiurge, sarndotfun, liqdagents, mintai-bsc, thelatchfun, heviumpad, deathmatchrh, tideperps, aegisotc, olysium-xyz, nectarminal, usestockary, elyscreener, amoebafamily, inversehl, sketchwarnft, hoodask-xyz, feebomb-elysium, elysfolio, oddsline
+- newAdmits: motion.gift (@motiongift, 台子/Meme), Kappa Pond (@KappaPonds, 打新), hyppo (@hyppotrade, 台子/Meme), Curb Market (@curbmarketfi, 台子/Meme), Equitykeeper (@Equitykeeper, 打新), Rotor (@rotorstake_xyz, 台子/Meme), Heirs Of Elysium (@ElysiumHeirs, 打新), Gecko Plenger (@geckoplenger, 打新), Polly Town (@pollydottown, 台子/Meme), MIMORA (@MimoraNFT, 打新), Shielded Dinos (@ShieldedDinos, 打新), e-acc.fun (@e_accdotfun, 台子/Meme), CAST (@trycastai, 台子/Meme), Forge (@Forge_elysium, 台子/Meme), wick (@wickdotac, 台子/Meme), Lampos (@lamposxyz, 台子/Meme), Demiurge (@buildondemiurge, 台子/Meme), sarn (@sarndotfun, 台子/Meme), Liqd (@LiqdAgents, 台子/Meme), MINT.AI (@MINTAI_BSC, 打新), LATCH (@TheLatchFun, 台子/Meme), Hevium (@Heviumpad, 台子/Meme), Deathmatch (@DeathmatchRH, 台子/Meme), TidePerps (@tideperps, 台子/Meme), Aegis OTC Desk (@AegisOTC, 台子/Meme), Olysium (@Olysium_xyz, 台子/Meme), Nectar (@Nectarminal, 台子/Meme), Stockary (@usestockary, 台子/Meme), elyscreener (@elyscreener, 台子/Meme), amoeba (@AmoebaFamily, 台子/Meme), Inverse (@inversehl, 台子/Meme), sketch war (@sketchwarnft, 打新), Hoodask (@hoodask_xyz, 台子/Meme), FeeBomb (@feebomb_elysium, 台子/Meme), ELYSFOLIO (@ELYSFOLIO, 台子/Meme), Oddsline (@Oddsline_, 台子/Meme)
+- clearedPrevNTR: pepe-agent
+- cardsAfterCutoff: 289 / unique 231 / keep 155 / already 40 / preReject 36 / regexAdmit 28 / manualAdd 8 / landed 36
+- lastSeenByChannel: alpha-3-new-accounts 2026-11-09 15:32 / alpha-1-backup 2026-11-09 13:04 / smart-accounts-tracker 2026-11-09 15:20 / alpha-1 2026-11-09 15:28
+- lastSeen: 2026-11-09 15:32
+- gapIncomplete: true（alpha-3 hardcap 120，oldestReached 12:43，cutoff 2026-11-08 19:14 未触及）
+- alpha3OlderGap: attempted=true filled=false from=2026-11-08 19:14 to=2026-11-09 12:43 nFilled=0 note="R1504peek alpha-3 hardcap 120; window 12:43–15:32 covered"
+- spideyPosting: true
+- discordPeekDeferred: false
+- dsFallback: true
+- dsNote: DeepSeek API 402 Insufficient Balance；本地严格兜底 + 人工点验
+- lastPeekStatus: ok_gapIncomplete
+- docsSynced: true
+- focus: 全部 false（无 squeek/hamster/toychain）
+- panel: https://reboot7454.github.io/early-scout/
