@@ -1,6 +1,7 @@
 # R1516 early-scout RESULT（2026-11-09 18:52 CST）
 
 - round: R1516
+- pushSha/tip: 30cbc56
 - mode: ample softCap=28
 - xReads: 27 | remainingBefore: 740 → remaining: 713 | ufCursor: 1194→11
 - newThisRound: eslashacc, fairofun, gugusquadnft
