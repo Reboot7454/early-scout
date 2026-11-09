@@ -20,10 +20,11 @@
 - alertMessage: （空）
 - xReads=8 / remainingBefore=913 / remaining=905 / mode=ample / softCap=28 / ufCursor=644→694
 - tenLanes: UF 644→694（50号：7 NF预跳 + 43 resolved；无新 NF/suspended；2批 profiles + 2批 from:）+ must/≤2h+focus 1次 + 2 KW（打新/挖矿/Elysium-Tape-GIWA-DogeEVM-BTC-Starknet）+ 1 follow-up（KOBUonBase profile，已在库外但 skip）+ soft-debt 本地刷新（Canton/Glaze/TokenWorks）。九栏+BTC/Starknet 均跑；无新收录；GIWA 仍 Ammora 噪音；DogeEVM/Tape/Starknet 本窗无可收新号。
-- discordPeekDeferred: true
+- discordPeekDeferred: false（已补 Peek → login_wall quiet cancel；cutoffs 未改；未催登录）
 - dsNote: DeepSeek insufficient_balance → dsFallback 本地 skip；无新收录。更新 sakura 343、Pandu 1126、Zaplo 813、BONK 仍 15:00、OrdiAgent 仍 18:00 并补税说明、elysium-pepes 无官钟、souls REVEAL、skitters 仍等 OpenSea+Elysium、HORNYHOOD 11/10 00:00 CST。
 - docsSynced: true
 - skipped: KOBUonBase 为既有 Base meme 侧 NFT（4949、WL 开、mint TBA、2026-07 起号/263粉/673帖）非极早期；Ammora/GIWA 等待名单噪音；Elynx/Elywizardz/Blurb/NibblersELY/MemeFund/PlunderPort/Mochi/Dawgz/Elysium Pass 已在库；Eely_elysium 仅为 RPC 基建；Forge_elysium 0粉空帖；henlo_eth 艺术家即将 mint 无独立新项目官号；MarsNexus 已在库且标骗局
 - scriptFix: 无
 - HashDoge/Genius/Corla/Flap: STOPPED
 - pushSha: c161ddc
+- Discord Peek R1499: login_wall quiet cancel（dc40_cards_r1499peek.json cardsAfterCutoff=0；cutoffs 未改仍 R1471 a1 19:12/backup 17:34/smart 17:01/a3 19:14；未催登录）
