@@ -1,169 +1,91 @@
 {
   "round": 1533,
-  "mode": "discord-alpha-40",
-  "completedAt": "2026-11-10 01:18 CST",
-  "timezone": "Asia/Shanghai",
+  "roundLabel": "R1533",
+  "checkedAt": "2026-11-10 01:21 CST",
   "notify": true,
-  "notifyReason": "new_admits",
-  "alertMessage": "DC补漏R1533新收4：fanatics-rh、believepadapp、artezydotfun、pixelmonsv2tr；面板 https://reboot7454.github.io/early-scout/",
-  "newAdmits": [
+  "alertMessage": "R1533新收7：DC补漏4（fanatics-rh/believepadapp/artezydotfun/pixelmonsv2tr）+雷达3：elyboys（5000 Elyboys即将在Elysium登场，elyboys.xyz）、elysiumtools（Elysium工具层+Lend即将上线，etools.services）、askpheme（读链AI，$PHEME已在Boxa上线）；Elytypes免费mint已于01:01开铸（OS elytype）；MutantClub GTD已开、WL约02:00 CST；Mintix 01:10称reveal完成；THE UNSEEN AL约03:00 CST；面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": false,
+  "discordPeekNote": "并行 DC Peek 已于 2026-11-10 01:18 CST 落地（mode=discord-alpha-40，gapIncomplete=true，discordPeekDeferred=false）。本 scout 合并其 4 张新卡 fanatics-rh/believepadapp/artezydotfun/pixelmonsv2tr，不再标记 deferred。",
+  "docsSynced": true,
+  "pushSha": null,
+  "tip": null,
+  "xReads": 8,
+  "remainingBefore": 490,
+  "remaining": 482,
+  "mode": "pace",
+  "softCap": 28,
+  "ufCursor": "200→218",
+  "xQuota": {
+    "xReads": 8,
+    "remainingBefore": 490,
+    "remaining": 482,
+    "mode": "pace",
+    "softCap": 28,
+    "ufCursorBefore": 200,
+    "ufCursor": 218,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-10 01:21 CST"
+  },
+  "dsFallback": true,
+  "dsNote": "DeepSeek HTTP 402 Insufficient Balance（request_id e4a2485c-c996-48ae-8c63-c391cde2577a）→ dsFallback；未重试。本地 heuristics 做 admit/score/文案/alert。",
+  "newThisRound": [
     "fanatics-rh",
     "believepadapp",
     "artezydotfun",
-    "pixelmonsv2tr"
+    "pixelmonsv2tr",
+    "elyboys",
+    "elysiumtools",
+    "askpheme"
   ],
-  "newCount": 4,
-  "newIds": [
-    "fanatics-rh",
-    "believepadapp",
-    "artezydotfun",
-    "pixelmonsv2tr"
+  "newAdmitsDetail": [
+    {
+      "id": "fanatics-rh",
+      "source": "discord-alpha-40"
+    },
+    {
+      "id": "believepadapp",
+      "source": "discord-alpha-40"
+    },
+    {
+      "id": "artezydotfun",
+      "source": "discord-alpha-40"
+    },
+    {
+      "id": "pixelmonsv2tr",
+      "source": "discord-alpha-40"
+    },
+    {
+      "id": "elyboys",
+      "name": "Elyboys",
+      "handle": "@Elyboysxyz",
+      "lane": "Elysium / 打新",
+      "oneLiner": "今日建号：5000 Elyboys coming soon on Elysium；官网 elyboys.xyz"
+    },
+    {
+      "id": "elysiumtools",
+      "name": "ElysiumTools",
+      "handle": "@ElysiumTools",
+      "lane": "Elysium / 打新",
+      "oneLiner": "今日建号：锁仓/归属/空投/质押/P2P 工具层；预告 Elysium Lend（HL 期货抵押借 USDC）；官网 etools.services"
+    },
+    {
+      "id": "askpheme",
+      "name": "Pheme",
+      "handle": "@AskPheme",
+      "lane": "Elysium / 打新",
+      "oneLiner": "$PHEME 称已在 Boxa 上线，CA 0x5835ade8…2ee4 未核验；读 Elysium 的链上 AI；官网 askpheme.xyz"
+    }
   ],
   "skipped": [
     {
-      "id": "yinguan179514",
-      "reason": "无产品/发射/玩法线索"
-    },
-    {
-      "id": "pnrsolana",
-      "reason": "无产品/发射/玩法线索"
-    },
-    {
-      "id": "pfunbd",
-      "reason": "Elysium猎人号无产品"
-    },
-    {
-      "id": "elysengine",
-      "reason": "Elysium猎人号无产品"
-    },
-    {
-      "id": "mdrashed69",
-      "reason": "bio过短空壳或仅跟踪噪音"
-    },
-    {
-      "id": "upstonktrade",
-      "reason": "Elysium猎人号无产品"
-    },
-    {
-      "id": "cryptobaiana",
-      "reason": "Elysium猎人号无产品"
-    },
-    {
-      "id": "saharadevvv",
-      "reason": "无产品/发射/玩法线索"
-    },
-    {
-      "id": "stealing-d-show",
-      "reason": "Elysium猎人号无产品"
-    },
-    {
-      "id": "justtiltapp",
-      "reason": "无产品/发射/玩法线索"
-    },
-    {
-      "id": "joezazamalala",
-      "reason": "bio过短空壳或仅跟踪噪音"
-    },
-    {
-      "id": "gresp5",
-      "reason": "bio过短空壳或仅跟踪噪音"
-    },
-    {
-      "id": "aditfrank59",
-      "reason": "bio过短空壳或仅跟踪噪音"
-    },
-    {
-      "id": "tezos2030",
-      "reason": "Elysium猎人号无产品"
-    },
-    {
-      "id": "novasuperintel",
-      "reason": "bio过短空壳或仅跟踪噪音"
-    },
-    {
-      "id": "mruialm",
-      "reason": "Elysium猎人号无产品"
-    },
-    {
-      "id": "elyproofsite",
-      "reason": "Elysium猎人号无产品"
-    },
-    {
-      "id": "itsvanshkashyap",
-      "reason": "无产品/发射/玩法线索"
-    },
-    {
-      "id": "aries-web30",
-      "reason": "无产品/发射/玩法线索"
-    },
-    {
-      "id": "socomodegarfo",
-      "reason": "无产品/发射/玩法线索"
-    },
-    {
-      "id": "thakimapachuau",
-      "reason": "bio过短空壳或仅跟踪噪音"
-    },
-    {
-      "id": "yustria-alpaka",
-      "reason": "Elysium猎人号无产品"
-    },
-    {
-      "id": "whitesagency",
-      "reason": "bio过短空壳或仅跟踪噪音"
-    },
-    {
-      "id": "xwxomcg",
-      "reason": "无产品/发射/玩法线索"
-    },
-    {
-      "id": "sharia-nafij69",
-      "reason": "bio过短空壳或仅跟踪噪音"
-    },
-    {
-      "id": "eliasbeiar",
-      "reason": "无产品/发射/玩法线索"
-    },
-    {
-      "id": "danbirminghamvc",
-      "reason": "bio过短空壳或仅跟踪噪音"
-    },
-    {
-      "id": "mavriax",
-      "reason": "bio过短空壳或仅跟踪噪音"
-    },
-    {
-      "id": "bigbellypeng",
-      "reason": "无产品/发射/玩法线索"
-    },
-    {
-      "id": "lovex-055",
-      "reason": "bio过短空壳或仅跟踪噪音"
-    },
-    {
-      "id": "denn473698",
-      "reason": "bio过短空壳或仅跟踪噪音"
-    },
-    {
-      "id": "godweeno",
-      "reason": "bio过短空壳或仅跟踪噪音"
-    },
-    {
-      "id": "kingjavis33",
-      "reason": "bio过短空壳或仅跟踪噪音"
-    },
-    {
-      "id": "shanjay-web3",
-      "reason": "bio过短空壳或仅跟踪噪音"
-    },
-    {
-      "id": "arkisxyz",
-      "reason": "bio过短空壳或仅跟踪噪音"
+      "handle": "@elysiumdogecoin",
+      "reason": "今日建号自称 Official Elysium Dogecoin / $EDOGE on Ascend，但空 bio、无官网、无 CA、短时间刷 25 帖，判空壳喊单不收"
     }
   ],
-  "cardsAfterLastSeen": 53,
-  "clearedPrevNewThisRound": true,
-  "prevNewThisRoundCleared": [
+  "clearedPrevNTR": [
+    "kyroselysium",
+    "pearlrbh",
+    "cyberelysiumon",
     "hypesium",
     "elysian-veil",
     "perpely",
@@ -171,67 +93,32 @@
     "vextra-trade",
     "candle-elysium",
     "streampad",
-    "the-unseen-anons",
-    "kyroselysium",
-    "pearlrbh",
-    "cyberelysiumon"
+    "the-unseen-anons"
   ],
-  "candidateFlagsCleared": 11,
-  "topNewThisRoundCleared": [
-    "hypesium",
-    "elysian-veil",
-    "perpely",
-    "usecomo",
-    "vextra-trade",
-    "candle-elysium",
-    "streampad",
-    "the-unseen-anons",
-    "kyroselysium",
-    "pearlrbh",
-    "cyberelysiumon"
+  "mergedParallel": "R1533 Discord alpha 40补漏 (9d22d30 / 24bc066) + X scout",
+  "tenLanes": "R1533 雷达主扫。UF 200→218（15 valid +2 known-NF skip DubbllePadX/BNBS_ai +1 new NF SealzHood；12 zeroPosts）+ must/≤2h×1（Elytypess/RHMintix/TheUnseenAnons/TheMutantClub/ElysiumOutlaws）+ KW×4（打新/台子 + Elysium/Tape/GIWA/DogeEVM + LZ/BTC/Starknet/挖矿 + 缺口/Starknet mentions 合并）+ 新号核验 profiles×1。九栏+BTC/Starknet/GIWA 均跑。并行 DC Peek 4 卡已合并。",
+  "le2h": [
+    "elytypes",
+    "themutantclub",
+    "rhmintix",
+    "the-unseen-anons"
   ],
-  "discordPeekDeferred": false,
-  "dsFallback": true,
-  "dsUsage": "deepseek-flash admits=39",
-  "coverage": "discord-alpha #alpha-1 only",
-  "discordAlphaPeek": {
-    "deferred": false,
-    "lastSeen": "2026-11-10 01:14",
-    "lastChecked": "2026-11-10 01:18 CST",
-    "newestCardTime": "2026-11-10 01:14",
-    "cardsAfterCutoff": 53,
-    "note": "R1533：Discord alpha 补收 fanatics-rh,believepadapp,artezydotfun,pixelmonsv2tr；跳过 [{'id': 'yinguan179514', 'reason': '无产品/发射/玩法线索'}, {'id': 'pnrsolana', 'reason': '无产品/发射/玩法线索'}, {'id': 'pfunbd', 'reason': 'Elysium猎人号无产品'}, {'id': 'elysengine', 'reason': 'Elysium猎人号无产品'}, {'id': 'mdrashed69', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'upstonktrade', 'reason': 'Elysium猎人号无产品'}, {'id': 'cryptobaiana', 'reason': 'Elysium猎人号无产品'}, {'id': 'saharadevvv', 'reason': '无产品/发射/玩法线索'}, {'id': 'stealing-d-show', 'reason': 'Elysium猎人号无产品'}, {'id': 'justtiltapp', 'reason': '无产品/发射/玩法线索'}, {'id': 'joezazamalala', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'gresp5', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'aditfrank59', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'tezos2030', 'reason': 'Elysium猎人号无产品'}, {'id': 'novasuperintel', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'mruialm', 'reason': 'Elysium猎人号无产品'}, {'id': 'elyproofsite', 'reason': 'Elysium猎人号无产品'}, {'id': 'itsvanshkashyap', 'reason': '无产品/发射/玩法线索'}, {'id': 'aries-web30', 'reason': '无产品/发射/玩法线索'}, {'id': 'socomodegarfo', 'reason': '无产品/发射/玩法线索'}, {'id': 'thakimapachuau', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'yustria-alpaka', 'reason': 'Elysium猎人号无产品'}, {'id': 'whitesagency', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'xwxomcg', 'reason': '无产品/发射/玩法线索'}, {'id': 'sharia-nafij69', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'eliasbeiar', 'reason': '无产品/发射/玩法线索'}, {'id': 'danbirminghamvc', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'mavriax', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'bigbellypeng', 'reason': '无产品/发射/玩法线索'}, {'id': 'lovex-055', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'denn473698', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'godweeno', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'kingjavis33', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'shanjay-web3', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'arkisxyz', 'reason': 'bio过短空壳或仅跟踪噪音'}]；清 hypesium,elysian-veil,perpely,usecomo,vextra-trade,candle-elysium,streampad,the-unseen-anons,kyroselysium,pearlrbh,cyberelysiumon；lastSeen→2026-11-10 01:14；lastChecked→2026-11-10 01:18 CST",
-    "lastRound": 1533,
-    "lastSeenByChannel": {
-      "alpha-3-new-accounts": "2026-11-10 01:14",
-      "alpha-1-backup": "2026-11-09 22:34",
-      "smart-accounts-tracker": "2026-11-10 01:03",
-      "alpha-1": "2026-11-10 01:14"
-    }
-  },
-  "push": {
-    "attempted": true,
-    "ok": true,
-    "sha": "9d22d30",
-    "remoteVerified": true
-  },
-  "panel": "https://reboot7454.github.io/early-scout/",
-  "summary": "R1533：Discord alpha 补收 fanatics-rh,believepadapp,artezydotfun,pixelmonsv2tr；跳过 [{'id': 'yinguan179514', 'reason': '无产品/发射/玩法线索'}, {'id': 'pnrsolana', 'reason': '无产品/发射/玩法线索'}, {'id': 'pfunbd', 'reason': 'Elysium猎人号无产品'}, {'id': 'elysengine', 'reason': 'Elysium猎人号无产品'}, {'id': 'mdrashed69', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'upstonktrade', 'reason': 'Elysium猎人号无产品'}, {'id': 'cryptobaiana', 'reason': 'Elysium猎人号无产品'}, {'id': 'saharadevvv', 'reason': '无产品/发射/玩法线索'}, {'id': 'stealing-d-show', 'reason': 'Elysium猎人号无产品'}, {'id': 'justtiltapp', 'reason': '无产品/发射/玩法线索'}, {'id': 'joezazamalala', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'gresp5', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'aditfrank59', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'tezos2030', 'reason': 'Elysium猎人号无产品'}, {'id': 'novasuperintel', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'mruialm', 'reason': 'Elysium猎人号无产品'}, {'id': 'elyproofsite', 'reason': 'Elysium猎人号无产品'}, {'id': 'itsvanshkashyap', 'reason': '无产品/发射/玩法线索'}, {'id': 'aries-web30', 'reason': '无产品/发射/玩法线索'}, {'id': 'socomodegarfo', 'reason': '无产品/发射/玩法线索'}, {'id': 'thakimapachuau', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'yustria-alpaka', 'reason': 'Elysium猎人号无产品'}, {'id': 'whitesagency', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'xwxomcg', 'reason': '无产品/发射/玩法线索'}, {'id': 'sharia-nafij69', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'eliasbeiar', 'reason': '无产品/发射/玩法线索'}, {'id': 'danbirminghamvc', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'mavriax', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'bigbellypeng', 'reason': '无产品/发射/玩法线索'}, {'id': 'lovex-055', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'denn473698', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'godweeno', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'kingjavis33', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'shanjay-web3', 'reason': 'bio过短空壳或仅跟踪噪音'}, {'id': 'arkisxyz', 'reason': 'bio过短空壳或仅跟踪噪音'}]；清 hypesium,elysian-veil,perpely,usecomo,vextra-trade,candle-elysium,streampad,the-unseen-anons,kyroselysium,pearlrbh,cyberelysiumon；lastSeen→2026-11-10 01:14；lastChecked→2026-11-10 01:18 CST",
-  "remoteVerified": true,
-  "cardsFile": "dc40_cards_r1533.json",
-  "priorRoundNote": "R1532 meta NTR ['kyroselysium', 'pearlrbh', 'cyberelysiumon', 'hypesium', 'elysian-veil', 'perpely', 'usecomo', 'vextra-trade', 'candle-elysium', 'streampad', 'the-unseen-anons']; cardsAfterCutoff=53",
-  "dsNote": "ERROR: HTTP Error 402: Payment Required → /tmp/dc40_local_fallback_admit.py strict local",
-  "lastSeenByChannel": {
-    "alpha-3-new-accounts": "2026-11-10 01:14",
-    "alpha-1-backup": "2026-11-09 22:34",
-    "smart-accounts-tracker": "2026-11-10 01:03",
-    "alpha-1": "2026-11-10 01:14"
-  },
-  "gapIncomplete": true,
-  "spideyPosting": true,
-  "alert": "DC补漏R1533新收4：fanatics-rh、believepadapp、artezydotfun、pixelmonsv2tr；面板 https://reboot7454.github.io/early-scout/",
-  "pushSha": "9d22d30",
-  "tip": "9d22d30",
-  "pushShaFull": "9d22d3029ba651550d31de4717e4e39d70e8a3d9",
-  "docsSynced": true
+  "keyUpdates": [
+    "elytypes 01:01 CST mint LIVE（OS elytype，自称唯一验证页）；并预告 $ELYTYPES 1B、CA 待官宣",
+    "themutantclub 01:00 CST GTD mint LIVE；WL 02:00 CST；免费 1/钱包；OS themutantclub-official",
+    "rhmintix Public 01:00 CST 后 01:10 称 reveal complete；AfterGames 约 48h",
+    "the-unseen-anons 无新帖；AL 仍约 03:00 CST（现已 ≤2h）",
+    "elysium-outlaws 本窗无新帖，维持 R1532 539/555 将罄",
+    "agenticrobotrbh 仍指向 $Robot 21:00 CST / factory 22:00 CST",
+    "dualforge-bsc 称 perpetual edition 回归",
+    "launchova $LOVA 称已在 Robinhood Chain 上线（CA 未核验）",
+    "elyscan 浏览器功能更新（Contract/Top Accounts/Stats）",
+    "SealzHood 新 NF，已写入 NF_skip/notFound",
+    "softDebt canton/glaze/tokenworks lastChecked refreshed",
+    "merged parallel DC peek 4 cards fanatics-rh/believepadapp/artezydotfun/pixelmonsv2tr"
+  ],
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED"
 }
