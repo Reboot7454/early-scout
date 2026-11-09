@@ -26,5 +26,5 @@
 - skipped: Kurogane/Ammora/GIWA 等待名单噪音；第三方青蛙今晚分档不覆盖 elysium-pepes 官推；thedawgzrh 社区 WL 喊单已在库；ONTRENCH/HI-SCORE/黄金矿工已在库仅软刷
 - scriptFix: 无
 - HashDoge/Genius/Corla/Flap: STOPPED
-- pushSha: pending
+- pushSha: bcb19c3
 
