@@ -1,0 +1,78 @@
+{
+  "round": 1504,
+  "roundLabel": "R1504",
+  "checkedAt": "2026-11-09 15:22 CST",
+  "newThisRound": [
+    "pepe-agent"
+  ],
+  "clearedPrevNTR": [],
+  "le2h": [
+    "PepeAgent 今日 16:00 CST（新收录，le2h=true；约40分钟）",
+    "BONK Agent 今日 15:00 CST 已开铸（续，le2h=true；链上 totalMinted=2；页面 UI 滞后示 0）"
+  ],
+  "notify": true,
+  "alertMessage": "新收录 PepeAgent ≤2h：今日16:00 CST开铸（0.003BNB·Agent ID·CA已部署）。BONK已开铸（链上minted=2）。面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": true,
+  "docsSynced": true,
+  "dsNote": "DeepSeek insufficient_balance → dsFallback；本地 admit PepeAgent；刷新 BONK LIVE minted=2、OrdiAgent 18:00、Pandu 1693、AKITA free 或尽。",
+  "dsFallback": true,
+  "xQuota": {
+    "xReads": 12,
+    "remainingBefore": 865,
+    "remaining": 854,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 894,
+    "ufCursor": 944,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-09 15:22 CST",
+    "note": "API-call xReads=12；mode=ample lastFullAfterReset=R1492；DS insufficient_balance → dsFallback；新收录 pepe-agent；BONK LIVE minted=2；Pepe ≤2h 16:00"
+  },
+  "onchain": {
+    "bonkagent": {
+      "totalMinted": 2,
+      "tokenTotalSupply": 75150000000,
+      "mintOpen": true,
+      "pageUI": "stale shows 0"
+    },
+    "pandu-agent": {
+      "totalSupply": 1693,
+      "maxSupply": 2222
+    },
+    "pepe-agent": {
+      "contract": "0xdA64D6fc69FeC469560D9084Bd32C9E4F0ece169",
+      "opensAt": "2026-11-09 16:00 CST",
+      "mintOpen": false
+    }
+  },
+  "keyUpdates": [
+    "admit pepe-agent ≤2h 16:00 CST",
+    "BONK LIVE totalMinted=2",
+    "OrdiAgent still 18:00",
+    "Pandu 1693/2222",
+    "AKITA free reportedly sold out (unverified CA)"
+  ],
+  "skipped": [
+    "AgentIsland (no official handle)",
+    "LuckyCat/Postmark surge spam",
+    "Ammora/GIWA noise",
+    "Deadpool ordinals spam"
+  ],
+  "lastFullAfterReset": "R1492",
+  "tenLanes": "UF 894→944（50：4 NF +1 suspended +45 resolved；2批 profiles）+ must/≤2h profiles+posts（BONK/Ordi/Pandu）+ 3 KW + soft-debt。九栏+BTC/Starknet 均跑；新收录 pepe-agent；GIWA 仍 deuslaunch 噪音；DogeEVM/Tape/Starknet/LZ/BTC 本窗无可收新号。",
+  "scriptFix": "none",
+  "discordPeekStatus": "deferred",
+  "discordPeekNote": "no browser/desktop → discordPeekDeferred=true",
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED",
+  "pushSha": null,
+  "tip": null,
+  "xReads": 12,
+  "remainingBefore": 865,
+  "remaining": 854,
+  "mode": "ample",
+  "softCap": 28,
+  "ufCursor": "894→944"
+}

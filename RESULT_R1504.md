@@ -1,0 +1,23 @@
+# R1504 早期打新雷达 RESULT（2026-11-09 15:22 CST）
+
+- round: R1504
+- newThisRound: pepe-agent（@PepeAgentbnb）
+- clearedPrevNTR: （无；R1503 已清 agent-akita）
+- ≤2h: PepeAgent 今日 16:00 CST（新收录，约40分钟）；BONK Agent 今日 15:00 CST 已开铸（链上 totalMinted=2，页面 UI 滞后示 0）。OrdiAgent 今日 18:00 CST（约 16:00 起算 ≤2h）；BLURB 今日 23:00 CST；erupt-fun 今日 20:00 CST；HORNYHOOD 11/10 00:00 CST；elytypes 11/10 01:00 CST；souls-elysium 与 InkMiners 均为 11/10 04:00 CST。
+- BONK Agent: 开窗后 eth_call totalMinted()=2；token totalSupply≈75.15B；页面仍显示 Free 0/1000、Total minted 0；粉 526
+- OrdiAgent: 官推「About 3 hours to go」确认 18:00 CST；付费档续；合约未部署；粉 480
+- Pandu: 链上 totalSupply=1693/2222（+126 vs R1503 1567）
+- PepeAgent: 新收录；官网 pepeagent.live；CA 0xdA64…e169；0.003 BNB×10000；16:00 CST；粉 61
+- lastFullAfterReset: R1492（本轮 ample，未再跑 post-reset-full）
+- notify: true
+- alertMessage: 新收录 PepeAgent ≤2h：今日16:00 CST开铸（0.003BNB·Agent ID·CA已部署）。BONK已开铸（链上minted=2）。面板 https://reboot7454.github.io/early-scout/
+- xReads=12 / remainingBefore=865 / remaining=854 / mode=ample / softCap=28 / ufCursor=894→944
+- tenLanes: UF 894→944（50：4 NF +1 suspended +45 resolved；2批 profiles）+ must/≤2h profiles+posts（BONK/Ordi/Pandu）+ 3 KW + soft-debt。九栏+BTC/Starknet 均跑；新收录 pepe-agent；GIWA 仍 deuslaunch 噪音；DogeEVM/Tape/Starknet/LZ/BTC 本窗无可收新号。
+- discordPeekDeferred: true（无 browser/desktop；本轮跳过 Peek）
+- dsNote: DeepSeek insufficient_balance → dsFallback；本地 admit PepeAgent；刷新 BONK LIVE minted=2、OrdiAgent 18:00、Pandu 1693、AKITA free 或尽。
+- docsSynced: true
+- skipped: AgentIsland（无明确官推）；LuckyCat/Postmark surge 噪音；GIWA deuslaunch 刷屏；Deadpool ordinals 垃圾盘
+- scriptFix: 无
+- HashDoge/Genius/Corla/Flap: STOPPED
+- pushSha: (pending)
+- tip: (pending)
