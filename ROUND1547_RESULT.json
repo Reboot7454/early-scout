@@ -1,0 +1,131 @@
+{
+  "round": 1547,
+  "roundLabel": "R1547",
+  "checkedAt": "2026-11-10 06:05 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+le2h",
+  "alertMessage": "R1547新收4：afloat(@afloatclouds，Solana Raydium发射台今日建号粉50，$AFLOAT LIVE)；gotcha(@gotchadotmeme，Solana发射台粉14持币换宝可梦卡包 LIVE)；first-light-eth(@firstlighteth，ETH免费星座NFT mint LIVE)；zealz(@ZEALZdotfun，Zcash跨链发射台约24h上线)。≤2h LIVE续盯：ORVYN代币CA 0xd610b7d915dc58d92fc85e0f0174b71ed73cb650+NFT mint仍LIVE；InkMiners mint仍LIVE（0.00018 ETH/333/Ink）；GrimPixels GTD进行中约进FCFS。https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": true,
+  "discordPeekNote": "prefer in-repo/skip heavy Peek this round; R1546 just peeked; lastSeenByChannel unchanged from R1546",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-10 05:26",
+    "alpha-1-backup": "2026-11-10 02:49",
+    "smart-accounts-tracker": "2026-11-10 05:27",
+    "alpha-1": "2026-11-10 05:13"
+  },
+  "docsSynced": true,
+  "pushSha": null,
+  "tip": null,
+  "xReads": 14,
+  "remainingBefore": 351,
+  "remaining": 337,
+  "mode": "pace",
+  "softCap": 28,
+  "ufCursor": {
+    "before": 400,
+    "after": 440
+  },
+  "ufCursorBefore": 400,
+  "ufCursorAfter": 440,
+  "xQuota": {
+    "xReads": 14,
+    "remainingBefore": 351,
+    "remaining": 337,
+    "mode": "pace",
+    "softCap": 28,
+    "ufCursorBefore": 400,
+    "ufCursor": 440,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-10 06:05 CST",
+    "note": "UF400→440 + must/≤2h×1 + KW×5 + mentions Starknet×1 + profiles×3；新收4；ORVYN/InkMiners/GrimPixels ≤2h LIVE；DS成功；discordPeekDeferred"
+  },
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking on；admit/score/alert ok",
+  "newThisRound": [
+    "afloat",
+    "gotcha",
+    "first-light-eth",
+    "zealz"
+  ],
+  "newIds": [
+    "afloat",
+    "gotcha",
+    "first-light-eth",
+    "zealz"
+  ],
+  "newCount": 4,
+  "newAdmitsDetail": [
+    {
+      "id": "afloat",
+      "handle": "@afloatclouds",
+      "oneLiner": "Solana Raydium LaunchLab 发射台；今日建号粉50；$AFLOAT LIVE；金库补仓叙事"
+    },
+    {
+      "id": "gotcha",
+      "handle": "@gotchadotmeme",
+      "oneLiner": "Solana memecoin发射台；持币50%费换宝可梦卡包；粉14 LIVE；CA 31h3hej…TcHa"
+    },
+    {
+      "id": "first-light-eth",
+      "handle": "@firstlighteth",
+      "oneLiner": "ETH免费 constellation NFT；按首笔交易年份定稀有；1/钱包 mint LIVE"
+    },
+    {
+      "id": "zealz",
+      "handle": "@ZEALZdotfun",
+      "oneLiner": "Zcash跨链原生对发射台；shielded；约24h上线；粉2330"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "wikifork",
+      "handle": "@wikifork",
+      "reason": "DS skip：粉≈6532，早期窗口不足/偏过热"
+    },
+    {
+      "id": "bibiai-meme",
+      "handle": "@BIBIAI_MEME",
+      "reason": "DS skip：库内已有 bibi-ai；建号较早粉3409"
+    },
+    {
+      "id": "CachetDotFun",
+      "handle": "@CachetDotFun",
+      "reason": "UF shard suspended，写入 ufNF.newSuspended"
+    }
+  ],
+  "clearedPrevNTR": [
+    "cardinal-labs",
+    "frenzz-1515",
+    "elpadfun",
+    "volt-kids",
+    "x402fi"
+  ],
+  "le2h": [
+    {
+      "id": "orvyn-universe",
+      "note": "NFT FREE mint 仍 LIVE；$ORVYN 代币约04:41 CST LIVE，CA 0xd610b7d915dc58d92fc85e0f0174b71ed73cb650"
+    },
+    {
+      "id": "ink-miners",
+      "note": "mint 仍 LIVE；0.00018 ETH / 333 / Ink OpenSea；开于04:00 CST"
+    },
+    {
+      "id": "grim-pixels-rh",
+      "note": "GTD mint进行中；创始人称约30min进FCFS；官推Delist；RH 699 freemint"
+    }
+  ],
+  "keyUpdates": [
+    "orvyn-universe → $ORVYN token + NFT mint still LIVE",
+    "ink-miners → mint still LIVE, no sold-out",
+    "grim-pixels-rh → upcoming→live GTD/FCFS window",
+    "CachetDotFun → suspended"
+  ],
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED",
+  "tenLanes": "R1547 雷达主扫。UF 400→440（40槽；prior NF/skip≈14；CachetDotFun suspended；BIBIAI→库内bibi-ai skip；余库内软刷）+ must/≤2h×1（Orvyn token+NFT LIVE + InkMiners LIVE + GrimPixels GTD→FCFS）+ KW×5（打新/台子、挖矿、Elysium、Tape/GIWA/DogeEVM、GO/LZ/BTC/Stark/WL）+ mentions Starknet×1（无新发射挂靠）+ 新号profiles×3。九栏+BTC/Starknet/GIWA均跑。discordPeekDeferred。",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1547新收4（afloat/gotcha/first-light-eth/zealz）；ORVYN/InkMiners/GrimPixels≤2h LIVE续；UF400→440；xReads14 rem351→337；docsSynced待推送确认"
+}
