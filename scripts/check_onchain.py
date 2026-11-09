@@ -147,7 +147,23 @@ def main() -> int:
         oc = c.get("onchain")
         if not oc or not oc.get("contract"):
             continue
-        chain = (oc.get("chainId") or "").lower()
+        raw_chain = oc.get("chain") or oc.get("chainId") or ""
+        # normalize: accept "base"/"BNB Chain"/56/etc.
+        CHAIN_ALIASES = {
+            "1": "ethereum", "eth": "ethereum", "ethereum": "ethereum",
+            "56": "bsc", "bnb": "bsc", "bsc": "bsc", "bnb chain": "bsc",
+            "8453": "base", "base": "base",
+            "ink": "ink", "robinhood": "robinhood",
+        }
+        # BSC not in RPCS map historically — map to ethereum-like skip unless added
+        key = str(raw_chain).strip().lower()
+        chain = CHAIN_ALIASES.get(key, key)
+        # Prefer explicit EVM_CHAINS name from oc.chain string tokens
+        if chain not in EVM_CHAINS:
+            for token in ("ethereum", "base", "ink", "robinhood"):
+                if token in key:
+                    chain = token
+                    break
         addr = oc["contract"]
         if chain not in EVM_CHAINS:
             changes["skipped"] += 1

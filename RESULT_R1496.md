@@ -1,0 +1,27 @@
+# R1496 早期打新雷达 RESULT（2026-11-09 10:43 CST）
+
+- round: R1496
+- newThisRound: （无）
+- clearedPrevNTR: （空，R1495 已无本轮新）
+- ≤2h: 无。BONK Agent 仍 15:00 CST（约 13:00 起才进 ≤2h）；souls-elysium 11/10 04:00 CST（REVEAL 已 LIVE）；elytypes 11/10 01:00 CST；elysium-pepes 仍「几小时内」经 AscendLaunch 至~10:40 无精确钟点 → le2h=false；skitters 仍等 OpenSea+Elysium；99901.fun Opens Nov 10。
+- the-long-necks: 348/400 仍 LIVE（base mainnet RPC）；≤2h 已过
+- skitters: 仍等 OpenSea+@Enter_Elysium 完全 live，无新钟点，le2h=false
+- BONK Agent: 续发付费 0.003 BNB/干跑页说明；链上 totalMinted=0；现非≤2h
+- medalbeasts: PUBLIC LIVE 自约 01:59 CST；粉≈299
+- elysium-pepes: 09:24 CST “few hours” 至~10:40 仍无钟点/CA
+- souls-elysium: 10:36 CST REVEAL IS LIVE；开铸仍 11/10 04:00 CST
+- 99901-fun: 官推 Opens Nov 10（库内 schedule 更新）
+- zaplonl: watching→live，官推 801/5555 mint open
+- 链上: Sakura 343/3333（+1）、LongNecks 348/400、BONK totalMinted=0、Pandu 750/2222
+- lastFullAfterReset: R1492（本轮 ample，未再跑 post-reset-full）
+- notify: false
+- alertMessage: （安静，无新收录且无 ≤2h 定点窗）
+- xReads=10 / remainingBefore=943 / remaining=933 / mode=ample / softCap=28 / ufCursor=494→544
+- tenLanes: UF 494→544（50号：6 NF/suspended 预跳 + 2 本轮新 NF/suspended lanternfield/robinhoodhormuz + 42 resolved；2批 profiles + 2批 from:）+ must/≤2h+focus 2次 + 2 KW（打新/挖矿/Elysium-Tape-GIWA-DogeEVM-BTC-Starknet）+ 1 follow-up（Elytypes/Pandu/Zaplo/Medal）+ soft-debt 本地刷新（Canton/Glaze/TokenWorks；Rhynotic 已在 focus）。九栏+BTC/Starknet 均跑；无新收录；GIWA 仍 Ammora 噪音；DogeEVM/Starknet/LZ/Tape 本窗无可收新号。
+- discordPeekDeferred: true
+- dsNote: DeepSeek insufficient_balance → dsFallback 本地 admit/skip；无新收录（skip kraterbet：占位 CA/非 mint；Ammora/GIWA 等待名单噪音；Kurogane/Blurb/Elytypes/Pandu/Zaplo/99901 已在库仅更新）。更新 sakura 343、BONK 仍 15:00、elysium-pepes 无钟点、souls REVEAL、zaplonl→live、99901 Nov10。
+- docsSynced: true
+- skipped: kraterbet（占位 CA）；Ammora/GIWA 等待名单噪音；Kurogane WL 刷屏已在库；第三方 Elytypes/Blurb 钟点不覆盖官推；Darkhorse/RGB 非本雷达主栏可操作窗
+- scriptFix: check_onchain.py 修复 chainId 为 int / 链名别名导致跳过的问题
+- HashDoge/Genius/Corla/Flap: STOPPED
+- pushSha: PENDING

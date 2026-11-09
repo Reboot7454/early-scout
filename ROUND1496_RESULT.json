@@ -1,0 +1,63 @@
+{
+  "round": 1496,
+  "roundLabel": "R1496",
+  "checkedAt": "2026-11-09 10:43 CST",
+  "newThisRound": [],
+  "clearedPrevNTR": [],
+  "le2h": [],
+  "notify": false,
+  "alertMessage": "",
+  "discordPeekDeferred": true,
+  "docsSynced": true,
+  "dsNote": "DeepSeek insufficient_balance → dsFallback; no new admits",
+  "dsFallback": true,
+  "xQuota": {
+    "xReads": 10,
+    "remainingBefore": 943,
+    "remaining": 933,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 494,
+    "ufCursor": 544
+  },
+  "onchain": {
+    "sakura-ronin": {
+      "totalMinted": 343,
+      "maxSupply": 3333
+    },
+    "the-long-necks": {
+      "totalSupply": 348,
+      "maxSupply": 400
+    },
+    "bonkagent": {
+      "totalMinted": 0
+    },
+    "pandu-agent": {
+      "totalSupply": 750,
+      "maxSupply": 2222
+    }
+  },
+  "keyUpdates": [
+    "sakura-ronin 343/3333",
+    "bonkagent still 15:00 CST totalMinted=0",
+    "elysium-pepes Ascend few-hours still no clock ~10:40",
+    "skitters wait OpenSea+Elysium",
+    "medelbeasts PUBLIC LIVE",
+    "souls-elysium REVEAL LIVE; mint 11/10 04:00",
+    "the-long-necks 348/400",
+    "pandu-agent 750/2222",
+    "zaplonl watching→live 801/5555",
+    "99901-fun Opens Nov 10"
+  ],
+  "skipped": [
+    "kraterbet-placeholder-CA",
+    "ammora-giwa-waitlist",
+    "kurogane-wl-spam",
+    "elytypes-thirdparty-clock-already-in-lib",
+    "blurb-thirdparty-nov9-already-announced"
+  ],
+  "lastFullAfterReset": "R1492",
+  "tenLanes": "UF+must+KW+soft-debt covered nine lanes + BTC/Starknet; no new admits",
+  "pushSha": "PENDING",
+  "scriptFix": "check_onchain.py chainId int/alias normalize"
+}
