@@ -1,7 +1,7 @@
 # R1532 early-scout RESULT（2026-11-10 00:52 CST）
 
 - round: R1532
-- pushSha/tip: PENDING
+- pushSha/tip: bae8dc2
 - mode: pace softCap=28
 - xReads: 13 | remainingBefore: 504 → remaining: 491 | ufCursor: 182→200
 - newThisRound: kyroselysium, pearlrbh, cyberelysiumon, hypesium, elysian-veil, perpely, usecomo, vextra-trade, candle-elysium, streampad, the-unseen-anons
