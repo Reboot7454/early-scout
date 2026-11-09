@@ -1,0 +1,118 @@
+{
+  "round": 1521,
+  "roundLabel": "R1521",
+  "checkedAt": "2026-11-09 20:36 CST",
+  "mode": "ample",
+  "softCap": 30,
+  "xReads": 11,
+  "remainingBefore": 689,
+  "remaining": 674,
+  "ufCursor": "51→72",
+  "xQuota": {
+    "xReads": 11,
+    "remainingBefore": 689,
+    "remaining": 674,
+    "mode": "ample",
+    "softCap": 30,
+    "ufCursorBefore": 51,
+    "ufCursor": 72,
+    "eveningReserve": 0,
+    "checkedAt": "2026-11-09 20:36 CST",
+    "note": "API-call xReads=11；x_budget.py 开跑示704，首个MCP header后剩688故 remainingBefore=689（他进程已耗约15）；末次 header remaining=674（轮内他进程约耗4）；DS 402 → dsFallback；无新收"
+  },
+  "newThisRound": [],
+  "newAdmitsDetail": [],
+  "clearedPrevNTR": [
+    "kabosu-agent",
+    "pepebsc",
+    "poffly",
+    "evermor"
+  ],
+  "noteRoundBump": "Confirmed local/remote tip 35af27b round=1520; this scout is R1521",
+  "le2h": [
+    "eslashacc Montra fair launch 21:00 CST ≤2h（CA待官推）",
+    "Pip TIME CARDS 21:09 CST ≤2h（totalSupply=0）",
+    "Cathereum 21:00 CST ≤2h（或随主网调整）",
+    "elysiumant 21:00 CST 1111/0.008 HYPE @kalosfun ≤2h（待主网）",
+    "Outlaws GTD 22:00 CST ≤2h（666 / 0.03 HYPE @kalosfun；条件=主网）",
+    "BLURB ≈22:36 CST ≤2h（4h countdown from 18:36）"
+  ],
+  "keyUpdates": [
+    "无新收；清空 R1520 newThisRound kabosu-agent/pepebsc/poffly/evermor",
+    "FREEDOM sold=31 持平，≤2h 已于20:30结束，仍 LIVE",
+    "Pandu 2173/2222（+79 vs R1520 2094）；官推 20:31 称 2165，本窗 RPC=2173",
+    "Ordi sold=15931 / Pepe 119 / BONK 4 / pepebsc totalMinted=0 均持平",
+    "Pip totalSupply=0 仍 21:09；eslashacc / poffly 仍无官方 CA",
+    "Erupt 官回确认 Elysium 主网未上线、mint 未开，顺延主网+1h",
+    "Blurb ≈22:36 已进入≤2h；Lotlings 23:00",
+    "UF 51→72（17 valid；blobsdotmeme 新 NF）"
+  ],
+  "onchain": {
+    "stonkit-freedom": {
+      "sold": 31,
+      "mintOpen": true,
+      "raisedBNB": 0.062,
+      "contract": "0x1D46c6d07238BBEEdE35B5fEcc7a773edCA76ef7"
+    },
+    "ordiagent": {
+      "sold": 15931,
+      "freeClaimed": 1000,
+      "nextShare": 15932,
+      "nextPriceBNB": 0.009,
+      "raisedBNB": 63.879
+    },
+    "pepe-agent": {
+      "totalMinted": 119,
+      "mintOpen": true
+    },
+    "pandu-agent": {
+      "totalMinted": 2173,
+      "maxSupply": 2222
+    },
+    "bonkagent": {
+      "totalMinted": 4
+    },
+    "pip-agent-world": {
+      "totalSupply": 0,
+      "contractDeployed": true
+    },
+    "kabosu-agent": {
+      "contract": "0x67fdd6c1bf9A4cDb969cE483F71Aacb1d8302eFD",
+      "contractDeployed": true,
+      "totalMinted": null,
+      "note": "totalMinted() reverted"
+    },
+    "pepebsc": {
+      "contract": "0x92b379d3807F68aD2bCfd013D831713D8C6dbdFB",
+      "totalMinted": 0,
+      "mintOpen": true
+    }
+  },
+  "tenLanes": "R1521 雷达主扫。UF 51→72（17 valid + 4 NF）+ must/≤2h×3 + KW×6。九栏+BTC/Starknet 均跑。无新收。",
+  "skipped": [
+    "SWORDCAT @FelixAusti48614 非品牌官号、粉5仅1帖，跳过",
+    "Ammora GIWA 复制粘贴刷屏跳过",
+    "Elysium Mainnet Registration 垃圾推荐码刷屏跳过",
+    "PlunderPort / Sakura Ronin / NUMBI / deuslaunch 已在库，聚合提及不重收",
+    "poffly 仍无 CA（20:18 CST 仅称 announcement up next）",
+    "eslashacc 仍无官方 CA",
+    "Obol 仿盘避开",
+    "HashDoge/Genius/Corla/Flap STOPPED 未重启"
+  ],
+  "docsSynced": true,
+  "notify": true,
+  "alertMessage": "R1521无新收；FREEDOM sold=31已过≤2h仍LIVE；Pandu 2173/2222（+79）；eslashacc/Pip/Cathereum/elysiumant≤2h；Outlaws GTD 22:00待主网；Blurb≈22:36已≤2h；Erupt官回确认主网未上线；面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": false,
+  "discordPeekNote": "R1519 Peek 已清；本轮 discordPeekDeferred=false，未 Peek",
+  "discordPeekStatus": "not-needed",
+  "dsFallback": true,
+  "dsNote": "DeepSeek HTTP 402 Insufficient Balance → dsFallback；无新收，本地刷新热窗/链上。",
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED",
+  "lastFullAfterReset": "R1492",
+  "pushSha": "pending",
+  "tip": "pending",
+  "pushShaFull": "pending"
+}
