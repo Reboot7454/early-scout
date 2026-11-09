@@ -1,7 +1,7 @@
 # R1530 early-scout RESULT（2026-11-09 23:37 CST）
 
 - round: R1530
-- pushSha/tip: pending
+- pushSha/tip: 3f0780b
 - mode: pace softCap=28
 - xReads: 21 | remainingBefore: 567 → remaining: 546 | ufCursor: 145→161
 - newThisRound: elysium-agent, hyperfarm, usegrainxyz, wiseguyz
