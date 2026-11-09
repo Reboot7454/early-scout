@@ -46,20 +46,21 @@ for k in list(meta):
     if n is not None and isinstance(r, int) and n < r - 30:
         meta.pop(k, None)
 # Prefer meta.newThisRound (source of truth); fall back to per-card flags.
-meta_ntr = [x for x in (meta.get("newThisRound") or []) if isinstance(x, str)]
-flag_ntr = [c.get("id") for c in slim if c.get("newThisRound") and c.get("id")]
-new = meta_ntr or flag_ntr
-if new:
-    meta["roundNAdded"] = new
-    meta["newThisRound"] = new
-    meta["round"] = r
-    # keep card flags aligned so older panel filters still work
-    want = set(new)
-    for c in slim:
-        if c.get("id") in want:
-            c["newThisRound"] = True
-        elif c.get("newThisRound") is True:
-            c["newThisRound"] = False
+# meta.newThisRound is source of truth — including empty list (no new admits).
+# Only fall back to per-card flags when the key is missing entirely.
+if "newThisRound" in meta:
+    new = [x for x in (meta.get("newThisRound") or []) if isinstance(x, str)]
+else:
+    new = [c.get("id") for c in slim if c.get("newThisRound") and c.get("id")]
+meta["roundNAdded"] = new
+meta["newThisRound"] = new
+meta["round"] = r
+want = set(new)
+for c in slim:
+    if c.get("id") in want:
+        c["newThisRound"] = True
+    elif c.get("newThisRound") is True:
+        c["newThisRound"] = False
 docs = {"meta": meta, "candidates": slim}
 for k, v in d.items():
     if k in ("meta", "candidates"):

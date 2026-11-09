@@ -1,0 +1,28 @@
+# R1512 早期打新雷达 RESULT（2026-11-09 17:42 CST）
+
+- round: R1512
+- newThisRound: （无）
+- clearedPrevNTR: R1511 的 coolkidrh / terseai-org / renounless / hypeliquidagent / nanferohq
+- ≤2h: OrdiAgent 今日 18:00 CST（合约未部署；官推约30min倒计时）；PepeAgent 今日 16:00 CST 已开铸（链上 minted=119；官网仍未开始；至18:00仍≤2h）
+- PepeAgent: 链上 totalMinted=119 mintOpen=true（R1510=117）；官网 Status=未开始（滞后）；粉 76
+- BONK Agent: 链上 totalMinted=2（持平）；le2h=false；官推号 Bonkagent_ 画像异常（名 Shams、0帖）需后续核验
+- OrdiAgent: 官推确认 18:00 CST；合约仍未部署；站点 Shares minted=—；粉 511
+- Pandu: 链上 totalSupply=1831/2222（+16 vs R1510 1815）
+- Erupt: 若主网未在 11:00 UTC 前上线则顺延至上线后1h（已过门槛→顺延）
+- Cathereum: WL已定；21:00 CST；官推称时刻或随 Elysium 主网调整
+- ElyAnt: 21:00 CST 1111 / 0.008 HYPE @kalosfun 续
+- Mori: 官推 Nov 11 @kalosfun wake；今日 Elysium Day 抽奖
+- Elytypes: 今日 WL 申请；第三方列 17:00UTC、库内 11/10 01:00 参考、官钟未钉
+- lastFullAfterReset: R1492（本轮 ample，未再跑 post-reset-full）
+- notify: true
+- alertMessage: OrdiAgent≤2h今日18:00开铸（合约未部署）。PepeAgent链上minted=119（官网仍未开始）。BONK minted=2已过2h。Pandu 1831/2222。无新收录。面板 https://reboot7454.github.io/early-scout/
+- xReads=24 / remainingBefore=792 / remaining=768 / mode=ample / softCap=28 / ufCursor=1094→1144
+- tenLanes: UF 1094→1144（50：profiles 2批；NF Haltercard）+ must/≤2h（Pepe/Ordi/Pandu/Cathereum/ElyAnt/Erupt/baoshi）+ Enter_Elysium + 6 KW + soft-debt（squeek/Tape/Starknet/BTC/GIWA/DogeEVM）+ LZ/GO。九栏+BTC/Starknet 均跑；无新收录；Tape/DogeEVM/Starknet/LZ/GIWA/GO 本窗无可收新号。
+- discordPeekDeferred: true（无 browser/desktop；本轮跳过 Peek，父代理补）
+- dsNote: DeepSeek insufficient_balance → dsFallback；本地刷新关键窗 + 修 sync_docs_panel.sh（空 newThisRound 不被旧卡 flag 覆盖）
+- docsSynced: true
+- scriptFix: sync_docs_panel.sh 尊重 meta.newThisRound=[]；清 R1511 残留卡 flag / 根级 newThisRound
+- skipped: sidecoo 无独立官推（仅第三方/CA 线索）不收；mouseragent 非发射；Annak0ox 系刷屏；Elysium 主网钟点仍未由 @Enter_Elysium 钉死；HashDoge/Genius/Corla/Flap STOPPED
+- HashDoge/Genius/Corla/Flap: STOPPED
+- pushSha: (pending)
+- tip: (pending)

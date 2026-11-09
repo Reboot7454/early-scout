@@ -1,0 +1,94 @@
+{
+  "round": 1512,
+  "roundLabel": "R1512",
+  "checkedAt": "2026-11-09 17:42 CST",
+  "newThisRound": [],
+  "clearedPrevNTR": [
+    "coolkidrh",
+    "terseai-org",
+    "renounless",
+    "hypeliquidagent",
+    "nanferohq"
+  ],
+  "le2h": [
+    "OrdiAgent 今日 18:00 CST（续 ≤2h；合约未部署；官推约30min倒计时）",
+    "PepeAgent 今日 16:00 CST 已开铸（链上 minted=119；官网仍未开始；至18:00仍≤2h）"
+  ],
+  "notify": true,
+  "alertMessage": "OrdiAgent≤2h今日18:00开铸（合约未部署）。PepeAgent链上minted=119（官网仍未开始）。BONK minted=2已过2h。Pandu 1831/2222。无新收录。面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": true,
+  "docsSynced": true,
+  "dsNote": "DeepSeek insufficient_balance → dsFallback；本地刷新 Pepe/BONK/Ordi/Pandu/Cathereum/ElyAnt/Erupt/Mori/Elytypes；修 sync 空 NTR。",
+  "dsFallback": true,
+  "xQuota": {
+    "xReads": 24,
+    "remainingBefore": 792,
+    "remaining": 768,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 1094,
+    "ufCursor": 1144,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-09 17:42 CST",
+    "note": "API-call xReads=24；mode=ample lastFullAfterReset=R1492；DS insufficient_balance → dsFallback；无新收录"
+  },
+  "onchain": {
+    "pepe-agent": {
+      "contract": "0xdA64D6fc69FeC469560D9084Bd32C9E4F0ece169",
+      "opensAt": "2026-11-09 16:00 CST",
+      "totalMinted": 119,
+      "mintOpen": true,
+      "pageStatus": "未开始（滞后）"
+    },
+    "bonkagent": {
+      "totalMinted": 2,
+      "mintOpen": true,
+      "le2h": false
+    },
+    "pandu-agent": {
+      "totalSupply": 1831,
+      "totalMinted": 1831,
+      "maxSupply": 2222
+    },
+    "ordiagent": {
+      "totalMinted": 0,
+      "contractDeployed": false,
+      "opensAt": "2026-11-09 18:00 CST"
+    }
+  },
+  "keyUpdates": [
+    "no new admits",
+    "Pepe LIVE on-chain minted=119 (site lag); still le2h until 18:00",
+    "OrdiAgent ≤2h 18:00 undeployed; 30min countdown post",
+    "BONK LIVE minted=2, le2h expired",
+    "Pandu 1831/2222 (+16)",
+    "Erupt deferred past 11UTC mainnet gate",
+    "Cathereum WL final; clock may slip with Elysium",
+    "Mori Nov 11 @kalosfun",
+    "sync_docs_panel.sh empty-NTR fix"
+  ],
+  "skipped": [
+    "sidecoo no official X (third-party/CA only)",
+    "mouseragent not a launch",
+    "Annak0ox spam cluster",
+    "Elysium mainnet clock still not pinned by @Enter_Elysium",
+    "HashDoge/Genius/Corla/Flap STOPPED"
+  ],
+  "lastFullAfterReset": "R1492",
+  "tenLanes": "UF 1094→1144（50：profiles 2批；NF Haltercard）+ must/≤2h（Pepe/Ordi/Pandu/Cathereum/ElyAnt/Erupt/baoshi）+ Enter_Elysium + 6 KW + soft-debt（Tape/Starknet/BTC/GIWA/DogeEVM/Elysium/squeek）+ LZ/GO。九栏+BTC/Starknet 均跑；无新收录；Tape/DogeEVM/Starknet/LZ/GIWA/GO 本窗无可收新号。",
+  "scriptFix": "sync_docs_panel.sh respect empty meta.newThisRound; clear R1511 stale card/root NTR flags",
+  "discordPeekStatus": "deferred",
+  "discordPeekNote": "no browser/desktop in executor → discordPeekDeferred=true；parent should Peek",
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED",
+  "pushSha": null,
+  "tip": null,
+  "xReads": 24,
+  "remainingBefore": 792,
+  "remaining": 768,
+  "mode": "ample",
+  "softCap": 28,
+  "ufCursor": "1094→1144"
+}
