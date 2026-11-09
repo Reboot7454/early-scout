@@ -57,12 +57,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "5edd3e2",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1548：Discord alpha 补收 asphodel-fi,duck-syndicate,wendex,testicles-hype,stoxa-trade；清 zealz,first-light-eth,gotcha,afloat；lastSeen→2026-11-10 06:04；lastChecked→2026-11-10 06:06 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1547.json",
   "priorRoundNote": "R1547 meta NTR ['afloat', 'gotcha', 'first-light-eth', 'zealz']; cardsAfterCutoff=47",
   "lastSeenByChannel": {
@@ -266,5 +268,9 @@
   ],
   "alert": "DC补漏R1548新收…；https://reboot7454.github.io/early-scout/",
   "gapIncomplete": true,
-  "spideyPosting": true
+  "spideyPosting": true,
+  "pushSha": "5edd3e2",
+  "tip": "5edd3e2",
+  "pushShaFull": "5edd3e22d0c41c6217f21e67a628c9ed7936b30e",
+  "docsSynced": true
 }
