@@ -1,0 +1,135 @@
+{
+  "round": 1545,
+  "roundLabel": "R1545",
+  "checkedAt": "2026-11-10 05:25 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+le2h",
+  "alertMessage": "R1545新收3：uppinfun（Solana Upside挂单市场，11/08建号粉158）、agntx-hq（Robinhood 2222像素NFT，mint未开）、launchfairly（Solana Raydium发射台，约6小时前建号粉185）；ORVYN代币约04:41 CST起LIVE（CA 0xd610b7d915dc58d92fc85e0f0174b71ed73cb650）且NFT免费mint仍LIVE；InkMiners mint仍LIVE（0.00018 ETH/333/Ink）。面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": true,
+  "discordPeekNote": "no browser/computerUse in this executor; lastSeenByChannel from R1544/R1543",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-10 04:36",
+    "alpha-1-backup": "2026-11-10 02:49",
+    "smart-accounts-tracker": "2026-11-10 04:03",
+    "alpha-1": "2026-11-10 04:25"
+  },
+  "gapIncomplete": true,
+  "docsSynced": true,
+  "pushSha": "PENDING",
+  "tip": "PENDING",
+  "xReads": 13,
+  "remainingBefore": 364,
+  "remaining": 351,
+  "mode": "pace",
+  "softCap": 28,
+  "ufCursor": {
+    "before": 360,
+    "after": 400
+  },
+  "ufCursorBefore": 360,
+  "ufCursorAfter": 400,
+  "xQuota": {
+    "xReads": 13,
+    "remainingBefore": 364,
+    "remaining": 351,
+    "mode": "pace",
+    "softCap": 28,
+    "ufCursorBefore": 360,
+    "ufCursor": 400,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-10 05:25 CST",
+    "note": "UF360→400 + must/≤2h×1 + KW×7 + mentions DogeOS×1 + 新号profiles×1；新收3；ORVYN/InkMiners ≤2h LIVE；DS成功；discordPeekDeferred"
+  },
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking on；admit/score/alert ok",
+  "newThisRound": [
+    "uppinfun",
+    "agntx-hq",
+    "launchfairly"
+  ],
+  "newAdmitsDetail": [
+    {
+      "id": "uppinfun",
+      "handle": "@uppinfun",
+      "oneLiner": "Solana Upside/看涨挂单市场；11/08建号粉158；本窗演示 $GTA6 挂单"
+    },
+    {
+      "id": "agntx-hq",
+      "handle": "@AGNTX_HQ",
+      "oneLiner": "Robinhood 2222像素NFT；粉1960；mint未开，社区称11/20未核验"
+    },
+    {
+      "id": "launchfairly",
+      "handle": "@LaunchFairly",
+      "oneLiner": "Solana Raydium Launchlab 发射台；约23:20 CST建号粉185"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "syndicaterhc",
+      "handle": "@SyndicateRHC",
+      "reason": "DS skip：官推未公布供给/价格/开窗，社区免费mint口径未核验"
+    },
+    {
+      "id": "staxfinance",
+      "handle": "@StaxFinance",
+      "reason": "DS skip：产品已运行数月（7月建号）且无新发窗口，早期不足"
+    },
+    {
+      "id": "elyspadonchain",
+      "handle": "@elyspadonchain",
+      "reason": "R1544已跳过（当日新建/TG发币机器人）；本窗仍粉2，续跳"
+    },
+    {
+      "id": "moondepartment1",
+      "handle": "@moondepartment1",
+      "reason": "当天新建粉4、空bio喊单，未送审"
+    },
+    {
+      "id": "Korinitrad",
+      "handle": "@Korinitrad",
+      "reason": "NF；疑似库内 @korinitrade 拼写，不连刷"
+    },
+    {
+      "id": "torpornet",
+      "handle": "@torpornet",
+      "reason": "UF shard 本轮新 NF，已写入 NF_skip"
+    },
+    {
+      "id": "bsc_bito",
+      "handle": "@bsc_bito",
+      "reason": "UF shard 本轮新 NF，已写入 NF_skip"
+    }
+  ],
+  "clearedPrevNTR": [
+    "pfwafun",
+    "nouns-elysium"
+  ],
+  "le2h": [
+    {
+      "id": "orvyn-universe",
+      "note": "NFT FREE mint 仍 LIVE（887/OpenSea）；$ORVYN 代币约 04:41 CST LIVE，CA 0xd610b7d915dc58d92fc85e0f0174b71ed73cb650；05:00 CST 仍在官宣"
+    },
+    {
+      "id": "ink-miners",
+      "note": "mint 仍 LIVE；0.00018 ETH / 333 / Ink OpenSea；开于 04:00 CST；本窗无新官帖/售罄"
+    }
+  ],
+  "keyUpdates": [
+    "orvyn-universe → $ORVYN token still LIVE + NFT mint still live",
+    "ink-miners → mint still live, no sold-out post",
+    "kurogane-fun → GTD/WL close 11/10 12:30 UTC (20:30 CST); kalosfun snapshot+four steps; fol 1680; coming soon on Elysium",
+    "asciienv → XP claim live on Elysium (0 HYPE + gas); then $ENV IDO + launchpad",
+    "home-of-elysium → one-tx launch + custom fees + 500d lock + Uni v4",
+    "elysium-pepes → $EPEPE not live yet; ignore third-party CAs",
+    "charonswap → 9.1M $CHARON burned; live across 4 launchpads"
+  ],
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED",
+  "tenLanes": "R1545 雷达主扫。UF 360→400（40槽；prior NF skip×8：Headroom_X/bnAgent_/AgentID_AI/PrinterAi_BNB/telefees_pump/agentkin_/AgenticHive/pitpadfun；new NF torpornet/bsc_bito；30 profiles 全在库）+ must/≤2h×1（Orvyn token+NFT LIVE + InkMiners LIVE）+ KW×7（打新/台子、挖矿/squeek、Elysium、Tape/GIWA/DogeEVM、GO、LZ/BTC/Starknet、WL/FCFS）+ mentions DogeOS×1（仅1条文化提问）+ 新号profiles×1（uppinfun/SyndicateRHC/StaxFinance/AGNTX_HQ/LaunchFairly/Kurogane_fun）。九栏+BTC/Starknet/GIWA 均跑。GIWA KW 仍 Ammora waitlist 刷量；LZ KW 仍 globemkts ATLAS 等待列表。discordPeekDeferred。",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "pushShaFull": "PENDING"
+}
