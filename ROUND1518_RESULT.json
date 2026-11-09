@@ -1,0 +1,144 @@
+{
+  "round": 1518,
+  "roundLabel": "R1518",
+  "checkedAt": "2026-11-09 19:27 CST",
+  "mode": "ample",
+  "softCap": 28,
+  "xReads": 9,
+  "remainingBefore": 713,
+  "remaining": 704,
+  "ufCursor": "11→31",
+  "xQuota": {
+    "xReads": 9,
+    "remainingBefore": 713,
+    "remaining": 704,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 11,
+    "ufCursor": 31,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-09 19:27 CST",
+    "note": "API-call xReads=9；接 remote R1517 Discord Peek 后本轮雷达主扫编号 R1518；DS 402 → dsFallback；新收5"
+  },
+  "newThisRound": [
+    "babydoge-agent",
+    "levvnube",
+    "fountainbnb",
+    "elytrafi",
+    "agentlifebnb"
+  ],
+  "newAdmitsDetail": [
+    {
+      "id": "babydoge-agent",
+      "handle": "@BabyDoge_Agent_",
+      "category": "打新",
+      "focus": false,
+      "x": "https://x.com/BabyDoge_Agent_",
+      "note": "Agent ID mint live 0.003 BNB"
+    },
+    {
+      "id": "levvnube",
+      "handle": "@Levvnube",
+      "category": "打新",
+      "focus": false,
+      "x": "https://x.com/Levvnube",
+      "note": "2222 mint；前222 FREE"
+    },
+    {
+      "id": "fountainbnb",
+      "handle": "@Fountainbnb",
+      "category": "打新",
+      "focus": false,
+      "x": "https://x.com/Fountainbnb",
+      "note": "$FOUNT Agent mint 填池"
+    },
+    {
+      "id": "elytrafi",
+      "handle": "@Elytrafi_",
+      "category": "Elysium生态",
+      "focus": false,
+      "x": "https://x.com/Elytrafi_",
+      "note": "prediction LIVE；≠ElytraNFT"
+    },
+    {
+      "id": "agentlifebnb",
+      "handle": "@Agentlifebnb",
+      "category": "打新",
+      "focus": false,
+      "x": "https://x.com/Agentlifebnb",
+      "note": "$ALIFE WL tasks"
+    }
+  ],
+  "clearedPrevNTR": [
+    "allofthestoken",
+    "obsidry",
+    "themonitor-bot",
+    "wick-terminal"
+  ],
+  "noteRoundBump": "Started targeting R1517 but remote already had R1517 Discord Peek (19:20 CST); this scout is R1518",
+  "le2h": [
+    "FREEDOM @Stonkitfun LIVE sold=31/10000（开于18:30，≤2h至20:30）",
+    "OrdiAgent LIVE sold=14692（开于18:00，≤2h至20:00）",
+    "Erupt @eruptdottfun 目标20:00 CST WL（或主网顺延）本窗≤2h",
+    "eslashacc Montra fair launch 21:00 CST ≤2h（CA待官推）",
+    "Pip TIME CARDS 21:09 CST ≤2h（totalSupply=0）"
+  ],
+  "keyUpdates": [
+    "admit babydoge-agent / levvnube / fountainbnb / elytrafi / agentlifebnb",
+    "FREEDOM sold=31 Ordi sold=14692 Pandu 1899/2222 Pepe 119 BONK 4",
+    "Blurb ~22:36 Lotlings 23:00 Ballast gen5 续",
+    "squeek 社区谣传 mint 未官宣；Erupt 过11UTC 条件窗"
+  ],
+  "onchain": {
+    "stonkit-freedom": {
+      "sold": 31,
+      "mintOpen": true,
+      "raisedBNB": 0.062,
+      "contract": "0x1D46c6d07238BBEEdE35B5fEcc7a773edCA76ef7"
+    },
+    "ordiagent": {
+      "sold": 14692,
+      "freeClaimed": 1000,
+      "nextShare": 14693,
+      "nextPriceBNB": 0.008
+    },
+    "pepe-agent": {
+      "totalMinted": 119,
+      "mintOpen": true
+    },
+    "pandu-agent": {
+      "totalMinted": 1899,
+      "maxSupply": 2222
+    },
+    "bonkagent": {
+      "totalMinted": 4
+    },
+    "pip-agent-world": {
+      "totalSupply": 0,
+      "contractDeployed": true
+    }
+  },
+  "tenLanes": "UF 11→31（14）+ must/≤2h + KW×4 + soft-debt。九栏+BTC/Starknet 均跑。接 R1517 DC 后雷达主扫。",
+  "skipped": [
+    "MateAiAgent 刷屏跳过",
+    "HATCHIEggy/Outlaws/Wheelpad/Plunder/Ammora/Jakdu 已在库",
+    "GIWA Ammora 噪音",
+    "squeek 0.05E 谣传未官宣",
+    "Obol 仿盘避开"
+  ],
+  "docsSynced": true,
+  "notify": true,
+  "alertMessage": "R1518新收5：babydoge-agent、levvnube、fountainbnb、elytrafi、agentlifebnb；FREEDOM sold=31；Ordi sold=14692；Erupt/eslashacc/Pip≤2h；面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": true,
+  "discordPeekNote": "本轮 scout 无 browser；R1517 DC Peek 已于19:20完成（a1 19:06/a3 19:17）；cutoffs 以 R1517 为准，待父代理酌情 gap-fill",
+  "discordPeekStatus": "deferred",
+  "dsFallback": true,
+  "dsNote": "DeepSeek HTTP 402 Insufficient Balance → dsFallback；本地 admit 5 + 热窗刷新。",
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED",
+  "lastFullAfterReset": "R1492",
+  "pushSha": null,
+  "tip": null
+}
