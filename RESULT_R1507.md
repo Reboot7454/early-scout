@@ -17,3 +17,6 @@
 - notify: true
 - alertMessage: 新收录 EGGO/ShadesElysium/Bythos/Vectra（DC补漏接R1506 deferred）。面板 https://reboot7454.github.io/early-scout/
 - docsSynced: true
+- pushSha: 94a2f83
+- tip: 94a2f83
+- remoteVerified: true
