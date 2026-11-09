@@ -24,5 +24,5 @@
 - scriptFix: sync_docs_panel.sh 尊重 meta.newThisRound=[]；清 R1511 残留卡 flag / 根级 newThisRound
 - skipped: sidecoo 无独立官推（仅第三方/CA 线索）不收；mouseragent 非发射；Annak0ox 系刷屏；Elysium 主网钟点仍未由 @Enter_Elysium 钉死；HashDoge/Genius/Corla/Flap STOPPED
 - HashDoge/Genius/Corla/Flap: STOPPED
-- pushSha: (pending)
-- tip: (pending)
+- pushSha: fe8c292
+- tip: fe8c292
