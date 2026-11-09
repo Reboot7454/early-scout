@@ -1,7 +1,7 @@
 # R1526 early-scout RESULT（2026-11-09 22:24 CST）
 
 - round: R1526
-- pushSha/tip: (pending)
+- pushSha/tip: 301043a
 - mode: ample softCap=33
 - xReads: 28 | remainingBefore: 612 → remaining: 586 | ufCursor: 113→129
 - newThisRound: globemkts
