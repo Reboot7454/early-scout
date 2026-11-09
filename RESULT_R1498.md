@@ -18,7 +18,7 @@
 - alertMessage: （空）
 - xReads=7 / remainingBefore=925 / remaining=918 / mode=ample / softCap=28 / ufCursor=594→644
 - tenLanes: UF 594→644（50号：12 NF/susp预跳 + Ainubsc 本轮 suspended + agentcityuk 本轮 NF + 36 resolved；2批 profiles + 2批 from:）+ must/≤2h+focus 1次 + 2 KW（打新/挖矿/Elysium-Tape-GIWA-DogeEVM-BTC-Starknet）+ soft-debt 本地刷新（Canton/Glaze/TokenWorks）。九栏+BTC/Starknet 均跑；无新收录；GIWA 仍 Ammora 噪音；DogeEVM/Tape/Starknet 本窗无可收新号。
-- discordPeekDeferred: true
+- discordPeekDeferred: false（已补 Peek → login_wall quiet cancel；cutoffs 未改；未催登录）
 - dsNote: DeepSeek insufficient_balance → dsFallback 本地 skip；无新收录。更新 sakura 343、Pandu 1066、Zaplo 813、BONK 仍 15:00、elysium-pepes 无官钟、souls REVEAL、skitters 仍等 OpenSea+Elysium。
 - docsSynced: true
 - skipped: PerpEly/Cue 无铸窗；Torpor 第三方今晚钟；Kurogane/Ammora/GIWA 等待名单噪音；InkKoi/AgentSeal/erupt/HOKORI 已在库
