@@ -1,7 +1,7 @@
 # R1518 early-scout RESULT（2026-11-09 19:27 CST）
 
 - round: R1518（remote 已占用 R1517 为 Discord Peek，本轮雷达主扫顺延）
-- pushSha/tip: (pending)
+- pushSha/tip: 851accb
 - mode: ample softCap=28
 - xReads: 9 | remainingBefore: 713 → remaining: 704 | ufCursor: 11→31
 - newThisRound: babydoge-agent, levvnube, fountainbnb, elytrafi, agentlifebnb
