@@ -1,0 +1,125 @@
+{
+  "round": 1516,
+  "roundLabel": "R1516",
+  "checkedAt": "2026-11-09 18:52 CST",
+  "mode": "ample",
+  "softCap": 28,
+  "xReads": 27,
+  "remainingBefore": 740,
+  "remaining": 713,
+  "ufCursor": "1194→11",
+  "xQuota": {
+    "xReads": 27,
+    "remainingBefore": 740,
+    "remaining": 713,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 1194,
+    "ufCursor": 11,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-09 18:52 CST",
+    "note": "API-call xReads=27；mode=ample；DS insufficient_balance → dsFallback；新收3"
+  },
+  "newThisRound": [
+    "eslashacc",
+    "fairofun",
+    "gugusquadnft"
+  ],
+  "newAdmitsDetail": [
+    {
+      "id": "eslashacc",
+      "handle": "@eslashacc",
+      "category": "打新/Elysium",
+      "focus": false,
+      "x": "https://x.com/eslashacc",
+      "opensAt": "2026-11-09 21:00 CST"
+    },
+    {
+      "id": "fairofun",
+      "handle": "@fairofun",
+      "category": "台子/Meme",
+      "focus": false,
+      "x": "https://x.com/fairofun",
+      "note": "$FAIR live Solana"
+    },
+    {
+      "id": "gugusquadnft",
+      "handle": "@gugusquadnft",
+      "category": "打新",
+      "focus": false,
+      "x": "https://x.com/gugusquadnft",
+      "note": "BNB free mint 500"
+    }
+  ],
+  "clearedPrevNTR": [
+    "krownapes",
+    "orven-world",
+    "agentic-starter",
+    "lorisagenthood",
+    "montrastocks",
+    "aiondotfun"
+  ],
+  "le2h": [
+    "FREEDOM @Stonkitfun LIVE sold=20/10000（开于18:30，≤2h至20:30）",
+    "OrdiAgent LIVE sold=11952（开于18:00，≤2h至20:00）",
+    "Erupt @eruptdottfun 目标20:00 CST WL mint（本窗≤2h）"
+  ],
+  "keyUpdates": [
+    "admit eslashacc / fairofun / gugusquadnft",
+    "FREEDOM LIVE sold=20 CA FreedomMint 0x1D46…6ef7",
+    "OrdiAgent sold=11952 raised≈35.26BNB",
+    "Pandu 1856/2222 Pepe 119 BONK 4",
+    "Ballast gen5 Elysium mainnet",
+    "Erupt ≤2h Lotlings/Blurb 23:00 Pip 21:09"
+  ],
+  "onchain": {
+    "stonkit-freedom": {
+      "sold": 20,
+      "mintOpen": true,
+      "contract": "0x1D46c6d07238BBEEdE35B5fEcc7a773edCA76ef7",
+      "token": "0xD515832cd056C3A731D9f9dC65788c5961856D02"
+    },
+    "ordiagent": {
+      "sold": 11952,
+      "freeClaimed": 1000,
+      "nextShare": 11953,
+      "nextPriceBNB": 0.005,
+      "raisedBNB": 35.26
+    },
+    "pepe-agent": {
+      "totalMinted": 119,
+      "mintOpen": true
+    },
+    "pandu-agent": {
+      "totalMinted": 1856,
+      "maxSupply": 2222
+    },
+    "bonkagent": {
+      "totalMinted": 4
+    },
+    "pip-agent-world": {
+      "totalSupply": 0,
+      "contractDeployed": true
+    }
+  },
+  "tenLanes": "UF 1194→11（14：profiles 1批含 Stonkit/Pip+NF4）+ must/≤2h（Ordi/Pepe/Pandu/Pip/Stonkit/Enter_Elysium/Ascend/eloscape/Hobs/kalos/Erupt/Lotlings）+ KW×3（BNB Agent mint / Elysium / Tape·GIWA·Stark·BTC）+ soft-debt（Tape/Starknet/BTC/GIWA/DogeEVM/Elysium/squeek/LZ/Canton/Glaze/TokenWorks）。九栏+BTC/Starknet 均跑。",
+  "skipped": [
+    "Pressure/Postmark/LuckyCat 回复型喊单无独立官推",
+    "Ammora GIWA 刷屏已在库",
+    "baseddenim402/banipool/orbit/gang/loca/fallpit/strata 已在库",
+    "Obol 仿盘/假盘避开"
+  ],
+  "docsSynced": true,
+  "notify": true,
+  "alertMessage": "R1516新收3：eslashacc（今日21:00 Montra fair launch）、fairofun、gugusquadnft；FREEDOM已开 sold=20；Ordi sold=11952；Erupt≤2h；面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": true,
+  "discordPeekNote": "无 browser/computerUse；cutoffs 未改仍 R1515 alpha-1 18:30 / backup 18:19 / smart 17:06 / a3 18:36；待父代理 Peek 补漏",
+  "discordPeekStatus": "deferred",
+  "dsFallback": true,
+  "dsNote": "DeepSeek HTTP 402 Insufficient Balance → dsFallback；本地 admit 3 + 刷新 FREEDOM/Ordi/Pepe/Pandu/BONK/Pip/Erupt/Lotlings/Ballast 等。",
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED",
+  "lastFullAfterReset": "R1492"
+}
