@@ -45,12 +45,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "7207a66",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1554：Discord alpha 补漏无新卡（#alpha-1 最新仍 2026-11-10 07:30）；清 shortfloat,ononepad,orcle,useinsertsol；lastSeen 保持 2026-11-10 07:30，lastChecked→2026-11-10 07:55 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1554.json",
   "priorRoundNote": "R1553 meta NTR ['elysiumvampfun', 'drachenfly', 'anemos', 'shortfloat', 'ononepad', 'orcle', 'useinsertsol']; cardsAfterCutoff=11",
   "lastSeenByChannel": {
@@ -99,5 +101,9 @@
   "admissions": [],
   "alert": "",
   "gapIncomplete": true,
-  "spideyPosting": true
+  "spideyPosting": true,
+  "pushSha": "7207a66",
+  "tip": "7207a66",
+  "pushShaFull": "7207a66fab9741821bd20d19dccd7ad19ecbbb28",
+  "docsSynced": true
 }
