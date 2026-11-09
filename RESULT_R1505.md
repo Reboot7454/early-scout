@@ -20,3 +20,7 @@
 - docsSynced: true
 - focus: 全部 false（无 squeek/hamster/toychain）
 - panel: https://reboot7454.github.io/early-scout/
+- pushSha: 1e063c4
+- tip: 1e063c4
+- remoteVerified: true
+
