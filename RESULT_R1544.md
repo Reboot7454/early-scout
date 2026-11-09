@@ -1,7 +1,7 @@
 # R1544 early-scout RESULT（2026-11-10 04:53 CST）
 
 - round: R1544（R1543 已被 Discord alpha 补漏占用 strix-rbh/buryyournft，本轮 X 主扫递进）
-- pushSha/tip: c1093d0
+- pushSha/tip: 00ba8e6
 - mode: pace softCap=28
 - xReads: 20 | remainingBefore: 384 → remaining: 364 | ufCursor: 320→360
 - newThisRound: pfwafun, nouns-elysium
