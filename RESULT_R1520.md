@@ -1,7 +1,7 @@
 # R1520 early-scout RESULT（2026-11-09 20:06 CST）
 
 - round: R1520（remote 已占用 R1519 为 Discord Peek，本轮雷达主扫顺延）
-- pushSha/tip: PUSHSHA
+- pushSha/tip: 5b9f0f7
 - mode: ample softCap=28
 - xReads: 8 | remainingBefore: 704 → remaining: 696 | ufCursor: 31→51
 - newThisRound: kabosu-agent, pepebsc, poffly, evermor
