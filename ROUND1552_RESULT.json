@@ -53,12 +53,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "f51529e",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1552：Discord alpha 补收 elysiumvampfun,drachenfly,anemos；清 borly,elysiumpilled,memeum,sollion；lastSeen→2026-11-10 07:17；lastChecked→2026-11-10 07:19 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1552.json",
   "priorRoundNote": "R1551 meta NTR ['borly', 'elysiumpilled', 'memeum', 'sollion']; cardsAfterCutoff=28",
   "lastSeenByChannel": {
@@ -182,5 +184,9 @@
   ],
   "alert": "DC补漏R1552新收3个：ElysiumVamp、DRACHEN、Anemos；面板 https://reboot7454.github.io/early-scout/",
   "gapIncomplete": true,
-  "spideyPosting": true
+  "spideyPosting": true,
+  "pushSha": "f51529e",
+  "tip": "f51529e",
+  "pushShaFull": "f51529e6095dfdd480e4a31dea36024ea3f7e602",
+  "docsSynced": true
 }
