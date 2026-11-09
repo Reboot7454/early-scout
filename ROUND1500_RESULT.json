@@ -1,0 +1,78 @@
+{
+  "round": 1500,
+  "roundLabel": "R1500",
+  "checkedAt": "2026-11-09 13:06 CST",
+  "newThisRound": ["skyhooksol"],
+  "clearedPrevNTR": [],
+  "le2h": ["bonkagent"],
+  "notify": true,
+  "alertMessage": "BONK Agent 已进入≤2h：今日15:00 CST开铸（前1000免费/需Agent ID，链上仍0）。新收录 Skyhook（Elysium testnet 发射台，Solana 一签发币）。面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": true,
+  "docsSynced": true,
+  "dsNote": "DeepSeek insufficient_balance → dsFallback; local admit skyhooksol (Elysium testnet launchpad)",
+  "dsFallback": true,
+  "xQuota": {
+    "xReads": 7,
+    "remainingBefore": 905,
+    "remaining": 898,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 694,
+    "ufCursor": 744
+  },
+  "onchain": {
+    "sakura-ronin": {
+      "totalMinted": 343,
+      "maxSupply": 3333
+    },
+    "the-long-necks": {
+      "totalSupply": 348,
+      "maxSupply": 400
+    },
+    "bonkagent": {
+      "totalMinted": 0
+    },
+    "pandu-agent": {
+      "totalSupply": 1194,
+      "maxSupply": 2222
+    }
+  },
+  "keyUpdates": [
+    "new admit skyhooksol (Elysium testnet launchpad, Solana one-sig, 12 followers, created today)",
+    "bonkagent entered ≤2h; page+rpc still 15:00 CST totalMinted=0; followers 520→524",
+    "ordiagent still 18:00 CST; added 30-day window / BNB-or-USDT / Connect Agent Wallet; followers 447→473",
+    "sakura-ronin 343/3333 flat",
+    "the-long-necks 348/400 flat",
+    "pandu-agent 1194/2222 (+68)",
+    "zaplonl 813/5555 unchanged",
+    "souls-elysium REVEAL LIVE; 1/1 sold 0.05 ETH; mint 11/10 04:00; followers 441→445",
+    "loon-rat First Wave Drop tweet was 2026-11-08 13:59 CST (yesterday); no new clock",
+    "ink-miners still 11/10 04:00 CST",
+    "blurb still 2026-11-09 23:00 CST",
+    "hornyhoodnft still 2026-11-10 00:00 CST",
+    "elytypes still 2026-11-10 01:00 CST",
+    "99901-fun Opens Nov 10",
+    "skitters wait OpenSea+Elysium",
+    "elysium-pepes still no official clock",
+    "medalbeasts PUBLIC LIVE"
+  ],
+  "skipped": [
+    "odysseygenesis-empty-no-site-ca",
+    "forge-elysium-zero-fol-launched-token",
+    "ammora-giwa-waitlist",
+    "feedthefirerh-already-in-lib",
+    "fulldotfun-already-in-lib",
+    "elytypes-already-in-lib",
+    "blurb-already-in-lib",
+    "t0dotfun-already-in-lib",
+    "000dotfun-already-in-lib",
+    "z30index-already-in-lib",
+    "massi755374-ordiagent-shill"
+  ],
+  "lastFullAfterReset": "R1492",
+  "tenLanes": "UF 694→744 + must + 2 KW + soft-debt covered nine lanes + BTC/Starknet; admitted skyhooksol",
+  "pushSha": "",
+  "scriptFix": "",
+  "discordPeekStatus": "deferred",
+  "discordPeekNote": "no browser in this executor; parent should dispatch computerUse Peek; cutoffs still R1471 a1 19:12/backup 17:34/smart 17:01/a3 19:14; do not nudge login"
+}

@@ -1,0 +1,30 @@
+# R1500 早期打新雷达 RESULT（2026-11-09 13:06 CST）
+
+- round: R1500
+- newThisRound: skyhooksol
+- clearedPrevNTR: （空，R1499 已无本轮新）
+- ≤2h: BONK Agent 今日 15:00 CST（已进窗，le2h=true）。OrdiAgent 今日 18:00 CST（约 16:00 起算 ≤2h）；BLURB 今日 23:00 CST（约 21:00 起算）；HORNYHOOD 11/10 00:00 CST；elytypes 11/10 01:00 CST；souls-elysium 与 InkMiners 均为 11/10 04:00 CST；elysium-pepes 仍无精确官钟（第三方今晚分档不覆盖）→ le2h=false；skitters 仍等 OpenSea+Elysium；99901.fun Opens Nov 10。
+- the-long-necks: 348/400 仍 LIVE（base.publicnode）；≤2h 已过
+- skitters: 仍等 OpenSea+@Enter_Elysium 完全 live，无新钟点，le2h=false
+- BONK Agent: 13:01 CST 页面+链上再确认 15:00 CST 解锁（非一分钟窗）；链上 totalMinted=0；已进入≤2h；粉 520→524
+- medalbeasts: PUBLIC LIVE 自约 01:59 CST
+- elysium-pepes: 09:24 CST “few hours” 至本窗仍无官钟/CA
+- souls-elysium: REVEAL 仍 LIVE；本窗 1/1 以 0.05 ETH（1.42 HYPE）成交；开铸仍 11/10 04:00 CST；粉 441→445
+- 99901-fun: 仍 Opens Nov 10
+- zaplonl: 官推仍 813/5555，mint 仍开
+- hornyhoodnft: 档期仍 11/10 00:00 CST（Nov 9 16:00 UTC / 4 PM UTC）
+- blurb: 档期仍 11/9 23:00 CST（15:00 UTC）Elysium FREE MINT 3333
+- loon-rat: 源帖 2119308688385327297 为 2026-11-08 13:59 CST，「今日约 14:00 CST First Wave Drop」实为昨日已过；本窗无新官帖 → le2h=false
+- 链上: Sakura 343/3333（持平）、LongNecks 348/400（持平）、BONK totalMinted=0、Pandu 1194/2222（+68）
+- lastFullAfterReset: R1492（本轮 ample，未再跑 post-reset-full）
+- notify: true
+- alertMessage: BONK Agent 已进入≤2h：今日15:00 CST开铸（前1000免费/需Agent ID，链上仍0）。新收录 Skyhook（Elysium testnet 发射台，Solana 一签发币）。面板 https://reboot7454.github.io/early-scout/
+- xReads=7 / remainingBefore=905 / remaining=898 / mode=ample / softCap=28 / ufCursor=694→744
+- tenLanes: UF 694→744（50号：6 NF预跳 + 5本轮NF + 1本轮suspended lootbale + 38 resolved；2批 profiles + 2批 from:）+ must/≤2h+focus 1次 + 2 KW（打新/挖矿/Elysium-Tape-GIWA-DogeEVM-BTC-Starknet）+ soft-debt 本地刷新（Canton/Glaze/TokenWorks）。九栏+BTC/Starknet 均跑；新收录 skyhooksol；GIWA 仍 Ammora 噪音；DogeEVM/Tape/Starknet 本窗无可收新号。
+- discordPeekDeferred: true（本执行端无浏览器；父代理补 Peek；cutoffs 仍参考 R1471 a1 19:12/backup 17:34/smart 17:01/a3 19:14；未催登录）
+- dsNote: DeepSeek insufficient_balance → dsFallback；本地收录 skyhooksol（Elysium testnet 发射台，官推+官网+明确 On testnet）。更新 BONK 已进≤2h totalMinted=0、OrdiAgent 仍 18:00 并补 30 天窗/BNB或USDT 说明、Pandu 1194、Sakura 343、LongNecks 348、loon-rat 11/8 14:00 已过、souls REVEAL、zaplo 813。
+- docsSynced: true
+- skipped: OdysseyGenesis 今日建号 0 粉、文章 404、无官网/CA；Forge_elysium 0 粉已发 $FORGE 代币非 mint 窗（R1499 已 skip 空帖）；Ammora/GIWA 等待名单噪音；FeedTheFireRH/fulldotfun/Elytypes/Blurb/T0dotfun/000dotfun/z30index 已在库；Massi755374 为 OrdiAgent 转发小号
+- scriptFix: 无
+- HashDoge/Genius/Corla/Flap: STOPPED
+- pushSha: （待主提交后回填）
