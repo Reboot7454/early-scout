@@ -1,0 +1,118 @@
+{
+  "round": 1524,
+  "roundLabel": "R1524",
+  "checkedAt": "2026-11-09 21:48 CST",
+  "mode": "ample",
+  "softCap": 32,
+  "xReads": 12,
+  "remainingBefore": 646,
+  "remaining": 634,
+  "ufCursor": "93→113",
+  "xQuota": {
+    "xReads": 12,
+    "remainingBefore": 646,
+    "remaining": 634,
+    "mode": "ample",
+    "softCap": 32,
+    "ufCursorBefore": 93,
+    "ufCursor": 113,
+    "eveningReserve": 0,
+    "checkedAt": "2026-11-09 21:48 CST",
+    "note": "API-call xReads=12（含开跑 probe）；x_budget remainingBefore=646 mode=ample softCap=32；末次 header remaining=634；DS402→dsFallback；新收2"
+  },
+  "newThisRound": [
+    "kairo-market",
+    "grumbots"
+  ],
+  "newAdmitsDetail": [
+    {
+      "id": "kairo-market",
+      "handle": "@kairo_market",
+      "oneLiner": "Elysium 主网日上线 Swap，0.25% 费率交易全部 Elysium 代币；多链金融终端。"
+    },
+    {
+      "id": "grumbots",
+      "handle": "@grumbots",
+      "oneLiner": "BNB Agentic Wallet 1111 Robot Agent NFT；FREE MINT 临近，check-ins 已开。"
+    }
+  ],
+  "clearedPrevNTR": [
+    "aneesp767",
+    "ambrosiafamily",
+    "launchcraft-xyz"
+  ],
+  "noteRoundBump": "Confirmed local tip 49fa8b7 meta.round=1523 (incl DC Alpha40); this scout is R1524",
+  "le2h": [
+    "ElyAnt mint LIVE 21:31 CST @kalosfun ≤2h",
+    "GrumpGuys Public LIVE（supply→1500）",
+    "Cathereum mint LIVE + OS verified",
+    "Torpor mint LIVE（Tier B 22:00 / Public 23:00）",
+    "Outlaws GTD 22:00 / FCFS 23:00 / Public 00:00 CST",
+    "Erupt Chosen Ones 22:00 CST",
+    "BLURB ≈22:36 CST",
+    "Lotlings ≈23:00 CST",
+    "Pip TIME CARDS LIVE totalSupply=1215",
+    "$EACC on Montra 续（开于20:57，≤2h将尽）"
+  ],
+  "keyUpdates": [
+    "admit kairo-market / grumbots",
+    "清空上一轮 newThisRound aneesp767/ambrosiafamily/launchcraft-xyz（及雷达三枚 ntr 旗）",
+    "ElyAnt Mint LIVE 21:31；GrumpGuys Public LIVE supply→1500；Cathereum OS verified",
+    "Outlaws GTD 22:00 / Erupt Chosen Ones 22:00 / Blurb≈22:36 / Lotlings≈23:00 / Torpor TierB 22:00",
+    "Pip totalSupply 293→1215；FREEDOM sold=31；Pepe 119；Pandu 2222 售罄；BONK 4；Ordi 15931",
+    "UF 93→113（16 valid +3 NF +1 suspended）",
+    "Ammora GIWA 刷屏跳过；HashDoge/Genius/Corla/Flap STOPPED"
+  ],
+  "onchain": {
+    "pepe-agent": {
+      "totalMinted": 119,
+      "mintOpen": true
+    },
+    "pandu-agent": {
+      "totalMinted": 2222,
+      "soldOut": true
+    },
+    "bonkagent": {
+      "totalMinted": 4
+    },
+    "pip-agent-world": {
+      "totalSupply": 1215
+    },
+    "pepebsc": {
+      "totalMinted": 0,
+      "mintOpen": true
+    },
+    "stonkit-freedom": {
+      "sold": 31,
+      "mintOpen": true,
+      "raisedBNB": 0.062
+    },
+    "ordiagent": {
+      "sold": 15931
+    }
+  },
+  "tenLanes": "R1524 雷达主扫。UF 93→113（16 valid +3 NF +1 suspended）+ must/≤2h×2 + KW×5 + admit lookup/posts×3。九栏+BTC/Starknet 均跑。",
+  "skipped": [
+    "Ammora / GIWA 推荐码刷屏跳过",
+    "MotorAgent/RiddleRun/Magnetrix 等聚合提及无独立可核官推，跳过",
+    "Fleafamily / SENTRO / globemkts 证据弱或已发射，本轮不收",
+    "Crudefi 为 Solana 油游，非本轮 Agent 主线",
+    "Obol 仿盘避开",
+    "HashDoge/Genius/Corla/Flap STOPPED 未重启"
+  ],
+  "docsSynced": true,
+  "notify": true,
+  "alertMessage": "R1524新收2：kairo-market（Elysium Swap 0.25% LIVE）、grumbots（BNB 1111 FREE MINT 临近）；ElyAnt/GrumpGuys/Cathereum LIVE；Outlaws/Erupt 22:00；Blurb≈22:36；Pip totalSupply=1215；面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": true,
+  "discordPeekNote": "无浏览器；交父代理补 Discord Alpha Peek",
+  "discordPeekStatus": "deferred",
+  "dsFallback": true,
+  "dsNote": "DeepSeek HTTP 402 Insufficient Balance → dsFallback；本地 admit + 热窗刷新",
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED",
+  "lastFullAfterReset": "R1492",
+  "pushSha": null,
+  "tip": null
+}
