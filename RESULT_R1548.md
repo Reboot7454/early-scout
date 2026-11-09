@@ -10,5 +10,5 @@
 - discordPeekDeferred: False
 - dsFallback: False
 - counts: None
-- alert: DC补漏R1548新收…；https://reboot7454.github.io/early-scout/
+- alert: DC补漏R1548新收5：asphodel-fi、duck-syndicate、wendex、testicles-hype、stoxa-trade；面板 https://reboot7454.github.io/early-scout/
 - cardsFile: dc40_cards_r1547.json
