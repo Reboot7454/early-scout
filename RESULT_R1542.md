@@ -1,7 +1,7 @@
 # R1542 early-scout RESULT（2026-11-10 04:10 CST）
 
 - round: R1542（R1541 已被 Discord alpha 补漏占用 elytokfun，本轮 X 主扫递进）
-- pushSha/tip: 0e0892a
+- pushSha/tip: d175e40
 - mode: pace softCap=28
 - xReads: 27 | remainingBefore: 411 → remaining: 384 | ufCursor: 289→320
 - newThisRound: orvyn-universe, hooddrakes, audacitycorp
