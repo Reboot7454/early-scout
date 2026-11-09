@@ -19,5 +19,5 @@
 - skipped: AgentIsland（无明确官推）；LuckyCat/Postmark surge 噪音；GIWA deuslaunch 刷屏；Deadpool ordinals 垃圾盘
 - scriptFix: 无
 - HashDoge/Genius/Corla/Flap: STOPPED
-- pushSha: (pending)
-- tip: (pending)
+- pushSha: 6bdda34
+- tip: 6bdda34
