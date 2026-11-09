@@ -1,0 +1,105 @@
+{
+  "round": 1493,
+  "mode": "ample",
+  "completedAt": "2026-11-09 09:04 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "sakura-ronin Phase1 于 08:29 CST 开付费窗；nonclank 08:50 CST 在 Base/Clanker 发射并公布已核验 CA。",
+  "alertMessage": "sakura-ronin Phase1 LIVE（0.0005 BNB，限2/钱包）；nonclank 已在 Base/Clanker 发射；详情 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [],
+  "newAdmits": [],
+  "newCount": 0,
+  "clearedPrevNTR": [
+    "sakura-ronin",
+    "nonclank"
+  ],
+  "clearedPrevNewThisRound": true,
+  "skipped": [
+    {
+      "handle": "@useFloatPaid",
+      "reason": "0粉当日新号，floatdotxyz 附属付款层，未独立核验"
+    },
+    {
+      "handle": "@Le0_Coin",
+      "reason": "1粉，Google Drive zip 矿工可执行文件，安全风险过高"
+    },
+    {
+      "handle": "ElysiumRegistrationSpam",
+      "reason": "主网注册刷屏非项目官推"
+    },
+    {
+      "handle": "@AmmoraHQ",
+      "reason": "GIWA 等待名单噪音，非新可操作窗"
+    },
+    {
+      "handle": "Fountain/Pressure/Horse/WAR3/Pokemon",
+      "reason": "仅第三方或低粉喊单，未独立核验官推"
+    }
+  ],
+  "le2h": [],
+  "le2hStatus": {
+    "skitters": "【R1493】仍等 OpenSea+Elysium live 后再开门；无新钟点；le2h=false。",
+    "the-long-necks": "【R1493】348/400 仍 LIVE，与 R1492 持平；≤2h 已过。",
+    "broisafreak": "【R1493】≤2h 已过，forcePanel 保留；本轮仅回复刷屏。",
+    "bonkagent": "【R1493】15:00 CST，非≤2h；totalMinted=0。",
+    "sakura-ronin": "【R1493】Phase0 333免费售罄；Phase1 LIVE 0.0005 BNB max2/钱包；链上337/3333。非定点≤2h倒计时窗。",
+    "nonclank": "【R1493】08:50 CST 于 Base/Clanker 发射 $NONCLANK，CA 已核验；非定点 mint 窗。",
+    "medalbeasts": "【R1493】01:59 CST PUBLIC MINT LIVE（OpenSea）；开窗已约7小时，非≤2h。",
+    "elysium-pepes": "【R1493】预定今日 AscendLaunch，无钟点/CA，非≤2h。"
+  },
+  "onchainChecks": {
+    "the-long-necks": {
+      "totalSupply": 348,
+      "maxSupply": 400,
+      "remaining": 52,
+      "chain": "Base",
+      "contract": "0x3ab4978702f1208106c46f0faa417829f304a4d7",
+      "source": "base.gateway.tenderly.co"
+    },
+    "sakura-ronin": {
+      "totalMinted": 337,
+      "maxSupply": 3333,
+      "contract": "0xE56fD19a19E684b94db1Dd3c81896736E3631D47",
+      "token": "0xb76916a7dfda43766980c3C87D167d5201C8fb4f",
+      "chain": "BNB",
+      "name": "Sakura Ronin"
+    },
+    "bonk-mint": {
+      "totalMinted": 0,
+      "contract": "0x4a6E3f6d464f44D6F0809a3B08b02045E5d7bA29",
+      "chain": "BNB"
+    },
+    "nonclank": {
+      "chain": "Base",
+      "contract": "0x47b6ae7e3461F9564d1735EbC9C518692a55CCCc",
+      "name": "Nonclank",
+      "symbol": "NONCLANK",
+      "totalSupply": 1000000000,
+      "decimals": 18,
+      "codeOnBnb": false,
+      "source": "base.gateway.tenderly.co"
+    }
+  },
+  "xReads": 10,
+  "remainingBefore": 982,
+  "remaining": 972,
+  "softCap": 28,
+  "ufCursor": 394,
+  "ufCursorBefore": 344,
+  "xQuota": {
+    "remainingBefore": 982,
+    "remaining": 972,
+    "xReads": 10,
+    "mode": "ample",
+    "softCap": 28
+  },
+  "lastFullAfterReset": "R1492",
+  "tenLanes": "UF 344→394（50号：4已知NF跳过+8新确认NF+38 resolved；2批 profiles + 2批 from:）+ must/≤2h+focus + follow-up + 3 KW + 1 soft-debt；九栏+BTC/Starknet；无新收录；Canton/Glaze/TokenWorks 已刷。",
+  "discordPeekDeferred": true,
+  "dsNote": "DeepSeek deepseek-flash(thinking) score/alert；无新收录（skip useFloatPaid/Le0_Coin）；更新 sakura Phase1、nonclank CA、medalbeasts LIVE；skitters 保持 le2h=false。",
+  "dsFallback": false,
+  "docsSynced": true,
+  "forcePanelIds": "保留 broisafreak 等既有 forcePanel",
+  "pushSha": "",
+  "tipSha": ""
+}

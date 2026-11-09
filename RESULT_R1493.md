@@ -1,0 +1,24 @@
+# R1493 早期打新雷达 RESULT（2026-11-09 09:04 CST）
+
+- round: R1493
+- newThisRound: （无）
+- clearedPrevNTR: sakura-ronin, nonclank
+- ≤2h: 无定时窗。sakura-ronin Phase1 于 08:29 CST 开付费铸（0.0005 BNB，max 2/钱包），链上 337/3333；nonclank 于 08:50 CST 在 Base/Clanker 发射并公布已核验 CA。两者属已开/已发射，未列入 le2h 倒计时列表。
+- the-long-necks: 348/400 仍 LIVE（tenderly Base RPC，与 R1492 持平）；≤2h 已过
+- broisafreak: Public 概念仍 LIVE，≤2h 已过，forcePanel 保留；本轮仅回复刷屏
+- skitters: 仍等 OpenSea+@Enter_Elysium 完全 live 后再开门，无新钟点，le2h=false
+- BONK Agent: 再确认 15:00 CST 开铸、前1000免费需 SPACE ID .ai Agent ID；付费最多10张/钱包独立计算；链上 totalMinted=0；现非≤2h
+- medalbeasts: 官推 01:59 CST 宣布 PUBLIC MINT LIVE（OpenSea，100件），粉 0→299；开窗已约7小时
+- elysium-pepes: 预定 11月9日经 AscendLaunch 上线，今日已到但仅 “See you on Nov 9th”，无钟点/CA
+- 链上: Sakura 337/3333、LongNecks 348/400、BONK totalMinted=0、nonclank Base CA 0x47b6ae7e3461F9564d1735EbC9C518692a55CCCc name=Nonclank symbol=NONCLANK totalSupply=10亿（同地址 BNB 无代码）
+- lastFullAfterReset: R1492（本轮为 ample，未再跑 post-reset-full）
+- notify: true
+- alertMessage: sakura-ronin Phase1 LIVE（0.0005 BNB，限2/钱包）；nonclank 已在 Base/Clanker 发射；详情 https://reboot7454.github.io/early-scout/
+- xReads=10 / remainingBefore=982 / remaining=972 / mode=ample / softCap=28 / ufCursor=344→394
+- tenLanes: UF 344→394（50号：4已知NF跳过 + 8新确认NF + 38 resolved；2批 profiles + 2批 from:）+ must/≤2h+focus 1次 + follow-up 1次 + 3 KW（打新/挖矿/Elysium-Tape-GIWA-DogeEVM-BTC-Starknet）+ 1 soft-debt（Canton/Glaze/TokenWorks/meme pad）。九栏+BTC/Starknet 均跑；无新收录；GIWA 仍 Ammora 噪音；DogeEVM/Starknet/LZ/Tape 本窗无可收新号；Canton/Glaze/TokenWorks lastChecked 已刷。
+- discordPeekDeferred: true
+- dsNote: DeepSeek deepseek-flash(thinking) score/alert；无新收录（skip useFloatPaid/Le0_Coin）；更新 sakura Phase1、nonclank CA、medalbeasts LIVE；skitters 保持 le2h=false。
+- docsSynced: true
+- skipped: useFloatPaid（0粉当日新号，Float 附属付款层）；Le0_Coin（1粉，Google Drive 可执行矿工）；Elysium Mainnet Registration 刷屏；Ammora/GIWA 等待名单噪音；Fountain/Pressure/Horse(HRS)/WAR3/Pokemon NFT 仅第三方或低粉喊单未独立核验官推
+- HashDoge/Genius/Corla/Flap: STOPPED
+- pushSha: (pending)
