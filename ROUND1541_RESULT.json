@@ -49,12 +49,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "ccf6f76",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1541：Discord alpha 补收 elytokfun；清 launchonfolio,launchonhover,crypteg-h,elyvilrx；lastSeen→2026-11-10 04:00；lastChecked→2026-11-10 04:05 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1541.json",
   "priorRoundNote": "R1540 meta NTR ['elyvilrx', 'crypteg-h', 'launchonhover', 'launchonfolio']; cardsAfterCutoff=27",
   "lastSeenByChannel": {
@@ -134,5 +136,9 @@
   ],
   "alert": "DC补漏R1541新收 ElyTok（@elytokfun，Elysium）；面板 https://reboot7454.github.io/early-scout/",
   "gapIncomplete": true,
-  "spideyPosting": true
+  "spideyPosting": true,
+  "pushSha": "ccf6f76",
+  "tip": "ccf6f76",
+  "pushShaFull": "ccf6f76be169d4ff81cbdd8ef9b919377ce32a87",
+  "docsSynced": true
 }
