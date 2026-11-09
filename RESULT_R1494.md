@@ -1,0 +1,25 @@
+# R1494 早期打新雷达 RESULT（2026-11-09 09:35 CST）
+
+- round: R1494
+- newThisRound: （无）
+- clearedPrevNTR: （空，R1493 已清 sakura-ronin/nonclank）
+- ≤2h: 无。BONK Agent 仍 15:00 CST（约 13:00 起才进 ≤2h）；souls-elysium 11/10 04:00 CST；elysium-pepes 09:24 CST 称「几小时内」经 AscendLaunch 上线但无精确钟点 → le2h=false；skitters 仍等 OpenSea+Elysium。
+- the-long-necks: 348/400 仍 LIVE（base mainnet RPC，与 R1493 持平）；≤2h 已过
+- broisafreak: Public 概念仍 LIVE，≤2h 已过；本轮仍回复刷屏
+- skitters: 仍等 OpenSea+@Enter_Elysium 完全 live，无新钟点，le2h=false
+- BONK Agent: 再确认 15:00 CST；付费最多 10/钱包与免费槽并行；链上 totalMinted=0；现非≤2h
+- medalbeasts: PUBLIC LIVE 自约 01:59 CST；粉≈299
+- elysium-pepes: 09:24 CST “Launching on @AscendLaunch in a few hours!”；无钟点/CA
+- souls-elysium: 开铸仍 11/10 04:00 CST；本轮互动回复为主
+- 链上: Sakura 339/3333（+2）、LongNecks 348/400、BONK totalMinted=0
+- lastFullAfterReset: R1492（本轮 ample，未再跑 post-reset-full）
+- notify: false
+- alertMessage: （安静，无新收录且无 ≤2h 定点窗）
+- xReads=11 / remainingBefore=972 / remaining=961 / mode=ample / softCap=28 / ufCursor=394→444
+- tenLanes: UF 394→444（50号：17 NF/suspended + 33 resolved；2批 profiles + 2批 from:）+ must/≤2h+focus 1次 + follow-up 1次 + 2 KW（打新/挖矿/Elysium-Tape-GIWA-DogeEVM-BTC-Starknet）+ 1 soft-debt（Canton/Glaze/TokenWorks）+ 1 potential-admit profiles。九栏+BTC/Starknet 均跑；无新收录；GIWA 仍 Ammora 噪音；DogeEVM/Starknet/LZ/Tape 本窗无可收新号；Canton/Glaze/TokenWorks lastChecked 已刷。
+- discordPeekDeferred: true
+- dsNote: DeepSeek insufficient_balance → dsFallback 本地 admit/skip；无新收录（skip dust-engine/ai-garden/frenbook/supanova/core-mining/ledger-realms）；更新 sakura 339、elysium-pepes Ascend「几小时」、BONK 仍 15:00。
+- docsSynced: true
+- skipped: dust-engine（@dustengineapp Genesis LAST DAY，非极早期开窗）；ai-garden/Signal Ghosts（@aigardenart Coming to Solana + WL，已有平台非极早期可操作窗）；frenbook（@Frenbookio 建设中无钟点）；supanova（@supanova_app Canton pad 已 live 非极早期）；coremining10（0粉 TG 矿机）；ledgerealms（Affiliate mint 喊单）；Ammora/GIWA 等待名单噪音；Pressure/Lucky Cat 仅第三方喊单未独立核验官推；Elysium Mainnet Registration 刷屏
+- HashDoge/Genius/Corla/Flap: STOPPED
+- pushSha: (pending)
