@@ -22,4 +22,4 @@
 - scriptFix: 无（UF 首批曾误造名浪费 1 读，已用真实 slice 补刷）
 - HashDoge/Genius/Corla/Flap: STOPPED
 - pushSha: 8c7e8f1
-- tip: 8c7e8f1
+- tip: 913f021
