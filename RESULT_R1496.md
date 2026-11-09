@@ -24,4 +24,4 @@
 - skipped: kraterbet（占位 CA）；Ammora/GIWA 等待名单噪音；Kurogane WL 刷屏已在库；第三方 Elytypes/Blurb 钟点不覆盖官推；Darkhorse/RGB 非本雷达主栏可操作窗
 - scriptFix: check_onchain.py 修复 chainId 为 int / 链名别名导致跳过的问题
 - HashDoge/Genius/Corla/Flap: STOPPED
-- pushSha: PENDING
+- pushSha: c874253
