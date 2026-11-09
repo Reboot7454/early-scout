@@ -1,0 +1,103 @@
+{
+  "round": 1542,
+  "roundLabel": "R1542",
+  "checkedAt": "2026-11-10 04:10 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+le2h",
+  "alertMessage": "ORVYN免费mint进行中，InkMiners进行中；HoodDrakes WL中约4天后mint，Audacity Solana免费mint将至，详情见 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": true,
+  "discordPeekNote": "no browser/computerUse in this executor; lastSeenByChannel from R1541",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-10 04:00",
+    "alpha-1-backup": "2026-11-10 02:49",
+    "smart-accounts-tracker": "2026-11-10 03:59",
+    "alpha-1": "2026-11-10 03:29"
+  },
+  "gapIncomplete": true,
+  "docsSynced": true,
+  "pushSha": null,
+  "tip": null,
+  "xReads": 27,
+  "remainingBefore": 411,
+  "remaining": 384,
+  "mode": "pace",
+  "softCap": 28,
+  "ufCursor": {
+    "before": 289,
+    "after": 320
+  },
+  "ufCursorBefore": 289,
+  "ufCursorAfter": 320,
+  "xQuota": {
+    "xReads": 27,
+    "remainingBefore": 411,
+    "remaining": 384,
+    "mode": "pace",
+    "softCap": 28,
+    "ufCursorBefore": 289,
+    "ufCursor": 320,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-10 04:10 CST",
+    "note": "UF289→320 + must/≤2h×2 + KW×7 + mentions Starknet×1 + profiles×2；新收3；InkMiners/ORVYN≤2h LIVE；DS成功；discordPeekDeferred；R1541已被DC占用故本轮R1542"
+  },
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking on；admit/score/alert ok",
+  "newThisRound": [
+    "orvyn-universe",
+    "hooddrakes",
+    "audacitycorp"
+  ],
+  "newAdmitsDetail": [
+    {
+      "id": "orvyn-universe",
+      "handle": "@Orvyn___",
+      "oneLiner": "Robinhood 超现实 NFT FREE mint LIVE；887；OpenSea orvyn-90965165；粉2783（≠orvynagent）"
+    },
+    {
+      "id": "hooddrakes",
+      "handle": "@HoodDrakes",
+      "oneLiner": "Robinhood 1333龙 NFT；WL/FCFS 中；约4天后mint；粉1466"
+    },
+    {
+      "id": "audacitycorp",
+      "handle": "@audacitycorp",
+      "oneLiner": "Solana Genesis 555 FREE mint coming；1NFT=500k $AUDA（未live）；粉55"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "holdshare",
+      "handle": "@Holdshare_X",
+      "reason": "粉1新号 fair-launch 台，社交信号近零，DS skip"
+    },
+    {
+      "id": "adv-agent-ai",
+      "handle": "@ADV_Agent_Ai",
+      "reason": "当日新建粉0 FREE mint，典型 spam，DS skip"
+    }
+  ],
+  "clearedPrevNTR": [
+    "elytokfun"
+  ],
+  "le2h": [
+    {
+      "id": "ink-miners",
+      "note": "mint LIVE @04:03 CST；0.00018 ETH / 333 / Ink OpenSea"
+    },
+    {
+      "id": "orvyn-universe",
+      "note": "FREE mint LIVE @04:00 CST；887 / OpenSea"
+    }
+  ],
+  "keyUpdates": [
+    "ink-miners → schedule.status=live"
+  ],
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED",
+  "tenLanes": "R1542 雷达主扫。UF 289→320（31槽；NF hahastage/PlayhauntRh/rinseddotfun/hollytallycheck/divade_xyz/LiquidityStonk/Agent__arena；Forbidden HaloPad_Pro；已知库内为主）+ must/≤2h×2（InkMiners LIVE + Orvyn/exitliq 等）+ KW×7（打新/台子、挖矿/squeek、Elysium、Tape/GIWA/DogeEVM、GO、LZ/BTC/Starknet、GO-alt）+ mentions Starknet×1 + profiles×2。九栏+BTC/Starknet/GIWA 均跑。GIWA KW 仍 Ammora waitlist 刷量；LZ KW 仍 globemkts ATLAS 等待列表。discordPeekDeferred。",
+  "priorRoundNote": "R1541 Discord alpha 已收 elytokfun；本执行为 X 主扫故用 R1542",
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
