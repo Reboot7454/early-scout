@@ -1,0 +1,96 @@
+{
+  "round": 1508,
+  "roundLabel": "R1508",
+  "checkedAt": "2026-11-09 16:35 CST",
+  "newThisRound": [
+    "elysian-agents",
+    "acheron",
+    "eden-elysium"
+  ],
+  "clearedPrevNTR": [
+    "eggoxyz",
+    "shadeselysium",
+    "bythosdepth",
+    "vectradotxyz"
+  ],
+  "le2h": [
+    "PepeAgent 今日 16:00 CST 已开铸（链上 minted=116；官网仍未开始滞后；le2h=true）",
+    "BONK Agent 今日 15:00 CST 已开铸（续，le2h=true；链上 totalMinted=2）",
+    "OrdiAgent 今日 18:00 CST（续 ≤2h；合约未部署）"
+  ],
+  "notify": true,
+  "alertMessage": "新收录 Elysian Agents/Acheron/Eden。PepeAgent链上已开铸minted=116（官网仍未开始）。OrdiAgent≤2h今日18:00。BONK minted=2。Pandu 1790/2222。面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": true,
+  "docsSynced": true,
+  "dsNote": "DeepSeek insufficient_balance → dsFallback；本地 admit elysian-agents/acheron/eden-elysium；刷新 Pepe/BONK/Ordi/Pandu。",
+  "dsFallback": true,
+  "xQuota": {
+    "xReads": 18,
+    "remainingBefore": 831,
+    "remaining": 813,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 994,
+    "ufCursor": 1044,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-09 16:35 CST",
+    "note": "API-call xReads=18；mode=ample lastFullAfterReset=R1492；DS insufficient_balance → dsFallback；新收录 elysian-agents/acheron/eden-elysium"
+  },
+  "onchain": {
+    "pepe-agent": {
+      "contract": "0xdA64D6fc69FeC469560D9084Bd32C9E4F0ece169",
+      "opensAt": "2026-11-09 16:00 CST",
+      "totalMinted": 116,
+      "mintOpen": true,
+      "pageStatus": "未开始（滞后）"
+    },
+    "bonkagent": {
+      "totalMinted": 2,
+      "mintOpen": true
+    },
+    "pandu-agent": {
+      "totalSupply": 1790,
+      "totalMinted": 1790,
+      "maxSupply": 2222
+    },
+    "ordiagent": {
+      "totalMinted": 0,
+      "contractDeployed": false,
+      "opensAt": "2026-11-09 18:00 CST"
+    }
+  },
+  "keyUpdates": [
+    "admit elysian-agents (@elysianagents) Elysium AI arena Season1",
+    "admit acheron (@acheronsh) Elysium private money+CA",
+    "admit eden-elysium (@TradeonEden) Elysium SOL launchpad/terminal",
+    "Pepe LIVE on-chain minted=116 (site lag)",
+    "OrdiAgent ≤2h 18:00 undeployed",
+    "BONK LIVE minted=2",
+    "Pandu 1790/2222 (+29)"
+  ],
+  "skipped": [
+    "ElysiumCards_ 0-follower same-day spam risk",
+    "Annak0ox Postmark/LuckyCat/Pokémon spam",
+    "NUSA/Hopkin aggregator noise",
+    "GIWAUP/T0/pabal already in library",
+    "Elysium mainnet clock still not pinned by @Enter_Elysium",
+    "HashDoge/Genius/Corla/Flap STOPPED"
+  ],
+  "lastFullAfterReset": "R1492",
+  "tenLanes": "UF 994→1044（50：profiles 3批；NF/susp soft-skip）+ must/≤2h profiles+posts（Pepe/BONK/Ordi/Pandu）+ 4 KW + soft-debt（Tape/Starknet/BTC/GIWA/DogeEVM/Elysium/squeek）。九栏+BTC/Starknet 均跑；新收录 3；Tape/DogeEVM/Starknet/LZ/BTC/挖矿/GO 本窗无可收新号。",
+  "scriptFix": "none",
+  "discordPeekStatus": "deferred",
+  "discordPeekNote": "no browser/desktop in executor → discordPeekDeferred=true；parent should Peek",
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED",
+  "pushSha": "PENDING",
+  "tip": "PENDING",
+  "xReads": 18,
+  "remainingBefore": 831,
+  "remaining": 813,
+  "mode": "ample",
+  "softCap": 28,
+  "ufCursor": "994→1044"
+}

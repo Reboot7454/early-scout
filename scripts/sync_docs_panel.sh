@@ -45,11 +45,21 @@ for k in list(meta):
     n = round_num(k)
     if n is not None and isinstance(r, int) and n < r - 30:
         meta.pop(k, None)
-new = [c.get("id") for c in slim if c.get("newThisRound") and c.get("id")]
+# Prefer meta.newThisRound (source of truth); fall back to per-card flags.
+meta_ntr = [x for x in (meta.get("newThisRound") or []) if isinstance(x, str)]
+flag_ntr = [c.get("id") for c in slim if c.get("newThisRound") and c.get("id")]
+new = meta_ntr or flag_ntr
 if new:
     meta["roundNAdded"] = new
     meta["newThisRound"] = new
     meta["round"] = r
+    # keep card flags aligned so older panel filters still work
+    want = set(new)
+    for c in slim:
+        if c.get("id") in want:
+            c["newThisRound"] = True
+        elif c.get("newThisRound") is True:
+            c["newThisRound"] = False
 docs = {"meta": meta, "candidates": slim}
 for k, v in d.items():
     if k in ("meta", "candidates"):

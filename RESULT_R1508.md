@@ -1,0 +1,26 @@
+# R1508 早期打新雷达 RESULT（2026-11-09 16:35 CST）
+
+- round: R1508
+- newThisRound: elysian-agents（@elysianagents）、acheron（@acheronsh）、eden-elysium（@TradeonEden）
+- clearedPrevNTR: R1507 的 eggoxyz/shadeselysium/bythosdepth/vectradotxyz
+- ≤2h: PepeAgent 今日 16:00 CST 已开铸（链上 minted=116；官网仍未开始滞后）；BONK Agent 今日 15:00 CST 已开铸（链上 totalMinted=2）；OrdiAgent 今日 18:00 CST（合约未部署）。erupt-fun 今日 20:00；BLURB/shielded-wizards 今日 23:00；HORNYHOOD/elytypes/souls-elysium/InkMiners 仍 11/10。
+- PepeAgent: 官推「铸造正式开启」；链上 totalMinted=116 mintOpen=true；官网 Status=未开始（滞后）；粉 67
+- BONK Agent: 链上 totalMinted=2；粉 526
+- OrdiAgent: 官推确认 18:00 CST；付费 0.003 BNB；合约仍未部署；粉 495
+- Pandu: 链上 totalSupply=1790/2222（+29 vs R1506 1761）
+- Elysian Agents: 新收录；Elysium AI 交易擂台 Season1；粉 1
+- Acheron: 新收录；Elysium 隐私资金/私密永续自称 live+CA；粉 9
+- Eden: 新收录；Elysium SOL 终端/launchpad；$EDEN on Montra；粉 8
+- lastFullAfterReset: R1492（本轮 ample，未再跑 post-reset-full）
+- notify: true
+- alertMessage: 新收录 Elysian Agents/Acheron/Eden。PepeAgent链上已开铸minted=116（官网仍未开始）。OrdiAgent≤2h今日18:00。BONK minted=2。Pandu 1790/2222。面板 https://reboot7454.github.io/early-scout/
+- xReads=18 / remainingBefore=831 / remaining=813 / mode=ample / softCap=28 / ufCursor=994→1044
+- tenLanes: UF 994→1044（50：profiles 3 批；NF UseZPadX/agenticsocial/dyorcash/404Naroba；susp MOIbitcoin）+ must/≤2h（Pepe/BONK/Ordi/Pandu）+ 4 KW + soft-debt + squeek/Elysium 官号。九栏+BTC/Starknet 均跑；新收录 3；Tape/DogeEVM/Starknet/LZ/BTC/挖矿/GO 本窗无可收新号；GIWA/T0/pabal 已在库；Annak0ox/ElysiumCards_ 噪音跳过。
+- discordPeekDeferred: true（无 browser/desktop；本轮跳过 Peek，父代理补）
+- dsNote: DeepSeek insufficient_balance → dsFallback；本地 admit 三卡 + 刷新关键窗
+- docsSynced: true
+- skipped: ElysiumCards_ 0粉当日号；Annak0ox Postmark/LuckyCat/Pokémon 刷屏；NUSA/Hopkin 聚合噪音；Ammora/GIWA 噪音；HashDoge/Genius/Corla/Flap STOPPED
+- scriptFix: 无
+- HashDoge/Genius/Corla/Flap: STOPPED
+- pushSha: PENDING
+- tip: PENDING
