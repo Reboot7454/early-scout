@@ -22,4 +22,4 @@
 - docsSynced: true
 - skipped: dust-engine（@dustengineapp Genesis LAST DAY，非极早期开窗）；ai-garden/Signal Ghosts（@aigardenart Coming to Solana + WL，已有平台非极早期可操作窗）；frenbook（@Frenbookio 建设中无钟点）；supanova（@supanova_app Canton pad 已 live 非极早期）；coremining10（0粉 TG 矿机）；ledgerealms（Affiliate mint 喊单）；Ammora/GIWA 等待名单噪音；Pressure/Lucky Cat 仅第三方喊单未独立核验官推；Elysium Mainnet Registration 刷屏
 - HashDoge/Genius/Corla/Flap: STOPPED
-- pushSha: (pending)
+- pushSha: 1605654
