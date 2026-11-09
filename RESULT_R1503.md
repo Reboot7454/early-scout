@@ -1,0 +1,22 @@
+# R1503 早期打新雷达 RESULT（2026-11-09 14:41 CST）
+
+- round: R1503
+- newThisRound: （无）
+- clearedPrevNTR: agent-akita
+- ≤2h: BONK Agent 今日 15:00 CST（续，le2h=true；约20分钟；链上 totalSupply=0）。OrdiAgent 今日 18:00 CST（约 16:00 起算 ≤2h）；BLURB 今日 23:00 CST；HORNYHOOD 11/10 00:00 CST；elytypes 11/10 01:00 CST；souls-elysium 与 InkMiners 均为 11/10 04:00 CST；slymzcrew 主网后立刻 GTD/FCFS（无精确钟点）→ le2h=false；Cathereum WL 将关、今日 mint（无精确钟点）→ le2h=false。
+- BONK Agent: 14:39–14:41 CST 页面 data-starts-at=1794207600 仍锁至 15:00 CST；token totalSupply=0；官推 under 30 minutes；粉 525
+- OrdiAgent: 官推再确认 18:00 CST + 付费档 #1001–10000 @0.003 BNB；70%LP/10%邀请/20%金库；合约尚未部署；粉 479
+- Pandu: 链上 totalSupply=1567/2222（+50 vs R1502 1517）
+- lastFullAfterReset: R1492（本轮 ample，未再跑 post-reset-full）
+- notify: true
+- alertMessage: BONK Agent ≤2h：今日15:00 CST开铸（前1000免费/需Agent ID，链上仍0，约20分钟）。面板 https://reboot7454.github.io/early-scout/
+- xReads=9 / remainingBefore=874 / remaining=865 / mode=ample / softCap=28 / ufCursor=844→894
+- tenLanes: UF 844→894（50号：0 priorNF + 9本轮NF + 2 suspended + 39 resolved；2批 profiles）+ must/≤2h 1次 profiles + 2次 posts（BONK/Ordi）+ 3 KW + soft-debt。九栏+BTC/Starknet 均跑；无新收录；GIWA 仍 Ammora 噪音；DogeEVM/Tape/Starknet/LZ/BTC 本窗无可收新号。
+- discordPeekDeferred: true（无 browser/desktop；本轮跳过 Peek）
+- dsNote: DeepSeek insufficient_balance → dsFallback；本地跳过 UsePerpEly（Elysium perps 无明确 deploy）、LingjiBots（0粉）；更新 BONK ≤2h supply=0、OrdiAgent 仍 18:00、Pandu 1567。
+- docsSynced: true
+- skipped: UsePerpEly（无明确 deploy）；LingjiBots（0粉）；Ammora GIWA 刷屏；Handln/agent-seal、lotlings、MemeFunds_、eruptdottfun、CompanionsWfit 已在库
+- scriptFix: 无
+- HashDoge/Genius/Corla/Flap: STOPPED
+- pushSha: (pending)
+- tip: (pending)

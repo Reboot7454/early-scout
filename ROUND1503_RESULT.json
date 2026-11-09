@@ -1,0 +1,63 @@
+{
+  "round": 1503,
+  "roundLabel": "R1503",
+  "checkedAt": "2026-11-09 14:41 CST",
+  "newThisRound": [],
+  "clearedPrevNTR": [
+    "agent-akita"
+  ],
+  "le2h": [
+    "BONK Agent 今日 15:00 CST（续，le2h=true；链上 totalMinted/tokenSupply=0；约20分钟）"
+  ],
+  "notify": true,
+  "alertMessage": "BONK Agent ≤2h：今日15:00 CST开铸（前1000免费/需Agent ID，链上仍0，约20分钟）。面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": true,
+  "docsSynced": true,
+  "dsNote": "DeepSeek insufficient_balance → dsFallback; skip UsePerpEly/LingjiBots; refresh BONK/Ordi/Pandu",
+  "dsFallback": true,
+  "xQuota": {
+    "xReads": 9,
+    "remainingBefore": 874,
+    "remaining": 865,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 844,
+    "ufCursor": 894,
+    "eveningReserve": 80
+  },
+  "onchain": {
+    "bonkagent": {
+      "tokenTotalSupply": 0,
+      "mintOpen": false,
+      "pageLockUntil": "2026-11-09 15:00 CST"
+    },
+    "pandu-agent": {
+      "totalSupply": 1567,
+      "maxSupply": 2222
+    }
+  },
+  "keyUpdates": [
+    "no new admit",
+    "BONK ≤2h supply=0 ~20min",
+    "OrdiAgent 18:00 confirmed",
+    "Pandu 1567/2222",
+    "cleared agent-akita"
+  ],
+  "skipped": [
+    "UsePerpEly",
+    "LingjiBots",
+    "Ammora",
+    "agent-seal",
+    "lotlings",
+    "memefund"
+  ],
+  "lastFullAfterReset": "R1492",
+  "tenLanes": "UF 844→894 + must/posts + 3 KW + soft-debt; no admits; BTC/Starknet/Tape/GIWA covered",
+  "scriptFix": "none",
+  "discordPeekStatus": "deferred",
+  "discordPeekNote": "no browser/desktop → discordPeekDeferred=true",
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED"
+}
