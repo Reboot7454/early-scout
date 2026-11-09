@@ -1,0 +1,126 @@
+{
+  "round": 1544,
+  "roundLabel": "R1544",
+  "checkedAt": "2026-11-10 04:53 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits+le2h",
+  "alertMessage": "R1544新收2：pfwafun（RH预测市场orderbook已上线）、nouns-elysium（Elysium公开铸造即将开放，时间待定）；ORVYN NFT免费mint仍LIVE且$ORVYN代币约04:41 CST已上线；InkMiners mint仍LIVE（0.00018 ETH/333）。面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": true,
+  "discordPeekNote": "no browser/computerUse in this executor; lastSeenByChannel from R1543",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-10 04:36",
+    "alpha-1-backup": "2026-11-10 02:49",
+    "smart-accounts-tracker": "2026-11-10 04:03",
+    "alpha-1": "2026-11-10 04:25"
+  },
+  "gapIncomplete": true,
+  "docsSynced": true,
+  "pushSha": "c1093d0",
+  "tip": "c1093d0",
+  "xReads": 20,
+  "remainingBefore": 384,
+  "remaining": 364,
+  "mode": "pace",
+  "softCap": 28,
+  "ufCursor": {
+    "before": 320,
+    "after": 360
+  },
+  "ufCursorBefore": 320,
+  "ufCursorAfter": 360,
+  "xQuota": {
+    "xReads": 20,
+    "remainingBefore": 384,
+    "remaining": 364,
+    "mode": "pace",
+    "softCap": 28,
+    "ufCursorBefore": 320,
+    "ufCursor": 360,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-10 04:53 CST",
+    "note": "UF320→360 + must/≤2h×1 + KW×7 + mentions GIWA×1 + 0xCzyzu profile/posts；新收2；ORVYN token+NFT / InkMiners ≤2h LIVE；DS成功；discordPeekDeferred；R1543已被DC占用故本轮R1544"
+  },
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking on；admit/score/alert ok",
+  "newThisRound": [
+    "pfwafun",
+    "nouns-elysium"
+  ],
+  "newAdmitsDetail": [
+    {
+      "id": "pfwafun",
+      "handle": "@pfwafun",
+      "oneLiner": "Robinhood 预测市场协议；官宣 orderbook markets live；粉1925"
+    },
+    {
+      "id": "nouns-elysium",
+      "handle": "@nouns_elysium",
+      "oneLiner": "Elysium Nouns 风格 NFT；PUBLIC MINT INCOMING（无精确钟点）；粉1321"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "perponely",
+      "handle": "@PerpOnEly",
+      "reason": "当天新建粉1秒发币，DS skip"
+    },
+    {
+      "id": "arcpulse-app",
+      "handle": "@ArcPulseApp",
+      "reason": "与库内 arc-pulse(@Arcdepthoock/FTHM) 同叙事，疑似换号或仿盘，DS skip"
+    },
+    {
+      "id": "tryrexfun",
+      "handle": "@tryrexfun",
+      "reason": "账号已一年以上且本窗仅黑客松预告，DS skip"
+    },
+    {
+      "id": "elyspadonchain",
+      "handle": "@elyspadonchain",
+      "reason": "当日新建粉2、空 bio、Telegram 发币机器人，未送审"
+    },
+    {
+      "id": "squeek_radar",
+      "handle": "@squeek_radar",
+      "reason": "非官方跟踪号，非项目本身"
+    },
+    {
+      "id": "0xCzyzu",
+      "handle": "@0xCzyzu",
+      "reason": "Squeeky Market 提及的个人号，无独立项目官推"
+    }
+  ],
+  "clearedPrevNTR": [
+    "strix-rbh",
+    "buryyournft"
+  ],
+  "le2h": [
+    {
+      "id": "orvyn-universe",
+      "note": "NFT FREE mint 仍 LIVE（887/OpenSea）；$ORVYN 代币约 04:41 CST LIVE，CA 0xd610b7d915dc58d92fc85e0f0174b71ed73cb650"
+    },
+    {
+      "id": "ink-miners",
+      "note": "mint 仍 LIVE；0.00018 ETH / 333 / Ink OpenSea"
+    }
+  ],
+  "keyUpdates": [
+    "orvyn-universe → $ORVYN token LIVE + NFT mint still live",
+    "ink-miners → mint still live",
+    "elynx → public mint 0.007 HYPE，closes 11/10 15:00 UTC",
+    "agoraelysium → bidirectional Relay bridge",
+    "lotlings → public mint remains open + AscendLaunch tease",
+    "bike-tyson-punk → 200 GTD free mint spots, drop wallets",
+    "elydotmoney → $EMON live CA 0x2fa1…ba64",
+    "nemotron → Elysium 4444 mint LIVE claimed"
+  ],
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED",
+  "tenLanes": "R1544 雷达主扫。UF 320→360（40槽；prior NF skip×9；new NF use_moche/darkllartech；已知库内软刷为主：agora 双向桥、lotlings public mint 续开、ElyStocks 设计稿、BikeTysonPunk 200 GTD、stillwater launching soon）+ must/≤2h×1（InkMiners LIVE + Orvyn NFT+token LIVE + stasyfun/squeekchain）+ KW×7（打新/台子、挖矿/squeek、Elysium、Tape/GIWA/DogeEVM、GO、LZ/BTC/Starknet、WL/FCFS）+ mentions GIWA×1（仍 Ammora waitlist 刷量）+ 0xCzyzu profile/posts×2。九栏+BTC/Starknet/GIWA 均跑。LZ KW 仍 globemkts ATLAS 等待列表。discordPeekDeferred。",
+  "priorRoundNote": "R1543 Discord alpha 已收 strix-rbh,buryyournft；本执行为 X 主扫故用 R1544",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "pushShaFull": "c1093d0051733738ae3d8e3ee0bfdebf5f92d677"
+}
