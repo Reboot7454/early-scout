@@ -1,0 +1,26 @@
+# R1506 早期打新雷达 RESULT（2026-11-09 15:58 CST）
+
+- round: R1506
+- newThisRound: envise（@envisetech）、catto（@cattopxl）、denim-402（@baseddenim402）
+- clearedPrevNTR: R1505 的 36 条 DC 补漏（motiongift…oddsline）
+- ≤2h: PepeAgent 今日 16:00 CST（官网未开始·链上 minted=0）；BONK Agent 今日 15:00 CST 已开铸（链上 totalMinted=2）；OrdiAgent 今日 18:00 CST（现 ≤2h；合约未部署）。BLURB 今日 23:00；erupt-fun 今日 20:00；HORNYHOOD/elytypes/souls-elysium/InkMiners 仍 11/10。
+- PepeAgent: 官网 Status=未开始；合约已开源验证；官推确认 16:00 CST；粉 62
+- BONK Agent: 链上 totalMinted=2；粉 527
+- OrdiAgent: 官推「about 2.5h」确认 18:00 CST；付费 0.003 BNB；合约未部署；粉 482
+- Pandu: 链上 totalSupply=1761/2222（+68 vs R1504 1693）
+- Envise: 新收录；Elysium 流动性/路由 Announced Mainnet；粉 0
+- Catto: 新收录；Elysium NFT via kalos；原 11/9 17:00 UTC，官推称或因主网推迟
+- Denim402: 新收录；Base/BNB Agent-gated x402 mint；与旧 @baseddenim 区分
+- lastFullAfterReset: R1492（本轮 ample，未再跑 post-reset-full）
+- notify: true
+- alertMessage: 新收录 Envise/Catto/Denim402。PepeAgent≤2h今日16:00开铸（官网未开始）。OrdiAgent≤2h今日18:00。BONK已开铸minted=2。Pandu 1761/2222。面板 https://reboot7454.github.io/early-scout/
+- xReads=17 / remainingBefore=854 / remaining=837 / mode=ample / softCap=28 / ufCursor=944→994
+- tenLanes: UF 944→994（50）+ must/≤2h（Pepe/BONK/Ordi/Pandu）+ 3 KW + soft-debt。九栏+BTC/Starknet 均跑；新收录 3；Tape/DogeEVM/Starknet/LZ/BTC/挖矿/GO 本窗无可收新号；GIWA Ammora 噪音。
+- discordPeekDeferred: true（无 browser/desktop；本轮跳过 Peek，父代理补）
+- dsNote: DeepSeek insufficient_balance → dsFallback；本地 admit 三卡 + 刷新关键窗
+- docsSynced: true
+- skipped: Ammora/GIWA 噪音；Annak0ox 刷屏；loopup 已在库；Elysium 主网钟点未钉
+- scriptFix: 无
+- HashDoge/Genius/Corla/Flap: STOPPED
+- pushSha: (pending)
+- tip: (pending)
