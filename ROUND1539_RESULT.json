@@ -1,0 +1,128 @@
+{
+  "round": 1539,
+  "roundLabel": "R1539",
+  "checkedAt": "2026-11-10 03:39 CST",
+  "notify": true,
+  "alertMessage": "R1539新收4：monchiesnft（Elysium 699宠物NFT申请中）、lumorapad（Elysium股票配对发射台即将上线）、talosdotxyz（Elysium隐私AI质押已开）、roomzzio（Base代币3D房间+美股房）；InkMiners约04:00 CST开铸（0.00018 ETH/333）；$STASY已上线pump.fun。面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": true,
+  "discordPeekNote": "本雷达轮无 browser；未 Peek。lastSeenByChannel 仍为 R1537 cutoff。R1538 Peek 撞登录墙 cardsAfterCutoff=0。",
+  "docsSynced": true,
+  "pushSha": "fa0b86e",
+  "tip": "fa0b86e",
+  "xReads": 10,
+  "remainingBefore": 428,
+  "remaining": 418,
+  "mode": "pace",
+  "softCap": 28,
+  "ufCursor": {
+    "before": 270,
+    "after": 289
+  },
+  "xQuota": {
+    "xReads": 10,
+    "remainingBefore": 428,
+    "remaining": 418,
+    "mode": "pace",
+    "softCap": 28,
+    "ufCursorBefore": 270,
+    "ufCursor": 289,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-10 03:39 CST",
+    "note": "UF270→289 + must/≤2h×1 + KW×6 + mentions Starknet×1 + 新号profiles×1；新收4；InkMiners≤2h；DS成功；discordPeekDeferred"
+  },
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking on；首次 ds_batch_score 输出截断，重试 max_tokens=8192 成功。admit: monchiesnft/lumorapad/talosdotxyz/roomzzio；skip ruglessxyz（工具无打新激励、账号近空壳）。",
+  "newThisRound": [
+    "monchiesnft",
+    "lumorapad",
+    "talosdotxyz",
+    "roomzzio"
+  ],
+  "newAdmitsDetail": [
+    {
+      "id": "monchiesnft",
+      "name": "Monchies",
+      "handle": "@MonchiesNFT",
+      "lane": "打新",
+      "oneLiner": "Elysium 699宠物NFT（蛋孵化）申请中；monchies.xyz；粉542"
+    },
+    {
+      "id": "lumorapad",
+      "name": "LumoraPad",
+      "handle": "@LumoraPad",
+      "lane": "GO盘",
+      "oneLiner": "Elysium股票配对发射台即将上线；lumorapads.com；粉33"
+    },
+    {
+      "id": "talosdotxyz",
+      "name": "Talos",
+      "handle": "@talosdotxyz",
+      "lane": "台子/Meme",
+      "oneLiner": "Elysium隐私AI推理层，自称TLS/质押已开；gettalos.xyz；粉16"
+    },
+    {
+      "id": "roomzzio",
+      "name": "Roomzz",
+      "handle": "@Roomzzio",
+      "lane": "GO盘",
+      "oneLiner": "Base代币3D房间+美股房；NVDAc约11/17；roomzz.io；粉1206"
+    }
+  ],
+  "skipped": [
+    {
+      "handle": "@ruglessxyz",
+      "reason": "Elysium 安全扫描工具，无发行/激励；2022年号仅4帖1粉，打新价值不足（DS skip）"
+    },
+    {
+      "handle": "@TheMETAOG",
+      "reason": "个人账号发 Elysium 艺术心情，非项目官号"
+    },
+    {
+      "handle": "@hypedexerapp",
+      "reason": "已有卡 hypedexer 的同项目新号；已更新 CA/站点，不重复建卡"
+    },
+    {
+      "handle": "@EquorisApp",
+      "reason": "代币已在 Montra 上线并公布 CA，非极早期窗口"
+    },
+    {
+      "handle": "@squeek_radar",
+      "reason": "非官方 squeek 生态追踪号，非可操作项目（同 R1538）"
+    },
+    {
+      "handle": "@ciowworld",
+      "reason": "UF shard Not Found，记入 NF_skip"
+    },
+    {
+      "handle": "@gra8dtv",
+      "reason": "UF shard Forbidden/suspended，记入 suspendedSkips"
+    }
+  ],
+  "clearedPrevNTR": [
+    "ducksolpump",
+    "squeekout",
+    "tarcoin",
+    "kimbowl",
+    "peepyourfun"
+  ],
+  "tenLanes": "R1539 雷达主扫。UF 270→289（19槽；已知NF huntfieldrh 未重刷；新NF ciowworld；Forbidden gra8dtv；16 profiles 全在库）+ must/≤2h×1（Unseen/Souls/Stasy/Elytypes 合并查询）+ KW×6（打新/台子、挖矿/squeek、GO盘、Elysium、Tape/GIWA/DogeEVM、LZ/BTC/Starknet）+ mentions Starknet×1 + 新号 profiles×1。九栏+BTC/Starknet/GIWA 均跑。discordPeekDeferred（本执行未 Peek；lastSeenByChannel 仍 R1537）。GIWA KW 多为 Ammora waitlist 刷量；LZ KW 多为 globemkts ATLAS 等待列表。",
+  "le2h": [
+    "ink-miners",
+    "stasyfun"
+  ],
+  "keyUpdates": [
+    "InkMiners 02:59 CST 再确认 04:00 CST（8PM UTC）OS 公售，0.00018 ETH / 333，现≤2h",
+    "$STASY 03:26 CST 已上线 pump.fun，CA 7yb29Gp149deEot5XfSKTThyHttGvyGjdD1kHj5upump",
+    "THE UNSEEN AL 约 03:00 CST 已过，官推无开铸确认（最新帖仍 02:37 发 WL）",
+    "Souls OS+claim 已 LIVE，未领截止 23:31 CST；本窗官帖未再提 04:00 开铸",
+    "Elytypes 重开后无新帖；01:28 CST 称 OS 交易未启用",
+    "hypedexer 同项目新号 @hypedexerapp 公布 $HYPEDEXER Montra CA，不另建卡",
+    "softDebt canton/glaze/tokenworks lastChecked refreshed",
+    "新收 monchiesnft / lumorapad / talosdotxyz / roomzzio"
+  ],
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED",
+  "pushShaFull": "fa0b86e126453e28ddb8c46c738620c6c08dee38"
+}
