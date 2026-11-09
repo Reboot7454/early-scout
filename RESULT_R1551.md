@@ -1,7 +1,7 @@
 # R1551 early-scout RESULT（2026-11-10 07:05 CST）
 
 - round: R1551
-- pushSha/tip: 7fc086c
+- pushSha/tip: 087ade7
 - mode: pace softCap=28
 - xReads: 13 | remainingBefore: 307 → remaining: 294 | ufCursor: 480→520
 - newThisRound: borly, elysiumpilled, memeum, sollion
