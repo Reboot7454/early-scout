@@ -1,7 +1,7 @@
 # R1531 early-scout RESULT（2026-11-10 00:08 CST）
 
 - round: R1531
-- pushSha/tip: PENDING
+- pushSha/tip: 558cba4
 - mode: pace softCap=28
 - xReads: 19 | remainingBefore: 546 → remaining: 514 | ufCursor: 161→182
 - newThisRound: usegetpeak, nanabytes, elyxdotmeme, clampbuild, kinex-fun, eqtycredit, splix-nft, elysiumvaultnft, aethermeme, goldencyclops, hockmarkets
