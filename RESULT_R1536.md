@@ -1,7 +1,7 @@
 # R1536 early-scout RESULT（2026-11-10 02:32 CST）
 
 - round: R1536
-- pushSha/tip: 7db391d
+- pushSha/tip: ea78c62
 - mode: pace softCap=28
 - xReads: 8 | remainingBefore: 454 → remaining: 446 | ufCursor: 236→252
 - newThisRound: degendotzone, trenchingdotfun, elysianpull, shit-capital
