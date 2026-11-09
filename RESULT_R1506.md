@@ -22,5 +22,5 @@
 - skipped: Ammora/GIWA 噪音；Annak0ox 刷屏；loopup 已在库；Elysium 主网钟点未钉
 - scriptFix: 无
 - HashDoge/Genius/Corla/Flap: STOPPED
-- pushSha: (pending)
-- tip: (pending)
+- pushSha: 3a88c15
+- tip: 3a88c15
