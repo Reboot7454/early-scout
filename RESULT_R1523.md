@@ -1,7 +1,7 @@
 # R1523 early-scout RESULT（2026-11-09 21:16 CST）
 
 - round: R1523
-- pushSha/tip: cb9cdc8
+- pushSha/tip: 2c5bdd1
 - mode: ample softCap=31
 - xReads: 10 | remainingBefore: 656 → remaining: 646 | ufCursor: 72→93
 - newThisRound: memesurvivor, broccoli-agent, ironshot
