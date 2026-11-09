@@ -1,0 +1,21 @@
+# R1492 早期打新雷达 RESULT（2026-11-09 08:22 CST）
+
+- round: R1492
+- newThisRound: sakura-ronin（@SakuraRonin_ai，BNB 武士 NFT Phase0 Agent ID 免费铸 LIVE，8粉，链上 totalMinted≈253/3333，CA 0xE56f…1D47）；nonclank（@nonclank，Elysium 自改进 AI / $NONCLANK 叙事，32粉，无CA，站点 nonclank.fun）
+- clearedPrevNTR: （R1491 已空）
+- ≤2h: 无。skitters 原约 08:07 CST 未开，官推 08:14 CST 称等 OpenSea+@Enter_Elysium 完全 live 后再开门 → le2h 清除
+- the-long-necks: 348/400 仍 LIVE（tenderly Base RPC）；≤2h 已过
+- broisafreak: Public 概念仍 LIVE，≤2h 已过，forcePanel 保留；本轮仅回复刷屏
+- BONK Agent: 再确认 15:00 CST 开铸、前1000免费；新帖说明需 SPACE ID .ai Agent ID；链上 totalMinted=0
+- 链上: Gloop 3333/3333 售罄、Pandu 191、Chipmunks 1068、Fortune 367、NUMBI 125、Beast16 233、TOAST cardsSold=166 免费剩 4834、LongNecks 348/400、Sakura Ronin 253/3333
+- lastFullAfterReset: R1492（本轮为 08:00 重置后首轮 post-reset-full）
+- notify: true
+- alertMessage: R1492新收录 sakura-ronin（BNB AgentID 免费铸 Phase0 333 LIVE）+ nonclank（Elysium 自改进AI叙事无CA）；Skitters 推迟待 OpenSea+Elysium；BONK Agent 仍15:00 CST。面板 https://reboot7454.github.io/early-scout/
+- xReads=11 / remainingBefore=993 / remaining=982 / mode=post-reset-full / softCap=50 / ufCursor=294→344
+- tenLanes: UF 294→344（50 号分两批 from:）+ must/≤2h 1 次（SkittersNFTs/Bonkagent_/thelongneck_/BROISAFREAK/halofunxyz/Elytypess/PairMineAI/Enter_Elysium/squeekchain/tapeai/bitcointapes/ascendlaunch 等）+ focus 补刷 1 次（Enter_Elysium/squeekchain/AscendLaunch/Blonskr）+ 3 search_posts_all（①打新/AgentID/free mint；②挖矿/PoW/GO/LZ；③Elysium/Tape/GIWA/DogeEVM/BTC/Starknet）+ 1 starved/soft-debt（Canton/banknotes_btc 等）+ 1 profiles + 2 user_posts（SakuraRonin/nonclank）。九栏+BTC/Starknet 均跑；新收 sakura-ronin/nonclank；GIWA 仍 Ammora 噪音；DogeEVM/Starknet/LZ 本窗无可收新号；Canton/Glaze/TokenWorks lastChecked 已刷。
+- discordPeekDeferred: true
+- dsNote: DeepSeek deepseek-flash(thinking) score/admit/alert；admit sakura-ronin + nonclank。本地覆盖：skitters 清 le2h、long-necks/broisafreak 保持 live、分数维持 DS 输出、lastFullAfterReset=R1492。
+- docsSynced: true
+- skipped: YAOQIAN 用户自报 CA（0粉号）；Elysium Mainnet Registration 刷屏；Bullshot/Swapfone/Midas 手机挖矿刷屏；Ammora/GIWA 等待名单噪音；Pressure/Fountainbnb 仅第三方提及未独立核验
+- HashDoge/Genius/Corla/Flap: STOPPED
+- pushSha: (pending)

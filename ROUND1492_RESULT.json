@@ -1,0 +1,128 @@
+{
+  "round": 1492,
+  "mode": "post-reset-full",
+  "completedAt": "2026-11-09 08:22 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "真新收录 sakura-ronin + nonclank；Sakura Phase0 免费铸 LIVE。",
+  "alertMessage": "R1492新收录 sakura-ronin（BNB AgentID 免费铸 Phase0 333 LIVE）+ nonclank（Elysium 自改进AI叙事无CA）；Skitters 推迟待 OpenSea+Elysium；BONK Agent 仍15:00 CST。面板 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "sakura-ronin",
+    "nonclank"
+  ],
+  "newAdmits": [
+    {
+      "id": "sakura-ronin",
+      "handle": "@SakuraRonin_ai",
+      "oneLiner": "BNB 武士 NFT Phase0 Agent ID 免费铸 LIVE，8粉，链上≈253/3333"
+    },
+    {
+      "id": "nonclank",
+      "handle": "@nonclank",
+      "oneLiner": "Elysium 自改进 AI / $NONCLANK 叙事，32粉，无CA"
+    }
+  ],
+  "newCount": 2,
+  "clearedPrevNTR": [],
+  "clearedPrevNewThisRound": true,
+  "skipped": [
+    {
+      "handle": "@SulaimanKa97765",
+      "reason": "YAOQIAN 用户自报 CA，0粉非官推"
+    },
+    {
+      "handle": "ElysiumRegistrationSpam",
+      "reason": "主网注册刷屏非项目官推"
+    },
+    {
+      "handle": "@Bullshot911",
+      "reason": "手机挖矿刷屏噪音"
+    },
+    {
+      "handle": "@AmmoraHQ",
+      "reason": "GIWA 等待名单噪音，非新可操作窗"
+    },
+    {
+      "handle": "Pressure/Fountainbnb",
+      "reason": "仅第三方提及，未独立核验官推"
+    }
+  ],
+  "le2h": [],
+  "le2hStatus": {
+    "skitters": "【R1492】原 08:07 未开；官推等 OpenSea+Elysium live 后再开门；le2h=false。",
+    "the-long-necks": "【R1492】348/400 仍 LIVE，≤2h 已过。",
+    "broisafreak": "【R1492】≤2h 已过，forcePanel 保留。",
+    "bonkagent": "【R1492】15:00 CST，非≤2h；totalMinted=0。",
+    "sakura-ronin": "【R1492】Phase0 FREE LIVE（非定点≤2h窗）。",
+    "nonclank": "【R1492】仅叙事无窗，非≤2h。"
+  },
+  "onchainChecks": {
+    "the-long-necks": {
+      "totalSupply": 348,
+      "maxSupply": 400,
+      "remaining": 52,
+      "chain": "Base",
+      "contract": "0x3ab4978702f1208106c46f0faa417829f304a4d7",
+      "source": "base.gateway.tenderly.co"
+    },
+    "sakura-ronin": {
+      "totalMinted": 253,
+      "maxSupply": 3333,
+      "contract": "0xE56fD19a19E684b94db1Dd3c81896736E3631D47",
+      "token": "0xb76916a7dfda43766980c3C87D167d5201C8fb4f",
+      "chain": "BNB"
+    },
+    "gloop-slime": {
+      "totalMinted": 3333,
+      "soldOut": true
+    },
+    "pandu-agent": {
+      "totalSupply": 191,
+      "totalMinted": 191
+    },
+    "chipmunks-bnb": {
+      "totalSupply": 1068,
+      "totalMinted": 1068
+    },
+    "fortune-paws": {
+      "totalMinted": 367
+    },
+    "numbi": {
+      "totalSupply": 125,
+      "totalMinted": 125
+    },
+    "beast16": {
+      "totalMinted": 233
+    },
+    "toast-bnb": {
+      "cardsSold": 166,
+      "freeGiven": 166,
+      "freeCardsRemaining": 4834
+    },
+    "bonk-mint": {
+      "totalMinted": 0
+    }
+  },
+  "xReads": 11,
+  "remainingBefore": 993,
+  "remaining": 982,
+  "softCap": 50,
+  "ufCursor": 344,
+  "ufCursorBefore": 294,
+  "xQuota": {
+    "remainingBefore": 993,
+    "remaining": 982,
+    "xReads": 11,
+    "mode": "post-reset-full",
+    "softCap": 50
+  },
+  "lastFullAfterReset": "R1492",
+  "tenLanes": "UF 294→344（50号两批）+ must/≤2h + focus + 3 KW + starved/soft-debt + profiles + 2 user_posts；九栏+BTC/Starknet；新收 sakura-ronin/nonclank；Canton/Glaze/TokenWorks 已刷。",
+  "discordPeekDeferred": true,
+  "dsNote": "DeepSeek deepseek-flash(thinking) score/admit/alert；admit sakura-ronin+nonclank；skitters 清 le2h；lastFullAfterReset=R1492。",
+  "dsFallback": false,
+  "docsSynced": true,
+  "forcePanelIds": "保留 broisafreak 等既有 forcePanel",
+  "pushSha": null,
+  "tipSha": null
+}
