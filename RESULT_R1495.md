@@ -22,4 +22,4 @@
 - docsSynced: true
 - skipped: agent-life（@Agentlifebnb WL/合约审查，mint modules 未开无钟点）；Hopkin 刷屏已在库；ArtPlatformX 艺术基建非极早期可操作窗；Ammora/GIWA 等待名单噪音；第三方 Elysium WL 喊单未新核验官推开窗
 - HashDoge/Genius/Corla/Flap: STOPPED
-- pushSha: (pending)
+- pushSha: 53347d4
