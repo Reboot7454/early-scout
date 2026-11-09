@@ -13,7 +13,7 @@
   ],
   "notify": true,
   "alertMessage": "BONK Agent ≤2h：今日15:00 CST开铸（前1000免费/需Agent ID，链上仍0）。新收录 AKITA（BNB Agent ID 公平铸造，free 称 LIVE）。面板 https://reboot7454.github.io/early-scout/",
-  "discordPeekDeferred": true,
+  "discordPeekDeferred": false,
   "docsSynced": true,
   "dsNote": "DeepSeek insufficient_balance → dsFallback; local admit agent-akita (BNB Agent ID fair mint)",
   "dsFallback": true,
@@ -67,11 +67,12 @@
   "tenLanes": "UF 794→844 + must + 2 KW + soft-debt; admitted agent-akita; BTC/Starknet/Tape/GIWA covered",
   "pushSha": "8c7e8f1",
   "scriptFix": "UF first batch wrong names wasted 1 read; corrected with real slice",
-  "discordPeekStatus": "deferred",
-  "discordPeekNote": "no browser; parent will Peek",
+  "discordPeekStatus": "login_wall",
+  "discordPeekNote": "login_wall quiet cancel; cutoffs unchanged; no login nudge",
   "tip": "913f021",
   "HashDoge": "STOPPED",
   "Genius": "STOPPED",
   "Corla": "STOPPED",
-  "Flap": "STOPPED"
+  "Flap": "STOPPED",
+  "peekCommitPending": true
 }

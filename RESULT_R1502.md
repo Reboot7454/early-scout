@@ -15,7 +15,7 @@
 - alertMessage: BONK Agent ≤2h：今日15:00 CST开铸（前1000免费/需Agent ID，链上仍0）。新收录 AKITA（BNB Agent ID 公平铸造，free 称 LIVE）。面板 https://reboot7454.github.io/early-scout/
 - xReads=7 / remainingBefore=881 / remaining=874 / mode=ample / softCap=28 / ufCursor=794→844
 - tenLanes: UF 794→844（50号：3 priorNF + 12本轮NF + 0 suspended + 35 resolved；3批 profiles）+ must/≤2h 2次（usernames+posts_by_ids）+ 2 KW + soft-debt。九栏+BTC/Starknet 均跑；新收录 agent-akita；GIWA/Ammora 噪音跳过；DogeEVM 本窗无可收新号；Tape/Starknet 见 Hokori/BEM 讨论无可新建卡。
-- discordPeekDeferred: true（无浏览器；父代理补 Peek）
+- discordPeekDeferred: false（已补 Peek；login_wall quiet cancel；dc40_cards_r1502peek.json cardsAfterCutoff=0；cutoffs 未改仍 R1471 a1 19:12/backup 17:34/smart 17:01/a3 19:14；未催登录）
 - dsNote: DeepSeek insufficient_balance → dsFallback；本地收录 agent-akita（BNB Agent ID 公平铸造，官网+官推）。更新 BONK ≤2h totalSupply=0、OrdiAgent 仍 18:00、Pandu 1517、LongNecks OS 348。
 - docsSynced: true
 - skipped: yinghubnb KOL无项目卡；ArmazAgent 0粉 Coming Soon；GatesofElysium_ 6粉抽奖式 freemint；Forge_elysium 28粉手续费叙事偏薄；TradeonEden/Ammora/arkhampad/sibyliqai/hokori/wojagent/viroolxyz/skyhooksol 已在库
