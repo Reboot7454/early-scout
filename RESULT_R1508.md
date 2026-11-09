@@ -20,7 +20,7 @@
 - dsNote: DeepSeek insufficient_balance → dsFallback；本地 admit 三卡 + 刷新关键窗
 - docsSynced: true
 - skipped: ElysiumCards_ 0粉当日号；Annak0ox Postmark/LuckyCat/Pokémon 刷屏；NUSA/Hopkin 聚合噪音；Ammora/GIWA 噪音；HashDoge/Genius/Corla/Flap STOPPED
-- scriptFix: 无
+- scriptFix: sync_docs_panel.sh 优先 meta.newThisRound（避免卡面旧 flag 盖掉本轮 NTR）
 - HashDoge/Genius/Corla/Flap: STOPPED
-- pushSha: PENDING
-- tip: PENDING
+- pushSha: af47ac9
+- tip: af47ac9
