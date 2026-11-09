@@ -1,0 +1,134 @@
+{
+  "round": 1523,
+  "roundLabel": "R1523",
+  "checkedAt": "2026-11-09 21:16 CST",
+  "mode": "ample",
+  "softCap": 31,
+  "xReads": 10,
+  "remainingBefore": 656,
+  "remaining": 646,
+  "ufCursor": "72→93",
+  "xQuota": {
+    "xReads": 10,
+    "remainingBefore": 656,
+    "remaining": 646,
+    "mode": "ample",
+    "softCap": 31,
+    "ufCursorBefore": 72,
+    "ufCursor": 93,
+    "eveningReserve": 0,
+    "checkedAt": "2026-11-09 21:16 CST",
+    "note": "API-call xReads=10；x_budget.py 开跑 remainingBefore=656 mode=ample softCap=31；首个 MCP header 后剩 655；末次 header remaining=646；DS 402 → dsFallback；新收 3"
+  },
+  "newThisRound": [
+    "memesurvivor",
+    "broccoli-agent",
+    "ironshot"
+  ],
+  "newAdmitsDetail": [
+    {
+      "id": "memesurvivor",
+      "handle": "@memesurvivor_",
+      "note": "Elysium 主网日官宣 live 的多人生存游戏；粉47"
+    },
+    {
+      "id": "broccoli-agent",
+      "handle": "@BroccoliAgentID",
+      "note": "$BOAGENT 币安 Agent ID 专属铸；粉2；旧号新用，未见 CA"
+    },
+    {
+      "id": "ironshot",
+      "handle": "@ironshotgame",
+      "note": "Torch 驱动 FPS；waitlist + Torch Portal WL 已开；粉309"
+    }
+  ],
+  "clearedPrevNTR": [
+    "elysium-sato",
+    "polarischainhq",
+    "firsthumanet",
+    "pixelpanicclub",
+    "agents-circle",
+    "stagewise-io"
+  ],
+  "le2h": [
+    "Cathereum mint LIVE 21:03 CST ≤2h",
+    "Torpor mint LIVE 21:00 CST（Tier B 22:00 / Public 23:00）",
+    "GrumpGuys mint LIVE 21:04 CST",
+    "$EACC live on Montra 20:57 CST；CA 0x5cdafcac4f91ce69e00ce90aa55fb969ecbb8ded",
+    "Pip TIME CARDS LIVE totalSupply=293",
+    "ElyAnt 改期 21:30 CST @kalosfun",
+    "Outlaws GTD 22:00 / FCFS 23:00 / Public 00:00 CST（kalos 页已开）",
+    "Erupt Chosen Ones 22:00 CST",
+    "BLURB ≈22:36 CST",
+    "Lotlings ≈23:00 CST 现已≤2h"
+  ],
+  "keyUpdates": [
+    "新收 memesurvivor / broccoli-agent / ironshot；清空 R1522 newThisRound 6 张 DC 卡",
+    "Enter_Elysium 21:01 CST 官宣 mainnet live；kalosfun 大门已开",
+    "Cathereum / Torpor / GrumpGuys / $EACC / Pip 已开铸",
+    "ElyAnt 因技术问题改 21:30 CST；Outlaws GTD 22:00 页面已在 kalos；Erupt Chosen Ones 22:00",
+    "Pandu 2222/2222 售罄（+49 vs R1521 2173）",
+    "FREEDOM sold=31 / Ordi 15931 / Pepe 119 / BONK 4 / pepebsc 0 持平",
+    "UF 72→93（16 valid + 5 known-NF skip：PlayFarmFi/reynarlabs/world_ygg/rektazhy59942/0xvernull）；@sidao 撞号为 2008 Sidnei，未覆盖 @SIDAODEV 卡"
+  ],
+  "onchain": {
+    "stonkit-freedom": {
+      "sold": 31,
+      "mintOpen": true,
+      "raisedBNB": 0.062,
+      "contract": "0x1D46c6d07238BBEEdE35B5fEcc7a773edCA76ef7"
+    },
+    "ordiagent": {
+      "sold": 15931
+    },
+    "pepe-agent": {
+      "totalMinted": 119,
+      "mintOpen": true
+    },
+    "pandu-agent": {
+      "totalMinted": 2222,
+      "maxSupply": 2222,
+      "soldOut": true
+    },
+    "bonkagent": {
+      "totalMinted": 4
+    },
+    "pip-agent-world": {
+      "totalSupply": 293,
+      "contractDeployed": true
+    },
+    "pepebsc": {
+      "contract": "0x92b379d3807F68aD2bCfd013D831713D8C6dbdFB",
+      "totalMinted": 0,
+      "mintOpen": true
+    },
+    "kabosu-agent": {
+      "contract": "0x67fdd6c1bf9A4cDb969cE483F71Aacb1d8302eFD",
+      "contractDeployed": true,
+      "note": "totalMinted() reverted"
+    }
+  },
+  "tenLanes": "R1523 雷达主扫。UF 72→93（16 valid + 5 known-NF skip）+ must/≤2h×2 + KW×5 + Torpor/GrumpGuys 补搜 + 3 新号画像。九栏+BTC/Starknet 均跑。",
+  "skipped": [
+    "Ammora GIWA 复制粘贴刷屏跳过",
+    "Elysium Mainnet Registration / 推荐码刷屏跳过",
+    "Lucky Cat / Pressure / Magnetrix 等无独立官推聚合广告跳过",
+    "squeekchain Genesis 0.05E / 11/10 仅为社区口径，未官宣，不写入确认窗",
+    "HashDoge/Genius/Corla/Flap STOPPED 未重启"
+  ],
+  "docsSynced": true,
+  "notify": true,
+  "alertMessage": "R1523新收3：memesurvivor、broccoli-agent、ironshot；Elysium主网+Kalos已开；Cathereum/Torpor/GrumpGuys/$EACC/Pip已开铸；ElyAnt改21:30；Outlaws/Erupt 22:00；Pandu 2222售罄；面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": true,
+  "discordPeekNote": "执行器无浏览器/computerUse，未能 Peek Discord alpha；discordPeekDeferred=true 请父代理补扫",
+  "discordPeekStatus": "deferred-no-browser",
+  "dsFallback": true,
+  "dsNote": "DeepSeek HTTP 402 Insufficient Balance → dsFallback；本地 admit/文案/评分。",
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED",
+  "pushSha": "cb9cdc8",
+  "tip": "cb9cdc8",
+  "pushShaFull": "cb9cdc8f20c05fb0416b5a8f2d9f3ea80886470a"
+}
