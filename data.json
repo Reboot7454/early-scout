@@ -4535,12 +4535,12 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
+      "deferred": false,
       "lastSeen": "2026-11-08 19:14",
-      "lastChecked": "2026-11-09 10:02 CST",
+      "lastChecked": "2026-11-09 10:44 CST",
       "newestCardTime": "2026-11-08 19:14",
       "cardsAfterCutoff": 34,
-      "note": "R1495 discordPeekDeferred=true（executor 无浏览器）；沿用 R1471 lastSeen，不回滚不编造",
+      "note": "R1496 Discord Peek login_wall quiet cancel（dc40_cards_r1496peek.json cardsAfterCutoff=0；cutoffs 未改仍 R1471 a1 19:12/backup 17:34/smart 17:01/a3 19:14；未催登录）",
       "lastRound": 1471,
       "lastSeenByChannel": {
         "alpha-3-new-accounts": "2026-11-08 19:14",
@@ -4549,7 +4549,9 @@
         "alpha-1": "2026-11-08 19:12"
       },
       "gapIncomplete": false,
-      "spideyPosting": true
+      "spideyPosting": true,
+      "lastPeekRound": 1496,
+      "lastPeekStatus": "login_wall"
     },
     "round239Added": [
       "tsunamilaunch",

@@ -25,3 +25,5 @@
 - scriptFix: check_onchain.py 修复 chainId 为 int / 链名别名导致跳过的问题
 - HashDoge/Genius/Corla/Flap: STOPPED
 - pushSha: c874253
+
+- Discord Peek R1496: login_wall quiet cancel（dc40_cards_r1496peek.json cardsAfterCutoff=0；cutoffs 未改；未催登录）
