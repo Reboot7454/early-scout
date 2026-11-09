@@ -18,5 +18,5 @@
 - skipped: UsePerpEly（无明确 deploy）；LingjiBots（0粉）；Ammora GIWA 刷屏；Handln/agent-seal、lotlings、MemeFunds_、eruptdottfun、CompanionsWfit 已在库
 - scriptFix: 无
 - HashDoge/Genius/Corla/Flap: STOPPED
-- pushSha: (pending)
-- tip: (pending)
+- pushSha: ff70f12
+- tip: ff70f12
