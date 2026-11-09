@@ -1,7 +1,7 @@
 # R1521 early-scout RESULT（2026-11-09 20:36 CST）
 
 - round: R1521
-- pushSha/tip: pending
+- pushSha/tip: 08b42b7
 - mode: ample softCap=30
 - xReads: 11 | remainingBefore: 689 → remaining: 674 | ufCursor: 51→72
 - newThisRound: （无）
