@@ -1,0 +1,19 @@
+# R1507 Discord alpha 补漏 RESULT（2026-11-09 16:12 CST）
+
+- round: R1507（接 R1506 web deferred Discord peek；cards=`dc40_cards_r1506peek.json`）
+- mode: discord-alpha-40
+- newThisRound: eggoxyz（@eggoxyz，挖矿）、shadeselysium（@ShadesElysium，台子/Meme）、bythosdepth（@BythosDepth，台子/Meme）、vectradotxyz（@VectraDotXYZ，台子/Meme）
+- focus: 全部 false
+- clearedPrevNTR: envise / catto / denim-402（R1506 web）
+- counts: cards37 unique33 keep31 already1 preReject1 regexAdmit6 spotDrop2 landed4
+- already: @kurogane_fun
+- preReject: @mewudi669 (7820)
+- spotDrop: agenticelysium（Coming soon shell）、pnut-bnb（空壳叙事）
+- lastSeenByChannel: alpha-3 16:06 / backup 16:04 / smart 15:20 / alpha-1 15:57
+- gapIncomplete: true（alpha3OlderGap 11-08 19:14→11-09 12:43 未填；本 peek skipped gap fill）
+- spideyPosting: true
+- discordPeekDeferred: false
+- dsFallback: true（DeepSeek 402 → local strict fallback）
+- notify: true
+- alertMessage: 新收录 EGGO/ShadesElysium/Bythos/Vectra（DC补漏接R1506 deferred）。面板 https://reboot7454.github.io/early-scout/
+- docsSynced: true
