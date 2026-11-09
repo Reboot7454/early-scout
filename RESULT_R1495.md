@@ -1,0 +1,25 @@
+# R1495 早期打新雷达 RESULT（2026-11-09 10:02 CST）
+
+- round: R1495
+- newThisRound: （无）
+- clearedPrevNTR: （空，R1494 已无本轮新）
+- ≤2h: 无。BONK Agent 仍 15:00 CST（约 13:00 起才进 ≤2h）；souls-elysium 11/10 04:00 CST；elysium-pepes 仍「几小时内」经 AscendLaunch 无精确钟点 → le2h=false；skitters 仍等 OpenSea+Elysium；GrimPixels 11/9 RH free mint 仍 TBA 无开窗帖。
+- the-long-necks: 348/400 仍 LIVE（base tenderly RPC）；≤2h 已过
+- broisafreak: Public 概念仍 LIVE，≤2h 已过；本轮仍回复刷屏
+- skitters: 仍等 OpenSea+@Enter_Elysium 完全 live，无新钟点，le2h=false
+- BONK Agent: 续发免费槽/付费路径说明；链上 totalMinted=0；现非≤2h
+- medalbeasts: PUBLIC LIVE 自约 01:59 CST；粉≈299
+- elysium-pepes: 09:24 CST “few hours” 至~10:00 仍无钟点/CA
+- souls-elysium: 开铸仍 11/10 04:00 CST；本轮互动回复为主
+- 链上: Sakura 342/3333（+3）、LongNecks 348/400、BONK totalMinted=0
+- lastFullAfterReset: R1492（本轮 ample，未再跑 post-reset-full）
+- notify: false
+- alertMessage: （安静，无新收录且无 ≤2h 定点窗）
+- xReads=10 / remainingBefore=961 / remaining=951 / mode=ample / softCap=28 / ufCursor=444→494
+- tenLanes: UF 444→494（50号：11 NF/suspended + 39 resolved；2批 profiles + 2批 from:）+ must/≤2h+focus 1次 + Agentlifebnb follow-up 1次 + 2 KW（打新/挖矿/Elysium-Tape-GIWA-DogeEVM-BTC-Starknet）+ 1 soft-debt（Canton/Glaze/TokenWorks）+ 1 potential-admit profiles。九栏+BTC/Starknet 均跑；无新收录；GIWA 仍 Ammora 噪音；DogeEVM/Starknet/LZ/Tape 本窗无可收新号；Canton/Glaze/TokenWorks lastChecked 已刷；Rhynotic 改进 launch flow。
+- discordPeekDeferred: true
+- dsNote: DeepSeek insufficient_balance → dsFallback 本地 admit/skip；无新收录（skip agent-life/Agentlifebnb：WL 开但 mint modules 未开、无钟点；Hopkin 已在库续 mint 刷屏不新建；ArtPlatformX 非极早期打新；Ammora/GIWA 等待名单噪音；Elysium WL 喊单 Kurogane/Blurb/Elywizardz/Cathereum 已在库）。更新 sakura 342、BONK 仍 15:00、elysium-pepes 无钟点。
+- docsSynced: true
+- skipped: agent-life（@Agentlifebnb WL/合约审查，mint modules 未开无钟点）；Hopkin 刷屏已在库；ArtPlatformX 艺术基建非极早期可操作窗；Ammora/GIWA 等待名单噪音；第三方 Elysium WL 喊单未新核验官推开窗
+- HashDoge/Genius/Corla/Flap: STOPPED
+- pushSha: (pending)
