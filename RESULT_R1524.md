@@ -1,7 +1,7 @@
 # R1524 early-scout RESULT（2026-11-09 21:48 CST）
 
 - round: R1524
-- pushSha/tip: （push 后回填）
+- pushSha/tip: 11b3dbc
 - mode: ample softCap=32
 - xReads: 12 | remainingBefore: 646 → remaining: 634 | ufCursor: 93→113
 - newThisRound: kairo-market, grumbots
