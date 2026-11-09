@@ -1,0 +1,27 @@
+# R1501 早期打新雷达 RESULT（2026-11-09 13:38 CST）
+
+- round: R1501
+- newThisRound: viroolxyz
+- clearedPrevNTR: skyhooksol
+- ≤2h: BONK Agent 今日 15:00 CST（续，le2h=true）。OrdiAgent 今日 18:00 CST（约 16:00 起算 ≤2h）；BLURB 今日 23:00 CST；HORNYHOOD 11/10 00:00 CST；elytypes 11/10 01:00 CST；souls-elysium 与 InkMiners 均为 11/10 04:00 CST；slymzcrew 主网后立刻 GTD/FCFS（无精确钟点）→ le2h=false；Cathereum WL 将关、今日 mint（无精确钟点）→ le2h=false。
+- the-long-necks: Base RPC 本窗 403，沿用 348/400 仍 LIVE；≤2h 已过
+- BONK Agent: 13:35–13:38 CST 页面 countdown 仍锁至 15:00 CST；token totalSupply=0；已进入≤2h；粉 524
+- OrdiAgent: 官推再确认 18:00 CST；官回 contract is not deployed yet；粉 475
+- Pandu: 链上 totalSupply=1439/2222（+245 vs R1500 1194）
+- Sakura: maxSupply=3333；totalMinted RPC revert，沿用 343/3333
+- slymzcrew: 主网上线后立刻 GTD 2h → FCFS 2h；1527；无精确钟点
+- Cathereum/@CathereumTech: WL ~30min 关闭；今日 Elysium mint；8888 DN404
+- Elytypes: 再推 500 + WL 免费铸造申请；档期仍 11/10 01:00 CST
+- ElysiumPunks: WL checker LIVE；kalosfun day1 10000×0.025 HYPE
+- lastFullAfterReset: R1492（本轮 ample，未再跑 post-reset-full）
+- notify: true
+- alertMessage: BONK Agent ≤2h：今日15:00 CST开铸（前1000免费/需Agent ID，链上仍0）。新收录 Virool（Elysium 跨launchpad发币聚合器）。面板 https://reboot7454.github.io/early-scout/
+- xReads=10 / remainingBefore=898 / remaining=888 / mode=ample / softCap=28 / ufCursor=744→794
+- tenLanes: UF 744→794（50号：3 priorNF + 7本轮NF + 4 suspended + 36 resolved；3批 profiles）+ must/≤2h 1次 + 2 KW + UF soft from: + soft-debt。九栏+BTC/Starknet 均跑；新收录 viroolxyz；GIWA 仍 Ammora 噪音；DogeEVM/Tape/Starknet 本窗无可收新号。
+- discordPeekDeferred: true（本执行端无浏览器；父代理补 Peek；cutoffs 仍参考 R1471 a1 19:12/backup 17:34/smart 17:01/a3 19:14；未催登录）
+- dsNote: DeepSeek insufficient_balance → dsFallback；本地收录 viroolxyz（Elysium 跨 launchpad 聚合器，官推+官网 chain 99901 / gas HYPE）。更新 BONK ≤2h totalSupply=0、OrdiAgent 仍 18:00 合约未部署、Pandu 1439、slymzcrew GTD、Cathereum WL。
+- docsSynced: true
+- skipped: TradeonEden 2粉已发 $EDEN pump；Ammora/GIWA 等待名单噪音；FeedTheFireRH/fulldotfun/Elytypes/Blurb/arkhampad/slymzcrew/skyhooksol 已在库
+- scriptFix: 无
+- HashDoge/Genius/Corla/Flap: STOPPED
+- pushSha: (pending)

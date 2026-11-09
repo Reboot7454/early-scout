@@ -1,0 +1,73 @@
+{
+  "round": 1501,
+  "roundLabel": "R1501",
+  "checkedAt": "2026-11-09 13:38 CST",
+  "newThisRound": [
+    "viroolxyz"
+  ],
+  "clearedPrevNTR": [
+    "skyhooksol"
+  ],
+  "le2h": [
+    "bonkagent"
+  ],
+  "notify": true,
+  "alertMessage": "BONK Agent ≤2h：今日15:00 CST开铸（前1000免费/需Agent ID，链上仍0）。新收录 Virool（Elysium 跨launchpad发币聚合器）。面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": true,
+  "docsSynced": true,
+  "dsNote": "DeepSeek insufficient_balance → dsFallback; local admit viroolxyz (Elysium launchpad aggregator)",
+  "dsFallback": true,
+  "xQuota": {
+    "xReads": 10,
+    "remainingBefore": 898,
+    "remaining": 888,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 744,
+    "ufCursor": 794
+  },
+  "onchain": {
+    "sakura-ronin": {
+      "totalMinted": 343,
+      "maxSupply": 3333,
+      "note": "totalMinted RPC revert; held"
+    },
+    "the-long-necks": {
+      "totalSupply": 348,
+      "maxSupply": 400,
+      "note": "Base RPC 403; held"
+    },
+    "bonkagent": {
+      "totalMinted": 0,
+      "tokenTotalSupply": 0
+    },
+    "pandu-agent": {
+      "totalSupply": 1439,
+      "maxSupply": 2222
+    }
+  },
+  "keyUpdates": [
+    "new admit viroolxyz (Elysium cross-launchpad aggregator, virool.xyz, chain 99901/HYPE, 496 fol)",
+    "bonkagent still ≤2h 15:00 CST; token totalSupply=0; followers 524",
+    "ordiagent still 18:00 CST; contract not deployed yet; followers 475",
+    "pandu-agent 1439/2222 (+245)",
+    "sakura-ronin held 343/3333",
+    "the-long-necks held 348/400 (Base RPC 403)",
+    "slymzcrew GTD 2h then FCFS 2h right after mainnet today; no exact clock",
+    "cathereum WL closing ~30min; mint on Elysium today; handle @CathereumTech",
+    "elytypes still 11/10 01:00; WL apply push",
+    "elysiumpunks WL checker LIVE; kalosfun day1",
+    "blurb 23:00 / hornyhood 11/10 00:00 / souls+inkminers 11/10 04:00"
+  ],
+  "skipped": [
+    "tradeoneden-2fol-eden-pump-live",
+    "ammora-giwa-waitlist",
+    "already-in-lib-arkhampad-slymz-elytypes-blurb-skyhook"
+  ],
+  "lastFullAfterReset": "R1492",
+  "tenLanes": "UF 744→794 + must + 2 KW + soft from: + soft-debt; admitted viroolxyz",
+  "pushSha": "",
+  "scriptFix": "",
+  "discordPeekStatus": "deferred",
+  "discordPeekNote": "no browser in this executor; parent should dispatch computerUse Peek; cutoffs still R1471 a1 19:12/backup 17:34/smart 17:01/a3 19:14; do not nudge login"
+}
