@@ -1,251 +1,243 @@
 {
   "round": 1523,
-  "roundLabel": "R1523",
-  "checkedAt": "2026-11-09 21:16 CST",
   "mode": "discord-alpha-40",
-  "softCap": 31,
-  "xReads": 10,
-  "remainingBefore": 656,
-  "remaining": 646,
-  "ufCursor": "72→93",
-  "xQuota": {
-    "xReads": 10,
-    "remainingBefore": 656,
-    "remaining": 646,
-    "mode": "ample",
-    "softCap": 31,
-    "ufCursorBefore": 72,
-    "ufCursor": 93,
-    "eveningReserve": 0,
-    "checkedAt": "2026-11-09 21:16 CST",
-    "note": "API-call xReads=10；x_budget.py 开跑 remainingBefore=656 mode=ample softCap=31；首个 MCP header 后剩 655；末次 header remaining=646；DS 402 → dsFallback；新收 3"
-  },
-  "newThisRound": [
+  "completedAt": "2026-11-09 21:22 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R1523新收3：aneesp767、ambrosiafamily、launchcraft-xyz；面板 https://reboot7454.github.io/early-scout/",
+  "alert": "DC补漏R1523新收3：aneesp767、ambrosiafamily、launchcraft-xyz；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "aneesp767",
+    "ambrosiafamily",
+    "launchcraft-xyz"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "aneesp767",
+    "ambrosiafamily",
+    "launchcraft-xyz"
+  ],
+  "radarNewIds": [
     "memesurvivor",
     "broccoli-agent",
     "ironshot"
   ],
-  "newAdmitsDetail": [
-    {
-      "id": "memesurvivor",
-      "handle": "@memesurvivor_",
-      "note": "Elysium 主网日官宣 live 的多人生存游戏；粉47"
-    },
-    {
-      "id": "broccoli-agent",
-      "handle": "@BroccoliAgentID",
-      "note": "$BOAGENT 币安 Agent ID 专属铸；粉2；旧号新用，未见 CA"
-    },
-    {
-      "id": "ironshot",
-      "handle": "@ironshotgame",
-      "note": "Torch 驱动 FPS；waitlist + Torch Portal WL 已开；粉309"
-    }
-  ],
-  "clearedPrevNTR": [
-    "elysium-sato",
-    "polarischainhq",
-    "firsthumanet",
-    "pixelpanicclub",
-    "agents-circle",
-    "stagewise-io"
-  ],
-  "le2h": [
-    "Cathereum mint LIVE 21:03 CST ≤2h",
-    "Torpor mint LIVE 21:00 CST（Tier B 22:00 / Public 23:00）",
-    "GrumpGuys mint LIVE 21:04 CST",
-    "$EACC live on Montra 20:57 CST；CA 0x5cdafcac4f91ce69e00ce90aa55fb969ecbb8ded",
-    "Pip TIME CARDS LIVE totalSupply=293",
-    "ElyAnt 改期 21:30 CST @kalosfun",
-    "Outlaws GTD 22:00 / FCFS 23:00 / Public 00:00 CST（kalos 页已开）",
-    "Erupt Chosen Ones 22:00 CST",
-    "BLURB ≈22:36 CST",
-    "Lotlings ≈23:00 CST 现已≤2h"
-  ],
-  "keyUpdates": [
-    "新收 memesurvivor / broccoli-agent / ironshot；清空 R1522 newThisRound 6 张 DC 卡",
-    "Enter_Elysium 21:01 CST 官宣 mainnet live；kalosfun 大门已开",
-    "Cathereum / Torpor / GrumpGuys / $EACC / Pip 已开铸",
-    "ElyAnt 因技术问题改 21:30 CST；Outlaws GTD 22:00 页面已在 kalos；Erupt Chosen Ones 22:00",
-    "Pandu 2222/2222 售罄（+49 vs R1521 2173）",
-    "FREEDOM sold=31 / Ordi 15931 / Pepe 119 / BONK 4 / pepebsc 0 持平",
-    "UF 72→93（16 valid + 5 known-NF skip：PlayFarmFi/reynarlabs/world_ygg/rektazhy59942/0xvernull）；@sidao 撞号为 2008 Sidnei，未覆盖 @SIDAODEV 卡"
-  ],
-  "onchain": {
-    "stonkit-freedom": {
-      "sold": 31,
-      "mintOpen": true,
-      "raisedBNB": 0.062,
-      "contract": "0x1D46c6d07238BBEEdE35B5fEcc7a773edCA76ef7"
-    },
-    "ordiagent": {
-      "sold": 15931
-    },
-    "pepe-agent": {
-      "totalMinted": 119,
-      "mintOpen": true
-    },
-    "pandu-agent": {
-      "totalMinted": 2222,
-      "maxSupply": 2222,
-      "soldOut": true
-    },
-    "bonkagent": {
-      "totalMinted": 4
-    },
-    "pip-agent-world": {
-      "totalSupply": 293,
-      "contractDeployed": true
-    },
-    "pepebsc": {
-      "contract": "0x92b379d3807F68aD2bCfd013D831713D8C6dbdFB",
-      "totalMinted": 0,
-      "mintOpen": true
-    },
-    "kabosu-agent": {
-      "contract": "0x67fdd6c1bf9A4cDb969cE483F71Aacb1d8302eFD",
-      "contractDeployed": true,
-      "note": "totalMinted() reverted"
-    }
-  },
-  "tenLanes": "R1523 雷达主扫。UF 72→93（16 valid + 5 known-NF skip）+ must/≤2h×2 + KW×5 + Torpor/GrumpGuys 补搜 + 3 新号画像。九栏+BTC/Starknet 均跑。",
   "skipped": [
-    "Ammora GIWA 复制粘贴刷屏跳过",
-    "Elysium Mainnet Registration / 推荐码刷屏跳过",
-    "Lucky Cat / Pressure / Magnetrix 等无独立官推聚合广告跳过",
-    "squeekchain Genesis 0.05E / 11/10 仅为社区口径，未官宣，不写入确认窗",
-    "HashDoge/Genius/Corla/Flap STOPPED 未重启"
+    {
+      "id": "kaing-app",
+      "reason": "无产品/发射/玩法线索"
+    },
+    {
+      "id": "alpha4vipc",
+      "reason": "无产品/发射/玩法线索"
+    },
+    {
+      "id": "thanhvanlaoto",
+      "reason": "无产品/发射/玩法线索"
+    },
+    {
+      "id": "user6372837xpn",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "luffysailing",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "vibanopay",
+      "reason": "无产品/发射/玩法线索"
+    },
+    {
+      "id": "harshilhrk22",
+      "reason": "无产品/发射/玩法线索"
+    },
+    {
+      "id": "xralldz1",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "leuether",
+      "reason": "无产品/发射/玩法线索"
+    },
+    {
+      "id": "dgxsachin0",
+      "reason": "Elysium猎人号无产品"
+    },
+    {
+      "id": "montralottery",
+      "reason": "Elysium猎人号无产品"
+    },
+    {
+      "id": "dracdovar",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "tradejmx",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "fazalamin20303",
+      "reason": "无产品/发射/玩法线索"
+    },
+    {
+      "id": "real-johny-adam",
+      "reason": "无产品/发射/玩法线索"
+    },
+    {
+      "id": "mokomarkets",
+      "reason": "Elysium猎人号无产品"
+    },
+    {
+      "id": "nailong-channel",
+      "reason": "无产品/发射/玩法线索"
+    },
+    {
+      "id": "vaxitadefi",
+      "reason": "无产品/发射/玩法线索"
+    },
+    {
+      "id": "aygee-onx",
+      "reason": "Elysium猎人号无产品"
+    },
+    {
+      "id": "chinafjfzyttf",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "vstock-io",
+      "reason": "Elysium猎人号无产品"
+    },
+    {
+      "id": "kiingderby",
+      "reason": "Elysium猎人号无产品"
+    },
+    {
+      "id": "wisemonkeygem",
+      "reason": "无产品/发射/玩法线索"
+    },
+    {
+      "id": "usesoba",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "ahao888ahao",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "softrantt",
+      "reason": "无产品/发射/玩法线索"
+    },
+    {
+      "id": "olvrq",
+      "reason": "Elysium猎人号无产品"
+    },
+    {
+      "id": "arie-iim71216",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "orvenos",
+      "reason": "Elysium猎人号无产品"
+    },
+    {
+      "id": "0x-0815",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "niggerekx",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "elypn-app",
+      "reason": "Elysium猎人号无产品"
+    },
+    {
+      "id": "shahe-emmd",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "0xmenageettrois",
+      "reason": "Elysium猎人号无产品"
+    },
+    {
+      "id": "17373jfjfjfj",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "elsewaeeee",
+      "reason": "Elysium猎人号无产品"
+    },
+    {
+      "id": "justxoxo67",
+      "reason": "Elysium猎人号无产品"
+    },
+    {
+      "id": "lyraliu",
+      "reason": "无产品/发射/玩法线索"
+    },
+    {
+      "id": "darling70223545",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "vanishsol6ft5",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "btcdailypodcast",
+      "reason": "Elysium猎人号无产品"
+    },
+    {
+      "id": "futuresevenhq",
+      "reason": "Elysium猎人号无产品"
+    },
+    {
+      "id": "zusaad2",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "blockchampapp",
+      "reason": "无产品/发射/玩法线索"
+    },
+    {
+      "id": "weilx145012",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "hribi-viko",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "adaraai123",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "thedevel0p3r",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "iluvcrypto2",
+      "reason": "bio过短空壳或仅跟踪噪音"
+    },
+    {
+      "id": "yarmak-prod",
+      "reason": "Elysium猎人号无产品"
+    }
   ],
-  "docsSynced": true,
-  "notify": true,
-  "alertMessage": "DC补漏R1523新收53：kaing-app、alpha4vipc、thanhvanlaoto、user6372837xpn、luffysailing、vibanopay、harshilhrk22、xralldz1；面板 https://reboot7454.github.io/early-scout/",
+  "cardsAfterLastSeen": 61,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "stagewise-io",
+    "agents-circle",
+    "pixelpanicclub",
+    "firsthumanet",
+    "polarischainhq",
+    "elysium-sato"
+  ],
   "discordPeekDeferred": false,
-  "discordPeekNote": "执行器无浏览器/computerUse，未能 Peek Discord alpha；discordPeekDeferred=true 请父代理补扫",
-  "discordPeekStatus": "deferred-no-browser",
   "dsFallback": true,
-  "dsNote": "DeepSeek 402 → /tmp/dc40_local_fallback_admit.py strict local",
-  "HashDoge": "STOPPED",
-  "Genius": "STOPPED",
-  "Corla": "STOPPED",
-  "Flap": "STOPPED",
-  "pushSha": "2c5bdd1",
-  "tip": "2c5bdd1",
-  "pushShaFull": "2c5bdd149fb384326cc642908a41742e68aada5c",
-  "completedAt": "2026-11-09 21:21 CST",
-  "timezone": "Asia/Shanghai",
-  "newIds": [
-    "kaing-app",
-    "alpha4vipc",
-    "thanhvanlaoto",
-    "user6372837xpn",
-    "luffysailing",
-    "vibanopay",
-    "harshilhrk22",
-    "xralldz1",
-    "leuether",
-    "dgxsachin0",
-    "montralottery",
-    "dracdovar",
-    "tradejmx",
-    "fazalamin20303",
-    "real-johny-adam",
-    "mokomarkets",
-    "nailong-channel",
-    "vaxitadefi",
-    "aygee-onx",
-    "chinafjfzyttf",
-    "vstock-io",
-    "kiingderby",
-    "wisemonkeygem",
-    "usesoba",
-    "ahao888ahao",
-    "softrantt",
-    "olvrq",
-    "arie-iim71216",
-    "orvenos",
-    "0x-0815",
-    "niggerekx",
-    "elypn-app",
-    "shahe-emmd",
-    "0xmenageettrois",
-    "17373jfjfjfj",
-    "elsewaeeee",
-    "justxoxo67",
-    "lyraliu",
-    "darling70223545",
-    "vanishsol6ft5",
-    "btcdailypodcast",
-    "futuresevenhq",
-    "zusaad2",
-    "blockchampapp",
-    "aneesp767",
-    "weilx145012",
-    "hribi-viko",
-    "adaraai123",
-    "thedevel0p3r",
-    "iluvcrypto2",
-    "ambrosiafamily",
-    "yarmak-prod",
-    "launchcraft-xyz"
-  ],
-  "newAdmits": [
-    "kaing-app",
-    "alpha4vipc",
-    "thanhvanlaoto",
-    "user6372837xpn",
-    "luffysailing",
-    "vibanopay",
-    "harshilhrk22",
-    "xralldz1",
-    "leuether",
-    "dgxsachin0",
-    "montralottery",
-    "dracdovar",
-    "tradejmx",
-    "fazalamin20303",
-    "real-johny-adam",
-    "mokomarkets",
-    "nailong-channel",
-    "vaxitadefi",
-    "aygee-onx",
-    "chinafjfzyttf",
-    "vstock-io",
-    "kiingderby",
-    "wisemonkeygem",
-    "usesoba",
-    "ahao888ahao",
-    "softrantt",
-    "olvrq",
-    "arie-iim71216",
-    "orvenos",
-    "0x-0815",
-    "niggerekx",
-    "elypn-app",
-    "shahe-emmd",
-    "0xmenageettrois",
-    "17373jfjfjfj",
-    "elsewaeeee",
-    "justxoxo67",
-    "lyraliu",
-    "darling70223545",
-    "vanishsol6ft5",
-    "btcdailypodcast",
-    "futuresevenhq",
-    "zusaad2",
-    "blockchampapp",
-    "aneesp767",
-    "weilx145012",
-    "hribi-viko",
-    "adaraai123",
-    "thedevel0p3r",
-    "iluvcrypto2",
-    "ambrosiafamily",
-    "yarmak-prod",
-    "launchcraft-xyz"
-  ],
-  "newCount": 53,
-  "notifyReason": "new_admits",
-  "alert": "DC补漏R1523新收53：kaing-app、alpha4vipc、thanhvanlaoto、user6372837xpn、luffysailing、vibanopay、harshilhrk22、xralldz1；面板 https://reboot7454.github.io/early-scout/",
+  "dsNote": "DeepSeek HTTP 402 → /tmp/dc40_local_fallback_admit.py strict local",
   "gapIncomplete": true,
   "spideyPosting": true,
   "lastSeenByChannel": {
@@ -255,7 +247,6 @@
     "alpha-1": "2026-11-09 21:17"
   },
   "cardsFile": "dc40_cards_r1523.json",
-  "cardsAfterLastSeen": 61,
   "panel": "https://reboot7454.github.io/early-scout/",
   "counts": {
     "cards": 61,
@@ -263,18 +254,13 @@
     "keep": 53,
     "already": 4,
     "pre_reject": 2,
-    "newAdmits": 53,
+    "newAdmits": 3,
     "skipped": 50
   },
-  "radarNewIds": [
-    "memesurvivor",
-    "broccoli-agent",
-    "ironshot"
-  ],
   "discordAlphaPeek": {
     "deferred": false,
     "lastSeen": "2026-11-09 21:17",
-    "lastChecked": "2026-11-09 21:21 CST",
+    "lastChecked": "2026-11-09 21:22 CST",
     "newestCardTime": "2026-11-09 21:17",
     "cardsAfterCutoff": 61,
     "lastRound": 1523,
@@ -284,16 +270,9 @@
       "smart-accounts-tracker": "2026-11-09 20:59",
       "alpha-1": "2026-11-09 21:17"
     },
-    "note": "R1523：Discord alpha 补收 kaing-app,alpha4vipc,thanhvanlaoto,user6372837xpn,luffysailing,vibanopay,harshilhrk22,xralldz1,leuether,dgxsachin0,montralottery,dracdovar,tradejmx,fazalamin20303,real-johny-adam,mokomarkets,nailong-channel,vaxitadefi,aygee-onx,chinafjfzyttf,vstock-io,kiingderby,wisemonkeygem,usesoba,ahao888ahao,softrantt,olvrq,arie-iim71216,orvenos,0x-0815,niggerekx,elypn-app,shahe-emmd,0xmenageettrois,17373jfjfjfj,elsewaeeee,justxoxo67,lyraliu,darling70223545,vanishsol6ft5,btcdailypodcast,futuresevenhq,zusaad2,blockchampapp,aneesp767,weilx145012,hribi-viko,adaraai123,thedevel0p3r,iluvcrypto2,ambrosiafamily,yarmak-prod,launchcraft-xyz；完成 radar deferred peek"
+    "note": "R1523：Discord alpha 补收 aneesp767,ambrosiafamily,launchcraft-xyz；完成 radar deferred peek；保留 radar NTR memesurvivor,broccoli-agent,ironshot"
   },
-  "prevNewThisRoundCleared": [
-    "stagewise-io",
-    "agents-circle",
-    "pixelpanicclub",
-    "firsthumanet",
-    "polarischainhq",
-    "elysium-sato"
-  ],
-  "clearedPrevNewThisRound": true,
-  "summary": "R1523：Discord alpha 补收 kaing-app,alpha4vipc,thanhvanlaoto,user6372837xpn,luffysailing,vibanopay,harshilhrk22,xralldz1,leuether,dgxsachin0,montralottery,dracdovar,tradejmx,fazalamin20303,real-johny-adam,mokomarkets,nailong-channel,vaxitadefi,aygee-onx,chinafjfzyttf,vstock-io,kiingderby,wisemonkeygem,usesoba,ahao888ahao,softrantt,olvrq,arie-iim71216,orvenos,0x-0815,niggerekx,elypn-app,shahe-emmd,0xmenageettrois,17373jfjfjfj,elsewaeeee,justxoxo67,lyraliu,darling70223545,vanishsol6ft5,btcdailypodcast,futuresevenhq,zusaad2,blockchampapp,aneesp767,weilx145012,hribi-viko,adaraai123,thedevel0p3r,iluvcrypto2,ambrosiafamily,yarmak-prod,launchcraft-xyz；完成 radar deferred peek"
+  "summary": "R1523：Discord alpha 补收 aneesp767,ambrosiafamily,launchcraft-xyz；dsFallback；gapIncomplete；完成 deferred peek",
+  "docsSynced": false,
+  "remoteVerified": false
 }
