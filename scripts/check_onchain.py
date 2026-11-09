@@ -208,4 +208,9 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    if len(sys.argv) > 1 and sys.argv[1] in ("-h", "--help"):
+        print("Usage: python3 scripts/check_onchain.py")
+        print("Probes EVM contracts in data.json (ethereum/base/ink/robinhood).")
+        print("Writes lastCheckedAt / totalSupply when RPC succeeds. No BSC totalMinted yet.")
+        raise SystemExit(0)
     sys.exit(main())

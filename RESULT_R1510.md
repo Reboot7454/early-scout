@@ -1,0 +1,26 @@
+# R1510 早期打新雷达 RESULT（2026-11-09 17:07 CST）
+
+- round: R1510
+- newThisRound: baoshi-gem（@baoshiai 宝石币 GEM）
+- clearedPrevNTR: R1509 的 sluicewright
+- ≤2h: PepeAgent 今日 16:00 CST 已开铸（链上 minted=117；官网仍未开始滞后）；OrdiAgent 今日 18:00 CST（合约未部署；官推确认约 1h）。BONK 15:00 开窗已超过 2h（链上 minted=2）。erupt-fun 今日 20:00；Cathereum/ElyAnt 今日 21:00 CST；BLURB/shielded-wizards 今日 23:00（小镇/名单，非 mint）。
+- PepeAgent: 链上 totalMinted=117 mintOpen=true（R1508=116）；官网 Status=未开始（滞后）；粉 75
+- BONK Agent: 链上 totalMinted=2（持平）；le2h=false；粉 526
+- OrdiAgent: 官推确认 18:00 CST；预池付费额度起 10/ID、邀请首付 +1；池后对任何人开放、起始 0.0035 BNB、每 500 份 +0.0005 BNB；合约仍未部署；粉 501
+- Pandu: 链上 totalSupply=1815/2222（+25 vs R1508 1790）
+- 宝石币 GEM: 新收录；BNB Chain PoW 挖矿币，需 .ai Agent ID；自称很快上线；无官网/CA；粉 78
+- Cathereum: 官推公布 11/9 8AM EST=21:00 CST；4444 Genesis；GTD 0.1 HYPE / FCFS 0.15 HYPE；非≤2h
+- ElyAnt: 官推确认 11/9 13:00 UTC=21:00 CST；1111 / 0.008 HYPE / @kalosfun；非≤2h
+- lastFullAfterReset: R1492（本轮 ample，未再跑 post-reset-full）
+- notify: true
+- alertMessage: 新收录宝石币GEM（BNB Chain PoW，需Agent ID）。PepeAgent链上minted=117（官网仍未开始）。OrdiAgent≤2h今日18:00（合约未部署）。BONK minted=2已过2h窗。Pandu 1815/2222。面板 https://reboot7454.github.io/early-scout/
+- xReads=21 / remainingBefore=813 / remaining=792 / mode=ample / softCap=28 / ufCursor=1044→1094
+- tenLanes: UF 1044→1094（50：profiles 2批；NF beefdotfamily/ePegsV4/fungopet/Agentic_Digger/StashPad_）+ must/≤2h（Pepe/BONK/Ordi/Pandu）+ erupt/Elysium官号 + 6 KW + soft-debt（BLURB/Wizards/squeek/Tape/Starknet/BTC/GIWA/DogeEVM）+ ElyAnt/GEM 跟读。九栏+BTC/Starknet 均跑；新收录 1；Tape/DogeEVM/Starknet/LZ/GIWA/GO 本窗无可收新号。
+- discordPeekDeferred: true（无 browser/desktop；本轮跳过 Peek，父代理补）
+- dsNote: DeepSeek insufficient_balance → dsFallback；本地 admit baoshi-gem + 刷新关键窗
+- docsSynced: true
+- skipped: Annak0ox Postmark/LuckyCat 刷屏；AgentCardsHQ/Ptah/INSERT1UP/Tzero/OnePump 已在库；Elysium 主网钟点仍未由 @Enter_Elysium 钉死；HashDoge/Genius/Corla/Flap STOPPED
+- scriptFix: check_onchain.py 增加 -h/--help 保护（避免误跑写回 lastCheckedAt）
+- HashDoge/Genius/Corla/Flap: STOPPED
+- pushSha: 77ba489
+- tip: 77ba489

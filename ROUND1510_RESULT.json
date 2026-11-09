@@ -1,0 +1,89 @@
+{
+  "round": 1510,
+  "roundLabel": "R1510",
+  "checkedAt": "2026-11-09 17:07 CST",
+  "newThisRound": [
+    "baoshi-gem"
+  ],
+  "clearedPrevNTR": [
+    "sluicewright"
+  ],
+  "le2h": [
+    "PepeAgent 今日 16:00 CST 已开铸（链上 minted=117；官网仍未开始滞后；le2h=true）",
+    "OrdiAgent 今日 18:00 CST（续 ≤2h；合约未部署；官推确认约 1h）"
+  ],
+  "notify": true,
+  "alertMessage": "新收录宝石币GEM（BNB Chain PoW，需Agent ID）。PepeAgent链上minted=117（官网仍未开始）。OrdiAgent≤2h今日18:00（合约未部署）。BONK minted=2已过2h窗。Pandu 1815/2222。面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": true,
+  "docsSynced": true,
+  "dsNote": "DeepSeek insufficient_balance → dsFallback；本地 admit baoshi-gem；刷新 Pepe/BONK/Ordi/Pandu/Cathereum/ElyAnt。",
+  "dsFallback": true,
+  "xQuota": {
+    "xReads": 21,
+    "remainingBefore": 813,
+    "remaining": 792,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 1044,
+    "ufCursor": 1094,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-09 17:07 CST",
+    "note": "API-call xReads=21；mode=ample lastFullAfterReset=R1492；DS insufficient_balance → dsFallback；新收录 baoshi-gem"
+  },
+  "onchain": {
+    "pepe-agent": {
+      "contract": "0xdA64D6fc69FeC469560D9084Bd32C9E4F0ece169",
+      "opensAt": "2026-11-09 16:00 CST",
+      "totalMinted": 117,
+      "mintOpen": true,
+      "pageStatus": "未开始（滞后）"
+    },
+    "bonkagent": {
+      "totalMinted": 2,
+      "mintOpen": true,
+      "le2h": false
+    },
+    "pandu-agent": {
+      "totalSupply": 1815,
+      "totalMinted": 1815,
+      "maxSupply": 2222
+    },
+    "ordiagent": {
+      "totalMinted": 0,
+      "contractDeployed": false,
+      "opensAt": "2026-11-09 18:00 CST"
+    }
+  },
+  "keyUpdates": [
+    "admit baoshi-gem (@baoshiai) BNB Chain PoW GEM, Agent ID required",
+    "Pepe LIVE on-chain minted=117 (site lag)",
+    "OrdiAgent ≤2h 18:00 undeployed; after-pool 0.0035 BNB step",
+    "BONK LIVE minted=2, le2h expired",
+    "Pandu 1815/2222 (+25)",
+    "Cathereum official 21:00 CST 4444 GTD/FCFS",
+    "ElyAnt official 21:00 CST 1111 @ 0.008 HYPE on kalosfun"
+  ],
+  "skipped": [
+    "Annak0ox Postmark/LuckyCat spam",
+    "AgentCardsHQ/Ptah/INSERT1UP/Tzero/OnePump already in library",
+    "Elysium mainnet clock still not pinned by @Enter_Elysium",
+    "HashDoge/Genius/Corla/Flap STOPPED"
+  ],
+  "lastFullAfterReset": "R1492",
+  "tenLanes": "UF 1044→1094（50：profiles 2批；NF/susp soft-skip）+ must/≤2h profiles+posts（Pepe/BONK/Ordi/Pandu）+ erupt/Elysium官号 + 6 KW + soft-debt（Tape/Starknet/BTC/GIWA/DogeEVM/Elysium/squeek/BLURB/Wizards）+ ElyAnt/GEM 跟读。九栏+BTC/Starknet 均跑；新收录 1；Tape/DogeEVM/Starknet/LZ/GIWA/GO 本窗无可收新号。",
+  "scriptFix": "check_onchain.py add -h/--help guard so help does not write data.json",
+  "discordPeekStatus": "deferred",
+  "discordPeekNote": "no browser/desktop in executor → discordPeekDeferred=true；parent should Peek",
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED",
+  "pushSha": "77ba489",
+  "tip": "77ba489",
+  "xReads": 21,
+  "remainingBefore": 813,
+  "remaining": 792,
+  "mode": "ample",
+  "softCap": 28,
+  "ufCursor": "1044→1094"
+}
