@@ -1,0 +1,116 @@
+{
+  "round": 1514,
+  "roundLabel": "R1514",
+  "checkedAt": "2026-11-09 18:24 CST",
+  "newThisRound": [
+    "stonkit-freedom",
+    "pip-agent-world"
+  ],
+  "clearedPrevNTR": [
+    "agenticpixel",
+    "summitonhype",
+    "horkospad",
+    "orionpad",
+    "elysigrow"
+  ],
+  "le2h": [
+    "FREEDOM @Stonkitfun 今日 18:30 CST 开预售（≤2h）",
+    "OrdiAgent 18:00 已开铸 sold=11406（免费轮打满进阶梯；开铸热窗 le2h=true）"
+  ],
+  "notify": true,
+  "alertMessage": "新收FREEDOM≤2h今日18:30开预售（@Stonkitfun）。OrdiAgent已开铸sold=11406（免费轮打满进阶梯）。另收Pip TIME CARDS。Pepe minted=119已过2h。Pandu 1848/2222。面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": true,
+  "docsSynced": true,
+  "dsNote": "DeepSeek insufficient_balance → dsFallback；本地 admit FREEDOM+Pip；刷新 Ordi/Pepe/BONK/Pandu 等。",
+  "dsFallback": true,
+  "xQuota": {
+    "xReads": 19,
+    "remainingBefore": 759,
+    "remaining": 740,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 1144,
+    "ufCursor": 1194,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-09 18:24 CST",
+    "note": "API-call xReads=19；mode=ample lastFullAfterReset=R1492；DS insufficient_balance → dsFallback；新收2"
+  },
+  "onchain": {
+    "ordiagent": {
+      "sale": "0x7D10516D08f3bE98aaFD9Ac4169E6Cc30D6bCeB8",
+      "token": "0xF969219E0529287Bc05EC8c34103503ff7f30a4A",
+      "sold": 11406,
+      "freeClaimed": 1000,
+      "nextShare": 11407,
+      "nextPriceBNB": 0.0045,
+      "raisedBNB": 32.577,
+      "open": true,
+      "contractDeployed": true
+    },
+    "pepe-agent": {
+      "contract": "0xdA64D6fc69FeC469560D9084Bd32C9E4F0ece169",
+      "totalMinted": 119,
+      "mintOpen": true,
+      "le2h": false
+    },
+    "bonkagent": {
+      "totalMinted": 4,
+      "le2h": false
+    },
+    "pandu-agent": {
+      "totalSupply": 1848,
+      "totalMinted": 1848,
+      "maxSupply": 2222
+    },
+    "pip-agent-world": {
+      "contract": "0xc5624B61beE1971E6Aa3AB5f403236Ab32C2B6cd",
+      "totalSupply": 0,
+      "contractDeployed": true
+    }
+  },
+  "keyUpdates": [
+    "admit stonkit-freedom FREEDOM 18:30",
+    "admit pip-agent-world TIME CARDS",
+    "OrdiAgent LIVE sold=11406",
+    "Pepe le2h clear",
+    "Pandu 1848",
+    "BONK 4"
+  ],
+  "skipped": [
+    "HypegOnEly 粉1空壳无CA",
+    "Ammora/RGBHorse/Blurb/Lotlings/Elywizardz/Nibblers 已在库",
+    "XTEN Starknet 刷屏"
+  ],
+  "lastFullAfterReset": 1492,
+  "tenLanes": "UF 1144→1194（50：profiles 2批；NF 6）+ must/≤2h（Ordi/Pepe/Pandu/Cathereum/Elytypes/Erupt/Enter_Elysium）+ 6 KW + soft-debt（Tape/Starknet/BTC/GIWA/DogeEVM/Elysium/squeek/LZ/GO/Canton/Glaze/TokenWorks）。九栏+BTC/Starknet 均跑。",
+  "discordPeekStatus": "deferred",
+  "discordPeekNote": "executor 无 browser/desktop；discordPeekDeferred=true 父代理补",
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED",
+  "xReads": 19,
+  "remainingBefore": 759,
+  "remaining": 740,
+  "mode": "ample",
+  "softCap": 28,
+  "ufCursor": "1144→1194",
+  "newAdmitsDetail": [
+    {
+      "id": "stonkit-freedom",
+      "handle": "@Stonkitfun",
+      "category": "打新",
+      "focus": false,
+      "x": "https://x.com/Stonkitfun",
+      "opensAt": "2026-11-09 18:30 CST"
+    },
+    {
+      "id": "pip-agent-world",
+      "handle": "@PipAgentWorld",
+      "category": "打新",
+      "focus": false,
+      "x": "https://x.com/PipAgentWorld",
+      "opensAt": "2026-11-09 21:09 CST"
+    }
+  ]
+}

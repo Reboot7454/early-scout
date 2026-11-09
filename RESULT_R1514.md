@@ -1,0 +1,27 @@
+# R1514 早期打新雷达 RESULT（2026-11-09 18:24 CST）
+
+- round: R1514
+- newThisRound: stonkit-freedom · pip-agent-world
+- clearedPrevNTR: R1513 的 agenticpixel / summitonhype / horkospad / orionpad / elysigrow
+- ≤2h: FREEDOM（@Stonkitfun）今日 18:30 CST 开预售；OrdiAgent 18:00 已开铸（sold=11406，免费轮打满进阶梯）
+- OrdiAgent: LIVE；sale 0x7D1051…CeB8 / token 0xF96921…0a4A；sold=11406 freeClaimed=1000/1000 nextShare=11407 nextPrice≈0.0045 BNB raised≈32.58 BNB；粉 537
+- PepeAgent: 链上 totalMinted=119 持平 mintOpen；官网仍「未开始」；16:00 起算已过 2h → le2h=false；粉 77
+- BONK Agent: totalMinted=4（+2）；官推号画像异常续；le2h=false
+- Pandu: 1848/2222（+17 vs R1512）
+- Cathereum: WL已定；21:00 CST；时刻或随主网调整
+- ElyAnt: 21:00 CST 1111 / 0.008 HYPE @kalosfun 续
+- Erupt: 已过 11UTC 门槛→顺延依赖主网
+- Mori: Nov 11 @kalosfun wake
+- Elytypes: WL+桥教程（chainId 99901）；官钟未钉
+- FREEDOM 新收: 18:30 CST；10000×0.002BNB；Agent ID；freedoms.life
+- Pip-Agent World 新收: TIME CARDS 2000 免费；21:09 CST 起 72h；CA 0xc562…B6cd；粉0
+- skipped: HypegOnEly 粉1空壳；Ammora/RGBHorse/Blurb/Lotlings/Elywizardz/Nibblers 已在库；XTEN 刷屏不收
+- lastFullAfterReset: R1492（本轮 ample）
+- notify: true
+- alertMessage: 新收FREEDOM≤2h今日18:30开预售（@Stonkitfun）。OrdiAgent已开铸sold=11406（免费轮打满进阶梯）。另收Pip TIME CARDS。Pepe minted=119已过2h。Pandu 1848/2222。面板 https://reboot7454.github.io/early-scout/
+- xReads=19 / remainingBefore=759 / remaining=740 / mode=ample / softCap=28 / ufCursor=1144→1194
+- tenLanes: UF 1144→1194（50 profiles 2批；NF halyte_rh/useripen/AgentDungeonBSC/Jake_beast16/kothpad_/mothershipPF）+ must/≤2h（Ordi/Pepe/Pandu/Cathereum/Elytypes/Erupt/Enter_Elysium）+ 6 KW（fair-launch/Agent+Elysium/Tape-GIWA-BTC/Starknet-LZ-GO）+ soft-debt（squeek/Tape/Starknet/BTC/GIWA/DogeEVM/LZ/GO/Canton/Glaze/TokenWorks）。九栏+BTC/Starknet 均跑。
+- discordPeekDeferred: true（executor 无 browser；父代理补）
+- dsNote: DeepSeek insufficient_balance → dsFallback；本地 admit FREEDOM+Pip；刷新 Ordi/Pepe/BONK/Pandu/Cathereum/ElyAnt/Erupt/Mori/Elytypes/baoshi
+- docsSynced: true
+- HashDoge/Genius/Corla/Flap: STOPPED
