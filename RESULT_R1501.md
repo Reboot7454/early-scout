@@ -18,7 +18,7 @@
 - alertMessage: BONK Agent ≤2h：今日15:00 CST开铸（前1000免费/需Agent ID，链上仍0）。新收录 Virool（Elysium 跨launchpad发币聚合器）。面板 https://reboot7454.github.io/early-scout/
 - xReads=10 / remainingBefore=898 / remaining=888 / mode=ample / softCap=28 / ufCursor=744→794
 - tenLanes: UF 744→794（50号：3 priorNF + 7本轮NF + 4 suspended + 36 resolved；3批 profiles）+ must/≤2h 1次 + 2 KW + UF soft from: + soft-debt。九栏+BTC/Starknet 均跑；新收录 viroolxyz；GIWA 仍 Ammora 噪音；DogeEVM/Tape/Starknet 本窗无可收新号。
-- discordPeekDeferred: true（本执行端无浏览器；父代理补 Peek；cutoffs 仍参考 R1471 a1 19:12/backup 17:34/smart 17:01/a3 19:14；未催登录）
+- discordPeekDeferred: false（已补 Peek；login_wall quiet cancel；dc40_cards_r1501peek.json cardsAfterCutoff=0；cutoffs 未改仍 R1471 a1 19:12/backup 17:34/smart 17:01/a3 19:14；未催登录）
 - dsNote: DeepSeek insufficient_balance → dsFallback；本地收录 viroolxyz（Elysium 跨 launchpad 聚合器，官推+官网 chain 99901 / gas HYPE）。更新 BONK ≤2h totalSupply=0、OrdiAgent 仍 18:00 合约未部署、Pandu 1439、slymzcrew GTD、Cathereum WL。
 - docsSynced: true
 - skipped: TradeonEden 2粉已发 $EDEN pump；Ammora/GIWA 等待名单噪音；FeedTheFireRH/fulldotfun/Elytypes/Blurb/arkhampad/slymzcrew/skyhooksol 已在库

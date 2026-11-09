@@ -13,7 +13,7 @@
   ],
   "notify": true,
   "alertMessage": "BONK Agent ≤2h：今日15:00 CST开铸（前1000免费/需Agent ID，链上仍0）。新收录 Virool（Elysium 跨launchpad发币聚合器）。面板 https://reboot7454.github.io/early-scout/",
-  "discordPeekDeferred": true,
+  "discordPeekDeferred": false,
   "docsSynced": true,
   "dsNote": "DeepSeek insufficient_balance → dsFallback; local admit viroolxyz (Elysium launchpad aggregator)",
   "dsFallback": true,
@@ -68,6 +68,7 @@
   "tenLanes": "UF 744→794 + must + 2 KW + soft from: + soft-debt; admitted viroolxyz",
   "pushSha": "e24c0f6",
   "scriptFix": "",
-  "discordPeekStatus": "deferred",
-  "discordPeekNote": "no browser in this executor; parent should dispatch computerUse Peek; cutoffs still R1471 a1 19:12/backup 17:34/smart 17:01/a3 19:14; do not nudge login"
+  "discordPeekStatus": "login_wall",
+  "discordPeekNote": "login_wall quiet cancel; cutoffs unchanged; no login nudge",
+  "tip": "pending"
 }
