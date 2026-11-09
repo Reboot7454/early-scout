@@ -21,4 +21,4 @@
 - docsSynced: true
 - skipped: useFloatPaid（0粉当日新号，Float 附属付款层）；Le0_Coin（1粉，Google Drive 可执行矿工）；Elysium Mainnet Registration 刷屏；Ammora/GIWA 等待名单噪音；Fountain/Pressure/Horse(HRS)/WAR3/Pokemon NFT 仅第三方或低粉喊单未独立核验官推
 - HashDoge/Genius/Corla/Flap: STOPPED
-- pushSha: (pending)
+- pushSha: 9579ad0
