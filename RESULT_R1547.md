@@ -1,7 +1,7 @@
 # R1547 early-scout RESULT（2026-11-10 06:05 CST）
 
 - round: R1547
-- pushSha/tip: (pending)
+- pushSha/tip: add8aa5
 - mode: pace softCap=28
 - xReads: 14 | remainingBefore: 351 → remaining: 337 | ufCursor: 400→440
 - newThisRound: afloat, gotcha, first-light-eth, zealz
