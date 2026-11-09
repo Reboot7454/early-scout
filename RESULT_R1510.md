@@ -22,5 +22,5 @@
 - skipped: Annak0ox Postmark/LuckyCat 刷屏；AgentCardsHQ/Ptah/INSERT1UP/Tzero/OnePump 已在库；Elysium 主网钟点仍未由 @Enter_Elysium 钉死；HashDoge/Genius/Corla/Flap STOPPED
 - scriptFix: check_onchain.py 增加 -h/--help 保护（避免误跑写回 lastCheckedAt）
 - HashDoge/Genius/Corla/Flap: STOPPED
-- pushSha: 77ba489
-- tip: 77ba489
+- pushSha: 74c2e94
+- tip: 74c2e94
