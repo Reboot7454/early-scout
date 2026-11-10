@@ -1,0 +1,25 @@
+# R1620 early-scout RESULT（2026-11-11 06:35 CST）
+
+- round: 1620
+- mode: pace
+- softCap: 28
+- completedAt: 2026-11-11 06:35 CST
+- notify: True
+- notifyReason: 真新收录 7 条
+- alertMessage: 雷达 R1620：新收HearSay Elysium传闻TRUE/FALSE(CA已给)；Sunfall AI代理$250/HYPE日奖；Block21 Elysium挖矿开放；LiquidV vThread多链交易；Upside股票配对meme；PoolParty Solana NFT公售；RoboAgent BNB 6666 mint。其它：Twopad称5-10分钟发$Twopad，CA未给。面板 https://reboot7454.github.io/early-scout/
+- newIds: ['hearsay-elysium', 'sunfall-world', 'block21-elysium', 'liquidv', 'upsidex', 'solpoolparty', 'roboagent']
+- skipped: ['Elydex @elydexapp（DS 拒：无发币事件）', 'Rooq @rooq_trade（DS 拒：仅测试网）', 'ElysFinance/Orcle/aetherzks/rotorstake/elfless/hyperhaul/weird-cats/payphone/plunderport 已在库']
+- updated: ['usetwopad']
+- xReads: 4
+- remainingBefore: 510
+- remaining: 506
+- ufCursor: 1149→1165
+- tenLanes: UF1149→1165+≤2h 合并×1 + 生态 mentions 合并×1 + KW 合并×1 + 候选资料批×1；九栏+BTC/Starknet 均跑
+- elysiumNote: HearSay/Sunfall CA 45B 最小代理 1B；Block21 CA 6090B 合约 supply≈102,672；均不在官方生态页
+- discordPeekDeferred: False
+- discordPeekNote: R1619 DC 补漏刚做过
+- dsFallback: False
+- dsNote: DS admit 9→7 + 卡片/alert
+- docsSynced: True
+- priorNote: R1618 的 WakeParent 通知被中断（Aborted），本轮一并补报
+- panel: https://reboot7454.github.io/early-scout/
