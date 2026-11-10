@@ -1,0 +1,23 @@
+# R1600 early-scout RESULT（2026-11-10 23:58 CST）
+
+- round: 1600
+- mode: ample
+- softCap: 28
+- completedAt: 2026-11-10 23:58 CST
+- notify: True
+- notifyReason: le2h $HOLD CA + 00:00 FEG/TIDE
+- alertMessage: 雷达 R1600：$HOLD 官推已公布 CA 0xfd3815f6cdef587a7f201686fcbe52731f2dc8a8，游戏 00:30 CST 开。00:00 CST 还有 FEG Agent 开铸（每 Agent ID 10 份，不满可退）和 Tidebound $TIDE 发行（只认官号 CA）。Etherea 公售进行中。面板：https://reboot7454.github.io/early-scout/
+- newIds: []
+- clearedPrevNewThisRound: []
+- updated: ['holdtheline', 'agent-feg', 'the-wurms']
+- skipped: ['ponymarketnet（今日建号，无 CA）', 'mindshaft_run $SHAFT（1 粉）', 'geodehash（0 粉今日建号）', 'GetQuaestor/pepestamp/ringhunterfun（个位数粉）']
+- xReads: 3
+- remainingBefore: 596
+- remaining: 593
+- ufCursor: 972→988
+- lanes: UF×1 + ≤2h×1 + KW 九车道合并×1
+- discordPeekDeferred: False
+- dsFallback: False
+- dsNote: 无达标新候选需 DS
+- docsSynced: True
+- panel: https://reboot7454.github.io/early-scout/
