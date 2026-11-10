@@ -1,0 +1,23 @@
+# R1622 early-scout RESULT（2026-11-11 07:10 CST）
+
+- round: 1622
+- mode: pace
+- softCap: 28
+- completedAt: 2026-11-11 07:10 CST
+- notify: True
+- notifyReason: 真新收录 4 条
+- alertMessage: 雷达 R1622：新收 AgentDesk $DESK 上 Elysium，合约核验存在（45B 最小代理），非官方生态；elSEND $SEND 为头部交易者钱包分发工具，1 关注；giphy.fun 称 GIF 发射台早期访问，链未知；QuietMint 称 Meteora 隐私发射台，用 Solana Privacy Rings，今日主网。其它：Twopad 已上线 Solana；Squeekchain NFT 11-12 08:00 CST 开铸，3333 枚/0.05 ETH；Block21 挖矿前 30 分钟 9 takeover、4 矿工。面板 https://reboot7454.github.io/early-scout/
+- newIds: ['agentdesk', 'elsend', 'giphyfun', 'quietmint']
+- updated: ['usetwopad', 'squeekchain', 'block21-elysium']
+- skipped: ['REFLEXIVE（无站无日期）', 'EVEN（devnet）', 'ElysiumRWA（仍测试网，未在官方生态页核实）', 'Hoodliens（RH 已交易数月）', 'binzonft/memefund/droolies-rh/shielded-wizards/kibble/pabalx 已在库']
+- xReads: 4
+- remainingBefore: 506
+- remaining: 502
+- ufCursor: 1165→1181
+- tenLanes: UF1165→1181+≤2h 合并×1 + 生态 mentions×1 + KW×1 + 候选资料批×1；九栏+BTC/Starknet 均跑
+- discordPeekDeferred: False
+- dsFallback: False
+- dsNote: DS admit 8→4 + 卡片/alert
+- docsSynced: True
+- priorNote: R1618/R1620 的 WakeParent 两次 Aborted，本轮 wake 一并补报
+- panel: https://reboot7454.github.io/early-scout/
