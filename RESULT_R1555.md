@@ -1,7 +1,7 @@
 # R1555 early-scout RESULT（2026-11-10 08:19 CST）
 
 - round: R1555
-- pushSha/tip: 76cb5f9
+- pushSha/tip: 2748bbb
 - mode: post-reset-full softCap=50
 - xReads: 18 | remainingBefore: 979 → remaining: 961 | ufCursor: 560→588
 - lastFullAfterReset: R1555
