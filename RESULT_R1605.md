@@ -26,4 +26,4 @@
 - watchAdds: 8 新号进 UF；Montra/VANTIQ 进 elysiumWatch；Oxano 进 miningWatch
 - docsSynced: True
 - panel: https://reboot7454.github.io/early-scout/
-- pushSha: None
+- pushSha: 02bbd2e1a8283cbfa026ed4171793937a030fef4
