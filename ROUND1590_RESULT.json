@@ -61,12 +61,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "5b746bd",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1590：Discord alpha 补收 migreight,oculyos,xyzmarketplace,kaching-buybot,stockracers,intheblackpool,uselowkeyxyz,thepadpad；lastSeen→2026-11-10 20:08；lastChecked→2026-11-10 20:16 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1588.json",
   "priorRoundNote": "R1589 web radar no new admits (NTR already empty after clearing R1588 DC items); opened at R1589, this DC=R1590; cardsAfterCutoff=56",
   "lastSeenByChannel": {
@@ -283,5 +285,6 @@
     "retries": [],
     "alertDsOk": true
   },
-  "alert": "DC补漏R1590新收8项（台子/Meme：MigrEight、X-Y-Z NFT、Kaching、STOCKRACERS、Blackpool；打新：Oculy、lowkey、PadPad）；面板 https://reboot7454.github.io/early-scout/"
+  "alert": "DC补漏R1590新收8项（台子/Meme：MigrEight、X-Y-Z NFT、Kaching、STOCKRACERS、Blackpool；打新：Oculy、lowkey、PadPad）；面板 https://reboot7454.github.io/early-scout/",
+  "pushSha": "5b746bd"
 }
