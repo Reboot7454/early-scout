@@ -1,0 +1,25 @@
+# R1613 early-scout RESULT（2026-11-11 04:10 CST）
+
+- round: 1613
+- mode: discord-alpha-40
+- completedAt: 2026-11-11 04:10 CST
+- notify: True
+- notifyReason: new_admits
+- alertMessage: DC补漏R1613新收8项：WalrusRH(打新)、MORF(打新)、HYPE WAVE(台子/Meme)、GHOSTS(台子/Meme)、Green Week(台子/Meme)、Kubo(挖矿)、Fliply(台子/Meme)、Creditpad(台子/Meme)；面板 https://reboot7454.github.io/early-scout/
+- newIds: ['walrushood', 'usemorf', 'hypewavedefi', 'enter-ghosts', 'green-week', 'kubo-cube', 'usefliply', 'usecreditpad']
+- lanesOfNew: {'walrushood': '打新', 'usemorf': '打新', 'hypewavedefi': '台子/Meme', 'enter-ghosts': '台子/Meme', 'green-week': '台子/Meme', 'kubo-cube': '挖矿', 'usefliply': '台子/Meme', 'usecreditpad': '台子/Meme'}
+- cardsAfterCutoff: 39 (alpha-3 33 / backup 0 / smart 4 / alpha-1 2); unique 37; already 1 (@MintropolisX); preReject 4 (高粉 @Billy0xFF/@Scott_Wiener/@Arch/@Pulkit_Kudiwal); keep 32
+- X: 32/32 存在
+- manualSkip: 0
+- DS: keep 32, admits_raw 8, final 8, calls=7, dsFallback=false
+- categoryOverrides: enter-ghosts 打新→台子/Meme（发射台）
+- idOverrides: hypewavdefi→hypewavedefi
+- elysiumNote: HYPE WAVE / GHOSTS / Creditpad / MORF / Fliply 不在官方生态页，未进 Elysium 栏
+- lastSeenByChannel CST: {'alpha-3-new-accounts': '2026-11-11 03:59', 'alpha-1-backup': '2026-11-11 01:04', 'smart-accounts-tracker': '2026-11-11 04:02', 'alpha-1': '2026-11-11 03:37'}
+- lastSeen: 2026-11-11 04:02
+- lastChecked: 2026-11-11 04:10 CST
+- spideyPosting: true（#alpha-1 仍只顺看）
+- alpha3OlderGap: skipped this run; prior gap still open
+- cardsFile: dc40_cards_r1612.json
+- priorRoundNote: 开跑时仓库为网页雷达 R1611，抓卡/DS 期间远端已推网页雷达 R1612，本轮 DC=R1613
+- panel: https://reboot7454.github.io/early-scout/
