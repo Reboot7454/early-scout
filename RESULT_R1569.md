@@ -1,0 +1,22 @@
+# R1569 early-scout RESULT（2026-11-10 13:08 CST）
+
+- round: R1569（原拟 R1568，因 12:59 CST Discord alpha 补漏已占 R1568，本轮升号）
+- pushSha/tip: PENDING
+- mode: ample softCap=28（lastFullAfterReset=R1555，非 post-reset-full）
+- xReads: 12 | remainingBefore: 821 → remaining: 809 | ufCursor: 684→700
+- lastFullAfterReset: R1555
+- newThisRound: agent-feg / sunfire
+- 保留 R1568 补漏入库：ai-samaritan / myargos / antibotfinance / askhookfun / frondink / monkai1073 / mitonmyway（已清「本轮新」旗）
+- 新收：agent-feg（@Agent_FEG，$FEG，BNB Agent ID 铸造，今日 17:00 CST 开铸，0.005 BNB/份，每 ID 限 10 份，#10,000 开 Pancake 且 LP 销毁，CA 0x8743fa8b279D1b85506c5cd223Bd40285d32a2dA，官网 https://agentfeg.xyz/，尚未≤2h）；sunfire（@sunfi_re，12:27 CST 经 Montra 上线 Elysium，锁仓领取时销毁，CA 0xc9e1e87d8bb3632589e324db6f37001427e07134，窗至约14:27）
+- 状态升级：qurve 11:39:11 CST 官宣 now live on Enter_Elysium Mainnet，announced→live，窗至约13:39；elixirpad 12:22 CST staking live、bio CA 0x25c457e8005d3ebdd23abde9a3b0cd56052475d5，12:36 称已进官方生态页，watching→live，窗至约14:22
+- ≤2h 仍开：sunfire 至约14:27 CST（12:27 CST 经 Montra 上线，CA 0xc9e1e87d8bb3632589e324db6f37001427e07134）；elixirpad 至约14:22 CST（12:22 CST 质押上线，CA 0x25c457e8005d3ebdd23abde9a3b0cd56052475d5）；elysianshield 至约14:00 CST（CA 未变 0x00e43aa03e17272586392335e84e2e49ec08a60c）；qurve 至约13:39 CST（11:39 CST 官宣主网 live）；onionswap 至约13:10 CST（CA 仍为 0xeEdB187d8FA7B751544783F56a0aA6E46A04d147）
+- 本轮关窗：elythium、playgod、ironline、coeus-engine。coeus-engine 12:27 累计销毁 37,904,380（3.79%），12:46 上线 burn monitor 至 4.04%。ironline 11:07 CST 官宣开发者钱包代币已打入销毁地址，CA 未变。
+- dsFallback: False（deepseek-flash thinking on；admit 2 / skip 5：forge-family、alliensmc、agentic-elysium、antibotfinance（本轮 KW 判薄，但 R1568 DC 补漏已收，不重收）、alfaclub）
+- discordPeekDeferred: False（本轮跳过 Peek；R1568 Discord alpha 补漏 12:59 CST 刚占号）
+- docsSynced: True
+- notify: True
+- alert: R1569 雷达：本轮新收 Feed Every Gorilla ($FEG)，BNB Agent ID 今日 17:00 CST 开铸，0.005 BNB/份，CA 0x8743fa8b279D1b85506c5cd223Bd40285d32a2dA；SUNFIRE 12:27 CST 经 Montra 上线 Elysium，CA 0xc9e1e87d8bb3632589e324db6f37001427e07134。新转 live：qurve 官宣主网 live（窗至约13:39），elixirpad 质押上线（窗至约14:22，CA 0x25c457e8005d3ebdd23abde9a3b0cd56052475d5）。仍开窗口还有 SUNFIRE 至约14:27、elysianshield 至约14:00（CA 0x00e43aa03e17272586392335e84e2e49ec08a60c）、onionswap 至约13:10（CA 0xeEdB187d8FA7B751544783F56a0aA6E46A04d147）；elythium、playgod、ironline、coeus-engine 本轮已关闭。面板：https://reboot7454.github.io/early-scout/
+- HashDoge/Genius/Corla/Flap: STOPPED
+- tenLanes: UF684→700 + must/≤2h 合并 from: 及三户补读 + KW 九栏+BTC/Starknet + mentions Enter_Elysium×1；九栏+BTC/Starknet/GIWA 均跑
+- UF shard 684–699：16 槽全部已在库；lootbale 历史曾记 suspended 但不在当前 skip 集，本轮纳入检索且静默。沉默号本轮不记 NF。
+- skips/noise: forge-family（仅 Ascend 集成、无独立 mint 窗）、alliensmc（BSC NFT 借 squeek 热度）、agentic-elysium（1 粉自发射薄盘）、alfaclub（成熟产品扩链）；antibotfinance 本轮 KW 判 skip，但已由 R1568 DC 收录；库内不重收（sonofluidic、askpheme、owlgate、zephra-xyz、arkhampad、utexo、lanternhold、spike-wtf、marsnexus、hoodfathergame、hypesium、ambrosia 等）；非官方 @squeek_radar 不收

@@ -1,0 +1,96 @@
+{
+  "round": 1569,
+  "roundLabel": "R1569",
+  "checkedAt": "2026-11-10 13:08 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "新收 agent-feg、sunfire；qurve/elixirpad 转 live 并新开≤2h；仍有未关窗口",
+  "alertMessage": "R1569 雷达：本轮新收 Feed Every Gorilla ($FEG)，BNB Agent ID 今日 17:00 CST 开铸，0.005 BNB/份，CA 0x8743fa8b279D1b85506c5cd223Bd40285d32a2dA；SUNFIRE 12:27 CST 经 Montra 上线 Elysium，CA 0xc9e1e87d8bb3632589e324db6f37001427e07134。新转 live：qurve 官宣主网 live（窗至约13:39），elixirpad 质押上线（窗至约14:22，CA 0x25c457e8005d3ebdd23abde9a3b0cd56052475d5）。仍开窗口还有 SUNFIRE 至约14:27、elysianshield 至约14:00（CA 0x00e43aa03e17272586392335e84e2e49ec08a60c）、onionswap 至约13:10（CA 0xeEdB187d8FA7B751544783F56a0aA6E46A04d147）；elythium、playgod、ironline、coeus-engine 本轮已关闭。面板：https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": false,
+  "discordPeekNote": "本轮跳过 Peek；R1568 Discord alpha 补漏 12:59 CST 刚占号（新收 7 张并已清本轮新旗）",
+  "docsSynced": true,
+  "docsSyncedFlag": true,
+  "pushSha": null,
+  "tip": null,
+  "xReads": 12,
+  "remainingBefore": 821,
+  "remaining": 809,
+  "mode": "ample",
+  "softCap": 28,
+  "eveningReserve": 80,
+  "lastFullAfterReset": "R1555",
+  "ufCursor": 700,
+  "ufCursorBefore": 684,
+  "ufCursorAfter": 700,
+  "xQuota": {
+    "xReads": 12,
+    "remainingBefore": 821,
+    "remaining": 809,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 684,
+    "ufCursor": 700,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-10 13:08 CST",
+    "lastFullAfterReset": "R1555",
+    "note": "R1569 雷达主扫（ample paced softCap=28；lastFullAfterReset=R1555，非 post-reset-full）。因 12:59 CST Discord alpha 补漏已占 R1568（新收 ai-samaritan/myargos/antibotfinance/askhookfun/frondink/monkai1073/mitonmyway），本轮升为 R1569，并清「本轮新」旗。UF 684→700（16槽，全部已在库；lootbale 历史曾记 suspended 但不在当前 skip 集，本轮纳入检索且静默） + must/≤2h 合并 from: 及三户补读（onionswap_/playironline/ElythiumNetwork，未重读已覆盖号） + KW 九栏+BTC/Starknet + mentions Enter_Elysium×1。新收 agent-feg、sunfire。qurve announced→live；elixirpad watching→live 并新开窗。coeus-engine 窗关，更新销毁与 burn monitor。Discord Peek 跳过（R1568 12:59 CST 刚做过）。"
+  },
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking on；admit 2（agent-feg、sunfire）/ skip 5（forge-family、alliensmc、agentic-elysium、antibotfinance 已由 R1568 DC 收录故不重收、alfaclub）",
+  "newThisRound": [
+    "agent-feg",
+    "sunfire"
+  ],
+  "newIds": [
+    "agent-feg",
+    "sunfire"
+  ],
+  "newCount": 2,
+  "le2hStill": [
+    {
+      "id": "sunfire",
+      "until": "约14:27 CST",
+      "note": "12:27 CST 经 Montra 上线，CA 0xc9e1e87d8bb3632589e324db6f37001427e07134"
+    },
+    {
+      "id": "elixirpad",
+      "until": "约14:22 CST",
+      "note": "12:22 CST 质押上线，CA 0x25c457e8005d3ebdd23abde9a3b0cd56052475d5"
+    },
+    {
+      "id": "elysianshield",
+      "until": "约14:00 CST",
+      "note": "CA 未变 0x00e43aa03e17272586392335e84e2e49ec08a60c"
+    },
+    {
+      "id": "qurve",
+      "until": "约13:39 CST",
+      "note": "11:39 CST 官宣主网 live"
+    },
+    {
+      "id": "onionswap",
+      "until": "约13:10 CST",
+      "note": "CA 仍为 0xeEdB187d8FA7B751544783F56a0aA6E46A04d147"
+    }
+  ],
+  "le2hClosed": [
+    "elythium",
+    "playgod",
+    "ironline",
+    "coeus-engine"
+  ],
+  "mentionsLast": "Enter_Elysium/@Enter_Elysium",
+  "nfSkipAdded": [],
+  "clearedPrevNTR": [
+    "mitonmyway",
+    "monkai1073",
+    "frondink",
+    "askhookfun",
+    "antibotfinance",
+    "myargos",
+    "ai-samaritan"
+  ],
+  "renumberedFrom": "R1568",
+  "tenLanes": "R1569 雷达主扫（ample paced softCap=28；lastFullAfterReset=R1555，非 post-reset-full）。因 12:59 CST Discord alpha 补漏已占 R1568（新收 ai-samaritan/myargos/antibotfinance/askhookfun/frondink/monkai1073/mitonmyway），本轮升为 R1569，并清「本轮新」旗。UF 684→700（16槽，全部已在库；lootbale 历史曾记 suspended 但不在当前 skip 集，本轮纳入检索且静默） + must/≤2h 合并 from: 及三户补读（onionswap_/playironline/ElythiumNetwork，未重读已覆盖号） + KW 九栏+BTC/Starknet + mentions Enter_Elysium×1。新收 agent-feg、sunfire。qurve announced→live；elixirpad watching→live 并新开窗。coeus-engine 窗关，更新销毁与 burn monitor。Discord Peek 跳过（R1568 12:59 CST 刚做过）。",
+  "summary": "因 R1568 已被 12:59 CST Discord alpha 补漏占用，本轮升为 R1569。新收 agent-feg（今日 17:00 CST 开铸）与 sunfire（12:27 CST 经 Montra 上线）。Qurve、ElixirPad 改为 live 并进入不超过2小时窗口。仍开：sunfire、elixirpad、elysianshield、qurve、onionswap。elythium、playgod、ironline、coeus-engine 窗口已关。保留 R1568 七张并清本轮新旗。notify=true。"
+}
