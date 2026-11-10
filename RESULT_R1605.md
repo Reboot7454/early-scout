@@ -1,0 +1,29 @@
+# R1605 early-scout RESULT（2026-11-11 01:50 CST）
+
+- round: 1605
+- mode: pace
+- softCap: 28
+- completedAt: 2026-11-11 01:50 CST
+- notify: True
+- notifyReason: 真新收录 8 条 + ≤2h（The surfers Public mint live 将铸完）
+- alertMessage: 雷达 R1605：新收 8 张——Launch On Montra（Elysium 发推即发币，已 live，第三方 1 粉号高风险）、VANTIQ（Elysium 发射台，满 100 粉开放）、ringpad（Solana 隐私发币台）、Rtp.Fun（presale 协议几小时内上 Base/Robinhood/GIWA）、Oxano（$OXN 零预挖 PoW 挖矿）、Sherwood（RH bot 实盘，未发币）、LINID（RH 免费 mint，日期未定）、Stoke（Solana hooks 发币台 V3 已上线）。另 The surfers 公铸 01:12 CST 已开、官推称快铸完。面板：https://reboot7454.github.io/early-scout/
+- newIds: ['launchonmontra', 'vantiqfun', 'theringpad', 'rtp-fun', 'oxano-io', 'sherwoodbots', 'linid-nft', 'use-stoke']
+- lanesOfNew: {'launchonmontra': 'Elysium 生态', 'vantiqfun': 'Elysium 生态', 'theringpad': '台子/Meme', 'rtp-fun': 'GIWA', 'oxano-io': '挖矿', 'sherwoodbots': '打新', 'linid-nft': '打新', 'use-stoke': '台子/Meme'}
+- clearedPrevNewThisRound: ['vorcenlabs', 'vethood', 'spectrel', 'schism-pro', 'tempo', 'pileofshitnft', 'foxmintapp', 'heph-ai', 'vaeruio', 'lamportrobotics', '0stocks-fun', 'oggregatorxyz', 'apeonink', 'trycashtagpad', 'cubisthood', 'launchontero', 'sepia-rbh']
+- updated: ['thesurfers', 'model-citizens', 'agent-feg', 'holdtheline']
+- skipped: ['usegeyser（5 粉无上线时间，DS 拒）', 'elnftoro（0 粉一句预告，DS 拒）', 'ZeroVaultxyz（0 帖，LZ 未核验，DS 拒）', 'perpsonx（疑似个人号 TBA，DS 拒）', 'EkoTerminal（仅 launch direction Elysium 未部署，不进 Elysium）', 'RetiumChain（1.6 万粉 L1 测试网偏成熟）', 'themunos_/Kitzyclubz/HoodDrakes/SyndicateRHC/howldotfi/openlaunch_lol/KosmoProtocol/wheelpadfun 等（已在库）']
+- xReads: 7
+- remainingBefore: 569
+- remaining: 563
+- ufCursor: 1020→1036
+- tenLanes: UF×1 + ≤2h/必盯×1 + KW 两车道×2 + 生态 mentions 合并×1（Starknet/Ordinals/Runes/CRC20/DogeOS/TapeOut/GIWA/@Enter_Elysium/@squeekchain/@starx_xlayer）+ 候选资料批×1；九栏+BTC/Starknet 均跑
+- xRateLimit429: 无
+- discordPeekDeferred: False
+- discordPeekNote: R1604 刚做完 Discord alpha 补漏，本轮不需要 Peek
+- dsFallback: False
+- dsNote: DS 打分 12 条（admit 8/拒 4，分 3 批，首批整包输出截断后改 4 条一批重跑）+ alert 文案
+- softDebt: Canton/Glaze/TokenWorks/Elysium lastChecked 刷到 01:50 CST
+- watchAdds: 8 新号进 UF；Montra/VANTIQ 进 elysiumWatch；Oxano 进 miningWatch
+- docsSynced: True
+- panel: https://reboot7454.github.io/early-scout/
+- pushSha: None
