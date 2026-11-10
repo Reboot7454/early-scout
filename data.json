@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-10 08:19 CST",
+    "updated": "2026-11-10 08:46 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-10 08:19 CST",
+    "lastScout": "2026-11-10 08:46 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -719,7 +719,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1555,
+    "round": 1556,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2160,7 +2160,10 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "tryvela"
+      "elysium-atm-xyz",
+      "elysium-hand",
+      "dotpaid-app",
+      "lastcandlegame"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4623,14 +4626,14 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-10 07:30",
-      "lastChecked": "2026-11-10 07:55 CST",
-      "newestCardTime": "2026-11-10 07:30",
-      "cardsAfterCutoff": 11,
-      "note": "R1554：Discord alpha 补漏无新卡（#alpha-1 最新仍 2026-11-10 07:30）；清 shortfloat,ononepad,orcle,useinsertsol；lastSeen 保持 2026-11-10 07:30，lastChecked→2026-11-10 07:55 CST",
-      "lastRound": 1554,
+      "lastSeen": "2026-11-10 08:38",
+      "lastChecked": "2026-11-10 08:46 CST",
+      "newestCardTime": "2026-11-10 08:38",
+      "cardsAfterCutoff": 48,
+      "note": "R1556：Discord alpha 补收 elysium-atm-xyz,elysium-hand,dotpaid-app,lastcandlegame；清 tryvela；lastSeen→2026-11-10 08:38；lastChecked→2026-11-10 08:46 CST",
+      "lastRound": 1556,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-10 07:30",
+        "alpha-3-new-accounts": "2026-11-10 08:38",
         "alpha-1-backup": "2026-11-10 06:19",
         "smart-accounts-tracker": "2026-11-10 07:15",
         "alpha-1": "2026-11-10 07:05"
@@ -28426,9 +28429,191 @@
     "round1554Added": [],
     "round1555Added": [
       "tryvela"
+    ],
+    "round1556Added": [
+      "elysium-atm-xyz",
+      "elysium-hand",
+      "dotpaid-app",
+      "lastcandlegame"
     ]
   },
   "candidates": [
+    {
+      "id": "lastcandlegame",
+      "name": "LastCandle",
+      "handle": "@lastcandlegame",
+      "twitter": "@lastcandlegame",
+      "chain": "Robinhood",
+      "category": "GO盘",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/LastCandlegame"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.6
+      },
+      "highlights": [
+        "bio给出交易游戏玩法：LAN house风、K线主题",
+        "明确构建在@Robinhoodcrypto上"
+      ],
+      "drawbacks": [
+        "0粉丝、无站点/合约链接",
+        "账号带bot标记，需人工复核真实性"
+      ],
+      "whatsNew": "新出现的Robinhood链degen交易游戏概念号",
+      "summary": "LastCandle自称是建在Robinhood链上的degen交易游戏，以LAN house与K线混沌为玩法主题，目前只有简介级信息。",
+      "blurb": "Robinhood链K线主题交易游戏，极早期，待验证。",
+      "round": 1556,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-10 08:46 CST",
+      "addedAt": "2026-11-10 08:46 CST",
+      "lastChecked": "2026-11-10 08:46 CST",
+      "zoneHint": "GO盘",
+      "newThisRound": true
+    },
+    {
+      "id": "dotpaid-app",
+      "name": "DotPaid",
+      "handle": "@dotpaidapp",
+      "twitter": "@dotpaidapp",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/dotpaidapp"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 5,
+        "novelty": 8,
+        "actionable": 7,
+        "overall": 7.5
+      },
+      "highlights": [
+        "Robinhood Chain 上的新发射台",
+        "代币绑定网站、创作者费归域名主的差异化机制"
+      ],
+      "drawbacks": [
+        "0 粉无背书，尚未见产品界面",
+        "链上新生态，流动性与用户未知"
+      ],
+      "whatsNew": "Robinhood Chain 首个「币即网站」发射台 DotPaid 现身。",
+      "summary": "DotPaid 是宣称部署在 Robinhood Chain 的发射台，每枚代币绑定一个网站并由域名主收取创作者费用，机制新颖、处于极早期无背书阶段。",
+      "blurb": "Robinhood Chain 发射台：每枚币绑定一个网站，创作者费直接归域名主。",
+      "round": 1556,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-10 08:46 CST",
+      "addedAt": "2026-11-10 08:46 CST",
+      "lastChecked": "2026-11-10 08:46 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "elysium-hand",
+      "name": "Elysium Hand",
+      "handle": "@elysiumhand",
+      "twitter": "@elysiumhand",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/ElysiumHand"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 8,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 6.2
+      },
+      "highlights": [
+        "NFT 代币化方向具体（HyperLiquid NFT on Elysium）",
+        "$HAND 代币预告"
+      ],
+      "drawbacks": [
+        "0 粉、无官网白皮书",
+        "仅有预告，无已上线产品"
+      ],
+      "whatsNew": "Elysium 上 HyperLiquid NFT 代币化项目，$HAND 即将上线。",
+      "summary": "面向 HyperLiquid NFT 的代币化工具，宣称部署在 @Enter_Elysium 并预告 $HAND，处于概念-预告阶段。",
+      "blurb": "Elysium 上的 HyperLiquid NFT 代币化协议，$HAND 预告中。",
+      "round": 1556,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-10 08:46 CST",
+      "addedAt": "2026-11-10 08:46 CST",
+      "lastChecked": "2026-11-10 08:46 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "elysium-atm-xyz",
+      "name": "ATM",
+      "handle": "@elysiumatmxyz",
+      "twitter": "@elysiumatmxyz",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/elysiumatmxyz"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 8,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.0
+      },
+      "highlights": [
+        "Elysium 生态原生 $ATM",
+        "持币发帖领 $20 HYPE 的社交挖矿循环"
+      ],
+      "drawbacks": [
+        "仅 2 粉，无官网/文档",
+        "机制更像社媒激励盘，持续性存疑"
+      ],
+      "whatsNew": "新出现的 Elysium 生态 $ATM 社交激励玩法。",
+      "summary": "自称 Built on @Enter_Elysium 的 $ATM 代币，玩法为持有并发帖换取 HYPE 奖励，属于极早期生态 Meme/激励盘，可持续性未验证。",
+      "blurb": "Elysium 生态 $ATM：持币发帖换 HYPE，玩法先行、团队与文档待查。",
+      "round": 1556,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 2,
+      "xFollowers": 2,
+      "firstSeen": "2026-11-10 08:46 CST",
+      "addedAt": "2026-11-10 08:46 CST",
+      "lastChecked": "2026-11-10 08:46 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "tryvela",
       "name": "Vela",
@@ -28449,7 +28634,7 @@
       "focus": false,
       "round": 1555,
       "flag": "本轮新",
-      "newThisRound": true,
+      "newThisRound": false,
       "status": "announced",
       "followers": 10,
       "xFollowers": 10,
@@ -246589,19 +246774,22 @@
     }
   ],
   "newThisRound": [
-    "tryvela"
+    "elysium-atm-xyz",
+    "elysium-hand",
+    "dotpaid-app",
+    "lastcandlegame"
   ],
-  "alertMessage": "R1555新收1：@Tryvela_ AI 币发射台（CA 0x1184442e46E07dc426D27955A20b3c2d8861046D，站点仍标 SIM）；ShortFloat 约07:15 CST LIVE（仍≤2h）；ORVYN 免费 mint 与 InkMiners mint 仍 LIVE 但开窗已>2h。https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1556新收4项：ATM、Elysium Hand、DotPaid、LastCandle；https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "tryvela"
   ],
-  "updatedAt": "2026-11-10 08:19 CST",
-  "updated": "2026-11-10 08:19 CST",
+  "updatedAt": "2026-11-10 08:46 CST",
+  "updated": "2026-11-10 08:46 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-10 08:19 CST",
+  "lastScout": "2026-11-10 08:46 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -246643,7 +246831,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3642,
+  "candidateCount": 3646,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -249675,5 +249863,11 @@
   "round1554Added": [],
   "round1555Added": [
     "tryvela"
+  ],
+  "round1556Added": [
+    "elysium-atm-xyz",
+    "elysium-hand",
+    "dotpaid-app",
+    "lastcandlegame"
   ]
 }
