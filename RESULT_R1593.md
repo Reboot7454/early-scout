@@ -1,0 +1,23 @@
+# R1593 early-scout RESULT（2026-11-10 21:05 CST）
+
+- round: 1593
+- mode: ample
+- softCap: 28
+- completedAt: 2026-11-10 21:05 CST
+- notify: True
+- notifyReason: new_admits hikaripass,wif-dod0x + le2h
+- alertMessage: R1593 新收 HikariPass（BNB，Agent ID 0.0001 BNB 通行证，1 粉新号）和 WIF DoD0x（Robinhood Chain 3333 NFT 开铸）；上轮的 AgentRune 仍在铸。Etherea GTD 21:00 已开（FCFS 22:00、公售 23:00），99901.fun 与 $AMNT 21:00 到点，JDM 减量到 3000 快售罄；面板：https://reboot7454.github.io/early-scout/
+- newIds: ['hikaripass', 'wif-dod0x']
+- newCount: 2
+- clearedPrevNewThisRound: ['onedollaragent', 'penguagent1', 'elysianblooms', '0xkinetic10', 'privasium']
+- skipped: ['elysiumfamily_ DS skip: only article, no CTA', 'SEVENFOLD no official X', 'CHASTLE no official X']
+- xReads: 4
+- remainingBefore: 617
+- remaining: 613
+- ufCursor: 892→908
+- tenLanes: UF892→907 from:×1 + ≤2h from:×1 + KW 两车道（打新/Elysium/Agent ID；挖矿/LZ/GIWA/DogeOS/Starknet/Ordinals/Runes/X Layer/TapeOut）
+- discordPeekDeferred: False
+- dsFallback: False
+- dsNote: deepseek-flash thinking on: score/admit
+- docsSynced: True
+- panel: https://reboot7454.github.io/early-scout/
