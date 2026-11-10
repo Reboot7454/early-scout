@@ -41,12 +41,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "a937cfe",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1559：Discord alpha 补收 acresdotgarden,0xmetrion；lastSeen→2026-11-10 09:22；lastChecked→2026-11-10 09:32 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1558.json",
   "priorRoundNote": "R1558 meta NTR []; cardsAfterCutoff=53",
   "lastSeenByChannel": {
@@ -252,5 +254,9 @@
   ],
   "alert": "DC补漏R1559新收 Acres、0xMetrion；面板 https://reboot7454.github.io/early-scout/",
   "gapIncomplete": true,
-  "spideyPosting": true
+  "spideyPosting": true,
+  "pushSha": "a937cfe",
+  "tip": "a937cfe",
+  "pushShaFull": "a937cfeba02ce5c916526055668802a26dee5ca5",
+  "docsSynced": true
 }
