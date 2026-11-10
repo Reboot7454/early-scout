@@ -49,12 +49,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "34668f5",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1560：Discord alpha 补收 cre8finance,pkmonhype,maxxing；清 0xmetrion,acresdotgarden；lastSeen→2026-11-10 09:55；lastChecked→2026-11-10 09:59 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1560.json",
   "priorRoundNote": "R1559 meta NTR ['acresdotgarden', '0xmetrion']; cardsAfterCutoff=19",
   "lastSeenByChannel": {
@@ -154,5 +156,9 @@
   ],
   "alert": "DC补漏R1560新收3个观察位；https://reboot7454.github.io/early-scout/",
   "gapIncomplete": true,
-  "spideyPosting": true
+  "spideyPosting": true,
+  "pushSha": "34668f5",
+  "tip": "34668f5",
+  "pushShaFull": "34668f55bd33d54e1bd64d38d54479e5c6fade23",
+  "docsSynced": true
 }
