@@ -1,0 +1,92 @@
+{
+  "round": 1578,
+  "mode": "ample",
+  "softCap": 28,
+  "completedAt": "2026-11-10 16:48 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admit_and_le2h",
+  "alertMessage": "【R1578】三枚新收录：Ely Kitties（@ElyKitties）2,222 个全链上 Kitties、Free Mint，目前仅白名单申请开放，无 CA、铸造未开；Volta Gent（@VoltaGent_io）BSC 已开铸，CA 0x43cfeb5267125c4f3495d48dea202a7fc43bc5b1，智能体阶段 0.0001 BNB/个、限前 1,000 个、每钱包 2 个、需币安 Agent ID，≤2h 至约 18:05（之后所有者调用 endAgentPhase() 才进公开阶段，非整场 18:05 结束）；Hamster Tower（@hamstertowersqk）为 Squeekchain / Sepolia 测试网爬塔游戏，明确 No Token、无铸造窗。\n\n库内升级：Agentix 官帖公布 Token 0xC605d34A06B614224785f1119146a710A83C5A44、Minter 0x11a367d5E827132AC4CAD6a4C41c797C1e4D4E7A、Invite NFT 0x7a8134aBCb75FA7913194986c644457D2C1596e8，称 Minting is live now，窗至约 17:46。仍在≤2h：mint-condition 至约 17:22（CA 0x44ae…2577）、agent-feg 17:00 开铸（CA 0x8743…a2dA）、Volta Gent 至约 18:05。尚未入窗：dogeking 19:00、99901 21:00。\n\n面板：https://reboot7454.github.io/early-scout/",
+  "alert": "【R1578】三枚新收录：Ely Kitties（@ElyKitties）2,222 个全链上 Kitties、Free Mint，目前仅白名单申请开放，无 CA、铸造未开；Volta Gent（@VoltaGent_io）BSC 已开铸，CA 0x43cfeb5267125c4f3495d48dea202a7fc43bc5b1，智能体阶段 0.0001 BNB/个、限前 1,000 个、每钱包 2 个、需币安 Agent ID，≤2h 至约 18:05（之后所有者调用 endAgentPhase() 才进公开阶段，非整场 18:05 结束）；Hamster Tower（@hamstertowersqk）为 Squeekchain / Sepolia 测试网爬塔游戏，明确 No Token、无铸造窗。\n\n库内升级：Agentix 官帖公布 Token 0xC605d34A06B614224785f1119146a710A83C5A44、Minter 0x11a367d5E827132AC4CAD6a4C41c797C1e4D4E7A、Invite NFT 0x7a8134aBCb75FA7913194986c644457D2C1596e8，称 Minting is live now，窗至约 17:46。仍在≤2h：mint-condition 至约 17:22（CA 0x44ae…2577）、agent-feg 17:00 开铸（CA 0x8743…a2dA）、Volta Gent 至约 18:05。尚未入窗：dogeking 19:00、99901 21:00。\n\n面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "ely-kitties",
+    "volta-gent",
+    "hamster-tower"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "ely-kitties",
+    "volta-gent",
+    "hamster-tower"
+  ],
+  "skipped": [
+    {
+      "id": "postmark",
+      "reason": "站点无官推链接且合约待部署，按无官推不收录"
+    },
+    {
+      "id": "hypelaunches",
+      "reason": "promo 号，链接通用 pump.fun，不是项目官推"
+    },
+    {
+      "id": "pipermeme",
+      "reason": "仅第三方等名单，本窗未见官推主帖"
+    }
+  ],
+  "clearedPrevNewThisRound": [
+    "on-aether-app",
+    "thyrk",
+    "ticksdotcom",
+    "useleasehold",
+    "elyxpaid",
+    "longcat",
+    "usehedgefun"
+  ],
+  "renumberNote": "Main scout started from R1576 but Discord peek already consumed R1577 at 16:27 CST; this scout is published as R1578 and keeps the 7 peek cards.",
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "admit": 3,
+    "skip": 3
+  },
+  "coverage": {
+    "tenLanes": true,
+    "btc": true,
+    "starknet": true,
+    "giwa": true,
+    "ufShard": "764-779",
+    "ufCursor": "764→780",
+    "mentions": "Zero/@zerodotnetwork+LayerZero_Labs×1",
+    "xReads": 13,
+    "remainingBefore": 719,
+    "remaining": 706,
+    "mode": "ample",
+    "softCap": 28,
+    "eveningReserve": 80,
+    "lastFullAfterReset": "R1555"
+  },
+  "discordAlphaPeek": false,
+  "docsSynced": true,
+  "pushSha": "TBD",
+  "tip": "TBD",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1578：新收录 Ely Kitties（Elysium 白名单已开、铸造未开、无CA）、Volta Gent（BSC 已开铸，CA 0x43cfeb5267125c4f3495d48dea202a7fc43bc5b1，窗至约18:05）、Hamster Tower（Squeek 测试网、无代币）。Agentix 公布 Token CA 0xC605d34A06B614224785f1119146a710A83C5A44，窗至约17:46。R1577 Discord 七卡保留。",
+  "le2hActionable": [
+    "agentix-agx",
+    "mint-condition",
+    "agent-feg",
+    "volta-gent"
+  ],
+  "closedThisRound": [],
+  "notYetLe2h": [
+    "dogeking-agent",
+    "99901-fun"
+  ],
+  "xReads": 13,
+  "remainingBefore": 719,
+  "remaining": 706,
+  "ufCursor": "764→780",
+  "lastFullAfterReset": "R1555"
+}
