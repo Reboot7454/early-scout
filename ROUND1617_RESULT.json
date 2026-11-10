@@ -1,0 +1,216 @@
+{
+  "round": 1617,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-11 05:32 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏 R1617 新收：台子/Meme—EPAY（meme fee支付+CA）、Stater（AI接Elysium按Hyperliquid价交易）、SOLTECHNICS（Solana AI机器人里程碑众筹测试早期）；打新—Nightbow（BNB 555份NFT/55免费名额极早期mint）。面板：https://reboot7454.github.io/early-scout/",
+  "alert": "DC补漏 R1617 新收：台子/Meme—EPAY（meme fee支付+CA）、Stater（AI接Elysium按Hyperliquid价交易）、SOLTECHNICS（Solana AI机器人里程碑众筹测试早期）；打新—Nightbow（BNB 555份NFT/55免费名额极早期mint）。面板：https://reboot7454.github.io/early-scout/",
+  "newCount": 4,
+  "newIds": [
+    "epay",
+    "stater",
+    "nightbow-bsc",
+    "soltechnics"
+  ],
+  "newAdmits": [
+    "epay",
+    "stater",
+    "nightbow-bsc",
+    "soltechnics"
+  ],
+  "admissions": [
+    {
+      "id": "epay",
+      "handle": "@elysiumpay",
+      "category": "台子/Meme",
+      "name": "EPAY"
+    },
+    {
+      "id": "stater",
+      "handle": "@UseStatedNet",
+      "category": "台子/Meme",
+      "name": "Stater"
+    },
+    {
+      "id": "nightbow-bsc",
+      "handle": "@Nightbow_BSC",
+      "category": "打新",
+      "name": "Nightbow"
+    },
+    {
+      "id": "soltechnics",
+      "handle": "@soltechnics",
+      "category": "台子/Meme",
+      "name": "SOLTECHNICS"
+    }
+  ],
+  "skipped": [
+    {
+      "handle": "@ringspadsol",
+      "reason": "same_project",
+      "idHint": "theringpad"
+    }
+  ],
+  "cardsAfterLastSeen": 29,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "meron-elysium",
+    "enter-replicant",
+    "pocketperps",
+    "fluid-genesis"
+  ],
+  "candidateFlagsCleared": 4,
+  "topNewThisRoundCleared": [
+    "meron-elysium",
+    "enter-replicant",
+    "pocketperps",
+    "fluid-genesis"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits_raw=4 final=4 calls=5",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-11 05:26",
+    "lastChecked": "2026-11-11 05:32 CST",
+    "newestCardTime": "2026-11-11 05:26",
+    "cardsAfterCutoff": 29,
+    "note": "R1617：Discord alpha 补收 epay,stater,nightbow-bsc,soltechnics；Nightbow 由台子/Meme 改归打新（BNB 555 NFT mint）；SOLTECHNICS 由打新改归台子/Meme（Solana 众筹协议）；Stater 站点名校正（卡面曾写 Stated）；EPAY/Stater/hypermontra/GetEly 不在 elysium.kinetiq.xyz/ecosystem，不得进 Elysium 栏；手工跳过 @ringspadsol（与 R1605 @theringpad 同项目）；lastSeen→2026-11-11 05:26；lastChecked→2026-11-11 05:32 CST",
+    "lastRound": 1617,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-11 05:26",
+      "alpha-1-backup": "2026-11-11 05:19",
+      "smart-accounts-tracker": "2026-11-11 05:19",
+      "alpha-1": "2026-11-11 05:20"
+    },
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-08 19:14",
+      "to": "2026-11-09 12:43",
+      "nFilled": 0,
+      "note": "skipped this run; prior gap still open"
+    },
+    "spideyPosting": true
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1617：Discord alpha 补收 epay,stater,nightbow-bsc,soltechnics；Nightbow 由台子/Meme 改归打新（BNB 555 NFT mint）；SOLTECHNICS 由打新改归台子/Meme（Solana 众筹协议）；Stater 站点名校正（卡面曾写 Stated）；EPAY/Stater/hypermontra/GetEly 不在 elysium.kinetiq.xyz/ecosystem，不得进 Elysium 栏；手工跳过 @ringspadsol（与 R1605 @theringpad 同项目）；lastSeen→2026-11-11 05:26；lastChecked→2026-11-11 05:32 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1617.json",
+  "priorRoundNote": "opened at web-radar R1616 (NTR: meron-elysium,enter-replicant,pocketperps,fluid-genesis) after git pull; this DC=R1617; cardsAfterCutoff=29; unique=23 already=2 preReject=1 (高粉 @deca_labs) manualSkip=1 (@ringspadsol=R1605 @theringpad) keep=19; X 19/19 (plus skipped ringspadsol also exists); DS keep=19 admits=4; Nightbow category=打新, EPAY/Stater/SOLTECHNICS=台子/Meme; none on official Elysium page",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-11 05:26",
+    "alpha-1-backup": "2026-11-11 05:19",
+    "smart-accounts-tracker": "2026-11-11 05:19",
+    "alpha-1": "2026-11-11 05:20"
+  },
+  "cardsRead": 29,
+  "cardsAfterCutoff": 29,
+  "cardsReadApprox": 78,
+  "rejected": [
+    {
+      "handle": "@earlyondotfun",
+      "reason": "already_have",
+      "idHint": "earlyondotfun"
+    },
+    {
+      "handle": "@MeronElysium",
+      "reason": "already_have",
+      "idHint": "meron-elysium"
+    },
+    {
+      "handle": "@deca_labs",
+      "reason": "高粉(7097)个人/KOL",
+      "followers": 7097
+    },
+    {
+      "handle": "@ringspadsol",
+      "reason": "same_project",
+      "idHint": "theringpad",
+      "note": "与 R1605 已收录 @theringpad（ringpad，Helius Privacy Rings 发币台，站点 ring-pad.com）同项目；本轮 @ringspadsol / ringpad.live 为同一叙事的另一号，不重复收录"
+    },
+    {
+      "handle": "@Ascihood",
+      "reason": "0 推文、无官网、仅 bio 一句 Coming to Robinhood，属空壳占位号。",
+      "id": "ascihood"
+    },
+    {
+      "handle": "@monilenteam",
+      "reason": "浏览器端投资组合追踪工具，无链上发射/mint/挖矿或代币玩法线索。",
+      "id": "monilen"
+    },
+    {
+      "handle": "@rbgokn",
+      "reason": "阿拉伯语个人生活号，无项目与产品线索。",
+      "id": "rbgokn"
+    },
+    {
+      "handle": "@GetElyXYZ",
+      "reason": "虽已有站点与 0.1 HYPE/年定价，但 0 推文、默认头像，且与面板已收录的 @elysiumtag 同为 .ely 命名服务，重复且过空。",
+      "id": "getely"
+    },
+    {
+      "handle": "@27xryb",
+      "reason": "0 推文、bio 只挂 @TradingTerminal，无自有产品或发射线索。",
+      "id": "27xryb"
+    },
+    {
+      "handle": "@84d53c702",
+      "reason": "bio 仅 xxx，唯一推文在兜售 parked 域名，非加密项目。",
+      "id": "adekrama"
+    },
+    {
+      "handle": "@Sup666461938",
+      "reason": "个人喊单号，仅链接他人 Kaspa NFT 集合，无自有项目推特。",
+      "id": "sup666461938"
+    },
+    {
+      "handle": "@hypermontra",
+      "reason": "仅1篇X文章，无官网无合约，声明非Montra官方，产品不可核验，不在官方生态页。",
+      "id": "hypermontra"
+    },
+    {
+      "handle": "@Ergotick",
+      "reason": "MT5外汇交易插件，非链上项目，0推文。",
+      "id": "ergotick"
+    },
+    {
+      "handle": "@RealZirdauBoy",
+      "reason": "个人生活号，无项目线索。",
+      "id": "realzirdauboy"
+    },
+    {
+      "handle": "@BlindaTaiwo",
+      "reason": "2021年个人生活号，无加密项目。",
+      "id": "blindataiwo"
+    },
+    {
+      "handle": "@Valneypmesagen",
+      "reason": "个人艺术家Zora作品上链，非独立协议或发射台。",
+      "id": "valneypmesagen"
+    },
+    {
+      "handle": "@ManuelC29507025",
+      "reason": "个人号，0推文，无项目线索。",
+      "id": "manuelc29507025"
+    },
+    {
+      "handle": "@mandystolpa",
+      "reason": "Google Ventures合伙人个人号，非项目号。",
+      "id": "mandystolpa"
+    },
+    {
+      "handle": "@StarsinRH",
+      "reason": "旧号复用且无独立官网/产品细节，仅凭GTD免费mint转发线索，信息不足，拒收。",
+      "id": "starsinrh"
+    }
+  ],
+  "dsRejects": 15
+}
