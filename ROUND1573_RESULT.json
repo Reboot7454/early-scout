@@ -1,0 +1,140 @@
+{
+  "round": 1573,
+  "roundLabel": "R1573",
+  "checkedAt": "2026-11-10 14:24 CST",
+  "completedAt": "2026-11-10 14:24 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "无新收录，但 STYX、Aether $AVAN 领取仍≤2h；sunfire 写盘时仍开但临近关闭",
+  "alertMessage": "R1573 雷达：无新收录（保留 R1572 Discord 补漏 7 张并清本轮新旗）。仍开：STYX（CA 0xf11c09fab6c53255aeeaaab69c6dcc393f0e34b9，至约15:24 CST，13:32 Bonds 已开，算法稳定币风险自比UST/Terra）、Aether $AVAN 领取（14:00-16:00，无代币CA，上市预估11/18-20）、sunfire（CA 0xc9e1e87d8bb3632589e324db6f37001427e07134，至约14:27，临近关闭）。已关：elixirpad（约14:22，CA 0x25c457e8005d3ebdd23abde9a3b0cd56052475d5）、elysianshield（约14:00，CA 0x00e43aa03e17272586392335e84e2e49ec08a60c）、qurve（约13:39）、onionswap（约13:10，CA 0xeEdB187d8FA7B751544783F56a0aA6E46A04d147）。面板 https://reboot7454.github.io/early-scout/。",
+  "discordPeekDeferred": false,
+  "discordPeekNote": "本轮跳过 Peek；原按 R1570 13:22 CST 补漏跳过。其间 14:13 CST 已另有 R1572 Discord alpha 补漏占号（新收 7 张并已清本轮新旗），故 discordPeekDeferred=false，不重 Peek。",
+  "docsSynced": true,
+  "docsSyncedFlag": true,
+  "pushSha": "pending",
+  "tip": "pending",
+  "remoteVerified": false,
+  "xReads": 16,
+  "remainingBefore": 785,
+  "remaining": 760,
+  "mode": "ample",
+  "softCap": 28,
+  "eveningReserve": 80,
+  "lastFullAfterReset": "R1555",
+  "ufCursor": 732,
+  "ufCursorBefore": 716,
+  "ufCursorAfter": 732,
+  "xQuota": {
+    "xReads": 16,
+    "remainingBefore": 785,
+    "remaining": 760,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 716,
+    "ufCursor": 732,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-10 14:24 CST",
+    "lastFullAfterReset": "R1555",
+    "note": "R1573 雷达主扫（ample paced softCap=28；lastFullAfterReset=R1555，非 post-reset-full）。因 14:13 CST Discord alpha 补漏已占 R1572，本轮升为 R1573。"
+  },
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking on；admit 0 / skip 8（elysiumies、thyrk、asc-bsc、spy-agent、thepadpad-meow、hoodicorns、cingcoeg-arena、anubis-layer1）；续更与 alert 由 DS 撰写，关窗时间按完成时重评",
+  "newThisRound": [],
+  "newIds": [],
+  "newCount": 0,
+  "statusUpgrades": [
+    "styx-elysium：13:32 CST Bonds are open，CA 未变，窗至约15:24",
+    "aether-vanguard：$AVAN 领取 14:00 CST 已开始，窗至约16:00；13:33 CST 回复上市预估 November 18-20（非领取改期）；status announced→live"
+  ],
+  "le2hStill": [
+    {
+      "id": "styx-elysium",
+      "until": "约15:24 CST",
+      "note": "13:24 CST 官宣 live，13:32 Bonds open，CA 0xf11c09fab6c53255aeeaaab69c6dcc393f0e34b9，官网自比 UST/Terra"
+    },
+    {
+      "id": "sunfire",
+      "until": "约14:27 CST",
+      "note": "12:27 CST 经 Montra 上线，CA 0xc9e1e87d8bb3632589e324db6f37001427e07134，临近关闭"
+    },
+    {
+      "id": "aether-vanguard",
+      "until": "约16:00 CST",
+      "note": "$AVAN 领取 14:00 CST 已开始，官网 aether-vanguard.netlify.app，无代币 CA；上市预估 Nov 18-20"
+    }
+  ],
+  "le2hClosed": [
+    "elixirpad",
+    "elysianshield",
+    "qurve",
+    "onionswap"
+  ],
+  "mentionsLast": "Starknet/@Starknet",
+  "nfSkipAdded": [],
+  "clearedPrevNTR": [
+    "colosyum",
+    "dimensional",
+    "two-keys",
+    "qozmo",
+    "luster-finance",
+    "tryborderless",
+    "returntotimmy"
+  ],
+  "renumberedFrom": "R1572",
+  "tenLanes": "UF716→732 + must/≤2h 合并 from: + KW 九栏+BTC/Starknet 分车道 + mentions Starknet×1；九栏+BTC/Starknet/GIWA 均跑。GIWA 本窗仍为 Ammora 候补噪音 + deuslaunch；Starknet/X Layer 本窗无新可收挂靠号；BTC 仅已在库 utexo 被提及。",
+  "watchBugFixes": [
+    "colosyum, dimensional, two-keys, qozmo, luster-finance, tryborderless, returntotimmy → userFollowWatch",
+    "colosyum → elysiumWatch"
+  ],
+  "skips": [
+    {
+      "id": "elysiumies",
+      "handle": "@BabyOfCrypt",
+      "reason": "无独立项目官推，仅个人号发免费铸帖"
+    },
+    {
+      "id": "thyrk",
+      "handle": "@pilyears",
+      "reason": "付费喊单号，无项目官推"
+    },
+    {
+      "id": "asc-bsc",
+      "handle": "@No0112358",
+      "reason": "个人号报 CA，无项目官推"
+    },
+    {
+      "id": "spy-agent",
+      "handle": "@Sumingbt",
+      "reason": "个人号喊单，无项目官推"
+    },
+    {
+      "id": "thepadpad-meow",
+      "handle": "@RaisingTrades",
+      "reason": "仅第三方提及，未见官推本窗发帖"
+    },
+    {
+      "id": "hoodicorns",
+      "handle": null,
+      "reason": "仅评论提及，未见官推主帖"
+    },
+    {
+      "id": "cingcoeg-arena",
+      "handle": "@squeek_radar",
+      "reason": "仅非官方转发，不收"
+    },
+    {
+      "id": "anubis-layer1",
+      "handle": "@AnubisLayer1",
+      "reason": "偏基建，非极早期打新窗"
+    }
+  ],
+  "summary": "因 R1572 已被 14:13 CST Discord alpha 补漏占用，本轮升为 R1573。无新收录。STYX Bonds 已开、窗至约15:24（自比 UST/Terra）；Aether $AVAN 领取 14:00 已开始至约16:00，上市预估 11/18-20。sunfire 写盘时仍开但临近关闭。elixirpad、elysianshield、qurve、onionswap 已关窗。保留 R1572 七张并清本轮新旗，且补进 Watch。notify=true。",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "pushShaFull": "pending",
+  "push": {
+    "attempted": true,
+    "ok": false,
+    "sha": "pending",
+    "remoteVerified": false
+  }
+}

@@ -1,0 +1,23 @@
+# R1573 early-scout RESULT（2026-11-10 14:24 CST）
+
+- round: R1573（原拟接 R1571 编为 R1572，因 14:13 CST Discord alpha 补漏已占 R1572，本轮升号）
+- pushSha/tip: pending
+- mode: ample softCap=28（lastFullAfterReset=R1555，非 post-reset-full）
+- xReads: 16 | remainingBefore: 785 → remaining: 760 | ufCursor: 716→732
+- lastFullAfterReset: R1555
+- newThisRound: （无）
+- 保留 R1572 补漏入库：colosyum / dimensional / two-keys / qozmo / luster-finance / tryborderless / returntotimmy（已清「本轮新」旗）
+- 状态升级：styx-elysium 13:32 CST 官宣 Bonds are open（存 USDC 以低于市价20%获 $STYX、5天归属、USDC 进储备不增发，CA 未变）；aether-vanguard $AVAN 领取已于 14:00 CST 开始，13:33 CST 回复上市预估 November 18-20（非领取窗改期），状态 announced→live
+- ≤2h 仍开：styx-elysium 至约15:24 CST（13:24 CST 官宣 live，13:32 Bonds open，CA 0xf11c09fab6c53255aeeaaab69c6dcc393f0e34b9，官网自比 UST/Terra）；aether-vanguard $AVAN 领取至约16:00 CST（无代币 CA）；sunfire 至约14:27 CST（12:27 CST 经 Montra 上线，CA 0xc9e1e87d8bb3632589e324db6f37001427e07134，临近关闭，本轮未见12:35后新官帖）
+- 本轮关窗：elixirpad（约14:22 CST，CA 仍为 0x25c457e8005d3ebdd23abde9a3b0cd56052475d5）；elysianshield（约14:00 CST，CA 仍为 0x00e43aa03e17272586392335e84e2e49ec08a60c）；qurve（约13:39 CST，本轮无新官帖）；onionswap（约13:10 CST，CA 仍为 0xeEdB187d8FA7B751544783F56a0aA6E46A04d147，本轮未再读官推）
+- 尚未≤2h：agent-feg 仍为今日 17:00 CST 开铸（本轮多帖确认，CA 0x8743fa8b279D1b85506c5cd223Bd40285d32a2dA 未变）；dogeking-agent 仍为今晚 19:00 CST 开售（14:07 CST 新帖再确认）
+- dsFallback: False（deepseek-flash thinking on；admit 0 / skip 8：elysiumies、thyrk、asc-bsc、spy-agent、thepadpad-meow、hoodicorns、cingcoeg-arena、anubis-layer1）
+- discordPeekDeferred: False（本轮跳过 Peek；原按 R1570 13:22 CST 补漏跳过；其间 14:13 CST 已另有 R1572 Discord alpha 补漏占号，故本轮不推迟、不重 Peek）
+- docsSynced: True
+- notify: True
+- alert: R1573 雷达：无新收录（保留 R1572 Discord 补漏 7 张并清本轮新旗）。仍开：STYX（CA 0xf11c09fab6c53255aeeaaab69c6dcc393f0e34b9，至约15:24 CST，13:32 Bonds 已开，算法稳定币风险自比UST/Terra）、Aether $AVAN 领取（14:00-16:00，无代币CA，上市预估11/18-20）、sunfire（CA 0xc9e1e87d8bb3632589e324db6f37001427e07134，至约14:27，临近关闭）。已关：elixirpad（约14:22，CA 0x25c457e8005d3ebdd23abde9a3b0cd56052475d5）、elysianshield（约14:00，CA 0x00e43aa03e17272586392335e84e2e49ec08a60c）、qurve（约13:39）、onionswap（约13:10，CA 0xeEdB187d8FA7B751544783F56a0aA6E46A04d147）。面板 https://reboot7454.github.io/early-scout/。
+- HashDoge/Genius/Corla/Flap: STOPPED
+- tenLanes: UF716→732 + must/≤2h 合并 from: + KW 九栏+BTC/Starknet 分车道 + mentions Starknet×1；九栏+BTC/Starknet/GIWA 均跑
+- UF shard 716–731：16 槽全部已在库；@kyte_market 历史 suspended、@vytraqfun 历史 NF，仅随合并 from: 软刷一次、4h 窗静默，不记新 NF、不单号连刷。
+- skips/noise: elysiumies（@BabyOfCrypt 个人号自报今日 FREE MINT，无独立项目官推）；thyrk（@pilyears 付费喊单，无官推）；asc-bsc（@No0112358 个人号报 CA，无官推）；spy-agent（@Sumingbt 个人喊单，无官推）；thepadpad-meow（仅第三方提及 @ThePadPad，未见官推本窗发帖）；hoodicorns（仅评论提及周四免费铸，未见官推主帖）；cingcoeg-arena（仅非官方 @squeek_radar 转发）；anubis-layer1（@AnubisLayer1 LZ 集成文章，偏基建）；库内不重收（onlydotmeme、packswap、payphone-rh、utexo、deuslaunch、ammora、pabalx、gekko-launchpad、monko-mania、globemkts、tzero-launchpad、obsidry、hypesium、kurogane-fun）；GIWA 本窗仍为 Ammora 候补噪音 + deuslaunch；Starknet mentions 无早期挂靠新号；BTC 本窗仅已在库 utexo 被提及
+- watch-bug 修复：将 R1572 Discord 七号补进 Watch/UF：colosyum、dimensional、two-keys、qozmo、luster-finance、tryborderless、returntotimmy → userFollowWatch；colosyum 另进 elysiumWatch
