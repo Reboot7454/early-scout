@@ -49,12 +49,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "2ff8a28",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1570：Discord alpha 补收 useedgedotfun,tethysliq,aether-vanguard；清 agent-feg,sunfire；lastSeen→2026-11-10 13:17；lastChecked→2026-11-10 13:22 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1570.json",
   "priorRoundNote": "R1569 meta NTR ['agent-feg', 'sunfire']; cardsAfterCutoff=26",
   "lastSeenByChannel": {
@@ -182,5 +184,9 @@
   ],
   "alert": "DC补漏R1570新收3项：edge、Tethys、Aether Vanguard；面板 https://reboot7454.github.io/early-scout/",
   "gapIncomplete": true,
-  "spideyPosting": true
+  "spideyPosting": true,
+  "pushSha": "2ff8a28",
+  "tip": "2ff8a28",
+  "pushShaFull": "2ff8a28b3ef9fd9833d02b23253ae71fd92d87c0",
+  "docsSynced": true
 }
