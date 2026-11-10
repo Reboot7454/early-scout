@@ -63,12 +63,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "4e38ffc",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1562：Discord alpha 补收 rentstock-prtcl,obsidryfun,elysianshield,alysum-trade,perpspad-live,trussfun,mintscope,mintropolis,stonksapp；清 elycore,edenland,elysium-pairs；lastSeen→2026-11-10 10:46；lastChecked→2026-11-10 10:51 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1562.json",
   "priorRoundNote": "R1561 meta NTR ['elycore', 'edenland', 'elysium-pairs']; cardsAfterCutoff=36",
   "lastSeenByChannel": {
@@ -220,5 +222,9 @@
   ],
   "alert": "DC补漏R1562新收9项：RentStock股票收租、Elysium系Obsidry/alysum.trade、Truss/StonksApp台子、MintScope/Mintropolis打新；面板 https://reboot7454.github.io/early-scout/",
   "gapIncomplete": true,
-  "spideyPosting": true
+  "spideyPosting": true,
+  "pushSha": "4e38ffc",
+  "tip": "4e38ffc",
+  "pushShaFull": "4e38ffcd12aa5b4e82586f44b76bd1fb71286785",
+  "docsSynced": true
 }
