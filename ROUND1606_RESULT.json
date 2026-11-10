@@ -75,12 +75,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "05dabe8",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1606：Discord alpha 补收 ultravein-app,drawfi,riprr,degen-pond-hood,geoderh,parallax；riprr 不在官方生态页改归台子/Meme；degen-pond-hood NFT 免费 mint 改归打新；geoderh 答题裂石 GameFi 改归台子/Meme；parallax 发射台改归台子/Meme；lastSeen→2026-11-11 02:08；lastChecked→2026-11-11 02:15 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1606.json",
   "priorRoundNote": "opened at web-radar R1605 (NTR: launchonmontra,vantiqfun,theringpad,rtp-fun,oxano-io,sherwoodbots,linid-nft,use-stoke); this DC=R1606; cardsAfterCutoff=63; unique=55 already=7 preReject=3(高粉2+NODI_COIN X不存在) keep=45",
   "alert": "DC补漏R1606新收6项：Ultravein/挖矿、DrawFi/台子Meme、riprr/台子Meme、Degen PondHood/打新、GEODE/台子Meme、Parallax/台子Meme；面板 https://reboot7454.github.io/early-scout/",
@@ -427,5 +429,7 @@
     "admits": 6,
     "dsRejects": 39,
     "manualSkip": 0
-  }
+  },
+  "pushSha": "05dabe8",
+  "docsSynced": true
 }
