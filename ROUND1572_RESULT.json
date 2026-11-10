@@ -55,12 +55,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "7fb241a",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1572：Discord alpha 补收 colosyum,dimensional,two-keys,qozmo,luster-finance,tryborderless,returntotimmy；清 styx-elysium；lastSeen→2026-11-10 14:08；lastChecked→2026-11-10 14:13 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1572.json",
   "priorRoundNote": "R1571 meta NTR ['styx-elysium']; cardsAfterCutoff=47",
   "lastSeenByChannel": {
@@ -260,5 +262,9 @@
   ],
   "alert": "DC补漏R1572新收7项（Colosyum、Dimensional等）；https://reboot7454.github.io/early-scout/",
   "gapIncomplete": true,
-  "spideyPosting": true
+  "spideyPosting": true,
+  "pushSha": "7fb241a",
+  "tip": "7fb241a",
+  "pushShaFull": "7fb241a0d349ebd8fea56eff4d504269ff4c9a1f",
+  "docsSynced": true
 }
