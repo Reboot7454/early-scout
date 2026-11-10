@@ -1,0 +1,23 @@
+# R1602 early-scout RESULT（2026-11-11 00:42 CST）
+
+- round: 1602
+- mode: pace
+- softCap: 28
+- completedAt: 2026-11-11 00:42 CST
+- notify: True
+- notifyReason: 真新收录 2 条 + ≤2h 项 Tidebound 延期
+- alertMessage: 雷达 R1602：新收 Elyport（Elysium 锁仓工具）、GIWA PAD（蹭 GIWA 叙事，Solana 上 $GIWAPAD，高风险）；Tidebound $TIDE 发行因技术问题延期、首发亏损钱包重启时补偿；Model Citizens mint 降到 0.0075 ETH 并退旧价差。面板：https://reboot7454.github.io/early-scout/
+- newIds: ['elyporthq', 'giwapadsol']
+- clearedPrevNewThisRound: ['zappinio', 'krivypay', 'bloomkeep', 'vantiqintel', 'memora', 'halo', 'minyx', 'index-elysium', 'launchonflow', 'usemyrrhbyte', 'getlaunchtape', 'runehrt', 'enter-elyquid']
+- updated: ['tideboundrh', 'model-citizens', 'agent-feg', 'elysiumpunks']
+- skipped: ['DegenKitApp（5 粉空壳，DS 拒）', 'spectrelxyz（0 粉今日建号）', 'Hypesium/heliosliq/Kurogane_fun（已在库）']
+- xReads: 3
+- remainingBefore: 576
+- remaining: 573
+- ufCursor: 988→1004
+- lanes: UF×1 + ≤2h/必盯×1 + KW 九车道合并×1
+- discordPeekDeferred: False
+- dsFallback: False
+- dsNote: DS 打分 3 条（admit 2/拒 1）+ alert 文案
+- docsSynced: True
+- panel: https://reboot7454.github.io/early-scout/
