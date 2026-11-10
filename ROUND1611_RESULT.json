@@ -1,0 +1,63 @@
+{
+  "round": 1611,
+  "mode": "pace",
+  "softCap": 28,
+  "completedAt": "2026-11-11 03:45 CST",
+  "notify": true,
+  "notifyReason": "真新收录 4 条 + ≤2h（Hood Syndicate 05:00 CST mint、RRF Village FCFS 至 05:48 CST）",
+  "alertMessage": "雷达 R1611：新收 4 张——Eyesos Terminal（Elysium $EYESOS 03:10 CST 刚 live，1 粉、克隆合约，高风险）、Scopehaven（Elysium $SCOPE 03:29 CST 刚 live，AI agent 权限检测叙事，高风险）、Tube Line（Elysium 跨链意图桥，无币仅跟踪）、Cashmere Labs·Mountain（Binance Labs 孵化，RH 链 Barn Sale 申请中，WL/GTD checker 待公布）。≤2h：Hood Syndicate 今天 05:00 CST mint（官宣 11-10 4PM EST，WL 已锁，wallet checker 已开）；RRF Village Ronin Genesis Land FCFS 约 05:48 CST 结束（300 RON）。面板：https://reboot7454.github.io/early-scout/",
+  "newIds": [
+    "eyesosterminal",
+    "scopehaven",
+    "tubeline",
+    "cashmere-mountain"
+  ],
+  "lanesOfNew": {
+    "eyesosterminal": "台子/Meme",
+    "scopehaven": "台子/Meme",
+    "tubeline": "打新",
+    "cashmere-mountain": "打新"
+  },
+  "roundNote": "pull 后发现 DC 流程已写 R1610（03:33 CST，DC 补漏 6 条），本轮取 R1611",
+  "clearedPrevNewThisRound": [
+    "elzecpod",
+    "payolaads",
+    "fherumfi",
+    "onionexchange",
+    "levera",
+    "earlyondotfun"
+  ],
+  "flagFix": "R1610 DC 流程未清 R1609 五卡 flag=本轮新、roundNAdded 仍为 R1609 列表；本轮一并清掉并改为 R1611",
+  "updated": [
+    "hood-syndicate",
+    "rrfvillage"
+  ],
+  "le2hVerified": {
+    "hood-syndicate": "官宣原帖 2112406434453606783：Tuesday Nov 10 4:00 PM EST＝11-11 05:00 CST；111 枚 1/1，WL 已锁、余量后放；03:30 CST 官推重发 Wallet Checker；粉 1054；卡内 whyWatch 旧写 04:00 已更正",
+    "rrfvillage": "FCFS 02:48 CST 开、3 小时≈05:48 CST 止，未见改期；03:15 CST 发经济模型（Gold + $RONKE，Season 0）"
+  },
+  "skipped": [
+    "Indexes_ely（$IND，今日新号 1 粉、无 CA/官网、名称 Elysium 但简介写 RH，DS 拒）",
+    "glyph_exchange（4.2 万粉成熟 FairC-20 平台，$NCAT 为其上普通币）",
+    "UnBagMe（多链扫描工具，仅宣布支持 Elysium）",
+    "EAPESCLUB/HoodFyn（成熟号/资讯号）",
+    "$SAI（批量喊单帖，无官号线索）",
+    "hallofash/PayphoneNFT/droolies_rh/cloverdotfamily/Elysiumpilled/Zunki/homelesshoodRH/onlystreetsfun/HoodDrakes/Gangstazfun/Sepia_rbh/llmgh0st/keyfomcp/bouncermeme/RebateLaunch/AskHookFun/aethermeme/sasapadfun/Hypesium 等（已在库）"
+  ],
+  "watchBugFix": "R1610 DC 六号（@wilmacartemv2f/@payolaads/@fherumfi/@onionexchange/@leveradotfun/@earlyondotfun）原不在 UF，已补进 userFollowWatch",
+  "xReads": 9,
+  "remainingBefore": 549,
+  "remaining": 540,
+  "ufCursor": "1068→1084",
+  "tenLanes": "UF1068→1084 合并 from:×1 + ≤2h 必盯合并 from:×1（HoodSyndicate/RRFVillage/HoodJunkies/SyndicateRHC/POLYROB/Seapad/STONKED/ChartNerd/Stockmon/squeek/HoodVandalz/Enter_Elysium）+ Hood Syndicate 核时 3 读（mentions 合并、wallet checker 原帖、官宣原帖）+ KW 两车道合并×2（打新/free mint/WL/presale/Agent ID/Elysium/RH；台子/fair launch/PoW/挖矿/LZ/OFT/GIWA/DogeOS/TapeOut/Starknet/Ordinals/Runes/X Layer/squeek/CRC20）+ 生态 mentions 合并×1（@Enter_Elysium/@squeekchain/@starx_xlayer/GIWA/DogeOS/TapeOut/Starknet/X Layer/RH Chain）+ 候选资料批×1；九栏+BTC/Starknet 均跑",
+  "xRateLimit429": "无",
+  "discordPeekDeferred": false,
+  "discordPeekNote": "R1610 DC 流程 03:32 CST 刚补完 Discord alpha（lastSeen 03:19），本轮不需要 Peek",
+  "dsFallback": false,
+  "dsNote": "DS 打分 5 条（2+3 两批；首批 5 条合批输出截断重跑拆批），admit 4/拒 1（Indexes_ely）+ alert 文案（执行端改写前缀与格式）；DS risk 为安全分，入卡时取 (100-x)/10 作风险分",
+  "softDebt": "Canton/Glaze/TokenWorks/Elysium lastChecked 刷到 03:45 CST",
+  "elysiumNote": "$EYESOS 0x00293b37…4250、$SCOPE 0x53a8b1ca…028d 在 Elysium RPC 核验有代码（45 字节最小代理克隆，symbol 对得上）；均不在 elysium.kinetiq.xyz 生态页，按惯例归台子/Meme；Tube Line 无币归打新",
+  "watchAdds": "4 新号 + R1610 DC 6 号进 UF",
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
