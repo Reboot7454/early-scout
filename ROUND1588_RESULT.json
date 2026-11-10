@@ -59,12 +59,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "0cc253a",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1588：Discord alpha 补收 agentmarketbnb,playfloppybird,joinhypad；跳过 pxviks（与已收 pixviks 同项目重复号）；清 seven-bsc,xagent-bnb,mine-on-float；lastSeen→2026-11-10 19:33；lastChecked→2026-11-10 19:38 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1587.json",
   "priorRoundNote": "R1587 web radar NTR ['seven-bsc', 'xagent-bnb', 'mine-on-float']; opened at R1587, this DC=R1588; cardsAfterCutoff=47",
   "lastSeenByChannel": {
@@ -264,5 +266,9 @@
     "alertDsOk": true
   },
   "alert": "DC补漏R1588新收3项：Agent Market（台子/Meme）、Floppy Bird（Elysium）、Hypad（Elysium）；面板 https://reboot7454.github.io/early-scout/",
-  "pxviksSkippedAsDupeOf": "pixviks"
+  "pxviksSkippedAsDupeOf": "pixviks",
+  "pushSha": "0cc253a",
+  "tip": "0cc253a",
+  "pushShaFull": "0cc253a0cbfdbadb7e85aa859570c93da36aafdf",
+  "docsSynced": true
 }
