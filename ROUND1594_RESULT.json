@@ -67,13 +67,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false,
-    "remoteVerified": false
+    "attempted": true,
+    "ok": true,
+    "sha": "9840f1b",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1594：Discord alpha 补收 usevokra,massivedotgg,fairbnb01,chalkprism,egosofelysium；跳过 lastcandlerh（与 R1556 @lastcandlegame 同项目重复号）；清 hikaripass,wif-dod0x；lastSeen→2026-11-10 21:20；lastChecked→2026-11-10 21:31 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1594.json",
   "priorRoundNote": "R1593 web radar new admits hikaripass, wif-dod0x (NTR cleared this run); opened at R1593, this DC=R1594; cardsAfterCutoff=61 unique=47 keep=41 already=4 pre_reject=2; X核验5个账号均存在，无仓内重复号；跳过 lastcandlerh",
   "lastSeenByChannel": {
@@ -342,5 +343,8 @@
     "dsRejects": 35,
     "manualSkip": 1
   },
-  "docsSynced": false
+  "docsSynced": true,
+  "pushSha": "9840f1b",
+  "tip": "9840f1b",
+  "pushShaFull": "9840f1b17eecb273dfdd27e8fafe5d8e0b5ac2f6"
 }
