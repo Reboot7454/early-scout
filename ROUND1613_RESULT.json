@@ -75,12 +75,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "9bc089c",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1613：Discord alpha 补收 walrushood,usemorf,hypewavedefi,enter-ghosts,green-week,kubo-cube,usefliply,usecreditpad；Enter_Ghosts 由打新改归台子/Meme（NFT agent 发射台）；id typo hypewavdefi→hypewavedefi；HYPE WAVE/GHOSTS/Creditpad/MORF/Fliply 不在 elysium.kinetiq.xyz/ecosystem，不得进 Elysium 栏；lastSeen→2026-11-11 04:02；lastChecked→2026-11-11 04:10 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1612.json",
   "priorRoundNote": "opened at web-radar R1611 then remote already published web-radar R1612 (NTR: theunseen444,zolva-agent,eacc-coin,usetwopad,perpsinvest,hamster-rush) during scrape/DS; this DC=R1613; cardsAfterCutoff=39; unique=37 already=1 preReject=4 keep=32; X 32/32; manualSkip=0; DS keep=32 admits=8; Enter_Ghosts category overridden 打新→台子/Meme; id hypewavdefi→hypewavedefi",
   "alert": "DC补漏R1613新收8项：WalrusRH(打新)、MORF(打新)、HYPE WAVE(台子/Meme)、GHOSTS(台子/Meme)、Green Week(台子/Meme)、Kubo(挖矿)、Fliply(台子/Meme)、Creditpad(台子/Meme)；面板 https://reboot7454.github.io/early-scout/",
@@ -332,5 +334,6 @@
       "to": "hypewavedefi",
       "reason": "typo missing e"
     }
-  ]
+  ],
+  "pushSha": "9bc089c9cf41ee2f52356cdc2b122d76ae6ac98f"
 }
