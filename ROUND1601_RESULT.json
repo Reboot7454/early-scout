@@ -87,12 +87,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "fc78a55",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1601：Discord alpha 补收 zappinio,krivypay,bloomkeep,vantiqintel,memora,halo,minyx,index-elysium,launchonflow,usemyrrhbyte,getlaunchtape,runehrt,enter-elyquid；lastSeen→2026-11-10 23:34；lastChecked→2026-11-11 00:01 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1599.json",
   "priorRoundNote": "23:16例行刮卡116张后DS末批超时未推送（当时拟R1600）；本轮接手核验。开跑时仓库已是网页雷达 R1600（无新收，NTR已空），本轮 DC=R1601。DS原始收录16后手工跳过 wojakagent（与R1275 @WOJAK_AGENTID 同项目）、montramoney（与已收 @MontraXYZ/@MontraStocks 同项目）、roxtr（@UseRoxtr_app 账号不存在）。Krivy/HALO/Index 官方生态页未列出，改归台子/Meme；focus均否；X核验15/16存在。",
   "lastSeenByChannel": {
@@ -232,5 +234,9 @@
     "note": "DS batches from leftover dc40_r1599_run.py (ts 20261110_2342); alert fallback pending optional DS rewrite",
     "alertDsRaw": "DC补漏R1601新收13个：台子/Meme 11、挖矿 2；面板 https://reboot7454.github.io/early-scout/",
     "alertNote": "DS返回仅计栏位；转发用与往轮一致的点名格式"
-  }
+  },
+  "docsSynced": true,
+  "pushSha": "fc78a55",
+  "tip": "fc78a55",
+  "pushShaFull": "fc78a55a10d193352ebee907a12b915557d81d7f"
 }
