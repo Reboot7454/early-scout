@@ -1,0 +1,138 @@
+{
+  "round": 1584,
+  "mode": "ample",
+  "softCap": 28,
+  "completedAt": "2026-11-10 18:16 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "le2h",
+  "alertMessage": "【R1584】主扫无合格新收录（R1583 Discord 已补 spreadly、GenCity、Griffin、Catbalio、Elycash，本轮已清 newThisRound）。库内升级：kPad kPunks FCFS 已开（Elysium CA 0xfd9a4c774887a5af38c93e7df01063b827be4de0，36/10000，FCFS 至 19:00、Public 19:00 起）；FEG 链上 openingSold=23，≤2h 至约19:00；Atlas totalSupply=9，公开18:30（0.01 HYPE）；DogeKing 19:00 开售；JDM 871/5000，早鸟至约19:20。本轮关窗：Agentix 约17:46、Volta 约18:05。未进窗：99901.fun 21:00、Etherea GTD 21:00。面板 https://reboot7454.github.io/early-scout/",
+  "alert": "【R1584】主扫无合格新收录（R1583 Discord 已补 spreadly、GenCity、Griffin、Catbalio、Elycash，本轮已清 newThisRound）。库内升级：kPad kPunks FCFS 已开（Elysium CA 0xfd9a4c774887a5af38c93e7df01063b827be4de0，36/10000，FCFS 至 19:00、Public 19:00 起）；FEG 链上 openingSold=23，≤2h 至约19:00；Atlas totalSupply=9，公开18:30（0.01 HYPE）；DogeKing 19:00 开售；JDM 871/5000，早鸟至约19:20。本轮关窗：Agentix 约17:46、Volta 约18:05。未进窗：99901.fun 21:00、Etherea GTD 21:00。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "skipped": [
+    {
+      "id": "elydotname",
+      "handle": "@Elydotname",
+      "reason": "代币已 live，但站点 registrar（REGISTRY）仍空、域名注册未上线，且库内已有 @ElysiumNames、@Elynamexyz，易混，不够极早期"
+    },
+    {
+      "id": "clafmarkets",
+      "handle": "@clafmarkets",
+      "reason": "仅 KOL 点名，本窗无官帖"
+    },
+    {
+      "id": "mopesnft",
+      "handle": "Mopesnft",
+      "reason": "仅第三方名单，本窗无官帖"
+    },
+    {
+      "id": "getblobs",
+      "handle": "GetBlobs",
+      "reason": "仅第三方名单，本窗无官帖"
+    }
+  ],
+  "clearedPrevNewThisRound": [
+    "tryspreadly",
+    "gencitybsc",
+    "griffin-rbh",
+    "catbalio",
+    "elycash"
+  ],
+  "renumberNote": "Main scout started from R1582 but Discord peek already consumed R1583 at 18:09 CST (tryspreadly, gencitybsc, griffin-rbh, catbalio, elycash); this scout is published as R1584 and keeps those 5 cards.",
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking on；第一次调用只返回思考未出 JSON；第二次 JSON 因 max_tokens 截断，已用同轮已定稿正文补全 99901-fun/etherea-genesis 及总述字段；随后因 R1583 已被 Discord 补漏占用而改记 R1584；admit 0 / skip 4",
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "admit": 0,
+    "skip": 4,
+    "retry": 1,
+    "retryReason": "first call returned reasoning without JSON; second JSON hit max_tokens and was completed from the same settled copy"
+  },
+  "coverage": {
+    "tenLanes": true,
+    "btc": true,
+    "starknet": true,
+    "giwa": true,
+    "ufShard": "812-827",
+    "ufCursor": "812→828",
+    "mentions": "Tape/@TapeAIAgent+@bitcointapes+@Blonskr+@TapeOutWorld×1",
+    "xReads": 8,
+    "remainingBefore": 681,
+    "remaining": 670,
+    "mode": "ample",
+    "softCap": 28,
+    "eveningReserve": 80,
+    "lastFullAfterReset": "R1555",
+    "kw": "eco Elysium/GIWA/DogeEVM/Tape + launch/agent + BTC/Starknet/LZ/XLayer + keyword-gaps（0 命中）"
+  },
+  "discordAlphaPeek": false,
+  "docsSynced": true,
+  "pushSha": "0e3801f",
+  "tip": "0e3801f",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1584 主扫无合格新收录（R1583 Discord 的 spreadly、GenCity、Griffin、Catbalio、Elycash 已入库并清 newThisRound，五号已补进 UF 表尾）。kPad 的 kPunks 已进入 FCFS，将于 19:00 转公开；FEG 已 live 且 openingSold=23；Atlas 公开 18:30；DogeKing 19:00 开售；JDM 早鸟至约 19:20。Agentix 与 Volta 的≤2h 窗本轮已关。",
+  "whatsNew": "【R1584】主扫无合格新收录（R1583 Discord 已补 spreadly、GenCity、Griffin、Catbalio、Elycash，本轮已清 newThisRound）。kPad kPunks FCFS 已开（CA 0xfd9a…be4de0，36/10000，Public 19:00 起）；FEG openingSold=23；Atlas totalSupply=9、公开18:30；DogeKing 19:00 开售；JDM 871/5000，早鸟至约19:20。",
+  "le2hText": "仍开/新进：atlas-hl（公开 18:30 CST）；kpadfun（FCFS 至 19:00，Public 19:00 起）；agent-feg（至约 19:00 CST）；dogeking-agent（19:00 CST 开售）；jdm-legends（早鸟至约 19:20 CST 后转公开）。本轮关窗：agentix-agx（约 17:46 CST）、volta-gent（约 18:05 CST）。此前已关：mint-condition（约 17:22 CST）。尚未入窗：99901-fun、etherea-genesis。",
+  "le2hActionable": [
+    "atlas-hl",
+    "kpadfun",
+    "agent-feg",
+    "dogeking-agent",
+    "jdm-legends"
+  ],
+  "closedThisRound": [
+    "agentix-agx",
+    "volta-gent"
+  ],
+  "alreadyClosed": [
+    "mint-condition"
+  ],
+  "notYetLe2h": [
+    "99901-fun",
+    "etherea-genesis"
+  ],
+  "upgrades": [
+    "kpadfun",
+    "dogeking-agent",
+    "agent-feg",
+    "mint-condition",
+    "atlas-hl",
+    "jdm-legends",
+    "volta-gent",
+    "agentix-agx",
+    "on-aether-app",
+    "dinoagentnft",
+    "99901-fun",
+    "etherea-genesis"
+  ],
+  "xReads": 8,
+  "remainingBefore": 681,
+  "remaining": 670,
+  "ufCursor": "812→828",
+  "lastFullAfterReset": "R1555",
+  "tenLanes": "UF812→828 + must/≤2h 合并 from: + 排除已读号后剩余必盯 from:×1 + KW 九栏+BTC/Starknet/LZ/X Layer 分车道 + mentions Tape/@TapeAIAgent+@bitcointapes+@Blonskr+@TapeOutWorld×1 + keyword-gaps×1；九栏+BTC/Starknet/GIWA 均跑",
+  "stoppedNoX": [
+    "HashDoge",
+    "Genius",
+    "Corla",
+    "Flap"
+  ],
+  "watchAppended": [
+    "@tryspreadly",
+    "@gencitybsc",
+    "@griffin_rbh",
+    "@catbaliokntq",
+    "@tryelycash"
+  ],
+  "softDebtRefreshed": [
+    "cantonWatch",
+    "cantonPadWatch",
+    "glazeWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch"
+  ]
+}

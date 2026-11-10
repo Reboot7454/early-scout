@@ -1,0 +1,25 @@
+# R1584 early-scout RESULT（2026-11-10 18:16 CST）
+
+- round: R1584
+- pushSha/tip: 0e3801f
+- mode: ample softCap=28（lastFullAfterReset=R1555，非 post-reset-full）
+- xReads: 8 | remainingBefore: 681 → remaining: 670 | ufCursor: 812→828
+- lastFullAfterReset: R1555
+- 编号说明：本轮主扫开跑时基线仍是 R1582；Discord alpha 补漏已于 18:09 CST 占用 R1583（新收 tryspreadly、gencitybsc、griffin-rbh、catbalio、elycash）。主扫改记 R1584，保留上述 5 张卡，并将其 newThisRound 清掉；同时把这五号补进 UF 表尾（@tryspreadly / @gencitybsc / @griffin_rbh / @catbaliokntq / @tryelycash）以修 watch-bug，不插入中段以免光标错位。
+- newThisRound: 无
+- 状态升级：kpadfun 18:00:04 CST 官帖 FCFS is LIVE、GTD is done，kPunks FCFS 已在 Elysium 开放，Public 19:00 CST 起至 11/13 17:00 CST；官方集合 CA 0xfd9a4c774887a5af38c93e7df01063b827be4de0（勿用隐藏盘 0x82501160e10c0bf3b840bda29e7c96d8fb0f1e8b），indexer 约 18:08 CST minted=36/10000（GTD 24 + FCFS 12 + Public 0），holders 14，raised 约 1.083 HYPE，nextPrice 约 0.03017 HYPE，已改 live 并进入≤2h；agent-feg 17:35:46 CST 官帖 Banana Streak is live，链上 openingSold=23（上轮 13），holders=5，openingRaised=0.115 BNB，nextPrice 仍 0.005 BNB，≤2h 至约 19:00；dogeking-agent 17:53:27 CST 官帖倒计时 Forge 19:00 UTC+8，10,000 份创世份额，前 1,000 份免费（每 Agent ID 1 份），之后 0.002 BNB（每 ID 最多 10 份，邀请好友可再 +1），帖中无 CA，链上 saleStart=19:00:00 CST、已售字段仍为 0；atlas-hl 本窗仅表情回复，链上 totalSupply=9（上轮 8），公开仍 18:30 CST、0.01 HYPE；jdm-legends 本窗无新官帖，链上 totalSupply=871/5000（上轮 856），早鸟至约 19:20:36 CST 后转公开；mint-condition 18:01:44 CST 官帖写 opening soon，与先前 live 说法不一致，不以该帖重开≤2h（约 17:22 已关）；on-aether-app 官帖 $AETHER is now live on Elysium；dinoagentnft 官帖称付费 mint 还剩 30 天；99901-fun / etherea-genesis 本轮无新官帖、尚未入窗
+- ≤2h 仍开/新进：atlas-hl 公开 18:30 CST；kpadfun FCFS 至 19:00 / Public 19:00 起；agent-feg 至约 19:00 CST；dogeking-agent 19:00 CST 开售；jdm-legends 早鸟至约 19:20 CST 后转公开
+- 本轮关窗：agentix-agx 约 17:46 CST；volta-gent 约 18:05 CST（智能体阶段仍约至 23:03，链上 minted=8、open=1、agentPhase=1 未变）
+- 此前已关：mint-condition 约 17:22 CST
+- 尚未≤2h：99901-fun 今晚 21:00 CST liftoff（约 19:00 CST 起算入窗）；etherea-genesis GTD 21:00 / FCFS 22:00 / Public 23:00 CST
+- dsFallback: False（deepseek-flash thinking on；第一次调用只返回思考未出 JSON；第二次 JSON 因 max_tokens 截断，已用同轮已定稿正文补全；admit 0 / skip 4）
+- discordPeekDeferred: False（本轮主扫跳过 Peek；今日 R1575/R1577/R1579/R1581/R1583 已做过）
+- docsSynced: True
+- notify: True
+- alert: 【R1584】主扫无合格新收录（R1583 Discord 已补 spreadly、GenCity、Griffin、Catbalio、Elycash，本轮已清 newThisRound）。库内升级：kPad kPunks FCFS 已开（Elysium CA 0xfd9a4c774887a5af38c93e7df01063b827be4de0，36/10000，FCFS 至 19:00、Public 19:00 起）；FEG 链上 openingSold=23，≤2h 至约19:00；Atlas totalSupply=9，公开18:30（0.01 HYPE）；DogeKing 19:00 开售；JDM 871/5000，早鸟至约19:20。本轮关窗：Agentix 约17:46、Volta 约18:05。未进窗：99901.fun 21:00、Etherea GTD 21:00。面板 https://reboot7454.github.io/early-scout/
+- HashDoge/Genius/Corla/Flap: STOPPED（本轮未对其花费 X）
+- tenLanes: UF812→828 + must/≤2h 合并 from: + 排除已读号后剩余必盯 from:×1 + KW 九栏+BTC/Starknet/LZ/X Layer 分车道 + mentions Tape/@TapeAIAgent+@bitcointapes+@Blonskr+@TapeOutWorld×1 + keyword-gaps×1；九栏+BTC/Starknet/GIWA 均跑
+- UF shard 812–827：16 槽；skip 已知 NF 不连刷 @btcliu205/@Sambario_bnb/@Gweiwbbb/@PlayTycoonCity；可见 12 槽本窗未见发帖
+- skips/noise: @Elydotname（代币已 live，但站点 registrar 未部署、域名注册未上线，且库内已有 @ElysiumNames/@Elynamexyz，易混，不够极早期）；@clafmarkets（仅 KOL 点名，本窗无官帖）；Mopesnft / GetBlobs（仅第三方名单，无官帖）
+- watch 补进：tryspreadly → userFollowWatch 表尾 @tryspreadly；gencitybsc → 表尾 @gencitybsc；griffin-rbh → 表尾 @griffin_rbh；catbalio → 表尾 @catbaliokntq；elycash → 表尾 @tryelycash（不插入中段以免光标错位）
+- softDebt lastChecked 已刷新：cantonWatch / cantonPadWatch / glazeWatch / tokenWorksWatch / tokenWorksPlaygroundWatch
