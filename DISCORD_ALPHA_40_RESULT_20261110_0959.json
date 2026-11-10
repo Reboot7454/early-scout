@@ -1,0 +1,156 @@
+{
+  "round": 1560,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-10 09:59 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R1560新收3个观察位；https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "cre8finance",
+    "pkmonhype",
+    "maxxing"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "cre8finance",
+    "pkmonhype",
+    "maxxing"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 19,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "0xmetrion",
+    "acresdotgarden"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "0xmetrion",
+    "acresdotgarden"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=3",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-10 09:55",
+    "lastChecked": "2026-11-10 09:59 CST",
+    "newestCardTime": "2026-11-10 09:55",
+    "cardsAfterCutoff": 19,
+    "note": "R1560：Discord alpha 补收 cre8finance,pkmonhype,maxxing；清 0xmetrion,acresdotgarden；lastSeen→2026-11-10 09:55；lastChecked→2026-11-10 09:59 CST",
+    "lastRound": 1560,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-10 09:55",
+      "alpha-1-backup": "2026-11-10 09:19",
+      "smart-accounts-tracker": "2026-11-10 09:54",
+      "alpha-1": "2026-11-10 09:33"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1560：Discord alpha 补收 cre8finance,pkmonhype,maxxing；清 0xmetrion,acresdotgarden；lastSeen→2026-11-10 09:55；lastChecked→2026-11-10 09:59 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1560.json",
+  "priorRoundNote": "R1559 meta NTR ['acresdotgarden', '0xmetrion']; cardsAfterCutoff=19",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-10 09:55",
+    "alpha-1-backup": "2026-11-10 09:19",
+    "smart-accounts-tracker": "2026-11-10 09:54",
+    "alpha-1": "2026-11-10 09:33"
+  },
+  "cardsRead": 19,
+  "rejected": [
+    {
+      "handle": "@LeeFelix366685",
+      "reason": "个人KOL号，仅口号式简介，无任何产品/发射线索"
+    },
+    {
+      "handle": "@EzyChukwu71788",
+      "reason": "个人号，bio仅「Smart」，无项目与产品信息"
+    },
+    {
+      "handle": "@MihoCrypto",
+      "reason": "个人KOL号，bio无实质内容，无项目/产品线索"
+    },
+    {
+      "handle": "@Youngpu_cn",
+      "reason": "个人号，「创业做酷东西」泛泛而谈，无具体项目或产品"
+    },
+    {
+      "handle": "@everything38686",
+      "reason": "纯情绪/玩梗账号，无项目、无产品、无玩法"
+    },
+    {
+      "handle": "@clutchchrisFC",
+      "reason": "个人号，bio仅「Xoog FC」球队式短语，无产品线索"
+    },
+    {
+      "handle": "@esneikersramos",
+      "reason": "音乐类个人号，与加密项目无关"
+    },
+    {
+      "handle": "@Larpdawg2000",
+      "reason": "个人返佣推广号，bio仅为fomo邀请码挑战，无独立项目或产品"
+    },
+    {
+      "handle": "@BOG_us",
+      "reason": "bio仅“Bro”，空壳个人号，无任何产品线索"
+    },
+    {
+      "handle": "@LilBambiCt",
+      "reason": "Solana 打金自述型个人号，无独立项目"
+    },
+    {
+      "handle": "@JeffMarconis",
+      "reason": "个人简介式账号，无项目/产品，关注Binance不构成项目线索"
+    },
+    {
+      "handle": "@M31tk",
+      "reason": "bio为空“-”，无信息空壳号"
+    },
+    {
+      "handle": "@johnkimtrading",
+      "reason": "加密货币PM个人从业者简介，非项目方"
+    },
+    {
+      "handle": "@Invisiblewhales",
+      "reason": "个人持币闲聊号，无项目/产品"
+    },
+    {
+      "handle": "@bheiligenthal",
+      "reason": "投资人个人号（投@joinnugo），非独立加密项目方"
+    },
+    {
+      "handle": "@wikifork",
+      "reason": "高粉(7263)个人/KOL"
+    }
+  ],
+  "rejectedCount": 16,
+  "dsRejects": 15,
+  "admissions": [
+    {
+      "id": "cre8finance",
+      "handle": "@CRE8Finance",
+      "category": "台子/Meme",
+      "name": "CRE8"
+    },
+    {
+      "id": "pkmonhype",
+      "handle": "@pkmonhype",
+      "category": "Elysium",
+      "name": "Sara Smith"
+    },
+    {
+      "id": "maxxing",
+      "handle": "@maxxingdotad",
+      "category": "台子/Meme",
+      "name": "Maxxing"
+    }
+  ],
+  "alert": "DC补漏R1560新收3个观察位；https://reboot7454.github.io/early-scout/"
+}
