@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-10 10:16 CST",
+    "updated": "2026-11-10 10:51 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-10 10:16 CST",
+    "lastScout": "2026-11-10 10:51 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -719,7 +719,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1561,
+    "round": 1562,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2160,9 +2160,15 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "elycore",
-      "edenland",
-      "elysium-pairs"
+      "rentstock-prtcl",
+      "obsidryfun",
+      "elysianshield",
+      "alysum-trade",
+      "perpspad-live",
+      "trussfun",
+      "mintscope",
+      "mintropolis",
+      "stonksapp"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4627,17 +4633,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-10 09:55",
-      "lastChecked": "2026-11-10 09:59 CST",
-      "newestCardTime": "2026-11-10 09:55",
-      "cardsAfterCutoff": 19,
-      "note": "R1560：Discord alpha 补收 cre8finance,pkmonhype,maxxing；清 0xmetrion,acresdotgarden；lastSeen→2026-11-10 09:55；lastChecked→2026-11-10 09:59 CST",
-      "lastRound": 1560,
+      "lastSeen": "2026-11-10 10:46",
+      "lastChecked": "2026-11-10 10:51 CST",
+      "newestCardTime": "2026-11-10 10:46",
+      "cardsAfterCutoff": 36,
+      "note": "R1562：Discord alpha 补收 rentstock-prtcl,obsidryfun,elysianshield,alysum-trade,perpspad-live,trussfun,mintscope,mintropolis,stonksapp；清 elycore,edenland,elysium-pairs；lastSeen→2026-11-10 10:46；lastChecked→2026-11-10 10:51 CST",
+      "lastRound": 1562,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-10 09:55",
-        "alpha-1-backup": "2026-11-10 09:19",
-        "smart-accounts-tracker": "2026-11-10 09:54",
-        "alpha-1": "2026-11-10 09:33"
+        "alpha-3-new-accounts": "2026-11-10 10:46",
+        "alpha-1-backup": "2026-11-10 10:34",
+        "smart-accounts-tracker": "2026-11-10 10:00",
+        "alpha-1": "2026-11-10 10:21"
       },
       "alpha3OlderGap": {
         "attempted": false,
@@ -28452,9 +28458,415 @@
       "cre8finance",
       "pkmonhype",
       "maxxing"
+    ],
+    "round1562Added": [
+      "rentstock-prtcl",
+      "obsidryfun",
+      "elysianshield",
+      "alysum-trade",
+      "perpspad-live",
+      "trussfun",
+      "mintscope",
+      "mintropolis",
+      "stonksapp"
     ]
   },
   "candidates": [
+    {
+      "id": "stonksapp",
+      "name": "StonksApp",
+      "handle": "@stonksappdotfun",
+      "twitter": "@stonksappdotfun",
+      "chain": "Solana/Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/stonksappdotfun"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.1
+      },
+      "highlights": [
+        "Web-app已上线，可实际体验",
+        "代币化股票+StonkFun奖励币玩法，覆盖Robinhood Chain与Solana"
+      ],
+      "drawbacks": [
+        "粉丝极少，团队与背书仅@0xProject",
+        "代币化股票合规与资产真实性风险高"
+      ],
+      "whatsNew": "Web-app上线，主打聊天场景的代币化股票与奖励币",
+      "summary": "极早期的代币化股票+奖励币应用，Web-app已可访问，玩法与多链部署线索明确。",
+      "blurb": "聊天场景代币化股票，Web-app已上线待验证。",
+      "round": 1562,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 89,
+      "xFollowers": 89,
+      "firstSeen": "2026-11-10 10:51 CST",
+      "addedAt": "2026-11-10 10:51 CST",
+      "lastChecked": "2026-11-10 10:51 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "mintropolis",
+      "name": "Mintropolis",
+      "handle": "@mintropolisx",
+      "twitter": "@mintropolisx",
+      "chain": "",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/MintropolisX"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 5.7
+      },
+      "highlights": [
+        "钱包原生NFT地图/数字大使馆玩法",
+        "官方drops线索，有mint预期"
+      ],
+      "drawbacks": [
+        "产品仍在概念期，未见合约或mint时间",
+        "粉丝基数小，团队信息仅指向@CosmicMetaZ"
+      ],
+      "whatsNew": "上线NFT社区地图与官方drop入口的早期宣传",
+      "summary": "把NFT社区与官方drop做进钱包原生地图的极早期项目，玩法线索清晰但落地待验证。",
+      "blurb": "NFT社区地图+官方drop，早期可观察mint节奏。",
+      "round": 1562,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 687,
+      "xFollowers": 687,
+      "firstSeen": "2026-11-10 10:51 CST",
+      "addedAt": "2026-11-10 10:51 CST",
+      "lastChecked": "2026-11-10 10:51 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "mintscope",
+      "name": "MintScope",
+      "handle": "@mintscopehq",
+      "twitter": "@mintscopehq",
+      "chain": "BNB Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/MintScopeHQ"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 5.9
+      },
+      "highlights": [
+        "定位BNB Chain agent生态的验证免费mint与空投信号",
+        "有Agent Pass产品线索"
+      ],
+      "drawbacks": [
+        "0粉新号，尚无可验证的mint记录",
+        "bio自述为主，缺具体发射时间"
+      ],
+      "whatsNew": "新出现的BNB Chain mint/空投信号聚合号，提及Agent Pass",
+      "summary": "MintScope 自称扫描 BNB Chain agent 生态的已验证免费 mint 与空投，并称有 Agent Pass，属极早期打新工具类账号。",
+      "blurb": "BNB Chain agent 生态 free mint/空投信号站，早期观察。",
+      "round": 1562,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-10 10:51 CST",
+      "addedAt": "2026-11-10 10:51 CST",
+      "lastChecked": "2026-11-10 10:51 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "trussfun",
+      "name": "Truss",
+      "handle": "@trussfun",
+      "twitter": "@trussfun",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/trussfun"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 6.3
+      },
+      "highlights": [
+        "发射台玩法清晰：发币后帮团队配站/游戏/应用",
+        "明确落在 Robinhood 链"
+      ],
+      "drawbacks": [
+        "0 粉新号，仅有 bio，无站点或文档",
+        "pons 与其关系待核"
+      ],
+      "whatsNew": "Robinhood 链上新出现的带建站/游戏交付的发射台号。",
+      "summary": "truss.fun 定位 Robinhood 链发射台，除发币外还替项目方建站与做小游戏，玩法组合较新。",
+      "blurb": "Robinhood 链发射台+建站交付，值得早期跟踪。",
+      "round": 1562,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-10 10:51 CST",
+      "addedAt": "2026-11-10 10:51 CST",
+      "lastChecked": "2026-11-10 10:51 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "perpspad-live",
+      "name": "$PERPS",
+      "handle": "@perpspad_live",
+      "twitter": "@perpspad_live",
+      "chain": "Elysium",
+      "category": "Elysium",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Perpspad_live"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 5,
+        "actionable": 4,
+        "overall": 5.4
+      },
+      "highlights": [
+        "定位 Elysium 的 Perps 支撑发射台",
+        "已有 $PERPS 代币符号"
+      ],
+      "drawbacks": [
+        "0 粉，仅 bio 自述，疑似抢注/壳号",
+        "与同批其他 Elysium 发射台号高度同质"
+      ],
+      "whatsNew": "新号自称 Elysium perps 背书发射台。",
+      "summary": "自称 Elysium 上 perps 支撑的发射台，信息全在 bio，需后续验证真实性。",
+      "blurb": "Elysium 发射台自述号，低置信观察。",
+      "round": 1562,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-10 10:51 CST",
+      "addedAt": "2026-11-10 10:51 CST",
+      "lastChecked": "2026-11-10 10:51 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "alysum-trade",
+      "name": "alysum.trade",
+      "handle": "@alysum_trade",
+      "twitter": "@alysum_trade",
+      "chain": "Elysium",
+      "category": "Elysium",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/alysum_trade"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.1
+      },
+      "highlights": [
+        "玩法具体：按中位数结算而非单 tick 的 Up/Down 轮次",
+        "覆盖 BTC/ETH/HYPE，挂 @Enter_Elysium"
+      ],
+      "drawbacks": [
+        "0 粉新号，无产品页/文档",
+        "未见 testnet 明示，部署状态待核"
+      ],
+      "whatsNew": "Elysium 生态内新出现的方向盘口类玩法项目。",
+      "summary": "做 BTC/ETH/HYPE 中位数结算 Up/Down 轮次的项目号，玩法差异化明确，但仅有 bio 佐证。",
+      "blurb": "中位数结算的 Up/Down 玩法，值得先盯。",
+      "round": 1562,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-10 10:51 CST",
+      "addedAt": "2026-11-10 10:51 CST",
+      "lastChecked": "2026-11-10 10:51 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "elysianshield",
+      "name": "ELYSIAN SPIRIT SHIELD",
+      "handle": "@elysianshield_",
+      "twitter": "@elysianshield_",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/elysianshield_"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 8,
+        "novelty": 3,
+        "actionable": 3,
+        "overall": 4.2
+      },
+      "highlights": [
+        "bio 带 $ESS 与 CA 字段，代币已上链迹象"
+      ],
+      "drawbacks": [
+        "纯口号式喊单文案，无产品与团队信息",
+        "CA 未给全，无法核验"
+      ],
+      "whatsNew": "Elysium 叙事下新出的 $ESS meme 号。",
+      "summary": "蹭 Elysium 热度的 meme 币账号，仅有 ticker 与 CA 占位，信息量极低。",
+      "blurb": "低质 meme 号，仅留档。",
+      "round": 1562,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 14,
+      "xFollowers": 14,
+      "firstSeen": "2026-11-10 10:51 CST",
+      "addedAt": "2026-11-10 10:51 CST",
+      "lastChecked": "2026-11-10 10:51 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "obsidryfun",
+      "name": "Obsidry",
+      "handle": "@obsidryfun",
+      "twitter": "@obsidryfun",
+      "chain": "Elysium",
+      "category": "Elysium",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/obsidryfun"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.8
+      },
+      "highlights": [
+        "定位为 agent 驱动的 token launchpad",
+        "明示 coming to @Enter_Elysium，属部署预告"
+      ],
+      "drawbacks": [
+        "仅 bio 自述，无截图/文档/域名佐证",
+        "粉丝极少，未核验是否官方"
+      ],
+      "whatsNew": "新号上线即预告在 Elysium 上做 agent 发射台。",
+      "summary": "自称 agent powered token launchpad，计划部署到 Elysium，产品方向明确但尚无实证。",
+      "blurb": "Elysium 上的 agent 发射台预告，先观察拿早期信息。",
+      "round": 1562,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 18,
+      "xFollowers": 18,
+      "firstSeen": "2026-11-10 10:51 CST",
+      "addedAt": "2026-11-10 10:51 CST",
+      "lastChecked": "2026-11-10 10:51 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "rentstock-prtcl",
+      "name": "RentStock Protocol",
+      "handle": "@rentstockprtcl",
+      "twitter": "@rentstockprtcl",
+      "chain": "",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/RentStockPrtcl"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 5.4
+      },
+      "highlights": [
+        "代币化股票收租收益模型",
+        "33只标的池明确"
+      ],
+      "drawbacks": [
+        "0粉丝、7关注，可信度待验证",
+        "未披露链与合约"
+      ],
+      "whatsNew": "以'不买楼、持钥匙'叙事做代币化股票租赁收益。",
+      "summary": "新出现的RWA收益协议号，宣称对33只代币化股票提供收租式收益，尚处概念/预热阶段，无链与合约信息。",
+      "blurb": "代币化股票收租概念，先挂观察位。",
+      "round": 1562,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-10 10:51 CST",
+      "addedAt": "2026-11-10 10:51 CST",
+      "lastChecked": "2026-11-10 10:51 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
     {
       "id": "maxxing",
       "name": "Maxxing",
@@ -247033,7 +247445,7 @@
       ],
       "focus": false,
       "round": 1561,
-      "newThisRound": true,
+      "newThisRound": false,
       "status": "live",
       "followers": 100,
       "xFollowers": 100,
@@ -247092,7 +247504,7 @@
       ],
       "focus": false,
       "round": 1561,
-      "newThisRound": true,
+      "newThisRound": false,
       "status": "live",
       "followers": 1,
       "xFollowers": 1,
@@ -247152,7 +247564,7 @@
       ],
       "focus": false,
       "round": 1561,
-      "newThisRound": true,
+      "newThisRound": false,
       "status": "live",
       "followers": 23,
       "xFollowers": 23,
@@ -247198,23 +247610,29 @@
     }
   ],
   "newThisRound": [
-    "elycore",
-    "edenland",
-    "elysium-pairs"
+    "rentstock-prtcl",
+    "obsidryfun",
+    "elysianshield",
+    "alysum-trade",
+    "perpspad-live",
+    "trussfun",
+    "mintscope",
+    "mintropolis",
+    "stonksapp"
   ],
-  "alertMessage": "R1561 新收 3 张均刚官宣 LIVE（≤2h）：ELYCORE（@0xELYCORE，CA 0x09a1bda58ecf5453344e48b0c42904f9c168c040）、Eden（@edenlandlol，1粉，CA 0x484ba063e5dfe9e5e86dc87558b9f33be9a519e5）、Elysium Pairs（@elysiumpairs，发射台，CA HJqfjaE4GopFCyWJj8igJJehjQcPjTHsM34aQXn4pump）。面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1562新收9项：RentStock股票收租、Elysium系Obsidry/alysum.trade、Truss/StonksApp台子、MintScope/Mintropolis打新；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "elycore",
     "edenland",
     "elysium-pairs"
   ],
-  "updatedAt": "2026-11-10 10:16 CST",
-  "updated": "2026-11-10 10:16 CST",
+  "updatedAt": "2026-11-10 10:51 CST",
+  "updated": "2026-11-10 10:51 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-10 10:16 CST",
+  "lastScout": "2026-11-10 10:51 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -247256,7 +247674,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3654,
+  "candidateCount": 3663,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -250308,5 +250726,16 @@
     "elycore",
     "edenland",
     "elysium-pairs"
+  ],
+  "round1562Added": [
+    "rentstock-prtcl",
+    "obsidryfun",
+    "elysianshield",
+    "alysum-trade",
+    "perpspad-live",
+    "trussfun",
+    "mintscope",
+    "mintropolis",
+    "stonksapp"
   ]
 }
