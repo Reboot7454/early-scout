@@ -1,0 +1,24 @@
+# R1603 early-scout RESULT（2026-11-11 01:16 CST）
+
+- round: 1603
+- mode: pace
+- softCap: 28
+- completedAt: 2026-11-11 01:16 CST
+- notify: True
+- notifyReason: 真新收录 4 条 + ≤2h（Model Citizens Public 02:00、The surfers live）+ FEG Sale 合约变更
+- alertMessage: 雷达 R1603：新收 forks wiki（GitHub repo 一键发 Solana 币，早鸟送 $FORK）、OnlyStreets（拍街景发币）、ChimpX（$CHIMP fair launch 待定）、The surfers（500 份 Base NFT，01:00 CST 已开铸）。Model Citizens FCFS 已开，Public 02:00 CST 开，价 0.0075 ETH。FEG 官推最新 Sale 合约为 0xb9d0CA9b63C564443AfE64B77ef91B3bA763e5f1，和之前记录的不一样，参与前请核对。面板：https://reboot7454.github.io/early-scout/
+- newIds: ['wikifork', 'onlystreetsfun', 'chimpxai', 'thesurfers']
+- clearedPrevNewThisRound: ['elyporthq', 'giwapadsol']
+- updated: ['model-citizens', 'agent-feg', 'holdtheline']
+- skipped: ['sai_superai（无链无 CA，KOL 统一推，DS 拒）', 'QuotientLive（0 粉今日建号，自称 LZ 未核验）', 'LaunchSafesol（3 粉 devnet）', 'SyndicateRHC/joinseedborn/sioslaunchpad/grandmemebazaar/droolies_rh（已在库）']
+- xReads: 4
+- remainingBefore: 573
+- remaining: 569
+- ufCursor: 1004→1020
+- lanes: UF×1 + ≤2h/必盯×1 + KW 九车道合并×1 + 用户资料×1
+- xRateLimit429: 01:06 CST 共享 X 访问 429，等约 4 分钟后重试成功
+- discordPeekDeferred: False
+- dsFallback: False
+- dsNote: DS 打分 5 条（admit 4/拒 1）+ alert 文案
+- docsSynced: True
+- panel: https://reboot7454.github.io/early-scout/
