@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-10 18:47 CST",
+    "updated": "2026-11-10 18:52 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-10 18:47 CST",
+    "lastScout": "2026-11-10 18:52 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -719,7 +719,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1585,
+    "round": 1586,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2160,8 +2160,13 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "agent-mining-amnt",
-      "syndicate-rhc"
+      "pixviks",
+      "mopesnft",
+      "glimsxyz",
+      "haultfun",
+      "spectre",
+      "useproteus",
+      "candlebugely"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4657,17 +4662,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-10 18:00",
-      "lastChecked": "2026-11-10 18:09 CST",
-      "newestCardTime": "2026-11-10 18:00",
-      "cardsAfterCutoff": 37,
-      "note": "R1583：Discord alpha 补收 tryspreadly,gencitybsc,griffin-rbh,catbalio,elycash；lastSeen→2026-11-10 18:00；lastChecked→2026-11-10 18:09 CST",
-      "lastRound": 1583,
+      "lastSeen": "2026-11-10 18:47",
+      "lastChecked": "2026-11-10 18:52 CST",
+      "newestCardTime": "2026-11-10 18:47",
+      "cardsAfterCutoff": 57,
+      "note": "R1586：Discord alpha 补收 pixviks,mopesnft,glimsxyz,haultfun,spectre,useproteus,candlebugely；清 agent-mining-amnt,syndicate-rhc；lastSeen→2026-11-10 18:47；lastChecked→2026-11-10 18:52 CST",
+      "lastRound": 1586,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-10 17:57",
-        "alpha-1-backup": "2026-11-10 17:49",
-        "smart-accounts-tracker": "2026-11-10 17:33",
-        "alpha-1": "2026-11-10 18:00"
+        "alpha-3-new-accounts": "2026-11-10 18:46",
+        "alpha-1-backup": "2026-11-10 18:34",
+        "smart-accounts-tracker": "2026-11-10 18:14",
+        "alpha-1": "2026-11-10 18:47"
       },
       "alpha3OlderGap": {
         "attempted": false,
@@ -28733,9 +28738,332 @@
     "round1585Added": [
       "agent-mining-amnt",
       "syndicate-rhc"
+    ],
+    "round1586Added": [
+      "pixviks",
+      "mopesnft",
+      "glimsxyz",
+      "haultfun",
+      "spectre",
+      "useproteus",
+      "candlebugely"
     ]
   },
   "candidates": [
+    {
+      "id": "candlebugely",
+      "name": "Candlebug",
+      "handle": "@candlebugely",
+      "twitter": "@candlebugely",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/CandlebugEly"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 5,
+        "actionable": 3,
+        "overall": 4.75
+      },
+      "highlights": [
+        "$CBUG 与 Elysium 主题绑定，社区叙事完整"
+      ],
+      "drawbacks": [
+        "0 粉、无 mint/合约线索",
+        "仅为叙事层，尚未见发行动作"
+      ],
+      "whatsNew": "Elysium 生态主题的早期 meme 号",
+      "summary": "以 Elysium 世界观为背景的 meme 币早期号，符号 $CBUG，叙事清晰但发行细节缺失。",
+      "blurb": "Elysium 生态 meme 早期号",
+      "round": 1586,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-10 18:52 CST",
+      "addedAt": "2026-11-10 18:52 CST",
+      "lastChecked": "2026-11-10 18:52 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "useproteus",
+      "name": "Proteus",
+      "handle": "@useproteus",
+      "twitter": "@useproteus",
+      "chain": "Elysium",
+      "category": "Elysium",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/UseProteus"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 6.5
+      },
+      "highlights": [
+        "Elysium + Uniswap v4 hook 发射玩法",
+        "anti-snipe/swap cut/burn/exit clock/wallet cap/sandwich guard 六类 hook 模块"
+      ],
+      "drawbacks": [
+        "0 粉、无文档与合约地址",
+        "尚未给出具体上线时间"
+      ],
+      "whatsNew": "在 Elysium 上以 v4 hook 组合方式做可变形代币发射",
+      "summary": "面向 Elysium 的 Uniswap v4 hook 发射项目，提出多组防狙击、税费、销毁、退出时钟等模块化玩法，机制具体、可追踪。",
+      "blurb": "Elysium 上的 v4 hook 发射玩法项目",
+      "round": 1586,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-10 18:52 CST",
+      "addedAt": "2026-11-10 18:52 CST",
+      "lastChecked": "2026-11-10 18:52 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "spectre",
+      "name": "Spectre",
+      "handle": "@spectreonrh",
+      "twitter": "@spectreonrh",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/spectreonrh"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.8
+      },
+      "highlights": [
+        "Robinhood Chain 新叙事上的 ZK 隐私层",
+        "shielded transactions + verifiable settlement 方向清晰"
+      ],
+      "drawbacks": [
+        "0 粉、无官网/文档链接",
+        "无 mint/发射时间点，暂不可操作"
+      ],
+      "whatsNew": "首个在 Robinhood Chain 上自称 ZK 隐私结算协议的早期号",
+      "summary": "极早期 ZK 隐私协议账号，定位为钱包/资产在 Robinhood Chain 上的屏蔽交易与可验证结算，产品方向明确但落地与发射信息缺失。",
+      "blurb": "Robinhood Chain 上的 ZK 隐私结算早期项目",
+      "round": 1586,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-10 18:52 CST",
+      "addedAt": "2026-11-10 18:52 CST",
+      "lastChecked": "2026-11-10 18:52 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "haultfun",
+      "name": "HaultFun",
+      "handle": "@haultfun",
+      "twitter": "@haultfun",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/HaultFun"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 5,
+        "overall": 5.9
+      },
+      "highlights": [
+        "Vault access",
+        "policy rounds",
+        "burns/claims",
+        "governance signals"
+      ],
+      "drawbacks": [
+        "0粉极早期",
+        "无链信息",
+        "未核验"
+      ],
+      "whatsNew": "新出现的vault+policy轮次+销毁认领机制文案，疑似早期玩法预热。",
+      "summary": "独立项目号，卡面给出金库/轮次/销毁/认领的机制线索，值得先观察其发射。",
+      "blurb": "早期vault机制预热号，低粉待验证。",
+      "round": 1586,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-10 18:52 CST",
+      "addedAt": "2026-11-10 18:52 CST",
+      "lastChecked": "2026-11-10 18:52 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "glimsxyz",
+      "name": "GLIMS",
+      "handle": "@glimsxyz",
+      "twitter": "@glimsxyz",
+      "chain": "Elysium",
+      "category": "Elysium",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Glimsxyz"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.4
+      },
+      "highlights": [
+        "Elysium明确部署，3000枚限量",
+        "免费mint",
+        "24x24由合约生成的明/暗双态图像"
+      ],
+      "drawbacks": [
+        "0关注，零社交验证",
+        "仅有文案，无链接与时间细节"
+      ],
+      "whatsNew": "Elysium上一篇3000枚一比特免费mint NFT的部署公告",
+      "summary": "Elysium上的免费mint NFT项目，合约生成24x24图像，限量3000，属极早期可参与标的，但社交基础为零需谨慎。",
+      "blurb": "Elysium 3000枚合约生成免费mint",
+      "round": 1586,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-10 18:52 CST",
+      "addedAt": "2026-11-10 18:52 CST",
+      "lastChecked": "2026-11-10 18:52 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "mopesnft",
+      "name": "Mopes",
+      "handle": "@mopesnft",
+      "twitter": "@mopesnft",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Mopesnft"
+      },
+      "scores": {
+        "early": 6,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 6,
+        "overall": 5.4
+      },
+      "highlights": [
+        "全免费 mint",
+        "1111 供应量",
+        "绑定 $MOPES 代币",
+        "部署至 Robinhood"
+      ],
+      "drawbacks": [
+        "上线时间仅“coming soon”",
+        "无合约与白名单细节"
+      ],
+      "whatsNew": "宣布 1111 枚 Mopes 免费 mint 落地 Robinhood",
+      "summary": "Mopes 计划在 Robinhood 免费发行 1111 枚 NFT 并挂 $MOPES，属于可跟踪的早期 mint 机会。",
+      "blurb": "1111 枚 Robinhood 免费 mint，挂 $MOPES。",
+      "round": 1586,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1029,
+      "xFollowers": 1029,
+      "firstSeen": "2026-11-10 18:52 CST",
+      "addedAt": "2026-11-10 18:52 CST",
+      "lastChecked": "2026-11-10 18:52 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "pixviks",
+      "name": "PIXVIKS",
+      "handle": "@pixviks",
+      "twitter": "@pixviks",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/pixviks"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 6,
+        "overall": 5.7
+      },
+      "highlights": [
+        "FREE MINT 白名单",
+        "2,222 供应量明确",
+        "像素转 ASCII 动效玩法"
+      ],
+      "drawbacks": [
+        "粉丝极少",
+        "未见链与合约信息"
+      ],
+      "whatsNew": "白名单免费 mint 公告",
+      "summary": "早期 NFT 项目 PIXVIKS，2,222 枚像素/ASCII 动态维京人，白名单免费 mint，适合观察 mint 节奏。",
+      "blurb": "2,222 枚像素维京人，白名单免费 mint。",
+      "round": 1586,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 23,
+      "xFollowers": 23,
+      "firstSeen": "2026-11-10 18:52 CST",
+      "addedAt": "2026-11-10 18:52 CST",
+      "lastChecked": "2026-11-10 18:52 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "elycash",
       "name": "Elycash",
@@ -254301,7 +254629,7 @@
       "firstSeen": "2026-11-10 18:47 CST",
       "addedAt": "2026-11-10 18:47 CST",
       "lastChecked": "2026-11-10 18:47 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "le2h": false,
       "within2h": false,
       "schedule": {
@@ -254367,7 +254695,7 @@
       "firstSeen": "2026-11-10 18:47 CST",
       "addedAt": "2026-11-10 18:47 CST",
       "lastChecked": "2026-11-10 18:47 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "le2h": false,
       "within2h": false,
       "schedule": {
@@ -254380,18 +254708,26 @@
       }
     }
   ],
-  "newThisRound": [],
-  "alertMessage": "【R1584】主扫无合格新收录（R1583 Discord 已补 spreadly、GenCity、Griffin、Catbalio、Elycash，本轮已清 newThisRound）。库内升级：kPad kPunks FCFS 已开（Elysium CA 0xfd9a4c774887a5af38c93e7df01063b827be4de0，36/10000，FCFS 至 19:00、Public 19:00 起）；FEG 链上 openingSold=23，≤2h 至约19:00；Atlas totalSupply=9，公开18:30（0.01 HYPE）；DogeKing 19:00 开售；JDM 871/5000，早鸟至约19:20。本轮关窗：Agentix 约17:46、Volta 约18:05。未进窗：99901.fun 21:00、Etherea GTD 21:00。面板 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "pixviks",
+    "mopesnft",
+    "glimsxyz",
+    "haultfun",
+    "spectre",
+    "useproteus",
+    "candlebugely"
+  ],
+  "alertMessage": "DC补漏R1586新收7项：PIXVIKS(台子/Meme)、Mopes(台子/Meme)、GLIMS(Elysium)、HaultFun(台子/Meme)、Spectre(打新)、Proteus(Elysium)、Candlebug(台子/Meme)；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "agentix-agx"
   ],
-  "updatedAt": "2026-11-10 18:16 CST",
-  "updated": "2026-11-10 18:16 CST",
+  "updatedAt": "2026-11-10 18:52 CST",
+  "updated": "2026-11-10 18:52 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-10 18:16 CST",
+  "lastScout": "2026-11-10 18:52 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -254433,7 +254769,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3719,
+  "candidateCount": 3728,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -257580,5 +257916,14 @@
     "catbalio",
     "elycash"
   ],
-  "round1584Added": []
+  "round1584Added": [],
+  "round1586Added": [
+    "pixviks",
+    "mopesnft",
+    "glimsxyz",
+    "haultfun",
+    "spectre",
+    "useproteus",
+    "candlebugely"
+  ]
 }
