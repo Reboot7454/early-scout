@@ -1,0 +1,124 @@
+{
+  "round": 1571,
+  "roundLabel": "R1571",
+  "checkedAt": "2026-11-10 13:34 CST",
+  "completedAt": "2026-11-10 13:34 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "新收 styx-elysium；aether-vanguard 新开 $AVAN 领取≤2h；仍有未关窗口",
+  "alertMessage": "R1571 雷达：新收 STYX（CA 0xf11c09fab6c53255aeeaaab69c6dcc393f0e34b9，至约15:24 CST，算法稳定币风险自比UST）；仍开 sunfire（CA 0xc9e1e87d8bb3632589e324db6f37001427e07134，至约14:27）、elixirpad（CA 0x25c457e8005d3ebdd23abde9a3b0cd56052475d5，至约14:22）、elysianshield（CA 0x00e43aa03e17272586392335e84e2e49ec08a60c，至约14:00）、qurve（至约13:39，即将关闭）、Aether $AVAN 领取（14:00-16:00）；onionswap 已于约13:10关窗；面板 https://reboot7454.github.io/early-scout/。",
+  "discordPeekDeferred": false,
+  "discordPeekNote": "本轮跳过 Peek；R1570 Discord alpha 补漏 13:22 CST 刚占号（新收 useedgedotfun/tethysliq/aether-vanguard 并已清本轮新旗）",
+  "docsSynced": true,
+  "docsSyncedFlag": true,
+  "pushSha": "TBD",
+  "tip": "TBD",
+  "remoteVerified": false,
+  "xReads": 16,
+  "remainingBefore": 809,
+  "remaining": 793,
+  "mode": "ample",
+  "softCap": 28,
+  "eveningReserve": 80,
+  "lastFullAfterReset": "R1555",
+  "ufCursor": 716,
+  "ufCursorBefore": 700,
+  "ufCursorAfter": 716,
+  "xQuota": {
+    "xReads": 16,
+    "remainingBefore": 809,
+    "remaining": 793,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 700,
+    "ufCursor": 716,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-10 13:34 CST",
+    "lastFullAfterReset": "R1555",
+    "note": "R1571 雷达主扫（ample paced softCap=28；lastFullAfterReset=R1555，非 post-reset-full）。因 13:22 CST Discord alpha 补漏已占 R1570，本轮升为 R1571。"
+  },
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking on；admit 1（styx-elysium）/ skip 2（lucky-moments 无独立项目官推、squeekswap 个人号无项目官推）",
+  "newThisRound": [
+    {
+      "id": "styx-elysium",
+      "handle": "@StyxOnElysium",
+      "what": "Elysium 隐私算法稳定币 sUSD / 治理代币 $STYX，13:24 CST 官宣 live",
+      "ca": "0xf11c09fab6c53255aeeaaab69c6dcc393f0e34b9",
+      "time": "13:24 CST live，窗至约15:24 CST",
+      "site": "https://styxelysium.com/"
+    }
+  ],
+  "newIds": [
+    "styx-elysium"
+  ],
+  "newCount": 1,
+  "statusUpgrades": [
+    "aether-vanguard：$AVAN 领取 14:00 CST 开始，窗至约16:00，无代币 CA",
+    "tethysliq：12:59 CST 首帖，仍无 CA，保持 watching",
+    "shift-forever：13:18 CST 官宣离开 Elysium，迁往 Robinhood Chain 上的 Vibe"
+  ],
+  "le2hStill": [
+    {
+      "id": "styx-elysium",
+      "until": "约15:24 CST",
+      "note": "13:24 CST 官宣 live，CA 0xf11c09fab6c53255aeeaaab69c6dcc393f0e34b9"
+    },
+    {
+      "id": "sunfire",
+      "until": "约14:27 CST",
+      "note": "12:27 CST 经 Montra 上线，CA 0xc9e1e87d8bb3632589e324db6f37001427e07134"
+    },
+    {
+      "id": "elixirpad",
+      "until": "约14:22 CST",
+      "note": "12:22 CST 质押上线，CA 0x25c457e8005d3ebdd23abde9a3b0cd56052475d5"
+    },
+    {
+      "id": "aether-vanguard",
+      "until": "约16:00 CST",
+      "note": "$AVAN 领取 14:00 CST 开始，官网 aether-vanguard.netlify.app，无代币 CA"
+    },
+    {
+      "id": "elysianshield",
+      "until": "约14:00 CST",
+      "note": "CA 未变 0x00e43aa03e17272586392335e84e2e49ec08a60c"
+    },
+    {
+      "id": "qurve",
+      "until": "约13:39 CST",
+      "note": "11:39 CST 官宣主网 live，本轮未见新官帖"
+    }
+  ],
+  "le2hClosed": [
+    "onionswap"
+  ],
+  "mentionsLast": "BTC privacy/@ShieldedNaka @banknotes_btc",
+  "nfSkipAdded": [],
+  "clearedPrevNTR": [
+    "useedgedotfun",
+    "tethysliq",
+    "aether-vanguard"
+  ],
+  "renumberedFrom": "R1570",
+  "tenLanes": "UF700→716 + must/≤2h 合并 from: + KW 九栏+BTC/Starknet 分车道 + mentions BTC privacy×1；九栏+BTC/Starknet/GIWA 均跑。Starknet/X Layer 本窗 0 命中；GIWA 多为 Ammora 候补噪音。",
+  "watchBugFixes": [
+    "useedgedotfun, tethysliq, sunfire, elixirpad, elysianshield, styx-elysium → elysiumWatch + userFollowWatch",
+    "aether-vanguard → userFollowWatch + freeMintWatch",
+    "agent-feg → bnAgentWatch + userFollowWatch"
+  ],
+  "skips": [
+    {
+      "id": "lucky-moments",
+      "handle": "@90sAPE_",
+      "reason": "无独立项目官推，仅个人收藏号发帖"
+    },
+    {
+      "id": "squeekswap",
+      "handle": "@0xAirr",
+      "reason": "个人号，无独立项目官推；仅非官方 squeek_radar 转发"
+    }
+  ],
+  "summary": "因 R1570 已被 13:22 CST Discord alpha 补漏占用，本轮升为 R1571。新收 styx-elysium（13:24 CST live，窗至约15:24）。Aether Vanguard 新增 $AVAN 14:00 CST 领取窗。仍开：STYX、sunfire、elixirpad、elysianshield、qurve、Aether $AVAN 领取。onionswap 窗口已关。保留 R1570 三张并清本轮新旗。notify=true。",
+  "panel": "https://reboot7454.github.io/early-scout/"
+}

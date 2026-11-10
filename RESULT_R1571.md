@@ -1,0 +1,24 @@
+# R1571 early-scout RESULT（2026-11-10 13:34 CST）
+
+- round: R1571（原拟接 R1570，因 13:22 CST Discord alpha 补漏已占 R1570，本轮升号）
+- pushSha/tip: TBD
+- mode: ample softCap=28（lastFullAfterReset=R1555，非 post-reset-full）
+- xReads: 16 | remainingBefore: 809 → remaining: 793 | ufCursor: 700→716
+- lastFullAfterReset: R1555
+- newThisRound: styx-elysium
+- 保留 R1570 补漏入库：useedgedotfun / tethysliq / aether-vanguard（已清「本轮新」旗）
+- 新收：styx-elysium（@StyxOnElysium，STYX / sUSD，13:24 CST 官宣 live on Enter_Elysium，Elysium 隐私分数算法稳定币，CA 0xf11c09fab6c53255aeeaaab69c6dcc393f0e34b9，官网 https://styxelysium.com/，窗至约15:24 CST；官推 11-09 开号，粉4；官网自比 UST/Terra 风险）
+- 状态升级：aether-vanguard 12:35 CST 官宣持有人  领取今日 14:00 CST（06:00 UTC）开始，每 NFT 按档 1,000–50,000、无锁仓、仅付 gas，总量 15M，官网 https://aether-vanguard.netlify.app，仍无代币 CA，窗至约16:00；tethysliq 12:59 CST 发出首帖（仍无 CA，保持 watching）；Shift Forever 13:18 CST 官宣离开 Elysium、迁往 Robinhood Chain 上的 Vibe
+- ≤2h 仍开：styx-elysium 至约15:24 CST（13:24 CST 官宣 live，CA 0xf11c09fab6c53255aeeaaab69c6dcc393f0e34b9）；sunfire 至约14:27 CST（12:27 CST 经 Montra 上线，CA 0xc9e1e87d8bb3632589e324db6f37001427e07134）；elixirpad 至约14:22 CST（12:22 CST 质押上线，CA 0x25c457e8005d3ebdd23abde9a3b0cd56052475d5）；aether-vanguard  领取 14:00 起至约16:00 CST（无代币 CA）；elysianshield 至约14:00 CST（CA 未变 0x00e43aa03e17272586392335e84e2e49ec08a60c）；qurve 至约13:39 CST（11:39 CST 官宣主网 live，本轮未见新官帖）
+- 本轮关窗：onionswap（约13:10 CST，CA 仍为 0xeEdB187d8FA7B751544783F56a0aA6E46A04d147；本轮未再读官推，按时间关窗）
+- 尚未≤2h：agent-feg 仍为今日 17:00 CST 开铸（13:16–13:18 CST 再确认时间与 CA 0x8743fa8b279D1b85506c5cd223Bd40285d32a2dA 未变）；dogeking-agent 仍为今晚 19:00 CST 开售
+- dsFallback: False（deepseek-flash thinking on；admit 1 / skip 2：lucky-moments、squeekswap）
+- discordPeekDeferred: False（本轮跳过 Peek；R1570 Discord alpha 补漏 13:22 CST 刚占号）
+- docsSynced: True
+- notify: True
+- alert: R1571 雷达：新收 STYX（CA 0xf11c09fab6c53255aeeaaab69c6dcc393f0e34b9，至约15:24 CST，算法稳定币风险自比UST）；仍开 sunfire（CA 0xc9e1e87d8bb3632589e324db6f37001427e07134，至约14:27）、elixirpad（CA 0x25c457e8005d3ebdd23abde9a3b0cd56052475d5，至约14:22）、elysianshield（CA 0x00e43aa03e17272586392335e84e2e49ec08a60c，至约14:00）、qurve（至约13:39，即将关闭）、Aether $AVAN 领取（14:00-16:00）；onionswap 已于约13:10关窗；面板 https://reboot7454.github.io/early-scout/。
+- HashDoge/Genius/Corla/Flap: STOPPED
+- tenLanes: UF700→716 + must/≤2h 合并 from: + KW 九栏+BTC/Starknet 分车道 + mentions BTC privacy×1；九栏+BTC/Starknet/GIWA 均跑
+- UF shard 700–715：16 槽全部已在库；useapppayfun/CyclopesElysium/elyword_xyz/AgentFramlin404 在历史 NF_skip，本轮仅随合并 from: 软刷、未单号连刷；仅 book0fhood 有 00:49 CST 对 Enter_Elysium 抱怨帖，其余静默。沉默号本轮不记 NF。
+- skips/noise: lucky-moments（@90sAPE_ 个人收藏号自报 LUMO 免费卡，无独立项目官推）；squeekswap（仅非官方 @squeek_radar 转发，@0xAirr 为个人号，无项目官推）；alliensmc 已在 R1569 skip；库内不重收（agentlifebnb、agentcardshq、pepe-agent、hoodfathergame、kurogane-fun、obsidry、hypesium、launchonhover、rebate-launch、qhooks、elytypes、globemkts、tzero-launchpad、gekko-launchpad、utexo、Ammora 候补噪音等）；非官方 @squeek_radar 不收；GIWA 本窗仍为 Ammora 候补噪音；Starknet/X Layer 本窗无命中；BTC mentions 仅 OrdDropz 卖 Trollbox（基建，不单列）
+- watch-bug 修复：将 R1570 新号及本轮必盯漏项补进 Watch/UF：useedgedotfun、tethysliq、sunfire、elixirpad、elysianshield、styx-elysium → elysiumWatch+userFollowWatch；aether-vanguard → userFollowWatch+freeMintWatch；agent-feg → bnAgentWatch+userFollowWatch
