@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-11 06:15 CST",
+    "updated": "2026-11-11 06:48 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-11 06:15 CST",
+    "lastScout": "2026-11-11 06:48 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -721,7 +721,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1620,
+    "round": 1621,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2162,13 +2162,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "hearsay-elysium",
-      "sunfall-world",
-      "block21-elysium",
-      "liquidv",
-      "upsidex",
-      "solpoolparty",
-      "roboagent"
+      "graveagent"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4680,17 +4674,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-11 06:07",
-      "lastChecked": "2026-11-11 06:15 CST",
-      "newestCardTime": "2026-11-11 06:07",
-      "cardsAfterCutoff": 41,
-      "note": "R1619：Discord alpha 补收 elysiumrime,elfless-fun,elysium-errand,trycurb,deathrug；RIME/elfless/EL ERRAND/Hookz/elSEND/MCAPY 不在 elysium.kinetiq.xyz/ecosystem，不得进 Elysium 栏；TryCurb 与 Death Rug 由打新改归台子/Meme（跨链发射台 / Solana 狙击工具）；TryCurb 与已有 @CurbFun（id=curb）及 @curbmarketfi 重名但链与玩法不同，独立收录；lastSeen→2026-11-11 06:07；lastChecked→2026-11-11 06:15 CST",
-      "lastRound": 1619,
+      "lastSeen": "2026-11-11 06:42",
+      "lastChecked": "2026-11-11 06:48 CST",
+      "newestCardTime": "2026-11-11 06:42",
+      "cardsAfterCutoff": 31,
+      "note": "R1621：Discord alpha 补收 graveagent；GRAVE/@GraveAgent_ 不在 elysium.kinetiq.xyz/ecosystem，不得进 Elysium 栏；与已有 @graveonchain（id=graveonchain，R880 Robinhood Chain 概念号）重名但链与产品不同，独立收录；Vargos/Chort/TokenGuardian 等经 X 核验后未收（即时兑换工具 / 非极早期图表 Infra / 疑似刷粉空壳）；lastSeen→2026-11-11 06:42；lastChecked→2026-11-11 06:48 CST",
+      "lastRound": 1621,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-11 06:07",
-        "alpha-1-backup": "2026-11-11 05:34",
-        "smart-accounts-tracker": "2026-11-11 06:01",
-        "alpha-1": "2026-11-11 05:54"
+        "alpha-3-new-accounts": "2026-11-11 06:42",
+        "alpha-1-backup": "2026-11-11 06:34",
+        "smart-accounts-tracker": "2026-11-11 06:30",
+        "alpha-1": "2026-11-11 06:32"
       },
       "alpha3OlderGap": {
         "attempted": false,
@@ -29263,9 +29257,61 @@
       "upsidex",
       "solpoolparty",
       "roboagent"
+    ],
+    "round1621Added": [
+      "graveagent"
     ]
   },
   "candidates": [
+    {
+      "id": "graveagent",
+      "name": "Grave",
+      "handle": "@GraveAgent_",
+      "twitter": "@GraveAgent_",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/GraveAgent_",
+        "web": "https://grave.twigpine.dev/",
+        "site": "https://grave.twigpine.dev/",
+        "trade": "https://montramarkets.xyz/token/0xd6ec0a2418d9bc4194362aec35105e5c9d286b6e"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 7,
+        "overall": 6.4
+      },
+      "highlights": [
+        "站点 grave.twigpine.dev 可打开，Autonomous Intelligence Onchain",
+        "$GRVE 已在 @Enter_Elysium 上线，交易在 @MontraXYZ，CA 0xd6ec0a2418d9bc4194362aec35105e5c9d286b6e",
+        "2026-11-11 06:30 CST 官方推文宣布上线"
+      ],
+      "drawbacks": [
+        "仅 15 粉、13 推，极易被噪音淹没",
+        "官方生态页无 GRAVE 条目，Elysium 归属未核验",
+        "站点为 Twigpine Playground 发布的 SPA"
+      ],
+      "whatsNew": "$GRVE 于 2026-11-11 06:30 CST 宣布在 Elysium 上线并给出 CA 与 Montra 交易页",
+      "summary": "Twigpine Playground 出品的链上自主智能体叙事代币，刚在 Elysium 发射并给出合约地址，属可跟踪的极早期发射；官方生态页未列，故归台子/Meme 而非 Elysium。",
+      "blurb": "GRAVE：链上自主智能体，$GRVE 刚在 Elysium 发射",
+      "round": 1621,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 15,
+      "xFollowers": 15,
+      "firstSeen": "2026-11-11 06:48 CST",
+      "addedAt": "2026-11-11 06:48 CST",
+      "lastChecked": "2026-11-11 06:48 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "deathrug",
       "name": "Death Rug",
@@ -262823,7 +262869,7 @@
       "addedAt": "2026-11-11 06:35 CST",
       "lastChecked": "2026-11-11 06:35 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "earlyScore": 8,
       "riskScore": 3,
@@ -262878,7 +262924,7 @@
       "addedAt": "2026-11-11 06:35 CST",
       "lastChecked": "2026-11-11 06:35 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "earlyScore": 8,
       "riskScore": 2,
@@ -262933,7 +262979,7 @@
       "addedAt": "2026-11-11 06:35 CST",
       "lastChecked": "2026-11-11 06:35 CST",
       "zoneHint": "挖矿",
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "earlyScore": 7,
       "riskScore": 4,
@@ -262988,7 +263034,7 @@
       "addedAt": "2026-11-11 06:35 CST",
       "lastChecked": "2026-11-11 06:35 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "earlyScore": 8,
       "riskScore": 2
@@ -263041,7 +263087,7 @@
       "addedAt": "2026-11-11 06:35 CST",
       "lastChecked": "2026-11-11 06:35 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "earlyScore": 8,
       "riskScore": 1
@@ -263094,7 +263140,7 @@
       "addedAt": "2026-11-11 06:35 CST",
       "lastChecked": "2026-11-11 06:35 CST",
       "zoneHint": "打新",
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "earlyScore": 5,
       "riskScore": 3
@@ -263147,33 +263193,29 @@
       "addedAt": "2026-11-11 06:35 CST",
       "lastChecked": "2026-11-11 06:35 CST",
       "zoneHint": "挖矿",
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "earlyScore": 8,
       "riskScore": 1
     }
   ],
   "newThisRound": [
-    "elysiumrime",
-    "elfless-fun",
-    "elysium-errand",
-    "trycurb",
-    "deathrug"
+    "graveagent"
   ],
-  "alertMessage": "DC补漏 R1619 新收：台子/Meme—RIME（Elysium 策略构建器，站点可开、有 CA）、elfless（Elysium 代币扫描器，$ELF 已发射有 CA）、EL ERRAND（Elysium AI agent 任务市场，$ERROR 已发射，极早期）、Curb（Solana→Robinhood Chain 跨链发射概念，极早期，重名风险高）、Death Rug（Solana rugger 追踪狙击 Bot，官网可用）。面板：https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1621新收台子/Meme：Grave（@GraveAgent_）GRAVE链上自主智能体，$GRVE刚在Elysium发射；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "meron-elysium",
     "enter-replicant",
     "pocketperps",
     "fluid-genesis"
   ],
-  "updatedAt": "2026-11-11 06:15 CST",
-  "updated": "2026-11-11 06:15 CST",
+  "updatedAt": "2026-11-11 06:48 CST",
+  "updated": "2026-11-11 06:48 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-11 06:15 CST",
+  "lastScout": "2026-11-11 06:48 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -263215,7 +263257,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3881,
+  "candidateCount": 3889,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -266533,5 +266575,8 @@
     "elysium-errand",
     "trycurb",
     "deathrug"
+  ],
+  "round1621Added": [
+    "graveagent"
   ]
 }
