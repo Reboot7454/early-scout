@@ -1,0 +1,33 @@
+# R1616 early-scout RESULT（2026-11-11 05:15 CST）
+
+- round: 1616
+- mode: pace
+- softCap: 28
+- completedAt: 2026-11-11 05:15 CST
+- notify: True
+- notifyReason: 真新收录 4 条
+- alertMessage: 雷达 R1616：新收 4 张——Meron（Elysium 发币台，手续费可定向持有人/回购/Hyperliquid 永续，05:07 CST 给 $MERON CA，RPC 已核验，仅 1 粉）、REPLICANT（Elysium AI agent 发币聊天室，04:57 CST $REPLICANT CA 已核验，0 粉极高风险）、Pocket Perps（Hyperliquid 永续 app，04:41 CST 经 Ascend 上线 $POCKET，CA 已核验，创始人 1.5 万粉）、Fluid Genesis（以太坊 PFP，422 个免费 WL，mint 未定日，11 粉）。更新：Enter Ghosts 04:43 CST 发 $GHST CA（已核验）；Orcle 05:11 CST 称 $ORCLE 已 live（未给 CA）；HOPKIN AGENT $BUNNY 已在 RH 主网开交易给 CA；RELAX 弃旧 $RELAX 将在自家台发新币（旧币无迁移）。≤2h：Twopad 05:06 CST 官网 2pad.fun 上线可建币，$Twopad 约 05:36 CST 发（仍无链/CA）；RRF Village 05:05 CST 宣布 Genesis Land mint 已结束；Hood Syndicate 04:40 后官推无新消息。面板：https://reboot7454.github.io/early-scout/
+- newIds: ['meron-elysium', 'enter-replicant', 'pocketperps', 'fluid-genesis']
+- lanesOfNew: {'meron-elysium': '台子/Meme', 'enter-replicant': '台子/Meme', 'pocketperps': '台子/Meme', 'fluid-genesis': '打新'}
+- roundNote: pull 后 HEAD 为 R1615 DC 插轮 RESULT tip（a8596cd，04:54 CST），本轮取 R1616；已清 R1615 newThisRound（lodara/usehawker/kitsune/pithos）及 R1614 残留 flag 本轮新（use-azimuth/pear-elysium/oasis-liquidity），R1615 四号补进 UF
+- clearedPrevNewThisRound: ['pithos', 'kitsune', 'usehawker', 'lodara', 'use-azimuth', 'pear-elysium', 'oasis-liquidity']
+- updated: ['enter-ghosts', 'orcle', 'hopkinagent', 'relax-launchpad', 'usetwopad', 'rrfvillage']
+- le2hVerified: {'usetwopad': 'since 04:40 合并查询：05:06 CST 官推官网 2pad.fun 上线可建币，$Twopad 约 05:36 CST 发；仍无链/CA、未售罄概念——已更新卡（status=live）', 'hood-syndicate': 'since 04:40 官号无新帖（仅第三方 05:03 CST 提醒去 mint），05:00 CST 是否开铸/售罄/CA 均无官方消息——卡仅刷 lastChecked', 'rrfvillage': 'since 04:40：05:05 CST 官推 Genesis Land mint is over（早于约 05:48 CST 截止）——卡改 ended、移出 ≤2h'}
+- skipped: ['Coil @PrivacyonCoil（自称 Elysium 隐私协议，05:00 CST 称 2h 后约 07:00 CST 在 Ascend TGE $COIL，但另帖写 solana: 地址、链信息矛盾、0 粉无 CA，DS 拒）', 'Hoodicorns hood terminal（RH 社区 reply-guy 号口头免费 mint 周四 10am PT，无合约/官网，DS 拒）', 'Ponymarket @ponymarketnet（RH Chain AI 交易 bot 产品，无币/无窗）', 'SAI @sai_superai（付费 #ad 推广，11-20 fair launch，无链/CA，未进 DS）', '$JAGENT Mint Pass（库内 jager 已有同 CA）', 'meetmotes/Hypesium/onlystreets/squeekchain/FOOME/supernovers/tmachinro(polyrob) 等（已在库）', 'FORK github 发币台（@ergun818 个人号转发）、Token Hatch（Solana 一键发币工具）、$LEONIDA/$BULLHARIS（KOL 喊单单币）']
+- dedupNote: UF 片 1117–1132 与 ≤2h 号无重叠；Twopad/Hood Syndicate/RRF 只在合并查询看 since 04:40；候选资料批 10 号（6 候选 + Orcle/RELAX 补全文 + SAI/Ponymarket 排查）一次读完；RPC 核验 4 个 Elysium CA
+- xReads: 6
+- remainingBefore: 524
+- remaining: 518
+- ufCursor: 1117→1133
+- tenLanes: UF1117→1133 合并 from:×1 + ≤2h 变化检查合并×1（UseTwopad/RRFVillage/hoodsyndicatee/SyndicateRHC/tmachinroBot/Enter_Elysium/squeekchain + twopad/"hood syndicate" 词，since 04:40）+ KW 两车道合并×2（since 04:40）+ 生态 mentions 合并×1（Elysium/squeek/X Layer/GIWA/DogeOS/TapeOut/Starknet/RH/Montra/Ascend/Ordinals）+ 候选资料批×1；九栏+BTC/Starknet 均跑
+- xRateLimit429: 无
+- discordPeekDeferred: False
+- discordPeekNote: 最近 DC 轮为 R1615（04:54 CST，lastSeen 04:48），距今 <1h，本轮不 Peek（父任务所记 04:10 为 R1613，已被 R1615 覆盖）
+- dsFallback: False
+- dsNote: DS 打分 6 条（拆 3+3），admit 4/拒 2（Coil、Hoodicorns terminal）+ alert 文案（执行端改写前缀与格式）；risk 取 (100-x)/10
+- softDebt: Canton/Glaze/TokenWorks/Elysium lastChecked 刷到 2026-11-11 05:15 CST
+- elysiumNote: $MERON（2548B 非代理合约）/$REPLICANT/$GHST（45B 最小代理）/$POCKET 均 Elysium RPC 核验有代码、总量≈1B；均不在官方生态页，归台子/Meme 不进 Elysium 栏；$BUNNY（RH）公共 RPC 不可用未核验
+- watchAdds: 9 号进 UF：R1615 DC 四号（@LodaraonElysium/@usehawker/@hyper_kitsune/@PithosElysium）+ 本轮 @MeronElysium/@Enter_Replicant/@pocketperps/@FluidGenesis + @Orcledotfun（库内 orcle 卡漏挂 UF）
+- docsSynced: True
+- panel: https://reboot7454.github.io/early-scout/
+- pushSha: TBD
