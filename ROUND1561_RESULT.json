@@ -1,0 +1,195 @@
+{
+  "round": 1561,
+  "roundLabel": "R1561",
+  "checkedAt": "2026-11-10 10:16 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new admits + ≤2h",
+  "alertMessage": "R1561 新收 3 张均刚官宣 LIVE（≤2h）：ELYCORE（@0xELYCORE，CA 0x09a1bda58ecf5453344e48b0c42904f9c168c040）、Eden（@edenlandlol，1粉，CA 0x484ba063e5dfe9e5e86dc87558b9f33be9a519e5）、Elysium Pairs（@elysiumpairs，发射台，CA HJqfjaE4GopFCyWJj8igJJehjQcPjTHsM34aQXn4pump）。面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": false,
+  "discordPeekNote": "skipped Peek this round; R1560 Discord alpha补漏 09:59 CST already used the slot (and R1559 09:32); discordPeekDeferred=false",
+  "docsSynced": true,
+  "pushSha": "",
+  "tip": "",
+  "xReads": 20,
+  "remainingBefore": 917,
+  "remaining": 897,
+  "mode": "ample",
+  "softCap": 28,
+  "eveningReserve": 80,
+  "lastFullAfterReset": "R1555",
+  "ufCursor": {
+    "before": 620,
+    "after": 636
+  },
+  "ufCursorBefore": 620,
+  "ufCursorAfter": 636,
+  "xQuota": {
+    "xReads": 20,
+    "remainingBefore": 917,
+    "remaining": 897,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 620,
+    "ufCursor": 636,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-10 10:16 CST",
+    "lastFullAfterReset": "R1555",
+    "note": "ample paced softCap=28; lastFullAfterReset=R1555; 本拟 R1560 因 09:59 Discord 补漏占号升 R1561; UF620→636 + must/≤2h×3 + UF from: + KW 九栏+BTC/Starknet + GO二次清洗0帖 + mentions GIWA_by_Upbit×1 + 新候选 profiles/官帖；新收3（均≤2h）"
+  },
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking on；首次输出被截断后以已定判断重跑写出 JSON（补全末尾 ink-miners le2h 条目闭合）；admit 3 / skip 9",
+  "newThisRound": [
+    "elycore",
+    "edenland",
+    "elysium-pairs"
+  ],
+  "newIds": [
+    "elycore",
+    "edenland",
+    "elysium-pairs"
+  ],
+  "newCount": 3,
+  "newAdmitsDetail": [
+    {
+      "id": "elycore",
+      "name": "ELYCORE",
+      "handle": "@0xELYCORE",
+      "category": "Elysium",
+      "chain": "Elysium",
+      "status": "live",
+      "followers": 100,
+      "scores": {
+        "early": 88,
+        "actionable": 78,
+        "novelty": 70,
+        "risk": 45,
+        "overall": 75
+      },
+      "le2h": true,
+      "ca": "0x09a1bda58ecf5453344e48b0c42904f9c168c040",
+      "website": "https://elycore.space/",
+      "signal": "https://x.com/0xELYCORE/status/2119973412588126381"
+    },
+    {
+      "id": "edenland",
+      "name": "Eden",
+      "handle": "@edenlandlol",
+      "category": "Elysium",
+      "chain": "Elysium",
+      "status": "live",
+      "followers": 1,
+      "scores": {
+        "early": 85,
+        "actionable": 70,
+        "novelty": 75,
+        "risk": 65,
+        "overall": 69
+      },
+      "le2h": true,
+      "ca": "0x484ba063e5dfe9e5e86dc87558b9f33be9a519e5",
+      "website": "https://edenland.lol/",
+      "signal": "https://x.com/edenlandlol/status/2119972658188042295"
+    },
+    {
+      "id": "elysium-pairs",
+      "name": "Elysium Pairs",
+      "handle": "@elysiumpairs",
+      "category": "台子/Meme",
+      "chain": "Elysium",
+      "status": "live",
+      "followers": 23,
+      "scores": {
+        "early": 90,
+        "actionable": 82,
+        "novelty": 78,
+        "risk": 55,
+        "overall": 77
+      },
+      "le2h": true,
+      "ca": "HJqfjaE4GopFCyWJj8igJJehjQcPjTHsM34aQXn4pump",
+      "website": "https://elysiumpairs.fun/",
+      "signal": "https://x.com/elysiumpairs/status/2119972940825702800"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "blown_xyz",
+      "handle": "@blown_xyz",
+      "reason": "无CA/无窗口，仅 bio 挂靠，自称缺测试者，先跳过。"
+    },
+    {
+      "id": "hoodicorns",
+      "handle": "@hoodicorns",
+      "reason": "个人 reply-guy 自办 mint，无站点/CA，周四 10am PT 才开，暂不收录。"
+    },
+    {
+      "id": "launchwithipo",
+      "handle": "@launchwithipo",
+      "reason": "与库内 @launchonipo IPO 卡命名概念雷同，疑仿盘。"
+    },
+    {
+      "id": "fused-officials",
+      "handle": "@FUSED_OFFICIALS",
+      "reason": "与库内 fused-pad @FusedPad 同名，_OFFICIALS 后缀像仿号；Elysium 支持仅称明天，当前无CA。"
+    },
+    {
+      "id": "zoinlinedotfun",
+      "handle": "@zoinlinedotfun",
+      "reason": "站点404，无官方近帖，仅第三方 countdown。"
+    },
+    {
+      "id": "thyrk",
+      "handle": "无官推",
+      "reason": "无官推，信息不足。"
+    },
+    {
+      "id": "golden-agents",
+      "handle": "无官推",
+      "reason": "无官推；CA 0x4233C62919CC03168a361C547117c1553C375bfC，暂不收录。"
+    },
+    {
+      "id": "adventure-agent-ai",
+      "handle": "无官推",
+      "reason": "无官推；CA 0x7635ef16370ef490298649a188c9205d1d7fda67，暂不收录。"
+    },
+    {
+      "id": "kumo",
+      "handle": "无官推",
+      "reason": "无官推；CA 0xdd3e0733e1ced1f61c0c31b1de7ee4e2c2bac27e，暂不收录。"
+    }
+  ],
+  "clearedPrevNTR": [
+    "cre8finance",
+    "pkmonhype",
+    "maxxing"
+  ],
+  "roundCollisionNote": "本拟 R1560，但 09:59 CST Discord alpha 补漏已占 R1560（cre8finance/pkmonhype/maxxing），本轮雷达升为 R1561",
+  "le2h": [
+    "ELYCORE @0xELYCORE：09:59 CST 官宣 LIVE 并给 CA 0x09a1bda58ecf5453344e48b0c42904f9c168c040，≤2h",
+    "Eden @edenlandlol：09:57 CST live on Elysium，持 $EDEN 领地块 NFT，1粉零背书，CA 0x484ba063e5dfe9e5e86dc87558b9f33be9a519e5，≤2h，谨慎",
+    "Elysium Pairs @elysiumpairs：09:14 live + 09:58 TG bot LIVE，Streamflow 已锁 7,525,355 $EP，CA HJqfjaE4GopFCyWJj8igJJehjQcPjTHsM34aQXn4pump，≤2h"
+  ],
+  "keyUpdates": [
+    "因 R1560 已被 09:59 Discord 补漏占用，本轮雷达升为 R1561",
+    "新收 elycore / edenland / elysium-pairs，三张均官宣 LIVE 且 ≤2h",
+    "ShortFloat ≤2h 窗口仍关（07:15→09:15；10:16 复核最新帖仍约 07:28）",
+    "ORVYN / InkMiners 仍 LIVE，开窗已>6h",
+    "UF620→636：16槽；NF/susp×3 agentharvest_ai/seatworkcells/frogsagent；13 valid 全在库",
+    "DS skip blown_xyz / hoodicorns / launchwithipo / FUSED_OFFICIALS / zoinlinedotfun 及 4 个无官推猎人 mint",
+    "Canton/Glaze/TokenWorks/GIWA/DogeEVM/btcPrivacy/starknet/tapeOut/elysium lastChecked 软债刷新",
+    "HashDoge/Genius/Corla/Flap: STOPPED",
+    "lastFullAfterReset=R1555（本轮 ample paced，未再跑 post-reset-full）",
+    "Discord Peek 跳过（R1560 09:59 CST 刚做完）"
+  ],
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED",
+  "tenLanes": "R1561 雷达主扫（ample paced softCap=28；lastFullAfterReset=R1555，非 post-reset-full）。本拟 R1560，但 09:59 CST Discord alpha 补漏已占 R1560（cre8finance/pkmonhype/maxxing），故升 R1561。UF 620→636（16槽；NF/susp 预跳×3 agentharvest_ai/seatworkcells/frogsagent；13 valid 全在库；Kleosdog 0 帖；from: 仅 orenfinance_/TradeOnRealm 近 48h，无≤2h）+ must/≤2h×3 posts（ShortFloat 窗已关；ORVYN/InkMiners 仍 LIVE>6h）+ KW 九栏+BTC/Starknet（含 GO 二次清洗 0 帖）+ mentions GIWA_by_Upbit×1（Ammora 等待名单噪音，无新挂靠）+ 新候选 profiles/官帖（送审 8 个官号）。九栏+BTC/Starknet/GIWA 均跑。Discord Peek 跳过（R1560 Discord alpha 补漏 09:59 CST 刚做；其前 R1559 亦为补漏）。新收 3：elycore / edenland / elysium-pairs（均≤2h LIVE）。skip：blown_xyz、hoodicorns、launchwithipo（对照 launchonipo）、FUSED_OFFICIALS（对照 FusedPad）、zoinlinedotfun、以及无官推的 THYRK / Golden Agents / Adventure Agent AI / Kumo；BunnyPad 机器人号不单独建卡。",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1561：新收 3 个（ELYCORE / Eden / Elysium Pairs）均≤2h LIVE；ShortFloat 窗口已过；ORVYN 与 InkMiners 仍 LIVE 但>6h。本拟 R1560，因 Discord 补漏占号升为 R1561。",
+  "pushShaFull": "",
+  "contentSha": "",
+  "docsSyncedFlag": true
+}
