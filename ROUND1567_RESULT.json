@@ -1,0 +1,87 @@
+{
+  "round": 1567,
+  "roundLabel": "R1567",
+  "checkedAt": "2026-11-10 12:16 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "仍有≤2h（elysianshield 新开窗 + onionswap 更址 + playgod/ironline/elythium/coeus）；无新 admit",
+  "alertMessage": "elysianshield 新开不超过2小时窗口：12:00:34 CST 官宣 The Elysian Spirit Shield 在 Montra 上线，CA 0x00e43aa03e17272586392335e84e2e49ec08a60c，窗口约14:00 CST 关闭。onionswap 更换了 CA：新 CA 0xeEdB187d8FA7B751544783F56a0aA6E46A04d147，旧 CA 作废，窗口约13:10 CST 关闭。仍在不超过2小时窗口内：playgod（约13:02）、ironline（约13:02）、elythium（约13:08）、coeus-engine（约12:27，时间临近）。面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": false,
+  "discordPeekNote": "本轮跳过 Peek；R1566 Discord alpha 补漏 12:10 CST 刚做（新收 grindq-nft/prebuyscan/ambrosia）",
+  "docsSynced": true,
+  "docsSyncedFlag": true,
+  "pushSha": null,
+  "tip": null,
+  "xReads": 12,
+  "remainingBefore": 850,
+  "remaining": 838,
+  "mode": "ample",
+  "softCap": 28,
+  "eveningReserve": 80,
+  "lastFullAfterReset": "R1555",
+  "ufCursor": 684,
+  "ufCursorBefore": 668,
+  "ufCursorAfter": 684,
+  "xQuota": {
+    "xReads": 12,
+    "remainingBefore": 850,
+    "remaining": 838,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 668,
+    "ufCursor": 684,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-10 12:16 CST",
+    "lastFullAfterReset": "R1555",
+    "note": "ample paced softCap=28；因 R1566 已被 Discord 补漏占用故升为 R1567；lastFullAfterReset=R1555 非 post-reset-full；UF668→684 + must/≤2h 合并 from: + KW九栏+BTC/Starknet + GO二次清洗无新盘 + mentions DogeOS×1；无新收；elysianshield 12:00 LIVE 新开窗；onionswap 更址；仍≤2h 六张"
+  },
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking on；admit 0 / skip 4（MontraLaunchbot、preditmarket、无官推推广、空投名单挂靠）",
+  "newThisRound": [],
+  "newIds": [],
+  "newCount": 0,
+  "le2hStill": [
+    {
+      "id": "elysianshield",
+      "until": "约14:00 CST",
+      "note": "新开不超过2小时窗口，CA 0x00e43aa03e17272586392335e84e2e49ec08a60c"
+    },
+    {
+      "id": "onionswap",
+      "until": "约13:10 CST",
+      "note": "以最新官宣 CA 为准，旧 CA 已经更址"
+    },
+    {
+      "id": "playgod",
+      "until": "约13:02 CST",
+      "note": "补充 factory、fee vault、router 地址"
+    },
+    {
+      "id": "coeus-engine",
+      "until": "约12:27 CST",
+      "note": "销毁累计到 34,707,090，窗口时间临近"
+    },
+    {
+      "id": "ironline",
+      "until": "约13:02 CST",
+      "note": "新帖为玩法介绍，CA 未变"
+    },
+    {
+      "id": "elythium",
+      "until": "约13:08 CST",
+      "note": "窗口内没有新的官方帖子，CA 未变"
+    }
+  ],
+  "mentionsLast": "DogeOS/@DogeOS",
+  "nfSkipAdded": [
+    "miuadotfun"
+  ],
+  "clearedPrevNTR": [
+    "grindq-nft",
+    "prebuyscan",
+    "ambrosia"
+  ],
+  "renumberedFrom": "R1566",
+  "tenLanes": "R1567 雷达主扫（ample paced softCap=28；lastFullAfterReset=R1555，非 post-reset-full）。因 12:10 CST Discord alpha 补漏已占 R1566，本轮升为 R1567。UF 668→684（16槽；预跳 NF×2 certuna_rh/origopad；新 NF×1 miuadotfun；有效 13 均在库；from: Type_SOL 无窗、Ninja Turtles 官宣 11-11 00:00 CST mint、HyperForge $FORGE 已>20h）+ must/≤2h 合并 from:（elysianshield 12:00 LIVE 新开窗；onionswap 更址；ELYCORE/Eden/Pairs 窗已关）+ KW 九栏+BTC/Starknet（含 GO 二次清洗，无新 GO 盘）+ mentions DogeOS×1（社区互动/空投名单噪音，无新挂靠）。九栏+BTC/Starknet/GIWA 均跑。Discord Peek 跳过（R1566 Discord alpha 补漏 12:10 CST 刚做）。无新收。保留 R1566 入库 grindq-nft/prebuyscan/ambrosia 并清「本轮新」。库内刷新：elysianshield watching→live；onionswap 新 CA；playgod 验证合约；coeus 续烧；ninjaa-turtles mint 日程；hyperforge-core 改 live；miuadotfun NF。",
+  "summary": "R1566 没有新的官方推特项目可收，admit 为空。跳过发射播报机器人、非极早期产品账号、仅推广号转发或无官方推特的项目、空投名单挂靠。elysianshield 由 watching 改为 live 并新开窗口；onionswap 以最新官宣 CA 为准，并注明更址；playgod 补充已验证合约地址；coeus-engine 更新销毁累计；ironline、elythium 窗口内暂无新帖。elycore、edenland、elysium-pairs 窗口已关闭，转常规观察。ninjaa-turtles 列入今晚、次日凌晨，hyperforge-core 状态改为 live 但不属于不超过2小时，miuadotfun 记为 NF。notify=true。"
+}
