@@ -1,0 +1,33 @@
+# R1614 early-scout RESULT（2026-11-11 04:50 CST）
+
+- round: 1614
+- mode: pace
+- softCap: 28
+- completedAt: 2026-11-11 04:50 CST
+- notify: True
+- notifyReason: 真新收录 3 条
+- alertMessage: 雷达 R1614：新收 3 张——Azimuth（Elysium 上 Hyperliquid 量化情报终端，04:36 CST 刚发 $AZTH CA，RPC 已核验，203 粉）、Pear（Montra 上的 Elysium 发射台，手续费买链上股票分给持有人，04:22 CST $PEAR live，CA 已核验，仅 3 粉极高风险）、Oasis（Montra 上的 Elysium 发射台，手续费每 5 分钟自动加池，04:10 CST 首笔加池已执行，CA 已核验，9 粉新号）。更新：库内 POD（elzecpod）03:57 CST 新官号 @Elysium_POD 发了 $POD CA（1 粉，极高风险）。≤2h 无新增：Twopad 约 04:50 CST 上线（03:55 后官推无新帖，仍无链/CA）、Hood Syndicate 05:00 CST mint、RRF Village FCFS 约 05:48 CST 止，均无变化。面板：https://reboot7454.github.io/early-scout/
+- newIds: ['use-azimuth', 'pear-elysium', 'oasis-liquidity']
+- lanesOfNew: {'use-azimuth': '台子/Meme', 'pear-elysium': '台子/Meme', 'oasis-liquidity': '台子/Meme'}
+- roundNote: pull 后 HEAD 为 R1613 DC 插轮 RESULT tip（1c2a795，04:10 CST），本轮取 R1614；已清 R1613 newThisRound/roundNAdded（及 R1612 残留 flag 本轮新），R1613 八号补进 UF
+- clearedPrevNewThisRound: ['walrushood', 'usemorf', 'hypewavedefi', 'enter-ghosts', 'green-week', 'kubo-cube', 'usefliply', 'usecreditpad']
+- updated: ['elzecpod']
+- le2hVerified: {'usetwopad': 'since 03:55 变化检查：官推无新帖，仍约 04:50 CST、无链/CA——R1612 已报，不算新', 'hood-syndicate': 'since 03:55 仅 04:00 CST X Space 链接（R1612 已记），05:00 CST mint 无改期——不算新', 'rrfvillage': 'since 03:55 无新帖，FCFS 仍约 05:48 CST 止——不算新'}
+- skipped: ['POD @Elysium_POD（库内已有 elzecpod 卡，改为更新：补官号与 CA；DS 亦拒单独建卡）', 'Inucoin @Inucoindot（Solana 上 DogeOS 产品做的 dogecoin 分叉，2 粉无 CA，DS 拒）', 'Done_an_Dusted（Real Hood People 创始人个人号，$BRASS 已在库）', 'Elysium Pumpkins（@0xMilaa 个人号，R1612 已拒）', 'DegenPondHood/SACKofCHAOS/FeedTheFireRH/droolies/Hoodfather/SyndicateRHC/usegetpeak/materral/Oddsline/heliosliq/onlystreets/RebateLaunch/HNO 等（已在库）', 'AlphaElysium（资讯 hub）', 'Purrkshire（单个 meme 币，R1607 已拒）']
+- dedupNote: UF 片 1101–1116 与 ≤2h 号无重叠；Twopad/Hood Syndicate/RRF 只做 since 03:55 变化检查；候选资料批只读 6 个新号
+- xReads: 6
+- remainingBefore: 530
+- remaining: 524
+- ufCursor: 1101→1117
+- tenLanes: UF1101→1117 合并 from:×1 + ≤2h 变化检查 from:×1（UseTwopad/RRFVillage/hoodsyndicatee/SyndicateRHC/tmachinroBot/Enter_Elysium/squeekchain，since 03:55）+ KW 两车道合并×2（since 03:55）+ 生态 mentions 合并×1（Elysium/squeek/X Layer/GIWA/DogeOS/TapeOut/Starknet/RH/Montra/Ascend/Ordinals）+ 候选资料批×1；九栏+BTC/Starknet 均跑
+- xRateLimit429: 无
+- discordPeekDeferred: False
+- discordPeekNote: R1613 DC 流程 04:10 CST 刚补完（lastSeen 04:02），距今 <1h，本轮不 Peek
+- dsFallback: False
+- dsNote: DS 打分 5 条（拆 2+2+1），admit 3/拒 2（POD、Inucoin）+ alert 文案（执行端改写前缀与格式）；risk 取 (100-x)/10
+- softDebt: Canton/Glaze/TokenWorks/Elysium lastChecked 刷到 04:50 CST
+- elysiumNote: $AZTH/$PEAR/$OASIS/$POD 均 Elysium RPC 核验有代码（45B 最小代理）、总量 1B；均不在官方生态页，归台子/Meme 不进 Elysium 栏
+- watchAdds: 12 号进 UF：R1613 DC 八号（@WalrusHood/@usemorf/@HypeWaveDeFi/@Enter_Ghosts/@greenweekcoming/@kubo_cube/@usefliply/@usecreditpad）+ 本轮 @UseAzimuth/@PearElysium/@OasisLiquidity + @Elysium_POD
+- docsSynced: True
+- panel: https://reboot7454.github.io/early-scout/
+- pushSha: None
