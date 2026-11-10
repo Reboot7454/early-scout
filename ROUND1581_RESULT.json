@@ -52,12 +52,14 @@
     "gapIncomplete": true
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "df3e77c",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1581：Discord alpha 补收 vouch-dev,lostmintrb,makehoodxyz；lastSeen→2026-11-10 17:30；lastChecked→2026-11-10 17:36 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1580.json",
   "priorRoundNote": "R1580 web radar NTR []; opened at R1580, this DC=R1581; cardsAfterCutoff=40",
   "lastSeenByChannel": {
@@ -218,5 +220,8 @@
     "completion_tokens": 12503
   },
   "dsNote": "deepseek-flash thinking on; 4 admit batches + 1 alert; dsFallback=false",
-  "docsSynced": false
+  "docsSynced": true,
+  "pushSha": "df3e77c",
+  "tip": "df3e77c",
+  "pushShaFull": "df3e77c48bd826a27da94a10368d81fd4d7c00b3"
 }
