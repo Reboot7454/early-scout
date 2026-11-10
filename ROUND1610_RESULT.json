@@ -69,12 +69,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "455b190",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1610：Discord alpha 补收 elzecpod,payolaads,fherumfi,onionexchange,levera,earlyondotfun；Fherum/OnionExchange 由打新改归台子/Meme；GetEly/early/POD 不在 elysium.kinetiq.xyz/ecosystem，early/POD 归台子/Meme；lastSeen→2026-11-11 03:19；lastChecked→2026-11-11 03:32 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1610.json",
   "priorRoundNote": "opened at web-radar R1609 (NTR: seapad,stonked-sol,chartnerd,rrfvillage,stockmon); this DC=R1610; cardsAfterCutoff=47; unique=46 already=4 preReject=3 keep=39; X 39/39; manualSkip=0; DS keep=39 admits=6; Fherum/OnionExchange category overridden 打新→台子/Meme; ids pod→elzecpod, early→earlyondotfun",
   "alert": "DC补漏R1610新收6项（栏位：台子/Meme）：POD、Payola、Fherum、Onion Exchange、Levera、early；面板 https://reboot7454.github.io/early-scout/",
@@ -351,5 +353,6 @@
       "from": "early",
       "to": "earlyondotfun"
     }
-  ]
+  ],
+  "pushSha": "455b190cac005c5b36d42c3e8e957e250ae87fd0"
 }
