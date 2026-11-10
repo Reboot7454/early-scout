@@ -1,0 +1,24 @@
+# R1582 early-scout RESULT（2026-11-10 17:41 CST）
+
+- round: R1582
+- pushSha/tip: 33a096b
+- mode: ample softCap=28（lastFullAfterReset=R1555，非 post-reset-full）
+- xReads: 7 | remainingBefore: 695 → remaining: 688 | ufCursor: 796→812
+- lastFullAfterReset: R1555
+- 编号说明：本轮主扫开跑时基线仍是 R1580；Discord alpha 补漏已于 17:36 CST 占用 R1581（新收 vouch-dev、lostmintrb、makehoodxyz）。主扫改记 R1582，保留上述 3 张卡，并将其 newThisRound 清掉；同时把这三号补进 UF 表尾（@vouch_dev / @lostmintrb / @makehoodxyz）以修 watch-bug，不插入中段以免光标错位。
+- newThisRound: 无
+- 状态升级：jdm-legends 17:17 CST 官帖称 PUBLIC MINT IN 2 HOURS，早鸟免费进行中（最多 5 包），网络 @Enter_Elysium；OpenSea 早鸟免费至 19:20:36 CST，公开 19:20:36 CST 起至 11/12 19:20:36、0.00133 HYPE；Elysium CA 0x6eff0837178dee9a03f64e4ce00f3953789334f8 已核实，totalSupply=856/5000，站点 https://jdmlegends.xyz/，已改归打新/Elysium 并进入≤2h；agent-feg 17:06 CST 官帖确认 FEG is live now（0.005 BNB/份，每 ID 10 份，#10000 开池，token 0x8743fa8b279D1b85506c5cd223Bd40285d32a2dA），官网 HTML 仍写合约待公布，但同源 config.js 已写 sale 0x0B328277Fc215119E016874D943a19c71b30718A，链上 sale.status() openingSold=13，≤2h 至约 19:00；atlas-hl 白名单 17:30 已开，链上 totalSupply 由 17:25 的 0 增至 8（17:38 复查仍为 8），公开 18:30 0.01 HYPE，本窗无新官帖；volta-gent 无新官帖，链上 minted=8、open=1、agentPhase=1，≤2h 至约 18:05；dogeking-agent 17:07 CST 营销帖重申前 1000 免费、19:00 开售（帖中无 CA），官网 settings.js 已写 token 0xaB36C1C92a3De7462b91306c63C63A4bD5317972 / sale 0xd73A0cDCe58e07D8e2a38EE771Cc3aBC45B6FA45，链上 sold=0 started=false；agentix-agx 本轮无新事实，写卡时 17:41 仍开，窗至约 17:46；etherea-genesis 17:07 再发 T-4 HOURS，尚未≤2h；elysium-genesis 不以第三方 12:30 UTC 喊单改期，卡级 le2h 改回 false
+- ≤2h 仍开：agentix-agx 至约 17:46 CST；volta-gent 至约 18:05 CST；atlas-hl 白名单已开 / 公开 18:30 CST；agent-feg 至约 19:00 CST；dogeking-agent 至 19:00 CST；jdm-legends 早鸟至约 19:20 CST 并在同时点转公开
+- 本轮关窗：无新增（mint-condition 仍为约 17:22 CST 已关）
+- 尚未≤2h：99901-fun 今晚 21:00 CST liftoff（约 19:00 CST 起算入窗）；etherea-genesis GTD 21:00 / FCFS 22:00 / Public 23:00 CST
+- dsFallback: False（deepseek-flash thinking on；升级文案第二次调用成功；R1582 通知句第一次返回思考未出 JSON，已按模型起草正文落盘；admit 0 / skip 9）
+- discordPeekDeferred: False（本轮主扫跳过 Peek；R1575/R1577/R1579 今日已做过，且 R1581 已于 17:36 CST 落地）
+- docsSynced: True
+- notify: True
+- alert: 【R1582】主扫无合格新收录（R1581 Discord 已补 Vouch AI、LOST MINT、Makehood，本轮已清 newThisRound）。库内升级：JDM 早鸟免费至约19:20并同时点转公开（Elysium CA 0x6eff0837178dee9a03f64e4ce00f3953789334f8，856/5000，0.00133 HYPE）；FEG 官帖确认 live，链上 openingSold=13，≤2h 至约19:00；Atlas 白名单已开、totalSupply=8，公开18:30（0.01 HYPE）。仍开≤2h：Agentix至约17:46、Volta至约18:05、DogeKing至19:00。Mint Condition 约17:22已关。未进窗：99901.fun 21:00、Etherea GTD 21:00。面板 https://reboot7454.github.io/early-scout/
+- HashDoge/Genius/Corla/Flap: STOPPED（本轮未对其花费 X）
+- tenLanes: UF796→812 + must/≤2h 合并 from: + 因 FEG/Agentix 刷屏排除后剩余必盯/UF×1 + KW 九栏+BTC/Starknet/LZ/X Layer 分车道 + mentions Elysium/@Enter_Elysium+@AscendLaunch×1 + 关键词补漏/from:SyndicateRHC×1；九栏+BTC/Starknet/GIWA 均跑
+- UF shard 796–811：16 槽；skip 已知 NF 不连刷 @emberlingreal/@TrineProtocol/@LongAgentBNB/@dotaipad/@Leeonmort/@computeroll；可见 10 槽本窗未见发帖
+- skips/noise: @SyndicateRHC（仅第三方宣传即将 Robinhood 免费铸，本窗 from:SyndicateRHC 无官帖，不收录）；MotoCards / RIGBYPASS / BN Agent Trials / ClafEye / StarCards（仅第三方喊单或个人铸造记录，无官推）；@NFTs2Me、@streamingfastio（基建，非极早期打新）；@loudscene（网站转视频产品）；库内不重收（kurogane-fun、ely-kitties、elysiumpilled、hyperhaul、asciienv、lil-giraffies、hallofash、rebate-launch、loopup、vibevibe-fun、elytypes、hypesium、grump-guys、zypher-agent 等）；GIWA 本窗无新可收；Starknet/X Layer/BTC/LZ KW 本窗 0 命中；Elysium mentions 多为钱包回复与已在库项目，无早期可收挂靠新号
+- watch 补进：vouch-dev → userFollowWatch 表尾 @vouch_dev；lostmintrb → 表尾 @lostmintrb；makehoodxyz → 表尾 @makehoodxyz（不插入中段以免光标错位）
+- softDebt lastChecked 已刷新：cantonWatch / cantonPadWatch / glazeWatch / tokenWorksWatch / tokenWorksPlaygroundWatch

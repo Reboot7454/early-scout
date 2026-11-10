@@ -1,0 +1,147 @@
+{
+  "round": 1582,
+  "mode": "ample",
+  "softCap": 28,
+  "completedAt": "2026-11-10 17:41 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "le2h",
+  "alertMessage": "【R1582】主扫无合格新收录（R1581 Discord 已补 Vouch AI、LOST MINT、Makehood，本轮已清 newThisRound）。库内升级：JDM 早鸟免费至约19:20并同时点转公开（Elysium CA 0x6eff0837178dee9a03f64e4ce00f3953789334f8，856/5000，0.00133 HYPE）；FEG 官帖确认 live，链上 openingSold=13，≤2h 至约19:00；Atlas 白名单已开、totalSupply=8，公开18:30（0.01 HYPE）。仍开≤2h：Agentix至约17:46、Volta至约18:05、DogeKing至19:00。Mint Condition 约17:22已关。未进窗：99901.fun 21:00、Etherea GTD 21:00。面板 https://reboot7454.github.io/early-scout/",
+  "alert": "【R1582】主扫无合格新收录（R1581 Discord 已补 Vouch AI、LOST MINT、Makehood，本轮已清 newThisRound）。库内升级：JDM 早鸟免费至约19:20并同时点转公开（Elysium CA 0x6eff0837178dee9a03f64e4ce00f3953789334f8，856/5000，0.00133 HYPE）；FEG 官帖确认 live，链上 openingSold=13，≤2h 至约19:00；Atlas 白名单已开、totalSupply=8，公开18:30（0.01 HYPE）。仍开≤2h：Agentix至约17:46、Volta至约18:05、DogeKing至19:00。Mint Condition 约17:22已关。未进窗：99901.fun 21:00、Etherea GTD 21:00。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "skipped": [
+    {
+      "id": "syndicate-rhc",
+      "handle": "@SyndicateRHC",
+      "reason": "本窗无官帖，仅第三方信息"
+    },
+    {
+      "id": "motocards",
+      "handle": "motocards",
+      "reason": "无官推或仅喊单"
+    },
+    {
+      "id": "rigbypass",
+      "handle": "rigbypass",
+      "reason": "无官推或仅喊单"
+    },
+    {
+      "id": "bn-agent-trials",
+      "handle": "bn-agent-trials",
+      "reason": "无官推或仅喊单"
+    },
+    {
+      "id": "claf-eye",
+      "handle": "claf-eye",
+      "reason": "无官推或仅喊单"
+    },
+    {
+      "id": "starcards",
+      "handle": "starcards",
+      "reason": "无官推或仅喊单"
+    },
+    {
+      "id": "nfts2me",
+      "handle": "nfts2me",
+      "reason": "基建类，非打新标的"
+    },
+    {
+      "id": "streamingfastio",
+      "handle": "streamingfastio",
+      "reason": "基建类，非打新标的"
+    },
+    {
+      "id": "loudscene",
+      "handle": "loudscene",
+      "reason": "非打新项目"
+    }
+  ],
+  "clearedPrevNewThisRound": [
+    "vouch-dev",
+    "lostmintrb",
+    "makehoodxyz"
+  ],
+  "renumberNote": "Main scout started from R1580 but Discord peek already consumed R1581 at 17:36 CST (vouch-dev, lostmintrb, makehoodxyz); this scout is published as R1582 and keeps those 3 cards.",
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking on；升级文案第二次调用成功；R1582 通知句第一次返回思考未出 JSON，已按模型起草正文落盘；admit 0 / skip 9",
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "admit": 0,
+    "skip": 9,
+    "retry": 1,
+    "retryReason": "first upgrade call returned reasoning without JSON; alert call same issue, used model-drafted text"
+  },
+  "coverage": {
+    "tenLanes": true,
+    "btc": true,
+    "starknet": true,
+    "giwa": true,
+    "ufShard": "796-811",
+    "ufCursor": "796→812",
+    "mentions": "Elysium/@Enter_Elysium+@AscendLaunch×1",
+    "xReads": 7,
+    "remainingBefore": 695,
+    "remaining": 688,
+    "mode": "ample",
+    "softCap": 28,
+    "eveningReserve": 80,
+    "lastFullAfterReset": "R1555",
+    "kw": "eco Elysium/GIWA/DogeEVM/Tape + launch/agent + BTC/Starknet/LZ/XLayer(0 hits) + keyword-gaps/from:SyndicateRHC"
+  },
+  "discordAlphaPeek": false,
+  "docsSynced": true,
+  "pushSha": "33a096b",
+  "tip": "33a096b",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1582 主扫无合格新收录（R1581 Discord 的 Vouch AI、LOST MINT、Makehood 已入库并清 newThisRound，三号已补进 UF 表尾）。JDM 早鸟免费已开并将于约19:20公开；FEG 已 live 且链上 openingSold=13；Atlas 白名单已开 totalSupply=8、公开18:30。",
+  "le2hActionable": [
+    "agentix-agx",
+    "agent-feg",
+    "volta-gent",
+    "dogeking-agent",
+    "atlas-hl",
+    "jdm-legends"
+  ],
+  "closedThisRound": [],
+  "alreadyClosed": [
+    "mint-condition"
+  ],
+  "notYetLe2h": [
+    "99901-fun",
+    "etherea-genesis"
+  ],
+  "xReads": 7,
+  "remainingBefore": 695,
+  "remaining": 688,
+  "ufCursor": "796→812",
+  "lastFullAfterReset": "R1555",
+  "tenLanes": "UF796→812 + must/≤2h 合并 from: + 排除 FEG/Agentix 后剩余必盯/UF×1 + KW 九栏+BTC/Starknet/LZ/X Layer + mentions Elysium/@Enter_Elysium+@AscendLaunch×1 + 关键词补漏/from:SyndicateRHC×1；九栏+BTC/Starknet/GIWA 均跑",
+  "inLibraryUpgrades": [
+    "jdm-legends",
+    "agent-feg",
+    "atlas-hl",
+    "volta-gent",
+    "dogeking-agent",
+    "agentix-agx",
+    "elysium-genesis"
+  ],
+  "watchAppended": {
+    "handles": [
+      "@vouch_dev",
+      "@lostmintrb",
+      "@makehoodxyz"
+    ],
+    "ids": [
+      "vouch-dev",
+      "lostmintrb",
+      "makehoodxyz"
+    ],
+    "ufAccounts": 1298,
+    "ufCandidateIds": 1284
+  },
+  "pushShaFull": "33a096b5cecff82b67c7e712cb03c540d94b520f"
+}
