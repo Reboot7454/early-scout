@@ -1,0 +1,23 @@
+# R1576 early-scout RESULT（2026-11-10 16:06 CST）
+
+- round: R1576
+- pushSha/tip: b97f3fc
+- mode: ample softCap=28（lastFullAfterReset=R1555，非 post-reset-full）
+- xReads: 12 | remainingBefore: 749 → remaining: 737 | ufCursor: 748→764
+- lastFullAfterReset: R1555
+- newThisRound: agentix-agx（@AgentixBSC，官网 https://agentixbsc.pages.dev/ ，15:46 CST 官宣正式上线；BSC Agent ID 专属铸造，Mode A 0.002 BNB/份 24h 全额退回+奖励，Mode B 14天线性释放，11 阶段，满 10,000 份开免费挖矿；静态页暂无 CA；粉 1；已进 userFollowWatch + agentPadWatch + bnAgentWatch；focus=false；评分 early/actionable/novelty/risk/overall = 80/70/50/80/60）
+- 状态升级：mint-condition 15:22 CST 官宣 live on Montra 并公布 CA 0x44ae81d76bea638c52ed0ae71302d1a332a22577，15:35 Live now on Elysium，15:37 booster packs 接通；窗至约 17:22 CST（官网前端仍保留 Opening soon 分支）；99901-fun 15:00 CST 官帖 6 hours to liftoff，对应 13:00 UTC=21:00 CST
+- ≤2h 仍开：agentix-agx 至约 17:46 CST（暂无 CA）；mint-condition 至约 17:22 CST（CA 0x44ae81d76bea638c52ed0ae71302d1a332a22577）；agent-feg 至约 17:00 CST（0.005 BNB/份，CA 0x8743fa8b279D1b85506c5cd223Bd40285d32a2dA）
+- 本轮关窗：styx-elysium 约 15:24 CST（无延窗官帖，CA 仍为 0xf11c09fab6c53255aeeaaab69c6dcc393f0e34b9，自比 UST/Terra）；aether-vanguard $AVAN 领取约 16:00 CST 到点关闭（无代币 CA，上市预估 11/18-20）
+- 此前已关（本轮未再开）：sunfire（约 14:27 CST，CA 0xc9e1e87d8bb3632589e324db6f37001427e07134）
+- 尚未≤2h：dogeking-agent 仍为今晚 19:00 CST 开售；99901-fun 21:00 CST liftoff（约 19:00 CST 起算入窗）
+- dsFallback: False（deepseek-flash thinking on；admit 1 / skip 4：revaly、elysium99901、ruglessxyz、swapvxeio）
+- discordPeekDeferred: False（本轮跳过 Peek；R1575 已于 15:26 CST 做 Discord alpha 补漏，故不推迟、不重 Peek）
+- docsSynced: True
+- notify: True
+- alert: 【R1576】新收录 Agentix($AGX，BSC Agent ID 专属铸造，0.002 BNB/份，模式A 24h全额退，模式B 14天线性释放，暂无CA，窗至约17:46)；mint-condition 已开，CA 0x44ae81d76bea638c52ed0ae71302d1a332a22577，窗至约17:22；agent-feg 17:00开铸，CA 0x8743fa8b279D1b85506c5cd223Bd40285d32a2dA。已关闭：STYX（自比UST/Terra风险）、Aether($AVAN)领取窗。面板：https://reboot7454.github.io/early-scout/
+- HashDoge/Genius/Corla/Flap: STOPPED
+- tenLanes: UF748→764 + must/≤2h 合并 from:（FEG 刷屏故单独查询）+ 必盯 99901.fun 今日档期 1 次 + KW 九栏+BTC/Starknet 分车道 + mentions Tape/@TapeAIAgent×1；九栏+BTC/Starknet/GIWA 均跑
+- UF shard 748–763：16 槽全部已在库；历史 NF/SUSP：@SolumMrkt、@BrokeNiggameme、@bndoge_bn、@Mintbncat_ai、@oblaunchpadAll、@babycz_ai，仅占位不连刷。可见 10 槽软刷（含 @TheMutantClub mint 价 0.0005→0.0003 ETH，737/1000，已在库）。
+- skips/noise: revaly/@revaly_cash（帖称 Elysium+EVM CA 0x72dd12b3ed378d49b98c13c52ac40c3b33ed9438，站点 revaly.cash 实为 SOL/USDC 且无该 CA，revaly.io 为无关法国房产 AI）；elysium99901/@elysium99901（今日 15:35 新号，15:52 给 CA 0x0C6cfB8773cF316ce9fFd6691311B7170f77A5FF，无官网，非库内 99901-fun/@99901dotfun，高风险仿冒/chain-id meme）；ruglessxyz/@ruglessxyz（站点 https://ruglessapp.xyz/ 为 Elysium 主网安全扫描器，非发币，且不同于库内 rugless/@ruglessfam）；swapvxeio（9 月号、919 粉，仅 LZ 营销）。Tape mentions 仅持仓闲聊 $BEM/stake，无新挂靠项目。
+- watch 补进：agentix-agx → userFollowWatch + agentPadWatch + bnAgentWatch（新收录同步进盯，追加在表尾，不插入中段以免光标错位）

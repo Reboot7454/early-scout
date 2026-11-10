@@ -1,0 +1,85 @@
+{
+  "round": 1576,
+  "mode": "ample",
+  "softCap": 28,
+  "completedAt": "2026-11-10 16:06 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admit_and_le2h",
+  "alertMessage": "【R1576】新收录 Agentix($AGX，BSC Agent ID 专属铸造，0.002 BNB/份，模式A 24h全额退，模式B 14天线性释放，暂无CA，窗至约17:46)；mint-condition 已开，CA 0x44ae81d76bea638c52ed0ae71302d1a332a22577，窗至约17:22；agent-feg 17:00开铸，CA 0x8743fa8b279D1b85506c5cd223Bd40285d32a2dA。已关闭：STYX（自比UST/Terra风险）、Aether($AVAN)领取窗。面板：https://reboot7454.github.io/early-scout/",
+  "alert": "【R1576】新收录 Agentix($AGX，BSC Agent ID 专属铸造，0.002 BNB/份，模式A 24h全额退，模式B 14天线性释放，暂无CA，窗至约17:46)；mint-condition 已开，CA 0x44ae81d76bea638c52ed0ae71302d1a332a22577，窗至约17:22；agent-feg 17:00开铸，CA 0x8743fa8b279D1b85506c5cd223Bd40285d32a2dA。已关闭：STYX（自比UST/Terra风险）、Aether($AVAN)领取窗。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "agentix-agx"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "agentix-agx"
+  ],
+  "skipped": [
+    {
+      "id": "revaly",
+      "reason": "帖称 Elysium+EVM CA，站点 revaly.cash 实为 SOL/USDC 且无该 CA"
+    },
+    {
+      "id": "elysium99901",
+      "reason": "今日新号给 CA，无官网，非官方 99901-fun，仿冒/meme 风险高"
+    },
+    {
+      "id": "ruglessxyz",
+      "reason": "Elysium 主网安全扫描器，非发币，不同于库内 rugless/@ruglessfam"
+    },
+    {
+      "id": "swapvxeio",
+      "reason": "仅 LZ 营销，无新发射线索"
+    }
+  ],
+  "clearedPrevNewThisRound": [
+    "talosagents",
+    "copperbone01"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "admit": 1,
+    "skip": 4
+  },
+  "coverage": {
+    "tenLanes": true,
+    "btc": true,
+    "starknet": true,
+    "giwa": true,
+    "ufShard": "748-763",
+    "ufCursor": "748→764",
+    "mentions": "Tape/@TapeAIAgent×1",
+    "xReads": 12,
+    "remainingBefore": 749,
+    "remaining": 737,
+    "mode": "ample",
+    "softCap": 28,
+    "eveningReserve": 80,
+    "lastFullAfterReset": "R1555"
+  },
+  "discordAlphaPeek": false,
+  "docsSynced": true,
+  "pushSha": "b97f3fc",
+  "tip": "b97f3fc",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1576：新收录 Agentix($AGX) 15:46 上线（暂无CA，窗至约17:46）；mint-condition 已开并给出 CA 0x44ae81d76bea638c52ed0ae71302d1a332a22577（窗至约17:22）。STYX 与 Aether 领取窗已关；agent-feg 仍 17:00 开铸。",
+  "le2hActionable": [
+    "agentix-agx",
+    "mint-condition",
+    "agent-feg"
+  ],
+  "closedThisRound": [
+    "styx-elysium",
+    "aether-vanguard"
+  ],
+  "notYetLe2h": [
+    "dogeking-agent",
+    "99901-fun"
+  ],
+  "pushShaFull": "b97f3fc51f4079dfdfd0a6374794a46453d468eb",
+  "remoteVerified": false
+}
