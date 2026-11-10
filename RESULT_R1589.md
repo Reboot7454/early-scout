@@ -1,0 +1,21 @@
+# R1589 early-scout RESULT（2026-11-10 19:57 CST）
+
+- round: R1589
+- mode: ample softCap=28（lastFullAfterReset=R1555，非 post-reset-full）
+- xReads: 7 | remainingBefore: 648 → remaining: 641 | ufCursor: 860→876
+- lastFullAfterReset: R1555
+- 编号说明：本轮主扫开跑时基线是 R1588（19:38 CST Discord 补漏：agentmarketbnb、playfloppybird、joinhypad）。主扫改记 R1589，保留上述 3 张卡并清 newThisRound；同时把这三号补进 UF 表尾，不插入中段。
+- newThisRound: 无合格新收录
+- skips/noise: @phew_pro（粉约 8723 的成熟多链发射台，不收）；@gurudotfun（仅第三方 KYC 喊单、本窗未见官帖，未做探索性核读）；GIWA 本窗仍为 Ammora 候补刷屏；Hypesium / Rebate / Forge / Globe / Kurogane / Sonofluidic / HoodDrakes 等均为库内号的第三方提及
+- 状态升级：kurogane-fun 的 GTD/WL 截止 20:30 CST，本轮起入≤2h（档期沿用 R1545 官宣，本窗未再读官帖）；wildlifeuni-55 18:35 CST 发 “first 100 wallets” 10 秒预告片（粉约 1209），无 mint 时间/CA，不入≤2h；ArcherSwap $ARW 白名单 IDO 仍为明天 20:00 CST，本窗官帖再预告 24h+；Agent Mining 18:37 CST 发开挖指南（无报名费、只需 gas，限 Agent ID）
+- ≤2h 仍开：Atlas 公开至约 20:30；Kurogane WL 截止 20:30；kPad Public 已 LIVE（≤2h 至约 21:00）；DogeKing 创世销售已 LIVE（≤2h 至约 21:00）；JDM 公开至约 21:20；99901.fun 21:00；Etherea GTD 21:00；Agent Mining $AMNT 21:00
+- 本轮关窗：无新关窗（agent-feg 约 19:00 已在上一轮关窗，售卖仍 live）
+- dsFallback: False（deepseek-flash thinking on；本轮无新候选可 admit，仅写 alert/summary）
+- discordPeekDeferred: False（本轮主扫跳过 Peek；R1588 19:38 CST 刚做过）
+- docsSynced: True
+- notify: True
+- tenLanes: UF860→876 合并 from:×1（跳过 4 个已知 NF/SUSP）+ ≤2h 必盯合并 from:×1（FEG 刷屏后补读 Etherea/99901/squeek×1）+ KW 两车道 + mentions BTC/DogeEVM×1 + 候选核读 wildlife 官帖×1；九栏+BTC/Starknet/GIWA 均跑
+- UF shard 860–875：16 槽中 4 个已知 NF/SUSP 跳过，12 个有效号有帖（ArcherSwap / Wildlife / Bond Agent），其余本窗 0 帖
+- watch 补进：UF 表尾 @agentmarketbnb / @PlayFloppyBird / @JoinHypad
+- softDebt lastChecked 已刷新：cantonWatch / cantonPadWatch / glazeWatch / tokenWorksWatch / tokenWorksPlaygroundWatch
+- mentions：BTC（@ShieldedNaka @banknotes_btc @UnseenOrdo）+ DogeEVM（@DogeOS @DogeOSExchange）本窗无新可收挂靠号（仅 UnseenOrdo 白名单第三方再推，库内已有）
