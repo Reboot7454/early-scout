@@ -67,12 +67,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "74be0bb",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1597：Discord alpha 补收 backroomotc,seppukumeme,orbixrh,oloverium-one,elyrainference,riftora-coin,elydesk,elhookrfun；跳过 riftora（@RiftoraEVM 账号不存在，与 @RiftoraCoin 同项目）；elhookrfun 因官方生态页未列出改归台子/Meme；lastSeen→2026-11-10 22:10；lastChecked→2026-11-10 22:34 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1597.json",
   "priorRoundNote": "R1596 web radar no new (NTR already empty after R1596 le2h refresh; prior web NTR lowb-agent,rabbit-chain,holdtheline already cleared); opened at R1596, this DC=R1597; cardsAfterCutoff=58",
   "lastSeenByChannel": {
@@ -306,5 +308,9 @@
     "alertDsOk": false,
     "alertError": "Unterminated string starting at: line 1 column 17 (char 16)"
   },
-  "alert": "DC补漏R1597新收8条：Backroom〔台子/Meme〕、Seppuku (parody)〔台子/Meme〕、ORBIX〔挖矿〕、Oloverium〔台子/Meme〕、Elyra Inference〔台子/Meme〕、Riftora〔打新〕、ElyDesk〔台子/Meme〕、Elhookrfun〔台子/Meme〕；面板 https://reboot7454.github.io/early-scout/"
+  "alert": "DC补漏R1597新收8条：Backroom〔台子/Meme〕、Seppuku (parody)〔台子/Meme〕、ORBIX〔挖矿〕、Oloverium〔台子/Meme〕、Elyra Inference〔台子/Meme〕、Riftora〔打新〕、ElyDesk〔台子/Meme〕、Elhookrfun〔台子/Meme〕；面板 https://reboot7454.github.io/early-scout/",
+  "docsSynced": true,
+  "pushSha": "74be0bb",
+  "tip": "74be0bb",
+  "pushShaFull": "74be0bb8869373fce375b38793de6683fc51dd71"
 }
