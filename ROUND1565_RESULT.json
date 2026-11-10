@@ -45,12 +45,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "a2b311c",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1565：Discord alpha 补收 armaz-agent,criptery-xyz；清 elyonpad；lastSeen→2026-11-10 11:33；lastChecked→2026-11-10 11:36 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1564.json",
   "priorRoundNote": "R1564 meta NTR ['elyonpad']; cardsAfterCutoff=37",
   "lastSeenByChannel": {
@@ -204,5 +206,9 @@
   ],
   "alert": "DC补漏R1565新收2条：Armaz（ARMAZ开箱+质押农场，BNB链极早期）、Criptery（Base像素彩票dApp，90%奖池即时链上结算）；面板 https://reboot7454.github.io/early-scout/",
   "gapIncomplete": true,
-  "spideyPosting": true
+  "spideyPosting": true,
+  "pushSha": "a2b311c",
+  "tip": "a2b311c",
+  "pushShaFull": "a2b311c89d433eafcbcca75e54ca500be3adb4e7",
+  "docsSynced": true
 }
