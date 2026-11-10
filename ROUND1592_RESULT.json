@@ -59,12 +59,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "e38d72c",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1592：Discord alpha 补收 onedollaragent,penguagent1,elysianblooms,0xkinetic10,privasium；清 agentrune；lastSeen→2026-11-10 20:41；lastChecked→2026-11-10 20:49 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1592.json",
   "priorRoundNote": "R1591 web radar new admit agentrune (NTR=[agentrune] to clear); opened at R1591, this DC=R1592; cardsAfterCutoff=47",
   "lastSeenByChannel": {
@@ -324,5 +326,8 @@
     "admits": 5,
     "dsRejects": 37
   },
-  "docsSynced": false
+  "docsSynced": true,
+  "pushSha": "e38d72c",
+  "tip": "e38d72c",
+  "pushShaFull": "e38d72c1301fbc7c49c8893e3e2e537bb4cf6b8d"
 }
