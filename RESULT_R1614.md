@@ -1,9 +1,9 @@
-# R1614 early-scout RESULT（2026-11-11 04:50 CST）
+# R1614 early-scout RESULT（2026-11-11 04:44 CST）
 
 - round: 1614
 - mode: pace
 - softCap: 28
-- completedAt: 2026-11-11 04:50 CST
+- completedAt: 2026-11-11 04:44 CST
 - notify: True
 - notifyReason: 真新收录 3 条
 - alertMessage: 雷达 R1614：新收 3 张——Azimuth（Elysium 上 Hyperliquid 量化情报终端，04:36 CST 刚发 $AZTH CA，RPC 已核验，203 粉）、Pear（Montra 上的 Elysium 发射台，手续费买链上股票分给持有人，04:22 CST $PEAR live，CA 已核验，仅 3 粉极高风险）、Oasis（Montra 上的 Elysium 发射台，手续费每 5 分钟自动加池，04:10 CST 首笔加池已执行，CA 已核验，9 粉新号）。更新：库内 POD（elzecpod）03:57 CST 新官号 @Elysium_POD 发了 $POD CA（1 粉，极高风险）。≤2h 无新增：Twopad 约 04:50 CST 上线（03:55 后官推无新帖，仍无链/CA）、Hood Syndicate 05:00 CST mint、RRF Village FCFS 约 05:48 CST 止，均无变化。面板：https://reboot7454.github.io/early-scout/
@@ -25,7 +25,7 @@
 - discordPeekNote: R1613 DC 流程 04:10 CST 刚补完（lastSeen 04:02），距今 <1h，本轮不 Peek
 - dsFallback: False
 - dsNote: DS 打分 5 条（拆 2+2+1），admit 3/拒 2（POD、Inucoin）+ alert 文案（执行端改写前缀与格式）；risk 取 (100-x)/10
-- softDebt: Canton/Glaze/TokenWorks/Elysium lastChecked 刷到 04:50 CST
+- softDebt: Canton/Glaze/TokenWorks/Elysium lastChecked 刷到 04:44 CST
 - elysiumNote: $AZTH/$PEAR/$OASIS/$POD 均 Elysium RPC 核验有代码（45B 最小代理）、总量 1B；均不在官方生态页，归台子/Meme 不进 Elysium 栏
 - watchAdds: 12 号进 UF：R1613 DC 八号（@WalrusHood/@usemorf/@HypeWaveDeFi/@Enter_Ghosts/@greenweekcoming/@kubo_cube/@usefliply/@usecreditpad）+ 本轮 @UseAzimuth/@PearElysium/@OasisLiquidity + @Elysium_POD
 - docsSynced: True
