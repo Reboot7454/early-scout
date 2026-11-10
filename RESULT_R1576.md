@@ -1,7 +1,7 @@
 # R1576 early-scout RESULT（2026-11-10 16:06 CST）
 
 - round: R1576
-- pushSha/tip: b97f3fc
+- pushSha/tip: 35a9f71
 - mode: ample softCap=28（lastFullAfterReset=R1555，非 post-reset-full）
 - xReads: 12 | remainingBefore: 749 → remaining: 737 | ufCursor: 748→764
 - lastFullAfterReset: R1555
