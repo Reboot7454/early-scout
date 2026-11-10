@@ -1,0 +1,341 @@
+{
+  "round": 1608,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-11 02:46 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R1608新收6项：台子/Meme 5（NearMeMe、Elysium Higgs、Ely OTC、Fee Bay、Runcore）、挖矿 1（PONK）；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "nearmemefun",
+    "enter-higgs",
+    "elyotcxyz",
+    "feebay",
+    "runcore",
+    "enter-ponk"
+  ],
+  "newCount": 6,
+  "newIds": [
+    "nearmemefun",
+    "enter-higgs",
+    "elyotcxyz",
+    "feebay",
+    "runcore",
+    "enter-ponk"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 42,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "barrels-elysium",
+    "elyspay",
+    "heyghostcat",
+    "launchonveil",
+    "pangsrally"
+  ],
+  "candidateFlagsCleared": 5,
+  "topNewThisRoundCleared": [
+    "barrels-elysium",
+    "elyspay",
+    "heyghostcat",
+    "launchonveil",
+    "pangsrally"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits_raw=6 final=6 calls=5",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-11 02:38",
+    "lastChecked": "2026-11-11 02:46 CST",
+    "newestCardTime": "2026-11-11 02:38",
+    "cardsAfterCutoff": 42,
+    "note": "R1608：Discord alpha 补收 nearmemefun,enter-higgs,elyotcxyz,feebay,runcore,enter-ponk；手工跳过 thehypesium（与 R1532 @Hypesium 同项目）；Higgs/ElyOTC 不在 elysium.kinetiq.xyz/ecosystem 归台子/Meme，PONK 归挖矿；lastSeen→2026-11-11 02:38；lastChecked→2026-11-11 02:46 CST",
+    "lastRound": 1608,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-11 02:38",
+      "alpha-1-backup": "2026-11-11 01:04",
+      "smart-accounts-tracker": "2026-11-11 02:24",
+      "alpha-1": "2026-11-11 02:36"
+    },
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-08 19:14",
+      "to": "2026-11-09 12:43",
+      "nFilled": 0,
+      "note": "skipped this run; prior gap still open"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1608：Discord alpha 补收 nearmemefun,enter-higgs,elyotcxyz,feebay,runcore,enter-ponk；手工跳过 thehypesium（与 R1532 @Hypesium 同项目）；Higgs/ElyOTC 不在 elysium.kinetiq.xyz/ecosystem 归台子/Meme，PONK 归挖矿；lastSeen→2026-11-11 02:38；lastChecked→2026-11-11 02:46 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1608.json",
+  "priorRoundNote": "opened at web-radar R1607 (NTR: barrels-elysium,elyspay,heyghostcat,launchonveil,pangsrally); this DC=R1608; cardsAfterCutoff=42; unique=39 already=2 preReject=3 keep=34; X 34/34; manualSkip=1 (@TheHypesium=R1532 @Hypesium); DS keep=33 admits=6",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-11 02:38",
+    "alpha-1-backup": "2026-11-11 01:04",
+    "smart-accounts-tracker": "2026-11-11 02:24",
+    "alpha-1": "2026-11-11 02:36"
+  },
+  "cardsRead": 42,
+  "cardsAfterCutoff": 42,
+  "cardsReadApprox": 79,
+  "rejected": [
+    {
+      "handle": "@FatimaHassvze6",
+      "reason": "个人生活号，无独立项目与产品线索"
+    },
+    {
+      "handle": "@Samuel674577160",
+      "reason": "个人学习型账号，无项目产品"
+    },
+    {
+      "handle": "@Kumaskkkk",
+      "reason": "AI 开发者个人号，无项目主体"
+    },
+    {
+      "handle": "@RalucaRdulescu1",
+      "reason": "机器人公司 CEO 个人号，与加密项目无关"
+    },
+    {
+      "handle": "@SolaceBSC",
+      "reason": "仅 1 推 1 关注的 pages.dev 单页代币，无实质产品线索"
+    },
+    {
+      "handle": "@Abdulla98719303",
+      "reason": "个人创业者号，0 推文无项目"
+    },
+    {
+      "handle": "@agentchillguy",
+      "reason": "bio 仅喊 mint $CHILLGUY 赚 BNB，0 推文、无站点、无产品实证，属空壳 meme 号。"
+    },
+    {
+      "handle": "@HilloAgent",
+      "reason": "AI agent 基建非发射/mint/挖矿玩法，且仅 1 推、无链上产品实证，类别也无法归入现有赛道。"
+    },
+    {
+      "handle": "@strandsagentsAi",
+      "reason": "开源 AI agent 工具包，非加密项目，无链、无 token、无 mint/挖矿玩法。"
+    },
+    {
+      "handle": "@Albertozhaouse",
+      "reason": "创始人个人号，非项目独立推特，属 KOL/个人叙事。"
+    },
+    {
+      "handle": "@dooleyt1965",
+      "reason": "个人生活叙事账号，无任何项目、产品与加密玩法。"
+    },
+    {
+      "handle": "@qiguai_bsc",
+      "reason": "扫链 KOL 个人号，仅关注 @Enter_Elysium，无自有项目，且挂机器人标签。"
+    },
+    {
+      "handle": "@cooklucie43",
+      "reason": "个人艺术/隐身建造者号，无具体项目、无产品与发行线索。"
+    },
+    {
+      "handle": "@alexanderwill",
+      "reason": "2009 年老号、2000+ 粉的成熟投资人/创业者，非极早期加密项目。"
+    },
+    {
+      "handle": "@zhou2004",
+      "reason": "个人小号，无数项目、无产品，bio 为空泛自述。"
+    },
+    {
+      "handle": "@blonbigdfve2w",
+      "reason": "越南语酒店简介的个人号，无任何项目或产品线索，仅因关注币安被抓取。"
+    },
+    {
+      "handle": "@theembassysf",
+      "reason": "旧金山欧洲创始人社群空间，非链上项目、无代币或产品玩法，仅私邀制社区。"
+    },
+    {
+      "handle": "@LawrenceLundy",
+      "reason": "个人研究者账号，bio 为情绪化表达，无独立项目推特或产品。"
+    },
+    {
+      "handle": "@sharpwolfsol",
+      "reason": "0 推文、1 粉丝的新建空壳号，bio 仅为游戏口味描述，无项目。"
+    },
+    {
+      "handle": "@AkariOtohime",
+      "reason": "受保护的个人吐槽号，bio 自称 FUD/喷子，无项目载体。"
+    },
+    {
+      "handle": "@AdvAJNel1",
+      "reason": "20 年执业律师的个人账号，与加密项目无关。"
+    },
+    {
+      "handle": "@Andrefulo",
+      "reason": "仅为关注 @Enter_Elysium 的猎人个人号，无自有项目，按规则一律拒。"
+    },
+    {
+      "handle": "@saeedyki3",
+      "reason": "0 粉丝、疑似机器人抓取的空壳号，bio 仅一词，无项目。"
+    },
+    {
+      "handle": "@MintoraNFT",
+      "reason": "泛NFT打新资讯号，无自营产品或发射线索，仅喊单式alpha，拒。"
+    },
+    {
+      "handle": "@Rabbybrs0",
+      "reason": "bio为无意义字符串，无产品无项目线索的个人小号，拒。"
+    },
+    {
+      "handle": "@CongVo1983",
+      "reason": "越南演员个人账号且受保护，与项目无关，拒。"
+    },
+    {
+      "handle": "@ChaosPandas",
+      "reason": "空壳meme社区，明确无代币销售且无产品/玩法/合约，拒。"
+    },
+    {
+      "handle": "@UKSovereignAI",
+      "reason": "高粉(10166)个人/KOL",
+      "followers": 10166,
+      "name": "UKSovereignAI",
+      "bio": "@shacheng followed @UKSovereignAI"
+    },
+    {
+      "handle": "@shipfr8",
+      "reason": "高粉(3847)个人/KOL",
+      "followers": 3847,
+      "name": "shipfr8",
+      "bio": "@shacheng followed @shipfr8"
+    },
+    {
+      "handle": "@BrendanFoody",
+      "reason": "高粉(33194)个人/KOL",
+      "followers": 33194,
+      "name": "BrendanFoody",
+      "bio": "@thenarrator followed @BrendanFoody"
+    }
+  ],
+  "rejectedCount": 30,
+  "alreadyHave": [
+    {
+      "handle": "@deuslaunch",
+      "reason": "already_have",
+      "id_guess": "deuslaunch",
+      "followers": 3637,
+      "name": "@deuslaunch"
+    },
+    {
+      "handle": "@troggchain",
+      "reason": "already_have",
+      "id_guess": "troggchain",
+      "followers": 17,
+      "name": "Trogg.trade"
+    }
+  ],
+  "alreadyCount": 2,
+  "preReject": [
+    {
+      "handle": "@UKSovereignAI",
+      "reason": "高粉(10166)个人/KOL",
+      "followers": 10166,
+      "name": "UKSovereignAI",
+      "bio": "@shacheng followed @UKSovereignAI"
+    },
+    {
+      "handle": "@shipfr8",
+      "reason": "高粉(3847)个人/KOL",
+      "followers": 3847,
+      "name": "shipfr8",
+      "bio": "@shacheng followed @shipfr8"
+    },
+    {
+      "handle": "@BrendanFoody",
+      "reason": "高粉(33194)个人/KOL",
+      "followers": 33194,
+      "name": "BrendanFoody",
+      "bio": "@thenarrator followed @BrendanFoody"
+    }
+  ],
+  "dsRejects": 27,
+  "admissions": [
+    {
+      "id": "nearmemefun",
+      "handle": "@NearMemeFun",
+      "category": "台子/Meme",
+      "name": "NearMeMe"
+    },
+    {
+      "id": "enter-higgs",
+      "handle": "@Enter_Higgs",
+      "category": "台子/Meme",
+      "name": "Elysium Higgs"
+    },
+    {
+      "id": "elyotcxyz",
+      "handle": "@ElyOTCxyz",
+      "category": "台子/Meme",
+      "name": "Ely OTC"
+    },
+    {
+      "id": "feebay",
+      "handle": "@feebay_",
+      "category": "台子/Meme",
+      "name": "Fee Bay"
+    },
+    {
+      "id": "runcore",
+      "handle": "@RunCoretech",
+      "category": "台子/Meme",
+      "name": "Runcore"
+    },
+    {
+      "id": "enter-ponk",
+      "handle": "@Enter_Ponk",
+      "category": "挖矿",
+      "name": "PONK"
+    }
+  ],
+  "manualCategoryFixes": [],
+  "manualSkip": [
+    {
+      "handle": "@TheHypesium",
+      "reason": "与已收 R1532 @Hypesium（id=hypesium）同项目重复号，官网同为 hypesium.com",
+      "id_guess": "thehypesium",
+      "sameAs": "hypesium",
+      "followers": 1,
+      "name": "Hypesium"
+    }
+  ],
+  "gapIncomplete": true,
+  "spideyPosting": true,
+  "xVerify": {
+    "checked": 34,
+    "exists": 34,
+    "missing": []
+  },
+  "dsUsageDetail": {
+    "calls": 5,
+    "prompt_tokens": 10884,
+    "completion_tokens": 13260,
+    "retries": [],
+    "model": "deepseek-flash",
+    "thinking": true,
+    "alertDsOk": true
+  },
+  "counts": {
+    "cardsReadApprox": 79,
+    "cardsAfterCutoff": 42,
+    "unique": 39,
+    "already": 2,
+    "preReject": 3,
+    "keep": 33,
+    "keepBeforeManualSkip": 34,
+    "dsAdmitsRaw": 6,
+    "admits": 6,
+    "dsRejects": 27,
+    "manualSkip": 1
+  },
+  "alert": "DC补漏R1608新收6项：台子/Meme 5（NearMeMe、Elysium Higgs、Ely OTC、Fee Bay、Runcore）、挖矿 1（PONK）；面板 https://reboot7454.github.io/early-scout/"
+}
