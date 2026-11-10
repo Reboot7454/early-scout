@@ -1,7 +1,7 @@
 # R1571 early-scout RESULT（2026-11-10 13:34 CST）
 
 - round: R1571（原拟接 R1570，因 13:22 CST Discord alpha 补漏已占 R1570，本轮升号）
-- pushSha/tip: TBD
+- pushSha/tip: a4ee048
 - mode: ample softCap=28（lastFullAfterReset=R1555，非 post-reset-full）
 - xReads: 16 | remainingBefore: 809 → remaining: 793 | ufCursor: 700→716
 - lastFullAfterReset: R1555
