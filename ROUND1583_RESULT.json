@@ -1,0 +1,216 @@
+{
+  "round": 1583,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-10 18:09 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R1583新收5条：spreadly〔Elysium〕、GenCity〔台子/Meme〕、Griffin〔台子/Meme〕、Catbalio〔Elysium〕、Elycash〔Elysium〕；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "tryspreadly",
+    "gencitybsc",
+    "griffin-rbh",
+    "catbalio",
+    "elycash"
+  ],
+  "newCount": 5,
+  "newIds": [
+    "tryspreadly",
+    "gencitybsc",
+    "griffin-rbh",
+    "catbalio",
+    "elycash"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 37,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "candidateFlagsCleared": 0,
+  "topNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=5",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-10 18:00",
+    "lastChecked": "2026-11-10 18:09 CST",
+    "newestCardTime": "2026-11-10 18:00",
+    "cardsAfterCutoff": 37,
+    "note": "R1583：Discord alpha 补收 tryspreadly,gencitybsc,griffin-rbh,catbalio,elycash；lastSeen→2026-11-10 18:00；lastChecked→2026-11-10 18:09 CST",
+    "lastRound": 1583,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-10 17:57",
+      "alpha-1-backup": "2026-11-10 17:49",
+      "smart-accounts-tracker": "2026-11-10 17:33",
+      "alpha-1": "2026-11-10 18:00"
+    },
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-08 19:14",
+      "to": "2026-11-09 12:43",
+      "nFilled": 0,
+      "note": "skipped this run; prior gap still open"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1583：Discord alpha 补收 tryspreadly,gencitybsc,griffin-rbh,catbalio,elycash；lastSeen→2026-11-10 18:00；lastChecked→2026-11-10 18:09 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1583.json",
+  "priorRoundNote": "R1582 web radar NTR []; opened at R1582, this DC=R1583; cardsAfterCutoff=37; batch2 retried",
+  "alert": "DC补漏R1583新收5条：spreadly〔Elysium〕、GenCity〔台子/Meme〕、Griffin〔台子/Meme〕、Catbalio〔Elysium〕、Elycash〔Elysium〕；面板 https://reboot7454.github.io/early-scout/",
+  "cardsRead": 37,
+  "cardsAfterCutoff": 37,
+  "cardsReadApprox": 83,
+  "dsNote": "batch2 first parse failed (truncated JSON); retried deepseek-flash thinking on, got 9/9 decisions including catbalio+elycash",
+  "dsUsageDetail": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "pipelineCalls": 4,
+    "pipelinePromptTokens": 6265,
+    "pipelineCompletionTokens": 16060,
+    "batch2Retry": true,
+    "batch2RetryUsage": {
+      "prompt_tokens": 2117,
+      "completion_tokens": 3029
+    },
+    "alertDsOk": true
+  },
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-10 17:57",
+    "alpha-1-backup": "2026-11-10 17:49",
+    "smart-accounts-tracker": "2026-11-10 17:33",
+    "alpha-1": "2026-11-10 18:00"
+  },
+  "rejected": [
+    {
+      "handle": "@rhbnkrbot",
+      "reason": "仅写“CA coming soon”，无产品、合约或发射实据，空壳号。"
+    },
+    {
+      "handle": "@HazMark1",
+      "reason": "bio为空、无产品线索，仅关注以太坊的个人号。"
+    },
+    {
+      "handle": "@chapa_eth",
+      "reason": "bio仅“figuring out”，属关注Elysium的猎人个人号，无具体部署。"
+    },
+    {
+      "handle": "@IyesirAhmeoe",
+      "reason": "bio仅“Give”、零粉丝，无产品/发射/玩法信息。"
+    },
+    {
+      "handle": "@StrikeOnElysium",
+      "reason": "虽蹭Elysium并称首个jackpot，但零粉且无CA/部署实据，空壳嫌疑大。"
+    },
+    {
+      "handle": "@MUKESHK86984318",
+      "reason": "bio仅“Be happy”、零粉丝，无任何项目或产品线索。"
+    },
+    {
+      "handle": "@njuucybergaming",
+      "reason": "游戏YouTube频道号，非加密项目，无产品/发射线索。"
+    },
+    {
+      "handle": "@OnionExchange",
+      "reason": "bio仅User ID，无可验证产品/发射/玩法信息，空壳Exchange号。"
+    },
+    {
+      "handle": "@AgentRails_",
+      "reason": "匿名研究/评论号，只做AI支付赛道观察，无自有产品或发射线索。"
+    },
+    {
+      "handle": "@leonidaspixel",
+      "reason": "仅关注 @Enter_Elysium 的个人猎人号，bio为励志口号，非Elysium部署项目。"
+    },
+    {
+      "handle": "@feribtc",
+      "reason": "交易教学/喊单类KOL号，无独立项目与产品线索。"
+    },
+    {
+      "handle": "@theshortdev",
+      "reason": "自称memecoin dev但无代币、合约或发射平台链接，空壳线索不足。"
+    },
+    {
+      "handle": "@gomand_202512",
+      "reason": "bio仅“新体验与惊喜”，无项目、无产品、无链接。"
+    },
+    {
+      "handle": "@uselocksley",
+      "reason": "仅有Robinhood Chain控制层概念描述，无链接/合约/发射线索，不可执行。"
+    },
+    {
+      "handle": "@nursri09",
+      "reason": "仅关注 @Enter_Elysium 的个人号，bio无任何项目或部署信息。"
+    },
+    {
+      "handle": "@GlowOnElysium",
+      "reason": "仅为Elysium猫吉祥物账号，无产品、mint或部署线索"
+    },
+    {
+      "handle": "@ChillMonkey_SOL",
+      "reason": "仅有meme文案的SOL空壳号，无项目、无产品"
+    },
+    {
+      "handle": "@0xAbismo",
+      "reason": "个人KOL式账号（自封某项目President），无自有产品"
+    },
+    {
+      "handle": "@DutDaBoss",
+      "reason": "个人成长/心态类账号，与链上项目无关"
+    },
+    {
+      "handle": "@zakkimusthofa1",
+      "reason": "空bio噪音号，无项目无产品"
+    },
+    {
+      "handle": "@Gdcfnf",
+      "reason": "喊单式个人号，无项目产品与发射线索"
+    },
+    {
+      "handle": "@kamil278071",
+      "reason": "自述crypto researcher的个人号，无自有产品"
+    }
+  ],
+  "rejectedCount": 22,
+  "dsRejects": 22,
+  "admissions": [
+    {
+      "id": "tryspreadly",
+      "handle": "@tryspreadly",
+      "category": "Elysium",
+      "name": "spreadly"
+    },
+    {
+      "id": "gencitybsc",
+      "handle": "@gencitybsc",
+      "category": "台子/Meme",
+      "name": "GenCity"
+    },
+    {
+      "id": "griffin-rbh",
+      "handle": "@griffin_rbh",
+      "category": "台子/Meme",
+      "name": "Griffin"
+    },
+    {
+      "id": "catbalio",
+      "handle": "@Catbaliokntq",
+      "category": "Elysium",
+      "name": "Catbalio"
+    },
+    {
+      "id": "elycash",
+      "handle": "@TryElycash",
+      "category": "Elysium",
+      "name": "Elycash"
+    }
+  ],
+  "gapIncomplete": true,
+  "spideyPosting": true
+}
