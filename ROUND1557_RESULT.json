@@ -1,0 +1,97 @@
+{
+  "round": 1557,
+  "roundLabel": "R1557",
+  "checkedAt": "2026-11-10 08:50 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "le2h",
+  "alertMessage": "R1557无新收录；ShortFloat 仍处 2h 窗口（07:15 LIVE），请盯盘：https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": false,
+  "discordPeekNote": "skipped Peek this round; R1556 Discord alpha补漏 ~08:46 CST just completed (also R1552 Peek / R1554 Discord alpha recently); discordPeekDeferred=false",
+  "docsSynced": true,
+  "pushSha": "fce19c8",
+  "tip": "fce19c8",
+  "xReads": 21,
+  "remainingBefore": 961,
+  "remaining": 940,
+  "mode": "ample",
+  "softCap": 28,
+  "eveningReserve": 80,
+  "lastFullAfterReset": "R1555",
+  "ufCursor": {
+    "before": 588,
+    "after": 604
+  },
+  "ufCursorBefore": 588,
+  "ufCursorAfter": 604,
+  "xQuota": {
+    "xReads": 21,
+    "remainingBefore": 961,
+    "remaining": 940,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 588,
+    "ufCursor": 604,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-10 08:50 CST",
+    "note": "intended as R1556 radar (lastFullAfterReset=R1555, not post-reset-full) but R1556 was taken by Discord alpha 补漏 at 08:46 CST; published as R1557. UF588→604 + must/≤2h×3 + UF from:×1 + KW×12 + mentions DogeOS×1 + profiles×1 + Kalos post×1 + HomeELYSIUM×1；无新收；ShortFloat仍≤2h；ORVYN/InkMiners仍LIVE但>4h；Home Of Elysium 改 live（04:28 CST 首宣，>2h）；DS成功；Discord Peek跳过（R1556 DC补漏刚做）"
+  },
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking on；admit/skip/alert 成功；skip branditmeme（Launching soon 无CA/站点/时刻）、kalos-nft/@KalosonElysium（LAST CHANCE 尾盘催铸+二级已开，非新开窗）、squeek-wars/@0xdegenapt（2021个人号，无独立项目官推）",
+  "newThisRound": [],
+  "newIds": [],
+  "newCount": 0,
+  "newAdmitsDetail": [],
+  "skipped": [
+    {
+      "id": "branditmeme",
+      "handle": "@branditmeme",
+      "reason": "有独立项目推，但 bio 仅 Launching soon，无 CA、无站点、无明确开盘时刻，仅口头 Fair launch"
+    },
+    {
+      "id": "kalos-nft",
+      "handle": "@KalosonElysium",
+      "reason": "尾盘催铸：LAST CHANCE + 二级已开，非新开窗；库内已有 kalosfun"
+    },
+    {
+      "id": "squeek-wars",
+      "handle": "@0xdegenapt",
+      "reason": "2021 个人号，无独立项目官推"
+    }
+  ],
+  "clearedPrevNTR": [
+    "elysium-atm-xyz",
+    "elysium-hand",
+    "dotpaid-app",
+    "lastcandlegame"
+  ],
+  "le2h": [
+    "ShortFloat 发射台+代币约 07:15 CST 官宣 LIVE（仍≤2h，至 09:15 CST）CA DxYD9Y3sjrN52azCNhcLvyLu3wgsxqJRYJGrLysspump",
+    "ORVYN 代币+NFT FREE mint 仍 LIVE（开窗已>4h）CA 0xd610b7d915dc58d92fc85e0f0174b71ed73cb650",
+    "InkMiners mint 仍 LIVE（The Vein；0.00018 ETH / 333；开窗已>4h）"
+  ],
+  "keyUpdates": [
+    "R1556 已被 Discord alpha 补漏占用（08:46 CST 新收 elysium-atm-xyz / elysium-hand / dotpaid-app / lastcandlegame）；本雷达按交接不覆盖更高轮，改为 R1557 发布",
+    "UF588→604：16槽；NF/suspended×5 FISTAgent(suspended)/Elysium_Rocks/Villagers_RH/Ainubsc(suspended)/agentcityuk；11 valid 全在库（含 AnemosPad 大小写）",
+    "ShortFloat 约07:15 CST LIVE，08:47 CST 再核仍≤2h",
+    "ORVYN @Orvyn___ 代币+NFT 仍 LIVE，开窗>4h，最新官帖停在 05:00 CST",
+    "InkMiners 确认仍 LIVE，开窗>4h，最新官帖 06:37 CST",
+    "Home Of Elysium 04:28 CST 官宣 live on Enter_Elysium Mainnet（站点 homeofelysium.xyz），status announced→live；首次开窗已>2h",
+    "KalosonElysium 08:01 CST LAST CHANCE mint，非新开窗，未单独建卡",
+    "Canton/Glaze/TokenWorks/btcPrivacy/starknet/tapeOut/agentPad/elysium lastChecked 软债刷新",
+    "HashDoge/Genius/Corla/Flap: STOPPED",
+    "lastFullAfterReset=R1555（本轮 ample paced，未再跑 post-reset-full）"
+  ],
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED",
+  "tenLanes": "R1557 雷达主扫（ample paced softCap=28；原计划 R1556，因 Discord alpha 补漏已占 R1556 而改发 R1557）。UF 588→604（16槽；NF/suspended×5 FISTAgent/Elysium_Rocks/Villagers_RH/Ainubsc/agentcityuk；11 valid 全在库）+ must/≤2h×3 posts（ShortFloat 仍≤2h；InkMiners 仍 LIVE>4h；ORVYN 仍 LIVE>4h）+ UF from: 近帖×1（仅 obolworld 主网 live 旧讯，>2h）+ KW×12（打新、挖矿/squeek、台子/Meme、GO初扫、LayerZero、Elysium、Tape/电路、GIWA、DogeEVM、BTC、Starknet、GO二次清洗）+ mentions DogeOS×1（0帖）+ 核验 profiles×1（KalosonElysium/0xdegenapt/branditmeme）+ Kalos mint 帖×1 + HomeELYSIUM from:×1。九栏+BTC/Starknet/GIWA均跑。GIWA 仍 Ammora 等待名单噪音；DogeEVM 无新挂靠；Tape 无新项目；Starknet/LZ 无新可收号；GO 清洗后 0 帖。Discord Peek 跳过（R1556 Discord alpha 补漏刚做）。无新收；skip branditmeme/kalos-nft/squeek-wars。",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1557：无新收录；ShortFloat仍≤2h；ORVYN与InkMiners仍LIVE但>4h；Home Of Elysium改live。",
+  "pushShaFull": "fce19c802541ce694d140458a9b7f91c5b3528de",
+  "contentSha": "fce19c8",
+  "intendedRound": 1556,
+  "actualRound": 1557,
+  "collisionNote": "Parent asked for R1556 radar, but origin/main already had R1556 Discord alpha 补漏 (b2f7862 / 5930985, 08:46 CST, admits elysium-atm-xyz/elysium-hand/dotpaid-app/lastcandlegame). Scout published as R1557 to avoid overwrite."
+}
