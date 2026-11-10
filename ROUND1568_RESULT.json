@@ -51,12 +51,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "6371b6a",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1568：Discord alpha 补收 ai-samaritan,myargos,antibotfinance,askhookfun,frondink,monkai1073,mitonmyway；lastSeen→2026-11-10 12:49；lastChecked→2026-11-10 12:58 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1568.json",
   "priorRoundNote": "R1567 meta NTR []; cardsAfterCutoff=44",
   "lastSeenByChannel": {
@@ -248,5 +250,9 @@
   ],
   "alert": "DC补漏R1568新收7个：Samaritan、MyArgos、AntiBot、AskHook、Frond、monkai1073、MitonMyWay；面板 https://reboot7454.github.io/early-scout/",
   "gapIncomplete": true,
-  "spideyPosting": true
+  "spideyPosting": true,
+  "pushSha": "6371b6a",
+  "tip": "6371b6a",
+  "pushShaFull": "6371b6a1652ac2557cacf716fd864fb90ee2014d",
+  "docsSynced": true
 }
