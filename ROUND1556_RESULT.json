@@ -49,12 +49,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "b2f7862",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1556：Discord alpha 补收 elysium-atm-xyz,elysium-hand,dotpaid-app,lastcandlegame；清 tryvela；lastSeen→2026-11-10 08:38；lastChecked→2026-11-10 08:46 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1556.json",
   "priorRoundNote": "R1555 meta NTR ['tryvela']; cardsAfterCutoff=48",
   "lastSeenByChannel": {
@@ -204,5 +206,9 @@
   ],
   "alert": "DC补漏R1556新收4项：ATM、Elysium Hand、DotPaid、LastCandle；https://reboot7454.github.io/early-scout/",
   "gapIncomplete": true,
-  "spideyPosting": true
+  "spideyPosting": true,
+  "pushSha": "b2f7862",
+  "tip": "b2f7862",
+  "pushShaFull": "b2f78620994483aed799a239e20f181ad4450948",
+  "docsSynced": true
 }
