@@ -1,7 +1,7 @@
 # R1561 early-scout RESULT（2026-11-10 10:16 CST）
 
 - round: R1561
-- pushSha/tip: （待推送后回填）
+- pushSha/tip: b2e7ef4
 - mode: ample softCap=28（lastFullAfterReset=R1555，非 post-reset-full）
 - xReads: 20 | remainingBefore: 917 → remaining: 897 | ufCursor: 620→636
 - lastFullAfterReset: R1555
