@@ -1,0 +1,83 @@
+{
+  "round": 1558,
+  "roundLabel": "R1558",
+  "checkedAt": "2026-11-10 09:27 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": false,
+  "notifyReason": "none",
+  "alertMessage": "",
+  "discordPeekDeferred": false,
+  "discordPeekNote": "skipped Peek this round; R1556 Discord alpha补漏 ~08:46 CST recently (R1557 also skipped); discordPeekDeferred=false",
+  "docsSynced": true,
+  "pushSha": "pending",
+  "tip": "pending",
+  "xReads": 23,
+  "remainingBefore": 940,
+  "remaining": 917,
+  "mode": "ample",
+  "softCap": 28,
+  "eveningReserve": 80,
+  "lastFullAfterReset": "R1555",
+  "ufCursor": {
+    "before": 604,
+    "after": 620
+  },
+  "ufCursorBefore": 604,
+  "ufCursorAfter": 620,
+  "xQuota": {
+    "xReads": 23,
+    "remainingBefore": 940,
+    "remaining": 917,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 604,
+    "ufCursor": 620,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-10 09:27 CST",
+    "note": "ample paced softCap=28; lastFullAfterReset=R1555; UF604→620 + must/≤2h×3 + UF from:×1 + KW×12 + mentions Enter_Elysium×1 + profiles×3 + EnterElysium id×1；无新收；ShortFloat>2h；DS skip elysium-pyramids"
+  },
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking on；admit/skip 成功；skip elysium-pyramids/@ElysiumPyramids（帖挂靠 2013 个人号 @enterElysium 非官方 L2 @Enter_Elysium；无站点/CA/mint链，仅征集钱包）",
+  "newThisRound": [],
+  "newIds": [],
+  "newCount": 0,
+  "newAdmitsDetail": [],
+  "skipped": [
+    {
+      "id": "elysium-pyramids",
+      "handle": "@ElysiumPyramids",
+      "reason": "错误挂靠个人号 @enterElysium（2013法学学生号），非官方 L2 @Enter_Elysium；无站点、无CA、无mint链，仅征集钱包"
+    },
+    {
+      "id": "wartask1",
+      "handle": "@Wartask1",
+      "reason": "个人研究/交易号，非独立项目官推"
+    },
+    {
+      "id": "eternals-io",
+      "handle": "@Eternals_io",
+      "reason": "个人 KOL 号，非独立项目官推"
+    }
+  ],
+  "clearedPrevNTR": [
+    "tryvela"
+  ],
+  "le2h": [],
+  "keyUpdates": [
+    "ShortFloat ≤2h 窗口关闭（07:15→09:15；09:25 复核最新帖仍约07:28）",
+    "ORVYN / InkMiners 仍 LIVE，开窗已>5h",
+    "UF604→620：16槽；NF/suspended×6 UseHyperLiquid(suspended)/MonsterRH_/Derpagent_/Proxisfun/ramencoinmeme/letswinhood；10 valid 全在库",
+    "DS skip elysium-pyramids（错误挂靠 @enterElysium 个人号）",
+    "giwa-signals 补写 handle=@GiwaSignals + ecosystem GIWA（监控 bug 软修）",
+    "Canton/Glaze/TokenWorks/btcPrivacy/starknet/tapeOut/agentPad/elysium lastChecked 软债刷新",
+    "HashDoge/Genius/Corla/Flap: STOPPED",
+    "lastFullAfterReset=R1555（本轮 ample paced，未再跑 post-reset-full）"
+  ],
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED",
+  "tenLanes": "R1558 雷达主扫（ample paced softCap=28；lastFullAfterReset=R1555）。UF 604→620（16槽；NF/suspended×6 UseHyperLiquid/MonsterRH_/Derpagent_/Proxisfun/ramencoinmeme/letswinhood；10 valid 全在库）+ must/≤2h×3 posts（ShortFloat>2h；InkMiners/ORVYN 仍 LIVE>5h）+ UF from: 近帖×1（homer_fi/getblessed_fun/AgentsGoFirst 旧讯，无≤2h）+ KW×12（打新、挖矿/squeek、台子/Meme、GO初扫、LayerZero、Elysium、Tape/电路、GIWA、DogeEVM、BTC、Starknet、GO二次清洗0帖）+ mentions Enter_Elysium×1（无新可收挂靠；Monchies/Rebate/Montra 已在库）+ 核验 profiles×3（ElysiumPyramids/GiwaSignals/Wartask1·Eternals_io）+ EnterElysium id 核验×1。九栏+BTC/Starknet/GIWA均跑。GIWA 仍 Ammora 等待名单噪音；DogeEVM 无新挂靠；Tape 无新项目官推；Starknet/LZ 无新可收号（globemkts 已在库）。Discord Peek 跳过（R1556 Discord alpha 补漏刚做）。无新收；skip elysium-pyramids。",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1558：无新收录；ShortFloat ≤2h 已过；ORVYN与InkMiners仍LIVE但>5h；skip 错误挂靠的 ElysiumPyramids。"
+}
