@@ -27,4 +27,4 @@
 - watchAdds: 5 新号进 UF；Barrels/ElysPay 进 elysiumWatch
 - docsSynced: True
 - panel: https://reboot7454.github.io/early-scout/
-- pushSha: None
+- pushSha: ed8cdfb4c5b54b2206a5ed0288b59143ae352cad
