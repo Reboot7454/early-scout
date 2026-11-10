@@ -55,12 +55,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "22d0781",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1583：Discord alpha 补收 tryspreadly,gencitybsc,griffin-rbh,catbalio,elycash；lastSeen→2026-11-10 18:00；lastChecked→2026-11-10 18:09 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1583.json",
   "priorRoundNote": "R1582 web radar NTR []; opened at R1582, this DC=R1583; cardsAfterCutoff=37; batch2 retried",
   "alert": "DC补漏R1583新收5条：spreadly〔Elysium〕、GenCity〔台子/Meme〕、Griffin〔台子/Meme〕、Catbalio〔Elysium〕、Elycash〔Elysium〕；面板 https://reboot7454.github.io/early-scout/",
@@ -212,5 +214,8 @@
     }
   ],
   "gapIncomplete": true,
-  "spideyPosting": true
+  "spideyPosting": true,
+  "docsSynced": true,
+  "pushSha": "22d0781",
+  "pushShaFull": "22d078183e9e43b4d6aab4ff36f3c0032ec2da1c"
 }
