@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-11 05:32 CST",
+    "updated": "2026-11-11 06:15 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-11 05:32 CST",
+    "lastScout": "2026-11-11 06:15 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -721,7 +721,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1618,
+    "round": 1619,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2162,10 +2162,11 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "gyre-trade",
-      "elysium-guy",
-      "hyperace",
-      "pebble-crows"
+      "elysiumrime",
+      "elfless-fun",
+      "elysium-errand",
+      "trycurb",
+      "deathrug"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4677,17 +4678,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-11 05:26",
-      "lastChecked": "2026-11-11 05:32 CST",
-      "newestCardTime": "2026-11-11 05:26",
-      "cardsAfterCutoff": 29,
-      "note": "R1617：Discord alpha 补收 epay,stater,nightbow-bsc,soltechnics；Nightbow 由台子/Meme 改归打新（BNB 555 NFT mint）；SOLTECHNICS 由打新改归台子/Meme（Solana 众筹协议）；Stater 站点名校正（卡面曾写 Stated）；EPAY/Stater/hypermontra/GetEly 不在 elysium.kinetiq.xyz/ecosystem，不得进 Elysium 栏；手工跳过 @ringspadsol（与 R1605 @theringpad 同项目）；lastSeen→2026-11-11 05:26；lastChecked→2026-11-11 05:32 CST",
-      "lastRound": 1617,
+      "lastSeen": "2026-11-11 06:07",
+      "lastChecked": "2026-11-11 06:15 CST",
+      "newestCardTime": "2026-11-11 06:07",
+      "cardsAfterCutoff": 41,
+      "note": "R1619：Discord alpha 补收 elysiumrime,elfless-fun,elysium-errand,trycurb,deathrug；RIME/elfless/EL ERRAND/Hookz/elSEND/MCAPY 不在 elysium.kinetiq.xyz/ecosystem，不得进 Elysium 栏；TryCurb 与 Death Rug 由打新改归台子/Meme（跨链发射台 / Solana 狙击工具）；TryCurb 与已有 @CurbFun（id=curb）及 @curbmarketfi 重名但链与玩法不同，独立收录；lastSeen→2026-11-11 06:07；lastChecked→2026-11-11 06:15 CST",
+      "lastRound": 1619,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-11 05:26",
-        "alpha-1-backup": "2026-11-11 05:19",
-        "smart-accounts-tracker": "2026-11-11 05:19",
-        "alpha-1": "2026-11-11 05:20"
+        "alpha-3-new-accounts": "2026-11-11 06:07",
+        "alpha-1-backup": "2026-11-11 05:34",
+        "smart-accounts-tracker": "2026-11-11 06:01",
+        "alpha-1": "2026-11-11 05:54"
       },
       "alpha3OlderGap": {
         "attempted": false,
@@ -29229,9 +29230,251 @@
       "elysium-guy",
       "hyperace",
       "pebble-crows"
+    ],
+    "round1619Added": [
+      "elysiumrime",
+      "elfless-fun",
+      "elysium-errand",
+      "trycurb",
+      "deathrug"
     ]
   },
   "candidates": [
+    {
+      "id": "deathrug",
+      "name": "Death Rug",
+      "handle": "@deathrugbot",
+      "twitter": "@deathrugbot",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/deathrugbot",
+        "web": "https://deathrug.com",
+        "site": "https://deathrug.com"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 7,
+        "overall": 6.4
+      },
+      "highlights": [
+        "deathrug.com 正常打开，明确为 Solana rugger 钱包追踪 + 狙击 Telegram Bot",
+        "功能含 30 档止盈止损、5 档抄底、多语言界面",
+        "追踪 dev 母钱包行为模式，玩法切入点为「跟 rugger 抢先 block 0」"
+      ],
+      "drawbacks": [
+        "账号 0 推文、9 粉，社交运营几乎为零",
+        "工具依赖跟单狙击，策略失效与被反制风险高",
+        "无代币/发射信息，仅工具付费"
+      ],
+      "whatsNew": "上线 Solana rugger 钱包追踪与一键狙击的 Telegram Bot，官网已可访问",
+      "summary": "Death Rug 是 Solana 上的 rugger 钱包追踪与狙击 Bot，官网 deathrug.com 可打开，提供钱包簇追踪、TP/SL 与抄底档位，属工具型早期产品，社交端几乎空白。",
+      "blurb": "Solana rugger 追踪狙击 Bot，官网可用",
+      "round": 1619,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 9,
+      "xFollowers": 9,
+      "firstSeen": "2026-11-11 06:15 CST",
+      "addedAt": "2026-11-11 06:15 CST",
+      "lastChecked": "2026-11-11 06:15 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "trycurb",
+      "name": "Curb",
+      "handle": "@trycurb",
+      "twitter": "@trycurb",
+      "chain": "Solana / Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/TryCurb"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.6
+      },
+      "highlights": [
+        "固定供应、单向曲线、封存流动性",
+        "曲线售罄后经Wormhole NTT迁移至Robinhood Chain"
+      ],
+      "drawbacks": [
+        "无官网/合约，仅1推且写“Soon”",
+        "与已有@CurbFun（curb）重名，易混淆"
+      ],
+      "whatsNew": "新号称在Solana发射，曲线售罄后通过Wormhole NTT将代币迁移到Robinhood Chain落地。",
+      "summary": "Curb是极早期跨链发射台概念：Solana端曲线发射，售罄后经Wormhole NTT迁至Robinhood Chain；目前仅推文说明，尚无站点/合约。",
+      "blurb": "Solana→Robinhood Chain跨链发射概念，极早期，重名风险高。",
+      "round": 1619,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 4,
+      "xFollowers": 4,
+      "firstSeen": "2026-11-11 06:15 CST",
+      "addedAt": "2026-11-11 06:15 CST",
+      "lastChecked": "2026-11-11 06:15 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "elysium-errand",
+      "name": "EL ERRAND",
+      "handle": "@elysium_errand",
+      "twitter": "@elysium_errand",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Elysium_ERRAND",
+        "web": "https://elerrand.fun/",
+        "site": "https://elerrand.fun/"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 8,
+        "novelty": 7,
+        "actionable": 7,
+        "overall": 6.7
+      },
+      "highlights": [
+        "站点 elerrand.fun 可打开，定位 AI agent 任务/悬赏市场",
+        "$ERROR 已由 @Enter_Elysium 发射并交易，CA 0xff39...df0f",
+        "bio 与推文给出玩法：Post a task. Set a bounty. Get the research back."
+      ],
+      "drawbacks": [
+        "0关注者/1推文，信息极少",
+        "官方 Elysium 生态页未列同名条目，Elysium 归属未核验",
+        "站点为 JS SPA，产品深度待验"
+      ],
+      "whatsNew": "token launched on @Enter_Elysium and trading now，自称1st agent marketplace",
+      "summary": "EL ERRAND 是建立在 Elysium 上的 AI agent 任务/悬赏市场，$ERROR 已通过 Enter_Elysium 发射并有 CA；项目极早期，官方生态页未列，按台子/Meme收录，不标Elysium。",
+      "blurb": "Elysium 上的 AI agent 任务市场，$ERROR 已发射，极早期",
+      "round": 1619,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-11 06:15 CST",
+      "addedAt": "2026-11-11 06:15 CST",
+      "lastChecked": "2026-11-11 06:15 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "elfless-fun",
+      "name": "elfless",
+      "handle": "@elfless_fun",
+      "twitter": "@elfless_fun",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/elfless_fun",
+        "web": "https://elfless.fun/",
+        "site": "https://elfless.fun/"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 8,
+        "overall": 7.1
+      },
+      "highlights": [
+        "$ELF 已由 @Enter_Elysium 发射，CA 0xa2581fb1…f2e6e",
+        "扫描器站点上线，含链上交易与投票玩法"
+      ],
+      "drawbacks": [
+        "0 粉、仅 1 推",
+        "未入官方生态页，归属未确认",
+        "创作者奖励/投票机制未经实测"
+      ],
+      "whatsNew": "elfless 站点上线 Elysium 代币扫描器，并宣布 $ELF 通过 @Enter_Elysium 发射、已可交易。",
+      "summary": "极早期 Elysium 代币扫描器+创作者奖励项目，已发射 $ELF 并公开 CA，站点可交互；因官方生态页无条目按台子类收录。",
+      "blurb": "Elysium 代币扫描器，$ELF 已发射有 CA。",
+      "round": 1619,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-11 06:15 CST",
+      "addedAt": "2026-11-11 06:15 CST",
+      "lastChecked": "2026-11-11 06:15 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "elysiumrime",
+      "name": "RIME",
+      "handle": "@elysiumrime",
+      "twitter": "@elysiumrime",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/elysiumrime",
+        "web": "https://rimeapp.fun/",
+        "site": "https://rimeapp.fun/"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 5,
+        "novelty": 7,
+        "actionable": 7,
+        "overall": 7.3
+      },
+      "highlights": [
+        "策略构建器+Hyperliquid 回测已上线",
+        "给出 RIME CA 0x1395e1d8…6848d",
+        "Elysium Mainnet 99901 与 MCP 接入"
+      ],
+      "drawbacks": [
+        "官方生态页无同名条目，归属未确认",
+        "仅 9 粉、6 推，账号 2024 年建但近期才活跃",
+        "mint 与回测实际可用性未验证"
+      ],
+      "whatsNew": "RIME 站点上线策略构建器，支持自然语言规则、Hyperliquid 历史回测、MCP 连接与在 Elysium 铸造策略，并公布 CA。",
+      "summary": "极早期 Elysium 生态工具，产品页面可交互（策略模板、回测、Mint、CA），但未被官方生态页收录，按台子类收录并标注 Elysium 主网。",
+      "blurb": "Elysium 上的策略构建器，站点可开、有 CA。",
+      "round": 1619,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 9,
+      "xFollowers": 9,
+      "firstSeen": "2026-11-11 06:15 CST",
+      "addedAt": "2026-11-11 06:15 CST",
+      "lastChecked": "2026-11-11 06:15 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "soltechnics",
       "name": "SOLTECHNICS",
@@ -262335,7 +262578,7 @@
       "addedAt": "2026-11-11 05:55 CST",
       "lastChecked": "2026-11-11 05:55 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "earlyScore": 8,
       "riskScore": 4,
@@ -262391,7 +262634,7 @@
       "addedAt": "2026-11-11 05:55 CST",
       "lastChecked": "2026-11-11 05:55 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "earlyScore": 8,
       "riskScore": 3,
@@ -262446,7 +262689,7 @@
       "addedAt": "2026-11-11 05:55 CST",
       "lastChecked": "2026-11-11 05:55 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "earlyScore": 8,
       "riskScore": 4,
@@ -262504,7 +262747,7 @@
       "addedAt": "2026-11-11 05:55 CST",
       "lastChecked": "2026-11-11 05:55 CST",
       "zoneHint": "挖矿",
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "earlyScore": 7,
       "riskScore": 3,
@@ -262512,25 +262755,26 @@
     }
   ],
   "newThisRound": [
-    "epay",
-    "stater",
-    "nightbow-bsc",
-    "soltechnics"
+    "elysiumrime",
+    "elfless-fun",
+    "elysium-errand",
+    "trycurb",
+    "deathrug"
   ],
-  "alertMessage": "DC补漏 R1617 新收：台子/Meme—EPAY（meme fee支付+CA）、Stater（AI接Elysium按Hyperliquid价交易）、SOLTECHNICS（Solana AI机器人里程碑众筹测试早期）；打新—Nightbow（BNB 555份NFT/55免费名额极早期mint）。面板：https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏 R1619 新收：台子/Meme—RIME（Elysium 策略构建器，站点可开、有 CA）、elfless（Elysium 代币扫描器，$ELF 已发射有 CA）、EL ERRAND（Elysium AI agent 任务市场，$ERROR 已发射，极早期）、Curb（Solana→Robinhood Chain 跨链发射概念，极早期，重名风险高）、Death Rug（Solana rugger 追踪狙击 Bot，官网可用）。面板：https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "meron-elysium",
     "enter-replicant",
     "pocketperps",
     "fluid-genesis"
   ],
-  "updatedAt": "2026-11-11 05:32 CST",
-  "updated": "2026-11-11 05:32 CST",
+  "updatedAt": "2026-11-11 06:15 CST",
+  "updated": "2026-11-11 06:15 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-11 05:32 CST",
+  "lastScout": "2026-11-11 06:15 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -262572,7 +262816,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3872,
+  "candidateCount": 3881,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -265883,5 +266127,12 @@
     "stater",
     "nightbow-bsc",
     "soltechnics"
+  ],
+  "round1619Added": [
+    "elysiumrime",
+    "elfless-fun",
+    "elysium-errand",
+    "trycurb",
+    "deathrug"
   ]
 }

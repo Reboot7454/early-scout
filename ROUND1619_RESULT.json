@@ -1,0 +1,289 @@
+{
+  "round": 1619,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-11 06:15 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏 R1619 新收：台子/Meme—RIME（Elysium 策略构建器，站点可开、有 CA）、elfless（Elysium 代币扫描器，$ELF 已发射有 CA）、EL ERRAND（Elysium AI agent 任务市场，$ERROR 已发射，极早期）、Curb（Solana→Robinhood Chain 跨链发射概念，极早期，重名风险高）、Death Rug（Solana rugger 追踪狙击 Bot，官网可用）。面板：https://reboot7454.github.io/early-scout/",
+  "alert": "DC补漏 R1619 新收：台子/Meme—RIME（Elysium 策略构建器，站点可开、有 CA）、elfless（Elysium 代币扫描器，$ELF 已发射有 CA）、EL ERRAND（Elysium AI agent 任务市场，$ERROR 已发射，极早期）、Curb（Solana→Robinhood Chain 跨链发射概念，极早期，重名风险高）、Death Rug（Solana rugger 追踪狙击 Bot，官网可用）。面板：https://reboot7454.github.io/early-scout/",
+  "newCount": 5,
+  "newIds": [
+    "elysiumrime",
+    "elfless-fun",
+    "elysium-errand",
+    "trycurb",
+    "deathrug"
+  ],
+  "newAdmits": [
+    "elysiumrime",
+    "elfless-fun",
+    "elysium-errand",
+    "trycurb",
+    "deathrug"
+  ],
+  "admissions": [
+    {
+      "id": "elysiumrime",
+      "handle": "@elysiumrime",
+      "category": "台子/Meme",
+      "name": "RIME"
+    },
+    {
+      "id": "elfless-fun",
+      "handle": "@elfless_fun",
+      "category": "台子/Meme",
+      "name": "elfless"
+    },
+    {
+      "id": "elysium-errand",
+      "handle": "@Elysium_ERRAND",
+      "category": "台子/Meme",
+      "name": "EL ERRAND"
+    },
+    {
+      "id": "trycurb",
+      "handle": "@TryCurb",
+      "category": "台子/Meme",
+      "name": "Curb"
+    },
+    {
+      "id": "deathrug",
+      "handle": "@deathrugbot",
+      "category": "台子/Meme",
+      "name": "Death Rug"
+    }
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 41,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "gyre-trade",
+    "elysium-guy",
+    "hyperace",
+    "pebble-crows"
+  ],
+  "candidateFlagsCleared": 4,
+  "topNewThisRoundCleared": [
+    "gyre-trade",
+    "elysium-guy",
+    "hyperace",
+    "pebble-crows"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits_raw=5 final=5 calls=5 prompt=24160 completion=18995",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-11 06:07",
+    "lastChecked": "2026-11-11 06:15 CST",
+    "newestCardTime": "2026-11-11 06:07",
+    "cardsAfterCutoff": 41,
+    "note": "R1619：Discord alpha 补收 elysiumrime,elfless-fun,elysium-errand,trycurb,deathrug；RIME/elfless/EL ERRAND/Hookz/elSEND/MCAPY 不在 elysium.kinetiq.xyz/ecosystem，不得进 Elysium 栏；TryCurb 与 Death Rug 由打新改归台子/Meme（跨链发射台 / Solana 狙击工具）；TryCurb 与已有 @CurbFun（id=curb）及 @curbmarketfi 重名但链与玩法不同，独立收录；lastSeen→2026-11-11 06:07；lastChecked→2026-11-11 06:15 CST",
+    "lastRound": 1619,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-11 06:07",
+      "alpha-1-backup": "2026-11-11 05:34",
+      "smart-accounts-tracker": "2026-11-11 06:01",
+      "alpha-1": "2026-11-11 05:54"
+    },
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-08 19:14",
+      "to": "2026-11-09 12:43",
+      "nFilled": 0,
+      "note": "skipped this run; prior gap still open"
+    },
+    "spideyPosting": true
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1619：Discord alpha 补收 elysiumrime,elfless-fun,elysium-errand,trycurb,deathrug；RIME/elfless/EL ERRAND/Hookz/elSEND/MCAPY 不在 elysium.kinetiq.xyz/ecosystem，不得进 Elysium 栏；TryCurb 与 Death Rug 由打新改归台子/Meme（跨链发射台 / Solana 狙击工具）；TryCurb 与已有 @CurbFun（id=curb）及 @curbmarketfi 重名但链与玩法不同，独立收录；lastSeen→2026-11-11 06:07；lastChecked→2026-11-11 06:15 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1619.json",
+  "priorRoundNote": "opened at web-radar R1618 (NTR: gyre-trade,elysium-guy,hyperace,pebble-crows) after git pull; this DC=R1619; cardsAfterCutoff=41; unique=38 already=5 preReject=1 (高粉 @deniz_zgur) manualSkip=0 keep=32; X 32/32; DS keep=32 admits=5; all five category=台子/Meme; none on official Elysium page; TryCurb name-collision with @CurbFun/@curbmarketfi noted",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-11 06:07",
+    "alpha-1-backup": "2026-11-11 05:34",
+    "smart-accounts-tracker": "2026-11-11 06:01",
+    "alpha-1": "2026-11-11 05:54"
+  },
+  "cardsRead": 41,
+  "cardsAfterCutoff": 41,
+  "cardsReadApprox": 101,
+  "rejected": [
+    {
+      "handle": "@MeronElysium",
+      "reason": "already_have",
+      "idHint": "meron-elysium"
+    },
+    {
+      "handle": "@LayerZero_Core",
+      "reason": "already_have",
+      "idHint": "atlas-lz"
+    },
+    {
+      "handle": "@tokentunes",
+      "reason": "already_have",
+      "idHint": "tokentunes"
+    },
+    {
+      "handle": "@growbloxtech",
+      "reason": "already_have",
+      "idHint": "growbloxtech"
+    },
+    {
+      "handle": "@peakfuntrade",
+      "reason": "already_have",
+      "idHint": "peakfun"
+    },
+    {
+      "handle": "@deniz_zgur",
+      "reason": "高粉(3671)个人/KOL",
+      "followers": 3671
+    },
+    {
+      "handle": "@salgoumi",
+      "reason": "个人号，仅有国旗 bio 与法语吐槽推文，无任何项目、产品、发射或玩法线索。",
+      "id": "salgoumi"
+    },
+    {
+      "handle": "@Hookzv4",
+      "reason": "账号当天新建、0 推文、无官网，仅 bio 自称 Uniswap v4 hooks 发射台，属空壳。",
+      "id": "hookzv4"
+    },
+    {
+      "handle": "@Jaime444m",
+      "reason": "个人创业者号，指向线下 AI 前台站点，与加密项目/发射无关。",
+      "id": "jaime444m"
+    },
+    {
+      "handle": "@reskerrr",
+      "reason": "bio 仅“Future KOL”，无产品无站点无发射，属个人号。",
+      "id": "reskerrr"
+    },
+    {
+      "handle": "@AbdoNsrgoolf",
+      "reason": "默认头像、0 推文、bio 为阿拉伯语泛内容，非项目号。",
+      "id": "abdonsrgoolf"
+    },
+    {
+      "handle": "@TokenGuardianAI",
+      "reason": "账号刚建、0 推文、默认头像、无官网，仅 bio 自称链上尽调工具，空壳。",
+      "id": "tokenguardianai"
+    },
+    {
+      "handle": "@Jimemes26",
+      "reason": "个人号，bio 仅一个表情，关注 robinhood，无项目产品与发射线索。",
+      "id": "jimemes26"
+    },
+    {
+      "handle": "@0xJetFuel",
+      "reason": "个人航空从业者账号，0推文、无项目/产品/发射线索，不符合收录条件。",
+      "id": "0xjetfuel"
+    },
+    {
+      "handle": "@PALMOILMAN",
+      "reason": "个人meme/喊单号，0推文，bio明示pump&dump，无产品/发射线索。",
+      "id": "palmoilman"
+    },
+    {
+      "handle": "@Elysium_SEND",
+      "reason": "站点仅有“CA soon”与Launch文案，0推文0粉且被标bot，尚无实际发射/合约，空壳风险高。",
+      "id": "elysium-send"
+    },
+    {
+      "handle": "@zorolabzeph",
+      "reason": "个人生活号，0推文、无项目/产品线索。",
+      "id": "zorolabzeph"
+    },
+    {
+      "handle": "@NoraNorazhz2",
+      "reason": "个人号，仅日常回复，无项目/产品/发射线索。",
+      "id": "noranorazhz2"
+    },
+    {
+      "handle": "@TrustWallet077",
+      "reason": "仿冒 Trust Wallet 客服号，典型钓鱼风险，直接拒。",
+      "id": "trustwallet077"
+    },
+    {
+      "handle": "@irisfIowers",
+      "reason": "个人艺术/人类学账号，高粉且非项目方，无加密产品线索。",
+      "id": "irisfiowers"
+    },
+    {
+      "handle": "@DentonBaird",
+      "reason": "个人通讯从业者账号，非项目方，无产品/发射线索。",
+      "id": "dentonbaird"
+    },
+    {
+      "handle": "@MCAPYOfficial",
+      "reason": "bio仅“Moon Capy Launch”，无官网/CA/产品，近期推文是骂项目方rug，空壳号，拒。",
+      "id": "mcapy-official"
+    },
+    {
+      "handle": "@wngy120771",
+      "reason": "个人投资记录号，无独立项目推特或产品线索，拒。",
+      "id": "wngy120771"
+    },
+    {
+      "handle": "@bigtuna",
+      "reason": "个人收藏/投资号，合作预告不构成独立项目卡，拒。",
+      "id": "bigtuna"
+    },
+    {
+      "handle": "@Uzi0x0",
+      "reason": "当日新建空账号，0推文且无任何项目线索，拒。",
+      "id": "uzi0x0"
+    },
+    {
+      "handle": "@VceGoRGHP",
+      "reason": "个人AI Trading账号，非独立项目号，无产品/发射线索，拒。",
+      "id": "vcegorghp"
+    },
+    {
+      "handle": "@AbrahymMuh681",
+      "reason": "学生/渗透测试个人号，无项目或发射线索，拒。",
+      "id": "abrahym-muh681"
+    },
+    {
+      "handle": "@Houcine_28",
+      "reason": "0推文个人空号，无独立项目或产品线索，拒。",
+      "id": "houcine-28"
+    },
+    {
+      "handle": "@Ryan69749794",
+      "reason": "个人号且长期无项目内容，无产品/发射线索，拒。",
+      "id": "ryan69749794"
+    },
+    {
+      "handle": "@SvenDotEth",
+      "reason": "个人生活号，bio 仅自称 ETH 死多头，无任何产品/发射线索",
+      "id": "svendoteth"
+    },
+    {
+      "handle": "@cornelliusIII",
+      "reason": "新开个人号，仅挂 pump.fun 单币链接，无独立产品与项目推特定位",
+      "id": "cornelliusiii"
+    },
+    {
+      "handle": "@exsternal_",
+      "reason": "0 粉新号，生活化 bio，2 推无任何产品线索",
+      "id": "exsternal"
+    },
+    {
+      "handle": "@CapoteLeonard",
+      "reason": "2021 年老号但 0 推文、0 外链，纯空壳",
+      "id": "capoteleonard"
+    }
+  ],
+  "dsRejects": 27,
+  "loginOk": true,
+  "spideyPosting": true
+}
