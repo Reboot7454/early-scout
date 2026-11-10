@@ -1,0 +1,134 @@
+{
+  "round": 1563,
+  "roundLabel": "R1563",
+  "checkedAt": "2026-11-10 10:57 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new admit + ≤2h",
+  "alertMessage": "R1563 新收 Elyon（@elyonpad，Solana 发射台并公告一键部署 Elysium，非≤2h）；仍≤2h：ELYCORE、Eden、Elysium Pairs（TG bot）。面板 https://reboot7454.github.io/early-scout/",
+  "discordPeekDeferred": false,
+  "discordPeekNote": "skipped Peek this round; R1562 Discord alpha补漏 10:51 CST already used the slot (9 admits); prior R1560 also a peek; discordPeekDeferred=false",
+  "docsSynced": true,
+  "pushSha": "PENDING",
+  "tip": "PENDING",
+  "xReads": 16,
+  "remainingBefore": 881,
+  "remaining": 865,
+  "mode": "ample",
+  "softCap": 28,
+  "eveningReserve": 80,
+  "lastFullAfterReset": "R1555",
+  "ufCursor": {
+    "before": 636,
+    "after": 652
+  },
+  "ufCursorBefore": 636,
+  "ufCursorAfter": 652,
+  "xQuota": {
+    "xReads": 16,
+    "remainingBefore": 881,
+    "remaining": 865,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 636,
+    "ufCursor": 652,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-10 10:57 CST",
+    "lastFullAfterReset": "R1555",
+    "note": "ample paced softCap=28；lastFullAfterReset=R1555；本拟 R1562 因 10:51 Discord 补漏占号升 R1563；UF636→652 + must/≤2h 合并 from: + KW 九栏+BTC/Starknet + GO二次清洗无新盘 + mentions TapeAIAgent×1（0帖）+ 新候选 profiles/官帖；新收 elyonpad（非≤2h）；仍≤2h 三张"
+  },
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking on；首次长输出被思考过程占满后以已定判断+json_object 重跑写出 JSON；admit 1 / skip 4",
+  "newThisRound": [
+    "elyonpad"
+  ],
+  "newIds": [
+    "elyonpad"
+  ],
+  "newCount": 1,
+  "newAdmitsDetail": [
+    {
+      "id": "elyonpad",
+      "name": "Elyon",
+      "handle": "@elyonpad",
+      "category": "台子/Meme",
+      "chain": "Solana",
+      "ecosystem": "Elysium",
+      "status": "live",
+      "followers": 26,
+      "scores": {
+        "early": 90,
+        "actionable": 70,
+        "novelty": 70,
+        "risk": 60,
+        "overall": 80
+      },
+      "le2h": false,
+      "ca": "GkDBtN2JZU7VsFZPfmBUQwu88LcwBgjRS3wJLMZUpump",
+      "website": "",
+      "signal": "https://x.com/elyonpad/status/2119768048093757724"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "gates-of-elysium",
+      "handle": "@GatesofElysium_",
+      "reason": "无CA/无站点/无mint窗，仅 coming soon 与 bio 挂靠 Elysium。"
+    },
+    {
+      "id": "osbook",
+      "handle": "@_OSBook",
+      "reason": "2026-05建号、近5千粉，产品更新非发射窗，不够极早期。"
+    },
+    {
+      "id": "cingcoeg-squeek-arena",
+      "handle": "@CingCoeg",
+      "reason": "个人号，无独立项目官推。"
+    },
+    {
+      "id": "launchonsf",
+      "handle": "@LaunchOnSF",
+      "reason": "6.4万粉成熟 Stonk 发射号，非极早期。"
+    }
+  ],
+  "clearedPrevNTR": [
+    "rentstock-prtcl",
+    "obsidryfun",
+    "elysianshield",
+    "alysum-trade",
+    "perpspad-live",
+    "trussfun",
+    "mintscope",
+    "mintropolis",
+    "stonksapp"
+  ],
+  "roundCollisionNote": "本拟 R1562，但 10:51 CST Discord alpha 补漏已占 R1562（rentstock-prtcl/obsidryfun/elysianshield/alysum-trade/perpspad-live/trussfun/mintscope/mintropolis/stonksapp），本轮雷达升为 R1563",
+  "le2h": [
+    "ELYCORE @0xELYCORE：09:59 CST 官宣 LIVE，其后 10:09 烧毁 dev 供应、10:12 上架 MontraXYZ，CA 0x09a1bda58ecf5453344e48b0c42904f9c168c040，仍≤2h 至约11:59",
+    "Eden @edenlandlol：09:57 CST live on Elysium，无新帖，粉1→2，CA 0x484ba063e5dfe9e5e86dc87558b9f33be9a519e5，≤2h 至约11:57，谨慎",
+    "Elysium Pairs @elysiumpairs：09:14 live + 09:58 TG bot LIVE，10:35 预告 Sell to SOL / Share cards，CA HJqfjaE4GopFCyWJj8igJJehjQcPjTHsM34aQXn4pump，主窗至约11:14、bot 至约11:58，仍≤2h"
+  ],
+  "keyUpdates": [
+    "因 R1562 已被 10:51 Discord 补漏占用（9张），本轮雷达升为 R1563",
+    "新收 elyonpad（@elyonpad）：11-09 20:24 CST 官宣 live on Solana，CA GkDBtN2JZU7VsFZPfmBUQwu88LcwBgjRS3wJLMZUpump，称可一键上 Elysium Mainnet；检查时已>14h，非≤2h",
+    "ELYCORE / Eden / Elysium Pairs 三张仍 LIVE 且 ≤2h（至约 11:59 / 11:57 / 11:14+11:58）",
+    "ShortFloat ≤2h 窗口仍关；ORVYN / InkMiners 仍 LIVE，开窗已>6h",
+    "UF636→652：16槽；susp×2 Honestcoin60/DropMinters；NF×1 onbeatfun；13 valid 全在库；48h 有帖但无≤2h",
+    "DS skip GatesofElysium_ / _OSBook / CingCoeg / LaunchOnSF",
+    "Canton/Glaze/TokenWorks/GIWA/DogeEVM/btcPrivacy/starknet/tapeOut/tape/elysium lastChecked 软债刷新；elyonpad 已写入 elysiumWatch + userFollowWatch",
+    "HashDoge/Genius/Corla/Flap: STOPPED",
+    "lastFullAfterReset=R1555（本轮 ample paced，未再跑 post-reset-full）",
+    "Discord Peek 跳过（R1562 10:51 CST 刚做完；其前 R1560 亦为补漏）",
+    "mentions 轮换 TapeAIAgent，近 3h 0 帖"
+  ],
+  "HashDoge": "STOPPED",
+  "Genius": "STOPPED",
+  "Corla": "STOPPED",
+  "Flap": "STOPPED",
+  "tenLanes": "R1563 雷达主扫（ample paced softCap=28；lastFullAfterReset=R1555，非 post-reset-full）。本拟 R1562，但 10:51 CST Discord alpha 补漏已占 R1562（9张），故升 R1563。UF 636→652（16槽；susp×2 Honestcoin60/DropMinters；NF×1 onbeatfun；13 valid 全在库；from: 48h 仅 PunkOnElysium/bamandbaw/devpnl/MintRoboAi 有帖，无≤2h）+ must/≤2h 合并 from:（ELYCORE/Eden/Pairs 仍≤2h LIVE；ShortFloat 窗已关；ORVYN/InkMiners 仍 LIVE>6h）+ KW 九栏+BTC/Starknet（含 GO 二次清洗，无新 GO 盘）+ mentions TapeAIAgent×1（近3h 0帖）+ 新候选 profiles/官帖（elyonpad/GatesofElysium_/_OSBook/CingCoeg/LaunchOnSF）。九栏+BTC/Starknet/GIWA 均跑。Discord Peek 跳过（R1562 Discord alpha 补漏 10:51 CST 刚做；其前 R1560 亦为补漏）。新收 1：elyonpad（Solana 发射台，公告一键上 Elysium，非≤2h）。skip：GatesofElysium_、_OSBook、CingCoeg、LaunchOnSF。",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "本拟 R1562，因 10:51 CST Discord alpha 补漏已占 R1562（9张），故升 R1563。本轮新收 Elyon，跳过 Gates of Elysium/OSBook/CingCoeg/LaunchOnSF；刷新 ELYCORE、Eden、Elysium Pairs，三者仍在≤2h 窗口。",
+  "pushShaFull": "PENDING",
+  "contentSha": "PENDING",
+  "docsSyncedFlag": true
+}
