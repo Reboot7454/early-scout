@@ -1,0 +1,24 @@
+# R1580 early-scout RESULT（2026-11-10 17:25 CST）
+
+- round: R1580
+- pushSha/tip: 5d63707
+- mode: ample softCap=28（lastFullAfterReset=R1555，非 post-reset-full）
+- xReads: 11 | remainingBefore: 706 → remaining: 695 | ufCursor: 780→796
+- lastFullAfterReset: R1555
+- 编号说明：本轮主扫开跑时基线仍是 R1578；Discord alpha 补漏已于 17:03 CST 占用 R1579（新收 bitforge、elyfish）。主扫改记 R1580，保留上述 2 张卡，并将其 newThisRound 清掉；同时把这两号补进 UF 表尾（@BitForge_hq / @elyfishxyz）以修 watch-bug。
+- newThisRound: 无
+- 状态升级：agent-feg 17:00 CST 开铸点已到，官网倒计时归零并写 Acquisitions open，但页面仍显示 Contract / Sale contract To be announced，CA 以官帖 0x8743fa8b279D1b85506c5cd223Bd40285d32a2dA 为准（0.005 BNB/份，每 ID 10 份），官推本轮最新仍是 16:16「45 minutes to go」，≤2h 至约 19:00；dogeking-agent 已进入 19:00 CST 开售前≤2h（前 1,000 份 Agent ID 免费，之后 0.002 BNB）；atlas-hl 17:04 CST 官帖称 HyperCars mint LIVE，页面实际白名单 17:30 免费（cap 30）/ 公开 18:30 为 0.01 HYPE（cap 1000），CA 0x0098B7200130678Ae64CeF788d6f2b4CA605cC31，Elysium 99901，totalSupply=0，≤2h 覆盖两道开闸；potionrh 17:01 Early List 已开，4,444 免费 NFT coming soon，未开铸；etherea-genesis 17:04 T-4 HOURS，尚未≤2h；jellysium 澄清尚未发币并将改品牌；mint-condition 本轮无新帖，≤2h 窗至 17:22 已关
+- ≤2h 仍开：agentix-agx 至约 17:46 CST（Token CA 0xC605d34A06B614224785f1119146a710A83C5A44）；agent-feg 至约 19:00 CST；volta-gent 至约 18:05 CST（CA 0x43cfeb5267125c4f3495d48dea202a7fc43bc5b1）；dogeking-agent 至 19:00 CST；atlas-hl HyperCars 17:30/18:30
+- 本轮关窗：mint-condition（约 17:22 CST）
+- 尚未≤2h：99901-fun 今晚 21:00 CST liftoff（约 19:00 CST 起算入窗）；etherea-genesis GTD 21:00 / FCFS 22:00 / Public 23:00 CST
+- dsFallback: False（deepseek-flash thinking on；admit 0 / skip 5：claf-eye 信息过薄未读官帖正文、starcards 无官推、lucky-moments 无官推、adventure-agent 站点连不上且无官推、hyperlabz 仅 AtlasHL 帖内链接未读该号，相关并入 atlas-hl）
+- discordPeekDeferred: False（本轮主扫跳过 Peek；R1575 已于 15:26 CST 做过一轮，且 R1577、R1579 Discord 补漏已分别于 16:27 / 17:03 CST 落地）
+- docsSynced: True
+- notify: True
+- alert: 【R1580】主扫无合格新收录（R1579 Discord 已补 BitForge、Elyfish，本轮已清 newThisRound）。库内升级：FEG 已到 17:00 开铸点，官网倒计时归零写 Acquisitions open，但合约仍显示待公布，CA 以官帖 0x8743fa8b279D1b85506c5cd223Bd40285d32a2dA 为准，≤2h 至约 19:00；DogeKing 19:00 开售（前 1000 份 Agent ID 免费）已进≤2h；AtlasHL HyperCars 白名单 17:30、公开 18:30 开铸（Elysium CA 0x0098B7200130678Ae64CeF788d6f2b4CA605cC31，totalSupply=0），均落未来 2 小时内。仍开的≤2h：Agentix 至约 17:46、VoltaGent 至约 18:05。本轮关窗：Mint Condition 约 17:22 已关窗。未进窗：99901.fun 21:00、Etherea GTD 21:00。PotionRH 早鸟名单已开未开铸；Jellysium 澄清未发币并将改品牌。面板 https://reboot7454.github.io/early-scout/
+- HashDoge/Genius/Corla/Flap: STOPPED
+- tenLanes: UF780→796 + must/≤2h 合并 from: + 因 Agentix/FEG 刷屏排除翻页 UF2×1 + KW 九栏+BTC/Starknet + mentions GIWA/@GIWA_by_Upbit+@YeonPad+@Jumak_app×1；九栏+BTC/Starknet/GIWA 均跑
+- UF shard 780–795：16 槽；本窗未见分片号发帖（也未把静默号标成 NF）；必盯可见帖均为已在库项目
+- skips/noise: @clafmarkets / The Claf Eye（仅第三方转述+官帖链接，本轮未读官帖、无官网/CA/粉丝数）；Star Cards（starcards.surge.sh，CA 0x8b059e611E5f16b4659f81698CDbcB3dcfcDFDF1，无官推）；Lucky Moments（luckymoments-bsc.netlify.app，无官推）；Adventure Agent AI（advagent.xyz 连不上，无官推）；@hyperlabz 不单独建卡
+- watch 补进：bitforge → userFollowWatch 表尾 @BitForge_hq；elyfish → userFollowWatch 表尾 @elyfishxyz（不插入中段以免光标错位）
+- softDebt lastChecked 已刷新：cantonWatch / cantonPadWatch / glazeWatch / tokenWorksWatch / tokenWorksPlaygroundWatch

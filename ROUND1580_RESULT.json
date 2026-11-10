@@ -1,0 +1,106 @@
+{
+  "round": 1580,
+  "mode": "ample",
+  "softCap": 28,
+  "completedAt": "2026-11-10 17:25 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "le2h",
+  "alertMessage": "【R1580】主扫无合格新收录（R1579 Discord 已补 BitForge、Elyfish，本轮已清 newThisRound）。库内升级：FEG 已到 17:00 开铸点，官网倒计时归零写 Acquisitions open，但合约仍显示待公布，CA 以官帖 0x8743fa8b279D1b85506c5cd223Bd40285d32a2dA 为准，≤2h 至约 19:00；DogeKing 19:00 开售（前 1000 份 Agent ID 免费）已进≤2h；AtlasHL HyperCars 白名单 17:30、公开 18:30 开铸（Elysium CA 0x0098B7200130678Ae64CeF788d6f2b4CA605cC31，totalSupply=0），均落未来 2 小时内。仍开的≤2h：Agentix 至约 17:46、VoltaGent 至约 18:05。本轮关窗：Mint Condition 约 17:22 已关窗。未进窗：99901.fun 21:00、Etherea GTD 21:00。PotionRH 早鸟名单已开未开铸；Jellysium 澄清未发币并将改品牌。面板 https://reboot7454.github.io/early-scout/",
+  "alert": "【R1580】主扫无合格新收录（R1579 Discord 已补 BitForge、Elyfish，本轮已清 newThisRound）。库内升级：FEG 已到 17:00 开铸点，官网倒计时归零写 Acquisitions open，但合约仍显示待公布，CA 以官帖 0x8743fa8b279D1b85506c5cd223Bd40285d32a2dA 为准，≤2h 至约 19:00；DogeKing 19:00 开售（前 1000 份 Agent ID 免费）已进≤2h；AtlasHL HyperCars 白名单 17:30、公开 18:30 开铸（Elysium CA 0x0098B7200130678Ae64CeF788d6f2b4CA605cC31，totalSupply=0），均落未来 2 小时内。仍开的≤2h：Agentix 至约 17:46、VoltaGent 至约 18:05。本轮关窗：Mint Condition 约 17:22 已关窗。未进窗：99901.fun 21:00、Etherea GTD 21:00。PotionRH 早鸟名单已开未开铸；Jellysium 澄清未发币并将改品牌。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "skipped": [
+    {
+      "id": "claf-eye",
+      "handle": "@clafmarkets",
+      "reason": "信息过薄：仅第三方转述+指向官帖链接，本轮未读官帖正文，无官网、无核实CA、无粉丝数，不足以构成可操作早期卡"
+    },
+    {
+      "id": "starcards",
+      "reason": "仅有站点与第三方喊单，站点无任何X/Twitter官号链接，按硬规则无官推不得收录"
+    },
+    {
+      "id": "lucky-moments",
+      "reason": "站点仅有X分享意图链接，无项目官号，必须skip"
+    },
+    {
+      "id": "adventure-agent",
+      "reason": "仅第三方带推荐链接喊单，官网本轮连接失败无法核实，无官推必须skip"
+    },
+    {
+      "id": "hyperlabz",
+      "handle": "@hyperlabz",
+      "reason": "仅由AtlasHL帖内链接提及，本轮未读该号时间线，不凭链接新建卡；相关信息并入atlas-hl库内升级"
+    }
+  ],
+  "clearedPrevNewThisRound": [
+    "bitforge",
+    "elyfish"
+  ],
+  "renumberNote": "Main scout started from R1578 but Discord peek already consumed R1579 at 17:03 CST (bitforge, elyfish); this scout is published as R1580 and keeps those 2 cards.",
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "admit": 0,
+    "skip": 5
+  },
+  "coverage": {
+    "tenLanes": true,
+    "btc": true,
+    "starknet": true,
+    "giwa": true,
+    "ufShard": "780-795",
+    "ufCursor": "780→796",
+    "mentions": "GIWA/@GIWA_by_Upbit+@YeonPad+@Jumak_app×1",
+    "xReads": 11,
+    "remainingBefore": 706,
+    "remaining": 695,
+    "mode": "ample",
+    "softCap": 28,
+    "eveningReserve": 80,
+    "lastFullAfterReset": "R1555",
+    "uf2Note": "UF_MUST recency crowded by @AgentixBSC/@Agent_FEG; one justified exclusion page UF2"
+  },
+  "discordAlphaPeek": false,
+  "docsSynced": true,
+  "pushSha": "5d63707",
+  "tip": "5d63707",
+  "pushShaFull": "5d637075269a9b6681f65df5d25ee187c5879389",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "本轮主扫无合格新收录（R1579 Discord 的 BitForge、Elyfish 已入库）；FEG 已到开铸点，DogeKing 与 AtlasHL HyperCars 进入≤2h。",
+  "le2hActionable": [
+    "agentix-agx",
+    "agent-feg",
+    "volta-gent",
+    "dogeking-agent",
+    "atlas-hl"
+  ],
+  "closedThisRound": [
+    "mint-condition"
+  ],
+  "notYetLe2h": [
+    "99901-fun",
+    "etherea-genesis"
+  ],
+  "xReads": 11,
+  "remainingBefore": 706,
+  "remaining": 695,
+  "ufCursor": "780→796",
+  "lastFullAfterReset": "R1555",
+  "watchAppended": {
+    "handles": [
+      "@BitForge_hq",
+      "@elyfishxyz"
+    ],
+    "ids": [
+      "bitforge",
+      "elyfish"
+    ],
+    "ufAccounts": 1295,
+    "ufCandidateIds": 1281
+  }
+}
