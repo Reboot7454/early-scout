@@ -1,0 +1,310 @@
+{
+  "round": 1597,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-10 22:34 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R1597新收8条：Backroom〔台子/Meme〕、Seppuku (parody)〔台子/Meme〕、ORBIX〔挖矿〕、Oloverium〔台子/Meme〕、Elyra Inference〔台子/Meme〕、Riftora〔打新〕、ElyDesk〔台子/Meme〕、Elhookrfun〔台子/Meme〕；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "backroomotc",
+    "seppukumeme",
+    "orbixrh",
+    "oloverium-one",
+    "elyrainference",
+    "riftora-coin",
+    "elydesk",
+    "elhookrfun"
+  ],
+  "newCount": 8,
+  "newIds": [
+    "backroomotc",
+    "seppukumeme",
+    "orbixrh",
+    "oloverium-one",
+    "elyrainference",
+    "riftora-coin",
+    "elydesk",
+    "elhookrfun"
+  ],
+  "skipped": [
+    {
+      "id": "riftora",
+      "handle": "@RiftoraEVM",
+      "reason": "X核验账号不存在；与本轮已收 @RiftoraCoin 同项目重复号（疑似改名）"
+    }
+  ],
+  "cardsAfterLastSeen": 58,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "candidateFlagsCleared": 0,
+  "topNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=9; manualSkip=1 (@RiftoraEVM gone / same project as @RiftoraCoin); elhookrfun recategorized 台子/Meme (not on official Elysium ecosystem page)",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-10 22:10",
+    "lastChecked": "2026-11-10 22:34 CST",
+    "newestCardTime": "2026-11-10 22:10",
+    "cardsAfterCutoff": 58,
+    "note": "R1597：Discord alpha 补收 backroomotc,seppukumeme,orbixrh,oloverium-one,elyrainference,riftora-coin,elydesk,elhookrfun；跳过 riftora（@RiftoraEVM 账号不存在，与 @RiftoraCoin 同项目）；elhookrfun 因官方生态页未列出改归台子/Meme；lastSeen→2026-11-10 22:10；lastChecked→2026-11-10 22:34 CST",
+    "lastRound": 1597,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-10 22:10",
+      "alpha-1-backup": "2026-11-10 21:49",
+      "smart-accounts-tracker": "2026-11-10 21:31",
+      "alpha-1": "2026-11-10 21:16"
+    },
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-08 19:14",
+      "to": "2026-11-09 12:43",
+      "nFilled": 0,
+      "note": "skipped this run; prior gap still open"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1597：Discord alpha 补收 backroomotc,seppukumeme,orbixrh,oloverium-one,elyrainference,riftora-coin,elydesk,elhookrfun；跳过 riftora（@RiftoraEVM 账号不存在，与 @RiftoraCoin 同项目）；elhookrfun 因官方生态页未列出改归台子/Meme；lastSeen→2026-11-10 22:10；lastChecked→2026-11-10 22:34 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1597.json",
+  "priorRoundNote": "R1596 web radar no new (NTR already empty after R1596 le2h refresh; prior web NTR lowb-agent,rabbit-chain,holdtheline already cleared); opened at R1596, this DC=R1597; cardsAfterCutoff=58",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-10 22:10",
+    "alpha-1-backup": "2026-11-10 21:49",
+    "smart-accounts-tracker": "2026-11-10 21:31",
+    "alpha-1": "2026-11-10 21:16"
+  },
+  "cardsRead": 58,
+  "cardsAfterCutoff": 58,
+  "cardsReadApprox": 128,
+  "rejected": [
+    {
+      "handle": "@elyetch",
+      "reason": "仅自称Elysium上首个铭文协议，无测试网/已公告部署证据，0粉空壳"
+    },
+    {
+      "handle": "@others0000",
+      "reason": "bio仅Art，无项目无产品，疑似机器人号"
+    },
+    {
+      "handle": "@milokimhq",
+      "reason": "个人生活简介号，非项目"
+    },
+    {
+      "handle": "@Hola30555376",
+      "reason": "日文个人号，无项目内容"
+    },
+    {
+      "handle": "@TheMannaDrop",
+      "reason": "心灵鸡汤式内容号，无项目无产品"
+    },
+    {
+      "handle": "@Staterootweekly",
+      "reason": "播客媒体类，自称无代币无赞助，非可参与项目"
+    },
+    {
+      "handle": "@LeoAnshoo",
+      "reason": "个人账号，bio 仅“love is fun”，无项目产品或发射线索。"
+    },
+    {
+      "handle": "@axisindexnet",
+      "reason": "仅指数构想，无产品、发射或交互入口，空壳感强。"
+    },
+    {
+      "handle": "@zzzy769136",
+      "reason": "个人/机器人账号，bio 为“yyy”，无项目内容。"
+    },
+    {
+      "handle": "@VidalCapital",
+      "reason": "个人 CFO 简介与音乐项目，非独立加密项目推特。"
+    },
+    {
+      "handle": "@cyberfalconyx",
+      "reason": "个人交易感悟账号，无项目产品或发射线索。"
+    },
+    {
+      "handle": "@nexrunxyz",
+      "reason": "bio 仅泛化口号，无具体产品、发射或交互入口。"
+    },
+    {
+      "handle": "@juniortraderSUI",
+      "reason": "仅关注 @Enter_Elysium 的个人号，简介是通用加密货币定义，没有独立产品或发射线索"
+    },
+    {
+      "handle": "@dogsfd",
+      "reason": "meme 角色号，仅有口号式简介，没有合约、发射平台或 mint 等可交互线索"
+    },
+    {
+      "handle": "@XU2pKaylie17138",
+      "reason": "0 粉丝的个人设计号，无项目、无产品、无发射线索"
+    },
+    {
+      "handle": "@mrclaus_hood",
+      "reason": "角色扮演式简介，无独立产品与发行信息，只是关注了 pons 相关账号"
+    },
+    {
+      "handle": "@MortalTrade",
+      "reason": "个人交易应用开发者账号，仅关注 Elysium，非项目方且无发行信息"
+    },
+    {
+      "handle": "@experclick",
+      "reason": "品牌命名设计工作室，与加密项目无关"
+    },
+    {
+      "handle": "@MuseByMonday",
+      "reason": "艺术家/KOL 主理人账号，粉丝量偏高且无可参与的早期发行线索"
+    },
+    {
+      "handle": "@sanjivkumaar786",
+      "reason": "纯个人生活账号，0 粉丝且无任何项目信息"
+    },
+    {
+      "handle": "@Olainyass70",
+      "reason": "个人号无项目产品与独立叙事，仅关注币安，属噪音新粉。"
+    },
+    {
+      "handle": "@sipguyxyz",
+      "reason": "仅关注 @Enter_Elysium 的猎人个人号，无具体测试网部署信息，按规则一律拒。"
+    },
+    {
+      "handle": "@meiodje777",
+      "reason": "泛加密喊单/新闻型个人号，无独立项目与产品。"
+    },
+    {
+      "handle": "@ferdinand_huu",
+      "reason": "Perp Dex 积分猎人个人号，无独立项目，且 perpme/branchpoint/outrive 不进 Elysium。"
+    },
+    {
+      "handle": "@LocalCooperRouv",
+      "reason": "个人随笔号，无加密项目或产品线索。"
+    },
+    {
+      "handle": "@isthis_mustafa",
+      "reason": "普通个人号，简介为音乐与法律，无项目产品。"
+    },
+    {
+      "handle": "@fivessquares",
+      "reason": "bio 抽象无产品信息，0 粉空壳号。"
+    },
+    {
+      "handle": "@exico88",
+      "reason": "bio 仅“Ngu”，无项目产品与实质信息。"
+    },
+    {
+      "handle": "@czy112233",
+      "reason": "中文社交型个人号，无独立项目产品，仅关注 Elysium 不足以收录。"
+    },
+    {
+      "handle": "@lifan690",
+      "reason": "个人号，bio 仅 'neet prve'，无任何产品或发射线索"
+    },
+    {
+      "handle": "@David50grimmjow",
+      "reason": "bio 仅 'Nº'，无产品、无项目信息"
+    },
+    {
+      "handle": "@StockMaster_",
+      "reason": "纯 degen 个人简介，无项目产品线索"
+    },
+    {
+      "handle": "@SohailAbbasbro",
+      "reason": "AI 自动化个人号，与项目无关"
+    },
+    {
+      "handle": "@Esat_byzt",
+      "reason": "bio 无实质内容，纯粉丝号"
+    },
+    {
+      "handle": "@Drxco21",
+      "reason": "bio 仅 '11%'，无项目信息"
+    },
+    {
+      "handle": "@agent_rigsby",
+      "reason": "AI 人格号，仅自述在 Robinhood Chain 上自主交易，无发射/mint/产品实锤"
+    },
+    {
+      "handle": "@rezuglobal",
+      "reason": "通用直播电商官网话术，无加密产品、发射或 mint 线索，非 alpha 项目。"
+    },
+    {
+      "handle": "@aboerabrf7m",
+      "reason": "空 bio、无独立产品信息，仅关注 @binance 的个人号。"
+    },
+    {
+      "handle": "@Traderpsych",
+      "reason": "0 粉个人情绪 bio，无项目与产品线索。"
+    }
+  ],
+  "rejectedCount": 39,
+  "dsRejects": 39,
+  "admissions": [
+    {
+      "id": "backroomotc",
+      "handle": "@backroomotc",
+      "category": "台子/Meme",
+      "name": "Backroom"
+    },
+    {
+      "id": "seppukumeme",
+      "handle": "@SeppukuMeme",
+      "category": "台子/Meme",
+      "name": "Seppuku (parody)"
+    },
+    {
+      "id": "orbixrh",
+      "handle": "@orbixrh_",
+      "category": "挖矿",
+      "name": "ORBIX"
+    },
+    {
+      "id": "oloverium-one",
+      "handle": "@OloveriumOne",
+      "category": "台子/Meme",
+      "name": "Oloverium"
+    },
+    {
+      "id": "elyrainference",
+      "handle": "@Elyrainference",
+      "category": "台子/Meme",
+      "name": "Elyra Inference"
+    },
+    {
+      "id": "riftora-coin",
+      "handle": "@RiftoraCoin",
+      "category": "打新",
+      "name": "Riftora"
+    },
+    {
+      "id": "elydesk",
+      "handle": "@tryelydesk",
+      "category": "台子/Meme",
+      "name": "ElyDesk"
+    },
+    {
+      "id": "elhookrfun",
+      "handle": "@Elhookrfun",
+      "category": "台子/Meme",
+      "name": "Elhookrfun"
+    }
+  ],
+  "gapIncomplete": true,
+  "spideyPosting": true,
+  "dsUsageDetail": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": 7,
+    "prompt_tokens": 12151,
+    "completion_tokens": 18340,
+    "retries": [],
+    "alertDsOk": false,
+    "alertError": "Unterminated string starting at: line 1 column 17 (char 16)"
+  },
+  "alert": "DC补漏R1597新收8条：Backroom〔台子/Meme〕、Seppuku (parody)〔台子/Meme〕、ORBIX〔挖矿〕、Oloverium〔台子/Meme〕、Elyra Inference〔台子/Meme〕、Riftora〔打新〕、ElyDesk〔台子/Meme〕、Elhookrfun〔台子/Meme〕；面板 https://reboot7454.github.io/early-scout/"
+}
