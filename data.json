@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-10 20:16 CST",
+    "updated": "2026-11-10 20:49 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-10 20:16 CST",
+    "lastScout": "2026-11-10 20:49 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -719,7 +719,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1591,
+    "round": 1592,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -796,7 +796,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 3742,
+    "candidateCount": 3748,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -2160,7 +2160,11 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "agentrune"
+      "onedollaragent",
+      "penguagent1",
+      "elysianblooms",
+      "0xkinetic10",
+      "privasium"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4664,17 +4668,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-10 20:08",
-      "lastChecked": "2026-11-10 20:16 CST",
-      "newestCardTime": "2026-11-10 20:08",
-      "cardsAfterCutoff": 56,
-      "note": "R1590：Discord alpha 补收 migreight,oculyos,xyzmarketplace,kaching-buybot,stockracers,intheblackpool,uselowkeyxyz,thepadpad；lastSeen→2026-11-10 20:08；lastChecked→2026-11-10 20:16 CST",
-      "lastRound": 1590,
+      "lastSeen": "2026-11-10 20:41",
+      "lastChecked": "2026-11-10 20:49 CST",
+      "newestCardTime": "2026-11-10 20:41",
+      "cardsAfterCutoff": 47,
+      "note": "R1592：Discord alpha 补收 onedollaragent,penguagent1,elysianblooms,0xkinetic10,privasium；清 agentrune；lastSeen→2026-11-10 20:41；lastChecked→2026-11-10 20:49 CST",
+      "lastRound": 1592,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-10 20:06",
-        "alpha-1-backup": "2026-11-10 20:04",
+        "alpha-3-new-accounts": "2026-11-10 20:41",
+        "alpha-1-backup": "2026-11-10 20:34",
         "smart-accounts-tracker": "2026-11-10 20:05",
-        "alpha-1": "2026-11-10 20:08"
+        "alpha-1": "2026-11-10 20:38"
       },
       "alpha3OlderGap": {
         "attempted": false,
@@ -28818,9 +28822,240 @@
       "intheblackpool",
       "uselowkeyxyz",
       "thepadpad"
+    ],
+    "round1592Added": [
+      "onedollaragent",
+      "penguagent1",
+      "elysianblooms",
+      "0xkinetic10",
+      "privasium"
     ]
   },
   "candidates": [
+    {
+      "id": "privasium",
+      "name": "Privasium",
+      "handle": "@privasium",
+      "twitter": "@privasium",
+      "chain": "Elysium",
+      "category": "Elysium",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/privasium"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 6.9
+      },
+      "highlights": [
+        "bio内附CA 0x206D45c1…14b5E",
+        "隐私发射：付款方与链上无关联",
+        "由shielded Zcash注资"
+      ],
+      "drawbacks": [
+        "无明确testnet/主网与时间表说明",
+        "隐私发射台合规与跑路风险偏高",
+        "粉丝基数极小"
+      ],
+      "whatsNew": "Elysium上的隐私发射台，宣称可用屏蔽Zcash注资并无链上关联发币，已给出合约地址。",
+      "summary": "极早期Elysium隐私发射台，带部署合约地址与差异化隐私玩法，值得先挂观察。",
+      "blurb": "Elysium隐私发射台，有CA，先盯。",
+      "round": 1592,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 14,
+      "xFollowers": 14,
+      "firstSeen": "2026-11-10 20:49 CST",
+      "addedAt": "2026-11-10 20:49 CST",
+      "lastChecked": "2026-11-10 20:49 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "0xkinetic10",
+      "name": "Kinetic",
+      "handle": "@0xkinetic10",
+      "twitter": "@0xkinetic10",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/0xkinetic10"
+      },
+      "scores": {
+        "early": 6,
+        "risk": 7,
+        "novelty": 5,
+        "actionable": 4,
+        "overall": 4.7
+      },
+      "highlights": [
+        "有Agentic Trading GateWay产品入口",
+        "极早期低粉账号"
+      ],
+      "drawbacks": [
+        "代币与发射信息不明确",
+        "关注数偏高需继续观察"
+      ],
+      "whatsNew": "新账号简介为 Agentic Trading GateWay，并附 signal.overguild.com 产品入口",
+      "summary": "极早期交易网关类项目账号，有产品入口，但代币与发射细节未披露。",
+      "blurb": "极早期 Agentic Trading Gateway，观察产品进展",
+      "round": 1592,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 16,
+      "xFollowers": 16,
+      "firstSeen": "2026-11-10 20:49 CST",
+      "addedAt": "2026-11-10 20:49 CST",
+      "lastChecked": "2026-11-10 20:49 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "elysianblooms",
+      "name": "Elysian Blooms",
+      "handle": "@elysianblooms",
+      "twitter": "@elysianblooms",
+      "chain": "Elysium",
+      "category": "Elysium",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/elysianblooms"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.3
+      },
+      "highlights": [
+        "3,333供应量",
+        "$EBLOOM ticker",
+        "agent专属mint机制"
+      ],
+      "drawbacks": [
+        "未写明testnet/主网状态",
+        "零粉丝，信息仅来自bio"
+      ],
+      "whatsNew": "Elysium上agent专属mint的生成艺术系列$EBLOOM",
+      "summary": "Elysium生态内3,333枚生成艺术系列，仅由agent铸造，ticker $EBLOOM，mint细节具体但未标注网络阶段，需确认部署状态。",
+      "blurb": "Elysium 3,333枚$EBLOOM生成艺术，agent专属mint。",
+      "round": 1592,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-10 20:49 CST",
+      "addedAt": "2026-11-10 20:49 CST",
+      "lastChecked": "2026-11-10 20:49 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "penguagent1",
+      "name": "Pengu Agent",
+      "handle": "@penguagent1",
+      "twitter": "@penguagent1",
+      "chain": "BSC",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/PenguAgent1"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 7,
+        "overall": 6.4
+      },
+      "highlights": [
+        "#1–500免费mint",
+        "之后0.002 BNB",
+        "7天自动退款"
+      ],
+      "drawbacks": [
+        "零粉丝噪音大",
+        "无官网/合约验证信息"
+      ],
+      "whatsNew": "BSC上$Pengu Agent免费首发mint并附退款承诺",
+      "summary": "BSC新meme发射，前500免费mint后0.002 BNB，宣称7天自动退款，卡面信息具体可执行，但粉丝为零需谨慎核验合约。",
+      "blurb": "BSC $Pengu：前500免费mint，之后0.002 BNB，7天自动退款。",
+      "round": 1592,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-10 20:49 CST",
+      "addedAt": "2026-11-10 20:49 CST",
+      "lastChecked": "2026-11-10 20:49 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "onedollaragent",
+      "name": "One Dollar",
+      "handle": "@onedollaragent",
+      "twitter": "@onedollaragent",
+      "chain": "BNB Chain",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/OneDollarAgent"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.3
+      },
+      "highlights": [
+        "bio 指出仅 agentic 钱包可在 BNB Chain 上 mint 并挖 $1",
+        "属于极早期（个位数粉丝）独立项目号"
+      ],
+      "drawbacks": [
+        "无官网/合约链接，信息极少",
+        "匿名团队，可信度待验证"
+      ],
+      "whatsNew": "以 agent 钱包为门槛的 BNB Chain mint+挖矿代币玩法。",
+      "summary": "One Dollar 声称是 agentic 经济货币，仅 agent 钱包可在 BNB Chain 上 mint 并挖 $1，处于极早期信息阶段。",
+      "blurb": "BNB 链上 agent 钱包限定 mint/挖矿 $1，早期挖矿线索。",
+      "round": 1592,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-10 20:49 CST",
+      "addedAt": "2026-11-10 20:49 CST",
+      "lastChecked": "2026-11-10 20:49 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
     {
       "id": "thepadpad",
       "name": "PadPad",
@@ -255527,23 +255762,27 @@
       "addedAt": "2026-11-10 20:27 CST",
       "lastChecked": "2026-11-10 20:27 CST",
       "zoneHint": "打新",
-      "newThisRound": true
+      "newThisRound": false
     }
   ],
   "newThisRound": [
-    "agentrune"
+    "onedollaragent",
+    "penguagent1",
+    "elysianblooms",
+    "0xkinetic10",
+    "privasium"
   ],
-  "alertMessage": "R1591 新收录 AgentRune 20:18 CST 开铸（Agent ID 首枚免费，6 粉新号风险高）；≤2h：99901.fun / Etherea GTD / Agent Mining $AMNT 21:00，DogeKing 创世 live，Atlas 公开与 Kurogane WL 20:30 截止；面板：https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1592新收5条——One Dollar(挖矿)、Pengu Agent(台子/Meme)、Elysian Blooms(Elysium)、Kinetic(台子/Meme)、Privasium(Elysium)；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "agentrune"
   ],
-  "updatedAt": "2026-11-10 20:27 CST",
-  "updated": "2026-11-10 20:27 CST",
+  "updatedAt": "2026-11-10 20:49 CST",
+  "updated": "2026-11-10 20:49 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-10 20:16 CST",
+  "lastScout": "2026-11-10 20:49 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -255585,7 +255824,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3743,
+  "candidateCount": 3748,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -258765,5 +259004,12 @@
   ],
   "round1591Added": [
     "agentrune"
+  ],
+  "round1592Added": [
+    "onedollaragent",
+    "penguagent1",
+    "elysianblooms",
+    "0xkinetic10",
+    "privasium"
   ]
 }
