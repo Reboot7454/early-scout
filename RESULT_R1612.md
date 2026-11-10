@@ -1,0 +1,32 @@
+# R1612 early-scout RESULT（2026-11-11 04:05 CST）
+
+- round: 1612
+- mode: pace
+- softCap: 28
+- completedAt: 2026-11-11 04:05 CST
+- notify: True
+- notifyReason: 真新收录 6 条 + 新 ≤2h（Twopad ≈04:50 CST）
+- alertMessage: 雷达 R1612：新收 6 张——Twopad（新发射台，03:50 CST 官宣约 04:50 CST 上线 $Twopad 并开放建币，链/CA 未知，32 粉极高风险）、THE UNSEEN（RH 链 NFT，444 枚 $1.5，KOL 称 11-16 OpenSea mint，GTD/FCFS 抽送中）、Zolva Agent（RH 交易 agent 基础设施，$ZOLVA 已发，刚接 Lighter perps）、e/acc（Elysium 社区币，Ascend 发射，CA 已核验，市值约 $2.7M）、perps（Solana pump 币 $PERPS 刚 live，自称 Elysium perps 未核验，高风险）、Hamster Rush（squeekchain 个人开发小游戏，仅跟踪）。≤2h 新：Twopad 约 04:50 CST。R1611 已报的 Hood Syndicate 05:00 CST mint 仍按时（04:00 CST 官推开了 X Space），RRF Village FCFS 约 05:48 CST 止，无变化。面板：https://reboot7454.github.io/early-scout/
+- newIds: ['theunseen444', 'zolva-agent', 'eacc-coin', 'usetwopad', 'perpsinvest', 'hamster-rush']
+- lanesOfNew: {'theunseen444': '打新', 'zolva-agent': '台子/Meme', 'eacc-coin': '台子/Meme', 'usetwopad': '台子/Meme', 'perpsinvest': '台子/Meme', 'hamster-rush': '挖矿'}
+- roundNote: pull 后 HEAD 仍为 R1611 RESULT tip（099c1d8），无 DC 插轮，本轮取 R1612
+- clearedPrevNewThisRound: ['eyesosterminal', 'scopehaven', 'tubeline', 'cashmere-mountain']
+- updated: ['hood-syndicate', 'raeto', 'souls-elysium']
+- le2hVerified: {'usetwopad': '03:50 CST 官推「$Twopad will launch in one hour」＝约 04:50 CST，同时开放 use2pad.fun 建币；官网抓取为空、链/CA 未知（新 ≤2h）', 'hood-syndicate': '未重复核时；只用正确 handle @hoodsyndicatee 做 since 03:35 变化检查：04:00 CST 发 X Space 链接（开铸前 Space），05:00 CST mint 无改期——R1611 已报，不算新', 'rrfvillage': 'since 03:35 变化检查无新帖，FCFS 仍约 05:48 CST 止——R1611 已报，不算新'}
+- skipped: ['Agent Operators（Binance Agent ID 免费像素 NFT，仅 cryptoplay.guide 推荐链接，无官号）', 'Elysium Pumpkins（@0xMilaa 个人号 1 帖，$0.07 公售，无官号/CA）', 'FOOME/globemkts/TapeX/MEME OS/VibeVibe/Montra/Ammora/onlystreets/Rarelist/sherwoodbots/Hypesium/RebateLaunch 等（已在库）', 'squeek_radar（非官方聚合号）', 'TheUnseenAnons 与 theunseen444 为不同号，已分开建卡']
+- dedupNote: Hood_Junkies 在 UF 片 1084–1100 内但 R1611 ≤2h 已读，本轮跳过；Hood Syndicate/RRF 只做 since 03:35 变化检查，未重读原帖；R1611 ≤2h 读的 HoodSyndicate 写法实际不是官号 handle（官号 @hoodsyndicatee），本轮已用正确 handle
+- xReads: 7
+- remainingBefore: 537
+- remaining: 530
+- ufCursor: 1084→1101
+- tenLanes: UF1084→1101 合并 from:×1（去重跳过 Hood_Junkies）+ ≤2h 变化检查 from:×1（RRFVillage/SyndicateRHC/tmachinroBot/Enter_Elysium/squeekchain，since 03:35）+ Hood Syndicate 正确 handle @hoodsyndicatee 变化检查×1（since 03:35）+ KW 两车道合并×2（since 03:35）+ 生态 mentions 合并×1（Elysium/squeek/X Layer/GIWA/DogeOS/TapeOut/Starknet/RH）+ 候选资料批×1；九栏+BTC/Starknet 均跑
+- xRateLimit429: 无
+- discordPeekDeferred: False
+- discordPeekNote: R1610 DC 流程 03:32 CST 刚补完（lastSeen 03:19），距今 <45 分钟，本轮不 Peek
+- dsFallback: False
+- dsNote: DS 打分 6 条（6 条合批输出 JSON 截断，拆 2+2+2 重跑），admit 6/拒 0 + alert 文案（执行端改写前缀与格式）；risk 取 (100-x)/10
+- softDebt: Canton/Glaze/TokenWorks/Elysium lastChecked 刷到 04:05 CST
+- elysiumNote: $E/ACC 0x8df4f39d…4128 Elysium RPC 核验有代码、symbol=e/acc、总量 1B；不在生态页归台子/Meme；perps 自称 Elysium 未核验（币在 Solana）；Zolva $ZOLVA RH 公共 RPC 不可用未链上核验
+- watchAdds: 6 新号进 UF（@theunseen444/@zolva_agent/@eacc_coin/@UseTwopad/@perpsinvest/@neuweltgeld）
+- docsSynced: True
+- panel: https://reboot7454.github.io/early-scout/
