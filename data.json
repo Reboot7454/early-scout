@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-10 11:36 CST",
+    "updated": "2026-11-10 12:10 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-10 11:36 CST",
+    "lastScout": "2026-11-10 12:10 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -719,7 +719,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1565,
+    "round": 1566,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2160,8 +2160,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "armaz-agent",
-      "criptery-xyz"
+      "grindq-nft",
+      "prebuyscan",
+      "ambrosia"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4628,17 +4629,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-10 11:33",
-      "lastChecked": "2026-11-10 11:36 CST",
-      "newestCardTime": "2026-11-10 11:33",
-      "cardsAfterCutoff": 37,
-      "note": "R1565：Discord alpha 补收 armaz-agent,criptery-xyz；清 elyonpad；lastSeen→2026-11-10 11:33；lastChecked→2026-11-10 11:36 CST",
-      "lastRound": 1565,
+      "lastSeen": "2026-11-10 12:04",
+      "lastChecked": "2026-11-10 12:10 CST",
+      "newestCardTime": "2026-11-10 12:04",
+      "cardsAfterCutoff": 30,
+      "note": "R1566：Discord alpha 补收 grindq-nft,prebuyscan,ambrosia；清 criptery-xyz,armaz-agent；lastSeen→2026-11-10 12:04；lastChecked→2026-11-10 12:10 CST",
+      "lastRound": 1566,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-10 11:30",
-        "alpha-1-backup": "2026-11-10 11:19",
+        "alpha-3-new-accounts": "2026-11-10 12:04",
+        "alpha-1-backup": "2026-11-10 11:49",
         "smart-accounts-tracker": "2026-11-10 11:29",
-        "alpha-1": "2026-11-10 11:33"
+        "alpha-1": "2026-11-10 11:34"
       },
       "alpha3OlderGap": {
         "attempted": false,
@@ -28505,9 +28506,148 @@
     "round1565Added": [
       "armaz-agent",
       "criptery-xyz"
+    ],
+    "round1566Added": [
+      "grindq-nft",
+      "prebuyscan",
+      "ambrosia"
     ]
   },
   "candidates": [
+    {
+      "id": "ambrosia",
+      "name": "Ambrosia",
+      "handle": "@ambrosiadotcom",
+      "twitter": "@ambrosiadotcom",
+      "chain": "Elysium",
+      "category": "Elysium",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Ambrosiadotcom"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 5,
+        "novelty": 6,
+        "actionable": 7,
+        "overall": 6.8
+      },
+      "highlights": [
+        "Free Seed NFT 已上线 Elysium",
+        "25 格地块每 60 秒结算",
+        "团队持有 0 $AMBR 的代币承诺"
+      ],
+      "drawbacks": [
+        "粉丝为 0，社区尚未形成",
+        "玩法与代币经济细节未公开",
+        "Elysium 部署状态需进一步核验"
+      ],
+      "whatsNew": "Free Seed NFT 在 Elysium 上线，60 秒一轮的种植收获玩法。",
+      "summary": "Elysium 上的种植类小游戏，免费 Seed NFT 已开放，地块每 60 秒结算产出。",
+      "blurb": "Elysium 种植玩法，Free Seed NFT 已开",
+      "round": 1566,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-10 12:10 CST",
+      "addedAt": "2026-11-10 12:10 CST",
+      "lastChecked": "2026-11-10 12:10 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "prebuyscan",
+      "name": "prebuyscan",
+      "handle": "@_prebuyscan",
+      "twitter": "@_prebuyscan",
+      "chain": "",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/_prebuyscan"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 5,
+        "overall": 5.9
+      },
+      "highlights": [
+        "功能描述具体：模拟链上 sale、审查合约/创建者/流动性/持有人",
+        "对打新决策有直接辅助价值"
+      ],
+      "drawbacks": [
+        "无官网/API 链接，产品是否上线未知",
+        "0 粉，可能是空壳"
+      ],
+      "whatsNew": "PreBuyScan 自称对预购进行链上模拟并审查合约、创建者、流动性与持有人。",
+      "summary": "面向打新的预购扫描工具，简介功能清晰，但尚无落地链接可验证。",
+      "blurb": "预购扫描器雏形，功能写得很实但 0 粉无链接，观察级打新工具。",
+      "round": 1566,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-10 12:10 CST",
+      "addedAt": "2026-11-10 12:10 CST",
+      "lastChecked": "2026-11-10 12:10 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "grindq-nft",
+      "name": "GRIND Q",
+      "handle": "@grindq_nft",
+      "twitter": "@grindq_nft",
+      "chain": "",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/GrindQ_NFT"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 5,
+        "actionable": 4,
+        "overall": 5.4
+      },
+      "highlights": [
+        "简介明示 Collect 10 解锁故事 的收藏玩法",
+        "已挂 OpenSea 线索"
+      ],
+      "drawbacks": [
+        "0 粉、无官网/合约链接",
+        "叙事型 NFT 热度不确定性大"
+      ],
+      "whatsNew": "GRIND Q 100 men / 100 Questions 叙事型 NFT，集齐 10 个解锁剧情，指向 OpenSea。",
+      "summary": "极早期叙事型 NFT 合集，简介给出收藏解锁玩法与 OpenSea 去向，可作打新观察。",
+      "blurb": "0 粉叙事 NFT，Collect 10 解锁剧情，OpenSea 线索，极早期可蹲。",
+      "round": 1566,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-10 12:10 CST",
+      "addedAt": "2026-11-10 12:10 CST",
+      "lastChecked": "2026-11-10 12:10 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "criptery-xyz",
       "name": "Criptery Web3 Pixel Lottery on Base",
@@ -28550,7 +28690,7 @@
       "addedAt": "2026-11-10 11:36 CST",
       "lastChecked": "2026-11-10 11:36 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "armaz-agent",
@@ -28594,7 +28734,7 @@
       "addedAt": "2026-11-10 11:36 CST",
       "lastChecked": "2026-11-10 11:36 CST",
       "zoneHint": "GO盘",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "stonksapp",
@@ -248050,20 +248190,21 @@
     }
   ],
   "newThisRound": [
-    "armaz-agent",
-    "criptery-xyz"
+    "grindq-nft",
+    "prebuyscan",
+    "ambrosia"
   ],
-  "alertMessage": "DC补漏R1565新收2条：Armaz（ARMAZ开箱+质押农场，BNB链极早期）、Criptery（Base像素彩票dApp，90%奖池即时链上结算）；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1566新收 GRIND Q、prebuyscan、Ambrosia；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "elyonpad"
   ],
-  "updatedAt": "2026-11-10 11:36 CST",
-  "updated": "2026-11-10 11:36 CST",
+  "updatedAt": "2026-11-10 12:10 CST",
+  "updated": "2026-11-10 12:10 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-10 11:36 CST",
+  "lastScout": "2026-11-10 12:10 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -248105,7 +248246,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3672,
+  "candidateCount": 3675,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -251175,5 +251316,10 @@
   "round1565Added": [
     "armaz-agent",
     "criptery-xyz"
+  ],
+  "round1566Added": [
+    "grindq-nft",
+    "prebuyscan",
+    "ambrosia"
   ]
 }
