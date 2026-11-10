@@ -1,7 +1,7 @@
 # R1558 early-scout RESULT（2026-11-10 09:27 CST）
 
 - round: R1558
-- pushSha/tip: (pending)
+- pushSha/tip: 91a4f22
 - mode: ample softCap=28（lastFullAfterReset=R1555，非 post-reset-full）
 - xReads: 23 | remainingBefore: 940 → remaining: 917 | ufCursor: 604→620
 - lastFullAfterReset: R1555
