@@ -1,0 +1,23 @@
+# R1596 early-scout RESULT（2026-11-10 22:12 CST）
+
+- round: 1596
+- mode: ample
+- softCap: 28
+- completedAt: 2026-11-10 22:12 CST
+- notify: True
+- notifyReason: le2h + undelivered prior alerts
+- alertMessage: 雷达 R1596：本轮无新收。Etherea 公售 23:00 CST、FCFS 进行中；$AMNT 第 1 窗至 23:00；HOLD THE LINE $HOLD CA 00:00 CST；Elysium 上 $SPHERE、$PRYSM 已开盘；@BroccoliAgent1 的 $BROCCOLI mint 22:00 已开但与库内号不同。上轮新收 LOWB Agent / Rabbit Chain / HOLD THE LINE 及 AgentRune、HikariPass、WIF DoD0x 提醒此前均未送达。面板：https://reboot7454.github.io/early-scout/
+- newIds: []
+- clearedPrevNewThisRound: ['lowb-agent', 'rabbit-chain', 'holdtheline']
+- updated: ['etherea-genesis', 'elysphereapp', 'prysmpad', 'lingji-knights', 'jdm-legends', 'holdtheline', 'broccoli-agent']
+- skipped: ['liquidvxyz vANSEM（金库代币，非打新）', 'kolblaster（游戏上线非发行）', 'squeez7z（2 粉）', 'Apeshit（仅第三方转述）']
+- xReads: 4
+- remainingBefore: 606
+- remaining: 602
+- ufCursor: 924→940
+- lanes: UF×1 + ≤2h×1 + KW Elysium/Robinhood/AgentID×1 + KW BTC/Starknet/GIWA/LZ/Doge/Tape×1（0 结果）
+- discordPeekDeferred: False
+- dsFallback: False
+- dsNote: 无新候选需 DS 评分
+- docsSynced: True
+- panel: https://reboot7454.github.io/early-scout/
