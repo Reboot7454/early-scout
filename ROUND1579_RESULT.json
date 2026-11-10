@@ -58,12 +58,14 @@
     "gapIncomplete": true
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "182089c",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1579：Discord alpha 补收 bitforge,elyfish；清 ely-kitties,volta-gent,hamster-tower；lastSeen→2026-11-10 16:54；lastChecked→2026-11-10 17:03 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1578.json",
   "priorRoundNote": "R1578 web radar NTR [ely-kitties, volta-gent, hamster-tower]; opened at R1578, this DC=R1579; cardsAfterCutoff=33",
   "lastSeenByChannel": {
@@ -206,5 +208,8 @@
   "dsNote": "deepseek-flash thinking on; 4 admit batches + 1 alert; dsFallback=false",
   "cardsReadApprox": 78,
   "cardsAfterCutoff": 33,
-  "docsSynced": false
+  "docsSynced": true,
+  "pushSha": "182089c",
+  "tip": "182089c",
+  "pushShaFull": "182089c4f0dc5019141bf1ef5f6ba7d0c8b1d672"
 }
