@@ -1,0 +1,23 @@
+# R1574 early-scout RESULT（2026-11-10 15:06 CST）
+
+- round: R1574
+- pushSha/tip: PENDING
+- mode: ample softCap=28（lastFullAfterReset=R1555，非 post-reset-full）
+- xReads: 11 | remainingBefore: 760 → remaining: 749 | ufCursor: 732→748
+- lastFullAfterReset: R1555
+- newThisRound: mint-condition（@MINTCONDlTION，官网 https://mintcondition.quest/ ，14:44 CST 官宣 opening soon on Elysium，无项目主 CA，非≤2h；已进 elysiumWatch + userFollowWatch）
+- 状态升级：styx-elysium 本轮新官帖 14:12 Dark Pool、14:25 Stress test 再比 UST（CA 未变，窗至约15:24）；sunfire 约14:27 关窗（无延窗官帖）；agent-feg 完成时已入≤2h（17:00 CST 开铸，CA 未变）
+- ≤2h 仍开：styx-elysium 至约15:24 CST（13:24 live，13:32 Bonds open，CA 0xf11c09fab6c53255aeeaaab69c6dcc393f0e34b9，官网自比 UST/Terra）；aether-vanguard $AVAN 领取至约16:00 CST（无代币 CA，上市预估 11/18-20）；agent-feg 至约17:00 CST（0.005 BNB，CA 0x8743fa8b279D1b85506c5cd223Bd40285d32a2dA）
+- 本轮关窗：sunfire（约14:27 CST，CA 仍为 0xc9e1e87d8bb3632589e324db6f37001427e07134，未见延窗）
+- 此前已关（本轮未再开）：elixirpad、elysianshield、qurve、onionswap
+- 尚未≤2h：dogeking-agent 仍为今晚 19:00 CST 开售
+- dsFallback: False（deepseek-flash thinking on；admit 1 / skip 11：perpium-app、champx、driftwire、squeek-holder-bot、inssafun、kachidotxyz、ammora-spam、soqucoin、qbit-mine、aro-network、jagent-ca）
+- discordPeekDeferred: False（本轮跳过 Peek；R1572 已于 14:13 CST 做 Discord alpha 补漏，R1573 亦跳过，故不推迟、不重 Peek）
+- docsSynced: True
+- notify: True
+- alert: R1574 雷达：新收录 mint-condition（mintcondition.quest，Elysium opening soon，无项目主CA）；仍开：STYX 至约15:24，CA 0xf11c09fab6c53255aeeaaab69c6dcc393f0e34b9，自比UST/Terra风险；Aether $AVAN 领取至约16:00（无代币CA）；agent-feg 17:00开铸，CA 0x8743fa8b279D1b85506c5cd223Bd40285d32a2dA；sunfire已约14:27关窗；面板 https://reboot7454.github.io/early-scout/。
+- HashDoge/Genius/Corla/Flap: STOPPED
+- tenLanes: UF732→748 + must/≤2h 合并 from:（FEG 刷屏故翻页1次以覆盖 sunfire/UF）+ KW 九栏+BTC/Starknet 分车道 + mentions squeekchain×1；九栏+BTC/Starknet/GIWA 均跑
+- UF shard 732–747：16 槽全部已在库；历史 NF：@hyperlinkdotfun、@HordeOnElysium、@lazabitmeme、XiangHao91647，仅随合并 from: 软刷一次、4h 窗静默，不记新 NF、不单号连刷。本窗可见 @wafermap、@OutRiggerRH 旧帖，无新开窗。
+- skips/noise: perpium-app（@PerpiumApp 0粉自称 live 并给 CA，非官推 @Perpium_xyz，仿冒风险高）；champx（多个 0 粉号复制 mint 更新，未见官推）；driftwire（@Scootxrup 个人喊单，未见官推）；squeek-holder-bot（仅非官方 @squeek_radar 转发 @DinhtienSol 机器人）；inssafun / kachidotxyz（仅第三方 GIWA cheat sheet）；ammora-spam（库内已有 ammora）；soqucoin（成熟 L1，本窗仅技术回复）；qbit-mine / aro-network（第三方挖矿转发/喊单）；jagent-ca（个人号报 CA，无官推）；库内不重收（final-days、elysiumpilled、zunki、droolies-rh、real-hood-people、agent-seal 等）
+- watch 补进：mint-condition → elysiumWatch + userFollowWatch（新收录同步进盯，非在库漏盯 bug）

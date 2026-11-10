@@ -1,0 +1,148 @@
+{
+  "round": 1574,
+  "roundLabel": "R1574",
+  "checkedAt": "2026-11-10 15:06 CST",
+  "completedAt": "2026-11-10 15:06 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "新收录 mint-condition；STYX、Aether $AVAN 领取、agent-feg 仍≤2h",
+  "alertMessage": "R1574 雷达：新收录 mint-condition（mintcondition.quest，Elysium opening soon，无项目主CA）；仍开：STYX 至约15:24，CA 0xf11c09fab6c53255aeeaaab69c6dcc393f0e34b9，自比UST/Terra风险；Aether $AVAN 领取至约16:00（无代币CA）；agent-feg 17:00开铸，CA 0x8743fa8b279D1b85506c5cd223Bd40285d32a2dA；sunfire已约14:27关窗；面板 https://reboot7454.github.io/early-scout/。",
+  "discordPeekDeferred": false,
+  "discordPeekNote": "本轮跳过 Peek；R1572 已于 14:13 CST 做 Discord alpha 补漏，R1573 亦跳过，故 discordPeekDeferred=false，不重 Peek。",
+  "docsSynced": true,
+  "docsSyncedFlag": true,
+  "pushSha": "PENDING",
+  "tip": "PENDING",
+  "remoteVerified": false,
+  "xReads": 11,
+  "remainingBefore": 760,
+  "remaining": 749,
+  "mode": "ample",
+  "softCap": 28,
+  "eveningReserve": 80,
+  "lastFullAfterReset": "R1555",
+  "ufCursor": 748,
+  "ufCursorBefore": 732,
+  "ufCursorAfter": 748,
+  "xQuota": {
+    "xReads": 11,
+    "remainingBefore": 760,
+    "remaining": 749,
+    "mode": "ample",
+    "softCap": 28,
+    "ufCursorBefore": 732,
+    "ufCursor": 748,
+    "eveningReserve": 80,
+    "checkedAt": "2026-11-10 15:06 CST",
+    "lastFullAfterReset": "R1555",
+    "note": "R1574 雷达主扫（ample paced softCap=28；lastFullAfterReset=R1555，非 post-reset-full）。父代理已用 1 次 counts（remainingBefore=760→759）；本轮随后 10 次 search/mentions，收尾 footer remaining=749。"
+  },
+  "dsFallback": false,
+  "dsNote": "deepseek-flash thinking on；admit 1 / skip 11（perpium-app、champx、driftwire、squeek-holder-bot、inssafun、kachidotxyz、ammora-spam、soqucoin、qbit-mine、aro-network、jagent-ca）；续更与 alert 由 DS 撰写，关窗与≤2h 按完成时 15:06 CST 重评",
+  "newThisRound": [
+    "mint-condition"
+  ],
+  "newIds": [
+    "mint-condition"
+  ],
+  "newCount": 1,
+  "statusUpgrades": [
+    "styx-elysium：14:12 CST Dark Pool、14:25 CST Stress test 再比 UST，CA 未变，窗至约15:24",
+    "sunfire：约14:27 CST 关窗，未见延窗官帖，le2h→false",
+    "agent-feg：完成时已入≤2h，17:00 CST 开铸，CA 未变"
+  ],
+  "le2hStill": [
+    {
+      "id": "styx-elysium",
+      "until": "约15:24 CST",
+      "note": "13:24 CST 官宣 live，13:32 Bonds open，14:12 Dark Pool，14:25 Stress test 再比 UST，CA 0xf11c09fab6c53255aeeaaab69c6dcc393f0e34b9，官网自比 UST/Terra"
+    },
+    {
+      "id": "aether-vanguard",
+      "until": "约16:00 CST",
+      "note": "$AVAN 领取 14:00 CST 已开始，官网 aether-vanguard.netlify.app，无代币 CA；上市预估 Nov 18-20"
+    },
+    {
+      "id": "agent-feg",
+      "until": "约17:00 CST",
+      "note": "今日 17:00 CST 开铸，0.005 BNB/份，CA 0x8743fa8b279D1b85506c5cd223Bd40285d32a2dA"
+    }
+  ],
+  "le2hClosed": [
+    "sunfire"
+  ],
+  "mentionsLast": "squeek/Nutshell",
+  "nfSkipAdded": [],
+  "clearedPrevNTR": [],
+  "tenLanes": "UF732→748 + must/≤2h 合并 from:（FEG 刷屏故翻页1次）+ KW 九栏+BTC/Starknet 分车道 + mentions squeekchain×1；九栏+BTC/Starknet/GIWA 均跑。GIWA 本窗仍为 Ammora 候补噪音；Starknet/X Layer 无新可收挂靠号；BTC 本窗无新可收；squeek mentions 无早期可收挂靠新号。",
+  "watchBugFixes": [],
+  "watchAdds": [
+    "mint-condition → elysiumWatch + userFollowWatch"
+  ],
+  "skips": [
+    {
+      "id": "perpium-app",
+      "handle": "@PerpiumApp",
+      "reason": "非官推 @Perpium_xyz，0粉自称 live 并给 CA，仿冒风险高"
+    },
+    {
+      "id": "champx",
+      "handle": null,
+      "reason": "多个 0 粉号复制 mint 更新，未见项目官推"
+    },
+    {
+      "id": "driftwire",
+      "handle": "@Scootxrup",
+      "reason": "个人号喊单免费铸，未见项目官推"
+    },
+    {
+      "id": "squeek-holder-bot",
+      "handle": "@DinhtienSol",
+      "reason": "仅非官方 @squeek_radar 转发，不是项目官推"
+    },
+    {
+      "id": "inssafun",
+      "handle": "@Inssafun",
+      "reason": "仅第三方 GIWA cheat sheet 点名，未见官推主帖"
+    },
+    {
+      "id": "kachidotxyz",
+      "handle": "@kachidotxyz",
+      "reason": "仅第三方 GIWA cheat sheet 点名，未见官推主帖"
+    },
+    {
+      "id": "ammora-spam",
+      "handle": "@Nexxyz1",
+      "reason": "Ammora 候补噪音，库内已有 ammora"
+    },
+    {
+      "id": "soqucoin",
+      "handle": "@soqucoin",
+      "reason": "成熟 L1 官号，本窗仅技术回复，非极早期打新窗"
+    },
+    {
+      "id": "qbit-mine",
+      "handle": null,
+      "reason": "第三方转发租算力信息，非官号主帖"
+    },
+    {
+      "id": "aro-network",
+      "handle": "@AroNetwork",
+      "reason": "第三方喊单 testnet mining，本窗非官号主帖"
+    },
+    {
+      "id": "jagent-ca",
+      "handle": "@tokenize_user",
+      "reason": "个人号报 CA，无项目官推"
+    }
+  ],
+  "summary": "R1574：新收录 mint-condition（mintcondition.quest，Elysium opening soon，无项目主CA，非le2h）；STYX 开至约15:24，sunfire 约14:27已关；Aether $AVAN 领取至约16:00；agent-feg 17:00开铸；dogeking 仍19:00未入2h；notify=true。",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "pushShaFull": "PENDING",
+  "push": {
+    "attempted": false,
+    "ok": false,
+    "sha": null,
+    "remoteVerified": false
+  }
+}
