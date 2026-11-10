@@ -105,12 +105,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "sha": "2f85570",
+    "remoteVerified": true
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1604：Discord alpha 补收 vorcenlabs,vethood,spectrel,schism-pro,tempo,pileofshitnft,foxmintapp,heph-ai,vaeruio,lamportrobotics,0stocks-fun,oggregatorxyz,apeonink,trycashtagpad,cubisthood,launchontero,sepia-rbh；lastSeen→2026-11-11 01:22；lastChecked→2026-11-11 01:27 CST",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1604.json",
   "priorRoundNote": "开跑时仓库已是网页雷达 R1603（wikifork, onlystreetsfun, chimpxai, thesurfers）；00:39 轮已刮到 cutoff 后 111 张并完成 DS admit 19 条但未推送；本轮接手并增量补刮 55 张后落地，本轮 DC=R1604",
   "alert": "DC补漏R1604新收17条：Vorcen〔打新〕、Vethood〔打新〕、Spectrel · Elysium launch scanner〔打新〕、Schism〔台子/Meme〕、Tempo〔台子/Meme〕、Pile Of Shit〔台子/Meme〕、Fox MINT〔打新〕、heph〔台子/Meme〕、VAERU〔台子/Meme〕、Lamport Robotics〔台子/Meme〕、ZeroStocks〔台子/Meme〕、Oggregator〔台子/Meme〕、The Ape Den〔打新〕、Cashtag Pad〔台子/Meme〕、Cubist Hoods〔打新〕、Tero〔台子/Meme〕、Sepia〔台子/Meme〕；面板 https://reboot7454.github.io/early-scout/",
@@ -414,5 +416,8 @@
       "reason": "官方生态页 elysium.kinetiq.xyz/ecosystem 未列出 Tempo（仅有不同项目 Temporal Finance）"
     }
   ],
-  "docsSynced": true
+  "docsSynced": true,
+  "pushSha": "2f85570",
+  "pushShaFull": "2f8557060825a9d88ac3fdd216ded287a479c87b",
+  "tip": "2f85570"
 }
