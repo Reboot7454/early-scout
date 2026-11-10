@@ -1,0 +1,431 @@
+{
+  "round": 1606,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-11 02:15 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R1606新收6项：Ultravein/挖矿、DrawFi/台子Meme、riprr/台子Meme、Degen PondHood/打新、GEODE/台子Meme、Parallax/台子Meme；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "ultravein-app",
+    "drawfi",
+    "riprr",
+    "degen-pond-hood",
+    "geoderh",
+    "parallax"
+  ],
+  "newCount": 6,
+  "newIds": [
+    "ultravein-app",
+    "drawfi",
+    "riprr",
+    "degen-pond-hood",
+    "geoderh",
+    "parallax"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 63,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "launchonmontra",
+    "vantiqfun",
+    "theringpad",
+    "rtp-fun",
+    "oxano-io",
+    "sherwoodbots",
+    "linid-nft",
+    "use-stoke"
+  ],
+  "candidateFlagsCleared": 8,
+  "topNewThisRoundCleared": [
+    "launchonmontra",
+    "vantiqfun",
+    "theringpad",
+    "rtp-fun",
+    "oxano-io",
+    "sherwoodbots",
+    "linid-nft",
+    "use-stoke"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits_raw=6 final=6 calls=9",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-11 02:08",
+    "lastChecked": "2026-11-11 02:15 CST",
+    "newestCardTime": "2026-11-11 02:08",
+    "cardsAfterCutoff": 63,
+    "note": "R1606：Discord alpha 补收 ultravein-app,drawfi,riprr,degen-pond-hood,geoderh,parallax；riprr 不在官方生态页改归台子/Meme；degen-pond-hood NFT 免费 mint 改归打新；geoderh 答题裂石 GameFi 改归台子/Meme；parallax 发射台改归台子/Meme；lastSeen→2026-11-11 02:08；lastChecked→2026-11-11 02:15 CST",
+    "lastRound": 1606,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-11 02:08",
+      "alpha-1-backup": "2026-11-11 01:04",
+      "smart-accounts-tracker": "2026-11-11 01:55",
+      "alpha-1": "2026-11-11 02:07"
+    },
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-08 19:14",
+      "to": "2026-11-09 12:43",
+      "nFilled": 0,
+      "note": "skipped this run; prior gap still open"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1606：Discord alpha 补收 ultravein-app,drawfi,riprr,degen-pond-hood,geoderh,parallax；riprr 不在官方生态页改归台子/Meme；degen-pond-hood NFT 免费 mint 改归打新；geoderh 答题裂石 GameFi 改归台子/Meme；parallax 发射台改归台子/Meme；lastSeen→2026-11-11 02:08；lastChecked→2026-11-11 02:15 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1606.json",
+  "priorRoundNote": "opened at web-radar R1605 (NTR: launchonmontra,vantiqfun,theringpad,rtp-fun,oxano-io,sherwoodbots,linid-nft,use-stoke); this DC=R1606; cardsAfterCutoff=63; unique=55 already=7 preReject=3(高粉2+NODI_COIN X不存在) keep=45",
+  "alert": "DC补漏R1606新收6项：Ultravein/挖矿、DrawFi/台子Meme、riprr/台子Meme、Degen PondHood/打新、GEODE/台子Meme、Parallax/台子Meme；面板 https://reboot7454.github.io/early-scout/",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-11 02:08",
+    "alpha-1-backup": "2026-11-11 01:04",
+    "smart-accounts-tracker": "2026-11-11 01:55",
+    "alpha-1": "2026-11-11 02:07"
+  },
+  "cardsRead": 63,
+  "cardsAfterCutoff": 63,
+  "cardsReadApprox": 117,
+  "rejected": [
+    {
+      "handle": "@casparschwa",
+      "reason": "高粉(5093)个人/KOL"
+    },
+    {
+      "handle": "@_julianma",
+      "reason": "高粉(5123)个人/KOL"
+    },
+    {
+      "handle": "@NODI_COIN",
+      "reason": "X账号不存在"
+    },
+    {
+      "handle": "@weooxfx",
+      "reason": "新号仅一句自我介绍，无任何产品或发射线索"
+    },
+    {
+      "handle": "@rauldeolivtix",
+      "reason": "个人娱乐向账号，无加密项目或产品线索"
+    },
+    {
+      "handle": "@Zsolt79582469",
+      "reason": "个人开发者号，仅提及他人项目标签，无自有产品"
+    },
+    {
+      "handle": "@CapricornH00D",
+      "reason": "仅一句Robinhood Chain NFT口号，0推文无站无实质产品，属空壳喊单"
+    },
+    {
+      "handle": "@BsqureR",
+      "reason": "仅关注@Enter_Elysium的猎人个人号，PhD学生自述无项目"
+    },
+    {
+      "handle": "@officialBP28",
+      "reason": "个人自述型账号，无项目产品与发射线索"
+    },
+    {
+      "handle": "@NetReaperfo",
+      "reason": "bio 仅 FOMO，零推文零信息，纯空壳账号"
+    },
+    {
+      "handle": "@BRodrigoSantana",
+      "reason": "受保护的个人号，0 粉丝，bio 与项目产品无关"
+    },
+    {
+      "handle": "@baronvonboof",
+      "reason": "仅关注 @Enter_Elysium 的个人号，自称 crypto OG，没有项目或产品线索"
+    },
+    {
+      "handle": "@AkaiJiSin",
+      "reason": "bio 只有 oke，0 粉丝 0 推文的个人号"
+    },
+    {
+      "handle": "@Marcelgkouakou",
+      "reason": "营销培训个人号，无加密项目或产品，且关注数异常偏高"
+    },
+    {
+      "handle": "@Index_inds",
+      "reason": "简介仅为房地产投资基础设施的泛泛愿景，无产品、发射、mint 或玩法线索"
+    },
+    {
+      "handle": "@Ohk__bhai",
+      "reason": "个人乌尔都语诗歌号，非项目"
+    },
+    {
+      "handle": "@GoaPipal",
+      "reason": "个人 vibe coding 账号，无项目与产品"
+    },
+    {
+      "handle": "@elgpupad",
+      "reason": "0 粉 1 推的空壳号，仅贴合约地址喊挖矿，无产品与验证"
+    },
+    {
+      "handle": "@Smt7866",
+      "reason": "个人励志空推号，0 推文，无项目"
+    },
+    {
+      "handle": "@matusvahe",
+      "reason": "个人空壳账号，无独立项目推特和任何产品线索，拒。"
+    },
+    {
+      "handle": "@BCimbaluk",
+      "reason": "Elysium 猎人个人号/影响者，无具体测试网或部署线索，拒。"
+    },
+    {
+      "handle": "@tstock915",
+      "reason": "政府/个人履历账号，非加密项目且无产品线索，拒。"
+    },
+    {
+      "handle": "@celestecarswell",
+      "reason": "企业传播个人账号，非独立加密项目且无发射/产品线索，拒。"
+    },
+    {
+      "handle": "@M_Cottone",
+      "reason": "顾问个人号，bio 无加密产品或玩法线索，拒。"
+    },
+    {
+      "handle": "@Elysium_Chan",
+      "reason": "Elysium 粉丝/守护者账号，无项目部署或产品线索，拒。"
+    },
+    {
+      "handle": "@MakarMarkets",
+      "reason": "新建当天零推文零粉的空壳终端号，仅有自述无任何产品或部署实据"
+    },
+    {
+      "handle": "@Underling9527",
+      "reason": "个人号，仅bio单词observer，受保护账号无项目信息"
+    },
+    {
+      "handle": "@brunobananiq1",
+      "reason": "个人号，bio仅P2E Game/NFT泛泛描述，无独立项目推特与产品实据"
+    },
+    {
+      "handle": "@Xingi722",
+      "reason": "bio仅数字556，机器人标记，1条推文，无任何项目信息"
+    },
+    {
+      "handle": "@DavidAliRazsfd",
+      "reason": "个人履历号，银行数字金融从业者简介，与链上项目无关"
+    },
+    {
+      "handle": "@QuangTm57174233",
+      "reason": "个人号，bio仅昵称，7条推文无任何项目或玩法线索"
+    },
+    {
+      "handle": "@grove_city_sol",
+      "reason": "仅有口号式简介、无任何产品/发射/mint线索，1条推文属空壳meme号"
+    },
+    {
+      "handle": "@devs_hunterr",
+      "reason": "自称链上侦探的KOL个人号，0推文无产品"
+    },
+    {
+      "handle": "@noraanderlsz0j1",
+      "reason": "个人生活向简介，无项目与产品线索"
+    },
+    {
+      "handle": "@nklbrO618",
+      "reason": "简介仅scfl trd，1条推文，无任何产品信息"
+    },
+    {
+      "handle": "@gmulps",
+      "reason": "阿拉伯语个人生活简介、0推文，非项目号"
+    },
+    {
+      "handle": "@TresTechS",
+      "reason": "资料页仅泛化数字解决方案，0 推文且无发射/mint/挖矿等实际产品线索。"
+    },
+    {
+      "handle": "@Jekiii11111",
+      "reason": "个人问答式账号，无独立项目产品与发射线索。"
+    },
+    {
+      "handle": "@D3vGuy9",
+      "reason": "简介仅 DevInterest，无实际产品/发射/玩法线索。"
+    },
+    {
+      "handle": "@thepassradar",
+      "reason": "仅风险提醒账号，无发射/mint/挖矿等玩法，且非明确 Elysium 部署。"
+    },
+    {
+      "handle": "@MarketUnclouded",
+      "reason": "股票期权教学类账号，无任何链上产品、发射或挖矿线索，空壳个人号。"
+    },
+    {
+      "handle": "@Bandit35458",
+      "reason": "简介仅“嘟嘟嘟”，无项目产品、发射或玩法信息，典型空壳号。"
+    }
+  ],
+  "rejectedCount": 42,
+  "alreadyHave": [
+    {
+      "handle": "@JakduPump",
+      "reason": "already_have",
+      "id_guess": "jakdupump",
+      "followers": 1296,
+      "name": "JAKDU"
+    },
+    {
+      "handle": "@DogeOSExchange",
+      "reason": "already_have",
+      "id_guess": "dogeosexchange",
+      "followers": 73,
+      "name": "DogeOS Exchange"
+    },
+    {
+      "handle": "@spectrelxyz",
+      "reason": "already_have",
+      "id_guess": "spectrelxyz",
+      "followers": 19,
+      "name": "Spectrel · Pons launch scanner"
+    },
+    {
+      "handle": "@Sepia_rbh",
+      "reason": "already_have",
+      "id_guess": "sepia-rbh",
+      "followers": 6,
+      "name": "Sepia"
+    },
+    {
+      "handle": "@LaunchOnMontra",
+      "reason": "already_have",
+      "id_guess": "launchonmontra",
+      "followers": 0,
+      "name": "+ $Ticker"
+    },
+    {
+      "handle": "@socialdotfun_",
+      "reason": "already_have",
+      "id_guess": "socialdotfun",
+      "followers": 621,
+      "name": "Socialfy"
+    },
+    {
+      "handle": "@SyndicateRHC",
+      "reason": "already_have",
+      "id_guess": "syndicaterhc",
+      "followers": 1589,
+      "name": "Syndicate"
+    }
+  ],
+  "alreadyCount": 7,
+  "preReject": [
+    {
+      "handle": "@casparschwa",
+      "reason": "高粉(5093)个人/KOL",
+      "followers": 5093,
+      "name": "casparschwa",
+      "bio": "@shacheng followed @casparschwa"
+    },
+    {
+      "handle": "@_julianma",
+      "reason": "高粉(5123)个人/KOL",
+      "followers": 5123,
+      "name": "_julianma",
+      "bio": "@shacheng followed @_julianma"
+    },
+    {
+      "handle": "@NODI_COIN",
+      "reason": "X账号不存在",
+      "name": "NODI  | The Spirit of Crypto"
+    }
+  ],
+  "dsRejects": 39,
+  "admissions": [
+    {
+      "id": "ultravein-app",
+      "handle": "@ultravein_app",
+      "category": "挖矿",
+      "name": "Ultravein"
+    },
+    {
+      "id": "drawfi",
+      "handle": "@drawfitoken",
+      "category": "台子/Meme",
+      "name": "DrawFi"
+    },
+    {
+      "id": "riprr",
+      "handle": "@riprrdotio",
+      "category": "台子/Meme",
+      "name": "riprr"
+    },
+    {
+      "id": "degen-pond-hood",
+      "handle": "@DegenPondHood",
+      "category": "打新",
+      "name": "Degen PondHood"
+    },
+    {
+      "id": "geoderh",
+      "handle": "@geoderh_",
+      "category": "台子/Meme",
+      "name": "GEODE"
+    },
+    {
+      "id": "parallax",
+      "handle": "@ParallaxLaunch",
+      "category": "台子/Meme",
+      "name": "Parallax"
+    }
+  ],
+  "manualCategoryFixes": [
+    {
+      "id": "riprr",
+      "category": "台子/Meme",
+      "reason": "不在 elysium.kinetiq.xyz/ecosystem，改归台子/Meme"
+    },
+    {
+      "id": "degen-pond-hood",
+      "category": "打新",
+      "reason": "NFT 免费 mint 预告，改归打新"
+    },
+    {
+      "id": "geoderh",
+      "category": "台子/Meme",
+      "reason": "答题裂石 GameFi 非挖矿，改归台子/Meme"
+    },
+    {
+      "id": "parallax",
+      "category": "台子/Meme",
+      "reason": "发射台改归台子/Meme"
+    }
+  ],
+  "gapIncomplete": true,
+  "spideyPosting": true,
+  "xVerify": {
+    "checked": 46,
+    "exists": 45,
+    "missing": [
+      "@NODI_COIN"
+    ]
+  },
+  "dsUsageDetail": {
+    "calls": 9,
+    "prompt_tokens": 14832,
+    "completion_tokens": 19908,
+    "retries": [],
+    "model": "deepseek-flash",
+    "thinking": true,
+    "alertDsOk": true
+  },
+  "counts": {
+    "cardsReadApprox": 117,
+    "cardsAfterCutoff": 63,
+    "unique": 55,
+    "already": 7,
+    "preReject": 3,
+    "keep": 45,
+    "dsAdmitsRaw": 6,
+    "admits": 6,
+    "dsRejects": 39,
+    "manualSkip": 0
+  }
+}
