@@ -1,0 +1,96 @@
+{
+  "round": 1690,
+  "completedAt": "2026-11-12 07:00:44 CST",
+  "notify": true,
+  "notifyReason": "OpenEmber 由 announced 升级为 live 且 CA 已链上核验，仍处 2h 窗内；另有既有卡 2h 窗仍开。",
+  "docsSynced": true,
+  "pushSha": "49e41be",
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "newThisRound": [],
+  "le2h": [
+    "open-ember",
+    "group-1st",
+    "hood-junkies",
+    "elyborn",
+    "mosaic-elysium"
+  ],
+  "alertMessage": "OpenEmber（$EMBR）已在 Elysium 上线，CA 0x0616235c3C7D8335524109dd5FeCdb43A36f095b 链上已核验（EIP-1167 代理，实现 0x10b0292f…f55f，OpenEmber/EMBR/18/≈1e9）；OpenEmber $EMBR 已核验 CA，窗至约 08:38 CST 仍有效；group-1st 2h 窗至约 08:00 仍有效；hood Addicts 至约 08:11 仍有效，Public 09:11 将于 07:11 进窗；elyborn 至约 07:08 仍有效；mosaic 至约 07:10 仍有效；nibblers-ely 免费 mint 已 Minted Out，不新开窗；squeekchain 不开窗。 新候选 Elonpad / OPAD / Cashtags 均证据不足 skip。 面板 https://reboot7454.github.io/early-scout/",
+  "summary": "本轮无新收录（@elonpad_fun 开号不足一天且仅 2 粉、CA 未核验；@Opad_soll 2015 老号仅 2 帖疑似劫持；@UseCashtags 一天 280 帖信号差）。核心是 OpenEmber 06:38:19 CST 官宣 $EMBR 在 Elysium 上线，自报 CA 经 99901 RPC 核验为 EIP-1167 最小代理，name=OpenEmber / symbol=EMBR / decimals=18 / 总量约 10 亿；卡从 announced 升级为 live，窗至约 08:38 CST。nibblers-ely 11-11 23:19 自称 Minted Out，本轮补交互式 ART / Arena PvP 口径，status=minted-out，不新开窗。完成时窗：open-ember=True，group-1st=True，hood=True，elyborn=True，mosaic=True。squeekchain 卡上 08:00 为 R275/R285 旧日程，本轮未新开窗。",
+  "xReads": 28,
+  "remainingBefore": 361,
+  "remaining": 333,
+  "mode": "pace",
+  "softCap": 28,
+  "minSpend": 18,
+  "ufCursor": 1481,
+  "ufCursorBefore": 1433,
+  "laneReads": {
+    "LayerZero": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "silentAccounts": {
+    "ran": true,
+    "seen": 24,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 24,
+    "lane": "GIWA",
+    "index": 7,
+    "userQuery": "GIWA launch",
+    "search_users_unavailable": true,
+    "deferredHandles": []
+  },
+  "candidateCount": 4054,
+  "tenLanes": true,
+  "kwCoreRan": [
+    "挖矿",
+    "GO盘",
+    "台子/Meme"
+  ],
+  "kwCoreDeferred": [
+    "打新",
+    "Elysium"
+  ],
+  "mentionsThin": [
+    "@PlunderPort/@TapeAIAgent",
+    "@GIWA_by_Upbit/@DogeOS",
+    "@ShieldedNaka/@Bramble_fi"
+  ],
+  "mentionsRest": [
+    "@AscendLaunch",
+    "@eloscapeHQ"
+  ],
+  "fatShards": {
+    "agentPad": [
+      306,
+      331
+    ],
+    "freeMint": [
+      45,
+      70
+    ],
+    "bnAgent": [
+      219,
+      244
+    ],
+    "elysium": [
+      135,
+      160
+    ]
+  },
+  "softDebtRefreshed": [
+    "glazeWatch",
+    "cantonPadWatch",
+    "cantonWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch",
+    "flapPadWatch"
+  ],
+  "dsNote": "deepseek-flash thinking-on，一次调用完成 admit+文案。无新收录。OpenEmber CA 由本轮 Elysium 99901 RPC（User-Agent 必需）核验后写入；factory 选择子未写入。新候选自报 CA 一律未核验、不建卡。未用高成本模型，dsFallback=false。"
+}
