@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-11 19:48 CST",
+    "updated": "2026-11-11 20:15 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-11 19:48 CST",
+    "lastScout": "2026-11-11 20:15 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -725,7 +725,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1664,
+    "round": 1665,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2166,7 +2166,14 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "manifestmkts"
+      "minihao-cat",
+      "shitincinerator",
+      "bons-world",
+      "zoku-club",
+      "stirrupmarkets",
+      "lunetteapp",
+      "zerofun-xyz",
+      "noctenna"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4672,17 +4679,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-11 19:19",
-      "lastChecked": "2026-11-11 19:30 CST",
-      "newestCardTime": "2026-11-11 19:19",
-      "cardsAfterCutoff": 46,
-      "note": "R1663：Discord alpha 补收 unicornxdotfun,barryoncanton,skybotmint；开跑 git pull 后仓库已是网页雷达 R1662（echofun / agentpepebnb / elymons），本轮 DC=R1663，未覆盖 R1662；已清 R1662 newThisRound；lastSeen→2026-11-11 19:19；lastChecked→2026-11-11 19:30 CST",
-      "lastRound": 1663,
+      "lastSeen": "2026-11-11 20:06",
+      "lastChecked": "2026-11-11 20:15 CST",
+      "newestCardTime": "2026-11-11 20:06",
+      "cardsAfterCutoff": 49,
+      "note": "R1665：Discord alpha 补收 minihao-cat,shitincinerator,bons-world,zoku-club,stirrupmarkets,lunetteapp,zerofun-xyz,noctenna；开跑 git pull 后仓库已是网页雷达 R1664（manifestmkts），本轮 DC=R1665，未覆盖 R1664；已清 R1664 newThisRound；DS 曾收 swamp-pit-ledger，因无官网仅 bio 按宁缺毋滥剔除；lastSeen→2026-11-11 20:06；lastChecked→2026-11-11 20:15 CST",
+      "lastRound": 1665,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-11 19:19",
-        "alpha-1-backup": "2026-11-11 19:19",
-        "smart-accounts-tracker": "2026-11-11 18:45",
-        "alpha-1": "2026-11-11 19:19"
+        "alpha-3-new-accounts": "2026-11-11 20:06",
+        "alpha-1-backup": "2026-11-11 20:04",
+        "smart-accounts-tracker": "2026-11-11 19:43",
+        "alpha-1": "2026-11-11 20:02"
       },
       "spideyPosting": true
     },
@@ -29802,9 +29809,393 @@
       "theholehq",
       "hoodlinehq-mori",
       "kol-comments"
+    ],
+    "round1665Added": [
+      "minihao-cat",
+      "shitincinerator",
+      "bons-world",
+      "zoku-club",
+      "stirrupmarkets",
+      "lunetteapp",
+      "zerofun-xyz",
+      "noctenna"
     ]
   },
   "candidates": [
+    {
+      "id": "noctenna",
+      "name": "Noctenna",
+      "handle": "@noctennaagent",
+      "twitter": "@noctennaagent",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/NoctennaAgent",
+        "web": "https://noctenna.xyz",
+        "ca": "0x3e6a2fF34bF06B7DAC037d55E1452c8518f42CFc"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 8,
+        "overall": 7.0
+      },
+      "highlights": [
+        "官网 noctenna.xyz，npm/GitHub 开源 RH 链交易 agent（MCP/终端）",
+        "官方 $NOCTE CA 0x3e6a2fF34bF06B7DAC037d55E1452c8518f42CFc（本轮核验约）",
+        "Pons v2 池 0x871bb2520a5efd41b5eb2c0fc246ef14b3a0d24f，创建 2026-11-11 19:02 CST",
+        "本轮核验约 FDV $12.0k / 储备 $9.8k / 24h 量 $14.4k，graduation 35.82% 未完成"
+      ],
+      "drawbacks": [
+        "已开盘，流动性浅、价格波动大",
+        "毕业进度仅 35.82%",
+        "账号 8 粉，AI agent 赛道同质化严重"
+      ],
+      "whatsNew": "开源 Robinhood Chain AI 交易 agent 上线，并已发行 $NOCTE 在 Pons 开盘但未毕业。",
+      "summary": "Noctenna 是面向 Robinhood Chain 的开源 AI 交易 agent（MCP/终端），有官网与 GitHub/npm 代码；$NOCTE 本轮核验约 FDV $12k、池储备约 $9.8k、毕业 35.82%，属极早期但已开盘，需注意浅流动性风险。",
+      "blurb": "开源 RH 链 AI 交易 agent，代币已开盘未毕业。",
+      "round": 1665,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 8,
+      "xFollowers": 8,
+      "firstSeen": "2026-11-11 20:15 CST",
+      "addedAt": "2026-11-11 20:15 CST",
+      "lastChecked": "2026-11-11 20:15 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "zerofun-xyz",
+      "name": "ZERO",
+      "handle": "@zerofun_xyz",
+      "twitter": "@zerofun_xyz",
+      "chain": "BSC",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/zerofun_xyz",
+        "web": "https://zerofun.xyz",
+        "ca": "0xfa6c988fc94b46fe3005dede52252c1206a30000"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 8,
+        "overall": 6.3
+      },
+      "highlights": [
+        "本轮核验官网 zerofun.xyz：BSC 预售→PancakeSwap V2 发射，卖不满可退款",
+        "bio 地址 0xfa6c988fc94b46fe3005dede52252c1206a30000 为已上 PancakeSwap 的 $ZERO（非未发币）",
+        "本轮核验快照约：池建于 2026-11-11 18:42 CST，FDV 约 $251k、流动性约 $133k、24h 量约 $767k"
+      ],
+      "drawbacks": [
+        "代币已开盘并已有成交，非零风险早期",
+        "流动性薄（约 $133k），波动与砸盘风险高",
+        "发射台仅 BSC、模式同质化"
+      ],
+      "whatsNew": "ZERO 发射台官网上线并发行 $ZERO，已进入 PancakeSwap V2 交易阶段。",
+      "summary": "ZERO（zerofun.xyz）是 BSC 上预售募资、满额后上 PancakeSwap V2、未售可退款的发射台，代币 $ZERO 本轮核验已上池（约 FDV $251k / 流动性 $133k / 24h 量 $767k）；产品本身仍处早期，可跟踪但需注意已开盘与低流动性风险。",
+      "blurb": "BSC 预售退款型发射台，$ZERO 已开盘，FDV 约 25 万美元。",
+      "round": 1665,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 2167,
+      "xFollowers": 2167,
+      "firstSeen": "2026-11-11 20:15 CST",
+      "addedAt": "2026-11-11 20:15 CST",
+      "lastChecked": "2026-11-11 20:15 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "lunetteapp",
+      "name": "Lunette",
+      "handle": "@lunetteapp",
+      "twitter": "@lunetteapp",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/lunetteapp",
+        "web": "https://lunetteapp.xyz"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 6.6
+      },
+      "highlights": [
+        "本轮核验官网 lunetteapp.xyz（注意非 lunette.app）",
+        "基于 ERC-5564 隐蔽地址的隐私收款，支持按 @handle 转账、USDG 计价",
+        "定位 Robinhood Chain 隐私账户层"
+      ],
+      "drawbacks": [
+        "未见代币 CA，无明确空投/激励信息",
+        "Robinhood Chain 生态与隐私合规前景未验证",
+        "0 粉，暂无社区"
+      ],
+      "whatsNew": "新出现账号，官网已核验，产品叙事为 Robinhood Chain 上按 handle 的隐私支付。",
+      "summary": "Lunette 是 Robinhood Chain 上的隐私支付账户产品，使用 ERC-5564 隐蔽地址实现按 @handle 收款并隐藏余额，官网 lunetteapp.xyz 本轮核验可访问；尚无代币合约，属早期产品观察位。",
+      "blurb": "Robinhood Chain 隐私支付，按 handle 收 USDG，极早期无币。",
+      "round": 1665,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-11 20:15 CST",
+      "addedAt": "2026-11-11 20:15 CST",
+      "lastChecked": "2026-11-11 20:15 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "stirrupmarkets",
+      "name": "StirrupMarkets",
+      "handle": "@stirrupmarkets",
+      "twitter": "@stirrupmarkets",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/StirrupMarkets",
+        "web": "https://stirrupmarkets.fun"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.3
+      },
+      "highlights": [
+        "官网 stirrupmarkets.fun 本轮核验已开：RH 链上 agent 交易美股/BTC/ETH，计划需用户批准",
+        "文案主打回复即买股票、按日程自动交易的 Autopilot agent"
+      ],
+      "drawbacks": [
+        "未见代币 CA，是否发币/如何参与均未知",
+        "agent 代下单依赖用户批准，玩法与差异化仍待验证"
+      ],
+      "whatsNew": "Robinhood 链上以回复/日程驱动 agent 自动买卖股票与加密资产的产品雏形。",
+      "summary": "StirrupMarkets 在 Robinhood 链上做 agent 自主交易（美股/BTC/ETH，计划需用户批准），官网 stirrupmarkets.fun 本轮核验可访问；尚无代币与发射线索，属可先观察产品进展的极早期项目。",
+      "blurb": "RH 链回复即下单的 agent 交易台，官网已开但无币。",
+      "round": 1665,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-11 20:15 CST",
+      "addedAt": "2026-11-11 20:15 CST",
+      "lastChecked": "2026-11-11 20:15 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "zoku-club",
+      "name": "Zoku",
+      "handle": "@zoku_club",
+      "twitter": "@zoku_club",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/zoku_club",
+        "web": "https://zoku.club"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 8,
+        "actionable": 5,
+        "overall": 6.5
+      },
+      "highlights": [
+        "官网 zoku.club 已开（本轮核验约）：可观看的 RH 链 AI agent MMORPG，文案 Watch or get your own agent",
+        "设定为 agent 自行狩猎/拾取/死亡的单像素岛，题材差异化明显",
+        "本轮页面显示 0 alive，尚处极早期"
+      ],
+      "drawbacks": [
+        "代币线索未核到，前端未写死 CA，不能臆测发币",
+        "0 alive、0 关注，热度与留存均未验证"
+      ],
+      "whatsNew": "RH 链无人玩家、纯 AI agent 自行运转的 MMORPG，官网已可观看。",
+      "summary": "Zoku 是 Robinhood 链上首个 AI agent MMORPG，英雄由 agent 24/7 自行狩猎、拾取与死亡，官网 zoku.club 本轮核验已上线可观看，页面 0 alive；未见代币合约或发射安排，属可先观察玩法的小体量早期项目。",
+      "blurb": "RH 链纯 agent 自行打怪的像素 MMORPG，官网已能看，先盯不发币。",
+      "round": 1665,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-11 20:15 CST",
+      "addedAt": "2026-11-11 20:15 CST",
+      "lastChecked": "2026-11-11 20:15 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "bons-world",
+      "name": "bons world",
+      "handle": "@bons_world",
+      "twitter": "@bons_world",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/bons_world",
+        "web": "https://bons.world"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 6.0
+      },
+      "highlights": [
+        "本轮核验：官网 bons.world 已开，Robinhood Chain 上可浏览的 3D 小岛",
+        "Bons Genesis NFT 作为 Launch Lab 钥匙",
+        "Launch Lab 可从钱包直接在 Pons 发币"
+      ],
+      "drawbacks": [
+        "未见公开代币 CA，Genesis 开铸时刻未核到",
+        "0 粉新号，玩法与代币经济尚未披露"
+      ],
+      "whatsNew": "3D 岛屿 + Pons Launch Lab 发币 + Stock Tokens 展示",
+      "summary": "Robinhood Chain 上的 3D 多人小岛，内置 Pons Launch Lab 发币与 Genesis NFT 钥匙，官网已可访问，属极早期台子。",
+      "blurb": "Robinhood Chain 3D 岛 + 发币实验室",
+      "round": 1665,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-11 20:15 CST",
+      "addedAt": "2026-11-11 20:15 CST",
+      "lastChecked": "2026-11-11 20:15 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "shitincinerator",
+      "name": "SHIT",
+      "handle": "@shitincinerator",
+      "twitter": "@shitincinerator",
+      "chain": "BNB Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/shitincinerator",
+        "web": "https://shitincinerator.fun"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 5.7
+      },
+      "highlights": [
+        "本轮核验：官网 shitincinerator.fun，BNB Chain",
+        "stamp=mint 铸 $SHIT，用于冲洗死币/rug NFT"
+      ],
+      "drawbacks": [
+        "本轮未核到代币合约",
+        "仅 1 粉，机制与收益模型未验证"
+      ],
+      "whatsNew": "agent-only 死币焚烧炉，stamp 即 mint",
+      "summary": "BNB Chain 上的死币/rug NFT 焚烧铸币玩法，官网已上线但代币合约本轮未核到，属极早期。",
+      "blurb": "BNB 死币焚烧炉，stamp 即 mint",
+      "round": 1665,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-11 20:15 CST",
+      "addedAt": "2026-11-11 20:15 CST",
+      "lastChecked": "2026-11-11 20:15 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "minihao-cat",
+      "name": "min ni hao",
+      "handle": "@minihao_cat",
+      "twitter": "@minihao_cat",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/minihao_cat",
+        "web": "https://minnihao.pro",
+        "ca": "39u9F57x8wjikEGaZ322sKdtW6m7KKgEfcvkDt2Xpump"
+      },
+      "scores": {
+        "early": 5,
+        "risk": 6,
+        "novelty": 4,
+        "actionable": 6,
+        "overall": 4.8
+      },
+      "highlights": [
+        "本轮核验约：官方 Solana CA 39u9F57x8wjikEGaZ322sKdtW6m7KKgEfcvkDt2Xpump（pump.fun）",
+        "曲线约 2026-11-11 19:55 CST 开、约 20:01 CST 毕业到 PumpSwap",
+        "本轮核验约 FDV $113.6k / 流动性 $25.0k / 24h 量约 $130k",
+        "另有 Robinhood flapsh 同名代币 0xA0cc069CE3A1BC48D6D644fF355c2ba8405d7777，勿合并"
+      ],
+      "drawbacks": [
+        "已毕业并已开盘，追高风险明确",
+        "流动性仅约 $25k，账号 8 粉噪音大"
+      ],
+      "whatsNew": "小猫长须 meme 在 pump.fun 秒级毕业并上线 PumpSwap",
+      "summary": "Solana 上的 $MINIHAO 猫咪 meme，官网 minnihao.pro 与 pump.fun CA 已核，已毕业开盘，市值十余万美元级。",
+      "blurb": "已毕业的 Solana 猫咪 meme",
+      "round": 1665,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 8,
+      "xFollowers": 8,
+      "firstSeen": "2026-11-11 20:15 CST",
+      "addedAt": "2026-11-11 20:15 CST",
+      "lastChecked": "2026-11-11 20:15 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "manifestmkts",
       "name": "Manifest Markets",
@@ -29857,7 +30248,7 @@
       "addedAt": "2026-11-11 19:48 CST",
       "lastChecked": "2026-11-11 19:48 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "schedule": {
         "status": "watching",
         "timezone": "Asia/Shanghai",
@@ -268584,19 +268975,26 @@
     }
   ],
   "newThisRound": [
-    "manifestmkts"
+    "minihao-cat",
+    "shitincinerator",
+    "bons-world",
+    "zoku-club",
+    "stirrupmarkets",
+    "lunetteapp",
+    "zerofun-xyz",
+    "noctenna"
   ],
-  "alertMessage": "19:48 面板 https://reboot7454.github.io/early-scout/ ：Pengu 付费已 907/11,000（0.002 BNB）；Blooms 免费档、AMPHIGENTS（已上 OpenSea）、ECHO 均 LIVE；Archer 白名单 IDO 约 20:00；GEM 20:25 加池/20:30 开挖；GHOSTCAT 约 21:00 仍属 KOL 转述、CA 未出；新收录极早期 @manifestmkts（Robinhood 指数代币，无时间表）。",
+  "alertMessage": "DC补漏 R1665 新收录 8 项：Noctenna（RH 开源交易 agent，$NOCTE 官方 CA 已在 Pons 曲线、本轮约 FDV $12k、未毕业）；Bons（RH 3D 小岛+Pons Launch Lab，Genesis NFT 是钥匙）；Zoku（RH AI agent MMORPG，官网已可看、CA 未公布）；Lunette（RH 隐私支付，官网 lunetteapp.xyz）；Stirrup Markets（RH agent 交易台）；SHIT Incinerator（BNB agent-only stamp=mint，CA 未核到）；ZERO（BSC 预售发射台，$ZERO 已开盘本轮约 FDV $251k）；min ni hao（$MINIHAO 官方 Solana 已毕业 PumpSwap，本轮约 FDV $114k）。面板：https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "manifestmkts"
   ],
-  "updatedAt": "2026-11-11 19:48 CST",
-  "updated": "2026-11-11 19:48 CST",
+  "updatedAt": "2026-11-11 20:15 CST",
+  "updated": "2026-11-11 20:15 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-11 19:48 CST",
+  "lastScout": "2026-11-11 20:15 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -268638,7 +269036,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3978,
+  "candidateCount": 3986,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -272044,5 +272442,15 @@
   ],
   "round1664Added": [
     "manifestmkts"
+  ],
+  "round1665Added": [
+    "minihao-cat",
+    "shitincinerator",
+    "bons-world",
+    "zoku-club",
+    "stirrupmarkets",
+    "lunetteapp",
+    "zerofun-xyz",
+    "noctenna"
   ]
 }
