@@ -1,0 +1,91 @@
+{
+  "round": 1661,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-11 18:51 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏 R1661 新收录 2 项：OwlSight（$OWL 官方 CA 0x2534b93e…ce26a8，Pons/RH 池约 18:30 CST 建、当时约 FDV $5.87k / 流动性 $5.55k；勿与其他 $OWL 盘合并）、Optio（自托管 agent 编排 OSS，$OPTIO 官方 CA 0x13523221…21e6ff，Pons/RH 池约 18:36 CST 建、当时约 FDV $8.66k / 流动性 $7.33k）。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "owlsightfun",
+    "optiohost"
+  ],
+  "newCount": 2,
+  "newIds": [
+    "owlsightfun",
+    "optiohost"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 36,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "gatecerberus",
+    "ciphersaints"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "gatecerberus",
+    "ciphersaints"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=2",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-11 18:45",
+    "lastChecked": "2026-11-11 18:51 CST",
+    "newestCardTime": "2026-11-11 18:45",
+    "cardsAfterCutoff": 36,
+    "note": "R1661：Discord alpha 补收 owlsightfun,optiohost；开跑 git pull 后仓库已是网页雷达 R1660（gatecerberus / ciphersaints），本轮 DC=R1661，未覆盖 R1660；已清 R1660 newThisRound；lastSeen→2026-11-11 18:45；lastChecked→2026-11-11 18:51 CST",
+    "lastRound": 1661,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-11 18:42",
+      "alpha-1-backup": "2026-11-11 18:34",
+      "smart-accounts-tracker": "2026-11-11 18:45",
+      "alpha-1": "2026-11-11 18:33"
+    },
+    "spideyPosting": true
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1661：Discord alpha 补收 owlsightfun,optiohost；开跑 git pull 后仓库已是网页雷达 R1660（gatecerberus / ciphersaints），本轮 DC=R1661，未覆盖 R1660；已清 R1660 newThisRound；lastSeen→2026-11-11 18:45；lastChecked→2026-11-11 18:51 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1660.json",
+  "priorRoundNote": "R1660 web radar admit gatecerberus ciphersaints; cardsAfterCutoff=36 uniqueHandles=30 already=4 prereject=24 keep=2",
+  "alert": "DC补漏 R1661 新收录 2 项：OwlSight（$OWL 官方 CA 0x2534b93e…ce26a8，Pons/RH 池约 18:30 CST 建、当时约 FDV $5.87k / 流动性 $5.55k；勿与其他 $OWL 盘合并）、Optio（自托管 agent 编排 OSS，$OPTIO 官方 CA 0x13523221…21e6ff，Pons/RH 池约 18:36 CST 建、当时约 FDV $8.66k / 流动性 $7.33k）。面板：https://reboot7454.github.io/early-scout/",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-11 18:42",
+    "alpha-1-backup": "2026-11-11 18:34",
+    "smart-accounts-tracker": "2026-11-11 18:45",
+    "alpha-1": "2026-11-11 18:33"
+  },
+  "cardsAfterCutoff": 36,
+  "admissions": [
+    {
+      "id": "owlsightfun",
+      "handle": "@OwlSightfun",
+      "category": "台子/Meme",
+      "name": "OwlSight"
+    },
+    {
+      "id": "optiohost",
+      "handle": "@optiohost",
+      "category": "台子/Meme",
+      "name": "Optio"
+    }
+  ],
+  "rejectedCount": 24,
+  "alreadyCount": 4,
+  "spideyPosting": true,
+  "newestByChannel": {
+    "alpha-3-new-accounts": "2026-11-11 18:42",
+    "alpha-1-backup": "2026-11-11 18:34",
+    "smart-accounts-tracker": "2026-11-11 18:45",
+    "alpha-1": "2026-11-11 18:33"
+  },
+  "xReads": 5
+}

@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-11 18:45 CST",
+    "updated": "2026-11-11 18:51 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-11 18:45 CST",
+    "lastScout": "2026-11-11 18:51 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -725,7 +725,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1660,
+    "round": 1661,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -802,7 +802,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 3969,
+    "candidateCount": 3971,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -2166,8 +2166,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "gatecerberus",
-      "ciphersaints"
+      "owlsightfun",
+      "optiohost"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4673,17 +4673,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-11 18:02",
-      "lastChecked": "2026-11-11 18:15 CST",
-      "newestCardTime": "2026-11-11 18:02",
-      "cardsAfterCutoff": 45,
-      "note": "R1659：Discord alpha 补收 playhippocamp,gulpclub,pantheondesk,amphigents,lodedotfun,onshareai,tell-markets；开跑 git pull 后仓库已是网页雷达 R1658（elysianblooms 等续更、无新收录），本轮 DC=R1659，未覆盖 R1658；lastSeen→2026-11-11 18:02；lastChecked→2026-11-11 18:15 CST",
-      "lastRound": 1659,
+      "lastSeen": "2026-11-11 18:45",
+      "lastChecked": "2026-11-11 18:51 CST",
+      "newestCardTime": "2026-11-11 18:45",
+      "cardsAfterCutoff": 36,
+      "note": "R1661：Discord alpha 补收 owlsightfun,optiohost；开跑 git pull 后仓库已是网页雷达 R1660（gatecerberus / ciphersaints），本轮 DC=R1661，未覆盖 R1660；已清 R1660 newThisRound；lastSeen→2026-11-11 18:45；lastChecked→2026-11-11 18:51 CST",
+      "lastRound": 1661,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-11 18:01",
-        "alpha-1-backup": "2026-11-11 17:49",
-        "smart-accounts-tracker": "2026-11-11 18:02",
-        "alpha-1": "2026-11-11 17:36"
+        "alpha-3-new-accounts": "2026-11-11 18:42",
+        "alpha-1-backup": "2026-11-11 18:34",
+        "smart-accounts-tracker": "2026-11-11 18:45",
+        "alpha-1": "2026-11-11 18:33"
       },
       "spideyPosting": true
     },
@@ -29660,9 +29660,119 @@
       "tell-markets",
       "gatecerberus",
       "ciphersaints"
+    ],
+    "round1661Added": [
+      "owlsightfun",
+      "optiohost"
     ]
   },
   "candidates": [
+    {
+      "id": "optiohost",
+      "name": "Optio",
+      "handle": "@optiohost",
+      "twitter": "@optiohost",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/optiohost",
+        "web": "https://optio.host",
+        "ca": "0x1352322187bdfa0865af0ec2910471003a21e6ff",
+        "caNote": "官方 CA 0x1352322187bdfa0865af0ec2910471003a21e6ff；Robinhood OPTIO/WETH 池 0xd6725a894cbfce383b6381c89a52ac1f66c00487 于 2026-11-11 18:36 CST 创建，GeckoTerminal 本轮约 18:49 CST 读取；同名盘勿合并。",
+        "twitter": "https://x.com/optiohost",
+        "website": "https://optio.host"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 8,
+        "novelty": 6,
+        "actionable": 7,
+        "overall": 6.5
+      },
+      "highlights": [
+        "官网为完整产品页：MIT 开源自托管 agent 编排，可在自有 Kubernetes/本机跑 Claude Code、Codex、Gemini 等，把 prompt 变成 PR",
+        "官方推文已公布 $OPTIO CA；GeckoTerminal 显示 Robinhood OPTIO/WETH 池于 2026-11-11 18:36 CST 创建，1h 成交约 $4.96k",
+        "官网称 GitHub jonwiggins/optio，MIT 开源"
+      ],
+      "drawbacks": [
+        "产品是通用 agent 编排工具，代币与产品效用的绑定尚未在官网写清",
+        "微型市值：FDV 约 $8.66k、流动性约 $7.33k，波动与退出风险高",
+        "官方另有 Burn Supply 推文并链 Blockscout，但本轮未能独立核验燃烧数量/比例"
+      ],
+      "whatsNew": "2026-11-11 建号；官网完整产品页；官方推文公布 CA；Robinhood 上 OPTIO/WETH 池于 18:36 CST 创建。",
+      "summary": "已有 MIT 开源自托管 agent 编排产品（官网称 GitHub jonwiggins/optio），可在自有 K8s/本机跑 Claude Code、Codex、Gemini 等并把 prompt 变成 PR；同名 $OPTIO 刚在 Pons 上线，官方公布 CA，Robinhood OPTIO/WETH 池已创建。代币与产品效用绑定尚未在官网写清。",
+      "blurb": "有真实开源产品的 agent 编排盘，刚上 Pons，代币效用绑定仍模糊。",
+      "round": 1661,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 8,
+      "xFollowers": 8,
+      "firstSeen": "2026-11-11 18:50 CST",
+      "addedAt": "2026-11-11 18:50 CST",
+      "lastChecked": "2026-11-11 18:50 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true,
+      "schedule": "已开盘：2026-11-11 18:36 CST（OPTIO/WETH 池创建）",
+      "ca": "0x1352322187bdfa0865af0ec2910471003a21e6ff"
+    },
+    {
+      "id": "owlsightfun",
+      "name": "OwlSight",
+      "handle": "@owlsightfun",
+      "twitter": "@OwlSightfun",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/OwlSightfun",
+        "web": "https://owlsight.fun/",
+        "ca": "0x2534b93ea115d69e4d03850c3f75c967f3ce26a8",
+        "caNote": "官方 CA 0x2534b93ea115d69e4d03850c3f75c967f3ce26a8；Robinhood OWL/WETH 池 0xbb37a8804a57b36fe34db045b099ffdb70cf707e 于 2026-11-11 18:30 CST 创建，GeckoTerminal 本轮约 18:49 CST 读取；勿与 owlliquidity.com、OWL Wallet Network 0x20a110e8…、0xaf11482d…、Clanker Owl Coin 0xd4c2BBee…、The Superintelligence Owl 0x6b7974B4… 等同名盘合并。",
+        "twitter": "https://x.com/OwlSightfun",
+        "website": "https://owlsight.fun/"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 8,
+        "novelty": 7,
+        "actionable": 8,
+        "overall": 7.0
+      },
+      "highlights": [
+        "官网可粘贴 Solana/Robinhood 合约，免费查创建者、资金来源、首批买入、持仓与资金流向",
+        "付费提问每问烧 1 万 $OWL，官网写明 60% 创造者手续费回购销毁（该行文案仍显示 not launched yet，属模块未更新）",
+        "官方推文已公布 CA；GeckoTerminal 显示 Robinhood OWL/WETH 池于 2026-11-11 18:30 CST 创建，1h 成交约 $4.03k"
+      ],
+      "drawbacks": [
+        "微型市值：FDV 约 $5.87k、流动性约 $5.55k，波动与退出风险高",
+        "官方称 100% dev supply 已烧，但 Blockscout 被 Cloudflare 拦截，本轮未能独立核验燃烧数量",
+        "Dexscreener 对官方 CA 无池，需以 GeckoTerminal/链上为准；同名 $OWL 盘多，勿合并"
+      ],
+      "whatsNew": "2026-11-11 建号，官网可打开，官方推文公布 CA；Robinhood 上 OWL/WETH 池于 18:30 CST 创建。",
+      "summary": "极早期链上溯源工具，支持粘贴 Solana/Robinhood 合约查创建者、资金来源、首批买入、持仓与资金流向；付费提问每问烧 1 万 $OWL。官方已公布 CA，Robinhood 上 OWL/WETH 池已创建，属于刚开盘的微型市值盘。",
+      "blurb": "刚开盘的链上溯源工具盘，官网可用、CA 已公布，但市值与流动性极小。",
+      "round": 1661,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 8,
+      "xFollowers": 8,
+      "firstSeen": "2026-11-11 18:50 CST",
+      "addedAt": "2026-11-11 18:50 CST",
+      "lastChecked": "2026-11-11 18:50 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true,
+      "schedule": "已开盘：2026-11-11 18:30 CST（OWL/WETH 池创建）",
+      "ca": "0x2534b93ea115d69e4d03850c3f75c967f3ce26a8"
+    },
     {
       "id": "gatecerberus",
       "name": "Cerberus · GateHound",
@@ -29709,7 +29819,7 @@
       "addedAt": "2026-11-11 18:45 CST",
       "lastChecked": "2026-11-11 18:45 CST",
       "zoneHint": "打新",
-      "newThisRound": true,
+      "newThisRound": false,
       "schedule": {
         "status": "announced",
         "timezone": "Asia/Shanghai",
@@ -29766,7 +29876,7 @@
       "addedAt": "2026-11-11 18:45 CST",
       "lastChecked": "2026-11-11 18:45 CST",
       "zoneHint": "打新",
-      "newThisRound": true,
+      "newThisRound": false,
       "schedule": {
         "status": "announced",
         "timezone": "Asia/Shanghai",
@@ -267842,21 +267952,21 @@
     }
   ],
   "newThisRound": [
-    "gatecerberus",
-    "ciphersaints"
+    "owlsightfun",
+    "optiohost"
   ],
-  "alertMessage": "【约15分钟后】Pengu Agent 19:00 CST 开 mint，前500免费，官网 https://penguagent.space/ ，CA 0x75c6Db7072276CDe16f703D1aA70B8dbc1a187AC。随后约 20:04 ArcherSwap $ARW 白名单（官号改点，原估19:40；价格 $0.045）。20:25/20:30 宝石 GEM 加池开挖（已入≤2h，CA未公布）。Elysian Blooms 免费档仍 LIVE（前1000，CA 0x0a3c34b58593823A34e9f852481731A34A7B9Ba1）。本轮新收：Cerberus（11-13 份额发售，CA 0xefa72777be9eFd6751F5163F19648CF2f065F4Fd）、Cipher Saints（11-19 ICP 免费铸1万份）。今晚还有：21:00 GHOSTCAT（待官宣CA）、22:00 Koma / TheWurms / Hippocamp $HIPPO、23:00 Broccoli 重开铸（可查亏损半价）。面板：https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏 R1661 新收录 2 项：OwlSight（$OWL 官方 CA 0x2534b93e…ce26a8，Pons/RH 池约 18:30 CST 建、当时约 FDV $5.87k / 流动性 $5.55k；勿与其他 $OWL 盘合并）、Optio（自托管 agent 编排 OSS，$OPTIO 官方 CA 0x13523221…21e6ff，Pons/RH 池约 18:36 CST 建、当时约 FDV $8.66k / 流动性 $7.33k）。面板：https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "gatecerberus",
     "ciphersaints"
   ],
-  "updatedAt": "2026-11-11T18:45:00+08:00",
-  "updated": "2026-11-11 18:45 CST",
+  "updatedAt": "2026-11-11 18:51 CST",
+  "updated": "2026-11-11 18:51 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-11 18:15 CST",
+  "lastScout": "2026-11-11 18:51 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -267898,7 +268008,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3969,
+  "candidateCount": 3971,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -271285,5 +271395,9 @@
     "lodedotfun",
     "onshareai",
     "tell-markets"
+  ],
+  "round1661Added": [
+    "owlsightfun",
+    "optiohost"
   ]
 }
