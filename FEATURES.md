@@ -54,7 +54,7 @@
 - 默认排序「最新信号」：有 `firstSeen` 或 `addedAt` 则新的在前，否则 `round` 降序；同轮 `whatsNew` 非空优先，再按 `scores.overall` / `earlyScore`。九列共用；下拉仍可改早期程度 / 综合 / 日程 / 风险 / 名称。
 - 挖矿列保持紧凑 `.mining-row` + GPU PoW / NFT 变异 / Miner NFT / 其他。打新、台子/Meme、GO盘、LayerZero、Elysium、Tape/电路用完整卡片。点品类「挖矿」或顶栏药丸跳到对应列；LayerZero / Elysium / Tape 顶栏/芯片可跳对应栏。
 - 例行搜刮需**同等努力**覆盖：打新（全部链）、挖矿（GPU/AI-PoW、NFT 变异/Miner）、台子·Meme、GO盘、LayerZero、BTC 生态，以及其它生态。Elysium 与 Tape/电路是加栏加盯，**不得**把搜刮收成只扫这两栏。
-- **2026-11-11 起强制分栏查询**：LayerZero / Tape/电路 / GIWA / DogeEVM / BTC / Starknet 每轮各至少一次独立关键词搜索，禁止并进 Elysium / BNB / Robinhood 的大搜索；薄栏 Watch 每轮全读，厚表分片。细则见 `scripts/x_budget.py` 的 `alloc` / `kwThinQueries` 与 HANDOFF「不要偏科」。
+- **2026-11-11 起强制分栏查询**：LayerZero / Tape/电路 / GIWA / DogeEVM / BTC / Starknet 每轮各至少一次独立关键词搜索，禁止并进 Elysium / BNB / Robinhood 的大搜索；薄栏 Watch 每轮全读，厚表分片。细则见 `scripts/x_budget.py` 的 `alloc` / `kwThinQueries` 与 HANDOFF「不要偏科」。2026-11-12 起在薄栏 KW 之后加静号补漏（`silentCap`，不占 softCap），见 §8b。
 
 ## 5) 重点横条（focus · 非栏位）
 
@@ -97,6 +97,32 @@
 - **禁止**：把 Peek 热度榜整表入库；收成熟协议 / Infra 空壳 / 疑似刷量 / 中后期 DeFi；为「对账完成」而扩容。
 - **Discord `#alpha-1` Peek（`meta.discordAlphaPeek` / `meta.watches.discordAlphaPeek`）**：已挂入 **35m 例行**作 Peek对账补漏；只补漏且仍极早期的项；七栏归类；**不是**全量 X 时间线监控。主频道 alpha-1（Spidey Bot / X Follow Monitor / Captain Hook）；backup / smart-accounts-tracker / alpha-3-new-accounts 辅助。
 - **仍非**全量 X 账号时间线监控；对账是品类学习扫描，执行端只拉信号/改 json/push，文案与打分走 deepseek-flash（thinking on）。
+
+## 8b) 静号补漏（本仓自有 · 不依赖 Discord）
+
+Discord `#alpha-1` 的关注监控是补漏，不是静号的唯一入口。0 帖官号不会出现在推文关键词结果里。本路径在薄栏独立 KW 之后、核心栏 KW 之前跑，Discord 挂了也照跑。
+
+- 预算：`scripts/x_budget.py` 的 `silentCap` / `alloc.silent`。这几读**不占 softCap**，也不从 `userFollowWatch` 或六条薄栏 KW（LayerZero / Tape/电路 / GIWA / DogeEVM / BTC / Starknet）里扣。`silentCap=0`（零 X、near-exhausted、或 remaining 盖不住 softCap）时不调用 X，RESULT 仍写 `silentAccounts.ran=false`。
+- 调用清单以 `python3 scripts/silent_accounts.py plan` 为准，不要翻页，不要把静号 query 并进 Elysium / BNB / Robinhood 大搜索。每轮只轮换一条 `search_users`（`silentRotation`，十一栏转圈）。`search_users` 对应 `GET /2/users/search`：query 只能是字母数字空格下划线撇号、最长 50，按名字/用户名/bio 做相关度匹配，**没有** `bio:` / `url:` / 帖数 / 注册时间算子；用户对象里的 `url` 才是资料栏网站。
+- 第二读（仅 silentCap≥2）：没有待解析 handle 时，`search_posts_all` 用当轮 `mentionQuery`（`has:mentions`，抽别人帖子里的 @）。有上一轮 `deferredHandles` 时，改成一次 `get_users_by_usernames`。这一读**不算**该栏的薄栏 KW。
+- `url:` 只命中帖子正文里的链接，不是资料栏网站。现有 X 客户端没有 following 列表工具，本路径不抓 Discord、也不另做关注图。
+- 闸门在 `scripts/silent_accounts.py filter`：已在库、帖数 >3、账号老于 120 天、没有资料网站也没有产品 bio 的跳过。**0 帖且粉丝 ≥500、站点没有 HTTP 确认存活、也没有已确认的链上证据 → `shell_deferred`，不送审不收录**（R1623，@yumsdotfun 当时约 708 粉、0 帖、站未开）。站点确认存活或链上证据确认之后才送 deepseek-flash，脚本本身不收录。
+- 送审包强制 `links.x` 且 `focus:false`。普通新卡不要写 `focus:true`。
+- 每轮 RESULT 增加：
+
+```json
+"silentAccounts": {
+  "ran": true,
+  "seen": 0,
+  "sentToReview": 0,
+  "admitted": 0,
+  "skipped": 0
+}
+```
+
+`seen = sentToReview + skipped`。`admitted` 是其中真正写入的新卡数，过滤阶段为 0；DeepSeek 拒掉的仍算送审、不算 skipped。计数对不齐时 `silent_accounts.py result` 会直接退出。
+
+残留缺口：资料网站为空、bio 既没有网址也不含当轮 query、又没有第三方帖子点名该 @ 的 0 帖号（@yumsdotfun 在 2026-11-11 07:35 CST 就是这种），用户搜索和推文搜索都看不到。Discord 关注监控之前能看到，是因为它看的是别人的新关注，不是帖子。这条缺口写在 `plan` 的 `residualGap` 里，不要用抓 Discord 来填。
 
 ## DeepSeek 省用量（硬卸载 · 2026-10-17）
 - **必须**用 `deepseek-flash`（thinking **ON**，勿关闭）做全部判断类工作：admit / score / zone 文案草稿 / highlights / whatsNew / alert / summary / dedupe。

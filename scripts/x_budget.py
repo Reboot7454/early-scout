@@ -9,13 +9,18 @@ As of 2026-11-11 the user required equal-effort coverage (不要偏科):
 thin lanes must get dedicated keyword / mentions slots and must not be merged
 into high-volume Elysium / BNB / Robinhood queries.
 
+Silent-account discovery (search_users + one third-party mention or profile
+batch) is alloc.silent / silentCap. It sits outside softCap and is dropped
+before userFollowWatch or the six thin-lane keyword searches are cut.
+The call list for that path is scripts/silent_accounts.py plan.
+
 Usage:
   python3 scripts/x_budget.py              # remaining from meta.xQuota or env
   python3 scripts/x_budget.py 1000         # explicit remaining
   X_REMAINING=850 python3 scripts/x_budget.py
 """
 from __future__ import annotations
-import json, os, sys
+import json, os, re, sys
 from datetime import datetime, timedelta, timezone
 
 CST = timezone(timedelta(hours=8))
@@ -73,6 +78,45 @@ THIN_WATCHES = [
     "giwaWatch",
 ]
 
+# Owned silent-account discovery. One lane per round, rotating through the
+# full list so this 1-read slot cannot stick on Elysium / BNB / Robinhood.
+# search_users queries are plain words: GET /2/users/search rejects operators
+# and anything outside [A-Za-z0-9_' ]{1,50}. These are NOT the thin-lane
+# keyword searches and must not replace them.
+SILENT_USER_QUERIES = [
+    {"lane": "打新", "query": "fair mint"},
+    {"lane": "挖矿", "query": "GPU mine"},
+    {"lane": "台子/Meme", "query": "launchpad"},
+    {"lane": "GO盘", "query": "GO launch"},
+    {"lane": "LayerZero", "query": "LayerZero OFT"},
+    {"lane": "Elysium", "query": "Elysium mint"},
+    {"lane": "Tape/电路", "query": "TapeOut"},
+    {"lane": "GIWA", "query": "GIWA launch"},
+    {"lane": "DogeEVM", "query": "DogeEVM"},
+    {"lane": "BTC", "query": "Ordinals mint"},
+    {"lane": "Starknet", "query": "Starknet mint"},
+]
+
+# Default second silent read: third-party tweets that @mention someone.
+# has:mentions is the signal. This does not find a 0-post author, and it is
+# not a thin-lane keyword search. scripts/silent_accounts.py plan swaps this
+# for one get_users_by_usernames batch when the previous round queued handles.
+SILENT_MENTION_QUERIES = [
+    {"lane": "打新", "query": 'has:mentions has:links ("fair mint" OR "free mint" OR whitelist) -is:retweet'},
+    {"lane": "挖矿", "query": 'has:mentions ("GPU mine" OR "NFT miner" OR "PoW mine") -is:retweet'},
+    {"lane": "台子/Meme", "query": 'has:mentions (launchpad OR "bonding curve") -is:retweet'},
+    {"lane": "GO盘", "query": 'has:mentions ("GO launch" OR "AR launch") -is:retweet'},
+    {"lane": "LayerZero", "query": "has:mentions (LayerZero OR OFT) (mint OR launch OR launchpad) -is:retweet"},
+    {"lane": "Elysium", "query": "has:mentions (Elysium OR Enter_Elysium) (mint OR launch) -is:retweet"},
+    {"lane": "Tape/电路", "query": "has:mentions (TapeOut OR TapeAI OR bitcointapes) -is:retweet"},
+    {"lane": "GIWA", "query": "has:mentions (GIWA OR GIWA_by_Upbit) (mint OR launch) -is:retweet"},
+    {"lane": "DogeEVM", "query": "has:mentions (DogeEVM OR DogeOS) (mint OR launch) -is:retweet"},
+    {"lane": "BTC", "query": "has:mentions (Ordinals OR CRC20 OR ShieldedNaka) (mint OR launch) -is:retweet"},
+    {"lane": "Starknet", "query": "has:mentions (Starknet OR Bramble) (mint OR launchpad) -is:retweet"},
+]
+
+USER_QUERY_RE = re.compile(r"^[A-Za-z0-9_' ]{1,50}$")
+
 
 def next_reset(now: datetime) -> datetime:
     local = now.astimezone(CST)
@@ -80,6 +124,19 @@ def next_reset(now: datetime) -> datetime:
     if local >= reset:
         reset += timedelta(days=1)
     return reset
+
+
+def load_round() -> int:
+    """Current meta.round. Read-only: this helper never increments it."""
+    env = os.environ.get("SCOUT_ROUND")
+    if env is not None and env.strip().isdigit():
+        return int(env.strip())
+    path = os.path.join(os.path.dirname(__file__), "..", "data.json")
+    try:
+        meta = json.load(open(path, encoding="utf-8")).get("meta", {})
+        return max(0, int(meta.get("round") or 0))
+    except Exception:
+        return 0
 
 
 def load_remaining(explicit: int | None) -> int:
@@ -188,6 +245,40 @@ def allocate(mode: str, soft_cap: int) -> dict:
     return plan
 
 
+def silent_cap_for(mode: str, remaining: int, soft_cap: int) -> int:
+    """Reads for the owned silent-account path. Outside softCap.
+
+    Allowed only when `remaining` still covers this round's softCap, so the
+    path cannot shrink userFollowWatch, must/≤2h, or the six thin-lane
+    keyword searches. zero-x and near-exhausted record ran=false and spend 0.
+    tight gets at most the user-search read; other live modes get that plus
+    one mention-search or one profile batch.
+    """
+    if mode in ("zero-x", "near-exhausted") or soft_cap <= 0 or remaining <= 0:
+        return 0
+    want = 1 if mode == "tight" else 2
+    headroom = remaining - soft_cap
+    if headroom <= 0:
+        return 0
+    return min(want, headroom)
+
+
+def silent_rotation(round_n: int) -> dict:
+    n = len(SILENT_USER_QUERIES)
+    i = int(round_n) % n
+    user = SILENT_USER_QUERIES[i]
+    mention = SILENT_MENTION_QUERIES[i]
+    return {
+        "round": int(round_n),
+        "index": i,
+        "lanes": n,
+        "lane": user["lane"],
+        "userQuery": user["query"],
+        "mentionQuery": mention["query"],
+        "note": "一条静号 query 轮换全栏；不是薄栏 KW，禁止只停在 Elysium/BNB/RH",
+    }
+
+
 def plan(remaining: int, now: datetime | None = None) -> dict:
     now = now or datetime.now(CST)
     reset = next_reset(now)
@@ -216,6 +307,11 @@ def plan(remaining: int, now: datetime | None = None) -> dict:
         mode, soft_cap = "post-reset-full", min(50, remaining)
 
     alloc = allocate(mode, soft_cap)
+    scout_round = load_round()
+    silent_cap = silent_cap_for(mode, remaining, soft_cap)
+    # Outside the softCap sum on purpose. Do not trim uf / kwThin to fund it.
+    alloc["silent"] = silent_cap
+    main_keys = ("uf", "mustLe2h", "kwThin", "kwCore", "mentionsThin", "mentionsRest")
     return {
         "remaining": remaining,
         "limit": LIMIT,
@@ -227,14 +323,18 @@ def plan(remaining: int, now: datetime | None = None) -> dict:
         "mode": mode,
         "softCap": soft_cap,
         "minSpend": alloc["minSpend"],
+        "silentCap": silent_cap,
+        "silentOutsideSoftCap": True,
         "alloc": alloc,
+        "allocMain": sum(alloc[k] for k in main_keys),
         "thinLanes": THIN_LANES,
         "coreLanes": CORE_LANES,
         "kwThinQueries": KW_THIN,
         "kwCoreQueries": KW_CORE,
+        "silentRotation": silent_rotation(scout_round),
         "fatWatches": FAT_WATCHES,
         "thinWatches": THIN_WATCHES,
-        "priority": "UF分片→必盯/≤2h（薄栏 Watch 每轮全读，厚表分片且不得与薄栏合并）→薄栏独立KW→核心栏KW→薄栏 mentions→其余 mentions",
+        "priority": "UF分片→必盯/≤2h（薄栏 Watch 每轮全读，厚表分片且不得与薄栏合并）→薄栏独立KW→静号补漏(silentCap，不占 softCap，不依赖 Discord)→核心栏KW→薄栏 mentions→其余 mentions→Discord Peek",
         "rules": [
             "同一 handle 每轮只读 1 次（跨 UF+各 Watch 去重）",
             "禁探索性读：不闲逛、不重复确认、Not Found 不连刷",
@@ -245,7 +345,11 @@ def plan(remaining: int, now: datetime | None = None) -> dict:
             "额度紧(<200) 仍保留薄栏独立 KW；仅近耗尽(<50) 才延后关键词/mentions",
             "remaining=0→08:00：零 X；重置后仅首轮全量补扫",
             "额度够时不得远低于 minSpend 收工；softCap 是 pacing 不是砍栏借口",
-            "RESULT 必写 xReads/remainingBefore/remaining/mode/softCap/minSpend/ufCursor/laneReads（每薄栏独立 KW 是否跑到）",
+            "静号补漏走 alloc.silent / silentCap，不从 softCap 扣，不靠少跑 userFollowWatch 或六条薄栏 KW 来腾次数；silentCap=0 时本路径 ran=false，禁止改记到主扫上",
+            "静号每轮只跑 silentRotation 的一条 search_users（全栏轮换）。第二读才是第三方 @提及或上一轮 deferred handle 的一次批量档案，调用清单以 scripts/silent_accounts.py plan 为准",
+            "推文关键词搜不到 0 帖官号。search_users 无 bio:/url: 算子，也不能按帖数或注册时间过滤；url: 只命中帖子里的链接，不是资料栏网站",
+            "0 帖且粉丝偏高且站点未确认存活、也无链上/发帖证据：defer，不送审不收录（R1623 @yumsdotfun）",
+            "RESULT 必写 xReads/remainingBefore/remaining/mode/softCap/minSpend/ufCursor/laneReads（每薄栏独立 KW 是否跑到）以及 silentAccounts.ran/seen/sentToReview/admitted/skipped",
         ],
     }
 

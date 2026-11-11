@@ -4,7 +4,7 @@
 
 ## X 日配额（必须 pacing；2026-11-11 起强制分栏，禁止偏科）
 日额约 1000，约 08:00 CST 重置。开跑：查 remaining → python3 scripts/x_budget.py → 遵守输出 softCap / minSpend / mode / alloc / kwThinQueries。
-- 硬顺序：① userFollowWatch 分片 ② 必盯/≤2h ③ 薄栏独立关键词 ④ 核心栏关键词 ⑤ 薄栏 mentions ⑥ 其余 mentions / Discord Peek。禁止砍①。
+- 硬顺序：① userFollowWatch 分片 ② 必盯/≤2h ③ 薄栏独立关键词 ④ 静号补漏（本仓自有，不依赖 Discord）⑤ 核心栏关键词 ⑥ 薄栏 mentions ⑦ 其余 mentions ⑧ Discord Peek（可选补漏，不是④的前提）。禁止砍①。禁止用④去换③，也禁止把④的次数记进 softCap。
 - 同 handle 每轮只读 1 次（跨 UF+各 Watch 去重）；禁探索性读（闲逛/重复确认/NF 连刷）。
 - UF 分片软刷（≤2h/LIVE/点名优先，其余轮转）；禁止整表全读。单轮 UF 按脚本 ufAccountShard，不得把 softCap 花光在厚名单上。
 - 禁止把 LayerZero / Tape/电路 / GIWA / DogeEVM / BTC / Starknet 的关键词或官号 mentions 并进 Elysium / BNB / Robinhood 的大搜索。除 remaining<50 或零 X 外，这六栏每轮各至少 1 次独立关键词搜索。
@@ -12,7 +12,14 @@
 - remaining=0→08:00：零 X，只本地 Watch 修+推；重置后仅首轮全量补扫（勿连续两轮 full-after-reset）。
 - <200：仍保留薄栏独立 KW；mentions 优先薄栏再轮换其余。<50：只 UF+≤2h。
 - 额度够时实际 xReads 不得远低于 minSpend 收工。softCap 是撑过一天的 pacing，不是砍栏借口。
-- RESULT 必写 xReads / remainingBefore / remaining / mode / softCap / minSpend / ufCursor / laneReads（每个薄栏独立 KW 是否跑到）。
+- RESULT 必写 xReads / remainingBefore / remaining / mode / softCap / minSpend / ufCursor / laneReads（每个薄栏独立 KW 是否跑到），以及 silentAccounts.ran / seen / sentToReview / admitted / skipped。
+
+## 静号补漏（④，Discord 挂了也要跑）
+对象：帖少或 0 帖、资料栏有网站或 bio 有明确产品、且不在 data.json 的新项目号。推文关键词搜不到 0 帖官号。开跑看 `python3 scripts/x_budget.py` 的 silentCap（在 softCap 之外）。silentCap=0（zero-x / near-exhausted / remaining 盖不住 softCap）就不要调用 X，RESULT 写 `silentAccounts.ran=false` 且四个计数为 0。
+否则 `python3 scripts/silent_accounts.py plan`，只打它列出的调用（不要翻页）：
+1. `search_users`，query 用当轮 silentRotation.userQuery（全栏轮换，禁止只搜 Elysium/BNB/RH）。user.fields 要 created_at,description,url,public_metrics,entities。这是唯一能直接返回 0 帖用户对象的读。
+2. silentCap≥2 时：队列空则 `search_posts_all` 跑 mentionQuery（只抽别人帖子里的 @，不算薄栏 KW）；队列不空则把上一轮 deferredHandles 一次 `get_users_by_usernames`，不要再加第三次读。
+payload 放 /tmp，不要提交。然后 `python3 scripts/silent_accounts.py filter --users ... --mentions ... --profiles ...`。送审的交给 deepseek-flash。0 帖且粉丝≥500、站点没确认存活、也没有链上证据的，脚本会标 shell_deferred，不要送审、不要收录（R1623 @yumsdotfun）。新卡必须有 links.x，普通新卡 focus 必须 false。收录后用 `silent_accounts.py result` 把 admitted 填进 RESULT 的 silentAccounts。本路径不改 meta.round，不改写历史卡。
 
 ## 面板与覆盖（Pages = main:/docs，必同步）
 九栏同等努力：打新｜挖矿｜台子/Meme｜GO盘｜LayerZero｜Elysium 生态｜Tape/电路｜GIWA｜DogeEVM。同等扫 BTC / Starknet。新卡勿 focus:true（除非 focusIds/squeek 类）。新收录必须有推特。Peek 只补漏，禁热度榜、禁全量时间线。
