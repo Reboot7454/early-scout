@@ -1,0 +1,97 @@
+{
+  "round": 1685,
+  "completedAt": "2026-11-12 04:03:42 CST",
+  "notify": true,
+  "notifyReason": "新增 2 张台子卡，且 Pavilion 上线、Hood Junkies 开铸与 Addicts 档进入 2h 窗口，属本轮真正新变化，需即时推送。",
+  "docsSynced": true,
+  "pushSha": "PENDING",
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "fearn",
+    "longevity"
+  ],
+  "le2h": [
+    "clover-rh",
+    "hood-junkies",
+    "pavilion"
+  ],
+  "alertMessage": "【打新雷达 R1685】新收录 2 张台子卡：Fearn（@floatdotxyz 上首个发射台，官网 Launch/Shill board/Docs 可访问，03:50 官帖）与 Longevity（跨链 launchpad+OTC，仅 Solana 写 Live，官帖正文不可读）。≤2h 窗：Pavilion Launchpad 03:44 CST 官宣 LIVE，Starknet 可自建 ERC-721 并同站 mint/trade，窗至约 05:44；Hood Junkies 开铸已见 OpenSea 证据（136 件、90 持有人、140 笔成交、floor 0.01 ETH），Addicts 档 06:11 CST、0.005 ETH，自 04:11 进 2h 窗。Catto 已官宣 23:48 开铸但超 2h；wikifork 约04:00窗已过；clover-rh 约04:10窗仍将到期，clover-rh 新增 OpenSea 集合核验（0xa2bb…99c4、供应 599）。面板：https://reboot7454.github.io/early-scout/",
+  "summary": "本轮对两个新候选做了区分处理：Fearn 有可访问官网与官方介绍帖、产品结构清晰，按台子/Meme 极早期收录；Longevity 官网可读但官帖正文不可读、无 CA 无时间表，以低分观察卡收录。更新侧的重点从「过期窗口」转向「仍在窗内」：Pavilion 的 Launchpad 由预告转为 03:44 CST 上线（窗至约 05:44），Hood Junkies 从预告转为实际开铸并有 OpenSea 供应/成交独立证据，Addicts 档 06:11 CST 自 04:11 进入 2h 窗；wikifork 与 clover-rh 的原窗口已过点，clover-rh 只新增 NFT 集合核验（合约、供应 599、持有人约 401），其自报 $CLOVER CA 仍未独立核验，不因核验续窗；catto 已在自有站点开铸但超 2h，改 live 不入窗；onchain-pigarc 仅白名单口径微调。Dawgz、Android_user00、Ammora 喊单号及 unitxyz/0xOmnia 证据不足，继续 skip，不建卡。",
+  "xReads": 27,
+  "remainingBefore": 543,
+  "remaining": 506,
+  "mode": "pace",
+  "softCap": 28,
+  "minSpend": 18,
+  "ufCursor": 1241,
+  "ufCursorBefore": 1193,
+  "laneReads": {
+    "LayerZero": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "silentAccounts": {
+    "ran": true,
+    "seen": 40,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 40,
+    "lane": "台子/Meme",
+    "index": 2,
+    "userQuery": "launchpad",
+    "search_users_unavailable": true,
+    "deferredHandles": []
+  },
+  "candidateCount": 4045,
+  "tenLanes": true,
+  "kwCoreRan": [
+    "台子/Meme",
+    "Elysium",
+    "打新"
+  ],
+  "kwCoreDeferred": [
+    "挖矿",
+    "GO盘"
+  ],
+  "mentionsThin": [
+    "@PlunderPort/@Blonskr",
+    "@GIWA_by_Upbit/@DogeOS",
+    "@banknotes_btc/@Bramble_fi"
+  ],
+  "mentionsRest": [
+    "@flapdotsh",
+    "@irys_xyz"
+  ],
+  "fatShards": {
+    "agentPad": [
+      181,
+      206
+    ],
+    "freeMint": [
+      287,
+      312
+    ],
+    "bnAgent": [
+      94,
+      119
+    ],
+    "elysium": [
+      10,
+      35
+    ]
+  },
+  "softDebtRefreshed": [
+    "glazeWatch",
+    "cantonPadWatch",
+    "cantonWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch",
+    "flapPadWatch"
+  ],
+  "dsNote": "deepseek-flash thinking-on, single complete call, no truncation, no dsFallback. le2h re-checked at 04:03:42 CST."
+}
