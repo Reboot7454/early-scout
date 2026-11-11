@@ -54,6 +54,7 @@
 - 默认排序「最新信号」：有 `firstSeen` 或 `addedAt` 则新的在前，否则 `round` 降序；同轮 `whatsNew` 非空优先，再按 `scores.overall` / `earlyScore`。九列共用；下拉仍可改早期程度 / 综合 / 日程 / 风险 / 名称。
 - 挖矿列保持紧凑 `.mining-row` + GPU PoW / NFT 变异 / Miner NFT / 其他。打新、台子/Meme、GO盘、LayerZero、Elysium、Tape/电路用完整卡片。点品类「挖矿」或顶栏药丸跳到对应列；LayerZero / Elysium / Tape 顶栏/芯片可跳对应栏。
 - 例行搜刮需**同等努力**覆盖：打新（全部链）、挖矿（GPU/AI-PoW、NFT 变异/Miner）、台子·Meme、GO盘、LayerZero、BTC 生态，以及其它生态。Elysium 与 Tape/电路是加栏加盯，**不得**把搜刮收成只扫这两栏。
+- **2026-11-11 起强制分栏查询**：LayerZero / Tape/电路 / GIWA / DogeEVM / BTC / Starknet 每轮各至少一次独立关键词搜索，禁止并进 Elysium / BNB / Robinhood 的大搜索；薄栏 Watch 每轮全读，厚表分片。细则见 `scripts/x_budget.py` 的 `alloc` / `kwThinQueries` 与 HANDOFF「不要偏科」。
 
 ## 5) 重点横条（focus · 非栏位）
 

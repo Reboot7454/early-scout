@@ -146,7 +146,7 @@ Jafar 是打新玩家：目标尽量不漏可操作机会，不是固定赛道�
 | 08:00 后首轮（rem≥950） | post-reset-full | ≤50 | **仅一轮**全量补扫 |
 
 执行要点：
-- **UF 优先且分片**：≤2h / LIVE / 用户点名 / 本轮新 必读；其余按 `meta.userFollowWatch.cursor`（或 round%N）轮转，单轮 UF 软刷目标约占 softCap 的 40–60%。
+- **UF 优先且分片**：≤2h / LIVE / 用户点名 / 本轮新 必读；其余按 `meta.userFollowWatch.cursor`（或 round%N）轮转。单轮 UF 按 `x_budget.py` 的 `ufAccountShard`（约 40–50 号，1–2 次查询），**不得再按 softCap 的 40–60% 把额度堆在厚名单上**。腾出的额度给薄栏独立 KW / mentions。
 - **20:00 CST 前预留 ~80** 给晚高峰（脚本 `eveningReserve`）。
 - RESULT 必写：`xReads` / `remainingBefore` / `remaining` / `mode` / `softCap`。
 
@@ -230,3 +230,20 @@ Pages source = main:/docs。每轮改完 data.json 后必须：
 `cp data.json docs/data.json`（或 `bash scripts/sync_docs_panel.sh`），
 再 `git add data.json docs/data.json` 一起推。只推根目录会导致面板落后整轮。
 
+
+
+## 2026-11-11 用户确认：不要偏科
+
+用户先问扫描是否偏科，随后明确要求「我要的是不要偏科」，并指出厚名单 + 关注表优先 + 合并搜索会漏掉许多新东西。
+
+根因（已核对 R1660–R1671 与库统计）：
+- 必盯极不均衡：`agentPadWatch` 738、`bnAgentWatch` 278、`elysiumWatch` 261，而 `starknetWatch` 4、`layerZeroWatch` 3、BTC 隐私约 10。
+- 近轮虽标 `tenLanes=true`，但关键词常只合并成 2 路大搜索，结果被 Elysium / BNB Agent / Robinhood 高声量淹没；薄栏几乎没有独立查询。
+- 额度其实宽裕（晚间 ample、softCap 30–40），实际只做约 5–8 次 X 查询后收工。
+- 雷达不解析他人 bio 挂靠；历史漏卡（pipfun、StonksPad、UBIdotFUN、PulseLaunchpad、bscaidrop 等）多半是关键词没覆盖到。
+
+落地（2026-11-11 22:35 CST 起）：
+- `scripts/x_budget.py` 输出 `minSpend`、`alloc`、`kwThinQueries`。除 zero-x / near-exhausted 外，**LayerZero、Tape/电路、GIWA、DogeEVM、BTC、Starknet 每轮各至少 1 次独立关键词搜索**，禁止并进 Elysium / BNB / RH 大搜索。
+- 薄栏 Watch 每轮全读；厚表（UF / agentPad / bnAgent / elysium / freeMint）分片，且不得与薄栏并成一次 `from:`。
+- tight（<200）仍保留薄栏独立 KW；仅 <50 才延后盲捞。
+- 额度够时不得远低于 `minSpend` 收工。RESULT 必写 `minSpend` + `laneReads`（每薄栏独立 KW 是否跑到），不得只用 `tenLanes=true` 交差。
