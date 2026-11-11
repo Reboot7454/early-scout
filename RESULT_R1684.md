@@ -4,7 +4,7 @@
 - notify: true
 - notifyReason: New elysium-family listing and remaining ≤2h windows (wikifork/clover-rh/hood-junkies); plus enter-elysium Solana bridge, EscapeHub 11-16, Model Citizens refund/relaunch.
 - docsSynced: true
-- pushSha: PENDING
+- pushSha: aeb1335
 - discordPeekDeferred: true
 - dsFallback: false
 - panel: https://reboot7454.github.io/early-scout/
