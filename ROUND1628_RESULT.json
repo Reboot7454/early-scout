@@ -1,0 +1,226 @@
+{
+  "round": 1628,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-11 08:50 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R1628新收：台子/Meme Elyxsi @elyxsitech（面向 agents 的金融层产品，含 Safe 账户、金库、策略和 SDK；因不在官方生态页，所以归入台子/Meme；$ELYX 的两处 CA 不一致：站点为 0xC3Af…8b9A，X bio 为 0xa5a3…a91e）与 Yums @yumsdotfun（yums.fun 在 Solana 上按 X handle 绑定 creator fees 供领取，non-custodial，未见合约地址）待核；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "elyxsi",
+    "yumsdotfun"
+  ],
+  "newCount": 2,
+  "newIds": [
+    "elyxsi",
+    "yumsdotfun"
+  ],
+  "skipped": [
+    {
+      "id": "chimi-giwa",
+      "handle": "@Chimi_Giwa",
+      "reason": "0 推、2 粉、无可用官网（chimi.fun 445、其余 TLS 失败），仅有「在 Giwa 发想法」口号，无产品/发射/玩法实证。"
+    },
+    {
+      "id": "orbio-space",
+      "handle": "@OrbioSpace",
+      "reason": "虽有 200 站点（只读看板 + /app），但推文一边 Elysium 一边 Robinhood Chain、$ORBIO 喊买入却无 CA/入口、0 粉 4 推，叙事与交付不一致，风险过高。"
+    },
+    {
+      "id": "vanomalyengine",
+      "handle": "@VAnomalyEngine",
+      "reason": "无独立官网（仅 Telegram 频道/机器人），1 条纯图无说明推文，3 粉，属空壳喊单式分析工具。"
+    },
+    {
+      "id": "privetcat-hl",
+      "handle": "@PrivetCat_Hl",
+      "reason": "今日建号 0 粉 1 推，已发射的普通 meme（$MIVET）无官网、无额外机制，不在官方生态页。"
+    },
+    {
+      "id": "tokenguardianai",
+      "handle": "@TokenGuardianAI",
+      "reason": "资料域名 tokenguardian.ai 跳到 GoDaddy 停车页（/lander parkweb），0 推 + 644 粉，无可用产品。"
+    }
+  ],
+  "cardsAfterLastSeen": 34,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "elyquities",
+    "mybie-sword"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "elyquities",
+    "mybie-sword"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits_raw=2 final=2 calls=1 prompt=4036 completion=3484",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-11 08:41",
+    "lastChecked": "2026-11-11 08:50 CST",
+    "newestCardTime": "2026-11-11 08:41",
+    "cardsAfterCutoff": 34,
+    "note": "R1628：Discord alpha 补收 elyxsi,yumsdotfun；均归台子/Meme；Elyxsi 不在 elysium.kinetiq.xyz/ecosystem，不得进 Elysium 栏；已有 3（@propchange_io / @giphyfun / @nullsxyz），预拒 2（高粉 @buffalu__ 40911 / @swaagsol 4493），X核验后预滤个人号 19，送审 7，DS 收录 2（Chimi 0推无站、Orbio Space 链叙事不一且 $ORBIO 无 CA、VAnomaly 仅TG、PrivetCat 普通meme、TokenGuardian 停车域 未收）；Yums 0推但 yums.fun 已开（Solana 费用路由到 X handle）；Elyxsi 站点与 bio 的 $ELYX CA 不一致；lastSeen→2026-11-11 08:41；lastChecked→2026-11-11 08:50 CST",
+    "lastRound": 1628,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-11 08:41",
+      "alpha-1-backup": "2026-11-11 08:19",
+      "smart-accounts-tracker": "2026-11-11 08:32",
+      "alpha-1": "2026-11-11 08:08"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false,
+    "commit": null,
+    "remoteVerified": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1628：Discord alpha 补收 elyxsi,yumsdotfun；均归台子/Meme；Elyxsi 不在 elysium.kinetiq.xyz/ecosystem，不得进 Elysium 栏；已有 3（@propchange_io / @giphyfun / @nullsxyz），预拒 2（高粉 @buffalu__ 40911 / @swaagsol 4493），X核验后预滤个人号 19，送审 7，DS 收录 2（Chimi 0推无站、Orbio Space 链叙事不一且 $ORBIO 无 CA、VAnomaly 仅TG、PrivetCat 普通meme、TokenGuardian 停车域 未收）；Yums 0推但 yums.fun 已开（Solana 费用路由到 X handle）；Elyxsi 站点与 bio 的 $ELYX CA 不一致；lastSeen→2026-11-11 08:41；lastChecked→2026-11-11 08:50 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1628.json",
+  "priorRoundNote": "R1627 meta NTR ['elyquities', 'mybie-sword']; repo was web-radar R1627 after git pull; cardsAfterCutoff=34",
+  "alert": "DC补漏R1628新收：台子/Meme Elyxsi @elyxsitech（面向 agents 的金融层产品，含 Safe 账户、金库、策略和 SDK；因不在官方生态页，所以归入台子/Meme；$ELYX 的两处 CA 不一致：站点为 0xC3Af…8b9A，X bio 为 0xa5a3…a91e）与 Yums @yumsdotfun（yums.fun 在 Solana 上按 X handle 绑定 creator fees 供领取，non-custodial，未见合约地址）待核；面板 https://reboot7454.github.io/early-scout/",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-11 08:41",
+    "alpha-1-backup": "2026-11-11 08:19",
+    "smart-accounts-tracker": "2026-11-11 08:32",
+    "alpha-1": "2026-11-11 08:08"
+  },
+  "cardsRead": 34,
+  "cardsReadApprox": 76,
+  "scannedAtCST": "2026-11-11 08:46",
+  "newestByChannel": {
+    "alpha-3-new-accounts": "2026-11-11 08:41",
+    "alpha-1-backup": "2026-11-11 08:19",
+    "smart-accounts-tracker": "2026-11-11 08:32",
+    "alpha-1": "2026-11-11 08:08"
+  },
+  "spideyPosting": true,
+  "cappedByChannel": {
+    "alpha-3-new-accounts": false,
+    "alpha-1-backup": false,
+    "smart-accounts-tracker": false,
+    "alpha-1": false
+  },
+  "loginOk": true,
+  "dsAlertUsage": {
+    "prompt_tokens": 528,
+    "completion_tokens": 416,
+    "total_tokens": 944,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 259
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 528
+  },
+  "admissions": [
+    {
+      "id": "elyxsi",
+      "handle": "@elyxsitech",
+      "category": "台子/Meme",
+      "name": "Elyxsi",
+      "focus": false,
+      "links": {
+        "x": "https://x.com/elyxsitech",
+        "web": "https://elyxsi.tech"
+      },
+      "chain": "Elysium",
+      "reason": "有独立官网与产品线索（Safe 智能账户/金库/策略 + SDK 示例，自称 Elysium mainnet 结算），极早期；但两处 $ELYX CA 不一致、0 粉 4 推，未上官方生态页，故归台子/Meme 并标风险。"
+    },
+    {
+      "id": "yumsdotfun",
+      "handle": "@yumsdotfun",
+      "category": "台子/Meme",
+      "name": "Yums",
+      "focus": false,
+      "links": {
+        "x": "https://x.com/yumsdotfun",
+        "web": "https://yums.fun"
+      },
+      "chain": "Solana",
+      "reason": "yums.fun 本轮 200 且玩法明确（把代币 creator fees 按 X handle 路由、所有者登录领取、Solana 非托管），有独立项目推特；0 推配 808 粉偏异常，故中和风险分。"
+    }
+  ],
+  "existing": [
+    "@propchange_io",
+    "@giphyfun",
+    "@nullsxyz"
+  ],
+  "prerejectHighFol": [
+    {
+      "handle": "@buffalu__",
+      "followers": 40911
+    },
+    {
+      "handle": "@swaagsol",
+      "followers": 4493
+    }
+  ],
+  "prefilteredPersonal": 19,
+  "prefilteredPersonalHandles": [
+    "@Fitritania33763",
+    "@_soldan111_",
+    "@starkscottdra",
+    "@JNSB_1",
+    "@BoumahdyOu55237",
+    "@nguyenvanal5c",
+    "@NovaFoxvex",
+    "@pchofficials293",
+    "@NieyzamZ14803",
+    "@0xJeffersonx",
+    "@Yt_two6m",
+    "@noahmolina797",
+    "@yeshenhuashui",
+    "@oxlouparklum",
+    "@0xKyami",
+    "@Nickolas0i",
+    "@2smoothJames",
+    "@BasudinPut25480",
+    "@Chloeeewrx_"
+  ],
+  "xVerified": "26/26",
+  "dsKeep": 7,
+  "dsRejects": [
+    {
+      "id": "chimi-giwa",
+      "handle": "@Chimi_Giwa",
+      "reason": "0 推、2 粉、无可用官网（chimi.fun 445、其余 TLS 失败），仅有「在 Giwa 发想法」口号，无产品/发射/玩法实证。"
+    },
+    {
+      "id": "orbio-space",
+      "handle": "@OrbioSpace",
+      "reason": "虽有 200 站点（只读看板 + /app），但推文一边 Elysium 一边 Robinhood Chain、$ORBIO 喊买入却无 CA/入口、0 粉 4 推，叙事与交付不一致，风险过高。"
+    },
+    {
+      "id": "vanomalyengine",
+      "handle": "@VAnomalyEngine",
+      "reason": "无独立官网（仅 Telegram 频道/机器人），1 条纯图无说明推文，3 粉，属空壳喊单式分析工具。"
+    },
+    {
+      "id": "privetcat-hl",
+      "handle": "@PrivetCat_Hl",
+      "reason": "今日建号 0 粉 1 推，已发射的普通 meme（$MIVET）无官网、无额外机制，不在官方生态页。"
+    },
+    {
+      "id": "tokenguardianai",
+      "handle": "@TokenGuardianAI",
+      "reason": "资料域名 tokenguardian.ai 跳到 GoDaddy 停车页（/lander parkweb），0 推 + 644 粉，无可用产品。"
+    }
+  ],
+  "alpha3OlderGap": {
+    "attempted": false,
+    "filled": false,
+    "from": "2026-11-08 19:14",
+    "to": "2026-11-09 12:43",
+    "nFilled": 0,
+    "note": "skipped this run; prior gap still open"
+  },
+  "repoBefore": "R1627 6618aca"
+}

@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-11 08:07 CST",
+    "updated": "2026-11-11 08:50 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-11 08:07 CST",
+    "lastScout": "2026-11-11 08:50 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -721,7 +721,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1627,
+    "round": 1628,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2162,8 +2162,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "elyquities",
-      "mybie-sword"
+      "elyxsi",
+      "yumsdotfun"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4675,19 +4675,18 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-11 08:02",
-      "lastChecked": "2026-11-11 08:07 CST",
-      "newestCardTime": "2026-11-11 08:02",
-      "cardsAfterCutoff": 28,
-      "note": "R1625：Discord alpha 补收 elkatachi,apeshavefun；均归台子/Meme；Elkatachi 不在 elysium.kinetiq.xyz/ecosystem，不得进 Elysium 栏；已有 1（@Skeleton_Club_），预拒 2（高粉 @jonah_b 4828 / @buffalu__ 40911），X核验后预滤个人号 16，送审 5，DS 收录 2（saga.fun 0推空壳、Object Hunt 无站、casmologyco 普通pump meme 未收）；ApesHaveFun 3623粉超预拒线但是项目发射台非KOL，Beta中收入；lastSeen→2026-11-11 08:02；lastChecked→2026-11-11 08:07 CST",
-      "lastRound": 1625,
+      "lastSeen": "2026-11-11 08:41",
+      "lastChecked": "2026-11-11 08:50 CST",
+      "newestCardTime": "2026-11-11 08:41",
+      "cardsAfterCutoff": 34,
+      "note": "R1628：Discord alpha 补收 elyxsi,yumsdotfun；均归台子/Meme；Elyxsi 不在 elysium.kinetiq.xyz/ecosystem，不得进 Elysium 栏；已有 3（@propchange_io / @giphyfun / @nullsxyz），预拒 2（高粉 @buffalu__ 40911 / @swaagsol 4493），X核验后预滤个人号 19，送审 7，DS 收录 2（Chimi 0推无站、Orbio Space 链叙事不一且 $ORBIO 无 CA、VAnomaly 仅TG、PrivetCat 普通meme、TokenGuardian 停车域 未收）；Yums 0推但 yums.fun 已开（Solana 费用路由到 X handle）；Elyxsi 站点与 bio 的 $ELYX CA 不一致；lastSeen→2026-11-11 08:41；lastChecked→2026-11-11 08:50 CST",
+      "lastRound": 1628,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-11 08:02",
-        "alpha-1-backup": "2026-11-11 07:34",
-        "smart-accounts-tracker": "2026-11-11 07:55",
-        "alpha-1": "2026-11-11 07:59"
-      },
-      "spideyPosting": true
+        "alpha-3-new-accounts": "2026-11-11 08:41",
+        "alpha-1-backup": "2026-11-11 08:19",
+        "smart-accounts-tracker": "2026-11-11 08:32",
+        "alpha-1": "2026-11-11 08:08"
+      }
     },
     "round239Added": [
       "tsunamilaunch",
@@ -29289,9 +29288,107 @@
     "round1627Added": [
       "elyquities",
       "mybie-sword"
+    ],
+    "round1628Added": [
+      "elyxsi",
+      "yumsdotfun"
     ]
   },
   "candidates": [
+    {
+      "id": "yumsdotfun",
+      "name": "Yums",
+      "handle": "@yumsdotfun",
+      "twitter": "@yumsdotfun",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/yumsdotfun",
+        "web": "https://yums.fun"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 5,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 6.7
+      },
+      "highlights": [
+        "把 token 的 creator fees 绑定到 X handle（按 numeric user id），所有者登录后填钱包领取",
+        "站点声明 non-custodial、on Solana",
+        "yums.fun 本轮 200 已开放"
+      ],
+      "drawbacks": [
+        "0 推但 808 粉，粉丝/内容不匹配",
+        "未见合约地址",
+        "模式依赖 X 账号归属，存在抢注/冒领边界问题"
+      ],
+      "whatsNew": "yums.fun 站点已上线，主打「费用直付 X 账号所有者」。",
+      "summary": "Yums 是 Solana 上的费用路由工具：项目方把代币 creator fees 绑定到某个 X handle，收益进 vault，账号所有者用 X 登录后填钱包领取，声称非托管。产品已可见但零推文、粉丝数异常，需核合约与真实使用量。",
+      "blurb": "Solana 上把 creator fees 定向给 X 账号所有者的领取工具。",
+      "round": 1628,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 808,
+      "xFollowers": 808,
+      "firstSeen": "2026-11-11 08:50 CST",
+      "addedAt": "2026-11-11 08:50 CST",
+      "lastChecked": "2026-11-11 08:50 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "elyxsi",
+      "name": "Elyxsi",
+      "handle": "@elyxsitech",
+      "twitter": "@elyxsitech",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/elyxsitech",
+        "web": "https://elyxsi.tech"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 6.3
+      },
+      "highlights": [
+        "面向 agents 的金融层：Safe 智能账户、Vaults、Policies",
+        "站点称在 Elysium mainnet 结算，附 @elyx/sdk intents API 示例",
+        "elyxsi.tech 本轮 200"
+      ],
+      "drawbacks": [
+        "$ELYX CA 两处不一致：站点 0xC3Af261D7DB42821DFb90d9844E8336cfaD48b9A vs X bio 0xa5a3aad5d50fc9d9e17ebe805e995cdc878da91e",
+        "0 粉、仅 4 推，2026-10-07 建号",
+        "不在 Elysium 官方生态页，非 @elyxpad/@elyxpaid 同项目"
+      ],
+      "whatsNew": "宣称 ELYX 作为 agents 金融层已上线 @Enter_Elysium，并发布 SDK/策略模块；同时在申请 Alchemy 相关计划。",
+      "summary": "Elyxsi 试图给自主 agent 提供带权限约束的账户与资金层（Safe 账户、金库、策略），站点有 SDK 示例并称 Elysium mainnet 结算。项目极早期、关注度为零，且官网与 X bio 的 $ELYX 合约地址互相冲突，需以链上核验为准，暂按台子/Meme 跟踪。",
+      "blurb": "agents 金融层（Safe 账户/金库/策略 + SDK），两处 CA 打架待核。",
+      "round": 1628,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-11 08:50 CST",
+      "addedAt": "2026-11-11 08:50 CST",
+      "lastChecked": "2026-11-11 08:50 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "apeshavefun",
       "name": "ApesHaveFun",
@@ -264191,7 +264288,7 @@
       "addedAt": "2026-11-11T08:40:21+08:00",
       "lastChecked": "2026-11-11T08:40:21+08:00",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "earlyScore": 9,
       "riskScore": 3,
@@ -264245,7 +264342,7 @@
       "addedAt": "2026-11-11T08:40:21+08:00",
       "lastChecked": "2026-11-11T08:40:21+08:00",
       "zoneHint": "打新",
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "earlyScore": 8,
       "riskScore": 2,
@@ -264257,23 +264354,21 @@
     }
   ],
   "newThisRound": [
-    "elkatachi",
-    "apeshavefun"
+    "elyxsi",
+    "yumsdotfun"
   ],
-  "alertMessage": "DC补漏R1625新收：台子/Meme elKatachi（@ElysiumKatachi）Elysium 链上宠物养成，elkatachi.fun 已开、CA 0x8c0a…0c5f，不在官方生态页故归台子/Meme；台子/Meme ApesHaveFun（@ApesHaveFun）5链发币、无bonding curve直进永久锁仓池，自述Beta中临近正式发射、无官网。面板：https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1628新收：台子/Meme Elyxsi @elyxsitech（面向 agents 的金融层产品，含 Safe 账户、金库、策略和 SDK；因不在官方生态页，所以归入台子/Meme；$ELYX 的两处 CA 不一致：站点为 0xC3Af…8b9A，X bio 为 0xa5a3…a91e）与 Yums @yumsdotfun（yums.fun 在 Solana 上按 X handle 绑定 creator fees 供领取，non-custodial，未见合约地址）待核；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
-    "meron-elysium",
-    "enter-replicant",
-    "pocketperps",
-    "fluid-genesis"
+    "elyxsi",
+    "yumsdotfun"
   ],
-  "updatedAt": "2026-11-11 08:07 CST",
-  "updated": "2026-11-11 08:07 CST",
+  "updatedAt": "2026-11-11 08:50 CST",
+  "updated": "2026-11-11 08:50 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-11 08:07 CST",
+  "lastScout": "2026-11-11 08:50 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -264315,7 +264410,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3904,
+  "candidateCount": 3911,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -267647,5 +267742,9 @@
   "round1625Added": [
     "elkatachi",
     "apeshavefun"
+  ],
+  "round1628Added": [
+    "elyxsi",
+    "yumsdotfun"
   ]
 }
