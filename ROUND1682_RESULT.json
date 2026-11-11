@@ -1,0 +1,238 @@
+{
+  "round": 1682,
+  "completedAt": "2026-11-12 02:19:43 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new admits nullpad, payout-holders, tapseal; wikifork 02:00 CST live+CA ≤2h; clover-rh 02:10 CST live+CA ≤2h; hood-junkies Diamond/Gold/OG ≤2h (mint unverified)",
+  "alertMessage": "【R1682】新收录 3 个：@nullpadorg（Solana 隐私发射台 $NULL，官网自报 CA 未核验）、@Payoutxyz（payoutholders.xyz，自称每 5 分钟 SOL 分红的 Pump 风格玩法）、@TapSeal（Bitcoin Taproot 代币协议，站点仍为 Network demo、Tokens 0）。关键开盘：@wikifork 02:00 CST 官宣 $fork is live（早于原 02:20），自报 CA ePraPo32LL62hQVhqVvVLGgWgrUJPU9YpumVsQYfork，购买页可打开，未独立核验；@cloverdotfamily 02:10 CST 称 Clover 已在 Robinhood Chain live，自报 $CLOVER CA，平台页本轮 403，Cloverheads GTD 888 免费铸造。Hood Junkies 档期未改，Diamond 免费 02:11 已到、Gold 02:41 / OG 03:11（未核验开铸）。面板 https://reboot7454.github.io/early-scout/",
+  "summary": "R1682 新收 Nullpad、Payout、TapSeal；wikifork 与 Clover 官宣 live 并给出自报 CA，购买/平台页核验有限；Hood Junkies 档期未改、开铸未核验。aventra / launchoncult / hokiseries 的 2h 窗已过。",
+  "added": [
+    "nullpad",
+    "payout-holders",
+    "tapseal"
+  ],
+  "newAdmits": [
+    "nullpad",
+    "payout-holders",
+    "tapseal"
+  ],
+  "newCount": 3,
+  "newAdmitsDetail": [
+    {
+      "id": "nullpad",
+      "handle": "@nullpadorg",
+      "name": "Nullpad",
+      "category": "台子/Meme",
+      "chain": "Solana",
+      "ca": "4FNp7AaaEfcmXLF3w1RDVtQh6RpzV9EgweNVB1Xu9yuX",
+      "status": "live",
+      "le2h": false,
+      "why": "开号当天发布隐私发射台 $NULL，官网 nullpad.org 自报 CA 与 mainnet live，本轮未独立链上核验。nullpad.fun 是另一站点。",
+      "website": "https://nullpad.org/",
+      "announcement": "https://x.com/nullpadorg/status/2120579576355238105"
+    },
+    {
+      "id": "payout-holders",
+      "handle": "@Payoutxyz",
+      "name": "Payout",
+      "category": "台子/Meme",
+      "chain": "Solana",
+      "ca": "",
+      "status": "live",
+      "le2h": false,
+      "why": "开号当天推 payoutholders.xyz 一键 PumpFun 发币与 creator fees 分红；页面自报持有人和已付 SOL，未链上核验。未把页面可见地址写成官方 CA。payout.xyz 不是官网。",
+      "website": "https://payoutholders.xyz/",
+      "announcement": "https://x.com/Payoutxyz/status/2120579336780583315"
+    },
+    {
+      "id": "tapseal",
+      "handle": "@TapSeal",
+      "name": "TapSeal",
+      "category": "打新",
+      "chain": "Bitcoin",
+      "ca": "",
+      "status": "demo",
+      "le2h": false,
+      "why": "Bitcoin Taproot 代币协议，官帖提 $SEAL mint，但站点 tapseal.xyz 仍为 Network demo（no indexer）、Tokens/Holders/Seals 均为 0。不标 Tape/Elysium，不标 ≤2h。",
+      "website": "https://tapseal.xyz/",
+      "announcement": "https://x.com/TapSeal/status/2120577844669546496"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "hansenbiblestdy",
+      "handle": "@HansenBibleStdy",
+      "reason": "与上轮相同的 Starknet/Bramble 关键词噪音，不建卡。"
+    },
+    {
+      "id": "sarwarallc",
+      "handle": "@SarwaraLLC",
+      "reason": "与上轮相同的 Starknet/Bramble 关键词噪音，不建卡。"
+    },
+    {
+      "id": "onlyflowpayment",
+      "handle": "@OnlyFlowPayment",
+      "reason": "支付产品关键词噪音，非极早期新项目。"
+    },
+    {
+      "id": "ammora",
+      "handle": "@AmmoraHQ",
+      "reason": "已在 GIWA Watch；相关多次转发不重复建卡。"
+    },
+    {
+      "id": "keyword-noise",
+      "handle": null,
+      "reason": "squidrouter 为已有产品、chadonhype 恶搞、以及其它 KOL/新闻噪音，未建卡。第一轮 DS 输出在 skipped 列表中途截断。"
+    }
+  ],
+  "updated": [
+    "wikifork",
+    "clover-rh",
+    "hood-junkies",
+    "aventra",
+    "launchoncult",
+    "hokiseries"
+  ],
+  "updatedDetail": {
+    "wikifork": "02:00 CST 官帖宣布 $fork is live（早于原 02:20）；自报 CA ePraPo32LL62hQVhqVvVLGgWgrUJPU9YpumVsQYfork；购买页 HTTP 200，claim 队列已放出；未独立链上核验。le2h 至约 04:00 CST。",
+    "clover-rh": "02:10 CST 官帖称 Clover is LIVE on Robinhood Chain；自报 $CLOVER CA 0x1ead1942232dae5a296eea527b7feb871941d960（未核验）；平台 clover.family 本轮 HTTP 403；Cloverheads GTD 888 免费铸造，OpenSea 页 200 但未解析合约/剩余。le2h 至约 04:10 CST。",
+    "hood-junkies": "01:42 CST 官帖澄清合作海报未画全配额社区；档期未改。Diamond 免费 02:11 已到、Gold 02:41 / OG 03:11 仍在 2h 内；本轮未核验实际开铸。",
+    "aventra": "无新于 00:09 之后的官帖；2h 窗至约 02:00 已过，清 le2h。",
+    "launchoncult": "本窗口无新官帖；2h 窗至约 01:54 已过，清 le2h。",
+    "hokiseries": "仅 00:04/00:18 图片帖；付费档 2h 窗至约 01:58 已过，清 le2h。"
+  },
+  "le2h": [
+    "wikifork",
+    "clover-rh",
+    "hood-junkies"
+  ],
+  "clearedLe2h": [
+    "aventra",
+    "launchoncult",
+    "hokiseries"
+  ],
+  "xReads": 28,
+  "remainingBefore": 627,
+  "remaining": 599,
+  "mode": "ample",
+  "softCap": 40,
+  "minSpend": 20,
+  "ufCursor": 1096,
+  "ufCursorBefore": 1046,
+  "laneReads": {
+    "LayerZero": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "kwCoreRan": [
+    "打新",
+    "挖矿",
+    "台子/Meme",
+    "GO盘",
+    "Elysium"
+  ],
+  "mentionsThin": [
+    "LayerZero+Tape",
+    "GIWA+DogeEVM",
+    "BTC+Starknet"
+  ],
+  "mentionsRest": [
+    "@AscendLaunch",
+    "@eloscapeHQ"
+  ],
+  "fatShards": {
+    "agentPad": {
+      "range": [
+        106,
+        131
+      ],
+      "resultCount": 1,
+      "posts": [
+        "dogwifjob_sol"
+      ],
+      "dropped": []
+    },
+    "freeMint": {
+      "range": [
+        212,
+        237
+      ],
+      "resultCount": 3,
+      "posts": [
+        "Lanternhold",
+        "ArewaGadgetPlug"
+      ],
+      "dropped": [
+        "PlunderPort"
+      ]
+    },
+    "bnAgent": {
+      "range": [
+        19,
+        44
+      ],
+      "resultCount": 0,
+      "wrapped": false,
+      "dropped": []
+    },
+    "elysium": {
+      "range": [
+        203,
+        228
+      ],
+      "resultCount": 20,
+      "posts": [
+        "bankrbot"
+      ],
+      "note": "bankrbot-heavy mentions/replies; no new official Elysium admit",
+      "dropped": []
+    }
+  },
+  "silentAccounts": {
+    "ran": true,
+    "seen": 2,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 2,
+    "lane": "Starknet",
+    "index": 10,
+    "userQuery": "Starknet mint",
+    "search_users_unavailable": true,
+    "deferredHandles": [
+      "arc"
+    ],
+    "skipReasons": {
+      "too_many_posts": 1,
+      "profile_unresolved": 1
+    },
+    "note": "R1682 rotated to Starknet (index 10). search_users still unavailable so the user-search slot was not faked; only the silentCap second call (mention search) ran. skipped @Kaffchad (too_many_posts 132201) and @arc (profile_unresolved). @arc is the well-known Arc chain official, not a 0-post shell; keep as deferredHandles."
+  },
+  "docsSynced": true,
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsOk": true,
+  "watchAdds": [
+    "@nullpadorg",
+    "@Payoutxyz",
+    "@TapSeal"
+  ],
+  "softDebtRefreshed": [
+    "glazeWatch",
+    "cantonPadWatch",
+    "cantonWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch",
+    "flapPadWatch"
+  ],
+  "pushSha": null,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "candidateCount": 4042,
+  "prevNewThisRound": [
+    "oryvn",
+    "corvexa",
+    "mont-village"
+  ]
+}
