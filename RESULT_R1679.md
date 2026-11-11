@@ -41,3 +41,7 @@
 
 ## alert
 Aventra 已在 Pons Family 开盘，官方 CA 0xb8362ee30feaba24034a826c7885b2d2d7560625，官网 playaventra.xyz；LaunchOnCult 官方公布 $CULT CA 61TXuzy6iu3QouCiT3affEH4aoBXz1FMYkY9M14Zpump；Clover 距 02:00 CST 开窗约 1.5 小时；新收录 Elysafe（台子/Meme，自报 CA 未独立核验）。面板：https://reboot7454.github.io/early-scout/
+
+## push
+- ok: true
+- dataSha: b790de33c3fd2ad80e4f7a76097c8ac13a2ebd7a
