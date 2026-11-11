@@ -1,0 +1,160 @@
+{
+  "round": 1679,
+  "completedAt": "2026-11-12 00:31 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "aventra official CA live ≤2h; launchoncult official CA ≤2h; clover-rh entered ≤2h; new admit elysafe",
+  "alertMessage": "Aventra 已在 Pons Family 开盘，官方 CA 0xb8362ee30feaba24034a826c7885b2d2d7560625，官网 playaventra.xyz；LaunchOnCult 官方公布 $CULT CA 61TXuzy6iu3QouCiT3affEH4aoBXz1FMYkY9M14Zpump；Clover 距 02:00 CST 开窗约 1.5 小时；新收录 Elysafe（台子/Meme，自报 CA 未独立核验）。面板：https://reboot7454.github.io/early-scout/",
+  "added": [
+    "elysafe"
+  ],
+  "newAdmits": [
+    "elysafe"
+  ],
+  "newCount": 1,
+  "newAdmitsDetail": [
+    {
+      "id": "elysafe",
+      "handle": "@elysafe_xyz",
+      "name": "Elysafe",
+      "category": "台子/Meme",
+      "chain": "Elysium",
+      "ca": "0x4cce671dcef3aebbb9d9b07a22cd9c42ded856e6",
+      "status": "live",
+      "le2h": false,
+      "why": "官推+官网+自报 CA 的 Elysium 只读 launch-safety 扫描工具（网页/TG/MCP）；未上官方生态页故归台子/Meme，本轮未独立 RPC 核验 CA。",
+      "website": "https://elysafe.xyz/",
+      "trade": "https://app.ascendlaunch.xyz/tokens/0x4cce671dcef3aebbb9d9b07a22cd9c42ded856e6"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "keyword-noise",
+      "handle": null,
+      "reason": "本轮关键词/mentions 大量为已在库项目或 RT 刷屏（tryrevvy、onlystreetsfun、zunki、ammora、bark-swap、fomopoly、tryelysion、bubbles-portal、hypesium、rebate、spyhooks 等），无其他第一手极早期官推新品。"
+    }
+  ],
+  "updated": [
+    "aventra",
+    "launchoncult",
+    "skitters",
+    "wikifork",
+    "clover-rh"
+  ],
+  "updatedDetail": {
+    "aventra": "00:01 CST 官宣 Pons Family 开盘，官方 CA 0xb8362ee30feaba24034a826c7885b2d2d7560625，官网 https://playaventra.xyz/；00:09 CST 采矿积分可兑 $AVRA。RH RPC 不可用，未独立链上核验。仍 ≤2h。",
+    "launchoncult": "23:55 CST 官方回复公布 $CULT CA 61TXuzy6iu3QouCiT3affEH4aoBXz1FMYkY9M14Zpump。仍 ≤2h，未独立核实 mint/量。",
+    "skitters": "22:24 CST 官宣 FREE MINT coming to RobinhoodApp / OpenSea，供给 1,111，前 20 GTD；无钟点，不标 ≤2h。",
+    "wikifork": "社区转发称约 03:15 CST 上线、claim 已开；未见第一手官帖，距窗约 2.5–3h，不标 ≤2h。",
+    "clover-rh": "02:00 CST 平台+$CLOVER+Cloverheads GTD mint 进入 ≤2h，无新 CA。"
+  },
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "foundlingsnft",
+    "xoradex",
+    "snobohru"
+  ],
+  "xReads": 24,
+  "remainingBefore": 741,
+  "remaining": 717,
+  "mode": "ample",
+  "softCap": 40,
+  "minSpend": 20,
+  "ufCursor": 946,
+  "ufCursorBefore": 896,
+  "laneReads": {
+    "LayerZero": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "kwCoreRan": [
+    "挖矿",
+    "打新",
+    "台子/Meme",
+    "Elysium"
+  ],
+  "kwCoreDeferred": "GO盘",
+  "mentionsThin": [
+    "LayerZero+Tape",
+    "GIWA+DogeEVM",
+    "BTC+Starknet"
+  ],
+  "mentionsRest": [
+    "@flapdotsh",
+    "@StonksPadsh"
+  ],
+  "fatShards": {
+    "agentPad": {
+      "approx": [
+        31,
+        56
+      ],
+      "skipped": [
+        "Leeonmort"
+      ],
+      "resultCount": 0
+    },
+    "freeMint": {
+      "range": [
+        137,
+        162
+      ],
+      "resultCount": 0
+    }
+  },
+  "watchBugsFixed": [
+    "Foundlingsnft",
+    "tryXoradex",
+    "sno_avax",
+    "wikifork"
+  ],
+  "watchAdds": [
+    "@Foundlingsnft",
+    "@tryXoradex",
+    "@sno_avax",
+    "@wikifork",
+    "@elysafe_xyz"
+  ],
+  "le2h": [
+    "pritoppad",
+    "wickoptdesk",
+    "nove-elysium",
+    "the-wurms",
+    "broccoli-agent",
+    "elysium-genesis",
+    "usekinpad",
+    "drachma-elysium",
+    "launchoncult",
+    "hokiseries",
+    "aventra",
+    "clover-rh"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsOk": true,
+  "dsUsage": "deepseek-flash thinking-on; model content leaked reasoning twice, final copy assembled from DS drafts; admit=elysafe",
+  "docsSynced": true,
+  "docsSlimCandidates": 541,
+  "onchain": {
+    "aventra": "Robinhood public RPC SSL EOF / 403 this round; CA not independently verified",
+    "broccoli-agent": "skipped mint-counter refresh (totalSupply selector is token supply, not paidMinted)",
+    "penguagent1": "skipped mint-counter refresh (same)",
+    "elysafe": "Elysium RPC not probed this round; CA from official site only"
+  },
+  "softDebtRefreshed": [
+    "glazeWatch",
+    "cantonPadWatch",
+    "cantonWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch",
+    "flapPadWatch"
+  ],
+  "push": {
+    "attempted": true,
+    "ok": null,
+    "dataSha": null
+  }
+}
