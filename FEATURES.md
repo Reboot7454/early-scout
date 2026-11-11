@@ -38,6 +38,8 @@
 | `scripts/extract_schedules.py` | 日程/链上证据回填（幂等覆盖 schedule/onchain map） |
 | `scripts/enrich_cards.py` | 全量亮点/缺点/whatsNew/scores |
 | `scripts/check_onchain.py` | 公共 RPC 探测并写回 mint 状态 |
+| `scripts/x_budget.py` | 日配额 pacing；薄栏 KW 与 silentCap 分开 |
+| `scripts/silent_accounts.py` | 不依赖 Discord 的静默号发现（queries / filter / run） |
 
 改完后：校验 JSON → 同步到 `early-scout-pages/` → 父 agent push `Reboot7454/early-scout` main。
 
@@ -54,7 +56,7 @@
 - 默认排序「最新信号」：有 `firstSeen` 或 `addedAt` 则新的在前，否则 `round` 降序；同轮 `whatsNew` 非空优先，再按 `scores.overall` / `earlyScore`。九列共用；下拉仍可改早期程度 / 综合 / 日程 / 风险 / 名称。
 - 挖矿列保持紧凑 `.mining-row` + GPU PoW / NFT 变异 / Miner NFT / 其他。打新、台子/Meme、GO盘、LayerZero、Elysium、Tape/电路用完整卡片。点品类「挖矿」或顶栏药丸跳到对应列；LayerZero / Elysium / Tape 顶栏/芯片可跳对应栏。
 - 例行搜刮需**同等努力**覆盖：打新（全部链）、挖矿（GPU/AI-PoW、NFT 变异/Miner）、台子·Meme、GO盘、LayerZero、BTC 生态，以及其它生态。Elysium 与 Tape/电路是加栏加盯，**不得**把搜刮收成只扫这两栏。
-- **2026-11-11 起强制分栏查询**：LayerZero / Tape/电路 / GIWA / DogeEVM / BTC / Starknet 每轮各至少一次独立关键词搜索，禁止并进 Elysium / BNB / Robinhood 的大搜索；薄栏 Watch 每轮全读，厚表分片。细则见 `scripts/x_budget.py` 的 `alloc` / `kwThinQueries` 与 HANDOFF「不要偏科」。
+- **2026-11-11 起强制分栏查询**：LayerZero / Tape/电路 / GIWA / DogeEVM / BTC / Starknet 每轮各至少一次独立关键词搜索，禁止并进 Elysium / BNB / Robinhood 的大搜索；薄栏 Watch 每轮全读，厚表分片。细则见 `scripts/x_budget.py` 的 `alloc` / `kwThinQueries` 与 HANDOFF「不要偏科」。静默号回退是另外的 silentCap，不从这六次薄栏 KW 或 userFollowWatch 里扣。
 
 ## 5) 重点横条（focus · 非栏位）
 
@@ -97,6 +99,28 @@
 - **禁止**：把 Peek 热度榜整表入库；收成熟协议 / Infra 空壳 / 疑似刷量 / 中后期 DeFi；为「对账完成」而扩容。
 - **Discord `#alpha-1` Peek（`meta.discordAlphaPeek` / `meta.watches.discordAlphaPeek`）**：已挂入 **35m 例行**作 Peek对账补漏；只补漏且仍极早期的项；七栏归类；**不是**全量 X 时间线监控。主频道 alpha-1（Spidey Bot / X Follow Monitor / Captain Hook）；backup / smart-accounts-tracker / alpha-3-new-accounts 辅助。
 - **仍非**全量 X 账号时间线监控；对账是品类学习扫描，执行端只拉信号/改 json/push，文案与打分走 deepseek-flash（thinking on）。
+
+## 9) 静默号回退（不依赖 Discord）
+
+Discord alpha Peek 仍然只是补漏。0 帖官号不会出现在推文关键词里，所以公会一停，以前只有 Peek 能看见的「没发过帖的新项目号」会丢。`scripts/silent_accounts.py` 是独立发现路径，不读那个公会。
+
+硬顺序接在其余 mentions 之后、Discord Peek 之前。额度是 `scripts/x_budget.py` 的 `silentCap` / `alloc.silent`，**不占 softCap、不计入 minSpend**，禁止从 userFollowWatch 或六个薄栏独立 KW 里扣。zero-x 和 remaining<50 时 silentCap=0；tight/pace=1；ample 和重置后首轮=2。每次只打一条栏，11 栏轮换（打新、挖矿、台子/Meme、GO盘、LayerZero、Elysium、Tape/电路、GIWA、DogeEVM、BTC、Starknet），禁止 OR 进 Elysium / BNB / RH。
+
+两条 X 调用，都是现有客户端能打的读，各算 silentCap 里的 1 次，不翻页：
+
+- `GET /2/users/search`。官方查询只允许字母、数字、空格（`^[A-Za-z0-9_' ]{1,50}$`），不能写 `url:`、`bio:` 或 `yums.fun`。People 索引匹配的是显示名和 handle，不是 bio。返回的 `description` / `url` / `public_metrics` 在本地筛。现有的 `get_users_by_usernames` 只能解析已经知道的 handle，不能拿来发现未知号。app-only bearer 若 403，记下 `apiErrors`，不要假装用户搜索已经覆盖了 0 帖号。
+- `GET /2/tweets/search/recent`（也就是现在的 `search_posts_all` / recent search），带 `expansions=author_id,entities.mentions.username`。这仍然是帖子索引。0 帖官号自己不会出现；只有别人发了链接或 @ 才看得见。裸域名、帖子里没有 @handle 的，记入 skipped `url_without_mentioned_handle`，不得编造推特。
+
+本地筛（`filter`）不写 `data.json`、不自动收录：
+
+- 不在库里；帖数 ≤3；开号 ≤30 天；粉丝 ≥3000 跳过。
+- 必须有主页网站、bio 里的产品站、或一条说得清的产品 bio（mint / launchpad / 挖矿 / 电路 / 测试网等）。只有名字撞上轮换词、bio 和网站都空的，跳过。
+- **R1623**：0 帖且粉丝 ≥400，又没有确认活的站、也没有链上/发帖证据 → `deferred`，留在 skipped 里，不送审。yums 在 07:35 CST（约 708 粉、0 帖、站未开）就是这条。HTTP 探测确认站点 2xx 且不是停车页之后才进 `sentToReview`（yums 08:50，yums.fun 已开）。探测不是 X 读。
+- 送审项 `focus` 固定 false，`links.x` 固定 `https://x.com/<handle>`。普通新卡不得在这条路径上标重点。DeepSeek 收录之后，操作者把 `silentAccount.admitted` 填成实际收录数（脚本默认 0）。
+
+每轮 RESULT 写 `silentAccount`：`ran`、`seen`、`sentToReview`、`admitted`、`skipped`。`ran=false` 表示这轮只打印了计划、或额度不够没跑。延期号不要写进库，也不要占掉下一轮的轮换；同一轮用保存的原始 JSON 再 probe 即可。
+
+残差（设计上留着，不假装能补上）：显示名/handle 是没人知道的造词、bio 不含产品句、主页网站为空、也没有第三人发过该域名或 @ 的 0 帖号，现有 X 接口看不见。@yumsdotfun 在 Discord 于 07:35 报出来的那一刻就是这样。本路径能补上的是「名字/handle 撞上本轮产品词」以及「别人已经把域名和 @ 写进帖子、随后站点确认开了」这两类。
 
 ## DeepSeek 省用量（硬卸载 · 2026-10-17）
 - **必须**用 `deepseek-flash`（thinking **ON**，勿关闭）做全部判断类工作：admit / score / zone 文案草稿 / highlights / whatsNew / alert / summary / dedupe。

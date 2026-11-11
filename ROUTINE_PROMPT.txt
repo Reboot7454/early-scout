@@ -4,7 +4,7 @@
 
 ## X 日配额（必须 pacing；2026-11-11 起强制分栏，禁止偏科）
 日额约 1000，约 08:00 CST 重置。开跑：查 remaining → python3 scripts/x_budget.py → 遵守输出 softCap / minSpend / mode / alloc / kwThinQueries。
-- 硬顺序：① userFollowWatch 分片 ② 必盯/≤2h ③ 薄栏独立关键词 ④ 核心栏关键词 ⑤ 薄栏 mentions ⑥ 其余 mentions / Discord Peek。禁止砍①。
+- 硬顺序：① userFollowWatch 分片 ② 必盯/≤2h ③ 薄栏独立关键词 ④ 核心栏关键词 ⑤ 薄栏 mentions ⑥ 其余 mentions ⑦ 静默号回退（silentCap，不占 softCap；Discord 挂了也要跑）⑧ Discord Peek（只补漏，非依赖）。禁止砍①。禁止用⑦替换③，也禁止把⑦并进 Elysium / BNB / RH。
 - 同 handle 每轮只读 1 次（跨 UF+各 Watch 去重）；禁探索性读（闲逛/重复确认/NF 连刷）。
 - UF 分片软刷（≤2h/LIVE/点名优先，其余轮转）；禁止整表全读。单轮 UF 按脚本 ufAccountShard，不得把 softCap 花光在厚名单上。
 - 禁止把 LayerZero / Tape/电路 / GIWA / DogeEVM / BTC / Starknet 的关键词或官号 mentions 并进 Elysium / BNB / Robinhood 的大搜索。除 remaining<50 或零 X 外，这六栏每轮各至少 1 次独立关键词搜索。
@@ -12,7 +12,16 @@
 - remaining=0→08:00：零 X，只本地 Watch 修+推；重置后仅首轮全量补扫（勿连续两轮 full-after-reset）。
 - <200：仍保留薄栏独立 KW；mentions 优先薄栏再轮换其余。<50：只 UF+≤2h。
 - 额度够时实际 xReads 不得远低于 minSpend 收工。softCap 是撑过一天的 pacing，不是砍栏借口。
-- RESULT 必写 xReads / remainingBefore / remaining / mode / softCap / minSpend / ufCursor / laneReads（每个薄栏独立 KW 是否跑到）。
+- RESULT 必写 xReads / remainingBefore / remaining / mode / softCap / minSpend / ufCursor / laneReads（每个薄栏独立 KW 是否跑到）/ silentAccount（ran、seen、sentToReview、admitted、skipped）。静默读取计入 xReads 和 remaining，但是少跑 laneReads 的理由不成立；silentCap 不计入 minSpend。
+
+## 静默号回退（不依赖 Discord，补 0 帖官号）
+推文关键词看不到 0 帖官号。本路径不是 Discord 爬虫，公会挂了也要跑。
+- 开跑：`python3 scripts/x_budget.py` 看 silentCap / silentQueriesThisRound（在 softCap 之外）。再 `python3 scripts/silent_accounts.py queries`。
+- silentCap：zero-x / remaining<50 为 0；tight / pace 为 1；ample / 重置后首轮为 2。每次只打一条栏，user 搜索和 url: 第三方帖错开轮换，禁止六条薄栏 OR 成一条。
+- 用现有 X 客户端打这些调用（各算 1 次，记在 silentCap，不从 softCap 扣）。用户搜索是 `GET /2/users/search`（现有 get_users_by_usernames 不能发现未知号）。url 搜索是现有 search recent / search_posts_all，必须带 `expansions=author_id,entities.mentions.username`。不要翻页。
+- `python3 scripts/silent_accounts.py filter raw.json` 本地筛。只把 sentToReview 交给 DeepSeek。0 帖 + 粉丝≥400 + 站点未确认活 + 无链上/发帖证据 → deferred，不收录（R1623；yums 07:35）。站点 HTTP 确认活了才可送审（yums 08:50）。粉丝≥3000 直接跳过。
+- 普通新卡 focus:false，必须有 links.x。本脚本不写 data.json、不自动收录、不占下一轮 silentCap 去复读同一个空壳。同一轮用保存的 raw JSON 重新 probe，不必再读 X。
+- 残差：用户搜索只匹配显示名/handle，查询不能写 url:、bio: 或 yums.fun。没人发过链接或 @、名字又不含本轮词、主页网站还空着的 0 帖号，X 这边仍然看不见。裸域名但没有 @handle 的帖不得编造推特。
 
 ## 面板与覆盖（Pages = main:/docs，必同步）
 九栏同等努力：打新｜挖矿｜台子/Meme｜GO盘｜LayerZero｜Elysium 生态｜Tape/电路｜GIWA｜DogeEVM。同等扫 BTC / Starknet。新卡勿 focus:true（除非 focusIds/squeek 类）。新收录必须有推特。Peek 只补漏，禁热度榜、禁全量时间线。

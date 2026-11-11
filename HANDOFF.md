@@ -247,3 +247,13 @@ Pages source = main:/docs。每轮改完 data.json 后必须：
 - 薄栏 Watch 每轮全读；厚表（UF / agentPad / bnAgent / elysium / freeMint）分片，且不得与薄栏并成一次 `from:`。
 - tight（<200）仍保留薄栏独立 KW；仅 <50 才延后盲捞。
 - 额度够时不得远低于 `minSpend` 收工。RESULT 必写 `minSpend` + `laneReads`（每薄栏独立 KW 是否跑到），不得只用 `tenLanes=true` 交差。
+
+## 2026-11-11 静默号回退（不依赖 Discord）
+
+用户要求：Discord alpha 只是补漏。@yumsdotfun（0 帖、主页网站空、bio 不含 URL）是 Peek 在 07:35 CST 看见的；07:35 因约 708 粉且站未开而延期，08:50 确认 yums.fun 活了才收录。公会一停，这类号不能只靠推文关键词。
+
+- 硬顺序在其余 mentions 之后、Discord Peek 之前。`silentCap` 在 softCap 之外，不计入 minSpend，禁止从 UF 或六个薄栏独立 KW 扣。
+- `python3 scripts/x_budget.py` 给本轮查询；`python3 scripts/silent_accounts.py queries|filter|run` 执行。`run` 只在 `X_BEARER_TOKEN` 或 `BEARER_TOKEN` 存在时打官方 API，不把密钥写入仓库。
+- 用户搜索匹配显示名/handle，不匹配 bio，也不能查 `yums.fun`。`url:` 最近帖只能看见别人已经发出的链接或 @。两条都不命中时，0 帖官号仍然会漏，这是残差，不是实现疏忽。
+- 0 帖 + 粉丝≥400 + 站点未确认活 + 无链上/发帖证据继续延期，不自动收录。新卡 focus:false，必须有 `links.x`。
+- RESULT 增加 `silentAccount`：`ran` / `seen` / `sentToReview` / `admitted` / `skipped`。
