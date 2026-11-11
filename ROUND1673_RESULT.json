@@ -1,0 +1,168 @@
+{
+  "round": 1673,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-11 22:48 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏 R1673 新收录 10 项：Scan My Bags 为 Telegram 多链代币体检机器人，免连钱包、无代币CA；Capybara Onsen BSC 555份NFT，合集CA 0x15eC0A712d4991FE0f600D2BFdACecD4B6F6d8d7，站点仍 Not open yet、X称约1小时后开铸，前55免费且每枚领$YUZU；ArmorerLabs 为 RH Pons $ARMORER，CA 0x7b55cb0f25473f02da88d5669c82c5d0fcf612fa，约FDV 3.4k、未毕业0.11%，官网自称YC未独立核验；Roster 为 BNB Safe CSV 批量打款工具，无代币CA；Pixel Vanguard 为 RH 免费像素RPG，$PXV CA 0xb98a0588fc9291ed05fc72394a274e2084f59cc0，约FDV 5.4k/流动性5.1k/24h 19.5k、未毕业9.88%；elBOT M 为 Elysium 做市机器人，$BOT CA 0x2Dd71F287dc2eeab05AEa4b4c2EfA4F9eE758047，约FDV 3.1k/流动性3.5k，官方生态页429未核到；Fleck 为 BNB Pancake V3 收手续费工具，无代币CA；Blitz 为 Solana 发射台，无平台币CA，勿与 useblitz.com 合并；HoloScope 为链上宝可梦卡牌交易终端，无代币CA；Garuda Markets 为 Solana 游戏化 prop firm，无代币CA，funded 打款仍写 devnet。面板：https://reboot7454.github.io/early-scout/。",
+  "newAdmits": [
+    "scanmybags",
+    "capybarao-nft",
+    "armorerhq",
+    "bnbroster",
+    "pixelvanguardrh",
+    "elysium-botm",
+    "fleckbnb",
+    "useblitz",
+    "holoscopetrade",
+    "garuda-markets"
+  ],
+  "newCount": 10,
+  "newIds": [
+    "scanmybags",
+    "capybarao-nft",
+    "armorerhq",
+    "bnbroster",
+    "pixelvanguardrh",
+    "elysium-botm",
+    "fleckbnb",
+    "useblitz",
+    "holoscopetrade",
+    "garuda-markets"
+  ],
+  "skipped": [
+    {
+      "id": "knocker-rh",
+      "handle": "@knocker_rh",
+      "reason": "ds_reject",
+      "detail": "官网可开但 0 帖，且官网/GeckoTerminal/DexScreener 均未核到官方 $KNOCKER CA，代币与挖矿闭环无法确认，宁缺毋滥。"
+    }
+  ],
+  "cardsAfterLastSeen": 44,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "falqoxyz",
+    "baggieshood",
+    "clandotxyz",
+    "joinhardcore",
+    "vecoquadotspace",
+    "eloffgrid",
+    "elpumptao",
+    "elysiumandroids",
+    "elcuneus",
+    "elysium-dots"
+  ],
+  "candidateFlagsCleared": 10,
+  "topNewThisRoundCleared": [
+    "falqoxyz",
+    "baggieshood",
+    "clandotxyz",
+    "joinhardcore",
+    "vecoquadotspace",
+    "eloffgrid",
+    "elpumptao",
+    "elysiumandroids",
+    "elcuneus",
+    "elysium-dots"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=10 calls=4 prompt=15108 completion=11749",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-11 22:34",
+    "lastChecked": "2026-11-11 22:48 CST",
+    "newestCardTime": "2026-11-11 22:34",
+    "cardsAfterCutoff": 44,
+    "note": "R1673：Discord alpha 补收 scanmybags, capybarao-nft, armorerhq, bnbroster, pixelvanguardrh, elysium-botm, fleckbnb, useblitz, holoscopetrade, garuda-markets；开跑 git pull 后仓库仍是 R1672（另有 22:36 CST 非雷达提交 9fef6f8 拆薄车道搜索），本轮 DC=R1673，未覆盖更高网页轮次；已清 R1672 NTR（falqoxyz, baggieshood, clandotxyz, joinhardcore, vecoquadotspace, eloffgrid, elpumptao, elysiumandroids, elcuneus, elysium-dots）；DS 未收 @knocker_rh（官网可开但 0 帖，且官网/GeckoTerminal/DexScreener 均未核到官方 $KNOCKER CA，代币与挖矿闭环无法确认，宁缺毋滥。）；@JoinHARDCORE、@JPEGZart、@SkittersNFTs 已有；官方生态页本轮 429 未核到，Elysium 自称项均进台子/Meme；UseBlitz_ 按发射台归台子/Meme（DS 原稿曾标打新，已覆盖）；Capybara Onsen links.ca 用官网 NFT 合集地址，YUZU 代币另见亮点；lastSeen→2026-11-11 22:34；lastChecked→2026-11-11 22:48 CST",
+    "lastRound": 1673,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-11 22:34",
+      "alpha-1-backup": "2026-11-11 22:34",
+      "smart-accounts-tracker": "2026-11-11 22:07",
+      "alpha-1": "2026-11-11 22:33"
+    },
+    "spideyPosting": true
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1673：Discord alpha 补收 scanmybags, capybarao-nft, armorerhq, bnbroster, pixelvanguardrh, elysium-botm, fleckbnb, useblitz, holoscopetrade, garuda-markets；开跑 git pull 后仓库仍是 R1672（另有 22:36 CST 非雷达提交 9fef6f8 拆薄车道搜索），本轮 DC=R1673，未覆盖更高网页轮次；已清 R1672 NTR（falqoxyz, baggieshood, clandotxyz, joinhardcore, vecoquadotspace, eloffgrid, elpumptao, elysiumandroids, elcuneus, elysium-dots）；DS 未收 @knocker_rh（官网可开但 0 帖，且官网/GeckoTerminal/DexScreener 均未核到官方 $KNOCKER CA，代币与挖矿闭环无法确认，宁缺毋滥。）；@JoinHARDCORE、@JPEGZart、@SkittersNFTs 已有；官方生态页本轮 429 未核到，Elysium 自称项均进台子/Meme；UseBlitz_ 按发射台归台子/Meme（DS 原稿曾标打新，已覆盖）；Capybara Onsen links.ca 用官网 NFT 合集地址，YUZU 代币另见亮点；lastSeen→2026-11-11 22:34；lastChecked→2026-11-11 22:48 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1673.json",
+  "priorRoundNote": "R1672 DC admitted 10 items; repo still at round 1672 after pull (plus non-radar 9fef6f8). cardsAfterCutoff=44 uniqueHandles=40 already=3 prereject=26 keep=11 dsAdmits=10 dropped=knocker-rh final=10",
+  "alert": "DC补漏 R1673 新收录 10 项：Scan My Bags 为 Telegram 多链代币体检机器人，免连钱包、无代币CA；Capybara Onsen BSC 555份NFT，合集CA 0x15eC0A712d4991FE0f600D2BFdACecD4B6F6d8d7，站点仍 Not open yet、X称约1小时后开铸，前55免费且每枚领$YUZU；ArmorerLabs 为 RH Pons $ARMORER，CA 0x7b55cb0f25473f02da88d5669c82c5d0fcf612fa，约FDV 3.4k、未毕业0.11%，官网自称YC未独立核验；Roster 为 BNB Safe CSV 批量打款工具，无代币CA；Pixel Vanguard 为 RH 免费像素RPG，$PXV CA 0xb98a0588fc9291ed05fc72394a274e2084f59cc0，约FDV 5.4k/流动性5.1k/24h 19.5k、未毕业9.88%；elBOT M 为 Elysium 做市机器人，$BOT CA 0x2Dd71F287dc2eeab05AEa4b4c2EfA4F9eE758047，约FDV 3.1k/流动性3.5k，官方生态页429未核到；Fleck 为 BNB Pancake V3 收手续费工具，无代币CA；Blitz 为 Solana 发射台，无平台币CA，勿与 useblitz.com 合并；HoloScope 为链上宝可梦卡牌交易终端，无代币CA；Garuda Markets 为 Solana 游戏化 prop firm，无代币CA，funded 打款仍写 devnet。面板：https://reboot7454.github.io/early-scout/。",
+  "cardsAfterCutoff": 44,
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-11 22:34",
+    "alpha-1-backup": "2026-11-11 22:34",
+    "smart-accounts-tracker": "2026-11-11 22:07",
+    "alpha-1": "2026-11-11 22:33"
+  },
+  "admissions": [
+    {
+      "id": "scanmybags",
+      "handle": "@ScanMyBags",
+      "category": "台子/Meme",
+      "name": "Scan My Bags"
+    },
+    {
+      "id": "capybarao-nft",
+      "handle": "@CapybaraO_NFT",
+      "category": "打新",
+      "name": "Capybara Onsen"
+    },
+    {
+      "id": "armorerhq",
+      "handle": "@armorerhq",
+      "category": "打新",
+      "name": "ArmorerLabs"
+    },
+    {
+      "id": "bnbroster",
+      "handle": "@bnbroster",
+      "category": "台子/Meme",
+      "name": "Roster"
+    },
+    {
+      "id": "pixelvanguardrh",
+      "handle": "@PixelVanguardRH",
+      "category": "打新",
+      "name": "Pixel Vanguard"
+    },
+    {
+      "id": "elysium-botm",
+      "handle": "@Elysium_BOTM",
+      "category": "台子/Meme",
+      "name": "elBOT M"
+    },
+    {
+      "id": "fleckbnb",
+      "handle": "@fleckbnb",
+      "category": "台子/Meme",
+      "name": "Fleck"
+    },
+    {
+      "id": "useblitz",
+      "handle": "@UseBlitz_",
+      "category": "台子/Meme",
+      "name": "Blitz"
+    },
+    {
+      "id": "holoscopetrade",
+      "handle": "@holoscopetrade",
+      "category": "台子/Meme",
+      "name": "HoloScope"
+    },
+    {
+      "id": "garuda-markets",
+      "handle": "@garuda_markets",
+      "category": "台子/Meme",
+      "name": "Garuda Markets"
+    }
+  ]
+}
