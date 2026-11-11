@@ -1,0 +1,101 @@
+{
+  "round": 1688,
+  "completedAt": "2026-11-12 05:50:10 CST",
+  "notify": true,
+  "notifyReason": "有真新收录（Lockpad / Bond / DeepHood / ChainBow），且 group-1st 06:00 进入 2h 窗。",
+  "docsSynced": true,
+  "pushSha": "PENDING",
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "lockpad",
+    "bond-rip",
+    "deephood",
+    "chainbow"
+  ],
+  "le2h": [
+    "group-1st",
+    "hood-junkies",
+    "use-tally-agent",
+    "elyborn",
+    "mosaic-elysium"
+  ],
+  "alertMessage": "R1688：新卡 Lockpad（Solana 锁仓台，05:31 自称 live，但官网写交易/锁仓/派息暂不可用，不标窗）、Bond（bond.rip 已在运营，站点自展示 398 对）、DeepHood（称本周上 Robinhood Chain，自报 CA 未核验）、ChainBow（Elysium 自报公平发射台，仅一篇未读到正文的长文）。group-1st 06:00 进入 2h 窗（至约 08:00）；续窗：Hood Addicts 06:11、Tally 约 06:28、Elyborn 约 07:08、Mosaic 约 07:10；Pavilion 05:44 已过。面板 https://reboot7454.github.io/early-scout/",
+  "summary": "本轮四张新卡：Lockpad 为新建 Solana 锁仓型发射台，05:31 CST 官帖称 live，但官网同步写 Trading/locking/payouts 暂不可用，故只收录不标 2h 窗；Bond（bond.rip）已是活站并自展示多组交易对，$BOND 合约未核验；DeepHood 称本周登陆 Robinhood Chain、自报 CA 未核验、无具体时刻；ChainBow 自称 Elysium 公平曲线发射台，开号当天仅一篇未能读取正文的 X 长文，无官网无 CA，不进 Elysium 栏。Enter_Elysium 的 unitxyz 上线/HL 桥接已在 R1687 记过，本轮无更新的官宣打新窗。group-1st 依据既有 06:00 CST 日程进入 2h 窗；Pavilion 05:44 窗已关闭；Hood/Tally/Elyborn/Mosaic 仅为续窗。",
+  "xReads": 28,
+  "remainingBefore": 438,
+  "remaining": 410,
+  "mode": "pace",
+  "softCap": 28,
+  "minSpend": 18,
+  "ufCursor": 1385,
+  "ufCursorBefore": 1337,
+  "laneReads": {
+    "LayerZero": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "silentAccounts": {
+    "ran": true,
+    "seen": 37,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 37,
+    "lane": "Elysium",
+    "index": 5,
+    "userQuery": "Elysium mint",
+    "search_users_unavailable": true,
+    "deferredHandles": []
+  },
+  "candidateCount": 4054,
+  "tenLanes": true,
+  "kwCoreRan": [
+    "挖矿",
+    "GO盘",
+    "台子/Meme"
+  ],
+  "kwCoreDeferred": [
+    "打新",
+    "Elysium"
+  ],
+  "mentionsThin": [
+    "@PlunderPort/@TapeAIAgent",
+    "@GIWA_by_Upbit/@DogeOS",
+    "@ShieldedNaka/@Bramble_fi"
+  ],
+  "mentionsRest": [
+    "@flapdotsh",
+    "@irys_xyz"
+  ],
+  "fatShards": {
+    "agentPad": [
+      256,
+      281
+    ],
+    "freeMint": [
+      362,
+      387
+    ],
+    "bnAgent": [
+      169,
+      194
+    ],
+    "elysium": [
+      85,
+      110
+    ]
+  },
+  "softDebtRefreshed": [
+    "glazeWatch",
+    "cantonPadWatch",
+    "cantonWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch",
+    "flapPadWatch"
+  ],
+  "dsNote": "全部结论仅基于给定事实。Lockpad 官帖与官网状态矛盾，故 status=announced、le2h=false。所有自报 CA（DeepHood 0xb0a1…7b18、Bond FzHT8d…bond 等）均未核验，ca 字段一律留空，只在文案标注「项目自报、未核验」。ChainBow 无官方 Elysium 生态页证据，category 用台子/Meme、ecosystem 空。deepseek-flash thinking-on 单次调用产出 4 张完整新卡及绝大多数 updates，输出在 stonked-sol 处截断；alert/notify/summary 与 stonked-sol、theunseen444 的 lastChecked 按同一事实在本地补完，未换高成本模型，dsFallback=false。"
+}
