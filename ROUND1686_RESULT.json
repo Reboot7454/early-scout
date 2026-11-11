@@ -1,0 +1,96 @@
+{
+  "round": 1686,
+  "completedAt": "2026-11-12 04:37:45 CST",
+  "notify": true,
+  "notifyReason": "本轮出现两张真新收录卡（Sent、Tenure），且 Clover 公布此前未通知过的新官方重启时刻 2026-11-13 02:00 CST、Pavilion/Hood Junkies 2h 窗仍有效需续报。",
+  "docsSynced": true,
+  "pushSha": "a65eab6",
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "sent",
+    "tenure"
+  ],
+  "le2h": [
+    "pavilion",
+    "hood-junkies"
+  ],
+  "alertMessage": "R1686：新收录 Sent（Volta/Ascend/Montra 创作者费 80% 自动分账，不进 Elysium 栏）与 Tenure（pump.fun 创作者费 90% 给钻石手）；Clover 官方致歉并把代币+平台重启改到 11-13 02:00 CST（旧 04:10 窗已作废）；Pavilion 上线窗续至约 05:44 CST、Hood Junkies Addicts 06:11 CST 仍在 2h 窗，均为续窗非新发现。面板 https://reboot7454.github.io/early-scout/",
+  "summary": "R1686 收录两张新卡：Sent（@SentElysium）在 Volta / Ascend / Montra 发币并把 80% 创作者费自动转给指定 X / Twitch / fomo 账号，站点已可用但账号仅 2 天、无 Elysium 官方生态页证据，故不进 Elysium 栏、ecosystem 留空、$SENT 等字样不作 CA；Tenure（@usetenure）是 pump.fun 上的创作者费再分配层，90% 按持仓时长给持币者、卖出清零，bio 自报 pump 地址未核验故 ca 留空。更新方面：Clover 承认为狙击主导并向受影响者致歉，代币+平台重启改到 2026-11-13 02:00 CST，旧 04:10 窗作废、le2h 置 false；Pavilion 上线窗续至约 05:44 CST、Hood Junkies Addicts 06:11 CST 仍在 2h 窗内，二者均为续窗非新发现；Creedo 重申 11-16 02:00 CST 公平发射（自述参数未核验），Oryvn 仍处 Cairo factory 开发阶段，Enter_Elysium 记录 Chainstack RPC、KNTQ on fomo、Solana 桥接与自报 $300M 交易量。Glitchborn、ELYCAT 等 Ascend 存量代币与各类喊单号、误伤号共 12 个继续 skip。",
+  "xReads": 28,
+  "remainingBefore": 496,
+  "remaining": 468,
+  "mode": "pace",
+  "softCap": 28,
+  "minSpend": 18,
+  "ufCursor": 1289,
+  "ufCursorBefore": 1241,
+  "laneReads": {
+    "LayerZero": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "silentAccounts": {
+    "ran": true,
+    "seen": 43,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 43,
+    "lane": "GO盘",
+    "index": 3,
+    "userQuery": "GO launch",
+    "search_users_unavailable": true,
+    "deferredHandles": []
+  },
+  "candidateCount": 4047,
+  "tenLanes": true,
+  "kwCoreRan": [
+    "挖矿",
+    "GO盘",
+    "打新"
+  ],
+  "kwCoreDeferred": [
+    "台子/Meme",
+    "Elysium"
+  ],
+  "mentionsThin": [
+    "@PlunderPort/@TapeAIAgent",
+    "@GIWA_by_Upbit/@DogeOS",
+    "@ShieldedNaka/@Bramble_fi"
+  ],
+  "mentionsRest": [
+    "@AscendLaunch",
+    "@eloscapeHQ"
+  ],
+  "fatShards": {
+    "agentPad": [
+      206,
+      231
+    ],
+    "freeMint": [
+      312,
+      337
+    ],
+    "bnAgent": [
+      119,
+      144
+    ],
+    "elysium": [
+      35,
+      60
+    ]
+  },
+  "softDebtRefreshed": [
+    "glazeWatch",
+    "cantonPadWatch",
+    "cantonWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch",
+    "flapPadWatch"
+  ],
+  "dsNote": "本轮仅依据给定事实：未做任何链上核验（Clover 的 $CLOVER CA、collection wallet、Tenure 的 9nM7…pump 均为项目自报），Sent 代币字样与已发射案例未验证；clover.family 站点状态本轮未再确认，pump.fun 外链 403、未拉 OpenSea API；未提供「已上 Elysium 官方生态页」证据的项目一律不进 Elysium 栏。"
+}
