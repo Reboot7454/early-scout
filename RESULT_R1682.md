@@ -4,6 +4,7 @@
 - notify: true
 - notifyReason: new admits nullpad, payout-holders, tapseal; wikifork 02:00 CST live+CA ≤2h; clover-rh 02:10 CST live+CA ≤2h; hood-junkies Diamond/Gold/OG ≤2h (mint unverified)
 - docsSynced: true
+- pushSha: 377c5e3
 - discordPeekDeferred: true
 - dsFallback: false
 - panel: https://reboot7454.github.io/early-scout/
