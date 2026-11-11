@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-11 18:10 CST",
+    "updated": "2026-11-11 18:15 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-11 18:10 CST",
+    "lastScout": "2026-11-11 18:15 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -725,7 +725,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1658,
+    "round": 1659,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2165,7 +2165,15 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "playhippocamp",
+      "gulpclub",
+      "pantheondesk",
+      "amphigents",
+      "lodedotfun",
+      "onshareai",
+      "tell-markets"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -4670,17 +4678,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-11 17:24",
-      "lastChecked": "2026-11-11 17:30 CST",
-      "newestCardTime": "2026-11-11 17:24",
-      "cardsAfterCutoff": 35,
-      "note": "R1656：Discord alpha 补收 andronode；清 koma-agent,geode-hash,forge-pass；lastSeen→2026-11-11 17:24；lastChecked→2026-11-11 17:30 CST",
-      "lastRound": 1656,
+      "lastSeen": "2026-11-11 18:02",
+      "lastChecked": "2026-11-11 18:15 CST",
+      "newestCardTime": "2026-11-11 18:02",
+      "cardsAfterCutoff": 45,
+      "note": "R1659：Discord alpha 补收 playhippocamp,gulpclub,pantheondesk,amphigents,lodedotfun,onshareai,tell-markets；开跑 git pull 后仓库已是网页雷达 R1658（elysianblooms 等续更、无新收录），本轮 DC=R1659，未覆盖 R1658；lastSeen→2026-11-11 18:02；lastChecked→2026-11-11 18:15 CST",
+      "lastRound": 1659,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-11 17:24",
-        "alpha-1-backup": "2026-11-11 17:19",
-        "smart-accounts-tracker": "2026-11-11 17:21",
-        "alpha-1": "2026-11-11 17:24"
+        "alpha-3-new-accounts": "2026-11-11 18:01",
+        "alpha-1-backup": "2026-11-11 17:49",
+        "smart-accounts-tracker": "2026-11-11 18:02",
+        "alpha-1": "2026-11-11 17:36"
       },
       "spideyPosting": true
     },
@@ -29559,9 +29567,369 @@
       "tryhushlat",
       "elyforge",
       "kairoExchange"
+    ],
+    "round1659Added": [
+      "playhippocamp",
+      "gulpclub",
+      "pantheondesk",
+      "amphigents",
+      "lodedotfun",
+      "onshareai",
+      "tell-markets"
     ]
   },
   "candidates": [
+    {
+      "id": "tell-markets",
+      "name": "Tell",
+      "handle": "@tell_markets",
+      "twitter": "@tell_markets",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/tell_markets",
+        "web": "http://tell.markets",
+        "twitter": "https://x.com/tell_markets",
+        "website": "http://tell.markets",
+        "caNote": "Official contract: No $TELL token yet。只认官网与 @tell_markets 后续公布的地址。本轮 /api/v1/check 对 Gulp 官方 CA 返回风险 35 / Medium，说明接口已能出结果。"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 7.5,
+        "actionable": 7,
+        "overall": 6.9
+      },
+      "highlights": [
+        "面向 Robinhood 发射的风险检查：合约 / 持仓 / 部署者 / 网站",
+        "/api/v1/check 与 tell.markets/mcp 已可调用，实测对 Gulp 官方 CA 返回评分（风险 35 / Medium）",
+        "人类免费，agent 全量检查按次收 USDG（x402）"
+      ],
+      "drawbacks": [
+        "$TELL 官方合约未发布，页面写 Official contract: No $TELL token yet",
+        "0 粉 2 推",
+        "检查结论目前仅单点实测，未做批量校验"
+      ],
+      "whatsNew": "风控检查 API 已能返回真实评分，$TELL 代币仍未发行。",
+      "summary": "Robinhood 链发射前风控工具：查合约、持仓、部署者与网站，提供 MCP 与 /api/v1/check。人类免费、agent 按次付 USDG（x402）。$TELL 未发布，只认官网与 @tell_markets 后续公布的合约地址。",
+      "blurb": "发射前风控 API 已可用，$TELL 尚未发币。",
+      "round": 1659,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-11 18:15 CST",
+      "addedAt": "2026-11-11 18:15 CST",
+      "lastChecked": "2026-11-11 18:15 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "onshareai",
+      "name": "Onshare",
+      "handle": "@onshareai",
+      "twitter": "@onshareai",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/OnshareAI",
+        "web": "https://www.onshare.fun",
+        "twitter": "https://x.com/OnshareAI",
+        "website": "https://www.onshare.fun",
+        "caNote": "$ONSHARE is planned to launch on Pons，细节将在 X 公布，无时刻、无 CA。官网 FAQ 写尚未 live，DEMO 为示例数据。不要编造已上线或合约。"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 7.5,
+        "actionable": 5.5,
+        "overall": 6.3
+      },
+      "highlights": [
+        "政策约束型 Robinhood 股票代币 AI 代理：规则 / session key / 审计日志",
+        "开源 CLI：npm install -g github:onshareai/onshare，支持 dry-run",
+        "FAQ 给出约 12 周有限发布路线图"
+      ],
+      "drawbacks": [
+        "页面 FAQ 写 Not yet，MVP 开发中，主网交易代理未 live",
+        "$ONSHARE 仅 planned to launch on Pons，无时刻、无 CA",
+        "DEMO 区为示例数据"
+      ],
+      "whatsNew": "规则型代理框架 + 开源 CLI 先行，代币仅计划上 Pons。",
+      "summary": "面向 Robinhood 链股票代币的政策约束 AI 代理，用户设规则、agent 在规则内交易并全量记录；官网 DEMO 为示例数据，FAQ 明确尚未上线、约 12 周路线图，$ONSHARE 计划在 Pons 发射但无时刻与 CA。",
+      "blurb": "政策约束型股票代币 AI 代理，CLI 可试、代币未发。",
+      "round": 1659,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 3,
+      "xFollowers": 3,
+      "firstSeen": "2026-11-11 18:15 CST",
+      "addedAt": "2026-11-11 18:15 CST",
+      "lastChecked": "2026-11-11 18:15 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "lodedotfun",
+      "name": "Lode",
+      "handle": "@lodedotfun",
+      "twitter": "@lodedotfun",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/lodedotfun",
+        "web": "http://lodedot.fun",
+        "twitter": "https://x.com/lodedotfun",
+        "website": "http://lodedot.fun",
+        "caNote": "官网写 LODE ON ROBINHOOD CHAIN · COMING SOON，CA Coming soon；当前游戏 TOKEN 无货币价值、不可提现。勿与 @lode_mintfun / @lodepass / @oddlode 合并，勿编造 CA。这是休闲游戏不是 GPU/PoW 矿池。"
+      },
+      "scores": {
+        "early": 8.5,
+        "risk": 6,
+        "novelty": 6.5,
+        "actionable": 6,
+        "overall": 6.6
+      },
+      "highlights": [
+        "体素挖矿休闲岛玩法，游客或钱包模式均可免费玩",
+        "官方推文写 'hold LODE and your whole crew digs faster'，代币与挖矿速度挂钩",
+        "页头写 LODE ON ROBINHOOD CHAIN · COMING SOON"
+      ],
+      "drawbacks": [
+        "CA Coming soon，代币未上线",
+        "官网明确当前 TOKEN 无货币价值、不可提现或兑换，奖励计划未上线",
+        "1 粉 2 推，社区极小"
+      ],
+      "whatsNew": "可玩页面与代币玩法钩子公开，代币/奖励均未上线。",
+      "summary": "Robinhood 链体素挖矿休闲游戏（非 GPU/PoW 矿池），官网可免费试玩，页面写明 LODE on Robinhood Chain、CA coming soon，且当前代币无货币价值、奖励未上线。勿与 @lode_mintfun/@lodepass/@oddlode 合并，勿编造 CA。",
+      "blurb": "体素挖矿小游戏可玩，$LODE 未上线、CA 未公布。",
+      "round": 1659,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-11 18:15 CST",
+      "addedAt": "2026-11-11 18:15 CST",
+      "lastChecked": "2026-11-11 18:15 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "amphigents",
+      "name": "AMPHIGENTS ASCII",
+      "handle": "@amphigents",
+      "twitter": "@amphigents",
+      "chain": "Elysium",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/AMPHIGENTS",
+        "web": "https://amphigents.xyz",
+        "twitter": "https://x.com/AMPHIGENTS",
+        "website": "https://amphigents.xyz",
+        "caNote": "Token TBA、Contract TBA。官网写 Pre-launch，mint 待代币和合约上线；MCP 演示跑在本地测试链 31337 + mock 代币 LAUNCH，不是主网。自称 Elysium 99901，但未上官方生态页，故不进 Elysium 栏、不打 Elysium生态。"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 8,
+        "actionable": 6,
+        "overall": 6.5
+      },
+      "highlights": [
+        "6666 只 ASCII 青蛙 NFT，仅 AI agent 通过 MCP 铸造",
+        "免费 + gas，每钱包 3 只，每只需烧 25,000 代币",
+        "页面写明 Pre-launch，mint 在代币与合约上线后才开"
+      ],
+      "drawbacks": [
+        "0 粉 1 推，Token TBA、Contract TBA",
+        "MCP 流程仅在本地测试链 31337 + mock 代币 LAUNCH 上跑通",
+        "未在 elysium.kinetiq.xyz 生态页检索到，非官方收录项目"
+      ],
+      "whatsNew": "MCP-only 铸造玩法首次公开，主网尚未开、代币与合约均 TBA。",
+      "summary": "自称部署于 Elysium 99901（Gas=HYPE）的 ASCII 青蛙 NFT，仅 AI agent 经 MCP 破解测试后免费铸造（gas only、每钱包 3 只、每只烧 25,000 代币）。当前仅 Pre-launch，演示跑在本地测试链，不要按 Elysium 官方生态项目对待。",
+      "blurb": "MCP-only 免费铸造的 ASCII 青蛙，Token/合约 TBA。",
+      "round": 1659,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-11 18:15 CST",
+      "addedAt": "2026-11-11 18:15 CST",
+      "lastChecked": "2026-11-11 18:15 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "pantheondesk",
+      "name": "Pantheon",
+      "handle": "@pantheondesk",
+      "twitter": "@pantheondesk",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/PantheonDesk",
+        "web": "https://pantheondesk.com",
+        "twitter": "https://x.com/PantheonDesk",
+        "website": "https://pantheondesk.com",
+        "caNote": "$PNTH 为 CA at launch，官网点击 CA 提示发射时才出现。页面示例钱包 0x0Bd7D308f8E1639FAb988df18A8011f41EAcAD73 是 Robinhood 上的 WETH，不是 $PNTH。官网是 https://pantheondesk.com（pantheondesk.xyz 打不开）。勿与 @askpantheon / @Pantheonindex / @pantheonsi 合并。官推一条回复写 Tonight. 未写清代币是否今夜发射，不要当成 $PNTH 已定档。"
+      },
+      "scores": {
+        "early": 8.5,
+        "risk": 6,
+        "novelty": 7.5,
+        "actionable": 6,
+        "overall": 6.8
+      },
+      "highlights": [
+        "十二位「AI 交易神」路由股票代币/加密/Pons 盘，先模拟再由用户签名",
+        "官网写明 Desk first, token second，页面已宣称 desk 可开",
+        "官方推文（18:00–18:01 CST）演示看链上拥堵、列表与下单"
+      ],
+      "drawbacks": [
+        "$PNTH 为 CA at launch，合约尚未出现",
+        "回复 'Tonight.' 未写清是 desk 可用还是代币今夜发射",
+        "3 粉，无第三方验证"
+      ],
+      "whatsNew": "desk 端流程演示公开，$PNTH 仍未发币、无 CA。",
+      "summary": "Robinhood 链 AI 交易终端概念：把股票代币/加密/Pons 盘先模拟再让用户签名。官网 pantheondesk.com 可打开（.xyz 打不开），页面示例钱包 0x0Bd7…AD73 是 Robinhood 上的 WETH，不是 $PNTH。勿与 @askpantheon/@Pantheonindex/@pantheonsi 合并；也不要把「Tonight.」写成代币已定档今夜。",
+      "blurb": "AI 交易神 desk 先行，$PNTH 待发、CA 未公布。",
+      "round": 1659,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 3,
+      "xFollowers": 3,
+      "firstSeen": "2026-11-11 18:15 CST",
+      "addedAt": "2026-11-11 18:15 CST",
+      "lastChecked": "2026-11-11 18:15 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "gulpclub",
+      "name": "Gulp Club",
+      "handle": "@gulpclub",
+      "twitter": "@gulpclub",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/GulpClub",
+        "web": "https://gulpclub.fun/",
+        "twitter": "https://x.com/GulpClub",
+        "website": "https://gulpclub.fun/",
+        "caNote": "官方 CA 0x338da72e3a6f80c7c85f2c47082994571ce9e557（官网与官推 17:39 CST 公示）。Pons V2 工厂 0x7ed598bcef8bd9edd8c97a195c6d13f40801ec7e，曲线 0x8515d69ad506a124817c79f2ef2a35af635008e6，2026-11-11 17:36 CST 开盘，pool=null（仍在曲线）。本轮约 18:10 CST 读取 Pons 页约市值 $3.3k、39 笔成交、曲线 0% of 4.20 ETH。Dexscreener 对该官方 CA 无池。勿与 flapsh RH 同名 GULPCLUB 0x788724B5eB3fB5883a723d9d389adF2e8FDB7777 或其他链 GULP 盘合并。"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 7,
+        "overall": 6.7
+      },
+      "highlights": [
+        "官网与官方推文（17:39 CST）均已公布官方 CA 0x338da72e3a6f80c7c85f2c47082994571ce9e557",
+        "Pons 曲线已于 2026-11-11 17:36 CST 上线，当时 39 笔成交、约 $3.3k 市值、曲线 0% of 4.20 ETH",
+        "官网有免钱包的浏览器小游戏（分数无代币奖励）"
+      ],
+      "drawbacks": [
+        "1 粉 2 推，创建者 KindZincFox 匿名",
+        "仍在曲线、pool=null，未毕业，风险高",
+        "同名 GULPCLUB/GULP 盘多，必须认准官方 CA"
+      ],
+      "whatsNew": "官方 CA 与 Pons 曲线同步上线，处于发射最早期（未毕业）。",
+      "summary": "Robinhood 链 pelican 主题 Meme，官网可玩小游戏并公布官方 CA；Pons 曲线 17:36 CST 开盘，ETH 报价曲线、供应 10 亿、创造者税 3%，当时约 $3.3k 市值、未建池。勿与 flapsh 的 GULPCLUB 0x788724B5eB3fB5883a723d9d389adF2e8FDB7777 或其他链 GULP 盘合并。",
+      "blurb": "已公布官方 CA 的 Robinhood Meme，Pons 曲线刚开、约 $3.3k 市值。",
+      "round": 1659,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-11 18:15 CST",
+      "addedAt": "2026-11-11 18:15 CST",
+      "lastChecked": "2026-11-11 18:15 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "playhippocamp",
+      "name": "Hippocamp",
+      "handle": "@playhippocamp",
+      "twitter": "@playhippocamp",
+      "chain": "Robinhood",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/playhippocamp",
+        "web": "https://hippocamp.fun",
+        "twitter": "https://x.com/playhippocamp",
+        "website": "https://hippocamp.fun",
+        "caNote": "官方代币 CA 尚未公布（2026-11-11 18:10 CST 读取 hippocamp.fun/api/config 的 ca 仍为空）。官推写 $HIPPO 于 14:00 UTC（22:00 CST）上 Pons，CA 将同步打在官网与 @playhippocamp。chest=0xc099f5E5234D0A92319b4E7169fd1aC28Ef7C3Ef 是 Tide Chest 钱包，不是代币合约。勿与其他 $HIPPO / HIPPO AI / Hungry Hippo 同名盘合并。"
+      },
+      "scores": {
+        "early": 8.5,
+        "risk": 5,
+        "novelty": 7,
+        "actionable": 8,
+        "overall": 7.4
+      },
+      "highlights": [
+        "官网可玩浏览器水下 idle RPG 演示：8 英雄、40 波、4 Boss，build 0.1.0",
+        "官方推文写明 $Hippo launches on Pons 14:00 UTC（2026-11-11 22:00 CST）",
+        "游戏免费、不必持币；Pons 锁定创造者手续费进 Tide Chest，按赛季发给 Reef Ladder"
+      ],
+      "drawbacks": [
+        "建号当天仅 5 粉 2 推，社区几乎为零",
+        "/api/config 的 ca 仍为空字符串，代币合约未公布",
+        "演示数据极小：白名单 1 人、demoPlayers 4、bestWave 1"
+      ],
+      "whatsNew": "可玩 demo 上线，并首次公布 $HIPPO 在 Pons 的具体发射时刻，CA 待发射时同步公布。",
+      "summary": "Robinhood 链水下 idle RPG，浏览器 demo 已可玩；官方推文与 bio 都写明 $HIPPO 于 2026-11-11 22:00 CST 上 Pons，官网 CA 仍为空。页面上的 chest 地址（0xc099…C3Ef）是 Tide Chest 钱包，不是代币合约，勿混用。与链上其他 $HIPPO/HIPPO AI/Hungry Hippo 无关。",
+      "blurb": "水下 idle RPG，$HIPPO 今晚 22:00 CST 上 Pons，CA 待公布。",
+      "round": 1659,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 5,
+      "xFollowers": 5,
+      "firstSeen": "2026-11-11 18:15 CST",
+      "addedAt": "2026-11-11 18:15 CST",
+      "lastChecked": "2026-11-11 18:15 CST",
+      "zoneHint": "打新",
+      "newThisRound": true,
+      "schedule": "2026-11-11 22:00 CST $HIPPO 在 Pons 发射（官方推文/bio 写明），CA 尚未公布，届时同步在官网与 @playhippocamp"
+    },
     {
       "id": "andronode",
       "name": "AndroNode",
@@ -267257,16 +267625,24 @@
       "riskScore": 8
     }
   ],
-  "newThisRound": [],
-  "alertMessage": "距 Pengu Agent 今晚19:00 CST 开 mint 约1小时20分，官网 https://penguagent.space/，合约 0x75c6Db7072276CDe16f703D1aA70B8dbc1a187AC（前500每钱包1份免费）；今晚另有 ArcherSwap $ARW 19:40、宝石 GEM 20:25/20:30、Koma 22:00 窗口，Agent Mining V2 $AMNC 已 LP 失败可停挖；面板：https://reboot7454.github.io/early-scout/。",
+  "newThisRound": [
+    "playhippocamp",
+    "gulpclub",
+    "pantheondesk",
+    "amphigents",
+    "lodedotfun",
+    "onshareai",
+    "tell-markets"
+  ],
+  "alertMessage": "DC补漏 R1659 新收录 7 项：Hippocamp（$HIPPO 今晚 22:00 CST 上 Pons，CA 未公布）、Gulp Club（官方 CA 0x338da72e…e9e557，Pons 曲线约 17:36 CST 开、当时约 $3.3k）、Pantheon（desk 先行，$PNTH 待公布 CA）、AMPHIGENTS（Elysium 上 MCP-only 免费铸，合约 TBA，未进官方生态页故未进 Elysium 栏）、Lode（体素小岛可玩，LODE 未上线）、Onshare（股票代币政策代理，MVP 中）、Tell（发射风控 API 已可用，$TELL 未发）。面板：https://reboot7454.github.io/early-scout/",
   "roundNAdded": [],
-  "updatedAt": "2026-11-11 17:39 CST",
-  "updated": "2026-11-11 17:39 CST",
+  "updatedAt": "2026-11-11 18:15 CST",
+  "updated": "2026-11-11 18:15 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-11 17:39 CST",
+  "lastScout": "2026-11-11 18:15 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -267308,7 +267684,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3960,
+  "candidateCount": 3967,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -270686,5 +271062,14 @@
   "round1656Added": [
     "andronode"
   ],
-  "round1657Added": []
+  "round1657Added": [],
+  "round1659Added": [
+    "playhippocamp",
+    "gulpclub",
+    "pantheondesk",
+    "amphigents",
+    "lodedotfun",
+    "onshareai",
+    "tell-markets"
+  ]
 }
