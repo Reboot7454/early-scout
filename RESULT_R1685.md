@@ -4,7 +4,7 @@
 - notify: true
 - notifyReason: 新增 2 张台子卡，且 Pavilion 上线、Hood Junkies 开铸与 Addicts 档进入 2h 窗口，属本轮真正新变化，需即时推送。
 - docsSynced: true
-- pushSha: PENDING
+- pushSha: 577b276
 - discordPeekDeferred: true
 - dsFallback: false
 - panel: https://reboot7454.github.io/early-scout/
