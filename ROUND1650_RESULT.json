@@ -1,0 +1,106 @@
+{
+  "round": 1650,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-11 15:30 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R1650新收3项：UseBaton（AI编码agent指挥台，官方CA尚无池，注意仿盘）；Operit（有真实Agent仓库，$OPERIT待公布合约）；Agent Call Coin（BSC公开铸造ACC，16档共100 BNB，现第1档、0人铸造）。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "usebaton",
+    "operit",
+    "agent-call-coin"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "usebaton",
+    "operit",
+    "agent-call-coin"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 31,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "niubi-agent",
+    "foundry-faces"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "niubi-agent",
+    "foundry-faces"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=3 rejects=1 calls=3 prompt=8625 completion=11421 alert_tokens=226",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-11 15:19",
+    "lastChecked": "2026-11-11 15:30 CST",
+    "newestCardTime": "2026-11-11 15:19",
+    "cardsAfterCutoff": 31,
+    "note": "R1650：Discord alpha 补收 usebaton,operit,agent-call-coin；清 niubi-agent,foundry-faces；lastSeen→2026-11-11 15:19；lastChecked→2026-11-11 15:30 CST",
+    "lastRound": 1650,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-11 15:17",
+      "alpha-1-backup": "2026-11-11 15:04",
+      "smart-accounts-tracker": "2026-11-11 15:17",
+      "alpha-1": "2026-11-11 15:19"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1650：Discord alpha 补收 usebaton,operit,agent-call-coin；清 niubi-agent,foundry-faces；lastSeen→2026-11-11 15:19；lastChecked→2026-11-11 15:30 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1650.json",
+  "priorRoundNote": "开跑/核验期间网页雷达仍为 R1649（niubi-agent / foundry-faces）；本轮 DC=R1650，未覆盖 R1649；cardsAfterCutoff=31 unique=31 already=2 prerejectHigh=3 keep=4 X核验25/26 送审4",
+  "alert": "DC补漏R1650新收3项：UseBaton（AI编码agent指挥台，官方CA尚无池，注意仿盘）；Operit（有真实Agent仓库，$OPERIT待公布合约）；Agent Call Coin（BSC公开铸造ACC，16档共100 BNB，现第1档、0人铸造）。面板：https://reboot7454.github.io/early-scout/",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-11 15:17",
+    "alpha-1-backup": "2026-11-11 15:04",
+    "smart-accounts-tracker": "2026-11-11 15:17",
+    "alpha-1": "2026-11-11 15:19"
+  },
+  "admissions": [
+    {
+      "id": "usebaton",
+      "handle": "@UseBatonRh",
+      "category": "台子/Meme",
+      "name": "UseBaton"
+    },
+    {
+      "id": "operit",
+      "handle": "@aaswordman",
+      "category": "打新",
+      "name": "Operit"
+    },
+    {
+      "id": "agent-call-coin",
+      "handle": "@AgentCallCoin",
+      "category": "打新",
+      "name": "Agent Call Coin"
+    }
+  ],
+  "dsRejects": 1,
+  "rejected": [
+    {
+      "handle": "@ZoliusVault",
+      "reason": "只有落地页与标明 simulated 的演示流程，无代币/发射/mint 线索且 0 推，审计归属也不可归本项目，按宁缺毋滥拒。"
+    }
+  ],
+  "rejectedCount": 1,
+  "spideyPosting": true,
+  "loginOk": true,
+  "xVerify": {
+    "attempted": 26,
+    "ok": 25,
+    "calls": 3,
+    "remainingAfter": 943,
+    "missing": [
+      "IMDhongbao"
+    ]
+  }
+}
