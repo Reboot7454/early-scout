@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-11 10:31 CST",
+    "updated": "2026-11-11 10:56 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-11 10:31 CST",
+    "lastScout": "2026-11-11 10:56 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -721,7 +721,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1633,
+    "round": 1634,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -798,7 +798,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 3918,
+    "candidateCount": 3921,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -2162,7 +2162,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "clankrpg"
+      "he-squeeks",
+      "ghostchattech",
+      "teseralab"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4674,17 +4676,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-11 09:49",
-      "lastChecked": "2026-11-11 10:04 CST",
-      "newestCardTime": "2026-11-11 09:49",
-      "cardsAfterCutoff": 18,
-      "note": "R1632：Discord alpha 补收 pixelateids；Pixelateids 归打新（pixelateids.com 已开，10,000 个 28×28 全链上以太坊像素肖像、42 个手绘 1/1，Allowlist 已开放且不要求 connect/sign，未见 mint 日期、价格与合约）；已有 1（@supernoversNFT），预拒 0，X核验 11/11，X核验后预滤个人号 8，送审 3，DS 收录 1（stoffietoken/@stoffietoken 无独立站仅 Pump.fun 预告未收；SunnySwapp/@SunnyTeamOfc 无站无合约空壳宣布未收）；lastSeen→2026-11-11 09:49；lastChecked→2026-11-11 10:04 CST",
-      "lastRound": 1632,
+      "lastSeen": "2026-11-11 10:39",
+      "lastChecked": "2026-11-11 10:56 CST",
+      "newestCardTime": "2026-11-11 10:39",
+      "cardsAfterCutoff": 36,
+      "note": "R1634：Discord alpha 补收 he-squeeks,ghostchattech,teseralab；HERON/@he_squeeks 归挖矿（squeekchain 上自称 (3,3) 质押，无官网无合约，仅 bio 与两条回复，纯观察，focus 否）；Ghost Chat/@ghostchattech 归台子/Meme（ghostchat.tech 已开，多模型 AI 聊天+内置钱包，CSP 指向 Robinhood Chain 主/测试网 RPC，支持 USDG/ETH 收发与 Swap、Stripe，未见代币）；Tesera/@TeseraLab 归台子/Meme（teseralab.com 已开，AI agent MCP 网关自称随 Elysium 主网 2026-11-09 上线，文档已开，11-10 称首 24 小时 5,000 calls 并接入 Hookrfun/Uniswap v4 hooks，11-11 再烧 2% $TESERA 累计 7%，未见公开 CA；不在官方 Elysium 生态页故未进 Elysium 栏）；已有 1（@nullsxyz），高粉预拒 4（@huami_1214 4428 / @LemonSyncro 4192 / @NEARProtocol 1824504 / @ChainChomp131 31400），X核验 29/29，X核验后预滤 26（个人号 23 + 产品向 3：@CryptoDOMapp 成熟 CEX 订单流 SaaS、@NFXToken 通用 BSC 生态空壳、@XTlisting 交易所上币营销号），送审 3，DS 收录 3；lastSeen→2026-11-11 10:39；lastChecked→2026-11-11 10:56 CST",
+      "lastRound": 1634,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-11 09:49",
-        "alpha-1-backup": "2026-11-11 09:34",
-        "smart-accounts-tracker": "2026-11-11 09:48",
-        "alpha-1": "2026-11-11 09:31"
+        "alpha-3-new-accounts": "2026-11-11 10:39",
+        "alpha-1-backup": "2026-11-11 10:34",
+        "smart-accounts-tracker": "2026-11-11 10:26",
+        "alpha-1": "2026-11-11 10:23"
       }
     },
     "round239Added": [
@@ -29332,9 +29334,154 @@
       "Hypejakonelysiu（wojak仿盘）",
       "aiwandeyu UFO（无项目推特）",
       "IPXExchange/bitecong 信号号（非早期/非项目）"
+    ],
+    "round1634Added": [
+      "he-squeeks",
+      "ghostchattech",
+      "teseralab"
     ]
   },
   "candidates": [
+    {
+      "id": "teseralab",
+      "name": "Tesera",
+      "handle": "@teseralab",
+      "twitter": "@teseralab",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/TeseraLab",
+        "web": "https://teseralab.com",
+        "docs": "https://teseralab.com/docs"
+      },
+      "scores": {
+        "early": 6,
+        "risk": 6,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 5.6
+      },
+      "highlights": [
+        "已上线 MCP 网关：一条 URL 让 Claude/ChatGPT/Cursor 读 Elysium 链、模拟交易、部署合约，签名留在用户钱包",
+        "首 24 小时 5,000 calls；已支持 @Hookrfun、Uniswap v4 hooks 一键模板、Agents React 链上触发",
+        "累计销毁 7% $TESERA，30% 手续费每周回购 $KNTQ，持币可降费提额；文档站已开"
+      ],
+      "drawbacks": [
+        "不在已核验的官方 Elysium 生态页，生态归属未被承认，按规则不得进 Elysium 栏",
+        "未公开 $TESERA 合约地址，代币侧无法验证",
+        "2026-09-28 建号、754 粉，已过极新窗口；产品为 infra 工具，普通用户可操作性有限"
+      ],
+      "whatsNew": "随 Elysium 主网（2026-11-09）上线 MCP 网关，11-10 起接连接入 Hookrfun、Uniswap v4 hooks 模板与链上触发，11-11 再烧 2% 供给（累计 7%）。",
+      "summary": "Tesera 是面向 AI agent 的链上 MCP 网关，已实际跑通读链、模拟、部署合约与 Hookrfun/v4 hooks 工具，并有代币销毁与手续费回购机制。但因不在官方 Elysium 生态页且无公开 CA，按硬规则归台子/Meme，作为早期可用工具观察而非生态核心标的。",
+      "blurb": "AI agent 的 Elysium MCP 网关，产品已跑通但生态页未收录，$TESERA 无公开 CA。",
+      "round": 1634,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 754,
+      "xFollowers": 754,
+      "firstSeen": "2026-11-11 10:56 CST",
+      "addedAt": "2026-11-11 10:56 CST",
+      "lastChecked": "2026-11-11 10:56 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "ghostchattech",
+      "name": "Ghost Chat",
+      "handle": "@ghostchattech",
+      "twitter": "@ghostchattech",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/ghostchattech",
+        "web": "https://ghostchat.tech"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 6.1
+      },
+      "highlights": [
+        "产品已 live：多模型同框、跨模型共享记忆、按次付费无订阅",
+        "App 内钱包可 Send/Receive/Swap/Add Funds，支持 USDG 与 ETH，接入 Stripe，站点 CSP 指向 Privy、WalletConnect 与 Robinhood Chain 主/测试网 RPC",
+        "70+ 语言、语音、Android Web App 安装，另有 Ghost Code 与 BYOK"
+      ],
+      "drawbacks": [
+        "未见官方代币或合约，暂无明确打新/挖矿标的",
+        "单人 Swift 开发，产品与叙事都偏工具向，链上玩法仅钱包一层",
+        "52 粉、置顶推已不可见，社区体量小"
+      ],
+      "whatsNew": "2026-11-10 正式上线：AI 聊天 + 内置钱包（USDG/ETH 收发与 Swap）、Stripe 支付、Android Web App。",
+      "summary": "Ghost Chat 是已上线的多模型 AI 聊天应用，把钱包直接嵌进对话流，USDG/ETH 收发与 Swap 可用，站点 CSP 明确指向 Robinhood Chain 主网与测试网，是 Robinhood Chain 生态少见的真实产品线索。目前无代币与合约，价值主要在早期钱包交互与潜在生态身份。",
+      "blurb": "已上线的 AI 聊天+内置钱包，链线索指向 Robinhood Chain，无 token。",
+      "round": 1634,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 52,
+      "xFollowers": 52,
+      "firstSeen": "2026-11-11 10:56 CST",
+      "addedAt": "2026-11-11 10:56 CST",
+      "lastChecked": "2026-11-11 10:56 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "he-squeeks",
+      "name": "HERON",
+      "handle": "@he_squeeks",
+      "twitter": "@he_squeeks",
+      "chain": "Squeekchain",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/he_squeeks"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 9,
+        "novelty": 3,
+        "actionable": 2,
+        "overall": 4.5
+      },
+      "highlights": [
+        "bio 明写 (3,3) staking built on @squeekchain，属已知仓鼠线生态",
+        "2026-11-08 建号的极新账号，独立项目推特而非个人号"
+      ],
+      "drawbacks": [
+        "无官网、无合约、无质押入口，任何产品都未落地",
+        "仅 2 条推文且全为回复 @hulknobanner，无原创宣布帖",
+        "11 粉，信息量仅 bio 一句，接近空壳观察名单"
+      ],
+      "whatsNew": "新出现的 squeekchain 生态账号，bio 宣称做 (3,3) 质押，除此之外无任何交付物。",
+      "summary": "HERON 是一个 2026-11-08 建号、仅 2 条回复推的极早期账号，bio 自称在 @squeekchain 上做 (3,3) 质押。无站点、无合约、无质押入口，仅有生态归属这一条线索，属纯观察项，需等其发布任何可验证产物。",
+      "blurb": "squeekchain 上的 (3,3) 质押挂靠号，目前只有一句 bio，纯观察。",
+      "round": 1634,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 11,
+      "xFollowers": 11,
+      "firstSeen": "2026-11-11 10:56 CST",
+      "addedAt": "2026-11-11 10:56 CST",
+      "lastChecked": "2026-11-11 10:56 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
     {
       "id": "pixelateids",
       "name": "Pixelateids",
@@ -264769,27 +264916,29 @@
       "addedAt": "2026-11-11T10:31:11+08:00",
       "lastChecked": "2026-11-11T10:31:11+08:00",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "flag": "本轮新",
       "earlyScore": 9,
       "riskScore": 4
     }
   ],
   "newThisRound": [
-    "pixelateids"
+    "he-squeeks",
+    "ghostchattech",
+    "teseralab"
   ],
-  "alertMessage": "DC补漏R1632新收：打新栏 @Pixelateids，站点 pixelateids.com，Allowlist 已开（提交钱包+X handle，不需 connect/sign），10k 全链上 28×28 以太坊像素肖像，未见 mint 日期、价格、合约。面板：https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R1634新收3条：HERON挖矿自称squeekchain (3,3)质押，无官网无合约仅观察；Ghost Chat已开ghostchat.tech，多模型AI聊天+内置钱包，链线索指Robinhood Chain，支持USDG/ETH与Stripe，未见代币；Tesera的MCP网关文档已开、自称随Elysium主网上线但不在官方生态页，未进Elysium栏，未见$TESERA CA。面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "elyxsi",
     "yumsdotfun"
   ],
-  "updatedAt": "2026-11-11 10:04 CST",
-  "updated": "2026-11-11 10:04 CST",
+  "updatedAt": "2026-11-11 10:56 CST",
+  "updated": "2026-11-11 10:56 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-11 10:04 CST",
+  "lastScout": "2026-11-11 10:56 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -264831,7 +264980,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3917,
+  "candidateCount": 3921,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -268174,5 +268323,10 @@
   ],
   "round1632Added": [
     "pixelateids"
+  ],
+  "round1634Added": [
+    "he-squeeks",
+    "ghostchattech",
+    "teseralab"
   ]
 }

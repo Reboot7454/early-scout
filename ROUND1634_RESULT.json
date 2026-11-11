@@ -1,0 +1,129 @@
+{
+  "round": 1634,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-11 10:56 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R1634新收3条：HERON挖矿自称squeekchain (3,3)质押，无官网无合约仅观察；Ghost Chat已开ghostchat.tech，多模型AI聊天+内置钱包，链线索指Robinhood Chain，支持USDG/ETH与Stripe，未见代币；Tesera的MCP网关文档已开、自称随Elysium主网上线但不在官方生态页，未进Elysium栏，未见$TESERA CA。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "he-squeeks",
+    "ghostchattech",
+    "teseralab"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "he-squeeks",
+    "ghostchattech",
+    "teseralab"
+  ],
+  "skipped": [
+    {
+      "id": "cryptodomapp",
+      "handle": "@CryptoDOMapp",
+      "reason": "cryptodom.app 已上线的 CEX 订单流热图 SaaS（合并 Binance/Bybit/OKX 盘口，Pro 从 $9 起），属成熟交易终端，非链上打新/发射项目。"
+    },
+    {
+      "id": "nfxtoken",
+      "handle": "@NFXToken",
+      "reason": "nfxtoken.com 通用 BSC 代币+Swap+质押+开发服务模板，CA 已可在 PancakeSwap 购买，X 今日建号 0 推，按空壳/中后期 DeFi 拒收。"
+    },
+    {
+      "id": "xtlisting",
+      "handle": "@XTlisting",
+      "reason": "bio 链到 xt.com/en/listing 的交易所上币营销号，今日建号 0 推且默认头像，非独立项目。"
+    }
+  ],
+  "cardsAfterLastSeen": 36,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "clankrpg"
+  ],
+  "candidateFlagsCleared": 1,
+  "topNewThisRoundCleared": [
+    "clankrpg"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits_raw=3 final=3 calls=2 prompt=4219 completion=3677",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-11 10:39",
+    "lastChecked": "2026-11-11 10:56 CST",
+    "newestCardTime": "2026-11-11 10:39",
+    "cardsAfterCutoff": 36,
+    "note": "R1634：Discord alpha 补收 he-squeeks,ghostchattech,teseralab；HERON/@he_squeeks 归挖矿（squeekchain 上自称 (3,3) 质押，无官网无合约，仅 bio 与两条回复，纯观察，focus 否）；Ghost Chat/@ghostchattech 归台子/Meme（ghostchat.tech 已开，多模型 AI 聊天+内置钱包，CSP 指向 Robinhood Chain 主/测试网 RPC，支持 USDG/ETH 收发与 Swap、Stripe，未见代币）；Tesera/@TeseraLab 归台子/Meme（teseralab.com 已开，AI agent MCP 网关自称随 Elysium 主网 2026-11-09 上线，文档已开，11-10 称首 24 小时 5,000 calls 并接入 Hookrfun/Uniswap v4 hooks，11-11 再烧 2% $TESERA 累计 7%，未见公开 CA；不在官方 Elysium 生态页故未进 Elysium 栏）；已有 1（@nullsxyz），高粉预拒 4（@huami_1214 4428 / @LemonSyncro 4192 / @NEARProtocol 1824504 / @ChainChomp131 31400），X核验 29/29，X核验后预滤 26（个人号 23 + 产品向 3：@CryptoDOMapp 成熟 CEX 订单流 SaaS、@NFXToken 通用 BSC 生态空壳、@XTlisting 交易所上币营销号），送审 3，DS 收录 3；lastSeen→2026-11-11 10:39；lastChecked→2026-11-11 10:56 CST",
+    "lastRound": 1634,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-11 10:39",
+      "alpha-1-backup": "2026-11-11 10:34",
+      "smart-accounts-tracker": "2026-11-11 10:26",
+      "alpha-1": "2026-11-11 10:23"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1634：Discord alpha 补收 he-squeeks,ghostchattech,teseralab；HERON/@he_squeeks 归挖矿（squeekchain 上自称 (3,3) 质押，无官网无合约，仅 bio 与两条回复，纯观察，focus 否）；Ghost Chat/@ghostchattech 归台子/Meme（ghostchat.tech 已开，多模型 AI 聊天+内置钱包，CSP 指向 Robinhood Chain 主/测试网 RPC，支持 USDG/ETH 收发与 Swap、Stripe，未见代币）；Tesera/@TeseraLab 归台子/Meme（teseralab.com 已开，AI agent MCP 网关自称随 Elysium 主网 2026-11-09 上线，文档已开，11-10 称首 24 小时 5,000 calls 并接入 Hookrfun/Uniswap v4 hooks，11-11 再烧 2% $TESERA 累计 7%，未见公开 CA；不在官方 Elysium 生态页故未进 Elysium 栏）；已有 1（@nullsxyz），高粉预拒 4（@huami_1214 4428 / @LemonSyncro 4192 / @NEARProtocol 1824504 / @ChainChomp131 31400），X核验 29/29，X核验后预滤 26（个人号 23 + 产品向 3：@CryptoDOMapp 成熟 CEX 订单流 SaaS、@NFXToken 通用 BSC 生态空壳、@XTlisting 交易所上币营销号），送审 3，DS 收录 3；lastSeen→2026-11-11 10:39；lastChecked→2026-11-11 10:56 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1634.json",
+  "priorRoundNote": "开跑 git pull 后仓库为网页雷达 R1633（clankrpg）；本轮 DC=R1634，未覆盖 R1633",
+  "alert": "DC补漏R1634新收3条：HERON挖矿自称squeekchain (3,3)质押，无官网无合约仅观察；Ghost Chat已开ghostchat.tech，多模型AI聊天+内置钱包，链线索指Robinhood Chain，支持USDG/ETH与Stripe，未见代币；Tesera的MCP网关文档已开、自称随Elysium主网上线但不在官方生态页，未进Elysium栏，未见$TESERA CA。面板 https://reboot7454.github.io/early-scout/",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-11 10:39",
+    "alpha-1-backup": "2026-11-11 10:34",
+    "smart-accounts-tracker": "2026-11-11 10:26",
+    "alpha-1": "2026-11-11 10:23"
+  },
+  "cardsRead": 36,
+  "cardsReadApprox": 248,
+  "scannedAtCST": "2026-11-11 10:45",
+  "newestByChannel": {
+    "alpha-3-new-accounts": "2026-11-11 10:39",
+    "alpha-1-backup": "2026-11-11 10:34",
+    "smart-accounts-tracker": "2026-11-11 10:26",
+    "alpha-1": "2026-11-11 10:23"
+  },
+  "spideyPosting": true,
+  "cappedByChannel": {
+    "alpha-3-new-accounts": false,
+    "alpha-1-backup": false,
+    "smart-accounts-tracker": false,
+    "alpha-1": false
+  },
+  "loginOk": true,
+  "admissions": [
+    "he-squeeks",
+    "ghostchattech",
+    "teseralab"
+  ],
+  "existing": [
+    "@nullsxyz"
+  ],
+  "prerejectHighFol": [
+    "@huami_1214",
+    "@LemonSyncro",
+    "@NEARProtocol",
+    "@ChainChomp131"
+  ],
+  "xVerified": "29/29",
+  "prefilterPersonal": 23,
+  "prefilterProduct": 3,
+  "sentToDs": 3,
+  "dsAlertUsage": {
+    "prompt_tokens": 343,
+    "completion_tokens": 472,
+    "total_tokens": 815,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 343
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 343
+  }
+}
