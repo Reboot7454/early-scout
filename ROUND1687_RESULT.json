@@ -1,0 +1,100 @@
+{
+  "round": 1687,
+  "completedAt": "2026-11-12 05:20:32 CST",
+  "notify": true,
+  "notifyReason": "有真新收录（Elyborn/Receipt/Cuffed），且 Elyborn、Mosaic、Tally 处于 2h live 窗，Pavilion、Hood Addicts 续窗仍有效，需告知用户。",
+  "docsSynced": true,
+  "pushSha": "eb4e2b1",
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "elyborn",
+    "receipt",
+    "cuffed"
+  ],
+  "le2h": [
+    "elyborn",
+    "mosaic-elysium",
+    "use-tally-agent",
+    "pavilion",
+    "hood-junkies"
+  ],
+  "alertMessage": "R1687：新卡 Elyborn（Elysium 打新台，05:08 官宣 live，窗至约 07:08）；Receipt（以太坊 tx-hash 发币，官网 404）与 Cuffed（pump.fun dev 锁仓台，主币未发）新收录但不标窗。已有卡首次 live：Mosaic（Elysium 主网）、Tally（chain 改 Elysium）、Ely Kitties 代币。仅续窗：Pavilion ≤05:44、Hood Addicts 06:11。Clover 揭示按后帖改为 11-12 20:00 CST，重启 11-13 02:00 不变。面板 https://reboot7454.github.io/early-scout/",
+  "summary": "本轮三张新卡：Elyborn 为 Elysium 新建币台，开号当天官宣主网 live，进入 2h 窗；Receipt 自称以太坊 live 但官网短链 404、CA 未核验，只收卡不标窗；Cuffed 是 pump.fun dev 锁仓包装台，主币 $CUFFED 未发、无时刻。Heist City 属主题 meme 预热，跳过。更新侧：Mosaic 由测试网改判官方自称正式 live（窗至约 07:10），Tally 首次官方 live 且链由 Robinhood 修正为 Elysium（窗至约 06:28），Ely Kitties 代币自称 live 但免费铸造窗早已过；Clover 揭示以后帖为准改到 11-12 20:00 CST；Pavilion 与 Hood Addicts 仅续窗。Elysium 生态栏本轮继续不放入任何卡（无官方生态页证据）。",
+  "xReads": 30,
+  "remainingBefore": 468,
+  "remaining": 438,
+  "mode": "pace",
+  "softCap": 28,
+  "minSpend": 18,
+  "ufCursor": 1337,
+  "ufCursorBefore": 1289,
+  "laneReads": {
+    "LayerZero": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "silentAccounts": {
+    "ran": true,
+    "seen": 29,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 29,
+    "lane": "LayerZero",
+    "index": 4,
+    "userQuery": "LayerZero OFT",
+    "search_users_unavailable": true,
+    "deferredHandles": []
+  },
+  "candidateCount": 4050,
+  "tenLanes": true,
+  "kwCoreRan": [
+    "台子/Meme",
+    "Elysium",
+    "打新"
+  ],
+  "kwCoreDeferred": [
+    "挖矿",
+    "GO盘"
+  ],
+  "mentionsThin": [
+    "@ZeroVaultxyz/@TapeOutWorld",
+    "@YeonPad/@LaikaSuperApp",
+    "@banknotes_btc/@Starknet"
+  ],
+  "mentionsRest": [
+    "@fulldotfun",
+    "@PulseLaunchpad"
+  ],
+  "fatShards": {
+    "agentPad": [
+      231,
+      256
+    ],
+    "freeMint": [
+      337,
+      362
+    ],
+    "bnAgent": [
+      144,
+      169
+    ],
+    "elysium": [
+      60,
+      85
+    ]
+  },
+  "softDebtRefreshed": [
+    "glazeWatch",
+    "cantonPadWatch",
+    "cantonWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch",
+    "flapPadWatch"
+  ],
+  "dsNote": "全部结论仅基于给定事实：Elyborn 05:08 CST「is live」按上线宣告处理并给 2h 窗；Receipt 官网 t.co 本轮 404，故不标 le2h；Cuffed 主币无上线时刻、不设窗。所有自报 CA（Receipt、Mosaic、Tally、Ely Kitties、Sherwood 等）均未核验，ca 字段一律留空，只在文案标注「项目自报、未核验」。Elyborn/Mosaic/Tally 均无「已上 Elysium 官方生态页」证据，category 用打新/台子、ecosystem 与 Elysium 栏一律为空。Clover 揭示采用较晚 05:09:35 CST 帖的 12 Nov 12:00 UTC，13 Nov 版本视为被覆盖；重启 02:00 CST 为上轮已通知事项，本轮仅续记。Cuffed 已锁仓币数量、Clover 回购细节、Ely Kitties 50% 进度等均未核验或未解析，未写入结论。"
+}
