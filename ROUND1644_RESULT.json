@@ -1,0 +1,100 @@
+{
+  "round": 1644,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-11 13:24 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R1644新收3项：Varro Exchange（RH链永续DEX、代币未发）、Stoner Dogs（RH链当日meme、CA已公布）、屎壳郎$SKL（BSC公平铸造待开、合约未公布）；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "varroexchange",
+    "stonerdogsrh",
+    "shikelang-bnb"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "varroexchange",
+    "stonerdogsrh",
+    "shikelang-bnb"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 25,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "jade-vault-bsc"
+  ],
+  "candidateFlagsCleared": 1,
+  "topNewThisRoundCleared": [
+    "jade-vault-bsc"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=3 rejects=1 calls=1 prompt=3966 completion=3212 alert_tokens=473",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-11 13:16",
+    "lastChecked": "2026-11-11 13:24 CST",
+    "newestCardTime": "2026-11-11 13:16",
+    "cardsAfterCutoff": 25,
+    "note": "R1644：Discord alpha 补收 varroexchange,stonerdogsrh,shikelang-bnb；清 jade-vault-bsc；lastSeen→2026-11-11 13:16；lastChecked→2026-11-11 13:24 CST",
+    "lastRound": 1644,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-11 13:16",
+      "alpha-1-backup": "2026-11-11 11:19",
+      "smart-accounts-tracker": "2026-11-11 13:06",
+      "alpha-1": "2026-11-11 12:44"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1644：Discord alpha 补收 varroexchange,stonerdogsrh,shikelang-bnb；清 jade-vault-bsc；lastSeen→2026-11-11 13:16；lastChecked→2026-11-11 13:24 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1642.json",
+  "priorRoundNote": "开跑/核验期间网页雷达已推到 R1643（jade-vault-bsc）；本轮 DC=R1644，未覆盖 R1643；cardsAfterCutoff=25 unique=22 already=2 prerejectHigh=0 keep=20 X核验20/20 送审4",
+  "alert": "DC补漏R1644新收3项：Varro Exchange（RH链永续DEX、代币未发）、Stoner Dogs（RH链当日meme、CA已公布）、屎壳郎$SKL（BSC公平铸造待开、合约未公布）；面板 https://reboot7454.github.io/early-scout/",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-11 13:16",
+    "alpha-1-backup": "2026-11-11 11:19",
+    "smart-accounts-tracker": "2026-11-11 13:06",
+    "alpha-1": "2026-11-11 12:44"
+  },
+  "admissions": [
+    {
+      "id": "varroexchange",
+      "handle": "@varroexchange",
+      "category": "台子/Meme",
+      "name": "Varro Exchange"
+    },
+    {
+      "id": "stonerdogsrh",
+      "handle": "@StonerDogsRH",
+      "category": "台子/Meme",
+      "name": "Stoner Dogs"
+    },
+    {
+      "id": "shikelang-bnb",
+      "handle": "@shikelang_bnb10",
+      "category": "打新",
+      "name": "屎壳郎 $SKL"
+    }
+  ],
+  "dsRejects": 1,
+  "rejected": [
+    {
+      "handle": "@aetherliquid",
+      "reason": "代币已在交易并完成回购销毁、市值约 91.5 万美元，已过极早期窗口，且不在官方 Elysium 生态页名单内。"
+    }
+  ],
+  "rejectedCount": 1,
+  "spideyPosting": true,
+  "xVerify": {
+    "attempted": 20,
+    "ok": 20,
+    "calls": 7,
+    "remainingAfter": 956
+  }
+}
