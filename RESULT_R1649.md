@@ -1,0 +1,34 @@
+# R1649
+
+```json
+{
+ "round": 1649,
+ "added": [
+  "niubi-agent",
+  "foundry-faces"
+ ],
+ "skipped": [
+  "wno-bnb",
+  "plungers",
+  "aura-agents"
+ ],
+ "updated": [
+  "elysiumpilled",
+  "squeekchain",
+  "agentic-starter",
+  "dualforge-bsc"
+ ],
+ "xReads": 3,
+ "remainingBefore": 952,
+ "remaining": 949,
+ "mode": "ample",
+ "softCap": 28,
+ "ufCursor": 216,
+ "docsSynced": true,
+ "discordPeekDeferred": false,
+ "notify": true,
+ "alert": "雷达 R1649：新收 @ovrekfoundry Foundry Faces（BSC 11111 像素头像，Agent ID 钱包首枚免费仅 gas，#2–5 0.0002 BNB，FCFS 刚开）；@NiuBiAgent NIUBI（BSC 持 Agent ID 0.003 BNB/份，536/10000，剩约 25h，未满退 85%；新号需核合约）。更新：ELYSIUMPILLED GENESIS 1111 已在 Elysium 开 mint；squeek Genesis 降至 3333 枚。补报：Constellation Agents、TST、blown.xyz、EMBLEM 今晚 21:00。面板 https://reboot7454.github.io/early-scout/",
+ "dsNote": "deepseek-flash thinking ok",
+ "carryOver": "R1645/R1647 alert wakes aborted; re-included"
+}
+```
