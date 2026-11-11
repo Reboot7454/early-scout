@@ -4,7 +4,7 @@
 - notify: true
 - notifyReason: 本轮有新收录 spirit-bomb（含已核验 CA）与工具类 misthra，按规则 notify 强制为 true，需即时推送。
 - docsSynced: true
-- pushSha: PENDING
+- pushSha: c731995
 - discordPeekDeferred: true
 - dsFallback: false
 - panel: https://reboot7454.github.io/early-scout/
