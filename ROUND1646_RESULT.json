@@ -1,0 +1,94 @@
+{
+  "round": 1646,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-11 14:03 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R1646新收1项：Asphodel（HyperEVM 双层 USDC 金库、可从 Elysium 桥入、$ASPH 未公布、未审计有上限）；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "useasphodel"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "useasphodel"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 34,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "tst-bnb",
+    "nftgraphics"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "tst-bnb",
+    "nftgraphics"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=1 rejects=2 calls=2 prompt=4705 completion=4196 alert_tokens=1063",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-11 13:56",
+    "lastChecked": "2026-11-11 14:03 CST",
+    "newestCardTime": "2026-11-11 13:56",
+    "cardsAfterCutoff": 34,
+    "note": "R1646：Discord alpha 补收 useasphodel；清 tst-bnb,nftgraphics；lastSeen→2026-11-11 13:56；lastChecked→2026-11-11 14:03 CST",
+    "lastRound": 1646,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-11 13:54",
+      "alpha-1-backup": "2026-11-11 13:49",
+      "smart-accounts-tracker": "2026-11-11 13:56",
+      "alpha-1": "2026-11-11 13:48"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1646：Discord alpha 补收 useasphodel；清 tst-bnb,nftgraphics；lastSeen→2026-11-11 13:56；lastChecked→2026-11-11 14:03 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1645.json",
+  "priorRoundNote": "开跑/核验期间网页雷达已推到 R1645（tst-bnb / nftgraphics）；本轮 DC=R1646，未覆盖 R1645；cardsAfterCutoff=34 unique=29 already=0 prerejectHigh=0 keep=29 X核验28/29 送审3",
+  "alert": "DC补漏R1646新收1项：Asphodel（HyperEVM 双层 USDC 金库、可从 Elysium 桥入、$ASPH 未公布、未审计有上限）；面板 https://reboot7454.github.io/early-scout/",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-11 13:54",
+    "alpha-1-backup": "2026-11-11 13:49",
+    "smart-accounts-tracker": "2026-11-11 13:56",
+    "alpha-1": "2026-11-11 13:48"
+  },
+  "admissions": [
+    {
+      "id": "useasphodel",
+      "handle": "@useasphodel",
+      "category": "挖矿",
+      "name": "Asphodel"
+    }
+  ],
+  "dsRejects": 2,
+  "rejected": [
+    {
+      "handle": "@Enter_REGRADE",
+      "reason": "无官网、仅 1 推 0 粉、无合约或产品链接，叙事过薄不构成可操作项目"
+    },
+    {
+      "handle": "@stryde_social",
+      "reason": "页脚显示 ETHOnline 2026 黑客松，bio 仅 work in progress，官推无产品说明且无代币/mint/链上发射线索"
+    }
+  ],
+  "rejectedCount": 2,
+  "spideyPosting": true,
+  "loginOk": true,
+  "xVerify": {
+    "attempted": 29,
+    "ok": 28,
+    "calls": 5,
+    "remainingAfter": 951,
+    "missing": [
+      "DestinyFor64758"
+    ]
+  }
+}
