@@ -4,7 +4,7 @@
 - notify: true
 - notifyReason: no new admits; wikifork/clover-rh/hood-junkies still ≤2h; clover collection-wallet reply, grokiefun site live, plus qhooks/oak/jpegs/enter-elysium updates
 - docsSynced: true
-- pushSha: pending
+- pushSha: 25c13a2
 - discordPeekDeferred: true
 - dsFallback: false
 - panel: https://reboot7454.github.io/early-scout/
