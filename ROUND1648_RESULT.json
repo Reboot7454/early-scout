@@ -1,0 +1,100 @@
+{
+  "round": 1648,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-11 14:52 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R1648新收2项：CIN（BSC已验证合约与LP矿机，但五层分润叠6%税、池内美元侧仅约6.85 USDT，高风险极早期）；SpyHooks（Robinhood Chain上Uniswap v4 hook/router，代币未发射、合约未公布且零活跃池）；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "spyhooks",
+    "cinmainbsc"
+  ],
+  "newCount": 2,
+  "newIds": [
+    "spyhooks",
+    "cinmainbsc"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 38,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "constellation-agents",
+    "blown-xyz"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "constellation-agents",
+    "blown-xyz"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=2 rejects=2 calls=2 prompt=5101 completion=5901 alert_tokens=94",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-11 14:44",
+    "lastChecked": "2026-11-11 14:52 CST",
+    "newestCardTime": "2026-11-11 14:44",
+    "cardsAfterCutoff": 38,
+    "note": "R1648：Discord alpha 补收 spyhooks,cinmainbsc；清 constellation-agents,blown-xyz；lastSeen→2026-11-11 14:44；lastChecked→2026-11-11 14:52 CST",
+    "lastRound": 1648,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-11 14:44",
+      "alpha-1-backup": "2026-11-11 14:19",
+      "smart-accounts-tracker": "2026-11-11 14:27",
+      "alpha-1": "2026-11-11 14:09"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1648：Discord alpha 补收 spyhooks,cinmainbsc；清 constellation-agents,blown-xyz；lastSeen→2026-11-11 14:44；lastChecked→2026-11-11 14:52 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1648.json",
+  "priorRoundNote": "开跑/核验期间网页雷达已推到 R1647（constellation-agents / blown-xyz）；本轮 DC=R1648，未覆盖 R1647；cardsAfterCutoff=38 unique=34 already=4 prerejectHigh=1 keep=29 X核验29/29 送审4",
+  "alert": "DC补漏R1648新收2项：CIN（BSC已验证合约与LP矿机，但五层分润叠6%税、池内美元侧仅约6.85 USDT，高风险极早期）；SpyHooks（Robinhood Chain上Uniswap v4 hook/router，代币未发射、合约未公布且零活跃池）；面板 https://reboot7454.github.io/early-scout/",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-11 14:44",
+    "alpha-1-backup": "2026-11-11 14:19",
+    "smart-accounts-tracker": "2026-11-11 14:27",
+    "alpha-1": "2026-11-11 14:09"
+  },
+  "admissions": [
+    {
+      "id": "spyhooks",
+      "handle": "@spyhooks",
+      "category": "台子/Meme",
+      "name": "SpyHooks"
+    },
+    {
+      "id": "cinmainbsc",
+      "handle": "@cinmainbsc",
+      "category": "挖矿",
+      "name": "CIN"
+    }
+  ],
+  "dsRejects": 2,
+  "rejected": [
+    {
+      "handle": "@sentrivatech",
+      "reason": "仅有落地页/API 说明，X 0 推且代币未公布，无线上发射线索，过薄。"
+    },
+    {
+      "handle": "@northonchain",
+      "reason": "官网未部署、代币无池无报价，仅有一条 RH 链上线声明与叙事，过薄。"
+    }
+  ],
+  "rejectedCount": 2,
+  "spideyPosting": true,
+  "loginOk": true,
+  "xVerify": {
+    "attempted": 29,
+    "ok": 29,
+    "calls": 5,
+    "remainingAfter": 946,
+    "missing": []
+  }
+}
