@@ -1,0 +1,86 @@
+{
+  "round": 1640,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-11 12:47 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R1640新收：Blobs（Elysium 4,444 NFT 白名单已开，$BLOB 有 GTD/FCFS 线索）、Ringless（Solana 钱包隐私阅读器，今日公布 $RINGLESS CA、锁仓、DEX）；https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "getblobs",
+    "ringless"
+  ],
+  "newCount": 2,
+  "newIds": [
+    "getblobs",
+    "ringless"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 41,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "elysium-desk"
+  ],
+  "candidateFlagsCleared": 1,
+  "topNewThisRoundCleared": [
+    "elysium-desk"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=2",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-11 12:39",
+    "lastChecked": "2026-11-11 12:47 CST",
+    "newestCardTime": "2026-11-11 12:39",
+    "cardsAfterCutoff": 41,
+    "note": "R1640：Discord alpha 补收 getblobs,ringless；清 elysium-desk；lastSeen→2026-11-11 12:39；lastChecked→2026-11-11 12:47 CST",
+    "lastRound": 1640,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-11 12:39",
+      "alpha-1-backup": "2026-11-11 11:19",
+      "smart-accounts-tracker": "2026-11-11 12:29",
+      "alpha-1": "2026-11-11 12:27"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1640：Discord alpha 补收 getblobs,ringless；清 elysium-desk；lastSeen→2026-11-11 12:39；lastChecked→2026-11-11 12:47 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1640.json",
+  "priorRoundNote": "R1639 meta NTR ['leashwick', 'elysium-desk']; cardsAfterCutoff=41",
+  "alert": "DC补漏R1640新收：Blobs（Elysium 4,444 NFT 白名单已开，$BLOB 有 GTD/FCFS 线索）、Ringless（Solana 钱包隐私阅读器，今日公布 $RINGLESS CA、锁仓、DEX）；https://reboot7454.github.io/early-scout/",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-11 12:39",
+    "alpha-1-backup": "2026-11-11 11:19",
+    "smart-accounts-tracker": "2026-11-11 12:29",
+    "alpha-1": "2026-11-11 12:27"
+  },
+  "admissions": [
+    {
+      "id": "getblobs",
+      "handle": "@GetBlobs",
+      "category": "打新",
+      "name": "Blobs"
+    },
+    {
+      "id": "ringless",
+      "handle": "@ringless_",
+      "category": "台子/Meme",
+      "name": "Ringless"
+    }
+  ],
+  "dsRejects": 1,
+  "rejected": [
+    {
+      "handle": "@stray_fi",
+      "reason": "无代币、无发射/挖矿/mint 入口，仅 Hyperliquid 数据工具且 X 今日 0 粉单推，按宁缺毋滥拒。"
+    }
+  ],
+  "rejectedCount": 1,
+  "spideyPosting": true
+}
