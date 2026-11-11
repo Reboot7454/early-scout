@@ -121,7 +121,7 @@
 
 Jafar 是打新玩家：目标尽量不漏可操作机会，不是固定赛道覆盖率好看。
 
-每轮 X/精力硬顺序：① `meta.userFollowWatch` → ② 各必盯 Watch → ③ 关键词盲捞 → ④ Discord 仓内线索。**Grok 额度够，勿为省 Grok 砍 ③**；**禁止砍 ①**。
+每轮 X/精力硬顺序：① `meta.userFollowWatch` → ② 各必盯 Watch → ③ 薄栏独立关键词 → ④ 静号补漏（`silentCap`，不占 softCap，不依赖 Discord）→ ⑤ 核心栏关键词 → ⑥ 薄栏 mentions → ⑦ 其余 mentions → ⑧ Discord 仓内线索。**Grok 额度够，勿为省 Grok 砍 ③**；**禁止砍 ①**；**禁止用④换③**。静号细则见文末「2026-11-12 静号补漏」。
 
 ### X 节流规则（用户 2026-10-29 确认：「少开额外 X 查询」）
 
@@ -247,3 +247,23 @@ Pages source = main:/docs。每轮改完 data.json 后必须：
 - 薄栏 Watch 每轮全读；厚表（UF / agentPad / bnAgent / elysium / freeMint）分片，且不得与薄栏并成一次 `from:`。
 - tight（<200）仍保留薄栏独立 KW；仅 <50 才延后盲捞。
 - 额度够时不得远低于 `minSpend` 收工。RESULT 必写 `minSpend` + `laneReads`（每薄栏独立 KW 是否跑到），不得只用 `tenLanes=true` 交差。
+- 2026-11-12 起，薄栏 KW 之后多一步静号补漏（`silentCap`，不占这里的 softCap）。六条薄栏 KW 的配额不变，见文末。
+
+## 2026-11-12 静号补漏（Discord 无关）
+
+动机：@yumsdotfun（Yums，https://yums.fun）2026-11-08 建号，07:35 CST 仍是 0 帖，资料栏网站为空，bio 不含网址。推文关键词没看到官号。Discord 关注监控在 R1623 把它送上来；当时约 708 粉、站未开、无链上/发帖证据，**defer 是对的**。08:50 确认 yums.fun 已开之后，R1628 才收录。Discord 若挂掉，这条关注流就没了，所以雷达自己要有一条不读那个 guild 的发现路径。
+
+怎么跑（35 分钟例行，写进 `ROUTINE_PROMPT.txt`）：
+1. `python3 scripts/x_budget.py`。看 `silentCap`。它在 `alloc.silent`，**加总 softCap 时不要把 silent 算进去**（用 `allocMain`）。silentCap=0 就不打 X，RESULT 写 `silentAccounts.ran=false`，seen/sentToReview/admitted/skipped 都是 0。不要为了跑它去砍 UF 或六条薄栏 KW。
+2. `python3 scripts/silent_accounts.py plan`。只执行打印出来的调用，不要翻页，payload 放 `/tmp`，不要提交。
+3. `python3 scripts/silent_accounts.py filter ...`。`sentToReview` 交 deepseek-flash。`shell_deferred` 不送审。
+4. 真写入的新卡才把 `admitted` 加上。用 `silent_accounts.py result` 生成 RESULT 字段。新卡要有 `links.x`，普通新卡不要 `focus:true`。本脚本不改 `data.json`、不递增 `meta.round`。
+
+X 客户端实际能做什么（官方连接器里已有的工具，不是新接的 Discord）：
+- `search_users`（`GET /2/users/search`）按名字/用户名/bio 做相关度搜索，能返回 0 帖用户对象，包括资料栏 `url` 和 `public_metrics.tweet_count`。query 没有 `bio:`、`url:`、帖数、注册时间这些算子，字符集是 `[A-Za-z0-9_' ]`，最长 50。所以每轮只轮换一条产品词（打新/挖矿/台子/GO/LayerZero/Elysium/Tape/GIWA/DogeEVM/BTC/Starknet），避免静号槽又偏到 Elysium。
+- `search_posts_all` 的 `url:` 搜的是**帖子里的链接**，不是资料栏网站。`has:mentions` 用来接「别人点名了某个 @」。0 帖官号自己不会作为作者出现。
+- `get_users_by_usernames` 只用来解析上一轮 mention 排队的 handle，并且占的是 silentCap 的第二读，不是 softCap。
+- 没有 following 列表工具。不抓 Discord 来假装有。
+
+残留缺口（要写进 PR / 心里有数，不要假装补上了）：
+资料网站为空、bio 不含网址也不含当轮 query、也没有第三方帖子点过这个 @ 的 0 帖号，`search_users` 和推文搜索都看不见。@yumsdotfun 在 07:35 就是这样：即便 Discord 全挂，这一轮静号路径也**不会**把它送上来。08:50 站开了，但网址仍然不在资料栏、bio 里也没有，单靠「站已经活了」还是定位不到这个 handle。能补上的是：资料栏写了网站、或 bio 写了产品句、或有人在帖子里 @ 了它。0 帖 + 粉≥500 + 站未确认存活 + 无链上证据，继续 defer。
