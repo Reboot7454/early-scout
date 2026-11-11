@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-11 20:33 CST",
+    "updated": "2026-11-11 20:47 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-11 20:33 CST",
+    "lastScout": "2026-11-11 20:47 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -725,7 +725,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1666,
+    "round": 1667,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -802,7 +802,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 3978,
+    "candidateCount": 3989,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -2169,8 +2169,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "mythosbsc",
-      "supanova-app"
+      "morselaunchxyz"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4676,17 +4675,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-11 20:06",
-      "lastChecked": "2026-11-11 20:15 CST",
-      "newestCardTime": "2026-11-11 20:06",
-      "cardsAfterCutoff": 49,
-      "note": "R1665：Discord alpha 补收 minihao-cat,shitincinerator,bons-world,zoku-club,stirrupmarkets,lunetteapp,zerofun-xyz,noctenna；开跑 git pull 后仓库已是网页雷达 R1664（manifestmkts），本轮 DC=R1665，未覆盖 R1664；已清 R1664 newThisRound；DS 曾收 swamp-pit-ledger，因无官网仅 bio 按宁缺毋滥剔除；lastSeen→2026-11-11 20:06；lastChecked→2026-11-11 20:15 CST",
-      "lastRound": 1665,
+      "lastSeen": "2026-11-11 20:41",
+      "lastChecked": "2026-11-11 20:47 CST",
+      "newestCardTime": "2026-11-11 20:41",
+      "cardsAfterCutoff": 20,
+      "note": "R1667：Discord alpha 补收 morselaunchxyz；开跑 git pull 后仓库已是网页雷达 R1666（mythosbsc,supanova-app），本轮 DC=R1667，未覆盖 R1666；已清 R1666 newThisRound；DS 未收 kairoagent-rh（无官网、Coming soon、同名 $KAIRO 易混）、shiphood-xyz（官网本轮打不开、0 推文）；lastSeen→2026-11-11 20:41；lastChecked→2026-11-11 20:47 CST",
+      "lastRound": 1667,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-11 20:06",
-        "alpha-1-backup": "2026-11-11 20:04",
+        "alpha-3-new-accounts": "2026-11-11 20:36",
+        "alpha-1-backup": "2026-11-11 20:34",
         "smart-accounts-tracker": "2026-11-11 19:43",
-        "alpha-1": "2026-11-11 20:02"
+        "alpha-1": "2026-11-11 20:41"
       },
       "spideyPosting": true
     },
@@ -29854,9 +29853,62 @@
     "round1666Added": [
       "mythosbsc",
       "supanova-app"
+    ],
+    "round1667Added": [
+      "morselaunchxyz"
     ]
   },
   "candidates": [
+    {
+      "id": "morselaunchxyz",
+      "name": "Morse Launch",
+      "handle": "@morselaunchxyz",
+      "twitter": "@morselaunchxyz",
+      "chain": "BSC",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/morselaunchxyz",
+        "web": "https://morselaunch.xyz",
+        "github": "https://github.com/MorseLaunch/app",
+        "ca": "0x7a3741c829Ec2Aee3313f314b0eADB743e8E7777"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 8,
+        "novelty": 7,
+        "actionable": 8,
+        "overall": 7.0
+      },
+      "highlights": [
+        "MIT 开源、零平台费：一笔交易部署固定供给代币并在 Uniswap v4 开池，流动性锁死不可提取",
+        "官网 /api/health 显示 Base/Robinhood/Arc/BSC/Elysium 五链 indexer 均在同步",
+        "factory 0x8155…Ade72 / locker 0xcd16…842a（Base/RH/Arc），BSC factory 0xE69B…9a0e / locker 0x2568…1d87",
+        "官方 $MORSE CA 0x7a37…7777 于 2026-11-11 19:09 CST 在 BSC Flap.sh 建对，本轮核验约 FDV $14.3k、流动性 $16.3k、24h 量 $65.8k"
+      ],
+      "drawbacks": [
+        "自有代币已开盘且为极小盘，价格波动与砸盘风险高，未核验是否已从 Flap 曲线毕业",
+        "原 X 账号曾出现异常并迁移到新号，存在仿盘/同名代币混淆风险",
+        "自称 Elysium 部署但本轮无法核验官方生态页，团队匿名"
+      ],
+      "whatsNew": "今日上线开源零费发射台并同步自有 $MORSE 在 BSC Flap.sh 开盘。",
+      "summary": "Morse Launch 是今日出现的 MIT 开源零平台费发射台，一笔交易部署代币并在 Uniswap v4 锁流动性开池，五链 indexer 同步；自有 $MORSE 已在 BSC Flap.sh 开盘，本轮核验约 FDV $1.43 万/流动性 $1.63 万，属发射台本身极早期但已开盘需警惕小盘风险，Elysium 部署未核验故不进 Elysium 栏。",
+      "blurb": "开源零费、Uni v4 锁流动性的多链发射台，自有代币刚开盘。",
+      "round": 1667,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 13,
+      "xFollowers": 13,
+      "firstSeen": "2026-11-11 20:47 CST",
+      "addedAt": "2026-11-11 20:47 CST",
+      "lastChecked": "2026-11-11 20:47 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "noctenna",
       "name": "Noctenna",
@@ -269105,7 +269157,7 @@
       "addedAt": "2026-11-11 20:33 CST",
       "lastChecked": "2026-11-11 20:33 CST",
       "zoneHint": "打新",
-      "newThisRound": true,
+      "newThisRound": false,
       "schedule": {
         "status": "confirmed",
         "timezone": "Asia/Shanghai",
@@ -269174,7 +269226,7 @@
       "addedAt": "2026-11-11 20:33 CST",
       "lastChecked": "2026-11-11 20:33 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "schedule": {
         "status": "watching",
         "timezone": "Asia/Shanghai",
@@ -269188,20 +269240,19 @@
     }
   ],
   "newThisRound": [
-    "mythosbsc",
-    "supanova-app"
+    "morselaunchxyz"
   ],
-  "alertMessage": "20:33 面板 https://reboot7454.github.io/early-scout/ ：Archer $ARW 白名单 IDO 已开（$0.045）；GEM 20:24 已加创世池，官宣 20:30 开第一纪元挖矿（CA 0xBEB8833c5a5290678e67Af65a4c12f9402bA404F）；Pengu 付费仍 LIVE（920/11,000，0.002 BNB）；Blooms/ECHO 免费档与 AMPHIGENTS 仍 LIVE；GHOSTCAT 约 21:00 仍属 KOL 转述、CA 未出；22:00 有 Koma、Hippocamp $HIPPO、MIMORA、TheWurms、Agent Life 与新收录 MYTHOS（BNB 3333 卡，首张 0.0001 BNB）；另收 Canton 台子 @supanova_app。",
+  "alertMessage": "",
   "roundNAdded": [
     "manifestmkts"
   ],
-  "updatedAt": "2026-11-11 20:33 CST",
-  "updated": "2026-11-11 20:33 CST",
+  "updatedAt": "2026-11-11 20:47 CST",
+  "updated": "2026-11-11 20:47 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-11 20:33 CST",
+  "lastScout": "2026-11-11 20:47 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -269243,7 +269294,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3988,
+  "candidateCount": 3989,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -272697,5 +272748,8 @@
   "round1666Added": [
     "mythosbsc",
     "supanova-app"
+  ],
+  "round1667Added": [
+    "morselaunchxyz"
   ]
 }

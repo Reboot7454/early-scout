@@ -1,0 +1,86 @@
+{
+  "round": 1667,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-11 20:47 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏 R1667 新收录 1 项：Morse Launch（@morselaunchxyz，官网 morselaunch.xyz）是 MIT 开源的零平台费发射台，用一笔交易即可部署代币并在 Uniswap v4 锁定流动性开池；官方 $MORSE（CA 0x7a37…7777）已于 2026-11-11 约 19:09 CST 在 BSC Flap.sh 开盘，本轮约 FDV $14.3k / 流动性 $16.3k，未核验是否毕业，属极小盘高风险，非 Elysium 栏项目。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "morselaunchxyz"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "morselaunchxyz"
+  ],
+  "skipped": [
+    {
+      "id": "kairoagent-rh",
+      "handle": "@kairoagent_rh",
+      "reason": "ds_reject",
+      "detail": "账号今日新建仅 2 粉、无官网（kairoagent.com 仅空目录），产品仅\"Coming soon\"纸面交易概念，官方明确尚无合约且与多个同名 $KAIRO 混淆，无任何可核验产品线索。"
+    },
+    {
+      "id": "shiphood-xyz",
+      "handle": "@Shiphood_xyz",
+      "reason": "ds_reject",
+      "detail": "0 推文、1 粉丝，官网 shiphood.xyz 本轮 500/503/TLS 失败无法打开，仅有 bio 一句 Robinhood Chain 建站概念，无任何可核验产品。"
+    }
+  ],
+  "cardsAfterLastSeen": 20,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "mythosbsc",
+    "supanova-app"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "mythosbsc",
+    "supanova-app"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=1 calls=2 prompt=3580 completion=2689",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-11 20:41",
+    "lastChecked": "2026-11-11 20:47 CST",
+    "newestCardTime": "2026-11-11 20:41",
+    "cardsAfterCutoff": 20,
+    "note": "R1667：Discord alpha 补收 morselaunchxyz；开跑 git pull 后仓库已是网页雷达 R1666（mythosbsc,supanova-app），本轮 DC=R1667，未覆盖 R1666；已清 R1666 newThisRound；DS 未收 kairoagent-rh（无官网、Coming soon、同名 $KAIRO 易混）、shiphood-xyz（官网本轮打不开、0 推文）；lastSeen→2026-11-11 20:41；lastChecked→2026-11-11 20:47 CST",
+    "lastRound": 1667,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-11 20:36",
+      "alpha-1-backup": "2026-11-11 20:34",
+      "smart-accounts-tracker": "2026-11-11 19:43",
+      "alpha-1": "2026-11-11 20:41"
+    },
+    "spideyPosting": true
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1667：Discord alpha 补收 morselaunchxyz；开跑 git pull 后仓库已是网页雷达 R1666（mythosbsc,supanova-app），本轮 DC=R1667，未覆盖 R1666；已清 R1666 newThisRound；DS 未收 kairoagent-rh（无官网、Coming soon、同名 $KAIRO 易混）、shiphood-xyz（官网本轮打不开、0 推文）；lastSeen→2026-11-11 20:41；lastChecked→2026-11-11 20:47 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1667.json",
+  "priorRoundNote": "R1666 web radar admit mythosbsc,supanova-app; cardsAfterCutoff=20 uniqueHandles=16 already=3 prereject=10 keep=3 dsAdmits=1 dropped=kairoagent-rh,shiphood-xyz final=1",
+  "alert": "DC补漏 R1667 新收录 1 项：Morse Launch（@morselaunchxyz，官网 morselaunch.xyz）是 MIT 开源的零平台费发射台，用一笔交易即可部署代币并在 Uniswap v4 锁定流动性开池；官方 $MORSE（CA 0x7a37…7777）已于 2026-11-11 约 19:09 CST 在 BSC Flap.sh 开盘，本轮约 FDV $14.3k / 流动性 $16.3k，未核验是否毕业，属极小盘高风险，非 Elysium 栏项目。面板：https://reboot7454.github.io/early-scout/",
+  "cardsAfterCutoff": 20,
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-11 20:36",
+    "alpha-1-backup": "2026-11-11 20:34",
+    "smart-accounts-tracker": "2026-11-11 19:43",
+    "alpha-1": "2026-11-11 20:41"
+  },
+  "admissions": [
+    {
+      "id": "morselaunchxyz",
+      "handle": "@morselaunchxyz",
+      "category": "台子/Meme",
+      "name": "Morse Launch"
+    }
+  ]
+}
