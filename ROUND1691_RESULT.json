@@ -1,0 +1,103 @@
+{
+  "round": 1691,
+  "completedAt": "2026-11-12 07:42:27 CST",
+  "notify": true,
+  "notifyReason": "本轮有新收录 spirit-bomb（含已核验 CA）与工具类 misthra，按规则 notify 强制为 true，需即时推送。",
+  "docsSynced": true,
+  "pushSha": "PENDING",
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "spirit-bomb",
+    "misthra"
+  ],
+  "le2h": [
+    "open-ember",
+    "group-1st",
+    "hood-junkies"
+  ],
+  "alertMessage": "🔔 早期打新雷达 R1691（11-12 07:40 CST）｜新收录 Spirit Bomb（$BOMB，@spiritbombelys）：Elysium 已核验 CA 0xeefe…c6a6，EIP-1167，实现合约与 OpenEmber 相同，官网称 live on Montra；开盘时刻不明，暂不标 2h 窗。另收录 Misthra（@misthraxyz），为 Elysium 费用路由工具，仅 announced、无 CA，尚未上线代币。仍开窗：OpenEmber 至约 08:38、group-1st 至约 08:00、hood Addicts 至约 08:11、Public 2h 窗至约 11:11。详情 https://reboot7454.github.io/early-scout/",
+  "summary": "R1691 新收录 Spirit Bomb（Elysium 已核验 CA，开盘时刻不明不标 2h）与费用路由工具 Misthra（无 CA）；OpenEmber、group-1st、hood Addicts、Public 仍开，elyborn 与 mosaic 已关。",
+  "xReads": 28,
+  "remainingBefore": 333,
+  "remaining": 305,
+  "mode": "pace",
+  "softCap": 28,
+  "minSpend": 18,
+  "ufCursor": 10,
+  "ufCursorBefore": 1481,
+  "laneReads": {
+    "LayerZero": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "silentAccounts": {
+    "ran": true,
+    "seen": 11,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 11,
+    "lane": "DogeEVM",
+    "index": 8,
+    "userQuery": "DogeEVM",
+    "search_users_unavailable": true
+  },
+  "candidateCount": 4056,
+  "tenLanes": true,
+  "kwCoreRan": [
+    "打新",
+    "Elysium",
+    "台子/Meme"
+  ],
+  "kwCoreDeferred": [
+    "挖矿",
+    "GO盘"
+  ],
+  "mentionsThin": [
+    "@ZeroVaultxyz/@TapeOutWorld",
+    "@YeonPad/@LaikaSuperApp",
+    "@banknotes_btc/@Starknet"
+  ],
+  "mentionsRest": [
+    "@fulldotfun",
+    "@PulseLaunchpad"
+  ],
+  "fatShards": {
+    "agentPad": [
+      331,
+      356
+    ],
+    "freeMint": [
+      70,
+      95
+    ],
+    "bnAgent": [
+      244,
+      269
+    ],
+    "elysium": [
+      160,
+      185
+    ]
+  },
+  "softDebtRefreshed": [
+    "glazeWatch",
+    "cantonPadWatch",
+    "cantonWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch",
+    "flapPadWatch"
+  ],
+  "dsNote": "deepseek-flash thinking-on：主调用完成 admit+卡面文案（输出中途被截断，已修复 updates 尾部并用第二次调用补 alert/summary）。Spirit Bomb CA 由本轮 Elysium 99901 RPC（User-Agent 必需）核验后写入；与 OpenEmber 同一 EIP-1167 实现，开盘时刻不明故不设 2h 窗。Misthra 按 announced 收录，无 CA。@usepariapp 仅交互 demo、无链上证据，skip。未用高成本模型，dsFallback=false。",
+  "windows": {
+    "open-ember": true,
+    "group-1st": true,
+    "hood-junkies": true,
+    "elyborn": false,
+    "mosaic-elysium": false
+  }
+}
