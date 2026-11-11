@@ -337,9 +337,13 @@
   },
   "summary": "R1674 2026-11-11 23:01 CST：网页雷达（原计划编号 R1673；22:48 CST Discord peek 已占用 R1673 并推 16a34a4，本轮改为 R1674 以免覆盖）。新收 giwahook、pritoppad、wickoptdesk、nove-elysium、crunchy-pizzas、zerovaultxyz、agarthascend。Broccoli 23:00 CST 链上已开铸（mintOpen=1、mintPhase=1、paidMinted=41、totalMinted=41，blk 132988533）。Pengu 921/11000 无变化，Elybirds 仍 311/7777，Blooms 151/3333。ECHO 战队榜、Koma 推荐机制、TheWurms GTD、Mimora Hooden 仍 LIVE。UF 746→796，xReads=23 remaining 833→810 mode=ample softCap=40 minSpend=20。薄栏 6 条独立 KW 均已跑。R1673 Discord 10 卡保留。discordPeekDeferred=false。",
   "panel": "https://reboot7454.github.io/early-scout/",
-  "priorRoundNote": "R1673 was a 22:48 CST Discord alpha peek (10 admits kept). This scheduled web radar is published as R1674."
+  "priorRoundNote": "R1673 was a 22:48 CST Discord alpha peek (10 admits kept). This scheduled web radar is published as R1674.",
+  "pushSha": "a688b35",
+  "pushShaFull": "a688b353c1732a30cb50e9f0b25dd371a4bc4c94",
+  "remoteVerified": true,
+  "pushVerifiedAt": "2026-11-11 23:02 CST"
 }
 ```
 
-docs panel synced via scripts/sync_docs_panel.sh (slim docs/data.json). Push sha will be filled after git push.
+docs panel synced via scripts/sync_docs_panel.sh. Push verified origin/main a688b35 (a688b353c1732a30cb50e9f0b25dd371a4bc4c94) at 2026-11-11 23:02 CST.
 Note: originally tasked as R1673; remapped after remote Discord peek took R1673.
