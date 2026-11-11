@@ -1,0 +1,114 @@
+{
+  "round": 1663,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-11 19:30 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏 R1663 新收录 3 项：UnicornX（Robinhood Chain AI 公司盘，官网已开、CA 待公布）；Barry（Canton 救援犬 meme，点名 OnePump 即将发射，CA 未出）；Skybot Mint（多钱包多链 NFT 铸造台，官网/开源/TG bot 可用，无代币）。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "unicornxdotfun",
+    "barryoncanton",
+    "skybotmint"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "unicornxdotfun",
+    "barryoncanton",
+    "skybotmint"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 46,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "echofun",
+    "agentpepebnb",
+    "elymons"
+  ],
+  "candidateFlagsCleared": 3,
+  "topNewThisRoundCleared": [
+    "echofun",
+    "agentpepebnb",
+    "elymons"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=3",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-11 19:19",
+    "lastChecked": "2026-11-11 19:30 CST",
+    "newestCardTime": "2026-11-11 19:19",
+    "cardsAfterCutoff": 46,
+    "note": "R1663：Discord alpha 补收 unicornxdotfun,barryoncanton,skybotmint；开跑 git pull 后仓库已是网页雷达 R1662（echofun / agentpepebnb / elymons），本轮 DC=R1663，未覆盖 R1662；已清 R1662 newThisRound；lastSeen→2026-11-11 19:19；lastChecked→2026-11-11 19:30 CST",
+    "lastRound": 1663,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-11 19:19",
+      "alpha-1-backup": "2026-11-11 19:19",
+      "smart-accounts-tracker": "2026-11-11 18:45",
+      "alpha-1": "2026-11-11 19:19"
+    },
+    "spideyPosting": true
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1663：Discord alpha 补收 unicornxdotfun,barryoncanton,skybotmint；开跑 git pull 后仓库已是网页雷达 R1662（echofun / agentpepebnb / elymons），本轮 DC=R1663，未覆盖 R1662；已清 R1662 newThisRound；lastSeen→2026-11-11 19:19；lastChecked→2026-11-11 19:30 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1662.json",
+  "priorRoundNote": "R1662 web radar admit echofun agentpepebnb elymons; cardsAfterCutoff=46 uniqueHandles=37 already=2 prereject=32 keep=3",
+  "alert": "DC补漏 R1663 新收录 3 项：UnicornX（Robinhood Chain AI 公司盘，官网已开、CA 待公布）；Barry（Canton 救援犬 meme，点名 OnePump 即将发射，CA 未出）；Skybot Mint（多钱包多链 NFT 铸造台，官网/开源/TG bot 可用，无代币）。面板：https://reboot7454.github.io/early-scout/",
+  "cardsAfterCutoff": 46,
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-11 19:19",
+    "alpha-1-backup": "2026-11-11 19:19",
+    "smart-accounts-tracker": "2026-11-11 18:45",
+    "alpha-1": "2026-11-11 19:19"
+  },
+  "admissions": [
+    {
+      "id": "unicornxdotfun",
+      "handle": "@Unicornxdotfun",
+      "category": "台子/Meme",
+      "name": "UnicornX"
+    },
+    {
+      "id": "barryoncanton",
+      "handle": "@BarryOnCanton",
+      "category": "台子/Meme",
+      "name": "Barry"
+    },
+    {
+      "id": "skybotmint",
+      "handle": "@SkybotMint",
+      "category": "台子/Meme",
+      "name": "Skybot Mint"
+    }
+  ],
+  "rejectedCount": 32,
+  "alreadyCount": 2,
+  "spideyPosting": true,
+  "newestByChannel": {
+    "alpha-3-new-accounts": "2026-11-11 19:19",
+    "alpha-1-backup": "2026-11-11 19:19",
+    "smart-accounts-tracker": "2026-11-11 18:45",
+    "alpha-1": "2026-11-11 19:19"
+  },
+  "xReads": 5,
+  "dsAlertUsage": {
+    "prompt_tokens": 657,
+    "completion_tokens": 293,
+    "total_tokens": 950,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 188
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 657
+  }
+}

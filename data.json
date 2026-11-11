@@ -1,23 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": [
-      "penguagent1",
-      "elysianblooms",
-      "archerswap-elysium",
-      "baoshi-gem",
-      "heyghostcat",
-      "amphigents",
-      "broccoli-agent",
-      "gatecerberus",
-      "mimoranft",
-      "the-wurms",
-      "playhippocamp"
-    ],
+    "updated": "2026-11-11 19:30 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-11 19:22 CST",
+    "lastScout": "2026-11-11 19:30 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -737,7 +725,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1662,
+    "round": 1663,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -814,7 +802,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 3971,
+    "candidateCount": 3977,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -2178,9 +2166,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "echofun",
-      "agentpepebnb",
-      "elymons"
+      "unicornxdotfun",
+      "barryoncanton",
+      "skybotmint"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4686,17 +4674,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-11 18:45",
-      "lastChecked": "2026-11-11 18:51 CST",
-      "newestCardTime": "2026-11-11 18:45",
-      "cardsAfterCutoff": 36,
-      "note": "R1661：Discord alpha 补收 owlsightfun,optiohost；开跑 git pull 后仓库已是网页雷达 R1660（gatecerberus / ciphersaints），本轮 DC=R1661，未覆盖 R1660；已清 R1660 newThisRound；lastSeen→2026-11-11 18:45；lastChecked→2026-11-11 18:51 CST",
-      "lastRound": 1661,
+      "lastSeen": "2026-11-11 19:19",
+      "lastChecked": "2026-11-11 19:30 CST",
+      "newestCardTime": "2026-11-11 19:19",
+      "cardsAfterCutoff": 46,
+      "note": "R1663：Discord alpha 补收 unicornxdotfun,barryoncanton,skybotmint；开跑 git pull 后仓库已是网页雷达 R1662（echofun / agentpepebnb / elymons），本轮 DC=R1663，未覆盖 R1662；已清 R1662 newThisRound；lastSeen→2026-11-11 19:19；lastChecked→2026-11-11 19:30 CST",
+      "lastRound": 1663,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-11 18:42",
-        "alpha-1-backup": "2026-11-11 18:34",
+        "alpha-3-new-accounts": "2026-11-11 19:19",
+        "alpha-1-backup": "2026-11-11 19:19",
         "smart-accounts-tracker": "2026-11-11 18:45",
-        "alpha-1": "2026-11-11 18:33"
+        "alpha-1": "2026-11-11 19:19"
       },
       "spideyPosting": true
     },
@@ -29768,9 +29756,162 @@
       "owlsightfun",
       "optiohost",
       "mimoranft"
+    ],
+    "round1663Added": [
+      "unicornxdotfun",
+      "barryoncanton",
+      "skybotmint"
     ]
   },
   "candidates": [
+    {
+      "id": "skybotmint",
+      "name": "Skybot Mint",
+      "handle": "@skybotmint",
+      "twitter": "@skybotmint",
+      "chain": "多链",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/SkybotMint",
+        "web": "https://skybotmint.web.id/",
+        "github": "https://github.com/Skyzee2704/skybot-mint",
+        "telegram": "https://t.me/SkymintsBOT"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 7,
+        "overall": 6.6
+      },
+      "highlights": [
+        "官网 skybotmint.web.id 可打开，多钱包 NFT 铸造台",
+        "可从 OpenSea 链接或合约解析 SeaDrop 与通用 ABI，先查 allowlist/余额并模拟 gas 再批量铸造",
+        "自称支持 10 条链、Privy 托管不存私钥，AGPL-3.0",
+        "GitHub 仓库存在且标题与官网描述一致",
+        "Telegram 机器人 t.me/SkymintsBOT 可直达"
+      ],
+      "drawbacks": [
+        "无项目代币，也无铸造自身 NFT 的日程",
+        "密钥与 Privy 会话签名风险未独立审计",
+        "具体十条链名单以官网为准，本轮未逐链核验",
+        "粉丝少（约 12 粉）"
+      ],
+      "whatsNew": "官网与开源仓库已上线，官方推文称 SkyBot Mint 现已支持 10 条链。",
+      "summary": "多钱包批量 NFT 铸造工具，已有可打开官网、Telegram 机器人与 AGPL 开源仓库，支持多链与 allowlist/gas 预检，但无代币、安全性未审计。",
+      "blurb": "多钱包多链 NFT 铸造台，官网＋开源＋TG bot 已可用，无代币。",
+      "round": 1663,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 12,
+      "xFollowers": 12,
+      "firstSeen": "2026-11-11 19:30 CST",
+      "addedAt": "2026-11-11 19:30 CST",
+      "lastChecked": "2026-11-11 19:30 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "barryoncanton",
+      "name": "Barry",
+      "handle": "@barryoncanton",
+      "twitter": "@barryoncanton",
+      "chain": "Canton",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/BarryOnCanton"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 3,
+        "overall": 5.4
+      },
+      "highlights": [
+        "官方推文明确「COMING SOON TO @onepumpcc」，已点名 Canton 发射台",
+        "圣伯纳救援犬 Barry 转生 Canton 的社区 fair launch 叙事",
+        "建号约一天已发 31 推，更新较勤"
+      ],
+      "drawbacks": [
+        "无官网、无 CA、无开盘时刻",
+        "与 Barry Foundation 分成捐赠仅为项目自称，本轮未独立核验",
+        "粉丝量仍小（约 66 粉），除点名发射台外无更多玩法细节"
+      ],
+      "whatsNew": "新号，bio 写 Canton 上社区 fair launch，官方推文点名 OnePump 即将发射。",
+      "summary": "Canton 链上的救援犬主题 fair launch meme，已点名 OnePump 发射台但代币尚未上线，无官网与 CA。",
+      "blurb": "Canton 救援犬 meme，点名 OnePump 即将发射，CA 未出。",
+      "round": 1663,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 68,
+      "xFollowers": 68,
+      "firstSeen": "2026-11-11 19:30 CST",
+      "addedAt": "2026-11-11 19:30 CST",
+      "lastChecked": "2026-11-11 19:30 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "unicornxdotfun",
+      "name": "UnicornX",
+      "handle": "@unicornxdotfun",
+      "twitter": "@unicornxdotfun",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Unicornxdotfun",
+        "web": "https://unicornxyz.fun/"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 4,
+        "overall": 6.2
+      },
+      "highlights": [
+        "官网 unicornxyz.fun 可打开，明确写 Robinhood Chain",
+        "四名自主 agent（ADAM/VLAD/ROBIN/INDIGO）运营的 AI-native 公司叙事",
+        "代币交易费进入公开金库再资助产品",
+        "站内发射面板已列出 CONTRACT / CA COMING SOON"
+      ],
+      "drawbacks": [
+        "CA 与金库钱包均未公布，官方称核验后才发布",
+        "无开盘时刻",
+        "vlad.unicornco.fun / robin.unicornco.fun 本轮 TLS 失败或 500，产品未独立核验",
+        "代币效用绑定仍停留在规划层",
+        "粉丝极少（本轮约 2 粉）"
+      ],
+      "whatsNew": "新建号，官网与发射面板已上线，官方推文串称 UNICORNX goes live、CA 将在核验后公布。",
+      "summary": "Robinhood Chain 上的 AI-native meme 发射项目，四 agent 叙事加交易费入公开金库，官网与发射面板已就位，但 CA、开盘时刻与子域产品均未核验。",
+      "blurb": "Robinhood Chain 上的四 agent AI 公司盘，官网已开、CA 待公布。",
+      "round": 1663,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 4,
+      "xFollowers": 4,
+      "firstSeen": "2026-11-11 19:30 CST",
+      "addedAt": "2026-11-11 19:30 CST",
+      "lastChecked": "2026-11-11 19:30 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "optiohost",
       "name": "Optio",
@@ -268183,7 +268324,7 @@
       "addedAt": "2026-11-11 19:22 CST",
       "lastChecked": "2026-11-11 19:22 CST",
       "zoneHint": "打新",
-      "newThisRound": true,
+      "newThisRound": false,
       "schedule": {
         "status": "LIVE",
         "timezone": "Asia/Shanghai",
@@ -268249,7 +268390,7 @@
       "addedAt": "2026-11-11 19:22 CST",
       "lastChecked": "2026-11-11 19:22 CST",
       "zoneHint": "打新",
-      "newThisRound": true,
+      "newThisRound": false,
       "schedule": {
         "status": "LIVE",
         "timezone": "Asia/Shanghai",
@@ -268310,7 +268451,7 @@
       "addedAt": "2026-11-11 19:22 CST",
       "lastChecked": "2026-11-11 19:22 CST",
       "zoneHint": "打新",
-      "newThisRound": true,
+      "newThisRound": false,
       "schedule": {
         "status": "watching",
         "timezone": "Asia/Shanghai",
@@ -268323,22 +268464,22 @@
     }
   ],
   "newThisRound": [
-    "echofun",
-    "agentpepebnb",
-    "elymons"
+    "unicornxdotfun",
+    "barryoncanton",
+    "skybotmint"
   ],
-  "alertMessage": "Pengu 免费500已罄、付费0.002 BNB仍开；Elysian Blooms免费档仍LIVE；AMPHIGENTS免费LIVE(CA已公示,需AI agent)；Archer $ARW白名单≈20:04；GEM 20:25/20:30(CA未公布)；GHOSTCAT走OpenLaunch/官方称Base≈21:00(时刻为KOL转述,待CA)；22:00 Koma/TheWurms/Hippocamp $HIPPO/MIMORA Hooden；23:00 Broccoli(CA已开源验证)。面板：https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏 R1663 新收录 3 项：UnicornX（Robinhood Chain AI 公司盘，官网已开、CA 待公布）；Barry（Canton 救援犬 meme，点名 OnePump 即将发射，CA 未出）；Skybot Mint（多钱包多链 NFT 铸造台，官网/开源/TG bot 可用，无代币）。面板：https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "gatecerberus",
     "ciphersaints"
   ],
-  "updatedAt": "2026-11-11 19:22 CST",
-  "updated": "2026-11-11 19:22 CST",
+  "updatedAt": "2026-11-11 19:30 CST",
+  "updated": "2026-11-11 19:30 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-11 19:22 CST",
+  "lastScout": "2026-11-11 19:30 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -268380,7 +268521,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 3974,
+  "candidateCount": 3977,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -271782,5 +271923,10 @@
     "echofun",
     "agentpepebnb",
     "elymons"
+  ],
+  "round1663Added": [
+    "unicornxdotfun",
+    "barryoncanton",
+    "skybotmint"
   ]
 }
