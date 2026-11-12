@@ -68,7 +68,7 @@ discordPeekDeferred=true（本机未登录 Discord，Peek 跳过）
 - skipped: 19（无新官号入库；未伪造用户搜索）
 
 ## 本轮结论
-R1735 ample。新收录 6 张：Ape City 今日免费 mint 日期已公布但精确开铸未核；Marg 是今早新建的 TON 发射台（官网仅 SPA）；Arenix 为 Solana 密封发射台已 live；Aqueduct / UMLA 已写入 Elysium 栏（前者有 CA、零粉无审计）；ERN 按官网记为 Robinhood Chain 执行路由，代币在 Kinetiq/Elysium 配对不算产品已部署，未进 Elysium 栏。OUTY 的 Binance Agent ID 免费铸造已 LIVE，因无官推未建卡，仅在 alert 点名。hood-terminals 付费公售 514/777，boatn-fish 517/2222，均非 ≤2h。补进 hoodrockers 的 Watch 漏挂。candidateCount 4082→4088。新卡均 focus=false，均已进 Watch。未自动 mint。docs/data.json 已同步。notify=true。pushSha=TBA。
+R1735 ample。新收录 6 张：Ape City 今日免费 mint 日期已公布但精确开铸未核；Marg 是今早新建的 TON 发射台（官网仅 SPA）；Arenix 为 Solana 密封发射台已 live；Aqueduct / UMLA 已写入 Elysium 栏（前者有 CA、零粉无审计）；ERN 按官网记为 Robinhood Chain 执行路由，代币在 Kinetiq/Elysium 配对不算产品已部署，未进 Elysium 栏。OUTY 的 Binance Agent ID 免费铸造已 LIVE，因无官推未建卡，仅在 alert 点名。hood-terminals 付费公售 514/777，boatn-fish 517/2222，均非 ≤2h。补进 hoodrockers 的 Watch 漏挂。candidateCount 4082→4088。新卡均 focus=false，均已进 Watch。未自动 mint。docs/data.json 已同步。notify=true。pushSha=689764d。
 
 ## dsNote
 deepseek-flash thinking-on。第一次调用（max_tokens=9000）因思考占用在 aqueduct 卡中途截断；salvage 了 ape-city/marg/arenix 后，第二次调用（max_tokens=12000）完整返回 aqueduct/umla/ern、七条 updates、alert 与 summary。入库时把 links.post 校正为 announcement，twitter 统一为 https://x.com/…，schedule 保持对象；ERN 的 category 由模型给的「挖矿」改为「台子/Meme」（官网是执行路由）。分数均为 100 分制。未走 dsFallback。未编造 CA 或官号。OUTY 未建卡。
@@ -77,4 +77,4 @@ deepseek-flash thinking-on。第一次调用（max_tokens=9000）因思考占用
 🔔 R1735：新收 Ape City（@Ape_CityRH，Robinhood 555 免费 mint，今日日期已公布、精确开铸未核）、Marg（@Marg_lol，TON DEX/发射台，今早新号 0 粉，官网仅 SPA 壳）、Arenix（@useArenix，Solana 发射台竞技场已 live）、Aqueduct（@aqueductfun，Elysium 发射台，$ARQA 已 live，0 粉未见审计）、UMLA（@UMLADEV，Elysium 成员制项目已官宣上线）、ERN（@ernapp，Robinhood Chain 执行路由，代币在 Kinetiq 上线并与 HYPE 配对，产品未按已部署 Elysium 计）。另发现 OUTY（https://outy.pages.dev/）BNB Agent ID 免费铸造已 LIVE（11-13 03:03 CST 起至 11-14 03:03 CST 或 1500 名额，0.0001 BNB/张），官网未见官推，按规则未建卡。hood-terminals 付费公售仍 LIVE，OS 514/777、floor 0.0012698 ETH；boatn-fish 付费 Genesis 517/2222、现价约 0.01803 SOL。全部 le2h=false。面板：https://reboot7454.github.io/early-scout/
 
 ## 推送
-pushSha=TBA。面板应随 GitHub Pages 刷新。
+pushSha=689764d（689764de0d4c3d55a8625480311d1f98b07e7a7e） origin/main。面板应随 GitHub Pages 刷新。
