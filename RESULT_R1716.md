@@ -12,8 +12,8 @@
 - lastFullAfterReset: R1692
 - userOrderedFull: R1715
 - panel: https://reboot7454.github.io/early-scout/
-- pushSha: pending
-- pushPending: true
+- pushSha: bcd2aee (bcd2aee463280a088f0ffdab491e4f5c7b5890a7)
+- pushPending: false
 
 ## 新收录
 - 无。meta.newThisRound=[]。candidateCount=4063。
