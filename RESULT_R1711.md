@@ -11,8 +11,8 @@
 - discordPeekDeferred: true
 - lastFullAfterReset: R1692
 - panel: https://reboot7454.github.io/early-scout/
-- pushSha: PENDING
-- pushPending: true
+- pushSha: 1f1ade5
+- pushPending: false
 
 ## xQuota
 - xReads: 18
