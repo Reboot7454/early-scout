@@ -1,0 +1,118 @@
+{
+  "round": 1692,
+  "completedAt": "2026-11-12 08:11:30 CST",
+  "notify": true,
+  "notifyReason": "真新收录 Wickpad（官宣 $WICK live、官网与 CA 一致），且完成时仍有 ≤2h 窗（Wickpad、OpenEmber、hood-junkies Public）。",
+  "docsSynced": true,
+  "pushSha": "PENDING",
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "wickpad"
+  ],
+  "le2h": [
+    "wickpad",
+    "open-ember",
+    "hood-junkies"
+  ],
+  "alertMessage": "【R1692】新收录 Wickpad（@wickpad）：Solana pump.fun 台子，$WICK 已于 07:47 CST 官宣 live，官网与 CA 一致，约 09:47 CST 前 2h 窗仍开。OpenEmber 窗约 08:38（完成时仍在，若此后已过则算已关）；hood-junkies Public 窗至约 11:11 仍开；group-1st 08:00 窗已关；Addicts 08:11 窗已过。面板：https://reboot7454.github.io/early-scout/",
+  "summary": "本轮全量补扫仅新增 Wickpad 一张卡：Solana pump.fun 台子，$WICK 刚 live，账号与站点均为同日新建，风险高但时效强，已标 2h 窗。其余候选证据不足或为垃圾号已 skip，库内 13 张卡按规则刷新窗口与 le2h，group-1st 窗已关。",
+  "xReads": 38,
+  "remainingBefore": 987,
+  "remaining": 948,
+  "mode": "post-reset-full",
+  "softCap": 50,
+  "minSpend": 24,
+  "ufCursor": 113,
+  "ufCursorBefore": 10,
+  "laneReads": {
+    "LayerZero": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "silentAccounts": {
+    "ran": true,
+    "seen": 28,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 28,
+    "lane": "BTC",
+    "index": 9,
+    "userQuery": "Ordinals mint",
+    "search_users_unavailable": true,
+    "deferredHandles": [
+      "Stacks",
+      "MrEdogtagnft",
+      "frogpoleon",
+      "Shahiniram",
+      "housebets",
+      "awenwenfeng",
+      "juga_btc",
+      "ShieldedNakaCN",
+      "zksnarks_",
+      "JoeOrdinals"
+    ]
+  },
+  "candidateCount": 4057,
+  "tenLanes": true,
+  "kwCoreRan": [
+    "挖矿",
+    "GO盘",
+    "打新",
+    "台子/Meme",
+    "Elysium"
+  ],
+  "kwCoreDeferred": [],
+  "mentionsThin": [
+    "@PlunderPort/@TapeAIAgent",
+    "@GIWA_by_Upbit/@DogeOS",
+    "@ShieldedNaka/@Bramble_fi",
+    "@ZeroVaultxyz/@YeonPad"
+  ],
+  "mentionsRest": [
+    "@AscendLaunch/@eloscapeHQ",
+    "@flapdotsh/@irys_xyz"
+  ],
+  "fatShards": {
+    "agentPad": [
+      356,
+      396
+    ],
+    "freeMint": [
+      95,
+      135
+    ],
+    "bnAgent": [
+      269,
+      309
+    ],
+    "elysium": [
+      185,
+      225
+    ]
+  },
+  "softDebtRefreshed": [
+    "glazeWatch",
+    "cantonPadWatch",
+    "cantonWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch",
+    "flapPadWatch"
+  ],
+  "watchAdds": [
+    "@wickpad -> userFollowWatch.accounts",
+    "wickpad -> userFollowWatch.candidateIds"
+  ],
+  "lastFullAfterReset": "R1692",
+  "dsNote": "deepseek-flash thinking-on：主调用一次完成 admit+卡面文案+alert/summary，JSON 完整可解析。Wickpad 官网 wickpad.xyz HTTP 200，站点与 07:47:37 CST 官帖给出同一 pump.fun CA 2rRd6Bw9JPPaLyrxdgoGwbP71nVi3vf71dghYGWvpump，按 live 收录并设窗至约 09:47 CST；与已有卡 wickoptdesk（Robinhood 期权）分开。@UseCashtags 证据偏薄且库内已有同类卡，skip。未用高成本模型，dsFallback=false。",
+  "windows": {
+    "wickpad": true,
+    "open-ember": true,
+    "group-1st": false,
+    "hood-junkies": true
+  }
+}
