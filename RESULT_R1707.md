@@ -1,0 +1,54 @@
+# RESULT R1707
+
+- round: 1707
+- completedAt: 2026-11-12 16:49:27 CST
+- docsSynced: true
+- notify: true
+- notifyReason: 在库卡 giwahook（@GIWAHOOK）16:35:56 CST 官宣 $GIWAHOOK 正式 LIVE 并给出合约，窗口约至 18:35 CST，仍处 ≤2h，属需立刻看到的开盘变化。
+- newThisRound: []
+- candidates: 4060
+- dsFallback: false
+- discordPeekDeferred: true
+- lastFullAfterReset: R1692
+- panel: https://reboot7454.github.io/early-scout/
+- pushSha: 6679b2a0234683568544303f8049d2c12dc76882
+- pushPending: false
+
+## xQuota
+- xReads: 18
+- remainingBefore: 496
+- remaining: 477
+- mode: pace
+- softCap: 18
+- minSpend: 18
+- silentCap: 2
+- ufCursor: 999→1052 (kept 48, skip 5 NF/suspended, considered 53)
+- laneReads: LayerZero/Tape/电路/GIWA/DogeEVM/BTC/Starknet 全部 true
+- kwCoreRan: 台子/Meme
+- kwCoreDeferred: 挖矿, 打新, GO盘, Elysium
+- mentionsThin: []（因 pace softCap=18 裁掉；原计划保持 @ZeroVaultxyz/@TapeOutWorld, @YeonPad/@LaikaSuperApp, @banknotes_btc/@Starknet）
+- mentionsRest: []（因 softCap 裁掉；原计划奇数轮 @fulldotfun/@PulseLaunchpad）
+- fatShards: agentPad 746→11 kept=22 drop=3, freeMint 118→143 kept=16 drop=9, bnAgent 95→120 kept=18 drop=7, elysium 39→64 kept=24 drop=1
+- lastFullAfterReset: 仍为 R1692（本轮不是重置后全量补扫）
+
+## silentAccounts
+- ran: true
+- seen: 38
+- sentToReview: 1
+- admitted: 0
+- skipped: 37
+- lane: 台子/Meme
+- index: 2
+- userQuery: launchpad
+- search_users_unavailable: true
+- deferredHandles: []
+- skipReasons: {"too_many_posts": 33, "already_in_library": 4}
+
+## 本轮结论
+R1707 非全量补扫（lastFullAfterReset 仍 R1692）：9 个送审新号全部保守 skip（CoinSideGta 称 launchpad 已上 livesite 但仍在改 Take-Two 配对、无 CA/精确时刻；静号 @sealdotarmy 无站无 CA 无时刻；其余为转推/喊单/非加密）。核心变化：giwahook 16:35:56 CST 官宣 $GIWAHOOK LIVE ON @ponsdotfamily 并给出 CA 0x55e5c52bfeddcabd4340074fcb1b2f6ffffce714，status upcoming→live，≤2h 窗约至 18:35 CST，notify=true；longevity 宣称五链 live（此前仅 Solana）；sent 公布上线 11 小时数据（$7,214 创作者费用、12 个新币、22.9M $SENT 销毁）；dewata 首位神已领取 $DEWA（余 526）；agoraelysium 称质押 APR 67%；bond-rip 开 Discord 并重申 Raydium LaunchLab；slime-flap 提示发现窗冻结旧流动性。粉丝上调：enter-elysium 47316→47325、bianren 72→769、sent 26→58、longevity 4→29、slime-flap 115→498、kitzyclubz 12199→13275、agoraelysium 1557→1637、agentcardshq 补 3086、elystocks-fun 补 168、quadrix 补 438、corla 补 1924、globemkts 补 747、hokori-quantum 101→297、garuda-markets 3→31、giwahook 20→21 等。不降粉：tapeai 3010、tapeup 2979、shielded-nakas、runeclaw、anoncoin、jumak-sanjeok。今晚档期未改（本轮未读 clover/zerva/bloodstock/mythos/elysiumpunks/boolish 官帖）：clover-rh 揭示 20:00、zerva 21:00、elysiumpunks $EPUNK 21:30、bloodstockrh/mythosbsc 22:00、boolish-rh 11-13 23:00；这些卡 le2h=false。elysium-pepes 仍为 11-13 AscendLaunch，只刷 lastChecked。@Blonskr 仍无 Behemoth 二期时刻，未建卡。search_users 不可用；静号 mention 路径 seen=38 sentToReview=1 admitted=0。
+
+## dsNote
+deepseek-flash thinking-on：第一次调用（max_tokens=8000，系统要求只输出完整 JSON）即完整可解析，admits=[]，notify=true（因 giwahook ≤2h）。未重试，未改用高成本模型，dsFallback=false。送审 9 个 handle 全部 skip。pace 公式在 remaining=496（预活 497 为 R1706 余量；第一脚 footer 495 故 remainingBefore=496）、距 08:00 约 15.2h 时给出 softCap=18 / minSpend=18 / silentCap=2。为卡在 softCap，UF 48 个号打成 2 条 from:；薄栏 Watch 碎段互相合并。四张厚表合计 80 个 kept handle（含 5 个从 freeMint 剥到 must_rest 的 overflow：devpnl/Clawlers_/Czidagent/botai_meme/CrestOnBNB，未与薄栏混合），其余 75 个号打成 3 条 fat_pack，查询数压到 18。kwCore 计划恢复 台子/Meme、GO盘（均推迟 R1704+R1705+R1706）与 Elysium（推迟 R1705+R1706）；推迟刚跑过的 挖矿 与只推迟一轮的 打新。因 softCap 又裁掉 GO盘 与 Elysium，本轮只跑 台子/Meme。mentionsThin 保持 R1702/R1703 那组第二轮（ZeroVaultxyz/TapeOutWorld、YeonPad/LaikaSuperApp、banknotes_btc/Starknet；上轮已计划但被裁），mentionsRest 奇数轮 fulldotfun/PulseLaunchpad，四条 mentions 全部因 softCap 裁掉，不是漏栏。六条薄栏独立 KW 均已跑。主路径 xReads=18，等于 softCap 也等于 minSpend。静号轮到 台子/Meme（index 2，userQuery “launchpad”）。search_users 仍不可用，未伪造、未计入 xReads/静号已读。上轮 deferredHandles 已空，silentCap 第二次调用为 mention 搜索（不占 softCap）。filter 见 38 个号：33 too_many_posts、4 already_in_library、1 sentToReview（@sealdotarmy），DS skip，deferredHandles 仍空，无静号收录。18 条主查询成功后 remaining=478，再加 1 次静号 mention remaining=477（该次计入 remaining、不计入 xReads）。无翻页、无探索性重读。UF 999→1052（kept 48，跳过 5 个已知 NF/suspended，considered 53）。apply_patch 未改今晚未读号（clover/zerva/bloodstock/mythos/kurogane/elysiumpunks/boolish-rh）的档期或 lastChecked；hamster/squeek/Ascend 本轮 0 帖只刷 lastChecked；未降低 tapeai/tapeup/shielded-nakas/runeclaw/anoncoin/jumak-sanjeok 粉丝；未给 @Blonskr Behemoth 二期编造时刻或新卡；未把 CoinSideGta/sealdotarmy 建成卡；giwahook 按官帖写入 CA 与 le2h=true，未编造其它 CA。
+
+## alertMessage
+GIWAHOOK 已官宣 LIVE：$GIWAHOOK 合约 0x55e5c52bfeddcabd4340074fcb1b2f6ffffce714，Pons 绑曲线上线（Robinhood Chain + GIWA 同曲线），dev supply 销毁与 Demo 视频跟进中，2h 窗约至 18:35 CST。今晚档期不变：clover-rh 20:00、zerva 21:00、elysiumpunks $EPUNK 21:30（快照 21:00）、bloodstockrh 与 mythosbsc 22:00、boolish-rh 11-13 23:00。面板 https://reboot7454.github.io/early-scout/
