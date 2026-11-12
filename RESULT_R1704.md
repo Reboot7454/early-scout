@@ -1,0 +1,52 @@
+# RESULT R1704
+
+- round: 1704
+- completedAt: 2026-11-12 15:16:41 CST
+- docsSynced: true
+- notify: false
+- notifyReason: 本轮无合格新收录，也无仍开 ≤2h 窗的在库卡（今晚最早 clover-rh 揭示 20:00 CST 才进窗），故不推送。
+- newThisRound: []
+- candidates: 4060
+- dsFallback: false
+- discordPeekDeferred: true
+- lastFullAfterReset: R1692
+- panel: https://reboot7454.github.io/early-scout/
+
+## xQuota
+- xReads: 18
+- remainingBefore: 576
+- remaining: 557
+- mode: pace
+- softCap: 18
+- minSpend: 18
+- silentCap: 2
+- ufCursor: 831→892 (kept 48, skip 13 NF/suspended, considered 61)
+- laneReads: LayerZero/Tape/电路/GIWA/DogeEVM/BTC/Starknet 全部 true
+- kwCoreRan: Elysium
+- kwCoreDeferred: 打新, 挖矿, 台子/Meme, GO盘
+- mentionsThin: []（因 pace softCap=18 裁掉；原计划翻到 @PlunderPort/@TapeAIAgent, @GIWA_by_Upbit/@DogeOS, @ShieldedNaka/@Bramble_fi）
+- mentionsRest: []（因 softCap 裁掉；原计划偶数轮 @flapdotsh/@irys_xyz）
+- fatShards: agentPad 671→696 kept=25 drop=0, freeMint 43→68 kept=16 drop=9, bnAgent 20→45 kept=5 drop=20, elysium 232→257 kept=25 drop=0
+- lastFullAfterReset: 仍为 R1692（本轮不是重置后全量补扫）
+
+## silentAccounts
+- ran: true
+- seen: 10
+- sentToReview: 0
+- admitted: 0
+- skipped: 10
+- lane: Starknet
+- index: 10
+- userQuery: Starknet mint
+- search_users_unavailable: true
+- deferredHandles: []
+- skipReasons: {"too_many_posts": 10}
+
+## 本轮结论
+R1704（pace softCap=18，非重置后全量补扫，lastFullAfterReset 仍为 R1692）无新收录。9 个送审号全部 skip：3 个 Ammora 等待名单喊单（Joysaha2020/bmw123v/junedrock_1）、PostageVault 仅回复邮票图、jaanviksp 与 vamika73 仅转推 TapeOut 创意、Copper12Studios 为无关 iPhone 游戏、RealinCloudmore 转述 DogeOS 新闻、iam_tomiw 仅回复 Early。在库续更：foome 官号 05:49:39 CST 发 24 小时倒计时并索取 Robinhood 地址、转推提及 free mint，标 watching、粉 5512、无 CA、不设窗；hood-junkies 早间仍有 mint day 互动与假链接警示，Public 窗约 11:11 CST 已关不重开；dotbots First Round Discord 身份组上线、粉 50；oak-agent-kit 宣布 Hookr 已内置 live；elyfish 3D 生活游戏续更、粉 36；void-giwa 与 volta-family 仅刷 lastChecked；enter-elysium 7 帖均为短回复/转推，无新 mint 长帖，粉 47302；hamster-hour/squeekchain/AscendLaunch 合并查询 0 帖，tapeai/tapeup/packswap/digigolds/giwapad-xyz/giwahook/joayo-fun 无新官方档期，均只刷 lastChecked 且未改官方卡期。今晚档期维持：clover-rh 揭示 20:00 CST（代币与平台重启 11-13 02:00）、zerva 21:00 上 Pons、elysiumpunks $EPUNK 21:30 上 AscendLaunch（快照 21:00）、bloodstockrh open() 与 mythosbsc FCFS 22:00、boolish-rh 11-13 23:00；kurogane-fun GTD/WL 已于 11-10 20:30 CST 截止，不属今晚。截至约 15:15 CST 无任何在库卡进入 ≤2h 窗，le2h 全为 false，notify=false。
+
+## dsNote
+deepseek-flash thinking-on：第一次调用（max_tokens=8000，系统要求只输出完整 JSON）即完整可解析，admits=[]，notify=false。未重试，未改用高成本模型，dsFallback=false。送审 9 个 handle 全部 skip。pace 公式在 remaining=576、距 08:00 约 16.9h、预估 33 轮时给出 softCap=18 / minSpend=18（不是额度见底）。为卡在 softCap，UF 48 个号打成 2 条 from:；薄栏 Watch 碎段互相合并、厚表碎段互相合并（从未薄+厚、从未把薄栏 KW 并进 Elysium/BNB/RH）。kwCore 只跑 Elysium（R1703 已推迟，本轮恢复）；打新（连续 4 轮未推迟）与挖矿（3 轮）按最长未推迟条推迟，台子/Meme 与 GO盘 也因 softCap 一并推迟。mentionsThin 本应按两轮周期翻到 PlunderPort/TapeAIAgent、GIWA_by_Upbit/DogeOS、ShieldedNaka/Bramble_fi，mentionsRest 偶数轮 flapdotsh/irys_xyz，四条 mentions 全部因 softCap 裁掉，不是漏栏。六条薄栏独立 KW 均已跑。主路径 xReads=18，等于 softCap 也等于 minSpend。静号轮到 Starknet（index 10，userQuery “Starknet mint”）。search_users 仍不可用，未伪造、未计入 xReads/静号已读。silentCap 第二次调用用 get_users_by_usernames 解析上轮 10 个 deferredHandles（post_count 别名为 tweet_count 后再过滤），全部 too_many_posts，deferredHandles 已清空。18 条主查询成功后 remaining=558，再加 1 次静号档案 remaining=557（该次计入 remaining、不计入 xReads）。无翻页、无探索性重读。UF 831→892（kept 48，跳过 13 个已知 NF/suspended，considered 61）。apply_patch 未把 DS 的 hood-junkies status=minting 或 dotbots status=watching 写回已有卡；未编造 foome 结束时刻或 CA，未重开 hood-junkies ≤2h 窗。
+
+## alertMessage
+R1704：无新收录，9 个送审号全部 skip（Ammora 喊单/TapeOut 转推/无关游戏与新闻号）。今晚档期未变：clover-rh 20:00、zerva 21:00、$EPUNK 21:30（快照 21:00）、bloodstockrh 与 mythosbsc 22:00、boolish-rh 11-13 23:00，当前均未进 ≤2h 窗。面板 https://reboot7454.github.io/early-scout/
