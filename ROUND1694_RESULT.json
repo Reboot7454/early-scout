@@ -1,0 +1,90 @@
+{
+  "round": 1694,
+  "completedAt": "2026-11-12 09:23:47 CST",
+  "notify": true,
+  "notifyReason": "新收录 Giwapad，完成时仍处 ≤2h 窗：giwapad-xyz、tagpaid、dexfun、wickpad、hood-junkies",
+  "docsSynced": true,
+  "pushSha": "1821abd",
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "giwapad-xyz"
+  ],
+  "alertMessage": "新收录 Giwapad（@giwapad_xyz）：GIWA Sepolia testnet 已 live，4,000 张免费 pass，持 pass 分 40% 费用 + 主网 1:1 allowlist，窗约至 11:12 CST；另 TagPaid、Dexfun、hood-junkies、wickpad 仍在 2h 窗内。面板：https://reboot7454.github.io/early-scout/",
+  "summary": "本轮只新建 Giwapad 一张 GIWA 测试网打新卡（免费 pass + 费用分成，2h 窗）；PARI 因仅为 Interactive demo、无开盘时刻与 CA 而 skip，其余老卡仅续窗或刷 lastChecked。",
+  "xReads": 28,
+  "remainingBefore": 920,
+  "remaining": 892,
+  "mode": "ample",
+  "softCap": 28,
+  "minSpend": 20,
+  "ufCursor": 230,
+  "ufCursorBefore": 169,
+  "laneReads": {
+    "LayerZero": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "kwCoreRan": [
+    "打新",
+    "挖矿",
+    "台子/Meme",
+    "Elysium"
+  ],
+  "kwCoreDeferred": [
+    "GO盘"
+  ],
+  "mentionsThin": [
+    "LayerZero+Tape",
+    "GIWA+DogeEVM",
+    "BTC+Starknet"
+  ],
+  "mentionsRest": [
+    "@flapdotsh/@irys_xyz"
+  ],
+  "silentAccounts": {
+    "ran": true,
+    "seen": 33,
+    "sentToReview": 1,
+    "admitted": 1,
+    "skipped": 32,
+    "lane": "打新",
+    "index": 0,
+    "userQuery": "fair mint",
+    "search_users_unavailable": true,
+    "deferredHandles": [],
+    "skipReasons": {
+      "too_many_posts": 24,
+      "already_in_library": 8
+    },
+    "note": "R1694 rotated to 打新 (index 0, userQuery “fair mint”). search_users still unavailable; user-search slot was not faked and not counted. silentCap second call was search_posts_all third-party @mentions (deferredHandles from R1693 empty). Filter: seen=33, sentToReview=1 (@giwapad_xyz), admitted=1, skipped=32 (too_many_posts 24, already_in_library 8). deferredHandles empty."
+  },
+  "candidateCount": 4060,
+  "le2h": [
+    "giwapad-xyz",
+    "tagpaid",
+    "dexfun",
+    "wickpad",
+    "hood-junkies"
+  ],
+  "lastFullAfterReset": "R1692",
+  "softDebtRefreshed": [
+    "glazeWatch",
+    "cantonPadWatch",
+    "cantonWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch",
+    "flapPadWatch"
+  ],
+  "watchAdds": [
+    "@giwapad_xyz -> userFollowWatch.accounts",
+    "giwapad-xyz -> userFollowWatch.candidateIds",
+    "@giwapad_xyz -> giwaWatch.accounts"
+  ],
+  "tenLanes": true,
+  "dsNote": "deepseek-flash thinking-on：主调用一次因 max_tokens 截断后，缩短 updates 重跑，JSON 完整可解析。Giwapad 官网 giwapad.xyz HTTP 200，09:12:31 CST 官宣 GIWA Sepolia testnet live + 4,000 张 pass 免费铸；与已有卡 giwapadsol（@giwapadsol）分开建卡。PARI（@usepariapp / usepari.xyz）站点自述 Interactive demo，DS skip，未收录。TagPaid 08:36:17 CST 官帖确认唯一平台 CA F2Txb2JRr9EkuukTh4yGJXZgJcbsbtog6Vrgzs2pCTAG（上轮站点自报、pump.fun 未再核验）。le2h 合并查询被 TagPaid 20 条占满，未见 dexfun/wickpad/Hood 新帖，按原窗续算，未追加探索性重读。未用高成本模型，dsFallback=false。"
+}
