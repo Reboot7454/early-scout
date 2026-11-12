@@ -4,7 +4,7 @@
 - notify: true
 - notifyReason: 完成时仍处 ≤2h 窗：giwapad-xyz、hood-junkies
 - docsSynced: true
-- pushSha: PENDING
+- pushSha: 3283f1e
 - discordPeekDeferred: true
 - dsFallback: false
 - panel: https://reboot7454.github.io/early-scout/
