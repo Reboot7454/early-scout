@@ -1,0 +1,66 @@
+{
+  "round": 1725,
+  "completedAt": "2026-11-13 02:46:29 CST",
+  "docsSynced": true,
+  "notify": true,
+  "notifyReason": "clover-rh 仍在约 04:00 CST 前的 ≤2h 窗口，按规则必须 notify=true；本轮无新收录、无新官帖。",
+  "newThisRound": [],
+  "candidates": 4065,
+  "dsFallback": false,
+  "discordPeekDeferred": true,
+  "lastFullAfterReset": "R1692",
+  "userOrderedFull": "R1715",
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "pushSha": "a464e8e",
+  "pushShaFull": "a464e8e220cd85091bc590909629b6cfd8451796",
+  "pushPending": false,
+  "xQuota": {
+    "xReads": 10,
+    "xReadsMain": 10,
+    "xReadsSilent": 0,
+    "remainingBefore": 91,
+    "remaining": 81,
+    "mode": "tight",
+    "softCap": 10,
+    "minSpend": 10,
+    "silentCap": 1,
+    "ufCursorBefore": 380,
+    "ufCursor": 420,
+    "laneReads": {
+      "LayerZero": true,
+      "Tape/电路": true,
+      "GIWA": true,
+      "DogeEVM": true,
+      "BTC": true,
+      "Starknet": true
+    },
+    "kwCoreDeferred": [
+      "打新",
+      "挖矿",
+      "台子/Meme",
+      "GO盘",
+      "Elysium"
+    ],
+    "mentionsThinDeferred": true,
+    "mentionsRestDeferred": true,
+    "fatShardsDeferred": true
+  },
+  "silentAccounts": {
+    "ran": true,
+    "seen": 0,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 0,
+    "lane": "BTC",
+    "index": 9,
+    "userQuery": "Ordinals mint",
+    "search_users_unavailable": true,
+    "mentionRan": false,
+    "deferredHandles": []
+  },
+  "within2h": [
+    "clover-rh"
+  ],
+  "alertMessage": "🔔 R1725：无新收录。Clover $CLV 窗口仍至约 04:00 CST；官帖 CA 0x500908d166d9adfb76ea226e6c1619ab25a6da07 与旧 CA 0x1ead1942232dae5a296eea527b7feb871941d960 不一致，DexScreener 仍只索引到旧地址的池，请自行核对、勿把未核验地址当唯一标的。面板：https://reboot7454.github.io/early-scout/",
+  "summary": "R1725 tight：无新收录。clover-rh 无更新官帖，窗口仍至约 04:00 CST，两套 CA 与 DexScreener 差异仍在；其余仅软刷新或跳过。"
+}
