@@ -1,0 +1,116 @@
+{
+  "round": 1699,
+  "completedAt": "2026-11-12 12:13:30 CST",
+  "docsSynced": true,
+  "notify": false,
+  "notifyReason": "无新收录且无仍开 2h 窗",
+  "alertMessage": "本轮无合格新收录，也没有仍开着的 ≤2h 窗。在库续更：dispersa-labs 由 waitlist 转为 Split #0 进行中 mint（535 Rays / 66.875/100 HYPE）；boolish-rh Possession night 排在 11-13 23:00 CST（OpenSea，报名已关）；zealz 12:03 CST 称发射台正在为公开使用做改进；volta-family leveraged launches 已上线并销毁 6% $VOLTA；enter-elysium 转推 0x 承载 80%+ 成交量。今晚仍有 clover-rh 20:00、Kurogane 20:30、zerva 21:00、bloodstockrh/mythosbsc 22:00。面板 https://reboot7454.github.io/early-scout/",
+  "summary": "本轮无合格新收录，admits 为空。送审新号全部 skip：elythoria（仅第三方回复、无官帖/官网/链上）、duetpair（当天 0 粉空口号）、draggodotfamily（单一 Meteora meme fair launch）、delosprotocol（无时刻的运营号）、ToraFunXyz（自报 CA 仍未核验）、PostageVault 与 Ammora/GIWA 点名小号。在库续更：dispersa-labs status→live；boolish-rh 补 11-13 23:00 CST Possession night；enter-elysium / volta-family / zealz / pairmine / sasa-pad / askhookfun 进度刷新。giwapad-xyz / hood-junkies 窗已关。完成时无仍开 2h 窗。",
+  "dsNote": "deepseek-flash thinking-on：一次调用 JSON 完整可解析，admits=[]，notify=false。elythoria / duetpair / draggodotfamily / delosprotocol / ToraFunXyz / PostageVault 及 Ammora 等待名单小号、GIWA 第三方点名（cookhousememe/Kajadotfun/giwaalpha）全部 skip。dispersa-labs 由 announced/waitlist 改为 live（Split #0 已 mint 535 Rays）。boolish-rh 报名关闭，开铸排在 2026-11-13 23:00 CST，完成时 le2h=false。must 拆成 Enter_Elysium 与 hamster/Ascend/squeek 两条，后三条 0 帖，无需补查，xReads 保持 27。静号 Elysium 栏 search_users 不可用未伪造，提及搜索 seen=30 sentToReview=1 admitted=0，deferredHandles 空。未用高成本模型，dsFallback=false。",
+  "dsFallback": false,
+  "discordPeekDeferred": true,
+  "newThisRound": [],
+  "candidates": 4060,
+  "xReads": 27,
+  "remainingBefore": 740,
+  "remaining": 712,
+  "mode": "ample",
+  "softCap": 28,
+  "minSpend": 20,
+  "silentCap": 2,
+  "ufCursor": 559,
+  "ufCursorBefore": 499,
+  "laneReads": {
+    "LayerZero": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "kwCoreRan": [
+    "挖矿",
+    "台子/Meme",
+    "GO盘",
+    "Elysium"
+  ],
+  "kwCoreDeferred": [
+    "打新"
+  ],
+  "mentionsThin": [
+    "LayerZero+Tape",
+    "GIWA+DogeEVM",
+    "BTC+Starknet"
+  ],
+  "mentionsRest": [
+    "@fulldotfun/@PulseLaunchpad"
+  ],
+  "silentAccounts": {
+    "ran": true,
+    "seen": 30,
+    "sentToReview": 1,
+    "admitted": 0,
+    "skipped": 29,
+    "lane": "Elysium",
+    "index": 5,
+    "userQuery": "Elysium mint",
+    "search_users_unavailable": true,
+    "deferredHandles": [],
+    "skipReasons": {
+      "too_many_posts": 23,
+      "already_in_library": 6
+    },
+    "note": "R1699 rotated to Elysium (index 5, userQuery “Elysium mint”). search_users still unavailable; user-search slot was not faked and not counted. Queue from R1698 was empty, so silentCap second call was search_posts_all has:mentions (Elysium OR Enter_Elysium) (mint OR launch) -is:retweet. Filter: seen=30, sentToReview=1 (@elythoria), admitted=0, skipped=29 (too_many_posts 23, already_in_library 6: Hypesium, RebateLaunch, globemkts, Enter_Elysium, AskHookFun, sasapadfun). elythoria skipped by DeepSeek: 3 posts / 547 followers, no official post in payload, no site or on-chain evidence, only a third-party early-access reply. deferredHandles left empty."
+  },
+  "fatShards": {
+    "agentPad": {
+      "range": [
+        546,
+        571
+      ],
+      "dropped": 3,
+      "wrapped": false,
+      "nAccounts": 760,
+      "nextStart": 571,
+      "kept": 22
+    },
+    "freeMint": {
+      "range": [
+        285,
+        310
+      ],
+      "dropped": 0,
+      "wrapped": false,
+      "nAccounts": 367,
+      "nextStart": 310,
+      "kept": 25
+    },
+    "bnAgent": {
+      "range": [
+        177,
+        202
+      ],
+      "dropped": 21,
+      "wrapped": false,
+      "nAccounts": 282,
+      "nextStart": 202,
+      "kept": 4
+    },
+    "elysium": {
+      "range": [
+        107,
+        132
+      ],
+      "dropped": 1,
+      "wrapped": false,
+      "nAccounts": 268,
+      "nextStart": 132,
+      "kept": 24
+    }
+  },
+  "lastFullAfterReset": "R1692",
+  "tenLanes": true,
+  "pushPending": false,
+  "pushSha": "8ddf800",
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
