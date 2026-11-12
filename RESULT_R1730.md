@@ -60,7 +60,7 @@ discordPeekDeferred=true（本机未登录 Discord，Peek 跳过）
 - skipped: 0
 
 ## 本轮结论
-R1730 tight。无新收录。Hood Terminals 付费公售仍 LIVE（≤2h），官帖将每钱包上限由 2 改为 20；OS 493/777，约余 284。clover-rh 窗口仍至约 04:00 CST，须提醒 CA 不一致与 Dex 只索引旧池。candidateCount 4071 不变。新卡规则遵守（本轮无新卡）。未自动 mint。docs/data.json 已同步并推送。
+R1730 tight。无新收录。Hood Terminals 付费公售仍 LIVE（≤2h），官帖将每钱包上限由 2 改为 20；OS 493/777，约余 284。clover-rh 窗口仍至约 04:00 CST，须提醒 CA 不一致与 Dex 只索引旧池。candidateCount 4071 不变。新卡规则遵守（本轮无新卡）。未自动 mint。docs/data.json 已同步并推送。pushSha=a41ce80。
 
 ## dsNote
 deepseek-flash thinking-on，max_tokens=16000，第一次调用即完整可解析 JSON，未走 dsFallback。admits=[]。alert 使用已核验的 20/钱包、OS 493/777、floor 0.00137899 ETH 与 Clover 旧池 3938.36 USD，未改分数、未新增事实。
@@ -69,4 +69,4 @@ deepseek-flash thinking-on，max_tokens=16000，第一次调用即完整可解�
 🔔 R1730：hood-terminals 付费公售仍 LIVE（02:53 CST 开窗，至约 04:53 CST，仍 ≤2h），官帖确认每钱包上限由 2 改为 20/钱包；OS 493/777（约余 284），官价 0.0015 ETH，floor 0.00137899 ETH；CA 0x1d742553740e23d1f3e2db98dd3f1d88a7280c92 来自 OS contracts（chain: robinhood），未独立审计。clover-rh 窗口至约 04:00 CST，扫描时仍 ≤2h；官帖 CA 与旧 CA 不一致，新 CA pairs=0，旧 CA 最大 robinhood uniswap 池流动性 3938.36 USD。面板：https://reboot7454.github.io/early-scout/
 
 ## 推送
-pushSha=（待 git push 后回填）
+pushSha=a41ce80（a41ce80a1eed0a16ab6021d377e7b05e149ca7ac） origin/main。面板应随 GitHub Pages 刷新。
