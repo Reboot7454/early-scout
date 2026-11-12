@@ -67,7 +67,7 @@ balboa-studios 891→1089、klll-floor 171→205。clover-rh KEEP 3994。hood-te
 - skipped: 0
 
 ## 本轮结论
-R1728 tight。无新收录。Hood Terminals 付费公售仍 LIVE（≤2h，新增 2/钱包，OS 485/777）。clover-rh 窗口仍至约 04:00 CST，须提醒 CA 不一致与 Dex 只索引旧池。candidateCount 4071 不变。新卡规则遵守（本轮无新卡）。未自动 mint。docs/data.json 已同步。
+R1728 tight。无新收录。Hood Terminals 付费公售仍 LIVE（≤2h，新增 2/钱包，OS 485/777）。clover-rh 窗口仍至约 04:00 CST，须提醒 CA 不一致与 Dex 只索引旧池。candidateCount 4071 不变。新卡规则遵守（本轮无新卡）。未自动 mint。docs/data.json 已同步并推送。pushSha=d2b1284。
 
 ## dsNote
 deepseek-flash thinking-on，max_tokens=16000，第一次调用即完整可解析 JSON，未走 dsFallback。admits=[]。alert 在 DS 稿上补回供应/价格/CA 与 Clover 旧池风险等已核验细节，未改分数。
@@ -76,4 +76,4 @@ deepseek-flash thinking-on，max_tokens=16000，第一次调用即完整可解�
 🔔 R1728：Hood Terminals 付费公售仍 LIVE（≤2h；03:02 CST 官帖确认 2/钱包；OS 供应 485/777，约余 292；官价 0.0015 ETH，页面标题曾显 0.0014，以交易页为准；CA 0x1d742553740e23d1f3e2db98dd3f1d88a7280c92 来自 OS 索引、未独立审计）。Clover $CLV 窗口仍至约 04:00 CST；01:51 后无新官帖；官帖 CA 与旧 CA 不一致，DexScreener 仍只索引到旧地址的池（最大池约 3938.36 USD）。面板：https://reboot7454.github.io/early-scout/
 
 ## 推送
-pushSha=pending
+pushSha=d2b1284（d2b12841e1cbd5d26818c25ec56591b43a54ba1a） origin/main。面板应随 GitHub Pages 刷新。
