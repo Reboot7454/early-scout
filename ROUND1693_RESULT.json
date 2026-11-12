@@ -1,0 +1,111 @@
+{
+  "round": 1693,
+  "completedAt": "2026-11-12 08:41:29 CST",
+  "notify": true,
+  "notifyReason": "本轮有真新收录（TagPaid、Dexfun），且完成时 TagPaid、Dexfun、wickpad、hood-junkies 仍处 ≤2h 窗内（OpenEmber 已关窗）",
+  "docsSynced": true,
+  "pushSha": "7bd6e4c",
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "tagpaid",
+    "dexfun"
+  ],
+  "le2h": [
+    "tagpaid",
+    "dexfun",
+    "wickpad",
+    "hood-junkies"
+  ],
+  "alertMessage": "R1693 新收录 2 张：TagPaid（X cashtag 一键发币，08:35 CST live）与 Dexfun（Solana 发射台上线，08:27 CST）；wickpad、hood-junkies 续窗仍在 2h 内。面板 https://reboot7454.github.io/early-scout/",
+  "summary": "本轮新增 TagPaid（X 原生 cashtag 发射台，官宣 live）与 Dexfun（Solana 独立发射台，首宣 LIVE）两张台子/Meme 卡，均为 Solana、focus=false；其余为已读官号续更与静号 too_many_posts 跳过。",
+  "xReads": 28,
+  "remainingBefore": 948,
+  "remaining": 920,
+  "mode": "ample",
+  "softCap": 28,
+  "minSpend": 20,
+  "ufCursor": 169,
+  "ufCursorBefore": 113,
+  "laneReads": {
+    "LayerZero": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "silentAccounts": {
+    "ran": true,
+    "seen": 10,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 10,
+    "lane": "Starknet",
+    "index": 10,
+    "userQuery": "Starknet mint",
+    "search_users_unavailable": true,
+    "deferredHandles": []
+  },
+  "candidateCount": 4059,
+  "tenLanes": true,
+  "kwCoreRan": [
+    "打新",
+    "挖矿",
+    "台子/Meme",
+    "GO盘"
+  ],
+  "kwCoreDeferred": [
+    "Elysium"
+  ],
+  "mentionsThin": [
+    "@PlunderPort/@TapeAIAgent",
+    "@GIWA_by_Upbit/@DogeOS",
+    "@ShieldedNaka/@Bramble_fi"
+  ],
+  "mentionsRest": [
+    "@fulldotfun/@PulseLaunchpad"
+  ],
+  "fatShards": {
+    "agentPad": [
+      396,
+      421
+    ],
+    "freeMint": [
+      135,
+      160
+    ],
+    "bnAgent": [
+      27,
+      52
+    ],
+    "elysium": [
+      225,
+      250
+    ]
+  },
+  "softDebtRefreshed": [
+    "glazeWatch",
+    "cantonPadWatch",
+    "cantonWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch",
+    "flapPadWatch"
+  ],
+  "watchAdds": [
+    "@useTagPaid -> userFollowWatch.accounts",
+    "tagpaid -> userFollowWatch.candidateIds",
+    "@dexfunon -> userFollowWatch.accounts",
+    "dexfun -> userFollowWatch.candidateIds"
+  ],
+  "lastFullAfterReset": "R1692",
+  "dsNote": "deepseek-flash thinking-on：主调用一次完成 admit+卡面文案+alert/summary，JSON 完整可解析。TagPaid 官网 tagpaid.fun HTTP 200，08:35:32 CST 官宣 live；站点自报 CA F2Txb2JRr9EkuukTh4yGJXZgJcbsbtog6Vrgzs2pCTAG（结尾 CTAG），pump.fun 币页本轮 Cloudflare 403 未核验。发帖官号为 @useTagPaid，links.x 写该号；站点另写 @TagPaid 未用 X 再查。与 trycashtagpad / paycashtag 分开建卡。Dexfun 官网 dexfun.online HTTP 200，08:27:11 CST 首条官宣 LIVE，首页无平台币 CA。未用高成本模型，dsFallback=false。",
+  "windows": {
+    "tagpaid": true,
+    "dexfun": true,
+    "wickpad": true,
+    "open-ember": false,
+    "hood-junkies": true
+  }
+}
