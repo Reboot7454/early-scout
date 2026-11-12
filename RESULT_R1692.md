@@ -4,7 +4,7 @@
 - notify: true
 - notifyReason: 真新收录 Wickpad（官宣 $WICK live、官网与 CA 一致），且完成时仍有 ≤2h 窗（Wickpad、OpenEmber、hood-junkies Public）。
 - docsSynced: true
-- pushSha: PENDING
+- pushSha: 48f72e7
 - discordPeekDeferred: true
 - dsFallback: false
 - panel: https://reboot7454.github.io/early-scout/
