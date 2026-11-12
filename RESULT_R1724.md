@@ -12,8 +12,8 @@
 - lastFullAfterReset: R1692
 - userOrderedFull: R1715
 - panel: https://reboot7454.github.io/early-scout/
-- pushSha: PENDING
-- pushPending: true
+- pushSha: 40a8a82 (40a8a82bc561d6bbb91b181e83a6a66eef9bfeab)
+- pushPending: false
 - priorR1723pushSha: ca2b491 (ca2b49103bb4b89437778e2b8c2f32803d4a3180)
 
 ## 新收录
