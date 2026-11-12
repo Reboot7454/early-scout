@@ -63,10 +63,13 @@ globemkts 775→781、grim-pixels-rh 1176→1265、soom 1→2、runin-ai 7→50�
 - 其他静号线索为已在库项目或过薄
 
 ## 本轮结论
-R1727 ample。新收 2 张卡：Hood Terminals 付费公售 LIVE（刚开窗，le2h）必须提醒；HoodGremlin 免费登记开放即使非 mint LIVE 也必须提醒。clover-rh 仍在约 04:00 CST 的 ≤2h 窗口。candidateCount 4069→4071。新卡 focus=false。未自动 mint。将同步 docs/data.json。
+R1727 ample。新收 2 张卡：Hood Terminals 付费公售 LIVE（刚开窗，le2h）必须提醒；HoodGremlin 免费登记开放即使非 mint LIVE 也必须提醒。clover-rh 仍在约 04:00 CST 的 ≤2h 窗口。candidateCount 4069→4071。新卡 focus=false。未自动 mint。docs/data.json 已同步并推送。pushSha=4b273b0。
 
 ## dsNote
 deepseek-flash thinking-on，max_tokens=16000，第一次调用即完整可解析 JSON，未走 dsFallback。admits=hood-terminals 81、hood-gremlin 72。alert 在 DS 稿上补回 Clover 官帖 CA 与旧 CA 不一致的既有风险提示，未改分数。
 
 ## alertMessage
 🔔 R1727：新收 Hood Terminals 付费公售已 LIVE（约 02:53 CST 开窗，免费 444 已罄，约余 300；官帖 0.0015 ETH、OpenSea 标题曾显 0.0014，以交易页为准；CA 0x1d742553740e23d1f3e2db98dd3f1d88a7280c92 来自 OS 索引、未独立审计）。新收 HoodGremlin 免费登记/WL 已开（hoodgremlin.xyz/apply，非 mint LIVE，无 CA）。Clover $CLV 窗口仍至约 04:00 CST；官帖 CA 与旧 CA 不一致，DexScreener 暂只索引到旧地址的池。面板：https://reboot7454.github.io/early-scout/
+
+## 推送
+pushSha=4b273b0（4b273b0eb2a563cea04d305fa11963880c21b7a9） origin/main。面板应随 GitHub Pages 刷新。
