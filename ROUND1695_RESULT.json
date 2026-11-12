@@ -1,0 +1,86 @@
+{
+  "round": 1695,
+  "completedAt": "2026-11-12 09:57:30 CST",
+  "notify": true,
+  "notifyReason": "完成时仍处 ≤2h 窗：giwapad-xyz、tagpaid、dexfun、hood-junkies",
+  "docsSynced": true,
+  "pushSha": "PENDING",
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "newThisRound": [],
+  "alertMessage": "仍无新收录；giwapad-xyz、tagpaid、dexfun、hood-junkies 的 2h 窗在完成时仍开。Dexfun 官方声明尚未发平台币、相关代币均未获授权；Probly 已公布自报 CA 并上线 Robinhood Chain（已超 2h，非新开盘）；wickpad 窗已关。面板 https://reboot7454.github.io/early-scout/",
+  "summary": "本轮无合格一手新项目，8 个候选全部 skip；更新 tagpaid、dexfun、useprobly 等已有卡。完成时 giwapad-xyz、tagpaid、dexfun、hood-junkies 仍处 2h 窗内，wickpad 窗已关。",
+  "xReads": 28,
+  "remainingBefore": 892,
+  "remaining": 860,
+  "mode": "ample",
+  "softCap": 28,
+  "minSpend": 20,
+  "ufCursor": 291,
+  "ufCursorBefore": 230,
+  "laneReads": {
+    "LayerZero": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "kwCoreRan": [
+    "打新",
+    "挖矿",
+    "台子/Meme",
+    "GO盘"
+  ],
+  "kwCoreDeferred": [
+    "Elysium"
+  ],
+  "mentionsThin": [
+    "LayerZero+Tape",
+    "GIWA+DogeEVM",
+    "BTC+Starknet"
+  ],
+  "mentionsRest": [
+    "@fulldotfun/@PulseLaunchpad"
+  ],
+  "silentAccounts": {
+    "ran": true,
+    "seen": 3,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 3,
+    "lane": "挖矿",
+    "index": 1,
+    "userQuery": "GPU mine",
+    "search_users_unavailable": true,
+    "deferredHandles": [
+      "klever_io",
+      "klever_org"
+    ],
+    "skipReasons": {
+      "too_many_posts": 1,
+      "profile_unresolved": 2
+    },
+    "note": "R1695 rotated to 挖矿 (index 1, userQuery “GPU mine”). search_users still unavailable; user-search slot was not faked and not counted. silentCap second call was search_posts_all third-party @mentions (deferredHandles from R1694 empty). Filter: seen=3, sentToReview=0, admitted=0, skipped=3 (too_many_posts 1 @GridGem1, profile_unresolved 2 @klever_io/@klever_org queued for next round)."
+  },
+  "candidateCount": 4060,
+  "le2h": [
+    "giwapad-xyz",
+    "tagpaid",
+    "dexfun",
+    "hood-junkies"
+  ],
+  "lastFullAfterReset": "R1692",
+  "softDebtRefreshed": [
+    "glazeWatch",
+    "cantonPadWatch",
+    "cantonWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch",
+    "flapPadWatch"
+  ],
+  "watchAdds": [],
+  "tenLanes": true,
+  "dsNote": "deepseek-flash thinking-on：一次调用 JSON 完整可解析，admits=[]。Dexfun 09:26:52 CST 官宣尚未发行官方代币、仿盘无关；窗至约 10:27 CST 续算。TagPaid 09:39「Going live again」、09:50 配图即 logo，平台 CA 不变，粉 27→33，窗至约 10:35 CST。Giwapad 无新于 09:12 的官帖，窗至约 11:12 CST；wickpad 窗至约 09:47 CST 完成时已关。useprobly 03:06:55 CST 官宣 Robinhood Chain live 并自报 CA 0x4055a39cb95e3e7a1eba040d39ea352bd8b3c5c6（未另核验，官网 probly.site），已超 2h 不新开窗。本轮 le2h 拆成 tagpaid 单独查询 + 其余/must 合并，避免再被 TagPaid 刷屏；dexfun/wickpad/Hood 均读到。静号 挖矿 栏 sentToReview=0。未用高成本模型，dsFallback=false。"
+}
