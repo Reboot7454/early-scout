@@ -1,0 +1,122 @@
+{
+  "round": 1709,
+  "completedAt": "2026-11-12 18:08:39 CST",
+  "docsSynced": true,
+  "notify": true,
+  "notifyReason": "GIWAHOOK 仍在 LIVE 窗内（约至 18:35 CST）且 17:35/17:39 有 Price Match Mode 与双链 peg mode 实质性新进展；clover-rh 揭示 20:00 CST 已进入 ≤2h 窗口。",
+  "alertMessage": "GIWAHOOK 仍 LIVE（窗约至 18:35 CST），新增 Price Match Mode + 双链 peg 自动回购，粉 36→37，CA 0x55e5c52bfeddcabd4340074fcb1b2f6ffffce714；clover-rh 揭示 20:00 CST 已进 ≤2h。今晚其余未进窗：zerva 21:00、elysiumpunks $EPUNK 21:30（快照 21:00）、bloodstock 22:00/23:00、mythosbsc 22:00、boolish-rh 11-13 23:00。面板 https://reboot7454.github.io/early-scout/",
+  "summary": "R1709 非全量补扫（lastFullAfterReset 仍 R1692）：5 个送审新号全部保守 skip（iPhone 小游戏 Bramble、鲨鱼命名、AI 图鉴、日货餐具、DogeOS 测试网刷分喊单）。本轮无 admits。核心变化：giwahook 17:35 Price Match Mode、17:39 Dual-chain peg mode 上线（双轨每笔交易后对配对轨自动回购），仍 LIVE、≤2h 窗约至 18:35 CST，粉 36→37，CA 不变，notify=true；clover-rh 本轮查询未见新帖（tonight 8 号共 13 帖，未被刷屏），揭示仍 20:00 CST、代币+平台仍 11-13 02:00 CST，18:00 起进入 ≤2h。zerva 17:29 确认今天 13:00 UTC＝21:00 CST 上 Pons / Robinhood Chain，档期不变，未进 ≤2h，粉 47→52；elysiumpunks 17:49 仅自转旧公告，档期 21:30 / 快照 21:00 不变，粉丝不下调；bloodstockrh / mythosbsc 档期不变，仅刷 lastChecked。archerswap-elysium 17:51 称白名单轮「1 hour+ to go」、公开轮约再 2 小时，未给精确钟点，不标 ≤2h；15:32 宣布 @elysium_acc 已在 ArcherSwap / Elysium 主网上线；粉补 34598。qhooks：Solana launches 上线、CoinGecko 申请 CL1111260040，11:23「tomorrow's drop」不设窗，粉 309→313；heliosliq 称三天内回购销毁 2.5% 并上 DefiLlama，粉 1296→1298。粉丝上调：elysfinance 0→68、guppofish 43→72、letheans-nft 41→335、hood-buddies 51→65、elysium-bull 42→198、giwaup 3584→3894、jager 5903→5927、digigolds 267→268、rgbhorse 33499→33509。不降粉：elysiumpunks 5827、mythosbsc 106、volta-family 2665、hyped-elysium 1601、jumak-sanjeok 1245、runeclaw 1458、shielded-nakas 3382、tapeai 3010、tapeup 2979、kleos-elysium 2533、anoncoin 21711、gamapad 2438。hamster-hour / squeekchain / ascendlaunch 查询无新帖，仅刷 lastChecked。Enter_Elysium 与 GIWAHOOK 同查询但 20 条全是 GIWAHOOK，未改其 lastChecked。search_users 不可用；静号解析上轮 10 个排队 handle，全部 too_many_posts，seen=10 sentToReview=0 admitted=0，deferredHandles 已空。",
+  "dsNote": "deepseek-flash thinking-on：第一次调用（max_tokens=8000，系统要求只输出完整 JSON）即完整可解析，admits=[]，notify=true（giwahook 仍 ≤2h 且 Price Match / 双链 peg 为新进展；clover-rh 揭示 20:00 已进 ≤2h）。未重试，未改用高成本模型，dsFallback=false。送审 5 个 handle 全部 skip。pace 公式在 remaining=438（预活 456 为 R1708 余量，已被其它自动化消耗；第一脚 footer 437 故 remainingBefore=438）、距 08:00 约 14h 时给出 softCap=18 / minSpend=18 / silentCap=2，已建 18 呼计划仍有效。为卡在 softCap，UF 48 个号打成 2 条 from:；薄栏 Watch 碎段互相合并。四张厚表合计 72 个 kept handle，打成 3 条 fat_pack，无需剥到 must。must 拆成两路：tonight+clover（cloverdotfamily / hamsterhourgame / AscendLaunch / squeekchain / ZERVA_HQ / ElysiumPunks / bloodstockRH / MythosBSC）与 GIWAHOOK+Enter_Elysium，避免再被 GIWAHOOK 刷屏淹没 clover。tonight 查询返回 13 帖，作者为 ElysiumPunks/MythosBSC/ZERVA_HQ/bloodstockRH，clover/hamster/Ascend/squeek 无新帖，因未被刷屏故刷新这 8 个号的 lastChecked（Enter_Elysium 除外）。kwCore 计划恢复最长推迟的 Elysium（R1705–R1708）、打新（R1706–R1708）与 挖矿（R1707–R1708）；推迟刚跑过的 GO盘（R1708）与 台子/Meme（R1707）。因 softCap 只跑了 Elysium，打新与挖矿被裁。mentionsThin 保持 R1702/R1703 那组第二轮（上几轮已计划但被裁），mentionsRest 奇数轮 fulldotfun/PulseLaunchpad，四条 mentions 全部因 softCap 裁掉，不是漏栏。六条薄栏独立 KW 均已跑。主路径 xReads=18，等于 softCap 也等于 minSpend。静号轮到 LayerZero（index 4，userQuery “LayerZero OFT”）。search_users 仍不可用，未伪造、未计入 xReads/静号已读。上轮 deferredHandles 非空，silentCap 第二次调用为 get_users_by_usernames 批量解析（不占 softCap）。filter 见 10 个号全部 too_many_posts，sentToReview=0，deferredHandles 清空，无静号收录。18 条主查询成功后 remaining=420，再加 1 次静号资料解析 remaining=419（该次计入 remaining、不计入 xReads）。无翻页、无探索性重读。UF 1101→1150（kept 48，跳过 1 个已知 NF/suspended Haltercard，considered 49）。apply_patch 未给 Enter_Elysium 改 lastChecked；未降低 API 回读偏低号的粉丝；未给 @Blonskr Behemoth 编造时刻或新卡；未把送审号建成卡；未把 archerswap「1 hour+ / 2 hours later」换算成精确钟点；未把 qhooks「tomorrow's drop」写成今日 ≤2h；giwahook 按官帖写入 Price Match / peg mode，未编造其它 CA。",
+  "dsFallback": false,
+  "discordPeekDeferred": true,
+  "newThisRound": [],
+  "candidates": 4060,
+  "xReads": 18,
+  "remainingBefore": 438,
+  "remaining": 419,
+  "mode": "pace",
+  "softCap": 18,
+  "minSpend": 18,
+  "silentCap": 2,
+  "ufCursor": 1150,
+  "ufCursorBefore": 1101,
+  "laneReads": {
+    "LayerZero": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "kwCoreRan": [
+    "Elysium"
+  ],
+  "kwCoreDeferred": [
+    "台子/Meme",
+    "GO盘",
+    "打新",
+    "挖矿"
+  ],
+  "mentionsThin": [],
+  "mentionsRest": [],
+  "mentionsThinPlanned": [
+    "@ZeroVaultxyz/@TapeOutWorld",
+    "@YeonPad/@LaikaSuperApp",
+    "@banknotes_btc/@Starknet"
+  ],
+  "mentionsRestPlanned": [
+    "@fulldotfun/@PulseLaunchpad"
+  ],
+  "mentionsTrimmedForSoftCap": true,
+  "silentAccounts": {
+    "ran": true,
+    "seen": 10,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 10,
+    "lane": "LayerZero",
+    "index": 4,
+    "userQuery": "LayerZero OFT",
+    "search_users_unavailable": true,
+    "deferredHandles": [],
+    "skipReasons": {
+      "too_many_posts": 10
+    },
+    "countRule": "seen = sentToReview + skipped; admitted is a subset of sentToReview and stays 0 until a card with links.x is written",
+    "note": "R1709 rotated to LayerZero (index 4, userQuery “LayerZero OFT”). search_users still unavailable in the live x MCP catalog; user-search slot was not faked and not counted in xReads or silent reads. Prior deferredHandles were nonempty, so the second silentCap call was get_users_by_usernames for the 10 queued handles (tv3_ghana, aivcap, nusaibanuba, Timebringer, arojinle1, PlayStation, stargirl_hills, Dannyart_, Koltalks_, EzeasilaaN), outside softCap. Filter: all 10 too_many_posts, sentToReview=0, admitted=0, deferredHandles emptied. No silent admit."
+  },
+  "fatShards": {
+    "agentPad": {
+      "range": [
+        36,
+        61
+      ],
+      "dropped": 3,
+      "wrapped": false,
+      "nAccounts": 760,
+      "nextStart": 61,
+      "kept": 22,
+      "peeledToMust": []
+    },
+    "freeMint": {
+      "range": [
+        168,
+        193
+      ],
+      "dropped": 8,
+      "wrapped": false,
+      "nAccounts": 367,
+      "nextStart": 193,
+      "kept": 17,
+      "peeledToMust": []
+    },
+    "bnAgent": {
+      "range": [
+        145,
+        170
+      ],
+      "dropped": 16,
+      "wrapped": false,
+      "nAccounts": 282,
+      "nextStart": 170,
+      "kept": 9,
+      "peeledToMust": []
+    },
+    "elysium": {
+      "range": [
+        89,
+        114
+      ],
+      "dropped": 1,
+      "wrapped": false,
+      "nAccounts": 268,
+      "nextStart": 114,
+      "kept": 24,
+      "peeledToMust": []
+    }
+  },
+  "lastFullAfterReset": "R1692",
+  "tenLanes": true,
+  "pushPending": true,
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
