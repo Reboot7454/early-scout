@@ -1,0 +1,80 @@
+{
+  "round": 1697,
+  "completedAt": "2026-11-12 11:07:46 CST",
+  "notify": true,
+  "notifyReason": "完成时仍处 ≤2h 窗：giwapad-xyz、hood-junkies",
+  "docsSynced": true,
+  "pushSha": "PENDING",
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "newThisRound": [],
+  "alertMessage": "本轮无合格新收录。完成时仍在 2h 窗：giwapad-xyz（testnet live 至约 11:12）、hood-junkies（至约 11:11）。已出窗：grokiefun（至约 10:59 已关）、tagpaid（至约 10:35 已关）、dexfun（至约 10:27 已关）。在库续更：lil-giraffies 与 elysium-pepes 排期指向 11-13；squeek 第三方传言不改官方卡。面板 https://reboot7454.github.io/early-scout/",
+  "summary": "本轮无合格新收录，admits 为空。完成时仍在 2h 窗：giwapad-xyz（testnet live 至约 11:12）、hood-junkies（至约 11:11）。已出窗：grokiefun（至约 10:59 已关）、tagpaid（至约 10:35 已关）、dexfun（至约 10:27 已关）。lil-giraffies / elysium-pepes 排期指向 11-13；其余为产品向或预告类续更。",
+  "xReads": 28,
+  "remainingBefore": 816,
+  "remaining": 787,
+  "mode": "ample",
+  "softCap": 28,
+  "minSpend": 20,
+  "ufCursor": 434,
+  "ufCursorBefore": 359,
+  "laneReads": {
+    "LayerZero": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "kwCoreRan": [
+    "打新",
+    "挖矿",
+    "GO盘",
+    "Elysium"
+  ],
+  "kwCoreDeferred": [
+    "台子/Meme"
+  ],
+  "mentionsThin": [
+    "LayerZero+Tape",
+    "GIWA+DogeEVM",
+    "BTC+Starknet"
+  ],
+  "mentionsRest": [
+    "@fulldotfun/@PulseLaunchpad"
+  ],
+  "silentAccounts": {
+    "ran": true,
+    "seen": 6,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 6,
+    "lane": "GO盘",
+    "index": 3,
+    "userQuery": "GO launch",
+    "search_users_unavailable": true,
+    "deferredHandles": [],
+    "skipReasons": {
+      "profile_unresolved": 6
+    },
+    "note": "R1697 rotated to GO盘 (index 3, userQuery “GO launch”). search_users still unavailable; user-search slot was not faked and not counted. Queue from R1696 was empty, so silentCap second call was search_posts_all has:mentions (\"GO launch\" OR \"AR launch\"). Filter: seen=6, sentToReview=0, admitted=0, skipped=6 (profile_unresolved). Mentioned handles included PlayStation, tv3_ghana, aivcap, Timebringer, nusaibanuba, arojinle1 — mainstream/noise or unresolved profiles, not early silent accounts. deferredHandles cleared so the next silent slot is not wasted on PlayStation/tv3_ghana."
+  },
+  "candidateCount": 4060,
+  "le2h": [
+    "giwapad-xyz",
+    "hood-junkies"
+  ],
+  "lastFullAfterReset": "R1692",
+  "softDebtRefreshed": [
+    "glazeWatch",
+    "cantonPadWatch",
+    "cantonWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch",
+    "flapPadWatch"
+  ],
+  "watchAdds": [],
+  "tenLanes": true,
+  "dsNote": "deepseek-flash thinking-on：一次调用 JSON 完整可解析，admits=[]。Grokiefun 本轮无晚于 08:59 直播线程的新帖，粉 12324→12425，资料仍写 No official token yet，窗至约 10:59 CST，完成时 le2h=false。Giwapad 仅见已记录 09:12 testnet live，窗至约 11:12，完成时 le2h=true。hood-junkies 10:46 转推表扬不重开窗，Public 窗至约 11:11，完成时 le2h=true。lil-giraffies 05:53 称明天 valley/$GIRAFF 上线后 free mint（即 11-13）；elysium-pepes 09:02 称 11-13 于 AscendLaunch 上线；均不设今日窗。squeek 官号无新帖，第三方传言不改卡。静号 GO盘栏 search_users 不可用未伪造，提及搜索 sentToReview=0，deferredHandles 清空（PlayStation/tv3_ghana 等为噪音）。未用高成本模型，dsFallback=false。"
+}
