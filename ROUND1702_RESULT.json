@@ -1,0 +1,115 @@
+{
+  "round": 1702,
+  "completedAt": "2026-11-12 14:04:58 CST",
+  "docsSynced": true,
+  "notify": false,
+  "notifyReason": "无新收录且无仍开 2h 窗",
+  "alertMessage": "R1702：无新收录、无 ≤2h 窗。今晚 20:00 CST clover-rh 揭示、21:00 zerva 上 Pons、22:00 bloodstockrh / mythosbsc，均在库且未进窗。Tell $TELL 官方 CA 已补录。看板：https://reboot7454.github.io/early-scout/",
+  "summary": "本轮无合格新收录，admits 为空。送审新号全部 skip：Ammora 等待名单喊单、Elonmuskuninn8 火箭互动诱饵、AurelValenim 仅第三方转推 MemeFunds_、空喊号、ShortChall 美食挑战赛、Blonskr 无精确时刻、GIWAUP 仅第三方 WL 抽奖。静号 DogeEVM 栏未见送审。在库续更：tell-markets 公布 $TELL CA 0xc13630c6b85fd1767b484acf38b50314e08a59fc；roboagent 免费窗至 2026-11-14 05:51 CST；digigolds 投票开启；bell-dex 上线 BellSwapLens；novus-agent Payouts desk；wafermap 披露 x402 自调用占比；outriggerrh 设计说明；packswap 跨 DEX 路由；tapeai TAI PoB 分配；tapeup UP/WBNB 经 UNCX 锁仓。enter-elysium 无新 mint。elysiumpunks 仅见第三方转推截断文本，未改档期。kurogane-fun 仍不在今晚名单。完成时无仍开 2h 窗。",
+  "dsNote": "deepseek-flash thinking-on：第一次调用（max_tokens=8000，系统要求只输出完整 JSON）即完整可解析，admits=[]，notify=false。未重试，未改用高成本模型，dsFallback=false。送审 9 个 handle 全部 skip。must 仍拆成 Enter_Elysium 与 hamster/Ascend/squeek 两条，后三条 0 帖，无需补查，xReads 保持 27。静号 DogeEVM 栏 search_users 不可用未伪造，提及搜索 seen=11 sentToReview=0 admitted=0，deferredHandles 空。apply_patch 未把 DS 的 status=tracking 写回已有卡；tell-markets 因官方 CA 已公布并声称可在 Pons 交易而将 status 设为 live。elysiumpunks / memefund / conquerors-dao 未据第三方转推改档期；iglusol 未写入他人 pump.fun CA。",
+  "dsFallback": false,
+  "discordPeekDeferred": true,
+  "newThisRound": [],
+  "candidates": 4060,
+  "xReads": 27,
+  "remainingBefore": 648,
+  "remaining": 613,
+  "mode": "ample",
+  "softCap": 28,
+  "minSpend": 20,
+  "silentCap": 2,
+  "ufCursor": 759,
+  "ufCursorBefore": 692,
+  "laneReads": {
+    "LayerZero": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "kwCoreRan": [
+    "打新",
+    "挖矿",
+    "GO盘",
+    "Elysium"
+  ],
+  "kwCoreDeferred": [
+    "台子/Meme"
+  ],
+  "mentionsThin": [
+    "@ZeroVaultxyz/@TapeOutWorld",
+    "@YeonPad/@LaikaSuperApp",
+    "@banknotes_btc/@Starknet"
+  ],
+  "mentionsRest": [
+    "@flapdotsh/@irys_xyz"
+  ],
+  "silentAccounts": {
+    "ran": true,
+    "seen": 11,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 11,
+    "lane": "DogeEVM",
+    "index": 8,
+    "userQuery": "DogeEVM",
+    "search_users_unavailable": true,
+    "deferredHandles": [],
+    "skipReasons": {
+      "too_many_posts": 10,
+      "already_in_library": 1
+    },
+    "note": "R1702 rotated to DogeEVM (index 8, userQuery “DogeEVM”). search_users still unavailable in the live x MCP catalog; user-search slot was not faked and not counted in xReads or silent reads. R1701 deferredHandles was empty, so the silentCap second call was search_posts_all has:mentions (DogeEVM OR DogeOS) (mint OR launch) -is:retweet (start_time 2026-11-11T05:56:36Z). Filter: seen=11, sentToReview=0, admitted=0, skipped=11 (too_many_posts 10, already_in_library 1: DogeOS). deferredHandles left empty. No 0-post inflated shells this path."
+  },
+  "fatShards": {
+    "agentPad": {
+      "range": [
+        621,
+        646
+      ],
+      "dropped": 2,
+      "wrapped": false,
+      "nAccounts": 760,
+      "nextStart": 646,
+      "kept": 23
+    },
+    "freeMint": {
+      "range": [
+        360,
+        385
+      ],
+      "dropped": 4,
+      "wrapped": true,
+      "nAccounts": 367,
+      "nextStart": 18,
+      "kept": 21
+    },
+    "bnAgent": {
+      "range": [
+        252,
+        277
+      ],
+      "dropped": 5,
+      "wrapped": false,
+      "nAccounts": 282,
+      "nextStart": 277,
+      "kept": 20
+    },
+    "elysium": {
+      "range": [
+        182,
+        207
+      ],
+      "dropped": 1,
+      "wrapped": false,
+      "nAccounts": 268,
+      "nextStart": 207,
+      "kept": 24
+    }
+  },
+  "lastFullAfterReset": "R1692",
+  "tenLanes": true,
+  "pushPending": true,
+  "panel": "https://reboot7454.github.io/early-scout/"
+}
