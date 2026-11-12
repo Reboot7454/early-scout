@@ -68,7 +68,7 @@ discordPeekDeferred=true（本机未登录 Discord，Peek 跳过）
 - skipped: 34（多为高推文路人或已在库 Tape 讨论；未解析提及转入 deferredHandles，不另占 softCap）
 
 ## 本轮结论
-R1733 ample。新收录 4 张：WickFarm、Elypx402 均为明确部署在 Elysium 上的新官号（分别是波动率农场与 Agent 支付 OS，皆非免费 mint）；TonkFun 为 Solana/Robinhood 发射台；Ponstier 为 RH 社区排名台子，发射台仍 testnet，官网原官号 @tryponstier 已 suspended。Hood Terminals 付费公售 ≤2h 窗口已关，OS 仍 495/777。Boat'n Fish 官方 API 已从 0 增至 512/2222、现价约 0.018 SOL，与官帖 nearly sold out 不一致。candidateCount 4076→4080。新卡均 focus=false，均已进 Watch。未自动 mint。docs/data.json 已同步并推送。notify=true。
+R1733 ample。新收录 4 张：WickFarm、Elypx402 均为明确部署在 Elysium 上的新官号（分别是波动率农场与 Agent 支付 OS，皆非免费 mint）；TonkFun 为 Solana/Robinhood 发射台；Ponstier 为 RH 社区排名台子，发射台仍 testnet，官网原官号 @tryponstier 已 suspended。Hood Terminals 付费公售 ≤2h 窗口已关，OS 仍 495/777。Boat'n Fish 官方 API 已从 0 增至 512/2222、现价约 0.018 SOL，与官帖 nearly sold out 不一致。candidateCount 4076→4080。新卡均 focus=false，均已进 Watch。未自动 mint。docs/data.json 已同步并推送。notify=true。pushSha=5e6e9f7。
 
 ## dsNote
 deepseek-flash thinking-on。第一次调用（max_tokens=8000）在 tonkfun.highlights 截断，wickfarm/elypx402 两张卡完整。第二次再次截断。第三次压缩字段后补完 tonkfun 与 ponstier，以及 updates/alert 骨架。另一次短调用只写 alertMessage；模型把 WickFarm 误写成 WiceFarm，已按官号名改正，未另开判断。分数均为 100 分制。未走 dsFallback。未编造 CA。tonkfun 初稿曾误标 lzVerified=true，入库时已改为 false。
@@ -77,4 +77,4 @@ deepseek-flash thinking-on。第一次调用（max_tokens=8000）在 tonkfun.hig
 🔔 R1733：四张新卡 WickFarm（Elysium 波动率农场，首市场 live，未核 CA）、Elypx402（Elysium Agent 支付 OS，官网 CA 未审计）、TonkFun（Solana/RH launchpad）、Ponstier（RH 社区台子，发射台仍 testnet，@tryponstier 已 suspended）；boatn-fish 官方 API 512/2222、现价约 0.018 SOL，与官帖 nearly sold out 不一致；hood-terminals ≤2h 窗口已关。面板：https://reboot7454.github.io/early-scout/
 
 ## 推送
-pushSha=（待写入） origin/main。面板应随 GitHub Pages 刷新。
+pushSha=5e6e9f7（5e6e9f764a1366b7603306d34b5e75df0b523a3a） origin/main。面板应随 GitHub Pages 刷新。
