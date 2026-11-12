@@ -10,6 +10,7 @@
 - dsFallback: false
 - discordPeekDeferred: true
 - lastFullAfterReset: R1692
+- pushSha: dab50a5
 - panel: https://reboot7454.github.io/early-scout/
 
 ## xQuota
