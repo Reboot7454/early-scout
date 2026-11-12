@@ -1,0 +1,82 @@
+{
+  "round": 1696,
+  "completedAt": "2026-11-12 10:34:29 CST",
+  "notify": true,
+  "notifyReason": "完成时仍处 ≤2h 窗：grokiefun、giwapad-xyz、tagpaid、hood-junkies，grokiefun 由 watching 转为 live（官帖自报 CA，未另核验）",
+  "docsSynced": true,
+  "pushSha": "776a49c",
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "newThisRound": [],
+  "alertMessage": "重点更新（非新收录）：Grokie.fun 官号 @Grokiefun 于 08:59:28 CST 官宣上线且 $GROKIE is live，自报 CA 9Sunhg3DWCxnjcN1UzBY3X8W46v9DXhesBhuJLDtgrok（未另核验；资料仍写 No official token yet）。2h 窗至约 10:59 CST。同时仍在窗内：grokiefun（官宣 live 至约 10:59）、giwapad-xyz（testnet live 至约 11:12）、hood-junkies（至约 11:11）、tagpaid（至约 10:35）。已出窗：dexfun（至约 10:27 已关）。面板 https://reboot7454.github.io/early-scout/",
+  "summary": "本轮无合格新收录，admits 为空；核心是已有卡 grokiefun 官宣 live（自报 CA 未另核验、官号仍有 No official token yet 矛盾表述）。完成时仍在 2h 窗：grokiefun（官宣 live 至约 10:59）、giwapad-xyz（testnet live 至约 11:12）、hood-junkies（至约 11:11）、tagpaid（至约 10:35）。已出窗：dexfun（至约 10:27 已关）。其余为产品向或预告类续更。",
+  "xReads": 28,
+  "remainingBefore": 845,
+  "remaining": 816,
+  "mode": "ample",
+  "softCap": 28,
+  "minSpend": 20,
+  "ufCursor": 359,
+  "ufCursorBefore": 291,
+  "laneReads": {
+    "LayerZero": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "kwCoreRan": [
+    "打新",
+    "挖矿",
+    "台子/Meme",
+    "Elysium"
+  ],
+  "kwCoreDeferred": [
+    "GO盘"
+  ],
+  "mentionsThin": [
+    "LayerZero+Tape",
+    "GIWA+DogeEVM",
+    "BTC+Starknet"
+  ],
+  "mentionsRest": [
+    "@flapdotsh/@irys_xyz"
+  ],
+  "silentAccounts": {
+    "ran": true,
+    "seen": 2,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 2,
+    "lane": "台子/Meme",
+    "index": 2,
+    "userQuery": "launchpad",
+    "search_users_unavailable": true,
+    "deferredHandles": [],
+    "skipReasons": {
+      "posts_unknown": 2
+    },
+    "note": "R1696 rotated to 台子/Meme (index 2, userQuery “launchpad”). search_users still unavailable; user-search slot was not faked and not counted. silentCap second call was get_users_by_usernames for deferredHandles from R1695 (@klever_io / @klever_org). Filter: seen=2, sentToReview=0, admitted=0, skipped=2 (script labeled posts_unknown because metrics use post_count not tweet_count; both are established wallet/L1 accounts — klever_io 255329 followers / 22431 posts since 2018, klever_org 10878 / 4134 since 2021 — not early silent accounts). deferredHandles now empty."
+  },
+  "candidateCount": 4060,
+  "le2h": [
+    "grokiefun",
+    "giwapad-xyz",
+    "tagpaid",
+    "hood-junkies"
+  ],
+  "lastFullAfterReset": "R1692",
+  "softDebtRefreshed": [
+    "glazeWatch",
+    "cantonPadWatch",
+    "cantonWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch",
+    "flapPadWatch"
+  ],
+  "watchAdds": [],
+  "tenLanes": true,
+  "dsNote": "deepseek-flash thinking-on：一次调用 JSON 完整可解析，admits=[]。Grokiefun 08:59:28 CST 官宣 WE ARE LIVE 且 $GROKIE is live，自报 CA 9Sunhg3DWCxnjcN1UzBY3X8W46v9DXhesBhuJLDtgrok（未另核验；资料仍写 No official token yet），粉 8292→12324，已有卡 watching→live，窗至约 10:59 CST。TagPaid 10:06「Inside one TagPaid launch」为机制讲解，平台 CA 不变，窗仍以 08:35 起算至约 10:35 CST。Dexfun 10:19 回复不重开窗，09:26 官方尚未发平台币声明仍有效，窗至约 10:27 CST 已关。Giwapad 无新于 09:12 的官帖，窗至约 11:12 CST；hood-junkies Public 窗至约 11:11 CST。giwahook 10:11 Coming Multipad 预告，不设窗。静号 台子/Meme 栏 sentToReview=0（klever_io/klever_org 为已运营钱包/L1）。未用高成本模型，dsFallback=false。DS 文案里误写 grokiefun.fun，落盘已改为 grokie.fun。"
+}
