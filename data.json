@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-12 16:18:03 CST",
+    "updated": "2026-11-12 16:49:27 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-12 16:18:03 CST",
+    "lastScout": "2026-11-12 16:49:27 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -738,7 +738,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1706,
+    "round": 1707,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -3475,8 +3475,12 @@
       "ink-futuristic"
     ],
     "watches": {
-      "le2h": [],
-      "le2hCurrent": [],
+      "le2h": [
+        "giwahook $GIWAHOOK 16:35:56 CST LIVE on Pons（CA 0x55e5c52bfeddcabd4340074fcb1b2f6ffffce714，窗约至 18:35 CST）"
+      ],
+      "le2hCurrent": [
+        "giwahook $GIWAHOOK 16:35:56 CST LIVE on Pons（CA 0x55e5c52bfeddcabd4340074fcb1b2f6ffffce714，窗约至 18:35 CST）"
+      ],
       "tonight": [
         "lil-giraffies / valley+$GIRAFF / Lil Giraffies free mint 指向 11-13，时刻未公布",
         "elysium-pepes 11-13 于 AscendLaunch 上线，时刻未公布",
@@ -3488,7 +3492,7 @@
         "mythosbsc 约 22:00 CST（FCFS）",
         "社区称 Nasalis Flow FCFS 22:30 CST（未核官推）"
       ],
-      "lastChecked": "2026-11-12 16:18:03 CST"
+      "lastChecked": "2026-11-12 16:49:27 CST"
     },
     "round187Added": [
       "mosaic-elysium",
@@ -10038,7 +10042,7 @@
       "ink-pixel-ghosts"
     ],
     "updatedAt": "2026-11-12 16:18:03 CST",
-    "lastRun": "2026-11-12 16:18:03 CST",
+    "lastRun": "2026-11-12 16:49:27 CST",
     "round351Added": [
       "aao-pad",
       "tapebit"
@@ -20842,14 +20846,14 @@
     "round863Added": [],
     "xQuota": {
       "xReads": 18,
-      "remainingBefore": 516,
-      "remaining": 497,
+      "remainingBefore": 496,
+      "remaining": 477,
       "mode": "pace",
       "softCap": 18,
       "minSpend": 18,
       "silentCap": 2,
-      "ufCursorBefore": 947,
-      "ufCursor": 999,
+      "ufCursorBefore": 999,
+      "ufCursor": 1052,
       "laneReads": {
         "LayerZero": true,
         "Tape/电路": true,
@@ -20859,13 +20863,13 @@
         "Starknet": true
       },
       "kwCoreRan": [
-        "挖矿"
+        "台子/Meme"
       ],
       "kwCoreDeferred": [
+        "挖矿",
         "打新",
-        "Elysium",
-        "台子/Meme",
-        "GO盘"
+        "GO盘",
+        "Elysium"
       ],
       "mentionsThin": [],
       "mentionsRest": [],
@@ -20875,87 +20879,90 @@
         "@banknotes_btc/@Starknet"
       ],
       "mentionsRestPlanned": [
-        "@flapdotsh/@irys_xyz"
+        "@fulldotfun/@PulseLaunchpad"
       ],
       "mentionsTrimmedForSoftCap": true,
       "fatShards": {
         "agentPad": {
           "range": [
-            721,
-            746
+            746,
+            771
           ],
-          "dropped": 0,
-          "wrapped": false,
+          "dropped": 3,
+          "wrapped": true,
           "nAccounts": 760,
-          "nextStart": 746,
-          "kept": 25,
+          "nextStart": 11,
+          "kept": 22,
           "peeledToMust": []
         },
         "freeMint": {
           "range": [
-            93,
-            118
+            118,
+            143
           ],
-          "dropped": 6,
+          "dropped": 9,
           "wrapped": false,
           "nAccounts": 367,
-          "nextStart": 118,
-          "kept": 19,
-          "peeledToMust": []
+          "nextStart": 143,
+          "kept": 16,
+          "peeledToMust": [
+            "devpnl",
+            "Clawlers_",
+            "Czidagent",
+            "botai_meme",
+            "CrestOnBNB"
+          ]
         },
         "bnAgent": {
           "range": [
-            70,
-            95
+            95,
+            120
           ],
-          "dropped": 15,
+          "dropped": 7,
           "wrapped": false,
           "nAccounts": 282,
-          "nextStart": 95,
-          "kept": 10,
-          "peeledToMust": [
-            "devpnl",
-            "BSCQUQU",
-            "Clawlers_"
-          ]
+          "nextStart": 120,
+          "kept": 18,
+          "peeledToMust": []
         },
         "elysium": {
           "range": [
-            14,
-            39
+            39,
+            64
           ],
           "dropped": 1,
           "wrapped": false,
           "nAccounts": 268,
-          "nextStart": 39,
+          "nextStart": 64,
           "kept": 24,
           "peeledToMust": []
         }
       },
       "silentAccounts": {
         "ran": true,
-        "seen": 4,
-        "sentToReview": 0,
+        "seen": 38,
+        "sentToReview": 1,
         "admitted": 0,
-        "skipped": 4,
-        "lane": "挖矿",
-        "index": 1,
-        "userQuery": "GPU mine",
+        "skipped": 37,
+        "lane": "台子/Meme",
+        "index": 2,
+        "userQuery": "launchpad",
         "search_users_unavailable": true,
         "deferredHandles": [],
         "skipReasons": {
-          "too_many_posts": 4
+          "too_many_posts": 33,
+          "already_in_library": 4
         },
         "countRule": "seen = sentToReview + skipped; admitted is a subset of sentToReview and stays 0 until a card with links.x is written",
-        "note": "R1706 rotated to 挖矿 (index 1, userQuery “GPU mine”). search_users still unavailable in the live x MCP catalog; user-search slot was not faked and not counted in xReads or silent reads. Prior deferredHandles were jirobots/cryptocom/Csilla_cro/Rotikaintel, so the second silentCap call was get_users_by_usernames, outside softCap. Filter saw 4 handles, all too_many_posts (Jirobots 19, cryptocom 23215, Csilla_cro 32026, Rotikaintel 32). deferredHandles cleared. sentToReview=0, no silent admit."
+        "note": "R1707 rotated to 台子/Meme (index 2, userQuery “launchpad”). search_users still unavailable in the live x MCP catalog; user-search slot was not faked and not counted in xReads or silent reads. Prior deferredHandles were empty, so the second silentCap call was search_posts_all mention query (has:mentions launchpad/bonding curve), outside softCap. Filter saw 38 handles: 33 too_many_posts, 4 already_in_library, 1 sentToReview (@sealdotarmy, skipped by DeepSeek: no site/CA/time). deferredHandles stays empty. admitted=0, no silent admit."
       },
-      "checkedAt": "2026-11-12 16:18:03 CST",
-      "source": "R1706",
+      "checkedAt": "2026-11-12 16:49:27 CST",
+      "source": "R1707",
       "lastFullAfterReset": "R1692",
       "docsSynced": true,
       "tenLanes": true,
       "discordPeekDeferred": true,
-      "note": "Pace (not ample, not a post-reset-full; lastFullAfterReset still R1692). Live first-footer remainingAfter=515 so remainingBefore=516 (pre-live leftover from R1705 was 538; budget unchanged: mode=pace, softCap=18, minSpend=18, silentCap=2). 18 planned main searches all succeeded, no refetch. UF 48 accounts packed into 2 from: queries; leftover thin-watch fragments merged with each other. Four fat shards totaled 78 kept handles (need 4 packs at 25); peeled 3 shortest bnAgent handles (devpnl/BSCQUQU/Clawlers_) into must_rest (same from: search, not mixed with thin) and repacked the remaining 75 into 3 fat_pack queries. xReads=18 equals softCap 18 and minSpend 18. After 18 main + 1 silent get_users_by_usernames remaining=497 (516-19=497; silent profile read consumed 1 daily read, recorded in remaining but not in xReads). kwCore ran only 挖矿 (longest deferred among 挖矿/台子/Meme/GO盘 after R1704+R1705); 台子/Meme and GO盘 were also planned then trimmed for softCap; deferred 打新 (just ran R1705) and Elysium (ran R1704, deferred only R1705). Six thin-lane independent KW all ran. mentionsThin flipped to the R1702/R1703 pair and mentionsRest even-round flapdotsh/irys_xyz, but all four mention queries were trimmed for softCap — not forgotten. No exploratory rereads or pagination. UF 947→999 (kept 48, skip 4 NF/suspended, considered 52). search_users unavailable, slot not faked, not counted. silentCap second call resolved prior deferredHandles and sits outside softCap."
+      "note": "R1707 pace softCap=18 from remainingBefore=496 (first footer 495). kwCore ran 台子/Meme; deferred 挖矿/打新/GO盘/Elysium (GO盘 and Elysium planned then trimmed). mentions planned but trimmed for softCap. silentCap mention search after main path, remaining 477. lastFullAfterReset=R1692."
     },
     "coverageR863": {
       "keywordsTenCols": false,
@@ -23823,7 +23830,7 @@
       "dsFallback": false
     },
     "round1049Added": [],
-    "ufCursor": 999,
+    "ufCursor": 1052,
     "r1050WatchBugs": [
       "themutantclub → userFollowWatch (+acc)",
       "themutantclub → userFollowWatch (+cid)",
@@ -31228,7 +31235,8 @@
     "round1703Added": [],
     "round1704Added": [],
     "round1705Added": [],
-    "round1706Added": []
+    "round1706Added": [],
+    "round1707Added": []
   },
   "candidates": [
     {
@@ -33259,14 +33267,18 @@
       "focus": false,
       "lzVerified": false,
       "status": "watching",
-      "followers": 3,
+      "followers": 31,
       "xFollowers": 3,
       "firstSeen": "2026-11-11 22:48 CST",
       "addedAt": "2026-11-11 22:48 CST",
-      "lastChecked": "2026-11-11 22:48 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "zoneHint": "台子/Meme",
       "newThisRound": false,
-      "le2h": false
+      "le2h": false,
+      "schedule": {
+        "lastChecked": "2026-11-12 16:49:27 CST",
+        "le2h": false
+      }
     },
     {
       "id": "falqoxyz",
@@ -73220,14 +73232,14 @@
       },
       "round": 1300,
       "focus": false,
-      "whatsNew": "【R1479】官推称 474 gods / 3333 free NFTs；已 LIVE 多日，le2h=false。",
+      "whatsNew": "R1707：13:37:47 CST 称首位「神」已领取 $DEWA：526 个 NFT 仍未领取；每 NFT 一次性领 10,000 $DEWA，费 0.0003 BNB，上限 60,000,000 $DEWA。已 LIVE 领取进度，不新开 2h 窗。",
       "progress": "FREE LIVE ≈202/3333",
       "schedule": {
         "status": "LIVE",
-        "note": "官推称 474/3,333 gods minted；FREE，1 per wallet。已 LIVE 多日，le2h=false。",
+        "note": "已 LIVE 的 $DEWA 领取进度，不新开 2h 窗。",
         "le2h": false,
-        "source": "https://x.com/dewata_nft/status/2119384540955500885",
-        "lastChecked": "2026-11-08 23:40 CST",
+        "source": "https://x.com/dewata_nft/status/2120752900347662427",
+        "lastChecked": "2026-11-12 16:49:27 CST",
         "timezone": "Asia/Shanghai"
       },
       "summary": "BNB 免费神像 mint，极早期低粉，适合先验合约后小额 gas 试水。",
@@ -73251,7 +73263,7 @@
       "addedAt": "2026-11-06 02:12 CST",
       "firstSeen": "2026-11-06 02:12 CST",
       "discoveredAt": "2026-11-06 02:12 CST",
-      "lastChecked": "2026-11-08 23:40 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "mintStatus": "LIVE",
       "mint": {
         "status": "LIVE",
@@ -74273,7 +74285,9 @@
       "schedule": {
         "status": "live",
         "note": "Flap Pool Launch mint LIVE；Agent Mint mode 今日上线；旧站已关。",
-        "source": "https://x.com/Corla_5555"
+        "source": "https://x.com/Corla_5555",
+        "lastChecked": "2026-11-12 16:49:27 CST",
+        "le2h": false
       },
       "scores": {
         "early": 70,
@@ -74298,11 +74312,12 @@
       "summary": "Flap Pool Launch 首个 mint 发射台 LIVE；Agent Mint 模式；平台币 $CORLA。",
       "firstSeen": "2026-11-05 14:35 CST",
       "addedAt": "2026-11-05 14:35 CST",
-      "lastChecked": "2026-11-07 19:40 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "dsAdmitReason": "发射台已实际开跑且有平台币，属可立刻动手的早期打新位。",
       "lastCheckedAt": "2026-11-06 02:12 CST",
       "newThisRound": false,
-      "le2h": false
+      "le2h": false,
+      "followers": 1924
     },
     {
       "id": "origin-dotfun",
@@ -74690,7 +74705,7 @@
       "round": 1268,
       "candidateRound": 1268,
       "firstSeenRound": 1268,
-      "followers": 115,
+      "followers": 498,
       "tags": [
         "BNB",
         "Flap",
@@ -74713,7 +74728,7 @@
       },
       "summary": "Flap Pool Launch Day-1 数据终端（slime.today）：发射feed、毕业地板模拟、salt锁监控、对比/搜索；今日持续迭代前端。",
       "progress": "LIVE 工具 · slime.today · R1270",
-      "whatsNew": "【R1392】推送管线升级：毕业直达TG+发射者战绩；盐锁预告运行中。",
+      "whatsNew": "R1707：14:17:23 CST 指出发现窗滑出后详情页会显示冻结的旧流动性。产品说明/缺陷提示，无开盘。粉 115→498。",
       "highlights": [
         "BNB 上 Flap Pool-launch 的 Day-1 数据终端，切入新机制较早",
         "已上线可交互工具：发射feed、毕业地板模拟、salt锁监控",
@@ -74726,12 +74741,18 @@
       ],
       "why": "早期且可实际使用的 Flap 生态数据工具，有官推可跟踪，风险偏高但值得列入观察。",
       "reason": "早期且可实际使用的 Flap 生态数据工具，有官推可跟踪，风险偏高但值得列入观察。",
-      "lastChecked": "2026-11-07 17:17 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "updatedAt": "2026-11-05 13:08 CST",
       "admittedAt": "2026-11-05 12:29 CST",
       "discoveredAt": "2026-11-05 12:29 CST",
       "newThisRound": false,
-      "le2h": false
+      "le2h": false,
+      "schedule": {
+        "lastChecked": "2026-11-12 16:49:27 CST",
+        "le2h": false,
+        "note": "产品缺陷提示，无开盘。",
+        "source": "https://x.com/SlimedotToday/status/2120762864466317364"
+      }
     },
     {
       "id": "m3m3-agent",
@@ -74848,7 +74869,7 @@
         "risk": 80,
         "overall": 60
       },
-      "lastChecked": "2026-11-12 16:18:03 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "twitter": "@void_dex",
       "handle": "@void_dex",
       "followers": 93,
@@ -74864,7 +74885,7 @@
       "updatedAt": "2026-11-12 15:16:41 CST",
       "schedule": {
         "timezone": "Asia/Shanghai",
-        "lastChecked": "2026-11-12 16:18:03 CST",
+        "lastChecked": "2026-11-12 16:49:27 CST",
         "le2h": false
       }
     },
@@ -89251,11 +89272,11 @@
       "focus": false,
       "lzVerified": false,
       "status": "live",
-      "followers": 0,
+      "followers": 3086,
       "xFollowers": null,
       "firstSeen": "2026-10-31 19:28 CST",
       "addedAt": "2026-10-31 19:28 CST",
-      "lastChecked": "2026-11-12 11:07:46 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "zoneHint": "GO盘",
       "schedule": {
         "status": "live",
@@ -89264,7 +89285,7 @@
         "source": "https://x.com/AgentCardsHQ/status/2120684555459870737",
         "timezone": "Asia/Shanghai",
         "le2h": false,
-        "lastChecked": "2026-11-12 09:57:30 CST"
+        "lastChecked": "2026-11-12 16:49:27 CST"
       },
       "mint": {
         "type": "freeMint",
@@ -90656,10 +90677,10 @@
       "ecosystem": "BNB Agent ID",
       "status": "live",
       "mintStatus": "live",
-      "followers": 72,
+      "followers": 769,
       "firstSeen": "2026-10-31 16:05 CST",
       "addedAt": "2026-10-31 16:05 CST",
-      "lastChecked": "2026-11-08 13:08 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "scores": {
         "early": 80,
         "actionable": 65,
@@ -90668,7 +90689,11 @@
         "overall": 60
       },
       "newThisRound": false,
-      "le2h": false
+      "le2h": false,
+      "schedule": {
+        "lastChecked": "2026-11-12 16:49:27 CST",
+        "le2h": false
+      }
     },
     {
       "id": "rocks-club",
@@ -97997,7 +98022,7 @@
       "xFollowers": 264,
       "firstSeen": "2026-10-30 18:06 CST",
       "addedAt": "2026-10-30 18:06 CST",
-      "lastChecked": "2026-11-12 11:07:46 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "zoneHint": "打新",
       "freeLIVE": false,
       "mintStatus": "live-paid",
@@ -98012,7 +98037,7 @@
       "le2h": false,
       "schedule": {
         "timezone": "Asia/Shanghai",
-        "lastChecked": "2026-11-12 07:42:27 CST",
+        "lastChecked": "2026-11-12 16:49:27 CST",
         "status": "live",
         "le2h": false,
         "note": "06:48:59 CST：18410/50000（36.82%），已铸 7,732,200 AGNT；4965 钱包、10311 付费 spots。相对上次 18399 微增，非新窗。",
@@ -100536,13 +100561,13 @@
         "note": "官推明确尚未 live；勿信第三方 CA。将在 @AscendLaunch 发射。le2h=false。",
         "le2h": false,
         "source": "https://x.com/Elysium_Pepes/status/2119807283744133245",
-        "lastChecked": "2026-11-10 05:25 CST"
+        "lastChecked": "2026-11-12 16:49:27 CST"
       },
       "round": 893,
       "focus": false,
       "lzVerified": false,
       "status": "announced",
-      "followers": 161,
+      "followers": 163,
       "xFollowers": 161,
       "le2h": false,
       "flag": "watching",
@@ -100553,7 +100578,7 @@
       ],
       "firstSeen": "2026-10-30 10:37 CST",
       "addedAt": "2026-10-30 10:37 CST",
-      "lastChecked": "2026-11-12 11:07:46 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "updatedAt": "2026-10-30 10:37 CST",
       "newThisRound": false,
       "events": {
@@ -101744,22 +101769,28 @@
         "no ca yet，尚无合约与测试网部署",
         "0 粉丝，无第三方背书"
       ],
-      "whatsNew": "【R1544】官宣双向桥已上线：经 Agora 进出 Elysium，Powered by @RelayProtocol。粉1557。",
+      "whatsNew": "R1707：13:51:38 CST 称 $agora 质押 APR 达 67%。产品续更，无新 mint 窗。粉 1557→1637。",
       "summary": "把Elysium各发射台聚合进单一信息流与一键打新入口的极早期项目。",
       "blurb": "Elysium发射台聚合终端，无CA。",
       "round": 876,
       "focus": false,
       "lzVerified": false,
       "status": "live",
-      "followers": 1557,
+      "followers": 1637,
       "xFollowers": 1557,
       "firstSeen": "2026-10-30 01:31 CST",
       "addedAt": "2026-10-30 01:31 CST",
-      "lastChecked": "2026-11-10 04:53 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "zoneHint": "台子/Meme",
       "updatedAt": "2026-11-04T07:05:00+08:00",
       "newThisRound": false,
-      "le2h": false
+      "le2h": false,
+      "schedule": {
+        "lastChecked": "2026-11-12 16:49:27 CST",
+        "le2h": false,
+        "note": "质押 APR 续更，无新 mint 窗。",
+        "source": "https://x.com/agora_elysium/status/2120756385289822368"
+      }
     },
     {
       "id": "elystocks-fun",
@@ -101799,14 +101830,18 @@
       "focus": false,
       "lzVerified": false,
       "status": "watching",
-      "followers": 0,
+      "followers": 168,
       "xFollowers": null,
       "firstSeen": "2026-10-30 01:31 CST",
       "addedAt": "2026-10-30 01:31 CST",
-      "lastChecked": "2026-11-06 12:08 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "zoneHint": "台子/Meme",
       "newThisRound": false,
-      "le2h": false
+      "le2h": false,
+      "schedule": {
+        "lastChecked": "2026-11-12 16:49:27 CST",
+        "le2h": false
+      }
     },
     {
       "id": "longbaolnb",
@@ -156588,7 +156623,7 @@
         "lastCheckedAt": "2026-10-20T08:18:36+08:00"
       },
       "lastRefreshedAt": "2026-10-23 02:35 CST",
-      "followers": 47316,
+      "followers": 47325,
       "schedule": {
         "status": "live",
         "timezone": "Asia/Shanghai",
@@ -156598,10 +156633,10 @@
         "source": "https://x.com/Enter_Elysium/status/2120678006477775170",
         "le2h": false,
         "opensAt": "2026-11-09",
-        "lastChecked": "2026-11-12 16:18:03 CST",
+        "lastChecked": "2026-11-12 16:49:27 CST",
         "commemorativeAt": "2026-11-10 01:00 CST"
       },
-      "lastChecked": "2026-11-12 16:18:03 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "handle": "@Enter_Elysium",
       "twitter": "@Enter_Elysium",
       "updatedAt": "2026-11-12 15:16:41 CST",
@@ -161692,7 +161727,7 @@
         "note": "单独查询官号未见新帖，仅刷 lastChecked；不据第三方传言改官方卡。",
         "source": "R275 R285",
         "le2h": false,
-        "lastChecked": "2026-11-12 16:18:03 CST",
+        "lastChecked": "2026-11-12 16:49:27 CST",
         "opensAt": "2026-11-12 08:00 CST"
       },
       "onchain": {
@@ -161715,7 +161750,7 @@
       "lastRefreshedAt": "2026-10-20T00:28:03.950346+08:00",
       "followers": 9579,
       "source": "X+docs R203",
-      "lastChecked": "2026-11-12 16:18:03 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "twitter": "@squeekchain",
       "handle": "@squeekchain",
       "updatedAt": "2026-11-12 15:16:41 CST",
@@ -161795,7 +161830,7 @@
         "mintStatus": "upcoming",
         "note": "单独查询官号，本轮未见新帖，仅刷 lastChecked。",
         "source": "RXP/X R224",
-        "lastChecked": "2026-11-12 16:18:03 CST",
+        "lastChecked": "2026-11-12 16:49:27 CST",
         "le2h": false
       },
       "social": {
@@ -161818,7 +161853,7 @@
       "lastRefreshedAt": "2026-10-20T00:28:03.950346+08:00",
       "followers": 33,
       "source": "X R203",
-      "lastChecked": "2026-11-12 16:18:03 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "twitter": "@hamsterhourgame",
       "handle": "@hamsterhourgame",
       "updatedAt": "2026-11-12 15:16:41 CST",
@@ -178269,7 +178304,7 @@
         ],
         "source": "https://x.com/UnseenOrdo/status/2120785271306477864",
         "note": "本轮新：BTC RGB自称首个UDA；供6102；约300免费；折扣WL进行中；@UnseenOrdo≈578粉。",
-        "lastChecked": "2026-11-12 16:18:03 CST",
+        "lastChecked": "2026-11-12 16:49:27 CST",
         "le2h": false
       },
       "highlights": [
@@ -178307,10 +178342,10 @@
         "mintStatus": "not_open",
         "note": "RGB UDA；合约/铭文路径待官宣"
       },
-      "lastChecked": "2026-11-12 16:18:03 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "newThisRound": false,
       "le2h": false,
-      "followers": 5301
+      "followers": 5302
     },
     {
       "id": "burrowpad",
@@ -190090,7 +190125,7 @@
           }
         ],
         "le2h": false,
-        "lastChecked": "2026-11-12 16:18:03 CST"
+        "lastChecked": "2026-11-12 16:49:27 CST"
       },
       "focus": true,
       "lzVerified": false,
@@ -190140,7 +190175,7 @@
       },
       "followers": 11785,
       "mintStatus": "testnet",
-      "lastChecked": "2026-11-12 16:18:03 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "twitter": "@AscendLaunch",
       "handle": "@AscendLaunch",
       "updatedAt": "2026-11-12 15:16:41 CST",
@@ -197179,7 +197214,7 @@
         "source": "https://x.com/TapeAIAgent/status/2120788006907035835",
         "le2h": false,
         "opensAt": "2026-11-08 00:00 CST",
-        "lastChecked": "2026-11-12 16:18:03 CST"
+        "lastChecked": "2026-11-12 16:49:27 CST"
       },
       "source": "user-named circuit-board watch + X/Web R225",
       "ecosystem": "TapeOut",
@@ -197216,7 +197251,7 @@
       "alert": "Mint时间未定，需盯官方公告",
       "notify": true,
       "onchain": {},
-      "lastChecked": "2026-11-12 16:18:03 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "twitter": "@TapeAIAgent",
       "handle": "@TapeAIAgent",
       "updatedAt": "2026-11-12 15:16:41 CST",
@@ -197365,7 +197400,7 @@
         "mintStatus": "tba",
         "note": "UP/WBNB LP 已经 UNCX 锁定（R1702 已记）。勿标 Elysium。",
         "source": "https://x.com/tapeupio/status/2120782421906104328",
-        "lastChecked": "2026-11-12 16:18:03 CST",
+        "lastChecked": "2026-11-12 16:49:27 CST",
         "le2h": false
       },
       "source": "Blonskr/TapeOut circuit-board eco + X/Web R225",
@@ -197410,7 +197445,7 @@
       "alert": "经济模型下周揭晓，谨防预期差",
       "notify": true,
       "onchain": {},
-      "lastChecked": "2026-11-12 16:18:03 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "twitter": "@tapeupio",
       "handle": "@tapeupio",
       "newThisRound": false,
@@ -234215,8 +234250,8 @@
       "firstSeen": "2026-10-29 01:39 CST",
       "addedAt": "2026-10-29 01:39 CST",
       "updatedAt": "2026-10-29 01:39 CST",
-      "lastChecked": "2026-11-04 08:12 CST",
-      "followers": 101,
+      "lastChecked": "2026-11-12 16:49:27 CST",
+      "followers": 297,
       "xFollowers": 101,
       "xId": "1632242893510328320",
       "source": "R805 keyword Starknet launchpad + mentions",
@@ -234256,7 +234291,11 @@
       "lzVerified": false,
       "progress": "$ZEC live on Hokori Starknet launchpad · curve→Ekubo",
       "newThisRound": false,
-      "le2h": false
+      "le2h": false,
+      "schedule": {
+        "lastChecked": "2026-11-12 16:49:27 CST",
+        "le2h": false
+      }
     },
     {
       "id": "v4builder",
@@ -250254,7 +250293,7 @@
       "admittedAt": "2026-11-03T18:15:56+08:00",
       "firstSeen": "2026-11-03 18:15 CST",
       "addedAt": "2026-11-03 18:15 CST",
-      "lastChecked": "2026-11-03 19:23 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "round1136Added": true,
       "ecosystem": "GIWA",
       "progress": {
@@ -250263,7 +250302,12 @@
       },
       "freeLIVE": false,
       "newThisRound": false,
-      "le2h": false
+      "le2h": false,
+      "followers": 438,
+      "schedule": {
+        "lastChecked": "2026-11-12 16:49:27 CST",
+        "le2h": false
+      }
     },
     {
       "id": "lumen-genesis",
@@ -256619,9 +256663,9 @@
       "addedAt": "2026-11-04 23:25 CST",
       "admittedAt": "2026-11-04 23:25 CST",
       "updatedAt": "2026-11-12 15:16:41 CST",
-      "lastChecked": "2026-11-12 16:18:03 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "round1233Added": true,
-      "followers": 263,
+      "followers": 267,
       "xFollowers": 263,
       "source": "KW/BTC mentions R1233 @DigiGolds Ordinals ShieldedNaka",
       "tags": [
@@ -256657,7 +256701,7 @@
       "schedule": {
         "timezone": "Asia/Shanghai",
         "le2h": false,
-        "lastChecked": "2026-11-12 16:18:03 CST",
+        "lastChecked": "2026-11-12 16:49:27 CST",
         "status": "watching",
         "note": "投票已开（R1702 已记），不设窗。",
         "source": "https://x.com/DigiGolds/status/2120741220091666792"
@@ -256945,9 +256989,9 @@
       "addedAt": "2026-11-05 00:33 CST",
       "admittedAt": "2026-11-05 00:33 CST",
       "updatedAt": "2026-11-12 15:16:41 CST",
-      "lastChecked": "2026-11-12 16:18:03 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "round1236Added": true,
-      "followers": 59,
+      "followers": 60,
       "xFollowers": 56,
       "source": "DogeOS mentions R1236 @packswap_xyz packswap.xyz",
       "tags": [
@@ -256990,7 +257034,7 @@
       },
       "schedule": {
         "timezone": "Asia/Shanghai",
-        "lastChecked": "2026-11-12 16:18:03 CST",
+        "lastChecked": "2026-11-12 16:49:27 CST",
         "status": "live",
         "le2h": false,
         "note": "产品路由说明已于 R1702 记录，无主网时刻，不设窗。",
@@ -259814,7 +259858,7 @@
       "zoneHint": "打新",
       "chain": "Robinhood",
       "ecosystem": "Robinhood",
-      "followers": 12199,
+      "followers": 13275,
       "flag": "new",
       "mintStatus": "upcoming",
       "mintPrice": "FREE",
@@ -259824,7 +259868,7 @@
       "firstSeen": "2026-11-05 17:25 CST",
       "discoveredAt": "2026-11-05 17:25 CST",
       "admittedAt": "2026-11-05 17:25 CST",
-      "lastChecked": "2026-11-05 17:37 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "dsAdmitReason": "Robinhood 链原生 OpenSea 的 FREE mint（supply 3333），尚未开铸且正在发放 WL/GTD，属于极早期打新窗口",
       "summary": "Robinhood 链 cozy cat care 游戏 NFT；FREE mint 3333；官推+官网；WL/GTD 进行中。",
       "whatsNew": "Robinhood 链上免费猫咪养成 NFT 开启 WL/GTD 抽奖，官网与官推已上线。",
@@ -259879,7 +259923,8 @@
         "timezone": "Asia/Shanghai",
         "note": "FREE mint supply 3333 on Robinhood / native OpenSea; WL/GTD giveaways live; official UTC mint time TBD",
         "source": "https://x.com/Kitzyclubz",
-        "le2h": false
+        "le2h": false,
+        "lastChecked": "2026-11-12 16:49:27 CST"
       },
       "progress": "WL/GTD FREE mint 预热 · supply 3333 · kitzyclubz.xyz · R1284",
       "onchain": {
@@ -260975,7 +261020,7 @@
         "GIWA 生态整体早期，流动性与退出路径不确定"
       ],
       "whatsNew": "R1703：14:10:59 CST 官帖称 Chainlink Data Streams 已将 Giwa Sepolia 列入支持测试网。产品/生态续更，无开盘时刻，不设窗。粉仍 2。",
-      "lastChecked": "2026-11-12 16:18:03 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "source": "keyword-blind-scoop",
       "admittedAt": "2026-11-06 03:21 CST",
       "followers": 2,
@@ -260984,7 +261029,7 @@
       "updatedAt": "2026-11-12 15:16:41 CST",
       "schedule": {
         "timezone": "Asia/Shanghai",
-        "lastChecked": "2026-11-12 16:18:03 CST",
+        "lastChecked": "2026-11-12 16:49:27 CST",
         "status": "watching",
         "le2h": false,
         "note": "Giwa Sepolia 入 Chainlink Data Streams 支持网，无开盘时刻。",
@@ -269869,12 +269914,13 @@
         "opensAt": "2026-11-30",
         "le2h": false,
         "source": "https://x.com/globemkts/status/2119792340718047326",
-        "lastChecked": "2026-11-09 22:24 CST"
+        "lastChecked": "2026-11-12 16:49:27 CST"
       },
       "score": null,
-      "lastChecked": "2026-11-09 22:24 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "newThisRound": false,
-      "le2h": false
+      "le2h": false,
+      "followers": 747
     },
     {
       "id": "district-49",
@@ -278294,12 +278340,17 @@
         "有官推",
         "极早期",
         "R1674",
-        "GIWA"
+        "GIWA",
+        "LIVE",
+        "Pons",
+        "Robinhood",
+        "有CA"
       ],
       "links": {
         "x": "https://x.com/GIWAHOOK",
         "twitter": "https://x.com/GIWAHOOK",
-        "signal": "https://x.com/GIWAHOOK/status/2120524622865264863"
+        "signal": "https://x.com/GIWAHOOK/status/2120797732021719171",
+        "ca": "0x55e5c52bfeddcabd4340074fcb1b2f6ffffce714"
       },
       "scores": {
         "early": 8.5,
@@ -278318,29 +278369,31 @@
         "无CA、无官网",
         "上线时间未明确"
       ],
-      "whatsNew": "R1699：仍为已记录的 11:20:05 CST 双链 hook 预告与 10:11:12 CST multipad 预告，无开盘时刻。粉仍 20。",
+      "whatsNew": "R1707：16:35:56 CST 官宣 $GIWAHOOK LIVE ON @ponsdotfamily，合约 0x55e5c52bfeddcabd4340074fcb1b2f6ffffce714；随后补「官方合约已上 Hero 落地页」、dev supply 即将销毁、Demo 视频已上线。原为双链 hook 预告，现已正式上线。≤2h 窗约至 18:35 CST。",
       "summary": "GIWA链上的V4 bonding curve发射台，官推刚开号并预告launches soon。",
       "blurb": "GIWA链新发射台，V4 bonding curve玩法，尚未有CA与官网。",
       "round": 1674,
       "focus": false,
       "lzVerified": false,
-      "status": "upcoming",
-      "le2h": false,
-      "followers": 20,
+      "status": "live",
+      "le2h": true,
+      "followers": 21,
       "xFollowers": 20,
       "firstSeen": "2026-11-11 23:01 CST",
       "addedAt": "2026-11-11 23:01 CST",
-      "lastChecked": "2026-11-12 16:18:03 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "zoneHint": "台子/Meme",
       "newThisRound": false,
       "updatedAt": "2026-11-12 15:16:41 CST",
       "schedule": {
         "timezone": "Asia/Shanghai",
-        "lastChecked": "2026-11-12 16:18:03 CST",
-        "le2h": false,
-        "status": "upcoming",
-        "note": "仍为已记录的双链 hook / multipad 预告，无开盘时刻；仅刷 lastChecked。",
-        "source": "https://x.com/GIWAHOOK/status/2120718245355573542"
+        "lastChecked": "2026-11-12 16:49:27 CST",
+        "le2h": true,
+        "status": "live",
+        "note": "16:35:56 CST 官宣 LIVE（Pons 绑曲线上线，Robinhood Chain + GIWA 同曲线同 hook）。窗约至 18:35 CST。",
+        "source": "https://x.com/GIWAHOOK/status/2120797732021719171",
+        "opensAt": "2026-11-12 16:35:56 CST",
+        "ca": "0x55e5c52bfeddcabd4340074fcb1b2f6ffffce714"
       },
       "events": {
         "timezone": "Asia/Shanghai",
@@ -278349,7 +278402,8 @@
         "note": "Coming 预告，不是已开盘，不设 2h 窗。",
         "source": "https://x.com/GIWAHOOK/status/2120700909403718086",
         "lastChecked": "2026-11-12 11:07:46 CST"
-      }
+      },
+      "ca": "0x55e5c52bfeddcabd4340074fcb1b2f6ffffce714"
     },
     {
       "id": "pritoppad",
@@ -278886,12 +278940,12 @@
         "无 CA、无链上核验，也无任何精确开窗或开铸时刻，本轮不具备可操作性。",
         "除 Solana 外，其余链均只表述为待部署的集成套件，不能按已上线理解。"
       ],
-      "whatsNew": "【R1685】新收录：Longevity 官网（HTTP 200）自称跨链 launchpad + OTC desk，文案写 Solana Live，Base、Robinhood Chain、BNB Chain、Hyperliquid 仅写为 Integration kit；唯一官帖为 03:46 CST 的 X Article 链接，正文未读到，无 CA、无开窗时刻。",
+      "whatsNew": "R1707：09:25:04 CST 官帖称已在全部 5 条链正式 live（Launch Higher. Last longer.）；仍无精确开盘钟点与 CA，不设 2h 窗。粉 4→29。",
       "summary": "Longevity 是一个自称跨链 launchpad 兼 OTC desk 的发射台，官网已可访问并给出产品叙述，其中只有 Solana 被明确标为 Live，其余链均为待部署的集成套件。官方 X 仅有 1 条指向长文的帖子，正文未能读取，且没有 CA、没有链上核验、也没有时间表，因此仅作低权重观察收录。",
       "blurb": "跨链 launchpad + OTC desk，仅 Solana 写明 Live；官帖正文不可读、无 CA，耐心观察。",
       "focus": false,
       "status": "watching",
-      "followers": 4,
+      "followers": 29,
       "xFollowers": 4,
       "zoneHint": "台子/Meme",
       "le2h": false,
@@ -278899,16 +278953,16 @@
         "status": "watching",
         "timezone": "Asia/Shanghai",
         "le2h": false,
-        "note": "官网自称 Solana Live；其余链仅为 Integration kit。无精确开窗时刻，不标 ≤2h",
-        "source": "https://x.com/Longevitylaunch/status/2120604041533407577",
+        "note": "官方宣称五链 live（此前仅 Solana live + 其余链 integration kit）。无精确开盘钟点，不标 ≤2h。",
+        "source": "https://x.com/Longevitylaunch/status/2120689301729988788",
         "website": "https://longevity.trading/",
-        "lastChecked": "2026-11-12 04:03:42 CST"
+        "lastChecked": "2026-11-12 16:49:27 CST"
       },
       "round": 1685,
       "lzVerified": false,
       "firstSeen": "2026-11-12 04:03:42 CST",
       "addedAt": "2026-11-12 04:03:42 CST",
-      "lastChecked": "2026-11-12 04:03:42 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "newThisRound": false
     },
     {
@@ -278955,12 +279009,12 @@
         "未提供「已上 Elysium 官方生态页」证据，故不进 Elysium 栏、ecosystem 留空；实际结算与分账合约均未核验。",
         "80% 分账的具体执行方（由发射台代扣还是 Sent 合约托管）在已抓取文案中未说明。"
       ],
-      "whatsNew": "【R1686】首次建卡。2026-11-12 03:36 CST 官帖发布 Sent：在 Volta / Ascend / Montra 发币并指定 X / Twitch / fomo 创作者，交易费 80% 自动转给创作者（Nothing to claim）。官网 sent.money 本轮 200 可访问，含 Launch a token / Open app / Docs 入口；页面示例按 Volta 默认费率走 $1,000 买入。未提供 Elysium 官方生态页证据，故不进 Elysium 栏、ecosystem 留空；$SENT 等代币字样未做链上核验，不作为 CA。",
+      "whatsNew": "R1707：14:30:16 CST 公布上线首 11 小时数据：$7,214 创作者费用、7 位创作者、12 个新代币、22.9M $SENT 已销毁（占 2.29%），并续报费用去向与回购销毁。产品已 LIVE，不新开 2h 窗。粉 26→58。",
       "summary": "Sent 是架在 Volta / Ascend / Montra 之上的创作者费分账层：发币时指定一个 X / Twitch / fomo 账号，该币手续费的 80% 自动进对方钱包，无需领取。产品站已可用，但账号极新、无任何链上核验，属早期观察级台子工具。",
       "blurb": "在 Volta / Ascend / Montra 发币，把 80% 创作者费自动打给指定 X / Twitch / fomo 账号。",
       "focus": false,
       "status": "live",
-      "followers": 26,
+      "followers": 58,
       "xFollowers": 26,
       "zoneHint": "台子/Meme",
       "le2h": false,
@@ -278968,16 +279022,16 @@
         "timezone": "Asia/Shanghai",
         "status": "live",
         "le2h": false,
-        "note": "产品站与官帖均已上线，但未公布任何精确开盘钟点或首发代币时刻，不标 le2h。官网示例默认走 Volta 费率。",
-        "source": "https://x.com/SentElysium/status/2120601581519585532",
+        "note": "已 LIVE 的运行数据续更，不新开 2h 窗。",
+        "source": "https://x.com/SentElysium/status/2120766105514017278",
         "website": "https://www.sent.money/",
-        "lastChecked": "2026-11-12 04:37:45 CST"
+        "lastChecked": "2026-11-12 16:49:27 CST"
       },
       "round": 1686,
       "lzVerified": false,
       "firstSeen": "2026-11-12 04:37:45 CST",
       "addedAt": "2026-11-12 04:37:45 CST",
-      "lastChecked": "2026-11-12 04:37:45 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "newThisRound": false
     },
     {
@@ -279382,7 +279436,7 @@
         "自报 $BOND 合约 FzHT8dVuPeHeYMKG7ApED14qsBqSpgq6XDL4oJPvbond 未链上核验，未写入 ca 字段",
         "帖文只讲功能上线，无新币开盘时刻，不构成 2h 打新窗"
       ],
-      "whatsNew": "【R1693】08:30:00 CST 官帖：launches/buys/sells/claims 改走 Helius Sender，自测约快 30%、掉单更少。属产品更新，不新开 2h 窗",
+      "whatsNew": "R1707：13:00 CST 重申每枚 Bond 都是 Raydium LaunchLab；11:30 CST 同步性能升级；15:10 CST 开放 Discord。产品续更，不设窗。",
       "summary": "Solana 上的公平创作者费 launchpad，主打任意资产配对、周度 BOND 空投与 Raydium 毕业。站已跑起来但毕业数为 0、深度薄。",
       "blurb": "bond.rip：活站但 0 毕业 0 成交的新 Solana 台子，先观察首批币。",
       "oneLiner": "bond.rip：活站但 0 毕业 0 成交的新 Solana 台子，先观察首批币。",
@@ -279395,9 +279449,9 @@
         "timezone": "Asia/Shanghai",
         "status": "live",
         "le2h": false,
-        "note": "本轮无新开盘信息，仅刷 lastChecked。",
-        "lastChecked": "2026-11-12 14:04:58 CST",
-        "source": "https://x.com/bonddotrip/status/2120675442759745899",
+        "note": "产品/Discord 续更，不设窗。",
+        "lastChecked": "2026-11-12 16:49:27 CST",
+        "source": "https://x.com/bonddotrip/status/2120743395996090687",
         "website": "https://bond.rip/"
       },
       "round": 1688,
@@ -279405,7 +279459,7 @@
       "firstSeen": "2026-11-12 05:50:10 CST",
       "addedAt": "2026-11-12 05:50:10 CST",
       "updatedAt": "2026-11-12 14:04:58 CST",
-      "lastChecked": "2026-11-12 14:04:58 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "newThisRound": false,
       "source": "https://x.com/bonddotrip/status/2120630144100380913"
     },
@@ -279606,14 +279660,14 @@
         "note": "仍为已记录的 09:12 CST testnet live / 4000 Passes，窗已关；仅刷 lastChecked。",
         "source": "https://x.com/giwapad_xyz/status/2120686141728825807",
         "opensAt": "2026-11-12 09:12 CST",
-        "lastChecked": "2026-11-12 16:18:03 CST",
+        "lastChecked": "2026-11-12 16:49:27 CST",
         "startsAt": "2026-11-12T09:12:31+08:00"
       },
       "firstSeen": "2026-11-12 09:23:47 CST",
       "addedAt": "2026-11-12 09:23:47 CST",
       "newThisRound": false,
       "round": 1694,
-      "lastChecked": "2026-11-12 16:18:03 CST",
+      "lastChecked": "2026-11-12 16:49:27 CST",
       "updatedAt": "2026-11-12 15:16:41 CST",
       "lzVerified": false,
       "events": {
