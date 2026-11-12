@@ -1,0 +1,116 @@
+{
+  "round": 1700,
+  "completedAt": "2026-11-12 12:50:01 CST",
+  "docsSynced": true,
+  "notify": false,
+  "notifyReason": "无新收录且无仍开 2h 窗",
+  "alertMessage": "本轮无合格新收录，也没有仍开着的 ≤2h 窗。在库续更：tapeai 12:21 CST 申请加入首期 TapeOut 创造营；tapeup 12:28 CST 欢迎其加入 Builder Camp；getblessed-fun 称 shit_capital 即将上线但无精确时刻；elemintrix launchpad 已对所有人开放建收藏并预告 Space；nest-exchange 激励池与代币化股票 LP 已上线；quoted-xyz $QUOTED v2 hook 已 live。今晚关注 clover-rh 20:00、zerva 21:00、bloodstockrh/mythosbsc 22:00；boolish-rh Possession night 在 11-13 23:00 CST。面板 https://reboot7454.github.io/early-scout/",
+  "summary": "本轮无合格新收录，admits 为空。送审新号全部 skip：PostageVault（仍为投票提名）、Hypermonn（无CA无时刻）、AIKGSI（自称 Flap 公平发射但无时刻/CA）、以及 Kikipqem / Sajid02101 / ruffys_ai / Hhhh3i2o / Copper12Studios / Biligemanglai（均无CA无时刻）。静号 Tape/电路 栏未见送审。在库续更：tapeai / tapeup / getblessed-fun / elemintrix / nest-exchange / quoted-xyz / rgbhorse；gekko-launchpad Pioneer Rewards 已由 R1697 记录仅刷 lastChecked；enter-elysium 无新 mint。kurogane-fun GTD/WL 已于 2026-11-10 20:30 CST 截止，已从今晚名单剔除。完成时无仍开 2h 窗。",
+  "dsNote": "deepseek-flash thinking-on：第三次调用（max_tokens=8000）JSON 完整可解析，admits=[]，notify=false。第一次调用只输出思考未给 JSON；第二次 JSON 开写后被截断；未改用高成本模型，dsFallback=false。PostageVault / Hypermonn / AIKGSI / Kikipqem / Sajid02101 / ruffys_ai / Hhhh3i2o / Copper12Studios / Biligemanglai 全部 skip。must 拆成 Enter_Elysium 与 hamster/Ascend/squeek 两条，后三条 0 帖，无需补查，xReads 保持 27。静号 Tape/电路 栏 search_users 不可用未伪造，提及搜索 seen=27 sentToReview=0 admitted=0，deferredHandles 空。",
+  "dsFallback": false,
+  "discordPeekDeferred": true,
+  "newThisRound": [],
+  "candidates": 4060,
+  "xReads": 27,
+  "remainingBefore": 712,
+  "remaining": 684,
+  "mode": "ample",
+  "softCap": 28,
+  "minSpend": 20,
+  "silentCap": 2,
+  "ufCursor": 629,
+  "ufCursorBefore": 559,
+  "laneReads": {
+    "LayerZero": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "kwCoreRan": [
+    "打新",
+    "台子/Meme",
+    "GO盘",
+    "Elysium"
+  ],
+  "kwCoreDeferred": [
+    "挖矿"
+  ],
+  "mentionsThin": [
+    "@PlunderPort/@TapeAIAgent",
+    "@GIWA_by_Upbit/@DogeOS",
+    "@ShieldedNaka/@Bramble_fi"
+  ],
+  "mentionsRest": [
+    "@flapdotsh/@irys_xyz"
+  ],
+  "silentAccounts": {
+    "ran": true,
+    "seen": 27,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 27,
+    "lane": "Tape/电路",
+    "index": 6,
+    "userQuery": "TapeOut",
+    "search_users_unavailable": true,
+    "deferredHandles": [],
+    "skipReasons": {
+      "too_many_posts": 23,
+      "already_in_library": 4
+    },
+    "note": "R1700 rotated to Tape/电路 (index 6, userQuery “TapeOut”). search_users still unavailable; user-search slot was not faked and not counted. Queue from R1699 was empty, so silentCap second call was search_posts_all has:mentions (TapeOut OR TapeAI OR bitcointapes) -is:retweet. Filter: seen=27, sentToReview=0, admitted=0, skipped=27 (too_many_posts 23, already_in_library 4: tapeupio, TapeAIAgent, TapeOutWorld, BEMGoGoGo). deferredHandles left empty. Young authors (PostageVault, Hypermonn, AIKGSI, Kikipqem, Sajid02101, ruffys_ai, Hhhh3i2o, Copper12Studios, Biligemanglai) were reviewed on the main path and skipped: no CA / no time."
+  },
+  "fatShards": {
+    "agentPad": {
+      "range": [
+        571,
+        596
+      ],
+      "dropped": 3,
+      "wrapped": false,
+      "nAccounts": 760,
+      "nextStart": 596,
+      "kept": 22
+    },
+    "freeMint": {
+      "range": [
+        310,
+        335
+      ],
+      "dropped": 1,
+      "wrapped": false,
+      "nAccounts": 367,
+      "nextStart": 335,
+      "kept": 24
+    },
+    "bnAgent": {
+      "range": [
+        202,
+        227
+      ],
+      "dropped": 16,
+      "wrapped": false,
+      "nAccounts": 282,
+      "nextStart": 227,
+      "kept": 9
+    },
+    "elysium": {
+      "range": [
+        132,
+        157
+      ],
+      "dropped": 0,
+      "wrapped": false,
+      "nAccounts": 268,
+      "nextStart": 157,
+      "kept": 25
+    }
+  },
+  "lastFullAfterReset": "R1692",
+  "tenLanes": true,
+  "pushPending": false,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "pushSha": "14d7eb3"
+}
