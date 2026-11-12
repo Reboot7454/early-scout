@@ -1,0 +1,78 @@
+{
+  "round": 1698,
+  "completedAt": "2026-11-12 11:38:55 CST",
+  "notify": false,
+  "notifyReason": "无新收录且无仍开 2h 窗",
+  "docsSynced": true,
+  "pushSha": "PENDING",
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "newThisRound": [],
+  "alertMessage": "本轮无合格新收录。已出窗：giwapad-xyz（testnet live 至约 11:12 已关）、hood-junkies（至约 11:11 已关）。在库续更：enter-elysium 生态进展（unitxyz 上线、$KNTQ 上 fomo、Solana 经 Jupiter 桥入）；giwahook 双链 hook 预告；tapeai 发 TAI PoB 计划；pairmine / jager 进度续更。lil-giraffies 与 elysium-pepes 排期仍指向 11-13。面板 https://reboot7454.github.io/early-scout/",
+  "summary": "本轮无合格新收录，admits 为空。已出窗：giwapad-xyz（至约 11:12 已关）、hood-junkies（至约 11:11 已关）。enter-elysium / giwahook / tapeai / pairmine / jager 为在库续更；lil-giraffies / elysium-pepes 排期指向 11-13。",
+  "xReads": 27,
+  "remainingBefore": 787,
+  "remaining": 759,
+  "mode": "ample",
+  "softCap": 28,
+  "minSpend": 20,
+  "ufCursor": 499,
+  "ufCursorBefore": 434,
+  "laneReads": {
+    "LayerZero": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "kwCoreRan": [
+    "打新",
+    "挖矿",
+    "台子/Meme",
+    "GO盘"
+  ],
+  "kwCoreDeferred": [
+    "Elysium"
+  ],
+  "mentionsThin": [
+    "LayerZero+Tape",
+    "GIWA+DogeEVM",
+    "BTC+Starknet"
+  ],
+  "mentionsRest": [
+    "@flapdotsh/@irys_xyz"
+  ],
+  "silentAccounts": {
+    "ran": true,
+    "seen": 29,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 29,
+    "lane": "LayerZero",
+    "index": 4,
+    "userQuery": "LayerZero OFT",
+    "search_users_unavailable": true,
+    "deferredHandles": [],
+    "skipReasons": {
+      "too_many_posts": 24,
+      "already_in_library": 5
+    },
+    "note": "R1698 rotated to LayerZero (index 4, userQuery “LayerZero OFT”). search_users still unavailable; user-search slot was not faked and not counted. Queue from R1697 was empty, so silentCap second call was search_posts_all has:mentions (LayerZero OR OFT) (mint OR launch OR launchpad). Filter: seen=29, sentToReview=0, admitted=0, skipped=29 (too_many_posts 24, already_in_library 5). deferredHandles left empty."
+  },
+  "candidateCount": 4060,
+  "le2h": [],
+  "lastFullAfterReset": "R1692",
+  "softDebtRefreshed": [
+    "glazeWatch",
+    "cantonPadWatch",
+    "cantonWatch",
+    "tokenWorksWatch",
+    "tokenWorksPlaygroundWatch",
+    "flapPadWatch"
+  ],
+  "watchAdds": [],
+  "tenLanes": true,
+  "dsNote": "deepseek-flash thinking-on：一次调用 JSON 完整可解析，admits=[]。ToraFunXyz（0 粉、仅 1 篇 X Article、自报 CA 未核验）、PostageVault（Ord_Dropz 投票提名）、CATPADSOL（已运作约 34 天）、OrbioAgents（AI agent 活动非发行）及喊单/转推小号全部 skip。giwapad-xyz / hood-junkies 窗已关，完成时 le2h=false。enter-elysium 有 unitxyz/$KNTQ/Jupiter 桥/48h DEX 量等生态更新，无新 mint 窗；giwahook 11:20 双链 hook 预告；tapeai 发 TAI PoB 计划文章；pairmine 34/888、jager 225,317 shares 进度续更。补查 hamster-hour/ascendlaunch/squeekchain 无新帖，不据第三方传言改 squeek 卡。静号 LayerZero 栏 search_users 不可用未伪造，提及搜索 seen=29 sentToReview=0，deferredHandles 空。未用高成本模型，dsFallback=false。"
+}
