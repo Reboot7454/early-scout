@@ -3,6 +3,7 @@
 时间：2026-11-13 02:49:56 CST（Asia/Shanghai）
 仓库：Reboot7454/early-scout
 面板：https://reboot7454.github.io/early-scout/
+pushSha：9b6eb03（9b6eb0383a5e2fcd6e10fa9516fc47e296e5b3f8）
 notify=true
 discordPeekDeferred=true（本机未登录 Discord，Peek 跳过）
 
