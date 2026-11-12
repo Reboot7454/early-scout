@@ -63,7 +63,7 @@ discordPeekDeferred=true（本机未登录 Discord，Peek 跳过）
 - skipped: 27（多为已在库官号或等待名单农场号；未解析提及转入 deferredHandles，不另占 softCap）
 
 ## 本轮结论
-R1734 ample。新收录 2 张：Corporation 已确认部署并在 Elysium 上线，但账号极新（0 粉）、无单一 CA、未见审计；Sentera 是 Robinhood Chain 上 Pons 交叉保证金概念，主网合约暂停未注资、保证金只在测试网，官帖 CA 与官网列表不一致，本轮 ca 留空，未进 Elysium 栏。polyrob 白名单/开铸改为约 20:02 / 22:02 CST，距开铸仍 >2h。hood-terminals 付费公售并未按此前假定结束，官号称仍在进行，OS 496/777。boatn-fish 付费 Genesis 仍 LIVE，515/2222。candidateCount 4080→4082。新卡均 focus=false，均已进 Watch。未自动 mint。docs/data.json 已同步并推送。notify=true。pushSha=PENDING。
+R1734 ample。新收录 2 张：Corporation 已确认部署并在 Elysium 上线，但账号极新（0 粉）、无单一 CA、未见审计；Sentera 是 Robinhood Chain 上 Pons 交叉保证金概念，主网合约暂停未注资、保证金只在测试网，官帖 CA 与官网列表不一致，本轮 ca 留空，未进 Elysium 栏。polyrob 白名单/开铸改为约 20:02 / 22:02 CST，距开铸仍 >2h。hood-terminals 付费公售并未按此前假定结束，官号称仍在进行，OS 496/777。boatn-fish 付费 Genesis 仍 LIVE，515/2222。candidateCount 4080→4082。新卡均 focus=false，均已进 Watch。未自动 mint。docs/data.json 已同步并推送。notify=true。pushSha=be28416。
 
 ## dsNote
 deepseek-flash thinking-on，一次调用（max_tokens=7000）完整返回两张新卡、五条 updates、alert 与 summary，未截断。入库时把 twitter/links/schedule 从模型的 URL 数组/字符串校正为仓库字段结构（handle/twitter 用 @官号，links 用 x/twitter/website/announcement 对象，schedule 用对象）。Sentera 的 zone/chain/ecosystem 写为 Robinhood Chain，未把 Elysium planned/testnet foundations 写成已部署。分数均为 100 分制。未走 dsFallback。未编造 CA。未把官帖未核 CA 写入 sentera.ca。
@@ -72,4 +72,4 @@ deepseek-flash thinking-on，一次调用（max_tokens=7000）完整返回两张
 🔔 R1734：两张新卡 Corporation（@corporation_sh，Elysium Hyperliquid 策略市场已 live，0 粉、无单一 CA、未见审计）、Sentera（@senteraperps，Robinhood Chain Pons 交叉保证金仍 testnet，主网合约暂停未注资，官帖 CA 未出现在官网列表故留空）。polyrob 新时刻：白名单约 11-13 20:02 CST 关闭、约 22:02 CST 开铸（距开铸仍 >2h）。hood-terminals 付费公售仍在（public still cooking），OS 496/777、floor 0.00126989 ETH，无新结束时刻。boatn-fish 官方 API 515/2222、wallets 37、现价约 0.01795 SOL，付费非免费。面板：https://reboot7454.github.io/early-scout/
 
 ## 推送
-pushSha=PENDING（提交后回填） origin/main。面板应随 GitHub Pages 刷新。
+pushSha=be28416（be2841664134350d80b5617b49de81837b21e63f） origin/main。面板应随 GitHub Pages 刷新。
