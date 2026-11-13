@@ -1,6 +1,6 @@
 {
   "round": 1767,
-  "mode": "discord-alpha-40",
+  "mode": "pace",
   "completedAt": "2026-11-13 20:12 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
@@ -139,7 +139,7 @@
     "boxcars",
     "honestbull"
   ],
-  "discordPeekDeferred": false,
+  "discordPeekDeferred": true,
   "dsFallback": false,
   "dsUsage": "deepseek-flash admits=3 (of 5 DS-admit, 5 keepers) calls=2 (admit+alert) prompt=3154 completion=4527; thinking on",
   "coverage": "discord-alpha #alpha-3-new-accounts + #alpha-1-backup + #smart-accounts-tracker + #alpha-1 glance",
@@ -193,5 +193,26 @@
   "dataUpdated": true,
   "cardsFile": "dc40_cards_r1766.json",
   "priorRoundNote": "Remote was R1766 at apply time; this DC is R1767. Did not overwrite R1766.",
-  "alert": "R1767 Discord alpha 补充收录 3 条：\n\n1. **Ossyra**（@ossyracc）｜栏位：台子/Meme｜链：Robinhood Chain — 官方宣布 $OSSYRA 在 Robinhood 上线（2026-11-13 19:58 CST）；Pons V2 池约 19:49 CST 创建，官网已展示合约地址，并与链上池核对一致。\n\n2. **The Shadow Born**（@TSBdotfun）｜栏位：打新｜链：Robinhood Chain — 官方帖子显示进展到 wallet checker soon 阶段，确认 3,333 枚免费铸造、5 个 Orders 与 GTD 白名单征集；尚无合约与档期。\n\n3. **ephemeral**（@ephemeral_eth）｜栏位：打新｜链：Ethereum — $EPH 定档 2026-11-16 23:00 CST 以太坊主网上线，官网同步列出 Announcer 和 Registry 合约与 6 链支持。\n\n详见面板：https://reboot7454.github.io/early-scout/"
+  "alert": "R1767 Discord alpha 补充收录 3 条：\n\n1. **Ossyra**（@ossyracc）｜栏位：台子/Meme｜链：Robinhood Chain — 官方宣布 $OSSYRA 在 Robinhood 上线（2026-11-13 19:58 CST）；Pons V2 池约 19:49 CST 创建，官网已展示合约地址，并与链上池核对一致。\n\n2. **The Shadow Born**（@TSBdotfun）｜栏位：打新｜链：Robinhood Chain — 官方帖子显示进展到 wallet checker soon 阶段，确认 3,333 枚免费铸造、5 个 Orders 与 GTD 白名单征集；尚无合约与档期。\n\n3. **ephemeral**（@ephemeral_eth）｜栏位：打新｜链：Ethereum — $EPH 定档 2026-11-16 23:00 CST 以太坊主网上线，官网同步列出 Announcer 和 Registry 合约与 6 链支持。\n\n详见面板：https://reboot7454.github.io/early-scout/",
+  "mergedPace": true,
+  "paceCompletedAt": "2026-11-13 20:41 CST",
+  "paceNotify": true,
+  "paceAlertMessage": "HonestBull 新开付费铸造窗：0.002 BNB/份，共 10,000 份，每钱包上限 10，链上已售 23/10000，截止 2026-11-18 02:29 CST（官网写 02:31），未满则 7 天截止后 100% 退款；合约 0x7A145947aE616045D984ee6c82b991E1d036B695，非免费。顺带：Ashling、polyrob 仍 22:00 CST；agx-402 genesisClaims 已按预约 OPEN；hooded-ape-club 免费档已满、OpenSea 已铸 1100；myco 链上仍 0。面板 https://reboot7454.github.io/early-scout/ 本号不自动 mint。",
+  "paceAdmits": [],
+  "xReads": 25,
+  "xReadsMain": 24,
+  "xReadsSilent": 1,
+  "remainingBefore": 367,
+  "remaining": 342,
+  "softCap": 18,
+  "minSpend": 18,
+  "silentCap": 2,
+  "ufCursor": 990,
+  "paceDsUsage": "deepseek-flash thinking-on, 1 call, notify=true admits=[] ; not dsFallback",
+  "watchBugsFixed": [
+    "ossyra",
+    "tsbdotfun",
+    "ephemeral-eth"
+  ],
+  "paceNote": "Discord occupied at 20:12 with ossyra/tsbdotfun/ephemeral-eth already notified. Pace merged at 20:41; HonestBull Issue #1 paid mint LIVE triggered pace notify. Discord admits not re-notified."
 }
