@@ -300,12 +300,14 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "commit": "b1fbc6ffe1a821840145553f42d97d886bde1253",
+    "remote": "origin/main"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1779：Discord alpha 补收 fantera, zivilia, 010101fun, pipifoundation, kitthecalico；已清上一轮 newThisRound []（pace R1778 已清过 DC 三卡徽章）；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-14 01:21', 'alpha-1-backup': '2026-11-14 01:19', 'smart-accounts-tracker': '2026-11-14 01:07', 'alpha-1': '2026-11-14 01:20'}；开跑前远程已是 R1778（独立 pace，无新卡），本轮 DC=R1779，未覆盖既有轮次",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1778.json",
   "priorRoundNote": "远程开跑后已是 R1778（pace 独立轮，无新卡，已清 R1777 NTR）；本轮 DC=R1779，未覆盖既有轮次；cardsAfterCutoff=43",
   "categoryOverride": "none",
@@ -315,5 +317,13 @@
     "alpha-1-backup": true,
     "smart-accounts-tracker": true,
     "alpha-1": true
-  }
+  },
+  "remoteRound": 1779,
+  "remoteNewThisRound": [
+    "fantera",
+    "zivilia",
+    "010101fun",
+    "pipifoundation",
+    "kitthecalico"
+  ]
 }
