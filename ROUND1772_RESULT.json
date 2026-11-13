@@ -1,0 +1,165 @@
+{
+  "round": 1772,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-13 22:46 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R1772 Discord alpha 补充收录 5 条：\n1. **Crownmark**（@trycrownmark）｜栏位：台子/Meme｜链：Robinhood Chain——官网 trycrownmark.xyz 可打开，定位只读投资组合层；2026-11-13 22:34 CST 官宣 $CROWN live on Robinhood Chain，官方 CA 0x0a14715ebb1f56e8b57e5aeaed11ec012804ea60，Pons V2 CROWN/WETH 池 0xbf511948cf3ab5e0feafdc8447882204028c5abc 于 22:29 CST 创建、graduation 9.55% 未毕业；22:35 CST 另有销毁帖。\n2. **Homma Agent**（@homma_agent）｜栏位：台子/Meme｜链：Robinhood Chain——官网 homma.tech 可打开；今日官帖称 5 个 AI agent 做纸上交易；同日 22:33 CST 明确 Not launched yet，无 CA、无开盘时刻。\n3. **nofomo**（@nofomopaper）｜栏位：台子/Meme｜链：Solana——官网 nofomo-paper.trade 产品已上线，Solana meme 纸上交易，虚拟资金、无钱包无入金；无代币 CA，不是 mint。\n4. **AgentRaise**（@agent_raise）｜栏位：打新｜链：BNB Chain——Flap 上的 agent-only 发射台，首个自主发射 $AR 已 live，官方 CA 0x3bdcba24571c6aef4fbc4921685bf1e6740d7777，PancakeSwap v2 AR/WBNB 池 0x40e39adb2974d7feee26561c264c2411357053c5 于 22:07 CST 创建；21:54 CST 募资进度 2058/5000，随后官宣 token live。\n5. **PERPSIUM**（@perpsiumXYZ）｜栏位：台子/Meme｜链：未核验——官网 perpsium.xyz 可打开，含 Perps Deck 纸上交易等模块；bio 地址本轮未核验为代币 CA，Elysium 生态页无法核验，不写成已入驻。\n完整面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "crownmark",
+    "homma-agent",
+    "nofomo-paper",
+    "agent-raise",
+    "perpsium"
+  ],
+  "newCount": 5,
+  "newIds": [
+    "crownmark",
+    "homma-agent",
+    "nofomo-paper",
+    "agent-raise",
+    "perpsium"
+  ],
+  "skipped": [
+    {
+      "id": "tokennova",
+      "reason": "X 号 0 帖，官网仅有 waitlist（2026-12-01 23:00 CST），无产品/发射/挖矿线索，属空壳预热。"
+    },
+    {
+      "id": "wykzone",
+      "reason": "官网与官帖均写 Private beta Early 2027，当下不可操作，且无代币/发射时刻。"
+    }
+  ],
+  "alreadyInDb": [
+    {
+      "handle": "@hookdroid",
+      "reason": "already_have",
+      "id": "hookdroid",
+      "name": "Hookdroid",
+      "cardTimeCST": "2026-11-13 22:14",
+      "channels": [
+        "alpha-3-new-accounts"
+      ]
+    },
+    {
+      "handle": "@VordaLaunch",
+      "reason": "already_have",
+      "id": "vorda",
+      "name": "Vorda",
+      "cardTimeCST": "2026-11-13 22:14",
+      "channels": [
+        "alpha-1"
+      ]
+    }
+  ],
+  "prereject": [
+    {
+      "handle": "@billylhx77379",
+      "reason": "personal_or_spam"
+    },
+    {
+      "handle": "@kaosaratr3",
+      "reason": "personal_or_spam"
+    },
+    {
+      "handle": "@vishaltiwaclv5",
+      "reason": "personal_or_spam"
+    },
+    {
+      "handle": "@palees_free",
+      "reason": "personal_or_spam"
+    },
+    {
+      "handle": "@mawia9359",
+      "reason": "personal_or_spam"
+    },
+    {
+      "handle": "@wisnugemahamiz2",
+      "reason": "empty_or_personal_bio"
+    },
+    {
+      "handle": "@anamnaveed40",
+      "reason": "personal_or_spam"
+    },
+    {
+      "handle": "@cryptoyu250709",
+      "reason": "personal_or_spam"
+    },
+    {
+      "handle": "@hamdani95b",
+      "reason": "personal_or_spam"
+    },
+    {
+      "handle": "@teaboi10",
+      "reason": "empty_or_personal_bio"
+    },
+    {
+      "handle": "@grid_arena",
+      "reason": "high_followers_no_product"
+    },
+    {
+      "handle": "@xbk8899000xmx",
+      "reason": "personal_or_spam"
+    },
+    {
+      "handle": "@kang1_wei",
+      "reason": "personal_or_spam"
+    }
+  ],
+  "cardsAfterLastSeen": 29,
+  "cardsAfterCutoff": 29,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "tradefolk",
+    "axisindexnet",
+    "agent-octan",
+    "ordo-labs",
+    "midnight-arcade-club"
+  ],
+  "candidateFlagsCleared": 5,
+  "topNewThisRoundCleared": [
+    "tradefolk",
+    "axisindexnet",
+    "agent-octan",
+    "ordo-labs",
+    "midnight-arcade-club"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=5 (of 7 DS-admit, 7 keepers) calls=2 prompt=8642 completion=7129",
+  "coverage": "discord-alpha #alpha-3-new-accounts + #alpha-1-backup + #smart-accounts-tracker + #alpha-1 glance",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-13 22:34",
+    "lastChecked": "2026-11-13 22:46 CST",
+    "newestCardTime": "2026-11-13 22:34",
+    "cardsAfterCutoff": 29,
+    "note": "R1772：Discord alpha 补收 crownmark, homma-agent, nofomo-paper, agent-raise, perpsium；清上一轮 newThisRound tradefolk, axisindexnet, agent-octan, ordo-labs, midnight-arcade-club；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 22:34', 'alpha-1-backup': '2026-11-13 22:05', 'smart-accounts-tracker': '2026-11-13 22:17', 'alpha-1': '2026-11-13 22:14'}；开跑前远程已是 R1771，本轮 DC=R1772，未覆盖既有轮次",
+    "lastRound": 1772,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-13 22:34",
+      "alpha-1-backup": "2026-11-13 22:05",
+      "smart-accounts-tracker": "2026-11-13 22:17",
+      "alpha-1": "2026-11-13 22:14"
+    },
+    "spideyPosting": true,
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-12 00:02",
+      "to": "2026-11-13 05:11",
+      "nFilled": 0,
+      "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1769 lastSeen"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1772：Discord alpha 补收 crownmark, homma-agent, nofomo-paper, agent-raise, perpsium；清上一轮 newThisRound tradefolk, axisindexnet, agent-octan, ordo-labs, midnight-arcade-club；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 22:34', 'alpha-1-backup': '2026-11-13 22:05', 'smart-accounts-tracker': '2026-11-13 22:17', 'alpha-1': '2026-11-13 22:14'}；开跑前远程已是 R1771，本轮 DC=R1772，未覆盖既有轮次",
+  "remoteVerified": false,
+  "cardsFile": "/tmp/dc40_cards_r1772.json",
+  "priorRoundNote": "Remote was R1771 at apply time; this DC is R1772. Did not overwrite R1771."
+}
