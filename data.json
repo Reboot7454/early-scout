@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-14 06:32",
+    "updated": "2026-11-14 06:46 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-14 06:32",
+    "lastScout": "2026-11-14 06:46 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -752,7 +752,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1788,
+    "round": 1789,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2255,9 +2255,7 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [
-      "charity-pay"
-    ],
+    "newThisRound": [],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -4972,17 +4970,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-14 06:04",
-      "lastChecked": "2026-11-14 06:14 CST",
-      "newestCardTime": "2026-11-14 06:04",
-      "cardsAfterCutoff": 39,
-      "note": "R1788：Discord alpha 补收 charity-pay；已清上一轮 newThisRound []；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-14 06:04', 'alpha-1-backup': '2026-11-14 06:04', 'smart-accounts-tracker': '2026-11-14 05:56', 'alpha-1': '2026-11-14 05:54'}；开跑前远程已是 R1787，本轮 DC=R1788，未覆盖既有轮次",
-      "lastRound": 1788,
+      "lastSeen": "2026-11-14 06:34",
+      "lastChecked": "2026-11-14 06:46 CST",
+      "newestCardTime": "2026-11-14 06:34",
+      "cardsAfterCutoff": 19,
+      "note": "R1789：Discord alpha 补漏无新收录；已清上一轮 newThisRound ['charity-pay']；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-14 06:34', 'alpha-1-backup': '2026-11-14 06:04', 'smart-accounts-tracker': '2026-11-14 06:26', 'alpha-1': '2026-11-14 06:25'}；开跑前远程已是 R1788，本轮 DC=R1789，未覆盖既有轮次",
+      "lastRound": 1789,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-14 06:04",
+        "alpha-3-new-accounts": "2026-11-14 06:34",
         "alpha-1-backup": "2026-11-14 06:04",
-        "smart-accounts-tracker": "2026-11-14 05:56",
-        "alpha-1": "2026-11-14 05:54"
+        "smart-accounts-tracker": "2026-11-14 06:26",
+        "alpha-1": "2026-11-14 06:25"
       },
       "spideyPosting": true,
       "alpha3OlderGap": {
@@ -5129,7 +5127,7 @@
       "zec-nodes",
       "boys-in-hood"
     ],
-    "alertMessage": "R1788 Discord alpha 补充收录 1 条，面板：https://reboot7454.github.io/early-scout/\n\n1. **Charity Pay**（@UseCPay，台子/Meme，Solana）：X 账号创建于 2026-11-04 08:14 CST，蓝 V，当前 7 粉、3 帖；bio 为 “Creator fees donated to any charity.”，资料链接官网 https://cpay.charity；同时出现在 #alpha-1（05:54 CST，Spidey Bot）与 #alpha-1-backup（06:04 CST，7 粉，follower of @mutu_1987）。2026-11-14 05:46 CST 官宣帖（带视频）称：在 @Pumpfun 发射代币，把 creator fees 指向任意慈善或募捐，每笔交易为其筹款，费用每次达到 $10 即捐出；05:40 CST 回复 @Pumpfun 补充“每收满 $10 creator fees 捐一次”，05:37 CST 另有推文引导 cpay.charity。缺点：本轮官网核验 https://cpay.charity 与 https://www.cpay.charity/ 均 HTTP 404，Vercel 返回 DEPLOYMENT_NOT_FOUND，当前无法打开或试用；“满 $10 自动捐出”仅为官方帖自述，未获链上证实，无官方代币 CA、程序地址或捐赠交易可核验；账号仅 7 粉、3 帖，属极早期。",
+    "alertMessage": "",
     "dsSummary": "R1753 ample 扫描新收 DripEVM（@DripEVM，DeepSeek overall 79，admit=true）Elysium 免费白名单 LIVE，已铸 149/888。The Syndicate ≤2h 窗已于 14:37 CST 结束，官号仍称 Mint is Live，OpenSea 已铸 802→821、floor 约 0.25 USDG。已在库 Riftera 446→447、First Take 仍 194、Momo 291→292、Clause 5→8、Arctic 73→74、Shark 仍 21、Zodiac 仍 335。修复 R1752 十二张新卡监控漏挂。本号不自动 mint。",
     "round270Added": [
       "avatarpad"
@@ -33489,7 +33487,10 @@
       "wrap": false
     },
     "r1788ResidualWatchBugs": 2081,
-    "r1788ResidualWatchBugNote": "在库未挂 Watch 仅计数、不整表回填。Discord 新卡 charity-pay 开跑时已在 userFollowWatch.accounts + candidateIds，无需补挂，未兼挂其它 Watch。无新发现的 Watch 漏挂。"
+    "r1788ResidualWatchBugNote": "在库未挂 Watch 仅计数、不整表回填。Discord 新卡 charity-pay 开跑时已在 userFollowWatch.accounts + candidateIds，无需补挂，未兼挂其它 Watch。无新发现的 Watch 漏挂。",
+    "round1789Added": [],
+    "r1789WatchAdds": [],
+    "r1789WatchAddDetails": []
   },
   "candidates": [
     {
@@ -33539,7 +33540,7 @@
       "addedAt": "2026-11-14 06:14 CST",
       "lastChecked": "2026-11-14 06:32:55 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "schedule": {
         "lastChecked": "2026-11-14 06:32:55 CST",
         "timezone": "Asia/Shanghai",
@@ -292638,22 +292639,20 @@
       }
     }
   ],
-  "newThisRound": [
-    "charity-pay"
-  ],
-  "alertMessage": "R1788 Discord alpha 补充收录 1 条，面板：https://reboot7454.github.io/early-scout/\n\n1. **Charity Pay**（@UseCPay，台子/Meme，Solana）：X 账号创建于 2026-11-04 08:14 CST，蓝 V，当前 7 粉、3 帖；bio 为 “Creator fees donated to any charity.”，资料链接官网 https://cpay.charity；同时出现在 #alpha-1（05:54 CST，Spidey Bot）与 #alpha-1-backup（06:04 CST，7 粉，follower of @mutu_1987）。2026-11-14 05:46 CST 官宣帖（带视频）称：在 @Pumpfun 发射代币，把 creator fees 指向任意慈善或募捐，每笔交易为其筹款，费用每次达到 $10 即捐出；05:40 CST 回复 @Pumpfun 补充“每收满 $10 creator fees 捐一次”，05:37 CST 另有推文引导 cpay.charity。缺点：本轮官网核验 https://cpay.charity 与 https://www.cpay.charity/ 均 HTTP 404，Vercel 返回 DEPLOYMENT_NOT_FOUND，当前无法打开或试用；“满 $10 自动捐出”仅为官方帖自述，未获链上证实，无官方代币 CA、程序地址或捐赠交易可核验；账号仅 7 粉、3 帖，属极早期。",
+  "newThisRound": [],
+  "alertMessage": "",
   "roundNAdded": [
     "veltrixcodes",
     "krypnous",
     "melaps-system"
   ],
-  "updatedAt": "2026-11-14 06:32:55 CST",
-  "updated": "2026-11-14 06:32",
+  "updatedAt": "2026-11-14 06:46 CST",
+  "updated": "2026-11-14 06:46 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-14 06:32",
+  "lastScout": "2026-11-14 06:46 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -296455,5 +296454,6 @@
   "round1787Added": [],
   "round1788Added": [
     "charity-pay"
-  ]
+  ],
+  "round1789Added": []
 }
