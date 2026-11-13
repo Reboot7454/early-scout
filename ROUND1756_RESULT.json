@@ -171,5 +171,66 @@
       "prompt_cache_hit_tokens": 0,
       "prompt_cache_miss_tokens": 759
     }
+  },
+  "watchBugsFixed": [
+    {
+      "ids": [
+        "aperturerh",
+        "orvane-perp",
+        "bagnotary",
+        "hubrixrh"
+      ],
+      "reason": "R1756 Discord alpha 于 15:35 CST 写入 4 张新卡，但未写入任何 Watch。例行雷达在冲突后未覆盖 Discord 提交，随后把四张补进 userFollowWatch，不重复通知。"
+    }
+  ],
+  "watchAdds": [
+    {
+      "id": "aperturerh",
+      "handle": "@APERTURErh",
+      "watches": [
+        "userFollowWatch"
+      ]
+    },
+    {
+      "id": "orvane-perp",
+      "handle": "@orvaneperp",
+      "watches": [
+        "userFollowWatch"
+      ]
+    },
+    {
+      "id": "bagnotary",
+      "handle": "@bagnotary",
+      "watches": [
+        "userFollowWatch"
+      ]
+    },
+    {
+      "id": "hubrixrh",
+      "handle": "@HubrixRH",
+      "watches": [
+        "userFollowWatch"
+      ]
+    }
+  ],
+  "watchBugFix": "R1756 Discord 四张漏挂已补进 userFollowWatch，不重复通知。",
+  "scheduledWebRadar": {
+    "notify": false,
+    "newAdmits": [],
+    "completedAt": "2026-11-13 15:41 CST",
+    "mergedAt": "2026-11-13 15:45:23 CST",
+    "xReads": 25,
+    "remainingBefore": 613,
+    "remaining": 588,
+    "mode": "ample",
+    "ufCursorBefore": 390,
+    "ufCursor": 464,
+    "fatNextStarts": {
+      "agentPad": 461,
+      "freeMint": 185,
+      "bnAgent": 207,
+      "elysium": 30
+    },
+    "note": "例行 X 扫描与 Discord R1756 撞号，未覆盖 b287adc；随后将游标、LIVE 进度与 Watch 漏挂修补合并进同一 round，不新增卡片、不重复通知。"
   }
 }
