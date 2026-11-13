@@ -1,0 +1,95 @@
+{
+  "round": 1771,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-13 22:14 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R1771 Discord alpha 补充收录 5 条：\n1. **Midnight Arcade Club**（@MidnightArcadeC）｜栏位：打新｜链：未注明——2026-11-13 20:52 CST 官帖宣布名单开放，可粘贴钱包或 ENS，官网称 No wallet connect / No signature / Nothing to approve；定位 3,333 只 on-chain pixel fennecs NFT。无 CA、无开铸时刻，bio 仅写 Coming to Robinhood / Doors open soon。\n2. **OrdoLabs**（@ordo_labs）｜栏位：台子/Meme｜链：Robinhood Chain——2026-11-13 21:54 CST 官宣上线 Pons 并公布官方 CA 0x31fbfd47429a4e6820842c3b8fd1315004c75e28，同刻建池，已对应 Pons V2 ORDOLABS/WETH 池，graduation 未完成；官网为受监管实验室 AI workspace。\n3. **AGENT OCTAN**（@agent_octan）｜栏位：台子/Meme｜链：Robinhood Chain——今日（2026-11-13）新建 X 号，官网已上线 agent 面板与规则说明；定位 Robinhood Chain 上的自主交易 agent，交易经 GMGN 执行，公开称 AI 只写帖、不决定交易。无代币 CA，也无发射盘。\n4. **AXIS**（@axisindexnet）｜栏位：台子/Meme｜链：Robinhood Chain——2026-11-13 21:50 CST 官网开放交易并公布 CA 0xbe9a45f868ff6d5930bd1d3781670cc293173955，21:49 CST 建池，已对应 Pons V2 AXIS/WETH 池，graduation 约 1.44%（未完成）；官网为 AXIS · Mainnet terminal，含指数成分/历史与 Buy/Sell。\n5. **Tradefolk**（@TradefolkApp）｜栏位：台子/Meme｜链：Robinhood Chain——2026-11-13 21:58 CST 公布 $TOLK 官方 CA 0x682af8dda1aa5547508cadaca8af0f98f3b13c13 并建池，已对应 Pons V2 TOLK/WETH 池，池创建于 21:58 CST，未见 graduation 完成；官网叙事覆盖 Solana/Base/ETH/Arbitrum，但官方代币与池实际在 Robinhood Chain。\n完整面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "midnight-arcade-club",
+    "ordo-labs",
+    "agent-octan",
+    "axisindexnet",
+    "tradefolk"
+  ],
+  "newCount": 5,
+  "newIds": [
+    "midnight-arcade-club",
+    "ordo-labs",
+    "agent-octan",
+    "axisindexnet",
+    "tradefolk"
+  ],
+  "skipped": [
+    {
+      "id": "stoadex",
+      "reason": "dup"
+    }
+  ],
+  "alreadyInDb": [],
+  "cardsAfterLastSeen": 34,
+  "cardsAfterCutoff": 34,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "stoadex"
+  ],
+  "candidateFlagsCleared": 1,
+  "topNewThisRoundCleared": [
+    "stoadex"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=5 (of 6 DS-admit, 6 keepers) calls=1 prompt=4077 completion=3963",
+  "coverage": "discord-alpha #alpha-3-new-accounts + #alpha-1-backup + #smart-accounts-tracker + #alpha-1 glance",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-13 22:05",
+    "lastChecked": "2026-11-13 22:14 CST",
+    "newestCardTime": "2026-11-13 22:05",
+    "cardsAfterCutoff": 34,
+    "note": "R1771：Discord alpha 补收 midnight-arcade-club, ordo-labs, agent-octan, axisindexnet, tradefolk；清上一轮 newThisRound stoadex；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 22:05', 'alpha-1-backup': '2026-11-13 21:34', 'smart-accounts-tracker': '2026-11-13 20:53', 'alpha-1': '2026-11-13 21:54'}；开跑前远程已是 R1770，本轮 DC=R1771，未覆盖既有轮次",
+    "lastRound": 1771,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-13 22:05",
+      "alpha-1-backup": "2026-11-13 21:34",
+      "smart-accounts-tracker": "2026-11-13 20:53",
+      "alpha-1": "2026-11-13 21:54"
+    },
+    "spideyPosting": true,
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-12 00:02",
+      "to": "2026-11-13 05:11",
+      "nFilled": 0,
+      "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1769 lastSeen"
+    }
+  },
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-13 22:05",
+    "alpha-1-backup": "2026-11-13 21:34",
+    "smart-accounts-tracker": "2026-11-13 20:53",
+    "alpha-1": "2026-11-13 21:54"
+  },
+  "alpha3OlderGap": {
+    "attempted": false,
+    "filled": false,
+    "from": "2026-11-12 00:02",
+    "to": "2026-11-13 05:11",
+    "nFilled": 0,
+    "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1769 lastSeen"
+  },
+  "spideyPosting": true,
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1771：Discord alpha 补收 midnight-arcade-club, ordo-labs, agent-octan, axisindexnet, tradefolk；清上一轮 newThisRound stoadex；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 22:05', 'alpha-1-backup': '2026-11-13 21:34', 'smart-accounts-tracker': '2026-11-13 20:53', 'alpha-1': '2026-11-13 21:54'}；开跑前远程已是 R1770，本轮 DC=R1771，未覆盖既有轮次",
+  "remoteVerified": false,
+  "docsSynced": false,
+  "dataUpdated": true,
+  "cardsFile": "dc40_cards_r1770.json",
+  "priorRoundNote": "Remote was R1770 at apply time; this DC is R1771. Did not overwrite R1770."
+}
