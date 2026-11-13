@@ -1,0 +1,497 @@
+{
+  "round": 1755,
+  "mode": "ample",
+  "completedAt": "2026-11-13 15:07 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": false,
+  "notifyReason": "no_new_admit_no_le2h",
+  "alertMessage": "",
+  "alert": "",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
+  "admissions": [],
+  "skipped": [
+    {
+      "id": "datagram-icehouse",
+      "reason": "第三方 @MaHaDi71Dm 称 Datagram Icehouse 在 BNB 免费 LIVE（自称 153/1340），站点 https://datagramicehouse.nftforge.workers.dev/ 为 NFTForge 模板系列 016，页上 CA 0x036a9D27C965e5D87eB7C263c7c844aFA4063Cf1，未见官推，未建卡。"
+    },
+    {
+      "id": "qubitfox",
+      "reason": "链上 totalSupply 仍为 151、mintOpen 此前为 true，但仍无官推，沿用既有规则不建卡。"
+    },
+    {
+      "id": "ape-city",
+      "reason": "已在库 announced；本窗第三方仍称 555 免费 mint、日期 TBA，未见新的官方开铸时刻，不重复收录、不改 LIVE。"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "popo-oneth",
+    "artefact-btc",
+    "freememeapp",
+    "lode-on-elysium",
+    "ringssol",
+    "raccoonslimestd"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsModel": "deepseek-flash",
+  "dsUsage": {
+    "score": 0,
+    "alert": 0,
+    "model": "deepseek-flash",
+    "thinking": true,
+    "note": "本轮无新候选送审"
+  },
+  "coverage": {
+    "userFollow": true,
+    "mustWatch": true,
+    "tenLanesKeywords": true,
+    "mentions": true,
+    "silentAccounts": true
+  },
+  "xQuota": {
+    "xReads": 25,
+    "xReadsMain": 24,
+    "xReadsSilent": 1,
+    "admitVerifyReads": 0,
+    "admitVerifyNote": "部分 KW/MUST/SILENT 回包被中间省略（write_to_file 长行），已从可见前缀挽救；未为省略区整栏重拉，也未做 get_users_by_id。Datagram Icehouse 仅为第三方 @MaHaDi71Dm 聚合帖，官网是 NFTForge workers.dev 模板、页上无官推，未建卡。Qubitfox 链上 totalSupply 仍 151 且仍无官推，未建卡。Ape City / HoodGremlin / Monchies / Hypesium / Rebate / Montra 等均为已在库项目。",
+    "remainingBefore": 638,
+    "remaining": 613,
+    "mode": "ample",
+    "softCap": 28,
+    "minSpend": 20,
+    "silentCap": 2,
+    "softCapHonored": true,
+    "minSpendHonored": true,
+    "silentOutsideSoftCap": true,
+    "ufCursorBefore": 321,
+    "ufCursor": 390,
+    "ufKeptThisScan": 50,
+    "ufSkipThisScan": 19,
+    "ufSkipHandles": [
+      "playholeshot",
+      "FlotyllOnRH",
+      "Agentkey_",
+      "use_moche",
+      "luckycatchgame",
+      "LongBaoLNB",
+      "DavidJohnsvcen",
+      "firstpadfun",
+      "Obelisdotfun",
+      "tickupfun",
+      "darkllartech",
+      "Headroom_X",
+      "bnAgent_",
+      "AgentID_AI",
+      "PrinterAi_BNB",
+      "telefees_pump",
+      "agentkin_",
+      "AgenticHive",
+      "pitpadfun"
+    ],
+    "ufConsideredThisScan": 69,
+    "noteUf": "R1739 已做 08:00 CST 后首轮全量补扫，本轮为 ample 正常节流。R1754 Discord alpha 提交未推进 UF/fat 游标；本轮从 R1753 结束游标继续（UF 321→390）。UF 321→390，kept 50，skip 19（已知 NF/suspended），未绕回。下一轮从 390 续。计划 24 次主读 + 1 次静默 Elysium mentions。开跑 remainingBefore=638，结束后页脚 remaining=613。",
+    "laneReads": {
+      "打新": true,
+      "挖矿": true,
+      "台子/Meme": true,
+      "GO盘": true,
+      "LayerZero": true,
+      "Elysium": true,
+      "Tape/电路": true,
+      "GIWA": true,
+      "DogeEVM": true,
+      "BN Agent 钱包": true,
+      "BTC": true,
+      "Starknet": true
+    },
+    "kwCoreRan": [
+      "打新",
+      "台子/Meme",
+      "GO盘",
+      "Elysium"
+    ],
+    "kwThinRan": [
+      "LayerZero",
+      "Tape/电路",
+      "GIWA",
+      "DogeEVM",
+      "BTC",
+      "Starknet"
+    ],
+    "kwGapsRan": true,
+    "kwMiningRodeWithGaps": true,
+    "kwCoreDeferred": [],
+    "tenLanes": true,
+    "tenLanesNote": "ample 轮：薄栏 6 条独立 KW（LayerZero/Tape/GIWA/DogeEVM/BTC/Starknet）+ 核心 KW（打新/台子/GO/Elysium）+ KW_GAPS（squeek/Nutshell/仓鼠链/STARX/Agent ID/AIDROP/Pulse/computeroll/pipfun/TapeOut/Local Bottom + 挖矿词）全跑；BN Agent 靠 fat agentPad/bnAgent。不翻页 next_token。部分高声量回包被中间省略，已 salvage 前缀；未整栏重拉。",
+    "mentionsThin": [
+      "LayerZero",
+      "GIWA",
+      "BTC",
+      "DogeEVM",
+      "Starknet",
+      "Tape"
+    ],
+    "mentionsRest": [
+      "irys_xyz",
+      "arcxtrade",
+      "arcpump_",
+      "Enter_Elysium",
+      "kinetiq_xyz",
+      "AgentKinetiq",
+      "squeekchain",
+      "NutshellMarkets",
+      "starx_xlayer",
+      "PulseLaunchpad",
+      "dotaipad",
+      "flapdotsh",
+      "fulldotfun"
+    ],
+    "mentionsThinDeferred": [],
+    "fatShards": {
+      "agentPad": {
+        "range": [
+          386,
+          424
+        ],
+        "nextStart": 424,
+        "nAccountsAtScan": 769,
+        "kept": 28,
+        "skipped": 10,
+        "skippedHandles": [
+          "Asciidogs",
+          "AgentBoss_AI",
+          "FISTAgent",
+          "agents_estates",
+          "Ainubsc",
+          "MonsterRH_",
+          "Derpagent_",
+          "Proxisfun",
+          "letswinhood",
+          "agentharvest_ai"
+        ],
+        "wrapped": false,
+        "queried": 28,
+        "dedupedAlreadyUsed": [],
+        "visited": 38
+      },
+      "freeMint": {
+        "range": [
+          100,
+          146
+        ],
+        "nextStart": 146,
+        "nAccountsAtScan": 398,
+        "kept": 28,
+        "skipped": 18,
+        "skippedHandles": [
+          "Elysium_Rocks",
+          "agents_estates",
+          "ClassifiedMRNG",
+          "Villagers_RH",
+          "Ainubsc",
+          "Derpagent_",
+          "Proxisfun",
+          "agentharvest_ai",
+          "seatworkcells",
+          "FISTAgent",
+          "dinomitesnft",
+          "frogsagent",
+          "Honestcoin60",
+          "dropminters",
+          "snakeidbnb",
+          "lettucegrow_rh",
+          "nonamespnft",
+          "AgentFramlin404"
+        ],
+        "wrapped": false,
+        "queried": 17,
+        "dedupedAlreadyUsed": [
+          "mochi_agent",
+          "agentic_pixels_",
+          "resafudao",
+          "agentmao_",
+          "famuliai",
+          "guardbsc",
+          "NocturnCompanio",
+          "agenticheist",
+          "CrestOnBNB",
+          "Clawlers_",
+          "FamuliAI"
+        ],
+        "visited": 46
+      },
+      "bnAgent": {
+        "range": [
+          138,
+          175
+        ],
+        "nextStart": 175,
+        "nAccountsAtScan": 290,
+        "kept": 28,
+        "skipped": 9,
+        "skippedHandles": [
+          "TrineProtocol",
+          "btcliu205",
+          "Sambario_bnb",
+          "KDAgentAI",
+          "Gweiwbbb",
+          "PlayTycoonCity",
+          "baoracletrade",
+          "agentplacewall",
+          "LastCall4vx"
+        ],
+        "wrapped": false,
+        "queried": 28,
+        "dedupedAlreadyUsed": [],
+        "visited": 37
+      },
+      "elysium": {
+        "range": [
+          257,
+          1
+        ],
+        "nextStart": 1,
+        "nAccountsAtScan": 284,
+        "kept": 28,
+        "skipped": 0,
+        "skippedHandles": [],
+        "wrapped": true,
+        "queried": 27,
+        "dedupedAlreadyUsed": [
+          "DripEVM"
+        ],
+        "visited": 28
+      }
+    },
+    "thinOfficial": {
+      "unique": 95,
+      "overlapWithUfFat": 1,
+      "overlapHandles": [
+        "gazuaxyz"
+      ],
+      "knownNfSkipped": [
+        "TapeFractal",
+        "FoundryTape"
+      ],
+      "queried": 92,
+      "batches": [
+        46,
+        46
+      ]
+    }
+  },
+  "xReads": 25,
+  "xReadsMain": 24,
+  "xReadsSilent": 1,
+  "admitVerifyReads": 0,
+  "remainingBefore": 638,
+  "remaining": 613,
+  "modeX": "ample",
+  "softCap": 28,
+  "minSpend": 20,
+  "silentCap": 2,
+  "ufCursorBefore": 321,
+  "ufCursor": 390,
+  "tenLanes": true,
+  "laneReads": {
+    "打新": true,
+    "挖矿": true,
+    "台子/Meme": true,
+    "GO盘": true,
+    "LayerZero": true,
+    "Elysium": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BN Agent 钱包": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "mentionsChains": {
+    "thin": [
+      "LayerZero",
+      "GIWA",
+      "BTC",
+      "DogeEVM",
+      "Starknet",
+      "Tape"
+    ],
+    "rest": [
+      "irys_xyz",
+      "arcxtrade",
+      "arcpump_",
+      "Enter_Elysium",
+      "kinetiq_xyz",
+      "AgentKinetiq",
+      "squeekchain",
+      "NutshellMarkets",
+      "starx_xlayer",
+      "PulseLaunchpad",
+      "dotaipad",
+      "flapdotsh",
+      "fulldotfun"
+    ]
+  },
+  "silentAccounts": {
+    "ran": true,
+    "lane": "Elysium",
+    "method": "mentions",
+    "search_users_unavailable": true,
+    "windowStart": "2026-11-12T07:00:00Z",
+    "seenApprox": 20,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 0,
+    "secondRead": false,
+    "note": "search_users 不可用，改跑 Elysium mentions（softCap 外，query: has:mentions (Elysium OR Enter_Elysium) (mint OR launch) -is:retweet）。可见前缀为已在库 RebateLaunch / Hypesium / MontraXYZ，未建新卡。回包中间省略，未做第二读。"
+  },
+  "watchBugsFixed": [
+    {
+      "ids": [
+        "popo-oneth",
+        "artefact-btc",
+        "freememeapp",
+        "lode-on-elysium",
+        "ringssol",
+        "raccoonslimestd"
+      ],
+      "reason": "R1754 Discord alpha 于 14:57 CST 写入 6 张新卡并占用 round 1754，但未写入任何 Watch（accounts/candidateIds 均为空）。本轮按规则补进 userFollowWatch；lode-on-elysium 因官站/bio 写明 the mining layer of Elysium，同时补进 miningWatch + elysiumWatch。"
+    }
+  ],
+  "watchAdds": [
+    {
+      "id": "popo-oneth",
+      "handle": "@Popo_oneth",
+      "watches": [
+        "userFollowWatch"
+      ]
+    },
+    {
+      "id": "artefact-btc",
+      "handle": "@Artefact_btc",
+      "watches": [
+        "userFollowWatch"
+      ]
+    },
+    {
+      "id": "freememeapp",
+      "handle": "@FreeMemeApp",
+      "watches": [
+        "userFollowWatch"
+      ]
+    },
+    {
+      "id": "lode-on-elysium",
+      "handle": "@lodeonelysium",
+      "watches": [
+        "userFollowWatch",
+        "miningWatch",
+        "elysiumWatch"
+      ]
+    },
+    {
+      "id": "ringssol",
+      "handle": "@Ringssol",
+      "watches": [
+        "userFollowWatch"
+      ]
+    },
+    {
+      "id": "raccoonslimestd",
+      "handle": "@raccoonslimestd",
+      "watches": [
+        "userFollowWatch"
+      ]
+    }
+  ],
+  "watchBugFix": "R1754 Discord alpha 新收的 6 张卡（popo-oneth / artefact-btc / freememeapp / lode-on-elysium / ringssol / raccoonslimestd）在库但不在任何 Watch，本轮补进 userFollowWatch；lode-on-elysium 另补 miningWatch + elysiumWatch。",
+  "r1754DiscordAdmits": [
+    "popo-oneth",
+    "artefact-btc",
+    "freememeapp",
+    "lode-on-elysium",
+    "ringssol",
+    "raccoonslimestd"
+  ],
+  "roundNumberNote": "Scheduled 14:56 CST radar is R1755 because a concurrent Discord-alpha commit at 14:57 CST already used 1754.",
+  "le2h": [],
+  "le2hEnded": [],
+  "liveProgress": {
+    "dripevm": {
+      "osMinted": "149→155",
+      "le2h": false,
+      "rpc": "public Elysium RPC still failed"
+    },
+    "the-syndicate-rh": {
+      "osMinted": "821→834",
+      "owners": 360,
+      "sales": 773,
+      "floor": "0.25 USDG",
+      "le2h": false,
+      "windowEnded": "2026-11-13 14:37 CST",
+      "officialStillLive": true,
+      "officialMintedAt1453CST": 821
+    },
+    "riftera-rifters": {
+      "totalMinted": 447,
+      "mintOpen": true
+    },
+    "firsttake-xyz": {
+      "totalMinted": 194,
+      "mintOpen": true
+    },
+    "momo-mochi": {
+      "totalMinted": "292→293",
+      "mintOpen": true
+    },
+    "clause-protocol": {
+      "totalMinted": "8/7777",
+      "paused": false
+    },
+    "arctic-bear": {
+      "totalMinted": "74/5555",
+      "forgeLive": true
+    },
+    "sharkverse": {
+      "totalMinted": 21
+    },
+    "zodiac-fortune": {
+      "totalMinted": 335,
+      "remainingFree": 0,
+      "mintOpen": true
+    },
+    "jpeg-monkes": {
+      "osMinted": 1419,
+      "owners": "887→881",
+      "sales": "1674→1682",
+      "floor": "0.00104 ETH"
+    },
+    "boatn-fish": {
+      "minted": "1099→1112/2222",
+      "wallets": "84→86",
+      "priceSol": "0.02494"
+    },
+    "hood-terminals": {
+      "osMinted": 527,
+      "owners": 350,
+      "sales": 647,
+      "floor": "0.000999 ETH"
+    }
+  },
+  "autoMint": false,
+  "push": {
+    "plannedFiles": [
+      "data.json",
+      "docs/data.json",
+      "ROUND1755_RESULT.json"
+    ],
+    "branch": "main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1755 为 14:56 CST 档期的例行雷达（因 14:57 CST 的 Discord alpha 已占用 R1754 编号而顺延）。本轮 X/Watch 扫描无新收录。已修复 R1754 六张新卡的监控漏挂（在库不在 Watch），不重复通知这六张。The Syndicate ≤2h 已于 14:37 CST 结束，官号 14:53 CST 仍称 Mint is Live（自称 821/1000），OpenSea 已铸 821→834、owners 仍 360、floor 约 0.25 USDG。DripEVM 白名单免费仍开，OpenSea 149→155。已在库 Riftera 仍 447、First Take 仍 194、Momo 292→293、Clause 仍 8、Arctic 仍 74、Shark 仍 21、Zodiac 仍 335。本号不自动 mint。",
+  "lastFullAfterReset": "R1739",
+  "priorRoundNote": "R1754 Discord alpha 已补收 6 项（popo-oneth / artefact-btc / freememeapp / lode-on-elysium / ringssol / raccoonslimestd），本轮只修 Watch 漏挂并跟已在库 LIVE 进度，不重复通知。R1753 dripevm 白名单免费仍开，OS 149→155，亦不重复通知。"
+}
