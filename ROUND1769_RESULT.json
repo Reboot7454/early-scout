@@ -4,24 +4,26 @@
   "completedAt": "2026-11-13 21:40 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
-  "notifyReason": "new_admits",
-  "alertMessage": "R1769 Discord alpha 补充收录 6 条：\n1. **Strix**（@strix_agents）｜栏位：台子/Meme｜链：Robinhood Chain——官网 strixagents.com 可打开；官帖宣布 $STRIX live on Robinhood Chain，官方 CA 0x676c93667db12dc5d595372f9a2efe27672cb595，Robinhood RPC chainId 4663 有码，symbol STRIX；Pons V2 STRIX/WETH 池创建于 2026-11-13 20:53 CST，graduation 约 13% 未完成。与库内 @strix_rbh 不是同一账号。\n2. **WAGMI**（@wagmint_bnb）｜栏位：打新｜链：BNB Chain——官网 wagmint.pages.dev 可打开；0.001 BNB/share、目标 10,000 份，mint 尚未开放；官方 TOKEN 0x584aAE22D007C97705a6fC28b9BFa75132E80304、MINT 0x915055f763571Fd46D9C9FD338d586b05e298132 在 BSC 均有码，Token totalSupply 本轮为 0。\n3. **Burybud**（@burybud）｜栏位：打新｜链：Robinhood Chain——官网 burybud.xyz 本轮 TLS 失败未能打开；官帖演示 Planting，档期 $BURY on Pons：2026-11-14 23:00 CST；Garden 合约 0xC5476b293f7825f88301683D480c485bfbE7662d 在 Robinhood 有码但不是代币 CA；本轮无已验证 $BURY 代币 CA。\n4. **Delvo**（@delvoprotocol）｜栏位：台子/Meme｜链：Elysium——官网 delvoprotocol.xyz 可打开；签名前模拟工具，$DELVO At launch；本轮无官方代币 CA；因生态页本轮 429，故不进 Elysium 栏。\n5. **Pervix**（@pervix_xyz）｜栏位：台子/Meme｜链：Elysium——官网 pervix.xyz 可打开；官帖宣布 live on Elysium，官方 CA 0x7722ae0a8f13898612d37d8f578b4fcbcaa1e7d4，Elysium RPC 有码，symbol PERVIX；Montra PERVIX/HYPE 池创建于 2026-11-13 21:33 CST；因生态页本轮 429，故不进 Elysium 栏。\n6. **Envara**（@Envara_Agent）｜栏位：台子/Meme｜链：Robinhood Chain——官网 envara.fun 可打开；官方 $ENV CA 0x65a10a8bb3a9F22A14659A8b476780cF3dfe2D95，Robinhood RPC chainId 4663 有码；Pons V2 ENV/WETH 池创建于 2026-11-13 21:32 CST，graduation 约 2.43% 未完成。与库内 @envarai_ 不是同一账号。\n完整面板：https://reboot7454.github.io/early-scout/",
+  "notifyReason": "R1769 例行 pace 并入 Discord 已占轮：新收录 ponke-agent（@PonkeAgent）免费 LIVE / Agent ID 公平铸造，链上 freeMinted=47/555、totalMinted=47/11055，窗口至 2026-11-16 20:00 CST，必须 notify。Discord 六卡 strix-agents/wagmint/burybud/delvo/pervix/envara 已于 21:40 通知，不重推。已通知且未改期的窗口不重推（Ashling/polyrob 22:00，lil-giraffies/boolish-rh 23:00，hooded-ape-club 公铸 LIVE，HonestBull/boxcars/agx-402/GateCerberus/Freememe/myco）。",
+  "alertMessage": "早期打新雷达 R1769：新收录 $PONKE（@PonkeAgent）BNB Chain Agent ID 免费公平铸造已 LIVE。前 555 份免费（每钱包/每 Agent ID 限 1），其后 0.002 BNB/份、每 ID 上限 10；窗口至 11-16 20:00 CST。链上免费已铸 47/555（总 47/11055，仍在免费档）。官网 https://www.ponkeagent.space/ ，合约 0x0c222b11A380DF4F68ceE7CAcB162357E60c7215。面板 https://reboot7454.github.io/early-scout/ 。本号不自动 mint。另：Ashling、polyrob 仍今日 22:00 CST（polyrob 需 WL）；lil-giraffies、boolish-rh 仍今日 23:00 CST；hooded-ape-club 公铸仍 LIVE。Discord 已于 21:40 CST 补收 strix-agents / wagmint / burybud / delvo / pervix / envara（当时已通知，不重推）。",
   "newAdmits": [
     "strix-agents",
     "wagmint",
     "burybud",
     "delvo",
     "pervix",
-    "envara"
+    "envara",
+    "ponke-agent"
   ],
-  "newCount": 6,
+  "newCount": 7,
   "newIds": [
     "strix-agents",
     "wagmint",
     "burybud",
     "delvo",
     "pervix",
-    "envara"
+    "envara",
+    "ponke-agent"
   ],
   "skipped": [],
   "alreadyInDb": [
@@ -106,10 +108,131 @@
     "ok": false
   },
   "panel": "https://reboot7454.github.io/early-scout/",
-  "summary": "R1769：Discord alpha 补收 strix-agents, wagmint, burybud, delvo, pervix, envara；清上一轮 newThisRound vorda, clmm-feepad, offscreen, agvio, brediq；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 21:20', 'alpha-1-backup': '2026-11-13 20:50', 'smart-accounts-tracker': '2026-11-13 20:53', 'alpha-1': '2026-11-13 21:26'}；开跑前远程已是 R1768，本轮 DC=R1769，未覆盖既有轮次",
+  "summary": "R1769 例行 pace 并入 Discord 已占轮。新收录 ponke-agent 免费 LIVE，必须 notify。Discord 六卡已通知不重推。Watch 漏挂六卡已补。xReads 25，remaining 292。未自动 mint。",
   "remoteVerified": false,
-  "docsSynced": false,
+  "docsSynced": true,
   "dataUpdated": true,
   "cardsFile": "dc40_cards_r1769.json",
-  "priorRoundNote": "Remote was R1768 at apply time; this DC is R1769. Did not overwrite R1768."
+  "priorRoundNote": "Remote was R1768 at apply time; this DC is R1769. Did not overwrite R1768.",
+  "paceMerge": true,
+  "mergedCompletedAt": "2026-11-13 21:46:52 CST",
+  "alert": "早期打新雷达 R1769：新收录 $PONKE（@PonkeAgent）BNB Chain Agent ID 免费公平铸造已 LIVE。前 555 份免费（每钱包/每 Agent ID 限 1），其后 0.002 BNB/份、每 ID 上限 10；窗口至 11-16 20:00 CST。链上免费已铸 47/555（总 47/11055，仍在免费档）。官网 https://www.ponkeagent.space/ ，合约 0x0c222b11A380DF4F68ceE7CAcB162357E60c7215。面板 https://reboot7454.github.io/early-scout/ 。本号不自动 mint。另：Ashling、polyrob 仍今日 22:00 CST（polyrob 需 WL）；lil-giraffies、boolish-rh 仍今日 23:00 CST；hooded-ape-club 公铸仍 LIVE。Discord 已于 21:40 CST 补收 strix-agents / wagmint / burybud / delvo / pervix / envara（当时已通知，不重推）。",
+  "newPaceAdmits": [
+    "ponke-agent"
+  ],
+  "discordKept": [
+    "strix-agents",
+    "wagmint",
+    "burybud",
+    "delvo",
+    "pervix",
+    "envara"
+  ],
+  "xReads": 25,
+  "xReadsMain": 24,
+  "xReadsSilent": 1,
+  "remainingBefore": 317,
+  "remaining": 292,
+  "tenLanes": true,
+  "userFollowDone": true,
+  "mentions": [
+    "DogeEVM",
+    "BTC",
+    "Starknet",
+    "MENT_REST"
+  ],
+  "ufCursorBefore": 1038,
+  "ufCursor": 1086,
+  "ufAccounts": 1647,
+  "fatNextStarts": {
+    "agentPad": 42,
+    "freeMint": 130,
+    "bnAgent": 253,
+    "elysium": 56
+  },
+  "watchAdds": [
+    {
+      "id": "strix-agents",
+      "handle": "@strix_agents",
+      "into": [
+        "userFollowWatch"
+      ],
+      "reason": "watch-bug"
+    },
+    {
+      "id": "wagmint",
+      "handle": "@wagmint_bnb",
+      "into": [
+        "userFollowWatch",
+        "agentPadWatch",
+        "bnAgentWatch"
+      ],
+      "reason": "watch-bug"
+    },
+    {
+      "id": "burybud",
+      "handle": "@burybud",
+      "into": [
+        "userFollowWatch"
+      ],
+      "reason": "watch-bug"
+    },
+    {
+      "id": "delvo",
+      "handle": "@delvoprotocol",
+      "into": [
+        "userFollowWatch",
+        "elysiumWatch"
+      ],
+      "reason": "watch-bug"
+    },
+    {
+      "id": "pervix",
+      "handle": "@pervix_xyz",
+      "into": [
+        "userFollowWatch",
+        "elysiumWatch"
+      ],
+      "reason": "watch-bug"
+    },
+    {
+      "id": "envara",
+      "handle": "@Envara_Agent",
+      "into": [
+        "userFollowWatch"
+      ],
+      "reason": "watch-bug"
+    },
+    {
+      "id": "ponke-agent",
+      "handle": "@PonkeAgent",
+      "into": [
+        "userFollowWatch",
+        "agentPadWatch",
+        "bnAgentWatch",
+        "freeMintWatch"
+      ]
+    }
+  ],
+  "paceSkips": [
+    {
+      "handle": "@L1ftonsolana",
+      "reason": "官网 l1ft.fun 近占位页（soon），1 粉，pump.fun 风格 CA，证据弱"
+    },
+    {
+      "handle": "@LSOS2026",
+      "reason": "R1768 已 skip；主网仍称 2027-02-01，不重新收录"
+    },
+    {
+      "handle": "@RoyalBlep_sol",
+      "reason": "pump.fun meme，无可操作发射台/铸造窗口"
+    },
+    {
+      "handle": "Golden Miner Cards（无官推）",
+      "reason": "仅评论者转发的 surge.sh 页，残留「合约待部署」，无核验官方 Twitter，按硬规则不收录；本轮不为追官号额外耗 X"
+    }
+  ],
+  "residualWatchBugCount": 1681,
+  "candidateCount": 4175,
+  "lastFullAfterReset": "R1739"
 }
