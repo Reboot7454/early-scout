@@ -1,0 +1,240 @@
+{
+  "round": 1774,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-13 23:36 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R1774 Discord alpha 补充收录 6 条：\n1. **Orbyt**（@Orbyt3d）｜栏位：台子/Meme｜链：未标注——官网 orbyt3d.space 可打开，3D 引擎产品（v0.9.2、npm、GitHub）已上线；官帖未公布代币 CA，Discord 卡面地址本轮未核验，无官方 CA。\n2. **Sonna Agents**（@sonnaagent）｜栏位：台子/Meme｜链：Robinhood Chain——官网 sonnarh.com 可打开，npm 包 sonna-agent 0.1.1 已发布；官方 api/public 的 ca 为空；官帖称 $SONNA 将上 Robinhood Chain，并声明 CA 只会发在官推和官网，本轮无官方 CA。\n3. **Holt**（@holtrh_）｜栏位：台子/Meme｜链：Robinhood Chain——官网 holtrh.xyz 与 /app 可打开，13 链钱包隐私扫描已 live；官帖写 $HOLT soon on Robinhood Chain，本轮无官方 CA。\n4. **Passage**（@enterpassage）｜栏位：打新｜链：Robinhood Chain——官网 enterpassage.xyz 可打开；2026-11-13 23:20 CST 官宣 live on Robinhood Chain，灵魂绑定 pass，不能买，需 ETH vouch，前 15 按名字邀请可 claim；前端合约仍写 set at launch，无已核验 CA。\n5. **Pterodaktil**（@ptrdktlnft）｜栏位：打新｜链：BNB Chain——官网 pterodaktil.fun 可打开，官方 NFT CA 0x35dfeF79f25660F63471Fae76833b1E7D8Dd9750 已核验，本轮 totalSupply=62/1600；首次 mint 仅 SPACE ID Agent ID 持有人免费，其后阶梯付费；产品在 BNB Chain，与 Elysium 无核验关系。\n6. **Rushr**（@rushrtrade）｜栏位：台子/Meme｜链：Robinhood Chain——官网 rushr.trade 可打开；2026-11-13 22:53 CST 官宣 Beta 50 席，邀请码 RUSHRBETA，应用 app.rushr.trade/trenches，仓库 github.com/rushr-dev/platform；页面 0x 是 trenches 示例代币，不是 Rushr 官方 CA。\n完整面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "orbyt",
+    "sonna-agent",
+    "holt",
+    "passage",
+    "pterodaktil",
+    "rushr"
+  ],
+  "newCount": 6,
+  "newIds": [
+    "orbyt",
+    "sonna-agent",
+    "holt",
+    "passage",
+    "pterodaktil",
+    "rushr"
+  ],
+  "skipped": [
+    {
+      "id": "mysubs",
+      "handle": "@trysubsxyz",
+      "reason": "官网仅一个标题、无产品无文档无安装方式，当下不可操作，仅口号级预热"
+    },
+    {
+      "id": "charon-protocol",
+      "handle": "@charon_protocol",
+      "reason": "Elysium 生态页本轮无法核验，官帖叙事（RH 链跟单 vault）与官网 keeper 定位不一致，无 CA 无产品可验证"
+    }
+  ],
+  "alreadyInDb": [
+    {
+      "handle": "@VordaLaunch",
+      "id": "vordalaunch",
+      "channel": "alpha-1",
+      "cardTimeCST": "2026-11-13 23:18",
+      "why": "already_in_db"
+    }
+  ],
+  "prereject": [
+    {
+      "handle": "@netizensmaxxing",
+      "reason": "high_followers:3859"
+    },
+    {
+      "handle": "@GigaXApp",
+      "reason": "high_followers:3872"
+    },
+    {
+      "handle": "@natashalfawn",
+      "reason": "high_followers:11912"
+    },
+    {
+      "handle": "@PrimordialAA",
+      "reason": "high_followers:114630"
+    },
+    {
+      "handle": "@netizensmaxxing",
+      "reason": "high_followers:3859"
+    },
+    {
+      "handle": "@GigaXApp",
+      "reason": "high_followers:3866"
+    },
+    {
+      "handle": "@Clayson13th",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@surajmade15",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@plmbrs_union",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@kevins8",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@asteronchain",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@vvvhzxn4",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@lmao_1141",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@_Feranmi01",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@EGGRAGESOL",
+      "reason": "meme_shell_no_site_no_ca_one_tweet"
+    },
+    {
+      "handle": "@mythandsteel",
+      "reason": "website_ssl_fail_no_retrievable_posts"
+    },
+    {
+      "handle": "@FortunaResearch",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@aubreywrigh2791",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@dinggfn3",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@JohnMorena12",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@AmrMorabet",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@Sunvinxx",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@xnxxp2p",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@soldjsjxjdnsk",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@theleobrooks",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@Cydin95fp",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@Queenyvxg2",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@fer_kill1132",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@notkingLL",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@Hongy2gfx",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@minotasks",
+      "reason": "mac_todo_app_not_crypto_launch"
+    },
+    {
+      "handle": "@mustafaalihabib",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@TaurusInsured",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@YY150224",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@HabibiCatsNFT",
+      "reason": "zero_tweets_no_website"
+    },
+    {
+      "handle": "@wickzoldyzen",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@MichaelLabkor",
+      "reason": "personal_or_empty_or_non_crypto"
+    }
+  ],
+  "cardsAfterLastSeen": 60,
+  "cardsAfterCutoff": 60,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "candidateFlagsCleared": 0,
+  "topNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking-on admits=6 skip=2 (mysubs, charon-protocol) calls=2 prompt=9093 completion=5217; not dsFallback",
+  "coverage": "discord-alpha #alpha-3-new-accounts + #alpha-1-backup + #smart-accounts-tracker + #alpha-1 glance",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-13 23:26",
+    "lastChecked": "2026-11-13 23:36 CST",
+    "newestCardTime": "2026-11-13 23:26",
+    "cardsAfterCutoff": 60,
+    "note": "R1774：Discord alpha 补收 orbyt, sonna-agent, holt, passage, pterodaktil, rushr；上一轮 newThisRound 已空（R1773 pace 已清）；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 23:25', 'alpha-1-backup': '2026-11-13 23:19', 'smart-accounts-tracker': '2026-11-13 23:23', 'alpha-1': '2026-11-13 23:26'}；开跑前远程已是 R1773，本轮 DC=R1774，未覆盖既有轮次",
+    "lastRound": 1774,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-13 23:25",
+      "alpha-1-backup": "2026-11-13 23:19",
+      "smart-accounts-tracker": "2026-11-13 23:23",
+      "alpha-1": "2026-11-13 23:26"
+    },
+    "spideyPosting": true,
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-12 00:02",
+      "to": "2026-11-13 05:11",
+      "nFilled": 0,
+      "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1769 lastSeen"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1774：Discord alpha 补收 orbyt, sonna-agent, holt, passage, pterodaktil, rushr；上一轮 newThisRound 已空（R1773 pace 已清）；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 23:25', 'alpha-1-backup': '2026-11-13 23:19', 'smart-accounts-tracker': '2026-11-13 23:23', 'alpha-1': '2026-11-13 23:26'}；开跑前远程已是 R1773，本轮 DC=R1774，未覆盖既有轮次",
+  "remoteVerified": false,
+  "cardsFile": "/tmp/dc40_cards_r1774.json",
+  "priorRoundNote": "Remote was R1773 at apply time; this DC is R1774. Did not overwrite R1773."
+}
