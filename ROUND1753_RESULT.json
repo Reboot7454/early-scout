@@ -1,0 +1,540 @@
+{
+  "round": 1753,
+  "mode": "ample",
+  "completedAt": "2026-11-13 14:45 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_free_live_admit",
+  "alertMessage": "【R1753】新收免费 LIVE：DripEVM（@DripEVM，score 79）Elysium Genesis NFT，白名单免费窗延长仍免费，已铸 149/888；官网 dripevm.com 与 OpenSea drip-nft、CA 0x28a011fa89725d086e8d23b9ffefefcded8c5450 互核；公开铸造 11-16 06:00 CST。官号 175 粉，未审计。The Syndicate ≤2h 窗已于 14:37 CST 结束，官号 14:36 CST 仍称 Mint is Live，OpenSea 已铸 802→821、floor 约 0.25 USDG。本号不自动 mint。https://reboot7454.github.io/early-scout/",
+  "alert": "【R1753】新收免费 LIVE：DripEVM（@DripEVM，score 79）Elysium Genesis NFT，白名单免费窗延长仍免费，已铸 149/888；官网 dripevm.com 与 OpenSea drip-nft、CA 0x28a011fa89725d086e8d23b9ffefefcded8c5450 互核；公开铸造 11-16 06:00 CST。官号 175 粉，未审计。The Syndicate ≤2h 窗已于 14:37 CST 结束，官号 14:36 CST 仍称 Mint is Live，OpenSea 已铸 802→821、floor 约 0.25 USDG。本号不自动 mint。https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "dripevm"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "dripevm"
+  ],
+  "admissions": [
+    {
+      "id": "dripevm",
+      "name": "DripEVM",
+      "handle": "@DripEVM",
+      "category": "打新",
+      "chain": "Elysium",
+      "score": 79,
+      "scores": {
+        "early": 88,
+        "actionable": 85,
+        "novelty": 62,
+        "risk": 58,
+        "overall": 79
+      },
+      "links": {
+        "x": "https://x.com/DripEVM",
+        "web": "https://dripevm.com/",
+        "opensea": "https://opensea.io/collection/drip-nft",
+        "ca": "0x28a011fa89725d086e8d23b9ffefefcded8c5450",
+        "telegram": "https://t.me/DripEVM",
+        "sourcePost": "https://x.com/DripEVM/status/2121130468238127529"
+      },
+      "blurb": "Elysium 免费白名单 LIVE：149/888，官网与 OpenSea、CA 互核；公开铸造 11-16 06:00 CST。",
+      "admit": true,
+      "dsModel": "deepseek-flash"
+    }
+  ],
+  "skipped": [
+    {
+      "id": "circuit-genesis",
+      "reason": "第三方 @Stockpocks 称 Circuit Genesis 11-16 在 Elysium 铸造，未见明确官号/官网，未建卡。"
+    },
+    {
+      "id": "qubitfox",
+      "reason": "链上 totalSupply=151、mintOpen=true，但仍无官推，沿用既有规则不建卡。"
+    },
+    {
+      "id": "tzero-launchpad",
+      "reason": "静默栏再次见到 @T0dotfun，已在库，不重复收录。"
+    }
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "porhdotfun",
+    "spindottrading",
+    "hypepe-official",
+    "sheafcash",
+    "aurbitdotfun",
+    "pixelfusedotfun",
+    "getclocked",
+    "cuckooclockxyz",
+    "errhfun",
+    "zerodroidsio",
+    "jacketagent",
+    "ruggkidz"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsModel": "deepseek-flash",
+  "dsUsage": {
+    "score": 1,
+    "alert": 1,
+    "model": "deepseek-flash",
+    "thinking": true
+  },
+  "coverage": {
+    "userFollow": true,
+    "mustWatch": true,
+    "tenLanesKeywords": true,
+    "mentions": true,
+    "silentAccounts": true
+  },
+  "xQuota": {
+    "xReads": 26,
+    "xReadsMain": 24,
+    "xReadsSilent": 1,
+    "admitVerifyReads": 1,
+    "admitVerifyNote": "KW_Elysium/KW_mint 命中作者 id 2083546070982758400 的免费白名单延长帖，回包被截断缺 username，因存在可操作免费 LIVE 线索，做了 1 次 get_users_by_id 核验，解析为 @DripEVM，随后用官网与 OpenSea 交叉验证后收录。未为截断的其它栏整栏重拉。Circuit Genesis / Stockpocks 仅为第三方宣布 11-16 Elysium 铸造，无明确官号未建卡。Qubitfox 链上 totalSupply=151 但仍无官推，未建卡。T0dotfun 已在库（tzero-launchpad）。",
+    "remainingBefore": 664,
+    "remaining": 638,
+    "mode": "ample",
+    "softCap": 28,
+    "minSpend": 20,
+    "silentCap": 2,
+    "softCapHonored": true,
+    "minSpendHonored": true,
+    "silentOutsideSoftCap": true,
+    "ufCursorBefore": 262,
+    "ufCursor": 321,
+    "ufKeptThisScan": 50,
+    "ufSkipThisScan": 9,
+    "ufSkipHandles": [
+      "envarai_",
+      "scripdrop",
+      "huntfieldrh",
+      "ciowworld",
+      "gra8dtv",
+      "hahastage",
+      "HaloPad_Pro",
+      "LiquidityStonk",
+      "Agent__arena"
+    ],
+    "ufConsideredThisScan": 59,
+    "noteUf": "R1739 已做 08:00 CST 后首轮全量补扫，本轮为 ample 正常节流。UF 262→321，kept 50，skip 9（已知 NF），未绕回。下一轮从 321 续。计划 24 次主读 + 1 次静默 mentions；另 1 次 get_users_by_id 核验 DripEVM。开跑 remainingBefore=664，核验后页脚 remaining=638。",
+    "laneReads": {
+      "打新": true,
+      "挖矿": true,
+      "台子/Meme": true,
+      "GO盘": true,
+      "LayerZero": true,
+      "Elysium": true,
+      "Tape/电路": true,
+      "GIWA": true,
+      "DogeEVM": true,
+      "BN Agent 钱包": true,
+      "BTC": true,
+      "Starknet": true
+    },
+    "kwCoreRan": [
+      "打新",
+      "台子/Meme",
+      "GO盘",
+      "Elysium"
+    ],
+    "kwThinRan": true,
+    "kwGapsRan": true,
+    "kwMiningRodeWithGaps": true,
+    "kwCoreDeferred": [],
+    "tenLanes": true,
+    "tenLanesNote": "ample 轮：薄栏 6 条独立 KW（LayerZero/Tape/GIWA/DogeEVM/BTC/Starknet）+ 核心 KW（打新/台子/GO/Elysium）+ KW_GAPS（squeek/Nutshell/仓鼠链/STARX/Agent ID/AIDROP/Pulse/computeroll/pipfun/TapeOut/Local Bottom + 挖矿词）全跑；BN Agent 靠 fat agentPad/bnAgent。不翻页 next_token。部分 KW 回包被截断，已 salvage；仅对 Elysium 149/888 免费 LIVE 作者补了 1 次 get_users_by_id。",
+    "mentionsThin": [
+      "LayerZero",
+      "GIWA",
+      "BTC",
+      "DogeEVM",
+      "Starknet",
+      "Tape"
+    ],
+    "mentionsRest": [
+      "irys_xyz",
+      "arcxtrade",
+      "arcpump_",
+      "Enter_Elysium",
+      "kinetiq_xyz",
+      "AgentKinetiq",
+      "squeekchain",
+      "NutshellMarkets",
+      "starx_xlayer",
+      "PulseLaunchpad",
+      "dotaipad",
+      "flapdotsh",
+      "fulldotfun"
+    ],
+    "mentionsThinDeferred": [],
+    "fatShards": {
+      "agentPad": {
+        "range": [
+          341,
+          386
+        ],
+        "nextStart": 386,
+        "nAccountsAtScan": 769,
+        "kept": 28,
+        "skipped": 17,
+        "skippedHandles": [
+          "wedowtf",
+          "manekinecoinft",
+          "BabelAgent",
+          "TurboKartBNB",
+          "wuseagent",
+          "stonkaxyz",
+          "grepfi",
+          "torpor_si",
+          "SwarmHiveBNB",
+          "twinmetahq",
+          "Fairagent_bnb",
+          "cardstockfun",
+          "potionrh",
+          "beatmissapp",
+          "sharpsheet_rh",
+          "safufundbnb",
+          "bellwethers_ai"
+        ],
+        "wrapped": false,
+        "queried": 28,
+        "dedupedAlreadyUsed": [],
+        "visited": 45
+      },
+      "freeMint": {
+        "range": [
+          65,
+          100
+        ],
+        "nextStart": 100,
+        "nAccountsAtScan": 396,
+        "kept": 28,
+        "skipped": 7,
+        "skippedHandles": [
+          "claudesprotocol",
+          "wedowtf",
+          "BabelAgent",
+          "TurboKartBNB",
+          "SwarmHiveBNB",
+          "WuseAgent",
+          "Asciidogs"
+        ],
+        "wrapped": false,
+        "queried": 21,
+        "dedupedAlreadyUsed": [
+          "SUANdotBID",
+          "AIDOGagentai",
+          "SigilsGuru",
+          "ZaibatsuWagies",
+          "mimiai_web3",
+          "Cogladius",
+          "Silicon_Dreamer"
+        ],
+        "visited": 35
+      },
+      "bnAgent": {
+        "range": [
+          92,
+          138
+        ],
+        "nextStart": 138,
+        "nAccountsAtScan": 290,
+        "kept": 28,
+        "skipped": 18,
+        "skippedHandles": [
+          "dropminters",
+          "snakeidbnb",
+          "SAFUFundBNB",
+          "inkwellonbnb",
+          "AgentFramlin404",
+          "XiangHao91647",
+          "lazabitmeme",
+          "bndoge_bn",
+          "Mintbncat_ai",
+          "babycz_ai",
+          "mint_WRIT",
+          "BinanceCanFly",
+          "Meteorszmint",
+          "AiPullpad",
+          "dinomitesnft",
+          "bianfenhong",
+          "NoNamesPNFT",
+          "Morumai_"
+        ],
+        "wrapped": false,
+        "queried": 27,
+        "dedupedAlreadyUsed": [
+          "AgentryBAW"
+        ],
+        "visited": 46
+      },
+      "elysium": {
+        "range": [
+          229,
+          257
+        ],
+        "nextStart": 257,
+        "nAccountsAtScan": 282,
+        "kept": 28,
+        "skipped": 0,
+        "skippedHandles": [],
+        "wrapped": false,
+        "queried": 28,
+        "dedupedAlreadyUsed": [],
+        "visited": 28
+      }
+    },
+    "thinOfficial": {
+      "unique": 94,
+      "overlapWithUfFat": 0,
+      "overlapHandles": [],
+      "knownNfSkipped": [
+        "TapeFractal"
+      ],
+      "queried": 93,
+      "batches": [
+        47,
+        46
+      ]
+    }
+  },
+  "xReads": 26,
+  "xReadsMain": 24,
+  "xReadsSilent": 1,
+  "admitVerifyReads": 1,
+  "remainingBefore": 664,
+  "remaining": 638,
+  "modeX": "ample",
+  "softCap": 28,
+  "minSpend": 20,
+  "silentCap": 2,
+  "ufCursorBefore": 262,
+  "ufCursor": 321,
+  "tenLanes": true,
+  "laneReads": {
+    "打新": true,
+    "挖矿": true,
+    "台子/Meme": true,
+    "GO盘": true,
+    "LayerZero": true,
+    "Elysium": true,
+    "Tape/电路": true,
+    "GIWA": true,
+    "DogeEVM": true,
+    "BN Agent 钱包": true,
+    "BTC": true,
+    "Starknet": true
+  },
+  "mentionsChains": {
+    "thin": [
+      "LayerZero",
+      "GIWA",
+      "BTC",
+      "DogeEVM",
+      "Starknet",
+      "Tape"
+    ],
+    "rest": [
+      "irys_xyz",
+      "arcxtrade",
+      "arcpump_",
+      "Enter_Elysium",
+      "kinetiq_xyz",
+      "AgentKinetiq",
+      "squeekchain",
+      "NutshellMarkets",
+      "starx_xlayer",
+      "PulseLaunchpad",
+      "dotaipad",
+      "flapdotsh",
+      "fulldotfun"
+    ]
+  },
+  "silentAccounts": {
+    "ran": true,
+    "lane": "LayerZero",
+    "method": "mentions",
+    "search_users_unavailable": true,
+    "windowStart": "2026-11-12T06:37:39Z",
+    "seenApprox": 5,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 0,
+    "secondRead": false,
+    "note": "search_users 不可用，改跑 LayerZero mentions（softCap 外，query: has:mentions (LayerZero OR OFT) (mint OR launch OR launchpad) -is:retweet）。回收约 5 帖：T0dotfun / ZeroGuysNFT / PlunderPort 均为已在库项目，未建新卡。未做第二读。"
+  },
+  "watchBugsFixed": [
+    {
+      "id": "porhdotfun",
+      "handle": "@porhdotfun",
+      "watches": [
+        "userFollowWatch",
+        "miningWatch"
+      ]
+    },
+    {
+      "id": "spindottrading",
+      "handle": "@spindottrading",
+      "watches": [
+        "userFollowWatch"
+      ]
+    },
+    {
+      "id": "hypepe-official",
+      "handle": "@Hypepe_official",
+      "watches": [
+        "userFollowWatch",
+        "elysiumWatch"
+      ]
+    },
+    {
+      "id": "sheafcash",
+      "handle": "@sheafcash",
+      "watches": [
+        "userFollowWatch"
+      ]
+    },
+    {
+      "id": "aurbitdotfun",
+      "handle": "@aurbitdotfun",
+      "watches": [
+        "userFollowWatch"
+      ]
+    },
+    {
+      "id": "pixelfusedotfun",
+      "handle": "@pixelfusedotfun",
+      "watches": [
+        "userFollowWatch"
+      ]
+    },
+    {
+      "id": "getclocked",
+      "handle": "@getclocked",
+      "watches": [
+        "userFollowWatch"
+      ]
+    },
+    {
+      "id": "cuckooclockxyz",
+      "handle": "@cuckooclockxyz",
+      "watches": [
+        "userFollowWatch"
+      ]
+    },
+    {
+      "id": "errhfun",
+      "handle": "@errhfun",
+      "watches": [
+        "userFollowWatch"
+      ]
+    },
+    {
+      "id": "zerodroidsio",
+      "handle": "@zerodroidsio",
+      "watches": [
+        "userFollowWatch",
+        "layerZeroWatch"
+      ]
+    },
+    {
+      "id": "jacketagent",
+      "handle": "@jacketagent",
+      "watches": [
+        "userFollowWatch",
+        "freeMintWatch"
+      ]
+    },
+    {
+      "id": "ruggkidz",
+      "handle": "@RUGGKIDZ",
+      "watches": [
+        "userFollowWatch"
+      ]
+    }
+  ],
+  "watchAdds": [
+    {
+      "id": "dripevm",
+      "handle": "@DripEVM",
+      "watches": [
+        "userFollowWatch",
+        "freeMintWatch",
+        "elysiumWatch"
+      ]
+    }
+  ],
+  "watchBugFix": "R1752 Discord alpha 新收的 12 张卡（porhdotfun / spindottrading / hypepe-official / sheafcash / aurbitdotfun / pixelfusedotfun / getclocked / cuckooclockxyz / errhfun / zerodroidsio / jacketagent / ruggkidz）在库但不在任何 Watch，本轮补进 userFollowWatch，并按链/类型分别补进 miningWatch / elysiumWatch / layerZeroWatch（zerodroidsio，LZ 仍未核验）/ freeMintWatch（jacketagent）。本轮新收 dripevm 已同时进入 userFollowWatch + freeMintWatch + elysiumWatch。",
+  "le2h": [],
+  "le2hEnded": [
+    "the-syndicate-rh"
+  ],
+  "liveProgress": {
+    "the-syndicate-rh": {
+      "osMinted": "802→821",
+      "owners": "358→360",
+      "sales": "767→773",
+      "floor": "0.25 USDG",
+      "le2h": false,
+      "windowEnded": "2026-11-13 14:37 CST",
+      "officialStillLive": true
+    },
+    "riftera-rifters": {
+      "totalMinted": "446→447",
+      "mintOpen": true
+    },
+    "firsttake-xyz": {
+      "totalMinted": 194,
+      "mintOpen": true
+    },
+    "momo-mochi": {
+      "totalMinted": "291→292",
+      "mintOpen": true
+    },
+    "clause-protocol": {
+      "totalMinted": "5→8/7777",
+      "paused": false
+    },
+    "arctic-bear": {
+      "totalMinted": "73→74/5555",
+      "forgeLive": true
+    },
+    "sharkverse": {
+      "totalMinted": 21
+    },
+    "zodiac-fortune": {
+      "totalMinted": 335,
+      "remainingFree": 0,
+      "mintOpen": true
+    },
+    "jpeg-monkes": {
+      "osMinted": "1405→1419",
+      "floor": "0.001084 ETH"
+    },
+    "boatn-fish": {
+      "minted": "1037→1099/2222",
+      "priceSol": "0.02490"
+    },
+    "hood-terminals": {
+      "osMinted": 527,
+      "owners": "352→350",
+      "sales": "644→647",
+      "floor": "0.000999 ETH"
+    }
+  },
+  "autoMint": false,
+  "push": {
+    "plannedFiles": [
+      "data.json",
+      "docs/data.json",
+      "ROUND1753_RESULT.json"
+    ],
+    "branch": "main"
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1753 ample 扫描新收 DripEVM（@DripEVM，DeepSeek overall 79，admit=true）Elysium 免费白名单 LIVE，已铸 149/888。The Syndicate ≤2h 窗已于 14:37 CST 结束，官号仍称 Mint is Live，OpenSea 已铸 802→821、floor 约 0.25 USDG。已在库 Riftera 446→447、First Take 仍 194、Momo 291→292、Clause 5→8、Arctic 73→74、Shark 仍 21、Zodiac 仍 335。修复 R1752 十二张新卡监控漏挂。本号不自动 mint。",
+  "lastFullAfterReset": "R1739",
+  "priorRoundNote": "R1752 为 Discord alpha 补漏（14:09 CST，12 项），本轮为常规 30 分钟雷达 R1753，不重复通知那 12 项。"
+}
