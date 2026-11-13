@@ -1,0 +1,319 @@
+{
+  "round": 1779,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-14 01:38 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R1779 Discord alpha 补充收录 5 条，面板：https://reboot7454.github.io/early-scout/\n\n1. **Fantera**（@FanteraTrade，台子/Meme，Robinhood Chain）：官网 fantera.trade 可打开；2026-11-14 00:49 CST 官宣 live，官方 CA 0xf9f415b706afbe6665d36eb6da376254d35610b8（Fantera/FANTERA，10亿）经 Robinhood RPC 核验有码；Pons V2 FANTERA/WETH 池 0x38abd51018a845ccf97dc1337c4e10cf9b56340a 于 00:47 CST 创建，本轮 graduation 1.4% 未毕业、FDV 约 3518、储备约 3511、24h 成交约 3333；官帖锁仓 28,340,080.9717 至 2026-12-02。缺点：盘小；锁仓本轮未独立核验，且与 Zivilia 锁仓数完全相同、站点结构高度相似，疑同一模板/工厂盘。\n\n2. **Zivilia**（@ziviliafun，台子/Meme，Robinhood Chain）：官网 zivilia.fun 可打开，定位 Robinhood Chain 自主交易智能体工具箱；2026-11-14 01:06 CST 官宣经 @ponsdotfamily 上线，官方 CA 0x12f8e1b7d9c3cc17921c6433a0c1f4f5936052d6（Zivilia/ZIVILIA，10亿）经 Robinhood RPC 核验有码；Pons V2 ZIVILIA/WETH 池 0x8b79be73125b971fc9fb5e9bb066720052b413c4 于 01:03 CST 创建，本轮 graduation 1.17% 未毕业、FDV 约 3391、储备约 3390、24h 成交约 1872；官帖锁仓同为 28,340,080.9717 至 2026-12-03。缺点：盘小；Forge/实盘资金模式仍在路线图，官网部分数据仍 pending；锁仓本轮未独立核验，且与 Fantera 锁仓数完全相同、站点结构高度相似，疑同一模板/工厂盘。\n\n3. **010101**（@010101fun，台子/Meme，Zero（自称，未核验））：官网 010101.fun 可打开，自称 Zero 上的独立代币发射台；官方帖用二进制「SOON」造势，页面处于 Chapter One / Pre-launch / In development；官网写 Official X To be announced，但已存在 @010101fun；代币创建、交易、钱包连接均未上线，没有 CA，也没有已核验的 Zero 链部署；不进 LayerZero 栏，lzVerified=false；当前约 123 粉。缺点：信息矛盾、未上线且无可核验部署。\n\n4. **Pipi**（@PipiFoundation，台子/Meme，Ethereum）：官网 pipi.foundation 可打开；官方帖 CA 与官网及链上一致：0x66b7102f90b85d97c4a982c72e59a3270d7f2c3a（Pipi The Alien/PIPI，10亿）；Uniswap V2 PIPI/WETH 池 0xD639cD8bb12670bdec84dAb48De00c806168Ba32 于 2026-11-14 01:22 CST 创建，FDV 约 4555、流动性约 8394、24h 成交约 331，16 笔买入 / 0 笔卖出；官网称前 100 笔买单为 10/10 税、随后免关税、100% 进池、没有团队份额（本轮未独立核验税与份额）。缺点：池极浅且只有单边成交；账号当天新建、约 1 个关注者，自称 Est. 2009 无法核验。\n\n5. **Kit**（@kitthecalico，打新，链未标注）：官网 kit.voyage 可打开，是 PendingFi 申请与预售页，需连接 X 与钱包；官方帖称已有 1300 passengers，预售缴 0.05–0.5 BNB，并称未入选可退款；当前约 1712 粉，已有预售募集和社区规模，不是零起点。缺点：bio 明确写 no live CA，先收 BNB 后发币，资金与合约无法核验；退款仅为官方口述，没有合约或链上证明。",
+  "newAdmits": [
+    "fantera",
+    "zivilia",
+    "010101fun",
+    "pipifoundation",
+    "kitthecalico"
+  ],
+  "newCount": 5,
+  "newIds": [
+    "fantera",
+    "zivilia",
+    "010101fun",
+    "pipifoundation",
+    "kitthecalico"
+  ],
+  "skipped": [
+    {
+      "handle": "@Inssafun",
+      "reason": "官网仍写 Nothing to connect/Nothing to buy，叙事反复（GIWA→Elysium→Hyperliquid），多链同名合约且未核验任何 Elysium 部署。",
+      "id": "inssa"
+    },
+    {
+      "handle": "@HypergambleX",
+      "reason": "账号创建于 2025-01 却几乎无帖，官网仅静态页无产品说明、无合约，发射线索过薄。",
+      "id": "hypergamble"
+    },
+    {
+      "handle": "@QuoraxisLabs",
+      "reason": "仅有开源预发布原型，没有代币、链上部署或参与入口，暂时不收录。",
+      "id": "quoraxis"
+    }
+  ],
+  "alreadyInDb": [],
+  "prereject": [
+    {
+      "handle": "@galentannernm",
+      "name": "Galen Tanner",
+      "followers": 0,
+      "reason": "保险从业个人号，bio 仅 Financial Services Insurance Agent，无产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 00:39"
+    },
+    {
+      "handle": "@Yong21358184",
+      "name": "Yong",
+      "followers": 1,
+      "reason": "个人号，bio 仅 Amazing grace，无产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 00:41"
+    },
+    {
+      "handle": "@CaesarGusto",
+      "name": "Caesar Augustus",
+      "followers": 0,
+      "reason": "空壳个人号，bio 仅 Nonchalant，无产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 00:44"
+    },
+    {
+      "handle": "@almmaasoglu",
+      "name": "almmaasoglu",
+      "followers": 10150,
+      "reason": "高粉(10150)个人/KOL，自称 FeldarAI 创始人，非极早期新项目官号。",
+      "channel": "smart-accounts-tracker",
+      "cardTimeCST": "2026-11-14 00:45"
+    },
+    {
+      "handle": "@KamalPashakf2e",
+      "name": "Kamal Pasha",
+      "followers": 0,
+      "reason": "数字营销个人号，无独立项目产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 00:47"
+    },
+    {
+      "handle": "@bliknoiz6",
+      "name": "Ansem",
+      "followers": 0,
+      "reason": "个人号，bio 指向 bullpen.fi 个人页，无独立项目与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 00:52"
+    },
+    {
+      "handle": "@Mavel_on_sol",
+      "name": "Marvel on sol",
+      "followers": 1,
+      "reason": "meme 画师个人号，无独立项目发射或官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 00:53"
+    },
+    {
+      "handle": "@SolidLionvex",
+      "name": "Rust Drake",
+      "followers": 0,
+      "reason": "Blender/Unreal 艺术家个人号，无加密项目产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 00:54"
+    },
+    {
+      "handle": "@SchlaumeyerCoin",
+      "name": "Callouts",
+      "followers": 3,
+      "reason": "社区 memecoin callout 账号，非独立项目官号。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 00:54"
+    },
+    {
+      "handle": "@SatishC21798734",
+      "name": "Satish Chaudhary",
+      "followers": 7,
+      "reason": "学生个人号，无产品站与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 00:57"
+    },
+    {
+      "handle": "@AsianStar8946",
+      "name": "AsianStar8946",
+      "followers": 49,
+      "reason": "1979 年成立的东证上市房地产公司（TSE:8946），非极早期加密项目。",
+      "channel": "smart-accounts-tracker",
+      "cardTimeCST": "2026-11-14 00:57"
+    },
+    {
+      "handle": "@Samiboyi5",
+      "name": "Sami boy",
+      "followers": 0,
+      "reason": "个人号，bio 仅 Sami boy，无产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:01"
+    },
+    {
+      "handle": "@Irfooon",
+      "name": "Irfoon",
+      "followers": 0,
+      "reason": "个人号，无可核验产品或官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:01"
+    },
+    {
+      "handle": "@VideHaldorsson",
+      "name": "Vide Haldorsson",
+      "followers": 4357,
+      "reason": "高粉(4358) KOL，bio 为 lunarstrategy 商务合作，非极早期新项目。",
+      "channel": "alpha-1-backup",
+      "cardTimeCST": "2026-11-14 01:04"
+    },
+    {
+      "handle": "@Serg85u",
+      "name": "Serg",
+      "followers": 17,
+      "reason": "空壳号，bio 仅 V8WL，无产品站与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:06"
+    },
+    {
+      "handle": "@LuisDa_1698",
+      "name": "L U I S 1 9 9 8.",
+      "followers": 10,
+      "reason": "个人号，无产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:07"
+    },
+    {
+      "handle": "@makegamesfast",
+      "name": "makegamesfast",
+      "followers": 1094,
+      "reason": "2023 年即运营的成熟 2D 游戏引擎 Turbo（约 1094 粉、1787 帖，官网 turbo.computer），非极早期加密打新项目。",
+      "channel": "smart-accounts-tracker",
+      "cardTimeCST": "2026-11-14 01:07"
+    },
+    {
+      "handle": "@NicoleRave25635",
+      "name": "南宁青秀区-莎莎",
+      "followers": 0,
+      "reason": "个人广告号，无加密项目产品。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:08"
+    },
+    {
+      "handle": "@Privacycatcom",
+      "name": "Privacy Cat",
+      "followers": 10,
+      "reason": "自称 Unofficial $BANDANA 社区号，非官方项目推特。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:10"
+    },
+    {
+      "handle": "@toolboxai_jp",
+      "name": "ToolboxAI_JP",
+      "followers": 10,
+      "reason": "2025-05 起的日文生成式 AI 内容号（10 粉、251 帖），无加密发射、无官方 CA，非极早期项目官号。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:10"
+    },
+    {
+      "handle": "@TrueWolfdex",
+      "name": "asami yamamoto",
+      "followers": 0,
+      "reason": "个人 lore 号，无独立可核验项目与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:13"
+    },
+    {
+      "handle": "@nillyfun",
+      "name": "@nillyfun",
+      "followers": 110,
+      "reason": "无独立站点、无官方 CA，仅一条 “coming soon to Zero” 帖，无线上产品或发射。",
+      "channel": "alpha-1",
+      "cardTimeCST": "2026-11-14 01:13"
+    },
+    {
+      "handle": "@MoonLightZero_",
+      "name": "@MoonLightZero_",
+      "followers": 55,
+      "reason": "无独立站点、无官方 CA，仅一条自称 LayerZero 隐私基础设施的叙事帖，LZ 未核验，无产品。",
+      "channel": "alpha-1",
+      "cardTimeCST": "2026-11-14 01:14"
+    },
+    {
+      "handle": "@DelvinMiller6",
+      "name": "dee cee",
+      "followers": 0,
+      "reason": "空壳个人号，bio 仅 peace，无产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:16"
+    },
+    {
+      "handle": "@le87914572",
+      "name": "Mithilesh",
+      "followers": 0,
+      "reason": "空壳个人号，bio 仅 BLESSED，无产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:16"
+    },
+    {
+      "handle": "@dshht11221",
+      "name": "dshht",
+      "followers": 1,
+      "reason": "个人号，无产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:18"
+    },
+    {
+      "handle": "@Muneebakbr",
+      "name": "Muneeb Akber",
+      "followers": 6,
+      "reason": "学生个人号，无产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:19"
+    },
+    {
+      "handle": "@Tatsoavaz8",
+      "name": "Tatsoa",
+      "followers": 0,
+      "reason": "空壳号，bio 仅 prs_40f0d8，无产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:21"
+    }
+  ],
+  "cardsAfterLastSeen": 43,
+  "cardsAfterCutoff": 43,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "candidateFlagsCleared": [],
+  "topNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking-on admits=5 skip=31 (@Inssafun, @HypergambleX, @QuoraxisLabs, @galentannernm, @Yong21358184, @CaesarGusto, @almmaasoglu, @KamalPashakf2e, @bliknoiz6, @Mavel_on_sol, @SolidLionvex, @SchlaumeyerCoin, @SatishC21798734, @AsianStar8946, @Samiboyi5, @Irfooon, @VideHaldorsson, @Serg85u, @LuisDa_1698, @makegamesfast, @NicoleRave25635, @Privacycatcom, @toolboxai_jp, @TrueWolfdex, @nillyfun, @MoonLightZero_, @DelvinMiller6, @le87914572, @dshht11221, @Muneebakbr, @Tatsoavaz8) calls=2 prompt=5519 completion=6839; not dsFallback; categoryOverride=none",
+  "coverage": "discord-alpha #alpha-3-new-accounts + #alpha-1-backup + #smart-accounts-tracker + #alpha-1 glance",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-14 01:21",
+    "lastChecked": "2026-11-14 01:38 CST",
+    "newestCardTime": "2026-11-14 01:21",
+    "cardsAfterCutoff": 43,
+    "note": "R1779：Discord alpha 补收 fantera, zivilia, 010101fun, pipifoundation, kitthecalico；已清上一轮 newThisRound []（pace R1778 已清过 DC 三卡徽章）；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-14 01:21', 'alpha-1-backup': '2026-11-14 01:19', 'smart-accounts-tracker': '2026-11-14 01:07', 'alpha-1': '2026-11-14 01:20'}；开跑前远程已是 R1778（独立 pace，无新卡），本轮 DC=R1779，未覆盖既有轮次",
+    "lastRound": 1779,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-14 01:21",
+      "alpha-1-backup": "2026-11-14 01:19",
+      "smart-accounts-tracker": "2026-11-14 01:07",
+      "alpha-1": "2026-11-14 01:20"
+    },
+    "spideyPosting": true,
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-12 00:02",
+      "to": "2026-11-13 05:11",
+      "nFilled": 0,
+      "note": "skipped this incremental run; 29h+ outage hole still unscanned; only collected cards after prior lastSeen"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1779：Discord alpha 补收 fantera, zivilia, 010101fun, pipifoundation, kitthecalico；已清上一轮 newThisRound []（pace R1778 已清过 DC 三卡徽章）；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-14 01:21', 'alpha-1-backup': '2026-11-14 01:19', 'smart-accounts-tracker': '2026-11-14 01:07', 'alpha-1': '2026-11-14 01:20'}；开跑前远程已是 R1778（独立 pace，无新卡），本轮 DC=R1779，未覆盖既有轮次",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r1778.json",
+  "priorRoundNote": "远程开跑后已是 R1778（pace 独立轮，无新卡，已清 R1777 NTR）；本轮 DC=R1779，未覆盖既有轮次；cardsAfterCutoff=43",
+  "categoryOverride": "none",
+  "uniqueHandles": 36,
+  "spideyByChannel": {
+    "alpha-3-new-accounts": false,
+    "alpha-1-backup": true,
+    "smart-accounts-tracker": true,
+    "alpha-1": true
+  }
+}
