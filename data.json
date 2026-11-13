@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-14 00:34:23 CST",
+    "updated": "2026-11-14 00:46 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-14 00:34:23 CST",
+    "lastScout": "2026-11-14 00:46 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -748,7 +748,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1776,
+    "round": 1777,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -825,7 +825,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 4199,
+    "candidateCount": 4202,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -2252,11 +2252,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "sharpline",
-      "ophiris",
-      "bloomvale",
-      "covar-agent",
-      "loterry"
+      "veltrixcodes",
+      "krypnous",
+      "melaps-system"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4972,17 +4970,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-14 00:09",
-      "lastChecked": "2026-11-14 00:26 CST",
-      "newestCardTime": "2026-11-14 00:09",
-      "cardsAfterCutoff": 47,
-      "note": "R1776：Discord alpha 补收 sharpline, ophiris, bloomvale, covar-agent, loterry；上一轮 newThisRound 已空（R1775 pace 已清）；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-14 00:03', 'alpha-1-backup': '2026-11-14 00:04', 'smart-accounts-tracker': '2026-11-14 00:09', 'alpha-1': '2026-11-14 00:08'}；开跑前远程已是 R1775，本轮 DC=R1776，未覆盖既有轮次",
-      "lastRound": 1776,
+      "lastSeen": "2026-11-14 00:36",
+      "lastChecked": "2026-11-14 00:46 CST",
+      "newestCardTime": "2026-11-14 00:36",
+      "cardsAfterCutoff": 22,
+      "note": "R1777：Discord alpha 补收 veltrixcodes, krypnous, melaps-system；已清上一轮 newThisRound ['sharpline', 'ophiris', 'bloomvale', 'covar-agent', 'loterry']；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-14 00:36', 'alpha-1-backup': '2026-11-14 00:19', 'smart-accounts-tracker': '2026-11-14 00:09', 'alpha-1': '2026-11-14 00:29'}；开跑前远程已是 R1776，本轮 DC=R1777，未覆盖既有轮次",
+      "lastRound": 1777,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-14 00:03",
-        "alpha-1-backup": "2026-11-14 00:04",
+        "alpha-3-new-accounts": "2026-11-14 00:36",
+        "alpha-1-backup": "2026-11-14 00:19",
         "smart-accounts-tracker": "2026-11-14 00:09",
-        "alpha-1": "2026-11-14 00:08"
+        "alpha-1": "2026-11-14 00:29"
       },
       "spideyPosting": true,
       "alpha3OlderGap": {
@@ -29532,8 +29530,9 @@
       "ascendrbot"
     ],
     "roundNAdded": [
-      "boxcars",
-      "honestbull"
+      "veltrixcodes",
+      "krypnous",
+      "melaps-system"
     ],
     "round1438Added": [
       "elyfun"
@@ -33143,9 +33142,172 @@
       "bloomvale: added userFollowWatch @bloomvaleRH",
       "covar-agent: added userFollowWatch @CovarAgentxyz",
       "loterry: added userFollowWatch @LoterryChainv2"
+    ],
+    "round1777Added": [
+      "veltrixcodes",
+      "krypnous",
+      "melaps-system"
     ]
   },
   "candidates": [
+    {
+      "id": "melaps-system",
+      "name": "Melaps",
+      "handle": "@melaps_system",
+      "twitter": "@melaps_system",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/melaps_system",
+        "website": "https://www.melaps.xyz/",
+        "ca": "0x49b5a9fcd24ca5083fa05f9136e7d04564647621"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.6
+      },
+      "highlights": [
+        "官网 www.melaps.xyz 可打开，另有 docs.melaps.xyz 与 GitHub MelapsSystem",
+        "2026-11-14 00:31 CST 官宣 $MELAPS IS LIVE，官方 CA 0x49b5a9fcd24ca5083fa05f9136e7d04564647621（Melaps/MELAPS，10亿），与官网页头 $MELAPS CONTRACT 一致；Robinhood RPC 4663 已核验有码",
+        "Pons V2 MELAPS/WETH 池 0xaf47a086cbeb0303587f6f6ebe02cc73bf74719e 于 00:31 CST 创建，本轮读到 graduation 22.21% 未毕业、FDV 约 7923、流动性约 4926、成交约 6398",
+        "自称 us-west 8x H100 集群、邀请制 REQUEST ACCESS，标价 2.49/1.89/1.19 USD/GPU·h"
+      ],
+      "drawbacks": [
+        "邀请制，实际算力本轮未独立验证",
+        "官帖在开盘后另发 ALL SUPLY HAS BEEN BURNED 与 DEXPAIDD，本轮未链上核验这两条",
+        "刚开盘，FDV 约 7923 美元、流动性约 4926 美元，盘仍小"
+      ],
+      "whatsNew": "X 号 2026-11-13 创建；2026-11-14 00:31 CST 官宣 $MELAPS live 并给出已核验官方 CA，Pons 池同步建立。",
+      "summary": "Robinhood Chain 上的 AI 团队 neocloud 平台，官网/文档/GitHub 可打开，官帖 CA 与 Pons 池已核验；算力为邀请制，销毁与 DEX 付费说法未核验。",
+      "blurb": "刚发射的 GPU neocloud 盘，官帖 CA 已核验，邀请制且算力未独立验证。",
+      "round": 1777,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 5,
+      "xFollowers": 5,
+      "firstSeen": "2026-11-14 00:46 CST",
+      "addedAt": "2026-11-14 00:46 CST",
+      "lastChecked": "2026-11-14 00:46 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true,
+      "schedule": {
+        "lastChecked": "2026-11-14 00:46 CST",
+        "timezone": "Asia/Shanghai"
+      }
+    },
+    {
+      "id": "krypnous",
+      "name": "Krypnous",
+      "handle": "@Krypnous",
+      "twitter": "@Krypnous",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Krypnous",
+        "website": "https://krypnous.tech/",
+        "ca": "0x6d70043121e7d0FC7113c9AD208F236281505807"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 5,
+        "novelty": 6,
+        "actionable": 8,
+        "overall": 7.4
+      },
+      "highlights": [
+        "官网 krypnous.tech 可打开，定位密封硬件/TEE 私密 AI（chat/image/video/audio/agent），可免注册试用",
+        "2026-11-14 00:13 CST 官宣 $KRYPNOUS 合约，官方 CA 0x6d70043121e7d0FC7113c9AD208F236281505807（Krypnous/KRYPNOUS，10亿），与 bio、官网一致；Robinhood RPC 4663 已核验有码，ETH/Base/BSC 无码",
+        "Pons V2 KRYPNOUS/WETH 池 0x57070f211b40a82bd4bb8f8dc42e6f32611b8e25 于 00:13 CST 创建，本轮读到 graduation 0.18% 未毕业、FDV 约 3239、流动性约 3224、成交约 2552"
+      ],
+      "drawbacks": [
+        "FDV 约 3239 美元、流动性约 3224 美元，盘极小，滑点与撤池风险高",
+        "X 号 2026-11-10 创建，当前约 11 粉",
+        "关注过 @Enter_Elysium，但本轮未见 Elysium 测试网或已宣布具体部署，不进 Elysium 栏"
+      ],
+      "whatsNew": "X 号 2026-11-10 创建；2026-11-14 00:13 CST 官宣 $KRYPNOUS live 并给出已核验官方 CA，Pons 池同步建立。",
+      "summary": "Robinhood Chain 上的 TEE 密封硬件私密 AI，官网可打开，官帖 CA 与链上合约、Pons 池一致；市值与流动性极低。",
+      "blurb": "Robinhood Chain 硬件 TEE 私密 AI，CA 已核验、Pons 池刚开，早期但极小微盘。",
+      "round": 1777,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 11,
+      "xFollowers": 11,
+      "firstSeen": "2026-11-14 00:46 CST",
+      "addedAt": "2026-11-14 00:46 CST",
+      "lastChecked": "2026-11-14 00:46 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true,
+      "schedule": {
+        "lastChecked": "2026-11-14 00:46 CST",
+        "timezone": "Asia/Shanghai"
+      }
+    },
+    {
+      "id": "veltrixcodes",
+      "name": "Veltrix",
+      "handle": "@veltrixcodes",
+      "twitter": "@veltrixcodes",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/veltrixcodes",
+        "website": "https://veltrix.codes/",
+        "ca": "0xf3f24c92ba23a737ebccf1c85a71cbd4d00733ec"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 6.5
+      },
+      "highlights": [
+        "官网 veltrix.codes 可打开；x402 live，USDG 按次计费图像/视频/语音/3D（官网称推理跑在 fal.ai）",
+        "2026-11-13 23:54 CST 官宣 Veltrix is now live on Robinhood Chain，官方 CA 0xf3f24c92ba23a737ebccf1c85a71cbd4d00733ec（Veltrix Code/VELTRIX，10亿），Robinhood RPC 4663 已核验有码",
+        "Pons V2 VELTRIX/WETH 池 0x7b7373e7d99974595acdece89dc0cfdccc612ba1 于 23:50 CST 创建，本轮读到 graduation 22.85% 未毕业、FDV 约 8249、流动性约 5250、成交约 5884",
+        "同日官帖称 Playground 已上线，可在浏览器内按显示价格生成"
+      ],
+      "drawbacks": [
+        "官网导航写 GPU Soon，FAQ 称按秒 GPU 租用（SSH/Jupyter）仍在路线图、排在模型之后",
+        "官帖称已从开发者钱包销毁部分代币，本轮未链上核验",
+        "FDV 约 8249 美元、流动性约 5250 美元，盘仍小"
+      ],
+      "whatsNew": "X 号 2026-11-11 创建；2026-11-13 23:54 CST 官宣 $VELTRIX live 并给出已核验官方 CA，Pons 池于 23:50 CST 建立。",
+      "summary": "Robinhood Chain 上的 AI 模型按次计费平台，官网与 x402 可用，官帖 CA 与 Pons 池已核验；GPU 租用尚未上线，池子仍小。",
+      "blurb": "Robinhood Chain AI 按次计费平台，代币已上线、官帖 CA 已核验，GPU 租用仍在路线图。",
+      "round": 1777,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 9,
+      "xFollowers": 9,
+      "firstSeen": "2026-11-14 00:46 CST",
+      "addedAt": "2026-11-14 00:46 CST",
+      "lastChecked": "2026-11-14 00:46 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true,
+      "schedule": {
+        "lastChecked": "2026-11-14 00:46 CST",
+        "timezone": "Asia/Shanghai"
+      }
+    },
     {
       "id": "loterry",
       "name": "Loterry",
@@ -33193,7 +33355,7 @@
       "addedAt": "2026-11-14 00:26 CST",
       "lastChecked": "2026-11-14 00:34:23 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "schedule": {
         "lastChecked": "2026-11-14 00:34:23 CST",
         "timezone": "Asia/Shanghai"
@@ -33245,7 +33407,7 @@
       "addedAt": "2026-11-14 00:26 CST",
       "lastChecked": "2026-11-14 00:34:23 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "schedule": {
         "lastChecked": "2026-11-14 00:34:23 CST",
         "timezone": "Asia/Shanghai"
@@ -33298,7 +33460,7 @@
       "addedAt": "2026-11-14 00:26 CST",
       "lastChecked": "2026-11-14 00:34:23 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "schedule": {
         "lastChecked": "2026-11-14 00:34:23 CST",
         "timezone": "Asia/Shanghai"
@@ -33351,7 +33513,7 @@
       "addedAt": "2026-11-14 00:26 CST",
       "lastChecked": "2026-11-14 00:34:23 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "schedule": {
         "lastChecked": "2026-11-14 00:34:23 CST",
         "timezone": "Asia/Shanghai"
@@ -33403,7 +33565,7 @@
       "addedAt": "2026-11-14 00:26 CST",
       "lastChecked": "2026-11-14 00:34:23 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "schedule": {
         "lastChecked": "2026-11-14 00:34:23 CST",
         "timezone": "Asia/Shanghai"
@@ -290884,21 +291046,23 @@
     }
   ],
   "newThisRound": [
-    "sharpline",
-    "ophiris",
-    "bloomvale",
-    "covar-agent",
-    "loterry"
+    "veltrixcodes",
+    "krypnous",
+    "melaps-system"
   ],
   "alertMessage": "",
-  "roundNAdded": [],
-  "updatedAt": "2026-11-14 00:26 CST",
-  "updated": "2026-11-14 00:34:23 CST",
+  "roundNAdded": [
+    "veltrixcodes",
+    "krypnous",
+    "melaps-system"
+  ],
+  "updatedAt": "2026-11-14 00:46 CST",
+  "updated": "2026-11-14 00:46 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-14 00:34:23 CST",
+  "lastScout": "2026-11-14 00:46 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -290940,7 +291104,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4199,
+  "candidateCount": 4202,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -291046,7 +291210,7 @@
   "round386Added": [],
   "round387Added": [],
   "round390Added": [],
-  "notify": false,
+  "notify": true,
   "round395Added": [
     "feastmeme"
   ],
@@ -291224,7 +291388,7 @@
     "blue-sky",
     "moonero"
   ],
-  "round": 1775,
+  "round": 1777,
   "round493Added": [
     "catalyst-labs-x"
   ],
@@ -291311,8 +291475,8 @@
   "round568Added": [
     "gantryfun"
   ],
-  "whatsNew": "R1775 独立例行 pace：bagnotary $BAGNOT 首次核实已于 2026-11-14 00:00 CST 在 Pons 开盘；lil-giraffies / boolish-rh 仍未能核验开铸；无新收录。",
-  "summary": "R1775 独立例行 pace：bagnotary $BAGNOT 首次核实已于 2026-11-14 00:00 CST 在 Pons 开盘；lil-giraffies / boolish-rh 仍未能核验开铸；无新收录。",
+  "whatsNew": "R1777：Discord alpha 补收 veltrixcodes, krypnous, melaps-system；已清上一轮 newThisRound ['sharpline', 'ophiris', 'bloomvale', 'covar-agent', 'loterry']；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-14 00:36', 'alpha-1-backup': '2026-11-14 00:19', 'smart-accounts-tracker': '2026-11-14 00:09', 'alpha-1': '2026-11-14 00:29'}；开跑前远程已是 R1776，本轮 DC=R1777，未覆盖既有轮次",
+  "summary": "R1777：Discord alpha 补收 veltrixcodes, krypnous, melaps-system；已清上一轮 newThisRound ['sharpline', 'ophiris', 'bloomvale', 'covar-agent', 'loterry']；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-14 00:36', 'alpha-1-backup': '2026-11-14 00:19', 'smart-accounts-tracker': '2026-11-14 00:09', 'alpha-1': '2026-11-14 00:29'}；开跑前远程已是 R1776，本轮 DC=R1777，未覆盖既有轮次",
   "round570Added": [
     "billion-pages"
   ],
@@ -291416,7 +291580,7 @@
     "bitpaws"
   ],
   "round605Added": [],
-  "coverage": "discord-alpha multi-channel",
+  "coverage": "discord-alpha #alpha-3-new-accounts + #alpha-1-backup + #smart-accounts-tracker + #alpha-1 glance",
   "round614Added": [
     "z0mbit"
   ],
@@ -294744,5 +294908,10 @@
     "bloomvale",
     "covar-agent",
     "loterry"
+  ],
+  "round1777Added": [
+    "veltrixcodes",
+    "krypnous",
+    "melaps-system"
   ]
 }
