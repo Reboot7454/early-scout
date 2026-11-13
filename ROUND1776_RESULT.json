@@ -1,0 +1,229 @@
+{
+  "round": 1776,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-14 00:26 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R1776 Discord alpha 补充收录 5 条：\n1. **Sharpline Markets**（@SharplineMrktRh）｜栏位：台子/Meme｜链：Robinhood Chain——官网 sharplinemarkets.fun 可打开，统一保证金终端；2026-11-13 23:59 CST 官宣 $sharpline live，官方 CA 仅 0x58ce54dc60e1c2a07e4bda1353faa169f8af1449（sharplinemarkets/SHARPLINE，10亿）；Pons V2 SHARPLINE/WETH 池 0xb10fa02bce7f8a187338b5784ac4711f681f9a6f 于 23:59 CST 创建，本轮读到 graduation 0.81% 未毕业、FDV 约 3289、流动性约 3288、成交约 295；官网页头 0x31ced11f… 是 ZENO MARKETS/ZENO，不是官方 CA；/app 本轮 404。\n2. **Ophiris**（@OphirisLoop）｜栏位：台子/Meme｜链：Robinhood Chain——官网 www.ophiris.xyz 可打开（红队 LLM 路由）；2026-11-13 23:48 CST 官宣 $OPHIRIS live，官方 CA 0x78c1c2d4cd6207b6ff4e84362d314d1cd0830041（10亿）；Pons V2 池 0xdebeb8a827ce05d8f7cfa92c156bd3ef28e034a0 于 23:44 CST 创建，本轮读到 graduation 35.21% 未毕业、FDV 约 11723、流动性约 9077、成交约 11612；2026-11-14 00:01 CST Burn 01：17,035,132 枚打入死地址，区块 113,470,168，约 1.70%。\n3. **Bloomvale**（@bloomvaleRH）｜栏位：台子/Meme｜链：Robinhood Chain——官网 bloomvale.xyz 可打开（AI 交易代理竞技场）；2026-11-14 00:16 CST 官宣 $BLOOM IS LIVE，官方 CA 仅 0xca8e648f77204c5c6bf42598b12b2790b5712bb0（Bloom Vale/BLOOM，10亿）；Pons V2 池 0xfc5ed2b6e1a0cfce9829dfa4bf7acffaee773b15 于 00:15 CST 创建，本轮读到 graduation 9.27% 未毕业、FDV 约 4789、流动性约 4639、成交约 774；官网另挂同名 BLOOM 0x764fa8be… 冲突；/app 本轮 404；00:17 CST 称 Strategy is live。\n4. **Covar Agent**（@CovarAgentxyz）｜栏位：台子/Meme｜链：Robinhood Chain——官网 www.covaragent.xyz 可打开；2026-11-13 23:41 CST 称测试网完成、主网即将上线，未公布代币 CA；官网金库 0x9f0172… 是 Covar Agent Vault/cvSHARE，不是官方代币 CA；/app 本轮 404。\n5. **Loterry**（@LoterryChainv2）｜栏位：台子/Meme｜链：Polygon——官网 loterrychain.xyz 可打开；2026-11-13 23:21 CST 官宣 live on Polygon，91% 赢家/9% 管理费，Chainlink VRF，NFT 门票；当前 v2 合约 0x56ccC072CeDd9124363EDBd006de5b204143b227（Polygon），属既有产品新版本；旧合约 0xC4D8C8AA5cC21F685F8d959CDB5BC96c155b8c3A 仍在；未核验开奖时刻。\n完整面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "sharpline",
+    "ophiris",
+    "bloomvale",
+    "covar-agent",
+    "loterry"
+  ],
+  "newCount": 5,
+  "newIds": [
+    "sharpline",
+    "ophiris",
+    "bloomvale",
+    "covar-agent",
+    "loterry"
+  ],
+  "skipped": [
+    {
+      "id": "iamai",
+      "handle": "@iamai36912",
+      "reason": "只有 I AM AI 口号与疑似 pump.fun 地址，无官网、无产品与可核验玩法，属空壳 meme。"
+    },
+    {
+      "id": "royal-blep",
+      "handle": "@RoyalBlep_sol",
+      "reason": "明确零效用会议 meme，CA 未公布、发射未发生，仅预热喊单。"
+    },
+    {
+      "id": "plmbrs-union",
+      "handle": "@plmbrs_union",
+      "reason": "该号只是 PLUMBERS 的布告栏/转推账号，独立项目推为 @plumbers_wtf，且官网被风控挡住无法核验产品。"
+    },
+    {
+      "id": "fastmoon",
+      "handle": "@fastmoonitx",
+      "reason": "仅口号视频与疑似 pump.fun 地址，无官网无文档无玩法，属空壳 meme。"
+    }
+  ],
+  "alreadyInDb": [
+    {
+      "handle": "@SyndicateRHC",
+      "name": "Syndicate",
+      "channel": "alpha-1-backup",
+      "cardTimeCST": "2026-11-14 00:04",
+      "id": "syndicate-rhc",
+      "why": "already_in_db"
+    },
+    {
+      "handle": "@SyndicateRHC",
+      "name": "@SyndicateRHC",
+      "channel": "alpha-1",
+      "cardTimeCST": "2026-11-13 23:55",
+      "id": "syndicate-rhc",
+      "why": "already_in_db"
+    },
+    {
+      "handle": "@UseStoaDex",
+      "id": "stoadex",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-13 23:30",
+      "why": "alias_of_existing:stoadex/@StoaDex (same website stoadex.com, same project already admitted in R1770)"
+    }
+  ],
+  "prereject": [
+    {
+      "handle": "@notbuildyett",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@TAcoustique",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@0xsorrento",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@Gaby24791150",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@FortuneKubi",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@BoredApeVN",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@nukofu_art",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@Yong_graphix78",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@Rabbi123a",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@RomanKoval1990",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@AetherBearkel",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@huapgmhrc",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@nour_qani",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@RebsojReyes",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@moniqueLead",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@Rayboliv",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@DAlhqysh",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@Aashish31044938",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@theleobrooks",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@Mustafa04888768",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@bournhaddkavlab",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@perpsonx",
+      "reason": "high_followers:4405"
+    },
+    {
+      "handle": "@NFTX_",
+      "reason": "high_followers:38406"
+    },
+    {
+      "handle": "@Ed_x0101",
+      "reason": "high_followers:85216"
+    },
+    {
+      "handle": "@MandelDuck",
+      "reason": "high_followers:12098"
+    },
+    {
+      "handle": "@KlipzStudio",
+      "reason": "personal_or_empty_or_non_crypto"
+    },
+    {
+      "handle": "@DeepgramAI",
+      "reason": "high_followers:11652"
+    },
+    {
+      "handle": "@KaitoAI",
+      "reason": "high_followers:394307"
+    }
+  ],
+  "cardsAfterLastSeen": 47,
+  "cardsAfterCutoff": 47,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "candidateFlagsCleared": 0,
+  "topNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking-on admits=5 skip=4 (iamai, royal-blep, plmbrs-union, fastmoon) calls=3 prompt=9607 completion=10131; not dsFallback; categoryOverride=台子/Meme for sharpline/ophiris/bloomvale/covar-agent (DS had 打新)",
+  "coverage": "discord-alpha #alpha-3-new-accounts + #alpha-1-backup + #smart-accounts-tracker + #alpha-1 glance",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-14 00:09",
+    "lastChecked": "2026-11-14 00:26 CST",
+    "newestCardTime": "2026-11-14 00:09",
+    "cardsAfterCutoff": 47,
+    "note": "R1776：Discord alpha 补收 sharpline, ophiris, bloomvale, covar-agent, loterry；上一轮 newThisRound 已空（R1775 pace 已清）；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-14 00:03', 'alpha-1-backup': '2026-11-14 00:04', 'smart-accounts-tracker': '2026-11-14 00:09', 'alpha-1': '2026-11-14 00:08'}；开跑前远程已是 R1775，本轮 DC=R1776，未覆盖既有轮次",
+    "lastRound": 1776,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-14 00:03",
+      "alpha-1-backup": "2026-11-14 00:04",
+      "smart-accounts-tracker": "2026-11-14 00:09",
+      "alpha-1": "2026-11-14 00:08"
+    },
+    "spideyPosting": true,
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-12 00:02",
+      "to": "2026-11-13 05:11",
+      "nFilled": 0,
+      "note": "skipped this incremental run; 29h+ outage hole still unscanned; only collected cards after prior lastSeen"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1776：Discord alpha 补收 sharpline, ophiris, bloomvale, covar-agent, loterry；上一轮 newThisRound 已空（R1775 pace 已清）；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-14 00:03', 'alpha-1-backup': '2026-11-14 00:04', 'smart-accounts-tracker': '2026-11-14 00:09', 'alpha-1': '2026-11-14 00:08'}；开跑前远程已是 R1775，本轮 DC=R1776，未覆盖既有轮次",
+  "remoteVerified": false,
+  "cardsFile": "/tmp/dc40_r1775_cards_wrap.json",
+  "priorRoundNote": "Remote was R1775 (pace bagnotary confirm) at apply time; this DC is R1776. Did not overwrite R1775.",
+  "categoryOverride": "台子/Meme for sharpline, ophiris, bloomvale, covar-agent (DS originally 打新; not NFT mints)"
+}
