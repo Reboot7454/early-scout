@@ -217,13 +217,24 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "commit": "304ea931d168800f2fc4508b78c5f991cca639e2",
+    "followUp": "pending-handle-case",
+    "remote": "origin/main"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1776：Discord alpha 补收 sharpline, ophiris, bloomvale, covar-agent, loterry；上一轮 newThisRound 已空（R1775 pace 已清）；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-14 00:03', 'alpha-1-backup': '2026-11-14 00:04', 'smart-accounts-tracker': '2026-11-14 00:09', 'alpha-1': '2026-11-14 00:08'}；开跑前远程已是 R1775，本轮 DC=R1776，未覆盖既有轮次",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "/tmp/dc40_r1775_cards_wrap.json",
   "priorRoundNote": "Remote was R1775 (pace bagnotary confirm) at apply time; this DC is R1776. Did not overwrite R1775.",
-  "categoryOverride": "台子/Meme for sharpline, ophiris, bloomvale, covar-agent (DS originally 打新; not NFT mints)"
+  "categoryOverride": "台子/Meme for sharpline, ophiris, bloomvale, covar-agent (DS originally 打新; not NFT mints)",
+  "remoteRound": 1776,
+  "remoteNewThisRound": [
+    "sharpline",
+    "ophiris",
+    "bloomvale",
+    "covar-agent",
+    "loterry"
+  ]
 }
