@@ -1,0 +1,115 @@
+{
+  "round": 1769,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-13 21:40 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R1769 Discord alpha 补充收录 6 条：\n1. **Strix**（@strix_agents）｜栏位：台子/Meme｜链：Robinhood Chain——官网 strixagents.com 可打开；官帖宣布 $STRIX live on Robinhood Chain，官方 CA 0x676c93667db12dc5d595372f9a2efe27672cb595，Robinhood RPC chainId 4663 有码，symbol STRIX；Pons V2 STRIX/WETH 池创建于 2026-11-13 20:53 CST，graduation 约 13% 未完成。与库内 @strix_rbh 不是同一账号。\n2. **WAGMI**（@wagmint_bnb）｜栏位：打新｜链：BNB Chain——官网 wagmint.pages.dev 可打开；0.001 BNB/share、目标 10,000 份，mint 尚未开放；官方 TOKEN 0x584aAE22D007C97705a6fC28b9BFa75132E80304、MINT 0x915055f763571Fd46D9C9FD338d586b05e298132 在 BSC 均有码，Token totalSupply 本轮为 0。\n3. **Burybud**（@burybud）｜栏位：打新｜链：Robinhood Chain——官网 burybud.xyz 本轮 TLS 失败未能打开；官帖演示 Planting，档期 $BURY on Pons：2026-11-14 23:00 CST；Garden 合约 0xC5476b293f7825f88301683D480c485bfbE7662d 在 Robinhood 有码但不是代币 CA；本轮无已验证 $BURY 代币 CA。\n4. **Delvo**（@delvoprotocol）｜栏位：台子/Meme｜链：Elysium——官网 delvoprotocol.xyz 可打开；签名前模拟工具，$DELVO At launch；本轮无官方代币 CA；因生态页本轮 429，故不进 Elysium 栏。\n5. **Pervix**（@pervix_xyz）｜栏位：台子/Meme｜链：Elysium——官网 pervix.xyz 可打开；官帖宣布 live on Elysium，官方 CA 0x7722ae0a8f13898612d37d8f578b4fcbcaa1e7d4，Elysium RPC 有码，symbol PERVIX；Montra PERVIX/HYPE 池创建于 2026-11-13 21:33 CST；因生态页本轮 429，故不进 Elysium 栏。\n6. **Envara**（@Envara_Agent）｜栏位：台子/Meme｜链：Robinhood Chain——官网 envara.fun 可打开；官方 $ENV CA 0x65a10a8bb3a9F22A14659A8b476780cF3dfe2D95，Robinhood RPC chainId 4663 有码；Pons V2 ENV/WETH 池创建于 2026-11-13 21:32 CST，graduation 约 2.43% 未完成。与库内 @envarai_ 不是同一账号。\n完整面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "strix-agents",
+    "wagmint",
+    "burybud",
+    "delvo",
+    "pervix",
+    "envara"
+  ],
+  "newCount": 6,
+  "newIds": [
+    "strix-agents",
+    "wagmint",
+    "burybud",
+    "delvo",
+    "pervix",
+    "envara"
+  ],
+  "skipped": [],
+  "alreadyInDb": [
+    {
+      "handle": "@oripaxyz",
+      "reason": "already_have",
+      "id": "oripa-xyz",
+      "name": "Oripaxyz",
+      "cardTimeCST": "2026-11-13 21:06"
+    },
+    {
+      "handle": "@tradeonpala",
+      "reason": "already_have",
+      "id": "pala-trade",
+      "name": "PalaTrade",
+      "cardTimeCST": "2026-11-13 21:02"
+    }
+  ],
+  "cardsAfterLastSeen": 43,
+  "cardsAfterCutoff": 43,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "vorda",
+    "clmm-feepad",
+    "offscreen",
+    "agvio",
+    "brediq"
+  ],
+  "candidateFlagsCleared": 5,
+  "topNewThisRoundCleared": [
+    "vorda",
+    "clmm-feepad",
+    "offscreen",
+    "agvio",
+    "brediq"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=6 (of 9 DS-admit, 9 keepers) calls=1 prompt=6265 completion=6970",
+  "coverage": "discord-alpha #alpha-3-new-accounts + #alpha-1-backup + #smart-accounts-tracker + #alpha-1 glance",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-13 21:26",
+    "lastChecked": "2026-11-13 21:40 CST",
+    "newestCardTime": "2026-11-13 21:26",
+    "cardsAfterCutoff": 43,
+    "note": "R1769：Discord alpha 补收 strix-agents, wagmint, burybud, delvo, pervix, envara；清上一轮 newThisRound vorda, clmm-feepad, offscreen, agvio, brediq；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 21:20', 'alpha-1-backup': '2026-11-13 20:50', 'smart-accounts-tracker': '2026-11-13 20:53', 'alpha-1': '2026-11-13 21:26'}；开跑前远程已是 R1768，本轮 DC=R1769，未覆盖既有轮次",
+    "lastRound": 1769,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-13 21:20",
+      "alpha-1-backup": "2026-11-13 20:50",
+      "smart-accounts-tracker": "2026-11-13 20:53",
+      "alpha-1": "2026-11-13 21:26"
+    },
+    "spideyPosting": true,
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-12 00:02",
+      "to": "2026-11-13 05:11",
+      "nFilled": 0,
+      "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1768 lastSeen"
+    }
+  },
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-13 21:20",
+    "alpha-1-backup": "2026-11-13 20:50",
+    "smart-accounts-tracker": "2026-11-13 20:53",
+    "alpha-1": "2026-11-13 21:26"
+  },
+  "alpha3OlderGap": {
+    "attempted": false,
+    "filled": false,
+    "from": "2026-11-12 00:02",
+    "to": "2026-11-13 05:11",
+    "nFilled": 0,
+    "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1768 lastSeen"
+  },
+  "spideyPosting": true,
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1769：Discord alpha 补收 strix-agents, wagmint, burybud, delvo, pervix, envara；清上一轮 newThisRound vorda, clmm-feepad, offscreen, agvio, brediq；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 21:20', 'alpha-1-backup': '2026-11-13 20:50', 'smart-accounts-tracker': '2026-11-13 20:53', 'alpha-1': '2026-11-13 21:26'}；开跑前远程已是 R1768，本轮 DC=R1769，未覆盖既有轮次",
+  "remoteVerified": false,
+  "docsSynced": false,
+  "dataUpdated": true,
+  "cardsFile": "dc40_cards_r1769.json",
+  "priorRoundNote": "Remote was R1768 at apply time; this DC is R1769. Did not overwrite R1768."
+}
