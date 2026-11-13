@@ -1,0 +1,286 @@
+{
+  "round": 1762,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-13 18:10 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R1762 Discord alpha 补漏新收 1 项：\n1）Dusktape @dusktape｜打新｜Robinhood Chain｜官网 dusktape.live 可打开，Board / Backtest / Ledger / $LULL / Docs 板块齐全；$LULL 官方定档 2026-11-15 00:00 CST 在 Pons 发射，代币页当时仍写 Contract address at launch；LullLedger 0x5eeAF93840D7fED94A9f2e5322Aeed3965Bd6F12 是账本合约不是代币 CA；X 2026-11-13 16:34 CST 创建，约 2 粉 1 帖，蓝 V。\nhttps://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "dusktape"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "dusktape"
+  ],
+  "skipped": [
+    {
+      "handle": "@uponlysbs",
+      "reason": "无可用官网、无具体发射时刻与代币合约线索，账号新且仅一句口号式 fair launch，证据不足"
+    },
+    {
+      "handle": "@yonhaptweet",
+      "reason": "高粉(392969)"
+    }
+  ],
+  "alreadyInDb": [
+    {
+      "handle": "@yumsdotfun",
+      "name": "@yumsdotfun"
+    },
+    {
+      "handle": "@OutlierNFT",
+      "name": "OUTLIERS"
+    }
+  ],
+  "cardsAfterLastSeen": 33,
+  "cardsAfterCutoff": 33,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "outliers",
+    "noct-trading",
+    "heir-finance",
+    "ashling"
+  ],
+  "candidateFlagsCleared": 4,
+  "topNewThisRoundCleared": [
+    "outliers",
+    "noct-trading",
+    "heir-finance",
+    "ashling"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "admit": {
+      "model": "deepseek-flash",
+      "thinking": true,
+      "calls": 1,
+      "prompt_tokens": 1996,
+      "completion_tokens": 1821,
+      "batches": [
+        {
+          "i": 0,
+          "n": 2,
+          "sec": 10.0,
+          "usage": {
+            "prompt_tokens": 1996,
+            "completion_tokens": 1821,
+            "total_tokens": 3817,
+            "prompt_tokens_details": {
+              "cached_tokens": 0
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 929
+            },
+            "prompt_cache_hit_tokens": 0,
+            "prompt_cache_miss_tokens": 1996
+          },
+          "chars": 3265
+        }
+      ],
+      "admits": 1,
+      "decisions": 2
+    },
+    "dsFallback": false,
+    "alert": {
+      "usage": {
+        "prompt_tokens": 1346,
+        "completion_tokens": 588,
+        "total_tokens": 1934,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 404
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 1346
+      },
+      "reasoning_len": 1357
+    }
+  },
+  "coverage": "discord-alpha #alpha-3-new-accounts + #alpha-1-backup + #smart-accounts-tracker + #alpha-1 glance",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-13 18:02",
+    "lastChecked": "2026-11-13 18:10 CST",
+    "newestCardTime": "2026-11-13 18:02",
+    "cardsAfterCutoff": 33,
+    "note": "R1762：Discord alpha 补收 dusktape；清上一轮 newThisRound outliers, noct-trading, heir-finance, ashling；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 17:56', 'alpha-1-backup': '2026-11-13 17:19', 'smart-accounts-tracker': '2026-11-13 17:58', 'alpha-1': '2026-11-13 18:02'}；开跑前远程已是 R1761，本轮 DC=R1762，未覆盖既有轮次",
+    "lastRound": 1762,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-13 17:56",
+      "alpha-1-backup": "2026-11-13 17:19",
+      "smart-accounts-tracker": "2026-11-13 17:58",
+      "alpha-1": "2026-11-13 18:02"
+    },
+    "spideyPosting": true,
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-12 00:02",
+      "to": "2026-11-13 05:11",
+      "nFilled": 0,
+      "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1761 lastSeen"
+    }
+  },
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-13 17:56",
+    "alpha-1-backup": "2026-11-13 17:19",
+    "smart-accounts-tracker": "2026-11-13 17:58",
+    "alpha-1": "2026-11-13 18:02"
+  },
+  "alpha3OlderGap": {
+    "attempted": false,
+    "filled": false,
+    "from": "2026-11-12 00:02",
+    "to": "2026-11-13 05:11",
+    "nFilled": 0,
+    "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1761 lastSeen"
+  },
+  "spideyPosting": true,
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1762：Discord alpha 补收 dusktape；清上一轮 newThisRound outliers, noct-trading, heir-finance, ashling；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 17:56', 'alpha-1-backup': '2026-11-13 17:19', 'smart-accounts-tracker': '2026-11-13 17:58', 'alpha-1': '2026-11-13 18:02'}；开跑前远程已是 R1761，本轮 DC=R1762，未覆盖既有轮次",
+  "remoteVerified": false,
+  "docsSynced": false,
+  "dataUpdated": true,
+  "cardsFile": "dc40_cards_r1762.json",
+  "priorRoundNote": "Remote was R1761 at apply time; this DC is R1762. Did not overwrite R1761.",
+  "dsRejects": [
+    {
+      "handle": "@uponlysbs",
+      "reason": "无可用官网、无具体发射时刻与代币合约线索，账号新且仅一句口号式 fair launch，证据不足"
+    }
+  ],
+  "preRejects": [
+    {
+      "handle": "@Ryanos_eth",
+      "reason": "个人号：Maple Finance COO，前 Kraken，非独立项目推特",
+      "followers": 1245
+    },
+    {
+      "handle": "@maskofsol",
+      "reason": "空壳/过泛：仅 Gaming memes，无产品/发射/玩法线索",
+      "followers": 3
+    },
+    {
+      "handle": "@wulili280446",
+      "reason": "个人号：金融从业，无独立项目",
+      "followers": 4
+    },
+    {
+      "handle": "@TanvirNotes",
+      "reason": "个人号：Web3行情观点分享，无独立项目",
+      "followers": 0
+    },
+    {
+      "handle": "@AarifKhanubk",
+      "reason": "个人号，无项目线索",
+      "followers": 0
+    },
+    {
+      "handle": "@hunterJm10",
+      "reason": "个人号：Trader/Investor，无独立项目",
+      "followers": 3
+    },
+    {
+      "handle": "@Funkoinversor",
+      "reason": "个人号：学生/投资学习，无独立项目",
+      "followers": 8
+    },
+    {
+      "handle": "@Alexan_Mun_Carl",
+      "reason": "个人号：无产品/发射线索",
+      "followers": 12
+    },
+    {
+      "handle": "@GiaoLinhTran",
+      "reason": "个人号：Hodler/Trader，无独立项目",
+      "followers": 0
+    },
+    {
+      "handle": "@SAWRANON26",
+      "reason": "个人号：social worker，无项目",
+      "followers": 2
+    },
+    {
+      "handle": "@Tiger_W2",
+      "reason": "个人号：社会商业观察，无项目",
+      "followers": 13
+    },
+    {
+      "handle": "@hush55655243884",
+      "reason": "个人号，无项目线索",
+      "followers": 4
+    },
+    {
+      "handle": "@Ankit_Avyentra",
+      "reason": "个人号：BD Manager，卡片不是项目官方推特",
+      "followers": 0
+    },
+    {
+      "handle": "@KrawzCrypto",
+      "reason": "个人/自媒体：市场评论号，无独立产品发射",
+      "followers": 11
+    },
+    {
+      "handle": "@cryptobeggar111",
+      "reason": "个人号，无项目",
+      "followers": 0
+    },
+    {
+      "handle": "@tima578",
+      "reason": "个人号，无项目",
+      "followers": 0
+    },
+    {
+      "handle": "@Tomzewi",
+      "reason": "个人号：自称 IG founder，无独立加密项目推特/产品线索",
+      "followers": 4
+    },
+    {
+      "handle": "@JoeChenguy",
+      "reason": "个人/KYC代办咨询，非项目（且疑似灰产）",
+      "followers": 0
+    },
+    {
+      "handle": "@Ledexdigital",
+      "reason": "机构向 RWA/Hedera 白标 SaaS，账号 2024-04-10 创建，属成熟/机构 Infra，非极早期打新",
+      "followers": 6
+    },
+    {
+      "handle": "@BTRFLYely",
+      "reason": "自称 Montra 非官方吉祥物，0 帖、无官网，仅 TG；Elysium 上已有同名 BTRFLY（约 11-06/11-10）本轮不视为其官方 CA",
+      "followers": 1
+    },
+    {
+      "handle": "@ViperowClub",
+      "reason": "Sol 新闻/空投社区，站点 viperow.com 本轮 500/403，无产品发射线索",
+      "followers": 4
+    },
+    {
+      "handle": "@ROMULPROTOCOL",
+      "reason": "Arbitrum 无主 DeFi/概念文与前端壳，自称 7 亿 ROMUL 一次铸造，本轮 Dexscreener 无 Arbitrum 配对，缺可操作发射/玩法，宁缺毋滥",
+      "followers": 3
+    },
+    {
+      "handle": "@RBHDHelm",
+      "reason": "账号 2025-02-08 创建，bio 仅 In development，官网指向 x.com，本轮拉不到可见帖，无产品页/发射细节",
+      "followers": 9
+    }
+  ],
+  "highFolSkipped": [
+    {
+      "handle": "@yonhaptweet",
+      "followers": 392969,
+      "name": "yonhaptweet"
+    }
+  ]
+}
