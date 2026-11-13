@@ -1,0 +1,177 @@
+{
+  "round": 1765,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-13 19:29 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "本轮 R1765 Discord alpha 补充收录 5 条新记录：**KABOOM!**（台子/Meme，Solana）的官网和官方 X 同步上线，写明 Launches open on Solana mainnet；**Fibo**（台子/Meme，Base）的官方帖称 Base 上 ETH 涨跌预测玩法已上线，BTC 待开；**Knitx**（台子/Meme，Elysium）的唯一官帖讨论碎片化流动性与聚合路由，KnitxRouter 已在链上有码；**zxoxo**（挖矿）的官网与唯一官帖都写 Coming soon on LayerZero，并且正在开放 Phase 0 申请；**code graph rag**（打新）的官方与创始人同步表态，下一步发币的发射处为 Pons（Robinhood Chain）。\n\n详见面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "kaboompad",
+    "fibo",
+    "knitx",
+    "zxoxo",
+    "code-graph-rag"
+  ],
+  "newCount": 5,
+  "newIds": [
+    "kaboompad",
+    "fibo",
+    "knitx",
+    "zxoxo",
+    "code-graph-rag"
+  ],
+  "skipped": [],
+  "alreadyInDb": [
+    "@Frenzz_1515",
+    "@PlunderPort",
+    "@RifteraPixel"
+  ],
+  "cardsAfterLastSeen": 28,
+  "cardsAfterCutoff": 28,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "anycap",
+    "hooded-ape-club",
+    "hood-drive",
+    "myco"
+  ],
+  "candidateFlagsCleared": 4,
+  "topNewThisRoundCleared": [
+    "anycap",
+    "hooded-ape-club",
+    "hood-drive",
+    "myco"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=5 (of 5 DS-admit, 5 keepers) calls=2 (admit+alert) prompt=3556 completion=3964; thinking on",
+  "coverage": "discord-alpha #alpha-3-new-accounts + #alpha-1-backup + #smart-accounts-tracker + #alpha-1 glance",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-13 19:14",
+    "lastChecked": "2026-11-13 19:29 CST",
+    "newestCardTime": "2026-11-13 19:14",
+    "cardsAfterCutoff": 28,
+    "note": "R1765：Discord alpha 补收 kaboompad, fibo, knitx, zxoxo, code-graph-rag；清上一轮 newThisRound anycap, hooded-ape-club, hood-drive, myco；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 19:14', 'alpha-1-backup': '2026-11-13 19:04', 'smart-accounts-tracker': '2026-11-13 17:58', 'alpha-1': '2026-11-13 19:01'}；开跑前远程已是 R1764，本轮 DC=R1765，未覆盖既有轮次",
+    "lastRound": 1765,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-13 19:14",
+      "alpha-1-backup": "2026-11-13 19:04",
+      "smart-accounts-tracker": "2026-11-13 17:58",
+      "alpha-1": "2026-11-13 19:01"
+    },
+    "spideyPosting": true,
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-12 00:02",
+      "to": "2026-11-13 05:11",
+      "nFilled": 0,
+      "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1764 lastSeen"
+    }
+  },
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-13 19:14",
+    "alpha-1-backup": "2026-11-13 19:04",
+    "smart-accounts-tracker": "2026-11-13 17:58",
+    "alpha-1": "2026-11-13 19:01"
+  },
+  "alpha3OlderGap": {
+    "attempted": false,
+    "filled": false,
+    "from": "2026-11-12 00:02",
+    "to": "2026-11-13 05:11",
+    "nFilled": 0,
+    "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1764 lastSeen"
+  },
+  "spideyPosting": true,
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1765：Discord alpha 补收 kaboompad, fibo, knitx, zxoxo, code-graph-rag；清上一轮 newThisRound anycap, hooded-ape-club, hood-drive, myco；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 19:14', 'alpha-1-backup': '2026-11-13 19:04', 'smart-accounts-tracker': '2026-11-13 17:58', 'alpha-1': '2026-11-13 19:01'}；开跑前远程已是 R1764，本轮 DC=R1765，未覆盖既有轮次",
+  "remoteVerified": false,
+  "docsSynced": false,
+  "dataUpdated": true,
+  "cardsFile": "dc40_cards_r1765.json",
+  "priorRoundNote": "Remote was R1764 at apply time; this DC is R1765. Did not overwrite R1764.",
+  "dsRejects": [],
+  "preRejects": [
+    {
+      "handle": "@VitaliAvagyan",
+      "reason": "个人/雇员号（Member of Technical Staff @ Anterio），非独立项目推特；提及的 @codegraphrag 另核"
+    },
+    {
+      "handle": "@wngjnhn15",
+      "reason": "个人号，bio 仅「随便玩玩」"
+    },
+    {
+      "handle": "@Flashdeve",
+      "reason": "个人开发者号，bio 仅 Crypto developer，无独立项目线索"
+    },
+    {
+      "handle": "@KeitaroWX",
+      "reason": "个人创始人向账号，未写明具体项目"
+    },
+    {
+      "handle": "@Smile4JAaNi",
+      "reason": "个人号，无产品/发射线索"
+    },
+    {
+      "handle": "@Asuka1988888",
+      "reason": "个人聊天号（动漫/游戏），非独立项目"
+    },
+    {
+      "handle": "@trademaster_eu",
+      "reason": "交易喊单/带单号"
+    },
+    {
+      "handle": "@simply_lherna",
+      "reason": "个人号，bio 无产品/发射线索"
+    },
+    {
+      "handle": "@John22Juh",
+      "reason": "个人/空壳，bio 仅 8HZM"
+    },
+    {
+      "handle": "@dick_man92",
+      "reason": "个人号，无产品/发射线索"
+    },
+    {
+      "handle": "@Lucy241193",
+      "reason": "个人号，无产品/发射线索"
+    },
+    {
+      "handle": "@jiang_mu83034",
+      "reason": "空壳/个人号，name=1111 bio 仅省略号"
+    },
+    {
+      "handle": "@swaggadocius23",
+      "reason": "成人内容个人号，非项目"
+    },
+    {
+      "handle": "@ZhremlinyFamily",
+      "reason": "家庭内容号，非加密项目"
+    },
+    {
+      "handle": "@MSamawohsr",
+      "reason": "个人求职/社区经理向账号（R1764 已拒）"
+    },
+    {
+      "handle": "@marinafsea",
+      "reason": "个人号，bio 仅 ???，无产品/发射线索"
+    },
+    {
+      "handle": "@groumdotio",
+      "reason": "AI 造应用叙事，官网 groum.io 本轮 TLS/HTTP 失败无法核验，且无链上/代币/发射/玩法线索"
+    },
+    {
+      "handle": "@robinherzl",
+      "reason": "个人号：bio 自称 qchat 创始人，但无项目官网/独立项目推特，近期帖为故事连发与随手回复，无产品或发射线索"
+    }
+  ],
+  "highFolSkipped": [],
+  "xReads": 8
+}
