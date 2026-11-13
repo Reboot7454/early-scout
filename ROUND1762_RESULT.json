@@ -1,11 +1,11 @@
 {
   "round": 1762,
-  "mode": "discord-alpha-40",
-  "completedAt": "2026-11-13 18:10 CST",
+  "mode": "pace+discord-merge",
+  "completedAt": "2026-11-13 18:18 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
-  "notifyReason": "new_admits",
-  "alertMessage": "R1762 Discord alpha 补漏新收 1 项：\n1）Dusktape @dusktape｜打新｜Robinhood Chain｜官网 dusktape.live 可打开，Board / Backtest / Ledger / $LULL / Docs 板块齐全；$LULL 官方定档 2026-11-15 00:00 CST 在 Pons 发射，代币页当时仍写 Contract address at launch；LullLedger 0x5eeAF93840D7fED94A9f2e5322Aeed3965Bd6F12 是账本合约不是代币 CA；X 2026-11-13 16:34 CST 创建，约 2 粉 1 帖，蓝 V。\nhttps://reboot7454.github.io/early-scout/",
+  "notifyReason": "Discord 18:10 已为 dusktape notify；本合并因 GateCerberus 与 Freememe 首次进入 ≤2h（今日 20:00 CST）再次 notify，不重推 dusktape",
+  "alertMessage": "GateCerberus 已进入 ≤2h：今日 20:00 CST 在 Elysium 开售（500 免费 / 1,000 付费 0.01 HYPE）。Freememe 应用也定在同一时刻上线（官网写 7AM EST，不是 mint）。Discord 刚收的 dusktape 不重复推。本号不自动 mint。面板 https://reboot7454.github.io/early-scout/",
   "newAdmits": [
     "dusktape"
   ],
@@ -50,7 +50,7 @@
     "ashling"
   ],
   "discordPeekDeferred": false,
-  "dsFallback": false,
+  "dsFallback": true,
   "dsUsage": {
     "model": "deepseek-flash",
     "thinking": true,
@@ -147,7 +147,7 @@
     "ok": false
   },
   "panel": "https://reboot7454.github.io/early-scout/",
-  "summary": "R1762：Discord alpha 补收 dusktape；清上一轮 newThisRound outliers, noct-trading, heir-finance, ashling；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 17:56', 'alpha-1-backup': '2026-11-13 17:19', 'smart-accounts-tracker': '2026-11-13 17:58', 'alpha-1': '2026-11-13 18:02'}；开跑前远程已是 R1761，本轮 DC=R1762，未覆盖既有轮次",
+  "summary": "R1762：Discord alpha 补收 dusktape（18:10 已通知，不重推）；例行 pace 扫描合并进同一轮。无例行新收录。GateCerberus 与 Freememe 20:00 CST 窗口于 18:00 首次进入 ≤2h，notify=true。Watch 漏挂 dusktape 已补进 userFollowWatch。xReads 26，remaining 493→467，UF 702→750。",
   "remoteVerified": false,
   "docsSynced": false,
   "dataUpdated": true,
@@ -282,5 +282,21 @@
       "followers": 392969,
       "name": "yonhaptweet"
     }
-  ]
+  ],
+  "xReads": 26,
+  "xReadsMain": 24,
+  "xReadsSilent": 1,
+  "admitVerifyReads": 1,
+  "remainingBefore": 493,
+  "remaining": 467,
+  "dsFallbackReason": "deepseek-flash 两次只输出思考过程、无解析 JSON",
+  "watchBugFixed": [
+    "dusktape"
+  ],
+  "le2hEntered": [
+    "gatecerberus",
+    "freememeapp"
+  ],
+  "paceMerged": true,
+  "paceMergedAt": "2026-11-13 18:18 CST"
 }
