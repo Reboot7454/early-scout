@@ -1,0 +1,175 @@
+{
+  "round": 1756,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-13 15:35 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R1756 Discord alpha 补漏新收 4 项：\n1）APERTURE @APERTURErh｜台子/Meme｜Robinhood Chain｜粉丝 1，2026-11-13 15:19 CST 建号；无官网、无 CA；自述 Pons 代币追踪 + 阈值 Telegram 离线提醒，称 Free early access。\n2）Orvane Perp @orvaneperp｜台子/Meme｜Robinhood Chain｜粉丝 1，2026-11-13 15:06 CST 建号；官网 orvaneperp.xyz 自称已 Live：加密与美股代币化永续、USDG 抵押、最多 16 市场、BTC/ETH 最高 50×；官网展示 CA 0x8f2d880a5b9afa2f9eb2a7207192d9cd43054262，本轮 Dexscreener 无配对，未当作已验证代币。\n3）Bagnotary @bagnotary｜打新｜Robinhood Chain｜粉丝 2，2026-11-13 13:01 CST 建号；官网 bagnotary.pro；日程：2026-11-14 00:00 CST 在 Pons 发射 $BAGNOT（X bio：Fri 13 Nov, 16:00 UTC）；产品为匿名持币证明，签名核验余额生成证明链接、不暴露钱包；无 CA。\n4）Hubrix @HubrixRH｜台子/Meme｜Robinhood Chain｜粉丝 3，2026-11-12 23:47 CST 建号；官网 Hubrix.site 称三套 AMM（hook / bin / range-band）聚合路由，另有 limit orders、launches、NFT 抵押信贷；未见已验证主池，无 CA。\n面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "aperturerh",
+    "orvane-perp",
+    "bagnotary",
+    "hubrixrh"
+  ],
+  "newCount": 4,
+  "newIds": [
+    "aperturerh",
+    "orvane-perp",
+    "bagnotary",
+    "hubrixrh"
+  ],
+  "skipped": [],
+  "alreadyInDb": [
+    {
+      "handle": "@Artefact_btc",
+      "reason": "already_have",
+      "name": "Artefact",
+      "followers": 55
+    }
+  ],
+  "cardsAfterLastSeen": 33,
+  "cardsAfterCutoff": 33,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "candidateFlagsCleared": 0,
+  "topNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=4 (of 23 DS-admit, 23 keepers) calls=4 prompt=8101 completion=10302",
+  "coverage": "discord-alpha #alpha-3-new-accounts + #alpha-1-backup + #smart-accounts-tracker + #alpha-1 glance",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-13 15:22",
+    "lastChecked": "2026-11-13 15:35 CST",
+    "newestCardTime": "2026-11-13 15:22",
+    "cardsAfterCutoff": 33,
+    "note": "R1756：Discord alpha 补收 aperturerh, orvane-perp, bagnotary, hubrixrh；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 15:22', 'alpha-1-backup': '2026-11-13 14:49', 'smart-accounts-tracker': '2026-11-13 14:44', 'alpha-1': '2026-11-13 14:41'}；web radar 已占用 R1755，本轮 DC=R1756，未覆盖 R1755",
+    "lastRound": 1756,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-13 15:22",
+      "alpha-1-backup": "2026-11-13 14:49",
+      "smart-accounts-tracker": "2026-11-13 14:44",
+      "alpha-1": "2026-11-13 14:41"
+    },
+    "spideyPosting": true,
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-12 00:02",
+      "to": "2026-11-13 05:11",
+      "nFilled": 0,
+      "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1754 lastSeen"
+    }
+  },
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-13 15:22",
+    "alpha-1-backup": "2026-11-13 14:49",
+    "smart-accounts-tracker": "2026-11-13 14:44",
+    "alpha-1": "2026-11-13 14:41"
+  },
+  "alpha3OlderGap": {
+    "attempted": false,
+    "filled": false,
+    "from": "2026-11-12 00:02",
+    "to": "2026-11-13 05:11",
+    "nFilled": 0,
+    "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1754 lastSeen"
+  },
+  "spideyPosting": true,
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1756：Discord alpha 补收 aperturerh, orvane-perp, bagnotary, hubrixrh；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 15:22', 'alpha-1-backup': '2026-11-13 14:49', 'smart-accounts-tracker': '2026-11-13 14:44', 'alpha-1': '2026-11-13 14:41'}；web radar 已占用 R1755，本轮 DC=R1756，未覆盖 R1755",
+  "remoteVerified": false,
+  "docsSynced": false,
+  "dataUpdated": true,
+  "cardsFile": "dc40_cards_r1756.json",
+  "priorRoundNote": "Web radar occupied R1755; this DC is R1756. Did not overwrite R1755.",
+  "alert": "R1756 Discord alpha 补漏新收 4 项：\n1）APERTURE @APERTURErh｜台子/Meme｜Robinhood Chain｜粉丝 1，2026-11-13 15:19 CST 建号；无官网、无 CA；自述 Pons 代币追踪 + 阈值 Telegram 离线提醒，称 Free early access。\n2）Orvane Perp @orvaneperp｜台子/Meme｜Robinhood Chain｜粉丝 1，2026-11-13 15:06 CST 建号；官网 orvaneperp.xyz 自称已 Live：加密与美股代币化永续、USDG 抵押、最多 16 市场、BTC/ETH 最高 50×；官网展示 CA 0x8f2d880a5b9afa2f9eb2a7207192d9cd43054262，本轮 Dexscreener 无配对，未当作已验证代币。\n3）Bagnotary @bagnotary｜打新｜Robinhood Chain｜粉丝 2，2026-11-13 13:01 CST 建号；官网 bagnotary.pro；日程：2026-11-14 00:00 CST 在 Pons 发射 $BAGNOT（X bio：Fri 13 Nov, 16:00 UTC）；产品为匿名持币证明，签名核验余额生成证明链接、不暴露钱包；无 CA。\n4）Hubrix @HubrixRH｜台子/Meme｜Robinhood Chain｜粉丝 3，2026-11-12 23:47 CST 建号；官网 Hubrix.site 称三套 AMM（hook / bin / range-band）聚合路由，另有 limit orders、launches、NFT 抵押信贷；未见已验证主池，无 CA。\n面板：https://reboot7454.github.io/early-scout/",
+  "dsUsageDetail": {
+    "admit": {
+      "model": "deepseek-flash",
+      "thinking": true,
+      "calls": 3,
+      "prompt_tokens": 7342,
+      "completion_tokens": 9783,
+      "batches": [
+        {
+          "i": 0,
+          "n": 8,
+          "sec": 15.8,
+          "usage": {
+            "prompt_tokens": 2182,
+            "completion_tokens": 2769,
+            "total_tokens": 4951,
+            "prompt_tokens_details": {
+              "cached_tokens": 128
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 1091
+            },
+            "prompt_cache_hit_tokens": 128,
+            "prompt_cache_miss_tokens": 2054
+          },
+          "chars": 4239
+        },
+        {
+          "i": 1,
+          "n": 8,
+          "sec": 23.1,
+          "usage": {
+            "prompt_tokens": 2786,
+            "completion_tokens": 4193,
+            "total_tokens": 6979,
+            "prompt_tokens_details": {
+              "cached_tokens": 512
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 2255
+            },
+            "prompt_cache_hit_tokens": 512,
+            "prompt_cache_miss_tokens": 2274
+          },
+          "chars": 4738
+        },
+        {
+          "i": 2,
+          "n": 7,
+          "sec": 16.2,
+          "usage": {
+            "prompt_tokens": 2374,
+            "completion_tokens": 2821,
+            "total_tokens": 5195,
+            "prompt_tokens_details": {
+              "cached_tokens": 512
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 1048
+            },
+            "prompt_cache_hit_tokens": 512,
+            "prompt_cache_miss_tokens": 1862
+          },
+          "chars": 4285
+        }
+      ],
+      "admits": 4,
+      "decisions": 23
+    },
+    "alert": {
+      "prompt_tokens": 759,
+      "completion_tokens": 519,
+      "total_tokens": 1278,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 110
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 759
+    }
+  }
+}
