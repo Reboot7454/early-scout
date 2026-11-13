@@ -1,0 +1,276 @@
+{
+  "round": 1780,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-14 02:12 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R1780 Discord alpha 补充收录 2 条，面板：https://reboot7454.github.io/early-scout/\n\n1. **Arrowsmith**（@arrowsmithRH，台子/Meme，Robinhood Chain）：官网 https://www.arrow-smith.tech/ 可打开，自称 ERC-404、供给 4,444 arrows，持有整枚可领裸箭，fletch 后从买入费分 HYPE；账号创建于 2026-11-12，当前约 7 粉；2026-11-14 01:46 CST 官宣 The forge is open（https://x.com/arrowsmithRH/status/2121298615293657213）；官方 CA 0x1889c4b0edad4a50dfda270daaadac55411a923b（Arrowsmith/SMITH，decimals=18），经 Robinhood RPC 4663 核验有码。缺点：官网写供给 4,444 $SMITH / ERC-404，但 Robinhood 链上 totalSupply 为 10 亿，叙事冲突；合约字节码长度 3248，与近日工厂盘 Fantera、Zivilia 相同；官帖称 10,393,312.09 $SMITH 锁仓至 2026-12-14（https://x.com/arrowsmithRH/status/2121303103920312742），但本轮 RobinFlow 锁仓页超时未独立核验，也没有已核验的 Pons 池或毕业数据。\n\n2. **Sworn Coin**（@sworncoin，台子/Meme，链未标注）：官网 sworncoin.com 可打开，含 17 条明文规则与分配方案（50% 免费分发 / 40% 社区池 / 10% 创始人金库，宣称不售币）；机制为运营者发声明并质押 bond、独立核查者确认、7 天内可挑战；账号创建于 2026-11-13，当前 0 粉；2026-11-14 01:41 CST 首发官帖（https://x.com/sworncoin/status/2121297318716514559），称固定供给 10 亿、正在测试；官网测试表截至 2026-11-13 自述 62/62 等测试通过（未第三方核验）；项目方 VitalEdge，创始人 Jakob Taylor。缺点：尚未上公链、无处交易、无官方 CA，参与入口仅邮件测试招募 hello@sworncoin.com；任何在售同名币视为赝品。",
+  "newAdmits": [
+    "arrowsmith-rh",
+    "sworncoin"
+  ],
+  "newCount": 2,
+  "newIds": [
+    "arrowsmith-rh",
+    "sworncoin"
+  ],
+  "skipped": [],
+  "alreadyInDb": [
+    {
+      "handle": "@kitthecalico",
+      "name": "Kit",
+      "channel": "alpha-1-backup",
+      "cardTimeCST": "2026-11-14 01:34"
+    },
+    {
+      "handle": "@Gangstazfun",
+      "name": "Gangstaz Taking All",
+      "channel": "alpha-1-backup",
+      "cardTimeCST": "2026-11-14 01:34"
+    }
+  ],
+  "prereject": [
+    {
+      "handle": "@marktale888",
+      "name": "mark",
+      "followers": 0,
+      "reason": "空壳个人号，bio 仅 Dreamer，无产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:59"
+    },
+    {
+      "handle": "@AntonyMedina28",
+      "name": "Antony Medina28",
+      "followers": 15,
+      "reason": "2022年起的个人号（Instagram），宗教/生活内容，无独立项目产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:51"
+    },
+    {
+      "handle": "@Wilzzys",
+      "name": "W I L Z Z Y S",
+      "followers": 7,
+      "reason": "旅游/Twitch 主播个人号，无加密项目产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:49"
+    },
+    {
+      "handle": "@toeetett2026",
+      "name": "Toee Tett",
+      "followers": 3,
+      "reason": "bio 仅 Ai Art and Crypto，帖为回复 BTC，无独立项目产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:48"
+    },
+    {
+      "handle": "@BLOBTheBusman",
+      "name": "BLOB The Bussinesman",
+      "followers": 0,
+      "reason": "X 账号已不存在；仅关注 @Enter_Elysium，bio 无产品，按猎人个人号排除。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:48"
+    },
+    {
+      "handle": "@XanderTXar",
+      "name": "Xander Aksuki",
+      "followers": 0,
+      "reason": "受保护个人号，bio 仅 Currently travelling across Japan，无产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:44"
+    },
+    {
+      "handle": "@TrollXXss",
+      "name": "TrollXX",
+      "followers": 3,
+      "reason": "2017 年起的个人号，仅转发 memecoin 喊单，无独立项目产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:44"
+    },
+    {
+      "handle": "@trenchcast_best",
+      "name": "Trenchcast",
+      "followers": 2,
+      "reason": "新号无帖、无官网；自称 Robinhood Pons 终端但本轮核验不到产品站点。检索到的 Solana $TCAST 与本账号无官方绑定。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:42"
+    },
+    {
+      "handle": "@iamcassiaackval",
+      "name": "cassian ackerman",
+      "followers": 0,
+      "reason": "音频/混音个人号，0 帖，无加密项目产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:40"
+    },
+    {
+      "handle": "@s39913108",
+      "name": "mod",
+      "followers": 16,
+      "reason": "交易/吐槽个人号，无独立项目产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:40"
+    },
+    {
+      "handle": "@cwjair",
+      "name": "Anthony",
+      "followers": 8,
+      "reason": "个人号，bio 仅省略号，无产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:40"
+    },
+    {
+      "handle": "@edwardqrdmu",
+      "name": "Roadvex",
+      "followers": 4,
+      "reason": "卡车司机个人号，bio 仅 trying new crypto apps，无独立项目与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:39"
+    },
+    {
+      "handle": "@GPan91",
+      "name": "HellenicFaith",
+      "followers": 11,
+      "reason": "NFT 画师个人号（OpenSea 收藏页），非极早期新项目官号。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:37"
+    },
+    {
+      "handle": "@0xRadarz",
+      "name": "0xRadar",
+      "followers": 0,
+      "reason": "2022 年起的链上交易情报/Telegram 号，非极早期新项目官号。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:34"
+    },
+    {
+      "handle": "@SatokiSensei",
+      "name": "SATOKI",
+      "followers": 0,
+      "reason": "仅价值口号帖，无产品、官网或官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:32"
+    },
+    {
+      "handle": "@GonaloOrd",
+      "name": "Gonalo.ord",
+      "followers": 1,
+      "reason": "Bitcoin holder 个人号，无独立项目产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:32"
+    },
+    {
+      "handle": "@awnsownakno",
+      "name": "1453.TR",
+      "followers": 0,
+      "reason": "受保护空壳号，bio 仅 hi hello，0 帖，无产品与官方 CA。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:29"
+    },
+    {
+      "handle": "@procumi",
+      "name": "Procumi",
+      "followers": 0,
+      "reason": "传统采购比价 SaaS（procumi.com），欧元订阅，无代币/链上发射或加密玩法线索。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:28"
+    },
+    {
+      "handle": "@CMX143CMX",
+      "name": "Coins Market X (CMX)",
+      "followers": 6,
+      "reason": "资料域名 cominsmarketx.com 打不开；coinsmarketx.com 为通用 ICO 模板且未公布可核验官方 CA，帖也只有口号图。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:26"
+    },
+    {
+      "handle": "@ozkan_serin9",
+      "name": "萨洛梅·拉莫特",
+      "followers": 0,
+      "reason": "成人内容引流号，非项目官号。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:23"
+    },
+    {
+      "handle": "@BASS_C01N",
+      "name": "BASSCOIN",
+      "followers": 7,
+      "reason": "账号与最后发帖停在 2026-03，官网 bassix.net 是缅因州娱乐团体介绍页；关注 @Enter_Elysium，非当前极早期可操作项目。",
+      "channel": "alpha-3-new-accounts",
+      "cardTimeCST": "2026-11-14 01:22"
+    }
+  ],
+  "cardsAfterLastSeen": 29,
+  "cardsAfterCutoff": 29,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "fantera",
+    "zivilia",
+    "010101fun",
+    "pipifoundation",
+    "kitthecalico"
+  ],
+  "candidateFlagsCleared": 5,
+  "topNewThisRoundCleared": [
+    "fantera",
+    "zivilia",
+    "010101fun",
+    "pipifoundation",
+    "kitthecalico"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking-on admits=2 skip=21 (@marktale888, @AntonyMedina28, @Wilzzys, @toeetett2026, @BLOBTheBusman, @XanderTXar, @TrollXXss, @trenchcast_best, @iamcassiaackval, @s39913108, @cwjair, @edwardqrdmu, @GPan91, @0xRadarz, @SatokiSensei, @GonaloOrd, @awnsownakno, @procumi, @CMX143CMX, @ozkan_serin9, @BASS_C01N) calls=2 prompt=3085 completion=2597; not dsFallback; categoryOverride=none",
+  "coverage": "discord-alpha #alpha-3-new-accounts + #alpha-1-backup + #smart-accounts-tracker + #alpha-1 glance",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-14 01:59",
+    "lastChecked": "2026-11-14 02:12 CST",
+    "newestCardTime": "2026-11-14 01:59",
+    "cardsAfterCutoff": 29,
+    "note": "R1780：Discord alpha 补收 arrowsmith-rh, sworncoin；已清上一轮 newThisRound ['fantera', 'zivilia', '010101fun', 'pipifoundation', 'kitthecalico']；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-14 01:59', 'alpha-1-backup': '2026-11-14 01:34', 'smart-accounts-tracker': '2026-11-14 01:07', 'alpha-1': '2026-11-14 01:34'}；开跑前远程已是 R1779，本轮 DC=R1780，未覆盖既有轮次",
+    "lastRound": 1780,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-14 01:59",
+      "alpha-1-backup": "2026-11-14 01:34",
+      "smart-accounts-tracker": "2026-11-14 01:07",
+      "alpha-1": "2026-11-14 01:34"
+    },
+    "spideyPosting": true,
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-12 00:02",
+      "to": "2026-11-13 05:11",
+      "nFilled": 0,
+      "note": "skipped this incremental run; 29h+ outage hole still unscanned; only collected cards after prior lastSeen"
+    }
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1780：Discord alpha 补收 arrowsmith-rh, sworncoin；已清上一轮 newThisRound ['fantera', 'zivilia', '010101fun', 'pipifoundation', 'kitthecalico']；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-14 01:59', 'alpha-1-backup': '2026-11-14 01:34', 'smart-accounts-tracker': '2026-11-14 01:07', 'alpha-1': '2026-11-14 01:34'}；开跑前远程已是 R1779，本轮 DC=R1780，未覆盖既有轮次",
+  "cardsFile": "dc40_cards_r1780.json",
+  "priorRoundNote": "远程开跑后已是 R1779；本轮 DC=R1780，未覆盖既有轮次；cardsAfterCutoff=29",
+  "categoryOverride": "none",
+  "uniqueHandles": 25,
+  "spideyByChannel": {
+    "alpha-3-new-accounts": false,
+    "alpha-1-backup": true,
+    "smart-accounts-tracker": true,
+    "alpha-1": true
+  },
+  "dsReasoningTokens": 1017,
+  "push": {
+    "attempted": true,
+    "ok": true,
+    "commit": "3898f9b",
+    "commitFull": "3898f9b1a888437bff8b3d67e0ebdf260f7d7138",
+    "remote": "origin/main",
+    "dataBlobSha": "b3dbc8b3113133fe836c1e85d33cfd55cb791df0"
+  },
+  "remoteVerified": true,
+  "remoteRound": 1780,
+  "remoteNewThisRound": [
+    "arrowsmith-rh",
+    "sworncoin"
+  ]
+}
