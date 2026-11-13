@@ -1,0 +1,197 @@
+{
+  "round": 1767,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-13 20:12 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R1767 Discord alpha 补充收录 3 条：\n\n1. **Ossyra**（@ossyracc）｜栏位：台子/Meme｜链：Robinhood Chain — 官方宣布 $OSSYRA 在 Robinhood 上线（2026-11-13 19:58 CST）；Pons V2 池约 19:49 CST 创建，官网已展示合约地址，并与链上池核对一致。\n\n2. **The Shadow Born**（@TSBdotfun）｜栏位：打新｜链：Robinhood Chain — 官方帖子显示进展到 wallet checker soon 阶段，确认 3,333 枚免费铸造、5 个 Orders 与 GTD 白名单征集；尚无合约与档期。\n\n3. **ephemeral**（@ephemeral_eth）｜栏位：打新｜链：Ethereum — $EPH 定档 2026-11-16 23:00 CST 以太坊主网上线，官网同步列出 Announcer 和 Registry 合约与 6 链支持。\n\n详见面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "ossyra",
+    "tsbdotfun",
+    "ephemeral-eth"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "ossyra",
+    "tsbdotfun",
+    "ephemeral-eth"
+  ],
+  "skipped": [],
+  "alreadyInDb": [
+    {
+      "handle": "@PlayPixelora",
+      "reason": "already_have",
+      "id": "play-pixelora"
+    },
+    {
+      "handle": "@hoodgremlinrh",
+      "reason": "already_have",
+      "id": "hood-gremlin"
+    }
+  ],
+  "preRejects": [
+    {
+      "handle": "@MissMutantApe",
+      "reason": "高粉(13346)个人/KOL",
+      "followers": 13346
+    },
+    {
+      "handle": "@AlphawavesDE",
+      "reason": "个人分析号（Elliott-Wellen 股指/加密分析），非独立项目推特"
+    },
+    {
+      "handle": "@TizzyBoy6zwb",
+      "reason": "个人号（糖妈梗），无项目线索"
+    },
+    {
+      "handle": "@jeme_x99",
+      "reason": "空 bio（hummm....），无产品/发射线索"
+    },
+    {
+      "handle": "@OrbitReachHQQ",
+      "reason": "Web3 代运营/增长服务商，非项目方"
+    },
+    {
+      "handle": "@bsweasel",
+      "reason": "个人宏观评论号，非项目推特"
+    },
+    {
+      "handle": "@luc4s921",
+      "reason": "个人号，bio 仅 NFT，无独立项目"
+    },
+    {
+      "handle": "@gooooooooofy1",
+      "reason": "个人号（i am goofy），无项目线索"
+    },
+    {
+      "handle": "@mcgillpenren",
+      "reason": "个人探索号，非独立项目推特"
+    },
+    {
+      "handle": "@FxPiyush07",
+      "reason": "个人交易员（XAUUSD/NASDAQ），非项目"
+    },
+    {
+      "handle": "@leadtrader_",
+      "reason": "Binance LeadTrader 个人喊单号"
+    },
+    {
+      "handle": "@web3niyii",
+      "reason": "个人号（just new here），无项目线索"
+    },
+    {
+      "handle": "@seyitorh",
+      "reason": "FairHatch 创始人个人号；项目 @FairHatch 已在库（id=fairhatch, round=2）"
+    },
+    {
+      "handle": "@40Does",
+      "reason": "个人号，无项目线索"
+    },
+    {
+      "handle": "@AdemAvci5408",
+      "reason": "个人号，无项目线索"
+    },
+    {
+      "handle": "@zhanghongxi0305",
+      "reason": "空 bio，无项目线索"
+    },
+    {
+      "handle": "@haytam_ezzaoui",
+      "reason": "个人号（Serendipity），无项目线索"
+    },
+    {
+      "handle": "@BeyondTheMu",
+      "reason": "个人金融工程评论号，非项目推特"
+    },
+    {
+      "handle": "@amir68665",
+      "reason": "垃圾/乞讨号（留银行账号），非项目"
+    },
+    {
+      "handle": "@StradaProtocol",
+      "reason": "X 今日创建、0 帖、资料无官网；strada.xyz 是无关个人站 Hunter Estrada，视为空壳"
+    },
+    {
+      "handle": "@CryStOra_lk",
+      "reason": "仅一条宝石数字角色预告、无官网/链/铸造线索，产品证据不足"
+    }
+  ],
+  "dsRejects": [
+    {
+      "handle": "@launiq_xyz",
+      "reason": "官网自述合约与轨均未部署、代币 TBA，X 仅 1 帖 2 粉，属未上线概念页，无发射/mint/玩法可参与。"
+    },
+    {
+      "handle": "@proofofstock",
+      "reason": "只读核对工具，无代币、无发射或铸造、无玩法闭环，按宁缺毋滥不进六栏。"
+    }
+  ],
+  "cardsAfterLastSeen": 36,
+  "cardsAfterCutoff": 36,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "boxcars",
+    "honestbull"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "boxcars",
+    "honestbull"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=3 (of 5 DS-admit, 5 keepers) calls=2 (admit+alert) prompt=3154 completion=4527; thinking on",
+  "coverage": "discord-alpha #alpha-3-new-accounts + #alpha-1-backup + #smart-accounts-tracker + #alpha-1 glance",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-13 20:02",
+    "lastChecked": "2026-11-13 20:12 CST",
+    "newestCardTime": "2026-11-13 20:02",
+    "cardsAfterCutoff": 36,
+    "note": "R1767：Discord alpha 补收 ossyra, tsbdotfun, ephemeral-eth；清上一轮 newThisRound boxcars, honestbull；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 20:02', 'alpha-1-backup': '2026-11-13 19:49', 'smart-accounts-tracker': '2026-11-13 19:29', 'alpha-1': '2026-11-13 19:47'}；开跑前远程已是 R1766，本轮 DC=R1767，未覆盖既有轮次",
+    "lastRound": 1767,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-13 20:02",
+      "alpha-1-backup": "2026-11-13 19:49",
+      "smart-accounts-tracker": "2026-11-13 19:29",
+      "alpha-1": "2026-11-13 19:47"
+    },
+    "spideyPosting": true,
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-12 00:02",
+      "to": "2026-11-13 05:11",
+      "nFilled": 0,
+      "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1765 lastSeen"
+    }
+  },
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-13 20:02",
+    "alpha-1-backup": "2026-11-13 19:49",
+    "smart-accounts-tracker": "2026-11-13 19:29",
+    "alpha-1": "2026-11-13 19:47"
+  },
+  "alpha3OlderGap": {
+    "attempted": false,
+    "filled": false,
+    "from": "2026-11-12 00:02",
+    "to": "2026-11-13 05:11",
+    "nFilled": 0,
+    "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1765 lastSeen"
+  },
+  "spideyPosting": true,
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1767：Discord alpha 补收 ossyra, tsbdotfun, ephemeral-eth；清上一轮 newThisRound boxcars, honestbull；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 20:02', 'alpha-1-backup': '2026-11-13 19:49', 'smart-accounts-tracker': '2026-11-13 19:29', 'alpha-1': '2026-11-13 19:47'}；开跑前远程已是 R1766，本轮 DC=R1767，未覆盖既有轮次",
+  "remoteVerified": false,
+  "docsSynced": false,
+  "dataUpdated": true,
+  "cardsFile": "dc40_cards_r1766.json",
+  "priorRoundNote": "Remote was R1766 at apply time; this DC is R1767. Did not overwrite R1766.",
+  "alert": "R1767 Discord alpha 补充收录 3 条：\n\n1. **Ossyra**（@ossyracc）｜栏位：台子/Meme｜链：Robinhood Chain — 官方宣布 $OSSYRA 在 Robinhood 上线（2026-11-13 19:58 CST）；Pons V2 池约 19:49 CST 创建，官网已展示合约地址，并与链上池核对一致。\n\n2. **The Shadow Born**（@TSBdotfun）｜栏位：打新｜链：Robinhood Chain — 官方帖子显示进展到 wallet checker soon 阶段，确认 3,333 枚免费铸造、5 个 Orders 与 GTD 白名单征集；尚无合约与档期。\n\n3. **ephemeral**（@ephemeral_eth）｜栏位：打新｜链：Ethereum — $EPH 定档 2026-11-16 23:00 CST 以太坊主网上线，官网同步列出 Announcer 和 Registry 合约与 6 链支持。\n\n详见面板：https://reboot7454.github.io/early-scout/"
+}

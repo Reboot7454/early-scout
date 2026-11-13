@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-13 20:11:23 CST",
+    "updated": "2026-11-13 20:12 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-13 20:11:23 CST",
+    "lastScout": "2026-11-13 20:12 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -748,7 +748,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1766,
+    "round": 1767,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2252,8 +2252,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "boxcars",
-      "honestbull"
+      "ossyra",
+      "tsbdotfun",
+      "ephemeral-eth"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4959,17 +4960,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-13 19:14",
-      "lastChecked": "2026-11-13 19:29 CST",
-      "newestCardTime": "2026-11-13 19:14",
-      "cardsAfterCutoff": 28,
-      "note": "R1765：Discord alpha 补收 kaboompad, fibo, knitx, zxoxo, code-graph-rag；清上一轮 newThisRound anycap, hooded-ape-club, hood-drive, myco；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 19:14', 'alpha-1-backup': '2026-11-13 19:04', 'smart-accounts-tracker': '2026-11-13 17:58', 'alpha-1': '2026-11-13 19:01'}；开跑前远程已是 R1764，本轮 DC=R1765，未覆盖既有轮次",
-      "lastRound": 1765,
+      "lastSeen": "2026-11-13 20:02",
+      "lastChecked": "2026-11-13 20:12 CST",
+      "newestCardTime": "2026-11-13 20:02",
+      "cardsAfterCutoff": 36,
+      "note": "R1767：Discord alpha 补收 ossyra, tsbdotfun, ephemeral-eth；清上一轮 newThisRound boxcars, honestbull；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 20:02', 'alpha-1-backup': '2026-11-13 19:49', 'smart-accounts-tracker': '2026-11-13 19:29', 'alpha-1': '2026-11-13 19:47'}；开跑前远程已是 R1766，本轮 DC=R1767，未覆盖既有轮次",
+      "lastRound": 1767,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-13 19:14",
-        "alpha-1-backup": "2026-11-13 19:04",
-        "smart-accounts-tracker": "2026-11-13 17:58",
-        "alpha-1": "2026-11-13 19:01"
+        "alpha-3-new-accounts": "2026-11-13 20:02",
+        "alpha-1-backup": "2026-11-13 19:49",
+        "smart-accounts-tracker": "2026-11-13 19:29",
+        "alpha-1": "2026-11-13 19:47"
       },
       "spideyPosting": true,
       "alpha3OlderGap": {
@@ -4978,7 +4979,7 @@
         "from": "2026-11-12 00:02",
         "to": "2026-11-13 05:11",
         "nFilled": 0,
-        "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1764 lastSeen"
+        "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1765 lastSeen"
       }
     },
     "round239Added": [
@@ -32558,9 +32559,163 @@
       "honestbull"
     ],
     "r1766WatchBugs": [],
-    "r1766StandalonePace": true
+    "r1766StandalonePace": true,
+    "round1767Added": [
+      "ossyra",
+      "tsbdotfun",
+      "ephemeral-eth"
+    ]
   },
   "candidates": [
+    {
+      "id": "ephemeral-eth",
+      "name": "ephemeral",
+      "handle": "@ephemeral_eth",
+      "twitter": "@ephemeral_eth",
+      "chain": "Ethereum",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/ephemeral_eth",
+        "website": "https://ephemeral.money"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 7,
+        "actionable": 7,
+        "overall": 6.4
+      },
+      "highlights": [
+        "官网与官帖一致：$EPH 定档 Ethereum mainnet Monday 16 November, 15:00 UTC（2026-11-16 23:00 CST）",
+        "基于 ERC-5564 stealth address 的 L1 私密收款层，每笔付款落到仅收款方可发现的新地址",
+        "官网标注 Announcer 0x5564…5564 · Registry 0x6538…6538 · 6 chains"
+      ],
+      "drawbacks": [
+        "官网只给截断地址，本轮未核到完整 CA，不能补全",
+        "自称 beta multichain 含 Elysium，但本轮生态页 429 未核验，不能算 Elysium 生态",
+        "代币尚未开盘，隐私类产品合规风险偏高；营销帖密度大"
+      ],
+      "whatsNew": "$EPH 官宣 2026-11-16 23:00 CST 以太坊主网上线，官网同步列出 Announcer/Registry 合约与 6 链支持。",
+      "summary": "ephemeral 是以太坊 L1 上的私密收款层，用 ERC-5564 stealth address 让每笔付款落到仅收款方可发现的新地址，官网已列 Announcer/Registry 与 6 链支持，$EPH 官宣 2026-11-16 23:00 CST 主网上线；自称的 Elysium 多链支持本轮未核验。",
+      "blurb": "ERC-5564 私密收款层，$EPH 定档 11-16 23:00 CST 主网上线。",
+      "round": 1767,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 205,
+      "xFollowers": 205,
+      "firstSeen": "2026-11-13 20:12 CST",
+      "addedAt": "2026-11-13 20:12 CST",
+      "lastChecked": "2026-11-13 20:12 CST",
+      "zoneHint": "打新",
+      "newThisRound": true,
+      "schedule": {
+        "timezone": "Asia/Shanghai",
+        "status": "announced",
+        "le2h": false,
+        "opensAt": "2026-11-16 23:00 CST",
+        "startsAt": "2026-11-16 23:00 CST",
+        "note": "官网与官帖一致：Ethereum mainnet Monday 16 November 15:00 UTC"
+      }
+    },
+    {
+      "id": "tsbdotfun",
+      "name": "The Shadow Born",
+      "handle": "@tsbdotfun",
+      "twitter": "@tsbdotfun",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/TSBdotfun"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 5,
+        "actionable": 4,
+        "overall": 5.4
+      },
+      "highlights": [
+        "置顶官帖：SHADOWBORN is awakening / 3,333 souls / 5 Orders / GTD= FREE MINT，并征集钱包",
+        "2026-11-12 官帖称 Wallet checker soon，Free mint only on the green chain，结合 bio 指向 Robinhood Chain",
+        "约 586 粉 / 9 帖，仍处预热阶段"
+      ],
+      "drawbacks": [
+        "无官网、无 NFT 合约地址、无精确开铸时间",
+        "shadowborn.fun 是另一款步数战斗游戏，与本账号无关，不能当官网",
+        "GTD 发放走 X chat 与转推，规则偏社交任务"
+      ],
+      "whatsNew": "官帖推进到 wallet checker soon 阶段，确认 3,333 枚免费铸造、5 个 Orders 与 GTD 白名单征集。",
+      "summary": "The Shadow Born 是 Robinhood Chain 方向的 3,333 枚动漫风 NFT 免费铸造项目，目前仅靠 X 预热：公布总量、Orders 与 GTD 免费额度并征集钱包，钱包检查器即将上线，但还没有合约地址与开铸时刻。",
+      "blurb": "3,333 枚免费 mint 的动漫 NFT，Robinhood Chain 预热中，尚无合约与档期。",
+      "round": 1767,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 586,
+      "xFollowers": 586,
+      "firstSeen": "2026-11-13 20:12 CST",
+      "addedAt": "2026-11-13 20:12 CST",
+      "lastChecked": "2026-11-13 20:12 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "ossyra",
+      "name": "Ossyra",
+      "handle": "@ossyracc",
+      "twitter": "@ossyracc",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/ossyracc",
+        "website": "https://www.ossyra.cc/",
+        "ca": "0x04fabf48975b3e3a6563f582e5cd6ffd61992fff"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 8,
+        "novelty": 5,
+        "actionable": 7,
+        "overall": 6.3
+      },
+      "highlights": [
+        "官方帖宣布 $OSSYRA 在 Robinhood 上线并给出 CA 0x04fabf48975b3e3a6563f582e5cd6ffd61992fff，官网同步该 CA",
+        "GeckoTerminal 核到 Robinhood/Pons V2 池 0x311f6c26…ddb5，base token 与官方 CA 一致，pool 创建于 2026-11-13 19:49 CST",
+        "官帖提到 dev burn 与 DEXPAID，池储备约 8269 美元、首小时量约 4533 美元"
+      ],
+      "drawbacks": [
+        "FDV 约 1.06 万美元、毕业仅约 30.94%，极小市值高波动",
+        "同名 Flapsh/fourmeme 池 CA 不同，易被仿盘混淆",
+        "公共 RPC 403 未直接 eth_getCode，合约层仅靠官帖+池对照"
+      ],
+      "whatsNew": "$OSSYRA 于 2026-11-13 19:58 CST 官宣在 Robinhood 上线，Pons V2 池约 19:49 CST 创建，官网已挂 CA。",
+      "summary": "Ossyra 自称自主 AI agent 基础设施，本轮已在 Robinhood Chain 通过 Pons 发射：官帖与官网给出同一个 CA，GeckoTerminal 核到对应 Pons V2 池，创建不足一小时、毕业约 31%，另有同名仿盘池需按官方 CA 甄别。",
+      "blurb": "Robinhood Chain 上的 AI agent 叙事新盘，官方 CA 已与链上池对上。",
+      "round": 1767,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 3,
+      "xFollowers": 3,
+      "firstSeen": "2026-11-13 20:12 CST",
+      "addedAt": "2026-11-13 20:12 CST",
+      "lastChecked": "2026-11-13 20:12 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "code-graph-rag",
       "name": "code graph rag",
@@ -287954,7 +288109,7 @@
       "addedAt": "2026-11-13 20:11:23 CST",
       "lastChecked": "2026-11-13 20:11:23 CST",
       "zoneHint": "BN Agent / 打新",
-      "newThisRound": true,
+      "newThisRound": false,
       "schedule": {
         "timezone": "Asia/Shanghai",
         "status": "live",
@@ -288019,7 +288174,7 @@
       "addedAt": "2026-11-13 20:11:23 CST",
       "lastChecked": "2026-11-13 20:11:23 CST",
       "zoneHint": "打新",
-      "newThisRound": true,
+      "newThisRound": false,
       "schedule": {
         "timezone": "Asia/Shanghai",
         "status": "watching",
@@ -288030,21 +288185,22 @@
     }
   ],
   "newThisRound": [
-    "boxcars",
-    "honestbull"
+    "ossyra",
+    "tsbdotfun",
+    "ephemeral-eth"
   ],
-  "alertMessage": "🔔 R1766 例行扫描\n【新收录】Boxcars $BCARS（BNB Chain）：免费驾照已开放，限持 Agent ID 钱包，前 1000 张永久 Founder 标记，领取仅需 gas（约 0.00002 BNB），需先发指定推文；预售 11-17 21:00 CST（持有驾照者优先 24h）。链上驾照已领 40 张。\n另收录 HonestBull 老实牛（BNB 公平铸造台，watching，暂无进行中 mint）。\n【≤2h】Ashling $ASHLING：今日 22:00 CST 于 Pons 发射（付费发币，非免费铸，官网本轮 SSL 异常，以官推 bio 为准）。\npolyrob：WL 21:00 CST 关闭、mint 22:00 CST 开启（需白名单，非免费公铸）。\n【已开】GateCerberus 20:00 开售（Paid 0/1000 @0.01 HYPE，Free 0/500）；myco 20:00 官帖已开（#1 对 Agent ID 免费）但链上 NFT 仍 0；Freememe 应用已上线；hooded-ape-club OpenSea 已铸 100（20:06 前为 0）。\n面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "R1767 Discord alpha 补充收录 3 条：\n\n1. **Ossyra**（@ossyracc）｜栏位：台子/Meme｜链：Robinhood Chain — 官方宣布 $OSSYRA 在 Robinhood 上线（2026-11-13 19:58 CST）；Pons V2 池约 19:49 CST 创建，官网已展示合约地址，并与链上池核对一致。\n\n2. **The Shadow Born**（@TSBdotfun）｜栏位：打新｜链：Robinhood Chain — 官方帖子显示进展到 wallet checker soon 阶段，确认 3,333 枚免费铸造、5 个 Orders 与 GTD 白名单征集；尚无合约与档期。\n\n3. **ephemeral**（@ephemeral_eth）｜栏位：打新｜链：Ethereum — $EPH 定档 2026-11-16 23:00 CST 以太坊主网上线，官网同步列出 Announcer 和 Registry 合约与 6 链支持。\n\n详见面板：https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "boxcars",
     "honestbull"
   ],
-  "updatedAt": "2026-11-13 20:11:23 CST",
-  "updated": "2026-11-13 20:11:23 CST",
+  "updatedAt": "2026-11-13 20:12 CST",
+  "updated": "2026-11-13 20:12 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-13 20:11:23 CST",
+  "lastScout": "2026-11-13 20:12 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -288086,7 +288242,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4158,
+  "candidateCount": 4163,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -291709,5 +291865,10 @@
     "knitx",
     "zxoxo",
     "code-graph-rag"
+  ],
+  "round1767Added": [
+    "ossyra",
+    "tsbdotfun",
+    "ephemeral-eth"
   ]
 }
