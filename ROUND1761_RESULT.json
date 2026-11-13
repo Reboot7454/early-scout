@@ -1,0 +1,218 @@
+{
+  "round": 1761,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-13 17:29 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R1761 Discord alpha 补漏新收 4 项：\n1）Ashling @Ashlingfun｜打新｜Robinhood Chain｜官网写明喂 0.0005 ETH 点亮火焰 72 小时、每 8 小时按点数分账 90/10 且团队份额只能下调，Game 合约栏标 Deploys before launch、自测 38/38 通过；官方唯一帖定档 2026-11-13 22:00 CST 在 Pons 发 $ASHLING，官网当时仍写 Not issued yet，Dexscreener 上同名 Robinhood/Flapsh、Base/Elysium 配对本轮不视为官方 CA；X 与发射同日创建，约 3 粉 1 帖。\n2）Heir Finance @heir_finance｜打新｜Ethereum｜前端主网 DigitalWill/FeeCollector 与 README 另列的一套地址本轮 eth_getCode 均有字节码，两套都有码、不当作单一唯一官方 CA；机制为一次性设定继承人、每月 check-in 窗口 ≤30 天，超时未签自动转移资产，支持多继承人份额与 pull 领取；官网 HTTP 200 带 Dapp 入口，heir-core 仓库 2026-11-02 创建；FAQ 仍留 Sepolia 旧文案，无代币与发射公告，X 约 1 粉 6 帖。\n3）NOCT Trading @NoctTrading｜台子/Meme｜官网 HTTP 200，前端可连钱包并接入 Hyperliquid 主网/测试网、trade.xyz、Lighter 与 Robinhood，含 Papertrade、Practice、策略/TWAP 与 PAPER staking；bio 自称 $NOCT on @Enter_Elysium，但 Elysium 生态页本轮查无 Noct/NOCT 条目，未见官方合约或已验证配对；0 粉 1 帖，无蓝 V。\n4）OUTLIERS @OutlierNFT｜打新｜Robinhood Chain｜帖文给出 SUPPLY 2222、Chain @RobinhoodApp、Price $2、Date November 20th、Launchpad @Opensea，Google 表单白名单与合作白名单（20 gtd）已开；无官网、无已验证合约、无蓝 V，约 1797 粉仅关注 1 人、6 帖，只给到 11 月 20 日日期、无铸造钟点。\n面板完整链接 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "ashling",
+    "heir-finance",
+    "noct-trading",
+    "outliers"
+  ],
+  "newCount": 4,
+  "newIds": [
+    "ashling",
+    "heir-finance",
+    "noct-trading",
+    "outliers"
+  ],
+  "skipped": [],
+  "alreadyInDb": [],
+  "cardsAfterLastSeen": 25,
+  "cardsAfterCutoff": 25,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "vibecool2026"
+  ],
+  "candidateFlagsCleared": 1,
+  "topNewThisRoundCleared": [
+    "vibecool2026"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "admit": {
+      "model": "deepseek-flash",
+      "thinking": true,
+      "calls": 1,
+      "prompt_tokens": 3120,
+      "completion_tokens": 5915,
+      "batches": [
+        {
+          "i": 0,
+          "n": 4,
+          "sec": 32.1,
+          "usage": {
+            "prompt_tokens": 3120,
+            "completion_tokens": 5915,
+            "total_tokens": 9035,
+            "prompt_tokens_details": {
+              "cached_tokens": 512
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 3945
+            },
+            "prompt_cache_hit_tokens": 512,
+            "prompt_cache_miss_tokens": 2608
+          },
+          "chars": 4375
+        }
+      ],
+      "admits": 4,
+      "decisions": 4
+    },
+    "alert": {
+      "usage": {
+        "prompt_tokens": 3055,
+        "completion_tokens": 1155,
+        "total_tokens": 4210,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 596
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 3055
+      },
+      "reasoning_len": 1338
+    },
+    "dsFallback": false
+  },
+  "coverage": "discord-alpha #alpha-3-new-accounts + #alpha-1-backup + #smart-accounts-tracker + #alpha-1 glance",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-13 17:17",
+    "lastChecked": "2026-11-13 17:29 CST",
+    "newestCardTime": "2026-11-13 17:17",
+    "cardsAfterCutoff": 25,
+    "note": "R1761：Discord alpha 补收 ashling, heir-finance, noct-trading, outliers；清上一轮 newThisRound vibecool2026；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 17:16', 'alpha-1-backup': '2026-11-13 16:49', 'smart-accounts-tracker': '2026-11-13 16:43', 'alpha-1': '2026-11-13 17:17'}；开跑前远程已是 R1760，本轮 DC=R1761，未覆盖既有轮次",
+    "lastRound": 1761,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-13 17:16",
+      "alpha-1-backup": "2026-11-13 16:49",
+      "smart-accounts-tracker": "2026-11-13 16:43",
+      "alpha-1": "2026-11-13 17:17"
+    },
+    "spideyPosting": true,
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-12 00:02",
+      "to": "2026-11-13 05:11",
+      "nFilled": 0,
+      "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1759 lastSeen"
+    }
+  },
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-13 17:16",
+    "alpha-1-backup": "2026-11-13 16:49",
+    "smart-accounts-tracker": "2026-11-13 16:43",
+    "alpha-1": "2026-11-13 17:17"
+  },
+  "alpha3OlderGap": {
+    "attempted": false,
+    "filled": false,
+    "from": "2026-11-12 00:02",
+    "to": "2026-11-13 05:11",
+    "nFilled": 0,
+    "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1759 lastSeen"
+  },
+  "spideyPosting": true,
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1761：Discord alpha 补收 ashling, heir-finance, noct-trading, outliers；清上一轮 newThisRound vibecool2026；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 17:16', 'alpha-1-backup': '2026-11-13 16:49', 'smart-accounts-tracker': '2026-11-13 16:43', 'alpha-1': '2026-11-13 17:17'}；开跑前远程已是 R1760，本轮 DC=R1761，未覆盖既有轮次",
+  "remoteVerified": false,
+  "docsSynced": true,
+  "dataUpdated": true,
+  "cardsFile": "dc40_cards_r1761.json",
+  "priorRoundNote": "Remote was R1760 at apply time; this DC is R1761. Did not overwrite R1760.",
+  "alert": "R1761 Discord alpha 补漏新收 4 项：\n1）Ashling @Ashlingfun｜打新｜Robinhood Chain｜官网写明喂 0.0005 ETH 点亮火焰 72 小时、每 8 小时按点数分账 90/10 且团队份额只能下调，Game 合约栏标 Deploys before launch、自测 38/38 通过；官方唯一帖定档 2026-11-13 22:00 CST 在 Pons 发 $ASHLING，官网当时仍写 Not issued yet，Dexscreener 上同名 Robinhood/Flapsh、Base/Elysium 配对本轮不视为官方 CA；X 与发射同日创建，约 3 粉 1 帖。\n2）Heir Finance @heir_finance｜打新｜Ethereum｜前端主网 DigitalWill/FeeCollector 与 README 另列的一套地址本轮 eth_getCode 均有字节码，两套都有码、不当作单一唯一官方 CA；机制为一次性设定继承人、每月 check-in 窗口 ≤30 天，超时未签自动转移资产，支持多继承人份额与 pull 领取；官网 HTTP 200 带 Dapp 入口，heir-core 仓库 2026-11-02 创建；FAQ 仍留 Sepolia 旧文案，无代币与发射公告，X 约 1 粉 6 帖。\n3）NOCT Trading @NoctTrading｜台子/Meme｜官网 HTTP 200，前端可连钱包并接入 Hyperliquid 主网/测试网、trade.xyz、Lighter 与 Robinhood，含 Papertrade、Practice、策略/TWAP 与 PAPER staking；bio 自称 $NOCT on @Enter_Elysium，但 Elysium 生态页本轮查无 Noct/NOCT 条目，未见官方合约或已验证配对；0 粉 1 帖，无蓝 V。\n4）OUTLIERS @OutlierNFT｜打新｜Robinhood Chain｜帖文给出 SUPPLY 2222、Chain @RobinhoodApp、Price $2、Date November 20th、Launchpad @Opensea，Google 表单白名单与合作白名单（20 gtd）已开；无官网、无已验证合约、无蓝 V，约 1797 粉仅关注 1 人、6 帖，只给到 11 月 20 日日期、无铸造钟点。\n面板完整链接 https://reboot7454.github.io/early-scout/",
+  "dsUsageSummary": "deepseek-flash thinking; admit+alert calls=2 prompt=6175 completion=7070; admits=4 (ashling, heir-finance, noct-trading, outliers); ds_reject=0; pre_reject=15",
+  "dsRejects": [],
+  "preReject": [
+    {
+      "handle": "@nikesharora",
+      "followers": 137464,
+      "reason": "高粉(137464)成熟机构/KOL"
+    },
+    {
+      "handle": "@likonix_makina",
+      "followers": 1,
+      "reason": "工业机械商户（烘干炉），与链上项目无关"
+    },
+    {
+      "handle": "@Kazakh_Crypto",
+      "followers": 2,
+      "reason": "个人号，bio 仅口号 Own your data，无产品/发射线索"
+    },
+    {
+      "handle": "@jakeruanjian",
+      "followers": 5,
+      "reason": "Web3 外包/二开服务商（自称 12 年、2000+项目交付），非极早期项目号"
+    },
+    {
+      "handle": "@siti_rahma198",
+      "followers": 0,
+      "reason": "个人学习 WEB3 账号，无独立项目"
+    },
+    {
+      "handle": "@taretareless",
+      "followers": 0,
+      "reason": "个人笔记号（notes from a dead market），无独立项目产品；关注 Elysium/Pons 的猎人号不收"
+    },
+    {
+      "handle": "@Abbshashvault",
+      "followers": 0,
+      "reason": "仅写 Crypto Financial Company，0 粉无产品/官网/发射线索，空壳嫌疑"
+    },
+    {
+      "handle": "@Joe98house",
+      "followers": 9,
+      "reason": "个人号，bio 仅 In pursuit of greatness，无产品线索"
+    },
+    {
+      "handle": "@MarkLampera29",
+      "followers": 4,
+      "reason": "个人号，bio 仅 Music，无产品线索"
+    },
+    {
+      "handle": "@BitClipDE",
+      "followers": 11,
+      "reason": "德语比特币播客/访谈摘要资讯号，非项目"
+    },
+    {
+      "handle": "@0xTheHS",
+      "followers": 1685,
+      "reason": "个人创始人号（Founder of Voxel Kings），非项目官方推特"
+    },
+    {
+      "handle": "@SjamsudinS91803",
+      "followers": 3,
+      "reason": "个人 vlog 账号，无关"
+    },
+    {
+      "handle": "@kleiber1235",
+      "followers": 9,
+      "reason": "个人号（足球梦想），无关"
+    },
+    {
+      "handle": "@__cryptoHARRY",
+      "followers": 9,
+      "reason": "Web3 内容创作者个人号，无独立项目推特"
+    },
+    {
+      "handle": "@colony_hq",
+      "followers": 3,
+      "reason": "建号当日 0 帖、无官网、无 CA，bio 仅口号 We are the colony. One mind, many legs.，虽关注 Pons/Robinhood 但无可核验产品或发射线索"
+    }
+  ]
+}
