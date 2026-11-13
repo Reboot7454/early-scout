@@ -1,0 +1,375 @@
+{
+  "round": 1752,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-13 14:09 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R1752 Discord alpha 补漏新收 12 项：Porh（@porhdotfun）挖矿 porh.fun，官方 CA 0x57eb4b7125801120c454673a418caf85debba1d0，浏览器挖 ZEC，主池 11-13 08:07 CST，本轮约 FDV $3200、流动性 $3142、24h $519。Spin（@spindottrading）spin.trading，CA 0x4497957BacC03d67012DEc81b27FAECe952b1111，7777 交易代理 NFT，本轮约 FDV $8.98 万、流动性 $4.15 万、24h $6.63 万。Hypepe（@Hypepe_official）CA 0x5dCFb191f0cDB853BAc3A6A4385e160E779e377F，本轮约 FDV $7.05 万、流动性 $2.56 万、24h $10.1 万。其余：Sheaf（分账无 CA）、Aurbit、PixelFuse（维护暂停）、Clocked（11/16 Breakpoint、12/1 杯赛）、Cuckoo、errh、Zerodroids（Genesis 名单 LZ 未核验）、Jacket Agent（bio 称 11/15 mint，无 CA，防假盘）、Rugg Kidz（7777 枚 $7 mint，日期未公布）。另需注意：alpha-3 仍有 2026-11-12 00:02 至 05:11 约 29 小时未扫空洞。https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "porhdotfun",
+    "spindottrading",
+    "hypepe-official",
+    "sheafcash",
+    "aurbitdotfun",
+    "pixelfusedotfun",
+    "getclocked",
+    "cuckooclockxyz",
+    "errhfun",
+    "zerodroidsio",
+    "jacketagent",
+    "ruggkidz"
+  ],
+  "newCount": 12,
+  "newIds": [
+    "porhdotfun",
+    "spindottrading",
+    "hypepe-official",
+    "sheafcash",
+    "aurbitdotfun",
+    "pixelfusedotfun",
+    "getclocked",
+    "cuckooclockxyz",
+    "errhfun",
+    "zerodroidsio",
+    "jacketagent",
+    "ruggkidz"
+  ],
+  "admissions": [
+    {
+      "id": "porhdotfun",
+      "name": "Porh",
+      "handle": "@porhdotfun",
+      "category": "挖矿",
+      "chain": "Robinhood Chain",
+      "links": {
+        "x": "https://x.com/porhdotfun",
+        "web": "https://porh.fun/",
+        "ca": "0x57eb4b7125801120c454673a418caf85debba1d0"
+      },
+      "blurb": "浏览器挖 ZEC，官方 CA 已核验；主池 11-13 新建，本轮约 FDV $3200、流动性 $3142。"
+    },
+    {
+      "id": "spindottrading",
+      "name": "Spin",
+      "handle": "@spindottrading",
+      "category": "台子/Meme",
+      "chain": "Robinhood Chain",
+      "links": {
+        "x": "https://x.com/spindottrading",
+        "web": "https://spin.trading/",
+        "ca": "0x4497957BacC03d67012DEc81b27FAECe952b1111",
+        "telegram": "https://t.me/spintradingofficial"
+      },
+      "blurb": "7,777 枚 NFT 各为带钱包的交易 agent，可设策略回测；官方 CA 已核验，FDV 约 $8.98 万。"
+    },
+    {
+      "id": "hypepe-official",
+      "name": "Hypepe",
+      "handle": "@Hypepe_official",
+      "category": "台子/Meme",
+      "chain": "Elysium",
+      "links": {
+        "x": "https://x.com/Hypepe_official",
+        "ca": "0x5dCFb191f0cDB853BAc3A6A4385e160E779e377F"
+      },
+      "blurb": "Elysium 上的 pepe meme，官号 bio 直给 CA；本轮 FDV 约 $7 万，流动性偏薄，注意滑点。"
+    },
+    {
+      "id": "sheafcash",
+      "name": "Sheaf",
+      "handle": "@sheafcash",
+      "category": "台子/Meme",
+      "chain": "Robinhood Chain",
+      "links": {
+        "x": "https://x.com/sheafcash",
+        "web": "https://www.sheaf.cash/"
+      },
+      "blurb": "Robinhood Chain 分账器，收款自动拆成 USDG 和股票代币，$SHEAF 仅预告，无官方 CA。"
+    },
+    {
+      "id": "aurbitdotfun",
+      "name": "Aurbit",
+      "handle": "@aurbitdotfun",
+      "category": "台子/Meme",
+      "chain": "Solana",
+      "links": {
+        "x": "https://x.com/aurbitdotfun",
+        "web": "https://aurbit.fun/"
+      },
+      "blurb": "Solana 上把创作者费用按波动率加权买 BTC 和黄金，销毁 $AURBIT 赎回；官方 CA 未出。"
+    },
+    {
+      "id": "pixelfusedotfun",
+      "name": "PixelFuse",
+      "handle": "@pixelfusedotfun",
+      "category": "台子/Meme",
+      "chain": "Robinhood Chain",
+      "links": {
+        "x": "https://x.com/pixelfusedotfun",
+        "web": "https://www.pixelfuse.fun/"
+      },
+      "blurb": "Robinhood Chain 像素寻宝游戏，模块已列出，但购买和提现暂停维护，无官方 CA。"
+    },
+    {
+      "id": "getclocked",
+      "name": "Clocked",
+      "handle": "@getclocked",
+      "category": "台子/Meme",
+      "chain": "",
+      "links": {
+        "x": "https://x.com/getclocked",
+        "web": "https://getclocked.com/"
+      },
+      "blurb": "链上期权价差押美股收盘价区间，12/1 开赛奖池 $100,000，不对美国人士开放。"
+    },
+    {
+      "id": "cuckooclockxyz",
+      "name": "Cuckoo",
+      "handle": "@cuckooclockxyz",
+      "category": "台子/Meme",
+      "chain": "Solana",
+      "links": {
+        "x": "https://x.com/cuckooclockxyz",
+        "web": "https://cuckooclock.xyz/"
+      },
+      "blurb": "Solana 发射台，卖压占优才触发储备回购销毁，买入不触发；官方 CA 未出。"
+    },
+    {
+      "id": "errhfun",
+      "name": "errh",
+      "handle": "@errhfun",
+      "category": "台子/Meme",
+      "chain": "Robinhood Chain",
+      "links": {
+        "x": "https://x.com/errhfun",
+        "web": "https://errh.fun/"
+      },
+      "blurb": "自称首个 AI agent 市场，发任务由 agent 完成，与 @ponsdotfamily 领奖；无官方 CA。"
+    },
+    {
+      "id": "zerodroidsio",
+      "name": "Zerodroids",
+      "handle": "@zerodroidsio",
+      "category": "打新",
+      "chain": "",
+      "links": {
+        "x": "https://x.com/zerodroidsio",
+        "web": "https://www.zerodroids.io/"
+      },
+      "blurb": "Zero Chain 像素机器人，Genesis 等待名单做任务积累 XP；LayerZero 仅自称，无官方 CA。"
+    },
+    {
+      "id": "jacketagent",
+      "name": "Jacket Agent",
+      "handle": "@jacketagent",
+      "category": "打新",
+      "chain": "BNB Chain",
+      "links": {
+        "x": "https://x.com/jacketagent"
+      },
+      "blurb": "BNB Chain 的 Jacket NFT 打新，Mint Nov 15 后按快照发 $JAGENT；无官网与合约，风险高。"
+    },
+    {
+      "id": "ruggkidz",
+      "name": "Rugg Kidz",
+      "handle": "@RUGGKIDZ",
+      "category": "打新",
+      "chain": "Solana",
+      "links": {
+        "x": "https://x.com/RUGGKIDZ"
+      },
+      "blurb": "Solana 的 7,777 个 NFT，$7 mint，作者 Franky Nines；开铸时间未公布，仅有官号。"
+    }
+  ],
+  "skipped": [
+    {
+      "handle": "@mutantdeployer",
+      "reason": "无官网/合集CA/铸造日程，mutant ape 衍生品信息过薄"
+    },
+    {
+      "handle": "@Official_HBot",
+      "reason": "bio 自称 proposed，无产品落地证据"
+    },
+    {
+      "handle": "@cubicledotfun",
+      "reason": "无官网/CA，仅交易机器人概念"
+    },
+    {
+      "handle": "@lumenresearch_",
+      "reason": "无官网/CA，仅 bio 概念"
+    },
+    {
+      "handle": "@thecow_hq",
+      "reason": "bio 仅 Degen Free mint，无供给/日程/CA/官网"
+    },
+    {
+      "handle": "@SIGHSHEAVILY_",
+      "reason": "玩笑盘，bio 所给 Solana CA 本轮 Dexscreener/GeckoTerminal 未检索到池，不收录"
+    },
+    {
+      "handle": "@caesarcoin_spqr",
+      "reason": "caesarcoin.com 为停放页，无官方 CA，仅 bio 预告开盘"
+    },
+    {
+      "handle": "@ForgebotsRH",
+      "reason": "无官网（forgebots.com 在售），bio 未给官方 CA，不与 Robinhood 同名 $FORGE 盘合并"
+    },
+    {
+      "handle": "@tokenrytools",
+      "reason": "官网 tokenry.tools 显示已创建 820+ 枚代币的在营无代码发币工具，不属于极早期"
+    },
+    {
+      "handle": "@usetubepaid",
+      "reason": "无官网/CA，仅 YouTube 发射台 bio"
+    },
+    {
+      "handle": "@HabibiCatsNFT",
+      "reason": "无官网/合集CA/铸造日程，通用 PFP"
+    },
+    {
+      "handle": "@viceagents",
+      "reason": "无官网/CA，仅概念"
+    },
+    {
+      "handle": "@Skypalio",
+      "reason": "未能打开官网，bio 未给官方 CA；Elysium 上有同名盘未核验，不写入"
+    },
+    {
+      "handle": "@clausetrade",
+      "reason": "无官网/CA；勿与库内 clause-protocol（@clause_protocol）合并"
+    },
+    {
+      "handle": "@OFDDOG",
+      "reason": "官方 CA 0x8749d0F5F0DaE6bF32a07053a6C3328B8A82747C 已在 Anubis 开盘（2026-11-12 22:39 CST），本轮约 FDV $20.2万 / 流动性 $4.54万 / 24h $56.2万，热度已过极早期微盘"
+    },
+    {
+      "handle": "@gravityblocks_",
+      "reason": "Solana blockspace 基础设施市场（GBX），按 Infra 不收"
+    },
+    {
+      "handle": "@avaxforge_etf",
+      "reason": "avaxforge.xyz 为空页，无产品证据"
+    },
+    {
+      "handle": "@onchain_cats",
+      "reason": "无官网/CA；onchaincats.com 为 HyperEVM 另一项目，不合并"
+    },
+    {
+      "handle": "@HatchMind",
+      "reason": "hatchmind.com/.xyz 为空页/停放，无产品证据"
+    },
+    {
+      "handle": "@BubbleonTg",
+      "reason": "无官网/CA，仅 Telegram 发射台 bio"
+    },
+    {
+      "handle": "@BandarBuysBTC",
+      "reason": "官方 CA 0x84B3F4A37eeaD8194f7180ED8aaad43C1b0df537 已在 Robinhood 开盘（2026-11-10 02:12 CST），本轮约 FDV $98.4万 / 流动性 $87.1万，不再属于极早期微盘；roninsamurai.com 为 Solana $RONIN 他站，不作官网"
+    },
+    {
+      "handle": "@tryCorpusAI",
+      "reason": "算力/USDC 收益 Infra，官网外链 X 为个人号 @TraversaJulian，不收"
+    },
+    {
+      "handle": "@TheLeonidaState",
+      "reason": "GTA 热点发射台概念，无官网/CA"
+    },
+    {
+      "handle": "@trykips",
+      "reason": "kips.fun 空页，无官方 CA，不与 Robinhood 同名 KIPS 盘合并"
+    },
+    {
+      "handle": "@JoseOnCanton",
+      "reason": "个人叙事号，首个代币在他人发射台，非独立项目"
+    },
+    {
+      "handle": "@useomniqpad",
+      "reason": "无官网/CA，仅一行发射台自称"
+    }
+  ],
+  "alreadyInDb": [],
+  "cardsAfterLastSeen": 605,
+  "cardsAfterCutoff": 605,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "candidateFlagsCleared": 0,
+  "topNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=12 (of 38 DS-admit, 160/160 keepers after batch2 backfill) calls=25 prompt=36481 completion=85439",
+  "dsUsageDetail": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": 25,
+    "prompt_tokens": 36481,
+    "completion_tokens": 85439,
+    "breakdown": {
+      "admit_batches_incl_batch2_backfill": {
+        "calls": 21,
+        "prompt_tokens": 31108,
+        "completion_tokens": 73874
+      },
+      "copy": {
+        "calls": 2,
+        "prompt_tokens": 4057,
+        "completion_tokens": 9060
+      },
+      "alert": {
+        "calls": 2,
+        "prompt_tokens": 1316,
+        "completion_tokens": 2505,
+        "note": "first alert call exhausted tokens on thinking and returned empty; retried successfully. Lead line later changed R1751→R1752 after web radar took R1751."
+      }
+    }
+  },
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-13 13:27",
+    "lastChecked": "2026-11-13 14:09 CST",
+    "newestCardTime": "2026-11-13 13:27",
+    "cardsAfterCutoff": 605,
+    "note": "R1752：Discord alpha 补收 porhdotfun, spindottrading, hypepe-official, sheafcash, aurbitdotfun, pixelfusedotfun, getclocked, cuckooclockxyz, errhfun, zerodroidsio, jacketagent, ruggkidz；开跑及落盘前再次 git pull 后仓库已是网页雷达 R1751（无新网页收录，Syndicate 仍 le2h 至 14:37 CST），本轮 DC=R1752，未覆盖 R1751；已清 R1751 NTR（本轮拉取时为空）；执行端核验后未收 @OFDDOG（官方 CA 已在 Anubis 于 2026-11-12 22:39 CST 开盘，本轮约 FDV $20.2万 / 流动性 $4.54万 / 24h $56.2万，已过极早期微盘）；@BandarBuysBTC（官方 CA 已在 Robinhood 于 2026-11-10 02:12 CST 开盘，本轮约 FDV $98.4万 / 流动性 $87.1万；roninsamurai.com 为 Solana $RONIN 他站）；@tokenrytools（官网已创建 820+ 枚代币的在营发币工具）；@gravityblocks_（Solana blockspace Infra）；@tryCorpusAI（算力收益 Infra，官网外链个人号 @TraversaJulian）；@Official_HBot（proposed 概念号）；@clausetrade（无官网，勿与库内 clause-protocol 合并）；@Skypalio（无官方站点/CA，Elysium 同名盘未核验）；本轮对库内 handle/id/links.x/CA 去重后无已有跳过；预筛个人/空壳/高粉KOL 278 条；DS 补跑 batch2 缺 8 条后 160/160 keeper 均有判定，DS 初筛 admit 38、执行端留 12；Hypepe 官方 CA 在 Elysium，本轮官方生态页不可达且仅为 meme，故 category=台子/Meme、未打 Elysium 标签；Zerodroids 自称 LayerZero 未核验，lzVerified=false、不打 lz 标签；Porh 官方 CA 0x57eb4b7125801120c454673a418caf85debba1d0 主池 2026-11-13 08:07 CST 创建，本轮约 FDV $3200 / 流动性 $3142 / 24h $519，勿与 Solana 同名盘合并；Spin 官方 CA 0x4497957BacC03d67012DEc81b27FAECe952b1111 主池 2026-11-11 23:00 CST 创建，本轮约 FDV $8.98万 / 流动性 $4.15万 / 24h $6.63万；Hypepe 官方 CA 0x5dCFb191f0cDB853BAc3A6A4385e160E779e377F 主池 2026-11-09 19:30 CST 创建，本轮约 FDV $7.05万 / 流动性 $2.56万 / 24h $10.1万；alpha-3 因 250 卡上限未扫到 cutoff，oldestReached 2026-11-13 05:11，仍留 2026-11-12 00:02→05:11 约 29h 空洞未扫，但 lastSeenByChannel 已推进到最新 2026-11-13 13:27 以免重复扫描同一批最新卡；lastSeen→2026-11-13 13:27；lastChecked→2026-11-13 14:09 CST",
+    "lastRound": 1752,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-13 13:27",
+      "alpha-1-backup": "2026-11-13 12:19",
+      "smart-accounts-tracker": "2026-11-13 13:06",
+      "alpha-1": "2026-11-13 13:25"
+    },
+    "spideyPosting": true,
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-12 00:02",
+      "to": "2026-11-13 05:11",
+      "note": "37h outage; alpha-3 capped at 250 cards, oldestReached 05:11, hole 2026-11-12 00:02→05:11 still unscanned"
+    }
+  },
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-13 13:27",
+    "alpha-1-backup": "2026-11-13 12:19",
+    "smart-accounts-tracker": "2026-11-13 13:06",
+    "alpha-1": "2026-11-13 13:25"
+  },
+  "alpha3OlderGap": {
+    "attempted": false,
+    "filled": false,
+    "from": "2026-11-12 00:02",
+    "to": "2026-11-13 05:11",
+    "note": "37h outage; alpha-3 capped at 250 cards, oldestReached 05:11, hole 2026-11-12 00:02→05:11 still unscanned"
+  },
+  "push": {
+    "attempted": true,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1752：Discord alpha 补收 porhdotfun, spindottrading, hypepe-official, sheafcash, aurbitdotfun, pixelfusedotfun, getclocked, cuckooclockxyz, errhfun, zerodroidsio, jacketagent, ruggkidz；开跑及落盘前再次 git pull 后仓库已是网页雷达 R1751（无新网页收录，Syndicate 仍 le2h 至 14:37 CST），本轮 DC=R1752，未覆盖 R1751；已清 R1751 NTR（本轮拉取时为空）；执行端核验后未收 @OFDDOG（官方 CA 已在 Anubis 于 2026-11-12 22:39 CST 开盘，本轮约 FDV $20.2万 / 流动性 $4.54万 / 24h $56.2万，已过极早期微盘）；@BandarBuysBTC（官方 CA 已在 Robinhood 于 2026-11-10 02:12 CST 开盘，本轮约 FDV $98.4万 / 流动性 $87.1万；roninsamurai.com 为 Solana $RONIN 他站）；@tokenrytools（官网已创建 820+ 枚代币的在营发币工具）；@gravityblocks_（Solana blockspace Infra）；@tryCorpusAI（算力收益 Infra，官网外链个人号 @TraversaJulian）；@Official_HBot（proposed 概念号）；@clausetrade（无官网，勿与库内 clause-protocol 合并）；@Skypalio（无官方站点/CA，Elysium 同名盘未核验）；本轮对库内 handle/id/links.x/CA 去重后无已有跳过；预筛个人/空壳/高粉KOL 278 条；DS 补跑 batch2 缺 8 条后 160/160 keeper 均有判定，DS 初筛 admit 38、执行端留 12；Hypepe 官方 CA 在 Elysium，本轮官方生态页不可达且仅为 meme，故 category=台子/Meme、未打 Elysium 标签；Zerodroids 自称 LayerZero 未核验，lzVerified=false、不打 lz 标签；Porh 官方 CA 0x57eb4b7125801120c454673a418caf85debba1d0 主池 2026-11-13 08:07 CST 创建，本轮约 FDV $3200 / 流动性 $3142 / 24h $519，勿与 Solana 同名盘合并；Spin 官方 CA 0x4497957BacC03d67012DEc81b27FAECe952b1111 主池 2026-11-11 23:00 CST 创建，本轮约 FDV $8.98万 / 流动性 $4.15万 / 24h $6.63万；Hypepe 官方 CA 0x5dCFb191f0cDB853BAc3A6A4385e160E779e377F 主池 2026-11-09 19:30 CST 创建，本轮约 FDV $7.05万 / 流动性 $2.56万 / 24h $10.1万；alpha-3 因 250 卡上限未扫到 cutoff，oldestReached 2026-11-13 05:11，仍留 2026-11-12 00:02→05:11 约 29h 空洞未扫，但 lastSeenByChannel 已推进到最新 2026-11-13 13:27 以免重复扫描同一批最新卡；lastSeen→2026-11-13 13:27；lastChecked→2026-11-13 14:09 CST",
+  "remoteVerified": false,
+  "cardsFile": "/tmp/dc40_cards_r1750.json",
+  "priorRoundNote": "First apply targeted R1751 on R1750 base; remote then published web-radar R1751 (25240f1, no new admits, Syndicate still le2h). Rebased onto that tip and published this DC as R1752. Did not overwrite R1751.",
+  "alert": "R1752 Discord alpha 补漏新收 12 项：Porh（@porhdotfun）挖矿 porh.fun，官方 CA 0x57eb4b7125801120c454673a418caf85debba1d0，浏览器挖 ZEC，主池 11-13 08:07 CST，本轮约 FDV $3200、流动性 $3142、24h $519。Spin（@spindottrading）spin.trading，CA 0x4497957BacC03d67012DEc81b27FAECe952b1111，7777 交易代理 NFT，本轮约 FDV $8.98 万、流动性 $4.15 万、24h $6.63 万。Hypepe（@Hypepe_official）CA 0x5dCFb191f0cDB853BAc3A6A4385e160E779e377F，本轮约 FDV $7.05 万、流动性 $2.56 万、24h $10.1 万。其余：Sheaf（分账无 CA）、Aurbit、PixelFuse（维护暂停）、Clocked（11/16 Breakpoint、12/1 杯赛）、Cuckoo、errh、Zerodroids（Genesis 名单 LZ 未核验）、Jacket Agent（bio 称 11/15 mint，无 CA，防假盘）、Rugg Kidz（7777 枚 $7 mint，日期未公布）。另需注意：alpha-3 仍有 2026-11-12 00:02 至 05:11 约 29 小时未扫空洞。https://reboot7454.github.io/early-scout/",
+  "spideyPosting": true,
+  "preRejectCount": 278
+}
