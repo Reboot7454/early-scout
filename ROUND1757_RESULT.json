@@ -1,7 +1,7 @@
 {
   "round": 1757,
-  "mode": "discord-alpha-40",
-  "completedAt": "2026-11-13 16:09 CST",
+  "mode": "discord-alpha-40+scheduled-merge",
+  "completedAt": "2026-11-13 16:13 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
   "notifyReason": "new_admits",
@@ -124,15 +124,335 @@
   },
   "spideyPosting": true,
   "push": {
-    "attempted": false,
-    "ok": false
+    "plannedFiles": [
+      "data.json",
+      "docs/data.json",
+      "ROUND1757_RESULT.json"
+    ],
+    "branch": "main"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
-  "summary": "R1757：Discord alpha 补收 hookdroid；清上一轮 newThisRound hubrixrh, bagnotary, orvane-perp, aperturerh；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 16:01', 'alpha-1-backup': '2026-11-13 14:49', 'smart-accounts-tracker': '2026-11-13 16:02', 'alpha-1': '2026-11-13 16:05'}；开跑前远程已是 R1756，本轮 DC=R1757，未覆盖既有轮次",
+  "summary": "R1757 为 Discord alpha（16:09 CST 补收 hookdroid，已通知）与 16:00 CST 例行雷达的合并轮，未覆盖 Discord 提交。例行新收 AGX @agentic_x402（BNB Chain 付费 fair launch，16:00:58 CST 开盘，manifest 约 16:09 CST 已铸 19/9800，评分 67，非免费）。已修复 hookdroid 与 gangstazfun 监控漏挂。The Syndicate OpenSea 834→859、floor 约 0.15 USDG；Boatn 1203→1245/2222。GateCerberus / Lil Giraffies / Bagnotary 尚未进入 ≤2h。本号不自动 mint。",
   "remoteVerified": false,
   "docsSynced": false,
   "dataUpdated": true,
   "cardsFile": "dc40_cards_r1757.json",
-  "priorRoundNote": "Remote was R1756 at apply time; this DC is R1757. Did not overwrite R1756.",
-  "alert": "R1757 Discord alpha 补漏新收 1 项：\n1）Hookdroid @hookdroid｜台子/Meme｜Robinhood Chain｜官网 hookdroid.xyz 可访问，自称已能签名登录跑纸上交易：扫描每个新 Pons 盘的 bundle/sniper/dev，决策挂 Blockscout 交易哈希，登录仅签名不扣 gas、不收存款；$HOOKDROID 未发，CA coming soon，本轮无已验证合约，页面写明 Holder tiers unlock at launch、此前全 Free；X 账号 2026-11-13 14:56 CST 创建，约 3 粉、0 帖。面板完整链接 https://reboot7454.github.io/early-scout/"
+  "priorRoundNote": "Discord occupied R1757 with hookdroid at 16:09 CST (already notified). Scheduled scan merged into the same round; did not overwrite Discord card or re-notify hookdroid; did not bump to R1758.",
+  "alert": "R1757 Discord alpha 补漏新收 1 项：\n1）Hookdroid @hookdroid｜台子/Meme｜Robinhood Chain｜官网 hookdroid.xyz 可访问，自称已能签名登录跑纸上交易：扫描每个新 Pons 盘的 bundle/sniper/dev，决策挂 Blockscout 交易哈希，登录仅签名不扣 gas、不收存款；$HOOKDROID 未发，CA coming soon，本轮无已验证合约，页面写明 Holder tiers unlock at launch、此前全 Free；X 账号 2026-11-13 14:56 CST 创建，约 3 粉、0 帖。面板完整链接 https://reboot7454.github.io/early-scout/",
+  "scheduledNotify": true,
+  "scheduledAlert": "🆕 本轮例行雷达新收：AGX（Agentic X402，BNB Chain，打新，评分 67）今日 16:00:58 CST 开盘，已铸 19/9800 单位；需 .ai Agent ID 和 Binance Agentic Wallet，x402 付费公平发射，并非免费铸造，单价 1.0 U/单位（每单位 40,000 AGX）。R1757 Discord 已通报的 hookdroid 不重复通知。面板：https://reboot7454.github.io/early-scout/",
+  "scheduledNotifyReason": "new_admit_agx-402",
+  "mergedNewAdmits": [
+    "hookdroid",
+    "agx-402"
+  ],
+  "watchBugsFixed": [
+    {
+      "ids": [
+        "hookdroid"
+      ],
+      "reason": "R1757 Discord alpha 于 16:09 CST 写入 hookdroid，但未写入任何 Watch。例行雷达合并时补进 userFollowWatch，不重复通知。"
+    },
+    {
+      "ids": [
+        "gangstazfun"
+      ],
+      "reason": "全库审计：gangstazfun（@gangstazfun，R1444，watching）在库但不在任何 Watch accounts/candidateIds。本轮补进 userFollowWatch。不是新收录，不通知。"
+    }
+  ],
+  "watchAdds": [
+    {
+      "id": "hookdroid",
+      "handle": "@hookdroid",
+      "watches": [
+        "userFollowWatch"
+      ]
+    },
+    {
+      "id": "agx-402",
+      "handle": "@agentic_x402",
+      "watches": [
+        "userFollowWatch",
+        "agentPadWatch",
+        "bnAgentWatch"
+      ]
+    },
+    {
+      "id": "gangstazfun",
+      "handle": "@gangstazfun",
+      "watches": [
+        "userFollowWatch"
+      ]
+    }
+  ],
+  "watchBugFix": "R1757 Discord 的 hookdroid 漏挂已补进 userFollowWatch，不重复通知。另补历史漏挂 gangstazfun。全库仍有约 2000 张更早卡片（最新约 R1691）不在任何 Watch，本轮未整批回填以免打乱分片。",
+  "autoMint": false,
+  "scheduledWebRadar": {
+    "notify": true,
+    "notifyReason": "new_admit",
+    "alertMessage": "🆕 本轮例行雷达新收：AGX（Agentic X402，BNB Chain，打新，评分 67）今日 16:00:58 CST 开盘，已铸 19/9800 单位；需 .ai Agent ID 和 Binance Agentic Wallet，x402 付费公平发射，并非免费铸造，单价 1.0 U/单位（每单位 40,000 AGX）。R1757 Discord 已通报的 hookdroid 不重复通知。面板：https://reboot7454.github.io/early-scout/",
+    "alert": "🆕 本轮例行雷达新收：AGX（Agentic X402，BNB Chain，打新，评分 67）今日 16:00:58 CST 开盘，已铸 19/9800 单位；需 .ai Agent ID 和 Binance Agentic Wallet，x402 付费公平发射，并非免费铸造，单价 1.0 U/单位（每单位 40,000 AGX）。R1757 Discord 已通报的 hookdroid 不重复通知。面板：https://reboot7454.github.io/early-scout/",
+    "newAdmits": [
+      {
+        "id": "agx-402",
+        "name": "AGX (Agentic X402)",
+        "handle": "@agentic_x402",
+        "category": "打新",
+        "chain": "BNB Chain",
+        "score": 67,
+        "freeLIVE": false,
+        "status": "live",
+        "unitsMinted": "19/9800",
+        "price": "1.0 U / unit",
+        "openedAt": "2026-11-13 16:00:58 CST",
+        "site": "https://agx402.xyz/agx",
+        "ca": "0xF334039c3B0aBDe100887D17a476952D3E992Eb0"
+      }
+    ],
+    "newCount": 1,
+    "newIds": [
+      "agx-402"
+    ],
+    "completedAt": "2026-11-13 16:13 CST",
+    "mergedAt": "2026-11-13 16:13 CST",
+    "xReads": 20,
+    "xReadsMain": 19,
+    "xReadsSilent": 1,
+    "remainingBefore": 588,
+    "remaining": 568,
+    "mode": "pace",
+    "softCap": 18,
+    "minSpend": 18,
+    "silentCap": 2,
+    "ufCursorBefore": 464,
+    "ufCursor": 523,
+    "ufKeptThisScan": 48,
+    "ufSkipThisScan": 11,
+    "ufSkipHandles": [
+      "cardstockfun",
+      "potionrh",
+      "beatmissapp",
+      "sharpsheet_rh",
+      "safufundbnb",
+      "bellwethers_ai",
+      "Asciidogs",
+      "rheacatnear",
+      "99901dotfun",
+      "magnitudeagent",
+      "bububullfun"
+    ],
+    "fatNextStarts": {
+      "agentPad": 492,
+      "freeMint": 213,
+      "bnAgent": 234,
+      "elysium": 50
+    },
+    "tenLanes": true,
+    "laneReads": {
+      "打新": true,
+      "挖矿": true,
+      "台子/Meme": true,
+      "GO盘": true,
+      "LayerZero": true,
+      "Elysium": true,
+      "Tape/电路": true,
+      "GIWA": true,
+      "DogeEVM": true,
+      "BN Agent 钱包": true,
+      "BTC": true,
+      "Starknet": true
+    },
+    "kwThinRan": [
+      "LayerZero",
+      "Tape/电路",
+      "GIWA",
+      "DogeEVM",
+      "BTC",
+      "Starknet"
+    ],
+    "kwCoreRan": [
+      "打新",
+      "挖矿",
+      "台子/Meme",
+      "GO盘",
+      "Elysium"
+    ],
+    "kwCoreReads": 3,
+    "kwCoreMergeNote": "3 次核心 KW：①打新+挖矿 ②台子/Meme+GO盘+专名（AIDROP/Pulse/Nutshell/squeek/STARX/pipfun/computeroll）③Elysium。未砍栏。",
+    "mentionsThin": [
+      "LayerZero",
+      "Tape/电路",
+      "GIWA"
+    ],
+    "mentionsRest": [
+      "Enter_Elysium",
+      "kinetiq_xyz",
+      "AgentKinetiq",
+      "squeekchain",
+      "NutshellMarkets",
+      "starx_xlayer",
+      "PulseLaunchpad",
+      "flapdotsh",
+      "irys_xyz",
+      "fulldotfun",
+      "arcxtrade",
+      "arcpump_"
+    ],
+    "mentionsChains": {
+      "thin": [
+        "LayerZero",
+        "Tape/电路",
+        "GIWA"
+      ],
+      "rest": [
+        "Elysium",
+        "kinetiq",
+        "squeek",
+        "Nutshell",
+        "STARX",
+        "Pulse",
+        "flap",
+        "Irys",
+        "Full.fun",
+        "Arc"
+      ]
+    },
+    "silentAccounts": {
+      "ran": true,
+      "lane": "DogeEVM",
+      "search_users_unavailable": true,
+      "calls": 1,
+      "planned": 2,
+      "userQuerySkipped": "search_users tool not in X MCP (same as prior rounds)",
+      "mentionQuery": "has:mentions (DogeEVM OR DogeOS) (mint OR launch) -is:retweet",
+      "seen": 19,
+      "sentToReview": 0,
+      "admitted": 0,
+      "skipped": "third-party DogeOS mainnet chatter only; no new 0-post official handle to review"
+    },
+    "thinOfficial": {
+      "batches": 2,
+      "note": "薄 Watch 每轮全读，2 批 from: 查询（softCap 18 条件下主读 19，略超 pacing 以覆盖薄栏官号）。已与本轮 UF/fat/已读官号去重（Writ_Fi、Jumak_app、ShieldedNaka）。"
+    },
+    "le2h": {
+      "gatecerberus": {
+        "le2h": false,
+        "opensAt": "2026-11-13 20:00 CST",
+        "note": "约 4h 后，≤2h 自 18:00 CST"
+      },
+      "lil-giraffies": {
+        "le2h": false,
+        "mintAt": "2026-11-13 23:00 CST",
+        "note": "≤2h 自 21:00 CST"
+      },
+      "bagnotary": {
+        "le2h": false,
+        "opensAt": "2026-11-14 00:00 CST"
+      },
+      "dripevm": {
+        "le2h": false,
+        "status": "whitelist free LIVE",
+        "osMinted": 156
+      },
+      "the-syndicate-rh": {
+        "le2h": false,
+        "windowEndedAt": "2026-11-13 14:37 CST"
+      }
+    },
+    "liveProgress": {
+      "dripevm": {
+        "osMinted": 156,
+        "rpcTotalSupply": 156,
+        "owners": "stats 401 unchanged",
+        "floor": "stats 401 unchanged",
+        "note": "Elysium RPC this round reachable"
+      },
+      "the-syndicate-rh": {
+        "osMinted": "834→859",
+        "owners": "360→361",
+        "sales_total_stats": 798,
+        "floor": "0.25→0.15 USDG",
+        "rpc": "Robinhood public RPC still failing"
+      },
+      "jpeg-monkes": {
+        "osMinted": 1419,
+        "owners": "881→880",
+        "sales": "1682/1683→1684",
+        "floor": "~0.000989 ETH"
+      },
+      "hood-terminals": {
+        "osMinted": 527,
+        "owners": 350,
+        "sales": 647,
+        "floor": "0.00098 ETH"
+      },
+      "boatn-fish": {
+        "minted": "1203→1245/2222",
+        "wallets": "90→94",
+        "priceSol": "0.02657"
+      },
+      "clause-protocol": {
+        "totalMinted": 8,
+        "chain": "BSC totalSupply"
+      },
+      "arctic-bear": {
+        "totalMinted": 75,
+        "chain": "BSC totalSupply"
+      },
+      "momo-mochi": {
+        "totalMinted": 295,
+        "chain": "BSC totalSupply"
+      },
+      "riftera-rifters": {
+        "totalMinted": 447,
+        "note": "totalSupply() reverted; kept prior reading"
+      },
+      "firsttake-xyz": {
+        "totalMinted": 194,
+        "note": "totalSupply() reverted; kept prior reading"
+      },
+      "sharkverse": {
+        "totalMinted": 21,
+        "note": "totalSupply() reverted; kept prior reading"
+      },
+      "zodiac-fortune": {
+        "totalMinted": 335,
+        "remainingFree": 0,
+        "note": "totalSupply() reverted; kept prior reading"
+      }
+    },
+    "dsUsage": {
+      "model": "deepseek-flash",
+      "thinking": true,
+      "admit": {
+        "calls": 1,
+        "admitted": [
+          "agx-402"
+        ]
+      },
+      "score": {
+        "calls": 1,
+        "overall": 67
+      },
+      "alert": {
+        "calls": 1
+      },
+      "dsFallback": false
+    },
+    "discordPeek": "already done this round by Discord alpha at 16:09 CST; lastSeen alpha-3 16:01, alpha-1 16:05, smart-accounts-tracker 16:02; this scheduled run did not log in",
+    "note": "例行 X 扫描与 Discord R1757 撞号，未覆盖 6f6c0ad；随后将游标、LIVE 进度、AGX 新卡与 Watch 漏挂修补合并进同一 round。hookdroid 不重复通知。"
+  },
+  "fatNextStarts": {
+    "agentPad": 492,
+    "freeMint": 213,
+    "bnAgent": 234,
+    "elysium": 50
+  },
+  "xReads": 20,
+  "remainingBefore": 588,
+  "remaining": 568,
+  "modeX": "pace",
+  "softCap": 18,
+  "minSpend": 18,
+  "lastFullAfterReset": "R1739"
 }
