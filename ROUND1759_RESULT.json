@@ -1,0 +1,236 @@
+{
+  "round": 1759,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-13 16:46 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R1759 Discord alpha 补漏新收 1 项：\n1）vibe.cool @vibecool2026｜台子/Meme｜官网 vibe.cool 已可用，含 K 线周期切换、Chart overlays（My trades / Takes / Following only / Minimum amount）与 Trader/Position/PnL/Average entry 持仓字段；官方 X 帖配图显示进度 95%，时间轴 PREP/BUILD/TEST/SERVE 指向 NEXT WEEK；蓝 V 认证，账号 2026-10-15 建，关注 @robinhoodcrypto；目前 1 帖、6 粉，未见官方 CA/代币公告，代币经济学未知。面板完整链接 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "vibecool2026"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "vibecool2026"
+  ],
+  "skipped": [],
+  "alreadyInDb": [],
+  "cardsAfterLastSeen": 28,
+  "cardsAfterCutoff": 28,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "candidateFlagsCleared": 0,
+  "topNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "admit": {
+      "model": "deepseek-flash",
+      "thinking": true,
+      "calls": 1,
+      "prompt_tokens": 1461,
+      "completion_tokens": 1257,
+      "batches": [
+        {
+          "i": 0,
+          "n": 2,
+          "sec": 8.6,
+          "usage": {
+            "prompt_tokens": 1461,
+            "completion_tokens": 1257,
+            "total_tokens": 2718,
+            "prompt_tokens_details": {
+              "cached_tokens": 512
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 442
+            },
+            "prompt_cache_hit_tokens": 512,
+            "prompt_cache_miss_tokens": 949
+          },
+          "chars": 1805
+        }
+      ],
+      "admits": 1,
+      "decisions": 2
+    },
+    "alert": {
+      "usage": {
+        "prompt_tokens": 554,
+        "completion_tokens": 171,
+        "total_tokens": 725,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 554
+      },
+      "reasoning_len": 0
+    },
+    "dsFallback": false
+  },
+  "coverage": "discord-alpha #alpha-3-new-accounts + #alpha-1-backup + #smart-accounts-tracker + #alpha-1 glance",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-13 16:37",
+    "lastChecked": "2026-11-13 16:46 CST",
+    "newestCardTime": "2026-11-13 16:37",
+    "cardsAfterCutoff": 28,
+    "note": "R1759：Discord alpha 补收 vibecool2026；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 16:37', 'alpha-1-backup': '2026-11-13 14:49', 'smart-accounts-tracker': '2026-11-13 16:14', 'alpha-1': '2026-11-13 16:05'}；开跑前远程已是 R1758，本轮 DC=R1759，未覆盖既有轮次",
+    "lastRound": 1759,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-13 16:37",
+      "alpha-1-backup": "2026-11-13 14:49",
+      "smart-accounts-tracker": "2026-11-13 16:14",
+      "alpha-1": "2026-11-13 16:05"
+    },
+    "spideyPosting": true,
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-12 00:02",
+      "to": "2026-11-13 05:11",
+      "nFilled": 0,
+      "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1757 lastSeen"
+    }
+  },
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-13 16:37",
+    "alpha-1-backup": "2026-11-13 14:49",
+    "smart-accounts-tracker": "2026-11-13 16:14",
+    "alpha-1": "2026-11-13 16:05"
+  },
+  "alpha3OlderGap": {
+    "attempted": false,
+    "filled": false,
+    "from": "2026-11-12 00:02",
+    "to": "2026-11-13 05:11",
+    "nFilled": 0,
+    "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1757 lastSeen"
+  },
+  "spideyPosting": true,
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1759：Discord alpha 补收 vibecool2026；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 16:37', 'alpha-1-backup': '2026-11-13 14:49', 'smart-accounts-tracker': '2026-11-13 16:14', 'alpha-1': '2026-11-13 16:05'}；开跑前远程已是 R1758，本轮 DC=R1759，未覆盖既有轮次",
+  "remoteVerified": false,
+  "docsSynced": false,
+  "dataUpdated": true,
+  "cardsFile": "dc40_cards_r1758.json",
+  "priorRoundNote": "Remote was R1758 at apply time; this DC is R1759. Did not overwrite R1758.",
+  "alert": "R1759 Discord alpha 补漏新收 1 项：\n1）vibe.cool @vibecool2026｜台子/Meme｜官网 vibe.cool 已可用，含 K 线周期切换、Chart overlays（My trades / Takes / Following only / Minimum amount）与 Trader/Position/PnL/Average entry 持仓字段；官方 X 帖配图显示进度 95%，时间轴 PREP/BUILD/TEST/SERVE 指向 NEXT WEEK；蓝 V 认证，账号 2026-10-15 建，关注 @robinhoodcrypto；目前 1 帖、6 粉，未见官方 CA/代币公告，代币经济学未知。面板完整链接 https://reboot7454.github.io/early-scout/",
+  "dsRejects": [
+    {
+      "handle": "@Tetrad_Agent",
+      "reason": "无可用官网（相关域名均为出售/占位页），仅 1 帖配图自述 AI 代理，无产品、无 CA、无上线日程，空壳嫌疑大"
+    }
+  ],
+  "preReject": [
+    {
+      "handle": "@StanfordAILab",
+      "followers": 279858,
+      "reason": "高粉(279858)成熟机构/KOL"
+    },
+    {
+      "handle": "@aniketapanjwani",
+      "followers": 6930,
+      "reason": "高粉(6930)个人/KOL"
+    },
+    {
+      "handle": "@RealRobbs",
+      "reason": "个人号，bio 无产品/发射线索"
+    },
+    {
+      "handle": "@xiehuangbao001",
+      "reason": "个人号，无产品线索"
+    },
+    {
+      "handle": "@BarutSRB",
+      "reason": "个人开发者（macOS 窗口管理/终端工具 @OmniWM），非链上极早期项目"
+    },
+    {
+      "handle": "@re_n_and",
+      "reason": "空 bio 个人号"
+    },
+    {
+      "handle": "@dcrealworld0",
+      "reason": "X 核验：2026-11-13 16:22 CST 建号，0 帖、无官网，bio 仅口号 Move. Build. Evolve.，无产品/发射线索"
+    },
+    {
+      "handle": "@ZzrinC64068",
+      "reason": "个人号，无产品线索"
+    },
+    {
+      "handle": "@NergizCokun3",
+      "reason": "个人号，无产品线索"
+    },
+    {
+      "handle": "@Kavyalakshstxp",
+      "reason": "个人号，无产品线索"
+    },
+    {
+      "handle": "@OneSignalDesk",
+      "reason": "AI/科技新闻账号，非项目"
+    },
+    {
+      "handle": "@kaytrandt",
+      "reason": "个人号（Build something at @tradee_app）；提及的 @tradee_app 官网 usetradee.com 已上 TestFlight、自称 149+ 国家/75+ 股票，非极早期补漏对象"
+    },
+    {
+      "handle": "@cryptoliberoGR",
+      "reason": "Web3 教育/企业代币化/新闻，非极早期发射或产品盘"
+    },
+    {
+      "handle": "@Irfannurfajar8",
+      "reason": "个人号，无产品线索"
+    },
+    {
+      "handle": "@jensenplumbers",
+      "reason": "本地水管维修商户，无关"
+    },
+    {
+      "handle": "@Liaa1z9c4",
+      "reason": "个人号（AI Strategist），无独立项目"
+    },
+    {
+      "handle": "@Abood2s5",
+      "reason": "个人号，无产品线索"
+    },
+    {
+      "handle": "@xolgOpFyQK4Izmd",
+      "reason": "随机句柄空壳，bio 仅 memecoin"
+    },
+    {
+      "handle": "@tanwinterdong",
+      "reason": "个人号，无产品线索"
+    },
+    {
+      "handle": "@secrypta",
+      "reason": "个人安全研究员，非项目号"
+    },
+    {
+      "handle": "@btc_professor11",
+      "reason": "个人投资者/喊单风格简介，无独立项目"
+    },
+    {
+      "handle": "@PG8608",
+      "reason": "个人号，无产品线索"
+    },
+    {
+      "handle": "@yoomanns",
+      "reason": "个人号，无产品线索"
+    },
+    {
+      "handle": "@bhreemaaa2521",
+      "reason": "个人号，无产品线索"
+    }
+  ],
+  "dsUsageSummary": "deepseek-flash thinking; admit+alert calls=2 prompt=2015 completion=1428; admits=1 (vibecool2026); ds_reject=1 (Tetrad_Agent); pre_reject=24"
+}
