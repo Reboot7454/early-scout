@@ -1,11 +1,11 @@
 {
   "round": 1772,
-  "mode": "discord-alpha-40",
-  "completedAt": "2026-11-13 22:46 CST",
+  "mode": "pace merge into Discord-occupied R1772 (redirected from planned R1771 merge)",
+  "completedAt": "2026-11-13 22:53:37 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
-  "notifyReason": "new_admits",
-  "alertMessage": "R1772 Discord alpha 补充收录 5 条：\n1. **Crownmark**（@trycrownmark）｜栏位：台子/Meme｜链：Robinhood Chain——官网 trycrownmark.xyz 可打开，定位只读投资组合层；2026-11-13 22:34 CST 官宣 $CROWN live on Robinhood Chain，官方 CA 0x0a14715ebb1f56e8b57e5aeaed11ec012804ea60，Pons V2 CROWN/WETH 池 0xbf511948cf3ab5e0feafdc8447882204028c5abc 于 22:29 CST 创建、graduation 9.55% 未毕业；22:35 CST 另有销毁帖。\n2. **Homma Agent**（@homma_agent）｜栏位：台子/Meme｜链：Robinhood Chain——官网 homma.tech 可打开；今日官帖称 5 个 AI agent 做纸上交易；同日 22:33 CST 明确 Not launched yet，无 CA、无开盘时刻。\n3. **nofomo**（@nofomopaper）｜栏位：台子/Meme｜链：Solana——官网 nofomo-paper.trade 产品已上线，Solana meme 纸上交易，虚拟资金、无钱包无入金；无代币 CA，不是 mint。\n4. **AgentRaise**（@agent_raise）｜栏位：打新｜链：BNB Chain——Flap 上的 agent-only 发射台，首个自主发射 $AR 已 live，官方 CA 0x3bdcba24571c6aef4fbc4921685bf1e6740d7777，PancakeSwap v2 AR/WBNB 池 0x40e39adb2974d7feee26561c264c2411357053c5 于 22:07 CST 创建；21:54 CST 募资进度 2058/5000，随后官宣 token live。\n5. **PERPSIUM**（@perpsiumXYZ）｜栏位：台子/Meme｜链：未核验——官网 perpsium.xyz 可打开，含 Perps Deck 纸上交易等模块；bio 地址本轮未核验为代币 CA，Elysium 生态页无法核验，不写成已入驻。\n完整面板：https://reboot7454.github.io/early-scout/",
+  "notifyReason": "例行 pace 原拟合并进 Discord 占用的 R1771，但扫描期间远程已于 22:47 CST 占用 R1772 并补收 5 张卡；为避免回写覆盖，本扫描合并进 R1772。polyrob 已开铸（重大变更）必须 notify；Ashling 出现与 14:00 UTC 官宣时刻吻合的 Pons V2 池及 CA（重大变更）必须 notify；新收录 clankbots 免费白名单登记 LIVE（即使 score<70 也须推）；新收录 diglode（watching，非免费）。R1772 Discord 5 卡（crownmark / homma-agent / nofomo-paper / agent-raise / perpsium）已于 22:46 CST 推过，不重推；R1771 Discord 5 卡已于 22:14 CST 推过，不重推；bagnotary ≤2h、giraffies/boolish 仍 23:00、hooded-ape 进度及其他已推 LIVE 不重推。",
+  "alertMessage": "早期打新雷达 R1772 合并例行扫描：polyrob（@tmachinroBot）已开铸——官帖 22:08 CST 宣布 The mint has started，白名单已关、需 WL；铸造页 https://6551.polyrob.dev/ ，规则写 mint 于 13:52 UTC 开启（略早于原定 22:00 CST），总量 6,551，WL 价 0.033 ETH/份、24h 后递减价公售；OpenSea 已铸 21、owners 7。非免费。Ashling（@Ashlingfun）Pons 已出现与 14:00 UTC 官宣时刻吻合的 V2 ASHLING/WETH 池，代币 CA 0xc8e43164ecd6509d611d1d55b4e336d5a5e81214（来自该池，非本轮官帖原文；THIN1 25 条上限最早到 14:07:43 UTC，未再补拉官号）。同名更早池勿当官 CA。付费发币，官网仍 SSL EOF。新收录 ClankBots（@ClankBots，https://clankbots.ink/）：Ink 免费白名单登记 LIVE，本窗官帖 Whitelist drop 3/10、100 GTD；总量 5,050、免费档 1,550、每钱包 2，开铸时刻未写死。另收 Diglode（@diglodeHQ，https://diglode.com/）Elysium PvP 挖矿 $LODE，CA 0x8015bE0B08125467DfDd7CE1d2103C83803D13aa；非免费，bytecode 异常短，仅观察。R1772 Discord 5 卡已于 22:46 CST 推过，不重推。lil-giraffies / boolish-rh 仍今日 23:00 CST；bagnotary 仍 11-14 00:00 CST；hooded-ape 公铸仍 LIVE（OpenSea 1206→1276/1500）。面板 https://reboot7454.github.io/early-scout/ 。本号不自动 mint。",
   "newAdmits": [
     "crownmark",
     "homma-agent",
@@ -125,9 +125,9 @@
     "ordo-labs",
     "midnight-arcade-club"
   ],
-  "discordPeekDeferred": false,
+  "discordPeekDeferred": true,
   "dsFallback": false,
-  "dsUsage": "deepseek-flash admits=5 (of 7 DS-admit, 7 keepers) calls=2 prompt=8642 completion=7129",
+  "dsUsage": "deepseek-flash thinking-on admits=2 (clankbots, diglode) skip=2 (StackLaunchpad, MintFable) calls=1; not dsFallback",
   "coverage": "discord-alpha #alpha-3-new-accounts + #alpha-1-backup + #smart-accounts-tracker + #alpha-1 glance",
   "discordAlphaPeek": {
     "deferred": false,
@@ -158,8 +158,203 @@
     "ok": false
   },
   "panel": "https://reboot7454.github.io/early-scout/",
-  "summary": "R1772：Discord alpha 补收 crownmark, homma-agent, nofomo-paper, agent-raise, perpsium；清上一轮 newThisRound tradefolk, axisindexnet, agent-octan, ordo-labs, midnight-arcade-club；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 22:34', 'alpha-1-backup': '2026-11-13 22:05', 'smart-accounts-tracker': '2026-11-13 22:17', 'alpha-1': '2026-11-13 22:14'}；开跑前远程已是 R1771，本轮 DC=R1772，未覆盖既有轮次",
+  "summary": "2026-11-13 ~22:53 CST：早期打新雷达例行 pace 原拟合并进 R1771，扫描期间 Discord 已于 22:47 CST 占用 R1772 并补收 crownmark / homma-agent / nofomo-paper / agent-raise / perpsium（已通知，不重推），故改合并进 R1772。须推：polyrob 已开铸（需 WL，非免费）；Ashling Pons 池已出现，CA 0xc8e43164ecd6509d611d1d55b4e336d5a5e81214（来自 14:00 UTC 时刻吻合的池，非本轮官帖原文）；新收录 clankbots 免费白名单登记 LIVE、diglode watching（非免费，短 bytecode）。Watch 漏挂：R1771 五张与 R1772 五张 Discord 卡已补进 userFollowWatch（midnight-arcade-club 兼 freeMint，agent-raise 兼 agentPad；未乱塞 bnAgent / 未核验的 elysium）。@ClankBots 进 UF+freeMint，@diglodeHQ 进 UF+elysium。xReads 25，remaining 267→242，tenLanes true。notify=true。未自动 mint。",
   "remoteVerified": false,
   "cardsFile": "/tmp/dc40_cards_r1772.json",
-  "priorRoundNote": "Remote was R1771 at apply time; this DC is R1772. Did not overwrite R1771."
+  "priorRoundNote": "Remote was R1771 at apply time; this DC is R1772. Did not overwrite R1771.",
+  "newAdmitsPace": [
+    "clankbots",
+    "diglode"
+  ],
+  "newThisRound": [
+    "crownmark",
+    "homma-agent",
+    "nofomo-paper",
+    "agent-raise",
+    "perpsium",
+    "clankbots",
+    "diglode"
+  ],
+  "windowChanges": {
+    "polyrob": "LIVE mint started 22:08 CST official post; mint site https://6551.polyrob.dev/; OS 21 minted / 7 owners; still requires WL, not free",
+    "ashling": "Pons V2 ASHLING/WETH pool created 14:00:04 UTC, token CA 0xc8e43164ecd6509d611d1d55b4e336d5a5e81214 from that pool (not official tweet this round). Same-ticker earlier pools exist.",
+    "lil-giraffies": "still 2026-11-13 23:00 CST, no change, do not re-notify",
+    "boolish-rh": "still 2026-11-13 23:00 CST, no change, do not re-notify",
+    "bagnotary": "still 2026-11-14 00:00 CST, no change, do not re-notify",
+    "hooded-ape-club": "still LIVE, OpenSea 1206→1276/1500, progress only, do not re-notify"
+  },
+  "xReads": 25,
+  "xReadsMain": 24,
+  "xReadsSilent": 1,
+  "remainingBefore": 267,
+  "remainingAfter": 242,
+  "softCap": 18,
+  "minSpend": 18,
+  "silentCap": 2,
+  "tenLanes": true,
+  "laneReads": {
+    "KW_LayerZero": 1,
+    "KW_Tape": 1,
+    "KW_GIWA": 1,
+    "KW_DogeEVM": 1,
+    "KW_BTC": 1,
+    "KW_Starknet": 1,
+    "KW_打新": 1,
+    "KW_挖矿": 1,
+    "KW_台子": 1,
+    "KW_GO": 1,
+    "KW_Elysium": 1,
+    "KW_GAPS": 1
+  },
+  "ufShard": {
+    "start": 1134,
+    "end": 1182,
+    "kept": 47,
+    "skip": 1,
+    "batches": 2,
+    "accountsAfter": 1660
+  },
+  "fatNextStarts": {
+    "agentPad": 98,
+    "freeMint": 186,
+    "bnAgent": 15,
+    "elysium": 112
+  },
+  "mentionsCoverage": {
+    "thin": [
+      "DogeEVM",
+      "BTC",
+      "Starknet"
+    ],
+    "rest": [
+      "Enter_Elysium",
+      "kinetiq_xyz",
+      "AgentKinetiq",
+      "squeekchain",
+      "NutshellMarkets",
+      "starx_xlayer",
+      "PulseLaunchpad",
+      "flapdotsh",
+      "irys_xyz",
+      "fulldotfun",
+      "arcxtrade",
+      "dotaipad"
+    ]
+  },
+  "silentAccounts": {
+    "ran": true,
+    "lane": "打新",
+    "search_users": "unavailable",
+    "fallback": "mentions",
+    "posts": 20,
+    "sentToReview": 0,
+    "admitted": 0,
+    "note": "ClankBots admitted via main official-site path, not silent filter"
+  },
+  "watchFixes": [
+    {
+      "id": "midnight-arcade-club",
+      "handle": "@MidnightArcadeC",
+      "into": [
+        "userFollowWatch",
+        "freeMintWatch"
+      ],
+      "reason": "watch-bug R1771 discord-new + NFT upcoming/allowlist"
+    },
+    {
+      "id": "ordo-labs",
+      "handle": "@ordo_labs",
+      "into": [
+        "userFollowWatch"
+      ],
+      "reason": "watch-bug R1771 discord-new; RH/Pons token, not bnAgent"
+    },
+    {
+      "id": "agent-octan",
+      "handle": "@agent_octan",
+      "into": [
+        "userFollowWatch"
+      ],
+      "reason": "watch-bug R1771 discord-new; RH trading agent, not bnAgent"
+    },
+    {
+      "id": "axisindexnet",
+      "handle": "@axisindexnet",
+      "into": [
+        "userFollowWatch"
+      ],
+      "reason": "watch-bug R1771 discord-new; RH/Pons token, not bnAgent"
+    },
+    {
+      "id": "tradefolk",
+      "handle": "@TradefolkApp",
+      "into": [
+        "userFollowWatch"
+      ],
+      "reason": "watch-bug R1771 discord-new; RH/Pons token, not bnAgent"
+    },
+    {
+      "id": "crownmark",
+      "handle": "@trycrownmark",
+      "into": [
+        "userFollowWatch"
+      ],
+      "reason": "watch-bug R1772 discord-new; RH/Pons token, not bnAgent"
+    },
+    {
+      "id": "homma-agent",
+      "handle": "@homma_agent",
+      "into": [
+        "userFollowWatch"
+      ],
+      "reason": "watch-bug R1772 discord-new; RH trading agent, not bnAgent"
+    },
+    {
+      "id": "nofomo-paper",
+      "handle": "@nofomopaper",
+      "into": [
+        "userFollowWatch"
+      ],
+      "reason": "watch-bug R1772 discord-new; Solana tool, not bnAgent"
+    },
+    {
+      "id": "agent-raise",
+      "handle": "@agent_raise",
+      "into": [
+        "userFollowWatch",
+        "agentPadWatch"
+      ],
+      "reason": "watch-bug R1772 discord-new; BNB Flap agent launchpad, not bnAgent ID mint"
+    },
+    {
+      "id": "perpsium",
+      "handle": "@perpsiumxyz",
+      "into": [
+        "userFollowWatch"
+      ],
+      "reason": "watch-bug R1772 discord-new; Elysium claim unverified, not elysiumWatch"
+    },
+    {
+      "id": "clankbots",
+      "handle": "@ClankBots",
+      "into": [
+        "userFollowWatch",
+        "freeMintWatch"
+      ],
+      "reason": "new-admit free-mint WL"
+    },
+    {
+      "id": "diglode",
+      "handle": "@diglodeHQ",
+      "into": [
+        "userFollowWatch",
+        "elysiumWatch"
+      ],
+      "reason": "new-admit Elysium mining"
+    }
+  ],
+  "docsSynced": true,
+  "dataUpdated": true,
+  "autoMint": false,
+  "paceRedirectedFrom": 1771
 }
