@@ -158,15 +158,21 @@
     }
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "commit": "db34874ebb2d35fdcbd917687dc6076c776d6840",
+    "remote": "origin/main"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1777：Discord alpha 补收 veltrixcodes, krypnous, melaps-system；已清上一轮 newThisRound ['sharpline', 'ophiris', 'bloomvale', 'covar-agent', 'loterry']；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-14 00:36', 'alpha-1-backup': '2026-11-14 00:19', 'smart-accounts-tracker': '2026-11-14 00:09', 'alpha-1': '2026-11-14 00:29'}；开跑前远程已是 R1776，本轮 DC=R1777，未覆盖既有轮次",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r1777.json",
   "priorRoundNote": "R1776 meta NTR ['sharpline', 'ophiris', 'bloomvale', 'covar-agent', 'loterry']; cardsAfterCutoff=22; pace had merged into R1776 at 00:34:23 CST",
   "categoryOverride": null,
-  "remoteRound": null,
-  "remoteNewThisRound": null
+  "remoteRound": 1777,
+  "remoteNewThisRound": [
+    "veltrixcodes",
+    "krypnous",
+    "melaps-system"
+  ]
 }
