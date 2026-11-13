@@ -214,5 +214,63 @@
       "followers": 3,
       "reason": "建号当日 0 帖、无官网、无 CA，bio 仅口号 We are the colony. One mind, many legs.，虽关注 Pons/Robinhood 但无可核验产品或发射线索"
     }
-  ]
+  ],
+  "mergedAt": "2026-11-13 17:38 CST",
+  "mergeNote": "例行 pace 扫描在 Discord 已占 R1761 并推送 4 张新卡之后合并进同一轮：补 LIVE 进度与游标、修复 4 张 Watch 漏挂、并对 agx-402 官方池开盘作第二次 notify。四张 Discord 新卡不重推。",
+  "watchBugsFixed": [
+    "ashling",
+    "heir-finance",
+    "noct-trading",
+    "outliers"
+  ],
+  "watchBugFix": "四张 Discord 新卡在库但不在任何 Watch，已补进 userFollowWatch；不重推。",
+  "paceScan": {
+    "time": "2026-11-13 17:38 CST",
+    "mode": "pace",
+    "lastFullAfterReset": "R1739",
+    "notify": true,
+    "notifyReason": "agx-402 official pool opened 17:25:44 CST, POST_MIGRATION, migration units 9800/9800 sold out; genesisClaims scheduled 20:25 CST. Not a free mint. This account does not auto-mint. Discord's 4 new cards already notified at 17:29, not re-notified.",
+    "alertMessage": "🔔 R1761：agx-402 官方池已于 17:25 CST 开启（POST_MIGRATION，migration units 9800/9800 售罄）；genesisClaims 预约今日 20:25 CST。仍需 .ai Agent ID + Binance Agentic Wallet，非免费铸造，本号不自动 mint。面板：https://reboot7454.github.io/early-scout/",
+    "newAdmitsFromPace": [],
+    "xReads": 25,
+    "xReadsMain": 24,
+    "xReadsSilent": 1,
+    "admitVerify": 0,
+    "remainingBefore": 518,
+    "remaining": 493,
+    "softCap": 18,
+    "minSpend": 18,
+    "silentCap": 2,
+    "ufCursorBefore": 644,
+    "ufCursor": 702,
+    "fatNextStarts": {
+      "agentPad": 590,
+      "freeMint": 304,
+      "bnAgent": 29,
+      "elysium": 142
+    },
+    "tenLanes": true,
+    "mentionsThin": [
+      "DogeEVM",
+      "BTC",
+      "Starknet"
+    ],
+    "silentAccounts": {
+      "ran": true,
+      "lane": "挖矿",
+      "search_users_unavailable": true,
+      "seenApprox": 0,
+      "sentToReview": 0,
+      "admitted": 0,
+      "skipped": 0
+    },
+    "discordPeekDeferred": true,
+    "ds": {
+      "notify": true,
+      "admitGoldenMiner": false,
+      "admitOrng": false
+    }
+  },
+  "secondNotify": true,
+  "secondNotifyReason": "agx-402 official pool opened"
 }
