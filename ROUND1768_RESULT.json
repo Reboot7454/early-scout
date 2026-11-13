@@ -5,7 +5,7 @@
   "timezone": "Asia/Shanghai",
   "notify": true,
   "notifyReason": "new_admits",
-  "alertMessage": "R1768 Discord alpha 补充收录 3 条：\n1. **Brediq**（@brediqxyz）｜栏位：台子/Meme｜链：Robinhood Chain——官网 brediq.xyz 可打开；官帖宣布 live on Robinhood Chain 并公布官方 CA 0xd6b3cc76ff285a7c132f08c1faf306d52f6d250b，Robinhood RPC chainId 4663 有码，symbol BREDIQ；Pons V2 BREDIQ/WETH 池创建于 2026-11-13 20:33 CST，HoodLock 锁仓证明与官方 CA 一致。\n2. **Agvio**（@agvioxyz）｜栏位：台子/Meme｜链：Robinhood Chain——官网 agvio.xyz 可打开；官帖宣布 AGVIO is now live on Pons 并公布官方 CA 0x9418a51852fbd2cc62ed2229ad8793920b522b07，Robinhood RPC chainId 4663 有码；Pons V2 AGVIO/WETH 池创建于 2026-11-13 20:51 CST。\n3. **Offscreen**（@OffscreenZK）｜栏位：台子/Meme｜链：Elysium——官网 www.offscreenzk.xyz 可打开；官帖写 $OFFF launch，CA 0x22D119F6F98e0b38c494cE1B46Eb2D06bEA0392F；该 CA 在 Robinhood 无代码，在 Elysium 上 symbol 为 OFFS，Uniswap V4 OFFS/WHYPE 池创建于 2026-11-13 20:36 CST；因生态页本轮 429，故不进 Elysium 栏；官网赛季已于 2026-10-22 结束。\n完整面板：https://reboot7454.github.io/early-scout/",
+  "alertMessage": "早期打新雷达 R1768：\n1) lil-giraffies（@giraffies_nft）首次进入≤2h，开铸仍为今日 23:00 CST。官帖称白名单超发，社区投票：①仍按计划今日铸、白名单略超发；②今日铸、延后 reveal、把供应扩到 7777。开铸时刻未改。\n2) boolish-rh（@boolish_rh）首次进入≤2h，Possession night 仍为今日 23:00 CST，本窗无新官帖。\n3) hooded-ape-club（@HoodedApeClubRH）公开铸造确认提前并已 LIVE：0.00005 ETH，无白名单，供应 1500，免费档已满；20:55 CST 官帖称还剩约 400。OpenSea 1100→1123。\n4) 本轮新收录：Vorda（@VordaLaunch，GIWA 测试网发射台，vorda.io）、CLMM Feepad（@clmmfeepad，Solana/Raydium 发币台，feepad.app），均为 watching，非免费铸造。\n另：Ashling / polyrob 仍今日 22:00 CST 未改期（polyrob 白名单已关，需 WL，非免费公铸）。\n面板：https://reboot7454.github.io/early-scout/",
   "newAdmits": [
     "brediq",
     "agvio",
@@ -15,7 +15,9 @@
   "newIds": [
     "brediq",
     "agvio",
-    "offscreen"
+    "offscreen",
+    "vorda",
+    "clmm-feepad"
   ],
   "skipped": [],
   "alreadyInDb": [
@@ -195,5 +197,44 @@
   "dataUpdated": true,
   "cardsFile": "dc40_cards_r1768.json",
   "priorRoundNote": "Remote was R1767 at apply time; this DC is R1768. Did not overwrite R1767.",
-  "alert": "R1768 Discord alpha 补充收录 3 条：\n1. **Brediq**（@brediqxyz）｜栏位：台子/Meme｜链：Robinhood Chain——官网 brediq.xyz 可打开；官帖宣布 live on Robinhood Chain 并公布官方 CA 0xd6b3cc76ff285a7c132f08c1faf306d52f6d250b，Robinhood RPC chainId 4663 有码，symbol BREDIQ；Pons V2 BREDIQ/WETH 池创建于 2026-11-13 20:33 CST，HoodLock 锁仓证明与官方 CA 一致。\n2. **Agvio**（@agvioxyz）｜栏位：台子/Meme｜链：Robinhood Chain——官网 agvio.xyz 可打开；官帖宣布 AGVIO is now live on Pons 并公布官方 CA 0x9418a51852fbd2cc62ed2229ad8793920b522b07，Robinhood RPC chainId 4663 有码；Pons V2 AGVIO/WETH 池创建于 2026-11-13 20:51 CST。\n3. **Offscreen**（@OffscreenZK）｜栏位：台子/Meme｜链：Elysium——官网 www.offscreenzk.xyz 可打开；官帖写 $OFFF launch，CA 0x22D119F6F98e0b38c494cE1B46Eb2D06bEA0392F；该 CA 在 Robinhood 无代码，在 Elysium 上 symbol 为 OFFS，Uniswap V4 OFFS/WHYPE 池创建于 2026-11-13 20:36 CST；因生态页本轮 429，故不进 Elysium 栏；官网赛季已于 2026-10-22 结束。\n完整面板：https://reboot7454.github.io/early-scout/"
+  "alert": "R1768 Discord alpha 补充收录 3 条：\n1. **Brediq**（@brediqxyz）｜栏位：台子/Meme｜链：Robinhood Chain——官网 brediq.xyz 可打开；官帖宣布 live on Robinhood Chain 并公布官方 CA 0xd6b3cc76ff285a7c132f08c1faf306d52f6d250b，Robinhood RPC chainId 4663 有码，symbol BREDIQ；Pons V2 BREDIQ/WETH 池创建于 2026-11-13 20:33 CST，HoodLock 锁仓证明与官方 CA 一致。\n2. **Agvio**（@agvioxyz）｜栏位：台子/Meme｜链：Robinhood Chain——官网 agvio.xyz 可打开；官帖宣布 AGVIO is now live on Pons 并公布官方 CA 0x9418a51852fbd2cc62ed2229ad8793920b522b07，Robinhood RPC chainId 4663 有码；Pons V2 AGVIO/WETH 池创建于 2026-11-13 20:51 CST。\n3. **Offscreen**（@OffscreenZK）｜栏位：台子/Meme｜链：Elysium——官网 www.offscreenzk.xyz 可打开；官帖写 $OFFF launch，CA 0x22D119F6F98e0b38c494cE1B46Eb2D06bEA0392F；该 CA 在 Robinhood 无代码，在 Elysium 上 symbol 为 OFFS，Uniswap V4 OFFS/WHYPE 池创建于 2026-11-13 20:36 CST；因生态页本轮 429，故不进 Elysium 栏；官网赛季已于 2026-10-22 结束。\n完整面板：https://reboot7454.github.io/early-scout/",
+  "paceMerge": {
+    "merged": true,
+    "completedAt": "2026-11-13 21:17 CST",
+    "timezone": "Asia/Shanghai",
+    "mode": "pace",
+    "notify": true,
+    "newPaceAdmits": [
+      "vorda",
+      "clmm-feepad"
+    ],
+    "discordAdmitsKept": [
+      "brediq",
+      "agvio",
+      "offscreen"
+    ],
+    "xReads": 25,
+    "xReadsMain": 24,
+    "xReadsSilent": 1,
+    "remainingBefore": 342,
+    "remaining": 317,
+    "tenLanes": true,
+    "userFollow": "990→1038",
+    "mentions": [
+      "LayerZero",
+      "Tape",
+      "GIWA",
+      "MENT_REST"
+    ],
+    "silentLane": "DogeEVM",
+    "watchBugsFixed": [
+      "brediq",
+      "agvio",
+      "offscreen"
+    ],
+    "dsFallback": false,
+    "autoMint": false
+  },
+  "discordAlertMessage": "R1768 Discord alpha 补充收录 3 条：\n1. **Brediq**（@brediqxyz）｜栏位：台子/Meme｜链：Robinhood Chain——官网 brediq.xyz 可打开；官帖宣布 live on Robinhood Chain 并公布官方 CA 0xd6b3cc76ff285a7c132f08c1faf306d52f6d250b，Robinhood RPC chainId 4663 有码，symbol BREDIQ；Pons V2 BREDIQ/WETH 池创建于 2026-11-13 20:33 CST，HoodLock 锁仓证明与官方 CA 一致。\n2. **Agvio**（@agvioxyz）｜栏位：台子/Meme｜链：Robinhood Chain——官网 agvio.xyz 可打开；官帖宣布 AGVIO is now live on Pons 并公布官方 CA 0x9418a51852fbd2cc62ed2229ad8793920b522b07，Robinhood RPC chainId 4663 有码；Pons V2 AGVIO/WETH 池创建于 2026-11-13 20:51 CST。\n3. **Offscreen**（@OffscreenZK）｜栏位：台子/Meme｜链：Elysium——官网 www.offscreenzk.xyz 可打开；官帖写 $OFFF launch，CA 0x22D119F6F98e0b38c494cE1B46Eb2D06bEA0392F；该 CA 在 Robinhood 无代码，在 Elysium 上 symbol 为 OFFS，Uniswap V4 OFFS/WHYPE 池创建于 2026-11-13 20:36 CST；因生态页本轮 429，故不进 Elysium 栏；官网赛季已于 2026-10-22 结束。\n完整面板：https://reboot7454.github.io/early-scout/",
+  "mergedCompletedAt": "2026-11-13 21:17 CST"
 }
