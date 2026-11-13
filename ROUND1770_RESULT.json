@@ -1,0 +1,133 @@
+{
+  "round": 1770,
+  "mode": "pace",
+  "completedAt": "2026-11-13 22:08:37 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "R1770 独立例行 pace 扫描：bagnotary 首次进入 ≤2h（开盘仍 2026-11-14 00:00 CST），必须 notify；另新收录 stoadex（@StoaDex，Elysium PropAMM/DEX，$STOA 已官宣 live，非免费铸造，仅观察）。Ashling/polyrob 已于 R1766 因首次 ≤2h 通知，本窗未改期（X 窗止于约 21:58 CST，未含 Ashling CA 帖，禁止额外补拉）。lil-giraffies/boolish-rh 已于 R1768 通知，仍今日 23:00 CST。hooded-ape-club / ponke-agent / HonestBull / boxcars / agx-402 / GateCerberus / Freememe / myco 已通知，不因进度重推。",
+  "alertMessage": "早期打新雷达 R1770：bagnotary（@bagnotary）首次进入 ≤2h——$BAGNOT 仍定 2026-11-14 00:00 CST 于 Pons 发射（Robinhood Chain，匿名持币证明工具）。官网 bagnotary.pro 本轮仍 SSL EOF，本窗无官帖。另新收录 Stoa（@StoaDex）：Elysium PropAMM/DEX，官帖宣布 $STOA 已上线，官网 https://stoadex.com/ ；非免费铸造。CA 0x1af1f07f778606a8acfbc9526a3ff144bdf2b1af 链上 bytecode 异常短，仅观察。Ashling、polyrob 仍今日 22:00 CST（polyrob 需 WL；本轮 X 窗止于约 21:58 CST，未含 Ashling CA 帖，官网均 SSL EOF）；lil-giraffies、boolish-rh 仍今日 23:00 CST；hooded-ape-club 公铸仍 LIVE（OpenSea 1182→1206/1500）。面板 https://reboot7454.github.io/early-scout/ 。本号不自动 mint。",
+  "alert": "早期打新雷达 R1770：bagnotary（@bagnotary）首次进入 ≤2h——$BAGNOT 仍定 2026-11-14 00:00 CST 于 Pons 发射（Robinhood Chain，匿名持币证明工具）。官网 bagnotary.pro 本轮仍 SSL EOF，本窗无官帖。另新收录 Stoa（@StoaDex）：Elysium PropAMM/DEX，官帖宣布 $STOA 已上线，官网 https://stoadex.com/ ；非免费铸造。CA 0x1af1f07f778606a8acfbc9526a3ff144bdf2b1af 链上 bytecode 异常短，仅观察。Ashling、polyrob 仍今日 22:00 CST（polyrob 需 WL；本轮 X 窗止于约 21:58 CST，未含 Ashling CA 帖，官网均 SSL EOF）；lil-giraffies、boolish-rh 仍今日 23:00 CST；hooded-ape-club 公铸仍 LIVE（OpenSea 1182→1206/1500）。面板 https://reboot7454.github.io/early-scout/ 。本号不自动 mint。",
+  "newAdmits": [
+    {
+      "id": "stoadex",
+      "handle": "@StoaDex",
+      "status": "watching",
+      "focus": false,
+      "overall": 3.8,
+      "freeMint": false
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "stoadex"
+  ],
+  "newPaceAdmits": [
+    "stoadex"
+  ],
+  "skipped": [
+    {
+      "id": "lsos2026",
+      "reason": "mainnet 2027-02-01, previously skipped"
+    },
+    {
+      "id": "golden-miner-cards",
+      "reason": "no verified official Twitter"
+    },
+    {
+      "id": "kiwitokenpf",
+      "reason": "pump.fun meme"
+    },
+    {
+      "id": "memekulturebsc",
+      "reason": "weak 7-day meme teaser"
+    },
+    {
+      "id": "playcuriofun",
+      "reason": "game claim event, not a mint pad"
+    }
+  ],
+  "paceSkips": [
+    "lsos2026",
+    "golden-miner-cards",
+    "kiwitokenpf",
+    "memekulturebsc",
+    "playcuriofun"
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "strix-agents",
+    "wagmint",
+    "burybud",
+    "delvo",
+    "pervix",
+    "envara",
+    "ponke-agent"
+  ],
+  "discordPeekDeferred": true,
+  "dsFallback": false,
+  "dsUsage": {
+    "model": "deepseek-flash",
+    "thinking": true,
+    "calls": 1
+  },
+  "coverage": {
+    "tenLanes": true,
+    "userFollowDone": true,
+    "mentions": [
+      "LayerZero",
+      "Tape",
+      "GIWA",
+      "MENT_REST"
+    ],
+    "silent": "Starknet"
+  },
+  "docsSynced": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "xReads": 25,
+  "xReadsMain": 24,
+  "xReadsSilent": 1,
+  "admitVerifyReads": 0,
+  "remainingBefore": 292,
+  "remaining": 267,
+  "tenLanes": true,
+  "userFollowDone": true,
+  "mentions": [
+    "LayerZero",
+    "Tape",
+    "GIWA",
+    "MENT_REST"
+  ],
+  "ufCursorBefore": 1086,
+  "ufCursor": 1134,
+  "ufAccounts": 1648,
+  "fatNextStarts": {
+    "agentPad": 70,
+    "freeMint": 158,
+    "bnAgent": 281,
+    "elysium": 84
+  },
+  "watchAdds": [
+    {
+      "id": "stoadex",
+      "handle": "@StoaDex",
+      "into": [
+        "userFollowWatch",
+        "elysiumWatch"
+      ],
+      "reason": "new-admit"
+    }
+  ],
+  "residualWatchBugCount": 1681,
+  "candidateCount": 4176,
+  "lastFullAfterReset": "R1739",
+  "paceMerge": false,
+  "push": {
+    "files": [
+      "data.json",
+      "docs/data.json",
+      "RESULT_R1770.md",
+      "ROUND1770_RESULT.json"
+    ],
+    "branch": "main"
+  }
+}
