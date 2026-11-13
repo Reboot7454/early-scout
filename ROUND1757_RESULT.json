@@ -124,17 +124,21 @@
   },
   "spideyPosting": true,
   "push": {
-    "plannedFiles": [
+    "ok": true,
+    "attempted": true,
+    "sha": "5a28e3d0a37fed077d18bcc8a148f6d23d15d397",
+    "branch": "main",
+    "remoteVerified": true,
+    "files": [
       "data.json",
       "docs/data.json",
       "ROUND1757_RESULT.json"
-    ],
-    "branch": "main"
+    ]
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R1757 为 Discord alpha（16:09 CST 补收 hookdroid，已通知）与 16:00 CST 例行雷达的合并轮，未覆盖 Discord 提交。例行新收 AGX @agentic_x402（BNB Chain 付费 fair launch，16:00:58 CST 开盘，manifest 约 16:09 CST 已铸 19/9800，评分 67，非免费）。已修复 hookdroid 与 gangstazfun 监控漏挂。The Syndicate OpenSea 834→859、floor 约 0.15 USDG；Boatn 1203→1245/2222。GateCerberus / Lil Giraffies / Bagnotary 尚未进入 ≤2h。本号不自动 mint。",
-  "remoteVerified": false,
-  "docsSynced": false,
+  "remoteVerified": true,
+  "docsSynced": true,
   "dataUpdated": true,
   "cardsFile": "dc40_cards_r1757.json",
   "priorRoundNote": "Discord occupied R1757 with hookdroid at 16:09 CST (already notified). Scheduled scan merged into the same round; did not overwrite Discord card or re-notify hookdroid; did not bump to R1758.",
