@@ -1,0 +1,218 @@
+{
+  "round": 1764,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-13 18:47 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R1764 Discord alpha 补漏新收 4 项：\n1）MYCO @mycowner｜打新｜BNB Chain｜官网 myco-one.vercel.app 可开，3,333 只蘑菇森林精灵 NFT 定档 2026-11-13 20:00 CST（12:00 UTC）开铸，Tweet to Mint 免费仅限已审核的 Agent ID（SPACE ID / Binance Agentic Wallet）钱包，Presale 0.0005 BNB、公开 0.001 BNB；NFT 0x86229C12…912d3、$MYCO 0x532fA96d…44053、Marketplace 0xF9D67EAf…dE038f 在 BSC 均有码，NFT totalSupply 仍为 0；他链同名 MYCO 池非官方 CA；X 2026-10-26 14:33 CST 创建，约 8 粉 4 帖。\n2）Hood Drive @Hooddrivee｜打新｜Robinhood Chain｜官网 hooddrive.fun 与 /waitlist 可开，waitlist 免费 mint，5,555 辆向量车分 5 档稀有度，提交 X 用户名+EVM 钱包生成 WL- 成员卡；本轮未见已部署合约，也无开铸钟点；X 2026-11-13 16:03 CST 创建，约 0 粉 1 帖。\n3）Hooded Ape Club @HoodedApeClubRH｜打新｜Robinhood Chain｜官网为 Accio 子域 hoodedapeclub.site.accio.ai；OpenSea 集合已建在 robinhood 链，合约 0x6b1d830e0546b49e52fe02216c5695d9c34ace2f，total_supply 与 unique_item_count 仍为 0；官方唯一帖 18:06 CST 称 2 小时后（约 20:06 CST）在 OpenSea 开铸，两阶段（Robinhood 大户每钱包 2 枚 + 公开 FCFS）；X 当日 14:30 CST 创建，约 6 粉 1 帖。\n4）AnyCap @anycapai｜打新｜Robinhood Chain｜官网 anycap.ai 可开，产品为面向 coding agent 的 CLI（npm install -g @anycap/cli）；官方 18:29 CST 宣布 $ANYCAP 上线并给 CA 0x434f64f3d065a409cde2bd71002a88463d60b51e，18:43 CST 称发射出错、供应已销毁，但 Blockscout 仅确认一笔约 246 万枚转入 dead，代币页总量仍显示 10 亿、35 holders，Dexscreener 按官方 CA 无池；同名 Flapsh 0xF9067… 非官方 CA；X 2026-11-12 12:01 CST 创建，约 2 粉 16 帖。\n面板完整链接 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "myco",
+    "hood-drive",
+    "hooded-ape-club",
+    "anycap"
+  ],
+  "newCount": 4,
+  "newIds": [
+    "myco",
+    "hood-drive",
+    "hooded-ape-club",
+    "anycap"
+  ],
+  "skipped": [],
+  "alreadyInDb": [],
+  "cardsAfterLastSeen": 42,
+  "cardsAfterCutoff": 42,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "candidateFlagsCleared": 0,
+  "topNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=4 (of 4 DS-admit, 4 keepers) calls=2 (admit+alert) prompt=8117 completion=6332; thinking on",
+  "coverage": "discord-alpha #alpha-3-new-accounts + #alpha-1-backup + #smart-accounts-tracker + #alpha-1 glance",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-13 18:35",
+    "lastChecked": "2026-11-13 18:47 CST",
+    "newestCardTime": "2026-11-13 18:35",
+    "cardsAfterCutoff": 42,
+    "note": "R1764：Discord alpha 补收 myco, hood-drive, hooded-ape-club, anycap；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 18:35', 'alpha-1-backup': '2026-11-13 18:34', 'smart-accounts-tracker': '2026-11-13 17:58', 'alpha-1': '2026-11-13 18:29'}；开跑前远程已是 R1763，本轮 DC=R1764，未覆盖既有轮次",
+    "lastRound": 1764,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-13 18:35",
+      "alpha-1-backup": "2026-11-13 18:34",
+      "smart-accounts-tracker": "2026-11-13 17:58",
+      "alpha-1": "2026-11-13 18:29"
+    },
+    "spideyPosting": true,
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "from": "2026-11-12 00:02",
+      "to": "2026-11-13 05:11",
+      "nFilled": 0,
+      "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1762 lastSeen"
+    }
+  },
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-13 18:35",
+    "alpha-1-backup": "2026-11-13 18:34",
+    "smart-accounts-tracker": "2026-11-13 17:58",
+    "alpha-1": "2026-11-13 18:29"
+  },
+  "alpha3OlderGap": {
+    "attempted": false,
+    "filled": false,
+    "from": "2026-11-12 00:02",
+    "to": "2026-11-13 05:11",
+    "nFilled": 0,
+    "note": "skipped this run; 29h+ outage hole still unscanned; only collected cards after R1762 lastSeen"
+  },
+  "spideyPosting": true,
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1764：Discord alpha 补收 myco, hood-drive, hooded-ape-club, anycap；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-13 18:35', 'alpha-1-backup': '2026-11-13 18:34', 'smart-accounts-tracker': '2026-11-13 17:58', 'alpha-1': '2026-11-13 18:29'}；开跑前远程已是 R1763，本轮 DC=R1764，未覆盖既有轮次",
+  "remoteVerified": false,
+  "docsSynced": false,
+  "dataUpdated": true,
+  "cardsFile": "dc40_cards_r1764.json",
+  "priorRoundNote": "Remote was R1763 at apply time; this DC is R1764. Did not overwrite R1763.",
+  "dsRejects": [],
+  "preRejects": [
+    {
+      "handle": "@Leand7789369857",
+      "reason": "个人号/空壳，bio 仅 \".\""
+    },
+    {
+      "handle": "@RunicSorcerer",
+      "reason": "个人/雇员号（Support Engr @chainbasehq），非独立项目"
+    },
+    {
+      "handle": "@MSamawohsr",
+      "reason": "个人求职/社区经理向账号"
+    },
+    {
+      "handle": "@degxbt",
+      "reason": "个人 degen 号，无独立项目推特产品线索"
+    },
+    {
+      "handle": "@LoboVenezuela1",
+      "reason": "个人官方号声明，无项目线索"
+    },
+    {
+      "handle": "@KhaledSaou3fda",
+      "reason": "交易喊单/个人交易员号"
+    },
+    {
+      "handle": "@0xonnur",
+      "reason": "个人学习号，非独立项目"
+    },
+    {
+      "handle": "@wanye51770531",
+      "reason": "个人号，无产品/发射线索"
+    },
+    {
+      "handle": "@HammedYuss95518",
+      "reason": "个人号，bio 仅 Crypto and Technology"
+    },
+    {
+      "handle": "@angel_nova32202",
+      "reason": "个人号，无产品/发射线索"
+    },
+    {
+      "handle": "@AbnerRolly",
+      "reason": "个人号，bio 无产品/发射线索"
+    },
+    {
+      "handle": "@djlittyritty",
+      "reason": "个人号；bio 指向另一账号 @rittyweb3，本号非独立项目推特"
+    },
+    {
+      "handle": "@wasim_ruby",
+      "reason": "个人号，无产品/发射线索"
+    },
+    {
+      "handle": "@midouxxxp",
+      "reason": "个人/空壳，bio 仅 \"1\""
+    },
+    {
+      "handle": "@martinvogelsva",
+      "reason": "个人开发者（SVA 架构师，codebase-memory-mcp），非加密打新项目"
+    },
+    {
+      "handle": "@kof98edson",
+      "reason": "个人号，无产品/发射线索"
+    },
+    {
+      "handle": "@phanuwichymana1",
+      "reason": "个人号，无产品/发射线索"
+    },
+    {
+      "handle": "@Matic_Trades",
+      "reason": "个人交易员号"
+    },
+    {
+      "handle": "@itsbaise",
+      "reason": "个人号，bio 无产品/发射线索"
+    },
+    {
+      "handle": "@ZhremlinyFamily",
+      "reason": "家庭/个人 meme 号，邮箱在 bio，无独立产品/发射线索"
+    },
+    {
+      "handle": "@lyks_fx",
+      "reason": "外汇交易员个人号（XAUUSD/Prop Trading）"
+    },
+    {
+      "handle": "@HaSeEbCrypto12",
+      "reason": "个人交易员号（PERSONAL TRADE）"
+    },
+    {
+      "handle": "@ShaheeraaJee",
+      "reason": "个人号，无产品/发射线索"
+    },
+    {
+      "handle": "@tickfeed",
+      "reason": "外汇/金属行情 API（2026-08-08 建号），非加密打新/发射台/链上玩法"
+    },
+    {
+      "handle": "@Boostify_web",
+      "reason": "付费刷粉/刷量营销服务（boostify.website，Pay with Crypto），非项目"
+    },
+    {
+      "handle": "@ALLSEASONSTCG",
+      "reason": "无官网、0 帖，bio 仅 888，无产品/发射证据"
+    },
+    {
+      "handle": "@ascendrixHQ",
+      "reason": "自媒体/研究号（Learning in public），无独立产品或发射"
+    },
+    {
+      "handle": "@Moa_markets",
+      "reason": "今日新建、0 帖、无官网（moa.markets 无法打开），仅 bio 自称 GIWA launchpad aggregator，证据不足"
+    },
+    {
+      "handle": "@zeroniNFT",
+      "reason": "0 帖、无官网、仅 bio 自称 Soon on LayerZero Zero chain，无产品/发射证据"
+    }
+  ],
+  "highFolSkipped": [
+    {
+      "handle": "@supraEVM",
+      "followers": 9849
+    },
+    {
+      "handle": "@5trm1p",
+      "followers": 15265
+    },
+    {
+      "handle": "@supraEVM",
+      "followers": 9849
+    }
+  ],
+  "xReads": 3
+}
