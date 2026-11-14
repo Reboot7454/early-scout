@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-14 07:59",
+    "updated": "2026-11-14 08:08 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-14 07:59",
+    "lastScout": "2026-11-14 08:08 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -752,7 +752,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1791,
+    "round": 1792,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -829,7 +829,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 4222,
+    "candidateCount": 4223,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -2255,7 +2255,9 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "gpu-hubs"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -4970,14 +4972,14 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-14 07:21",
-      "lastChecked": "2026-11-14 07:26 CST",
-      "newestCardTime": "2026-11-14 07:21",
-      "cardsAfterCutoff": 20,
-      "note": "R1790：Discord alpha 补漏无新收录；已清上一轮 newThisRound []；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-14 07:16', 'alpha-1-backup': '2026-11-14 06:04', 'smart-accounts-tracker': '2026-11-14 07:21', 'alpha-1': '2026-11-14 06:25'}；开跑前远程已是 R1789，本轮 DC=R1790，未覆盖既有轮次",
-      "lastRound": 1790,
+      "lastSeen": "2026-11-14 08:04",
+      "lastChecked": "2026-11-14 08:08 CST",
+      "newestCardTime": "2026-11-14 08:04",
+      "cardsAfterCutoff": 18,
+      "note": "R1792：Discord alpha 补收 gpu-hubs；已清上一轮 newThisRound []；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-14 08:04', 'alpha-1-backup': '2026-11-14 06:04', 'smart-accounts-tracker': '2026-11-14 07:21', 'alpha-1': '2026-11-14 06:25'}；开跑前远程已是 R1791，本轮 DC=R1792，未覆盖既有轮次",
+      "lastRound": 1792,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-14 07:16",
+        "alpha-3-new-accounts": "2026-11-14 08:04",
         "alpha-1-backup": "2026-11-14 06:04",
         "smart-accounts-tracker": "2026-11-14 07:21",
         "alpha-1": "2026-11-14 06:25"
@@ -5127,7 +5129,7 @@
       "zec-nodes",
       "boys-in-hood"
     ],
-    "alertMessage": "",
+    "alertMessage": "R1792 Discord alpha 补充收录 1 条，面板：https://reboot7454.github.io/early-scout/\n\n1. **GpuHub**（@gpu_hubs，挖矿，Robinhood Chain）：X 账号 2026-11-11 18:29 CST 创建，蓝 V，当前 1 粉、2 帖、1 条媒体，资料页未挂官网或 dapp；Bio 写“Spare GPUs for AI agents, rented by the second. Built on Robinhood Chain.”。2026-11-14 07:55 CST 发布 X Article《Spare PCs, working for AI agents》（https://x.com/i/article/2121389061461950464 ，帖 https://x.com/gpu_hubs/status/2121391413308919923），描述让 AI agent 按秒租用闲置 PC GPU（最短 1 分钟）：机主以美元定价，agent 用 GHUB 支付，先在 market contract 注资（GHUB，或 USDG 一步兑换），签名 spending limit 作为 agent 的 API key；租用为无外网密封容器、默认 gVisor、链上分批结算、机主收款，agent 不能提现或超限消费；文中自述 5% 销毁、95% 给机主，代币池可按币价提供最高 50% 折扣，owners 可质押 GHUB，被罚没的质押回流折扣池。07:57 CST 另发配图短帖复述同一机制（https://x.com/gpu_hubs/status/2121392153842815071）：“Owners set the price in dollars. Agents pay in GHUB, inside a limit you sign.”。缺点：无官方 CA/前端；机制尚未有链上证据，5% 销毁与 50% 折扣仅为文中自述；不得把 gpuhub.com 当官网（公开检索到的是既有 GPU 云厂商，与本新号无归属证据）；仅 1 粉 2 帖。",
     "dsSummary": "R1753 ample 扫描新收 DripEVM（@DripEVM，DeepSeek overall 79，admit=true）Elysium 免费白名单 LIVE，已铸 149/888。The Syndicate ≤2h 窗已于 14:37 CST 结束，官号仍称 Mint is Live，OpenSea 已铸 802→821、floor 约 0.25 USDG。已在库 Riftera 446→447、First Take 仍 194、Momo 291→292、Clause 5→8、Arctic 73→74、Shark 仍 21、Zodiac 仍 335。修复 R1752 十二张新卡监控漏挂。本号不自动 mint。",
     "round270Added": [
       "avatarpad"
@@ -14383,7 +14385,8 @@
         "@petaliaworld",
         "@squeez7z",
         "@numencash",
-        "@usecpay"
+        "@usecpay",
+        "@gpu_hubs"
       ],
       "candidateIds": [
         "elysatrade",
@@ -16057,7 +16060,8 @@
         "petaliaworld",
         "squeez7z",
         "numencash",
-        "charity-pay"
+        "charity-pay",
+        "gpu-hubs"
       ],
       "pending": [
         "@Zunki_xyz",
@@ -16066,7 +16070,7 @@
         "@binanceminters"
       ],
       "note": "R1769 merge soft-brush 1038→1086; kept 47, skip 1 known_nf（ePegsV4，本轮不重读）; 2 from: batches，本片 1 帖（polyrob/tmachinroBot 仍为 21:03 白名单已关/22:00 开铸，未改期）。Next starts at 1086. Watch 漏挂：Discord 六卡 @strix_agents / @wagmint_bnb / @burybud / @delvoprotocol / @pervix_xyz / @Envara_Agent 在库不在任何 Watch，已补进 userFollowWatch；@wagmint_bnb 兼 agentPad+bnAgent，@delvoprotocol/@pervix_xyz 兼 elysiumWatch。新收录 @PonkeAgent 进 userFollowWatch+agentPadWatch+bnAgentWatch+freeMintWatch。UF accounts=1647。",
-      "lastChecked": "2026-11-14 07:59:14 CST",
+      "lastChecked": "2026-11-14 08:08 CST",
       "createdAt": "2026-10-28 17:15 CST",
       "sourceRound": 775,
       "r775": "用户点名6项已入 candidates；pending=[]",
@@ -33529,9 +33533,74 @@
     "r1791ResidualWatchBugs": 2081,
     "r1791ResidualWatchBugNote": "在库未挂 Watch 仅计数、不整表回填。本轮无新卡，无需补挂。无新发现的 Watch 漏挂。残留未挂计数见 apply_report residual。",
     "r1791IndependentPace": true,
-    "round1791Added": []
+    "round1791Added": [],
+    "round1792Added": [
+      "gpu-hubs"
+    ],
+    "r1792WatchAdds": [
+      "@gpu_hubs"
+    ],
+    "r1792WatchAddDetails": [
+      {
+        "id": "gpu-hubs",
+        "handle": "@gpu_hubs",
+        "into": [
+          "userFollowWatch"
+        ],
+        "reason": "R1792 discord-new"
+      }
+    ]
   },
   "candidates": [
+    {
+      "id": "gpu-hubs",
+      "name": "GpuHub",
+      "handle": "@gpu_hubs",
+      "twitter": "@gpu_hubs",
+      "chain": "Robinhood Chain",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/gpu_hubs",
+        "announcement": "https://x.com/gpu_hubs/status/2121391413308919923"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 8,
+        "novelty": 7,
+        "actionable": 3,
+        "overall": 5.4
+      },
+      "highlights": [
+        "X Article《Spare PCs, working for AI agents》给出完整机制：AI agent 按秒租用闲置 PC GPU，机主按美元定价",
+        "支付侧使用 GHUB；agent 先在 market contract 注资（GHUB 或 USDG 一步兑换），并签名 spending limit 作为 API key 权限",
+        "租用环境为无外网密封容器、链上分批结算，机主收款；agent 不可提现或超限消费",
+        "自述经济模型：5% 销毁 + 95% 归机主，代币池可按币价提供最高 50% 折扣"
+      ],
+      "drawbacks": [
+        "本轮未见官方 CA、前端或可核验的已部署合约，仍处设想/白皮书阶段",
+        "账号只有 1 个粉丝、创建于 2026-11-11，这些机制尚未有任何链上证据",
+        "公开检索到的 gpuhub.com 是既有 GPU 云厂商，与本新号无归属证据，不能当官网",
+        "5% 销毁与 50% 折扣均为文中自述，未在链上验证"
+      ],
+      "whatsNew": "2026-11-14 07:55–07:57 CST 连发两帖，首次公开“闲置 PC GPU 按秒租给 AI agent”的结算流程与 GHUB 代币设计。",
+      "summary": "Robinhood Chain 上的闲置 GPU 按秒租赁构想，机制描述清晰（注资、签名限额、分批结算、销毁/分成），但尚无合约、前端或任何可打开的产品入口。",
+      "blurb": "把闲置 PC GPU 按秒租给 AI agent，GHUB 支付 + 5% 销毁，仅停留在机制文档阶段。",
+      "round": 1792,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-14 08:08 CST",
+      "addedAt": "2026-11-14 08:08 CST",
+      "lastChecked": "2026-11-14 08:08 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
     {
       "id": "charity-pay",
       "name": "Charity Pay",
@@ -292678,20 +292747,22 @@
       }
     }
   ],
-  "newThisRound": [],
-  "alertMessage": "",
+  "newThisRound": [
+    "gpu-hubs"
+  ],
+  "alertMessage": "R1792 Discord alpha 补充收录 1 条，面板：https://reboot7454.github.io/early-scout/\n\n1. **GpuHub**（@gpu_hubs，挖矿，Robinhood Chain）：X 账号 2026-11-11 18:29 CST 创建，蓝 V，当前 1 粉、2 帖、1 条媒体，资料页未挂官网或 dapp；Bio 写“Spare GPUs for AI agents, rented by the second. Built on Robinhood Chain.”。2026-11-14 07:55 CST 发布 X Article《Spare PCs, working for AI agents》（https://x.com/i/article/2121389061461950464 ，帖 https://x.com/gpu_hubs/status/2121391413308919923），描述让 AI agent 按秒租用闲置 PC GPU（最短 1 分钟）：机主以美元定价，agent 用 GHUB 支付，先在 market contract 注资（GHUB，或 USDG 一步兑换），签名 spending limit 作为 agent 的 API key；租用为无外网密封容器、默认 gVisor、链上分批结算、机主收款，agent 不能提现或超限消费；文中自述 5% 销毁、95% 给机主，代币池可按币价提供最高 50% 折扣，owners 可质押 GHUB，被罚没的质押回流折扣池。07:57 CST 另发配图短帖复述同一机制（https://x.com/gpu_hubs/status/2121392153842815071）：“Owners set the price in dollars. Agents pay in GHUB, inside a limit you sign.”。缺点：无官方 CA/前端；机制尚未有链上证据，5% 销毁与 50% 折扣仅为文中自述；不得把 gpuhub.com 当官网（公开检索到的是既有 GPU 云厂商，与本新号无归属证据）；仅 1 粉 2 帖。",
   "roundNAdded": [
     "veltrixcodes",
     "krypnous",
     "melaps-system"
   ],
-  "updatedAt": "2026-11-14 07:59:14 CST",
-  "updated": "2026-11-14 07:59",
+  "updatedAt": "2026-11-14 08:08 CST",
+  "updated": "2026-11-14 08:08 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-14 07:59",
+  "lastScout": "2026-11-14 08:08 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -292733,7 +292804,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4222,
+  "candidateCount": 4223,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -296496,5 +296567,8 @@
   ],
   "round1789Added": [],
   "round1790Added": [],
-  "round1791Added": []
+  "round1791Added": [],
+  "round1792Added": [
+    "gpu-hubs"
+  ]
 }
