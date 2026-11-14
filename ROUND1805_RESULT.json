@@ -1,0 +1,134 @@
+{
+  "round": 1805,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-14 14:13 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "R1805 Discord alpha 补充收录 2 条，面板：https://reboot7454.github.io/early-scout/\n\nRaidfolk｜@playraidfolk｜打新（Robinhood Chain 上 outlaw 基地建设游戏，官网与等待名单已上线，免费玩、无付费战力；袭击预览与 WREN 仍标 Soon，核心玩法未完全可玩，粉丝仅 5 且未见代币与合约信息）\n\nhwan｜@hwandotio｜台子/Meme（把十国街市美元与官方汇率价差做成 Solana 可读可交易指数，每 15 分钟写链、周五按 ECB 结算，bio 挂 CA；首页曾显示 Setting the scale 0%、交易是否完全放开未复核，指数依赖成员报价，成员沉默一天即停更）",
+  "newAdmits": [
+    "raidfolk",
+    "hwan"
+  ],
+  "newCount": 2,
+  "newIds": [
+    "raidfolk",
+    "hwan"
+  ],
+  "skipped": [
+    {
+      "id": "scouty-meme",
+      "handle": "@scoutymeme",
+      "reason": "拒收：今日新号、无官网无合约，帖文只是 $JENSEN 山寨识别的科普串，没有发射台、孵化入口或已上线代币，属研报/喊单噪音。"
+    },
+    {
+      "id": "plumbercabal",
+      "handle": "@plumbercabal",
+      "reason": "拒收：bio 直挂 pump CA 且 location 即 pump.fun，属已开盘的普通 pump meme；无独立产品、无官网，只有表情图与口号。"
+    },
+    {
+      "id": "peace-frog",
+      "handle": "@peacefrogggggg",
+      "reason": "拒收：第三方显示 11-13 已开盘放量，持有人约 1545、24h 量约 $510k，市值 $76k–199k，已非极早期；官号 bio 与资料栏均未挂 CA 或官网，捐款致谢亦未核到本币到账。"
+    },
+    {
+      "id": "vensa",
+      "handle": "@vensa_si",
+      "reason": "拒收：非加密项目，唯一官帖讲开源芯片/晶圆 nonprofit，与打新、DeFi、GameFi 均无关，且账号近一年无更新、仅 1 帖。"
+    }
+  ],
+  "dsOverrideCategory": [
+    {
+      "id": "raidfolk",
+      "note": "DS误标GO盘→打新（RH 链 GameFi 等待名单，非 GO/AR 玩法）"
+    }
+  ],
+  "dsOverrideReject": [],
+  "cardsAfterLastSeen": 51,
+  "uniqueHandles": [
+    "@neilforgepyr",
+    "@Lj6980kk",
+    "@laeunshi",
+    "@ogundaogbe_",
+    "@Zhujiyinopo",
+    "@0Zero_Fun",
+    "@010101fun",
+    "@siddharthmxatt",
+    "@rororopis",
+    "@Kiran__Saharan",
+    "@Teknosains_ID",
+    "@SatoshiEconomy",
+    "@xiangliu482780",
+    "@JalynA69936",
+    "@TristanParsloe",
+    "@DinilBiz",
+    "@BraveHoundlum",
+    "@pirroh",
+    "@j_schottenstein",
+    "@AbdalwhabAwgn9",
+    "@HabimanaElie9",
+    "@thekimbernax",
+    "@Bitdealsolution",
+    "@peacefrogggggg",
+    "@jasonmdesimone",
+    "@PowellGlobalLLC",
+    "@bimatrader_",
+    "@playraidfolk",
+    "@AhmedMo89210244",
+    "@SCOUTYMEME",
+    "@von_cbfw",
+    "@FadJr94",
+    "@AfrizalCnl",
+    "@PlumberCabal",
+    "@hwandotio",
+    "@cqdyikun",
+    "@DonaldTDaily",
+    "@Wards3ethereum",
+    "@YJLupupup",
+    "@cowwden",
+    "@JuanCCR17",
+    "@vensa_si",
+    "@wbill99",
+    "@mswd481164",
+    "@myeternalartist",
+    "@VXN1R_07",
+    "@brandchuuyafrez",
+    "@FLeon54182"
+  ],
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash thinking=on; admitCalls=1 (6 shortlisted after prefilter; 2 yes); alertCalls=1; category override raidfolk GO盘→打新; X verify 7 profiles + 5 timelines; dsFallback=false",
+  "coverage": "discord-alpha #alpha-3-new-accounts + #alpha-1-backup + #smart-accounts-tracker + #alpha-1",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-14 14:02",
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-14 14:02",
+      "alpha-1-backup": "2026-11-14 13:34",
+      "smart-accounts-tracker": "2026-11-14 13:44",
+      "alpha-1": "2026-11-14 13:55"
+    },
+    "lastChecked": "2026-11-14 14:13 CST",
+    "newestCardTime": "2026-11-14 14:02",
+    "cardsAfterCutoff": 51,
+    "spideyPosting": true,
+    "note": "R1805：Discord alpha 补收 raidfolk,hwan；X核验后拒收 scoutymeme（无产品研报号）、plumbercabal（已开盘普通pump）、peacefrogggggg（已放量非极早期）、vensa_si（非加密）；DS误标 raidfolk GO盘已改为打新；lastSeen→2026-11-14 14:02；lastChecked→2026-11-14 14:13 CST",
+    "lastRound": 1805,
+    "alpha3OlderGap": {
+      "attempted": false,
+      "filled": false,
+      "nFilled": 0,
+      "note": "skipped this incremental run; 29h+ outage hole still unscanned; only collected cards after prior lastSeen"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1805：Discord alpha 补收 raidfolk,hwan；X核验后拒收 scoutymeme（无产品研报号）、plumbercabal（已开盘普通pump）、peacefrogggggg（已放量非极早期）、vensa_si（非加密）；DS误标 raidfolk GO盘已改为打新；lastSeen→2026-11-14 14:02；lastChecked→2026-11-14 14:13 CST",
+  "remoteVerified": false,
+  "priorRoundNote": "开跑后 origin/main 已落到 R1804 ff1c7fd（ample X scan，无新收录，NTR 已空）；本轮 DC=R1805 未覆盖既有轮次。扫卡 lastSeen 之后 51 张/48 个独立号；切源 lastSeen 来自 R1803 DC peek。"
+}

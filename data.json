@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-14 14:05 CST",
+    "updated": "2026-11-14 14:13 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-14 14:05 CST",
+    "lastScout": "2026-11-14 14:13 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -756,7 +756,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1804,
+    "round": 1805,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -833,7 +833,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 4256,
+    "candidateCount": 4260,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -2259,7 +2259,10 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "raidfolk",
+      "hwan"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -4953,19 +4956,19 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-14 12:40",
+      "lastSeen": "2026-11-14 14:02",
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-14 12:40",
-        "alpha-1-backup": "2026-11-14 12:34",
-        "smart-accounts-tracker": "2026-11-14 12:35",
-        "alpha-1": "2026-11-14 12:23"
+        "alpha-3-new-accounts": "2026-11-14 14:02",
+        "alpha-1-backup": "2026-11-14 13:34",
+        "smart-accounts-tracker": "2026-11-14 13:44",
+        "alpha-1": "2026-11-14 13:55"
       },
-      "lastChecked": "2026-11-14 13:13 CST",
-      "newestCardTime": "2026-11-14 12:40",
-      "cardsAfterCutoff": 28,
+      "lastChecked": "2026-11-14 14:13 CST",
+      "newestCardTime": "2026-11-14 14:02",
+      "cardsAfterCutoff": 51,
       "spideyPosting": true,
-      "note": "R1803：Discord alpha 补收 puppet-pro,foodcoin,thejenslax,nave-hl,zero-kitties；X核验后拒收 zeroni（仅一帖收集钱包、无站点/图）；清 brewpad,justgiving；lastSeen→2026-11-14 12:40；lastChecked→2026-11-14 13:13 CST",
-      "lastRound": 1803,
+      "note": "R1805：Discord alpha 补收 raidfolk,hwan；X核验后拒收 scoutymeme（无产品研报号）、plumbercabal（已开盘普通pump）、peacefrogggggg（已放量非极早期）、vensa_si（非加密）；DS误标 raidfolk GO盘已改为打新；lastSeen→2026-11-14 14:02；lastChecked→2026-11-14 14:13 CST",
+      "lastRound": 1805,
       "alpha3OlderGap": {
         "attempted": false,
         "filled": false,
@@ -29735,8 +29738,8 @@
       "ascendrbot"
     ],
     "roundNAdded": [
-      "brewpad",
-      "justgiving"
+      "raidfolk",
+      "hwan"
     ],
     "round1438Added": [
       "elyfun"
@@ -34115,9 +34118,117 @@
         "reason": "R1803 例行新收录（关键词漏捞），独立 Ethash PoW 测试网，官号+官网已核验，非免费 mint"
       }
     ],
-    "round1804Added": []
+    "round1804Added": [],
+    "round1805Added": [
+      "raidfolk",
+      "hwan"
+    ]
   },
   "candidates": [
+    {
+      "id": "hwan",
+      "name": "hwan",
+      "handle": "@hwandotio",
+      "twitter": "@hwandotio",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "solana",
+        "defi",
+        "fx-rates",
+        "ca-in-bio"
+      ],
+      "links": {
+        "x": "https://x.com/hwandotio",
+        "website": "https://hwan.io/"
+      },
+      "scores": {
+        "early": 88,
+        "risk": 52,
+        "novelty": 86,
+        "actionable": 66,
+        "overall": 74
+      },
+      "highlights": [
+        "把泡菜溢价等街市/官方汇率价差做成可读可交易指数，每 15 分钟写链、周五结算",
+        "bio 挂 CA，站点另给 program 地址，官帖称已有周五价差合约结算"
+      ],
+      "drawbacks": [
+        "首页曾显示 Setting the scale 0%，交易是否完全放开本轮未逐笔复核",
+        "指数依赖成员报价，feed 过期拒单、成员沉默一天即停更"
+      ],
+      "whatsNew": "11-09 CST 建号，已上线 /rates 页并公开 CA 与 program。",
+      "summary": "把十国街市美元与官方汇率的价差做成 Solana 上可读/可交易指数，每 15 分钟写链、周五按 ECB 结算。",
+      "blurb": "早期链上汇率市场，CA 与 program 直挂 bio，机制与结算线索具体。",
+      "round": 1805,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 410,
+      "xFollowers": 410,
+      "firstSeen": "2026-11-14 14:13 CST",
+      "addedAt": "2026-11-14 14:13 CST",
+      "lastChecked": "2026-11-14 14:13 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true,
+      "source": "discord-alpha",
+      "contract": "FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs",
+      "contracts": {
+        "Solana": "FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs"
+      }
+    },
+    {
+      "id": "raidfolk",
+      "name": "Raidfolk",
+      "handle": "@playraidfolk",
+      "twitter": "@playraidfolk",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "gamefi",
+        "robinhood-chain",
+        "waitlist",
+        "free-to-play"
+      ],
+      "links": {
+        "x": "https://x.com/playraidfolk",
+        "website": "https://raidfolk.io/"
+      },
+      "scores": {
+        "early": 93,
+        "risk": 45,
+        "novelty": 72,
+        "actionable": 62,
+        "overall": 73
+      },
+      "highlights": [
+        "官网实装：150 秒袭击、8 英雄/部队，免费玩、无付费战力、无盲盒",
+        "等待名单已开，连 X + 钱包签一次即入，早期准入与 Founder's Banner 先给名单"
+      ],
+      "drawbacks": [
+        "袭击预览与 WREN 仍标 Soon，核心玩法尚未完全可玩",
+        "粉丝仅 5、未见代币与合约信息，进度全靠官帖"
+      ],
+      "whatsNew": "11-12 建号后连发角色介绍，反复导流等待名单。",
+      "summary": "Robinhood Chain 上 outlaw 基地建设游戏，官网与等待名单已上线，免费玩无付费战力，袭击玩法仍标 Soon。",
+      "blurb": "极早期 GameFi 新号，官网与等待名单已实装，可先占早期准入位。",
+      "round": 1805,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 5,
+      "xFollowers": 5,
+      "firstSeen": "2026-11-14 14:13 CST",
+      "addedAt": "2026-11-14 14:13 CST",
+      "lastChecked": "2026-11-14 14:13 CST",
+      "zoneHint": "打新",
+      "newThisRound": true,
+      "source": "discord-alpha"
+    },
     {
       "id": "zero-kitties",
       "name": "Zero Kitties",
@@ -295521,16 +295632,22 @@
       }
     }
   ],
-  "newThisRound": [],
-  "alertMessage": "",
-  "roundNAdded": [],
-  "updatedAt": "2026-11-14 14:05 CST",
-  "updated": "2026-11-14 14:05 CST",
+  "newThisRound": [
+    "raidfolk",
+    "hwan"
+  ],
+  "alertMessage": "R1805 Discord alpha 补充收录 2 条，面板：https://reboot7454.github.io/early-scout/\n\nRaidfolk｜@playraidfolk｜打新（Robinhood Chain 上 outlaw 基地建设游戏，官网与等待名单已上线，免费玩、无付费战力；袭击预览与 WREN 仍标 Soon，核心玩法未完全可玩，粉丝仅 5 且未见代币与合约信息）\n\nhwan｜@hwandotio｜台子/Meme（把十国街市美元与官方汇率价差做成 Solana 可读可交易指数，每 15 分钟写链、周五按 ECB 结算，bio 挂 CA；首页曾显示 Setting the scale 0%、交易是否完全放开未复核，指数依赖成员报价，成员沉默一天即停更）",
+  "roundNAdded": [
+    "raidfolk",
+    "hwan"
+  ],
+  "updatedAt": "2026-11-14 14:13 CST",
+  "updated": "2026-11-14 14:13 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-14 14:05 CST",
+  "lastScout": "2026-11-14 14:13 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -295572,7 +295689,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4258,
+  "candidateCount": 4260,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -299385,5 +299502,9 @@
     "nave-hl",
     "zero-kitties"
   ],
-  "round1804Added": []
+  "round1804Added": [],
+  "round1805Added": [
+    "raidfolk",
+    "hwan"
+  ]
 }
