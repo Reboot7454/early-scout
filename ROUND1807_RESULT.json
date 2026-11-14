@@ -1,65 +1,35 @@
 {
   "round": 1807,
-  "mode": "discord-alpha-40",
-  "completedAt": "2026-11-14 15:21 CST",
+  "mode": "ample-merge",
+  "completedAt": "2026-11-14 15:41 CST",
   "timezone": "Asia/Shanghai",
   "notify": false,
-  "notifyReason": "no_new_admits",
+  "notifyReason": "例行无新收录、无首次进入≤2h、无新确认免费 NFT mint LIVE；Vault Pass 无官推硬跳过不通知；Discord 本轮无新卡且 prior NTR 已清，不重推",
   "alertMessage": "",
   "newAdmits": [],
   "newCount": 0,
   "newIds": [],
   "skipped": [
     {
-      "handle": "@WanderMarcelRos",
-      "reason": "个人号，bio 仅 navigating coffee shops and airport terminals across asia，无项目线索。"
+      "id": "vault-pass",
+      "handle": null,
+      "reason": "no-official-twitter",
+      "site": "https://vault-pass.surge.sh/",
+      "ca": "0x97d4919074aa267CF85CCcDb70dE49918DedCC14",
+      "chain": "BSC",
+      "registry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
+      "totalMinted": 21,
+      "freeRemaining": 1979,
+      "paidMinted": 0,
+      "saleWindowCST": "2026-11-14 13:38–2026-11-21 13:38",
+      "thirdParty": "@Annak0ox",
+      "note": "LIVE 免费 Agent ID mint，但搜后无可靠官推，硬规则不收、不通知"
     },
-    {
-      "handle": "@MDDOLARS001",
-      "reason": "个人号 Olatunji Muhideen，bio 为 Dakar TikTok Creator Learning BITCOIN & Crypto，无独立项目。"
-    },
-    {
-      "handle": "@levicollux",
-      "reason": "个人号 levi cole，bio 仅 placing small bets, validating fast, choosing freedom over noise，无项目线索。"
-    },
-    {
-      "handle": "@luzgraharyn",
-      "reason": "个人号 luz graham，bio 仅 observing culture, reading history, and keeping things simple，无项目线索。"
-    },
-    {
-      "handle": "@onesun001",
-      "reason": "个人创业号（钟馗背调章鱼 AI / 网络安全数据服务），非链上极早期打新/发射项目。"
-    },
-    {
-      "handle": "@RajyadavXAUUSD",
-      "reason": "个人号 Raj Yadav，handle 含 XAUUSD，无项目线索。"
-    },
-    {
-      "handle": "@taotao_yi_",
-      "reason": "空壳：无 bio，3粉/165关，无项目线索。"
-    },
-    {
-      "handle": "@etim_franc24887",
-      "reason": "个人号 Francis Etim，bio Pharmacist / Kingdom Businessman，无项目线索。"
-    },
-    {
-      "handle": "@abdlehakm4uu",
-      "reason": "个人号 Endris Akmel，bio 仅 Alhamdurila for everything，无项目线索。"
-    },
-    {
-      "handle": "@theiNuCTO",
-      "reason": "不是新项目：X 核验帖自称 Robinhood 第一波 stock-pair 旧币 $iNu 的社区 CTO 复活号（original socials went quiet / Community-run account for the final iNu），CA 0x63ee…1e18；R1806 已拒，非极早期新产品。"
-    },
-    {
-      "handle": "@HeukgiOnGiwa",
-      "id": "heukgi",
-      "reason": "今日新建号（14:38 CST），仅 2 粉、2 条帖且全为回复 GIWA 官方/生态号的泛泛里程碑评论，无独立主贴、无官网、无 mint 窗口、无合约；bio 仅自称韩国风 NFT collection，属空壳自称，无任何可核验产品线索。"
-    },
-    {
-      "handle": "@HoodColony_RH",
-      "id": "hood-colony",
-      "reason": "今日 15:01 CST 新建，0 粉、默认头像、仅 1 条 coming soon 预告；无官网、无 CA、无 mint、无玩法细节，handle 与关注对象仅暗示 Robinhood 生态，线索过薄，命中「仅一条 coming soon 无站点/无合约」拒收条。"
-    }
+    "alphamorpheus",
+    "CopeOnMarket",
+    "AnubisLayer1",
+    "flop_labs",
+    "xerj_org"
   ],
   "cardsAfterLastSeen": 13,
   "clearedPrevNewThisRound": true,
@@ -78,8 +48,8 @@
   ],
   "discordPeekDeferred": false,
   "dsFallback": false,
-  "dsUsage": "deepseek-flash admits=0 (reviewed 2, both rejected); pre_reject=10; dsFallback=false",
-  "coverage": "discord-alpha multi-channel: #alpha-3-new-accounts + #alpha-1-backup + #smart-accounts-tracker + #alpha-1",
+  "dsUsage": "本轮例行无进入打分的新卡；Discord 段已审 2 拒 2 + pre_reject=10；dsFallback=false",
+  "coverage": "discord-alpha already done + ample UF+MUST+十栏KW+mentions轮换 LayerZero/Elysium/squeek/BN-STARX + silent GO",
   "discordAlphaPeek": {
     "deferred": false,
     "lastSeen": "2026-11-14 15:14",
@@ -120,7 +90,7 @@
     "ok": false
   },
   "panel": "https://reboot7454.github.io/early-scout/",
-  "summary": "R1807：Discord alpha 补漏无新卡（#alpha-3 最新 2026-11-14 15:14）；清 lontra,securityum,kinetra-agent,boostock；lastSeen→2026-11-14 15:14，lastChecked→2026-11-14 15:21 CST",
+  "summary": "R1807 合并：Discord 15:21 CST 补漏无新卡并已清 prior NTR；例行 ample X 扫描无新收录。notify=false。xReads 21，remainingBefore 688 → remaining 667/1000。UF 1084→1134 kept 50 skip 0。Vault Pass 无官推硬跳过。未自动 mint。",
   "remoteVerified": false,
   "cardsFile": "dc40_cards_r1807.json",
   "priorRoundNote": "R1806 meta NTR ['boostock', 'kinetra-agent', 'securityum', 'lontra']; cardsAfterCutoff=13",
@@ -133,5 +103,70 @@
   },
   "cardsRead": 13,
   "uniqueHandles": 12,
-  "spideyPosting": true
+  "spideyPosting": true,
+  "xReads": 21,
+  "xReadsMain": 20,
+  "xReadsSilent": 1,
+  "admitVerify": 0,
+  "remainingBefore": 688,
+  "remaining": 667,
+  "softCap": 28,
+  "minSpend": 20,
+  "silentCap": 2,
+  "tenLanes": true,
+  "userFollow": {
+    "before": 1084,
+    "after": 1134,
+    "kept": 50,
+    "skip": 0,
+    "wrap": false,
+    "priorityKept": [
+      "machinedotfun",
+      "bscaidrop",
+      "PulseLaunchpad",
+      "localbottomcom",
+      "NutshellMarkets"
+    ],
+    "prioritySkip": [
+      "mobster_meme",
+      "starx_xlayer"
+    ],
+    "accounts": 1746,
+    "pending": []
+  },
+  "mentionsChains": [
+    "LayerZero",
+    "Elysium+kinetiq",
+    "mining-squeek+Nutshell",
+    "BN Agent pads+STARX"
+  ],
+  "silentAccounts": {
+    "ran": true,
+    "lane": "GO盘",
+    "seen": 18,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 18
+  },
+  "watchBug": {
+    "nearRoundMissing": 0,
+    "fullTableBackfill": false,
+    "softDebtRefreshed": [
+      "cantonPadWatch",
+      "glazeWatch",
+      "tokenWorksPlaygroundWatch",
+      "cantonWatch",
+      "tokenWorksWatch",
+      "flapPadWatch"
+    ]
+  },
+  "autoMint": false,
+  "lastFullAfterReset": "R1792",
+  "windowsHoursAt1541CST": {
+    "agent-cat": "5.3h",
+    "polyrob": "6.2h",
+    "burybud": "7.3h",
+    "dusktape": "8.3h",
+    "dualforge-bsc": "27.3h"
+  }
 }
