@@ -1,107 +1,104 @@
 {
   "round": 1809,
-  "mode": "discord-alpha-40",
-  "completedAt": "2026-11-14 16:10 CST",
+  "mode": "ample-merge",
+  "mergedIntoDiscordRound": true,
+  "completedAt": "2026-11-14 16:37 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
-  "notifyReason": "new_admits",
-  "alertMessage": "DC补漏R1809新收：UseVledge @UseVledge｜台子/Meme｜AI信任层项目Pons首发，官网已公布CA；面板 https://reboot7454.github.io/early-scout/",
-  "alert": "DC补漏R1809新收：UseVledge @UseVledge｜台子/Meme｜AI信任层项目Pons首发，官网已公布CA；面板 https://reboot7454.github.io/early-scout/",
+  "notifyReason": "new_admit_free_mint_live",
+  "alertMessage": "【R1809 例行新收录】BNB 免费 NFT mint 已 LIVE：theFlyingCar（@theflyingcareco）。供 4000，每钱包第 1 张仅 gas，额外 0.001 BNB；链上已铸 138。NFT CA 0x16fb20819cbc3eb160232d82f07e2849d04b48d0，代币 $FLYC 另有 BscScan claimFree（高风险）。官号今日凌晨新建、0 粉、无官网，handle 拼成 care 不是 car；与已在库 @FlyingCarsNFT（Robinhood）不是同一项目，谨慎交互。面板：https://reboot7454.github.io/early-scout/",
+  "alert": "【R1809 例行新收录】BNB 免费 NFT mint 已 LIVE：theFlyingCar（@theflyingcareco）。供 4000，每钱包第 1 张仅 gas，额外 0.001 BNB；链上已铸 138。NFT CA 0x16fb20819cbc3eb160232d82f07e2849d04b48d0，代币 $FLYC 另有 BscScan claimFree（高风险）。官号今日凌晨新建、0 粉、无官网，handle 拼成 care 不是 car；与已在库 @FlyingCarsNFT（Robinhood）不是同一项目，谨慎交互。面板：https://reboot7454.github.io/early-scout/",
   "newAdmits": [
-    "usevledge"
+    "theflyingcar-bnb"
   ],
   "newCount": 1,
   "newIds": [
-    "usevledge"
+    "theflyingcar-bnb"
   ],
   "admissions": [
     {
-      "id": "usevledge",
-      "handle": "@UseVledge",
-      "category": "台子/Meme",
-      "name": "UseVledge"
-    }
-  ],
-  "already": [
-    {
-      "handle": "@TSBdotfun",
-      "reason": "already_have",
-      "id": "tsbdotfun"
+      "id": "theflyingcar-bnb",
+      "handle": "@theflyingcareco",
+      "category": "打新",
+      "name": "theFlyingCar",
+      "status": "live",
+      "overall": 70,
+      "freeMintLive": true
     }
   ],
   "clearedPrevNewThisRound": true,
   "prevNewThisRoundCleared": [
-    "shinob-rh",
-    "gtafi"
-  ],
-  "candidateFlagsCleared": 2,
-  "topNewThisRoundCleared": [
-    "shinob-rh",
-    "gtafi"
+    "usevledge"
   ],
   "discordPeekDeferred": false,
   "dsFallback": false,
-  "dsUsage": "deepseek-flash thinking=on; calls=4 (admit batches 3 + alert 1); prompt_tokens=5480; completion_tokens=7416; admits=1 rejects=19 already=1; dsFallback=false",
-  "coverage": "discord-alpha multi-channel",
-  "cardsAfterLastSeen": 24,
-  "cardsRead": 24,
-  "uniqueHandles": 21,
-  "spideyPosting": true,
-  "xReads": 4,
-  "admitVerify": 4,
-  "remainingBefore": 944,
-  "remaining": 940,
-  "categoryFix": "DS labeled 打新; corrected to 台子/Meme (Pons token launch on Robinhood Chain, not NFT mint). Added verified website + CA.",
-  "priorRoundNote": "R1808 meta NTR ['shinob-rh', 'gtafi'] at bd20f1c; this DC=R1809, did not overwrite; cardsAfterCutoff=24",
-  "discordAlphaPeek": {
-    "deferred": false,
-    "lastSeen": "2026-11-14 16:04",
-    "lastChecked": "2026-11-14 16:10 CST",
-    "newestCardTime": "2026-11-14 16:04",
-    "cardsAfterCutoff": 24,
-    "note": "R1809：Discord alpha 补收 usevledge；清 shinob-rh,gtafi；lastSeen→2026-11-14 16:04；lastChecked→2026-11-14 16:10 CST",
-    "lastRound": 1809,
-    "lastSeenByChannel": {
-      "alpha-3-new-accounts": "2026-11-14 16:04",
-      "alpha-1-backup": "2026-11-14 14:34",
-      "smart-accounts-tracker": "2026-11-14 14:14",
-      "alpha-1": "2026-11-14 16:03"
-    },
-    "spideyPosting": true,
-    "newestByChannel": {
-      "alpha-3-new-accounts": "2026-11-14 16:04",
-      "alpha-1-backup": "2026-11-14 14:34",
-      "smart-accounts-tracker": "2026-11-14 14:14",
-      "alpha-1": "2026-11-14 16:03"
-    },
-    "cappedByChannel": {
-      "alpha-3-new-accounts": false,
-      "alpha-1-backup": false,
-      "smart-accounts-tracker": false,
-      "alpha-1": false
-    },
-    "alpha3OlderGap": {
-      "attempted": false,
-      "filled": false,
-      "nFilled": 0,
-      "note": "skipped this incremental run; 29h+ outage hole still unscanned; only collected cards after prior lastSeen"
-    },
-    "scannedAtCST": "2026-11-14 16:05"
+  "dsUsage": "deepseek-flash thinking=on; calls=1 (admit 1 candidate); dsFallback=false; admit=true overall=70",
+  "xReads": 22,
+  "xReadsMain": 20,
+  "xReadsSilent": 1,
+  "admitVerify": 1,
+  "remainingBefore": 645,
+  "remaining": 623,
+  "softCap": 28,
+  "minSpend": 20,
+  "silentCap": 2,
+  "tenLanes": true,
+  "userFollow": {
+    "before": 1184,
+    "after": 1234,
+    "kept": 50,
+    "skip": 0,
+    "wrap": false,
+    "priorityKept": [
+      "machinedotfun",
+      "bscaidrop",
+      "PulseLaunchpad",
+      "localbottomcom",
+      "NutshellMarkets"
+    ],
+    "prioritySkip": [
+      "mobster_meme",
+      "starx_xlayer"
+    ],
+    "accounts": 1750,
+    "pending": []
   },
-  "lastSeenByChannel": {
-    "alpha-3-new-accounts": "2026-11-14 16:04",
-    "alpha-1-backup": "2026-11-14 14:34",
-    "smart-accounts-tracker": "2026-11-14 14:14",
-    "alpha-1": "2026-11-14 16:03"
+  "mentionsChains": [
+    "LayerZero",
+    "Elysium+kinetiq",
+    "mining-squeek+Nutshell",
+    "BN Agent pads+STARX"
+  ],
+  "silentAccounts": {
+    "ran": true,
+    "lane": "Elysium",
+    "seen": 22,
+    "sentToReview": 0,
+    "admitted": 0,
+    "skipped": 22
   },
-  "push": {
-    "attempted": true,
-    "ok": true,
-    "sha": "92ff35d51c0439d783451d1035d2ecb957925821",
-    "short": "92ff35d"
+  "watchBug": {
+    "nearRoundMissing": 0,
+    "fullTableBackfill": false,
+    "softDebtRefreshed": [
+      "cantonPadWatch",
+      "glazeWatch",
+      "tokenWorksPlaygroundWatch",
+      "cantonWatch",
+      "tokenWorksWatch",
+      "flapPadWatch"
+    ]
   },
-  "remoteVerified": true,
+  "autoMint": false,
+  "lastFullAfterReset": "R1792",
+  "windowsHoursAt1637CST": {
+    "agent-cat": "4.4h",
+    "polyrob": "5.2h",
+    "burybud": "6.4h",
+    "dusktape": "7.4h",
+    "dualforge-bsc": "26.4h"
+  },
+  "priorRoundNote": "R1809 Discord already admitted usevledge at 16:10 CST and notified; ample merged into same round, did not overwrite Discord card, cleared NTR badge only.",
   "panel": "https://reboot7454.github.io/early-scout/",
-  "summary": "R1809：Discord alpha 补收 usevledge；清 shinob-rh,gtafi；lastSeen→2026-11-14 16:04；lastChecked→2026-11-14 16:10 CST",
-  "cardsFile": "dc40_cards_r1808.json"
+  "summary": "R1809 merge：例行 ample 补收 theflyingcar-bnb（BNB 免费 NFT mint LIVE）；清 usevledge 徽章；lastFullAfterReset=R1792"
 }
