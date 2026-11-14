@@ -1,19 +1,15 @@
 {
   "round": 1810,
-  "mode": "discord-alpha-40",
-  "completedAt": "2026-11-14 16:46 CST",
+  "mode": "discord-alpha-40+ample-merge",
+  "completedAt": "2026-11-14 17:09 CST",
   "timezone": "Asia/Shanghai",
-  "notify": true,
-  "notifyReason": "new_admits",
-  "alertMessage": "DC补漏R1810新收：Pillowbook @pillowbookRH｜台子/Meme｜周末批量订单簿，$PILLOW 11/16 01:00 CST 在 Pons 发射（CA待公布）；面板 https://reboot7454.github.io/early-scout/",
-  "alert": "DC补漏R1810新收：Pillowbook @pillowbookRH｜台子/Meme｜周末批量订单簿，$PILLOW 11/16 01:00 CST 在 Pons 发射（CA待公布）；面板 https://reboot7454.github.io/early-scout/",
-  "newAdmits": [
-    "pillowbook-rh"
-  ],
-  "newCount": 1,
-  "newIds": [
-    "pillowbook-rh"
-  ],
+  "notify": false,
+  "notifyReason": "quiet_no_ample_admits_no_le2h_no_new_free_live",
+  "alertMessage": "",
+  "alert": "",
+  "newAdmits": [],
+  "newCount": 0,
+  "newIds": [],
   "admissions": [
     {
       "id": "pillowbook-rh",
@@ -183,16 +179,16 @@
   ],
   "discordPeekDeferred": false,
   "dsFallback": false,
-  "dsUsage": "deepseek-flash thinking=on; calls=2 (admit batch 1 + alert 1); admits=1 rejects=2 already=1 pre_reject=16; dsFallback=false",
+  "dsUsage": "deepseek-flash thinking=on; ample score 1 (fivefold admit=false overall=36); Discord earlier calls=2 (admit batch 1 + alert 1); dsFallback=false",
   "coverage": "discord-alpha multi-channel",
   "cardsAfterLastSeen": 24,
   "cardsRead": 24,
   "uniqueHandles": 20,
   "spideyPosting": true,
-  "xReads": 2,
-  "admitVerify": 5,
-  "remainingBefore": 940,
-  "remaining": 938,
+  "xReads": 22,
+  "admitVerify": 1,
+  "remainingBefore": 623,
+  "remaining": 601,
   "categoryFix": null,
   "priorRoundNote": "R1809 merge tip 727cb2b (ample X scan into Discord-occupied R1809, NTR=['theflyingcar-bnb']); this DC=R1810, did not overwrite; cardsAfterCutoff=24",
   "discordAlphaPeek": {
@@ -242,6 +238,61 @@
   },
   "remoteVerified": false,
   "panel": "https://reboot7454.github.io/early-scout/",
-  "summary": "R1810：Discord alpha 补收 pillowbook-rh；清 theflyingcar-bnb；lastSeen→2026-11-14 16:35；lastChecked→2026-11-14 16:46 CST",
-  "cardsFile": "dc40_cards_r1810.json"
+  "summary": "R1810 merge：ample X 扫描并入 Discord 已占轮；无例行新收；清 pillowbook-rh 徽章不重推；窗口倒计时与软债 lastChecked 已刷新",
+  "cardsFile": "dc40_cards_r1810.json",
+  "ampleNewAdmits": [],
+  "ampleNewCount": 0,
+  "round1810Added": [
+    "pillowbook-rh"
+  ],
+  "newThisRound": [],
+  "clearedThisRoundBadges": [
+    "pillowbook-rh"
+  ],
+  "xReadsMain": 20,
+  "xReadsSilent": 1,
+  "modeX": "ample",
+  "softCap": 28,
+  "minSpend": 20,
+  "silentCap": 2,
+  "tenLanes": true,
+  "ufCursorBefore": 1234,
+  "ufCursor": 1284,
+  "mentions": [
+    "Tape",
+    "GIWA",
+    "BTC",
+    "Starknet+DogeEVM"
+  ],
+  "mentionsDeferred": [
+    "LayerZero",
+    "Elysium+kinetiq",
+    "mining-squeek+Nutshell",
+    "BN Agent pads+STARX"
+  ],
+  "silentLane": "Tape/电路",
+  "silentRan": true,
+  "mergedIntoDiscordRound": true,
+  "lastFullAfterReset": "R1792",
+  "skippedNotable": [
+    {
+      "id": "fivefold",
+      "handle": "@tryfivefold",
+      "reason": "DS admit=false overall=36：官网 fivefold.lol 为 mock 演示前端，CA 当日曾替换，pump.fun 池极薄；非免费 mint。"
+    },
+    {
+      "id": "tradetopo",
+      "handle": "@tradeTopo",
+      "reason": "自称官网 topo.wtf 本轮 TLS 失败/HTTP 500，站点未确认存活，非免费 mint，暂缓。"
+    }
+  ],
+  "windowsHoursLeft": {
+    "agent-cat": "3.9h to 2026-11-14 21:00 CST",
+    "polyrob": "4.7h to public 2026-11-14 21:52 CST",
+    "burybud": "5.9h to 2026-11-14 23:00 CST",
+    "ape-city": "no precise clock, do not pre-alert",
+    "dusktape": "6.9h to 2026-11-15 00:00 CST",
+    "dualforge-bsc": "25.9h to 2026-11-15 19:00 CST"
+  },
+  "watchBugFixes": []
 }
