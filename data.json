@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-14 17:09 CST",
+    "updated": "2026-11-14 17:42 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-14 17:09 CST",
+    "lastScout": "2026-11-14 17:42 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -756,7 +756,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1810,
+    "round": 1811,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2259,7 +2259,11 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "nihilo",
+      "petrichor",
+      "janzeer"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -4957,24 +4961,24 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-14 16:35",
-      "lastChecked": "2026-11-14 16:46 CST",
-      "newestCardTime": "2026-11-14 16:35",
-      "cardsAfterCutoff": 24,
-      "note": "R1810：Discord alpha 补收 pillowbook-rh；清 theflyingcar-bnb；lastSeen→2026-11-14 16:35；lastChecked→2026-11-14 16:46 CST",
-      "lastRound": 1810,
+      "lastSeen": "2026-11-14 17:13",
+      "lastChecked": "2026-11-14 17:42 CST",
+      "newestCardTime": "2026-11-14 17:13",
+      "cardsAfterCutoff": 28,
+      "note": "R1811：Discord alpha 补收 nihilo,petrichor,janzeer；lastSeen→2026-11-14 17:13；lastChecked→2026-11-14 17:42 CST",
+      "lastRound": 1811,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-14 16:35",
-        "alpha-1-backup": "2026-11-14 16:19",
-        "smart-accounts-tracker": "2026-11-14 16:14",
-        "alpha-1": "2026-11-14 16:14"
+        "alpha-3-new-accounts": "2026-11-14 17:13",
+        "alpha-1-backup": "2026-11-14 17:04",
+        "smart-accounts-tracker": "2026-11-14 17:13",
+        "alpha-1": "2026-11-14 16:59"
       },
       "spideyPosting": true,
       "newestByChannel": {
-        "alpha-3-new-accounts": "2026-11-14 16:35",
-        "alpha-1-backup": "2026-11-14 16:19",
-        "smart-accounts-tracker": "2026-11-14 16:14",
-        "alpha-1": "2026-11-14 16:14"
+        "alpha-3-new-accounts": "2026-11-14 17:13",
+        "alpha-1-backup": "2026-11-14 17:04",
+        "smart-accounts-tracker": "2026-11-14 17:13",
+        "alpha-1": "2026-11-14 16:59"
       },
       "cappedByChannel": {
         "alpha-3-new-accounts": false,
@@ -4988,7 +4992,7 @@
         "nFilled": 0,
         "note": "skipped this incremental run; 29h+ outage hole still unscanned; only collected cards after prior lastSeen"
       },
-      "scannedAtCST": "2026-11-14 16:42"
+      "scannedAtCST": "2026-11-14 17:17"
     },
     "round239Added": [
       "tsunamilaunch",
@@ -34325,9 +34329,175 @@
       ],
       "batches": 3,
       "note": "合并例行 ample：shard 1234→1284；本片无已知 NF。UF1/UF3 本窗 0 条；UF2 仅已在库 @TarcoinNetwork 回复贴，不重推。"
-    }
+    },
+    "round1811Added": [
+      "nihilo",
+      "petrichor",
+      "janzeer"
+    ]
   },
   "candidates": [
+    {
+      "id": "janzeer",
+      "name": "Janzeer",
+      "handle": "@JanzeerOrg",
+      "twitter": "@JanzeerOrg",
+      "chain": "Janzeer",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "l1",
+        "dev-bounties",
+        "no-market-price",
+        "wallet-live",
+        "新链"
+      ],
+      "links": {
+        "x": "https://x.com/JanzeerOrg",
+        "website": "https://janzeer.org"
+      },
+      "scores": {
+        "early": 70,
+        "risk": 75,
+        "novelty": 70,
+        "actionable": 70,
+        "overall": 61
+      },
+      "highlights": [
+        "Janzeer L1 已 Live：最新块约 #247,693、7 个活跃验证人、15s 出块单块最终性",
+        "固定供应 100M JNZ、0 通胀，验证人一次性保证金 2000（非质押）",
+        "Work bounties 已开：PR 合并奖励 20-100 JNZ，TypeScript/Dart/Kotlin/Go SDK 与 jz CLI 共 8 个任务",
+        "钱包 1.2.9 与浏览器均已上线，可实际交互"
+      ],
+      "drawbacks": [
+        "已上线约 6 周（自 2026-10-04 起），并非新出现项目，勿当首日盘",
+        "社交几乎为零（1 粉），验证人仅 7 个，网络去中心化与持续性存疑",
+        "官方自述 JNZ 无市场价格，奖励是感谢而非工资，短期无变现路径",
+        "TPS 显示 0.00，实际使用度极低"
+      ],
+      "whatsNew": "L1 持续迭代：Node 0.1.14 增加 supply 接口、钱包 1.2.9 上线、Work bounties 开放 8 个开发任务。",
+      "summary": "Janzeer 是已运行约 6 周的无许可免质押 L1，固定供应 100M JNZ、无市价，有钱包/浏览器/开发赏金可参与；社交与使用度极低，按现阶段的真实状态收录。",
+      "blurb": "已 Live 约 6 周的小型 L1，JNZ 无市价，可做开发赏金与节点观察",
+      "round": 1811,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-14 17:42 CST",
+      "addedAt": "2026-11-14 17:42 CST",
+      "lastChecked": "2026-11-14 17:42 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "petrichor",
+      "name": "Petrichor",
+      "handle": "@petrichorbio_",
+      "twitter": "@petrichorbio_",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "pons-launch",
+        "ai-wetlab",
+        "yc-f2026",
+        "early-token"
+      ],
+      "links": {
+        "x": "https://x.com/petrichorbio_",
+        "website": "https://petrichorbio.com/",
+        "ca": "0x05492746f0257876b61656378c972c4072c9cf3d"
+      },
+      "scores": {
+        "early": 88,
+        "risk": 80,
+        "novelty": 70,
+        "actionable": 80,
+        "overall": 69
+      },
+      "highlights": [
+        "$PETRIC 今日在 Pons 上线并公布 CA：0x05492746f0257876b61656378c972c4072c9cf3d",
+        "官网 petrichorbio.com 为真实 AI 湿实验室，自称 Y Combinator Fall 2026，有 CEO/联创实名",
+        "推文称 Burned All Supply，若属实属筹码结构卖点",
+        "叙事差异化：AI 设计实验 + 并行湿实验室回传数据"
+      ],
+      "drawbacks": [
+        "官网完全未提及 $PETRIC / Pons / CA，代币与 YC 公司的关系未证实",
+        "Burned All Supply 及锁仓/持仓分布均无链上证据，需自行核验",
+        "账号 3 粉 8 推、成立于 2026-11-12，代币同日上线，典型蹭品牌快发盘风险"
+      ],
+      "whatsNew": "AI 湿实验室公司同名代币今日在 Pons 发射，官网实体与代币并存但未互证。",
+      "summary": "Petrichor 有真实 YC 背景的 AI 湿实验室官网，同时今日在 Pons 上线同名代币并公布 CA；代币与官网主体关系未证实，按台子/Meme 收录并标注风险。",
+      "blurb": "YC 背景 AI 湿实验室官网 + 今日 Pons 发射的 $PETRIC（关系未证实）",
+      "round": 1811,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 3,
+      "xFollowers": 3,
+      "firstSeen": "2026-11-14 17:42 CST",
+      "addedAt": "2026-11-14 17:42 CST",
+      "lastChecked": "2026-11-14 17:42 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "nihilo",
+      "name": "Nihilo",
+      "handle": "@nihilo_fun",
+      "twitter": "@nihilo_fun",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "layerzero-claimed",
+        "prelaunch",
+        "social-quest",
+        "experimental"
+      ],
+      "links": {
+        "x": "https://x.com/nihilo_fun",
+        "website": "https://nihilofun.xyz/"
+      },
+      "scores": {
+        "early": 95,
+        "risk": 85,
+        "novelty": 70,
+        "actionable": 75,
+        "overall": 69
+      },
+      "highlights": [
+        "推文明确『experiment begins in 48h』并要求留钱包，发射时间点可推算",
+        "nihilofun.xyz 已上线互动任务页：Follow/Like/Quote/Reply 分别计 50/100/50/200/150 分",
+        "叙事干净（ex nihilo / out of nothing），极早期仅有 1 条推文，抢跑空间大"
+      ],
+      "drawbacks": [
+        "官网仅为任务页，未见 CA、合约或链上地址，产品实质未证实",
+        "LayerZero 归属仅 bio 自称，无任何官方背书或独立核验",
+        "账号 2026-11-11 新建、1 条推文，跑路/空转概率高"
+      ],
+      "whatsNew": "新出现的 LayerZero 叙事实验盘，任务页已可交互，48h 倒计时指向首次发射。",
+      "summary": "Nihilo 是极早期实验型项目，官网为积分任务页并给出 48 小时发射倒计时，但无合约、无 CA，LayerZero 关系仅为自称，按台子/Meme 收录并标未核验。",
+      "blurb": "LayerZero 自称叙事 + 任务页 + 48h 倒计时的极早期实验盘",
+      "round": 1811,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 86,
+      "xFollowers": 86,
+      "firstSeen": "2026-11-14 17:42 CST",
+      "addedAt": "2026-11-14 17:42 CST",
+      "lastChecked": "2026-11-14 17:42 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true,
+      "schedule": {
+        "text": "推文称实验在发推后 48h 开始，约 2026-11-15 22:01 UTC / 2026-11-16 06:01 CST（以推文时间为起算点）"
+      }
+    },
     {
       "id": "pillowbook-rh",
       "name": "Pillowbook",
@@ -296379,18 +296549,22 @@
       }
     }
   ],
-  "newThisRound": [],
-  "alertMessage": "",
+  "newThisRound": [
+    "nihilo",
+    "petrichor",
+    "janzeer"
+  ],
+  "alertMessage": "DC补漏R1811新收：Nihilo、Petrichor、Janzeer；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "theflyingcar-bnb"
   ],
-  "updatedAt": "2026-11-14 17:09 CST",
-  "updated": "2026-11-14 17:09 CST",
+  "updatedAt": "2026-11-14 17:42 CST",
+  "updated": "2026-11-14 17:42 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-14 17:09 CST",
+  "lastScout": "2026-11-14 17:42 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -296432,7 +296606,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4269,
+  "candidateCount": 4272,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -300199,5 +300373,10 @@
   ],
   "round1810Added": [
     "pillowbook-rh"
+  ],
+  "round1811Added": [
+    "nihilo",
+    "petrichor",
+    "janzeer"
   ]
 }
