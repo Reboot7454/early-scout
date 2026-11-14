@@ -1,18 +1,19 @@
 {
   "round": 1806,
-  "mode": "discord-alpha-40",
-  "completedAt": "2026-11-14 14:53 CST",
+  "mode": "ample+discord-merge",
+  "completedAt": "2026-11-14 15:07 CST",
   "timezone": "Asia/Shanghai",
-  "notify": true,
-  "notifyReason": "new_admits",
-  "alertMessage": "DC补漏R1806新收：Boostock@boostockxyz（台子/Meme）、Kinetra Agent@KinetraAgent（台子/Meme）、Securityum@securityum_xyz（Elysium）、Lontra@lontralaunchxyz（Elysium）；面板 https://reboot7454.github.io/early-scout/",
-  "newAdmits": [
+  "notify": false,
+  "notifyReason": "no_new_ample_admits_discord_already_notified",
+  "newAdmits": [],
+  "ampleNewAdmits": [],
+  "discordAlreadyNotified": [
     "boostock",
     "kinetra-agent",
     "securityum",
     "lontra"
   ],
-  "newCount": 4,
+  "newCount": 0,
   "newIds": [
     "boostock",
     "kinetra-agent",
@@ -21,145 +22,100 @@
   ],
   "skipped": [
     {
-      "handle": "@VordaLaunch",
-      "id": "vorda",
-      "round": 1768,
-      "category": "GIWA"
+      "id": "unitedworlduwc",
+      "handle": "@UnitedWorlduwc",
+      "reason": "拒收：1日新号 $UWC 已在 pump.fun 键曲，普通已开盘梗币。"
     },
     {
-      "handle": "@ZROfun",
-      "id": "zro-fun",
-      "round": 1738,
-      "category": "台子/Meme"
+      "id": "krypton-ai",
+      "handle": "@KRYPTON__AI",
+      "reason": "拒收：已有 pump.fun CA，非早期可操作打新。"
     },
     {
-      "handle": "@MoonLightZero_",
-      "id": "moonlight-zero",
-      "round": 1797,
-      "category": "LayerZero"
-    },
-    {
-      "handle": "@0rigindotfun",
-      "id": "origin-dotfun",
-      "round": 1276,
-      "category": "LayerZero"
-    },
-    {
-      "handle": "@nillyfun",
-      "id": "nillyfun",
-      "round": 1797,
-      "category": "台子/Meme"
-    },
-    {
-      "handle": "@zxoxocash",
-      "id": "zxoxo",
-      "round": 1765,
-      "category": "挖矿"
-    },
-    {
-      "handle": "@lontralaunc_xyz",
-      "reason": "card typo/old handle; canonical X user is @lontralaunchxyz (kept separately). @lontralaunc_xyz itself 404s on X."
-    },
-    {
-      "handle": "@theiNuCTO",
-      "reason": "不是新项目：帖文自称 Robinhood 第一波 stock-pair 旧币 $iNu 的社区 CTO 复活号（original socials went quiet / Community-run account for the final iNu），非极早期新产品。"
-    },
-    {
-      "handle": "@TinFoilHatonX",
-      "reason": "已发射 pump.fun 梗币（CA …pump），账号 10/5 创建，仅一条猫碗梗帖，无独立产品/玩法。"
-    },
-    {
-      "handle": "@SuerteGuy",
-      "reason": "个人号 Issac Li，bio 仅 Xora，0 帖 0 站，无项目线索。"
-    },
-    {
-      "handle": "@MursleenQasim",
-      "reason": "个人号，bio Always trust with Allah，无项目线索。"
-    },
-    {
-      "handle": "@rohs881",
-      "reason": "个人号 Rohan，bio chilling，无项目线索。"
-    },
-    {
-      "handle": "@JivanSinghhyxa",
-      "reason": "个人号 Jivan Singh，无项目线索。"
-    },
-    {
-      "handle": "@JamesMorris_usa",
-      "reason": "个人号 James Morris，无项目线索。"
-    },
-    {
-      "handle": "@wrnMxEmhJyyagrm",
-      "reason": "个人号，无项目线索。"
-    },
-    {
-      "handle": "@Real_S330",
-      "reason": "个人号 siam，bio 仅「具身智能 ai 科技前沿」，无独立项目推特产品/发射线索。"
-    },
-    {
-      "handle": "@erllnetai",
-      "reason": "个人号 Enrique Llamas / Henry，仅关注 @Enter_Elysium，无独立项目。"
-    },
-    {
-      "handle": "@MsShakil7x",
-      "reason": "个人号 Crypto Lover，无项目线索。"
-    },
-    {
-      "handle": "@anushasaxenaaa",
-      "reason": "个人号 Anusha，incoming intern @PlayStation，无项目线索。"
-    },
-    {
-      "handle": "@hxr1_x",
-      "reason": "个人号 Hari，无项目线索。"
-    },
-    {
-      "handle": "@oluoch_keffa",
-      "reason": "个人号 George Keffa Oluoch Business manager，无项目线索。"
-    },
-    {
-      "handle": "@RMCrypto",
-      "reason": "个人号，bio Bull Run start now，无项目线索。"
-    },
-    {
-      "handle": "@GoutSaigon",
-      "reason": "个人/兴趣号，无独立项目产品线索。"
-    },
-    {
-      "handle": "@RyanGCox_",
-      "reason": "个人网络安全工程师 Ryan G. Cox，1623 粉，有 newsletter/defendtheorg，非极早期链上项目。"
-    },
-    {
-      "handle": "@LumeBTC",
-      "reason": "高粉分析师 16990，非项目号。"
-    },
-    {
-      "handle": "@sparkpointio",
-      "reason": "成熟项目/高粉 85554，自托管 AI 组合管理，非极早期。"
-    },
-    {
-      "handle": "@kilicsln",
-      "reason": "高粉个人号 7283，无独立极早期项目。"
-    },
-    {
-      "handle": "@MetaMarginTech",
-      "reason": "蓝V新号但0帖0站，仅有保证金产品口号式bio，无可核验产品或合约，按空壳标准拒收。"
+      "id": "analos",
+      "handle": null,
+      "reason": "仅见第三方 RT 称 ANALOS Public Beta / LaunchPad，本轮未见可核验新官号，不收。"
     }
   ],
-  "cardsAfterLastSeen": 41,
-  "clearedPrevNewThisRound": true,
-  "prevNewThisRoundCleared": [
-    "hwan",
-    "raidfolk"
-  ],
-  "candidateFlagsCleared": 2,
-  "topNewThisRoundCleared": [
-    "hwan",
-    "raidfolk"
+  "dsOverrideCategory": [],
+  "dsOverrideReject": [],
+  "clearedPrevNewThisRound": false,
+  "prevNewThisRoundKept": [
+    "boostock",
+    "kinetra-agent",
+    "securityum",
+    "lontra"
   ],
   "discordPeekDeferred": false,
   "dsFallback": false,
-  "dsUsage": "deepseek-flash thinking=on; admitCalls=1 (5 X-verified keep, 4 yes, 1 reject MetaMarginTech); alertCalls=1; dsFallback=false",
-  "coverage": "discord-alpha #alpha-3-new-accounts + #alpha-1-backup + #smart-accounts-tracker + #alpha-1",
+  "dsUsage": "deepseek-flash unused this ample merge; no new cards to admit/score; dsFallback=false",
+  "coverage": "UF shard 1033-1084 + MUST/window + ten-lane KW + mentions Tape/GIWA/BTC/Starknet+DogeEVM; Discord alpha already done earlier in R1806",
+  "xReads": 21,
+  "xReadsMain": 20,
+  "xReadsSilent": 1,
+  "admitVerify": 0,
+  "remainingBefore": 709,
+  "remaining": 688,
+  "modePacing": "ample",
+  "softCap": 28,
+  "minSpend": 20,
+  "silentCap": 2,
+  "tenLanes": true,
+  "userFollowDone": true,
+  "ufCursorBefore": 1033,
+  "ufCursor": 1084,
+  "mentions": [
+    "Tape",
+    "GIWA",
+    "BTC",
+    "Starknet+DogeEVM"
+  ],
+  "mentionsDeferred": [
+    "LayerZero",
+    "Elysium",
+    "mining-squeek",
+    "BN Agent pads+STARX"
+  ],
+  "silentAccounts": {
+    "ran": true,
+    "lane": "台子/Meme",
+    "used": 1,
+    "seen": 25,
+    "sentToReview": 0,
+    "admitted": 0
+  },
+  "lastFullAfterReset": "R1792",
+  "mergedIntoDiscordRound": true,
+  "watchBugBackfill": [
+    "boostock",
+    "kinetra-agent",
+    "securityum",
+    "lontra",
+    "raidfolk",
+    "hwan",
+    "zero-kitties",
+    "nave-hl",
+    "thejenslax",
+    "foodcoin",
+    "puppet-pro",
+    "zunki",
+    "DividingSpoils",
+    "elysiumverse"
+  ],
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R1806：Discord 已补收 boostock,kinetra-agent,securityum,lontra（已通知不重推）；例行 ample X 扫描合并进同一轮，无例行新卡；xReads 21 remaining 709→688；ape-city 澄清今日发 TOKEN 而非 NFT，仍无精确时钟，不预推；补挂近轮漏 Watch。",
+  "windows": {
+    "polyrob": "2026-11-14 21:52 CST (~6.7h)",
+    "agent-cat": "2026-11-14 21:00 CST (~5.9h)",
+    "burybud": "2026-11-14 23:00 CST (~7.9h)",
+    "ape-city": "token today unconfirmed; NFT window retracted (old 23:00 CST clock unverified for token, ~7.9h if reused)",
+    "dusktape": "2026-11-15 00:00 CST (~8.9h)",
+    "dualforge-bsc": "2026-11-15 19:00 CST (~27.9h)"
+  },
   "discordAlphaPeek": {
     "deferred": false,
     "lastSeen": "2026-11-14 14:42",
@@ -195,22 +151,22 @@
     },
     "scannedAtCST": "2026-11-14 14:47"
   },
-  "push": {
-    "attempted": false,
-    "ok": false
-  },
-  "panel": "https://reboot7454.github.io/early-scout/",
-  "summary": "R1806：Discord alpha 补收 boostock,kinetra-agent,securityum,lontra；清 hwan,raidfolk；lastSeen→2026-11-14 14:42；lastChecked→2026-11-14 14:53 CST",
-  "remoteVerified": false,
-  "cardsFile": "dc40_cards_r1806.json",
-  "priorRoundNote": "R1805 meta NTR ['raidfolk', 'hwan']; cardsAfterCutoff=41",
-  "alert": "DC补漏R1806新收：Boostock@boostockxyz（台子/Meme）、Kinetra Agent@KinetraAgent（台子/Meme）、Securityum@securityum_xyz（Elysium）、Lontra@lontralaunchxyz（Elysium）；面板 https://reboot7454.github.io/early-scout/",
   "lastSeenByChannel": {
     "alpha-3-new-accounts": "2026-11-14 14:42",
     "alpha-1-backup": "2026-11-14 14:34",
     "smart-accounts-tracker": "2026-11-14 14:14",
     "alpha-1": "2026-11-14 14:34"
   },
-  "uniqueHandles": 31,
-  "spideyPosting": true
+  "priorDiscord": {
+    "mode": "discord-alpha-40",
+    "completedAt": "2026-11-14 14:53 CST",
+    "newAdmits": [
+      "boostock",
+      "kinetra-agent",
+      "securityum",
+      "lontra"
+    ],
+    "notify": true,
+    "alertMessage": "DC补漏R1806新收：Boostock@boostockxyz（台子/Meme）、Kinetra Agent@KinetraAgent（台子/Meme）、Securityum@securityum_xyz（Elysium）、Lontra@lontralaunchxyz（Elysium）；面板 https://reboot7454.github.io/early-scout/"
+  }
 }
