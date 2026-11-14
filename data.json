@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-14 14:34 CST",
+    "updated": "2026-11-14 14:53 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-14 14:34 CST",
+    "lastScout": "2026-11-14 14:53 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -756,7 +756,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1805,
+    "round": 1806,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -833,7 +833,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 4260,
+    "candidateCount": 4264,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -2260,8 +2260,10 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "raidfolk",
-      "hwan"
+      "boostock",
+      "kinetra-agent",
+      "securityum",
+      "lontra"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -4956,25 +4958,38 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-14 14:02",
+      "lastSeen": "2026-11-14 14:42",
+      "lastChecked": "2026-11-14 14:53 CST",
+      "newestCardTime": "2026-11-14 14:42",
+      "cardsAfterCutoff": 41,
+      "note": "R1806：Discord alpha 补收 boostock,kinetra-agent,securityum,lontra；清 hwan,raidfolk；lastSeen→2026-11-14 14:42；lastChecked→2026-11-14 14:53 CST",
+      "lastRound": 1806,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-14 14:02",
-        "alpha-1-backup": "2026-11-14 13:34",
-        "smart-accounts-tracker": "2026-11-14 13:44",
-        "alpha-1": "2026-11-14 13:55"
+        "alpha-3-new-accounts": "2026-11-14 14:42",
+        "alpha-1-backup": "2026-11-14 14:34",
+        "smart-accounts-tracker": "2026-11-14 14:14",
+        "alpha-1": "2026-11-14 14:34"
       },
-      "lastChecked": "2026-11-14 14:13 CST",
-      "newestCardTime": "2026-11-14 14:02",
-      "cardsAfterCutoff": 51,
       "spideyPosting": true,
-      "note": "R1805：Discord alpha 补收 raidfolk,hwan；X核验后拒收 scoutymeme（无产品研报号）、plumbercabal（已开盘普通pump）、peacefrogggggg（已放量非极早期）、vensa_si（非加密）；DS误标 raidfolk GO盘已改为打新；lastSeen→2026-11-14 14:02；lastChecked→2026-11-14 14:13 CST",
-      "lastRound": 1805,
+      "newestByChannel": {
+        "alpha-3-new-accounts": "2026-11-14 14:42",
+        "alpha-1-backup": "2026-11-14 14:34",
+        "smart-accounts-tracker": "2026-11-14 14:14",
+        "alpha-1": "2026-11-14 14:34"
+      },
+      "cappedByChannel": {
+        "alpha-3-new-accounts": false,
+        "alpha-1-backup": false,
+        "smart-accounts-tracker": false,
+        "alpha-1": false
+      },
       "alpha3OlderGap": {
         "attempted": false,
         "filled": false,
         "nFilled": 0,
         "note": "skipped this incremental run; 29h+ outage hole still unscanned; only collected cards after prior lastSeen"
-      }
+      },
+      "scannedAtCST": "2026-11-14 14:47"
     },
     "round239Added": [
       "tsunamilaunch",
@@ -34123,9 +34138,215 @@
     "round1805Added": [
       "raidfolk",
       "hwan"
+    ],
+    "round1806Added": [
+      "boostock",
+      "kinetra-agent",
+      "securityum",
+      "lontra"
     ]
   },
   "candidates": [
+    {
+      "id": "lontra",
+      "name": "Lontra",
+      "handle": "@lontralaunchxyz",
+      "twitter": "@lontralaunchxyz",
+      "chain": "Elysium Testnet (99901)",
+      "category": "Elysium",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "Elysium生态",
+        "launchpad"
+      ],
+      "links": {
+        "x": "https://x.com/lontralaunchxyz",
+        "website": "https://lontralaunch.xyz"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 5.5,
+        "actionable": 6.5,
+        "overall": 5.9
+      },
+      "highlights": [
+        "lontralaunch.xyz 标注 Elysium block — chain id 99901，并读取该链RPC",
+        "产品为代币发射准备套件：供应与分配配置、合约参数预览、部署与解锁进度监控",
+        "单笔交易创建固定供应代币+vesting",
+        "$LONTRA 已部署 CA 0x9ad23432abb4798dcf005056e3fa884df208024f"
+      ],
+      "drawbacks": [
+        "卡片handle @lontralaunc_xyz 为拼写错误，已更正为 @lontralaunchxyz",
+        "未登上官方 ecosystem 页，无生态背书",
+        "0关注者、仅3帖，社交扩散度极低"
+      ],
+      "whatsNew": "Lontra 在 Elysium 测试网(99901)上线代币发射准备工具并发行 $LONTRA。",
+      "summary": "Lontra 是 Elysium chain 99901 上的代币发射准备工具，站点已上线并直接从该链 RPC 读取区块：支持供应/分配配置、合约参数复核、单笔交易创建固定供应代币加 vesting，并监控部署与解锁进度；$LONTRA 已在测试网部署。属可核验的具体测试网部署，非猎人个人号，后续可关注是否接入官方生态页。",
+      "blurb": "Elysium 测试网(99901)代币发射准备套件，单笔发币+vesting，$LONTRA 已部署。",
+      "round": 1806,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-14 14:53 CST",
+      "addedAt": "2026-11-14 14:53 CST",
+      "lastChecked": "2026-11-14 14:53 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "securityum",
+      "name": "Securityum",
+      "handle": "@securityum_xyz",
+      "twitter": "@securityum_xyz",
+      "chain": "Elysium Testnet (99901)",
+      "category": "Elysium",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "Elysium生态",
+        "security",
+        "tool"
+      ],
+      "links": {
+        "x": "https://x.com/securityum_xyz",
+        "website": "https://securityum.xyz"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.0
+      },
+      "highlights": [
+        "站点头部标注 Elysium · chain 99901，并直接读取该链数据",
+        "功能具体：合约扫描、权限检查、地址监控、calldata 预览",
+        "$SECURITYUM CA 0xe8a4d58b36107fac3d992b4fb6de37c7b20fb0ab 已在Elysium测试网",
+        "推文明确称已 now live on Elysium"
+      ],
+      "drawbacks": [
+        "尚未登上官方 ecosystem 页，生态背书缺失",
+        "无蓝V、0关注者，账号极新(今日创建)",
+        "仅有测试网部署，产品成熟度未知"
+      ],
+      "whatsNew": "Securityum 在 Elysium 测试网(99901)上线安全工具站并发行 $SECURITYUM，提供合约扫描与权限检查。",
+      "summary": "Securityum 是面向 Elysium 链上用户的安全工具，站点已上线并直接读取 Elysium chain 99901，提供合约扫描、权限检查(inspector)、地址监控与 calldata 预览；同名代币 $SECURITYUM 已部署于测试网。属明确测试网部署的早期生态项目，未被官方生态页收录，需跟踪后续主网与工具可用性。",
+      "blurb": "Elysium 测试网(99901)上的签名前安全扫描工具，$SECURITYUM 已部署。",
+      "round": 1806,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-14 14:53 CST",
+      "addedAt": "2026-11-14 14:53 CST",
+      "lastChecked": "2026-11-14 14:53 CST",
+      "zoneHint": "Elysium",
+      "newThisRound": true
+    },
+    {
+      "id": "kinetra-agent",
+      "name": "Kinetra Agent",
+      "handle": "@kinetraagent",
+      "twitter": "@kinetraagent",
+      "chain": "Robinhood Chain Testnet",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "RobinhoodChain",
+        "AI-agent",
+        "open-source"
+      ],
+      "links": {
+        "x": "https://x.com/KinetraAgent"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6.5,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 5.9
+      },
+      "highlights": [
+        "推文给出 Robinhood Chain Testnet 上已部署的 KinetraReleaseRegistry 与 KinetraToolRegistry 地址",
+        "定位开源AI执行agent，带可验证发布与工具注册表",
+        "强调permissioned execution与可验证基础设施"
+      ],
+      "drawbacks": [
+        "无独立站点，仅有X与合约地址",
+        "仅2帖1媒体，产品界面与玩法未披露",
+        "关注者1人，社交侧几乎无验证"
+      ],
+      "whatsNew": "Kinetra 在 Robinhood Chain 测试网上线开源AI执行agent，并部署发布/工具注册表合约。",
+      "summary": "Kinetra Agent 是宣称开源的AI执行agent，已在 Robinhood Chain Testnet 部署 KinetraReleaseRegistry(0xe2b4…06AF) 与 KinetraToolRegistry(0xAFc3…CB7) 两个可核验合约，主打可验证发布与权限化执行。项目无独立站点、帖文极少，属极早期合约级线索，适合先跟踪合约与后续交互。",
+      "blurb": "Robinhood Chain 测试网上的开源AI执行agent，两个注册表合约已部署可核验。",
+      "round": 1806,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-14 14:53 CST",
+      "addedAt": "2026-11-14 14:53 CST",
+      "lastChecked": "2026-11-14 14:53 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "boostock",
+      "name": "Boostock",
+      "handle": "@boostockxyz",
+      "twitter": "@boostockxyz",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "RobinhoodChain",
+        "AI-agent",
+        "trading"
+      ],
+      "links": {
+        "x": "https://x.com/boostockxyz",
+        "website": "https://boostock.xyz"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.1
+      },
+      "highlights": [
+        "独立站点为在线产品页：支持96个Robinhood股票代币(NVDA/TSLA/AAPL/SPY)在幽灵地址间兑换",
+        "AI agent带硬预算、密钥在页内生成、支持从ETH/Base/Arb跨链ETH/USDC进幽灵地址",
+        "非托管，站点明确标注Robinhood Chain"
+      ],
+      "drawbacks": [
+        "X账号今日新建、0帖0媒体，无社交侧证据",
+        "CA仍为coming soon，无已部署合约可核验",
+        "0关注者，产品可信度仅靠站点"
+      ],
+      "whatsNew": "新上线的Robinhood Chain幽灵地址股票代币交易台，含预算受限AI agent与跨链入金路径。",
+      "summary": "Boostock 是 Robinhood Chain 上的幽灵地址股票代币交易产品，站点已上线可交互说明：可兑换96个股票代币、AI agent按硬预算执行、密钥在页内生成、从ETH/Base/Arb跨链入金，非托管。X为当日新建蓝V、0帖，CA尚未公布，属极早期仅有站点证据的候选，值得观察但需等待合约公开。",
+      "blurb": "Robinhood Chain 幽灵地址股票代币交易台，AI agent按预算执行，CA待公布。",
+      "round": 1806,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-14 14:53 CST",
+      "addedAt": "2026-11-14 14:53 CST",
+      "lastChecked": "2026-11-14 14:53 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "hwan",
       "name": "hwan",
@@ -34173,7 +34394,7 @@
       "addedAt": "2026-11-14 14:13 CST",
       "lastChecked": "2026-11-14 14:13 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "source": "discord-alpha",
       "contract": "FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs",
       "contracts": {
@@ -34227,7 +34448,7 @@
       "addedAt": "2026-11-14 14:13 CST",
       "lastChecked": "2026-11-14 14:13 CST",
       "zoneHint": "打新",
-      "newThisRound": true,
+      "newThisRound": false,
       "source": "discord-alpha"
     },
     {
@@ -295634,21 +295855,23 @@
     }
   ],
   "newThisRound": [
-    "raidfolk",
-    "hwan"
+    "boostock",
+    "kinetra-agent",
+    "securityum",
+    "lontra"
   ],
-  "alertMessage": "R1805 Discord alpha 补充收录 2 条，面板：https://reboot7454.github.io/early-scout/\n\nRaidfolk｜@playraidfolk｜打新（Robinhood Chain 上 outlaw 基地建设游戏，官网与等待名单已上线，免费玩、无付费战力；袭击预览与 WREN 仍标 Soon，核心玩法未完全可玩，粉丝仅 5 且未见代币与合约信息）\n\nhwan｜@hwandotio｜台子/Meme（把十国街市美元与官方汇率价差做成 Solana 可读可交易指数，每 15 分钟写链、周五按 ECB 结算，bio 挂 CA；首页曾显示 Setting the scale 0%、交易是否完全放开未复核，指数依赖成员报价，成员沉默一天即停更）",
+  "alertMessage": "DC补漏R1806新收：Boostock@boostockxyz（台子/Meme）、Kinetra Agent@KinetraAgent（台子/Meme）、Securityum@securityum_xyz（Elysium）、Lontra@lontralaunchxyz（Elysium）；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "raidfolk",
     "hwan"
   ],
-  "updatedAt": "2026-11-14 14:13 CST",
-  "updated": "2026-11-14 14:13 CST",
+  "updatedAt": "2026-11-14 14:53 CST",
+  "updated": "2026-11-14 14:53 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-14 14:13 CST",
+  "lastScout": "2026-11-14 14:53 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -295690,7 +295913,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4260,
+  "candidateCount": 4264,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -299507,5 +299730,11 @@
   "round1805Added": [
     "raidfolk",
     "hwan"
+  ],
+  "round1806Added": [
+    "boostock",
+    "kinetra-agent",
+    "securityum",
+    "lontra"
   ]
 }
