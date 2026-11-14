@@ -1,12 +1,12 @@
 {
   "round": 1814,
-  "mode": "discord-alpha-40",
-  "completedAt": "2026-11-14 18:51 CST",
+  "mode": "pace-merge",
+  "completedAt": "2026-11-14 19:08 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
-  "notifyReason": "new_admits",
-  "alertMessage": "DC补漏R1814新收：台子/Meme｜OmenPad @omenpad：2026-11-14 13:00 UTC（21:00 CST）发射 $OMENPAD，0 HYPE，CA未公布；面板 https://reboot7454.github.io/early-scout/",
-  "alert": "DC补漏R1814新收：台子/Meme｜OmenPad @omenpad：2026-11-14 13:00 UTC（21:00 CST）发射 $OMENPAD，0 HYPE，CA未公布；面板 https://reboot7454.github.io/early-scout/",
+  "notifyReason": "agent-cat 首次进入 ≤2h（21:00 CST，约 1.9h）。Discord omenpad 已通知不重推。例行无新收录。",
+  "alertMessage": "【R1814】agent-cat（@AgentCatRh）首次进入 ≤2h：官网标注发射 2026-11-14 21:00 CST（约 1.9h 后），mint 尚未打开。面板：https://reboot7454.github.io/early-scout/",
+  "alert": "【R1814】agent-cat（@AgentCatRh）首次进入 ≤2h：官网标注发射 2026-11-14 21:00 CST（约 1.9h 后），mint 尚未打开。面板：https://reboot7454.github.io/early-scout/",
   "newAdmits": [
     "omenpad"
   ],
@@ -179,7 +179,7 @@
   ],
   "discordPeekDeferred": false,
   "dsFallback": false,
-  "dsUsage": "deepseek-flash thinking=on; calls=3 (admit 2 batches of 4 after a truncated first call was discarded + alert 1); dsFallback=false",
+  "dsUsage": "deepseek-flash thinking=on; calls=3 (admit 2 batches of 4 after a truncated first call was discarded + alert 1); dsFallback=false + merge calls=2 (admit reject IgnitionX + alert 1); dsFallback=false",
   "coverage": "discord-alpha multi-channel",
   "cardsAfterLastSeen": 35,
   "cardsRead": 35,
@@ -238,11 +238,10 @@
   },
   "push": {
     "attempted": true,
-    "ok": false,
-    "commit": "733031bb1a035da3303ba994cd02ca53bfd3a16f"
+    "ok": null
   },
   "panel": "https://reboot7454.github.io/early-scout/",
-  "summary": "R1814：Discord alpha 补收 omenpad；lastSeen→2026-11-14 18:37；lastChecked→2026-11-14 18:51 CST",
+  "summary": "R1814 合并例行 pace X 扫描进 Discord 已占轮：无例行新收录；补挂 omenpad Watch；agent-cat 首次进入 ≤2h（21:00 CST，约 1.9h）；polyrob 公开拍卖改至 22:00 CST。notify=true。未自动 mint。",
   "remoteVerified": false,
   "cardsFile": "dc40_cards_r1814.json",
   "loginOk": true,
@@ -273,5 +272,112 @@
   },
   "candidateCount": 4281,
   "dsAlertOk": true,
-  "xVerifyReads": 7
+  "xVerifyReads": 7,
+  "discordOccupied": true,
+  "discordOccupiedAt": "2026-11-14 18:51 CST",
+  "ampleMergedIntoDiscordRound": true,
+  "roundNotIncremented": true,
+  "autoMint": false,
+  "lastFullAfterReset": "R1792",
+  "newThisRound": [],
+  "topNewThisRound": [],
+  "round1814Added": [
+    "omenpad"
+  ],
+  "discordAdmitsNotRepushed": [
+    "omenpad"
+  ],
+  "ampleNewAdmits": [],
+  "newCountAmple": 0,
+  "watchBugFixed": [
+    {
+      "id": "omenpad",
+      "handle": "@omenpad",
+      "watches": [
+        "userFollowWatch"
+      ]
+    }
+  ],
+  "xReads": 22,
+  "xReadsMain": 20,
+  "xReadsSilent": 1,
+  "admitVerifyReads": 1,
+  "remainingBefore": 535,
+  "remaining": 513,
+  "softCap": 18,
+  "minSpend": 18,
+  "silentCap": 2,
+  "tenLanes": true,
+  "laneReads": {
+    "LayerZero": 1,
+    "Tape/电路": 1,
+    "GIWA": 1,
+    "DogeEVM": 1,
+    "BTC": 1,
+    "Starknet": 1,
+    "打新": 1,
+    "挖矿": 1,
+    "台子/Meme": 1,
+    "GO盘": 1,
+    "Elysium": 1
+  },
+  "ufCursor": {
+    "before": 1430,
+    "after": 1478,
+    "kept": 48,
+    "skip": 0,
+    "wrap": false,
+    "accountsAfter": 1763
+  },
+  "mentionsCoverage": [
+    "Tape",
+    "GIWA",
+    "BTC",
+    "Starknet+DogeEVM"
+  ],
+  "silentAccounts": {
+    "ran": true,
+    "lane": "Starknet",
+    "path": "mentions-only",
+    "seen": 0,
+    "sentToReview": 0,
+    "skipped": 0,
+    "admitted": 0,
+    "searchUsersAvailable": false
+  },
+  "fatNextStarts": {
+    "agentPad": 250,
+    "freeMint": 277,
+    "bnAgent": 114,
+    "elysium": 197
+  },
+  "clockUpdates": {
+    "agent-cat": "2026-11-14 21:00 CST (~1.9h, first ≤2h)",
+    "omenpad": "2026-11-14 21:00 CST (~1.9h, ≤2h already Discord-notified)",
+    "polyrob": "public auction 2026-11-14 22:00 CST (~2.9h), paid",
+    "baglings": "2026-11-14 22:00 CST (~2.9h)",
+    "burybud": "2026-11-14 23:00 CST (~3.9h)",
+    "dusktape": "2026-11-15 00:00 CST (~4.9h)",
+    "shinob-rh": "2026-11-15 01:00 CST (~5.9h)",
+    "ember-pow": "next free wood 2026-11-15 08:00 CST",
+    "dualforge-bsc": "2026-11-15 19:00 CST",
+    "qtronlaptops": "2026-11-16 01:00 CST (~29.9h)",
+    "pillowbook-rh": "2026-11-16 01:00 CST (~29.9h)"
+  },
+  "le2hCurrent": [
+    "agent-cat",
+    "omenpad"
+  ],
+  "firstTimeLe2h": [
+    "agent-cat"
+  ],
+  "skipsThisMerge": [
+    "IgnitionX / @IgnitionX_Pad (DS reject: official site+twitter interlinked, but all v4 factories demo/live null, simulated launch only)",
+    "Malware Mistletoe / LEDGERA (PhKaa168 minter posts; no official twitter found)",
+    "hoodicorns / trippiart / onlystreetsfun / echofun (already in library, no new free-LIVE or first ≤2h)",
+    "Vault Pass (no official twitter)",
+    "tradeTopo (site fail)",
+    "fivefold (mock/demo)",
+    "onsparkpad/tryspark.fun (Lovable demo)"
+  ]
 }
