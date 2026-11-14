@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-14 10:38 CST",
+    "updated": "2026-11-14 10:40 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-14 10:38 CST",
+    "lastScout": "2026-11-14 10:40 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -754,7 +754,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 1796,
+    "round": 1797,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -831,7 +831,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 4232,
+    "candidateCount": 4235,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -2257,7 +2257,11 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "bagholderfun",
+      "pyreonchain",
+      "mouthy"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -4945,17 +4949,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-14 09:53",
-      "lastChecked": "2026-11-14 10:00 CST",
-      "newestCardTime": "2026-11-14 09:53",
-      "cardsAfterCutoff": 16,
-      "note": "R1795：Discord alpha 补收 proxima-dlt；已清上一轮 newThisRound ['dominomoney', 'anonpad']；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-14 09:53', 'alpha-1-backup': '2026-11-14 09:34', 'smart-accounts-tracker': '2026-11-14 09:50', 'alpha-1': '2026-11-14 09:32'}；开跑前远程已是 R1794，本轮 DC=R1795，未覆盖既有轮次",
-      "lastRound": 1795,
+      "lastSeen": "2026-11-14 10:35",
+      "lastChecked": "2026-11-14 10:40 CST",
+      "newestCardTime": "2026-11-14 10:35",
+      "cardsAfterCutoff": 24,
+      "note": "R1797：Discord alpha 补收 bagholderfun, pyreonchain, mouthy；已清上一轮 newThisRound []（R1796 X scan 已空）；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-14 10:35', 'alpha-1-backup': '2026-11-14 09:34', 'smart-accounts-tracker': '2026-11-14 10:26', 'alpha-1': '2026-11-14 10:33'}；开跑前已 ff 到 origin/main e37b3e4（R1796 ample X scan，无新收录），本轮 DC=R1797，未覆盖既有轮次",
+      "lastRound": 1797,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-14 09:53",
+        "alpha-3-new-accounts": "2026-11-14 10:35",
         "alpha-1-backup": "2026-11-14 09:34",
-        "smart-accounts-tracker": "2026-11-14 09:50",
-        "alpha-1": "2026-11-14 09:32"
+        "smart-accounts-tracker": "2026-11-14 10:26",
+        "alpha-1": "2026-11-14 10:33"
       },
       "spideyPosting": true,
       "alpha3OlderGap": {
@@ -33807,9 +33811,156 @@
       ],
       "batches": 3
     },
-    "round1796Added": []
+    "round1796Added": [],
+    "round1797Added": [
+      "bagholderfun",
+      "pyreonchain",
+      "mouthy"
+    ]
   },
   "candidates": [
+    {
+      "id": "mouthy",
+      "name": "Mouthy",
+      "handle": "@MouthyProtocol",
+      "twitter": "@MouthyProtocol",
+      "chain": "Ethereum",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/MouthyProtocol",
+        "website": "https://www.mouthy.pro/"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.2
+      },
+      "highlights": [
+        "X 号 2026-11-12 11:08 CST 创建，蓝 V，当前 9 粉、1 帖、1 媒体",
+        "官网 https://www.mouthy.pro/ （Vercel），页面自称 post-quantum token launchpad on Ethereum, built on Uniswap v4，口号 Make Ethereum great again",
+        "唯一官帖（2026-11-13 21:51 UTC / 2026-11-14 05:51 CST）配视频，文案 “Make Ethereum Great Again.”"
+      ],
+      "drawbacks": [
+        "官网为 WebGL 落地页，未见发射时间表、文档或已上线的创建流程",
+        "“后量子”叙事暂无独立技术说明，可能偏营销",
+        "仅 1 帖，可操作性仍弱"
+      ],
+      "whatsNew": "新出现的以太坊 Uniswap v4 发射台官号，已挂官网 mouthy.pro，主打后量子叙事。",
+      "summary": "Mouthy（@MouthyProtocol）自称以太坊上基于 Uniswap v4 的后量子代币发射台。X 号于 2026-11-12 11:08 CST 创建，蓝 V，现 9 粉 1 帖 1 媒体；官网 https://www.mouthy.pro/ 与资料页口径一致（Make Ethereum great again）。2026-11-14 05:51 CST 唯一官帖配视频重复该口号。落地页未见发射时间表或可交互创建流程。",
+      "blurb": "以太坊 Uniswap v4 后量子叙事发射台，已有官网，极早期观察。",
+      "round": 1797,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 9,
+      "xFollowers": 9,
+      "firstSeen": "2026-11-14 10:40 CST",
+      "addedAt": "2026-11-14 10:40 CST",
+      "lastChecked": "2026-11-14 10:40 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "pyreonchain",
+      "name": "Pyre",
+      "handle": "@PyreOnchain",
+      "twitter": "@PyreOnchain",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/PyreOnchain",
+        "website": "https://pyre-mu.vercel.app",
+        "github": "https://github.com/Daveboycyber/pyre"
+      },
+      "scores": {
+        "early": 8.5,
+        "risk": 5,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 6.6
+      },
+      "highlights": [
+        "官网 https://pyre-mu.vercel.app ，仓库 https://github.com/Daveboycyber/pyre （2026-09-11 22:04 CST 创建，最近推送 2026-11-12 13:02 CST）",
+        "面向 Robinhood Chain（chain id 4663）的非托管钱包清理：烧垃圾代币/诱饵 NFT、撤销残留授权，并把有报价的垃圾扫成 ETH；Stock Tokens 与稳定币默认锁定不可选",
+        "README 写明 PyreBatch（live）0xcB157e4D7035F9a38b9e0B92b89E544e378c1490；批量清理（2+ 操作）固定 0.0005 ETH/批，扫出收取 1.25% 所得 ETH；费用进公开国库 0xD456De00CB1b20F90D7F7F2A5A38F211f5BB88d6（本轮按仓库文档记录，未另行链上复核）",
+        "2026-11-14 06:49 CST 发帖 “Stocks. Tokens. Baskets.”，与 bio 中 Stock Token Baskets soon 一致"
+      ],
+      "drawbacks": [
+        "X 号本身 2022-10-22 07:15 CST 即已创建（非新号），现仅 7 粉、3 帖、0 媒体，近期才开始发产品相关帖",
+        "勿与 Robinhood 上另一项目 pyre.fun / @PyreFun 混淆",
+        "本轮未独立复核合约字节码或费用参数"
+      ],
+      "whatsNew": "Robinhood Chain 非托管钱包清理器已有官网与公开仓库，README 给出 live PyreBatch 合约与费率；官号预告 Stock Token Baskets。",
+      "summary": "Pyre（@PyreOnchain）是 Robinhood Chain（chain id 4663）非托管钱包清理工具：烧垃圾代币和诱饵 NFT、撤销残留授权，并把有报价的垃圾扫成 ETH；Stock Tokens 与稳定币锁定不可选。官网 https://pyre-mu.vercel.app ，仓库 https://github.com/Daveboycyber/pyre（2026-09-11 创建，最近推送 2026-11-12 13:02 CST）。文档称 live 合约 PyreBatch 0xcB157e4D7035F9a38b9e0B92b89E544e378c1490，批量清理收 0.0005 ETH/批、扫出抽 1.25%。X 号 2022-10-22 07:15 CST 创建，非蓝 V，现 7 粉 3 帖；2026-11-14 06:49 CST 发帖 “Stocks. Tokens. Baskets.”。勿与 pyre.fun / @PyreFun 混淆。",
+      "blurb": "Robinhood Chain 非托管钱包清理器，已有官网、仓库与文档中的 live 合约。",
+      "round": 1797,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 7,
+      "xFollowers": 7,
+      "firstSeen": "2026-11-14 10:40 CST",
+      "addedAt": "2026-11-14 10:40 CST",
+      "lastChecked": "2026-11-14 10:40 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "bagholderfun",
+      "name": "Bagholder",
+      "handle": "@bagholderfun",
+      "twitter": "@bagholderfun",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/bagholderfun",
+        "announcement": "https://x.com/bagholderfun/status/2121425904505417730"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 5.5
+      },
+      "highlights": [
+        "X 号 2026-11-14 05:47 CST 创建，非蓝 V，当前 9 粉、1 帖、1 媒体",
+        "机制：$BAGHOLDER 把手续费发给亏损最多的钱包；2026-11-14 10:12 CST 官帖写 Top 3 holders down the most get paid"
+      ],
+      "drawbacks": [
+        "尚无官网、合约或发射页，链与代币地址未披露",
+        "仅 1 条帖、机制细节与是否已上线无法从公开页复核",
+        "meme 机制币，玩法和可持续性都未验证"
+      ],
+      "whatsNew": "新号官宣 $BAGHOLDER：手续费发给亏损最多的钱包，并称 Top 3 亏损持仓获分配。",
+      "summary": "Bagholder（@bagholderfun）是极早期 meme 玩法币：自称把交易手续费发给亏损最多的钱包。X 号于 2026-11-14 05:47 CST 创建，非蓝 V，现 9 粉 1 帖 1 媒体；唯一官帖（2026-11-14 10:12 CST）写 “Top 3 holders down the most get paid”。未见官网、合约或发射页。",
+      "blurb": "手续费发给亏损最多钱包的极早期 $BAGHOLDER meme。",
+      "round": 1797,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 9,
+      "xFollowers": 9,
+      "firstSeen": "2026-11-14 10:40 CST",
+      "addedAt": "2026-11-14 10:40 CST",
+      "lastChecked": "2026-11-14 10:40 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "proxima-dlt",
       "name": "Proxima",
@@ -293658,19 +293809,23 @@
       }
     }
   ],
-  "newThisRound": [],
-  "alertMessage": "",
+  "newThisRound": [
+    "bagholderfun",
+    "pyreonchain",
+    "mouthy"
+  ],
+  "alertMessage": "R1797 Discord alpha 补充收录 3 条，面板：https://reboot7454.github.io/early-scout/\n\n1. Bagholder｜@bagholderfun｜台子/Meme\n已核验：X 号 2026-11-14 05:47 CST 创建，非蓝 V，9 粉、1 帖、1 媒体；bio 为「$BAGHOLDER sends fees to the wallet that's down the most」；唯一官帖 2026-11-14 10:12 CST 说 Top 3 holders down the most get paid，链接：https://x.com/bagholderfun/status/2121425904505417730\n缺点：无官网、无合约、无发射页，账号极新且非蓝 V，信息仅停留在口号层面。\n\n2. Pyre｜@PyreOnchain｜台子/Meme\n已核验：X 号 2022-10-22 07:15 CST 创建（旧号新用），非蓝 V，7 粉、3 帖、0 媒体；官网 https://pyre-mu.vercel.app ，仓库 https://github.com/Daveboycyber/pyre （创建 2026-09-11 22:04 CST，最近推送 2026-11-12 13:02 CST）；定位 Robinhood Chain (4663) 非托管钱包清理：烧垃圾代币/诱饵 NFT、撤销授权、扫垃圾为 ETH，Stock Tokens 与稳定币锁定；README 列 PyreBatch live 0xcB157e4D7035F9a38b9e0B92b89E544e378c1490，批量 0.0005 ETH/批，扫出 1.25%，国库 0xD456De00CB1b20F90D7F7F2A5A38F211f5BB88d6（按文档，未链上复核）；2026-11-14 06:49 CST 帖「Stocks. Tokens. Baskets.」\n缺点：粉丝极少、非蓝 V，合约与收费参数未链上复核；注意此 Pyre 不是 pyre.fun，也不是 @PyreFun，勿混淆。\n\n3. Mouthy｜@MouthyProtocol｜台子/Meme\n已核验：X 号 2026-11-12 11:08 CST 创建，蓝 V，9 粉、1 帖、1 媒体；官网 https://www.mouthy.pro/ 自称 post-quantum token launchpad on Ethereum, built on Uniswap v4；唯一官帖 2026-11-14 05:51 CST 视频「Make Ethereum Great Again.」\n缺点：落地页未见发射时间表或可交互创建流程，账号粉丝极少，产品仍处概念阶段。",
   "roundNAdded": [
     "dominomoney",
     "anonpad"
   ],
-  "updatedAt": "2026-11-14 10:38 CST",
-  "updated": "2026-11-14 10:38 CST",
+  "updatedAt": "2026-11-14 10:40 CST",
+  "updated": "2026-11-14 10:40 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-14 10:38 CST",
+  "lastScout": "2026-11-14 10:40 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -293712,7 +293867,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4232,
+  "candidateCount": 4235,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -297489,5 +297644,10 @@
     "mizukairo",
     "eely"
   ],
-  "round1796Added": []
+  "round1796Added": [],
+  "round1797Added": [
+    "bagholderfun",
+    "pyreonchain",
+    "mouthy"
+  ]
 }
