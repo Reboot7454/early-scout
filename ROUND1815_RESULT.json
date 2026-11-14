@@ -1,16 +1,48 @@
 {
   "round": 1815,
-  "mode": "discord-alpha-40",
-  "completedAt": "2026-11-14 19:28 CST",
+  "mode": "pace-merge",
+  "completedAt": "2026-11-14 19:44 CST",
   "timezone": "Asia/Shanghai",
-  "notify": false,
-  "notifyReason": "quiet_no_new_admits",
-  "alertMessage": "",
-  "alert": "",
-  "newAdmits": [],
-  "newCount": 0,
-  "newIds": [],
-  "admissions": [],
+  "notify": true,
+  "notifyReason": "新收录 punchin 免费 Whitelist Pass 已 LIVE；hokiseries Base Bots 公售首次进入 ≤2h（20:00 CST，0.0001 ETH 非免费）。agent-cat / omenpad 已通知不重推。",
+  "alertMessage": "【R1815】新收录 Punch In（@PunchInBNB）：BNB Chain 免费 Whitelist Pass 已 LIVE，500 份、每钱包 1 张、soulbound，需 Binance Agent ID + 五项任务；官网 punchin.fun，Pass 合约 0x71D4c3747296F2989CB472ed7efC9ccA197d84d8 链上 2/500、mintOpen=true，综合 63。库内 hokiseries（@Hokiseries）Base 链 OpenSea「Base Bots」公售首次进入 ≤2h：11-14 20:00 CST（约 0.3h）开始、0.0001 ETH（官帖曾写 FREE，以 OpenSea 为准不是免费），每钱包 1 张，合约 0x0ced4195328025fbc5bd1fdbf634c2dacb89046f。agent-cat / omenpad 仍 21:00 CST、mint 未开，不重推。面板：https://reboot7454.github.io/early-scout/",
+  "alert": "【R1815】新收录 Punch In（@PunchInBNB）：BNB Chain 免费 Whitelist Pass 已 LIVE，500 份、每钱包 1 张、soulbound，需 Binance Agent ID + 五项任务；官网 punchin.fun，Pass 合约 0x71D4c3747296F2989CB472ed7efC9ccA197d84d8 链上 2/500、mintOpen=true，综合 63。库内 hokiseries（@Hokiseries）Base 链 OpenSea「Base Bots」公售首次进入 ≤2h：11-14 20:00 CST（约 0.3h）开始、0.0001 ETH（官帖曾写 FREE，以 OpenSea 为准不是免费），每钱包 1 张，合约 0x0ced4195328025fbc5bd1fdbf634c2dacb89046f。agent-cat / omenpad 仍 21:00 CST、mint 未开，不重推。面板：https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    {
+      "id": "punchin",
+      "handle": "@PunchInBNB",
+      "category": "打新",
+      "chain": "BNB Chain",
+      "status": "live",
+      "overall": 63,
+      "focus": false,
+      "freeLive": true,
+      "le2h": false,
+      "site": "https://punchin.fun/",
+      "ca": "0x71D4c3747296F2989CB472ed7efC9ccA197d84d8",
+      "why": "官网+官推互链，链上确认免费 Whitelist Pass LIVE 2/500，需 Agent ID+任务"
+    }
+  ],
+  "newCount": 1,
+  "newIds": [
+    "punchin"
+  ],
+  "admissions": [
+    {
+      "id": "punchin",
+      "handle": "@PunchInBNB",
+      "category": "打新",
+      "chain": "BNB Chain",
+      "status": "live",
+      "overall": 63,
+      "focus": false,
+      "freeLive": true,
+      "le2h": false,
+      "site": "https://punchin.fun/",
+      "ca": "0x71D4c3747296F2989CB472ed7efC9ccA197d84d8",
+      "why": "官网+官推互链，链上确认免费 Whitelist Pass LIVE 2/500，需 Agent ID+任务"
+    }
+  ],
   "already": [],
   "rejected": [
     {
@@ -654,7 +686,9 @@
     {
       "handle": "@cryptanclub",
       "reason": "预拒：已上线约 7 周的 meme 持仓分析工具"
-    }
+    },
+    "PIXEL FROGS: no official twitter (Boltbook promo only)",
+    "Asklepion: DS reject, pre-launch awaiting Zero mainnet 2026-11-30"
   ],
   "clearedPrevNewThisRound": false,
   "prevNewThisRoundCleared": [],
@@ -669,7 +703,7 @@
   "cardsReadApprox": 95,
   "uniqueHandles": 29,
   "spideyPosting": true,
-  "xReads": 11,
+  "xReads": 22,
   "priorRoundNote": "开跑时远程 R1814 merge tip 21f9bb6，NTR 已空；本轮 DC=R1815，未覆盖既有轮次",
   "discordAlphaPeek": {
     "deferred": false,
@@ -712,14 +746,62 @@
     "smart-accounts-tracker": "2026-11-14 18:50",
     "alpha-1": "2026-11-14 19:02"
   },
-  "push": {
-    "attempted": false,
-    "ok": false
-  },
+  "push": null,
   "remoteVerified": false,
   "panel": "https://reboot7454.github.io/early-scout/",
-  "summary": "R1815：Discord alpha 补漏无新收录。扫卡 32 张/29 号，预拒 24，DS 拒 5（zerolotl/lastcandlefun/Raikaagent/nihuahua_/nicelywallet）。推进 lastSeen。notify=false。",
+  "summary": "R1815 merge: pace X scan into Discord-occupied round; admit punchin free Pass LIVE 2/500; hokiseries Base Bots first ≤2h paid 0.0001 ETH at 20:00 CST; DS reject Asklepion; no re-push agent-cat/omenpad.",
   "cardsFile": "dc40_cards_r1815.json",
-  "newThisRound": [],
-  "round1815Added": []
+  "newThisRound": [
+    "punchin"
+  ],
+  "round1815Added": [
+    "punchin"
+  ],
+  "mergeCompletedAt": "2026-11-14 19:44 CST",
+  "discordCompletedAt": "2026-11-14 19:28 CST",
+  "firstTimeLe2h": [
+    "hokiseries"
+  ],
+  "dsRejectsRoutine": [
+    {
+      "handle": "@Asklepion_tech",
+      "reason": "官网与官推互链、文档完整，但 Zero 主网计划 11-30、pre-launch、合约未部署、Votive mint 未开，不具备可操作打新价值",
+      "source": "deepseek-flash"
+    }
+  ],
+  "autoMint": false,
+  "xReadsMain": 21,
+  "xReadsSilent": 1,
+  "admitVerifyReads": 0,
+  "remainingBefore": 513,
+  "remaining": 491,
+  "modePacing": "pace",
+  "softCap": 18,
+  "minSpend": 18,
+  "silentCap": 2,
+  "ufCursorBefore": 1478,
+  "ufCursor": 1526,
+  "tenLanes": true,
+  "mentions": [
+    "LayerZero",
+    "Elysium+kinetiq",
+    "mining-squeek+Nutshell",
+    "BN Agent pads+STARX"
+  ],
+  "mentionsDeferred": [
+    "Tape",
+    "GIWA",
+    "BTC",
+    "Starknet+DogeEVM"
+  ],
+  "silentLane": "打新",
+  "silentAccounts": {
+    "ran": true,
+    "lane": "打新",
+    "seen": 25,
+    "sentToReview": 0,
+    "admitted": 0,
+    "searchUsersAvailable": false
+  },
+  "watchBugsFixed": []
 }
