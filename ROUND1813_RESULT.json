@@ -1,12 +1,12 @@
 {
   "round": 1813,
-  "mode": "discord-alpha-40",
-  "completedAt": "2026-11-14 18:25 CST",
+  "mode": "pace-merge",
+  "completedAt": "2026-11-14 18:43 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
-  "notifyReason": "new_admits",
-  "alertMessage": "DC补漏R1813新收4条：baglings $BAGL 今日22:00 CST 在 Pons 发射；Pepe Code-Cracker 约11/17 OpenSea mint（无钟点）；Q-TRON 11/15 OpenSea $1 mint（无钟点）；Scintilla demo 可试挖；面板 https://reboot7454.github.io/early-scout/",
-  "alert": "DC补漏R1813新收4条：baglings $BAGL 今日22:00 CST 在 Pons 发射；Pepe Code-Cracker 约11/17 OpenSea mint（无钟点）；Q-TRON 11/15 OpenSea $1 mint（无钟点）；Scintilla demo 可试挖；面板 https://reboot7454.github.io/early-scout/",
+  "notifyReason": "例行新收录 reelsliq（Solana 台子，overall 67）。Discord 四卡已通知不重推。无首次进入 ≤2h。",
+  "alertMessage": "【R1813 例行新收录】Solana 台子 reel（@reelsliq）：官网 reelsliq.tech 与官推同 CA，Telegram bot 已上线，$REEL 宣称已 live；非免费 NFT、非 ≤2h。官号 11-08 新建、站点未互链官推，风险偏高，先观察。Discord 本轮已通知的 baglings / pepe-code-cracker / qtronlaptops / scintillamine 不重推。面板：https://reboot7454.github.io/early-scout/",
+  "alert": "【R1813 例行新收录】Solana 台子 reel（@reelsliq）：官网 reelsliq.tech 与官推同 CA，Telegram bot 已上线，$REEL 宣称已 live；非免费 NFT、非 ≤2h。官号 11-08 新建、站点未互链官推，风险偏高，先观察。Discord 本轮已通知的 baglings / pepe-code-cracker / qtronlaptops / scintillamine 不重推。面板：https://reboot7454.github.io/early-scout/",
   "newAdmits": [
     "baglings",
     "pepe-code-cracker",
@@ -152,7 +152,12 @@
   "dsRejects": 2,
   "preRejects": 12,
   "skipped": [],
-  "clearedPrevNewThisRound": true,
+  "clearedPrevNewThisRound": [
+    "baglings",
+    "pepe-code-cracker",
+    "qtronlaptops",
+    "scintillamine"
+  ],
   "prevNewThisRoundCleared": [
     "anvil-nft"
   ],
@@ -218,7 +223,7 @@
     "ok": false
   },
   "panel": "https://reboot7454.github.io/early-scout/",
-  "summary": "R1813：Discord alpha 补收 baglings,pepe-code-cracker,qtronlaptops,scintillamine；lastSeen→2026-11-14 17:53；lastChecked→2026-11-14 18:25 CST",
+  "summary": "R1813 合并例行 pace X 扫描进 Discord 已占轮：新收 reelsliq；补挂 Discord 四卡 Watch；qtronlaptops 补精确时钟 11-16 01:00 CST；无首次 ≤2h。notify=true。未自动 mint。",
   "remoteVerified": false,
   "cardsFile": "dc40_cards_r1812.json",
   "loginOk": true,
@@ -247,6 +252,153 @@
     "alpha-1-backup": 2,
     "smart-accounts-tracker": 2
   },
-  "candidateCount": 4279,
-  "dsAlertOk": true
+  "candidateCount": 4280,
+  "dsAlertOk": true,
+  "discordOccupied": true,
+  "discordOccupiedAt": "2026-11-14 18:25 CST",
+  "ampleMergedIntoDiscordRound": true,
+  "roundNotIncremented": true,
+  "autoMint": false,
+  "lastFullAfterReset": "R1792",
+  "newThisRound": [
+    "reelsliq"
+  ],
+  "topNewThisRound": [
+    "reelsliq"
+  ],
+  "round1813Added": [
+    "baglings",
+    "pepe-code-cracker",
+    "qtronlaptops",
+    "scintillamine",
+    "reelsliq"
+  ],
+  "discordAdmitsNotRepushed": [
+    "baglings",
+    "pepe-code-cracker",
+    "qtronlaptops",
+    "scintillamine"
+  ],
+  "ampleNewAdmits": [
+    {
+      "id": "reelsliq",
+      "handle": "@reelsliq",
+      "category": "台子/Meme",
+      "chain": "Solana",
+      "status": "live",
+      "overall": 67,
+      "freeLive": false,
+      "le2h": false,
+      "why": "官推+官网 200 同 CA，Solana Hook Blocks launchpad/AMM，$REEL 与 TG bot 宣称已 live；库内无同项目。",
+      "risks": "11-08 新号 51 粉；站点未互链官推；未核验链上交易；非免费 mint。"
+    }
+  ],
+  "newCountAmple": 1,
+  "watchBugFixed": [
+    {
+      "id": "baglings",
+      "handle": "@baglings",
+      "watches": [
+        "userFollowWatch"
+      ]
+    },
+    {
+      "id": "pepe-code-cracker",
+      "handle": "@PepeCodeCracker",
+      "watches": [
+        "userFollowWatch"
+      ]
+    },
+    {
+      "id": "qtronlaptops",
+      "handle": "@qtronlaptops",
+      "watches": [
+        "userFollowWatch"
+      ]
+    },
+    {
+      "id": "scintillamine",
+      "handle": "@Scintillamine",
+      "watches": [
+        "userFollowWatch",
+        "miningWatch"
+      ]
+    }
+  ],
+  "xReads": 22,
+  "xReadsMain": 21,
+  "xReadsSilent": 1,
+  "admitVerifyReads": 0,
+  "remainingBefore": 557,
+  "remaining": 535,
+  "softCap": 18,
+  "minSpend": 18,
+  "silentCap": 2,
+  "tenLanes": true,
+  "laneReads": {
+    "LayerZero": 1,
+    "Tape/电路": 1,
+    "GIWA": 1,
+    "DogeEVM": 1,
+    "BTC": 1,
+    "Starknet": 1,
+    "打新": 1,
+    "挖矿": 1,
+    "台子/Meme": 1,
+    "GO盘": 1,
+    "Elysium": 1
+  },
+  "ufCursor": {
+    "before": 1382,
+    "after": 1430,
+    "kept": 48,
+    "skip": 0,
+    "wrap": false,
+    "accountsAfter": 1762
+  },
+  "mentionsCoverage": [
+    "LayerZero",
+    "Elysium+kinetiq",
+    "mining-squeek+Nutshell",
+    "BN Agent pads+STARX"
+  ],
+  "silentAccounts": {
+    "ran": true,
+    "lane": "BTC",
+    "path": "mentions-only",
+    "seen": 39,
+    "sentToReview": 0,
+    "skipped": 39,
+    "admitted": 0,
+    "searchUsersAvailable": false
+  },
+  "fatNextStarts": {
+    "agentPad": 250,
+    "freeMint": 277,
+    "bnAgent": 114,
+    "elysium": 197
+  },
+  "clockUpdates": {
+    "qtronlaptops": "2026-11-16 01:00 CST (~30.3h)",
+    "agent-cat": "2026-11-14 21:00 CST (~2.3h)",
+    "polyrob": "public 2026-11-14 21:52 CST (~3.1h), paid",
+    "baglings": "2026-11-14 22:00 CST (~3.3h)",
+    "burybud": "2026-11-14 23:00 CST (~4.3h)",
+    "dusktape": "2026-11-15 00:00 CST (~5.3h)",
+    "shinob-rh": "2026-11-15 01:00 CST (~6.3h)",
+    "ember-pow": "next free wood 2026-11-15 08:00 CST",
+    "dualforge-bsc": "2026-11-15 19:00 CST (~24.3h)",
+    "pillowbook-rh": "2026-11-16 01:00 CST (~30.3h)"
+  },
+  "le2hCurrent": [],
+  "firstTimeLe2h": [],
+  "skipsThisMerge": [
+    "Vault Pass (no official twitter)",
+    "tradeTopo (site fail)",
+    "fivefold (mock/demo)",
+    "zolkdotio (late announced)",
+    "Pxviks_XYZ (same as in-lib @pxviks)",
+    "onsparkpad/tryspark.fun (Lovable demo)",
+    "ProtextBot (too thin)"
+  ]
 }
