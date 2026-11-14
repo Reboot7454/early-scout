@@ -1,0 +1,29 @@
+# RESULT R1804（独立例行 ample X 扫描）
+
+- time: 2026-11-14 14:05 CST（Asia/Shanghai）。开跑前远程已是 R1803（cbaf5cd），Discord 未占本轮。例行独立起 R1804。notify=false（无新收录、无首次进入 ≤2h、无新确认免费 NFT mint LIVE）。未自动 mint。
+- mode: ample。首探 `search_posts_all` 页脚 remaining 751/1000，倒推 remainingBefore=752（与 R1803 收尾 752 衔接）。softCap=28，minSpend=20，silentCap=2，ufAccountShard=50。不是 08:00 CST 后全量补扫（全量已在 R1792 完成）。
+- lastFullAfterReset: R1792
+- notify: false。无例行新收录。无首次进入 ≤2h。已在库 pickhash / mizukairo 免费首铸仍按已推口径，不重推。polyrob / agent-cat / burybud / ape-city / dualforge-bsc / dusktape 距窗均约 6.9–28.9h，本窗无新开窗官帖，不预推。le2hCurrent 仍为空。justgiving 仅货架进度（R1803 已记 12:56–13:01 CST 多币上线），不重推。
+- xReads: 22（main 20；silent 1；admitVerify 1）；remainingBefore 752 → remaining 730 / 1000；softCap 28，minSpend 20，silentCap 2；main 20 未超 softCap，已达 minSpend（UF×3 + MUST×2 + 薄栏 KW×6 + 核心栏 KW×5 + mentions×4；另 silent×1，admitVerify×1 核验 @inscrib3）。官网 / HTTP / GitHub / 链外只读无 X 成本。from: 官号窗 start_time=2026-11-14T05:01:00Z；关键词 / mentions start_time=2026-11-14T04:56:00Z。silent start_time=2026-11-13T06:02:30Z。不翻页 next_token。search_posts_all 的 max_results 实际硬顶 25。search_users 本轮仍不在 X 工具目录，silent 仅 mention 路径。部分约 6.3KB 处截断的结果已用修复解析取完整对象，未重查同一 query。
+- admitVerifyReads: 1。对拟收录候选 @inscrib3 一次 `get_users_by_usernames`：蓝 V，2023-06-27 01:18 CST 创建，资料栏解析到 https://inscrib3.com，10507 粉 / 1461 帖，bio 写 Building open-source, non-custodial products for programmable Bitcoin. Built with Arkade，与官网官方 X 链接一致。因官号已存在约 3.4 年、粉丝过万，判定非早期，最终不收录。未对已读官号重拉。
+- tenLanes: true。薄栏 6 条独立 KW（LayerZero / Tape/电路 / GIWA / DogeEVM / BTC / Starknet）+ 核心栏 5 条（mint / mine / pad / GO / Elysium）均已跑。未跑 KW_GAPS（R1792 全量已覆盖）。未刷薄栏官号 from: 与四表 FAT 分片：R1792 post-reset-full 已刷完，本轮 ample 增量只保 UF+MUST/窗口 + 十栏 KW + mentions 轮换（Tape、GIWA、BTC、Starknet+DogeEVM）。meta.fatNextStarts 保持 agentPad 250 / freeMint 277 / bnAgent 114 / elysium 197。
+- laneReads: 薄栏 KW 各 1，核心栏各 1，mentions 轮换 4 批各 1。silent 1（打新 提法）。UF1 / UF3 本窗 0 条；UF2 仅 @goofies_nft 玩笑帖。GO 栏仍有航天 “launch” 噪音。Starknet 薄栏 KW 本窗几乎全是 Warrior Cats “Bramble” 同名噪音。
+- userFollow: 刷本片 921→976，kept 50，skip 5（已知 NF：useampad / astropad_real / bianjiayou / kpin_ai / LostGodsOnRH，不连刷），另优先软刷 machinedotfun / bscaidrop / PulseLaunchpad / localbottomcom / NutshellMarkets；priority 已知 NF 跳过 mobster_meme / starx_xlayer（未再读）。3 个 from: 批次，本窗仅 @goofies_nft 2 条玩笑帖（已在库）。UF accounts=1732。下一轮从 976 续。wrap=false。
+- mentions: 本轮轮换子集，未全链全扫。已跑：Tape（@TapeAIAgent / @Blonskr / @TapeOutWorld / @BEMGoGoGo / @tapeupio / @FirstoAI / @Tape_Pool / @bitcointapes / @FoundryTape / @dusktape / @tapeoutwrld / @coverstarlink）；GIWA（@GIWA_by_Upbit / @YeonPad / @Jumak_app / @AmmoraHQ / @ShortChall / @SuperWalk_ / @gamapadcom / @GIWAUP / @hanokreserve / @madang_fun）；BTC（@ShieldedNaka / @banknotes_btc / @Unpairxyz / @acmeonbtc / @XMRVMachine / @ShieldedWizBTC / @RGBHorse / @UnseenOrdo / @DigiGolds / @crest_btc / @TapSeal / @alkanesagentic）；Starknet+DogeEVM（@Bramble_fi / @Starknet / @HOKORI_QUANTUM / @_Set_It_ / @oryvnlaunch / @DogeOS / @LaikaSuperApp / @MonkoCoin / @gekkoai_agent / @RUNECLAW_AI / @cavdefi / @anoncoinit / @wowpadlol / @DogeOSExchange / @packswap_xyz）。LayerZero / Elysium / mining-squeek / BN Agent pads+STARX 本轮未再扫（R1803 刚覆盖）。
+- fat shards: 本轮未刷，cursors 不变。
+- thin official watches: 本轮未刷薄栏官号 from: / FAT。MUST/窗口官号 2 批（含 tmachinroBot / dusktape / burybud / AgentCatRh / Ape_CityRH / DualForgeBSC / mizukaironft / pickhash_bnb / bagholderfun / pxviks / Conway_IA / PyreOnchain / MouthyProtocol / useFeeTag / GiveFiDotLol / Eely_elysium / addzerosfun / nillyfun / Cyra_Dex / tenjofinance / Reflectum_Atlas / MoonLightZero_ / PlayRunevorn / KeeperOnElysium / gpu_hubs / AintNoRuse / tapeoutwrld / anonpad_lol / dominomoney / Proxima_DLT / AurumworId / Jetwayfi / pizzaxone / brewpadlat / JustGivingPad / Puppet_pro / foodcoinpf / thejenslax / nave_hl / Zero_Kitties / 0utdotfun / eserchain / ringssol / duetordie / coverstarlink）。MUST1 见到 Cyra_Dex 13:25 CST 再次点名同一串 Zero 台子（与 R1803 相同名单）。MUST2 见到 JustGivingPad 13:01 CST $GLOVE / $GBALLS 上架（R1803 已记 12:56–13:01 货架进度）、foodcoinpf 日常帖、AintNoRuse 继续推销 $ROOZ。窗口官号本窗无新开窗帖。
+- silentAccounts: ran=true，lane=打新，silentCap=2 本轮用 1（search_users 仍不可用，仅 mention 路径）。seen=4，sentToReview=0，admitted=0，skipped=4（already_in_library 1 = @LayerZero_Core；profile_unresolved 3 = @ShinobRH / @yamadazhn / @objktcom，留给下轮 silentCap 第二读，不占 softCap）。无独立静号新卡。
+- discordPeekDeferred: true（本例行默认不登录 DC；开跑时 Discord 未占 R1804）。
+- DS: 本轮无进入打分的新卡（唯一核验对象 @inscrib3 因非早期直接不送审打分）。dsFallback=false。未编造 CA/官号/官网。未自动 mint。
+- watch-bug: 无新卡，未做整表回填。软债 cantonPadWatch / glazeWatch / tokenWorksPlaygroundWatch / cantonWatch lastChecked 已刷新。
+- skip / 未收：inscrib3（@inscrib3，官网 https://inscrib3.com 200，Mutinynet 测试网已开 Bitcoin-native launchpad / 钱包 / 兑换，docs 与 GitHub org 齐全）但官号 2023-06-27 创建、蓝 V、10507 粉 / 1461 帖，团队自 2023 年起做 UTXO 工具，非早期，不收录。ZOLK（zolk.io 200，LayerZero 主网收藏尚未上链，白名单森林游戏已开、以 X 登录）站点与 JS 均未给出官推，硬规则「新收录必须有推特」，不收录。@dogeossi 自称 DogeOS 测试网节点与 $OSSI oracle，无官网。@HOODVERSENFTs 仅一条 GTD 征地址帖，hoodverse.com 无实质内容。@ShinobRH 仅第三方白名单申请帖、无官网。@peekchop / @DragonXchain 站点空或无关。@fiefxyz 仍仅出现在 Cyra_Dex 点名列表，无新证据。AgentZENITH / Kryntar 再被 @memecallxxx 点名，维持 R1803 不收口径（无可靠官推 / 非早期非免费）。onchainPigarc / BitMinersonRH / Dividendsarts / numencash / PairMineAI / onlystreetsfun / onepumpcc 等均为已在库进度或社区互动，不重推。
+- new cards: 无。meta.newThisRound == 顶层 newThisRound == round1804Added == []。candidateCount=4258。UF accounts=1732。
+
+## 已在库进度（不重推）
+
+- justgiving（@JustGivingPad）：13:01 CST 官号继续发 $GLOVE / $GBALLS 上架帖；R1803 已记 12:56–13:01 CST 货架多币上线，仅进度。
+- Cyra_Dex：13:25 CST 再次点名同一串 Zero 台子，无新官号。
+- AintNoRuse：继续推销 $ROOZ on @onepumpcc。
+- pickhash / mizukairo：免费首铸仍按已推口径；本窗仅见第三方教程帖。
+- numencash：社区继续刷 GIWA 666 lights 文案，本窗无新官帖，档期仍 upcoming，不预推。
+- polyrob 公开销售仍 11-14 21:52 CST（约 7.8h）；agent-cat 21:00 CST（约 6.9h）；burybud / ape-city 23:00 CST（约 8.9h）；dusktape 11-15 00:00 CST（约 9.9h）；dualforge-bsc 11-15 19:00 CST（约 28.9h）。均非 ≤2h。
