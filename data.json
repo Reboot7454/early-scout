@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-14 13:13 CST",
+    "updated": "2026-11-14 13:35 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-14 13:13 CST",
+    "lastScout": "2026-11-14 13:35 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -278,7 +278,7 @@
     ],
     "miningWatch": {
       "note": "R1350 soft-debt 2026-11-07 04:22 CST | R1241 soft-debt 2026-11-05 02:19 CST | R977 soft-debt lastChecked 2026-10-31 12:39 CST; prev 2026-10-31 12:02 CST; R950 soft-debt lastChecked 2026-10-31 04:33 CST; R945 soft-debt lastChecked 2026-10-31 03:02 CST; prev 2026-10-31 01:12 CST; ",
-      "lastChecked": "2026-11-14 08:39:58 CST",
+      "lastChecked": "2026-11-14 13:35 CST",
       "r379": "soft refresh",
       "active": true,
       "r380": "Trac agentic mining续；本窗无新PoW/agent mining admit；lastChecked 2026-10-23 08:32 CST",
@@ -379,7 +379,8 @@
         "lode-on-elysium",
         "orrerynode",
         "silvexmining",
-        "gpu-hubs"
+        "gpu-hubs",
+        "eserchain"
       ],
       "accounts": [
         "@nibblewage",
@@ -459,7 +460,8 @@
         "@lodeonelysium",
         "@orrerynode",
         "@silvexmining",
-        "@gpu_hubs"
+        "@gpu_hubs",
+        "@eserchain"
       ],
       "r476": "R476：farming-season mint LIVE≤2h",
       "r480": "R480：lodepass/miner-fomo续LIVE>2h；无新PoW",
@@ -2262,7 +2264,9 @@
       "foodcoin",
       "thejenslax",
       "nave-hl",
-      "zero-kitties"
+      "zero-kitties",
+      "0ut-fun",
+      "eserchain"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -14426,7 +14430,9 @@
         "@pickhash_bnb",
         "@brewpadlat",
         "@JustGivingPad",
-        "@Thedawgzrh"
+        "@Thedawgzrh",
+        "@0utdotfun",
+        "@eserchain"
       ],
       "candidateIds": [
         "elysatrade",
@@ -16135,7 +16141,9 @@
         "pickhash",
         "brewpad",
         "justgiving",
-        "thedawgzrh"
+        "thedawgzrh",
+        "0ut-fun",
+        "eserchain"
       ],
       "pending": [
         "@Zunki_xyz",
@@ -16144,7 +16152,7 @@
         "@binanceminters"
       ],
       "note": "R1769 merge soft-brush 1038→1086; kept 47, skip 1 known_nf（ePegsV4，本轮不重读）; 2 from: batches，本片 1 帖（polyrob/tmachinroBot 仍为 21:03 白名单已关/22:00 开铸，未改期）。Next starts at 1086. Watch 漏挂：Discord 六卡 @strix_agents / @wagmint_bnb / @burybud / @delvoprotocol / @pervix_xyz / @Envara_Agent 在库不在任何 Watch，已补进 userFollowWatch；@wagmint_bnb 兼 agentPad+bnAgent，@delvoprotocol/@pervix_xyz 兼 elysiumWatch。新收录 @PonkeAgent 进 userFollowWatch+agentPadWatch+bnAgentWatch+freeMintWatch。UF accounts=1647。",
-      "lastChecked": "2026-11-14 13:10:55 CST",
+      "lastChecked": "2026-11-14 13:35 CST",
       "createdAt": "2026-10-28 17:15 CST",
       "sourceRound": 775,
       "r775": "用户点名6项已入 candidates；pending=[]",
@@ -16426,7 +16434,7 @@
       "r1016": "watch-bug fix: cadencebnb @cadencebnb BNB DCA tool",
       "r1018": "watch-bug fix: hashwardonline @HashwardOnline 挖矿 Fuse Cool",
       "r1022": "R1022 watch-bug: ElyWord Elysium word game Discord补漏",
-      "cursor": 861,
+      "cursor": 921,
       "shardSizeHint": 40,
       "r1025": "R1025 watch-bug: belief-in-safu @bis_bnb Discord R1024 admit",
       "r1029": "R1029 watch-bug: hootal-kombat @hootal_ Discord R1028 admit",
@@ -17079,7 +17087,7 @@
       },
       "r1220": "soft shard 104→120; NF: battle_pad suspended, cabaldotfun, project_hoodmon",
       "r1221": true,
-      "lastSoftBrush": "2026-11-14 13:10 CST",
+      "lastSoftBrush": "2026-11-14 13:35 CST",
       "r1224": "soft-brush 168→178; NF vaultdock/cloakcapitalai/kuranto_rh; arka staking live; soulboard pipeline",
       "r1226": "soft-brush 194→210; NF usejackbay/DubbllePadX; fanbeimao handle suspended",
       "r1230": "soft-brush 260:276; NF+=layertrade,envarai_,scripdrop; all else in-lib",
@@ -18242,7 +18250,16 @@
       "r1798": "独立例行 ample：shard 586→659 kept 50 skip 23 known_nf；priority soft machinedotfun/bscaidrop/PulseLaunchpad/localbottomcom/NutshellMarkets；新收 pxviks/aurum-desk/jetwayfi 进 UF。",
       "r1800": "merge ample：shard 659→720 kept 50 skip 11 known_nf；priority soft machinedotfun/bscaidrop/PulseLaunchpad/localbottomcom/NutshellMarkets；例行无新卡。Discord 已把 pizzaxone 追加进 UF。",
       "r1801": "ample：shard 720→792 kept 50 skip 22 known_nf/suspended（含 uf 级 NF/suspended，不连刷）；priority soft machinedotfun/bscaidrop/PulseLaunchpad/localbottomcom/NutshellMarkets；例行新收 pickhash（@pickhash_bnb）并挂入 UF+freeMintWatch。",
-      "r1802": "ample：shard 792→861 kept 50 skip 19 known_nf/suspended（不连刷）；priority soft machinedotfun/bscaidrop/PulseLaunchpad/localbottomcom/NutshellMarkets；例行新收 brewpad（@brewpadlat）、justgiving（@JustGivingPad）并挂入 UF。补挂已在库漏挂 @Thedawgzrh。"
+      "r1802": "ample：shard 792→861 kept 50 skip 19 known_nf/suspended（不连刷）；priority soft machinedotfun/bscaidrop/PulseLaunchpad/localbottomcom/NutshellMarkets；例行新收 brewpad（@brewpadlat）、justgiving（@JustGivingPad）并挂入 UF。补挂已在库漏挂 @Thedawgzrh。",
+      "r1803": {
+        "shard": "861-921",
+        "kept": 50,
+        "skip": 10,
+        "added": [
+          "@0utdotfun",
+          "@eserchain"
+        ]
+      }
     },
     "round775Added": [
       "sunrig",
@@ -24088,10 +24105,10 @@
       "softCap": 28,
       "minSpend": 20,
       "silentCap": 2,
-      "ufCursorBefore": 720,
-      "ufCursor": 792,
-      "remainingBefore": 818,
-      "remaining": 796,
+      "ufCursorBefore": 861,
+      "ufCursor": 921,
+      "remainingBefore": 774,
+      "remaining": 752,
       "userFollowDone": true,
       "tenLanesThin": true,
       "kwCore": true,
@@ -24106,12 +24123,14 @@
         "GIWA",
         "BTC",
         "Starknet",
-        "DogeEVM",
-        "Zero"
+        "DogeEVM"
       ],
-      "silentLane": "GIWA",
+      "silentLane": "Starknet",
       "silentRan": true,
-      "skipOfficialThinFat": true
+      "skipOfficialThinFat": true,
+      "xReads": 22,
+      "admitVerify": 1,
+      "mergedIntoDiscordRound": true
     },
     "round1023Added": [],
     "round1024Added": [
@@ -34081,7 +34100,32 @@
       "foodcoin",
       "thejenslax",
       "nave-hl",
-      "zero-kitties"
+      "zero-kitties",
+      "0ut-fun",
+      "eserchain"
+    ],
+    "r1803WatchAdds": [
+      "@0utdotfun",
+      "@eserchain"
+    ],
+    "r1803WatchAddDetails": [
+      {
+        "id": "0ut-fun",
+        "handle": "@0utdotfun",
+        "into": [
+          "userFollowWatch"
+        ],
+        "reason": "R1803 例行新收录，Zero 自称预发布发射台，官号+官网已核验，lzVerified=false，未进 zeroWatch/layerZeroWatch/freeMintWatch"
+      },
+      {
+        "id": "eserchain",
+        "handle": "@eserchain",
+        "into": [
+          "userFollowWatch",
+          "miningWatch"
+        ],
+        "reason": "R1803 例行新收录（关键词漏捞），独立 Ethash PoW 测试网，官号+官网已核验，非免费 mint"
+      }
     ]
   },
   "candidates": [
@@ -34223,7 +34267,7 @@
       "xFollowers": 65,
       "firstSeen": "2026-11-14 13:13 CST",
       "addedAt": "2026-11-14 13:13 CST",
-      "lastChecked": "2026-11-14 13:13 CST",
+      "lastChecked": "2026-11-14 13:35 CST",
       "zoneHint": "台子/Meme",
       "newThisRound": true
     },
@@ -34271,7 +34315,7 @@
       "xFollowers": 2156,
       "firstSeen": "2026-11-14 13:13 CST",
       "addedAt": "2026-11-14 13:13 CST",
-      "lastChecked": "2026-11-14 13:13 CST",
+      "lastChecked": "2026-11-14 13:35 CST",
       "zoneHint": "台子/Meme",
       "newThisRound": true
     },
@@ -38178,7 +38222,7 @@
       "xFollowers": 2,
       "firstSeen": "2026-11-13 18:10 CST",
       "addedAt": "2026-11-13 18:10 CST",
-      "lastChecked": "2026-11-14 13:10:55 CST",
+      "lastChecked": "2026-11-14 13:35 CST",
       "zoneHint": "打新",
       "newThisRound": false,
       "schedule": {
@@ -294631,7 +294675,7 @@
       "xFollowers": 104,
       "firstSeen": "2026-11-14 11:11 CST",
       "addedAt": "2026-11-14 11:11 CST",
-      "lastChecked": "2026-11-14 11:11 CST",
+      "lastChecked": "2026-11-14 13:35 CST",
       "zoneHint": "台子/Meme",
       "zoneOf": "lz",
       "newThisRound": false,
@@ -295248,7 +295292,7 @@
       "round": 1802,
       "addedAt": "2026-11-14 13:10:55 CST",
       "firstSeen": "2026-11-14 13:10:55 CST",
-      "lastChecked": "2026-11-14 13:10:55 CST",
+      "lastChecked": "2026-11-14 13:35 CST",
       "newThisRound": false,
       "schedule": {
         "status": "live",
@@ -295315,19 +295359,19 @@
         "站点需JS渲染，未做浏览器实测",
         "慈善费用锁仓执行未链上验证"
       ],
-      "whatsNew": "【R1802】新收录。官号 @JustGivingPad（2026-10-23 创建，非蓝 V，get_users_by_usernames 核验 3 粉 / 14 帖），资料栏指向 https://justgiving.tools（HTTP 200）并给出 CA 3Zm2nFaz5Q7HEdCiiPjgL561cEKeLdJ57iXUF6ifpump。12:56 CST 官宣 $GIVE is live。定位慈善发射台：creator fees 锁给真实慈善（@donatedotgg）。站点需 JS，已读打包 JS 可见 /api/launch 与钱包连接。与已在库 GiveFi（@GiveFiDotLol / givefi.lol）不是同一项目。账户约 3 周，早期性弱于 Brewpad。不是免费 NFT mint。",
+      "whatsNew": "【R1803】进度更新（不重推）。12:56–13:01 CST 官号连发多条发射帖：在 $GIVE is live 之后，货架已出现至少 7 枚慈善币（$GDOG / $GBLOOD / $GGAY / $GD / $GUP / $GAPE / $GBALLS / $GLOVE 等），并称启动时可从 42 个已核验慈善中选择、creator fees 锁定捐赠。与 R1802 已推为同一项目，仅进度，不重推。不是免费 NFT mint。",
       "summary": "2026-10-23 建号，非蓝V，3 粉 14 帖，官网 https://justgiving.tools 返回 200。12:56 CST 官宣 $GIVE is live，合约为 3Zm2nFaz5Q7HEdCiiPjgL561cEKeLdJ57iXUF6ifpump。定位慈善发射：creator fees 锁给慈善。与在库 GiveFi（@GiveFiDotLol）并非同一项目。账户已有约 3 周，早期性弱于 Brewpad。非免费 NFT mint。",
       "blurb": "慈善导向的 Solana 发射台，creator fees 锁给慈善，但建号约 3 周早期性偏弱。",
       "status": "live",
       "zoneHint": "台子/Meme",
       "focus": false,
       "lzVerified": false,
-      "followers": 3,
-      "xFollowers": 3,
+      "followers": 4,
+      "xFollowers": 4,
       "round": 1802,
       "addedAt": "2026-11-14 13:10:55 CST",
       "firstSeen": "2026-11-14 13:10:55 CST",
-      "lastChecked": "2026-11-14 13:10:55 CST",
+      "lastChecked": "2026-11-14 13:35 CST",
       "newThisRound": false,
       "schedule": {
         "status": "live",
@@ -295342,9 +295386,148 @@
         "officialHandle": "@JustGivingPad",
         "officialPost": "https://x.com/JustGivingPad/status/2121467222338224419",
         "source": "https://x.com/JustGivingPad/status/2121467222338224419",
-        "note": "【R1802】新收录。$GIVE 已上线，慈善发射台进入平台代币阶段。与 GiveFi 不是同一项目。不是免费 NFT mint。站点需 JS，已读打包 JS 核验。",
-        "lastChecked": "2026-11-14 13:10:55 CST",
+        "note": "【R1803】货架已有多枚慈善币上线。R1802 已推，不重推。不是免费 NFT mint。",
+        "lastChecked": "2026-11-14 13:35 CST",
         "accountCreatedCST": "2026-10-23 13:26 CST",
+        "verifiedType": "none"
+      }
+    },
+    {
+      "id": "0ut-fun",
+      "name": "0ut",
+      "handle": "@0utdotfun",
+      "twitter": "@0utdotfun",
+      "chain": "Zero",
+      "category": "台子/Meme",
+      "ecosystem": "Zero / LayerZero",
+      "tags": [
+        "Zero",
+        "LayerZero",
+        "台子/Meme",
+        "R1803",
+        "预发布",
+        "蓝V",
+        "非免费NFT"
+      ],
+      "links": {
+        "x": "https://x.com/0utdotfun",
+        "twitter": "https://x.com/0utdotfun",
+        "website": "https://0ut.fun",
+        "web": "https://0ut.fun"
+      },
+      "scores": {
+        "early": 78,
+        "actionable": 45,
+        "novelty": 55,
+        "risk": 72,
+        "overall": 55
+      },
+      "highlights": [
+        "Zero 生态发射台，官推蓝V",
+        "官网已上线 Pre-launch 倒计时",
+        "被库内 @Cyra_Dex 点名"
+      ],
+      "drawbacks": [
+        "产品未 live，无明确合约地址",
+        "Zero 部署未独立核验",
+        "粉丝少、仅7帖，信息有限"
+      ],
+      "whatsNew": "【R1803】例行新收录。MUST 见到已在库 @Cyra_Dex 13:25 CST 点名 @0utdotfun。get_users_by_usernames 核验：2026-10-16 19:10 CST 创建，蓝V，100 粉 / 7 帖，资料栏解析到 http://0ut.fun，bio 写 The launchpad on Zero by @LayerZero_Core。官网 https://0ut.fun 与 https://www.0ut.fun HTTP 200，页内官方 X 与官号一致，自称 Pre-launch，倒计时与 IGNITIONS 均为 00，产品文案为一键发射+bonding curve+毕业到公开市场。未见 CA，未独立核验 Zero 部署，lzVerified=false，归台子/Meme。与已在库 000dotfun / 0z0_Fun / 0Zero_Fun / origin-dotfun 不是同一项目。不是免费 NFT mint。",
+      "summary": "Zero 上的新发射台 0ut 进入预发布倒计时，主打一键发射+bonding curve。 官号蓝V 100 粉 7 帖，官网预发布，产品未 live，Zero 部署未独立核验。非免费 NFT mint。",
+      "blurb": "自称 Zero 生态的预发布发射台，官网已开、产品未 live。",
+      "status": "announced",
+      "zoneHint": "台子/Meme",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 100,
+      "xFollowers": 100,
+      "round": 1803,
+      "addedAt": "2026-11-14 13:35 CST",
+      "firstSeen": "2026-11-14 13:35 CST",
+      "lastChecked": "2026-11-14 13:35 CST",
+      "newThisRound": true,
+      "schedule": {
+        "timezone": "Asia/Shanghai",
+        "status": "announced",
+        "le2h": false,
+        "mintStatus": "pre-launch",
+        "site": 200,
+        "officialHandle": "@0utdotfun",
+        "note": "【R1803】新收录。官网 Pre-launch，倒计时与 IGNITIONS 均为 00，产品未 live，无 CA。不是免费 NFT mint。",
+        "lastChecked": "2026-11-14 13:35 CST",
+        "accountCreatedCST": "2026-10-16 19:10 CST",
+        "verifiedType": "blue"
+      }
+    },
+    {
+      "id": "eserchain",
+      "name": "Eser Chain",
+      "handle": "@eserchain",
+      "twitter": "@eserchain",
+      "chain": "Eser Chain",
+      "category": "挖矿",
+      "ecosystem": "Eser Chain",
+      "tags": [
+        "GPU",
+        "Ethash",
+        "PoW",
+        "testnet",
+        "挖矿",
+        "R1803",
+        "非免费NFT"
+      ],
+      "links": {
+        "x": "https://x.com/eserchain",
+        "twitter": "https://x.com/eserchain",
+        "website": "https://eserchain.org",
+        "web": "https://eserchain.org",
+        "explorer": "https://explorer.testnet.eserchain.org",
+        "pool": "https://pool.testnet.eserchain.org",
+        "rpc": "https://testnet.eserchain.org/rpc",
+        "github": "https://github.com/eserchain/testnet"
+      },
+      "scores": {
+        "early": 55,
+        "actionable": 70,
+        "novelty": 45,
+        "risk": 65,
+        "overall": 58
+      },
+      "highlights": [
+        "测试网已开，可用 GPU 挖 ESER",
+        "无预挖、无销售，EVM 兼容",
+        "提供矿池/RPC/浏览器与 GitHub"
+      ],
+      "drawbacks": [
+        "仅测试网，测试币无价值",
+        "主网未上线，项目偏小",
+        "账号已存在数月，早期性一般"
+      ],
+      "whatsNew": "【R1803】例行新收录（关键词漏捞补收）。核心栏挖矿关键词命中第三方 watchlist 点名 @eserchain。get_users_by_usernames 核验：2026-02-23 01:22 CST 创建（约 9 个月，非新号），非蓝V，129 粉 / 129 帖，资料栏解析到 http://eserchain.org，bio 写 Ethash PoW + EVM，无预挖无销售，Testnet live。官网 https://eserchain.org HTTP 200（eserchain.com 301 至 .org），页脚官方 X 与官号一致。Public testnet 已开（chain ID 20261113，RPC / 浏览器 / PPLNS 1% 矿池 / genesis / GitHub 均在官网），测试币无价值、测试网可能重启；Mainnet 尚未上线、无人出售 ESER。不是免费 NFT mint。早期性弱于今日新号。",
+      "summary": "独立 Ethash PoW + EVM 链，测试网可 GPU 挖 ESER，主网未上、测试币无价值。官号约 9 个月、129 粉，官网与 GitHub 齐全。非免费 NFT mint。",
+      "blurb": "独立 Ethash PoW 测试网已开，可 GPU 挖，主网未上。",
+      "status": "live",
+      "zoneHint": "挖矿",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 129,
+      "xFollowers": 129,
+      "round": 1803,
+      "addedAt": "2026-11-14 13:35 CST",
+      "firstSeen": "2026-11-14 13:35 CST",
+      "lastChecked": "2026-11-14 13:35 CST",
+      "newThisRound": true,
+      "schedule": {
+        "timezone": "Asia/Shanghai",
+        "status": "live",
+        "le2h": false,
+        "mintStatus": "testnet-live",
+        "site": 200,
+        "chainId": 20261113,
+        "officialHandle": "@eserchain",
+        "note": "【R1803】新收录。仅测试网可挖，主网未上，测试币无价值。不是免费 NFT mint。",
+        "lastChecked": "2026-11-14 13:35 CST",
+        "accountCreatedCST": "2026-02-23 01:22 CST",
         "verifiedType": "none"
       }
     }
@@ -295354,20 +295537,27 @@
     "foodcoin",
     "thejenslax",
     "nave-hl",
-    "zero-kitties"
+    "zero-kitties",
+    "0ut-fun",
+    "eserchain"
   ],
-  "alertMessage": "R1803 Discord alpha 补充收录 5 条，面板：https://reboot7454.github.io/early-scout/\n\nPuppet｜@Puppet_pro｜台子/Meme（Robinhood，官网 puppet.click 已上线：1B 固定供应、无预售/团队仓，曲线毕业后转 Uniswap v4 Encore 并永久锁 LP。站点自述与 Robinhood 无隶属、合约未经外部审计，X 仅 3 粉 1 帖，factory 部署本轮未链上复核）\n\nFoodcoin｜@foodcoinpf｜台子/Meme（Solana，官网 foodcoin.site 已上 $FOOD 慈善叙事，手续费经 donate.gg 流向 Feeding America。但合约地址仍写 COMING SOON、捐赠计数为 0，尚未开盘；1.5 天已 2156 粉，资金是否真进 Feeding America 开盘前无法核验）\n\nJensen at Tesla｜@thejenslax｜台子/Meme（Solana，bio 与官网给出 pump 形态 CA 9RZH5NbSW27KewwfAcbhQXixMRUaMc7zNppCRnfUpump，官帖称已上 DexScreener。纯恶搞、自称非官方无效用，非蓝 V，本轮未链上复核流动性与持仓，跟风题材回撤风险高）\n\nNave｜@nave_hl｜台子/Meme（自称在 LayerZero Zero，未核验：连续推文称要在 @LayerZero_Core 的 Zero/ATLAS 上做 perp 市场 Create→Seed→Trade，含上币、做市、预言机与风控。无官网、无合约、无产品入口，LZ 关系仅自称故未归 LZ 栏，perp 基建路线长）\n\nZero Kitties｜@Zero_Kitties｜打新（自称 LayerZero Zero，未核验：今日 05:29 CST 建号，自称首个猫 NFT、供应 2222、fully onchain 像素猫，蓝 V 140 粉。无官网无 mint 页，仅 1 帖 1 图且帖中在收集钱包，铸造规则未公布，需等 mint 再动）",
+  "alertMessage": "早期打新雷达新收录：0ut（@0utdotfun）自称 Zero 发射台，官网 0ut.fun 已开但产品仍预发布、未 live；Eser Chain（@eserchain）独立 Ethash PoW+EVM，测试网可 GPU 挖、主网未上。均非免费 NFT mint。面板：https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
-    "brewpad",
-    "justgiving"
+    "puppet-pro",
+    "foodcoin",
+    "thejenslax",
+    "nave-hl",
+    "zero-kitties",
+    "0ut-fun",
+    "eserchain"
   ],
-  "updatedAt": "2026-11-14 13:13 CST",
-  "updated": "2026-11-14 13:13 CST",
+  "updatedAt": "2026-11-14 13:35 CST",
+  "updated": "2026-11-14 13:35 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-14 13:13 CST",
+  "lastScout": "2026-11-14 13:35 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -295409,7 +295599,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4256,
+  "candidateCount": 4258,
   "round376Added": [
     "build-ai",
     "thankful-pad",
