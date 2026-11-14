@@ -1,12 +1,12 @@
 {
   "round": 1811,
-  "mode": "discord-alpha-40",
-  "completedAt": "2026-11-14 17:42 CST",
+  "mode": "discord-alpha-40 + ample-merge",
+  "completedAt": "2026-11-14 17:46 CST",
   "timezone": "Asia/Shanghai",
   "notify": true,
-  "notifyReason": "new_admits",
-  "alertMessage": "DC补漏R1811新收：Nihilo、Petrichor、Janzeer；面板 https://reboot7454.github.io/early-scout/",
-  "alert": "DC补漏R1811新收：Nihilo、Petrichor、Janzeer；面板 https://reboot7454.github.io/early-scout/",
+  "notifyReason": "ample_new_admits_free_live_and_truly_new",
+  "alertMessage": "【R1811 例行新收录】1）BNB 挖矿 Ember（@EmberPoW）免费 LIVE：每日第一根木仅 gas（需 Binance Agent ID），合约已开矿第 2 轮、已 136 根；CA 0x5898AD3b7578BF244F9940e860A1051647996633。下次免费重置 11-15 08:00 CST。风险：2024 旧号、付费木 50% 进 owner、开池后 2% 税+团队解锁。与库内 FeedTheFire（Robinhood）不是同一项目。2）Solana 新台子 MODUL（@usemodul，今日新建 0 粉）：规则发射台，官网 usemodul.xyz，$MODUL CA 尚未公布，暂观察。面板：https://reboot7454.github.io/early-scout/",
+  "alert": "【R1811 例行新收录】1）BNB 挖矿 Ember（@EmberPoW）免费 LIVE：每日第一根木仅 gas（需 Binance Agent ID），合约已开矿第 2 轮、已 136 根；CA 0x5898AD3b7578BF244F9940e860A1051647996633。下次免费重置 11-15 08:00 CST。风险：2024 旧号、付费木 50% 进 owner、开池后 2% 税+团队解锁。与库内 FeedTheFire（Robinhood）不是同一项目。2）Solana 新台子 MODUL（@usemodul，今日新建 0 粉）：规则发射台，官网 usemodul.xyz，$MODUL CA 尚未公布，暂观察。面板：https://reboot7454.github.io/early-scout/",
   "newAdmits": [
     "nihilo",
     "petrichor",
@@ -16,7 +16,9 @@
   "newIds": [
     "nihilo",
     "petrichor",
-    "janzeer"
+    "janzeer",
+    "ember-pow",
+    "usemodul"
   ],
   "admissions": [
     {
@@ -196,7 +198,11 @@
   ],
   "clearedPrevNewThisRound": true,
   "prevNewThisRoundCleared": [],
-  "candidateFlagsCleared": 0,
+  "candidateFlagsCleared": [
+    "nihilo",
+    "petrichor",
+    "janzeer"
+  ],
   "topNewThisRoundCleared": [],
   "discordPeekDeferred": false,
   "dsFallback": false,
@@ -207,7 +213,7 @@
   "uniqueHandles": 23,
   "spideyPosting": true,
   "xReads": 8,
-  "admitVerify": 7,
+  "admitVerify": 2,
   "remainingBefore": 938,
   "remaining": 930,
   "categoryFix": "janzeer 挖矿->打新 (stake-free L1 / work bounties, not mining)",
@@ -258,7 +264,7 @@
     "ok": false
   },
   "panel": "https://reboot7454.github.io/early-scout/",
-  "summary": "R1811：Discord alpha 补收 nihilo,petrichor,janzeer；lastSeen→2026-11-14 17:13；lastChecked→2026-11-14 17:42 CST",
+  "summary": "R1811 merge: Discord nihilo/petrichor/janzeer already notified; ample admits ember-pow (BNB free daily wood LIVE) and usemodul (Solana pad, CA TBA).",
   "remoteVerified": false,
   "cardsFile": "dc40_cards_r1811.json",
   "loginOk": true,
@@ -286,5 +292,47 @@
     "alpha-1-backup": 3,
     "smart-accounts-tracker": 2,
     "alpha-1": 3
-  }
+  },
+  "ampleNewAdmits": [
+    "ember-pow",
+    "usemodul"
+  ],
+  "ampleNewCount": 2,
+  "discordNewAdmitsAlreadyNotified": [
+    "nihilo",
+    "petrichor",
+    "janzeer"
+  ],
+  "topNewThisRound": [
+    "ember-pow",
+    "usemodul"
+  ],
+  "xReadsAmple": 23,
+  "xReadsMain": 20,
+  "xReadsSilent": 1,
+  "remainingBeforeAmple": 601,
+  "remainingAmple": 578,
+  "ufCursorBefore": 1284,
+  "ufCursor": 1334,
+  "candidateCount": 4274,
+  "tenLanes": true,
+  "mentions": [
+    "LayerZero",
+    "Elysium+kinetiq",
+    "mining-squeek+Nutshell",
+    "BN Agent pads+STARX"
+  ],
+  "mentionsDeferred": [
+    "Tape",
+    "GIWA",
+    "BTC",
+    "Starknet+DogeEVM"
+  ],
+  "silentLane": "GIWA",
+  "watchBugFixed": [
+    "nihilo",
+    "petrichor",
+    "janzeer"
+  ],
+  "mergedIntoDiscordRound": true
 }
