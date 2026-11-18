@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-19 01:21:33 CST",
+    "updated": "2026-11-19 01:43 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
@@ -2312,7 +2312,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "aim-miner"
+      "aim-miner",
+      "tribe3tech"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -14795,7 +14796,8 @@
         "@ITSMEkkdot",
         "@whyusfun",
         "@GtaHeistPad",
-        "@AIMMinerBSC"
+        "@AIMMinerBSC",
+        "@tribe3tech"
       ],
       "candidateIds": [
         "elysatrade",
@@ -16673,7 +16675,8 @@
         "kgiwa-launchpad",
         "whyus-fun",
         "heistpad",
-        "aim-miner"
+        "aim-miner",
+        "tribe3tech"
       ],
       "pending": [],
       "note": "R1769 merge soft-brush 1038→1086; kept 47, skip 1 known_nf（ePegsV4，本轮不重读）; 2 from: batches，本片 1 帖（polyrob/tmachinroBot 仍为 21:03 白名单已关/22:00 开铸，未改期）。Next starts at 1086. Watch 漏挂：Discord 六卡 @strix_agents / @wagmint_bnb / @burybud / @delvoprotocol / @pervix_xyz / @Envara_Agent 在库不在任何 Watch，已补进 userFollowWatch；@wagmint_bnb 兼 agentPad+bnAgent，@delvoprotocol/@pervix_xyz 兼 elysiumWatch。新收录 @PonkeAgent 进 userFollowWatch+agentPadWatch+bnAgentWatch+freeMintWatch。UF accounts=1647。",
@@ -16721,7 +16724,9 @@
         "ThinkersClub_": "thinkers-club",
         "WantedLaunch": "wanted-launchpad",
         "wantedlaunch": "wanted-launchpad",
-        "@WantedLaunch": "wanted-launchpad"
+        "@WantedLaunch": "wanted-launchpad",
+        "tribe3tech": "tribe3tech",
+        "Tribe3tech": "tribe3tech"
       },
       "r805": "R805 soft-brush 2026-10-29 01:39 CST",
       "r810": "R810 UF soft-brush 完成：Pulse LIVE/$819k；machine not live；bscaidrop 下一批~24h；PickRush 挖矿 LIVE；Oathbots/Halcyx free mint LIVE；blindfloor T−18h；localbottom/gang soft；hoodminers day-of 无精确小时非≤2h。",
@@ -20227,6 +20232,13 @@
         "added": [
           "@AIMMinerBSC"
         ]
+      },
+      "r1943User": {
+        "action": "user-named watch+admit",
+        "handle": "@tribe3tech",
+        "candidateId": "tribe3tech",
+        "at": "2026-11-19 01:43 CST",
+        "note": "用户点名补挂；此前从未扫进库。漏因是关键词未覆盖 SocialFi/空投用语。"
       }
     },
     "round775Added": [
@@ -20410,7 +20422,12 @@
         "$MAOAI",
         "agentmao.fun",
         "猫agent"
-      ]
+      ],
+      "r1943b": {
+        "missed": "@tribe3tech / Tribe / tribe3.tech SocialFi airdrop",
+        "reason": "关键词盲捞只覆盖 mint / fair launch / launchpad / Agent ID，未覆盖 SocialFi / 空投用语；官号也不在 Watch，60 分钟回看即使覆盖到上线官帖也捞不进来。",
+        "fix": "每轮关键词必含 SocialFi / \"SocialFi airdrop\" / \"SocialFi live\" / tribe3tech / tribe3.tech / \"Tribe Airdrop\"；「这类」= SocialFi 上线与空投窗口，勿只靠 mint/launchpad 词。"
+      }
     },
     "round786Added": [
       "pumpsui-fun",
@@ -31950,7 +31967,8 @@
       "ascendrbot"
     ],
     "roundNAdded": [
-      "thinkers-club"
+      "aim-miner",
+      "tribe3tech"
     ],
     "round1438Added": [
       "elyfun"
@@ -41579,8 +41597,12 @@
       "note": "512-char 查询上限，本分片实际装下 50 个。mobster_meme 已知 NF，本轮不连刷。EXTRA 1 次 get_users_by_username(@pxiofun) 返回 Not Found，不再重试。"
     },
     "round1943Added": [
-      "aim-miner"
-    ]
+      "aim-miner",
+      "tribe3tech"
+    ],
+    "handleAliases": {
+      "tribe3tech": "tribe3tech"
+    }
   },
   "candidates": [
     {
@@ -315791,14 +315813,99 @@
         "lastChecked": "2026-11-19 01:21:33 CST",
         "note": "R1943：2026-11-19 01:21:33 CST 新收录。免费首铸已开，链上 totalMinted=702。官推新号 0 粉；Treasury 为 EOA。本号不自动 mint。"
       }
+    },
+    {
+      "id": "tribe3tech",
+      "name": "Tribe",
+      "handle": "@tribe3tech",
+      "twitter": "https://x.com/tribe3tech",
+      "category": "台子/Meme",
+      "status": "live",
+      "focus": false,
+      "lzVerified": false,
+      "caUnverified": true,
+      "round": 1943,
+      "firstSeen": "2026-11-19 01:43 CST",
+      "addedAt": "2026-11-19 01:43 CST",
+      "lastChecked": "2026-11-19 01:43 CST",
+      "updatedAt": "2026-11-19 01:43 CST",
+      "newThisRound": true,
+      "le2h": false,
+      "followers": 2125,
+      "xFollowers": 2125,
+      "xUserId": "2120344670127439872",
+      "accountCreatedCST": "2026-11-11 10:37:45 CST",
+      "scores": {
+        "early": 70,
+        "actionable": 55,
+        "novelty": 68,
+        "risk": 58,
+        "overall": 62
+      },
+      "score": 62,
+      "overall": 62,
+      "highlights": [
+        "2026-11-18 20:33 CST 官宣 Tribe 已上线，Epoch 1 空投已开始",
+        "官网 tribe3.tech HTTP 200，资料栏 URL 与官帖 codes-post 互证",
+        "用户 2026-11-19 点名补挂 Watch，并要求覆盖 SocialFi / 空投类窗口"
+      ],
+      "drawbacks": [
+        "雷达此前未扫到：关键词只覆盖 mint/launchpad/Agent ID，未覆盖 SocialFi/空投用语",
+        "未见已公布的代币 CA；官网 meta 仅有 Solana program，未当代币合约核验",
+        "11/11 建号，蓝标约 2125 粉、16 帖，空投规则与积分可信度待观察",
+        "这是 SocialFi 空投，不是免费 mint"
+      ],
+      "zoneHint": "台子/Meme",
+      "zoneOf": "meme",
+      "chain": "Solana",
+      "ecosystem": "Solana",
+      "blurb": "Solana 上的 SocialFi。官宣已上线，Epoch 1 空投已开始；未见代币 CA。",
+      "summary": "Tribe（@tribe3tech）是 Solana 上的 SocialFi 平台。官网 tribe3.tech HTTP 200，资料栏与官帖互证。2026-11-18 20:33 CST 官宣已上线，Epoch 1 空投已开始。未见已公布的代币 CA；官网 meta 写有 Solana program 85zwF1S5VnbqmfLoDV6v4BxXvdXDwfzco3whDmrdXVei，未当代币合约核验。用户点名已挂 Watch。本号不自动 mint。",
+      "whatsNew": "【用户点名】补挂 Watch 并建卡。官宣 2026-11-18 20:33 CST 已上线，Epoch 1 空投已开始；官网 tribe3.tech。这是 SocialFi 空投，不是免费 mint。同时把 SocialFi / 空投相关词补进每轮关键词。本号不自动 mint。",
+      "mintStatus": "SocialFi 已上线，Epoch 1 空投已开始；非免费 mint。未见代币 CA。",
+      "links": {
+        "x": "https://x.com/tribe3tech",
+        "twitter": "https://x.com/tribe3tech",
+        "website": "https://tribe3.tech/",
+        "web": "https://tribe3.tech/",
+        "officialPost": "https://x.com/tribe3tech/status/2123031778369876131",
+        "solanaProgram": "85zwF1S5VnbqmfLoDV6v4BxXvdXDwfzco3whDmrdXVei"
+      },
+      "tags": [
+        "Solana",
+        "SocialFi",
+        "空投",
+        "LIVE"
+      ],
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "le2h": false,
+        "officialHandle": "@tribe3tech",
+        "officialPost": "https://x.com/tribe3tech/status/2123031778369876131",
+        "officialPostAt": "2026-11-18 20:33 CST",
+        "website": "https://tribe3.tech/",
+        "site": 200,
+        "siteXMutual": "yes-via-profile-url-and-codes-post",
+        "websiteNote": "官网 HTTP 200；资料栏 URL 为 tribe3.tech；页面 meta codes-post 指向上线官帖。无 twitter:site。robots 为 noindex,nofollow。",
+        "mintStatus": "SocialFi 已上线，Epoch 1 空投已开始；非免费 mint。",
+        "solanaProgram": "85zwF1S5VnbqmfLoDV6v4BxXvdXDwfzco3whDmrdXVei",
+        "caUnverified": true,
+        "note": "用户点名补挂 Watch。漏因：关键词未覆盖 SocialFi / 空投用语，且不在 Watch。本号不自动 mint。",
+        "lastChecked": "2026-11-19 01:43 CST",
+        "checkedAt": "2026-11-19 01:43 CST"
+      },
+      "source": "用户点名补挂 Watch（2026-11-19）+ 官帖 https://x.com/tribe3tech/status/2123031778369876131"
     }
   ],
   "newThisRound": [
-    "aim-miner"
+    "aim-miner",
+    "tribe3tech"
   ],
   "alertMessage": "【早期打新雷达 R1943】提醒打新玩家：Agent Miner（官推 @AIMMinerBSC）免费 LIVE，第一份只付 gas；Early Phase 共 7227 份免费、每 Agent ID 限 1 份，付费 15500 份、0.002 BNB/份，总量 22727，链上 NFT totalMinted=702。官网 https://agentminer.pages.dev ，官帖 https://x.com/AIMMinerBSC/status/2123088599717470356 ，面板 https://reboot7454.github.io/early-scout/ 。风险：官推 2026-11-18 23:26 CST 才建、0 粉 2 帖；未审计；Treasury 为 EOA（约 0.00178 BNB）。本号不自动 mint。",
   "roundNAdded": [
-    "thinkers-club"
+    "aim-miner",
+    "tribe3tech"
   ],
   "updatedAt": "2026-11-19 01:21:33 CST",
   "updated": "2026-11-19 01:21:33 CST",
@@ -319905,6 +320012,7 @@
     "heistpad"
   ],
   "round1943Added": [
-    "aim-miner"
+    "aim-miner",
+    "tribe3tech"
   ]
 }

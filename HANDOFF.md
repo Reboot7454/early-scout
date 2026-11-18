@@ -267,3 +267,10 @@ X 客户端实际能做什么（官方连接器里已有的工具，不是新接
 
 残留缺口（要写进 PR / 心里有数，不要假装补上了）：
 资料网站为空、bio 不含网址也不含当轮 query、也没有第三方帖子点过这个 @ 的 0 帖号，`search_users` 和推文搜索都看不见。@yumsdotfun 在 07:35 就是这样：即便 Discord 全挂，这一轮静号路径也**不会**把它送上来。08:50 站开了，但网址仍然不在资料栏、bio 里也没有，单靠「站已经活了」还是定位不到这个 handle。能补上的是：资料栏写了网站、或 bio 写了产品句、或有人在帖子里 @ 了它。0 帖 + 粉≥500 + 站未确认存活 + 无链上证据，继续 defer。
+
+## 2026-11-19 用户点名补收 @tribe3tech（SocialFi / 空投覆盖）
+
+- 库/Watch 此前均无 `@tribe3tech`，也没有跳过记录。漏因：关键词只覆盖 mint / fair launch / launchpad / Agent ID，未覆盖 SocialFi / 空投用语；官号不在 Watch。2026-11-18 20:33 CST 上线官帖在 21:04 那一轮 60 分钟回看内，但对不上词，未进短名单。
+- 已建卡 `tribe3tech`（台子/Meme，`focus:false`，`status:live`），links 双写 `https://x.com/tribe3tech`，官网 `https://tribe3.tech/`。已入 `meta.userFollowWatch.accounts` + `candidateIds`。
+- 事实：11/11 建号；20:33 CST 官宣 Solana SocialFi 已上线，Epoch 1 空投已开始；官网 HTTP 200，资料栏 URL 与页面 meta codes-post 互证；未见代币 CA；官网 meta `tribe-program` 为 `85zwF1S5VnbqmfLoDV6v4BxXvdXDwfzco3whDmrdXVei`，未当代币合约核验。本号不自动 mint。
+- **关键词补强（每轮必搜）**：`SocialFi` / `"SocialFi airdrop"` / `"SocialFi live"` / `tribe3tech` / `tribe3.tech` / `"Tribe Airdrop"`（`meta.keywordGaps.r1943b`）。已写入 `scripts/x_budget.py` 的 KW_CORE 台子/Meme 与静号 mentions。不要改用单独的 `airdrop` 光杆词，噪声太大。
