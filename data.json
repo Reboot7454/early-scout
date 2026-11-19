@@ -14895,7 +14895,8 @@
         "@gmgmdotfun",
         "@AcruxHub",
         "@MercaturaCore",
-        "@Duckslife9"
+        "@Duckslife9",
+        "@buzzchain_io"
       ],
       "candidateIds": [
         "elysatrade",
@@ -16808,7 +16809,8 @@
         "gmgm",
         "acruxhub",
         "mercatura",
-        "ducks"
+        "ducks",
+        "buzzchain"
       ],
       "pending": [],
       "note": "R1769 merge soft-brush 1038→1086; kept 47, skip 1 known_nf（ePegsV4，本轮不重读）; 2 from: batches，本片 1 帖（polyrob/tmachinroBot 仍为 21:03 白名单已关/22:00 开铸，未改期）。Next starts at 1086. Watch 漏挂：Discord 六卡 @strix_agents / @wagmint_bnb / @burybud / @delvoprotocol / @pervix_xyz / @Envara_Agent 在库不在任何 Watch，已补进 userFollowWatch；@wagmint_bnb 兼 agentPad+bnAgent，@delvoprotocol/@pervix_xyz 兼 elysiumWatch。新收录 @PonkeAgent 进 userFollowWatch+agentPadWatch+bnAgentWatch+freeMintWatch。UF accounts=1647。",
@@ -21182,6 +21184,15 @@
           "mobster_meme"
         ],
         "prio_skipped": []
+      },
+      "r1965b": {
+        "added": [
+          "@buzzchain_io"
+        ],
+        "candidateIds": [
+          "buzzchain"
+        ],
+        "note": "用户点名补挂 Watch，并补 pseudochain / Proof of Engagement 关键词"
       }
     },
     "round775Added": [
@@ -21370,6 +21381,11 @@
         "missed": "@tribe3tech / Tribe / tribe3.tech SocialFi airdrop",
         "reason": "关键词盲捞只覆盖 mint / fair launch / launchpad / Agent ID，未覆盖 SocialFi / 空投用语；官号也不在 Watch，60 分钟回看即使覆盖到上线官帖也捞不进来。",
         "fix": "每轮关键词必含 SocialFi / \"SocialFi airdrop\" / \"SocialFi live\" / tribe3tech / tribe3.tech / \"Tribe Airdrop\"；「这类」= SocialFi 上线与空投窗口，勿只靠 mint/launchpad 词。"
+      },
+      "r1965b": {
+        "missed": "@buzzchain_io / Buzzchain / buzzchain.io pseudochain",
+        "reason": "关键词盲捞只覆盖 mint / fair launch / launchpad / Agent ID，未覆盖 pseudochain / Proof of Engagement / 注意力出块；官号也不在 Watch。R1956/R1957 只扫到第三方 @0xlihthooi 转帖写 Buzzchain 名字，未见官方 handle，未建卡。官推资料栏也未填官网。",
+        "fix": "每轮关键词必含 Buzzchain / buzzchain.io / buzzchain_io / pseudochain / \"pseudo chain\" / \"Proof of Engagement\"；「这类」= 伪链 / 注意力出块 / Proof of Engagement 窗口，勿只靠 mint/launchpad 词。"
       }
     },
     "round786Added": [
@@ -320249,6 +320265,83 @@
         "lastChecked": "2026-11-19 12:43:17 CST",
         "checkedAt": "2026-11-19 12:43:17 CST"
       }
+    },
+    {
+      "id": "buzzchain",
+      "name": "Buzzchain",
+      "handle": "@buzzchain_io",
+      "twitter": "https://x.com/buzzchain_io",
+      "x": "@buzzchain_io",
+      "category": "台子/Meme",
+      "status": "announced",
+      "focus": false,
+      "lzVerified": false,
+      "caUnverified": true,
+      "round": 1965,
+      "firstSeen": "2026-11-19 12:47 CST",
+      "addedAt": "2026-11-19 12:47 CST",
+      "lastChecked": "2026-11-19 12:47 CST",
+      "updatedAt": "2026-11-19 12:47 CST",
+      "newThisRound": false,
+      "le2h": false,
+      "followers": 1221,
+      "xFollowers": 1221,
+      "xUserId": "2122371584887296000",
+      "accountCreatedCST": "2026-11-17 00:50:55 CST",
+      "zoneHint": "台子/Meme",
+      "zoneOf": "meme",
+      "chain": "Ethereum",
+      "ecosystem": "Ethereum",
+      "blurb": "以太坊锚定的伪链：用 X 上对 $BUZZ 的讨论出块。官网已开，测试网即将上线，站点仍写 no blocks yet。非免费 mint。",
+      "summary": "Buzzchain（@buzzchain_io）自称由真实事件驱动的 pseudochain，Proof of Engagement，用 X 数据出块并锚定以太坊。官网 buzzchain.io 已开（HTTP 200），页面回链官推，但官推资料栏未填官网。2026-11-19 03:09 CST 官帖称 Testnet rollout coming soon；站点仍写 no blocks yet。官网给出 $BUZZ CA 0x9b920d142cB43650DD2cC21ee138E10D1ce5E456，尚未独立核验盘口。账号 2026-11-17 00:50 CST 创建。用户点名已挂 Watch。这不是免费 mint。本号不自动 mint。",
+      "whatsNew": "【用户点名】补挂 Watch 并建卡。R1956/R1957 只扫到第三方转帖，未见官方 handle，故未建卡。官网 buzzchain.io 已开；官帖 2026-11-19 03:09 CST 称 Testnet rollout coming soon。同时把 pseudochain / Proof of Engagement / Buzzchain 相关词补进每轮关键词。本号不自动 mint。",
+      "mintStatus": "非免费 mint。测试网即将上线，站点仍 no blocks yet。",
+      "highlights": [
+        "官网 buzzchain.io 已开，页面回链 @buzzchain_io",
+        "2026-11-19 03:09 CST 官帖宣布 Testnet rollout coming soon",
+        "用户 2026-11-19 点名补挂 Watch，并要求覆盖伪链 / 注意力出块关键词"
+      ],
+      "drawbacks": [
+        "雷达此前未扫进库：关键词未覆盖 pseudochain / Proof of Engagement，官号也不在 Watch",
+        "官推资料栏未填官网，站点互证不完整",
+        "官网 CA 尚未独立核验盘口；测试网未上，站点仍 no blocks yet",
+        "2026-11-17 建号，不是免费 mint"
+      ],
+      "links": {
+        "x": "https://x.com/buzzchain_io",
+        "twitter": "https://x.com/buzzchain_io",
+        "website": "https://buzzchain.io/",
+        "web": "https://buzzchain.io/",
+        "officialPost": "https://x.com/buzzchain_io/status/2123131547867836645",
+        "ca": "0x9b920d142cB43650DD2cC21ee138E10D1ce5E456",
+        "etherscan": "https://etherscan.io/token/0x9b920d142cB43650DD2cC21ee138E10D1ce5E456"
+      },
+      "tags": [
+        "Ethereum",
+        "pseudochain",
+        "Proof of Engagement",
+        "announced"
+      ],
+      "schedule": {
+        "status": "announced",
+        "timezone": "Asia/Shanghai",
+        "le2h": false,
+        "officialHandle": "@buzzchain_io",
+        "officialPost": "https://x.com/buzzchain_io/status/2123131547867836645",
+        "officialPostAt": "2026-11-19 03:09 CST",
+        "website": "https://buzzchain.io/",
+        "site": 200,
+        "siteXMutual": "partial-site-to-x",
+        "websiteNote": "官网 HTTP 200，页面回链 https://x.com/buzzchain_io；官推资料栏 URL 为空，互证不完整。",
+        "mintStatus": "非免费 mint。测试网即将上线，站点仍 no blocks yet。",
+        "ca": "0x9b920d142cB43650DD2cC21ee138E10D1ce5E456",
+        "caUnverified": true,
+        "caNote": "CA 来自官网展示，尚未独立核验 Dex/交易对。",
+        "note": "用户点名补挂 Watch。漏因：关键词未覆盖 pseudochain / Proof of Engagement / 注意力出块，且不在 Watch。R1956/R1957 仅第三方转帖提到 Buzzchain 名字。本号不自动 mint。",
+        "lastChecked": "2026-11-19 12:47 CST",
+        "checkedAt": "2026-11-19 12:47 CST"
+      },
+      "source": "用户点名补挂 Watch（2026-11-19）+ 官帖 https://x.com/buzzchain_io/status/2123131547867836645"
     }
   ],
   "newThisRound": [

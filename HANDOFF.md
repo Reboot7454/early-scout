@@ -274,3 +274,12 @@ X 客户端实际能做什么（官方连接器里已有的工具，不是新接
 - 已建卡 `tribe3tech`（台子/Meme，`focus:false`，`status:live`），links 双写 `https://x.com/tribe3tech`，官网 `https://tribe3.tech/`。已入 `meta.userFollowWatch.accounts` + `candidateIds`。
 - 事实：11/11 建号；20:33 CST 官宣 Solana SocialFi 已上线，Epoch 1 空投已开始；官网 HTTP 200，资料栏 URL 与页面 meta codes-post 互证；未见代币 CA；官网 meta `tribe-program` 为 `85zwF1S5VnbqmfLoDV6v4BxXvdXDwfzco3whDmrdXVei`，未当代币合约核验。本号不自动 mint。
 - **关键词补强（每轮必搜）**：`SocialFi` / `"SocialFi airdrop"` / `"SocialFi live"` / `tribe3tech` / `tribe3.tech` / `"Tribe Airdrop"`（`meta.keywordGaps.r1943b`）。已写入 `scripts/x_budget.py` 的 KW_CORE 台子/Meme 与静号 mentions。不要改用单独的 `airdrop` 光杆词，噪声太大。
+
+
+## 2026-11-19 用户点名补收 @buzzchain_io（伪链 / 注意力出块覆盖）
+
+- 库/Watch 此前均无 `@buzzchain_io`。R1956/R1957 只扫到第三方 @0xlihthooi 转帖提到 Buzzchain 名字，未见官方 handle / 官网互证，故未建卡。不同于已收录的 BuzzPad（@buzzpad_fun）。
+- 漏因：关键词只覆盖 mint / fair launch / launchpad / Agent ID，未覆盖 pseudochain / Proof of Engagement / 注意力出块；官号不在 Watch。官推资料栏也未填官网。
+- 已建卡 `buzzchain`（台子/Meme，`focus:false`，`status:announced`），links 双写 `https://x.com/buzzchain_io`，官网 `https://buzzchain.io/`。已入 `meta.userFollowWatch.accounts` + `candidateIds`。
+- 事实：2026-11-17 00:50 CST 建号；官网 HTTP 200，页面回链官推，官推资料栏 URL 为空（`siteXMutual=partial-site-to-x`）。2026-11-19 03:09 CST 官帖称 Testnet rollout coming soon；站点仍写 no blocks yet。官网给出 $BUZZ CA `0x9b920d142cB43650DD2cC21ee138E10D1ce5E456`，尚未独立核验盘口。非免费 mint。本号不自动 mint。
+- **关键词补强（每轮必搜）**：`Buzzchain` / `buzzchain.io` / `buzzchain_io` / `pseudochain` / `"pseudo chain"` / `"Proof of Engagement"`（`meta.keywordGaps.r1965b`）。已写入 `scripts/x_budget.py` 的 KW_CORE 台子/Meme 与静号 mentions。不要改用单独的 `buzz` / `attention` / `engagement` / `blocks` 光杆词，噪声太大。
