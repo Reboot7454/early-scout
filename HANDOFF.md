@@ -283,3 +283,13 @@ X 客户端实际能做什么（官方连接器里已有的工具，不是新接
 - 已建卡 `buzzchain`（台子/Meme，`focus:false`，`status:announced`），links 双写 `https://x.com/buzzchain_io`，官网 `https://buzzchain.io/`。已入 `meta.userFollowWatch.accounts` + `candidateIds`。
 - 事实：2026-11-17 00:50 CST 建号；官网 HTTP 200，页面回链官推，官推资料栏 URL 为空（`siteXMutual=partial-site-to-x`）。2026-11-19 03:09 CST 官帖称 Testnet rollout coming soon；站点仍写 no blocks yet。官网给出 $BUZZ CA `0x9b920d142cB43650DD2cC21ee138E10D1ce5E456`，尚未独立核验盘口。非免费 mint。本号不自动 mint。
 - **关键词补强（每轮必搜）**：`Buzzchain` / `buzzchain.io` / `buzzchain_io` / `pseudochain` / `"pseudo chain"` / `"Proof of Engagement"`（`meta.keywordGaps.r1965b`）。已写入 `scripts/x_budget.py` 的 KW_CORE 台子/Meme 与静号 mentions。不要改用单独的 `buzz` / `attention` / `engagement` / `blocks` 光杆词，噪声太大。
+
+## 2026-11-19 用户点名补收 BEETLE / @hostilexyz / Telemarket（股票代币发射台 / 预测市场 / 非典型官号铸造窗）
+
+- 库/Watch 此前均无 `beetleai.fun` / `@CherylB83488`、`@hostilexyz` / `hostile.xyz`，也无 `telemarket.org`。用户先问有没有扫到，确认漏扫后同意补挂 Watch 并补词。
+- 这三个不是同一项目。尤其 `beetleai.fun`（BNB Chain 上宣传中的 BEETLE / Agent ID 付费铸造）和 `@hostilexyz`（Solana 上 meme 配对微型股的发射台，官网 hostile.xyz）不要混写成一张卡。库内更早的 DungBeetleAgent（`@DungBeetleAgent`）也与 BEETLE 不是同一项目。
+- 已建卡：`beetleai`（打新，`focus:false`，`status:announced`，宣传号 `@CherylB83488` 已入 `userFollowWatch` + `bnAgentWatch` + `agentPadWatch`；付费故不进 `freeMintWatch`）；`hostilexyz`（台子/Meme，`focus:false`，`status:live`，已入 `userFollowWatch.accounts` + `candidateIds`）；`telemarket`（台子/Meme，`focus:false`，`status:watching`）。Telemarket 站点与 litepaper 未见官推，X 上的 `@telemarket` 是 2009 年超市号，**禁止**写入 UF accounts 或当成官推；只把 `telemarket` 写入 `candidateIds`。
+- 漏因与补法见 `meta.keywordGaps.r1983b`。已写入 `scripts/x_budget.py`：打新栏加 `beetleai.fun` / `beetleai`；台子/Meme 栏与静号 mentions 加 `hostile.xyz` / `hostilexyz` / `"microcap stocks"` / `"stock launchpad"` / `"stock token"` / `telemarket.org` / `Telemarket` / `"Oracle DAO"` / `"prediction market"`。不要用光杆 `beetle` / `hostile` / `stock` / `oracle` / `dao` / `prediction` / `jury` / `telegram`。
+- **建卡门槛（本条用户已确认）**：铸造/开售窗若有可指认的官网（含用户点名 URL），即使发帖号不像典型官号、或因 Cloudflare / 页内无回链导致 `siteXMutual` 不完整，也不要只因此丢弃；应建 watching/live 卡并挂 Watch，付费只报不自动打。仍禁止把明显无关账号张冠李戴当成官推。
+- 事实备忘：BEETLE 宣传帖称 2026-11-19 21:00 CST 开售（8000 份、0.003 BNB/份、仅限 Agent ID，48 小时，售罄自动开池），官网 Cloudflare 403，开闸与 CA 未独立核验；Hostile 官网 HTTP 200、官号 0 帖、资料写 no token；Telemarket 是 TON 非托管订单簿预测市场，Oracle DAO 用 JURY 投票，litepaper 为 2026 年 11 月。三者都不是免费 mint。本号不自动 mint。
+

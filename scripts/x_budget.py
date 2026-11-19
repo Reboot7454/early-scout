@@ -53,9 +53,9 @@ KW_THIN = {
 }
 
 KW_CORE = {
-    "打新": "fair mint OR WL mint OR free mint OR GTD mint",
+    "打新": "fair mint OR WL mint OR free mint OR GTD mint OR beetleai.fun OR beetleai",
     "挖矿": "GPU PoW mine OR NFT miner OR mint miner",
-    "台子/Meme": "launchpad live OR bonding curve OR meme pad OR SocialFi OR \"SocialFi airdrop\" OR \"SocialFi live\" OR Buzzchain OR buzzchain.io OR buzzchain_io OR pseudochain OR \"pseudo chain\" OR \"Proof of Engagement\"",
+    "台子/Meme": "launchpad live OR bonding curve OR meme pad OR SocialFi OR \"SocialFi airdrop\" OR \"SocialFi live\" OR Buzzchain OR buzzchain.io OR buzzchain_io OR pseudochain OR \"pseudo chain\" OR \"Proof of Engagement\" OR hostile.xyz OR hostilexyz OR \"microcap stocks\" OR \"stock launchpad\" OR \"stock token\" OR telemarket.org OR Telemarket OR \"Oracle DAO\" OR \"prediction market\"",
     "GO盘": "GO盘 OR GO launch OR AR launch",
     "Elysium": "Elysium mint OR Elysium launch OR Enter_Elysium",
 }
@@ -102,9 +102,9 @@ SILENT_USER_QUERIES = [
 # not a thin-lane keyword search. scripts/silent_accounts.py plan swaps this
 # for one get_users_by_usernames batch when the previous round queued handles.
 SILENT_MENTION_QUERIES = [
-    {"lane": "打新", "query": 'has:mentions has:links ("fair mint" OR "free mint" OR whitelist) -is:retweet'},
+    {"lane": "打新", "query": 'has:mentions has:links ("fair mint" OR "free mint" OR whitelist OR beetleai.fun OR beetleai) -is:retweet'},
     {"lane": "挖矿", "query": 'has:mentions ("GPU mine" OR "NFT miner" OR "PoW mine") -is:retweet'},
-    {"lane": "台子/Meme", "query": 'has:mentions (launchpad OR "bonding curve" OR SocialFi OR Buzzchain OR buzzchain.io OR pseudochain OR "Proof of Engagement") -is:retweet'},
+    {"lane": "台子/Meme", "query": 'has:mentions (launchpad OR "bonding curve" OR SocialFi OR Buzzchain OR buzzchain.io OR pseudochain OR "Proof of Engagement" OR hostile.xyz OR hostilexyz OR "stock launchpad" OR "stock token" OR telemarket.org OR Telemarket OR "Oracle DAO" OR "prediction market") -is:retweet'},
     {"lane": "GO盘", "query": 'has:mentions ("GO launch" OR "AR launch") -is:retweet'},
     {"lane": "LayerZero", "query": "has:mentions (LayerZero OR OFT) (mint OR launch OR launchpad) -is:retweet"},
     {"lane": "Elysium", "query": "has:mentions (Elysium OR Enter_Elysium) (mint OR launch) -is:retweet"},
