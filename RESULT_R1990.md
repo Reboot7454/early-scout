@@ -2,6 +2,7 @@
 
 - round: 1990
 - lastScout: 2026-11-20 01:11:41 CST
+- panelCommit: 81f6b58
 - notify: true
 - added: 无真新收录
 - alert: R1990 面板 https://reboot7454.github.io/early-scout/ ：INMATES 已开铸，CA 0x5162a8b2B31B45215471C70F93AD11bcadd814A0，链上 6/999，PRICE 0.0005 ETH（非0），官网 https://inmates3.vercel.app/ ；官推写 Free Mint，但以合约为准，不能写成免费 LIVE；本号不自动 mint。SpiritsRH 链上 112/3333、仅2个收款地址，不像对公众开闸。
