@@ -2,7 +2,7 @@
 
 - round: 1991
 - lastScout: 2026-11-20 01:39:38 CST
-- panelCommit: 3d58c3d
+- panelCommit: fae9bc9
 - notify: false
 - added: 无真新收录
 - docsSynced: true
