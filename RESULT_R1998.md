@@ -2,7 +2,7 @@
 
 - round: 1998
 - lastScout: 2026-11-20 05:13:16 CST
-- panelCommit: PENDING
+- panelCommit: e7086d2
 - notify: true
 - added: betsaq（BETSAQ / @useBetsaq，live，Solana 预测市场已开，非免费 mint）
 - docsSynced: true
