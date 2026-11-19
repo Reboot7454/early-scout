@@ -3,7 +3,7 @@
 - time: 2026-11-19 22:12:25 CST
 - notify: true（Oathbots 链上确认 22:00:02 CST 开盘翻转，R1980 只推过窗口预告；SpiritsRH 免费 mint 首次进入 ≤2h，2026-11-20 00:00 CST，约 1.79h。VICE6 官帖称约 1 小时后 launches，但官网仍 PRE-LAUNCH、未见 CA，不以已开盘重推，仅作同条 nuance。本轮无真新收录）
 - panel: https://reboot7454.github.io/early-scout/
-- commit: PENDING
+- commit: d2dc0cd536e8ff1cc87eb2e6c725aed55fe75d74
 - docs: 本轮已运行 scripts/sync_docs_panel.sh 并推送 docs/data.json。oathbots 原 round 798 会被 120 轮窗口丢掉，已写入 meta.forcePanelIds。
 - dsFallback: true（DeepSeek 一次 thinking 调用把推理写进可见正文、未吐出可直接使用的 alert；开盘/窗口判定与文案按链上 Mint/DEX、官网与既有 MUST 帖核验事实撰写）
 
