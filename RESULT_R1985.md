@@ -3,7 +3,7 @@
 - time: 2026-11-19 22:47:01 CST
 - notify: true（真新收录 AnthPad（@UseAnthPad）；BEETLE / beetleai 销售开闸 + CA 核验翻转。不重推 SpiritsRH 同窗、Oathbots 已报开盘、VICE6 仍 PRE-LAUNCH 无 CA）
 - panel: https://reboot7454.github.io/early-scout/
-- commit: PENDING
+- commit: bacd1b713a364233ce18c10f1d973429c532032f
 - docs: 本轮已运行 scripts/sync_docs_panel.sh 并推送 docs/data.json。oathbots、spiritsrh、beetleai 已在 meta.forcePanelIds。
 - dsFallback: false（DeepSeek flash、thinking on，一次调用吐出可解析 JSON，用于 AnthPad 收录/打分与 alert 文案；链上与站点数字均按本轮探针，未采用模型臆造数值）
 
