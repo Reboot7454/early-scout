@@ -3,7 +3,7 @@
 - time: 2026-11-19 21:43:59 CST
 - notify: true（真新收录 Tradfipad / @Tradfipad，watching，overall 62，非免费 mint。drachenfly 申请通道已开属已收录卡状态/链更正，铸造未 LIVE，不作为推送理由。Oathbots 代币窗仍约 0.27h，R1980 已首次推送，MUST 本窗 0 新帖、开盘/可领未确认，不重推）
 - panel: https://reboot7454.github.io/early-scout/
-- commit: PENDING
+- commit: f2dd790de0386cae39ef32823ca92b8feb68b7e5
 - docs: 本轮已运行 scripts/sync_docs_panel.sh 并推送 docs/data.json。drachenfly 原 round 过旧会被 120 轮窗口丢掉，已写入 meta.forcePanelIds。
 - dsFallback: true（DeepSeek 两次 thinking 调用均把推理写进可见正文、未吐出可解析 JSON；按 DS 推理倾向 + 官网/X 核验事实建卡）
 
