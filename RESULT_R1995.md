@@ -2,7 +2,7 @@
 
 - round: 1995
 - lastScout: 2026-11-20 03:40:25 CST
-- panelCommit: PENDING
+- panelCommit: bc0cdb5
 - notify: true
 - added: gettroopers（Troopers / @GetTroopers，whitelist-open，免费白名单登记已开放，非免费 mint LIVE）
 - docsSynced: true
