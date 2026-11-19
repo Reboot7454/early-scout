@@ -3,7 +3,7 @@
 - time: 2026-11-19 20:12:53 CST
 - notify: true（① 真新收录 Selium Exchange / @Seliumexchange，watching，overall 48，非免费 mint；② Oathbots 代币窗 2026-11-19 22:00 CST 首次进入 ≤2h，约 1.79h，开盘/可领未确认。DeepSeek 建议 notify=false，但按「真新收录 / ≤2h → notify=true」硬规则推送）
 - panel: https://reboot7454.github.io/early-scout/
-- commit: TBD
+- commit: fae369373f7ca992b2b1ef4ba087eb4f3e0c58dc
 
 ## 覆盖
 
