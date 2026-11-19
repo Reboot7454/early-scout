@@ -4,7 +4,7 @@
 - notify: true（真新收录 PikaCHAN（@Pikachanft）且免费 LIVE：官网与官推互证，NFT CA 已链上核验，mintOpen=true，已铸 62/1111（均为免费），首份需 Agent ID 免费，其后 0.001 BNB。DeepSeek overall=76，按免费 LIVE 硬规则必须通知。SpiritsRH GTD 窗仍 ≤2h（至 01:00 CST，约 0.3h），但官网仍 WHITELIST OPEN、MUST 0 新官帖，OpenSea isMinting=false、totalSupply=0，R1984 已推过该窗，不重推。INMATES 官网 HTML 仍 MINT_STATE=live，但 /mint.js 404、无 CA，本窗 0 新官帖，不重推。VICE6 仍 PRE-LAUNCH 无 CA；BEETLE 销售数字持平；Oathbots 只刷新价/LP）
 - alert: PikaCHAN 免费LIVE｜R1989｜已铸进度62/1111｜首份需Agent ID免费其后0.001 BNB｜面板 https://reboot7454.github.io/early-scout/
 - panel: https://reboot7454.github.io/early-scout/
-- commit: PENDING
+- commit: 03a9ae3717163c2619dc1e5155b40c34c982c1ce
 - docs: 本轮已运行 scripts/sync_docs_panel.sh 并推送 docs/data.json。pikachan、oathbots、spiritsrh、beetleai、inmates 已在 meta.forcePanelIds。
 - dsFallback: false（DeepSeek flash、thinking on，审 PikaCHAN admit=true / overall 76；告警文案采用模型 alertMessage。链上与站点数字均按本轮探针，未采用模型臆造数值）
 
