@@ -3,7 +3,7 @@
 - time: 2026-11-19 23:11:07 CST
 - notify: false（无真新收录，也无新的免费 LIVE/开闸/CA 翻转。SpiritsRH 免费 mint 仍 2026-11-20 00:00 CST 且仍 ≤2h，但 R1984 已推过该窗、本轮官网仍 WHITELIST、CA 未公布、MUST 无新官帖，不重推。VICE6 仍 PRE-LAUNCH 无 CA；BEETLE 销售数字持平；Oathbots 只刷新价/LP）
 - panel: https://reboot7454.github.io/early-scout/
-- commit: PENDING
+- commit: 76a4364555e535fe139f2ab7b5a4d1f3ba02de3a
 - docs: 本轮已运行 scripts/sync_docs_panel.sh 并推送 docs/data.json。oathbots、spiritsrh、beetleai 已在 meta.forcePanelIds。
 - dsFallback: false（本轮无待收录候选送审；未调用 DeepSeek。链上与站点数字均按本轮探针，未采用模型臆造数值）
 
