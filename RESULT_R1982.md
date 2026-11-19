@@ -3,7 +3,7 @@
 - time: 2026-11-19 21:16:17 CST
 - notify: true（① Dividends / @Dividendsarts 公开铸造由 LIVE 翻转为售罄：链上 totalMinted()=1000/1000，官帖 20:59 CST officially SOLD OUT、21:00 CST 称二级（OpenSea）开启后 1 小时处理退款，属 R1981 预告的铸满/关口翻转，必须补推；② 真新收录 MemeBSC / @MemeBSC_（watching，overall 50，非免费）。Oathbots 代币窗仍约 0.73h，R1980 已首次推送，本轮仅 Bot Hop 小游戏帖、开盘/可领未确认，不重推）
 - panel: https://reboot7454.github.io/early-scout/
-- commit: TBD
+- commit: fc9c011517040c903675d10cb63b7a4a2ec0326b
 - docs: 本轮已运行 scripts/sync_docs_panel.sh 并推送 docs/data.json（补 R1981 只推了根 data.json、Pages 仍停在 R1980 的遗漏）。sold_out 后的 Dividends 因原 round=1747 会被 120 轮窗口丢掉，已写入 meta.forcePanelIds 以留在面板。
 
 ## 覆盖
