@@ -2,6 +2,7 @@
 
 - round: 1997
 - lastScout: 2026-11-20 04:40:20 CST
+- panelCommit: 5d9ae52
 - notify: true
 - added: encore（Encore / @EncoreCards，live，Season 1 开盘进行中，免费卡 18/500 LIVE）
 - docsSynced: true
