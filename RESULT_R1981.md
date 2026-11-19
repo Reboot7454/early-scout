@@ -3,7 +3,7 @@
 - time: 2026-11-19 20:44:03 CST
 - notify: true（① Dividends / @Dividendsarts 由白名单/announced 翻转为公开铸造 LIVE 并临近收口，链上 924/1000，公开价 0.0017 ETH，官帖约 20:46 CST 结束，属首次观察到的 ≤2h 收口，必须推送；② 真新收录 Antgent / @tryantgent（live，overall 60，非免费）与 AudaCity / @AudaCityVI（watching，overall 50，非免费）。DeepSeek 建议因新卡无可打窗而 notify=false，但按「真新收录 / 状态翻转 / ≤2h → notify=true」硬规则推送。Oathbots 代币窗仍约 1.27h，R1980 已首次推送，本轮不重推）
 - panel: https://reboot7454.github.io/early-scout/
-- commit: PENDING
+- commit: ff6654c5313a2801f9cb1b28402339aaabd5bbb3
 
 ## 覆盖
 
