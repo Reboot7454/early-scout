@@ -3,7 +3,7 @@
 - time: 2026-11-20 00:11:12 CST
 - notify: false（无真新收录，也无新的免费 LIVE/开闸/实际开铸翻转。SpiritsRH GTD 免费窗已到 2026-11-20 00:00 CST 且仍 ≤2h（至 01:00 CST），但官网仍 WHITELIST OPEN、MUST 0 新官帖，OpenSea isMinting=false、totalSupply=0；本轮仅从 OpenSea 元数据记下集合地址 0x7b1eaef67aab0c5128e59e3d19f85b074c553aef，官方未公布，不按开铸翻转重推。INMATES 官网 HTML 仍 MINT_STATE=live，但 /mint.js 404、无 CA，本窗 0 新官帖，不重推。VICE6 仍 PRE-LAUNCH 无 CA；BEETLE 销售数字持平；Oathbots 只刷新价/LP）
 - panel: https://reboot7454.github.io/early-scout/
-- commit: PENDING
+- commit: 7cebcd855ff68fdcb588aa1c904ae0ba403ed2eb
 - docs: 本轮已运行 scripts/sync_docs_panel.sh 并推送 docs/data.json。oathbots、spiritsrh、beetleai、inmates 已在 meta.forcePanelIds。
 - dsFallback: false（本轮无待收录候选送审；未调用 DeepSeek。链上与站点数字均按本轮探针，未采用模型臆造数值）
 
