@@ -3,7 +3,7 @@
 - time: 2026-11-19 19:46:44 CST
 - notify: true（真新收录 Owed / @owedotfun，watching，overall 62，非免费 mint。DeepSeek 建议 notify=false，但按「真新收录 → notify=true」硬规则推送）
 - panel: https://reboot7454.github.io/early-scout/
-- commit: (pending)
+- commit: 33ea218ae57516314a700e56d66be17af9d2d6a6
 
 ## 覆盖
 
