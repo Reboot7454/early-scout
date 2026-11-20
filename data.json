@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-20 14:15:03 CST",
+    "updated": "2026-11-20 14:35 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-20 14:15:03 CST",
+    "lastScout": "2026-11-20 14:35 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -819,7 +819,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2015,
+    "round": 2016,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2349,7 +2349,26 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "perpium"
+      "anthold",
+      "ground0-fun",
+      "agentragenesis",
+      "oweidotfun",
+      "usenvpad",
+      "torqfleet",
+      "rebait-space",
+      "playstackz",
+      "rangeroundsrh",
+      "waxisgenesis",
+      "observagent-rh",
+      "seoul-basis",
+      "layer-machines",
+      "probie",
+      "lethe",
+      "yumirbh",
+      "goodlauncher",
+      "bastionedapp",
+      "mintscales",
+      "00000dotfun"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -5166,17 +5185,91 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-15 03:26",
-      "lastChecked": "2026-11-15 03:58 CST",
-      "newestCardTime": "2026-11-15 03:26",
-      "cardsAfterCutoff": 45,
-      "note": "R1834：Discord alpha 补收 elysiasealed,sifrswap,volume-live；清 fused-ai；lastSeen→2026-11-15 03:26；lastChecked→2026-11-15 03:58 CST",
-      "lastRound": 1834,
+      "lastSeen": "2026-11-20 14:19",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "newestCardTime": "2026-11-20 14:19",
+      "cardsAfterCutoff": 1000,
+      "note": "R2016：Discord alpha 补收 anthold,ground0-fun,agentragenesis,oweidotfun,usenvpad,torqfleet,rebait-space,playstackz,rangeroundsrh,waxisgenesis,observagent-rh,seoul-basis,layer-machines,probie,lethe,yumirbh,goodlauncher,bastionedapp,mintscales,00000dotfun；5日积压newest-first、四频道均capped 250；lastSeen→2026-11-20 14:19；lastChecked→2026-11-20 14:35 CST",
+      "lastRound": 2016,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-15 03:22",
-        "alpha-1-backup": "2026-11-15 02:04",
-        "smart-accounts-tracker": "2026-11-15 03:26",
-        "alpha-1": "2026-11-15 02:59"
+        "alpha-3-new-accounts": "2026-11-20 14:07",
+        "alpha-1-backup": "2026-11-20 13:45",
+        "smart-accounts-tracker": "2026-11-20 14:10",
+        "alpha-1": "2026-11-20 14:19"
+      },
+      "newestByChannel": {
+        "alpha-3-new-accounts": "2026-11-20 14:07",
+        "alpha-1-backup": "2026-11-20 13:45",
+        "smart-accounts-tracker": "2026-11-20 14:10",
+        "alpha-1": "2026-11-20 14:19"
+      },
+      "oldestReachedByChannel": {
+        "alpha-3-new-accounts": "2026-11-20 02:20",
+        "alpha-1-backup": "2026-11-15 14:04",
+        "smart-accounts-tracker": "2026-11-18 12:38",
+        "alpha-1": "2026-11-18 05:37"
+      },
+      "cappedByChannel": {
+        "alpha-3-new-accounts": true,
+        "alpha-1-backup": true,
+        "smart-accounts-tracker": true,
+        "alpha-1": true
+      },
+      "passedCutoffByChannel": {
+        "alpha-3-new-accounts": false,
+        "alpha-1-backup": false,
+        "smart-accounts-tracker": false,
+        "alpha-1": false
+      },
+      "spideyPosting": true,
+      "scannedAtCST": "2026-11-20 14:22",
+      "backlogGap": {
+        "attempted": true,
+        "filled": false,
+        "nFilled": 0,
+        "note": "R2016 newest-first incremental after 5-day DC pause since R1834; all 4 channels capped at 250; unfilled is (cutoff exclusive, oldestReached]",
+        "unfilled": {
+          "alpha-3-new-accounts": {
+            "from": "2026-11-15 03:22",
+            "to": "2026-11-20 02:20"
+          },
+          "alpha-1-backup": {
+            "from": "2026-11-15 02:04",
+            "to": "2026-11-15 14:04"
+          },
+          "smart-accounts-tracker": {
+            "from": "2026-11-15 03:26",
+            "to": "2026-11-18 12:38"
+          },
+          "alpha-1": {
+            "from": "2026-11-15 02:59",
+            "to": "2026-11-18 05:37"
+          }
+        }
+      },
+      "alpha3OlderGap": {
+        "attempted": true,
+        "filled": false,
+        "nFilled": 0,
+        "note": "R2016 newest-first incremental after 5-day DC pause since R1834; all 4 channels capped at 250; unfilled is (cutoff exclusive, oldestReached]",
+        "unfilled": {
+          "alpha-3-new-accounts": {
+            "from": "2026-11-15 03:22",
+            "to": "2026-11-20 02:20"
+          },
+          "alpha-1-backup": {
+            "from": "2026-11-15 02:04",
+            "to": "2026-11-15 14:04"
+          },
+          "smart-accounts-tracker": {
+            "from": "2026-11-15 03:26",
+            "to": "2026-11-18 12:38"
+          },
+          "alpha-1": {
+            "from": "2026-11-15 02:59",
+            "to": "2026-11-18 05:37"
+          }
+        }
       }
     },
     "round239Added": [
@@ -45834,9 +45927,958 @@
         ],
         "reason": "R2015 新收录"
       }
+    ],
+    "round2016Added": [
+      "anthold",
+      "ground0-fun",
+      "agentragenesis",
+      "oweidotfun",
+      "usenvpad",
+      "torqfleet",
+      "rebait-space",
+      "playstackz",
+      "rangeroundsrh",
+      "waxisgenesis",
+      "observagent-rh",
+      "seoul-basis",
+      "layer-machines",
+      "probie",
+      "lethe",
+      "yumirbh",
+      "goodlauncher",
+      "bastionedapp",
+      "mintscales",
+      "00000dotfun"
     ]
   },
   "candidates": [
+    {
+      "id": "00000dotfun",
+      "name": "00000.fun | LayerZero",
+      "handle": "@00000dotfun",
+      "twitter": "@00000dotfun",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/00000dotfun",
+        "website": "https://00000.fun/"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6.5,
+        "novelty": 5,
+        "actionable": 7,
+        "overall": 5.9
+      },
+      "highlights": [
+        "有官网",
+        "发射台+交易终端",
+        "ZRO发射叙事"
+      ],
+      "drawbacks": [
+        "LZ关联未验证",
+        "产品细节少",
+        "推文仅7条"
+      ],
+      "whatsNew": "上线面向Zero/ATLAS的meme发射台与交易终端",
+      "summary": "早期meme发射台，主打ZRO发射与链上迁移",
+      "blurb": "关注发射与迁移是否落地",
+      "round": 2016,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 161,
+      "xFollowers": 161,
+      "firstSeen": "2026-11-20 14:35 CST",
+      "addedAt": "2026-11-20 14:35 CST",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "mintscales",
+      "name": "ScaleNFT",
+      "handle": "@mintscales",
+      "twitter": "@mintscales",
+      "chain": "Ethereum",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/mintscales",
+        "website": "https://mintscale.money/"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 5,
+        "novelty": 7,
+        "actionable": 7,
+        "overall": 7.3
+      },
+      "highlights": [
+        "Uniswap v4 hook兑换即铸造",
+        "优先兑换手续费回流持有人"
+      ],
+      "drawbacks": [
+        "机制较复杂，需验证合约",
+        "流动性依赖初期兑换"
+      ],
+      "whatsNew": "通过swap铸造NFT，1 Scale对应1代币并分手续费。",
+      "summary": "Uniswap v4 hook驱动的自喂养NFT铸造与手续费分配。",
+      "blurb": "swap即铸造的v4 hook NFT，手续费回流。",
+      "round": 2016,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 58,
+      "xFollowers": 58,
+      "firstSeen": "2026-11-20 14:35 CST",
+      "addedAt": "2026-11-20 14:35 CST",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
+    {
+      "id": "bastionedapp",
+      "name": "Bastioned",
+      "handle": "@bastionedapp",
+      "twitter": "@bastionedapp",
+      "chain": "Solana",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/bastionedapp",
+        "website": "http://bastioned.app"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 5,
+        "novelty": 6,
+        "actionable": 7,
+        "overall": 7.1
+      },
+      "highlights": [
+        "官网上线，机制清晰：锁供应赚手续费",
+        "7天新号，极早期"
+      ],
+      "drawbacks": [
+        "无代币经济与时间表",
+        "粉丝极少，信息量低"
+      ],
+      "whatsNew": "Solana锁仓分享手续费的新方案，官网已可访问。",
+      "summary": "极早期Solana锁仓赚费项目，机制明确但细节待补。",
+      "blurb": "锁供应赚手续费的Solana新玩法，早期埋伏。",
+      "round": 2016,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 35,
+      "xFollowers": 35,
+      "firstSeen": "2026-11-20 14:35 CST",
+      "addedAt": "2026-11-20 14:35 CST",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
+    {
+      "id": "goodlauncher",
+      "name": "Launch For Good",
+      "handle": "@goodlauncher",
+      "twitter": "@goodlauncher",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/goodlauncher",
+        "website": "https://launchforgood.xyz/"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 7,
+        "overall": 6.4
+      },
+      "highlights": [
+        "Raydium发射台",
+        "手续费自动捐慈善",
+        "有官网"
+      ],
+      "drawbacks": [
+        "粉丝少",
+        "机制需验证"
+      ],
+      "whatsNew": "推出慈善发射台，费用每3分钟轮捐",
+      "summary": "Raydium上的慈善Meme发射台，有官网",
+      "blurb": "早期慈善发射台，可关注交互。",
+      "round": 2016,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 25,
+      "xFollowers": 25,
+      "firstSeen": "2026-11-20 14:35 CST",
+      "addedAt": "2026-11-20 14:35 CST",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "yumirbh",
+      "name": "yumi",
+      "handle": "@yumirbh",
+      "twitter": "@yumirbh",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/yumirbh",
+        "website": "http://yumirbh.com"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 8,
+        "overall": 7.0
+      },
+      "highlights": [
+        "明确铸造时间：11月23日 17:00 UTC",
+        "4444 供应量，Robinhood 链上首发",
+        "4天涨至 2834 关注，站点 yumirbh.com 已上线"
+      ],
+      "drawbacks": [
+        "4天发 480 条推文，疑似高强度刷量运营",
+        "美术为通用可爱风，机制描述缺失",
+        "链上细节与合约尚未公开"
+      ],
+      "whatsNew": "Robinhood 链上的 4444 份 companion NFT 项目，已公布 11月23日 17:00 UTC 铸造时间并上线官网。",
+      "summary": "4天新号，定位 Robinhood 链上 4444 份 NFT，铸造时间与官网齐备、执行性高，但推文密度异常且缺机制细节。",
+      "blurb": "Robinhood 链上 4444 份 NFT，11/23 开铸，可蹲点。",
+      "round": 2016,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 2834,
+      "xFollowers": 2834,
+      "firstSeen": "2026-11-20 14:35 CST",
+      "addedAt": "2026-11-20 14:35 CST",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "lethe",
+      "name": "Lethe",
+      "handle": "@lethefund",
+      "twitter": "@lethefund",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/lethefund",
+        "website": "http://lethe.fund"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.2
+      },
+      "highlights": [
+        "明确产品方向：Elysium 上的隐私兑换",
+        "17天新号已有26条推文，持续更新",
+        "独立域名 lethe.fund"
+      ],
+      "drawbacks": [
+        "Elysium 部署未获证实，无测试网或合约信息",
+        "尚未披露代币、挖矿或交互入口",
+        "隐私 swap 赛道对流动性与合规依赖高"
+      ],
+      "whatsNew": "新号定位为 Elysium 上的隐私兑换协议，已有站点但未公开部署细节。",
+      "summary": "17天新号，方向清晰的 Elysium 隐私 swap，站点已上线，但部署状态未验证、无可用交互，属早期观察级项目。",
+      "blurb": "Elysium 隐私 swap 早期项目，值得先加观察。",
+      "round": 2016,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 618,
+      "xFollowers": 618,
+      "firstSeen": "2026-11-20 14:35 CST",
+      "addedAt": "2026-11-20 14:35 CST",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "probie",
+      "name": "Probie",
+      "handle": "@probielabs",
+      "twitter": "@probielabs",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/probielabs",
+        "website": "https://probielabs.com"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 7,
+        "overall": 6.9
+      },
+      "highlights": [
+        "AI代理每日$5起步、按“干净日”逐日提升额度的机制",
+        "合约地址与官网均已公布",
+        "2天新号即完成产品叙事与站点"
+      ],
+      "drawbacks": [
+        "收益来源与真实验证方式未披露",
+        "2天41条推文，宣发密度偏高"
+      ],
+      "whatsNew": "上线probielabs.com并公布合约，主打AI代理分级打工模式。",
+      "summary": "Robinhood链AI代理打工项目，机制描述具体、网站与合约齐备，是本次最可执行的早期标的之一。",
+      "blurb": "AI代理每日$5起步打工，Robinhood链已发合约。",
+      "round": 2016,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 98,
+      "xFollowers": 98,
+      "firstSeen": "2026-11-20 14:35 CST",
+      "addedAt": "2026-11-20 14:35 CST",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "layer-machines",
+      "name": "Layer Machines",
+      "handle": "@layermachines",
+      "twitter": "@layermachines",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/layermachines"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 6.4
+      },
+      "highlights": [
+        "4444个ERC-404机器，持有后可出租赚XP",
+        "有清晰的“拥有→出租→赚XP”玩法闭环"
+      ],
+      "drawbacks": [
+        "无官网与铸造时间",
+        "自称基于LayerZero但未获验证",
+        "与Zero Machines等同类项目高度相似"
+      ],
+      "whatsNew": "提出ERC-404机器出租赚XP的玩法框架。",
+      "summary": "LayerZero概念ERC-404机器NFT，玩法描述具体但缺站点与铸造细节，列为早期观察。",
+      "blurb": "4444台ERC-404机器，持有可出租赚XP。",
+      "round": 2016,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 101,
+      "xFollowers": 101,
+      "firstSeen": "2026-11-20 14:35 CST",
+      "addedAt": "2026-11-20 14:35 CST",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "seoul-basis",
+      "name": "Seoul Basis",
+      "handle": "@seoulbasis",
+      "twitter": "@seoulbasis",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/seoulbasis",
+        "website": "https://seoulbasis.exchange/"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 5,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 6.7
+      },
+      "highlights": [
+        "用Upbit与Coinbase价差+汇率追踪韩国溢价",
+        "可在Solana上以USDC交易SOL基差",
+        "域名网站已上线，产品方向明确"
+      ],
+      "drawbacks": [
+        "仍需验证是否已可实际下单",
+        "溢价策略容量与合规风险"
+      ],
+      "whatsNew": "上线seoulbasis.exchange，主打韩式溢价基差交易。",
+      "summary": "追踪韩国加密溢价的基差交易产品，机制具体、赛道新颖，属早期可跟踪标的。",
+      "blurb": "韩式溢价基差交易台，Upbit/Coinbase价差+USDC结算。",
+      "round": 2016,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 86,
+      "xFollowers": 86,
+      "firstSeen": "2026-11-20 14:35 CST",
+      "addedAt": "2026-11-20 14:35 CST",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "observagent-rh",
+      "name": "Observ Agent",
+      "handle": "@observagent_rh",
+      "twitter": "@observagent_rh",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/observagent_rh",
+        "website": "https://observagent.tech"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 7,
+        "overall": 6.7
+      },
+      "highlights": [
+        "Robinhood Chain上的只读AI观测台，定位清晰",
+        "创世凭证$OBSERV已发合约并标注区块高度",
+        "5天新号已有独立官网"
+      ],
+      "drawbacks": [
+        "5天发50条推文，刷量迹象明显",
+        "只读观测类产品变现与代币价值捕获不明"
+      ],
+      "whatsNew": "$OBSERV创世凭证上线，附合约地址与出块高度，配套官网已可访问。",
+      "summary": "Robinhood链AI观测台项目，已发创世代币并给出合约与站点，属极早期但推文密度偏高。",
+      "blurb": "Robinhood链只读AI观测台，$OBSERV已发币并附合约。",
+      "round": 2016,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 73,
+      "xFollowers": 73,
+      "firstSeen": "2026-11-20 14:35 CST",
+      "addedAt": "2026-11-20 14:35 CST",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "waxisgenesis",
+      "name": "W-AXIS",
+      "handle": "@waxisgenesis",
+      "twitter": "@waxisgenesis",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/waxisgenesis"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.2
+      },
+      "highlights": [
+        "3333个独一无二的4D旋转超立方体动画NFT",
+        "Card明确标注Freemint免费铸造",
+        "账号仅7天、4条推文，处于最早期"
+      ],
+      "drawbacks": [
+        "无官网、无铸造时间与页面UI",
+        "Robinhood链生态信息少，流动性存疑"
+      ],
+      "whatsNew": "Robinhood App链上的4D动画超立方体NFT系列，宣称免费铸造。",
+      "summary": "极早期Robinhood链NFT项目，主打独一无二的动态4D超立方体，卡片带Freemint线索但缺站点与铸造时间。",
+      "blurb": "4D超立方体动画NFT，Robinhood链免费铸造，最早期可蹲。",
+      "round": 2016,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 70,
+      "xFollowers": 70,
+      "firstSeen": "2026-11-20 14:35 CST",
+      "addedAt": "2026-11-20 14:35 CST",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "rangeroundsrh",
+      "name": "Range Rounds",
+      "handle": "@rangeroundsrh",
+      "twitter": "@rangeroundsrh",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/rangeroundsrh",
+        "website": "https://rangerounds.xyz"
+      },
+      "scores": {
+        "early": 10,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 9,
+        "overall": 7.8
+      },
+      "highlights": [
+        "$RANGER明确发射时间",
+        "Uniswap v3/v4 LP检查工具",
+        "官网已上线"
+      ],
+      "drawbacks": [
+        "新号0天，关注度低",
+        "产品较垂直",
+        "发射平台Pons需进一步核实"
+      ],
+      "whatsNew": "宣布$RANGER将于11月20日17:00 UTC在Pons发射，主打Robinhood链上LP健康检查。",
+      "summary": "Range Rounds是Robinhood链上LP检查工具，卡面给出$RANGER明确发射时间，属于可执行的极早期打新线索。",
+      "blurb": "Robinhood链LP检查工具，$RANGER明日Pons发射。",
+      "round": 2016,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 17,
+      "xFollowers": 17,
+      "firstSeen": "2026-11-20 14:35 CST",
+      "addedAt": "2026-11-20 14:35 CST",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "playstackz",
+      "name": "Stackz",
+      "handle": "@playstackz",
+      "twitter": "@playstackz",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/playstackz"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 8,
+        "overall": 6.6
+      },
+      "highlights": [
+        "1,500个免费mint",
+        "多人堆叠竞技玩法",
+        "Robinhood链生态"
+      ],
+      "drawbacks": [
+        "无官网/合约链接",
+        "关注度极低",
+        "产品界面未展示"
+      ],
+      "whatsNew": "新公布1,500个Stackz免费mint，定位多人积木堆叠竞技场。",
+      "summary": "Stackz是Robinhood链上极早期的多人堆叠竞技项目，卡面明确1,500个免费mint，适合作为打新线索跟踪。",
+      "blurb": "Robinhood链免费mint的多人堆叠小游戏，极早期。",
+      "round": 2016,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 11,
+      "xFollowers": 11,
+      "firstSeen": "2026-11-20 14:35 CST",
+      "addedAt": "2026-11-20 14:35 CST",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "rebait-space",
+      "name": "Rebait",
+      "handle": "@rebait_space",
+      "twitter": "@rebait_space",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/rebait_space",
+        "website": "https://www.Rebait.Space"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 8,
+        "actionable": 6,
+        "overall": 6.7
+      },
+      "highlights": [
+        "v4 hook在同一笔交易内回跑价差，把MEV返还给交易者与LP",
+        "机制描述具体，非空泛叙事",
+        "已有独立官网，10条推文有实质内容"
+      ],
+      "drawbacks": [
+        "尚无审计与合约地址公开",
+        "技术实现难度高，落地存疑",
+        "粉丝极少，社区尚未形成"
+      ],
+      "whatsNew": "用Uniswap v4 hook把自身交易MEV转成用户rebate。",
+      "summary": "Rebait 想用 Uniswap v4 hook 在同一笔交易里吃掉自己制造的价差，再把收益返还给交易者和LP，机制清晰有官网，是目前这批新号里产品感最强的一个，值得早期盯合约与审计进展。",
+      "blurb": "v4 hook反MEV返还机制，有官网，早期技术向。",
+      "round": 2016,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 11,
+      "xFollowers": 11,
+      "firstSeen": "2026-11-20 14:35 CST",
+      "addedAt": "2026-11-20 14:35 CST",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "torqfleet",
+      "name": "Torq",
+      "handle": "@torqfleet",
+      "twitter": "@torqfleet",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/torqfleet",
+        "website": "http://torqfleet.xyz/"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.2
+      },
+      "highlights": [
+        "机器人/无人机/充电桩的机器钱包叙事，题材少见",
+        "有独立官网torqfleet.xyz",
+        "公布官方CA获取渠道"
+      ],
+      "drawbacks": [
+        "仅有概念与代币，无产品演示",
+        "Robinhood Chain生态早期，流动性未知",
+        "粉丝仅7人，真实性待验"
+      ],
+      "whatsNew": "Robinhood Chain上主打机器钱包的$TORQ代币首发。",
+      "summary": "Torq 用『机器钱包』给机器人、无人机、充电桩做链上支付限额，叙事在Meme盘中较有新意，官网已上线但产品仍是白纸，适合早期小额跟踪。",
+      "blurb": "机器钱包叙事+官网，Robinhood Chain极早期代币。",
+      "round": 2016,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 7,
+      "xFollowers": 7,
+      "firstSeen": "2026-11-20 14:35 CST",
+      "addedAt": "2026-11-20 14:35 CST",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "usenvpad",
+      "name": "NVPAD",
+      "handle": "@usenvpad",
+      "twitter": "@usenvpad",
+      "chain": "Nvda Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/usenvpad",
+        "website": "https://nvpad.com"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 5,
+        "actionable": 5,
+        "overall": 6.0
+      },
+      "highlights": [
+        "宣称是Nvda Chain首个多项目Launchpad",
+        "已有独立域名官网",
+        "账号0天0推量极早，处于信息差窗口"
+      ],
+      "drawbacks": [
+        "官方代币TBA，暂无经济模型",
+        "链本身知名度低，流动性与真实性待验",
+        "官网内容尚未披露具体打新项目"
+      ],
+      "whatsNew": "Nvda Chain上首个自称的Launchpad，代币尚未公布。",
+      "summary": "NVPAD 是一个刚建号的新链打新台子，主打成为 Nvda Chain 首家多项目发射平台，目前只有官网和口号，代币与首个项目均未公布，属于最早期埋伏位。",
+      "blurb": "Nvda Chain首个打新台子，0天新号，代币待公布，早期埋伏观察。",
+      "round": 2016,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 5,
+      "xFollowers": 5,
+      "firstSeen": "2026-11-20 14:35 CST",
+      "addedAt": "2026-11-20 14:35 CST",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "oweidotfun",
+      "name": "Owei.fun",
+      "handle": "@oweidotfun",
+      "twitter": "@oweidotfun",
+      "chain": "Ethereum",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/oweidotfun",
+        "website": "http://owei.fun"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 5,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 6.4
+      },
+      "highlights": [
+        "为AI Agent提供链上信用额度，每笔额度由他人真实质押背书",
+        "官网owei.fun并公开主网合约地址",
+        "26天新号，仍处极早期"
+      ],
+      "drawbacks": [
+        "更新极少（7条推文），进展不透明",
+        "信用与清算机制未见文档",
+        "无测试网/审计信息"
+      ],
+      "whatsNew": "主网上线AI Agent信用额度协议，公开合约地址。",
+      "summary": "以太坊主网的AI Agent信用协议，新颖度较高且合约可查，值得跟踪。",
+      "blurb": "AI Agent链上信用，主网合约已上线。",
+      "round": 2016,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 4,
+      "xFollowers": 4,
+      "firstSeen": "2026-11-20 14:35 CST",
+      "addedAt": "2026-11-20 14:35 CST",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "agentragenesis",
+      "name": "AGENTRA",
+      "handle": "@agentragenesis",
+      "twitter": "@agentragenesis",
+      "chain": "BNB Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/agentragenesis",
+        "website": "http://agentraai.pages.dev"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 5,
+        "novelty": 6,
+        "actionable": 8,
+        "overall": 7.4
+      },
+      "highlights": [
+        "5,555枚AI Agent NFT，1,111个免费mint正在开放",
+        "mint与$AGENTRA代币发放同一笔交易完成",
+        "有官网agentraai.pages.dev与TG社群"
+      ],
+      "drawbacks": [
+        "新号1天，粉丝仅3人",
+        "Agent NFT同质化严重，长期价值待验证",
+        "免费mint易被脚本刷完"
+      ],
+      "whatsNew": "Genesis系列免费mint进行中，主打mint即发币。",
+      "summary": "BNB Chain上正在进行的AI Agent NFT免费mint，动作明确可即时参与。",
+      "blurb": "AI Agent NFT免费mint进行中。",
+      "round": 2016,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 3,
+      "xFollowers": 3,
+      "firstSeen": "2026-11-20 14:35 CST",
+      "addedAt": "2026-11-20 14:35 CST",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "ground0-fun",
+      "name": "Ground Zero",
+      "handle": "@ground0_fun",
+      "twitter": "@ground0_fun",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/ground0_fun",
+        "website": "http://groundzerofun.netlify.app"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 6,
+        "overall": 6.5
+      },
+      "highlights": [
+        "公平发射台：无预售、无团队份额、流动性永久锁定",
+        "反狙击设计：机器人需付费才能抢跑",
+        "有独立站点groundzerofun.netlify.app"
+      ],
+      "drawbacks": [
+        "站点为netlify免费二级域名，正式度低",
+        "自称基于LayerZero Zero但未验证",
+        "仅1条推文，无mint时间与合约信息"
+      ],
+      "whatsNew": "新上线主打零预售+付费狙击的公平发射台概念。",
+      "summary": "早期公平发射台，机制有一定差异化且已有站点，可持续观察。",
+      "blurb": "公平发射台，反狙击机制，早期。",
+      "round": 2016,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 2,
+      "xFollowers": 2,
+      "firstSeen": "2026-11-20 14:35 CST",
+      "addedAt": "2026-11-20 14:35 CST",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "anthold",
+      "name": "ANTHOLD",
+      "handle": "@anthold_",
+      "twitter": "@anthold_",
+      "chain": "Ethereum",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/anthold_",
+        "website": "https://www.antholdhq.xyz/"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 5,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.5
+      },
+      "highlights": [
+        "放置类像素蚂蚁殖民游戏，蚂蚁工作产出tokenized ANT",
+        "有独立官网antholdhq.xyz",
+        "账号仅14天、5条推文，极早期"
+      ],
+      "drawbacks": [
+        "粉丝仅1人，社交验证几乎为零",
+        "代币经济与合约细节未公开",
+        "bio里@AnthropicAI略显借势"
+      ],
+      "whatsNew": "新上线 idle 蚂蚁矿场概念，主打持有即产出。",
+      "summary": "Ethereum上的像素蚂蚁放置挖矿游戏，早期且已有官网与玩法说明，可跟踪。",
+      "blurb": "像素蚂蚁放置挖矿，早期有站。",
+      "round": 2016,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-20 14:35 CST",
+      "addedAt": "2026-11-20 14:35 CST",
+      "lastChecked": "2026-11-20 14:35 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
     {
       "id": "founder",
       "name": "Founder",
@@ -326769,7 +327811,7 @@
       "lastChecked": "2026-11-20 14:15:03 CST",
       "updatedAt": "2026-11-20 14:15:03 CST",
       "zoneHint": "Elysium",
-      "newThisRound": true,
+      "newThisRound": false,
       "le2h": false,
       "ca": "0x231e303Fc99f8Ff35fb089c707981e3767d4E6B7",
       "caUnverified": true,
@@ -326794,17 +327836,36 @@
     }
   ],
   "newThisRound": [
-    "perpium"
+    "anthold",
+    "ground0-fun",
+    "agentragenesis",
+    "oweidotfun",
+    "usenvpad",
+    "torqfleet",
+    "rebait-space",
+    "playstackz",
+    "rangeroundsrh",
+    "waxisgenesis",
+    "observagent-rh",
+    "seoul-basis",
+    "layer-machines",
+    "probie",
+    "lethe",
+    "yumirbh",
+    "goodlauncher",
+    "bastionedapp",
+    "mintscales",
+    "00000dotfun"
   ],
-  "alertMessage": "【R2014】Specula Agents 官推 @SpeculaAgents、官网 https://speculaagents.fun/ 已上线；代币页自称 $SPECULA，CA 0x043D7F5c802A73F48345686EE94a75920C078CE7 由官网给出，DexScreener 按该 CA 查询 pairs=0，盘口未独立核验。站点已上线，非免费 mint。面板 https://reboot7454.github.io/early-scout/ 。本号不自动 mint。",
+  "alertMessage": "DC补漏R2016新收：挖矿-ANTHOLD像素蚂蚁、Bastioned锁供应赚费、ScaleNFT swap铸NFT；台子-Meme-Ground Zero反狙击发射、Owei AI信用、NVPAD/Nvda首台、Torq机器钱包、Rebait反MEV、Observ已发币、Seoul Basis韩溢价、Probie AI打工、Lethe隐私swap；打新-AGENTRA免费mint、Stackz堆叠游戏、Range Rounds明日发射、W-AXIS免费铸、yumi 11/23开铸。面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [],
-  "updatedAt": "2026-11-20 12:44:21 CST",
-  "updated": "2026-11-20 14:15:03 CST",
+  "updatedAt": "2026-11-20 14:35 CST",
+  "updated": "2026-11-20 14:35 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-20 12:44:21 CST",
+  "lastScout": "2026-11-20 14:35 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -326846,7 +327907,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4479,
+  "candidateCount": 4502,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -331079,5 +332140,27 @@
     "ufAccountShard": 50,
     "plannedMainReads": 22,
     "thinOfficialDeferred": true
-  }
+  },
+  "round2016Added": [
+    "anthold",
+    "ground0-fun",
+    "agentragenesis",
+    "oweidotfun",
+    "usenvpad",
+    "torqfleet",
+    "rebait-space",
+    "playstackz",
+    "rangeroundsrh",
+    "waxisgenesis",
+    "observagent-rh",
+    "seoul-basis",
+    "layer-machines",
+    "probie",
+    "lethe",
+    "yumirbh",
+    "goodlauncher",
+    "bastionedapp",
+    "mintscales",
+    "00000dotfun"
+  ]
 }
