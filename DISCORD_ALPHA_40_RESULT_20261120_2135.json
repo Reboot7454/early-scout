@@ -1,0 +1,192 @@
+{
+  "round": 2038,
+  "routine": "Discord alpha 40分钟补漏",
+  "notify": true,
+  "dsFallback": false,
+  "discordPeekDeferred": false,
+  "loginOk": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "updated": "2026-11-20 21:35 CST",
+  "scannedAtCST": "2026-11-20 21:25",
+  "openedRemoteRound": 2037,
+  "remoteMovedDuringWrite": "3a3e004 R2037: KToons Grumpy OGs free mint LIVE; admit Everything Is Mine + Launch On Lumen; Hood Drive giveaway first <=2h",
+  "bumpedTo": 2038,
+  "clearedNTR": [
+    "launchonlumen",
+    "everything-is-mine"
+  ],
+  "newThisRound": [
+    "berylhood",
+    "kradl"
+  ],
+  "admits": [
+    {
+      "id": "berylhood",
+      "handle": "@berylhood_",
+      "category": "挖矿",
+      "chain": "Robinhood Chain",
+      "site": "https://berylhood.xyz/",
+      "focus": false,
+      "lzVerified": false,
+      "ca": "0xb4aeca91c21fafee614af658ed6009ac99670662",
+      "caUnverified": true,
+      "note": "GPU算力网，功能未实测，CA未独立核验"
+    },
+    {
+      "id": "kradl",
+      "handle": "@kradlxyz",
+      "category": "台子/Meme",
+      "chain": "Robinhood Chain / Base",
+      "site": "https://kradl.xyz",
+      "focus": false,
+      "lzVerified": false,
+      "note": "0帖但官网/launch可开；发射功能未实测，项目代币CA未见"
+    }
+  ],
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-20 21:19",
+    "alpha-1-backup": "2026-11-20 21:00",
+    "smart-accounts-tracker": "2026-11-20 21:14",
+    "alpha-1": "2026-11-20 20:47"
+  },
+  "lastSeen": "2026-11-20 21:19",
+  "cutoffsUsed": {
+    "alpha-3-new-accounts": "2026-11-20 20:47",
+    "alpha-1-backup": "2026-11-20 20:29",
+    "smart-accounts-tracker": "2026-11-20 20:24",
+    "alpha-1": "2026-11-20 20:47"
+  },
+  "cardsAfterCutoff": 36,
+  "uniqueHandles": 31,
+  "passedCutoffByChannel": {
+    "alpha-3-new-accounts": true,
+    "alpha-1-backup": true,
+    "smart-accounts-tracker": true,
+    "alpha-1": true
+  },
+  "cappedByChannel": {
+    "alpha-3-new-accounts": false,
+    "alpha-1-backup": false,
+    "smart-accounts-tracker": false,
+    "alpha-1": false
+  },
+  "spideyPosting": true,
+  "gapIncomplete": false,
+  "gapNote": {
+    "attempted": false,
+    "note": "incremental after lastSeen, all 4 passed cutoff, not capped; prior unfilled alpha3OlderGap remains out of scope"
+  },
+  "preReject": {
+    "already": 2,
+    "alreadyHandles": [
+      "@Ticksealxyz",
+      "@OpenSolace"
+    ],
+    "highFol": 1,
+    "highFolHandles": [
+      "@Barthazian"
+    ],
+    "personalOrEmpty": 15,
+    "personalOrEmptyHandles": [
+      "@bhoopendramahor",
+      "@Hajatianaki",
+      "@nirjon77",
+      "@tHy5966",
+      "@IyTech42796",
+      "@jessphilliip",
+      "@soter0xx",
+      "@AscendiaASC",
+      "@laboobooi",
+      "@Mohammad_ph78",
+      "@Sixtusmidas",
+      "@hamzoinu",
+      "@UmtronCrypto",
+      "@MoonWhisper1111",
+      "@abdalazym0"
+    ],
+    "midOrEmptyShell": 9,
+    "midOrEmptyHandles": [
+      "@HEROZEROmw",
+      "@JohnB1tcoin",
+      "@Polana_Coin",
+      "@Qorvalis",
+      "@Covalent_One",
+      "@RudyCoinPumpfun",
+      "@AtadeverSpace",
+      "@KryoshiRH",
+      "@Bananainfts"
+    ]
+  },
+  "dsRejects": [
+    {
+      "handle": "@mindiqxyz",
+      "reason": "仅为客服回复审批原型且发送为模拟，代币CA仍TBA与官帖已发射矛盾，非可参与实质产品"
+    },
+    {
+      "handle": "@usenockfun",
+      "reason": "虽官网可开的代币扫描工具，但明确无代币、无发射/挖矿玩法，非可参与标的"
+    }
+  ],
+  "watchAdds": [
+    "@berylhood_",
+    "berylhood",
+    "@kradlxyz",
+    "kradl"
+  ],
+  "xReadsThisRun": 6,
+  "xReadsRemainingToday": 933,
+  "candidateCount": 4559,
+  "dsUsage": {
+    "admit": {
+      "calls": 1,
+      "prompt_tokens": 2265,
+      "completion_tokens": 2130,
+      "reasoning_tokens": 849,
+      "model": "deepseek-flash",
+      "thinking": true,
+      "batches": [
+        {
+          "batch": 0,
+          "n": 4,
+          "usage": {
+            "prompt_tokens": 2265,
+            "completion_tokens": 2130,
+            "total_tokens": 4395,
+            "prompt_tokens_details": {
+              "cached_tokens": 512
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 849
+            },
+            "prompt_cache_hit_tokens": 512,
+            "prompt_cache_miss_tokens": 1753
+          },
+          "sec": 14.0
+        }
+      ]
+    },
+    "alert": {
+      "usage": {
+        "prompt_tokens": 694,
+        "completion_tokens": 338,
+        "total_tokens": 1032,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 694
+      },
+      "sec": 3.3,
+      "model": "deepseek-flash",
+      "thinking": true
+    },
+    "model": "deepseek-flash",
+    "thinking": true,
+    "dsFallback": false
+  },
+  "categoryOverrides": {},
+  "alert": "DC补漏R2038新收：本轮补录 2 个新项目，focus=false。1）Berylhood @berylhood_，挖矿，Robinhood Chain：官网可打开，自称把闲置 NVIDIA 消费级 GPU 转为链上可验证 AI 算力，builder 用 USDG 锁托管，节点每 6 小时 epoch 发放 $BERYL 并通过 Holder Vault 给 tokenized NVDA 奖励；X 资料给出 CA 0xb4aeca91c21fafee614af658ed6009ac99670662，但未独立核验；算力托管与任务功能未实测；官帖称 dev wallet burned 并附浏览器链接，该交易也未独立核验。2）Kradl @kradlxyz，台子/Meme，Robinhood Chain / Base：官网与 /launch 页可打开，非托管 bonding-curve 发射台，链列表含 Robinhood Testnet/Mainnet 与 Base Sepolia/Base；自称公平发射 1B 固定供应 ERC-20，每笔交易 0.5% ETH 给 builder，条款另写协议金库 0.5%，合计 1.0%，毕业费 2.0%，曲线满后自动 DEX 毕业；X 0 帖，应用列表仍为 Loading indexed apps，发射、买售、毕业均未实测，项目代币 CA 未见；不是免费 mint。以上均未承诺上线或免费。面板：https://reboot7454.github.io/early-scout/"
+}

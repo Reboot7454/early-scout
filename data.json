@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-20 21:17:37 CST",
+    "updated": "2026-11-20 21:35 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
@@ -847,7 +847,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2037,
+    "round": 2038,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -924,7 +924,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 4557,
+    "candidateCount": 4559,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -2382,8 +2382,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "everything-is-mine",
-      "launchonlumen"
+      "berylhood",
+      "kradl"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -5209,28 +5209,28 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastChecked": "2026-11-20 21:04 CST",
-      "lastSeen": "2026-11-20 20:47",
+      "lastChecked": "2026-11-20 21:35 CST",
+      "lastSeen": "2026-11-20 21:19",
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-20 20:47",
-        "alpha-1-backup": "2026-11-20 20:29",
-        "smart-accounts-tracker": "2026-11-20 20:24",
+        "alpha-3-new-accounts": "2026-11-20 21:19",
+        "alpha-1-backup": "2026-11-20 21:00",
+        "smart-accounts-tracker": "2026-11-20 21:14",
         "alpha-1": "2026-11-20 20:47"
       },
-      "newestCardTime": "2026-11-20 20:47",
-      "cardsAfterCutoff": 41,
-      "note": "R2036：Discord alpha 补收 tickseal,mnbiersagents,wanted-acres,ventmark；开跑前远程还是 R2034，本轮写盘前远程已抢占 R2035（PP @PPDotFun Pump.fun pad），因此升为 R2036，清 ppdotfun；增量扫 lastSeen 之后 41 张/34 号（四频道均 passedCutoff、未封顶）；lastSeen→2026-11-20 20:47；lastChecked→2026-11-20 21:04 CST。11/15–11/18 积压仍未清，未到 cutoff 或触顶则下轮续翻。",
-      "lastRound": 2036,
+      "newestCardTime": "2026-11-20 21:19",
+      "cardsAfterCutoff": 36,
+      "note": "R2038：Discord alpha 补收 berylhood,kradl；开跑前远程还是 R2036，本轮写盘前远程已抢占 R2037（KToons mint LIVE + Everything Is Mine + Launch On Lumen），因此升为 R2038，清 launchonlumen,everything-is-mine；保留 R2037 新卡；增量扫 lastSeen 之后 36 张/31 号（四频道均 passedCutoff、未封顶）；lastSeen→2026-11-20 21:19；lastChecked→2026-11-20 21:35 CST。11/15–11/18 积压仍未清，本轮未试图回填（attempted=false）。",
+      "lastRound": 2038,
       "newestByChannel": {
-        "alpha-3-new-accounts": "2026-11-20 20:47",
-        "alpha-1-backup": "2026-11-20 20:29",
-        "smart-accounts-tracker": "2026-11-20 20:24",
+        "alpha-3-new-accounts": "2026-11-20 21:19",
+        "alpha-1-backup": "2026-11-20 21:00",
+        "smart-accounts-tracker": "2026-11-20 21:14",
         "alpha-1": "2026-11-20 20:47"
       },
       "oldestReachedByChannel": {
-        "alpha-3-new-accounts": "2026-11-20 19:43",
-        "alpha-1-backup": "2026-11-20 07:29",
-        "smart-accounts-tracker": "2026-11-20 14:38",
+        "alpha-3-new-accounts": "2026-11-20 20:21",
+        "alpha-1-backup": "2026-11-19 20:45",
+        "smart-accounts-tracker": "2026-11-20 15:30",
         "alpha-1": "2026-11-20 19:07"
       },
       "cappedByChannel": {
@@ -5246,12 +5246,9 @@
         "alpha-1": true
       },
       "spideyPosting": true,
-      "scannedAtCST": "2026-11-20 20:57",
+      "scannedAtCST": "2026-11-20 21:25",
       "backlogGap": {
         "attempted": false,
-        "filled": false,
-        "nFilled": 0,
-        "note": "R2036 incremental after lastSeen 20:03/18:44/20:03/20:04 (all 4 channels passed cutoff, not capped); prior unfilled gap remains out of scope",
         "unfilled": {
           "alpha-3-new-accounts": {
             "from": "2026-11-15 03:22",
@@ -5269,7 +5266,8 @@
             "from": "2026-11-15 02:59",
             "to": "2026-11-18 05:37"
           }
-        }
+        },
+        "note": "Prior unfilled ranges were out of scope this incremental run: alpha-3 2026-11-15 03:22→2026-11-20 02:20; backup 2026-11-15 02:04→2026-11-15 14:04; smart 2026-11-15 03:26→2026-11-18 12:38; alpha-1 2026-11-15 02:59→2026-11-18 05:37."
       },
       "alpha3OlderGap": {
         "attempted": false,
@@ -5294,8 +5292,7 @@
             "to": "2026-11-18 05:37"
           }
         }
-      },
-      "r2037Note": "R2037 为本路定时 X 雷达。写盘前远程已是 R2036 Discord 增量 Peek（loginOk=true，lastSeen 2026-11-20 20:47 CST，四频道 passedCutoff、未封顶，scannedAtCST 20:57，lastChecked 21:04 CST）。本路不改 lastSeen。11/15–11/18 积压仍未清。不催 16:49 Secure Form。"
+      }
     },
     "round239Added": [
       "tsunamilaunch",
@@ -15328,7 +15325,9 @@
         "@WantedAcres",
         "@useVentmark1",
         "@LaunchOnLumen",
-        "@basebirdevery"
+        "@basebirdevery",
+        "@berylhood_",
+        "@kradlxyz"
       ],
       "candidateIds": [
         "elysatrade",
@@ -17359,7 +17358,9 @@
         "wanted-acres",
         "ventmark",
         "launchonlumen",
-        "everything-is-mine"
+        "everything-is-mine",
+        "berylhood",
+        "kradl"
       ],
       "pending": [],
       "note": "R1769 merge soft-brush 1038→1086; kept 47, skip 1 known_nf（ePegsV4，本轮不重读）; 2 from: batches，本片 1 帖（polyrob/tmachinroBot 仍为 21:03 白名单已关/22:00 开铸，未改期）。Next starts at 1086. Watch 漏挂：Discord 六卡 @strix_agents / @wagmint_bnb / @burybud / @delvoprotocol / @pervix_xyz / @Envara_Agent 在库不在任何 Watch，已补进 userFollowWatch；@wagmint_bnb 兼 agentPad+bnAgent，@delvoprotocol/@pervix_xyz 兼 elysiumWatch。新收录 @PonkeAgent 进 userFollowWatch+agentPadWatch+bnAgentWatch+freeMintWatch。UF accounts=1647。",
@@ -17655,7 +17656,7 @@
       "r997": "admit+soft",
       "r1004": "tight-quota soft brush + ≤2h verify",
       "r1008": "watch-bug fix + soft stamp 2026-10-31 21:36 CST",
-      "lastRound": 2036,
+      "lastRound": 2038,
       "r1013": "watch-bugfix: robinshinobi+koin-elysium wired",
       "r1016": "watch-bug fix: cadencebnb @cadencebnb BNB DCA tool",
       "r1018": "watch-bug fix: hashwardonline @HashwardOnline 挖矿 Fuse Cool",
@@ -36144,8 +36145,8 @@
       "ascendrbot"
     ],
     "roundNAdded": [
-      "everything-is-mine",
-      "launchonlumen"
+      "berylhood",
+      "kradl"
     ],
     "round1438Added": [
       "elyfun"
@@ -47262,9 +47263,150 @@
           "freeMintWatch"
         ]
       }
+    ],
+    "round2038Added": [
+      "berylhood",
+      "kradl"
+    ],
+    "r2038WatchAdds": [
+      {
+        "id": "berylhood",
+        "handle": "@berylhood_",
+        "watches": [
+          "userFollowWatch"
+        ]
+      },
+      {
+        "id": "kradl",
+        "handle": "@kradlxyz",
+        "watches": [
+          "userFollowWatch"
+        ]
+      }
     ]
   },
   "candidates": [
+    {
+      "id": "berylhood",
+      "name": "Berylhood",
+      "handle": "@berylhood_",
+      "twitter": "@berylhood_",
+      "chain": "Robinhood Chain",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "挖矿",
+        "Robinhood",
+        "R2038"
+      ],
+      "links": {
+        "x": "https://x.com/berylhood_",
+        "twitter": "https://x.com/berylhood_",
+        "website": "https://berylhood.xyz/",
+        "web": "https://berylhood.xyz/",
+        "site": "https://berylhood.xyz/"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 6.5
+      },
+      "highlights": [
+        "闲置NVIDIA GPU转可验证AI算力，节点任务返SHA-256回执",
+        "每6小时epoch发$BERYL，Holder Vault给tokenized NVDA奖励",
+        "官网可打开并有资料CA"
+      ],
+      "drawbacks": [
+        "CA与烧dev钱包交易未独立链上核验",
+        "算力托管与任务功能未实测",
+        "8粉4帖极新"
+      ],
+      "whatsNew": "今日上线，首个Robinhood Chain上GPU算力供给网络叙事。",
+      "summary": "把闲置消费级GPU接入Robinhood Chain做可验证算力，节点按epoch领$BERYL并分红tokenized NVDA；产品页与资料CA齐全但链上均未独立核验。",
+      "blurb": "闲置GPU挖$BERYL+NVDA分红的Robinhood Chain算力网，官网与CA已挂，链上待核。",
+      "round": 2038,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 8,
+      "xFollowers": 8,
+      "xTweets": 4,
+      "xUserId": "2123662831610699776",
+      "accountCreatedCST": "2026-11-20 14:23 CST",
+      "firstSeen": "2026-11-20 21:35 CST",
+      "addedAt": "2026-11-20 21:35 CST",
+      "lastChecked": "2026-11-20 21:35 CST",
+      "updatedAt": "2026-11-20 21:35 CST",
+      "zoneHint": "挖矿",
+      "source": "discord-alpha",
+      "hasTwitter": true,
+      "newThisRound": true,
+      "ca": "0xb4aeca91c21fafee614af658ed6009ac99670662",
+      "caUnverified": true,
+      "caNote": "X资料给出 CA，未独立链上核验"
+    },
+    {
+      "id": "kradl",
+      "name": "Kradl",
+      "handle": "@kradlxyz",
+      "twitter": "@kradlxyz",
+      "chain": "Robinhood Chain / Base",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "台子/Meme",
+        "Robinhood",
+        "R2038"
+      ],
+      "links": {
+        "x": "https://x.com/kradlxyz",
+        "twitter": "https://x.com/kradlxyz",
+        "website": "https://kradl.xyz",
+        "web": "https://kradl.xyz",
+        "site": "https://kradl.xyz"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 5,
+        "actionable": 7,
+        "overall": 6.5
+      },
+      "highlights": [
+        "非托管app/project bonding-curve发射台，含Explore/Leaderboard/Launch",
+        "10亿固定供应ERC-20，0.5%给builder，曲线满自动DEX毕业",
+        "链列表含Robinhood Testnet/Mainnet与Base"
+      ],
+      "drawbacks": [
+        "0帖，无任何官帖背书",
+        "应用列表仅Loading未见实际项目",
+        "发射/买售/毕业未实测"
+      ],
+      "whatsNew": "今日建号即上线发射页，主打builder费用+链上vesting金库。",
+      "summary": "Robinhood Chain与Base上的非托管发射台，官网launch页可开并写清1B供应与费率结构，但0帖且功能未实测。",
+      "blurb": "0帖发射台但launch页能开，builder费0.5%+毕业机制已写明。",
+      "round": 2038,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 4,
+      "xFollowers": 4,
+      "xTweets": 0,
+      "xUserId": "2123762507353624576",
+      "accountCreatedCST": "2026-11-20 21:00 CST",
+      "firstSeen": "2026-11-20 21:35 CST",
+      "addedAt": "2026-11-20 21:35 CST",
+      "lastChecked": "2026-11-20 21:35 CST",
+      "updatedAt": "2026-11-20 21:35 CST",
+      "zoneHint": "台子/Meme",
+      "source": "discord-alpha",
+      "hasTwitter": true,
+      "newThisRound": true
+    },
     {
       "id": "tickseal",
       "name": "Tickseal",
@@ -333280,7 +333422,7 @@
       "addedAt": "2026-11-20 21:17:37 CST",
       "updatedAt": "2026-11-20 21:17:37 CST",
       "lastChecked": "2026-11-20 21:17:37 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "le2h": false,
       "source": "KW_PAD R2037",
       "summary": "在 Stellar 上一键发射代币。官帖称 USDe 已在 Lumen 上线，创作者可把代币与 Ethena USDe 组成 Stellar bonding curve 交易对。可免费发币，不是 NFT 免费 mint。",
@@ -333365,7 +333507,7 @@
       "addedAt": "2026-11-20 21:17:37 CST",
       "updatedAt": "2026-11-20 21:17:37 CST",
       "lastChecked": "2026-11-20 21:17:37 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "le2h": false,
       "source": "KW/KOL R2037 @mrchrismast_",
       "summary": "BNB 上需持 Binance Agent ID 的 Goblin Miner NFT。每钱包第一份免费，其后阶梯 0.0003/0.0006/0.0009 BNB，最多 30 份。NFT soulbound，只能走官网固定价市场。挖矿产出 $MINE。",
@@ -333439,16 +333581,16 @@
     }
   ],
   "newThisRound": [
-    "everything-is-mine",
-    "launchonlumen"
+    "berylhood",
+    "kradl"
   ],
   "alertMessage": "R2037：Kinetiq Toons（@KToonsNFT）Grumpy OGs 免费窗已确认开铸 LIVE（官帖 21:00:02 CST，OpenSea 合集 kinetiqtoons，本轮约 21:05 CST 核验已铸约 159/5555、54 持有，1/钱包 0 价；官网 FAQ 仍写 TBA，以官帖和 OpenSea 为准）。Toons Army 免费窗仍 22:00 CST（R2030 已提醒，不重推）。新收录 Everything Is Mine（@basebirdevery / https://everythingisfine.website/）：BNB 上需持 Agent ID 的 Goblin Miner，链上 mintOpen=true，已铸 1046/8888，每钱包首份免费，其后 0.0003/0.0006/0.0009 BNB、最多 30 份；官推是锁推、仅 38 粉 0 公开帖，高风险。新收录 Launch On Lumen（@LaunchOnLumen / https://launchonlumen.fun/）Stellar 发射台已开，可免费发币，非 NFT 免费 mint。Hood Drive giveaway 截止 23:00 CST 首次进入≤2h（配额 01:00、开铸 11-22 01:00 尚未到门槛）。Clarion 22:00 Pons 仍≤2h（R2033 已提醒，未见 LIVE，不重推）。本号不自动 mint。面板：https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "theholdpad",
     "giwater"
   ],
-  "updatedAt": "2026-11-20 21:17:37 CST",
-  "updated": "2026-11-20 21:17:37 CST",
+  "updatedAt": "2026-11-20 21:35 CST",
+  "updated": "2026-11-20 21:35 CST",
   "round365Added": [
     "nockd",
     "inkora"
@@ -333495,7 +333637,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4557,
+  "candidateCount": 4559,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -337834,5 +337976,9 @@
   "round2037Added": [
     "everything-is-mine",
     "launchonlumen"
+  ],
+  "round2038Added": [
+    "berylhood",
+    "kradl"
   ]
 }
