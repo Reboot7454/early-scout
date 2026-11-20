@@ -2,7 +2,7 @@
 
 - round: 2010
 - lastScout: 2026-11-20 11:14:45 CST
-- panelCommit: PENDING
+- panelCommit: aba7977
 - notify: true
 - added: unseen-solana（@UnseenSolana，live，非免费 LIVE）
 - docsSynced: true
