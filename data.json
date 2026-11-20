@@ -5,7 +5,7 @@
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-21 04:56 CST",
+    "lastScout": "2026-11-21 05:14:24 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -24,7 +24,7 @@
     ],
     "layerZeroWatch": {
       "active": true,
-      "lastChecked": "2026-11-20 16:16:27 CST",
+      "lastChecked": "2026-11-21 05:13:01 CST",
       "note": "R1352 soft-debt 2026-11-07 04:58 CST | R977 soft-debt lastChecked 2026-10-31 12:39 CST; prev 2026-10-31 11:37 CST; R950 soft-debt lastChecked 2026-10-31 04:33 CST; R945 soft-debt lastChecked 2026-10-31 03:02 CST; prev 2026-10-30 21:10 CST; R889 soft-debt lastChecked 2026-10-30 07:06 CST (X exhausted remaining=0 until 2026-10-30 08:00 CST)",
       "r349": "Zero 11-30续；无新LZ核验admit",
       "r350": "Zero 11-30续",
@@ -156,7 +156,8 @@
         "@ZeroFrens",
         "@zropunks",
         "@LayerRun",
-        "@Zer0_Machines"
+        "@Zer0_Machines",
+        "@kangozro"
       ],
       "r1155": "KW/mentions covered",
       "r1221": true,
@@ -179,7 +180,8 @@
         "zerofrens",
         "zropunks",
         "layerrun",
-        "zer0-machines"
+        "zer0-machines",
+        "kangozro"
       ],
       "r1277": {
         "softDebt": true,
@@ -851,7 +853,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2062,
+    "round": 2063,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2386,7 +2388,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "singularity-cash"
+      "kangozro"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -5213,13 +5215,13 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": false,
+      "deferred": true,
       "lastSeen": "2026-11-21 04:53",
-      "lastChecked": "2026-11-21 04:56 CST",
+      "lastChecked": "2026-11-21 05:14:24 CST",
       "newestCardTime": "2026-11-21 04:53",
       "cardsAfterCutoff": 32,
-      "note": "R2062：Discord alpha 补收 singularity-cash；跳过 [{'id': 'elenchos-xyz', 'reason': '0 关注 0 推文的空壳号，且是 Pons meme 分析工具，无代币无发射玩法'}, {'id': 'trymorix', 'reason': '交易终端类工具且仅 Closed Beta，无代币、无 mint/发射玩法，产品仍是 Coming Soon'}]；清 spek-fun；lastSeen→2026-11-21 04:53；lastChecked→2026-11-21 04:56 CST；拒 elenchos_xyz(0推分析工具)/trymorix(交易终端 closed beta)/smart 高粉；32 卡；拒 elenchos_xyz(0推分析工具)/trymorix(交易终端 closed beta)/smart 高粉；32 卡",
-      "lastRound": 2062,
+      "note": "R2063 computerUse 打开 #alpha-3-new-accounts 遇登录墙（页面停在频道 URL 但渲染 Welcome back / 邮箱密码 / QR / passkey）。已立即停止，未输入、未点 Log In、未扫码、未用 Secure Form。其余三频道未打开。lastSeen 沿用 R2062：alpha-3 04:53 / backup 03:44 / smart 04:44 / alpha-1 04:49 CST。请有可用会话的路径立刻补增量 Peek；不要向用户催登录。11/15–11/18 积压仍不在增量范围。",
+      "lastRound": 2063,
       "lastSeenByChannel": {
         "alpha-3-new-accounts": "2026-11-21 04:53",
         "alpha-1-backup": "2026-11-21 03:44",
@@ -5232,11 +5234,12 @@
         "smart-accounts-tracker": "2026-11-21 04:44",
         "alpha-1": "2026-11-21 04:49"
       },
-      "loginOk": true,
+      "loginOk": false,
       "spideyPosting": true,
-      "scannedAtCST": "2026-11-21 04:55",
-      "gapIncomplete": false,
-      "alpha3OlderGap": "prior unfilled ranges remain, out of scope: alpha-3 2026-11-15 03:22→2026-11-20 02:20; backup 11-15 02:04→11-15 14:04; smart 11-15 03:26→11-18 12:38; alpha-1 11-15 02:59→11-18 05:37"
+      "scannedAtCST": "2026-11-21 05:14 CST",
+      "gapIncomplete": true,
+      "alpha3OlderGap": "prior unfilled ranges remain, out of scope: alpha-3 2026-11-15 03:22→2026-11-20 02:20; backup 11-15 02:04→11-15 14:04; smart 11-15 03:26→11-18 12:38; alpha-1 11-15 02:59→11-18 05:37",
+      "blocker": "login-wall"
     },
     "round239Added": [
       "tsunamilaunch",
@@ -5368,7 +5371,7 @@
       "zec-nodes",
       "boys-in-hood"
     ],
-    "alertMessage": "【early-scout R2061】新收录 SPECULATE（@spek_on_sol / https://spek.fun/）：10-31 建号、56 粉、32 帖，自称 Solana memecoin 发射程序+交易终端（自有 curve/AMM）。官网写明 PAPER 与 LIVE（NOV '26）均尚未开放，LIVE 先走受邀私测，不是免费 mint，也不是已开盘 LIVE。与库内 Speculate（@speculatexyz，Elysium）不是同一项目。面板：https://reboot7454.github.io/early-scout/",
+    "alertMessage": "【early-scout R2063】新收录 Kangozro（@kangozro）：今天 02:23 CST 建号、仅 4 粉 4 帖，自称 10,000 只袋鼠 NFT、挂靠 LayerZero；官帖号召转发+留 EVM 进免费 mint 白名单——是自称免费登记/WL，不是已开铸 LIVE；无官网、无合约，LZ 未核验，进台子/Meme。面板：https://reboot7454.github.io/early-scout/",
     "dsSummary": "DeepSeek 一次调用（thinking on）把推理过程写进可见正文、未吐出可直接使用的 alert，故 dsFallback=true。开盘/窗口判定与文案按链上 Mint/DEX、官网与既有 MUST 帖核验事实撰写。本轮无真新收录。notify=true 因 Oathbots 开盘翻转 + SpiritsRH 首次进入 ≤2h 免费 mint 窗。",
     "round270Added": [
       "avatarpad"
@@ -8588,7 +8591,8 @@
         "@shojifun",
         "@novemberrain_rh",
         "@gatedapp_xyz",
-        "@woodlandz_xyz"
+        "@woodlandz_xyz",
+        "@singularitycash"
       ],
       "candidateIds": [
         "litbnb",
@@ -9460,7 +9464,8 @@
         "shojifun",
         "novemberrain-rh",
         "gatedapp-xyz",
-        "woodlandz-xyz"
+        "woodlandz-xyz",
+        "singularity-cash"
       ],
       "coreNarrative": "https://x.com/yinghubnb/status/2112604032049295368",
       "keyFacts": {
@@ -9525,7 +9530,7 @@
       ],
       "caWarning": "合约一律标未核实",
       "note": "R1241 soft-debt 2026-11-05 02:19 CST | R1223 murk-fun observe | R1043 Watch补挂 erc8004-markets @ERC8004Markets; R950 soft-debt lastChecked 2026-10-31 04:33 CST; R945 soft-debt lastChecked 2026-10-31 03:02 CST; prev 2026-10-31 01:12 CST; R889",
-      "lastChecked": "2026-11-21 01:42:49 CST",
+      "lastChecked": "2026-11-21 05:13:01 CST",
       "r329": "R329 dotaipad今日21:00；AWPad $AWP指引+开源合约；yinghubnb外盘可买续；新台NERMO非BN。",
       "r330": "dotaipad今日21:00；MOGO过薄skip；无新BN Agent pad admit",
       "r332": "dotaipad bio倒计时今日21:00CST续；yinghubnb外盘可买续；DotAIbsc薄号教程skip；无新BN Agent pad admit",
@@ -10057,11 +10062,12 @@
         "BTC",
         "Starknet"
       ],
-      "mentionsCoverage": "flap/Irys/Full.fun/Arc / BN Agent pads+STARX",
-      "thinOfficialCoverage": "tight 本轮未单开 THIN_OFF，薄栏走独立 KW + flap/Irys/Full/Arc 与 BN Agent pads+STARX mentions",
-      "discordPeekNote": "R2058 box 登录墙，deferred=true，lastSeen 沿用 R2056。请有可用会话的路径立刻补增量 Peek；不要向用户催登录。",
-      "silentLane": "DogeEVM",
-      "silentNextLane": "BTC"
+      "mentionsCoverage": "mining-squeek+Nutshell / BN Agent pads+STARX",
+      "thinOfficialCoverage": "tight 本轮未单开 THIN_OFF，薄栏走独立 KW 30m + 24h 补搜 + 轮换 mentions",
+      "discordPeekNote": "R2063 computerUse 打开 #alpha-3-new-accounts 遇登录墙（页面停在频道 URL 但渲染 Welcome back / 邮箱密码 / QR / passkey）。已立即停止，未输入、未点 Log In、未扫码、未用 Secure Form。其余三频道未打开。lastSeen 沿用 R2062：alpha-3 04:53 / backup 03:44 / smart 04:44 / alpha-1 04:49 CST。请有可用会话的路径立刻补增量 Peek；不要向用户催登录。11/15–11/18 积压仍不在增量范围。",
+      "silentLane": "LayerZero",
+      "silentNextLane": "Elysium",
+      "mentionsNext": "LayerZero 与 Elysium+kinetiq"
     },
     "skipNoteR328": "hoodey(1粉无产品)DS未收；qpick-agent(4粉代币已发)DS未收；hypaww无Elysium On testnet/部署证据未收；fomopoly/vaultstreet/rebate/conso/blackboard/pabalx/giwaup/minehood/agentic-inu/giwa-terminal/jakdu-pump/sansense/cozygolem/raidlords/vela-rh/dotai-pad/awpad/lootrush-rh/chimp-champs/inktropy已在库；GO盘无独立新信号；StockCZ Agent ID模板过薄未交分。",
     "xReads": 19,
@@ -15321,7 +15327,9 @@
         "@auroveil",
         "@woodlandz_xyz",
         "@Zer0_Machines",
-        "@spek_on_sol"
+        "@spek_on_sol",
+        "@kangozro",
+        "@singularitycash"
       ],
       "candidateIds": [
         "elysatrade",
@@ -17385,11 +17393,13 @@
         "auroveil",
         "woodlandz-xyz",
         "zer0-machines",
-        "spek-fun"
+        "spek-fun",
+        "kangozro",
+        "singularity-cash"
       ],
       "pending": [],
       "note": "R1769 merge soft-brush 1038→1086; kept 47, skip 1 known_nf（ePegsV4，本轮不重读）; 2 from: batches，本片 1 帖（polyrob/tmachinroBot 仍为 21:03 白名单已关/22:00 开铸，未改期）。Next starts at 1086. Watch 漏挂：Discord 六卡 @strix_agents / @wagmint_bnb / @burybud / @delvoprotocol / @pervix_xyz / @Envara_Agent 在库不在任何 Watch，已补进 userFollowWatch；@wagmint_bnb 兼 agentPad+bnAgent，@delvoprotocol/@pervix_xyz 兼 elysiumWatch。新收录 @PonkeAgent 进 userFollowWatch+agentPadWatch+bnAgentWatch+freeMintWatch。UF accounts=1647。",
-      "lastChecked": "2026-11-21 04:54:40 CST",
+      "lastChecked": "2026-11-21 05:13:01 CST",
       "createdAt": "2026-10-28 17:15 CST",
       "sourceRound": 775,
       "r775": "用户点名6项已入 candidates；pending=[]",
@@ -17686,7 +17696,7 @@
       "r1016": "watch-bug fix: cadencebnb @cadencebnb BNB DCA tool",
       "r1018": "watch-bug fix: hashwardonline @HashwardOnline 挖矿 Fuse Cool",
       "r1022": "R1022 watch-bug: ElyWord Elysium word game Discord补漏",
-      "cursor": 931,
+      "cursor": 974,
       "shardSizeHint": 40,
       "r1025": "R1025 watch-bug: belief-in-safu @bis_bnb Discord R1024 admit",
       "r1029": "R1029 watch-bug: hootal-kombat @hootal_ Discord R1028 admit",
@@ -24430,6 +24440,38 @@
           "spek-fun"
         ],
         "note": "分片 885 @elys_inscribe 起 walk 46 kept 40，历史 NF 6 未连刷。1.5h。新卡 spek-fun 补挂 UF。"
+      },
+      "r2063": {
+        "softBrush": true,
+        "start": 931,
+        "startHandle": "agentoilrig",
+        "firstKept": "agentoilrig",
+        "lastKept": "Mauverse_Club",
+        "kept": 40,
+        "walkScanned": 43,
+        "NF_skip": 3,
+        "NF_skipHandles": [
+          "bianjiayou",
+          "kpin_ai",
+          "LostGodsOnRH"
+        ],
+        "skip_already": 1,
+        "skipAlreadyHandles": [
+          "Kismonft"
+        ],
+        "wrap": false,
+        "lastKeptIndex": 973,
+        "processedThrough": 973,
+        "next": 974,
+        "nextHandle": "TheWurms",
+        "posts": "UF1=0 / UF2=0（Kismonft 已在 MUST，本分片 from: 查询未再拉该号）",
+        "added": [
+          "kangozro"
+        ],
+        "watchHang": [
+          "singularity-cash"
+        ],
+        "note": "分片 931 @agentoilrig 起 walk 43 kept 40，历史 NF 3 未连刷；@Kismonft 在分片内但已并入 MUST，本轮只拉一次。新卡 kangozro 与 R2062 singularity-cash 补挂 UF。"
       }
     },
     "round775Added": [
@@ -25350,7 +25392,9 @@
         "@MixFitsNFT",
         "@Monsie_Hood",
         "@BGYC_RH",
-        "@woodlandz_xyz"
+        "@woodlandz_xyz",
+        "@kangozro",
+        "@FinalDays365"
       ],
       "candidateIds": [
         "litbnb",
@@ -25833,10 +25877,12 @@
         "mixfits-nft",
         "monsie-hood",
         "bgyc-rh",
-        "woodlandz-xyz"
+        "woodlandz-xyz",
+        "kangozro",
+        "final-days"
       ],
       "note": "R1724 补收 hood-havoc（@HoodHavocNFTS）；并行 tight R1723 裁栏漏掉 | R1241 gloammail | R977 soft-debt lastChecked 2026-10-31 12:39 CST; prev 2026-10-31 11:37 CST; R950 soft-debt lastChecked 2026-10-31 04:33 CST; R945 soft-debt lastChecked 2026-10-31 03:02 CST; prev 2026-10-31 01:12 CST; R889 soft-debt lastCh",
-      "lastChecked": "2026-11-21 01:13:07 CST",
+      "lastChecked": "2026-11-21 05:13:01 CST",
       "r793": "created for watch-bug compliance on free-mint admits",
       "r805": "R805 soft-brush 2026-10-29 01:39 CST",
       "r815": "watch-bug fix: added ['@gotchishadows', 'gotchishadows']",
@@ -30977,7 +31023,7 @@
       "dsFallback": false
     },
     "round1049Added": [],
-    "ufCursor": 931,
+    "ufCursor": 974,
     "r1050WatchBugs": [
       "themutantclub → userFollowWatch (+acc)",
       "themutantclub → userFollowWatch (+cid)",
@@ -31783,16 +31829,16 @@
       "xReadsSilent": 1,
       "xReadsExtra": 5,
       "xReadsDuplicateRetry": 0,
-      "remainingBefore": 78,
-      "remaining": 59,
-      "remainingAfter": 59,
-      "softCap": 14,
-      "minSpend": 14,
+      "remainingBefore": 59,
+      "remaining": 40,
+      "remainingAfter": 40,
+      "softCap": 10,
+      "minSpend": 10,
       "silentCap": 1,
       "ufAccountShard": 40,
       "lastFullAfterReset": "R2004",
-      "ufCursor": 931,
-      "ufCursorBefore": 885,
+      "ufCursor": 974,
+      "ufCursorBefore": 931,
       "ufWrap": false,
       "thinOfficialDeferred": true,
       "searchUsersUnavailable": true,
@@ -31805,11 +31851,12 @@
         "BTC",
         "SN"
       ],
-      "mentionsCoverage": "Tape + GIWA",
+      "mentionsCoverage": "mining-squeek+Nutshell / BN Agent pads+STARX",
       "silentSkipped": false,
-      "silentNextLane": "LayerZero",
-      "checkedAt": "2026-11-21 04:54:40 CST",
-      "round": 2061,
+      "silentLane": "LayerZero",
+      "silentNextLane": "Elysium",
+      "checkedAt": "2026-11-21 05:14:24 CST",
+      "round": 2063,
       "breakdown": {
         "UF": 2,
         "MUST": 1,
@@ -31821,7 +31868,7 @@
         "getUsersByUsernames": 0,
         "duplicateRetry": 0
       },
-      "note": "tight。remainingBefore=78（与 R2060 remainingAfter 一致，直播 footer 第一读后余 77）。读取 19=主扫 13（UF2+MUST1+瘦栏30m6+CORE2+MEN2）+ silent Starknet 1 + 瘦栏24h 5（LZ/TAPE/DOGE/BTC/SN；仅 GIWA 30m≥5 未拉长）。略超 softCap 14：24h 补搜与十栏均保留。不是 post-reset-full。",
+      "note": "tight。remainingBefore=59（与 R2061 remainingAfter 一致，直播 footer 第一读后余 58）。读取 19=主扫 13（UF2+MUST1+瘦栏30m6+CORE2+MEN2）+ silent LayerZero 1 + 瘦栏24h 5（LZ/TAPE/DOGE/BTC/SN；仅 GIWA 30m=14≥5 未拉长）。略超 softCap 10：24h 补搜与十栏均保留，避免偏科。不是 post-reset-full。search_users 不可用，silent 走 mentions 回退。R2062 为 Discord-only，本轮接下 R2061 的 silentNext=LayerZero（未按 2063%11=Tape 跳步）。",
       "discordPeekDeferred": true
     },
     "r1080WatchBugs": {
@@ -36426,7 +36473,9 @@
       "elysium-id",
       "ascendrbot"
     ],
-    "roundNAdded": [],
+    "roundNAdded": [
+      "kangozro"
+    ],
     "round1438Added": [
       "elyfun"
     ],
@@ -48061,7 +48110,7 @@
         "配对/匹配发币功能未实测，bio 叙事可能只是包装",
         "推特 8 粉、当日新建，社交面几乎为零"
       ],
-      "whatsNew": "数字超级智能体链上相亲，每次匹配自动发一枚新币并与 $singularity 组成交易对，手续费由 agent 分成。",
+      "whatsNew": "【R2063】Watch 补挂：入库时未进任何 Watch，已补进 userFollowWatch + agentPadWatch。不是新收录，不重推。此前：数字超级智能体链上相亲，每次匹配自动发一枚新币并与 $singularity 组成交易对，手续费由 agent 分成。",
       "summary": "pump.fun 毕业的 Solana meme，卖点是 agent 配对即发币的发射台式玩法；已有真实交易深度，但产品逻辑未验证、盘子极小，只适合极小额试水。",
       "blurb": "Agent 相亲即发币，小盘已上线 Solana",
       "round": 2062,
@@ -48072,11 +48121,12 @@
       "xFollowers": 8,
       "firstSeen": "2026-11-21 04:56 CST",
       "addedAt": "2026-11-21 04:56 CST",
-      "lastChecked": "2026-11-21 04:56 CST",
+      "lastChecked": "2026-11-21 05:13:01 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "ca": "FPRy9k4At1vTac8Ebnd35MbeoWChrBQZatWoQaWwpump",
-      "caUnverified": false
+      "caUnverified": false,
+      "updatedAt": "2026-11-21 05:13:01 CST"
     },
     {
       "id": "woodlandz-xyz",
@@ -48482,7 +48532,7 @@
         "X 账号仅 1 关注者/1 帖；未发现已部署的 $WAGE 代币地址。",
         "API 所列 neovim vault 0xa7d39AB600AA128f9b51DC7f0c5f672bBf90449a eth_getCode 为空，尚未部署；发射/领取/开 vault 均未实测。"
       ],
-      "whatsNew": "【R2061】MUST 再见的 03:30 CST $WAGE 15:00 UTC / 23:00 CST 预告已在 R2060 记录，时间未改，不是免费 mint，不重推。",
+      "whatsNew": "【R2063】MUST 窗口未见新的开窗/改期官宣。$WAGE 15:00 UTC / 23:00 CST 预告已在 R2060 记录，时间未改，不是免费 mint，不重推。",
       "summary": "GitHub repo 发币与手续费金库的 Robinhood Chain 发射台，$WAGE 发射在即但合约尚未部署。",
       "blurb": "极早期 GitHub-repo 发币实验，发射时间明确但暂无可用代币。",
       "round": 2054,
@@ -48493,7 +48543,7 @@
       "xFollowers": 1,
       "firstSeen": "2026-11-21 02:17 CST",
       "addedAt": "2026-11-21 02:17 CST",
-      "lastChecked": "2026-11-21 04:54:40 CST",
+      "lastChecked": "2026-11-21 05:13:01 CST",
       "zoneHint": "台子/Meme",
       "newThisRound": false,
       "ca": "",
@@ -48504,7 +48554,7 @@
       "xTweets": 1,
       "source": "discord-alpha",
       "hasTwitter": true,
-      "updatedAt": "2026-11-21 04:54:40 CST",
+      "updatedAt": "2026-11-21 05:13:01 CST",
       "le2h": false
     },
     {
@@ -49555,7 +49605,7 @@
         "免费轮有名单门槛（TMO: Initiates、Rekt Tradooors、Lil Giraffies、VAMPS 等），非名单地址只能等公售 $0.09 / 0.00005 ETH（50/钱包）",
         "Emission rate、金库与分成参数均未公布，经济模型无法评估"
       ],
-      "whatsNew": "【R2061】公售仍 LIVE。MUST 04:30:26 CST 官帖仍报 389/500 Almost sold out（官方计数未变）。OpenSea 集合接口本轮 401，公共页 unique/totalSupply 404、持有 151；地板展示 0.00005 ETH（约 $0.08，R2060 为 0.04 USDG，计价单位再次切换）。公售阶段 endTime 仍为 2027-04-02。R2045 已提醒公售 LIVE 与总量 1500→500，仅进度，不重推。本号不自动 mint。",
+      "whatsNew": "【R2063】公售仍 LIVE。本轮 OpenSea 404/500、持有 151、地板 0.00005 ETH；MUST 官帖仍是 04:30:26 CST 报 389/500 Almost sold out，未见新官宣。R2045 已提醒公售 LIVE，不重推。本号不自动 mint。",
       "source": "x-keyword KW_CORE_MINT",
       "tags": [
         "Robinhood Chain",
@@ -49591,7 +49641,7 @@
         "mintedApi": 404,
         "ownersPageApprox": 151,
         "checkedAt": "2026-11-21 04:54:40 CST",
-        "lastChecked": "2026-11-21 04:54:40 CST",
+        "lastChecked": "2026-11-21 05:13:01 CST",
         "mintStatus": "公售仍 LIVE。MUST 04:30:26 CST 官帖仍报 389/500 Almost sold out；OpenSea 集合接口本轮 401，公共页 404/500、持有 151、地板 0.00005 ETH（约 $0.08）。R2045 已提醒公售与总量腰斩，仅进度，不重推。本号不自动 mint。",
         "publicMintLive": true,
         "whitelistRequired": false,
@@ -49611,14 +49661,15 @@
         "openseaOwners": 151,
         "openseaFloor": "0.00005 ETH (~$0.08)",
         "openseaColHttp": 401,
-        "publicSaleEndUTC": "2027-04-02T15:19:23.000Z"
+        "publicSaleEndUTC": "2027-04-02T15:19:23.000Z",
+        "officialMintedNote": "MUST 官帖仍是 04:30:26 CST 报 389/500 Almost sold out"
       },
       "zoneHint": "打新",
       "round": 2043,
       "firstSeen": "2026-11-20 23:09:33 CST",
       "addedAt": "2026-11-20 23:09:33 CST",
-      "updatedAt": "2026-11-21 04:54:40 CST",
-      "lastChecked": "2026-11-21 04:54:40 CST",
+      "updatedAt": "2026-11-21 05:13:01 CST",
+      "lastChecked": "2026-11-21 05:13:01 CST",
       "le2h": false,
       "earlyScore": 88,
       "overall": 60,
@@ -59888,7 +59939,7 @@
         "X 账号 2026-11-13 16:03 创建，0 粉 1 帖，无任何历史",
         "除 waitlist 表单外，玩法与分发细则未披露"
       ],
-      "whatsNew": "【R2061】官网 https://www.hooddrive.fun/ 仍 WL Closed，文案仍是 Mint Nov 21, 17:00 UTC = 2026-11-22 01:00 CST，5555 份免费铸。OpenSea 集合 hood-drive 供应 0，未见开铸；距开铸约 20.1h。MUST 窗口未见 @Hooddrivee 新帖。R2043 已提醒，不重推。本号不自动 mint。",
+      "whatsNew": "【R2063】官网仍 WL Closed，开铸仍 2026-11-22 01:00 CST（约 19.8h，le2h=false），OpenSea hood-drive 供应 0。MUST 未见改期/开铸新帖。此前已提醒，不重推。本号不自动 mint。",
       "summary": "Robinhood Chain 上的 5,555 辆向量车 NFT，目前仅开放 waitlist 申请（X 用户名 + EVM 钱包换取 WL 成员卡），官方称 waitlist 免费 mint，但合约与开铸时间均未公布。",
       "blurb": "OpenSea 已可查资格（非最终名单）；最终配额 2026-11-21 01:00 CST，开铸 2026-11-22 01:00 CST。本窗另有 giveaway last call 至 2026-11-20 23:00 CST，不是配额/开铸时钟。尚未<=2h。本号不自动 mint。",
       "round": 1764,
@@ -59899,20 +59950,20 @@
       "xFollowers": 1208,
       "firstSeen": "2026-11-13 18:47 CST",
       "addedAt": "2026-11-13 18:47 CST",
-      "lastChecked": "2026-11-21 04:54:40 CST",
+      "lastChecked": "2026-11-21 05:13:01 CST",
       "zoneHint": "打新",
       "newThisRound": false,
       "schedule": {
-        "lastChecked": "2026-11-21 04:54:40 CST",
+        "lastChecked": "2026-11-21 05:13:01 CST",
         "timezone": "Asia/Shanghai",
         "le2h": false,
-        "note": "R2061 官网 hooddrive.fun 仍 WL Closed，OpenSea 集合 hood-drive 供应 0，开铸仍 11-22 01:00 CST（约 20.1h）。MUST 未见新帖。不重推。",
+        "note": "R2063 官网 hooddrive.fun 仍 WL Closed，OpenSea 集合 hood-drive 供应 0，开铸仍 11-22 01:00 CST（约 19.8h，le2h=false）。MUST 未见改期/开铸新帖。不重推。",
         "status": "announced",
         "allocationAtCST": "2026-11-21 01:00 CST",
         "allocationAtUTC": "2026-11-20 17:00 UTC",
         "startsAtCST": "2026-11-22 01:00 CST",
         "startsAtUTC": "2026-11-21 17:00 UTC",
-        "mintStatus": "免费开铸仍 2026-11-22 01:00 CST、5555 份，官网 https://www.hooddrive.fun/ 仍 WL Closed，尚未 LIVE。距开铸约 20.1h，不重推。R2043 已提醒全员 GTD 与配额窗口。本号不自动 mint。",
+        "mintStatus": "免费开铸仍 2026-11-22 01:00 CST、5555 份，官网 https://www.hooddrive.fun/ 仍 WL Closed，尚未 LIVE。距开铸约 19.8h，le2h=false。",
         "source": "https://x.com/Hooddrivee/status/2123661645771895052",
         "giveawayClosesAtCST": "2026-11-20 23:00 CST",
         "giveawayPost": "https://x.com/Hooddrivee/status/2123683467007606996",
@@ -59929,9 +59980,9 @@
         "videoPostR2058": "https://x.com/Hooddrivee/status/2123855788477399409",
         "videoPostAt": "2026-11-21 03:07:33 CST",
         "openseaSupply": 0,
-        "hoursToMint": 20.1
+        "hoursToMint": 19.8
       },
-      "updatedAt": "2026-11-21 04:54:40 CST",
+      "updatedAt": "2026-11-21 05:13:01 CST",
       "le2h": false,
       "xTweets": 106,
       "xUserId": "2121151758772957184",
@@ -114043,14 +114094,14 @@
         "未开池、raised=0，流动性风险高",
         "配置官推与实际发帖号不一致"
       ],
-      "whatsNew": "【R2061】MUST 窗口官号继续预热 Agent ID PoW mining（daily windows / miners pay only gas），仍是 preheating，未宣布已开窗。回复中提到 PancakeSwap 上线是代币交易，不是新挖矿窗。不重推。本号不自动 mint。",
+      "whatsNew": "【R2063】MUST 窗口官号仍在预热 Agent ID PoW mining，未宣布已开窗。回复里提到的 free mint 是在评论别人的项目，不是本项目开铸。不重推。本号不自动 mint。",
       "summary": "RuninAI：BNB Agent ID 公平铸造；免费4444/总额5000；sold=0；官推弱；官网runinai.com。",
       "blurb": "免费LIVE freeClaimed≈146/4444",
       "followers": 50,
       "firstSeen": "2026-11-02 01:49 CST",
       "addedAt": "2026-11-02 01:49 CST",
-      "updatedAt": "2026-11-21 04:54:40 CST",
-      "lastChecked": "2026-11-21 04:54:40 CST",
+      "updatedAt": "2026-11-21 05:13:01 CST",
+      "lastChecked": "2026-11-21 05:13:01 CST",
       "note": "DS admit+score64；免费LIVE须notify；config X=Tablivip121370 NF改用@RuninAI_com；本雷达不执行mint",
       "mintProgress": "freeClaimed=4444满 sold≈170",
       "onchain": {
@@ -114063,7 +114114,7 @@
       "le2h": false,
       "xFollowers": 50,
       "schedule": {
-        "lastChecked": "2026-11-21 03:36:40 CST",
+        "lastChecked": "2026-11-21 05:13:01 CST",
         "le2h": false,
         "timezone": "Asia/Shanghai",
         "source": "https://x.com/RuninAI_com/status/2121465357248643182",
@@ -287966,8 +288017,8 @@
       "discoveredAt": "2026-11-04 22:38 CST",
       "addedAt": "2026-11-04 22:38 CST",
       "admittedAt": "2026-11-04 22:38 CST",
-      "updatedAt": "2026-11-21 04:54:40 CST",
-      "lastChecked": "2026-11-21 04:54:40 CST",
+      "updatedAt": "2026-11-21 05:13:01 CST",
+      "lastChecked": "2026-11-21 05:13:01 CST",
       "followers": 579,
       "xFollowers": 579,
       "links": {
@@ -287992,7 +288043,7 @@
         "AI Agent概念近期泛滥，同质化严重",
         "GTD只给白名单，实际参与门槛不确定"
       ],
-      "whatsNew": "【R2061】Whitelist Phase II 仍开放（/api/gen-wl open=true, phase=2）。MUST 再见的 03:42 CST lore 已在 R2060 记录，仍不是开铸 LIVE。报名约至 2026-11-21 08:31:58 CST（约 3.6h，le2h=false）。R2005 已提醒 Phase II，不重推。本号不自动 mint。",
+      "whatsNew": "【R2063】Whitelist Phase II 仍开放（/api/gen-wl open=true, phase=2）。本轮该接口未再返回 until 字段，沿用既有截止 2026-11-21 08:31:58 CST（约 3.3h，le2h=false）。quoteText 仍写 Mint 21 Nov，未见新的开铸 LIVE 确认。R2005 已提醒 Phase II，不重推。本号不自动 mint。",
       "progress": "Whitelist Phase II 仍 LIVE（约至 08:31 CST / 3.6h）· 免费报名开放 · 开铸仍非 LIVE",
       "mint": "FREE TBA",
       "freeLIVE": false,
@@ -288003,7 +288054,7 @@
       "lastCheckedAt": "2026-11-05 11:33 CST",
       "schedule": {
         "le2h": false,
-        "lastChecked": "2026-11-21 04:54:40 CST",
+        "lastChecked": "2026-11-21 05:13:01 CST",
         "timezone": "Asia/Shanghai",
         "status": "whitelist-open",
         "note": "21:23 CST 官宣 collabs are OPEN，为社区提供 WL；1111 Seekers coming to Elysium，非今日 mint，le2h=false。 R1939：2026-11-18 21:20:02 CST 快照已到 21:00 CST，官帖仍只谈资格、未见开铸时间，不是免费 LIVE 开闸，不重推。 R1940：2026-11-18 22:13:52 CST 快照锁定（block 7862162，71 GTD），未见开铸时间，不重推。 R1941：2026-11-18 23:15:02 CST 快照仍锁定，不重推。 R1942：2026-11-19 00:09:02 CST 快照仍锁定，不重推。 R1949：2026-11-19 04:40:22 CST 站点暂时不可用，非 mint LIVE，不重推。 R1950：2026-11-19 05:09:36 CST 站点暂时不可用，非 mint LIVE，不重推。 R1951：2026-11-19 05:42:53 CST 站点恢复但 WL 仍关闭，非 mint LIVE，不重推。 R1952：2026-11-19 06:13:41 CST 站点恢复但 WL 仍关闭、Genesis mint TBA，非 mint LIVE，不重推。 R1953：2026-11-19 06:42:01 CST 仍 announced、mint TBA，不重推。",
@@ -288023,7 +288074,7 @@
         "isMinting": false,
         "phase2OpenAtCST": "2026-11-20 08:31:58 CST",
         "phase2ClosesAtCST": "2026-11-21 08:31:58 CST",
-        "hoursToPhase2Close": 3.6,
+        "hoursToPhase2Close": 3.3,
         "api": {
           "ok": true,
           "open": true,
@@ -296521,27 +296572,41 @@
         "无官网、mint时间未定",
         "免费名额规则不透明"
       ],
-      "whatsNew": "【本轮新R1390】@FinalDays365 FREE MINT登记：10k供应仅3k钱包免费额度；公链未公布。",
-      "lastChecked": "2026-11-07 16:36 CST",
+      "whatsNew": "【R2063】库内续更，非新收录。官帖 2026-11-19 20:48 CST 宣布 11-24 在 OpenSea 开铸，10,000 份；Phase 1 Early Access 免费，后两档 0.7$。无官网，集合链接未核到，尚未 LIVE，le2h=false。已补挂 handle @FinalDays365 与 freeMintWatch。不重推。",
+      "lastChecked": "2026-11-21 05:13:01 CST",
       "links": {
         "x": "https://x.com/FinalDays365",
         "twitter": "https://x.com/FinalDays365",
         "tweet": "https://x.com/FinalDays365/status/2118734763733430654",
-        "signal": "https://x.com/FinalDays365/status/2118734763733430654"
+        "signal": "https://x.com/FinalDays365/status/2118734763733430654",
+        "officialPostMint": "https://x.com/FinalDays365/status/2123397943701148046"
       },
       "schedule": {
         "status": "announced",
         "timezone": "Asia/Shanghai",
-        "note": "FREE MINT 登记开放中；3k/10k 钱包免费额度；mint时间未公布",
+        "note": "R2063：官帖 2026-11-19 20:48 CST 宣布 11-24 在 OpenSea 开铸，10,000 份。Phase 1 Early Access（FREE），Phase 2 WL 0.7$，Phase 3 Public 0.7$。无官网，OpenSea 集合本轮未核到，尚未开铸 LIVE，距 11-24 约 3 天，le2h=false。R1390 已收录免费登记，本轮补 handle 与 freeMintWatch，不按新收录重推。",
         "le2h": false,
-        "source": "https://x.com/FinalDays365/status/2118734763733430654"
+        "source": "https://x.com/FinalDays365/status/2118734763733430654",
+        "lastChecked": "2026-11-21 05:13:01 CST",
+        "officialHandle": "@FinalDays365",
+        "officialPostMint": "https://x.com/FinalDays365/status/2123397943701148046",
+        "officialPostAtCST": "2026-11-19 20:48:15 CST",
+        "mintAtCST": "2026-11-24",
+        "mintVenue": "OpenSea（集合链接本轮未核到）",
+        "claimedSupply": 10000
       },
       "chain": "",
       "ecosystem": "",
       "lzVerified": false,
       "source": "R1390-KW-GO-freemint",
       "newThisRound": false,
-      "le2h": false
+      "le2h": false,
+      "handle": "@FinalDays365",
+      "twitter": "@FinalDays365",
+      "followers": 2612,
+      "xFollowers": 2612,
+      "xTweets": 9,
+      "updatedAt": "2026-11-21 05:13:01 CST"
     },
     {
       "id": "barbarian-nft",
@@ -325693,8 +325758,8 @@
       "round": 1923,
       "firstSeen": "2026-11-18 05:12 CST",
       "addedAt": "2026-11-18 05:12 CST",
-      "lastChecked": "2026-11-21 04:54:40 CST",
-      "updatedAt": "2026-11-21 04:54:40 CST",
+      "lastChecked": "2026-11-21 05:13:01 CST",
+      "updatedAt": "2026-11-21 05:13:01 CST",
       "newThisRound": false,
       "le2h": false,
       "followers": 1065,
@@ -325759,9 +325824,9 @@
         "claimedSupply": 5555,
         "mintAt": "2026-11-20 20:30 CST",
         "mintVenue": "OpenSea",
-        "mintStatus": "关窗仍未二次确认。本轮 OpenSea 仍 584/5555、持有 450、地板 0.0088 HYPE；MUST 未见 @KToonsNFT 新帖。0.01 HYPE，免白名单，5/钱包。R2046/R2055 已提醒，不重推。自称 Elysium，仍不进 Elysium 栏。本号不自动 mint。",
+        "mintStatus": "关窗仍未二次确认。本轮 OpenSea 仍 584/5555、持有 449、地板 0.0088 HYPE；MUST 窗口未见 @KToonsNFT 新帖，最新官帖仍是 02:05:51 CST 关窗官宣。是否已彻底关窗仍未核到。检查于 2026-11-21 05:13 CST。",
         "note": "R2061：宣布关窗后仍无第二则确认，供应/持有/地板与 R2060 相同。",
-        "lastChecked": "2026-11-21 04:54:40 CST",
+        "lastChecked": "2026-11-21 05:13:01 CST",
         "freeLIVE": true,
         "mintAtUTC": "2026-11-20 12:30 UTC",
         "hoursToMint": 0.79,
@@ -325811,7 +325876,7 @@
         "officialPostCloseCST": "2026-11-21 02:05:51 CST"
       },
       "source": "R1923 early-scout KW_ELY",
-      "whatsNew": "【R2061】关窗仍未二次确认。本轮 OpenSea 仍 584/5555、持有 450、地板 0.0088 HYPE；MUST 窗口未见 @KToonsNFT 新帖，最新官帖仍是 02:05:51 CST 关窗官宣。是否已彻底关窗仍未核到。R2046 已提醒公售 LIVE，R2055 已提醒关窗官宣，不重推。自称 Elysium，仍不进 Elysium 栏。本号不自动 mint。",
+      "whatsNew": "【R2063】关窗仍未二次确认。本轮 OpenSea 仍 584/5555、持有 449（上轮 450）、地板 0.0088 HYPE；MUST 窗口未见 @KToonsNFT 新帖，最新官帖仍是 02:05:51 CST 关窗官宣。是否已彻底关窗仍未核到。R2046 已提醒公售 LIVE，R2055 已提醒关窗官宣，不重推。自称 Elysium，仍不进 Elysium 栏。本号不自动 mint。",
       "summary": "Kinetiq Toons 自称部署在 Elysium 的 5,555 枚 NFT，官网 kinetiqtoons.xyz 与 @KToonsNFT 互证；04:50 CST 官帖宣布 11-20 在 OpenSea mint、WL 免费/公开约 $1 或更低，但官网仍写 WL Closed，未见独立 checker 与 CA。未见 Enter_Elysium 官号背书，故进打新栏而非 Elysium 栏。",
       "freeLIVE": false,
       "mintAt": {
@@ -336684,6 +336749,81 @@
       "siteXMutualNote": "官网 twitter:site 与 sameAs 均为 @spek_on_sol；X 资料栏 t.co 解析到 https://spek.fun/",
       "dsAdmit": true,
       "dsReason": "有官号与官网互证且处于极早期，值得挂入观察，但因未开放无CA当前可操作性有限。"
+    },
+    {
+      "id": "kangozro",
+      "name": "Kangozro",
+      "handle": "@kangozro",
+      "twitter": "@kangozro",
+      "status": "watching",
+      "round": 2063,
+      "candidate": {
+        "round": 2063
+      },
+      "focus": false,
+      "category": "台子/Meme",
+      "zoneHint": "台子/Meme",
+      "zone": "台子/Meme",
+      "chain": "",
+      "ecosystem": "",
+      "lzVerified": false,
+      "tags": [
+        "claimed-layerzero",
+        "free-mint-wl",
+        "unverified",
+        "no-website",
+        "x-radar"
+      ],
+      "followers": 4,
+      "xFollowers": 4,
+      "xTweets": 4,
+      "xUserId": "2123844413298298880",
+      "accountCreatedCST": "2026-11-21 02:23:54 CST",
+      "newThisRound": true,
+      "addedAt": "2026-11-21 05:13:01 CST",
+      "firstSeen": "2026-11-21 03:18 CST",
+      "lastChecked": "2026-11-21 05:13:01 CST",
+      "updatedAt": "2026-11-21 05:13:01 CST",
+      "source": "x-radar-silent-lz",
+      "le2h": false,
+      "scores": {
+        "early": 9,
+        "actionable": 6,
+        "novelty": 4,
+        "risk": 8,
+        "overall": 5.6,
+        "raw100": {
+          "early": 93,
+          "actionable": 60,
+          "novelty": 42,
+          "risk": 82,
+          "overall": 56
+        }
+      },
+      "earlyScore": 9,
+      "riskScore": 8,
+      "overall": 5.6,
+      "highlights": [
+        "建号数小时即发官帖，属最早期窗口",
+        "宣称转发+留EVM地址即可进免费mint白名单",
+        "自称1万只独立袋鼠NFT，挂LayerZero生态叙事"
+      ],
+      "drawbacks": [
+        "仅4粉4帖，无官网、无合约、无铸造入口",
+        "LZ生态挂靠仅为自述，未见官方核验",
+        "以留钱包地址换WL，存在钓鱼与收集地址风险"
+      ],
+      "whatsNew": "【R2063】SILENT_LZ_24h 收录。2026-11-21 02:23:54 CST 建号，4 粉 4 帖，无官网。官帖 03:18 CST（2123858658379563215）与 03:47 CST（2123865844744900978）自称 10,000 只独立袋鼠 NFT、挂靠 @LayerZero_Core，号召转发并留下 EVM 地址以加入免费 mint 白名单。未见铸造页与合约，LayerZero 官方生态未核验，lzVerified=false，进台子/Meme 而非 LayerZero 栏。是自称免费登记/WL，不是已开铸 LIVE。",
+      "summary": "极早期自称 LayerZero 生态袋鼠 NFT，今天建号、仅 4 粉；官帖在收免费 mint 白名单地址，但无官网、无合约、LZ 未核验，只作观察，注意留地址风险。",
+      "blurb": "自称 LZ 生态 1 万只袋鼠 NFT，官帖收免费 mint WL 地址，未开铸。",
+      "links": {
+        "x": "https://x.com/kangozro",
+        "twitter": "https://x.com/kangozro",
+        "officialPost": "https://x.com/kangozro/status/2123865844744900978",
+        "officialPostFirst": "https://x.com/kangozro/status/2123858658379563215"
+      },
+      "dsAdmit": true,
+      "dsReason": "极早期免费WL可零成本参与，但零验证、数据极弱，仅建议小额观察。"
     }
   ],
   "newThisRound": [
