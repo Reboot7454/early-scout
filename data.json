@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-21 04:54:40 CST",
+    "updated": "2026-11-21 04:56 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-21 04:54:40 CST",
+    "lastScout": "2026-11-21 04:56 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -851,7 +851,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2061,
+    "round": 2062,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2386,7 +2386,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "spek-fun"
+      "singularity-cash"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -5213,30 +5213,29 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-11-21 03:55",
-      "lastChecked": "2026-11-21 04:54:40 CST",
-      "newestCardTime": "2026-11-21 03:55",
-      "cardsAfterCutoff": 36,
-      "note": "R2061 本路 box computerUse 遇登录墙，loginOk=false，未改 lastSeen（沿用 R2059：alpha-3 03:55、backup 03:44、smart 03:09、alpha-1 03:49 CST）。用户电脑离线，box 无 Discord 会话。不向用户催登录、不重发 Secure Form。11/15–11/18 积压仍未回填，增量范围外。",
-      "lastRound": 2059,
+      "deferred": false,
+      "lastSeen": "2026-11-21 04:53",
+      "lastChecked": "2026-11-21 04:56 CST",
+      "newestCardTime": "2026-11-21 04:53",
+      "cardsAfterCutoff": 32,
+      "note": "R2062：Discord alpha 补收 singularity-cash；跳过 [{'id': 'elenchos-xyz', 'reason': '0 关注 0 推文的空壳号，且是 Pons meme 分析工具，无代币无发射玩法'}, {'id': 'trymorix', 'reason': '交易终端类工具且仅 Closed Beta，无代币、无 mint/发射玩法，产品仍是 Coming Soon'}]；清 spek-fun；lastSeen→2026-11-21 04:53；lastChecked→2026-11-21 04:56 CST；拒 elenchos_xyz(0推分析工具)/trymorix(交易终端 closed beta)/smart 高粉；32 卡；拒 elenchos_xyz(0推分析工具)/trymorix(交易终端 closed beta)/smart 高粉；32 卡",
+      "lastRound": 2062,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-21 03:55",
+        "alpha-3-new-accounts": "2026-11-21 04:53",
         "alpha-1-backup": "2026-11-21 03:44",
-        "smart-accounts-tracker": "2026-11-21 03:09",
-        "alpha-1": "2026-11-21 03:49"
+        "smart-accounts-tracker": "2026-11-21 04:44",
+        "alpha-1": "2026-11-21 04:49"
       },
       "newestByChannel": {
-        "alpha-3-new-accounts": "2026-11-21 03:55",
+        "alpha-3-new-accounts": "2026-11-21 04:53",
         "alpha-1-backup": "2026-11-21 03:44",
-        "smart-accounts-tracker": "2026-11-21 03:09",
-        "alpha-1": "2026-11-21 03:49"
+        "smart-accounts-tracker": "2026-11-21 04:44",
+        "alpha-1": "2026-11-21 04:49"
       },
-      "loginOk": false,
-      "spideyPosting": false,
-      "scannedAtCST": "2026-11-21 03:58",
+      "loginOk": true,
+      "spideyPosting": true,
+      "scannedAtCST": "2026-11-21 04:55",
       "gapIncomplete": false,
-      "backlogGap": "same as alpha3OlderGap",
       "alpha3OlderGap": "prior unfilled ranges remain, out of scope: alpha-3 2026-11-15 03:22→2026-11-20 02:20; backup 11-15 02:04→11-15 14:04; smart 11-15 03:26→11-18 12:38; alpha-1 11-15 02:59→11-18 05:37"
     },
     "round239Added": [
@@ -48022,9 +48021,63 @@
         "spek-fun"
       ],
       "note": "分片 885 @elys_inscribe 起 walk 46 kept 40，历史 NF 6 未连刷。1.5h。新卡 spek-fun 补挂 UF。"
-    }
+    },
+    "round2062Added": [
+      "singularity-cash"
+    ]
   },
   "candidates": [
+    {
+      "id": "singularity-cash",
+      "name": "singularity.cash",
+      "handle": "@singularitycash",
+      "twitter": "@singularitycash",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/singularitycash",
+        "website": "https://singularity.cash",
+        "officialPost": "https://x.com/singularitycash",
+        "explorer": "https://dexscreener.com/solana/6y155pnxbkqkr2wvi2quypmjxq7btrovuqfqrwvxaown"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 8,
+        "novelty": 8,
+        "actionable": 7,
+        "overall": 6.6
+      },
+      "highlights": [
+        "已上线并有真实链上成交（1h 量约 $69.5k、1285 买/1284 卖）",
+        "玩法线索明确：agent 配对即发币、新币统一与 $singularity 配对",
+        "有独立官网与独立推特，非 KOL 号"
+      ],
+      "drawbacks": [
+        "市值仅约 $6.5k，波动与跑路风险极高",
+        "配对/匹配发币功能未实测，bio 叙事可能只是包装",
+        "推特 8 粉、当日新建，社交面几乎为零"
+      ],
+      "whatsNew": "数字超级智能体链上相亲，每次匹配自动发一枚新币并与 $singularity 组成交易对，手续费由 agent 分成。",
+      "summary": "pump.fun 毕业的 Solana meme，卖点是 agent 配对即发币的发射台式玩法；已有真实交易深度，但产品逻辑未验证、盘子极小，只适合极小额试水。",
+      "blurb": "Agent 相亲即发币，小盘已上线 Solana",
+      "round": 2062,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 8,
+      "xFollowers": 8,
+      "firstSeen": "2026-11-21 04:56 CST",
+      "addedAt": "2026-11-21 04:56 CST",
+      "lastChecked": "2026-11-21 04:56 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true,
+      "ca": "FPRy9k4At1vTac8Ebnd35MbeoWChrBQZatWoQaWwpump",
+      "caUnverified": false
+    },
     {
       "id": "woodlandz-xyz",
       "name": "Woodlandz",
@@ -336582,7 +336635,7 @@
       "xTweets": 32,
       "xUserId": "2116242880679301120",
       "accountCreatedCST": "2026-10-31 03:00:08 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "addedAt": "2026-11-21 04:54:40 CST",
       "firstSeen": "2026-11-21 04:43:12 CST",
       "lastChecked": "2026-11-21 04:54:40 CST",
@@ -336634,17 +336687,17 @@
     }
   ],
   "newThisRound": [
-    "spek-fun"
+    "singularity-cash"
   ],
-  "alertMessage": "\"DC补漏新收2（R2059）：①台子/Meme Auroveil @auroveil，Robinhood Chain 测试网发币台，今日 23:06 建号/0粉，站点 auroveil.xyz 自述为模拟盘 demo（纸面余额），无代币 CA，测试网未实测；②打新 Woodlandz @woodlandz_xyz，BNB 链伐木游戏 $WOOD + Logger NFT，Binance Agentic Wallet 首铸免费，尚 Coming Soon，今日 03:05 建号/0粉，无官网/合约。均非重点。面板 https://reboot7454.github.io/early-scout/\"",
+  "alertMessage": "",
   "roundNAdded": [],
-  "updatedAt": "2026-11-21 04:00 CST",
-  "updated": "2026-11-21 04:00 CST",
+  "updatedAt": "2026-11-21 04:56 CST",
+  "updated": "2026-11-21 04:56 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-21 04:00 CST",
+  "lastScout": "2026-11-21 04:56 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -336686,7 +336739,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4588,
+  "candidateCount": 4591,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -341094,5 +341147,8 @@
   ],
   "round2061Added": [
     "spek-fun"
+  ],
+  "round2062Added": [
+    "singularity-cash"
   ]
 }

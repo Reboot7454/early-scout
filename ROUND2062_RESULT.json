@@ -1,0 +1,57 @@
+{
+  "round": 2062,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-21 04:56 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "",
+  "newAdmits": [
+    "singularity-cash"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "singularity-cash"
+  ],
+  "skipped": [
+    {
+      "id": "elenchos-xyz",
+      "reason": "0 关注 0 推文的空壳号，且是 Pons meme 分析工具，无代币无发射玩法"
+    },
+    {
+      "id": "trymorix",
+      "reason": "交易终端类工具且仅 Closed Beta，无代币、无 mint/发射玩法，产品仍是 Coming Soon"
+    }
+  ],
+  "cardsAfterLastSeen": 32,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "spek-fun"
+  ],
+  "candidateFlagsCleared": 1,
+  "topNewThisRoundCleared": [
+    "spek-fun"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=3",
+  "coverage": "discord-alpha #alpha-1 only",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-21 04:53",
+    "lastChecked": "2026-11-21 04:56 CST",
+    "newestCardTime": "2026-11-21 03:55",
+    "cardsAfterCutoff": 32,
+    "note": "R2062：Discord alpha 补收 singularity-cash；跳过 [{'id': 'elenchos-xyz', 'reason': '0 关注 0 推文的空壳号，且是 Pons meme 分析工具，无代币无发射玩法'}, {'id': 'trymorix', 'reason': '交易终端类工具且仅 Closed Beta，无代币、无 mint/发射玩法，产品仍是 Coming Soon'}]；清 spek-fun；lastSeen→2026-11-21 04:53；lastChecked→2026-11-21 04:56 CST",
+    "lastRound": 2062
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R2062：Discord alpha 补收 singularity-cash；跳过 [{'id': 'elenchos-xyz', 'reason': '0 关注 0 推文的空壳号，且是 Pons meme 分析工具，无代币无发射玩法'}, {'id': 'trymorix', 'reason': '交易终端类工具且仅 Closed Beta，无代币、无 mint/发射玩法，产品仍是 Coming Soon'}]；清 spek-fun；lastSeen→2026-11-21 04:53；lastChecked→2026-11-21 04:56 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r2061.json",
+  "priorRoundNote": "R2061 meta NTR ['spek-fun']; cardsAfterCutoff=32"
+}
