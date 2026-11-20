@@ -3,7 +3,7 @@
 时间：2026-11-20 19:49:59 CST（Asia/Shanghai）
 notify=true（新收录 WOO、LineZero 自称免费 mint / 白名单登记，告警已逐个点名；Spades 代币上线且公售进度更新。本号不自动 mint。）
 
-说明：开跑前 git pull 远程已快进到 a1cfe2f（**R2031** Discord alpha 收录 argusfun / morrowswap，lastScout 2026-11-20 19:38 CST，四频道 lastSeen 已推进至 19:24 / 18:44 / 18:07 / 19:08 CST）。本路定时 X 雷达记为 **R2032**。R2031 两卡当时漏挂 Watch，本轮已补进 userFollowWatch，不作为新收录重推。discordPeekDeferred 先保持 true，本轮仍须对 lastSeen 之后做增量 Peek。
+说明：开跑前 git pull 远程已快进到 a1cfe2f（**R2031** Discord alpha 收录 argusfun / morrowswap，lastScout 2026-11-20 19:38 CST，四频道 lastSeen 已推进至 19:24 / 18:44 / 18:07 / 19:08 CST）。本路定时 X 雷达记为 **R2032**。R2031 两卡当时漏挂 Watch，本轮已补进 userFollowWatch，不作为新收录重推。discordPeekDeferred=true。Discord Peek：本轮 box 浏览器增量 Peek 遇登录墙（Welcome back，https://discord.com/login?redirect_to=%2Fchannels%2F1502958818865188956%2F1527862926885785710），未输入凭据，未改 lastSeen（仍按频道 19:08 / 18:44 / 18:07 / 19:24 CST）。11/15–11/18 积压仍未清。本路不催登录（16:49 CST 已发过 Secure Form）。父代理需在登录后同一轮续翻 lastSeen 之后的增量。
 
 新收录 5 项，来自本轮关键词 / Tape mentions 盲捞（LineZero 为 R2030 跳过表误记已在库的补收，不是用户点名）。全部 focus=false。判断/文案 DeepSeek-flash（thinking on）；LineZero 因无官网被 DS 标 skip，本轮按已核验官推 + 自称免费 mint + 上轮误跳过而补收。本号不自动 mint。
 
