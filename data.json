@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-21 02:04:19 CST",
+    "updated": "2026-11-21 02:17 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-21 02:04:19 CST",
+    "lastScout": "2026-11-21 02:17 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -849,7 +849,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2053,
+    "round": 2054,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2383,7 +2383,12 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "mercesdotlive",
+      "curvejail",
+      "torc-ing",
+      "zolanacom"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -5209,19 +5214,32 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-11-21 01:21",
-      "lastChecked": "2026-11-21 02:04:19 CST",
-      "newestCardTime": "2026-11-21 01:21",
-      "cardsAfterCutoff": 20,
-      "note": "R2053：本路 computerUse 遇 Welcome back 登录墙，loginOk=false，未改 lastSeen（仍 2026-11-21 01:21 CST；backup 仍 00:14 CST）。用户电脑离线，box 无 Discord 会话。不重发 Secure Form。11/15–11/18 积压仍未清，不在增量范围。",
-      "lastRound": 2053,
+      "deferred": false,
+      "lastSeen": "2026-11-21 01:59",
+      "lastChecked": "2026-11-21 02:17 CST",
+      "newestCardTime": "2026-11-21 01:59",
+      "cardsAfterCutoff": 31,
+      "note": "R2054：Discord alpha 补收 mercesdotlive,curvejail,torc-ing,zolanacom；跳过 RuinWorldGame/VoidRelicsArt 等无官网或无CA预告；lastSeenByChannel→2026-11-21 01:57/2026-11-21 01:59/2026-11-21 01:45/2026-11-21 01:54；lastChecked→2026-11-21 02:17 CST；Spidey仍在发；积压gap本轮未回填。",
+      "lastRound": 2054,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-21 01:21",
-        "alpha-1-backup": "2026-11-21 00:14",
-        "smart-accounts-tracker": "2026-11-21 01:18",
-        "alpha-1": "2026-11-21 01:17"
-      }
+        "alpha-3-new-accounts": "2026-11-21 01:57",
+        "alpha-1-backup": "2026-11-21 01:59",
+        "smart-accounts-tracker": "2026-11-21 01:45",
+        "alpha-1": "2026-11-21 01:54"
+      },
+      "loginOk": true,
+      "spideyPosting": true,
+      "scannedAtCST": "2026-11-21 02:04",
+      "newestByChannel": {
+        "alpha-3-new-accounts": "2026-11-21 01:57",
+        "alpha-1-backup": "2026-11-21 01:59",
+        "smart-accounts-tracker": "2026-11-21 01:45",
+        "alpha-1": "2026-11-21 01:54"
+      },
+      "newestVisibleTime": "2026-11-21 01:59",
+      "gapIncomplete": false,
+      "alpha3OlderGap": "Prior unfilled ranges were out of scope this incremental run: alpha-3 2026-11-15 03:22→2026-11-20 02:20; backup 2026-11-15 02:04→2026-11-15 14:04; smart 2026-11-15 03:26→2026-11-18 12:38; alpha-1 2026-11-15 02:59→2026-11-18 05:37.",
+      "backlogGap": "Prior unfilled ranges were out of scope this incremental run: alpha-3 2026-11-15 03:22→2026-11-20 02:20; backup 2026-11-15 02:04→2026-11-15 14:04; smart 2026-11-15 03:26→2026-11-18 12:38; alpha-1 2026-11-15 02:59→2026-11-18 05:37."
     },
     "round239Added": [
       "tsunamilaunch",
@@ -5353,7 +5371,7 @@
       "zec-nodes",
       "boys-in-hood"
     ],
-    "alertMessage": "",
+    "alertMessage": "R2054 DC补漏新收4（台子/Meme 4）：Merces @mercesdotlive，Robinhood Chain，merces.live，建号2026-11-20 14:37 CST，粉1/推1，$WAGE计划今日15:00 UTC/23:00 CST在Pons发射尚未到点，无已部署代币CA，hub已有代码但非ERC-20，vault未部署，发射/领取未实测；CurveJail @CurveJail，Robinhood Chain，curvejail.xyz，建号2026-11-21 01:32 CST，粉0/推1，CA 0x760B3D57B6F23e49CB8Cc094D9581bdb42b6B7B5，Pinax已核验$JAIL name CurveJail / JAIL / 18位 / 总量10亿，持有人数本轮未取到，发射与bail未实测；Torcing @torc_ing，Solana，torc.ing，建号2026-11-17 10:58 CST，粉122/推4，CA G9XKAKkCsRHR3Wfjbj9w3m3vwBXNjdeKjrHPZsoimRg1，Jupiter已核验$TORC 10亿供应、74持有人、约$27.3k mcap、约$7.2k流动性，mint/freeze已关，met-dbc，站点首发列表仍空，隐私转账未实测；Zolana @zolanacom，Solana，zolana.com，建号2026-11-05 07:25 CST，粉364/推66，CA UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL，隐私L1仅devnet，Jupiter已核验$ZOL 429持有人、约$139k mcap、约$12.5k流动性，pump.fun，mint/freeze已关，无主网，钱包/领币未实测；面板 https://reboot7454.github.io/early-scout/",
     "dsSummary": "DeepSeek 一次调用（thinking on）把推理过程写进可见正文、未吐出可直接使用的 alert，故 dsFallback=true。开盘/窗口判定与文案按链上 Mint/DEX、官网与既有 MUST 帖核验事实撰写。本轮无真新收录。notify=true 因 Oathbots 开盘翻转 + SpiritsRH 首次进入 ≤2h 免费 mint 窗。",
     "round270Added": [
       "avatarpad"
@@ -15293,7 +15311,11 @@
         "@shojifun",
         "@novemberrain_rh",
         "@PingXDepin",
-        "@gatedapp_xyz"
+        "@gatedapp_xyz",
+        "@mercesdotlive",
+        "@CurveJail",
+        "@torc_ing",
+        "@zolanacom"
       ],
       "candidateIds": [
         "elysatrade",
@@ -17348,11 +17370,15 @@
         "shojifun",
         "novemberrain-rh",
         "pingxdepin",
-        "gatedapp-xyz"
+        "gatedapp-xyz",
+        "mercesdotlive",
+        "curvejail",
+        "torc-ing",
+        "zolanacom"
       ],
       "pending": [],
       "note": "R1769 merge soft-brush 1038→1086; kept 47, skip 1 known_nf（ePegsV4，本轮不重读）; 2 from: batches，本片 1 帖（polyrob/tmachinroBot 仍为 21:03 白名单已关/22:00 开铸，未改期）。Next starts at 1086. Watch 漏挂：Discord 六卡 @strix_agents / @wagmint_bnb / @burybud / @delvoprotocol / @pervix_xyz / @Envara_Agent 在库不在任何 Watch，已补进 userFollowWatch；@wagmint_bnb 兼 agentPad+bnAgent，@delvoprotocol/@pervix_xyz 兼 elysiumWatch。新收录 @PonkeAgent 进 userFollowWatch+agentPadWatch+bnAgentWatch+freeMintWatch。UF accounts=1647。",
-      "lastChecked": "2026-11-21 02:04:19 CST",
+      "lastChecked": "2026-11-21 02:17 CST",
       "createdAt": "2026-10-28 17:15 CST",
       "sourceRound": 775,
       "r775": "用户点名6项已入 candidates；pending=[]",
@@ -17644,7 +17670,7 @@
       "r997": "admit+soft",
       "r1004": "tight-quota soft brush + ≤2h verify",
       "r1008": "watch-bug fix + soft stamp 2026-10-31 21:36 CST",
-      "lastRound": 2049,
+      "lastRound": 2054,
       "r1013": "watch-bugfix: robinshinobi+koin-elysium wired",
       "r1016": "watch-bug fix: cadencebnb @cadencebnb BNB DCA tool",
       "r1018": "watch-bug fix: hashwardonline @HashwardOnline 挖矿 Fuse Cool",
@@ -24243,7 +24269,8 @@
         "posts": "UF1=0 / UF2=1",
         "added": [],
         "note": "本片 48 号全收，无 NF。UF2 仅 @tokentunes 已在库发帖（Discord 申 WL，未开铸），不新收。开跑前远程已是 R2044 Discord 收录 chit-hq，本路升为 R2045，不改 lastSeen、不重推 chit-hq。"
-      }
+      },
+      "r2054": "DC补漏挂 @mercesdotlive @CurveJail @torc_ing @zolanacom"
     },
     "round775Added": [
       "sunrig",
@@ -47636,9 +47663,273 @@
       "pingxdepin / @PingXDepin 已在库但不在任何 Watch，本轮补进 userFollowWatch + miningWatch",
       "gatedapp-xyz / @gatedapp_xyz 已在库但不在任何 Watch，本轮补进 userFollowWatch + agentPadWatch"
     ],
-    "round2053Added": []
+    "round2053Added": [],
+    "round2054Added": [
+      "mercesdotlive",
+      "curvejail",
+      "torc-ing",
+      "zolanacom"
+    ]
   },
   "candidates": [
+    {
+      "id": "zolanacom",
+      "name": "Zolana",
+      "handle": "@zolanacom",
+      "twitter": "@zolanacom",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "solana",
+        "privacy-l1",
+        "devnet",
+        "pumpfun"
+      ],
+      "links": {
+        "x": "https://x.com/zolanacom",
+        "website": "https://zolana.com/",
+        "officialPost": "https://x.com/zolanacom/status/2123834256027705638",
+        "github": "https://github.com/zolanacom/zolana",
+        "explorer": "https://solscan.io/token/UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL",
+        "web": "https://zolana.com/",
+        "site": "https://zolana.com/",
+        "twitter": "https://x.com/zolanacom"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 8,
+        "actionable": 7,
+        "overall": 6.6
+      },
+      "highlights": [
+        "独立隐私 L1（Agave 衍生），原生 shielded payments，公共 devnet 分区运行，钱包 devnet.zolana.com。",
+        "$ZOL CA UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL 经 Jupiter 核验：429 持有人、市值约 $139k、流动性约 $12.5k，pump.fun 发射，mint/freeze 已关闭。"
+      ],
+      "drawbacks": [
+        "无主网；ZOL 先作为 Solana 代币存在，桥未建且无日期。",
+        "devnet 为无价值测试币，浏览器钱包/领币未实测；24h 涨幅约 +1889%、约 1558 名交易者，已非全新发射当日盘。账号约 16 天。"
+      ],
+      "whatsNew": "Zolana 公开 devnet 窗口与原生隐私支付方向，Solana 侧 $ZOL 已有较活跃交易。",
+      "summary": "隐私 L1 devnet 项目，Solana 侧 $ZOL 先行交易；产品方向明确但主网与桥仍缺。",
+      "blurb": "隐私 L1 devnet 早期项目，代币已活跃但主网未至。",
+      "round": 2054,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 364,
+      "xFollowers": 364,
+      "firstSeen": "2026-11-21 02:17 CST",
+      "addedAt": "2026-11-21 02:17 CST",
+      "lastChecked": "2026-11-21 02:17 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true,
+      "ca": "UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL",
+      "caUnverified": false,
+      "caNote": "$ZOL UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL 经 Jupiter lite-api 核验：name Zolana、符号 ZOL、6 位；429 持有人、市值约 $139,260、流动性约 $12,540，pump.fun 发射，创建于 2026-11-20 11:51 CST，mint/freeze 已关闭，organicScore=medium。devnet 测试币无价值；主网与桥未上线。",
+      "xUserId": "2118122135994421248",
+      "accountCreatedCST": "2026-11-05 07:25 CST",
+      "xTweets": 66,
+      "source": "discord-alpha",
+      "hasTwitter": true,
+      "updatedAt": "2026-11-21 02:17 CST"
+    },
+    {
+      "id": "torc-ing",
+      "name": "Torcing",
+      "handle": "@torc_ing",
+      "twitter": "@torc_ing",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "solana",
+        "launchpad",
+        "privacy",
+        "meteora"
+      ],
+      "links": {
+        "x": "https://x.com/torc_ing",
+        "website": "https://torc.ing/",
+        "officialPost": "https://x.com/torc_ing/status/2123826824178213214",
+        "explorer": "https://solscan.io/token/G9XKAKkCsRHR3Wfjbj9w3m3vwBXNjdeKjrHPZsoimRg1",
+        "telegram": "https://t.me/torc_ing",
+        "web": "https://torc.ing/",
+        "site": "https://torc.ing/",
+        "twitter": "https://x.com/torc_ing"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 8,
+        "actionable": 6,
+        "overall": 6.85
+      },
+      "highlights": [
+        "基于自有 Torc token standard / Helius Privacy Ring 的 Solana 隐私发射台。",
+        "$TORC CA G9XKAKkCsRHR3Wfjbj9w3m3vwBXNjdeKjrHPZsoimRg1 经 Jupiter 核验：总量 10 亿、74 持有人、市值约 $27.3k、流动性约 $7.2k，mint/freeze 权限已关闭，launchpad met-dbc。",
+        "官帖称 Dev supply 已锁并给出 Streamflow 链接。"
+      ],
+      "drawbacks": [
+        "站点首发列表仍显示空，与 $TORC 已在 Jupiter 出现不完全一致。",
+        "organicScore 为 low；Streamflow 锁定细节未逐条核验；隐私转账未实测。"
+      ],
+      "whatsNew": "Torcing 上线隐私发射台站点并已出现 $TORC 交易对，官帖补充 Dev supply 锁定链接。",
+      "summary": "Solana 隐私发射台，$TORC 已可交易但首发产品列表尚未填充，玩法仍待实测。",
+      "blurb": "隐私发射台早期盘，CA 与流动性已出现，产品一致性待观察。",
+      "round": 2054,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 122,
+      "xFollowers": 122,
+      "firstSeen": "2026-11-21 02:17 CST",
+      "addedAt": "2026-11-21 02:17 CST",
+      "lastChecked": "2026-11-21 02:17 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true,
+      "ca": "G9XKAKkCsRHR3Wfjbj9w3m3vwBXNjdeKjrHPZsoimRg1",
+      "caUnverified": false,
+      "caNote": "$TORC G9XKAKkCsRHR3Wfjbj9w3m3vwBXNjdeKjrHPZsoimRg1 经 Jupiter lite-api 核验：name Torcing、符号 TORC、6 位、总量 1,000,000,000；74 持有人、市值约 $27,300、流动性约 $7,205，mint/freeze 已关闭，launchpad met-dbc，创建于 2026-11-21 01:12 CST；organicScore=low。Streamflow 锁仓链接存在但细节未独立核验。隐私转账未实测。",
+      "xUserId": "2122524074563756032",
+      "accountCreatedCST": "2026-11-17 10:58 CST",
+      "xTweets": 4,
+      "source": "discord-alpha",
+      "hasTwitter": true,
+      "updatedAt": "2026-11-21 02:17 CST"
+    },
+    {
+      "id": "curvejail",
+      "name": "CurveJail",
+      "handle": "@curvejail",
+      "twitter": "@curvejail",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "robinhood-chain",
+        "launchpad",
+        "uniswap-v4",
+        "meme"
+      ],
+      "links": {
+        "x": "https://x.com/CurveJail",
+        "website": "https://curvejail.xyz/",
+        "officialPost": "https://x.com/CurveJail/status/2123835647584793075",
+        "explorer": "https://robinhoodchain.blockscout.com/token/0x760B3D57B6F23e49CB8Cc094D9581bdb42b6B7B5",
+        "web": "https://curvejail.xyz/",
+        "site": "https://curvejail.xyz/",
+        "twitter": "https://x.com/CurveJail"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 8,
+        "novelty": 8,
+        "actionable": 6,
+        "overall": 6.65
+      },
+      "highlights": [
+        "基于自有 Uniswap v4 hook 的发射台，买入锁仓 2–48h，提前退出需向留下的持有人支付 bail。",
+        "$JAIL CA 0x760B3D57B6F23e49CB8Cc094D9581bdb42b6B7B5 经 Pinax RPC 核验为 ERC-20，name CurveJail、符号 JAIL、18 位、总量 10 亿。"
+      ],
+      "drawbacks": [
+        "X 账号 0 关注者/1 帖，极新；站点另有 hook/辅助合约 0xa11c60D573291eB2104fD70b3670a26fc60Fe840 未单独定性。",
+        "发射、买卖、bail/Yard 均未实测；本轮 Blockscout 持有人/转账查询失败，未记持有人数。"
+      ],
+      "whatsNew": "CurveJail 公开自有 Uniswap v4 hook 发射台与 $JAIL 合约，主打买入锁仓和提前退出保释机制。",
+      "summary": "Robinhood Chain 上的 Uniswap v4 hook 发射台，$JAIL 合约已核验但核心玩法尚未实测。",
+      "blurb": "锁仓+保释机制的极早期发射台，CA 可查但交互未验证。",
+      "round": 2054,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": 0,
+      "firstSeen": "2026-11-21 02:17 CST",
+      "addedAt": "2026-11-21 02:17 CST",
+      "lastChecked": "2026-11-21 02:17 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true,
+      "ca": "0x760B3D57B6F23e49CB8Cc094D9581bdb42b6B7B5",
+      "caUnverified": false,
+      "caNote": "$JAIL 0x760B3D57B6F23e49CB8Cc094D9581bdb42b6B7B5 经 Pinax RPC chainId 4663 核验 name CurveJail、符号 JAIL、18 位、总量 1,000,000,000；0xa11c60D573291eB2104fD70b3670a26fc60Fe840 有 22397 bytes 代码但非 ERC-20，疑似 hook/辅助，未完全定性。本轮未能取到公开持有人/转账数。发射/bail/Yard 未实测。",
+      "xUserId": "2123831484192849920",
+      "accountCreatedCST": "2026-11-21 01:32 CST",
+      "xTweets": 1,
+      "source": "discord-alpha",
+      "hasTwitter": true,
+      "updatedAt": "2026-11-21 02:17 CST"
+    },
+    {
+      "id": "mercesdotlive",
+      "name": "Merces",
+      "handle": "@mercesdotlive",
+      "twitter": "@mercesdotlive",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "robinhood-chain",
+        "launchpad",
+        "github",
+        "prelaunch",
+        "pons"
+      ],
+      "links": {
+        "x": "https://x.com/mercesdotlive",
+        "website": "https://merces.live/",
+        "officialPost": "https://x.com/mercesdotlive/status/2123830909367619846",
+        "github": "https://github.com/merceslive/merces",
+        "telegram": "https://t.me/mercesdotlive",
+        "web": "https://merces.live/",
+        "site": "https://merces.live/",
+        "twitter": "https://x.com/mercesdotlive"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 8,
+        "novelty": 9,
+        "actionable": 6,
+        "overall": 6.85
+      },
+      "highlights": [
+        "为任意 GitHub repo 发币，手续费流入 repo vault，维护者可用 .merces 文件认领。",
+        "$WAGE 计划于 2026-11-21 15:00 UTC（23:00 CST）在 Pons 发射；官网已给出 Robinhood Chain 配置。",
+        "执行端 RPC 核验：hub 0xdfB1Dc4ea18CFE83Cd47530D4b7b936d44cfdcB4 有 9527 bytes 代码，但不是 ERC-20。"
+      ],
+      "drawbacks": [
+        "X 账号仅 1 关注者/1 帖；未发现已部署的 $WAGE 代币地址。",
+        "API 所列 neovim vault 0xa7d39AB600AA128f9b51DC7f0c5f672bBf90449a eth_getCode 为空，尚未部署；发射/领取/开 vault 均未实测。"
+      ],
+      "whatsNew": "Merces 上线产品站并预告 $WAGE 在 Pons 的发射时间与 repo vault 机制。",
+      "summary": "GitHub repo 发币与手续费金库的 Robinhood Chain 发射台，$WAGE 发射在即但合约尚未部署。",
+      "blurb": "极早期 GitHub-repo 发币实验，发射时间明确但暂无可用代币。",
+      "round": 2054,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-21 02:17 CST",
+      "addedAt": "2026-11-21 02:17 CST",
+      "lastChecked": "2026-11-21 02:17 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true,
+      "ca": "",
+      "caUnverified": true,
+      "caNote": "未发现已部署的 $WAGE 代币地址。Pinax RPC chainId 4663 核验：hub 0xdfB1Dc4ea18CFE83Cd47530D4b7b936d44cfdcB4 eth_getCode=9527 bytes，但 name/symbol/decimals/totalSupply 无返回，不是 ERC-20；API 所列 neovim vault 0xa7d39AB600AA128f9b51DC7f0c5f672bBf90449a eth_getCode 为空，尚未部署。发射时间 2026-11-21 15:00 UTC（23:00 CST），当前仍未到；launch/领取/开保险库均未实测。",
+      "xUserId": "2123666531985006592",
+      "accountCreatedCST": "2026-11-20 14:37 CST",
+      "xTweets": 1,
+      "source": "discord-alpha",
+      "hasTwitter": true,
+      "updatedAt": "2026-11-21 02:17 CST"
+    },
     {
       "id": "gatedapp-xyz",
       "name": "Gated App",
@@ -335675,16 +335966,21 @@
       "protected": false
     }
   ],
-  "newThisRound": [],
-  "alertMessage": "",
+  "newThisRound": [
+    "mercesdotlive",
+    "curvejail",
+    "torc-ing",
+    "zolanacom"
+  ],
+  "alertMessage": "R2054 DC补漏新收4（台子/Meme 4）：Merces @mercesdotlive，Robinhood Chain，merces.live，建号2026-11-20 14:37 CST，粉1/推1，$WAGE计划今日15:00 UTC/23:00 CST在Pons发射尚未到点，无已部署代币CA，hub已有代码但非ERC-20，vault未部署，发射/领取未实测；CurveJail @CurveJail，Robinhood Chain，curvejail.xyz，建号2026-11-21 01:32 CST，粉0/推1，CA 0x760B3D57B6F23e49CB8Cc094D9581bdb42b6B7B5，Pinax已核验$JAIL name CurveJail / JAIL / 18位 / 总量10亿，持有人数本轮未取到，发射与bail未实测；Torcing @torc_ing，Solana，torc.ing，建号2026-11-17 10:58 CST，粉122/推4，CA G9XKAKkCsRHR3Wfjbj9w3m3vwBXNjdeKjrHPZsoimRg1，Jupiter已核验$TORC 10亿供应、74持有人、约$27.3k mcap、约$7.2k流动性，mint/freeze已关，met-dbc，站点首发列表仍空，隐私转账未实测；Zolana @zolanacom，Solana，zolana.com，建号2026-11-05 07:25 CST，粉364/推66，CA UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL，隐私L1仅devnet，Jupiter已核验$ZOL 429持有人、约$139k mcap、约$12.5k流动性，pump.fun，mint/freeze已关，无主网，钱包/领币未实测；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [],
-  "updatedAt": "2026-11-21 02:04:19 CST",
-  "updated": "2026-11-21 02:04:19 CST",
+  "updatedAt": "2026-11-21 02:17 CST",
+  "updated": "2026-11-21 02:17 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-21 02:04:19 CST",
+  "lastScout": "2026-11-21 02:17 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -335726,7 +336022,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4581,
+  "candidateCount": 4585,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -340112,5 +340408,11 @@
     "gatedapp-xyz"
   ],
   "round2052Added": [],
-  "round2053Added": []
+  "round2053Added": [],
+  "round2054Added": [
+    "mercesdotlive",
+    "curvejail",
+    "torc-ing",
+    "zolanacom"
+  ]
 }
