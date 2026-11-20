@@ -1,0 +1,190 @@
+{
+  "round": 2036,
+  "routine": "Discord alpha 40分钟补漏",
+  "notify": true,
+  "dsFallback": false,
+  "discordPeekDeferred": false,
+  "loginOk": true,
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "updated": "2026-11-20 21:04 CST",
+  "scannedAtCST": "2026-11-20 20:57",
+  "openedRemoteRound": 2035,
+  "remoteMovedDuringWrite": "780c095 R2035: admit PP (@PPDotFun) new Pump.fun pad; refresh official windows",
+  "bumpedTo": 2036,
+  "clearedNTR": [
+    "ppdotfun"
+  ],
+  "newThisRound": [
+    "tickseal",
+    "mnbiersagents",
+    "wanted-acres",
+    "ventmark"
+  ],
+  "admits": [
+    {
+      "id": "tickseal",
+      "handle": "@Ticksealxyz",
+      "category": "台子/Meme",
+      "chain": "Robinhood Chain",
+      "site": "https://tickseal.xyz",
+      "focus": false,
+      "lzVerified": false,
+      "note": "纸面交易台，CA coming soon，功能未实测"
+    },
+    {
+      "id": "mnbiersagents",
+      "handle": "@MnbiersAgents",
+      "category": "台子/Meme",
+      "chain": "Robinhood Chain",
+      "site": "https://mnbiersagents.xyz",
+      "focus": false,
+      "lzVerified": false,
+      "ca": "0x35b169e3c844e6dba83485f6cf64fad047574b08",
+      "caUnverified": true
+    },
+    {
+      "id": "wanted-acres",
+      "handle": "@WantedAcres",
+      "category": "GO盘",
+      "chain": "Solana",
+      "site": "https://wantedacres.com/",
+      "focus": false,
+      "lzVerified": false,
+      "note": "X 0 帖；与 @GTAWantedSOL / @gtaviponsfun 同题不同项目"
+    },
+    {
+      "id": "ventmark",
+      "handle": "@useVentmark1",
+      "category": "台子/Meme",
+      "chain": "Robinhood Chain",
+      "site": "https://useventmark.com",
+      "focus": false,
+      "lzVerified": false,
+      "ca": "0x72337b1e18c5b82cbad1b33cde8078cbc567f81b",
+      "caUnverified": true,
+      "note": "DS 原标打新已覆盖为台子/Meme；账号约 26 天，非 NFT mint"
+    }
+  ],
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-20 20:47",
+    "alpha-1-backup": "2026-11-20 20:29",
+    "smart-accounts-tracker": "2026-11-20 20:24",
+    "alpha-1": "2026-11-20 20:47"
+  },
+  "lastSeen": "2026-11-20 20:47",
+  "cutoffsUsed": {
+    "alpha-3-new-accounts": "2026-11-20 20:03",
+    "alpha-1-backup": "2026-11-20 18:44",
+    "smart-accounts-tracker": "2026-11-20 20:03",
+    "alpha-1": "2026-11-20 20:04"
+  },
+  "cardsAfterCutoff": 41,
+  "uniqueHandles": 34,
+  "passedCutoffByChannel": {
+    "alpha-3-new-accounts": true,
+    "alpha-1-backup": true,
+    "smart-accounts-tracker": true,
+    "alpha-1": true
+  },
+  "cappedByChannel": {
+    "alpha-3-new-accounts": false,
+    "alpha-1-backup": false,
+    "smart-accounts-tracker": false,
+    "alpha-1": false
+  },
+  "spideyPosting": true,
+  "gapIncomplete": false,
+  "preReject": {
+    "already": 2,
+    "alreadyHandles": [
+      "@FluxLame",
+      "@claymons_nft"
+    ],
+    "highFol": 1,
+    "highFolHandles": [
+      "@WhaleHunterReal"
+    ],
+    "personalOrEmpty": 19,
+    "midOrEmptyShell": 4,
+    "midOrEmptyHandles": [
+      "@ScamToZero",
+      "@Oxlydex",
+      "@ZoroLounch",
+      "@31337___"
+    ]
+  },
+  "dsRejects": [
+    "@Hookwellrh",
+    "@playblocq",
+    "@pteracoin",
+    "@OpenSolace"
+  ],
+  "watchAdds": [
+    "@Ticksealxyz",
+    "tickseal",
+    "@MnbiersAgents",
+    "mnbiersagents",
+    "@WantedAcres",
+    "wanted-acres",
+    "@useVentmark1",
+    "ventmark"
+  ],
+  "xReadsThisRun": 6,
+  "xReadsRemainingToday": 939,
+  "candidateCount": 4555,
+  "dsUsage": {
+    "admit": {
+      "calls": 1,
+      "prompt_tokens": 3328,
+      "completion_tokens": 5185,
+      "reasoning_tokens": 2746,
+      "model": "deepseek-flash",
+      "thinking": true,
+      "batches": [
+        {
+          "batch": 0,
+          "n": 8,
+          "usage": {
+            "prompt_tokens": 3328,
+            "completion_tokens": 5185,
+            "total_tokens": 8513,
+            "prompt_tokens_details": {
+              "cached_tokens": 512
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 2746
+            },
+            "prompt_cache_hit_tokens": 512,
+            "prompt_cache_miss_tokens": 2816
+          },
+          "sec": 28.6
+        }
+      ]
+    },
+    "alert": {
+      "usage": {
+        "prompt_tokens": 958,
+        "completion_tokens": 400,
+        "total_tokens": 1358,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 958
+      },
+      "sec": 3.0,
+      "model": "deepseek-flash",
+      "thinking": true
+    },
+    "model": "deepseek-flash",
+    "thinking": true,
+    "dsFallback": false
+  },
+  "categoryOverrides": {
+    "ventmark": "DS 打新 → 台子/Meme"
+  },
+  "alert": "DC补漏R2036新收：Tickseal（@Ticksealxyz，台子/Meme，Robinhood Chain，focus=false；官网可开，六代理用纸面资金按 Lighter 实时价交易 32 市场、每笔做 SHA-256 哈希链收据，页面写明 practice money only、CA coming soon，$TICKSEAL 的 CA 未公布、纸面交易未实测）；MnbiersAgents（@MnbiersAgents，台子/Meme，Robinhood Chain，focus=false；官帖称 $Mnbiers 已上线并给 CA 0x35b169e3c844e6dba83485f6cf64fad047574b08，未独立链上核验，宣称做股票代币 Swap/Perps/再平衡与规则型 AI agent，功能与 CA 未实测、无审计）；Wanted Acres（@WantedAcres，GO盘，Solana，focus=false；官网可开，Leonida 约 110 万地块用 SOL 购买、部分购地款买入并锁定 $ACRES，写 $0.100 起、Now selling，但 X 0 帖资料空、$ACRES CA 未见、购地未实测，与 @GTAWantedSOL、@gtaviponsfun 同题不同项目/链）；Ventmark（@useVentmark1，台子/Meme，Robinhood Chain，focus=false；不是打新/NFT mint，官网为免费创业目录自称一月 66 项目，官帖称 $VENT 在 Pons/Robinhood Chain 发射、CA 0x72337b1e18c5b82cbad1b33cde8078cbc567f81b 未独立核验，账号约运营 26 天非今日新号）。均不承诺免费 mint 或已验证上线，先看 CA 核验与实测。面板：https://reboot7454.github.io/early-scout/"
+}
