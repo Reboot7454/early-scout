@@ -1,0 +1,69 @@
+{
+  "round": 2056,
+  "admits": [
+    {
+      "admit": true,
+      "reason": "X 账号创建仅约 3 天、独立官推已发币公告；meltpad.com 为真实可访问的 Solana 发射台，费用分配机制（1% 平台费中 50% 回流该币持有人、25% 回购 MELT）与 MELT 后缀虚名合约是具体玩法线索；$MELT 已在 Meteora DBC 上池、链上 mint/freeze 权限已弃，属于极早期可跟踪标的。但流动性仅约 $208、1 小时流动性 -81%、持有人仅 8，风险极高，故 risk 打高分。",
+      "id": "xgetmelt",
+      "name": "Melt",
+      "handle": "@XGetMelt",
+      "category": "台子/Meme",
+      "chain": "Solana",
+      "tags": [
+        "discord-alpha",
+        "solana",
+        "launchpad",
+        "fee-share",
+        "meteora-dbc",
+        "极早期"
+      ],
+      "lzVerified": false,
+      "focus": false,
+      "followers": 4,
+      "xFollowers": 4,
+      "xTweets": 13,
+      "xUserId": "2122769300062683136",
+      "accountCreatedCST": "2026-11-18 03:13 CST",
+      "scores": {
+        "early": 9,
+        "risk": 8,
+        "novelty": 6,
+        "actionable": 7,
+        "overall": 6.5
+      },
+      "highlights": [
+        "官方推文宣布 $MELT 上线并给出 CA，站点 meltpad.com 可访问",
+        "执行端链上核验：CA B1yijLK7cqDuJv6d5Bt4eW65WE3dGsi6nzDJD3XMELT 为 SPL mint，decimals 6，总量 1,000,000,000，mintAuthority=null，freezeAuthority=null",
+        "Jupiter 显示 launchpad 为 met-dbc，首个池创建于 2026-11-20T18:25:33Z（02:25 CST），与官宣时间吻合",
+        "费用机制明确写在站点：每笔 1.25%，其中 1% 平台费按 50% 回流该币持有人 / 25% 回购 MELT / 25% 归项目方",
+        "站点配置显示曲线 1B 供应、约 85 SOL 迁移至 DAMM v2、LP 锁定，发射参数可核",
+        "合约后缀 MELT 的虚名地址玩法具备传播性"
+      ],
+      "drawbacks": [
+        "执行端实测：持有人仅 8，mcap≈$2,376，流动性≈$208，organic 买入量仅≈$135",
+        "1 小时数据：流动性 -81%、持有人变化 -52.9%、价格 -12.5%，53 买/52 卖，存在明显出货迹象",
+        "‘在 Melt 发币’‘费用回流持有人’‘交易’三项均未实测，仅站点自述",
+        "X 账号 followers 仅 4、创建 3 天，社交面几乎为零",
+        "发射台合约未审计信息，1B 曲线 + 85 SOL 迁移参数未见第三方验证"
+      ],
+      "whatsNew": "Melt 发射台首币 $MELT 于 2026-11-20 18:25 UTC 在 Meteora DBC 建池，主打交易费回流持有人与 MELT 后缀虚名合约。",
+      "summary": "Solana 发射台 Melt 的平台币 $MELT，链上权限已弃、池子已开但流动性极薄、持有人极少，属极早期高风险发射台标的。",
+      "blurb": "费用熔给持有人的 Solana 发射台，平台币刚上池，流动性 $200 级别，极早期观察仓。",
+      "links": {
+        "x": "https://x.com/XGetMelt",
+        "website": "https://meltpad.com",
+        "officialPost": "https://x.com/XGetMelt/status/2123845224107565407",
+        "explorer": "https://solscan.io/token/B1yijLK7cqDuJv6d5Bt4eW65WE3dGsi6nzDJD3XMELT"
+      },
+      "ca": "B1yijLK7cqDuJv6d5Bt4eW65WE3dGsi6nzDJD3XMELT",
+      "caUnverified": false,
+      "caNote": "执行端已核验：api.mainnet-beta getTokenSupply/getAccountInfo 显示该地址为 SPL token mint，decimals 6，supply 1,000,000,000，mintAuthority=null，freezeAuthority=null；Jupiter 显示 name Melt / symbol MELT / launchpad met-dbc / holderCount 8 / mcap≈$2,376 / liquidity≈$208 / 首池创建 2026-11-20T18:25:33Z。发币与费用回流功能未实测。"
+    }
+  ],
+  "cleared": [
+    "zolanacom",
+    "torc-ing",
+    "curvejail",
+    "mercesdotlive"
+  ]
+}

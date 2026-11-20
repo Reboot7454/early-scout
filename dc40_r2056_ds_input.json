@@ -1,0 +1,82 @@
+{
+ "round": 2056,
+ "instruction": "对下列已预筛的 Discord alpha 候选逐条判定 admit。只输出合法 JSON：{\"decisions\":[...]}，不要 markdown。每条都必须有 decision。字段：admit, reason, id(kebab from handle), name, handle, category(打新|挖矿|台子/Meme|GO盘|LayerZero|Elysium), chain, tags:必须含 discord-alpha, lzVerified:false 除非有独立 LZ 核验, focus:必须 false（本批都不是仓鼠/实体PoW toychain）, followers, xFollowers, xTweets, xUserId, accountCreatedCST, scores:{early,risk,novelty,actionable,overall} 0-10分制且 overall≈early*0.35+actionable*0.25+novelty*0.2+(10-risk)*0.2, highlights[], drawbacks[], whatsNew, summary, blurb, links:{x,website?,officialPost?,explorer?}, ca, caUnverified, caNote。规则：必须有独立项目推特才 admit；只收极早期且有实际产品/发射/玩法线索；宁缺毋滥；不要编造未提供的链上数字；执行端已核验的事实必须写进 caNote/highlights，未实测的交互要写进 drawbacks。硬禁 focus=true。 额外：无代币、明确不发奖励的纯工具类项目若无打新/挖矿/发射价值应 admit=false 或给低 actionable。",
+ "candidates": [
+  {
+   "handle": "@XGetMelt",
+   "name": "Melt",
+   "channel": "alpha-1 / alpha-1-backup",
+   "cardTimeCST": "2026-11-21 02:39",
+   "followers": 4,
+   "following": 0,
+   "posts": 13,
+   "xUserId": "2122769300062683136",
+   "accountCreatedUTC": "2026-11-17T19:13:13Z",
+   "accountCreatedCST": "2026-11-18 03:13 CST",
+   "bio": "Trenches need a change. we are here.",
+   "website": "https://meltpad.com",
+   "officialPost": "https://x.com/XGetMelt/status/2123845224107565407",
+   "officialPostAtCST": "2026-11-21 02:25 CST",
+   "officialPostText": "$MELT is live. The coin of meltpad.com — the launchpad where trading fees don't go to the house, they melt down to the holders. CA: B1yijLK7cqDuJv6d5Bt4eW65WE3dGsi6nzDJD3XMELT",
+   "evidence": {
+    "siteOpen": true,
+    "siteSummary": "Melt — Launch your coin. Solana launchpad, pair with SOL/dollar/stock; 1.25% fee per trade (1% platform: 50% to that coin's holders, 25% Melt buyback, 25% house; 0.25% venue); vanity contracts ending in MELT; site config says launch venue Meteora DBC, curve 1B supply, ~85 SOL to migrate to DAMM v2, LP locked.",
+    "solanaRpc": "api.mainnet-beta getTokenSupply/getAccountInfo: B1yijLK7cqDuJv6d5Bt4eW65WE3dGsi6nzDJD3XMELT spl-token mint, decimals 6, supply 1,000,000,000, mintAuthority=null, freezeAuthority=null",
+    "jupiter": "name Melt, symbol MELT, launchpad met-dbc, holderCount 8, mcap≈$2,376, liquidity≈$208, firstPool created 2026-11-20T18:25:33Z (02:25 CST), 1h: 53 buys/52 sells, 44 traders, holderChange -52.9%, liquidityChange -81%, price -12.5%, organic buy volume only ≈$135",
+    "untested": "launching a coin on Melt, fee melt to holders, trading not tested"
+   }
+  },
+  {
+   "handle": "@0x_ShowofHands",
+   "name": "Show of Hands 举手",
+   "channel": "alpha-3-new-accounts",
+   "cardTimeCST": "2026-11-21 02:39",
+   "followers": 3,
+   "following": 6,
+   "posts": 0,
+   "xUserId": "2123844730911965184",
+   "accountCreatedUTC": "2026-11-20T18:24:38Z",
+   "accountCreatedCST": "2026-11-21 02:24 CST",
+   "bio": "One Agent ID = one voice. Free polls, fair funding rounds and on-chain price predictions on BNB Chain. Bots can't vote twice. 举手",
+   "website": "https://showofhands.io",
+   "github": "https://github.com/isaacessuman/show-of-hands",
+   "evidence": {
+    "siteOpen": true,
+    "siteSummary": "Independent community project, not run by Binance. Free polls / quadratic funding rounds / Chainlink-settled price predictions for Binance Agent ID holders on BSC. Site states: no fees, no rewards for taking part, no returns, contracts have no owner. No token.",
+    "bscRpc": "eth_getCode: Polls 0x0EB39713C32f9Cf6f9120818E14a101D35aa2aC4 6476 bytes; FundingRounds 0x3510B0Cd977a1bc759f674Ef6b5B6Ac769701D7B 12916 bytes; Attestor 0x3f2e6f06856421054906c335586c129c1D2EC09F 4139 bytes; CrowdScore 0x1a912bc6d6fA8E3a3E9Eb28ff31B6bF1610Ecff3 4629 bytes; Predictions 0x77a23A374729B6482Bc7034cFFC3c78f96869c8a 9675 bytes. Polls.pollCount()=2, FundingRounds.roundCount()=0",
+    "api": "/api/polls: poll 0 closed no_quorum with 1 verified voter; poll 1 open, 0 voters, ends 2026-11-27",
+    "noToken": true,
+    "untested": "voting/createPoll not executed"
+   }
+  }
+ ],
+ "prefilteredOut": {
+  "dup": [
+   "Foxoraxyz"
+  ],
+  "notFoundOnX": [
+   "Foxora_",
+   "noreagent"
+  ],
+  "memeNoProduct": [
+   "Wartegmeme (pump.fun 3 holders ~$1.9k mcap)"
+  ],
+  "comingSoonOnly": [
+   "Void_rent",
+   "8BitMilady",
+   "WuboAPI",
+   "kangozro",
+   "Robinhoodmode"
+  ],
+  "shellTemplate": [
+   "XIAMIBNB (0 posts, site template x/ca empty)",
+   "stockethereum (2021 repurposed account, factory empty)",
+   "terracash01"
+  ],
+  "personal/spam/highFollower": [
+   "heybudgie",
+   "Basmad_ITIA",
+   "others"
+  ]
+ }
+}
