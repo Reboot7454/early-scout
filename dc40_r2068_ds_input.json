@@ -1,0 +1,41 @@
+{
+ "round": 2068,
+ "instruction": "对下列已预筛的 Discord alpha 候选逐条判定 admit。只输出合法 JSON：{\"decisions\":[...]}，不要 markdown。每条都必须有 decision。字段：admit, reason, id(kebab from handle), name, handle, category(打新|挖矿|台子/Meme|GO盘|LayerZero|Elysium), chain, tags:必须含 discord-alpha, lzVerified:false 除非有独立 LZ 核验, focus:必须 false（本批都不是仓鼠/实体PoW toychain）, followers, xFollowers, xTweets, xUserId, accountCreatedCST, scores:{early,risk,novelty,actionable,overall} 0-10分制且 overall≈early*0.35+actionable*0.25+novelty*0.2+(10-risk)*0.2, highlights[], drawbacks[], whatsNew, summary, blurb, links:{x,website?,officialPost?,explorer?}, ca, caUnverified, caNote。规则：必须有独立项目推特才 admit；只收极早期且有实际产品/发射/玩法线索；宁缺毋滥；不要编造未提供的链上数字；执行端已核验的事实必须写进 caNote/highlights，未实测的交互要写进 drawbacks。硬禁 focus=true。 额外：无代币、明确不发奖励的纯工具类项目若无打新/挖矿/发射价值应 admit=false 或给低 actionable。",
+ "candidates": [
+  {
+   "handle": "@SoneiumPunks",
+   "name": "Soneium Punks",
+   "channel": "alpha-1-backup / alpha-1",
+   "cardTimeCST": "2026-11-21 06:44 (backup) / 06:41 (alpha-1)",
+   "followerOf": "@0xTravis",
+   "followers": 117,
+   "following": 1,
+   "posts": 3,
+   "accountCreatedCST": "2026-11-11",
+   "bio": "First punk NFT collection on @Soneium",
+   "website": "https://soneiumpunks.xyz",
+   "officialPosts": "11-16 官宣 Soneium 上 10,000 原创像素 punk，前 100 钱包 GTD；11-17 allowlist 开放（申请即 GTD）；11-18 开放 collab 社区 GTD 名额。",
+   "siteFacts": "执行端抓取 soneiumpunks.xyz：10,000 个 24x24 原创像素 punk、200+ 手绘特征、orbit ring 稀有度（Silver/Gold/Neon/Diamond）；Allowlist 仅填钱包地址+X 用户名+关注/点赞转评置顶帖，站点声明绝不要求连接钱包或签名；Roadmap：Liftoff→Gathering(collab)→Launch 在 OpenSea 上 allowlist 先铸→Reveal→$SPUNK；$SPUNK 计划总量 10 亿、无预售，100% 版税买 $SPUNK 加流动性，每个 punk 代币上线时空投 15,000 $SPUNK、质押每日产出；以 Soneium ETH 支付。页面未见 mint 日期/价格/合约地址（无 0x 地址）。"
+  },
+  {
+   "handle": "@odrakcoin",
+   "name": "ODRAK",
+   "channel": "alpha-3-new-accounts",
+   "followers": 0,
+   "bio": "Unserious dragon, serious meme energy. $ODRAK on Solana.",
+   "preScreen": "通用 pump.fun meme，无产品/玩法"
+  },
+  {
+   "handle": "@RippleDumps",
+   "name": "RippleDumps",
+   "channel": "alpha-3-new-accounts",
+   "preScreen": "XRPL 讽刺 meme 号，无 CA/产品"
+  },
+  {
+   "handle": "@3ShapeCC",
+   "name": "3ShapeCC",
+   "channel": "alpha-3-new-accounts",
+   "preScreen": "无任何信息"
+  }
+ ]
+}
