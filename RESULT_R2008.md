@@ -2,7 +2,7 @@
 
 - round: 2008
 - lastScout: 2026-11-20 10:14:29 CST
-- panelCommit: PENDING
+- panelCommit: ebe4feb
 - notify: true
 - added: gtaperps（@useGTAperps，watching，非免费 LIVE）
 - docsSynced: true
