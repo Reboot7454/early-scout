@@ -1,0 +1,54 @@
+{
+ "round": 2059,
+ "instruction": "对下列已预筛的 Discord alpha 候选逐条判定 admit。只输出合法 JSON：{\"decisions\":[...]}，不要 markdown。每条都必须有 decision。字段：admit, reason, id(kebab from handle), name, handle, category(打新|挖矿|台子/Meme|GO盘|LayerZero|Elysium), chain, tags:必须含 discord-alpha, lzVerified:false 除非有独立 LZ 核验, focus:必须 false（本批都不是仓鼠/实体PoW toychain）, followers, xFollowers, xTweets, xUserId, accountCreatedCST, scores:{early,risk,novelty,actionable,overall} 0-10分制且 overall≈early*0.35+actionable*0.25+novelty*0.2+(10-risk)*0.2, highlights[], drawbacks[], whatsNew, summary, blurb, links:{x,website?,officialPost?,explorer?}, ca, caUnverified, caNote。规则：必须有独立项目推特才 admit；只收极早期且有实际产品/发射/玩法线索；宁缺毋滥；不要编造未提供的链上数字；执行端已核验的事实必须写进 caNote/highlights，未实测的交互要写进 drawbacks。硬禁 focus=true。 额外：无代币、明确不发奖励的纯工具类项目若无打新/挖矿/发射价值应 admit=false 或给低 actionable。",
+ "candidates": [
+  {
+   "handle": "@auroveil",
+   "name": "Auroveil",
+   "channel": "alpha-3-new-accounts",
+   "cardTimeCST": "2026-11-21 03:31",
+   "followerOf": "@RobinhoodCrypto / @RobinhoodApp",
+   "followers": 0,
+   "following": 18,
+   "posts": 1,
+   "accountCreatedCST": "2026-11-20 23:06 CST",
+   "bio": "Token launchpad. Live on Robinhood Chain testnet: create, buy & sell with test coins, no real funds. Mainnet not launched. $AVL",
+   "website": "https://auroveil.xyz",
+   "testnet": "https://testnet.auroveil.xyz (执行端抓取 403，未实测)",
+   "officialPost": "https://x.com/auroveil/status/2123861031369994319",
+   "officialPostAtCST": "2026-11-21 03:28 CST",
+   "officialPostText": "Meet Auroveil, a token launchpad built like an aurora sky. The testnet is live on Robinhood Chain: create, buy and sell with test coins. No real funds. Unaudited. Try it. $AVL",
+   "siteFacts": "执行端抓取 auroveil.xyz：标题 Universal Token Launchpad；FAQ 自述 'No. This is a demo with a simulated market and a paper balance'，数据仅存浏览器 localStorage。未发现代币 CA。"
+  },
+  {
+   "handle": "@woodlandz_xyz",
+   "name": "Woodlandz",
+   "channel": "alpha-3-new-accounts",
+   "cardTimeCST": "2026-11-21 03:47",
+   "followerOf": "@binance",
+   "followers": 0,
+   "following": 3,
+   "posts": 1,
+   "accountCreatedCST": "2026-11-21 03:05 CST",
+   "bio": "Chop. Earn. Own. | Woodland game on BNB | $WOOD + Logger NFTs (1st Mint Free)",
+   "officialPost": "https://x.com/woodlandz_xyz/status/2123866956671656018",
+   "officialPostAtCST": "2026-11-21 03:51 CST",
+   "officialPostText": "Woodlandz is here. Chop. Earn. Own. A woodland game on BNB. $WOOD. Logger NFTs. First Mint Free for Binance Agentic Wallet. Coming Soon.",
+   "siteFacts": "无官网链接；未发现 CA/合约；mint 未开放（Coming Soon）。"
+  },
+  {
+   "handle": "@HoodClubVIP",
+   "name": "HoodClubVIP",
+   "channel": "alpha-3-new-accounts",
+   "cardTimeCST": "2026-11-21 03:33",
+   "followerOf": "@opensea",
+   "followers": 0,
+   "following": 1,
+   "posts": 1,
+   "accountCreatedCST": "2026-11-21 03:25 CST",
+   "bio": "4,000 animated 1/1 hologram punks. Community first: holder perks, events & giveaways. #HoodClubVIP",
+   "officialPostText": "Welcome to the hood. Holder-only community, early access to drops & events, giveaways, community votes #HoodClubVIP #Nfts #RobinHood",
+   "siteFacts": "无官网、无链、无 mint 时间/价格/合约。"
+  }
+ ]
+}

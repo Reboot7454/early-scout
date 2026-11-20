@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-21 03:36:40 CST",
+    "updated": "2026-11-21 04:00 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-21 03:36:40 CST",
+    "lastScout": "2026-11-21 04:00 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -849,7 +849,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2058,
+    "round": 2059,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2383,7 +2383,10 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "auroveil",
+      "woodlandz-xyz"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -5209,32 +5212,31 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-11-21 02:54",
-      "lastChecked": "2026-11-21 03:36:40 CST",
-      "newestCardTime": "2026-11-21 02:54",
-      "cardsAfterCutoff": 50,
-      "note": "R2058 本路 box computerUse 遇登录墙，loginOk=false，未改 lastSeen（沿用 R2056：alpha-3 02:54、backup 02:44、smart 02:07、alpha-1 02:39 CST）。用户电脑离线，box 无 Discord 会话。11/15–11/18 积压仍未回填，增量范围外。",
-      "lastRound": 2056,
+      "deferred": false,
+      "lastSeen": "2026-11-21 03:55",
+      "lastChecked": "2026-11-21 04:00 CST",
+      "newestCardTime": "2026-11-21 03:55",
+      "cardsAfterCutoff": 36,
+      "note": "R2059：Discord alpha 补收 auroveil,woodlandz-xyz；lastSeen→2026-11-21 03:55；lastChecked→2026-11-21 04:00 CST；各频道 lastSeen→alpha-3-new-accounts 03:55/alpha-1-backup 03:44/smart-accounts-tracker 03:09/alpha-1 03:49；11/15–11/18 积压仍未回填（增量范围外）",
+      "lastRound": 2059,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-21 02:54",
-        "alpha-1-backup": "2026-11-21 02:44",
-        "smart-accounts-tracker": "2026-11-21 02:07",
-        "alpha-1": "2026-11-21 02:39"
+        "alpha-3-new-accounts": "2026-11-21 03:55",
+        "alpha-1-backup": "2026-11-21 03:44",
+        "smart-accounts-tracker": "2026-11-21 03:09",
+        "alpha-1": "2026-11-21 03:49"
       },
-      "loginOk": false,
-      "spideyPosting": true,
-      "scannedAtCST": "2026-11-21 03:05",
       "newestByChannel": {
-        "alpha-3-new-accounts": "2026-11-21 02:54",
-        "alpha-1-backup": "2026-11-21 02:44",
-        "smart-accounts-tracker": "2026-11-21 02:07",
-        "alpha-1": "2026-11-21 02:39"
+        "alpha-3-new-accounts": "2026-11-21 03:55",
+        "alpha-1-backup": "2026-11-21 03:44",
+        "smart-accounts-tracker": "2026-11-21 03:09",
+        "alpha-1": "2026-11-21 03:49"
       },
-      "newestVisibleTime": "2026-11-21 02:54",
+      "loginOk": true,
+      "spideyPosting": true,
+      "scannedAtCST": "2026-11-21 03:58",
       "gapIncomplete": false,
-      "alpha3OlderGap": "Prior unfilled ranges were out of scope this incremental run: alpha-3 2026-11-15 03:22→2026-11-20 02:20; backup 2026-11-15 02:04→2026-11-15 14:04; smart 2026-11-15 03:26→2026-11-18 12:38; alpha-1 2026-11-15 02:59→2026-11-18 05:37.",
-      "backlogGap": "Prior unfilled ranges were out of scope this incremental run: alpha-3 2026-11-15 03:22→2026-11-20 02:20; backup 2026-11-15 02:04→2026-11-15 14:04; smart 2026-11-15 03:26→2026-11-18 12:38; alpha-1 2026-11-15 02:59→2026-11-18 05:37."
+      "backlogGap": "same as alpha3OlderGap",
+      "alpha3OlderGap": "prior unfilled ranges remain, out of scope: alpha-3 2026-11-15 03:22→2026-11-20 02:20; backup 11-15 02:04→11-15 14:04; smart 11-15 03:26→11-18 12:38; alpha-1 11-15 02:59→11-18 05:37"
     },
     "round239Added": [
       "tsunamilaunch",
@@ -47840,9 +47842,110 @@
       "discordPeekNote": "R2058 box 登录墙，deferred=true，lastSeen 沿用 R2056。请有可用会话的路径立刻补增量 Peek；不要向用户催登录。",
       "silentLane": "DogeEVM",
       "silentNextLane": "BTC"
-    }
+    },
+    "round2059Added": [
+      "auroveil",
+      "woodlandz-xyz"
+    ]
   },
   "candidates": [
+    {
+      "id": "woodlandz-xyz",
+      "name": "Woodlandz",
+      "handle": "@woodlandz_xyz",
+      "twitter": "@woodlandz_xyz",
+      "chain": "BNB",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/woodlandz_xyz",
+        "officialPost": "https://x.com/woodlandz_xyz/status/2123866956671656018"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 8,
+        "novelty": 5,
+        "actionable": 3,
+        "overall": 5.3
+      },
+      "highlights": [
+        "官方帖明确玩法：Chop / Earn / Own，BNB 链上的 Woodland 游戏",
+        "代币 $WOOD 与 Logger NFT 双资产设计，Logger NFT 对 Binance Agentic Wallet 首铸免费",
+        "项目自建独立推特首发，非 KOL 转推"
+      ],
+      "drawbacks": [
+        "mint 标注 Coming Soon，未开放，无法交互",
+        "无官网、无合约地址、无铸造时间/价格/总量，链上信息为零",
+        "账户 0 粉丝、1 帖、2026-11-21 03:05 新建，关注 @binance 疑似蹭热度拉升曝光"
+      ],
+      "whatsNew": "2026-11-21 03:51 CST 首次亮牌：BNB 链 Woodland 游戏，$WOOD 与 Logger NFT 首铸免费，即将开放。",
+      "summary": "BNB 链上的极早期链游卡，玩法与免费首铸 NFT 线索已给出，但仅有单条预告推文，无官网、无合约、mint 未开，属纯预告阶段，需等铸造开放再评估。",
+      "blurb": "BNB 链 Woodland 链游，$WOOD + 免费首铸 Logger NFT，mint 待开。",
+      "round": 2059,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": 0,
+      "firstSeen": "2026-11-21 04:00 CST",
+      "addedAt": "2026-11-21 04:00 CST",
+      "lastChecked": "2026-11-21 04:00 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "auroveil",
+      "name": "Auroveil",
+      "handle": "@auroveil",
+      "twitter": "@auroveil",
+      "chain": "Robinhood Chain (testnet)",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/auroveil",
+        "website": "https://auroveil.xyz",
+        "officialPost": "https://x.com/auroveil/status/2123861031369994319",
+        "explorer": ""
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.2
+      },
+      "highlights": [
+        "官网 auroveil.xyz 自述 Universal Token Launchpad，主打在 Robinhood Chain 上创建/买卖代币",
+        "官方帖称测试网已上线：create、buy & sell 使用测试币，无真实资金",
+        "项目方自建独立推特并首发公告，非搬运号，$AVL 代币名已公开"
+      ],
+      "drawbacks": [
+        "testnet.auroveil.xyz 执行端抓取 403，交互与铸造流程未实测",
+        "官网 FAQ 自述为 demo/纸面余额，数据仅存浏览器 localStorage，自认 unaudited",
+        "账户 0 粉丝、仅 1 帖、2026-11-20 新建，无第三方背书，主网未上线",
+        "执行端抓取 auroveil.xyz：FAQ 自述为模拟市场+纸面余额 demo，数据仅存浏览器 localStorage；testnet 站点 403 未实测；无代币 CA"
+      ],
+      "whatsNew": "2026-11-21 03:28 CST 官宣上线 Robinhood Chain 测试网发币台，可零成本体验创建与交易。",
+      "summary": "Robinhood Chain 测试网上的极早期代币发射台，官网与官方首发帖俱在，测试网可用测试币演练 create/buy/sell；但为未审计的 localStorage 演示盘，无真实资金与流动性，需自行实测。",
+      "blurb": "Robinhood Chain 测试网发币台，纸面代币免费试玩。",
+      "round": 2059,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": 0,
+      "firstSeen": "2026-11-21 04:00 CST",
+      "addedAt": "2026-11-21 04:00 CST",
+      "lastChecked": "2026-11-21 04:00 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "xgetmelt",
       "name": "Melt",
@@ -336220,16 +336323,19 @@
       "protected": false
     }
   ],
-  "newThisRound": [],
-  "alertMessage": "R2056 DC补漏新收1（台子/Meme 1）：Melt @XGetMelt，Solana，站点meltpad.com，建号2026-11-18 03:13 CST，粉/推4/13；CA B1yijLK7cqDuJv6d5Bt4eW65WE3dGsi6nzDJD3XMELT。核验要点：发射台每笔1.25%费，平台1%中一半回流该币持有人、1/4回购；官帖02:25 CST称 $MELT 已上线；Solana RPC已核验SPL 10亿供应、6位、mint/freeze权限已关；Jupiter met-dbc、8持有人、约$2.4k mcap、流动性仅约$208，1h流动性-81%、持有人-53%，风险极高；发币/费用回流/交易未实测。面板链接 https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "auroveil",
+    "woodlandz-xyz"
+  ],
+  "alertMessage": "\"DC补漏新收2（R2059）：①台子/Meme Auroveil @auroveil，Robinhood Chain 测试网发币台，今日 23:06 建号/0粉，站点 auroveil.xyz 自述为模拟盘 demo（纸面余额），无代币 CA，测试网未实测；②打新 Woodlandz @woodlandz_xyz，BNB 链伐木游戏 $WOOD + Logger NFT，Binance Agentic Wallet 首铸免费，尚 Coming Soon，今日 03:05 建号/0粉，无官网/合约。均非重点。面板 https://reboot7454.github.io/early-scout/\"",
   "roundNAdded": [],
-  "updatedAt": "2026-11-21 03:05 CST",
-  "updated": "2026-11-21 03:05 CST",
+  "updatedAt": "2026-11-21 04:00 CST",
+  "updated": "2026-11-21 04:00 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-21 03:05 CST",
+  "lastScout": "2026-11-21 04:00 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -336271,7 +336377,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4586,
+  "candidateCount": 4588,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -336311,7 +336417,7 @@
   "round386Added": [],
   "round387Added": [],
   "round390Added": [],
-  "notify": false,
+  "notify": true,
   "round395Added": [
     "feastmeme"
   ],
@@ -337943,7 +338049,7 @@
   "round1000Added": [
     "bsc-ququ"
   ],
-  "notifyReason": "kinetiq-toons first official public mint LIVE",
+  "notifyReason": "new_admits",
   "round1001Added": [
     "usetrenchscope",
     "moonfall-bnb",
@@ -340669,5 +340775,9 @@
     "xgetmelt"
   ],
   "round2057Added": [],
-  "round2058Added": []
+  "round2058Added": [],
+  "round2059Added": [
+    "auroveil",
+    "woodlandz-xyz"
+  ]
 }
