@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-21 10:05 CST",
+    "updated": "2026-11-21 10:53 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-21 10:45:18 CST",
+    "lastScout": "2026-11-21 10:53 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -859,7 +859,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2079,
+    "round": 2080,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2403,9 +2403,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "kryoshi",
-      "zerovo",
-      "asklepion"
+      "casebookduel"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -5239,26 +5237,22 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "lastSeen": "2026-11-21 10:00",
-      "lastChecked": "2026-11-21 10:45:18 CST",
+      "deferred": false,
+      "lastSeen": "2026-11-21 10:49",
+      "lastChecked": "2026-11-21 10:53 CST",
       "newestCardTime": "2026-11-21 10:00",
-      "cardsAfterCutoff": 21,
-      "note": "R2077：补上 R2075/R2076 登录墙缺口的增量 Peek，cards 21（alpha-3 14/backup 0/smart 5/alpha-1 2），无新收录；拒 Zoru_Bonk（2025-07 后停更、CA 待公布、onsol.top 站）、DonChadMoon（纯 pump meme 无产品）及个人/高粉号；JustheadzHQ/tribe3tech 去重；R2076 新标记保留未清（另号刚收录的 mario-pixel 免费 mint 今晚截止）",
-      "lastRound": 2077,
+      "cardsAfterCutoff": 13,
+      "note": "R2080：DC 增量 Peek（box Discord 已登录，R2079 登录墙未复现），cards 13（alpha-3 13/backup 0/smart 0/alpha-1 0），补收 casebookduel（RH 链 AI agent 每小时链上答题对决，无币）；拒 MultiVaultPro（抗量子多签金库仅喊即将上线、无官网）及个人号。11/15–11/18 积压仍不在增量范围。",
+      "lastRound": 2080,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-21 09:57",
+        "alpha-3-new-accounts": "2026-11-21 10:49",
         "alpha-1-backup": "2026-11-21 08:29",
         "smart-accounts-tracker": "2026-11-21 10:00",
         "alpha-1": "2026-11-21 09:39"
       },
-      "loginOk": false,
-      "r2075Note": "本路 computerUse 09:01 CST 再次遇到登录墙，未填凭据、未改 lastSeen。R2074 已完成增量 Peek（lastSeen alpha-3 08:53 / backup 08:29 / smart 08:27 / alpha-1 08:29，补收 mlx-app），本轮不再 deferred，不要求父代理同轮重登。下轮增量从该 lastSeen 续翻。",
-      "r2076Note": "R2076 computerUse 约 09:46 CST 再遇登录墙：落地 https://discord.com/login?redirect_to=%2Fchannels%2F1502958818865188956%2F1537897411668746302 ，页上 Welcome back / Email or Phone / Password / Log In / QR / passkey。未填凭据、未打开四频道、cards=0。lastSeen 仍为 R2074 增量：alpha-3 08:53 / backup 08:29 / smart 08:27 / alpha-1 08:29 CST。11/15–11/18 积压仍不在增量范围。请父代理同轮立刻补 Peek。",
-      "spideyPosting": true,
-      "r2078Note": "R2078 本路 computerUse 再遇登录墙，但写盘前远程已是 R2077 DC 增量 Peek（3270356，loginOk=true，lastSeen alpha-3 09:57 / backup 08:29 / smart 10:00 / alpha-1 09:39 CST，cardsAfterCutoff=21，无新收录）。本轮不再 deferred，不要求父代理同轮补 Peek。11/15–11/18 积压仍不在增量范围。",
-      "gapIncomplete": true,
-      "r2079Note": "R2079 本路 computerUse 约 10:36 CST 再遇 Discord 登录墙（Welcome back / Email or Phone / Password / Log In / QR / passkey），loginOk=false，未填凭据、未扫其它频道、cards=[]，gapIncomplete=true。lastSeen 保持 R2077 增量 cutoff 不变：alpha-3 09:57 / backup 08:29 / smart 10:00 / alpha-1 09:39 CST。discordPeekDeferred=true，须父代理同一轮立刻补 Peek（含 notify 已为 true 的本轮）。11/15–11/18 积压仍不在增量范围。"
+      "loginOk": true,
+      "gapIncomplete": false,
+      "spideyPosting": true
     },
     "round239Added": [
       "tsunamilaunch",
@@ -48577,9 +48571,58 @@
           "freeMintWatch"
         ]
       }
+    ],
+    "round2080Added": [
+      "casebookduel"
     ]
   },
   "candidates": [
+    {
+      "id": "casebookduel",
+      "name": "Casebook",
+      "handle": "@casebookduel",
+      "twitter": "@casebookduel",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/casebookduel"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 6.9
+      },
+      "highlights": [
+        "站点 casebookduel.com 已上线并连续运行约35小时",
+        "每小时两个AI agent对答 Robinhood Chain/Pons 链上题（bonding curve、creator tax、graduated）并公开计分",
+        "获发射台方 @ponsdotfamily 关注，官帖明确 No token yet、唯一地址将在推特与官网公布"
+      ],
+      "drawbacks": [
+        "仅4粉/2推，团队匿名",
+        "暂无代币与合约地址",
+        "玩法观赏性为主，普通用户参与/获利路径不清晰"
+      ],
+      "whatsNew": "11-21 建号即上线双 AI agent 每小时链上答题竞技站，围绕 Pons/Robinhood Chain 发射数据计分",
+      "summary": "Robinhood Chain 生态极早期 AI agent 答题竞技项目，站点已实跑，代币未发，具备明确发射预期与可观察玩法。",
+      "blurb": "两个AI agent每小时抢答Pons链上数据、公开计分的Robinhood Chain竞技站，站点已跑35小时，No token yet。",
+      "round": 2080,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 4,
+      "xFollowers": 4,
+      "firstSeen": "2026-11-21 10:53 CST",
+      "addedAt": "2026-11-21 10:53 CST",
+      "lastChecked": "2026-11-21 10:53 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "mlx-app",
       "name": "MLX.app",
@@ -338438,7 +338481,7 @@
       "addedAt": "2026-11-21 10:45:18 CST",
       "updatedAt": "2026-11-21 10:45:18 CST",
       "lastChecked": "2026-11-21 10:45:18 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "le2h": false,
       "source": "R2079 x-radar（关键词/挂靠提及 + 官网 https://kryoshi.store/ 与官推互指）。本轮未见置顶官帖原文进搜索结果，未另开 X 复读；GTD free mint 表述来自转述官帖。",
       "summary": "2026-11-20 21:07 CST 建立的 Robinhood Chain 水晶武士 NFT。官网与官推互指。白名单已开：无表单，须关注+赞+在置顶帖评论 Robinhood 钱包+转发，名单开铸前由官号公布。转述官帖称 GTD spot free mint。开铸 2026-11-27 21:00 CST，走 OpenSea。官网 FAQ 未写价格与供应量。合约未核到。是自称免费登记，不是已开铸免费 mint LIVE。",
@@ -338533,7 +338576,7 @@
       "addedAt": "2026-11-21 10:45:18 CST",
       "updatedAt": "2026-11-21 10:45:18 CST",
       "lastChecked": "2026-11-21 10:45:18 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "le2h": false,
       "source": "R2079 x-radar（LayerZero/Zero 关键词与 mentions + 官网 https://zerovo.io/）。资料栏已填官网；本轮官网未见回链官推，未另开 X 复读。",
       "summary": "2026-11-17 08:58 CST 建立的 Zero EVM 发射台（自称 coming soon）。资料栏指向 zerovo.io（HTTP 200）。官网称 bonding curve 开盘只付 gas、交易费 1%–5%，可自动或手动迁移，毕业进 Uniswap v4，另有 ATLAS 现货订单簿。Bio 点名 @LayerZero_Core。本轮未见官方生态页核验，lzVerified=false。不是免费 mint，平台尚未 LIVE。",
@@ -338620,7 +338663,7 @@
       "addedAt": "2026-11-21 10:45:18 CST",
       "updatedAt": "2026-11-21 10:45:18 CST",
       "lastChecked": "2026-11-21 10:45:18 CST",
-      "newThisRound": true,
+      "newThisRound": false,
       "le2h": false,
       "source": "R2079 x-radar（LayerZero/Zero 关键词与 mentions + 官网 https://asklepion.tech/ 与官推互指）。http 直连曾 500，https 200。",
       "summary": "2026-11-14 18:02 CST 建立的 Zero 研究里程碑募资台。官网与官推互证，meta 写 Built on Zero by LayerZero。页面自称可登记研究、按里程碑募资、交易活动代币与手续费份额，并写 10,000 份 Votive NFT 免费（每钱包 1 份、仅付 gas）。页文明确 The register goes live when Asklepion launches on Zero，示例记录不是已上线数据。官帖称登记将在 Asklepion 于 Zero 上线时开放。是自称将免费 mint Votive，不是已开铸免费 mint LIVE。未核到合约。lzVerified=false。",
@@ -338688,19 +338731,17 @@
     }
   ],
   "newThisRound": [
-    "kryoshi",
-    "zerovo",
-    "asklepion"
+    "casebookduel"
   ],
-  "alertMessage": "【早期打新雷达 R2079】本轮新收录 3 项：1）KRYOSHI（@KryoshiRH / https://kryoshi.store/）——官网与官推互证。自称 Robinhood Chain 水晶武士 NFT，白名单已开（关注+赞+在置顶帖评论钱包地址+转发，无表单）；转述官帖称 GTD spot free mint。开铸 2026-11-27 21:00 CST，走 OpenSea。是自称免费登记，不是已开铸免费 mint LIVE。2026-11-20 建号、47 粉。2）Zerovo（@Zerovo_io / https://zerovo.io/）——自称即将上线的 Zero EVM 发射台（bonding curve、自动/手动迁移、Uniswap v4 / ATLAS），Coming soon，不是免费 mint。资料栏已填官网，本轮官网未见回链官推。2026-11-17 建号、84 粉。3）Asklepion（@Asklepion_tech / https://asklepion.tech/）——官网与官推互证，自称 Built on Zero by LayerZero。页面写 10,000 份 Votive NFT 免费（每钱包 1 份、仅付 gas），但登记/铸造要等 Asklepion 在 Zero 上线后才开，不是已开铸免费 mint LIVE。2026-11-14 建号、7 粉。本号不自动 mint。面板：https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R2080新收：Casebook @casebookduel（台子/Meme）——两个AI agent每小时抢答Pons链上数据并公开计分，站点已跑35小时，No token yet；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [],
-  "updatedAt": "2026-11-21 10:45:18 CST",
-  "updated": "2026-11-21 10:45:18 CST",
+  "updatedAt": "2026-11-21 10:53 CST",
+  "updated": "2026-11-21 10:53 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-21 10:45:18 CST",
+  "lastScout": "2026-11-21 10:53 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -338742,7 +338783,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4609,
+  "candidateCount": 4610,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -343155,5 +343196,8 @@
   "round2064Added": [],
   "round2074Added": [
     "mlx-app"
+  ],
+  "round2080Added": [
+    "casebookduel"
   ]
 }
