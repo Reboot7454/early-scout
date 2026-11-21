@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-22 00:04 CST",
+    "updated": "2026-11-22 01:01 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-22 00:04 CST",
+    "lastScout": "2026-11-22 01:01 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -861,7 +861,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2100,
+    "round": 2101,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2405,15 +2405,12 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "scotydotfun",
-      "sherunetwork",
-      "verireceipt0",
-      "plugpoint-protocol",
-      "giwa-fun",
-      "thecrimecandle",
-      "talviochain",
-      "usenook-app",
-      "platincoin-plt"
+      "foxville",
+      "orez",
+      "zerombies-vast",
+      "0xzer0-0",
+      "catto-bsc",
+      "floortax"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -5248,17 +5245,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-21 23:59",
-      "lastChecked": "2026-11-22 00:04 CST",
-      "newestCardTime": "2026-11-21 23:59",
-      "cardsAfterCutoff": 46,
-      "note": "R2100：Discord alpha 补收 scotydotfun,sherunetwork,verireceipt0,plugpoint-protocol,giwa-fun,thecrimecandle,talviochain,usenook-app,platincoin-plt；清 antebellrh,novaloop；lastSeen→2026-11-21 23:59；lastChecked→2026-11-22 00:04 CST",
-      "lastRound": 2100,
+      "lastSeen": "2026-11-22 00:56",
+      "lastChecked": "2026-11-22 01:01 CST",
+      "newestCardTime": "2026-11-22 00:56",
+      "cardsAfterCutoff": 44,
+      "note": "R2101：Discord alpha 补收 foxville,orez,zerombies-vast,0xzer0-0,catto-bsc,floortax；清 platincoin-plt,usenook-app,talviochain,thecrimecandle,giwa-fun,plugpoint-protocol,verireceipt0,sherunetwork,scotydotfun；lastSeen→2026-11-22 00:56；lastChecked→2026-11-22 01:01 CST",
+      "lastRound": 2101,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-21 23:59",
+        "alpha-3-new-accounts": "2026-11-22 00:56",
         "alpha-1-backup": "2026-11-21 22:14",
-        "smart-accounts-tracker": "2026-11-21 23:55",
-        "alpha-1": "2026-11-21 23:37"
+        "smart-accounts-tracker": "2026-11-22 00:31",
+        "alpha-1": "2026-11-22 00:54"
       }
     },
     "round239Added": [
@@ -48980,9 +48977,283 @@
       "talviochain",
       "usenook-app",
       "platincoin-plt"
+    ],
+    "round2101Added": [
+      "foxville",
+      "orez",
+      "zerombies-vast",
+      "0xzer0-0",
+      "catto-bsc",
+      "floortax"
     ]
   },
   "candidates": [
+    {
+      "id": "floortax",
+      "name": "FloorTax",
+      "handle": "@floortaxapp",
+      "twitter": "@floortaxapp",
+      "chain": "",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/floortaxapp"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 8,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.6
+      },
+      "highlights": [
+        "官网 floortax.app",
+        "代币 $FTAX",
+        "反狙击/地板税发射机制概念"
+      ],
+      "drawbacks": [
+        "粉丝为0，仅2条推文",
+        "机制与链未明",
+        "可信度待验证"
+      ],
+      "whatsNew": "新发射台 FloorTax 提出针对狙击者的 floor tax 机制，代币 $FTAX",
+      "summary": "极早期发射台项目，官网与 $FTAX 已出，主打反狙击地板机制，需持续跟踪验证。",
+      "blurb": "FloorTax 反狙击发射台，官网+$FTAX 已出，极早期。",
+      "round": 2101,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-22 01:01 CST",
+      "addedAt": "2026-11-22 01:01 CST",
+      "lastChecked": "2026-11-22 01:01 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "catto-bsc",
+      "name": "CATTO",
+      "handle": "@catto_bsc",
+      "twitter": "@catto_bsc",
+      "chain": "BSC",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/CATTO_BSC"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 8,
+        "novelty": 4,
+        "actionable": 5,
+        "overall": 5.9
+      },
+      "highlights": [
+        "BSC 合约地址 0x8e73...7777",
+        "有 Telegram 社区"
+      ],
+      "drawbacks": [
+        "粉丝极少，仅1条推文",
+        "无流动性/锁仓信息",
+        "高跑路风险"
+      ],
+      "whatsNew": "新发 BSC Meme 币 $catto，附合约与 TG",
+      "summary": "刚创建的 BSC Meme 币 $catto，卡面含合约地址与 Telegram，属极早期打新观察对象。",
+      "blurb": "BSC 新 Meme $catto，合约+TG 已出，极早期。",
+      "round": 2101,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 2,
+      "xFollowers": 2,
+      "firstSeen": "2026-11-22 01:01 CST",
+      "addedAt": "2026-11-22 01:01 CST",
+      "lastChecked": "2026-11-22 01:01 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "0xzer0-0",
+      "name": "ZER0",
+      "handle": "@0xzer0_0",
+      "twitter": "@0xzer0_0",
+      "chain": "",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/0xZER0_0"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 5,
+        "novelty": 6,
+        "actionable": 7,
+        "overall": 6.4
+      },
+      "highlights": [
+        "8888 个 zero NFT + 游戏结算奖励机制",
+        "免费 allowlist 申请开放，官网 downtozero.site"
+      ],
+      "drawbacks": [
+        "账号自 6 月创建，非全新",
+        "粉丝基数小，机制细节未展开"
+      ],
+      "whatsNew": "免费 allowlist 开放中的 zero 主题 NFT 游戏",
+      "summary": "ZER0 是围绕 8888 个 zero NFT 的轻游戏项目，开放免费 allowlist，有官网与明确玩法。",
+      "blurb": "8888 zero NFT 游戏，免费 allowlist",
+      "round": 2101,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 324,
+      "xFollowers": 324,
+      "firstSeen": "2026-11-22 01:01 CST",
+      "addedAt": "2026-11-22 01:01 CST",
+      "lastChecked": "2026-11-22 01:01 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "zerombies-vast",
+      "name": "Zerombies Vast",
+      "handle": "@zerombiesvast",
+      "twitter": "@zerombiesvast",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/ZEROmbiesVast"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 6,
+        "overall": 5.8
+      },
+      "highlights": [
+        "游戏化 NFT 合集，有独立官网 zerombiesvast.fun"
+      ],
+      "drawbacks": [
+        "粉丝仅 342、推文 13，信息量小",
+        "LayerZero 生态归属为自称"
+      ],
+      "whatsNew": "新收录的游戏化 NFT 项目，挂 LZ 生态叙事",
+      "summary": "Zerombies Vast 是自称 LayerZero 生态首个游戏化 NFT 合集，已有官网，处于早期阶段。",
+      "blurb": "LZ 叙事游戏化 NFT，早期关注",
+      "round": 2101,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 342,
+      "xFollowers": 342,
+      "firstSeen": "2026-11-22 01:01 CST",
+      "addedAt": "2026-11-22 01:01 CST",
+      "lastChecked": "2026-11-22 01:01 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "orez",
+      "name": "Orez",
+      "handle": "@orezdotfun",
+      "twitter": "@orezdotfun",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/OrezDotFun"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 5,
+        "actionable": 5,
+        "overall": 5.6
+      },
+      "highlights": [
+        "自称 LayerZero Core Launchpad，发射台定位"
+      ],
+      "drawbacks": [
+        "无官网链接",
+        "粉丝 116、推文 18，产品未见落地",
+        "LZ 关联未核验"
+      ],
+      "whatsNew": "新出现的 LayerZero 发射台账号",
+      "summary": "Orez 自称 LayerZero Core 发射台，目前仅有账号与简介，产品与官网均未明。",
+      "blurb": "自称 LZ 发射台，未核验，留意后续上线",
+      "round": 2101,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 116,
+      "xFollowers": 116,
+      "firstSeen": "2026-11-22 01:01 CST",
+      "addedAt": "2026-11-22 01:01 CST",
+      "lastChecked": "2026-11-22 01:01 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "foxville",
+      "name": "Foxville",
+      "handle": "@foxvillenft",
+      "twitter": "@foxvillenft",
+      "chain": "Robinhood",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/FoxvilleNFT"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 6,
+        "overall": 6.1
+      },
+      "highlights": [
+        "4444 枚首发居民 NFT，绑定 Robinhood 生态叙事",
+        "已有官网 foxville.xyz"
+      ],
+      "drawbacks": [
+        "推文仅 4 条，团队与路线图信息不足",
+        "Robinhood 链生态尚不明确"
+      ],
+      "whatsNew": "新账号刚被收录，首次释放 4444 首发铸造线索",
+      "summary": "Foxville 是定位在 Robinhood 生态的 4444 枚 NFT 项目，有独立官网与账号，处于极早期铸造前阶段。",
+      "blurb": "4444 枚 Robinhood 生态首发 NFT，早期可关注",
+      "round": 2101,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1732,
+      "xFollowers": 1732,
+      "firstSeen": "2026-11-22 01:01 CST",
+      "addedAt": "2026-11-22 01:01 CST",
+      "lastChecked": "2026-11-22 01:01 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "platincoin-plt",
       "name": "Platincoin Protocol PLT",
@@ -49026,7 +49297,7 @@
       "addedAt": "2026-11-22 00:04 CST",
       "lastChecked": "2026-11-22 00:04 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "usenook-app",
@@ -49070,7 +49341,7 @@
       "addedAt": "2026-11-22 00:04 CST",
       "lastChecked": "2026-11-22 00:04 CST",
       "zoneHint": "打新",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "talviochain",
@@ -49114,7 +49385,7 @@
       "addedAt": "2026-11-22 00:04 CST",
       "lastChecked": "2026-11-22 00:04 CST",
       "zoneHint": "打新",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "thecrimecandle",
@@ -49158,7 +49429,7 @@
       "addedAt": "2026-11-22 00:04 CST",
       "lastChecked": "2026-11-22 00:04 CST",
       "zoneHint": "打新",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "giwa-fun",
@@ -49202,7 +49473,7 @@
       "addedAt": "2026-11-22 00:04 CST",
       "lastChecked": "2026-11-22 00:04 CST",
       "zoneHint": "打新",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "plugpoint-protocol",
@@ -49246,7 +49517,7 @@
       "addedAt": "2026-11-22 00:04 CST",
       "lastChecked": "2026-11-22 00:04 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "verireceipt0",
@@ -49290,7 +49561,7 @@
       "addedAt": "2026-11-22 00:04 CST",
       "lastChecked": "2026-11-22 00:04 CST",
       "zoneHint": "挖矿",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "sherunetwork",
@@ -49334,7 +49605,7 @@
       "addedAt": "2026-11-22 00:04 CST",
       "lastChecked": "2026-11-22 00:04 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "scotydotfun",
@@ -49378,7 +49649,7 @@
       "addedAt": "2026-11-22 00:04 CST",
       "lastChecked": "2026-11-22 00:04 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "antebellrh",
@@ -341845,28 +342116,25 @@
     }
   ],
   "newThisRound": [
-    "scotydotfun",
-    "sherunetwork",
-    "verireceipt0",
-    "plugpoint-protocol",
-    "giwa-fun",
-    "thecrimecandle",
-    "talviochain",
-    "usenook-app",
-    "platincoin-plt"
+    "foxville",
+    "orez",
+    "zerombies-vast",
+    "0xzer0-0",
+    "catto-bsc",
+    "floortax"
   ],
-  "alertMessage": "DC补漏R2100新收9：Scoty(@Scotydotfun Robinhood一句话发币台)、SHERU、VeriReceipt(挖矿)、PlugPoint、Giwa Fun(GIWA发射台)、THE Crime Candle(Base 666 NFT)、Talvio(BNB $TALV)、Nook(BNB锁仓)、Platincoin；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R2101新收Foxville等6个早期项目；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "stockbox",
     "chimi-giwa"
   ],
-  "updatedAt": "2026-11-22 00:04 CST",
-  "updated": "2026-11-22 00:04 CST",
+  "updatedAt": "2026-11-22 01:01 CST",
+  "updated": "2026-11-22 01:01 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-22 00:04 CST",
+  "lastScout": "2026-11-22 01:01 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -341908,7 +342176,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4658,
+  "candidateCount": 4664,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -346406,5 +346674,13 @@
     "talviochain",
     "usenook-app",
     "platincoin-plt"
+  ],
+  "round2101Added": [
+    "foxville",
+    "orez",
+    "zerombies-vast",
+    "0xzer0-0",
+    "catto-bsc",
+    "floortax"
   ]
 }
