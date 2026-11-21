@@ -1,0 +1,82 @@
+{
+  "round": 2108,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-22 07:58 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R2108新收1条：@tapefinancerwa（tapefinance，台子/Meme，Robinhood Chain极早期RWA执行层）；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "tapefinance"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "tapefinance"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 3,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "vintage-registry"
+  ],
+  "candidateFlagsCleared": 1,
+  "topNewThisRoundCleared": [
+    "vintage-registry"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=1",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-22 07:33",
+    "lastChecked": "2026-11-22 07:58 CST",
+    "newestCardTime": "2026-11-22 06:51",
+    "cardsAfterCutoff": 3,
+    "note": "R2108：Discord alpha 补收 tapefinance；清 vintage-registry；lastSeen→2026-11-22 07:33；lastChecked→2026-11-22 07:58 CST",
+    "lastRound": 2108,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-22 07:33",
+      "alpha-1-backup": "2026-11-22 07:33",
+      "smart-accounts-tracker": "2026-11-22 07:33",
+      "alpha-1": "2026-11-22 07:33"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R2108：Discord alpha 补收 tapefinance；清 vintage-registry；lastSeen→2026-11-22 07:33；lastChecked→2026-11-22 07:58 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_enriched_r2108.json",
+  "priorRoundNote": "R2107 meta NTR ['vintage-registry']; cardsAfterCutoff=3",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-22 07:33",
+    "alpha-1-backup": "2026-11-22 07:33",
+    "smart-accounts-tracker": "2026-11-22 07:33",
+    "alpha-1": "2026-11-22 07:33"
+  },
+  "cardsRead": 3,
+  "rejected": [
+    {
+      "handle": "@FusionCryptoAI",
+      "reason": "仅为AI行情信号/纸面交易工具，无发射、mint或链上产品线索，且属工具号而非项目方。"
+    },
+    {
+      "handle": "@Fine_coinerc",
+      "reason": "空壳Meme号，bio仅玩梗，无任何玩法、发射或产品线索。"
+    }
+  ],
+  "rejectedCount": 2,
+  "dsRejects": 2,
+  "admissions": [
+    {
+      "id": "tapefinance",
+      "handle": "@tapefinancerwa",
+      "category": "台子/Meme",
+      "name": "tapefinance"
+    }
+  ],
+  "alert": "DC补漏R2108新收1条：@tapefinancerwa（tapefinance，台子/Meme，Robinhood Chain极早期RWA执行层）；面板 https://reboot7454.github.io/early-scout/"
+}
