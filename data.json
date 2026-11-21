@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-22 06:01 CST",
+    "updated": "2026-11-22 06:54 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-22 06:01 CST",
+    "lastScout": "2026-11-22 06:54 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -861,7 +861,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2106,
+    "round": 2107,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2405,8 +2405,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "kalibr",
-      "hadal"
+      "vintage-registry"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -5241,17 +5240,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-22 05:57",
-      "lastChecked": "2026-11-22 06:01 CST",
+      "lastSeen": "2026-11-22 06:51",
+      "lastChecked": "2026-11-22 06:54 CST",
       "newestCardTime": "2026-11-22 05:57",
-      "cardsAfterCutoff": 5,
-      "note": "R2106：Discord alpha 补收 kalibr,hadal；清 stash-labs,interpres,zerolux,zynko；lastSeen→2026-11-22 05:57；lastChecked→2026-11-22 06:01 CST",
-      "lastRound": 2106,
+      "cardsAfterCutoff": 3,
+      "note": "R2107：Discord alpha 补收 vintage-registry；清 hadal,kalibr；lastSeen→2026-11-22 06:44；lastChecked→2026-11-22 06:54 CST",
+      "lastRound": 2107,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-22 05:57",
+        "alpha-3-new-accounts": "2026-11-22 06:51",
         "alpha-1-backup": "2026-11-22 05:44",
-        "smart-accounts-tracker": "2026-11-22 05:46",
-        "alpha-1": "2026-11-22 05:54"
+        "smart-accounts-tracker": "2026-11-22 06:20",
+        "alpha-1": "2026-11-22 06:37"
       }
     },
     "round239Added": [
@@ -49012,9 +49011,60 @@
     "round2106Added": [
       "kalibr",
       "hadal"
+    ],
+    "round2107Added": [
+      "vintage-registry"
     ]
   },
   "candidates": [
+    {
+      "id": "vintage-registry",
+      "name": "Vintage Registry",
+      "handle": "@vintageregistry",
+      "twitter": "@vintageregistry",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/VintageRegistry",
+        "web": "https://vintageregistry.xyz"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 5,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 6.7
+      },
+      "highlights": [
+        "Telegram Mini App",
+        "Robinhood Chain",
+        "账号年龄转AGE积分",
+        "有独立官网"
+      ],
+      "drawbacks": [
+        "粉丝极少",
+        "团队与项目细节未披露",
+        "积分价值待验证"
+      ],
+      "whatsNew": "新近出现的Telegram Mini App，按X账号年龄估算生成AGE积分，并与Robinhood Chain关联。",
+      "summary": "极早期账号年龄积分Mini App，独立推特与官网齐全，产品线索明确但信息披露仍少。",
+      "blurb": "Robinhood Chain上的账号年龄积分小游戏，适合早期观察。",
+      "round": 2107,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 19,
+      "xFollowers": 19,
+      "firstSeen": "2026-11-22 06:54 CST",
+      "addedAt": "2026-11-22 06:54 CST",
+      "lastChecked": "2026-11-22 06:54 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "hadal",
       "name": "Hadal",
@@ -49060,7 +49110,7 @@
       "addedAt": "2026-11-22 06:01 CST",
       "lastChecked": "2026-11-22 06:01 CST",
       "zoneHint": "打新",
-      "newThisRound": true,
+      "newThisRound": false,
       "ca": "B1P3oXhJNoQsRLqWGGkXgowRtHuXrR8CQrHsgfk3UAKS",
       "caUnverified": true
     },
@@ -49109,7 +49159,7 @@
       "addedAt": "2026-11-22 06:01 CST",
       "lastChecked": "2026-11-22 06:01 CST",
       "zoneHint": "打新",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "stash-labs",
@@ -343098,21 +343148,20 @@
     }
   ],
   "newThisRound": [
-    "kalibr",
-    "hadal"
+    "vintage-registry"
   ],
-  "alertMessage": "DC补漏R2106新收 KALIBR、Hadal；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R2107新收：Vintage Registry（@VintageRegistry，台子/Meme，Robinhood Chain账号年龄积分）；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "stockbox",
     "chimi-giwa"
   ],
-  "updatedAt": "2026-11-22 06:01 CST",
-  "updated": "2026-11-22 06:01 CST",
+  "updatedAt": "2026-11-22 06:54 CST",
+  "updated": "2026-11-22 06:54 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-22 06:01 CST",
+  "lastScout": "2026-11-22 06:54 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -343154,7 +343203,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4685,
+  "candidateCount": 4686,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -347691,5 +347740,8 @@
   "round2106Added": [
     "kalibr",
     "hadal"
+  ],
+  "round2107Added": [
+    "vintage-registry"
   ]
 }

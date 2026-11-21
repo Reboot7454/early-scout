@@ -1,0 +1,84 @@
+{
+  "round": 2107,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-22 06:54 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R2107新收：Vintage Registry（@VintageRegistry，台子/Meme，Robinhood Chain账号年龄积分）；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "vintage-registry"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "vintage-registry"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 3,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "hadal",
+    "kalibr"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "hadal",
+    "kalibr"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=1",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-22 06:51",
+    "lastChecked": "2026-11-22 06:54 CST",
+    "newestCardTime": "2026-11-22 05:57",
+    "cardsAfterCutoff": 3,
+    "note": "R2107：Discord alpha 补收 vintage-registry；清 hadal,kalibr；lastSeen→2026-11-22 06:44；lastChecked→2026-11-22 06:54 CST",
+    "lastRound": 2107,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-22 06:51",
+      "alpha-1-backup": "2026-11-22 05:44",
+      "smart-accounts-tracker": "2026-11-22 06:20",
+      "alpha-1": "2026-11-22 06:37"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R2107：Discord alpha 补收 vintage-registry；清 hadal,kalibr；lastSeen→2026-11-22 06:44；lastChecked→2026-11-22 06:54 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_enriched_r2107.json",
+  "priorRoundNote": "R2106 meta NTR ['kalibr', 'hadal']; cardsAfterCutoff=3",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-22 06:51",
+    "alpha-1-backup": "2026-11-22 05:44",
+    "smart-accounts-tracker": "2026-11-22 06:20",
+    "alpha-1": "2026-11-22 06:37"
+  },
+  "cardsRead": 3,
+  "rejected": [
+    {
+      "handle": "@yashtamemecoin",
+      "reason": "纯Solana meme币喊单账号，仅给CA，无产品、玩法或可信社区线索。"
+    },
+    {
+      "handle": "@ZKEdgeMarkets",
+      "reason": "0推文且CA Coming Soon，无实际产品，属空壳概念号。"
+    }
+  ],
+  "rejectedCount": 2,
+  "dsRejects": 2,
+  "admissions": [
+    {
+      "id": "vintage-registry",
+      "handle": "@VintageRegistry",
+      "category": "台子/Meme",
+      "name": "Vintage Registry"
+    }
+  ],
+  "alert": "DC补漏R2107新收：Vintage Registry（@VintageRegistry，台子/Meme，Robinhood Chain账号年龄积分）；面板 https://reboot7454.github.io/early-scout/"
+}
