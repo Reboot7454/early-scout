@@ -1,0 +1,983 @@
+{
+ "loginOk": true,
+ "timezone": "Asia/Shanghai",
+ "scannedAtCST": "2026-11-21 16:10",
+ "newestByChannel": {
+  "alpha-3-new-accounts": "2026-11-21 15:59",
+  "alpha-1-backup": "2026-11-21 14:14",
+  "smart-accounts-tracker": "2026-11-21 15:03",
+  "alpha-1": "2026-11-21 15:44"
+ },
+ "newestVisibleTime": "2026-11-21 15:59",
+ "lastSeenByChannelCutoff": {
+  "alpha-3-new-accounts": "2026-11-21 14:57",
+  "alpha-1-backup": "2026-11-21 14:14",
+  "smart-accounts-tracker": "2026-11-21 14:13",
+  "alpha-1": "2026-11-21 14:51"
+ },
+ "oldestReachedByChannel": {
+  "alpha-3-new-accounts": "2026-11-21 14:17",
+  "alpha-1-backup": "2026-11-21 13:14 or earlier (newest card 14:14 = cutoff)",
+  "smart-accounts-tracker": "2026-11-21 13:13 or earlier",
+  "alpha-1": "2026-11-21 14:51 (cutoff card)"
+ },
+ "cappedByChannel": {
+  "alpha-3-new-accounts": false,
+  "alpha-1-backup": false,
+  "smart-accounts-tracker": false,
+  "alpha-1": false
+ },
+ "passedCutoffByChannel": {
+  "alpha-3-new-accounts": true,
+  "alpha-1-backup": true,
+  "smart-accounts-tracker": true,
+  "alpha-1": true
+ },
+ "gapIncomplete": false,
+ "spideyPosting": true,
+ "cardsAfterCutoff": 33,
+ "cardsReadApprox": 33,
+ "note": "R2092 DC alpha peek; incremental after lastSeen 14:57/14:14/14:13/14:51; repo at R2091; this DC working label=R2092, bump if remote advanced before apply. Scraped visually via DOM text (browser Discord displays UTC-5; converted +13h to CST). Alpha-3 is New-follower embed format; smart-accounts-tracker is X Follow Monitor format; alpha-1 is Spidey Bot / Twitter Follow Monitor format.",
+ "newCards": [
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@RaynieHustle",
+   "name": "Raynie Hustle",
+   "followers": 10,
+   "following": 9,
+   "followerOf": "@ethereum",
+   "links": [
+    "https://x.com/RaynieHustle"
+   ],
+   "cardTimeCST": "2026-11-21 15:32",
+   "time": "2026-11-21 15:32",
+   "snippet": "Just browsing social media makes me feel like I'm not alone. I'm an AirDrop hunter..."
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@CYPHRPNKSTUDIOS",
+   "name": "CYPHΞRPUNK STUDIOS",
+   "followers": 2,
+   "following": 29,
+   "followerOf": "@ethereum",
+   "links": [
+    "https://x.com/CYPHRPNKSTUDIOS"
+   ],
+   "cardTimeCST": "2026-11-21 15:34",
+   "time": "2026-11-21 15:34",
+   "snippet": "ART, ENTERTAINMENT, TECHNOLOGY, AND CULTURE STUDIO."
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@KYCtll",
+   "name": "KYC卖家",
+   "followers": 0,
+   "following": 68,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/KYCtll"
+   ],
+   "cardTimeCST": "2026-11-21 15:35",
+   "time": "2026-11-21 15:35",
+   "snippet": "新币上市清单 KYC seller"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@lzErfan",
+   "name": "lzErfan",
+   "followers": 0,
+   "following": 5,
+   "followerOf": "@LayerZero_Core",
+   "links": [
+    "https://x.com/lzErfan"
+   ],
+   "cardTimeCST": "2026-11-21 15:35",
+   "time": "2026-11-21 15:35",
+   "snippet": "The penguin does not concern himself with the opinions of Skuas."
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@mahmudulu4",
+   "name": "Blueberry",
+   "followers": 1,
+   "following": 203,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/mahmudulu4"
+   ],
+   "cardTimeCST": "2026-11-21 15:37",
+   "time": "2026-11-21 15:37",
+   "snippet": "Crypto learner | Web3 explorer"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@smshajib1123",
+   "name": "S M Shajib Ahamed",
+   "followers": 0,
+   "following": 5,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/smshajib1123"
+   ],
+   "cardTimeCST": "2026-11-21 15:37",
+   "time": "2026-11-21 15:37",
+   "snippet": "prs_eb5030"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@memesightt",
+   "name": "MEMESIGHT",
+   "followers": 11,
+   "following": 6,
+   "followerOf": "@robinhoodcrypto",
+   "links": [
+    "https://x.com/memesightt"
+   ],
+   "cardTimeCST": "2026-11-21 15:43",
+   "time": "2026-11-21 15:43",
+   "snippet": "Crypto & Web3 Intelligence; tracking market signals, memecoin culture"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@memesightt",
+   "name": "MEMESIGHT",
+   "followers": 11,
+   "following": 7,
+   "followerOf": "@robinhoodapp",
+   "links": [
+    "https://x.com/memesightt"
+   ],
+   "cardTimeCST": "2026-11-21 15:43",
+   "time": "2026-11-21 15:43",
+   "snippet": "Crypto & Web3 Intelligence; tracking market signals, memecoin culture"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@CrankingO",
+   "name": "JigglyJoe",
+   "followers": 5,
+   "following": 119,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/CrankingO"
+   ],
+   "cardTimeCST": "2026-11-21 15:45",
+   "time": "2026-11-21 15:45",
+   "snippet": "Run for pinks"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@xiangshuwurz",
+   "name": "xiangshuwu$高财升",
+   "followers": 0,
+   "following": 10,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/xiangshuwurz"
+   ],
+   "cardTimeCST": "2026-11-21 15:45",
+   "time": "2026-11-21 15:45",
+   "snippet": "Bitter ends, sweet comes at last"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@hasanaktas661",
+   "name": "aktas abdullah",
+   "followers": 0,
+   "following": 23,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/hasanaktas661"
+   ],
+   "cardTimeCST": "2026-11-21 15:49",
+   "time": "2026-11-21 15:49",
+   "snippet": "arbeiter"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@xuyanbo666",
+   "name": "Rocks",
+   "followers": 3,
+   "following": 147,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/xuyanbo666"
+   ],
+   "cardTimeCST": "2026-11-21 15:49",
+   "time": "2026-11-21 15:49",
+   "snippet": "农民工"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@jiaoren5",
+   "name": "jiaoren",
+   "followers": 4,
+   "following": 73,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/jiaoren5"
+   ],
+   "cardTimeCST": "2026-11-21 15:57",
+   "time": "2026-11-21 15:57",
+   "snippet": "jiaren"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@twon_token",
+   "name": "TON WON",
+   "followers": 0,
+   "following": 1,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/twon_token"
+   ],
+   "cardTimeCST": "2026-11-21 15:57",
+   "time": "2026-11-21 15:57",
+   "snippet": "TON WON OFFICIAL TWITTER"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@Hoodrith",
+   "name": "HoodRith",
+   "followers": 0,
+   "following": 3,
+   "followerOf": "@opensea",
+   "links": [
+    "https://x.com/Hoodrith"
+   ],
+   "cardTimeCST": "2026-11-21 15:59",
+   "time": "2026-11-21 15:59",
+   "snippet": "Carved in stone. 777 Hoodriths keeping watch on Robinhood Chain"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@Hoodrith",
+   "name": "HoodRith",
+   "followers": 0,
+   "following": 3,
+   "followerOf": "@robinhoodcrypto",
+   "links": [
+    "https://x.com/Hoodrith"
+   ],
+   "cardTimeCST": "2026-11-21 15:59",
+   "time": "2026-11-21 15:59",
+   "snippet": "Carved in stone. 777 Hoodriths keeping watch on Robinhood Chain"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@Shnappie1",
+   "name": "Chnay Krafft",
+   "followers": 12,
+   "following": 45,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/Shnappie1"
+   ],
+   "cardTimeCST": "2026-11-21 15:01",
+   "time": "2026-11-21 15:01",
+   "snippet": "Child of God"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@CytaOfAfricaX",
+   "name": "Cyta Of Africa",
+   "followers": 0,
+   "following": 40,
+   "followerOf": "@opensea",
+   "links": [
+    "https://x.com/CytaOfAfricaX"
+   ],
+   "cardTimeCST": "2026-11-21 15:05",
+   "time": "2026-11-21 15:05",
+   "snippet": "BESPOKE EMYNO's DESIGNS AND MELODIES"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@NeedTrueus",
+   "name": "深圳李宁家属",
+   "followers": 0,
+   "following": 3,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/NeedTrueus"
+   ],
+   "cardTimeCST": "2026-11-21 15:05",
+   "time": "2026-11-21 15:05",
+   "snippet": "深圳李宁家属"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@aarav_abhi06",
+   "name": "Abhishek Aarav",
+   "followers": 0,
+   "following": 24,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/aarav_abhi06"
+   ],
+   "cardTimeCST": "2026-11-21 15:05",
+   "time": "2026-11-21 15:05",
+   "snippet": "Invester FX stay delusional"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@BGoboom",
+   "name": "小花",
+   "followers": 3,
+   "following": 67,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/BGoboom"
+   ],
+   "cardTimeCST": "2026-11-21 15:07",
+   "time": "2026-11-21 15:07",
+   "snippet": "加我@899nb聊天号探讨人生"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@BGoboom",
+   "name": "小花",
+   "followers": 3,
+   "following": 67,
+   "followerOf": "@ethereum",
+   "links": [
+    "https://x.com/BGoboom"
+   ],
+   "cardTimeCST": "2026-11-21 15:07",
+   "time": "2026-11-21 15:07",
+   "snippet": "加我@899nb聊天号探讨人生"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@Kabirnm5c",
+   "name": "katt",
+   "followers": 1,
+   "following": 8,
+   "followerOf": "@ethereum",
+   "links": [
+    "https://x.com/Kabirnm5c"
+   ],
+   "cardTimeCST": "2026-11-21 15:09",
+   "time": "2026-11-21 15:09",
+   "snippet": "life's good"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@dimasprasetyoon",
+   "name": "Dimas Prasetyo",
+   "followers": 0,
+   "following": 1,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/dimasprasetyoon"
+   ],
+   "cardTimeCST": "2026-11-21 15:11",
+   "time": "2026-11-21 15:11",
+   "snippet": "Suka teknologi, musik, dan olahraga. Jakarta."
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@dagecnmb",
+   "name": "Silence",
+   "followers": 3,
+   "following": 97,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/dagecnmb"
+   ],
+   "cardTimeCST": "2026-11-21 15:13",
+   "time": "2026-11-21 15:13",
+   "snippet": "强者 自强主义信奉者"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@kradlxyz",
+   "name": "Kradl",
+   "followers": 9,
+   "following": 20,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/kradlxyz"
+   ],
+   "cardTimeCST": "2026-11-21 15:25",
+   "time": "2026-11-21 15:25",
+   "snippet": "Non-custodial app & project launchpad on Robinhood Chain & Base. 0.5% ETH builder fee + on-chain vesting vault."
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@antonhusak_",
+   "name": "Anton Husak",
+   "followers": 6,
+   "following": 37,
+   "followerOf": "@ethereum",
+   "links": [
+    "https://x.com/antonhusak_"
+   ],
+   "cardTimeCST": "2026-11-21 15:28",
+   "time": "2026-11-21 15:28",
+   "snippet": "DON'T TREAD ON ME"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@wa1thaka_",
+   "name": "The data guy",
+   "followers": 0,
+   "following": 12,
+   "followerOf": "@ethereum",
+   "links": [
+    "https://x.com/wa1thaka_"
+   ],
+   "cardTimeCST": "2026-11-21 15:29",
+   "time": "2026-11-21 15:29",
+   "snippet": "Who dares wins."
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@zoriku_",
+   "name": "Sensei Zoriku",
+   "followers": 2,
+   "following": 6,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/zoriku_"
+   ],
+   "cardTimeCST": "2026-11-21 15:31",
+   "time": "2026-11-21 15:31",
+   "snippet": "Tracking threats, uncovering suspicious activity in Web3."
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@AsymmetricBets6",
+   "name": "Asymmetric Bets",
+   "followers": 0,
+   "following": 45,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/AsymmetricBets6"
+   ],
+   "cardTimeCST": "2026-11-21 15:31",
+   "time": "2026-11-21 15:31",
+   "snippet": "Travel light. Bet asymmetric."
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@basemtkn",
+   "name": "basem",
+   "followers": 0,
+   "following": 8,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/basemtkn"
+   ],
+   "cardTimeCST": "2026-11-21 15:31",
+   "time": "2026-11-21 15:31",
+   "snippet": "great day"
+  },
+  {
+   "channel": "smart-accounts-tracker",
+   "handle": "@MPelletierCIO",
+   "name": "Martin Pelletier",
+   "followers": 82439,
+   "following": 4639,
+   "followerOf": "@Alphaseeker21",
+   "links": [
+    "https://x.com/MPelletierCIO"
+   ],
+   "cardTimeCST": "2026-11-21 15:03",
+   "time": "2026-11-21 15:03",
+   "snippet": "Fund/Portfolio Manager @TWC_TriVest | Financial Columnist (mature account)"
+  },
+  {
+   "channel": "alpha-1",
+   "handle": "@meetmotes",
+   "name": "Motes",
+   "followers": 10968,
+   "following": 9,
+   "followerOf": "@BagKonaNFT",
+   "links": [
+    "https://x.com/meetmotes"
+   ],
+   "cardTimeCST": "2026-11-21 15:44",
+   "time": "2026-11-21 15:44",
+   "snippet": "AI-native financial infrastructure connecting DeFi, autonomous execution and onchain markets, powered by @Polymarket and $MOTES"
+  }
+ ],
+ "cards": [
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@RaynieHustle",
+   "name": "Raynie Hustle",
+   "followers": 10,
+   "following": 9,
+   "followerOf": "@ethereum",
+   "links": [
+    "https://x.com/RaynieHustle"
+   ],
+   "cardTimeCST": "2026-11-21 15:32",
+   "time": "2026-11-21 15:32",
+   "snippet": "Just browsing social media makes me feel like I'm not alone. I'm an AirDrop hunter..."
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@CYPHRPNKSTUDIOS",
+   "name": "CYPHΞRPUNK STUDIOS",
+   "followers": 2,
+   "following": 29,
+   "followerOf": "@ethereum",
+   "links": [
+    "https://x.com/CYPHRPNKSTUDIOS"
+   ],
+   "cardTimeCST": "2026-11-21 15:34",
+   "time": "2026-11-21 15:34",
+   "snippet": "ART, ENTERTAINMENT, TECHNOLOGY, AND CULTURE STUDIO."
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@KYCtll",
+   "name": "KYC卖家",
+   "followers": 0,
+   "following": 68,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/KYCtll"
+   ],
+   "cardTimeCST": "2026-11-21 15:35",
+   "time": "2026-11-21 15:35",
+   "snippet": "新币上市清单 KYC seller"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@lzErfan",
+   "name": "lzErfan",
+   "followers": 0,
+   "following": 5,
+   "followerOf": "@LayerZero_Core",
+   "links": [
+    "https://x.com/lzErfan"
+   ],
+   "cardTimeCST": "2026-11-21 15:35",
+   "time": "2026-11-21 15:35",
+   "snippet": "The penguin does not concern himself with the opinions of Skuas."
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@mahmudulu4",
+   "name": "Blueberry",
+   "followers": 1,
+   "following": 203,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/mahmudulu4"
+   ],
+   "cardTimeCST": "2026-11-21 15:37",
+   "time": "2026-11-21 15:37",
+   "snippet": "Crypto learner | Web3 explorer"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@smshajib1123",
+   "name": "S M Shajib Ahamed",
+   "followers": 0,
+   "following": 5,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/smshajib1123"
+   ],
+   "cardTimeCST": "2026-11-21 15:37",
+   "time": "2026-11-21 15:37",
+   "snippet": "prs_eb5030"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@memesightt",
+   "name": "MEMESIGHT",
+   "followers": 11,
+   "following": 6,
+   "followerOf": "@robinhoodcrypto",
+   "links": [
+    "https://x.com/memesightt"
+   ],
+   "cardTimeCST": "2026-11-21 15:43",
+   "time": "2026-11-21 15:43",
+   "snippet": "Crypto & Web3 Intelligence; tracking market signals, memecoin culture"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@memesightt",
+   "name": "MEMESIGHT",
+   "followers": 11,
+   "following": 7,
+   "followerOf": "@robinhoodapp",
+   "links": [
+    "https://x.com/memesightt"
+   ],
+   "cardTimeCST": "2026-11-21 15:43",
+   "time": "2026-11-21 15:43",
+   "snippet": "Crypto & Web3 Intelligence; tracking market signals, memecoin culture"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@CrankingO",
+   "name": "JigglyJoe",
+   "followers": 5,
+   "following": 119,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/CrankingO"
+   ],
+   "cardTimeCST": "2026-11-21 15:45",
+   "time": "2026-11-21 15:45",
+   "snippet": "Run for pinks"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@xiangshuwurz",
+   "name": "xiangshuwu$高财升",
+   "followers": 0,
+   "following": 10,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/xiangshuwurz"
+   ],
+   "cardTimeCST": "2026-11-21 15:45",
+   "time": "2026-11-21 15:45",
+   "snippet": "Bitter ends, sweet comes at last"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@hasanaktas661",
+   "name": "aktas abdullah",
+   "followers": 0,
+   "following": 23,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/hasanaktas661"
+   ],
+   "cardTimeCST": "2026-11-21 15:49",
+   "time": "2026-11-21 15:49",
+   "snippet": "arbeiter"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@xuyanbo666",
+   "name": "Rocks",
+   "followers": 3,
+   "following": 147,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/xuyanbo666"
+   ],
+   "cardTimeCST": "2026-11-21 15:49",
+   "time": "2026-11-21 15:49",
+   "snippet": "农民工"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@jiaoren5",
+   "name": "jiaoren",
+   "followers": 4,
+   "following": 73,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/jiaoren5"
+   ],
+   "cardTimeCST": "2026-11-21 15:57",
+   "time": "2026-11-21 15:57",
+   "snippet": "jiaren"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@twon_token",
+   "name": "TON WON",
+   "followers": 0,
+   "following": 1,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/twon_token"
+   ],
+   "cardTimeCST": "2026-11-21 15:57",
+   "time": "2026-11-21 15:57",
+   "snippet": "TON WON OFFICIAL TWITTER"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@Hoodrith",
+   "name": "HoodRith",
+   "followers": 0,
+   "following": 3,
+   "followerOf": "@opensea",
+   "links": [
+    "https://x.com/Hoodrith"
+   ],
+   "cardTimeCST": "2026-11-21 15:59",
+   "time": "2026-11-21 15:59",
+   "snippet": "Carved in stone. 777 Hoodriths keeping watch on Robinhood Chain"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@Hoodrith",
+   "name": "HoodRith",
+   "followers": 0,
+   "following": 3,
+   "followerOf": "@robinhoodcrypto",
+   "links": [
+    "https://x.com/Hoodrith"
+   ],
+   "cardTimeCST": "2026-11-21 15:59",
+   "time": "2026-11-21 15:59",
+   "snippet": "Carved in stone. 777 Hoodriths keeping watch on Robinhood Chain"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@Shnappie1",
+   "name": "Chnay Krafft",
+   "followers": 12,
+   "following": 45,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/Shnappie1"
+   ],
+   "cardTimeCST": "2026-11-21 15:01",
+   "time": "2026-11-21 15:01",
+   "snippet": "Child of God"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@CytaOfAfricaX",
+   "name": "Cyta Of Africa",
+   "followers": 0,
+   "following": 40,
+   "followerOf": "@opensea",
+   "links": [
+    "https://x.com/CytaOfAfricaX"
+   ],
+   "cardTimeCST": "2026-11-21 15:05",
+   "time": "2026-11-21 15:05",
+   "snippet": "BESPOKE EMYNO's DESIGNS AND MELODIES"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@NeedTrueus",
+   "name": "深圳李宁家属",
+   "followers": 0,
+   "following": 3,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/NeedTrueus"
+   ],
+   "cardTimeCST": "2026-11-21 15:05",
+   "time": "2026-11-21 15:05",
+   "snippet": "深圳李宁家属"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@aarav_abhi06",
+   "name": "Abhishek Aarav",
+   "followers": 0,
+   "following": 24,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/aarav_abhi06"
+   ],
+   "cardTimeCST": "2026-11-21 15:05",
+   "time": "2026-11-21 15:05",
+   "snippet": "Invester FX stay delusional"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@BGoboom",
+   "name": "小花",
+   "followers": 3,
+   "following": 67,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/BGoboom"
+   ],
+   "cardTimeCST": "2026-11-21 15:07",
+   "time": "2026-11-21 15:07",
+   "snippet": "加我@899nb聊天号探讨人生"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@BGoboom",
+   "name": "小花",
+   "followers": 3,
+   "following": 67,
+   "followerOf": "@ethereum",
+   "links": [
+    "https://x.com/BGoboom"
+   ],
+   "cardTimeCST": "2026-11-21 15:07",
+   "time": "2026-11-21 15:07",
+   "snippet": "加我@899nb聊天号探讨人生"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@Kabirnm5c",
+   "name": "katt",
+   "followers": 1,
+   "following": 8,
+   "followerOf": "@ethereum",
+   "links": [
+    "https://x.com/Kabirnm5c"
+   ],
+   "cardTimeCST": "2026-11-21 15:09",
+   "time": "2026-11-21 15:09",
+   "snippet": "life's good"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@dimasprasetyoon",
+   "name": "Dimas Prasetyo",
+   "followers": 0,
+   "following": 1,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/dimasprasetyoon"
+   ],
+   "cardTimeCST": "2026-11-21 15:11",
+   "time": "2026-11-21 15:11",
+   "snippet": "Suka teknologi, musik, dan olahraga. Jakarta."
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@dagecnmb",
+   "name": "Silence",
+   "followers": 3,
+   "following": 97,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/dagecnmb"
+   ],
+   "cardTimeCST": "2026-11-21 15:13",
+   "time": "2026-11-21 15:13",
+   "snippet": "强者 自强主义信奉者"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@kradlxyz",
+   "name": "Kradl",
+   "followers": 9,
+   "following": 20,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/kradlxyz"
+   ],
+   "cardTimeCST": "2026-11-21 15:25",
+   "time": "2026-11-21 15:25",
+   "snippet": "Non-custodial app & project launchpad on Robinhood Chain & Base. 0.5% ETH builder fee + on-chain vesting vault."
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@antonhusak_",
+   "name": "Anton Husak",
+   "followers": 6,
+   "following": 37,
+   "followerOf": "@ethereum",
+   "links": [
+    "https://x.com/antonhusak_"
+   ],
+   "cardTimeCST": "2026-11-21 15:28",
+   "time": "2026-11-21 15:28",
+   "snippet": "DON'T TREAD ON ME"
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@wa1thaka_",
+   "name": "The data guy",
+   "followers": 0,
+   "following": 12,
+   "followerOf": "@ethereum",
+   "links": [
+    "https://x.com/wa1thaka_"
+   ],
+   "cardTimeCST": "2026-11-21 15:29",
+   "time": "2026-11-21 15:29",
+   "snippet": "Who dares wins."
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@zoriku_",
+   "name": "Sensei Zoriku",
+   "followers": 2,
+   "following": 6,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/zoriku_"
+   ],
+   "cardTimeCST": "2026-11-21 15:31",
+   "time": "2026-11-21 15:31",
+   "snippet": "Tracking threats, uncovering suspicious activity in Web3."
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@AsymmetricBets6",
+   "name": "Asymmetric Bets",
+   "followers": 0,
+   "following": 45,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/AsymmetricBets6"
+   ],
+   "cardTimeCST": "2026-11-21 15:31",
+   "time": "2026-11-21 15:31",
+   "snippet": "Travel light. Bet asymmetric."
+  },
+  {
+   "channel": "alpha-3-new-accounts",
+   "handle": "@basemtkn",
+   "name": "basem",
+   "followers": 0,
+   "following": 8,
+   "followerOf": "@binance",
+   "links": [
+    "https://x.com/basemtkn"
+   ],
+   "cardTimeCST": "2026-11-21 15:31",
+   "time": "2026-11-21 15:31",
+   "snippet": "great day"
+  },
+  {
+   "channel": "smart-accounts-tracker",
+   "handle": "@MPelletierCIO",
+   "name": "Martin Pelletier",
+   "followers": 82439,
+   "following": 4639,
+   "followerOf": "@Alphaseeker21",
+   "links": [
+    "https://x.com/MPelletierCIO"
+   ],
+   "cardTimeCST": "2026-11-21 15:03",
+   "time": "2026-11-21 15:03",
+   "snippet": "Fund/Portfolio Manager @TWC_TriVest | Financial Columnist (mature account)"
+  },
+  {
+   "channel": "alpha-1",
+   "handle": "@meetmotes",
+   "name": "Motes",
+   "followers": 10968,
+   "following": 9,
+   "followerOf": "@BagKonaNFT",
+   "links": [
+    "https://x.com/meetmotes"
+   ],
+   "cardTimeCST": "2026-11-21 15:44",
+   "time": "2026-11-21 15:44",
+   "snippet": "AI-native financial infrastructure connecting DeFi, autonomous execution and onchain markets, powered by @Polymarket and $MOTES"
+  }
+ ],
+ "channelStatus": {
+  "alpha-3-new-accounts": "ok, 31 new",
+  "alpha-1-backup": "ok, 0 new (newest 14:14 = cutoff, excluded)",
+  "smart-accounts-tracker": "ok, 1 new",
+  "alpha-1": "ok, 1 new (Spidey Bot active)"
+ },
+ "countsByChannel": {
+  "alpha-3-new-accounts": 31,
+  "alpha-1-backup": 0,
+  "smart-accounts-tracker": 1,
+  "alpha-1": 1
+ },
+ "alpha3OlderGap": "prior unfilled ranges out of scope: alpha-3 2026-11-15 03:22→2026-11-20 02:20; backup 2026-11-15 02:04→2026-11-15 14:04; smart 2026-11-15 03:26→2026-11-18 12:38; alpha-1 2026-11-15 02:59→2026-11-18 05:37",
+ "backlogGap": "prior unfilled ranges out of scope: alpha-3 2026-11-15 03:22→2026-11-20 02:20; backup 2026-11-15 02:04→2026-11-15 14:04; smart 2026-11-15 03:26→2026-11-18 12:38; alpha-1 2026-11-15 02:59→2026-11-18 05:37"
+}
