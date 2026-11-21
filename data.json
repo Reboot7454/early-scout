@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-21 10:53 CST",
+    "updated": "2026-11-21 11:40:05 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-21 11:12:19 CST",
+    "lastScout": "2026-11-21 11:40:05 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -859,7 +859,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2081,
+    "round": 2082,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2402,7 +2402,9 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "plastic-only"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -5241,11 +5243,11 @@
     "discordAlphaPeek": {
       "deferred": true,
       "lastSeen": "2026-11-21 10:49",
-      "lastChecked": "2026-11-21 11:12:19 CST",
+      "lastChecked": "2026-11-21 11:40:05 CST",
       "newestCardTime": "2026-11-21 10:00",
       "cardsAfterCutoff": 13,
-      "note": "R2080：DC 增量 Peek（box Discord 已登录，R2079 登录墙未复现），cards 13（alpha-3 13/backup 0/smart 0/alpha-1 0），补收 casebookduel（RH 链 AI agent 每小时链上答题对决，无币）；拒 MultiVaultPro（抗量子多签金库仅喊即将上线、无官网）及个人号。11/15–11/18 积压仍不在增量范围。",
-      "lastRound": 2080,
+      "note": "R2082 computerUse 遇登录墙（Welcome back / Email or Phone Number / Log In / QR / passkey），landed https://discord.com/login?redirect_to=%2Fchannels%2F1502958818865188956%2F1549303534263214160（#alpha-1-backup）。loginOk=false，未填凭据、未扫码、未打开其它频道，cards=0。lastSeen 未改：alpha-3 10:49 / backup 08:29 / smart 10:00 / alpha-1 09:39 CST。backup 仍最落后。11/15-11/18 积压仍未清。须父代理请用户在盒子 Chrome 登录 Discord 后同一轮补增量 Peek。 cutoff 仍用 R2080：{\"alpha-3-new-accounts\": \"2026-11-21 10:49\", \"alpha-1-backup\": \"2026-11-21 08:29\", \"smart-accounts-tracker\": \"2026-11-21 10:00\", \"alpha-1\": \"2026-11-21 09:39\"}",
+      "lastRound": 2082,
       "lastSeenByChannel": {
         "alpha-3-new-accounts": "2026-11-21 10:49",
         "alpha-1-backup": "2026-11-21 08:29",
@@ -11930,7 +11932,7 @@
       "unison-room",
       "minpentai"
     ],
-    "discordPeekNote": "R2073 computerUse 遇登录墙（Welcome back / Email or Phone Number / Log In / QR / passkey），landed https://discord.com/login?redirect_to=%2Fchannels%2F1502958818865188956%2F1537897411668746302。loginOk=false，未填凭据、未扫码。4 频道均未打开，cards=0。lastSeen 未改：alpha-3 07:59 / backup 06:59 / smart 08:00 / alpha-1 07:45 CST。11/15–11/18 积压仍未清。须父代理同一轮补增量 Peek。",
+    "discordPeekNote": "R2082 computerUse 遇登录墙（Welcome back / Email or Phone Number / Log In / QR / passkey），landed https://discord.com/login?redirect_to=%2Fchannels%2F1502958818865188956%2F1549303534263214160（#alpha-1-backup）。loginOk=false，未填凭据、未扫码、未打开其它频道，cards=0。lastSeen 未改：alpha-3 10:49 / backup 08:29 / smart 10:00 / alpha-1 09:39 CST。backup 仍最落后。11/15-11/18 积压仍未清。须父代理请用户在盒子 Chrome 登录 Discord 后同一轮补增量 Peek。",
     "round539Added": [
       "nongrata-club",
       "kuip-fun"
@@ -12898,14 +12900,14 @@
     ],
     "discordPeek": {
       "deferred": true,
-      "reason": "login wall in R2081 computerUse; no messages scanned",
-      "scannedAtCST": "2026-11-21 11:12:19 CST",
-      "loginUrl": "https://discord.com/channels/1502958818865188956/1537897411668746302",
+      "reason": "login wall in R2082 computerUse; no messages scanned",
+      "scannedAtCST": "2026-11-21 11:40:05 CST",
+      "loginUrl": "https://discord.com/login?redirect_to=%2Fchannels%2F1502958818865188956%2F1549303534263214160",
       "loginOk": false,
-      "landedUrl": "https://discord.com/channels/1502958818865188956/1537897411668746302",
+      "landedUrl": "https://discord.com/login?redirect_to=%2Fchannels%2F1502958818865188956%2F1549303534263214160",
       "cards": [],
       "gapIncomplete": true,
-      "note": "Hard stop on Discord login wall. Opened #alpha-3-new-accounts URL; page title Discord; address bar stayed on the channel URL but the visible page was the login form (Welcome back, Email or Phone Number, Password, Log In, QR code, passkey). Did not type, fill, click Log In, scan QR, use a passkey, or open the other three channels. lastSeen cutoffs left unchanged. loginOk=false, deferred=true, cards=[]. gapIncomplete=true because no channel was scanned or passed cutoff."
+      "note": "R2082 computerUse 遇登录墙（Welcome back / Email or Phone Number / Log In / QR / passkey），landed https://discord.com/login?redirect_to=%2Fchannels%2F1502958818865188956%2F1549303534263214160（#alpha-1-backup）。loginOk=false，未填凭据、未扫码、未打开其它频道，cards=0。lastSeen 未改：alpha-3 10:49 / backup 08:29 / smart 10:00 / alpha-1 09:39 CST。backup 仍最落后。11/15-11/18 积压仍未清。须父代理请用户在盒子 Chrome 登录 Discord 后同一轮补增量 Peek。"
     },
     "round709Added": [
       "taxiyield",
@@ -15378,7 +15380,9 @@
         "@KryoshiRH",
         "@Zerovo_io",
         "@Asklepion_tech",
-        "@betonbons"
+        "@betonbons",
+        "@plasticonlyclub",
+        "@casebookduel"
       ],
       "candidateIds": [
         "elysatrade",
@@ -17464,11 +17468,13 @@
         "kryoshi",
         "zerovo",
         "asklepion",
-        "betonbons"
+        "betonbons",
+        "plastic-only",
+        "casebookduel"
       ],
       "pending": [],
       "note": "R2081 soft-brush 1433→1483; kept 50, walk 50, skip_already=0, NF_skip=0, wrap=false; firstKept @tell_markets, lastKept @wickoptdesk。本片无真新官号。库内 @bons_world 首次核到可操作窗口并进入 le2h，已补挂 freeMintWatch。顺手把零 Watch 的库内卡 @betonbons / betonbons 补进 UF。Next starts at 1483 @NoveElysium。",
-      "lastChecked": "2026-11-21 11:12:19 CST",
+      "lastChecked": "2026-11-21 11:40:05 CST",
       "createdAt": "2026-10-28 17:15 CST",
       "sourceRound": 775,
       "r775": "用户点名6项已入 candidates；pending=[]",
@@ -17760,12 +17766,12 @@
       "r997": "admit+soft",
       "r1004": "tight-quota soft brush + ≤2h verify",
       "r1008": "watch-bug fix + soft stamp 2026-10-31 21:36 CST",
-      "lastRound": 2081,
+      "lastRound": 2082,
       "r1013": "watch-bugfix: robinshinobi+koin-elysium wired",
       "r1016": "watch-bug fix: cadencebnb @cadencebnb BNB DCA tool",
       "r1018": "watch-bug fix: hashwardonline @HashwardOnline 挖矿 Fuse Cool",
       "r1022": "R1022 watch-bug: ElyWord Elysium word game Discord补漏",
-      "cursor": 1483,
+      "cursor": 1533,
       "shardSizeHint": 40,
       "r1025": "R1025 watch-bug: belief-in-safu @bis_bnb Discord R1024 admit",
       "r1029": "R1029 watch-bug: hootal-kombat @hootal_ Discord R1028 admit",
@@ -17842,20 +17848,23 @@
       },
       "lastSlice": {
         "softBrush": true,
-        "start": 1433,
-        "startHandle": "tell_markets",
-        "firstKept": "tell_markets",
-        "lastKept": "wickoptdesk",
+        "start": 1483,
+        "startHandle": "NoveElysium",
+        "firstKept": "NoveElysium",
+        "lastKept": "ChainPadApp",
         "kept": 50,
         "walkScanned": 50,
         "NF_skip": 0,
         "NF_skipHandles": [],
         "skip_already": 0,
         "wrap": false,
-        "next": 1483,
-        "nextHandle": "NoveElysium",
-        "added": [],
-        "note": "R2081 soft-brush 1433→1483; kept 50, walk 50, skip_already=0, NF_skip=0, wrap=false; firstKept @tell_markets, lastKept @wickoptdesk。本片无真新官号。库内 @bons_world 首次核到可操作窗口并进入 le2h，已补挂 freeMintWatch。顺手把零 Watch 的库内卡 @betonbons / betonbons 补进 UF。Next starts at 1483 @NoveElysium。"
+        "next": 1533,
+        "nextHandle": "Elyzor_nft",
+        "added": [
+          "@plasticonlyclub",
+          "@casebookduel"
+        ],
+        "note": "R2082 soft-brush 1483-1533; kept 50, walk 50, NF_skip=0, wrap=false; firstKept @NoveElysium, lastKept @ChainPadApp。片内命中多为已在库 @GIWALAUNCHPAD，无真新官号。关键词新收 plastic-only；库内零 Watch 的 casebookduel 补进 UF。Next starts at 1533 @Elyzor_nft。"
       },
       "r1068": {
         "from": 252,
@@ -17970,7 +17979,7 @@
         "note": "shard多已在库；DubbllePadX X Not Found→NF_skip；新收flappy-bnb"
       },
       "r1114": "added qagent(+seethe-pad where applicable)",
-      "ufCursor": 1483,
+      "ufCursor": 1533,
       "r1140": {
         "from": 560,
         "to": 580,
@@ -19623,8 +19632,8 @@
       "r1825pace": "UF walk from 204 kept 48 skip 10 NF; folded machinedotfun/bscaidrop/PulseLaunchpad/localbottomcom/NutshellMarkets into UF1; next cursor=262; Watch-leak fix for Discord 9 + admit @zerolotl",
       "r1826": "UF walk from 262 kept 48 skip 11 NF; folded machinedotfun/bscaidrop/PulseLaunchpad/localbottomcom/NutshellMarkets into UF1; next cursor=321; also admitted @tryCashed into accounts",
       "r1827pace": "UF walk from 321 kept 48 skip 19 NF; folded machinedotfun/bscaidrop/PulseLaunchpad/localbottomcom/NutshellMarkets/starx_xlayer/mobster_meme into UF1; next cursor=388; pace merged into Discord R1827 (no new pace admits)",
-      "nextStart": 1483,
-      "nextStartHandle": "NoveElysium",
+      "nextStart": 1533,
+      "nextStartHandle": "Elyzor_nft",
       "wrap": false,
       "r1867": "UF walk from 0-based 484 usekyte, kept 48, NF_skip 7, walkScanned 55, no wrap. last kept 0-based 538 dominioncoins, next 0-based 539 streamlitmaker. R1867 also appended @loopieznft.",
       "r1875": {
@@ -25556,7 +25565,8 @@
         "@KryoshiRH",
         "@Asklepion_tech",
         "@bons_world",
-        "@Hooddrivee"
+        "@Hooddrivee",
+        "@plasticonlyclub"
       ],
       "candidateIds": [
         "litbnb",
@@ -26047,10 +26057,11 @@
         "kryoshi",
         "asklepion",
         "bons-world",
-        "hood-drive"
+        "hood-drive",
+        "plastic-only"
       ],
       "note": "R1724 补收 hood-havoc（@HoodHavocNFTS）；并行 tight R1723 裁栏漏掉 | R1241 gloammail | R977 soft-debt lastChecked 2026-10-31 12:39 CST; prev 2026-10-31 11:37 CST; R950 soft-debt lastChecked 2026-10-31 04:33 CST; R945 soft-debt lastChecked 2026-10-31 03:02 CST; prev 2026-10-31 01:12 CST; R889 soft-debt lastCh",
-      "lastChecked": "2026-11-21 11:12:19 CST",
+      "lastChecked": "2026-11-21 11:40:05 CST",
       "r793": "created for watch-bug compliance on free-mint admits",
       "r805": "R805 soft-brush 2026-10-29 01:39 CST",
       "r815": "watch-bug fix: added ['@gotchishadows', 'gotchishadows']",
@@ -26450,7 +26461,7 @@
       "userFollowWatch.candidateIds+agent-markets",
       "agentPadWatch+@ponsdotfamily"
     ],
-    "mentionsCoverage": "R2081 轮换子集：squeek+Nutshell（0 帖）+ BN Agent/pads（25 触顶未翻页）。未跑 optional MEN_LZ（24h 瘦栏关键词已占用余量）。下轮 LayerZero，然后 GIWA+Zero / Tape。",
+    "mentionsCoverage": "R2082 轮换子集：LayerZero + GIWA（均 25 触顶未翻页）。optional MEN_TAPE/SQUEEK 未跑。下轮 Tape，然后 squeek+Nutshell / BN Agent pads。",
     "xReadsUsedR808": 45,
     "round809Added": [
       "dot-clash",
@@ -31161,7 +31172,7 @@
       "dsFallback": false
     },
     "round1049Added": [],
-    "ufCursor": 1433,
+    "ufCursor": 1533,
     "r1050WatchBugs": [
       "themutantclub → userFollowWatch (+acc)",
       "themutantclub → userFollowWatch (+cid)",
@@ -31963,17 +31974,17 @@
     "xBudget": {
       "mode": "ample",
       "xReads": 30,
-      "remainingBefore": 817,
-      "remainingAfter": 787,
-      "remaining": 787,
+      "remainingBefore": 787,
+      "remainingAfter": 757,
+      "remaining": 757,
       "softCap": 28,
       "minSpend": 20,
       "silentCap": 2,
       "ufAccountShard": 50,
       "lastFullAfterReset": "R2072",
-      "ufCursor": 1483,
-      "ufCursorBefore": 1433,
-      "ufCursorHandle": "NoveElysium",
+      "ufCursor": 1533,
+      "ufCursorBefore": 1483,
+      "ufCursorHandle": "Elyzor_nft",
       "ufWrap": false,
       "thinOfficialDeferred": false,
       "searchUsersUnavailable": true,
@@ -31985,13 +31996,13 @@
         "BTC",
         "Starknet"
       ],
-      "mentionsCoverage": "轮换子集：squeek+Nutshell / BN Agent/pads",
+      "mentionsCoverage": "轮换子集：LayerZero + GIWA（均 25 触顶未翻页）。optional MEN_TAPE/SQUEEK 未跑以免继续超 softCap。",
       "mentionsNext": [
-        "LayerZero",
-        "GIWA+Zero / Tape"
+        "Tape",
+        "squeek+Nutshell / BN Agent pads"
       ],
-      "silentLane": "Starknet",
-      "silentNext": "GIWA"
+      "silentLane": "GIWA",
+      "silentNext": "DogeEVM"
     },
     "r1080WatchBugs": {
       "fixed": [
@@ -41929,8 +41940,8 @@
       "note": "在库且 round≥1790 的卡在修补后均已在至少一个 Watch（handle 或 id）。新卡 cashed 已进 userFollowWatch。puppet-pro 原只在 userFollowWatch，本轮按 RH/Pons 发射补进 agentPadWatch。未把历史大量无 Watch 旧卡当作本轮漏挂补挂。"
     },
     "mentionsNext": [
-      "LayerZero",
-      "GIWA+Zero / Tape"
+      "Tape",
+      "squeek+Nutshell / BN Agent pads"
     ],
     "coverageR1826": "独立例行 pace 2026-11-15 01:14 CST：xReads 20（main 19+silent 1），remaining 288→268；开跑 x_budget 曾报 388，以首读工具回包 remaining 287（UF1 后）为准记 remainingBefore=288。UF 262→321 skip 11 NF，优先折入 machinedotfun/bscaidrop/PulseLaunchpad/localbottomcom/NutshellMarkets；十栏 KW 全跑；mentions Tape / GIWA / BTC / Starknet+DogeEVM；silent 打新 mention-only 20 hits。新收录 cashed。在库 Agent World 免费 LIVE、Puppet CA 落地。notify=true。",
     "round1827Added": [
@@ -45223,7 +45234,7 @@
       "hyperneko"
     ],
     "le2hConfirmedOpen": [],
-    "silentNext": "Starknet",
+    "silentNext": "DogeEVM",
     "xReadsMain": 13,
     "xReadsSilent": 1,
     "ufCursorR1918": {
@@ -48634,7 +48645,27 @@
         "handle": "@memepad_lol",
         "reason": "建号约 43 天，教育向 bonding 帖，未见明确新官台可收证据"
       }
-    ]
+    ],
+    "watchBugsFixedR2082": [
+      {
+        "id": "casebookduel",
+        "handle": "@casebookduel",
+        "into": [
+          "userFollowWatch"
+        ],
+        "reason": "R2080 新收录后不在任何 Watch"
+      }
+    ],
+    "r2082WatchAdds": {
+      "plastic-only": [
+        "userFollowWatch",
+        "freeMintWatch"
+      ],
+      "casebookduel": [
+        "userFollowWatch"
+      ],
+      "at": "2026-11-21 11:40:05 CST"
+    }
   },
   "candidates": [
     {
@@ -48679,9 +48710,10 @@
       "xFollowers": 4,
       "firstSeen": "2026-11-21 10:53 CST",
       "addedAt": "2026-11-21 10:53 CST",
-      "lastChecked": "2026-11-21 10:53 CST",
+      "lastChecked": "2026-11-21 11:40:05 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false,
+      "updatedAt": "2026-11-21 11:40:05 CST"
     },
     {
       "id": "mlx-app",
@@ -60824,7 +60856,7 @@
         "X 账号 2026-11-13 16:03 创建，0 粉 1 帖，无任何历史",
         "除 waitlist 表单外，玩法与分发细则未披露"
       ],
-      "whatsNew": "【R2081】官帖 10:46 CST 称 OpenSea allowlist 已更新、请核验资格；官网仍 WL Closed，开铸仍 2026-11-22 01:00 CST（约 13.79h，le2h=false），OpenSea hood-drive 供应 0。不重推。 【R2079】官网仍 WL Closed，开铸仍 2026-11-22 01:00 CST（约 14.24h，le2h=false），OpenSea hood-drive 供应 0。不重推。 【R2078】官网仍 WL Closed，开铸仍 2026-11-22 01:00 CST（约 14.77h，le2h=false），OpenSea hood-drive 供应 0。不重推。 【R2076】官网仍 WL Closed，开铸仍 2026-11-22 01:00 CST（约 15.02h，le2h=false），OpenSea hood-drive 供应 0。不重推。 【R2073】官网仍 WL Closed，开铸仍 2026-11-22 01:00 CST（约 16.27h，le2h=false），OpenSea hood-drive 供应 0。不重推。",
+      "whatsNew": "【R2082】本轮 MUST 仍见到 allowlist-updated 旧帖 2123971270081757597，无新官帖。开铸仍 2026-11-22 01:00 CST（约 13.33h，le2h=false）。未再拉官网/OpenSea。不重推。 【R2081】官帖 10:46 CST 称 OpenSea allowlist 已更新、请核验资格；官网仍 WL Closed，开铸仍 2026-11-22 01:00 CST（约 13.79h，le2h=false），OpenSea hood-drive 供应 0。不重推。 【R2079】官网仍 WL Closed，开铸仍 2026-11-22 01:00 CST（约 14.24h，le2h=false），OpenSea hood-drive 供应 0。不重推。 【R2078】官网仍 WL Closed，开铸仍 2026-11-22 01:00 CST（约 14.77h，le2h=false），OpenSea hood-drive 供应 0。不重推。 【R2076】官网仍 WL Closed，开铸仍 2026-11-22 01:00 CST（约 15.02h，le2h=false），OpenSea hood-drive 供应 0。不重推。 【R2073】官网仍 WL Closed，开铸仍 2026-11-22 01:00 CST（约 16.27h，le2h=false），OpenSea hood-drive 供应 0。不重推。",
       "summary": "Robinhood Chain 上的 5,555 辆向量车 NFT，目前仅开放 waitlist 申请（X 用户名 + EVM 钱包换取 WL 成员卡），官方称 waitlist 免费 mint，但合约与开铸时间均未公布。",
       "blurb": "OpenSea 已可查资格（非最终名单）；最终配额 2026-11-21 01:00 CST，开铸 2026-11-22 01:00 CST。本窗另有 giveaway last call 至 2026-11-20 23:00 CST，不是配额/开铸时钟。尚未<=2h。本号不自动 mint。",
       "round": 1764,
@@ -60835,20 +60867,20 @@
       "xFollowers": 1208,
       "firstSeen": "2026-11-13 18:47 CST",
       "addedAt": "2026-11-13 18:47 CST",
-      "lastChecked": "2026-11-21 11:12:19 CST",
+      "lastChecked": "2026-11-21 11:40:05 CST",
       "zoneHint": "打新",
       "newThisRound": false,
       "schedule": {
-        "lastChecked": "2026-11-21 11:12:19 CST",
+        "lastChecked": "2026-11-21 11:40:05 CST",
         "timezone": "Asia/Shanghai",
         "le2h": false,
-        "note": "R2081：官网仍 WL Closed，开铸仍 2026-11-22 01:00 CST（约 13.79h），OpenSea 供应 0。不重推。",
+        "note": "R2082：开铸仍 2026-11-22 01:00 CST（约 13.33h）。不重推。",
         "status": "announced",
         "allocationAtCST": "2026-11-21 01:00 CST",
         "allocationAtUTC": "2026-11-20 17:00 UTC",
         "startsAtCST": "2026-11-22 01:00:00 CST",
         "startsAtUTC": "2026-11-21 17:00 UTC",
-        "mintStatus": "免费开铸仍 2026-11-22 01:00 CST、5555 份，官网仍 WL Closed，OpenSea hood-drive 供应 0，尚未 LIVE。距开铸约 13.79h，le2h=false。官帖称 OpenSea allowlist 已更新。",
+        "mintStatus": "免费开铸仍 2026-11-22 01:00 CST、5555 份，尚未 LIVE。距开铸约 13.33h，le2h=false。本轮无新官帖。不重推。",
         "source": "https://x.com/Hooddrivee/status/2123661645771895052",
         "giveawayClosesAtCST": "2026-11-20 23:00 CST",
         "giveawayPost": "https://x.com/Hooddrivee/status/2123683467007606996",
@@ -60865,7 +60897,7 @@
         "videoPostR2058": "https://x.com/Hooddrivee/status/2123855788477399409",
         "videoPostAt": "2026-11-21 03:07:33 CST",
         "openseaSupply": 0,
-        "hoursToMint": 14.24,
+        "hoursToMint": 13.33,
         "openseaTotal": 0,
         "openseaOwners": 0,
         "allowlistUpdatedPost": "https://x.com/Hooddrivee/status/2123971270081757597"
@@ -60874,7 +60906,7 @@
       "le2h": false,
       "xTweets": 106,
       "xUserId": "2121151758772957184",
-      "mintStatus": "免费开铸仍 2026-11-22 01:00 CST、5555 份，官网 https://www.hooddrive.fun/ 仍 WL Closed，尚未 LIVE。距开铸约 14.24h，le2h=false。",
+      "mintStatus": "免费开铸仍 2026-11-22 01:00 CST、5555 份，尚未 LIVE。距开铸约 13.33h，le2h=false。本轮无新官帖。不重推。",
       "mintAt": {
         "status": "announced",
         "timezone": "Asia/Shanghai",
@@ -65856,7 +65888,7 @@
         "未见公开代币 CA，Genesis 开铸时刻未核到",
         "0 粉新号，玩法与代币经济尚未披露"
       ],
-      "whatsNew": "【R2081】首次核到可操作窗口：官帖称 Bons Genesis 白名单 13:00 CST 截止（约 1.79h，le2h=true），今晚 20:00 CST 免费白名单 mint、23:00 CST BONS 上 Pons、次日 01:00 CST 公售。OpenSea bons-genesis 本轮 0 铸/0 持有，不是已开铸 LIVE。资格自称需在 bons.world 登录后赢 Bons Show。本号不自动 mint。",
+      "whatsNew": "【R2082】白名单仍 13:00 CST 截止（约 1.33h，le2h=true），今晚 20:00 CST 免费 WL mint 计划不变。本轮未见新官帖（仍是 2123959584767324392）。OpenSea 未再拉。R2081 已提醒，不重推。 【R2081】首次核到可操作窗口：官帖称 Bons Genesis 白名单 13:00 CST 截止（约 1.79h，le2h=true），今晚 20:00 CST 免费白名单 mint、23:00 CST BONS 上 Pons、次日 01:00 CST 公售。OpenSea bons-genesis 本轮 0 铸/0 持有，不是已开铸 LIVE。资格自称需在 bons.world 登录后赢 Bons Show。本号不自动 mint。",
       "summary": "Robinhood Chain 上的 3D 多人小岛，内置 Pons Launch Lab 发币与 Genesis NFT 钥匙，官网已可访问，属极早期台子。",
       "blurb": "Robinhood Chain 3D 岛 + 发币实验室",
       "round": 1665,
@@ -65867,7 +65899,7 @@
       "xFollowers": null,
       "firstSeen": "2026-11-11 20:15 CST",
       "addedAt": "2026-11-11 20:15 CST",
-      "lastChecked": "2026-11-21 11:12:19 CST",
+      "lastChecked": "2026-11-21 11:40:05 CST",
       "zoneHint": "台子/Meme",
       "newThisRound": false,
       "le2h": true,
@@ -65896,9 +65928,10 @@
         "freeMintLIVE": false,
         "mintStatus": "白名单约 1.79h 后于 13:00 CST 截止（le2h=true）。免费 WL mint 约 8.79h 后于 20:00 CST；公售约 13.79h 后于次日 01:00 CST。OpenSea 0 铸，不是已开铸 LIVE。本号不自动 mint。",
         "eligibilityNote": "官称白名单赢家免费，需在 bons.world 登录后赢一场 Bons Show，钱包链上核验。",
-        "note": "R2081 首次核到官宣时间表。第三方看板另列 TEAM 阶段与 CA，本轮未链上复核，不当官宣。",
-        "lastChecked": "2026-11-21 11:12:19 CST",
-        "followers": 16
+        "note": "R2082：WL 仍 13:00 CST 截止（约 1.33h），不重推。",
+        "lastChecked": "2026-11-21 11:40:05 CST",
+        "followers": 16,
+        "hoursToWlClose": 1.33
       }
     },
     {
@@ -229658,17 +229691,17 @@
         "lastCheckedAt": "2026-10-20T08:18:36+08:00"
       },
       "status": "live",
-      "mintStatus": "TAI 预存最晚截止 2026-11-20 18:00 CST 已过。20:00 CST TapeOut 建设者之夜不是 mint 窗。官帖称 TAI 将于 11 月 21 日经 TapeUP PoB 发射，开盘时刻 TBA（95% PoB，5% 空投）。R2022 已首次提醒预存窗，不重推。本窗无新官帖翻盘。",
+      "mintStatus": "官帖确认 TAI 今晚经 TapeUP 发射，开盘时刻仍 TBA；加速码可提前释放预存购买额度。预存截止已过。R2022/R2028 已提醒 11-21 发射窗，不重推。尚未 <=2h。",
       "schedule": {
         "status": "live",
         "timezone": "Asia/Shanghai",
-        "mintStatus": "TAI 预存最晚截止 2026-11-20 18:00 CST 已过。20:00 CST TapeOut 建设者之夜不是 mint 窗。官帖称 TAI 将于 11 月 21 日经 TapeUP PoB 发射，开盘时刻 TBA（95% PoB，5% 空投）。R2022 已首次提醒预存窗，不重推。本窗无新官帖翻盘。",
+        "mintStatus": "官帖确认 TAI 今晚经 TapeUP 发射，开盘时刻仍 TBA；加速码可提前释放预存购买额度。预存截止已过。R2022/R2028 已提醒 11-21 发射窗，不重推。尚未 <=2h。",
         "openAt": "2026-10-24 16:12",
         "note": "TAI PoB 分配说明已于 R1702 记录，无开盘时刻。勿标 Elysium。 【R1856】官号约 14:16 CST 宣布将于 11 月 16 日开放 BEM 预存，按积分分享 3% TAI 空投（https://x.com/TapeAIAgent/status/2121849787498823934）。未给具体钟点，距 ≤2h 尚远，不按新窗口推送。 【R1857】官号再述 11 月 16 日开放 BEM 预存（https://x.com/TapeAIAgent/status/2121849787498823934），仍无具体钟点，不按新窗口推送。 【R1897】官号 10:46 CST 首次给出预存钟点：2026-11-16 16:00 CST；3% TAI（630,000）按预存积分，直邀 20%/间邀 10%。2% 检察官空投快照时刻在配图中未核验。非 ≤2h，但属补公布具体时刻，本轮提醒。勿标 Elysium。 【R1903】@tapeupio 14:01 CST 复述同一份 16:00 CST 预存时刻（https://x.com/tapeupio/status/2122208412662726779），并写预存空投 630,000 TAI / 检察官空投 420,000 TAI（按快照时已质押 Inspector 数）。预存尚未开始，已进入 ≤2h。快照钟点仍未核验。 【R1907】首次确认 BEM 预存已开：@TapeAIAgent 16:00 CST https://x.com/TapeAIAgent/status/2122238445347389449；@tapeupio 16:03 CST https://x.com/tapeupio/status/2122239142071542171。支持 BEM/BNB/USDT，BNB/USDT 按市价折算为 BEM；1 BEM=1 积分，直邀 20%/间邀 10%，按有效积分分享 3% TAI（630,000）。预存已开始，不再标 ≤2h。本号不自动存。 R1934：官帖补充预存限额 30,000、截止 2026-11-20 18:00 CST，同一已开窗口，不重推。",
         "source": "https://x.com/TapeAIAgent/status/2120788006907035835",
         "le2h": false,
         "opensAt": "2026-11-08 00:00 CST",
-        "lastChecked": "2026-11-21 02:04:19 CST",
+        "lastChecked": "2026-11-21 11:40:05 CST",
         "bemPreDepositAt": "2026-11-16 16:00 CST",
         "bemPreDepositPost": "https://x.com/TapeAIAgent/status/2122159276403851324",
         "bemConfirmPost": "https://x.com/tapeupio/status/2122239142071542171",
@@ -229685,7 +229718,9 @@
         "officialPost": "https://x.com/TapeAIAgent/status/2123673575919939928",
         "tapeupPost": "https://x.com/tapeupio/status/2123674441729401255",
         "launchDateClaim": "2026-11-21 via TapeUP PoB；具体开放交易时间 TBA",
-        "allocationClaim": "95% PoB；5% 空投（2% 给 6,219 检察官，3% 预存积分）"
+        "allocationClaim": "95% PoB；5% 空投（2% 给 6,219 检察官，3% 预存积分）",
+        "tonightLaunchPost": "https://x.com/TapeAIAgent/status/2123982140719374517",
+        "tonightLaunchPostAt": "2026-11-21 11:29:38 CST"
       },
       "source": "user-named circuit-board watch + X/Web R225",
       "ecosystem": "TapeOut",
@@ -229716,16 +229751,16 @@
         "快照与持仓条件限制",
         "退款已完成说明此前有波折"
       ],
-      "whatsNew": "【R2028】TAI 预存最晚截止 2026-11-20 18:00 CST 已过。20:00 CST TapeOut 建设者之夜不是 mint 窗。官帖称 TAI 将于 11 月 21 日经 TapeUP PoB 发射，开盘时刻 TBA（95% PoB，5% 空投）。R2022 已首次提醒预存窗，不重推。本窗无新官帖翻盘。 【R2027】预存截止 18:00 CST 已过。本窗官帖预告 20:00 CST 建设者之夜（访谈，非 mint）。R2022 已提醒预存窗，不重推。 【R2025】预存截止仍 18:00 CST（约 0.39h），仍≤2h，本窗未见新官帖。R2022 已首次提醒，不作为新窗口重推。 【R2024】预存截止仍 18:00 CST（约 0.75h），仍≤2h，本窗未见新官帖。R2022 已首次提醒，不作为新窗口重推。 【R2023】预存截止仍 18:00 CST（约 1.26h），本窗未见新官帖，不重推。 【R2022】TAI 预存首次进入<=2h，截止约 1.73h（2026-11-20 18:00 CST）。官帖 15:03 CST 称 TAI 将于 11 月 21 日通过 TapeUP @tapeupio 的 PoB 机制正式发射，具体开放交易时间以官推后续公告为准；95% PoB，5% 空投（2% 给 6,219 检察官，3% 按最终有效积分给预存用户）。 【R2020】TAI 预存截止约 2.18h（2026-11-20 18:00 CST），尚未<=2h，不重推。 【R2017】TAI 预存截止约 3.35h，尚未≤2h，不重推。 【R2015】TAI 预存截止约 3.75h，尚未≤2h，不重推。 【R2014】TAI 预存截止约 4.32h，尚未≤2h，不重推。 【R2013】TAI 预存截止约 4.70h，尚未≤2h，不重推。 【R2012】TAI 预存最晚截止 2026-11-20 18:00 CST（约 5.26h），额度 30,000 BEM、630,000 TAI。该截止此前已记录（R1934），活动已在 R1907 提醒，尚未≤2h，不重推。 【R2011】TAI 预存最晚截止 2026-11-20 18:00 CST（约 6.08h），额度 30,000 BEM、630,000 TAI。该截止此前已记录（R1934），活动已在 R1907 提醒，尚未≤2h，不重推。 【R2010】官帖再述 TAI 预存最晚截止 2026-11-20 18:00 CST（约 6.75h），额度 30,000 BEM、630,000 TAI。该截止此前已记录（R1934），活动已在 R1907 提醒，尚未≤2h，不重推。 【R1983】官帖 21:23 CST（https://x.com/TapeAIAgent/status/2123406737877377189）宣布 TAI 空投快照已于 21:00 CST / BSC block 134507521 完成：有效质押 6,219、检察官质押率 79%、每名符合条件检察官 67.5 TAI；领取需等 TAI 开放交易后手动领。已在库，不是新 mint 窗，不重推。 【R1934】16:03 CST 官帖（https://x.com/TapeAIAgent/status/2122963862529905027）宣布本次 BEM 预存限额 30,000，满额即止；最晚截止 2026-11-20 18:00 CST，满额则提前结束；630,000 TAI 空投总额不变，按有效积分权重；直邀 20%、间邀 10%。预存活动此前已开并已提醒（R1907），这是限额/截止补充，不是新 mint 窗口，距截止约 2 天，不重推。",
+      "whatsNew": "【R2082】官帖 11:29 CST（https://x.com/TapeAIAgent/status/2123982140719374517）确认「今晚发射」，并说明已预存用户可在 TapeUP @tapeupio 填加速码提前释放购买额度（主动填他人创建者码释放自身 20%，被动最高 100%）。仍无精确开盘钟点，尚未 <=2h。11-21 经 TapeUP PoB 发射窗口此前已在 R2028/R2022 记录，不重推。 【R2028】TAI 预存最晚截止 2026-11-20 18:00 CST 已过。20:00 CST TapeOut 建设者之夜不是 mint 窗。官帖称 TAI 将于 11 月 21 日经 TapeUP PoB 发射，开盘时刻 TBA（95% PoB，5% 空投）。R2022 已首次提醒预存窗，不重推。本窗无新官帖翻盘。 【R2027】预存截止 18:00 CST 已过。本窗官帖预告 20:00 CST 建设者之夜（访谈，非 mint）。R2022 已提醒预存窗，不重推。 【R2025】预存截止仍 18:00 CST（约 0.39h），仍≤2h，本窗未见新官帖。R2022 已首次提醒，不作为新窗口重推。 【R2024】预存截止仍 18:00 CST（约 0.75h），仍≤2h，本窗未见新官帖。R2022 已首次提醒，不作为新窗口重推。 【R2023】预存截止仍 18:00 CST（约 1.26h），本窗未见新官帖，不重推。 【R2022】TAI 预存首次进入<=2h，截止约 1.73h（2026-11-20 18:00 CST）。官帖 15:03 CST 称 TAI 将于 11 月 21 日通过 TapeUP @tapeupio 的 PoB 机制正式发射，具体开放交易时间以官推后续公告为准；95% PoB，5% 空投（2% 给 6,219 检察官，3% 按最终有效积分给预存用户）。 【R2020】TAI 预存截止约 2.18h（2026-11-20 18:00 CST），尚未<=2h，不重推。 【R2017】TAI 预存截止约 3.35h，尚未≤2h，不重推。 【R2015】TAI 预存截止约 3.75h，尚未≤2h，不重推。 【R2014】TAI 预存截止约 4.32h，尚未≤2h，不重推。 【R2013】TAI 预存截止约 4.70h，尚未≤2h，不重推。 【R2012】TAI 预存最晚截止 2026-11-20 18:00 CST（约 5.26h），额度 30,000 BEM、630,000 TAI。该截止此前已记录（R1934），活动已在 R1907 提醒，尚未≤2h，不重推。 【R2011】TAI 预存最晚截止 2026-11-20 18:00 CST（约 6.08h），额度 30,000 BEM、630,000 TAI。该截止此前已记录（R1934），活动已在 R1907 提醒，尚未≤2h，不重推。 【R2010】官帖再述 TAI 预存最晚截止 2026-11-20 18:00 CST（约 6.75h），额度 30,000 BEM、630,000 TAI。该截止此前已记录（R1934），活动已在 R1907 提醒，尚未≤2h，不重推。 【R1983】官帖 21:23 CST（https://x.com/TapeAIAgent/status/2123406737877377189）宣布 TAI 空投快照已于 21:00 CST / BSC block 134507521 完成：有效质押 6,219、检察官质押率 79%、每名符合条件检察官 67.5 TAI；领取需等 TAI 开放交易后手动领。已在库，不是新 mint 窗，不重推。 【R1934】16:03 CST 官帖（https://x.com/TapeAIAgent/status/2122963862529905027）宣布本次 BEM 预存限额 30,000，满额即止；最晚截止 2026-11-20 18:00 CST，满额则提前结束；630,000 TAI 空投总额不变，按有效积分权重；直邀 20%、间邀 10%。预存活动此前已开并已提醒（R1907），这是限额/截止补充，不是新 mint 窗口，距截止约 2 天，不重推。",
       "background": "BNB链AI Agent主权资产项目，tapeai.net",
       "whyWatch": "ERC-6551+电路NFT若落地有差异化",
       "alert": "Mint时间未定，需盯官方公告",
       "notify": true,
       "onchain": {},
-      "lastChecked": "2026-11-21 03:36:40 CST",
+      "lastChecked": "2026-11-21 11:40:05 CST",
       "twitter": "@TapeAIAgent",
       "handle": "@TapeAIAgent",
-      "updatedAt": "2026-11-20 18:51:01 CST",
+      "updatedAt": "2026-11-21 11:40:05 CST",
       "summary": "TapeOut纪念电路已改免费流片LIVE：Binance Agentic Wallet Agent ID核验后每账户1枚；10/25 20:00CST快照持有>10 BEM额外空投1枚。",
       "blurb": "TAI 预存首次进入<=2h，截止 2026-11-20 18:00 CST；官帖称 11 月 21 日经 TapeUP PoB 发射，开盘时刻 TBA。",
       "xFollowers": 3010,
@@ -338261,7 +338296,7 @@
       "zone": "mint",
       "zoneHint": "打新",
       "status": "live",
-      "mintStatus": "自称免费 mint 仍 LIVE，关窗仍 2026-11-21 23:00 CST（约 12.24h，le2h=false）。官称已铸 847（本轮未链上复核）；Agent ID 免费，其后 0.001 BNB。R2076 已提醒，不重推。本号不自动 mint。",
+      "mintStatus": "免费 Agent ID mint 仍 LIVE，关窗仍今晚 23:00 CST（约 11.33h，le2h=false）。官称已铸 847。R2076 已提醒，不重推。本号不自动 mint。",
       "focus": false,
       "lzVerified": false,
       "followers": 0,
@@ -338273,7 +338308,7 @@
       "firstSeen": "2026-11-21 09:58:44 CST",
       "addedAt": "2026-11-21 09:58:44 CST",
       "updatedAt": "2026-11-21 10:45:18 CST",
-      "lastChecked": "2026-11-21 11:12:19 CST",
+      "lastChecked": "2026-11-21 11:40:05 CST",
       "newThisRound": false,
       "le2h": false,
       "source": "R2076 x-radar KW_CORE/打新 + KW_GAPS；官网 https://mario-mint.surge.sh/ HTTP 200，与官推互指",
@@ -338351,14 +338386,14 @@
         "mintOpensCST": "2026-11-19 23:00:00 CST",
         "mintClosesCST": "2026-11-21 23:00:00 CST",
         "mintClosesUTC7": "2026-11-21 22:00 UTC+7",
-        "hoursToClose": 12.24,
+        "hoursToClose": 11.33,
         "nftContract": "0xd7aA23e8A90542C7eb090D99496305a8855Ff248",
         "marketContract": "0x1fd347B6CAB6198E7f0804792F7E3C69A0004496",
         "ownerWallet": "0xb3b27a4a57d793ab326e4c8191f8b4ab79465ec7",
-        "mintStatus": "免费 Agent ID mint 仍 LIVE，关窗仍今晚 23:00 CST（约 11.79h，le2h=false）。官称已铸 847。R2076 已提醒，不重推。本号不自动 mint。",
-        "lastChecked": "2026-11-21 11:12:19 CST",
+        "mintStatus": "免费 Agent ID mint 仍 LIVE，关窗仍今晚 23:00 CST（约 11.33h，le2h=false）。官称已铸 847。R2076 已提醒，不重推。本号不自动 mint。",
+        "lastChecked": "2026-11-21 11:40:05 CST",
         "checkedAt": "2026-11-21 10:45:18 CST",
-        "note": "R2081：关窗仍 23:00 CST（约 11.79h），未到 le2h。不重推。"
+        "note": "R2082：关窗仍 23:00 CST（约 11.33h），未到 le2h。不重推。"
       }
     },
     {
@@ -338829,6 +338864,101 @@
         "mintStatus": "官网自称 10,000 份 Votive NFT 免费（每钱包 1 份、仅付 gas），持有人分享收入并有 1.2× 空投加成。页文明确 The register goes live when Asklepion launches on Zero；官帖称登记将在平台于 Zero 上线时开放。是自称将免费 mint Votive，不是已开铸免费 mint LIVE。未核到合约。lzVerified=false。本号不自动 mint。",
         "lastChecked": "2026-11-21 10:45:18 CST"
       }
+    },
+    {
+      "id": "plastic-only",
+      "name": "PLA$TIC ONLY",
+      "handle": "@plasticonlyclub",
+      "twitter": "@plasticonlyclub",
+      "hasTwitter": true,
+      "xUserId": "2117231939392258048",
+      "accountCreatedCST": "2026-11-02 20:28 CST",
+      "chain": "Ethereum",
+      "category": "打新",
+      "zone": "scout",
+      "zoneHint": "scout",
+      "status": "announced",
+      "mintStatus": "Mint 时间与价格均为 TBA；官网有 FREE RACK 预登记表单（自称免费阶段），同页写 WL opens soon，本轮未实测表单是否已开放。不是已开铸免费 mint LIVE。",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 118,
+      "xFollowers": 118,
+      "xTweets": 593,
+      "verified": true,
+      "protected": false,
+      "round": 2082,
+      "firstSeen": "2026-11-21 11:40:05 CST",
+      "addedAt": "2026-11-21 11:40:05 CST",
+      "updatedAt": "2026-11-21 11:40:05 CST",
+      "lastChecked": "2026-11-21 11:40:05 CST",
+      "newThisRound": true,
+      "le2h": false,
+      "source": "R2082 KW_CORE/打新 官号帖 2123981472943993101 + 官网 https://plasticonly.netlify.app/ HTTP 核验；siteXMutual=true",
+      "sources": [
+        "R2082 KW_CORE/打新",
+        "https://plasticonly.netlify.app/"
+      ],
+      "summary": "以太坊 10,000 份讽刺潮牌生成 PFP，官网与官推互指；Mint 与价格 TBA，WL/FREE RACK 表单未实测开放，暂列观察。",
+      "blurb": "10k 生成 PFP，潮牌讽刺叙事；WL 即将开放、免费 RACK 预登记待实测，Mint TBA。",
+      "highlights": [
+        "以太坊 10,000 份生成 PFP，主打讽刺潮牌消费文化",
+        "有独立官推与官网，资料栏互指",
+        "设 FREE RACK 自称免费预登记阶段，但本轮未实测表单是否已开"
+      ],
+      "drawbacks": [
+        "Mint 时间与价格均为 TBA",
+        "WL 页面写 opens soon，entry 需人工审核，未确认开放",
+        "FREE RACK 表单可见但本轮未实测提交是否开放",
+        "账号新、粉丝少，官号本轮帖为朋友项目 WL 宣传而非自身开铸官宣"
+      ],
+      "whatsNew": "【R2082】新收录。官网自称以太坊 10,000 份生成 PFP，Mint date/price TBA，OpenSea soon。页面有 JOIN WL（写着 WL opens soon）和 FREE RACK 预登记表单（自称免费阶段、只需钱包、日期 TBA）。本轮未实测表单是否已开放，不是已开铸免费 mint LIVE。本轮官帖是为朋友项目 @fomofuzz_lol 宣传允许名单，不是自身开铸官宣。",
+      "scores": {
+        "early": 72,
+        "risk": 68,
+        "novelty": 55,
+        "actionable": 32,
+        "overall": 55
+      },
+      "earlyScore": 72,
+      "overall": 55,
+      "riskScore": 68,
+      "tags": [
+        "PFP",
+        "生成艺术",
+        "免费阶段",
+        "WL",
+        "讽刺潮牌",
+        "TBA",
+        "R2082",
+        "ethereum",
+        "early"
+      ],
+      "links": {
+        "x": "https://x.com/plasticonlyclub",
+        "twitter": "https://x.com/plasticonlyclub",
+        "website": "https://plasticonly.netlify.app/",
+        "site": "https://plasticonly.netlify.app/",
+        "web": "https://plasticonly.netlify.app/",
+        "discord": "https://discord.gg/ek7S8abrF",
+        "officialPost": "https://x.com/plasticonlyclub/status/2123981472943993101"
+      },
+      "siteXMutual": true,
+      "siteXMutualNote": "官网写 official links only on @plasticonlyclub；X 资料栏为 plasticonly.netlify.app",
+      "dsAdmit": true,
+      "dsReason": "有独立官推与官网互指，但 Mint/WL 均 TBA 且免费登记表单未实测开放，先收录观察。",
+      "schedule": {
+        "status": "announced",
+        "timezone": "Asia/Shanghai",
+        "le2h": false,
+        "officialHandle": "@plasticonlyclub",
+        "website": "https://plasticonly.netlify.app/",
+        "officialPost": "https://x.com/plasticonlyclub/status/2123981472943993101",
+        "officialPostAt": "2026-11-21 11:26:59 CST",
+        "mintStatus": "Mint 时间与价格 TBA；WL opens soon；FREE RACK 表单可见但未实测是否已开。不是免费 mint LIVE。",
+        "lastChecked": "2026-11-21 11:40:05 CST",
+        "note": "R2082 收录。未确认免费登记已开，未确认开铸。"
+      },
+      "alertMessage": "【观察】PLA$TIC ONLY（@plasticonlyclub）以太坊 10k PFP，WL 显示即将开放、FREE RACK 预登记表单未实测是否已开，Mint 价/时间 TBA。详见 https://reboot7454.github.io/early-scout/ 。不自动 mint。"
     }
   ],
   "newThisRound": [],
