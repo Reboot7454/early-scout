@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-21 17:03 CST",
+    "updated": "2026-11-21 18:03 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-21 17:03 CST",
+    "lastScout": "2026-11-21 18:03 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -861,7 +861,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2093,
+    "round": 2094,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2405,8 +2405,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "gitfi",
-      "trenchcomms"
+      "omni-drifters"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -5241,17 +5240,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-21 17:00",
-      "lastChecked": "2026-11-21 17:03 CST",
-      "newestCardTime": "2026-11-21 17:00",
-      "cardsAfterCutoff": 31,
-      "note": "R2093：Discord alpha 补收 gitfi,trenchcomms；跳过 [{'id': 'luckdrop', 'reason': 'dup'}]；清 hoodrith；lastSeen→2026-11-21 17:00；lastChecked→2026-11-21 17:03 CST",
-      "lastRound": 2093,
+      "lastSeen": "2026-11-21 17:59",
+      "lastChecked": "2026-11-21 18:03 CST",
+      "newestCardTime": "2026-11-21 17:59",
+      "cardsAfterCutoff": 17,
+      "note": "R2094：Discord alpha 补收 omni-drifters；清 trenchcomms,gitfi,luckdrop-bsc；lastSeen→2026-11-21 17:59；lastChecked→2026-11-21 18:03 CST",
+      "lastRound": 2094,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-21 17:00",
+        "alpha-3-new-accounts": "2026-11-21 17:59",
         "alpha-1-backup": "2026-11-21 14:14",
-        "smart-accounts-tracker": "2026-11-21 16:37",
-        "alpha-1": "2026-11-21 16:55"
+        "smart-accounts-tracker": "2026-11-21 17:54",
+        "alpha-1": "2026-11-21 17:14"
       }
     },
     "round239Added": [
@@ -48932,9 +48931,59 @@
     "round2093Added": [
       "gitfi",
       "trenchcomms"
+    ],
+    "round2094Added": [
+      "omni-drifters"
     ]
   },
   "candidates": [
+    {
+      "id": "omni-drifters",
+      "name": "OmniDrifters",
+      "handle": "@OmniDrifters",
+      "twitter": "@omnidrifters",
+      "chain": "BNB Chain/Base/Zero",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/OmniDrifters"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.1
+      },
+      "highlights": [
+        "6,666 枚 Drifters 多链 ONFT",
+        "覆盖 BNB Chain/Base/Zero",
+        "独立项目推特，极早期"
+      ],
+      "drawbacks": [
+        "LayerZero 属性未核验",
+        "暂无 mint 链接/时间",
+        "粉丝极少，信息仅来自 bio",
+        "2026-02 建号、1 粉/4 推，最近一条为转推；mint 时间/价格/合约未公布"
+      ],
+      "whatsNew": "新发现项目号，bio 披露 6,666 个跨链 ONFT Drifters。",
+      "summary": "OmniDrifters 是极早期多链 NFT 项目，宣称在 BNB Chain、Base 与 Zero 上发行 6,666 个 LayerZero ONFT；目前仅有 bio 线索，LZ 属性未核验。",
+      "blurb": "极早期多链 ONFT 项目，先观察 mint 与合约部署。",
+      "round": 2094,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-21 18:03 CST",
+      "addedAt": "2026-11-21 18:03 CST",
+      "lastChecked": "2026-11-21 18:03 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "trenchcomms",
       "name": "trenchcomms",
@@ -48978,7 +49027,7 @@
       "addedAt": "2026-11-21 17:03 CST",
       "lastChecked": "2026-11-21 17:03 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "gitfi",
@@ -49025,7 +49074,7 @@
       "addedAt": "2026-11-21 17:03 CST",
       "lastChecked": "2026-11-21 17:03 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "hoodrith",
@@ -340555,26 +340604,24 @@
       "addedAt": "2026-11-21 17:03 CST",
       "lastChecked": "2026-11-21 17:03 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     }
   ],
   "newThisRound": [
-    "gitfi",
-    "trenchcomms",
-    "luckdrop-bsc"
+    "omni-drifters"
   ],
-  "alertMessage": "DC补漏R2093新收3（台子/Meme）：GitFi 跨链桥接入 Robinhood Chain、trenchcomms 交易群聊工具、LUCKDROP BNB链上彩票（称下周上线）；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R2094新收 OmniDrifters（台子/Meme，极早期多链ONFT，先观察mint与合约部署）；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "stockbox",
     "chimi-giwa"
   ],
-  "updatedAt": "2026-11-21 17:03 CST",
-  "updated": "2026-11-21 17:03 CST",
+  "updatedAt": "2026-11-21 18:03 CST",
+  "updated": "2026-11-21 18:03 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-21 17:03 CST",
+  "lastScout": "2026-11-21 18:03 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -340616,7 +340663,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4631,
+  "candidateCount": 4632,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -345073,5 +345120,8 @@
   "round2093Added": [
     "gitfi",
     "trenchcomms"
+  ],
+  "round2094Added": [
+    "omni-drifters"
   ]
 }
