@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-22 04:53 CST",
+    "updated": "2026-11-22 06:01 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-22 04:53 CST",
+    "lastScout": "2026-11-22 06:01 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -861,7 +861,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2105,
+    "round": 2106,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2405,10 +2405,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "zynko",
-      "zerolux",
-      "interpres",
-      "stash-labs"
+      "kalibr",
+      "hadal"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -5243,17 +5241,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-22 04:49",
-      "lastChecked": "2026-11-22 04:53 CST",
-      "newestCardTime": "2026-11-22 03:53",
-      "cardsAfterCutoff": 7,
-      "note": "R2105：Discord alpha 补收 zynko,zerolux,interpres,stash-labs；清 synapsedotfun；lastSeen→2026-11-22 04:49；lastChecked→2026-11-22 04:53 CST",
-      "lastRound": 2105,
+      "lastSeen": "2026-11-22 05:57",
+      "lastChecked": "2026-11-22 06:01 CST",
+      "newestCardTime": "2026-11-22 05:57",
+      "cardsAfterCutoff": 5,
+      "note": "R2106：Discord alpha 补收 kalibr,hadal；清 stash-labs,interpres,zerolux,zynko；lastSeen→2026-11-22 05:57；lastChecked→2026-11-22 06:01 CST",
+      "lastRound": 2106,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-22 04:49",
-        "alpha-1-backup": "2026-11-22 04:29",
-        "smart-accounts-tracker": "2026-11-22 01:50",
-        "alpha-1": "2026-11-22 04:30"
+        "alpha-3-new-accounts": "2026-11-22 05:57",
+        "alpha-1-backup": "2026-11-22 05:44",
+        "smart-accounts-tracker": "2026-11-22 05:46",
+        "alpha-1": "2026-11-22 05:54"
       }
     },
     "round239Added": [
@@ -49010,9 +49008,107 @@
       "zerolux",
       "interpres",
       "stash-labs"
+    ],
+    "round2106Added": [
+      "kalibr",
+      "hadal"
     ]
   },
   "candidates": [
+    {
+      "id": "hadal",
+      "name": "Hadal",
+      "handle": "@hadal_is",
+      "twitter": "@hadal_is",
+      "chain": "Solana",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/hadal_is"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 7,
+        "actionable": 5,
+        "overall": 5.9
+      },
+      "highlights": [
+        "Solana 暗池+AMM+OTC 共用一本加密订单簿，Arcium MPC 撮合",
+        "官网列 HADAL mint 地址",
+        "3 天新号已有 10 条推文"
+      ],
+      "drawbacks": [
+        "mint 合约未做 RPC 核验",
+        "团队/融资信息缺失",
+        "暗池类项目落地难度高"
+      ],
+      "whatsNew": "Solana 上的加密订单簿暗池 DEX，官网已挂 mint 地址。",
+      "summary": "Solana 暗池 DEX 早期项目，官网结构清晰且有 mint 线索，需进一步核验合约。",
+      "blurb": "Solana 加密订单簿暗池，官网在线并给出 mint 地址。",
+      "round": 2106,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 10,
+      "xFollowers": 10,
+      "firstSeen": "2026-11-22 06:01 CST",
+      "addedAt": "2026-11-22 06:01 CST",
+      "lastChecked": "2026-11-22 06:01 CST",
+      "zoneHint": "打新",
+      "newThisRound": true,
+      "ca": "B1P3oXhJNoQsRLqWGGkXgowRtHuXrR8CQrHsgfk3UAKS",
+      "caUnverified": true
+    },
+    {
+      "id": "kalibr",
+      "name": "KALIBR",
+      "handle": "@kalibragent",
+      "twitter": "@kalibragent",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/kalibragent"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 4,
+        "overall": 5.8
+      },
+      "highlights": [
+        "官网在线：Polymarket 概率校准 + 3-agent LLM 面板",
+        "已有 ForecastSealRegistry.sol Merkle 封存设计",
+        "部署在 Robinhood Chain (4663)"
+      ],
+      "drawbacks": [
+        "无代币，暂无可参与动作",
+        "粉丝 1、推文 2，社交几乎为零",
+        "官网细节未做链上/合约核验"
+      ],
+      "whatsNew": "在 Robinhood Chain 上线 AI 概率校准与预结算 Merkle 封存工具。",
+      "summary": "极新的 Robinhood Chain AI 预测市场工具，官网有实际产品结构与合约设计，值得早期跟踪。",
+      "blurb": "Robinhood Chain 上的 Polymarket 概率校准 agent，官网在线。",
+      "round": 2106,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-22 06:01 CST",
+      "addedAt": "2026-11-22 06:01 CST",
+      "lastChecked": "2026-11-22 06:01 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "stash-labs",
       "name": "Stash Labs",
@@ -49055,7 +49151,7 @@
       "addedAt": "2026-11-22 04:53 CST",
       "lastChecked": "2026-11-22 04:53 CST",
       "zoneHint": "挖矿",
-      "newThisRound": true,
+      "newThisRound": false,
       "zone": null
     },
     {
@@ -49100,7 +49196,7 @@
       "addedAt": "2026-11-22 04:53 CST",
       "lastChecked": "2026-11-22 04:53 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "zerolux",
@@ -49144,7 +49240,7 @@
       "addedAt": "2026-11-22 04:53 CST",
       "lastChecked": "2026-11-22 04:53 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "zynko",
@@ -49188,7 +49284,7 @@
       "addedAt": "2026-11-22 04:53 CST",
       "lastChecked": "2026-11-22 04:53 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "ca": "4ZEA1mSLS6i9LgWwzuXC1dc42uZbNzfnsTqUkPbMpump",
       "caUnverified": true
     },
@@ -343000,23 +343096,21 @@
     }
   ],
   "newThisRound": [
-    "zynko",
-    "zerolux",
-    "interpres",
-    "stash-labs"
+    "kalibr",
+    "hadal"
   ],
-  "alertMessage": "DC补漏R2105新收4个：ZYNKO、Zero Lux、Interpes、Stash Labs；https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R2106新收 KALIBR、Hadal；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "stockbox",
     "chimi-giwa"
   ],
-  "updatedAt": "2026-11-22 04:53 CST",
-  "updated": "2026-11-22 04:53 CST",
+  "updatedAt": "2026-11-22 06:01 CST",
+  "updated": "2026-11-22 06:01 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-22 04:53 CST",
+  "lastScout": "2026-11-22 06:01 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -343058,7 +343152,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4683,
+  "candidateCount": 4685,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -347591,5 +347685,9 @@
     "zerolux",
     "interpres",
     "stash-labs"
+  ],
+  "round2106Added": [
+    "kalibr",
+    "hadal"
   ]
 }
