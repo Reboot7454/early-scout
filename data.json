@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-21 16:03 CST",
+    "updated": "2026-11-21 17:03 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-21 16:03 CST",
+    "lastScout": "2026-11-21 17:03 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -861,7 +861,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2092,
+    "round": 2093,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2405,7 +2405,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "hoodrith"
+      "gitfi",
+      "trenchcomms"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -5240,17 +5241,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-21 15:59",
-      "lastChecked": "2026-11-21 16:03 CST",
-      "newestCardTime": "2026-11-21 15:59",
-      "cardsAfterCutoff": 33,
-      "note": "R2092：Discord alpha 补收 hoodrith；清 hagitrade；lastSeen→2026-11-21 15:59；lastChecked→2026-11-21 16:03 CST",
-      "lastRound": 2092,
+      "lastSeen": "2026-11-21 17:00",
+      "lastChecked": "2026-11-21 17:03 CST",
+      "newestCardTime": "2026-11-21 17:00",
+      "cardsAfterCutoff": 31,
+      "note": "R2093：Discord alpha 补收 gitfi,trenchcomms；跳过 [{'id': 'luckdrop', 'reason': 'dup'}]；清 hoodrith；lastSeen→2026-11-21 17:00；lastChecked→2026-11-21 17:03 CST",
+      "lastRound": 2093,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-21 15:59",
+        "alpha-3-new-accounts": "2026-11-21 17:00",
         "alpha-1-backup": "2026-11-21 14:14",
-        "smart-accounts-tracker": "2026-11-21 15:03",
-        "alpha-1": "2026-11-21 15:44"
+        "smart-accounts-tracker": "2026-11-21 16:37",
+        "alpha-1": "2026-11-21 16:55"
       }
     },
     "round239Added": [
@@ -48927,9 +48928,105 @@
     ],
     "round2092Added": [
       "hoodrith"
+    ],
+    "round2093Added": [
+      "gitfi",
+      "trenchcomms"
     ]
   },
   "candidates": [
+    {
+      "id": "trenchcomms",
+      "name": "trenchcomms",
+      "handle": "@trenchcomms",
+      "twitter": "@trenchcomms",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/trenchcomms",
+        "site": "https://trenchcomms-production.up.railway.app/"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 4,
+        "overall": 6.0
+      },
+      "highlights": [
+        "自动翻译的 trenches 全球聊天",
+        "兼容多终端"
+      ],
+      "drawbacks": [
+        "站点仍为 railway 测试域名，无代币线索",
+        "17 粉，产品未实测"
+      ],
+      "whatsNew": "推出跨终端自动翻译交易群聊",
+      "summary": "给 trenches 用的全球聊天：每个币一个群，自动翻译、兼容各交易终端，带喊单/PnL/语音/KOL 徽章，自称免费；07-12 建号/17粉，被 @ethereum 关注；无代币。",
+      "blurb": "早期交易社群工具，观察。",
+      "round": 2093,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 17,
+      "xFollowers": 17,
+      "firstSeen": "2026-11-21 17:03 CST",
+      "addedAt": "2026-11-21 17:03 CST",
+      "lastChecked": "2026-11-21 17:03 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "gitfi",
+      "name": "GitFi",
+      "handle": "@gitfilink",
+      "twitter": "@gitfilink",
+      "chain": "多链（EVM，含 Robinhood Chain / Arc）",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/GitFiLink",
+        "site": "https://gitfi.link/"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 5,
+        "overall": 6.3
+      },
+      "highlights": [
+        "跨链 Swap+Bridge 已上线 gitfi.link",
+        "11-21 接入 Robinhood Chain 为桥目的地，11-20 接入 Arc",
+        "被 @robinhoodcrypto 关注（卡片 16:43）"
+      ],
+      "drawbacks": [
+        "10 粉，社交信号弱",
+        "无代币/积分/空投线索",
+        "桥类工具，团队与审计未知"
+      ],
+      "whatsNew": "11-21 官宣 Robinhood Chain 成为 GitFi 跨链桥目的地",
+      "summary": "跨链 Swap/Bridge 路由，已接 Robinhood Chain 与 Arc；10-03 建号/10粉，被 @robinhoodcrypto 关注；暂无代币或积分。",
+      "blurb": "早期跨链聚合器，可先观察。",
+      "round": 2093,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 10,
+      "xFollowers": 10,
+      "firstSeen": "2026-11-21 17:03 CST",
+      "addedAt": "2026-11-21 17:03 CST",
+      "lastChecked": "2026-11-21 17:03 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "hoodrith",
       "name": "HoodRith",
@@ -48975,7 +49072,7 @@
       "addedAt": "2026-11-21 16:03 CST",
       "lastChecked": "2026-11-21 16:03 CST",
       "zoneHint": "打新",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "hagitrade",
@@ -340413,23 +340510,71 @@
         "freeLIVE": false,
         "freeMintLIVE": false
       }
+    },
+    {
+      "id": "luckdrop-bsc",
+      "name": "LUCKDROP",
+      "handle": "@luckdropbsc",
+      "twitter": "@luckdropbsc",
+      "chain": "BNB Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Luckdropbsc",
+        "site": "https://luckdrop.xyz/"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 4,
+        "actionable": 4,
+        "overall": 5.0
+      },
+      "highlights": [
+        "BNB Chain 链上彩票，自称 Chainlink VRF 随机、唯一开奖号码、奖池分配透明",
+        "11-21 回复称 next week 上线，尚未开跑"
+      ],
+      "drawbacks": [
+        "2023-03 老号改用，17 粉/3 推",
+        "无合约，玩法未实测",
+        "彩票类同质化，团队未知"
+      ],
+      "whatsNew": "11-21 官宣 Chainlink VRF 链上彩票，回复称下周上线",
+      "summary": "BNB Chain 链上彩票 LUCKDROP（luckdrop.xyz），自称 Chainlink VRF 开奖，下周上线；与面板已有 Base Sepolia 的 luckdrop_app 不是同一号。",
+      "blurb": "BNB 链上彩票，称下周上线。",
+      "round": 2093,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 17,
+      "xFollowers": 17,
+      "firstSeen": "2026-11-21 17:03 CST",
+      "addedAt": "2026-11-21 17:03 CST",
+      "lastChecked": "2026-11-21 17:03 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
     }
   ],
   "newThisRound": [
-    "hoodrith"
+    "gitfi",
+    "trenchcomms",
+    "luckdrop-bsc"
   ],
-  "alertMessage": "DC补漏R2092新收：HoodRith（@Hoodrith）｜台子/Meme：Robinhood Chain 777 枚 NFT 新盘，关注铸造；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R2093新收3（台子/Meme）：GitFi 跨链桥接入 Robinhood Chain、trenchcomms 交易群聊工具、LUCKDROP BNB链上彩票（称下周上线）；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "stockbox",
     "chimi-giwa"
   ],
-  "updatedAt": "2026-11-21 16:03 CST",
-  "updated": "2026-11-21 16:03 CST",
+  "updatedAt": "2026-11-21 17:03 CST",
+  "updated": "2026-11-21 17:03 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-21 16:03 CST",
+  "lastScout": "2026-11-21 17:03 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -340471,7 +340616,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4628,
+  "candidateCount": 4631,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -344924,5 +345069,9 @@
   ],
   "round2092Added": [
     "hoodrith"
+  ],
+  "round2093Added": [
+    "gitfi",
+    "trenchcomms"
   ]
 }
