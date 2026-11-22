@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-23 02:57 CST",
+    "updated": "2026-11-23 03:55 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-23 02:57 CST",
+    "lastScout": "2026-11-23 03:55 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -861,7 +861,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2127,
+    "round": 2128,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2405,7 +2405,9 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "petrocraniums"
+      "keeldotfun",
+      "orbwright",
+      "vetoed"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -5240,17 +5242,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-23 02:55",
-      "lastChecked": "2026-11-23 02:57 CST",
-      "newestCardTime": "2026-11-23 01:57",
-      "cardsAfterCutoff": 3,
-      "note": "R2127：Discord alpha 补收 petrocraniums；清 owlhood-rh；lastSeen→2026-11-23 02:41；lastChecked→2026-11-23 02:57 CST",
-      "lastRound": 2127,
+      "lastSeen": "2026-11-23 03:53",
+      "lastChecked": "2026-11-23 03:55 CST",
+      "newestCardTime": "2026-11-23 03:53",
+      "cardsAfterCutoff": 49,
+      "note": "R2128：Discord alpha 补收 keeldotfun,orbwright,vetoed；清 petrocraniums；lastSeen→2026-11-23 03:53；共读 49 卡",
+      "lastRound": 2128,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-23 02:53",
-        "alpha-1-backup": "2026-11-23 02:44",
-        "smart-accounts-tracker": "2026-11-23 01:03",
-        "alpha-1": "2026-11-23 02:55"
+        "alpha-3-new-accounts": "2026-11-23 03:49",
+        "alpha-1-backup": "2026-11-23 03:44",
+        "smart-accounts-tracker": "2026-11-23 03:53",
+        "alpha-1": "2026-11-23 03:51"
       }
     },
     "round239Added": [
@@ -49114,9 +49116,149 @@
     ],
     "round2127Added": [
       "petrocraniums"
+    ],
+    "round2128Added": [
+      "keeldotfun",
+      "orbwright",
+      "vetoed"
     ]
   },
   "candidates": [
+    {
+      "id": "vetoed",
+      "name": "Vetoed",
+      "handle": "@vetoedxyz",
+      "twitter": "@vetoedxyz",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Vetoedxyz",
+        "site": "http://vetoed.xyz"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 5.9
+      },
+      "highlights": [
+        "官网+明确功能：规则监控、告警、一键停机",
+        "针对 AI agent 钱包安全"
+      ],
+      "drawbacks": [
+        "仍为 Launching soon，未上线",
+        "仅 1 条推文，数据低"
+      ],
+      "whatsNew": "新发现：Robinhood Chain 上 AI agent 钱包的监控与一键停机工具。",
+      "summary": "Vetoed 为 AI agent 钱包提供规则监控、告警和一键 Stop，官网已上线但产品仍处预告阶段。",
+      "blurb": "AI agent 钱包安全开关，早期预告。",
+      "round": 2128,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 6,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-23 03:55 CST",
+      "addedAt": "2026-11-23 03:55 CST",
+      "lastChecked": "2026-11-23 03:55 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "orbwright",
+      "name": "ORBWRIGHT",
+      "handle": "@orbwright",
+      "twitter": "@orbwright",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/orbwright",
+        "site": "https://orbwright.xyz"
+      },
+      "scores": {
+        "early": 8.5,
+        "risk": 6.5,
+        "novelty": 7,
+        "actionable": 6.5,
+        "overall": 6.7
+      },
+      "highlights": [
+        "官网+3 条推文，披露按调用收费和链上分账",
+        "AI agent 按 USDG 售卖任务，有公开收据"
+      ],
+      "drawbacks": [
+        "Robinhood Chain 生态早期，需求未验证",
+        "粉丝极少"
+      ],
+      "whatsNew": "新发现：可写入任务并生成按调用收费 AI agent 的市场。",
+      "summary": "ORBWRIGHT 让用户编写任务并生成 AI agent 按次售卖，费用与分账在链上公开。",
+      "blurb": "AI agent 按调用收费的链上任务市场。",
+      "round": 2128,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 13,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-23 03:55 CST",
+      "addedAt": "2026-11-23 03:55 CST",
+      "lastChecked": "2026-11-23 03:55 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "keeldotfun",
+      "name": "Keel",
+      "handle": "@keeldotfun",
+      "twitter": "@keeldotfun",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/keeldotfun",
+        "site": "http://keeldot.fun"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.6
+      },
+      "highlights": [
+        "定位为 Robinhood Chain 上的发射台/地板回购机制",
+        "已有独立官网 keeldot.fun"
+      ],
+      "drawbacks": [
+        "仅 1 条推文且称 soon，产品未上线",
+        "社媒数据极低"
+      ],
+      "whatsNew": "新发现：Robinhood Chain 发射台概念，强调全供应回购地板。",
+      "summary": "Keel 是 Robinhood Chain 上的发射台项目，主打为每个币提供回购地板，目前仅有官网和预告推文。",
+      "blurb": "Robinhood Chain 发射台概念，地板回购机制待验证。",
+      "round": 2128,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 6,
+      "xFollowers": null,
+      "firstSeen": "2026-11-23 03:55 CST",
+      "addedAt": "2026-11-23 03:55 CST",
+      "lastChecked": "2026-11-23 03:55 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
     {
       "id": "petrocraniums",
       "name": "PetroCraniums",
@@ -49161,7 +49303,7 @@
       "addedAt": "2026-11-23 02:57 CST",
       "lastChecked": "2026-11-23 02:57 CST",
       "zoneHint": "打新",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "owlhood-rh",
@@ -346056,20 +346198,22 @@
     }
   ],
   "newThisRound": [
-    "petrocraniums"
+    "keeldotfun",
+    "orbwright",
+    "vetoed"
   ],
-  "alertMessage": "DC补漏R2127新收1个：@PetroCraniums（打新·ERC-404骷髅NFT，OG免费mint，早期跟进）；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R2128新收Keel、ORBWRIGHT、Vetoed；https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "stockbox",
     "chimi-giwa"
   ],
-  "updatedAt": "2026-11-23 02:57 CST",
-  "updated": "2026-11-23 02:57 CST",
+  "updatedAt": "2026-11-23 03:55 CST",
+  "updated": "2026-11-23 03:55 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-23 02:57 CST",
+  "lastScout": "2026-11-23 03:55 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -346111,7 +346255,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4748,
+  "candidateCount": 4751,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -350751,5 +350895,10 @@
   ],
   "round2127Added": [
     "petrocraniums"
+  ],
+  "round2128Added": [
+    "keeldotfun",
+    "orbwright",
+    "vetoed"
   ]
 }
