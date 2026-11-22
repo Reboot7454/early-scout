@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-22 07:58 CST",
+    "updated": "2026-11-22 08:52 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-22 07:58 CST",
+    "lastScout": "2026-11-22 08:52 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -861,7 +861,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2108,
+    "round": 2109,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2405,7 +2405,11 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "tapefinance"
+      "outcry",
+      "stallion-market",
+      "xander-terminal",
+      "atlasfi",
+      "bloops"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -5240,17 +5244,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-22 07:55",
-      "lastChecked": "2026-11-22 07:58 CST",
-      "newestCardTime": "2026-11-22 06:51",
-      "cardsAfterCutoff": 3,
-      "note": "R2108：Discord alpha 补收 tapefinance；清 vintage-registry；lastSeen→2026-11-22 07:33；lastChecked→2026-11-22 07:58 CST",
-      "lastRound": 2108,
+      "lastSeen": "2026-11-22 08:47",
+      "lastChecked": "2026-11-22 08:52 CST",
+      "newestCardTime": "2026-11-22 07:55",
+      "cardsAfterCutoff": 7,
+      "note": "R2109：Discord alpha 补收 outcry,stallion-market,xander-terminal,atlasfi,bloops；清 tapefinance；lastSeen→2026-11-22 08:47；lastChecked→2026-11-22 08:52 CST",
+      "lastRound": 2109,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-22 07:55",
+        "alpha-3-new-accounts": "2026-11-22 08:47",
         "alpha-1-backup": "2026-11-22 05:44",
-        "smart-accounts-tracker": "2026-11-22 07:31",
-        "alpha-1": "2026-11-22 06:37"
+        "smart-accounts-tracker": "2026-11-22 08:33",
+        "alpha-1": "2026-11-22 08:40"
       }
     },
     "round239Added": [
@@ -49017,9 +49021,239 @@
     ],
     "round2108Added": [
       "tapefinance"
+    ],
+    "round2109Added": [
+      "outcry",
+      "stallion-market",
+      "xander-terminal",
+      "atlasfi",
+      "bloops"
     ]
   },
   "candidates": [
+    {
+      "id": "bloops",
+      "name": "BLOOPS",
+      "handle": "@bloops_nft",
+      "twitter": "@bloops_nft",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/Bloops_nft"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 5,
+        "novelty": 5,
+        "actionable": 7,
+        "overall": 6.5
+      },
+      "highlights": [
+        "2,222 枚供应量的 NFT，宣称在 Robinhood Chain 发射",
+        "已被 @em_marvi_x 关注，有小范围传播"
+      ],
+      "drawbacks": [
+        "仅 1 条推文，无 mint 时间/价格/白名单细节",
+        "艺术与团队信息全无"
+      ],
+      "whatsNew": "新 NFT 项目 BLOOPS 宣布 2,222 枚将在 Robinhood Chain 上线",
+      "summary": "BLOOPS 为 2,222 枚供应的 NFT 合集，宣称登陆 Robinhood Chain，账号极新仅有发射公告，暂无 mint 细则。",
+      "blurb": "2,222 枚 NFT 宣布登陆 Robinhood Chain，细则待出。",
+      "round": 2109,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 32,
+      "xFollowers": 27,
+      "firstSeen": "2026-11-22 08:52 CST",
+      "addedAt": "2026-11-22 08:52 CST",
+      "lastChecked": "2026-11-22 08:52 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "atlasfi",
+      "name": "AtlasFi",
+      "handle": "@atlasfihq",
+      "twitter": "@atlasfihq",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/AtlasFiHQ"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.0
+      },
+      "highlights": [
+        "跨场所 perps 真实成本（手续费/资金费/点差）对比",
+        "含提醒与 paper trading，自称 ATLAS 部署在 LayerZero"
+      ],
+      "drawbacks": [
+        "LZ 部署未核验，需自行确认",
+        "粉丝极少，产品入口未给出"
+      ],
+      "whatsNew": "perps 交易成本对比+提醒工具，称代币 ATLAS 走 LayerZero、部署在 Robinhood Chain",
+      "summary": "做永续合约真实成本对比的工具，按场所拆分手续费、资金费与点差，并提供提醒与模拟盘；自称 ATLAS 代币基于 LayerZero、目标链为 Robinhood Chain。",
+      "blurb": "perps 成本对比工具，自称 LZ 部署（未核验）。",
+      "round": 2109,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 5,
+      "xFollowers": 4,
+      "firstSeen": "2026-11-22 08:52 CST",
+      "addedAt": "2026-11-22 08:52 CST",
+      "lastChecked": "2026-11-22 08:52 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "xander-terminal",
+      "name": "Xander Terminal",
+      "handle": "@xanderterminal",
+      "twitter": "@xanderterminal",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/xanderterminal",
+        "website": "https://xanderterminal.io",
+        "telegram": "https://t.me/XanderTerminalBot"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 5,
+        "novelty": 5,
+        "actionable": 7,
+        "overall": 6.5
+      },
+      "highlights": [
+        "0% swap、0.4% 跟单的低费率定位",
+        "已进入 public beta，有 t.me bot 可直接使用"
+      ],
+      "drawbacks": [
+        "0 条推文，仅有 bio 与站点",
+        "TG 交易 bot 赛道极度拥挤"
+      ],
+      "whatsNew": "低费率 Telegram 交易 bot 开放公测，含跟单、限价与 snipe",
+      "summary": "主打最低费率的 Telegram 交易 bot，swap 0 手续费、跟单 0.4%，含限价与狙击功能，现已公开测试并有官网与 bot 入口。",
+      "blurb": "低费率 TG 交易 bot，public beta 已开放。",
+      "round": 2109,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 5,
+      "xFollowers": null,
+      "firstSeen": "2026-11-22 08:52 CST",
+      "addedAt": "2026-11-22 08:52 CST",
+      "lastChecked": "2026-11-22 08:52 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "stallion-market",
+      "name": "STALLION MARKET",
+      "handle": "@stalliononeth",
+      "twitter": "@stalliononeth",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/STALLIONONETH",
+        "website": "https://stallionmarket.app"
+      },
+      "scores": {
+        "early": 7,
+        "risk": 6,
+        "novelty": 5,
+        "actionable": 6,
+        "overall": 5.8
+      },
+      "highlights": [
+        "有官网 stallionmarket.app 与 Telegram 生态关联",
+        "宣称自动核验开发者销毁与每个上币审查"
+      ],
+      "drawbacks": [
+        "粉丝仅 9、影响力极小",
+        "透明市场类叙事同质化严重"
+      ],
+      "whatsNew": "新上线的透明化代币市场，强调链上销毁核验与自动上币审查",
+      "summary": "透明优先的非托管代币市场，宣称对开发者销毁做链上核验、对每个 listing 自动审查，已有官网与 50 条推文运营痕迹，但受众几乎为零。",
+      "blurb": "链上销毁核验型代币市场，有站点但声量极小。",
+      "round": 2109,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 9,
+      "xFollowers": 9,
+      "firstSeen": "2026-11-22 08:52 CST",
+      "addedAt": "2026-11-22 08:52 CST",
+      "lastChecked": "2026-11-22 08:52 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "outcry",
+      "name": "Outcry",
+      "handle": "@outcryworld",
+      "twitter": "@outcryworld",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/outcryworld"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.8
+      },
+      "highlights": [
+        "面向 AI agent 与 pons 币的交易台，含风险校验与链上 calls 打分",
+        "绑定 Robinhood Chain 生态热点"
+      ],
+      "drawbacks": [
+        "账号创建仅一天、1 条推文 3 粉丝",
+        "无产品链接/无截图，纯 bio 描述"
+      ],
+      "whatsNew": "新出现的 Robinhood Chain 交易终端概念，主打 agent 与链上 PnL 榜单",
+      "summary": "自称 Robinhood Chain 上人与 AI agent 的交易台，覆盖 pons 币实时列表、逐币风险检查与链上 calls 评分榜；目前只有文字描述，尚无可用产品入口。",
+      "blurb": "Robinhood Chain 的 agent 交易台，功能描述具体但产品未落地。",
+      "round": 2109,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 3,
+      "xFollowers": null,
+      "firstSeen": "2026-11-22 08:52 CST",
+      "addedAt": "2026-11-22 08:52 CST",
+      "lastChecked": "2026-11-22 08:52 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "tapefinance",
       "name": "tapefinance",
@@ -49065,7 +49299,7 @@
       "addedAt": "2026-11-22 07:58 CST",
       "lastChecked": "2026-11-22 07:58 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "vintage-registry",
@@ -343198,20 +343432,24 @@
     }
   ],
   "newThisRound": [
-    "tapefinance"
+    "outcry",
+    "stallion-market",
+    "xander-terminal",
+    "atlasfi",
+    "bloops"
   ],
-  "alertMessage": "DC补漏R2108新收1条：@tapefinancerwa（tapefinance，台子/Meme，Robinhood Chain极早期RWA执行层）；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R2109新收5个：Outcry、STALLION MARKET、Xander Terminal、AtlasFi、BLOOPS；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "stockbox",
     "chimi-giwa"
   ],
-  "updatedAt": "2026-11-22 07:58 CST",
-  "updated": "2026-11-22 07:58 CST",
+  "updatedAt": "2026-11-22 08:52 CST",
+  "updated": "2026-11-22 08:52 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-22 07:58 CST",
+  "lastScout": "2026-11-22 08:52 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -343253,7 +343491,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4687,
+  "candidateCount": 4692,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -347796,5 +348034,12 @@
   ],
   "round2108Added": [
     "tapefinance"
+  ],
+  "round2109Added": [
+    "outcry",
+    "stallion-market",
+    "xander-terminal",
+    "atlasfi",
+    "bloops"
   ]
 }
