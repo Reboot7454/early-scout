@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-22 23:55 CST",
+    "updated": "2026-11-23 00:56 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-22 23:55 CST",
+    "lastScout": "2026-11-23 00:56 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -861,7 +861,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2124,
+    "round": 2125,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2405,11 +2405,13 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "launch-zero",
-      "vexon",
-      "flonde-agents",
-      "juriq",
-      "scoutra"
+      "lunarlabs-rh",
+      "yodogames",
+      "lavfactory",
+      "railpayapp",
+      "solcameo",
+      "arbiqdotfun",
+      "lotzcommunity"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -5244,17 +5246,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-22 23:52",
-      "lastChecked": "2026-11-22 23:55 CST",
-      "newestCardTime": "2026-11-22 22:52",
-      "cardsAfterCutoff": 8,
-      "note": "R2124：Discord alpha 补收 launch-zero,vexon,flonde-agents,juriq,scoutra；清 0padtrade,tolseytools,sibylcredits,umpiradotai,brainex-ai；lastSeen→2026-11-22 23:47；lastChecked→2026-11-22 23:55 CST",
-      "lastRound": 2124,
+      "lastSeen": "2026-11-23 00:53",
+      "lastChecked": "2026-11-23 00:56 CST",
+      "newestCardTime": "2026-11-22 23:52",
+      "cardsAfterCutoff": 10,
+      "note": "R2125：Discord alpha 补收 lunarlabs-rh,yodogames,lavfactory,railpayapp,solcameo,arbiqdotfun,lotzcommunity；清 scoutra,juriq,flonde-agents,vexon,launch-zero；lastSeen→2026-11-23 00:49；lastChecked→2026-11-23 00:56 CST",
+      "lastRound": 2125,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-22 23:52",
-        "alpha-1-backup": "2026-11-22 23:30",
-        "smart-accounts-tracker": "2026-11-22 23:11",
-        "alpha-1": "2026-11-22 23:45"
+        "alpha-3-new-accounts": "2026-11-23 00:53",
+        "alpha-1-backup": "2026-11-23 00:15",
+        "smart-accounts-tracker": "2026-11-23 00:27",
+        "alpha-1": "2026-11-23 00:41"
       }
     },
     "round239Added": [
@@ -49103,9 +49105,331 @@
       "flonde-agents",
       "juriq",
       "scoutra"
+    ],
+    "round2125Added": [
+      "lunarlabs-rh",
+      "yodogames",
+      "lavfactory",
+      "railpayapp",
+      "solcameo",
+      "arbiqdotfun",
+      "lotzcommunity"
     ]
   },
   "candidates": [
+    {
+      "id": "lotzcommunity",
+      "name": "Lotz",
+      "handle": "@lotzcommunity",
+      "twitter": "@lotzcommunity",
+      "chain": "",
+      "category": "GO盘",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/lotzcommunity"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 7,
+        "overall": 6.3
+      },
+      "highlights": [
+        "每个像素有标价，可 1.5x 强行夺地",
+        "所有付款进入锁仓池，资金留存机制明确",
+        "卡面粉丝 81 / X 粉丝上百，早期有热度"
+      ],
+      "drawbacks": [
+        "无官网与合约地址，玩法未公开实现",
+        "庞氏式夺地模型，后入者赔付风险高"
+      ],
+      "whatsNew": "新社区号上线像素夺地盘玩法描述",
+      "summary": "Lotz 是像素地块博弈盘：买入地块或被 1.5 倍价夺走，全部资金进锁仓池，玩法线索明确且有初步社区热度，但尚无站点与合约公示。",
+      "blurb": "像素地块 1.5x 夺地盘，机制有趣但待验证。",
+      "round": 2125,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 81,
+      "xFollowers": 81,
+      "firstSeen": "2026-11-23 00:56 CST",
+      "addedAt": "2026-11-23 00:56 CST",
+      "lastChecked": "2026-11-23 00:56 CST",
+      "zoneHint": "GO盘",
+      "newThisRound": true
+    },
+    {
+      "id": "arbiqdotfun",
+      "name": "ARBIQ AI",
+      "handle": "@arbiqdotfun",
+      "twitter": "@arbiqdotfun",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/arbiqdotfun"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 8,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.2
+      },
+      "highlights": [
+        "robot run log 仲裁打分 0-100 的免费 API",
+        "x402 按次付费，$ARBIQ 持仓可换每日免费额度",
+        "合约已公布于 Robinhood Chain"
+      ],
+      "drawbacks": [
+        "无官网，仅推文说明产品",
+        "代币与 API 的实际绑定未经验证"
+      ],
+      "whatsNew": "$ARBIQ 上线，绑定 API key 可提高每日免费调用",
+      "summary": "ARBIQ 做机器执行日志的第三方仲裁打分 API，采用 x402 付费，并发行 $ARBIQ 做额度折扣，产品逻辑具体但仅推特自述。",
+      "blurb": "机器任务仲裁 API + 代币，x402 付费模式。",
+      "round": 2125,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": 1,
+      "firstSeen": "2026-11-23 00:56 CST",
+      "addedAt": "2026-11-23 00:56 CST",
+      "lastChecked": "2026-11-23 00:56 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "solcameo",
+      "name": "Solcameo",
+      "handle": "@solcameo",
+      "twitter": "@solcameo",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/solcameo"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 6,
+        "overall": 6.1
+      },
+      "highlights": [
+        "AI 网红角色发射台，每个角色自带代币",
+        "bio 直接给出官方 CA，可即时交易",
+        "solcameo.com 站点在线"
+      ],
+      "drawbacks": [
+        "网络内 AI 网红数量为 0，冷启动风险高",
+        "AI 名人代币赛道拥挤，同质化严重"
+      ],
+      "whatsNew": "公布官方 CA 并预告 AI 网红角色陆续上线",
+      "summary": "Solcameo 是 Solana 上面向 AI 网红的代币发射台，官网与官方 CA 齐备，模式为每个 AI 角色绑定一枚币，处极早期冷启动阶段。",
+      "blurb": "AI 网红代币发射台，官网+CA 已就绪。",
+      "round": 2125,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 10,
+      "xFollowers": 10,
+      "firstSeen": "2026-11-23 00:56 CST",
+      "addedAt": "2026-11-23 00:56 CST",
+      "lastChecked": "2026-11-23 00:56 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "railpayapp",
+      "name": "RailPay",
+      "handle": "@railpayapp",
+      "twitter": "@railpayapp",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/railpayapp"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.8
+      },
+      "highlights": [
+        "25 页官方文档上线，含结算/发票/agent 钱包",
+        "开源 SDK 与 MCP server，支持 x402 付费墙"
+      ],
+      "drawbacks": [
+        "尚无代币与发行计划",
+        "卡面粉丝为零，仅文档可验证"
+      ],
+      "whatsNew": "全套结算文档与开源 SDK、MCP server 发布",
+      "summary": "RailPay 做实时稳定币结算与 agent 钱包/x402 支付，已放出完整文档与开源组件，属真实在做事的早期支付基础设施，但暂无代币入口。",
+      "blurb": "稳定币结算 + x402 支付基础设施，文档先行。",
+      "round": 2125,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-23 00:56 CST",
+      "addedAt": "2026-11-23 00:56 CST",
+      "lastChecked": "2026-11-23 00:56 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "lavfactory",
+      "name": "lavFACTORY",
+      "handle": "@lavfactory",
+      "twitter": "@lavfactory",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/lavfactory"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 5.8
+      },
+      "highlights": [
+        "明确部署于 Robinhood Chain 的流动账户金库",
+        "双引擎 + 95/5 ragequit 退出地板机制",
+        "官网 lavfactory.xyz 可查"
+      ],
+      "drawbacks": [
+        "无协议代币，短期无打新入口",
+        "机制文档仅一句描述，深度不足"
+      ],
+      "whatsNew": "新上线金库协议，公开 ragequit 地板与双引擎设计",
+      "summary": "lavFACTORY 是 Robinhood Chain 上的流动账户金库协议，提出双引擎与 95/5 退出地板机制，明确不发协议代币；产品线索真实但参与路径有限。",
+      "blurb": "Robinhood Chain 金库协议，机制新但暂无代币。",
+      "round": 2125,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 8,
+      "xFollowers": 8,
+      "firstSeen": "2026-11-23 00:56 CST",
+      "addedAt": "2026-11-23 00:56 CST",
+      "lastChecked": "2026-11-23 00:56 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "yodogames",
+      "name": "YODO",
+      "handle": "@yodogames",
+      "twitter": "@yodogames",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/yodogames"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 7,
+        "overall": 6.7
+      },
+      "highlights": [
+        "yodo.games 已上线，免费浏览器游戏",
+        "死亡后僵尸追杀下一位玩家的继承玩法",
+        "$YODO 于 Pons 17:00 UTC 发射"
+      ],
+      "drawbacks": [
+        "代币经济与合约未公开",
+        "团队匿名，社区规模极小"
+      ],
+      "whatsNew": "免费网页游戏正式开页并公布 Pons 发射时间",
+      "summary": "YODO 是带僵尸继承机制的免费浏览器游戏，官网已可访问，$YODO 明确在 Pons 发射，玩法与时间点清晰，属可跟进的早期 GameFi/Meme 发射。",
+      "blurb": "僵尸继承玩法网页游戏，Pons 发射有明确时间。",
+      "round": 2125,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 2,
+      "xFollowers": 2,
+      "firstSeen": "2026-11-23 00:56 CST",
+      "addedAt": "2026-11-23 00:56 CST",
+      "lastChecked": "2026-11-23 00:56 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "lunarlabs-rh",
+      "name": "Lunar Labs",
+      "handle": "@lunarlabs_rh",
+      "twitter": "@lunarlabs_rh",
+      "chain": "",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/lunarlabs_rh"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 8,
+        "novelty": 5,
+        "actionable": 6,
+        "overall": 6.0
+      },
+      "highlights": [
+        "bio 描述持久记忆型 AI agent 产品",
+        "推文已放 $LUNE 合约，可即时参与"
+      ],
+      "drawbacks": [
+        "无官网/文档，产品不可验证",
+        "账号与卡面粉丝几乎为零，疑似单人发射"
+      ],
+      "whatsNew": "新号首发 $LUNE 合约，主打跨任务记忆的 AI 工程师",
+      "summary": "AI agent 概念新号，宣称做可积累记忆的自动化工程师，并已挂出 $LUNE 合约；除文案与 CA 外无任何产品证据，属高风险早期发射。",
+      "blurb": "AI 工程助手叙事新币，已出 CA，无站可验。",
+      "round": 2125,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-23 00:56 CST",
+      "addedAt": "2026-11-23 00:56 CST",
+      "lastChecked": "2026-11-23 00:56 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "scoutra",
       "name": "Scoutra",
@@ -49148,7 +49472,7 @@
       "addedAt": "2026-11-22 23:55 CST",
       "lastChecked": "2026-11-22 23:55 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "juriq",
@@ -49192,7 +49516,7 @@
       "addedAt": "2026-11-22 23:55 CST",
       "lastChecked": "2026-11-22 23:55 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "flonde-agents",
@@ -49236,7 +49560,7 @@
       "addedAt": "2026-11-22 23:55 CST",
       "lastChecked": "2026-11-22 23:55 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "vexon",
@@ -49280,7 +49604,7 @@
       "addedAt": "2026-11-22 23:55 CST",
       "lastChecked": "2026-11-22 23:55 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "launch-zero",
@@ -49324,7 +49648,7 @@
       "addedAt": "2026-11-22 23:55 CST",
       "lastChecked": "2026-11-22 23:55 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "0padtrade",
@@ -345640,24 +345964,26 @@
     }
   ],
   "newThisRound": [
-    "launch-zero",
-    "vexon",
-    "flonde-agents",
-    "juriq",
-    "scoutra"
+    "lunarlabs-rh",
+    "yodogames",
+    "lavfactory",
+    "railpayapp",
+    "solcameo",
+    "arbiqdotfun",
+    "lotzcommunity"
   ],
-  "alertMessage": "DC补漏R2124新收5个台子/Meme：Launch Zero、Vexon、FlondeAgents、Juriq AI、Scoutra；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R2125新收7个：Lunar Labs、YODO、lavFACTORY、RailPay、Solcameo、ARBIQ AI、Lotz；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "stockbox",
     "chimi-giwa"
   ],
-  "updatedAt": "2026-11-22 23:55 CST",
-  "updated": "2026-11-22 23:55 CST",
+  "updatedAt": "2026-11-23 00:56 CST",
+  "updated": "2026-11-23 00:56 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-22 23:55 CST",
+  "lastScout": "2026-11-23 00:56 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -345699,7 +346025,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4739,
+  "candidateCount": 4746,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -350324,5 +350650,14 @@
     "flonde-agents",
     "juriq",
     "scoutra"
+  ],
+  "round2125Added": [
+    "lunarlabs-rh",
+    "yodogames",
+    "lavfactory",
+    "railpayapp",
+    "solcameo",
+    "arbiqdotfun",
+    "lotzcommunity"
   ]
 }
