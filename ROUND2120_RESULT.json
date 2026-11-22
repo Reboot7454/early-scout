@@ -1,0 +1,120 @@
+{
+  "round": 2120,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-22 19:56 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R2120新收5个：Podium-C Agents、Rain Drops、Akari Hood、Sealed、GTA V6 Cards；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "podiumc-agents",
+    "raindrops-one",
+    "akarihood",
+    "sealedarts",
+    "gtav6cards"
+  ],
+  "newCount": 5,
+  "newIds": [
+    "podiumc-agents",
+    "raindrops-one",
+    "akarihood",
+    "sealedarts",
+    "gtav6cards"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 8,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "nullkin",
+    "engramnlab"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "nullkin",
+    "engramnlab"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=5",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-22 19:52",
+    "lastChecked": "2026-11-22 19:56 CST",
+    "newestCardTime": "2026-11-22 19:00",
+    "cardsAfterCutoff": 8,
+    "note": "R2120：Discord alpha 补收 podiumc-agents,raindrops-one,akarihood,sealedarts,gtav6cards；清 nullkin,engramnlab；lastSeen→2026-11-22 19:50；lastChecked→2026-11-22 19:56 CST",
+    "lastRound": 2120,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-22 19:49",
+      "alpha-1-backup": "2026-11-22 19:30",
+      "smart-accounts-tracker": "2026-11-22 19:06",
+      "alpha-1": "2026-11-22 19:52"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R2120：Discord alpha 补收 podiumc-agents,raindrops-one,akarihood,sealedarts,gtav6cards；清 nullkin,engramnlab；lastSeen→2026-11-22 19:50；lastChecked→2026-11-22 19:56 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_enriched_r2120.json",
+  "priorRoundNote": "R2119 meta NTR ['engramnlab', 'nullkin']; cardsAfterCutoff=8",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-22 19:49",
+    "alpha-1-backup": "2026-11-22 19:30",
+    "smart-accounts-tracker": "2026-11-22 19:06",
+    "alpha-1": "2026-11-22 19:52"
+  },
+  "cardsRead": 8,
+  "rejected": [
+    {
+      "handle": "@MeowDFluffy",
+      "reason": "纯 meme 喊单，无合约地址、发售平台或玩法线索，属空壳"
+    },
+    {
+      "handle": "@enkhora_ai",
+      "reason": "只有愿景式叙事，无产品上线、发售或代币发放线索"
+    },
+    {
+      "handle": "@kasokuxyz",
+      "reason": "零推文、无产品与发射线索，仅一句定位描述"
+    }
+  ],
+  "rejectedCount": 3,
+  "dsRejects": 3,
+  "admissions": [
+    {
+      "id": "podiumc-agents",
+      "handle": "@podiumc_agents",
+      "category": "打新",
+      "name": "Podium - C Agents"
+    },
+    {
+      "id": "raindrops-one",
+      "handle": "@RainDrops__One",
+      "category": "台子/Meme",
+      "name": "Rain Drops"
+    },
+    {
+      "id": "akarihood",
+      "handle": "@akarihood",
+      "category": "打新",
+      "name": "Akari Hood"
+    },
+    {
+      "id": "sealedarts",
+      "handle": "@Sealedarts",
+      "category": "打新",
+      "name": "Sealed"
+    },
+    {
+      "id": "gtav6cards",
+      "handle": "@GTAV6Cards",
+      "category": "打新",
+      "name": "GTA V6 Cards"
+    }
+  ],
+  "alert": "DC补漏R2120新收5个：Podium-C Agents、Rain Drops、Akari Hood、Sealed、GTA V6 Cards；面板 https://reboot7454.github.io/early-scout/"
+}
