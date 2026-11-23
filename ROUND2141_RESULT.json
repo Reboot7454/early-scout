@@ -1,0 +1,103 @@
+{
+  "round": 2141,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-23 16:56 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R2141新收1（台子/Meme 1）：OmniQA @omniqa_rh（Robinhood Chain 聚合路由，一次签名跨 hook/bin/range 市场取最优成交，omniqa.site 200，11-21 建号/242粉，无 CA，未实测）；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "omniqa"
+  ],
+  "newCount": 1,
+  "newIds": [
+    "omniqa"
+  ],
+  "skipped": [
+    {
+      "id": "dogstarter",
+      "reason": "dup"
+    }
+  ],
+  "cardsAfterLastSeen": 4,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "vantaliquid",
+    "gyeolmarkets",
+    "ratinolehq"
+  ],
+  "candidateFlagsCleared": 3,
+  "topNewThisRoundCleared": [
+    "vantaliquid",
+    "gyeolmarkets",
+    "ratinolehq"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=2",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-23 16:53",
+    "lastChecked": "2026-11-23 16:56 CST",
+    "newestCardTime": "2026-11-23 16:53",
+    "cardsAfterCutoff": 4,
+    "note": "R2141：Discord alpha 补收 omniqa；跳过 [{'id': 'dogstarter', 'reason': 'dup'}]；清 vantaliquid,gyeolmarkets,ratinolehq；lastSeen→2026-11-23 16:35；lastChecked→2026-11-23 16:56 CST",
+    "lastRound": 2141,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-23 16:53",
+      "alpha-1-backup": "2026-11-23 16:44",
+      "smart-accounts-tracker": "2026-11-23 16:22",
+      "alpha-1": "2026-11-23 15:47"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R2141：Discord alpha 补收 omniqa；跳过 [{'id': 'dogstarter', 'reason': 'dup'}]；清 vantaliquid,gyeolmarkets,ratinolehq；lastSeen→2026-11-23 16:35；lastChecked→2026-11-23 16:56 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_enriched_r2141.json",
+  "priorRoundNote": "R2140 meta NTR ['ratinolehq', 'gyeolmarkets', 'vantaliquid']; cardsAfterCutoff=4",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-23 16:53",
+    "alpha-1-backup": "2026-11-23 16:44",
+    "smart-accounts-tracker": "2026-11-23 16:22",
+    "alpha-1": "2026-11-23 15:47"
+  },
+  "cardsRead": 35,
+  "rejected": [
+    {
+      "handle": "@Payvetodotfun",
+      "reason": "账号当天刚创建，只有概念文案、没有合约地址（CA）、没有可操作产品，属于空壳概念盘。"
+    },
+    {
+      "handle": "@thefarexyz",
+      "reason": "这是 Robinhood Chain 上的 meme 壳，只有 1 条推文、2 个粉丝，官网内容极少且没有 CA，无法验证玩法。"
+    }
+  ],
+  "rejectedCount": 2,
+  "dsRejects": 2,
+  "admissions": [
+    {
+      "id": "omniqa",
+      "handle": "@omniqa_rh",
+      "category": "台子/Meme",
+      "name": "OmniQA"
+    },
+    {
+      "id": "dogstarter",
+      "handle": "@dogstarterhq",
+      "category": "台子/Meme",
+      "name": "Dogstarter"
+    }
+  ],
+  "alert": "DC补漏R2141新收1（台子/Meme 1）：OmniQA @omniqa_rh（Robinhood Chain 聚合路由，一次签名跨 hook/bin/range 市场取最优成交，omniqa.site 200，11-21 建号/242粉，无 CA，未实测）；面板 https://reboot7454.github.io/early-scout/",
+  "skippedDup": [
+    {
+      "handle": "@dogstarterhq",
+      "reason": "面板已有 dogstarter（@dogstarter，R1828，同站 dogstarter.dog）"
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-23 15:59 CST",
+    "updated": "2026-11-23 16:56 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-23 15:59 CST",
+    "lastScout": "2026-11-23 16:56 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -861,7 +861,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2140,
+    "round": 2141,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2405,9 +2405,7 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "ratinolehq",
-      "gyeolmarkets",
-      "vantaliquid"
+      "omniqa"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -5242,16 +5240,16 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-23 15:51",
-      "lastChecked": "2026-11-23 15:59 CST",
-      "newestCardTime": "2026-11-23 15:51",
-      "cardsAfterCutoff": 39,
-      "note": "R2140：Discord alpha 补收 ratinolehq,gyeolmarkets,vantaliquid；清 eris-labs,playgrilled；lastSeen→2026-11-23 15:51；lastChecked→2026-11-23 15:59 CST",
-      "lastRound": 2140,
+      "lastSeen": "2026-11-23 16:53",
+      "lastChecked": "2026-11-23 16:56 CST",
+      "newestCardTime": "2026-11-23 16:53",
+      "cardsAfterCutoff": 4,
+      "note": "R2141：Discord alpha 补收 omniqa；跳过 [{'id': 'dogstarter', 'reason': 'dup'}]；清 vantaliquid,gyeolmarkets,ratinolehq；lastSeen→2026-11-23 16:35；lastChecked→2026-11-23 16:56 CST",
+      "lastRound": 2141,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-23 15:50",
-        "alpha-1-backup": "2026-11-23 14:14",
-        "smart-accounts-tracker": "2026-11-23 15:51",
+        "alpha-3-new-accounts": "2026-11-23 16:53",
+        "alpha-1-backup": "2026-11-23 16:44",
+        "smart-accounts-tracker": "2026-11-23 16:22",
         "alpha-1": "2026-11-23 15:47"
       }
     },
@@ -49172,9 +49170,58 @@
       "ratinolehq",
       "gyeolmarkets",
       "vantaliquid"
+    ],
+    "round2141Added": [
+      "omniqa"
     ]
   },
   "candidates": [
+    {
+      "id": "omniqa",
+      "name": "OmniQA",
+      "handle": "@omniqa_rh",
+      "twitter": "@omniqa_rh",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/omniqa_rh",
+        "website": "https://www.omniqa.site"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 5,
+        "novelty": 6,
+        "actionable": 4,
+        "overall": 6.0
+      },
+      "highlights": [
+        "官网 omniqa.site 已上线（Every market, one verified answer）",
+        "单次签名跨 hook、bin、range 市场取最优成交"
+      ],
+      "drawbacks": [
+        "没有 CA，也没有代币发行信息",
+        "11-21 建号，只有 242 粉丝和 5 条推文，早期噪音较大"
+      ],
+      "whatsNew": "Robinhood Chain 上的聚合路由方案首次披露：一次签名完成跨市场结算",
+      "summary": "这是 Robinhood Chain 生态中最早的聚合路由项目：用户一次签名即可跨多种市场结构成交，官网已上线，产品形态清晰。",
+      "blurb": "Robinhood Chain 聚合路由，官网已上线，关注其后续发币。",
+      "round": 2141,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-23 16:56 CST",
+      "addedAt": "2026-11-23 16:56 CST",
+      "lastChecked": "2026-11-23 16:56 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true,
+      "website": "https://www.omniqa.site"
+    },
     {
       "id": "vantaliquid",
       "name": "Vanta Liquid",
@@ -49218,7 +49265,7 @@
       "addedAt": "2026-11-23 15:59 CST",
       "lastChecked": "2026-11-23 15:59 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "gyeolmarkets",
@@ -49261,7 +49308,7 @@
       "addedAt": "2026-11-23 15:59 CST",
       "lastChecked": "2026-11-23 15:59 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "ratinolehq",
@@ -49304,7 +49351,7 @@
       "addedAt": "2026-11-23 15:59 CST",
       "lastChecked": "2026-11-23 15:59 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "eris-labs",
@@ -347520,22 +347567,20 @@
     }
   ],
   "newThisRound": [
-    "ratinolehq",
-    "gyeolmarkets",
-    "vantaliquid"
+    "omniqa"
   ],
-  "alertMessage": "DC补漏R2140新收：可解释AI交易agent、泡菜溢价实时追踪、Robinhood Chain永续台子，均极早期观察；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R2141新收1（台子/Meme 1）：OmniQA @omniqa_rh（Robinhood Chain 聚合路由，一次签名跨 hook/bin/range 市场取最优成交，omniqa.site 200，11-21 建号/242粉，无 CA，未实测）；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "stockbox",
     "chimi-giwa"
   ],
-  "updatedAt": "2026-11-23 15:59 CST",
-  "updated": "2026-11-23 15:59 CST",
+  "updatedAt": "2026-11-23 16:56 CST",
+  "updated": "2026-11-23 16:56 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-23 15:59 CST",
+  "lastScout": "2026-11-23 16:56 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -347577,7 +347622,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4779,
+  "candidateCount": 4780,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -352273,5 +352318,8 @@
     "ratinolehq",
     "gyeolmarkets",
     "vantaliquid"
+  ],
+  "round2141Added": [
+    "omniqa"
   ]
 }
