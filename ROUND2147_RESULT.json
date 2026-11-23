@@ -1,0 +1,132 @@
+{
+  "round": 2147,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-23 23:01 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R2147新收3：VANDA @vanda_nfth（打新，BNB Chain 3,333 兰花 NFT 已开 mint，首个免费/预售 0.0001 BNB，须 agent+SPACE ID Agent ID 铸造，NFT 合约 0x0C4E…0419 已 RPC 核）、Glint @glint_bnb（台子/Meme，BNB 点灯解谜游戏，0.001 BNB 付费轮+赞助奖金，合约未核到）、Gkitens Agent @GkitensAgents（台子/Meme，带钱包 AI agent + x402 微支付 Base/Solana，无 CA）；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "gkitens",
+    "vanda",
+    "glint"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "gkitens",
+    "vanda",
+    "glint"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 50,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "leverage-nft",
+    "hashmarket"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "leverage-nft",
+    "hashmarket"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=3",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-23 22:56",
+    "lastChecked": "2026-11-23 23:01 CST",
+    "newestCardTime": "2026-11-23 22:56",
+    "cardsAfterCutoff": 50,
+    "note": "R2147：Discord alpha 补收 gkitens,vanda,glint；清 leverage-nft,hashmarket；lastSeen→2026-11-23 22:56；lastChecked→2026-11-23 23:01 CST",
+    "lastRound": 2147,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-23 22:55",
+      "alpha-1-backup": "2026-11-23 22:29",
+      "smart-accounts-tracker": "2026-11-23 22:56",
+      "alpha-1": "2026-11-23 22:19"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R2147：Discord alpha 补收 gkitens,vanda,glint；清 leverage-nft,hashmarket；lastSeen→2026-11-23 22:56；lastChecked→2026-11-23 23:01 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_enriched_r2147.json",
+  "priorRoundNote": "R2146 meta NTR ['leverage-nft', 'hashmarket']; cardsAfterCutoff=9",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-23 22:55",
+    "alpha-1-backup": "2026-11-23 22:29",
+    "smart-accounts-tracker": "2026-11-23 22:56",
+    "alpha-1": "2026-11-23 22:19"
+  },
+  "cardsRead": 50,
+  "rejected": [
+    {
+      "handle": "@AgentRulivon",
+      "reason": "rulivon.fun 200 但只是交易 agent 共享风险预算的概念 SPA，无代币/发射/mint，今日建号 0 粉"
+    },
+    {
+      "handle": "@SirRonLaamaj",
+      "reason": "个人艺术家号，11-28 起每日 1 个 8K 动物 NFT，无官网/链/平台，1 推"
+    },
+    {
+      "handle": "@iRender_",
+      "reason": "仿 iRender（已有 GPU 云渲染品牌），今日建号 0 粉，irender.ai https 连不上、http 500，疑似仿冒"
+    },
+    {
+      "handle": "@CrabcoinRH",
+      "reason": "RH 链 $PINCH meme，无官网/CA，0 推，空壳"
+    },
+    {
+      "handle": "@darkpayfi",
+      "reason": "RH 链钱包分析/隐私，无官网，1 推，空壳"
+    },
+    {
+      "handle": "@glog_g",
+      "reason": "uselog.xyz 仅 Coming soon，0 推，空壳"
+    },
+    {
+      "handle": "@dimelabspro",
+      "reason": "已收录(dime, R2145)；bio 新增 $DIME on Pons CA 0xbC9D336F98414B2f9517939c3CA6e32baBF85D3e（未核）"
+    },
+    {
+      "handle": "@ordemworld/@GeneralAnalysis/@Zai_org/@tangent_xyz/@prz_chojecki",
+      "reason": "高粉/成熟/非早期"
+    },
+    {
+      "handle": "@FXNProtocol/@onetimelabs",
+      "reason": "无 bio/0 推空壳（FXNProtocol 疑似仿 f(x) Protocol）"
+    },
+    {
+      "handle": "其余个人号",
+      "reason": "个人/空号/Send SOL 讨币号/非 crypto"
+    }
+  ],
+  "rejectedCount": 10,
+  "dsRejects": 6,
+  "admissions": [
+    {
+      "id": "gkitens",
+      "handle": "@GkitensAgents",
+      "category": "台子/Meme",
+      "name": "Gkitens Agent"
+    },
+    {
+      "id": "vanda",
+      "handle": "@vanda_nfth",
+      "category": "打新",
+      "name": "VANDA"
+    },
+    {
+      "id": "glint",
+      "handle": "@glint_bnb",
+      "category": "台子/Meme",
+      "name": "Glint"
+    }
+  ],
+  "alert": "DC补漏R2147新收3：VANDA @vanda_nfth（打新，BNB Chain 3,333 兰花 NFT 已开 mint，首个免费/预售 0.0001 BNB，须 agent+SPACE ID Agent ID 铸造，NFT 合约 0x0C4E…0419 已 RPC 核）、Glint @glint_bnb（台子/Meme，BNB 点灯解谜游戏，0.001 BNB 付费轮+赞助奖金，合约未核到）、Gkitens Agent @GkitensAgents（台子/Meme，带钱包 AI agent + x402 微支付 Base/Solana，无 CA）；面板 https://reboot7454.github.io/early-scout/"
+}
