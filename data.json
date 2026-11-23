@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-23 16:56 CST",
+    "updated": "2026-11-23 18:02 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-23 16:56 CST",
+    "lastScout": "2026-11-23 18:02 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -861,7 +861,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2141,
+    "round": 2142,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2405,7 +2405,11 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "omniqa"
+      "osric-ai",
+      "spegulo",
+      "janua",
+      "gitpaid",
+      "useplumese"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -5240,17 +5244,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-23 16:53",
-      "lastChecked": "2026-11-23 16:56 CST",
-      "newestCardTime": "2026-11-23 16:53",
-      "cardsAfterCutoff": 4,
-      "note": "R2141：Discord alpha 补收 omniqa；跳过 [{'id': 'dogstarter', 'reason': 'dup'}]；清 vantaliquid,gyeolmarkets,ratinolehq；lastSeen→2026-11-23 16:35；lastChecked→2026-11-23 16:56 CST",
-      "lastRound": 2141,
+      "lastSeen": "2026-11-23 17:57",
+      "lastChecked": "2026-11-23 18:02 CST",
+      "newestCardTime": "2026-11-23 17:57",
+      "cardsAfterCutoff": 8,
+      "note": "R2142：Discord alpha 补收 osric-ai,spegulo,janua,gitpaid,useplumese；清 omniqa；lastSeen→2026-11-23 17:53；lastChecked→2026-11-23 18:02 CST",
+      "lastRound": 2142,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-23 16:53",
-        "alpha-1-backup": "2026-11-23 16:44",
-        "smart-accounts-tracker": "2026-11-23 16:22",
-        "alpha-1": "2026-11-23 15:47"
+        "alpha-3-new-accounts": "2026-11-23 17:55",
+        "alpha-1-backup": "2026-11-23 17:29",
+        "smart-accounts-tracker": "2026-11-23 17:57",
+        "alpha-1": "2026-11-23 17:46"
       }
     },
     "round239Added": [
@@ -49173,9 +49177,241 @@
     ],
     "round2141Added": [
       "omniqa"
+    ],
+    "round2142Added": [
+      "osric-ai",
+      "spegulo",
+      "janua",
+      "gitpaid",
+      "useplumese"
     ]
   },
   "candidates": [
+    {
+      "id": "useplumese",
+      "name": "UsePlumese",
+      "handle": "@useplumese",
+      "twitter": "@useplumese",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/UsePlumese",
+        "website": "https://useplumese.xyz"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 7,
+        "actionable": 4,
+        "overall": 6.3
+      },
+      "highlights": [
+        "基于 Uniswap v3 成交重建股票代币实时市场模型",
+        "官网 200，11 推相对活跃"
+      ],
+      "drawbacks": [
+        "产品尚处构建期，无直接交互入口",
+        "粉丝仅 1，社区信号弱"
+      ],
+      "whatsNew": "为 Robinhood Chain 代币化资产提供实时 Market World Model 基础设施。",
+      "summary": "UsePlumese 构建 Robinhood Chain 股票代币的实时市场世界模型，技术定位清晰、官网可用，值得早期跟踪。",
+      "blurb": "Robinhood Chain 股票代币的实时市场世界模型基础设施。",
+      "round": 2142,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-23 18:02 CST",
+      "addedAt": "2026-11-23 18:02 CST",
+      "lastChecked": "2026-11-23 18:02 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "gitpaid",
+      "name": "GitPaid",
+      "handle": "@gitpaidotfun",
+      "twitter": "@gitpaidotfun",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/gitpaidotfun",
+        "website": "https://gitpaidot.fun"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 6.7
+      },
+      "highlights": [
+        "为任意 GitHub 仓库发币，手续费归维护者",
+        "基于 Pons 与 Robinhood Chain，官网 200"
+      ],
+      "drawbacks": [
+        "粉丝与推文极少，尚无成功案例",
+        "依赖 Pons 生态成熟度"
+      ],
+      "whatsNew": "新发射台：把 GitHub 仓库代币化，费用流向维护者而非发起人。",
+      "summary": "GitPaid 是 Robinhood Chain 上为 GitHub 仓库发币的发射台，收益分配机制具体、官网可用，属早期可玩项目。",
+      "blurb": "给 GitHub 仓库发币，手续费归维护者的 Robinhood Chain 发射台。",
+      "round": 2142,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-23 18:02 CST",
+      "addedAt": "2026-11-23 18:02 CST",
+      "lastChecked": "2026-11-23 18:02 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "janua",
+      "name": "Janua",
+      "handle": "@janua_space",
+      "twitter": "@janua_space",
+      "chain": "Robinhood Chain",
+      "category": "挖矿",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/janua_space",
+        "website": "https://www.janua.space"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.4
+      },
+      "highlights": [
+        "个人金库自动 re-center，手续费原地复投",
+        "官网 200 可访问"
+      ],
+      "drawbacks": [
+        "官网无标题描述，信息尚薄",
+        "仅 3 推、3 粉，社区几乎为零"
+      ],
+      "whatsNew": "面向 Robinhood Chain 的集中流动性管理金库，自动重新居中与复投。",
+      "summary": "Janua 为 Robinhood Chain 提供集中流动性个人金库与自动 re-center/复投，属 LP 挖矿侧早期工具，可跟踪。",
+      "blurb": "Robinhood Chain 集中流动性自动金库，手续费自动复投。",
+      "round": 2142,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-23 18:02 CST",
+      "addedAt": "2026-11-23 18:02 CST",
+      "lastChecked": "2026-11-23 18:02 CST",
+      "zoneHint": "挖矿",
+      "newThisRound": true
+    },
+    {
+      "id": "spegulo",
+      "name": "Spegulo",
+      "handle": "@spegulo_xyz",
+      "twitter": "@spegulo_xyz",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/spegulo_xyz",
+        "website": "https://www.spegulo.xyz"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 7,
+        "actionable": 4,
+        "overall": 6.2
+      },
+      "highlights": [
+        "RWA 隐私镜像：注册门控代币 + Merkle 隐藏余额",
+        "官网称已在 Robinhood Chain 上线"
+      ],
+      "drawbacks": [
+        "粉丝极少、仅 3 推，可信度待观察",
+        "无明确 mint 或激励入口"
+      ],
+      "whatsNew": "新项目上线 Robinhood Chain，主打按预言机价密封批量撮合的隐私 RWA 交易。",
+      "summary": "Spegulo 提供 Robinhood Chain 上的隐私 RWA 镜像交易，注册门控与 Merkle 余额隐藏机制具体，官网可访问，值得早期关注。",
+      "blurb": "Robinhood Chain 上的隐私 RWA 镜像，官网已上线说明。",
+      "round": 2142,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-23 18:02 CST",
+      "addedAt": "2026-11-23 18:02 CST",
+      "lastChecked": "2026-11-23 18:02 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
+    {
+      "id": "osric-ai",
+      "name": "Osric AI",
+      "handle": "@osricxyz",
+      "twitter": "@osricxyz",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/osricxyz",
+        "website": "https://osric.xyz"
+      },
+      "scores": {
+        "early": 9,
+        "risk": 7,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.0
+      },
+      "highlights": [
+        "Robinhood Chain 生态首个 AI 原生问答",
+        "官网 200，3 次免费提问免登录，产品可用"
+      ],
+      "drawbacks": [
+        "账号仅 1 推、9 粉，信号极弱",
+        "无代币或 mint 玩法，交互价值有限"
+      ],
+      "whatsNew": "新号首发：面向 Robinhood Chain 股票代币的自然语言问答 AI。",
+      "summary": "Osric AI 是 Robinhood Chain 上的 AI 问答入口，支持自然语言查询股票代币或粘贴地址验真，官网可用并有免费额度，属极早期观察标的。",
+      "blurb": "Robinhood Chain 上的 AI 股票代币问答，官网可直接试用。",
+      "round": 2142,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-23 18:02 CST",
+      "addedAt": "2026-11-23 18:02 CST",
+      "lastChecked": "2026-11-23 18:02 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "omniqa",
       "name": "OmniQA",
@@ -49219,7 +49455,7 @@
       "addedAt": "2026-11-23 16:56 CST",
       "lastChecked": "2026-11-23 16:56 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true,
+      "newThisRound": false,
       "website": "https://www.omniqa.site"
     },
     {
@@ -347567,20 +347803,24 @@
     }
   ],
   "newThisRound": [
-    "omniqa"
+    "osric-ai",
+    "spegulo",
+    "janua",
+    "gitpaid",
+    "useplumese"
   ],
-  "alertMessage": "DC补漏R2141新收1（台子/Meme 1）：OmniQA @omniqa_rh（Robinhood Chain 聚合路由，一次签名跨 hook/bin/range 市场取最优成交，omniqa.site 200，11-21 建号/242粉，无 CA，未实测）；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R2142新收5个：Osric AI、Spegulo、Janua、GitPaid、UsePlumese；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "stockbox",
     "chimi-giwa"
   ],
-  "updatedAt": "2026-11-23 16:56 CST",
-  "updated": "2026-11-23 16:56 CST",
+  "updatedAt": "2026-11-23 18:02 CST",
+  "updated": "2026-11-23 18:02 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-23 16:56 CST",
+  "lastScout": "2026-11-23 18:02 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -347622,7 +347862,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4780,
+  "candidateCount": 4785,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -352321,5 +352561,12 @@
   ],
   "round2141Added": [
     "omniqa"
+  ],
+  "round2142Added": [
+    "osric-ai",
+    "spegulo",
+    "janua",
+    "gitpaid",
+    "useplumese"
   ]
 }
