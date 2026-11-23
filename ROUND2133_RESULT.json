@@ -1,0 +1,104 @@
+{
+  "round": 2133,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-23 09:03 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R2133新收Solvyren（GPU PoW L1）、Terrova（2500地块mint）、RGBStone（9000枚免费mint）3项；https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "solvyren",
+    "terrovafun",
+    "rgb-stone"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "solvyren",
+    "terrovafun",
+    "rgb-stone"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 6,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "flock-hood-rh",
+    "paidbeam"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "flock-hood-rh",
+    "paidbeam"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=3",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-23 08:57",
+    "lastChecked": "2026-11-23 09:03 CST",
+    "newestCardTime": "2026-11-23 08:57",
+    "cardsAfterCutoff": 6,
+    "note": "R2133：Discord alpha 补收 solvyren,terrovafun,rgb-stone；清 flock-hood-rh,paidbeam；lastSeen→2026-11-23 08:49；lastChecked→2026-11-23 09:03 CST",
+    "lastRound": 2133,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-23 08:57",
+      "alpha-1-backup": "2026-11-23 08:29",
+      "smart-accounts-tracker": "2026-11-23 08:47",
+      "alpha-1": "2026-11-23 08:47"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R2133：Discord alpha 补收 solvyren,terrovafun,rgb-stone；清 flock-hood-rh,paidbeam；lastSeen→2026-11-23 08:49；lastChecked→2026-11-23 09:03 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_enriched_r2133.json",
+  "priorRoundNote": "R2132 meta NTR ['paidbeam', 'flock-hood-rh']; cardsAfterCutoff=6",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-23 08:57",
+    "alpha-1-backup": "2026-11-23 08:29",
+    "smart-accounts-tracker": "2026-11-23 08:47",
+    "alpha-1": "2026-11-23 08:47"
+  },
+  "cardsRead": 6,
+  "rejected": [
+    {
+      "handle": "@vornvault",
+      "reason": "仅一句vault概念、单条推文零粉丝，无发射/mint/产品实据，判定空壳"
+    },
+    {
+      "handle": "@thenativestack",
+      "reason": "账号零推文零互动，无任何实质内容佐证，疑似占名空壳"
+    },
+    {
+      "handle": "@thesatsea",
+      "reason": "已上线运营的RGB NFT市场，非极早期发射/玩法标的，暂不入筛选"
+    }
+  ],
+  "rejectedCount": 3,
+  "dsRejects": 3,
+  "admissions": [
+    {
+      "id": "solvyren",
+      "handle": "@Solvyren",
+      "category": "挖矿",
+      "name": "Solvyren"
+    },
+    {
+      "id": "terrovafun",
+      "handle": "@terrovafun",
+      "category": "打新",
+      "name": "Terrova"
+    },
+    {
+      "id": "rgb-stone",
+      "handle": "@RGB_Stone",
+      "category": "打新",
+      "name": "RGBStone"
+    }
+  ],
+  "alert": "DC补漏R2133新收Solvyren（GPU PoW L1）、Terrova（2500地块mint）、RGBStone（9000枚免费mint）3项；https://reboot7454.github.io/early-scout/"
+}
