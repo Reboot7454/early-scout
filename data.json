@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-23 20:57 CST",
+    "updated": "2026-11-23 21:57 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-23 20:57 CST",
+    "lastScout": "2026-11-23 21:57 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -861,7 +861,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2145,
+    "round": 2146,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2405,14 +2405,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "abductors",
-      "onggi",
-      "vibestarfall",
-      "vexthium",
-      "switchgraph",
-      "quietlot",
-      "dime",
-      "citeline"
+      "leverage-nft",
+      "hashmarket"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -5247,17 +5241,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-23 20:49",
-      "lastChecked": "2026-11-23 20:57 CST",
-      "newestCardTime": "2026-11-23 20:49",
-      "cardsAfterCutoff": 11,
-      "note": "R2145：Discord alpha 补收 abductors；清 thesatsea,slavatoken；lastSeen→2026-11-23 20:49；lastChecked→2026-11-23 20:57 CST",
-      "lastRound": 2145,
+      "lastSeen": "2026-11-23 21:52",
+      "lastChecked": "2026-11-23 21:57 CST",
+      "newestCardTime": "2026-11-23 21:52",
+      "cardsAfterCutoff": 68,
+      "note": "R2146：Discord alpha 补收 leverage-nft,hashmarket；清 citeline,dime,quietlot,switchgraph,vexthium,vibestarfall,onggi,abductors；读 68 卡/51 handle；lastSeen→2026-11-23 21:52；alpha-1 实际最老抓到 21:11，20:45–21:11 可能少量漏读",
+      "lastRound": 2146,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-23 20:49",
-        "alpha-1-backup": "2026-11-23 20:45",
-        "smart-accounts-tracker": "2026-11-23 20:16",
-        "alpha-1": "2026-11-23 20:45"
+        "alpha-3-new-accounts": "2026-11-23 21:52",
+        "alpha-1-backup": "2026-11-23 21:29",
+        "smart-accounts-tracker": "2026-11-23 21:52",
+        "alpha-1": "2026-11-23 21:52"
       }
     },
     "round239Added": [
@@ -49206,9 +49200,59 @@
       "quietlot",
       "dime",
       "citeline"
+    ],
+    "round2146Added": [
+      "leverage-nft"
     ]
   },
   "candidates": [
+    {
+      "id": "leverage-nft",
+      "name": "Leverage Art",
+      "handle": "@leveragenft",
+      "twitter": "@leveragenft",
+      "chain": "Ethereum",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/LeverageNFT",
+        "website": "https://leverage.art"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 6,
+        "actionable": 5,
+        "overall": 6.0
+      },
+      "highlights": [
+        "为任意 NFT 合集（含 Punks）发 meme 币",
+        "每笔交易有 2% 的 ETH 进金库，金库够钱即链上扫地板，另外 2% 给协议",
+        "基于 Uniswap v4，官网已上线可看流程"
+      ],
+      "drawbacks": [
+        "暂无 CA，未实测",
+        "X 账号仅 2 推、0 粉，团队匿名",
+        "页面上的 $SAMPLE 只是示例，机制未经审计，依赖持续交易量"
+      ],
+      "whatsNew": "meme 币交易税自动买 NFT 地板的 Uniswap v4 发射玩法",
+      "summary": "Leverage.Art 让任何人给任意 NFT 合集发 meme 币，交易税抽成进金库并在链上买地板，属于有明确玩法线索的极早期发射台。",
+      "blurb": "交易税自动扫 NFT 地板的 meme 发射台（ETH/Uniswap v4）",
+      "round": 2146,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-23 21:57 CST",
+      "addedAt": "2026-11-23 21:57 CST",
+      "lastChecked": "2026-11-23 21:57 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "citeline",
       "name": "Citeline",
@@ -49253,7 +49297,7 @@
       "addedAt": "2026-11-23 20:59 CST",
       "lastChecked": "2026-11-23 20:59 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "dime",
@@ -49299,7 +49343,7 @@
       "addedAt": "2026-11-23 20:59 CST",
       "lastChecked": "2026-11-23 20:59 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "quietlot",
@@ -49344,7 +49388,7 @@
       "addedAt": "2026-11-23 20:59 CST",
       "lastChecked": "2026-11-23 20:59 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "switchgraph",
@@ -49389,7 +49433,7 @@
       "addedAt": "2026-11-23 20:59 CST",
       "lastChecked": "2026-11-23 20:59 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "vexthium",
@@ -49433,7 +49477,7 @@
       "addedAt": "2026-11-23 20:59 CST",
       "lastChecked": "2026-11-23 20:59 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "vibestarfall",
@@ -49477,7 +49521,7 @@
       "addedAt": "2026-11-23 20:59 CST",
       "lastChecked": "2026-11-23 20:59 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "onggi",
@@ -49521,7 +49565,7 @@
       "addedAt": "2026-11-23 20:59 CST",
       "lastChecked": "2026-11-23 20:59 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "abductors",
@@ -49567,7 +49611,7 @@
       "addedAt": "2026-11-23 20:57 CST",
       "lastChecked": "2026-11-23 20:57 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "thesatsea",
@@ -348408,30 +348452,72 @@
       "lastChecked": "2026-11-21 17:03 CST",
       "zoneHint": "台子/Meme",
       "newThisRound": false
+    },
+    {
+      "id": "hashmarket",
+      "name": "Hashmarket",
+      "handle": "@hashmarket_xyz",
+      "twitter": "@hashmarket_xyz",
+      "chain": "Robinhood Chain / Base",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha",
+        "NFT",
+        "PoW mint"
+      ],
+      "links": {
+        "x": "https://x.com/hashmarket_xyz",
+        "website": "https://hashmarket.xyz"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 6,
+        "novelty": 8,
+        "actionable": 6,
+        "overall": 6.7
+      },
+      "highlights": [
+        "Proof-of-Work NFT 发射台：建限量合集、挖矿式 mint、领取所有权",
+        "官网 hashmarket.xyz 在线（https 200），可选 Robinhood Chain / Base，自称艺术与协议全链上、无 IPFS",
+        "按 epoch 收 ETH 租金的模型"
+      ],
+      "drawbacks": [
+        "无 CA，mint 未实测",
+        "X 2026-10-20 建号、1 粉 0 推，无社群信号"
+      ],
+      "whatsNew": "新上线的 PoW NFT 发射台，挖矿式 mint 与 epoch 租金模型",
+      "summary": "Hashmarket 是一个 Proof-of-Work NFT 发射台：创建限量合集、通过挖矿方式 mint、按 epoch 收取 ETH 租金，官网已上线并支持 Robinhood Chain/Base 双链选择。",
+      "blurb": "PoW 挖矿式 mint 的 NFT 发射台（RH Chain/Base），官网已上线，无 CA",
+      "round": 2146,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1,
+      "xFollowers": null,
+      "firstSeen": "2026-11-23 21:57 CST",
+      "addedAt": "2026-11-23 21:57 CST",
+      "lastChecked": "2026-11-23 21:57 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
     }
   ],
   "newThisRound": [
-    "abductors",
-    "onggi",
-    "vibestarfall",
-    "vexthium",
-    "switchgraph",
-    "quietlot",
-    "dime",
-    "citeline"
+    "leverage-nft",
+    "hashmarket"
   ],
-  "alertMessage": "DC补漏R2145新收 Abductors（@AbductorsGame，Solana放置养外星人，Demo已上线、$GOO 11-24发射）；面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R2146新收2：Leverage Art @LeverageNFT（台子/Meme，以太坊 Uniswap v4，给任意 NFT 合集发 meme 币、交易税进金库自动扫地板，无 CA）、Hashmarket @hashmarket_xyz（打新，Robinhood Chain/Base 的 PoW 挖矿式 mint NFT 发射台，无 CA）；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "stockbox",
     "chimi-giwa"
   ],
-  "updatedAt": "2026-11-23 20:57 CST",
-  "updated": "2026-11-23 20:57 CST",
+  "updatedAt": "2026-11-23 21:57 CST",
+  "updated": "2026-11-23 21:57 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-23 20:57 CST",
+  "lastScout": "2026-11-23 21:57 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -348473,7 +348559,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4798,
+  "candidateCount": 4799,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -353198,5 +353284,9 @@
     "quietlot",
     "dime",
     "citeline"
+  ],
+  "round2146Added": [
+    "leverage-nft",
+    "hashmarket"
   ]
 }
