@@ -1,0 +1,116 @@
+{
+  "round": 2138,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-23 14:00 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R2138新收 ZipCoin、hanok、장터 Jangteo；https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "zipcoin-og",
+    "hanokfun",
+    "jangteo-org"
+  ],
+  "newCount": 3,
+  "newIds": [
+    "zipcoin-og",
+    "hanokfun",
+    "jangteo-org"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 38,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "playwarline",
+    "privacy-hook"
+  ],
+  "candidateFlagsCleared": 2,
+  "topNewThisRoundCleared": [
+    "playwarline",
+    "privacy-hook"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=3",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-23 13:57",
+    "lastChecked": "2026-11-23 14:00 CST",
+    "newestCardTime": "2026-11-23 13:57",
+    "cardsAfterCutoff": 9,
+    "note": "R2138：Discord alpha 补收 zipcoin-og,hanokfun,jangteo-org；清 playwarline,privacy-hook；lastSeen→2026-11-23 13:41；lastChecked→2026-11-23 14:00 CST",
+    "lastRound": 2138,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-23 13:54",
+      "alpha-1-backup": "2026-11-23 13:15",
+      "smart-accounts-tracker": "2026-11-23 13:57",
+      "alpha-1": "2026-11-23 13:46"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R2138：Discord alpha 补收 zipcoin-og,hanokfun,jangteo-org；清 playwarline,privacy-hook；lastSeen→2026-11-23 13:41；lastChecked→2026-11-23 14:00 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_enriched_r2138.json",
+  "priorRoundNote": "R2137 meta NTR ['privacy-hook', 'playwarline']; cardsAfterCutoff=9",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-23 13:41",
+    "alpha-1-backup": "2026-11-23 13:15",
+    "smart-accounts-tracker": "2026-11-23 13:36",
+    "alpha-1": "2026-11-23 13:06"
+  },
+  "cardsRead": 9,
+  "rejected": [
+    {
+      "handle": "@kestrelasset",
+      "reason": "仅有1条推文和0粉丝的新号，自称 Robinhood Chain 兑换页 beta 且无官网，空壳风险高，产品线索太单薄。"
+    },
+    {
+      "handle": "@Stretchdollarrh",
+      "reason": "今日新建、2条推文、无官网，并且只用一个 $STRETCH 符号描述小企业健康福利，属于典型空壳。"
+    },
+    {
+      "handle": "@Xpad_Official",
+      "reason": "2025-09 建号、431 推、多链发射终端已成型，不属于极早期补漏范围。"
+    },
+    {
+      "handle": "@rudolphonpump",
+      "reason": "bio 只有一条 pump CA、5 条推文，属于纯 meme 代币和喊单，无产品、玩法或建设线索。"
+    },
+    {
+      "handle": "@nautiloapp",
+      "reason": "项目本体是开源 AI 协作工具，仅在 bio 挂 ETH 代币合约，缺少发射、mint 或挖矿等早期玩法线索。"
+    },
+    {
+      "handle": "@Deoksangi",
+      "reason": "2013 年老号改名，仅定位为 GIWA 吉祥物，卡面无 mint、发射或玩法线索。"
+    }
+  ],
+  "rejectedCount": 6,
+  "dsRejects": 6,
+  "admissions": [
+    {
+      "id": "zipcoin-og",
+      "handle": "@ZipCoin_OG",
+      "category": "台子/Meme",
+      "name": "ZipCoin"
+    },
+    {
+      "id": "hanokfun",
+      "handle": "@hanokfun",
+      "category": "台子/Meme",
+      "name": "hanok"
+    },
+    {
+      "id": "jangteo-org",
+      "handle": "@jangteo_org",
+      "category": "台子/Meme",
+      "name": "장터 Jangteo"
+    }
+  ],
+  "alert": "DC补漏R2138新收 ZipCoin、hanok、장터 Jangteo；https://reboot7454.github.io/early-scout/"
+}
