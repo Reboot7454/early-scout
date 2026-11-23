@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-23 18:58 CST",
+    "updated": "2026-11-23 19:54 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-23 18:58 CST",
+    "lastScout": "2026-11-23 19:54 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -861,7 +861,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2143,
+    "round": 2144,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2405,9 +2405,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "vinductfi",
-      "antchain-l3",
-      "sugoroku-crypto"
+      "slavatoken",
+      "thesatsea"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -5242,17 +5241,17 @@
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
       "deferred": false,
-      "lastSeen": "2026-11-23 18:55",
-      "lastChecked": "2026-11-23 18:58 CST",
-      "newestCardTime": "2026-11-23 18:55",
-      "cardsAfterCutoff": 8,
-      "note": "R2143：Discord alpha 补收 vinductfi,antchain-l3,sugoroku-crypto；清 useplumese,gitpaid,janua,spegulo,osric-ai；lastSeen→2026-11-23 18:49；lastChecked→2026-11-23 18:58 CST",
-      "lastRound": 2143,
+      "lastSeen": "2026-11-23 19:49",
+      "lastChecked": "2026-11-23 19:54 CST",
+      "newestCardTime": "2026-11-23 19:49",
+      "cardsAfterCutoff": 3,
+      "note": "R2144：Discord alpha 补收 slavatoken,thesatsea；清 sugoroku-crypto,antchain-l3,vinductfi；lastSeen→2026-11-23 19:27；lastChecked→2026-11-23 19:54 CST",
+      "lastRound": 2144,
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-23 18:49",
+        "alpha-3-new-accounts": "2026-11-23 19:49",
         "alpha-1-backup": "2026-11-23 18:44",
-        "smart-accounts-tracker": "2026-11-23 17:57",
-        "alpha-1": "2026-11-23 18:55"
+        "smart-accounts-tracker": "2026-11-23 19:39",
+        "alpha-1": "2026-11-23 19:38"
       }
     },
     "round239Added": [
@@ -49187,9 +49186,101 @@
       "vinductfi",
       "antchain-l3",
       "sugoroku-crypto"
+    ],
+    "round2144Added": [
+      "slavatoken",
+      "thesatsea"
     ]
   },
   "candidates": [
+    {
+      "id": "thesatsea",
+      "name": "SatSea",
+      "handle": "@thesatsea",
+      "twitter": "@thesatsea",
+      "chain": "Bitcoin RGB",
+      "category": "打新",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/thesatsea"
+      },
+      "scores": {
+        "early": 6,
+        "risk": 6,
+        "novelty": 7,
+        "actionable": 6,
+        "overall": 5.5
+      },
+      "highlights": [
+        "Bitcoin RGB 生态首个 UDA（NFT）交易市场，赛道稀缺",
+        "面板已上线 RGB_Stone，并计划在其上免费 mint"
+      ],
+      "drawbacks": [
+        "RGB 资产流动性薄、工具链门槛高",
+        "账号为 2015 年老号改名，历史内容与项目无关"
+      ],
+      "whatsNew": "RGB_Stone 将在 SatSea 上做免费 mint，市场面板已可访问。",
+      "summary": "BTC RGB 上的 NFT/UDA 市场，产品形态明确，靠免费 mint 拉首批资产与用户。",
+      "blurb": "RGB 链首个 NFT 市场，RGB_Stone 免费 mint 可提前卡位。",
+      "round": 2144,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 1095,
+      "xFollowers": 1095,
+      "firstSeen": "2026-11-23 19:54 CST",
+      "addedAt": "2026-11-23 19:54 CST",
+      "lastChecked": "2026-11-23 19:54 CST",
+      "zoneHint": "打新",
+      "newThisRound": true
+    },
+    {
+      "id": "slavatoken",
+      "name": "Slava ($SLA)",
+      "handle": "@slavatoken",
+      "twitter": "@slavatoken",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "ecosystem": "",
+      "tags": [
+        "discord-alpha"
+      ],
+      "links": {
+        "x": "https://x.com/SlavaToken"
+      },
+      "scores": {
+        "early": 8,
+        "risk": 8,
+        "novelty": 3,
+        "actionable": 5,
+        "overall": 4.6
+      },
+      "highlights": [
+        "明确 Meteora 发射参数：200 SOL LP + 50 SOL 首笔捐赠目标",
+        "mint/freeze 已放弃，2% 税定向捐赠"
+      ],
+      "drawbacks": [
+        "尚无 CA，只有 carrd 落地页",
+        "账号 3 推 0 粉，几乎无社区验证，跑路风险高"
+      ],
+      "whatsNew": "公布 Meteora Launch 的 LP 与慈善捐赠目标细节，权限已撤。",
+      "summary": "Solana 慈善主题 meme，处于发射前准备期，参数公开但无合约地址与社群基础。",
+      "blurb": "Meteora 发射前的 Solana 慈善 meme，参数齐但零社区，小仓观察。",
+      "round": 2144,
+      "focus": false,
+      "lzVerified": false,
+      "status": "watching",
+      "followers": 0,
+      "xFollowers": null,
+      "firstSeen": "2026-11-23 19:54 CST",
+      "addedAt": "2026-11-23 19:54 CST",
+      "lastChecked": "2026-11-23 19:54 CST",
+      "zoneHint": "台子/Meme",
+      "newThisRound": true
+    },
     {
       "id": "sugoroku-crypto",
       "name": "SUGOROKU",
@@ -49234,7 +49325,7 @@
       "addedAt": "2026-11-23 18:58 CST",
       "lastChecked": "2026-11-23 18:58 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "antchain-l3",
@@ -49280,7 +49371,7 @@
       "addedAt": "2026-11-23 18:58 CST",
       "lastChecked": "2026-11-23 18:58 CST",
       "zoneHint": "台子/Meme",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "vinductfi",
@@ -49326,7 +49417,7 @@
       "addedAt": "2026-11-23 18:58 CST",
       "lastChecked": "2026-11-23 18:58 CST",
       "zoneHint": "打新",
-      "newThisRound": true
+      "newThisRound": false
     },
     {
       "id": "useplumese",
@@ -347944,22 +348035,21 @@
     }
   ],
   "newThisRound": [
-    "vinductfi",
-    "antchain-l3",
-    "sugoroku-crypto"
+    "slavatoken",
+    "thesatsea"
   ],
-  "alertMessage": "DC补漏R2143新收：Vinduct、ANT Chain、SUGOROKU；https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R2144新收2条：Slava($SLA)零社区小仓观察，SatSea（RGB首个NFT市场）免费mint可卡位；面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "stockbox",
     "chimi-giwa"
   ],
-  "updatedAt": "2026-11-23 18:58 CST",
-  "updated": "2026-11-23 18:58 CST",
+  "updatedAt": "2026-11-23 19:54 CST",
+  "updated": "2026-11-23 19:54 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-23 18:58 CST",
+  "lastScout": "2026-11-23 19:54 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -348001,7 +348091,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 4788,
+  "candidateCount": 4790,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -352712,5 +352802,9 @@
     "vinductfi",
     "antchain-l3",
     "sugoroku-crypto"
+  ],
+  "round2144Added": [
+    "slavatoken",
+    "thesatsea"
   ]
 }

@@ -1,0 +1,90 @@
+{
+  "round": 2144,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-23 19:54 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R2144新收2条：Slava($SLA)零社区小仓观察，SatSea（RGB首个NFT市场）免费mint可卡位；面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "slavatoken",
+    "thesatsea"
+  ],
+  "newCount": 2,
+  "newIds": [
+    "slavatoken",
+    "thesatsea"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 3,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "sugoroku-crypto",
+    "antchain-l3",
+    "vinductfi"
+  ],
+  "candidateFlagsCleared": 3,
+  "topNewThisRoundCleared": [
+    "sugoroku-crypto",
+    "antchain-l3",
+    "vinductfi"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": false,
+  "dsUsage": "deepseek-flash admits=2",
+  "coverage": "discord-alpha multi-channel",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "lastSeen": "2026-11-23 19:49",
+    "lastChecked": "2026-11-23 19:54 CST",
+    "newestCardTime": "2026-11-23 19:49",
+    "cardsAfterCutoff": 3,
+    "note": "R2144：Discord alpha 补收 slavatoken,thesatsea；清 sugoroku-crypto,antchain-l3,vinductfi；lastSeen→2026-11-23 19:27；lastChecked→2026-11-23 19:54 CST",
+    "lastRound": 2144,
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-23 19:49",
+      "alpha-1-backup": "2026-11-23 18:44",
+      "smart-accounts-tracker": "2026-11-23 19:39",
+      "alpha-1": "2026-11-23 19:38"
+    }
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R2144：Discord alpha 补收 slavatoken,thesatsea；清 sugoroku-crypto,antchain-l3,vinductfi；lastSeen→2026-11-23 19:27；lastChecked→2026-11-23 19:54 CST",
+  "remoteVerified": false,
+  "cardsFile": "dc40_enriched_r2144.json",
+  "priorRoundNote": "R2143 meta NTR ['vinductfi', 'antchain-l3', 'sugoroku-crypto']; cardsAfterCutoff=3",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-23 19:49",
+    "alpha-1-backup": "2026-11-23 18:44",
+    "smart-accounts-tracker": "2026-11-23 19:39",
+    "alpha-1": "2026-11-23 19:38"
+  },
+  "cardsRead": 3,
+  "rejected": [
+    {
+      "handle": "@ignotexam",
+      "reason": "AI 模型考试项目，非加密项目，无代币/发射/mint 线索，2 粉新号，不符合收录标准。"
+    }
+  ],
+  "rejectedCount": 1,
+  "dsRejects": 1,
+  "admissions": [
+    {
+      "id": "slavatoken",
+      "handle": "@SlavaToken",
+      "category": "台子/Meme",
+      "name": "Slava ($SLA)"
+    },
+    {
+      "id": "thesatsea",
+      "handle": "@thesatsea",
+      "category": "打新",
+      "name": "SatSea"
+    }
+  ],
+  "alert": "DC补漏R2144新收2：Slava @SlavaToken（Solana 慈善币 $SLA，计划 Meteora 发射，2%税，无CA，3粉）、SatSea @thesatsea（Bitcoin RGB 首个 NFT 市场，面板已有的 RGB_Stone 将在其上免费 mint）；面板 https://reboot7454.github.io/early-scout/"
+}
