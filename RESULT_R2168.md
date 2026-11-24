@@ -1,0 +1,24 @@
+# RESULT R2168
+
+- time: 2026-11-25 07:07:20 CST（Asia/Shanghai）
+- mode: pace（增量轮，非 08:00 全量补扫；上次全量 R2148）
+- notify: true
+- xReads: 28；remainingBefore: 457；remainingAfter: 429 / 1000（softCap 28，minSpend 18，silentCap 2；本轮触及 softCap）
+- userFollow: 已刷完。soft-brush 433 @elyrush__ 起 50 号至 @pengweensolana；next 483 @WobblokzAI，wrap=false，MUST 重叠 0。UF 30m 三组均为 0 帖。写盘后 UF 总账户 2365。
+- 十栏关键词: 全部跑到（30m）：LZ 0、TAPE 6、GIWA 10、DOGE 4、BTC 0、STARK 4、MINT 25 触顶、MINE 1、PAD 25 触顶、GO 25 触顶、ELY 5、GAPS 12。MUST_WIN/MUST_WIN2 24h 各 25 触顶；MUST_OFF 30m 0。MUST_WIN 合并批次未带出 shit_capital，因仍在 ≤2h 窗口补做 1 次 from:shit_capital 24h。
+- 瘦栏 24h 补搜: 是。LZ（30m=0→19）、DogeEVM（30m=4→25 触顶）、BTC（30m=0→25 触顶）、Starknet（30m=4→25 触顶）。Tape 30m=6、GIWA=10 已≥5 未拉长。挖矿 30m=1 属肥栏核心词，未改成 24h。
+- mentions 覆盖: DogeEVM（0）/ BTC（1）/ squeek（0）/ STARX（0）。下轮 GIWA / Tape / LayerZero-24h / Elysium-rest。
+- silent: 挖矿（searchUsers 不可用，24h mentions 回退，25 触顶）。下轮：台子/Meme。
+- 新收录:
+  - Ugly Puggies（@uglypuggies）→ 栏「打新」。约 3.5 个月、441 粉 / 24 帖，资料栏无官网。Bio 自称 Free mint、777 Robinhood Pixel Puggies coming soon。本轮未直接核到官帖原文。第三方镜像称置顶约 11-20：Free Mint，开闸 2026-11-25 13:00 UTC（21:00 CST），OpenSea https://opensea.io/collection/ugly-puggies-106253855 ；打新板转载 CA 0xe2be23fbffe892feb3677341765847b9309663c2、777 份、minted 0，分阶段免费（TEAM 30/钱包、GTD/FCFS 1/钱包、PUBLIC 10/钱包）。不是已开铸 LIVE，不按 ≤2h。已进 UF + freeMintWatch。focus=false。
+  - Curv（@CurvFun / https://curvfun.com）→ 栏「台子/Meme」。2026-11-14 16:18:30 CST 建号（约 10.6 天），0 粉 / 1 帖。官网与资料栏互证。官帖 2026-11-25 06:55:11 CST（https://x.com/CurvFun/status/2125362621977440275 ）。Solana 发射台，曲线毕业至 PumpSwap，LP 100% 烧毁；页面统计目前全空。平台币 $CURV 自称已 fair-launch 并 graduated（合约未独立核实）。不是免费 mint。已进 UF。focus=false。
+- 库内更新:
+  - Thinkers Club：付费公开铸约 07:06–07:14 CST。最新可见官帖仍为 06:00 CST waitlist 拍卖说明，未见公开铸 LIVE 二次确认，R2165/R2166 已提醒不重推。
+  - Shit Capital：公开售约 07:00 CST、WL 约 06:44 CST。本轮定向 from:shit_capital 最新官帖仍为 00:44 CST，未见公售 LIVE 确认，R2164 已提醒不重推。
+  - Shielded Wizards：白名单免费铸仍 LIVE，铸页本轮 8/3333（上轮 4/3333），公开售约 2026-11-26 05:10 CST，不重推。
+  - 2hour.fun：官帖确认第一场窗口仍为 2026-11-26 05:00 CST，不按 ≤2h。
+  - QQAI：官帖确认 2026-11-26 18:00 CST 免费名额 + Batch 1。
+  - oripa-xyz：Nov 25 仅为日期占位，不按 08:00 CST ≤2h。
+- 看见但未收: flame-btc（官网仍写未开铸且 renderer 未配置，与官帖口径冲突，同 R2167 暂不收）；charitycoinfun（已上线的 Solana 慈善费率代币，非 mint/台）；其余多为已在库项目的转发信号。
+- Discord Peek: attempted，loginOk=false，discordPeekDeferred=true。登录墙 https://discord.com/login?redirect_to=%2Fchannels%2F1502958818865188956%2F1537897411668746302 。lastSeen 未改（2026-11-23 22:19–22:56 CST）。R2158 已请用户重登，本轮清晨不重复催登录。
+- 面板: https://reboot7454.github.io/early-scout/
