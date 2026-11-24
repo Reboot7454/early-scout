@@ -1,0 +1,23 @@
+# RESULT R2166
+
+- time: 2026-11-25 06:08:32 CST（Asia/Shanghai）
+- mode: pace（增量轮，非 08:00 全量补扫；上次全量 R2148）
+- notify: true
+- xReads: 27；remainingBefore: 512；remainingAfter: 485 / 1000（softCap 28，minSpend 18，silentCap 2）
+- userFollow: 已刷完。soft-brush 333 @BikeTysonPunk 起 50 号至 @pitpadfun；next 383 @lumora_agent，wrap=false，MUST 重叠 0。UF 30m 三组均为 0 帖。写盘后 UF 总账户 2361。
+- 十栏关键词: 全部跑到（30m）：LZ 0、TAPE 3、GIWA 14、DOGE 10、BTC 2、STARK 3、MINT 25 触顶、MINE 0、PAD 25 触顶、GO 25 触顶、ELY 8、GAPS 13。MUST_WIN/MUST_WIN2 24h 各 25 触顶；MUST_OFF 30m 0。
+- 瘦栏 24h 补搜: 是。LZ（30m=0→19）、Tape（30m=3→25 触顶）、BTC（30m=2→25 触顶）、Starknet（30m=3→25 触顶）。GIWA/DogeEVM 30m 已≥5 未拉长。挖矿 30m=0 属肥栏核心词，未改成 24h。
+- mentions 覆盖: DogeEVM（4）/ BTC（0）/ squeek（0）/ STARX（0）。下轮 GIWA / Tape / LayerZero-24h / Elysium-rest。
+- silent: Starknet（searchUsers 不可用，24h mentions 回退，0 条）。下轮：打新。
+- 新收录:
+  - QQAI（@QQAI_BNB）→ 栏「BN Agent 钱包」。约 0.03 天、0 粉 / 10 帖，无官网无 CA。自称免费 mint 555 席，开铸 2026-11-26 18:00 CST，不是 LIVE。已进 UF + bnAgentWatch + agentPadWatch + freeMintWatch。
+  - Riftide（@Riftidegame / https://riftide.xyz/）→ 栏「打新」。约 13.5 天、644 粉。自称 Robinhood Chain 2,000 Keepers 免费 mint，登记已开，开铸 TBA，不是 LIVE。已进 UF + freeMintWatch。
+- 库内更新:
+  - Thinkers_：06:00 CST 官帖宣布 waitlist 拍卖窗 LIVE（约至 07:00 CST）；付费公开铸仍约 07:06–07:14 CST。本轮提醒（非免费 mint）。
+  - Shit Capital：公开售仍约 07:00 CST、WL 约 06:44 CST，R2164 已提醒不重推。
+  - Shielded Wizards：白名单免费铸仍 LIVE，本轮铸页未能复核进度，不重推。
+  - 2hour.fun：官回澄清第一场开盘窗 2026-11-26 05:00 CST，不按 ≤2h。
+  - oripa-xyz：Nov 25 仅为日期占位，不按 08:00 CST ≤2h。
+- 看见但未收: vestedfun（无帖无官网）；CircusLaunchpad（名称碰撞、链路未证）；silentkeyeth（非铸造）；MUISYLEcoin；PONEGLYPHSTRADE（约 47 天）；apacheterminal（旧号）。
+- Discord Peek: attempted，loginOk=false，discordPeekDeferred=true。登录墙 https://discord.com/login?redirect_to=%2Fchannels%2F1502958818865188956%2F1537897411668746302 。lastSeen 未改（2026-11-23 22:19–22:56 CST）。R2158 已请用户重登，本轮清晨不重复催登录。
+- 面板: https://reboot7454.github.io/early-scout/
