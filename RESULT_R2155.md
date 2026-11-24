@@ -4,7 +4,7 @@
 - **round**: 2155 incremental（非 08:00 全量补扫；上次全量 R2148）
 - **notify**: true
 - **panel**: https://reboot7454.github.io/early-scout/
-- **commit**: 58570f8
+- **commit**: 9fe4cd6
 - **xReads**: 27（21 计划搜 + 3 瘦栏 24h + 2 MUST leftover + 1 getUsersByUsername @GetAgentBNB）
 - **remainingBefore / remainingAfter**: 797 / 770（mode=ample，softCap=40，minSpend=20 已满足，日顶 1000，重置约 2026-11-25 08:00 CST）
 - **searchUsersUnavailable**: true
