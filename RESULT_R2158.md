@@ -1,0 +1,21 @@
+# RESULT R2158
+
+- lastScout: 2026-11-25 02:13:19 CST
+- notify: true
+- alert: R2158：先提醒库内——Thinkers_（@ThinkersClub_）已确认 mint is live（https://nftx.io/drops/ink/1 ，付费，非免费；WL 约 4 小时，公开铸约 07:06 CST）；Shielded Wizards（@ShieldedWizBTC）WL mint 推迟至 2026-11-25 03:00 CST，公开售仍约 11-26 02:00 CST，资料称免费 3333，但尚未确认开铸。新收录 2 项（都不是免费 mint / 免费登记）：Clashr（@clashrdottrade / https://clashr.trade/）约 7 小时新号，BNB 社交交易+Flap 曲线集成，官网本轮打不开、CA 未公布；XPump（@Xpumpmarkets / https://xpump.markets/）约 1 天新号，XRPL+Solana 发币台自称 LIVE，$XPUMP 流动性极浅，站点未见回链官推。面板 https://reboot7454.github.io/early-scout/
+- 新收录: clashr, xpump（均 focus=false；均挂 userFollowWatch）
+- 看见但未收: Harvestia（@Harvestiaxyzz / https://www.harvestia.xyz/）约半小时新号、0 粉 1 帖，首页 Raised $0 却写 Filled 82.6%，更像演示页，DS admit=false，未建卡。emptycartcoin 为 2 天 pump.fun 梗币，未建卡。ShadoWalkerNfts 仅见给 @RebelianRH 的赠票转帖，库内已有 rebelianrh，未另建卡。
+- 库内必报: Thinkers_ 官帖 02:06:19 CST（2125289930222080248）宣布 mint is live，铸页 NFTX Ink；此前底价 $100 付费拍卖，不是免费 mint。Shielded Wizards 官帖 01:42:45 CST（2125283998385709130）将 WL mint 推迟 1 小时至 2026-11-25 03:00 CST（Nov 24 19:00 UTC），公开售仍约 2026-11-26 02:00 CST，尚未确认开铸。
+- 不重推: GETAGENT 免费首份、Final Days 付费公售、Fiona CheesePad 预售（max 0.4 BNB）、Unrugged $UNRUG LIVE、PlatoUnseen 免费 mint 至约 12/2–3、HijabiLadyCL 仅配额说明（自称 100% Free Mint 1000 份，不是已确认对公众开铸 LIVE）、TradeOmniTide 仅 almost time 预告。
+- xReads: 25（主搜 24 + 瘦栏外 24h 已计在 25 内：22 计划 + LZ/BTC/Stark 24h 3 次；无重复 handle 读，无 getUsers）
+- remainingBefore: 716
+- remainingAfter: 691
+- mode: ample（softCap 40，minSpend 20；非 08:00 全量，上次全量 R2148）
+- 十栏关键词: 全跑（30m：KW_LZ=0、TAPE=6、GIWA=12、DOGE=10、BTC=1、STARK=3、MINT=25、MINE=0、PAD=25、GO=25、ELY=11、GAPS=22）
+- 瘦栏 24h 补搜: LayerZero（16）、BTC（25 触顶）、Starknet（25 触顶）。Tape/GIWA/DogeEVM 30m≥5，未拉长。
+- userFollow: 已刷。cursor 2284 @rootboxhq → 下一轮 2334 @BaekjeDotFun，wrap=false，片 50（2284–2333 末 @FionaHippoBNB）。UF 账户 2349→2351（+@clashrdottrade +@Xpumpmarkets）。MUST 重叠 6 号只走 24h MUST_WIN，未在 UF 30m 重复拉。UF1=1、UF2=18。
+- mentions 本轮: DogeEVM（0）/ BTC（1）/ squeek（0）/ STARX（0）。下轮: GIWA / Tape / LayerZero-24h / Elysium-rest。
+- silent 本轮: 台子/Meme（SILENT_PAD 24h mentions 25 触顶；search_users 不可用）。下轮: GO盘。
+- discordPeekDeferred: true（computerUse 再次登录墙 Welcome back，landed discord.com/login?redirect_to=/channels/1502958818865188956/1537897411668746302；loginOk=false，未填凭证、未改 lastSeen。四频道 lastSeen 仍 2026-11-23 22:19–22:56 CST，积压约 27.8h。须用户在 box Chrome 登录后同一轮补 Peek。）
+- le2h: thinkers-club（付费 mint 已 LIVE）、shielded-wizards（WL 改期 03:00 CST，仍 ≤2h）
+- 候选总数: 4832
