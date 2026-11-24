@@ -1,0 +1,23 @@
+# RESULT R2167
+
+- time: 2026-11-25 06:41:53 CST（Asia/Shanghai）
+- mode: pace（增量轮，非 08:00 全量补扫；上次全量 R2148）
+- notify: true
+- xReads: 28；remainingBefore: 485；remainingAfter: 457 / 1000（softCap 28，minSpend 18，silentCap 2；本轮触及 softCap）
+- userFollow: 已刷完。soft-brush 383 @lumora_agent 起 50 号至 @twinmetahq；next 433 @elyrush__，wrap=false，MUST 重叠 0。UF 30m 三组均为 0 帖。写盘后 UF 总账户 2363。
+- 十栏关键词: 全部跑到（30m）：LZ 0、TAPE 6、GIWA 17、DOGE 6、BTC 1、STARK 3、MINT 25 触顶、MINE 0、PAD 25 触顶、GO 25 触顶、ELY 2、GAPS 7。MUST_WIN/MUST_WIN2 24h 各 25 触顶；MUST_OFF 30m 0。MUST_WIN 合并批次未带出 shit_capital，因仍在 ≤2h 窗口补做 1 次 from:shit_capital 24h。
+- 瘦栏 24h 补搜: 是。LZ（30m=0→19）、BTC（30m=1→25 触顶）、Starknet（30m=3→25 触顶）。Tape 30m=6、GIWA=17、DogeEVM=6 已≥5 未拉长。挖矿 30m=0 属肥栏核心词，未改成 24h。
+- mentions 覆盖: GIWA（3）/ Tape（0）/ LayerZero-24h（25 触顶）/ Elysium-rest（0）。下轮 DogeEVM / BTC / squeek / STARX。
+- silent: 打新（searchUsers 不可用，24h mentions 回退，25 触顶）。下轮：挖矿。
+- 新收录:
+  - Owltopia（@Owltopia_sol / https://owltopia.xyz）→ 栏「打新」。约 11.5 个月、2924 粉 / 2596 帖，已认证。官网本轮几乎无正文。官帖自称 Robinhood Chain 4444 份免费 mint，日期 2026-12-04，OpenSea；另有官帖征集 EVM 钱包。不是已开铸 LIVE。已进 UF + freeMintWatch。focus=false。
+- 库内更新:
+  - Thinkers_：付费 waitlist 拍卖按既有官帖约至 07:00 CST，公开铸仍约 07:06–07:14 CST。本轮未见新的开铸确认官帖，R2165/R2166 已提醒不重推。
+  - Shit Capital：公开售仍约 07:00 CST、WL 约 06:44 CST。本轮定向 from:shit_capital 最新官帖仍为 00:44 CST，未见公售 LIVE 确认，R2164 已提醒不重推。
+  - Shielded Wizards：白名单免费铸仍 LIVE，铸页本轮 4/3333（上轮 2/3333），公开售约 2026-11-26 05:10 CST，不重推。
+  - 2hour.fun：第一场开盘窗仍为 2026-11-26 05:00 CST，不按 ≤2h。
+  - oripa-xyz：Nov 25 仅为日期占位，不按 08:00 CST ≤2h。
+  - wizardingfans：近期库内卡不在任何 Watch，本轮补挂 userFollowWatch。
+- 看见但未收: flame-btc（官网未开铸且 renderer 未配置）；tardigrade（无 CA/链）；dandi-fun（约 102 天，主网未上）；zauberdotfun（0 帖无站点）；WeathookETH / warpnetp2p / PilotusTrade（证据不足）；LayerzeroEco（scout 号）；z000fun（仅猎人提及，额度已满未额外拉 X）；vestedfun / CircusLaunchpad（R2166 已跳过）；Notuspad 已在库。
+- Discord Peek: attempted，loginOk=false，discordPeekDeferred=true。登录墙 https://discord.com/login?redirect_to=%2Fchannels%2F1502958818865188956%2F1537897411668746302 。lastSeen 未改（2026-11-23 22:19–22:56 CST）。R2158 已请用户重登，本轮清晨不重复催登录。
+- 面板: https://reboot7454.github.io/early-scout/
