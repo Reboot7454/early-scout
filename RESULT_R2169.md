@@ -1,0 +1,25 @@
+# RESULT R2169
+
+- time: 2026-11-25 07:45:18 CST（Asia/Shanghai）
+- mode: pace（增量轮，非 08:00 全量补扫；上次全量 R2148。下轮若在 08:00 CST 后须全量补扫，含瘦栏 24h 关键词与 Discord 积压）
+- notify: true
+- xReads: 26；remainingBefore: 429；remainingAfter: 403 / 1000（softCap 28，minSpend 18，silentCap 2；主扫 25 + silent 1，未触 softCap，已达 minSpend）
+- userFollow: 已刷完。soft-brush 483 @WobblokzAI 起 48 号至 @launchrfi；next 531 @playmoorin，wrap=false，MUST 重叠 0。UF 30m：UF1 1 帖（@FloorFeed Sweeps 产品更新），UF2 0 帖。写盘后 UF 总账户 2367。
+- 十栏关键词: 全部跑到（30m）：LZ 0、TAPE 9、GIWA 2、DOGE 2、BTC 2、STARK 0、MINT 25 触顶、MINE 2、PAD 25 触顶、GO 24、ELY 2、GAPS 11。MUST_WIN 24h 15、MUST_OFF 30m 0。
+- 瘦栏 24h 补搜: 是。LZ（30m=0→18）、GIWA（30m=2→25 触顶）、DogeEVM（30m=2→25 触顶）、BTC（30m=2→25 触顶）、Starknet（30m=0→25 触顶）。Tape 30m=9 已≥5 未拉长。挖矿 30m=2 属肥栏核心词，未改成 24h。
+- mentions 覆盖: GIWA（1）/ Tape（0）/ LayerZero-24h（25 触顶）/ Elysium-rest（0）。下轮 DogeEVM / BTC / squeek / STARX。
+- silent: 台子/Meme（searchUsers 不可用，24h mentions 回退，25 触顶；录取 MASKED）。下轮：GO盘。
+- 新收录:
+  - Lynco Punks（@RhLynco / https://www.lynconetwork.com）→ 栏「打新」。2026-11-23 02:22:48 CST 建号（约 2.22 天），343 粉 / 52 帖。官网与官推互证。官网自称 2,222 Lynco Pixel Punks，Robinhood Chain，OpenSea；GTD/Freemint 白名单登记已开（关注+赞转+评论标记+交 EVM，一地址一席）。官网仍写 launching soon / MINT·SOON，开铸日期待官推。本轮未直接核到官帖原文。第三方转发称 2026-11-26 开铸，GTD 免费 2/钱包、FCFS 0.00032 ETH、PUBLIC 0.0005 ETH，待核验。不是已开铸 LIVE，不按 ≤2h。免费登记已开。已进 UF + freeMintWatch。focus=false。
+  - MASKED（@mskdfun / https://mskd.fun）→ 栏「台子/Meme」。2026-11-23 23:28:13 CST 建号（约 1.34 天），45 粉 / 42 帖。官网与资料栏互证。官帖 2026-11-25 07:09:50 CST（https://x.com/mskdfun/status/2125366309320090103 ）。Solana 隐私优先发射台，自称 1.25% 固定费、无 KYC；平台币 $MSKD 合约未独立核实；页面统计目前为空。不是免费 mint。已进 UF。focus=false。
+- 库内更新:
+  - Thinkers Club：官帖 2026-11-25 07:10:18 CST（https://x.com/ThinkersClub_/status/2125366428006224110 ）确认付费公开铸 Public round 已 LIVE，价格发现还剩约 31 小时。不是免费 mint。R2165/R2166 已提醒即将开窗，本则是 LIVE 二次确认。
+  - Shit Capital：官帖 2026-11-25 07:10:00 CST（https://x.com/shit_capital/status/2125366351456059455 ）确认 Genesis is now open，约 48 小时关闭，额度不保证。不是免费 mint。R2164 已提醒即将开窗，本则是开售 LIVE 二次确认。
+  - Shielded Wizards：白名单免费铸仍 LIVE，铸页本轮仍 8/3333，公开售约 2026-11-26 05:10 CST；07:19 CST 官回称即将支持任意比特币钱包。不重推。
+  - 2hour.fun：官帖确认第一场窗口仍为 2026-11-26 05:00 CST，并宣布首发币 $2HOURFUN（Solana，无预售，同样 $100 费）。不按 ≤2h。
+  - oripa-xyz：Nov 25 仅为日期占位，不按 08:00 CST ≤2h。
+  - Ugly Puggies：镜像开铸仍约 21:00 CST，尚未 ≤2h。
+- 看见但未收: xrp1000_fun（约 0.39 天 XRPL 发射台，官网已上、代币表空，DS 暂不收录）；oftan_pro（预测市场，官网 Ethereum 演示盘 vs bio RH Chain 冲突，DS 暂不收录）；flame-btc（官网仍写 minting isn't open yet，与官帖口径冲突，同 R2167/R2168 暂不收）；zauberdotfun（无官网且 zauber.fun 离线）；dandi_fun（约 102 天，官网仍 coming to Zero）；z000fun（官网本轮 500）。
+- Discord Peek: attempted，loginOk=false，discordPeekDeferred=true。登录墙 https://discord.com/login?redirect_to=%2Fchannels%2F1502958818865188956%2F1537897411668746302 。lastSeen 未改（2026-11-23 22:19–22:56 CST）。R2158 已请用户重登，本轮清晨不重复催登录。
+- docsSynced: 将在推送前执行 scripts/sync_docs_panel.sh
+- 面板: https://reboot7454.github.io/early-scout/
