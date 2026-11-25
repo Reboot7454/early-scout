@@ -1,0 +1,22 @@
+# RESULT R2170
+
+- time: 2026-11-25 08:15:40 CST（Asia/Shanghai）
+- mode: post-reset-full（08:00 CST 后首轮全量补扫；上次全量 R2148，本轮记 lastFullAfterReset=R2170。此后恢复正常节流）
+- notify: true
+- xReads: 35；remainingBefore: 1000；remainingAfter: 965 / 1000（softCap 50，minSpend 24，silentCap 2；主扫 34 + silent 1，含瘦栏 24h 6；getUsers=0；未触 softCap，已达 minSpend）
+- userFollow: 已刷完。soft-brush 531 @playmoorin 起 80 号至 @agentsgofirst；next 611 @getblessed_fun，wrap=false，MUST 重叠 0。UF 30m：UF1–UF4 均 0 帖。写盘后 UF 总账户 2368。
+- 十栏关键词: 全部跑到（30m）：LZ 0、TAPE 7、GIWA 1、DOGE 3、BTC 1、STARK 1、MINT 25 触顶、MINE 0、PAD 25 触顶、GO 25 触顶、ELY 2、GAPS 9。MUST_WIN 24h 24、MUST_OFF 30m 0。
+- 瘦栏 24h 补搜: 是（本轮为重置后全量，6 组均跑）。LZ（30m=0→18）、Tape（30m=7→25 触顶）、GIWA（30m=1→25 触顶）、DogeEVM（30m=3→25 触顶）、BTC（30m=1→25 触顶）、Starknet（30m=1→25 触顶）。
+- mentions 覆盖: 全链 24h：GIWA 25 触顶 / Tape 19 / LZ 25 触顶 / Doge 9 / BTC 25 触顶 / Stark 2 / squeek 0 / STARX 0 / Elysium 24 / pads 5。下轮恢复轮换：GIWA / Tape / LayerZero / Elysium。
+- silent: GO盘（searchUsers 不可用，24h mentions 回退，7 帖未触顶；无独立新号送审）。下轮：LayerZero。
+- 新收录:
+  - Lamoryant（@Lamoryant / https://lamoryant.com）→ 栏「打新」。2026-10-20 21:51:57 CST 建号（约 35.4 天），2238 粉 / 14 帖。官网回链官推（资料栏无 URL，siteXMutual=partial-site-to-x）。官网自称 Free mint · 1,356 supply，Robinhood Chain；Apply/Checker 免费登记/查资格已开（https://lamoryant.com/apply）。开铸约 2026-11-26 19:00 CST（官宣 6:00 AM EST）。OG Freemint 含合作获奖、平台用户、排行榜前 100、@NevaFckngTrade 持有人，其余进白名单阶段，OG 未铸完可能收合理铸费。本轮未直接拉到原创官帖原文。不是已开铸 LIVE，不按 ≤2h。免费登记已开。已进 UF + freeMintWatch。focus=false。
+- 库内更新:
+  - Thinkers Club / Shit Capital / Shielded Wizards：状态无实质变化（付费公开铸 LIVE / Genesis 已开 / 白名单免费铸仍 LIVE），不重推。
+  - 2hour.fun：第一场窗口仍为 2026-11-26 05:00 CST，不按 ≤2h。
+  - oripa-xyz：Nov 25 仅为日期占位，不按 08:00 CST ≤2h。
+  - Ugly Puggies：镜像开铸仍约 21:00 CST，尚未 ≤2h。
+- 看见但未收: utopialaunch（Solana 发射台主网已跑，无免费 mint/登记，DS 不收）；warpnetp2p（极早期 P2P 社交，无操作窗口，DS 观察不收）；rgb-monsters（333 枚免费 mint 仅 Soon™，登记未开，DS 不收）；hourly-markets（GPU 租用市场交易量极低，非 mint，DS 不收）；flame-btc（官网仍写 minting isn't open yet，口径冲突，同 R2167–R2169 暂不收）；zauber.fun Offline / zauberdot.fun TLS 失败；z000.fun TLS 失败；WeathookETH / PilotusTrade 无官网无原创官帖；LayerzeroEco 侦察号。
+- Discord Peek: attempted，loginOk=false，discordPeekDeferred=true。登录墙 https://discord.com/login?redirect_to=%2Fchannels%2F1502958818865188956%2F1537897411668746302 。lastSeen 未改（2026-11-23 22:19–22:56 CST，积压约 33h+）。R2158 已请用户重登，本轮未重发登录表。
+- docsSynced: 将在推送前执行 scripts/sync_docs_panel.sh
+- 面板: https://reboot7454.github.io/early-scout/
