@@ -5,7 +5,7 @@
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-26 13:44:55 CST",
+    "lastScout": "2026-11-26 14:19:56 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -899,7 +899,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2227,
+    "round": 2228,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2442,7 +2442,9 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "rubykit"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -5557,7 +5559,7 @@
       "zec-nodes",
       "boys-in-hood"
     ],
-    "alertMessage": "",
+    "alertMessage": "早期打新雷达 R2228：新收录 Ruby（@rubykit_cc / https://rubykit.cc/），Robinhood Chain 只读工具套件已 LIVE，官站与官推互证；建号约 1.2 天、165 粉。$RUBY 合约尚未公布，不是免费 mint。面板：https://reboot7454.github.io/early-scout/",
     "dsSummary": "DeepSeek 一次调用（thinking on）把推理过程写进可见正文、未吐出可直接使用的 alert，故 dsFallback=true。开盘/窗口判定与文案按链上 Mint/DEX、官网与既有 MUST 帖核验事实撰写。本轮无真新收录。notify=true 因 Oathbots 开盘翻转 + SpiritsRH 首次进入 ≤2h 免费 mint 窗。",
     "round270Added": [
       "avatarpad"
@@ -5999,7 +6001,7 @@
       "btc": true,
       "starknet": true
     },
-    "dsFallback": false,
+    "dsFallback": true,
     "coverageR295": {
       "scout": true,
       "mining": true,
@@ -10386,56 +10388,30 @@
       "kwGaps": true,
       "userFollowDone": true,
       "mentions": [
-        "GIWA",
-        "Tape",
-        "LayerZero",
-        "Elysium"
-      ],
-      "mentionsNext": [
         "DogeEVM",
         "BTC",
         "Starknet",
         "pads+squeek+STARX"
       ],
-      "silent": "GIWA",
-      "silentNext": "DogeEVM",
+      "mentionsNext": [
+        "GIWA",
+        "Tape",
+        "LayerZero",
+        "Elysium"
+      ],
+      "silent": "DogeEVM",
+      "silentNext": "BTC",
       "thin24h": [
         "LayerZero",
-        "BTC",
+        "DogeEVM",
         "Starknet"
       ],
       "thin24hSkipped": [
         "Tape/电路",
         "GIWA",
-        "DogeEVM"
+        "BTC"
       ],
-      "thin24hSkipReason": "30m>=5（Tape=25, GIWA=18, DogeEVM=6）",
-      "coreMerged": false,
-      "mustOffDeferred": false,
-      "kwDeferred": false,
-      "mentionsDeferred": false,
-      "thin24hDeferred": false,
-      "silentDeferred": false,
-      "mode": "ample",
-      "thin30m": {
-        "LayerZero": 1,
-        "Tape/电路": 25,
-        "GIWA": 18,
-        "DogeEVM": 6,
-        "BTC": 2,
-        "Starknet": 2,
-        "MINT": 25,
-        "MINE": 0,
-        "PAD": 25,
-        "GO": 25,
-        "ELY": 22,
-        "GAPS": 14
-      },
-      "thin24hHits": {
-        "LayerZero": 23,
-        "BTC": 25,
-        "Starknet": 25
-      }
+      "dsFallback": true
     },
     "skipNoteR328": "hoodey(1粉无产品)DS未收；qpick-agent(4粉代币已发)DS未收；hypaww无Elysium On testnet/部署证据未收；fomopoly/vaultstreet/rebate/conso/blackboard/pabalx/giwaup/minehood/agentic-inu/giwa-terminal/jakdu-pump/sansense/cozygolem/raidlords/vela-rh/dotai-pad/awpad/lootrush-rh/chimp-champs/inktropy已在库；GO盘无独立新信号；StockCZ Agent ID模板过薄未交分。",
     "xReads": 25,
@@ -10723,7 +10699,7 @@
       "r1025": "R1025 watch-bug: perpkin @perpkin Discord R1024 admit",
       "r1114": "added qagent(+seethe-pad where applicable)"
     },
-    "notify": false,
+    "notify": true,
     "skipR335": "aeroxyz-v3成熟DEX升级skip(135k粉非早期)；tapestry无官推账号skip；giwaup/ascendlaunch/kalosfun/conso/awpad/wake/bsc-agent/holo/dotai-pad/jumak/giwadotfun/paperbird/starcatokx/ninetailstrade/gekko/ammora/trac-reset/bramble/axiom-rh/paynexis/vela-rh/listen-money/freakshow已在库；GO盘本时段无独立新信号；Kinetiq三账号无新原创打新；Zero/LZ无新核验admit；keyboard外ESCCAP已收",
     "round336Added": [
       "bai-pad",
@@ -16072,7 +16048,8 @@
         "@cookhousememe",
         "@elderwoodwiz",
         "@CryptoSociety_L",
-        "@HamsteCombatHQ"
+        "@HamsteCombatHQ",
+        "@rubykit_cc"
       ],
       "candidateIds": [
         "elysatrade",
@@ -18487,11 +18464,12 @@
         "cookhousememe",
         "elderwoodwiz",
         "cryptosociety-l",
-        "hamste-combathq"
+        "hamste-combathq",
+        "rubykit"
       ],
       "pending": [],
       "note": "R2090 soft-brush 1734→1784; kept 50, walk 50, skip_already=[], NF_skip=0, wrap=false; firstKept @securityum_xyz, lastKept @BagDropSocial。本片作者均已在库。库内 @Zero_Kitties 首次核到 WL application 已开。新收 @appcityhood @PaydPad。写盘前远程 R2089 Discord 六卡补挂 Watch：@coinductorai @playluckyguard @ideafun_io @smooveoffsol @jesterdotfun @blackwater_z26。",
-      "lastChecked": "2026-11-26 13:44:55 CST",
+      "lastChecked": "2026-11-26 14:19:56 CST",
       "createdAt": "2026-10-28 17:15 CST",
       "sourceRound": 775,
       "r775": "用户点名6项已入 candidates；pending=[]",
@@ -26790,6 +26768,17 @@
         "ufSkippedNF": 8,
         "mustMoved": [],
         "note": "R2223 UF 分片 cursor 647 @sablexisv1 起 50 号至 @cadencebnb；next 697 @Trexionbsc，wrap=false。预跳已知 NF 8 个（@lettucegrow_rh @beatdotfamily @nonamespnft @heyribbid @inkwellonbnb @certuna_rh @miuadotfun @origopad），from: 实际 42 个。UF1 result_count=0，UF2 result_count=0。"
+      },
+      "r2228": {
+        "at": "2026-11-26 14:19:56 CST",
+        "added": [
+          "@rubykit_cc"
+        ],
+        "candidateIds": [
+          "rubykit"
+        ],
+        "softBrush": "shard 897 @toshidotfun → 947 @FlywheelAgent, wrap=false, kept 50, NF_skip=6, ufOnlyFrom=44",
+        "note": "新收 @rubykit_cc 进 UF；本轮未兼挂其它专项 Watch（RH 工具，非发射台/挖矿/Elysium/Tape）。"
       }
     },
     "round775Added": [
@@ -28692,7 +28681,7 @@
       "userFollowWatch.candidateIds+agent-markets",
       "agentPadWatch+@ponsdotfamily"
     ],
-    "mentionsCoverage": "R2227 mentions 轮换：GIWA / Tape / LayerZero / Elysium（MEN_GIWA=25，MEN_TAPE=7，MEN_LZ24=23，MEN_ELY=21）。下轮：DogeEVM / BTC / Starknet / pads+squeek+STARX。",
+    "mentionsCoverage": "R2228 mentions 轮换：DogeEVM / BTC / Starknet / pads+squeek+STARX（MEN_DOGE=3，MEN_BTC=24，MEN_STARK=2，MEN_PADS=18）。下轮：GIWA / Tape / LayerZero / Elysium。",
     "xReadsUsedR808": 45,
     "round809Added": [
       "dot-clash",
@@ -33446,7 +33435,7 @@
       "dsFallback": false
     },
     "round1049Added": [],
-    "ufCursor": 897,
+    "ufCursor": 947,
     "r1050WatchBugs": [
       "themutantclub → userFollowWatch (+acc)",
       "themutantclub → userFollowWatch (+cid)",
@@ -34092,7 +34081,7 @@
       "dinomitesnft→freeMintWatch"
     ],
     "r1068SoftDebt": "cantonPadWatch/glazeWatch/tokenWorksPlaygroundWatch/tokenWorksWatch lastChecked→2026-11-01 16:14:54 CST",
-    "remainingBefore": 818,
+    "remainingBefore": 696,
     "remaining": 795,
     "softCap": 28,
     "xQuotaMode": "ample",
@@ -36663,7 +36652,7 @@
       "agent-only-bsc"
     ],
     "tenLanesR1211": "打新|挖矿|台子/Meme|GO盘|LayerZero|Elysium|Tape/电路|GIWA|DogeEVM + BTC/Starknet covered via merged KW",
-    "remainingAfter": 795,
+    "remainingAfter": 671,
     "r1212": {
       "completedAt": "2026-11-04 17:43 CST",
       "newThisRound": [
@@ -44239,10 +44228,10 @@
       "note": "在库且 round≥1790 的卡在修补后均已在至少一个 Watch（handle 或 id）。新卡 cashed 已进 userFollowWatch。puppet-pro 原只在 userFollowWatch，本轮按 RH/Pons 发射补进 agentPadWatch。未把历史大量无 Watch 旧卡当作本轮漏挂补挂。"
     },
     "mentionsNext": [
-      "DogeEVM",
-      "BTC",
-      "Starknet",
-      "pads+squeek+STARX"
+      "GIWA",
+      "Tape",
+      "LayerZero",
+      "Elysium"
     ],
     "coverageR1826": "独立例行 pace 2026-11-15 01:14 CST：xReads 20（main 19+silent 1），remaining 288→268；开跑 x_budget 曾报 388，以首读工具回包 remaining 287（UF1 后）为准记 remainingBefore=288。UF 262→321 skip 11 NF，优先折入 machinedotfun/bscaidrop/PulseLaunchpad/localbottomcom/NutshellMarkets；十栏 KW 全跑；mentions Tape / GIWA / BTC / Starknet+DogeEVM；silent 打新 mention-only 20 hits。新收录 cashed。在库 Agent World 免费 LIVE、Puppet CA 落地。notify=true。",
     "round1827Added": [
@@ -45432,10 +45421,10 @@
       "backbid"
     ],
     "mentionsThis": [
-      "Tape",
-      "GIWA",
+      "DogeEVM",
       "BTC",
-      "Starknet+DogeEVM"
+      "Starknet",
+      "pads+squeek+STARX"
     ],
     "ufCursorR1853": {
       "before": 1591,
@@ -46895,7 +46884,9 @@
     "ufNextStartHandle": "tell_markets",
     "mentionsThisRound": [
       "DogeEVM",
-      "BTC"
+      "BTC",
+      "Starknet",
+      "pads+squeek+STARX"
     ],
     "silentLaneNext": "DogeEVM",
     "coverageR1870": "R1870 pace：十栏 KW 全跑 + UF 分片 kept 48（NF_skip 11 未重读，662→720）+ MUST + THIN official 5 批 + mentions 轮换 4 组（Tape / GIWA / BTC / Starknet+DogeEVM）；新收录 spoxyfun；在库 bitsigil GTD ≤2h 首次提醒；补挂 @spoxydev Watch 漏挂。",
@@ -47388,7 +47379,7 @@
     "round1907Added": [],
     "coverageR1907": "ample：十栏薄栏 6 条 + 核心栏 5 条 KW 均已跑全；THIN official 4 片全读（103 号：26+25+27+25）；mentions 4 组轮换（Tape / GIWA / BTC / Starknet+DogeEVM）；UF 0-based 994 velom33 起 2 片 kept 50（25+25），wrap=false，walkScanned 55，NF_skip 5（新写入 1：MOIbitcoin），next 1049 Hypercellfun。",
     "mentionsCoverageR1907": "本轮正常轮换 4 组：Tape 21 / GIWA 4 / BTC 1 / Starknet+DogeEVM 1。下一轮：LayerZero / Elysium+kinetiq / mining-squeek+Nutshell / BN Agent pads+STARX。lastFullAfterReset 保持 R1892。",
-    "silentLaneThisRound": "打新",
+    "silentLaneThisRound": "DogeEVM",
     "doNotSpendSilentOn": [
       "bitcoincoreorg",
       "StreetHoodMedia",
@@ -47533,7 +47524,7 @@
       "hyperneko"
     ],
     "le2hConfirmedOpen": [],
-    "silentNext": "DogeEVM",
+    "silentNext": "BTC",
     "xReadsMain": 24,
     "xReadsSilent": 1,
     "ufCursorR1918": {
@@ -50215,7 +50206,7 @@
       "bgyc-rh",
       "shojifun"
     ],
-    "ufCursorHandle": "toshidotfun",
+    "ufCursorHandle": "FlywheelAgent",
     "ufCursorR2050": {
       "softBrush": true,
       "start": 517,
@@ -50398,7 +50389,7 @@
     "round2060Added": [
       "zer0-machines"
     ],
-    "silentLast": "打新",
+    "silentLast": "DogeEVM",
     "ufCursorR2060": {
       "softBrush": true,
       "start": 832,
@@ -53551,7 +53542,7 @@
       "mustOffDeferred": true
     },
     "round2214Added": [],
-    "kwDeferred": true,
+    "kwDeferred": false,
     "silentDeferred": true,
     "thin24hDeferred": true,
     "ufCursorR2215": {
@@ -53926,9 +53917,128 @@
         "DogeEVM"
       ]
     },
-    "round2227Added": []
+    "round2227Added": [],
+    "ufCursorR2228": {
+      "start": 897,
+      "startHandle": "toshidotfun",
+      "next": 947,
+      "nextHandle": "FlywheelAgent",
+      "endHandle": "BNBRunnerz",
+      "kept": 50,
+      "ufOnlyFrom": 44,
+      "ufSkippedNF": 6,
+      "nfSkip": [
+        "@exec_terminal",
+        "@orivatbnb",
+        "@spiderproject69",
+        "@useampad",
+        "@astropad_real",
+        "@bianjiayou"
+      ],
+      "wrap": false,
+      "totalAfter": 2458
+    },
+    "round2228Added": [
+      "rubykit"
+    ],
+    "mentionsCoverageR2228": "R2228 mentions 轮换：DogeEVM / BTC / Starknet / pads+squeek+STARX（MEN_DOGE=3，MEN_BTC=24，MEN_STARK=2，MEN_PADS=18）。下轮：GIWA / Tape / LayerZero / Elysium。",
+    "dsError": "DeepSeek HTTP 401 authentication_error; admit/score/alert used dsFallback"
   },
   "candidates": [
+    {
+      "id": "rubykit",
+      "name": "Ruby",
+      "handle": "@rubykit_cc",
+      "twitter": "@rubykit_cc",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-25 09:25:52 CST",
+      "xUserId": "2125400209824022528",
+      "chain": "Robinhood Chain",
+      "category": "台子/Meme",
+      "zone": "scout",
+      "zoneHint": "台子/Meme",
+      "ecosystem": "Robinhood Chain",
+      "status": "live",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 165,
+      "xFollowers": 165,
+      "xTweets": 71,
+      "verified": false,
+      "source": "X-KW-PAD",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "siteXMutual": "yes",
+      "siteXMutualNote": "资料栏 t.co/49xHrZdlEv 展开为 https://rubykit.cc/；官网正文链到 https://x.com/rubykit_cc，站点与官号互证。",
+      "summary": "Ruby（@rubykit_cc / https://rubykit.cc/）是 Robinhood Chain（chain id 4663）上的只读工具套件：radar / clip / daily / memory / privacy / seal / lend / pool / locker / x402 / MCP。建号 2026-11-25 09:25:52 CST（约 1.2 天），165 粉 / 71 帖，未认证，xUserId 2125400209824022528。官网标题 Ruby · Chain Kit，自称工具已 LIVE、只读、不签名、不索要私钥（Seal 由用户自己的钱包发送）。GitHub https://github.com/rubykit-star/ruby。官帖 https://x.com/rubykit_cc/status/2125831920030523666（2026-11-26 14:00 CST）介绍 Ruby Lend 只读查看 Aave V3 / Morpho 市场 LTV。官网写 $RUBY CA coming soon，本轮未见代币合约。不是免费 mint，也不是免费登记。DeepSeek HTTP 401，本卡评分与文案为 dsFallback。",
+      "blurb": "Robinhood Chain 只读工具套件已 LIVE，官站与官推互证；$RUBY 合约尚未公布，不是免费 mint。",
+      "highlights": [
+        "建号约 1.2 天、165 粉，属于极早期新号",
+        "有独立官网 https://rubykit.cc/ 且与 @rubykit_cc 互证，GitHub 开源",
+        "工具自称已 LIVE（只读链上查询，不签名）",
+        "有自有官帖讲解 Ruby Lend 读取的 Aave V3 LTV"
+      ],
+      "drawbacks": [
+        "新号不到两天，团队与审计信息不透明",
+        "$RUBY CA 尚未公布，买页/浏览器入口可能后上",
+        "虽自称只读，连钱包仍有站点风险",
+        "不是可打的免费 mint / 免费登记"
+      ],
+      "scores": {
+        "early": 90,
+        "actionable": 62,
+        "novelty": 68,
+        "risk": 58,
+        "overall": 70
+      },
+      "earlyScore": 90,
+      "overall": 70,
+      "score": 70,
+      "riskScore": 58,
+      "tags": [
+        "robinhood",
+        "tooling",
+        "live-tools"
+      ],
+      "links": {
+        "x": "https://x.com/rubykit_cc",
+        "twitter": "https://x.com/rubykit_cc",
+        "website": "https://rubykit.cc/",
+        "site": "https://rubykit.cc/",
+        "web": "https://rubykit.cc/",
+        "github": "https://github.com/rubykit-star/ruby",
+        "officialPost": "https://x.com/rubykit_cc/status/2125831920030523666"
+      },
+      "mintStatus": "不是免费 mint，也不是免费登记。官网与 GitHub 显示工具套件已 LIVE（只读）。$RUBY CA coming soon，本轮未见合约地址。本号不自动操作、不连钱包代操作。",
+      "round": 2228,
+      "newThisRound": true,
+      "firstSeen": "2026-11-26 14:19:56 CST",
+      "lastChecked": "2026-11-26 14:19:56 CST",
+      "whatsNew": "【R2228】新收录。官号 @rubykit_cc 于 2026-11-25 09:25:52 CST 建立（约 1.2 天、165 粉 / 71 帖，未认证，xUserId 2125400209824022528）。资料栏展开为 https://rubykit.cc/，官网回链 https://x.com/rubykit_cc。官帖 2026-11-26 14:00 CST（https://x.com/rubykit_cc/status/2125831920030523666）介绍 Robinhood Chain 上Aave V3 市场 LTV，由 Ruby Lend 从合约只读。DeepSeek 401，评分 overall 70 为 dsFallback。已进 userFollowWatch。不是免费 mint。",
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "le2h": false,
+        "lastChecked": "2026-11-26 14:19:56 CST",
+        "officialHandle": "@rubykit_cc",
+        "officialPost": "https://x.com/rubykit_cc/status/2125831920030523666",
+        "officialPostAt": "2026-11-26 14:00:00 CST",
+        "website": "https://rubykit.cc/",
+        "siteXMutual": "yes",
+        "freeLIVE": false,
+        "freeMintLIVE": false,
+        "accountCreatedAt": "2026-11-25 09:25:52 CST",
+        "followers": 165,
+        "posts": 71,
+        "chain": "Robinhood Chain",
+        "tokenCA": null,
+        "tokenCANote": "官网写 $RUBY CA coming soon，本轮未见地址。",
+        "github": "https://github.com/rubykit-star/ruby",
+        "mintStatus": "工具已 LIVE，不是免费 mint / 免费登记。$RUBY CA 尚未公布。"
+      }
+    },
     {
       "id": "glint",
       "name": "Glint",
@@ -61546,14 +61656,14 @@
       "xFollowers": 33,
       "firstSeen": "2026-11-21 19:06 CST",
       "addedAt": "2026-11-21 19:06 CST",
-      "lastChecked": "2026-11-26 13:44:55 CST",
+      "lastChecked": "2026-11-26 14:19:56 CST",
       "zoneHint": "打新",
       "newThisRound": false,
       "schedule": {
-        "lastChecked": "2026-11-26 13:44:55 CST",
+        "lastChecked": "2026-11-26 14:19:56 CST",
         "le2h": false,
         "website": "https://www.vicehood.xyz/",
-        "openseaCheckedAt": "2026-11-26 13:44:55 CST",
+        "openseaCheckedAt": "2026-11-26 14:19:56 CST",
         "opensea": "https://opensea.io/collection/vchood",
         "openseaSupply": 0,
         "minted": 0,
@@ -61600,7 +61710,7 @@
           "nft": "0x0648b448fe7b0bf828445a63a44927932f95d839",
           "chain": "robinhood"
         },
-        "mintStatus": "本轮 KW_CORE 见到 @Vicehood_RH 官帖转发：MINT TOMORROW AT 17:00 UTC，Checker 指向 OpenSea。官网 https://www.vicehood.xyz/ 仍是 Early List（200）。官方合集是 https://opensea.io/collection/vchood（twitter_username=Vicehood_RH 互证，合约 0x0648b448fe7b0bf828445a63a44927932f95d839，robinhood），不是已在铸造的同名合集 vicehood（PlayVicehood）。SeaDrop mintStatus=MINTING_SOON，0/3333，activeDropStage=null。SIGNED_PRESALE 2026-11-27 01:00–04:00 CST；第二段 SIGNED_PRESALE 04:00–05:00 CST；PUBLIC_SALE 2026-11-27 05:00 CST–2026-11-30 07:00 CST。供应与持有均为 0，不是已开铸 LIVE。距首窗约 18.5 小时，未到首次 ≤2h，不提前告警、不重推。本号不自动 mint。",
+        "mintStatus": "官方合集 vchood 本轮 collection API 仍为 0/3333、0 持有，不是已开铸 LIVE。同名合集 vicehood（209 份 / 13 持有，无官号互证）不是该官号，未混淆。时间表沿用 R2227：SIGNED_PRESALE #1 2026-11-27 01:00–04:00 CST，#2 04:00–05:00 CST，PUBLIC_SALE 05:00 CST 起至 2026-11-30 07:00 CST。距首窗 约 10.7h，未到首次 ≤2h，不提前告警、不重推。本号不自动 mint。",
         "supply": 3333,
         "publicMintAtCST": "2026-11-27 01:00:00 CST",
         "activeDropStage": null
@@ -61611,7 +61721,7 @@
         "chain": "robinhood"
       },
       "updatedAt": "2026-11-26 07:41:40 CST",
-      "mintStatus": "官方合集 vchood 仍为 MINTING_SOON，0/3333，activeDropStage=null。SIGNED_PRESALE #1 仍 2026-11-27 01:00–04:00 CST，#2 04:00–05:00 CST，PUBLIC_SALE 05:00 CST 起至 2026-11-30 07:00 CST。时间表未改。距首窗约 11.3h，未到首次 ≤2h。同名合集 vicehood 不是该官号，未混淆。不提前告警、不重推。"
+      "mintStatus": "官方合集 vchood 本轮 collection API 仍为 0/3333、0 持有，不是已开铸 LIVE。同名合集 vicehood（209 份 / 13 持有，无官号互证）不是该官号，未混淆。时间表沿用 R2227：SIGNED_PRESALE #1 2026-11-27 01:00–04:00 CST，#2 04:00–05:00 CST，PUBLIC_SALE 05:00 CST 起至 2026-11-30 07:00 CST。距首窗 约 10.7h，未到首次 ≤2h，不提前告警、不重推。本号不自动 mint。"
     },
     {
       "id": "usetslachain",
@@ -125433,13 +125543,13 @@
       "xFollowers": 1209,
       "firstSeen": "2026-11-02 18:48 CST",
       "addedAt": "2026-11-02 18:48 CST",
-      "lastChecked": "2026-11-26 13:44:55 CST",
+      "lastChecked": "2026-11-26 14:19:56 CST",
       "zoneHint": "打新",
       "newThisRound": false,
       "le2h": false,
       "schedule": {
-        "lastChecked": "2026-11-26 13:44:55 CST",
-        "openseaCheckedAt": "2026-11-26 13:44:55 CST",
+        "lastChecked": "2026-11-26 14:19:56 CST",
+        "openseaCheckedAt": "2026-11-26 14:19:56 CST",
         "website": "https://wildlifeuniverseofficial.com/",
         "opensea": "https://opensea.io/collection/tiger-universe-415604972",
         "openseaSupply": 0,
@@ -125505,7 +125615,7 @@
           "nft": "0xbbc8acefe610e09552df941e445a765f916f946f",
           "chain": "robinhood"
         },
-        "mintStatus": "本轮 KW_CORE 见第三方称 Tiger Universe 已改成 100% FREE。官网 https://wildlifeuniverseofficial.com/ 与官号 @Wildlifeuni_55、OpenSea 合集 tiger-universe-415604972 互证，写 Launch 26 November 2026 · 7:00 PM IST（即 13:30 UTC / 21:30 CST）。SeaDrop mintStatus=MINTING_SOON，0/5555，activeDropStage=null。SIGNED_PRESALE 分段自 2026-11-26 21:30 CST 起，PUBLIC_SALE 2026-11-27 02:29 CST 起至 2026-12-06 01:24 CST。供应与持有均为 0，不是已开铸 LIVE。R2189 已记录第三方「明日 1:30 PM UTC 免费 mint」口径。本轮未到首次 ≤2h（约 21:30 CST 才开窗），不提前告警、不重推。本号不自动 mint。",
+        "mintStatus": "仍未开铸。OpenSea tiger-universe-415604972 collection API 仍 0/5555、0 持有。时间表沿用 R2227：SIGNED_PRESALE #1 2026-11-26 21:30–21:50 CST 起，PUBLIC_SALE 2026-11-27 02:29 CST 起。距首窗 约 7.2h，未到首次 ≤2h，不提前告警、不重推。本号不自动 mint。",
         "supply": 5555,
         "activeDropStage": null
       },
@@ -125514,7 +125624,7 @@
         "chain": "robinhood"
       },
       "updatedAt": "2026-11-26 07:41:40 CST",
-      "mintStatus": "SeaDrop 仍为 MINTING_SOON，0/5555，activeDropStage=null，不是已开铸 LIVE。时间表未改：SIGNED_PRESALE #1 2026-11-26 21:30–21:50 CST，#2 21:50–22:00 CST，#3 22:00–2026-11-27 00:00 CST，#4 00:00–02:29 CST，PUBLIC_SALE 2026-11-27 02:29 CST 起至 2026-12-06 01:24 CST。距首窗约 7.8h，未到首次 ≤2h，不提前告警、不重推。本号本轮在 UF 分片内（30m 窗），未见新官帖。本号不自动 mint。"
+      "mintStatus": "仍未开铸。OpenSea tiger-universe-415604972 collection API 仍 0/5555、0 持有。时间表沿用 R2227：SIGNED_PRESALE #1 2026-11-26 21:30–21:50 CST 起，PUBLIC_SALE 2026-11-27 02:29 CST 起。距首窗 约 7.2h，未到首次 ≤2h，不提前告警、不重推。本号不自动 mint。"
     },
     {
       "id": "qualyradex",
@@ -128855,7 +128965,7 @@
       "chain": "BNB",
       "ecosystem": "BNB Agent ID",
       "freeLIVE": true,
-      "mintStatus": "MUST_WIN 再见到官帖重申每日开窗：$RMINE 为 Agent ID + PoW，daily window 20:00 CST，miners pay only gas。CA 仍为 0xfB50746BCc9D585AEb49cd410Fa0100b657ce9e6。距今日窗约 6.3h，未到首次 ≤2h，不重推。本号不自动 mint。",
+      "mintStatus": "MUST_WIN 再见到官帖重申每日开窗：$RMINE 为 Agent ID + PoW，daily window 20:00 CST，miners pay only gas。CA 仍为 0xfB50746BCc9D585AEb49cd410Fa0100b657ce9e6。同帖还预告即将推出 one-click launchpad，官网未见已 LIVE，不按发射台开张重推。距今日窗 约 5.7h，未到首次 ≤2h，不重推。本号不自动 mint。",
       "progress": {
         "phase": 1,
         "sold": 161,
@@ -128902,7 +129012,7 @@
       "firstSeen": "2026-11-02 01:49 CST",
       "addedAt": "2026-11-02 01:49 CST",
       "updatedAt": "2026-11-21 13:43:22 CST",
-      "lastChecked": "2026-11-26 13:44:55 CST",
+      "lastChecked": "2026-11-26 14:19:56 CST",
       "note": "DS admit+score64；免费LIVE须notify；config X=Tablivip121370 NF改用@RuninAI_com；本雷达不执行mint",
       "mintProgress": "freeClaimed=4444满 sold≈170",
       "onchain": {
@@ -128915,7 +129025,7 @@
       "le2h": false,
       "xFollowers": 50,
       "schedule": {
-        "lastChecked": "2026-11-26 13:44:55 CST",
+        "lastChecked": "2026-11-26 14:19:56 CST",
         "le2h": false,
         "timezone": "Asia/Shanghai",
         "source": "https://x.com/RuninAI_com/status/2125813709276934470",
@@ -128926,7 +129036,9 @@
         "latestPostCST": "2026-11-21 07:26:35 CST",
         "dailyWindowCST": "20:00",
         "officialPost": "https://x.com/RuninAI_com/status/2125813709276934470",
-        "officialPostAt": "2026-11-26 12:47:38 CST"
+        "officialPostAt": "2026-11-26 12:47:38 CST",
+        "mintStatus": "MUST_WIN 再见到官帖重申每日开窗：$RMINE 为 Agent ID + PoW，daily window 20:00 CST，miners pay only gas。CA 仍为 0xfB50746BCc9D585AEb49cd410Fa0100b657ce9e6。同帖还预告即将推出 one-click launchpad，官网未见已 LIVE，不按发射台开张重推。距今日窗 约 5.7h，未到首次 ≤2h，不重推。本号不自动 mint。",
+        "launchpadTeaser": "官帖预告 one-click launchpad，本轮未见已 LIVE。"
       }
     },
     {
@@ -149755,14 +149867,14 @@
       "xFollowers": 39,
       "firstSeen": "2026-10-29 22:08 CST",
       "addedAt": "2026-10-29 22:08 CST",
-      "lastChecked": "2026-11-26 13:44:55 CST",
+      "lastChecked": "2026-11-26 14:19:56 CST",
       "zoneHint": "台子/Meme",
       "updatedAt": "2026-11-26 07:41:40 CST",
       "newThisRound": false,
       "le2h": false,
       "schedule": {
         "timezone": "Asia/Shanghai",
-        "lastChecked": "2026-11-26 13:44:55 CST",
+        "lastChecked": "2026-11-26 14:19:56 CST",
         "status": "window_closed",
         "le2h": false,
         "note": "官回 05:52:39 CST（https://x.com/2hourfun/status/2125346886429073821 ）澄清：New coins only launch in one 2 hour window a day. First one's tomorrow, 21:00 UTC（2026-11-26 05:00 CST）。此前 05:36 CST 预告今晚 23:00 UTC / 07:00 CST 仍未说明具体事项。第一场开盘窗尚远，不按 ≤2h 提醒。未见 CA。",
@@ -149772,7 +149884,7 @@
         "teaserAtCST": "2026-11-25 07:00 CST",
         "teaserAtUTC": "2026-11-25 23:00 UTC",
         "officialPostAt": "2026-11-26 05:02:04 CST",
-        "mintStatus": "第一场官方窗口已按原时间表于 07:00 CST 关闭（官网 RSC payload 仍为 open=false）。SSR 仍可能显示 Window open + 00:00:00 倒计时占位，不以该标签为准。官帖 07:07:21 CST（https://x.com/2hourfun/status/2125728073392033795）确认 Window one: done，并写明 Window two: tomorrow, 21:00 UTC（2026-11-27 05:00 CST）。官帖自称 233 traders、$44K traded、$2HOURFUN 曾 11x 至 $29.7K（ATH；/api/window peak 约 $28.0k，traderCount 仍为 37，与官帖 233 口径不同）。另称 tomorrow devs get more、Big updates landing before window two，未见具体规则或改期。发币费仍为免费（R2213 已通知 06:05:02 CST 官帖 https://x.com/2hourfun/status/2125712391253930030），不是 NFT 免费 mint。官网 /api/window traderCount=37。平台币 $2HOURFUN 仍在曲线、未毕业，CA 54PSWdiJbeF9H9Eumi3fLc8wfiLE3igN3GAuxb5zUeHi，pool AWPh3HYuc2e9d7ooAuEZhL75SoMRTggLCLWAh7bHjyDY，进度约 14.6%（R2214 约 14.3%），官网约 USD 5.2k mcap（R2214 约 $5.1k），已筹约 16.31 SOL / 约 USD 1146（R2214 约 15.96 SOL），门槛 112 SOL。最后成交约 2026-11-26 07:25:45 CST。下一窗已由官帖确认：2026-11-27 05:00–07:00 CST（21:00–23:00 UTC），未到 ≤2h。Explore /api/window 另见 Robinhood 链币 0x5f8d1a0df77bcb16ab46d4db5d3df66bcdb2cfb1，peak 约 $2.7k，本轮 volume/traders 为 0，名称未解析，未单独建卡。关窗与下一窗时间均按原计划，费率变更已通知，不重推。本号不自动 mint。",
+        "mintStatus": "第一场官方窗口仍关闭。官网 /api/window traderCount=43（与 R2227 持平）。下一窗仍是 2026-11-27 05:00–07:00 CST（21:00–23:00 UTC），距下一窗 约 14.7h，未到 ≤2h。无改期，不重推。本号不自动 mint。",
         "firstWindowAtUTC": "2026-11-25 21:00 UTC",
         "firstWindowAtCST": "2026-11-26 05:00 CST",
         "officialReplyTo": "https://x.com/2hourfun/status/2125342886934020593",
@@ -149835,7 +149947,7 @@
         "pool": null,
         "graduated": null
       },
-      "mintStatus": "第一场官方窗口仍关闭。官网 RSC payload 明确 open=false；SSR 仍可能显示 Window open + 00:00:00 倒计时占位，不以该标签为准。下一窗仍是 2026-11-27 05:00–07:00 CST（21:00–23:00 UTC），距下一窗约 15.3h，未到 ≤2h。官网 /api/window traderCount=43（R2226 为 37）。无改期，不重推。本号不自动 mint。",
+      "mintStatus": "第一场官方窗口仍关闭。官网 /api/window traderCount=43（与 R2227 持平）。下一窗仍是 2026-11-27 05:00–07:00 CST（21:00–23:00 UTC），距下一窗 约 14.7h，未到 ≤2h。无改期，不重推。本号不自动 mint。",
       "freeLIVE": false,
       "freeMintLIVE": false
     },
@@ -296259,7 +296371,7 @@
         "price": "Free（另 1,000 sats ticket）",
         "progress": "WL LIVE 2/3333；Public 约 2026-11-26 05:10 CST"
       },
-      "mintStatus": "免费公售仍 LIVE（R2210 已首次确认并通知，本轮只刷进度，不重推）。官网 /launchpad/api/status 仍为 phase=public，minted=145/3333（R2226 为 144），reserved=2，mintOpen=True，price=0，perWallet=1。公售页 https://brimhollow.app/mint 。本号不自动 mint。",
+      "mintStatus": "免费公售仍 LIVE（R2210 已首次确认并通知，本轮只刷进度，不重推）。官网 /launchpad/api/status 仍为 phase=public，minted=145/3333（与 R2227 持平），reserved=2，mintOpen=True，price=0，perWallet=1，fee=4000。公售页 https://brimhollow.app/mint 。本号不自动 mint。",
       "freeLIVE": true,
       "lzVerified": false,
       "links": {
@@ -296307,7 +296419,7 @@
       "admittedAt": "2026-11-02T22:45:00+08:00",
       "firstSeen": "2026-11-02 22:45 CST",
       "addedAt": "2026-11-02 22:45 CST",
-      "lastChecked": "2026-11-26 13:44:55 CST",
+      "lastChecked": "2026-11-26 14:19:56 CST",
       "updatedAt": "2026-11-26 07:41:40 CST",
       "followers": 691,
       "xFollowers": 691,
@@ -296320,7 +296432,7 @@
       "schedule": {
         "note": "仅刷 lastChecked；旧帖不重复写成新闻。",
         "le2h": false,
-        "lastChecked": "2026-11-26 13:44:55 CST",
+        "lastChecked": "2026-11-26 14:19:56 CST",
         "timezone": "Asia/Shanghai",
         "opensAt": "2026-11-09 23:00 CST",
         "startsAt": "2026-11-09T23:00:00+08:00",
@@ -296329,7 +296441,7 @@
         "windowUntil": "",
         "freeLIVE": true,
         "freeMintLIVE": true,
-        "mintStatus": "免费公售仍 LIVE（R2210 已首次确认并通知，本轮只刷进度，不重推）。开售官帖仍是 05:00:06 CST（https://x.com/ShieldedWizBTC/status/2125696051701010933）。官网 /launchpad/api/status 仍为 phase=public，minted=91/3333，reserved=3，mintOpen=True，price=0（仍 Free），perWallet=1，fee=4000。公售页 https://brimhollow.app/mint 。本号不自动 mint。",
+        "mintStatus": "免费公售仍 LIVE（R2210 已首次确认并通知，本轮只刷进度，不重推）。官网 /launchpad/api/status 仍为 phase=public，minted=145/3333（与 R2227 持平），reserved=2，mintOpen=True，price=0，perWallet=1，fee=4000。公售页 https://brimhollow.app/mint 。本号不自动 mint。",
         "website": "https://brimhollow.app/mint",
         "officialHandle": "@ShieldedWizBTC",
         "officialPost": "https://x.com/ShieldedWizBTC/status/2125696051701010933",
@@ -356869,7 +356981,7 @@
       "summary": "极早期 BNB Chain Agent ID 门槛代币，自称免费 mint 555 席，开铸 2026-11-26 18:00 CST，无官网无 CA。",
       "blurb": "QQAI | Agent ID-gated token on BNB Chain. 1T fixed supply. Pre-pool sales are escrowed on-chain, with an 80% refund if the pool never opens.",
       "status": "announced",
-      "mintStatus": "自称免费 mint 已宣布但开铸未到：约 2026-11-26 18:00 CST，555 席×16,500,000 QQAI，每 Agent ID 最多 2 份 FCFS。本轮 MUST 未见新官帖。距开铸约 4.3h，未到首次 ≤2h，不是已开铸 LIVE。未见 CA。不提前告警、不重推。",
+      "mintStatus": "自称免费 mint 已宣布但开铸未到：约 2026-11-26 18:00 CST，555 席×16,500,000 QQAI，每 Agent ID 最多 2 份 FCFS。本轮 MUST 未见新官帖。距开铸 约 3.7h，未到首次 ≤2h，不是已开铸 LIVE。未见 CA。不提前告警、不重推。本号不自动 mint。",
       "focus": false,
       "source": "KW_GAPS",
       "le2h": false,
@@ -356881,12 +356993,12 @@
       "round": 2166,
       "newThisRound": false,
       "firstSeen": "2026-11-25 06:08:32 CST",
-      "lastChecked": "2026-11-26 13:44:55 CST",
+      "lastChecked": "2026-11-26 14:19:56 CST",
       "schedule": {
         "status": "announced",
         "timezone": "Asia/Shanghai",
         "le2h": false,
-        "lastChecked": "2026-11-26 13:44:55 CST",
+        "lastChecked": "2026-11-26 14:19:56 CST",
         "officialHandle": "@QQAI_BNB",
         "officialPost": "https://x.com/QQAI_BNB/status/2125346896185311575",
         "officialPostAt": "2026-11-25 05:52 CST",
@@ -356897,7 +357009,7 @@
         "accountCreatedAt": "2026-11-25 05:24:55 CST",
         "followers": 0,
         "posts": 10,
-        "mintStatus": "自称免费 mint 已宣布但开铸未到：约 2026-11-26 18:00 CST，555 席×16,500,000 QQAI，每 Agent ID 最多 2 份 FCFS。不是已开铸 LIVE。未见 CA。",
+        "mintStatus": "自称免费 mint 已宣布但开铸未到：约 2026-11-26 18:00 CST，555 席×16,500,000 QQAI，每 Agent ID 最多 2 份 FCFS。本轮 MUST 未见新官帖。距开铸 约 3.7h，未到首次 ≤2h，不是已开铸 LIVE。未见 CA。不提前告警、不重推。本号不自动 mint。",
         "freeRegistrationOpen": false,
         "selfClaimedFreeMint": true,
         "freeSlotsAtCST": "2026-11-26 18:00 CST",
@@ -357234,19 +357346,19 @@
       },
       "siteXMutual": "none",
       "siteXMutualNote": "资料栏无官网；OpenSea 集合与精确分阶段日程来自第三方转载，本轮未直接核到官帖原文。",
-      "mintStatus": "SeaDrop 仍为 MINTING，activeDropStage 已切到 SIGNED_PRESALE #3（2026-11-26 13:30–2026-11-27 13:30 CST）。#2 已按点于 13:30 CST 结束。PUBLIC_SALE 仍是 2026-11-27 13:30–2026-11-29 13:30 CST。时间表未改。供应 SeaDrop 459/777（OpenSea collection API 为 458，R2226 为 317），持有 300（HTML stats；API stats 为 297，R2226 为 240），地板 0.000169 ETH（与 R2226 持平）。官回 2026-11-26 13:04 CST（https://x.com/uglypuggies/status/2125817933880533323）称 mint 比预期慢但是有意的、GTD 有一整天，不是改期。首次 ≤2h 已在 R2223 提醒，本轮阶段切换与供应上涨只是进度，不重推。距 #3 结束约 23.8h，未到新的首次 ≤2h。本号不自动 mint。",
+      "mintStatus": "免费 mint 仍 LIVE。本轮 OpenSea collection API 484/777（R2227 为 459），持有 313（R2227 为 300），地板 0.000159 ETH（R2227 为 0.000169 ETH）。SeaDrop 页 HTML 解析本轮仍失败，阶段沿用 R2227：activeDropStage 为 SIGNED_PRESALE #3（2026-11-26 13:30–2026-11-27 13:30 CST），PUBLIC_SALE 仍是 2026-11-27 13:30–2026-11-29 13:30 CST。时间表未见改口。MUST_WIN 再见 13:04 CST 同一则官回（https://x.com/uglypuggies/status/2125817933880533323），R2227 已记，不重推。首次 ≤2h 已在 R2223 提醒。距 #3 结束 / 公售开始 约 23.2h，未到新的首次 ≤2h。只是进度，不重推。本号不自动 mint。",
       "round": 2168,
       "newThisRound": false,
       "firstSeen": "2026-11-25 07:07:20 CST",
       "addedAt": "2026-11-25 07:07:20 CST",
       "updatedAt": "2026-11-26 07:41:40 CST",
-      "lastChecked": "2026-11-26 13:44:55 CST",
+      "lastChecked": "2026-11-26 14:19:56 CST",
       "le2h": false,
       "schedule": {
         "status": "live",
         "timezone": "Asia/Shanghai",
         "le2h": false,
-        "lastChecked": "2026-11-26 13:44:55 CST",
+        "lastChecked": "2026-11-26 14:19:56 CST",
         "officialHandle": "@uglypuggies",
         "officialPost": "https://x.com/uglypuggies/status/2125605878850298248",
         "officialPostAt": "2026-11-25 23:01 CST",
@@ -357257,7 +357369,7 @@
         "accountCreatedAt": "2026-08-07 11:36:48 CST",
         "followers": 441,
         "posts": 24,
-        "mintStatus": "免费 mint 仍 LIVE。合集 HTML SeaDrop mintStatus=MINTING，erc721.totalSupply=310/777（R2206 为 263/777；公开 API total_supply=310），持有 237（R2206 为 194），地板 0.000169 ETH（R2206 为 0.000169 ETH）。时间表未变：activeDropStage 仍为 stageIndex=2，类型仍是 SIGNED_PRESALE，至 2026-11-26 13:30:00 CST。stageIndex 3 仍是 SIGNED_PRESALE 至 2026-11-27 13:30 CST；PUBLIC_SALE 要到 2026-11-27 13:30 CST。本轮 MUST 未见 @uglypuggies 新官帖。阶段类型未变、规则未见变化，只是仍 LIVE 与小幅进度，不重推。本号不自动 mint。",
+        "mintStatus": "免费 mint 仍 LIVE。本轮 OpenSea collection API 484/777（R2227 为 459），持有 313（R2227 为 300），地板 0.000159 ETH（R2227 为 0.000169 ETH）。SeaDrop 页 HTML 解析本轮仍失败，阶段沿用 R2227：activeDropStage 为 SIGNED_PRESALE #3（2026-11-26 13:30–2026-11-27 13:30 CST），PUBLIC_SALE 仍是 2026-11-27 13:30–2026-11-29 13:30 CST。时间表未见改口。MUST_WIN 再见 13:04 CST 同一则官回（https://x.com/uglypuggies/status/2125817933880533323），R2227 已记，不重推。首次 ≤2h 已在 R2223 提醒。距 #3 结束 / 公售开始 约 23.2h，未到新的首次 ≤2h。只是进度，不重推。本号不自动 mint。",
         "selfClaimedFreeMint": true,
         "freeRegistrationOpen": false,
         "supply": 777,
@@ -357322,20 +357434,20 @@
             "__typename": "Erc721SeaDropV1Stage"
           }
         },
-        "mintedApprox": "205/777",
-        "ownersApprox": 163,
-        "floor": 0.000169,
+        "mintedApprox": 484,
+        "ownersApprox": 313,
+        "floor": 0.000159,
         "firstLe2hAtCST": "2026-11-25 21:00 CST",
         "dropMintStatus": "MINTING_SOON",
         "activeDropStage": 3,
         "mintedDropPage": "211/777",
-        "openseaSupply": 459,
-        "owners": 300,
+        "openseaSupply": 484,
+        "owners": 313,
         "floorSymbol": "ETH",
-        "openseaCheckedAt": "2026-11-26 13:10:19 CST",
+        "openseaCheckedAt": "2026-11-26 14:19:56 CST",
         "floorNote": "0.000169 ETH",
         "openseaMintStatus": "MINTING",
-        "minted": 459,
+        "minted": 484,
         "contracts": {
           "nft": "0xe2be23fbffe892feb3677341765847b9309663c2",
           "chain": "robinhood"
@@ -357603,22 +357715,22 @@
       },
       "siteXMutual": "partial-site-to-x",
       "siteXMutualNote": "官网回链 https://x.com/Lamoryant；官推资料栏本轮无 URL。本轮未直接核到官帖原文。",
-      "mintStatus": "免费登记/查资格（Apply/Checker）仍开，不是已开铸 LIVE。官网 https://lamoryant.com 与 /apply 本轮仍 200，文案仍是 Free mint · 1,356 supply。开铸仍约 2026-11-26 19:00 CST（官宣 6:00 AM EST）。距开铸约 5.3h，未到首次 ≤2h，不提前告警、不重推。",
+      "mintStatus": "免费登记/查资格（Apply/Checker）仍开，不是已开铸 LIVE。官网 https://lamoryant.com 与 /apply 本轮仍 200，文案仍是 Free mint · 1,356 supply。MUST_WIN 见到 02:40 CST 官帖称 WL applications 将在接下来几小时重开、官方 mint 站 / OpenSea public soon；开铸仍约 2026-11-26 19:00 CST（官宣 6:00 AM EST）。距开铸 约 4.7h，未到首次 ≤2h，不提前告警、不重推。本号不自动 mint。",
       "round": 2170,
       "newThisRound": false,
       "firstSeen": "2026-11-25 08:15:40 CST",
       "addedAt": "2026-11-25 08:15:40 CST",
       "updatedAt": "2026-11-25 18:51:45 CST",
-      "lastChecked": "2026-11-26 13:44:55 CST",
+      "lastChecked": "2026-11-26 14:19:56 CST",
       "le2h": false,
       "schedule": {
         "status": "whitelist-open",
         "timezone": "Asia/Shanghai",
         "le2h": false,
-        "lastChecked": "2026-11-26 13:44:55 CST",
+        "lastChecked": "2026-11-26 14:19:56 CST",
         "officialHandle": "@Lamoryant",
         "officialPost": null,
-        "officialPostAt": null,
+        "officialPostAt": "2026-11-26 02:40:00 CST",
         "website": "https://lamoryant.com",
         "siteXMutual": "partial-site-to-x",
         "freeLIVE": false,
@@ -357626,7 +357738,7 @@
         "accountCreatedAt": "2026-10-20 21:51:57 CST",
         "followers": 2238,
         "posts": 14,
-        "mintStatus": "免费登记/查资格（Apply/Checker）已开，不是已开铸 LIVE。自称 1,356 份免费 mint，开铸约 2026-11-26 19:00 CST（官宣 6:00 AM EST）。",
+        "mintStatus": "免费登记/查资格（Apply/Checker）仍开，不是已开铸 LIVE。官网 https://lamoryant.com 与 /apply 本轮仍 200，文案仍是 Free mint · 1,356 supply。MUST_WIN 见到 02:40 CST 官帖称 WL applications 将在接下来几小时重开、官方 mint 站 / OpenSea public soon；开铸仍约 2026-11-26 19:00 CST（官宣 6:00 AM EST）。距开铸 约 4.7h，未到首次 ≤2h，不提前告警、不重推。本号不自动 mint。",
         "freeRegistrationOpen": true,
         "selfClaimedFreeMint": true,
         "supply": "1356",
@@ -357635,7 +357747,9 @@
         "publicMintAtEST": "2026-11-26 06:00 EST",
         "applyPage": "https://lamoryant.com/apply",
         "scheduleSource": "官网确认 Free mint 1,356 份、Apply/Checker 已开；开铸 Nov 26 6:00 AM EST = 2026-11-26 19:00 CST 来自官网/转载，本轮未直接核到官帖原文。",
-        "scheduleNote": "R2177 MUST_WIN 24h 未见 @Lamoryant 新帖。免费登记已开、开铸仍约 2026-11-26 19:00 CST，不是已开铸 LIVE，不重推。"
+        "scheduleNote": "R2177 MUST_WIN 24h 未见 @Lamoryant 新帖。免费登记已开、开铸仍约 2026-11-26 19:00 CST，不是已开铸 LIVE，不重推。",
+        "siteHttp": 200,
+        "applyHttp": 200
       }
     },
     {
@@ -358294,19 +358408,19 @@
       },
       "siteXMutual": "no",
       "siteXMutualNote": "官网与 JS 未见回链 https://x.com/TriForgeAgent；资料栏与官帖均指向 https://triforge.fun，token CA 与 config.js 一致。",
-      "mintStatus": "Forge Keys 免费 mint 仍链上 LIVE（777/3333，未暂停；R2213 为 775/3333，小幅增加）。付费预售仍开（lpMintOpen=True，2026-11-25 10:01:25 CST 至 2026-12-02 10:01:25 CST，本轮 lpTotalMinted=1）。挖矿仍开（miningTotalShares=6，claims 32）。tokenTradingEnabled=False。",
+      "mintStatus": "Forge Keys 免费 mint 仍链上 LIVE（856/3333，未暂停；R2227 卡片 837/3333，本轮公共 BSC RPC 约 2026-11-26 14:19:56 CST）。付费预售仍开（lpMintOpen=True，lpTotalMinted=1，deadline 仍 2026-12-02 10:01:25 CST）。挖矿仍开（miningTotalShares=6，claims 41）。tokenTradingEnabled=False。MUST_WIN 官帖称 855/3333、claims 41、presale 1、pool 2 Dec 02:01 UTC，与链上 856/41/1 基本一致，只是进度，不重推。本号不自动 mint。",
       "round": 2173,
       "newThisRound": false,
       "firstSeen": "2026-11-25 09:49:48 CST",
       "addedAt": "2026-11-25 09:49:48 CST",
       "updatedAt": "2026-11-26 07:41:40 CST",
-      "lastChecked": "2026-11-26 11:47:09 CST",
+      "lastChecked": "2026-11-26 14:19:56 CST",
       "le2h": false,
       "schedule": {
         "status": "live",
         "timezone": "Asia/Shanghai",
         "le2h": false,
-        "lastChecked": "2026-11-26 11:47:09 CST",
+        "lastChecked": "2026-11-26 14:19:56 CST",
         "officialHandle": "@TriForgeAgent",
         "officialPost": "https://x.com/TriForgeAgent/status/2125563973684908391",
         "officialPostAt": "2026-11-25 20:15:17 CST",
@@ -358317,15 +358431,15 @@
         "accountCreatedAt": "2025-10-06 14:23:15 CST",
         "followers": 0,
         "posts": 1,
-        "mintStatus": "Forge Keys 免费 mint 仍链上 LIVE（837/3333，未暂停）。付费预售仍开（lpMintOpen=True，lpTotalMinted=1）。挖矿仍开。claims 39。只是进度，不重推。本号不自动 mint。",
+        "mintStatus": "Forge Keys 免费 mint 仍链上 LIVE（856/3333，未暂停；R2227 卡片 837/3333，本轮公共 BSC RPC 约 2026-11-26 14:19:56 CST）。付费预售仍开（lpMintOpen=True，lpTotalMinted=1，deadline 仍 2026-12-02 10:01:25 CST）。挖矿仍开（miningTotalShares=6，claims 41）。tokenTradingEnabled=False。MUST_WIN 官帖称 855/3333、claims 41、presale 1、pool 2 Dec 02:01 UTC，与链上 856/41/1 基本一致，只是进度，不重推。本号不自动 mint。",
         "scheduleSource": "【R2195】公共 BSC RPC 只读核验（约 2026-11-25 21:15:23 CST，https://bsc-dataseed.binance.org/）：Forge Keys nftTotalMinted=409/3333（R2194 为 367/3333），nftMintPaused=False；lpMintOpen=True，lpTotalMinted=0，lpTotalPaid=0；claimsOpen=True，totalClaimed=8；miningTotalShares=6；tokenTradingEnabled=False。官帖 20:15 CST（https://x.com/TriForgeAgent/status/2125563973684908391）仍写 364/3,333，R2194 链上为 367/3333，链上已到 409，属小幅进度，只更新卡片，不重推。本号不自动 mint。",
         "chain": "BNB Chain",
         "agentIdGated": true,
-        "forgeKeysMinted": 837,
+        "forgeKeysMinted": 856,
         "forgeKeysSupply": 3333,
         "forgeKeysPaused": false,
         "claimsOpen": true,
-        "totalClaimed": 40,
+        "totalClaimed": 41,
         "miningShares": 6,
         "presaleOpen": true,
         "presaleAt": "2026-11-25 10:01:25 CST",
@@ -358336,21 +358450,23 @@
         "miningPaused": false,
         "lpMintOpen": true,
         "lpTotalMinted": 1,
-        "lpTotalPaid": 0,
+        "lpTotalPaid": 3000000000000000,
         "tokenTradingEnabled": false,
         "lpOpened": false,
         "lpFinalized": false,
-        "rpcCheckedAt": "2026-11-26 07:35:18 CST",
+        "rpcCheckedAt": "2026-11-26 14:19:56 CST",
         "whitepaper": "https://triforge.fun/whitepaper",
         "miningTotalShares": 6,
-        "minted": 837,
+        "minted": 856,
         "supply": 3333,
         "tradingEnabled": false,
         "nftMinted": 840,
         "nftSupply": 3333,
         "nftMintPaused": false,
         "lpDeadlineCST": "2026-12-02 10:01:25 CST"
-      }
+      },
+      "freeLIVE": true,
+      "freeMintLIVE": true
     },
     {
       "id": "spcx-chain",
@@ -358933,19 +359049,19 @@
       },
       "siteXMutual": "opensea-yes",
       "siteXMutualNote": "无独立官网。OpenSea 收藏页 twitterUsername=TheJacket_NVDA，与官帖 t.co 解析到的 @TheJacket_NVDA 一致。",
-      "mintStatus": "持有人名单免费 mint 仍 LIVE；公售仍为 0.0003 ETH（不是免费）。SeaDrop mintStatus=MINTING，activeDropStage 仍是 PUBLIC_SALE（stageIndex 0），至 2026-12-02 18:05:56 CST。OpenSea 214/777，持有 136，地板 0.61 USDG（与 R2226 持平）。本轮 MUST 未见 @TheJacket_NVDA 新官帖。无实质变化，不重推。本号不自动 mint。",
+      "mintStatus": "持有人名单免费 mint 仍 LIVE；公售仍为 0.0003 ETH（不是免费）。本轮 OpenSea the-jacket-man 214/777、持有 136、地板 0.61 USDG，与 R2227 持平。SeaDrop 页解析失败，阶段沿用 R2227：activeDropStage 仍是 PUBLIC_SALE（stageIndex 0），至 2026-12-02 18:05:56 CST。无实质变化，不重推。本号不自动 mint。",
       "round": 2177,
       "newThisRound": false,
       "firstSeen": "2026-11-25 11:44:49 CST",
       "addedAt": "2026-11-25 11:44:49 CST",
       "updatedAt": "2026-11-26 07:41:40 CST",
-      "lastChecked": "2026-11-26 13:44:55 CST",
+      "lastChecked": "2026-11-26 14:19:56 CST",
       "le2h": false,
       "schedule": {
         "status": "live",
         "timezone": "Asia/Shanghai",
         "le2h": false,
-        "lastChecked": "2026-11-26 13:44:55 CST",
+        "lastChecked": "2026-11-26 14:19:56 CST",
         "officialHandle": "@TheJacket_NVDA",
         "officialPost": "https://x.com/TheJacket_NVDA/status/2125428598462927046",
         "officialPostAt": "2026-11-25 11:17:00 CST",
@@ -358956,7 +359072,7 @@
         "accountCreatedAt": null,
         "followers": null,
         "posts": null,
-        "mintStatus": "持有人名单免费 mint 仍 LIVE；公售仍为 0.0003 ETH（不是免费）。OpenSea the-jacket-man 本轮 collection API total_supply/unique_item_count=214/777（R2208 为 213），持有 136（R2206 为 135），地板 0.61 USDG。drop 页 mintStatus=MINTING，erc721.totalSupply=214/777，activeDropStage 仍是 PUBLIC_SALE（stageIndex 0）。本轮 MUST 未见 @TheJacket_NVDA 新官帖。小幅进度，不重推。本号不自动 mint。",
+        "mintStatus": "持有人名单免费 mint 仍 LIVE；公售仍为 0.0003 ETH（不是免费）。本轮 OpenSea the-jacket-man 214/777、持有 136、地板 0.61 USDG，与 R2227 持平。SeaDrop 页解析失败，阶段沿用 R2227：activeDropStage 仍是 PUBLIC_SALE（stageIndex 0），至 2026-12-02 18:05:56 CST。无实质变化，不重推。本号不自动 mint。",
         "scheduleSource": "官帖 2026-11-25 11:17:21 CST（https://x.com/TheJacket_NVDA/status/2125428598462927046 ）：FREE MINT for holders of RebelKin / Argonauts / Vaultlings / Quotrons404，Nov 25, 10:00 UTC = 2026-11-25 18:00 CST（不要把 10:00 UTC 误读成 10:00 CST）。OpenSea the-jacket-man：Robinhood Chain，maxSupply=4444，totalSupply=0，twitterUsername=TheJacket_NVDA。本轮尚未进入 2 小时窗口，不是已开铸 LIVE。",
         "selfClaimedFreeMint": true,
         "upcomingFreeMint": false,
@@ -358979,7 +359095,7 @@
         "floorNote": "0.61 USDG",
         "openseaMintStatus": "MINTING",
         "contract": "0x655d13c73ce062e95907e68db43cb39c6d11106a",
-        "openseaCheckedAt": "2026-11-26 11:47:09 CST",
+        "openseaCheckedAt": "2026-11-26 14:19:56 CST",
         "supplyWas": "4444",
         "supplyCutOfficial": true,
         "officialSupplyPost": "https://x.com/TheJacket_NVDA/status/2125535772678004922",
@@ -361107,7 +361223,7 @@
         "距公售进入2小时窗口尚早，需盯阶段切换"
       ],
       "whatsNew": "【R2227】公售仍 LIVE，1373/3333、持有 181，地板 0.000107 ETH。无改期，不重推。\n【R2226】OpenSea 仍 1373/3333，持有 181，地板约 0.000107 ETH，与 R2225 持平。公售仍至 2026-11-28 00:30 CST，只是进度，不重推。\n【R2225】OpenSea 仍 1373/3333，持有 181，地板约 0.000107 ETH，与 R2224 持平。公售仍至 2026-11-28 00:30 CST，只是进度，不重推。\n【R2224】OpenSea 仍 1373/3333，持有 181，地板约 0.000107 ETH，与 R2223 持平。公售仍至 2026-11-28 00:30 CST，只是进度，不重推。\n【R2223】仍 MINTING，SeaDrop / OpenSea 1373/3333（R2222 为 1373），持有 181，地板约 0.000107 ETH。PUBLIC_SALE 仍至 2026-11-28 00:30:04 CST。已 LIVE 的进度，不因供应量/持有变化重推。 \n【R2222】仍 MINTING，SeaDrop / OpenSea 1373/3333（R2221 为 1373），持有 181，地板约 0.000107 ETH。PUBLIC_SALE 仍至 2026-11-28 00:30:04 CST。已 LIVE 的进度，不因供应量/持有变化重推。 \n【R2221】仍 MINTING，SeaDrop / OpenSea 1373/3333（R2220 为 1368），持有 181，地板约 0.000107 ETH。PUBLIC_SALE 仍至 2026-11-28 00:30:04 CST。已 LIVE 的进度，不因供应量/持有变化重推。 \n【R2220】仍 MINTING，SeaDrop / OpenSea 1368/3333（R2219 为 1364），持有 181，地板约 0.000107 ETH。PUBLIC_SALE 仍至 2026-11-28 00:30:04 CST。已 LIVE 的进度，不因供应量/持有变化重推。 \n【R2219】仍 MINTING，SeaDrop / OpenSea 1364/3333（与 R2218 持平），持有 180，地板约 0.000107 ETH。PUBLIC_SALE 仍至 2026-11-28 00:30:04 CST。已 LIVE 的进度，不因供应量/持有变化重推。 \n【R2218】仍 MINTING，SeaDrop / OpenSea 1364/3333（与 R2217 持平），持有 180，地板约 0.000107 ETH。PUBLIC_SALE 仍至 2026-11-28 00:30:04 CST。已 LIVE 的进度，不因供应量/持有变化重推。 \n【R2217】仍 MINTING，SeaDrop / OpenSea 1364/3333（与 R2216 持平），持有 180，地板约 0.000107 ETH。PUBLIC_SALE 仍至 2026-11-28 00:30:04 CST。已 LIVE 的进度，不因供应量/持有变化重推。 \n【R2216】仍 MINTING，SeaDrop / OpenSea 1364/3333（与 R2215 持平），持有 180，地板约 0.000107 ETH。PUBLIC_SALE 仍至 2026-11-28 00:30:04 CST。已 LIVE 的进度，不因供应量/持有变化重推。 \n【R2215】付费公售仍按 2026-11-26 00:30:04 CST 原时间表进行，时间表未改，未见改价。OpenSea 1364/3333（R2206 为 572）。只是小幅进度，不重推。 【R2214】付费公售仍按 2026-11-26 00:30:04 CST 原时间表进行，时间表未改，未见改价。OpenSea 1364/3333（R2206 为 572）。只是小幅进度，不重推。 【R2213】付费公售仍按 2026-11-26 00:30:04 CST 原时间表进行，时间表未改，未见改价。OpenSea 1364/3333（R2206 为 572）。只是小幅进度，不重推。 【R2212】付费公售仍按 2026-11-26 00:30:04 CST 原时间表进行，时间表未改，未见改价。OpenSea 1363/3333（R2206 为 572）。只是小幅进度，不重推。 【R2211】付费公售仍按 2026-11-26 00:30:04 CST 原时间表进行，时间表未改，未见改价。OpenSea 1278/3333（R2206 为 572）。只是小幅进度，不重推。 【R2210】付费公售仍按 2026-11-26 00:30:04 CST 原时间表进行，时间表未改，未见改价。OpenSea 668/3333（R2206 为 572）。只是小幅进度，不重推。 【R2209】付费公售仍按 2026-11-26 00:30:04 CST 原时间表进行，时间表未改，未见改价。OpenSea 575/3333（R2206 为 572）。只是小幅进度，不重推。 【R2208】付费公售仍按 2026-11-26 00:30:04 CST 原时间表进行，时间表未改，未见改价。OpenSea 575/3333（R2206 为 572）。只是小幅进度，不重推。 【R2207】付费公售仍按 2026-11-26 00:30:04 CST 原时间表进行，时间表未改，未见改价。OpenSea 572/3333（R2206 为 572）。只是小幅进度，不重推。 【R2206】付费公售仍按 2026-11-26 00:30:04 CST 原时间表进行，时间表未改，未见改价。OpenSea 572/3333（R2205 为 572）。只是小幅进度，不重推。 【R2205】付费公售仍按 2026-11-26 00:30:04 CST 原时间表进行，时间表未改，未见改价。OpenSea 572/3333（R2204 为 568）。只是小幅进度，不重推。 【R2204】付费公售仍按 2026-11-26 00:30:04 CST 原时间表进行，时间表未改，未见改价。OpenSea 568/3333（R2203 为 568）。供应持平/仅二级地板变化，不重推。 【R2203】付费公售仍按 2026-11-26 00:30:04 CST 原时间表进行，时间表未改，未见改价。OpenSea 568/3333（R2202 为 536）。只是进度变化，不重推。 【R2202】付费公售仍按 2026-11-26 00:30:04 CST 原时间表进行，时间表未改，未见改价。OpenSea 536/3333（R2201 为 531）。只是进度变化，不重推。 【R2201】付费公售已按 2026-11-26 00:30:04 CST 原时间表开出，OG 免费 mint 同时按点结束。时间表未改，未见改价。OpenSea 531/3333（R2200 为 528）。不重推。 【R2200】公售时间表未改，核验时尚未开公售。OG 免费 mint 仍 LIVE 至 00:30:04 CST。OpenSea 528/3333（drop 528），持有 143。不重推。 【R2199】付费公售时间表未改，仍是 2026-11-26 00:30:04 CST 起、0.0002 ETH。OpenSea 527/3333（drop 528，R2198 527），持有 141（R2198 140），地板 0.00035 ETH。OG 免费 mint 仍 LIVE 至同一时刻。R2197 已发付费公售首次 ≤2h，不重推。 【R2198】付费公售时间表未改，仍是 2026-11-26 00:30:04 CST 起、0.0002 ETH。OpenSea 527/3333（drop 527，R2197 515），持有 140（R2197 137），地板 0.00035 ETH。OG 免费 mint 仍 LIVE 至同一时刻。R2197 已发付费公售首次 ≤2h，不重推。 【R2197】付费公售首次进入 ≤2h：仍是 2026-11-26 00:30:04 CST 起、0.0002 ETH（不是免费公售）。OpenSea 515/3333（drop 515，R2196 512），持有 137（R2196 135），地板 0.000511 ETH。OG 免费 mint 仍 LIVE 至同一时刻。时间表未改。R2191 已提醒 OG 免费，不因仍 LIVE 单独重推；本轮就付费公售首次 ≤2h 告警。 【R2196】OpenSea 512/3333（drop 512，R2195 505/508），持有 135，时间表未变，不提前发公售首次 ≤2h，不重推。 【R2195】实质变化：OpenSea drop 页把 OG 截止和付费公售开始从 2026-11-25 22:30:04 CST 改到 2026-11-26 00:30:04 CST（16:30:04 UTC）。OG 免费窗仍 LIVE 并被延长；公售仍是 0.0002 ETH，不是免费。collection API 505/3333（R2194 499/3333），drop 页 508/3333，持有 134，地板 0.00059 ETH。本轮 MUST 未见新官帖。不按旧的 22:30 CST 发公售首次 ≤2h；新窗首次 ≤2h 从 22:30 CST 才开始。本号不自动 mint。 【R2194】本轮 MUST 24h 未见 @deMinersNft 新官帖。OpenSea collection API 499/3333（R2193 492/3333），持有 130，地板 0.00059 ETH。OG 免费窗仍至 22:30:04 CST。公售首次 ≤2h 开火时未到，不提前告警。只更新进度，不重推。本号不自动 mint。 【R2193】本轮 MUST_WIN3 返回里未见 @deMinersNft 新官帖（usehelipaid / tryopencom 占了多数名额）。公开 OpenSea collection API total_supply/unique_item_count=492，持有 128，地板 0.0006 ETH。相对 R2192 约 481–482/3333 小幅增加，不是大额跳升/关窗/改规则，不重推。公售尚未开始，不要提前把公售说成免费，也不要提前发公售首次 ≤2h。本号不自动 mint。 【R2192】本轮 MUST_WIN3 触顶 25，返回里未见 @deMinersNft 新官帖（usehelipaid 占了多数名额）。公开 OpenSea：collection API total_supply/unique_item_count=481，drop 页 482/3333，持有 125，地板 0.0007 ETH；drop.mintStatus=MINTING，activeDropStage 仍是 OG list，至 22:30:04 CST。相对 R2191 约 468/3333 小幅增加，不是大额跳升/关窗/改规则，不重推。公售尚未开始，不要提前把公售说成免费。本号不自动 mint。 【R2191】新收录。官号 @deMinersNft 建号 2026-11-23 23:25:43 CST（18 粉 / following 12 / 11 帖，未认证，xUserId 2124886827983114240），资料栏 https://deminers.xyz/ ，简介写 Supply 3333、Chain RH。本轮该官号自己没有出现在雷达返回的帖子里，是被 KW_MINT 第三方 @Pkasiou 18:34:32 CST 点到（称 let’s mint this miners for free，链到 OpenSea collection/deminers）；不把第三方“免费”当作官方口径。官网 HTTPS 200（last-modified 2026-11-24 18:36:22 GMT），Phase 1 PFP、Robinhood Chain、3,333 miners，页内有 MINT / OpenSea，正文未写出铸造单价。公开 OpenSea（https://opensea.io/collection/deminers 及 /overview）twitterUsername=deMinersNft，合约 0xfd474027f475506b24d9f7cf36fa519c93fff80f（Robinhood Chain），drop.mintStatus=MINTING，disabledReason=null。SeaDrop 三阶段（Asia/Shanghai CST）：Team reserve 2026-11-25 04:00:04–04:15:04 CST，每钱包 100、本阶段上限 100，0 ETH；OG list（当前 activeDropStage stageIndex=2）2026-11-25 04:15:04 CST 至 2026-11-25 22:30:04 CST，每钱包 3、本阶段上限 2000，0 ETH（免费）；Public sale 2026-11-25 22:30:04 CST 至 2026-11-27 22:30:04 CST，每钱包 5，0.0002 ETH（约 $0.33），不是免费。本轮 overview 快照约 468/3333 已铸（collection API 稍早见 465），unique 同步，ownerCount 约 121–122，地板 0.0005 ETH（约 $0.82），listed 38，近 24h volume 约 $7.68 / 0.00458 ETH，sales 约 481，属二级市场不是铸造价。OG 名单免费 mint 已 LIVE，必须点名；公售尚未开始，未到公售首次 ≤2h（20:30 CST 才进入），不要提前把公售说成免费。本号不自动 mint。",
-      "mintStatus": "付费公售仍 LIVE（PUBLIC_SALE 2026-11-26 00:30:04–2026-11-27 16:30:04 CST，0.0002 ETH，不是免费公售）。SeaDrop mintStatus=MINTING，activeDropStage=PUBLIC_SALE（stageIndex 0）。OpenSea 1373/3333，持有 181，地板 0.000107 ETH（与 R2226 持平）。时间表未改，只是进度，不重推。本号不自动 mint。",
+      "mintStatus": "付费公售仍 LIVE（既定 0.0002 ETH，不是免费公售）。本轮 OpenSea collection API 1373/3333（R2227 为 1364），持有 181（R2227 为 180），地板 0.000107 ETH（与 R2227 持平）。SeaDrop 页解析失败，阶段沿用 R2227：PUBLIC_SALE 至 2026-11-28 00:30:04 CST。只是进度，未见改价/改期，不重推。本号不自动 mint。",
       "contract": "0xfd474027f475506b24d9f7cf36fa519c93fff80f",
       "siteXMutual": "opensea-yes",
       "siteXMutualNote": "资料栏指向官网；OpenSea twitterUsername=deMinersNft 与官号一致。官网正文未单独回链官推，不编造页内 X 链。",
@@ -361140,13 +361256,13 @@
       "firstSeen": "2026-11-25 18:51:45 CST",
       "addedAt": "2026-11-25 18:51:45 CST",
       "updatedAt": "2026-11-26 07:41:40 CST",
-      "lastChecked": "2026-11-26 13:44:55 CST",
+      "lastChecked": "2026-11-26 14:19:56 CST",
       "le2h": false,
       "schedule": {
         "status": "live",
         "timezone": "Asia/Shanghai",
         "le2h": false,
-        "lastChecked": "2026-11-26 13:44:55 CST",
+        "lastChecked": "2026-11-26 14:19:56 CST",
         "officialHandle": "@deMinersNft",
         "officialPost": null,
         "officialPostAt": null,
@@ -361157,7 +361273,7 @@
         "accountCreatedAt": "2026-11-23 23:25:43 CST",
         "followers": 18,
         "posts": 11,
-        "mintStatus": "付费公售已按原时间表开出（2026-11-26 00:30:04 CST 起、既定 0.0002 ETH，不是免费公售）。时间表未改（stageIndex 1 SIGNED_PRESALE 2026-11-25 04:00:04 CST–2026-11-25 04:15:04 CST；stageIndex 2 SIGNED_PRESALE 2026-11-25 04:15:04 CST–2026-11-26 00:30:04 CST；stageIndex 0 PUBLIC_SALE 2026-11-26 00:30:04 CST–2026-11-28 00:30:04 CST）。SeaDrop mintStatus=MINTING，activeDropStage 现为 PUBLIC_SALE（stageIndex 0）。OG 免费 mint 已在同一时刻按点结束，不再 LIVE。OpenSea 1364/3333（drop 1364；R2206 drop 572），持有 180（R2206 为 153），地板 0.000107 ETH（R2206 为 0.0001 ETH，此为二级地板不是铸造价）。官网未标价；本轮 SeaDrop JSON 仍无价格字段，铸造价沿用已核验 0.0002 ETH，未见改价证据。MUST 24h 仍见已在 R2204/R2205 记过的 01:14:52 CST 短回复（教人先学用钱包），无改期/改价/取消。R2197 已发付费公售首次 ≤2h，R2201 已核到公售按点开出。只是进度变化，未见改价/改期/取消，不重推。本号不自动 mint。",
+        "mintStatus": "付费公售仍 LIVE（既定 0.0002 ETH，不是免费公售）。本轮 OpenSea collection API 1373/3333（R2227 为 1364），持有 181（R2227 为 180），地板 0.000107 ETH（与 R2227 持平）。SeaDrop 页解析失败，阶段沿用 R2227：PUBLIC_SALE 至 2026-11-28 00:30:04 CST。只是进度，未见改价/改期，不重推。本号不自动 mint。",
         "chain": "Robinhood Chain",
         "scheduleSource": "【R2191】新收录。官号 @deMinersNft 建号 2026-11-23 23:25:43 CST（18 粉 / following 12 / 11 帖，未认证，xUserId 2124886827983114240），资料栏 https://deminers.xyz/ ，简介写 Supply 3333、Chain RH。本轮该官号自己没有出现在雷达返回的帖子里，是被 KW_MINT 第三方 @Pkasiou 18:34:32 CST 点到（称 let’s mint this miners for free，链到 OpenSea collection/deminers）；不把第三方“免费”当作官方口径。官网 HTTPS 200（last-modified 2026-11-24 18:36:22 GMT），Phase 1 PFP、Robinhood Chain、3,333 miners，页内有 MINT / OpenSea，正文未写出铸造单价。公开 OpenSea（https://opensea.io/collection/deminers 及 /overview）twitterUsername=deMinersNft，合约 0xfd474027f475506b24d9f7cf36fa519c93fff80f（Robinhood Chain），drop.mintStatus=MINTING，disabledReason=null。SeaDrop 三阶段（Asia/Shanghai CST）：Team reserve 2026-11-25 04:00:04–04:15:04 CST，每钱包 100、本阶段上限 100，0 ETH；OG list（当前 activeDropStage stageIndex=2）2026-11-25 04:15:04 CST 至 2026-11-25 22:30:04 CST，每钱包 3、本阶段上限 2000，0 ETH（免费）；Public sale 2026-11-25 22:30:04 CST 至 2026-11-27 22:30:04 CST，每钱包 5，0.0002 ETH（约 $0.33），不是免费。本轮 overview 快照约 468/3333 已铸（collection API 稍早见 465），unique 同步，ownerCount 约 121–122，地板 0.0005 ETH（约 $0.82），listed 38，近 24h volume 约 $7.68 / 0.00458 ETH，sales 约 481，属二级市场不是铸造价。OG 名单免费 mint 已 LIVE，必须点名；公售尚未开始，未到公售首次 ≤2h（20:30 CST 才进入），不要提前把公售说成免费。本号不自动 mint。",
         "selfClaimedFreeMint": false,
@@ -361219,7 +361335,7 @@
         },
         "openseaSupply": 1373,
         "owners": 181,
-        "openseaCheckedAt": "2026-11-26 11:47:09 CST",
+        "openseaCheckedAt": "2026-11-26 14:19:56 CST",
         "floorNote": "0.000107 ETH",
         "openseaMintStatus": "MINTING",
         "minted": 1373,
@@ -361488,7 +361604,7 @@
         "Agent ID门槛可能限制参与"
       ],
       "whatsNew": "【R2227】仍 LIVE，469/10000（上轮 468）。不重推。\n【R2226】仍 mintOpen=True，468/10000（R2225 为 463）。只是进度，不重推。\n【R2225】仍 mintOpen=True，463/10000（R2224 为 462）。只是进度，不重推。\n【R2224】仍 mintOpen=True，462/10000，与 R2223 持平。只是进度，不重推。\n【R2223】链上仍 mintOpen=True，462/10000（R2222 为 462）。只是进度，不重推。\n【R2222】链上仍 mintOpen=True，462/10000（R2221 为 462）。只是进度，不重推。\n【R2221】链上仍 mintOpen=True，462/10000（R2220 为 458）。只是进度，不重推。\n【R2220】链上仍 mintOpen=True，458/10000（R2219 为 457）。只是进度，不重推。\n【R2219】链上仍 mintOpen=True，457/10000（R2218 为 450）。只是进度，不重推。\n【R2218】链上仍 mintOpen=True，450/10000（R2217 为 450）。只是进度，不重推。\n【R2217】链上仍 mintOpen=True，450/10000（R2216 为 446）。只是进度，不重推。\n【R2216】链上仍 mintOpen=True，446/10000（R2215 为 433）。只是进度，不重推。\n【R2215】链上 433/10000（R2208 为 426），mintOpen=True。小幅进度，不重推。 【R2214】链上 433/10000（R2208 为 426），mintOpen=True。小幅进度，不重推。 【R2213】链上 433/10000（R2208 为 426），mintOpen=True。小幅进度，不重推。 【R2212】链上 430/10000（R2208 为 426），mintOpen=True。小幅进度，不重推。 【R2211】链上 429/10000（R2208 为 426），mintOpen=True。小幅进度，不重推。 【R2210】链上 427/10000（R2208 为 426），mintOpen=True。小幅进度，不重推。 【R2209】链上 427/10000（R2208 为 426），mintOpen=True。小幅进度，不重推。 【R2208】链上 426/10000（R2206 为 419），mintOpen=True。小幅进度，不重推。 【R2207】链上 426/10000（R2206 为 419），mintOpen=True。小幅进度，不重推。 【R2206】链上 419/10000（R2205 为 418），mintOpen=True。小幅进度，不重推。 【R2205】链上 418/10000（R2204 为 406），mintOpen=True。小幅进度，不重推。 【R2204】链上 406/10000（R2203 为 402），mintOpen=True。小幅进度，不重推。 【R2203】链上 402/10000（R2202 为 398），mintOpen=True。小幅进度，不重推。 【R2202】链上 398/10000，mintOpen=True。小幅进度，不重推。 【R2201】链上 388/10000，mintOpen=True。小幅进度，不重推。 【R2200】链上 355/10000，mintOpen=True。小幅进度，不重推。 【R2199】链上 336/10000（R2198 332）。MUST 再见到 22:31:37 CST 进度官帖自称 304 squares（链上已到 336）。mintOpen=true，规则未变，小幅进度，不重推。 【R2198】链上 332/10000（R2197 308）。MUST 再见到 22:31:37 CST 进度官帖自称 304（链上已到 332）。mintOpen=true，规则未变，不重推。 【R2197】链上 308/10000（R2196 292）。MUST 见 22:31:37 CST 进度官帖自称 304（落后于链上 308）。mintOpen=true，规则未变，不重推。 【R2196】链上 292/10000（R2195 215），规则未变，不重推。 【R2195】公共 BSC RPC（约 2026-11-25 21:15:59 CST）mintOpen=true，totalMinted 215/10000（R2194 为 177），remaining 9785。规则未变。MUST 未见新官帖。只更新进度，不重推。本号不自动 mint。 【R2194】官网 config.js（https://f0b90b.pages.dev/config.js ）现已填写已部署合约：NFT 0xa5d6ed5a0b50F97e94Cfc13618da24EEF8d28Cce、Token 0x27958278e28623EE8D1fD89d2ab1a4706f2e50B0、ACCOUNT_IMPL 0x2DaDf10Eb36EC45e1cFdFa11E9E09987EbB57F83。R2193 抓到的页面还没有这些页脚合约链接，当时 config 未写入、也未见 CA。公共 BSC RPC（约见 f0b90b_rpc.json）核到 NFT/Token name=F0B90B，均有代码；mintOpen()=true，totalMinted()=177/10000，remaining()=9823。规则未变：首 3 份免费，其后 0.0003 BNB，每钱包最多 10，需 Agent ID。这是首次确认开铸 LIVE（含免费前 3 份）。本号不自动 mint。 【R2193】新收录。官号 @F0B90Bclub 建号 2026-11-25 18:20:25 CST（5 粉 / following 2 / 1 帖，xUserId 2125534623484542976），资料栏与官网 https://f0b90b.pages.dev/（HTTPS 200，标题 F0B90B - Proof of Gold on BNB；页脚写 X @F0B90Bclub，站点与官号互证）。唯一官帖 2026-11-25 19:09:12 CST（https://x.com/F0B90Bclub/status/2125547346511716649）称 10,000 yellow squares on BNB；First 3 FREE；Then 0.0003 BNB each；Max 10 per wallet；Binance Agent ID to mint。官网确认：CONTRACTS DEPLOYING · MINT OPENS SOON，The contracts are deploying. Mint opens as soon as they are live on BNB Chain；无白名单；满 10 份合计 0.0021 BNB；ERC-721 + ERC-6551 token-bound wallet，每份钱包内 10,000 $F0B90B，转账锁定至铸完；Royalty 5% ERC2981。本轮未见 CA。不是已确认开铸 LIVE。本号不自动 mint。",
-      "mintStatus": "开铸仍 LIVE。公共 BSC RPC（约 2026-11-26 13:44:55 CST）：mintOpen()=True，totalMinted()=469/10000（R2226 为 468），remaining()=9531。规则未变：首 3 份免费，其后每份 0.0003 BNB，每钱包最多 10，需 Binance Agent ID。只是进度，不重推。本号不自动 mint。",
+      "mintStatus": "开铸仍 LIVE。公共 BSC RPC（约 2026-11-26 14:19:56 CST）：mintOpen()=True，totalMinted()=472/10000（R2227 为 469），remaining()=9528。规则未变：首 3 份免费，其后每份 0.0003 BNB，每钱包最多 10，需 Binance Agent ID。只是进度，不重推。本号不自动 mint。",
       "siteXMutual": true,
       "siteXMutualNote": "官网页脚写 X @F0B90Bclub，资料栏网址为 https://f0b90b.pages.dev/。",
       "links": {
@@ -361529,13 +361645,13 @@
       "firstSeen": "2026-11-25 19:56:07 CST",
       "addedAt": "2026-11-25 19:56:07 CST",
       "updatedAt": "2026-11-26 07:41:40 CST",
-      "lastChecked": "2026-11-26 13:44:55 CST",
+      "lastChecked": "2026-11-26 14:19:56 CST",
       "le2h": false,
       "schedule": {
         "status": "live",
         "timezone": "Asia/Shanghai",
         "le2h": false,
-        "lastChecked": "2026-11-26 13:44:55 CST",
+        "lastChecked": "2026-11-26 14:19:56 CST",
         "officialHandle": "F0B90Bclub",
         "officialPost": "https://x.com/F0B90Bclub/status/2125598285184520647",
         "officialPostAt": "2026-11-25 22:31:37 CST",
@@ -361546,23 +361662,23 @@
         "accountCreatedAt": "2026-11-25 18:20:25 CST",
         "followers": 5,
         "posts": 1,
-        "mintStatus": "链上 mintOpen=True，totalMinted()=433/10000（R2208 为 426/10000），remaining()=9567。本轮 MUST 未见 @F0B90Bclub 新官帖。小幅进度，规则未变，不重推。本号不自动 mint。",
+        "mintStatus": "开铸仍 LIVE。公共 BSC RPC（约 2026-11-26 14:19:56 CST）：mintOpen()=True，totalMinted()=472/10000（R2227 为 469），remaining()=9528。规则未变：首 3 份免费，其后每份 0.0003 BNB，每钱包最多 10，需 Binance Agent ID。只是进度，不重推。本号不自动 mint。",
         "chain": "BNB Chain",
         "scheduleSource": "【R2193】新收录。官号 @F0B90Bclub 建号 2026-11-25 18:20:25 CST（5 粉 / following 2 / 1 帖，xUserId 2125534623484542976），资料栏与官网 https://f0b90b.pages.dev/（HTTPS 200，标题 F0B90B - Proof of Gold on BNB；页脚写 X @F0B90Bclub，站点与官号互证）。唯一官帖 2026-11-25 19:09:12 CST（https://x.com/F0B90Bclub/status/2125547346511716649）称 10,000 yellow squares on BNB；First 3 FREE；Then 0.0003 BNB each；Max 10 per wallet；Binance Agent ID to mint。官网确认：CONTRACTS DEPLOYING · MINT OPENS SOON，The contracts are deploying. Mint opens as soon as they are live on BNB Chain；无白名单；满 10 份合计 0.0021 BNB；ERC-721 + ERC-6551 token-bound wallet，每份钱包内 10,000 $F0B90B，转账锁定至铸完；Royalty 5% ERC2981。本轮未见 CA。不是已确认开铸 LIVE。本号不自动 mint。",
         "selfClaimedFreeMint": true,
         "contractsDeploying": false,
         "mintOpen": true,
-        "totalMinted": 355,
+        "totalMinted": 472,
         "maxSupply": 10000,
-        "remaining": 9532,
+        "remaining": 9528,
         "paidPrice": "0.0003 BNB",
         "freeFirst": 3,
         "maxPerWallet": 10,
         "contract": "0xa5d6ed5a0b50F97e94Cfc13618da24EEF8d28Cce",
         "tokenContract": "0x27958278e28623EE8D1fD89d2ab1a4706f2e50B0",
         "accountImpl": "0x2DaDf10Eb36EC45e1cFdFa11E9E09987EbB57F83",
-        "rpcCheckedAt": "2026-11-26 00:10:23 CST",
-        "minted": 469,
+        "rpcCheckedAt": "2026-11-26 14:19:56 CST",
+        "minted": 472,
         "supply": 10000
       },
       "ca": "0xa5d6ed5a0b50F97e94Cfc13618da24EEF8d28Cce"
@@ -361614,7 +361730,7 @@
         "页面仍显示免费按钮易误导"
       ],
       "whatsNew": "【R2227】付费仍 LIVE，6350/8888（上轮 6345）。免费份额仍 0。不重推。\n【R2226】链上 6345/8888（R2225 为 6344），saleOpen=True，免费额度仍满 4000/4000。付费窗仍至 2026-11-27 20:45 CST，未到 ≤2h，不重推。\n【R2225】链上 6344/8888（R2224 为 6344），saleOpen=True，免费额度仍满 4000/4000。付费窗仍至 2026-11-27 20:45 CST，未到 ≤2h，不重推。\n【R2224】链上 6344/8888（R2223 为 6342），saleOpen=True，免费额度仍满 4000/4000。付费窗仍至 2026-11-27 20:45 CST，未到 ≤2h，不重推。\n【R2223】链上 6342/8888（R2222 为 6336），saleOpen=True，免费额度仍满（4000/4000）。此前官帖仍称付费窗至 2026-11-27 12:45 UTC（20:45 CST）关闭，Clash of Antopia 2026-11-26 13:00 UTC（21:00 CST）上线（gameAtCST 此前已记）。距关停约 33.0h，未到 ≤2h，不是改期，不重推。\n【R2222】链上 6336/8888（R2221 为 6315），saleOpen=True，免费额度仍满（4000/4000）。本轮 MUST 官帖（08:19 CST）仍称付费窗至 2026-11-27 12:45 UTC（20:45 CST）关闭，Clash of Antopia 2026-11-26 13:00 UTC（21:00 CST）上线（gameAtCST 此前已记）。距关停约 33.4h，未到 ≤2h，不是改期，不重推。\n【R2221】链上 6315/8888（R2220 为 6305），saleOpen=True，免费额度仍满（4000/4000）。本轮 MUST 官帖（08:19 CST）仍称付费窗至 2026-11-27 12:45 UTC（20:45 CST）关闭，Clash of Antopia 2026-11-26 13:00 UTC（21:00 CST）上线（gameAtCST 此前已记）。距关停约 34.0h，未到 ≤2h，不是改期，不重推。\n【R2220】链上 6305/8888（R2219 为 6264），saleOpen=True，免费额度仍满（4000/4000）。本轮 MUST 官帖（08:19 CST）仍称付费窗至 2026-11-27 12:45 UTC（20:45 CST）关闭，Clash of Antopia 2026-11-26 13:00 UTC（21:00 CST）上线（gameAtCST 此前已记）。距关停约 34.5h，未到 ≤2h，不是改期，不重推。\n【R2219】链上仍 6264/8888，saleOpen=True，免费额度仍满（4000/4000）。本轮 MUST 官帖称付费窗至 2026-11-27 12:45 UTC（20:45 CST）关闭，Clash of Antopia 今日 13:00 UTC（21:00 CST）上线（gameAtCST 此前已记）。距关停约 35h，未到 ≤2h，不是改期，不重推。\n【R2218】链上仍 6253/8888，saleOpen=True，免费额度仍满（4000/4000）。本轮 MUST 官帖称付费窗至 2026-11-27 12:45 UTC（20:45 CST）关闭，Clash of Antopia 今日 13:00 UTC（21:00 CST）上线（gameAtCST 此前已记）。距关停约 35h，未到 ≤2h，不是改期，不重推。\n【R2217】链上仍 6253/8888，saleOpen=True，免费额度仍满（4000/4000）。与上轮持平。\n【R2216】链上仍 6253/8888，saleOpen=True，免费额度仍满（4000/4000）。与上轮持平。\n【R2215】链上仍 6253/8888（与 R2208 持平），免费额度仍满。无新官帖，不重推。 【R2214】链上仍 6253/8888（与 R2208 持平），免费额度仍满。无新官帖，不重推。 【R2213】链上仍 6253/8888（与 R2208 持平），免费额度仍满。无新官帖，不重推。 【R2212】链上仍 6253/8888（与 R2208 持平），免费额度仍满。无新官帖，不重推。 【R2211】链上仍 6253/8888（与 R2208 持平），免费额度仍满。无新官帖，不重推。 【R2210】链上仍 6253/8888（与 R2208 持平），免费额度仍满。无新官帖，不重推。 【R2209】链上仍 6253/8888（与 R2208 持平），免费额度仍满。无新官帖，不重推。 【R2208】链上仍 6253/8888（与 R2206 持平），免费额度仍满。无新官帖，不重推。 【R2207】链上仍 6253/8888（与 R2206 持平），免费额度仍满。无新官帖，不重推。 【R2206】链上仍 6253/8888（与 R2205 持平），免费额度仍满。无新官帖，不重推。 【R2205】链上仍 6253/8888（与 R2204 持平），免费额度仍满。无新官帖，不重推。 【R2204】链上仍 6253/8888（与 R2203 持平），免费额度仍满。无新官帖，不重推。 【R2203】链上仍 6253/8888（与 R2202 持平），免费额度仍满。无新官帖，不重推。 【R2202】链上仍 6253/8888，免费额度仍满。再见已记过的游戏预告官帖，不重推。 【R2201】链上仍 6253/8888，免费额度仍满，不重推。 【R2200】链上仍 6253/8888，免费额度仍满。无实质变化，不重推。 【R2199】链上 6253/8888（R2198 6253，持平），免费额度仍满。MUST 再见到游戏/排行榜向官帖，不是铸造规则变化，不重推。 【R2198】链上 6253/8888（R2197 6253），免费额度仍满。本轮有游戏排行榜/USDT 奖励官帖，不是铸造规则变化，不重推。 【R2197】链上 6253/8888（R2196 6249），免费额度仍满。无新的铸造规则变化，不重推。 【R2196】链上 6249/8888（R2195 6244），免费额度仍满。Clash 游戏 2026-11-26 21:00 CST，不是铸造规则变化，不重推。 【R2195】公共 BSC RPC（约 2026-11-25 21:15:59 CST）saleOpen=true，totalMinted 仍 6244/8888，免费额度仍耗尽。官帖 18:40 CST（https://x.com/antopia_xyz/status/2125540105943187796）预告 Clash of Antopia 游戏明天上线，不是铸造规则变化。只更新卡片，不重推。本号不自动 mint。 【R2194】公共 BSC RPC 只读核验（https://bsc-dataseed.binance.org/）：saleOpen()=true，totalMinted()=6244（R2193 为 5889），MAX_SUPPLY()=8888，freeClaimed()=4000，FREE_CAP()=4000，freeRemaining()=0，X_FREE_CAP()=500；totalSupply() 仍 revert。付费仍开，免费额度仍满。本轮未见新官帖。只更新进度，不按仍在付费 LIVE 重推。本号不自动 mint。 【R2193】新收录。官号 @antopia_xyz（Antopia Bsc）建号 2026-11-23 11:40:38 CST（947 粉 / following 6 / 40 帖，xUserId 2124709495016177664），资料栏与官网 https://antopia.xyz/（HTTPS 200；站点写 https://x.com/antopia_xyz，互证）。本轮官帖 2026-11-25 18:40:26 CST（https://x.com/antopia_xyz/status/2125540105943187796）只说 Clash of Antopia 游戏明天上线，不是开铸公告。官网 AN_CFG：NFT 0x7e2bD45CD95d6603f347C5310Ee1Ce9Dd145c70B，TOKEN 0x73BAcE4461E9bFD686E73994a91Dd1e4c01Ad6C9（ANTZ，1,000,000,000 × 1e18），MARKET 0xe45e1870306Ec1E6D488cDFCf02Dec43819d30Cd；PRICE_WEI 0.00088 BNB；MAX_SUPPLY 8888；MAX_PER_TX 20。BSC RPC：saleOpen=true，totalMinted=5889，MAX_SUPPLY=8888，freeClaimed=4000，FREE_CAP=4000，freeRemaining=0，X_FREE_CAP=500。页面仍有 Claim Free，但链上主免费额度已满；付费仍开。未独立核到 X-free 500 是否还有剩余。不是当前可打的免费 mint LIVE。本号不自动 mint。",
-      "mintStatus": "付费 mint 仍 LIVE（saleOpen=True，0.00088 BNB）。公共 BSC RPC（约 2026-11-26 13:44:55 CST）：totalMinted()=6350/8888（R2226 为 6345），freeClaimed()=4000/4000，freeRemaining()=0。付费窗仍至 2026-11-27 20:45 CST，未到 ≤2h，不重推。本号不自动 mint。",
+      "mintStatus": "付费 mint 仍 LIVE（saleOpen=True，0.00088 BNB）。公共 BSC RPC（约 2026-11-26 14:19:56 CST）：totalMinted()=6350/8888（与 R2227 持平），freeClaimed()=4000/4000，freeRemaining()=0。MUST_WIN 见到官帖预告 Clash of Antopia 游戏 beta 今日 13:00 UTC / 21:00 CST，这是游戏测试不是新的 mint 窗口，不按改期重推。付费窗仍至 2026-11-27 20:45 CST（约 30.4h），不重推。本号不自动 mint。",
       "siteXMutual": true,
       "siteXMutualNote": "官网写 https://x.com/antopia_xyz，资料栏网址为 https://antopia.xyz。",
       "links": {
@@ -361655,13 +361771,13 @@
       "firstSeen": "2026-11-25 19:56:07 CST",
       "addedAt": "2026-11-25 19:56:07 CST",
       "updatedAt": "2026-11-26 07:41:40 CST",
-      "lastChecked": "2026-11-26 13:44:55 CST",
+      "lastChecked": "2026-11-26 14:19:56 CST",
       "le2h": false,
       "schedule": {
         "status": "live",
         "timezone": "Asia/Shanghai",
         "le2h": false,
-        "lastChecked": "2026-11-26 13:44:55 CST",
+        "lastChecked": "2026-11-26 14:19:56 CST",
         "officialHandle": "antopia_xyz",
         "officialPost": "https://x.com/antopia_xyz/status/2125582829475999748",
         "officialPostAt": "2026-11-25 21:30:00 CST",
@@ -361672,12 +361788,12 @@
         "accountCreatedAt": "2026-11-23 11:40:38 CST",
         "followers": 947,
         "posts": 40,
-        "mintStatus": "链上 saleOpen=True，totalMinted=6253/8888（与 R2208 的 6253 持平），免费额度仍满（freeRemaining=0）。本轮 MUST 未见 @antopia_xyz 新官帖。无实质变化，不重推。本号不自动 mint。",
+        "mintStatus": "付费 mint 仍 LIVE（saleOpen=True，0.00088 BNB）。公共 BSC RPC（约 2026-11-26 14:19:56 CST）：totalMinted()=6350/8888（与 R2227 持平），freeClaimed()=4000/4000，freeRemaining()=0。MUST_WIN 见到官帖预告 Clash of Antopia 游戏 beta 今日 13:00 UTC / 21:00 CST，这是游戏测试不是新的 mint 窗口，不按改期重推。付费窗仍至 2026-11-27 20:45 CST（约 30.4h），不重推。本号不自动 mint。",
         "chain": "BNB Chain",
         "scheduleSource": "【R2193】新收录。官号 @antopia_xyz（Antopia Bsc）建号 2026-11-23 11:40:38 CST（947 粉 / following 6 / 40 帖，xUserId 2124709495016177664），资料栏与官网 https://antopia.xyz/（HTTPS 200；站点写 https://x.com/antopia_xyz，互证）。本轮官帖 2026-11-25 18:40:26 CST（https://x.com/antopia_xyz/status/2125540105943187796）只说 Clash of Antopia 游戏明天上线，不是开铸公告。官网 AN_CFG：NFT 0x7e2bD45CD95d6603f347C5310Ee1Ce9Dd145c70B，TOKEN 0x73BAcE4461E9bFD686E73994a91Dd1e4c01Ad6C9（ANTZ，1,000,000,000 × 1e18），MARKET 0xe45e1870306Ec1E6D488cDFCf02Dec43819d30Cd；PRICE_WEI 0.00088 BNB；MAX_SUPPLY 8888；MAX_PER_TX 20。BSC RPC：saleOpen=true，totalMinted=5889，MAX_SUPPLY=8888，freeClaimed=4000，FREE_CAP=4000，freeRemaining=0，X_FREE_CAP=500。页面仍有 Claim Free，但链上主免费额度已满；付费仍开。未独立核到 X-free 500 是否还有剩余。不是当前可打的免费 mint LIVE。本号不自动 mint。",
         "selfClaimedFreeMint": true,
         "saleOpen": true,
-        "totalMinted": 6253,
+        "totalMinted": 6350,
         "maxSupply": 8888,
         "freeClaimed": 4000,
         "freeCap": 4000,
@@ -361685,7 +361801,7 @@
         "paidPrice": "0.00088 BNB",
         "contract": "0x7e2bD45CD95d6603f347C5310Ee1Ce9Dd145c70B",
         "xFreeCap": 500,
-        "rpcCheckedAt": "2026-11-26 00:10:08 CST",
+        "rpcCheckedAt": "2026-11-26 14:19:56 CST",
         "gameAtCST": "2026-11-26 21:00 CST",
         "minted": 6350,
         "FREE_CAP": 4000,
@@ -364232,7 +364348,7 @@
         "Robinhood Chain 生态与 OpenSea 该链需求尚不确定，退出路径不明"
       ],
       "whatsNew": "【R2227】付费公售仍 LIVE，111/10000。不重推。\n【R2226】付费公售仍 LIVE。OpenSea 111/10000（R2223 为 100），持有 16（R2223 为 14），地板 0.0。R2210 已首次确认并通知，本轮只是进度，不重推。不是免费 mint。\n【R2223】付费公售仍 LIVE。OpenSea SeaDrop mintStatus=MINTING，100/10000（R2222 为 100/10000），持有 14，地板 0.0。合约仍是 0x1d3f3b153533bde7912da634b38ab50b3b90456d。官网定价仍是 0.00003 ETH + gas。R2210 已首次确认并通知，本轮只是进度，不重推。不是免费 mint。 \n【R2222】付费公售仍 LIVE。OpenSea SeaDrop mintStatus=MINTING，100/10000（R2221 为 100/10000），持有 None，地板 None。合约仍是 0x1d3f3b153533bde7912da634b38ab50b3b90456d。官网定价仍是 0.00003 ETH + gas。R2210 已首次确认并通知，本轮只是进度，不重推。不是免费 mint。 \n【R2221】付费公售仍 LIVE。OpenSea SeaDrop mintStatus=MINTING，100/10000（R2220 为 100/10000），持有 14，地板 None。合约仍是 0x1d3f3b153533bde7912da634b38ab50b3b90456d。官网定价仍是 0.00003 ETH + gas。R2210 已首次确认并通知，本轮只是进度，不重推。不是免费 mint。 \n【R2220】付费公售仍 LIVE。OpenSea SeaDrop mintStatus=MINTING，100/10000（R2219 为 90/10000、持有 13），持有 14，地板 0.0。合约仍是 0x1d3f3b153533bde7912da634b38ab50b3b90456d。官网定价仍是 0.00003 ETH + gas。R2210 已首次确认并通知，本轮只是进度，不重推。不是免费 mint。 \n【R2219】付费公售仍 LIVE。OpenSea SeaDrop mintStatus=MINTING，90/10000（与 R2218 持平），持有 13，地板 0.0。合约仍是 0x1d3f3b153533bde7912da634b38ab50b3b90456d。官网定价仍是 0.00003 ETH + gas。R2210 已首次确认并通知，本轮只是进度，不重推。不是免费 mint。 \n【R2218】付费公售仍 LIVE。OpenSea SeaDrop mintStatus=MINTING，90/10000（与 R2217 持平），持有 13，地板 0.0。合约仍是 0x1d3f3b153533bde7912da634b38ab50b3b90456d。官网定价仍是 0.00003 ETH + gas。R2210 已首次确认并通知，本轮只是进度，不重推。不是免费 mint。 \n【R2217】付费公售仍 LIVE。OpenSea SeaDrop mintStatus=MINTING，90/10000（与 R2216 持平），持有 13，地板 0.0。合约仍是 0x1d3f3b153533bde7912da634b38ab50b3b90456d。官网定价仍是 0.00003 ETH + gas。R2210 已首次确认并通知，本轮只是进度，不重推。不是免费 mint。 \n【R2216】付费公售仍 LIVE。OpenSea SeaDrop mintStatus=MINTING，90/10000（与 R2215 持平），持有 13，地板 0.0。合约仍是 0x1d3f3b153533bde7912da634b38ab50b3b90456d。官网定价仍是 0.00003 ETH + gas。R2210 已首次确认并通知，本轮只是进度，不重推。不是免费 mint。 \n【R2215】付费公售仍 LIVE，OpenSea 90/10000，持有 13。R2210 已提醒，不重推。不是免费 mint。 【R2214】付费公售仍 LIVE，OpenSea 90/10000，持有 13。R2210 已提醒，不重推。不是免费 mint。 【R2213】付费公售仍 LIVE，OpenSea 90/10000，持有 13。R2210 已提醒，不重推。不是免费 mint。 【R2212】付费公售仍 LIVE，OpenSea 68/10000，持有 10。R2210 已提醒，不重推。不是免费 mint。 【R2211】付费公售仍 LIVE，OpenSea 46/10000，持有 7。R2210 已提醒，不重推。不是免费 mint。 【R2210】付费公售已 LIVE（官帖 05:00:01 CST + OpenSea mintStatus=MINTING），供应仍 0/10000。不是免费 mint。 【R2209】付费公售仍是 2026-11-26 05:00 CST，SeaDrop 仍 MINTING_SOON 0/10000，未见改期/开铸，不重推。 【R2208】付费公售仍是 2026-11-26 05:00 CST，SeaDrop 仍 MINTING_SOON 0/10000，未见改期/开铸，不重推。 【R2207】付费公售仍是 2026-11-26 05:00 CST，SeaDrop 仍 MINTING_SOON 0/10000，未见改期/开铸，不重推。 【R2206】新收录 Guns Of The Hood（@GunsOfTheHood / https://gunsofthehood.xyz/）。建号 2026-11-17 17:39:13 CST（约 8.39 天），13 粉 / 9 帖，资料栏仅 Discord。本轮 KW_CORE 30m 官帖（2026-11-26 03:02 CST，https://x.com/GunsOfTheHood/status/2125666328728231990）宣布 10,000 sealed weapon crates、Robinhood Chain、OpenSea 公售、无 GTD/白名单，Nov 25 22:00 CET / 21:00 UTC，约 $0.05 + gas，单钱包 10 份。官网 200（跳转 www.gunsofthehood.xyz），/drop 页确认 25 November 22:00 Amsterdam time（21:00 UTC）、价格 0.00003 ETH + gas、10,000 份、单钱包终身 10、转让与转售开交易前锁定，并链到同一 OpenSea 合集。OpenSea 合集 twitterUsername=GunsOfTheHood、externalUrl=https://gunsofthehood.xyz、链 robinhood、合约 0x1d3f3b153533bde7912da634b38ab50b3b90456d；SeaDrop mintStatus=MINTING_SOON，0/10000，activeDropStage=null，PUBLIC_SALE 2026-11-25T21:00:00.000Z（2026-11-26 05:00:00 CST）至 2027-11-25T20:00:00.000Z。公开 stats 持有 0、成交 0、无地板。合集 createdAt=2026-11-26 00:29:59 CST。不是免费 mint，不是已开铸 LIVE；付费公售首次 ≤2h。已挂 userFollowWatch。DeepSeek admit+score overall=62。本号不自动 mint。",
-      "mintStatus": "付费公售仍 LIVE（R2210 已首次确认并通知，本轮只刷进度，不重推）。SeaDrop mintStatus=MINTING，PUBLIC_SALE 至 2027-11-26 04:00 CST，供应 111/10000（与 R2226 持平）。持有本轮 stats API 401，沿用上轮 16 未独立核到新值，地板本轮 stats API 401。合约仍是 0x1d3f3b153533bde7912da634b38ab50b3b90456d。不是免费 mint。本号不自动 mint。",
+      "mintStatus": "付费公售仍 LIVE（R2210 已首次确认并通知，本轮只刷进度，不重推）。OpenSea collection API 仍 111/10000，持有 16（本轮 stats API 成功，与 R2227 沿用值一致），地板 0。SeaDrop 页解析失败，阶段沿用 R2227：PUBLIC_SALE 至 2027-11-26 04:00 CST。合约仍是 0x1d3f3b153533bde7912da634b38ab50b3b90456d。不是免费 mint。本号不自动 mint。",
       "tags": [
         "打新",
         "Robinhood",
@@ -364282,7 +364398,7 @@
       "firstSeen": "2026-11-26 03:18:07 CST",
       "addedAt": "2026-11-26 03:18:07 CST",
       "updatedAt": "2026-11-26 07:41:40 CST",
-      "lastChecked": "2026-11-26 13:44:55 CST",
+      "lastChecked": "2026-11-26 14:19:56 CST",
       "le2h": false,
       "contracts": {
         "nft": "0x1d3f3b153533bde7912da634b38ab50b3b90456d",
@@ -364292,7 +364408,7 @@
         "status": "live",
         "timezone": "Asia/Shanghai",
         "le2h": false,
-        "lastChecked": "2026-11-26 13:44:55 CST",
+        "lastChecked": "2026-11-26 14:19:56 CST",
         "officialHandle": "@GunsOfTheHood",
         "officialPost": "https://x.com/GunsOfTheHood/status/2125696029320499700",
         "officialPostAt": "2026-11-26 05:00:01 CST",
@@ -364304,7 +364420,7 @@
         "accountCreatedAt": "2026-11-17 17:39:13 CST",
         "followers": 13,
         "posts": 9,
-        "mintStatus": "付费公售仍 LIVE（R2210 已首次确认并通知，本轮只刷进度，不重推）。SeaDrop MINTING，90/10000，持有 13。开铸官帖仍是 05:00:01 CST（https://x.com/GunsOfTheHood/status/2125696029320499700）。官网 https://www.gunsofthehood.xyz/drop 定价仍是 0.00003 ETH + gas，Wallet limit 10，Network Robinhood Chain；drop 页主文案可能仍写 scheduled / Wallet sign-in opens when the collection launches，以官帖与 OpenSea 为准。OpenSea active PUBLIC_SALE 仍自 2026-11-26 05:00:00 CST 至 2027-11-26 04:00:00 CST，合约仍是 0x1d3f3b153533bde7912da634b38ab50b3b90456d。不是免费 mint。本号不自动 mint。",
+        "mintStatus": "付费公售仍 LIVE（R2210 已首次确认并通知，本轮只刷进度，不重推）。OpenSea collection API 仍 111/10000，持有 16（本轮 stats API 成功，与 R2227 沿用值一致），地板 0。SeaDrop 页解析失败，阶段沿用 R2227：PUBLIC_SALE 至 2027-11-26 04:00 CST。合约仍是 0x1d3f3b153533bde7912da634b38ab50b3b90456d。不是免费 mint。本号不自动 mint。",
         "chain": "Robinhood Chain",
         "scheduleSource": "【R2206】新收录 Guns Of The Hood（@GunsOfTheHood / https://gunsofthehood.xyz/）。建号 2026-11-17 17:39:13 CST（约 8.39 天），13 粉 / 9 帖，资料栏仅 Discord。本轮 KW_CORE 30m 官帖（2026-11-26 03:02 CST，https://x.com/GunsOfTheHood/status/2125666328728231990）宣布 10,000 sealed weapon crates、Robinhood Chain、OpenSea 公售、无 GTD/白名单，Nov 25 22:00 CET / 21:00 UTC，约 $0.05 + gas，单钱包 10 份。官网 200（跳转 www.gunsofthehood.xyz），/drop 页确认 25 November 22:00 Amsterdam time（21:00 UTC）、价格 0.00003 ETH + gas、10,000 份、单钱包终身 10、转让与转售开交易前锁定，并链到同一 OpenSea 合集。OpenSea 合集 twitterUsername=GunsOfTheHood、externalUrl=https://gunsofthehood.xyz、链 robinhood、合约 0x1d3f3b153533bde7912da634b38ab50b3b90456d；SeaDrop mintStatus=MINTING_SOON，0/10000，activeDropStage=null，PUBLIC_SALE 2026-11-25T21:00:00.000Z（2026-11-26 05:00:00 CST）至 2027-11-25T20:00:00.000Z。公开 stats 持有 0、成交 0、无地板。合集 createdAt=2026-11-26 00:29:59 CST。不是免费 mint，不是已开铸 LIVE；付费公售首次 ≤2h。已挂 userFollowWatch。DeepSeek admit+score overall=62。本号不自动 mint。",
         "contracts": {
@@ -364342,7 +364458,7 @@
           }
         },
         "floor": 0.0,
-        "openseaCheckedAt": "2026-11-26 11:47:09 CST",
+        "openseaCheckedAt": "2026-11-26 14:19:56 CST",
         "supply": 10000,
         "floorSymbol": ""
       }
@@ -364390,7 +364506,7 @@
         "像素 PFP 同质化强，叙事与创新度偏弱"
       ],
       "whatsNew": "【R2227】仍 MINTING_SOON、0/555，首窗 2026-11-27 20:30 CST（约 30.8h），不重推。\n【R2226】OpenSea API 仍 0/555，持有 0。SeaDrop HTML 本轮解析失败。SIGNED_PRESALE 仍 2026-11-27 20:30 CST，距首窗约 31.3h，未到首次 ≤2h，不重推。\n【R2223】SeaDrop 仍 MINTING_SOON 0/555。SIGNED_PRESALE 仍 2026-11-27 20:30 CST，PUBLIC_SALE 仍 2026-11-28 02:30 CST。距首窗约 32.7h，未到首次 ≤2h。 \n【R2222】SeaDrop 仍 MINTING_SOON 0/555。SIGNED_PRESALE 仍 2026-11-27 20:30 CST，PUBLIC_SALE 仍 2026-11-28 02:30 CST。距首窗约 33.2h，未到首次 ≤2h。 \n【R2221】SeaDrop 仍 MINTING_SOON 0/555。SIGNED_PRESALE 仍 2026-11-27 20:30 CST，PUBLIC_SALE 仍 2026-11-28 02:30 CST。距首窗约 33.7h，未到首次 ≤2h。 \n【R2220】SeaDrop 仍 MINTING_SOON 0/555。SIGNED_PRESALE 仍 2026-11-27 20:30 CST，PUBLIC_SALE 仍 2026-11-28 02:30 CST。距首窗约 34.2h，未到首次 ≤2h。 \n【R2219】SeaDrop 仍 MINTING_SOON 0/555。SIGNED_PRESALE 仍 2026-11-27 20:30 CST，PUBLIC_SALE 仍 2026-11-28 02:30 CST。距首窗约 34.7h，未到首次 ≤2h。 \n【R2218】SeaDrop 仍 MINTING_SOON 0/555。SIGNED_PRESALE 仍 2026-11-27 20:30 CST，PUBLIC_SALE 仍 2026-11-28 02:30 CST。距首窗约 35.2h，未到首次 ≤2h。 \n【R2217】SeaDrop 仍 MINTING_SOON 0/555。SIGNED_PRESALE 仍 2026-11-27 20:30 CST，PUBLIC_SALE 仍 2026-11-28 02:30 CST。距首窗约 35.7h，未到首次 ≤2h。 \n【R2216】SeaDrop 仍 MINTING_SOON 0/555。SIGNED_PRESALE 仍 2026-11-27 20:30 CST，PUBLIC_SALE 仍 2026-11-28 02:30 CST。距首窗约 36h，未到首次 ≤2h。 \n【R2215】SeaDrop 仍 MINTING_SOON 0/555，时间表未变，未到首次 ≤2h。不重推。 【R2214】SeaDrop 仍 MINTING_SOON 0/555，时间表未变，未到首次 ≤2h。不重推。 【R2213】SeaDrop 仍 MINTING_SOON 0/555，时间表未变，未到首次 ≤2h。不重推。 【R2212】SeaDrop 仍 MINTING_SOON 0/555，时间表未变，未到首次 ≤2h。不重推。 【R2211】SeaDrop 仍 MINTING_SOON 0/555，时间表未变，未到首次 ≤2h。不重推。 【R2210】SeaDrop 仍 MINTING_SOON 0/555，时间表未变，未到首次 ≤2h。不重推。 【R2209】SeaDrop 仍 MINTING_SOON 0/555，时间表未变，未到首次 ≤2h。不重推。 【R2207】新收录 Bonebloom（@AbyssLabsNFTCol / https://opensea.io/collection/bonebloom）。建号 2026-08-30 22:17:23 CST（约 87.22 天），596 粉 / 3071 帖，资料栏即为该 OpenSea 合集。简介自称 555 份以太坊 64x64 像素 PFP，111 Free / 444 Public（0.011 ETH），Minting Nov 27。本轮 KW_CORE 30m 见相关转载，未直接拉到该号原创帖。OpenSea 合集 twitter_username=AbyssLabsNFTCol（与官号互证），externalUrl 空，链 ethereum，合约 0x337354ebc02ba40ee01c46fa510ea19fdb20067d，total_supply=0，持有 0，无地板。合集 created_date=2026-11-23。SeaDrop mintStatus=MINTING_SOON，0/555，activeDropStage 空；SIGNED_PRESALE 2026-11-27 20:30:00 CST 至 2026-11-28 02:30:00 CST，PUBLIC_SALE 2026-11-28 02:30:00 CST 至 2026-12-08 02:30:00 CST。不是已开铸 LIVE，距首窗约 41 小时，未到首次 ≤2h。已挂 userFollowWatch + freeMintWatch。DeepSeek admit+score overall=56。本号不自动 mint。",
-      "mintStatus": "SeaDrop 仍为 MINTING_SOON，erc721.totalSupply=0/555，持有 0。SIGNED_PRESALE 仍是 2026-11-27 20:30–2026-11-28 02:30 CST，PUBLIC_SALE 仍是 2026-11-28 02:30 CST 起至 2026-12-08 02:30 CST。距首窗约 30.8h，未到首次 ≤2h，不是已开铸 LIVE。无实质变化，不重推。本号不自动 mint。",
+      "mintStatus": "仍未开铸。OpenSea collection API 仍 0 供应 / 0 持有。MUST_WIN 再见周五 Nov 27 预告，时间表未改。距预售约 约 30.2h，未到首次 ≤2h，不提前告警、不重推。本号不自动 mint。",
       "tags": [
         "打新",
         "Ethereum",
@@ -364438,7 +364554,7 @@
       "firstSeen": "2026-11-26 03:41:52 CST",
       "addedAt": "2026-11-26 03:41:52 CST",
       "updatedAt": "2026-11-26 07:41:40 CST",
-      "lastChecked": "2026-11-26 13:44:55 CST",
+      "lastChecked": "2026-11-26 14:19:56 CST",
       "le2h": false,
       "contracts": {
         "nft": "0x337354ebc02ba40ee01c46fa510ea19fdb20067d",
@@ -364448,7 +364564,7 @@
         "status": "announced",
         "timezone": "Asia/Shanghai",
         "le2h": false,
-        "lastChecked": "2026-11-26 13:44:55 CST",
+        "lastChecked": "2026-11-26 14:19:56 CST",
         "officialHandle": "@AbyssLabsNFTCol",
         "officialPost": null,
         "officialPostAt": null,
@@ -364460,14 +364576,14 @@
         "accountCreatedAt": "2026-08-30 22:17:23 CST",
         "followers": 596,
         "posts": 3071,
-        "mintStatus": "SeaDrop 仍为 MINTING_SOON，erc721.totalSupply=0/555，持有 0。SIGNED_PRESALE 仍是 2026-11-27 20:30 CST 起，PUBLIC_SALE 仍是 2026-11-28 02:30 CST 起。距首窗仍约 38 小时，未到首次 ≤2h，不是已开铸 LIVE。R2207 已收录并通知。无实质变化，不重推。本号不自动 mint。",
+        "mintStatus": "仍未开铸。OpenSea collection API 仍 0 供应 / 0 持有。MUST_WIN 再见周五 Nov 27 预告，时间表未改。距预售约 约 30.2h，未到首次 ≤2h，不提前告警、不重推。本号不自动 mint。",
         "chain": "Ethereum",
         "scheduleSource": "【R2207】新收录 Bonebloom（@AbyssLabsNFTCol / https://opensea.io/collection/bonebloom）。建号 2026-08-30 22:17:23 CST（约 87.22 天），596 粉 / 3071 帖，资料栏即为该 OpenSea 合集。简介自称 555 份以太坊 64x64 像素 PFP，111 Free / 444 Public（0.011 ETH），Minting Nov 27。本轮 KW_CORE 30m 见相关转载，未直接拉到该号原创帖。OpenSea 合集 twitter_username=AbyssLabsNFTCol（与官号互证），externalUrl 空，链 ethereum，合约 0x337354ebc02ba40ee01c46fa510ea19fdb20067d，total_supply=0，持有 0，无地板。合集 created_date=2026-11-23。SeaDrop mintStatus=MINTING_SOON，0/555，activeDropStage 空；SIGNED_PRESALE 2026-11-27 20:30:00 CST 至 2026-11-28 02:30:00 CST，PUBLIC_SALE 2026-11-28 02:30:00 CST 至 2026-12-08 02:30:00 CST。不是已开铸 LIVE，距首窗约 41 小时，未到首次 ≤2h。已挂 userFollowWatch + freeMintWatch。DeepSeek admit+score overall=56。本号不自动 mint。",
         "contracts": {
           "nft": "0x337354ebc02ba40ee01c46fa510ea19fdb20067d",
           "chain": "robinhood"
         },
-        "openseaCheckedAt": "2026-11-26 11:47:09 CST",
+        "openseaCheckedAt": "2026-11-26 14:19:56 CST",
         "owners": 0,
         "minted": 0,
         "openseaMintStatus": "MINTING_SOON",
@@ -365503,19 +365619,19 @@
       },
       "siteXMutual": "none",
       "siteXMutualNote": "官帖链接 https://crawlers-agent.pages.dev；站点页内未见 x.com 回链。",
-      "mintStatus": "付费开铸仍预告 2026-11-26 20:00 CST（0.004 BNB，6000 份，仅限 Agent ID）。MUST_WIN 再见 12:41 / 12:07 CST 官帖，时间表未改；自称合约仍是 0x5c92D8b2aa748722D7855CD4493F208f66757fd6，本轮未独立上链核实。距开铸约 6.3h，未到首次 ≤2h，不提前告警、不重推。不是面向全员的免费 mint。本号不自动 mint。",
+      "mintStatus": "付费开铸仍预告 2026-11-26 20:00 CST（0.004 BNB，6000 份，仅限 Agent ID）。本轮公共 BSC RPC 核到自称 CA 0x5c92D8b2aa748722D7855CD4493F208f66757fd6 已有合约代码（codeLen=15400），此前卡片写未部署/未核到。官网 https://crawlers-agent.pages.dev/ 仍写 MINT · OPENING SOON，不是已开铸 LIVE。距开铸 约 5.7h，未到首次 ≤2h，不提前告警、不重推。不是面向全员的免费 mint。本号不自动 mint。",
       "round": 2222,
       "newThisRound": false,
       "firstSeen": "2026-11-26 11:20:50 CST",
       "addedAt": "2026-11-26 11:20:50 CST",
       "updatedAt": "2026-11-26 11:20:50 CST",
-      "lastChecked": "2026-11-26 13:44:55 CST",
+      "lastChecked": "2026-11-26 14:19:56 CST",
       "le2h": false,
       "schedule": {
         "status": "watching",
         "timezone": "Asia/Shanghai",
         "le2h": false,
-        "lastChecked": "2026-11-26 13:44:55 CST",
+        "lastChecked": "2026-11-26 14:19:56 CST",
         "officialHandle": "@CrawlersAgent",
         "officialPost": "https://x.com/CrawlersAgent/status/2125812121338630410",
         "officialPostAt": "2026-11-26 12:41:20 CST",
@@ -365526,7 +365642,7 @@
         "accountCreatedAt": "2026-02-05",
         "followers": 87,
         "posts": 3,
-        "mintStatus": "付费开铸预告 2026-11-26 20:00 CST（0.004 BNB，6000 份，仅限 Agent ID）。合约尚未部署。不是面向全员的免费 mint。",
+        "mintStatus": "付费开铸仍预告 2026-11-26 20:00 CST（0.004 BNB，6000 份，仅限 Agent ID）。本轮公共 BSC RPC 核到自称 CA 0x5c92D8b2aa748722D7855CD4493F208f66757fd6 已有合约代码（codeLen=15400），此前卡片写未部署/未核到。官网 https://crawlers-agent.pages.dev/ 仍写 MINT · OPENING SOON，不是已开铸 LIVE。距开铸 约 5.7h，未到首次 ≤2h，不提前告警、不重推。不是面向全员的免费 mint。本号不自动 mint。",
         "freeRegistrationOpen": false,
         "mintAtCST": "2026-11-26 20:00 CST",
         "priceBnb": 0.004,
@@ -365535,7 +365651,12 @@
         "agentIdOnly": true,
         "contractDeployed": false,
         "agentIdRegistry": "0x60B9262456dE011F7d15a54CdD8c48bAaa8B022F",
-        "claimedContract": "0x5c92D8b2aa748722D7855CD4493F208f66757fd6"
+        "claimedContract": "0x5c92D8b2aa748722D7855CD4493F208f66757fd6",
+        "contract": "0x5c92D8b2aa748722D7855CD4493F208f66757fd6",
+        "contractHasCode": true,
+        "contractCodeLen": 15400,
+        "rpcCheckedAt": "2026-11-26 14:19:56 CST",
+        "siteMintStatus": "OPENING SOON"
       }
     },
     {
@@ -366298,14 +366419,18 @@
       },
       "siteXMutual": "none",
       "siteXMutualNote": "静态页未见 X 链接；官帖与官网文案一致（免费开一包 / TapeOut × Agent ID）。",
-      "mintStatus": "免费开包已开张：官网称现有 12 个免费包，不用注册、不用钱包。可能先是网页开包，再流片成 BSC 电路 NFT。不是仓鼠链，focus=false。",
+      "mintStatus": "免费开包仍自称 LIVE（官网 12 个免费包，不用注册/钱包）。R2224 已通知，本轮未见关张或改规则，不重推。本号不自动 mint。",
       "freePackLive": true,
       "freeMintOrRegistration": true,
       "round": 2224,
       "newThisRound": false,
       "firstSeen": "2026-11-26 12:17:04 CST",
-      "lastChecked": "2026-11-26 12:17:04 CST",
-      "whatsNew": "【R2224】新收录。官号 @kaling_war 于 2024-01-23 17:43:45 CST 建立（约 1037.76 天、87 粉 / 4 帖，未认证，xUserId 1749729508746276864）。 官帖 免费开包已开张：官网称现有 12 个免费包，不用注册、不用钱包。可能先是网页开包，再流片成 BSC 电路 NFT。不是仓鼠链，focus=false。 见 https://x.com/kaling_war/status/2125800568744755377。 官网 https://agentid.cards/ HTTPS 200，siteXMutual=none。 卡灵战争（Kaling War）把 AI 付款规矩做成卡牌，自称用 Binance Agent ID 做身份、TapeOut 电路做灵魂，开包后可流片成 BSC 电路 NFT。官帖 2026-11-26 11:55:25 CST 宣布今天正式开张，并给免费开一包链接。官网 agentid.cards 写明现在有 12 个免费包，不用注册、不用钱包。账号建于 2024-01-23，仅 4 帖 87 粉，属旧号新启用。不是仓鼠/toychain，focus=false。免费开包可能先是网页开包，再上链；官号也写明不构成链上强制拦截。属于免费开包已开张。 免费开包已开张，必须提醒。focus=false。DeepSeek 本轮 401，dsFallback 本地兜底收录。"
+      "lastChecked": "2026-11-26 14:19:56 CST",
+      "whatsNew": "【R2224】新收录。官号 @kaling_war 于 2024-01-23 17:43:45 CST 建立（约 1037.76 天、87 粉 / 4 帖，未认证，xUserId 1749729508746276864）。 官帖 免费开包已开张：官网称现有 12 个免费包，不用注册、不用钱包。可能先是网页开包，再流片成 BSC 电路 NFT。不是仓鼠链，focus=false。 见 https://x.com/kaling_war/status/2125800568744755377。 官网 https://agentid.cards/ HTTPS 200，siteXMutual=none。 卡灵战争（Kaling War）把 AI 付款规矩做成卡牌，自称用 Binance Agent ID 做身份、TapeOut 电路做灵魂，开包后可流片成 BSC 电路 NFT。官帖 2026-11-26 11:55:25 CST 宣布今天正式开张，并给免费开一包链接。官网 agentid.cards 写明现在有 12 个免费包，不用注册、不用钱包。账号建于 2024-01-23，仅 4 帖 87 粉，属旧号新启用。不是仓鼠/toychain，focus=false。免费开包可能先是网页开包，再上链；官号也写明不构成链上强制拦截。属于免费开包已开张。 免费开包已开张，必须提醒。focus=false。DeepSeek 本轮 401，dsFallback 本地兜底收录。",
+      "schedule": {
+        "lastChecked": "2026-11-26 14:19:56 CST",
+        "le2h": false
+      }
     },
     {
       "id": "payday-direct",
@@ -366659,14 +366784,16 @@
         "telegram": "https://t.me/hamster_combat_nfthub",
         "officialPost": "https://x.com/HamsteCombatHQ/status/2125675982266978598"
       },
-      "mintStatus": "MUST_WIN2 再见到昨日官帖：自称 Free Mint、WL Launching Soon，并在评论区征集 EVM 地址；另有 Collabs are OPEN。无独立官网与合约。不是已开铸 LIVE，也不是已确认的免费登记页。R2226 已收录并通知，不重推。",
+      "mintStatus": "MUST_WIN2 再见到「WL Launching Soon / Collabs OPEN」口径，未见开铸或独立登记页。R2226 已收录并通知，不重推。不是已开铸 LIVE。",
       "round": 2226,
       "newThisRound": false,
       "firstSeen": "2026-11-26 13:10:19 CST",
-      "lastChecked": "2026-11-26 13:44:55 CST",
+      "lastChecked": "2026-11-26 14:19:56 CST",
       "whatsNew": "【R2227】仍是 WL即将开放，未见开铸或独立登记页，不重推。\n【R2226】新收录。官号 @HamsteCombatHQ 于 2026-11-20 02:34:18 CST 建立（约 6.44 天、43 粉 / 3 帖，未认证，xUserId 2123484663654014976）。线索来自 KW_MINT 第三方转帖，includes 中核到自有官帖 https://x.com/HamsteCombatHQ/status/2125675982266978598（2026-11-26 03:40:21 CST）：自称 1,111 Unique Hamsters、Free Mint、Robinhood Chain、WL Launching Soon、GTD for Early Supporters，并征集 EVM 地址。无独立官网，资料栏只有 Telegram https://t.me/hamster_combat_nfthub。不是已开铸 LIVE，也不是已确认的独立免费登记页。不是 squeekchain/toychain，focus=false。DeepSeek 本轮 401，dsFallback 本地兜底收录。已挂 userFollowWatch + freeMintWatch。",
       "schedule": {
-        "lastChecked": "2026-11-26 13:44:55 CST"
+        "lastChecked": "2026-11-26 14:19:56 CST",
+        "le2h": false,
+        "mintStatus": "MUST_WIN2 再见到「WL Launching Soon / Collabs OPEN」口径，未见开铸或独立登记页。R2226 已收录并通知，不重推。不是已开铸 LIVE。"
       }
     }
   ],
