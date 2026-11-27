@@ -17,4 +17,4 @@
 - 拒收（核验后）：已在库 @giftwrapfi、@antstripe、@pactlyFi；高粉/成熟 @SBF_FTX（约 101 万粉）、@hellotradeapp（12241 粉，hello.trade，非极早期）、@RugDalio（6971）、@trapjuicesol（4419）；个人号 @Beruanglucu28、@SrLontroso、@healthysmilee、@azyxzyro（≠ 库内 @ZyroxRH）、@maggyaitech；空壳/噪音 @amberglown4hz、@velvetlila7sbd、@weegantube（Free Money Finds）、以及一串 Binance 新关注个人号（@Meteoriprf、@sexseelnf、@AlMontero78、@MDALIHOSSAhx、@VigtorC、@farmnoir13、@Lu1sG0nz4l3z、@RohithA75733298、@CollinBon24531、@Agatha_along07）；@baoy_sol 仅 “Coming soon to Solana” 预告、链接为 pump.fun 首页、无 CA；@Reliable_Site 仅两张图片帖、无产品站；@The_Core_CC 0 帖、无官网，仅 bio 称 MMO 测试中；@Owldevv 0 帖、资料栏无 URL，「Coming to ProgrammableHQ」过薄，且不得把已有站点 owlprotocol.xyz（2025「Web3 for Every Business」）安到这个今日新号上。
 - 未改 focus，未把普通补漏卡送进重点条，未进 Elysium/LayerZero 栏。SqueekPad 虽与仓鼠链相关，但是非官方测试网发射台，不标 focus。
 - 挂 Watch：3 张新卡均补进 userFollowWatch.accounts + candidateIds。未挂 elysiumWatch。
-- 推送：待 push 后回填 sha / remoteVerified
+- 推送：033f518，remoteVerified=true（origin/main 与 HEAD 均为 033f518）
