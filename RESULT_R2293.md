@@ -1,0 +1,31 @@
+# RESULT R2293
+
+- 时间：2026-11-27 19:44:33 CST（Asia/Shanghai）
+- 仓库：Reboot7454/early-scout，面板 https://reboot7454.github.io/early-scout/
+- 模式：X 雷达（tight）。写盘前 git pull，远程已是 R2292（48af75a，Discord 增量），本路升为 R2293。开火时钟按 19:30 CST 计算 ≤2h，不因写盘稍晚提前报窗。
+- notify=true（新收录 3 项，均不是免费 mint；库内 Kryoshi 21:00 CST、OUTLAWS 21:30 CST 首次进入 ≤2h，尚未开铸。）
+- DeepSeek：本跑仍 HTTP 401 invalid api key（request_id 943f4903-92b0-4962-adb5-1b043bfe42cd），判断/文案/打分为本地兜底（dsFallback=true），未改用高成本模型，未再重试 DeepSeek。
+- X 额度：remainingBefore=158，remainingAfter=138，xReads=20（UF 优先片 1 + UF 分片 2 + MUST 1 + 核心合并 KW 1 + 瘦栏 30m 6 + 瘦栏 24h 4 + mentions 4 + 静号 1）。mode=tight，softCap 10，158<200。十栏仍覆盖：瘦栏 6 条独立 30m + 核心栏（打新/挖矿/台子/GO/Elysium/BN Agent，STARX/X Layer 折入）合并 1 条，未整栏跳过。无翻页、无额外核验读。未刷厚表分片（agentPad/bnAgent/elysium/freeMint nextStart 未动）。已知 NF 跳过不连刷。无分钟顶重试浪费。
+- UF：优先片+分片本窗帖数均为 0。分片自 987 @GLOAMMAIL 起 kept=40，跳过 6 个已知 NF：ripstackfun / UseZPadX / agenticsocial / dyorcash / 404Naroba / MOIbitcoin。分片含 @starX_layer（≠ 已知 NF 的 @starx_xlayer），本窗无新帖。wrap=false。下轮起点 1033 @checkmates3200。userFollow 本片已刷完。
+- 十栏关键词：核心栏 tight 下合并为 1 次 30m（打新/挖矿/台子/GO/Elysium/BN Agent，STARX/X Layer 折入），瘦栏 30m 六组均已跑。瘦栏 30m 命中 LayerZero 1、Tape 25、GIWA 20、DogeEVM 4、BTC 0、Starknet 2。LayerZero/DogeEVM/BTC/Starknet 均 <5，同轮各补 1 次 24h（均为 25；有 next_token 未再翻页）。Tape/GIWA 未补 24h。
+- mentions 本轮：Tape / GIWA / BTC / Starknet+DogeEVM（命中 3/7/6/9）。下一轮：Elysium+kinetiq / LayerZero / pads+squeek+STARX / BN+STARX。
+- 静号：按 R2292/R2291 silentNext 跑 Starknet。本连接器无 search_users，ran SILENT_MEN_Starknet 24h（n=0）。silentNext=打新。
+- 新收录 3 项：meta.newThisRound == 顶层 newThisRound == round2293Added == [okblatch, stockium-one, halvic]。均 focus=false，不是免费 mint / 免费登记 / 免费 LIVE。
+  - okblatch / @OKBLatch / https://www.okblatch.xyz/：今日 17:19 CST 建号，0 粉 / 1 帖。自称 X Layer 上用 101-gate TapeOut 电路自动买卖 OKB 的自控金库，另有 play-money demo https://www.okblatch.xyz/#/demo。官网 HTTPS 200，资料栏 t.co 解析到同一站点；静态 HTML 未见回链官推（前端包很大），单向互证。未见 CA。进 UF + tapeWatch + tapeOutWatch，不进 Elysium 栏。
+  - stockium-one / @Stockium_ / https://www.stockium.one/：今日 17:49 CST 建号，4 粉 / 2 帖。自称 Elysium 上的股票永续，自称 CA 0x44419015d6f3b005fd7c80178113e0b5fad9818d 未链上核验（caUnverified=true）。官网 HTTPS 200，站点回链 x.com/Stockium_，互链成立。与库内 stockium（@Stockium / https://stockium.fun，R919 发射台）不是同一项目，禁止合并。官方生态页未核到名单，不进 Elysium 栏，chain 不写 Elysium。只进 UF。
+  - halvic / @halvicnetwork / https://halvic.network/：2026-10-11 建号，6 粉 / 9 帖。自称 agent L3 sealed on Elysium，自称 CA 0x2dde42e063fb7c37a6eaf846549ca9309762ce93、blocks 1190，未链上核验。官网 HTTPS 200 并回链官推。官方生态页未核到名单，不进 Elysium 栏。只进 UF。
+- 状态更新（非新卡；Kryoshi / OUTLAWS 首次 ≤2h 计入本轮 notify，其余不重推）：
+  - kryoshi / @KryoshiRH：官号本窗无新开铸帖。开铸仍 2026-11-27 21:00 CST，开火 19:30 CST 计约 1.5h，首次进入 ≤2h（此前 le2h=false；R2079 为上架提醒，不是本窗）。未核到已开铸，不是免费 mint LIVE。计入本轮 notify。
+  - outlawsxnft / @OUTLAWSxNFT：本窗仅资格/回复帖，未见开铸。首阶段仍 2026-11-27 21:30 CST，开火 19:30 CST 计约 2.0h，首次进入 ≤2h。不是免费 mint LIVE。计入本轮 notify。
+  - bonebloom / @AbyssLabsNFTCol：预售仍 2026-11-27 20:30 CST，开火 19:30 CST 计约 1.0h，MUST 本窗无新官帖，未见改期，不是免费 mint，尚未开铸。R2290 已提醒，不重推。
+  - blockpay-genesis / @BlockpayGenesis：免费 mint 仍 LIVE，截止仍 2026-11-27 20:00 CST，开火 19:30 CST 计约 0.5h，本窗无新官帖，R2269 已提醒，不重推。
+  - runin-ai / @RuninAI_com：本窗仍提醒每日 20:00 CST $RMINE，CA 仍 0xfB50746BCc9D585AEb49cd410Fa0100b657ce9e6，开火 19:30 CST 计约 0.5h。R2226 已提醒，不重推。
+  - lamoryant / @Lamoryant：本窗仍是 19:00 CST 已 LIVE 的同一批官帖，无新状态。R2291 已提醒，不重推。本轮未重核 OpenSea。
+  - lumixpad / @lumixpad：官号 19:16:33 CST 称 “5 hours left”（按发帖时刻约至 00:16 CST；此前窗口约 00:33 CST）。视为营销倒计时漂移，不是已确认改期，不重推、不改既定窗口。距 ≤2h 仍约 5h。
+  - outrider / @outrider_fi：本窗无新官帖。$OUTR 仍约 2026-11-27 23:00 CST，开火 19:30 CST 计约 3.5h，尚未 ≤2h，不重推。
+  - enter-the-manga / @EnterTheManga：本窗 MUST 无新官帖。白名单免费铸造仍按 R2288 记录，公开轮仍 2026-11-28 16:30 CST，不重推。
+- 拒收/推迟（dsFallback 从紧，不确定不收）：@Xrpl_surfers / surfersxrp.xyz（约 66 天、28 帖，自称先售 Pass 再未来免费 OG mint，不是极早期、不是免费 mint LIVE）；thebit.fun（站点写 Mint upcoming、Free+gas、Base、2009 份，HTML 未见官方 Twitter；第三方 @AT_Crypto_Bear 称 minted #0010 与站点即将开铸矛盾，未另开探索读 @theBit_trade，不收）；@TheEyesBTC（与 R2291 相同，仅第三方，未另开探索读）；@launchtape1（付费归档向，381 帖，非极早期）；@LongLaunches（KOL，$STAGEKIN）；@AnubisLayer1（3350 粉，非极早期）。其余多为个人号/KOL 噪声。
+- Discord：discordPeekDeferred=false。本轮 X 雷达未开浏览器（R2292 已于 19:21 CST 增量 Peek，loginOk=true）。未改 lastSeen（整体 19:05；alpha-3 19:00、backup 18:55、smart 18:05、alpha-1 19:05）。更早积压缺口仍在：alpha-3 11-23 22:55→11-27 05:20；smart 11-23 22:56→11-25 00:25；alpha-1 11-23 22:19→11-25 20:50。backup 已追上。本轮不另开补 Peek。lastFullAfterReset 仍为 2264。
+- 监控补挂：okblatch → UF + tapeWatch + tapeOutWatch；stockium-one / halvic → UF。未加入 forcePanelIds（未改 focus/focusIds）。Canton/Glaze/TokenWorks 软债 lastChecked 已刷新。厚表 nextStart 未因未读而改动。新卡 Watch 漏挂为 0。
+
+- 推送：见 commit（本文件与 data.json / docs/data.json 一并推送）
