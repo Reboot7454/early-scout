@@ -1,0 +1,31 @@
+# RESULT R2289
+
+- 时间：2026-11-27 18:16:43 CST（Asia/Shanghai）
+- 仓库：Reboot7454/early-scout，面板 https://reboot7454.github.io/early-scout/
+- 模式：X 雷达（pace）。写盘前 git pull，远程已是 R2288（dbe1ce3 / a6ceb10 Discord alpha 补漏，新收 yovalt / coenpimarkets / enter-the-manga 并已通知），本路升为 R2289，未覆盖 R2288。保留这三张已收卡，不写入 newThisRound，不重推。开火时钟按 18:00 CST 计算 ≤2h，不因写盘稍晚提前报窗。
+- notify=false（本路 X 雷达无真新收录。MUST 窗口无改期/开铸：VaultDogs 本窗无新阶段；Lamoryant 开铸仍 19:00 CST、约 1.0h，R2285 已按首次进入 ≤2h 提醒；Bonebloom 预售仍 20:30 CST、约 2.5h，尚未首次进入 ≤2h，不提前报。已提醒过的窗口无变化。R2288 三张 Discord 补漏卡不重推。）
+- DeepSeek：本跑父代理已确认仍 HTTP 401 invalid api key（request_id fe718c68-28fc-4551-a4e2-4dd934de7ba5），判断/文案/打分为本地兜底（dsFallback=true），未改用高成本模型，未再重试 DeepSeek。
+- X 额度：remainingBefore=248，remainingAfter=212，xReads=36（探测即 UF 优先片 1 + UF 分片 3 + MUST 1 + 核心 KW 6 + 瘦栏 30m 6 + 瘦栏 24h 4 + 薄栏 Watch 10 + mentions 4 + 静号 mentions 1）。mode=pace，softCap 18，minSpend 18，248>=200，十栏关键词都跑全，未砍栏。无分钟顶重试浪费。已知 NF 的 @mobster_meme / @starx_xlayer 跳过不连刷。未花剩余额度刷厚表分片（agentPad/bnAgent/elysium/freeMint nextStart 未动）。BN 核心检索中 `$PULSE` 的 `$` 被接口去掉，查询仍完成。
+- UF：优先片查询 5 个（@machinedotfun @bscaidrop @PulseLaunchpad @localbottomcom @NutshellMarkets）；已知 NF 的 @mobster_meme / @starx_xlayer 跳过不连刷。分片 837 @rootlinks_nft 起 50 个至 886 @ElyChestFun，3 批 16+17+17；与 MUST 无重叠；与薄栏重叠的 @narupay_com 只在 UF 读、@kangozro 只在 MUST 读。kept=50，queried=50，NF_skip=0，wrap=false。45m 窗内优先片 result_count=1（@machinedotfun 机器人视频，非铸造），分片 result_count=1（@archerswapcore 社区投票，已在库）。R2288 补挂后 UF_LEN=2584（末尾 @yovaltrbh / @CoenpiMarkets / @EnterTheManga），下轮起点 887 @glasstrades_xyz。userFollow 本片已刷完。
+- 十栏关键词：核心 30m（打新/挖矿/台子/GO/Elysium/BN Agent，STARX/X Layer 折入 BN 查询）+ 瘦栏 30m 六组均已跑（laneReads 全到）。瘦栏 30m 命中 LayerZero 0、Tape 12、GIWA 20、DogeEVM 4、BTC 1、Starknet 3。LayerZero/DogeEVM/BTC/Starknet 均 <5，同轮各补 1 次 24h（均为 25；有 next_token，但无 errors，未再翻页）。Tape/GIWA 未补 24h。肥栏挖矿 1 未改 24h。
+- mentions 本轮：Elysium+kinetiq / LayerZero / pads+squeek+STARX / BN+STARX（命中 25/25/25/0）。STARX 覆盖在 pads+squeek+STARX 查询；BN 查询省略 @starx_xlayer 以免重复过重。下一轮：Tape / GIWA / BTC / Starknet+DogeEVM。
+- 静号：按 R2287 silentNext 跑 GIWA（未用脚本按 round 2288 算出的 打新）。本连接器无 search_users，ran SILENT_MEN_GIWA 24h（n=20，ok，未再翻页）。本地筛 seen=34，sentToReview=0，admitted=0，skipped=34（too_many_posts=18，already_in_library=8，profile_unresolved=8）。未为 profile_unresolved 再开探索读。silentNext=DogeEVM。
+- 新收录 0。未改 focus，未把普通卡送进重点条，未把新卡写入 meta.focusIds。meta.newThisRound == 顶层 newThisRound == round2289Added == []。
+- 状态更新（非新卡，不重推）：
+  - vaultdogs / @Vault_dogs：本窗无新官帖、未见第二则官宣或新阶段，不重拉 OpenSea，不重推（R2285 已通知已开铸并售罄 777/777）。
+  - lamoryant / @Lamoryant：开铸仍 2026-11-27 19:00 CST，开火 18:00 CST 计约 1.0h，MUST 本窗无新官帖，未见改期/开铸，不是已开铸。未再拉 OpenSea。R2285 已按首次进入 ≤2h 提醒。铸页 https://lamoryant.com/mint CA 0x3F296B91132aa82B84b116Cf31a15e957a958B2c。
+  - bonebloom / @AbyssLabsNFTCol：预售仍 2026-11-27 20:30 CST，开火 18:00 CST 计约 2.5h，尚未首次进入 ≤2h，本窗无新官帖，未见改期，不提前报。
+  - outlawsxnft / @OUTLAWSxNFT：本窗无新官帖。首阶段仍 2026-11-27 21:30 CST，约 3.5h，未到首次 ≤2h，不是免费 mint LIVE。Checker 仍是已在库 OpenSea 合集页，不算开铸，不重推。本轮未再拉 OpenSea 供应。
+  - runin-ai / @RuninAI_com：本窗多则官帖仍预告今晚 20:00 CST $RMINE，CA 仍 0xfB50746BCc9D585AEb49cd410Fa0100b657ce9e6，不重推。
+  - outrider / @outrider_fi：本窗无新官帖，$OUTR 仍 23:00 CST 约 5.0h，不重推。
+  - blockpay-genesis / @BlockpayGenesis：免费 mint 仍 LIVE，截止仍 20:00 CST 约 2.0h，本窗无新官帖，R2269 已提醒，不重推。
+  - lumixpad / @lumixpad：本窗多则营销官帖自称 Website is live、$LUMIX in 7 hours（约 17:45 CST 发，约对应 00:45 CST），并称 launchpad 在 $LUMIX 后 12–24h 上线、尚未发币。既有窗口仍至 2026-11-28 00:33 CST，约 6.5h，未见明确改期/开铸，不重推。
+  - growbloxtech / @growbloxtech：本窗无新官帖，$GBLOX 已在 R2287 记为 live，不是免费 mint/登记，不重推。
+  - kangozro / @kangozro：本窗无新官帖，白名单此前已在收，不是新的免费登记开窗/开铸，不重推。
+  - yovalt / coenpimarkets / enter-the-manga：R2288 Discord 已收录并已通知，本路不重推。enter-the-manga 免费白名单铸造仍按 R2288 记录（OpenSea 已铸 266，公开轮明日 16:30 CST），本路 X 雷达未再核 OpenSea。
+- 拒收/推迟（dsFallback 从紧，不确定不收）：@tryRollie（今日建号、1 粉 / 5 帖，自称 Solana 发射台 rollie 已可一签发币，站点未独立核活，不像已验证官号）；@HaldrFun（11-25 建号、4 粉 / 2 帖，自称 Solana 发射台 live 并给 CA，过瘦不收）；@usecrumblelive（今日建号、4 粉 / 4 帖，自称 Elysium/Montra 上的 AI desk，无资料栏网站，官方生态页未核，不进 Elysium 栏）；@gettallyxyz（11-17 建号、32 粉 / 4 帖，自称 $TALLY live on Enter_Elysium 并给 CA，与库内 @UseTallyAgent 不是同一号，官方生态页未核，不是免费 mint，不进 Elysium 栏）；@kestrelcredit（10-08 建号、5 粉 / 1 帖，自称 Elysium 信用层已 live，过瘦且生态页未核）；@PebblesFun（10-19 建号、422 粉 / 5 帖，自称 Launch day、准备在 Solana 上线，无资料栏网站，未见可操作开铸/登记）；@Use_Pythia（Avalanche 测试网预测市场，非免费 mint）；@OreumLabs（8 月号，本窗仅与已在库 @MapaeGiwa 官宣合作，不是开铸/登记）；@Haygs11 / @gupron3st（个人演示/评测已在库 GAMA kiln，不是新官号）；@GiwaterFinance 本窗官帖宣布与 @CallPutApp 合作，已在库，不另收 CallPut。打新栏多见已在库项目的 KOL 转发（Bad Ape @artnesh、@LawoftheAbyss、@nullkin_NFT、@Spike__wtf、@FeedTheFireRH、@Niblekins、@yoricolors、@Thenoonesnft / @feekyweb9），本窗未见这些官号新帖，不按转发重推或另开探索核验。其余为已在库转发或个人/营销噪声（含 Zoomex 预测盘转发、Bramble 游戏/獾误伤）。
+- Discord：discordPeekDeferred=false。本轮 X 雷达未开浏览器。R2288 刚以 loginOk=true 做完四频道增量 Peek（新收 3 项已通知），lastSeenByChannel：alpha-3 17:58、backup 17:55、smart 17:24、alpha-1 17:55。积压缺口仍在：alpha-3 11-23 22:55→11-27 05:20；smart 11-23 22:56→11-25 00:25；alpha-1 11-23 22:19→11-25 20:50。本轮未改 lastSeen，未补扫积压。
+- 清上一轮 newThisRound：已清 R2288 的 yovalt, coenpimarkets, enter-the-manga，未把它们再写入本轮新卡。
+- 监控补挂：enter-the-manga / @EnterTheManga 已在 userFollowWatch，但 R2288 收录时漏挂 freeMintWatch（该卡 freeMintLIVE=true），本轮已补挂。其余状态更新卡均已在 UF 及对应栏 Watch。未加入 forcePanelIds（未改 focus/focusIds）。Canton/Glaze/TokenWorks 软债 lastChecked 已刷新。厚表 nextStart 未因未读而改动。
+
+- 推送：见 commit（本文件与 data.json / docs/data.json 一并推送）
