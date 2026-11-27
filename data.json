@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-27 17:44:54 CST",
+    "updated": "2026-11-27 18:12 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-27 17:44:54 CST",
+    "lastScout": "2026-11-27 18:12 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -934,7 +934,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2287,
+    "round": 2288,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1011,7 +1011,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 5054,
+    "candidateCount": 5057,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -2479,7 +2479,11 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "yovalt",
+      "coenpimarkets",
+      "enter-the-manga"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -5411,73 +5415,85 @@
       "loginWall": false,
       "channelsPeeked": true,
       "spideyPosting": true,
-      "gapIncomplete": true,
-      "lastSeen": "2026-11-27 17:03",
+      "gapIncomplete": false,
+      "lastSeen": "2026-11-27 17:58",
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-27 17:03",
-        "alpha-1-backup": "2026-11-27 16:39",
-        "smart-accounts-tracker": "2026-11-27 16:18",
-        "alpha-1": "2026-11-27 17:03"
+        "alpha-3-new-accounts": "2026-11-27 17:58",
+        "alpha-1-backup": "2026-11-27 17:55",
+        "smart-accounts-tracker": "2026-11-27 17:24",
+        "alpha-1": "2026-11-27 17:55"
       },
       "lastSeenUnchanged": false,
-      "lastChecked": "2026-11-27 17:20 CST",
-      "newestCardTime": "2026-11-27 17:03",
-      "cardsAfterCutoff": 38,
-      "cardsRead": 38,
-      "note": "R2286：Discord alpha 补收 pivotra,alastor,astromine-miners,halfkey；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-27 17:03', 'alpha-1-backup': '2026-11-27 16:39', 'smart-accounts-tracker': '2026-11-27 16:18', 'alpha-1': '2026-11-27 17:03'}；cards=38 incremental，未补扫积压；lastChecked→2026-11-27 17:20 CST；dsFallback=true；loginOk=true；spideyPosting=true",
-      "lastRound": 2286,
+      "lastChecked": "2026-11-27 18:12 CST",
+      "newestCardTime": "2026-11-27 17:58",
+      "cardsAfterCutoff": 39,
+      "cardsRead": 39,
+      "note": "R2288：Discord alpha 补收 yovalt,coenpimarkets,enter-the-manga；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-27 17:58', 'alpha-1-backup': '2026-11-27 17:55', 'smart-accounts-tracker': '2026-11-27 17:24', 'alpha-1': '2026-11-27 17:55'}；cards=39 incremental，未补扫积压；lastChecked→2026-11-27 18:12 CST；dsFallback=true；loginOk=true；spideyPosting=true",
+      "lastRound": 2288,
       "channels": [
         {
           "name": "#alpha-3-new-accounts",
           "url": "https://discord.com/channels/1502958818865188956/1537897411668746302",
           "cutoff": "2026-11-23 22:55 CST",
-          "newestSeenCST": "2026-11-27 17:03",
+          "newestSeenCST": "2026-11-27 17:58",
           "oldestReadCST": "2026-11-27 05:20",
           "passedCutoff": false,
           "capped": true,
           "cardsRead": 250,
           "bot": "Captain Hook",
-          "notes": "R2285 incremental peek (33 cards after 15:59) did not fill leftover backlog. HARDCAP 250 newest-first from R2277 catch-up. Backlog gap remains 2026-11-23 22:55 → 2026-11-27 05:20.",
-          "thisPassCards": 33
+          "notes": "R2288 incremental peek (33 cards after 17:03) did not fill leftover backlog. HARDCAP 250 newest-first from R2277 catch-up. Backlog gap remains 2026-11-23 22:55 to 2026-11-27 05:20.",
+          "thisPassCards": 33,
+          "thisPassOldestReached": "2026-11-27 16:35",
+          "thisPassPassedIncrementalCutoff": true,
+          "thisPassCapped": false
         },
         {
           "name": "#alpha-1-backup",
           "url": "https://discord.com/channels/1502958818865188956/1549303534263214160",
           "cutoff": "2026-11-23 22:29 CST",
-          "newestSeenCST": "2026-11-27 16:39",
+          "newestSeenCST": "2026-11-27 17:55",
           "oldestReadCST": "2026-11-23 10:29",
           "passedCutoff": true,
           "capped": false,
           "cardsRead": 166,
           "bot": "Spidey",
-          "notes": "Fully caught up past cutoff (R2277). This incremental peek added 1 card after 15:54. Spidey posting.",
-          "thisPassCards": 1
+          "notes": "Fully caught up past cutoff (R2277). This incremental peek added 1 card after 16:39. Spidey posting.",
+          "thisPassCards": 1,
+          "thisPassOldestReached": "2026-11-27 03:54",
+          "thisPassPassedIncrementalCutoff": true,
+          "thisPassCapped": false
         },
         {
           "name": "#smart-accounts-tracker",
           "url": "https://discord.com/channels/1502958818865188956/1527900129300840551",
           "cutoff": "2026-11-23 22:56 CST",
-          "newestSeenCST": "2026-11-27 16:18",
+          "newestSeenCST": "2026-11-27 17:24",
           "oldestReadCST": "2026-11-25 00:25",
           "passedCutoff": false,
           "capped": true,
           "cardsRead": 250,
           "bot": "X Follow Monitor",
-          "notes": "R2285 incremental peek found 1 card after 14:37. Did not fill leftover backlog. HARDCAP 250 newest-first from R2277 catch-up. Backlog gap remains 2026-11-23 22:56 → 2026-11-25 00:25.",
-          "thisPassCards": 1
+          "notes": "R2288 incremental peek found 1 card after 16:18. Did not fill leftover backlog. HARDCAP 250 newest-first from R2277 catch-up. Backlog gap remains 2026-11-23 22:56 to 2026-11-25 00:25.",
+          "thisPassCards": 1,
+          "thisPassOldestReached": "2026-11-27 11:44",
+          "thisPassPassedIncrementalCutoff": true,
+          "thisPassCapped": false
         },
         {
           "name": "#alpha-1",
           "url": "https://discord.com/channels/1502958818865188956/1527862926885785710",
           "cutoff": "2026-11-23 22:19 CST",
-          "newestSeenCST": "2026-11-27 17:03",
+          "newestSeenCST": "2026-11-27 17:55",
           "oldestReadCST": "2026-11-25 20:50",
           "passedCutoff": false,
           "capped": true,
           "cardsRead": 250,
           "bot": "Spidey / Twitter Follow Monitor",
-          "notes": "Spidey posting. R2285 incremental peek (3 cards after 15:55) did not fill leftover backlog. HARDCAP 250 from R2277 catch-up. Backlog gap remains 2026-11-23 22:19 → 2026-11-25 20:50.",
-          "thisPassCards": 3
+          "notes": "Spidey posting. R2288 incremental peek (4 cards after 17:03) did not fill leftover backlog. HARDCAP 250 from R2277 catch-up. Backlog gap remains 2026-11-23 22:19 to 2026-11-25 20:50.",
+          "thisPassCards": 4,
+          "thisPassOldestReached": "2026-11-27 14:28",
+          "thisPassPassedIncrementalCutoff": true,
+          "thisPassCapped": false
         }
       ],
       "backlogGaps": [
@@ -5485,24 +5501,24 @@
           "channel": "alpha-3-new-accounts",
           "from": "2026-11-23 22:55",
           "to": "2026-11-27 05:20",
-          "reason": "leftover from R2277 HARDCAP 250; R2285 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+          "reason": "leftover from R2277 HARDCAP 250; R2288 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
         },
         {
           "channel": "smart-accounts-tracker",
           "from": "2026-11-23 22:56",
           "to": "2026-11-25 00:25",
-          "reason": "leftover from R2277 HARDCAP 250; R2285 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+          "reason": "leftover from R2277 HARDCAP 250; R2288 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
         },
         {
           "channel": "alpha-1",
           "from": "2026-11-23 22:19",
           "to": "2026-11-25 20:50",
-          "reason": "leftover from R2277 HARDCAP 250; R2285 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+          "reason": "leftover from R2277 HARDCAP 250; R2288 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
         }
       ],
-      "scannedAtCST": "2026-11-27 17:05",
+      "scannedAtCST": "2026-11-27 18:03",
       "dsFallback": true,
-      "dsUsage": "deepseek-flash HTTP 401 invalid api key (request_id f955cdc6-9024-42da-b12c-74677e156cd7); local fallback admits=4; no high-cost model",
+      "dsUsage": "deepseek-flash HTTP 401 invalid api key (request_id 84e02289-4af3-4541-887e-a6ccf66b5687); local fallback admits=3; no high-cost model",
       "incremental": true,
       "didNotFillBacklog": true,
       "priorUnfilledRangesOutOfScope": [
@@ -16365,7 +16381,10 @@
         "@pivotratech",
         "@Alastor_rbh",
         "@AstromineMiners",
-        "@Halfkeyxyz"
+        "@Halfkeyxyz",
+        "@yovaltrbh",
+        "@CoenpiMarkets",
+        "@EnterTheManga"
       ],
       "candidateIds": [
         "elysatrade",
@@ -18901,7 +18920,10 @@
         "pivotra",
         "alastor",
         "astromine-miners",
-        "halfkey"
+        "halfkey",
+        "yovalt",
+        "coenpimarkets",
+        "enter-the-manga"
       ],
       "pending": [],
       "note": "R2090 soft-brush 1734→1784; kept 50, walk 50, skip_already=[], NF_skip=0, wrap=false; firstKept @securityum_xyz, lastKept @BagDropSocial。本片作者均已在库。库内 @Zero_Kitties 首次核到 WL application 已开。新收 @appcityhood @PaydPad。写盘前远程 R2089 Discord 六卡补挂 Watch：@coinductorai @playluckyguard @ideafun_io @smooveoffsol @jesterdotfun @blackwater_z26。",
@@ -39575,10 +39597,9 @@
       "ascendrbot"
     ],
     "roundNAdded": [
-      "pivotra",
-      "alastor",
-      "astromine-miners",
-      "halfkey"
+      "yovalt",
+      "coenpimarkets",
+      "enter-the-manga"
     ],
     "round1438Added": [
       "elyfun"
@@ -56643,9 +56664,316 @@
         ]
       }
     ],
-    "round2287Added": []
+    "round2287Added": [],
+    "round2288Added": [
+      "yovalt",
+      "coenpimarkets",
+      "enter-the-manga"
+    ],
+    "r2288WatchAdds": {
+      "new": [
+        "yovalt",
+        "coenpimarkets",
+        "enter-the-manga"
+      ]
+    },
+    "r2288WatchAddDetails": [
+      {
+        "id": "yovalt",
+        "handle": "@yovaltrbh",
+        "watches": [
+          "userFollowWatch"
+        ]
+      },
+      {
+        "id": "coenpimarkets",
+        "handle": "@CoenpiMarkets",
+        "watches": [
+          "userFollowWatch"
+        ]
+      },
+      {
+        "id": "enter-the-manga",
+        "handle": "@EnterTheManga",
+        "watches": [
+          "userFollowWatch"
+        ]
+      }
+    ]
   },
   "candidates": [
+    {
+      "id": "enter-the-manga",
+      "name": "Enter The Manga",
+      "handle": "@EnterTheManga",
+      "twitter": "@EnterTheManga",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-27 14:58:46 CST",
+      "xUserId": "2126208874697138177",
+      "chain": "Robinhood",
+      "category": "打新",
+      "zone": "打新",
+      "zoneHint": "Robinhood",
+      "ecosystem": "Robinhood",
+      "status": "live",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 1,
+      "xFollowers": 1,
+      "xTweets": 1,
+      "verified": false,
+      "source": "discord-alpha",
+      "freeLIVE": true,
+      "freeMintLIVE": true,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": true,
+      "summary": "Enter The Manga（@EnterTheManga / 站点 https://etm.weremain.xyz/）自称 2,222 个手绘黑白漫画风男性角色 NFT，是原创漫画宇宙的第一章，铸在 Robinhood Chain 的 OpenSea 上：白名单与公开轮均为免费、每钱包 1 份，铸后隐藏、统一揭示，并称每个角色后续会有仅持有人可读的漫画分镜故事。官网写白名单 2026-11-27 08:30 UTC（16:30 CST）面向 Robinhood Chain 头部收藏持有人与社区，公开轮 2026-11-28 08:30 UTC（16:30 CST）至 2027-01-01 08:27 UTC。官网 HTTPS 200（http 500，www TLS unexpected eof），页内回链 https://x.com/EnterTheManga。@EnterTheManga 于 2026-11-27 14:58:46 CST 建号，1 粉 / 1 帖，未认证，xUserId 2126208874697138177；今日 17:23 CST 唯一官帖（https://x.com/EnterTheManga/status/2126245521530683644）链到 OpenSea 合集 https://opensea.io/collection/enter-the-manga-414708163。本轮打开该合集页，OpenSea 显示 Total Supply 266、Owners 264、地板 0.000494 ETH，24h/7d 成交 $0；合约地址本轮未在 Robinhood 节点核到，caUnverified=true。铸造本身未实测，本号不自动 mint。今日 17:24 CST 在 #alpha-3-new-accounts 被记为关注 @robinhoodapp。按官网窗口与 OpenSea 已铸数量，本卡标 freeMintLIVE=true。DeepSeek HTTP 401，本卡评分与文案为 dsFallback。",
+      "blurb": "今日建号（1粉），站点 etm.weremain.xyz 自称 Robinhood Chain 上 2222 个手绘漫画风 NFT，免费 1 钱包 1 份；白名单已于今日 16:30 CST 开始，OpenSea 显示已铸 266 / 持有人 264，公开轮明日 16:30 CST，合约未链上核验，铸造未实测。",
+      "highlights": [
+        "官网 https://etm.weremain.xyz/（https 200，http 500，www TLS eof）自称 2,222 份、Robinhood/OpenSea、免费 1 钱包 1 份；页内回链官推",
+        "白名单自称今日 16:30 CST 已开，公开轮明日 16:30 CST；本轮 OpenSea 合集显示已铸 266、持有人 264",
+        "X 于今日 14:58 CST 建号，1 粉 / 1 帖；17:23 CST 官帖链到该 OpenSea 合集"
+      ],
+      "drawbacks": [
+        "NFT 合约本轮未做 Robinhood RPC 核验，caUnverified=true",
+        "铸造未实测；OpenSea 的 266 已铸与地板价未经链上复核",
+        "官号今日新建且仅 1 帖，钓鱼与改期风险仍在；DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 95,
+        "actionable": 92,
+        "novelty": 74,
+        "risk": 70,
+        "overall": 77
+      },
+      "earlyScore": 95,
+      "overall": 77,
+      "score": 77,
+      "riskScore": 70,
+      "tags": [
+        "discord-alpha",
+        "Robinhood",
+        "NFT",
+        "免费mint",
+        "OpenSea",
+        "有官推",
+        "有官网",
+        "CA未核实",
+        "R2288"
+      ],
+      "links": {
+        "x": "https://x.com/EnterTheManga",
+        "twitter": "https://x.com/EnterTheManga",
+        "website": "https://etm.weremain.xyz/",
+        "site": "https://etm.weremain.xyz/",
+        "web": "https://etm.weremain.xyz/",
+        "officialPost": "https://x.com/EnterTheManga/status/2126245521530683644",
+        "opensea": "https://opensea.io/collection/enter-the-manga-414708163"
+      },
+      "caUnverified": true,
+      "round": 2288,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 18:12 CST",
+      "addedAt": "2026-11-27 18:12 CST",
+      "lastChecked": "2026-11-27 18:12 CST",
+      "whatsNew": "【R2288】Discord alpha 补漏新收录。今日建号（1粉），站点 etm.weremain.xyz 自称 Robinhood Chain 上 2222 个手绘漫画风 NFT，免费 1 钱包 1 份；白名单已于今日 16:30 CST 开始，OpenSea 显示已铸 266 / 持有人 264，公开轮明日 16:30 CST，合约未链上核验，铸造未实测。 DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 invalid api key，本轮 dsFallback 收录",
+      "siteXMutual": true,
+      "siteXMutualNote": "官网 HTML 回链 https://x.com/EnterTheManga；资料栏 URL 指向 https://etm.weremain.xyz。www.etm.weremain.xyz 本轮 TLS unexpected eof。",
+      "schedule": {
+        "status": "live",
+        "timezone": "Asia/Shanghai",
+        "le2h": false,
+        "officialHandle": "EnterTheManga",
+        "officialPost": "https://x.com/EnterTheManga/status/2126245521530683644",
+        "officialPostAt": "2026-11-27 17:23:30 CST",
+        "website": "https://etm.weremain.xyz/",
+        "siteXMutual": true,
+        "freeLIVE": true,
+        "freeMintLIVE": true,
+        "selfClaimedFreeMint": true,
+        "chain": "Robinhood",
+        "allowlistOpensAtCST": "2026-11-27 16:30 CST",
+        "publicOpensAtCST": "2026-11-28 16:30 CST",
+        "publicEndsAtCST": "2027-01-01 16:27 CST",
+        "price": "free",
+        "maxPerWallet": 1,
+        "maxSupply": 2222,
+        "mintedOpenSea": 266,
+        "ownersOpenSea": 264,
+        "opensea": "https://opensea.io/collection/enter-the-manga-414708163",
+        "mintStatus": "官称白名单免费铸造已于 2026-11-27 16:30 CST 开始（1 钱包 1 份），公开轮 2026-11-28 16:30 CST。本轮 OpenSea 显示已铸 266 / 持有人 264。合约未链上核验，铸造未实测。本号不自动 mint。",
+        "lastChecked": "2026-11-27 18:12 CST"
+      },
+      "mintStatus": "官称白名单免费铸造已于 2026-11-27 16:30 CST 开始（1 钱包 1 份），公开轮 2026-11-28 16:30 CST。本轮 OpenSea 显示已铸 266 / 持有人 264。合约未链上核验，铸造未实测。本号不自动 mint。",
+      "minted": 266,
+      "maxSupply": 2222
+    },
+    {
+      "id": "coenpimarkets",
+      "name": "CoenpiMarkets",
+      "handle": "@CoenpiMarkets",
+      "twitter": "@CoenpiMarkets",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-27 15:45:56 CST",
+      "xUserId": "2126220636670349313",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "Robinhood",
+      "ecosystem": "Robinhood",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 2,
+      "xFollowers": 2,
+      "xTweets": 16,
+      "verified": false,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "CoenpiMarkets（@CoenpiMarkets / 站点 https://pncoemarkets.fun/）自称在 Robinhood Chain 上做代理交易终端：用 Claude 为 27 个美股市场以及 BTC、ETH 画出最多三套入场计划（含止损、目标、杠杆与费用），需钱包签名后才下单；站点还写订单在 Perpsons 引擎结算、以 USDG 作抵押，代理可开平仓但不能提现。置顶与部分正文同时使用 Ponymarket 名称，域名则为 pncoemarkets.fun。官网 HTTPS 200（www 200，http 500）。@CoenpiMarkets 于 2026-11-27 15:45:56 CST 建号，2 粉 / 16 帖，未认证，xUserId 2126220636670349313。今日 17:55 CST 置顶官帖（https://x.com/CoenpiMarkets/status/2126253453395775901）称在 Robinhood Chain 上连接 27 个美股市场，CA 0x1ef9e3bd4ec486d48033c76fe47cea4decf9dd25；本轮用 Robinhood 节点（chainId 4663）核到合约代码 3248 字节，名称/符号 CoenpiMarkets/COENPI，总量 10 亿、18 位，caUnverified=false。DexScreener 本轮对该 CA 返回 0 个交易对。今日 17:56–17:57 CST 在 #alpha-3-new-accounts 被记为关注 @robinhoodcrypto 与 @ponsdotfamily。交易终端未实测。不是免费 mint。DeepSeek HTTP 401，本卡评分与文案为 dsFallback。",
+      "blurb": "今日建号（2粉），站点 pncoemarkets.fun 自称在 Robinhood Chain 上用 Claude 为美股/BTC/ETH 生成交易计划，推文亦称 Ponymarket；CA 已核到 CoenpiMarkets/COENPI 10 亿 18 位，DexScreener 暂无交易对，交易终端未实测。",
+      "highlights": [
+        "官网 https://pncoemarkets.fun/（https 200，www 200，http 500）自称用 Claude 为美股/BTC/ETH 生成可签字的交易计划，并写 Perpsons 引擎与 USDG 抵押；推文亦称 Ponymarket",
+        "CA 0x1ef9e3bd4ec486d48033c76fe47cea4decf9dd25 本轮用 Robinhood 节点（chainId 4663）核到合约代码 3248 字节，名称/符号 CoenpiMarkets/COENPI，总量 10 亿 18 位",
+        "X 于今日 15:45 CST 建号，2 粉 / 16 帖；17:56–17:57 CST 关注了 @robinhoodcrypto 与 @ponsdotfamily"
+      ],
+      "drawbacks": [
+        "交易终端未实测；DexScreener 本轮未检索到该 CA 的交易对",
+        "对外名称同时出现 CoenpiMarkets 与 Ponymarket，域名是 pncoemarkets.fun，品牌尚未统一",
+        "站点静态 HTML 未见回链官推；DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 94,
+        "actionable": 78,
+        "novelty": 78,
+        "risk": 76,
+        "overall": 73
+      },
+      "earlyScore": 94,
+      "overall": 73,
+      "score": 73,
+      "riskScore": 76,
+      "tags": [
+        "discord-alpha",
+        "Robinhood",
+        "COENPI",
+        "AI交易",
+        "有官推",
+        "有官网",
+        "CA已核实",
+        "R2288"
+      ],
+      "links": {
+        "x": "https://x.com/CoenpiMarkets",
+        "twitter": "https://x.com/CoenpiMarkets",
+        "website": "https://pncoemarkets.fun/",
+        "site": "https://pncoemarkets.fun/",
+        "web": "https://pncoemarkets.fun/",
+        "officialPost": "https://x.com/CoenpiMarkets/status/2126253453395775901",
+        "claimedCA": "0x1ef9e3bd4ec486d48033c76fe47cea4decf9dd25"
+      },
+      "caUnverified": false,
+      "round": 2288,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 18:12 CST",
+      "addedAt": "2026-11-27 18:12 CST",
+      "lastChecked": "2026-11-27 18:12 CST",
+      "whatsNew": "【R2288】Discord alpha 补漏新收录。今日建号（2粉），站点 pncoemarkets.fun 自称在 Robinhood Chain 上用 Claude 为美股/BTC/ETH 生成交易计划，推文亦称 Ponymarket；CA 已核到 CoenpiMarkets/COENPI 10 亿 18 位，DexScreener 暂无交易对，交易终端未实测。 DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 invalid api key，本轮 dsFallback 收录",
+      "contract": "0x1ef9e3bd4ec486d48033c76fe47cea4decf9dd25",
+      "claimedCA": "0x1ef9e3bd4ec486d48033c76fe47cea4decf9dd25",
+      "siteXMutual": false,
+      "siteXMutualNote": "资料栏 URL 指向 https://pncoemarkets.fun；站点正文展示 CA 0x1ef9e3bd4ec486d48033c76fe47cea4decf9dd25，本轮静态 HTML 未见 twitter:site 或 x.com/@CoenpiMarkets 回链。推文亦使用 Ponymarket 名称。"
+    },
+    {
+      "id": "yovalt",
+      "name": "Yovalt",
+      "handle": "@yovaltrbh",
+      "twitter": "@yovaltrbh",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-26 22:25:41 CST",
+      "xUserId": "2125958867427246080",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "Robinhood",
+      "ecosystem": "Robinhood",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 3,
+      "xFollowers": 3,
+      "xTweets": 6,
+      "verified": true,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "Yovalt（@yovaltrbh / 站点 https://www.yovalt.online/）自称在 Robinhood Chain 上给 AI 交易代理开车道：本金固定，决策先哈希并在链上密封，再按七道买单闸门交易，由市场来打分；官网展示已有车道（含 Nov 24 的 smoke-open / smoke-closed 记录）。官网 HTTPS 200（apex 落到 www，http 500）。@yovaltrbh 于 2026-11-26 22:25:41 CST 建号，3 粉 / 6 帖，X 接口 verified=true，xUserId 2125958867427246080，资料栏位置写 testnet is now live，URL 指向该站。今日 17:43 CST 置顶官帖（https://x.com/yovaltrbh/status/2126250530637017371）称 $YT is now live，CA 0xbf2e0996e57c95eb582f891b8297bcb0875c0b5c；本轮用 Robinhood 节点（chainId 4663）核到合约代码 3248 字节，名称/符号 Yovalt/YT，总量 10 亿、18 位，caUnverified=false。DexScreener 本轮对该 CA 返回 0 个交易对。同日 17:45 CST 官称销毁 6,888,645 $YT（https://robin.etherscan.io/tx/0x2f57da1267783e1de449a078973da302c79cabd4154464744dbaccbdbda9544e），数量未独立核对；17:48 CST 称核心代码与合约已开源（https://github.com/Yovalt/yt，HTTPS 200），并写明合约尚未审计。今日 17:43–17:48 CST 在 #alpha-3-new-accounts 被记为关注 @ponsdotfamily、@robinhoodcrypto 与 @robinhoodapp。车道与交易流程未实测。不是免费 mint。DeepSeek HTTP 401，本卡评分与文案为 dsFallback。",
+      "blurb": "昨日建号（3粉），站点 yovalt.online 自称在 Robinhood Chain 上用密封决策给 AI 交易代理打分，测试网已有车道数据；$YT 今日官宣上线，CA 已核到 Yovalt/YT 10 亿 18 位，DexScreener 暂无交易对，合约自称未审计，产品未实测。",
+      "highlights": [
+        "官网 https://www.yovalt.online/（https 200，apex 落到 www，http 500）自称在 Robinhood Chain 上密封决策、七道买单闸门，并展示已有车道数据；源码 https://github.com/Yovalt/yt",
+        "CA 0xbf2e0996e57c95eb582f891b8297bcb0875c0b5c 本轮用 Robinhood 节点（chainId 4663）核到合约代码 3248 字节，名称/符号 Yovalt/YT，总量 10 亿 18 位",
+        "X 于 2026-11-26 22:25 CST 建号，3 粉 / 6 帖；今日 17:43 CST 官宣 $YT 上线，并称合约未审计"
+      ],
+      "drawbacks": [
+        "产品与车道流程未实测；DexScreener 本轮未检索到该 CA 的交易对",
+        "官称合约尚未审计；自称销毁 6,888,645 $YT 的数量未独立核对",
+        "站点静态 HTML 未见回链官推；DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 92,
+        "actionable": 80,
+        "novelty": 80,
+        "risk": 74,
+        "overall": 73
+      },
+      "earlyScore": 92,
+      "overall": 73,
+      "score": 73,
+      "riskScore": 74,
+      "tags": [
+        "discord-alpha",
+        "Robinhood",
+        "YT",
+        "AI代理",
+        "有官推",
+        "有官网",
+        "CA已核实",
+        "R2288"
+      ],
+      "links": {
+        "x": "https://x.com/yovaltrbh",
+        "twitter": "https://x.com/yovaltrbh",
+        "website": "https://www.yovalt.online/",
+        "site": "https://www.yovalt.online/",
+        "web": "https://www.yovalt.online/",
+        "officialPost": "https://x.com/yovaltrbh/status/2126250530637017371",
+        "github": "https://github.com/Yovalt/yt",
+        "explorer": "https://robin.etherscan.io/token/0xbf2e0996e57c95eb582f891b8297bcb0875c0b5c",
+        "claimedCA": "0xbf2e0996e57c95eb582f891b8297bcb0875c0b5c"
+      },
+      "caUnverified": false,
+      "round": 2288,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 18:12 CST",
+      "addedAt": "2026-11-27 18:12 CST",
+      "lastChecked": "2026-11-27 18:12 CST",
+      "whatsNew": "【R2288】Discord alpha 补漏新收录。昨日建号（3粉），站点 yovalt.online 自称在 Robinhood Chain 上用密封决策给 AI 交易代理打分，测试网已有车道数据；$YT 今日官宣上线，CA 已核到 Yovalt/YT 10 亿 18 位，DexScreener 暂无交易对，合约自称未审计，产品未实测。 DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 invalid api key，本轮 dsFallback 收录",
+      "contract": "0xbf2e0996e57c95eb582f891b8297bcb0875c0b5c",
+      "claimedCA": "0xbf2e0996e57c95eb582f891b8297bcb0875c0b5c",
+      "siteXMutual": false,
+      "siteXMutualNote": "资料栏 URL 指向 https://www.Yovalt.Online（https 会落到 https://www.yovalt.online/）；本轮打开站点静态 HTML 未见 twitter:site 或 x.com/@yovaltrbh 回链。另有源码 https://github.com/Yovalt/yt（HTTPS 200）。"
+    },
     {
       "id": "halfkey",
       "name": "HALFKEY",
@@ -380064,16 +380392,20 @@
       "lastChecked": "2026-11-27 16:17:23 CST"
     }
   ],
-  "newThisRound": [],
-  "alertMessage": "【早期打新雷达 R2287】本轮无真新收录，MUST 窗口无改期/开铸，不重推。Lamoryant 开铸仍 19:00 CST，约 1.3h，R2285 已按首次进入 ≤2h 提醒。Bonebloom 预售仍 20:30 CST，约 2.8h，尚未首次进入 ≤2h。面板：https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "yovalt",
+    "coenpimarkets",
+    "enter-the-manga"
+  ],
+  "alertMessage": "DC补漏R2288新收3（打新 1 + 台子/Meme 2）：Enter The Manga @EnterTheManga，Robinhood Chain，站点 https://etm.weremain.xyz/，自称 2222 个手绘漫画风 NFT，免费 1 钱包 1 份，白名单已于今日 16:30 CST 开始，OpenSea 显示已铸 266/持有人 264，公开轮明日 16:30 CST，合约未链上核验、铸造未实测；Yovalt @yovaltrbh，Robinhood Chain，站点 https://www.yovalt.online/，自称链上密封决策来给 AI 交易代理打分，$YT CA 0xbf2e0996e57c95eb582f891b8297bcb0875c0b5c 已核到 Yovalt/YT、10亿18位，DexScreener 暂无交易对，合约自称未审计；CoenpiMarkets @CoenpiMarkets（推文亦称 Ponymarket），Robinhood Chain，站点 https://pncoemarkets.fun/，自称用 Claude 做美股/BTC/ETH 代理交易终端，CA 0x1ef9e3bd4ec486d48033c76fe47cea4decf9dd25 已核到 CoenpiMarkets/COENPI、10亿18位，DexScreener 暂无交易对。全部 focus 否。DeepSeek HTTP 401，本地兜底，未改用高成本模型。面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [],
-  "updatedAt": "2026-11-27 17:44:54 CST",
-  "updated": "2026-11-27 17:44:54 CST",
+  "updatedAt": "2026-11-27 18:12 CST",
+  "updated": "2026-11-27 18:12 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-27 17:44:54 CST",
+  "lastScout": "2026-11-27 18:12 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -380115,7 +380447,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 5054,
+  "candidateCount": 5057,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -385255,5 +385587,10 @@
     "astromine-miners",
     "halfkey"
   ],
-  "round2287Added": []
+  "round2287Added": [],
+  "round2288Added": [
+    "yovalt",
+    "coenpimarkets",
+    "enter-the-manga"
+  ]
 }
