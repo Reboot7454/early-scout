@@ -141,12 +141,15 @@
     "noteR2283": "R2283 为 X 雷达轮。写盘前远程已被相邻 Discord 小时补漏占用 R2282（loginOk=true，四频道增量 Peek，新收 NODERA 已通知），本轮未再打开浏览器，不重推 NODERA。积压缺口仍在：alpha-3 11-23 22:55→11-27 05:20；smart 11-23 22:56→11-25 00:25；alpha-1 11-23 22:19→11-25 20:50。backup 已追上。下一轮小时 DC 补扫继续翻，不必立刻再弹登录表。"
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "remote": "origin/main",
+    "sha": "0de456d8f6c3e58273ff7af65d7feb53c576556f",
+    "short": "0de456d"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R2286：Discord alpha 补收 pivotra,alastor,astromine-miners,halfkey；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-27 17:03', 'alpha-1-backup': '2026-11-27 16:39', 'smart-accounts-tracker': '2026-11-27 16:18', 'alpha-1': '2026-11-27 17:03'}；cards=38 incremental，未补扫积压；lastChecked→2026-11-27 17:20 CST；dsFallback=true；loginOk=true；spideyPosting=true",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r2285.json",
   "priorRoundNote": "R2285 meta NTR []",
   "lastSeenByChannel": {
@@ -256,5 +259,7 @@
     }
   ],
   "rejectedCount": 26,
-  "rejectedNote": "30 unique new handles, 0 already in panel; admitted 4 (@pivotratech as pivotra, @Alastor_rbh as alastor, @AstromineMiners as astromine-miners, @Halfkeyxyz as halfkey); rejected 26 including 2021 software shop @AsgardHashworks, mid-stage L1 @maroo_io, suspended @Fusesocialapp, signal bot @HTXLive_bot, empty @gyjujiweb/@THEDEXDEVLOL, and personal @SrLontroso. Other rejects were personal/empty bios."
+  "rejectedNote": "30 unique new handles, 0 already in panel; admitted 4 (@pivotratech as pivotra, @Alastor_rbh as alastor, @AstromineMiners as astromine-miners, @Halfkeyxyz as halfkey); rejected 26 including 2021 software shop @AsgardHashworks, mid-stage L1 @maroo_io, suspended @Fusesocialapp, signal bot @HTXLive_bot, empty @gyjujiweb/@THEDEXDEVLOL, and personal @SrLontroso. Other rejects were personal/empty bios.",
+  "commit": "0de456d8f6c3e58273ff7af65d7feb53c576556f",
+  "commitSha": "0de456d8f6c3e58273ff7af65d7feb53c576556f"
 }

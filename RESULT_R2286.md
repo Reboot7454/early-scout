@@ -17,3 +17,4 @@
 - 拒收（核验后）：@AsgardHashworks 为 2021 年挖矿软件小站；@maroo_io 为 1 月起的韩国 L1、2935 粉，非极早期；@Fusesocialapp 官推已被冻结；@HTXLive_bot 为火币播报机器人；@gyjujiweb、@THEDEXDEVLOL 为空壳/噪声；@SrLontroso 为个人号。其余新 handle 按预过滤拒收（个人号、空简介、互粉号）。未给已冻结的 Fuse Social 造卡。
 - 未改 focus，未把普通补漏卡送进重点条，未进 Elysium/LayerZero 栏。Astromine 勿与无关的 astromine.io（AstroMine.ai 2022 航天站）混淆。Pivotra DexScreener 本轮无交易对，仍以 Robinhood RPC 核验为准。
 
+- 推送：origin/main 0de456d（0de456d8f6c3e58273ff7af65d7feb53c576556f），remoteVerified=true
