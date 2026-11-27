@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-27 14:35 CST",
+    "updated": "2026-11-27 15:17 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-27 15:10:26 CST",
+    "lastScout": "2026-11-27 15:17 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -932,7 +932,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2279,
+    "round": 2280,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1009,7 +1009,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 4982,
+    "candidateCount": 5047,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -2478,10 +2478,10 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "snowballz",
-      "usemined",
-      "nerbyprotocol",
-      "nomercyio"
+      "nofeeapp",
+      "offrouter",
+      "sourcebound",
+      "outrider"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -5407,68 +5407,72 @@
       "channelsPeeked": true,
       "spideyPosting": true,
       "gapIncomplete": true,
-      "lastSeen": "2026-11-27 14:12",
+      "lastSeen": "2026-11-27 15:02",
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-27 14:12",
-        "alpha-1-backup": "2026-11-27 14:09",
-        "smart-accounts-tracker": "2026-11-27 14:07",
-        "alpha-1": "2026-11-27 13:42"
+        "alpha-3-new-accounts": "2026-11-27 15:02",
+        "alpha-1-backup": "2026-11-27 14:39",
+        "smart-accounts-tracker": "2026-11-27 14:37",
+        "alpha-1": "2026-11-27 14:49"
       },
       "lastSeenUnchanged": false,
-      "lastChecked": "2026-11-27 14:35 CST",
-      "newestCardTime": "2026-11-27 14:12",
-      "cardsAfterCutoff": 916,
-      "cardsRead": 916,
-      "note": "R2277：Discord alpha 补收 thenativestack,robinfish,pixelpuddings,winterland,bobobears,mogtown,rtpnft,yasara,fletchr,hoodset,ondine,rangetail,offhooker,sillage,railhead,motemarkets,hormos,pearly,boosterpack,liquora,cubeline,afkminers,heyos,cloakx,lengo,elytrenches；清 xtaskfun,darkstocks,kongkow,torpor-sol；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-27 14:12', 'alpha-1-backup': '2026-11-27 14:09', 'smart-accounts-tracker': '2026-11-27 14:07', 'alpha-1': '2026-11-27 13:42'}；cards=916 cap/gapIncomplete；lastChecked→2026-11-27 14:35 CST；dsFallback=true；loginOk=true",
-      "lastRound": 2277,
+      "lastChecked": "2026-11-27 15:17 CST",
+      "newestCardTime": "2026-11-27 15:02",
+      "cardsAfterCutoff": 30,
+      "cardsRead": 30,
+      "note": "R2280：Discord alpha 补收 nofeeapp,offrouter,sourcebound,outrider；清 snowballz,usemined,nerbyprotocol,nomercyio；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-27 15:02', 'alpha-1-backup': '2026-11-27 14:39', 'smart-accounts-tracker': '2026-11-27 14:37', 'alpha-1': '2026-11-27 14:49'}；cards=30 incremental，未补扫积压；lastChecked→2026-11-27 15:17 CST；dsFallback=true；loginOk=true；spideyPosting=true",
+      "lastRound": 2280,
       "channels": [
         {
           "name": "#alpha-3-new-accounts",
           "url": "https://discord.com/channels/1502958818865188956/1537897411668746302",
           "cutoff": "2026-11-23 22:55 CST",
-          "newestSeenCST": "2026-11-27 14:12",
+          "newestSeenCST": "2026-11-27 15:02",
           "oldestReadCST": "2026-11-27 05:20",
           "passedCutoff": false,
           "capped": true,
           "cardsRead": 250,
           "bot": "Captain Hook",
-          "notes": "HARDCAP 250 newest-first. Backlog gap remains 2026-11-23 22:55 → 2026-11-27 05:20."
+          "notes": "R2280 incremental peek (25 cards after 14:12) did not fill leftover backlog. HARDCAP 250 newest-first from R2277 catch-up. Backlog gap remains 2026-11-23 22:55 → 2026-11-27 05:20.",
+          "thisPassCards": 25
         },
         {
           "name": "#alpha-1-backup",
           "url": "https://discord.com/channels/1502958818865188956/1549303534263214160",
           "cutoff": "2026-11-23 22:29 CST",
-          "newestSeenCST": "2026-11-27 14:09",
+          "newestSeenCST": "2026-11-27 14:39",
           "oldestReadCST": "2026-11-23 10:29",
           "passedCutoff": true,
           "capped": false,
           "cardsRead": 166,
           "bot": "Spidey",
-          "notes": "Fully caught up past cutoff. Post-cutoff oldest card 2026-11-23 23:14. Spidey posting."
+          "notes": "Fully caught up past cutoff (R2277). This incremental peek added 1 card after 14:09. Spidey posting.",
+          "thisPassCards": 1
         },
         {
           "name": "#smart-accounts-tracker",
           "url": "https://discord.com/channels/1502958818865188956/1527900129300840551",
           "cutoff": "2026-11-23 22:56 CST",
-          "newestSeenCST": "2026-11-27 14:07",
+          "newestSeenCST": "2026-11-27 14:37",
           "oldestReadCST": "2026-11-25 00:25",
           "passedCutoff": false,
           "capped": true,
           "cardsRead": 250,
           "bot": "X Follow Monitor",
-          "notes": "HARDCAP 250 newest-first. Backlog gap remains 2026-11-23 22:56 → 2026-11-25 00:25."
+          "notes": "R2280 incremental peek (2 cards after 14:07) did not fill leftover backlog. HARDCAP 250 newest-first from R2277 catch-up. Backlog gap remains 2026-11-23 22:56 → 2026-11-25 00:25.",
+          "thisPassCards": 2
         },
         {
           "name": "#alpha-1",
           "url": "https://discord.com/channels/1502958818865188956/1527862926885785710",
           "cutoff": "2026-11-23 22:19 CST",
-          "newestSeenCST": "2026-11-27 13:42",
+          "newestSeenCST": "2026-11-27 14:49",
           "oldestReadCST": "2026-11-25 20:50",
           "passedCutoff": false,
           "capped": true,
           "cardsRead": 250,
           "bot": "Spidey / Twitter Follow Monitor",
-          "notes": "Spidey resumed. After Jump to Present, newest visible was 13:42 (not wall-clock). HARDCAP 250. Backlog gap remains 2026-11-23 22:19 → 2026-11-25 20:50."
+          "notes": "Spidey posting. R2280 incremental peek (2 cards after 13:42) did not fill leftover backlog. HARDCAP 250 from R2277 catch-up. Backlog gap remains 2026-11-23 22:19 → 2026-11-25 20:50.",
+          "thisPassCards": 2
         }
       ],
       "backlogGaps": [
@@ -5476,26 +5480,33 @@
           "channel": "alpha-3-new-accounts",
           "from": "2026-11-23 22:55",
           "to": "2026-11-27 05:20",
-          "reason": "HARDCAP 250 newest-first, passedCutoff=false"
+          "reason": "leftover from R2277 HARDCAP 250; R2280 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
         },
         {
           "channel": "smart-accounts-tracker",
           "from": "2026-11-23 22:56",
           "to": "2026-11-25 00:25",
-          "reason": "HARDCAP 250 newest-first, passedCutoff=false"
+          "reason": "leftover from R2277 HARDCAP 250; R2280 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
         },
         {
           "channel": "alpha-1",
           "from": "2026-11-23 22:19",
           "to": "2026-11-25 20:50",
-          "reason": "HARDCAP 250 newest-first, passedCutoff=false"
+          "reason": "leftover from R2277 HARDCAP 250; R2280 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
         }
       ],
-      "scannedAtCST": "2026-11-27 14:25",
-      "hiddenPageInstructions": "present-ignored",
+      "scannedAtCST": "2026-11-27 15:06",
       "dsFallback": true,
-      "noteR2278": "R2278 为 X 雷达轮。同一时段 R2277 已完成 Discord alpha 补漏（loginOk=true，四频道 Peek，新收 26 项已通知），本轮未再打开浏览器。R2277 26 张新卡当时未挂任何 Watch，本轮已补进 userFollowWatch 及对应栏 Watch，不当作新收录重推。积压缺口仍在：alpha-3 11-23 22:55→11-27 05:20；smart 11-23 22:56→11-25 00:25；alpha-1 11-23 22:19→11-25 20:50。下一轮小时 DC 补扫继续翻，不必立刻再弹登录表。",
-      "noteR2279": "R2279 为 X 雷达轮。同一时段相邻轮次 R2277 已完成 Discord alpha 补漏（loginOk=true，四频道 Peek，新收 26 项已通知），本轮未再打开浏览器。积压缺口仍在：alpha-3 11-23 22:55→11-27 05:20；smart 11-23 22:56→11-25 00:25；alpha-1 11-23 22:19→11-25 20:50。下一轮小时 DC 补扫继续翻，不必立刻再弹登录表。"
+      "dsUsage": "deepseek-flash HTTP 401 invalid api key (request_id 108be5b8-2e17-4a9f-9450-294761bd1311); local fallback admits=4; no high-cost model",
+      "incremental": true,
+      "didNotFillBacklog": true,
+      "priorUnfilledRangesOutOfScope": [
+        "alpha-3 2026-11-15 03:22→2026-11-20 02:20",
+        "backup 2026-11-15 02:04→2026-11-15 14:04",
+        "smart 2026-11-15 03:26→2026-11-18 12:38",
+        "alpha-1 2026-11-15 02:59→2026-11-18 05:37"
+      ],
+      "noteR2278": "R2278 为 X 雷达轮。同一时段 R2277 已完成 Discord alpha 补漏（loginOk=true，四频道 Peek，新收 26 项已通知），本轮未再打开浏览器。R2277 26 张新卡当时未挂任何 Watch，本轮已补进 userFollowWatch 及对应栏 Watch，不当作新收录重推。积压缺口仍在：alpha-3 11-23 22:55→11-27 05:20；smart 11-23 22:56→11-25 00:25；alpha-1 11-23 22:19→11-25 20:50。下一轮小时 DC 补扫继续翻，不必立刻再弹登录表。"
     },
     "round239Added": [
       "tsunamilaunch",
@@ -10655,7 +10666,8 @@
         "fletchr",
         "hoodset",
         "motemarkets",
-        "nerbyprotocol"
+        "nerbyprotocol",
+        "offrouter"
       ],
       "r342": "Listen续；扫到Orus/GENIE/NOMO beta但DS skip；无新admit",
       "r343": "Listen续；无新agentic trading admit",
@@ -10757,7 +10769,8 @@
         "@fletchrfun",
         "@hoodsetq",
         "@motemarkets",
-        "@nerbyprotocol"
+        "@nerbyprotocol",
+        "@OffRouter"
       ],
       "r513": "R513：listendotmoney软刷无新",
       "r519": "R519：listendotmoney软刷无新",
@@ -16316,7 +16329,11 @@
         "@snowballz_bsc",
         "@UseMined",
         "@nerbyprotocol",
-        "@nomercyio"
+        "@nomercyio",
+        "@nofeeapp",
+        "@OffRouter",
+        "@sourceboundHQ",
+        "@outrider_fi"
       ],
       "candidateIds": [
         "elysatrade",
@@ -18841,7 +18858,11 @@
         "snowballz",
         "usemined",
         "nerbyprotocol",
-        "nomercyio"
+        "nomercyio",
+        "nofeeapp",
+        "offrouter",
+        "sourcebound",
+        "outrider"
       ],
       "pending": [],
       "note": "R2090 soft-brush 1734→1784; kept 50, walk 50, skip_already=[], NF_skip=0, wrap=false; firstKept @securityum_xyz, lastKept @BagDropSocial。本片作者均已在库。库内 @Zero_Kitties 首次核到 WL application 已开。新收 @appcityhood @PaydPad。写盘前远程 R2089 Discord 六卡补挂 Watch：@coinductorai @playluckyguard @ideafun_io @smooveoffsol @jesterdotfun @blackwater_z26。",
@@ -39488,14 +39509,10 @@
       "ascendrbot"
     ],
     "roundNAdded": [
-      "blockpay-genesis",
-      "asyncium",
-      "ionia",
-      "lockium",
-      "nexel",
-      "curbwire",
-      "rostrum",
-      "tessel"
+      "nofeeapp",
+      "offrouter",
+      "sourcebound",
+      "outrider"
     ],
     "round1438Added": [
       "elyfun"
@@ -56308,9 +56325,407 @@
       },
       "uf": "priority + shard 537 @razor_agent start 50 to @valdrenfun, next 587 @HallowHood666; 45m 窗内仅 @Elemintrix_mp 感恩节闲帖，无行动窗口",
       "must": "MUST1+MUST2 去重后含 @QQAgent_BNB 共 39 个官号。RuninAI 本窗仍每日 20:00 CST $RMINE、约 4.8h 非 ≤2h，CA 未改，不重推。Bonebloom 预售仍 20:30 CST 未见改期，约 5.3h。OUTLAWS 本窗短帖「whos active rn?」未见改期，21:30 CST 约 6.3h 未到 ≤2h。Blockpay 免费截止 20:00 CST 约 4.8h，R2269 已提醒不重推。VaultDogs 仍未开铸、约 1.8h，首次进入 ≤2h，持有人预售仅 17:00–17:03 CST。lumixpad 免费窗至 11-28 00:33 CST 约 9.4h，不重推。TW_DOGE 见 @LaikaSuperApp 预告与 @DogeOS 称 ShillOS Day 1 上 Laika 主网，无具体开窗钟点，不按新窗重推。Rumble Hood / XofN 本窗无新官帖，不重推。"
-    }
+    },
+    "round2280Added": [
+      "nofeeapp",
+      "offrouter",
+      "sourcebound",
+      "outrider"
+    ],
+    "r2280WatchAdds": {
+      "new": [
+        "nofeeapp",
+        "offrouter",
+        "sourcebound",
+        "outrider"
+      ]
+    },
+    "r2280WatchAddDetails": [
+      {
+        "id": "nofeeapp",
+        "handle": "@nofeeapp",
+        "watches": [
+          "userFollowWatch"
+        ]
+      },
+      {
+        "id": "offrouter",
+        "handle": "@OffRouter",
+        "watches": [
+          "userFollowWatch",
+          "agentTradingWatch"
+        ]
+      },
+      {
+        "id": "sourcebound",
+        "handle": "@sourceboundHQ",
+        "watches": [
+          "userFollowWatch"
+        ]
+      },
+      {
+        "id": "outrider",
+        "handle": "@outrider_fi",
+        "watches": [
+          "userFollowWatch"
+        ]
+      }
+    ]
   },
   "candidates": [
+    {
+      "id": "outrider",
+      "name": "Outrider",
+      "handle": "@outrider_fi",
+      "twitter": "@outrider_fi",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-26 22:22:39 CST",
+      "xUserId": "2125958024800112640",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "Robinhood",
+      "ecosystem": "Robinhood",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 2,
+      "xFollowers": 2,
+      "xTweets": 1,
+      "verified": true,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "Outrider（@outrider_fi / https://outrider.business/）自称在 Robinhood Chain（chain 4663）上把 Uniswap v4 区间头寸做成可核验的公开 callout：钱包自己开区间并登记，其他人用自己的钱包、按相同区间或相同形状去 tail。X 资料 2026-11-26 22:22:39 CST 建号，2 粉 / 1 帖，blue 认证，xUserId 2125958024800112640，资料栏指向 https://outrider.business。官网 HTTPS HTTP 200，twitter:site=@outrider_fi，页内回链 https://x.com/outrider_fi。页面写 Launch 27 Nov · 15:00 UTC，CA Posted here at launch，并称 registry 无托管、无 owner、不可升级。唯一置顶帖（2026-11-27 14:19:31 CST，https://x.com/outrider_fi/status/2126199221707739537）同样写 $OUTR · 27 Nov, 15:00 UTC（2026-11-27 23:00 CST）。这不是被禁的 outrive。无 CA。产品与发射未实测。不是免费 mint。DeepSeek HTTP 401，本卡评分与文案为 dsFallback。",
+      "blurb": "昨日建号，自称 Robinhood 上 Uniswap v4 区间 callout，官网已开并回链官推；官帖称 $OUTR 今日 15:00 UTC 发射，无 CA，产品未实测。",
+      "highlights": [
+        "昨日建号，2 粉 / 1 帖，官网与官推互证，站点 HTTP 200",
+        "自称把 Uniswap v4 区间做成可核验的公开 callout，别人用自己的钱包去 tail，registry 自称无托管",
+        "官帖与官网写 $OUTR 于 2026-11-27 15:00 UTC（23:00 CST）发射，CA 上线时公布"
+      ],
+      "drawbacks": [
+        "无 CA，发射与区间/跟单均未实测",
+        "registry 自称未经第三方审计",
+        "与被禁项目 outrive 名称相近，但本号为 @outrider_fi、站点 outrider.business，不是同一项",
+        "DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 95,
+        "actionable": 76,
+        "novelty": 84,
+        "risk": 86,
+        "overall": 72
+      },
+      "earlyScore": 95,
+      "overall": 72,
+      "score": 72,
+      "riskScore": 86,
+      "tags": [
+        "discord-alpha",
+        "Robinhood",
+        "OUTR",
+        "Uniswap v4",
+        "range",
+        "有官推",
+        "有官网",
+        "CA未公布",
+        "R2280"
+      ],
+      "links": {
+        "x": "https://x.com/outrider_fi",
+        "twitter": "https://x.com/outrider_fi",
+        "website": "https://outrider.business/",
+        "site": "https://outrider.business/",
+        "web": "https://outrider.business/",
+        "officialPost": "https://x.com/outrider_fi/status/2126199221707739537"
+      },
+      "caUnverified": true,
+      "round": 2280,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 15:17 CST",
+      "addedAt": "2026-11-27 15:17 CST",
+      "lastChecked": "2026-11-27 15:17 CST",
+      "whatsNew": "【R2280】Discord alpha 补漏新收录。昨日建号，自称 Robinhood 上 Uniswap v4 区间 callout，官网已开并回链官推；官帖称 $OUTR 今日 15:00 UTC 发射，无 CA，产品未实测。 DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 invalid api key，本轮 dsFallback 收录",
+      "siteXMutual": true,
+      "siteXMutualNote": "官网 twitter:site=@outrider_fi 且页内回链 https://x.com/outrider_fi；资料栏 URL 指向 https://outrider.business",
+      "schedule": {
+        "status": "watching",
+        "timezone": "Asia/Shanghai",
+        "le2h": false,
+        "lastChecked": "2026-11-27 15:17 CST",
+        "officialHandle": "@outrider_fi",
+        "website": "https://outrider.business/",
+        "freeLIVE": false,
+        "freeMintLIVE": false,
+        "accountCreatedAt": "2026-11-26 22:22:39 CST",
+        "note": "置顶官帖与官网写 $OUTR 于 2026-11-27 15:00 UTC（2026-11-27 23:00 CST）发射；官方 CA 将在官网和官推公布。不是被禁的 outrive。",
+        "officialPost": "https://x.com/outrider_fi/status/2126199221707739537",
+        "atCST": "2026-11-27 23:00 CST",
+        "atUTC": "2026-11-27T15:00:00Z"
+      }
+    },
+    {
+      "id": "sourcebound",
+      "name": "Sourcebound",
+      "handle": "@sourceboundHQ",
+      "twitter": "@sourceboundHQ",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-27 08:18:18 CST",
+      "xUserId": "2126107883418890240",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "Solana",
+      "ecosystem": "Solana",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 3,
+      "xFollowers": 3,
+      "xTweets": 188,
+      "verified": true,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "Sourcebound（@sourceboundHQ / https://sourcebound-ten.vercel.app/）自称面向新 Solana 代币的 Token Check Desk：出资提问，研究人员和 AI agent 提交带出处的回答，通过核查后以 $SOURCE 支付并记入公开日志。X 资料 2026-11-27 08:18:18 CST 建号，3 粉 / 188 帖（X API 数字；本轮拉取到当天约 9 条主帖），blue 认证，xUserId 2126107883418890240，资料栏指向该 Vercel 站。官网 HTTPS HTTP 200，twitter:site=@sourceboundHQ，页内回链 https://x.com/sourceboundHQ。页面写公平发射 Thursday, Dec 3, 2026、pump.fun、无预售；创建者自称在创建时拿走 10% 供给（6% 自留、4% 入赏金钱包）；合约与赏金钱包地址均写 Coming soon。/agents HTTP 200，描述 agent 提交 API，任务板仍写即将上线。官帖（https://x.com/sourceboundHQ/status/2126142235330646490）同样写 12 月 3 日发射、合约只在官推和官网公布。无 CA。产品与发射未实测。不是免费 mint。DeepSeek HTTP 401，本卡评分与文案为 dsFallback。",
+      "blurb": "今日建号，自称 Solana 新币核查台，官网已开并回链官推；写 12 月 3 日 pump.fun 公平发射，无 CA，产品未实测。",
+      "highlights": [
+        "今日建号，官网与官推互证，站点 HTTP 200",
+        "自称 Solana 新币 Token Check Desk，带出处的回答用 $SOURCE 支付",
+        "官网写明 2026-12-03 pump.fun 公平发射、无预售，CA 尚未公布"
+      ],
+      "drawbacks": [
+        "无 CA，赏金钱包与任务板仍写 Coming soon，产品与发射未实测",
+        "X API 记 188 帖（本轮只拉到当天约 9 条主帖），blue 认证的当日新号需自行判断",
+        "创建者自称保留 10% 供给（6% 自留 + 4% 赏金）",
+        "DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 96,
+        "actionable": 68,
+        "novelty": 84,
+        "risk": 88,
+        "overall": 70
+      },
+      "earlyScore": 96,
+      "overall": 70,
+      "score": 70,
+      "riskScore": 88,
+      "tags": [
+        "discord-alpha",
+        "Solana",
+        "SOURCE",
+        "pump.fun",
+        "research",
+        "有官推",
+        "有官网",
+        "CA未公布",
+        "R2280"
+      ],
+      "links": {
+        "x": "https://x.com/sourceboundHQ",
+        "twitter": "https://x.com/sourceboundHQ",
+        "website": "https://sourcebound-ten.vercel.app/",
+        "site": "https://sourcebound-ten.vercel.app/",
+        "web": "https://sourcebound-ten.vercel.app/",
+        "officialPost": "https://x.com/sourceboundHQ/status/2126142235330646490"
+      },
+      "caUnverified": true,
+      "round": 2280,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 15:17 CST",
+      "addedAt": "2026-11-27 15:17 CST",
+      "lastChecked": "2026-11-27 15:17 CST",
+      "whatsNew": "【R2280】Discord alpha 补漏新收录。今日建号，自称 Solana 新币核查台，官网已开并回链官推；写 12 月 3 日 pump.fun 公平发射，无 CA，产品未实测。 DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 invalid api key，本轮 dsFallback 收录",
+      "siteXMutual": true,
+      "siteXMutualNote": "官网 twitter:site=@sourceboundHQ 且页内回链 https://x.com/sourceboundHQ；资料栏 URL 指向 https://sourcebound-ten.vercel.app/",
+      "schedule": {
+        "status": "watching",
+        "timezone": "Asia/Shanghai",
+        "le2h": false,
+        "lastChecked": "2026-11-27 15:17 CST",
+        "officialHandle": "@sourceboundHQ",
+        "website": "https://sourcebound-ten.vercel.app/",
+        "freeLIVE": false,
+        "freeMintLIVE": false,
+        "accountCreatedAt": "2026-11-27 08:18:18 CST",
+        "note": "官网与官帖称 $SOURCE 于 2026-12-03（Thursday, Dec 3, 2026）在 pump.fun 公平发射、无预售；具体钟点未公布。CA 与赏金钱包将于发射日公布。",
+        "officialPost": "https://x.com/sourceboundHQ/status/2126142235330646490",
+        "date": "2026-12-03"
+      }
+    },
+    {
+      "id": "offrouter",
+      "name": "OffRouter",
+      "handle": "@OffRouter",
+      "twitter": "@OffRouter",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-10-05 12:45:33 CST",
+      "xUserId": "2106968570899161088",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "Robinhood",
+      "ecosystem": "Robinhood",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 529,
+      "xFollowers": 529,
+      "xTweets": 316,
+      "verified": true,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "OffRouter（@OffRouter / https://offrouter.org/）自称 Robinhood Chain 上的隐私层：Private Inference、Private Payments、Private Gateway（Beta）和 Private Swap（Beta），调用在可验证硬件 enclave 中执行并签发收据。X 资料 2026-10-05 12:45:33 CST 建号，529 粉 / 316 帖，blue 认证，xUserId 2106968570899161088，资料栏指向 http://offrouter.org。官网 HTTPS HTTP 200，标题 OffRouter | The private layer for Robinhood Chain，twitter:site=@OffRouter；/token、/swap HTTP 200，文档 https://docs.offrouter.org/ HTTP 200。Token 页称持仓可打折并每周刷新免费额度，Studio 发射与自身交易费回购销毁。置顶为 2026-11-06 长文。近帖称推理走 x402，Robinhood 上由 Priors 以 USDG 结算，并在做 offagent。bio 自称 CA 0x47b537f7c2c2183967fe5ba883291b8ada490db6。本轮 Robinhood 公共 RPC（rpc.robinhood.xyz SSL EOF、robinhood-chain.drpc.org 404）与 Blockscout API（Cloudflare 墙）均未核通，caUnverified=true。DexScreener 已实际拉取：主池 Uniswap v4 Robinhood OFFROUTER/ETH，名称 OffRouter、符号 OFFROUTER，市值约 $235,704，流动性约 $38,604，24h 成交约 $188,486（买 630 / 卖 561），24h +397%，交易对创建 2026-10-06 20:48:03 CST，资料中的官网与官推与本项目一致。产品未实测。不是免费 mint。DeepSeek HTTP 401，本卡评分与文案为 dsFallback。",
+      "blurb": "Robinhood 隐私层，官网与文档已开；自称 CA 本轮 RPC 未核通。DexScreener 市值约 $236k，产品未实测。",
+      "highlights": [
+        "官网 https://offrouter.org/ HTTP 200，twitter:site 回链 @OffRouter，文档与 /token、/swap 可开",
+        "自称硬件 enclave 隐私推理/支付/网关与 Private Swap（后两项标 Beta），持有 $OFFROUTER 可打折",
+        "DexScreener 显示 Robinhood Uniswap v4 OFFROUTER/ETH 池，市值约 $236k（本轮 Robinhood RPC 未核通合约）"
+      ],
+      "drawbacks": [
+        "账号约 7 周、代币交易对约 2026-10-06 创建，已不是当日新盘",
+        "自称 CA 0x47b537f7c2c2183967fe5ba883291b8ada490db6 本轮 Robinhood 公共 RPC 失败、Blockscout 有 Cloudflare 墙，未做 RPC 核验",
+        "隐私推理、支付与兑换均未实测",
+        "DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 78,
+        "actionable": 80,
+        "novelty": 82,
+        "risk": 78,
+        "overall": 68
+      },
+      "earlyScore": 78,
+      "overall": 68,
+      "score": 68,
+      "riskScore": 78,
+      "tags": [
+        "discord-alpha",
+        "Robinhood",
+        "OFFROUTER",
+        "privacy",
+        "x402",
+        "有官推",
+        "有官网",
+        "合约未核实",
+        "R2280"
+      ],
+      "links": {
+        "x": "https://x.com/OffRouter",
+        "twitter": "https://x.com/OffRouter",
+        "website": "https://offrouter.org/",
+        "site": "https://offrouter.org/",
+        "web": "https://offrouter.org/",
+        "docs": "https://docs.offrouter.org/",
+        "officialPost": "https://x.com/OffRouter/status/2118527144548544775",
+        "claimedCA": "0x47b537f7c2c2183967fe5ba883291b8ada490db6"
+      },
+      "caUnverified": true,
+      "round": 2280,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 15:17 CST",
+      "addedAt": "2026-11-27 15:17 CST",
+      "lastChecked": "2026-11-27 15:17 CST",
+      "whatsNew": "【R2280】Discord alpha 补漏新收录。Robinhood 隐私层，官网与文档已开；自称 CA 本轮 RPC 未核通。DexScreener 市值约 $236k，产品未实测。 DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 invalid api key，本轮 dsFallback 收录",
+      "contract": "0x47b537f7c2c2183967fe5ba883291b8ada490db6",
+      "claimedCA": "0x47b537f7c2c2183967fe5ba883291b8ada490db6",
+      "siteXMutual": true,
+      "siteXMutualNote": "官网 twitter:site=@OffRouter；资料栏 URL 指向 http://offrouter.org"
+    },
+    {
+      "id": "nofeeapp",
+      "name": "No Fee App",
+      "handle": "@nofeeapp",
+      "twitter": "@nofeeapp",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-26 13:52:58 CST",
+      "xUserId": "2125829888603234304",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "Robinhood",
+      "ecosystem": "Robinhood",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 5,
+      "xFollowers": 5,
+      "xTweets": 3,
+      "verified": false,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "No Fee App（@nofeeapp / https://nofeeapp.xyz/）自称 Robinhood Chain 上的交易应用，对 Pons 曲线发射和 Uniswap V3 池不加平台费，场内费与网络 gas 仍由用户支付。X 资料 2026-11-26 13:52:58 CST 建号，5 粉 / 3 帖，未认证，xUserId 2125829888603234304，资料栏指向 http://nofeeapp.xyz/。官网 HTTPS HTTP 200，标题 No Fee App，写 Live on Robinhood Chain、Platform fee $0.00，并称 $NFA 尚未发行，上线后钱包持有 5,000,000 $NFA 可保持零平台费、10,000,000 可免费开盘，合约只在官网和 App 公布；Solana、BNB Chain、Arbitrum 市场写 Coming soon。/app HTTP 200，/markets HTTP 404。静态页与 main.js 未见回链 @nofeeapp。近帖（14:12 CST，https://x.com/nofeeapp/status/2126197541343572437）称 Trading already live、$NFA coming very soon。无 CA。产品未实测。不是免费 mint。DeepSeek HTTP 401，本卡评分与文案为 dsFallback。",
+      "blurb": "昨日建号 5 粉，自称 Robinhood 上零平台费交易 Pons/Uniswap，官网已开；$NFA 未发行、无 CA，产品未实测。",
+      "highlights": [
+        "昨日建号，5 粉 / 3 帖，官网 https://nofeeapp.xyz/ HTTP 200",
+        "官网与官帖称已在 Robinhood 主网交易 Pons 曲线和 Uniswap V3，平台费 $0（场内费和 gas 仍收）",
+        "$NFA 尚未发行，合约将在上线时于官网和 App 公布"
+      ],
+      "drawbacks": [
+        "产品未实测，官网静态页未见回链官推",
+        "无 CA，$NFA 发射时间未公布",
+        "/markets 返回 HTTP 404",
+        "DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 94,
+        "actionable": 70,
+        "novelty": 80,
+        "risk": 86,
+        "overall": 69
+      },
+      "earlyScore": 94,
+      "overall": 69,
+      "score": 69,
+      "riskScore": 86,
+      "tags": [
+        "discord-alpha",
+        "Robinhood",
+        "NFA",
+        "swap",
+        "Pons",
+        "有官推",
+        "有官网",
+        "CA未公布",
+        "R2280"
+      ],
+      "links": {
+        "x": "https://x.com/nofeeapp",
+        "twitter": "https://x.com/nofeeapp",
+        "website": "https://nofeeapp.xyz/",
+        "site": "https://nofeeapp.xyz/",
+        "web": "https://nofeeapp.xyz/",
+        "officialPost": "https://x.com/nofeeapp/status/2126197541343572437"
+      },
+      "caUnverified": true,
+      "round": 2280,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 15:17 CST",
+      "addedAt": "2026-11-27 15:17 CST",
+      "lastChecked": "2026-11-27 15:17 CST",
+      "whatsNew": "【R2280】Discord alpha 补漏新收录。昨日建号 5 粉，自称 Robinhood 上零平台费交易 Pons/Uniswap，官网已开；$NFA 未发行、无 CA，产品未实测。 DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 invalid api key，本轮 dsFallback 收录",
+      "siteXMutual": false,
+      "siteXMutualNote": "X 资料栏指向 http://nofeeapp.xyz/；官网 https://nofeeapp.xyz/ HTTP 200，静态页与 main.js 未见 twitter:site 或回链 @nofeeapp"
+    },
     {
       "id": "elytrenches",
       "name": "ElyTrenches",
@@ -378405,7 +378820,7 @@
     {
       "focus": false,
       "lzVerified": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "le2h": false,
       "freeLIVE": false,
       "freeMintLIVE": false,
@@ -378477,7 +378892,7 @@
     {
       "focus": false,
       "lzVerified": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "le2h": false,
       "freeLIVE": false,
       "freeMintLIVE": false,
@@ -378549,7 +378964,7 @@
     {
       "focus": false,
       "lzVerified": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "le2h": false,
       "freeLIVE": false,
       "freeMintLIVE": false,
@@ -378623,7 +379038,7 @@
     {
       "focus": false,
       "lzVerified": false,
-      "newThisRound": true,
+      "newThisRound": false,
       "le2h": false,
       "freeLIVE": false,
       "freeMintLIVE": false,
@@ -378695,25 +379110,25 @@
     }
   ],
   "newThisRound": [
-    "snowballz",
-    "usemined",
-    "nerbyprotocol",
-    "nomercyio"
+    "nofeeapp",
+    "offrouter",
+    "sourcebound",
+    "outrider"
   ],
-  "alertMessage": "【早期打新雷达 R2279】新收录 4 项。SNOWBALLz（@snowballz_bsc / https://snowballz.fun/）今日建号 1 粉，自称 BSC 上 Flap 驱动的 Ponzi Pad，官帖称雪球z 已上线，官网仍写 ACTIVATION PENDING，未见回链官推，不是免费 mint。Mined（@UseMined / https://usemined.fun/）今日建号 5 粉，官帖自称 Solana 发射台已 LIVE：为 X 账号开矿、出块打到 X Money，走 pump.fun，官网未见回链官推，不是免费 mint。Nerby Protocol（@nerbyprotocol / https://www.nerbyprotocol.xyz/）官帖自称 $NERBY 已在 Elysium 上线，CA 未深核，官网与官推互证，生态页未核到故不进该栏，不是免费 mint。No Mercy Zoo（@nomercyio / https://nomercysociety.xyz/）官帖称 666 份已 LIVE，仅持有 Member Pass 或 Ritual 肖像可铸，官网互证，不是面向公众的免费 mint。另：库内 VaultDogs（@Vault_dogs）持有人免费预售首次进入 ≤2h，仍未开铸，窗口仅 17:00–17:03 CST（约 1.8h 后，仅 3 分钟），随后公售。面板：https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R2280新收4（台子/Meme 4）：No Fee App @nofeeapp，Robinhood Chain，站点 https://nofeeapp.xyz/，自称已上线零平台费交易 Pons/Uniswap（场内费和 gas 仍收），$NFA 尚未发行、无 CA，产品未实测，focus 否；OffRouter @OffRouter，Robinhood Chain，站点 https://offrouter.org/，自称隐私推理/支付/兑换层，自称 CA 0x47b537f7c2c2183967fe5ba883291b8ada490db6 本轮 Robinhood RPC 未核通（caUnverified），DexScreener 市值约 $236k，产品未实测，focus 否；Sourcebound @sourceboundHQ，Solana，站点 https://sourcebound-ten.vercel.app/，自称新币核查台，官网写 2026-12-03 pump.fun 公平发射、无预售、无 CA，产品未实测，focus 否；Outrider @outrider_fi，Robinhood Chain，站点 https://outrider.business/，自称 Uniswap v4 区间 callout（不是被禁的 outrive），官帖称 $OUTR 于 2026-11-27 15:00 UTC（23:00 新加坡时间）发射、CA 上线时公布，产品未实测，focus 否。DeepSeek HTTP 401，本地兜底，未改用高成本模型。面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "snowballz",
     "usemined",
     "nerbyprotocol",
     "nomercyio"
   ],
-  "updatedAt": "2026-11-27 15:10:26 CST",
-  "updated": "2026-11-27 15:10:26 CST",
+  "updatedAt": "2026-11-27 15:17 CST",
+  "updated": "2026-11-27 15:17 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-27 15:10:26 CST",
+  "lastScout": "2026-11-27 15:17 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -378755,7 +379170,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 5043,
+  "candidateCount": 5047,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -383871,5 +384286,11 @@
     "usemined",
     "nerbyprotocol",
     "nomercyio"
+  ],
+  "round2280Added": [
+    "nofeeapp",
+    "offrouter",
+    "sourcebound",
+    "outrider"
   ]
 }

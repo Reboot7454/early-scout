@@ -1,0 +1,250 @@
+{
+  "round": 2280,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-27 15:17 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R2280新收4（台子/Meme 4）：No Fee App @nofeeapp，Robinhood Chain，站点 https://nofeeapp.xyz/，自称已上线零平台费交易 Pons/Uniswap（场内费和 gas 仍收），$NFA 尚未发行、无 CA，产品未实测，focus 否；OffRouter @OffRouter，Robinhood Chain，站点 https://offrouter.org/，自称隐私推理/支付/兑换层，自称 CA 0x47b537f7c2c2183967fe5ba883291b8ada490db6 本轮 Robinhood RPC 未核通（caUnverified），DexScreener 市值约 $236k，产品未实测，focus 否；Sourcebound @sourceboundHQ，Solana，站点 https://sourcebound-ten.vercel.app/，自称新币核查台，官网写 2026-12-03 pump.fun 公平发射、无预售、无 CA，产品未实测，focus 否；Outrider @outrider_fi，Robinhood Chain，站点 https://outrider.business/，自称 Uniswap v4 区间 callout（不是被禁的 outrive），官帖称 $OUTR 于 2026-11-27 15:00 UTC（23:00 新加坡时间）发射、CA 上线时公布，产品未实测，focus 否。DeepSeek HTTP 401，本地兜底，未改用高成本模型。面板 https://reboot7454.github.io/early-scout/",
+  "alert": "DC补漏R2280新收4（台子/Meme 4）：No Fee App @nofeeapp，Robinhood Chain，站点 https://nofeeapp.xyz/，自称已上线零平台费交易 Pons/Uniswap（场内费和 gas 仍收），$NFA 尚未发行、无 CA，产品未实测，focus 否；OffRouter @OffRouter，Robinhood Chain，站点 https://offrouter.org/，自称隐私推理/支付/兑换层，自称 CA 0x47b537f7c2c2183967fe5ba883291b8ada490db6 本轮 Robinhood RPC 未核通（caUnverified），DexScreener 市值约 $236k，产品未实测，focus 否；Sourcebound @sourceboundHQ，Solana，站点 https://sourcebound-ten.vercel.app/，自称新币核查台，官网写 2026-12-03 pump.fun 公平发射、无预售、无 CA，产品未实测，focus 否；Outrider @outrider_fi，Robinhood Chain，站点 https://outrider.business/，自称 Uniswap v4 区间 callout（不是被禁的 outrive），官帖称 $OUTR 于 2026-11-27 15:00 UTC（23:00 新加坡时间）发射、CA 上线时公布，产品未实测，focus 否。DeepSeek HTTP 401，本地兜底，未改用高成本模型。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "nofeeapp",
+    "offrouter",
+    "sourcebound",
+    "outrider"
+  ],
+  "newCount": 4,
+  "newIds": [
+    "nofeeapp",
+    "offrouter",
+    "sourcebound",
+    "outrider"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 30,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [
+    "snowballz",
+    "usemined",
+    "nerbyprotocol",
+    "nomercyio"
+  ],
+  "candidateFlagsCleared": 4,
+  "topNewThisRoundCleared": [
+    "snowballz",
+    "usemined",
+    "nerbyprotocol",
+    "nomercyio"
+  ],
+  "discordPeekDeferred": false,
+  "dsFallback": true,
+  "dsUsage": "deepseek-flash HTTP 401 invalid api key (request_id 108be5b8-2e17-4a9f-9450-294761bd1311); local fallback admits=4; no high-cost model",
+  "coverage": "discord-alpha incremental peek (alpha-3, alpha-1-backup, smart-accounts-tracker, alpha-1); cardsAfterCutoff=30; all 4 channels passed incremental cutoff, none capped this window; leftover older backlog not filled",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "discordPeekDeferred": false,
+    "loginOk": true,
+    "loginWall": false,
+    "channelsPeeked": true,
+    "spideyPosting": true,
+    "gapIncomplete": true,
+    "lastSeen": "2026-11-27 15:02",
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-27 15:02",
+      "alpha-1-backup": "2026-11-27 14:39",
+      "smart-accounts-tracker": "2026-11-27 14:37",
+      "alpha-1": "2026-11-27 14:49"
+    },
+    "lastSeenUnchanged": false,
+    "lastChecked": "2026-11-27 15:17 CST",
+    "newestCardTime": "2026-11-27 15:02",
+    "cardsAfterCutoff": 30,
+    "cardsRead": 30,
+    "note": "R2280：Discord alpha 补收 nofeeapp,offrouter,sourcebound,outrider；清 snowballz,usemined,nerbyprotocol,nomercyio；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-27 15:02', 'alpha-1-backup': '2026-11-27 14:39', 'smart-accounts-tracker': '2026-11-27 14:37', 'alpha-1': '2026-11-27 14:49'}；cards=30 incremental，未补扫积压；lastChecked→2026-11-27 15:17 CST；dsFallback=true；loginOk=true；spideyPosting=true",
+    "lastRound": 2280,
+    "channels": [
+      {
+        "name": "#alpha-3-new-accounts",
+        "url": "https://discord.com/channels/1502958818865188956/1537897411668746302",
+        "cutoff": "2026-11-23 22:55 CST",
+        "newestSeenCST": "2026-11-27 15:02",
+        "oldestReadCST": "2026-11-27 05:20",
+        "passedCutoff": false,
+        "capped": true,
+        "cardsRead": 250,
+        "bot": "Captain Hook",
+        "notes": "R2280 incremental peek (25 cards after 14:12) did not fill leftover backlog. HARDCAP 250 newest-first from R2277 catch-up. Backlog gap remains 2026-11-23 22:55 → 2026-11-27 05:20.",
+        "thisPassCards": 25
+      },
+      {
+        "name": "#alpha-1-backup",
+        "url": "https://discord.com/channels/1502958818865188956/1549303534263214160",
+        "cutoff": "2026-11-23 22:29 CST",
+        "newestSeenCST": "2026-11-27 14:39",
+        "oldestReadCST": "2026-11-23 10:29",
+        "passedCutoff": true,
+        "capped": false,
+        "cardsRead": 166,
+        "bot": "Spidey",
+        "notes": "Fully caught up past cutoff (R2277). This incremental peek added 1 card after 14:09. Spidey posting.",
+        "thisPassCards": 1
+      },
+      {
+        "name": "#smart-accounts-tracker",
+        "url": "https://discord.com/channels/1502958818865188956/1527900129300840551",
+        "cutoff": "2026-11-23 22:56 CST",
+        "newestSeenCST": "2026-11-27 14:37",
+        "oldestReadCST": "2026-11-25 00:25",
+        "passedCutoff": false,
+        "capped": true,
+        "cardsRead": 250,
+        "bot": "X Follow Monitor",
+        "notes": "R2280 incremental peek (2 cards after 14:07) did not fill leftover backlog. HARDCAP 250 newest-first from R2277 catch-up. Backlog gap remains 2026-11-23 22:56 → 2026-11-25 00:25.",
+        "thisPassCards": 2
+      },
+      {
+        "name": "#alpha-1",
+        "url": "https://discord.com/channels/1502958818865188956/1527862926885785710",
+        "cutoff": "2026-11-23 22:19 CST",
+        "newestSeenCST": "2026-11-27 14:49",
+        "oldestReadCST": "2026-11-25 20:50",
+        "passedCutoff": false,
+        "capped": true,
+        "cardsRead": 250,
+        "bot": "Spidey / Twitter Follow Monitor",
+        "notes": "Spidey posting. R2280 incremental peek (2 cards after 13:42) did not fill leftover backlog. HARDCAP 250 from R2277 catch-up. Backlog gap remains 2026-11-23 22:19 → 2026-11-25 20:50.",
+        "thisPassCards": 2
+      }
+    ],
+    "backlogGaps": [
+      {
+        "channel": "alpha-3-new-accounts",
+        "from": "2026-11-23 22:55",
+        "to": "2026-11-27 05:20",
+        "reason": "leftover from R2277 HARDCAP 250; R2280 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+      },
+      {
+        "channel": "smart-accounts-tracker",
+        "from": "2026-11-23 22:56",
+        "to": "2026-11-25 00:25",
+        "reason": "leftover from R2277 HARDCAP 250; R2280 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+      },
+      {
+        "channel": "alpha-1",
+        "from": "2026-11-23 22:19",
+        "to": "2026-11-25 20:50",
+        "reason": "leftover from R2277 HARDCAP 250; R2280 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+      }
+    ],
+    "scannedAtCST": "2026-11-27 15:06",
+    "dsFallback": true,
+    "dsUsage": "deepseek-flash HTTP 401 invalid api key (request_id 108be5b8-2e17-4a9f-9450-294761bd1311); local fallback admits=4; no high-cost model",
+    "incremental": true,
+    "didNotFillBacklog": true,
+    "priorUnfilledRangesOutOfScope": [
+      "alpha-3 2026-11-15 03:22→2026-11-20 02:20",
+      "backup 2026-11-15 02:04→2026-11-15 14:04",
+      "smart 2026-11-15 03:26→2026-11-18 12:38",
+      "alpha-1 2026-11-15 02:59→2026-11-18 05:37"
+    ],
+    "noteR2278": "R2278 为 X 雷达轮。同一时段 R2277 已完成 Discord alpha 补漏（loginOk=true，四频道 Peek，新收 26 项已通知），本轮未再打开浏览器。R2277 26 张新卡当时未挂任何 Watch，本轮已补进 userFollowWatch 及对应栏 Watch，不当作新收录重推。积压缺口仍在：alpha-3 11-23 22:55→11-27 05:20；smart 11-23 22:56→11-25 00:25；alpha-1 11-23 22:19→11-25 20:50。下一轮小时 DC 补扫继续翻，不必立刻再弹登录表。"
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R2280：Discord alpha 补收 nofeeapp,offrouter,sourcebound,outrider；清 snowballz,usemined,nerbyprotocol,nomercyio；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-27 15:02', 'alpha-1-backup': '2026-11-27 14:39', 'smart-accounts-tracker': '2026-11-27 14:37', 'alpha-1': '2026-11-27 14:49'}；cards=30 incremental，未补扫积压；lastChecked→2026-11-27 15:17 CST；dsFallback=true；loginOk=true；spideyPosting=true",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r2279.json",
+  "priorRoundNote": "R2279 meta NTR ['snowballz', 'usemined', 'nerbyprotocol', 'nomercyio']",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-27 15:02",
+    "alpha-1-backup": "2026-11-27 14:39",
+    "smart-accounts-tracker": "2026-11-27 14:37",
+    "alpha-1": "2026-11-27 14:49"
+  },
+  "cardsRead": 30,
+  "loginOk": true,
+  "spideyPosting": true,
+  "gapIncomplete": true,
+  "backlogGaps": [
+    {
+      "channel": "alpha-3-new-accounts",
+      "from": "2026-11-23 22:55",
+      "to": "2026-11-27 05:20",
+      "reason": "leftover from R2277 HARDCAP 250; R2280 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+    },
+    {
+      "channel": "smart-accounts-tracker",
+      "from": "2026-11-23 22:56",
+      "to": "2026-11-25 00:25",
+      "reason": "leftover from R2277 HARDCAP 250; R2280 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+    },
+    {
+      "channel": "alpha-1",
+      "from": "2026-11-23 22:19",
+      "to": "2026-11-25 20:50",
+      "reason": "leftover from R2277 HARDCAP 250; R2280 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+    }
+  ],
+  "admissions": [
+    {
+      "id": "nofeeapp",
+      "handle": "@nofeeapp",
+      "category": "台子/Meme",
+      "name": "No Fee App",
+      "chain": "Robinhood",
+      "website": "https://nofeeapp.xyz/",
+      "focus": false,
+      "caUnverified": true,
+      "dsFallback": true
+    },
+    {
+      "id": "offrouter",
+      "handle": "@OffRouter",
+      "category": "台子/Meme",
+      "name": "OffRouter",
+      "chain": "Robinhood",
+      "website": "https://offrouter.org/",
+      "focus": false,
+      "caUnverified": true,
+      "dsFallback": true
+    },
+    {
+      "id": "sourcebound",
+      "handle": "@sourceboundHQ",
+      "category": "台子/Meme",
+      "name": "Sourcebound",
+      "chain": "Solana",
+      "website": "https://sourcebound-ten.vercel.app/",
+      "focus": false,
+      "caUnverified": true,
+      "dsFallback": true
+    },
+    {
+      "id": "outrider",
+      "handle": "@outrider_fi",
+      "category": "台子/Meme",
+      "name": "Outrider",
+      "chain": "Robinhood",
+      "website": "https://outrider.business/",
+      "focus": false,
+      "caUnverified": true,
+      "dsFallback": true
+    }
+  ],
+  "rejectedLikelyEnrich": [
+    {
+      "handle": "@Woopy_Dog",
+      "reason": "Solana RPC 核到 CA 2va3NUJtEcPemDYg2N1RgA79rPKGTGGJKo3gTY5zpump（decimals=6，供给约 9.989 亿）。DexScreener pumpswap 市值约 $193k、流动性约 $44.8k，但交易对创建于 2025-05-18 16:09 CST，早于 11-25 新建官号约 18 个月，已毕业；近 6h 成交仅约 $229。属中后期/旧 meme 新号，螺旋桨小游戏不足以按极早期收录。"
+    }
+  ],
+  "rejectedCount": 20,
+  "rejectedNote": "24 unique new handles after dropping @pexelexchange fol=21811; admitted 4; rejected 20 (19 prefilter clear-rejects + @Woopy_Dog mid/old meme). @raskl07 promo alt of @coinnowcash not admitted; @coinnowcash did not appear as project handle.",
+  "roundBump": {
+    "expectedAtStart": 2279,
+    "reason": "After local work started, origin/main advanced a3e77d6 R2279 scout (SNOWBALLz/Mined/Nerby/No Mercy Zoo + VaultDogs <=2h). This DC incremental pass uses meta.round+1=2280. Did not overwrite R2279.",
+    "remoteTipBeforeApply": "a3e77d678a523fbc5f1e690be58f9f411314d751"
+  }
+}
