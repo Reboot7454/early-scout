@@ -1,0 +1,35 @@
+# RESULT R2266 — 2026-11-27 09:10:31 CST
+
+- **round**: 2266
+- **mode**: ample（R2264 已完成 08:00 CST 后首轮全量补扫 lastFullAfterReset=2264，本轮为之后正常节流）
+- **notify**: true
+- **lastScout**: 2026-11-27 09:10:31 CST
+- **xReads**: 39（PROBE 1 + UF 4 + MUST 2 + KW_CORE 6 + KW_THIN30 6 + KW_THIN24 5 + MEN 4 + THIN_WATCH 10 + SILENT_MEN 1）
+- **remainingBefore**: 917
+- **remainingAfter / remaining**: 878 / 1000（重置窗口约 2026-11-28 08:00 CST）
+- **softCap / minSpend / silentCap**: 28 / 20 / 2（略超 softCap，因额度充足且须跑全十栏 + 瘦栏 24h 补搜 + 薄 Watch，未砍栏）
+- **dsFallback**: true（DeepSeek HTTP 401 invalid api key；判断/文案/打分本地兜底，未改用高成本模型批量打分）
+- **userFollow**: 已刷。优先片 8 号（UF_PRI 0 新帖）+ 分片 2422 @Agx_bsc 起 50 个（UF1 0、UF2 7、UF3 0）。wrap=false。**下一轮起点 2472 @Elyshieldxyz**（共 2485，含本轮新挂 1 号）。
+- **十栏关键词**: 都跑到。核心 30m：打新 / 挖矿 / 台子/Meme / GO盘 / Elysium + 合并 BN Agent（AIDROP / bscaidrop / PulseLaunchpad / $PULSE / Local Bottom / pipfun / computeroll 等）。瘦栏 30m：LayerZero 0、Tape/电路 16、GIWA 1、DogeEVM 1、BTC 0、Starknet 4。LayerZero / GIWA / DogeEVM / BTC / Starknet 30m 命中<5，同轮补 24h 各 1 次（均 25 条）；Tape 30m=16 未改 24h。
+- **mentions 各链**: 本轮按 R2265 交接轮换 4 组：Elysium+kinetiq（8）/ LayerZero（12）/ pads+squeek+STARX（0）/ BN+STARX（0），窗口 45m。薄 Watch 45m 官号 from: 已扫（TW_TAPE_2=1、TW_GIWA_1=2、TW_BTC_1=1，其余近 0）。**下一轮：Tape / GIWA / BTC / Starknet+DogeEVM**。
+- **静号**: silentAccounts.ran=mention-only（官方轮换 打新）。connectors/x 无 search_users。SILENT_MEN_打新 24h 25 命中，均为已在库项目的第三方报名/转述（nullkin、LawoftheAbyss、FluidGenesis、RGB_Stone/UnseenOrdo 等），无新官号送审。**silentNext=挖矿**。
+- **MUST / 窗卡**:
+  - @rockzerodotlive 08:47:27 CST 官帖：3,333 ROCK FREE MINT APPLY NOW（https://x.com/rockzerodotlive/status/2126115652457169109）。官网 https://rockzero.live 仍是白名单申请（Free, no transaction），铸造日期与价格将在主网前公布。不是新的免费开铸 LIVE；R2233 已提醒白名单已开，不重推。
+  - @lumixpad 本窗多则倒计时帖（约 15 hours left，$LUMIX 仍未发、0 coins）。窗口仍约至 2026-11-28 00:33 CST，非 ≤2h；R2265 已提醒，不重推。
+  - @FrostHoodR 再宣 December 25 FREE MINT / Drop wallets，开铸仍是 12-25，不是新开窗；R2240 已提醒，不重推。
+  - @RuninAI_com 本窗多为 $RMINE 日常 20:00 CST 挖矿窗回复，无新的免费 mint 开窗，不重推。
+  - @OUTLAWSxNFT 仅表情回复；@Arkinon 仅短回复。QQAI / 2hourfun / shit_capital / Lamoryant / SyndicateRHC / BotInTheHood / StrateFai 本窗口无新官帖。
+  - Lamoryant OS mint 仍 2026-11-27 19:00 CST（约 10h），非 ≤2h，不提前通知。Syndicate GTD 免费仍 2026-11-28 00:00 CST，亦未到 ≤2h。
+- **新收录（1，focus=false，已核官推+官网互证，入库同时进 Watch）**：
+  1. **Lode**（@loderock_ / https://lode-rock.vercel.app）：2026-11-06 15:43:22 CST 建号，本轮 0 粉 / 9 帖。官网 HTTP 200，页内链到 @loderock_（互证）。官帖 2026-11-27 08:59:01 CST（https://x.com/loderock_/status/2126118564277141982）自称 First mint FREE、已铸 249/5555。页文：持有 Binance Agent ID（.ai）则首枚免费，之后 0.0006 BNB、每钱包最多 5，持有挖 $MINE。自称 CA 0xc442e8ba26B9E5088d1D70Dc8EDFCdE4d2E911B0，本轮未做链上核验。与库内 @lodeonelysium / @lodedotfun / @Motherlode_live / @X_icelode 不是同一项目。vercel 零粉新号，风险极高。已进 UF + miningWatch + agentMiningWatch + freeMintWatch + bnAgentWatch。**必须 notify**（自称免费 mint LIVE）。
+- **看见但未收**：
+  - @Pangomeme（5 粉，11-25 建号）自称 Elysium 吉祥物/周边，无官网无 mint，按以往非官方吉祥物不收。
+  - @ballastperps（14 粉，11-22 建号）自称 Hyperliquid 主网动态杠杆，仅把决策「锚定」在 @Enter_Elysium，未见 Elysium 部署/官方生态页核验，非免费 mint，不收。
+  - @elysnowball（61 粉）已有 $SNOWBALL CA 与回购叙述，本轮无新开窗，不另建卡。
+  - @TheronHale87 第三方称 #EmberPoW / Cinders 2500 免费 mint，无展开后的官方链接、未见独立官号，不收。
+  - @getbramble 为同名康复 App，不是 Starknet @Bramble_fi。
+  - @XofNProtocol 03:42–03:49 CST「已 LIVE」官帖已在 R2256/R2264 入库与续记，本轮 24h 关键词再次命中，不重收、不重推。
+  - LawoftheAbyss / FluidGenesis / nullkin / RGB_Stone / UnseenOrdo 等静号提及均为已在库。
+- **discordPeekDeferred**: true。loginOk=false。本轮**未打开浏览器、不重发登录表单**（登录墙与约 R2206 起相同）。lastSeen 未改，仍停在 2026-11-23 22:19–22:56 CST；11/23 后积压未清。须父代理仅在盒子已有 Discord 会话时同一轮补 Peek；若无新登录会话，勿再弹登录表。补扫若出现免费 mint/登记再通知。
+- **lastFullAfterReset**: 2264。本轮为之后正常 ample 轮。
+- **面板**: https://reboot7454.github.io/early-scout/
