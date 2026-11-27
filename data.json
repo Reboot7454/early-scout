@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-28 05:09 CST",
+    "updated": "2026-11-28 06:04 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-28 05:09 CST",
+    "lastScout": "2026-11-28 06:04 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -934,7 +934,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2304,
+    "round": 2305,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -1011,7 +1011,7 @@
       "programmablehq"
     ],
     "round61Added": [],
-    "candidateCount": 5140,
+    "candidateCount": 5142,
     "round62Added": [
       "the-vault-rh"
     ],
@@ -2480,10 +2480,8 @@
       "hoodtrons"
     ],
     "newThisRound": [
-      "mr-weaselmonkey",
-      "gimbaltrade",
-      "useskipline",
-      "flatfund"
+      "losw-rh",
+      "enternexor"
     ],
     "round125Added": [
       "earthlings-vittoria",
@@ -5421,49 +5419,73 @@
       "channelsPeeked": true,
       "spideyPosting": true,
       "gapIncomplete": false,
-      "lastSeen": "2026-11-28 05:00",
+      "lastSeen": "2026-11-28 05:54",
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-28 05:00",
+        "alpha-3-new-accounts": "2026-11-28 05:54",
         "alpha-1-backup": "2026-11-28 02:40",
-        "smart-accounts-tracker": "2026-11-28 04:27",
-        "alpha-1": "2026-11-28 04:06"
+        "smart-accounts-tracker": "2026-11-28 05:44",
+        "alpha-1": "2026-11-28 05:01"
       },
       "lastSeenUnchanged": false,
-      "lastChecked": "2026-11-28 05:09 CST",
-      "newestCardTime": "2026-11-28 05:00",
-      "cardsAfterCutoff": 34,
-      "cardsRead": 96,
-      "note": "R2304：Discord alpha 补收 mr-weaselmonkey,gimbaltrade,useskipline,flatfund；清 quackzillacto,obolmarkets,computegridd,neverflippd；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-28 05:00', 'alpha-1-backup': '2026-11-28 02:40', 'smart-accounts-tracker': '2026-11-28 04:27', 'alpha-1': '2026-11-28 04:06'}；cards=34 incremental，未补扫积压；lastChecked→2026-11-28 05:09 CST；dsFallback=true；loginOk=true；spideyPosting=true",
-      "lastRound": 2304,
-      "channels": [
-        "alpha-3-new-accounts",
-        "alpha-1-backup",
-        "smart-accounts-tracker",
-        "alpha-1"
-      ],
+      "lastChecked": "2026-11-28 06:04 CST",
+      "newestCardTime": "2026-11-28 05:54",
+      "cardsAfterCutoff": 30,
+      "cardsRead": 128,
+      "note": "R2305：Discord alpha 补收 losw-rh,enternexor；清 flatfund,useskipline,gimbaltrade,mr-weaselmonkey；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-28 05:54', 'alpha-1-backup': '2026-11-28 02:40', 'smart-accounts-tracker': '2026-11-28 05:44', 'alpha-1': '2026-11-28 05:01'}；cards=30 incremental，未补扫积压；lastChecked→2026-11-28 06:04 CST；dsFallback=true；loginOk=true；spideyPosting=true",
+      "lastRound": 2305,
+      "channels": {
+        "alpha-3-new-accounts": {
+          "cutoff": "2026-11-28 05:00",
+          "newest": "2026-11-28 05:54",
+          "passed": true,
+          "capped": false,
+          "n": 25
+        },
+        "alpha-1-backup": {
+          "cutoff": "2026-11-28 02:40",
+          "newest": "2026-11-28 02:40",
+          "passed": true,
+          "capped": false,
+          "n": 0
+        },
+        "smart-accounts-tracker": {
+          "cutoff": "2026-11-28 04:27",
+          "newest": "2026-11-28 05:44",
+          "passed": true,
+          "capped": false,
+          "n": 4
+        },
+        "alpha-1": {
+          "cutoff": "2026-11-28 04:06",
+          "newest": "2026-11-28 05:01",
+          "passed": true,
+          "capped": false,
+          "n": 1
+        }
+      },
       "backlogGaps": [
         {
           "channel": "alpha-3-new-accounts",
           "from": "2026-11-23 22:55",
           "to": "2026-11-27 05:20",
-          "reason": "leftover from R2277 HARDCAP 250; R2304 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+          "reason": "leftover from R2277 HARDCAP 250; R2305 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
         },
         {
           "channel": "smart-accounts-tracker",
           "from": "2026-11-23 22:56",
           "to": "2026-11-25 00:25",
-          "reason": "leftover from R2277 HARDCAP 250; R2304 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+          "reason": "leftover from R2277 HARDCAP 250; R2305 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
         },
         {
           "channel": "alpha-1",
           "from": "2026-11-23 22:19",
           "to": "2026-11-25 20:50",
-          "reason": "leftover from R2277 HARDCAP 250; R2304 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+          "reason": "leftover from R2277 HARDCAP 250; R2305 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
         }
       ],
-      "scannedAtCST": "2026-11-28 05:01",
+      "scannedAtCST": "2026-11-28 05:57",
       "dsFallback": true,
-      "dsUsage": "DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 71d37e31-cfe1-4e34-a7bb-9368e98d59cb); local fallback; no high-cost model",
+      "dsUsage": "DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id d011b386-9afe-40cd-a215-c55e84f8e0f9); local fallback; no high-cost model",
       "incremental": true,
       "didNotFillBacklog": true,
       "priorUnfilledRangesOutOfScope": [
@@ -5607,7 +5629,7 @@
       "zec-nodes",
       "boys-in-hood"
     ],
-    "alertMessage": "DC补漏R2304新收4（打新 1 + 台子/Meme 3）：Bodgerz @Mr_WeaselMonkey，Ethereum，官帖称 50 个圣诞节修理机器人将于 12-01 19:00 GMT（2026-12-02 03:00 新加坡时间）在 OpenSea 开铸，0.003 ETH、每钱包最多 2 个；OpenSea 集合列出合约 0x144258b362d37bee6f8a6ee0866eca08ee86581c，本轮 Ethereum RPC 核到名称 Bodgerz Christmas Special 2026 / 符号 XMASBDG、总量 0、代码 45 字节，铸造未开始；11-18 建号/0粉/3推。Gimbal @gimbaltrade，站点 https://tradegimbal.xyz 可打开（www 亦可），自称 Hyperliquid 持仓的 AI 风控官、只降杠杆、每分钟把调用密封到 Elysium 后再执行；官网密封合约 0x3e6aa6641b32d669d7859bfea6736a7db7442ca0 本轮 Elysium RPC 核到代码 2040 字节，无 name/symbol（非代币合约）；官网写 Launching soon on Elysium，订单目前走 Hyperliquid API；官方生态页本轮仍 429 未核到，故未进 Elysium 栏；无代币 CA，产品未实测；今日 04:17 建号/2粉/1推，蓝标。Skipline @useskipline，站点 https://skipline.technology 可打开，自称 Elysium 上实时 MEV/发射狙击报告、钱包检查，以及 AI agent 每分钟竞价抢第一名（最高出价、按第二名价格成交）；官帖写 Coming to Elysium；无官方 CA，生态页本轮 429 未核到故未进 Elysium 栏；今日 02:15 建号/2粉/1推，蓝标。Flatfund @flatfund，自称把 Hyperliquid 资金费率锁到自选到期日，覆盖 HYPE/BTC/ETH/SOL/NVDA/S&P 500/Gold，在 Elysium 上以 USDC 结算；官帖写 Coming to Elysium；https://flatfund.xyz 本轮 HTTPS 200 但正文几乎为空（约 114 字节），无官方 CA，生态页 429 未核到故未进 Elysium 栏；今日 04:26 建号/3粉/1推，蓝标。全部 focus 否。DeepSeek HTTP 401，本地兜底，未改用高成本模型。面板 https://reboot7454.github.io/early-scout/",
+    "alertMessage": "DC补漏R2305新收2（打新 1 + 台子/Meme 1）：LoSW / Legends of Sherwood @losw_rh，Robinhood Chain，站点 https://losw.fun 可打开；官帖称先完成任务再上免费铸造 allowlist；官网文档写三阶段：完成任务后把钱包写入 roll、免费铸造日期将在 X 公布（Hunter's Token 总量目前上限 3,333，经批准的 SeaDrop，可能经由 OpenSea 呈现，公开价由铸造服务显示，另加网络 gas）、铸造后再开 Rift 狩猎（本地 PoW，持有 Hunter's Token 才能进）；本轮站点 OpenSea 入口仍禁用，未公布集合或合约，无官方 CA；allowlist 脚本可提交关注/点赞/转评/回复与钱包地址，任务与提交未实测；铸造未开放；昨日 18:34 建号/1粉/1推，蓝标，05:01–05:02 关注了 @opensea 与 @robinhoodapp。Nexor @enternexor，站点 https://nexorlive.online 可打开（仅为落地页），官帖称 Coming to Elysium，自称链上首个 perps 与预测市场一体平台；无官方 CA，产品未上线；官方生态页本轮已打开但未列 Nexor，故未进 Elysium 栏；今日 04:10 建号/11粉/1推，蓝标，05:10 关注了 @robinhoodapp。全部 focus 否。DeepSeek HTTP 401，本地兜底，未改用高成本模型。面板 https://reboot7454.github.io/early-scout/",
     "dsSummary": "DeepSeek 一次调用（thinking on）把推理过程写进可见正文、未吐出可直接使用的 alert，故 dsFallback=true。开盘/窗口判定与文案按链上 Mint/DEX、官网与既有 MUST 帖核验事实撰写。本轮无真新收录。notify=true 因 Oathbots 开盘翻转 + SpiritsRH 首次进入 ≤2h 免费 mint 窗。",
     "round270Added": [
       "avatarpad"
@@ -16464,7 +16486,9 @@
         "@Mr_WeaselMonkey",
         "@gimbaltrade",
         "@useskipline",
-        "@flatfund"
+        "@flatfund",
+        "@losw_rh",
+        "@enternexor"
       ],
       "candidateIds": [
         "elysatrade",
@@ -19087,11 +19111,13 @@
         "mr-weaselmonkey",
         "gimbaltrade",
         "useskipline",
-        "flatfund"
+        "flatfund",
+        "losw-rh",
+        "enternexor"
       ],
       "pending": [],
       "note": "R2090 soft-brush 1734→1784; kept 50, walk 50, skip_already=[], NF_skip=0, wrap=false; firstKept @securityum_xyz, lastKept @BagDropSocial。本片作者均已在库。库内 @Zero_Kitties 首次核到 WL application 已开。新收 @appcityhood @PaydPad。写盘前远程 R2089 Discord 六卡补挂 Watch：@coinductorai @playluckyguard @ideafun_io @smooveoffsol @jesterdotfun @blackwater_z26。",
-      "lastChecked": "2026-11-28 05:09 CST",
+      "lastChecked": "2026-11-28 06:04 CST",
       "createdAt": "2026-10-28 17:15 CST",
       "sourceRound": 775,
       "r775": "用户点名6项已入 candidates；pending=[]",
@@ -27609,7 +27635,7 @@
         "at": "2026-11-27 06:42:13 CST",
         "note": "R2261 soft-brush 2220-2243; kept 24, queried 24, wrap=false; first @brainex__ai, last @midorihood. UF 45 分钟窗 0 帖，无新打新。"
       },
-      "n": 2668,
+      "n": 2670,
       "r2284": "R2284 soft-brush priority 5 queried (mobster_meme/starx_xlayer known NF skip) + shard 687-736; kept 41, queried 41, NF_skip 9, wrap=false; priority 45m result_count=0; shard only in-lib @wafermap product posts.",
       "r2285": "R2285 soft-brush priority 5 queried (mobster_meme/starx_xlayer known NF skip) + shard 737-786; kept 47, queried 47, NF_skip 3 (oblaunchpadAll/babycz_ai/mint_WRIT), wrap=false; priority 45m result_count=0; shard only in-lib @OutRiggerRH product post.",
       "r2287": "R2287 soft-brush priority 5 queried (mobster_meme/starx_xlayer known NF skip, not re-read) + shard 787-836; UF_LEN=2581 未变；RuninAI_com 在分片内但从 UF from: 去掉，只在 MUST 读一次；49 个非 MUST 号重组成 3 批 16+16+17（pixcade_ai 并入第 3 批，不单独开批）；与薄栏重叠的 tapebitprotocol/Flizyapp 只在 UF 读，THIN4/THIN6 已去重。45m 窗内优先片与分片 result_count 均为 0。下轮起点 837 @rootlinks_nft。",
@@ -39789,10 +39815,8 @@
       "ascendrbot"
     ],
     "roundNAdded": [
-      "mr-weaselmonkey",
-      "gimbaltrade",
-      "useskipline",
-      "flatfund"
+      "losw-rh",
+      "enternexor"
     ],
     "round1438Added": [
       "elyfun"
@@ -57758,9 +57782,191 @@
           "userFollowWatch"
         ]
       }
+    ],
+    "round2305Added": [
+      "losw-rh",
+      "enternexor"
+    ],
+    "r2305WatchAdds": {
+      "new": true
+    },
+    "r2305WatchAddDetails": [
+      {
+        "id": "losw-rh",
+        "handle": "@losw_rh",
+        "watches": [
+          "userFollowWatch"
+        ]
+      },
+      {
+        "id": "enternexor",
+        "handle": "@enternexor",
+        "watches": [
+          "userFollowWatch"
+        ]
+      }
     ]
   },
   "candidates": [
+    {
+      "id": "enternexor",
+      "name": "Nexor",
+      "handle": "@enternexor",
+      "twitter": "@enternexor",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-28 04:10:22 CST",
+      "xUserId": "2126407779313135616",
+      "chain": "Elysium",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "自称 Elysium perps/预测，未进 Elysium 栏",
+      "ecosystem": "Elysium",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 11,
+      "xFollowers": 11,
+      "xTweets": 1,
+      "verified": true,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "Nexor（@enternexor / 站点 https://nexorlive.online）自称即将在 Elysium 上线的 perps 与预测市场一体平台：永续可做多做空，预测可自建市场、以 Yes/No 下注并看排行榜。官帖（https://x.com/enternexor/status/2126418404969992328）写 Nexor is coming to Elysium，并称是该链首个把二者做在同一体验里的平台，让跟随账号等候上线更新。官网 HTTPS 可打开（资料写 http://nexorlive.online，https 亦可），本轮仅为落地页（标题 Nexor，正文 The first perps and predictions on Elysium），无产品界面。无官方 CA，产品未上线，caUnverified=true。官方生态页 https://elysium.kinetiq.xyz/ecosystem 本轮已打开，未列 Nexor，故未进 Elysium 栏。@enternexor 于 2026-11-28 04:10:22 CST 建号，11 粉 / 1 帖，蓝标，xUserId 2126407779313135616。今日 05:10 CST 在 #alpha-3-new-accounts 被记为关注 @robinhoodapp。 DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id d011b386-9afe-40cd-a215-c55e84f8e0f9); local fallback; no high-cost model",
+      "blurb": "今日建号（11粉/1推，蓝标），站点 nexorlive.online 可打开但仅为落地页，自称 Coming to Elysium 的 perps+预测平台；无官方 CA，生态页未列故未进 Elysium 栏。",
+      "highlights": [
+        "官帖称 Coming to Elysium，自称链上首个把 perps 与预测市场做在同一体验里的平台",
+        "官网 https://nexorlive.online 可打开，本轮仅为落地页；官方生态页本轮已打开但未列 Nexor，故未进 Elysium 栏",
+        "X 于今日 04:10 CST 建号，11 粉 / 1 帖，蓝标；05:10 关注了 @robinhoodapp"
+      ],
+      "drawbacks": [
+        "无官方 CA，产品未上线，站点仅为落地页；官方生态页未列 Nexor，故未进 Elysium 栏",
+        "DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 97,
+        "actionable": 55,
+        "novelty": 80,
+        "risk": 82,
+        "overall": 67
+      },
+      "earlyScore": 97,
+      "overall": 67,
+      "score": 67,
+      "riskScore": 82,
+      "tags": [
+        "discord-alpha",
+        "台子/Meme",
+        "Elysium",
+        "有官推",
+        "有官网",
+        "R2305"
+      ],
+      "links": {
+        "website": "https://nexorlive.online",
+        "site": "https://nexorlive.online",
+        "x": "https://x.com/enternexor",
+        "twitter": "https://x.com/enternexor",
+        "officialPost": "https://x.com/enternexor/status/2126418404969992328"
+      },
+      "caUnverified": true,
+      "round": 2305,
+      "newThisRound": true,
+      "firstSeen": "2026-11-28 06:04 CST",
+      "addedAt": "2026-11-28 06:04 CST",
+      "lastChecked": "2026-11-28 06:04 CST",
+      "whatsNew": "【R2305】Discord alpha 补漏新收录。今日建号（11粉，蓝标），自称 Coming to Elysium 的 perps+预测平台；站点可打开但仅为落地页，无官方 CA，生态页未列故未进 Elysium 栏。DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id d011b386-9afe-40cd-a215-c55e84f8e0f9); local fallback; no high-cost model"
+    },
+    {
+      "id": "losw-rh",
+      "name": "LoSW",
+      "handle": "@losw_rh",
+      "twitter": "@losw_rh",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-27 18:34:10 CST",
+      "xUserId": "2126262927728521216",
+      "chain": "Robinhood Chain",
+      "category": "打新",
+      "zone": "打新",
+      "zoneHint": "Sherwood NFT 免费铸 + 后续 PoW 狩猎",
+      "ecosystem": "Robinhood Chain",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 1,
+      "xFollowers": 1,
+      "xTweets": 1,
+      "verified": true,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": true,
+      "selfClaimedFreeMint": true,
+      "summary": "LoSW / Legends of Sherwood（@losw_rh / 站点 https://losw.fun）自称 Robinhood Chain 上 3,333 个 NFT 钥匙（Hunter's Token）免费铸造，随后进入 Rift 狩猎。官帖（https://x.com/losw_rh/status/2126420684603560380）称先完成任务再上免费铸造 allowlist，并指向 losw.fun。官网 HTTPS 可打开；文档写三阶段：①完成任务后把将持有代币的钱包写入 roll；②免费铸造，日期将在 X 公布（Hunter's Token 总量目前上限 3,333，经批准的 SeaDrop，可能经由 OpenSea 呈现，公开价由铸造服务显示，另加网络 gas；任务本身不铸造）；③铸造后再开 Rift（本地 PoW，需持有至少 1 枚 Hunter's Token，95% Monster Trophy / 5% Rescued Princess，可挂酒馆分后续手续费或在 Alchemist's Court 兑 Blood Gold）。本轮站点 OpenSea 入口仍为禁用（aria-disabled），未公布集合或合约，前端合约环境变量为空，无官方 CA，caUnverified=true。allowlist.js 可提交关注/点赞/转评/回复与 0x 钱包，任务与提交未实测；铸造未开放，狩猎页写明 Start hunt 需等 Phase 1 完成。@losw_rh 于 2026-11-27 18:34:10 CST 建号，1 粉 / 1 帖，蓝标，xUserId 2126262927728521216。今日 05:01–05:02 CST 在 #alpha-3-new-accounts 被记为关注 @opensea 与 @robinhoodapp。 DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id d011b386-9afe-40cd-a215-c55e84f8e0f9); local fallback; no high-cost model",
+      "blurb": "昨日 18:34 建号（1粉/1推，蓝标），站点 losw.fun 可打开，Phase 1 任务+allowlist 已开；免费铸造 3,333 个 Hunter's Token，日期将在 X 公布，无官方 CA，铸造未开始。",
+      "highlights": [
+        "官网 https://losw.fun 可打开，文档写明完成任务写入 roll 后免费铸造 Hunter's Token（总量目前上限 3,333，SeaDrop，日期将在 X 公布），铸造后再开 Rift 本地 PoW 狩猎",
+        "官帖 https://x.com/losw_rh/status/2126420684603560380 指向站点并称先完成任务再上 allowlist；allowlist 脚本可提交关注/点赞/转评/回复与钱包",
+        "X 于昨日 18:34 CST 建号，1 粉 / 1 帖，蓝标；今日 05:01–05:02 关注了 @opensea 与 @robinhoodapp"
+      ],
+      "drawbacks": [
+        "无官方 CA，本轮 OpenSea 入口仍禁用、未公布集合；铸造日期未公布，allowlist 任务与提交未实测，狩猎需等铸造之后",
+        "DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 96,
+        "actionable": 85,
+        "novelty": 88,
+        "risk": 72,
+        "overall": 78
+      },
+      "earlyScore": 96,
+      "overall": 78,
+      "score": 78,
+      "riskScore": 72,
+      "tags": [
+        "discord-alpha",
+        "打新",
+        "Robinhood",
+        "NFT",
+        "有官推",
+        "有官网",
+        "R2305"
+      ],
+      "links": {
+        "website": "https://losw.fun",
+        "site": "https://losw.fun",
+        "docs": "https://losw.fun/docs/",
+        "mining": "https://losw.fun/mining/",
+        "x": "https://x.com/losw_rh",
+        "twitter": "https://x.com/losw_rh",
+        "officialPost": "https://x.com/losw_rh/status/2126420684603560380"
+      },
+      "caUnverified": true,
+      "round": 2305,
+      "newThisRound": true,
+      "firstSeen": "2026-11-28 06:04 CST",
+      "addedAt": "2026-11-28 06:04 CST",
+      "lastChecked": "2026-11-28 06:04 CST",
+      "whatsNew": "【R2305】Discord alpha 补漏新收录。昨日建号（1粉，蓝标），站点可打开，Phase 1 任务+allowlist 已开；免费铸造 3,333 个 Hunter's Token，日期将在 X 公布，无官方 CA。DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id d011b386-9afe-40cd-a215-c55e84f8e0f9); local fallback; no high-cost model",
+      "schedule": {
+        "status": "allowlist_open",
+        "timezone": "Asia/Shanghai",
+        "le2h": false,
+        "officialHandle": "losw_rh",
+        "officialPost": "https://x.com/losw_rh/status/2126420684603560380",
+        "officialPostAt": "2026-11-28 04:59:32 CST",
+        "chain": "Robinhood Chain",
+        "supply": 3333,
+        "label": "Phase 1 任务+allowlist 已开；免费铸造日期将在 X 公布，铸造未开始；Phase 2 Rift 狩猎在铸造后开放",
+        "mintStatus": "官网与官帖称免费铸造，日期将在 X 公布；本轮未公布合约或 OpenSea 集合，铸造尚未开始"
+      }
+    },
     {
       "id": "flatfund",
       "name": "Flatfund",
@@ -57823,7 +58029,7 @@
       },
       "caUnverified": true,
       "round": 2304,
-      "newThisRound": true,
+      "newThisRound": false,
       "firstSeen": "2026-11-28 05:09 CST",
       "addedAt": "2026-11-28 05:09 CST",
       "lastChecked": "2026-11-28 05:09 CST",
@@ -57895,7 +58101,7 @@
       },
       "caUnverified": true,
       "round": 2304,
-      "newThisRound": true,
+      "newThisRound": false,
       "firstSeen": "2026-11-28 05:09 CST",
       "addedAt": "2026-11-28 05:09 CST",
       "lastChecked": "2026-11-28 05:09 CST",
@@ -57969,7 +58175,7 @@
       },
       "caUnverified": true,
       "round": 2304,
-      "newThisRound": true,
+      "newThisRound": false,
       "firstSeen": "2026-11-28 05:09 CST",
       "addedAt": "2026-11-28 05:09 CST",
       "lastChecked": "2026-11-28 05:09 CST",
@@ -58057,7 +58263,7 @@
       },
       "caUnverified": false,
       "round": 2304,
-      "newThisRound": true,
+      "newThisRound": false,
       "firstSeen": "2026-11-28 05:09 CST",
       "addedAt": "2026-11-28 05:09 CST",
       "lastChecked": "2026-11-28 05:09 CST",
@@ -387988,24 +388194,22 @@
     }
   ],
   "newThisRound": [
-    "mr-weaselmonkey",
-    "gimbaltrade",
-    "useskipline",
-    "flatfund"
+    "losw-rh",
+    "enternexor"
   ],
-  "alertMessage": "DC补漏R2304新收4（打新 1 + 台子/Meme 3）：Bodgerz @Mr_WeaselMonkey，Ethereum，官帖称 50 个圣诞节修理机器人将于 12-01 19:00 GMT（2026-12-02 03:00 新加坡时间）在 OpenSea 开铸，0.003 ETH、每钱包最多 2 个；OpenSea 集合列出合约 0x144258b362d37bee6f8a6ee0866eca08ee86581c，本轮 Ethereum RPC 核到名称 Bodgerz Christmas Special 2026 / 符号 XMASBDG、总量 0、代码 45 字节，铸造未开始；11-18 建号/0粉/3推。Gimbal @gimbaltrade，站点 https://tradegimbal.xyz 可打开（www 亦可），自称 Hyperliquid 持仓的 AI 风控官、只降杠杆、每分钟把调用密封到 Elysium 后再执行；官网密封合约 0x3e6aa6641b32d669d7859bfea6736a7db7442ca0 本轮 Elysium RPC 核到代码 2040 字节，无 name/symbol（非代币合约）；官网写 Launching soon on Elysium，订单目前走 Hyperliquid API；官方生态页本轮仍 429 未核到，故未进 Elysium 栏；无代币 CA，产品未实测；今日 04:17 建号/2粉/1推，蓝标。Skipline @useskipline，站点 https://skipline.technology 可打开，自称 Elysium 上实时 MEV/发射狙击报告、钱包检查，以及 AI agent 每分钟竞价抢第一名（最高出价、按第二名价格成交）；官帖写 Coming to Elysium；无官方 CA，生态页本轮 429 未核到故未进 Elysium 栏；今日 02:15 建号/2粉/1推，蓝标。Flatfund @flatfund，自称把 Hyperliquid 资金费率锁到自选到期日，覆盖 HYPE/BTC/ETH/SOL/NVDA/S&P 500/Gold，在 Elysium 上以 USDC 结算；官帖写 Coming to Elysium；https://flatfund.xyz 本轮 HTTPS 200 但正文几乎为空（约 114 字节），无官方 CA，生态页 429 未核到故未进 Elysium 栏；今日 04:26 建号/3粉/1推，蓝标。全部 focus 否。DeepSeek HTTP 401，本地兜底，未改用高成本模型。面板 https://reboot7454.github.io/early-scout/",
+  "alertMessage": "DC补漏R2305新收2（打新 1 + 台子/Meme 1）：LoSW / Legends of Sherwood @losw_rh，Robinhood Chain，站点 https://losw.fun 可打开；官帖称先完成任务再上免费铸造 allowlist；官网文档写三阶段：完成任务后把钱包写入 roll、免费铸造日期将在 X 公布（Hunter's Token 总量目前上限 3,333，经批准的 SeaDrop，可能经由 OpenSea 呈现，公开价由铸造服务显示，另加网络 gas）、铸造后再开 Rift 狩猎（本地 PoW，持有 Hunter's Token 才能进）；本轮站点 OpenSea 入口仍禁用，未公布集合或合约，无官方 CA；allowlist 脚本可提交关注/点赞/转评/回复与钱包地址，任务与提交未实测；铸造未开放；昨日 18:34 建号/1粉/1推，蓝标，05:01–05:02 关注了 @opensea 与 @robinhoodapp。Nexor @enternexor，站点 https://nexorlive.online 可打开（仅为落地页），官帖称 Coming to Elysium，自称链上首个 perps 与预测市场一体平台；无官方 CA，产品未上线；官方生态页本轮已打开但未列 Nexor，故未进 Elysium 栏；今日 04:10 建号/11粉/1推，蓝标，05:10 关注了 @robinhoodapp。全部 focus 否。DeepSeek HTTP 401，本地兜底，未改用高成本模型。面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [
     "okblatch",
     "stockium-one",
     "halvic"
   ],
-  "updatedAt": "2026-11-28 05:09 CST",
-  "updated": "2026-11-28 05:09 CST",
+  "updatedAt": "2026-11-28 06:04 CST",
+  "updated": "2026-11-28 06:04 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-28 05:09 CST",
+  "lastScout": "2026-11-28 06:04 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -388047,7 +388251,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 5140,
+  "candidateCount": 5142,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -393317,5 +393521,9 @@
     "gimbaltrade",
     "useskipline",
     "flatfund"
+  ],
+  "round2305Added": [
+    "losw-rh",
+    "enternexor"
   ]
 }
