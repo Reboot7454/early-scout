@@ -1,0 +1,260 @@
+{
+  "round": 2286,
+  "mode": "discord-alpha-40",
+  "completedAt": "2026-11-27 17:20 CST",
+  "timezone": "Asia/Shanghai",
+  "notify": true,
+  "notifyReason": "new_admits",
+  "alertMessage": "DC补漏R2286新收4（台子/Meme 3 + 挖矿 1）：Pivotra @pivotratech，Robinhood Chain，站点 https://pivotra.tech/，自称 OpenAI 兼容的模型路由 API，$PIVOT CA 0x08f1ad493da6496f407830dc5d11461f26661077 已核到 Pivotra/PIVOT、10亿18位，DexScreener 暂无交易对；Alastor @Alastor_rbh，Robinhood Chain，站点 https://alastor.tech/，自称 HUNTER/JUDGE 核验 AI 断言，官称创世无代币；Astromine Miners @AstromineMiners，BNB Chain，站点 https://astromine-miners.pages.dev/，自称持有 Binance Agent ID 可免首铸并挖 $ASTRO，NFT/$ASTRO 合约已在 BSC 核到，勿与无关的 astromine.io 混淆；HALFKEY @Halfkeyxyz，Solana，站点 https://halfkey.xyz/，自称 SOL↔XMR 原子互换，CA 8YZN5zuvpzBMkQAPPm1m3GwMCWc5EcSKKu4RjNhfpump 已核（约9.50亿/6位），pumpswap 市值约$12.2k、流动性约$6.6k，交易对今日 16:53 CST 创建。全部 focus 否，产品未实测。DeepSeek HTTP 401，本地兜底，未改用高成本模型。面板 https://reboot7454.github.io/early-scout/",
+  "alert": "DC补漏R2286新收4（台子/Meme 3 + 挖矿 1）：Pivotra @pivotratech，Robinhood Chain，站点 https://pivotra.tech/，自称 OpenAI 兼容的模型路由 API，$PIVOT CA 0x08f1ad493da6496f407830dc5d11461f26661077 已核到 Pivotra/PIVOT、10亿18位，DexScreener 暂无交易对；Alastor @Alastor_rbh，Robinhood Chain，站点 https://alastor.tech/，自称 HUNTER/JUDGE 核验 AI 断言，官称创世无代币；Astromine Miners @AstromineMiners，BNB Chain，站点 https://astromine-miners.pages.dev/，自称持有 Binance Agent ID 可免首铸并挖 $ASTRO，NFT/$ASTRO 合约已在 BSC 核到，勿与无关的 astromine.io 混淆；HALFKEY @Halfkeyxyz，Solana，站点 https://halfkey.xyz/，自称 SOL↔XMR 原子互换，CA 8YZN5zuvpzBMkQAPPm1m3GwMCWc5EcSKKu4RjNhfpump 已核（约9.50亿/6位），pumpswap 市值约$12.2k、流动性约$6.6k，交易对今日 16:53 CST 创建。全部 focus 否，产品未实测。DeepSeek HTTP 401，本地兜底，未改用高成本模型。面板 https://reboot7454.github.io/early-scout/",
+  "newAdmits": [
+    "pivotra",
+    "alastor",
+    "astromine-miners",
+    "halfkey"
+  ],
+  "newCount": 4,
+  "newIds": [
+    "pivotra",
+    "alastor",
+    "astromine-miners",
+    "halfkey"
+  ],
+  "skipped": [],
+  "cardsAfterLastSeen": 38,
+  "clearedPrevNewThisRound": true,
+  "prevNewThisRoundCleared": [],
+  "candidateFlagsCleared": 0,
+  "topNewThisRoundCleared": [],
+  "discordPeekDeferred": false,
+  "dsFallback": true,
+  "dsUsage": "deepseek-flash HTTP 401 invalid api key (request_id f955cdc6-9024-42da-b12c-74677e156cd7); local fallback admits=4; no high-cost model",
+  "coverage": "discord-alpha incremental peek (alpha-3, alpha-1-backup, smart-accounts-tracker, alpha-1); cardsAfterCutoff=38; all 4 channels passed incremental cutoff, none capped this window; leftover older backlog not filled",
+  "discordAlphaPeek": {
+    "deferred": false,
+    "discordPeekDeferred": false,
+    "loginOk": true,
+    "loginWall": false,
+    "channelsPeeked": true,
+    "spideyPosting": true,
+    "gapIncomplete": true,
+    "lastSeen": "2026-11-27 17:03",
+    "lastSeenByChannel": {
+      "alpha-3-new-accounts": "2026-11-27 17:03",
+      "alpha-1-backup": "2026-11-27 16:39",
+      "smart-accounts-tracker": "2026-11-27 16:18",
+      "alpha-1": "2026-11-27 17:03"
+    },
+    "lastSeenUnchanged": false,
+    "lastChecked": "2026-11-27 17:20 CST",
+    "newestCardTime": "2026-11-27 17:03",
+    "cardsAfterCutoff": 38,
+    "cardsRead": 38,
+    "note": "R2286：Discord alpha 补收 pivotra,alastor,astromine-miners,halfkey；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-27 17:03', 'alpha-1-backup': '2026-11-27 16:39', 'smart-accounts-tracker': '2026-11-27 16:18', 'alpha-1': '2026-11-27 17:03'}；cards=38 incremental，未补扫积压；lastChecked→2026-11-27 17:20 CST；dsFallback=true；loginOk=true；spideyPosting=true",
+    "lastRound": 2286,
+    "channels": [
+      {
+        "name": "#alpha-3-new-accounts",
+        "url": "https://discord.com/channels/1502958818865188956/1537897411668746302",
+        "cutoff": "2026-11-23 22:55 CST",
+        "newestSeenCST": "2026-11-27 17:03",
+        "oldestReadCST": "2026-11-27 05:20",
+        "passedCutoff": false,
+        "capped": true,
+        "cardsRead": 250,
+        "bot": "Captain Hook",
+        "notes": "R2285 incremental peek (33 cards after 15:59) did not fill leftover backlog. HARDCAP 250 newest-first from R2277 catch-up. Backlog gap remains 2026-11-23 22:55 → 2026-11-27 05:20.",
+        "thisPassCards": 33
+      },
+      {
+        "name": "#alpha-1-backup",
+        "url": "https://discord.com/channels/1502958818865188956/1549303534263214160",
+        "cutoff": "2026-11-23 22:29 CST",
+        "newestSeenCST": "2026-11-27 16:39",
+        "oldestReadCST": "2026-11-23 10:29",
+        "passedCutoff": true,
+        "capped": false,
+        "cardsRead": 166,
+        "bot": "Spidey",
+        "notes": "Fully caught up past cutoff (R2277). This incremental peek added 1 card after 15:54. Spidey posting.",
+        "thisPassCards": 1
+      },
+      {
+        "name": "#smart-accounts-tracker",
+        "url": "https://discord.com/channels/1502958818865188956/1527900129300840551",
+        "cutoff": "2026-11-23 22:56 CST",
+        "newestSeenCST": "2026-11-27 16:18",
+        "oldestReadCST": "2026-11-25 00:25",
+        "passedCutoff": false,
+        "capped": true,
+        "cardsRead": 250,
+        "bot": "X Follow Monitor",
+        "notes": "R2285 incremental peek found 1 card after 14:37. Did not fill leftover backlog. HARDCAP 250 newest-first from R2277 catch-up. Backlog gap remains 2026-11-23 22:56 → 2026-11-25 00:25.",
+        "thisPassCards": 1
+      },
+      {
+        "name": "#alpha-1",
+        "url": "https://discord.com/channels/1502958818865188956/1527862926885785710",
+        "cutoff": "2026-11-23 22:19 CST",
+        "newestSeenCST": "2026-11-27 17:03",
+        "oldestReadCST": "2026-11-25 20:50",
+        "passedCutoff": false,
+        "capped": true,
+        "cardsRead": 250,
+        "bot": "Spidey / Twitter Follow Monitor",
+        "notes": "Spidey posting. R2285 incremental peek (3 cards after 15:55) did not fill leftover backlog. HARDCAP 250 from R2277 catch-up. Backlog gap remains 2026-11-23 22:19 → 2026-11-25 20:50.",
+        "thisPassCards": 3
+      }
+    ],
+    "backlogGaps": [
+      {
+        "channel": "alpha-3-new-accounts",
+        "from": "2026-11-23 22:55",
+        "to": "2026-11-27 05:20",
+        "reason": "leftover from R2277 HARDCAP 250; R2285 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+      },
+      {
+        "channel": "smart-accounts-tracker",
+        "from": "2026-11-23 22:56",
+        "to": "2026-11-25 00:25",
+        "reason": "leftover from R2277 HARDCAP 250; R2285 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+      },
+      {
+        "channel": "alpha-1",
+        "from": "2026-11-23 22:19",
+        "to": "2026-11-25 20:50",
+        "reason": "leftover from R2277 HARDCAP 250; R2285 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+      }
+    ],
+    "scannedAtCST": "2026-11-27 17:05",
+    "dsFallback": true,
+    "dsUsage": "deepseek-flash HTTP 401 invalid api key (request_id f955cdc6-9024-42da-b12c-74677e156cd7); local fallback admits=4; no high-cost model",
+    "incremental": true,
+    "didNotFillBacklog": true,
+    "priorUnfilledRangesOutOfScope": [
+      "alpha-3 2026-11-15 03:22→2026-11-20 02:20",
+      "backup 2026-11-15 02:04→2026-11-15 14:04",
+      "smart 2026-11-15 03:26→2026-11-18 12:38",
+      "alpha-1 2026-11-15 02:59→2026-11-18 05:37"
+    ],
+    "noteR2278": "R2278 为 X 雷达轮。同一时段 R2277 已完成 Discord alpha 补漏（loginOk=true，四频道 Peek，新收 26 项已通知），本轮未再打开浏览器。R2277 26 张新卡当时未挂任何 Watch，本轮已补进 userFollowWatch 及对应栏 Watch，不当作新收录重推。积压缺口仍在：alpha-3 11-23 22:55→11-27 05:20；smart 11-23 22:56→11-25 00:25；alpha-1 11-23 22:19→11-25 20:50。下一轮小时 DC 补扫继续翻，不必立刻再弹登录表。",
+    "noteR2283": "R2283 为 X 雷达轮。写盘前远程已被相邻 Discord 小时补漏占用 R2282（loginOk=true，四频道增量 Peek，新收 NODERA 已通知），本轮未再打开浏览器，不重推 NODERA。积压缺口仍在：alpha-3 11-23 22:55→11-27 05:20；smart 11-23 22:56→11-25 00:25；alpha-1 11-23 22:19→11-25 20:50。backup 已追上。下一轮小时 DC 补扫继续翻，不必立刻再弹登录表。"
+  },
+  "push": {
+    "attempted": false,
+    "ok": false
+  },
+  "panel": "https://reboot7454.github.io/early-scout/",
+  "summary": "R2286：Discord alpha 补收 pivotra,alastor,astromine-miners,halfkey；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-27 17:03', 'alpha-1-backup': '2026-11-27 16:39', 'smart-accounts-tracker': '2026-11-27 16:18', 'alpha-1': '2026-11-27 17:03'}；cards=38 incremental，未补扫积压；lastChecked→2026-11-27 17:20 CST；dsFallback=true；loginOk=true；spideyPosting=true",
+  "remoteVerified": false,
+  "cardsFile": "dc40_cards_r2285.json",
+  "priorRoundNote": "R2285 meta NTR []",
+  "lastSeenByChannel": {
+    "alpha-3-new-accounts": "2026-11-27 17:03",
+    "alpha-1-backup": "2026-11-27 16:39",
+    "smart-accounts-tracker": "2026-11-27 16:18",
+    "alpha-1": "2026-11-27 17:03"
+  },
+  "cardsRead": 38,
+  "loginOk": true,
+  "spideyPosting": true,
+  "gapIncomplete": true,
+  "backlogGaps": [
+    {
+      "channel": "alpha-3-new-accounts",
+      "from": "2026-11-23 22:55",
+      "to": "2026-11-27 05:20",
+      "reason": "leftover from R2277 HARDCAP 250; R2285 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+    },
+    {
+      "channel": "smart-accounts-tracker",
+      "from": "2026-11-23 22:56",
+      "to": "2026-11-25 00:25",
+      "reason": "leftover from R2277 HARDCAP 250; R2285 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+    },
+    {
+      "channel": "alpha-1",
+      "from": "2026-11-23 22:19",
+      "to": "2026-11-25 20:50",
+      "reason": "leftover from R2277 HARDCAP 250; R2285 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+    }
+  ],
+  "admissions": [
+    {
+      "id": "pivotra",
+      "handle": "@pivotratech",
+      "category": "台子/Meme",
+      "name": "Pivotra",
+      "chain": "Robinhood",
+      "website": "https://pivotra.tech/",
+      "focus": false,
+      "caUnverified": false,
+      "dsFallback": true
+    },
+    {
+      "id": "alastor",
+      "handle": "@Alastor_rbh",
+      "category": "台子/Meme",
+      "name": "Alastor",
+      "chain": "Robinhood",
+      "website": "https://alastor.tech/",
+      "focus": false,
+      "caUnverified": true,
+      "dsFallback": true
+    },
+    {
+      "id": "astromine-miners",
+      "handle": "@AstromineMiners",
+      "category": "挖矿",
+      "name": "Astromine Miners",
+      "chain": "BNB",
+      "website": "https://astromine-miners.pages.dev/",
+      "focus": false,
+      "caUnverified": false,
+      "dsFallback": true
+    },
+    {
+      "id": "halfkey",
+      "handle": "@Halfkeyxyz",
+      "category": "台子/Meme",
+      "name": "HALFKEY",
+      "chain": "Solana",
+      "website": "https://halfkey.xyz/",
+      "focus": false,
+      "caUnverified": false,
+      "dsFallback": true
+    }
+  ],
+  "rejectedLikelyEnrich": [
+    {
+      "handle": "@AsgardHashworks",
+      "reason": "2021-11-29 建号的挖矿资金量化软件小站（asgardhashworks.com，13粉），非极早期打新/发币/台子。"
+    },
+    {
+      "handle": "@maroo_io",
+      "reason": "2026-01-19 建号的韩国合规主权 L1（maroo.io），2935 粉 / 44 帖，已非极早期，按成熟基建拒收。"
+    },
+    {
+      "handle": "@Fusesocialapp",
+      "reason": "X 账号已被冻结（suspended）；站点 fusesocial.app 仅 Coming soon 社交，无法以有效官推收录。"
+    },
+    {
+      "handle": "@HTXLive_bot",
+      "reason": "火币交易机会播报机器人，不是极早期项目官号。"
+    },
+    {
+      "handle": "@gyjujiweb",
+      "reason": "今日建号、0 帖，简介只有截断的日文代币经济白纸条，无官网/CA，按空壳拒收。"
+    },
+    {
+      "handle": "@THEDEXDEVLOL",
+      "reason": "今日建号，简介仅 I PAY DEX，无官网/产品线索，按噪声拒收。"
+    },
+    {
+      "handle": "@SrLontroso",
+      "reason": "个人号（简介 Otters are dancing under the waves ETH，792粉/2帖），非项目官号。"
+    }
+  ],
+  "rejectedCount": 26,
+  "rejectedNote": "30 unique new handles, 0 already in panel; admitted 4 (@pivotratech as pivotra, @Alastor_rbh as alastor, @AstromineMiners as astromine-miners, @Halfkeyxyz as halfkey); rejected 26 including 2021 software shop @AsgardHashworks, mid-stage L1 @maroo_io, suspended @Fusesocialapp, signal bot @HTXLive_bot, empty @gyjujiweb/@THEDEXDEVLOL, and personal @SrLontroso. Other rejects were personal/empty bios."
+}
