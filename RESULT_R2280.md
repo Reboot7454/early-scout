@@ -18,4 +18,4 @@
 - 拒收（likely-enrich）：@Woopy_Dog — Solana RPC 核到 CA 2va3NUJtEcPemDYg2N1RgA79rPKGTGGJKo3gTY5zpump（6 位小数，供给约 9.989 亿）；DexScreener pumpswap 市值约 $193k，但交易对创建于 2025-05-18，早于 11-25 官号约 18 个月，已毕业，近 6h 成交很淡，按中后期/旧 meme 新号拒收。
 - 其余 19 个新 handle 按预过滤拒收（18+ 垃圾粉、个人/空壳、KOL @cubbieog、空壳 @originalfat22、CoinNow 宣传号 @raskl07）。未给 @coinnowcash 造卡。
 - 未改 focus，未把普通补漏卡送进重点条，未进 Elysium 栏。
-
+- push：1b96b5e（1b96b5ebdbc9326ea4e6d7a9dee5a73b316245a8）origin/main，remoteVerified=true。
