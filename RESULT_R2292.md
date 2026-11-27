@@ -28,4 +28,4 @@
 - 拒收（核验后）：个人号/空壳/新闻号等预过滤（@naijiaren999、@biren_nonia、@thanhratana、@iftikharbtc、@misaghora、@jsonpingpong、@jihao_cat、@anhthy2810、@sirsamtrenches、@ricki43724673、@romanmalik42、@rdolinkaed、@startupaccelx、@michaelbro38937、@miga_gbemi1、@blocknewswire、@ministerio72、@4ork_、@naiwacool、@plutoscryptos、@promeyoung、@ortamyio、@qqweuplv、@yichenxyu、@1rauusch、@armanadha）；高粉 @crypto_slice（6963）、@maniinng（3805）；@0xstraysnft（2906 粉，joke「pikastrays coming soon」）；@turnfolkgame（2023-09 建号，815 粉，非极早期）；@bonkmaz 今日建号在推 2023-12-16 Raydium 旧币 $Bonkmas（CA 7aJfeK7TaV4bVdD2BmAV22F1i13rX7eQ287xbPrBHmzg）；@LastCallGame、@BusyNads 仍无官网/CA（同 R2288 拒收；@LastCallGame 与库内 LASTCALL @LastCall4vx 不是同一项目）；@leatherheads_ 泛 NFT 预告、无铸造/供应量/合约；@NvdaChainxyz 仅转发，nvdachain.xyz TLS 失败，L3 宣称未核到。
 - 未改 focus，未把普通补漏卡送进重点条。Pactly / Tenfold 虽已在 Elysium RPC 核到合约，但官方生态页 https://elysium.kinetiq.xyz/ecosystem 本轮 429（同 R2290 makodesk 处理），不写 chain/ecosystem/Elysium生态，避免误入 Elysium 栏。
 - 挂 Watch：14 张新卡均补进 userFollowWatch.accounts + candidateIds。未挂 elysiumWatch。
-- 推送：pending
+- 推送：origin/main bc516db（bc516dbfbbf5eb5d5d90ad6dbb3308cf1672134f），remoteVerified=true
