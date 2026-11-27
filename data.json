@@ -1,11 +1,11 @@
 {
   "meta": {
     "title": "早期打新雷达",
-    "updated": "2026-11-27 19:10:00 CST",
+    "updated": "2026-11-27 19:21 CST",
     "timezone": "Asia/Shanghai",
     "disclaimer": "高风险·非投资建议",
     "source": "x-radar",
-    "lastScout": "2026-11-27 19:10:00 CST",
+    "lastScout": "2026-11-27 19:21 CST",
     "round3Added": [
       "standard-launchpad",
       "standyfun",
@@ -934,7 +934,7 @@
       "hens",
       "gpu-game"
     ],
-    "round": 2291,
+    "round": 2292,
     "round47Added": [
       "hell-demons",
       "pixelmuse-girls",
@@ -2479,7 +2479,22 @@
     "round124Added": [
       "hoodtrons"
     ],
-    "newThisRound": [],
+    "newThisRound": [
+      "antstripe",
+      "paidtag-xyz",
+      "centauridesk",
+      "mavro-fi",
+      "kinfoldhq",
+      "giftwrapfi",
+      "totehq",
+      "clearancedesk",
+      "receptafi",
+      "pactlyfi",
+      "tenfoldlol",
+      "clashofcatss",
+      "hushonrh",
+      "kinagent"
+    ],
     "round125Added": [
       "earthlings-vittoria",
       "super-monkey",
@@ -5405,91 +5420,96 @@
     "sourceNote": "R239 web+Trencher+Elysium eco + Discord #alpha-1 Peek gap-fill",
     "peekNote": "Discord未登录 deferred；Elysium生态页需access code",
     "discordAlphaPeek": {
-      "deferred": true,
-      "discordPeekDeferred": true,
+      "deferred": false,
+      "discordPeekDeferred": false,
+      "didNotOpenBrowser": false,
       "loginOk": true,
       "loginWall": false,
       "channelsPeeked": true,
       "spideyPosting": true,
       "gapIncomplete": false,
-      "lastSeen": "2026-11-27 17:58",
+      "lastSeen": "2026-11-27 19:05",
       "lastSeenByChannel": {
-        "alpha-3-new-accounts": "2026-11-27 17:58",
-        "alpha-1-backup": "2026-11-27 17:55",
-        "smart-accounts-tracker": "2026-11-27 17:24",
-        "alpha-1": "2026-11-27 17:55"
+        "alpha-3-new-accounts": "2026-11-27 19:00",
+        "alpha-1-backup": "2026-11-27 18:55",
+        "smart-accounts-tracker": "2026-11-27 18:05",
+        "alpha-1": "2026-11-27 19:05"
       },
-      "lastSeenUnchanged": true,
-      "lastChecked": "2026-11-27 18:12 CST",
-      "newestCardTime": "2026-11-27 17:58",
-      "cardsAfterCutoff": 39,
-      "cardsRead": 39,
-      "note": "R2291：X 雷达未开浏览器（本轮优先推送 Lamoryant 开铸）。沿用 R2288 lastSeenByChannel（alpha-3 17:58、backup 17:55、smart 17:24、alpha-1 17:55）。积压缺口仍在：alpha-3 11-23 22:55→11-27 05:20；smart 11-23 22:56→11-25 00:25；alpha-1 11-23 22:19→11-25 20:50。backup 已过 cutoff。本轮未改 lastSeen，未补扫积压。discordPeekDeferred=true，须立刻由父代理补 Peek。",
-      "lastRound": 2288,
+      "lastSeenUnchanged": false,
+      "lastChecked": "2026-11-27 19:21 CST",
+      "newestCardTime": "2026-11-27 19:05",
+      "cardsAfterCutoff": 66,
+      "cardsRead": 66,
+      "note": "R2292：Discord alpha 补收 antstripe,paidtag-xyz,centauridesk,mavro-fi,kinfoldhq,giftwrapfi,totehq,clearancedesk,receptafi,pactlyfi,tenfoldlol,clashofcatss,hushonrh,kinagent；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-27 19:00', 'alpha-1-backup': '2026-11-27 18:55', 'smart-accounts-tracker': '2026-11-27 18:05', 'alpha-1': '2026-11-27 19:05'}；cards=66 incremental，未补扫积压；lastChecked→2026-11-27 19:21 CST；dsFallback=true；loginOk=true；spideyPosting=true",
+      "lastRound": 2292,
       "channels": [
         {
           "name": "#alpha-3-new-accounts",
           "url": "https://discord.com/channels/1502958818865188956/1537897411668746302",
           "cutoff": "2026-11-23 22:55 CST",
-          "newestSeenCST": "2026-11-27 17:58",
+          "newestSeenCST": "2026-11-27 19:00",
           "oldestReadCST": "2026-11-27 05:20",
           "passedCutoff": false,
           "capped": true,
           "cardsRead": 250,
           "bot": "Captain Hook",
-          "notes": "R2288 incremental peek (33 cards after 17:03) did not fill leftover backlog. HARDCAP 250 newest-first from R2277 catch-up. Backlog gap remains 2026-11-23 22:55 to 2026-11-27 05:20.",
-          "thisPassCards": 33,
-          "thisPassOldestReached": "2026-11-27 16:35",
+          "notes": "R2292 incremental peek (48 cards after 17:58) did not fill leftover backlog. HARDCAP 250 newest-first from R2277 catch-up. Backlog gap remains 2026-11-23 22:55 to 2026-11-27 05:20.",
+          "thisPassCards": 48,
+          "thisPassOldestReached": "2026-11-27 17:24",
           "thisPassPassedIncrementalCutoff": true,
-          "thisPassCapped": false
+          "thisPassCapped": false,
+          "thisPassSpidey": false
         },
         {
           "name": "#alpha-1-backup",
           "url": "https://discord.com/channels/1502958818865188956/1549303534263214160",
           "cutoff": "2026-11-23 22:29 CST",
-          "newestSeenCST": "2026-11-27 17:55",
+          "newestSeenCST": "2026-11-27 18:55",
           "oldestReadCST": "2026-11-23 10:29",
           "passedCutoff": true,
           "capped": false,
           "cardsRead": 166,
           "bot": "Spidey",
-          "notes": "Fully caught up past cutoff (R2277). This incremental peek added 1 card after 16:39. Spidey posting.",
-          "thisPassCards": 1,
-          "thisPassOldestReached": "2026-11-27 03:54",
+          "notes": "Fully caught up past cutoff (R2277). This incremental peek added 7 cards after 17:55. Spidey posting.",
+          "thisPassCards": 7,
+          "thisPassOldestReached": "2026-11-27 13:24",
           "thisPassPassedIncrementalCutoff": true,
-          "thisPassCapped": false
+          "thisPassCapped": false,
+          "thisPassSpidey": true
         },
         {
           "name": "#smart-accounts-tracker",
           "url": "https://discord.com/channels/1502958818865188956/1527900129300840551",
           "cutoff": "2026-11-23 22:56 CST",
-          "newestSeenCST": "2026-11-27 17:24",
+          "newestSeenCST": "2026-11-27 18:05",
           "oldestReadCST": "2026-11-25 00:25",
           "passedCutoff": false,
           "capped": true,
           "cardsRead": 250,
           "bot": "X Follow Monitor",
-          "notes": "R2288 incremental peek found 1 card after 16:18. Did not fill leftover backlog. HARDCAP 250 newest-first from R2277 catch-up. Backlog gap remains 2026-11-23 22:56 to 2026-11-25 00:25.",
-          "thisPassCards": 1,
-          "thisPassOldestReached": "2026-11-27 11:44",
+          "notes": "R2292 incremental peek found 2 cards after 17:24. Did not fill leftover backlog. HARDCAP 250 newest-first from R2277 catch-up. Backlog gap remains 2026-11-23 22:56 to 2026-11-25 00:25.",
+          "thisPassCards": 2,
+          "thisPassOldestReached": "2026-11-27 12:35",
           "thisPassPassedIncrementalCutoff": true,
-          "thisPassCapped": false
+          "thisPassCapped": false,
+          "thisPassSpidey": true
         },
         {
           "name": "#alpha-1",
           "url": "https://discord.com/channels/1502958818865188956/1527862926885785710",
           "cutoff": "2026-11-23 22:19 CST",
-          "newestSeenCST": "2026-11-27 17:55",
+          "newestSeenCST": "2026-11-27 19:05",
           "oldestReadCST": "2026-11-25 20:50",
           "passedCutoff": false,
           "capped": true,
           "cardsRead": 250,
           "bot": "Spidey / Twitter Follow Monitor",
-          "notes": "Spidey posting. R2288 incremental peek (4 cards after 17:03) did not fill leftover backlog. HARDCAP 250 from R2277 catch-up. Backlog gap remains 2026-11-23 22:19 to 2026-11-25 20:50.",
-          "thisPassCards": 4,
-          "thisPassOldestReached": "2026-11-27 14:28",
+          "notes": "Spidey posting. R2292 incremental peek (9 cards after 17:55) did not fill leftover backlog. HARDCAP 250 from R2277 catch-up. Backlog gap remains 2026-11-23 22:19 to 2026-11-25 20:50.",
+          "thisPassCards": 9,
+          "thisPassOldestReached": "2026-11-27 16:27",
           "thisPassPassedIncrementalCutoff": true,
-          "thisPassCapped": false
+          "thisPassCapped": false,
+          "thisPassSpidey": true
         }
       ],
       "backlogGaps": [
@@ -5497,24 +5517,24 @@
           "channel": "alpha-3-new-accounts",
           "from": "2026-11-23 22:55",
           "to": "2026-11-27 05:20",
-          "reason": "leftover from R2277 HARDCAP 250; R2288 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+          "reason": "leftover from R2277 HARDCAP 250; R2292 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
         },
         {
           "channel": "smart-accounts-tracker",
           "from": "2026-11-23 22:56",
           "to": "2026-11-25 00:25",
-          "reason": "leftover from R2277 HARDCAP 250; R2288 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+          "reason": "leftover from R2277 HARDCAP 250; R2292 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
         },
         {
           "channel": "alpha-1",
           "from": "2026-11-23 22:19",
           "to": "2026-11-25 20:50",
-          "reason": "leftover from R2277 HARDCAP 250; R2288 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
+          "reason": "leftover from R2277 HARDCAP 250; R2292 incremental peek started at present and stopped at lastSeen, did not newly cover the backlog"
         }
       ],
-      "scannedAtCST": "2026-11-27 18:03",
+      "scannedAtCST": "2026-11-27 19:06",
       "dsFallback": true,
-      "dsUsage": "deepseek-flash HTTP 401 invalid api key (request_id 84e02289-4af3-4541-887e-a6ccf66b5687); local fallback admits=3; no high-cost model",
+      "dsUsage": "DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model",
       "incremental": true,
       "didNotFillBacklog": true,
       "priorUnfilledRangesOutOfScope": [
@@ -5524,8 +5544,7 @@
         "alpha-1 2026-11-15 02:59→2026-11-18 05:37"
       ],
       "noteR2278": "R2278 为 X 雷达轮。同一时段 R2277 已完成 Discord alpha 补漏（loginOk=true，四频道 Peek，新收 26 项已通知），本轮未再打开浏览器。R2277 26 张新卡当时未挂任何 Watch，本轮已补进 userFollowWatch 及对应栏 Watch，不当作新收录重推。积压缺口仍在：alpha-3 11-23 22:55→11-27 05:20；smart 11-23 22:56→11-25 00:25；alpha-1 11-23 22:19→11-25 20:50。下一轮小时 DC 补扫继续翻，不必立刻再弹登录表。",
-      "noteR2283": "R2283 为 X 雷达轮。写盘前远程已被相邻 Discord 小时补漏占用 R2282（loginOk=true，四频道增量 Peek，新收 NODERA 已通知），本轮未再打开浏览器，不重推 NODERA。积压缺口仍在：alpha-3 11-23 22:55→11-27 05:20；smart 11-23 22:56→11-25 00:25；alpha-1 11-23 22:19→11-25 20:50。backup 已追上。下一轮小时 DC 补扫继续翻，不必立刻再弹登录表。",
-      "didNotOpenBrowser": true
+      "noteR2283": "R2283 为 X 雷达轮。写盘前远程已被相邻 Discord 小时补漏占用 R2282（loginOk=true，四频道增量 Peek，新收 NODERA 已通知），本轮未再打开浏览器，不重推 NODERA。积压缺口仍在：alpha-3 11-23 22:55→11-27 05:20；smart 11-23 22:56→11-25 00:25；alpha-1 11-23 22:19→11-25 20:50。backup 已追上。下一轮小时 DC 补扫继续翻，不必立刻再弹登录表。"
     },
     "round239Added": [
       "tsunamilaunch",
@@ -16429,7 +16448,21 @@
         "@CoenpiMarkets",
         "@EnterTheManga",
         "@makodeskapp",
-        "@loov_world"
+        "@loov_world",
+        "@antstripe",
+        "@paidtag_xyz",
+        "@centauridesk",
+        "@mavro_fi",
+        "@kinfoldhq",
+        "@giftwrapfi",
+        "@totehq",
+        "@ClearanceDesk_",
+        "@receptafi",
+        "@pactlyFi",
+        "@tenfoldlol",
+        "@ClashOfCatss",
+        "@hushonrh",
+        "@KINAGENT_"
       ],
       "candidateIds": [
         "elysatrade",
@@ -18970,11 +19003,25 @@
         "coenpimarkets",
         "enter-the-manga",
         "makodesk",
-        "loov-world"
+        "loov-world",
+        "antstripe",
+        "paidtag-xyz",
+        "centauridesk",
+        "mavro-fi",
+        "kinfoldhq",
+        "giftwrapfi",
+        "totehq",
+        "clearancedesk",
+        "receptafi",
+        "pactlyfi",
+        "tenfoldlol",
+        "clashofcatss",
+        "hushonrh",
+        "kinagent"
       ],
       "pending": [],
       "note": "R2090 soft-brush 1734→1784; kept 50, walk 50, skip_already=[], NF_skip=0, wrap=false; firstKept @securityum_xyz, lastKept @BagDropSocial。本片作者均已在库。库内 @Zero_Kitties 首次核到 WL application 已开。新收 @appcityhood @PaydPad。写盘前远程 R2089 Discord 六卡补挂 Watch：@coinductorai @playluckyguard @ideafun_io @smooveoffsol @jesterdotfun @blackwater_z26。",
-      "lastChecked": "2026-11-27 19:10:00 CST",
+      "lastChecked": "2026-11-27 19:21 CST",
       "createdAt": "2026-10-28 17:15 CST",
       "sourceRound": 775,
       "r775": "用户点名6项已入 candidates；pending=[]",
@@ -27493,7 +27540,7 @@
         "at": "2026-11-27 06:42:13 CST",
         "note": "R2261 soft-brush 2220-2243; kept 24, queried 24, wrap=false; first @brainex__ai, last @midorihood. UF 45 分钟窗 0 帖，无新打新。"
       },
-      "n": 2498,
+      "n": 2600,
       "r2284": "R2284 soft-brush priority 5 queried (mobster_meme/starx_xlayer known NF skip) + shard 687-736; kept 41, queried 41, NF_skip 9, wrap=false; priority 45m result_count=0; shard only in-lib @wafermap product posts.",
       "r2285": "R2285 soft-brush priority 5 queried (mobster_meme/starx_xlayer known NF skip) + shard 737-786; kept 47, queried 47, NF_skip 3 (oblaunchpadAll/babycz_ai/mint_WRIT), wrap=false; priority 45m result_count=0; shard only in-lib @OutRiggerRH product post.",
       "r2287": "R2287 soft-brush priority 5 queried (mobster_meme/starx_xlayer known NF skip, not re-read) + shard 787-836; UF_LEN=2581 未变；RuninAI_com 在分片内但从 UF from: 去掉，只在 MUST 读一次；49 个非 MUST 号重组成 3 批 16+16+17（pixcade_ai 并入第 3 批，不单独开批）；与薄栏重叠的 tapebitprotocol/Flizyapp 只在 UF 读，THIN4/THIN6 已去重。45m 窗内优先片与分片 result_count 均为 0。下轮起点 837 @rootlinks_nft。",
@@ -39642,9 +39689,20 @@
       "ascendrbot"
     ],
     "roundNAdded": [
-      "yovalt",
-      "coenpimarkets",
-      "enter-the-manga"
+      "antstripe",
+      "paidtag-xyz",
+      "centauridesk",
+      "mavro-fi",
+      "kinfoldhq",
+      "giftwrapfi",
+      "totehq",
+      "clearancedesk",
+      "receptafi",
+      "pactlyfi",
+      "tenfoldlol",
+      "clashofcatss",
+      "hushonrh",
+      "kinagent"
     ],
     "round1438Added": [
       "elyfun"
@@ -56854,9 +56912,1164 @@
       "privacycashfun": "官网 privacycash.fun 互证官号 @privacycashfun（2026-06-22 建号，523 粉 / 70 帖，已认证），非极早期；本轮命中的是小号 @privacycashdotf（2009 年号、5 粉），未张冠李戴建卡",
       "TheEyesBTC": "第三方称 Ordinals free mint，本轮未核官帖/官网，未另开探索读，待下轮",
       "Agent Operators": "第三方称 .ai Agent ID 免费登记已开（cryptoplay.guide/nft，截止 11-28 20:00 CST），本轮未见独立可核官推，未收"
-    }
+    },
+    "round2292Added": [
+      "antstripe",
+      "paidtag-xyz",
+      "centauridesk",
+      "mavro-fi",
+      "kinfoldhq",
+      "giftwrapfi",
+      "totehq",
+      "clearancedesk",
+      "receptafi",
+      "pactlyfi",
+      "tenfoldlol",
+      "clashofcatss",
+      "hushonrh",
+      "kinagent"
+    ],
+    "r2292WatchAdds": {
+      "new": true
+    },
+    "r2292WatchAddDetails": [
+      {
+        "id": "antstripe",
+        "handle": "@antstripe",
+        "watches": [
+          "userFollowWatch"
+        ]
+      },
+      {
+        "id": "paidtag-xyz",
+        "handle": "@paidtag_xyz",
+        "watches": [
+          "userFollowWatch"
+        ]
+      },
+      {
+        "id": "centauridesk",
+        "handle": "@centauridesk",
+        "watches": [
+          "userFollowWatch"
+        ]
+      },
+      {
+        "id": "mavro-fi",
+        "handle": "@mavro_fi",
+        "watches": [
+          "userFollowWatch"
+        ]
+      },
+      {
+        "id": "kinfoldhq",
+        "handle": "@kinfoldhq",
+        "watches": [
+          "userFollowWatch"
+        ]
+      },
+      {
+        "id": "giftwrapfi",
+        "handle": "@giftwrapfi",
+        "watches": [
+          "userFollowWatch"
+        ]
+      },
+      {
+        "id": "totehq",
+        "handle": "@totehq",
+        "watches": [
+          "userFollowWatch"
+        ]
+      },
+      {
+        "id": "clearancedesk",
+        "handle": "@ClearanceDesk_",
+        "watches": [
+          "userFollowWatch"
+        ]
+      },
+      {
+        "id": "receptafi",
+        "handle": "@receptafi",
+        "watches": [
+          "userFollowWatch"
+        ]
+      },
+      {
+        "id": "pactlyfi",
+        "handle": "@pactlyFi",
+        "watches": [
+          "userFollowWatch"
+        ]
+      },
+      {
+        "id": "tenfoldlol",
+        "handle": "@tenfoldlol",
+        "watches": [
+          "userFollowWatch"
+        ]
+      },
+      {
+        "id": "clashofcatss",
+        "handle": "@ClashOfCatss",
+        "watches": [
+          "userFollowWatch"
+        ]
+      },
+      {
+        "id": "hushonrh",
+        "handle": "@hushonrh",
+        "watches": [
+          "userFollowWatch"
+        ]
+      },
+      {
+        "id": "kinagent",
+        "handle": "@KINAGENT_",
+        "watches": [
+          "userFollowWatch"
+        ]
+      }
+    ]
   },
   "candidates": [
+    {
+      "id": "kinagent",
+      "name": "KINAGENT",
+      "handle": "@KINAGENT_",
+      "twitter": "@KINAGENT_",
+      "hasTwitter": true,
+      "accountCreatedCST": "2013-02-22 20:29:23 CST",
+      "xUserId": "1208231324",
+      "chain": "BSC",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "BSC",
+      "ecosystem": "BSC",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 101,
+      "xFollowers": 101,
+      "xTweets": 3,
+      "verified": false,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "KINAGENT（@KINAGENT_）自称基于 BAP-578 的 AI Agent 身份/图鉴：每个 NFT 对应一个可对话 Agent，可从 Genesis 经 Fusion 生成后代并形成谱系；今日两则帖文给出 CA 0x30c31344eBb4Fe68908dFB0BE5Ef6A58Fc2d7777，无独立官网。本轮用 BSC 节点核到该地址有代码 45 字节（疑似最小代理），名称/符号 KINAGENT/KINAGENT，总量 10 亿、18 位，caUnverified=false。DexScreener 显示 bsc/flapsh 池，写盘时市值约 $3,130、流动性约 $6,931、24h 成交约 $14,323（买 90 / 卖 91），交易对创建于 2026-11-27 18:28:54 CST。X 账号创建于 2013-02-22 20:29:23 CST（xUserId 1208231324），现 101 粉 / 3 帖，3 帖均为今日产品说明，属旧号重用，风险偏高。今日 18:13 CST 在 #alpha-3-new-accounts 被记为关注 @binance。NFT 图鉴、对话和融合均未实测。不是免费 mint。DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model。",
+      "blurb": "2013 年旧号（101粉，今日才发产品帖），自称 BAP-578 Agent NFT 谱系；CA 已在 BSC 核到 KINAGENT/KINAGENT 10 亿 18 位，Flap.sh 写盘时约 $3.1k / 流动性约 $6.9k，图鉴与融合未实测。",
+      "highlights": [
+        "CA 0x30c31344eBb4Fe68908dFB0BE5Ef6A58Fc2d7777 本轮用 BSC 节点核到 KINAGENT/KINAGENT、10 亿 18 位、代码 45 字节（疑似最小代理）",
+        "DexScreener Flap.sh 池写盘时约 $3.1k / 流动性约 $6.9k / 24h 约 $14.3k，对创建于今日 18:28 CST",
+        "今日两则帖文描述 BAP-578 Agent NFT 图鉴与融合谱系，无独立官网"
+      ],
+      "drawbacks": [
+        "X 账号 2013 年注册、今日才发 3 条产品帖，旧号重用风险高",
+        "无官网；NFT/对话/融合未实测，45 字节更像代币代理而非完整图鉴合约",
+        "DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 70,
+        "actionable": 75,
+        "novelty": 70,
+        "risk": 88,
+        "overall": 60
+      },
+      "earlyScore": 70,
+      "overall": 60,
+      "score": 60,
+      "riskScore": 88,
+      "tags": [
+        "discord-alpha",
+        "BSC",
+        "KINAGENT",
+        "有官推",
+        "CA已核实",
+        "旧号重用",
+        "R2292"
+      ],
+      "links": {
+        "dexscreener": "https://dexscreener.com/bsc/0xad54b1fefaf933dfc6ca1df8ebacf2f05461ded9",
+        "x": "https://x.com/KINAGENT_",
+        "twitter": "https://x.com/KINAGENT_"
+      },
+      "caUnverified": false,
+      "round": 2292,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 19:21 CST",
+      "addedAt": "2026-11-27 19:21 CST",
+      "lastChecked": "2026-11-27 19:21 CST",
+      "whatsNew": "【R2292】Discord alpha 补漏新收录。2013 年旧号今日发产品帖，自称 BAP-578 Agent 图鉴；BSC CA 已核到 KINAGENT 10 亿 18 位，Flap.sh 约 $3.1k。图鉴未实测。DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model",
+      "contract": "0x30c31344eBb4Fe68908dFB0BE5Ef6A58Fc2d7777",
+      "claimedCA": "0x30c31344eBb4Fe68908dFB0BE5Ef6A58Fc2d7777"
+    },
+    {
+      "id": "hushonrh",
+      "name": "Hush",
+      "handle": "@hushonrh",
+      "twitter": "@hushonrh",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-27 17:45:40 CST",
+      "xUserId": "2126250834568654848",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "Robinhood",
+      "ecosystem": "Robinhood",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 1,
+      "xFollowers": 1,
+      "xTweets": 2,
+      "verified": false,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "Hush（@hushonrh）自称在 Robinhood Chain 上为钱包和 AI agent 做密封消息：浏览器内用一次性密钥打包正文、名字和签名，中继不持有密钥；官帖写明 X25519、AES-256-GCM、Ed25519，并称可写信给 Pons 上的开发者。资料栏 URL 指向 http://hushonrh.xyz，但本轮 https://hushonrh.xyz 与 www 均 TLS 握手失败，http 500，站点未能打开，页面与合约均未核到，caUnverified=true。@hushonrh 于 2026-11-27 17:45:40 CST 建号，1 粉 / 2 帖，xUserId 2126250834568654848。今日 18:10 CST 在 #alpha-3-new-accounts 被记为关注 @robinhoodcrypto。产品未实测。不是免费 mint。DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model。",
+      "blurb": "今日建号（1粉），自称给钱包和 AI agent 做密封消息；官网 hushonrh.xyz 本轮 TLS 失败未打开，合约未核到，产品未实测。",
+      "highlights": [
+        "官帖详细描述浏览器内密封消息（X25519 / AES-256-GCM / Ed25519），自称中继不持有密钥，面向 Robinhood Chain / Pons 开发者",
+        "X 于今日 17:45 CST 建号，1 粉 / 2 帖，资料栏指向 hushonrh.xyz",
+        "本轮该站 TLS 握手失败，页面与合约均未打开核验"
+      ],
+      "drawbacks": [
+        "官网本轮无法打开，产品与合约都未核验",
+        "仅有推文描述，落地未实测",
+        "DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 95,
+        "actionable": 60,
+        "novelty": 80,
+        "risk": 80,
+        "overall": 68
+      },
+      "earlyScore": 95,
+      "overall": 68,
+      "score": 68,
+      "riskScore": 80,
+      "tags": [
+        "discord-alpha",
+        "Robinhood",
+        "有官推",
+        "官网未打开",
+        "R2292"
+      ],
+      "links": {
+        "website": "https://hushonrh.xyz/",
+        "site": "https://hushonrh.xyz/",
+        "x": "https://x.com/hushonrh",
+        "twitter": "https://x.com/hushonrh"
+      },
+      "caUnverified": true,
+      "round": 2292,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 19:21 CST",
+      "addedAt": "2026-11-27 19:21 CST",
+      "lastChecked": "2026-11-27 19:21 CST",
+      "whatsNew": "【R2292】Discord alpha 补漏新收录。今日建号（1粉），自称密封消息工具；官网 hushonrh.xyz 本轮 TLS 失败未打开，合约未核到。DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model"
+    },
+    {
+      "id": "clashofcatss",
+      "name": "Clash Of Cats",
+      "handle": "@ClashOfCatss",
+      "twitter": "@ClashOfCatss",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-23 16:40:33 CST",
+      "xUserId": "2124784756814680064",
+      "chain": "Solana",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "Solana",
+      "ecosystem": "Solana",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 37,
+      "xFollowers": 37,
+      "xTweets": 34,
+      "verified": true,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "Clash Of Cats（@ClashOfCatss / 站点 https://coconsol.fun/）自称 Kitten Camp 的飞轮：玩、升级、爬排行榜，强化费用进入奖励，并在简介给出 CA DGbxdwcTUJNbA4pcgoxTWT8hcrNZNQYpCAzAG4wFpump。官网 HTTPS 200（www 落到同站），标题 Clash of Cats，但静态 HTML 几乎没有正文，玩法页未解析到细节。本轮用 Solana RPC 核到该铸造账户为 Token-2022，名称/符号 Clash of Cats/COC，6 位小数，总量 10 亿，mint/freeze/update authority 均为空，caUnverified=false。DexScreener 显示仍在 pumpfun，写盘时市值约 $2,337，24h 成交约 $1,349（买 41 / 卖 21），交易对创建于 2026-11-27 12:30:00 CST；接口未返回该池流动性。@ClashOfCatss 于 2026-11-23 16:40:33 CST 建号，37 粉 / 34 帖，X 接口 verified=true，xUserId 2124784756814680064，资料栏 URL 指向 https://coconsol.fun。今日有 We are live 帖。今日 18:55 CST 出现在 #alpha-1 与 #alpha-1-backup。游戏玩法未实测。不是免费 mint。DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model。",
+      "blurb": "11-23 建号（37粉），站点 coconsol.fun 自称 Kitten Camp 飞轮游戏；CA 已核到 Clash of Cats/COC 10 亿 6 位 Token-2022，仍在 pumpfun，写盘时市值约 $2.3k，游戏页正文几乎为空、玩法未实测。",
+      "highlights": [
+        "CA DGbxdwcTUJNbA4pcgoxTWT8hcrNZNQYpCAzAG4wFpump 本轮用 Solana RPC 核到 Clash of Cats/COC、10 亿、6 位、Token-2022，权限已空",
+        "DexScreener 仍在 pumpfun，写盘时市值约 $2.3k，24h 约 $1.3k，交易对今日 12:30 CST 创建",
+        "官网 https://coconsol.fun/ HTTPS 200，但静态正文几乎为空；X 11-23 建号，37 粉 / 34 帖，蓝标"
+      ],
+      "drawbacks": [
+        "游戏站点几乎无静态正文，玩法未实测",
+        "仍在 pumpfun，市值很小，波动和地毯风险高",
+        "DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 90,
+        "actionable": 80,
+        "novelty": 70,
+        "risk": 78,
+        "overall": 70
+      },
+      "earlyScore": 90,
+      "overall": 70,
+      "score": 70,
+      "riskScore": 78,
+      "tags": [
+        "discord-alpha",
+        "Solana",
+        "COC",
+        "有官推",
+        "有官网",
+        "CA已核实",
+        "R2292"
+      ],
+      "links": {
+        "website": "https://coconsol.fun/",
+        "site": "https://coconsol.fun/",
+        "dexscreener": "https://dexscreener.com/solana/amffgdgtkm5n9t9scss38hvhunviajlt3vezpeujqjfp",
+        "x": "https://x.com/ClashOfCatss",
+        "twitter": "https://x.com/ClashOfCatss"
+      },
+      "caUnverified": false,
+      "round": 2292,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 19:21 CST",
+      "addedAt": "2026-11-27 19:21 CST",
+      "lastChecked": "2026-11-27 19:21 CST",
+      "whatsNew": "【R2292】Discord alpha 补漏新收录。11-23 建号（37粉），站点 coconsol.fun 自称 Kitten Camp 飞轮；CA 已核到 COC 10 亿 6 位，仍在 pumpfun，写盘时约 $2.3k。玩法未实测。DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model",
+      "contract": "DGbxdwcTUJNbA4pcgoxTWT8hcrNZNQYpCAzAG4wFpump",
+      "claimedCA": "DGbxdwcTUJNbA4pcgoxTWT8hcrNZNQYpCAzAG4wFpump"
+    },
+    {
+      "id": "tenfoldlol",
+      "name": "Tenfold",
+      "handle": "@tenfoldlol",
+      "twitter": "@tenfoldlol",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-10-08 21:41:53 CST",
+      "xUserId": "2108190958940827648",
+      "chain": "",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "自称 Elysium 指数层，代币已在 Elysium RPC 核到，官方生态页 429 未列入，不进 Elysium 栏",
+      "ecosystem": "",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 44,
+      "xFollowers": 44,
+      "xTweets": 17,
+      "verified": true,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "Tenfold（@tenfoldlol / 站点 https://tenfold.lol/）自称 Elysium 前 10 代币指数：持有 $TEN，每轮把成分币分给持有人。官网 HTTPS 200（www TLS unexpected eof，http 500），标题 Tenfold，页面展示已买入约 $560.42、24,890 次分发、42 轮，以及 $MONTRA / $kHYPE 等成分占比，并链到 elysium.kinetiq.xyz/explorer 上的成分地址。$TEN CA 0xA74B241828A24ff84Bed1E9b8D641bdABa237d78 本轮用 Elysium RPC（chainId 99901）核到合约代码 45 字节（疑似最小代理），名称/符号 Tenfold/TEN，总量约 10 亿、18 位，caUnverified=false。DexScreener 主池（elysium/uniswap）写盘时市值约 $25,049、流动性约 $14,091、24h 成交约 $85,023（买 711 / 卖 583），交易对创建于 2026-11-27 16:01:42 CST；另有一个流动性约 $2.62 的薄池未当作主池。官方生态页本轮 429，未核到 On testnet / Announced 名单，不进 Elysium 栏，chain 字段不写 Elysium 以免误入该列。@tenfoldlol 于 2026-10-08 21:41:53 CST 建号，44 粉 / 17 帖，X 接口 verified=true，xUserId 2108190958940827648，资料栏 URL 指向 http://tenfold.lol。今日 18:55 CST 出现在 #alpha-1 与 #alpha-1-backup。指数分发与持仓空投未实测。不是免费 mint。DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model。",
+      "blurb": "10-08 建号（44粉），站点 tenfold.lol 自称 Elysium 前 10 代币指数、持有 $TEN 按轮空投；CA 已核到 Tenfold/TEN 约 10 亿 18 位，DexScreener 主池约 $25.0k / 24h 约 $85.1k，官方生态页 429 故不进 Elysium 栏，分发未实测。",
+      "highlights": [
+        "官网 https://tenfold.lol/（https 200，www TLS eof，http 500）自称持有 $TEN 即可按轮分到前 10 成分币，页面展示 42 轮与成分占比",
+        "CA 0xA74B241828A24ff84Bed1E9b8D641bdABa237d78 本轮用 Elysium RPC（chainId 99901）核到 Tenfold/TEN、约 10 亿 18 位、代码 45 字节（疑似最小代理）",
+        "DexScreener 主池写盘时约 $25.0k / 流动性约 $14.1k / 24h 约 $85.1k，对创建于今日 16:01 CST；官方生态页 429，不进 Elysium 栏"
+      ],
+      "drawbacks": [
+        "官方生态页本轮 429，不能进 Elysium 栏",
+        "指数分发与持仓空投未实测；合约代码仅 45 字节",
+        "DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 70,
+        "actionable": 85,
+        "novelty": 82,
+        "risk": 70,
+        "overall": 68
+      },
+      "earlyScore": 70,
+      "overall": 68,
+      "score": 68,
+      "riskScore": 70,
+      "tags": [
+        "discord-alpha",
+        "TEN",
+        "有官推",
+        "有官网",
+        "CA已核实",
+        "R2292"
+      ],
+      "links": {
+        "website": "https://tenfold.lol/",
+        "site": "https://tenfold.lol/",
+        "dexscreener": "https://dexscreener.com/elysium/0xf318c47049a49c62b5993d85ab87cfc4c4cf19531723f1aadd3f69d6be35d0a1",
+        "x": "https://x.com/tenfoldlol",
+        "twitter": "https://x.com/tenfoldlol"
+      },
+      "caUnverified": false,
+      "round": 2292,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 19:21 CST",
+      "addedAt": "2026-11-27 19:21 CST",
+      "lastChecked": "2026-11-27 19:21 CST",
+      "whatsNew": "【R2292】Discord alpha 补漏新收录。10-08 建号（44粉），站点 tenfold.lol 自称 Elysium 前 10 指数；CA 已核到 Tenfold/TEN，DexScreener 主池约 $25.0k。官方生态页 429，不进 Elysium 栏。分发未实测。DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model",
+      "contract": "0xA74B241828A24ff84Bed1E9b8D641bdABa237d78",
+      "claimedCA": "0xA74B241828A24ff84Bed1E9b8D641bdABa237d78"
+    },
+    {
+      "id": "pactlyfi",
+      "name": "Pactly",
+      "handle": "@pactlyFi",
+      "twitter": "@pactlyFi",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-27 12:19:18 CST",
+      "xUserId": "2126168741008281601",
+      "chain": "",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "产品自称 Hyperliquid；代币在 Elysium RPC 核到，官方生态页 429 未列入，不进 Elysium 栏",
+      "ecosystem": "",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 6,
+      "xFollowers": 6,
+      "xTweets": 2,
+      "verified": true,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "Pactly（@pactlyFi / 站点 https://www.pactlyfi.xyz/）自称给 2–10 人小队做共享永续交易：提案、投票（过半），通过后各成员用自己的 Hyperliquid 账户、自己的资金和仓位下限价单，资金不进入 Pactly。官网 HTTPS 200（apex 与 www 均可），标题 PACTLY · Shared perp trading for your crew，页内 CA 0x4add08acd902e2B6f0076fE22Cd33887f73FaB32 标注 Kinetiq Elysium。本轮用 Elysium RPC（https://rpc.elysium.kinetiq.xyz，chainId 99901）核到合约代码 45 字节（疑似最小代理），名称/符号 Pactly/PACTLY，总量约 10 亿、18 位，caUnverified=false。DexScreener 显示 elysium/uniswap 主池，写盘时市值约 $14,051、流动性约 $9,738、24h 成交约 $9,594（买 84 / 卖 29），交易对创建于 2026-11-27 18:51:39 CST。官方生态页 https://elysium.kinetiq.xyz/ecosystem 本轮 429，未核到名单，不进 Elysium 栏，chain 字段不写 Elysium 以免误入该列。@pactlyFi 于 2026-11-27 12:19:18 CST 建号，6 粉 / 2 帖，X 接口 verified=true，xUserId 2126168741008281601。今日 19:05 CST 出现在 #alpha-1（Spidey 卡）。组队交易未实测。不是免费 mint。DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model。",
+      "blurb": "今日建号（6粉），站点 pactlyfi.xyz 自称在 Hyperliquid 上组队提案投票后各自下单；CA 已在 Elysium RPC 核到 Pactly/PACTLY 约 10 亿 18 位，DexScreener 主池约 $14.1k，官方生态页 429 故不进 Elysium 栏，产品未实测。",
+      "highlights": [
+        "官网 https://www.pactlyfi.xyz/（https 200）自称小队提案投票后，各人用自己的 Hyperliquid 账户下单，资金不进协议",
+        "CA 0x4add08acd902e2B6f0076fE22Cd33887f73FaB32 本轮用 Elysium RPC（chainId 99901）核到 Pactly/PACTLY、约 10 亿 18 位、代码 45 字节（疑似最小代理）",
+        "DexScreener 主池写盘时约 $14.1k / 流动性约 $9.7k / 24h 约 $9.6k，对创建于今日 18:51 CST；官方生态页 429，不进 Elysium 栏"
+      ],
+      "drawbacks": [
+        "官方生态页本轮 429，不能进 Elysium 栏",
+        "组队交易未实测；合约代码仅 45 字节，为代理实现",
+        "DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 95,
+        "actionable": 80,
+        "novelty": 80,
+        "risk": 74,
+        "overall": 74
+      },
+      "earlyScore": 95,
+      "overall": 74,
+      "score": 74,
+      "riskScore": 74,
+      "tags": [
+        "discord-alpha",
+        "PACTLY",
+        "Hyperliquid",
+        "有官推",
+        "有官网",
+        "CA已核实",
+        "R2292"
+      ],
+      "links": {
+        "website": "https://www.pactlyfi.xyz/",
+        "site": "https://www.pactlyfi.xyz/",
+        "dexscreener": "https://dexscreener.com/elysium/0x6dbffaeca4aaa16a2c3fb355ded89732c3a39f8b0308c77bd6511e04eb84c9ef",
+        "x": "https://x.com/pactlyFi",
+        "twitter": "https://x.com/pactlyFi"
+      },
+      "caUnverified": false,
+      "round": 2292,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 19:21 CST",
+      "addedAt": "2026-11-27 19:21 CST",
+      "lastChecked": "2026-11-27 19:21 CST",
+      "whatsNew": "【R2292】Discord alpha 补漏新收录。今日建号（6粉），站点 pactlyfi.xyz 自称 Hyperliquid 组队交易；CA 已核到 Pactly/PACTLY 约 10 亿 18 位，DexScreener 主池约 $14.1k。官方生态页 429，不进 Elysium 栏。产品未实测。DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model",
+      "contract": "0x4add08acd902e2B6f0076fE22Cd33887f73FaB32",
+      "claimedCA": "0x4add08acd902e2B6f0076fE22Cd33887f73FaB32"
+    },
+    {
+      "id": "receptafi",
+      "name": "RECEPTA",
+      "handle": "@receptafi",
+      "twitter": "@receptafi",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-27 14:44:45 CST",
+      "xUserId": "2126204645169319936",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "Robinhood",
+      "ecosystem": "Robinhood",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 2,
+      "xFollowers": 2,
+      "xTweets": 1,
+      "verified": false,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "RECEPTA（@receptafi / 站点 https://receptafi.xyz/）自称 Robinhood Chain 上的 OpenAI 兼容 AI 网关：每次调用向公开登记簿写入模型、token、费用和 SHA-256 哈希，不写入提示词或回复正文，收据哈希串联。官网 HTTPS 200，标题 RECEPTA: every AI call, on the record；页面有本地预览（STUB: local preview, no model is called）和登记簿/校验说明。$RECEPTA 本轮未核到合约。recepta.fi 为 One.com 占位页，不是本项目；www.recepta.ai 为另一站点，不以它们为准。@receptafi 于 2026-11-27 14:44:45 CST 建号，2 粉 / 1 帖，xUserId 2126204645169319936，资料栏无 URL。今日 19:00 CST 在 #alpha-3-new-accounts 被记为关注 @robinhoodcrypto 与 @binance。网关与上链登记未实测。不是免费 mint。DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model。",
+      "blurb": "今日建号（2粉），站点 receptafi.xyz 自称 OpenAI 兼容网关、公开收据只记哈希不记原文；$RECEPTA 合约未核到，网关未实测。",
+      "highlights": [
+        "官网 https://receptafi.xyz/（https 200）自称 OpenAI 兼容网关，公开登记簿只记模型/用量/费用/哈希，不记提示词和回复",
+        "页面含本地预览与哈希校验说明；$RECEPTA 本轮未核到合约",
+        "X 于今日 14:44 CST 建号，2 粉 / 1 帖；recepta.fi 为占位页，不以它为准"
+      ],
+      "drawbacks": [
+        "$RECEPTA 合约未核到",
+        "网关、上链登记与哈希校验未实测；页面含 local preview 提示",
+        "DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 95,
+        "actionable": 80,
+        "novelty": 82,
+        "risk": 74,
+        "overall": 75
+      },
+      "earlyScore": 95,
+      "overall": 75,
+      "score": 75,
+      "riskScore": 74,
+      "tags": [
+        "discord-alpha",
+        "Robinhood",
+        "RECEPTA",
+        "有官推",
+        "有官网",
+        "CA未公布",
+        "R2292"
+      ],
+      "links": {
+        "website": "https://receptafi.xyz/",
+        "site": "https://receptafi.xyz/",
+        "x": "https://x.com/receptafi",
+        "twitter": "https://x.com/receptafi"
+      },
+      "caUnverified": true,
+      "round": 2292,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 19:21 CST",
+      "addedAt": "2026-11-27 19:21 CST",
+      "lastChecked": "2026-11-27 19:21 CST",
+      "whatsNew": "【R2292】Discord alpha 补漏新收录。今日建号（2粉），站点 receptafi.xyz 自称 OpenAI 兼容网关、公开收据只记哈希；$RECEPTA 合约未核到。网关未实测。DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model"
+    },
+    {
+      "id": "clearancedesk",
+      "name": "Clearance",
+      "handle": "@ClearanceDesk_",
+      "twitter": "@ClearanceDesk_",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-27 17:42:55 CST",
+      "xUserId": "2126249768062214144",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "Robinhood",
+      "ecosystem": "Robinhood",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 1,
+      "xFollowers": 1,
+      "xTweets": 1,
+      "verified": false,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "Clearance（@ClearanceDesk_ / 站点 https://clearancedesk.xyz/）自称在 Robinhood Chain 上做股票代币的密封降价买单桌：价格、数量和钱包不进公开订单簿，池子价格触及后再从用户钱包签名一笔普通 Uniswap 买入。官网 HTTPS 200，标题 Clearance: private markdown desk on Robinhood Chain，页面展示若干密封出价示例（地址缩写 + NVDA/TSLA 等），并写 $CLEAR contract at launch，本轮未核到合约。@ClearanceDesk_ 于 2026-11-27 17:42:55 CST 建号，1 粉 / 1 帖，xUserId 2126249768062214144，资料栏无 URL。官帖称 something sealed drops today。今日 18:20 CST 在 #alpha-3-new-accounts 被记为关注 @robinhoodapp 与 @ethereum。密封桌未实测。不是免费 mint。DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model。",
+      "blurb": "今日建号（1粉），站点 clearancedesk.xyz 自称密封挂出股票代币买入价，不进公开订单簿；$CLEAR 待上线，产品未实测。",
+      "highlights": [
+        "官网 https://clearancedesk.xyz/（https 200）自称密封降价买单，触及后再由用户钱包签普通 Uniswap 买入",
+        "官网写 $CLEAR contract at launch，本轮未核到合约",
+        "X 于今日 17:42 CST 建号，1 粉 / 1 帖"
+      ],
+      "drawbacks": [
+        "$CLEAR 待上线，合约未公布",
+        "密封撮合与隐私效果未实测",
+        "DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 95,
+        "actionable": 72,
+        "novelty": 78,
+        "risk": 76,
+        "overall": 72
+      },
+      "earlyScore": 95,
+      "overall": 72,
+      "score": 72,
+      "riskScore": 76,
+      "tags": [
+        "discord-alpha",
+        "Robinhood",
+        "CLEAR",
+        "有官推",
+        "有官网",
+        "CA未公布",
+        "R2292"
+      ],
+      "links": {
+        "website": "https://clearancedesk.xyz/",
+        "site": "https://clearancedesk.xyz/",
+        "x": "https://x.com/ClearanceDesk_",
+        "twitter": "https://x.com/ClearanceDesk_"
+      },
+      "caUnverified": true,
+      "round": 2292,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 19:21 CST",
+      "addedAt": "2026-11-27 19:21 CST",
+      "lastChecked": "2026-11-27 19:21 CST",
+      "whatsNew": "【R2292】Discord alpha 补漏新收录。今日建号（1粉），站点 clearancedesk.xyz 自称密封挂出股票代币买入价；$CLEAR 待上线。产品未实测。DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model"
+    },
+    {
+      "id": "totehq",
+      "name": "TOTE",
+      "handle": "@totehq",
+      "twitter": "@totehq",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-27 16:22:03 CST",
+      "xUserId": "2126229501478858752",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "Robinhood",
+      "ecosystem": "Robinhood",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 3,
+      "xFollowers": 3,
+      "xTweets": 1,
+      "verified": false,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "TOTE（@totehq / 站点 https://totehq.xyz/）自称在 Robinhood Chain 上用一笔交易打包最多 8 只股票代币（每项 $1–$5,000），先按当前地址模拟 Uniswap multicall，再把袋子转到浏览器生成的新地址或指定地址，使持仓不留在付款钱包余额里。官网 HTTPS 200，标题 TOTE: a bag of stock tokens, kept off your wallet，写 beta；$TOTE 写 at launch，本轮未核到合约。@totehq 于 2026-11-27 16:22:03 CST 建号，3 粉 / 1 帖，xUserId 2126229501478858752，资料栏无 URL。官帖称 something that carries the whole bag opens tonight。今日 18:32 CST 在 #alpha-3-new-accounts 被记为关注 @binance。打包出货流程未实测。不是免费 mint。DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model。",
+      "blurb": "今日建号（3粉），站点 totehq.xyz 自称一笔交易打包最多 8 只股票代币并转到新地址；$TOTE 待上线，流程未实测。",
+      "highlights": [
+        "官网 https://totehq.xyz/（https 200）自称最多 8 只股票代币一次结账，先模拟再全部成交或全部取消，并可转到新地址",
+        "官网写 $TOTE at launch，本轮未核到合约；官帖称今晚打开",
+        "X 于今日 16:22 CST 建号，3 粉 / 1 帖"
+      ],
+      "drawbacks": [
+        "$TOTE 待上线，合约未公布",
+        "打包/转运流程未实测，不能当成隐私方案",
+        "DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 95,
+        "actionable": 72,
+        "novelty": 78,
+        "risk": 76,
+        "overall": 72
+      },
+      "earlyScore": 95,
+      "overall": 72,
+      "score": 72,
+      "riskScore": 76,
+      "tags": [
+        "discord-alpha",
+        "Robinhood",
+        "TOTE",
+        "有官推",
+        "有官网",
+        "CA未公布",
+        "R2292"
+      ],
+      "links": {
+        "website": "https://totehq.xyz/",
+        "site": "https://totehq.xyz/",
+        "x": "https://x.com/totehq",
+        "twitter": "https://x.com/totehq"
+      },
+      "caUnverified": true,
+      "round": 2292,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 19:21 CST",
+      "addedAt": "2026-11-27 19:21 CST",
+      "lastChecked": "2026-11-27 19:21 CST",
+      "whatsNew": "【R2292】Discord alpha 补漏新收录。今日建号（3粉），站点 totehq.xyz 自称一笔交易打包最多 8 只股票代币并转到新地址；$TOTE 待上线。流程未实测。DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model"
+    },
+    {
+      "id": "giftwrapfi",
+      "name": "GIFTWRAP",
+      "handle": "@giftwrapfi",
+      "twitter": "@giftwrapfi",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-27 17:31:15 CST",
+      "xUserId": "2126246931076927488",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "Robinhood",
+      "ecosystem": "Robinhood",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 1,
+      "xFollowers": 1,
+      "xTweets": 3,
+      "verified": false,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "GIFTWRAP（@giftwrapfi / 站点 https://giftwrapfi.xyz/）自称用一条链接赠送 Robinhood 股票代币（示例 NVDA / SPY / TSLA，$5–$500）：包装时买入，对方点 Claim 时才为其生成钱包并揭示份额，未领取会退回。官网 HTTPS 200，页面写 Purchases in this build are marked SIMULATION，故当前构建为模拟，不能当成已上线真实购买。$GIFTWRAP 本轮未核到合约。giftwrap.fi 本轮 TLS unexpected eof，不以该域名为准。@giftwrapfi 于 2026-11-27 17:31:15 CST 建号，1 粉 / 3 帖，xUserId 2126246931076927488，资料栏无 URL。今日 18:42 CST 在 #alpha-3-new-accounts 被记为关注 @robinhoodcrypto。赠送流程未实测。不是免费 mint。DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model。",
+      "blurb": "今日建号（1粉），站点 giftwrapfi.xyz 自称用链接赠送股票代币、对方无需先建钱包，但页面标明本构建为 SIMULATION；$GIFTWRAP 合约未公布，流程未实测。",
+      "highlights": [
+        "官网 https://giftwrapfi.xyz/（https 200）自称包装时买入股票代币，用一条链接赠送，对方点 Claim 时才生成钱包",
+        "页面写 Purchases in this build are marked SIMULATION，当前构建为模拟；$GIFTWRAP 本轮未核到合约",
+        "X 于今日 17:31 CST 建号，1 粉 / 3 帖"
+      ],
+      "drawbacks": [
+        "官网标明本构建为 SIMULATION，不是已上线真买",
+        "$GIFTWRAP 合约未公布，流程未实测",
+        "DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 95,
+        "actionable": 68,
+        "novelty": 80,
+        "risk": 78,
+        "overall": 71
+      },
+      "earlyScore": 95,
+      "overall": 71,
+      "score": 71,
+      "riskScore": 78,
+      "tags": [
+        "discord-alpha",
+        "Robinhood",
+        "GIFTWRAP",
+        "有官推",
+        "有官网",
+        "CA未公布",
+        "R2292"
+      ],
+      "links": {
+        "website": "https://giftwrapfi.xyz/",
+        "site": "https://giftwrapfi.xyz/",
+        "x": "https://x.com/giftwrapfi",
+        "twitter": "https://x.com/giftwrapfi"
+      },
+      "caUnverified": true,
+      "round": 2292,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 19:21 CST",
+      "addedAt": "2026-11-27 19:21 CST",
+      "lastChecked": "2026-11-27 19:21 CST",
+      "whatsNew": "【R2292】Discord alpha 补漏新收录。今日建号（1粉），站点 giftwrapfi.xyz 自称用链接赠送股票代币，但页面标明 SIMULATION；$GIFTWRAP 合约未公布。DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model"
+    },
+    {
+      "id": "kinfoldhq",
+      "name": "Kinfold",
+      "handle": "@kinfoldhq",
+      "twitter": "@kinfoldhq",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-27 15:52:22 CST",
+      "xUserId": "2126221870072795136",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "Robinhood",
+      "ecosystem": "Robinhood",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 1,
+      "xFollowers": 1,
+      "xTweets": 3,
+      "verified": false,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "Kinfold（@kinfoldhq / 站点 https://kinfoldhq.xyz/）自称在 Robinhood Chain 上让群组共同持有一个股票代币组合：汇入 USDG、用明文发起动议、各自钱包联署（称 2/3 通过、12 小时冷却）、随时按份额退出，并写 0 admin keys。官网 HTTPS 200（www 200），标题 Kinfold · Invest together, on-chain，顶部写 Beta live on Robinhood Chain · up to $25k per circle；同日官帖写 Coming soon / No admin keys，与官网「Beta live」表述不一致，产品未实测。$FOLD 本轮未核到合约。资料栏展开 URL 曾出现 typo 域名 kindfoldhq.xyz（https 失败），官帖与可打开站点为 https://kinfoldhq.xyz/。@kinfoldhq 于 2026-11-27 15:52:22 CST 建号，1 粉 / 3 帖，xUserId 2126221870072795136。今日 18:36 CST 在 #alpha-3-new-accounts 被记为关注 @robinhoodcrypto。不是免费 mint。DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model。",
+      "blurb": "今日建号（1粉），站点 kinfoldhq.xyz 自称群组共同持仓股票代币、2/3 联署通过；官帖写 Coming soon、官网写 Beta live，$FOLD 合约未公布，产品未实测。",
+      "highlights": [
+        "官网 https://kinfoldhq.xyz/（https 200，www 200）自称汇入 USDG、动议+联署、自由退出，并写 0 admin keys、单圈上限 $25k",
+        "官网写 Beta live，同日官帖写 Coming soon，表述不一致；$FOLD 本轮未核到合约",
+        "X 于今日 15:52 CST 建号，1 粉 / 3 帖；资料栏 typo 域名 kindfoldhq.xyz 打不开，以 kinfoldhq.xyz 为准"
+      ],
+      "drawbacks": [
+        "官帖 Coming soon 与官网 Beta live 不一致，产品未实测",
+        "$FOLD 合约未公布",
+        "DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 95,
+        "actionable": 72,
+        "novelty": 78,
+        "risk": 76,
+        "overall": 72
+      },
+      "earlyScore": 95,
+      "overall": 72,
+      "score": 72,
+      "riskScore": 76,
+      "tags": [
+        "discord-alpha",
+        "Robinhood",
+        "FOLD",
+        "有官推",
+        "有官网",
+        "CA未公布",
+        "R2292"
+      ],
+      "links": {
+        "website": "https://kinfoldhq.xyz/",
+        "site": "https://kinfoldhq.xyz/",
+        "x": "https://x.com/kinfoldhq",
+        "twitter": "https://x.com/kinfoldhq"
+      },
+      "caUnverified": true,
+      "round": 2292,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 19:21 CST",
+      "addedAt": "2026-11-27 19:21 CST",
+      "lastChecked": "2026-11-27 19:21 CST",
+      "whatsNew": "【R2292】Discord alpha 补漏新收录。今日建号（1粉），站点 kinfoldhq.xyz 自称群组共同持仓；$FOLD 合约未公布，官帖 Coming soon 与官网 Beta live 不一致，产品未实测。DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model"
+    },
+    {
+      "id": "mavro-fi",
+      "name": "Mavro",
+      "handle": "@mavro_fi",
+      "twitter": "@mavro_fi",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-27 18:38:38 CST",
+      "xUserId": "2126264045603020800",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "Robinhood",
+      "ecosystem": "Robinhood",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 3,
+      "xFollowers": 3,
+      "xTweets": 4,
+      "verified": false,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "Mavro（@mavro_fi / 站点 https://mavrofi.xyz/）自称 Robinhood Chain 上的链上账本/侦察工具：输入代币或钱包地址后追踪部署者历史、资金路径（自称最多两跳原生 ETH）和字节码指纹，并写明不做所有权指控。官网 HTTPS 200（www 200，http 500），标题 MAVRO — The Underground Onchain Ledger，正文可见 Chain ID 4663 / Robinhood；$MAVRO 有 Buy 入口，本轮静态页未抓到可核验合约，caUnverified=true。@mavro_fi 于 2026-11-27 18:38:38 CST 建号，3 粉 / 4 帖，xUserId 2126264045603020800，资料栏 URL 指向 http://mavrofi.xyz。今日 18:42 CST 在 #alpha-3-new-accounts 被记为关注 @robinhoodcrypto。查询工具与代币均未实测。不是免费 mint。DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model。",
+      "blurb": "今日建号（3粉），站点 mavrofi.xyz 自称在 Robinhood Chain 上追溯部署者和资金路径；$MAVRO 合约未核到，产品未实测。",
+      "highlights": [
+        "官网 https://mavrofi.xyz/（https 200，www 200，http 500）自称输入地址即可查部署者历史、资金路径和字节码指纹，并写 Chain ID 4663",
+        "官帖称 $MAVRO，本轮静态页未抓到可核验合约（caUnverified=true）",
+        "X 于今日 18:38 CST 建号，3 粉 / 4 帖"
+      ],
+      "drawbacks": [
+        "$MAVRO 合约本轮未核到",
+        "查询深度、准确性与代币均未实测",
+        "DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 95,
+        "actionable": 80,
+        "novelty": 76,
+        "risk": 74,
+        "overall": 74
+      },
+      "earlyScore": 95,
+      "overall": 74,
+      "score": 74,
+      "riskScore": 74,
+      "tags": [
+        "discord-alpha",
+        "Robinhood",
+        "MAVRO",
+        "有官推",
+        "有官网",
+        "CA未公布",
+        "R2292"
+      ],
+      "links": {
+        "website": "https://mavrofi.xyz/",
+        "site": "https://mavrofi.xyz/",
+        "x": "https://x.com/mavro_fi",
+        "twitter": "https://x.com/mavro_fi"
+      },
+      "caUnverified": true,
+      "round": 2292,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 19:21 CST",
+      "addedAt": "2026-11-27 19:21 CST",
+      "lastChecked": "2026-11-27 19:21 CST",
+      "whatsNew": "【R2292】Discord alpha 补漏新收录。今日建号（3粉），站点 mavrofi.xyz 自称链上追溯部署者和资金路径；$MAVRO 合约未核到。产品未实测。DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model"
+    },
+    {
+      "id": "centauridesk",
+      "name": "Centauri",
+      "handle": "@centauridesk",
+      "twitter": "@centauridesk",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-27 17:27:40 CST",
+      "xUserId": "2126246381375692800",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "Robinhood",
+      "ecosystem": "Robinhood",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 2,
+      "xFollowers": 2,
+      "xTweets": 1,
+      "verified": true,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "Centauri（@centauridesk / 站点 https://centauridesk.trade/）自称在 Robinhood Chain 上为已毕业的 Pons 代币提供卖单桌：把限价卖单放进该代币的 Uniswap v4 主池，买单触及后成交，并称市价卖出会负担的 1% Pons 手续费和创作者税不会从卖家所得里扣。官网 HTTPS 200（www 200），标题 Centauri — Aim your exit. Buyers fill it.；$CENTAURI 写 Not issued yet，称合约地址会最先公布在官网，发射时间在 X 宣布，本轮未核到合约。@centauridesk 于 2026-11-27 17:27:40 CST 建号，2 粉 / 1 帖，X 接口 verified=true，xUserId 2126246381375692800，资料栏 URL 指向 https://centauridesk.trade。今日 18:43 CST 在 #alpha-3-new-accounts 被记为关注 @ponsdotfamily、@robinhoodcrypto 与 @robinhoodapp。卖单桌与代币均未实测。不是免费 mint。DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model。",
+      "blurb": "今日建号（2粉），站点 centauridesk.trade 自称在毕业后的 Pons 代币 Uniswap v4 主池里挂限价卖单；$CENTAURI 尚未发行，产品未实测。",
+      "highlights": [
+        "官网 https://centauridesk.trade/（https 200，www 200）自称把限价卖单放进已毕业 Pons 代币的 Uniswap v4 主池，由买单成交",
+        "官网写 $CENTAURI Not issued yet，合约将先在该站公布，发射时间在 X 宣布，本轮未核到合约",
+        "X 于今日 17:27 CST 建号，2 粉 / 1 帖，蓝标"
+      ],
+      "drawbacks": [
+        "$CENTAURI 尚未发行，无合约可核",
+        "卖单桌未实测，手续费与税负表述未经链上核对",
+        "DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 95,
+        "actionable": 70,
+        "novelty": 78,
+        "risk": 74,
+        "overall": 72
+      },
+      "earlyScore": 95,
+      "overall": 72,
+      "score": 72,
+      "riskScore": 74,
+      "tags": [
+        "discord-alpha",
+        "Robinhood",
+        "CENTAURI",
+        "有官推",
+        "有官网",
+        "CA未公布",
+        "R2292"
+      ],
+      "links": {
+        "website": "https://centauridesk.trade/",
+        "site": "https://centauridesk.trade/",
+        "x": "https://x.com/centauridesk",
+        "twitter": "https://x.com/centauridesk"
+      },
+      "caUnverified": true,
+      "round": 2292,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 19:21 CST",
+      "addedAt": "2026-11-27 19:21 CST",
+      "lastChecked": "2026-11-27 19:21 CST",
+      "whatsNew": "【R2292】Discord alpha 补漏新收录。今日建号（2粉），站点 centauridesk.trade 自称在毕业后的 Pons 代币主池里挂限价卖单；$CENTAURI 尚未发行。产品未实测。DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model"
+    },
+    {
+      "id": "paidtag-xyz",
+      "name": "PaidTag",
+      "handle": "@paidtag_xyz",
+      "twitter": "@paidtag_xyz",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-25 22:10:25 CST",
+      "xUserId": "2125592521082290176",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "Robinhood",
+      "ecosystem": "Robinhood",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 20,
+      "xFollowers": 20,
+      "xTweets": 1,
+      "verified": true,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "PaidTag（@paidtag_xyz / 站点 https://paidtag.xyz/）自称在 Robinhood Chain 上付费购买 AI agent 的真实工作：向 agent 发相同盲测任务并打分，且称一半任务的答案可在链上自行核验。官网 HTTPS 200（www 200，http 500），标题 PaidTag: graded AI agents on Robinhood Chain；页面展示 Report No. 1（27 Nov 2026，Block 124,167,648），写 12 个 agent 测试、24 次付费调用、6 个链上 key，并写下一轮为 tomorrow at 10:00 UTC（即 2026-11-28 18:00 CST）。$PAIDTAG 仅见发行说明入口，本轮未核到合约。@paidtag_xyz 于 2026-11-25 22:10:25 CST 建号，20 粉 / 1 帖，X 接口 verified=true，xUserId 2125592521082290176，资料栏 URL 指向 http://paidtag.xyz。今日 18:48 CST 在 #alpha-3-new-accounts 被记为关注 @robinhoodcrypto。打分、付费调用与代币均未实测。不是免费 mint。DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model。",
+      "blurb": "11-25 建号（20粉），站点 paidtag.xyz 自称在 Robinhood Chain 上购买并盲测打分 AI agent，已展示第 1 期报告，下轮明日 18:00 CST；$PAIDTAG 合约未公布，产品未实测。",
+      "highlights": [
+        "官网 https://paidtag.xyz/（https 200，www 200，http 500）自称付费购买并盲测打分 Robinhood Chain 上的 AI agent，一半任务自称可链上核验",
+        "页面展示 Report No. 1（27 Nov 2026 / Block 124,167,648），写 12 个 agent、24 次付费调用；下轮写明日 10:00 UTC（18:00 CST）",
+        "X 于 11-25 22:10 CST 建号，20 粉 / 1 帖，蓝标；$PAIDTAG 本轮未核到合约"
+      ],
+      "drawbacks": [
+        "$PAIDTAG 合约未公布",
+        "打分流程、付费调用与链上核验均未实测",
+        "DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 88,
+        "actionable": 82,
+        "novelty": 80,
+        "risk": 70,
+        "overall": 73
+      },
+      "earlyScore": 88,
+      "overall": 73,
+      "score": 73,
+      "riskScore": 70,
+      "tags": [
+        "discord-alpha",
+        "Robinhood",
+        "PAIDTAG",
+        "AI代理",
+        "有官推",
+        "有官网",
+        "CA未公布",
+        "R2292"
+      ],
+      "links": {
+        "website": "https://paidtag.xyz/",
+        "site": "https://paidtag.xyz/",
+        "x": "https://x.com/paidtag_xyz",
+        "twitter": "https://x.com/paidtag_xyz"
+      },
+      "caUnverified": true,
+      "round": 2292,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 19:21 CST",
+      "addedAt": "2026-11-27 19:21 CST",
+      "lastChecked": "2026-11-27 19:21 CST",
+      "whatsNew": "【R2292】Discord alpha 补漏新收录。11-25 建号（20粉），站点 paidtag.xyz 自称购买并盲测打分链上 AI agent，已展示第 1 期报告，下轮明日 18:00 CST；$PAIDTAG 合约未公布。产品未实测。DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model",
+      "schedule": {
+        "label": "下一测试轮 2026-11-28 18:00 CST（站点写 tomorrow 10:00 UTC）",
+        "le2h": false
+      }
+    },
+    {
+      "id": "antstripe",
+      "name": "Antstripe",
+      "handle": "@antstripe",
+      "twitter": "@antstripe",
+      "hasTwitter": true,
+      "accountCreatedCST": "2026-11-27 12:19:05 CST",
+      "xUserId": "2126168690718834688",
+      "chain": "Robinhood",
+      "category": "台子/Meme",
+      "zone": "台子/Meme",
+      "zoneHint": "Robinhood",
+      "ecosystem": "Robinhood",
+      "status": "watching",
+      "focus": false,
+      "lzVerified": false,
+      "followers": 1,
+      "xFollowers": 1,
+      "xTweets": 2,
+      "verified": true,
+      "source": "discord-alpha",
+      "freeLIVE": false,
+      "freeMintLIVE": false,
+      "freeRegistration": false,
+      "selfClaimedFreeMint": false,
+      "summary": "Antstripe（@antstripe / 站点 https://antstripe.xyz/）自称在 Robinhood Chain 上跑 6 个纸上交易代理：5 个规则代理 + 1 个 AI 代理 Cortex，每小时读取 Lighter 的 8 个加密和 24 个股票永续行情，每笔成交带理由并哈希串联，且每小时往链上密封一笔。官网 HTTPS 200（www 200，http 500），标题 Antstripe · Every candle, stalked，写明无需注册或钱包即可观看，并有核对成交的验证页；$ANTSTRIPE 写 CA coming soon，本轮未核到合约。@antstripe 于 2026-11-27 12:19:05 CST 建号，1 粉 / 2 帖，X 接口 verified=true，xUserId 2126168690718834688，资料栏 URL 指向 http://antstripe.xyz。今日 18:57 CST 在 #alpha-3-new-accounts 被记为关注 @ponsdotfamily。纸上交易、密封上链与代币均未实测。不是免费 mint。DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model。",
+      "blurb": "今日建号（1粉），站点 antstripe.xyz 自称 6 个代理按小时纸上交易 Lighter 行情并每小时上链密封；$ANTSTRIPE 官网写 CA coming soon，产品未实测。",
+      "highlights": [
+        "官网 https://antstripe.xyz/（https 200，www 200，http 500）自称 5 个规则代理 + Cortex，每小时读 Lighter 的 8 个加密和 24 个股票永续并纸上成交、哈希串联、每小时密封上链",
+        "官网写无需注册或钱包即可观看，并有成交验证入口；$ANTSTRIPE 写 CA coming soon，本轮未核到合约",
+        "X 于今日 12:19 CST 建号，1 粉 / 2 帖，蓝标"
+      ],
+      "drawbacks": [
+        "$ANTSTRIPE 合约未公布",
+        "纸上交易、密封上链与代币均未实测，极早期号风险高",
+        "DeepSeek HTTP 401，评分与文案为本地兜底"
+      ],
+      "scores": {
+        "early": 95,
+        "actionable": 78,
+        "novelty": 82,
+        "risk": 72,
+        "overall": 75
+      },
+      "earlyScore": 95,
+      "overall": 75,
+      "score": 75,
+      "riskScore": 72,
+      "tags": [
+        "discord-alpha",
+        "Robinhood",
+        "ANTSTRIPE",
+        "AI代理",
+        "有官推",
+        "有官网",
+        "CA未公布",
+        "R2292"
+      ],
+      "links": {
+        "website": "https://antstripe.xyz/",
+        "site": "https://antstripe.xyz/",
+        "x": "https://x.com/antstripe",
+        "twitter": "https://x.com/antstripe"
+      },
+      "caUnverified": true,
+      "round": 2292,
+      "newThisRound": true,
+      "firstSeen": "2026-11-27 19:21 CST",
+      "addedAt": "2026-11-27 19:21 CST",
+      "lastChecked": "2026-11-27 19:21 CST",
+      "whatsNew": "【R2292】Discord alpha 补漏新收录。今日建号（1粉），站点 antstripe.xyz 自称 6 个代理按小时纸上交易 Lighter 行情并每小时上链密封；$ANTSTRIPE CA coming soon。产品未实测。DeepSeek HTTP 401，判断与文案为 dsFallback。",
+      "dsFallback": true,
+      "dsReason": "DeepSeek HTTP 401 Authentication Fails, invalid api key (request_id 85f573c2-3cb2-4770-86f8-bd766df14e78); local fallback; no high-cost model",
+      "siteXMutualNote": "官网可见 X / Telegram / Buy on Pons 入口；本轮未逐页核对是否回链本官推。"
+    },
     {
       "id": "makodesk",
       "name": "Mako Desk",
@@ -380744,16 +381957,31 @@
       "lastChecked": "2026-11-27 16:17:23 CST"
     }
   ],
-  "newThisRound": [],
-  "alertMessage": "【早期打新雷达 R2291】Lamoryant（@Lamoryant）官帖 19:00:04 CST 宣布铸造已 LIVE（1000 份，instant reveal）。OpenSea 合集 https://opensea.io/collection/lamoryant- 显示 Minting now，128/1000，持有 75。OG 阶段页面写 Free（需 allowlist，1/钱包），白名单 0.001 ETH，公售 0.0012 ETH，不是无门槛免费公售。官网铸页 https://lamoryant.com/mint 本轮仍显示倒计时，以官帖和 OpenSea 为准。本号不自动 mint。面板：https://reboot7454.github.io/early-scout/",
+  "newThisRound": [
+    "antstripe",
+    "paidtag-xyz",
+    "centauridesk",
+    "mavro-fi",
+    "kinfoldhq",
+    "giftwrapfi",
+    "totehq",
+    "clearancedesk",
+    "receptafi",
+    "pactlyfi",
+    "tenfoldlol",
+    "clashofcatss",
+    "hushonrh",
+    "kinagent"
+  ],
+  "alertMessage": "DC补漏R2292新收14（台子/Meme 14）：Antstripe @antstripe，Robinhood Chain，站点 https://antstripe.xyz/，自称 6 个代理按小时纸上交易 Lighter 行情并每小时上链密封，$ANTSTRIPE 官网写 CA coming soon；PaidTag @paidtag_xyz，Robinhood Chain，站点 https://paidtag.xyz/，自称购买并盲测打分链上 AI agent，站点展示第 1 期报告，下轮明日 18:00 CST，$PAIDTAG 未公布合约；Centauri @centauridesk，Robinhood Chain，站点 https://centauridesk.trade/，自称在毕业后的 Pons 代币主池里挂限价卖单，$CENTAURI 尚未发行；Mavro @mavro_fi，Robinhood Chain，站点 https://mavrofi.xyz/，自称链上追溯部署者和资金路径，$MAVRO 合约未核到；Kinfold @kinfoldhq，Robinhood Chain，站点 https://kinfoldhq.xyz/，自称群组共同持仓股票代币，官帖写 Coming soon、官网写 Beta live，$FOLD 合约未公布，产品未实测；GIFTWRAP @giftwrapfi，Robinhood Chain，站点 https://giftwrapfi.xyz/，自称用链接赠送股票代币，页面标明本构建为 SIMULATION；TOTE @totehq，Robinhood Chain，站点 https://totehq.xyz/，自称一笔交易打包最多 8 只股票代币并转到新地址，$TOTE 待上线；Clearance @ClearanceDesk_，Robinhood Chain，站点 https://clearancedesk.xyz/，自称密封挂出股票代币买入价，$CLEAR 待上线；RECEPTA @receptafi，Robinhood Chain，站点 https://receptafi.xyz/，自称 OpenAI 兼容网关、公开收据只记哈希不记原文，$RECEPTA 未核到合约；Pactly @pactlyFi，站点 https://www.pactlyfi.xyz/，自称在 Hyperliquid 上组队提案投票后各自下单，CA 0x4add08acd902e2B6f0076fE22Cd33887f73FaB32 已在 Elysium RPC（chainId 99901）核到 Pactly/PACTLY、约 10 亿 18 位，DexScreener 主池写盘时约 $14.1k / 流动性约 $9.7k，官方生态页本轮 429 故不进 Elysium 栏；Tenfold @tenfoldlol，站点 https://tenfold.lol/，自称 Elysium 前 10 代币指数、持有 $TEN 按轮空投，CA 0xA74B241828A24ff84Bed1E9b8D641bdABa237d78 已核到 Tenfold/TEN、约 10 亿 18 位，DexScreener 主池写盘时约 $25.0k / 流动性约 $14.1k / 24h 约 $85.1k，官方生态页 429 故不进 Elysium 栏；Clash Of Cats @ClashOfCatss，Solana，站点 https://coconsol.fun/，CA DGbxdwcTUJNbA4pcgoxTWT8hcrNZNQYpCAzAG4wFpump 已核到 Clash of Cats/COC、10 亿 6 位 Token-2022，仍在 pumpfun，写盘时市值约 $2.3k、24h 约 $1.3k，游戏站点正文几乎为空、玩法未实测；Hush @hushonrh，Robinhood Chain，自称给钱包和 AI agent 做密封消息，官网 https://hushonrh.xyz 本轮 TLS 失败未打开；KINAGENT @KINAGENT_，BSC，CA 0x30c31344eBb4Fe68908dFB0BE5Ef6A58Fc2d7777 已核到 KINAGENT/KINAGENT、10 亿 18 位，Flap.sh 写盘时市值约 $3.1k、流动性约 $6.9k，X 账号 2013 年注册、近期才发产品帖。全部 focus 否。DeepSeek HTTP 401，本地兜底，未改用高成本模型。面板 https://reboot7454.github.io/early-scout/",
   "roundNAdded": [],
-  "updatedAt": "2026-11-27 19:10:00 CST",
-  "updated": "2026-11-27 19:10:00 CST",
+  "updatedAt": "2026-11-27 19:21 CST",
+  "updated": "2026-11-27 19:21 CST",
   "round365Added": [
     "nockd",
     "inkora"
   ],
-  "lastScout": "2026-11-27 19:10:00 CST",
+  "lastScout": "2026-11-27 19:21 CST",
   "round366Added": [
     "onagi",
     "lecki-cats"
@@ -380795,7 +382023,7 @@
     "farthing-pad",
     "meme-os"
   ],
-  "candidateCount": 5057,
+  "candidateCount": 5073,
   "round376Added": [
     "build-ai",
     "thankful-pad",
@@ -385949,5 +387177,21 @@
     "makodesk",
     "loov-world"
   ],
-  "round2291Added": []
+  "round2291Added": [],
+  "round2292Added": [
+    "antstripe",
+    "paidtag-xyz",
+    "centauridesk",
+    "mavro-fi",
+    "kinfoldhq",
+    "giftwrapfi",
+    "totehq",
+    "clearancedesk",
+    "receptafi",
+    "pactlyfi",
+    "tenfoldlol",
+    "clashofcatss",
+    "hushonrh",
+    "kinagent"
+  ]
 }
