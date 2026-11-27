@@ -138,12 +138,15 @@
     "noteR2278": "R2278 为 X 雷达轮。同一时段 R2277 已完成 Discord alpha 补漏（loginOk=true，四频道 Peek，新收 26 项已通知），本轮未再打开浏览器。R2277 26 张新卡当时未挂任何 Watch，本轮已补进 userFollowWatch 及对应栏 Watch，不当作新收录重推。积压缺口仍在：alpha-3 11-23 22:55→11-27 05:20；smart 11-23 22:56→11-25 00:25；alpha-1 11-23 22:19→11-25 20:50。下一轮小时 DC 补扫继续翻，不必立刻再弹登录表。"
   },
   "push": {
-    "attempted": false,
-    "ok": false
+    "attempted": true,
+    "ok": true,
+    "remote": "origin/main",
+    "sha": "443d241ba92d3ca3c789e05b62eda9658b1954b6",
+    "short": "443d241"
   },
   "panel": "https://reboot7454.github.io/early-scout/",
   "summary": "R2282：Discord alpha 补收 noderaprotocol；清 latebra；lastSeenByChannel→{'alpha-3-new-accounts': '2026-11-27 15:59', 'alpha-1-backup': '2026-11-27 15:54', 'smart-accounts-tracker': '2026-11-27 14:37', 'alpha-1': '2026-11-27 15:55'}；cards=52 incremental，未补扫积压；lastChecked→2026-11-27 16:10 CST；dsFallback=true；loginOk=true；spideyPosting=true",
-  "remoteVerified": false,
+  "remoteVerified": true,
   "cardsFile": "dc40_cards_r2282.json",
   "priorRoundNote": "R2281 meta NTR ['latebra']",
   "lastSeenByChannel": {
@@ -224,5 +227,7 @@
     }
   ],
   "rejectedCount": 41,
-  "rejectedNote": "42 unique new handles after 4 already-in-index (@botinthehood, @helena_agent, @outrider_fi, @plunderport); admitted 1 (@getnodera as noderaprotocol); rejected 41 including same-project alt @usenodera, already-listed bot @o1_bot, empty shells @zenoprivate/@GSXM_Official, spam-bio @SkaterzHQ, and high-fol @valenttt____/@thejasich/@nordmotion. Did not invent cards for @noderaprotocol (prior official, merged into this card) or CatnipCan's GOOMBA/TrashCats tokens."
+  "rejectedNote": "42 unique new handles after 4 already-in-index (@botinthehood, @helena_agent, @outrider_fi, @plunderport); admitted 1 (@getnodera as noderaprotocol); rejected 41 including same-project alt @usenodera, already-listed bot @o1_bot, empty shells @zenoprivate/@GSXM_Official, spam-bio @SkaterzHQ, and high-fol @valenttt____/@thejasich/@nordmotion. Did not invent cards for @noderaprotocol (prior official, merged into this card) or CatnipCan's GOOMBA/TrashCats tokens.",
+  "commit": "443d241ba92d3ca3c789e05b62eda9658b1954b6",
+  "commitSha": "443d241ba92d3ca3c789e05b62eda9658b1954b6"
 }

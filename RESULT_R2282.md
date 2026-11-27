@@ -15,3 +15,4 @@
 - 其余新 handle 按预过滤拒收（个人号、高粉 @valenttt____/@thejasich/@nordmotion、宣传/空壳）。
 - 未改 focus，未把普通补漏卡送进重点条，未进 Elysium 栏。未把 7 月 noxa 同名 ERC-404 或 getnodera.app（n8n 应用）写入本卡。
 
+- 推送：origin/main 443d241（443d241ba92d3ca3c789e05b62eda9658b1954b6），remoteVerified=true
