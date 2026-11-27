@@ -16,3 +16,5 @@
 - 拒收（核验后）：@SkaterzHQ 仍为空壳（与 R2282 相同）；@WaterCreditCoin 的 X 账号已查无；@TradeRopeHQ 为 CEX 复盘 SaaS；@usesentinel_、@LastCallGame、@BusyNads 为无官网/CA 的预告或空壳；@Dig2Earn_fun 无可用官网；@Thenoonesnft 只在评论区收钱包；@HumoOnSol 为 2022 旧号、CA 未公布的预热。其余新 handle 按预过滤拒收（个人号、空简介、互粉号）。@LastCallGame 与库内 LASTCALL @LastCall4vx 不是同一项目。
 - 未改 focus，未把普通补漏卡送进重点条，未进 Elysium/LayerZero 栏。CoenpiMarkets 推文亦称 Ponymarket，域名 pncoemarkets.fun。Yovalt/Coenpi DexScreener 本轮无交易对，仍以 Robinhood RPC 核验为准。Enter The Manga 的 266 已铸来自 OpenSea 页面，合约未链上核验。
 
+
+- 推送：origin/main dbe1ce3（dbe1ce30da25ae24a07a3c16d7cca165e8696f60），remoteVerified=true
